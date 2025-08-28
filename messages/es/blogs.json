@@ -57,29 +57,28 @@
                 "description": "Lograr los objetivos de tu organización es una responsabilidad compartida por todo tu equipo. Cuando la estrategia de tu equipo se alinea con sus metas y los objetivos organizacionales, hacer lo correcto se vuelve instintivo."
             }
         ],
-       "faqData": [
-  {
-    "question": "1. ¿Qué hace que Agentforce sea diferente de otras soluciones de IA para manufactura?",
-    "answer": "Agentforce está construido de manera nativa sobre Salesforce y diseñado para su uso operativo en entornos de manufactura. A diferencia de las soluciones de IA genéricas, cuenta con agentes capacitados en la industria que gestionan de manera eficiente tareas como la gestión de la cadena de suministro, programación de servicios, reclamaciones de garantía y soporte a socios, sin necesidad de código personalizado."
-  },
-  {
-    "question": "2. ¿Puede Agentforce integrarse con nuestro Salesforce CPQ o Manufacturing Cloud existente?",
-    "answer": "Sí. Agentforce se integra de manera fluida con Salesforce CPQ, Manufacturing Cloud y otras soluciones nativas de Salesforce, conectándose a su catálogo de productos, motor de precios, contratos y flujos de trabajo. Esto permite que sus agentes de IA coticen, configuren y brinden soporte en tiempo real utilizando datos empresariales y lógica actualizados."
-  },
-  {
-    "question": "3. ¿Cómo los agentes de IA en Agentforce mejoran el tiempo de actividad y reducen la carga manual?",
-    "answer": "Agentforce se conecta con Field Service, señales IoT e historiales de servicio para identificar y señalar proactivamente posibles problemas antes de que provoquen interrupciones. Automatiza flujos de trabajo clave como programación de despachos, pedidos de piezas e inicio de reclamaciones, reduciendo significativamente fallos y la carga manual."
-  },
-  {
-    "question": "4. ¿Cómo ayuda Agentforce a mejorar la satisfacción del cliente?",
-    "answer": "Agentforce ofrece respuestas rápidas y precisas a clientes y socios a través de agentes de IA 24/7, eliminando tiempos de espera y seguimientos. Ya sea rastrear un pedido, programar un servicio o recuperar manuales de productos, Agentforce proporciona una experiencia de autoservicio consistente y fluida en web, móvil, WhatsApp y SMS."
-  },
-  {
-    "question": "5. ¿Agentforce es adecuado para empresas manufactureras medianas o solo para grandes corporaciones?",
-    "answer": "Agentforce está diseñado para ser escalable, lo que lo hace perfecto tanto para empresas medianas como para grandes corporaciones. Puede comenzar de manera pequeña, automatizando flujos clave, y expandirse con el tiempo, sin necesidad de cambios masivos en la infraestructura. Disfrute de soporte más rápido, operaciones más inteligentes y un ROI claro a medida que su negocio crece."
-  }
-]
-,
+        "faqData": [
+            {
+                "question": "1. ¿Qué hace que Agentforce sea diferente de otras soluciones de IA para manufactura?",
+                "answer": "Agentforce está construido de manera nativa sobre Salesforce y diseñado para su uso operativo en entornos de manufactura. A diferencia de las soluciones de IA genéricas, cuenta con agentes capacitados en la industria que gestionan de manera eficiente tareas como la gestión de la cadena de suministro, programación de servicios, reclamaciones de garantía y soporte a socios, sin necesidad de código personalizado."
+            },
+            {
+                "question": "2. ¿Puede Agentforce integrarse con nuestro Salesforce CPQ o Manufacturing Cloud existente?",
+                "answer": "Sí. Agentforce se integra de manera fluida con Salesforce CPQ, Manufacturing Cloud y otras soluciones nativas de Salesforce, conectándose a su catálogo de productos, motor de precios, contratos y flujos de trabajo. Esto permite que sus agentes de IA coticen, configuren y brinden soporte en tiempo real utilizando datos empresariales y lógica actualizados."
+            },
+            {
+                "question": "3. ¿Cómo los agentes de IA en Agentforce mejoran el tiempo de actividad y reducen la carga manual?",
+                "answer": "Agentforce se conecta con Field Service, señales IoT e historiales de servicio para identificar y señalar proactivamente posibles problemas antes de que provoquen interrupciones. Automatiza flujos de trabajo clave como programación de despachos, pedidos de piezas e inicio de reclamaciones, reduciendo significativamente fallos y la carga manual."
+            },
+            {
+                "question": "4. ¿Cómo ayuda Agentforce a mejorar la satisfacción del cliente?",
+                "answer": "Agentforce ofrece respuestas rápidas y precisas a clientes y socios a través de agentes de IA 24/7, eliminando tiempos de espera y seguimientos. Ya sea rastrear un pedido, programar un servicio o recuperar manuales de productos, Agentforce proporciona una experiencia de autoservicio consistente y fluida en web, móvil, WhatsApp y SMS."
+            },
+            {
+                "question": "5. ¿Agentforce es adecuado para empresas manufactureras medianas o solo para grandes corporaciones?",
+                "answer": "Agentforce está diseñado para ser escalable, lo que lo hace perfecto tanto para empresas medianas como para grandes corporaciones. Puede comenzar de manera pequeña, automatizando flujos clave, y expandirse con el tiempo, sin necesidad de cambios masivos en la infraestructura. Disfrute de soporte más rápido, operaciones más inteligentes y un ROI claro a medida que su negocio crece."
+            }
+        ],
         "copilotData": [
             "Catálogos de SKU y piezas",
             "Acuerdos de nivel de servicio y reglas de derechos",
@@ -3077,110 +3076,339 @@
         "gettingLink": "Dreamforce",
         "gettingDesc2": "Las empresas pueden aprovechar Agentforce dentro de la plataforma Salesforce automatizando flujos de trabajo de ventas, mejorando la gestión de clientes potenciales y optimizando las interacciones con los clientes. Rialtes está especializada en",
         "gettingLink2": " soluciones de IA y análisis en Salesforce",
-        "gettingDesc3":  "y hemos ayudado a los clientes a lograr importantes incrementos de productividad mediante el uso de herramientas basadas en IA para mejorar sus procesos empresariales."
+        "gettingDesc3": "y hemos ayudado a los clientes a lograr importantes incrementos de productividad mediante el uso de herramientas basadas en IA para mejorar sus procesos empresariales."
     },
     "agriculture": {
-    "blogTopic": "Tecnología Verde",
-    "blogs": [
-        {
-            "id": 1,
-            "image": "/images/blog/blog-1.webp",
-            "category": "Salesforce Agentforce",
-            "industry": "Genérico",
-            "date": "30 Sept 2024",
-            "url": "how-salesforce-agentforce-actually-works",
-            "title": "Cómo Funciona Realmente Salesforce Agentforce",
-            "description": "Salesforce Agentforce, aunque es una adición más reciente al ecosistema de Salesforce, está ganando popularidad, particularmente en organizaciones que manejan grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio en campo."
-        },
-        {
-            "id": 2,
-            "image": "/images/blog/blog-2.webp",
-            "category": "Salesforce Agentforce",
-            "industry": "Genérico",
-            "date": "21 Oct 2024",
-            "title": "El Cerebro Detrás de los Agentes: Revelando el Atlas Reasoning Engine en Agentforce",
-            "description": "A medida que las empresas crecen, la complejidad de gestionar las interacciones con los clientes se multiplica, impulsando la necesidad de sistemas de soporte más inteligentes y optimizados. Salesforce Agentforce ofrece una sólida plataforma para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine."
-        },
-        {
-            "id": 3,
-            "image": "/images/blog/blog-3.webp",
-            "category": "Salesforce Agentforce",
-            "industry": "Genérico",
-            "date": "28 Oct 2024",
-            "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
-            "description": "Herramientas como Agentforce están redefiniendo cómo vemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en la automatización impulsada por inteligencia artificial y en las interfaces conversacionales, cada uno con un propósito distinto."
-        },
-        {
-            "id": 4,
-            "image": "/images/blog/blog-4.webp",
-            "category": "Salesforce Agentforce",
-            "industry": "Genérico",
-            "date": "25 Nov 2024",
-            "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
-            "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA agentic, Agentforce. Esta adición permite a los usuarios empresariales probar y monitorear agentes de IA antes de implementarlos en producción."
-        },
-        {
-            "id": 6,
-            "image": "/images/blog/blog-6.webp",
-            "category": "Tecnología Verde en la Nube",
-            "industry": "Agricultura",
-            "date": "17 Sept 2024",
-            "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
-            "description": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
-        },
-        {
-            "id": 7,
-            "image": "/images/blog/blog-7.webp",
-            "category": "SAP SuccessFactors",
-            "industry": "Recursos Humanos",
-            "date": "29 Oct 2024",
-            "title": "SAP SuccessFactors Gestión del Rendimiento y de Objetivos",
-            "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que todo tu equipo comparte. Cuando la estrategia de tu equipo se alinea con sus objetivos y con los objetivos organizacionales más amplios, hacer lo correcto se convierte en algo instintivo."
-        }
-    ],
-    "blogTitle": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
-    "blogMainData": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica. Con una creciente conciencia de los problemas medioambientales y la necesidad de gestionar mejor los recursos disponibles, las tecnologías agrícolas están ganando fuerza para mejorar la sostenibilidad y crear métodos de cultivo más efectivos. Aproximadamente el 54,6% de la fuerza laboral total está involucrada en actividades del sector agrícola y afines, y el sector representa el 17,8% del valor agregado bruto (VAB) del país.",
-    "blogMainData2": "Aunque está creciendo rápidamente, la adopción de tecnologías agrícolas emergentes y SaaS para la agricultura de precisión todavía está en sus primeras etapas en la India. Un informe de EMR indica que el mercado agrícola indio alcanzará un valor de 580,82 mil millones de dólares para 2028.",
-    "whatAgriTitle": "¿Qué es la Agricultura 4.0?",
-    "whatAgriDesc": "La agricultura moderna enfrenta desafíos como la disminución de recursos, el aumento de la demanda y el incremento de costos. La Industria 4.0 y la agricultura están estrechamente relacionadas. La Industria 4.0 es esencialmente la revolución industrial; de manera similar, la agricultura avanza hacia su cuarta revolución agrícola que utiliza tecnologías digitales para un sector agrícola más inteligente, responsable con el medio ambiente y eficiente en recursos. Incorpora la evolución de la agricultura de precisión y dirige todas las medidas tomadas en la agricultura basadas en un análisis preciso y exacto de los datos e información recopilados y transmitidos con herramientas y tecnología modernas.",
-    "whatAgriDesc2": "Los agricultores han estado buscando métodos mejorados para aumentar la productividad, controlar la generación de residuos y reducir el impacto ambiental. Estamos viendo la adopción de aplicaciones avanzadas de la Industria 4.0 en la agricultura, lo que lleva a la agricultura de precisión: un sistema de gestión agrícola que aplica nuevas tecnologías y obtiene datos aplicables para impulsar la producción. Esto incluye todos los procesos de digitalización y automatización en el negocio, como Big Data, Inteligencia Artificial (IA), robótica, aprendizaje automático, Internet de las Cosas (IoT) y realidad virtual y aumentada.",
-    "adoptingTitle": "Adoptar soluciones 4.0 en agricultura resulta en",
-    "adoptingData": [
-        "Reducir el desperdicio innecesario al estimar los requerimientos exactos de agua del cultivo o detectar con antelación ciertas enfermedades o plagas en las plantas",
-        "Automatizar y gestionar datos de las tareas que deben realizarse rápidamente y con precisión",
-        "Ahorrar tiempo y dinero al poder planificar todas las etapas de cultivo, siembra y cosecha con mayor precisión",
-        "Mejorar la trazabilidad de la cadena de suministro, lo que resulta en una cadena corta, libre de errores y sostenible capaz de producir alimentos de alta calidad."
-    ],
-    "commonData": [
-        {
-            "title": "Tecnologías que Impulsan la Agricultura 4.0",
-            "desc": "Rialtes te ayuda a aprovechar SAP para optimizar tus procesos de planificación a cosecha y servicios agrícolas, mientras aprovechas AgriDrones, sensores de cultivos basados en IoT, riego inteligente y riego robótico. Para entender el impacto de la Industria 4.0 en la agricultura, examinemos algunas de las tecnologías más importantes utilizadas en la Agricultura 4.0."
-        },
-        {
-            "title": "Drones",
-            "desc": "Hay mucho terreno por cubrir en las granjas, y los drones se están convirtiendo en un elemento esencial para la agricultura moderna. Gracias a ellos, muchas tareas ya no necesitan realizarse manualmente. Se utilizan principalmente para el mapeo de terrenos, normalmente equipados con varios sensores que les permiten recopilar datos. Las versiones más avanzadas cuentan con sensores infrarrojos y sistemas de imágenes para detectar problemas que no pueden detectarse a simple vista. Con aplicaciones adoptadas de la Industria 4.0 en la agricultura, los drones pueden proporcionar datos útiles en tiempo real sobre la fertilidad del suelo, enfermedades y madurez de las plantas."
-        },
-        {
-            "title": "Sensores",
-            "desc": "Los sensores funcionan como una extensión de la visión y recolección de datos para actividades tanto sobre como bajo tierra. Obtienen información sobre temperatura, suelo y humedad al monitorear luz, humedad, humedad del suelo, temperatura, salud de los cultivos, etc. Con esta información, puedes conocer las necesidades de los cultivos y tomar las medidas adecuadas para satisfacerlas. Pueden detectar cuándo los cultivos necesitan riego, determinar la cantidad exacta de fertilizante para cada cultivo e indicar qué productos químicos deben usarse y dónde."
-        },
-        {
-            "title": "Inteligencia Artificial",
-            "desc": "La Inteligencia Artificial se refiere a la tecnología que instruye a las máquinas para evaluar condiciones y tomar decisiones. En la agricultura, la IA ayuda a automatizar el riego, mejorar la calidad de la cosecha y detectar infecciones y plagas en las plantas para determinar el herbicida que debe usarse, haciendo que la gestión de cultivos sea precisa y efectiva. También fomenta técnicas agrícolas innovadoras como la agricultura vertical, un sistema agrícola avanzado que utiliza plenamente los recursos y aumenta la producción de alimentos en un área más pequeña."
-        },
-        {
-            "title": "Robótica",
-            "desc": "La incorporación de robots tiene una amplia gama de aplicaciones dentro de la industria agrícola. Por ejemplo, automatizar la realización de diversas tareas de mantenimiento en los campos o verificar el estado de los cultivos con sensores y tomar las medidas necesarias. Con la robótica, es posible realizar tareas complejas como medir los niveles de pH en el suelo, así como tareas más simples como plantar semillas y cosechar frutas y verduras."
-        },
-        {
-            "title": "IoT",
-            "desc": "El IoT permite que una variedad de herramientas (por ejemplo, drones, sensores o satélites) se conecten y comuniquen entre sí mediante una red de internet para recibir y transmitir datos útiles para mejorar las condiciones de desarrollo de los cultivos. Permite que los sistemas de gestión de campo conecten datos obtenidos en tiempo real de drones equipados con GPS, satélites y sensores. Los sistemas que utilizan tecnología IoT pueden ajustar automáticamente los planes de riego según los cambios en el clima."
-        }
-    ],
-    "moveTitle": "Avanza hacia Tecnologías de Agricultura Inteligente con Rialtes",
-    "moveDesc": "La agricultura es una industria orientada al mercado que emplea a un gran segmento de la población del país. La tecnología agrícola en los últimos años ha sido enormemente útil para contribuir más al crecimiento económico. Rialtes puede ayudarte a implementar soluciones agroempresariales de SAP que ayuden a preservar la fertilidad del suelo, prevenir la contaminación y proteger la biodiversidad. Utilizamos SAP AI para automatizar tareas manuales y verificar el estado de los cultivos mediante sensores.",
-    "moveLink": "Contáctanos",
-    "moveDesc2": " para implementar procesos agrícolas inteligentes basados en datos mientras gestionas la información agrícola de forma coherente en toda tu empresa con SAP BTP."
-}
-
+        "blogTopic": "Tecnología Verde",
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Cómo Funciona Realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una adición más reciente al ecosistema de Salesforce, está ganando popularidad, particularmente en organizaciones que manejan grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio en campo."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "title": "El Cerebro Detrás de los Agentes: Revelando el Atlas Reasoning Engine en Agentforce",
+                "description": "A medida que las empresas crecen, la complejidad de gestionar las interacciones con los clientes se multiplica, impulsando la necesidad de sistemas de soporte más inteligentes y optimizados. Salesforce Agentforce ofrece una sólida plataforma para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
+                "description": "Herramientas como Agentforce están redefiniendo cómo vemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en la automatización impulsada por inteligencia artificial y en las interfaces conversacionales, cada uno con un propósito distinto."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
+                "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA agentic, Agentforce. Esta adición permite a los usuarios empresariales probar y monitorear agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
+                "description": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Gestión del Rendimiento y de Objetivos",
+                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que todo tu equipo comparte. Cuando la estrategia de tu equipo se alinea con sus objetivos y con los objetivos organizacionales más amplios, hacer lo correcto se convierte en algo instintivo."
+            }
+        ],
+        "blogTitle": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
+        "blogMainData": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica. Con una creciente conciencia de los problemas medioambientales y la necesidad de gestionar mejor los recursos disponibles, las tecnologías agrícolas están ganando fuerza para mejorar la sostenibilidad y crear métodos de cultivo más efectivos. Aproximadamente el 54,6% de la fuerza laboral total está involucrada en actividades del sector agrícola y afines, y el sector representa el 17,8% del valor agregado bruto (VAB) del país.",
+        "blogMainData2": "Aunque está creciendo rápidamente, la adopción de tecnologías agrícolas emergentes y SaaS para la agricultura de precisión todavía está en sus primeras etapas en la India. Un informe de EMR indica que el mercado agrícola indio alcanzará un valor de 580,82 mil millones de dólares para 2028.",
+        "whatAgriTitle": "¿Qué es la Agricultura 4.0?",
+        "whatAgriDesc": "La agricultura moderna enfrenta desafíos como la disminución de recursos, el aumento de la demanda y el incremento de costos. La Industria 4.0 y la agricultura están estrechamente relacionadas. La Industria 4.0 es esencialmente la revolución industrial; de manera similar, la agricultura avanza hacia su cuarta revolución agrícola que utiliza tecnologías digitales para un sector agrícola más inteligente, responsable con el medio ambiente y eficiente en recursos. Incorpora la evolución de la agricultura de precisión y dirige todas las medidas tomadas en la agricultura basadas en un análisis preciso y exacto de los datos e información recopilados y transmitidos con herramientas y tecnología modernas.",
+        "whatAgriDesc2": "Los agricultores han estado buscando métodos mejorados para aumentar la productividad, controlar la generación de residuos y reducir el impacto ambiental. Estamos viendo la adopción de aplicaciones avanzadas de la Industria 4.0 en la agricultura, lo que lleva a la agricultura de precisión: un sistema de gestión agrícola que aplica nuevas tecnologías y obtiene datos aplicables para impulsar la producción. Esto incluye todos los procesos de digitalización y automatización en el negocio, como Big Data, Inteligencia Artificial (IA), robótica, aprendizaje automático, Internet de las Cosas (IoT) y realidad virtual y aumentada.",
+        "adoptingTitle": "Adoptar soluciones 4.0 en agricultura resulta en",
+        "adoptingData": [
+            "Reducir el desperdicio innecesario al estimar los requerimientos exactos de agua del cultivo o detectar con antelación ciertas enfermedades o plagas en las plantas",
+            "Automatizar y gestionar datos de las tareas que deben realizarse rápidamente y con precisión",
+            "Ahorrar tiempo y dinero al poder planificar todas las etapas de cultivo, siembra y cosecha con mayor precisión",
+            "Mejorar la trazabilidad de la cadena de suministro, lo que resulta en una cadena corta, libre de errores y sostenible capaz de producir alimentos de alta calidad."
+        ],
+        "commonData": [
+            {
+                "title": "Tecnologías que Impulsan la Agricultura 4.0",
+                "desc": "Rialtes te ayuda a aprovechar SAP para optimizar tus procesos de planificación a cosecha y servicios agrícolas, mientras aprovechas AgriDrones, sensores de cultivos basados en IoT, riego inteligente y riego robótico. Para entender el impacto de la Industria 4.0 en la agricultura, examinemos algunas de las tecnologías más importantes utilizadas en la Agricultura 4.0."
+            },
+            {
+                "title": "Drones",
+                "desc": "Hay mucho terreno por cubrir en las granjas, y los drones se están convirtiendo en un elemento esencial para la agricultura moderna. Gracias a ellos, muchas tareas ya no necesitan realizarse manualmente. Se utilizan principalmente para el mapeo de terrenos, normalmente equipados con varios sensores que les permiten recopilar datos. Las versiones más avanzadas cuentan con sensores infrarrojos y sistemas de imágenes para detectar problemas que no pueden detectarse a simple vista. Con aplicaciones adoptadas de la Industria 4.0 en la agricultura, los drones pueden proporcionar datos útiles en tiempo real sobre la fertilidad del suelo, enfermedades y madurez de las plantas."
+            },
+            {
+                "title": "Sensores",
+                "desc": "Los sensores funcionan como una extensión de la visión y recolección de datos para actividades tanto sobre como bajo tierra. Obtienen información sobre temperatura, suelo y humedad al monitorear luz, humedad, humedad del suelo, temperatura, salud de los cultivos, etc. Con esta información, puedes conocer las necesidades de los cultivos y tomar las medidas adecuadas para satisfacerlas. Pueden detectar cuándo los cultivos necesitan riego, determinar la cantidad exacta de fertilizante para cada cultivo e indicar qué productos químicos deben usarse y dónde."
+            },
+            {
+                "title": "Inteligencia Artificial",
+                "desc": "La Inteligencia Artificial se refiere a la tecnología que instruye a las máquinas para evaluar condiciones y tomar decisiones. En la agricultura, la IA ayuda a automatizar el riego, mejorar la calidad de la cosecha y detectar infecciones y plagas en las plantas para determinar el herbicida que debe usarse, haciendo que la gestión de cultivos sea precisa y efectiva. También fomenta técnicas agrícolas innovadoras como la agricultura vertical, un sistema agrícola avanzado que utiliza plenamente los recursos y aumenta la producción de alimentos en un área más pequeña."
+            },
+            {
+                "title": "Robótica",
+                "desc": "La incorporación de robots tiene una amplia gama de aplicaciones dentro de la industria agrícola. Por ejemplo, automatizar la realización de diversas tareas de mantenimiento en los campos o verificar el estado de los cultivos con sensores y tomar las medidas necesarias. Con la robótica, es posible realizar tareas complejas como medir los niveles de pH en el suelo, así como tareas más simples como plantar semillas y cosechar frutas y verduras."
+            },
+            {
+                "title": "IoT",
+                "desc": "El IoT permite que una variedad de herramientas (por ejemplo, drones, sensores o satélites) se conecten y comuniquen entre sí mediante una red de internet para recibir y transmitir datos útiles para mejorar las condiciones de desarrollo de los cultivos. Permite que los sistemas de gestión de campo conecten datos obtenidos en tiempo real de drones equipados con GPS, satélites y sensores. Los sistemas que utilizan tecnología IoT pueden ajustar automáticamente los planes de riego según los cambios en el clima."
+            }
+        ],
+        "moveTitle": "Avanza hacia Tecnologías de Agricultura Inteligente con Rialtes",
+        "moveDesc": "La agricultura es una industria orientada al mercado que emplea a un gran segmento de la población del país. La tecnología agrícola en los últimos años ha sido enormemente útil para contribuir más al crecimiento económico. Rialtes puede ayudarte a implementar soluciones agroempresariales de SAP que ayuden a preservar la fertilidad del suelo, prevenir la contaminación y proteger la biodiversidad. Utilizamos SAP AI para automatizar tareas manuales y verificar el estado de los cultivos mediante sensores.",
+        "moveLink": "Contáctanos",
+        "moveDesc2": " para implementar procesos agrícolas inteligentes basados en datos mientras gestionas la información agrícola de forma coherente en toda tu empresa con SAP BTP."
+    },
+    "remagineEnterprise": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Cómo funciona realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una adición más reciente al ecosistema Salesforce, está ganando terreno, especialmente en organizaciones que manejan grandes equipos de agentes, como agentes de ventas, representantes de atención al cliente y personal de servicio de campo."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "28 Oct 2024",
+                "title": "Agentes vs. Copilotos vs. Bots: ¿Cuál es la diferencia y por qué importa?",
+                "description": "Herramientas como Agentforce están redefiniendo cómo vemos los asistentes digitales, destacando las distinciones entre Agentes, Copilotos y Bots. Los términos se usan frecuentemente en automatización impulsada por IA e interfaces conversacionales, cada uno con un propósito distinto."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "Centro de prueba de Agentforce: redefiniendo las pruebas de IA con datos sintéticos",
+                "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA agente Agentforce. Esta adición permite a los usuarios empresariales probar y monitorear agentes de IA antes de desplegarlos en producción."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "24 Dic 2024",
+                "title": "Cómo integrar SAP SuccessFactors con Microsoft Office 365 para una colaboración mejorada",
+                "description": "La integración fluida entre aplicaciones empresariales ofrece una mejor colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder en experiencia humana y una sólida suite de herramientas de productividad."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Agricultura 4.0. ¿Cómo transforman las tecnologías digitales la agricultura para un mejor mañana?",
+                "description": "La agricultura juega un papel significativo en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "Gestión del rendimiento y objetivos con SAP SuccessFactors",
+                "description": "Alcanzar los objetivos de su organización es una responsabilidad clave compartida por todo su equipo. Cuando la estrategia del equipo se alinea con sus metas y los objetivos organizacionales más amplios, hacer lo correcto se vuelve instintivo."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "1. ¿Qué es Agentic AI, en términos sencillos?",
+                "answer": [
+                    "Agentic AI se refiere a sistemas inteligentes formados por agentes autónomos que trabajan juntos para lograr objetivos comerciales. No solo siguen instrucciones; actúan con intención, toman decisiones y se adaptan con el tiempo."
+                ]
+            },
+            {
+                "question": "2. ¿En qué se diferencia Agentic AI de la IA tradicional o la automatización?",
+                "answer": [
+                    "La IA tradicional maneja tareas individuales. La automatización sigue reglas establecidas. Agentic AI hace más: puede coordinarse entre sistemas, responder a condiciones cambiantes y aprender continuamente de los resultados. Es dinámica, proactiva y escalable."
+                ]
+            },
+            {
+                "question": "3. ¿Cuáles son los beneficios comerciales de usar Agentic AI?",
+                "answer": [
+                    [
+                        "Mayor productividad gracias a la automatización 24/7",
+                        "Decisiones más inteligentes gracias al aprendizaje en tiempo real",
+                        "Respuestas más rápidas ante interrupciones del negocio",
+                        "Costos operativos más bajos al reducir el trabajo manual"
+                    ]
+                ]
+            },
+            {
+                "question": "4. ¿Puedes dar ejemplos reales de cómo funciona Agentic AI?",
+                "answer": [
+                    [
+                        "Cadena de suministro: un agente redirige envíos cuando se detectan demoras o interrupciones climáticas.",
+                        "RRHH: un agente digital monitorea el compromiso y alerta sobre signos tempranos de agotamiento.",
+                        "Finanzas: un agente concilia facturas, marca riesgos de fraude y prepara resúmenes de auditoría."
+                    ]
+                ]
+            },
+            {
+                "question": "5. ¿Agentic AI es solo para grandes empresas?",
+                "answer": [
+                    "Para nada. Aunque el impacto puede ser enorme en grandes organizaciones, puedes comenzar con algo pequeño, automatizando un solo proceso o departamento y escalando gradualmente. Agentic AI es modular y flexible."
+                ]
+            },
+            {
+                "question": "6. ¿Son seguros los sistemas Agentic AI?",
+                "answer": [
+                    "Pueden serlo, si están bien diseñados. En Rialtes, diseñamos sistemas agentic con gobernanza, cumplimiento y acceso basado en roles integrado. La seguridad está incorporada, no añadida."
+                ]
+            },
+            {
+                "question": "7. ¿Reemplazará Agentic AI a los trabajadores humanos?",
+                "answer": [
+                    "No. Está diseñado para manejar tareas repetitivas y que consumen tiempo, liberando a las personas para enfocarse en estrategia, innovación y trabajos de alto valor. Se trata de aumento, no reemplazo."
+                ]
+            }
+        ],
+        "tableData": [
+            {
+                "label": "Propósito",
+                "genAI": "Crea contenido (texto, imágenes, código)",
+                "agentAI": "Toma acciones, toma decisiones"
+            },
+            {
+                "label": "Autonomía",
+                "genAI": "Reactiva — responde a indicaciones",
+                "agentAI": "Proactiva, actúa por sí sola"
+            },
+            {
+                "label": "Memoria",
+                "genAI": "Corto plazo",
+                "agentAI": "Largo plazo, aprende continuamente"
+            },
+            {
+                "label": "Casos de Uso",
+                "genAI": "Redacción de blogs, diseño y sugerencias de código",
+                "agentAI": "Automatización de workflows, planificación estratégica"
+            },
+            {
+                "label": "Rol en la Empresa",
+                "genAI": "Herramienta o asistente",
+                "agentAI": "Orquestador de operaciones"
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Mayor Productividad",
+                "description": "Los agentes digitales no se desconectan. Operan 24/7, gestionando aprobaciones, respondiendo preguntas, resolviendo problemas y manteniendo los flujos en movimiento, incluso cuando su equipo está desconectado. Este soporte siempre activo elimina cuellos de botella y agiliza las tareas rutinarias."
+            },
+            {
+                "title": "Decisiones Más Inteligentes",
+                "description": "Estos agentes analizan datos en tiempo real y aprenden de cada resultado. Cuanto más interactúan con sus sistemas, mejor se vuelven tomando decisiones precisas y contextualmente conscientes, ya sea detectando anomalías o mejorando la forma en que se enrutan las tareas."
+            },
+            {
+                "title": "Tiempo de Acción Más Rápido",
+                "description": "Cuando un prospecto se enfría, una orden se atasca o hay un retraso en su cadena de suministro, los agentes no esperan. Actúan inmediatamente, ya sea resolviendo el problema de manera autónoma o escalándolo a la persona adecuada antes de que se convierta en un problema mayor."
+            },
+            {
+                "title": "Menores Costos Operativos",
+                "description": "Al optimizar los workflows y cómo se utilizan los recursos, Agentic AI reduce el trabajo manual y desperdicio. Haces más con menos recursos, mientras liberas a tu equipo para enfocarse en tareas de alto valor."
+            },
+            {
+                "title": "Inteligencia Escalable",
+                "description": "Ya sea que despliegues un agente o cien, escalan sin esfuerzo. Puedes comenzar en pequeño, por ejemplo con automatización de incorporaciones, y expandirte por departamentos a medida que creces, todo sin rehacer tu infraestructura."
+            },
+            {
+                "title": "Colaboración Interdepartamental",
+                "description": "Los agentes no se limitan a un departamento. Pueden moverse entre RRHH, finanzas, adquisiciones y atención al cliente. Conectan los puntos, reduciendo retrasos y creando un workflow inteligente y unificado entre equipos."
+            },
+            {
+                "title": "Aprendizaje Incorporado",
+                "description": "Estos sistemas evolucionan con cada interacción, volviéndose más inteligentes. Así, con el tiempo, tus agentes no solo mantienen procesos sino que los mejoran, adaptándose a cambios y objetivos empresariales."
+            }
+        ],
+        "blogTopic": "Inteligencia Artificial",
+        "blogTitle": "Reimaginar la Empresa usando Sistemas Agentic AI",
+        "manufacturingTitle": "La Manufactura Tiene un Problema de Experiencia de Cliente",
+        "manufacturingDesc": "La forma en que los humanos interactúan con la IA está evolucionando. De herramientas aisladas que hacen una cosa bien, a agentes inteligentes que pueden planificar viajes, monitorear logística, asistir a personas mayores o gestionar inventarios en cadenas de suministro globales. Ese es el mundo del agentic AI.",
+        "manufacturingDesc2": "Agentic AI no es solo una mejora: es un cambio. Las empresas que lo usan ven 2.4x mayor productividad y 2.5x más rápido crecimiento de ingresos. Estos sistemas usan agentes autónomos para reducir costos, acelerar la toma de decisiones y eliminar trabajo rutinario. Colaboran, aprenden y actúan por sí solos, ayudando a las empresas a avanzar más rápido y escalar más inteligentemente.",
+        "agenticAiTitle": "¿Qué es Agentic AI? De herramientas de IA a compañeros inteligentes",
+        "agenticAiDesc": "Agentic AI se basa en agentes inteligentes y autodirigidos que trabajan juntos para optimizar procesos complejos. A diferencia de la IA tradicional, que maneja una tarea a la vez, los sistemas agentic AI coordinan funciones, roles y flujos de datos para alcanzar objetivos comerciales de forma autónoma.",
+        "agenticAiDesc2": "Qué lo hace diferente:",
+        "agenticData": [
+            {
+                "title": "Coordinación, no aislamiento:",
+                "desc": "Coordinación, no aislamiento: los agentes se comunican entre sí y aprenden colectivamente."
+            },
+            {
+                "title": "Enrutamiento inteligente:",
+                "desc": "Una vez tramitado, los agentes asignan el caso al representante más adecuado, considerando habilidades, ubicación, carga de trabajo y SLA de cliente. Clientes de alto valor o problemas urgentes son marcados para resolución rápida. Los casos recurrentes se enrutan directamente a especialistas sin intervención humana."
+            },
+            {
+                "title": "Inteligencia orientada a objetivos:",
+                "desc": "Cada agente está alineado con KPIs específicos —satisfacción del cliente, tiempo de actividad, ingresos, etc."
+            },
+            {
+                "title": "Siempre adaptándose:",
+                "desc": "Estos agentes aprenden de cada interacción y evolucionan conforme crece tu negocio."
+            }
+        ],
+        "agenticAiDesc3": "Mientras que herramientas como ChatGPT se enfocan en generar contenido, agentic AI se centra en la toma de decisiones y la acción. Puede extraer datos, ejecutar tareas y desencadenar workflows complejos con mínima intervención.",
+        "howEnterpriseTitle": "Cómo las empresas usan Agentic AI para combinar autonomía con lógica de negocio",
+        "howEnterpriseDesc": "Agentic AI está ayudando a las empresas a automatizar de forma más inteligente. Actúan con intención, responden en tiempo real y aprenden en el camino, transformando tareas rutinarias en flujos inteligentes y haciendo que operaciones que parecían mecánicas se vuelvan más intuitivas.",
+        "keyTitle": "Beneficios clave:",
+        "agenticAiGenTitle": "Agentic AI vs IA Generativa: ¿Cuál es la diferencia?",
+        "agenticAiGenDesc": "Ambas forman parte de la familia de IA, pero cumplen roles muy diferentes.",
+        "tableTitle": "IA Generativa",
+        "tableTitle2": "Agentic AI",
+        "agenticAiGenDesc2": "Piensa en la IA generativa como un socio creativo. Agentic AI es tu gerente de operaciones —anticipando, ajustando y actuando",
+        "aiThinksTitle": "IA que piensa más allá del piso de fábrica",
+        "aiThinksDesc": "Agentic AI redefine lo que significa la excelencia operativa combinando precisión en tiempo real con velocidad y escala empresariales. Estos agentes inteligentes van más allá de la automatización tradicional, ejecutando tareas proactivamente, monitoreando procesos, detectando ineficiencias y reconfigurando flujos sin intervención humana.",
+        "aiThinksDesc2": "Así es como se ve en acción:",
+        "aiThinksData": [
+            {
+                "title": "Agentes de Cadena de Suministro",
+                "desc": "Imagina un agente digital que no solo rastrea niveles de inventario, sino anticipa picos de demanda basados en datos de ventas en tiempo real, demoras del proveedor o incluso condiciones climáticas. Cuando detecta un riesgo, redirige entregas, actualiza tiempos estimados y notifica a los equipos, todo antes de que el problema afecte a tus clientes. Eso no es automatización por eficiencia; es acción inteligente y preventiva."
+            },
+            {
+                "title": "Agentes de RRHH",
+                "desc": "En un entorno de trabajo híbrido, la experiencia del empleado puede deteriorarse. Un agente RRHH inteligente monitorea continuamente métricas como comentarios en encuestas, tendencias de absentismo o caídas en productividad y recomienda intervenciones oportunas. Puede sugerir módulos de aprendizaje, recursos de bienestar o desencadenar un check-in por parte del gerente. ¿El resultado? Una función de RRHH más personalizada y reactiva que actúa antes de que el desgano se convierta en deserción."
+            },
+            {
+                "title": "Agentes Financieros",
+                "desc": "Las operaciones financieras suelen estar encubiertas en hojas de cálculo y sistemas aislados. Un agente entrenado en patrones de facturas puede conciliarlas automáticamente, marcar irregularidades que indican fraude o error e incluso preparar resúmenes de fin de mes. Estos agentes no solo reducen el esfuerzo manual sino que mantienen una auditoría continua, ayudando a los equipos financieros."
+            }
+        ],
+        "aiThinksDesc3": "Y aquí está el panorama general:",
+        "aiThinksDesc4": "Estos agentes no operan de forma aislada. El agente de cadena de suministro puede informar al agente financiero sobre costos entrantes. El agente de RRHH puede señalar un pico en horas extras, lo que desencadena ajustes operacionales en otra parte. Cada agente aprende del sistema y contribuye a él, alineando acciones con objetivos generales de negocio. Con el tiempo, forman una capa inteligente interconectada que se adapta al cambio, escala con la complejidad y hace que la empresa se vuelva más inteligente con cada interacción.",
+        "humansTitle": "Humanos y agentes: Una asociación más inteligente",
+        "humansData": [
+            "Agentic AI no reemplaza a los humanos. Amplifica lo que hacemos mejor: estratégizar, empatizar e innovar.",
+            "El futuro está en la colaboración: los humanos definen la visión y los agentes cuidan la ejecución. Cuando ese equilibrio funciona, las empresas desbloquean verdadera eficiencia y creatividad. En Rialtes, hacemos real esta transformación. Ayudamos a las empresas a desplegar sistemas agentic que son seguros, escalables y diseñados para resultados. Nuestro portafolio de hilo digital teje IA a través de ingeniería, operaciones y servicio, respaldado por alianzas con los mejores en la industria.",
+            "Ahora es el momento. Agentic AI no es solo una actualización tecnológica; es un cambio de mentalidad. Esperar significa quedarse atrás. Hablemos sobre cómo hacer que tu empresa sea verdaderamente inteligente."
+        ],
+        "faqTitle": "Preguntas Frecuentes (FAQs)"
+    }
 }
