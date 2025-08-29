@@ -97,10 +97,10 @@ const schemaData = {
 }
 
 export default function Page() {
-    const t = useTranslations('enhancingCompliance')
+    const t = useTranslations('firstAiAgent')
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { blogs, stepToGuideData, agentBuilderData, componentsData, actionsData, typesOfAgents } = blogsContent.enhancingCompliance;
+    const { blogs, stepToGuideData, agentBuilderData, componentsData, actionsData, typesOfAgents } = blogsContent.firstAiAgent;
     const fullUrl = "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
 
     return (
@@ -147,7 +147,7 @@ export default function Page() {
                     <div>
                         <div className="flex flex-col md:flex-row justify-between text-black items-center  xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
-                                <span className="text-[#0092E0]">{t('innovatingData')}Artificial Intelligence</span>{" "}
+                                <span className="text-[#0092E0]">{t('blogTopic')}</span>{" "}
                                 <span className="text-[#ACACAC]"> | </span>25 July 2025
                             </div>
                             <div className="flex flex-col">
@@ -200,19 +200,19 @@ export default function Page() {
                     <div className="grid xl:grid-cols-12">
                         <div className="xl:col-span-10 col-span-12">
                             <h1 className="text-[#000000]  pb-6 leading-tight text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px] md:text-[28px]">
-                               {t('innovatingData')} Build and Deploy Your First AI Agent Using Agentforce
+                               {t('blogTitle')} 
                             </h1>
                         </div>
                     </div>
                     <div className="grid xl:grid-cols-12">
                         <div className="col-span-9">
-                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('innovatingData')}By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions. Despite ethical concerns, the value of training AI for growth is clear. Teaching AI to understand human language enhances its ability to respond and perform useful tasks.</p>
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('innovatingData')}With Salesforce introducing AI Agents through Agentforce, a new revolution is underway. Agentforce AI Agents are both assistive and autonomous, equipped with well-processed knowledge and human-level expertise. These agents can recommend actions, reason effectively, and handle multiple queries without human intervention at every step. However, while they offer greater autonomy than other AI systems, building AI agents requires careful preparation and strategic planning.</p>
+                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('mainData')}</p>
+                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('mainData2')}</p>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('innovatingData')}Agentforce Agent Builder</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('agentforceTitle')}</h2>
 
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('innovatingData')}Agent Builder is a low-code tool in Salesforce for customizing AI agents across various business functions. Users can create tasks for agents by defining topics with natural-language instructions and setting guardrails. It features testing options, seamless human handoff, and built-in templates for customer service, sales, or e-commerce. This allows businesses to easily automate processes and customize agents for any industry by using existing Salesforce tools like Flows, Apex, and APIs</p>
-                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('innovatingData')}Building AI agents involves multiple techniques, which can be broadly categorized into six key areas:</p>
+                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('agentforceDesc')}</p>
+                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('agentforceDesc2')}</p>
                             <ul className="list-disc marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[26px]">
                                 {
                                     agentBuilderData.map((data, ind) => {
@@ -222,9 +222,9 @@ export default function Page() {
                                     })
                                 }
                             </ul>
-                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('innovatingData')}Agent Builder streamlines the process, enabling business users to create AI agents without the need for extensive coding skills.</p>
+                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('agentforceDesc3')}</p>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('innovatingData')}Step-by-Step Guide to Building an AI Agent with Agentforce</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('stepsTitle')}</h2>
                             {
                                 stepToGuideData.map((data, ind) => {
                                     return (
@@ -237,7 +237,7 @@ export default function Page() {
                                 })
                             }
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('innovatingData')}Components that Build and Customize AI Agents</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('componentsTitle')}</h2>
                             {
                                 componentsData.map((data, ind) => {
                                     return (
@@ -260,12 +260,12 @@ export default function Page() {
                                 })
                             }
 
-                            <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-7 font-bold">{t('innovatingData')}Actions</h3>
-                            <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('innovatingData')}Actions empower AI agents to execute logic and integrate with external systems. Standard and custom actions can be created using:</p>
+                            <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-7 font-bold">{t('actionsTitle')}</h3>
+                            <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('actionsDesc')}</p>
                             <UnorderedList arrName={actionsData} ulClassName="mt-3 list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('innovatingData')}Types of AI agents You can build using Agentforce</h2>
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('innovatingData')}Agentforce AI agents help scale the workforce across various industries. Their user-friendly, low-code customization allows business users to leverage multiagent systems effectively. Here are their main roles and functions in different sectors:</p>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('typeTitle')}</h2>
+                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('typeDesc')}</p>
                             <ul className="list-decimal marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[26px]">
                                 {
                                     typesOfAgents.map((data, ind) => {
@@ -275,9 +275,9 @@ export default function Page() {
                                     })
                                 }
                             </ul>
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('innovatingData')}Future-Proof Your AI Agent to Revamp the Customer Experience </h2>
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('innovatingData')}We saw that building an AI agent with Agentforce is a straightforward process that enables businesses to utilize AI-driven automation. With the Agentforce Agent Builder, any user can create agents using natural language queries. To ensure long-term success, continuously update your AI agent with new datasets for improved accuracy, enhanced integrations with emerging technologies, and regular audits to maintain compliance and security. However, successful deployment also requires an integrated technological infrastructure for agents to access up-to-date data and perform effectively.</p>
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('innovatingData')}Rialtes helps businesses easily adopt AI agents using Agentforce. We provide customization and deployment to meet your needs, enhancing customer service and streamlining operations for a smooth transition into the AI-driven world.</p>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('futureTitle')}</h2>
+                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('futureDesc')}</p>
+                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('futureDesc2')}</p>
                         </div>
                     </div>
                 </div>
