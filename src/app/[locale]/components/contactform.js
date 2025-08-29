@@ -31,7 +31,7 @@ const generateCaptcha = () => {
     }
     return { question, answer };
 };
-export default function ContactForm({ title, subtitle, subtitle1, className, padding }) {
+export default function ContactForm({ title, subtitle, subtitle1, className, padding ,beginBtnBg }) {
     const t = useTranslations('contactForm')
     const [captcha, setCaptcha] = useState(generateCaptcha());
     const [userAnswer, setUserAnswer] = useState('');
