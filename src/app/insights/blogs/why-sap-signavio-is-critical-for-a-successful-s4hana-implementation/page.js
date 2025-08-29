@@ -259,7 +259,7 @@ const domainsPoints = [
     desc: "Enhanced demand planning and inventory control with embedded intelligence.",
   },
   {
-    title: "Human Capital Management:",
+    title: "Human Capital Management",
     desc: "Digitally enabled workforce processes that align with employee experience needs.",
   },
 ];
