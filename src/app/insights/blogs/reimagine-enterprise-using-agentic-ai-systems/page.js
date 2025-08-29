@@ -1,81 +1,97 @@
 "use client";
 // pages/blog-detail.js
 import Image from "next/image";
-import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 
 const schemaData = {
-
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"
-    },
-    "headline": "Discover How Salesforce Agentforce 3.0 is Reshaping Automotive Manufacturing in Real-time",
-    "description": "Agentforce for automotive brings intelligent automation to factory floors—delivering real-time visibility, predictive quality, and scalable AI-driven operations across automotive manufacturing.",
-    "image": "https://www.rialtes.com/images/blog/agentforce-3.0-desktop-banner.webp",
-    "author": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
-        }
-    },
-    "datePublished": "2025-07-29",
-    "articleSection": "AI Automation",
-    "url": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/",
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Enterprise Agentic AI Systems for Smarter Operations",
+  "description": "Agentic AI redefines what enterprise operational excellence looks like by combining real-time precision with enterprise-grade speed and scale.",
+  "image": " https://www.rialtes.com/images/blog/reimagine-banner.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": " https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/"
+  },
+  "datePublished": "2025-08-25",
+ 
+  "mainEntity": {
+    "@type": "FAQPage",
+    "name": "Enterprise Agentic AI FAQs",
     "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Agentforce for Automotive?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agentforce for Automotive is Salesforce’s AI-powered solution tailored for automotive manufacturers. It automates and optimizes key workflows across production, supply chain, quality, and compliance using Agentforce 3.0."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What makes Agentforce 3.0 valuable for automotive manufacturers?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agentforce 3.0 brings intelligent automation to every part of the automotive factory floor, offering real-time visibility, predictive insights, smart agent coordination, and prebuilt industry workflows."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How does Agentforce integrate with existing automotive systems?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agentforce for automotive integrates with ERP, MES, PLM, and IoT systems using Model Context Protocol, MuleSoft APIs, and Heroku AppLink, ensuring seamless connectivity with legacy and custom tools."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What use cases exist for Agentforce in automotive?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Use cases include automated inspection summaries, predictive maintenance triggers, parts shortage alerts, service appointment agents, warranty claims validation, and AI-powered quality control agents."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What is the future of AI in automotive manufacturing?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AI is transforming the automotive industry through smart factory automation, autonomous operations, adaptive supply chains, in-vehicle intelligence, and AI-driven diagnostics. Agents will play a pivotal role in this future."
-            }
+      {
+        "@type": "Question",
+        "name": "What is Agentic AI, in simple terms?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Agentic AI refers to intelligent systems made up of autonomous agents that work together to achieve business goals. They don’t just follow instructions; they act on intent, make decisions, and adapt over time."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "How is Agentic AI different from traditional AI or automation?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Traditional AI handles single tasks. Automation follows set rules. Agentic AI does more; it can coordinate across systems, respond to changing conditions, and continuously learn from outcomes. It’s dynamic, proactive, and scalable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the business benefits of using Agentic AI?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Higher productivity through 24/7 automation, smarter decisions from real-time learning, faster response times to business disruptions, and lower operational costs by reducing manual work."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you give real examples of how Agentic AI works?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Supply chain: An agent reroutes shipments when delays or weather disruptions are detected. HR: A digital agent monitors engagement and flags early signs of burnout. Finance: An agent reconciles invoices, flags fraud risks, and prepares audit summaries."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Agentic AI only for large enterprises?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not at all. While the impact can be massive in large organizations, you can start small, automating a single process or department and scaling gradually. Agentic AI is modular and flexible."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are Agentic AI systems secure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "They can be, if built right. At Rialtes, we design agentic systems with built-in governance, compliance, and role-based access. Security is baked in, not bolted on."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will Agentic AI replace human workers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. It’s designed to handle repetitive, time-consuming tasks, freeing people up to focus on strategy, innovation, and high-value work. It’s about augmentation, not replacement."
+        }
+      }
     ]
+  }
 };
 const blogs = [
     {
@@ -286,21 +302,21 @@ export default function Page() {
 
 
     const fullUrl =
-        "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
+        "https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems";
 
     return (
         <div className="min-h-screen bg-white">
-            {/* <Seo
-                title=""
-                description=""
-                canonical={"  https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"}
+            <Seo
+                title="Enterprise Agentic AI: Reimagine Workflows Smarter | Rialtes"
+                description="Agentic AI is helping enterprises automate smarter. They act on intent, respond in real time, and learn as they go, turning tasks into intelligent workflows."
+                canonical={"https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/"}
             />
 
             <Script
                 id="schema-discover"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            /> */}
+            />
             <section className="relative  h-[350px] md:h-[400px]  4xl:h-[600px] 2xl:h-[500px]">
                 {/* Desktop Image */}
                 <div className="hidden md:block">
@@ -397,7 +413,7 @@ export default function Page() {
 
                     <div className=" mx-auto">
                         <div className="max-w-[1200px] 4xl:w-[1284px] 2xl:w-[950px] xl:w-[850px]">
-                            <div className="py-6 "></div>
+                            <div className="4xl:py-6 2xl:py-4 xl:py-2"></div>
 
                             <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 Manufacturing Has a Customer Experience Problem
@@ -408,42 +424,42 @@ export default function Page() {
                             </p>
 
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 Agentic AI isn’t just a step up—it’s a shift. Businesses using it see 2.4x higher productivity and 2.5x faster revenue growth. These systems use autonomous agents to reduce costs, speed up decision-making, and eliminate routine work. They collaborate, learn, and act on their own, helping companies move faster and scale smarter.
                             </p>
 
 
 
-                            <div className="py-6 "></div>
+                            <div className="4xl:py-6 2xl:py-4 xl:py-3"></div>
 
-                            <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
+                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 What Is Agentic AI? From AI Tools to Intelligent Teammates
                             </h2>
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 Agentic AI is built on intelligent, self-directed agents that work together to optimize complex processes. Unlike traditional AI, which handles one task at a time, agentic AI systems coordinate across roles, functions, and data streams to meet business goals autonomously.
                             </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 What makes it different:
                             </p>
 
-                            <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-5">
-                                <li><h4 className="font-bold inline 4xl:text-[18px] 2xl:text-[16px] xl:text-[15px] text-[16px]">Coordination, not isolation: </h4> Coordination, not isolation: Agents talk to each other and learn collectively.
+                            <ol className="list-disc 4xl:pl-10 2xl:pl-10 xl:pl-8 md:pl-10 pl-5 marker:text-xl list-outside  text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-5">
+                                <li><h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Coordination, not isolation: </h4> Coordination, not isolation: Agents talk to each other and learn collectively.
                                 </li>
-                                <li><h4 className="font-bold inline 4xl:text-[18px] 2xl:text-[16px] xl:text-[15px] text-[16px]">Smart Routing:</h4> Once triaged, agents match the case with the best available support rep, factoring in skill sets, location, workload, and customer SLAs. High-value clients or urgent issues are flagged for rapid resolution. Repeat issues are routed directly to specialists without human intervention.</li>
-                                <li><h4 className="font-bold inline 4xl:text-[18px] 2xl:text-[16px] xl:text-[15px] text-[16px]">Goal-driven intelligence: </h4> Each agent is aligned to specific KPIs—customer satisfaction, uptime, revenue, etc.</li>
-                                <li><h4 className="font-bold inline 4xl:text-[18px] 2xl:text-[16px] xl:text-[15px] text-[16px]">Always adapting:</h4> These agents learn from every interaction and evolve as your business grows.</li>
+                                <li><h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Smart Routing:</h4> Once triaged, agents match the case with the best available support rep, factoring in skill sets, location, workload, and customer SLAs. High-value clients or urgent issues are flagged for rapid resolution. Repeat issues are routed directly to specialists without human intervention.</li>
+                                <li><h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Goal-driven intelligence: </h4> Each agent is aligned to specific KPIs—customer satisfaction, uptime, revenue, etc.</li>
+                                <li><h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Always adapting:</h4> These agents learn from every interaction and evolve as your business grows.</li>
 
                             </ol>
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] mt-5">
                                 While tools like ChatGPT focus on generating content, agentic AI focuses on decision-making and action. It can pull data, execute tasks, and trigger complex workflows with minimal input.                            </p>
 
 
                             <h2 className=" pb-4 mt-10 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 How Enterprises Use Agentic AI to Combine Autonomy with Business Logic
                             </h2>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 Agentic AI is helping companies automate smarter. They act on intent, respond in real time, and learn as they go, turning routine tasks into intelligent workflows and making your operations feel less mechanical and more instinctive.
                             </p>
 
@@ -452,7 +468,7 @@ export default function Page() {
                             <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
                                 Key Benefits:
                             </h3>
-                            <div className="space-y-8">
+                            <div className="space-y-8  4xl:pl-8 2xl:pl-8 xl:pl-8 md:pl-8">
                                 {benefits.map((item, index) => (
                                     <div key={index} className="flex items-start gap-4">
                                         {/* Bullet Icon */}
@@ -460,10 +476,10 @@ export default function Page() {
 
                                         {/* Content */}
                                         <div>
-                                            <h4>
+                                            <h4 className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                                                 {item.title}
                                             </h4>
-                                            <p className="mt-2">{item.description}</p>
+                                            <p className="mt-2 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">{item.description}</p>
                                         </div>
                                     </div>
                                 ))}
@@ -472,19 +488,19 @@ export default function Page() {
                             <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 Agentic AI vs Generative AI: What’s the Difference?
                             </h2>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 Both are part of the AI family, but they serve very different roles.
                             </p>
 
 
                             <div className="mt-5">
                                 <div className="overflow-x-auto rounded-2xl shadow-lg border border-gray-200 bg-white">
-                                    <table className="w-full text-sm text-left border-collapse">
-                                        <thead className="bg-gradient-to-r from-[#0092E0] to-indigo-600 text-white text-base">
+                                    <table className="w-full text-left border-collapse">
+                                        <thead className="bg-gradient-to-r from-[#0092E0] to-indigo-600 text-white">
                                             <tr>
                                                 <th className="px-6 py-4"> </th>
-                                                <th className="px-6 py-4">Generative AI</th>
-                                                <th className="px-6 py-4">Agentic AI</th>
+                                                <th className="px-6 py-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Generative AI</th>
+                                                <th className="px-6 py-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Agentic AI</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -494,18 +510,18 @@ export default function Page() {
                                                     className={`${idx % 2 === 0 ? "bg-gray-50" : "bg-white"
                                                         } hover:bg-blue-50 transition`}
                                                 >
-                                                    <td className="px-6 py-4 font-semibold">
+                                                    <td className="px-6 py-4 font-semibold 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
                                                         {row.label}
                                                     </td>
-                                                    <td className="px-6 py-4 ">{row.genAI}</td>
-                                                    <td className="px-6 py-4">{row.agentAI}</td>
+                                                    <td className="px-6 py-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">{row.genAI}</td>
+                                                    <td className="px-6 py-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">{row.agentAI}</td>
                                                 </tr>
                                             ))}
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
-                            <p className="text-black mt-10 pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black mt-10 pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 Think of generative AI as a creative partner. Agentic AI is your operations manager—anticipating, adjusting, and acting
                             </p>
 
@@ -513,45 +529,45 @@ export default function Page() {
                             <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] mt-10 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 AI That Thinks Beyond the Factory Floor
                             </h2>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 Agentic AI redefines what operational excellence looks like by combining real-time precision with enterprise-grade speed and scale. These intelligent agents go far beyond traditional automation, proactively executing tasks, monitoring processes, detecting inefficiencies, and reconfiguring workflows, all without human intervention.
                             </p>
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 Here’s what that looks like in action:
                             </p>
-                            <h4>Supply Chain Agents</h4>
-                            <p>Imagine a digital agent that doesn’t just track inventory levels, it anticipates demand spikes based on real-time sales data, supplier delays, or even weather disruptions. When it detects a risk, it proactively reroutes deliveries, updates expected timelines, and notifies the relevant teams, all before the issue affects your customers. That’s not automation for the sake of efficiency; that’s intelligent, preventative action.</p>
-                            <h4 className="mt-5">HR Agents</h4>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <h4 className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] mt-3 4xl:pl-8 2xl:pl-8 xl:pl-8 md:pl-8">Supply Chain Agents</h4>
+                            <p className="mt-3 4xl:pl-8 2xl:pl-8 xl:pl-8 md:pl-8 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Imagine a digital agent that doesn’t just track inventory levels, it anticipates demand spikes based on real-time sales data, supplier delays, or even weather disruptions. When it detects a risk, it proactively reroutes deliveries, updates expected timelines, and notifies the relevant teams, all before the issue affects your customers. That’s not automation for the sake of efficiency; that’s intelligent, preventative action.</p>
+                            <h4 className="mt-8 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] 4xl:pl-8 2xl:pl-8 xl:pl-8 md:pl-8">HR Agents</h4>
+                            <p className="text-black  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] mt-3 4xl:pl-8 2xl:pl-8 xl:pl-8 md:pl-8">
                                 In a hybrid work environment, employee experience can slip through the cracks. A smart HR agent continuously monitors engagement metrics like survey feedback, absenteeism trends, or productivity dips and recommends timely interventions. It might suggest learning modules, wellness resources, or trigger a check-in from a manager. The result? A more personalized, responsive HR function that acts before disengagement becomes attrition.
                             </p>
-                            <h4>Finance Agents</h4>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">Financial operations are often buried in spreadsheets and siloed systems. An agent trained on invoice patterns can reconcile documents automatically, flag irregularities that signal fraud or error, and even prepare month-end summaries. These agents not only reduce manual effort but also maintain continuous audit readiness, helping finance teams.</p>
+                            <h4 className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] mt-8 4xl:pl-8 2xl:pl-8 xl:pl-8 md:pl-8">Finance Agents</h4>
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] mt-3 4xl:pl-8 2xl:pl-8 xl:pl-8 md:pl-8">Financial operations are often buried in spreadsheets and siloed systems. An agent trained on invoice patterns can reconcile documents automatically, flag irregularities that signal fraud or error, and even prepare month-end summaries. These agents not only reduce manual effort but also maintain continuous audit readiness, helping finance teams.</p>
 
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 And here’s the bigger picture:
                             </p>
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 These agents don’t operate in silos. The supply chain agent can inform the finance agent about incoming costs. The HR agent can signal a spike in overtime, prompting operational adjustments elsewhere. Each agent learns from the system and contributes to it, aligning actions to overarching business goals. Over time, they form a responsive, interconnected layer of intelligence that adapts to change, scales with complexity, and makes the enterprise smarter with every interaction.
                             </p>
                             <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] mt-10 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 Humans and Agents: A Smarter Partnership
                             </h2>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 Agentic AI isn’t replacing humans. It’s amplifying what we do best - strategize, empathize, innovate.
                             </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">The future lies in collaboration: humans define the vision, and agents take care of the execution. When that balance works, businesses unlock real efficiency and creativity. At Rialtes, we make this transformation real. We help enterprises deploy agentic systems that are secure, scalable, and purpose-built for results. Our digital thread portfolio weaves AI across engineering, operations, and service, backed by partnerships with the best in the industry.</p>
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">The future lies in collaboration: humans define the vision, and agents take care of the execution. When that balance works, businesses unlock real efficiency and creativity. At Rialtes, we make this transformation real. We help enterprises deploy agentic systems that are secure, scalable, and purpose-built for results. Our digital thread portfolio weaves AI across engineering, operations, and service, backed by partnerships with the best in the industry.</p>
 
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 Now’s the time. Agentic AI isn’t just a tech upgrade; it’s a mindset shift. Waiting means falling behind. Let’s talk about how to make your enterprise truly intelligent.
                             </p>
 
 
-                            <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px]  xl:text-[21px] text-[23px] mt-16">
+                            <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px]  xl:text-[21px] text-[23px] 4xl:mt-10 2xl:mt-10 xl:mt-5">
                                 Frequently Asked Questions (FAQs)
                             </h2>
 

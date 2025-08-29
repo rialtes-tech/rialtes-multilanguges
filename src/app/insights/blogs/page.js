@@ -30,8 +30,29 @@ const schemaData = {
 }
 
 const latestBlogs = [
+
+   {
+    id: 27,
+    image: "/images/blog/sap-cpi-feature-thumb.webp",
+    category: "SAP",
+    industry: "Generic",
+    date: "Aug. 28, 2025",
+    url: '/sap-pi-po-to-cpi-migration-complete-guide',
+    title: "Migrating from SAP PI/PO to SAP BTP Integration Suite (CPI)",
+    description: "Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation.For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes.",
+  },
   {
-    id: 26,
+    id: 27,
+    image: "/images/blog/sap-signavio-sap-cloud-mobile.webp",
+    category: "SAP",
+    industry: "Generic",
+    date: "Aug. 25, 2025",
+    url: '/s4hana-transformation-with-sap-signavio-cloud-alm',
+    title: "How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation",
+    description: "Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution for successful S/4HANA transformation."
+  },
+  {
+    id: 29,
     image: "/images/blog/big-reimage-slider.webp",
     category: "Artificial Intelligence",
     industry: "Generic",
@@ -41,7 +62,7 @@ const latestBlogs = [
     description: "The way humans interact with AI is evolving. From isolated tools that do one thing well to intelligent agents that can plan trips, monitor logistics, assist the elderly, or manage inventory across global supply chains",
   },
   {
-    id: 25,
+    id: 27,
     image: "/images/blog/small-slider.webp",
     category: "Agentforce",
     industry: "Generic",
@@ -52,7 +73,7 @@ const latestBlogs = [
   },
 
   {
-    id: 24,
+    id: 26,
     image: "/images/blog/sustain-small-slider.webp",
     category: "Artificial Intelligence",
     industry: "Generic",
@@ -62,7 +83,7 @@ const latestBlogs = [
     description: "We must reduce greenhouse gas emissions and transition to renewable energy sources to protect our planet and future generations. However, the hope for a sustainable future lies in conservation and innovation. Here’s how.",
   },
   {
-    id: 23,
+    id: 25,
     image: "/images/blog/Agentforce-featured-blog.webp",
     category: "Salesforce Agentforce",
     industry: "Generic",
@@ -72,7 +93,7 @@ const latestBlogs = [
     description: "Salesforce has launched Agentforce 3.0 — and it’s a significant leap forward. Agentforce has been a key part of Salesforce's AI strategy since its launch in September 2024.",
   },
   {
-    id: 4,
+    id: 24,
     image: "/images/blog/blog-slider.webp",
     category: "Salesforce Agentforce",
     industry: "Generic",
@@ -82,7 +103,7 @@ const latestBlogs = [
     description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
   },
   {
-    id: 22,
+    id: 23,
     image: "/images/blog/slider.webp",
     category: "Agentforce",
     industry: "General",
@@ -94,7 +115,7 @@ const latestBlogs = [
 
   // Add more blog objects as needed
   {
-    id: 21,
+    id: 22,
     image: "/images/blog/agentexchange-Blog-feature-thumb.webp",
     category: "Agentforce",
     industry: "General",
@@ -104,7 +125,7 @@ const latestBlogs = [
     description: "Salesforce has once again raised the bar in AI-driven business solutions with the launch of AgentExchange, ",
   },
   {
-    id: 20,
+    id: 21,
     image: "/images/blog/Pharma Jewel of North India_Blog feature thumb.webp",
     category: "General",
     industry: "Manufacturing",
@@ -112,6 +133,16 @@ const latestBlogs = [
     url: '/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities',
     title: "Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities",
     description: "India’s rise as a pharmaceutical powerhouse on the global stage is remarkable.",
+  },
+    {
+    id: 20,
+    image: "/images/blog/signavio-blog-feature-thumb.webp",
+    category: "SAP Signavio",
+    industry: "Generic",
+    date: "Jun. 16, 2025",
+    url: '/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation',
+    title: "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
+    description: "Ready for S/4HANA Implementation? Rialtes’ Voyager+ and SAP Signavio make the journey smooth, transparent, and built for scalable enterprise success.",
   },
   {
     id: 19,
@@ -490,7 +521,17 @@ const BlogList = () => {
 const FeaturedCarousel = () => {
   const slides = [
     {
-      id: 1,
+    id: 1,
+    image: "/images/blog/signavio-blog-feature-thumb.webp",
+    category: "SAP Signavio",
+    industry: "Generic",
+    date: "Jun. 16, 2025",
+    url: '/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation',
+    title: "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
+    description: "Ready for S/4HANA Implementation? Rialtes’ Voyager+ and SAP Signavio make the journey smooth, transparent, and built for scalable enterprise success.",
+  },
+    {
+      id: 2,
       image: "/images/blog/blog-1.webp",
       category: "Salesforce Agentforce",
       industry: "Generic",
@@ -500,7 +541,7 @@ const FeaturedCarousel = () => {
       description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
     },
     {
-      id: 2,
+      id: 3,
       image: "/images/blog/blog-2.webp",
       category: "Salesforce Agentforce",
       industry: "Generic",
