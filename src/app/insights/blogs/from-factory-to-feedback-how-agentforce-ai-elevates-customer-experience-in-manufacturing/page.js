@@ -8,6 +8,7 @@ import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 
 const schemaData = {
+
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": "From Factory to Feedback: How Agentforce AI Elevates Customer Experience in Manufacturing",
@@ -27,7 +28,7 @@ const schemaData = {
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blog/agentforce-for-manufacturers-cx"
+        "@id": "https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/"
     },
     "datePublished": "2025-08-22",
 
@@ -89,6 +90,7 @@ const schemaData = {
             }
         }
     ]
+
 }
 
 const blogs = [
@@ -369,7 +371,27 @@ export default function Page() {
 
 
                             <p className="text-black  pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                We’ve covered how Agentforce helps automate manufacturing operations, improve supply chain resilience, and scale decision-making in earlier blogs. But this post is about taking it one step further: how Agentforce transforms customer experience from production planning to after-sales service.
+                                We’ve covered
+                                <Link
+                                    className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
+                                    href={
+                                        "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"
+                                    }
+                                >
+                                    <span className="pl-3">how Agentforce helps automate manufacturing operations</span>
+                                </Link>
+                                ,
+                                improve supply chain resilience, and
+                                <Link
+                                    className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
+                                    href={
+                                        "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"
+                                    }
+                                >
+                                    <span className="pl-2 pr-2">scale decision-making</span>
+                                </Link>
+
+                                in earlier blogs. But this post is about taking it one step further: how Agentforce transforms customer experience from production planning to after-sales service.
                             </p>
 
 
@@ -524,14 +546,26 @@ export default function Page() {
                             </ol>
 
                             <p className="text-black pb-4 mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Talk to Rialtes. We help manufacturers deploy Agentforce systems that transform both the shop floor and the customer journey. As a <Link
+                                Talk to Rialtes. We help manufacturers deploy Agentforce systems that transform both the shop floor and the customer journey. As a
+                                <Link
                                     className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
                                     href={
                                         "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"
                                     }
                                 >
-                                    <span className="">top-rated Salesforce Crest Partner</span>
-                                </Link> , we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our Managed Services and Consulting can help your business integrate AI agents into Sales, Service, Marketing, and Commerce
+                                    <span className="pl-3">top-rated Salesforce Crest Partner</span>
+                                </Link>
+                                , we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our
+                                <Link
+                                    className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
+                                    href={
+                                        "https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/"
+                                    }
+                                >
+                                    <span className="pl-3 pr-3">Managed Services</span>
+                                </Link>
+
+                                and Consulting can help your business integrate AI agents into Sales, Service, Marketing, and Commerce
                             </p>
 
                             <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px]  xl:text-[21px] text-[23px] mt-16">
