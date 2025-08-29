@@ -392,7 +392,7 @@ export default function Page() {
                     <div className=" mx-auto">
                         <h1 className="text-[#000000] leading-tight text-[26px] 2xl:text-[48px] 4xl:text-[60px] xl:text-[42px] md:text-[28px] 
                          xl:w-[1000px] 4xl:w-[1150px] pb-6">
-                            Migrating from SAP PI/PO to SAP BTP Integration Suite (CPI)
+                            SAP PI PO to SAP CPI Migration: A Complete Guide
                         </h1>
                     </div>
 
@@ -406,7 +406,8 @@ export default function Page() {
                                 Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation. For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes. But as organizations shift to cloud-first strategies, the cracks in PI/PO are showing.
                             </p>
                             <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                The path forward is clear: SAP Integration Suite on SAP Business Technology Platform (BTP), often called Cloud Platform Integration (CPI). Moving from PI/PO to CPI isn’t just modernizing middleware but moving toward building an intelligent, cloud-ready enterprise.</p>
+                                The path forward is clear: SAP Integration Suite on SAP Business Technology Platform (BTP), often called 
+                                <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting/">Cloud Platform Integration (CPI)</Link> . Moving from PI/PO to CPI isn’t just modernizing middleware but moving toward building an intelligent, cloud-ready enterprise.</p>
 
 
 
@@ -627,7 +628,7 @@ export default function Page() {
                             </p>
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Rialtes helps enterprises navigate this journey. Our expertise ensures that every integration is optimized, every risk is mitigated, and every system is ready to leverage the full potential of CPI.
+                                Rialtes helps enterprises navigate this journey. Our expertise ensures that every integration is optimized, every risk is mitigated, and every system is ready to leverage the full potential of <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting/">CPI</Link>.
                             </p>
 
 

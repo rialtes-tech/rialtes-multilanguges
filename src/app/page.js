@@ -149,16 +149,6 @@ const Home = () => {
     const [refs, inViews] = useMultipleScrollAnimation(sectionCount);
     const [activeIndexInsights, setActiveIndexInsights] = useState(0);
     const [currentSlide, setCurrentSlide] = useState(0);
-<<<<<<< Updated upstream
-=======
-
-
-    const slides = [
-        { link: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner", title: "News", image: '/images/homepage/sales-news_with_bgc.webp', imageMobile: '/images/homepage/homepage-mob-banner-1.webp' },
-        { link: "/products/agentchat", image: '/images/homepage/agentchat.webp', title: "Agentchat", imageMobile: '/images/homepage/agentcmob.webp' },
-        { link: "/industry/manufacturing-cloud-erp", image: '/images/homepage/manufact_with_bgc.webp', title: "Manufacturing Industry", imageMobile: '/images/homepage/manmob.webp' },
-    ]
->>>>>>> Stashed changes
 
     const slides = useMemo(() => [
         { link: "/services/lob/salesforce-automotive-cloud-business-solutions-autosense/", title: "Autosense", image: '/images/homepage/autosense2.webp', imageMobile: '/images/homepage/autosense-mobile2.webp' },
@@ -181,15 +171,9 @@ const Home = () => {
     useEffect(() => {
         const timer = setInterval(() => {
             setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-<<<<<<< Updated upstream
         }, 10000);
         return () => clearInterval(timer);
     }, [slides]);
-=======
-        }, 5000);
-        return () => clearInterval(timer);
-    }, []);
->>>>>>> Stashed changes
 
 
     useEffect(() => {
@@ -218,23 +202,12 @@ const Home = () => {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-<<<<<<< Updated upstream
             <div className="relative custom-container overflow-hidden">
                 <div className="w-full h-[400px] sm:h-[600px] lg:h-[540px] xl:h-[630px] 4xl:h-[700px] relative">
                     {slides.map((s, i) => (
                         <Link key={i} href={s.link}>
                             <div
                                 className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${i === currentSlide ? "opacity-100 z-30" : "opacity-0 z-20"
-=======
-            <div className="relative custom-container max-md:px-0">
-                <div className="carousel w-full relative">
-                    <div className="relative w-full xl:h-[calc(100vh-100px)] h-[500px] overflow-hidden">
-                        {slides.map((s, i) => (
-                            <Link
-                                key={i}
-                                href={s.link}
-                                className={`absolute inset-0 transition-opacity duration-1000 ${i === currentSlide ? "opacity-100" : "opacity-0"
->>>>>>> Stashed changes
                                     }`}
                             >
                                 {/* Desktop */}
@@ -243,12 +216,7 @@ const Home = () => {
                                         src={s.image}
                                         alt={s.title}
                                         fill
-<<<<<<< Updated upstream
                                         priority={i === 0}
-=======
-                                        className="object-cover" // changed from object-cover
-                                        
->>>>>>> Stashed changes
                                     />
                                 </div>
                                 {/* Mobile */}
@@ -257,7 +225,6 @@ const Home = () => {
                                         src={s.imageMobile}
                                         alt={s.title}
                                         fill
-<<<<<<< Updated upstream
                                         priority={i === 0}
                                     />
                                 </div>
@@ -297,34 +264,6 @@ const Home = () => {
                             </button>
                         </div>
                     </div> */}
-=======
-                                        className="object-cover" // changed from object-cover
-                                        
-                                    />
-                                </div>
-
-                            </Link>
-                        ))}
-
-                        {/* Arrows */}
-                        <button
-                            onClick={() =>
-                                setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1))
-                            }
-                            className="absolute left-5 top-1/2 -translate-y-1/2 btn btn-circle"
-                        >
-                            ❮
-                        </button>
-                        <button
-                            onClick={() =>
-                                setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1))
-                            }
-                            className="absolute right-5 top-1/2 -translate-y-1/2 btn btn-circle"
-                        >
-                            ❯
-                        </button>
-                    </div>
->>>>>>> Stashed changes
                 </div>
             </div>
 
