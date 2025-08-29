@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
-import Seo from "@/app/components/Seo";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 import { useLocale, useTranslations } from "next-intl";
@@ -10,6 +10,7 @@ import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -95,10 +96,10 @@ const schemaData = {
 }
 
 export default function Page() {
-    const t = useTranslations('enhancingCompliance')
+    const t = useTranslations('factoryToFeedback')
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { blogs, faqData } = blogsContent.enhancingCompliance;
+    const { blogs, faqs, mainData, bestAiToolsDesc, bestAiToolsData, intelligentDesc, intelligentData, businessData, postSaleData, postSaleData2, consistencyData, readyData } = blogsContent.factoryToFeedback;
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
 
     return (
@@ -142,19 +143,15 @@ export default function Page() {
                     <div className=" mx-auto">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
-                                <span className="text-[#0092E0]">Agentforce</span>
+                                <span className="text-[#0092E0]">{t('blogTopic')}</span>
                                 <span className="text-[#ACACAC]"> | </span>22 August 2025
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
                                     <div className="max-w-[40px]">
-                                        <a
-                                            href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                                                fullUrl
-                                            )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                                        <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
                                             target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
+                                            rel="noopener noreferrer" >
                                             <Image
                                                 src="/images/case-studies/linkedin.svg"
                                                 alt="LinkedIn"
@@ -172,13 +169,9 @@ export default function Page() {
                                     </div>
 
                                     <div className="max-w-[40px]">
-                                        <a
-                                            href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                                                fullUrl
-                                            )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                        <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
                                             target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
+                                            rel="noopener noreferrer" >
                                             <Image
                                                 src="/images/case-studies/twitter.svg"
                                                 alt="Twitter"
@@ -202,211 +195,163 @@ export default function Page() {
                     <div className=" mx-auto">
                         <h1 className="text-[#000000] leading-tight text-[26px] 2xl:text-[48px] 4xl:text-[60px] xl:text-[42px] md:text-[28px] 
                          xl:w-[1000px] 4xl:w-[1150px] pb-6">
-                            From Factory to Feedback: How Agentforce AI Elevates Customer Experience in Manufacturing
+                            {t('blogTitle')}
                         </h1>
                     </div>
 
-                    <div className=" mx-auto">
-                        <div className="max-w-[1200px] 4xl:w-[1284px] 2xl:w-[950px] xl:w-[850px]">
-                            <div className="py-6 "></div>
+                    <div className="mx-auto">
+                        <div className="max-w-[1200px] 4xl:w-[1284px] 2xl:w-[950px] xl:w-[850px] mt-5">
+                            {
+                                mainData?.map((data, ind) => {
 
-                            <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                                Manufacturing Has a Customer Experience Problem
-                            </h2>
+                                    return (
+                                        <div key={ind}>
+                                            <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
+                                                {data.title}
+                                            </h2>
+                                            {
+                                                data.desc.map((elem, id) => {
+                                                    return (
+                                                        <p key={id} className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
+                                                            {elem}
+                                                        </p>
+                                                    )
+                                                })
+                                            }
+                                            <div className="py-3"></div>
+                                        </div>
+                                    )
+                                })
+                            }
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
-                                Manufacturers today operate in a pressure cooker. You’re dealing with fluctuating demand, global supply chain fragility, rising customer expectations, and shrinking margins. It's not just about making products anymore; it's about delivering predictable, transparent, and responsive experiences from production to post-sale. However, here's the thing: most manufacturers are still operating in the dark.                                        </p>
-
-
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                According to Deloitte, 79% of manufacturing executives say they lack real-time visibility across their operations. This results in delays in decision-making, missed quality issues, and inadequate responsiveness to market shifts. And customers feel the impact, whether it’s a late shipment, an unavailable part, or a service delay.                         </p>
-
-
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                So how do you bridge that gap between the factory floor and the customer feedback loop?
-                            </p>
-
-                            <div className="py-6 "></div>
-
-                            <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                                Agentforce: AI Agents for the Manufacturing Edge
-                            </h2>
-
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Agentforce isn’t your typical AI platform. It’s an ecosystem of intelligent, goal-driven agents that learn, act, and collaborate across departments without waiting for human instruction. Built on Salesforce’s secure infrastructure and tailored for enterprise workflows, Agentforce gives manufacturers a real-time, predictive edge.                            </p>
-
-
-
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                We’ve covered how Agentforce helps automate manufacturing operations, improve supply chain resilience, and scale decision-making in earlier blogs. But this post is about taking it one step further: how Agentforce transforms customer experience from production planning to after-sales service.
-                            </p>
-
-
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                1. Best AI tools for predicting order delays and service disruptions
+                            <h3 className="pb-4 font-semibold 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight">
+                                {t('bestAiToolsTitle')}
                             </h3>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Most manufacturers still operate in reaction mode. A customer calls to complain. A shipment misses its window. A part fails in the field. By the time these problems surface, it’s too late; the damage to the customer experience is already done.
+                            {
+                                bestAiToolsDesc.map((data, ind) => {
+                                    return (
+                                        <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]" key={ind}>
+                                            {data}
+                                        </p>
+                                    )
+                                })
+                            }
+                            <UnorderedList arrName={bestAiToolsData} ulClassName="list-disc marker:text-xl space-y-5 pl-4 mt-4 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium pl-[56px]" />
+
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-5">
+                                {t('bestAiToolsDesc2')}
                             </p>
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Agentforce flips that model. Instead of relying on lagging indicators like lost deals or negative surveys, Agentforce uses AI agents to detect early signals of trouble across your entire ecosystem
-                            </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                These agents are embedded in your CRM, ERP, MES, and IoT platforms, constantly scanning for patterns that humans might miss. They’re trained to flag events that could affect the customer experience before the customer ever knows something’s wrong
-                            </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Some examples:
+                                {t('bestAiToolsDesc3')}
                             </p>
 
-                            <ol className="list-disc  marker:text-xl space-y-5 pl-4 mt-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium">
-                                <li>A delayed shipment in the logistics system triggers an alert to sales and customer service, along with a suggested message for customer notification.</li>
-                                <li>A sudden drop in machine performance, detected via connected sensors, prompts the system to schedule a preventive maintenance visit and inform the support team.</li>
-                                <li>A supply shortage upstream is flagged as a risk to fulfillment, allowing procurement and inventory teams to reroute before customer delivery is impacted.</li>
-                            </ol>
-
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-3">
-                                But Agentforce agents don’t stop at detection.
-                            </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                They reroute issues to the right team, automate ticket creation, alert account managers, and notify customers with pre-approved updates. They remove the friction of escalation and response, turning what used to be service breakdowns into moments of proactive care.
-                            </p>
-
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                2. AI tools that provide real-time visibility across the supply chain and customer service
+                            <h3 className=" pb-4 font-semibold 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
+                                {t('aiToolTitle')}
                             </h3>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Customer experience isn't just a front-end problem. It’s tightly tied to back-end visibility. Without real-time data from suppliers, production lines, and logistics, you can’t set accurate expectations or respond fast when things go wrong.
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]">
+                                {t('aiToolDesc')}
                             </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                With Agentforce, AI agents connect siloed systems across the supply chain, production, service, and sales. They provide a shared source of truth visible to both frontline teams and backend ops. This means sales can confirm realistic delivery dates. Support can access the machine history. And procurement knows when raw material shortages might delay an order.
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]">
+                                {t('aiToolDesc2')}
                             </p>
                             <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                3. Intelligent Case Routing and Resolution
+                                {t('intelligentTitle')}
                             </h3>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Let’s face it: in manufacturing, even one delayed shipment, broken part, or miscommunication can trigger a cascade of frustration for your customers. When that happens, how you respond can either build trust or break it.
-                            </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Traditionally, service teams are overwhelmed. Tickets come in, support staff scramble to gather warranty details, dig through past orders, and route the case to the right department, often bouncing customers between teams. This slows resolution and erodes satisfaction. Agentforce changes that entirely.
-                            </p>
+                            {
+                                intelligentDesc.map((data, ind) => {
+                                    return (
+                                        <p key={ind} className="text-black ml-[24px] pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                                            {data}
+                                        </p>
+                                    )
+                                })
+                            }
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Here's how it works:
-                            </p>
-
-
-                            <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-5">
-                                <li><h4 className="font-bold inline 4xl:text-[18px] 2xl:text-[16px] xl:text-[15px] text-[16px]">Context-Aware Triag: </h4> The moment a service request is submitted through a portal, email, call, or even an IoT alert, Agentforce agents analyze the request in real time. They look at product data, customer history, warranty status, service entitlements, and urgency signals. Based on this, they categorize and prioritize the ticket instantly.  </li>
-                                <li><h4 className="font-bold inline 4xl:text-[18px] 2xl:text-[16px] xl:text-[15px] text-[16px]">Smart Routing:</h4> Once triaged, agents match the case with the best available support rep, factoring in skill sets, location, workload, and customer SLAs. High-value clients or urgent issues are flagged for rapid resolution. Repeat issues are routed directly to specialists without human intervention.</li>
-                                <li><h4 className="font-bold inline 4xl:text-[18px] 2xl:text-[16px] xl:text-[15px] text-[16px]">Auto-Filled Case Data:</h4> Agents automatically populate service tickets with part numbers, order history, equipment serial numbers, and related documentation.</li>
-                                <li><h4 className="font-bold inline 4xl:text-[18px] 2xl:text-[16px] xl:text-[15px] text-[16px]">Autonomous Resolution (When Possible):</h4> For routine issues, rescheduling a delivery, issuing a replacement part, or sending technical documentation, agents can resolve the request end-to-end without involving a human rep.</li>
-
-                            </ol>
+                            <ul className="list-disc marker:text-xl pl-[56px] text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-5">
+                                {
+                                    intelligentData.map((data, ind) => {
+                                        return (
+                                            <li><h4 className="font-bold inline 4xl:text-[18px] 2xl:text-[16px] xl:text-[15px] text-[16px]">{data.title}</h4>{data.desc}</li>
+                                        )
+                                    })
+                                }
+                            </ul>
 
                             <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                The business impact:
+                                {t('businessTitle')}
+                            </h3>
+                            <UnorderedList arrName={businessData} ulClassName="list-disc marker:text-xl pl-[32px] text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3" />
+
+                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
+                                {t('postSaleTitle')}
                             </h3>
 
-                            <ol className="list-disc  marker:text-xl pl-4  text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
-                                <li>Response times drop significantly because agents do the legwork.</li>
-                                <li>Escalations decrease since most cases are routed and resolved right the first time.</li>
-                                <li>Customer satisfaction (NPS and CSAT) improves, as buyers feel seen, heard, and supported quickly.</li>
-                            </ol>
-
-
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                4. Post-Sale Insights That Drive Loyalty
-                            </h3>
-
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Too many manufacturers treat post-sale interactions as an afterthought.
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]">
+                                {t('postSaleDesc')}
                             </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                AI agents monitor:
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]">
+                                {t('postSaleDesc2')}
                             </p>
-                            <ol className="list-disc  marker:text-xl pl-4 mt-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
-                                <li>Product usage patterns via connected devices.</li>
-                                <li>Maintenance history and service feedback.</li>
-                                <li>Customer sentiment across service tickets, emails, and calls.</li>
-                            </ol>
+                            <UnorderedList arrName={postSaleData} ulClassName="list-disc marker:text-xl pl-[56px] mt-4 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3" />
 
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-10 pl-[24px]">
+                                {t('postSaleDesc3')}
+                            </p>
+                            <UnorderedList arrName={postSaleData2} ulClassName="list-disc marker:text-xl pl-[56px] mt-2 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3" />
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-3">
-                                Then they recommend actions like
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-7 pl-[24px]">
+                                {t('postSaleDesc4')}
                             </p>
 
-                            <ol className="list-disc  marker:text-xl pl-4 mt-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
-                                <li>Scheduling preventive maintenance.</li>
-                                <li>Flagging accounts at churn risk</li>
-                                <li>Launching personalized retention offers.</li>
-                            </ol>
-
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                This isn’t just post-sale support. It’s feedback-to-product-loop intelligence that drives retention, referrals, and continuous improvement.
-                            </p>
-
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                5. Consistency Across Distributors, Partners, and Channels
+                            <h3 className="pb-4 font-semibold 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
+                                {t('consistencyTitle')}
                             </h3>
 
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Manufacturers never sell directly. You have resellers, OEMs, installers, and service partners in the mix. That makes delivering a consistent customer experience even harder.
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]">
+                                {t('consistencyDesc')}
                             </p>
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Agentforce helps by:
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]">
+                                {t('consistencyDesc2')}
                             </p>
+                            <UnorderedList arrName={consistencyData} ulClassName="list-disc marker:text-xl pl-[56px] mt-4 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3" />
 
-                            <ol className="list-disc  marker:text-xl pl-4 mt-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
-                                <li>Enabling self-service AI agents for distributors to check inventory, raise claims, or schedule deliveries.</li>
-                                <li>Standardizing processes across partner channels with automated playbooks</li>
-                                <li>Monitoring SLA performance across every channel, not just your teams</li>
-                            </ol>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                This consistency is what builds trust, even in complex, multi-layered ecosystems.
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-7 pl-[24px]">
+                                {t('consistencyDesc3')}
                             </p>
 
                             <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] mt-10 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                                AI That Thinks Beyond the Factory Floor
+                                {t('aiThinksTitle')}
                             </h2>
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Customer experience in manufacturing isn’t just about better interfaces or faster response times. It’s about intelligence that stretches across operations, supply chains, field service, and feedback loops.
+                                {t('aiThinkDesc')}
                             </p>
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Agentforce delivers that intelligence through autonomous AI agents that work 24/7, scale across departments, and evolve with your business. And in a world where 70% of customers say their experience with a brand matters more than the product itself, that’s not optional. That’s existential.
+                                {t('aiThinkDesc2')}
                             </p>
 
                             <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] mt-10 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                                Ready to Connect Manufacturing and CX with AI?
+                                {t('readyTitle')}
                             </h2>
 
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-3">
-                                What You Should Take Away
+                            <h3 className=" pb-4 font-semibold 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-3">
+                                {t('readySubTitle')}
                             </h3>
 
-
-                            <ol className="list-disc  marker:text-xl pl-4 mt-2 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
-                                <li>79% of manufacturers lack real-time visibility, and Agentforce fixes that.</li>
-                                <li>AI agents improve CX by automating case resolution, detecting delays, and driving retention.</li>
-                                <li>From factory to field service, Agentforce AI turns operations into proactive, customer-focused systems.</li>
-                            </ol>
+                            <UnorderedList arrName={readyData} ulClassName="list-disc marker:text-xl pl-[34px] mt-4 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3" />
 
                             <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Talk to Rialtes. We help manufacturers deploy Agentforce systems that transform both the shop floor and the customer journey. As a <Link
-                                    className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
-                                    href={
-                                        "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"
-                                    }
-                                >
-                                    <span className="">top-rated Salesforce Crest Partner</span>
-                                </Link> , we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our Managed Services and Consulting can help your business integrate AI agents into Sales, Service, Marketing, and Commerce
+                                {t('rialtesTalkDesc')}
+                                <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
+                                    href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"}>
+                                    <span>{t('rialtesTalkLink')}</span>
+                                </Link> {t('rialtesTalkDesc2')},
                             </p>
 
-                            <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px]  xl:text-[21px] text-[23px] mt-16">
-                                Frequently Asked Questions (FAQs)
+                            <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px] xl:text-[21px] text-[23px] mt-10">
+                                {t('faqTitle')}
                             </h2>
-
                         </div>
                     </div>
                 </div>

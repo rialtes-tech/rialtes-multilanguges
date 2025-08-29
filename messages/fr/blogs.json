@@ -3410,5 +3410,212 @@
             "Le moment est venu. L’IA agentique n’est pas seulement une mise à niveau technologique ; c’est un changement de mentalité."
         ],
         "faqTitle": "Foire Aux Questions (FAQ)"
+    },
+    "factoryToFeedback": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Comment fonctionne réellement Salesforce Agentforce",
+                "description": "Salesforce Agentforce, bien qu’étant une nouveauté dans l’écosystème Salesforce, gagne en popularité, notamment dans les organisations qui gèrent de grandes équipes d’agents comme les commerciaux, les représentants du service client et le personnel de terrain."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "28 Oct 2024",
+                "title": "Agents vs. Copilotes vs. Bots : Quelle est la différence et pourquoi est-ce important ?",
+                "description": "Des outils comme Agentforce redéfinissent notre vision des assistants numériques, en mettant en lumière les distinctions entre Agents, Copilotes et Bots. Ces termes sont fréquemment utilisés dans l’automatisation et les interfaces conversationnelles basées sur l’IA, chacun ayant un rôle distinct."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center : Redéfinir les tests d’IA avec des données synthétiques",
+                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center au sein de sa plateforme d’IA agentique, Agentforce. Cette nouveauté permet aux entreprises de tester et surveiller les agents IA avant leur mise en production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources humaines",
+                "date": "24 Déc 2024",
+                "title": "Comment intégrer SAP SuccessFactors avec Microsoft Office 365 pour une meilleure collaboration",
+                "description": "Une intégration fluide entre les applications d’entreprise améliore la collaboration, l’efficacité et la productivité. L’intégration de SAP SuccessFactors avec Microsoft Office 365 combine la puissance d’une solution de gestion de l’expérience humaine (HXM) et une suite robuste d’outils de productivité."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Technologies vertes Cloud",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0 : Comment les technologies numériques transforment l’agriculture pour un avenir meilleur ?",
+                "description": "L’agriculture joue un rôle majeur dans l’économie en croissance de l’Inde, et son avenir ne peut se réaliser sans outils numériques et innovations technologiques."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources humaines",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors : Gestion de la performance et des objectifs",
+                "description": "Atteindre les objectifs de votre organisation est une responsabilité clé partagée par toute votre équipe. Lorsque la stratégie de votre équipe est alignée sur ses objectifs et les objectifs globaux de l’organisation, faire le bon choix devient instinctif."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "1. Qu’est-ce qu’Agentforce et comment aide-t-il les fabricants à améliorer l’expérience client ?",
+                "answer": [
+                    "Agentforce est une plateforme alimentée par l’IA, construite sur Salesforce, qui permet aux fabricants de déployer des agents intelligents dans les ventes, le service et les opérations. Ces agents surveillent les données en temps réel, prédisent les problèmes ayant un impact client, automatisent les réponses et personnalisent l’engagement."
+                ]
+            },
+            {
+                "question": "2. Comment Agentforce détecte-t-il et répond-il aux problèmes avant que les clients ne se plaignent ?",
+                "answer": [
+                    "Agentforce se connecte aux systèmes ERP, CRM et IoT pour surveiller les signaux opérationnels tels que les pannes de machines, les retards de livraison ou les pénuries de pièces. Lorsqu’un risque est détecté, les agents IA notifient automatiquement les responsables de compte, déclenchent des alertes et, dans certains cas, informent les clients avant que le problème ne s’aggrave."
+                ]
+            },
+            {
+                "question": "3. Agentforce peut-il être intégré aux systèmes existants comme Salesforce CPQ ou Manufacturing Cloud ?",
+                "answer": [
+                    "Oui. Agentforce est nativement construit pour Salesforce et s’intègre parfaitement avec des outils comme Salesforce CPQ, Service Cloud, Manufacturing Cloud et même des systèmes tiers. Il améliore les flux de travail existants sans nécessiter une refonte complète du système."
+                ]
+            },
+            {
+                "question": "4. Comment Agentforce améliore-t-il la résolution des cas dans les centres de service de fabrication ?",
+                "answer": [
+                    "Agentforce utilise des agents IA pour trier, acheminer et remplir automatiquement les tickets de service en fonction de la priorité, de l’historique produit et du profil client. Cela réduit le temps de résolution en orientant les cas vers les bons représentants ou en résolvant automatiquement les problèmes simples."
+                ]
+            },
+            {
+                "question": "5. Agentforce convient-il uniquement aux grandes entreprises ou aussi aux PME manufacturières ?",
+                "answer": [
+                    "Agentforce s’adapte facilement aux entreprises de toutes tailles. Pour les fabricants de taille moyenne souhaitant se moderniser sans gros investissements IT, il propose un déploiement modulaire : vous pouvez commencer petit (comme l’automatisation du routage des cas ou des alertes proactives) et évoluer au fur et à mesure."
+                ]
+            },
+            {
+                "question": "6. Quel type de ROI les fabricants peuvent-ils attendre de l’utilisation d’Agentforce ?",
+                "answer": [
+                    "Bien que le ROI varie selon les cas d’usage, les fabricants constatent généralement des gains mesurables dans les temps de première réponse, la réduction des coûts de service et l’amélioration des scores NPS (Net Promoter Score). Plus important encore, Agentforce renforce la fidélité client en rendant chaque interaction plus rapide, plus informée et plus humaine."
+                ]
+            },
+            {
+                "question": "7. Agentforce est-il sécurisé et conforme pour les industries réglementées ?",
+                "answer": [
+                    "Oui. Agentforce respecte les protocoles de sécurité de niveau entreprise de Salesforce et peut être déployé en conformité avec des normes comme ISO, SOC 2 et HIPAA, ce qui le rend adapté aux fabricants dans l’aérospatiale, les dispositifs médicaux, l’automobile et bien plus."
+                ]
+            }
+        ],
+        "blogTopic": "Agentforce",
+        "blogTitle": "De l’usine au feedback : comment l’IA Agentforce améliore l’expérience client dans la fabrication",
+        "mainData": [
+            {
+                "title": "La fabrication a un problème d’expérience client",
+                "desc": [
+                    "Les fabricants opèrent aujourd’hui sous pression : demande fluctuante, fragilité des chaînes d’approvisionnement mondiales, attentes croissantes des clients et marges réduites. Il ne s’agit plus seulement de fabriquer des produits ; il s’agit d’offrir des expériences prévisibles, transparentes et réactives de la production au service après-vente. Pourtant, la plupart des fabricants travaillent encore dans l’obscurité.",
+                    "Selon Deloitte, 79 % des dirigeants de la fabrication déclarent manquer de visibilité en temps réel sur leurs opérations. Cela entraîne des retards de décision, des problèmes de qualité non détectés et un manque de réactivité face aux changements du marché. Et les clients en subissent les conséquences : retards de livraison, pièces indisponibles ou service lent.",
+                    "Alors, comment combler ce fossé entre l’usine et la boucle de feedback client ?"
+                ]
+            },
+            {
+                "title": "Agentforce : des agents IA à la périphérie de la fabrication",
+                "desc": [
+                    "Agentforce n’est pas une plateforme d’IA classique. C’est un écosystème d’agents intelligents, orientés objectifs, qui apprennent, agissent et collaborent entre départements sans attendre une instruction humaine. Construit sur l’infrastructure sécurisée de Salesforce et conçu pour les workflows d’entreprise, Agentforce donne aux fabricants un avantage prédictif en temps réel.",
+                    "Nous avons déjà expliqué comment Agentforce aide à automatiser les opérations de fabrication, améliorer la résilience de la chaîne d’approvisionnement et accélérer la prise de décision. Mais cet article va plus loin : montrer comment Agentforce transforme l’expérience client, de la planification de la production au service après-vente."
+                ]
+            }
+        ],
+        "bestAiToolsTitle": "1. Meilleurs outils IA pour prédire les retards de commandes et les interruptions de service",
+        "bestAiToolsDesc": [
+            "La plupart des fabricants fonctionnent encore en mode réactif. Un client appelle pour se plaindre. Une livraison manque sa fenêtre. Une pièce tombe en panne sur le terrain. Quand ces problèmes apparaissent, il est trop tard : l’expérience client est déjà compromise.",
+            "Agentforce inverse ce modèle. Au lieu de se baser sur des indicateurs tardifs comme des ventes perdues ou des enquêtes négatives, Agentforce utilise des agents IA pour détecter les signaux précoces de problèmes dans tout votre écosystème.",
+            "Ces agents sont intégrés dans vos CRM, ERP, MES et plateformes IoT, analysant constamment les modèles que les humains pourraient manquer. Ils sont entraînés à signaler les événements pouvant affecter l’expérience client avant que celui-ci ne se rende compte d’un problème.",
+            "Exemples :"
+        ],
+        "bestAiToolsData": [
+            "Un retard de livraison dans le système logistique déclenche une alerte aux ventes et au service client, avec un message suggéré pour informer le client.",
+            "Une baisse soudaine des performances d’une machine, détectée via des capteurs connectés, entraîne la planification d’une maintenance préventive et l’information de l’équipe support.",
+            "Une pénurie d’approvisionnement en amont est signalée comme un risque pour l’exécution, permettant aux équipes d’achat et d’inventaire de réagir avant que la livraison au client ne soit impactée."
+        ],
+        "bestAiToolsDesc2": "Mais les agents Agentforce ne s’arrêtent pas à la détection.",
+        "bestAiToolsDesc3": "Ils redirigent les problèmes vers la bonne équipe, automatisent la création de tickets, alertent les responsables de comptes et notifient les clients avec des mises à jour pré-approuvées. Ils éliminent la friction de l’escalade et de la réponse, transformant ce qui était autrefois des ruptures de service en moments de soin proactif.",
+        "aiToolTitle": "2. Outils IA offrant une visibilité en temps réel sur la chaîne d’approvisionnement et le service client",
+        "aiToolDesc": "L’expérience client n’est pas seulement un problème de front-office. Elle est étroitement liée à la visibilité back-end. Sans données en temps réel des fournisseurs, des lignes de production et de la logistique, il est impossible de fixer des attentes précises ou de répondre rapidement quand les choses tournent mal.",
+        "aiToolDesc2": "Avec Agentforce, les agents IA connectent les systèmes cloisonnés à travers la chaîne d’approvisionnement, la production, le service et les ventes. Ils fournissent une source commune de vérité, visible par les équipes en première ligne comme par les opérations back-office. Cela permet aux ventes de confirmer des délais de livraison réalistes, au support d’accéder à l’historique des machines et aux achats de savoir si une pénurie de matières premières risque de retarder une commande.",
+        "intelligentTitle": "3. Routage et résolution intelligente des cas",
+        "intelligentDesc": [
+            "Soyons honnêtes : en fabrication, même un seul retard de livraison, une pièce défectueuse ou une mauvaise communication peut déclencher une cascade de frustrations pour vos clients. Quand cela arrive, votre manière de réagir peut soit renforcer la confiance, soit la briser.",
+            "Traditionnellement, les équipes de service sont débordées. Les tickets arrivent, le personnel de support cherche des détails de garantie, fouille les commandes passées et transfère le cas entre départements, souvent en faisant rebondir les clients. Cela ralentit la résolution et nuit à la satisfaction. Agentforce change complètement cela.",
+            "Voici comment cela fonctionne :"
+        ],
+        "intelligentData": [
+            {
+                "title": "Triage contextuel :",
+                "desc": "Dès qu’une demande de service est soumise via un portail, un e-mail, un appel ou même une alerte IoT, les agents Agentforce l’analysent en temps réel. Ils examinent les données produit, l’historique client, le statut de garantie, les droits au service et les signaux d’urgence. Sur cette base, ils catégorisent et priorisent instantanément le ticket."
+            },
+            {
+                "title": "Routage intelligent :",
+                "desc": "Une fois triés, les agents associent les cas au meilleur représentant disponible, en tenant compte des compétences, de l’emplacement, de la charge de travail et des SLA clients. Les clients importants ou les problèmes urgents sont signalés pour une résolution rapide. Les problèmes récurrents sont envoyés directement aux spécialistes, sans intervention humaine."
+            },
+            {
+                "title": "Données de cas auto-remplies :",
+                "desc": "Les agents remplissent automatiquement les tickets de service avec les numéros de pièce, l’historique des commandes, les numéros de série des équipements et la documentation associée."
+            },
+            {
+                "title": "Résolution autonome (si possible) :",
+                "desc": "Pour les problèmes courants, comme reprogrammer une livraison, expédier une pièce de remplacement ou envoyer une documentation technique, les agents peuvent gérer la demande de bout en bout sans impliquer un représentant humain."
+            }
+        ],
+        "businessTitle": "Impact métier :",
+        "businessData": [
+            "Les temps de réponse chutent significativement car les agents font le travail préparatoire.",
+            "Les escalades diminuent puisque la plupart des cas sont routés et résolus correctement dès la première fois.",
+            "La satisfaction client (NPS et CSAT) s’améliore, car les acheteurs se sentent écoutés, compris et soutenus rapidement."
+        ],
+        "postSaleTitle": "4. Informations post-vente qui stimulent la fidélité",
+        "postSaleDesc": "Trop de fabricants considèrent les interactions post-vente comme une réflexion après coup.",
+        "postSaleDesc2": "Les agents IA surveillent :",
+        "postSaleData": [
+            "Les modèles d’utilisation des produits via des appareils connectés.",
+            "L’historique de maintenance et les retours de service.",
+            "Le ressenti client à travers les tickets, e-mails et appels."
+        ],
+        "postSaleDesc3": "Puis ils recommandent des actions comme :",
+        "postSaleData2": [
+            "Planifier une maintenance préventive.",
+            "Identifier les comptes à risque de résiliation.",
+            "Lancer des offres de fidélisation personnalisées."
+        ],
+        "postSaleDesc4": "Ce n’est pas seulement du support post-vente. C’est une boucle de rétroaction intelligente qui alimente la fidélisation, les recommandations et l’amélioration continue.",
+        "consistencyTitle": "5. Cohérence à travers distributeurs, partenaires et canaux",
+        "consistencyDesc": "Les fabricants ne vendent jamais directement. Vous avez des revendeurs, des OEM, des installateurs et des partenaires de service impliqués. Cela rend la livraison d’une expérience client cohérente encore plus difficile.",
+        "consistencyDesc2": "Agentforce aide en :",
+        "consistencyData": [
+            "Permettant aux distributeurs d’utiliser des agents IA en libre-service pour vérifier les stocks, déposer des réclamations ou planifier des livraisons.",
+            "Standardisant les processus à travers les canaux partenaires avec des playbooks automatisés.",
+            "Surveillant la performance des SLA sur tous les canaux, pas seulement vos équipes."
+        ],
+        "consistencyDesc3": "Cette cohérence est ce qui construit la confiance, même dans des écosystèmes complexes et multi-niveaux.",
+        "aiThinksTitle": "Une IA qui pense au-delà de l’usine",
+        "aiThinkDesc": "L’expérience client dans la fabrication ne se résume pas à de meilleures interfaces ou des temps de réponse plus rapides. Il s’agit d’une intelligence qui couvre les opérations, la chaîne d’approvisionnement, le service sur le terrain et les boucles de feedback.",
+        "aiThinkDesc2": "Agentforce offre cette intelligence grâce à des agents IA autonomes qui travaillent 24/7, évoluent à travers les départements et s’adaptent à votre entreprise. Et dans un monde où 70 % des clients affirment que leur expérience avec une marque compte plus que le produit lui-même, ce n’est pas optionnel. C’est vital.",
+        "readyTitle": "Prêt à connecter la fabrication et l’expérience client avec l’IA ?",
+        "readySubTitle": "Ce qu’il faut retenir",
+        "readyData": [
+            "79 % des fabricants manquent de visibilité en temps réel, et Agentforce résout ce problème.",
+            "Les agents IA améliorent l’expérience client en automatisant la résolution des cas, en détectant les retards et en renforçant la fidélisation.",
+            "De l’usine au service sur le terrain, l’IA Agentforce transforme les opérations en systèmes proactifs, centrés sur le client."
+        ],
+        "rialtesTalkDesc": "Parlez à Rialtes. Nous aidons les fabricants à déployer les systèmes Agentforce qui transforment à la fois l’atelier et le parcours client. En tant que",
+        "rialtesTalkLink": "partenaire Salesforce Crest noté parmi les meilleurs",
+        "rialtesTalkDesc2": "nous excellons dans le déploiement de Salesforce Agentforce pour améliorer l’efficacité à travers les industries. Nos services managés et notre conseil peuvent aider votre entreprise à intégrer des agents IA dans les ventes, le service, le marketing et le commerce.",
+        "faqTitle": "Foire aux questions (FAQ)"
     }
 }
