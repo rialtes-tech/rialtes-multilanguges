@@ -30,6 +30,16 @@ const schemaData = {
 }
 
 const latestBlogs = [
+   {
+    id: 27,
+    image: "/images/blog/sap-cpi-feature-thumb.webp",
+    category: "SAP",
+    industry: "Generic",
+    date: "Aug. 28, 2025",
+    url: '/sap-pi-po-to-cpi-migration-complete-guide',
+    title: "Migrating from SAP PI/PO to SAP BTP Integration Suite (CPI)",
+    description: "Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation.For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes.",
+  },
   {
     id: 26,
     image: "/images/blog/big-reimage-slider.webp",

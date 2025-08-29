@@ -12,6 +12,7 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-montserrat)", ...fontFamily.sans],
       },
+      
       screens: {
         xxs: "375px",
         xs: "414px",
@@ -37,9 +38,6 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
   safelist: [
     "ml-[280px]",
     "w-[calc(100%-280px)]",
