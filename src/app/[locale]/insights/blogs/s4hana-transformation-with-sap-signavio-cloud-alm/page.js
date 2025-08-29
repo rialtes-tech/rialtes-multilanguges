@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
-import Seo from "@/app/components/Seo";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import UnorderedList from "@/app/components/unorderedList";
-import FAQAccordion from "@/app/components/faqAccordion";
-import BlogsCarousel from "@/app/components/latestBlogCarousel";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import BlogsCarousel from "@/app/[locale]/components/latestBlogCarousel";
 import Link from "next/link";
 const schemaData = {
     "@context": "https://schema.org",

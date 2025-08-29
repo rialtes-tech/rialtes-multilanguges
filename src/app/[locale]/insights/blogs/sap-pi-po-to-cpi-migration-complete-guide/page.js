@@ -3,10 +3,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
-import Seo from "@/app/components/Seo";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import FAQAccordion from "@/app/components/faqAccordion";
-import UnorderedList from "@/app/components/unorderedList";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
 
 
 const schemaData = 
