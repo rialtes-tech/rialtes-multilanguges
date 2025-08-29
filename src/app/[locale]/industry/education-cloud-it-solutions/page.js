@@ -152,7 +152,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative group overflow-hidden xl:pb-40 pb-10">
+      <section className="relative group overflow-hidden xl:pb-40 pb-10 h-[350px] md:h-[530px]  4xl:h-[650px] ">
         <div className="md:block hidden">
           <Image
             src="/images/education/Education banner.webp"

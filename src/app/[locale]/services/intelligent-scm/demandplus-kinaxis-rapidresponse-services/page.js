@@ -57,7 +57,7 @@ export default function DemandPlusSection() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative group overflow-hidden h-[435px] lg:h-[650px]">
+            <section className="relative group overflow-hidden h-[400px] md:h-[500px]  4xl:h-[650px] ">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/banner.webp"
@@ -79,7 +79,7 @@ export default function DemandPlusSection() {
                         sizes="100vw" />
                 </div>
                 <div className="h-full relative custom-container xl:!pr-0  mr-0">
-                    <div className="grid xl:grid-cols-12  grid-cols-1 gap-2 mt-20">
+                    <div className="grid xl:grid-cols-12  grid-cols-1 gap-2 2xl:mt-10 4xl:mt-20 mt-10">
                         <div className="xl:col-span-7 md:col-span-2 col-span-12">
                             <h3 className="text-white xl:text-[24px]  font-bold mb-2">{t('headerTitle')}</h3>
                             <h1 className="text-white leading-tight mt-5 pr-14 xl:pr-0 md:text-[42px] 4xl:text-[60px] xl:text-[45px] text-[26px]">
@@ -103,7 +103,7 @@ export default function DemandPlusSection() {
                     <div className="xl:col-span-4"></div>
                 </div>
             </section>
-            <section className="relative xl:h-[700px] group overflow-hidden">
+            <section className="relative 4xl:h-[700px] 2xl:h-[660px] xl:h-[650px] group overflow-hidden">
                 {/* Desktop Image */}
                 <div className="xl:block hidden">
                     <Image
@@ -128,7 +128,7 @@ export default function DemandPlusSection() {
                     />
                 </div>
                 {/* Content Block */}
-                <div className={`custom-container z-10 relative xl:absolute xl:top-[45%] top-[-100px]  xl:-translate-y-1/2`}>
+                <div className={`custom-container z-10 relative xl:absolute 4xl:top-[45%] 2xl:top-[43%] xl:top-[43%] top-[-100px]  xl:-translate-y-1/2`}>
                     <div className="bg-[#016FBE] bg-opacity-90 text-white p-[20px] md:p-8 xl:w-[720px] xl:pb-20 4xl:pb-20 pb-32">
                         <h3 className="font-light xl:text-[30px] text-[18px]">{t('introducingTitle')} </h3>
                         <h3 className="4xl:text-[50px] xl:text-[40px] text-[23px] max-[350px]:text-[20px] leading-[60px]">{t('introducingTitle2')}</h3>
@@ -143,7 +143,7 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-            <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[-81px] sticky mt-[-7rem] md:mt-[-7rem] mx-[35px] xl:mx-0 z-[20]">
+            <div className="grid xl:grid-cols-12 grid-cols-1 4xl:mt-[-67px] 2xl:mt-[-77px] xl:mt-[-67px] sticky mt-[-7rem] md:mt-[-7rem] mx-[35px] xl:mx-0 z-[20]">
                 <div className="col-span-4"></div>
                 <div className="col-span-7 bg-[#163055] p-8">
                     <p className="4xl:text-[26px] text-[18px] text-white leading-tight font-normal xl:pr-10">{t('introducingBlueBox')} </p>
@@ -169,7 +169,7 @@ export default function DemandPlusSection() {
                             priority
                             width={0}
                             height={0}
-                            className="w-full h-full transform transition-transform duration-500 group-hover:scale-110"
+                            className="w-full md:h-[1000px] h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
                             sizes="100vw"
                         />
                     </div>
@@ -187,8 +187,8 @@ export default function DemandPlusSection() {
                     {whyKinaxisData.map((item, index) => (
                         <div
                             key={index}
-                            className=" shadow-md p-8 text-black border-black border hover:bg-[#D9F2FF] transition-all bg-white">
-                            <p className="font-semibold 4xl:text-[24px] text-[20px] xl:text-[15px]">{item}</p>
+                            className=" shadow-md p-7 text-black border-black border hover:bg-[#D9F2FF] transition-all bg-white">
+                            <p className="font-semibold 4xl:text-[24px] text-[20px] 2xl:text-[20px] xl:text-[18px]">{item}</p>
                         </div>
                     ))}
                 </div>
@@ -214,7 +214,7 @@ export default function DemandPlusSection() {
                     <div className="col-span-7 bg-[#006FBE] 4xl:mt-[-2rem] xl:mt-[-1rem] mt-[-4rem] text-white 4xl:ml-[-90px] xl:ml-[-108px] 4xl:mb-[75px] xl:pl-[10rem] px-[35px] pb-16  xl:pb-20">
                         <h3 className="4xl:pt-20 xl:pt-10 pt-24 text-[22px] 4xl:text-[30px] 4xl:pr-[20rem] xl:pr-[14rem]">{t('endToEndTitle')}</h3>
                         <UnorderedList arrName={supplyChain} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-2 font-light marker:font-bold marker:text-2xl pl-5 mt-8 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                        <div className="mt-6 absolute">
+                        <div className="4xl:mt-6 2xl:mt-28 xl:mt-10 mt-4 absolute">
                             <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
                         </div>
                     </div>
@@ -239,7 +239,7 @@ export default function DemandPlusSection() {
                         <p className="mt-5 font-normal 4xl:text-[20px] text-[16px] xl:text-[18px]">
                             {t('salesDesc')}
                         </p>
-                        <UnorderedList arrName={salesData} ulClassName="list-disc leading-tight xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 xl:mt-8 mt-5" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                        <UnorderedList arrName={salesData} ulClassName="list-disc leading-tight xl:space-y-2 font-normal marker:font-bold marker:text-2xl pl-5 4xl:mt-8 2xl:mt-8 xl:mt-4 mt-5" liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] text-[16px]" />
                     </div>
                 </div>
             </section>
@@ -267,7 +267,7 @@ export default function DemandPlusSection() {
                             sizes="100vw"
                         />
                     </div>
-                    <div className="absolute text-white grid xl:grid-cols-12 grid-cols-1 xl:top-[34rem] top-[23rem] md:top-[46rem]">
+                    <div className="absolute text-white grid xl:grid-cols-12 grid-cols-1  top-[23rem] md:top-[46rem] max-[390px]:mt-[-100px] max-[320px]:mt-[-200px] md:mt-[300px] 4xl:top-[13rem] 2xl:top-[16rem] xl:top-[18rem]">
                         <div className="xl:col-span-7  custom-container xl:!pr-0 pl-[35px] xl:py-16 py-8">
                             <h2 className="mb-4 leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px]">{t('inventoryTitle')} </h2>
                             <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] mt-5">{t('inventoryTitle2')}</h3>
@@ -293,7 +293,7 @@ export default function DemandPlusSection() {
                 </div>
                 <div className="xl:col-span-3 col-span-12"></div>
             </div>
-            <section className="relative h-auto xl:mt-[17rem] custom-container mt-[38rem] xl:!pr-0 max-md:px-0">
+            <section className="relative h-auto 4xl:mt-[17rem] 2xl:mt-[16rem] xl:mt-[16rem] custom-container max-[360px]:mt-[45rem] max-[390px]:mt-[36rem] max-[400px]:mt-[38rem] mt-[34rem] xl:!pr-0 max-md:px-0 md:mt-[32rem] max-[320px]:mt-[53rem]">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/scenario-desktop.webp"
@@ -322,7 +322,7 @@ export default function DemandPlusSection() {
                         <h3 className="4xl:text-[42px] xl:text-[30px] text-[22px] mt-5 font-semibold leading-tight">{t('scenarioSubTitle')} </h3>
                         <p className="xl:mt-8 mt-5 font-medium leading-tight 4xl:text-[20px] text-[16px]">{t('scenarioDesc')} </p>
                         <UnorderedList arrName={scenarioData} ulClassName="list-disc xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5  mt-8 leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                        <div className="mt-6 4xl:mt-10 absolute">
+                        <div className="mt-6 4xl:mt-[92px] 2xl:mt-[96px] xl:mt-[10px] absolute">
                             <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
                         </div>
                     </div>
@@ -349,7 +349,7 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-            <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[-80px] mt-10 mx-[35px] xl:mx-0">
+            <div className="grid xl:grid-cols-12 grid-cols-1 4xl:mt-[-110px] 2xl:mt-[-90px] xl:mt-[-60px] mt-10 mx-[35px] xl:mx-0">
                 <div className="col-span-6"></div>
                 <div className="col-span-5">
                     <p className="4xl:text-[26px] text-[18px] bg-[#163055] p-8 text-white font-normal 4xl:pr-32 xl:pl-20 leading-tight">{t('seamlessBlueBox')} </p>
@@ -417,8 +417,8 @@ export default function DemandPlusSection() {
                         <div
                             key={index}
                             className="border hover:bg-[#D9F2FF] p-10 flex flex-col xl:h-[425px] transition-all bg-white shadow-lg">
-                            <h3 className="mb-8 text-[#0A6BB8] font-semibold leading-tight">{service.title}</h3>
-                            <p className="text-[#000000] leading-tight xl:text-[24px] text-[16px]">{service.description}</p>
+                            <h3 className="mb-8 text-[#0A6BB8] font-semibold leading-tight 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] ">{service.title}</h3>
+                            <p className="text-[#000000] leading-tight 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[16px]">{service.description}</p>
                             <div className="xl:bottom-[30px] xl:absolute">
                                 <LearnMore href={service.knowMore} btnName="Know More" arialabel="kinaxis know more btn" />
                             </div>
@@ -529,7 +529,7 @@ export default function DemandPlusSection() {
                     <Image
                         src="/images/solutions/enterprise-platform/kinaxis/leading-mobile.webp"
                         alt="Leading the Future"
-                        className="object-cover w-full h-[970px]"
+                        className="object-cover w-full h-[830px] md:h-[700px]"
                         priority
                         width={0}
                         height={0}
@@ -541,7 +541,7 @@ export default function DemandPlusSection() {
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px] 4xl:pr-20">{t('leadingTitle')}</h2>
                         <p className="mt-8 font-light 4xl:text-[20px] text-[16px]">{t('leadingDesc')} </p>
                         <UnorderedList arrName={leadingData} ulClassName="list-disc leading-tight xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 mt-5  xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                        <div className="absolute 4xl:mt-16  mt-4">
+                        <div className="absolute 4xl:mt-16 2xl:mt-4 xl:mt-8 mt-10 md:mt-20 max-[768px]:mt-16 ">
                             <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                         </div>
                     </div>

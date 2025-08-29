@@ -106,7 +106,7 @@ export default function InsightsPage() {
           />
         </div>
         {/* Mobile Image */}
-        <div className="block md:hidden">
+        <div className="block lg:hidden">
           <Image
             src="/images/insights/insight-header-banner-new.webp"
             alt="mobile banner"
@@ -377,7 +377,7 @@ export default function InsightsPage() {
               className="border h-full border-gray-200 overflow-hidden mb-6 flex flex-col md:flex-row"
               onMouseEnter={handleMouseEnter("case-study-1")}
               onMouseLeave={handleMouseLeave("case-study-1")}
-              onClick={handleClick("/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense")}
+              onClick={handleClick("/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus")}
               style={{
                 cursor: "pointer",
                 transition: "background-color 0.3s ease",
@@ -395,8 +395,8 @@ export default function InsightsPage() {
                         : "scale(1)",
                   }}>
                   <Image
-                    src="/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp"
-                    alt="Diversity illustration"
+                    src="/images/case-studies/Small thumb.webp"
+                    alt="Transforming Student Success"
                     fill
                     sizes=""
                     className="object-cover h-full"
@@ -462,8 +462,8 @@ export default function InsightsPage() {
                       <span className="mx-2">|</span>
                       <span className="text-sm">{study.date}</span>
                     </div>
-                    <h3 className="mb-2">{study.title}</h3>
-                    <p>{study.description}</p>
+                    <h3 className="mb-2  4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px] leading-tight">{study.title}</h3>
+                    <p className="4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">{study.description}</p>
                   </div>
                 </div>
               ))}

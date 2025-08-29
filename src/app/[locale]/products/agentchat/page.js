@@ -154,7 +154,7 @@ export default function Page() {
                     <div className="relative group overflow-hidden w-full">
                         <Image
                             className="w-full h-full transform transition-transform duration-500 group-hover:scale-110"
-                            src='/images/industry/rialchat/Why AgentChat.png'
+                            src='/images/industry/rialchat/Why AgentChat.webp'
                             alt="Instant WhatsApp Conversations"
                             width={0}
                             height={0}

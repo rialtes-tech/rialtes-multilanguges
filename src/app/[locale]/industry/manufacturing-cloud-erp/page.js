@@ -290,7 +290,7 @@ export default function Page() {
         <div className="xl:col-span-1 col-span-12"></div>
       </section>
       {/* discrite manufacturing section */}
-      <section className="custom-container mt-16">
+      <section className="custom-container max-md:px-0 mt-16">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           {/* Image First on Mobile */}
           <div className="xl:col-span-7 col-span-12 order-1 xl:order-2">
@@ -467,7 +467,7 @@ export default function Page() {
         </div>
       </section>
       {/* ERP integration section */}
-      <section className="xl:mt-48 custom-container xl:mx-0 mt-[28rem] xl:!pr-[142px]">
+      <section className="4xl:mt-48 2xl:mt-36 xl:mt-48 custom-container xl:mx-0 mt-[28rem] max-[320px]:mt-[50rem]  max-[360px]:mt-[40rem] max-[395px]:mt-[34rem]   xl:!pr-[142px]">
         <div className="grid xl:grid-cols-12 grid-cols-1 gap-5">
           <div className="xl:col-span-7 col-span-12 order-1 xl:order-2">
             <Image
@@ -550,7 +550,7 @@ export default function Page() {
         </div>
       </section>
       {/* power section */}
-      <section className="xl:mt-24 mt-16 mx-[24px] xl:mx-0">
+      <section className="xl:mt-24 mt-16  xl:mx-0 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-16">
           <div className="xl:col-span-6 col-span-12">
             <div className="xl:block hidden h-full">
@@ -583,7 +583,7 @@ export default function Page() {
               {t('sapDesc')}  Rialtes partners with SAP and Salesforce to create connected, intelligent, and agile manufacturing ecosystems. SAP’s Digital Manufacturing Cloud and Salesforce Manufacturing Cloud together deliver 360-degree visibility from factory to customer. We enable manufacturers to integrate customer feedback, dealer management, and service workflows into a single intelligent platform.
             </p>
             <div className="mt-5">
-              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+              <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"}  />
             </div>
           </div>
         </div>
@@ -606,7 +606,7 @@ export default function Page() {
             src="/images/industry/manufacture/fact-mobile.webp"
             alt="fast facts image"
             priority
-            className="w-full h-[1360px] md:h-[1024px]"
+            className="w-full h-[1440px] md:h-[1024px]  "
             width={0}
             height={0}
             sizes="100vw"
@@ -630,11 +630,11 @@ export default function Page() {
                   <h3 className="leading-tight 4xl:text-[30px] xl:text-[18px] text-[20px]">{t('factDescTwo')}</h3>
                   <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px]">{t('factTwo')}</h2>
                 </div>
-                <div className="xl:mt-[65px] mt-[325px] md:mt-0 absolute  xl:relative">
+                <div className="4xl:mt-[50px] 2xl:mt-[190px] xl:mt-[-15px] mt-[395px] max-[375px]:mt-[375px] md:mt-8 absolute  ">
                   <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                 </div>
               </div>
-              <div className="xl:col-span-6 md:col-span-1 col-span-12 xl:space-y-10 mt-10 xl-mt-0">
+              <div className="xl:col-span-6 md:col-span-1 col-span-12 xl:space-y-10  mt-10 xl-mt-0">
                 <div>
                   <h3 className="pr-10 leading-tight font-medium 4xl:text-[30px] xl:text-[18px] text-[20px]" >{t('adoption')}</h3>
                   <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px] xl:text-[40px]">{t('billion')} </h2>

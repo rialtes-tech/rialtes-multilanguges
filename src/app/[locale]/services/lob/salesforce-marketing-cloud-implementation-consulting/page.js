@@ -274,9 +274,9 @@ export default function Page() {
                     </div>
                     <div className="xl:col-span-1 bg-[#006FBE]"></div>
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-1 xl:absolute 4xl:mt-[-183px] xl:mt-[-225px] 2xl:mt-[-250px] mt-0 md:mt-[-10px]  custom-container">
+                <div className="grid xl:grid-cols-12 grid-cols-1 xl:absolute 4xl:mt-[-183px] xl:mt-[-225px] 2xl:mt-[-260px] 3xl:mt-[-299px] mt-0 md:mt-[-10px]  custom-container">
                     <div className="xl:col-span-6 col-span-12 bg-[#006FBE] xl:px-14 4xl:px-20 px-8 4xl:pb-14 xl:pb-14 text-white  border-0 outline-none focus:outline-none focus:ring-0">
-                        <UnorderedList arrName={deepData1} ulClassName="list-disc leading-tight  xl:space-y-5 xl:pb-16 4xl:pb-16 space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-8 mt-5 4xl:pr-16 pr-10 xl:pr-0" liClassName="" />
+                        <UnorderedList arrName={deepData1} ulClassName="list-disc leading-tight  xl:space-y-5 xl:pb-16 4xl:pb-16 space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-8 mt-5 4xl:pr-16 pr-6 xl:pr-0" liClassName="" />
                         <div className="absolute 4xl:mt-[-25px] xl:mt-[-18px] xl:block hidden">
                             <LearnMore />
                         </div>
@@ -292,7 +292,7 @@ export default function Page() {
             </section>
             {/* driving business section*/}
             <section className="xl:mt-64 4xl:mt-[25rem] custom-container 4xl:pl-0 4xl:pr-[192px] xl:pl-0 max-md:pl-0 md:mt-[-17rem]">
-                <div className="grid lg:grid-cols-12 grid-cols-1 xs:mt-[2rem] sm:mt-[5rem] mt-[1000px] md:mt-[22rem]  lg:mt-[20rem] xl:mt-0 4xl:mt-0">
+                <div className="grid lg:grid-cols-12 grid-cols-1 xs:mt-[2rem] sm:mt-[5rem] mt-[80px] md:mt-[22rem]  lg:mt-[20rem] xl:mt-0 4xl:mt-0">
                     <div className="lg:col-span-7 col-span-12 4xl:pr-[60px] xl:pr-20 lg:pr-10">
                         <Image
                             src="/images/services/lob/advantageplus/desktop/driving.webp"
@@ -362,7 +362,7 @@ export default function Page() {
                             </div>
                         </div>
                         <div className="4xl:mt-[40rem]  xl:mt-[29rem] 2xl:mt-[32rem]">
-                            <ul className="list-disc marker:text-black marker:font-bold 4xl:pl-5 4xl:p-10 4xl:pt-0 4xl:pb-5 text-[16px] 4xl:text-[22px] space-y-3 pr-12 xl:pr-20 4xl:pr-24">
+                            <ul className="list-disc marker:text-black marker:font-bold 4xl:pl-5 4xl:p-10 4xl:pt-0 4xl:pb-5 text-[16px] 4xl:text-[22px] space-y-3 pr-6 pl-6 xl:pr-20 4xl:pr-24 font-medium">
                                 {aiMarketingData.map((item, index) => (
                                     <li key={index}>
                                         <strong>{item.title}</strong> {item.description}
@@ -403,7 +403,7 @@ export default function Page() {
                         priority
                     />
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-12 absolute xl:top-[-8rem] 4xl:top-[-8rem]  md:top-[57rem]">
+                <div className="grid xl:grid-cols-12 grid-cols-12 absolute xl:top-[-4rem] 4xl:top-[-8rem]  md:top-[57rem]">
                     <div className="xl:col-span-6 col-span-12"></div>
                     <div className="xl:col-span-5 col-span-12 bg-[#184671] text-white pt-12 4xl:px-14 xl:px-10 px-10">
                         <h2 className="4xl:text-[50px] text-[26px] xl:text-[38px] leading-tight font-light">{t('introducingAgentChatTitle')}</h2>

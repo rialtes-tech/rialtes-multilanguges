@@ -114,7 +114,7 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* herosection */}
-            <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+            <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px] ">
                 <div className="hidden md:block">
                     <Image
                         src="/images/home-health/hero-banner-desk.webp"
@@ -128,7 +128,7 @@ export default function Page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/home-health/Mobile/hero-banner-Mob.webp"
+                        src="/images/home-health/mobile/hero-banner-Mob.webp"
                         alt="mobile banner"
                         fill
                         style={{ objectFit: "cover", objectPosition: "5% 20%" }}

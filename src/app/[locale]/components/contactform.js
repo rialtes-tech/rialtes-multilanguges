@@ -38,6 +38,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
     const [error, setError] = useState('');
     const [formErrors, setFormErrors] = useState({});
     const formRef = useRef(null);
+    const [isHovered, setIsHovered] = useState(false);
     const [mounted, setMounted] = useState(false);
     useEffect(() => {
         setMounted(true);
@@ -188,7 +189,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
                 <div className='mt-5 flex flex-col items-center xl:flex-row md:flex-row gap-6'>
                     <div className="flex items-center space-x-4">
-                        <span className="font-semibold text-lg text-gray-800"> {captcha.question} = ?</span>
+                        <span className={`font-semibold text-lg text-[${beginBtnBg ? "white":"gray-800"}]`}> {captcha.question} = ?</span>
                         <button type="button" onClick={refreshCaptcha} title="Refresh Captcha" className="text-blue-600 hover:text-blue-800 text-xl font-bold">
                             ↻
                         </button>
@@ -208,6 +209,8 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                         className="bg-[#134874] border border-[#134874] font-semibold py-3 px-8 transition duration-300 text-white hover:bg-[#ffffff] hover:text-[#134874]">
                         {t('letsBegin')}
                     </button>
+
+
                 </div>
                 <div>{t('captchaMsg')} (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
                 <div>

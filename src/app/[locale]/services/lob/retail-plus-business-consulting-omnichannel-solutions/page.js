@@ -110,7 +110,7 @@ export default function page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative group overflow-hidden">
+      <section className="relative group overflow-hidden ">
         <div className="xl:block hidden">
           <Image
             src="/images/industry/retail/banner.webp"
@@ -159,7 +159,7 @@ export default function page() {
         </div>
       </section>
       {/* comprehensive section */}
-      <section className="relative  xl:mt-20 h-[934px] 2xl:h-[868px] xl:h-[830px] md:h-[2065px] 4xl:h-[1135px] mt-10">
+      <section className="relative  xl:mt-20  mt-10">
         <div className="xl:block hidden">
           <Image
             src="/images/industry/retail/comprehensive.webp"
@@ -202,7 +202,7 @@ export default function page() {
                   </li>
                 ))}
               </ul>
-              <div className="xl:hidden block mt-[35px]">
+              <div className="xl:hidden block mt-[5px] ">
               <LearnMore bgcolor="#006FBE"/>
               </div>
              
@@ -213,7 +213,7 @@ export default function page() {
 
       <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
       {/* deep industry section */}
-      <section className="bg-[#E8E8E8] xl:pb-32 pb-48  mt-[500px] xss:mt-[500px] xs:mt-[500px]  sm:mt-[600px]  md:mt-[700px] lg:mt-[1370px] xl:mt-0">
+      <section className="bg-[#E8E8E8] xl:pb-32 pb-48   ">
         <div className="custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="xl:col-span-9 col-span-12 xl:mt-32 mt-20">
@@ -401,7 +401,7 @@ export default function page() {
             <p className="mt-5 font-normal 4xl:pr-10 leading-tight 4xl:text-[20px] text-[16px]">
               {t('rialChatDesc')}
             </p>
-            <UnorderedList arrName={rialChat} ulClassName="list-disc  4xl:space-y-3 leading-tight marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-5 mb-20 4xl:pr-10 2xl:pr-40" liClassName="" />
+            <UnorderedList arrName={rialChat} ulClassName="list-disc  4xl:space-y-3 leading-tight marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[16px] text-[16px] mt-5 mb-20 4xl:pr-10 2xl:pr-40" liClassName="" />
           </div>
         </div>
       </section>
@@ -414,7 +414,7 @@ export default function page() {
         </div>
       </div>
       {/* why choose section */}
-      <section className="relative h-[1026px] 2xl:h-[715px] xl:h-[715px] 4xl:h-[870px] overflow-hidden mt-[-135px] xl:mt-0 ">
+      <section className="relative h-[1126px] 2xl:h-[715px] xl:h-[715px] 4xl:h-[870px] overflow-hidden mt-[-195px] md:mt-[-140px] xl:mt-0 ">
         <div className="xl:block hidden">
           <Image
             src="/images/industry/retail/why.webp"
@@ -436,7 +436,7 @@ export default function page() {
         <div
           className="h-full mx-[35px] xl:mx-0 xl:ml-[280px] xl:mr-[156px] md:ml-[100px]">
           <div className="xl:flex xl:justify-end xl:mt-32 mt-[24rem]">
-            <div className="relative p-10 4xl:w-[720px] 4xl:h-[620px] xl:w-[560px] xl:h-[495px]">
+            <div className="relative p-10 4xl:w-[720px] 4xl:h-[620px] xl:w-[560px] xl:h-[475px]">
               <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
               <div className="relative bg-opacity-80 text-white z-10 xl:p-4 rounded-lg">
                 <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">
@@ -445,8 +445,8 @@ export default function page() {
                 <h3 className="4xl:text-[42px] text-[22px] font-semibold mt-5">
                   {t('whyChooseSubTitle')}
                 </h3>
-                <UnorderedList arrName={whyChooseData} ulClassName="list-disc 4xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-5" liClassName="" />
-                <div className="mt-[60px] 4xl:mt-[18px] xl:mt-[30px] absolute">
+                <UnorderedList arrName={whyChooseData} ulClassName="list-disc 4xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-5 mb-4" liClassName="" />
+                <div className=" 4xl:mt-[18px] xl:mt-[30px] absolute">
                   <LearnMore />
                 </div>
               </div>
