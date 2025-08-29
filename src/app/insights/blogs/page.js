@@ -41,6 +41,16 @@ const latestBlogs = [
     description: "Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation.For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes.",
   },
   {
+    id: 27,
+    image: "/images/blog/sap-signavio-sap-cloud-mobile.webp",
+    category: "SAP",
+    industry: "Generic",
+    date: "Aug. 25, 2025",
+    url: '/s4hana-transformation-with-sap-signavio-cloud-alm',
+    title: "How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation",
+    description: "Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution for successful S/4HANA transformation."
+  },
+  {
     id: 26,
     image: "/images/blog/big-reimage-slider.webp",
     category: "Artificial Intelligence",
