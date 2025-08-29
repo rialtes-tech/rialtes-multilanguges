@@ -2,8 +2,6 @@
 "use client";
 import Image from 'next/image';
 import React, { useEffect, useMemo, useState } from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import 'react-multi-carousel/lib/styles.css';
 import Head from 'next/head';
 import Link from 'next/link';
 const AutoTimerSlider = dynamic(() => import('./newHome/page'), { ssr: false });
@@ -152,10 +150,9 @@ const Home = () => {
     const [activeIndexInsights, setActiveIndexInsights] = useState(0);
     const [currentSlide, setCurrentSlide] = useState(0);
 
-
     const slides = useMemo(() => [
         { link: "/services/lob/salesforce-automotive-cloud-business-solutions-autosense/", title: "Autosense", image: '/images/homepage/autosense2.webp', imageMobile: '/images/homepage/autosense-mobile2.webp' },
-        { link: "/solutions/artificial-intelligence/salesforce-agentforce-consulting/", image: '/images/homepage/agenforce-desktop.webp', title: "Agentforce", imageMobile: '/images/homepage/agentforce-mobile.webp' },
+        { link: "/solutions/artificial-intelligence/salesforce-agentforce-consulting/", image: '/images/homepage/agenforce-desktop-2.webp', title: "Agentforce", imageMobile: '/images/homepage/agentforce-mobile.webp' },
         { link: "/services/hxm-transformation/successplus-successfactors-implementation-partner/", image: '/images/homepage/success2.webp', title: "Success+", imageMobile: '/images/homepage/success-mobile2.webp' },
 
     ], [])
