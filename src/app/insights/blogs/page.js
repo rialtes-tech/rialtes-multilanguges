@@ -8,7 +8,6 @@ import Link from "next/link";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 const schemaData = {
-
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "mainEntityOfPage": {
@@ -30,9 +29,8 @@ const schemaData = {
 }
 
 const latestBlogs = [
-
-   {
-    id: 27,
+  {
+    id: 30,
     image: "/images/blog/sap-cpi-feature-thumb.webp",
     category: "SAP",
     industry: "Generic",
@@ -40,16 +38,6 @@ const latestBlogs = [
     url: '/sap-pi-po-to-cpi-migration-complete-guide',
     title: "Migrating from SAP PI/PO to SAP BTP Integration Suite (CPI)",
     description: "Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation.For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes.",
-  },
-  {
-    id: 27,
-    image: "/images/blog/sap-signavio-sap-cloud-mobile.webp",
-    category: "SAP",
-    industry: "Generic",
-    date: "Aug. 25, 2025",
-    url: '/s4hana-transformation-with-sap-signavio-cloud-alm',
-    title: "How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation",
-    description: "Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution for successful S/4HANA transformation."
   },
   {
     id: 29,
@@ -112,8 +100,6 @@ const latestBlogs = [
     title: "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
     description: "We know that Artificial intelligence has transformed how we work, significantly boosting productivity by automating manual tasks and allowing teams to focus on high-value deliverables. With customer expectations soaring, they demand seamless, personalized experiences and instant support",
   },
-
-  // Add more blog objects as needed
   {
     id: 22,
     image: "/images/blog/agentexchange-Blog-feature-thumb.webp",
@@ -134,7 +120,7 @@ const latestBlogs = [
     title: "Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities",
     description: "India’s rise as a pharmaceutical powerhouse on the global stage is remarkable.",
   },
-    {
+  {
     id: 20,
     image: "/images/blog/signavio-blog-feature-thumb.webp",
     category: "SAP Signavio",
@@ -164,11 +150,7 @@ const latestBlogs = [
     url: '/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs',
     title: "How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
     description: "The term Procurement encompasses the entire process of acquiring goods or services, from identifying needs to supplying them"
-
-
   },
-
-
   {
     id: 17,
     image: "/images/blog/successfactor-for-carousel.webp",
@@ -178,8 +160,6 @@ const latestBlogs = [
     url: "/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations",
     title: "How SAP SuccessFactors Integrations Enhance HR and Payroll Operations",
     description: "Are payroll challenges slowing you down? SAP SuccessFactors turns payroll management from a hassle into a streamlined process that boosts employee satisfaction."
-
-
   },
   {
     id: 16,
@@ -200,6 +180,16 @@ const latestBlogs = [
     url: '/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success',
     title: "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
     description: "Businesses increasingly rely on real-time data to drive decisions, optimize operations, and unlock AI-powered insights.",
+  },
+  {
+    id: 31,
+    image: "/images/blog/sap-signavio-sap-cloud-mobile.webp",
+    category: "SAP",
+    industry: "Generic",
+    date: "March 25, 2025",
+    url: '/s4hana-transformation-with-sap-signavio-cloud-alm',
+    title: "How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation",
+    description: "Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution for successful S/4HANA transformation."
   },
   {
     id: 14,
@@ -334,6 +324,158 @@ const latestBlogs = [
   },
 
 ];
+const FeaturedCarousel = () => {
+  const slides = [
+    {
+      id: 1,
+      image: "/images/blog/signavio-blog-feature-thumb.webp",
+      category: "SAP Signavio",
+      industry: "Generic",
+      date: "Jun. 16, 2025",
+      url: '/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation',
+      title: "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
+      description: "Ready for S/4HANA Implementation? Rialtes’ Voyager+ and SAP Signavio make the journey smooth, transparent, and built for scalable enterprise success.",
+    },
+    {
+      id: 2,
+      image: "/images/blog/blog-1.webp",
+      category: "Salesforce Agentforce",
+      industry: "Generic",
+      date: "Sept. 30, 2024",
+      url: '/how-salesforce-agentforce-actually-works',
+      title: "How Salesforce Agentforce Actually Works",
+      description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
+    },
+    {
+      id: 3,
+      image: "/images/blog/sap-signavio-sap-cloud-mobile.webp",
+      category: "SAP",
+      industry: "Generic",
+      date: "March 25, 2025",
+      url: '/s4hana-transformation-with-sap-signavio-cloud-alm',
+      title: "How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation",
+      description: "Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution for successful S/4HANA transformation."
+    },
+  ];
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+      partialVisibilityGutter: 150,
+      slidesToSlide: 1,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 575 },
+      items: 1,
+      centerMode: true,
+      slidesToSlide: 1,
+    },
+    mobile: {
+      breakpoint: { max: 575, min: 0 },
+      items: 1,
+      centerMode: true,
+    },
+  };
+
+  const ButtonGroup = ({ next, previous, ...rest }) => {
+    const { carouselState: { currentSlide } } = rest;
+    return (
+      <div className="flex carousel-button-group absolute top-0 lg:right-40 right-4 max-[360px]:right-[-15px] md:mt-4">
+        <button aria-label="Previous slide" className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-0 mr-0 sm:p-2 sm:mr-2 group transition-all duration-300'} onClick={() => previous()}>
+          <span className="sr-only">Previous slide</span>
+          <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
+            <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
+          </svg>
+        </button>
+        <button aria-label="Next slide" className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
+          <span className="sr-only">Next slide</span>
+          <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
+            <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
+          </svg>
+        </button>
+      </div>
+    );
+  };
+
+  const CustomDot = ({ onClick, ...rest }) => {
+    const {
+      onMove,
+      index,
+      active,
+      carouselState: { currentSlide, deviceType }
+    } = rest;
+    return (
+      <li>
+        <div
+          role="button"
+          className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
+          onClick={() => onClick()}
+          aria-label="Custom Dots"
+
+        />
+      </li>
+    );
+  };
+
+  return (
+    <section className="relative pb-10 bg-white">
+      <div className="mb-[36px]">
+        <div className="flex flex-row justify-between md:mr-24 mr-0">
+          <h2 className="text-black mb-[36px] text-[26px] xl:text-[40px]  4xl:text-[60px] leading-tight ">Featured Blogs</h2>
+        </div>
+        <Carousel
+          swipeable={true}
+          draggable={true}
+          showDots={true}
+          responsive={responsive}
+          ssr={true}
+          infinite={true}
+          autoPlay={true}
+          autoPlaySpeed={3000}
+          keyBoardControl={true}
+          customTransition="all .5s"
+          transitionDuration={500}
+          containerClass="carousel-container"
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+          dotListClass="custom-dot-list-style !justify-start flex-wrap"
+          itemClass="carousel-item-padding-40-px"
+          partialVisible={true}
+          arrows={false}
+          renderButtonGroupOutside={true}
+          customButtonGroup={<ButtonGroup />}
+          renderDotsOutside={true}
+          customDot={<CustomDot />}
+        >
+          {slides.map((slide) => (
+            <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full">
+              <div className="basis-full h-full ">
+                <Link href={'/insights/blogs' + slide.url}>
+                  <Image
+                    src={slide.image}
+                    alt={slide.title}
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    priority
+                    className="object-cover w-full h-full"
+                  />
+                </Link>
+              </div>
+              <div className="flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0] h-full">
+                <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px] 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>
+                  <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
+                </div>
+                <Link href={'/insights/blogs' + slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] font-semibold sm:line-clamp-none  text-[18px] xl:text-[20px]  4xl:text-[30px] leading-tight ">{slide.title}</h3></Link>
+                <p className="xl:line-clamp-none line-clamp-5 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">{slide.description}</p>
+              </div>
+            </div>
+          ))}
+        </Carousel>
+      </div>
+    </section>
+  );
+}
 
 const BlogCard = ({ blog }) => (
   <div className="border border-[#707070] w-full h-full flex flex-col group">
@@ -518,159 +660,6 @@ const BlogList = () => {
   );
 };
 
-const FeaturedCarousel = () => {
-  const slides = [
-    {
-    id: 1,
-    image: "/images/blog/signavio-blog-feature-thumb.webp",
-    category: "SAP Signavio",
-    industry: "Generic",
-    date: "Jun. 16, 2025",
-    url: '/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation',
-    title: "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
-    description: "Ready for S/4HANA Implementation? Rialtes’ Voyager+ and SAP Signavio make the journey smooth, transparent, and built for scalable enterprise success.",
-  },
-    {
-      id: 2,
-      image: "/images/blog/blog-1.webp",
-      category: "Salesforce Agentforce",
-      industry: "Generic",
-      date: "Sept. 30, 2024",
-      url: '/how-salesforce-agentforce-actually-works',
-      title: "How Salesforce Agentforce Actually Works",
-      description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-    },
-    {
-      id: 3,
-      image: "/images/blog/blog-2.webp",
-      category: "Salesforce Agentforce",
-      industry: "Generic",
-      date: "Oct. 21, 2024",
-      url: '/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
-      title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-      description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
-    },
-  ];
-  const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 1,
-      partialVisibilityGutter: 150,
-      slidesToSlide: 1,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 575 },
-      items: 1,
-      centerMode: true,
-      slidesToSlide: 1,
-    },
-    mobile: {
-      breakpoint: { max: 575, min: 0 },
-      items: 1,
-      centerMode: true,
-    },
-  };
-
-  const ButtonGroup = ({ next, previous, ...rest }) => {
-    const { carouselState: { currentSlide } } = rest;
-    return (
-      <div className="flex carousel-button-group absolute top-0 lg:right-40 right-4 max-[360px]:right-[-15px] md:mt-4">
-        <button aria-label="Previous slide" className={currentSlide === 0 ? 'disable bg-white p-2 mr-2 group transition-all duration-300' : 'bg-white p-0 mr-0 sm:p-2 sm:mr-2 group transition-all duration-300'} onClick={() => previous()}>
-          <span className="sr-only">Previous slide</span>
-          <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
-            <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
-          </svg>
-        </button>
-        <button aria-label="Next slide" className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
-          <span className="sr-only">Next slide</span>
-          <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
-            <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
-          </svg>
-        </button>
-      </div>
-    );
-  };
-
-  const CustomDot = ({ onClick, ...rest }) => {
-    const {
-      onMove,
-      index,
-      active,
-      carouselState: { currentSlide, deviceType }
-    } = rest;
-    return (
-      <li>
-        <div
-          role="button"
-          className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
-          onClick={() => onClick()}
-          aria-label="Custom Dots"
-
-        />
-      </li>
-    );
-  };
-
-  return (
-    <section className="relative pb-10 bg-white">
-      <div className="mb-[36px]">
-        <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-[36px] text-[26px] xl:text-[40px]  4xl:text-[60px] leading-tight ">Featured Blogs</h2>
-        </div>
-        <Carousel
-          swipeable={true}
-          draggable={true}
-          showDots={true}
-          responsive={responsive}
-          ssr={true}
-          infinite={true}
-          autoPlay={true}
-          autoPlaySpeed={3000}
-          keyBoardControl={true}
-          customTransition="all .5s"
-          transitionDuration={500}
-          containerClass="carousel-container"
-          removeArrowOnDeviceType={["tablet", "mobile"]}
-          dotListClass="custom-dot-list-style !justify-start flex-wrap"
-          itemClass="carousel-item-padding-40-px"
-          partialVisible={true}
-          arrows={false}
-          renderButtonGroupOutside={true}
-          customButtonGroup={<ButtonGroup />}
-          renderDotsOutside={true}
-          customDot={<CustomDot />}
-        >
-          {slides.map((slide) => (
-            <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full">
-              <div className="basis-full h-full ">
-                <Link href={'/insights/blogs' + slide.url}>
-                  <Image
-                    src={slide.image}
-                    alt={slide.title}
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    priority
-                    className="object-cover w-full h-full"
-                  />
-                </Link>
-              </div>
-              <div className="flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0] h-full">
-                <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px] 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>
-                  <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
-                </div>
-                <Link href={'/insights/blogs' + slide.url}><h3 className="pb-[10px] sm:pb-[15px] lg:pb-[20px] font-semibold sm:line-clamp-none  text-[18px] xl:text-[20px]  4xl:text-[30px] leading-tight ">{slide.title}</h3></Link>
-                <p className="xl:line-clamp-none line-clamp-5 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">{slide.description}</p>
-              </div>
-            </div>
-          ))}
-        </Carousel>
-      </div>
-    </section>
-  );
-}
-
 
 export default function Page() {
   return (
@@ -733,8 +722,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section
-        className="custom-container">
+      <section className="custom-container">
 
         <div className="md:py-10 py-6 bg-white">
           <div className="">
@@ -745,25 +733,14 @@ export default function Page() {
 
 
       {/* Featured Section */}
-      <div
-        className="custom-container lg:pr-0"
-      >
+      <div className="custom-container lg:pr-0">
         <FeaturedCarousel />
-
       </div>
 
       {/* Latest Blogs Section */}
-      <div
-        className="
-       custom-container"
-      >
+      <div className="custom-container">
         <section className="py-16 bg-white">
-
           <BlogList />
-
-
-
-
         </section>
       </div>
     </div>
