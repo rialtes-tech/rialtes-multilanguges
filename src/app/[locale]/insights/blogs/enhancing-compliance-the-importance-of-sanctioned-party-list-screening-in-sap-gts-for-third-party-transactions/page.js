@@ -210,12 +210,10 @@ export default function Page() {
             </p>
 
             <p className="text-black pb-4">
-              {t('complyDesc2')}
-              <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
+              {t('complyDesc2')}{" "}<Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
                 href={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/?utm_source=blog&utm_medium=organic"}>
-                <span>{" "} {t('complyLink')} {" "} </span>
-              </Link> 
-              {t('complyDesc3')}
+                <span>{t('complyLink')}</span>
+              </Link>{" "}{t('complyDesc3')}
             </p>
           </div>
         </div>

@@ -122,7 +122,7 @@ export default function Page() {
           <div>
 
             <p className="text-black pb-4">{t('blogMainData')} {" "}
-              <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href="https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/" ><span>{t('blogMainDataLink')}</span></Link> {" "} {t('blogMainData2')}</p>
+              <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href="https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/" ><span>{t('blogMainDataLink')}</span></Link>{" "}{t('blogMainData2')}</p>
             <p className="text-black">{t('blogMainData3')}</p>
           
             <div className="py-6"></div>
@@ -158,9 +158,9 @@ export default function Page() {
               })
             }
             <div className="py-6"></div>
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4"> {t('gameTitle')}A Game Changer for Customer Support</h2>
-            <p className="text-black pb-4">{t('gameDesc')}The Atlas Reasoning Engine elevates Salesforce Agentforce by offering a more intuitive, intelligent, and efficient approach to customer support. As customer expectations continue to rise, businesses need tools that help them stay ahead. Atlas does exactly that by enabling faster response times, higher accuracy in issue resolution, and a more satisfying customer experience.</p>
-            <p className="text-black">{t('gameDesc2')}As businesses prioritize customer satisfaction, tools like Atlas will undoubtedly play a pivotal role in shaping the future of customer experience. We can expect further integration with other Salesforce products, more sophisticated AI capabilities, and even deeper predictive analytics features soon. Rialtes helps you develop, customize, and deploy autonomous AI agents for sales, marketing, service, and e-commerce related tasks with the Agentforce platform. Get in touch with our experts.</p>
+            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4"> {t('gameTitle')}</h2>
+            <p className="text-black pb-4">{t('gameDesc')}</p>
+            <p className="text-black">{t('gameDesc2')}</p>
           </div>
         </div>
       </section>

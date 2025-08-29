@@ -163,7 +163,7 @@ export default function Page() {
                   mainActivityData.map((data, ind) => {
                     return (
                       <li className="pb-2" key={ind}>
-                        <span className="font-bold">{data.title}</span>
+                        <span className="font-bold">{data.title} </span>{ }
                         {data.desc}
                       </li>
                     )
@@ -179,7 +179,7 @@ export default function Page() {
                 aribaOptimizesData.map((data, ind) => {
                   return (
                     <div key={ind}>
-                      <h3 className="text-black pb-2 h3-bold">{ind + 1}.{data.title}  </h3>
+                      <h3 className="text-black pb-2 h3-bold">{ind + 1}. {data.title}  </h3>
                       <p className="text-black pb-4">{data.desc}</p>
                     </div>
                   )
@@ -192,9 +192,8 @@ export default function Page() {
 
               <p className="text-black pb-4">{t('integrateDesc')}</p>
               <p className="text-black">
-                {t('integrateDesc2')}
-                <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href=" https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/?utm_source=internal&utm_medium=blog" target="_blank">
-                  {t('integrateLink')}  </Link> ,{t('integrateDesc3')}  </p>
+                {t('integrateDesc2')}{" "}<Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href=" https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/?utm_source=internal&utm_medium=blog" target="_blank">
+                  {t('integrateLink')}</Link> , {t('integrateDesc3')}  </p>
             </div>
           </div>
         </div>

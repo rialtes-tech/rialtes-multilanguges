@@ -5,6 +5,11 @@ import Script from "next/script";
 import ContactForm from "@/app/[locale]/components/contactform";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../messages/en/products.json';
+import esContent from '../../../../../messages/es/products.json';
+import frContent from '../../../../../messages/fr/products.json';
+import { changeLocalization } from "../../components/changeLocalization";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -93,224 +98,10 @@ const schemaData = {
     ]
 }
 export default function Page() {
-    const features = [
-        {
-            img: "/images/products/exelona/mobile-enable.svg",
-            alt: "Mobile Enabled",
-            title: "100% Mobile-Enabled",
-            desc: "Manage leasing, maintenance, and finance on any device.",
-        },
-        {
-            img: "/images/products/exelona/web-chat.svg",
-            alt: "AI Interfaces",
-            title: "Agentic AI + Conversational Interfaces",
-            desc: "AI that automates, prioritizes, and communicates.",
-        },
-        {
-            img: "/images/products/exelona/crm.svg",
-            alt: "CRM + ERP",
-            title: "CRM + ERP, Unified",
-            desc: "One system for marketing, operations, leasing, and accounting.",
-        },
-        {
-            img: "/images/products/exelona/open-api.svg",
-            alt: "Open API",
-            title: "OPENAPI Architecture",
-            desc: "Easily integrates with SAP, Yardi, Oracle, Salesforce, and more.",
-        },
-    ];
-    const properties = [
-        {
-            title: "Accounts Receivable",
-            img: "/images/products/exelona/desktop/account.webp",
-            points: [
-                "Automated tenant billing and late fee application.",
-                "Write-off approval workflows and history tracking.",
-                "Receipts processing and ledger reconciliation.",
-            ],
-            outcomes: [
-                "Increased collection efficiency.",
-                "Real-time AR visibility across properties.",
-            ],
-        },
-        {
-            title: "Budgeting, Forecasting & Financial Reporting",
-            img: "/images/products/exelona/desktop/budgeting.webp",
-            points: [
-                "Multi-year budgeting with property-level customization.",
-                "Rolling forecasts based on occupancy and lease data.",
-                "Financial statements: Balance Sheet, Trial Balance, Income Statement.",
-            ],
-            outcomes: [
-                "Accurate, dynamic financial planning.",
-                "Board-ready, real-time reporting.",
-            ],
-        },
-        {
-            title: "Accounts Payable & Procurement",
-            img: "/images/products/exelona/desktop/account-payble.webp",
-            points: [
-                "Payable invoice automation and approval workflows.",
-                "Purchase order creation and receipt matching.",
-                "Multi-mode payment scheduling and vendor management.",
-            ],
-            outcomes: [
-                "Centralized purchasing and audit compliance.",
-                "Transparent spend control across your portfolio.",
-            ],
-        },
-        {
-            title: "Inventory & Asset Management",
-            img: "/images/products/exelona/desktop/inventory.webp",
-            points: [
-                "Track inventory at unit, building, and warehouse level.",
-                "Manage capital assets with depreciation schedules.",
-                "Maintenance and replacement forecasting.",
-            ],
-            outcomes: [
-                "Improved asset utilization and accuracy.",
-                "Financial alignment with CAPEX strategy.",
-            ],
-        },
-    ];
-    const assetMarketingData = [
-        {
-            title: "Core Capabilities",
-            list: [
-                "Lead & campaign management across email, social, and web.",
-                "Brand consistency through centralized digital asset management.",
-                "Real-time campaign analytics for property-specific performance."
-            ]
-        },
-        {
-            title: "From Lead to Lease",
-            list: [
-                "Generate leads through branded websites, landing pages, and ExelPersona.",
-                "Score and nurture leads using automated AI workflows.",
-                "Convert prospects to applicants and residents seamlessly within Exelona."
-            ]
-        }, {
-            title: "Business Outcomes",
-            list: [
-                "Reduced cost per lead and faster lease-up cycles.",
-                "Stronger brand recall across your portfolio.",
-                "Increased occupancy and improved marketing ROI."
-            ]
-        }
-    ]
-    const aiEnabledData = [
-        {
-            title: "Key Features",
-            list: [
-                "Resident move-in/move-out flows with automated checklists.",
-                "AI-enabled monthly billing and recurring charges.",
-                "Smart work order management with knowledge article suggestions.",
-                "Real-time dashboards with geolocation and skill-based technician assignment.",
-                "SLA tracking, maintenance routing, and inventory linkage."
-            ]
-        },
-        {
-            title: "Business Outcomes",
-            list: [
-                "30% improvement in maintenance resolution time.",
-                "Higher resident satisfaction and retention.",
-                "Streamlined operations across distributed teams."
-            ]
-        }
-    ]
-    const excelPersonaData = [
-        {
-            title: "Top Features",
-            list: [
-                "Branded UI for each property or region.",
-                "Mobile-first design with native access on iOS & Android.",
-                "Multilingual support for diverse communities.",
-                "Real-time application status, lease e-sign, service requests, and payments.",
-                "Built-in AI chatbot powered by AgentChat."
-            ]
-        },
-        {
-            title: "Outcomes",
-            list: [
-                "Shorter lease cycles and higher conversion.",
-                "Reduced call volume with self-service access.",
-                "Enhanced resident satisfaction and retention."
-            ]
-        }
-    ]
-    const excelPayData = [
-        {
-            title: "Capabilities",
-            list: [
-                "Accepts checks, ACH, and credit/debit cards.",
-                "Supports one-time, scheduled, and recurring payments.",
-                "Automatically syncs with tenant ledgers and financial reports."
-            ]
-        },
-        {
-            title: "Business Outcomes",
-            list: [
-                "Improved cash flow and faster collections.",
-                "Reduced manual entry and reconciliation errors.",
-                "Secure, PCI-compliant transactions."
-            ]
-        }
-    ]
-    const agentChatData = [
-        {
-            title: "Key Capabilities",
-            list: [
-                "Natural language queries for status updates, billing, and maintenance.",
-                "Embedded in ExelPersona, web, and mobile apps.",
-                "Multilingual, role-based access."
-            ]
-        },
-        {
-            title: "Outcomes",
-            list: [
-                "40–60% drop in support tickets and emails. ",
-                "24/7 availability without additional staff cost.",
-                "Improved engagement and satisfaction scores."
-            ]
-        }
-    ]
-    const builtData = [
-        "Used by asset managers, operators, and developers.",
-        "Secure, cloud-native, and compliance-ready.",
-        "Scalable for residential, commercial, and mixed-use portfolios.",
-        "Integrated with SAP, Oracle, Yardi, Salesforce, and more."
-    ]
-    const buildSalesforceData = [
-        {
-            title: "Why Salesforce?",
-            list: [
-                {
-                    title: "Enterprise-Grade Security & Compliance",
-                    desc: "Includes SOC2, HIPAA, GDPR, FedRAMP, and more."
-                },
-                {
-                    title: "Scalability Without Limits",
-                    desc: "Proven to support portfolios from single-site operators to global REITs."
-                },
-                {
-                    title: "Continuous Innovation",
-                    desc: "Benefit from three major platform upgrades every year—without disruption."
-                },
-                {
-                    title: "Extensive Ecosystem",
-                    desc: "Integrates natively with tools, apps, and services from the Salesforce AppExchange and beyond."
-                }
-            ]
-        },
-        {
-            title: "Outcomes",
-            list: [
-                { desc: "Future-proof technology stack with unmatched reliability." },
-                { desc: "Confidence in platform stability, scalability, and compliance." },
-                { desc: "Full flexibility to integrate, customize, and extend to fit your unique real estate needs." }
-            ]
-        }
-    ]
+    const t = useTranslations("exelona");
+    const locale = useLocale();
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { features, properties, assetMarketingData, aiEnabledData, excelPersonaData, excelPayData, agentChatData, builtData, buildSalesforceData } = content.exelona;
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -355,8 +146,8 @@ export default function Page() {
                     <Image
                         src="/images/products/exelona/desktop/mask.webp"
                         alt="mask decoration"
-                        width={500}   // adjust as needed
-                        height={500}  // adjust as needed
+                        width={500}   
+                        height={500}  
                         className="object-contain"
                         priority
                     />
@@ -369,8 +160,8 @@ export default function Page() {
                         <div className="xl:col-span-12 col-span-12 pr-5 text-white">
                             <h1 className="leading-tight break-words 4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:pr-0 md:pr-40 pr-10">
                                 <span className="text-white text-[24px] xl:text-[60px] 2xl:text-[80px] 4xl:text-[105px] mb-2 break-words">
-                                    Exelona
-                                    <span className="align-super inline-block w-5 h-5 xl:w-6 xl:h-6">
+                                  {t('headerTitle')}  
+                                    <span className="align-super inline-block w-5 h-5 xl:w-12 xl:h-12">
                                         <Image
                                             src="/images/products/exelona/desktop/trademark.png"
                                             alt="mask decoration"
@@ -383,7 +174,7 @@ export default function Page() {
                                 </span>
                             </h1>
                             <h2 className="xl:font-bold font-semibold leading-tight pb-10 xl:pb-0 text-[20px] 4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] mt-5 pr-16 4xl:pr-0 2xl:pr-0 xl:pr-0">
-                                Powering the Modern Real Estate Enterprise
+                             {t('headerSubTitle')}   
                             </h2>
                         </div>
                     </div>
@@ -395,11 +186,7 @@ export default function Page() {
                 <div className="grid grid-cols-12 bg-[#134874] custom-container 4xl:pr-0 2xl:pr-0 xl:pr-0">
                     <div className="xl:col-span-7 4xl:col-span-6 col-span-12 mt-10 4xl:pb-20 xl:pb-20 pb-10 4xl:pr-24 xl:pr-0 2xl:pr-0 pr-10">
                         <p className="text-white font-light leading-tight">
-                            Welcome to Exelona, the intelligent real estate cloud platform that unifies
-                            every step of the property lifecycle—from lead generation to financial
-                            closeout. Built for property managers, developers, and portfolio owners,
-                            Exelona delivers AI-driven automation, mobile-first experiences, and CRM + ERP
-                            convergence, all from a single platform.
+                         {t('pageDesc')}   
                         </p>
                     </div>
                     <div className="xl:col-span-5 4xl:col-span-6 col-span-12 relative ">
@@ -439,9 +226,9 @@ export default function Page() {
                 <div className="relative custom-container 4xl:pb-0 text-white">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 4xl:mt-32 xl:mt-20 mx-auto mt-20">
                         <div className="xl:col-span-12 col-span-12">
-                            <h2 className="4xl:text-[60px] 2xl:text-[48px] text-[26px] xl:text-[40px] leading-tight">Your Digital Real Estate Backbone</h2>
-                            <p className="leading-tight mt-[17px] xl:mt-[28px] xl:w-[80%] 2xl:w-full">Built for modern portfolios, Exelona empowers your teams with seamless collaboration, automation, and scale.</p>
-                            <h3 className="4xl:text-[36px] xl:text-[30px] text-[18px] mt-[32px] xl:mt-[60px]">What Sets Exelona Apart</h3>
+                            <h2 className="4xl:text-[60px] 2xl:text-[48px] text-[26px] xl:text-[40px] leading-tight">{t('yourDigitalTitle')}</h2>
+                            <p className="leading-tight mt-[17px] xl:mt-[28px] xl:w-[80%] 2xl:w-full">{t('yourDigitalDesc')}</p>
+                            <h3 className="4xl:text-[36px] xl:text-[30px] text-[18px] mt-[32px] xl:mt-[60px]">{t('yourDigitalSubTitle')}</h3>
                         </div>
                     </div>
 
@@ -474,15 +261,13 @@ export default function Page() {
                     {/* Left Content */}
                     <div className="text-white">
                         <h2 className="min-[400px]:w-[80%] sm:w-full 4xl:text-[60px] 2x:text-[40px] xl:text-[40px] md:text-[30px] font-light leading-tight text-white mt-20">
-                            Asset Marketing –
-                            Maximize Leasing Velocity  & Brand Performance
+                         {t('assetMarketingTitle')}   
                         </h2>
                         <h3 className="mt-8 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] font-semibold text-white">
-                            Market smarter. Lease faster.
+                         {t('assetMarketingSubTitle')}   
                         </h3>
                         <p className="mt-4 text-gray-200 leading-tight 4xl:w-[90%] min-[400px]:w-[90%] sm:w-full">
-                            Exelona’s Asset Marketing module transforms how you position,
-                            promote, and lease your properties.
+                          {t('assetMarketingDesc')}  
                         </p>
                     </div>
 
@@ -517,7 +302,7 @@ export default function Page() {
                             <LearnMore bgcolor="#0A6BB8" bordercolor="#0A6BB8" hoverTextColor="black" />
                         </div>
                         <div>
-                            <p className="bg-[#0A6BB8] text-white 4xl:text-[24px] xl:text-[20px] text-[18px] md:py-[12px] md:px-[32px] py-[14px] px-[20px] md:mt-[23px] min-[400px]:w-[90%] sm:w-fit">See how top portfolios grow occupancy with Asset Marketing</p>
+                            <p className="bg-[#0A6BB8] text-white 4xl:text-[24px] xl:text-[20px] text-[18px] md:py-[12px] md:px-[32px] py-[14px] px-[20px] md:mt-[23px] min-[400px]:w-[90%] sm:w-fit"> {t('assetMarketingBlueBox')}</p>
                         </div>
                     </div>
                 </div>
@@ -540,17 +325,14 @@ export default function Page() {
 
                         {/* Text content */}
                         <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px] text-[#0A2E4D] leading-tight mb-4">
-                            AI-Enabled Property
-                            Operations – Run Smarter,
-                            Respond Faster
+                          {t('aiEnabledTitle')}  
                         </h2>
 
                         <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] text-black mb-2 leading-tight">
-                            Operational excellence meets automation.
+                        {t('aiEnabledDesc')}    
                         </p>
                         <p className="text-gray-700 mb-6 max-w-2xl mt-6">
-                            Exelona’s AI-enabled property operations give you full control over
-                            daily operations with AI at the core.
+                        {t('aiEnabledDesc2')}    
                         </p>
 
                         {/* Features + Outcomes */}
@@ -566,13 +348,13 @@ export default function Page() {
                                 })
                             }
                         </div>
-                        {/* Buttons */}
 
+                        {/* Buttons */}
                         <div className="mt-16 xl:mt-0 xl:flex gap-8 xl:gap-10 4xl:mt-[65px] items-end">
                             <LearnMore />
                             <div>
                                 <p className="bg-[#0A6BB8] mt-10 w-fit xl:mt-[20px] px-6 py-[14px] text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px]">
-                                    Automate and optimize property operations
+                                {t('aiEnabledBlueBox')}    
                                 </p>
                             </div>
                         </div>
@@ -585,9 +367,9 @@ export default function Page() {
                 {/* property section */}
                 <section className="lg:pt-[170px] pt-[53px] lg:mt-[-80px] custom-container">
                     <>
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] font-light leading-tight">Property Financial Suite – <br></br>Real Estate Finance Reimagined</h2>
-                        <h3 className="xl:mt-[36px] mt-[14px] 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] font-semibold leading-tight">Own your financials from billing to balance sheets.</h3>
-                        <p className="xl:mt-[39px] mt-[16px]">Exelona’s financial modules deliver accuracy, automation, and clarity across your property finance stack.</p>
+                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] font-light leading-tight">{t('propertyTitle')}</h2>
+                        <h3 className="xl:mt-[36px] mt-[14px] 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] font-semibold leading-tight">{t('propertySubTitle')}</h3>
+                        <p className="xl:mt-[39px] mt-[16px]">{t('propertyDesc')}</p>
                     </>
                     <div className="grid lg:grid-cols-2 4xl:gap-[140px] xl:gap-[60px] gap-10 xl:mt-[68px] lg:mt-[30px]">
                         {properties.map((feature, idx) => (
@@ -609,7 +391,7 @@ export default function Page() {
                                     </h3>
                                     <UnorderedList arrName={feature.points} ulClassName="list-disc pl-5 space-y-5 mb-4 text-white 4xl:text-[20px] text-[16px]" liClassName="" />
                                     <h4 className="font-semibold text-white mt-10 4xl:text-[22px] text-[18px]">
-                                        Outcomes
+                                     {t('outcomeTitle')}   
                                     </h4>
                                     <UnorderedList arrName={feature.outcomes} ulClassName="list-disc pl-5 space-y-5 text-white mt-4 4xl:text-[20px] text-[16px] min-[400px]:w-[90%] sm:w-full" liClassName="" />
                                 </div>
@@ -624,7 +406,7 @@ export default function Page() {
                         </>
                         <>
                             <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[22px] text-[18px] xl:text-[16px] w-fit">
-                                Streamline your real estate finance
+                               {t('propertyBlueBox')} 
                             </p>
                         </>
                     </div>
@@ -646,7 +428,7 @@ export default function Page() {
                     {/* Right Side - Content */}
                     <div className="4xl:px-16 text-white xl:col-span-8 col-span-12 2xl:px-14 xl:px-14">
                         <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] font-light leading-tight mt-10 xl:mt-0 4xl:mt-0 2xl:mt-0">
-                            ExelPersona <span className="align-super inline-block ml-[-6px] md:ml-[-8px] w-4 h-4 xl:w-6 xl:h-6">
+                           {t('excelPersonaTitle')}  <span className="align-super inline-block ml-[-6px] md:ml-[-8px] w-4 h-4 xl:w-6 xl:h-6">
                                 <Image
                                     src="/images/products/exelona/desktop/trademark.png"
                                     alt="mask decoration"
@@ -655,14 +437,13 @@ export default function Page() {
                                     className="object-contain mt-[2px]"
                                     priority
                                 />
-                            </span> – The Ultimate Resident & Applicant Experience
+                            </span> – {t('excelPersonaTitle2')}
                         </h2>
                         <h3 className="mt-8 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] text-[18px] font-semibold leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32 min-[400px]:w-[90%] sm:w-full">
-                            Custom-branded portals. Multilingual access. Mobile-native by design.
+                          {t('excelPersonaSubTitle')}  
                         </h3>
                         <p className="mt-8 4xl:text-[20px] text-base 4xl:pr-[28rem] 2xl:pr-[20rem] xl:pr-[13rem] pr-10">
-                            ExelPersona is your fully customizable applicant and resident
-                            portal, created to reflect your brand and deliver 24/7 self-service.
+                         {t('excelPersonaDesc')}   
                         </p>
 
                         {/* Two Column Features + Outcomes */}
@@ -686,7 +467,7 @@ export default function Page() {
                                 <LearnMore bgcolor="#073259" bordercolor="#073259" />
                             </>
                             <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 w-fit text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] 4xl:w-[60%]">
-                                Design your branded resident experience with ExelPersona
+                               {t('excelPersonaBlueBox')} 
                             </p>
                         </div>
                     </div>
@@ -701,7 +482,7 @@ export default function Page() {
                     pl-10 order-last xl:order-first mt-[-230px] 4xl:mt-0 2xl:mt-0 xl:mt-0 max-xl:px-[35px]">
                             {/* Text content */}
                             <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px] text-[#0A2E4D] leading-tight mb-4 pt-[17rem] xl:pt-14 4xl:pt-20 2xl:pt-16 3xl:w-[90%]">
-                                ExelPay<span className="align-super inline-block ml-[6px] w-4 h-4 xl:w-6 xl:h-6">
+                              {t('excelPayTitle')}  <span className="align-super inline-block ml-[6px] w-4 h-4 xl:w-6 xl:h-6">
                                     <Image
                                         src="/images/products/exelona/desktop/black-trademark.png"
                                         alt="mask decoration"
@@ -710,15 +491,14 @@ export default function Page() {
                                         className="object-contain mt-[2px]"
                                         priority
                                     />
-                                </span> <br /> Built-In Payments. Complete Control.
+                                </span> <br /> {t('excelPayTitle2')}
                             </h2>
 
                             <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] text-black mb-2 leading-tight 4xl:pr-[12rem]">
-                                Integrated payments that work how your residents pay.
+                             {t('excelPayDesc')}   
                             </p>
                             <p className="text-gray-700 mb-6 max-w-2xl mt-6">
-                                ExelPay is Exelona’s secure payment gateway for collecting rent,
-                                deposits, and fees with full reconciliation.
+                             {t('excelPayDesc2')}   
                             </p>
 
                             {/* Features + Outcomes */}
@@ -743,7 +523,7 @@ export default function Page() {
                                     <LearnMore bgcolor="#073259" bordercolor="#073259" />
                                 </div>
                                 <p className="bg-[#0A6BB8] w-fit mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[22px] text-[18px] xl:text-[18px]">
-                                    Power up your collections with ExelPay
+                                {t('excelPayBlueBox')}    
                                 </p>
                             </div>
 
@@ -774,14 +554,14 @@ export default function Page() {
                     <div className="xl:col-span-9 4xl:mt-0 xl:mt-0 2xl:mt-0 xl:mb-20 col-span-12 bg-[#073259] text-white xl:relative 4xl:pl-[315px] 4xl:ml-[-100px] 4xl:pr-[150px] 2xl:px-[150px] xl:pl-[130px] xl:pr-[100px] px-10">
 
                         <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px] leading-tight mb-4 pt-[49px] xl:pt-14 4xl:pt-20 2xl:pt-16 min-[400px]:w-[90%] sm:w-full">
-                            AgentChat – Real-Time AI Assistant for Residents & Teams
+                         {t('agentchatTitle')}   
                         </h2>
 
                         <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] mb-2 leading-tight">
-                            Scale your support without scaling your staff.
+                          {t('agentChatDesc')}  
                         </p>
                         <p className="mb-6 mt-6 leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32">
-                            AgentChat is the conversational AI built into Exelona for residents, applicants, and property teams.
+                         {t('agentChatDesc2')}   
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xl:gap-0 xl:mt-[62px]">
@@ -804,7 +584,7 @@ export default function Page() {
                             </>
                             <div>
                                 <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-[13px] text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] w-fit">
-                                    Experience AI-powered property communication
+                                  {t('agentChatBlueBox')}  
                                 </p>
                             </div>
 
@@ -816,15 +596,13 @@ export default function Page() {
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 xl:gap-10 4xl:gap-[80px]">
                         <div className="xl:col-span-7 col-span-12">
                             <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px]  leading-tight text-white font-light">
-                                Built for Scale.  Trusted by Real Estate Leaders.
+                             {t('builtTitle')}   
                             </h2>
                         </div>
 
                         <div className="xl:col-span-5 col-span-12 max-lg:mt-[23px]">
                             <p className="text-lg leading-relaxed text-gray-200 4xl:w-[86%]">
-                                Whether you manage 100 units or 100,000, Exelona gives you a
-                                flexible, intelligent, and secure platform to run your real estate
-                                enterprise.
+                             {t('builtDesc')}   
                             </p>
                         </div>
                     </div>
@@ -870,13 +648,13 @@ export default function Page() {
                         <div className="absolute inset-0 bg-[#068EDA] mix-blend-multiply"></div>
                         <div className="relative pt-[63px] xl:pt-[80px] text-white xl:px-[81px] px-[36px] md:w-[90%] lg:w-full">
                             <h2 className="font-light 4xl:text-[60px] xl:text-[40px] text-[26px]">
-                                Built on Salesforce
+                              {t('salesforceTitle')}  
                             </h2>
                             <h3 className="font-semibold 4xl:text-[40px] xl:text-[30px] text-[18px] xl:mt-[24px] mt-[22px]">
-                                Trusted Infrastructure for the Real Estate Enterprise
+                              {t('salesforceSubTitle')}  
                             </h3>
                             <p className="font-light 4xl:text-[20px] xl:text-[18px] text-[16px] xl:mt-[33px] mt-[22px]">
-                                Exelona<span className="align-super inline-block ml-[1px] w-3 h-3 xl:w-4 xl:h-4">
+                              {t('headerTitle')}  Exelona<span className="align-super inline-block ml-[1px] w-3 h-3 xl:w-4 xl:h-4">
                                     <Image
                                         src="/images/products/exelona/desktop/trademark.png"
                                         alt="mask decoration"
@@ -885,9 +663,8 @@ export default function Page() {
                                         className="object-contain md:mt-[5px]"
                                         priority
                                     />
-                                </span> is proudly built on the Salesforce platform, leveraging the
-                                world’s #1 enterprise cloud to deliver unmatched performance, flexibility,
-                                and trust for real estate.
+                                </span> 
+                                {t('salesforceDesc')} 
                             </p>
                             <div className="grid lg:grid-cols-2 grid-cols-1 gap-[29px] lg:gap-[40px]">
                                 {
@@ -925,7 +702,7 @@ export default function Page() {
                             </>
                             <>
                                 <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] min-[400px]:w-[96%] sm:w-fit">
-                                    Explore the power of Salesforce + Exelona
+                                 {t('salesforceBlueBox')}   
                                 </p>
                             </>
                         </div>
@@ -937,7 +714,7 @@ export default function Page() {
                 <ContactForm title={'Ready to Transform Your Real Estate Business?'} subtitle={"Let’s build it, automate it, and grow it—with Exelona."} className={"leading-tight  xl:w-[70%] 4xl:text-[60px] xl:text-[40px]"} beginBtnBg="#006FBE" />
 
                 <h3 className="font-semibold 4xl:text-[40px] xl:text-[30px] text-[18px] xl:mt-[91px] mt-[62px]">
-                    Trusted Infrastructure for the Real Estate Enterprise
+                {t('trustedTitle')}    
                 </h3>
             </section>
         </div>

@@ -133,7 +133,7 @@ export default function Page() {
                     <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
                       {data.list.map((elem, id) => {
                         return (
-                          <li className="pb-2" key={id}><h4 className="font-bold inline">{elem.title}</h4>{elem.desc}</li>
+                          <li className="pb-2" key={id}><h4 className="font-bold inline">{elem.title}</h4>{" "}{elem.desc}</li>
                         )
                       })}
                     </ul>
@@ -154,9 +154,7 @@ export default function Page() {
             <p className="text-black pb-4">{t('whyDesc')}</p>
             <p className="text-black pb-4">{t('whyDesc2')}</p>
 
-            <p className="text-black pb-4">{t('whyDesc3')}
-              <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"}><span className="font-normal">{t('whyLink')} </span></Link>
-              {t('whyDesc4')} </p>
+            <p className="text-black pb-4">{t('whyDesc3')}{" "}<Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"}><span className="font-normal">{t('whyLink')}</span></Link>{" "}{t('whyDesc4')} </p>
 
           </div>
         </div>

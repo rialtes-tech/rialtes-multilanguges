@@ -132,7 +132,7 @@ export default function Page() {
 
               <p className="text-black">{t('agentForceDesc')}
                 <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/">
-                  {t('agentForceLink')}</Link>,{t('agentForceDesc2')} </p>
+                  {t('agentForceLink')}</Link>, {t('agentForceDesc2')} </p>
 
               <div className="py-4"></div>
 

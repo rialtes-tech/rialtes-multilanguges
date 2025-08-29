@@ -59,24 +59,24 @@
         ],
         "faqData": [
             {
-                "question": "1. Qu’est-ce qui rend Agentforce différent des autres solutions IA pour la fabrication ?",
-                "answer": "Agentforce est conçu nativement sur Salesforce et spécialement pensé pour une utilisation opérationnelle dans les environnements manufacturiers. Il va au-delà des IA génériques en offrant des agents formés à l’industrie qui gèrent les demandes de chaîne d’approvisionnement, la planification des services, les réclamations de garantie et le support partenaires, sans besoin de code personnalisé."
+                "question": "1. Qu'est-ce qui différencie Agentforce des autres solutions d'IA pour la fabrication ?",
+                "answer": "Agentforce est construit nativement sur Salesforce et conçu pour une utilisation opérationnelle dans les environnements de fabrication. Contrairement aux solutions d'IA génériques, il dispose d'agents formés à l'industrie qui gèrent efficacement des tâches telles que la gestion de la chaîne d'approvisionnement, la planification des services, les réclamations de garantie et le support aux partenaires, sans besoin de code personnalisé."
             },
             {
-                "question": "2. Agentforce peut-il s’intégrer à notre configuration existante Salesforce CPQ ou Manufacturing Cloud ?",
-                "answer": "Oui. Agentforce est conçu pour fonctionner de manière transparente avec Salesforce CPQ, Manufacturing Cloud et d’autres solutions natives Salesforce. Il se connecte à votre catalogue produit, moteur de tarification, contrats et flux de travail. Ainsi, vos agents IA peuvent établir des devis, configurer ou assurer un support basé sur la logique métier et les données en temps réel."
+                "question": "2. Agentforce peut-il s'intégrer à notre configuration Salesforce CPQ ou Manufacturing Cloud existante ?",
+                "answer": "Oui. Agentforce s'intègre parfaitement à Salesforce CPQ, Manufacturing Cloud et à d'autres solutions natives Salesforce, se connectant à votre catalogue de produits, moteur de tarification, contrats et flux de travail. Cela permet à vos agents d'IA de fournir des devis, configurer et offrir un support en temps réel en utilisant des données et logiques commerciales actualisées."
             },
             {
-                "question": "3. Comment les agents IA d’Agentforce améliorent-ils la disponibilité et réduisent-ils la charge de travail manuelle ?",
-                "answer": "Agentforce se connecte à Field Service, aux signaux IoT et aux historiques de service pour signaler les problèmes potentiels avant qu’ils ne causent des arrêts. Il automatise des flux de travail courants comme la planification des interventions, la commande de pièces ou l’initiation de réclamations. Résultat : moins de pannes et moins de surcharge manuelle."
+                "question": "3. Comment les agents IA d'Agentforce améliorent-ils le temps de fonctionnement et réduisent-ils la charge manuelle ?",
+                "answer": "Agentforce se connecte à Field Service, aux signaux IoT et aux historiques de service pour identifier et signaler de manière proactive les problèmes potentiels avant qu'ils ne provoquent des interruptions. Il automatise des flux clés tels que la planification des dispatchs, les commandes de pièces et l'ouverture de réclamations, réduisant considérablement les pannes et la charge manuelle."
             },
             {
-                "question": "4. Comment Agentforce aide-t-il à améliorer la satisfaction client ?",
-                "answer": "Les clients et partenaires obtiennent des réponses rapides et précises grâce à des agents IA disponibles 24/7, sans attente ni relances. Qu’il s’agisse de suivre une commande, planifier une intervention ou récupérer un manuel produit, Agentforce délivre une expérience cohérente et en libre-service sur le web, mobile, WhatsApp et SMS."
+                "question": "4. Comment Agentforce contribue-t-il à améliorer la satisfaction client ?",
+                "answer": "Agentforce fournit des réponses rapides et précises aux clients et partenaires via des agents IA 24/7, éliminant les temps d'attente et les relances. Que ce soit pour suivre une commande, planifier un service ou récupérer des manuels produits, Agentforce offre une expérience en libre-service cohérente et fluide sur le web, mobile, WhatsApp et SMS."
             },
             {
                 "question": "5. Agentforce convient-il aux entreprises manufacturières de taille moyenne ou uniquement aux grandes entreprises ?",
-                "answer": "Agentforce est conçu pour être évolutif. Que vous soyez une PME en croissance ou un fabricant mondial, vous pouvez commencer petit, en automatisant quelques flux de travail à fort volume, puis étendre progressivement. Pas besoin de changements massifs d’infrastructure. Juste un support plus rapide, des opérations plus intelligentes et un réel retour sur investissement."
+                "answer": "Agentforce est conçu pour être évolutif, ce qui le rend parfait pour les entreprises de taille moyenne et les grandes entreprises. Vous pouvez commencer petit, automatiser des flux clés et vous développer avec le temps, sans avoir besoin de changements massifs d'infrastructure. Profitez d'un support plus rapide, d'opérations plus intelligentes et d'un ROI clair à mesure que votre entreprise se développe."
             }
         ],
         "copilotData": [
@@ -128,6 +128,7 @@
         "blogTopic": "Agentforce",
         "blogTitle": "Agentforce pour la fabrication : Dépassez les attentes clients avec les solutions Salesforce alimentées par l’IA",
         "blogMainData": "Nous savons que l’intelligence artificielle a transformé notre manière de travailler, en augmentant considérablement la productivité grâce à l’automatisation des tâches manuelles et en permettant aux équipes de se concentrer sur des activités à forte valeur ajoutée. Avec l’essor des attentes clients, ceux-ci exigent des expériences fluides, personnalisées et un support instantané. Imaginez une équipe libérée des contraintes, offrant un service exceptionnel sans surcharge. Voilà la promesse d’Agentforce. Il associe expertise humaine et agents alimentés par l’IA sur la plateforme Salesforce pour créer une main-d’œuvre plus intelligente et évolutive. Cela libère vos équipes afin qu’elles puissent se concentrer sur la construction de relations solides et la création de véritables résultats commerciaux.",
+        "the": " ",
         "blogMainDataLink": "l’industrie manufacturière est en pleine transformation numérique",
         "blogMainData2": "avec l’Industrie 4.0, nécessitant des systèmes plus intelligents et connectés. Agentforce optimise les opérations de fabrication, stimule la productivité et améliore la satisfaction client. En intégrant l’ensemble de la chaîne de valeur, de l’inventaire à la production en passant par l’engagement client, il aide les entreprises manufacturières à rester compétitives. C’est une couche d’intelligence qui aide les fabricants à repenser la façon dont ils interagissent, soutiennent et développent leurs relations clients.",
         "blogMainData3": "Voyons en détail comment Agentforce vous aide à prendre une longueur d’avance, pas seulement à suivre.",
@@ -244,7 +245,7 @@
             },
             {
                 "title": "Marketplace de confiance",
-                "desc": "Parcourez et intégrez des agents IA vérifiés en termes de sécurité, conformité et évolutivité."
+                "desc": ": Parcourez et intégrez des agents IA vérifiés en termes de sécurité, conformité et évolutivité."
             }
         ],
         "whatLedData": [
@@ -500,19 +501,19 @@
         "whyPharmaDesc": "Les entreprises pharmaceutiques sont particulièrement bien placées pour tirer parti de l’IA agentique en raison de leurs workflows complexes, de leurs exigences réglementaires strictes et de leur attention croissante à la prise en charge centrée sur le patient. Les secteurs des sciences de la vie et de la santé sont connus pour leur prudence vis-à-vis des nouvelles technologies, et ce pour de bonnes raisons. La sécurité des patients, les normes éthiques et les réglementations strictes exigent une précision et une responsabilité absolues. Cependant, la complexité même des opérations pharmaceutiques — de la découverte de médicaments aux essais cliniques jusqu’aux soumissions réglementaires — en fait un terrain idéal pour les systèmes autonomes intelligents.",
         "whyPharmaData": [
             {
-                "title": "Complexité opérationnelle croissante de la pharma :",
+                "title": "Complexité opérationnelle croissante de la pharma",
                 "desc": "La coordination des essais cliniques, de la conformité réglementaire, de la logistique de la chaîne d’approvisionnement et de l’engagement patient implique la gestion d’équipes diversifiées et de systèmes de données déconnectés. Les processus manuels peuvent ralentir les opérations et accroître le risque d’erreurs humaines."
             },
             {
-                "title": "Attentes croissantes des patients :",
+                "title": "Attentes croissantes des patients",
                 "desc": "Les patients, notamment ceux atteints de maladies chroniques ou complexes, attendent un accompagnement personnalisé en temps réel. Les modèles d’engagement traditionnels peinent à offrir une personnalisation à grande échelle sans augmenter considérablement les ressources nécessaires."
             },
             {
-                "title": "Données fragmentées :",
+                "title": "Données fragmentées",
                 "desc": "Des données essentielles telles que les dossiers patients, l’historique des prescriptions et les parcours de traitement sont souvent cloisonnées dans différents départements ou plateformes, retardant les décisions critiques et compromettant la coordination des soins."
             },
             {
-                "title": "Pressions réglementaires et financières accrues :",
+                "title": "Pressions réglementaires et financières accrues",
                 "desc": "Avec des réglementations plus strictes et des dépenses opérationnelles croissantes, les entreprises pharmaceutiques doivent améliorer leur efficacité, rationaliser les workflows et réduire les coûts, tout en maintenant des normes élevées de conformité et de qualité des soins."
             }
         ],
@@ -779,11 +780,11 @@
                 "desc": "SAP SuccessFactors s’intègre parfaitement avec SAP S/4HANA et d’autres systèmes ERP pour aligner les opérations RH avec les fonctions métier plus larges. Par exemple :",
                 "list": [
                     {
-                        "title": "Exactitude de la paie",
+                        "title": "Exactitude de la paie ",
                         "desc": ": L’intégration garantit que les données salariales, les codes fiscaux et les déductions des employés circulent directement de SuccessFactors vers le système de paie."
                     },
                     {
-                        "title": "Planification financière",
+                        "title": "Planification financière ",
                         "desc": ": L’échange de données en temps réel soutient une budgétisation et des prévisions précises en offrant une visibilité sur les dépenses de paie."
                     }
                 ]
@@ -2168,7 +2169,7 @@
                 "list": [
                     {
                         "title": "Définir les scénarios de contrôle",
-                        "desc": "Identifier toutes les entités tierces nécessitant un contrôle. Exemples : fournisseurs, prestataires logistiques et institutions financières impliqués dans votre chaîne d’approvisionnement."
+                        "desc": ": Identifier toutes les entités tierces nécessitant un contrôle. Exemples : fournisseurs, prestataires logistiques et institutions financières impliqués dans votre chaîne d’approvisionnement."
                     },
                     {
                         "title": "Télécharger les entrées des listes SPL",
@@ -2909,7 +2910,7 @@
         "blogTopic": "Salesforce Agentforce",
         "blogTitle": "Le cerveau derrière les agents : dévoiler le moteur de raisonnement Atlas dans Agentforce",
         "blogMainData": "À mesure que les entreprises se développent, la complexité de la gestion des interactions clients se multiplie, entraînant le besoin de systèmes de support plus intelligents et rationalisés.",
-        "blogMainDataLink": "Salesforce Agentforce ",
+        "blogMainDataLink": "Salesforce Agentforce",
         "blogMainData2": "offre une plateforme robuste pour l’automatisation du service client, désormais améliorée par le révolutionnaire moteur de raisonnement Atlas.",
         "blogMainData3": "En tant que « cerveau » des agents, Atlas formule un plan stratégique basé sur l’objectif spécifique que l’agent cherche à atteindre. Il évalue et affine ensuite ce plan, en bouclant pour collecter des données supplémentaires si nécessaire. Lors de l’exécution d’une action, il détermine quel processus métier est le plus approprié et veille à ce que le bon soit appliqué. Il interagit avec le client ou l’employé via leur canal de communication préféré, offrant une expérience plus fluide et personnalisée. Cette adaptabilité dynamique permet à Atlas d’optimiser les interactions, améliorant l’efficacité et la satisfaction en continu et en temps réel. Découvrons ce qui rend les nouvelles capacités de raisonnement et de planification d’Atlas si spéciales.",
         "commonData": [
@@ -3075,7 +3076,7 @@
         "gettingLink": "Dreamforce",
         "gettingDesc2": "Les entreprises peuvent exploiter Agentforce au sein de la plateforme Salesforce en automatisant les flux de travail de vente, en améliorant la gestion des leads et en optimisant les interactions clients. Rialtes est spécialisé dans les",
         "gettingLink2": " solutions d’IA et d’analytique dans Salesforce",
-        "gettingDesc3": ", et nous avons aidé des clients à obtenir des gains de productivité significatifs en utilisant des outils basés sur l’IA pour améliorer"
+        "gettingDesc3": "et nous avons aidé nos clients à réaliser des gains de productivité significatifs grâce à l’utilisation d’outils basés sur l’IA pour améliorer leurs processus métier."
     },
     "agriculture": {
         "blogTopic": "Technologie Verte",
@@ -3179,5 +3180,235 @@
         "moveDesc": "L’agriculture est une industrie axée sur le marché qui emploie une grande partie de la population du pays. Les technologies agricoles des dernières années ont été extrêmement utiles pour contribuer davantage à la croissance économique. Rialtes peut vous aider à mettre en œuvre des solutions agroalimentaires basées sur SAP qui préservent la fertilité des sols, préviennent la pollution et protègent la biodiversité. Nous utilisons l’IA de SAP pour automatiser les tâches manuelles et vérifier l’état des cultures à l’aide de capteurs.",
         "moveLink": "Contactez-nous",
         "moveDesc2": " pour mettre en place des processus agricoles intelligents basés sur les données, tout en gérant de manière cohérente les données agricoles dans l’ensemble de votre entreprise avec SAP BTP."
+    },
+    "remagineEnterprise": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Comment fonctionne réellement Salesforce Agentforce",
+                "description": "Salesforce Agentforce, bien qu’il s’agisse d’un ajout plus récent à l’écosystème Salesforce, fait parler de lui, en particulier dans les organisations qui gèrent de grandes équipes d’agents, comme les commerciaux, les représentants du service client et le personnel de terrain."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "28 Oct 2024",
+                "title": "Agents vs. Copilotes vs. Bots : Quelle est la différence et pourquoi est-ce important",
+                "description": "Des outils comme Agentforce redéfinissent notre vision des assistants numériques, en mettant en avant les distinctions entre Agents, Copilotes et Bots. Ces termes sont souvent utilisés dans l’automatisation pilotée par l’intelligence artificielle et les interfaces conversationnelles, chacun remplissant un rôle distinct."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center : Redéfinir les tests d’IA avec des données synthétiques",
+                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center au sein de sa plateforme d’IA agentique, Agentforce. Cet ajout permet aux utilisateurs d’entreprise de tester et de surveiller les agents IA avant de les déployer en production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources Humaines",
+                "date": "24 Déc 2024",
+                "title": "Comment intégrer SAP SuccessFactors avec Microsoft Office 365 pour une meilleure collaboration",
+                "description": "L’intégration fluide entre les applications d’entreprise améliore la collaboration, l’efficacité et la productivité. Intégrer SAP SuccessFactors avec Microsoft Office 365 combine les atouts d’une solution leader en gestion de l’expérience humaine (HXM) et d’une suite robuste d’outils de productivité."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Technologie Verte Cloud",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0 : Comment les technologies numériques transforment l’agriculture pour un avenir meilleur ?",
+                "description": "L’agriculture joue un rôle important dans l’économie croissante de l’Inde et son avenir ne peut être accompli sans outils numériques et innovations technologiques."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources Humaines",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Gestion de la performance et des objectifs",
+                "description": "Atteindre les objectifs de votre organisation est une responsabilité clé partagée par toute votre équipe. Lorsque la stratégie de votre équipe s’aligne avec ses objectifs et ceux plus larges de l’organisation, faire ce qu’il faut devient instinctif."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "1. Qu’est-ce que l’IA agentique, en termes simples ?",
+                "answer": [
+                    "L’IA agentique fait référence à des systèmes intelligents composés d’agents autonomes qui travaillent ensemble pour atteindre des objectifs métier. Ils ne se contentent pas de suivre des instructions ; ils agissent sur l’intention, prennent des décisions et s’adaptent au fil du temps."
+                ]
+            },
+            {
+                "question": "2. En quoi l’IA agentique est-elle différente de l’IA traditionnelle ou de l’automatisation ?",
+                "answer": [
+                    "L’IA traditionnelle gère des tâches uniques. L’automatisation suit des règles fixes. L’IA agentique fait plus ; elle peut se coordonner entre les systèmes, répondre à des conditions changeantes et apprendre continuellement des résultats. Elle est dynamique, proactive et évolutive."
+                ]
+            },
+            {
+                "question": "3. Quels sont les avantages pour l’entreprise de l’IA agentique ?",
+                "answer": [
+                    [
+                        "Productivité accrue grâce à l’automatisation 24/7",
+                        "Décisions plus intelligentes grâce à l’apprentissage en temps réel",
+                        "Temps de réponse plus rapides face aux perturbations",
+                        "Réduction des coûts opérationnels en diminuant le travail manuel"
+                    ]
+                ]
+            },
+            {
+                "question": "4. Pouvez-vous donner des exemples concrets de fonctionnement de l’IA agentique ?",
+                "answer": [
+                    [
+                        "Chaîne d’approvisionnement : un agent réachemine les expéditions lorsqu’il détecte des retards ou des perturbations météorologiques.",
+                        "RH : un agent numérique surveille l’engagement et signale les premiers signes d’épuisement.",
+                        "Finance : un agent rapproche les factures, détecte les risques de fraude et prépare des résumés d’audit."
+                    ]
+                ]
+            },
+            {
+                "question": "5. L’IA agentique est-elle réservée aux grandes entreprises ?",
+                "answer": [
+                    "Pas du tout. Bien que l’impact puisse être massif dans les grandes organisations, vous pouvez commencer petit, en automatisant un seul processus ou service, puis évoluer progressivement. L’IA agentique est modulaire et flexible."
+                ]
+            },
+            {
+                "question": "6. Les systèmes d’IA agentique sont-ils sécurisés ?",
+                "answer": [
+                    "Ils peuvent l’être, s’ils sont bien conçus. Chez Rialtes, nous concevons des systèmes agentiques avec gouvernance intégrée, conformité et accès basé sur les rôles. La sécurité est intégrée, pas ajoutée après coup."
+                ]
+            },
+            {
+                "question": "7. L’IA agentique remplacera-t-elle les travailleurs humains ?",
+                "answer": [
+                    "Non. Elle est conçue pour gérer des tâches répétitives et chronophages, libérant ainsi les personnes pour se concentrer sur la stratégie, l’innovation et les travaux à forte valeur ajoutée. Il s’agit d’augmentation, pas de remplacement."
+                ]
+            }
+        ],
+        "tableData": [
+            {
+                "label": "Objectif",
+                "genAI": "Crée du contenu (texte, images, code)",
+                "agentAI": "Prend des actions, prend des décisions"
+            },
+            {
+                "label": "Autonomie",
+                "genAI": "Réactif — répond aux invites",
+                "agentAI": "Proactif, agit de lui-même"
+            },
+            {
+                "label": "Mémoire",
+                "genAI": "Court terme",
+                "agentAI": "Long terme, apprend en continu"
+            },
+            {
+                "label": "Cas d’utilisation",
+                "genAI": "Rédaction de blogs, conception et suggestions de code",
+                "agentAI": "Automatisation des workflows, planification stratégique"
+            },
+            {
+                "label": "Rôle dans l’entreprise",
+                "genAI": "Outil ou assistant",
+                "agentAI": "Orchestrateur des opérations"
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Productivité accrue",
+                "description": "Les agents numériques ne s’arrêtent jamais. Ils fonctionnent 24/7, gérant les validations, répondant aux questions, résolvant les problèmes et maintenant les workflows en mouvement, même lorsque votre équipe est hors ligne."
+            },
+            {
+                "title": "Décisions plus intelligentes",
+                "description": "Ces agents analysent les données en temps réel et apprennent de chaque résultat. Plus ils interagissent avec vos systèmes, plus ils deviennent performants pour prendre des décisions précises et contextuelles."
+            },
+            {
+                "title": "Temps d’action plus rapide",
+                "description": "Lorsqu’un lead se refroidit, qu’une commande est bloquée ou qu’un retard frappe votre chaîne d’approvisionnement, les agents agissent immédiatement."
+            },
+            {
+                "title": "Réduction des coûts opérationnels",
+                "description": "En rationalisant les workflows et en optimisant l’utilisation des ressources, l’IA agentique réduit le travail manuel et les gaspillages."
+            },
+            {
+                "title": "Intelligence évolutive",
+                "description": "Que vous déployiez un agent ou cent, ils évoluent sans effort. Vous pouvez commencer petit puis étendre selon vos besoins."
+            },
+            {
+                "title": "Collaboration inter-équipes",
+                "description": "Les agents ne sont pas limités à un seul département. Ils relient les points entre RH, finance, achats et support client."
+            },
+            {
+                "title": "Apprentissage intégré",
+                "description": "Ces systèmes évoluent avec chaque interaction, devenant plus performants et améliorant continuellement les processus."
+            }
+        ],
+        "blogTopic": "Intelligence Artificielle",
+        "blogTitle": "Réinventer l’entreprise avec des systèmes d’IA agentique",
+        "manufacturingTitle": "La fabrication a un problème d’expérience client",
+        "manufacturingDesc": "La façon dont les humains interagissent avec l’IA évolue. D’outils isolés à des agents intelligents capables de planifier des voyages, surveiller la logistique, assister les personnes âgées ou gérer l’inventaire à l’échelle mondiale.",
+        "manufacturingDesc2": "L’IA agentique n’est pas seulement une amélioration, c’est un changement de paradigme. Les entreprises qui l’utilisent voient une productivité 2,4x plus élevée et une croissance des revenus 2,5x plus rapide.",
+        "agenticAiTitle": "Qu’est-ce que l’IA agentique ? Des outils d’IA aux coéquipiers intelligents",
+        "agenticAiDesc": "L’IA agentique repose sur des agents intelligents et autonomes qui travaillent ensemble pour optimiser des processus complexes.",
+        "agenticAiDesc2": "Ce qui la rend différente :",
+        "agenticData": [
+            {
+                "title": "Coordination, pas isolement :",
+                "desc": "Les agents communiquent entre eux et apprennent collectivement."
+            },
+            {
+                "title": "Routage intelligent :",
+                "desc": "Une fois trié, les agents associent le cas au meilleur agent de support disponible."
+            },
+            {
+                "title": "Intelligence axée sur les objectifs :",
+                "desc": "Chaque agent est aligné sur des KPI spécifiques."
+            },
+            {
+                "title": "Toujours en adaptation :",
+                "desc": "Ces agents apprennent de chaque interaction et évoluent avec votre entreprise."
+            }
+        ],
+        "agenticAiDesc3": "Alors que des outils comme ChatGPT se concentrent sur la génération de contenu, l’IA agentique se concentre sur la prise de décision et l’action.",
+        "howEnterpriseTitle": "Comment les entreprises utilisent l’IA agentique pour combiner autonomie et logique métier",
+        "howEnterpriseDesc": "L’IA agentique aide les entreprises à automatiser plus intelligemment. Elles agissent sur l’intention, répondent en temps réel et apprennent en continu.",
+        "keyTitle": "Principaux avantages :",
+        "agenticAiGenTitle": "IA agentique vs IA générative : Quelle différence ?",
+        "agenticAiGenDesc": "Les deux font partie de la famille IA, mais remplissent des rôles très différents.",
+        "tableTitle": "IA générative",
+        "tableTitle2": "IA agentique",
+        "agenticAiGenDesc2": "Considérez l’IA générative comme un partenaire créatif. L’IA agentique est votre responsable des opérations.",
+        "aiThinksTitle": "Une IA qui réfléchit au-delà de l’atelier",
+        "aiThinksDesc": "L’IA agentique redéfinit l’excellence opérationnelle en combinant précision en temps réel et vitesse à l’échelle entreprise.",
+        "aiThinksDesc2": "Voici à quoi cela ressemble en action :",
+        "aiThinksData": [
+            {
+                "title": "Agents de la chaîne d’approvisionnement",
+                "desc": "Imaginez un agent numérique qui ne se contente pas de suivre les niveaux d’inventaire, mais anticipe les pics de demande."
+            },
+            {
+                "title": "Agents RH",
+                "desc": "Dans un environnement de travail hybride, l’expérience des employés peut se dégrader. Un agent RH intelligent surveille en continu l’engagement."
+            },
+            {
+                "title": "Agents Finance",
+                "desc": "Les opérations financières sont souvent enfouies dans des tableurs. Un agent peut rapprocher automatiquement les factures et signaler les irrégularités."
+            }
+        ],
+        "aiThinksDesc3": "Et voici la vision plus large :",
+        "aiThinksDesc4": "Ces agents n’opèrent pas en silos. Chaque agent contribue à un système interconnecté.",
+        "humansTitle": "Humains et Agents : Un partenariat plus intelligent",
+        "humansData": [
+            "L’IA agentique ne remplace pas les humains. Elle amplifie ce que nous faisons de mieux - stratégie, empathie, innovation.",
+            "L’avenir réside dans la collaboration : les humains définissent la vision, et les agents exécutent.",
+            "Le moment est venu. L’IA agentique n’est pas seulement une mise à niveau technologique ; c’est un changement de mentalité."
+        ],
+        "faqTitle": "Foire Aux Questions (FAQ)"
     }
 }

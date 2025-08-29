@@ -185,8 +185,7 @@ export default function Page() {
 
               <p className="text-black pb-4">{t('completeDesc2')}
                 {" "} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner?utm_source=blog&utm_medium=organic/"}>{t('completeLink')}</Link>
-                {" "}  {t('completeDesc3')} <Link className="underline" href={"mailto:sales@rialtes.com"}><span >sales@rialtes.com</span></Link>
-                {t('completeDesc4')}</p>
+                {" "}  {t('completeDesc3')} <Link className="underline" href={"mailto:sales@rialtes.com"}><span >sales@rialtes.com</span></Link> {t('completeDesc4')}</p>
             </div>
           </div>
         </div>

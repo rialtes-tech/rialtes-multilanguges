@@ -176,8 +176,8 @@ export default function page() {
                         </div>
                     </div>
                     <div className="lg:col-span-7 xl:col-span-6 4xl:col-span-5 col-span-12">
-                        <p className="xl:text-[22px] text-[16px] leading-tight">
-                            {t('pageDesc')}
+                        <p className="xl:text-[22px] text-[16px] leading-tight"  dangerouslySetInnerHTML={{ __html: t('pageDesc') }}>
+
                         </p>
                     </div>
                 </div>

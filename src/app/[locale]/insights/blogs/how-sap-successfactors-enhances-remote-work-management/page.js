@@ -147,7 +147,7 @@ export default function Page() {
                         {
                           elem.dataList.map((data, ind) => {
                             return (
-                              <li className="pb-2" key={ind}><h4 className="inline">{data.title}</h4>{data.desc}</li>
+                              <li className="pb-2" key={ind}><h4 className="inline">{data.title} </h4>{data.desc}</li>
                             )
                           })
                         }
@@ -162,8 +162,7 @@ export default function Page() {
             {/* sap successfactor section */}
 
             <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">{t('successFactorTitle')}</h2>
-            <p className="text-black pb-4"><Link className="text-[#0092E0]  transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management?utm_source=blog&utm_medium=organic"}><span>{t('successFactorLink')}</span></Link>
-              {t('successFactorDesc')}
+            <p className="text-black pb-4"><Link className="text-[#0092E0]  transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management?utm_source=blog&utm_medium=organic"}><span>{t('successFactorLink')}</span></Link> {t('successFactorDesc')}
             </p>
             <p className="text-black pb-4">{t('successFactorDesc2')}</p>
             <p className="text-black">{t('successFactorDesc3')}</p>
@@ -172,7 +171,7 @@ export default function Page() {
             {/* manage remote and hybrid section */}
             <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">{t('manageTitle')}</h2>
             <p className="text-black pb-4">{t('manageDesc')}</p>
-            <p className="text-black pb-4">{t('manageDesc2')} <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/contact-us/"}><span>{t('reachOutLink')}</span></Link>{t('manageDesc3')} </p>
+            <p className="text-black pb-4">{t('manageDesc2')} <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/contact-us/"}><span>{t('reachOutLink')}</span></Link> {t('manageDesc3')} </p>
           </div>
         </div>
       </section>

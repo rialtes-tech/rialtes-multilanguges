@@ -132,7 +132,7 @@ export default function Page() {
                     <div key={ind}>
                       <h3 className="text-black pb-4 h3-bold">{data.title}</h3>
                       <p className="text-black pb-4">{data.desc && data.desc}</p>
-                      <p className="text-black pb-4">{data.desc2} {data.link && <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.sap.com/products/hcm/corporate-lms/what-is-lms.html"}><span>{data.link}</span></Link>}{data.desc3 && data.desc}</p>
+                      <p className="text-black pb-4">{data.desc2}{data.link && <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.sap.com/products/hcm/corporate-lms/what-is-lms.html"}><span>{data.link}</span></Link>}{" "}{data.desc3 && data.desc3}</p>
                       {data.desc4 && <p className="text-black pb-4">{data.desc4}</p>}
                     </div>
                   )
@@ -143,8 +143,7 @@ export default function Page() {
 
               <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">{t('hrSystemTitle')}</h2>
               <p className="text-black pb-4">{t('hrSystemDesc')}</p>
-              <p className="text-black pb-4">{t('hrSystemDesc2')}
-                <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=organic"}><span> {t('hrSystemLink')} </span> </Link>{t('hrSystemDesc3')} <Link className="underline" href={"mailto:sales@rialtes.com"}><span > sales@rialtes.com</span></Link></p>
+              <p className="text-black pb-4">{t('hrSystemDesc2')}{" "}<Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=organic"}><span>{t('hrSystemLink')}</span> </Link>{" "} {t('hrSystemDesc3')} <Link className="underline" href={"mailto:sales@rialtes.com"}><span > sales@rialtes.com</span></Link></p>
             </div>
           </div>
         </div>

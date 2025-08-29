@@ -121,9 +121,7 @@ export default function Page() {
             <div className="xl:max-w-[1084px] xl:w-[1084px]">
               <h1 className="text-[#000000] font-semibold  pb-6 xl:w-[704px] 4xl:w-[1004px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">{t('blogTitle')}
               </h1>
-              <p className="text-black">{t('blogMainData1')}
-                <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://news.sap.com/2025/02/sap-business-data-cloud-databricks-turbocharge-business-ai/">{t('blogMainDataLink')}</Link>
-                {t('blogMainData2')} </p>
+              <p className="text-black">{t('blogMainData1')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://news.sap.com/2025/02/sap-business-data-cloud-databricks-turbocharge-business-ai/">{t('blogMainDataLink')}</Link> {t('blogMainData2')} </p>
               <p className="mt-3">{t('blogMainData3')}</p>
 
               {/* understanding sap business data cloud */}

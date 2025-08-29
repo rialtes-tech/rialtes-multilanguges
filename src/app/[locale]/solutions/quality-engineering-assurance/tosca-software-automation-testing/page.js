@@ -617,12 +617,7 @@ const t = useTranslations("tosca");
             <span className="border-b-2 border-gray-400 w-[30%] xl:w-full 4xl:w-full"></span>
             <div className="xl:col-span-12 col-span-12 pl-4">
               <p className="4xl:text-[30px] text-[24px] xl:text-[20px] font-bold leading-tight">
-                {t('companiesDesc')}
-
-                <span className="text-[#006FBE] font-bold 4xl:text-[65px] xl:text-[40px] text-[20px]">
-                  90%
-                </span>
-                {t('companiesPara')}
+                {t('companiesDesc')} <span className="text-[#006FBE] font-bold 4xl:text-[65px] xl:text-[40px] text-[20px]"> 90% </span>{t('companiesPara')}
 
                 <br />
                 {t('companiesParaOne')}

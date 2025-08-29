@@ -60,23 +60,23 @@
         "faqData": [
             {
                 "question": "1.What makes Agentforce different from other AI solutions for manufacturing?",
-                "answer": "Agentforce is built natively on Salesforce and designed specifically for operational use in manufacturing environments. It goes past generic AI by offering industry-trained agents that handle supply chain requests, service scheduling, warranty claims, and partner support, without the need for custom code."
+                "answer": "Agentforce is built natively on Salesforce and tailored for operational use in manufacturing environments. Unlike generic AI solutions, it features industry-trained agents that efficiently handle tasks like supply chain management, service scheduling, warranty claims, and partner support—without the need for custom code."
             },
             {
                 "question": "2. Can Agentforce integrate with our existing Salesforce CPQ or Manufacturing Cloud setup?",
-                "answer": "Yes. Agentforce is built to work seamlessly with Salesforce CPQ, Manufacturing Cloud, and other Salesforce-native solutions. It connects with your product catalog, pricing engine, contracts, and workflows. So your AI agents can quote, configure, or support based on live business logic and real-time data."
+                "answer": "Yes. Agentforce seamlessly integrates with Salesforce CPQ, Manufacturing Cloud, and other Salesforce-native solutions, connecting to your product catalogue, pricing engine, contracts, and workflows. This enables your AI agents to quote, configure, and provide real-time support using live business data and logic."
             },
             {
                 "question": "3. How do AI agents in Agentforce improve uptime and reduce manual workload?",
-                "answer": "Agentforce connects to Field Service, IoT signals, and service histories to flag potential issues before they cause downtime. It automates common workflows like dispatch scheduling, parts ordering, or claim initiation. That means fewer breakdowns and less manual overhead."
+                "answer": "Agentforce connects to Field Service, IoT signals, and service histories to proactively identify and flag potential issues before they result in downtime. It automates key workflows such as dispatch scheduling, parts ordering, and claim initiation, significantly reducing breakdowns and manual overhead."
             },
             {
                 "question": "4. How does Agentforce help improve customer satisfaction?",
-                "answer": "Customers and channel partners get fast, accurate answers through 24/7 AI agents and no waiting on hold or chasing updates. Whether it’s tracking an order, scheduling service, or pulling a product manual, Agentforce delivers a consistent, self-service experience across web, mobile, WhatsApp, and SMS."
+                "answer": "Agentforce delivers fast, accurate answers to customers and channel partners through 24/7 AI agents—eliminating the need for hold times and chase-ups. Whether it's tracking an order, scheduling service, or retrieving product manuals, Agentforce provides a consistent, seamless self-service experience across web, mobile, WhatsApp, and SMS."
             },
             {
                 "question": "5. Is Agentforce suitable for mid-sized manufacturing businesses or only enterprises?",
-                "answer": "Agentforce is scalable by design. Whether you’re a growing mid-sized business or a global manufacturer, you can start small, automating a few high-volume workflows, and expand over time. No need for massive infrastructure changes. Just faster support, smarter operations, and real ROI."
+                "answer": "Agentforce is designed for scalability, making it perfect for both mid-sized businesses and large enterprises. You can start small, automating key workflows, and expand over time—without needing massive infrastructure changes. Enjoy faster support, smarter operations, and a clear ROI as your business grows."
             }
         ],
         "copilotData": [
@@ -128,6 +128,7 @@
         "blogTopic": "Agentforce",
         "blogTitle": "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
         "blogMainData": "We know that Artificial intelligence has transformed how we work, significantly boosting productivity by automating manual tasks and allowing teams to focus on high-value deliverables. With customer expectations soaring, they demand seamless, personalized experiences and instant support. Imagine a workforce free from constraints, delivering exceptional service without overwhelm. That’s the promise of Agentforce. It blends human expertise with AI-powered agents on the Salesforce platform to create a smarter, more scalable workforce. It frees your team to focus on building stronger relationships and driving real business outcomes.",
+        "the": "The",
         "blogMainDataLink": "manufacturing industry is undergoing a digital transformation",
         "blogMainData2": "with Industry 4.0, requiring smarter and more connected systems. Agentforce optimizes manufacturing operations, boosts productivity, and enhances customer satisfaction. By integrating the entire value chain from inventory to production to customer engagement, it helps manufacturing companies remain competitive. It’s an intelligence layer that helps manufacturers rethink how they engage, support, and grow customer relationships.",
         "blogMainData3": "Let’s break down how Agentforce helps you leap ahead, not just keep up",
@@ -244,7 +245,7 @@
             },
             {
                 "title": "Trusted Marketplace",
-                "desc": "Browse and integrate AI agents verified for security, compliance, and scalability."
+                "desc": ": Browse and integrate AI agents verified for security, compliance, and scalability."
             }
         ],
         "whatLedData": [
@@ -500,19 +501,19 @@
         "whyPharmaDesc": "Pharmaceutical companies are especially well-suited to leverage Agentic AI due to their complex workflows, strict regulatory demands, and increasing focus on patient-centered care. The life sciences and healthcare sectors are notoriously cautious when it comes to adopting emerging technologies, and for good reason. Patient safety, ethical standards, and stringent regulations demand absolute accuracy and accountability. However, the very complexity of pharmaceutical operations from drug discovery to clinical trials to regulatory submissions makes them an ideal ground for intelligent, autonomous systems.",
         "whyPharmaData": [
             {
-                "title": "Pharma’s Rising Operational Complexity:",
+                "title": "Pharma’s Rising Operational Complexity",
                 "desc": "Coordinating clinical trials, regulatory compliance, supply chain logistics, and patient engagement involves managing diverse teams and disconnected data systems. Manual processes can slow operations and heighten the risk of human error"
             },
             {
-                "title": "Growing Patient Expectations:",
+                "title": "Growing Patient Expectations",
                 "desc": "Patients, particularly those managing chronic or complex conditions, expect real-time, personalized support. Traditional engagement models struggle to deliver scalable personalization without significantly increasing resource requirements."
             },
             {
-                "title": "Fragmented Data:",
+                "title": "Fragmented Data",
                 "desc": "Essential data such as patient records, prescription history, and treatment journeys are often siloed within different departments or platforms, delaying critical decisions and undermining care coordination."
             },
             {
-                "title": "Intensifying Regulatory and Cost Pressures:",
+                "title": "Intensifying Regulatory and Cost Pressures",
                 "desc": "With stricter regulations and rising operational expenses, pharma companies must improve efficiency, streamline workflows, and reduce costs, all while maintaining high standards of compliance and care."
             }
         ],
@@ -779,7 +780,7 @@
                 "desc": "SAP SuccessFactors integrates seamlessly with SAP S/4HANA and other ERP systems to align HR operations with broader business functions. For example:",
                 "list": [
                     {
-                        "title": "Payroll Accuracy",
+                        "title": "Payroll Accuracy ",
                         "desc": ": Integration ensures that employee salary data, tax codes, and deductions flow directly from SuccessFactors to the payroll system"
                     },
                     {
@@ -2168,7 +2169,7 @@
                 "list": [
                     {
                         "title": "Define Screening Scenarios",
-                        "desc": "Identify all third-party entities requiring screening. Examples include suppliers, logistics providers, and financial institutions involved in your supply chain."
+                        "desc": ": Identify all third-party entities requiring screening. Examples include suppliers, logistics providers, and financial institutions involved in your supply chain."
                     },
                     {
                         "title": "Upload sanctioned party list entries",
@@ -2909,7 +2910,7 @@
         "blogTopic": "Salesforce Agentforce",
         "blogTitle": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
         "blogMainData": "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.",
-        "blogMainDataLink": "Salesforce Agentforce ",
+        "blogMainDataLink": "Salesforce Agentforce",
         "blogMainData2": "provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
         "blogMainData3": "As the “brain” behind the agents, Atlas formulates a strategic plan based on the specific goal the agent is trying to achieve. It then evaluates and refines this plan, looping to gather additional data if necessary. When executing an action, it assesses which business process is most appropriate and ensures the right one is applied. It engages with the customer or employee through their preferred communication channel, delivering a more seamless and personalized experience. This dynamic adaptability enables Atlas to optimize interactions, driving efficiency and satisfaction in real-time continuously. Let’s dive into what makes Atlas’s new ways of reasoning and planning special.",
         "commonData": [
@@ -3075,7 +3076,7 @@
         "gettingLink": "Dreamforce",
         "gettingDesc2": "Businesses can leverage Agentforce within the Salesforce platform by automating sales workflows, enhancing lead management, and optimizing customer interactions. Rialtes specializes in",
         "gettingLink2": " AI and analytics solutions in Salesforce",
-        "gettingDesc3": ", and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance"
+        "gettingDesc3": "and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance their business processes."
     },
     "agriculture": {
         "blogTopic": "Green Technology",
@@ -3179,5 +3180,238 @@
         "moveDesc": "Agriculture is a market-driven industry that employs a large segment of the country’s population. Farming technology over the last few years has been enormously helpful in contributing more towards economic growth. Rialtes can assist you in implementing Agribusiness solutions from SAP that help Preserve soil fertility, prevent pollution, and protect biodiversity. We use SAP AI to automate manual tasks and check the status of crops using sensors.",
         "moveLink": "Reach out to us",
         "moveDesc2": " to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP."
+    },
+    "remagineEnterprise": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "How Salesforce Agentforce Actually Works",
+                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "28 Oct 2024",
+                "title": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
+                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
+                "description": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Human Resources",
+                "date": "24 Dec 2024",
+                "title": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
+                "description": "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Cloud Green Technology",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Human Resources",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Performance and Goal Management",
+                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "1. What is Agentic AI, in simple terms?",
+                "answer": [
+                    "Agentic AI refers to intelligent systems made up of autonomous agents that work together to achieve business goals. They don’t just follow instructions; they act on intent, make decisions, and adapt over time."
+                ]
+            },
+            {
+                "question": "2. How is Agentic AI different from traditional AI or automation?",
+                "answer": [
+                    "Traditional AI handles single tasks. Automation follows set rules. Agentic AI does more; it can coordinate across systems, respond to changing conditions, and continuously learn from outcomes. It’s dynamic, proactive, and scalable."
+                ]
+            },
+            {
+                "question": "3. What are the business benefits of using Agentic AI?",
+                "answer": [
+                    [
+                        "Higher productivity through 24/7 automation",
+                        "Smarter decisions from real-time learning",
+                        "Faster response times to business disruptions",
+                        "Lower operational costs by reducing manual work"
+                    ]
+                ]
+            },
+            {
+                "question": "4. Can you give real examples of how Agentic AI works?",
+                "answer": [
+                    [
+                        "Supply chain: An agent reroutes shipments when delays or weather disruptions are detected.",
+                        "HR: A digital agent monitors engagement and flags early signs of burnout.",
+                        "Finance: An agent reconciles invoices, flags fraud risks, and prepares audit summaries."
+                    ]
+                ]
+            },
+            {
+                "question": "5. Is Agentic AI only for large enterprises?",
+                "answer": [
+                    "Not at all. While the impact can be massive in large organizations, you can start small, automating a single process or department and scaling gradually. Agentic AI is modular and flexible."
+                ]
+            },
+            {
+                "question": "6. Are Agentic AI systems secure?",
+                "answer": [
+                    "They can be, if built right. At Rialtes, we design agentic systems with built-in governance, compliance, and role-based access. Security is baked in, not bolted on."
+                ]
+            },
+            {
+                "question": "7. Will Agentic AI replace human workers?",
+                "answer": [
+                    "No. It’s designed to handle repetitive, time-consuming tasks, freeing people up to focus on strategy, innovation, and high-value work. It’s about augmentation, not replacement."
+                ]
+            }
+        ],
+        "tableData": [
+            {
+                "label": "Purpose",
+                "genAI": "Creates content (text, images, code)",
+                "agentAI": "Takes actions, makes decisions"
+            },
+            {
+                "label": "Autonomy",
+                "genAI": "Reactive — responds to prompts",
+                "agentAI": "Proactive, acts on its own"
+            },
+            {
+                "label": "Memory",
+                "genAI": "Short-term",
+                "agentAI": "Long-term, learns continuously"
+            },
+            {
+                "label": "Use Cases",
+                "genAI": "Blog writing, design, and code suggestions",
+                "agentAI": "Workflow automation, strategic planning"
+            },
+            {
+                "label": "Role in Business",
+                "genAI": "Tool or assistant",
+                "agentAI": "Orchestrator of operations"
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Higher Productivity",
+                "description": "Digital agents don’t clock out. They operate 24/7, managing approvals, answering questions, resolving issues, and keeping workflows in motion, even when your team is offline. This always-on support eliminates bottlenecks and speeds up routine tasks."
+            },
+            {
+                "title": "Smarter Decisions",
+                "description": "These agents analyze real-time data and learn from every outcome. The more they interact with your systems, the better they get at making accurate, context-aware decisions, whether it’s spotting anomalies or improving how tasks are routed."
+            },
+            {
+                "title": "Faster Time to Action",
+                "description": "When a lead goes cold, an order gets stuck, or a delay hits your supply chain, agents don’t wait. They act immediately, either resolving the issue autonomously or escalating it to the right person before it becomes a bigger problem."
+            },
+            {
+                "title": "Lower Operational Costs",
+                "description": "By streamlining workflows and optimizing how resources are used, Agentic AI cuts down on manual labor and reduces waste. You get more done with fewer resources, while freeing your people to focus on high-value work."
+            },
+            {
+                "title": "Scalable Intelligence",
+                "description": "Whether you deploy one agent or a hundred, they scale effortlessly. You can start small, say with onboarding automation and expand across departments as your needs grow, all without overhauling your entire infrastructure."
+            },
+            {
+                "title": "Cross-Team Collaboration",
+                "description": "Agents aren’t limited to one department. They can move across HR, finance, procurement, and customer support. They connect the dots, reducing handoff delays and creating a unified, intelligent workflow across teams."
+            },
+            {
+                "title": "Built-in Learning",
+                "description": "These systems evolve with every interaction, making them sharper. So over time, your agents not only maintain processes but improve them, adapting to changing priorities and business goals."
+            }
+        ],
+        "blogTopic": "Artificial Intelligence",
+        "blogTitle": "Reimagine Enterprise Using Agentic AI Systems",
+        "manufacturingTitle": "Manufacturing Has a Customer Experience Problem",
+        "manufacturingDesc": "The way humans interact with AI is evolving. From isolated tools that do one thing well to intelligent agents that can plan trips, monitor logistics, assist the elderly, or manage inventory across global supply chains. That’s the world of agentic AI.",
+        "manufacturingDesc2": "Agentic AI isn’t just a step up—it’s a shift. Businesses using it see 2.4x higher productivity and 2.5x faster revenue growth. These systems use autonomous agents to reduce costs, speed up decision-making, and eliminate routine work. They collaborate, learn, and act on their own, helping companies move faster and scale smarter.",
+        "agenticAiTitle": "What Is Agentic AI? From AI Tools to Intelligent Teammates",
+        "agenticAiDesc": "Agentic AI is built on intelligent, self-directed agents that work together to optimize complex processes. Unlike traditional AI, which handles one task at a time, agentic AI systems coordinate across roles, functions, and data streams to meet business goals autonomously.",
+        "agenticAiDesc2": "What makes it different:",
+        "agenticData": [
+            {
+                "title": "Coordination, not isolation:",
+                "desc": "Coordination, not isolation: Agents talk to each other and learn collectively."
+            },
+            {
+                "title": "Smart Routing:",
+                "desc": "Once triaged, agents match the case with the best available support rep, factoring in skill sets, location, workload, and customer SLAs. High-value clients or urgent issues are flagged for rapid resolution. Repeat issues are routed directly to specialists without human intervention."
+            },
+            {
+                "title": "Goal-driven intelligence:",
+                "desc": "Each agent is aligned to specific KPIs—customer satisfaction, uptime, revenue, etc."
+            },
+            {
+                "title": "Always adapting:",
+                "desc": "These agents learn from every interaction and evolve as your business grows."
+            }
+        ],
+        "agenticAiDesc3": " While tools like ChatGPT focus on generating content, agentic AI focuses on decision-making and action. It can pull data, execute tasks, and trigger complex workflows with minimal input.",
+        "howEnterpriseTitle": "How Enterprises Use Agentic AI to Combine Autonomy with Business Logic",
+        "howEnterpriseDesc": "Agentic AI is helping companies automate smarter. They act on intent, respond in real time, and learn as they go, turning routine tasks into intelligent workflows and making your operations feel less mechanical and more instinctive.",
+        "keyTitle": "Key Benefits:",
+        "agenticAiGenTitle": "Agentic AI vs Generative AI: What’s the Difference?",
+        "agenticAiGenDesc": "Both are part of the AI family, but they serve very different roles.",
+        "tableTitle": "Generative AI",
+        "tableTitle2": "Agentic AI",
+        "agenticAiGenDesc2": "Think of generative AI as a creative partner. Agentic AI is your operations manager—anticipating, adjusting, and acting",
+        "aiThinksTitle": "AI That Thinks Beyond the Factory Floor",
+        "aiThinksDesc": "Agentic AI redefines what operational excellence looks like by combining real-time precision with enterprise-grade speed and scale. These intelligent agents go far beyond traditional automation, proactively executing tasks, monitoring processes, detecting inefficiencies, and reconfiguring workflows, all without human intervention.",
+        "aiThinksDesc2": "Here’s what that looks like in action:",
+        "aiThinksData": [
+            {
+                "title": "Supply Chain Agents",
+                "desc": "Imagine a digital agent that doesn’t just track inventory levels, it anticipates demand spikes based on real-time sales data, supplier delays, or even weather disruptions. When it detects a risk, it proactively reroutes deliveries, updates expected timelines, and notifies the relevant teams, all before the issue affects your customers. That’s not automation for the sake of efficiency; that’s intelligent, preventative action."
+            },
+            {
+                "title": "HR Agents",
+                "desc": "In a hybrid work environment, employee experience can slip through the cracks. A smart HR agent continuously monitors engagement metrics like survey feedback, absenteeism trends, or productivity dips and recommends timely interventions. It might suggest learning modules, wellness resources, or trigger a check-in from a manager. The result? A more personalized, responsive HR function that acts before disengagement becomes attrition."
+            },
+            {
+                "title": "Finance Agents",
+                "desc": "Financial operations are often buried in spreadsheets and siloed systems. An agent trained on invoice patterns can reconcile documents automatically, flag irregularities that signal fraud or error, and even prepare month-end summaries. These agents not only reduce manual effort but also maintain continuous audit readiness, helping finance teams."
+            }
+        ],
+        "aiThinksDesc3": "And here’s the bigger picture:",
+        "aiThinksDesc4": "These agents don’t operate in silos. The supply chain agent can inform the finance agent about incoming costs. The HR agent can signal a spike in overtime, prompting operational adjustments elsewhere. Each agent learns from the system and contributes to it, aligning actions to overarching business goals. Over time, they form a responsive, interconnected layer of intelligence that adapts to change, scales with complexity, and makes the enterprise smarter with every interaction.",
+        "humansTitle": "Humans and Agents: A Smarter Partnership",
+        "humansData": [
+            "Agentic AI isn’t replacing humans. It’s amplifying what we do best - strategize, empathize, innovate.",
+            "The future lies in collaboration: humans define the vision, and agents take care of the execution. When that balance works, businesses unlock real efficiency and creativity. At Rialtes, we make this transformation real. We help enterprises deploy agentic systems that are secure, scalable, and purpose-built for results. Our digital thread portfolio weaves AI across engineering, operations, and service, backed by partnerships with the best in the industry.",
+            "Now’s the time. Agentic AI isn’t just a tech upgrade; it’s a mindset shift. Waiting means falling behind. Let’s talk about how to make your enterprise truly intelligent."
+        ],
+        "faqTitle": "Frequently Asked Questions (FAQs)"
+    },
+    "factoryToFeedback":{
+        
     }
 }
