@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
-import Seo from "@/app/components/Seo";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import ContactForm from "@/app/components/contactform";
-import LearnMore from "@/app/components/learnMore";
-import UnorderedList from "@/app/components/unorderedList";
+import ContactForm from "@/app/[locale]/components/contactform";
+import LearnMore from "@/app/[locale]/components/learnMore";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Product",

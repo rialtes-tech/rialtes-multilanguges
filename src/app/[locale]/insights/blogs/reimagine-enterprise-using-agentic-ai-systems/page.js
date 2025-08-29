@@ -3,9 +3,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
-import Seo from "@/app/components/Seo";
 import Script from "next/script";
-import FAQAccordion from "@/app/components/faqAccordion";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import Seo from "@/app/[locale]/components/Seo";
 
 const schemaData = {
 
@@ -290,17 +290,17 @@ export default function Page() {
 
     return (
         <div className="min-h-screen bg-white">
-            {/* <Seo
+             <Seo
                 title=""
                 description=""
                 canonical={"  https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"}
-            />
+            /> 
 
             <Script
                 id="schema-discover"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            /> */}
+            /> 
             <section className="relative  h-[350px] md:h-[400px]  4xl:h-[600px] 2xl:h-[500px]">
                 {/* Desktop Image */}
                 <div className="hidden md:block">

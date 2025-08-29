@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
-import Seo from "@/app/components/Seo";
 import Script from "next/script";
-import UnorderedList from "@/app/components/unorderedList";
+import UnorderedList from "../../../../[locale]/components/unorderedList";
+import Seo from "@/app/[locale]/components/Seo";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",

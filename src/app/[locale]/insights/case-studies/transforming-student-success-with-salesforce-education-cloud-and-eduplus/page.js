@@ -1,8 +1,7 @@
 "use client";
 import Image from "next/image";
 import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
-import Seo from "@/app/components/Seo";
-import ContactForm from "@/app/components/contactform";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 const schemaData = {
       "@context": "https://schema.org",

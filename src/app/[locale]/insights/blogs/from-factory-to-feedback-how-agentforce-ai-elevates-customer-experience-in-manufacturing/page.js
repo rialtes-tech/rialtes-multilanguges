@@ -3,9 +3,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
-import Seo from "@/app/components/Seo";
 import Script from "next/script";
-import FAQAccordion from "@/app/components/faqAccordion";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import Seo from "@/app/[locale]/components/Seo";
 
 const schemaData = {
     "@context": "https://schema.org",
