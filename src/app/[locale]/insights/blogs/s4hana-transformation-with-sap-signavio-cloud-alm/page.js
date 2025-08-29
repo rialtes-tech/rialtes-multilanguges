@@ -384,10 +384,10 @@ export default function Page() {
                                 <ul className="list-disc marker:text-black marker:text-xl text-black 4xl:pr-0 xl:pr-0 mt-2 space-y-3  font-medium pl-[34px]">
                                     {whatDoesData.map((data, ind) => (
                                         <li key={ind}>
-                                            <h4 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">
+                                            <h3 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">
                                                 {data.title
                                                 }
-                                            </h4><br />
+                                            </h3><br />
                                             <p className="mt-2 4xl:text-[20px] xl:text-[17px] text-[16px]"
                                                 dangerouslySetInnerHTML={{
                                                     __html: data.desc
@@ -407,7 +407,7 @@ export default function Page() {
                                     {
                                         goverenanceData.map((data, ind) => {
                                             return (
-                                                <li key={ind}><h4 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{data.title}</h4>
+                                                <li key={ind}><h3 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{data.title}</h3>
                                                     <UnorderedList arrName={data.list} ulClassName="list-[circle] pl-[34px] mt-3 space-y-2" liClassName="4xl:text-[20px] xl:text-[17px] text-[16px]" />
                                                 </li>
                                             )
@@ -418,14 +418,14 @@ export default function Page() {
                             </div>
 
                             <div>
-                                <h2 className="font-semibold mt-10 text-black 2xl:text-[24px] 4xl:text-[32px] xl:text-[26px] text-[24px] pr-10 4xl:pr-0 xl:pr-0">Traceability to Connect Processes to System Realization</h2>
+                                <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[32px] xl:text-[26px] text-[24px] pr-10 4xl:pr-0 xl:pr-0">Traceability to Connect Processes to System Realization</h2>
                                 <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">A successful transformation demands full traceability—from the high-level business vision down to the configured transaction in S/4HANA.</p>
 
                                 <ul className="list-disc marker:text-black marker:text-xl text-black 4xl:pr-0 xl:pr-0 mt-3 space-y-3 text-[16px] xl:text-[17px] 4xl:text-[20px] font-medium pl-[34px]">
                                     {
                                         traceabilityData.map((data, ind) => {
                                             return (
-                                                <li key={ind}><h4 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{data.title}</h4>
+                                                <li key={ind}><h3 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{data.title}</h3>
                                                     {" "} {data.desc}
                                                 </li>
                                             )
@@ -450,7 +450,7 @@ export default function Page() {
                                     {
                                         lifecycleData.map((data, ind) => {
                                             return (
-                                                <li key={ind}><h4 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{data.title}</h4>
+                                                <li key={ind}><h3 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{data.title}</h3>
                                                     <UnorderedList arrName={data.list} ulClassName="list-[circle] pl-[32px] space-y-2 mt-2" liClassName="4xl:text-[20px] xl:text-[17px] text-[16px]" />
                                                 </li>
                                             )
