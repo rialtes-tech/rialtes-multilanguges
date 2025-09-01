@@ -408,15 +408,15 @@ export default function InsightsPage() {
                 <div className=" p-6 xl:p-12 max-w-2xl">
                   <div className="flex flex-row items-center mb-3">
                     <span className="text-[#0092E0]">
-                      Automotive
+                       {t('education')} 
                     </span>
                     <span className="mx-2">|</span>
                     <span className="text-sm">{t('leadingDate')}</span>
                   </div>
-                  <h3 className="mb-3">
+                  <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px] leading-tight">
                     {t('leadingTitle')}
                   </h3>
-                  <p>
+                  <p className="4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
                     {t('leadingblog')}
                   </p>
                 </div>
@@ -462,7 +462,7 @@ export default function InsightsPage() {
                       <span className="mx-2">|</span>
                       <span className="text-sm">{study.date}</span>
                     </div>
-                    <h3 className="mb-2  4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px] leading-tight">{study.title}</h3>
+                    <h3 className="mb-2 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px] leading-tight">{study.title}</h3>
                     <p className="4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">{study.description}</p>
                   </div>
                 </div>

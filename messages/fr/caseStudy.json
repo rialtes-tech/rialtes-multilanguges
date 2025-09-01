@@ -1628,5 +1628,159 @@
                 "url": "insights/case-studies/realForce-banking-module-ach"
             }
         ]
+    },
+    "eduplusCaseStudy": {
+  "educationcloud": "Education Cloud",
+  "date": "21 août 2025",
+  "eduTitle": "Transformer la réussite des étudiants avec Salesforce Education Cloud et Edu+",
+ "clientTitle": "Aperçu du Client",
+  "cliendDesc": "Une université privée de premier plan en Amérique du Nord avec plus de 25 000 étudiants et plusieurs programmes académiques couvrant les divisions de premier cycle, de cycles supérieurs et d'éducation continue. L'institution faisait face à des défis dans la gestion de l'engagement étudiant, le suivi des inscriptions, la résolution des cas et la fourniture d'une vue unifiée de son écosystème académique.",
+  "challengesTitle": "Défi",
+  "challengesDesc": "Expérience Étudiante Fragmentée & Opérations Manuelles",
+  "challengesOne": "L’université fonctionnait avec des systèmes cloisonnés pour les admissions, les services aux étudiants, le conseil académique et l'engagement des anciens. Les principaux défis incluaient :",
+  "challengesTwo": "La direction avait besoin d'une plateforme numérique robuste pour améliorer les processus d'inscription, l'engagement des étudiants et la gestion des cas tout au long du cycle académique.",
+  "solutionTitle": "Solution",
+  "solutionDesc": "Mise en œuvre de Edu+ de Rialtes sur Salesforce Education Cloud",
+  "solutionOne": "Rialtes, en s’appuyant sur son service spécialisé Edu+, a mis en œuvre Salesforce Education Cloud intégré à Agentforce (assistant basé sur l’IA) et Salesforce Data Cloud pour des analyses en temps réel et une vision à 360° des étudiants.",
+  "highlights": "Points Forts de la Mise en Œuvre",
+  "keyTitle": "Fonctionnalités Clés Livrées avec Edu+",
+  "impactTitle": "Résultats & Impact Business",
+  "impactDesc": "Après le déploiement de Salesforce Education Cloud alimenté par Edu+, l'université a constaté des améliorations mesurables au cours des deux premiers semestres académiques :",
+  "resultsTitle": "Résultats Quantitatifs",
+  "benefits": "Bénéfices Qualitatifs",
+  "about": "À propos de Edu+ par Rialtes",
+  "aboutDesc": "Edu+ est le cadre de conseil et de mise en œuvre dédié de Rialtes, conçu pour les institutions éducatives. Il réunit Salesforce Education Cloud, l'IA/automatisation (Agentforce) et l'intégration des données (Data Cloud) pour offrir :",
+  "aboutList": [
+    "Un délai de mise en valeur plus rapide",
+    "Des modèles d’objets et des flux de travail alignés sur l’industrie",
+    "Des campus numériques évolutifs et prêts pour l’avenir"
+  ],
+  "eduBenefits": [
+    "Des étudiants autonomisés avec des expériences personnalisées et une orientation proactive",
+    "Réduction de la charge administrative pour les équipes d'admissions et des affaires étudiantes",
+    "Collaboration en temps réel entre les départements académiques",
+    "Fourniture à la direction d’informations exploitables pour la stratégie d’inscription et la rétention des étudiants"
+  ],
+  "eduSolutions": [
+    "Salesforce Education Cloud avec des objets principaux tels que Étudiants, Professeurs, Conseillers, Classes, Cours et Cas",
+    "Assistant IA Agentforce pour gérer les FAQ, les demandes d'inscription et les interactions de support via une interface conversationnelle",
+    "Intégration avec Salesforce Data Cloud pour unifier les données à travers SIS, LMS, e-mail et plateformes d'admissions pour un engagement prédictif",
+    "Flux de travail de conseil personnalisés et automatisation de la gestion des cas pour le soutien académique et la vie étudiante",
+    "Tableaux de bord personnalisés et cartes de parcours pour chaque étudiant, professeur et programme"
+  ],
+  "studentChallenges": [
+    "Absence d’un profil étudiant unifié et d’un historique centralisé des interactions",
+    "Flux de travail d’inscription manuels avec une visibilité en temps réel limitée",
+    "Gestion incohérente des cas pour les services aux étudiants et le conseil académique",
+    "Incapacité à suivre les relations étudiant-professeur-classe de manière évolutive"
+  ],
+  "slides": [
+    {
+      "id": 3,
+      "image": "/images/case-studies/case study 1_thumb_n.webp",
+      "category": "Santé",
+      "industry": "Immobilier",
+      "date": "17 nov. 2024",
+      "title": "Automatisation du traitement des commandes dans le secteur de la santé avec MuleSoft",
+      "description": "Une entreprise mondiale de technologies médicales qui développe et fabrique des produits innovants",
+      "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+    },
+    {
+      "id": 4,
+      "image": "/images/case-studies/case-study-4_thumb.webp",
+      "category": "Fabrication",
+      "industry": "Santé",
+      "date": "14 oct. 2024",
+      "title": "Transformation de la gestion omnicanale des cas avec Salesforce Service Cloud",
+      "description": "Un fournisseur leader de semi-conducteurs analogiques haute performance pour la connectivité sans fil et filaire.",
+      "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+    },
+    {
+      "id": 6,
+      "image": "/images/case-studies/case-study-6_thumb.webp",
+      "category": "Immobilier",
+      "industry": "Fabrication",
+      "date": "04 sept. 2024",
+      "title": "Réduction des temps d’arrêt pour une société immobilière multifamiliale grâce aux services gérés Yardi",
+      "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l’investissement dans des propriétés multifamiliales.",
+      "url": "insights/case-studies/yardi-managed-services"
+    },
+    {
+      "id": 7,
+      "image": "/images/case-studies/case study 3_thumb_n.webp",
+      "category": "Fabrication",
+      "industry": "Commerce de détail et e-Commerce",
+      "date": "08 janv. 2025",
+      "title": "Transformation DevOps avec Copado et Salesforce",
+      "description": "Un fabricant de premier plan spécialisé dans la création de matériaux innovants pour les projets de construction résidentielle et commerciale.",
+      "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+    },
+    {
+      "id": 8,
+      "image": "/images/case-studies/case-study-2_thumb_n.webp",
+      "category": "Immobilier",
+      "industry": "Haute technologie",
+      "date": "22 déc. 2024",
+      "title": "Automatisation des virements ACH et des écritures comptables avec notre module bancaire Exelona",
+      "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l’investissement dans des propriétés multifamiliales.",
+      "url": "insights/case-studies/realForce-banking-module-ach"
     }
+  ],
+  "eduPlusFeatures": [
+    {
+      "icon": "/images/case-studies/folder_13684196.svg",
+      "title": "Profil étudiant unifié",
+      "description": "Un seul enregistrement pour les admissions, les inscriptions, le conseil et les anciens élèves"
+    },
+    {
+      "icon": "/images/case-studies/computer_11981853.svg",
+      "title": "Profils des enseignants et du personnel",
+      "description": "Profils dédiés avec affectations de cours, disponibilités et outils de communication"
+    },
+    {
+      "icon": "/images/case-studies/artificial-intelligence_17092469.svg",
+      "title": "Gestion des cours et programmes",
+      "description": "Modèles d’objets pour les cours, inscriptions, horaires et parcours diplômants"
+    },
+    {
+      "icon": "/images/case-studies/data-analytics_9948626.svg",
+      "title": "Analyse prédictive des inscriptions",
+      "description": "Insights de Data Cloud pour les tendances de candidature, les abandons et les prévisions de rendement"
+    },
+    {
+      "icon": "/images/case-studies/_x31_3.svg",
+      "title": "Gestion automatisée des cas",
+      "description": "Portail centralisé pour le suivi des problèmes étudiants, tickets de support et délais de résolution"
+    },
+    {
+      "icon": "/images/case-studies/Layer 32 copy 11.svg",
+      "title": "Intégration Agentforce",
+      "description": "Assistant IA disponible 24h/24 et 7j/7, incluant FAQ, dates limites, disponibilité des cours, etc."
+    }
+  ],
+
+  "quantitativeResults": [
+    {
+      "value": "22%",
+      "description": "Augmentation du taux de conversion des candidatures en inscriptions"
+    },
+    {
+      "value": "35%",
+      "description": "Résolution plus rapide des cas de support étudiant"
+    },
+    {
+      "value": "100%",
+      "description": "Adoption des portails en libre-service par les étudiants et le corps professoral"
+    },
+    {
+      "value": "20%",
+      "description": "Amélioration de l’engagement dans le conseil académique"
+    },
+    {
+      "value": "360°",
+      "description": "Visibilité complète sur le parcours des étudiants tout au long de leur cycle académique"
+    }
+  ]
+}
+
 }
