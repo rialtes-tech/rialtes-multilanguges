@@ -278,7 +278,7 @@ const Home = () => {
             <section>
                 <div className="custom-container grid lg:grid-cols-2 lg:mt-[182px] mt-[97px] lg:h-[850px]">
                     {/* mob section */}
-                    <div ref={refs[2]} className={`transition-all duration-1000 ease-out transform xl:pl-[68px] block lg:hidden mb-[23px] w-[90%] ${inViews[2] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
+                    <div ref={refs[2]} className={`transition-all duration-1000 ease-out transform xl:pl-[68px] block lg:hidden mb-[23px] w-[90%] ${inViews[2] ? "opacity-100 translate-y-0" : "translate-y-12"}`}>
                         <h2 className="leading-tight 4xl:text-[48px] xl:text-[42px] text-[32px] font-bold text-[#073259]">{t('insightTitle')} </h2>
                         <p className="mt-6 xl:mt-10 text-[16px] 2xl:w-[70%] 4xl:text-[20px] xl:text-[18px] sm:w-[70%] mb-10">{t('insightDesc')} </p>
                     </div>
@@ -313,7 +313,7 @@ const Home = () => {
                     <div className="h-full flex flex-col justify-between pt-0">
                         <div
                             ref={refs[2]}
-                            className={`transition-all duration-1000 ease-out transform lg:pl-[68px] lg:block hidden ${inViews[2] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
+                            className={`transition-all duration-1000 ease-out transform lg:pl-[68px] lg:block hidden ${inViews[2] ? "opacity-100 translate-y-0" : "translate-y-12"}`}>
                             <h2 className="leading-tight 4xl:text-[48px] xl:text-[42px] text-[32px] font-bold text-[#073259]">
                                 {t('insightTitle')}
                             </h2>

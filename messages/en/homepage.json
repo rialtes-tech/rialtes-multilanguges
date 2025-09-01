@@ -22,7 +22,7 @@
       {
         "title": "Blogs",
         "description": "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
-        "image": "/images/blog/blog-8.webp",
+        "image": "/images/blog/blog-88.webp",
         "link": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
       },
       {
@@ -53,28 +53,28 @@
     "successStoryData": [
       {
         "id": 1,
-        "imageUrl": "/images/homepage/stremline.webp",
+        "imageUrl": "/images/homepage/stremline_with_bgc.webp",
         "title": "Manufacturing",
         "description": "Streamlined DevOps using Copado and Salesforce",
         "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
       },
       {
         "id": 2,
-        "imageUrl": "/images/homepage/salesforce.webp",
+        "imageUrl": "/images/homepage/salesforce_with_bgc.webp",
         "title": "Healthcare",
         "description": "Salesforce Health Cloud, Prior Authorization",
         "url": "insights/case-studies/salesforce-health-cloud-prior-authorization"
       },
       {
         "id": 3,
-        "imageUrl": "/images/homepage/mfg-2.webp",
+        "imageUrl": "/images/homepage/mfg-2_with_bgc.webp",
         "title": "Manufacturing",
         "description": "Omnichannel case management with Salesforce Service Cloud",
         "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
       },
       {
         "id": 4,
-        "imageUrl": "/images/homepage/public-sector-3.webp",
+        "imageUrl": "/images/homepage/public-sector-3_with_bgc.webp",
         "title": "Public Sector",
         "description": "YARDI Transformation Journey with North America's Largest PHA",
         "theme": "light",
@@ -82,21 +82,21 @@
       },
       {
         "id": 5,
-        "imageUrl": "/images/homepage/healthcare-2.webp",
+        "imageUrl": "/images/homepage/healthcare-22.webp",
         "title": "Healthcare",
         "description": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
         "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
       },
       {
         "id": 6,
-        "imageUrl": "/images/homepage/mfg-3.webp",
+        "imageUrl": "/images/homepage/mfg-3_with_bgc.webp",
         "title": "Manufacturing",
         "description": "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
         "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
       },
       {
         "id": 7,
-        "imageUrl": "/images/homepage/realestate-3.webp",
+        "imageUrl": "/images/homepage/realestate-3_with_bgc.webp",
         "title": "Real Estate",
         "description": "Automating ACH and Journal Entries with Our Exelona Banking Module",
         "url": "insights/case-studies/realForce-banking-module-ach",
@@ -104,7 +104,7 @@
       },
       {
         "id": 8,
-        "imageUrl": "/images/homepage/healthcareImg.webp",
+        "imageUrl": "/images/homepage/healthcareImg-new.webp",
         "title": "Healthcare",
         "description": "Digitizing patient journey using Salesforce health cloud",
         "url": "insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
