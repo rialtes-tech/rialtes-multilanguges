@@ -3917,5 +3917,150 @@
         "futureTitle": "Prepara tu Agente de IA para el Futuro y Renueva la Experiencia del Cliente",
         "futureDesc": "Vimos que construir un agente de IA con Agentforce es un proceso sencillo que permite a las empresas utilizar la automatización impulsada por IA. Con Agentforce Agent Builder, cualquier usuario puede crear agentes usando consultas en lenguaje natural. Para garantizar el éxito a largo plazo, actualiza continuamente tu agente de IA con nuevos conjuntos de datos para una mayor precisión, integraciones mejoradas con tecnologías emergentes y auditorías regulares para mantener el cumplimiento y la seguridad. Sin embargo, el despliegue exitoso también requiere una infraestructura tecnológica integrada para que los agentes accedan a datos actualizados y funcionen eficazmente.",
         "futureDesc2": "Rialtes ayuda a las empresas a adoptar fácilmente agentes de IA usando Agentforce. Proporcionamos personalización y despliegue para satisfacer tus necesidades, mejorando el servicio al cliente y optimizando operaciones para una transición fluida hacia el mundo impulsado por la IA."
+    },
+    "aiThatListens": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Cómo funciona realmente Salesforce Agentforce",
+                "description": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando terreno, especialmente en organizaciones que gestionan grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio de campo."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "21 Oct 2024",
+                "title": "El cerebro detrás de los agentes: revelando el Atlas Reasoning Engine en Agentforce",
+                "description": "A medida que las empresas crecen, la complejidad de gestionar las interacciones con los clientes se multiplica, lo que impulsa la necesidad de sistemas de soporte más inteligentes y eficientes. Salesforce Agentforce ofrece una sólida plataforma de automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Genérico",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center: redefiniendo las pruebas de IA con datos sintéticos",
+                "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA agentica, Agentforce. Esta adición permite a los usuarios empresariales probar y monitorear agentes de IA antes de implementarlos en producción."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "24 Dec 2024",
+                "title": "Cómo integrar SAP SuccessFactors con Microsoft Office 365 para una mejor colaboración",
+                "description": "La integración fluida entre aplicaciones empresariales ofrece una mayor colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder en gestión de la experiencia humana (HXM) y una sólida suite de herramientas de productividad."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Tecnología Verde en la Nube",
+                "industry": "Agricultura",
+                "date": "17 Sept 2024",
+                "title": "Agricultura 4.0. ¿Cómo transforman las tecnologías digitales la agricultura para un mejor mañana?",
+                "description": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Recursos Humanos",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors: gestión del desempeño y objetivos",
+                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que comparte todo tu equipo. Cuando la estrategia de tu equipo se alinea con sus objetivos y los de la organización en general, hacer lo correcto se vuelve instintivo."
+            }
+        ],
+        "LLMarchData": [
+            {
+                "title": "Modelos solo codificadores ",
+                "desc": "como BERT son excelentes para comprender entradas (usados para análisis de sentimientos, clasificación, etc.)."
+            },
+            {
+                "title": "Modelos solo decodificadores ",
+                "desc": "como GPT están optimizados para generar texto y completar oraciones."
+            },
+            {
+                "title": "Modelos codificador-decodificador ",
+                "desc": "combinan ambas capacidades para tareas como traducción y resumen."
+            }
+        ],
+        "howLLMsData": [
+            {
+                "title": "Conversaciones más inteligentes con conciencia de contexto",
+                "desc": "A diferencia de los bots basados en reglas, los LLM pueden interpretar el porqué detrás del qué. Entienden jerga, tono, sentimiento e incluso sarcasmo. Así, si un cliente dice: “Ya he contactado con soporte tres veces”, un LLM no solo ofrecerá un FAQ: reconocerá la frustración y escalará el problema con el tono adecuado."
+            },
+            {
+                "title": "Respuestas personalizadas y basadas en datos",
+                "desc": "Los LLM pueden escanear datos del CRM, historial de pedidos e interacciones pasadas para ofrecer respuestas adaptadas. Esto significa que las recomendaciones de productos son relevantes, no aleatorias. Los seguimientos son reflexivos, no plantillas. Y el soporte se vuelve proactivo, no reactivo."
+            },
+            {
+                "title": "Presencia omnicanal 24/7",
+                "desc": "A los clientes no les importa dónde se conecten: puede ser chat, voz, correo electrónico o redes sociales. Esperan las mismas respuestas rápidas e inteligentes. Los LLM ofrecen interacciones consistentes y humanas en todos los canales, 24/7."
+            },
+            {
+                "title": "Soporte multilingüe integrado",
+                "desc": "Los LLM con capacidades de traducción rompen barreras lingüísticas. Ya sea que tu cliente hable inglés, español, hindi o francés, el bot puede entender y responder en su idioma nativo al instante."
+            },
+            {
+                "title": "Información en tiempo real para una mejor experiencia del cliente",
+                "desc": "Los LLM pueden analizar miles de reseñas, registros de chat y encuestas para extraer sentimientos, tendencias y posibles problemas. Eso significa ciclos de retroalimentación de productos más rápidos, mejor segmentación de campañas y detección temprana de problemas."
+            },
+            {
+                "title": "Incorporación y soporte más rápidos para agentes humanos",
+                "desc": "Los nuevos agentes de soporte pueden usar LLMs como copilotos: hacer preguntas, consultar documentos de políticas y aprender sobre la marcha. Esto reduce el tiempo de capacitación y mejora la resolución en el primer contacto."
+            }
+        ],
+        "voiceSearchExample": [
+            "“¿Qué es un modelo de lenguaje grande y cómo funciona?”",
+            "“¿En qué se diferencian los chatbots de IA de los bots tradicionales?”",
+            "“¿Puede la IA personalizar el servicio al cliente?”",
+            "“¿Cómo ayuda la IA generativa con el soporte multilingüe?”",
+            "“¿Cuáles son los beneficios de los LLM en la experiencia del cliente?”",
+            "“¿Por qué los LLM son mejores que los bots basados en reglas?”",
+            "“¿Cómo puedo usar LLM en mi negocio para el soporte al cliente?”"
+        ],
+        "askingData": [
+            "“¿Mi chatbot está cumpliendo con las expectativas de los clientes?”",
+            "“¿Puede la IA hacer que mi equipo de soporte sea más rápido e inteligente?”",
+            "“¿Cómo escalar la personalización sin aumentar los costos?”"
+        ],
+        "voiceSearchData": [
+            "La mayoría de las personas no escribe como habla. Cuando alguien usa la búsqueda por voz, no dice “beneficios LLM CX”: pregunta en oraciones completas como “¿Cuáles son los beneficios de los modelos de lenguaje grande en el servicio al cliente?”. Ese cambio importa.",
+            "Por eso este blog está escrito no solo para pantallas, sino también para voz. Responde a las preguntas en lenguaje natural que la gente realmente hace a sus teléfonos, altavoces inteligentes o tableros de autos. Y lo hace con un tono conversacional y fácil de seguir.",
+            "Aquí hay ejemplos de consultas de búsqueda por voz para las que este blog está optimizado:"
+        ],
+        "fromChatbotsData": [
+            "¿Sigues confiando en chatbots basados en reglas? Esa es tecnología del pasado. Siguen guiones, pierden contexto y a menudo frustran más de lo que ayudan. Los Modelos de Lenguaje Grande (LLMs), en cambio, están diseñados para comprender matices. Escuchan, aprenden y se adaptan.",
+            "Los LLM convierten puntos de contacto fragmentados con clientes en conversaciones fluidas y humanas. Captan el tono, recuerdan el historial y ajustan los mensajes en tiempo real. Por eso más líderes de CX están dejando atrás la automatización rígida en favor de IA conversacional, basada en datos y emocionalmente inteligente.",
+            "Si te preguntas:"
+        ],
+        "blogTopic": "Inteligencia Artificial",
+        "blogTitle": "IA que escucha, aprende y ofrece: cómo los modelos de lenguaje grande están transformando la experiencia del cliente",
+        "mainData": "Una gran experiencia del cliente comienza con una gran escucha. Pero no solo hablamos de oír las palabras; se trata de entender la intención, la emoción, el contexto y el historial. Ahí es donde fallan los modelos tradicionales, y donde entran en juego los Modelos de Lenguaje Grande (LLMs).",
+        "mainData2": "Los LLM, impulsados por la IA generativa, están redefiniendo cómo las empresas escuchan y responden. Van más allá de la automatización. Hacen posible una conversación real.",
+        "mainData3": "En esta guía, explicaremos qué son los LLM, cómo funcionan y qué los hace tan efectivos para transformar la experiencia del cliente (CX). También verás por qué se están volviendo esenciales para las empresas que quieren mantenerse competitivas, receptivas y humanas, incluso a medida que escalan.",
+        "llmTitle": "¿Qué es un modelo de lenguaje grande (LLM) y cómo funciona?",
+        "llmDesc": "Los Modelos de Lenguaje Grande (LLM) son avanzados",
+        "llmStrongDesc": "sistemas de IA agéntica",
+        "llmDesc2": "entrenados con enormes cantidades de datos de texto para comprender y generar lenguaje natural. Están construidos con una arquitectura de red neuronal llamada transformers, que les ayuda a captar gramática, significado y contexto.",
+        "llmArchTitle": "Existen tres tipos de arquitecturas de LLM:",
+        "llmArchDesc": "Un ejemplo destacado es GPT-3 de OpenAI, con 175 mil millones de parámetros. Puede responder preguntas, resumir información e incluso mantener conversaciones con contexto, lo que lo convierte en una opción perfecta para soporte al cliente, chatbots, asistentes virtuales y más.",
+        "llmChangingTitle": "¿Cómo están cambiando los LLM el juego de la experiencia del cliente?",
+        "voiceSearchTitle": "Optimización para búsqueda por voz: cómo piden ayuda los clientes",
+        "voiceSearchDesc": "Ya sea que alguien esté navegando en su escritorio o preguntando a Siri en movimiento, las respuestas están estructuradas para ser claras, relevantes y adecuadas para la voz. Eso aumenta la visibilidad, especialmente a medida que más investigaciones B2B se hacen en dispositivos de voz primero.",
+        "voiceSearchDesc2": "Así, en lugar de esperar que tu contenido sea encontrado, lo construyes para que lo encuentren—ya sean humanos, algoritmos o cualquier cosa en medio.",
+        "fromChatbotTitle": "De los chatbots a la IA conversacional: ¿por qué es hora de actualizarse?",
+        "fromChatbotDesc": "Es hora de mirar a los LLM. Consulta nuestro blog sobre",
+        "fromChatbotStrongDesc": "Cómo construir agentes de IA",
+        "fromChatbotDesc2": "para aprender cómo las empresas están implementando agentes potenciados por LLM usando Agentforce. Te mostramos ejemplos reales y una guía paso a paso para comenzar.",
+        "readyTitle": "¿Listo para mejorar la CX con LLMs? Deja que Rialtes te ayude.",
+        "readyDesc": "En Rialtes, trabajamos con empresas para integrar LLM directamente en su stack de servicio al cliente, ofreciendo conversaciones más inteligentes, resoluciones más rápidas e interacciones más humanas en cada canal.",
+        "readyDesc2": "Te ayudaremos a construir una estrategia escalable, segura y alineada con tus objetivos, ya sea reducir la carga de soporte, aumentar el NPS o brindar soporte multilingüe 24/7. Hagamos que tu experiencia de cliente sea tan inteligente como tus clientes esperan que sea. Contáctanos en sales@rialtes.com para comenzar la conversación."
     }
 }
