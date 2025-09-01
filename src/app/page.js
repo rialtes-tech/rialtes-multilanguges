@@ -296,6 +296,78 @@ const Home = () => {
 
             </section>
 
+
+            {/* success stories section */}
+            <section className='custom-container lg:pr-0 xl:mt-[147px] mt-[87px]'>
+                <div
+
+                    ref={refs[0]}
+
+                    className={`col-span-4 transition-all duration-1000 ease-out transform items-center grid xl:grid-cols-12 grid-cols-1 ${inViews[0] ? "opacity-100 translate-y-0" : "translate-y-12"
+
+                        }`}
+
+                >
+                    <div className='col-span-5'>
+                        <h2>Success Stories</h2>
+                    </div>
+                    <div className='col-span-7'>
+                        <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5 pr-8 xl:pr-0 lg:w-[80%]'>Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.</p>
+
+                    </div>
+                    <div className='col-span-3'></div>
+
+                </div>
+                <div className='grid xl:grid-cols-4 md:grid-cols-2 mt-16 gap-10 xl:gap-0'>
+
+                    {successStoryData.map((success, index) => {
+
+                        // const isLight = success.theme === "light";
+
+                        return (
+                            <React.Fragment key={index}>
+                                <Link href={success.url}>
+                                    <div className="relative  xl:h-[486px] h-[391px] w-[97%] overflow-hidden group shadow-lg">
+                                        <div
+
+                                            className="absolute  inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]"
+
+                                            style={{
+
+                                                backgroundImage: `url(${success.imageUrl})`,
+
+                                                backgroundSize: 'cover',
+
+                                                backgroundPosition: 'left center',
+
+                                            }}
+                                        ></div>
+
+                                        <div className="absolute inset-0 hover:text-white bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
+                                        <div className={`relative  z-10 p-6 text-white`}>
+                                            <p className="mb-5 text-[18px] ">{success.title}</p>
+                                            <h3 className="font-medium leading-tight text-[24px] xl:text-[30px] pr-10 xl:pr-5">
+
+                                                {success.description}
+                                            </h3>
+                                        </div>
+                                    </div>
+
+                                    {(index + 1) % 4 === 0 && (
+                                        <div className="w-full xl:col-span-4 xl:mt-10"></div>
+
+                                    )}
+                                </Link>
+                            </React.Fragment>
+
+                        );
+
+                    })}
+                </div>
+
+            </section>
+
+
             {/* industry experties and solutions */}
             <section className='xl:mt-[158px] mt-[87px]'>
                 <div

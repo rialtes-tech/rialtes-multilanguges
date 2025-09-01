@@ -368,9 +368,9 @@ export default function Page() {
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2">
                         <div className="xl:col-span-12 col-span-12 pr-5 text-white">
                             <h1 className="leading-tight break-words 4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:pr-0 md:pr-40 pr-10">
-                                <span className="text-white text-[24px] xl:text-[60px] 2xl:text-[80px] 4xl:text-[105px] mb-2 break-words">
+                                <span className="text-white text-[28px] xl:text-[60px] 2xl:text-[80px] 4xl:text-[105px] mb-2 break-words">
                                     Exelona
-                                    <span className="align-super inline-block w-5 h-5 xl:w-6 xl:h-6">
+                                    <span className="align-super inline-block w-4 h-4 xl:w-6 xl:h-6">
                                         <Image
                                             src="/images/products/exelona/desktop/trademark.png"
                                             alt="mask decoration"
