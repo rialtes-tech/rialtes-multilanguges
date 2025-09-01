@@ -116,8 +116,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative  h-[350px] md:h-[500px]  4xl:h-[650px] ">
-        {/* Desktop Image */}
+      <section className="relative h-[350px] md:h-[500px] 4xl:h-[650px]">
         <div className="xl:block hidden">
           <Image
             src="/images/finance/finance.webp"
@@ -346,9 +345,9 @@ export default function Page() {
           </div>
           <div className="md:col-span-6 xl:ml-[70px] xl:my-9 my-5 ">
             <UnorderedList arrName={aiData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="" />
-         <div className="mt-10">
-             <LearnMore />
-         </div>
+            <div className="mt-10">
+              <LearnMore />
+            </div>
           </div>
         </div>
         <p className="4xl:text-[26px] xl:text-[22px] text-[18px] xl:mt-[28px] mt-[10px] w-fit bg-[#0E3157] p-[24px] text-white leading-tight">
