@@ -2737,118 +2737,270 @@
         "empowerDesc3": "para comenzar con uno de nuestros",
         "empowerLink": "consultores expertos en SAP SuccessFactors"
     },
-    "agentCopilot": {
-        "blogTopic": "Salesforce Agentforce",
-        "blogTitle": "Agentes vs. Copilotos vs. Bots: ¿Cuál es la diferencia y por qué importa?",
-        "blogMainData": "Herramientas como Agentforce están redefiniendo la manera en que vemos a los asistentes digitales, llevando a primer plano las distinciones entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia dentro de la automatización impulsada por inteligencia artificial y en las interfaces conversacionales, cada uno con un propósito específico. Sus diferencias en funcionalidad, autonomía y aplicaciones ideales los hacen adecuados para roles únicos en el lugar de trabajo.",
-        "blogMainData2": "Los Agentes son herramientas impulsadas por IA que realizan tareas y toman decisiones de forma autónoma, con una mínima intervención humana. Los Copilotos son complementos de software que ofrecen asistencia en tiempo real a los usuarios dentro de las funciones de una aplicación. Los chatbots, o simplemente bots, son programas informáticos creados para imitar la conversación humana a través de texto o voz. Analicemos cada una de estas herramientas de IA, destacando las fortalezas únicas de los Agentes de Agentforce, y exploremos cómo pueden simplificar tareas, optimizar flujos de trabajo y mejorar la productividad.",
-        "commonData": [
-            {
-                "title": "Agentes de Agentforce: Los solucionadores de problemas adaptativos",
-                "desc": "Los Agentes de Agentforce representan el siguiente nivel en IA: son asistentes conversacionales de confianza, diseñados para manejar tareas de manera autónoma y adaptarse a escenarios cambiantes. Son soluciones preconfiguradas que pueden recibir información de un usuario y traducirla en una serie de acciones basadas en instrucciones que se pueden configurar y mejorar. Con el aprendizaje automático y algoritmos adaptativos, pueden reconocer de forma independiente oportunidades de acción, anticipar próximos pasos e iniciar tareas dentro de casos de uso y parámetros definidos. A diferencia de los bots tradicionales, los Agentes de Agentforce pueden comprender y reaccionar al contexto, lo que los hace muy valiosos en entornos complejos y dinámicos.",
-                "desc2": "Los agentes destacan por su adaptabilidad, pueden responder a datos en tiempo real y mejorar continuamente su rendimiento. Esta adaptabilidad les permite realizar tareas complejas de forma independiente, mejorando la productividad general. Manejan situaciones intrincadas y sensibles al contexto, donde el resultado depende de múltiples entradas dinámicas, lo que los hace mucho más versátiles que los bots.",
-                "applications": [
-                    {
-                        "title": "Optimización de procesos",
-                        "desc": ": Los Agentes de Agentforce supervisan los flujos de trabajo y realizan ajustes en tiempo real para mejorar la eficiencia, por ejemplo, reasignando recursos en respuesta a fluctuaciones en la demanda."
-                    },
-                    {
-                        "title": "Personalización de la experiencia del cliente",
-                        "desc": ": Aprovechando los datos y",
-                        "link": "Atlas Reasoning Engine",
-                        "desc2": ", los agentes pueden crear interacciones personalizadas, mejorando la satisfacción del cliente con respuestas adaptadas y soluciones proactivas."
-                    },
-                    {
-                        "title": "Toma de decisiones autónoma",
-                        "desc": ": Los agentes analizan datos, identifican patrones y toman decisiones sin intervención humana, lo cual es especialmente valioso en logística, gestión de la cadena de suministro e inteligencia empresarial."
-                    }
-                ]
-            },
-            {
-                "title": "Copilotos: Los potenciadores colaborativos",
-                "desc": "A diferencia de los agentes o bots, los Copilotos son asistentes de IA que trabajan en conjunto con los humanos, proporcionando sugerencias, información y retroalimentación sin tomar decisiones completamente autónomas. Por ejemplo, Einstein Copilot para Salesforce se integra directamente en la interfaz de Salesforce. Puedes configurar y desplegar un único copiloto para tu equipo, haciéndolo accesible dentro del flujo de trabajo de Salesforce. Este copiloto puede ejecutar tareas empresariales en nombre de los usuarios dentro de tu organización Salesforce. El objetivo de un Copiloto es apoyar a los usuarios, especialmente en tareas que requieren creatividad o resolución de problemas, permitiendo una colaboración aumentada en lugar de una automatización total.",
-                "desc2": "Los copilotos potencian la experiencia humana en lugar de reemplazarla, por lo que son ideales en campos que requieren pensamiento crítico, aporte creativo o comprensión contextual. Aunque son muy efectivos como herramientas de apoyo, dependen en gran medida de la entrada y orientación del usuario, lo que los hace menos útiles en escenarios que requieren toma de decisiones autónoma.",
-                "applications": [
-                    {
-                        "title": "Programación y desarrollo",
-                        "desc": ": Copilotos como GitHub Copilot sugieren completado de código, ayudan a solucionar problemas e incluso proporcionan documentación, haciendo que la programación sea más rápida y con menos errores."
-                    },
-                    {
-                        "title": "Redacción y creación de contenido",
-                        "desc": ": En tareas de redacción, los copilotos sugieren frases, revisan la gramática y proponen ideas, mejorando el proceso creativo."
-                    },
-                    {
-                        "title": "Análisis de datos y soporte a la toma de decisiones",
-                        "desc": ": En campos complejos como finanzas y salud, los copilotos ayudan a los profesionales a analizar datos, comprender tendencias y tomar decisiones informadas basadas en información generada por IA."
-                    }
-                ]
-            },
-            {
-                "title": "Bots: La base de la automatización",
-                "desc": "Los bots son la forma más simple de IA, normalmente programas basados en reglas que manejan tareas repetitivas y estructuradas. Funcionan en base a instrucciones predefinidas, lo que significa que ejecutan funciones sin necesidad de gran conciencia contextual o resolución de problemas complejos.",
-                "desc2": "",
-                "applications": [
-                    {
-                        "title": "Atención al cliente",
-                        "desc": ": Los bots manejan consultas básicas tipo FAQ, respondiendo rápidamente a preguntas frecuentes en soporte al cliente."
-                    },
-                    {
-                        "title": "Recolección rutinaria de datos",
-                        "desc": ": Los bots recopilan y procesan datos para informes y análisis, siendo comunes en tareas como monitorear inventarios o el tráfico web."
-                    },
-                    {
-                        "title": "Automatización de tareas básicas",
-                        "desc": ": Los bots automatizan procesos repetitivos como enviar notificaciones, clasificar correos electrónicos y gestionar flujos de trabajo simples."
-                    }
-                ]
-            }
-        ],
-        "agentforceTableTitle": "Agentes de Agentforce vs. Copilotos vs. Bots: Elige la IA adecuada para el trabajo",
-        "agentforceDesc": "Cada herramienta de IA es efectiva dentro de su nicho, y la clave es saber cuál implementar según la tarea en cuestión. Aquí tienes una comparación de sus diferencias:",
-        "tableData": [
-            {
-                "feature": "Complejidad",
-                "bots": "Baja, basada en reglas",
-                "agents": "Alta, autónoma y adaptativa",
-                "copilots": "Moderada, colaborativa con humanos"
-            },
-            {
-                "feature": "Autonomía",
-                "bots": "Limitada",
-                "agents": "Alta",
-                "copilots": "Mínima"
-            },
-            {
-                "feature": "Capacidad de aprendizaje",
-                "bots": "Nula",
-                "agents": "Alta, aprende de las interacciones",
-                "copilots": "Nula o mínima"
-            },
-            {
-                "feature": "Casos de uso ideales",
-                "bots": "Tareas repetitivas y estructuradas",
-                "agents": "Tareas dinámicas y ricas en contexto",
-                "copilots": "Creatividad y soporte en decisiones complejas"
-            },
-            {
-                "feature": "Dependencia",
-                "bots": "Totalmente independiente",
-                "agents": "Totalmente independiente",
-                "copilots": "Depende de la colaboración humana"
-            }
-        ],
-        "featureHeading": "Función",
-        "botsHeading": "Bots",
-        "agentforceHeading": "Agentes de Agentforce",
-        "copilotsHeading": "Copilotos",
-        "futureTitle": "El futuro: optimizando flujos de trabajo con asistentes de IA",
-        "futureDesc": "El futuro de la IA probablemente verá una mayor integración de estas herramientas. Comprender las fortalezas de cada tipo de IA permite a las empresas construir mejores soluciones, enfocándose en la productividad sin sacrificar la calidad.",
-        "futureDesc2": "Los agentes de IA son la forma más autónoma de IA. A diferencia de los bots y copilotos, pueden funcionar de forma independiente, tomar decisiones basadas en datos y aprender continuamente de sus experiencias. Se destacan por su alto nivel de autonomía. Pueden percibir su entorno mediante sensores e interactuar con él a través de actuadores, lo que les permite perseguir objetivos específicos de forma independiente, sin supervisión humana. ¿Interesado en",
-        "futureLink": "aprender más sobre los agentes de Agentforce",
-        "futureDesc3": "o necesitas ayuda para comenzar? Estamos aquí para ayudarte. En Rialtes, nos especializamos en",
-        "futureLink2": "soluciones de IA y Analítica para CRM,",
-        "futureDesc4": "y hemos ayudado a nuestros clientes a lograr mejoras significativas en productividad aprovechando herramientas de IA para manejar tareas complejas y en evolución de manera autónoma."
-    },
+     "agentCopilot": {
+    "blogTopic": "Salesforce Agentforce",
+    "date": "25 Julio 2025",
+    "blogTitle": "Agentes vs. Copilotos vs. Bots:",
+    "blogMainData": "Una comparación estratégica que impulsa la adopción correcta de la IA",
+    "why": "Por qué comprender Bots, Copilotos y Agentes de IA es importante para tu negocio",
+    "whyDesc": "Las herramientas de IA están transformando cómo industrias como la manufactura, la automotriz y el servicio al cliente operan a gran escala. El asistente de IA adecuado puede cambiar por completo la forma en que trabajan los equipos, desde automatizar tareas repetitivas hasta ofrecer información en tiempo real.",
+    "whyDescOne": "Pero aquí está el problema: bots, copilotos y agentes de IA a menudo se usan indistintamente, aunque significan cosas muy diferentes. Esa confusión puede llevar a elecciones tecnológicas equivocadas y resultados decepcionantes.",
+    "whylink": "Este desglose tiene como objetivo aclarar el panorama. Veremos las diferencias entre estos tipos de asistentes de IA, cómo funciona cada uno y para qué casos de uso son más adecuados. Así podrás alinear la solución correcta con los objetivos de tu negocio, ya sea ",
+    "whylinkOne": "automatización basada en agentes en manufactura",
+    "whylinkTwo": " o desplegar copilotos inteligentes para equipos de campo.",
+    "title": "“El mayor peligro en tiempos de turbulencia no es la turbulencia, sino actuar con la lógica de ayer.”",
+    "name": " — Peter Drucker",
+    "aiTitle": "Asegurémonos de que tu estrategia de IA no esté atrapada en definiciones pasadas.",
+    "aiDesc": "Comprendiendo los tres tipos de asistentes de IA",
+    "aiDesc1": "Bots – Los caballos de batalla basados en reglas de la automatización empresarial",
+    "aiDesc2": "Los bots son la forma más simple de IA, típicamente programas basados en reglas que manejan tareas repetitivas y estructuradas. Operan en base a instrucciones predefinidas, lo que significa que ejecutan funciones sin necesidad de gran conciencia contextual ni resolución compleja de problemas.",
+    "aiDesc3": "Los bots son confiables y eficientes para tareas bien definidas y repetitivas, pero su funcionalidad es limitada. Carecen de adaptabilidad y conciencia contextual, por lo que tienen dificultades en situaciones impredecibles. A diferencia de los Agentes de Agentforce, no aprenden de interacciones pasadas ni toman decisiones autónomas, lo que los hace menos adecuados para flujos de trabajo complejos.",
+    "application": "Aplicaciones",
+    "smartTitle": "Copilotos – Asistentes inteligentes que mejoran las decisiones humanas",
+    "smartDesc": "A diferencia de los agentes o bots, los copilotos son asistentes de IA que trabajan junto a los humanos, proporcionando sugerencias, ideas y retroalimentación sin tomar decisiones totalmente autónomas. El objetivo de un Copiloto es apoyar a los usuarios, especialmente en tareas que requieren creatividad o resolución de problemas, permitiendo una colaboración aumentada en lugar de una automatización completa.",
+    "smartDesc1": "Los copilotos de IA potencian la experiencia humana en lugar de reemplazarla, lo que los hace ideales para campos que requieren pensamiento crítico, aporte creativo o comprensión contextual. Aunque los copilotos son altamente efectivos como herramientas de apoyo, dependen en gran medida de la entrada y orientación del usuario, lo que significa que son menos útiles en escenarios donde se requiere toma de decisiones autónoma.",
+    "agentTitle": "Agentes – IA autónoma basada en aprendizaje para tareas complejas",
+    "agentDesc": "Los Agentes de IA representan el siguiente nivel de la IA; son asistentes conversacionales confiables diseñados para manejar tareas de forma autónoma y adaptarse a escenarios cambiantes. Son soluciones preconstruidas que pueden tomar la entrada de un usuario y traducirla en una serie de acciones basadas en instrucciones que puedes configurar y mejorar.",
+    "agentDescOne": "Con aprendizaje automático y algoritmos adaptativos, pueden reconocer oportunidades de acción, anticipar próximos pasos e iniciar tareas dentro de casos de uso definidos. A diferencia de los bots tradicionales, los Agentes de Agentforce pueden entender y reaccionar al contexto, lo que los hace muy valiosos en entornos de Salesforce más complejos y dinámicos.",
+    "agentDescTwo": "Los agentes destacan por su adaptabilidad, pueden responder a datos en tiempo real y perfeccionar continuamente su rendimiento. Esta capacidad les permite realizar tareas complejas de forma independiente, aumentando la productividad general. Manejan situaciones intrincadas y sensibles al contexto donde el resultado depende de múltiples entradas dinámicas, lo que los hace mucho más versátiles que los bots.",
+    "bot": "Bots vs Copilotos vs Agentes: Tabla comparativa de características para flujos de trabajo empresariales impulsados por IA",
+    "botdesc": "Cada herramienta de IA es efectiva en su nicho, y la clave está en saber cuál implementar según la tarea. Aquí un análisis comparativo de cómo se diferencian:",
+    "auto": "El viaje de la automatización: Bots vs. Copilotos vs. Agentes de IA explicado de forma sencilla",
+    "decision": "Matriz de decisión: elegir entre Bots, Copilotos y Agentes de IA para casos de uso empresariales",
+    "real": "Casos de estudio del mundo real: IA en acción",
+    "toolTitle": "Cómo las herramientas de IA se están fusionando en la Industria 4.0: Copilotos, Bots y Agentes explicados",
+    "toolDesc": "El futuro de la IA probablemente verá una mayor integración de estas herramientas. Lo que antes eran herramientas separadas (chatbots que respondían preguntas básicas, copilotos que asistían en CRMs y agentes que ejecutaban operaciones autónomas) ahora trabajan juntos en flujos unificados impulsados por IA.",
+    "toolDecs1": "La convergencia de la IA está transformando el piso de la fábrica, donde un flujo de trabajo puede incluir un bot capturando datos, un copiloto validándolos en un ERP y un agente determinando los próximos pasos. Los agentes de Agentforce son altamente autónomos, capaces de tomar decisiones basadas en datos y aprender de experiencias sin supervisión humana. Utilizan sensores y actuadores para percibir su entorno y perseguir objetivos de manera independiente, como reprogramar la producción de forma automática durante retrasos en el suministro o resolver problemas de calidad en la manufactura. Estos agentes acceden a datos de ERP, MES, CRM e IoT para tomar decisiones contextuales e iniciar los flujos de trabajo adecuados.",
+    "toolLink": "¿Interesado en aprender más sobre los agentes de Agentforce o necesitas ayuda para comenzar? Estamos aquí para apoyarte. En Rialtes, nos especializamos en ",
+    "toolLink1": "consultoría de Agentforce",
+    "toolLink2": " y hemos ayudado a clientes a lograr mejoras significativas en productividad aprovechando herramientas de IA para manejar tareas complejas y en evolución de forma autónoma. Hablemos sobre alinear la IA correcta con tu proceso empresarial.",
+    "faq": "Preguntas frecuentes: Bots vs Copilotos vs Agentes — Las principales dudas respondidas",
+    "scenario": "Escenario",
+    "task": "Complejidad de la tarea",
+    "decisionTitle": "Criticidad de la decisión",
+    "recommended": "Herramienta de IA recomendada",
+    "justification": "Justificación",
+    "caseStudies": [
+      {
+        "title": "Caso 1: Bot de comercio electrónico para la automatización del servicio al cliente",
+        "desc": "Un minorista en línea líder implementó un bot de servicio al cliente para manejar consultas de alto volumen sobre el estado de pedidos, devoluciones y disponibilidad de productos. En pocas semanas, el bot manejaba el 70% de las solicitudes entrantes, liberando a los agentes humanos para problemas más complejos. Este nivel de automatización minorista redujo el tiempo de respuesta promedio en un 60% y aumentó significativamente la satisfacción del cliente."
+      },
+      {
+        "title": "Caso 2: Copiloto en ventas B2B para información de CRM",
+        "desc": "Una empresa global de software implementó un copiloto de ventas dentro de su CRM. La herramienta actuaba como un asistente de IA en CRM, mostrando datos relevantes de clientes, sugiriendo las próximas mejores acciones e incluso redactando respuestas por correo electrónico. Este copiloto de ventas de IA ayudó a los equipos de ventas a reducir el tiempo de preparación antes de las llamadas y cerrar acuerdos más rápido al anticiparse al recorrido del comprador."
+      },
+      {
+        "title": "Caso 3: Agente de IA en banca para detección de fraudes en tiempo real",
+        "desc": "Un banco importante implementó agentes de IA que trabajan tras bambalinas para monitorear transacciones en tiempo real. Estos agentes inteligentes analizan patrones de comportamiento, detectan actividades sospechosas y congelan transacciones de manera autónoma cuando es necesario. El banco vio una mejora del 45% en la precisión de detección de fraudes con IA con mínimos falsos positivos."
+      }
+    ],
+    "list": [
+      {
+        "title": "Soporte minorista",
+        "desc": "Los bots automatizados manejan consultas básicas de tipo FAQ, respondiendo rápidamente a preguntas frecuentes en el soporte al cliente."
+      },
+      {
+        "title": "Automatización de tareas básicas",
+        "desc": "Los bots empresariales automatizan procesos repetitivos como enviar notificaciones, clasificar correos electrónicos y gestionar flujos de trabajo simples."
+      }
+    ],
+    "copilotList": [
+      {
+        "title": "Habilitación de ventas",
+        "desc": "Los copilotos de IA proporcionan sugerencias en tiempo real y recomendaciones de contenido durante las llamadas de ventas, ayudando a los representantes a personalizar propuestas y responder de manera efectiva."
+      },
+      {
+        "title": "Personalización de marketing",
+        "desc": "Los copilotos ayudan a los especialistas en marketing a crear campañas de correo electrónico personalizadas, analizar pruebas A/B y optimizar estrategias de participación."
+      },
+      {
+        "title": "Soporte en servicio al cliente",
+        "desc": "Mientras los agentes humanos interactúan con los clientes, los copilotos muestran artículos de la base de conocimientos, historiales de casos previos y sugerencias de solución para guiar la resolución."
+      }
+    ],
+    "agentUseCases": [
+      {
+        "title": "Optimización de la cadena de suministro",
+        "desc": "Los agentes detectan retrasos de forma autónoma, redirigen envíos y equilibran inventarios en almacenes según la demanda en tiempo real."
+      },
+      {
+        "title": "Mantenimiento predictivo",
+        "desc": "En la manufactura, los agentes analizan datos de sensores IoT para predecir fallas en equipos y activar automáticamente flujos de trabajo de mantenimiento."
+      },
+      {
+        "title": "Automatización del servicio al cliente",
+        "desc": "Los agentes manejan interacciones de servicio complejas, clasifican casos de soporte y ejecutan flujos de resolución completos sin intervención humana."
+      }
+    ],
+    "blogs": [
+      {
+        "id": 1,
+        "image": "/images/blog/blog-1.webp",
+        "category": "Salesforce Agentforce",
+        "industry": "Genérico",
+        "date": "30 Sept 2024",
+        "url": "how-salesforce-agentforce-actually-works",
+        "title": "Cómo funciona realmente Salesforce Agentforce",
+        "description": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando popularidad, especialmente en organizaciones con grandes equipos de agentes, como representantes de ventas, servicio al cliente y personal de campo."
+      },
+      {
+        "id": 2,
+        "image": "/images/blog/blog-2.webp",
+        "category": "Salesforce Agentforce",
+        "industry": "Genérico",
+        "date": "21 Oct 2024",
+        "title": "El cerebro detrás de los agentes: descubriendo el motor de razonamiento Atlas en Agentforce",
+        "description": "A medida que las empresas crecen, la complejidad de gestionar interacciones con clientes se multiplica, aumentando la necesidad de sistemas de soporte más inteligentes y eficientes. Salesforce Agentforce ofrece una plataforma sólida para la automatización del servicio al cliente, ahora mejorada con el innovador motor de razonamiento Atlas."
+      },
+      {
+        "id": 4,
+        "image": "/images/blog/blog-4.webp",
+        "category": "Salesforce Agentforce",
+        "industry": "Genérico",
+        "date": "25 Nov 2024",
+        "title": "Centro de pruebas de Agentforce: redefiniendo las pruebas de IA con datos sintéticos",
+        "description": "Salesforce ha introducido una nueva función llamada Centro de Pruebas dentro de su plataforma de IA agentica, Agentforce. Esta adición permite a los usuarios empresariales probar y monitorear agentes de IA antes de desplegarlos en producción."
+      },
+      {
+        "id": 5,
+        "image": "/images/blog/blog-5.webp",
+        "category": "SAP SuccessFactors",
+        "industry": "Recursos Humanos",
+        "date": "24 Dic 2024",
+        "title": "Cómo integrar SAP SuccessFactors con Microsoft Office 365 para mejorar la colaboración",
+        "description": "La integración fluida entre aplicaciones empresariales ofrece mejor colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder en experiencia humana (HXM) y una suite robusta de herramientas de productividad."
+      },
+      {
+        "id": 6,
+        "image": "/images/blog/blog-6.webp",
+        "category": "Tecnología Verde en la Nube",
+        "industry": "Agricultura",
+        "date": "17 Sept 2024",
+        "title": "Agricultura 4.0. ¿Cómo transforman las tecnologías digitales la agricultura para un mejor mañana?",
+        "description": "La agricultura juega un papel significativo en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
+      },
+      {
+        "id": 7,
+        "image": "/images/blog/blog-7.webp",
+        "category": "SAP SuccessFactors",
+        "industry": "Recursos Humanos",
+        "date": "29 Oct 2024",
+        "title": "SAP SuccessFactors: gestión del desempeño y objetivos",
+        "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que comparte todo tu equipo. Cuando la estrategia del equipo se alinea con sus metas y los objetivos organizacionales más amplios, hacer lo correcto se vuelve instintivo."
+      }
+    ],
+    "faqData": [
+      {
+        "question": "1. ¿Cuál es la diferencia entre bots, copilotos y agentes?",
+        "answer": [
+          "Los bots siguen guiones predefinidos y manejan tareas simples. Los copilotos asisten a los usuarios con sugerencias, a menudo en tiempo real, pero aún requieren intervención humana. Los agentes de IA, en cambio, pueden tomar decisiones autónomas, aprender del contexto y actuar en múltiples sistemas.",
+          "Piénsalo así:",
+          "Bot = sigue comandos",
+          "Copiloto = asiste con sugerencias inteligentes",
+          "Agente = toma acciones inteligentes en tu nombre"
+        ]
+      },
+      {
+        "question": "2. ¿Cuál es un ejemplo de un bot?",
+        "answer": "Un chatbot en un sitio web minorista que responde preguntas básicas como '¿Cuál es su política de devoluciones?' es un ejemplo común de bot. Sigue respuestas preescritas y no puede adaptarse mucho más allá de su guion."
+      },
+      {
+        "question": "3. ¿Qué hace un agente de IA?",
+        "answer": "Un agente de IA comprende objetivos, toma decisiones y actúa en múltiples sistemas. Por ejemplo, en manufactura, puede monitorear datos de la cadena de suministro, predecir retrasos y reasignar tareas de forma autónoma para evitar tiempos muertos."
+      },
+      {
+        "question": "4. ¿Es mejor un Copiloto que un chatbot?",
+        "answer": "Sí, en la mayoría de los casos. Un copiloto entiende el contexto y ofrece sugerencias más inteligentes, mientras que un chatbot generalmente se limita a respuestas básicas predefinidas. Si necesitas soporte dinámico, los copilotos ofrecen más valor."
+      },
+      {
+        "question": "5. ¿Qué herramienta de IA es más poderosa: agente o copiloto?",
+        "answer": "Los agentes suelen ser más poderosos que los copilotos. Mientras que los copilotos apoyan a los usuarios, los agentes de IA van un paso más allá: actúan de manera independiente, aprenden continuamente y se adaptan a las necesidades cambiantes del negocio."
+      },
+      {
+        "question": "6. ¿Qué IA debería usar para soporte al cliente en manufactura?",
+        "answer": "Para servicio al cliente en manufactura, los agentes de IA son ideales. Manejan consultas complejas, enrutan casos inteligentemente, se integran con sistemas ERP o MES y brindan actualizaciones en tiempo real. Esto reduce la carga de trabajo humana y acelera la resolución."
+      },
+      {
+        "question": "7. ¿Pueden los agentes de IA reemplazar completamente a los humanos en las operaciones?",
+        "answer": "No del todo. Los agentes de IA son poderosos en el manejo de tareas repetitivas o basadas en datos, pero la colaboración humano-IA sigue siendo clave para decisiones estratégicas, inteligencia emocional y supervisión ética. Los agentes amplifican las operaciones, no reemplazan a las personas."
+      }
+    ],
+    "data": [
+  {
+    "scenario": "Procesamiento de Pedidos",
+    "complexity": "Bajo",
+    "criticality": "Bajo",
+    "tool": "Bot",
+    "justification": "Sigue reglas claras. No se necesita toma de decisiones—solo acciones rápidas y repetibles.",
+    "color": "bg-[#E8F7FF]"
+  },
+  {
+    "scenario": "Generación de Propuestas de Ventas",
+    "complexity": "Medio",
+    "criticality": "Medio",
+    "tool": "Copiloto",
+    "justification": "Asiste a los humanos extrayendo datos, sugiriendo contenido y reduciendo el esfuerzo manual.",
+    "color": "bg-[#EBE3FF]"
+  },
+  {
+    "scenario": "Pronóstico de la Demanda",
+    "complexity": "Alto",
+    "criticality": "Alto",
+    "tool": "Agente de IA",
+    "justification": "Requiere modelado predictivo y lógica autónoma entre sistemas.",
+    "color": "bg-[#FFF1E5]"
+  },
+  {
+    "scenario": "Gestión de Preguntas Frecuentes de Clientes",
+    "complexity": "Bajo",
+    "criticality": "Bajo",
+    "tool": "Bot",
+    "justification": "Preguntas y respuestas estándar. Las conversaciones guiadas funcionan bien aquí.",
+    "color": "bg-[#E8F7FF]"
+  },
+  {
+    "scenario": "Configuración de Cotizaciones de Productos",
+    "complexity": "Medio",
+    "criticality": "Medio",
+    "tool": "Copiloto",
+    "justification": "Navega la lógica de precios y reglas de productos. Apoya la toma de decisiones liderada por humanos.",
+    "color": "bg-[#ECE3FF]"
+  },
+  {
+    "scenario": "Resolución de Tickets de Soporte",
+    "complexity": "Alto",
+    "criticality": "Alto",
+    "tool": "Agente de IA",
+    "justification": "Prioriza incidencias, actúa entre sistemas y aprende del historial de resoluciones.",
+    "color": "bg-[#FFF1E5]"
+  },
+  {
+    "scenario": "Planificación de Producción",
+    "complexity": "Alto",
+    "criticality": "Alto",
+    "tool": "Agente de IA",
+    "justification": "Equilibra restricciones, adapta planes y automatiza flujos de trabajo complejos.",
+    "color": "bg-[#E8F7FF]"
+  },
+  {
+    "scenario": "Ayuda con la Carga de Documentos",
+    "complexity": "Bajo",
+    "criticality": "Bajo",
+    "tool": "Bot",
+    "justification": "Lógica mínima. La tarea es sencilla y no requiere contexto del usuario.",
+    "color": "bg-[#ECE3FF]"
+  },
+  {
+    "scenario": "Guía de Capacitación en Ventas",
+    "complexity": "Medio",
+    "criticality": "Bajo",
+    "tool": "Copiloto",
+    "justification": "Ofrece recordatorios en tiempo real, enlaces a documentación y sugerencias durante la venta.",
+    "color": "bg-[#FFF1E5]"
+  }
+]
+},
+   
     "brainBehind": {
         "blogs": [
             {

@@ -18,9 +18,10 @@
     "caseTitle": "Case Studies",
     "caseDesc": "Find our latest work and collaborations",
     "allCaseStudy": " See All Case Studies",
-    "leadingDate": "30 June 2025",
-    "leadingTitle": " Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
-    "leadingblog": " A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system.",
+    "education":"Education Cloud",
+    "leadingDate": "21 August 2025",
+    "leadingTitle": "Transforming Student Success with Salesforce Education Cloud and Edu+",
+    "leadingblog": "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions.",
     "Webinars": "Webinars",
     "allWebinars": "See All Webinars",
     "SapTitle": "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
@@ -35,8 +36,18 @@
     "dataDate": "May 13, 2025",
     "contactUs": "Take the next step to operational excellence with us.",
     "caseStudies": [
+       {
+    "id": "case-study-2",
+    "image": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
+    "alt": "Diversity illustration",
+    "category": "Automotive",
+    "date": "30 June 2025",
+    "title": "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
+    "description":"A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system.",
+    "link": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense"
+  },
       {
-        "id": "case-study-2",
+        "id": "case-study-3",
         "image": "/images/case-studies/revolutionary-filter.webp",
         "alt": "Dealer management transformation",
         "category": "Manufacturing",
@@ -46,7 +57,7 @@
         "link": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autoSense"
       },
       {
-        "id": "case-study-3",
+        "id": "case-study-4",
         "image": "/images/case-studies/adaptis-for-carousel.webp",
         "alt": "Warranty claim experience",
         "category": "Manufacturing",
@@ -54,16 +65,6 @@
         "title": "Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience",
         "description": "A leading manufacturer of high-quality roofing solutions designed to protect what matters most.",
         "link": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud"
-      },
-      {
-        "id": "case-study-4",
-        "image": "/images/case-studies/fiory-carosel.webp",
-        "alt": "Self-service with SAP Fiori",
-        "category": "Manufacturing",
-        "date": "28 May 2025",
-        "title": "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
-        "description": "Our client is a renowned manufacturer of high-quality roofing products with a legacy built on innovation, quality, and sustainability.",
-        "link": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori"
       }
     ]
   },
@@ -166,6 +167,16 @@
       }
     ],
     "latestBlogs": [
+       {
+    "id": 23,
+    "image": "/images/blog/blog-slider.webp",
+    "category": "Salesforce Agentforce",
+    "industry": "Generic",
+    "date": "Jul. 25, 2025",
+    "url": "/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters",
+    "title": "Agents vs. Copilots vs. Bots: A Strategic Comparison That Drives AI Adoption Right",
+    "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
+  },
       {
         "id": 22,
         "image": "/images/blog/slider.webp",
@@ -346,16 +357,7 @@
         "title": "SAP SuccessFactors Performance and Goal Management",
         "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
       },
-      {
-        "id": 4,
-        "image": "/images/blog/blog-3.webp",
-        "category": "Salesforce Agentforce",
-        "industry": "Generic",
-        "date": "28 Oct 2024",
-        "url": "/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters",
-        "title": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-        "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
-      },
+      
       {
         "id": 3,
         "image": "/images/blog/blog-2.webp",
@@ -480,6 +482,16 @@
       "Public Sector"
     ],
     "slides": [
+       {
+     "id": 7,
+      "imgSrc": "/images/case-studies/Small thumb.webp",
+      "category": "Education Cloud",
+      "date": "21 August 2025",
+      "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
+     "title": "Transforming Student Success with Salesforce Education Cloud and Edu+",
+      "description": "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions."
+  
+    },
       {
         "id": 6,
         "imgSrc": "/images/case-studies/AutoSense Warranty Management Modules_Case study thumb.webp",
@@ -509,6 +521,16 @@
       }
     ],
     "latestCaseStudy": [
+       {
+  "id": 15,
+    "image": "/images/case-studies/Small thumb.webp",
+    "industry": "Education Cloud",
+    "date": "21 August 2025",
+    "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
+    "title": "Transforming Student Success with Salesforce Education Cloud and Edu+",
+    "description": "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions."
+  
+  },
       {
         "id": 14,
         "image": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
@@ -642,6 +664,17 @@
     "previousSlide": "Previous slide",
     "nextSlide": "Next slide",
     "slides": [
+      {
+    "id": 14,
+    "image": "/images/blog/blog-slider.webp", 
+    "category": "Salesforce Agentforce",
+    "industry": "Generic",
+    "date": "25 July 2025",
+    "url": "insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters",
+    "title": "Agents vs. Copilots vs. Bots: A Strategic Comparison That Drives AI Adoption Right",
+    "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
+  },
+
       {
         "id": 13,
         "image": "/images/blog/slider.webp",
