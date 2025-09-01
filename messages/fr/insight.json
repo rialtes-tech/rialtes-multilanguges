@@ -36,7 +36,17 @@
     "contactUs": "Passez à l’étape suivante vers l’excellence opérationnelle avec nous.",
     "caseStudies": [
       {
-        "id": "case-study-2",
+  "id": "case-study-2",
+  "image": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
+  "alt": "Illustration de diversité",
+  "category": "Automobile",
+  "date": "30 juin 2025",
+  "title": "Un Fabricant Automobile Leader a Atteint un Score de Satisfaction Client Supérieur de 35 % grâce à AutoSense",
+  "description": "Un important constructeur automobile mondial, reconnu pour son innovation et ses véhicules haute performance, faisait face à des défis avec son ancien système de gestion des garanties.",
+  "link": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense"
+},
+      {
+        "id": "case-study-3",
         "image": "/images/case-studies/revolutionary-filter.webp",
         "alt": "Transformation de la gestion des concessionnaires",
         "category": "Fabrication",
@@ -46,7 +56,7 @@
         "link": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autoSense"
       },
       {
-        "id": "case-study-3",
+        "id": "case-study-4",
         "image": "/images/case-studies/adaptis-for-carousel.webp",
         "alt": "Expérience de réclamation de garantie",
         "category": "Fabrication",
@@ -54,16 +64,6 @@
         "title": "Réclamation en 4 minutes : Rialtes crée un portail mobile-first pour transformer l’expérience de réclamation",
         "description": "Un fabricant leader de solutions de toiture de haute qualité conçues pour protéger ce qui compte le plus.",
         "link": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud"
-      },
-      {
-        "id": "case-study-4",
-        "image": "/images/case-studies/fiory-carosel.webp",
-        "alt": "Libre-service avec SAP Fiori",
-        "category": "Fabrication",
-        "date": "28 Mai 2025",
-        "title": "150 commandes par jour, zéro travail manuel : La priorisation en libre-service alimentée par Fiori",
-        "description": "Notre client est un fabricant renommé de produits de toiture de haute qualité avec un héritage basé sur l’innovation, la qualité et la durabilité.",
-        "link": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori"
       }
     ]
   },
@@ -166,6 +166,17 @@
       }
     ],
     "latestBlogs": [
+      {
+    "id": 23,
+    "image": "/images/blog/blog-slider.webp",
+    "category": "Salesforce Agentforce",
+    "industry": "Générique",
+    "date": "25 juil. 2025",
+    "url": "/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters",
+    "title": "Agents vs. Copilots vs. Bots : Une comparaison stratégique qui favorise l'adoption de l'IA",
+    "description": "Des outils comme Agentforce redéfinissent notre perception des assistants numériques, en mettant en évidence les différences entre Agents, Copilots et Bots. Ces termes sont fréquemment utilisés dans l'automatisation et les interfaces conversationnelles pilotées par l'intelligence artificielle, chacun ayant un rôle distinct."
+},
+
       {
         "id": 22,
         "image": "/images/blog/slider.webp",
@@ -346,16 +357,7 @@
         "title": "SAP SuccessFactors – Gestion de la performance et des objectifs",
         "description": "Aligner la stratégie et les objectifs de l’équipe avec ceux de l’organisation facilite la réussite. SAP SuccessFactors aide à rendre cela instinctif."
       },
-      {
-        "id": 4,
-        "image": "/images/blog/blog-3.webp",
-        "category": "Salesforce Agentforce",
-        "industry": "Générique",
-        "date": "28 Oct 2024",
-        "url": "/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters",
-        "title": "Agents vs Copilots vs Bots : quelle différence et pourquoi est-ce important ?",
-        "description": "Des outils comme Agentforce redéfinissent notre vision des assistants numériques, en distinguant Agents, Copilots et Bots — chacun ayant un rôle spécifique."
-      },
+      
       {
         "id": 3,
         "image": "/images/blog/blog-2.webp",
@@ -481,6 +483,15 @@
     ],
     "slides": [
       {
+  "id": 7,
+  "imgSrc": "/images/case-studies/Small thumb.webp",
+  "category": "Education Cloud",
+  "date": "21 août 2025",
+  "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
+  "title": "Transformer la Réussite des Étudiants avec Salesforce Education Cloud et Edu+",
+  "description": "Une grande université privée en Amérique du Nord comptant plus de 25 000 étudiants et de nombreux programmes académiques aux niveaux du premier cycle, des cycles supérieurs et de la formation continue."
+},
+      {
         "id": 6,
         "imgSrc": "/images/case-studies/AutoSense Warranty Management Modules_Case study thumb.webp",
         "category": "Automobile",
@@ -509,6 +520,15 @@
       }
     ],
     "latestCaseStudy": [
+      {
+  "id": 15,
+  "image": "/images/case-studies/Small thumb.webp",
+  "industry": "Education Cloud",
+  "date": "21 août 2025",
+  "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
+  "title": "Transformer la Réussite Étudiante avec Salesforce Education Cloud et Edu+",
+  "description": "Une université privée de premier plan en Amérique du Nord avec plus de 25 000 étudiants et de multiples programmes académiques couvrant les divisions de premier cycle, de cycles supérieurs et d’éducation continue."
+},
       {
         "id": 14,
         "image": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
@@ -642,6 +662,16 @@
     "previousSlide": "Diapositive précédente",
     "nextSlide": "Diapositive suivante",
     "slides": [
+      {
+    "id": 14,
+    "image": "/images/blog/blog-slider.webp",
+    "category": "Salesforce Agentforce",
+    "industry": "Générique",
+    "date": "25 juillet 2025",
+    "url": "insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters",
+    "title": "Agents vs. Copilotes vs. Bots : Une Comparaison Stratégique qui Favorise l’Adoption Correcte de l’IA",
+    "description": "Des outils comme Agentforce redéfinissent notre vision des assistants numériques, mettant en avant les distinctions entre Agents, Copilotes et Bots. Ces termes sont fréquemment utilisés dans l'automatisation pilotée par l'intelligence artificielle et les interfaces conversationnelles, chacun ayant un rôle distinct."
+  },
       {
         "id": 13,
         "image": "/images/blog/slider.webp",
