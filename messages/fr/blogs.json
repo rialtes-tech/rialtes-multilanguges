@@ -2739,266 +2739,266 @@
     },
     "agentCopilot": {
         "blogTopic": "Salesforce Agentforce",
-  "date": "25 Juillet 2025",
-  "blogTitle": "Agents vs. Copilotes vs. Bots :",
-  "blogMainData": "Une comparaison stratégique qui conduit à une adoption réussie de l’IA",
-  "why": "Pourquoi comprendre les Bots, Copilotes et Agents IA est essentiel pour votre entreprise",
-  "whyDesc": "Les outils d’IA transforment la façon dont des secteurs comme la fabrication, l’automobile et le service client fonctionnent à grande échelle. Le bon assistant IA peut complètement changer la manière dont les équipes travaillent, en passant de l’automatisation des tâches répétitives à la fourniture d’informations en temps réel.",
-  "whyDescOne": "Mais voici le problème : bots, copilotes et agents IA sont souvent utilisés de manière interchangeable, alors qu’ils signifient des choses très différentes. Cette confusion peut conduire à de mauvais choix technologiques et à des résultats décevants.",
-  "whylink": "Cette analyse vise à clarifier les choses. Nous examinerons les différences entre ces types d’assistants IA, comment chacun fonctionne, et pour quels cas d’utilisation ils sont les mieux adaptés. Ainsi, vous pourrez aligner la bonne solution sur vos objectifs commerciaux, qu’il s’agisse de ",
-  "whylinkOne": "l’automatisation basée sur des agents dans la fabrication",
-  "whylinkTwo": " ou du déploiement de copilotes intelligents pour les équipes de terrain.",
-  "title": "« Le plus grand danger en période de turbulence n’est pas la turbulence, mais d’agir avec la logique d’hier. »",
-  "name": " — Peter Drucker",
-  "aiTitle": "Assurons-nous que votre stratégie IA ne reste pas bloquée dans des définitions dépassées.",
-  "aiDesc": "Comprendre les trois types d’assistants IA",
-  "aiDesc1": "Bots – Les chevaux de trait basés sur des règles de l’automatisation en entreprise",
-  "aiDesc2": "Les bots sont la forme la plus simple d’IA, généralement des programmes basés sur des règles qui gèrent des tâches répétitives et structurées. Ils fonctionnent selon des instructions prédéfinies, ce qui signifie qu’ils exécutent des fonctions sans réel besoin de conscience contextuelle ou de résolution de problèmes complexes.",
-  "aiDesc3": "Les bots sont fiables et efficaces pour des tâches bien définies et répétitives, mais leur fonctionnalité est limitée. Ils manquent d’adaptabilité et de conscience contextuelle, ce qui les rend inefficaces face aux situations imprévisibles. Contrairement aux Agents Agentforce, ils n’apprennent pas des interactions passées ni ne prennent de décisions autonomes, ce qui les rend moins adaptés aux flux de travail complexes.",
-  "application": "Applications",
-  "smartTitle": "Copilotes – Assistants intelligents qui renforcent les décisions humaines",
-  "smartDesc": "Contrairement aux agents ou aux bots, les copilotes sont des assistants IA qui travaillent en tandem avec les humains, en fournissant des suggestions, des idées et des retours sans prendre de décisions totalement autonomes. L’objectif d’un copilote est de soutenir les utilisateurs, en particulier dans les tâches nécessitant créativité ou résolution de problèmes, permettant ainsi une collaboration augmentée plutôt qu’une automatisation complète.",
-  "smartDesc1": "Les copilotes IA amplifient l’expertise humaine plutôt que de la remplacer, ce qui les rend idéaux dans les domaines nécessitant une pensée critique, un apport créatif ou une compréhension contextuelle. Bien que très efficaces comme outils d’assistance, ils dépendent fortement de l’entrée et de l’orientation des utilisateurs, ce qui les rend moins utiles dans les scénarios où une prise de décision autonome est requise.",
-  "agentTitle": "Agents – IA autonome et adaptative pour les tâches complexes",
-  "agentDesc": "Les Agents IA représentent le niveau supérieur de l’IA ; ce sont des assistants conversationnels de confiance conçus pour gérer des tâches de manière autonome et s’adapter aux scénarios changeants. Ce sont des solutions préconstruites qui peuvent recevoir une saisie d’un utilisateur et la traduire en une série d’actions basées sur des instructions que vous pouvez configurer et améliorer.",
-  "agentDescOne": "Grâce à l’apprentissage automatique et aux algorithmes adaptatifs, ils peuvent reconnaître indépendamment les opportunités d’action, anticiper les prochaines étapes et initier des tâches dans des cas d’utilisation et des paramètres définis. Contrairement aux bots traditionnels, les Agents Agentforce peuvent comprendre et réagir au contexte, ce qui les rend extrêmement précieux dans des environnements Salesforce complexes et dynamiques.",
-  "agentDescTwo": "Les agents excellent dans l’adaptabilité, peuvent répondre aux données en temps réel et affiner continuellement leurs performances. Cette adaptabilité leur permet d’exécuter des tâches complexes de manière indépendante, améliorant ainsi la productivité globale. Ils gèrent des situations complexes et sensibles au contexte, où le résultat dépend de divers facteurs dynamiques, les rendant beaucoup plus polyvalents que les bots.",
-  "bot": "Bots vs Copilotes vs Agents : Tableau comparatif pour les flux de travail d’entreprise pilotés par l’IA",
-  "botdesc": "Chaque outil IA est efficace dans son domaine, et la clé est de savoir lequel déployer en fonction de la tâche à accomplir. Voici un aperçu comparatif de leurs différences :",
-  "auto": "Le voyage de l’automatisation : Bots vs. Copilotes vs. Agents IA expliqué simplement",
-  "decision": "Matrice de décision : Choisir entre Bots, Copilotes et Agents IA pour les cas d’utilisation en entreprise",
-  "real": "Études de cas réelles : l’IA en action",
-  "toolTitle": "Comment les outils IA se fusionnent dans l’Industrie 4.0 : Copilotes, Bots et Agents expliqués",
-  "toolDesc": "L’avenir de l’IA verra probablement une plus grande intégration de ces outils. Ce qui était autrefois séparé – chatbots répondant à des requêtes basiques, copilotes assistant les utilisateurs dans les CRM, et agents gérant des opérations autonomes – fonctionne désormais de manière unifiée dans des flux de travail pilotés par l’IA.",
-  "toolDecs1": "La convergence de l’IA transforme l’atelier de production, où un flux de travail peut inclure un bot capturant des données, un copilote les validant dans l’ERP, et un agent déterminant les prochaines étapes. Les agents Agentforce sont hautement autonomes, capables de prendre des décisions basées sur les données et d’apprendre de l’expérience sans supervision humaine. Ils utilisent des capteurs et des actionneurs pour percevoir leur environnement et poursuivre des objectifs de manière indépendante, comme la reprogrammation automatique de la production lors de retards d’approvisionnement ou la résolution de problèmes de qualité dans la fabrication. Ces agents accèdent aux données des systèmes ERP, MES, CRM et IoT pour prendre des décisions contextuelles et initier les flux de travail appropriés.",
-  "toolLink": "Vous souhaitez en savoir plus sur les agents Agentforce ou avez besoin d’aide pour démarrer ? Nous sommes là pour vous accompagner. Chez Rialtes, nous sommes spécialisés dans le ",
-  "toolLink1": "conseil Agentforce",
-  "toolLink2": " et nous avons aidé des clients à obtenir des améliorations significatives de productivité en tirant parti des outils IA pour gérer des tâches complexes et évolutives de manière autonome. Parlons ensemble de l’alignement de la bonne IA avec vos processus métiers.",
-  "faq": "FAQ : Bots vs Copilotes vs Agents — Les principales questions répondues",
-  "scenario": "Scénario",
-  "task": "Complexité de la tâche",
-  "decisionTitle": "Criticité de la décision",
-  "recommended": "Outil IA recommandé",
-  "justification": "Justification",
-  "caseStudies": [
-    {
-      "title": "Cas 1 : Bot e-commerce pour l’automatisation du service client",
-      "desc": "Un grand détaillant en ligne a mis en place un bot de service client pour gérer les demandes massives concernant le statut des commandes, les retours et la disponibilité des produits. En quelques semaines, le bot gérait 70 % des requêtes entrantes, libérant ainsi les agents humains pour des problèmes plus complexes et des escalades. Ce niveau d’automatisation a réduit le temps de réponse moyen de 60 % et a considérablement amélioré la satisfaction client."
-    },
-    {
-      "title": "Cas 2 : Copilote en vente B2B pour insights CRM",
-      "desc": "Une entreprise mondiale de logiciels a déployé un copilote de vente dans son système CRM. L’outil agissait comme assistant IA CRM, mettant en avant des données clients pertinentes, suggérant les prochaines meilleures actions, et rédigeant même des réponses par e-mail. Ce copilote IA a permis aux équipes commerciales de réduire le temps de préparation avant les appels et de conclure plus rapidement en restant en avance sur le parcours de l’acheteur."
-    },
-    {
-      "title": "Cas 3 : Agent IA bancaire pour la détection de fraude en temps réel",
-      "desc": "Une grande banque a déployé des agents IA qui travaillent en arrière-plan pour surveiller les transactions en temps réel. Ces agents intelligents analysent les comportements, signalent les activités suspectes et bloquent de manière autonome les transactions si nécessaire. La banque a constaté une amélioration de 45 % de la précision de détection de fraude avec un minimum de faux positifs."
-    }
-  ],
-  "list": [
-    {
-      "title": "Support Retail",
-      "desc": "Les bots automatisés gèrent les requêtes de type FAQ, en répondant rapidement aux questions les plus fréquentes en support client."
-    },
-    {
-      "title": "Automatisation des tâches basiques",
-      "desc": "Les bots d’entreprise automatisent les processus répétitifs comme l’envoi de notifications, le tri des e-mails et la gestion de flux de travail simples."
-    }
-  ],
-   "copilotList": [
-    {
-      "title": "Activation des ventes",
-      "desc": "Les copilotes IA fournissent des suggestions en temps réel et des recommandations de contenu lors des appels de vente, aidant les commerciaux à adapter leurs arguments et à répondre efficacement."
-    },
-    {
-      "title": "Personnalisation Marketing",
-      "desc": "Les copilotes assistent les marketeurs dans la création de campagnes d'e-mails personnalisées, l'analyse des tests A/B et l'optimisation des stratégies d'engagement."
-    },
-    {
-      "title": "Support du Service Client",
-      "desc": "Alors que les agents humains interagissent avec les clients, les copilotes affichent des articles de la base de connaissances, l'historique des cas précédents et des suggestions de solutions pour guider la résolution."
-    }
-  ],
-  "agentUseCases": [
-    {
-      "title": "Optimisation de la chaîne d'approvisionnement",
-      "desc": "Les agents détectent automatiquement les retards, réacheminent les expéditions et équilibrent les stocks entre les entrepôts en fonction de la demande en temps réel."
-    },
-    {
-      "title": "Maintenance Prédictive",
-      "desc": "Dans l'industrie, les agents analysent les données des capteurs IoT pour prédire les pannes d'équipements et déclencher automatiquement les flux de maintenance."
-    },
-    {
-      "title": "Automatisation du Service Client",
-      "desc": "Les agents gèrent des interactions complexes avec le service client, trient les cas de support et exécutent des workflows de résolution de bout en bout sans intervention humaine."
-    }
-  ],
-  "blogs": [
-    {
-      "id": 1,
-      "image": "/images/blog/blog-1.webp",
-      "category": "Salesforce Agentforce",
-      "industry": "Générique",
-      "date": "30 sept. 2024",
-      "url": "how-salesforce-agentforce-actually-works",
-      "title": "Comment fonctionne réellement Salesforce Agentforce",
-      "description": "Salesforce Agentforce, bien qu'étant une addition récente à l'écosystème Salesforce, fait parler de lui, notamment dans les organisations qui gèrent de grandes équipes d'agents, tels que les commerciaux, les représentants du service client et le personnel sur le terrain."
-    },
-    {
-      "id": 2,
-      "image": "/images/blog/blog-2.webp",
-      "category": "Salesforce Agentforce",
-      "industry": "Générique",
-      "date": "21 oct. 2024",
-      "title": "Le cerveau derrière les agents : découvrir le moteur de raisonnement Atlas dans Agentforce",
-      "description": "À mesure que les entreprises se développent, la complexité de la gestion des interactions clients augmente, créant le besoin de systèmes de support plus intelligents et rationalisés. Salesforce Agentforce offre une plateforme robuste pour l'automatisation du service client, désormais améliorée par le moteur de raisonnement révolutionnaire Atlas."
-    },
-    {
-      "id": 4,
-      "image": "/images/blog/blog-4.webp",
-      "category": "Salesforce Agentforce",
-      "industry": "Générique",
-      "date": "25 nov. 2024",
-      "title": "Centre de test Agentforce : redéfinir les tests IA avec des données synthétiques",
-      "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center au sein de sa plateforme IA agentique, Agentforce. Cette addition permet aux utilisateurs d'entreprise de tester et de surveiller les agents IA avant leur déploiement en production."
-    },
-    {
-      "id": 5,
-      "image": "/images/blog/blog-5.webp",
-      "category": "SAP SuccessFactors",
-      "industry": "Ressources Humaines",
-      "date": "24 déc. 2024",
-      "title": "Comment intégrer SAP SuccessFactors à Microsoft Office 365 pour une collaboration améliorée",
-      "description": "L'intégration fluide des applications d'entreprise offre une meilleure collaboration, efficacité et productivité. L'intégration de SAP SuccessFactors avec Microsoft Office 365 combine les forces d'une solution leader en gestion de l'expérience humaine (HXM) et d'une suite robuste d'outils de productivité."
-    },
-    {
-      "id": 6,
-      "image": "/images/blog/blog-6.webp",
-      "category": "Cloud Green Technology",
-      "industry": "Agriculture",
-      "date": "17 sept. 2024",
-      "title": "Agriculture 4.0 : comment les technologies numériques transforment l'agriculture pour un avenir meilleur ?",
-      "description": "L'agriculture joue un rôle significatif dans l'économie croissante de l'Inde et son avenir ne peut se réaliser sans outils numériques et innovation technologique."
-    },
-    {
-      "id": 7,
-      "image": "/images/blog/blog-7.webp",
-      "category": "SAP SuccessFactors",
-      "industry": "Ressources Humaines",
-      "date": "29 oct. 2024",
-      "title": "Gestion de la performance et des objectifs avec SAP SuccessFactors",
-      "description": "Atteindre les objectifs de votre organisation est une responsabilité clé que partage toute votre équipe. Lorsque la stratégie de votre équipe est alignée sur ses objectifs et les objectifs organisationnels plus larges, agir correctement devient instinctif."
-    }
-  ],
-  "faqData": [
-    {
-      "question": "1. Quelle est la différence entre bots, copilotes et agents ?",
-      "answer": [
-        "Les bots suivent des scripts prédéfinis et gèrent des tâches simples. Les copilotes assistent les utilisateurs avec des suggestions, souvent en temps réel, mais nécessitent toujours une intervention humaine. Les agents IA, quant à eux, peuvent prendre des décisions de manière autonome, apprendre du contexte et agir sur plusieurs systèmes.",
-        "Pensez-y ainsi :",
-        "Bot = suit les commandes",
-        "Copilote = aide avec des suggestions intelligentes",
-        "Agent = agit intelligemment en votre nom"
-      ]
-    },
-    {
-      "question": "2. Quel est un exemple de bot ?",
-      "answer": "Un chatbot sur un site de vente au détail qui répond à des questions basiques comme « Quelle est votre politique de retour ? » est un exemple courant de bot. Il suit des réponses pré-écrites et ne peut pas s'adapter au-delà de son script."
-    },
-    {
-      "question": "3. Que fait un agent IA ?",
-      "answer": "Un agent IA comprend des objectifs, prend des décisions et agit sur différents systèmes. Par exemple, dans la fabrication, il peut surveiller les données de la chaîne d'approvisionnement, prédire les retards et réassigner des tâches de manière autonome pour éviter les temps d'arrêt."
-    },
-    {
-      "question": "4. Un copilote est-il meilleur qu'un chatbot ?",
-      "answer": "Oui, dans la plupart des cas. Un copilote comprend le contexte et fournit des suggestions plus intelligentes, tandis qu'un chatbot se limite généralement à des réponses scriptées. Si vous avez besoin d'un support dynamique, les copilotes offrent plus de valeur."
-    },
-    {
-      "question": "5. Quel outil IA est plus puissant : agent ou copilote ?",
-      "answer": "Les agents sont généralement plus puissants que les copilotes. Alors que les copilotes assistent les utilisateurs, les agents IA vont plus loin : ils agissent de manière autonome, apprennent continuellement et s'adaptent aux besoins changeants de l'entreprise."
-    },
-    {
-      "question": "6. Quelle IA devrais-je utiliser pour le support client dans l'industrie ?",
-      "answer": "Pour le service client dans l'industrie, les agents IA sont idéaux. Ils gèrent des requêtes complexes, dirigent les cas de manière intelligente, s'intègrent aux systèmes ERP ou MES et fournissent des mises à jour en temps réel. Cela réduit la charge de travail humaine et accélère la résolution."
-    },
-    {
-      "question": "7. Les agents IA peuvent-ils remplacer complètement les humains dans les opérations ?",
-      "answer": "Pas entièrement. Les agents IA sont puissants pour gérer des tâches répétitives ou lourdes en données, mais la collaboration humain-IA reste essentielle pour les décisions stratégiques, l'intelligence émotionnelle et la supervision éthique. Les agents amplifient les opérations — ils ne remplacent pas les humains."
-    }
-  ],
-  "data": [
-    {
-      "scenario": "Traitement des commandes",
-      "complexity": "Faible",
-      "criticality": "Faible",
-      "tool": "Bot",
-      "justification": "Suit des règles claires. Aucune prise de décision nécessaire — juste des actions rapides et répétables.",
-      "color": "bg-[#E8F7FF]"
-    },
-    {
-      "scenario": "Génération de propositions commerciales",
-      "complexity": "Moyen",
-      "criticality": "Moyen",
-      "tool": "Copilot",
-      "justification": "Assiste les humains en extrayant des données, en suggérant du contenu et en réduisant l'effort manuel.",
-      "color": "bg-[#EBE3FF]"
-    },
-    {
-      "scenario": "Prévision de la demande",
-      "complexity": "Élevé",
-      "criticality": "Élevé",
-      "tool": "Agent IA",
-      "justification": "Nécessite une modélisation prédictive et une logique autonome sur plusieurs systèmes.",
-      "color": "bg-[#FFF1E5]"
-    },
-    {
-      "scenario": "Gestion des FAQ clients",
-      "complexity": "Faible",
-      "criticality": "Faible",
-      "tool": "Bot",
-      "justification": "Questions et réponses standard. Les conversations scriptées fonctionnent bien ici.",
-      "color": "bg-[#E8F7FF]"
-    },
-    {
-      "scenario": "Configuration de devis produits",
-      "complexity": "Moyen",
-      "criticality": "Moyen",
-      "tool": "Copilot",
-      "justification": "Navigue dans la logique de tarification et les règles de produits. Supporte la prise de décision humaine.",
-      "color": "bg-[#ECE3FF]"
-    },
-    {
-      "scenario": "Résolution de tickets de support",
-      "complexity": "Élevé",
-      "criticality": "Élevé",
-      "tool": "Agent IA",
-      "justification": "Priorise les problèmes, agit sur plusieurs systèmes et apprend de l'historique des résolutions.",
-      "color": "bg-[#FFF1E5]"
-    },
-    {
-      "scenario": "Planification de la production",
-      "complexity": "Élevé",
-      "criticality": "Élevé",
-      "tool": "Agent IA",
-      "justification": "Équilibre les contraintes, adapte les plans et automatise des flux de travail complexes.",
-      "color": "bg-[#E8F7FF]"
-    },
-    {
-      "scenario": "Aide au téléchargement de documents",
-      "complexity": "Faible",
-      "criticality": "Faible",
-      "tool": "Bot",
-      "justification": "Logique minimale. La tâche est simple et ne nécessite pas de contexte utilisateur.",
-      "color": "bg-[#ECE3FF]"
-    },
-    {
-      "scenario": "Guidance pour la formation commerciale",
-      "complexity": "Moyen",
-      "criticality": "Faible",
-      "tool": "Copilot",
-      "justification": "Fournit des conseils en temps réel, des liens vers la documentation et des suggestions pendant la vente.",
-      "color": "bg-[#FFF1E5]"
-    }
-  ]
+        "date": "25 Juillet 2025",
+        "blogTitle": "Agents vs. Copilotes vs. Bots :",
+        "blogMainData": "Une comparaison stratégique qui conduit à une adoption réussie de l’IA",
+        "why": "Pourquoi comprendre les Bots, Copilotes et Agents IA est essentiel pour votre entreprise",
+        "whyDesc": "Les outils d’IA transforment la façon dont des secteurs comme la fabrication, l’automobile et le service client fonctionnent à grande échelle. Le bon assistant IA peut complètement changer la manière dont les équipes travaillent, en passant de l’automatisation des tâches répétitives à la fourniture d’informations en temps réel.",
+        "whyDescOne": "Mais voici le problème : bots, copilotes et agents IA sont souvent utilisés de manière interchangeable, alors qu’ils signifient des choses très différentes. Cette confusion peut conduire à de mauvais choix technologiques et à des résultats décevants.",
+        "whylink": "Cette analyse vise à clarifier les choses. Nous examinerons les différences entre ces types d’assistants IA, comment chacun fonctionne, et pour quels cas d’utilisation ils sont les mieux adaptés. Ainsi, vous pourrez aligner la bonne solution sur vos objectifs commerciaux, qu’il s’agisse de ",
+        "whylinkOne": "l’automatisation basée sur des agents dans la fabrication",
+        "whylinkTwo": " ou du déploiement de copilotes intelligents pour les équipes de terrain.",
+        "title": "« Le plus grand danger en période de turbulence n’est pas la turbulence, mais d’agir avec la logique d’hier. »",
+        "name": " — Peter Drucker",
+        "aiTitle": "Assurons-nous que votre stratégie IA ne reste pas bloquée dans des définitions dépassées.",
+        "aiDesc": "Comprendre les trois types d’assistants IA",
+        "aiDesc1": "Bots – Les chevaux de trait basés sur des règles de l’automatisation en entreprise",
+        "aiDesc2": "Les bots sont la forme la plus simple d’IA, généralement des programmes basés sur des règles qui gèrent des tâches répétitives et structurées. Ils fonctionnent selon des instructions prédéfinies, ce qui signifie qu’ils exécutent des fonctions sans réel besoin de conscience contextuelle ou de résolution de problèmes complexes.",
+        "aiDesc3": "Les bots sont fiables et efficaces pour des tâches bien définies et répétitives, mais leur fonctionnalité est limitée. Ils manquent d’adaptabilité et de conscience contextuelle, ce qui les rend inefficaces face aux situations imprévisibles. Contrairement aux Agents Agentforce, ils n’apprennent pas des interactions passées ni ne prennent de décisions autonomes, ce qui les rend moins adaptés aux flux de travail complexes.",
+        "application": "Applications",
+        "smartTitle": "Copilotes – Assistants intelligents qui renforcent les décisions humaines",
+        "smartDesc": "Contrairement aux agents ou aux bots, les copilotes sont des assistants IA qui travaillent en tandem avec les humains, en fournissant des suggestions, des idées et des retours sans prendre de décisions totalement autonomes. L’objectif d’un copilote est de soutenir les utilisateurs, en particulier dans les tâches nécessitant créativité ou résolution de problèmes, permettant ainsi une collaboration augmentée plutôt qu’une automatisation complète.",
+        "smartDesc1": "Les copilotes IA amplifient l’expertise humaine plutôt que de la remplacer, ce qui les rend idéaux dans les domaines nécessitant une pensée critique, un apport créatif ou une compréhension contextuelle. Bien que très efficaces comme outils d’assistance, ils dépendent fortement de l’entrée et de l’orientation des utilisateurs, ce qui les rend moins utiles dans les scénarios où une prise de décision autonome est requise.",
+        "agentTitle": "Agents – IA autonome et adaptative pour les tâches complexes",
+        "agentDesc": "Les Agents IA représentent le niveau supérieur de l’IA ; ce sont des assistants conversationnels de confiance conçus pour gérer des tâches de manière autonome et s’adapter aux scénarios changeants. Ce sont des solutions préconstruites qui peuvent recevoir une saisie d’un utilisateur et la traduire en une série d’actions basées sur des instructions que vous pouvez configurer et améliorer.",
+        "agentDescOne": "Grâce à l’apprentissage automatique et aux algorithmes adaptatifs, ils peuvent reconnaître indépendamment les opportunités d’action, anticiper les prochaines étapes et initier des tâches dans des cas d’utilisation et des paramètres définis. Contrairement aux bots traditionnels, les Agents Agentforce peuvent comprendre et réagir au contexte, ce qui les rend extrêmement précieux dans des environnements Salesforce complexes et dynamiques.",
+        "agentDescTwo": "Les agents excellent dans l’adaptabilité, peuvent répondre aux données en temps réel et affiner continuellement leurs performances. Cette adaptabilité leur permet d’exécuter des tâches complexes de manière indépendante, améliorant ainsi la productivité globale. Ils gèrent des situations complexes et sensibles au contexte, où le résultat dépend de divers facteurs dynamiques, les rendant beaucoup plus polyvalents que les bots.",
+        "bot": "Bots vs Copilotes vs Agents : Tableau comparatif pour les flux de travail d’entreprise pilotés par l’IA",
+        "botdesc": "Chaque outil IA est efficace dans son domaine, et la clé est de savoir lequel déployer en fonction de la tâche à accomplir. Voici un aperçu comparatif de leurs différences :",
+        "auto": "Le voyage de l’automatisation : Bots vs. Copilotes vs. Agents IA expliqué simplement",
+        "decision": "Matrice de décision : Choisir entre Bots, Copilotes et Agents IA pour les cas d’utilisation en entreprise",
+        "real": "Études de cas réelles : l’IA en action",
+        "toolTitle": "Comment les outils IA se fusionnent dans l’Industrie 4.0 : Copilotes, Bots et Agents expliqués",
+        "toolDesc": "L’avenir de l’IA verra probablement une plus grande intégration de ces outils. Ce qui était autrefois séparé – chatbots répondant à des requêtes basiques, copilotes assistant les utilisateurs dans les CRM, et agents gérant des opérations autonomes – fonctionne désormais de manière unifiée dans des flux de travail pilotés par l’IA.",
+        "toolDecs1": "La convergence de l’IA transforme l’atelier de production, où un flux de travail peut inclure un bot capturant des données, un copilote les validant dans l’ERP, et un agent déterminant les prochaines étapes. Les agents Agentforce sont hautement autonomes, capables de prendre des décisions basées sur les données et d’apprendre de l’expérience sans supervision humaine. Ils utilisent des capteurs et des actionneurs pour percevoir leur environnement et poursuivre des objectifs de manière indépendante, comme la reprogrammation automatique de la production lors de retards d’approvisionnement ou la résolution de problèmes de qualité dans la fabrication. Ces agents accèdent aux données des systèmes ERP, MES, CRM et IoT pour prendre des décisions contextuelles et initier les flux de travail appropriés.",
+        "toolLink": "Vous souhaitez en savoir plus sur les agents Agentforce ou avez besoin d’aide pour démarrer ? Nous sommes là pour vous accompagner. Chez Rialtes, nous sommes spécialisés dans le ",
+        "toolLink1": "conseil Agentforce",
+        "toolLink2": " et nous avons aidé des clients à obtenir des améliorations significatives de productivité en tirant parti des outils IA pour gérer des tâches complexes et évolutives de manière autonome. Parlons ensemble de l’alignement de la bonne IA avec vos processus métiers.",
+        "faq": "FAQ : Bots vs Copilotes vs Agents — Les principales questions répondues",
+        "scenario": "Scénario",
+        "task": "Complexité de la tâche",
+        "decisionTitle": "Criticité de la décision",
+        "recommended": "Outil IA recommandé",
+        "justification": "Justification",
+        "caseStudies": [
+            {
+                "title": "Cas 1 : Bot e-commerce pour l’automatisation du service client",
+                "desc": "Un grand détaillant en ligne a mis en place un bot de service client pour gérer les demandes massives concernant le statut des commandes, les retours et la disponibilité des produits. En quelques semaines, le bot gérait 70 % des requêtes entrantes, libérant ainsi les agents humains pour des problèmes plus complexes et des escalades. Ce niveau d’automatisation a réduit le temps de réponse moyen de 60 % et a considérablement amélioré la satisfaction client."
+            },
+            {
+                "title": "Cas 2 : Copilote en vente B2B pour insights CRM",
+                "desc": "Une entreprise mondiale de logiciels a déployé un copilote de vente dans son système CRM. L’outil agissait comme assistant IA CRM, mettant en avant des données clients pertinentes, suggérant les prochaines meilleures actions, et rédigeant même des réponses par e-mail. Ce copilote IA a permis aux équipes commerciales de réduire le temps de préparation avant les appels et de conclure plus rapidement en restant en avance sur le parcours de l’acheteur."
+            },
+            {
+                "title": "Cas 3 : Agent IA bancaire pour la détection de fraude en temps réel",
+                "desc": "Une grande banque a déployé des agents IA qui travaillent en arrière-plan pour surveiller les transactions en temps réel. Ces agents intelligents analysent les comportements, signalent les activités suspectes et bloquent de manière autonome les transactions si nécessaire. La banque a constaté une amélioration de 45 % de la précision de détection de fraude avec un minimum de faux positifs."
+            }
+        ],
+        "list": [
+            {
+                "title": "Support Retail",
+                "desc": "Les bots automatisés gèrent les requêtes de type FAQ, en répondant rapidement aux questions les plus fréquentes en support client."
+            },
+            {
+                "title": "Automatisation des tâches basiques",
+                "desc": "Les bots d’entreprise automatisent les processus répétitifs comme l’envoi de notifications, le tri des e-mails et la gestion de flux de travail simples."
+            }
+        ],
+        "copilotList": [
+            {
+                "title": "Activation des ventes",
+                "desc": "Les copilotes IA fournissent des suggestions en temps réel et des recommandations de contenu lors des appels de vente, aidant les commerciaux à adapter leurs arguments et à répondre efficacement."
+            },
+            {
+                "title": "Personnalisation Marketing",
+                "desc": "Les copilotes assistent les marketeurs dans la création de campagnes d'e-mails personnalisées, l'analyse des tests A/B et l'optimisation des stratégies d'engagement."
+            },
+            {
+                "title": "Support du Service Client",
+                "desc": "Alors que les agents humains interagissent avec les clients, les copilotes affichent des articles de la base de connaissances, l'historique des cas précédents et des suggestions de solutions pour guider la résolution."
+            }
+        ],
+        "agentUseCases": [
+            {
+                "title": "Optimisation de la chaîne d'approvisionnement",
+                "desc": "Les agents détectent automatiquement les retards, réacheminent les expéditions et équilibrent les stocks entre les entrepôts en fonction de la demande en temps réel."
+            },
+            {
+                "title": "Maintenance Prédictive",
+                "desc": "Dans l'industrie, les agents analysent les données des capteurs IoT pour prédire les pannes d'équipements et déclencher automatiquement les flux de maintenance."
+            },
+            {
+                "title": "Automatisation du Service Client",
+                "desc": "Les agents gèrent des interactions complexes avec le service client, trient les cas de support et exécutent des workflows de résolution de bout en bout sans intervention humaine."
+            }
+        ],
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "30 sept. 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Comment fonctionne réellement Salesforce Agentforce",
+                "description": "Salesforce Agentforce, bien qu'étant une addition récente à l'écosystème Salesforce, fait parler de lui, notamment dans les organisations qui gèrent de grandes équipes d'agents, tels que les commerciaux, les représentants du service client et le personnel sur le terrain."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "21 oct. 2024",
+                "title": "Le cerveau derrière les agents : découvrir le moteur de raisonnement Atlas dans Agentforce",
+                "description": "À mesure que les entreprises se développent, la complexité de la gestion des interactions clients augmente, créant le besoin de systèmes de support plus intelligents et rationalisés. Salesforce Agentforce offre une plateforme robuste pour l'automatisation du service client, désormais améliorée par le moteur de raisonnement révolutionnaire Atlas."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "25 nov. 2024",
+                "title": "Centre de test Agentforce : redéfinir les tests IA avec des données synthétiques",
+                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center au sein de sa plateforme IA agentique, Agentforce. Cette addition permet aux utilisateurs d'entreprise de tester et de surveiller les agents IA avant leur déploiement en production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources Humaines",
+                "date": "24 déc. 2024",
+                "title": "Comment intégrer SAP SuccessFactors à Microsoft Office 365 pour une collaboration améliorée",
+                "description": "L'intégration fluide des applications d'entreprise offre une meilleure collaboration, efficacité et productivité. L'intégration de SAP SuccessFactors avec Microsoft Office 365 combine les forces d'une solution leader en gestion de l'expérience humaine (HXM) et d'une suite robuste d'outils de productivité."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Cloud Green Technology",
+                "industry": "Agriculture",
+                "date": "17 sept. 2024",
+                "title": "Agriculture 4.0 : comment les technologies numériques transforment l'agriculture pour un avenir meilleur ?",
+                "description": "L'agriculture joue un rôle significatif dans l'économie croissante de l'Inde et son avenir ne peut se réaliser sans outils numériques et innovation technologique."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources Humaines",
+                "date": "29 oct. 2024",
+                "title": "Gestion de la performance et des objectifs avec SAP SuccessFactors",
+                "description": "Atteindre les objectifs de votre organisation est une responsabilité clé que partage toute votre équipe. Lorsque la stratégie de votre équipe est alignée sur ses objectifs et les objectifs organisationnels plus larges, agir correctement devient instinctif."
+            }
+        ],
+        "faqData": [
+            {
+                "question": "1. Quelle est la différence entre bots, copilotes et agents ?",
+                "answer": [
+                    "Les bots suivent des scripts prédéfinis et gèrent des tâches simples. Les copilotes assistent les utilisateurs avec des suggestions, souvent en temps réel, mais nécessitent toujours une intervention humaine. Les agents IA, quant à eux, peuvent prendre des décisions de manière autonome, apprendre du contexte et agir sur plusieurs systèmes.",
+                    "Pensez-y ainsi :",
+                    "Bot = suit les commandes",
+                    "Copilote = aide avec des suggestions intelligentes",
+                    "Agent = agit intelligemment en votre nom"
+                ]
+            },
+            {
+                "question": "2. Quel est un exemple de bot ?",
+                "answer": "Un chatbot sur un site de vente au détail qui répond à des questions basiques comme « Quelle est votre politique de retour ? » est un exemple courant de bot. Il suit des réponses pré-écrites et ne peut pas s'adapter au-delà de son script."
+            },
+            {
+                "question": "3. Que fait un agent IA ?",
+                "answer": "Un agent IA comprend des objectifs, prend des décisions et agit sur différents systèmes. Par exemple, dans la fabrication, il peut surveiller les données de la chaîne d'approvisionnement, prédire les retards et réassigner des tâches de manière autonome pour éviter les temps d'arrêt."
+            },
+            {
+                "question": "4. Un copilote est-il meilleur qu'un chatbot ?",
+                "answer": "Oui, dans la plupart des cas. Un copilote comprend le contexte et fournit des suggestions plus intelligentes, tandis qu'un chatbot se limite généralement à des réponses scriptées. Si vous avez besoin d'un support dynamique, les copilotes offrent plus de valeur."
+            },
+            {
+                "question": "5. Quel outil IA est plus puissant : agent ou copilote ?",
+                "answer": "Les agents sont généralement plus puissants que les copilotes. Alors que les copilotes assistent les utilisateurs, les agents IA vont plus loin : ils agissent de manière autonome, apprennent continuellement et s'adaptent aux besoins changeants de l'entreprise."
+            },
+            {
+                "question": "6. Quelle IA devrais-je utiliser pour le support client dans l'industrie ?",
+                "answer": "Pour le service client dans l'industrie, les agents IA sont idéaux. Ils gèrent des requêtes complexes, dirigent les cas de manière intelligente, s'intègrent aux systèmes ERP ou MES et fournissent des mises à jour en temps réel. Cela réduit la charge de travail humaine et accélère la résolution."
+            },
+            {
+                "question": "7. Les agents IA peuvent-ils remplacer complètement les humains dans les opérations ?",
+                "answer": "Pas entièrement. Les agents IA sont puissants pour gérer des tâches répétitives ou lourdes en données, mais la collaboration humain-IA reste essentielle pour les décisions stratégiques, l'intelligence émotionnelle et la supervision éthique. Les agents amplifient les opérations — ils ne remplacent pas les humains."
+            }
+        ],
+        "data": [
+            {
+                "scenario": "Traitement des commandes",
+                "complexity": "Faible",
+                "criticality": "Faible",
+                "tool": "Bot",
+                "justification": "Suit des règles claires. Aucune prise de décision nécessaire — juste des actions rapides et répétables.",
+                "color": "bg-[#E8F7FF]"
+            },
+            {
+                "scenario": "Génération de propositions commerciales",
+                "complexity": "Moyen",
+                "criticality": "Moyen",
+                "tool": "Copilot",
+                "justification": "Assiste les humains en extrayant des données, en suggérant du contenu et en réduisant l'effort manuel.",
+                "color": "bg-[#EBE3FF]"
+            },
+            {
+                "scenario": "Prévision de la demande",
+                "complexity": "Élevé",
+                "criticality": "Élevé",
+                "tool": "Agent IA",
+                "justification": "Nécessite une modélisation prédictive et une logique autonome sur plusieurs systèmes.",
+                "color": "bg-[#FFF1E5]"
+            },
+            {
+                "scenario": "Gestion des FAQ clients",
+                "complexity": "Faible",
+                "criticality": "Faible",
+                "tool": "Bot",
+                "justification": "Questions et réponses standard. Les conversations scriptées fonctionnent bien ici.",
+                "color": "bg-[#E8F7FF]"
+            },
+            {
+                "scenario": "Configuration de devis produits",
+                "complexity": "Moyen",
+                "criticality": "Moyen",
+                "tool": "Copilot",
+                "justification": "Navigue dans la logique de tarification et les règles de produits. Supporte la prise de décision humaine.",
+                "color": "bg-[#ECE3FF]"
+            },
+            {
+                "scenario": "Résolution de tickets de support",
+                "complexity": "Élevé",
+                "criticality": "Élevé",
+                "tool": "Agent IA",
+                "justification": "Priorise les problèmes, agit sur plusieurs systèmes et apprend de l'historique des résolutions.",
+                "color": "bg-[#FFF1E5]"
+            },
+            {
+                "scenario": "Planification de la production",
+                "complexity": "Élevé",
+                "criticality": "Élevé",
+                "tool": "Agent IA",
+                "justification": "Équilibre les contraintes, adapte les plans et automatise des flux de travail complexes.",
+                "color": "bg-[#E8F7FF]"
+            },
+            {
+                "scenario": "Aide au téléchargement de documents",
+                "complexity": "Faible",
+                "criticality": "Faible",
+                "tool": "Bot",
+                "justification": "Logique minimale. La tâche est simple et ne nécessite pas de contexte utilisateur.",
+                "color": "bg-[#ECE3FF]"
+            },
+            {
+                "scenario": "Guidance pour la formation commerciale",
+                "complexity": "Moyen",
+                "criticality": "Faible",
+                "tool": "Copilot",
+                "justification": "Fournit des conseils en temps réel, des liens vers la documentation et des suggestions pendant la vente.",
+                "color": "bg-[#FFF1E5]"
+            }
+        ]
     },
     "brainBehind": {
         "blogs": [
@@ -4213,5 +4213,468 @@
         "readyTitle": "Prêt à améliorer l’expérience client avec les LLM ? Laissez Rialtes vous aider.",
         "readyDesc": "Chez Rialtes, nous travaillons avec les entreprises pour intégrer directement les LLM dans leur pile de service client, offrant des conversations plus intelligentes, des résolutions plus rapides et des interactions plus humaines sur tous les canaux.",
         "readyDesc2": "Nous vous aiderons à élaborer une stratégie évolutive, sécurisée et alignée sur vos objectifs, qu’il s’agisse de réduire la charge du support, d’augmenter le NPS ou de fournir un support multilingue 24/7. Rendons votre expérience client aussi intelligente que vos clients s’y attendent. Contactez-nous à sales@rialtes.com pour commencer la conversation."
+    },
+    "whySapSignavio": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Comment Salesforce Agentforce fonctionne réellement",
+                "description": "Salesforce Agentforce, bien qu’un ajout plus récent à l’écosystème Salesforce, fait beaucoup parler de lui, en particulier dans les organisations qui gèrent de grandes équipes d’agents, comme les commerciaux, les représentants du service client et le personnel de terrain."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "21 Oct 2024",
+                "title": "Le cerveau derrière les agents : révéler le moteur de raisonnement Atlas dans Agentforce",
+                "description": "À mesure que les entreprises se développent, la complexité de la gestion des interactions clients se multiplie, ce qui accroît le besoin de systèmes de support plus intelligents et rationalisés. Salesforce Agentforce offre une plateforme robuste pour l’automatisation du service client, désormais renforcée par l’innovant moteur de raisonnement Atlas."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center : redéfinir les tests d’IA avec des données synthétiques",
+                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center au sein de sa plateforme d’IA agentique, Agentforce. Cet ajout permet aux utilisateurs d’entreprise de tester et de surveiller les agents IA avant de les déployer en production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources humaines",
+                "date": "24 Déc 2024",
+                "title": "Comment intégrer SAP SuccessFactors avec Microsoft Office 365 pour une collaboration renforcée",
+                "description": "Une intégration fluide entre les applications d’entreprise améliore la collaboration, l’efficacité et la productivité. L’intégration de SAP SuccessFactors avec Microsoft Office 365 combine les atouts d’une solution de gestion de l’expérience humaine (HXM) leader et d’une suite robuste d’outils de productivité."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Technologie verte dans le cloud",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0 : comment les technologies numériques transforment l’agriculture pour un avenir meilleur ?",
+                "description": "L’agriculture joue un rôle essentiel dans l’économie croissante de l’Inde et son avenir ne peut être assuré sans outils numériques et innovations technologiques."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources humaines",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Performance and Goal Management",
+                "description": "Atteindre les objectifs de votre organisation est une responsabilité partagée par toute votre équipe. Lorsque la stratégie de votre équipe s’aligne avec ses objectifs et les objectifs organisationnels plus larges, faire ce qu’il faut devient instinctif."
+            }
+        ],
+        "blogdescData": [
+            "Les organisations sont à un stade où elles doivent moderniser leurs systèmes ERP, rationaliser leurs opérations et exploiter les informations en temps réel. SAP S/4HANA est devenu le cœur numérique des entreprises cherchant à atteindre cette transformation. Toutefois, la véritable différence entre une simple migration et une transformation réussie réside dans la manière dont une organisation aligne efficacement ses processus métier avec S/4HANA.",
+            "C’est là que la suite SAP Signavio Business Process Transformation et la méthodologie éprouvée Voyager+ de Rialtes se rejoignent pour offrir des résultats mesurables. Rialtes veille à ce que les dirigeants métiers et IT ne se contentent pas de migrer vers S/4HANA, mais redéfinissent la façon dont leur entreprise fonctionne à l’ère numérique."
+        ],
+        "transformationPoints": [
+            {
+                "title": "Approche centrée sur les processus",
+                "desc": "Assure que la transformation est guidée par des processus standardisés et optimisés plutôt que par les contraintes du système."
+            },
+            {
+                "title": "Alignement métier-IT",
+                "desc": "Réduit l’écart entre les responsables fonctionnels et l’IT en créant un langage de processus commun."
+            },
+            {
+                "title": "Transparence du changement",
+                "desc": "Offre une visibilité sur les processus « tels quels » et « futurs », permettant une prise de décision éclairée."
+            },
+            {
+                "title": "Amélioration continue",
+                "desc": "La transformation ne s’arrête pas au go-live. Signavio aide les organisations à adopter une culture d’optimisation continue."
+            }
+        ],
+        "voyagerPoints": [
+            {
+                "title": "Services de conseil",
+                "desc": "Voyager+ commence par des évaluations stratégiques pour les licences, la standardisation des processus et la planification de la préparation."
+            },
+            {
+                "title": "Conception et modélisation des processus",
+                "desc": "Avec Signavio, nous définissons les processus futurs qui s’alignent avec les meilleures pratiques SAP et les références du secteur."
+            },
+            {
+                "title": "Excellence de mise en œuvre",
+                "desc": "Des chefs de projet certifiés SAP Activate garantissent que chaque plan et configuration est traçable aux résultats métiers."
+            },
+            {
+                "title": "Mise en service et au-delà",
+                "desc": "Voyager+ assure une transition fluide, un transfert de connaissances et un hypercare, tandis que les services gérés de Rialtes permettent une amélioration continue."
+            }
+        ],
+        "intelligentPoints": [
+            {
+                "title": "Informations conversationnelles sur les processus",
+                "desc": "Joule peut mettre en évidence, en langage naturel, les inefficacités identifiées dans Signavio, permettant une prise de décision plus rapide."
+            },
+            {
+                "title": "Recommandations automatisées",
+                "desc": "Joule génère des suggestions d’amélioration alignées sur les KPI métier suivis dans Signavio."
+            },
+            {
+                "title": "Guidage en temps réel",
+                "desc": "Les utilisateurs métier reçoivent des recommandations de processus pilotées par l’IA lorsqu’ils interagissent avec S/4HANA, assurant une adoption plus rapide."
+            }
+        ],
+        "benefitsPoints": [
+            {
+                "title": "Clarté des processus actuels",
+                "desc": "Le process mining via Signavio révèle les schémas d’exécution, les goulets d’étranglement et les inefficacités, donnant aux entreprises une base factuelle pour la transformation."
+            },
+            {
+                "title": "Conception de processus prêts pour l’avenir",
+                "desc": "En simulant les processus « futurs », les entreprises peuvent harmoniser leurs opérations à travers les géographies et unités, tout en s’alignant avec le cœur numérique de S/4HANA."
+            },
+            {
+                "title": "Accélération des ateliers Fit-to-Standard",
+                "desc": "Signavio fournit des cartes de processus et des KPI prêts à l’emploi, rendant les ateliers axés sur les données, centrés sur les résultats et plus rapides à exécuter."
+            },
+            {
+                "title": "Intégration avec SAP Cloud ALM (CALM)",
+                "desc": "Associé à SAP Cloud ALM, Signavio garantit la gouvernance, la traçabilité et le suivi des KPI tout au long du cycle de vie du programme."
+            },
+            {
+                "title": "Amélioration de la gestion du changement et adoption",
+                "desc": "La documentation et la visualisation basées sur les rôles simplifient la formation des utilisateurs, favorisant une adoption plus rapide et un engagement à long terme avec S/4HANA."
+            }
+        ],
+        "domainsPoints": [
+            {
+                "title": "Finance (Record-to-Report)",
+                "desc": "Cycles de clôture standardisés et moins de saisies manuelles."
+            },
+            {
+                "title": "Approvisionnement (Procure-to-Pay)",
+                "desc": "Onboarding des fournisseurs rationalisé et gestion des dépenses."
+            },
+            {
+                "title": "Ventes et distribution (Order-to-Cash)",
+                "desc": "Exécution harmonisée et meilleure expérience client."
+            },
+            {
+                "title": "Fabrication",
+                "desc": "Meilleure planification et intégration atelier avec des insights basés sur l’analytique."
+            },
+            {
+                "title": "Chaîne d’approvisionnement",
+                "desc": "Amélioration de la planification de la demande et du contrôle des stocks avec intelligence intégrée."
+            },
+            {
+                "title": "Gestion du capital humain",
+                "desc": "Processus RH numérisés alignés sur les besoins d’expérience des employés."
+            }
+        ],
+        "riskPoints": [
+            "Migrer les inefficacités dans S/4HANA.",
+            "Délais prolongés dus à des processus flous.",
+            "Coûts de mise en œuvre plus élevés dus aux reprises.",
+            "Faible adoption des utilisateurs par manque de clarté."
+        ],
+        "faqData": [
+            {
+                "question": "1. S/4HANA n’est-il pas suffisamment puissant seul ? Pourquoi ai-je besoin de Signavio ?",
+                "answer": [
+                    "S/4HANA fournit le cœur numérique, mais sans clarté des processus vous risquez de migrer vos inefficacités. Signavio garantit que vos processus sont optimisés, standardisés et alignés avec les meilleures pratiques SAP avant et après la migration."
+                ]
+            },
+            {
+                "question": "2. Comment Signavio réduit-il les risques dans un programme S/4HANA ?",
+                "answer": [
+                    "En offrant une visibilité sur les processus « tels quels » et « futurs », Signavio évite l’élargissement du périmètre, réduit les reprises et renforce la gouvernance tout au long de la transformation."
+                ]
+            },
+            {
+                "question": "3. Signavio peut-il aider à une adoption plus rapide de S/4HANA ?",
+                "answer": [
+                    "Oui. Grâce à une documentation basée sur les rôles, des modèles de processus visuels et des insights pilotés par l’IA via Joule, Signavio simplifie la formation et permet aux utilisateurs métier de s’adapter rapidement."
+                ]
+            },
+            {
+                "question": "4. Quels domaines de l’entreprise bénéficient le plus de Signavio pendant la migration S/4HANA ?",
+                "answer": [
+                    "Finance, Approvisionnement, Chaîne d’approvisionnement, Fabrication, Ventes & Distribution et RH bénéficient tous de processus standardisés et harmonisés qui améliorent l’efficacité et l’expérience."
+                ]
+            },
+            {
+                "question": "5. Comment Signavio fonctionne-t-il avec SAP Cloud ALM ?",
+                "answer": [
+                    "L’intégration garantit la traçabilité, le suivi des KPI et la conformité sur tout le cycle de vie du programme — facilitant la gestion des transformations à grande échelle."
+                ]
+            },
+            {
+                "question": "6. Que se passe-t-il si nous implémentons S/4HANA sans utiliser Signavio ?",
+                "answer": [
+                    "Vous risquez de conserver vos inefficacités historiques, de rallonger les délais, d’augmenter les coûts à cause des reprises, et de rencontrer une faible adoption utilisateur."
+                ]
+            },
+            {
+                "question": "7. Comment la méthodologie Voyager+ de Rialtes améliore-t-elle l’impact de Signavio ?",
+                "answer": [
+                    "Voyager+ exploite Signavio à chaque étape de SAP Activate — du conseil et de la conception à la mise en œuvre et l’hypercare — garantissant que les résultats métier restent au centre."
+                ]
+            }
+        ],
+        "blogTopic": "SAP Signavio",
+        "blogTitle": "Pourquoi SAP Signavio est essentiel pour une mise en œuvre réussie de S/4HANA",
+        "strategicTitle": "Le rôle stratégique de SAP Signavio dans les transformations S/4HANA",
+        "strategicDesc": "Migrer vers S/4HANA n’est pas simplement une mise à niveau technique. C’est une initiative à l’échelle de l’entreprise qui redéfinit les processus, la gouvernance et les modèles de performance. SAP Signavio fournit la visibilité de bout en bout, la modélisation et les capacités d’optimisation permettant aux entreprises de faire la transition en toute confiance.",
+        "keyReasonTitle": "Raisons clés pour lesquelles Signavio est important :",
+        "voyagerTitle": "Méthodologie Voyager+ de Rialtes : une feuille de route claire pour S/4HANA",
+        "voyagerDesc": "Chez Rialtes, nous avons développé",
+        "voyagerDescLink": "Voyager+",
+        "voyagerDesc2": "notre méthodologie propriétaire qui simplifie et accélère le",
+        "voyagerDesc3": "parcours S/4HANA en tirant parti de SAP Signavio à chaque étape du",
+        "voyagerDescStrong": "cadre SAP Activate.",
+        "methodologyDesc": "Cette méthodologie réduit les risques, élimine les reprises et établit un cadre de transformation évolutif à l’échelle mondiale.",
+        "jouleTitle": "Joule + Signavio : le duo intelligent de transformation",
+        "jouleDesc": "Le nouvel assistant IA générative de SAP",
+        "jouleDescStrong": "Joule",
+        "jouleDesc2": "apporte l’intelligence directement dans le parcours de transformation.",
+        "jouleDesc3": "Combiné à",
+        "signavioStrong": "Signavio",
+        "jouleDesc4": "l’impact se multiplie :",
+        "jouleSignavioDesc": "Avec",
+        "jouleSignavioStrong": "Joule + Signavio",
+        "jouleSignavioDesc2": "Rialtes permet aux clients de transformer leur organisation avec",
+        "jouleSignavioDesc3": "la précision de l’IA et un design centré sur l’humain.",
+        "benefitsTitle": "Avantages de l’utilisation de SAP Signavio dans un parcours S/4HANA",
+        "useCasesTitle": "Cas d’usage dans toute l’entreprise",
+        "useCasesDesc": "SAP Signavio pour S/4HANA apporte une valeur mesurable dans plusieurs domaines :",
+        "whyNotTitle": "Pourquoi ne pas avoir Signavio peut être risqué",
+        "whyNotDesc": "Sans SAP Signavio, les organisations risquent :",
+        "whyNotDesc2": "En résumé, une mise en œuvre de S/4HANA sans Signavio, c’est comme construire un gratte-ciel ultramoderne sur des fondations fragiles.",
+        "rialtesSignavioTitle": "Rialtes + Signavio + S/4HANA = Transformation intelligente",
+        "rialtesSignavioDesc": "SAP S/4HANA est la colonne vertébrale numérique des entreprises du futur. Mais pour libérer tout son potentiel, les organisations ont besoin de clarté, de transparence et d’insights pilotés par l’IA. Avec la méthodologie Voyager+ de Rialtes, la suite de transformation des processus Signavio et l’",
+        "rialtesSignavioLink": "intelligence de Joule",
+        "rialtesSignavioDesc2": "les entreprises peuvent mener en toute confiance une transformation métier évolutive, mesurable et prête pour l’avenir.",
+        "rialtesSignavioDesc3": "Le message est clair : avec Rialtes comme partenaire de transformation, S/4HANA devient la base de la réinvention intelligente de l’entreprise.",
+        "faqTitle": "FAQ : Foire aux questions"
+    },
+    "beyondRobotics": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Comment fonctionne réellement Salesforce Agentforce",
+                "description": "Salesforce Agentforce, bien qu’étant une nouveauté dans l’écosystème Salesforce, fait parler de lui, en particulier dans les organisations qui gèrent de grandes équipes d’agents, comme les agents commerciaux, les représentants du service client et le personnel de terrain."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "21 Oct 2024",
+                "title": "Le cerveau derrière les agents : dévoiler le moteur de raisonnement Atlas dans Agentforce",
+                "description": "À mesure que les entreprises se développent, la complexité de la gestion des interactions clients se multiplie, ce qui crée le besoin de systèmes d’assistance plus intelligents et rationalisés. Salesforce Agentforce fournit une plateforme robuste pour l’automatisation du service client, désormais renforcée par le moteur de raisonnement révolutionnaire Atlas."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center : redéfinir les tests IA avec des données synthétiques",
+                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center dans sa plateforme d’IA agentique, Agentforce. Cette nouveauté permet aux utilisateurs d’entreprise de tester et de surveiller les agents IA avant de les déployer en production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources humaines",
+                "date": "24 Déc 2024",
+                "title": "Comment intégrer SAP SuccessFactors avec Microsoft Office 365 pour une meilleure collaboration",
+                "description": "L’intégration transparente entre les applications d’entreprise offre une collaboration améliorée, une plus grande efficacité et une meilleure productivité. L’intégration de SAP SuccessFactors avec Microsoft Office 365 combine les forces d’une solution leader en gestion de l’expérience humaine (HXM) et d’une suite robuste d’outils de productivité."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Technologie verte Cloud",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0. Comment les technologies numériques transforment l’agriculture pour un avenir meilleur ?",
+                "description": "L’agriculture joue un rôle important dans l’économie croissante de l’Inde et son avenir ne peut être accompli sans outils numériques et innovations technologiques."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources humaines",
+                "date": "29 Oct 2024",
+                "title": "Gestion de la performance et des objectifs avec SAP SuccessFactors",
+                "description": "Atteindre les objectifs de votre organisation est une responsabilité clé partagée par toute votre équipe. Lorsque la stratégie de votre équipe s’aligne avec ses objectifs et les objectifs organisationnels plus larges, faire ce qu’il faut devient instinctif."
+            }
+        ],
+        "blogMainData": [
+            "L’automatisation industrielle n’est pas un concept nouveau. Les robots soudent, assemblent et emballent sur les lignes de production depuis des décennies. Mais voici le changement : l’automatisation n’est plus seulement une question de vitesse. Il s’agit de systèmes qui pensent de manière plus intelligente. Mais la plupart des usines dépendent encore d’une automatisation basée sur des règles fixes, limitée à une tâche, un système et sans apprentissage.",
+            "Voici le problème : les fabricants d’aujourd’hui font face à un enchevêtrement complexe de changements de demande mondiale, de pressions réglementaires, de besoins de personnalisation client et de chaînes d’approvisionnement fragiles. Résoudre cela exige plus que des bras plus rapides et des robots préprogrammés.",
+            "C’est là que les agents IA peuvent vous aider à intégrer une intelligence capable de s’adapter, de raisonner et d’agir à travers la chaîne de valeur. La prochaine génération de fabrication intelligente transcende l’automatisation et devient agentique."
+        ],
+        "whyNeedShiftData": [
+            "En plus d’exécuter, ils comprennent les objectifs et travaillent à leur réalisation.",
+            "Ils fonctionnent à travers les CRM, ERP, MES et systèmes IoT, pas seulement une machine.",
+            "Ils apprennent des données, des retours clients et du contexte historique et s’adaptent en conséquence."
+        ],
+        "agentforceData": [
+            "Surveiller les lignes de production pour détecter les anomalies en temps réel",
+            "Anticiper les perturbations de la chaîne d’approvisionnement avant qu’elles n’affectent l’exécution des commandes",
+            "Acheminer automatiquement les tickets de service en fonction de la disponibilité des pièces, de l’état de la garantie et de l’historique du produit",
+            "Guider les techniciens d’atelier avec des connaissances contextuelles et des flux de travail étape par étape"
+        ],
+        "manufacturingAreasData": [
+            {
+                "title": "Une production qui performe et prédit",
+                "desc": "Pensez à la dernière fois qu’une machine est tombée en panne en cours de production. Il y a de fortes chances que votre équipe de maintenance ait été prise de court, que les commandes aient été retardées et que personne ne l’ait vu venir. Avec Agentforce, les agents IA suivent la télémétrie des machines, les historiques de maintenance et la production en temps réel. Ils détectent la dégradation des performances avant la panne et alertent les techniciens, reprogramment les commandes impactées et notifient les clients de manière proactive."
+            },
+            {
+                "title": "Des chaînes d’approvisionnement connectées qui anticipent",
+                "desc": "La fragilité des chaînes d’approvisionnement est une réalité aujourd’hui. De la volatilité des matières premières aux retards de transport, le système est sous tension. Ce que les agents font différemment :",
+                "list": [
+                    "Surveiller la fiabilité des fournisseurs, la variabilité des délais et l’état de l’exécution",
+                    "Prédire les goulots d’étranglement et suggérer des sources alternatives",
+                    "Notifier automatiquement les parties prenantes, y compris les responsables de compte et les clients, lorsque des perturbations menacent la livraison"
+                ],
+                "desc2": "Contrairement aux tableaux de bord statiques ou aux escalades manuelles, les agents ferment la boucle de la détection à la communication jusqu’à la résolution."
+            },
+            {
+                "title": "Un support client plus intelligent et auto-trié",
+                "desc": "Dans la fabrication, le service client repose davantage sur la précision, le contexte et la rapidité. Les agents Agentforce trient automatiquement les cas en fonction de l’urgence, du type de produit, de la catégorie de client et des conditions SLA. Ils pré-remplissent les tickets avec des données comme l’ID de commande, l’état de la garantie et la configuration du produit. Ils acheminent vers le meilleur agent disponible ou gèrent la résolution de manière autonome pour les problèmes simples.",
+                "desc2": "Qu’il s’agisse de planifier un remplacement, d’émettre une documentation ou de répondre à une réclamation, les agents réduisent les délais de réponse et augmentent la satisfaction client."
+            },
+            {
+                "title": "Une intelligence après-vente qui fidélise",
+                "desc": "L’usine peut s’arrêter après la livraison, mais le parcours client ne s’arrête pas là.",
+                "desc3": "Les agents continuent de travailler après la vente pour :",
+                "list": [
+                    "Suivre les habitudes d’utilisation des produits connectés",
+                    "Identifier les comptes à risque de résiliation en fonction du comportement ou du sentiment",
+                    "Recommander des suivis personnalisés, de la maintenance préventive ou des opportunités de ventes additionnelles"
+                ],
+                "desc2": "C’est là que l’expérience client se gagne réellement, non seulement dans ce que vous produisez, mais aussi dans la manière dont vous soutenez et évoluez avec le client au fil du temps."
+            },
+            {
+                "title": "Une IA qui unifie les OEM, distributeurs et partenaires",
+                "desc": "La plupart des fabricants ne vendent pas directement. Vous avez des partenaires, des revendeurs, des équipes de terrain et des prestataires de support, tous contribuant à l’expérience client (ou la fragmentant). Tout le monde agit selon le même guide, et les clients bénéficient de la même qualité de support, peu importe qui la fournit.",
+                "desc3": "Les agents Agentforce apportent de la cohérence dans cet écosystème :",
+                "list": [
+                    "Fournir un libre-service aux distributeurs pour vérifier les stocks, demander une assistance ou déposer des réclamations",
+                    "Standardiser les SLA et les flux de travail sur tous les canaux partenaires",
+                    "Surveiller les délais de réponse des partenaires et faire remonter les signaux d’alerte concernant l’expérience client"
+                ]
+            }
+        ],
+        "agentforceTable": [
+            {
+                "robotic": "Règles fixes, pas d’apprentissage",
+                "agents": "Apprend des résultats, s’adapte en temps réel"
+            },
+            {
+                "robotic": "Exécution de tâches en silo",
+                "agents": "Orchestration interfonctionnelle"
+            },
+            {
+                "robotic": "Nécessite une escalade manuelle",
+                "agents": "Triage, routage et résolution autonomes"
+            },
+            {
+                "robotic": "Aucun contexte client",
+                "agents": "Intégré dans les systèmes de vente, de service et de support"
+            },
+            {
+                "robotic": "Idéal pour la précision",
+                "agents": "Crucial pour la réactivité et l’anticipation"
+            }
+        ],
+        "agenticData": [
+            {
+                "highlight": "agent en libre-service",
+                "desc": "Ajoutez un agent en libre-service pour que les distributeurs puissent vérifier les stocks ou déposer des réclamations."
+            },
+            {
+                "highlight": "agent de surveillance",
+                "desc": "Déployez un agent de surveillance pour signaler les problèmes de santé des machines avant qu’ils ne s’aggravent."
+            },
+            {
+                "highlight": "agent de routage",
+                "desc": "Laissez un agent de routage trier les cas de service plus rapidement en fonction du contexte réel."
+            }
+        ],
+        "readyToUpgradeData": [
+            "Agentforce intègre des agents autonomes qui comblent l’écart entre la production et l’expérience. Cela signifie moins de silos, des décisions plus rapides et des systèmes plus intelligents qui comprennent les besoins des clients, même lorsqu’ils ne les ont pas exprimés.",
+            "En bref ?",
+            "Les robots suivent les instructions.",
+            "Les agents suivent l’intention.",
+            "Et c’est le saut dont les fabricants ont besoin pour prospérer dans la prochaine décennie.",
+            "Rialtes aide les fabricants à implémenter Agentforce dans les opérations, les ventes et le service. En tant que partenaire Salesforce Crest, nous apportons la stratégie, les systèmes et le support pour rendre les agents IA réels et rapides."
+        ],
+        "faqData": [
+            {
+                "question": "1. Qu’est-ce qui rend les agents IA meilleurs que la RPA dans la fabrication ?",
+                "answer": [
+                    "La RPA gère les tâches répétitives basées sur des règles. Les agents IA comprennent le contexte, apprennent des données et agissent à travers des systèmes comme ERP, CRM et IoT, ce qui les rend mieux adaptés aux défis dynamiques de la fabrication."
+                ]
+            },
+            {
+                "question": "2. Puis-je conserver mon système d’automatisation actuel et ajouter Agentforce ?",
+                "answer": [
+                    "Oui. Agentforce améliore ce que vous utilisez déjà en ajoutant une couche d’intelligence par-dessus vos systèmes existants. Vous n’avez pas besoin de tout remplacer."
+                ]
+            },
+            {
+                "question": "3. Quels processus de fabrication bénéficient le plus des agents IA ?",
+                "answer": [
+                    "Avec des agents, le service client, la planification de la production, la maintenance, l’exécution des commandes, le contrôle qualité et la surveillance de la chaîne d’approvisionnement obtiennent tous des gains significatifs."
+                ]
+            },
+            {
+                "question": "4. Combien de temps faut-il pour déployer Agentforce dans une usine réelle ?",
+                "answer": [
+                    "Les délais varient, mais la plupart des fabricants constatent de la valeur en quelques semaines en commençant par un ou deux cas d’usage ciblés, comme l’automatisation du service client ou les alertes de chaîne d’approvisionnement."
+                ]
+            },
+            {
+                "question": "5. Agentforce est-il sécurisé pour les industries réglementées comme l’aérospatiale ou la pharmacie ?",
+                "answer": [
+                    "Oui. Construit sur Salesforce, Agentforce respecte les normes de sécurité de niveau entreprise et peut être configuré pour se conformer aux réglementations spécifiques à l’industrie."
+                ]
+            }
+        ],
+        "blogTopic": "Intelligence artificielle",
+        "blogTitle": "Au-delà de l’automatisation robotique : pourquoi les agents sont l’avenir de la fabrication intelligente",
+        "roboticTitle": "L’automatisation robotique résout des tâches. Les agents IA résolvent des problèmes.",
+        "whyNeedTitle": "Pourquoi passer de l’automatisation statique à l’intelligence agentique ?",
+        "whyNeedDesc": "La plupart des systèmes robotiques excellent dans l’exécution de tâches répétitives, comme le soudage ou l’emballage. Mais leur demander de répondre à une expédition en retard, de coordonner entre services ou d’informer un client d’un retard ? Ils bloquent.",
+        "whyNeedDesc2": "Maintenant comparez cela avec les agents IA, comme ceux intégrés dans Agentforce :",
+        "whyNeedDesc3": "Ainsi, tandis qu’un robot assemble des pièces, un agent détecte une pénurie, réachemine une livraison, met à jour le client et alerte les achats avant que la ligne ne s’arrête. C’est de l’orchestration intelligente.",
+        "agentforceTitle": "Agentforce : la couche intelligente au-dessus de votre usine",
+        "agentforceDesc": "Agentforce n’est pas seulement de l’IA ajoutée à votre pile technologique. C’est un réseau d’agents autonomes, orientés résultats, conçus pour la complexité de la fabrication réelle. Ces agents sont intégrés dans Salesforce Manufacturing Cloud, CPQ, Service et Field Service, et étendus à vos MES, plateformes IoT et applications héritées.",
+        "agentforceDesc2": "Agentforce",
+        "agentforceDesc3": "par exemple, permet aux fabricants de déployer des agents IA capables de :",
+        "manufacturingTitle": "Voyons comment ils fonctionnent dans les domaines clés de la fabrication :",
+        "whatAgentforceTitle": "Ce qu’Agentforce débloque et que les robots ne pourront jamais",
+        "whatAgentforceDesc": "Récapitulons comment l’IA agentique va plus loin que l’automatisation robotique :",
+        "tableTitle": "Automatisation robotique",
+        "tableTitle2": "Agents IA (Agentforce)",
+        "whatAgentforceDesc2": "La véritable puissance des agents est qu’ils s’améliorent avec le temps. Chaque interaction, qu’il s’agisse d’une réparation sur site, d’une résolution de ticket ou d’une réponse client, alimente le modèle. Les agents deviennent plus intelligents. Les recommandations plus précises. L’efficacité s’accumule.",
+        "whatAgentforceDesc3": "McKinsey a constaté que les entreprises manufacturières axées sur l’IA constatent une amélioration de 15 à 20 % du rendement et jusqu’à 50 % de réduction des temps d’arrêt imprévus. Ce sont des chiffres que l’automatisation robotique seule ne peut atteindre.",
+        "agenticTitle": "Comment démarrer avec l’IA agentique dans la fabrication",
+        "agenticDesc": "Vous n’avez pas besoin de tout revoir dès le premier jour. Commencez là où cela compte :",
+        "agenticDesc2": "Ces agents s’intègrent directement dans votre pile Salesforce — CPQ, Service Cloud, Manufacturing Cloud — et évoluent avec votre croissance.",
+        "readyTitle": "Prêt à passer de l’automatisation à l’intelligence ?",
+        "readyDesc": "Construisons des usines plus intelligentes avec des agents qui réfléchissent.",
+        "faqTitle": "FAQ : Fabrication intelligente avec des agents IA"
     }
 }
