@@ -30,6 +30,16 @@ const schemaData = {
 
 const latestBlogs = [
   {
+    id: 31,
+    image: "/images/blog/byond-robotics-mobile-banner.webp",
+    category: "Artificial Intelligence",
+    industry: "Generic",
+    date: "Sep. 01, 2025",
+    url: '/why-ai-agents-are-the-future-of-smart-manufacturing',
+    title: "Beyond Automation: Why AI Agents Power Smart Manufacturing",
+    description: "Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems.",
+  },
+  {
     id: 30,
     image: "/images/blog/sap-cpi-feature-thumb.webp",
     category: "SAP",

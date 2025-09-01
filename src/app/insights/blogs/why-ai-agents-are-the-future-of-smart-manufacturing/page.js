@@ -5,20 +5,17 @@ import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import FAQAccordion from "@/app/components/faqAccordion";
+import Link from "next/link";
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
-    },
-    "headline": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-    "description": "Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
-    "image": "https://www.rialtes.com/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp",
+    "headline": "Beyond Robotic Automation: Why Agents Are the Future of Smart Manufacturing",
+    "description": "Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems.",
+    "image": "https://www.rialtes.com/images/blog/byond-robotics-desktop-baner.webp",
     "author": {
         "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com"
+        "name": "Rialtes"
     },
     "publisher": {
         "@type": "Organization",
@@ -28,68 +25,57 @@ const schemaData = {
             "url": "https://www.rialtes.com/images/homepage/logo.svg"
         }
     },
-    "datePublished": "2024-10-28",
-    "dateModified": "2025-07-25",
-    "articleSection": "AI Automation",
-    "url": "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What’s the difference between bots, copilots, and agents?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Bots follow simple rules to perform tasks. Copilots offer contextual help and suggestions, often requiring user input. Agents act independently, make decisions, and can operate across systems autonomously. Think of bots as basic responders, copilots as smart assistants, and agents as decision-makers."
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": " https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/"
+    },
+    "datePublished": "2025-09-01",
+    "mainEntity": {
+        "@type": "FAQPage",
+        "name": "Smart Manufacturing with AI Agents FAQs",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What makes AI agents better than RPA in manufacturing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "RPA handles repetitive tasks based on rules. AI agents understand context, learn from data, and act across systems like ERP, CRM, and IoT—making them better suited for dynamic manufacturing challenges."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I keep my existing automation setup and add Agentforce?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Agentforce enhances what you already use by layering intelligence over existing systems. You don’t need to rip and replace."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What kinds of manufacturing processes benefit most from AI agents?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "When augmented by agents, customer service, production scheduling, maintenance, order fulfillment, quality control, and supply chain monitoring all see major gains."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does deploying Agentforce in a real-world factory take?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Timelines vary, but most manufacturers start seeing value within weeks by starting with one or two focused use cases—like service case automation or supply chain alerts."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is Agentforce secure for regulated industries like aerospace or pharma?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Built on Salesforce, Agentforce adheres to enterprise-grade security standards and can be configured to comply with industry-specific regulations."
+                }
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What is an example of a bot?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A chatbot that answers questions like 'What is your return policy?' on an e-commerce website is a good example of a bot. It follows scripted responses and doesn’t adapt to complex queries."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What does an AI agent do?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "An AI agent can understand tasks, make decisions, and execute actions without constant human intervention. In manufacturing, for example, an agent can predict delays and reschedule workflows automatically."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Is Copilot better than chatbot?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. A copilot provides intelligent suggestions based on context and user behavior, whereas a chatbot sticks to predefined scripts. Copilots are more dynamic and user-focused than basic bots."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Which AI tool is more powerful: agent or copilot?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agents are more powerful. While copilots assist users by providing recommendations, AI agents go further—they make decisions, adapt, and act autonomously across processes."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Which AI should I use for customer support in manufacturing?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AI agents are best for manufacturing customer service. They handle complex queries, integrate with enterprise systems, and resolve issues faster than traditional bots or copilots."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can AI agents fully replace humans in operations?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. AI agents are ideal for automating repetitive and data-driven tasks, but human-AI collaboration is still essential for strategic decisions, creativity, and empathy-driven customer service."
-            }
-        }
-    ]
+        ]
+    }
 }
 const blogs = [
     {
@@ -151,7 +137,6 @@ const blogs = [
 const blogMainData = [
     "Industrial automation isn’t a new concept. Robots have been welding, assembling, and packaging on factory floors for decades. But here’s the shift: automation is no longer just about machines moving faster. It’s about systems thinking smarter. But most factories still rely on automation that follows fixed rules, limited to one job, one system, and zero learning.",
     "Here’s the issue: Manufacturers today face a complex web of global demand shifts, compliance pressure, customer personalization needs, and fragile supply chains. Solving for that requires more than just faster arms and pre-programmed bots.",
-    "That's where AI agents can help you incorporate intelligence that can adapt, reason, and act across the value chain. The next generation of smart manufacturing transcends automation and becomes agentic."
 ]
 const whyNeedShiftData = [
     "In addition to executing, they understand goals and work toward them.",
@@ -248,7 +233,6 @@ const readyToUpgradeData = [
     "Bots follow instructions.",
     "Agents follow intent.",
     "And that’s the leap manufacturers need to thrive in the next decade.",
-    "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a Salesforce Crest Partner, we bring the strategy, systems, and support to make AI agents real and fast.",
 ]
 const faqData = [
     {
@@ -284,16 +268,16 @@ const faqData = [
 ]
 
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/";
 
     return (
         <div className="min-h-screen">
             <Seo
-                title="Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes"
-                description="Learn the key differences between bots, copilots, and AI agents. Choose the best AI automation tool to scale productivity and transform workflows."
+                title="Beyond Automation: Why AI Agents Power Smart Manufacturing"
+                description="Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
+                    "https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/"
                 }
             />
 
@@ -331,7 +315,7 @@ export default function Page() {
                         <div className="flex flex-col md:flex-row justify-between text-black items-center  xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">Artificial Intelligence</span>{" "}
-                                <span className="text-[#ACACAC]"> | </span>25 July 2025
+                                <span className="text-[#ACACAC]"> | </span>01 September 2025
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
@@ -358,9 +342,7 @@ export default function Page() {
                                         </a>
                                     </div>
                                     <div className="max-w-[40px]">
-                                        <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                                            fullUrl
-                                        )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                        <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
                                             target="_blank"
                                             rel="noopener noreferrer">
                                             {" "}
@@ -401,29 +383,30 @@ export default function Page() {
                                     )
                                 })
                             }
+                            <p className="mt-3 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">That's where AI agents can help you incorporate intelligence that can adapt, reason, and act across the value chain. The next generation of  <Link href={"https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">smart manufacturing </span></Link> transcends automation and becomes agentic."</p>
 
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">Why You Need to Shift from Static Automation to Agentic Intelligence?</h2>
                             <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Most robotic systems excel at handling repetitive tasks, such as welding or packing. But ask them to respond to a late shipment, coordinate across departments, or update a customer about a delay? They freeze.</p>
                             <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Now compare that with AI agents, like those built into Agentforce:</p>
-                            <UnorderedList arrName={whyNeedShiftData} ulClassName="mt-3 list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
+                            <UnorderedList arrName={whyNeedShiftData} ulClassName="mt-3 pl-[42px] list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">So, while a bot assembles parts, an agent detects a shortage, reroutes a delivery, updates the customer, and alerts procurement before the line stops. That’s intelligent orchestration.</p>
 
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">Agentforce: The Intelligent Layer Over Your Factory</h2>
                             <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Agentforce isn’t just AI layered onto your tech stack. It’s a network of autonomous, outcome-driven agents designed for real-world manufacturing complexity. These agents are embedded into Salesforce's Manufacturing Cloud, CPQ, Service, and Field Service systems and extended to your MES, IoT platforms, and legacy apps.</p>
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]"><strong>Agentforce, </strong>for example, lets manufacturers deploy AI agents that can:</p>
-                            <UnorderedList arrName={agentforceData} ulClassName="mt-3 list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
+                            <UnorderedList arrName={agentforceData} ulClassName="mt-3 pl-[42px] list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
                             <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Let’s look at how they work across core manufacturing areas:</p>
                             {
                                 manufacturingAreasData.map((data, ind) => {
                                     return (
                                         <div key={ind}>
                                             <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-8 font-bold">{ind + 1}. {data.title}</h3>
-                                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
-                                            {data.desc3 && <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc3}</p>}
+                                            <p className="mt-3 pl-[26px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
+                                            {data.desc3 && <p className="mt-1 pl-[26px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc3}</p>}
                                             {
-                                                data.list && <UnorderedList arrName={data.list} ulClassName="mt-3 list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
+                                                data.list && <UnorderedList arrName={data.list} ulClassName="mt-3 pl-[48px] list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
                                             }
-                                            {data.desc2 && <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc2}</p>}
+                                            {data.desc2 && <p className="mt-3 pl-[26px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc2}</p>}
                                         </div>
                                     )
                                 })
@@ -461,7 +444,7 @@ export default function Page() {
 
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">How to Get Started with Agentic AI in Manufacturing</h2>
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">You don’t need to overhaul everything on Day 1. Start where it matters:</p>
-                            <ul className="mt-4 list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2">
+                            <ul className="mt-4 pl-[36px] list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] space-y-2">
                                 {agenticData.map((item, idx) => {
                                     const [before, ...afterParts] = item.desc.split(item.highlight);
                                     const after = afterParts.join(item.highlight);
@@ -485,6 +468,9 @@ export default function Page() {
                                     )
                                 })
                             }
+                            <p className="mt-2 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                                "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a  <Link href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">Salesforce Crest Partner </span></Link>, we bring the strategy, systems, and support to make AI agents real and fast.",
+                            </p>
                             <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">Let’s build smarter factories with thinking agents.</p>
 
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">FAQs: Smart Manufacturing with AI Agents</h2>
