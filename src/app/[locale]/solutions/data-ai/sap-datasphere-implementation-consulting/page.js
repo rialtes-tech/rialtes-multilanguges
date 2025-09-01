@@ -182,7 +182,12 @@ export default function () {
                     </div>
                 </section>
                 <div className="custom-container max-md:px-0">
-                    <div className="xl:pl-[94px] px-[35px] xl:mt-[-100px] mt-[-30px] xl:pt-[78px] pt-[38px] xl:pb-[0px] pb-[0px] bg-[#073259] relative">
+                    <div
+                        className={`xl:pl-[94px] px-[35px] xl:mt-[-100px] mt-[-30px] xl:pt-[78px] pt-[38px] xl:pb-[0px] pb-[0px] bg-[#073259] relative 
+        ${locale === "es" ? "4xl:pb-[60px] 2xl:pb-20" : ""} 
+      `}
+                    >
+
                         <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-[70%]">
                             {t('buildTitle')}
                         </h2>
@@ -295,7 +300,15 @@ export default function () {
                         <div className="xl:mt-[20px] mt-[54px]">
                             <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                         </div>
-                        <div className="bg-[#163055] absolute bottom-[-70px] mr-[36px] lg:ml-[-20px]">
+                        <div className=
+                            {`bg-[#163055] absolute  mr-[36px] lg:ml-[-20px] 
+                             ${locale === "es"
+                                    ? "xl:bottom-[-100px] bottom-[-135px]"
+                                    : locale === "fr"
+                                        ? "bottom-[-100px] 4xl:bottom-[-130px]"
+                                        : "bottom-[-70px]"
+                                }`}
+                        >
                             <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[24px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
                                 {t('intelligentDesc')}
                             </p>
@@ -730,9 +743,18 @@ export default function () {
                                 mixBlendMode: "multiply",
                                 opacity: 1,
                             }}
+                            
                         ></div>
                         <div className="relative">
-                            <div className="mx-[10px] absolute bottom-[220px] left-0 right-0 px-[22px] pt-[0px] pb-[73px] z-10 text-white">
+                            <div className={`mx-[10px] absolute  left-0 right-0 px-[22px] pt-[0px] pb-[73px] z-10 text-white
+                            
+                                   ${locale === "es"
+                                    ? "bottom-[150px]"
+                                    : locale === "fr"
+                                        ? "bottom-[150px]"
+                                        : "bottom-[220px]"
+                                }`}
+                            >
                                 <h2 className="text-[26px] leading-tight font-light">
                                     {t('aiPoweredUseTitle')}
                                 </h2>
@@ -766,7 +788,7 @@ export default function () {
                                 }}
                             />
                             <div className="relative z-10 xl:pt-[70px] pt-[57px] xl:pb-[80px] pb-[0px] px-[26px] md:px-[67px] text-white">
-                                <h2 className=" 4xl:text-[60px] xl:text-[40px] leading-tight font-light w-[70%]">
+                                <h2 className=" 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] leading-tight font-light w-[70%]">
                                     {t('aiPoweredUseTitle')}
                                 </h2>
                                 <h3 className=" 4xl:text-[42px] xl:text-[38px] text-[22px] font-semibold xl:mt-[38px] mt-[18px] leading-tight">
@@ -774,7 +796,7 @@ export default function () {
                                 </h3>
                                 <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] xl:mt-[43px] mt-[16px] w-[80%]  4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[15px] leading-tight font-light" />
 
-                                <div className="mt-[40px] absolute">
+                                <div className="mt-[26px] absolute">
                                     <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
                                 </div>
                             </div>
