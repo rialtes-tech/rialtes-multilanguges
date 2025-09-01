@@ -448,7 +448,7 @@ export default function Page() {
                                         "https://sdgs.un.org/goals/"
                                     }
                                 >
-                                    <span className="">17 Sustainable Development Goals</span>
+                                    <span className="px-2">17 Sustainable Development Goals</span>
                                 </Link>
                                  (SDGs) as a roadmap to tackle global challenges like poverty, inequality, climate change, environmental degradation, peace, and justice.</p>
 
@@ -646,6 +646,9 @@ export default function Page() {
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                                 Talk to our experts to learn how AI can unlock your sustainability potential, drive measurable impact, and help build a better future for both business and the planet.
                             </p>
+                             <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px]  xl:text-[21px] text-[23px] mt-16">
+                                Frequently Asked Questions (FAQs)
+                            </h2>
                         </div>
                     </div>
                 </div>
