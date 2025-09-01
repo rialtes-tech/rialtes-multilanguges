@@ -166,6 +166,27 @@
       }
     ],
     "latestBlogs": [
+       {
+    "id": 26,
+    "image": "/images/blog/sustain-small-slider.webp",
+    "category": "Inteligencia Artificial",
+    "industry": "Genérico",
+    "date": "21 ago. 2025",
+    "url": "/how-ai-is-powering-the-sustainable-future-of-our-planet",
+    "title": "Cómo la IA está impulsando un futuro sostenible para nuestro planeta",
+    "description": "Debemos reducir las emisiones de gases de efecto invernadero y pasar a fuentes de energía renovables para proteger nuestro planeta y a las generaciones futuras. Sin embargo, la esperanza de un futuro sostenible reside en la conservación y la innovación. Aquí te mostramos cómo."
+  },
+  {
+    "id": 25,
+    "image": "/images/blog/Agentforce-featured-blog.webp",
+    "category": "Salesforce Agentforce",
+    "industry": "Genérico",
+    "date": "29 jul. 2025",
+    "url": "/how-agentforce-3-is-reshaping-automotive-manufacturing",
+    "title": "Cómo Agentforce 3.0 está transformando la fabricación automotriz",
+    "description": "Salesforce ha lanzado Agentforce 3.0 — y representa un avance significativo. Agentforce ha sido una parte clave de la estrategia de IA de Salesforce desde su lanzamiento en septiembre de 2024."
+  },
+
       {
          "id": 23,
     "image": "/images/blog/blog-slider.webp",
@@ -661,7 +682,26 @@
     "previousSlide": "Diapositiva anterior",
     "nextSlide": "Siguiente diapositiva",
     "slides": [
-      
+        {
+    "id": 24,
+    "image": "/images/blog/sustain-small-slider.webp",
+    "category": "Salesforce Agentforce",
+    "industry": "Genérico",
+    "date": "21 ago. 2025",
+    "url": "insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet",
+    "title": "Cómo la IA está impulsando un futuro sostenible para nuestro planeta",
+    "description": "Debemos reducir las emisiones de gases de efecto invernadero y pasar a fuentes de energía renovables para proteger nuestro planeta y a las generaciones futuras. Sin embargo, la esperanza de un futuro sostenible reside en la conservación y la innovación. Aquí te mostramos cómo."
+  },
+  {
+    "id": 23,
+    "image": "/images/blog/Agentforce-featured-blog.webp",
+    "category": "Salesforce Agentforce",
+    "industry": "Genérico",
+    "date": "29 jul. 2025",
+    "url": "insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing",
+    "title": "Cómo Agentforce 3.0 está transformando la fabricación automotriz",
+    "description": "Salesforce ha lanzado Agentforce 3.0 — y representa un avance significativo. Agentforce ha sido una parte clave de la estrategia de IA de Salesforce desde su lanzamiento en septiembre de 2024."
+  },
       {
     "id": 14,
     "image": "/images/blog/blog-slider.webp",
