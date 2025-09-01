@@ -3900,20 +3900,22 @@
                 "desc": "Monitor policy adherence, detect anomalies, and flag risks."
             }
         ],
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": ""
+        "blogTopic": "Artificial Intelligence",
+        "blogTitle": "Build and Deploy Your First AI Agent Using Agentforce",
+        "mainData": "By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions. Despite ethical concerns, the value of training AI for growth is clear. Teaching AI to understand human language enhances its ability to respond and perform useful tasks.",
+        "mainData2": "With Salesforce introducing AI Agents through Agentforce, a new revolution is underway. Agentforce AI Agents are both assistive and autonomous, equipped with well-processed knowledge and human-level expertise. These agents can recommend actions, reason effectively, and handle multiple queries without human intervention at every step. However, while they offer greater autonomy than other AI systems, building AI agents requires careful preparation and strategic planning.",
+        "agentforceTitle": "Agentforce Agent Builder",
+        "agentforceDesc": "Agent Builder is a low-code tool in Salesforce for customizing AI agents across various business functions. Users can create tasks for agents by defining topics with natural-language instructions and setting guardrails. It features testing options, seamless human handoff, and built-in templates for customer service, sales, or e-commerce. This allows businesses to easily automate processes and customize agents for any industry by using existing Salesforce tools like Flows, Apex, and APIs",
+        "agentforceDesc2": "Building AI agents involves multiple techniques, which can be broadly categorized into six key areas:",
+        "agentforceDesc3": "Agent Builder streamlines the process, enabling business users to create AI agents without the need for extensive coding skills.",
+        "stepsTitle": "Step-by-Step Guide to Building an AI Agent with Agentforce",
+        "componentsTitle": "Components that Build and Customize AI Agents",
+        "actionsTitle": "Actions",
+        "actionsDesc": "Actions empower AI agents to execute logic and integrate with external systems. Standard and custom actions can be created using:",
+        "typeTitle": "Types of AI agents You can build using Agentforce",
+        "typeDesc": "Agentforce AI agents help scale the workforce across various industries. Their user-friendly, low-code customization allows business users to leverage multiagent systems effectively. Here are their main roles and functions in different sectors:",
+        "futureTitle": "Future-Proof Your AI Agent to Revamp the Customer Experience",
+        "futureDesc": "We saw that building an AI agent with Agentforce is a straightforward process that enables businesses to utilize AI-driven automation. With the Agentforce Agent Builder, any user can create agents using natural language queries. To ensure long-term success, continuously update your AI agent with new datasets for improved accuracy, enhanced integrations with emerging technologies, and regular audits to maintain compliance and security. However, successful deployment also requires an integrated technological infrastructure for agents to access up-to-date data and perform effectively.",
+        "futureDesc2": "Rialtes helps businesses easily adopt AI agents using Agentforce. We provide customization and deployment to meet your needs, enhancing customer service and streamlining operations for a smooth transition into the AI-driven world."
     }
 }

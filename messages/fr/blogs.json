@@ -3617,5 +3617,305 @@
         "rialtesTalkLink": "partenaire Salesforce Crest noté parmi les meilleurs",
         "rialtesTalkDesc2": "nous excellons dans le déploiement de Salesforce Agentforce pour améliorer l’efficacité à travers les industries. Nos services managés et notre conseil peuvent aider votre entreprise à intégrer des agents IA dans les ventes, le service, le marketing et le commerce.",
         "faqTitle": "Foire aux questions (FAQ)"
+    },
+    "firstAiAgent": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Comment Fonctionne Réellement Salesforce Agentforce",
+                "description": "Salesforce Agentforce, bien qu’étant une nouveauté dans l’écosystème Salesforce, gagne en popularité, en particulier dans les organisations qui gèrent de grandes équipes d’agents, comme les commerciaux, les représentants du service client et le personnel de terrain."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "21 Oct 2024",
+                "title": "Le Cerveau Derrière les Agents : Dévoiler le Atlas Reasoning Engine dans Agentforce",
+                "description": "À mesure que les entreprises se développent, la complexité de la gestion des interactions avec les clients se multiplie, ce qui accroît le besoin de systèmes d’assistance plus intelligents et rationalisés. Salesforce Agentforce fournit une plateforme robuste d’automatisation du service client, désormais améliorée par le révolutionnaire Atlas Reasoning Engine."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "25 Nov 2024",
+                "title": "Centre de Test Agentforce : Redéfinir les Tests d’IA avec des Données Synthétiques",
+                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Centre de Test dans sa plateforme d’IA agentive, Agentforce. Cet ajout permet aux utilisateurs d’entreprise de tester et de surveiller les agents d’IA avant leur déploiement en production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources Humaines",
+                "date": "24 Déc 2024",
+                "title": "Comment Intégrer SAP SuccessFactors avec Microsoft Office 365 pour une Collaboration Optimisée",
+                "description": "L’intégration fluide entre les applications d’entreprise améliore la collaboration, l’efficacité et la productivité. L’intégration de SAP SuccessFactors avec Microsoft Office 365 combine les atouts d’une solution leader en gestion de l’expérience humaine (HXM) et d’une suite robuste d’outils de productivité."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Technologie Verte Cloud",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0. Comment les Technologies Numériques Transforment l’Agriculture pour un Meilleur Avenir ?",
+                "description": "L’agriculture joue un rôle significatif dans l’économie croissante de l’Inde et son avenir ne peut être accompli sans outils numériques et innovation technologique."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources Humaines",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Gestion de la Performance et des Objectifs",
+                "description": "Atteindre les objectifs de votre organisation est une responsabilité clé que partage toute votre équipe. Lorsque la stratégie de votre équipe est alignée sur ses objectifs et sur les objectifs organisationnels plus larges, faire ce qu’il faut devient instinctif."
+            }
+        ],
+        "stepToGuideData": [
+            {
+                "step": "Étape 1 : Définir le But de Votre Agent IA",
+                "description": "Avant de commencer à construire, déterminez ce que fera votre agent IA.",
+                "list": [
+                    "Automatiser les réponses du service client",
+                    "Gérer les flux de travail internes et les approbations",
+                    "Aider les équipes commerciales à qualifier les prospects"
+                ]
+            },
+            {
+                "step": "Étape 2 : Configurer Votre Environnement Agentforce",
+                "list": [
+                    "Connectez-vous à Agentforce et accédez au module de création d’agents",
+                    "Sélectionnez les modèles prédéfinis ou optez pour un agent IA personnalisé"
+                ]
+            },
+            {
+                "step": "Étape 3 : Utiliser l’Agentforce Agent Builder",
+                "list": [
+                    "Ouvrez l’Agentforce Agent Builder pour une expérience de développement intuitive",
+                    "Choisissez parmi divers composants IA préconfigurés pour accélérer la configuration",
+                    "Utilisez les outils glisser-déposer pour concevoir facilement des flux de travail"
+                ]
+            },
+            {
+                "step": "Étape 4 : Configurer les Capacités IA",
+                "list": [
+                    "Choisissez le modèle IA qui correspond au but de votre agent (ex. PLN pour chatbots, analytique prédictive pour prévisions)",
+                    "Entraînez le modèle avec des données historiques ou intégrez-le avec des sources de données externes"
+                ]
+            },
+            {
+                "step": "Étape 5 : Définir les Flux de Travail et Actions",
+                "list": [
+                    "Utilisez le générateur de flux de travail pour concevoir la logique décisionnelle de l’agent",
+                    "Configurez des déclencheurs, des réponses et des règles d’escalade pour guider les interactions"
+                ]
+            },
+            {
+                "step": "Étape 6 : Intégrer avec les Systèmes d’Entreprise",
+                "list": [
+                    "Connectez votre agent IA à Salesforce, SAP ou APIs tierces pour fluidifier l’échange de données",
+                    "Assurez l’authentification sécurisée et la conformité avec les politiques de données"
+                ]
+            },
+            {
+                "step": "Étape 7 : Tester et Optimiser",
+                "list": [
+                    "Exécutez des simulations pour valider les réponses de l’agent",
+                    "Recueillez des retours et affinez son comportement grâce aux capacités d’apprentissage continu"
+                ]
+            },
+            {
+                "step": "Étape 8 : Déployer et Surveiller la Performance",
+                "list": [
+                    "Déployez votre agent IA en production et surveillez des KPI tels que la précision des réponses, le temps de résolution et la satisfaction des utilisateurs",
+                    "Utilisez le tableau de bord analytique d’Agentforce pour suivre la performance et apporter des améliorations"
+                ]
+            }
+        ],
+        "agentBuilderData": [
+            {
+                "title": "Collecte de Données : ",
+                "desc": "Acquérir de grands ensembles de données variés pour entraîner efficacement les modèles IA."
+            },
+            {
+                "title": "Entraînement des Modèles : ",
+                "desc": "Exploiter des méthodes d’apprentissage supervisé, non supervisé et par renforcement pour développer les capacités IA."
+            },
+            {
+                "title": "Traitement du Langage Naturel (PLN) : ",
+                "desc": "Permettre à l’IA d’interpréter, de comprendre et de communiquer en langage humain."
+            },
+            {
+                "title": "Apprentissage par Renforcement : ",
+                "desc": "Améliorer la capacité de l’agent à affiner ses actions via retours et récompenses."
+            },
+            {
+                "title": "Algorithmes de Prise de Décision : ",
+                "desc": "Mettre en œuvre des stratégies computationnelles qui analysent les données et déterminent des actions optimales."
+            },
+            {
+                "title": "Génération d’Actions : ",
+                "desc": "Concevoir des mécanismes permettant aux agents IA d’exécuter des décisions dans des scénarios réels."
+            }
+        ],
+        "componentsData": [
+            {
+                "title": "Métadonnées",
+                "desc": "Les métadonnées Salesforce établissent des règles universelles d’accès aux données à travers les applications et agents, garantissant :",
+                "list": [
+                    {
+                        "title": "Autorisations",
+                        "desc": "Contrôle l’accès aux ensembles de données."
+                    },
+                    {
+                        "title": "Modèles de Partage",
+                        "desc": "Définit les règles de partage des données."
+                    },
+                    {
+                        "title": "Règles de Validation",
+                        "desc": "Fait respecter l’intégrité des données."
+                    },
+                    {
+                        "title": "Automatisation des Flux de Travail",
+                        "desc": "Améliore l’efficacité."
+                    }
+                ],
+                "desc2": "Les métadonnées améliorent la précision de l’IA en fournissant du contexte, permettant aux LLM de présenter les données CRM dans un format exploitable."
+            },
+            {
+                "title": "Data Cloud",
+                "desc": "Des données unifiées et de haute qualité alimentent l’IA. Salesforce Data Cloud consolide les données Salesforce et externes, structurées et non structurées.",
+                "list": [
+                    {
+                        "title": "200+ Connecteurs",
+                        "desc": "Intégration fluide avec diverses sources."
+                    },
+                    {
+                        "title": "Connecteurs Personnalisés",
+                        "desc": "Connexions de données adaptées."
+                    }
+                ],
+                "desc2": "Une fois unifiées, Data Cloud active les données dans les agents IA, l’analytique et les applications, éliminant les silos et offrant des expériences personnalisées."
+            },
+            {
+                "title": "Modèles",
+                "desc": "L’architecture flexible des modèles d’Agentforce permet une intégration simple de :",
+                "list": [
+                    {
+                        "title": "Modèles de Base Hébergés",
+                        "desc": "Innovations IA prêtes à l’emploi."
+                    },
+                    {
+                        "title": "Modèles Ajustés",
+                        "desc": "Modèles IA personnalisés."
+                    },
+                    {
+                        "title": "Modèles Définis par l’Utilisateur",
+                        "desc": "Construits avec des données propriétaires."
+                    }
+                ],
+                "desc2": ""
+            },
+            {
+                "title": "Outils",
+                "desc": "Agentforce fournit des outils low-code pour le développement IA :",
+                "list": [
+                    {
+                        "title": "Générateur de Prompts",
+                        "desc": "Crée des modèles de prompts réutilisables et basés sur les données."
+                    },
+                    {
+                        "title": "Agent Builder",
+                        "desc": "Un outil visuel pour configurer et tester des agents IA."
+                    }
+                ],
+                "desc2": "Avec ces composants clés en place, commençons à construire votre premier Agent IA avec Agentforce !"
+            },
+            {
+                "title": "Couche de Confiance Einstein",
+                "desc": "Assure une utilisation sécurisée de l’IA sans compromettre les données grâce à :",
+                "list": [
+                    {
+                        "title": "Passerelle Sécurisée",
+                        "desc": "Fait respecter les politiques de sécurité."
+                    },
+                    {
+                        "title": "Masquage des Données",
+                        "desc": "Anonymise les informations personnelles (PII)."
+                    },
+                    {
+                        "title": "Politique de Rétention Zéro",
+                        "desc": "Empêche les fournisseurs de modèles de stocker des données."
+                    },
+                    {
+                        "title": "Post-traitement",
+                        "desc": "Détecte la toxicité et maintient des journaux d’audit."
+                    }
+                ],
+                "desc2": ""
+            }
+        ],
+        "actionsData": [
+            "Code Personnalisé",
+            "APIs",
+            "Flux",
+            "Modèles de Prompts"
+        ],
+        "typesOfAgents": [
+            {
+                "title": "Agents de Support Client",
+                "desc": "Automatisent les réponses, gèrent les FAQ et escaladent les requêtes complexes."
+            },
+            {
+                "title": "Assistants Commerciaux",
+                "desc": "Qualifient les prospects, recommandent des produits et aident à conclure des ventes."
+            },
+            {
+                "title": "Bots RH & Recrutement",
+                "desc": "Filtrent les candidats, planifient des entretiens et gèrent l’intégration."
+            },
+            {
+                "title": "Agents Finance & Comptabilité",
+                "desc": "Automatisent le traitement des factures, le suivi des dépenses et la détection des fraudes."
+            },
+            {
+                "title": "Bots Helpdesk IT",
+                "desc": "Résolvent les problèmes techniques courants, réinitialisent les mots de passe et gèrent les tickets IT."
+            },
+            {
+                "title": "Assistants Marketing",
+                "desc": "Personnalisent l’engagement client, lancent des campagnes et analysent les tendances."
+            },
+            {
+                "title": "Optimisateurs de Chaîne d’Approvisionnement",
+                "desc": "Suivent les expéditions, gèrent les stocks et prédisent la demande."
+            },
+            {
+                "title": "Agents Conformité & Sécurité",
+                "desc": "Surveillent le respect des politiques, détectent les anomalies et signalent les risques."
+            }
+        ],
+        "blogTopic": "Intelligence Artificielle",
+        "blogTitle": "Construire et Déployer Votre Premier Agent IA avec Agentforce",
+        "mainData": "D’ici 2028, 33 % des applications logicielles d’entreprise utiliseront l’IA agentive. La transition de l’IA Prédictive vers l’IA Générative s’est accélérée, permettant aux entreprises d’aller au-delà de la simple prévision pour définir des actions optimales. Malgré les préoccupations éthiques, la valeur d’entraîner l’IA pour la croissance est claire. Enseigner à l’IA à comprendre le langage humain améliore sa capacité à répondre et exécuter des tâches utiles.",
+        "mainData2": "Avec Salesforce introduisant des Agents IA via Agentforce, une nouvelle révolution est en cours. Les Agents IA d’Agentforce sont à la fois assistifs et autonomes, équipés de connaissances bien traitées et d’une expertise de niveau humain. Ces agents peuvent recommander des actions, raisonner efficacement et gérer plusieurs requêtes sans intervention humaine à chaque étape. Cependant, bien qu’ils offrent plus d’autonomie que d’autres systèmes IA, construire des agents IA nécessite une préparation soigneuse et une planification stratégique.",
+        "agentforceTitle": "Agentforce Agent Builder",
+        "agentforceDesc": "Agent Builder est un outil low-code de Salesforce pour personnaliser les agents IA dans diverses fonctions métier. Les utilisateurs peuvent créer des tâches pour les agents en définissant des sujets avec des instructions en langage naturel et en fixant des garde-fous. Il propose des options de test, un transfert fluide vers des humains et des modèles intégrés pour le service client, les ventes ou l’e-commerce. Cela permet aux entreprises d’automatiser facilement des processus et de personnaliser des agents pour tout secteur en utilisant les outils Salesforce existants tels que Flows, Apex et APIs.",
+        "agentforceDesc2": "Construire des agents IA implique plusieurs techniques, qui peuvent être largement classées en six domaines clés :",
+        "agentforceDesc3": "Agent Builder simplifie le processus, permettant aux utilisateurs métier de créer des agents IA sans compétences approfondies en programmation.",
+        "stepsTitle": "Guide Étape par Étape pour Construire un Agent IA avec Agentforce",
+        "componentsTitle": "Composants pour Construire et Personnaliser des Agents IA",
+        "actionsTitle": "Actions",
+        "actionsDesc": "Les actions permettent aux agents IA d’exécuter de la logique et de s’intégrer avec des systèmes externes. Des actions standards et personnalisées peuvent être créées à l’aide de :",
+        "typeTitle": "Types d’Agents IA que Vous Pouvez Construire avec Agentforce",
+        "typeDesc": "Les agents IA d’Agentforce aident à faire évoluer la main-d’œuvre dans divers secteurs. Leur personnalisation low-code et conviviale permet aux utilisateurs métier d’exploiter efficacement les systèmes multi-agents. Voici leurs principaux rôles et fonctions dans différents secteurs :",
+        "futureTitle": "Préparez Votre Agent IA pour l’Avenir et Transformez l’Expérience Client",
+        "futureDesc": "Nous avons vu que construire un agent IA avec Agentforce est un processus simple qui permet aux entreprises d’utiliser l’automatisation pilotée par l’IA. Avec Agentforce Agent Builder, tout utilisateur peut créer des agents à l’aide de requêtes en langage naturel. Pour assurer le succès à long terme, mettez continuellement à jour votre agent IA avec de nouveaux ensembles de données pour améliorer la précision, des intégrations accrues avec les technologies émergentes et des audits réguliers pour maintenir la conformité et la sécurité. Cependant, un déploiement réussi nécessite également une infrastructure technologique intégrée permettant aux agents d’accéder à des données actualisées et de fonctionner efficacement.",
+        "futureDesc2": "Rialtes aide les entreprises à adopter facilement des agents IA grâce à Agentforce. Nous fournissons personnalisation et déploiement pour répondre à vos besoins, améliorer le service client et rationaliser les opérations pour une transition fluide vers le monde piloté par l’IA."
     }
 }
