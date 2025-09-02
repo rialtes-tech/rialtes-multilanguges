@@ -148,7 +148,7 @@ export default function Page() {
             <section className="custom-container">
                 <div className="py-10 bg-white">
                     <div>
-                        <div className="flex flex-col md:flex-row justify-between text-black items-center  xl:max-w-[1084px] xl:w-[1084px]">
+                        <div className="flex flex-col md:flex-row justify-between text-black items-center xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">{t('blogTopic')}</span>
                                 <span className="text-[#ACACAC]"> | </span>16 June 2025
@@ -202,7 +202,7 @@ export default function Page() {
                     <div className="py-6"></div>
                     <div className="grid xl:grid-cols-12">
                         <div className="xl:col-span-10 col-span-12">
-                            <h1 className="text-[#000000]  pb-6 leading-tight text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px] md:text-[28px]">
+                            <h1 className="text-[#000000] pb-6 leading-tight text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px] md:text-[28px]">
                                 {t('blogTitle')}
                             </h1>
                         </div>
@@ -241,22 +241,43 @@ export default function Page() {
                                 {t('voyagerTitle')}
                             </h2>
                             <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] ">
-                                {t('voyagerDesc')}<Link href={"https://www.rialtes.com/services/business-transformation/rise-with-sap-services/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">{t('voyagerDescLink')}</span></Link>,
+                                {t('voyagerDesc')}{" "}<Link href={"https://www.rialtes.com/services/business-transformation/rise-with-sap-services/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">{t('voyagerDescLink')}</span></Link>,
                                 {t('voyagerDesc2')}
                                 {t('voyagerDesc3')}  {" "}
                                 <strong> {t('voyagerDescStrong')}</strong>
                             </p>
-                            <ol className="list-decimal space-y-2 font-medium  4xl:text-[20px]  xl:text-[18px]  text-[16px] pl-[32px] mt-4">
-                                {voyagerPoints.map((point, index) => (
-                                    <li key={index}>
-                                        <h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
-                                            {point.title}:
-                                        </h3>{" "}
-                                        {point.desc}
+                            <ol className="flex flex-col lg:flex-row relative lg:mt-[74px] mt-[60px] xl:w-[1150px]">
+                                {voyagerPoints.map((step, index) => (
+                                    <li key={step.id} className="relative flex-1 lg:mb-0 flex flex-col"                                    >
+                                        {/* Circle */}
+                                        <div className="z-10 flex justify-center w-4 h-4 bg-[#0C8AED] rounded-full ring-0 ring-white lg:ring-4 shrink-0">
+                                            <span className="flex w-3 h-3 bg-[#0C8AED] rounded-full"></span>
+                                        </div>
+
+                                        {/* Vertical line (mobile/tablet) */}
+                                        {index !== voyagerPoints.length - 1 && (
+                                            <div className="absolute top-4 left-2 w-0.5 h-full bg-[#9D9D9D] lg:hidden"></div>
+                                        )}
+
+                                        {/* Horizontal line (desktop) */}
+                                        {index !== voyagerPoints.length - 1 && (
+                                            <div className="hidden lg:block flex-1 w-full h-0.5 bg-[#9D9D9D] absolute top-2"></div>
+                                        )}
+
+                                        {/* Label */}
+                                        <div className="lg:mt-[44px] max-lg:ml-[40px] max-lg:mt-[-20px]">
+                                            <h3 className="font-bold inline 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[18px] lg:pr-8 xl:pr-2">
+                                                {step.title}
+                                            </h3>
+                                            <p className="2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] lg:mt-[34px] mt-[8px] lg:pr-12 4xl:pr-10 max-lg:mb-12">
+                                                {step.desc}
+                                            </p>
+                                        </div>
                                     </li>
                                 ))}
                             </ol>
-                            <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
+
+                            <p className="mt-[40px] lg:mt-[110px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
                                 {t('methodologyDesc')}
                             </p>
 
@@ -268,18 +289,17 @@ export default function Page() {
                                 {t('jouleDesc2')}
                                 {t('jouleDesc3')}   <strong>{t('signavioStrong')} </strong>, {t('jouleDesc4')}
                             </p>
-                            <ul className="list-disc space-y-2 font-medium  4xl:text-[20px]  xl:text-[18px]  text-[16px] pl-[32px] pt-4">
+                            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-[50px] mt-[26px] md:gap-[18px] gap-y-[20px] sm:w-[70%] md:w-[90%] lg:w-full xl:w-[1100px]">
                                 {intelligentPoints.map((point, index) => (
-                                    <li key={index}>
-                                        <h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
-                                            {point.title}:
+                                    <div key={index} className="border border-[#707070] lg:p-[40px] p-[26px]">
+                                        <h3 className="font-bold inline 4xl:text-[22px] 2xl:text-[20px] xl:text-[19px] text-[16px] text-[#006FBE]">
+                                            {point.title}
                                         </h3>{" "}
-                                        {point.desc}
-                                    </li>
+                                        <p className="mt-[16px] 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{point.desc}</p>
+                                    </div>
                                 ))}
-                            </ul>
-
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                            </div>
+                            <p className="4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] lg:mt-[47px] mt-[28px]">
                                 {t('jouleSignavioDesc')}   <strong>{t('jouleSignavioStrong')}</strong>,
                                 {t('jouleSignavioDesc2')}{" "}
                                 <strong>{t('jouleSignavioDesc3')}</strong>

@@ -446,17 +446,30 @@ export default function Page() {
                             <div>
                                 <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">The Program Lifecycle: End-to-End Synergy</h2>
                                 <p className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Pairing SAP Signavio with SAP Cloud ALM ensures control across every phase of the transformation. The closed-loop lifecycle ensures transformations are not just delivered on time, but deliver ongoing business value.</p>
-                                <ul className="list-decimal marker:text-black marker:text-xl text-black 4xl:pr-0 xl:pr-0 mt-3 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[34px]">
+                                <div className="text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[24px] mt-[49px]">
                                     {
                                         lifecycleData.map((data, ind) => {
                                             return (
-                                                <li key={ind}><h3 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{data.title}</h3>
-                                                    <UnorderedList arrName={data.list} ulClassName="list-[circle] pl-[32px] space-y-2 mt-2" liClassName="4xl:text-[20px] xl:text-[17px] text-[16px]" />
-                                                </li>
+                                                <div key={ind} className="border border-[#707070] lg:p-[48px] lg:pl-[28 px] lg:pr-[26px] p-[30px] sm:w-[75%] md:w-full">
+                                                    <h3 className="inline text-[18px] 2xl:text-[22px] xl:text-[20px] 4xl:text-[24px] text-[#006FBE] font-bold">{data.title}</h3>
+
+                                                    {
+                                                        data.list.map((elem, id) => {
+                                                            return (
+                                                                <div>
+                                                                    <p key={id} className="4xl:text-[20px] xl:text-[17px] text-[16px] mt-[29px]">{elem}</p>
+                                                                    {
+                                                                        id == 0 && <div className="bg-[#006FBE] h-[2px] w-[40px] mt-6 mb-4"></div>
+                                                                    }
+                                                                </div>
+                                                            )
+                                                        })
+                                                    }
+                                                </div>
                                             )
                                         })
                                     }
-                                </ul>
+                                </div>
                             </div>
                             <div>
                                 <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">Why This Matters for Enterprises</h2>
