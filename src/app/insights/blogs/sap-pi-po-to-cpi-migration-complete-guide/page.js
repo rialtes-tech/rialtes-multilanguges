@@ -1,5 +1,4 @@
 "use client";
-// pages/blog-detail.js
 import Image from "next/image";
 import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
@@ -254,7 +253,7 @@ const steps = [
 
 
 
-const features = [
+const features1 = [
     {
         title: "Dual Monitoring",
         desc: "Keep PI/PO logs active while configuring CPI alerts during parallel runs.",
@@ -279,11 +278,11 @@ const features = [
 
 
 const items = [
-    "Stay aligned with SAP’s roadmap.",
-    "Faster connections with SAP and non-SAP apps.",
-    "Parallel migration and intelligent alerts minimize disruption.",
-    "No infrastructure or heavy upgrade cycles.",
-    "KPI-driven monitoring ensures processes run without surprises.",
+    "Future-Proofing Stay aligned with SAP’s roadmap.",
+    "Agility Faster connections with SAP and non-SAP apps.",
+    "Reduced Risk Parallel migration and intelligent alerts minimize disruption.",
+    "Lower TCO No infrastructure or heavy upgrade cycles.",
+    "Business Confidence KPI-driven monitoring ensures processes run without surprises.",
 ];
 
 
@@ -405,7 +404,7 @@ export default function Page() {
             >
                 <div className="pt-10 bg-white">
                     <div className=" mx-auto">
-                        <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
+                        <div className="flex flex-col md:flex-row justify-between text-black items-center xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">SAP</span>
                                 <span className="text-[#ACACAC]"> | </span>26 August 2025
@@ -472,7 +471,7 @@ export default function Page() {
                     </div>
 
                     <div className=" mx-auto">
-                        <div className="max-w-[1200px] 4xl:w-[1284px] 2xl:w-[950px] xl:w-[850px]">
+                        <div className="4xl:w-[1284px] 2xl:w-[1060px] xl:w-[990px]">
                             <div className="py-6 "></div>
 
 
@@ -494,10 +493,6 @@ export default function Page() {
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 While PI/PO served its purpose well, it was designed in an on-premise era. CPI offers a modern, cloud-native, and scalable alternative with distinct advantages:</p>
-
-
-
-
                             <ol className="list-disc  marker:text-xl pl-5  2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-5">
                                 <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]"> Cloud-Native Flexibility: </h3> CPI is hosted on BTP, enabling elastic scaling and reduced infrastructure overhead.  </li>
                                 <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Pre-Built Content:</h3> CPI provides over 3,000 pre-packaged integration flows and APIs for SAP and non-SAP applications.</li>
@@ -510,21 +505,18 @@ export default function Page() {
                             <h2 className=" pb-4 mt-10 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 The Future of SAP Integration: BTP and CPI at the Core
                             </h2>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
+                            <p className="text-black  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] pb-20 xl:pb-4">
                                 SAP’s roadmap follows a cloud-first strategy. With BTP at the heart of its strategy, CPI is not just the successor of PI/PO—it is the future of enterprise integration in the SAP ecosystem.
                             </p>
 
 
-                            <div className="w-full max-w-5xl  4xl:px-8 2xl:px-8 xl:pl-8 py-8 space-y-10">
+                            <div className="w-full max-w-5xl  4xl:px-8 2xl:px-8 xl:pl-8  py-8 xl:space-y-10 space-y-20">
                                 {cards.map((card, index) => (
                                     <div key={index} className="relative border border-black  bg-white shadow-sm">
-                                        {/* Blue Label */}
-                                        <div className="absolute w-[337px] -left-10 4xl:top-6 2xl:top-5 xl:top-4 bg-[#006FBE] text-white font-semibold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[18px] text-[16px]  px-6 py-8  shadow-md">
+                                        <div className="absolute xl:w-[337px] xl:-left-10 top-[-50px] left-[65px] 4xl:top-5 2xl:top-4 xl:top-3 bg-[#006FBE] text-white font-semibold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[18px] text-[16px]  px-6 py-8  shadow-md">
                                             {card.title}
                                         </div>
-
-                                        {/* Card Content */}
-                                        <div className="4xl:pl-[22rem] 2xl:pl-[20rem] xl:pl-[20rem] pr-10 py-6  4xl:text-[20px] 2xl:text-[18px]  xl:text-[16px] text-[16px] font-medium">
+                                        <div className="4xl:pl-[22rem] 2xl:pl-[20rem] xl:pl-[20rem] xl:pr-10 py-6 p-6 pt-20 xl:pt-5  4xl:text-[20px] 2xl:text-[18px]  xl:text-[16px] text-[16px] font-medium">
                                             {card.description}
                                         </div>
                                     </div>
@@ -538,21 +530,18 @@ export default function Page() {
                             </p>
 
 
-                            <div className="w-full max-w-7xl mx-auto px-4 py-12">
+                            <div className="w-full max-w-7xl mx-auto py-12">
                                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                                     {steps.map((step, index) => (
                                         <div
                                             key={index}
                                             className="border border-gray-800  bg-white shadow-sm p-6 flex flex-col"
                                         >
-                                            {/* Title */}
                                             <h3 className="text-[#006FBE] font-semibold leading-tight 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[20px]">
                                                 {step.title}
                                             </h3>
-                                            {/* Divider */}
-                                            <div className="border-t border-gray-600 my-5" />
-                                            {/* Description */}
-                                            <ul className="space-y-5 list-none text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]  leading-tight  list-inside">
+                                            <div className="border-t border-[1px] border-gray-400 my-5" />
+                                            <ul className="space-y-5 list-none font-medium 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]  leading-tight  list-inside">
                                                 {step.description.map((line, i) => (
                                                     <li key={i}>{line}</li>
                                                 ))}
@@ -598,37 +587,31 @@ export default function Page() {
                                 Best Practices for Using Alerts During Migration
                             </h2>
 
-<section className="w-full py-12 bg-white">
-  <div className="max-w-7xl">
-    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center lg:text-left">
-      {features.map((feature, index) => (
-        <div
-          key={index}
-          className={`relative flex flex-col items-center lg:items-start ${
-            index !== 0 ? "pl-8" : ""
-          }`}
-        >
-          {/* Divider for all except first */}
-          {index !== 0 && (
-            <span className="hidden lg:block absolute left-0 top-0 h-full border-l border-gray-300"></span>
-          )}
+                            <section className="w-full py-10 bg-white">
+                                <div className="max-w-7xl">
+                                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:gap-8 gap-10  lg:text-left">
+                                        {features1.map((feature, index) => (
+                                            <div
+                                                key={index}
+                                                className={`relative flex flex-col items-start xl:border-none border-b border-black xl:pb-0 pb-10 ${index !== 0 ? "xl:pl-10" : ""
+                                                    }`}
+                                            >
+                                                {index !== 0 && (
+                                                    <span className="absolute left-0 top-0 h-full xl:border-l border-b border-gray-300"></span>
+                                                )}
 
-          <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
-            {feature.title}
-          </h3>
-          <div className="w-8 h-0.5 bg-sky-600 my-2"></div>
-          <p className="text-gray-600 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-            {feature.desc}
-          </p>
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
-
-
-
-
+                                                <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[20px] xl:text-[18px] text-[18px] leading-tight">
+                                                    {feature.title}
+                                                </h3>
+                                                <div className="w-8 h-0.5 bg-sky-600 my-6"></div>
+                                                <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] leading-tight">
+                                                    {feature.desc}
+                                                </p>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            </section>
                             <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 Upcoming Features of SAP CPI
                             </h2>
@@ -636,70 +619,82 @@ export default function Page() {
                                 SAP continues to invest heavily in CPI, and enterprises migrating now will benefit from its innovation roadmap
                             </p>
 
-                            <section className="w-full flex justify-center items-center py-12">
-                                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl">
-
-                                    {/* Row 1 */}
-                                    <div className="bg-blue-200 p-6 rounded-md shadow-md">
-                                        <p className="text-black font-medium">
-                                            AI-Powered Monitoring & Error Resolution Predictive failure detection and auto-remediation.
-                                        </p>
+                            <section className="w-full py-12 bg-white">
+                                <div className="max-w-7xl mx-auto">
+                                    <div className="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2">
+                                        <div className="bg-[#C6E7FF] 4xl:p-8 xl:p-5 p-8 4xl:pr-10 shadow-sm">
+                                            <p>
+                                                AI-Powered Monitoring & Error Resolution Predictive failure detection and auto-remediation.
+                                            </p>
+                                        </div>
+                                        <div className="bg-[#EDEDED] 4xl:p-8 xl:p-5 p-8 4xl:pr-12 shadow-sm transform md:translate-y-14">
+                                            <p>
+                                                Event Mesh Expansion Stronger support for event-driven architectures.
+                                            </p>
+                                        </div>
+                                        <div className="bg-[#C6E7FF] 4xl:p-8 xl:p-5 p-8 4xl:pr-12 shadow-sm transform xl:translate-y-32 md:mt-16">
+                                            <p>
+                                                Low-Code/No-Code iFlow Design Empowering business users.
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div className="bg-gray-100 p-6 rounded-md shadow-md translate-y-12">
-                                        <p className="text-black font-medium">
-                                            Event Mesh Expansion Stronger support for event-driven architectures.
-                                        </p>
+                                    <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-2 xl:mt-6 md:mt-0">
+                                        <div className="bg-[#EDEDED] p-7 4xl:pr-12 shadow-sm xl:translate-y-8 xl:col-span-4 col-span-12 md:col-span-2">
+                                            <p>
+                                                Multi-Cloud Flexibility Deployment across hyperscalers for compliance and performance.
+                                            </p>
+                                        </div>
+                                        <div className="bg-[#C6E7FF] p-10 pr-12 shadow-sm xl:translate-y-[6.5rem]  xl:col-span-4 col-span-12 md:col-span-2">
+                                            <p>
+                                                Enhanced Security Native zero-trust and advanced encryption.
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div className="bg-blue-200 p-6 rounded-md shadow-md">
-                                        <p className="text-black font-medium">
-                                            Low-Code/No-Code iFlow Design Empowering business users.
-                                        </p>
-                                    </div>
-
-                                    {/* Row 2 */}
-                                    <div className="bg-gray-100 p-6 rounded-md shadow-md">
-                                        <p className="text-black font-medium">
-                                            Multi-Cloud Flexibility Deployment across hyperscalers for compliance and performance.
-                                        </p>
-                                    </div>
-                                    <div className="bg-blue-200 p-6 rounded-md shadow-md -translate-y-12">
-                                        <p className="text-black font-medium">
-                                            Enhanced Security Native zero-trust and advanced encryption.
-                                        </p>
-                                    </div>
-                                    {/* Empty space to keep balance */}
-                                    <div></div>
                                 </div>
                             </section>
 
-                            <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
+
+                            <h2 className="xl:mt-40 mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 What Are The Benefits for SAP Customers Migrating to CPI?
                             </h2>
+                            <div className="w-full mt-10">
+                                <div className="hidden md:flex relative items-start">
+                                    <div className="absolute top-2 left-2 h-0.5 w-full bg-gray-400"></div>
 
-                            <section className="w-full py-12">
-                                <div className="relative flex justify-between items-start max-w-6xl mx-auto">
-                                    {/* Horizontal Line */}
-                                    <div className="absolute top-3 left-0 w-full h-[2px] bg-gray-200" />
-
-                                    {items.map((desc, index) => (
+                                    {items.map((text, index) => (
                                         <div
                                             key={index}
-                                            className="flex flex-col items-center text-left  w-1/5"
+                                            className="flex flex-col items-start text-left pr-10 relative"
                                         >
-                                            {/* Circle + vertical line */}
-                                            <div className="relative flex flex-col items-center">
-                                                <div className="w-4 h-4 rounded-full bg-blue-500 z-10" />
-                                                <div className="w-[2px] h-6 bg-blue-500" />
-                                            </div>
-
-                                            {/* Description only */}
-                                            <p className="mt-3 text-sm text-gray-700">{desc}</p>
+                                            {/* Circle */}
+                                            <div className="w-4 h-4 bg-[#0C8AED] border-2 border-blue-500 rounded-full z-10"></div>
+                                            <div className="w-0.5 h-6 bg-blue-500 ml-[7px]"></div>
+                                            <p className="mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{text}</p>
                                         </div>
                                     ))}
                                 </div>
-                            </section>
 
-                            <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
+                                <div className="md:hidden relative">
+                                    {/* Vertical line */}
+                                    <div className="absolute left-2 top-0 h-full w-0.5 bg-gray-400"></div>
+
+                                    {items.map((text, index) => (
+                                        <div key={index} className="mb-8 flex items-start relative">
+                                            {/* Circle */}
+                                            <div className="absolute left-0 mt-1 w-4 h-4 bg-[#0C8AED] border-2 border-blue-500 rounded-full"></div>
+                                            <div className="absolute left-4 top-2 h-0.5 w-6 bg-blue-500"></div>
+                                            <p className="ml-12 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                                                {text}
+                                            </p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+
+
+
+
+                            <h2 className="mt-16 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 How can we help with SAP Cloud Platform Integration?
                             </h2>
 
