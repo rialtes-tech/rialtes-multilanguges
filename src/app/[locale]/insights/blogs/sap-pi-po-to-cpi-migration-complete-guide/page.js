@@ -623,29 +623,29 @@ export default function Page() {
                                 <div className="max-w-7xl mx-auto">
                                     <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-2">
                                         <div className="bg-[#C6E7FF] 4xl:p-5 xl:p-5 p-8  shadow-sm xl:col-span-3 col-span-12 md:col-span-2">
-                                            <p>
+                                            <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                                 AI-Powered Monitoring & Error Resolution Predictive failure detection and auto-remediation.
                                             </p>
                                         </div>
                                         <div className="bg-[#EDEDED] 4xl:p-5 xl:p-5 p-8  shadow-sm transform md:translate-y-14 xl:col-span-3 col-span-12 md:col-span-2">
-                                            <p>
+                                            <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                                 Event Mesh Expansion Stronger support for event-driven architectures.
                                             </p>
                                         </div>
                                         <div className="bg-[#C6E7FF] 4xl:p-6 xl:p-5 p-8  shadow-sm transform xl:translate-y-32 md:mt-16 xl:col-span-3 col-span-12 md:col-span-2">
-                                            <p>
+                                            <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                                 Low-Code/No-Code iFlow Design Empowering business users.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-2 xl:mt-6 md:mt-0">
                                         <div className="bg-[#EDEDED] p-7  shadow-sm xl:translate-y-8 xl:col-span-3 col-span-12 md:col-span-2">
-                                            <p>
+                                            <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                                 Multi-Cloud Flexibility Deployment across hyperscalers for compliance and performance.
                                             </p>
                                         </div>
                                         <div className="bg-[#C6E7FF] p-10  shadow-sm xl:translate-y-[6.5rem]  xl:col-span-3 col-span-12 md:col-span-2">
-                                            <p>
+                                            <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                                 Enhanced Security Native zero-trust and advanced encryption.
                                             </p>
                                         </div>
