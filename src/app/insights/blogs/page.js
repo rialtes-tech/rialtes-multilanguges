@@ -364,7 +364,8 @@ const FeaturedCarousel = () => {
       date: "March 25, 2025",
       url: '/s4hana-transformation-with-sap-signavio-cloud-alm',
       title: "How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation",
-      description: "Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution for successful S/4HANA transformation."
+      description: "Digital transformation programs such as an SAP S/4HANA implementation are not simply IT projects but complex business reinvention initiatives that touch every process, role, and technology in the enterprise. For such large-scale transformations, two critical success factors stand out.",
+
     },
   ];
   const responsive = {
