@@ -29,7 +29,7 @@ const schemaData = {
     "@id": "https://www.rialtes.com/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation"
   },
   "datePublished": "2025-06-16",
- 
+
   "mainEntity": {
     "@type": "FAQPage",
     "name": "S/4HANA Implementation and SAP Signavio FAQs",
@@ -314,8 +314,7 @@ const faqData = [
   },
 ];
 export default function Page() {
-  const fullUrl =
-    "https://www.rialtes.com/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/";
+  const fullUrl = "https://www.rialtes.com/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/";
 
   return (
     <div className="min-h-screen">
@@ -359,7 +358,7 @@ export default function Page() {
       <section className="custom-container">
         <div className="py-10 bg-white">
           <div>
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  xl:max-w-[1084px] xl:w-[1084px]">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center xl:max-w-[1084px] xl:w-[1084px]">
               <div className="sm:mb-0 mb-6">
                 <span className="text-[#0092E0]">SAP Signavio</span>
                 <span className="text-[#ACACAC]"> | </span>16 June 2025
@@ -367,10 +366,7 @@ export default function Page() {
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                        fullUrl
-                      )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                    <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -391,10 +387,7 @@ export default function Page() {
                     </a>
                   </div>
                   <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                        fullUrl
-                      )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                    <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -421,7 +414,7 @@ export default function Page() {
           <div className="py-6"></div>
           <div className="grid xl:grid-cols-12">
             <div className="xl:col-span-10 col-span-12">
-              <h1 className="text-[#000000]  pb-6 leading-tight text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px] md:text-[28px]">
+              <h1 className="text-[#000000] pb-6 leading-tight text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px] md:text-[28px]">
                 Why SAP Signavio is Critical for a Successful S/4HANA
                 Implementation
               </h1>
@@ -453,16 +446,17 @@ export default function Page() {
               <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pb-2 ">
                 Key reasons why Signavio matters:
               </p>
-              <ul className="list-disc space-y-2 font-medium  4xl:text-[20px]  xl:text-[18px]  text-[16px] pl-[32px] ">
+              <ul className="list-disc space-y-2 font-medium 4xl:text-[20px] xl:text-[18px] text-[16px] pl-[32px]">
                 {transformationPoints.map((point, index) => (
                   <li key={index}>
-                    <h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
+                    <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                       {point.title}:
                     </h3>{" "}
                     {point.desc}
                   </li>
                 ))}
               </ul>
+
 
               <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">
                 Rialtes’ Voyager+ Methodology: A Clear Roadmap for S/4HANA
@@ -473,17 +467,41 @@ export default function Page() {
                 S/4HANA journey by leveraging SAP Signavio at every stage of the{" "}
                 <strong>SAP Activate framework.</strong>
               </p>
-              <ol className="list-decimal space-y-2 font-medium  4xl:text-[20px]  xl:text-[18px]  text-[16px] pl-[32px] mt-4">
-                {voyagerPoints.map((point, index) => (
-                  <li key={index}>
-                    <h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
-                      {point.title}:
-                    </h3>{" "}
-                    {point.desc}
+              <ol className="flex flex-col lg:flex-row relative lg:mt-[74px] mt-[60px] xl:w-[1100px]">
+                {voyagerPoints.map((step, index) => (
+                  <li
+                    key={step.id}
+                    className="relative flex-1 lg:mb-0 flex flex-col"
+                  >
+                    {/* Circle */}
+                    <div className="z-10 flex justify-center w-4 h-4 bg-[#0C8AED] rounded-full ring-0 ring-white lg:ring-4 shrink-0">
+                      <span className="flex w-3 h-3 bg-[#0C8AED] rounded-full"></span>
+                    </div>
+
+                    {/* Vertical line (mobile/tablet) */}
+                    {index !== voyagerPoints.length - 1 && (
+                      <div className="absolute top-4 left-2 w-0.5 h-full bg-[#9D9D9D] lg:hidden"></div>
+                    )}
+
+                    {/* Horizontal line (desktop) */}
+                    {index !== voyagerPoints.length - 1 && (
+                      <div className="hidden lg:block flex-1 w-full h-0.5 bg-[#9D9D9D] absolute top-2"></div>
+                    )}
+
+                    {/* Label */}
+                    <div className="lg:mt-[44px] max-lg:ml-[40px] max-lg:mt-[-20px]">
+                      <h3 className="font-bold inline 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[18px] lg:pr-8 xl:pr-2">
+                        {step.title}
+                      </h3>
+                      <p className="2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] lg:mt-[34px] mt-[8px] lg:pr-12 4xl:pr-10 max-lg:mb-12">
+                        {step.desc}
+                      </p>
+                    </div>
                   </li>
                 ))}
               </ol>
-              <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
+
+              <p className="mt-[40px] lg:mt-[110px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
                 This methodology reduces risk, eliminates rework, and
                 establishes a transformation framework that scales globally.
               </p>
@@ -497,18 +515,18 @@ export default function Page() {
                 When combined with <strong> Signavio</strong>, the impact
                 multiplies:
               </p>
-              <ul className="list-disc space-y-2 font-medium  4xl:text-[20px]  xl:text-[18px]  text-[16px] pl-[32px] pt-4">
+              <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-[50px] mt-[26px] md:gap-[18px] gap-y-[20px] sm:w-[70%] md:w-[90%] lg:w-full xl:w-[1100px]">
                 {intelligentPoints.map((point, index) => (
-                  <li key={index}>
-                    <h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
-                      {point.title}:
+                  <div key={index} className="border border-[#707070] lg:p-[40px] p-[26px]">
+                    <h3 className="font-bold inline 4xl:text-[22px] 2xl:text-[20px] xl:text-[19px] text-[16px] text-[#006FBE]">
+                      {point.title}
                     </h3>{" "}
-                    {point.desc}
-                  </li>
+                    <p className="mt-[16px] 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{point.desc}</p>
+                  </div>
                 ))}
-              </ul>
+              </div>
 
-              <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
+              <p className="4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] lg:mt-[47px] mt-[28px]">
                 With <strong>Joule + Signavio</strong>, Rialtes enables clients
                 to transform their organizations with{" "}
                 <strong>AI-powered precision and human-centered design.</strong>
@@ -517,16 +535,27 @@ export default function Page() {
               <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">
                 Benefits of Using SAP Signavio in an S/4HANA Journey
               </h2>
-              <ol className="list-decimal space-y-2 font-medium  4xl:text-[20px]  xl:text-[18px]  text-[16px] pl-[32px] mt-4">
+              <div className="flex flex-wrap justify-center lg:mt-[120px] mt-[80px] gap-y-[60px] md:gap-y-[90px] md:gap-x-[18px] xl:w-[1100px] md:w-[90%] sm:w-[70%]">
                 {benefitsPoints.map((point, index) => (
-                  <li key={index}>
-                    <h3 className="font-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] pb-2">
-                      {point.title}
-                    </h3>
-                    {point.desc}
-                  </li>
+                  <div
+                    key={index}
+                    className="border border-[#707070] relative flex-1 min-w-[300px] max-w-[350px] lg:pb-[41px] lg:pt-[80px] pt-[80px] pb-[40px]"
+                  >
+                    <h1 className="w-[80px] h-[80px] md:w-[90px] md:h-[90px] lg:w-[100px] lg:h-[100px] absolute lg:top-[-50px] top-[-40px] left-1/2 -translate-x-1/2 flex items-center justify-center bg-[#006FBE] text-white font-bold rounded-full">
+                      {index + 1}
+                    </h1>
+
+                    <div>
+                      <h3 className="font-bold 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] p-4 bg-[#e0dfdf] px-[35px]">
+                        {point.title}
+                      </h3>
+                      <p className="px-[35px] lg:pl-[28px] lg:pr-[22px] lg:mt-[32px] mt-[18px] 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                        {point.desc}
+                      </p>
+                    </div>
+                  </div>
                 ))}
-              </ol>
+              </div>
 
               <h2 className="pb-3 font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">
                 Use Cases Across the Enterprise
@@ -557,21 +586,21 @@ export default function Page() {
                 ulClassName="mt-3 font-medium list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[32px] space-y-2"
                 liClassName=""
               />
-            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
-               In essence, an S/4HANA implementation without Signavio is like building a state-of-the-art skyscraper on a fragile foundation.
+              <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                In essence, an S/4HANA implementation without Signavio is like building a state-of-the-art skyscraper on a fragile foundation.
               </p>
               <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">
                 Rialtes + Signavio + S/4HANA = Intelligent Transformation
               </h2>
               <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] ">
-               SAP S/4HANA is the digital backbone for enterprises of the future. But to unlock its true potential, organizations need clarity, transparency, and AI-driven insights. With Rialtes’ Voyager+ methodology, the Signavio process transformation suite, and the <Link href={"https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">intelligence of Joule</span></Link>, enterprises can confidently deliver business transformation that is scalable, measurable, and future-ready.
-               
+                SAP S/4HANA is the digital backbone for enterprises of the future. But to unlock its true potential, organizations need clarity, transparency, and AI-driven insights. With Rialtes’ Voyager+ methodology, the Signavio process transformation suite, and the <Link href={"https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">intelligence of Joule</span></Link>, enterprises can confidently deliver business transformation that is scalable, measurable, and future-ready.
+
               </p>
               <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] ">
-               The message is clear: With Rialtes as your transformation partner, S/4HANA becomes the foundation for intelligent enterprise reinvention.
+                The message is clear: With Rialtes as your transformation partner, S/4HANA becomes the foundation for intelligent enterprise reinvention.
               </p>
               <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">
-             FAQs: Frequently Asked Questions  </h2>
+                FAQs: Frequently Asked Questions  </h2>
               <FAQAccordion faqData={faqData} />
             </div>
           </div>
