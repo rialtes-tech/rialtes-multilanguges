@@ -392,32 +392,38 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-1 xl:absolute 4xl:mt-[-465px] xl:mt-[-440px] mt-[-75px] md:mt-0 custom-container">
-                    <div className="xl:col-span-10 col-span-12 bg-[#006FBE] px-10 xl:pt-12 4xl:pt-12  pt-[2rem] z-[9]   text-white border-0 outline-none focus:outline-none focus:ring-0">
-                        <h2 className="bg-[#006FBE] 4xl:text-[60px] text-[26px] leading-tight xl:text-[40px] xl:pr-32">Deep Salesforce Marketing Cloud Expertise</h2>
-                        <p className="mt-5 4xl:pr-[25rem] xl:pr-48 4xl:text-[22px] text-[16px] pr-6 bg-[#006FBE]">At Rialtes, we bring years of hands-on experience in Salesforce Marketing Cloud, covering:</p>
-                    </div>
-                    <div className="xl:col-span-1 bg-[#006FBE]"></div>
-                </div>
-                <div className="grid xl:grid-cols-12 grid-cols-1 xl:absolute 4xl:mt-[-183px] xl:mt-[-225px] 2xl:mt-[-260px] 3xl:mt-[-299px] mt-0 md:mt-[-10px]  custom-container">
-                    <div className="xl:col-span-6 col-span-12 bg-[#006FBE] xl:px-14 4xl:px-20 px-8 4xl:pb-14 xl:pb-14 text-white  border-0 outline-none focus:outline-none focus:ring-0">
-                        <UnorderedList arrName={deepData1} ulClassName="list-disc leading-tight  xl:space-y-5 xl:pb-16 4xl:pb-16 space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-8 mt-5 4xl:pr-16 pr-6 xl:pr-0" liClassName="" />
-                        <div className="absolute 4xl:mt-[-25px] xl:mt-[-18px] xl:block hidden">
+
+                <section className=" text-white py-12 custom-container xl:absolute relative z-[99] xl:z-0 4xl:mt-[-450px] mt-[-125px] xl:mt-[-450px]">
+                    <div className="custom-container mx-auto px-6 xl:px-14 bg-[#006FBE]">
+                        {/* Title + Description */}
+                        <div className="text-left mb-5">
+
+                            <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[50px] text-[26px] leading-tight pt-10 2xl:pt-20 4xl:pt-16 xl:pt-10 lg:pr-0 4xl:pr-64 2xl:pr-64 xl:pr-64">
+                                Deep Salesforce Marketing Cloud Expertise</h2>
+
+                            <p className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] 4xl:pr-[40rem] 2xl:pr-[32rem] xl:pr-[25rem]">
+                                At Rialtes, we bring years of hands-on experience in Salesforce
+                                Marketing Cloud, covering:
+                            </p>
+                        </div>
+
+                        {/* Lists */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-10">
+                            <UnorderedList arrName={deepData1} ulClassName="list-disc font-light xl:font-medium pl-5 mt-4 xl:mt-8 space-y-3 4xl:space-y-6 xl:space-y-5 text-[16px] 4xl:text-[20px] leading-tight  marker:text-white 4xl:pr-[20px] pr-3" liClassName="" />
+                            <UnorderedList arrName={deepData2} ulClassName="list-disc pl-5 font-light xl:font-medium mt-4 xl:mt-8 space-y-3 4xl:space-y-6 xl:space-y-5 text-[16px] 4xl:text-[20px] leading-tight  marker:text-white 4xl:pr-[20px] pr-3" liClassName="" />
+                        </div>
+
+                        {/* Button */}
+                        <div className="xl:mt-10 mt-5  xl:text-left">
                             <LearnMore />
                         </div>
                     </div>
-                    <div className="xl:col-span-5 md:mt-0 col-span-12 bg-[#006FBE] border border-[#006FBE] xl:px-14 4xl:px-16 4xl:pl-0 px-8 xl:pb-14 4xl:pb-14 pb-20 text-white">
-                        <UnorderedList arrName={deepData2} ulClassName="list-disc leading-tight xl:space-y-5 space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-8 mt-5 pr-5 xl:pr-0 " liClassName="" />
-                        <div className="absolute xl:hidden block bottom-0">
-                            <LearnMore />
-                        </div>
-                    </div>
-                    <div className="xl:col-span-3 col-span-12"></div>
-                </div>
+                </section>
+
             </section>
             {/* driving business section*/}
-            <section className="xl:mt-64 4xl:mt-[25rem] custom-container 4xl:pl-0 4xl:pr-[192px] xl:pl-0 max-md:pl-0 md:mt-[-17rem]">
-                <div className="grid lg:grid-cols-12 grid-cols-1 xs:mt-[2rem] sm:mt-[5rem] mt-[80px] md:mt-[22rem]  lg:mt-[20rem] xl:mt-0 4xl:mt-0">
+            <section className="xl:mt-64 4xl:mt-[28rem] 2xl:mt-[20rem] custom-container 4xl:pl-0 4xl:pr-[192px] xl:pl-0 max-md:pl-0 md:mt-[-17rem]">
+                <div className="grid lg:grid-cols-12 grid-cols-1 xs:mt-[2rem] sm:mt-[5rem] mt-10 md:mt-[22rem]  lg:mt-[20rem] xl:mt-0 4xl:mt-0">
                     <div className="lg:col-span-7 col-span-12 4xl:pr-[60px] xl:pr-20 lg:pr-10">
                         <Image
                             src="/images/services/lob/advantageplus/desktop/driving.webp"
