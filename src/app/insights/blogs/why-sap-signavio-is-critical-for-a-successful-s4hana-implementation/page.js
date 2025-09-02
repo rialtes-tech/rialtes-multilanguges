@@ -539,11 +539,11 @@ export default function Page() {
                 {benefitsPoints.map((point, index) => (
                   <div
                     key={index}
-                    className="border border-[#707070] relative flex-1 min-w-[300px] max-w-[350px] lg:pb-[41px] lg:pt-[80px] pt-[80px] pb-[40px]"
+                    className="border border-[#707070] relative flex-1 min-w-[300px] max-w-[350px] lg:pb-[41px] lg:pt-[70px] pt-[60px] pb-[40px]"
                   >
-                    <h1 className="w-[80px] h-[80px] md:w-[90px] md:h-[90px] lg:w-[100px] lg:h-[100px] absolute lg:top-[-50px] top-[-40px] left-1/2 -translate-x-1/2 flex items-center justify-center bg-[#006FBE] text-white font-bold rounded-full">
+                    <div className="w-[60px] h-[60px] md:w-[75px] md:h-[75px] lg:w-[80px] lg:h-[80px] absolute lg:top-[-40px] top-[-30px] left-1/2 -translate-x-1/2 flex items-center justify-center bg-[#006FBE] text-white font-bold rounded-full text-[26px] xl:text-[32px] 2xl:text-[38px] 4xl:text-[50px]">
                       {index + 1}
-                    </h1>
+                    </div>
 
                     <div>
                       <h3 className="font-bold 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] p-4 bg-[#e0dfdf] px-[35px]">
