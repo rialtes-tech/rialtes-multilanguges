@@ -4070,467 +4070,1074 @@
         "futureDesc2": "Rialtes aide les entreprises à adopter facilement des agents IA grâce à Agentforce. Nous fournissons personnalisation et déploiement pour répondre à vos besoins, améliorer le service client et rationaliser les opérations pour une transition fluide vers le monde piloté par l’IA."
     },
     "howAgentforce": {
-         "agentforce": "Agentforce",
-  "date": "29 juillet 2025",
-  "title": "Comment Agentforce 3.0 Transforme la Fabrication Automobile",
-  "desc": "Salesforce a",
-  "descLink": "lancé",
-  "descLink2": " Agentforce 3.0 — et c’est un pas en avant significatif. Agentforce a été un élément clé de la stratégie IA de Salesforce depuis son lancement en septembre 2024. Depuis la sortie d’Agentforce 2.0 en décembre et Agentforce 2dx en mars, les mises à jour se poursuivent avec le lancement d’Agentforce 3.0, marquant un nouveau jalon majeur.",
-  "desctwo": "Pas dans le sens exagéré d’une “transformation du jour au lendemain”, mais dans les améliorations pratiques et mesurables qui impactent directement les professionnels gérant et optimisant l’IA dans la production automobile au quotidien. Avec plus de 200 actions d’agents préconstruites, Agentforce 3.0 fait progresser de manière significative l’opérationnalisation de l’automatisation intelligente dans les flux de travail clés. Alors qu’une grande partie de l’attention extérieure reste centrée sur les fonctionnalités IA spectaculaires, la véritable valeur stratégique de cette version réside dans sa capacité à combler le fossé entre les concepts visionnaires d’IA et l’automatisation déployable et évolutive, en particulier pour les administrateurs Salesforce, les développeurs et les équipes DevOps qui stimulent l’innovation industrielle. Tous les assistants IA ne se valent pas — comprendre la ",
-  "desctwoLink": "différence entre bots, copilotes et agents IA",
-  "desctwoLink1": " peut fondamentalement remodeler la façon dont vous concevez l’automatisation dans votre usine.",
-  "autoTitle": "L’industrie automobile est l’un des secteurs qui accélère vers une nouvelle ère, définie par l’automatisation intelligente, la volatilité de la chaîne d’approvisionnement et le passage aux véhicules électriques et autonomes. Les fabricants ne doivent pas seulement se concentrer sur l’amélioration des processus, mais aussi les réinventer pour rester compétitifs. Agentforce 3.0 permet aux entreprises automobiles de construire des usines plus intelligentes, d’optimiser la qualité et de stimuler l’innovation plus rapidement.",
-  "automotive": "Agentforce 3.0 : Un Tournant pour l’Automobile",
-  "sinceTitle": "Depuis ses débuts, la plateforme Agentforce de Salesforce a promis de réinventer la façon dont les organisations interagissent avec les données, les outils et les processus, en apportant l’intelligence pilotée par IA au cœur des opérations d’entreprise. Avec le lancement d’Agentforce 3.0, cette vision devient plus concrète, surtout pour le secteur de la fabrication automobile.",
-  "keyTitle": "Les capacités clés pour l’automobile incluent :",
-  "streamlineTitle": "Optimisez les opérations avec le Centre de Commande Agentforce",
-  "oneTitle": "L’une des fonctionnalités phares d’Agentforce 3.0 est le Centre de Commande — une tour de contrôle pour gérer et optimiser les performances des agents IA.",
-  "means": "Dans une usine automobile, cela signifie :",
-  "meansdesc": "Imaginez diagnostiquer une erreur de soudure ou une panne d’équipement avant qu’elle n’arrête votre chaîne de production. Agentforce le rend possible grâce à des insights prédictifs et des recommandations proactives.",
-  "universalTitle": "Intégration Universelle avec le Protocole de Contexte de Modèle (MCP)",
-  "modelTitle": "Le Protocole de Contexte de Modèle (MCP) apporte le “USB-C pour agents IA” aux systèmes informatiques automobiles. Pour les fabricants jonglant avec plusieurs plateformes telles que ERP, MES, PLM et tableaux de bord IoT, le MCP agit comme un adaptateur universel.",
-  "modelDesc": "Cela signifie que vos agents peuvent désormais déclencher des réapprovisionnements, ajuster les prévisions d’approvisionnement ou analyser les défauts de pièces en temps réel, sur toutes les plateformes.",
-  "modelDesc1": "À mesure que les usines automobiles évoluent au-delà de l’exécution de tâches robotiques, les agents intelligents redéfinissent la manière dont les systèmes collaborent, apprennent et réagissent. Découvrez comment ce changement façonne l’avenir de la fabrication intelligente.",
-  "qualityTitle": "Révolutionner la Qualité et la Conformité",
-  "driveTitle": "Stimulez l’innovation avec AgentExchange",
-  "driveDesc": "AgentExchange de Salesforce propose un marché plug-and-play pour l’innovation automobile.",
-  "driveDesc1": "Au lieu de construire chaque agent à partir de zéro, les fabricants peuvent désormais :",
-  "useTitle": "Les cas d’usage adaptés aux fabricants automobiles incluent :",
-  "useDesc": "Cette approche basée sur l’écosystème permet aux fabricants d’adopter rapidement des workflows d’agents éprouvés sans repartir de zéro. Elle réduit considérablement le temps de développement, accélère le déploiement et garantit que les meilleures pratiques de l’industrie et la conformité réglementaire sont intégrées dans chaque agent dès le premier jour, offrant aux entreprises automobiles un chemin plus intelligent, plus rapide et plus sûr vers l’adoption de l’IA avec Agentforce pour la fabrication automobile.",
-  "action": "Accélérez le Temps de Valeur avec des Actions Industrielles Préconstruites",
-  "actionDesc": "Agentforce 3.0 n’est pas seulement destiné aux équipes techniques ; il est conçu pour apporter une valeur immédiate sur le terrain. Salesforce déploie plus de 100 actions industrielles préconstruites en 2025, adaptées à des secteurs tels que l’automobile.",
-  "useCase": "Les cas d’usage incluent :",
-  "newTitle": "Et avec de nouveaux modèles de tarification par utilisateur et une utilisation illimitée pour les agents destinés aux employés, il est plus facile que jamais de déployer l’IA à grande échelle, sans coûts imprévisibles.",
-  "putTitle": "Mettez l’IA au Travail dans l’Automobile, dès Aujourd’hui",
-  "putDesc": "Agentforce arrive à un moment crucial pour l’industrie automobile. Face aux attentes croissantes des consommateurs, à l’électrification et à la concurrence mondiale, la pression pour faire plus avec moins n’a jamais été aussi forte.",
-  "putDesc2": "La dernière mise à jour de Salesforce fournit aux fabricants les blocs de construction IA nécessaires pour :",
-  "whetherDesc": "Que vous modernisiez des systèmes existants ou construisiez des usines intelligentes à partir de zéro, Agentforce 3.0 offre un moyen puissant de stimuler la transformation.",
-  "link": "Êtes-vous prêt à découvrir ",
-  "link1": "comment Agentforce peut bénéficier à votre usine ?",
-  "link2": " Laissez nos experts vous aider à intégrer, déployer et réussir avec ",
-  "link3": "l’IA dans la fabrication automobile",
-  "link4": ". Rialtes aide les entreprises à intégrer des agents Agentforce personnalisés dans leurs plateformes ERP, automatisant les tâches et optimisant les workflows.",
-  "faq": "FAQ : Agentforce pour la Transformation de la Fabrication Pilotée par l’IA",
-  "aiList": [
-    "Renforcer la résilience opérationnelle",
-    "Accélérer les cycles d’innovation",
-    "Assurer la conformité à travers les régions",
-    "Offrir de meilleures expériences tout au long du cycle de vie du véhicule"
-  ],
-  "useCaseList": [
-    "Résumés d’inspection de véhicules automatisés",
-    "Coordination des jumeaux numériques",
-    "Maintenance prédictive et déclenchement de réparations",
-    "Alertes de pénurie de pièces et agents de résolution"
-  ],
-  "listItems": [
-    "Déployer des agents préconstruits pour la planification, les achats ou le service après-vente",
-    "S’appuyer sur des partenaires tels que PayPal, WRITER et Box pour des workflows agentiques",
-    "Partager les innovations à travers l’industrie pour une adoption plus rapide"
-  ],
-  "agentforceContent": [
-    "Agentforce 3.0 est propulsé par l’Atlas Reasoning Engine avancé de Salesforce, apportant un nouveau niveau d’intelligence et d’agilité à cette fonction critique. En exploitant l’enrichissement des données en temps réel de Data Cloud, les agents IA peuvent surveiller continuellement les données de production, détecter les anomalies et identifier les écarts de qualité en temps réel.",
-    "Grâce à la génération et au raffinement de plans pilotés par IA, le système peut non seulement identifier les problèmes, mais aussi recommander des modifications de conception ou des ajustements de procédure pour améliorer les résultats.",
-    "De plus, avec la génération augmentée par récupération (RAG) et les citations en ligne, chaque insight délivré par un agent est traçable et transparent — une caractéristique essentielle pour les environnements réglementés. Le résultat est une approche plus intelligente et proactive de la qualité et de la conformité, réduisant les retouches, garantissant la préparation aux audits et accélérant la résolution des problèmes.",
-    "Avec des capacités multilingues et la certification FedRAMP High, Agentforce 3.0 est conçu pour répondre aux besoins des fabricants mondiaux, y compris ceux opérant dans des environnements fortement réglementés ou liés au gouvernement, offrant une solution sécurisée, évolutive et intelligente pour la gestion moderne de la qualité automobile."
-  ],
-  "integrationPoints": [
-    {
-      "title": "Intégration API Sans Effort",
-      "desc": "Convertissez instantanément les API de fabrication en services compatibles agents via MuleSoft."
-    },
-    {
-      "title": "Connexions d’Outils Personnalisés",
-      "desc": "Utilisez Heroku AppLink pour exposer en toute sécurité des applications personnalisées comme les systèmes CAD ou les plateformes de suivi des stocks."
-    },
-    {
-      "title": "Collaboration Sécurisée dans Slack",
-      "desc": "Permettez aux agents d’interagir avec les mises à jour de production, les rapports qualité ou les plannings de shifts dans Slack, sans enfreindre les règles de conformité ou de gouvernance."
-    }
-  ],
-  "commandList": [
-    {
-      "title": "Surveillance en Temps Réel des Agents de Production",
-      "desc": "Recevez des alertes en temps réel lorsqu’un agent contrôlant les lignes d’assemblage robotiques rencontre des anomalies."
-    },
-    {
-      "title": "Optimisation des Performances",
-      "desc": "Identifiez les goulets d’étranglement, suivez les taux d’erreur et assurez-vous que votre usine fonctionne à pleine capacité."
-    },
-    {
-      "title": "Transparence Inter-Équipes",
-      "desc": "Visualisez les activités humaines et IA côte à côte, permettant des efforts coordonnés entre les équipes de maintenance et les agents numériques."
-    }
-  ],
-  "blogs": [
-    {
-      "id": 1,
-      "image": "/images/blog/blog-1.webp",
-      "category": "Salesforce Agentforce",
-      "industry": "Générique",
-      "date": "30 Sept 2024",
-      "url": "comment-fonctionne-vraiment-salesforce-agentforce",
-      "title": "Comment Fonctionne Réellement Salesforce Agentforce",
-      "description": "Salesforce Agentforce, bien qu’il s’agisse d’une incorporation plus récente dans l’écosystème Salesforce, gagne du terrain, en particulier dans les organisations qui travaillent avec de grandes équipes d’agents, comme les commerciaux, les représentants du service client et le personnel de terrain."
-    },
-    {
-      "id": 3,
-      "image": "/images/blog/blog-3.webp",
-      "category": "Salesforce Agentforce",
-      "industry": "Générique",
-      "date": "28 Oct 2024",
-      "title": "Agents vs. Copilotes vs. Bots : Quelle est la Différence et Pourquoi est-ce Important ?",
-      "description": "Des outils comme Agentforce redéfinissent notre vision des assistants numériques, en mettant en évidence les différences entre Agents, Copilotes et Bots. Ces termes sont fréquemment utilisés dans l’automatisation pilotée par l’IA et les interfaces conversationnelles, chacun ayant un objectif distinct."
-    },
-    {
-      "id": 4,
-      "image": "/images/blog/blog-4.webp",
-      "category": "Salesforce Agentforce",
-      "industry": "Générique",
-      "date": "25 Nov 2024",
-      "title": "Centre de Tests Agentforce : Redéfinir les Tests d’IA avec des Données Synthétiques",
-      "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Centre de Tests dans sa plateforme d’IA agentique, Agentforce. Cet ajout permet aux utilisateurs métier de tester et de surveiller les agents d’IA avant de les déployer en production."
-    },
-    {
-      "id": 5,
-      "image": "/images/blog/blog-5.webp",
-      "category": "SAP SuccessFactors",
-      "industry": "Ressources Humaines",
-      "date": "24 Déc 2024",
-      "title": "Comment Intégrer SAP SuccessFactors avec Microsoft Office 365 pour une Collaboration Améliorée",
-      "description": "L’intégration fluide entre les applications métier offre une meilleure collaboration, efficacité et productivité. Intégrer SAP SuccessFactors avec Microsoft Office 365 combine les atouts d’une solution leader en gestion de l’expérience humaine (HXM) et un solide ensemble d’outils de productivité."
-    },
-    {
-      "id": 6,
-      "image": "/images/blog/blog-6.webp",
-      "category": "Technologie Verte dans le Cloud",
-      "industry": "Agriculture",
-      "date": "17 Sept 2024",
-      "title": "Agriculture 4.0 : Comment les Technologies Numériques Transforment l’Agriculture pour un Meilleur Demain ?",
-      "description": "L’agriculture joue un rôle significatif dans l’économie croissante de l’Inde et son avenir ne peut être atteint sans outils numériques et innovations technologiques."
-    },
-    {
-      "id": 7,
-      "image": "/images/blog/blog-7.webp",
-      "category": "SAP SuccessFactors",
-      "industry": "Ressources Humaines",
-      "date": "29 Oct 2024",
-      "title": "SAP SuccessFactors : Gestion de la Performance et des Objectifs",
-      "description": "Atteindre les objectifs de votre organisation est une responsabilité clé partagée par toute votre équipe. Lorsque la stratégie de l’équipe s’aligne avec ses objectifs et les objectifs organisationnels plus larges, faire ce qu’il faut devient instinctif."
-    }
-  ],
-  "faqs": [
-    {
-      "question": "1. Qu’est-ce qu’Agentforce pour l’Automobile ?",
-      "answer": [
-        "Agentforce pour l’Automobile est la solution IA de Salesforce adaptée aux constructeurs automobiles. Elle automatise et optimise les flux de travail clés en production, chaîne d’approvisionnement, qualité et conformité grâce à Agentforce 3.0."
-      ]
-    },
-    {
-      "question": "2. Qu’est-ce qui rend Agentforce 3.0 précieux pour les constructeurs automobiles ?",
-      "answer": [
-        "Agentforce 3.0 apporte l’automatisation intelligente dans chaque partie de l’usine automobile. Il offre :",
-        [
-          "Visibilité opérationnelle en temps réel",
-          "Coordination intelligente des agents entre les équipes",
-          "Perspectives prédictives et prise de décision plus rapide",
-          "Flux de travail préconstruits pour un déploiement plus rapide"
+        "agentforce": "Agentforce",
+        "date": "29 juillet 2025",
+        "title": "Comment Agentforce 3.0 Transforme la Fabrication Automobile",
+        "desc": "Salesforce a",
+        "descLink": "lancé",
+        "descLink2": " Agentforce 3.0 — et c’est un pas en avant significatif. Agentforce a été un élément clé de la stratégie IA de Salesforce depuis son lancement en septembre 2024. Depuis la sortie d’Agentforce 2.0 en décembre et Agentforce 2dx en mars, les mises à jour se poursuivent avec le lancement d’Agentforce 3.0, marquant un nouveau jalon majeur.",
+        "desctwo": "Pas dans le sens exagéré d’une “transformation du jour au lendemain”, mais dans les améliorations pratiques et mesurables qui impactent directement les professionnels gérant et optimisant l’IA dans la production automobile au quotidien. Avec plus de 200 actions d’agents préconstruites, Agentforce 3.0 fait progresser de manière significative l’opérationnalisation de l’automatisation intelligente dans les flux de travail clés. Alors qu’une grande partie de l’attention extérieure reste centrée sur les fonctionnalités IA spectaculaires, la véritable valeur stratégique de cette version réside dans sa capacité à combler le fossé entre les concepts visionnaires d’IA et l’automatisation déployable et évolutive, en particulier pour les administrateurs Salesforce, les développeurs et les équipes DevOps qui stimulent l’innovation industrielle. Tous les assistants IA ne se valent pas — comprendre la ",
+        "desctwoLink": "différence entre bots, copilotes et agents IA",
+        "desctwoLink1": " peut fondamentalement remodeler la façon dont vous concevez l’automatisation dans votre usine.",
+        "autoTitle": "L’industrie automobile est l’un des secteurs qui accélère vers une nouvelle ère, définie par l’automatisation intelligente, la volatilité de la chaîne d’approvisionnement et le passage aux véhicules électriques et autonomes. Les fabricants ne doivent pas seulement se concentrer sur l’amélioration des processus, mais aussi les réinventer pour rester compétitifs. Agentforce 3.0 permet aux entreprises automobiles de construire des usines plus intelligentes, d’optimiser la qualité et de stimuler l’innovation plus rapidement.",
+        "automotive": "Agentforce 3.0 : Un Tournant pour l’Automobile",
+        "sinceTitle": "Depuis ses débuts, la plateforme Agentforce de Salesforce a promis de réinventer la façon dont les organisations interagissent avec les données, les outils et les processus, en apportant l’intelligence pilotée par IA au cœur des opérations d’entreprise. Avec le lancement d’Agentforce 3.0, cette vision devient plus concrète, surtout pour le secteur de la fabrication automobile.",
+        "keyTitle": "Les capacités clés pour l’automobile incluent :",
+        "streamlineTitle": "Optimisez les opérations avec le Centre de Commande Agentforce",
+        "oneTitle": "L’une des fonctionnalités phares d’Agentforce 3.0 est le Centre de Commande — une tour de contrôle pour gérer et optimiser les performances des agents IA.",
+        "means": "Dans une usine automobile, cela signifie :",
+        "meansdesc": "Imaginez diagnostiquer une erreur de soudure ou une panne d’équipement avant qu’elle n’arrête votre chaîne de production. Agentforce le rend possible grâce à des insights prédictifs et des recommandations proactives.",
+        "universalTitle": "Intégration Universelle avec le Protocole de Contexte de Modèle (MCP)",
+        "modelTitle": "Le Protocole de Contexte de Modèle (MCP) apporte le “USB-C pour agents IA” aux systèmes informatiques automobiles. Pour les fabricants jonglant avec plusieurs plateformes telles que ERP, MES, PLM et tableaux de bord IoT, le MCP agit comme un adaptateur universel.",
+        "modelDesc": "Cela signifie que vos agents peuvent désormais déclencher des réapprovisionnements, ajuster les prévisions d’approvisionnement ou analyser les défauts de pièces en temps réel, sur toutes les plateformes.",
+        "modelDesc1": "À mesure que les usines automobiles évoluent au-delà de l’exécution de tâches robotiques, les agents intelligents redéfinissent la manière dont les systèmes collaborent, apprennent et réagissent. Découvrez comment ce changement façonne l’avenir de la fabrication intelligente.",
+        "qualityTitle": "Révolutionner la Qualité et la Conformité",
+        "driveTitle": "Stimulez l’innovation avec AgentExchange",
+        "driveDesc": "AgentExchange de Salesforce propose un marché plug-and-play pour l’innovation automobile.",
+        "driveDesc1": "Au lieu de construire chaque agent à partir de zéro, les fabricants peuvent désormais :",
+        "useTitle": "Les cas d’usage adaptés aux fabricants automobiles incluent :",
+        "useDesc": "Cette approche basée sur l’écosystème permet aux fabricants d’adopter rapidement des workflows d’agents éprouvés sans repartir de zéro. Elle réduit considérablement le temps de développement, accélère le déploiement et garantit que les meilleures pratiques de l’industrie et la conformité réglementaire sont intégrées dans chaque agent dès le premier jour, offrant aux entreprises automobiles un chemin plus intelligent, plus rapide et plus sûr vers l’adoption de l’IA avec Agentforce pour la fabrication automobile.",
+        "action": "Accélérez le Temps de Valeur avec des Actions Industrielles Préconstruites",
+        "actionDesc": "Agentforce 3.0 n’est pas seulement destiné aux équipes techniques ; il est conçu pour apporter une valeur immédiate sur le terrain. Salesforce déploie plus de 100 actions industrielles préconstruites en 2025, adaptées à des secteurs tels que l’automobile.",
+        "useCase": "Les cas d’usage incluent :",
+        "newTitle": "Et avec de nouveaux modèles de tarification par utilisateur et une utilisation illimitée pour les agents destinés aux employés, il est plus facile que jamais de déployer l’IA à grande échelle, sans coûts imprévisibles.",
+        "putTitle": "Mettez l’IA au Travail dans l’Automobile, dès Aujourd’hui",
+        "putDesc": "Agentforce arrive à un moment crucial pour l’industrie automobile. Face aux attentes croissantes des consommateurs, à l’électrification et à la concurrence mondiale, la pression pour faire plus avec moins n’a jamais été aussi forte.",
+        "putDesc2": "La dernière mise à jour de Salesforce fournit aux fabricants les blocs de construction IA nécessaires pour :",
+        "whetherDesc": "Que vous modernisiez des systèmes existants ou construisiez des usines intelligentes à partir de zéro, Agentforce 3.0 offre un moyen puissant de stimuler la transformation.",
+        "link": "Êtes-vous prêt à découvrir ",
+        "link1": "comment Agentforce peut bénéficier à votre usine ?",
+        "link2": " Laissez nos experts vous aider à intégrer, déployer et réussir avec ",
+        "link3": "l’IA dans la fabrication automobile",
+        "link4": ". Rialtes aide les entreprises à intégrer des agents Agentforce personnalisés dans leurs plateformes ERP, automatisant les tâches et optimisant les workflows.",
+        "faq": "FAQ : Agentforce pour la Transformation de la Fabrication Pilotée par l’IA",
+        "aiList": [
+            "Renforcer la résilience opérationnelle",
+            "Accélérer les cycles d’innovation",
+            "Assurer la conformité à travers les régions",
+            "Offrir de meilleures expériences tout au long du cycle de vie du véhicule"
+        ],
+        "useCaseList": [
+            "Résumés d’inspection de véhicules automatisés",
+            "Coordination des jumeaux numériques",
+            "Maintenance prédictive et déclenchement de réparations",
+            "Alertes de pénurie de pièces et agents de résolution"
+        ],
+        "listItems": [
+            "Déployer des agents préconstruits pour la planification, les achats ou le service après-vente",
+            "S’appuyer sur des partenaires tels que PayPal, WRITER et Box pour des workflows agentiques",
+            "Partager les innovations à travers l’industrie pour une adoption plus rapide"
+        ],
+        "agentforceContent": [
+            "Agentforce 3.0 est propulsé par l’Atlas Reasoning Engine avancé de Salesforce, apportant un nouveau niveau d’intelligence et d’agilité à cette fonction critique. En exploitant l’enrichissement des données en temps réel de Data Cloud, les agents IA peuvent surveiller continuellement les données de production, détecter les anomalies et identifier les écarts de qualité en temps réel.",
+            "Grâce à la génération et au raffinement de plans pilotés par IA, le système peut non seulement identifier les problèmes, mais aussi recommander des modifications de conception ou des ajustements de procédure pour améliorer les résultats.",
+            "De plus, avec la génération augmentée par récupération (RAG) et les citations en ligne, chaque insight délivré par un agent est traçable et transparent — une caractéristique essentielle pour les environnements réglementés. Le résultat est une approche plus intelligente et proactive de la qualité et de la conformité, réduisant les retouches, garantissant la préparation aux audits et accélérant la résolution des problèmes.",
+            "Avec des capacités multilingues et la certification FedRAMP High, Agentforce 3.0 est conçu pour répondre aux besoins des fabricants mondiaux, y compris ceux opérant dans des environnements fortement réglementés ou liés au gouvernement, offrant une solution sécurisée, évolutive et intelligente pour la gestion moderne de la qualité automobile."
+        ],
+        "integrationPoints": [
+            {
+                "title": "Intégration API Sans Effort",
+                "desc": "Convertissez instantanément les API de fabrication en services compatibles agents via MuleSoft."
+            },
+            {
+                "title": "Connexions d’Outils Personnalisés",
+                "desc": "Utilisez Heroku AppLink pour exposer en toute sécurité des applications personnalisées comme les systèmes CAD ou les plateformes de suivi des stocks."
+            },
+            {
+                "title": "Collaboration Sécurisée dans Slack",
+                "desc": "Permettez aux agents d’interagir avec les mises à jour de production, les rapports qualité ou les plannings de shifts dans Slack, sans enfreindre les règles de conformité ou de gouvernance."
+            }
+        ],
+        "commandList": [
+            {
+                "title": "Surveillance en Temps Réel des Agents de Production",
+                "desc": "Recevez des alertes en temps réel lorsqu’un agent contrôlant les lignes d’assemblage robotiques rencontre des anomalies."
+            },
+            {
+                "title": "Optimisation des Performances",
+                "desc": "Identifiez les goulets d’étranglement, suivez les taux d’erreur et assurez-vous que votre usine fonctionne à pleine capacité."
+            },
+            {
+                "title": "Transparence Inter-Équipes",
+                "desc": "Visualisez les activités humaines et IA côte à côte, permettant des efforts coordonnés entre les équipes de maintenance et les agents numériques."
+            }
+        ],
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "30 Sept 2024",
+                "url": "comment-fonctionne-vraiment-salesforce-agentforce",
+                "title": "Comment Fonctionne Réellement Salesforce Agentforce",
+                "description": "Salesforce Agentforce, bien qu’il s’agisse d’une incorporation plus récente dans l’écosystème Salesforce, gagne du terrain, en particulier dans les organisations qui travaillent avec de grandes équipes d’agents, comme les commerciaux, les représentants du service client et le personnel de terrain."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "28 Oct 2024",
+                "title": "Agents vs. Copilotes vs. Bots : Quelle est la Différence et Pourquoi est-ce Important ?",
+                "description": "Des outils comme Agentforce redéfinissent notre vision des assistants numériques, en mettant en évidence les différences entre Agents, Copilotes et Bots. Ces termes sont fréquemment utilisés dans l’automatisation pilotée par l’IA et les interfaces conversationnelles, chacun ayant un objectif distinct."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "25 Nov 2024",
+                "title": "Centre de Tests Agentforce : Redéfinir les Tests d’IA avec des Données Synthétiques",
+                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Centre de Tests dans sa plateforme d’IA agentique, Agentforce. Cet ajout permet aux utilisateurs métier de tester et de surveiller les agents d’IA avant de les déployer en production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources Humaines",
+                "date": "24 Déc 2024",
+                "title": "Comment Intégrer SAP SuccessFactors avec Microsoft Office 365 pour une Collaboration Améliorée",
+                "description": "L’intégration fluide entre les applications métier offre une meilleure collaboration, efficacité et productivité. Intégrer SAP SuccessFactors avec Microsoft Office 365 combine les atouts d’une solution leader en gestion de l’expérience humaine (HXM) et un solide ensemble d’outils de productivité."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Technologie Verte dans le Cloud",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0 : Comment les Technologies Numériques Transforment l’Agriculture pour un Meilleur Demain ?",
+                "description": "L’agriculture joue un rôle significatif dans l’économie croissante de l’Inde et son avenir ne peut être atteint sans outils numériques et innovations technologiques."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources Humaines",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors : Gestion de la Performance et des Objectifs",
+                "description": "Atteindre les objectifs de votre organisation est une responsabilité clé partagée par toute votre équipe. Lorsque la stratégie de l’équipe s’aligne avec ses objectifs et les objectifs organisationnels plus larges, faire ce qu’il faut devient instinctif."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "1. Qu’est-ce qu’Agentforce pour l’Automobile ?",
+                "answer": [
+                    "Agentforce pour l’Automobile est la solution IA de Salesforce adaptée aux constructeurs automobiles. Elle automatise et optimise les flux de travail clés en production, chaîne d’approvisionnement, qualité et conformité grâce à Agentforce 3.0."
+                ]
+            },
+            {
+                "question": "2. Qu’est-ce qui rend Agentforce 3.0 précieux pour les constructeurs automobiles ?",
+                "answer": [
+                    "Agentforce 3.0 apporte l’automatisation intelligente dans chaque partie de l’usine automobile. Il offre :",
+                    [
+                        "Visibilité opérationnelle en temps réel",
+                        "Coordination intelligente des agents entre les équipes",
+                        "Perspectives prédictives et prise de décision plus rapide",
+                        "Flux de travail préconstruits pour un déploiement plus rapide"
+                    ]
+                ]
+            },
+            {
+                "question": "3. Comment Agentforce s’intègre-t-il aux systèmes automobiles existants ?",
+                "answer": [
+                    "Agentforce pour l’automobile s’intègre facilement aux systèmes hérités. Il se connecte aux ERP, MES, PLM et IoT en utilisant :",
+                    [
+                        "Model Context Protocol (MCP)",
+                        "MuleSoft pour l’intégration d’API",
+                        "Heroku AppLink pour la connectivité avec des outils personnalisés"
+                    ]
+                ]
+            },
+            {
+                "question": "4. Quels sont les cas d’usage d’Agentforce dans l’automobile ?",
+                "answer": [
+                    "Les principaux cas d’usage d’Agentforce pour l’automobile incluent :",
+                    [
+                        "Rapports d’inspection automatisés",
+                        "Planification prédictive de la maintenance",
+                        "Détection des défauts et anomalies",
+                        "Agents intelligents pour les rendez-vous de service",
+                        "Validation et traitement des réclamations de garantie"
+                    ]
+                ]
+            },
+            {
+                "question": "5. Quel est l’avenir de l’IA dans l’automobile ?",
+                "answer": [
+                    "L’IA va révolutionner l’industrie automobile dans ses opérations et expériences. Les principales tendances incluent :",
+                    [
+                        "Automatisation des usines intelligentes avec contrôles de qualité prédictifs",
+                        "Systèmes de conduite autonome alimentés par des données en temps réel",
+                        "Chaînes d’approvisionnement adaptatives avec logistique pilotée par l’IA",
+                        "Fonctionnalités personnalisées dans le véhicule utilisant l’IA générative",
+                        "Diagnostics et maintenance pilotés par l’IA"
+                    ]
+                ]
+            }
+        ],
+        "features": [
+            {
+                "title": "Agents de planification automatique des services de véhicules",
+                "description": "qui contactent proactivement les clients, suggèrent des rendez-vous de service basés sur les modèles d’utilisation ou les données de diagnostic, et coordonnent les réservations avec les techniciens disponibles."
+            },
+            {
+                "title": "Agents intelligents de validation des réclamations de garantie",
+                "description": "qui analysent les données de réparation, l’historique de service et les termes du contrat pour approuver ou escalader instantanément les réclamations."
+            },
+            {
+                "title": "Agents de mises à jour logistiques en temps réel et rapport d’incidents",
+                "description": "qui suivent les expéditions de pièces, détectent les retards ou interruptions dans la chaîne d’approvisionnement et activent des flux de travail automatisés pour rediriger les commandes ou notifier les équipes concernées."
+            }
+        ],
+        "featuresData": [
+            {
+                "icon": "/images/blog/realtime.webp",
+                "title": "Visibilité opérationnelle en temps réel",
+                "description": "permet aux responsables d’usine de surveiller les indicateurs de performance, l’état des machines et l’activité des agents depuis un centre de commandement centralisé, aidant à prévenir les interruptions avant qu’elles n’escaladent."
+            },
+            {
+                "icon": "/images/blog/ai.webp",
+                "title": "Collaboration entre agents pilotée par l’IA à travers les systèmes",
+                "description": "permet aux différentes parties du flux de fabrication—conception, production, logistique et services—de travailler ensemble de manière fluide grâce à des agents intelligents qui agissent comme des membres numériques de l’équipe, et non simplement comme des bots de tâches."
+            },
+            {
+                "icon": "/images/blog/faster.webp",
+                "title": "Diagnostic plus rapide et résolution des problèmes de production",
+                "description": "sont rendus possibles grâce à des agents capables de suivre les pannes entre systèmes, recommander des solutions et même initier des flux de travail pour planifier la maintenance ou rediriger les tâches, réduisant ainsi les temps d’arrêt."
+            },
+            {
+                "icon": "/images/blog/better.webp",
+                "title": "Meilleur contrôle qualité et suivi de conformité",
+                "description": "sont obtenus grâce à des agents intelligents qui signalent les écarts, analysent les modèles de défauts et garantissent que chaque produit respecte les normes réglementaires et internes, avec traçabilité d’audit et perspectives alimentées par l’IA."
+            },
+            {
+                "icon": "/images/blog/deeper.webp",
+                "title": "Intégration accrue avec la chaîne d’approvisionnement et les systèmes clients",
+                "description": "permet aux constructeurs automobiles et aux fournisseurs de connecter les points de l’approvisionnement, du stockage, de l’expédition et même du service après-vente, rendant les opérations plus agiles, transparentes et résilientes."
+            }
         ]
-      ]
     },
-    {
-      "question": "3. Comment Agentforce s’intègre-t-il aux systèmes automobiles existants ?",
-      "answer": [
-        "Agentforce pour l’automobile s’intègre facilement aux systèmes hérités. Il se connecte aux ERP, MES, PLM et IoT en utilisant :",
-        [
-          "Model Context Protocol (MCP)",
-          "MuleSoft pour l’intégration d’API",
-          "Heroku AppLink pour la connectivité avec des outils personnalisés"
+    "aiPowerBlog": {
+        "artificial": "Intelligence Artificielle",
+        "date": "21 août 2025",
+        "aiTitle": "Comment l'IA alimente l'avenir durable de notre planète",
+        "aiDesc": "L'intelligence artificielle ne se contente pas d'alimenter les villes intelligentes ou d'automatiser les industries. Elle devient discrètement l'un des outils les plus efficaces dans la lutte contre le changement climatique. Du suivi de la déforestation à la prévision de la demande énergétique en passant par la préservation de la biodiversité, l'IA aide à protéger la planète et à rendre la durabilité évolutive. Nous devons réduire les émissions de gaz à effet de serre et passer à des sources d'énergie renouvelables pour protéger notre planète et les générations futures. Cependant, l'espoir d'un avenir durable réside dans la conservation et l'innovation. Voici comment.",
+        "whatTitle": "Qu'est-ce que la durabilité et pourquoi l'IA est-elle importante ?",
+        "whatDesc": "La durabilité est cruciale pour garantir que les générations futures puissent bénéficier d'une qualité de vie comparable à la nôtre. Les Nations Unies ont établi ",
+        "goal": "17 Objectifs de Développement Durable",
+        "goalDesc": "(ODD) comme feuille de route pour relever les défis mondiaux tels que la pauvreté, les inégalités, le changement climatique, la dégradation de l'environnement, la paix et la justice.",
+        "goalDesc1": "L'IA joue un rôle croissant dans ce domaine. En analysant d'énormes ensembles de données, en repérant des motifs que les humains manquent et en faisant des recommandations basées sur les données, l'IA permet une prise de décision plus intelligente à tous les niveaux. Elle aide les villes à devenir plus économes en énergie, les industries à devenir plus propres et les agriculteurs à être plus productifs, tout en réduisant les déchets et les émissions. Que vous soyez un décideur politique, un leader d'entreprise ou un défenseur de la conservation, l'IA peut servir de boussole en temps réel pour la durabilité.",
+        "howTitle": "Comment l'IA est-elle utilisée dans la gestion intelligente de l'énergie ?",
+        "smartTitle": "Réseaux intelligents et fonctionnement avec l'IA",
+        "smartDesc": "Les réseaux intelligents sont des réseaux électriques intelligents qui réagissent dynamiquement à la demande et à l'offre. Voici ce que l'IA apporte :",
+        "smartDesc1": "Les réseaux intelligents sont essentiels pour intégrer des sources d'énergie variables comme le vent et le solaire, conciliant durabilité et résilience du système.",
+        "beingTitle": "Comment l'IA est-elle utilisée pour protéger les forêts ?",
+        "beingDesc": "Les forêts sont des puits de carbone vitaux mais sont confrontées à des menaces croissantes comme l'exploitation illégale et les incendies.",
+        "beingDesc1": "Ces technologies permettent une intervention plus rapide et une meilleure conservation des forêts.",
+        "roleTitle": "Rôle de l'IA dans l'agriculture durable et la biodiversité",
+        "howAiTitle": "Comment l'IA nous aide-t-elle à comprendre et protéger les océans ?",
+        "howAiDesc": "Les océans régulent le climat de la Terre et soutiennent la vie marine, mais ils sont soumis à des pressions dues à la pollution et à la surpêche.",
+        "howAiDesc1": "L'IA s'attaque à ce problème de plusieurs manières :",
+        "howAiDesc2": "Cette approche proactive contribue à protéger les écosystèmes marins et à maintenir les populations de poissons.",
+        "oceanTitle": "Comment l'IA nous aide-t-elle à comprendre et protéger les océans ?",
+        "predictTitle": "L'IA peut-elle prédire les catastrophes naturelles et les tendances climatiques ?",
+        "predictDesc": "Les modèles climatiques traditionnels nécessitent une puissance de calcul massive. L'IA accélère ce processus tout en améliorant la précision.",
+        "helpDesc": "L'IA transforme les grandes données climatiques en stratégies exploitables qui sauvent des vies et réduisent les dommages économiques.",
+        "ethicalTitle": "Enjeux éthiques de l'utilisation de l'IA pour l'environnement",
+        "ethicalDesc": "Nous ne pouvons pas ignorer les risques. Lorsque nous déployons l'IA pour résoudre des problèmes environnementaux, cela doit se faire de manière éthique.",
+        "that": "Cela signifie :",
+        "thatDesc": "Le développement responsable de l'IA est essentiel pour une durabilité à long terme",
+        "goals": "Comment les entreprises peuvent-elles utiliser l'IA pour atteindre leurs objectifs de durabilité ?",
+        "smarter": "Adoptez une voie plus intelligente vers un avenir durable grâce à l'IA",
+        "faqs": [
+            {
+                "question": "1. Comment l'IA transforme-t-elle la gestion de l'énergie ?",
+                "answer": [
+                    "L'IA améliore la manière dont nous produisons, stockons et utilisons l'énergie. Elle prédit la demande, gère les réseaux intelligents et optimise les performances en temps réel. Pensez à des panneaux solaires qui s'ajustent selon les prévisions météorologiques ou à des bâtiments qui régulent automatiquement leur consommation d'énergie."
+                ]
+            },
+            {
+                "question": "2. Que sont les réseaux intelligents et comment l'IA les soutient-elle ?",
+                "answer": [
+                    "Les réseaux intelligents sont des systèmes énergétiques qui s'ajustent dynamiquement en fonction de l'utilisation et de l'offre. L'IA leur permet de prévoir la demande, d'équilibrer la charge, de détecter les défauts et de réduire les pannes. Résultat : une énergie plus propre, moins de coupures et une meilleure intégration des énergies renouvelables comme le vent et le solaire."
+                ]
+            },
+            {
+                "question": "3. L'IA peut-elle aider à lutter contre la déforestation ?",
+                "answer": [
+                    "Oui. L'IA analyse les images satellites pour détecter l'exploitation illégale, prédit les risques d'incendies à partir des données météorologiques et écoute même les tronçonneuses dans les forêts éloignées. Ces outils permettent aux conservateurs d'agir plus rapidement et de protéger davantage de terres plus efficacement."
+                ]
+            },
+            {
+                "question": "4. L'IA est-elle également utilisée pour protéger la biodiversité ?",
+                "answer": [
+                    "Absolument. Les pièges photographiques pilotés par l'IA peuvent identifier les espèces, suivre les migrations et surveiller les populations menacées sans les déranger. Elle aide les chercheurs à protéger la faune avec une intrusion humaine minimale."
+                ]
+            },
+            {
+                "question": "5. Quel rôle l'IA joue-t-elle dans la conservation des océans ?",
+                "answer": [
+                    "Les drones sous-marins guidés par l'IA collectent des données sur la température, le pH et la vie marine. Les algorithmes suivent la pêche illégale en signalant les comportements suspects des navires. L'objectif est de transformer les données brutes des océans en informations et en actions."
+                ]
+            },
+            {
+                "question": "6. L'IA peut-elle prédire les catastrophes naturelles et les changements climatiques ?",
+                "answer": [
+                    "Oui. Les modèles améliorés par l'IA prédisent les inondations, les ouragans et la montée du niveau de la mer plus rapidement et avec plus de précision que les systèmes traditionnels. Cela donne aux gouvernements et aux communautés le temps de planifier, s'adapter et réduire les dégâts."
+                ]
+            },
+            {
+                "question": "7. Quels sont les risques de l'utilisation de l'IA pour des objectifs environnementaux ?",
+                "answer": [
+                    "Il existe des préoccupations éthiques, des biais dans les données, un manque de transparence ou l'utilisation de l'IA de manière à nuire aux communautés locales ou aux écosystèmes. C'est pourquoi la conception responsable, l'implication des communautés et une responsabilité claire sont essentielles."
+                ]
+            }
+        ],
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "30 sept. 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Comment fonctionne réellement Salesforce Agentforce",
+                "description": "Salesforce Agentforce, bien qu'étant un ajout récent à l'écosystème Salesforce, suscite de l'intérêt, notamment dans les organisations disposant de grandes équipes d'agents, tels que les commerciaux, les représentants du service client et le personnel de terrain."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "28 oct. 2024",
+                "title": "Agents vs. Copilotes vs. Bots : Quelle est la différence et pourquoi est-ce important",
+                "description": "Des outils comme Agentforce redéfinissent la manière dont nous percevons les assistants numériques, en mettant en avant les distinctions entre Agents, Copilotes et Bots. Ces termes sont souvent utilisés dans l'automatisation pilotée par l'intelligence artificielle et les interfaces conversationnelles, chacun ayant un rôle distinct."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "25 nov. 2024",
+                "title": "Centre de test Agentforce : Redéfinir les tests d'IA avec des données synthétiques",
+                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center dans sa plateforme d'IA agentique, Agentforce. Cette addition permet aux utilisateurs d'entreprise de tester et de surveiller les agents IA avant leur déploiement en production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources Humaines",
+                "date": "24 déc. 2024",
+                "title": "Comment intégrer SAP SuccessFactors à Microsoft Office 365 pour une collaboration améliorée",
+                "description": "L'intégration transparente entre les applications d'entreprise offre une meilleure collaboration, efficacité et productivité. Intégrer SAP SuccessFactors à Microsoft Office 365 combine la puissance d'une solution de gestion de l'expérience humaine (HXM) et d'une suite robuste d'outils de productivité."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Technologie verte Cloud",
+                "industry": "Agriculture",
+                "date": "17 sept. 2024",
+                "title": "Agriculture 4.0 : Comment les technologies numériques transforment l'agriculture pour un meilleur avenir ?",
+                "description": "L'agriculture joue un rôle important dans l'économie croissante de l'Inde et son avenir ne peut se réaliser sans outils numériques et innovation technologique."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources Humaines",
+                "date": "29 oct. 2024",
+                "title": "Gestion des performances et des objectifs SAP SuccessFactors",
+                "description": "Atteindre les objectifs de votre organisation est une responsabilité clé que toute votre équipe partage. Lorsque la stratégie de votre équipe s'aligne sur ses objectifs et sur ceux de l'organisation, agir correctement devient instinctif."
+            }
+        ],
+        "climatePara": [
+            "L'IA n'est pas une solution miracle pour le changement climatique. Mais elle agit comme un puissant accélérateur, rendant les solutions plus rapides, intelligentes et évolutives. Qu'il s'agisse de prévoir des catastrophes naturelles, d'améliorer l'utilisation de l'énergie ou de protéger les écosystèmes en danger, la technologie prouve sa valeur dans presque tous les aspects de la durabilité.",
+            "Chez Rialtes, nous aidons les organisations à développer des systèmes d'IA qui rendent la durabilité concrète. Du concept à l'exécution, nous collaborons avec les entreprises pour appliquer l'IA de manière éthique et efficace, transformant l'ambition climatique en action.",
+            "Parlez à nos experts pour découvrir comment l'IA peut libérer votre potentiel de durabilité, générer un impact mesurable et contribuer à un avenir meilleur pour les entreprises et la planète."
+        ],
+        "sustainabilityPara": [
+            "Les consommateurs veulent des produits plus propres. Les régulateurs renforcent les exigences. Les investisseurs récompensent les entreprises avec une forte performance ESG (Environnementale, Sociale et de Gouvernance). Et l'IA aide les entreprises à rester en avance sur ces trois aspects.",
+            "Les entreprises utilisent l'IA pour réduire les déchets dans la chaîne d'approvisionnement, surveiller les émissions de carbone en temps réel et automatiser les processus de reporting pour la conformité ESG. Les outils d'IA peuvent optimiser les itinéraires de livraison, signaler les processus de production inefficaces et même prédire les pannes d'équipement avant qu'elles ne causent une perte de ressources.",
+            "Prenons l'exemple de la fabrication. Les modèles d'IA peuvent identifier où les matières premières sont gaspillées, suggérer des opportunités d'économie d'énergie ou simuler différents scénarios pour rendre les opérations plus durables sans sacrifier la rentabilité. En agriculture, les détaillants utilisent l'IA pour réduire le gaspillage alimentaire en prévoyant la demande avec plus de précision, en améliorant la gestion de la durée de vie des produits et en minimisant la surproduction.",
+            "En fin de compte, les entreprises qui adoptent l'IA non seulement pour l'efficacité mais aussi pour la responsabilité environnementale seront celles qui façonneront l'économie future."
+        ],
+        "thatList": [
+            "Utiliser des modèles transparents et explicables",
+            "Impliquer les communautés locales dans la conception des technologies",
+            "Assurer la confidentialité des données et une utilisation responsable",
+            "Éviter les biais ou les optimisations à court terme qui nuisent aux écosystèmes"
+        ],
+        "trendsList": [
+            "Les modèles améliorés par l'IA prédisent plus rapidement les ouragans, les inondations et la montée du niveau de la mer.",
+            "Les gouvernements utilisent ces informations pour émettre des alertes précoces et planifier des infrastructures résilientes.",
+            "L'allocation des ressources devient plus ciblée dans les zones sujettes à la sécheresse et aux inondations."
+        ],
+        "oceanParagraphs": [
+            "Les océans couvrent plus de 70 % de notre planète, régulent sa température et soutiennent des écosystèmes entiers. Mais leur santé se dégrade rapidement en raison de la pollution, de la pêche illégale, de la hausse des températures et de l'acidification. L'IA aide les scientifiques et les conservateurs à aborder ces problèmes avec des outils à la fois précis et évolutifs.",
+            "Les véhicules sous-marins autonomes (AUV), guidés par l'IA, peuvent désormais surveiller les changements de température, de salinité et d'acidité des océans au fil du temps. Ces machines intelligentes explorent les environnements marins sans les perturber, collectant des données précieuses sur les récifs coralliens, les populations de poissons et le mouvement du plancton. Combinées à des capteurs pilotés par l'IA, ces données aident les chercheurs à comprendre comment le changement climatique affecte la vie sous la surface.",
+            "L'une des applications les plus concrètes de l'IA dans la conservation des océans est la lutte contre la pêche illégale. Les algorithmes prédictifs analysent les itinéraires des navires, les schémas de mouvement et les anomalies de vitesse pour détecter les activités suspectes. Lorsqu'un navire dévie de sa trajectoire près d'une zone protégée ou adopte un comportement erratique, les systèmes d'IA le signalent en temps réel, permettant aux gardes-côtes et aux autorités d'agir rapidement."
+        ],
+        "oceanUseCases": [
+            {
+                "title": "Véhicules sous-marins autonomes (AUV) :",
+                "desc": "Surveiller la température, l'acidité et l'activité marine."
+            },
+            {
+                "title": "Capteurs intelligents :",
+                "desc": "Suivre les indicateurs de santé des océans tels que le blanchissement des coraux et le niveau d'oxygène."
+            },
+            {
+                "title": "Détection de la pêche illégale :",
+                "desc": "Les modèles prédictifs analysent les routes des navires pour signaler les activités suspectes et alerter les autorités."
+            }
+        ],
+        "forestUseCases": [
+            {
+                "title": "Analyse satellitaire :",
+                "desc": "L'IA traite les images pour détecter la déforestation en temps réel."
+            },
+            {
+                "title": "Prévision des incendies :",
+                "desc": "Les modèles d'apprentissage profond utilisent les données météorologiques et historiques pour prédire les zones à haut risque."
+            },
+            {
+                "title": "Surveillance acoustique :",
+                "desc": "L'IA peut détecter les tronçonneuses et les camions dans les forêts éloignées grâce au son, même avant que les images satellites ne captent les changements."
+            }
+        ],
+        "farmingContent": [
+            "L'agriculture dépasse désormais le simple intuition. Avec la variabilité climatique et la pression croissante sur les systèmes alimentaires, l'agriculture doit être non seulement productive mais précise, et c'est exactement ce que permet l'IA.",
+            "En combinant les données des capteurs, drones et stations météorologiques, les modèles d'IA aident les agriculteurs à comprendre les conditions du sol, la santé des plantes et les moments optimaux d'arrosage. Cette approche d'agriculture de précision conduit à des rendements plus élevés tout en conservant l'eau et en réduisant la dépendance aux engrais chimiques et aux pesticides. C'est plus de nourriture avec une empreinte écologique réduite.",
+            "Mais l'IA ne se limite pas à soutenir la croissance des cultures, elle aide également à protéger les espèces. Les conservateurs utilisent désormais des pièges photographiques pilotés par l'IA qui identifient automatiquement les animaux dans leur habitat. Qu'il s'agisse de suivre la migration des éléphants ou de surveiller les nids d'oiseaux menacés, l'IA fournit aux chercheurs des informations détaillées sans perturber l'écosystème.",
+            "Ce double rôle, qui améliore la sécurité alimentaire et préserve la biodiversité, montre à quel point l'IA peut être puissante lorsqu'elle est appliquée de manière réfléchie au monde naturel."
+        ],
+        "smartList": [
+            {
+                "title": "Optimisation en temps réel :",
+                "desc": "L'IA prévoit la consommation d'énergie et ajuste immédiatement la distribution."
+            },
+            {
+                "title": "Infrastructure de comptage avancée (AMI) :",
+                "desc": "Fournit aux consommateurs et aux fournisseurs des données détaillées et en temps réel pour contrôler l'utilisation et les coûts."
+            },
+            {
+                "title": "Maintenance prédictive :",
+                "desc": "L'IA détecte tôt les défauts et anomalies, réduisant les temps d'arrêt et améliorant la fiabilité."
+            }
+        ],
+        "energyContent": [
+            "L'IA transforme la manière dont nous produisons, distribuons et consommons l'énergie, et ce n'est pas dans un futur lointain. Cela se passe déjà. Prenons la prévision énergétique. Les systèmes traditionnels s'appuient souvent sur des modèles statiques et des moyennes historiques, qui ne gèrent pas bien la volatilité, surtout avec des sources renouvelables comme le solaire et l'éolien. L'IA, en revanche, peut ingérer des données météorologiques en temps réel, les performances du réseau et les modèles de consommation pour réaliser des prévisions précises de la demande énergétique. Cela signifie moins de coupures, moins de gaspillage d'énergie et une meilleure intégration des énergies renouvelables dans les réseaux nationaux.",
+            "Ensuite, il y a l'optimisation. L'IA peut identifier les inefficacités tout au long du cycle de vie de l'énergie, comme une ferme solaire sous-performante par temps nuageux ou un bâtiment utilisant plus de puissance HVAC que nécessaire. Des entreprises comme Google ont utilisé l'IA pour réduire de 40 % l'énergie de refroidissement dans leurs centres de données — preuve que le machine learning peut conduire à des gains d'efficacité concrets.",
+            "La gestion intelligente de l'énergie consiste à avoir le contrôle. L'IA permet aux fournisseurs et aux consommateurs d'énergie de réagir en temps réel, de prendre des décisions éclairées et de progresser vers un avenir énergétique plus durable et équilibré."
         ]
-      ]
     },
-    {
-      "question": "4. Quels sont les cas d’usage d’Agentforce dans l’automobile ?",
-      "answer": [
-        "Les principaux cas d’usage d’Agentforce pour l’automobile incluent :",
-        [
-          "Rapports d’inspection automatisés",
-          "Planification prédictive de la maintenance",
-          "Détection des défauts et anomalies",
-          "Agents intelligents pour les rendez-vous de service",
-          "Validation et traitement des réclamations de garantie"
-        ]
-      ]
+    "aiThatListens": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Comment fonctionne réellement Salesforce Agentforce",
+                "description": "Salesforce Agentforce, bien qu’il soit un ajout plus récent à l’écosystème Salesforce, gagne en popularité, en particulier dans les organisations qui gèrent de grandes équipes d’agents, comme les commerciaux, les représentants du service client et le personnel de terrain."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "21 Oct 2024",
+                "title": "Le cerveau derrière les agents : dévoiler l’Atlas Reasoning Engine dans Agentforce",
+                "description": "À mesure que les entreprises grandissent, la complexité de la gestion des interactions clients se multiplie, ce qui accroît le besoin de systèmes de support plus intelligents et plus efficaces. Salesforce Agentforce fournit une plateforme robuste d’automatisation du service client, désormais améliorée par le révolutionnaire Atlas Reasoning Engine."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center : redéfinir les tests d’IA avec des données synthétiques",
+                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center dans sa plateforme d’IA agentique, Agentforce. Cette addition permet aux utilisateurs d’entreprise de tester et de surveiller les agents d’IA avant de les déployer en production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources Humaines",
+                "date": "24 Dec 2024",
+                "title": "Comment intégrer SAP SuccessFactors avec Microsoft Office 365 pour une meilleure collaboration",
+                "description": "L’intégration fluide entre applications d’entreprise offre une meilleure collaboration, efficacité et productivité. L’intégration de SAP SuccessFactors avec Microsoft Office 365 combine la force d’une solution leader en gestion de l’expérience humaine (HXM) et une suite robuste d’outils de productivité."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Technologie Verte Cloud",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0. Comment les technologies numériques transforment l’agriculture pour un avenir meilleur ?",
+                "description": "L’agriculture joue un rôle essentiel dans l’économie croissante de l’Inde et son avenir ne peut être accompli sans outils numériques et innovation technologique."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources Humaines",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors : gestion de la performance et des objectifs",
+                "description": "Atteindre les objectifs de votre organisation est une responsabilité clé que partage toute votre équipe. Lorsque la stratégie de votre équipe s’aligne avec ses objectifs et ceux de l’organisation, faire la bonne chose devient instinctif."
+            }
+        ],
+        "LLMarchData": [
+            {
+                "title": "Modèles uniquement encodeurs ",
+                "desc": "comme BERT sont excellents pour comprendre les entrées (utilisés pour l’analyse de sentiment, la classification, etc.)."
+            },
+            {
+                "title": "Modèles uniquement décodeurs ",
+                "desc": "comme GPT sont optimisés pour générer du texte et compléter des phrases."
+            },
+            {
+                "title": "Modèles encodeur-décodeur ",
+                "desc": "combinent les deux capacités pour des tâches comme la traduction et le résumé."
+            }
+        ],
+        "howLLMsData": [
+            {
+                "title": "Des conversations plus intelligentes avec la conscience du contexte",
+                "desc": "Contrairement aux bots basés sur des règles, les LLM peuvent interpréter le pourquoi derrière le quoi. Ils comprennent l’argot, le ton, le sentiment et même le sarcasme. Ainsi, si un client dit : “J’ai déjà contacté le support trois fois”, un LLM ne proposera pas seulement une FAQ : il reconnaîtra la frustration et fera remonter le problème avec le ton approprié."
+            },
+            {
+                "title": "Des réponses personnalisées et basées sur les données",
+                "desc": "Les LLM peuvent analyser les données CRM, l’historique des commandes et les interactions passées pour fournir des réponses adaptées. Cela signifie que les recommandations de produits sont pertinentes, pas aléatoires. Les suivis sont réfléchis, pas standardisés. Et le support devient proactif, pas réactif."
+            },
+            {
+                "title": "Présence omnicanale continue",
+                "desc": "Les clients ne se soucient pas de l’endroit où ils se connectent : cela peut être par chat, voix, email ou réseaux sociaux. Ils attendent les mêmes réponses rapides et intelligentes. Les LLM permettent des interactions cohérentes et humaines sur tous les canaux, 24/7."
+            },
+            {
+                "title": "Support multilingue intégré",
+                "desc": "Les LLM avec capacités de traduction brisent les barrières linguistiques. Que votre client parle anglais, espagnol, hindi ou français, le bot peut comprendre et répondre instantanément dans sa langue maternelle."
+            },
+            {
+                "title": "Informations en temps réel pour une meilleure expérience client",
+                "desc": "Les LLM peuvent analyser des milliers d’avis, de journaux de discussion et de réponses à des enquêtes pour extraire des sentiments, des tendances et des signaux d’alerte potentiels. Cela signifie des boucles de rétroaction produit plus rapides, un meilleur ciblage des campagnes et une détection précoce des problèmes."
+            },
+            {
+                "title": "Intégration et support plus rapides pour les agents humains",
+                "desc": "Les nouveaux agents de support peuvent utiliser les LLM comme copilotes : poser des questions, consulter des documents de politique et apprendre en temps réel. Cela réduit le temps de formation et améliore la résolution au premier contact."
+            }
+        ],
+        "voiceSearchExample": [
+            "“Qu’est-ce qu’un grand modèle de langage et comment fonctionne-t-il ?”",
+            "“En quoi les chatbots IA sont-ils différents des bots traditionnels ?”",
+            "“L’IA peut-elle personnaliser le service client ?”",
+            "“Comment l’IA générative aide-t-elle au support multilingue ?”",
+            "“Quels sont les avantages des LLM dans l’expérience client ?”",
+            "“Pourquoi les LLM sont-ils meilleurs que les bots basés sur des règles ?”",
+            "“Comment puis-je utiliser les LLM dans mon entreprise pour le support client ?”"
+        ],
+        "askingData": [
+            "“Mon chatbot répond-il aux attentes des clients ?”",
+            "“L’IA peut-elle rendre mon équipe de support plus rapide et plus intelligente ?”",
+            "“Comment puis-je faire évoluer la personnalisation sans augmenter les coûts ?”"
+        ],
+        "voiceSearchData": [
+            "La plupart des gens n’écrivent pas comme ils parlent. Lorsqu’une personne utilise la recherche vocale, elle ne dit pas “avantages LLM CX” : elle pose des questions complètes comme “Quels sont les avantages des grands modèles de langage dans le service client ?”. Ce changement est important.",
+            "C’est pourquoi ce blog est écrit non seulement pour les écrans, mais aussi pour la voix. Il répond aux questions en langage naturel que les gens posent réellement à leurs téléphones, enceintes intelligentes ou tableaux de bord de voiture. Et il le fait avec un ton conversationnel, simple et fluide.",
+            "Voici des exemples de requêtes de recherche vocale pour lesquelles ce blog est optimisé :"
+        ],
+        "fromChatbotsData": [
+            "Vous comptez encore sur des chatbots basés sur des règles ? C’est une technologie d’hier. Ils suivent des scripts, manquent de contexte et frustrent souvent plus qu’ils n’aident. Les Grands Modèles de Langage (LLM), en revanche, sont conçus pour comprendre les nuances. Ils écoutent, apprennent et s’adaptent.",
+            "Les LLM transforment des points de contact clients fragmentés en conversations fluides et humaines. Ils perçoivent le ton, se souviennent de l’historique et ajustent les messages en temps réel. C’est pourquoi de plus en plus de responsables CX abandonnent l’automatisation rigide au profit d’une IA conversationnelle, basée sur les données et émotionnellement intelligente.",
+            "Si vous vous demandez :"
+        ],
+        "blogTopic": "Intelligence Artificielle",
+        "blogTitle": "IA qui écoute, apprend et délivre : comment les grands modèles de langage transforment l’expérience client",
+        "mainData": "Une excellente expérience client commence par une excellente écoute. Mais il ne s’agit pas seulement d’entendre les mots ; il s’agit de comprendre l’intention, l’émotion, le contexte et l’historique. C’est là que les modèles traditionnels échouent, et que les Grands Modèles de Langage (LLM) entrent en jeu.",
+        "mainData2": "Les LLM, alimentés par l’IA générative, redéfinissent la manière dont les entreprises écoutent et répondent. Ils vont au-delà de l’automatisation. Ils rendent possible une vraie conversation.",
+        "mainData3": "Dans ce guide, nous expliquerons ce que sont les LLM, comment ils fonctionnent et ce qui les rend si efficaces pour transformer l’expérience client (CX). Vous verrez aussi pourquoi ils deviennent essentiels pour les entreprises qui veulent rester compétitives, réactives et humaines, même en se développant.",
+        "llmTitle": "Qu’est-ce qu’un grand modèle de langage (LLM) et comment fonctionne-t-il ?",
+        "llmDesc": "Les Grands Modèles de Langage (LLM) sont des systèmes avancés",
+        "llmStrongDesc": "d’IA agentique",
+        "llmDesc2": "entraînés sur d’énormes quantités de données textuelles pour comprendre et générer du langage naturel. Ils sont construits avec une architecture de réseau neuronal appelée transformers, qui les aide à saisir la grammaire, le sens et le contexte.",
+        "llmArchTitle": "Il existe trois types d’architectures LLM :",
+        "llmArchDesc": "Un exemple notable est GPT-3 d’OpenAI, avec 175 milliards de paramètres. Il peut répondre aux questions, résumer des informations et même tenir des conversations contextuelles, ce qui en fait un choix idéal pour le support client, les chatbots, les assistants virtuels et plus encore.",
+        "llmChangingTitle": "Comment les LLM changent-ils le jeu de l’expérience client ?",
+        "voiceSearchTitle": "Optimisation de la recherche vocale : comment les clients demandent de l’aide",
+        "voiceSearchDesc": "Que quelqu’un navigue à son bureau ou pose une question à Siri en déplacement, les réponses sont structurées pour être claires, pertinentes et adaptées à la voix. Cela augmente la visibilité, surtout à mesure que de plus en plus de recherches B2B se font via des appareils à commande vocale.",
+        "voiceSearchDesc2": "Ainsi, au lieu d’espérer que votre contenu soit trouvé, vous le concevez pour qu’il soit découvert — par les humains, les algorithmes et tout ce qui se situe entre les deux.",
+        "fromChatbotTitle": "Des chatbots à l’IA conversationnelle : pourquoi est-il temps de passer à l’étape suivante",
+        "fromChatbotDesc": "Il est temps de se tourner vers les LLM. Consultez notre blog sur",
+        "fromChatbotStrongDesc": "Comment construire des agents IA",
+        "fromChatbotDesc2": "pour découvrir comment les entreprises déploient des agents alimentés par les LLM avec Agentforce. Nous présentons des exemples réels et un guide étape par étape pour commencer.",
+        "readyTitle": "Prêt à améliorer l’expérience client avec les LLM ? Laissez Rialtes vous aider.",
+        "readyDesc": "Chez Rialtes, nous travaillons avec les entreprises pour intégrer directement les LLM dans leur pile de service client, offrant des conversations plus intelligentes, des résolutions plus rapides et des interactions plus humaines sur tous les canaux.",
+        "readyDesc2": "Nous vous aiderons à élaborer une stratégie évolutive, sécurisée et alignée sur vos objectifs, qu’il s’agisse de réduire la charge du support, d’augmenter le NPS ou de fournir un support multilingue 24/7. Rendons votre expérience client aussi intelligente que vos clients s’y attendent. Contactez-nous à sales@rialtes.com pour commencer la conversation."
     },
-    {
-      "question": "5. Quel est l’avenir de l’IA dans l’automobile ?",
-      "answer": [
-        "L’IA va révolutionner l’industrie automobile dans ses opérations et expériences. Les principales tendances incluent :",
-        [
-          "Automatisation des usines intelligentes avec contrôles de qualité prédictifs",
-          "Systèmes de conduite autonome alimentés par des données en temps réel",
-          "Chaînes d’approvisionnement adaptatives avec logistique pilotée par l’IA",
-          "Fonctionnalités personnalisées dans le véhicule utilisant l’IA générative",
-          "Diagnostics et maintenance pilotés par l’IA"
-        ]
-      ]
+    "whySapSignavio": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Comment Salesforce Agentforce fonctionne réellement",
+                "description": "Salesforce Agentforce, bien qu’un ajout plus récent à l’écosystème Salesforce, fait beaucoup parler de lui, en particulier dans les organisations qui gèrent de grandes équipes d’agents, comme les commerciaux, les représentants du service client et le personnel de terrain."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "21 Oct 2024",
+                "title": "Le cerveau derrière les agents : révéler le moteur de raisonnement Atlas dans Agentforce",
+                "description": "À mesure que les entreprises se développent, la complexité de la gestion des interactions clients se multiplie, ce qui accroît le besoin de systèmes de support plus intelligents et rationalisés. Salesforce Agentforce offre une plateforme robuste pour l’automatisation du service client, désormais renforcée par l’innovant moteur de raisonnement Atlas."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center : redéfinir les tests d’IA avec des données synthétiques",
+                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center au sein de sa plateforme d’IA agentique, Agentforce. Cet ajout permet aux utilisateurs d’entreprise de tester et de surveiller les agents IA avant de les déployer en production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources humaines",
+                "date": "24 Déc 2024",
+                "title": "Comment intégrer SAP SuccessFactors avec Microsoft Office 365 pour une collaboration renforcée",
+                "description": "Une intégration fluide entre les applications d’entreprise améliore la collaboration, l’efficacité et la productivité. L’intégration de SAP SuccessFactors avec Microsoft Office 365 combine les atouts d’une solution de gestion de l’expérience humaine (HXM) leader et d’une suite robuste d’outils de productivité."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Technologie verte dans le cloud",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0 : comment les technologies numériques transforment l’agriculture pour un avenir meilleur ?",
+                "description": "L’agriculture joue un rôle essentiel dans l’économie croissante de l’Inde et son avenir ne peut être assuré sans outils numériques et innovations technologiques."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources humaines",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Performance and Goal Management",
+                "description": "Atteindre les objectifs de votre organisation est une responsabilité partagée par toute votre équipe. Lorsque la stratégie de votre équipe s’aligne avec ses objectifs et les objectifs organisationnels plus larges, faire ce qu’il faut devient instinctif."
+            }
+        ],
+        "blogdescData": [
+            "Les organisations sont à un stade où elles doivent moderniser leurs systèmes ERP, rationaliser leurs opérations et exploiter les informations en temps réel. SAP S/4HANA est devenu le cœur numérique des entreprises cherchant à atteindre cette transformation. Toutefois, la véritable différence entre une simple migration et une transformation réussie réside dans la manière dont une organisation aligne efficacement ses processus métier avec S/4HANA.",
+            "C’est là que la suite SAP Signavio Business Process Transformation et la méthodologie éprouvée Voyager+ de Rialtes se rejoignent pour offrir des résultats mesurables. Rialtes veille à ce que les dirigeants métiers et IT ne se contentent pas de migrer vers S/4HANA, mais redéfinissent la façon dont leur entreprise fonctionne à l’ère numérique."
+        ],
+        "transformationPoints": [
+            {
+                "title": "Approche centrée sur les processus",
+                "desc": "Assure que la transformation est guidée par des processus standardisés et optimisés plutôt que par les contraintes du système."
+            },
+            {
+                "title": "Alignement métier-IT",
+                "desc": "Réduit l’écart entre les responsables fonctionnels et l’IT en créant un langage de processus commun."
+            },
+            {
+                "title": "Transparence du changement",
+                "desc": "Offre une visibilité sur les processus « tels quels » et « futurs », permettant une prise de décision éclairée."
+            },
+            {
+                "title": "Amélioration continue",
+                "desc": "La transformation ne s’arrête pas au go-live. Signavio aide les organisations à adopter une culture d’optimisation continue."
+            }
+        ],
+        "voyagerPoints": [
+            {
+                "title": "Services de conseil",
+                "desc": "Voyager+ commence par des évaluations stratégiques pour les licences, la standardisation des processus et la planification de la préparation."
+            },
+            {
+                "title": "Conception et modélisation des processus",
+                "desc": "Avec Signavio, nous définissons les processus futurs qui s’alignent avec les meilleures pratiques SAP et les références du secteur."
+            },
+            {
+                "title": "Excellence de mise en œuvre",
+                "desc": "Des chefs de projet certifiés SAP Activate garantissent que chaque plan et configuration est traçable aux résultats métiers."
+            },
+            {
+                "title": "Mise en service et au-delà",
+                "desc": "Voyager+ assure une transition fluide, un transfert de connaissances et un hypercare, tandis que les services gérés de Rialtes permettent une amélioration continue."
+            }
+        ],
+        "intelligentPoints": [
+            {
+                "title": "Informations conversationnelles sur les processus",
+                "desc": "Joule peut mettre en évidence, en langage naturel, les inefficacités identifiées dans Signavio, permettant une prise de décision plus rapide."
+            },
+            {
+                "title": "Recommandations automatisées",
+                "desc": "Joule génère des suggestions d’amélioration alignées sur les KPI métier suivis dans Signavio."
+            },
+            {
+                "title": "Guidage en temps réel",
+                "desc": "Les utilisateurs métier reçoivent des recommandations de processus pilotées par l’IA lorsqu’ils interagissent avec S/4HANA, assurant une adoption plus rapide."
+            }
+        ],
+        "benefitsPoints": [
+            {
+                "title": "Clarté des processus actuels",
+                "desc": "Le process mining via Signavio révèle les schémas d’exécution, les goulets d’étranglement et les inefficacités, donnant aux entreprises une base factuelle pour la transformation."
+            },
+            {
+                "title": "Conception de processus prêts pour l’avenir",
+                "desc": "En simulant les processus « futurs », les entreprises peuvent harmoniser leurs opérations à travers les géographies et unités, tout en s’alignant avec le cœur numérique de S/4HANA."
+            },
+            {
+                "title": "Accélération des ateliers Fit-to-Standard",
+                "desc": "Signavio fournit des cartes de processus et des KPI prêts à l’emploi, rendant les ateliers axés sur les données, centrés sur les résultats et plus rapides à exécuter."
+            },
+            {
+                "title": "Intégration avec SAP Cloud ALM (CALM)",
+                "desc": "Associé à SAP Cloud ALM, Signavio garantit la gouvernance, la traçabilité et le suivi des KPI tout au long du cycle de vie du programme."
+            },
+            {
+                "title": "Amélioration de la gestion du changement et adoption",
+                "desc": "La documentation et la visualisation basées sur les rôles simplifient la formation des utilisateurs, favorisant une adoption plus rapide et un engagement à long terme avec S/4HANA."
+            }
+        ],
+        "domainsPoints": [
+            {
+                "title": "Finance (Record-to-Report)",
+                "desc": "Cycles de clôture standardisés et moins de saisies manuelles."
+            },
+            {
+                "title": "Approvisionnement (Procure-to-Pay)",
+                "desc": "Onboarding des fournisseurs rationalisé et gestion des dépenses."
+            },
+            {
+                "title": "Ventes et distribution (Order-to-Cash)",
+                "desc": "Exécution harmonisée et meilleure expérience client."
+            },
+            {
+                "title": "Fabrication",
+                "desc": "Meilleure planification et intégration atelier avec des insights basés sur l’analytique."
+            },
+            {
+                "title": "Chaîne d’approvisionnement",
+                "desc": "Amélioration de la planification de la demande et du contrôle des stocks avec intelligence intégrée."
+            },
+            {
+                "title": "Gestion du capital humain",
+                "desc": "Processus RH numérisés alignés sur les besoins d’expérience des employés."
+            }
+        ],
+        "riskPoints": [
+            "Migrer les inefficacités dans S/4HANA.",
+            "Délais prolongés dus à des processus flous.",
+            "Coûts de mise en œuvre plus élevés dus aux reprises.",
+            "Faible adoption des utilisateurs par manque de clarté."
+        ],
+        "faqData": [
+            {
+                "question": "1. S/4HANA n’est-il pas suffisamment puissant seul ? Pourquoi ai-je besoin de Signavio ?",
+                "answer": [
+                    "S/4HANA fournit le cœur numérique, mais sans clarté des processus vous risquez de migrer vos inefficacités. Signavio garantit que vos processus sont optimisés, standardisés et alignés avec les meilleures pratiques SAP avant et après la migration."
+                ]
+            },
+            {
+                "question": "2. Comment Signavio réduit-il les risques dans un programme S/4HANA ?",
+                "answer": [
+                    "En offrant une visibilité sur les processus « tels quels » et « futurs », Signavio évite l’élargissement du périmètre, réduit les reprises et renforce la gouvernance tout au long de la transformation."
+                ]
+            },
+            {
+                "question": "3. Signavio peut-il aider à une adoption plus rapide de S/4HANA ?",
+                "answer": [
+                    "Oui. Grâce à une documentation basée sur les rôles, des modèles de processus visuels et des insights pilotés par l’IA via Joule, Signavio simplifie la formation et permet aux utilisateurs métier de s’adapter rapidement."
+                ]
+            },
+            {
+                "question": "4. Quels domaines de l’entreprise bénéficient le plus de Signavio pendant la migration S/4HANA ?",
+                "answer": [
+                    "Finance, Approvisionnement, Chaîne d’approvisionnement, Fabrication, Ventes & Distribution et RH bénéficient tous de processus standardisés et harmonisés qui améliorent l’efficacité et l’expérience."
+                ]
+            },
+            {
+                "question": "5. Comment Signavio fonctionne-t-il avec SAP Cloud ALM ?",
+                "answer": [
+                    "L’intégration garantit la traçabilité, le suivi des KPI et la conformité sur tout le cycle de vie du programme — facilitant la gestion des transformations à grande échelle."
+                ]
+            },
+            {
+                "question": "6. Que se passe-t-il si nous implémentons S/4HANA sans utiliser Signavio ?",
+                "answer": [
+                    "Vous risquez de conserver vos inefficacités historiques, de rallonger les délais, d’augmenter les coûts à cause des reprises, et de rencontrer une faible adoption utilisateur."
+                ]
+            },
+            {
+                "question": "7. Comment la méthodologie Voyager+ de Rialtes améliore-t-elle l’impact de Signavio ?",
+                "answer": [
+                    "Voyager+ exploite Signavio à chaque étape de SAP Activate — du conseil et de la conception à la mise en œuvre et l’hypercare — garantissant que les résultats métier restent au centre."
+                ]
+            }
+        ],
+        "blogTopic": "SAP Signavio",
+        "blogTitle": "Pourquoi SAP Signavio est essentiel pour une mise en œuvre réussie de S/4HANA",
+        "strategicTitle": "Le rôle stratégique de SAP Signavio dans les transformations S/4HANA",
+        "strategicDesc": "Migrer vers S/4HANA n’est pas simplement une mise à niveau technique. C’est une initiative à l’échelle de l’entreprise qui redéfinit les processus, la gouvernance et les modèles de performance. SAP Signavio fournit la visibilité de bout en bout, la modélisation et les capacités d’optimisation permettant aux entreprises de faire la transition en toute confiance.",
+        "keyReasonTitle": "Raisons clés pour lesquelles Signavio est important :",
+        "voyagerTitle": "Méthodologie Voyager+ de Rialtes : une feuille de route claire pour S/4HANA",
+        "voyagerDesc": "Chez Rialtes, nous avons développé",
+        "voyagerDescLink": "Voyager+",
+        "voyagerDesc2": "notre méthodologie propriétaire qui simplifie et accélère le",
+        "voyagerDesc3": "parcours S/4HANA en tirant parti de SAP Signavio à chaque étape du",
+        "voyagerDescStrong": "cadre SAP Activate.",
+        "methodologyDesc": "Cette méthodologie réduit les risques, élimine les reprises et établit un cadre de transformation évolutif à l’échelle mondiale.",
+        "jouleTitle": "Joule + Signavio : le duo intelligent de transformation",
+        "jouleDesc": "Le nouvel assistant IA générative de SAP",
+        "jouleDescStrong": "Joule",
+        "jouleDesc2": "apporte l’intelligence directement dans le parcours de transformation.",
+        "jouleDesc3": "Combiné à",
+        "signavioStrong": "Signavio",
+        "jouleDesc4": "l’impact se multiplie :",
+        "jouleSignavioDesc": "Avec",
+        "jouleSignavioStrong": "Joule + Signavio",
+        "jouleSignavioDesc2": "Rialtes permet aux clients de transformer leur organisation avec",
+        "jouleSignavioDesc3": "la précision de l’IA et un design centré sur l’humain.",
+        "benefitsTitle": "Avantages de l’utilisation de SAP Signavio dans un parcours S/4HANA",
+        "useCasesTitle": "Cas d’usage dans toute l’entreprise",
+        "useCasesDesc": "SAP Signavio pour S/4HANA apporte une valeur mesurable dans plusieurs domaines :",
+        "whyNotTitle": "Pourquoi ne pas avoir Signavio peut être risqué",
+        "whyNotDesc": "Sans SAP Signavio, les organisations risquent :",
+        "whyNotDesc2": "En résumé, une mise en œuvre de S/4HANA sans Signavio, c’est comme construire un gratte-ciel ultramoderne sur des fondations fragiles.",
+        "rialtesSignavioTitle": "Rialtes + Signavio + S/4HANA = Transformation intelligente",
+        "rialtesSignavioDesc": "SAP S/4HANA est la colonne vertébrale numérique des entreprises du futur. Mais pour libérer tout son potentiel, les organisations ont besoin de clarté, de transparence et d’insights pilotés par l’IA. Avec la méthodologie Voyager+ de Rialtes, la suite de transformation des processus Signavio et l’",
+        "rialtesSignavioLink": "intelligence de Joule",
+        "rialtesSignavioDesc2": "les entreprises peuvent mener en toute confiance une transformation métier évolutive, mesurable et prête pour l’avenir.",
+        "rialtesSignavioDesc3": "Le message est clair : avec Rialtes comme partenaire de transformation, S/4HANA devient la base de la réinvention intelligente de l’entreprise.",
+        "faqTitle": "FAQ : Foire aux questions"
+    },
+    "beyondRobotics": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "Comment fonctionne réellement Salesforce Agentforce",
+                "description": "Salesforce Agentforce, bien qu’étant une nouveauté dans l’écosystème Salesforce, fait parler de lui, en particulier dans les organisations qui gèrent de grandes équipes d’agents, comme les agents commerciaux, les représentants du service client et le personnel de terrain."
+            },
+            {
+                "id": 2,
+                "image": "/images/blog/blog-2.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "21 Oct 2024",
+                "title": "Le cerveau derrière les agents : dévoiler le moteur de raisonnement Atlas dans Agentforce",
+                "description": "À mesure que les entreprises se développent, la complexité de la gestion des interactions clients se multiplie, ce qui crée le besoin de systèmes d’assistance plus intelligents et rationalisés. Salesforce Agentforce fournit une plateforme robuste pour l’automatisation du service client, désormais renforcée par le moteur de raisonnement révolutionnaire Atlas."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Générique",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center : redéfinir les tests IA avec des données synthétiques",
+                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center dans sa plateforme d’IA agentique, Agentforce. Cette nouveauté permet aux utilisateurs d’entreprise de tester et de surveiller les agents IA avant de les déployer en production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources humaines",
+                "date": "24 Déc 2024",
+                "title": "Comment intégrer SAP SuccessFactors avec Microsoft Office 365 pour une meilleure collaboration",
+                "description": "L’intégration transparente entre les applications d’entreprise offre une collaboration améliorée, une plus grande efficacité et une meilleure productivité. L’intégration de SAP SuccessFactors avec Microsoft Office 365 combine les forces d’une solution leader en gestion de l’expérience humaine (HXM) et d’une suite robuste d’outils de productivité."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Technologie verte Cloud",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0. Comment les technologies numériques transforment l’agriculture pour un avenir meilleur ?",
+                "description": "L’agriculture joue un rôle important dans l’économie croissante de l’Inde et son avenir ne peut être accompli sans outils numériques et innovations technologiques."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Ressources humaines",
+                "date": "29 Oct 2024",
+                "title": "Gestion de la performance et des objectifs avec SAP SuccessFactors",
+                "description": "Atteindre les objectifs de votre organisation est une responsabilité clé partagée par toute votre équipe. Lorsque la stratégie de votre équipe s’aligne avec ses objectifs et les objectifs organisationnels plus larges, faire ce qu’il faut devient instinctif."
+            }
+        ],
+        "blogMainData": [
+            "L’automatisation industrielle n’est pas un concept nouveau. Les robots soudent, assemblent et emballent sur les lignes de production depuis des décennies. Mais voici le changement : l’automatisation n’est plus seulement une question de vitesse. Il s’agit de systèmes qui pensent de manière plus intelligente. Mais la plupart des usines dépendent encore d’une automatisation basée sur des règles fixes, limitée à une tâche, un système et sans apprentissage.",
+            "Voici le problème : les fabricants d’aujourd’hui font face à un enchevêtrement complexe de changements de demande mondiale, de pressions réglementaires, de besoins de personnalisation client et de chaînes d’approvisionnement fragiles. Résoudre cela exige plus que des bras plus rapides et des robots préprogrammés.",
+            "C’est là que les agents IA peuvent vous aider à intégrer une intelligence capable de s’adapter, de raisonner et d’agir à travers la chaîne de valeur. La prochaine génération de fabrication intelligente transcende l’automatisation et devient agentique."
+        ],
+        "whyNeedShiftData": [
+            "En plus d’exécuter, ils comprennent les objectifs et travaillent à leur réalisation.",
+            "Ils fonctionnent à travers les CRM, ERP, MES et systèmes IoT, pas seulement une machine.",
+            "Ils apprennent des données, des retours clients et du contexte historique et s’adaptent en conséquence."
+        ],
+        "agentforceData": [
+            "Surveiller les lignes de production pour détecter les anomalies en temps réel",
+            "Anticiper les perturbations de la chaîne d’approvisionnement avant qu’elles n’affectent l’exécution des commandes",
+            "Acheminer automatiquement les tickets de service en fonction de la disponibilité des pièces, de l’état de la garantie et de l’historique du produit",
+            "Guider les techniciens d’atelier avec des connaissances contextuelles et des flux de travail étape par étape"
+        ],
+        "manufacturingAreasData": [
+            {
+                "title": "Une production qui performe et prédit",
+                "desc": "Pensez à la dernière fois qu’une machine est tombée en panne en cours de production. Il y a de fortes chances que votre équipe de maintenance ait été prise de court, que les commandes aient été retardées et que personne ne l’ait vu venir. Avec Agentforce, les agents IA suivent la télémétrie des machines, les historiques de maintenance et la production en temps réel. Ils détectent la dégradation des performances avant la panne et alertent les techniciens, reprogramment les commandes impactées et notifient les clients de manière proactive."
+            },
+            {
+                "title": "Des chaînes d’approvisionnement connectées qui anticipent",
+                "desc": "La fragilité des chaînes d’approvisionnement est une réalité aujourd’hui. De la volatilité des matières premières aux retards de transport, le système est sous tension. Ce que les agents font différemment :",
+                "list": [
+                    "Surveiller la fiabilité des fournisseurs, la variabilité des délais et l’état de l’exécution",
+                    "Prédire les goulots d’étranglement et suggérer des sources alternatives",
+                    "Notifier automatiquement les parties prenantes, y compris les responsables de compte et les clients, lorsque des perturbations menacent la livraison"
+                ],
+                "desc2": "Contrairement aux tableaux de bord statiques ou aux escalades manuelles, les agents ferment la boucle de la détection à la communication jusqu’à la résolution."
+            },
+            {
+                "title": "Un support client plus intelligent et auto-trié",
+                "desc": "Dans la fabrication, le service client repose davantage sur la précision, le contexte et la rapidité. Les agents Agentforce trient automatiquement les cas en fonction de l’urgence, du type de produit, de la catégorie de client et des conditions SLA. Ils pré-remplissent les tickets avec des données comme l’ID de commande, l’état de la garantie et la configuration du produit. Ils acheminent vers le meilleur agent disponible ou gèrent la résolution de manière autonome pour les problèmes simples.",
+                "desc2": "Qu’il s’agisse de planifier un remplacement, d’émettre une documentation ou de répondre à une réclamation, les agents réduisent les délais de réponse et augmentent la satisfaction client."
+            },
+            {
+                "title": "Une intelligence après-vente qui fidélise",
+                "desc": "L’usine peut s’arrêter après la livraison, mais le parcours client ne s’arrête pas là.",
+                "desc3": "Les agents continuent de travailler après la vente pour :",
+                "list": [
+                    "Suivre les habitudes d’utilisation des produits connectés",
+                    "Identifier les comptes à risque de résiliation en fonction du comportement ou du sentiment",
+                    "Recommander des suivis personnalisés, de la maintenance préventive ou des opportunités de ventes additionnelles"
+                ],
+                "desc2": "C’est là que l’expérience client se gagne réellement, non seulement dans ce que vous produisez, mais aussi dans la manière dont vous soutenez et évoluez avec le client au fil du temps."
+            },
+            {
+                "title": "Une IA qui unifie les OEM, distributeurs et partenaires",
+                "desc": "La plupart des fabricants ne vendent pas directement. Vous avez des partenaires, des revendeurs, des équipes de terrain et des prestataires de support, tous contribuant à l’expérience client (ou la fragmentant). Tout le monde agit selon le même guide, et les clients bénéficient de la même qualité de support, peu importe qui la fournit.",
+                "desc3": "Les agents Agentforce apportent de la cohérence dans cet écosystème :",
+                "list": [
+                    "Fournir un libre-service aux distributeurs pour vérifier les stocks, demander une assistance ou déposer des réclamations",
+                    "Standardiser les SLA et les flux de travail sur tous les canaux partenaires",
+                    "Surveiller les délais de réponse des partenaires et faire remonter les signaux d’alerte concernant l’expérience client"
+                ]
+            }
+        ],
+        "agentforceTable": [
+            {
+                "robotic": "Règles fixes, pas d’apprentissage",
+                "agents": "Apprend des résultats, s’adapte en temps réel"
+            },
+            {
+                "robotic": "Exécution de tâches en silo",
+                "agents": "Orchestration interfonctionnelle"
+            },
+            {
+                "robotic": "Nécessite une escalade manuelle",
+                "agents": "Triage, routage et résolution autonomes"
+            },
+            {
+                "robotic": "Aucun contexte client",
+                "agents": "Intégré dans les systèmes de vente, de service et de support"
+            },
+            {
+                "robotic": "Idéal pour la précision",
+                "agents": "Crucial pour la réactivité et l’anticipation"
+            }
+        ],
+        "agenticData": [
+            {
+                "highlight": "agent en libre-service",
+                "desc": "Ajoutez un agent en libre-service pour que les distributeurs puissent vérifier les stocks ou déposer des réclamations."
+            },
+            {
+                "highlight": "agent de surveillance",
+                "desc": "Déployez un agent de surveillance pour signaler les problèmes de santé des machines avant qu’ils ne s’aggravent."
+            },
+            {
+                "highlight": "agent de routage",
+                "desc": "Laissez un agent de routage trier les cas de service plus rapidement en fonction du contexte réel."
+            }
+        ],
+        "readyToUpgradeData": [
+            "Agentforce intègre des agents autonomes qui comblent l’écart entre la production et l’expérience. Cela signifie moins de silos, des décisions plus rapides et des systèmes plus intelligents qui comprennent les besoins des clients, même lorsqu’ils ne les ont pas exprimés.",
+            "En bref ?",
+            "Les robots suivent les instructions.",
+            "Les agents suivent l’intention.",
+            "Et c’est le saut dont les fabricants ont besoin pour prospérer dans la prochaine décennie.",
+            "Rialtes aide les fabricants à implémenter Agentforce dans les opérations, les ventes et le service. En tant que partenaire Salesforce Crest, nous apportons la stratégie, les systèmes et le support pour rendre les agents IA réels et rapides."
+        ],
+        "faqData": [
+            {
+                "question": "1. Qu’est-ce qui rend les agents IA meilleurs que la RPA dans la fabrication ?",
+                "answer": [
+                    "La RPA gère les tâches répétitives basées sur des règles. Les agents IA comprennent le contexte, apprennent des données et agissent à travers des systèmes comme ERP, CRM et IoT, ce qui les rend mieux adaptés aux défis dynamiques de la fabrication."
+                ]
+            },
+            {
+                "question": "2. Puis-je conserver mon système d’automatisation actuel et ajouter Agentforce ?",
+                "answer": [
+                    "Oui. Agentforce améliore ce que vous utilisez déjà en ajoutant une couche d’intelligence par-dessus vos systèmes existants. Vous n’avez pas besoin de tout remplacer."
+                ]
+            },
+            {
+                "question": "3. Quels processus de fabrication bénéficient le plus des agents IA ?",
+                "answer": [
+                    "Avec des agents, le service client, la planification de la production, la maintenance, l’exécution des commandes, le contrôle qualité et la surveillance de la chaîne d’approvisionnement obtiennent tous des gains significatifs."
+                ]
+            },
+            {
+                "question": "4. Combien de temps faut-il pour déployer Agentforce dans une usine réelle ?",
+                "answer": [
+                    "Les délais varient, mais la plupart des fabricants constatent de la valeur en quelques semaines en commençant par un ou deux cas d’usage ciblés, comme l’automatisation du service client ou les alertes de chaîne d’approvisionnement."
+                ]
+            },
+            {
+                "question": "5. Agentforce est-il sécurisé pour les industries réglementées comme l’aérospatiale ou la pharmacie ?",
+                "answer": [
+                    "Oui. Construit sur Salesforce, Agentforce respecte les normes de sécurité de niveau entreprise et peut être configuré pour se conformer aux réglementations spécifiques à l’industrie."
+                ]
+            }
+        ],
+        "blogTopic": "Intelligence artificielle",
+        "blogTitle": "Au-delà de l’automatisation robotique : pourquoi les agents sont l’avenir de la fabrication intelligente",
+        "roboticTitle": "L’automatisation robotique résout des tâches. Les agents IA résolvent des problèmes.",
+        "whyNeedTitle": "Pourquoi passer de l’automatisation statique à l’intelligence agentique ?",
+        "whyNeedDesc": "La plupart des systèmes robotiques excellent dans l’exécution de tâches répétitives, comme le soudage ou l’emballage. Mais leur demander de répondre à une expédition en retard, de coordonner entre services ou d’informer un client d’un retard ? Ils bloquent.",
+        "whyNeedDesc2": "Maintenant comparez cela avec les agents IA, comme ceux intégrés dans Agentforce :",
+        "whyNeedDesc3": "Ainsi, tandis qu’un robot assemble des pièces, un agent détecte une pénurie, réachemine une livraison, met à jour le client et alerte les achats avant que la ligne ne s’arrête. C’est de l’orchestration intelligente.",
+        "agentforceTitle": "Agentforce : la couche intelligente au-dessus de votre usine",
+        "agentforceDesc": "Agentforce n’est pas seulement de l’IA ajoutée à votre pile technologique. C’est un réseau d’agents autonomes, orientés résultats, conçus pour la complexité de la fabrication réelle. Ces agents sont intégrés dans Salesforce Manufacturing Cloud, CPQ, Service et Field Service, et étendus à vos MES, plateformes IoT et applications héritées.",
+        "agentforceDesc2": "Agentforce",
+        "agentforceDesc3": "par exemple, permet aux fabricants de déployer des agents IA capables de :",
+        "manufacturingTitle": "Voyons comment ils fonctionnent dans les domaines clés de la fabrication :",
+        "whatAgentforceTitle": "Ce qu’Agentforce débloque et que les robots ne pourront jamais",
+        "whatAgentforceDesc": "Récapitulons comment l’IA agentique va plus loin que l’automatisation robotique :",
+        "tableTitle": "Automatisation robotique",
+        "tableTitle2": "Agents IA (Agentforce)",
+        "whatAgentforceDesc2": "La véritable puissance des agents est qu’ils s’améliorent avec le temps. Chaque interaction, qu’il s’agisse d’une réparation sur site, d’une résolution de ticket ou d’une réponse client, alimente le modèle. Les agents deviennent plus intelligents. Les recommandations plus précises. L’efficacité s’accumule.",
+        "whatAgentforceDesc3": "McKinsey a constaté que les entreprises manufacturières axées sur l’IA constatent une amélioration de 15 à 20 % du rendement et jusqu’à 50 % de réduction des temps d’arrêt imprévus. Ce sont des chiffres que l’automatisation robotique seule ne peut atteindre.",
+        "agenticTitle": "Comment démarrer avec l’IA agentique dans la fabrication",
+        "agenticDesc": "Vous n’avez pas besoin de tout revoir dès le premier jour. Commencez là où cela compte :",
+        "agenticDesc2": "Ces agents s’intègrent directement dans votre pile Salesforce — CPQ, Service Cloud, Manufacturing Cloud — et évoluent avec votre croissance.",
+        "readyTitle": "Prêt à passer de l’automatisation à l’intelligence ?",
+        "readyDesc": "Construisons des usines plus intelligentes avec des agents qui réfléchissent.",
+        "faqTitle": "FAQ : Fabrication intelligente avec des agents IA"
     }
-  ],
-  "features": [
-    {
-      "title": "Agents de planification automatique des services de véhicules",
-      "description": "qui contactent proactivement les clients, suggèrent des rendez-vous de service basés sur les modèles d’utilisation ou les données de diagnostic, et coordonnent les réservations avec les techniciens disponibles."
-    },
-    {
-      "title": "Agents intelligents de validation des réclamations de garantie",
-      "description": "qui analysent les données de réparation, l’historique de service et les termes du contrat pour approuver ou escalader instantanément les réclamations."
-    },
-    {
-      "title": "Agents de mises à jour logistiques en temps réel et rapport d’incidents",
-      "description": "qui suivent les expéditions de pièces, détectent les retards ou interruptions dans la chaîne d’approvisionnement et activent des flux de travail automatisés pour rediriger les commandes ou notifier les équipes concernées."
-    }
-  ],
-  "featuresData": [
-    {
-      "icon": "/images/blog/realtime.webp",
-      "title": "Visibilité opérationnelle en temps réel",
-      "description": "permet aux responsables d’usine de surveiller les indicateurs de performance, l’état des machines et l’activité des agents depuis un centre de commandement centralisé, aidant à prévenir les interruptions avant qu’elles n’escaladent."
-    },
-    {
-      "icon": "/images/blog/ai.webp",
-      "title": "Collaboration entre agents pilotée par l’IA à travers les systèmes",
-      "description": "permet aux différentes parties du flux de fabrication—conception, production, logistique et services—de travailler ensemble de manière fluide grâce à des agents intelligents qui agissent comme des membres numériques de l’équipe, et non simplement comme des bots de tâches."
-    },
-    {
-      "icon": "/images/blog/faster.webp",
-      "title": "Diagnostic plus rapide et résolution des problèmes de production",
-      "description": "sont rendus possibles grâce à des agents capables de suivre les pannes entre systèmes, recommander des solutions et même initier des flux de travail pour planifier la maintenance ou rediriger les tâches, réduisant ainsi les temps d’arrêt."
-    },
-    {
-      "icon": "/images/blog/better.webp",
-      "title": "Meilleur contrôle qualité et suivi de conformité",
-      "description": "sont obtenus grâce à des agents intelligents qui signalent les écarts, analysent les modèles de défauts et garantissent que chaque produit respecte les normes réglementaires et internes, avec traçabilité d’audit et perspectives alimentées par l’IA."
-    },
-    {
-      "icon": "/images/blog/deeper.webp",
-      "title": "Intégration accrue avec la chaîne d’approvisionnement et les systèmes clients",
-      "description": "permet aux constructeurs automobiles et aux fournisseurs de connecter les points de l’approvisionnement, du stockage, de l’expédition et même du service après-vente, rendant les opérations plus agiles, transparentes et résilientes."
-    }
-  ]
-},
-"aiPowerBlog": {
-  "artificial": "Intelligence Artificielle",
-  "date": "21 août 2025",
-  "aiTitle": "Comment l'IA alimente l'avenir durable de notre planète",
-  "aiDesc": "L'intelligence artificielle ne se contente pas d'alimenter les villes intelligentes ou d'automatiser les industries. Elle devient discrètement l'un des outils les plus efficaces dans la lutte contre le changement climatique. Du suivi de la déforestation à la prévision de la demande énergétique en passant par la préservation de la biodiversité, l'IA aide à protéger la planète et à rendre la durabilité évolutive. Nous devons réduire les émissions de gaz à effet de serre et passer à des sources d'énergie renouvelables pour protéger notre planète et les générations futures. Cependant, l'espoir d'un avenir durable réside dans la conservation et l'innovation. Voici comment.",
-  "whatTitle": "Qu'est-ce que la durabilité et pourquoi l'IA est-elle importante ?",
-  "whatDesc": "La durabilité est cruciale pour garantir que les générations futures puissent bénéficier d'une qualité de vie comparable à la nôtre. Les Nations Unies ont établi ",
-  "goal": "17 Objectifs de Développement Durable",
-  "goalDesc": "(ODD) comme feuille de route pour relever les défis mondiaux tels que la pauvreté, les inégalités, le changement climatique, la dégradation de l'environnement, la paix et la justice.",
-  "goalDesc1": "L'IA joue un rôle croissant dans ce domaine. En analysant d'énormes ensembles de données, en repérant des motifs que les humains manquent et en faisant des recommandations basées sur les données, l'IA permet une prise de décision plus intelligente à tous les niveaux. Elle aide les villes à devenir plus économes en énergie, les industries à devenir plus propres et les agriculteurs à être plus productifs, tout en réduisant les déchets et les émissions. Que vous soyez un décideur politique, un leader d'entreprise ou un défenseur de la conservation, l'IA peut servir de boussole en temps réel pour la durabilité.",
-  "howTitle": "Comment l'IA est-elle utilisée dans la gestion intelligente de l'énergie ?",
-  "smartTitle": "Réseaux intelligents et fonctionnement avec l'IA",
-  "smartDesc": "Les réseaux intelligents sont des réseaux électriques intelligents qui réagissent dynamiquement à la demande et à l'offre. Voici ce que l'IA apporte :",
-  "smartDesc1": "Les réseaux intelligents sont essentiels pour intégrer des sources d'énergie variables comme le vent et le solaire, conciliant durabilité et résilience du système.",
-  "beingTitle": "Comment l'IA est-elle utilisée pour protéger les forêts ?",
-  "beingDesc": "Les forêts sont des puits de carbone vitaux mais sont confrontées à des menaces croissantes comme l'exploitation illégale et les incendies.",
-  "beingDesc1": "Ces technologies permettent une intervention plus rapide et une meilleure conservation des forêts.",
-  "roleTitle": "Rôle de l'IA dans l'agriculture durable et la biodiversité",
-  "howAiTitle": "Comment l'IA nous aide-t-elle à comprendre et protéger les océans ?",
-  "howAiDesc": "Les océans régulent le climat de la Terre et soutiennent la vie marine, mais ils sont soumis à des pressions dues à la pollution et à la surpêche.",
-  "howAiDesc1": "L'IA s'attaque à ce problème de plusieurs manières :",
-  "howAiDesc2": "Cette approche proactive contribue à protéger les écosystèmes marins et à maintenir les populations de poissons.",
-  "oceanTitle": "Comment l'IA nous aide-t-elle à comprendre et protéger les océans ?",
-  "predictTitle": "L'IA peut-elle prédire les catastrophes naturelles et les tendances climatiques ?",
-  "predictDesc": "Les modèles climatiques traditionnels nécessitent une puissance de calcul massive. L'IA accélère ce processus tout en améliorant la précision.",
-  "helpDesc": "L'IA transforme les grandes données climatiques en stratégies exploitables qui sauvent des vies et réduisent les dommages économiques.",
-  "ethicalTitle": "Enjeux éthiques de l'utilisation de l'IA pour l'environnement",
-  "ethicalDesc": "Nous ne pouvons pas ignorer les risques. Lorsque nous déployons l'IA pour résoudre des problèmes environnementaux, cela doit se faire de manière éthique.",
-  "that": "Cela signifie :",
-  "thatDesc": "Le développement responsable de l'IA est essentiel pour une durabilité à long terme",
-  "goals": "Comment les entreprises peuvent-elles utiliser l'IA pour atteindre leurs objectifs de durabilité ?",
-  "smarter": "Adoptez une voie plus intelligente vers un avenir durable grâce à l'IA",
-  "faqs": [
-    {
-      "question": "1. Comment l'IA transforme-t-elle la gestion de l'énergie ?",
-      "answer": [
-        "L'IA améliore la manière dont nous produisons, stockons et utilisons l'énergie. Elle prédit la demande, gère les réseaux intelligents et optimise les performances en temps réel. Pensez à des panneaux solaires qui s'ajustent selon les prévisions météorologiques ou à des bâtiments qui régulent automatiquement leur consommation d'énergie."
-      ]
-    },
-    {
-      "question": "2. Que sont les réseaux intelligents et comment l'IA les soutient-elle ?",
-      "answer": [
-        "Les réseaux intelligents sont des systèmes énergétiques qui s'ajustent dynamiquement en fonction de l'utilisation et de l'offre. L'IA leur permet de prévoir la demande, d'équilibrer la charge, de détecter les défauts et de réduire les pannes. Résultat : une énergie plus propre, moins de coupures et une meilleure intégration des énergies renouvelables comme le vent et le solaire."
-      ]
-    },
-    {
-      "question": "3. L'IA peut-elle aider à lutter contre la déforestation ?",
-      "answer": [
-        "Oui. L'IA analyse les images satellites pour détecter l'exploitation illégale, prédit les risques d'incendies à partir des données météorologiques et écoute même les tronçonneuses dans les forêts éloignées. Ces outils permettent aux conservateurs d'agir plus rapidement et de protéger davantage de terres plus efficacement."
-      ]
-    },
-    {
-      "question": "4. L'IA est-elle également utilisée pour protéger la biodiversité ?",
-      "answer": [
-        "Absolument. Les pièges photographiques pilotés par l'IA peuvent identifier les espèces, suivre les migrations et surveiller les populations menacées sans les déranger. Elle aide les chercheurs à protéger la faune avec une intrusion humaine minimale."
-      ]
-    },
-    {
-      "question": "5. Quel rôle l'IA joue-t-elle dans la conservation des océans ?",
-      "answer": [
-        "Les drones sous-marins guidés par l'IA collectent des données sur la température, le pH et la vie marine. Les algorithmes suivent la pêche illégale en signalant les comportements suspects des navires. L'objectif est de transformer les données brutes des océans en informations et en actions."
-      ]
-    },
-    {
-      "question": "6. L'IA peut-elle prédire les catastrophes naturelles et les changements climatiques ?",
-      "answer": [
-        "Oui. Les modèles améliorés par l'IA prédisent les inondations, les ouragans et la montée du niveau de la mer plus rapidement et avec plus de précision que les systèmes traditionnels. Cela donne aux gouvernements et aux communautés le temps de planifier, s'adapter et réduire les dégâts."
-      ]
-    },
-    {
-      "question": "7. Quels sont les risques de l'utilisation de l'IA pour des objectifs environnementaux ?",
-      "answer": [
-        "Il existe des préoccupations éthiques, des biais dans les données, un manque de transparence ou l'utilisation de l'IA de manière à nuire aux communautés locales ou aux écosystèmes. C'est pourquoi la conception responsable, l'implication des communautés et une responsabilité claire sont essentielles."
-      ]
-    }
-  ],
-  "blogs": [
-    {
-      "id": 1,
-      "image": "/images/blog/blog-1.webp",
-      "category": "Salesforce Agentforce",
-      "industry": "Générique",
-      "date": "30 sept. 2024",
-      "url": "how-salesforce-agentforce-actually-works",
-      "title": "Comment fonctionne réellement Salesforce Agentforce",
-      "description": "Salesforce Agentforce, bien qu'étant un ajout récent à l'écosystème Salesforce, suscite de l'intérêt, notamment dans les organisations disposant de grandes équipes d'agents, tels que les commerciaux, les représentants du service client et le personnel de terrain."
-    },
-    {
-      "id": 3,
-      "image": "/images/blog/blog-3.webp",
-      "category": "Salesforce Agentforce",
-      "industry": "Générique",
-      "date": "28 oct. 2024",
-      "title": "Agents vs. Copilotes vs. Bots : Quelle est la différence et pourquoi est-ce important",
-      "description": "Des outils comme Agentforce redéfinissent la manière dont nous percevons les assistants numériques, en mettant en avant les distinctions entre Agents, Copilotes et Bots. Ces termes sont souvent utilisés dans l'automatisation pilotée par l'intelligence artificielle et les interfaces conversationnelles, chacun ayant un rôle distinct."
-    },
-    {
-      "id": 4,
-      "image": "/images/blog/blog-4.webp",
-      "category": "Salesforce Agentforce",
-      "industry": "Générique",
-      "date": "25 nov. 2024",
-      "title": "Centre de test Agentforce : Redéfinir les tests d'IA avec des données synthétiques",
-      "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center dans sa plateforme d'IA agentique, Agentforce. Cette addition permet aux utilisateurs d'entreprise de tester et de surveiller les agents IA avant leur déploiement en production."
-    },
-    {
-      "id": 5,
-      "image": "/images/blog/blog-5.webp",
-      "category": "SAP SuccessFactors",
-      "industry": "Ressources Humaines",
-      "date": "24 déc. 2024",
-      "title": "Comment intégrer SAP SuccessFactors à Microsoft Office 365 pour une collaboration améliorée",
-      "description": "L'intégration transparente entre les applications d'entreprise offre une meilleure collaboration, efficacité et productivité. Intégrer SAP SuccessFactors à Microsoft Office 365 combine la puissance d'une solution de gestion de l'expérience humaine (HXM) et d'une suite robuste d'outils de productivité."
-    },
-    {
-      "id": 6,
-      "image": "/images/blog/blog-6.webp",
-      "category": "Technologie verte Cloud",
-      "industry": "Agriculture",
-      "date": "17 sept. 2024",
-      "title": "Agriculture 4.0 : Comment les technologies numériques transforment l'agriculture pour un meilleur avenir ?",
-      "description": "L'agriculture joue un rôle important dans l'économie croissante de l'Inde et son avenir ne peut se réaliser sans outils numériques et innovation technologique."
-    },
-    {
-      "id": 7,
-      "image": "/images/blog/blog-7.webp",
-      "category": "SAP SuccessFactors",
-      "industry": "Ressources Humaines",
-      "date": "29 oct. 2024",
-      "title": "Gestion des performances et des objectifs SAP SuccessFactors",
-      "description": "Atteindre les objectifs de votre organisation est une responsabilité clé que toute votre équipe partage. Lorsque la stratégie de votre équipe s'aligne sur ses objectifs et sur ceux de l'organisation, agir correctement devient instinctif."
-    }
-  ],
-  "climatePara": [
-    "L'IA n'est pas une solution miracle pour le changement climatique. Mais elle agit comme un puissant accélérateur, rendant les solutions plus rapides, intelligentes et évolutives. Qu'il s'agisse de prévoir des catastrophes naturelles, d'améliorer l'utilisation de l'énergie ou de protéger les écosystèmes en danger, la technologie prouve sa valeur dans presque tous les aspects de la durabilité.",
-    "Chez Rialtes, nous aidons les organisations à développer des systèmes d'IA qui rendent la durabilité concrète. Du concept à l'exécution, nous collaborons avec les entreprises pour appliquer l'IA de manière éthique et efficace, transformant l'ambition climatique en action.",
-    "Parlez à nos experts pour découvrir comment l'IA peut libérer votre potentiel de durabilité, générer un impact mesurable et contribuer à un avenir meilleur pour les entreprises et la planète."
-  ],
-  "sustainabilityPara": [
-    "Les consommateurs veulent des produits plus propres. Les régulateurs renforcent les exigences. Les investisseurs récompensent les entreprises avec une forte performance ESG (Environnementale, Sociale et de Gouvernance). Et l'IA aide les entreprises à rester en avance sur ces trois aspects.",
-    "Les entreprises utilisent l'IA pour réduire les déchets dans la chaîne d'approvisionnement, surveiller les émissions de carbone en temps réel et automatiser les processus de reporting pour la conformité ESG. Les outils d'IA peuvent optimiser les itinéraires de livraison, signaler les processus de production inefficaces et même prédire les pannes d'équipement avant qu'elles ne causent une perte de ressources.",
-    "Prenons l'exemple de la fabrication. Les modèles d'IA peuvent identifier où les matières premières sont gaspillées, suggérer des opportunités d'économie d'énergie ou simuler différents scénarios pour rendre les opérations plus durables sans sacrifier la rentabilité. En agriculture, les détaillants utilisent l'IA pour réduire le gaspillage alimentaire en prévoyant la demande avec plus de précision, en améliorant la gestion de la durée de vie des produits et en minimisant la surproduction.",
-    "En fin de compte, les entreprises qui adoptent l'IA non seulement pour l'efficacité mais aussi pour la responsabilité environnementale seront celles qui façonneront l'économie future."
-  ],
-  "thatList": [
-    "Utiliser des modèles transparents et explicables",
-    "Impliquer les communautés locales dans la conception des technologies",
-    "Assurer la confidentialité des données et une utilisation responsable",
-    "Éviter les biais ou les optimisations à court terme qui nuisent aux écosystèmes"
-  ],
-  "trendsList": [
-    "Les modèles améliorés par l'IA prédisent plus rapidement les ouragans, les inondations et la montée du niveau de la mer.",
-    "Les gouvernements utilisent ces informations pour émettre des alertes précoces et planifier des infrastructures résilientes.",
-    "L'allocation des ressources devient plus ciblée dans les zones sujettes à la sécheresse et aux inondations."
-  ],
-  "oceanParagraphs": [
-    "Les océans couvrent plus de 70 % de notre planète, régulent sa température et soutiennent des écosystèmes entiers. Mais leur santé se dégrade rapidement en raison de la pollution, de la pêche illégale, de la hausse des températures et de l'acidification. L'IA aide les scientifiques et les conservateurs à aborder ces problèmes avec des outils à la fois précis et évolutifs.",
-    "Les véhicules sous-marins autonomes (AUV), guidés par l'IA, peuvent désormais surveiller les changements de température, de salinité et d'acidité des océans au fil du temps. Ces machines intelligentes explorent les environnements marins sans les perturber, collectant des données précieuses sur les récifs coralliens, les populations de poissons et le mouvement du plancton. Combinées à des capteurs pilotés par l'IA, ces données aident les chercheurs à comprendre comment le changement climatique affecte la vie sous la surface.",
-    "L'une des applications les plus concrètes de l'IA dans la conservation des océans est la lutte contre la pêche illégale. Les algorithmes prédictifs analysent les itinéraires des navires, les schémas de mouvement et les anomalies de vitesse pour détecter les activités suspectes. Lorsqu'un navire dévie de sa trajectoire près d'une zone protégée ou adopte un comportement erratique, les systèmes d'IA le signalent en temps réel, permettant aux gardes-côtes et aux autorités d'agir rapidement."
-  ],
-  "oceanUseCases": [
-    {
-      "title": "Véhicules sous-marins autonomes (AUV) :",
-      "desc": "Surveiller la température, l'acidité et l'activité marine."
-    },
-    {
-      "title": "Capteurs intelligents :",
-      "desc": "Suivre les indicateurs de santé des océans tels que le blanchissement des coraux et le niveau d'oxygène."
-    },
-    {
-      "title": "Détection de la pêche illégale :",
-      "desc": "Les modèles prédictifs analysent les routes des navires pour signaler les activités suspectes et alerter les autorités."
-    }
-  ],
-  "forestUseCases": [
-    {
-      "title": "Analyse satellitaire :",
-      "desc": "L'IA traite les images pour détecter la déforestation en temps réel."
-    },
-    {
-      "title": "Prévision des incendies :",
-      "desc": "Les modèles d'apprentissage profond utilisent les données météorologiques et historiques pour prédire les zones à haut risque."
-    },
-    {
-      "title": "Surveillance acoustique :",
-      "desc": "L'IA peut détecter les tronçonneuses et les camions dans les forêts éloignées grâce au son, même avant que les images satellites ne captent les changements."
-    }
-  ],
-  "farmingContent": [
-  "L'agriculture dépasse désormais le simple intuition. Avec la variabilité climatique et la pression croissante sur les systèmes alimentaires, l'agriculture doit être non seulement productive mais précise, et c'est exactement ce que permet l'IA.",
-  "En combinant les données des capteurs, drones et stations météorologiques, les modèles d'IA aident les agriculteurs à comprendre les conditions du sol, la santé des plantes et les moments optimaux d'arrosage. Cette approche d'agriculture de précision conduit à des rendements plus élevés tout en conservant l'eau et en réduisant la dépendance aux engrais chimiques et aux pesticides. C'est plus de nourriture avec une empreinte écologique réduite.",
-  "Mais l'IA ne se limite pas à soutenir la croissance des cultures, elle aide également à protéger les espèces. Les conservateurs utilisent désormais des pièges photographiques pilotés par l'IA qui identifient automatiquement les animaux dans leur habitat. Qu'il s'agisse de suivre la migration des éléphants ou de surveiller les nids d'oiseaux menacés, l'IA fournit aux chercheurs des informations détaillées sans perturber l'écosystème.",
-  "Ce double rôle, qui améliore la sécurité alimentaire et préserve la biodiversité, montre à quel point l'IA peut être puissante lorsqu'elle est appliquée de manière réfléchie au monde naturel."
-],
-"smartList": [
-  {
-    "title": "Optimisation en temps réel :",
-    "desc": "L'IA prévoit la consommation d'énergie et ajuste immédiatement la distribution."
-  },
-  {
-    "title": "Infrastructure de comptage avancée (AMI) :",
-    "desc": "Fournit aux consommateurs et aux fournisseurs des données détaillées et en temps réel pour contrôler l'utilisation et les coûts."
-  },
-  {
-    "title": "Maintenance prédictive :",
-    "desc": "L'IA détecte tôt les défauts et anomalies, réduisant les temps d'arrêt et améliorant la fiabilité."
-  }
-],
-"energyContent": [
-  "L'IA transforme la manière dont nous produisons, distribuons et consommons l'énergie, et ce n'est pas dans un futur lointain. Cela se passe déjà. Prenons la prévision énergétique. Les systèmes traditionnels s'appuient souvent sur des modèles statiques et des moyennes historiques, qui ne gèrent pas bien la volatilité, surtout avec des sources renouvelables comme le solaire et l'éolien. L'IA, en revanche, peut ingérer des données météorologiques en temps réel, les performances du réseau et les modèles de consommation pour réaliser des prévisions précises de la demande énergétique. Cela signifie moins de coupures, moins de gaspillage d'énergie et une meilleure intégration des énergies renouvelables dans les réseaux nationaux.",
-  "Ensuite, il y a l'optimisation. L'IA peut identifier les inefficacités tout au long du cycle de vie de l'énergie, comme une ferme solaire sous-performante par temps nuageux ou un bâtiment utilisant plus de puissance HVAC que nécessaire. Des entreprises comme Google ont utilisé l'IA pour réduire de 40 % l'énergie de refroidissement dans leurs centres de données — preuve que le machine learning peut conduire à des gains d'efficacité concrets.",
-  "La gestion intelligente de l'énergie consiste à avoir le contrôle. L'IA permet aux fournisseurs et aux consommateurs d'énergie de réagir en temps réel, de prendre des décisions éclairées et de progresser vers un avenir énergétique plus durable et équilibré."
-]
-}
-
 }
