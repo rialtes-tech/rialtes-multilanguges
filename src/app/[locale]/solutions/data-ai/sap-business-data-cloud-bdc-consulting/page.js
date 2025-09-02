@@ -253,7 +253,7 @@ export default function Page() {
           </div>
           <div className="relative z-10 flex flex-col lg:flex-row justify-between h-full px-4 text-white custom-container">
             <div className="text-left lg:w-[40%] flex pt-[59px] flex-col">
-              <h2 className="leading-tight xl:w-[78%] 2xl:w-[75%] 4xl:w-[100%]  4xl:text-[60px] xl:text-[40px] lg:text-[45px] m">
+              <h2 className="leading-tight xl:w-[78%] 2xl:w-[75%] 4xl:w-[100%] 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
                 {t('sapTitle')}</h2>
               <div className="lg:mt-[80px]">
                 <Link
@@ -292,7 +292,7 @@ export default function Page() {
               alt="Your Trusted SAP image"
               width={0}
               height={0}
-              className="w-full hidden md:block h-full"
+              className="w-full hidden md:block h-full object-cover"
               style={{ objectPosition: "75% 20%" }}
             />
             <Image
@@ -300,7 +300,7 @@ export default function Page() {
               alt="Your Trusted SAP image"
               width={0}
               height={0}
-              className="w-full block md:hidden h-auto"
+              className="w-full block md:hidden h-auto object-cover"
             />
           </div>
           <div className="order-2 lg:order-1 lg:col-span-7">
@@ -457,7 +457,7 @@ export default function Page() {
         </section>
         <div className="py-10"></div>
         {/* Our SAP Business Data Cloud Services */}
-        <section className="relative max-[350px]:h-[600px] max-[417px]:h-[520px] h-[475px] md:h-[570px] lg:h-[470px] xl:h-[525px] 2xl:h-[530px] 4xl:h-[630px] overflow-hidden">
+        <section className="relative max-[345px]:h-[580px] max-[390px]:h-[530px] h-[455px] md:h-[530px] lg:h-[470px] xl:h-[560px] 2xl:h-[530px] 4xl:h-[630px] overflow-hidden">
           <div className="hidden lg:block">
             <Image
               src="/images/sap-bdc-services/sap-business-web.webp"
@@ -485,7 +485,7 @@ export default function Page() {
               <div className="md:col-span-6 col-span-12 relative h-full">
                 <div className="">
                   <div
-                    className="absolute md:inset-0 px-12 py-14 text-white max-[350px]:h-[600px] max-[417px]:h-[520px] h-[475px]  md:h-[570px] xl:h-[525px] lg:h-[600px] 2xl:h-[630px]"
+                    className="absolute md:inset-0 lg:px-12 lg:py-14 px-8 py-8 text-white max-[345px]:h-[580px] max-[390px]:h-[530px]   h-[455px]  md:h-[530px] xl:h-[560px] lg:h-[600px] 2xl:h-[630px]"
                     style={{
                       background: "#113056",
                       mixBlendMode: "overlay",
@@ -526,10 +526,10 @@ export default function Page() {
                   priority
                 />
               </div>
-              <div className="bg-[#006FBE] text-white lg:py-[55px] lg:w-[600px] xl:w-[800px] xl:pl-0 xl:h-[480px]  4xl:h-[560px] 4xl:w-[1080px] 2xl:w-[1000px] max-xl:px-[36px] pb-[42px] pt-[32px] lg:z-0 relative max-lg:mt-[-150px] ">
-                <div className="custom-container xl:pl-[70px] max-lg:pt-[160px] max-md:px-0">
-                  <div className="4xl:w-[75%] xl:w-[66%] lg:w-[80%]">
-                    <h2 className="leading-tight xl:w-[90%] 2xl:w-[80%] 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-3">
+              <div className="bg-[#006FBE] text-white lg:py-[50px] lg:w-[600px] xl:w-[800px] xl:pl-0 xl:h-[460px]  4xl:h-[580px] 4xl:w-[1050px] 2xl:w-[1000px] max-xl:px-[36px] pb-[42px] pt-[32px] lg:z-0 relative max-lg:mt-[-150px] ">
+                <div className="custom-container xl:pl-[60px] max-lg:pt-[160px] max-md:px-0">
+                  <div className="4xl:w-[79%] xl:w-[68%] lg:w-[80%]">
+                    <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-3">
                       {t('clientsTitle')}</h2>
                     <UnorderedList
                       arrName={whyClientsData}

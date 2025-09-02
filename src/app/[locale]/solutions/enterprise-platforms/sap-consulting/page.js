@@ -142,15 +142,16 @@ export default function Page() {
                     <Image
                         src="/images/sap-consulting/SAP-Consulting-banner-mob.webp"
                         alt="mobile banner"
+                        className="object-cover"
                         fill
                         priority
                     />
                 </div>
-                <div className="relative h-full custom-container grid grid-cols-12 sm:items-center">
+                <div className="relative h-full custom-container max-[372px]:px-0 grid grid-cols-12 sm:items-center">
                     <div className="md:col-span-3 sm:col-span-1 col-span">
                     </div>
                     <div className="md:col-span-9 sm:col-span-11 col-span-12">
-                        <div className="md:pl-[12rem] pl-[80px] sm:pl-[200px] ">
+                        <div className="md:pl-[12rem] max-[372px]:pl-[85px] pl-[80px] max-[372px]:pr-[15px]  sm:pl-[200px] ">
                             <h3 className="text-[18px] md:text-[24px] font-bold  text-black leading-tight">{t('headerTitle')}</h3>
                             <h2 className="text-black leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] md:w-full mt-[11.5px] md:mt-[28.5px] ">
                                 {t('headerSubTitle1')}  <span className="block">{t('headerSubTitle2')} </span>
