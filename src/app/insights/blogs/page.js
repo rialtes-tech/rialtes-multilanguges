@@ -30,6 +30,16 @@ const schemaData = {
 
 const latestBlogs = [
   {
+    id: 32,
+    image: "/images/blog/first-ai-agent-mob-banner.webp",
+    category: "Artificial Intelligence",
+    industry: "Generic",
+    date: "Sep. 02, 2025",
+    url: '/how-to-build-and-deploy-ai-agents-with-agentforce',
+    title: "Build and Deploy Your First AI Agent Using Agentforce",
+    description: "By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions. Despite ethical concerns, the value of training AI for growth is clear. Teaching AI to understand human language enhances its ability to respond and perform useful tasks.",
+  },
+  {
     id: 31,
     image: "/images/blog/byond-robotics-mobile-banner.webp",
     category: "Artificial Intelligence",
@@ -138,7 +148,7 @@ const latestBlogs = [
     date: "Jun. 16, 2025",
     url: '/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation',
     title: "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
-    description: "Ready for S/4HANA Implementation? Rialtes’ Voyager+ and SAP Signavio make the journey smooth, transparent, and built for scalable enterprise success.",
+    description: "Organizations are at a stage where they must modernize their ERP systems, streamline operations, and harness real-time insights. SAP S/4HANA has become the digital core for businesses aiming to achieve this transformation. ",
   },
   {
     id: 19,
@@ -196,10 +206,10 @@ const latestBlogs = [
     image: "/images/blog/sap-signavio-sap-cloud-mobile.webp",
     category: "SAP",
     industry: "Generic",
-    date: "March 25, 2025",
+    date: "Mar. 25, 2025",
     url: '/s4hana-transformation-with-sap-signavio-cloud-alm',
     title: "How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation",
-    description: "Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution for successful S/4HANA transformation."
+    description: "Digital transformation programs such as an SAP S/4HANA implementation are not simply IT projects but complex business reinvention initiatives that touch every process, role, and technology in the enterprise. For such large-scale transformations, two critical success factors stand out:",
   },
   {
     id: 14,
@@ -364,7 +374,8 @@ const FeaturedCarousel = () => {
       date: "March 25, 2025",
       url: '/s4hana-transformation-with-sap-signavio-cloud-alm',
       title: "How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation",
-      description: "Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution for successful S/4HANA transformation."
+      description: "Digital transformation programs such as an SAP S/4HANA implementation are not simply IT projects but complex business reinvention initiatives that touch every process, role, and technology in the enterprise. For such large-scale transformations, two critical success factors stand out.",
+
     },
   ];
   const responsive = {
