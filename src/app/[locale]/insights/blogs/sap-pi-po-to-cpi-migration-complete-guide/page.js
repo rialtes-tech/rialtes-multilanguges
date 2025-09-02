@@ -1,5 +1,4 @@
 "use client";
-// pages/blog-detail.js
 import Image from "next/image";
 import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
@@ -179,39 +178,114 @@ const blogs = [
 ];
 
 
-const assetment = [
-    "Inventory existing PI/PO interfaces.",
-    "Classify by type: A2A (Application-to-Application), B2B/EDI, BPM scenarios, custom adapters.",
-    "Identify complexity (high, medium, low) based on logic, mapping, and dependencies.",
-    "Evaluate reusability of existing iFlows and potential use of SAP’s pre-packaged content.",
-
+const cards = [
+    {
+        title: "Strategic Alignment",
+        description:
+            "SAP has already announced end-of-maintenance timelines for PI/PO. Customers will need to transition to cloud integration to stay aligned with SAP’s roadmap.",
+    },
+    {
+        title: "Unified Platform",
+        description:
+            "SAP BTP brings together data, analytics, AI, and integration in one cohesive environment. CPI is the integration backbone that enables this synergy.",
+    },
+    {
+        title: "Future-Proofing",
+        description:
+            "By moving to CPI, enterprises prepare themselves for innovations such as AI-enabled integration monitoring, event-driven architectures, and hyperautomation.",
+    },
 ];
-const bluprint = [
-    "Map PI/PO interfaces to CPI equivalents.",
-    "Define architecture leveraging BTP services like API Management, Event Mesh, and Open Connectors.",
-    "Establish governance for interface naming conventions, error handling, and monitoring.",
-]
-const migration = [
-    "Run PI/PO and CPI interfaces simultaneously during transition. This mitigates risk by ensuring business processes remain uninterrupted while CPI integrations are validated.",
-    "Develop and migrate interfaces in iterative sprints.",
-    "Rebuild or re-architect where pre-built CPI content is available.",
-]
-const funtional = [
-    "Conduct end-to-end functional testing for migrated interfaces.",
-    "Perform regression testing to validate downstream impacts.",
-    "Validate non-functional requirements such as throughput, latency, and error handling.",
-]
-const cutover = [
-    "Gradually switch interfaces from PI/PO to CPI.",
-    "Monitor live integrations with CPI’s integration monitoring dashboards.",
-    "Decommission PI/PO systems once stability is confirmed.",
 
-]
-const continuous = [
-    "Leverage analytics and dashboards in CPI for proactive monitoring.",
-    "Adopt a continuous improvement cycle to fine-tune iFlows.",
-    "Scale integrations by using event-driven patterns and AI-enabled error resolution.",
-]
+
+
+
+const steps = [
+    {
+        title: "Assessment & Discovery",
+        description: [
+            "Inventory existing PI/PO interfaces.",
+            "Classify by type: A2A (Application-to-Application), B2B/EDI, BPM scenarios, custom adapters.",
+            "Identify complexity (high, medium, low) based on logic, mapping, and dependencies.",
+            "Evaluate reusability of existing iFlows and potential use of SAP’s pre-packaged content.",
+        ],
+    },
+    {
+        title: "Blueprinting & Design",
+        description: [
+            "Map PI/PO interfaces to CPI equivalents.",
+            "Define architecture leveraging BTP services like API Management, Event Mesh, and Open Connectors.",
+            "Establish governance for interface naming conventions, error handling, and monitoring.",
+        ],
+    },
+    {
+        title: "Migration Execution",
+        description: [
+            "Run PI/PO and CPI interfaces simultaneously during transition. This mitigates risk by ensuring business processes remain uninterrupted while CPI integrations are validated.",
+            "Develop and migrate interfaces in iterative sprints.",
+            "Rebuild or re-architect where pre-built CPI content is available.",
+        ],
+    },
+    {
+        title: "Functional & Regression Testing",
+        description: [
+            "Conduct end-to-end functional testing for migrated interfaces.",
+            "Perform regression testing to validate downstream impacts.",
+            "Validate non-functional requirements such as throughput, latency, and error handling.",
+        ],
+    },
+    {
+        title: "Cutover & Go-Live",
+        description: [
+            "Gradually switch interfaces from PI/PO to CPI.",
+            "Monitor live integrations with CPI’s integration monitoring dashboards.",
+            "Decommission PI/PO systems once stability is confirmed.",
+        ],
+    },
+    {
+        title: "Continuous Optimization",
+        description: [
+            "Leverage analytics and dashboards in CPI for proactive monitoring.",
+            "Adopt a continuous improvement cycle to fine-tune iFlows.",
+            "Scale integrations by using event-driven patterns and AI-enabled error resolution.",
+        ],
+    },
+];
+
+
+
+const features1 = [
+    {
+        title: "Dual Monitoring",
+        desc: "Keep PI/PO logs active while configuring CPI alerts during parallel runs.",
+    },
+    {
+        title: "Business SLA Alignment",
+        desc: "Design alert thresholds around business outcomes, not just technical metrics.",
+    },
+    {
+        title: "Multi-Channel Notifications",
+        desc: "Enable SMS, email, Slack/Teams integration for critical alerts.",
+    },
+    {
+        title: "Automated Testing Alerts",
+        desc: "Use alerts during regression testing to validate migrated interfaces.",
+    },
+    {
+        title: "Continuous Reporting",
+        desc: "Incorporate Early Watch into monthly governance cycles.",
+    },
+];
+
+
+const items = [
+    "Future-Proofing Stay aligned with SAP’s roadmap.",
+    "Agility Faster connections with SAP and non-SAP apps.",
+    "Reduced Risk Parallel migration and intelligent alerts minimize disruption.",
+    "Lower TCO No infrastructure or heavy upgrade cycles.",
+    "Business Confidence KPI-driven monitoring ensures processes run without surprises.",
+];
+
+
 const monitoringFeatures = [
     "Tracks interface throughput, adapter performance, and system resource usage.",
     "Provides predictive reports highlighting potential bottlenecks.",
@@ -330,7 +404,7 @@ export default function Page() {
             >
                 <div className="pt-10 bg-white">
                     <div className=" mx-auto">
-                        <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
+                        <div className="flex flex-col md:flex-row justify-between text-black items-center xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">SAP</span>
                                 <span className="text-[#ACACAC]"> | </span>26 August 2025
@@ -397,7 +471,7 @@ export default function Page() {
                     </div>
 
                     <div className=" mx-auto">
-                        <div className="max-w-[1200px] 4xl:w-[1284px] 2xl:w-[950px] xl:w-[850px]">
+                        <div className="4xl:w-[1284px] 2xl:w-[1060px] xl:w-[990px]">
                             <div className="py-6 "></div>
 
 
@@ -419,10 +493,6 @@ export default function Page() {
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 While PI/PO served its purpose well, it was designed in an on-premise era. CPI offers a modern, cloud-native, and scalable alternative with distinct advantages:</p>
-
-
-
-
                             <ol className="list-disc  marker:text-xl pl-5  2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-5">
                                 <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]"> Cloud-Native Flexibility: </h3> CPI is hosted on BTP, enabling elastic scaling and reduced infrastructure overhead.  </li>
                                 <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Pre-Built Content:</h3> CPI provides over 3,000 pre-packaged integration flows and APIs for SAP and non-SAP applications.</li>
@@ -435,17 +505,23 @@ export default function Page() {
                             <h2 className=" pb-4 mt-10 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 The Future of SAP Integration: BTP and CPI at the Core
                             </h2>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
+                            <p className="text-black  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] pb-20 xl:pb-4">
                                 SAP’s roadmap follows a cloud-first strategy. With BTP at the heart of its strategy, CPI is not just the successor of PI/PO—it is the future of enterprise integration in the SAP ecosystem.
                             </p>
 
-                            <ol className="list-disc  marker:text-xl pl-5  2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-5">
-                                <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]"> Strategic Alignment: </h3> SAP has already announced end-of-maintenance timelines for PI/PO. Customers will need to transition to cloud integration to stay aligned with SAP’s roadmap.  </li>
-                                <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Unified Platform:</h3> SAP BTP brings together data, analytics, AI, and integration in one cohesive environment. CPI is the integration backbone that enables this synergy.</li>
-                                <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Future-Proofing:</h3> By moving to CPI, enterprises prepare themselves for innovations such as AI-enabled integration monitoring, event-driven architectures, and hyperautomation.</li>
 
-                            </ol>
-
+                            <div className="w-full max-w-5xl  4xl:px-8 2xl:px-8 xl:pl-8  py-8 xl:space-y-10 space-y-20">
+                                {cards.map((card, index) => (
+                                    <div key={index} className="relative border border-black  bg-white shadow-sm">
+                                        <div className="absolute xl:w-[337px] xl:-left-10 top-[-50px] left-[65px] 4xl:top-5 2xl:top-4 xl:top-3 bg-[#006FBE] text-white font-semibold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[18px] text-[16px]  px-6 py-8  shadow-md">
+                                            {card.title}
+                                        </div>
+                                        <div className="4xl:pl-[22rem] 2xl:pl-[20rem] xl:pl-[20rem] xl:pr-10 py-6 p-6 pt-20 xl:pt-5  4xl:text-[20px] 2xl:text-[18px]  xl:text-[16px] text-[16px] font-medium">
+                                            {card.description}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
                             <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 Migration Strategy: From PI/PO to CPI
                             </h2>
@@ -454,36 +530,27 @@ export default function Page() {
                             </p>
 
 
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-5">
-                                1. Assessment & Discovery
-                            </h3>
-                            <UnorderedList arrName={assetment} ulClassName="list-disc pl-5  2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 marker:text-xl space-y-5 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium" liClassName="" />
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                2. Blueprinting & Design
-                            </h3>
-                            <UnorderedList arrName={bluprint} ulClassName="list-disc pl-5  2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 marker:text-xl space-y-5 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium" liClassName="" />
+                            <div className="w-full max-w-7xl mx-auto py-12">
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                                    {steps.map((step, index) => (
+                                        <div
+                                            key={index}
+                                            className="border border-gray-800  bg-white shadow-sm p-6 flex flex-col"
+                                        >
+                                            <h3 className="text-[#006FBE] font-semibold leading-tight 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[20px]">
+                                                {step.title}
+                                            </h3>
+                                            <div className="border-t border-[1px] border-gray-400 my-5" />
+                                            <ul className="space-y-5 list-none font-medium 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]  leading-tight  list-inside">
+                                                {step.description.map((line, i) => (
+                                                    <li key={i}>{line}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
 
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                3. Migration Execution
-                            </h3>
-
-                            <UnorderedList arrName={migration} ulClassName="list-disc pl-5  2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 marker:text-xl space-y-5 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium" liClassName="" />
-
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                4. Functional & Regression Testing
-                            </h3>
-                            <UnorderedList arrName={funtional} ulClassName="list-disc pl-5  2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 marker:text-xl space-y-5 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium" liClassName="" />
-
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                5. Cutover & Go-Live
-                            </h3>
-                            <UnorderedList arrName={cutover} ulClassName="list-disc pl-5  2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 marker:text-xl space-y-5 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium" liClassName="" />
-
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                6. Continuous Optimization
-                            </h3>
-
-                            <UnorderedList arrName={continuous} ulClassName="list-disc pl-5  2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 marker:text-xl space-y-5 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium" liClassName="" />
 
                             <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 Early Watch Systems and Alert Mechanisms in SAP CPI
@@ -520,20 +587,31 @@ export default function Page() {
                                 Best Practices for Using Alerts During Migration
                             </h2>
 
+                            <section className="w-full py-10 bg-white">
+                                <div className="max-w-7xl">
+                                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:gap-8 gap-10  lg:text-left">
+                                        {features1.map((feature, index) => (
+                                            <div
+                                                key={index}
+                                                className={`relative flex flex-col items-start xl:border-none border-b border-black xl:pb-0 pb-10 ${index !== 0 ? "xl:pl-10" : ""
+                                                    }`}
+                                            >
+                                                {index !== 0 && (
+                                                    <span className="absolute left-0 top-0 h-full xl:border-l border-b border-gray-300"></span>
+                                                )}
 
-
-
-
-
-
-                            <ol className="list-disc  marker:text-xl pl-5  2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-5">
-                                <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Dual Monitoring: </h3> Keep PI/PO logs active while configuring CPI alerts during parallel runs.  </li>
-                                <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Business SLA Alignment:</h3> Design alert thresholds around business outcomes, not just technical metrics.</li>
-                                <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Multi-Channel Notifications:</h3>  Enable SMS, email, Slack/Teams integration for critical alerts.</li>
-                                <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Automated Testing Alerts:</h3> Use alerts during regression testing to validate migrated interfaces.</li>
-                                <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Continuous Reporting:</h3> Incorporate Early Watch into monthly governance cycles.</li>
-
-                            </ol>
+                                                <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[20px] xl:text-[18px] text-[18px] leading-tight">
+                                                    {feature.title}
+                                                </h3>
+                                                <div className="w-8 h-0.5 bg-sky-600 my-6"></div>
+                                                <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] leading-tight">
+                                                    {feature.desc}
+                                                </p>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            </section>
                             <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 Upcoming Features of SAP CPI
                             </h2>
@@ -541,83 +619,82 @@ export default function Page() {
                                 SAP continues to invest heavily in CPI, and enterprises migrating now will benefit from its innovation roadmap
                             </p>
 
-                            <ol className="list-disc marker:text-xl pl-5  2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-5">
-                                <li>
-                                    <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                        AI-Powered Monitoring & Error Resolution
-                                    </h3>{" "}
-                                    Predictive failure detection and auto-remediation.
-                                </li>
-                                <li>
-                                    <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                        Event Mesh Expansion
-                                    </h3>{" "}
-                                    Stronger support for event-driven architectures.
-                                </li>
-                                <li>
-                                    <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                        Low-Code/No-Code iFlow Design
-                                    </h3>{" "}
-                                    Empowering business users.
-                                </li>
-                                <li>
-                                    <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                        Multi-Cloud Flexibility
-                                    </h3>{" "}
-                                    Deployment across hyperscalers for compliance and performance.
-                                </li>
-                                <li>
-                                    <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                        Enhanced Security
-                                    </h3>{" "}
-                                    Native zero-trust and advanced encryption.
-                                </li>
-                            </ol>
+                            <section className="w-full py-12 bg-white">
+                                <div className="max-w-7xl mx-auto">
+                                    <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-2">
+                                        <div className="bg-[#C6E7FF] 4xl:p-5 xl:p-5 p-8  shadow-sm xl:col-span-3 col-span-12 md:col-span-2">
+                                            <p>
+                                                AI-Powered Monitoring & Error Resolution Predictive failure detection and auto-remediation.
+                                            </p>
+                                        </div>
+                                        <div className="bg-[#EDEDED] 4xl:p-5 xl:p-5 p-8  shadow-sm transform md:translate-y-14 xl:col-span-3 col-span-12 md:col-span-2">
+                                            <p>
+                                                Event Mesh Expansion Stronger support for event-driven architectures.
+                                            </p>
+                                        </div>
+                                        <div className="bg-[#C6E7FF] 4xl:p-6 xl:p-5 p-8  shadow-sm transform xl:translate-y-32 md:mt-16 xl:col-span-3 col-span-12 md:col-span-2">
+                                            <p>
+                                                Low-Code/No-Code iFlow Design Empowering business users.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-2 xl:mt-6 md:mt-0">
+                                        <div className="bg-[#EDEDED] p-7  shadow-sm xl:translate-y-8 xl:col-span-3 col-span-12 md:col-span-2">
+                                            <p>
+                                                Multi-Cloud Flexibility Deployment across hyperscalers for compliance and performance.
+                                            </p>
+                                        </div>
+                                        <div className="bg-[#C6E7FF] p-10  shadow-sm xl:translate-y-[6.5rem]  xl:col-span-3 col-span-12 md:col-span-2">
+                                            <p>
+                                                Enhanced Security Native zero-trust and advanced encryption.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
 
-                            <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
+
+                            <h2 className="xl:mt-40 mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 What Are The Benefits for SAP Customers Migrating to CPI?
                             </h2>
+                            <div className="w-full mt-10">
+                                <div className="hidden md:flex relative items-start">
+                                    <div className="absolute top-2 left-2 h-0.5 w-full bg-gray-400"></div>
+
+                                    {items.map((text, index) => (
+                                        <div
+                                            key={index}
+                                            className="flex flex-col items-start text-left pr-10 relative"
+                                        >
+                                            {/* Circle */}
+                                            <div className="w-4 h-4 bg-[#0C8AED] border-2 border-blue-500 rounded-full z-10"></div>
+                                            <div className="w-0.5 h-6 bg-blue-500 ml-[7px]"></div>
+                                            <p className="mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{text}</p>
+                                        </div>
+                                    ))}
+                                </div>
+
+                                <div className="md:hidden relative">
+                                    {/* Vertical line */}
+                                    <div className="absolute left-2 top-0 h-full w-0.5 bg-gray-400"></div>
+
+                                    {items.map((text, index) => (
+                                        <div key={index} className="mb-8 flex items-start relative">
+                                            {/* Circle */}
+                                            <div className="absolute left-0 mt-1 w-4 h-4 bg-[#0C8AED] border-2 border-blue-500 rounded-full"></div>
+                                            <div className="absolute left-4 top-2 h-0.5 w-6 bg-blue-500"></div>
+                                            <p className="ml-12 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                                                {text}
+                                            </p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
 
 
-                            <ol className="list-disc marker:text-xl pl-5  2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-5">
-                                <li>
-                                    <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                        Future-Proofing
-                                    </h3>{" "}
-                                    Stay aligned with SAP’s roadmap.
-                                </li>
-                                <li>
-                                    <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                        Agility
-                                    </h3>{" "}
-                                    Faster connections with SAP and non-SAP apps.
-                                </li>
-                                <li>
-                                    <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                        Reduced Risk
-                                    </h3>{" "}
-                                    Parallel migration and intelligent alerts minimize disruption.
-                                </li>
-                                <li>
-                                    <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                        Faster ROI
-                                    </h3>{" "}
-                                    Pre-built content accelerates delivery.
-                                </li>
-                                <li>
-                                    <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                        Lower TCO
-                                    </h3>{" "}
-                                    No infrastructure or heavy upgrade cycles.
-                                </li>
-                                <li>
-                                    <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                        Business Confidence
-                                    </h3>{" "}
-                                    KPI-driven monitoring ensures processes run without surprises.
-                                </li>
-                            </ol>
-                            <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
+
+
+                            <h2 className="mt-16 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 How can we help with SAP Cloud Platform Integration?
                             </h2>
 

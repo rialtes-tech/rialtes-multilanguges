@@ -95,14 +95,14 @@ const schemaData = {
         }
     ]
 }
-
+ 
 export default function Page() {
     const t = useTranslations('firstAiAgent')
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { blogs, stepToGuideData, agentBuilderData, componentsData, actionsData, typesOfAgents } = blogsContent.firstAiAgent;
     const fullUrl = "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
-
+ 
     return (
         <div className="min-h-screen">
             <Seo
@@ -113,14 +113,14 @@ export default function Page() {
                     "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
                 }
             />
-
+ 
             <Script
                 id="schema-copilots"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-
+ 
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
@@ -141,7 +141,7 @@ export default function Page() {
                     />
                 </div>
             </section>
-
+ 
             <section className="custom-container">
                 <div className="py-10 bg-white">
                     <div>
@@ -200,7 +200,7 @@ export default function Page() {
                     <div className="grid xl:grid-cols-12">
                         <div className="xl:col-span-10 col-span-12">
                             <h1 className="text-[#000000]  pb-6 leading-tight text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px] md:text-[28px]">
-                               {t('blogTitle')} 
+                               {t('blogTitle')}
                             </h1>
                         </div>
                     </div>
@@ -208,9 +208,9 @@ export default function Page() {
                         <div className="col-span-9">
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('mainData')}</p>
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('mainData2')}</p>
-
+ 
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('agentforceTitle')}</h2>
-
+ 
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('agentforceDesc')}</p>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('agentforceDesc2')}</p>
                             <ul className="list-disc marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[26px]">
@@ -223,7 +223,7 @@ export default function Page() {
                                 }
                             </ul>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('agentforceDesc3')}</p>
-
+ 
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('stepsTitle')}</h2>
                             {
                                 stepToGuideData.map((data, ind) => {
@@ -236,7 +236,7 @@ export default function Page() {
                                     )
                                 })
                             }
-
+ 
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('componentsTitle')}</h2>
                             {
                                 componentsData.map((data, ind) => {
@@ -245,7 +245,7 @@ export default function Page() {
                                             <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-7 font-bold">{data.title}</h3>
                                             {data.desc && <p className="mt-2 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>}
                                             <ul className="list-disc marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[30px]">
-
+ 
                                                 {
                                                     data.list.map((elem, id) => {
                                                         return (
@@ -259,11 +259,11 @@ export default function Page() {
                                     )
                                 })
                             }
-
+ 
                             <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-7 font-bold">{t('actionsTitle')}</h3>
                             <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('actionsDesc')}</p>
                             <UnorderedList arrName={actionsData} ulClassName="mt-3 list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
-
+ 
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('typeTitle')}</h2>
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('typeDesc')}</p>
                             <ul className="list-decimal marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[26px]">
@@ -289,3 +289,4 @@ export default function Page() {
         </div>
     )
 }
+ 
