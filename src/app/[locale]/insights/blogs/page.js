@@ -112,7 +112,7 @@ export default function Page() {
     const isLoadMoreVisible = visibleBlogs < filteredBlogsByCategory.length;
 
     return (
-      <div className=" ">
+      <div>
         <div className="flex md:flex-row flex-col pb-4">
           <div className="flex flex-col md:pb-0 pb-4 justify-center">
             <h2 className="text-black 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight ">{t('latestBlogsTitle')}</h2>
@@ -126,8 +126,7 @@ export default function Page() {
                   fill='none'
                   stroke='currentColor'
                   viewBox='0 0 24 24'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
+                  xmlns='http://www.w3.org/2000/svg'>
                   <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M19 9l-7 7-7-7'></path>
                 </svg>
               </button>
@@ -279,7 +278,7 @@ export default function Page() {
       <section className="relative pb-10 bg-white">
         <div className="mb-[36px]">
           <div className="flex flex-row justify-between md:mr-24 mr-0">
-            <h2 className="text-black mb-[36px] text-[26px] xl:text-[40px]  4xl:text-[60px] leading-tight "> {t('featuredTitle')}</h2>
+            <h2 className="text-black mb-[36px] text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight"> {t('featuredTitle')}</h2>
           </div>
           <Carousel
             swipeable={true}
@@ -306,7 +305,7 @@ export default function Page() {
           >
             {slides.map((slide) => (
               <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full">
-                <div className="basis-full h-full ">
+                <div className="basis-full  xl:h-[500px]">
                   <Link href={'/insights/blogs' + slide.url}>
                     <Image
                       src={slide.image}
