@@ -30,7 +30,7 @@ const schemaData = {
 
 const latestBlogs = [
   {
-    id: 32,
+    id: 33,
     image: "/images/blog/first-ai-agent-mob-banner.webp",
     category: "Artificial Intelligence",
     industry: "Generic",
@@ -40,7 +40,7 @@ const latestBlogs = [
     description: "By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions. Despite ethical concerns, the value of training AI for growth is clear. Teaching AI to understand human language enhances its ability to respond and perform useful tasks.",
   },
   {
-    id: 31,
+    id: 32,
     image: "/images/blog/byond-robotics-mobile-banner.webp",
     category: "Artificial Intelligence",
     industry: "Generic",
