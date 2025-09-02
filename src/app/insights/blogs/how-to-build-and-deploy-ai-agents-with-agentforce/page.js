@@ -7,17 +7,12 @@ import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
-    },
-    "headline": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-    "description": "Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
-    "image": "https://www.rialtes.com/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp",
+    "headline": "How to Build and Deploy Your First AI Agent with Agentforce",
+    "description": "This step-by-step guide shows how to build and deploy AI agents in Salesforce Agentforce without coding, using visual tools, templates, and workflows.",
+    "image": "https://www.rialtes.com/images/blog/first-ai-agent-desktop-banner.webp",
     "author": {
         "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com"
+        "name": "Rialtes"
     },
     "publisher": {
         "@type": "Organization",
@@ -27,68 +22,57 @@ const schemaData = {
             "url": "https://www.rialtes.com/images/homepage/logo.svg"
         }
     },
-    "datePublished": "2024-10-28",
-    "dateModified": "2025-07-25",
-    "articleSection": "AI Automation",
-    "url": "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What’s the difference between bots, copilots, and agents?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Bots follow simple rules to perform tasks. Copilots offer contextual help and suggestions, often requiring user input. Agents act independently, make decisions, and can operate across systems autonomously. Think of bots as basic responders, copilots as smart assistants, and agents as decision-makers."
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/"
+    },
+    "datePublished": "2025-09-02",
+    "mainEntity": {
+        "@type": "FAQPage",
+        "name": "Building and Deploying AI Agents in Agentforce FAQs",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is Agentic AI and why does it matter?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Agentic AI goes beyond simple automation. It enables agents to reason, plan, act, and adapt—essentially acting as digital coworkers rather than bots."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I build AI agents in Salesforce without coding?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Agentforce Agent Builder offers a drag-and-drop, low-code interface to build AI agents using templates, workflows, and prompt builder tools."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the steps to build and deploy an AI agent in Agentforce?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The process includes defining the agent’s purpose, setting up Agentforce, structuring logic with Agent Builder, training the agent, building conversations, integrating systems, testing, and deploying."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What kind of AI agents can be built with Agentforce?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can build customer support agents, sales assistants, HR and recruitment bots, finance agents, IT helpdesk bots, marketing agents, and compliance monitors."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I keep my AI agent effective after deployment?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ensure continuous learning with new data, run regular security reviews, add integrations as needs evolve, and monitor key performance metrics like resolution rates and user satisfaction."
+                }
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What is an example of a bot?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A chatbot that answers questions like 'What is your return policy?' on an e-commerce website is a good example of a bot. It follows scripted responses and doesn’t adapt to complex queries."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What does an AI agent do?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "An AI agent can understand tasks, make decisions, and execute actions without constant human intervention. In manufacturing, for example, an agent can predict delays and reschedule workflows automatically."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Is Copilot better than chatbot?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. A copilot provides intelligent suggestions based on context and user behavior, whereas a chatbot sticks to predefined scripts. Copilots are more dynamic and user-focused than basic bots."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Which AI tool is more powerful: agent or copilot?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agents are more powerful. While copilots assist users by providing recommendations, AI agents go further—they make decisions, adapt, and act autonomously across processes."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Which AI should I use for customer support in manufacturing?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AI agents are best for manufacturing customer service. They handle complex queries, integrate with enterprise systems, and resolve issues faster than traditional bots or copilots."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can AI agents fully replace humans in operations?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. AI agents are ideal for automating repetitive and data-driven tasks, but human-AI collaboration is still essential for strategic decisions, creativity, and empathy-driven customer service."
-            }
-        }
-    ]
+        ]
+    }
 }
 const blogs = [
     {
@@ -387,16 +371,16 @@ const typesOfAgents = [
 ]
 
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce";
 
     return (
         <div className="min-h-screen">
             <Seo
-                title="Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes"
-                description="Learn the key differences between bots, copilots, and AI agents. Choose the best AI automation tool to scale productivity and transform workflows."
+                title="How to Deploy AI Agents in Salesforce Agentforce | Rialtes"
+                description="Ready to automate with AI? Use this step-by-step guide to build AI agents in Agentforce by Salesforce without coding or expensive systems."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
+                    "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/"
                 }
             />
 
@@ -434,7 +418,7 @@ export default function Page() {
                         <div className="flex flex-col md:flex-row justify-between text-black items-center  xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">Artificial Intelligence</span>{" "}
-                                <span className="text-[#ACACAC]"> | </span>25 July 2025
+                                <span className="text-[#ACACAC]"> | </span>02 September 2025
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
