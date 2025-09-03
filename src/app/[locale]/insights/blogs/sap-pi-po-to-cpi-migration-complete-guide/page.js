@@ -222,7 +222,7 @@ export default function Page() {
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 {t('piPoServedDesc')}
-                            </p>
+                            </p >
                             <ol className="list-disc marker:text-xl pl-5 2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-5">
                                 {
                                     piPoServedData.map((data, ind) => {
@@ -371,28 +371,30 @@ export default function Page() {
                                             </div>
                                         ))}
                                     </div>
-                                </div>
-                            </section>
+                                </div >
+                            </section >
 
 
                             <h2 className="xl:mt-40 mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                                {t('benefitsTitle')}   
+                                {t('benefitsTitle')}
                             </h2>
                             <div className="w-full mt-10">
                                 <div className="hidden md:flex relative items-start">
                                     <div className="absolute top-2 left-2 h-0.5 w-full bg-gray-400"></div>
 
-                                    {items.map((text, index) => (
-                                        <div
-                                            key={index}
-                                            className="flex flex-col items-start text-left pr-10 relative">
-                                            {/* Circle */}
-                                            <div className="w-4 h-4 bg-[#0C8AED] border-2 border-blue-500 rounded-full z-10"></div>
-                                            <div className="w-0.5 h-6 bg-blue-500 ml-[7px]"></div>
-                                            <p className="mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{text}</p>
-                                        </div>
-                                    ))}
-                                </div>
+                                    {
+                                        items.map((text, index) => (
+                                            <div
+                                                key={index}
+                                                className="flex flex-col items-start text-left pr-10 relative">
+                                                {/* Circle */}
+                                                <div className="w-4 h-4 bg-[#0C8AED] border-2 border-blue-500 rounded-full z-10"></div>
+                                                <div className="w-0.5 h-6 bg-blue-500 ml-[7px]"></div>
+                                                <p className="mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{text}</p>
+                                            </div>
+                                        ))
+                                    }
+                                </div >
 
                                 <div className="md:hidden relative">
                                     {/* Vertical line */}
@@ -409,17 +411,17 @@ export default function Page() {
                                         </div>
                                     ))}
                                 </div>
-                            </div>
+                            </div >
 
                             <h2 className="mt-16 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                                {t('howCanHelpTitle')}  
+                                {t('howCanHelpTitle')}
                             </h2>
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                {t('howCanHelpDesc')}  
+                                {t('howCanHelpDesc')}
                             </p>
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                {t('howCanHelpDesc2')}  
+                                {t('howCanHelpDesc2')}
                             </p>
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
@@ -427,13 +429,13 @@ export default function Page() {
                             </p>
 
                             <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px]  xl:text-[21px] text-[23px] mt-10">
-                                {t('faqTitle')}  
+                                {t('faqTitle')}
                             </h2>
 
                         </div>
-                    </div>
-                </div>
-            </section>
+                    </div >
+                </div >
+            </section >
 
             <section className="custom-container max-md:px-0 pb-10">
                 <FAQAccordion faqData={faqs} />
@@ -442,6 +444,6 @@ export default function Page() {
                 className="custom-container xl:pr-0 mt-10">
                 <BlogsCarousel slides={blogs} />
             </div>
-        </div>
+        </div >
     );
 }
