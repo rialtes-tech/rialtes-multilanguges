@@ -5429,14 +5429,14 @@
                 "bg": "bg-[#EDEDED]",
                 "padding": "4xl:p-5 xl:p-5 p-8",
                 "col": "xl:col-span-3 col-span-12 md:col-span-2",
-                "transform": "md:translate-y-14"
+                "transform": "md:translate-y-14 md:mt-[-60px] xl:mt-0"
             },
             {
                 "text": "Conception iFlow Low-Code/No-Code : responsabiliser les utilisateurs métier.",
                 "bg": "bg-[#C6E7FF]",
                 "padding": "4xl:p-6 xl:p-5 p-8",
                 "col": "xl:col-span-3 col-span-12 md:col-span-2",
-                "transform": "xl:translate-y-32 md:mt-16"
+                "transform": "xl:translate-y-32 md:mt-14"
             },
             {
                 "text": "Flexibilité multi-cloud : déploiement sur différents hyperscalers pour conformité et performance.",

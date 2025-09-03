@@ -344,35 +344,51 @@ export default function Page() {
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 {t('upcomingDesc')}
                             </p>
-
                             <section className="w-full py-12 bg-white">
                                 <div className="max-w-7xl mx-auto">
-                                    {/* Split into 2 rows for same structure */}
-                                    <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-2">
-                                        {upcomingData.slice(0, 3).map((item, index) => (
-                                            <div
-                                                key={index}
-                                                className={`${item.bg} ${item.padding} shadow-sm ${item.transform} ${item.col}`}>
-                                                <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                                    {item.text}
-                                                </p>
-                                            </div>
-                                        ))}
+                                    {/* First row */}
+                                    <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-12">
+                                        {upcomingData.slice(0, 3).map((item, index) => {
+                                            const bgClass = item.bg || "bg-gray-100";
+                                            const paddingClass = item.padding || "p-4";
+                                            const transformClass = item.transform || "";
+                                            const colClass = item.col || "col-span-12 xl:col-span-4"; 
+
+                                            return (
+                                                <div
+                                                    key={index}
+                                                    className={`${bgClass} ${paddingClass} shadow-sm ${transformClass} ${colClass}`}
+                                                >
+                                                    <p className="text-[16px] xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px]">
+                                                        {item.text}
+                                                    </p>
+                                                </div>
+                                            );
+                                        })}
                                     </div>
 
-                                    <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-2 xl:mt-6 md:mt-0">
-                                        {upcomingData.slice(3).map((item, index) => (
-                                            <div
-                                                key={index}
-                                                className={`${item.bg} ${item.padding} shadow-sm ${item.transform} ${item.col}`}>
-                                                <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                                    {item.text}
-                                                </p>
-                                            </div>
-                                        ))}
+                                    {/* Second row */}
+                                    <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-12 xl:mt-6">
+                                        {upcomingData.slice(3).map((item, index) => {
+                                            const bgClass = item.bg || "bg-gray-100";
+                                            const paddingClass = item.padding || "p-4";
+                                            const transformClass = item.transform || "";
+                                            const colClass = item.col || "col-span-12 xl:col-span-4"; 
+
+                                            return (
+                                                <div
+                                                    key={index}
+                                                    className={`${bgClass} ${paddingClass} shadow-sm ${transformClass} ${colClass}`}
+                                                >
+                                                    <p className="text-[16px] xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px]">
+                                                        {item.text}
+                                                    </p>
+                                                </div>
+                                            );
+                                        })}
                                     </div>
-                                </div >
-                            </section >
+                                </div>
+                            </section>
 
 
                             <h2 className="xl:mt-40 mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
