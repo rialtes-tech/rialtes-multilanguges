@@ -148,10 +148,10 @@ export default function page() {
                 <div className="relative h-full custom-container flex items-center text-[#ffffff]">
                     <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
                         <div className="col-span-12">
-                            <h1 className="text-[18px] lg:text-[24px] font-bold max-sm:w-[53%]">
+                            <h1 className="text-[18px] lg:text-[24px] font-bold sm:w-[53%] :">
                                 {t('headerTitle')}
                             </h1>
-                            <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px] max-sm:w-[60%]">
+                            <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px] sm:w-[60%]">
                                 {t('headerSubTitle1')}<br />  {t('headerSubTitle2')}
                             </h2>
                         </div>
@@ -290,13 +290,13 @@ export default function page() {
                                         </p>
                                         <div className="grid lg:grid-cols-2 grid-cols-1 xl:mt-[56px] mt-[32px] md:gap-x-[20px] gap-y-[34px] ">
                                             <div>
-                                                <p className="xl:text-[26px] 4xl:text-[32px] text-[18px] leading-tight font-semibold">
+                                                <p className="xl:text-[26px] 4xl:text-[31px] text-[18px] leading-tight font-semibold">
                                                     {t('keyTitle')}
                                                 </p>
                                                 <UnorderedList arrName={data.keyData} ulClassName="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]" liClassName="xl:text-[17px] text-[16px] leading-tight" />
                                             </div>
                                             <div>
-                                                <p className="xl:text-[26px] 4xl:text-[32px] text-[18px] leading-tight font-semibold">
+                                                <p className="xl:text-[26px] 4xl:text-[31px] text-[18px] leading-tight font-semibold">
                                                     {t('benefitsTitle')}
                                                 </p>
                                                 <UnorderedList arrName={data.businessData} ulClassName="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]" liClassName="xl:text-[17px] text-[16px] leading-tight" />
@@ -401,7 +401,7 @@ export default function page() {
                                                 <h3 className="md:block hidden xl:text-[30px] 4xl:text-[40px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
                                                     {data?.subtitle}
                                                 </h3>
-                                                <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] max-[360px]:mt-[40px] ${data?.subtitle && "mt-[30px]  "} font-normal sm:w-[80%] md:w-full`}>
+                                                <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] mt-[20px] max-[360px]:mt-[58px] ${data?.subtitle && "mt-[60px]  "} font-normal sm:w-[80%] md:w-full`}>
                                                     {data.desc}
                                                 </p>
                                                 <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
@@ -530,7 +530,7 @@ export default function page() {
                     <div className="grid grid-cols-1 lg:grid-cols-12">
                         <div className="col-span-6 lg:col-span-6 3xl:col-span-5">
                             <div className="bg-[#006FBE] text-[#ffffff] lg:ml-[60px] xl:pt-[60px] xl:px-[50px] xl:pb-[90px] pt-[29px] lg:px-[36px] px-[24px] pb-[65px]">
-                                <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
+                                <h2 className="xl:text-[40px] 4xl:text-[56px] text-[26px] leading-tight font-light">
                                     {t('whyRialtesTitle')}
                                 </h2>
                                 <UnorderedList arrName={whyRialtesData} ulClassName="list-disc xl:mt-[60px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
