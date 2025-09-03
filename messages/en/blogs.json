@@ -5416,43 +5416,12 @@
         "bestPracticesTitle": "Best Practices for Using Alerts During Migration",
         "upcomingTitle": "Upcoming Features of SAP CPI",
         "upcomingDesc": "SAP continues to invest heavily in CPI, and enterprises migrating now will benefit from its innovation roadmap",
-        "upcomingData": [
-            {
-                "text": "AI-Powered Monitoring & Error Resolution Predictive failure detection and auto-remediation.",
-                "bg": "bg-[#C6E7FF]",
-                "padding": "4xl:p-5 xl:p-5 p-8",
-                "col": "xl:col-span-3 col-span-12 md:col-span-2",
-                "transform": ""
-            },
-            {
-                "text": "Event Mesh Expansion Stronger support for event-driven architectures.",
-                "bg": "bg-[#EDEDED]",
-                "padding": "4xl:p-5 xl:p-5 p-8",
-                "col": "xl:col-span-3 col-span-12 md:col-span-2",
-                "transform": "md:translate-y-14"
-            },
-            {
-                "text": "Low-Code/No-Code iFlow Design Empowering business users.",
-                "bg": "bg-[#C6E7FF]",
-                "padding": "4xl:p-6 xl:p-5 p-8",
-                "col": "xl:col-span-3 col-span-12 md:col-span-2",
-                "transform": "xl:translate-y-32 md:mt-16"
-            },
-            {
-                "text": "Multi-Cloud Flexibility Deployment across hyperscalers for compliance and performance.",
-                "bg": "bg-[#EDEDED]",
-                "padding": "p-7",
-                "col": "xl:col-span-3 col-span-12 md:col-span-2",
-                "transform": "xl:translate-y-8"
-            },
-            {
-                "text": "Enhanced Security Native zero-trust and advanced encryption.",
-                "bg": "bg-[#C6E7FF]",
-                "padding": "p-10",
-                "col": "xl:col-span-3 col-span-12 md:col-span-2",
-                "transform": "xl:translate-y-[6.5rem]"
-            }
-        ],
+        "upcomingData1": "AI-Powered Monitoring & Error Resolution Predictive failure detection and auto-remediation.",
+        "upcomingData2": "Event Mesh Expansion Stronger support for event-driven architectures.",
+        "upcomingData3": "Low-Code/No-Code iFlow Design Empowering business users.",
+        "upcomingData4": "Multi-Cloud Flexibility Deployment across hyperscalers for compliance and performance.",
+        "upcomingData5": "Enhanced Security Native zero-trust and advanced encryption.",
+   
         "benefitsTitle": "What Are The Benefits for SAP Customers Migrating to CPI?",
         "howCanHelpTitle": "How can we help with SAP Cloud Platform Integration?",
         "howCanHelpDesc": "Migrating from SAP PI/PO to SAP BTP Integration Suite is not just limited to re-platforming interfaces; it involves adopting a modern, cloud-native integration backbone that is intelligent, proactive, and ready for the future.",

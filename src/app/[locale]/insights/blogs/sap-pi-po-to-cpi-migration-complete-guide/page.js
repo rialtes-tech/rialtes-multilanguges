@@ -321,9 +321,9 @@ export default function Page() {
                                         {features1.map((feature, index) => (
                                             <div
                                                 key={index}
-                                                className={`relative flex flex-col items-start xl:border-none border-b border-black xl:pb-0 pb-10 ${index !== 0 ? "xl:pl-10" : ""}`}>
+                                                className={`relative flex flex-col items-start xl:border-none max-md:border-b border-black xl:pb-0 pb-10 ${index !== 0 ? "md:pl-10" : ""}`}>
                                                 {index !== 0 && (
-                                                    <span className="absolute left-0 top-0 h-full xl:border-l border-b border-gray-300"></span>
+                                                    <span className="absolute left-0 top-0 h-full md:border-l border-b border-gray-300"></span>
                                                 )}
 
                                                 <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[20px] xl:text-[18px] text-[18px] leading-tight">
@@ -344,36 +344,39 @@ export default function Page() {
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 {t('upcomingDesc')}
                             </p>
-
                             <section className="w-full py-12 bg-white">
                                 <div className="max-w-7xl mx-auto">
-                                    {/* Split into 2 rows for same structure */}
-                                    <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-2">
-                                        {upcomingData.slice(0, 3).map((item, index) => (
-                                            <div
-                                                key={index}
-                                                className={`${item.bg} ${item.padding} shadow-sm ${item.transform} ${item.col}`}>
-                                                <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                                    {item.text}
-                                                </p>
-                                            </div>
-                                        ))}
+                                    <div className="grid grid-cols-1 xl:grid-cols-3">
+                                        <div className="bg-[#C6E7FF] 4xl:p-8 xl:p-5 p-8 4xl:pr-10 shadow-sm">
+                                            <p>
+                                                {t('upcomingData1')}
+                                            </p>
+                                        </div>
+                                        <div className="bg-[#EDEDED] 4xl:p-8 xl:p-5 p-8 4xl:pr-12 shadow-sm transform md:translate-y-14 md:mt-[-60px] xl:mt-0">
+                                            <p>
+                                                {t('upcomingData2')}
+                                            </p>
+                                        </div>
+                                        <div className="bg-[#C6E7FF] 4xl:p-8 xl:p-5 p-8 4xl:pr-12 shadow-sm transform xl:translate-y-32 md:mt-14 xl:mt-16">
+                                            <p>
+                                                {t('upcomingData3')}
+                                            </p>
+                                        </div>
                                     </div>
-
-                                    <div className="grid xl:grid-cols-12 grid-cols-1 md:grid-cols-2 xl:mt-6 md:mt-0">
-                                        {upcomingData.slice(3).map((item, index) => (
-                                            <div
-                                                key={index}
-                                                className={`${item.bg} ${item.padding} shadow-sm ${item.transform} ${item.col}`}>
-                                                <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                                    {item.text}
-                                                </p>
-                                            </div>
-                                        ))}
+                                    <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-6 md:mt-0">
+                                        <div className="bg-[#EDEDED] p-7 4xl:pr-12 shadow-sm xl:translate-y-8 xl:col-span-4 col-span-12 md:col-span-2">
+                                            <p>
+                                                {t('upcomingData4')}
+                                            </p>
+                                        </div>
+                                        <div className="bg-[#C6E7FF] p-10 pr-12 shadow-sm xl:translate-y-[6.5rem]  xl:col-span-4 col-span-12 md:col-span-2">
+                                            <p>
+                                                {t('upcomingData5')}
+                                            </p>
+                                        </div>
                                     </div>
-                                </div >
-                            </section >
-
+                                </div>
+                            </section>
 
                             <h2 className="xl:mt-40 mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 {t('benefitsTitle')}
