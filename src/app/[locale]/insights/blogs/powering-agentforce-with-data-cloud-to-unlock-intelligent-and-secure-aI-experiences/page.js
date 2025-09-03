@@ -135,7 +135,7 @@ const blogs = [
 ];
 
 export default function Home() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/powering-agentforce-with-data-cloud-to-unlock-intelligent-and-secure-aI-experiences";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/powering-agentforce-with-data-cloud-to-unlock-intelligent-and-secure-aI-experiences";
 
   return (
     <main className="min-h-screen bg-white">
@@ -150,26 +150,26 @@ export default function Home() {
             <span className="text-gray-400">| February 24, 2025</span>
           </div>
           <div className="flex items-center gap-4">
-          <div className="flex flex-col">
-                <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  {/* <div className="max-w-[40px]">
+            <div className="flex flex-col">
+              <div className="flex flex-row gap-6">
+                <div className="max-w-[40px]">
+                  <a
+                    href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src="/images/case-studies/linkedin.svg"
+                      alt="LinkedIn"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                      priority
+                    />
+                  </a>
+                </div>
+                {/* <div className="max-w-[40px]">
                     <a
                       href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullUrl)}`}
                       target="_blank"
@@ -186,24 +186,24 @@ export default function Home() {
                       />
                     </a>
                   </div> */}
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
+                <div className="max-w-[40px]">
+                  <a
+                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >                      <Image
+                      src="/images/case-studies/twitter.svg"
+                      alt="Twitter"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                      priority
+                    />
+                  </a>
                 </div>
               </div>
+            </div>
           </div>
         </div>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
