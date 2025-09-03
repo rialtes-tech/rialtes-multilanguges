@@ -4677,12 +4677,12 @@
         "readyDesc": "Let’s build smarter factories with thinking agents.",
         "faqTitle": "FAQs: Smart Manufacturing with AI Agents"
     },
-  "howAgentforce":{
+    "howAgentforce": {
         "agentforce": "Agentforce",
         "date": "29 July 2025",
         "title": "How Agentforce 3.0 is Reshaping Automotive Manufacturing",
         "desc": "Salesforce has",
-        "descLink":"launched",
+        "descLink": "launched",
         "descLink2": "  Agentforce 3.0 — and it’s a significant leap forward. Agentforce has been a key part of Salesforce's AI strategy since its launch in September 2024. Since Agentforce 2.0's December release and Agentforce 2dx in March, the updates continue with the launch of Agentforce 3.0, marking another major milestone.",
         "desctwo": "Not in the exaggerated “overnight transformation” sense, but in the practical, measurable improvements that directly impact the professionals managing and optimizing AI in automotive production  every day. With over 200 prebuilt agent actions, Agentforce 3.0 significantly advances the operationalization of intelligent automation across core workflows. While much of the external focus remains on headline-grabbing AI features, the real strategic value of this release lies in its ability to bridge the gap between visionary AI concepts and deployable, scalable automation, particularly for Salesforce administrators, developers, and DevOps teams driving industry innovation. Not all AI assistants are created equal—understanding the ",
         "desctwoLink": "difference between bots, copilots, and AI agents",
@@ -4690,7 +4690,7 @@
         "autoTitle": " The automotive industry is one of the sectors accelerating into a new era, defined by intelligent automation, supply chain volatility, and the shift to electric and autonomous vehicles. Manufacturers should not only focus on improving processes but also reinvent them to remain competitive. Agentforce 3.0 empowers automotive companies to build smarter factories, optimize quality, and drive faster innovation.",
         "automotive": "Agentforce 3.0: A Game-Changer for Automotive",
         "sinceTitle": " Since its debut, Salesforce’s Agentforce platform has promised to reimagine how organizations interact with data, tools, and processes, bringing AI-powered intelligence to the heart of enterprise operations. With the launch of Agentforce 3.0, that vision is more actionable, especially for the automotive manufacturing sector.",
-         "keyTitle": " Key automotive capabilities include:",
+        "keyTitle": " Key automotive capabilities include:",
         "streamlineTitle": " Streamline Operations with the Agentforce Command Center",
         "oneTitle": "One of the standout features of Agentforce 3.0 is the Command Center—a control tower for managing and optimizing AI agent performance.",
         "means": " In an automotive factory setting, this means:",
@@ -4718,236 +4718,215 @@
         "link2": " Let our experts assist you in integrating, scaling, and succeeding with ",
         "link3": "AI in automotive manufacturing",
         "link4": " . Rialtes helps businesses incorporate customized Agentforce agents into their ERP platforms, automating tasks and optimizing workflows.",
-        "faq":"FAQs: Agentforce for AI-Powered Manufacturing Transformation",
-        "aiList" :[
-  "Boost operational resilience",
-  "Speed up innovation cycles",
-  "Ensure compliance across geographies",
-  "Deliver better experiences across the vehicle lifecycle"
-],
-        "useCaseList":[
-  "Automated vehicle inspection summaries",
-  "Digital twin coordination",
-  "Predictive maintenance and repair triggers",
-  "Parts shortage alerts and resolution agents"
-],
-        "listItems" : [
-  "Deploy pre-built agents for scheduling, procurement, or after-sales service",
-  "Leverage partners like PayPal, WRITER, and Box for agentic workflows",
-  "Share innovations across the industry for faster adoption"
-],
-        "agentforceContent" : [
-  "Agentforce 3.0 is powered by Salesforce’s advanced Atlas Reasoning Engine, bringing a new level of intelligence and agility to this critical function. By leveraging real-time data enrichment from Data Cloud, AI agents can continuously monitor production data, spot anomalies, and detect quality deviations as they happen.",
-  "Through AI-powered plan generation and refinement, the system can not only identify issues but also recommend actionable design changes or procedural adjustments to improve outcomes.",
-  "Moreover, with Retrieval-Augmented Generation (RAG) and inline citations, every insight an agent delivers is traceable and transparent—an essential feature for regulated environments. The result is a smarter, more proactive approach to quality and compliance that reduces rework, ensures audit-readiness, and accelerates issue resolution.",
-  "With multilingual capabilities and FedRAMP High certification, Agentforce 3.0 is built to meet the needs of global manufacturers, including those operating in highly regulated or government-linked environments, offering a secure, scalable, and intelligent solution for modern automotive quality management."
-],
-
-        "integrationPoints" : [
-  {
-    "title": "Seamless API Integration",
-    "desc": "Instantly convert manufacturing APIs into agent-compatible services via MuleSoft."
-  },
-  {
-    "title": "Custom Tool Connections",
-    "desc": "Use Heroku AppLink to securely expose custom applications like CAD systems or inventory tracking platforms."
-  },
-  {
-    "title": "Secure Collaboration in Slack",
-    "desc": "Let agents interact with production updates, quality reports, or shift schedules within Slack, without breaching compliance or governance rules."
-  }
-],
-
-        "commandList" : [
-  {
-    "title": "Live Monitoring of Production Agents",
-    "desc": "Get real-time alerts when an agent controlling robotic assembly lines faces anomalies."
-  },
-  {
-    "title": "Performance Optimization",
-    "desc": "Identify bottlenecks, track error rates, and ensure your plant runs at maximum efficiency."
-  },
-  {
-    "title": "Cross-Team Transparency",
-    "desc": "View human and AI activity side-by-side, enabling coordinated efforts between maintenance teams and digital agents."
-  }
-],
-    "blogs" : [
-    {
-        "id": 1,
-        "image": "/images/blog/blog-1.webp",
-        "category": "Salesforce Agentforce",
-        "industry": "Generic",
-        "date": "30 Sept 2024",
-        "url": "how-salesforce-agentforce-actually-works",
-        "title": "How Salesforce Agentforce Actually Works",
-        "description":"Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
-    },
-  
-    {
-        "id": 3,
-        "image": "/images/blog/blog-3.webp",
-        "category": "Salesforce Agentforce",
-        "industry": "Generic",
-        "date": "28 Oct 2024",
-        "title":
-            "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-        "description":
-            "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
-    },
-    {
-        "id": 4,
-        "image": "/images/blog/blog-4.webp",
-        "category": "Salesforce Agentforce",
-        "industry": "Generic",
-        "date": "25 Nov 2024",
-        "title":
-            "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-        "description":
-            "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
-    },
-    {
-        "id": 5,
-        "image": "/images/blog/blog-5.webp",
-        "category": "SAP SuccessFactors",
-        "industry": "Human Resources",
-        "date": "24 Dec 2024",
-        "title":
-            "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-        "description":
-            "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools."
-    },
-    {
-        "id": 6,
-        "image": "/images/blog/blog-6.webp",
-        "category": "Cloud Green Technology",
-        "industry": "Agriculture",
-        "date": "17 Sept 2024",
-        "title":
-            "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-        "description":
-            "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
-    },
-    {
-        "id": 7,
-        "image": "/images/blog/blog-7.webp",
-        "category": "SAP SuccessFactors",
-        "industry": "Human Resources",
-        "date": "29 Oct 2024",
-        "title": "SAP SuccessFactors Performance and Goal Management",
-        "description":
-            "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
-    }
-
-],
-"faqs" : [
-        {
-            "question": "1. What is Agentforce for Automotive?",
-            "answer": [
-                "Agentforce for Automotive is Salesforce’s AI-powered solution tailored for automotive manufacturers. It automates and optimizes key workflows across production, supply chain, quality, and compliance using Agentforce 3.0."
-            ]
-        },
-        {
-            "question": "2. What makes Agentforce 3.0 valuable for automotive manufacturers?",
-            "answer": [
-                "Agentforce 3.0 brings intelligent automation to every part of the automotive factory floor. It offers:",
-                [
-                    "Real-time operational visibility",
-                    "Smart agent coordination across teams",
-                    "Predictive insights and faster decision-making",
-                    "Prebuilt industry workflows for quicker deployment"
+        "faq": "FAQs: Agentforce for AI-Powered Manufacturing Transformation",
+        "aiList": [
+            "Boost operational resilience",
+            "Speed up innovation cycles",
+            "Ensure compliance across geographies",
+            "Deliver better experiences across the vehicle lifecycle"
+        ],
+        "useCaseList": [
+            "Automated vehicle inspection summaries",
+            "Digital twin coordination",
+            "Predictive maintenance and repair triggers",
+            "Parts shortage alerts and resolution agents"
+        ],
+        "listItems": [
+            "Deploy pre-built agents for scheduling, procurement, or after-sales service",
+            "Leverage partners like PayPal, WRITER, and Box for agentic workflows",
+            "Share innovations across the industry for faster adoption"
+        ],
+        "agentforceContent": [
+            "Agentforce 3.0 is powered by Salesforce’s advanced Atlas Reasoning Engine, bringing a new level of intelligence and agility to this critical function. By leveraging real-time data enrichment from Data Cloud, AI agents can continuously monitor production data, spot anomalies, and detect quality deviations as they happen.",
+            "Through AI-powered plan generation and refinement, the system can not only identify issues but also recommend actionable design changes or procedural adjustments to improve outcomes.",
+            "Moreover, with Retrieval-Augmented Generation (RAG) and inline citations, every insight an agent delivers is traceable and transparent—an essential feature for regulated environments. The result is a smarter, more proactive approach to quality and compliance that reduces rework, ensures audit-readiness, and accelerates issue resolution.",
+            "With multilingual capabilities and FedRAMP High certification, Agentforce 3.0 is built to meet the needs of global manufacturers, including those operating in highly regulated or government-linked environments, offering a secure, scalable, and intelligent solution for modern automotive quality management."
+        ],
+        "integrationPoints": [
+            {
+                "title": "Seamless API Integration",
+                "desc": "Instantly convert manufacturing APIs into agent-compatible services via MuleSoft."
+            },
+            {
+                "title": "Custom Tool Connections",
+                "desc": "Use Heroku AppLink to securely expose custom applications like CAD systems or inventory tracking platforms."
+            },
+            {
+                "title": "Secure Collaboration in Slack",
+                "desc": "Let agents interact with production updates, quality reports, or shift schedules within Slack, without breaching compliance or governance rules."
+            }
+        ],
+        "commandList": [
+            {
+                "title": "Live Monitoring of Production Agents",
+                "desc": "Get real-time alerts when an agent controlling robotic assembly lines faces anomalies."
+            },
+            {
+                "title": "Performance Optimization",
+                "desc": "Identify bottlenecks, track error rates, and ensure your plant runs at maximum efficiency."
+            },
+            {
+                "title": "Cross-Team Transparency",
+                "desc": "View human and AI activity side-by-side, enabling coordinated efforts between maintenance teams and digital agents."
+            }
+        ],
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "How Salesforce Agentforce Actually Works",
+                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "28 Oct 2024",
+                "title": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
+                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
+                "description": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Human Resources",
+                "date": "24 Dec 2024",
+                "title": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
+                "description": "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Cloud Green Technology",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Human Resources",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Performance and Goal Management",
+                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "1. What is Agentforce for Automotive?",
+                "answer": [
+                    "Agentforce for Automotive is Salesforce’s AI-powered solution tailored for automotive manufacturers. It automates and optimizes key workflows across production, supply chain, quality, and compliance using Agentforce 3.0."
                 ]
-            ]
-        },
-        {
-            "question": "3. How does Agentforce integrate with existing automotive systems?",
-            "answer": [
-                "Agentforce for automotive integrates easily with legacy systems. It connects to ERP, MES, PLM, and IoT platforms using:",
-                [
-                    "Model Context Protocol (MCP)",
-                    "MuleSoft for API integration",
-                    "Heroku AppLink for custom tool connectivity"
+            },
+            {
+                "question": "2. What makes Agentforce 3.0 valuable for automotive manufacturers?",
+                "answer": [
+                    "Agentforce 3.0 brings intelligent automation to every part of the automotive factory floor. It offers:",
+                    [
+                        "Real-time operational visibility",
+                        "Smart agent coordination across teams",
+                        "Predictive insights and faster decision-making",
+                        "Prebuilt industry workflows for quicker deployment"
+                    ]
                 ]
-            ]
-        },
-        {
-            "question": "4. What use cases exist for Agentforce in automotive?",
-            "answer": [
-                "Top use cases of Agentforce for automotive include:",
-                [
-                    "Automated inspection summaries",
-                    "Predictive maintenance scheduling",
-                    "Defect and anomaly detection",
-                    "Intelligent service appointment agents",
-                    "Warranty claims validation and processing"
+            },
+            {
+                "question": "3. How does Agentforce integrate with existing automotive systems?",
+                "answer": [
+                    "Agentforce for automotive integrates easily with legacy systems. It connects to ERP, MES, PLM, and IoT platforms using:",
+                    [
+                        "Model Context Protocol (MCP)",
+                        "MuleSoft for API integration",
+                        "Heroku AppLink for custom tool connectivity"
+                    ]
                 ]
-            ]
-        },
-        {
-            "question": "5. What is the future of AI in automotive?",
-            "answer": [
-                "AI will revolutionize the automotive industry across operations and experiences. Key trends include:",
-                [
-                    "Smart factory automation with predictive quality checks",
-                    "Autonomous driving systems powered by real-time data",
-                    "Adaptive supply chains with AI-driven logistics",
-                    "Personalized in-vehicle features using generative AI",
-                    "AI-powered diagnostics and maintenance"
+            },
+            {
+                "question": "4. What use cases exist for Agentforce in automotive?",
+                "answer": [
+                    "Top use cases of Agentforce for automotive include:",
+                    [
+                        "Automated inspection summaries",
+                        "Predictive maintenance scheduling",
+                        "Defect and anomaly detection",
+                        "Intelligent service appointment agents",
+                        "Warranty claims validation and processing"
+                    ]
                 ]
-            ]
-        }
-    ],
-    "features" : [
-        {
-            "title": "Automated vehicle servicing scheduling agents",
-            "description":
-                "that proactively reach out to customers, suggest service appointments based on usage patterns or diagnostics data, and coordinate bookings with available technicians."
-        },
-        {
-            "title": "Intelligent warranty claims validation agents",
-            "description":
-                "that analyze repair data, service history, and contract terms to instantly approve or escalate claims."
-        },
-        {
-            "title": "Real-time logistics updates and incident reporting agents",
-            "description":
-                "that track parts shipments, detect delays or disruptions across the supply chain, and trigger automated workflows to reroute orders or notify relevant teams."
-        }
-    ],
-    "featuresData" : [
-        {
-            "icon": "/images/blog/realtime.webp",
-            "title": "Real-time operational visibility",
-            "description":
-                "lets factory managers monitor performance metrics, machine statuses, and agent activity from a centralized Command Center, helping to prevent disruptions before they escalate."
-        },
-        {
-            "icon": "/images/blog/ai.webp",
-            "title": "AI-powered agent collaboration across systems",
-            "description":
-                "allows different parts of the manufacturing workflow—design, production, logistics, and services to work together seamlessly through intelligent agents that act as digital team members, not just taskbots."
-        },
-        {
-            "icon": "/images/blog/faster.webp",
-            "title": "Faster diagnostics and resolution of production issues",
-            "description":
-                "are enabled by agents that can trace faults across systems, recommend fixes, and even initiate workflows to schedule maintenance or reroute tasks, thereby minimizing downtime."
-        },
-        {
-            "icon": "/images/blog/better.webp",
-            "title": "Better quality control and compliance tracking",
-            "description":
-                "are accomplished through smart agents that flag deviations, analyze defect patterns, and ensure every product meets regulatory and internal standards, with audit trails and AI-driven insights."
-        },
-        {
-            "icon": "/images/blog/deeper.webp",
-            "title": "Deeper integration with supply chain and customer systems",
-            "description":
-                "lets automotive OEMs and suppliers connect the dots across procurement, warehousing, shipping, and even after-sales service, making operations more agile, transparent, and resilient."
-        }
-    ]
-  },
-  "aiPowerBlog":{
+            },
+            {
+                "question": "5. What is the future of AI in automotive?",
+                "answer": [
+                    "AI will revolutionize the automotive industry across operations and experiences. Key trends include:",
+                    [
+                        "Smart factory automation with predictive quality checks",
+                        "Autonomous driving systems powered by real-time data",
+                        "Adaptive supply chains with AI-driven logistics",
+                        "Personalized in-vehicle features using generative AI",
+                        "AI-powered diagnostics and maintenance"
+                    ]
+                ]
+            }
+        ],
+        "features": [
+            {
+                "title": "Automated vehicle servicing scheduling agents",
+                "description": "that proactively reach out to customers, suggest service appointments based on usage patterns or diagnostics data, and coordinate bookings with available technicians."
+            },
+            {
+                "title": "Intelligent warranty claims validation agents",
+                "description": "that analyze repair data, service history, and contract terms to instantly approve or escalate claims."
+            },
+            {
+                "title": "Real-time logistics updates and incident reporting agents",
+                "description": "that track parts shipments, detect delays or disruptions across the supply chain, and trigger automated workflows to reroute orders or notify relevant teams."
+            }
+        ],
+        "featuresData": [
+            {
+                "icon": "/images/blog/realtime.webp",
+                "title": "Real-time operational visibility",
+                "description": "lets factory managers monitor performance metrics, machine statuses, and agent activity from a centralized Command Center, helping to prevent disruptions before they escalate."
+            },
+            {
+                "icon": "/images/blog/ai.webp",
+                "title": "AI-powered agent collaboration across systems",
+                "description": "allows different parts of the manufacturing workflow—design, production, logistics, and services to work together seamlessly through intelligent agents that act as digital team members, not just taskbots."
+            },
+            {
+                "icon": "/images/blog/faster.webp",
+                "title": "Faster diagnostics and resolution of production issues",
+                "description": "are enabled by agents that can trace faults across systems, recommend fixes, and even initiate workflows to schedule maintenance or reroute tasks, thereby minimizing downtime."
+            },
+            {
+                "icon": "/images/blog/better.webp",
+                "title": "Better quality control and compliance tracking",
+                "description": "are accomplished through smart agents that flag deviations, analyze defect patterns, and ensure every product meets regulatory and internal standards, with audit trails and AI-driven insights."
+            },
+            {
+                "icon": "/images/blog/deeper.webp",
+                "title": "Deeper integration with supply chain and customer systems",
+                "description": "lets automotive OEMs and suppliers connect the dots across procurement, warehousing, shipping, and even after-sales service, making operations more agile, transparent, and resilient."
+            }
+        ]
+    },
+    "aiPowerBlog": {
         "artificial": "Artificial Intelligence",
         "date": "21 August 2025",
         "aiTitle": "How AI Is Powering the Sustainable Future of Our Planet",
@@ -4979,203 +4958,709 @@
         "thatDesc": " Responsible AI development is key to long-term sustainability",
         "goals": " How Can Businesses Use AI to Advance Sustainability Goals?",
         "smarter": "Take A Smarter Path to Sustainable Future with AI",
-        "faqs" : [
-    {
-      "question": "1. How is AI transforming energy management?",
-      "answer": [
-        "AI improves how we generate, store, and use energy. It predicts demand, manages smart grids, and helps optimize performance in real time. Think solar panels that adjust based on weather forecasts or buildings that auto-regulate power consumption."
-      ]
+        "faqs": [
+            {
+                "question": "1. How is AI transforming energy management?",
+                "answer": [
+                    "AI improves how we generate, store, and use energy. It predicts demand, manages smart grids, and helps optimize performance in real time. Think solar panels that adjust based on weather forecasts or buildings that auto-regulate power consumption."
+                ]
+            },
+            {
+                "question": "2. What are smart grids, and how does AI support them?",
+                "answer": [
+                    "Smart grids are energy systems that adjust dynamically based on usage and supply. AI enables them to forecast demand, balance load, detect faults, and reduce outages. The result? Cleaner energy, fewer blackouts, and better integration of renewables like wind and solar."
+                ]
+            },
+            {
+                "question": "3. Can AI help fight deforestation?",
+                "answer": [
+                    "Yes. AI analyzes satellite imagery to detect illegal logging, predicts wildfire risks using weather data, and even listens for chainsaws in remote forests. These tools enable conservationists to act more quickly and protect more land more effectively."
+                ]
+            },
+            {
+                "question": "4. Is AI being used to protect biodiversity, too?",
+                "answer": [
+                    "Absolutely. AI-powered camera traps can identify species, track migrations, and monitor endangered populations without disturbing them. It’s helping researchers protect wildlife with minimal human intrusion."
+                ]
+            },
+            {
+                "question": "5. What role does AI play in ocean conservation",
+                "answer": [
+                    "AI-guided underwater drones collect data on temperature, pH, and marine life. Algorithms track illegal fishing by flagging suspicious vessel behavior. It’s all about turning raw ocean data into insight—and action."
+                ]
+            },
+            {
+                "question": "6. Can AI predict natural disasters and climate shifts?",
+                "answer": [
+                    "Yes. AI-enhanced models predict floods, hurricanes, and rising sea levels faster and more accurately than traditional systems. That gives governments and communities the time to plan, adapt, and reduce damage."
+                ]
+            },
+            {
+                "question": "7. What are the risks of using AI for environmental goals?",
+                "answer": [
+                    "There are ethical concerns, bias in data, lack of transparency, or using AI in ways that harm local communities or ecosystems. That’s why responsible design, community involvement, and clear accountability are essential."
+                ]
+            }
+        ],
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "How Salesforce Agentforce Actually Works",
+                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "28 Oct 2024",
+                "title": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
+                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
+                "description": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Human Resources",
+                "date": "24 Dec 2024",
+                "title": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
+                "description": "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Cloud Green Technology",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Human Resources",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Performance and Goal Management",
+                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
+            }
+        ],
+        "climatePara": [
+            "AI is not a silver bullet for climate change. But it is a powerful accelerant, making solutions faster, smarter, and more scalable. Whether it’s predicting natural disasters, improving energy use, or protecting endangered ecosystems, the technology is proving its value in nearly every corner of the sustainability conversation.",
+            "At Rialtes, we help organizations develop AI systems that make sustainability practical. From concept to execution, we partner with enterprises to apply AI ethically and effectively, turning climate ambition into action.",
+            "Talk to our experts to learn how AI can unlock your sustainability potential, drive measurable impact, and help build a better future for both business and the planet."
+        ],
+        "sustainabilityPara": [
+            "Consumers want cleaner products. Regulators are tightening the screws. Investors are rewarding companies with strong ESG (Environmental, Social, Governance) performance. And AI is helping businesses stay ahead of all three.",
+            "Companies use AI to cut waste across the supply chain, monitor carbon emissions in real time, and automate reporting processes for ESG compliance. AI tools can optimize delivery routes, flag inefficient production processes, and even predict equipment failures before they lead to resource loss.",
+            "Take manufacturing, for example. AI models can identify where raw materials get wasted, suggest energy-saving opportunities, or simulate different scenarios to make operations more sustainable without sacrificing profitability. In agriculture, retailers are using AI to reduce food waste by forecasting demand more accurately, improving shelf-life management, and minimizing overproduction.",
+            "Ultimately, businesses that embrace AI not just for efficiency but for environmental accountability will be the ones shaping the future economy."
+        ],
+        "thatList": [
+            "Using transparent, explainable models",
+            "Involving local communities in tech design",
+            "Ensuring data privacy and responsible use",
+            "Avoiding bias or short-sighted optimization that harms ecosystems"
+        ],
+        "trendsList": [
+            "AI-enhanced models predict hurricanes, floods, and sea-level rise faster.",
+            "Governments use these insights to issue early warnings and plan resilient infrastructure.",
+            "Resource allocation becomes more targeted in drought- and flood-prone areas."
+        ],
+        "oceanParagraphs": [
+            "Oceans cover more than 70% of our planet, regulate its temperature, and support entire ecosystems. But their health is declining fast due to pollution, illegal fishing, rising temperatures, and acidification. AI is helping scientists and conservationists dive into these problems with tools that are both precise and scalable.",
+            "Autonomous underwater vehicles (AUVs), guided by AI, can now monitor changes in ocean temperatures, salinity, and acidity over time. These smart machines scan marine environments without disturbing them, collecting valuable data about coral reefs, fish populations, and plankton movement. Combined with AI-powered sensors, this data helps researchers understand how climate change is affecting life beneath the surface.",
+            "One of the most practical applications of AI in ocean conservation is tackling illegal fishing. Predictive algorithms analyze vessel routes, movement patterns, and speed anomalies to detect suspicious activity. When a ship veers off-course near a protected zone or displays erratic behavior, AI systems flag it in real time, giving coast guards and authorities the heads-up they need to act fast."
+        ],
+        "oceanUseCases": [
+            {
+                "title": "Autonomous underwater vehicles (AUVs):",
+                "desc": "Monitor temperature, acidity, and marine activity."
+            },
+            {
+                "title": "Smart sensors:",
+                "desc": "Track ocean health indicators like coral bleaching and oxygen levels."
+            },
+            {
+                "title": "Illegal fishing detection:",
+                "desc": "Predictive models analyze vessel routes to flag suspicious activity and alert authorities."
+            }
+        ],
+        "forestUseCases": [
+            {
+                "title": "Satellite analysis:",
+                "desc": "AI processes imagery to detect deforestation in real time."
+            },
+            {
+                "title": "Wildfire prediction:",
+                "desc": "Deep learning models use weather and historical fire data to predict high-risk areas."
+            },
+            {
+                "title": "Acoustic monitoring:",
+                "desc": "AI can detect chainsaws and trucks in remote forests using sound, even before satellite images catch changes."
+            }
+        ],
+        "farmingContent": [
+            "Farming is moving beyond guesswork. With climate variability and increasing pressure on food systems, agriculture needs to be not just productive but precise, and that’s exactly what AI enables.",
+            "By combining data from sensors, drones, and weather stations, AI models help farmers understand soil conditions, plant health, and optimal watering times. This precision agriculture approach leads to higher yields while conserving water and reducing reliance on chemical fertilizers and pesticides. It’s more food with less footprint.",
+            "But AI isn’t just supporting growing crops, it’s also helping save species. Conservationists are now using AI-powered camera traps that automatically identify animals in their habitats. Whether it’s tracking the migration of elephants or monitoring nesting sites for endangered birds, AI gives researchers detailed insights without disturbing the ecosystem.",
+            "This dual role, which enhances food security and preserves biodiversity, shows how powerful AI can be when applied thoughtfully to the natural world."
+        ],
+        "smartList": [
+            {
+                "title": "Real-time optimization:",
+                "desc": "AI forecasts power usage and adjusts distribution instantly."
+            },
+            {
+                "title": "Advanced Metering Infrastructure (AMI):",
+                "desc": "Gives consumers and providers detailed, real-time data to control usage and costs."
+            },
+            {
+                "title": "Predictive maintenance:",
+                "desc": "AI detects faults and anomalies early, reducing downtime and improving reliability."
+            }
+        ],
+        "energyContent": [
+            "AI is transforming how we produce, distribute, and consume energy, and not in some distant future. It's already transpiring. Take energy forecasting. Traditional systems often rely on static models and historical averages, which aren’t good at handling volatility, especially with renewable sources like solar and wind. AI, on the other hand, can ingest real-time weather data, grid performance, and consumption patterns to make precise energy demand predictions. That means fewer blackouts, less energy waste, and better integration of renewables into national grids.",
+            "Then there’s optimization. AI can identify inefficiencies across the energy lifecycle, such as a solar farm underperforming on cloudy days or a building using more HVAC power than necessary. Companies like Google used AI to cut cooling energy in their data centers by 40%—proof that machine learning can lead to real-world efficiency gains.",
+            "Smart energy management is about control. AI empowers energy providers and consumers to respond in real-time, make informed decisions, and move toward a more sustainable and balanced energy future."
+        ]
     },
-    {
-      "question": "2. What are smart grids, and how does AI support them?",
-      "answer": [
-        "Smart grids are energy systems that adjust dynamically based on usage and supply. AI enables them to forecast demand, balance load, detect faults, and reduce outages. The result? Cleaner energy, fewer blackouts, and better integration of renewables like wind and solar."
-      ]
+    "sapPiPo": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "How Salesforce Agentforce Actually Works",
+                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "28 Oct 2024",
+                "title": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
+                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
+                "description": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Human Resources",
+                "date": "24 Dec 2024",
+                "title": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
+                "description": "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Cloud Green Technology",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Human Resources",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Performance and Goal Management",
+                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
+            }
+        ],
+        "steps": [
+            {
+                "title": "Assessment & Discovery",
+                "description": [
+                    "Inventory existing PI/PO interfaces.",
+                    "Classify by type: A2A (Application-to-Application), B2B/EDI, BPM scenarios, custom adapters.",
+                    "Identify complexity (high, medium, low) based on logic, mapping, and dependencies.",
+                    "Evaluate reusability of existing iFlows and potential use of SAP’s pre-packaged content."
+                ]
+            },
+            {
+                "title": "Blueprinting & Design",
+                "description": [
+                    "Map PI/PO interfaces to CPI equivalents.",
+                    "Define architecture leveraging BTP services like API Management, Event Mesh, and Open Connectors.",
+                    "Establish governance for interface naming conventions, error handling, and monitoring."
+                ]
+            },
+            {
+                "title": "Migration Execution",
+                "description": [
+                    "Run PI/PO and CPI interfaces simultaneously during transition. This mitigates risk by ensuring business processes remain uninterrupted while CPI integrations are validated.",
+                    "Develop and migrate interfaces in iterative sprints.",
+                    "Rebuild or re-architect where pre-built CPI content is available."
+                ]
+            },
+            {
+                "title": "Functional & Regression Testing",
+                "description": [
+                    "Conduct end-to-end functional testing for migrated interfaces.",
+                    "Perform regression testing to validate downstream impacts.",
+                    "Validate non-functional requirements such as throughput, latency, and error handling."
+                ]
+            },
+            {
+                "title": "Cutover & Go-Live",
+                "description": [
+                    "Gradually switch interfaces from PI/PO to CPI.",
+                    "Monitor live integrations with CPI’s integration monitoring dashboards.",
+                    "Decommission PI/PO systems once stability is confirmed."
+                ]
+            },
+            {
+                "title": "Continuous Optimization",
+                "description": [
+                    "Leverage analytics and dashboards in CPI for proactive monitoring.",
+                    "Adopt a continuous improvement cycle to fine-tune iFlows.",
+                    "Scale integrations by using event-driven patterns and AI-enabled error resolution."
+                ]
+            }
+        ],
+        "features1": [
+            {
+                "title": "Dual Monitoring",
+                "desc": "Keep PI/PO logs active while configuring CPI alerts during parallel runs."
+            },
+            {
+                "title": "Business SLA Alignment",
+                "desc": "Design alert thresholds around business outcomes, not just technical metrics."
+            },
+            {
+                "title": "Multi-Channel Notifications",
+                "desc": "Enable SMS, email, Slack/Teams integration for critical alerts."
+            },
+            {
+                "title": "Automated Testing Alerts",
+                "desc": "Use alerts during regression testing to validate migrated interfaces."
+            },
+            {
+                "title": "Continuous Reporting",
+                "desc": "Incorporate Early Watch into monthly governance cycles."
+            }
+        ],
+        "cards": [
+            {
+                "title": "Strategic Alignment",
+                "description": "SAP has already announced end-of-maintenance timelines for PI/PO. Customers will need to transition to cloud integration to stay aligned with SAP’s roadmap."
+            },
+            {
+                "title": "Unified Platform",
+                "description": "SAP BTP brings together data, analytics, AI, and integration in one cohesive environment. CPI is the integration backbone that enables this synergy."
+            },
+            {
+                "title": "Future-Proofing",
+                "description": "By moving to CPI, enterprises prepare themselves for innovations such as AI-enabled integration monitoring, event-driven architectures, and hyperautomation."
+            }
+        ],
+        "items": [
+            "Future-Proofing Stay aligned with SAP’s roadmap.",
+            "Agility Faster connections with SAP and non-SAP apps.",
+            "Reduced Risk Parallel migration and intelligent alerts minimize disruption.",
+            "Lower TCO No infrastructure or heavy upgrade cycles.",
+            "Business Confidence KPI-driven monitoring ensures processes run without surprises."
+        ],
+        "monitoringFeatures": [
+            "Tracks interface throughput, adapter performance, and system resource usage.",
+            "Provides predictive reports highlighting potential bottlenecks.",
+            "Generates recommendations for optimization (e.g., load balancing, iFlow redesign).",
+            "Integrates with SAP Cloud ALM or Solution Manager for end-to-end visibility."
+        ],
+        "earlyWatchAlerts": [
+            "Early Watch predicts issues (e.g., rising memory usage).",
+            "Alerts instantly notify when SLA breaches or disruptions occur.",
+            "AI/ML-driven enhancements (with Joule) will increasingly automate remediation."
+        ],
+        "faqs": [
+            {
+                "question": "1. Why should we move from PI/PO to CPI?",
+                "answer": [
+                    "PI/PO was designed for an on-premise era and has limitations in cloud-first architectures. CPI is cloud-native, scalable, API-first, and continuously updated."
+                ]
+            },
+            {
+                "question": "2. Is CPI just a technical upgrade?",
+                "answer": [
+                    "No. Moving to CPI is a strategic shift toward a cloud-enabled, intelligent enterprise. It allows you to optimize business processes, reduce risk, and leverage AI-driven monitoring."
+                ]
+            },
+            {
+                "question": "3. How does CPI support hybrid landscapes?",
+                "answer": [
+                    "CPI connects both SAP cloud solutions (S/4HANA Cloud, SuccessFactors, Ariba, Concur) and on-premise systems, enabling seamless integration across all enterprise applications."
+                ]
+            },
+            {
+                "question": "4. How does Agentforce improve case resolution in manufacturing service centers?",
+                "answer": [
+                    "Cloud-native flexibility with elastic scaling",
+                    "Pre-built content and APIs for faster deployment",
+                    "API-first architecture for secure, manageable integrations",
+                    "AI-enabled monitoring and predictive alerts",
+                    "Lower TCO by eliminating heavy infrastructure and upgrade cycles"
+                ]
+            },
+            {
+                "question": "5. How can enterprises migrate without disrupting business processes?",
+                "answer": [
+                    "Parallel migration strategies allow PI/PO and CPI interfaces to run simultaneously. Iterative migration, testing, and monitoring ensure business continuity during the transition."
+                ]
+            },
+            {
+                "question": "6. What role do Early Watch Systems (EWS) and alerts play?",
+                "answer": [
+                    "EWS provides predictive diagnostics for bottlenecks, while multi-layered alerts notify teams of SLA breaches, system failures, or business-impacting disruptions, enabling proactive management instead of reactive firefighting."
+                ]
+            },
+            {
+                "question": "7. How does CPI support KPI tracking and business confidence?",
+                "answer": [
+                    "CPI dashboards track live performance against SLAs, process KPIs, and compliance metrics. Alerts tied to business outcomes ensure enterprises can act immediately when deviations occur."
+                ]
+            }
+        ],
+        "blogTopic": "SAP",
+        "piPoServedData": [
+            {
+                "title": "Cloud-Native Flexibility:",
+                "desc": "CPI is hosted on BTP, enabling elastic scaling and reduced infrastructure overhead."
+            },
+            {
+                "title": "Pre-Built Content:",
+                "desc": "CPI provides over 3,000 pre-packaged integration flows and APIs for SAP and non-SAP applications."
+            },
+            {
+                "title": "Hybrid Connectivity:",
+                "desc": "Connects SAP cloud solutions (S/4HANA Cloud, SuccessFactors, Ariba, Concur) as well as on-premise systems."
+            },
+            {
+                "title": "API-First Architecture:",
+                "desc": "Enables enterprises to expose, manage, and secure APIs seamlessly."
+            },
+            {
+                "title": "Continuous Innovation:",
+                "desc": "Frequent feature updates, including AI-driven monitoring, event mesh integration, and improved security frameworks."
+            },
+            {
+                "title": "Lower TCO:",
+                "desc": "Reduces hardware, maintenance, and lifecycle management costs compared to on-premise PI/PO."
+            }
+        ],
+        "multilayerData": [
+            {
+                "title": "iFlow Alerts:",
+                "desc": "Detect failures with payload and error classification."
+            },
+            {
+                "title": "Runtime & Connectivity Alerts:",
+                "desc": "Flag adapter failures or endpoint unavailability."
+            },
+            {
+                "title": "Business-Centric Alerts:",
+                "desc": "Trigger notifications tied to SLAs and KPIs (e.g., “95% of purchase orders processed in 5 minutes”)."
+            },
+            {
+                "title": "ITSM Integration:",
+                "desc": "Connect to ServiceNow, Jira, or SAP Solution Manager for automatic ticket creation."
+            }
+        ],
+        "blogTitle": "SAP PI PO to SAP CPI Migration: A Complete Guide",
+        "blogMainData": "Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation. For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes. But as organizations shift to cloud-first strategies, the cracks in PI/PO are showing.",
+        "blogMainData1": "The path forward is clear: SAP Integration Suite on SAP Business Technology Platform (BTP), often called",
+        "blogMainDataLink": "Cloud Platform Integration (CPI)",
+        "blogMainData2": "Moving from PI/PO to CPI isn’t just modernizing middleware but moving toward building an intelligent, cloud-ready enterprise.",
+        "whySapTitle": "Why SAP CPI Over PI/PO?",
+        "piPoServedDesc": "While PI/PO served its purpose well, it was designed in an on-premise era. CPI offers a modern, cloud-native, and scalable alternative with distinct advantages:",
+        "futureOfSapTitle": "The Future of SAP Integration: BTP and CPI at the Core",
+        "futureOfSapDesc": "SAP’s roadmap follows a cloud-first strategy. With BTP at the heart of its strategy, CPI is not just the successor of PI/PO—it is the future of enterprise integration in the SAP ecosystem.",
+        "migrationStrTitle": "Migration Strategy: From PI/PO to CPI",
+        "migrationStrDesc": "Migrating integrations requires a structured, phased, and risk-mitigated approach. At Rialtes, we recommend a proven methodology that ensures business continuity while accelerating transformation.",
+        "earlyWatchTitle": "Early Watch Systems and Alert Mechanisms in SAP CPI",
+        "earlyWatchDesc": "A migration is only as successful as the monitoring and governance mechanisms supporting it. Unlike PI/PO, where monitoring was largely reactive, CPI introduces Early Watch Systems (EWS) and intelligent alerting that make monitoring predictive, automated, and business-centric.",
+        "proactiveTitle": "Early Watch: Proactive Diagnostic",
+        "multilayerTitle": "Multi-Layered Alert Mechanisms",
+        "intelligentTitle": "Intelligent Monitoring Synergy",
+        "intelligentDesc": "When combined, Early Watch and Alerts ensure both foresight and instant visibility. It provides a shift from firefighting to proactive, business-driven assurance.",
+        "bestPracticesTitle": "Best Practices for Using Alerts During Migration",
+        "upcomingTitle": "Upcoming Features of SAP CPI",
+        "upcomingDesc": "SAP continues to invest heavily in CPI, and enterprises migrating now will benefit from its innovation roadmap",
+        "upcomingData": [
+            {
+                "text": "AI-Powered Monitoring & Error Resolution Predictive failure detection and auto-remediation.",
+                "bg": "bg-[#C6E7FF]",
+                "padding": "4xl:p-5 xl:p-5 p-8",
+                "col": "xl:col-span-3 col-span-12 md:col-span-2",
+                "transform": ""
+            },
+            {
+                "text": "Event Mesh Expansion Stronger support for event-driven architectures.",
+                "bg": "bg-[#EDEDED]",
+                "padding": "4xl:p-5 xl:p-5 p-8",
+                "col": "xl:col-span-3 col-span-12 md:col-span-2",
+                "transform": "md:translate-y-14"
+            },
+            {
+                "text": "Low-Code/No-Code iFlow Design Empowering business users.",
+                "bg": "bg-[#C6E7FF]",
+                "padding": "4xl:p-6 xl:p-5 p-8",
+                "col": "xl:col-span-3 col-span-12 md:col-span-2",
+                "transform": "xl:translate-y-32 md:mt-16"
+            },
+            {
+                "text": "Multi-Cloud Flexibility Deployment across hyperscalers for compliance and performance.",
+                "bg": "bg-[#EDEDED]",
+                "padding": "p-7",
+                "col": "xl:col-span-3 col-span-12 md:col-span-2",
+                "transform": "xl:translate-y-8"
+            },
+            {
+                "text": "Enhanced Security Native zero-trust and advanced encryption.",
+                "bg": "bg-[#C6E7FF]",
+                "padding": "p-10",
+                "col": "xl:col-span-3 col-span-12 md:col-span-2",
+                "transform": "xl:translate-y-[6.5rem]"
+            }
+        ],
+        "benefitsTitle": "What Are The Benefits for SAP Customers Migrating to CPI?",
+        "howCanHelpTitle": "How can we help with SAP Cloud Platform Integration?",
+        "howCanHelpDesc": "Migrating from SAP PI/PO to SAP BTP Integration Suite is not just limited to re-platforming interfaces; it involves adopting a modern, cloud-native integration backbone that is intelligent, proactive, and ready for the future.",
+        "howCanHelpDesc2": "By implementing parallel migration strategies, rigorous functional testing, and intelligent monitoring with the support of Early Watch and alerts, organizations can ensure a smooth transition while maintaining governance, business continuity, and long-term scalability.",
+        "howCanHelpDesc3": "Rialtes helps enterprises navigate this journey. Our expertise ensures that every integration is optimized, every risk is mitigated, and every system is ready to leverage the full potential of",
+        "howCanHelpDescLink": "CPI",
+        "faqTitle": "Frequently Asked Questions (FAQs)"
     },
-    {
-      "question": "3. Can AI help fight deforestation?",
-      "answer": [
-        "Yes. AI analyzes satellite imagery to detect illegal logging, predicts wildfire risks using weather data, and even listens for chainsaws in remote forests. These tools enable conservationists to act more quickly and protect more land more effectively."
-      ]
-    },
-    {
-      "question": "4. Is AI being used to protect biodiversity, too?",
-      "answer": [
-        "Absolutely. AI-powered camera traps can identify species, track migrations, and monitor endangered populations without disturbing them. It’s helping researchers protect wildlife with minimal human intrusion."
-      ]
-    },
-    {
-      "question": "5. What role does AI play in ocean conservation",
-      "answer": [
-        "AI-guided underwater drones collect data on temperature, pH, and marine life. Algorithms track illegal fishing by flagging suspicious vessel behavior. It’s all about turning raw ocean data into insight—and action."
-      ]
-    },
-    {
-      "question": "6. Can AI predict natural disasters and climate shifts?",
-      "answer": [
-        "Yes. AI-enhanced models predict floods, hurricanes, and rising sea levels faster and more accurately than traditional systems. That gives governments and communities the time to plan, adapt, and reduce damage."
-      ]
-    },
-    {
-      "question": "7. What are the risks of using AI for environmental goals?",
-      "answer": [
-        "There are ethical concerns, bias in data, lack of transparency, or using AI in ways that harm local communities or ecosystems. That’s why responsible design, community involvement, and clear accountability are essential."
-      ]
+    "s4HanaSapALM": {
+        "blogs": [
+            {
+                "id": 1,
+                "image": "/images/blog/blog-1.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "30 Sept 2024",
+                "url": "how-salesforce-agentforce-actually-works",
+                "title": "How Salesforce Agentforce Actually Works",
+                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
+            },
+            {
+                "id": 3,
+                "image": "/images/blog/blog-3.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "28 Oct 2024",
+                "title": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
+                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
+            },
+            {
+                "id": 4,
+                "image": "/images/blog/blog-4.webp",
+                "category": "Salesforce Agentforce",
+                "industry": "Generic",
+                "date": "25 Nov 2024",
+                "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
+                "description": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
+            },
+            {
+                "id": 5,
+                "image": "/images/blog/blog-5.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Human Resources",
+                "date": "24 Dec 2024",
+                "title": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
+                "description": "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools."
+            },
+            {
+                "id": 6,
+                "image": "/images/blog/blog-6.webp",
+                "category": "Cloud Green Technology",
+                "industry": "Agriculture",
+                "date": "17 Sept 2024",
+                "title": "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
+            },
+            {
+                "id": 7,
+                "image": "/images/blog/blog-7.webp",
+                "category": "SAP SuccessFactors",
+                "industry": "Human Resources",
+                "date": "29 Oct 2024",
+                "title": "SAP SuccessFactors Performance and Goal Management",
+                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
+            }
+        ],
+        "mainData": [
+            "Digital transformation programs such as an SAP S/4HANA implementation are not simply IT projects but complex business reinvention initiatives that touch every process, role, and technology in the enterprise. For such large-scale transformations, two critical success factors stand out:",
+            "First, the ability to design and optimize business processes for the future state. And second, the ability to govern execution, track KPIs, and maintain alignment across every phase of the program.",
+            "This is precisely where the pairing of SAP Signavio Business Process Transformation Suite with SAP Cloud ALM becomes an important aspect."
+        ],
+        "whatDoesData": [
+            {
+                "title": "SAP Signavio",
+                "desc": "Provides <strong>end-to-end visibility</strong> of business processes through process mining, modeling, and collaboration. It ensures that organizations have clarity on the “as-is” processes and the “to-be” target state, which aligns with SAP S/4HANA best practices."
+            },
+            {
+                "title": "SAP Cloud ALM (Application Lifecycle Management)",
+                "desc": "Provides the <strong>program governance layer</strong>, enabling enterprises to manage requirements, configurations, testing, deployments, and operations within a centralized digital backbone. It ensures traceability from business objectives to system execution."
+            }
+        ],
+        "goverenanceData": [
+            {
+                "title": "At the design level, SAP Signavio sets the foundation for governance:",
+                "list": [
+                    "Provides clear visibility into existing and proposed processes",
+                    "Aligns stakeholders around standardized “to-be” processes",
+                    "Promotes collaboration between business and IT, reducing silos"
+                ]
+            },
+            {
+                "title": "At the execution level, SAP Cloud ALM enforces governance:",
+                "list": [
+                    "Captures, approves, and links requirements directly to processes",
+                    "Centralizes all configurations, developments, and test cases within one lifecycle management platform",
+                    "Manages change requests and enhancements through controlled workflows, preventing undocumented deviations"
+                ]
+            }
+        ],
+        "traceabilityData": [
+            {
+                "title": "Signavio provides the process blueprint :",
+                "desc": "Every process, KPI, and dependency is documented and modeled."
+            },
+            {
+                "title": "Cloud ALM operationalizes the blueprint :",
+                "desc": "Each process in Signavio is linked to project tasks, configuration objects, and testing activities in Cloud ALM."
+            }
+        ],
+        "traceabilityData2": [
+            "Every business requirement has a corresponding system configuration.",
+            "Every process design decision can be traced to an implemented solution.",
+            "Every test case validates a defined business outcome."
+        ],
+        "lifecycleData": [
+            {
+                "title": "Discovery & Assessment",
+                "list": [
+                    "Signavio mines processes and identifies inefficiencies.",
+                    "Cloud ALM documents requirements and prepares governance frameworks."
+                ]
+            },
+            {
+                "title": "Design",
+                "list": [
+                    "Signavio models “to-be” processes aligned with SAP Best Practices.",
+                    "Cloud ALM ensures each process is mapped to executable requirements."
+                ]
+            },
+            {
+                "title": "Build & Test",
+                "list": [
+                    "Cloud ALM governs development tasks and testing cycles.",
+                    "Signavio ensures all changes align with business outcomes."
+                ]
+            },
+            {
+                "title": "Deploy",
+                "list": [
+                    "Cloud ALM manages cutover plans and tracks deployment status.",
+                    "Signavio ensures process documentation is updated for user adoption."
+                ]
+            },
+            {
+                "title": "Run & Optimize",
+                "list": [
+                    "Cloud ALM tracks live system KPIs and operations.",
+                    "Signavio analyzes execution data for continuous improvement opportunities."
+                ]
+            }
+        ],
+        "faqData": [
+            {
+                "question": "Why do I need both SAP Signavio and SAP Cloud ALM?",
+                "answer": "Signavio ensures clarity and standardization at the process design level, while Cloud ALM enforces governance and traceability during execution. Together, they connect strategy to delivery—something neither tool achieves alone."
+            },
+            {
+                "question": "How does this pairing strengthen governance?",
+                "answer": "Signavio defines standardized processes and aligns stakeholders around them. Cloud ALM ensures those processes are executed as designed by governing requirements, changes, and testing. Governance moves from theory to practice."
+            },
+            {
+                "question": "What does traceability mean in an S/4HANA program, and how do these tools enable it?",
+                "answer": "Traceability is the ability to connect every business requirement and process decision to a corresponding system configuration and test case. Signavio documents the blueprint, while Cloud ALM links it to execution—creating a golden thread across the program."
+            },
+            {
+                "question": "Can these tools help us avoid scope creep and budget overruns?",
+                "answer": "Yes. By aligning business and IT around “to-be” processes (Signavio) and managing every change through controlled workflows (Cloud ALM), the pairing reduces undocumented deviations, rework, and missed deadlines."
+            },
+            {
+                "question": "How do Signavio and Cloud ALM support KPI tracking?",
+                "answer": "Signavio defines baseline and target KPIs through process mining and modeling. Cloud ALM then validates those KPIs during testing and monitors them post go-live through live dashboards—closing the loop between design and business outcomes."
+            },
+            {
+                "question": "What happens if we implement S/4HANA without Signavio and Cloud ALM?",
+                "answer": "You risk migrating inefficiencies, losing control over scope, inflating costs due to rework, and lacking measurable proof of ROI. In short, you may go live, but the transformation won’t deliver its full value."
+            },
+            {
+                "question": "Where does Rialtes add value in this journey?",
+                "answer": "Rialtes uses its Voyager+ methodology to embed Signavio and Cloud ALM into every stage of SAP Activate. This ensures process clarity, execution governance, and KPI measurement are not just set up, but sustained."
+            }
+        ],
+        "blogTopic": "SAP",
+        "blogTitle": "SAP Signavio + SAP Cloud ALM: Driving Governance, Traceability, and KPI Tracking in S/4HANA Transformations",
+        "whatDoesTitle": "What Does Each Tool Bring to the Table",
+        "whatDoesDesc": "Combined, Signavio + Cloud ALM unify business design with execution governance, bridging strategy and delivery.",
+        "governanceTitle": "Governance to Ensure Control from Strategy to Execution",
+        "governanceDesc": "Governance is one of the biggest hurdles in any S/4HANA transformation. Without it, projects quickly slip into scope creep, budget overruns, and inconsistent adoption. Strong governance needs to work on two levels—process design and execution.",
+        "governanceDesc2": "When paired, Signavio defines governance, and Cloud ALM makes sure it’s followed.",
+        "traceabilityTitle": "Traceability to Connect Processes to System Realization",
+        "traceabilityDesc": "A successful transformation demands full traceability—from the high-level business vision down to the configured transaction in S/4HANA.",
+        "traceabilityDesc2": "This creates a golden thread of traceability, ensuring that:",
+        "traceabilityDesc3": "In short, traceability minimizes risk, eliminates misalignment, and guarantees delivery of intended business value.",
+        "kpiTitle": "KPI Tracking: Measuring Transformation Impact in Real Time",
+        "kpiDesc": "One of the biggest pitfalls of ERP programs is the inability to track whether the transformation actually delivers the promised value. Signavio and Cloud ALM solve this challenge together. Signavio establishes the KPIs by using process mining and modeling to identify baseline metrics such as cycle time, compliance rate, cost efficiency, and automation levels. It then defines the future-state targets that the transformation should achieve.",
+        "kpiDesc2": "Cloud ALM takes those KPIs and measures them in action. Test execution validates whether the defined targets are achievable within the system, while operational dashboards track live adoption, process performance, and compliance after go-live. Any deviation is flagged immediately through alerts and workflows, creating a continuous measurement loop where strategy, process design, system execution, and business outcomes remain tightly connected.",
+        "lifecycleTitle": "The Program Lifecycle: End-to-End Synergy",
+        "lifecycleDesc": "Pairing SAP Signavio with SAP Cloud ALM ensures control across every phase of the transformation. The closed-loop lifecycle ensures transformations are not just delivered on time, but deliver ongoing business value.",
+        "whyMatterTitle": "Why This Matters for Enterprises",
+        "whyMatterDesc": "For large-scale organizations, the pairing of Signavio and Cloud ALM is not a “nice-to-have”; it’s a need. Complex ERP transformations carry high risks: governance lapses can derail timelines, scope creep can drain budgets, and disconnected teams can stall adoption. Signavio and Cloud ALM address these risks head-on by enforcing governance across both process design and execution. Together, they create a structured environment where every decision, requirement, and change is visible, traceable, and aligned with business goals. This governance backbone dramatically reduces the chances of misalignment and failed outcomes.",
+        "whyMatterDesc2": "Beyond risk reduction, the real power of this pairing lies in ensuring lasting value. Signavio defines the KPIs that matter, while Cloud ALM continuously tracks performance against them, so ROI is not just promised, but proven. Even after go-live, both platforms keep business and IT moving in sync, enabling organizations to innovate without losing control of compliance or efficiency. In other words, Signavio and Cloud ALM help you sustain and extend its impact.",
+        "governedTitle": "Governed, Measurable, Successful: Rialtes Guides Your S/4HANA Transformation",
+        "governedLink": "SAP S/4HANA implementations",
+        "governedDesc": "succeed not just when systems go live but when business outcomes are delivered and sustained. Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution.",
+        "governedAt": "At",
+        "rialtes": "Rialtes",
+        "governedDesc2": "we help enterprises unlock the combined power of Signavio and Cloud ALM, transforming S/4HANA projects into controlled, transparent, and measurable business transformation programs. With our ",
+        "sap": "SAP consulting expertise",
+        "governedDesc3": "leaders gain the confidence that every decision, every configuration, and every KPI is connected to enterprise value.",
+        "faqTitle": "FAQs: SAP Signavio + SAP Cloud ALM in S/4HANA Transformations"
     }
-  ],
-      "blogs" : [
-  {
-    "id": 1,
-    "image": "/images/blog/blog-1.webp",
-    "category": "Salesforce Agentforce",
-    "industry": "Generic",
-    "date": "30 Sept 2024",
-    "url": "how-salesforce-agentforce-actually-works",
-    "title": "How Salesforce Agentforce Actually Works",
-    "description":
-      "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
-  },
-
-  {
-    "id": 3,
-    "image": "/images/blog/blog-3.webp",
-    "category": "Salesforce Agentforce",
-    "industry": "Generic",
-    "date": "28 Oct 2024",
-    "title":
-      "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-    "description":
-      "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
-  },
-  {
-    "id": 4,
-    "image": "/images/blog/blog-4.webp",
-    "category": "Salesforce Agentforce",
-    "industry": "Generic",
-    "date": "25 Nov 2024",
-    "title":
-      "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-    "description":
-      "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
-  },
-  {
-    "id": 5,
-    "image": "/images/blog/blog-5.webp",
-    "category": "SAP SuccessFactors",
-    "industry": "Human Resources",
-    "date": "24 Dec 2024",
-    "title":
-      "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-    "description":
-      "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools."
-  },
-  {
-    "id": 6,
-    "image": "/images/blog/blog-6.webp",
-    "category": "Cloud Green Technology",
-    "industry": "Agriculture",
-    "date": "17 Sept 2024",
-    "title":
-      "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    "description":
-      "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
-  },
-  {
-    "id": 7,
-    "image": "/images/blog/blog-7.webp",
-    "category": "SAP SuccessFactors",
-    "industry": "Human Resources",
-    "date": "29 Oct 2024",
-    "title": "SAP SuccessFactors Performance and Goal Management",
-    "description":
-      "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
-  }
-],
-        "climatePara" : [
-  "AI is not a silver bullet for climate change. But it is a powerful accelerant, making solutions faster, smarter, and more scalable. Whether it’s predicting natural disasters, improving energy use, or protecting endangered ecosystems, the technology is proving its value in nearly every corner of the sustainability conversation.",
-
-  "At Rialtes, we help organizations develop AI systems that make sustainability practical. From concept to execution, we partner with enterprises to apply AI ethically and effectively, turning climate ambition into action.",
-
-  "Talk to our experts to learn how AI can unlock your sustainability potential, drive measurable impact, and help build a better future for both business and the planet."
-],
-        "sustainabilityPara" : [
-  "Consumers want cleaner products. Regulators are tightening the screws. Investors are rewarding companies with strong ESG (Environmental, Social, Governance) performance. And AI is helping businesses stay ahead of all three.",
-
-  "Companies use AI to cut waste across the supply chain, monitor carbon emissions in real time, and automate reporting processes for ESG compliance. AI tools can optimize delivery routes, flag inefficient production processes, and even predict equipment failures before they lead to resource loss.",
-
-  "Take manufacturing, for example. AI models can identify where raw materials get wasted, suggest energy-saving opportunities, or simulate different scenarios to make operations more sustainable without sacrificing profitability. In agriculture, retailers are using AI to reduce food waste by forecasting demand more accurately, improving shelf-life management, and minimizing overproduction.",
-
-  "Ultimately, businesses that embrace AI not just for efficiency but for environmental accountability will be the ones shaping the future economy."
-],
-        "thatList":[
-"Using transparent, explainable models",
-"Involving local communities in tech design",
-"Ensuring data privacy and responsible use",
-"Avoiding bias or short-sighted optimization that harms ecosystems"
-        ],
-        "trendsList":[
-"AI-enhanced models predict hurricanes, floods, and sea-level rise faster.",
-"Governments use these insights to issue early warnings and plan resilient infrastructure.",
-"Resource allocation becomes more targeted in drought- and flood-prone areas."
-        ],
-        "oceanParagraphs" :[
-  "Oceans cover more than 70% of our planet, regulate its temperature, and support entire ecosystems. But their health is declining fast due to pollution, illegal fishing, rising temperatures, and acidification. AI is helping scientists and conservationists dive into these problems with tools that are both precise and scalable.",
-
-  "Autonomous underwater vehicles (AUVs), guided by AI, can now monitor changes in ocean temperatures, salinity, and acidity over time. These smart machines scan marine environments without disturbing them, collecting valuable data about coral reefs, fish populations, and plankton movement. Combined with AI-powered sensors, this data helps researchers understand how climate change is affecting life beneath the surface.",
-
-  "One of the most practical applications of AI in ocean conservation is tackling illegal fishing. Predictive algorithms analyze vessel routes, movement patterns, and speed anomalies to detect suspicious activity. When a ship veers off-course near a protected zone or displays erratic behavior, AI systems flag it in real time, giving coast guards and authorities the heads-up they need to act fast."
-],
-        "oceanUseCases" : [
-  {
-    "title": "Autonomous underwater vehicles (AUVs):",
-    "desc": "Monitor temperature, acidity, and marine activity."
-  },
-  {
-    "title": "Smart sensors:",
-    "desc": "Track ocean health indicators like coral bleaching and oxygen levels."
-  },
-  {
-    "title": "Illegal fishing detection:",
-    "desc": "Predictive models analyze vessel routes to flag suspicious activity and alert authorities."
-  }
-],
-        "forestUseCases" : [
-  {
-    "title": "Satellite analysis:",
-    "desc": "AI processes imagery to detect deforestation in real time."
-  },
-  {
-    "title": "Wildfire prediction:",
-    "desc": "Deep learning models use weather and historical fire data to predict high-risk areas."
-  },
-  {
-    "title": "Acoustic monitoring:",
-    "desc": "AI can detect chainsaws and trucks in remote forests using sound, even before satellite images catch changes."
-  }
-],
-        "farmingContent" : [
-  "Farming is moving beyond guesswork. With climate variability and increasing pressure on food systems, agriculture needs to be not just productive but precise, and that’s exactly what AI enables.",
-  "By combining data from sensors, drones, and weather stations, AI models help farmers understand soil conditions, plant health, and optimal watering times. This precision agriculture approach leads to higher yields while conserving water and reducing reliance on chemical fertilizers and pesticides. It’s more food with less footprint.",
-  "But AI isn’t just supporting growing crops, it’s also helping save species. Conservationists are now using AI-powered camera traps that automatically identify animals in their habitats. Whether it’s tracking the migration of elephants or monitoring nesting sites for endangered birds, AI gives researchers detailed insights without disturbing the ecosystem.",
-  "This dual role, which enhances food security and preserves biodiversity, shows how powerful AI can be when applied thoughtfully to the natural world."
-],
-"smartList" : [
-  {
-    "title": "Real-time optimization:",
-    "desc": "AI forecasts power usage and adjusts distribution instantly."
-  },
-  {
-    "title": "Advanced Metering Infrastructure (AMI):",
-    "desc": "Gives consumers and providers detailed, real-time data to control usage and costs."
-  },
-  {
-    "title": "Predictive maintenance:",
-    "desc": "AI detects faults and anomalies early, reducing downtime and improving reliability."
-  }
-],
-"energyContent" : [
-"AI is transforming how we produce, distribute, and consume energy, and not in some distant future. It's already transpiring. Take energy forecasting. Traditional systems often rely on static models and historical averages, which aren’t good at handling volatility, especially with renewable sources like solar and wind. AI, on the other hand, can ingest real-time weather data, grid performance, and consumption patterns to make precise energy demand predictions. That means fewer blackouts, less energy waste, and better integration of renewables into national grids.",  
-"Then there’s optimization. AI can identify inefficiencies across the energy lifecycle, such as a solar farm underperforming on cloudy days or a building using more HVAC power than necessary. Companies like Google used AI to cut cooling energy in their data centers by 40%—proof that machine learning can lead to real-world efficiency gains.",  
-"Smart energy management is about control. AI empowers energy providers and consumers to respond in real-time, make informed decisions, and move toward a more sustainable and balanced energy future."]
-  }
 }
