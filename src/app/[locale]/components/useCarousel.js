@@ -145,20 +145,29 @@ export default function servicesInsightsCarousel() {
         >
           {slides.map((slide) => (
             <div
-              key={slide.id}
-              className="flex md:flex-row flex-col sm:basis-1/4 border border-[#707070] sm:mr-4 mb-4 relative group">
-              {/* Optional: Add an image or background here if needed */}
-              <div className="w-full h-full min-h-[380px] sm:min-h-[380px] md:min-h-[300px] lg:min-h-[440px] xl:min-h-[420px] 2xl:min-h-[450px] relative bg-white">
-                <div className="absolute inset-0 py-[42px] px-[36px]">
-                  <div className="mt-3 font-semibold text-[18px]  xl:text-[22px] 4xl:text-[30px] ">
-                    {slide.category}
-                  </div>
-                  <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
-                    {slide.description}
-                  </p>
-                </div>
-              </div>
-            </div>
+  key={slide.id}
+  className="flex border border-[#707070] sm:mr-4 mb-4 relative"
+>
+  <div
+    className={`w-full h-[300px] sm:h-full relative bg-white
+      ${locale === "es"
+        ? "md:h-[300px] 4xl:h-[500px] 2xl:h-[450px] xl:h-[500px]"
+        : locale === "fr"
+        ? "md:h-[300px] 4xl:h-[500px] 2xl:h-[450px] xl:h-[500px]"
+        : "md:h-[300px] 4xl:h-[450px] 2xl:h-[400px] xl:h-[450px]"
+      }`}
+  >
+    <div className="absolute inset-0 py-[42px] px-[36px]">
+      <div className="mt-3 font-semibold text-[18px] xl:text-[22px] 4xl:text-[30px]">
+        {slide.category}
+      </div>
+      <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+        {slide.description}
+      </p>
+    </div>
+  </div>
+</div>
+
           ))}
         </Carousel>
       </div>

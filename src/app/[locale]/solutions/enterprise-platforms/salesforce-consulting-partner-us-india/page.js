@@ -311,15 +311,9 @@ export default function SalesForceConsulting() {
           <h3 className=" mb-10 text-[#000000] 4xl:text-[40px] xl:text-[30px] text-[22px]">
             {t("actionTitle")}
           </h3>
-          <div className="grid lg:grid-cols-10 grid-cols-1">
-            <div className="col-span-1 lg:col-span-6 grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row gap-20 lg:gap-20">
+            <div className="grid  xl:grid-cols-3 gap-16">
               {growthData.map((item, index) => (
                 <div key={index}>
-                  <div
-                    className="absolute inset-0 bg-white/5 rounded pointer-events-none"
-                    aria-hidden="true"
-                  />
-
                   <div className="px-2 bg-[#EDEDED] py-1 rounded text-[#0092E0] font-bold 4xl:text-[70px] xl:text-[40px] text-[23px]">
                     {item.percentage}
                   </div>
@@ -327,7 +321,7 @@ export default function SalesForceConsulting() {
                     {item.label}
                   </div>
 
-                  <p className="mt-10 text-[18px] xl:text-[20px] 4xl:text-[24px] leading-tight whitespace-nowrap">
+                  <p className="mt-10 xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] leading-tight text-[16px] whitespace-nowrap">
                     {item.description.split("\n").map((line, i) => (
                       <React.Fragment key={i}>
                         {line}
@@ -338,8 +332,7 @@ export default function SalesForceConsulting() {
                 </div>
               ))}
             </div>
-            <div className="col-span-1 lg:col-span-4"></div>
-          </div>
+           
         </div>
       </section>
 

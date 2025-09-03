@@ -130,9 +130,17 @@ export default function Agentforce() {
                     <div className="xl:col-span-6 lg:col-span-11 sm:col-span-11 col-span-12"></div>
                     <div className="xl:col-span-5 space-y-4 xl:pl-[90px]">
                         <h4 className="font-bold lg:text-[24px] text-[18px] md:text-[20px]" >{t('headerTitle')}</h4>
-                        <h2 className="mt-3 leading-tight 2xl:text-[56px] xl:text-[40px] md:text-[30px] 4xl:text-[60px] w-[300px] lg:w-[400px] 2xl:w-[600px] xl:w-[400px] 4xl:w-[600px] md:w-[280px] lg:text-[38px]">
+                        <h2 className={`mt-3 leading-tight 2xl:text-[45px] xl:text-[40px] md:text-[30px] 4xl:text-[57px]  lg:text-[38px]"
+                         ${locale === "es"
+                                    ? "2xl:w-[600px] xl:w-[500px] 4xl:w-[750px] md:w-[280px]"
+                                    : locale === "fr"
+                                        ? "2xl:w-[600px] xl:w-[500px] 4xl:w-[750px] md:w-[280px]"
+                                        : "w-[300px] 4xl:w-[600px] 2xl:w-[600px] xl:w-[500px]"
+                                }`}
+                        
+                        >
                             {t('headerDesc')}
-                        </h2>
+                        </h2> 
                         <div>
                             <div className="relative w-[120px] h-[40px] 4xl:w-[300px] 4xl:h-[102px] lg:w-[200px] lg:h-[60px] md:w-[150px] md:h-[50px] 2xl:w-[260px] 2xl:h-[80px] xl:w-[240px] xl-h-[70px]">
                                 <Image
@@ -170,7 +178,7 @@ export default function Agentforce() {
                 </div>
             </div>
             <section className="mt-[50px] md:mt-[60px] lg:mt-[94px] lg:pr-0 custom-container">
-                <h2 className="xl:w-[630px] md:w-[700px] 2xl:w-[850px] 4xl:w-[1000px] xl:h-[100px] 4xl:h-[219px] 2xl:h-[190px] lg:h-[100px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px] lg:w-[600px]">{t('manageTitle')}</h2>
+                <h2 className="xl:w-[630px] md:w-[700px] 2xl:w-[850px] 4xl:w-[1000px] xl:h-[100px] 4xl:h-[219px] 2xl:h-[190px] lg:h-[100px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[24px] 4xl:text-[60px] lg:text-[38px] lg:w-[600px]">{t('manageTitle')}</h2>
                 <div className="grid lg:grid-cols-4 grid-cols-1 lg:mt-16 md:grid-cols-2">
                     {salesForce.map((sales) => {
                         return (
@@ -207,9 +215,16 @@ export default function Agentforce() {
                 <LearnMore />
             </section>
             <section className="mt-[60px] md:mt-[70px] lg:mt-[104px] px-6 custom-container">
-                <h2 className="xl:w-[700px] md:w-[700px] 2xl:w-[1000px] 4xl:w-[980px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px]">
+                <h2 className="xl:w-[700px] md:w-[700px] 2xl:w-[1000px] 4xl:w-[980px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] lg:text-[38px]">
                     {t('blocksTitle')}</h2>
-                <div className="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 mt-10 xl:gap-16 gap-5 md:gap-12">
+                <div className={`grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2  xl:gap-16 gap-5 md:gap-12"
+                 ${locale === "es"
+                                    ? "4xl:mt-20 2xl:mt-10 xl:mt-16 mt-10"
+                                    : locale === "fr" 
+                                        ? "mt-16"
+                                        : "mt-10"
+                                }`}
+                >
                     {agentBlocks.map((block, index) => (
                         <div key={index} className="flex xl:gap-5 gap-2">
                             <div>
@@ -236,8 +251,15 @@ export default function Agentforce() {
                 </div>
             </section>
             {/* //industries benifites */}
-            <section className="mt-[75px] md:mt-[120px] lg:mt-[120px]  px-6 custom-container">
-                <h2 className="w-full leading-tight xl:w-[900px] md:w-[700px] 2xl:w-[900px] 4xl:w-[1100px]   text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px] lg:text-[38px]">{t('industryTitle')}</h2>
+            <section className={`px-6 custom-container
+             ${locale === "es"
+                                    ? "4xl:mt-40 2xl:mt-32 xl:mt-32 mt-20 md:mt-40"
+                                    : locale === "fr"
+                                        ? "4xl:mt-40 2xl:mt-32 xl:mt-32 mt-20 md:mt-40"
+                                        : "mt-[75px] md:mt-[120px] lg:mt-[120px]"
+                                }`}
+            >
+                <h2 className="w-full leading-tight xl:w-[900px] md:w-[700px] 2xl:w-[900px] 4xl:w-[1100px]   text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] lg:text-[38px]">{t('industryTitle')}</h2>
                 <div className="grid lg:grid-cols-3 lg:gap-20 gap-10 grid-cols-1 md:grid-cols-2">
                     {industryBenifite.map((benifite) => {
                         return (

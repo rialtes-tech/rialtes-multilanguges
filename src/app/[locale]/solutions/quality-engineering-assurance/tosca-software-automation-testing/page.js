@@ -12,10 +12,10 @@ import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 export default function DemandPlusSection() {
-const t = useTranslations("tosca");
+  const t = useTranslations("tosca");
   const locale = useLocale();
   const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const {whychooseData,endToEndData,qTestData ,liveCompareData,neoLoadData,expertsList ,seamlessData  } = homepageContent.tosca;
+  const { whychooseData, endToEndData, qTestData, liveCompareData, neoLoadData, expertsList, seamlessData } = homepageContent.tosca;
 
   const schemaData = {
     "@context": "https://schema.org",
@@ -160,8 +160,8 @@ const t = useTranslations("tosca");
           <div className="grid xl:grid-cols-12  grid-cols-1 gap-2">
             <div className="xl:col-span-6 md:col-span-2 col-span-12 4xl:mt-32 xl:mt-20 mt-[8rem] 4xl:pr-16  2xl:pr-14 xl:pr-10 pr-5 md:pr-64">
               <h3 className="text-white xl:text-[24px]  font-bold mb-2">
-              {t('headerSubTitle')}</h3>
-              <h1 className="text-white leading-tight mt-5   text-[26px] 4xl:text-[60px]   xl:text-[44px]">
+                {t('headerSubTitle')}</h3>
+              <h1 className="text-white leading-tight mt-5   text-[26px] 4xl:text-[60px]   xl:text-[41px]">
                 {t('headerTitle')}
               </h1>
             </div>
@@ -178,10 +178,10 @@ const t = useTranslations("tosca");
               {t('empowerTitleTwo')}
             </h2>
             <p className="xl:mt-12 mt-5 4xl:text-[22px] text-[16px] pr-[36px] 4xl:pr-0">
-             {t('empowerDescOne')}
+              {t('empowerDescOne')}
             </p>
             <p className="mt-5 pb-16 4xl:text-[22px] text-[16px] pr-[30px] 4xl:pr-0">
-             {t('empowerDescTwo')}
+              {t('empowerDescTwo')}
             </p>
           </div>
         </div>
@@ -215,7 +215,7 @@ const t = useTranslations("tosca");
           <div className="xl:col-span-6 absolute 4xl:right-[333px] xl:right-[170px] top-[320px]  xl:top-0 ">
             <div className="bg-[#016FBE] xl:bg-opacity-90 text-white p-8 4xl:w-[765px] xl:w-[550px] 4xl:pb-20  2xl:pb-[105px] pb-[220px]  xl:pb-10">
               <h2 className="leading-tight 4xl:mt-10 text-[26px] 4xl:text-[60px]  xl:text-[40px]">
-               {t('whyTitle')}
+                {t('whyTitle')}
               </h2>
               <h3 className="4xl:text-[42px] text-[22px] font-semibold leading-tight 4xl:mt-8 xl:mt-5 mt-5 md:pr-[36px] 4xl:pr-0">
                 {t('whySubTitle')}
@@ -235,7 +235,14 @@ const t = useTranslations("tosca");
         </div>
       </section>
       {/* end to end section */}
-      <section className="custom-container xl:!pr-0 max-[425px]:mt-[660px] max-[372px]:mt-[705px] max-[345px]:mt-[770px] mt-[630px] md:mt-[540px] lg:mt-[325px] xl:mt-[144px] 4xl:mt-22 ">
+      <section className={`custom-container xl:!pr-0
+       ${locale === "es"
+          ? "mt-[700px] md:mt-[540px] 2xl:mt-[230px] xl:mt-[220px] 4xl:mt-[24rem]"
+          : locale === "fr"
+            ? "mt-[700px] md:mt-[600px] 2xl:mt-[230px] xl:mt-[220px] 4xl:mt-[18rem]"
+            : "max-[425px]:mt-[660px] max-[372px]:mt-[705px] max-[345px]:mt-[770px] mt-[630px] md:mt-[540px] lg:mt-[325px] xl:mt-[144px] 4xl:mt-22"
+        }`}
+      >
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-8 xl:pr-10 4xl:pr-10">
             <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[42px] 4xl:block xl:block hidden">
@@ -260,23 +267,31 @@ const t = useTranslations("tosca");
               {t('serviceTitle')}
             </h2>
             <h3 className="4xl:text-[36px] text-[22px] xl:text-[25px] font-semibold leading-tight mt-5 4xl:mt-0 xl:mt-0 pr-10 4xl:pr-0">
-               {t('serviceTitleOne')}
+              {t('serviceTitleOne')}
             </h3>
             <h3 className="mt-5 text-[#006FBE] font-semibold 4xl:text-[32px] xl:text-[22px] text-[20px] leading-tight">
               {t('serviceTitleTwo')}
             </h3>
-            <p className="mt-5 4xl:text-[22px] text-[16px]">
-               {t('ServiceDescOne')}
+            <p className="mt-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
+              {t('ServiceDescOne')}
             </p>
             <UnorderedList
               arrName={endToEndData}
-              ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-2 marker:font-bold marker:text-2xl pl-5 font-medium 4xl:mt-8 mt-5 pr- xl:pr-0 md:pb-0"
-              liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]"
+              ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-1  marker:font-bold marker:text-2xl pl-5 font-medium 4xl:mt-8 mt-5 pr- xl:pr-0 md:pb-0"
+              liClassName="4xl:text-[20px] xl:text-[17px] text-[16px]"
             />
           </div>
         </div>
       </section>
-      <div className="grid xl:grid-cols-12 4xl:mt-[-85px] mt-[1rem] sm:mt-10 xl:mt-[-50px] max-md:px-[35px] custom-container">
+
+      <div className={`grid xl:grid-cols-12  max-md:px-[35px] custom-container
+       ${locale === "es"
+          ? "4xl:mt-[-35px] mt-[1rem] 2xl:mt-[-100px] xl:mt-[-40px]"
+          : locale === "fr"
+            ? "4xl:mt-[-35px] mt-[1rem] 2xl:mt-[-100px] xl:mt-[-42px]"
+            : "4xl:mt-[-85px] mt-[1rem] sm:mt-10 2xl:mt-[-100px] xl:mt-[-42px]"
+        }`}
+      >
         <div className="xl:col-span-2">
           <div className="4xl:mt-[44px]  xl:mt-[75px] 2xl:mt-[5rem]">
             <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
@@ -320,18 +335,18 @@ const t = useTranslations("tosca");
         <div className="bg-[#006FBE] xl:p-16 4xl:p-16 p-10 grid xl:grid-cols-12 text-white 4xl:pb-32 sm:pb-32 pb-36 max-[375px]:pb-40">
           <div className="xl:col-span-7">
             <h2 className="text-[26px] 4xl:text-[60px]  xl:text-[42px] leading-tight 4xl:pr-16 xl:pr-10">
-               {t('testTitle')}
+              {t('testTitle')}
             </h2>
             <h3 className="4xl:text-[36px] text-[22px] xl:text-[25px] font-semibold leading-tight mt-8 xl:pr-48">
-               {t('testSubTitle')}
+              {t('testSubTitle')}
             </h3>
             <h3 className="mt-5 font-semibold 4xl:text-[32px] xl:text-[22px] text-[20px] leading-tight xl:pr-48 ">
-               {t('testSubTitleOne')}
+              {t('testSubTitleOne')}
             </h3>
           </div>
           <div className="xl:col-span-5">
             <p className="4xl:text-[22px] text-[18px] mt-10 xl:mt-0 4xl:mt-0">
-               {t('testDesc')}
+              {t('testDesc')}
             </p>
             <UnorderedList
               arrName={qTestData}
@@ -341,10 +356,17 @@ const t = useTranslations("tosca");
           </div>
         </div>
       </section>
-      <section className="custom-container xl:px-0 4xl:pl-[280px] 4xl:pr-[398px] xl:pl-[200px] xl:pr-[220px] max-[350px]:mt-[900px] max-[375px]:mt-[820px] max-sm:mt-[770px]  sm:mt-[37rem] md:mt-[32rem] lg:mt-[32rem]  xl:mt-0 4xl:mt-0">
-        <div className=" bg-[#073259] p-8 4xl:mt-[27rem] xl:mt-[20rem] relative">
+      <section className="custom-container xl:px-0 4xl:pl-[280px] 4xl:pr-[398px] xl:pl-[200px] xl:pr-[220px] max-[350px]:mt-[900px] max-[375px]:mt-[890px] max-sm:mt-[770px]  sm:mt-[37rem] md:mt-[32rem] lg:mt-[32rem]  xl:mt-0 4xl:mt-0">
+        <div className={`bg-[#073259] p-8 relative
+         ${locale === "es"
+            ? "4xl:mt-[460px] xl:mt-[420px] 2xl:mt-[350px]"
+            : locale === "fr"
+              ? "4xl:mt-[470px] xl:mt-[420px] 2xl:mt-[350px]"
+              : "4xl:mt-[420px] xl:mt-[350px] 2xl:mt-[350px]"
+          }`}
+        >
           <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">
-             {t('testDescTwo')}
+            {t('testDescTwo')}
           </p>
         </div>
       </section>
@@ -353,7 +375,13 @@ const t = useTranslations("tosca");
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-5  max-md:px-[35px]">
             <Image
-              className="w-full 4xl:h-[760px] 4xl:mt-16 4xl:mb-16 xl:mt-16  relative"
+              className={`w-full  4xl:mt-16 4xl:mb-16 xl:mt-16  relative
+               ${locale === "es"
+                  ? "4xl:h-[840px] xl:h-[620px] 2xl:h-[520px]"
+                  : locale === "fr"
+                    ? "4xl:h-[865px] xl:h-[620px] 2xl:h-[520px]"
+                    : "4xl:h-[760px] 2xl:h-[500px] xl:h-[590px]"
+                }`}
               src="/images/toska/desktop/live-desk.webp"
               alt="Live Desktop"
               width={0}
@@ -370,15 +398,15 @@ const t = useTranslations("tosca");
               {t('liveSubTitle')}
             </h3>
             <h3 className="text-[#006FBE] mt-5 font-semibold 4xl:text-[32px] xl:text-[22px] text-[20px] leading-tight 4xl:pr-[4rem] pr-0">
-               {t('liveSubTitleOne')}
+              {t('liveSubTitleOne')}
             </h3>
-            <p className="4xl:text-[22px] xl:text-[14px] text-[16px] font-normal mt-5 pr-0">
+            <p className="4xl:text-[22px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-normal mt-5 pr-0">
               {t('liveDesc')}
             </p>
             <UnorderedList
               arrName={liveCompareData}
               ulClassName="list-disc leading-tight 4xl:space-y-5 marker:font-bold marker:text-2xl pl-5 font-normal 4xl:pr-32 4xl:mt-5 mt-5 pr-0 xl:pr-0"
-              liClassName="4xl:text-[20px] xl:text-[14px] text-[16px]"
+              liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] text-[16px]"
             />
             <div className="xl:hidden block mt-5">
               <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
@@ -388,8 +416,8 @@ const t = useTranslations("tosca");
       </section>
       <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[-73px] 4xl:mt-[-78px]">
         <div className="xl:col-span-8 col-span-12 mx-[35px] z-[9] xl:mx-0 relative bg-[#163055] p-8 4xl:mt-[-57px] xl:mt-[-40px] mt-[-200px] 4xl:ml-[280px] xl:ml-[78px] md:mt-[-150px]">
-          <p className="4xl:text-[26px] xl:text-[16px] text-[20px] text-white font-normal leading-tight">
-             {t('livePara')}
+          <p className="4xl:text-[26px] 2xl:text-[20px] xl:text-[18px] text-[20px] text-white font-normal leading-tight">
+            {t('livePara')}
           </p>
         </div>
         <div className="xl:col-span-1"></div>
@@ -433,14 +461,14 @@ const t = useTranslations("tosca");
                 {t('neoSubTitle')}
               </h3>
               <h3 className="mt-5 font-semibold 4xl:text-[32px] xl:text-[22px] text-[20px] leading-tight">
-                 {t('neoSubTitleOne')}
+                {t('neoSubTitleOne')}
               </h3>
-              <p className="4xl:text-[22px] xl:text-[14px] text-[16px] mt-5 font-light">
-                 {t('neoDesc')}
+              <p className="4xl:text-[22px] 2xl:text-[18px] xl:text-[17px] text-[16px] mt-5 font-light">
+                {t('neoDesc')}
               </p>
               <UnorderedList
                 arrName={neoLoadData}
-                ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-1 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 2xl:mt-10 mt-5 pr-1 xl:pr-0 "
+                ulClassName="list-disc leading-tight 4xl:space-y-5 2xl:space-y-5 xl:space-y-1 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 2xl:mt-10 mt-5 pr-1 xl:pr-0 "
                 liClassName=" 4xl:text-[20px] 2xl:text-[18px] text-[16px]"
               />
               <div className="xl:hidden block mt-10">
@@ -448,7 +476,7 @@ const t = useTranslations("tosca");
               </div>
               <div className="xl:hidden block bg-[#073259] p-8  mt-[40px]">
                 <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">
-                   {t('neoPara')}
+                  {t('neoPara')}
                 </p>
               </div>
             </div>
@@ -498,21 +526,21 @@ const t = useTranslations("tosca");
           </div>
           <div className="xl:col-span-7 col-span-12  sm:px-0 md:px-[35px]">
             <h2 className="text-[26px] 4xl:text-[60px]  xl:text-[40px] 2xl:text-[30px] leading-tight 4xl:pr-64 xl:pr-48 pt-10 xl:pt-0 4xl:pt-0">
-               {t('toscaTitle')}
+              {t('toscaTitle')}
             </h2>
             <h3 className="4xl:text-[40px] xl:text-[25px] text-[20px] font-semibold mt-5">
-               {t('toscaSubTitle')}
+              {t('toscaSubTitle')}
             </h3>
             <p className="4xl:text-[22px] text-[16px] mt-5">
-               {t('toscaDesc')}
+              {t('toscaDesc')}
             </p>
             <section className="mx-auto py-12">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8">
                 {expertsList.map((item, index) => (
-                  <div key={index} className="flex items-start gap-5">
-                    <div
-                      className={`w-[${item.lineWidth}] h-full bg-[#006FBE]`}
-                    ></div>
+                  <div
+                    key={index}
+                    className="pl-4 border-l-2 border-[#006FBE]" // left border
+                  >
                     <p className="text-black font-semibold 4xl:text-[24px] text-[18px] leading-tight">
                       {item.text}
                     </p>
@@ -557,7 +585,7 @@ const t = useTranslations("tosca");
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="xl:col-span-9 col-span-12">
               <h2 className="text-[26px] 4xl:text-[60px]  xl:text-[40px] leading-tight pt-20 pr-10 xl:pr-0 4xl:pr-0">
-                 {t('sapTitle')}
+                {t('sapTitle')}
               </h2>
             </div>
           </div>
@@ -567,7 +595,7 @@ const t = useTranslations("tosca");
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="xl:col-span-6 col-span-12">
               <p className="4xl:text-[22px] text-[16px] mt-5 sm:pr-10">
-                 {t('sapDesc')}
+                {t('sapDesc')}
               </p>
               <UnorderedList
                 arrName={seamlessData}
@@ -601,7 +629,7 @@ const t = useTranslations("tosca");
           <div className="max-w-7xl  grid grid-cols-1 xl:grid-cols-12 gap-y-10">
             <div className="xl:col-span-8 col-span-12">
               <h2 className="text-[26px] 4xl:text-[60px]  xl:text-[45px] leading-tight pr-10 xl:pr-0 4xl:pr-0">
-                 {t('factTitle')}
+                {t('factTitle')}
               </h2>
             </div>
             <div className="xl::col-span-12 col-span-12  pl-4">
@@ -627,7 +655,7 @@ const t = useTranslations("tosca");
             <span className="border-b-2 border-gray-400 w-[30%] xl:w-full 4xl:w-full"></span>
             <div className="xl:col-span-12 col-span-12  pl-4">
               <p className="4xl:text-[30px] text-[24px] xl:text-[20px] font-bold leading-tight">
-                 {t('aiDesc')}
+                {t('aiDesc')}
 
                 <br />
                 <span className="text-[#006FBE] font-bold 4xl:text-[65px] xl:text-[40px] text-[20px]">

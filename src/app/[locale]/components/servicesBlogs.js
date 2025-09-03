@@ -125,7 +125,7 @@ export default function ServicesBlogs({ padding, slides }) {
     <section className="relative pb-8 bg-white">
       <div className={"mx-auto " + (padding ? padding : "")}>
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-10">{t("headerTitle")}</h2>
+          <h2 className="text-black md:text-[40px] xl:text-[56px] mb-10">{t("headerTitle")}</h2>
         </div>
         <Carousel
           swipeable={true}
