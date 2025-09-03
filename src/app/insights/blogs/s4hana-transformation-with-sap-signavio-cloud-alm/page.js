@@ -11,7 +11,7 @@ const schemaData = {
     "@type": "BlogPosting",
     "headline": "SAP Signavio and Cloud ALM in S/4HANA Transformation",
     "description": "Pairing SAP Signavio with SAP Cloud ALM ensures control across every phase of the transformation. The closed-loop lifecycle ensures ongoing business value.",
-    "image": "https://www.rialtes.com/images/blog/sap-signavio-sap-cloud-desktop.webp.webp",
+    "image": "https://www.rialtes.com/images/blog/sap-signavio-sap-cloud-desktop.webp",
     "author": {
         "@type": "Organization",
         "name": "Rialtes"
@@ -26,7 +26,7 @@ const schemaData = {
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blog/s4hana-transformation-with-sap-signavio-cloud-alm"
+        "@id": "https://www.rialtes.com/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm"
     },
     "datePublished": "2025-03-25",
     "mainEntity": {
