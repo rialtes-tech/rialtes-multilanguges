@@ -258,7 +258,13 @@ export default function DemandPlusSection() {
               width={0}
               height={0}
               sizes="100vw"
-              className="w-full object-cover"
+              className={`w-full object-cover 
+               ${locale === "es"
+                  ? "xl:h-[580px] 4xl:h-[765px]"
+                  : locale === "fr"
+                    ? "xl:h-[580px] 4xl:h-[765px]"
+                    : "xl:h-[540px] 4xl:h-[655px]"
+                }`}
               priority
             />
           </div>
@@ -286,10 +292,10 @@ export default function DemandPlusSection() {
 
       <div className={`grid xl:grid-cols-12  max-md:px-[35px] custom-container
        ${locale === "es"
-          ? "4xl:mt-[-35px] mt-[1rem] 2xl:mt-[-100px] xl:mt-[-40px]"
+          ? "4xl:mt-[-85px] mt-[1rem] 2xl:mt-[-100px] xl:mt-[-90px]"
           : locale === "fr"
-            ? "4xl:mt-[-35px] mt-[1rem] 2xl:mt-[-100px] xl:mt-[-42px]"
-            : "4xl:mt-[-85px] mt-[1rem] sm:mt-10 2xl:mt-[-100px] xl:mt-[-42px]"
+            ? "4xl:mt-[-85px] mt-[1rem] 2xl:mt-[-100px] xl:mt-[-100px]"
+            : "4xl:mt-[-85px] mt-[1rem] sm:mt-10 2xl:mt-[-100px] xl:mt-[-100px]"
         }`}
       >
         <div className="xl:col-span-2">
@@ -377,10 +383,10 @@ export default function DemandPlusSection() {
             <Image
               className={`w-full  4xl:mt-16 4xl:mb-16 xl:mt-16  relative
                ${locale === "es"
-                  ? "4xl:h-[840px] xl:h-[620px] 2xl:h-[520px]"
+                  ? "4xl:h-[840px] xl:h-[620px] 2xl:h-[695px]"
                   : locale === "fr"
-                    ? "4xl:h-[865px] xl:h-[620px] 2xl:h-[520px]"
-                    : "4xl:h-[760px] 2xl:h-[500px] xl:h-[590px]"
+                    ? "4xl:h-[865px] xl:h-[620px] 2xl:h-[645px]"
+                    : "4xl:h-[760px] 2xl:h-[565px] xl:h-[590px]"
                 }`}
               src="/images/toska/desktop/live-desk.webp"
               alt="Live Desktop"
@@ -390,8 +396,8 @@ export default function DemandPlusSection() {
               priority
             />
           </div>
-          <div className="xl:col-span-7 bg-[#D0EBFF] text-black 4xl:ml-[-32rem] max-md:px-[65px]  xl:ml-[-28rem] pb-[15rem] xl:pb-[9rem] 4xl:pb-[11rem] px-[35px] 4xl:pl-[36rem] xl:pl-[31rem] 4xl:pr-[10rem] xl:pr-[7rem] xl:mt-0 mt-[-200px] ">
-            <h2 className="text-[26px] 4xl:text-[60px] xl:text-[38px] leading-tight 4xl:pr-16 xl:pr-10 pt-[15rem] 4xl:pt-16 xl:pt-[4rem] 2xl:text-[30px]">
+          <div className="xl:col-span-7 bg-[#D0EBFF] text-black 4xl:ml-[-32rem] max-md:px-[65px]  xl:ml-[-28rem] pb-[15rem] 2xl:pb-[12rem] xl:pb-[9rem] 4xl:pb-[11rem] px-[35px] 4xl:pl-[36rem] xl:pl-[31rem] 4xl:pr-[10rem] xl:pr-[7rem] xl:mt-0 mt-[-200px] ">
+            <h2 className="text-[26px] 4xl:text-[60px] xl:text-[38px] leading-tight 4xl:pr-16 xl:pr-10 pt-[15rem] 4xl:pt-16 xl:pt-[4rem] 2xl:text-[40px]">
               {t('liveTitle')}
             </h2>
             <h3 className="4xl:text-[36px] text-[22px] xl:text-[25px] font-semibold leading-tight  xl:mt-3  xl:pr-0 mt-5 pr-0">
@@ -405,7 +411,7 @@ export default function DemandPlusSection() {
             </p>
             <UnorderedList
               arrName={liveCompareData}
-              ulClassName="list-disc leading-tight 4xl:space-y-5 marker:font-bold marker:text-2xl pl-5 font-normal 4xl:pr-32 4xl:mt-5 mt-5 pr-0 xl:pr-0"
+              ulClassName="list-disc leading-tight 4xl:space-y-5 2xl:space-y-4 marker:font-bold marker:text-2xl pl-5 font-normal 4xl:pr-32 4xl:mt-5 mt-5 pr-0 xl:pr-0"
               liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] text-[16px]"
             />
             <div className="xl:hidden block mt-5">
@@ -415,7 +421,14 @@ export default function DemandPlusSection() {
         </div>
       </section>
       <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-[-73px] 4xl:mt-[-78px]">
-        <div className="xl:col-span-8 col-span-12 mx-[35px] z-[9] xl:mx-0 relative bg-[#163055] p-8 4xl:mt-[-57px] xl:mt-[-40px] mt-[-200px] 4xl:ml-[280px] xl:ml-[78px] md:mt-[-150px]">
+        <div className={`xl:col-span-8 col-span-12 mx-[35px] z-[9] xl:mx-0 relative bg-[#163055] p-8
+         ${locale === "es"
+            ? "4xl:mt-[-80px] xl:mt-[-40px] mt-[-200px] 4xl:ml-[250px] xl:ml-[66px] md:mt-[-150px]"
+            : locale === "fr"
+              ? "4xl:mt-[-54px] xl:mt-[-40px] mt-[-200px] 4xl:ml-[250px] xl:ml-[66px] md:mt-[-150px]"
+              : "4xl:mt-[-82px] xl:mt-[-40px] 2xl:mt-[-45px] mt-[-200px] 4xl:ml-[258px] xl:ml-[66px] md:mt-[-150px]"
+          }`}
+        >
           <p className="4xl:text-[26px] 2xl:text-[20px] xl:text-[18px] text-[20px] text-white font-normal leading-tight">
             {t('livePara')}
           </p>
@@ -431,7 +444,13 @@ export default function DemandPlusSection() {
           <div className="xl:col-span-5 col-span-12 mt-10 xl:mt-[10rem] 4xl:ml-[-200px] xl:ml-[-105px] 2xl:ml-[-155px] order-1 xl:order-2">
             <div className="xl:block hidden">
               <Image
-                className="w-full 4xl:mt-[6rem] 4xl:mb-16 xl:mt-10 xl:-mb-16 relative"
+                className={`w-full  relative
+                 ${locale === "es"
+                    ? "4xl:h-[1028px] 4xl:mt-[110px] 4xl:mb-16 xl:mt-10 xl:-mb-16"
+                    : locale === "fr"
+                      ? "4xl:h-[980px] 4xl:mt-[110px] 4xl:mb-16 xl:mt-10 xl:-mb-16"
+                      : "4xl:mt-[110px] 4xl:mb-16 xl:mt-10 xl:-mb-16"
+                  }`}
                 src="/images/toska/desktop/neoload-desktop.webp"
                 alt="Neoload desktop Image"
                 width={0}
@@ -452,7 +471,14 @@ export default function DemandPlusSection() {
               />
             </div>
           </div>
-          <div className="xl:col-span-7 col-span-12 bg-[#427C8A] text-white px-[35px] md:pl-10 xl:pl-[5rem] 4xl:h-[1090px] 4xl:pl-[8rem] order-2 xl:order-1 mt-[-200px] xl:mt-0 4xl:mt-0  xl:pb-0 4xl:pb-0 4xl:pr-0 2xl:pr-40">
+          <div className={`xl:col-span-7 col-span-12 bg-[#427C8A] text-white px-[35px] md:pl-10 xl:pl-[5rem]  4xl:pl-[8rem] order-2 xl:order-1 mt-[-200px] xl:mt-0 4xl:mt-0  xl:pb-0 4xl:pb-0 4xl:pr-0 2xl:pr-40
+           ${locale === "es"
+              ? "4xl:h-[1210px]"
+              : locale === "fr"
+                ? "4xl:h-[1160px]"
+                : "4xl:h-[1090px]"
+            }`}
+          >
             <h2 className="text-[26px] 4xl:text-[60px] xl:text-[40px] leading-tight 4xl:pr-0  pt-[15rem] xl:pt-16 4xl:pt-16">
               {t('neoTitle')}
             </h2>
@@ -485,7 +511,15 @@ export default function DemandPlusSection() {
       </section>
       <div className="grid grid-cols-12 xl:mt-[-10px] 4xl:mt-[-186px]  absolute">
         <section className="custom-container bottom-0 xl:col-span-7 col-span-12  xl:px-0 4xl:pl-[280px]  xl:pl-[82px]  mt-[-11rem] md:mt-[-7rem] xl:mt-[20px] 4xl:mt-0">
-          <div className=" bg-[#073259] xl:block hidden p-8  xl:mt-[-50px]  2xl:mt-[-2rem]">
+          <div className={`bg-[#073259] xl:block hidden p-8 
+           ${locale === "es"
+              ? "xl:mt-[-70px]  2xl:mt-[-50px] 4xl:mt-[-32px]"
+              : locale === "fr"
+                ? "xl:mt-[-70px]  2xl:mt-[-50px] 4xl:mt-[-32px]"
+                : "xl:mt-[-50px]  2xl:mt-[-50px] 4xl:mt-[-32px]"
+            }`}
+
+          >
             <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">
               {t('neoPara')}
             </p>
@@ -500,7 +534,7 @@ export default function DemandPlusSection() {
       <section className="mt-20 4xl:mt-20 2xl:mt-40 xl:mt-40 custom-container 4xl:pl-[280px] 4xl:pr-[120px] xl:pl-[142px]">
         <div className="grid xl:grid-cols-12 4xl:gap-16 grid-cols-1">
           <div className="xl:col-span-5 col-span-12">
-            <div className="xl:block hidden">
+            <div className="xl:block hidden h-full">
               <Image
                 className="w-full h-full object-cover"
                 src="/images/toska/desktop/new-to.webp"
@@ -525,7 +559,7 @@ export default function DemandPlusSection() {
             </div>
           </div>
           <div className="xl:col-span-7 col-span-12  sm:px-0 md:px-[35px]">
-            <h2 className="text-[26px] 4xl:text-[60px]  xl:text-[40px] 2xl:text-[30px] leading-tight 4xl:pr-64 xl:pr-48 pt-10 xl:pt-0 4xl:pt-0">
+            <h2 className="text-[26px] 4xl:text-[60px]  xl:text-[40px] 2xl:text-[40px] leading-tight 4xl:pr-64 xl:pr-48 pt-10 xl:pt-0 4xl:pt-0">
               {t('toscaTitle')}
             </h2>
             <h3 className="4xl:text-[40px] xl:text-[25px] text-[20px] font-semibold mt-5">
