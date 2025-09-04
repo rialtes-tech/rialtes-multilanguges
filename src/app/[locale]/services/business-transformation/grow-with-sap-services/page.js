@@ -127,7 +127,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('growWithSap')
   const locale = useLocale();
-  const { frActive, esActive } = useActiveLocale();
+  const { frActive, esActive, enActive } = useActiveLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { services, cardsData, benefits, sapBenefits, rialtesSapData, sapIntegrationPoints, sapInnovationList, featureHighlights, futureProofingData, keyPhasesData } = content.growWithSap;
   return (
@@ -145,7 +145,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative group overflow-hidden pb-20 h-[400px] md:h-[500px] xl:h-[550px] 4xl:h-[700px]">
+      <section className={`relative group overflow-hidden pb-20 ${enActive ? "h-[400px] md:h-[500px]  4xl:h-[650px]" : "h-[400px] md:h-[500px] xl:h-[550px] 4xl:h-[700px]"}`}>
         <div className="xl:block hidden">
           <Image
             src="/images/services/grow-with-sap/AdobeStock_1335365875.webp"
@@ -166,15 +166,15 @@ export default function Page() {
           />
         </div>
         <div className="relative custom-container">
-          <div className="grid lg:grid-cols-12 grid-cols-1 gap-2 max-[368px]:mt-10 mt-16 md:mt-24 xl:mt-20 mx-auto">
+          <div className="grid lg:grid-cols-12 grid-cols-1 gap-2 max-[368px]:mt-10 mt-16 md:mt-24 xl:mt-10 3xl:mt-20 mx-auto">
             <div className={`${frActive || esActive ? "xl:col-span-9 lg:col-span-7 col-span-12 xl:mt-10" : "xl:col-span-7 col-span-12 xl:mt-10"}`}>
               <h3 className="text-white text-[20px] xl:text-[24px] font-bold mb-2 break-words">
                 {t('headerTitle')}
               </h3>
-              <h2 className={`text-white leading-tight break-words 4xl:text-[60px] xl:text-[40px] ${frActive || esActive ? "text-[24px]" : "text-[26px]"}  xl:w-[81%] 2xl:w-[73%] 4xl:w-[100%]`}>
+              <h2 className={`text-white leading-tight break-words 4xl:text-[60px] xl:text-[40px] ${frActive || esActive ? "text-[24px] sm:w-[70%] md:w-[70%] lg:w-[80%]" : "text-[26px]"}  xl:w-[81%] 2xl:w-[73%] 4xl:w-[100%]`}>
                 {t('headerSubTitle')}
               </h2>
-              <h3 className={`mt-4 md:mt-8 text-[18px] xl:text-[23px] 4xl:text-[35px] text-white font-medium leading-tight xl:font-semibold max-w-full break-words ${frActive || esActive ? "pr-10" : "pr-24"}`}>
+              <h3 className={`mt-4 md:mt-8 text-[18px] xl:text-[23px] 4xl:text-[35px] text-white font-medium leading-tight xl:font-semibold max-w-full break-words ${frActive || esActive ? "pr-10 sm:w-[70%]  md:w-[50%] lg:w-[80%] xl:pr-24" : "pr-24"}`}>
                 {t('headerSubTitle2')}
               </h3>
               <div className="md:w-32 w-20 pt-6 mt-2">
@@ -490,7 +490,7 @@ export default function Page() {
               <h2 className="4xl:text-[40px] xl:text-[28px] text-[20px] leading-tight xl:font-semibold font-bold">{t('meetTitle')} </h2>
               <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 font-normal leading-tight">
                 {t('rialchatTitle')}</p>
-              <LearnMore btnName="Know More" href='/products/agentchat' textColor="#134874" bgcolor="#ffffff"/>
+              <LearnMore btnName="Know More" href='/products/agentchat' textColor="#134874" bgcolor="#ffffff" />
             </div>
             <div className="xl:col-span-7 col-span-12 xl:pr-20 ">
               <h3 className="4xl:text-[30px] xl:text-[24px] text-[18px] leading-tight font-semibold">{t('conversationalBenefitsTitle')}</h3>

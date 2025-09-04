@@ -303,7 +303,7 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
+            <section className="relative group overflow-hidden h-[400px] md:h-[480px] 4xl:h-[650px]">
                 <div className="md:block hidden">
                     <Image
                         src="/images/industry/auto-sense/auto-sense-banner.webp"
@@ -321,11 +321,11 @@ export default function page() {
                         priority
                     />
                 </div>
-                <div className="h-full relative  custom-container">
-                    <div className="grid md:grid-cols-12 grid-cols-1 xl:mt-20 ">
-                        <div className="lg:col-span-5 2xl:col-span-5 4xl:col-span-7 col-span-12 mt-28 max-sm:mt-10 2xl:pr-[34px]">
+                <div className="h-full relative custom-container">
+                    <div className="grid md:grid-cols-12 grid-cols-1">
+                        <div className="lg:col-span-5 2xl:col-span-5 4xl:col-span-7 col-span-12 mt-16 md:mt-28 2xl:mt-28 2xl:pr-[34px]">
                             <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">{t('headerTitle')}</h3>
-                            <h1 className="text-white leading-tight md:text-[26px] xl:text-[40px] 4xl:text-[60px] mt-5">
+                            <h1 className="text-white leading-tight md:text-[26px] xl:text-[40px] 4xl:text-[60px] mt-5 sm:w-[70%] lg:w-full">
                               {t('headerSubTitle')}  
                             </h1>
                         </div>
