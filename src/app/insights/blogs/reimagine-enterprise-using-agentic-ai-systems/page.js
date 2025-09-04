@@ -5,93 +5,94 @@ import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
+import Link from "next/link";
 
 const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Enterprise Agentic AI Systems for Smarter Operations",
-  "description": "Agentic AI redefines what enterprise operational excellence looks like by combining real-time precision with enterprise-grade speed and scale.",
-  "image": " https://www.rialtes.com/images/blog/reimagine-banner.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Enterprise Agentic AI Systems for Smarter Operations",
+    "description": "Agentic AI redefines what enterprise operational excellence looks like by combining real-time precision with enterprise-grade speed and scale.",
+    "image": " https://www.rialtes.com/images/blog/reimagine-banner.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": " https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/"
+    },
+    "datePublished": "2025-08-25",
+
+    "mainEntity": {
+        "@type": "FAQPage",
+        "name": "Enterprise Agentic AI FAQs",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is Agentic AI, in simple terms?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Agentic AI refers to intelligent systems made up of autonomous agents that work together to achieve business goals. They don’t just follow instructions; they act on intent, make decisions, and adapt over time."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is Agentic AI different from traditional AI or automation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Traditional AI handles single tasks. Automation follows set rules. Agentic AI does more; it can coordinate across systems, respond to changing conditions, and continuously learn from outcomes. It’s dynamic, proactive, and scalable."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the business benefits of using Agentic AI?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Higher productivity through 24/7 automation, smarter decisions from real-time learning, faster response times to business disruptions, and lower operational costs by reducing manual work."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can you give real examples of how Agentic AI works?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Supply chain: An agent reroutes shipments when delays or weather disruptions are detected. HR: A digital agent monitors engagement and flags early signs of burnout. Finance: An agent reconciles invoices, flags fraud risks, and prepares audit summaries."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is Agentic AI only for large enterprises?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Not at all. While the impact can be massive in large organizations, you can start small, automating a single process or department and scaling gradually. Agentic AI is modular and flexible."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are Agentic AI systems secure?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "They can be, if built right. At Rialtes, we design agentic systems with built-in governance, compliance, and role-based access. Security is baked in, not bolted on."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Will Agentic AI replace human workers?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. It’s designed to handle repetitive, time-consuming tasks, freeing people up to focus on strategy, innovation, and high-value work. It’s about augmentation, not replacement."
+                }
+            }
+        ]
     }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": " https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/"
-  },
-  "datePublished": "2025-08-25",
- 
-  "mainEntity": {
-    "@type": "FAQPage",
-    "name": "Enterprise Agentic AI FAQs",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is Agentic AI, in simple terms?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Agentic AI refers to intelligent systems made up of autonomous agents that work together to achieve business goals. They don’t just follow instructions; they act on intent, make decisions, and adapt over time."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How is Agentic AI different from traditional AI or automation?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Traditional AI handles single tasks. Automation follows set rules. Agentic AI does more; it can coordinate across systems, respond to changing conditions, and continuously learn from outcomes. It’s dynamic, proactive, and scalable."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What are the business benefits of using Agentic AI?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Higher productivity through 24/7 automation, smarter decisions from real-time learning, faster response times to business disruptions, and lower operational costs by reducing manual work."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can you give real examples of how Agentic AI works?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Supply chain: An agent reroutes shipments when delays or weather disruptions are detected. HR: A digital agent monitors engagement and flags early signs of burnout. Finance: An agent reconciles invoices, flags fraud risks, and prepares audit summaries."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is Agentic AI only for large enterprises?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Not at all. While the impact can be massive in large organizations, you can start small, automating a single process or department and scaling gradually. Agentic AI is modular and flexible."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Are Agentic AI systems secure?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "They can be, if built right. At Rialtes, we design agentic systems with built-in governance, compliance, and role-based access. Security is baked in, not bolted on."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Will Agentic AI replace human workers?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. It’s designed to handle repetitive, time-consuming tasks, freeing people up to focus on strategy, innovation, and high-value work. It’s about augmentation, not replacement."
-        }
-      }
-    ]
-  }
 };
 const blogs = [
     {
@@ -559,11 +560,19 @@ export default function Page() {
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 Agentic AI isn’t replacing humans. It’s amplifying what we do best - strategize, empathize, innovate.
                             </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">The future lies in collaboration: humans define the vision, and agents take care of the execution. When that balance works, businesses unlock real efficiency and creativity. At Rialtes, we make this transformation real. We help enterprises deploy agentic systems that are secure, scalable, and purpose-built for results. Our digital thread portfolio weaves AI across engineering, operations, and service, backed by partnerships with the best in the industry.</p>
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">The future lies in collaboration: humans define the vision, and agents take care of the execution. When that balance works, businesses unlock real efficiency and creativity. At Rialtes, we make this transformation real. We help enterprises
+
+                                <Link className="text-[#0092E0]  transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/"}><span className="px-2">deploy agentic systems</span></Link>
+
+                                that are secure, scalable, and purpose-built for results. Our digital thread portfolio weaves AI across engineering, operations, and service, backed by partnerships with the best in the industry.</p>
 
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                Now’s the time. Agentic AI isn’t just a tech upgrade; it’s a mindset shift. Waiting means falling behind. Let’s talk about how to make your enterprise truly intelligent.
+                                Now’s the time. Agentic AI isn’t just a tech upgrade; it’s a mindset shift. Waiting means falling behind.
+
+                                <Link className="text-[#0092E0]  transition duration-300 ease-out hover:text-gray-400 underline" href={" https://www.rialtes.com/contact-us/"}><span className=""> Let’s talk </span></Link>
+
+                                about how to make your enterprise truly intelligent.
                             </p>
 
 
