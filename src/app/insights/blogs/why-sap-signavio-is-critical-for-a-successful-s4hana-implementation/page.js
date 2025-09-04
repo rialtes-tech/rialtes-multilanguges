@@ -26,7 +26,7 @@ const schemaData = {
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation"
+    "@id": "https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation"
   },
   "datePublished": "2025-06-16",
 
