@@ -315,7 +315,7 @@ export default function page() {
                 </div>
                 <div className="md:hidden block">
                     <Image
-                        src="/images/industry/auto-sense/Mobile/auto-sense-banner-mob.webp"
+                        src="/images/industry/auto-sense/Mobile/auto-sense-banner-mob.webp"                                                                                                                                                                                                                                                                                                     
                         alt=""
                         fill
                         priority

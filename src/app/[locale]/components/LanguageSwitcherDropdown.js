@@ -86,8 +86,7 @@ export default function LanguageSwitcher({ arrowImg }) {
                         <li
                             key={data.code}
                             onClick={() => handleChange(data.code)}
-                            className='flex gap-4 md:font-bold font-normal 4xl:text-[17px] xl:text-[15px] text-[13px] cursor-pointer'
-                        >
+                            className='flex gap-4 md:font-bold font-normal 4xl:text-[17px] xl:text-[15px] text-[13px] cursor-pointer'>
                             <Image
                                 src={data.flag}
                                 alt={`${data.label} flag`}
