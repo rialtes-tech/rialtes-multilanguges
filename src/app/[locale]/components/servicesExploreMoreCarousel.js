@@ -37,7 +37,7 @@ export default function servicesExploreMoreCarousel() {
   const ButtonGroup = ({ next, previous, ...rest }) => {
     const { carouselState: { currentSlide } } = rest;
     return (
-      <div className="carousel-button-group absolute top-0 lg:right-32 right-4 md:mt-4">
+      <div className="carousel-button-group absolute top-0 max-[400px]:top-[60px] lg:right-32 right-4 md:mt-4">
         <button className={currentSlide === 0 ? 'disable p-2 mr-2 group transition-all duration-300' : 'p-2 mr-2 group transition-all duration-300'} onClick={() => previous()}>
           <span className="sr-only">{t('previousSlide')}</span>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
@@ -76,7 +76,7 @@ export default function servicesExploreMoreCarousel() {
   return (
     <section className="relative sm:pb-10 pb-16">
       <div className=" mx-auto">
-        <div className="flex flex-row justify-between md:mr-24 mr-0">
+        <div className="flex flex-row justify-between md:mr-24 mr-0 max-[400px]:mb-10">
           <h2 className="text-white mb-14 mr-20 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">{t('headerTitle')}</h2>
         </div>
         <Carousel

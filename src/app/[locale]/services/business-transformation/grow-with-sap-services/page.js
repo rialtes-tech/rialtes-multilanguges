@@ -2,7 +2,6 @@
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/[locale]/components/Seo";
-import Link from "next/link";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
@@ -11,6 +10,7 @@ import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import LearnMore from "@/app/[locale]/components/learnMore";
+import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -127,6 +127,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('growWithSap')
   const locale = useLocale();
+  const { frActive, esActive, enActive } = useActiveLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { services, cardsData, benefits, sapBenefits, rialtesSapData, sapIntegrationPoints, sapInnovationList, featureHighlights, futureProofingData, keyPhasesData } = content.growWithSap;
   return (
@@ -144,7 +145,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative group overflow-hidden pb-20 h-[400px] md:h-[500px]  4xl:h-[650px] ">
+      <section className={`relative group overflow-hidden pb-20 ${enActive ? "h-[400px] md:h-[500px]  4xl:h-[650px]" : "h-[400px] md:h-[500px] xl:h-[550px] 4xl:h-[700px]"}`}>
         <div className="xl:block hidden">
           <Image
             src="/images/services/grow-with-sap/AdobeStock_1335365875.webp"
@@ -165,15 +166,15 @@ export default function Page() {
           />
         </div>
         <div className="relative custom-container">
-          <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-20 mx-auto">
-            <div className="xl:col-span-7 col-span-12 pr-5 xl:mt-10 ">
-              <h3 className="text-white text-[20px] xl:text-[24px] font-bold mb-2 break-words ">
+          <div className="grid lg:grid-cols-12 grid-cols-1 gap-2 max-[368px]:mt-10 mt-16 md:mt-24 xl:mt-10 3xl:mt-20 mx-auto">
+            <div className={`${frActive || esActive ? "xl:col-span-9 lg:col-span-7 col-span-12 xl:mt-10" : "xl:col-span-7 col-span-12 xl:mt-10"}`}>
+              <h3 className="text-white text-[20px] xl:text-[24px] font-bold mb-2 break-words">
                 {t('headerTitle')}
               </h3>
-              <h2 className="text-white  leading-tight break-words 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[81%] 2xl:w-[73%] 4xl:w-[100%]">
+              <h2 className={`text-white leading-tight break-words 4xl:text-[60px] xl:text-[40px] ${frActive || esActive ? "text-[24px] sm:w-[70%] md:w-[70%] lg:w-[80%]" : "text-[26px]"}  xl:w-[81%] 2xl:w-[73%] 4xl:w-[100%]`}>
                 {t('headerSubTitle')}
               </h2>
-              <h3 className="mt-8 text-[18px] xl:text-[23px] 4xl:text-[35px]  text-white font-medium leading-tight xl:font-semibold max-w-full break-words pr-24">
+              <h3 className={`mt-4 md:mt-8 text-[18px] xl:text-[23px] 4xl:text-[35px] text-white font-medium leading-tight xl:font-semibold max-w-full break-words ${frActive || esActive ? "pr-10 sm:w-[70%]  md:w-[50%] lg:w-[80%] xl:pr-24" : "pr-24"}`}>
                 {t('headerSubTitle2')}
               </h3>
               <div className="md:w-32 w-20 pt-6 mt-2">
@@ -198,7 +199,7 @@ export default function Page() {
       <section className="mt-16 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="4xl:col-span-10 xl:col-span-9 col-span-12">
-            <h1 className="leading-tight 4xl:text-[56px] xl:text-[40px] md:text-[26px] xl:mb-8  xl:w-[90%] 2xl:w-[80%] 4xl:w-[100%]">
+            <h1 className="leading-tight 4xl:text-[56px] xl:text-[40px] md:text-[26px] xl:mb-8 xl:w-[90%] 2xl:w-[80%] 4xl:w-[100%]">
               {t('pageDescTitle')}
             </h1>
             <p className="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight mt-5">{t('pageDesc1')}  </p>
@@ -360,14 +361,14 @@ export default function Page() {
             <thead>
               <tr className="bg-[#D0EEFF] text-left">
                 <th className="p-4 pl-10 4xl:text-[30px] xl:text-[24px] text-[16px] leading-tight font-medium">{t('keyPhasesTableTitle1')} </th>
-                <th className="p-4 xl:pl-32 pl-20 4xl:text-[30px] xl:text-[24px] text-[16px] leading-tight font-medium">{t('keyPhasesTableTitle2')}</th>
+                <th className="p-4 xl:pl-32 px-20 4xl:text-[30px] xl:text-[24px] text-[16px] leading-tight font-medium">{t('keyPhasesTableTitle2')}</th>
               </tr>
             </thead>
             <tbody className="mt-3">
               {keyPhasesData.map((item, index) => (
-                <tr key={index} className={`${index % 2 === 0 ? "bg-[#F2F2F2]" : "bg-white"}   mt-5`}>
-                  <td className="p- font-light pl-10 4xl:text-[26px] xl:text-[20px] text-[16px] leading-tight">{item.title}</td>
-                  <td className="p-6 xl:pl-32 pl-20  font-light 4xl:text-[26px] xl:text-[20px] text-[16px] leading-tight">{item.desc}</td>
+                <tr key={index} className={`${index % 2 === 0 ? "bg-[#F2F2F2]" : "bg-white"} mt-5`}>
+                  <td className="font-light pl-10 4xl:text-[26px] xl:text-[20px] text-[16px] leading-tight">{item.title}</td>
+                  <td className={`py-6 xl:pl-32 ${frActive || esActive ? "px-20" : "pl-20 pr-10"} font-light 4xl:text-[26px] xl:text-[20px] text-[16px] leading-tight`}>{item.desc}</td>
                 </tr>
               ))}
             </tbody>
@@ -484,12 +485,12 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:gap-20 mt-80 md:mt-14 xl:mt-0">
+          <div className={`grid xl:grid-cols-12 grid-cols-1 text-white xl:gap-20 gap-y-10 mt-80 md:mt-14 xl:mt-0 ${frActive || esActive ? "max-[360px]:mt-[400px] mt-[320px] sm:mt-[260px] md:mt-[250px] lg:mt-[200px] xl:mt-0" : "max-[366px]:mt-[360px] mt-[290px] sm:mt-[220px] md:mt-[230px] lg:mt-[200px] xl:mt-0"}`}>
             <div className="xl:col-span-5 col-span-12">
-              <h2 className="4xl:text-[40px] xl:text-[28px] text-[20px] leading-tight xl:font-semibold  font-bold">{t('meetTitle')} </h2>
+              <h2 className="4xl:text-[40px] xl:text-[28px] text-[20px] leading-tight xl:font-semibold font-bold">{t('meetTitle')} </h2>
               <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 font-normal leading-tight">
                 {t('rialchatTitle')}</p>
-              <LearnMore btnName="Know More" href='/products/agentchat' />
+              <LearnMore btnName="Know More" href='/products/agentchat' textColor="#134874" bgcolor="#ffffff" />
             </div>
             <div className="xl:col-span-7 col-span-12 xl:pr-20 ">
               <h3 className="4xl:text-[30px] xl:text-[24px] text-[18px] leading-tight font-semibold">{t('conversationalBenefitsTitle')}</h3>

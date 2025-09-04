@@ -248,7 +248,7 @@ export default function page() {
                 <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light max-sm:w-[80%]">
                     {t('manageTitle')}
                 </h2>
-                <h3 className="xl:text-[36px] 4xl:text-[30px] text-[22px] leading-tight font-semibold xl:mt-[34px] mt-[15px] max-[345px]:w-full max-sm:w-[90%]">
+                <h3 className="xl:text-[24px] 4xl:text-[30px] text-[22px] leading-tight font-semibold xl:mt-[34px] mt-[15px] max-[345px]:w-full max-sm:w-[90%]">
                     {t('titleOne')} <br />  {t('titleTwo')} <br />  {t('titleThree')}
                 </h3>
                 <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[40px] xl:gap-y-[89px] lg:gap-y-[59px] gap-y-[68px] xl:mt-[106px] mt-[59px] 2xl:w-[80%] xl:w-[90%] md:w-[86%] sm:w-[70%]">
