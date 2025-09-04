@@ -21,7 +21,7 @@
     "features": [
       {
         "title": "Mensajería bidireccional en tiempo real por WhatsApp",
-        "image": "/images/industry/rialchat/Seamless Messaging.png",
+        "image": "/images/industry/rialchat/Seamless Messaging.webp",
         "alt": "Mensajería en tiempo real por WhatsApp",
         "points": [
           "Inicia y gestiona conversaciones de WhatsApp directamente desde cualquier objeto de Salesforce.",
@@ -31,7 +31,7 @@
       },
       {
         "title": "Mensajería con contexto",
-        "image": "/images/industry/rialchat/Rich Media Support.png",
+        "image": "/images/industry/rialchat/rich-media-support.webp",
         "alt": "Mensajería con contexto",
         "points": [
           "Accede al contexto completo del cliente desde Salesforce mientras chateas.",
@@ -40,7 +40,7 @@
       },
       {
         "title": "Compatible con todas las nubes de Salesforce",
-        "image": "/images/industry/rialchat/Automated Conversation Logging.png",
+        "image": "/images/industry/rialchat/Automated Conversation Logging.webp",
         "alt": "Compatible con todas las nubes de Salesforce",
         "points": [
           "<strong>Sales Cloud:</strong> Convierte chats en clientes potenciales y oportunidades.",
@@ -52,7 +52,7 @@
       },
       {
         "title": "Integración fluida con Salesforce",
-        "image": "/images/industry/rialchat/Seamless Messaging.png",
+        "image": "/images/industry/rialchat/Seamless Messaging.webp",
         "alt": "Integración fluida con Salesforce",
         "points": [
           "Funciona desde el primer momento con Casos, Clientes potenciales, Oportunidades, Órdenes de trabajo y más.",
@@ -70,7 +70,7 @@
       },
       {
         "title": "Seguridad y cumplimiento nativos de Salesforce",
-        "image": "/images/industry/rialchat/Seamless Messaging.png",
+        "image": "/images/industry/rialchat/Seamless Messaging.webp",
         "alt": "Seguridad y cumplimiento",
         "points": [
           "Aprovecha jerarquías de roles, reglas de uso compartido y seguridad a nivel de objeto de Salesforce.",

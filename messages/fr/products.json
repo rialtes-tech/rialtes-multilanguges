@@ -21,7 +21,7 @@
     "features": [
       {
         "title": "Messagerie WhatsApp bidirectionnelle en temps réel",
-        "image": "/images/industry/rialchat/Seamless Messaging.png",
+        "image": "/images/industry/rialchat/Seamless Messaging.webp",
         "alt": "Messagerie WhatsApp en temps réel",
         "points": [
           "Initiez et gérez des conversations WhatsApp directement depuis n’importe quel objet Salesforce.",
@@ -31,7 +31,7 @@
       },
       {
         "title": "Messagerie contextuelle",
-        "image": "/images/industry/rialchat/Rich Media Support.png",
+        "image": "/images/industry/rialchat/rich-media-support.webp",
         "alt": "Messagerie contextuelle",
         "points": [
           "Accédez au contexte client complet depuis Salesforce pendant la discussion.",
@@ -40,7 +40,7 @@
       },
       {
         "title": "Compatible avec tous les Clouds Salesforce",
-        "image": "/images/industry/rialchat/Automated Conversation Logging.png",
+        "image": "/images/industry/rialchat/Automated Conversation Logging.webp",
         "alt": "Prend en charge tous les Clouds Salesforce",
         "points": [
           "<strong>Sales Cloud :</strong> Convertissez les chats en Pistes et Opportunités.",
@@ -52,7 +52,7 @@
       },
       {
         "title": "Intégration transparente à Salesforce",
-        "image": "/images/industry/rialchat/Seamless Messaging.png",
+        "image": "/images/industry/rialchat/Seamless Messaging.webp",
         "alt": "Intégration fluide à Salesforce",
         "points": [
           "Fonctionne immédiatement avec Cas, Pistes, Opportunités, Ordres de travail, et plus encore.",
@@ -70,7 +70,7 @@
       },
       {
         "title": "Sécurité et conformité natives Salesforce",
-        "image": "/images/industry/rialchat/Seamless Messaging.png",
+        "image": "/images/industry/rialchat/Seamless Messaging.webp",
         "alt": "Sécurité et conformité",
         "points": [
           "Exploite les hiérarchies de rôles, règles de partage et sécurité au niveau des objets de Salesforce.",
