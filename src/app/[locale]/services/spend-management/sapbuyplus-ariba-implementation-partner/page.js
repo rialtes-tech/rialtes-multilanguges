@@ -100,10 +100,10 @@ export default function page() {
             <section className="lg:pt-[89px] lg:pb-[40px] pt-[37px] pb-[42px] text-[#FFFFFF] mt-[53px] lg:mt-[85px] lg:bg-[url('/images/sap-buy/why-choose-rialtes-img.webp')] bg-[url('/images/sap-buy/Mobile/why-choose-rialtes-mob-img.webp')] bg-cover bg-no-repeat lg:bg-[50%_20%] max-sm:bg-[20%_10%]">
                 <div className="custom-container px-[2rem] md:px-auto mt-[110%] md:mt-[110%] max-[450px]:mt-[150%] max-[390px]:mt-[170%] max-[355px]:mt-[210%]  lg:mt-0">
                     <div className="max-lg:pt-[37px]">
-                        <h2 className="text-[26px] font-light 4xl:text-[60px] xl:text-[40px] leading-tight lg:w-[60%] xl:w-[50%] w-[86%]">
+                        <h2 className="text-[26px] font-light 4xl:text-[60px] xl:text-[40px] leading-tight lg:w-[55%] xl:w-[50%] w-[86%]">
                             {t('whyChooseRialtesTitle')}
                         </h2>
-                        <h3 className="mt-[21px] text-[22px]  font-semibold lg:mt-[35px] 4xl:text-[42px] xl:text-[38px] leading-tight lg:w-[50%] xl:w-[60%] 2xl:W-[50%]">{t('whyChooseRialtesSubTitle')}</h3>
+                        <h3 className="mt-[21px] text-[22px]  font-semibold lg:mt-[35px] 4xl:text-[42px] xl:text-[32px] leading-tight lg:w-[50%]">{t('whyChooseRialtesSubTitle')}</h3>
                         <p className="mt-[12px] text-[17px] font-medium lg:mt-[42px] 4xl:text-[22px] xl:text-[20px] leading-tight lg:w-[50%]">{t('whyChooseRialtesDesc')}</p>
                         <div className="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 lg:gap-[30px] gap-[26px] lg:mt-[26px] mt-[45px]">
                             {

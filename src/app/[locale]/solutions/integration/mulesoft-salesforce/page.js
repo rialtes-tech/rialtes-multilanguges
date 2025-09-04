@@ -252,9 +252,9 @@ const page = () => {
             {t("servicesTitle")}
           </p>
         </div>
-        <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 ">
+        <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-7 2xl:gap-10 gap-10 ">
           {serveData.map(({ _id, tittle, descrip }) => (
-            <div className="border-r border-[#707070] " key={_id}>
+            <div className="border-r border-[#707070] xl:pr-4  " key={_id}>
               <div className="max-w-[256px]">
                 <h4 className=" font-bold leading-tight 4xl:text-[24px] xl:text-[20px]">
                   {tittle}
