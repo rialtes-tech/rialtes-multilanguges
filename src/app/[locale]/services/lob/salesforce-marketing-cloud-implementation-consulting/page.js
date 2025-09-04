@@ -268,7 +268,7 @@ export default function Page() {
                     </div>
                 </div>
 
-                <section className=" text-white py-12 custom-container xl:absolute relative z-[99] xl:z-0 4xl:mt-[-450px] mt-[-125px] xl:mt-[-450px]">
+                <section className=" text-white py-12 custom-container xl:absolute relative  xl:z-0 4xl:mt-[-450px] mt-[-125px] xl:mt-[-450px]">
                     <div className="custom-container mx-auto px-6 xl:px-14 bg-[#006FBE]">
                         {/* Title + Description */}
                         <div className="text-left mb-5">
@@ -329,7 +329,7 @@ export default function Page() {
             </section>
             {/* reimagine section */}
             <div className="relative 4xl:mt-[20rem] 4xl:pl-[142px] pb-20 custom-container mt-[16rem] max-md:px-0 xl:mt-[18rem]">
-                <div className="bg-[#F0F0F0] relative 4xl:pl-[142px] 4xl:h-[1340px] xl:h-[865px] 2xl:h-[915px]">
+                <div className="bg-[#F0F0F0] relative 4xl:pl-[142px]">
                     <div className="relative z-10 -mt-32 4xl:mr-[-140px] xl:mr-[-70px] xl:ml-[80px] 4xl:ml-0">
                         <div className="xl:block hidden">
                             <Image
@@ -355,19 +355,19 @@ export default function Page() {
                         </div>
                     </div>
 
-                    <div className="relative z-20 mt-10 grid xl:grid-cols-2 gap-10 px-4 xl:px-0 max-md:px-[35px]">
-                        <div className="4xl:mt-[40rem] mt-[15rem] xs:mt-[17rem] md:mt-[43rem] xl:mt-[29rem] xl:ml-[5rem] 4xl:ml-0 2xl:mt-[32rem]">
+                    <div className="relative z-20 mt-10 grid xl:grid-cols-2 gap-10 px-4 xl:px-0 max-md:px-[35px] pb-[90px] xl:pb-0">
+                        <div className="4xl:mt-[40rem] mt-[14rem] xs:mt-[17rem] md:mt-[38rem] xl:mt-[29rem] xl:ml-[5rem] 4xl:ml-0 2xl:mt-[32rem]">
                             <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight pr-10 xl:pr-0 4xl:pr-0">
                                 {t('reimaginTitle')}
                             </h2>
                             <p className="mt-5 text-[16px] 4xl:text-[22px]">
                                 {t('reimaginDesc')}
                             </p>
-                            <div className="mt-6 xl:block hidden 4xl:mt-[275px] xl:mt-[85px]">
+                            <div className="absolute bottom-0 ">
                                 <LearnMore />
                             </div>
                         </div>
-                        <div className="4xl:mt-[40rem]  xl:mt-[29rem] 2xl:mt-[32rem]">
+                        <div className="4xl:mt-[40rem]  xl:mt-[29rem] 2xl:mt-[32rem] 4xl:pb-[60px] 2xl:pb-[70px] xl:pb-[70px]">
                             <ul className="list-disc marker:text-black marker:font-bold 4xl:pl-5 4xl:p-10 4xl:pt-0 4xl:pb-5 text-[16px] 4xl:text-[22px] space-y-3 pr-6 pl-6 xl:pr-20 4xl:pr-24 font-medium">
                                 {aiMarketingData.map((item, index) => (
                                     <li key={index}>
@@ -378,15 +378,13 @@ export default function Page() {
                             <p className="text-[16px] 4xl:text-[22px] mt-5 xl:mt-5 4xl:mt-5 pr-12 xl:pr-0 4xl:pr-0">
                                 {t('byHarnessingTitle')}
                             </p>
-                            <div className="mt-5 xl:hidden block">
-                                <LearnMore />
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
             </div>
             {/* introducing agentchat section */}
-            <section className="relative 4xl:mt-[9rem] mt-[1rem] xl:mt-[9rem]">
+            <section className="relative 4xl:mt-[9rem] mt-[1rem] xl:mt-[84px] 2xl:mt-[83px]">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/services/lob/advantageplus/desktop/agentchat.webp"
@@ -411,13 +409,13 @@ export default function Page() {
                 </div>
                 <div className="grid xl:grid-cols-12 grid-cols-12 absolute xl:top-[-4rem] 4xl:top-[-8rem]  md:top-[57rem]">
                     <div className="xl:col-span-6 col-span-12"></div>
-                    <div className="xl:col-span-5 col-span-12 bg-[#184671] text-white pt-12 4xl:px-14 xl:px-10 px-10">
+                    <div className="xl:col-span-5 col-span-12 bg-[#184671] text-white 4xl:pt-16 xl:pt-8 4xl:px-14 xl:px-10 px-10 pt-10">
                         <h2 className="4xl:text-[50px] text-[26px] xl:text-[38px] leading-tight font-light">{t('introducingAgentChatTitle')}</h2>
-                        <h3 className="4xl:text-[35px] text-[24px] xl:text-[25px] mt-5 leading-tight pr-12 xl:pr-0 4xl:pr-0">{t('introducingAgentChatSubTitle')}</h3>
-                        <h3 className="mt-5 leading-tight 4xl:text-[30px] text-[20px] pr-14 xl:pr-0 4xl:pr-0">{t('introducingAgentChatSubTitle2')}</h3>
-                        <p className="mt-5 leading-tight font-light 4xl:text-[22px] text-[16px] pr-12 xl:pr-0 4xl:pr-0">{t('introducingAgentChatDesc')}</p>
+                        <h3 className="4xl:text-[35px] text-[24px] xl:text-[25px] mt-8 leading-tight pr-12 xl:pr-0 4xl:pr-0">{t('introducingAgentChatSubTitle')}</h3>
+                        <h3 className="mt-8 leading-tight 4xl:text-[30px] text-[20px] pr-14 xl:pr-0 4xl:pr-0">{t('introducingAgentChatSubTitle2')}</h3>
+                        <p className="mt-8 leading-tight font-light 4xl:text-[22px] text-[16px] pr-12 xl:pr-0 4xl:pr-0">{t('introducingAgentChatDesc')}</p>
                         <h3 className="mt-5 4xl:text-[30px] text-[20px]">{t('keyFeatures')}</h3>
-                        <ul className="list-disc marker:text-white marker:font-bold pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:space-y-5 xl:space-y-4 space-y-4 mt-5 pr-8 xl:pr-0 4xl:pr-16">
+                        <ul className="list-disc marker:text-white marker:font-bold pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:space-y-8 xl:space-y-4 space-y-4 mt-5 pr-8 xl:pr-0 4xl:pr-16">
                             {agentChatData.map((feature, index) => (
                                 <li key={index}>
                                     <strong>{feature.title}</strong> {feature.description}
@@ -432,16 +430,38 @@ export default function Page() {
                 </div>
             </section>
             {/* your growth section */}
-            <section className="4xl:mt-[14rem] 2xl:mt-[10rem] custom-container relative 4xl:pr-[142px] mt-[88rem] xs:mt-[72rem] sm:mt-[58rem] md:mt-[52rem] lg:mt-[80rem] xl:mt-[15rem] max-md:px-0">
+            <section className={` custom-container relative 4xl:pr-[142px]  max-md:px-0
+             ${locale === "es"
+                                    ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[98rem] xs:mt-[1333px] sm:mt-[58rem] md:mt-[52rem] lg:mt-[80rem] xl:mt-[30rem]"
+                                    : locale === "fr"
+                                        ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[98rem] xs:mt-[1413px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[32rem]"
+                                        : "4xl:mt-[14rem] 2xl:mt-[10rem] mt-[98rem] xs:mt-[1200px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[20rem]"
+                                }`}
+            >
                 <div className="grid grid-cols-1 xl:grid-cols-2 items-stretch relative">
-                    <div className="relative z-0 order-1 xl:order-2 4xl:ml-[-300px] xl:ml-[-211px]">
+                    <div className={`relative z-0 order-1 xl:order-2
+                     ${locale === "es"
+                                    ? "4xl:ml-[-185px] 2xl:ml-[-240px] xl:ml-[-120px]"
+                                    : locale === "fr"
+                                        ? "4xl:ml-[-185px] 2xl:ml-[-240px] xl:ml-[-120px]"
+                                        : "4xl:ml-[-300px] xl:ml-[-211px]"
+                                }`}
+                    >
                         <div className="xl:block hidden">
                             <Image
                                 src="/images/services/lob/advantageplus/desktop/your-growth.webp"
                                 alt=" Your Growth Partners image"
                                 width={0}
                                 height={0}
-                                className="w-full h-full mt-10 xl:mt-20 object-cover"
+                                className={`w-full  mt-10 xl:mt-20 object-cover
+                                 ${locale === "es"
+                                    ? "4xl:h-[980px] xl:h-[800px]"
+                                    : locale === "fr"
+                                        ? "4xl:h-[980px] xl:h-[800px]"
+                                        : "4xl:h-[980px] xl:h-[800px]"
+                                }`}
+                                
+                                
                                 sizes="100vw"
                                 priority
                             />
