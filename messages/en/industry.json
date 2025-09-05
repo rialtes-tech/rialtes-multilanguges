@@ -571,6 +571,65 @@
       "Automate compliant marketing and medical content distribution.",
       "Track customer interactions and feedback in real-time."
     ],
+    "strategicChallengeData": [
+      {
+        "number": "1",
+        "title": "Complex and Dynamic Regulatory Compliance",
+        "bgColor": "#CCFFEA",
+        "numberColor": "#415C3D",
+        "description": "Pharma companies operate in a highly regulated environment that requires real-time data visibility, accurate reporting, and global compliance adherence. Challenges include:",
+        "points": [
+          "Managing complex, ever-changing global regulatory frameworks (FDA, EMA, MHRA, TGA).",
+          "Maintaining submission readiness, audit trails, and risk assessments.",
+          "Lack of integrated platforms to manage quality events, safety reporting, and regulatory submissions."
+        ],
+        "imgDesktop": "/images/pharma/Complex and Dynamic Regulatory Compliance.webp",
+        "imgMobile": "/images/pharma/Complex and Dynamic .webp"
+      },
+      {
+        "number": "2",
+        "title": "Accelerating Clinical Trials and R&D Innovation",
+        "bgColor": "#C3EBFF",
+        "numberColor": "#086CB4",
+        "description": "Bringing therapies to market faster demands better trial management, patient recruitment, and data consolidation. Current issues:",
+        "points": [
+          "Delays in trial recruitment and site activation.",
+          "Fragmented systems for trial data and adverse event management.",
+          "Challenges in ensuring data accuracy for regulatory submissions."
+        ],
+        "imgDesktop": "/images/pharma/Accelerating Clinical Trials and R&D Innovation.webp",
+        "imgMobile": "/images/pharma/Accelerating Clinical.webp"
+      },
+      {
+        "number": "3",
+        "title": "Commercial and Medical Affairs Engagement Gaps",
+        "bgColor": "#FFF3D8",
+        "numberColor": "#B16929",
+        "description": "Engaging HCPs, payers, and patients requires personalized, compliant, and omnichannel engagement strategies. Key issues include:",
+        "points": [
+          "Disconnected field medical and sales teams limiting coordinated HCP engagement.",
+          "Lack of visibility into patient support and outcomes.",
+          "Struggles with medical inquiry and adverse event tracking."
+        ],
+        "imgDesktop": "/images/pharma/Commercial and Medical Affairs Engagement Gaps.webp",
+        "imgMobile": "/images/pharma/Commercial and Medical.webp"
+      },
+      {
+        "number": "4",
+        "title": "Supply Chain, Manufacturing, and Serialization",
+        "bgColor": "#C7DEFF",
+        "numberColor": "#4E70BA",
+        "description": "Pharma companies must ensure product integrity and compliance across the supply chain. Challenges include:",
+        "points": [
+          "Managing serialization and track & trace mandates.",
+          "Lack of real-time visibility into inventory and shipments.",
+          "Inefficiencies in recall, complaint, and adverse event responses."
+        ],
+        "imgDesktop": "/images/pharma/Supply Chain, Manufacturing, and Serialization.webp",
+        "imgMobile": "/images/pharma/Supply Chain (1).webp"
+      }
+    ],
+    "strategicTitle": "Top 4 Strategic Challenges Facing Pharma and Biotech Industry Today",
     "headerTitle": "Pharma Industry",
     "headerSubTitle": "Accelerating Pharma Innovation & Compliance",
     "headerSubTitle2": "Rialtes End-to-End Pharma & Biotech Solutions",

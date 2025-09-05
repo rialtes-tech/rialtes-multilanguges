@@ -571,6 +571,65 @@
       "Automatizar la distribución de contenido médico y de marketing conforme a regulaciones.",
       "Rastrear interacciones con clientes y obtener retroalimentación en tiempo real."
     ],
+    "strategicChallengeData": [
+      {
+        "number": "1",
+        "title": "Cumplimiento Normativo Complejo y Dinámico",
+        "bgColor": "#CCFFEA",
+        "numberColor": "#415C3D",
+        "description": "Las empresas farmacéuticas operan en un entorno altamente regulado que requiere visibilidad de datos en tiempo real, informes precisos y cumplimiento global. Los desafíos incluyen:",
+        "points": [
+          "Gestionar marcos regulatorios globales complejos y en constante cambio (FDA, EMA, MHRA, TGA).",
+          "Mantener la preparación de presentaciones, registros de auditoría y evaluaciones de riesgos.",
+          "Falta de plataformas integradas para gestionar eventos de calidad, reportes de seguridad y presentaciones regulatorias."
+        ],
+        "imgDesktop": "/images/pharma/Complex and Dynamic Regulatory Compliance.webp",
+        "imgMobile": "/images/pharma/Complex and Dynamic .webp"
+      },
+      {
+        "number": "2",
+        "title": "Acelerando Ensayos Clínicos e Innovación en I+D",
+        "bgColor": "#C3EBFF",
+        "numberColor": "#086CB4",
+        "description": "Llevar terapias al mercado más rápido requiere mejor gestión de ensayos, reclutamiento de pacientes y consolidación de datos. Problemas actuales:",
+        "points": [
+          "Retrasos en el reclutamiento de ensayos y activación de sitios.",
+          "Sistemas fragmentados para la gestión de datos de ensayos y eventos adversos.",
+          "Desafíos para garantizar la precisión de los datos para presentaciones regulatorias."
+        ],
+        "imgDesktop": "/images/pharma/Accelerating Clinical Trials and R&D Innovation.webp",
+        "imgMobile": "/images/pharma/Accelerating Clinical.webp"
+      },
+      {
+        "number": "3",
+        "title": "Brechas en el Compromiso Comercial y de Asuntos Médicos",
+        "bgColor": "#FFF3D8",
+        "numberColor": "#B16929",
+        "description": "Involucrar a HCPs, pagadores y pacientes requiere estrategias de compromiso personalizadas, conformes y omnicanal. Los problemas clave incluyen:",
+        "points": [
+          "Equipos médicos y de ventas desconectados que limitan el compromiso coordinado con los HCP.",
+          "Falta de visibilidad en el apoyo al paciente y sus resultados.",
+          "Dificultades en la gestión de consultas médicas y seguimiento de eventos adversos."
+        ],
+        "imgDesktop": "/images/pharma/Commercial and Medical Affairs Engagement Gaps.webp",
+        "imgMobile": "/images/pharma/Commercial and Medical.webp"
+      },
+      {
+        "number": "4",
+        "title": "Cadena de Suministro, Manufactura y Serialización",
+        "bgColor": "#C7DEFF",
+        "numberColor": "#4E70BA",
+        "description": "Las empresas farmacéuticas deben garantizar la integridad del producto y el cumplimiento en toda la cadena de suministro. Los desafíos incluyen:",
+        "points": [
+          "Gestionar la serialización y los mandatos de seguimiento y localización.",
+          "Falta de visibilidad en tiempo real del inventario y los envíos.",
+          "Ineficiencias en la respuesta a retiradas, quejas y eventos adversos."
+        ],
+        "imgDesktop": "/images/pharma/Supply Chain, Manufacturing, and Serialization.webp",
+        "imgMobile": "/images/pharma/Supply Chain (1).webp"
+      }
+    ],
+    "strategicTitle": "Los 4 Principales Desafíos Estratégicos que Enfrenta la Industria Farmacéutica y Biotecnológica Hoy",
     "headerTitle": "Industria Farmacéutica",
     "headerSubTitle": "Acelerando la Innovación y el Cumplimiento Farmacéutico",
     "headerSubTitle2": "Soluciones Integrales para la Industria Farmacéutica y Biotecnológica de Rialtes",

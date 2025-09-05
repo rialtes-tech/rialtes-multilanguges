@@ -11,6 +11,7 @@ import enContent from '../../../../../../messages/en/industry.json';
 import esContent from '../../../../../../messages/es/industry.json';
 import frContent from '../../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../../components/changeLocalization";
+import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -117,139 +118,13 @@ const schemaData = {
         }
     }
 }
-const StrategicChallenge = () => {
-    const data = [
-        {
-            number: "1",
-            title: "Complex and Dynamic Regulatory Compliance",
-            bgColor: "#CCFFEA",
-            numberColor: "#415C3D",
-            description: "Pharma companies operate in a highly regulated environment that requires real-time data visibility, accurate reporting, and global compliance adherence. Challenges include:",
-            points: [
-                "Managing complex, ever-changing global regulatory frameworks (FDA, EMA, MHRA, TGA).",
-                "Maintaining submission readiness, audit trails, and risk assessments.",
-                "Lack of integrated platforms to manage quality events, safety reporting, and regulatory submissions."
-            ],
-            imgDesktop: "/images/pharma/Complex and Dynamic Regulatory Compliance.webp",
-            imgMobile: "/images/pharma/Complex and Dynamic .webp"
-        },
-        {
-            number: "2",
-            title: "Accelerating Clinical Trials and R&D Innovation",
-            bgColor: "#C3EBFF",
-            numberColor: "#086CB4",
-            description: "Bringing therapies to market faster demands better trial management, patient recruitment, and data consolidation. Current issues:",
-            points: [
-                "Delays in trial recruitment and site activation.",
-                "Fragmented systems for trial data and adverse event management.",
-                "Challenges in ensuring data accuracy for regulatory submissions."
-            ],
-            imgDesktop: "/images/pharma/Accelerating Clinical Trials and R&D Innovation.webp",
-            imgMobile: "/images/pharma/Accelerating Clinical.webp"
-        },
-        {
-            number: "3",
-            title: "Commercial and Medical Affairs Engagement Gaps",
-            bgColor: "#FFF3D8",
-            numberColor: "#B16929",
-            description: "Engaging HCPs, payers, and patients requires personalized, compliant, and omnichannel engagement strategies. Key issues include:",
-            points: [
-                "Disconnected field medical and sales teams limiting coordinated HCP engagement.",
-                "Lack of visibility into patient support and outcomes.",
-                "Struggles with medical inquiry and adverse event tracking."
-            ],
-            imgDesktop: "/images/pharma/Commercial and Medical Affairs Engagement Gaps.webp",
-            imgMobile: "/images/pharma/Commercial and Medical.webp"
-        },
-        {
-            number: "4",
-            title: "Supply Chain, Manufacturing, and Serialization",
-            bgColor: "#C7DEFF",
-            numberColor: "#4E70BA",
-            description: "Pharma companies must ensure product integrity and compliance across the supply chain. Challenges include:",
-            points: [
-                "Managing serialization and track & trace mandates.",
-                "Lack of real-time visibility into inventory and shipments.",
-                "Inefficiencies in recall, complaint, and adverse event responses."
-            ],
-            imgDesktop: "/images/pharma/Supply Chain, Manufacturing, and Serialization.webp",
-            imgMobile: "/images/pharma/Supply Chain (1).webp"
-        }
-    ];
-    return (
-        <>
-            <div className="custom-container sm:mt-[147px] mt-[350px]  ">
-                <div className="w-full sm:w-[80%] xl:w-full 2xl:w-[80%] ">
-                    <h2 className="text-[26px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] leading-tight  4xl:w-[1084px] 2xl:w-[1000px] xl:w-[900px] lg:w-[1000px] ">
-                        Top 4 Strategic Challenges Facing Pharma and Biotech Industry Today
-                    </h2>
-                </div>
-            </div>
-            <div className="custom-container max-md:px-0">
-                {data.map((item, index) => (
-                    <div
-                        key={index}
-                        className="lg:mt-[55px] mt-[50px]"
-                        style={{ backgroundColor: item.bgColor }}>
-                        <div className={`grid lg:grid-cols-12 grid-cols-1 max-lg:px-[36px]`}>
-                            {index % 2 !== 0 && <div className="lg:col-span-1 col-span-12" />}
-                            <div
-                                className={`lg:col-span-4 col-span-12 relative group overflow-hidden ${index % 2 === 0 ? "order-1 lg:order-2" : ""}`}>
-                                <div className="lg:block hidden">
-                                    <Image
-                                        src={item.imgDesktop}
-                                        alt="pharma desktop img"
-                                        fill
-                                        priority
-                                        className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
-                                    />
-                                </div>
-                                <div className="lg:hidden block">
-                                    <Image
-                                        src={item.imgMobile}
-                                        alt="pharma mobile img"
-                                        width={600}
-                                        height={400}
-                                        priority
-                                        className="w-full h-full object-cover mx-auto"
-                                    />
-                                </div>
-                            </div>
-                            <div
-                                className={`lg:col-span-7 col-span-12 md:pt-[43px] pb-[69px] ${index % 2 === 0 ? "lg:px-[60px]" : "lg:pl-[60px] lg:pr-[40px]"
-                                    } ${index % 2 === 0 ? "order-2 lg:order-1" : ""}`}>
-                                <div className="flex lg:gap-10 gap-3 lg:items-center lg:flex-row flex-col">
-                                    <h2
-                                        className="xl:text-[100px] text-[60px] font-bold"
-                                        style={{ color: item.numberColor }}>
-                                        {item.number}
-                                    </h2>
-                                    <h2 className="4xl:text-[42px] 2xl:text-[37px] xl:text-[30px] lg:text-[28px] text-[28px] xl:font-bold font-medium leading-tight  ">
-                                        {item.title}
-                                    </h2>
-                                </div>
-                                <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  text-[16px] xl:mt-3 mt-5 pr-10 xl:pr-0 font-medium lg:font-normal">
-                                    {item.description}
-                                </p>
-                                <UnorderedList arrName={item.points} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px] text-[16px] mt-5 pr-8 xl:pr-0 leading-tight font-medium lg:font-normal" liClassName="" />
-                            </div>
-                            {index % 2 === 0 && <div className="lg:col-span-1 col-span-12 order-3"></div>}
-                        </div>
-                    </div>
-                ))}
-                <div className="mt-[20px] lg:mt-[40px] max-md:px-[36px]">
-                    <LearnMore />
-                </div>
-            </div>
-        </>
-    );
-}
 
 export default function Page() {
     const t = useTranslations('pharmaBiotech')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { thoughtData, whyRialtesData, salesforceLifeData, sapData, keyAiImpact, benefitsOfAiData, patientData, remoteData, agentChatData, salesforceAgentData } = content.pharmaBiotech;
+    const { frActive, esActive, enActive } = useActiveLocale();
+    const { thoughtData, whyRialtesData, salesforceLifeData, sapData, keyAiImpact, benefitsOfAiData, patientData, remoteData, agentChatData, salesforceAgentData, strategicChallengeData } = content.pharmaBiotech;
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -315,7 +190,12 @@ export default function Page() {
                 </div>
             </section>
             {/* thought leadership section */}
-            <section className="relative group overflow-hidden 3xl:h-[850px] xl:h-[920px] md:h-[720px] sm:h-[950px] h-[1150px] xl:mt-20 mt-16 text-white">
+            <section
+                className={`relative group overflow-hidden text-white mt-16 xl:mt-20 3xl:h-[850px] xl:h-[920px] md:h-[720px] sm:h-[950px] h-[1150px] max-[374px]:h-[1300px]
+    ${frActive ? "3xl:h-[1000px] 2xl:h-[1000px] xl:h-[990px] lg:h-[820px] md:h-[900px] sm:h-[1050px] h-[1200px] max-[432px]:h-[1360px] max-[374px]:h-[1500px]" : ""}
+    ${esActive ? "3xl:h-[1050px] 2xl:h-[1000px] xl:h-[990px] lg:h-[820px] md:h-[840px] sm:h-[1050px] max-[432px]:h-[1300px] max-[356px]:h-[1500px]" : ""}`}
+            >
+
                 <div className="md:block hidden">
                     <Image
                         src="/images/pharma/pharma TL.webp"
@@ -340,8 +220,8 @@ export default function Page() {
                 <div className="custom-container absolute bottom-0 ">
                     <div className="grid md:grid-cols-12 grid-cols-1">
                         <div className="md:col-span-7 col-span-12">
-                            <h2 className="text-[26px]  md:text-[30px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px] mt-[400px]">{t('thoughtLeadershipTitle')}</h2>
-                            <h3 className="4xl:text-[42px] 2xl:text-[40px] xl:text-[36px] lg:text-[30px] md:text-[30px]  text-[22px] xl:mt-5 mt-3 font-bold leading-tight lg:w-[94%]">{t('thoughtLeadershipSubTitle')}</h3>
+                            <h2 className={`${(esActive || frActive) ? "4xl:text-[57px] 2xl:text-[52x] " : "4xl:text-[60px] 2xl:text-[56px] "} text-[26px] md:text-[30px] lg:text-[50px] xl:text-[50px] mt-[400px]`}>{t('thoughtLeadershipTitle')}</h2>
+                            <h3 className="4xl:text-[42px] 2xl:text-[40px] xl:text-[36px] lg:text-[30px] md:text-[30px] text-[22px] xl:mt-5 mt-3 font-bold leading-tight lg:w-[94%]">{t('thoughtLeadershipSubTitle')}</h3>
                             <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] md:text-[18px] text-[16px] mt-5 leading-tight">{t('thoughtLeadershipDesc')}</p>
                             <UnorderedList arrName={thoughtData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] md:text-[16px] text-[16px] mt-5 leading-tight" liClassName="" />
                         </div>
@@ -354,7 +234,7 @@ export default function Page() {
             </section>
 
             {/* leading pharma section */}
-            <section className="relative h-[1300px] sm:h-[1260px] xl:h-[1000px] mt-16 xl:mt-0">
+            <section className={`relative ${(frActive || esActive) ? "h-[1400px] sm:h-[1260px]  xl:h-[1200px]" : "h-[1300px] sm:h-[1260px] xl:h-[1000px]"}  mt-16 xl:mt-0`}>
                 <div className="lg:block hidden">
                     <Image
                         src="/images/pharma/why Rialtes (1).webp"
@@ -374,7 +254,7 @@ export default function Page() {
                     />
                 </div>
                 <div className="custom-container">
-                    <div className="relative p-6 md:p-12 4xl:w-[828px] 2xl:w-[800px] xl:w-[700px] lg:w-[650px] md:w-[500px] w-[322px] xl:h-[403px]">
+                    <div className={`relative p-6 md:p-12 ${(frActive || esActive) ? "xl:h-[470px] w-[340px] max-[395px]:w-[320px] max-[365px]:w-[285px]" : "xl:h-[403px] w-[280px]"} 4xl:w-[828px] 2xl:w-[800px] xl:w-[700px] lg:w-[650px] md:w-[500px]`}>
                         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
                         <div className="relative bg-opacity-80 text-white z-10 xl:p-4 rounded-lg">
                             <h2 className="text-[26px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px] 4xl:text-[60px] leading-tight 4xl:w-[698px] 2xl:w-[630px] xl:w-[580px] lg:w-[550px] md:w-[400px] w-[257px]">{t('leadingPharmaTitle')}</h2>
@@ -392,7 +272,71 @@ export default function Page() {
                 </div>
             </section>
             {/* strategic challenge section */}
-            <StrategicChallenge />
+            <>
+                <div className="custom-container sm:mt-[147px] mt-[350px]  ">
+                    <div className="w-full sm:w-[80%] xl:w-full 2xl:w-[80%] ">
+                        <h2 className="text-[26px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px] 4xl:text-[60px] leading-tight">
+                            {t('strategicTitle')}
+                        </h2>
+                    </div>
+                </div>
+                <div className="custom-container max-md:px-0">
+                    {strategicChallengeData.map((item, index) => (
+                        <div
+                            key={index}
+                            className="lg:mt-[55px] mt-[50px]"
+                            style={{ backgroundColor: item.bgColor }}>
+                            <div className={`grid lg:grid-cols-12 grid-cols-1 max-lg:px-[36px]`}>
+                                {index % 2 !== 0 && <div className="lg:col-span-1 col-span-12" />}
+                                <div
+                                    className={`lg:col-span-4 col-span-12 relative group overflow-hidden ${index % 2 === 0 ? "order-1 lg:order-2" : ""}`}>
+                                    <div className="lg:block hidden">
+                                        <Image
+                                            src={item.imgDesktop}
+                                            alt="pharma desktop img"
+                                            fill
+                                            priority
+                                            className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
+                                        />
+                                    </div>
+                                    <div className="lg:hidden block">
+                                        <Image
+                                            src={item.imgMobile}
+                                            alt="pharma mobile img"
+                                            width={600}
+                                            height={400}
+                                            priority
+                                            className="w-full h-full object-cover mx-auto"
+                                        />
+                                    </div>
+                                </div>
+                                <div
+                                    className={`lg:col-span-7 col-span-12 md:pt-[43px] pb-[69px] ${index % 2 === 0 ? "lg:px-[60px]" : "lg:pl-[60px] lg:pr-[40px]"
+                                        } ${index % 2 === 0 ? "order-2 lg:order-1" : ""}`}>
+                                    <div className="flex lg:gap-10 gap-3 lg:items-center lg:flex-row flex-col">
+                                        <h2
+                                            className="xl:text-[100px] text-[60px] font-bold"
+                                            style={{ color: item.numberColor }}>
+                                            {item.number}
+                                        </h2>
+                                        <h2 className="4xl:text-[42px] 2xl:text-[37px] xl:text-[30px] lg:text-[28px] text-[28px] xl:font-bold font-medium leading-tight  ">
+                                            {item.title}
+                                        </h2>
+                                    </div>
+                                    <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  text-[16px] xl:mt-3 mt-5 pr-10 xl:pr-0 font-medium lg:font-normal">
+                                        {item.description}
+                                    </p>
+                                    <UnorderedList arrName={item.points} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px] text-[16px] mt-5 pr-8 xl:pr-0 leading-tight font-medium lg:font-normal" liClassName="" />
+                                </div>
+                                {index % 2 === 0 && <div className="lg:col-span-1 col-span-12 order-3"></div>}
+                            </div>
+                        </div>
+                    ))}
+                    <div className="mt-[20px] lg:mt-[40px] max-md:px-[36px]">
+                        <LearnMore btnName={t('learnMoreBtn')} />
+                    </div>
+                </div>
+            </>
             {/* deep expertise section */}
             <section className="relative group overflow-hidden h-auto text-white xl:pt-[99px] xl:pb-[175px] pt-[39px] pb-[150px] mt-[32px] xl:mt-[160px]">
                 <div className="lg:block hidden">
@@ -500,11 +444,10 @@ export default function Page() {
                     </div>
                     <div className="grid lg:grid-cols-12 grid-cols-1 relative ">
                         <div className="lg:col-span-6 col-span-12 lg:mt-[93px] mt-[500px md:mt-[600px] sm:mt-[500px] mt-[480px] lg:ml-[61px] ml-[36px] lg:mb-[81px] mb-[40px]">
-                            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[36px] lg:text-[30px] md:text-[30px] text-[22px] font-bold  lg:w-[680px]">{t('keyImpactTitle')}</h3>
+                            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[36px] lg:text-[30px] md:text-[30px] text-[22px] font-bold lg:w-[680px] max-md:pr-[36px]">{t('keyImpactTitle')}</h3>
                             <UnorderedList arrName={keyAiImpact} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] text-[16px] mt-5 lg:pr-4 pr-8" liClassName="" />
-                            <button className="bg-white hover:bg-[#ffffff] xl:text-[20px] xl:block hidden  hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-black py-3 px-8 transition duration-300 order-4 mt-10">
-                                <Link href='/contact-us'>{t('learnMoreBtn')}</Link>
-                            </button>
+                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#ffffff" textColor="#134874" />
+
                         </div>
                     </div>
                 </div>
@@ -539,7 +482,7 @@ export default function Page() {
                             <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[36px] lg:text-[30px] md:text-[30px] text-[22px] font-bold  lg:w-[680px]">{t('benefitsTitle')}</h3>
                             <UnorderedList arrName={benefitsOfAiData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] text-[16px] mt-5 xl:pr-20 pr-10" liClassName="" />
                             <div className="mt-5 xl:block hidden">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>
@@ -561,10 +504,10 @@ export default function Page() {
                                 />
                             </div>
                             <h2 className="mt-10 text-[26px]  md:text-[36px] lg:text-[38px] xl:text-[48px] 2xl:text-[54px]  4xl:text-[60px] leading-tight">{t('patientTitle')}</h2>
-                            <h3 className="4xl:text-[42px] 2xl:text-[40px] xl:text-[38px] lg:text-[30px] md:text-[30px] text-[22px] mt-10 font-bold leading-tight 4xl:w-[670px] 2xl:w-[660px] xl:w-[650px] lg:w-[500px] md:w-[450px]">{t('patientSubTitle')} </h3>
-                            <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] text-[16px] xl:mt-10 mt-5 leading-tight 4xl:w-[670px] 2xl:w-[660px] xl:w-[550px] lg:w-[500px]">{t('patientDesc')}</p>
+                            <h3 className={`4xl:text-[42px] 2xl:text-[40px] xl:text-[38px] lg:text-[30px] md:text-[30px] text-[22px] mt-10 font-bold leading-tight ${enActive ? "4xl:w-[670px] lg:w-[500px] md:w-[450px]" : ""}`}>{t('patientSubTitle')} </h3>
+                            <p className={`4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] text-[16px] xl:mt-10 mt-5 leading-tight ${enActive ? "4xl:w-[670px]  lg:w-[500px]" : " "} `}>{t('patientDesc')}</p>
                             <UnorderedList arrName={patientData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] 2xl:text-[18px] text-[16px] mt-5" liClassName="" />
-                            <p className="bg-[#163055] 4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px]  md:text-[20px] text-[18px] p-4  xl:p-10 py-8  mt-10 leading-tight">{t('patientBlueBox')}</p>
+                            <p className="bg-[#163055] 4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[20px] text-[18px] p-4 xl:p-10 py-8 mt-10 leading-tight">{t('patientBlueBox')}</p>
                         </div>
                         <div className="lg:col-span-6 col-span-12 lg:mt-64 mt-0 md:w-[80%] lg:w-full">
                             <div className="relative group overflow-hidden">
@@ -580,35 +523,33 @@ export default function Page() {
                             <h2 className="mt-10 text-[26px]  md:text-[36px] lg:text-[38px] xl:text-[48px] 2xl:text-[54px]  4xl:text-[60px] leading-tight pr-10 xl:pr-0">{t('remoteTitle')}</h2>
                             <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[18px] text-[16px] mt-10 pr-10 xl:pr-0 leading-tight">{t('remoteSubTitle')}</p>
                             <UnorderedList arrName={remoteData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] 2xl:text-[18px]  mt-5 pr-10 leading-tight" liClassName="" />
-                            <p className="bg-[#163055] absolute  4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px]  md:text-[20px] text-[18px] p-10 lg:mt-[100px] xl:mt-[100px] 2xl:mt-[100px] mt-[40px] leading-tight">{t('remoteBlueBox')}</p>
+                            <p className="bg-[#163055] absolute 4xl:text-[26px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[20px] text-[18px] p-4 sm:p-10  lg:mt-[100px] xl:mt-[100px] 2xl:mt-[100px] mt-[40px] leading-tight">{t('remoteBlueBox')}</p>
                         </div>
                     </div>
                 </div>
             </div>
             {/* agent chat section */}
-            <div className="custom-container lg:mt-[160px] mt-[140px] h-full relative">
-                <div className="grid xl:grid-cols-12 grid-cols-1">
-                    <div className="xl:col-span-5 col-span-12">
-                        <div className="group overflow-hidden relative">
+            <div className={`custom-container lg:mt-[160px] mt-[140px] max-[490px]:mt-[180px] ${(frActive || esActive)} h-full relative`}>
+                <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-[80px]">
+                    <div className="xl:col-span-6 col-span-12">
+                        <div className="group overflow-hidden relative h-full w-full">
                             <Image
                                 src="/images/pharma/AgentChat (1).webp"
                                 alt="agent chat image"
                                 priority
                                 height={0}
                                 width={0}
-                                className="xl:!h-[791px] xl:!w-[670px] md:!h-[450px] md:!w-[450px] !h-[389px] !w-[360px] object-cover transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
+                                className="xl:!h-full xl:!w-full md:!h-[550px] md:!w-[550px] !h-[389px] !w-[360px] object-cover"
                             />
                         </div>
                     </div>
-                    <div className="xl:col-span-1 col-span-12 ">
-                    </div>
-                    <div className="col-span-6 4xl:w-[532px] 2xl:w-[480px] xl:w-[460px] lg:w-[450px] md:w-[450px]">
+                    <div className="xl:col-span-6 lg:w-full md:w-[650px]">
                         <h2 className="4xl:text-[50px] 2xl:text-[48px] xl:text-[40px] lg:text-[40px] md:text-[35px] text-[26px] mt-8 xl:mt-0">{t('agentChatTitle')}</h2>
                         <h3 className="4xl:text-[42px] 2xl:text-[38px] xl:text-[35px] lg:text-[34px] md:text-[30px] text-[24px] lg:font-bold font-medium leading-tight">{t('agentChatSubTitle')}</h3>
                         <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] xl:mt-10 mt-6">{t('agentChatDesc')}</p>
                         <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] text-[20px] font-bold xl:mt-10 mt-6">{t('keyFeatureTitle')}</h3>
                         <UnorderedList arrName={agentChatData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] 2xl:text-[18px] mt-5 font-bold leading-tight" liClassName="" />
-                        <div className="mt-6">
+                        <div className={`mt-6 xl:mb-[90px]`}>
                             <LearnMore href='/products/agentchat' btnName={t('knowMoreBtn')} />
                         </div>
                     </div>
@@ -668,7 +609,7 @@ export default function Page() {
                 </div>
             </div>
             {/* Contact Form */}
-            <div className="xl:mt-32 mt-12 custom-container text-black py-20">
+            <div className={`xl:mt-32 ${(frActive || esActive) ? "max-[360px]:mt-20 mt-14" : "mt-12"} custom-container text-black py-20`}>
                 <ContactForm title={t('contactTitle')} className={"max-w-[62rem]  font-light text-[26px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px] 4xl:text-[60px] leading-tight pr-10 xl:pr-0"} />
             </div>
         </div>
