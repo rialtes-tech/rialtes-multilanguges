@@ -571,6 +571,65 @@
             "Automatiser la distribution de contenu marketing et médical conforme.",
             "Suivre les interactions et retours clients en temps réel."
         ],
+        "strategicChallengeData": [
+            {
+                "number": "1",
+                "title": "Conformité Réglementaire Complexe et Dynamique",
+                "bgColor": "#CCFFEA",
+                "numberColor": "#415C3D",
+                "description": "Les entreprises pharmaceutiques évoluent dans un environnement fortement réglementé nécessitant une visibilité des données en temps réel, des rapports précis et le respect des normes mondiales. Les défis incluent :",
+                "points": [
+                    "Gérer des cadres réglementaires mondiaux complexes et en constante évolution (FDA, EMA, MHRA, TGA).",
+                    "Maintenir la préparation des soumissions, les pistes d’audit et les évaluations des risques.",
+                    "Manque de plateformes intégrées pour gérer les événements qualité, les rapports de sécurité et les soumissions réglementaires."
+                ],
+                "imgDesktop": "/images/pharma/Complex and Dynamic Regulatory Compliance.webp",
+                "imgMobile": "/images/pharma/Complex and Dynamic .webp"
+            },
+            {
+                "number": "2",
+                "title": "Accélération des Essais Cliniques et de l’Innovation R&D",
+                "bgColor": "#C3EBFF",
+                "numberColor": "#086CB4",
+                "description": "Mettre les thérapies sur le marché plus rapidement nécessite une meilleure gestion des essais, le recrutement de patients et la consolidation des données. Problèmes actuels :",
+                "points": [
+                    "Retards dans le recrutement pour les essais et l’activation des sites.",
+                    "Systèmes fragmentés pour la gestion des données d’essais et des événements indésirables.",
+                    "Défis pour assurer l’exactitude des données pour les soumissions réglementaires."
+                ],
+                "imgDesktop": "/images/pharma/Accelerating Clinical Trials and R&D Innovation.webp",
+                "imgMobile": "/images/pharma/Accelerating Clinical.webp"
+            },
+            {
+                "number": "3",
+                "title": "Lacunes dans l’Engagement Commercial et Médical",
+                "bgColor": "#FFF3D8",
+                "numberColor": "#B16929",
+                "description": "Impliquer les HCP, les payeurs et les patients nécessite des stratégies d’engagement personnalisées, conformes et omnicanales. Les principaux problèmes incluent :",
+                "points": [
+                    "Équipes médicales et commerciales déconnectées limitant l’engagement coordonné avec les HCP.",
+                    "Manque de visibilité sur le soutien aux patients et leurs résultats.",
+                    "Difficultés dans la gestion des demandes médicales et le suivi des événements indésirables."
+                ],
+                "imgDesktop": "/images/pharma/Commercial and Medical Affairs Engagement Gaps.webp",
+                "imgMobile": "/images/pharma/Commercial and Medical.webp"
+            },
+            {
+                "number": "4",
+                "title": "Chaîne d’Approvisionnement, Fabrication et Sérialisation",
+                "bgColor": "#C7DEFF",
+                "numberColor": "#4E70BA",
+                "description": "Les entreprises pharmaceutiques doivent garantir l’intégrité du produit et la conformité tout au long de la chaîne d’approvisionnement. Les défis incluent :",
+                "points": [
+                    "Gérer la sérialisation et les obligations de suivi et traçabilité.",
+                    "Manque de visibilité en temps réel sur les stocks et les expéditions.",
+                    "Inefficacités dans les rappels, les plaintes et les réponses aux événements indésirables."
+                ],
+                "imgDesktop": "/images/pharma/Supply Chain, Manufacturing, and Serialization.webp",
+                "imgMobile": "/images/pharma/Supply Chain (1).webp"
+            }
+        ],
+        "strategicTitle": "Les 4 Principaux Défis Stratégiques auxquels l’Industrie Pharmaceutique et Biotechnologique est Confrontée Aujourd’hui",
         "headerTitle": "Industrie Pharmaceutique",
         "headerSubTitle": "Accélérer l’innovation et la conformité pharmaceutique",
         "headerSubTitle2": "Solutions Pharma & Biotech de bout en bout par Rialtes",
@@ -775,7 +834,8 @@
         "realTimeDesc": "RialChat, notre solution d’intégration WhatsApp, permet une communication instantanée entre patients, prestataires et services terrain :",
         "stayConnectedTitle": "Restez connecté avec les patients et prestataires sur le canal qu’ils privilégient.",
         "contactTitle": "Transformez la vie des patients et les opérations des dispositifs médicaux avec Rialtes !",
-        "contactSubTitle": "Prêt à améliorer vos opérations de dispositifs médicaux ? Contactez Rialtes dès aujourd’hui pour être à la pointe de l’innovation centrée sur le patient et de la conformité."
+        "contactSubTitle": "Prêt à améliorer vos opérations de dispositifs médicaux ? Contactez Rialtes dès aujourd’hui pour être à la pointe de l’innovation centrée sur le patient et de la conformité.",
+        "learnMoreBtn": "En savoir plus"
     },
     "homeHealth": {
         "addressingData": [
@@ -1350,7 +1410,8 @@
         ],
         "contactTitle": "Prêt à connecter votre entreprise ?",
         "contactSubTitle": "Collaborez avec Rialtes pour simplifier les intégrations, accélérer la transformation digitale et débloquer une véritable valeur commerciale.",
-        "contactSubtitleOne": "Contactez-nous dès aujourd'hui pour une consultation gratuite et découvrez comment nous pouvons renforcer votre entreprise connectée."
+        "contactSubtitleOne": "Contactez-nous dès aujourd'hui pour une consultation gratuite et découvrez comment nous pouvons renforcer votre entreprise connectée.",
+        "learnMoreBtn": "En savoir plus"
     },
     "manufacturing": {
         "headerTitle": "Fabrication",

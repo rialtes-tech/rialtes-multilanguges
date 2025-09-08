@@ -11,6 +11,7 @@ import enContent from "../../../../../messages/en/industry.json";
 import esContent from "../../../../../messages/es/industry.json";
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
+import { useActiveLocale } from "../../components/activeLanguages";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -115,6 +116,7 @@ export default function Page() {
   const t = useTranslations("semiconductor");
   const locale = useLocale();
   const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { frActive, esActive, enActive } = useActiveLocale();
   const {
     thoughtData,
     endToEndData,
@@ -144,7 +146,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* herosection */}
-      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+      <section className="relative group overflow-hidden h-[350px] md:h-[500px] 4xl:h-[650px]">
         <div className="hidden md:block">
           <Image
             src="/images/industry/semi-conductor/hero-banner-desk.webp"
@@ -240,17 +242,15 @@ export default function Page() {
               {t("thoughtDescOne")}
             </p>
             <div className="absolute mt-[20px] xl:mt-[30px]">
-              <LearnMore />
+              <LearnMore btnName={t('learnMore')} />
             </div>
           </div>
         </div>
       </section>
       {/* end to end section */}
-      <section
-        className="custom-container relative 4xl:mt-[80px] xl:mt-[40px] mt-[54px] xl:pt-[119px] pt-[55px] lg:pb-[65px] pb-0
+      <section className="custom-container relative 4xl:mt-[80px] xl:mt-[40px] mt-[54px] xl:pt-[119px] pt-[55px] lg:pb-[65px] pb-0
              bg-no-repeat bg-cover bg-[20%_30%] lg:bg-[65%_20%]
-             bg-[url('/images/industry/semi-conductor/Mobile/end-to-end-mob.webp')] lg:bg-[url('/images/industry/semi-conductor/end-to-end-desk.webp')]"
-      >
+             bg-[url('/images/industry/semi-conductor/Mobile/end-to-end-mob.webp')] lg:bg-[url('/images/industry/semi-conductor/end-to-end-desk.webp')]">
         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[80%] lg:w-full">
           {t("endTitle")}
         </h2>
@@ -262,18 +262,23 @@ export default function Page() {
             return (
               <div
                 key={ind}
-                className={`lg:w-[82%] ${ind == 2 && "lg:mt-[-100px]"}`}
-              >
+                className={` ${(frActive || esActive) ? "lg:w-[88%] " : "lg:w-[82%] "} ${ind == 2 && "lg:mt-[-100px]"}`}>
                 <h3
-                  className={`xl:text-[24px] 4xl:text-[30px] text-[18px] leading-tight font-semibold lg:mt-[80px] mt-[40px] w-[90%] lg:w-full ${
-                    ind == 0 && "!mt-0"
-                  } ${(ind == 0 || ind == 1) && "lg:!mt-0"} ${
-                    ind == 4 &&
-                    "xl:!mt-[40px] lg:!mt-0 2xl:!mt-0 4xl:!mt-[80px]"
-                  } text-[#0A6BB8]`}
+                  className={`
+    text-[18px] xl:text-[24px] 4xl:text-[30px] 
+    leading-tight font-semibold 
+    mt-[40px] lg:mt-[80px]
+    w-[90%] lg:w-full 
+    text-[#0A6BB8]
+    ${ind === 0 ? "mt-0 lg:mt-0" : ""}
+    ${ind === 1 ? "lg:mt-0" : ""}
+    ${ind === 4 ? "xl:mt-[40px] lg:mt-0 2xl:mt-0 4xl:mt-[80px]" : ""}
+    ${((frActive || esActive) && (ind == 2 || ind == 4)) ? "2xl:pt-[60px] 3xl:pt-0 4xl:pt-[40px]" : ""}
+  `}
                 >
                   {data.title}
                 </h3>
+
                 {data.desc && (
                   <p className="xl:text-[20px] 4xl:text-[24px] text-[16px] leading-tight font-normal mt-[18px] xl:mt-[40px] w-[90%] lg:w-full">
                     {data.desc}
@@ -284,19 +289,15 @@ export default function Page() {
                   ulClassName="lg:pb-[60px] pb-[40px] xl:space-y-[29px] space-y-[19px] list-disc xl:mt-[40px] mt-[24px] pl-[20px] 4xl:w-[96%] w-[90%] lg:w-full"
                   liClassName="text-[16px] xl:text-[20px] 4xl:text-[24px] leading-tight font-normal"
                 />
-                <div
-                  className={`h-[1px] w-full bg-[#707070] ${
-                    ind == 3 && "lg:bg-transparent"
-                  } ${ind == 4 && "bg-transparent"}`}
-                ></div>
+                <div className={`h-[1px] w-full bg-[#707070] ${ind == 3 && "lg:bg-transparent"} ${ind == 4 && "bg-transparent"}`}></div>
                 {ind === 3 && (
                   <div className="hidden lg:block absolute lg:bottom-[60px]">
-                    <LearnMore />
+                    <LearnMore btnName={t('learnMore')} />
                   </div>
                 )}
                 {ind === 4 && (
                   <div className="block lg:hidden max-lg:mt-[25px]">
-                    <LearnMore />
+                    <LearnMore btnName={t('learnMore')} />
                   </div>
                 )}
               </div>
@@ -320,7 +321,7 @@ export default function Page() {
               liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal"
             />
             <div className="xl:mt-[87px] mt-[24px]">
-              <LearnMore />
+              <LearnMore btnName={t('learnMore')} />
             </div>
           </div>
           <div className="md:col-span-6 col-span-12 md:order-2 order-1">
@@ -349,10 +350,8 @@ export default function Page() {
         </div>
       </section>
       {/* strategic challenges section */}
-      <section
-        className="xl:mt-[117px] mt-[64px] custom-container relative xl:pt-[112px] xl:pb-[151px] pt-[79px] pb-[107px] text-[#ffffff] bg-no-repeat bg-cover
-             bg-[url('/images/industry/semi-conductor/Mobile/strategic-mob.webp')] lg:bg-[url('/images/industry/semi-conductor/strategic-desk.webp')]"
-      >
+      <section className="xl:mt-[117px] mt-[64px] custom-container relative xl:pt-[112px] xl:pb-[151px] pt-[79px] pb-[107px] text-[#ffffff] bg-no-repeat bg-cover
+             bg-[url('/images/industry/semi-conductor/Mobile/strategic-mob.webp')] lg:bg-[url('/images/industry/semi-conductor/strategic-desk.webp')]">
         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[90%] md:w-[70%] xl:w-[80%]">
           {t("topTitle")}
         </h2>
@@ -360,18 +359,14 @@ export default function Page() {
           {strategicData.map((data, ind) => {
             return (
               <div
-                className={`pt-[51px] xl:px-[46px] pb-[59px] px-[36px] border border-[#FFFFFF] ${
-                  ind == 2 &&
-                  "lg:mt-[-80px] lg:h-[440px] xl:h-[530px] 2xl:h-[520px] 4xl:h-[620px]"
-                }`}
-                key={ind}
-              >
+                className={`pt-[51px] xl:px-[46px] pb-[59px] px-[36px] border border-[#FFFFFF] ${((frActive || esActive) && ind == 1) ? "lg:h-[440px] xl:h-[530px] 2xl:h-[520px] 4xl:h-[680px] " : ""} ${(enActive && ind == 2) &&
+                  "lg:mt-[-60px] lg:h-[440px] xl:h-[530px] 2xl:h-[520px] 4xl:h-[620px]"}  ${((frActive || esActive) && ind == 2) ? "lg:mt-[-60px] xl:mt-[-70px]" : ""}`} key={ind}>
                 <div className="absolute lg:mt-[-80px] xl:mt-[-90px] 4xl:mt-[-100px] mt-[-80px]">
                   <p className="xl:text-[60px] 4xl:text-[70px] text-[50px] leading-tight px-6 py-0 text-[#FFD800] inline bg-[#073259] mix-blend-hard-light font-bold">
                     {data.id}
                   </p>
                 </div>
-                <h3 className="text-[20px] leading-tight xl:text-[30px] 4xl:text-[40px] font-bold lg:mt-[30px] xl:mt-[10px] 3xl:mt-[40px]">
+                <h3 className="text-[20px] leading-tight xl:text-[28px] 4xl:text-[40px] font-bold lg:mt-[30px] xl:mt-[10px] 3xl:mt-[40px]">
                   {data.title}
                 </h3>
                 <UnorderedList
@@ -441,7 +436,7 @@ export default function Page() {
               <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[90%] md:mb-[43px] xl:mb-[53px] md:w-[60%] lg:w-[50%] xl:w-[70%] 4xl:w-[70%]">
                 {data.title}
               </h2>
-              <div className="grid md:grid-cols-2 xl:grid-cols-12 grid-cols-1 lg:gap-[40px] xl:gap-0 4xl:gap-[40px] md:gap-[20px]">
+              <div className="grid md:grid-cols-2 xl:grid-cols-12 grid-cols-1 lg:gap-[40px] 4xl:gap-[40px] md:gap-[20px]">
                 <div className="xl:col-span-5">
                   {data.subtitle && (
                     <p className="xl:text-[30px] 4xl:text-[40px] text-[20px] leading-tight font-semibold max-md:mt-[13px] w-[90%] lg:w-full">
@@ -449,9 +444,8 @@ export default function Page() {
                     </p>
                   )}
                   <p
-                    className={`xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal max-md:mt-[23px] w-[90%] lg:w-[94%] 4xl:w-full ${
-                      ind == 2 && "xl:mt-[34px] mt-[23px]"
-                    }`}
+                    className={`xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal max-md:mt-[23px] w-[90%] lg:w-[94%] 4xl:w-full ${ind == 2 && "xl:mt-[34px] mt-[23px]"
+                      }`}
                   >
                     {data.desc}
                   </p>
@@ -493,7 +487,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="max-md:mt-[31px] mt-[40px]">
-                <LearnMore />
+                <LearnMore btnName={t('learnMore')} />
               </div>
             </div>
           );
@@ -634,7 +628,7 @@ export default function Page() {
               </div>
             </div>
             <div className="absolute lg:mt-[60px] mt-[20px]">
-              <LearnMore />
+              <LearnMore btnName={t('learnMore')} />
             </div>
           </div>
         </div>
@@ -694,7 +688,7 @@ export default function Page() {
         {keyPillarsDesc.map((data, ind) => {
           return (
             <div
-              className="xl:py-[60px] py-[44px] border-b border-[#707070] last:border-0"  key={ind}
+              className="xl:py-[60px] py-[44px] border-b border-[#707070] last:border-0" key={ind}
             >
               <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[60px] w-[90%] md:w-[80%] lg:w-full">
                 <div>
@@ -706,9 +700,8 @@ export default function Page() {
                     </div>
                     <div>
                       <h4
-                        className={`text-[20px] leading-tight xl:text-[30px] 4xl:text-[40px] font-semibold text-[#006FBE] 4xl:w-[93%] md:w-[80%] lg:w-full ${
-                          data.id == 4 && "4xl:w-full w-[101%]"
-                        }`}
+                        className={`text-[20px] leading-tight xl:text-[30px] 4xl:text-[40px] font-semibold text-[#006FBE] 4xl:w-[93%] md:w-[80%] lg:w-full ${data.id == 4 && "4xl:w-full w-[101%]"
+                          }`}
                       >
                         {data.title}
                       </h4>
@@ -796,7 +789,7 @@ export default function Page() {
                     liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal"
                   />
                   <div className="xl:mt-[97px] mt-[48] lg:float-end">
-                    <LearnMore />
+                    <LearnMore btnName={t('learnMore')} />
                   </div>
                 </div>
               </div>
@@ -863,35 +856,23 @@ export default function Page() {
           return (
             <div
               key={ind}
-              className={`relative ${ind == 0 ? "mt-0" : "max-lg:mt-[80px]"} `}
-            >
+              className={`relative ${ind == 0 ? "mt-0" : "max-lg:mt-[80px]"} `}>
               <div
                 className="absolute inset-0 w-full h-full"
-                style={{ backgroundColor: data.bgColor }}
-              ></div>
+                style={{ backgroundColor: data.bgColor }}></div>
               <div
-                className={`${
-                  ind == 0 && "xl:!h-[150px] 4xl:!h-[190px] lg:h-[80px]"
-                } absolute w-full h-[80px] sm:h-[200px] lg:h-[55px] xl:h-[120px] 4xl:h-[140px]`}
-                style={{ backgroundColor: "white" }}
-              ></div>
+                className={`${ind == 0 && "xl:!h-[150px] 4xl:!h-[190px] lg:h-[80px]"
+                  } absolute w-full h-[80px] sm:h-[200px] lg:h-[55px] xl:h-[120px] 4xl:h-[140px]`}
+                style={{ backgroundColor: "white" }}></div>
               <div
-                className={`custom-container relative z-10 ${
-                  isEven
-                    ? "4xl:!pl-[142px] xl:!pl-[52px] lg:!pl-[42px]"
-                    : "4xl:!pr-[142px] xl:!pr-[52px] lg:!pr-[42px]"
-                }`}
-              >
+                className={`custom-container relative z-10 ${isEven
+                  ? "4xl:!pl-[142px] xl:!pl-[52px] lg:!pl-[42px]"
+                  : "4xl:!pr-[142px] xl:!pr-[52px] lg:!pr-[42px]"
+                  }`}>
                 <div
-                  className={`grid lg:grid-cols-12 grid-cols-1 lg:gap-[30px] xl:gap-[40px] ${
-                    isEven ? "4xl:gap-[60px]" : "4xl:gap-[20px]"
-                  } max-[400px]:gap-y-[20px] gap-y-[40px] mt-[29px] lg:mt-[97px]`}
-                >
-                  <div
-                    className={`lg:col-span-4 4xl:col-span-5 col-span-12 ${
-                      isEven ? "" : "lg:order-2 order-1"
-                    }`}
-                  >
+                  className={`grid lg:grid-cols-12 grid-cols-1 lg:gap-[30px] xl:gap-[40px] ${isEven ? "4xl:gap-[60px]" : "4xl:gap-[20px]"
+                    } max-[400px]:gap-y-[20px] gap-y-[40px] mt-[29px] lg:mt-[97px]`}>
+                  <div className={`lg:col-span-4 4xl:col-span-5 col-span-12 ${isEven ? "" : "lg:order-2 order-1"}`}>
                     {/* Mobile Image */}
                     <div className="block md:hidden h-full w-full">
                       <Image
@@ -915,10 +896,7 @@ export default function Page() {
                     </div>
                   </div>
                   <div
-                    className={`lg:col-span-8 4xl:col-span-7 col-span-12 sm:w-[80%] lg:w-full ${
-                      isEven ? "" : "lg:order-1 order-2"
-                    }`}
-                  >
+                    className={`lg:col-span-8 4xl:col-span-7 col-span-12 sm:w-[80%] lg:w-full ${isEven ? "" : "lg:order-1 order-2"}`} >
                     <h4 className="text-[20px] leading-tight xl:text-[30px] 4xl:text-[40px] text-[#006FBE] font-semibold w-[90%] lg:w-[90%] xl:w-[80%] 2xl:w-[70%] 4xl:w-full">
                       {data.title}
                     </h4>
@@ -938,12 +916,8 @@ export default function Page() {
                     </div>
                   </div>
                 </div>
-                <div
-                  className={`absolute bottom-0 ${
-                    isEven && "lg:left-1/3 4xl:left-[770px] ml-[20px]"
-                  }`}
-                >
-                  <LearnMore />
+                <div className={`absolute bottom-0 ${isEven && "lg:left-1/3 4xl:left-[770px] ml-[20px]"}`}>
+                  <LearnMore btnName={t('learnMore')} />
                 </div>
               </div>
             </div>
@@ -1001,10 +975,7 @@ export default function Page() {
           title={t("contactTitle")}
           subtitle={t("contactSubTitle")}
           subtitle1={t("contactSubtitleOne")}
-          className={
-            " text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]"
-          }
-        />
+          className={" text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]"} />
       </div>
     </section>
   );
