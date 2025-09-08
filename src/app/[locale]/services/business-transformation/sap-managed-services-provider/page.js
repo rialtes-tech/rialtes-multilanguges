@@ -119,7 +119,16 @@ export default function Page() {
                             <h3 className="text-[20px] xl:text-[24px] font-bold mb-2 break-words">
                                 {t('headerTitle')}
                             </h3>
-                            <h2 className="leading-tight break-words xl:mt-10 mt-5 pr-32 md:pr-0 xl:pr-0 4xl:text-[56px] text-[26px] xl:text-[50px]">
+                            <h2 className={`leading-tight break-words xl:mt-10 mt-5  4xl:text-[56px] text-[26px] xl:text-[50px]
+                            
+                                  ${locale === "es"
+                                    ? "pr-[3rem] md:pr-0 xl:pr-0"
+                                    : locale === "fr"
+                                        ? "pr-10 md:pr-0 xl:pr-0"
+                                        : "pr-0 md:pr-0 xl:pr-0"
+                                }`}
+                            
+                            >
                                 {t('headerSubTitle')}
                             </h2>
                         </div>
@@ -501,7 +510,16 @@ export default function Page() {
                     </div>
 
                     {/* Content second on mobile, first on desktop */}
-                    <div className="col-span-5  order-2 xl:order-1 xl:h-[640px] 2xl:h-[650px] 4xl:h-[650px] bg-[#073259] xl:pb-0 pb-20 p-8 text-white xl:mt-24 z-[9] mx-[35px] xl:mx-0 mt-[-115px] xl:!pr-0 xl:pl-[80px]">
+                    <div className={`col-span-5  order-2 xl:order-1  bg-[#073259] xl:pb-0 pb-20 p-8 text-white xl:mt-24 z-[9] mx-[35px] xl:mx-0 mt-[-115px] xl:!pr-0 xl:pl-[80px]"
+                    
+                                  ${locale === "es"
+                                    ? "xl:h-[690px] 2xl:h-[650px] 4xl:h-[650px]"
+                                    : locale === "fr"
+                                        ? "xl:h-[640px] 2xl:h-[650px] 4xl:h-[650px]"
+                                        : "xl:h-[640px] 2xl:h-[650px] 4xl:h-[650px]"
+                                }`}
+                    
+                    >
                         <h2 className="leading-tight xl:mt-10 4xl:text-[56px] text-[26px] xl:text-[40px]">{t('intelligentTitle')}</h2>
                         <h3 className="mt-5 4xl:text-[36px] text-[20px] leading-tight font-semibold xl:pr-10">
                             {t('intelligentSubTitle')}
@@ -563,7 +581,7 @@ export default function Page() {
                 </div>
             </section>
             {/* smart procurement section */}
-            <section className="custom-container xl:mt-20 mt-[30rem] max-[500px]:mt-[500px] max-[378px]:mt-[624px] md:mt-[25rem] ">
+            <section className="custom-container xl:mt-20 mt-[30rem] max-[500px]:mt-[590px] max-[378px]:mt-[624px] md:mt-[25rem] ">
                 <div className="grid xl:grid-cols-12 grid-cols-12">
                     <div className="xl:col-span-6 col-span-12">
                         <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[40px]">{t('smartTitle')}</h2>
@@ -600,7 +618,7 @@ export default function Page() {
                 <div className="h-full relative custom-container">
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-black">
                         <div className="xl:col-span-9 col-span-12">
-                            <h2 className="text-[25px] xl:text-[60px] mt-16 leading-tight">
+                            <h2 className="text-[25px] 4xl:text-[60px] mt-16 leading-tight 2xl:text-[48px] xl:text-[42px]">
                                 {t('sapSignavioTitle')}
                             </h2>
                         </div>
