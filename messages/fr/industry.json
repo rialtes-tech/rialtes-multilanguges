@@ -834,7 +834,8 @@
         "realTimeDesc": "RialChat, notre solution d’intégration WhatsApp, permet une communication instantanée entre patients, prestataires et services terrain :",
         "stayConnectedTitle": "Restez connecté avec les patients et prestataires sur le canal qu’ils privilégient.",
         "contactTitle": "Transformez la vie des patients et les opérations des dispositifs médicaux avec Rialtes !",
-        "contactSubTitle": "Prêt à améliorer vos opérations de dispositifs médicaux ? Contactez Rialtes dès aujourd’hui pour être à la pointe de l’innovation centrée sur le patient et de la conformité."
+        "contactSubTitle": "Prêt à améliorer vos opérations de dispositifs médicaux ? Contactez Rialtes dès aujourd’hui pour être à la pointe de l’innovation centrée sur le patient et de la conformité.",
+        "learnMoreBtn": "En savoir plus"
     },
     "homeHealth": {
         "addressingData": [
@@ -1409,7 +1410,8 @@
         ],
         "contactTitle": "Prêt à connecter votre entreprise ?",
         "contactSubTitle": "Collaborez avec Rialtes pour simplifier les intégrations, accélérer la transformation digitale et débloquer une véritable valeur commerciale.",
-        "contactSubtitleOne": "Contactez-nous dès aujourd'hui pour une consultation gratuite et découvrez comment nous pouvons renforcer votre entreprise connectée."
+        "contactSubtitleOne": "Contactez-nous dès aujourd'hui pour une consultation gratuite et découvrez comment nous pouvons renforcer votre entreprise connectée.",
+        "learnMoreBtn": "En savoir plus"
     },
     "manufacturing": {
         "headerTitle": "Fabrication",

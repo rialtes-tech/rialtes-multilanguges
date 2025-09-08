@@ -11,6 +11,7 @@ import enContent from '../../../../../../messages/en/industry.json';
 import esContent from '../../../../../../messages/es/industry.json';
 import frContent from '../../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../../components/changeLocalization";
+import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
 export default function Page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -99,6 +100,7 @@ export default function Page() {
     const t = useTranslations('homeHealth')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { frActive, esActive } = useActiveLocale();
     const { addressingData, aiRovolutionizingData, capabilitiesData, agentChat, homeHealth, relatedData } = content.homeHealth
     return (
         <section className="min-h-screen">
@@ -114,7 +116,7 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* herosection */}
-            <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px] ">
+            <section className="relative group overflow-hidden h-[350px] md:h-[500px] 4xl:h-[650px]">
                 <div className="hidden md:block">
                     <Image
                         src="/images/home-health/hero-banner-desk.webp"
@@ -136,7 +138,7 @@ export default function Page() {
                     />
                 </div>
                 <div className="relative h-full custom-container flex items-center">
-                    <div className="grid grid-cols-1 lg:grid-cols-12 w-full pt-[120px] md:pt-0">
+                    <div className={`grid grid-cols-1 lg:grid-cols-12 w-full ${(frActive || esActive) ? "" : "pt-[100px]"} md:pt-0`}>
                         <div className="col-span-12">
                             <h1 className="text-[#FFFFFF] text-[18px] md:text-[24px] font-bold lg:w-full">
                                 {t('headerTitle')}
@@ -294,7 +296,7 @@ export default function Page() {
                 </div>
             </section>
             {/* agentchat section */}
-            <section className="custom-container bg-[#0A6BB8] text-[#ffffff] xl:mt-[247px] mt-[174px]">
+            <section className="custom-container bg-[#0A6BB8] text-[#ffffff] xl:mt-[247px] mt-[174px] relative">
                 <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[80px] gap-y-[40px]">
                     <div className="relative mt-[-120px]">
                         <Image src="/images/home-health/Mobile/agent-chat-mob.webp" alt="mobile" className="block md:hidden w-full h-full object-cover" width={0} height={0} priority />
@@ -335,19 +337,23 @@ export default function Page() {
                         })
                     }
                 </div>
-                <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[19px] mt-[40px] xl:mt-[80px] items-stretch">
-                    <div className="lg:col-span-3 col-span-12">
-                        <h4 className="4xl:text-[36px] xl:text-[28px] text-[20px] leading-tight w-[90%] lg:w-full">
-                            {t('agentChatSubTitle2')}
-                        </h4>
-                    </div>
-                    <div className="lg:col-span-6 xl:col-span-7 col-span-12">
-                        <UnorderedList arrName={homeHealth} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full 4xl:w-[90%] lg:pb-[120px]" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" />
-                    </div>
-                    <div className="xl:col-span-2 lg:col-span-3 col-span-12 h-full">
-                        <div className="flex flex-col justify-end h-full w-[190px]">
-                            <LearnMore />
+                <div className="relative">
+                    <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[19px] mt-[40px] xl:mt-[80px] items-stretch">
+                        <div className="lg:col-span-3 col-span-12">
+                            <h4 className="4xl:text-[36px] xl:text-[28px] text-[20px] leading-tight w-[90%] lg:w-full">
+                                {t('agentChatSubTitle2')}
+                            </h4>
                         </div>
+                        <div className="lg:col-span-6 xl:col-span-7 col-span-12">
+                            <UnorderedList arrName={homeHealth} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full 4xl:w-[90%] lg:pb-[120px]" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" />
+                        </div>
+                        <div className="xl:col-span-2 lg:col-span-3 col-span-12 h-full">
+
+                        </div>
+
+                    </div>
+                    <div className="lg:absolute lg:bottom-0 lg:right-0">
+                        <LearnMore />
                     </div>
                 </div>
             </section>

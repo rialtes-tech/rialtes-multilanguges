@@ -11,6 +11,7 @@ import enContent from '../../../../../../messages/en/industry.json';
 import esContent from '../../../../../../messages/es/industry.json';
 import frContent from '../../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../../components/changeLocalization";
+import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -100,9 +101,9 @@ export default function Page() {
     const t = useTranslations('medicalDevices')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { frActive, esActive } = useActiveLocale();
     const { thoughLeadershipData, whyPartnerData, challenges, salesforceLifeData, sapData, keyAiData, benefitsofAi, patientData, integratedData, mobileData, remoteDeviceData, salesforceAgentData, realTimeData } = content.medicalDevices
     const CriticalChallengesSection = () => {
-
         return (
             <section className="sm:mt-[120px] mt-[100px]">
                 <div className="custom-container">
@@ -172,7 +173,7 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative h-[400px] lg:h-[650px]">
+            <section className="relative h-[350px] md:h-[500px] 4xl:h-[650px]">
                 <div className="md:block hidden">
                     <Image
                         src="/images/medical/Medical device banner.webp"
@@ -193,13 +194,13 @@ export default function Page() {
                     />
                 </div>
                 <div className="h-full relative custom-container">
-                    <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20 xl:mt-20">
-                        <div className="4xl:col-span-7 xl:col-span-6 col-span-12 sm:pr-5">
-                            <h3 className="text-white xl:text-[24px] text-[18px] leading-tight font-bold xl:mb-2 mb-5 xl:mt-32 mt-20">{t('headerTitle')}</h3>
+                    <div className={`grid xl:grid-cols-12 grid-cols-1 xl:gap-20 xl:mt-20 ${(frActive || esActive) ? "md:w-[80%] xl:w-full" : ""}`}>
+                        <div className={`col-span-12 sm:pr-5 ${(frActive || esActive) ? "4xl:col-span-7 xl:col-span-8" : "4xl:col-span-7 xl:col-span-6"}`}>
+                            <h3 className={`text-white xl:text-[24px] text-[18px] leading-tight font-bold xl:mb-2 mb-5  ${(frActive || esActive) ? "mt-10 sm:mt-20 4xl:mt-16" : "mt-20 xl:mt-32"}`}>{t('headerTitle')}</h3>
                             <h1 className="text-white leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
                                 {t('headerSubTitle')}
                             </h1>
-                            <h3 className="4xl:text-[45px] xl:text-[33px] md:text-[18px] mt-5 text-white font-bold leading-tight pr-16 xl:pr-0">{t('headerSubTitle2')}</h3>
+                            <h3 className={`4xl:text-[45px] xl:text-[33px] md:text-[18px] mt-5 text-white font-bold leading-tight xl:pr-0 ${(frActive || esActive) ? "pr-0 sm:pr-10" : "pr-16"}`}>{t('headerSubTitle2')}</h3>
                         </div>
                         <div className="xl:col-span-6 col-span-12">
                         </div>
@@ -218,7 +219,7 @@ export default function Page() {
                 </div>
             </section>
             {/* thought leadership section */}
-            <section className="relative group overflow-hidden xl:h-[1000px] 2xl:h-[960px] lg:h-[700px] md:h-[650px] sm:h-[850px] h-[900px] xl:mt-24 mt-16 text-white">
+            <section className={`relative group overflow-hidden ${(frActive || esActive) ? "max-[385px]:h-[1100px] h-[900px] md:h-[700px] 4xl:h-[1060px]" : " h-[900px] md:h-[650px] "} 2xl:h-[960px] xl:h-[1000px] lg:h-[700px] sm:h-[850px] xl:mt-24 mt-16 text-white`}>
                 <div className="md:block hidden">
                     <Image
                         src="/images/medical/TL Medical Device.webp"
@@ -255,7 +256,7 @@ export default function Page() {
                 </div>
             </section>
             {/* why partner with rialtes */}
-            <section className="relative h-[1200px] lg:h-[1100px] md:h-[900px] sm:h-[1160px] xl:h-[1000px]" >
+            <section className={`relative ${(frActive || esActive) ? "h-[1350px] xl:h-[1200px]" : "h-[1200px] xl:h-[1000px]"}  lg:h-[1100px] md:h-[900px] sm:h-[1160px] `}>
                 <div className="lg:block hidden">
                     <Image
                         src="/images/medical/why-rialtes.webp"
@@ -275,7 +276,7 @@ export default function Page() {
                     />
                 </div>
                 <div className="custom-container">
-                    <div className="relative p-6 md:p-12 4xl:w-[690px] 4xl:h-[430px] xl:w-[520px] xl:h-[367px]">
+                    <div className={`relative p-6 md:p-12  ${(frActive || esActive) ? "4xl:w-[720px] 4xl:h-[500px] xl:w-[570px] xl:h-[367px]" : "4xl:w-[690px] 4xl:h-[430px] xl:w-[520px] xl:h-[367px]"}`}>
                         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
                         <div className="relative bg-opacity-80 text-white z-10 xl:p-4 rounded-lg">
                             <h2 className="4xl:text-[60px] xl:text-[42px] text-[26px] leading-tight">{t('whyPartnerTitle')}</h2>
@@ -293,7 +294,7 @@ export default function Page() {
                 </div>
             </section>
             <div className="sm:mt-[10rem] mt-[20rem] custom-container">
-                <LearnMore />
+                <LearnMore btnName={t('learnMoreBtn')} />
             </div>
             {/* critical challenges section */}
             <CriticalChallengesSection />

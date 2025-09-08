@@ -9,6 +9,7 @@ import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
+import { useActiveLocale } from "../../components/activeLanguages";
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -105,6 +106,7 @@ export default function page() {
     const t = useTranslations('lifeScience')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { frActive, esActive } = useActiveLocale();
     const { whyRialtesData, seamlessData, thoughLeadershipData, prebuiltData, commonSectionData, commonSectionData1 } = content.lifeScience
     return (
         <section className="min-h-screen">
@@ -199,7 +201,7 @@ export default function page() {
                 </p>
             </section>
             {/* why rialtes */}
-            <section className="custom-container relative max-[450px]:h-[1180px] max-[409px]:h-[1250px] max-[375px]:h-[1350] max-[345px]:h-[1390] h-[1150px] sm:h-[1100px] md:h-[890px] lg:h-[780px] xl:h-[950px] 2xl:h-[1100px] 3xl:h-[950px] 4xl:h-[1100px] max-md:px-0 lg:pr-0 xl:mt-[100px] mt-[54px] text-white">
+            <section className={`custom-container relative ${(frActive || esActive) ? "max-[450px]:h-[1280px] max-[409px]:h-[1450px] max-[375px]:h-[1600px] max-[345px]:h-[1600px] h-[1250px] sm:h-[1200px] md:h-[1050px] lg:h-[880px] xl:h-[1180px] 2xl:h-[1250px] 3xl:h-[1150px] 4xl:h-[1300px] " : " max-[450px]:h-[1180px] max-[409px]:h-[1250px] max-[375px]:h-[1350] max-[345px]:h-[1390] h-[1150px] sm:h-[1100px] md:h-[890px] lg:h-[780px] xl:h-[1050px] 2xl:h-[1100px] 3xl:h-[950px] 4xl:h-[1100px]"}  max-md:px-0 lg:pr-0 xl:mt-[100px] mt-[54px] text-white`}>
                 <div className="relative max-md:px-[36px] md:pl-[61px] lg:pt-[76px] pt-[38px] h-full">
                     <div className="absolute inset-0 -z-10">
                         {/* Desktop Image */}
@@ -224,7 +226,7 @@ export default function page() {
                         </div>
                     </div>
 
-                    <h2 className="2xl:text-[50px] xl:text-[38px] text-[26px] leading-tight font-light w-[85%] md:w-[50%] lg:w-[40%] xl:w-[48%] 2xl:w-[56%] 4xl:w-[47%]">
+                    <h2 className="2xl:text-[50px] xl:text-[38px] text-[24px] leading-tight font-light sm:w-[85%] md:w-[50%] lg:w-[40%] xl:w-[48%] 2xl:w-[56%] 4xl:w-[47%]">
                         {t('whyRialtesTitle')}
                     </h2>
 
@@ -319,7 +321,7 @@ export default function page() {
                     </div>
                 </div>
                 <div className="custom-container mt-[-120px] sm:mt-[-210px] relative z-20">
-                    <div className="bg-[#006FBE] text-[#ffffff] lg:pt-[83px] 4xl:px-[86px] md:px-[66px] md:pb-[128px] pt-[31px] px-[42px] pb-[110px] max-[430px]:px-[30px] max-[430px]:pb-[160px] relative">
+                    <div className={`bg-[#006FBE] text-[#ffffff] lg:pt-[83px] 4xl:px-[86px] md:px-[66px] md:pb-[128px] pt-[31px] px-[42px] ${(frActive || esActive) ? " max-[430px]:pb-[240px] pb-[180px] sm:pb-[140px]" : " max-[430px]:pb-[160px] pb-[110px]"} max-[430px]:px-[30px] relative `}>
                         <div className="grid md:grid-cols-2 grid-cols-1 xl:gap-[60px] gap-y-[19px]">
                             <div>
                                 <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light md:w-[80%] xl:w-full">
@@ -339,7 +341,7 @@ export default function page() {
                                 </div>
                             </div>
                         </div>
-                        <div className="absolute bottom-[-50px] right-0 bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[42px] pb-[32px]">
+                        <div className={`absolute bottom-[-50px] right-0 bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[42px] pb-[32px] ${(frActive || esActive) ? "md:w-[94%]" : "md:w-[94%]"}`}>
                             <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight">
                                 {t('prebuiltBlueBox')}
                             </p>
@@ -362,10 +364,10 @@ export default function page() {
                                             {data.subtitle}
                                         </h3>
                                         <UnorderedList arrName={data.dataList} ulClassName={`list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]`} liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
-                                        <div className="mt-[22px] xl:mt-[59px]">
+                                        <div className={`mt-[22px] xl:mt-[59px] ${(frActive || esActive) && ind === 0 ? "xl:mb-[40px]" : ""}`}>
                                             <LearnMore />
                                         </div>
-                                        <div className="absolute z-20 max-md:w-full max-md:left-0 max-md:top-[100%] md:bottom-[-50px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px] max-[320px]:pb-[15px] ">
+                                        <div className={`absolute z-20 max-md:w-full max-md:left-0 max-md:top-[100%] md:bottom-[-50px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px] max-[320px]:pb-[15px] ${(frActive || esActive) && ind === 0 ? "md:w-[90%]" : "md:w-[90%] lg:w-auto"}`}>
                                             <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight sm:w-full font-normal">
                                                 {data.blueCard}
                                             </p>
@@ -421,7 +423,7 @@ export default function page() {
                                                 height={0}
                                             />
                                         </div>
-                                        <div className="absolute max-md:top-[100%] max-md:w-full md:bottom-[-50px] md:left-[26px] lg:left-[58px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
+                                        <div className="absolute max-md:top-[100%] max-md:w-full md:bottom-[-50px] md:left-[26px] lg:left-[58px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px] md:w-[90%] xl:w-auto">
                                             <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight w-[90%] sm:w-full font-normal">
                                                 {data.blueCard}
                                             </p>
