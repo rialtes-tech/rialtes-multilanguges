@@ -120,7 +120,7 @@ export default function Page() {
             <ServicesCard key={services.id} services={services} />
           ))}
         </div>
-        <LearnMore />
+         <LearnMore btnName={t('learnMoreBtn')} />
       </div>
     );
   };
@@ -152,7 +152,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative group overflow-hidden xl:pb-40 pb-10 h-[350px] md:h-[530px]  4xl:h-[650px] ">
+      <section className="relative group overflow-hidden xl:pb-40 2xl:pb-20 pb-10 h-[400px] md:h-[530px]  4xl:h-[650px] 2xl:h-[550px] xl:h-[600px]">
         <div className="md:block hidden">
           <Image
             src="/images/education/Education banner.webp"
@@ -181,10 +181,10 @@ export default function Page() {
               <h1 className="text-white 2xl:text-[24px] xl:text-[22px] text-[18px] font-bold mb-2 mt-10">
                 {t('headerTitle')}
               </h1>
-              <h2 className="text-white leading-tight xl:pr-[130px] xl:mt-10 4xl:text-[60px] 2xl:text-[60px] xl:text-[50px] lg:text-[45px] text-[24px] ">
+              <h2 className="text-white leading-tight xl:pr-[130px] xl:mt-10 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  text-[24px] ">
                 {t('headerSubTitle')}
               </h2>
-              <h3 className="4xl:text-[45px] 2xl:text-[42px] xl:text-[38px] lg:text-[38px] xl:mt-10 mt-5 text-white font-bold text-[18px] leading-tight">
+              <h3 className="4xl:text-[45px] 2xl:text-[40px] xl:text-[35px]  xl:mt-10 mt-5 text-white font-bold text-[18px] leading-tight">
                 {t('headerSubTitleOne')}
               </h3>
             </div>
@@ -253,7 +253,7 @@ export default function Page() {
                 liClassName=""
               />
             </div>
-            <div className="xl:col-span-5 col-span-12  bg-[#0A69B7] absolute xl:left-[44%] left-0 top-[40rem] max-[380px]:top-[44rem] md:left-[30px] md:top-[26rem] xl:top-[22rem] text-white p-10 pb-12  xl:w-[500px]">
+            <div className="xl:col-span-5 col-span-12  bg-[#0A69B7] xl:absolute xl:left-[44%] left-0 mt-16  md:left-[30px]  xl:top-[22rem] text-white p-10 pb-12  xl:w-[500px]">
               <h3 className="4xl:text-[26px] 2xl:text-[24px] xl:text-[22px]  text-[20px] font-bold ">
                 {t('approachTitle')}
               </h3>
@@ -267,7 +267,16 @@ export default function Page() {
         </div>
       </section>
       {/**Pre-Delivered Accelerators */}
-      <section className="xl:mt-40 max-[388px]:mt-[38rem] mt-[35rem] md:mt-[26rem] custom-container xl:!pr-[142px]">
+      <section className={`custom-container xl:!pr-[142px]
+        ${locale === "es"
+          ? "xl:mt-40 4xl:mt-[14rem] 2xl:mt-[13rem]"
+          : locale === "fr"
+            ? "xl:mt-40 4xl:mt-[14rem] 2xl:mt-[13rem]"
+            : "xl:mt-40"
+        }`}
+
+
+      >
         <div className="pb-16 bg-white">
           <Services2 />
         </div>
@@ -381,7 +390,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>
@@ -399,7 +408,7 @@ export default function Page() {
                 />
               </div>
             </div>
-            <div className="bg-[#F7E2D4] w-full xl:pb-20 pb-10 pt-[6rem] xl:!pl-16 mt-[-3rem]  custom-container">
+            <div className="bg-[#F7E2D4] w-full xl:pb-20 pb-10 pt-[6rem] xl:!pl-12 mt-[-3rem]  custom-container">
               <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px] font-medium leading-tight 4xl:w-[608px] 2xl:w-[590px] xl:w-[550px] max-[400px]:text-[25px] max-[350px]:text-[22px]">
                 {t('lifelongTitle')}
               </h2>
@@ -409,7 +418,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                 <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>
@@ -445,7 +454,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>
@@ -476,7 +485,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                 <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>
@@ -512,7 +521,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                 <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>
@@ -543,7 +552,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                 <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>
@@ -580,7 +589,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                 <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>
@@ -719,7 +728,15 @@ export default function Page() {
         </div>
         <div className="relative">
           <div className="h-full xl:mr-[142px] custom-container z-40">
-            <p className=" 4xl:text-[26px] 2xl:text-[22px]  xl:text-[18px] md:text-[20px]  text-[18px] bg-[#0C8AD4]  p-5 xl:p-8  pl-6  text-white max-[360px]:mt-[-70px] max-[414px]:mt-0 mt-[15px] md:mt-[-50px] xl:mt-[-55px] 4xl:mt-[-65px]  xl:w-[80%] leading-tight font-light max-[400px]:text-[17px] ">
+            <p className={`4xl:text-[26px] 2xl:text-[22px]  xl:text-[18px] md:text-[20px]  text-[18px] bg-[#0C8AD4]  p-5 xl:p-8  pl-6  text-white max-[360px]:mt-[-70px] max-[414px]:mt-[-60px]  md:mt-[-50px] xl:mt-[-55px] 4xl:mt-[-65px]  xl:w-[80%] leading-tight font-light max-[400px]:text-[17px]
+              ${locale === "es"
+                ? "mt-[-60px]"
+                : locale === "fr"
+                  ? "mt-[-60px]"
+                  : "mt-[30px]"
+              }`}
+
+            >
               {t('withDesc')}
             </p>
           </div>
