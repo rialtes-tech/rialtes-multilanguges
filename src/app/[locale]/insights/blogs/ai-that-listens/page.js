@@ -96,7 +96,6 @@ const schemaData = {
     ]
 }
 
-
 export default function Page() {
     const t = useTranslations('aiThatListens')
     const locale = useLocale();

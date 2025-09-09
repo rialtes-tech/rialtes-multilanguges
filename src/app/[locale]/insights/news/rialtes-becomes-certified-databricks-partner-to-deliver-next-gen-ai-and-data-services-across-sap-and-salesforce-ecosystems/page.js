@@ -43,11 +43,10 @@ export default function Page() {
   const t = useTranslations("newsDataBricks");
   const locale = useLocale();
   const newsDataBricksContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const {  paragraphs, paragraphsEnd, listItems } =newsDataBricksContent.newsDataBricks;
-  
+  const { paragraphs, paragraphsEnd, listItems } = newsDataBricksContent.newsDataBricks;
 
-  const fullUrl =
-    "https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems";
+
+  const fullUrl = "https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems";
 
   return (
     <div className="min-h-screen bg-white">
@@ -65,7 +64,7 @@ export default function Page() {
       />
 
       <section className="custom-container">
-        <section className="relative  xl:h-[650px] overflow-hidden">
+        <section className="relative overflow-hidden xl:h-[500px] 4xl:h-[650px]">
           <div className="xl:block hidden">
             <Image
               src="/images/homepage/baner.webp"
@@ -78,14 +77,14 @@ export default function Page() {
             <Image
               src="/images/homepage/banner.webp"
               alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
-              className="!w-full"
+              className="!w-full h-full"
               width={0}
               height={0}
               priority
             />
           </div>
         </section>
-        <h1 className="mt-10 leading-tight">{t("title")}</h1>
+        <h1 className="mt-10 leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] xl:w-[80%] 4xl:w-full">{t("title")}</h1>
 
         <div className="pt-10 pb-24 bg-white">
           <div className="container mx-auto border-b-[2px] border-gray-400 pb-6">
@@ -94,13 +93,9 @@ export default function Page() {
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                        fullUrl
-                      )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                    <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
                       target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                      rel="noopener noreferrer">
                       <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
@@ -117,13 +112,9 @@ export default function Page() {
                     </a>
                   </div>
                   <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                        fullUrl
-                      )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                    <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
                       target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                      rel="noopener noreferrer">
                       {" "}
                       <Image
                         src="/images/case-studies/twitter.svg"
@@ -146,12 +137,12 @@ export default function Page() {
           </div>
           <div className="py-3"></div>
 
-          <div className=" mx-auto ">
+          <div className="mx-auto ">
             <div className="xl:w-[1084px]">
               {paragraphs.map((para, idx) => (
                 <p
                   key={idx}
-                  className={`text-black xl:text-[22px] text-[18px] mt-8`}
+                  className={`text-black 4xl:text-[22px] xl:text-[20px] text-[18px] mt-8`}
                   dangerouslySetInnerHTML={{ __html: para }}
                 />
               ))}
@@ -165,7 +156,7 @@ export default function Page() {
               {paragraphsEnd.map((para, idx) => (
                 <p
                   key={idx}
-                  className="text-black xl:text-[22px] text-[18px] mt-8"
+                  className="text-black 4xl:text-[22px] xl:text-[20px] text-[18px] mt-8"
                   dangerouslySetInnerHTML={{ __html: para }}
                 />
               ))}
