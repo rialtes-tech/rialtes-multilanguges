@@ -23,7 +23,7 @@ export default function BlogsCarousel() {
 
     {
     id: 26,
-    image: "/images/blog/reimagine-slider.webp", 
+    image: "/images/blog/big-reimage-slider.webp", 
     category: "Artificial Intelligence",
     industry: "Generic",
     date: "25 August 2025",
