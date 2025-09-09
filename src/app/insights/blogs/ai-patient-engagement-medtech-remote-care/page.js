@@ -5,20 +5,16 @@ import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import FAQAccordion from "@/app/components/faqAccordion";
+import Link from "next/link";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
-    },
-    "headline": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-    "description": "Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
-    "image": "https://www.rialtes.com/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp",
+    "headline": "AI Patient Engagement: How Smart Agents Simplify Care",
+    "description": "AI for patient engagement simplifies remote care by delivering real-time insights, smart escalations, and personalized healthcare experiences.",
+    "image": "https://www.rialtes.com/images/blog/ai-in-patient-desktop-banner.webp",
     "author": {
         "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com"
+        "name": "Rialtes"
     },
     "publisher": {
         "@type": "Organization",
@@ -28,68 +24,57 @@ const schemaData = {
             "url": "https://www.rialtes.com/images/homepage/logo.svg"
         }
     },
-    "datePublished": "2024-10-28",
-    "dateModified": "2025-07-25",
-    "articleSection": "AI Automation",
-    "url": "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What’s the difference between bots, copilots, and agents?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Bots follow simple rules to perform tasks. Copilots offer contextual help and suggestions, often requiring user input. Agents act independently, make decisions, and can operate across systems autonomously. Think of bots as basic responders, copilots as smart assistants, and agents as decision-makers."
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care/"
+    },
+    "datePublished": "2025-09-09",
+    "mainEntity": {
+        "@type": "FAQPage",
+        "name": "AI for Patient Engagement with Smart Agents FAQs",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is AI for patient engagement?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AI for patient engagement uses intelligent agents to provide personalized care, automate monitoring, and support real-time communication between patients and providers."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do smart agents simplify patient care?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Smart agents simplify care by automating routine tasks, providing real-time insights, escalating urgent issues, and ensuring continuous patient support."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why is AI important for MedTech and remote healthcare?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AI enhances MedTech by improving remote monitoring, reducing provider workload, enabling predictive insights, and personalizing patient care journeys."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can AI improve patient-provider communication?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, AI-powered agents enable two-way communication with reminders, symptom tracking, and instant escalations, leading to stronger patient engagement."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the benefits of AI for patient engagement?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The benefits include simplified care delivery, proactive interventions, reduced errors, enhanced personalization, and improved patient satisfaction."
+                }
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What is an example of a bot?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A chatbot that answers questions like 'What is your return policy?' on an e-commerce website is a good example of a bot. It follows scripted responses and doesn’t adapt to complex queries."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What does an AI agent do?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "An AI agent can understand tasks, make decisions, and execute actions without constant human intervention. In manufacturing, for example, an agent can predict delays and reschedule workflows automatically."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Is Copilot better than chatbot?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. A copilot provides intelligent suggestions based on context and user behavior, whereas a chatbot sticks to predefined scripts. Copilots are more dynamic and user-focused than basic bots."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Which AI tool is more powerful: agent or copilot?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agents are more powerful. While copilots assist users by providing recommendations, AI agents go further—they make decisions, adapt, and act autonomously across processes."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Which AI should I use for customer support in manufacturing?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AI agents are best for manufacturing customer service. They handle complex queries, integrate with enterprise systems, and resolve issues faster than traditional bots or copilots."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can AI agents fully replace humans in operations?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. AI agents are ideal for automating repetitive and data-driven tasks, but human-AI collaboration is still essential for strategic decisions, creativity, and empathy-driven customer service."
-            }
-        }
-    ]
+        ]
+    }
 }
 const rolesData = [
     {
@@ -207,16 +192,16 @@ const faqs = [
 ]
 
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care";
 
     return (
         <div className="min-h-screen">
             <Seo
-                title="Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes"
-                description="Learn the key differences between bots, copilots, and AI agents. Choose the best AI automation tool to scale productivity and transform workflows."
+                title="AI Patient Engagement: How Smart Agents Simplify Care | Rialtes"
+                description=" Discover how AI for patient engagement helps MedTech streamline monitoring, simplify workflows, and enhance patient-provider interactions with ease."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
+                    "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care/"
                 }
             />
 
@@ -255,7 +240,7 @@ export default function Page() {
                         <div className="flex flex-col md:flex-row justify-between text-black items-center xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">Artificial Intelligence</span>{" "}
-                                <span className="text-[#ACACAC]"> | </span>25 July 2025
+                                <span className="text-[#ACACAC]"> | </span>09 September 2025
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
@@ -378,7 +363,7 @@ export default function Page() {
 
                             <h2 className="font-semibold mt-16 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">Turn Remote Monitoring into Real Impact with Rialtes</h2>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">For MedTech innovators, the opportunity is clear: remote monitoring unlocks powerful possibilities, but it also creates overwhelming streams of data and alerts. That’s where Agentforce makes the difference. By enabling AI agents that engage patients proactively, prioritize clinician response, and streamline workflows, Agentforce ensures your solutions truly deliver on their promise.</p>
-                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">At Rialtes, we specialize in implementing Agentforce for MedTech companies. Our consulting expertise helps you design, deploy, and scale AI-driven patient engagement strategies that improve adherence, reduce provider burnout, and elevate the overall patient experience. With Rialtes as your partner, you unlock its full potential to drive smarter, more compassionate healthcare.</p>
+                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">At Rialtes, we specialize in implementing  <Link href={"https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> Agentforce </span> </Link> for MedTech companies. Our consulting expertise helps you design, deploy, and scale  <Link href={"https://www.rialtes.com/industry/life-sciences/home-health-ai-tech-solutions/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> AI-driven patient engagement </span></Link> strategies that improve adherence, reduce provider burnout, and elevate the overall patient experience. With Rialtes as your partner, you unlock its full potential to drive smarter, more compassionate healthcare.</p>
 
                             <h2 className="font-semibold mt-12 mb-5 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">Q&A: AI Patient Engagement in Remote Monitoring with AI Agents</h2>
                             <FAQAccordion faqData={faqs} />

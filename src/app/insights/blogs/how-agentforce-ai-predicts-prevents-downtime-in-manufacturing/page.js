@@ -5,20 +5,16 @@ import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import FAQAccordion from "@/app/components/faqAccordion";
+import Link from "next/link";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
-    },
-    "headline": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-    "description": "Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
-    "image": "https://www.rialtes.com/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp",
+    "headline": "How Agentforce AI Enables Zero Downtime Manufacturing",
+    "description": "Agentforce AI helps manufacturers prevent unplanned downtime with predictive intelligence, ensuring zero disruption and 24/7 operational efficiency.",
+    "image": "https://www.rialtes.com/images/blog/industry4-desktop-banner.webp",
     "author": {
         "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com"
+        "name": "Rialtes"
     },
     "publisher": {
         "@type": "Organization",
@@ -28,68 +24,65 @@ const schemaData = {
             "url": "https://www.rialtes.com/images/homepage/logo.svg"
         }
     },
-    "datePublished": "2024-10-28",
-    "dateModified": "2025-07-25",
-    "articleSection": "AI Automation",
-    "url": "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What’s the difference between bots, copilots, and agents?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Bots follow simple rules to perform tasks. Copilots offer contextual help and suggestions, often requiring user input. Agents act independently, make decisions, and can operate across systems autonomously. Think of bots as basic responders, copilots as smart assistants, and agents as decision-makers."
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing/"
+    },
+    "datePublished": "2025-09-08",
+    "mainEntity": {
+        "@type": "FAQPage",
+        "name": "How Agentforce AI Enables Zero Downtime Manufacturing FAQs",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What makes Agentforce different from traditional predictive maintenance solutions?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Agentforce combines IoT insights with service histories, warranty claims, and Salesforce Field Service workflows to predict failures and act automatically."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can Agentforce work with existing IoT and ERP systems?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Agentforce integrates with existing IoT platforms, MES, and ERP systems without requiring a rip-and-replace approach."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does Agentforce reduce unplanned downtime?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It detects early failure signals, forecasts parts demand, and dispatches the right technician before issues escalate, reducing downtime by up to 30–40%."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is Agentforce scalable for mid-sized manufacturers?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, mid-sized manufacturers can start small and expand to multi-site predictive intelligence as their operations grow."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does Agentforce improve customer experience?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It keeps customers informed with proactive updates, ensures parts and technicians are ready in advance, and minimizes service interruptions."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can Agentforce support new business models like Equipment-as-a-Service?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, predictive capabilities allow uptime guarantees, subscription-based maintenance, or outcome-driven service contracts, turning service into a revenue stream."
+                }
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What is an example of a bot?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A chatbot that answers questions like 'What is your return policy?' on an e-commerce website is a good example of a bot. It follows scripted responses and doesn’t adapt to complex queries."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What does an AI agent do?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "An AI agent can understand tasks, make decisions, and execute actions without constant human intervention. In manufacturing, for example, an agent can predict delays and reschedule workflows automatically."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Is Copilot better than chatbot?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. A copilot provides intelligent suggestions based on context and user behavior, whereas a chatbot sticks to predefined scripts. Copilots are more dynamic and user-focused than basic bots."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Which AI tool is more powerful: agent or copilot?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agents are more powerful. While copilots assist users by providing recommendations, AI agents go further—they make decisions, adapt, and act autonomously across processes."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Which AI should I use for customer support in manufacturing?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AI agents are best for manufacturing customer service. They handle complex queries, integrate with enterprise systems, and resolve issues faster than traditional bots or copilots."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can AI agents fully replace humans in operations?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. AI agents are ideal for automating repetitive and data-driven tasks, but human-AI collaboration is still essential for strategic decisions, creativity, and empathy-driven customer service."
-            }
-        }
-    ]
+        ]
+    }
 }
 const reactiveData = [
     {
@@ -183,10 +176,11 @@ const impactData2 = [
     }
 ]
 const readyData = [
-    "Industry 4.0 is all about connected intelligence.Machines may generate the data, but it’s Agentforce AI agents that turn it into value.By embedding predictive capabilities into Salesforce Field Service and Manufacturing Cloud, manufacturers unlock an always - on system that keeps operations running smoothly and customers delighted.",
-    "As a Salesforce Crest Partner, we specialize in deploying Agentforce for manufacturing businesses of every scale.Whether you want to start with a pilot project in one plant or roll out predictive intelligence across your global operations, we can help.",
-    "Let’s talk about how Agentforce can drive zero downtime for your Industry 4.0 factory."
+    "<a href='https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution' class='text-[#0092E0] underline hover:text-gray-400'> Industry 4.0 </a> is all about connected intelligence. Machines may generate the data, but it’s Agentforce AI agents that turn it into value. By embedding predictive capabilities into Salesforce Field Service and Manufacturing Cloud, manufacturers unlock an always-on system that keeps operations running smoothly and customers delighted.",
+    "As a <a href='https://rialtes.netlify.app/solutions/enterprise-platforms/salesforce-consulting-partner-us-india' class='text-[#0092E0] underline hover:text-gray-400'>Salesforce Crest Partner</a>, we specialize in deploying <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/' class='text-[#0092E0] underline hover:text-gray-400'>Agentforce for manufacturing</a> businesses of every scale. Whether you want to start with a pilot project in one plant or roll out predictive intelligence across your global operations, we can help.",
+    "<a href='https://www.rialtes.com/contact-us' class='text-[#0092E0] underline hover:text-gray-400'>Let’s talk</a> about how Agentforce can drive zero downtime for your Industry 4.0 factory."
 ]
+
 const faqs = [
     {
         "question": "What makes Agentforce different from traditional predictive maintenance solutions?",
@@ -237,16 +231,16 @@ const faqs = [
 ]
 
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing";
 
     return (
         <div className="min-h-screen">
             <Seo
-                title="Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes"
-                description="Learn the key differences between bots, copilots, and AI agents. Choose the best AI automation tool to scale productivity and transform workflows."
+                title="How Agentforce AI Enables Zero Downtime Manufacturing | Rialtes"
+                description="Agentforce AI helps manufacturers prevent unplanned downtime with predictive intelligence, ensuring zero disruption and 24/7 operational efficiency."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
+                    "https://www.rialtes.com/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing/"
                 }
             />
 
@@ -281,11 +275,11 @@ export default function Page() {
 
             <section className="custom-container">
                 <div className="py-10 bg-white">
-                    <div className="">
+                    <div>
                         <div className="flex flex-col md:flex-row justify-between text-black items-center xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">Agentforce</span>{" "}
-                                <span className="text-[#ACACAC]"> | </span>25 July 2025
+                                <span className="text-[#ACACAC]"> | </span>08 September 2025
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
@@ -411,14 +405,15 @@ export default function Page() {
                             <p className="mt-10 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">And here’s the bigger picture: predictive operations don’t just protect revenue. They open the door to entirely new business models, like equipment-as-a-service or predictive maintenance contracts that turn service into a revenue stream.</p>
 
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">Ready to Predict, Not React?</h2>
-                            {
-                                readyData.map((data, ind) => {
-                                    return (
-                                        <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]" key={ind}>{data}</p>
-                                    )
-                                })
-                            } 
-                        </div> 
+                            {readyData.map((data, ind) => (
+                                <p
+                                    key={ind}
+                                    className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]"
+                                    dangerouslySetInnerHTML={{ __html: data }}
+                                />
+                            ))}
+
+                        </div>
                     </div>
                 </div>
             </section>
