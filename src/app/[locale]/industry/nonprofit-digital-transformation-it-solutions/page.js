@@ -258,7 +258,7 @@ export default function retailPage() {
                     }
                 </div>
                 <div className="mt-[30px] xl:mt-[58px]">
-                    <LearnMore />
+                    <LearnMore btnName={t('learnMoreBtn')} />
                 </div>
             </section>
             {/* common sections */}
@@ -324,7 +324,7 @@ export default function retailPage() {
                                     </div>
                                     <div className="absolute bottom-0">
                                         <div className={`z-20`}>
-                                            <LearnMore />
+                                            <LearnMore btnName={t('learnMoreBtn')} />
                                         </div>
                                     </div>
                                 </div>
@@ -349,7 +349,7 @@ export default function retailPage() {
                                 {t('seamlessCard1Desc')}
                             </p>
                             <div className="md:mt-auto mt-[30px]">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>
@@ -363,7 +363,7 @@ export default function retailPage() {
                                 {t('seamlessCard2Desc')}
                             </p>
                             <div className="md:mt-auto mt-[30px]">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>
@@ -377,7 +377,7 @@ export default function retailPage() {
                                 {t('seamlessCard3Desc')}
                             </p>
                             <div className="md:mt-auto mt-[30px]">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>
@@ -391,7 +391,7 @@ export default function retailPage() {
                                 {t('seamlessCard4Desc')}
                             </p>
                             <div className="md:mt-auto mt-[30px]">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>
@@ -406,7 +406,7 @@ export default function retailPage() {
                                 {t('seamlessCard5Desc')}
                             </p>
                             <div className="md:mt-auto mt-[30px]">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>
@@ -525,7 +525,7 @@ export default function retailPage() {
             {/* learn more btn */}
             <div className="custom-container">
                 <div className="absolute mt-[-50px]">
-                    <LearnMore />
+                    <LearnMore btnName={t('learnMoreBtn')} />
                 </div>
             </div>
             {/* why choose section */}
@@ -537,7 +537,7 @@ export default function retailPage() {
                         </h2>
                         <UnorderedList arrName={whyChooseData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[61px] mt-[24px] pl-[20px] 4xl:w-[74%]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                         <div className="mt-[46px] xl:mt-[84px]">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                     <div className="md:col-span-6 col-span-12 md:order-2 order-1">

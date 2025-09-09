@@ -154,7 +154,7 @@ export default function Page() {
         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] lg:w-[80%] xl:w-[80%] 4xl:w-[76%]">
          {t('digitalTitle')}
         </h2>
-        <p className="xl:text-[22px] text-[16px] leading-tight lg:w-[80%] 4xl:w-[70%] w-[90%] font-normal mt-8">
+        <p className="4xl:text-[22px] xl:text-[17px] text-[16px] 2xl:text-[20px] leading-tight lg:w-[80%] 4xl:w-[70%] w-[90%] font-normal mt-8">
          {t('digitalDesc')} 
         </p>
       </section>
@@ -202,7 +202,7 @@ export default function Page() {
             <div className="lg:col-span-6 col-span-12 md:col-span-1">
               <UnorderedList arrName={thougthLeadershipData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pb-[40px]" liClassName="" />
               <div className=" absolute bottom-0">
-                <LearnMore />
+               <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>
@@ -272,7 +272,7 @@ export default function Page() {
                    {t('salesforceDesc')}
                   </p>
                   <UnorderedList arrName={salesforceData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4" liClassName="" />
-                  <LearnMore />
+                  <LearnMore btnName={t('learnMoreBtn')} />
                 </div>
                 <div className="md:col-span-5 col-span-12 xl:mt-[100px] mt-0">
                   <div className="">
@@ -297,7 +297,7 @@ export default function Page() {
                    {t('sapDesc')}
                   </p>
                   <UnorderedList arrName={sapHanaData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4" liClassName="" />
-                  <LearnMore />
+                 <LearnMore btnName={t('learnMoreBtn')} />
                 </div>
               </div>
               <div className="relative bottom-[-55px]">
@@ -346,7 +346,7 @@ export default function Page() {
           <div className="md:col-span-6 xl:ml-[70px] xl:my-9 my-5 ">
             <UnorderedList arrName={aiData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="" />
             <div className="mt-10">
-              <LearnMore />
+             <LearnMore btnName={t('learnMoreBtn')} />
             </div>
           </div>
         </div>
@@ -397,7 +397,7 @@ export default function Page() {
                 />
                 <div className="absolute inset-0 bg-[#606060] mix-blend-multiply" />
               </div>
-              <div className="relative z-10 lg:px-[54px] lg:pt-[70px] px-[36px] pt-[40px] max-md:bg-[#606060]">
+              <div className="relative z-10 lg:px-[54px] 4xl:pt-[50px] 2xl:pt-[50px] xl:pt-[30px] px-[36px] pt-[40px] max-md:bg-[#606060]">
                 <h2 className="mb-4 leading-tight 2xl:text-[50px] xl:text-[40px] md:text-[26px]">
                  {t('exelonaTitle')}
                 </h2>
@@ -414,14 +414,24 @@ export default function Page() {
                 </p>
               </div>
               {/* Mobile */}
-              <p className="4xl:text-[26px] xl:text-[22px] text-[18px] max-md:m-[29px] bg-[#006FBE] p-[24px] text-white leading-tight hidden md:block relative mt-[25px] ">
+              <p className={`4xl:text-[26px] xl:text-[22px] text-[18px] max-md:m-[29px] bg-[#006FBE] p-[24px] text-white leading-tight hidden md:block relative
+                ${locale === "es"
+                                    ? "mt-[25px]"
+                                    : locale === "fr"
+                                        ? "mt-[25px]"
+                                        : "mt-[25px]"
+                                }`}
+
+              
+              
+              >
               {t('exelonaDescOne')}
               </p>
             </div>
           </div>
         </div>
         <div className="max-md:mt-[5px] md:bottom-[28px] max-md:m-[29px] absolute md:left-1/2">
-          <LearnMore />
+         <LearnMore btnName={t('learnMoreBtn')} />
         </div>
       </section>
       {/* AgentChat section */}
@@ -470,7 +480,8 @@ export default function Page() {
               {t('agentChatDescOne')}
               </p>
               <div className="absolute bottom-0 ">
-                <LearnMore bgcolor={"#006FBE"} />
+               
+                 <LearnMore btnName={t('learnMoreBtn')}  bgcolor={"#006FBE"}/>
               </div>
             </div>
           </div>
@@ -516,7 +527,7 @@ export default function Page() {
                 {t('dataDescOne')}
               </p>
               <div className="lg:mt-[45px]">
-                <LearnMore bgcolor={"#006FBE"} />
+                 <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"}/>
               </div>
             </div>
           </div>
@@ -610,7 +621,8 @@ export default function Page() {
               </div>
 
               <div className="mt-[29px] xl-mt-[50px] flex xl:justify-end lg:justify-start">
-                <LearnMore />
+              
+                 <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>
@@ -649,7 +661,7 @@ export default function Page() {
               </h2>
               <UnorderedList arrName={whyChooseData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[48px] mt-[34px] 4xl:space-y-[24px] space-y-[19px] 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight" liClassName="" />
               <div className="absolute bottom-0">
-                <LearnMore />
+              <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>

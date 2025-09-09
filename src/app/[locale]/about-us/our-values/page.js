@@ -109,64 +109,74 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative group overflow-hidden  h-[350px] md:h-[500px]  4xl:h-[650px]   ">
-                {/* Desktop Image */}
-                <div className="hidden md:block">
-                    <Image
-                        src="/images/culture/culture header.webp"
-                        alt="desktop banner"
-                        fill
-                        style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                        priority
-                        className="transform transition-transform duration-500 group-hover:scale-110"
-                    />
-                </div>
-                {/* Mobile Image */}
-                <div className="block md:hidden">
-                    <Image
-                        src="/images/culture/AdobeStock_1016285553.webp"
-                        style={{ objectFit: "cover", objectPosition: "0% 20%" }}
-                        alt="mobile banner"
-                        fill
-                        priority
-                    />
-                </div>
-                <div className="relative h-full custom-container flex items-center">
-                    <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
-                        <div className="col-span-12 xl:col-span-7 lg:col-span-9 text-white ">
-                            <h3 className="text-[18px] 4xl:text-[24px] xl:text-[20px] ] font-bold sm:text-[#01335B] max-sm:text-[#02182A]">
-                                {t('cultureTitle')}
-                            </h3>
-                            <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight mt-[10px] md:mt-[22px] sm:text-[#01335B] max-sm:text-[#02182A] "  >
-                                {t('growthTitleOne')}<br />  {t('growthTitleTwo')}
-                            </h2>
-                        </div>
-                        <div className="col-span-12 lg:col-span-3 xl:col-span-5">
-                        </div>
-                    </div>
-                </div>
-            </section>
+       <section className="relative group overflow-hidden h-[350px] md:h-[500px] 4xl:h-[650px]">
+  {/* Desktop Image */}
+  <div className="hidden md:block">
+    <Image
+      src="/images/culture/culture header.webp"
+      alt="desktop banner"
+      fill
+      style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+      priority
+      className="transform transition-transform duration-500 group-hover:scale-110"
+    />
+  </div>
+
+  {/* Mobile Image */}
+  <div className="block md:hidden">
+    <Image
+      src="/images/culture/AdobeStock_1016285553.webp"
+      style={{ objectFit: "cover", objectPosition: "0% 20%" }}
+      alt="mobile banner"
+      fill
+      priority
+    />
+  </div>
+
+  {/* Mobile-only Overlay */}
+  <div className="absolute inset-0 bg-black/40 md:hidden"></div>
+
+  {/* Content */}
+  <div className="relative h-full custom-container flex items-center">
+    <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
+      <div className="col-span-12 xl:col-span-7 lg:col-span-9 text-white">
+        <h3 className="text-[18px] 4xl:text-[24px] xl:text-[20px] font-bold sm:text-[#01335B] max-sm:text-[#fff]">
+          {t("cultureTitle")}
+        </h3>
+        <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight mt-[10px] md:mt-[22px] sm:text-[#01335B] max-sm:text-[#fff]">
+          {t("growthTitleOne")}
+          <br />
+          {t("growthTitleTwo")}
+        </h2>
+      </div>
+      <div className="col-span-12 lg:col-span-3 xl:col-span-5"></div>
+    </div>
+  </div>
+</section>
+
+
             {/* our value section */}
             <section className="xl:py-16 py-10">
                 <div className="custom-container">
                     <div className=" mx-auto">
                         <h1 className="4xl:text-[60px] xl:text-[40px] md:text-[35px] text-[26px]"> {t('valueTitle')}</h1>
                         <p className="mt-3 4xl:text-[35px] xl:text-[28px] text-[20px] "> {t('valueSubtitle')}</p>
-                        <div className="flex flex-col md:flex-row mb-8 mt-16 lg:gap-52 gap-10 md:gap-28">
-                            {principleItems.map((item, index) => (
-                                <div key={index} className="grid">
-                                    <Image
-                                        src={item.image}
-                                        alt={item.alt}
-                                        width={100}
-                                        height={100}
-                                        priority
-                                        className={`${item.className} max-md:m-auto xl:m-0`}
-                                    />
-                                    <p className="mt-5 lg:text-center max-md:text-center 4xl:text-[35px] xl:text-[28px] text-[26px]">{item.label}</p>
-                                </div>
-                            ))}
-                        </div>
+                         <div className="grid xl:grid-cols-4 md:grid-cols-2 mb-8 mt-16 lg:gap-40 gap-10 ">
+                                                    {principleItems.map((item, index) => (
+                                                        <div key={index} className="grid">
+                                                            <Image
+                                                                src={item.image}
+                                                                alt={item.alt}
+                                                                width={100}
+                                                                height={100}
+                                                                priority
+                                                            />
+                                                            <p className="mt-5  4xl:text-[35px] xl:text-[30px] text-[22px]">
+                                                                {item.label}
+                                                            </p>
+                                                        </div>
+                                                    ))}
+                                                </div>
                     </div>
                 </div>
             </section>
