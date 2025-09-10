@@ -250,7 +250,7 @@ export default function Page() {
                         ))}
                     </div>
                     <div className="mt-[62px] xl:mt-[72px]">
-                        <LearnMore bgcolor="#0A6BB8" bordercolor="#0A6BB8" href="https://www.rialtes.com/industry/real-estate-property-management/" />
+                           <LearnMore btnName={t('learnMoreBtn')} bgcolor="#0A6BB8" bordercolor="#0A6BB8" href="https://www.rialtes.com/industry/real-estate-property-management/" />
                     </div>
                 </div>
 
@@ -299,7 +299,7 @@ export default function Page() {
                     {/* Buttons */}
                     <div className="flex mt-[50px] lg:gap-[57px] max-lg:flex-col max-lg:gap-[36px]">
                         <div>
-                            <LearnMore bgcolor="#0A6BB8" bordercolor="#0A6BB8" hoverTextColor="black" />
+                             <LearnMore btnName={t('learnMoreBtn')} bgcolor="#0A6BB8" bordercolor="#0A6BB8" hoverTextColor="black" />
                         </div>
                         <div>
                             <p className="bg-[#0A6BB8] text-white 4xl:text-[24px] xl:text-[20px] text-[18px] md:py-[12px] md:px-[32px] py-[14px] px-[20px] md:mt-[23px] min-[400px]:w-[90%] sm:w-fit"> {t('assetMarketingBlueBox')}</p>
@@ -351,7 +351,8 @@ export default function Page() {
 
                         {/* Buttons */}
                         <div className="mt-16 xl:mt-0 xl:flex gap-8 xl:gap-10 4xl:mt-[65px] items-end">
-                            <LearnMore />
+                          
+                             <LearnMore btnName={t('learnMoreBtn')} />
                             <div>
                                 <p className="bg-[#0A6BB8] mt-10 w-fit xl:mt-[20px] px-6 py-[14px] text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px]">
                                 {t('aiEnabledBlueBox')}    
@@ -402,7 +403,7 @@ export default function Page() {
                     </div>
                     <div className="mt-16 md:flex items-end gap-8 md:gap-10 2xl:gap-10 4xl:mt-24 max-md:pr-[35px]">
                         <>
-                            <LearnMore bgcolor="#073259" bordercolor="#073259" />
+                             <LearnMore btnName={t('learnMoreBtn')}  bgcolor="#073259" bordercolor="#073259" />
                         </>
                         <>
                             <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[22px] text-[18px] xl:text-[16px] w-fit">
@@ -464,7 +465,7 @@ export default function Page() {
                         {/* CTA Button */}
                         <div className="mt-16 lg:flex gap-8 lg:gap-5 2xl:gap-10 4xl:mt-24 items-end">
                             <>
-                                <LearnMore bgcolor="#073259" bordercolor="#073259" />
+                                 <LearnMore btnName={t('learnMoreBtn')} bgcolor="#073259" bordercolor="#073259"/>
                             </>
                             <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 w-fit text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] 4xl:w-[60%]">
                                {t('excelPersonaBlueBox')} 
@@ -520,7 +521,7 @@ export default function Page() {
                             {/* Buttons */}
                             <div className="lg:flex gap-8 xl:gap-5 2xl:gap-10 xl:mt-[65px] mt-[36px] items-end">
                                 <div className="xl:w-[200px]">
-                                    <LearnMore bgcolor="#073259" bordercolor="#073259" />
+                                     <LearnMore btnName={t('learnMoreBtn')}  bgcolor="#073259" bordercolor="#073259"/>
                                 </div>
                                 <p className="bg-[#0A6BB8] w-fit mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[22px] text-[18px] xl:text-[18px]">
                                 {t('excelPayBlueBox')}    
@@ -580,7 +581,7 @@ export default function Page() {
                         {/* Buttons */}
                         <div className="mt-16 xl:mt-0 md:flex gap-8 md:gap-5 2xl:gap-10 4xl:mt-[65px] items-end">
                             <>
-                                <LearnMore bgcolor="#134874" bordercolor="#134874" />
+                                 <LearnMore btnName={t('learnMoreBtn')} bgcolor="#134874" bordercolor="#134874"/>
                             </>
                             <div>
                                 <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-[13px] text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] w-fit">
@@ -698,7 +699,7 @@ export default function Page() {
 
                         <div className="md:flex items-end gap-8 md:gap-10 2xl:gap-10 bottom-0 max-lg:mx-[36px] lg:right-0 absolute ">
                             <>
-                                <LearnMore bgcolor="#073259" bordercolor="#073259" />
+                                 <LearnMore btnName={t('learnMoreBtn')} bgcolor="#073259" bordercolor="#073259"/>
                             </>
                             <>
                                 <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] min-[400px]:w-[96%] sm:w-fit">

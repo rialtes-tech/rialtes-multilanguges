@@ -287,10 +287,10 @@ export default function page() {
                             priority
                         />
                     </div>
-                    <div className="col-span-6 bg-[#073259] text-white order-2 xl:order-1 pb-20 xl:pb-16">
+                    <div className="col-span-6 bg-[#073259] text-white order-2 xl:order-1 pb-20 xl:pb-32">
                         <div className="custom-container xl:pt-16 pt-10 xl:pr-[8rem] mx-[35px] xl:mx-0">
                             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  pr-16 xl:pr-0">{t('whyPartnerTitle')}</h2>
-                            <UnorderedList arrName={whyPartnerData} ulClassName="list-disc leading-tight xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 pr-2 xl:pr-0" liClassName="" />
+                            <UnorderedList arrName={whyPartnerData} ulClassName="list-disc leading-tight 4xl:space-y-4 xl:space-y-3 2xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 pr-2 xl:pr-0" liClassName="" />
                             <div className="mt-5 absolute">
                                 <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                             </div>
@@ -438,7 +438,15 @@ export default function page() {
                 </div>
             </div>
             {/* AI-Driven Life Sciences with Salesforce Data Cloud & Agentforce section */}
-            <section className="relative h-full xl:h-[909px] overflow-hidden lg:mt-[95px] mt-[80px]">
+            <section className={`relative h-full  overflow-hidden lg:mt-[95px] mt-[80px]
+              ${locale === "es"
+                                    ? "2xl:h-[950px] 4xl:h-[1045px] xl:h-[880px]"
+                                    : locale === "fr"
+                                        ? "2xl:h-[950px] 4xl:h-[1045px] xl:h-[950px]"
+                                        : "xl:h-[909px]"
+                                }`}
+
+            >
                 <div className="xl:block hidden">
                     <Image
                         src="/images/services/lob/lifeai/ai-driven-desktop.webp"
