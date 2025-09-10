@@ -132,7 +132,7 @@ export default function Page() {
 
             <section className="custom-container">
                 <div className="py-10 bg-white">
-                    <div className="">
+                    <div>
                         <div className="flex flex-col md:flex-row justify-between text-black items-center xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">{t('blogTopic')}</span>{" "}
@@ -207,9 +207,9 @@ export default function Page() {
                                             key={ind}
                                             className="px-[36px] max-[360px]:pt-[80px] pt-[46px] sm:pt-[60px] lg:pt-[70px] pb-[40px] relative border border-[#707070] flex flex-col items-center">
 
-                                            <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] font-bold bg-[#006FBE] text-white py-3 px-6 absolute -top-8 left-1/2 transform -translate-x-1/2 w-[76%] text-center">
+                                            <p className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] font-bold bg-[#006FBE] text-white py-3 px-6 absolute -top-8 left-1/2 transform -translate-x-1/2 w-[76%] text-center">
                                                 <span className={`${ind == 1 && "w-[70%] block md:py-0 mx-auto"} ${ind == 2 && "py-4 block"}`}>  {data.title}</span>
-                                            </h3>
+                                            </p>
 
                                             <p className="mt-5 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
                                                 {data.desc}
@@ -221,7 +221,7 @@ export default function Page() {
 
                             <p className="mt-10 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('aiRoleDesc2')}</p>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">{t('turningTitle')}</h2>
+                            <h3 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">{t('turningTitle')}</h3>
 
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('turningDesc')}</p>
                             <p className="mt-6 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('turningDesc2')}</p>
@@ -232,7 +232,7 @@ export default function Page() {
                                 commonData.map((data, ind) => {
                                     return (
                                         <div key={ind}>
-                                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">{data.title}</h2>
+                                            <h3 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">{data.title}</h3>
                                             <p className="mt-5 4xl:pr-20 pr-4 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc1}</p>
                                             <p className="mt-5 4xl:pr-20 pr-4 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc2}</p>
                                             <UnorderedList arrName={data.list} ulClassName="list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[36px] mt-3 font-medium" />
