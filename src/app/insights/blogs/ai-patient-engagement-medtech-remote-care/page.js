@@ -289,7 +289,7 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="py-6"></div>
-                    <div className="grid xl:grid-cols-12">
+                    <div className="grid xl:grid-cols-12"> 
                         <div className="xl:col-span-10 col-span-12">
                             <h1 className="text-[#000000] pb-6 leading-tight text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px] md:text-[28px]">
                                 AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring
@@ -311,9 +311,9 @@ export default function Page() {
                                             key={ind}
                                             className="px-[36px] max-[360px]:pt-[80px] pt-[46px] sm:pt-[60px] lg:pt-[70px] pb-[40px] relative border border-[#707070] flex flex-col items-center">
 
-                                            <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] font-bold bg-[#006FBE] text-white py-3 px-6 absolute -top-8 left-1/2 transform -translate-x-1/2 w-[76%] text-center">
+                                            <p className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] font-bold bg-[#006FBE] text-white py-3 px-6 absolute -top-8 left-1/2 transform -translate-x-1/2 w-[76%] text-center">
                                                 <span className={`${ind == 1 && "w-[70%] block md:py-0 mx-auto"} ${ind == 2 && "py-4 block"}`}>  {data.title}</span>
-                                            </h3>
+                                            </p>
 
                                             <p className="mt-5 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
                                                 {data.desc}
@@ -324,7 +324,7 @@ export default function Page() {
                             </div>
 
                             <p className="mt-10 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Let’s get into how these intelligent agents transform remote monitoring in MedTech.</p>
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">1. Turning Continuous Data into Actionable Insights</h2>
+                            <h3 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">1. Turning Continuous Data into Actionable Insights</h3>
 
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Remote monitoring devices generate massive amounts of data—heart rate variability, glucose levels, oxygen saturation, machine diagnostics from medical devices, and more.</p>
                             <p className="mt-6 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">The problem is that providers face alert fatigue without intelligent filtering, and patients don’t get timely interventions.</p>
@@ -335,7 +335,7 @@ export default function Page() {
                                 commonData.map((data, ind) => {
                                     return (
                                         <div key={ind}>
-                                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">{data.title}</h2>
+                                            <h3 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">{data.title}</h3>
                                             <p className="mt-5 4xl:pr-20 pr-4 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc1}</p>
                                             <p className="mt-5 4xl:pr-20 pr-4 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc2}</p>
                                             <UnorderedList arrName={data.list} ulClassName="list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[36px] mt-3 font-medium" />
