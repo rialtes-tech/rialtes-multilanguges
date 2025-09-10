@@ -230,7 +230,7 @@ export default function Page() {
                                 agentforceEnablingData.map((data, ind) => {
                                     return (
                                         <div key={ind}>
-                                            <p className="mt-12 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">{data.title}</p>
+                                            <h3 className="mt-12 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">{data.title}</h3>
                                             <UnorderedList arrName={data.desc} ulClassName="mt-3" liClassName="4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] mt-1 font-medium" />
                                         </div>
                                     )
