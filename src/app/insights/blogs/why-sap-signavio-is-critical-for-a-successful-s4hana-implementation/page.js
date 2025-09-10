@@ -164,7 +164,6 @@ const blogdescData = [
   "Organizations are at a stage where they must modernize their ERP systems, streamline operations, and harness real-time insights. SAP S/4HANA has become the digital core for businesses aiming to achieve this transformation. However, the real differentiator between a simple migration and a successful transformation lies in how effectively an organization aligns its business processes with S/4HANA.",
   "That’s where SAP Signavio Business Process Transformation Suite and Rialtes’ proven Voyager+ methodology come together to deliver measurable results. Rialtes ensures that business and IT leaders don’t just migrate to S/4HANA, but redefine how their enterprise operates in the digital era.",
 ];
-
 const transformationPoints = [
   {
     title: "Process-Centric Approach",
@@ -314,7 +313,7 @@ const faqData = [
   },
 ];
 export default function Page() {
-  const fullUrl = "https://www.rialtes.com/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/";
 
   return (
     <div className="min-h-screen">
@@ -323,7 +322,7 @@ export default function Page() {
         description="Ready for S/4HANA Implementation? Rialtes’ Voyager+ and SAP Signavio make the journey smooth, transparent, and built for scalable enterprise success."
         keywords="Partners, website, welcome"
         canonical={
-          "https://www.rialtes.com/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/"
+          "https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/"
         }
       />
 
