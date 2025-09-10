@@ -178,6 +178,26 @@
     ],
     "latestBlogs": [
       {
+        "id": 35,
+        "image": "/images/blog/ai-in-patient-mobile-banner.webp",
+        "category": "Artificial Intelligence",
+        "industry": "Generic",
+        "date": "Sep. 09, 2025",
+        "url": "/ai-patient-engagement-medtech-remote-care",
+        "title": "AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring",
+        "description": "Early detection of health deterioration is vital for patients with chronic conditions or those recovering from surgery."
+      },
+      {
+        "id": 34,
+        "image": "/images/blog/industry4-mobile-banner.webp",
+        "category": "Agentforce",
+        "industry": "Generic",
+        "date": "Sep. 08, 2025",
+        "url": "/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing",
+        "title": "How Agentforce AI Predicts and Prevents Downtime in Industry 4.0 Manufacturing",
+        "description": "The promise of Industry 4.0 has been laid out: factories that can think, adapt, and optimize in real time."
+      },
+      {
         "id": 33,
         "image": "/images/blog/first-ai-agent-mob-banner.webp",
         "category": "Artificial Intelligence",
