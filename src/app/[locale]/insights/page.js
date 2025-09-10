@@ -95,7 +95,7 @@ export default function InsightsPage() {
       />
 
       {/* Hero Section with Deep Blue Gradient Background */}
-      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+      <section className="relative group overflow-hidden h-[399px] 4xl:h-[650px] 2xl:h-[500px] xl:h-[500px]">
         <div className="hidden md:block">
           <Image
             src="/images/insights/insight-header-banner-new.webp"
@@ -128,11 +128,11 @@ export default function InsightsPage() {
       {/* Blog Section */}
       <div className="custom-container">
         <section className="mb-16 mt-[50px] md:mt-[100px] xl:mt-[100px] lg:max-w-[800px] xl:max-w-[1600px]">
-          <h2 className="text-[#000000] text-[20px] sm:text-[26px] pb-6 mb-8 max-w-4xl">
+          <h2 className="text-[#000000] text-[20px] xl:text-[26px] pb-6 mb-8 max-w-4xl md:text-[20px] ">
             {t('insightDesc')}
           </h2>
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-6">
-            <h2>{t('featuredTitle')}</h2>
+            <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] text-[26px]">{t('featuredTitle')}</h2>
             <div className="hidden sm:block">
               <Link
                 href="/insights/blogs"
@@ -182,10 +182,10 @@ export default function InsightsPage() {
                   <span className="mx-2">|</span>
                   <span className="text-sm">{t('blogDate')}</span>
                 </div>
-                <h3 className="mb-3">
+                <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                   {t('howTitle')}
                 </h3>
-                <p className="mb-4">
+                <p className="mb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                   {t('howDesc')}
                 </p>
                 <Link
@@ -248,10 +248,10 @@ export default function InsightsPage() {
                     <span className="text-gray-500 mx-2">|</span>
                     <span className="text-gray-600 text-sm">{t('brainDate')}</span>
                   </div>
-                  <h3 className="mb-3">
+                  <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                     {t('brainBlog')}
                   </h3>
-                  <p className="mb-2">
+                  <p className="mb-2 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                     {t('brainDesc')}
                   </p>
                   <div>
@@ -315,10 +315,10 @@ export default function InsightsPage() {
                     <span className="text-gray-500 mx-2">|</span>
                     <span className="text-gray-600 text-sm">{t('agenticDate')}</span>
                   </div>
-                  <h3 className="mb-3">
+                  <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                     {t('agenticTitle')}
                   </h3>
-                  <p className="mb-2">
+                  <p className="mb-2 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                     {t('agenticDesc')}
                   </p>
                   <div>
@@ -358,9 +358,9 @@ export default function InsightsPage() {
       <section className="mt-16 py-16 bg-[#f1f1f1]">
         <div className="custom-container">
           <div className="lg:max-w-[800px]  xl:max-w-[1600px]">
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-6">
-              <div>
-                <h2 className="mb-1">{t('caseTitle')}</h2>
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+              <div className="md:w-[50%]">
+                <h2 className="mb-1 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] text-[26px]">{t('caseTitle')}</h2>
                 <p>{t('caseDesc')}</p>
               </div>
               <div className="hidden sm:block">
@@ -470,11 +470,11 @@ export default function InsightsPage() {
             </div>
 
           </div>
-          <div className="block sm:hidden mt-12">
+          <div className="sm:hidden mt-12">
             <Link
               href="/insights/case-studies"
-              className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300 relative overflow-hidden">
-              <span className="inline-flex items-center">
+              className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-3 px-8 transition duration-300">
+              <span className="items-center inline-block">
                 {t('allCaseStudy')}
               </span>
             </Link>
@@ -489,7 +489,7 @@ export default function InsightsPage() {
       >
         <section className="mt-16 mb-16 lg:max-w-[800px]  xl:max-w-[1600px]">
           <div className="flex flex-col justify-between items-start sm:items-center sm:flex-row mb-8">
-            <h2 className="mb-1">{t('Webinars')}</h2>
+            <h2 className="mb-1 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] text-[26px]">{t('Webinars')}</h2>
             <div className="hidden sm:block">
               <Link
                 href="/insights/webinars"

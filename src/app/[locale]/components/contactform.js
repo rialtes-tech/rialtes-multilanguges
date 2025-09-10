@@ -133,7 +133,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
     if (!mounted) return null;
     return (
         <section className={(padding ? padding : '')}>
-            <div className={`font-light leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px] ${className}`}>
+            <div className={`font-light leading-tight 4xl:text-[60px] xl:text-[42px] 2xl:text-[48px] text-[26px] ${className}`}>
                 {title ? title : t('contactUsTitle')}
             </div>
             {subtitle && (
