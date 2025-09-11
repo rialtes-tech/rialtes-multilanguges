@@ -29,6 +29,16 @@ const schemaData = {
 }
 
 const latestBlogs = [
+  // {
+  //   id: 37,
+  //   image: "/images/blog/sap-industry-mobile-banner.webp",
+  //   category: "SAP",
+  //   industry: "Generic",
+  //   date: "Sep. 16, 2025",
+  //   url: '/sap-build-for-manufacturing-4-0',
+  //   title: "Accelerating Industry 4.0 with SAP Build: Low-Code Tools for Smarter Manufacturing",
+  //   description: "Industry 4.0 has transformed factories into connected ecosystems where machines, people, and processes work in sync.",
+  // },
   {
     id: 36,
     image: "/images/blog/ai-that-listens-mob-banner.webp",

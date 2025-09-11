@@ -7,6 +7,84 @@ import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "SAP Build for Smart Manufacturing Industry 4.0",
+    "description": "SAP Build helps manufacturers strengthen connected machines, integrated data, and agile processes—shortening innovation cycles and boosting resilience.",
+    "image": "https://www.rialtes.com/images/blog/sap-industry-desktop-banner.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0/ "
+    },
+    "datePublished": "2025-09-16",
+    "mainEntity": {
+        "@type": "FAQPage",
+        "name": "SAP Build for Smart Manufacturing FAQs",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What makes SAP Build different from other low-code platforms for manufacturing?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "SAP Build is natively integrated with SAP ERP, MES, and Manufacturing Cloud. This means apps, workflows, and dashboards connect directly to core manufacturing data without heavy customization."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can non-technical staff in manufacturing plants really use SAP Build?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. SAP Build is designed for citizen developers. With drag-and-drop interfaces and prebuilt templates, process engineers, supervisors, and managers can design apps or workflows without writing code."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does SAP Build improve factory-floor operations?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "SAP Build enables faster decision-making and fewer delays. IoT alerts can trigger automated maintenance requests, defect photos can be routed instantly to quality teams, and operators can access digital SOPs through Work Zone portals."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does SAP Build support sustainability goals?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Manufacturers can create apps that capture energy, waste, and emissions data directly from production systems. Automated workflows then generate reports or trigger alerts when usage exceeds thresholds."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can SAP Build integrate with non-SAP systems?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. While its native integration with SAP solutions is unmatched, SAP Build also connects to third-party systems, IoT platforms, and cloud apps via APIs and connectors."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What kind of ROI can manufacturers expect from SAP Build?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Companies typically see faster app deployment (up to 70% quicker), reduced IT costs (20–40%), and lower downtime (20–30%). These benefits compound into significant savings and higher productivity within the first year."
+                }
+            }
+        ]
+    }
+}
 const blogMainData = [
     "Industry 4.0 has transformed factories into connected ecosystems where machines, people, and processes work in sync. It includes areas like maintenance, order-based production, networked factories, adaptive logistics, and intelligent product development.",
     "But here’s the reality: even the most advanced shop floors still hit bottlenecks when business users can’t quickly adapt systems to changing needs. Every tweak, every new dashboard, every process automation request often ends up in IT backlogs, slowing down innovation where speed matters most.",
@@ -125,25 +203,25 @@ const faqData = [
     },
 ]
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0";
 
     return (
         <div className="min-h-screen">
             <Seo
-                title="AI Patient Engagement: How Smart Agents Simplify Care | Rialtes"
-                description=" Discover how AI for patient engagement helps MedTech streamline monitoring, simplify workflows, and enhance patient-provider interactions with ease."
+                title="SAP Build for Manufacturing Sector: Cut Downtime 30% | Rialtes"
+                description="Discover how SAP Build helps manufacturers accelerate innovation, reduce downtime, and empower teams with low-code apps and automation."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care/"
+                    "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0/"
                 }
             />
 
-            {/* <Script
+            <Script
                 id="schema-copilots"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            /> */}
+            />
 
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] overflow-hidden">
                 <div className="xl:block hidden">
@@ -173,7 +251,7 @@ export default function Page() {
                         <div className="flex flex-col md:flex-row justify-between text-black items-center xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">SAP</span>{" "}
-                                <span className="text-[#ACACAC]"> | </span>09 September 2025
+                                <span className="text-[#ACACAC]"> | </span>16 September 2025
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
@@ -286,6 +364,45 @@ export default function Page() {
                                 }
                             </div>
 
+                            <h2 className="font-semibold mt-20 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px] pr-10 xl:pr-0">Practical Applications of SAP Build in Industry 4.0</h2>
+                            <p className="mt-5 4xl:pr-20 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px]">Let’s ground this. Here are just a few ways manufacturers use SAP Build to support Industry 4.0 operations:</p>
+
+                            {
+                                practicalData.map((data, ind) => {
+                                    return (
+                                        <div className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[46px] px-[26px] md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto" key={ind}>
+                                            <div className="md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[300px] xl:w-[280px] md:w-[240px] w-fit md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[24px] xl:text-[20px] text-[17px] px-[40px] py-[22px]">{data.title}</div>
+                                            <div className="4xl:text-[20px] xl:text-[17px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[180px] xl:ml-[210px] 4xl:ml-[240px]">{data.desc}</div>
+                                        </div>
+
+                                    )
+                                })
+                            }
+                            <h2 className="font-semibold mt-20 4xl:text-[24px] xl:text-[22px] text-[20px] pr-10 xl:pr-0">The Business Impact</h2>
+                            <p className="mt-5 4xl:pr-20 4xl:text-[20px] xl:text-[17px] text-[16px]">By embedding SAP Build into manufacturing operations, companies report:</p>
+
+                            <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[26px] mt-[47px] sm:w-[70%] md:w-[90%] lg:w-[900px] xl:w-[1090px] 3xl:w-[1140px]">
+                                {
+                                    businessImpactData.map((data, ind) => {
+                                        return (
+                                            <div key={ind} className="border border-[#707070] p-[28px] md:px-[34px] md:pt-[26px] md:pb-[40px]">
+                                                <h3 className="mt-2 2xl:text-[22px] 4xl:text-[24px] xl:text-[20px] text-[18px] text-[#0092E0] font-bold pb-4 border-b border-[#707070]">{data.title}</h3>
+                                                <p className="mt-5 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
+
+                            <h2 className="font-semibold mt-20 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px] pr-10 xl:pr-0">Ready to Build Smarter with SAP Build?</h2>
+
+                            <p className="mt-5 4xl:pr-20 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px]">Manufacturers recognize that Industry 4.0 focuses on the ability to quickly respond to disruptions and customer demands while achieving sustainability goals. SAP Build provides teams with tools for innovation, whether it's a process engineer creating a defect logging app, a manager automating approvals, or a sustainability leader building an energy dashboard.</p>
+                            <p className="mt-5 4xl:pr-20 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px]">As a  <Link href={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">trusted SAP partner </span></Link>, we help manufacturers design and deploy SAP Build solutions that fit seamlessly into your Industry 4.0 journey. From app development to process automation and integrated workspaces, we ensure your teams have the tools to accelerate digital transformation.</p>
+                            <p className="mt-5 4xl:pr-20 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px]"> <Link href={"https://www.rialtes.com/contact-us/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">Let’s talk </span> </Link> about how SAP Build can unlock innovation on your shop floor.</p>
+
+
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px] pb-3">FAQs: Frequently Asked Questions</h2>
+                            <FAQAccordion faqData={faqData} />
 
                         </div>
                     </div>
