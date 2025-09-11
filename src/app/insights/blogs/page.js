@@ -30,6 +30,16 @@ const schemaData = {
 
 const latestBlogs = [
   {
+    id: 36,
+    image: "/images/blog/ai-that-listens-mob-banner.webp",
+    category: "Artificial Intelligence",
+    industry: "Generic",
+    date: "Sep. 11, 2025",
+    url: '/how-large-language-models-improve-customer-experience',
+    title: "AI That Listens, Learns, and Delivers: How Large Language Models Are Transforming Customer Experience",
+    description: "Great customer experience begins with great listening. But we are not just talking about hearing the words; it’s about understanding intent, emotion, context, and history.",
+  },
+  {
     id: 35,
     image: "/images/blog/ai-in-patient-mobile-banner.webp",
     category: "Artificial Intelligence",

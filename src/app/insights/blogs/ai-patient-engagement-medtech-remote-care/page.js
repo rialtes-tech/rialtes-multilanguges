@@ -311,7 +311,7 @@ export default function Page() {
                                             key={ind}
                                             className="px-[36px] max-[360px]:pt-[80px] pt-[46px] sm:pt-[60px] lg:pt-[70px] pb-[40px] relative border border-[#707070] flex flex-col items-center">
 
-                                            <p className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] font-bold bg-[#006FBE] text-white py-3 px-6 absolute -top-8 left-1/2 transform -translate-x-1/2 w-[76%] text-center">
+                                            <p className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] font-bold bg-[#006FBE] text-white py-3 px-6 absolute -top-8 4xl:-top-12 left-1/2 transform -translate-x-1/2 w-[76%] text-center">
                                                 <span className={`${ind == 1 && "w-[70%] block md:py-0 mx-auto"} ${ind == 2 && "py-4 block"}`}>  {data.title}</span>
                                             </p>
 
