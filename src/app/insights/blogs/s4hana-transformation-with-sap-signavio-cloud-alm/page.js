@@ -456,8 +456,8 @@ export default function Page() {
                                                     {
                                                          data.list.map((elem, id) => {
                                                             return (
-                                                                <div>
-                                                                    <p key={id} className="4xl:text-[20px] xl:text-[17px] text-[16px] mt-[29px]">{elem}</p>
+                                                                <div key={id}>
+                                                                    <p className="4xl:text-[20px] xl:text-[17px] text-[16px] mt-[29px]">{elem}</p>
                                                                     {
                                                                         id == 0 && <div className="bg-[#006FBE] h-[2px] w-[40px] mt-6 mb-4"></div>
                                                                     }

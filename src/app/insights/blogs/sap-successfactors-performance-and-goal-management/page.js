@@ -184,31 +184,29 @@ export default function Page() {
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]  overflow-hidden">
         <div className="hidden md:block">
           <Image
-          src="/images/blog/successfactors-performance-goals.webp "
-          alt="SAP SuccessFactors Performance and Goal Management"
-          fill
-          priority
-          style={{ objectFit: "cover", objectPosition: "90% 20%" }}
-        />
+            src="/images/blog/successfactors-performance-goals.webp "
+            alt="SAP SuccessFactors Performance and Goal Management"
+            fill
+            priority
+            style={{ objectFit: "cover", objectPosition: "90% 20%" }}
+          />
         </div>
-         <div className="block md:hidden">
+        <div className="block md:hidden">
           <Image
-          src="/images/blog/blog-7.webp "
-          alt="SAP SuccessFactors Performance and Goal Management"
-          fill
-          priority
-          style={{ objectFit: "cover", objectPosition: "90% 20%" }}
-        />
+            src="/images/blog/blog-7.webp "
+            alt="SAP SuccessFactors Performance and Goal Management"
+            fill
+            priority
+            style={{ objectFit: "cover", objectPosition: "90% 20%" }}
+          />
         </div>
       </section>
 
-      <section
-        className="custom-container"
-      >
+      <section className="custom-container">
 
         <div className="py-10 bg-white xl:max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[800px]">
-          <div className="">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
+          <div>
+            <div className="flex flex-col md:flex-row justify-between text-black items-center">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>SAP SuccessFactors</span> <span className='text-[#ACACAC]'> | </span>29 Oct 2024
               </div>
