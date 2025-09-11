@@ -29,6 +29,26 @@ const schemaData = {
 }
 
 const latestBlogs = [
+  // {
+  //   id: 37,
+  //   image: "/images/blog/sap-industry-mobile-banner.webp",
+  //   category: "SAP",
+  //   industry: "Generic",
+  //   date: "Sep. 16, 2025",
+  //   url: '/sap-build-for-manufacturing-4-0',
+  //   title: "Accelerating Industry 4.0 with SAP Build: Low-Code Tools for Smarter Manufacturing",
+  //   description: "Industry 4.0 has transformed factories into connected ecosystems where machines, people, and processes work in sync.",
+  // },
+  {
+    id: 36,
+    image: "/images/blog/ai-that-listens-mob-banner.webp",
+    category: "Artificial Intelligence",
+    industry: "Generic",
+    date: "Sep. 11, 2025",
+    url: '/how-large-language-models-improve-customer-experience',
+    title: "AI That Listens, Learns, and Delivers: How Large Language Models Are Transforming Customer Experience",
+    description: "Great customer experience begins with great listening. But we are not just talking about hearing the words; it’s about understanding intent, emotion, context, and history.",
+  },
   {
     id: 35,
     image: "/images/blog/ai-in-patient-mobile-banner.webp",
