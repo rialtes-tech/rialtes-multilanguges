@@ -185,7 +185,7 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="py-6"></div>
-                    <div className="grid xl:grid-cols-12">
+                    <div className="grid xl:grid-cols-12"> 
                         <div className="xl:col-span-10 col-span-12">
                             <h1 className="text-[#000000] pb-6 leading-tight text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px] md:text-[28px]">
                                 {t('blogTitle')}
