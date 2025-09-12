@@ -258,8 +258,8 @@ export default function Page() {
                                     impactData2.map((data, ind) => {
                                         return (
                                             <div key={ind} className="border border-[#707070] p-[24px] md:p-[34px]">
-                                                <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[22px] 4xl:text-[24px] xl:text-[20px] text-[18px] text-[#0092E0] font-bold pb-4 border-b border-[#707070]">{data.title}</p>
-                                                <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
+                                                <p className="mt-5 2xl:text-[22px] 4xl:text-[24px] xl:text-[20px] text-[18px] text-[#0092E0] font-bold pb-4 border-b border-[#707070]">{data.title}</p>
+                                                <p className="mt-5 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
                                             </div>
                                         )
                                     })
