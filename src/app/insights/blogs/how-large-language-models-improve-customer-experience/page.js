@@ -225,6 +225,10 @@ const fromChatbotsData = [
     "LLMs take fragmented customer touchpoints and turn them into fluid, human-like conversations. They pick up on tone, recall history, and adjust messaging in real time. That’s why more CX leaders are ditching rigid automation in favor of conversational, data-driven, emotionally intelligent AI.",
     "If you're asking:"
 ]
+const readyData = [
+    "At Rialtes, we work with companies to integrate LLMs directly into their customer service stack, bringing smarter conversations, faster resolution, and more human interactions across every channel.",
+    "With our <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce consulting expertise </span> </a>, we’ll help you build a strategy that’s scalable, secure, and aligned to your goals, whether that’s reducing support load, increasing NPS, or delivering 24/7 multilingual support. Let’s make your  <a href='https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> customer experience as intelligent as your customers </span> </a> expect it to be. Reach out to us at <a href='https://www.rialtes.com/contact-us'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com </span> </a> to start the conversation.",
+]
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience";
 
@@ -401,8 +405,17 @@ export default function Page() {
                             <p className="mt-5 4xl:pr-5 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px]">It’s time to look at LLMs. Check out our blog on  <Link href={"https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> How to Build AI Agents </span> </Link>  to learn how businesses are deploying LLM-powered agents using Agentforce. We walk through real examples and a step-by-step guide to get started.</p>
 
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">Ready to Enhance CX with LLMs? Let Rialtes Help.</h2>
-                            <p className="mt-5 4xl:pr-5 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px]">At Rialtes, we work with companies to integrate LLMs directly into their customer service stack, bringing smarter conversations, faster resolution, and more human interactions across every channel.</p>
-                            <p className="mt-3 4xl:pr-5 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px]">With our  <Link href={"https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">Agentforce consulting expertise </span> </Link>, we’ll help you build a strategy that’s scalable, secure, and aligned to your goals, whether that’s reducing support load, increasing NPS, or delivering 24/7 multilingual support. Let’s make your  <Link href={"https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> customer experience as intelligent as your customers </span> </Link> expect it to be. Reach out to us at sales@rialtes.com to start the conversation.</p>
+                            {
+                                readyData.map((data, ind) => {
+                                    return (
+                                        <p
+                                            key={ind}
+                                            className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]"
+                                            dangerouslySetInnerHTML={{ __html: data }}
+                                        />
+                                    )
+                                })
+                            }
                         </div>
                     </div>
                 </div>

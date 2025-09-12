@@ -30,7 +30,7 @@ const schemaData = {
 
 const latestBlogs = [
   // {
-  //   id: 37,
+  //   id: 38,
   //   image: "/images/blog/sap-industry-mobile-banner.webp",
   //   category: "SAP",
   //   industry: "Generic",
@@ -39,6 +39,16 @@ const latestBlogs = [
   //   title: "Accelerating Industry 4.0 with SAP Build: Low-Code Tools for Smarter Manufacturing",
   //   description: "Industry 4.0 has transformed factories into connected ecosystems where machines, people, and processes work in sync.",
   // },
+  {
+    id: 37,
+    image: "/images/blog/data-cloud-ecom-mobile-banner.webp",
+    category: "Artificial Intelligence",
+    industry: "Generic",
+    date: "Sep. 12, 2025",
+    url: '/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty',
+    title: "Predictive Ecommerce in Salesforce: How Data Cloud Shapes Smarter Customer Experiences",
+    description: "Predictive analytics has always been crucial in helping businesses deliver personalized experiences.Salesforce Data Cloud empowers companies to leverage predictive analytics and data-driven insights to craft transformative e-commerce strategies.",
+  },
   {
     id: 36,
     image: "/images/blog/ai-that-listens-mob-banner.webp",
