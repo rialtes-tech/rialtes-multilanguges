@@ -227,7 +227,7 @@ const fromChatbotsData = [
 ]
 const readyData = [
     "At Rialtes, we work with companies to integrate LLMs directly into their customer service stack, bringing smarter conversations, faster resolution, and more human interactions across every channel.",
-    "With our <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce consulting expertise </span> </a>, we’ll help you build a strategy that’s scalable, secure, and aligned to your goals, whether that’s reducing support load, increasing NPS, or delivering 24/7 multilingual support. Let’s make your  <a href='https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> customer experience as intelligent as your customers </span> </a> expect it to be. Reach out to us at <a href='https://www.rialtes.com/contact-us'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com </span> </a> to start the conversation.",
+    "With our <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce consulting expertise </span> </a>, we’ll help you build a strategy that’s scalable, secure, and aligned to your goals, whether that’s reducing support load, increasing NPS, or delivering 24/7 multilingual support. Let’s make your  <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> customer experience as intelligent as your customers </span> </a> expect it to be. Reach out to us at <a href='mailto:sales@rialtes.com'><span class='transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com </span> </a> to start the conversation.",
 ]
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience";
@@ -278,7 +278,7 @@ export default function Page() {
                         <div className="flex flex-col md:flex-row justify-between text-black items-center  xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">Artificial Intelligence</span>{" "}
-                                <span className="text-[#ACACAC]"> | </span>11 Sep 2025
+                                <span className="text-[#ACACAC]"> | </span>11 September 2025
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
