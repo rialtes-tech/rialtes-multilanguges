@@ -7,6 +7,77 @@ import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 import UnorderedList from "@/app/components/unorderedList";
 
+const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Ecommerce in Salesforce: Driving Loyalty with Data Cloud | Rialtes",
+    "description": "Salesforce Data Cloud centralizes customer data, enabling businesses to predict behaviors, personalize experiences, and make real-time decisions.",
+    "image": "https://www.rialtes.com/images/blog/data-cloud-ecom-desktop-banner.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty/"
+    },
+    "datePublished": "2025-09-12",
+    "mainEntity": {
+        "@type": "FAQPage",
+        "name": "Ecommerce in Salesforce with Data Cloud FAQs",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is Salesforce Data Cloud used for in e-commerce?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Salesforce Data Cloud centralizes customer data, enabling businesses to predict behaviors, personalize experiences, and make real-time decisions. It is particularly powerful for ecommerce in Salesforce, where unified data leads to smarter personalization."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does predictive analytics improve customer experience in e-commerce?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Predictive analytics anticipates needs, recommends relevant products, and provides real-time insights that make interactions feel more personal and proactive."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can Salesforce Data Cloud help reduce cart abandonment?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. By detecting abandoned carts in real time, Salesforce Data Cloud can trigger personalized emails, discounts, or alerts that encourage customers to complete their purchases."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does Einstein AI fit into Salesforce Data Cloud?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Einstein AI powers predictive models, NLP sentiment analysis, and automated decision-making within Salesforce Data Cloud to enhance personalization and efficiency."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why is real-time data important for predictive e-commerce?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Real-time insights enable instant adjustments to pricing, promotions, and recommendations, keeping customers engaged and reducing churn."
+                }
+            }
+        ]
+    }
+}
+
 const salesforceData = [
     {
         "title": "Data Ingestion",
@@ -116,14 +187,14 @@ const predectiveData = [
 ]
 
 const empowerData = [
-    "Salesforce Data Cloud equips businesses with the tools to anticipate customer needs, deliver real-time insights, optimize inventory, and craft personalized journeys that keep them competitive in a crowded marketplace. Before implementing Data Cloud, organizations need to understand their data, define clear objectives, and align stakeholders on outcomes.",
-    "As a Salesforce consulting partner, Rialtes helps e-commerce brands go beyond the basics by unlocking the full power of Data Cloud. Our specialists identify the right use cases, streamline implementation timelines, and design customer journeys that truly matter. By blending predictive insights with personalization, we help you build stronger customer relationships, improve loyalty, and accelerate revenue growth.",
+    "<a href='https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce Data Cloud </span> </a> equips businesses with the tools to anticipate customer needs, deliver real-time insights, optimize inventory, and craft personalized journeys that keep them competitive in a crowded marketplace. Before implementing Data Cloud, organizations need to understand their data, define clear objectives, and align stakeholders on outcomes.",
+    "As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce consulting partner </span> </a>, Rialtes helps e-commerce brands go beyond the basics by unlocking the full power of Data Cloud. Our specialists identify the right use cases, streamline implementation timelines, and design customer journeys that truly matter. By blending predictive insights with personalization, we help you build stronger customer relationships, improve loyalty, and accelerate revenue growth.",
     "Ready to turn prediction into profit? Reach out to us at  <a href='https://www.rialtes.com/contact-us' class='text-[#0092E0] underline hover:text-gray-400'>sales@rialtes.com.</span></a>"
 ]
 const faqs = [
     {
         "question": "What is Salesforce Data Cloud used for in e-commerce?",
-        "answer": "Salesforce Data Cloud centralizes customer data, enabling businesses to predict behaviors, personalize experiences, and make real-time decisions."
+        "answer": "Salesforce Data Cloud centralizes customer data, enabling businesses to predict behaviors, personalize experiences, and make real-time decisions.It is particularly powerful for ecommerce in Salesforce, where unified data leads to smarter personalization."
     },
     {
         "question": "How does predictive analytics improve customer experience in e-commerce?",
@@ -144,25 +215,25 @@ const faqs = [
 ]
 
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty";
 
     return (
         <div className="min-h-screen">
             <Seo
-                title="SAP Build for Manufacturing Sector: Cut Downtime 30% | Rialtes"
-                description="Discover how SAP Build helps manufacturers accelerate innovation, reduce downtime, and empower teams with low-code apps and automation."
+                title="Ecommerce in Salesforce: Driving Loyalty with Data Cloud | Rialtes"
+                description="Salesforce Data Cloud unifies customer data to power predictive insights, helping businesses drive ecommerce loyalty and real-time personalization."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0/"
+                    "https://www.rialtes.com/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty/"
                 }
             />
-            {/* 
+
             <Script
                 id="schema-copilots"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            /> */}
+            />
 
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] overflow-hidden">
                 <div className="xl:block hidden">
@@ -244,7 +315,7 @@ export default function Page() {
                     <div className="grid xl:grid-cols-12">
                         <div className="xl:col-span-10 col-span-12">
                             <h1 className="text-[#000000] pb-6 leading-tight text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px] md:text-[28px]">
-                                Predictive E-Commerce with Salesforce Data Cloud: How AI and Analytics Shape Smarter Customer Experiences
+                                Predictive Ecommerce in Salesforce: How Data Cloud Shapes Smarter Customer Experiences
                             </h1>
                         </div>
                     </div>
@@ -270,6 +341,9 @@ export default function Page() {
                                     })
                                 }
                             </div>
+
+                            <p className="mt-5 4xl:pr-20 4xl:text-[20px] xl:text-[17px] text-[16px]">Together, these features make ecommerce in Salesforce a unified experience across marketing, sales, and service.</p>
+
 
                             <h2 className="font-semibold mt-20 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px]">Drive Business Insights and Grow Revenue with Salesforce Data Cloud for Commerce</h2>
 
@@ -339,17 +413,15 @@ export default function Page() {
                                 })
                             }
 
-                            <h2 className="font-semibold mt-20 mb-10 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px] pr-10 xl:pr-0">Frequently Asked Questions (FAQs)</h2>
+                            <h2 className="font-semibold mt-16 mb-10 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px] pr-10 xl:pr-0">Frequently Asked Questions (FAQs)</h2>
 
                             <FAQAccordion faqData={faqs} />
-                            <p className="mt-5 4xl:pr-20 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px]"></p>
-
 
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="custom-container lg:pr-0">
+            <section className="custom-container mt-10 lg:pr-0">
                 <BlogsCarousel />
             </section>
         </div>
