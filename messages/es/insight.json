@@ -177,6 +177,36 @@
     ],
     "latestBlogs": [
       {
+        "id": 38,
+        "image": "/images/blog/sap-industry-mobile-banner.webp",
+        "category": "SAP",
+        "industry": "Genérico",
+        "date": "16 sept. 2025",
+        "url": "/sap-build-for-manufacturing-4-0",
+        "title": "Acelerando la Industria 4.0 con SAP Build: herramientas low-code para una fabricación más inteligente",
+        "description": "La Industria 4.0 ha transformado las fábricas en ecosistemas conectados donde máquinas, personas y procesos trabajan en sincronía."
+      },
+      {
+        "id": 37,
+        "image": "/images/blog/data-cloud-ecom-mobile-banner.webp",
+        "category": "Inteligencia Artificial",
+        "industry": "Genérico",
+        "date": "12 sept. 2025",
+        "url": "/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty",
+        "title": "Comercio electrónico predictivo en Salesforce: cómo Data Cloud crea experiencias de cliente más inteligentes",
+        "description": "La analítica predictiva siempre ha sido crucial para ayudar a las empresas a ofrecer experiencias personalizadas. Salesforce Data Cloud permite a las compañías aprovechar la analítica predictiva y los insights basados en datos para diseñar estrategias de comercio electrónico transformadoras."
+      },
+      {
+        "id": 36,
+        "image": "/images/blog/ai-that-listens-mob-banner.webp",
+        "category": "Inteligencia Artificial",
+        "industry": "Genérico",
+        "date": "11 sept. 2025",
+        "url": "/how-large-language-models-improve-customer-experience",
+        "title": "IA que escucha, aprende y entrega: cómo los grandes modelos de lenguaje están transformando la experiencia del cliente",
+        "description": "Una gran experiencia de cliente comienza con una buena escucha. Pero no se trata solo de oír las palabras; se trata de comprender la intención, la emoción, el contexto y el historial."
+      },
+      {
         "id": 35,
         "image": "/images/blog/ai-in-patient-mobile-banner.webp",
         "category": "Inteligencia Artificial",

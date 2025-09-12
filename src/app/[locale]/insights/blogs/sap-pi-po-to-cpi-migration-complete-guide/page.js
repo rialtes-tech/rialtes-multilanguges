@@ -263,7 +263,7 @@ export default function Page() {
                                     {steps.map((step, index) => (
                                         <div
                                             key={index}
-                                            className="border border-gray-800  bg-white shadow-sm p-6 flex flex-col">
+                                            className="border border-gray-800 bg-white shadow-sm p-6 flex flex-col">
                                             <h3 className="text-[#006FBE] font-semibold leading-tight 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[20px]">
                                                 {step.title}
                                             </h3>
@@ -317,7 +317,7 @@ export default function Page() {
 
                             <section className="w-full py-10 bg-white">
                                 <div className="max-w-7xl">
-                                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:gap-8 gap-10  lg:text-left">
+                                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:gap-8 gap-10 lg:text-left">
                                         {features1.map((feature, index) => (
                                             <div
                                                 key={index}

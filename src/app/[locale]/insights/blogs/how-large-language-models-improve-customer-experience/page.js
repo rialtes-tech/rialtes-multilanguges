@@ -9,6 +9,7 @@ import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import Link from "next/link";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -96,11 +97,12 @@ const schemaData = {
     ]
 }
 
+
 export default function Page() {
     const t = useTranslations('aiThatListens')
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { blogs, LLMarchData, howLLMsData, voiceSearchExample, askingData, voiceSearchData, fromChatbotsData } = blogsContent.aiThatListens;
+    const { blogs, blogMainData, LLMarchData, howLLMsData, voiceSearchExample, askingData, voiceSearchData, fromChatbotsData, readyData } = blogsContent.aiThatListens;
     const fullUrl = "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
 
     return (
@@ -205,34 +207,43 @@ export default function Page() {
                     </div>
                     <div className="grid xl:grid-cols-12">
                         <div className="col-span-9">
-                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('mainData')}</p>
-                            <p className="mt-5 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('mainData2')}</p>
-                            <p className="mt-5 pr-8 4xl:pr-0 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('mainData3')}</p>
-
+                            {
+                                blogMainData.map((data, ind) => {
+                                    return (
+                                        <p
+                                            key={ind}
+                                            className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]"
+                                            dangerouslySetInnerHTML={{ __html: data }}
+                                        />
+                                    )
+                                })
+                            }
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('llmTitle')}</h2>
 
-                            <p className="mt-5 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('llmDesc')} <strong>{t('llmStrongDesc')} </strong>{t('llmDesc2')} </p>
+                            <p className="mt-5 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('llmDesc')}  <Link href={"https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">{t('llmStrongDesc')}</span> </Link>{t('llmDesc2')} </p>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('llmArchTitle')}</p>
-                            <ul className="list-none marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-1 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                            <div className="grid sm:w-[80%] md:w-full md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[26px] mt-8 lg:w-[900px] 3xl:w-[1060px]">
                                 {
                                     LLMarchData.map((data, ind) => {
                                         return (
-                                            <li className="pb-2 pl-[26px]" key={ind}><h4 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{data.title}</h4>{data.desc}</li>
+                                            <div className="border border-[#707070] p-[26px] font-medium text-[16px] xl:text-[18px] 4xl:text-[20px]" key={ind}>
+                                                <h4 className="inline">{data.title}</h4>{data.desc}</div>
                                         )
                                     })
                                 }
-                            </ul>
+                            </div>
 
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('llmArchDesc')}</p>
+                            <p className="mt-8 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('llmArchDesc')}</p>
 
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('llmChangingTitle')}</h2>
                             {
                                 howLLMsData.map((data, ind) => {
                                     return (
-                                        <div key={ind}>
-                                            <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-5 font-bold">{data.title}</h3>
-                                            <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[18px]">{data.desc}</p>
+                                        <div className={`md:flex mt-24 md:mt-10 py-[34px] px-[26px]  border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[850px] 3xl:w-[1100px] ${ind == 5 && "md:py-[54px]"}`} key={ind}>
+                                            <div className={`md:absolute max-md:mt-[-80px] md:top-[50%] md:translate-y-[-50%] 4xl:w-[360px] xl:w-[320px] md:w-[280px]  md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[24px] xl:text-[20px] text-[17px] px-[40px] py-[22px]`}>{data.title}</div>
+                                            <div className="4xl:text-[20px] xl:text-[17px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[220px] xl:ml-[260px] 4xl:ml-[300px]">{data.desc}</div>
                                         </div>
+
                                     )
                                 })
                             }
@@ -262,11 +273,20 @@ export default function Page() {
                             }
 
                             <UnorderedList arrName={askingData} ulClassName="list-disc pl-[34px] marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-1 pl-[26px] space-y-1 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium" liClassName="" />
-                            <p className="mt-5 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('fromChatbotDesc')} <strong> {t('fromChatbotStrongDesc')} </strong>{t('fromChatbotDesc2')}</p>
+                            <p className="mt-5 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('fromChatbotDesc')} <Link href={"https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> {t('fromChatbotStrongDesc')} </span> </Link> {t('fromChatbotDesc2')}</p>
 
                             <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('readyTitle')}</h2>
-                            <p className="mt-5 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('readyDesc')}</p>
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('readyDesc2')}</p>
+                            {
+                                readyData.map((data, ind) => {
+                                    return (
+                                        <p
+                                            key={ind}
+                                            className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]"
+                                            dangerouslySetInnerHTML={{ __html: data }}
+                                        />
+                                    )
+                                })
+                            }
                         </div>
                     </div>
                 </div>

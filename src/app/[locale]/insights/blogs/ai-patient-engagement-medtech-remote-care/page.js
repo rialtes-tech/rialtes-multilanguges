@@ -220,7 +220,7 @@ export default function Page() {
                             </div>
 
                             <p className="mt-10 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('aiRoleDesc2')}</p>
-
+                           
                             <h3 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">{t('turningTitle')}</h3>
 
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('turningDesc')}</p>
