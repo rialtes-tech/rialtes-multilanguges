@@ -4,6 +4,7 @@ import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import ContactForm from "../../components/contactform";
 import { useTranslations } from "next-intl";
+import { useActiveLocale } from "../../components/activeLanguages";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -23,6 +24,7 @@ const schemaData = {
 };
 export default function Page() {
   const t = useTranslations('impact')
+  const { frActive, esActive } = useActiveLocale();
 
   return (
     <div className="min-h-screen bg-white">
@@ -41,7 +43,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/** hero section * */}
-      <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
+      <section className="relative group overflow-hidden h-[350px] md:h-[500px] 4xl:h-[650px]">
         <div className="hidden md:block">
           <Image
             src="/images/social-impact/Social impact header.webp"
@@ -79,13 +81,13 @@ export default function Page() {
       {/* page description */}
       <section className="custom-container">
         <div className="xl:py-[80px] pt-14 pb-10 bg-white ">
-          <div className=" xl:mb-0">
-            <h2 className="text-black md:pb-0 font-bold 4xl:text-[43px]  xl:text-[35px] text-[22px] leading-tight ">
+          <div className="xl:mb-0">
+            <h2 className="text-black md:pb-0 font-bold 4xl:text-[43px] xl:text-[35px] text-[22px] leading-tight ">
               {t('rialtesTitle')}
             </h2>
           </div>
         </div>
-        <h2 className="pb-10 4xl:text-[60px] xl:text-[40px] text-[26px]" > {t('rialtesSubtitle')}</h2>
+        <h2 className="pb-10 4xl:text-[60px] xl:text-[40px] text-[26px]"> {t('rialtesSubtitle')}</h2>
       </section>
       {/* we care we take actions section */}
       <section className="relative h-[500px] xl:h-[550px] overflow-hidden xl:block hidden">
@@ -97,23 +99,23 @@ export default function Page() {
           priority
         />
         <div className="h-full relative ml-[15px] xl:ml-[280px] 2xl:mr-[156px] xl:mr-[70px] md:ml-[100px]">
-          <div className="bg-[#016FBE] absolute xl:p-12 p-6 w-[720px] h-[484px] text-white  xl:right-0 top-0">
+          <div className="bg-[#016FBE] absolute xl:p-12 p-6 w-[720px] 4xl:h-[484px] text-white  xl:right-0 top-0">
             <h3 className="font-normal 4xl:text-[35px]  xl:text-[30px] text-[24px]">
               {t('innovationTitle')}
             </h3>
-            <p className="mt-5 4xl:text-[22px]  xl:text-[18px] text-[16px] ">
+            <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px] ">
               {t('innovationDesc')}
             </p>
             <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
               {t('innovationDescOne')}
             </p>
-            <p className="mt-4 4xl:text-[22px]  xl:text-[18px] text-[16px]">
+            <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px]">
               {t('innovationDescTwo')}
             </p>
           </div>
         </div>
       </section>
-      <section className="relative h-[500px] xl:h-[550px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
+      <section className="relative h-[500px] xl:h-[550px] 4xl:h-[650px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
         <Image
           src="/images/social-impact/ESG Efforts.webp"
           alt="impact and social responsibility image"
@@ -122,24 +124,24 @@ export default function Page() {
           priority
         />
         <div className="custom-container">
-          <div className="relative p-6 w-[720px] h-[484px]">
+          <div className="relative p-6 w-[720px] 4xl:h-[530px]">
             <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
             <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
-              <h3 className="font-normal 4xl:text-[35px]  xl:text-[30px] text-[24px]"> {t('effortsTitle')}</h3>
-              <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px] ">
+              <h3 className="font-normal 4xl:text-[35px] xl:text-[30px] text-[24px]"> {t('effortsTitle')}</h3>
+              <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px]">
                 {t('effortsDesc')}
               </p>
-              <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
+              <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px]">
                 {t('effortsDescOne')}
               </p>
-              <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
+              <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px]">
                 {t('effortsDescTwo')}
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section className="relative h-[500px] xl:h-[550px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
+      <section className="relative h-[500px] xl:h-[550px] 4xl:h-[650px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
         <Image
           src="/images/social-impact/AI Impact for Future.webp"
           alt="AI Impact for Future"
@@ -149,16 +151,16 @@ export default function Page() {
         />
         <div className="h-full relative ml-[15px] xl:ml-[280px] 2xl:mr-[156px] xl:mr-[70px] md:ml-[100px]">
           <div className="flex justify-end">
-            <div className="relative p-6 w-[720px] h-[484px]">
+            <div className={`relative p-6  ${(frActive || esActive) ? "w-[780px] 4xl:h-[520px]" : "w-[720px] h-[484px]"}`}>
               <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
               <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
-                <h3 className="font-normal 4xl:text-[35px]  xl:text-[30px]  text-[24px]">
+                <h3 className="font-normal 4xl:text-[35px] xl:text-[30px] text-[24px]">
                   {t('aiTitle')}
                 </h3>
-                <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px] ">
+                <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px]">
                   {t('aiDesc')}
                 </p>
-                <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
+                <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px]">
                   {t('aiDescOne')}
                 </p>
                 <p className="mt-4 4xl:text-[22px] xl:text-[20px] text-[16px]">
@@ -198,7 +200,7 @@ export default function Page() {
           </p>
         </div>
       </section>
-      <section className="relative  xl:hidden block">
+      <section className="relative xl:hidden block">
         <div className="relative w-full h-[300px]">
           <Image
             src="/images/social-impact/ESG Efforts.webp"
@@ -250,7 +252,7 @@ export default function Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pb-16 mt-16 xl:mt-20">
             {/* card 1 */}
             <div className="relative flex flex-col">
-              <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10  4xl:py-10 2xl:py-8 flex flex-col justify-center flex-grow">
+              <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10 4xl:py-10 2xl:py-8 flex flex-col justify-center flex-grow">
                 <h3 className="h3-bold line-clamp-2 4xl:text-[40px] xl:text-[36px] text-[35px]">
                   {t('revenueTitle')}
                 </h3>

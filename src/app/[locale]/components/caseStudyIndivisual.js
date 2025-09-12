@@ -31,7 +31,7 @@ export default function servicesFeaturedCarousel({ slides }) {
   const ButtonGroup = ({ next, previous, ...rest }) => {
     const { carouselState: { currentSlide } } = rest;
     return (
-      <div className="flex carousel-button-group absolute top-0 xl:right-52 lg:right-20 md:right-10 right-4 md:mt-20">
+      <div className="flex carousel-button-group absolute max-[380px]:top-[180px] top-[160px] sm:top-[100px] md:top-0 xl:right-52 lg:right-20 md:right-10 right-4 md:mt-10">
         <button aria-label="Previous slide" className={currentSlide === 0 ? 'disable  p-2 mr-4 group transition-all duration-300' : ' p-2 mr-4 group transition-all duration-300'} onClick={() => previous()}>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
@@ -69,8 +69,8 @@ export default function servicesFeaturedCarousel({ slides }) {
   return (
     <section className="relative pb-10">
       <div>
-        <div className="flex flex-row justify-between md:mr-24 mr-0 pr-3">
-          <h2 className="text-black mb-10  sm:mr-0 mr-20  4xl:w-[70%] xl:w-[55%] w-[55%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">{t('caseStudyTitle')}</h2>
+        <div className="flex flex-row justify-between md:mr-24 mr-0 pr-3 max-[380px]:mb-16 max-md:mb-20 mb-6">
+          <h2 className="text-black mb-10 sm:mr-0 4xl:w-[70%] xl:w-[55%] md:w-[65%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]"> {t('caseStudyTitle')}</h2>
         </div>
         <Carousel
           swipeable={true}

@@ -220,7 +220,7 @@
         "desc": "Para decisiones más inteligentes, rápidas y un compromiso centrado en el paciente."
       }
     ],
-    "seamlessData": [
+    "seamlessData": [ 
       "Integración guiada por API conectando SAP, Oracle, Salesforce y EMRs.",
       "Automatización de Order‑to‑Cash y Procure‑to‑Pay.",
       "Sincronización de datos regulatorios, flujo de datos financieros y clínicos."
@@ -571,6 +571,65 @@
       "Automatizar la distribución de contenido médico y de marketing conforme a regulaciones.",
       "Rastrear interacciones con clientes y obtener retroalimentación en tiempo real."
     ],
+    "strategicChallengeData": [
+      {
+        "number": "1",
+        "title": "Cumplimiento Normativo Complejo y Dinámico",
+        "bgColor": "#CCFFEA",
+        "numberColor": "#415C3D",
+        "description": "Las empresas farmacéuticas operan en un entorno altamente regulado que requiere visibilidad de datos en tiempo real, informes precisos y cumplimiento global. Los desafíos incluyen:",
+        "points": [
+          "Gestionar marcos regulatorios globales complejos y en constante cambio (FDA, EMA, MHRA, TGA).",
+          "Mantener la preparación de presentaciones, registros de auditoría y evaluaciones de riesgos.",
+          "Falta de plataformas integradas para gestionar eventos de calidad, reportes de seguridad y presentaciones regulatorias."
+        ],
+        "imgDesktop": "/images/pharma/Complex and Dynamic Regulatory Compliance.webp",
+        "imgMobile": "/images/pharma/Complex and Dynamic .webp"
+      },
+      {
+        "number": "2",
+        "title": "Acelerando Ensayos Clínicos e Innovación en I+D",
+        "bgColor": "#C3EBFF",
+        "numberColor": "#086CB4",
+        "description": "Llevar terapias al mercado más rápido requiere mejor gestión de ensayos, reclutamiento de pacientes y consolidación de datos. Problemas actuales:",
+        "points": [
+          "Retrasos en el reclutamiento de ensayos y activación de sitios.",
+          "Sistemas fragmentados para la gestión de datos de ensayos y eventos adversos.",
+          "Desafíos para garantizar la precisión de los datos para presentaciones regulatorias."
+        ],
+        "imgDesktop": "/images/pharma/Accelerating Clinical Trials and R&D Innovation.webp",
+        "imgMobile": "/images/pharma/Accelerating Clinical.webp"
+      },
+      {
+        "number": "3",
+        "title": "Brechas en el Compromiso Comercial y de Asuntos Médicos",
+        "bgColor": "#FFF3D8",
+        "numberColor": "#B16929",
+        "description": "Involucrar a HCPs, pagadores y pacientes requiere estrategias de compromiso personalizadas, conformes y omnicanal. Los problemas clave incluyen:",
+        "points": [
+          "Equipos médicos y de ventas desconectados que limitan el compromiso coordinado con los HCP.",
+          "Falta de visibilidad en el apoyo al paciente y sus resultados.",
+          "Dificultades en la gestión de consultas médicas y seguimiento de eventos adversos."
+        ],
+        "imgDesktop": "/images/pharma/Commercial and Medical Affairs Engagement Gaps.webp",
+        "imgMobile": "/images/pharma/Commercial and Medical.webp"
+      },
+      {
+        "number": "4",
+        "title": "Cadena de Suministro, Manufactura y Serialización",
+        "bgColor": "#C7DEFF",
+        "numberColor": "#4E70BA",
+        "description": "Las empresas farmacéuticas deben garantizar la integridad del producto y el cumplimiento en toda la cadena de suministro. Los desafíos incluyen:",
+        "points": [
+          "Gestionar la serialización y los mandatos de seguimiento y localización.",
+          "Falta de visibilidad en tiempo real del inventario y los envíos.",
+          "Ineficiencias en la respuesta a retiradas, quejas y eventos adversos."
+        ],
+        "imgDesktop": "/images/pharma/Supply Chain, Manufacturing, and Serialization.webp",
+        "imgMobile": "/images/pharma/Supply Chain (1).webp"
+      }
+    ],
+    "strategicTitle": "Los 4 Principales Desafíos Estratégicos que Enfrenta la Industria Farmacéutica y Biotecnológica Hoy",
     "headerTitle": "Industria Farmacéutica",
     "headerSubTitle": "Acelerando la Innovación y el Cumplimiento Farmacéutico",
     "headerSubTitle2": "Soluciones Integrales para la Industria Farmacéutica y Biotecnológica de Rialtes",
@@ -775,7 +834,8 @@
     "realTimeDesc": "RialChat, nuestra solución de integración con WhatsApp, permite comunicación instantánea entre pacientes, proveedores y servicios de campo:",
     "stayConnectedTitle": "Manténgase conectado con pacientes y proveedores en el canal que ellos confían.",
     "contactTitle": "¡Transforme las Vidas de los Pacientes y las Operaciones de Dispositivos Médicos con Rialtes!",
-    "contactSubTitle": "¿Listo para elevar sus operaciones de dispositivos médicos? Contacte con Rialtes hoy para liderar la innovación centrada en el paciente y el cumplimiento."
+    "contactSubTitle": "¿Listo para elevar sus operaciones de dispositivos médicos? Contacte con Rialtes hoy para liderar la innovación centrada en el paciente y el cumplimiento.",
+    "learnMoreBtn": "Aprender más"
   },
   "homeHealth": {
     "addressingData": [
@@ -1358,6 +1418,7 @@
     "headerSubTitleTwo": "Más Inteligente, Rápido y Conectado",
     "drivingDesc": "Impulsamos la transformación digital de extremo a extremo para fabricantes con IA, la nube y automatización inteligente. Rialtes permite a las empresas manufactureras ir más allá de las operaciones tradicionales y adoptar ecosistemas de fabricación de próxima generación que sean ágiles, basados en datos y centrados en el cliente.",
     "thoughtTitle": "Liderazgo Intelectual",
+     "learnMoreBtn": "Saber Más",
     "thoughtSubTitle": "Liderando la Reinversión Digital de la Fabricación",
     "thoughtSubTitleOne": "En Rialtes, creemos que el futuro de la fabricación reside en ecosistemas resilientes, adaptativos y potenciados por IA. Desde gemelos digitales hasta cadenas de suministro predictivas, ayudamos a los fabricantes a anticiparse a la disrupción e innovar a escala. Nos enfocamos en la personalización del cliente, la eficiencia operativa y el cumplimiento global, todo impulsado por datos conectados y automatización.",
     "endTitle": "Servicios de Transformación Integral de Fabricación de Rialtes",
@@ -1421,6 +1482,7 @@
     "educationDesc": "La educación actual está evolucionando a un ritmo acelerado. Las instituciones deben involucrar a estudiantes nativos digitales, optimizar los procesos de inscripción y académicos, y fomentar relaciones duraderas con los estudiantes. Desde la educación primaria hasta la superior, las organizaciones enfrentan desafíos en la gestión de trayectorias estudiantiles fragmentadas, operaciones académicas desconectadas y expectativas cambiantes de los interesados.",
     "educationDescOne": "Rialtes ofrece soluciones educativas holísticas, que abarcan asesoría estratégica, implementaciones fluidas, optimización de procesos y soporte a largo plazo.",
     "thoughtTitle": "Liderazgo de Pensamiento:",
+    "learnMoreBtn": "Saber Más",
     "thoughtSubTitle": "Resolviendo los Desafíos Más Urgentes de la Educación",
     "industryTitle": "Principales Desafíos de la Industria que Abordamos:",
     "approachTitle": "Enfoque de Rialtes:",
@@ -1585,6 +1647,7 @@
     "salesforceTitle": "Salesforce Financial Services Cloud (FSC)",
     "salesforceDesc": "Nuestros arquitectos y consultores certificados por Salesforce entregan soluciones FSC personalizadas para satisfacer las necesidades actuales de banca, préstamos y gestión patrimonial:",
     "sapTitle": "SAP S/4 HANA para servicios financieros",
+      "learnMoreBtn": "Saber Más",
     "sapDesc": "Extendemos las capacidades de Salesforce FSC con soluciones financieras y bancarias principales de SAP S/4 HANA:",
     "sapDescOne": "Rialtes crea una plataforma financiera unificada — integrando el front office de Salesforce con el motor financiero central de SAP.",
     "futureTitle": "IA: Revolucionando el futuro de las finanzas",
@@ -1994,7 +2057,8 @@
     "smarterDesc": "Ofrece un servicio que haga sentir a cada cliente valorado y comprendido.",
     "contactTitle": "¿Listo para redefinir el futuro de viajes, transporte y hospitalidad?",
     "contactSubTitle": "Ya seas una aerolínea, cadena hotelera, crucero, empresa de transporte o proveedor logístico, Rialtes puede ayudarte a liderar en un mundo competitivo con tecnología, estrategia y ejecución que generan resultados.",
-    "contactSubTitle2": "Contacta a Rialtes hoy para iniciar tu camino de transformación — porque las grandes experiencias comienzan con grandes socios."
+    "contactSubTitle2": "Contacta a Rialtes hoy para iniciar tu camino de transformación — porque las grandes experiencias comienzan con grandes socios.",
+    "learnMoreBtn": "Más información"
   },
   "retailIndustry": {
     "newRealityData": [
@@ -2333,12 +2397,13 @@
     "headerSubTitle2": "Soluciones tecnológicas integrales para organizaciones con propósito",
     "pageDescTitle": "Impulsando el impacto de misión en organizaciones sin ánimo de lucro a través de tecnología y estrategia",
     "pageDesc": "Rialtes empodera a las organizaciones sin fines de lucro para superar desafíos operativos y amplificar su misión utilizando soluciones basadas en Salesforce y SAP. Desde gestión de donantes y voluntarios hasta recaudación, seguimiento de subvenciones y medición de resultados, nuestros servicios integrales —desde estrategia e implementación hasta soporte continuo— ayudan a las organizaciones a lograr crecimiento escalable. Con aceleradores listos para usar adaptados al sector sin fines de lucro, aceleramos la transformación digital y maximizamos el impacto donde más importa.",
-    "thoughtTitle": "Thought Leadership",
+    "thoughtTitle": "Liderazgo intelectual",
     "thoughtSubTitle": "Abordando los desafíos modernos de las organizaciones sin ánimo de lucro",
     "thoughtDesc": "Hoy en día, organizaciones sin fines de lucro necesitan ir más allá de formas tradicionales de gestión de donantes y programas para mantenerse relevantes e impactantes.",
     "preDeliveredTitle": "Aceleradores preentregados de Rialtes para excelencia sin ánimo de lucro",
     "preDeliveredDesc": "Nuestras soluciones propietarias listas para implementar reducen drásticamente los tiempos de despliegue y mejoran la eficiencia de procesos.",
     "significanceTitle": "Importancia:",
+     "learnMoreBtn": "Saber Más",
     "seamlessTitle": "Integraciones de plataforma sin fisuras para operaciones unificadas sin ánimo de lucro",
     "seamlessCard1Title": "SAP S/4HANA",
     "seamlessCard1Desc": "Gestiona finanzas, adquisiciones y asignación de fondos con total transparencia.",

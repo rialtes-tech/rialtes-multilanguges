@@ -5630,5 +5630,306 @@
         "sap": "expertise en conseil SAP",
         "governedDesc3": "les dirigeants gagnent la confiance que chaque décision, chaque configuration et chaque KPI est connecté à la valeur de l’entreprise.",
         "faqTitle": "FAQ : SAP Signavio + SAP Cloud ALM dans les Transformations S/4HANA"
+    },
+    "aiPatient": {
+        "rolesData": [
+            {
+                "title": "Surveillance continue avec contexte",
+                "desc": "Au lieu d’envoyer chaque donnée brute aux cliniciens, les agents d’IA signalent les anomalies, priorisent les alertes et déclenchent automatiquement les étapes suivantes. Par exemple, une baisse soudaine de la saturation en oxygène pourrait immédiatement déclencher un contrôle de bien-être ou une notification à l’équipe de soins."
+            },
+            {
+                "title": "Engagement du patient avec l’IA",
+                "desc": "Les patients abandonnent souvent les programmes de surveillance car ils paraissent trop techniques ou impersonnels. Les agents d’IA peuvent envoyer des rappels, expliquer les mesures dans un langage simple et fournir des incitations aux ajustements de mode de vie, aidant ainsi les patients à rester impliqués."
+            },
+            {
+                "title": "Escalades intelligentes",
+                "desc": "Toutes les alertes ne nécessitent pas l’intervention d’un médecin. Les agents peuvent résoudre les problèmes courants (comme un capteur mal placé ou une batterie faible) grâce à des conseils automatisés, tout en n’escaladant que les cas critiques vers les cliniciens."
+            }
+        ],
+        "commonData": [
+            {
+                "title": "2. Interventions proactives qui sauvent des vies",
+                "desc1": "La plupart des soins de santé traditionnels sont réactifs : un patient signale un symptôme, prend rendez-vous, puis suit un traitement. La surveillance à distance inverse ce modèle en détectant les problèmes tôt, mais seulement si quelqu’un surveille les données.",
+                "desc2": "Les agents d’IA rendent cela véritablement proactif en :",
+                "list": [
+                    "Déclenchant des alertes aux équipes de soins lorsque les seuils sont franchis.",
+                    "Envoyant aux patients des rappels automatiques pour ajuster leur traitement, s’hydrater ou vérifier leur tension artérielle.",
+                    "Transmettant immédiatement les anomalies graves (comme les irrégularités cardiaques) aux cliniciens."
+                ],
+                "desc3": "Ce cycle proactif réduit les visites d’urgence, améliore la sécurité des patients et renforce la confiance entre patients et prestataires."
+            },
+            {
+                "title": "3. Engagement personnalisé du patient",
+                "desc1": "L’engagement dans les soins de santé n’est pas universel. Un patient souffrant d’une maladie cardiaque chronique a des besoins très différents de celui qui se remet d’une chirurgie. Plutôt que des suivis génériques, les patients se sentent compris et soutenus d’une manière qui favorise l’adhésion et la satisfaction.",
+                "desc2": "Les agents d’IA s’adaptent en :",
+                "list": [
+                    "Personnalisant la fréquence des interactions selon la gravité de la condition.",
+                    "Adaptant les messages dans un langage simple et compréhensible.",
+                    "S’intégrant aux applications mobiles, chatbots ou WhatsApp pour que la communication rejoigne les patients là où ils se trouvent."
+                ],
+                "desc3": ""
+            },
+            {
+                "title": "4. Automatisation de la gestion des cas pour les équipes de soins",
+                "desc1": "En arrière-plan, les cliniciens et le personnel de soutien passent souvent des heures à enregistrer les données des dispositifs, mettre à jour les dossiers ou planifier des suivis. Ce temps pourrait être mieux consacré aux soins réels des patients.",
+                "desc2": "Les agents d’IA rationalisent ces flux de travail en :",
+                "list": [
+                    "Remplissant automatiquement les dossiers patients avec les données des dispositifs.",
+                    "Créant et orientant les cas de service selon la priorité.",
+                    "Coordonnant les appels de suivi ou les rendez-vous virtuels."
+                ],
+                "desc3": ""
+            },
+            {
+                "title": "5. Déploiement à grande échelle des programmes de surveillance à distance en toute confiance",
+                "desc1": "Pour les entreprises MedTech, le passage à l’échelle de la surveillance à distance signifie intégrer des centaines voire des milliers de patients tout en maintenant un engagement de qualité. La supervision manuelle ne peut pas suivre. Avec l’automatisation intelligente, les entreprises MedTech peuvent se développer sans perdre de vue les résultats des patients.",
+                "desc2": "Les agents d’IA rendent ce passage à l’échelle possible en :",
+                "list": [
+                    "Standardisant les flux de travail à travers dispositifs et régions.",
+                    "Gérant de larges cohortes de patients avec précision.",
+                    "Générant des analyses prédictives qui orientent l’expansion des programmes."
+                ],
+                "desc3": ""
+            }
+        ],
+        "benefitsData": [
+            {
+                "title": "Meilleure adhésion",
+                "desc": "L’un des plus grands défis des soins à distance est d’assurer que les patients suivent régulièrement leur plan de traitement. Les agents d’IA y répondent en envoyant des rappels automatisés pour l’utilisation des dispositifs, la prise de médicaments ou les contrôles virtuels. Au lieu de compter sur la mémoire ou les enregistrements manuels, les patients reçoivent des notifications personnalisées et opportunes qui les maintiennent alignés sur leur plan de soins. Avec le temps, cette régularité se traduit par de meilleurs résultats et moins de complications."
+            },
+            {
+                "title": "Temps de réponse plus rapides",
+                "desc": "Chaque seconde compte dans la surveillance à distance, surtout pour les patients atteints de maladies chroniques ou à haut risque. Les agents d’IA agissent comme des filtres intelligents, triant les flux de données entrants et signalant les alertes les plus urgentes aux cliniciens. Cette priorisation aide les équipes de soins à réagir plus rapidement aux événements critiques, tandis que les mises à jour à faible risque peuvent être consignées sans interruptions inutiles. Résultat : les patients bénéficient d’une intervention rapide lorsqu’ils en ont le plus besoin."
+            },
+            {
+                "title": "Moins d’épuisement pour les prestataires",
+                "desc": "La surveillance à distance génère souvent un flot de données. Sans système adapté, les cliniciens peuvent être submergés par des alertes non critiques, entraînant fatigue et frustration. Les agents d’IA allègent cette charge en filtrant le bruit et en mettant en avant uniquement les informations pertinentes. Les prestataires passent moins de temps à gérer des tableaux de bord et plus de temps à se concentrer sur les patients. Cela améliore non seulement l’efficacité, mais contribue aussi à réduire l’épuisement devenu trop courant dans les soins de santé."
+            },
+            {
+                "title": "Satisfaction accrue des patients",
+                "desc": "Pour les patients, les soins signifient se sentir soutenus tout au long du parcours. Les agents d’IA rendent cela possible en offrant des conseils instantanés, en répondant aux questions de base et en créant des parcours de soins personnalisés adaptés à leurs besoins. Qu’il s’agisse de rassurer après une alerte, d’éduquer sur l’utilisation d’un dispositif ou d’assurer un suivi proactif, les patients vivent une impression de soins continus. Cela renforce la confiance, non seulement dans la technologie mais aussi dans le prestataire qui la propose."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "En quoi les agents d’IA diffèrent-ils de l’automatisation traditionnelle en MedTech ?",
+                "answer": [
+                    "Les agents d’IA ne se contentent pas de suivre des règles ; ils interprètent le contexte.",
+                    "Contrairement à une simple automatisation, les agents peuvent détecter des motifs dans les données de santé, décider quand une action est nécessaire et communiquer de manière proactive avec patients et prestataires."
+                ]
+            },
+            {
+                "question": "Les agents d’IA peuvent-ils s’intégrer aux plateformes et dispositifs MedTech existants ?",
+                "answer": [
+                    "Oui. Des plateformes comme Salesforce Agentforce sont conçues pour s’intégrer aux CRM, DME, dispositifs médicaux IoT et applications d’engagement patient basées sur l’IA, créant un écosystème unifié pour la surveillance en temps réel."
+                ]
+            },
+            {
+                "question": "Quels avantages les patients retirent-ils de la surveillance à distance pilotée par l’IA ?",
+                "answer": [
+                    "Les patients bénéficient d’alertes opportunes, d’une communication personnalisée, de moins de visites à l’hôpital et d’un sentiment accru de soutien.",
+                    "Ils se sentent impliqués et pris en charge sans avoir besoin de consultations en présentiel constantes."
+                ]
+            },
+            {
+                "question": "Comment les agents d’IA améliorent-ils la conformité et la sécurité des données en MedTech ?",
+                "answer": [
+                    "Les agents peuvent appliquer les protocoles de conformité en consignant les interventions, en anonymisant les données sensibles et en garantissant des communications sécurisées avec les patients.",
+                    "Ils aident aussi les prestataires à respecter des normes réglementaires comme HIPAA."
+                ]
+            },
+            {
+                "question": "Cette technologie est-elle évolutive pour de grands systèmes de santé et fournisseurs MedTech ?",
+                "answer": [
+                    "Absolument. Les agents d’IA sont conçus pour gérer de grands volumes de patients, coordonner plusieurs équipes de soins et générer des analyses prédictives, permettant aux organisations de se développer sans surcharger le personnel."
+                ]
+            }
+        ],
+        "blogTopic": "Intelligence Artificielle",
+        "blogTitle": "L’IA dans l’engagement des patients : comment les agents d’IA soutiennent MedTech dans la surveillance à distance",
+        "blogMainData": "La détection précoce de la détérioration de la santé est essentielle pour les patients atteints de maladies chroniques ou en convalescence après une chirurgie. C’est pourquoi les patients et les cliniciens comptent désormais sur les données en temps réel pour des soins plus rapides et personnalisés. Qu’il s’agisse d’implants cardiaques, de capteurs de glucose ou d’appareils portables qui suivent les signes vitaux, on peut dire que la surveillance à distance est devenue le cœur des soins modernes.",
+        "blogMainData2": "Mais voici le défi : plus de données ne signifie pas toujours de meilleurs résultats. Sans systèmes adaptés, les cliniciens sont submergés, les patients se désengagent et la promesse de la surveillance à distance échoue. Les visites en personne traditionnelles signifient une surveillance limitée en temps réel, mais la surveillance à distance pilotée par l’IA permet une analyse continue des données et l’identification précoce de problèmes cardiovasculaires, neurologiques et psychologiques potentiels. C’est pourquoi nous recommandons la mise en place des agents d’IA Agentforce. Ils comblent l’écart entre dispositifs médicaux, patients et prestataires en transformant les flux de données en engagement proactif et significatif.",
+        "aiRoleTitle": "Le rôle des agents d’IA dans la surveillance à distance",
+        "aiRoleDesc": "Les agents d’IA d’Agentforce ne sont pas de simples chatbots réactifs. Ce sont des systèmes conscients du contexte et pilotés par des flux de travail, conçus pour anticiper les besoins des patients et des prestataires. Pour les entreprises MedTech, cela signifie :",
+        "aiRoleDesc2": "Voyons comment ces agents intelligents transforment la surveillance à distance en MedTech.",
+        "turningTitle": "1. Transformer les données continues en informations exploitables",
+        "turningDesc": "Les dispositifs de surveillance à distance génèrent d’énormes quantités de données : variabilité du rythme cardiaque, taux de glucose, saturation en oxygène, diagnostics des dispositifs médicaux, et plus encore.",
+        "turningDesc2": "Le problème est que les prestataires subissent une fatigue des alertes sans filtrage intelligent, et les patients ne reçoivent pas d’interventions en temps voulu.",
+        "turningDescStrong": "L’avantage des agents d’IA :",
+        "turningDesc3": "Intégrés dans les CRM et systèmes d’engagement patient, les agents d’IA analysent en continu les flux de données entrants. Au lieu que chaque fluctuation déclenche une alerte, les agents détectent des motifs significatifs — comme des tendances de détérioration progressive ou des anomalies risquées.",
+        "turningDesc4": "Cela signifie que les médecins sont alertés uniquement quand l’intervention est nécessaire, et que les patients reçoivent un retour en temps réel, et non des semaines plus tard.",
+        "benefitsTitle": "Quels sont les avantages pour les patients et les prestataires ?",
+        "benefitsDesc": "Appliqués aux solutions de surveillance à distance de MedTech, les agents d’IA Agentforce créent un impact mesurable sur la manière dont les patients vivent les soins et dont les prestataires les délivrent.",
+        "turnRemoteTitle": "Transformez la surveillance à distance en véritable impact avec Rialtes",
+        "turnDesc": "Pour les innovateurs MedTech, l’opportunité est claire : la surveillance à distance ouvre de puissantes possibilités, mais elle crée aussi des flux de données et d’alertes accablants. C’est là qu’Agentforce fait la différence. En permettant à des agents d’IA de s’engager proactivement auprès des patients, de prioriser la réponse des cliniciens et de rationaliser les flux de travail, Agentforce garantit que vos solutions tiennent réellement leurs promesses.",
+        "turnDesc2": "Chez Rialtes, nous sommes spécialisés dans la mise en œuvre de",
+        "turnDescLink": "Agentforce",
+        "turnDesc3": "pour les entreprises MedTech. Notre expertise en conseil vous aide à concevoir, déployer et mettre à l’échelle",
+        "turnDescLink2": "des stratégies d’engagement patient pilotées par l’IA",
+        "turnDesc4": "qui améliorent l’adhésion, réduisent l’épuisement des prestataires et élèvent l’expérience globale du patient. Avec Rialtes comme partenaire, vous libérez tout le potentiel d’une santé plus intelligente et plus humaine.",
+        "faqTitle": "Questions-réponses : Engagement patient avec l’IA dans la surveillance à distance"
+    },
+    "agentforceIndustry4": {
+        "reactiveData": [
+            {
+                "image": "/images/blog/industr4Svg (1).svg",
+                "title": "Réactif",
+                "desc": "Attendre que les machines tombent en panne"
+            },
+            {
+                "image": "/images/blog/industr4Svg (2).svg",
+                "title": "Proactif",
+                "desc": "Planifier des cycles de maintenance réguliers"
+            },
+            {
+                "image": "/images/blog/industr4Svg (3).svg",
+                "title": "Prédictif",
+                "desc": "Anticiper les pannes sur la base des modèles et des données d’utilisation"
+            },
+            {
+                "image": "/images/blog/industr4Svg (4).svg",
+                "title": "Autonome",
+                "desc": "Permettre aux agents IA de déclencher automatiquement des flux de travail de service"
+            }
+        ],
+        "agentforceEnablingData": [
+            {
+                "title": "Détection précoce des pannes",
+                "desc": [
+                    "Les arrêts imprévus ne surviennent presque jamais sans avertissement ; les machines laissent derrière elles des traces numériques. Légères variations de vibration, pics de température irréguliers ou réclamations de garantie récurrentes sont souvent des signes avant-coureurs de panne. Le problème est que les équipes humaines ne peuvent pas suivre ces signaux à travers des milliers de machines et de points de données. Agentforce le peut.",
+                    "En analysant en continu les flux IoT, les historiques de service et la télémétrie des équipements, les agents IA détectent les anomalies bien avant les opérateurs. Au lieu d’attendre une panne, ils signalent les risques potentiels et initient une action préventive. Cela signifie que la maintenance est effectuée selon vos conditions — pas quand la machine décide de tomber en panne."
+                ]
+            },
+            {
+                "title": "Optimisation de l’envoi des techniciens",
+                "desc": [
+                    "Même lorsqu’une panne est prédite, les réparations dépendent encore de la bonne expertise au bon endroit et au bon moment. Les modèles de service traditionnels gaspillent de précieuses heures en attribuant les cas manuellement ou en envoyant des techniciens mal préparés.",
+                    "Agentforce élimine les approximations. Il croise le type de panne, le modèle de la machine, les certifications du technicien et les pièces disponibles pour recommander la meilleure ressource pour l’intervention. En automatisant l’envoi avec intelligence, il augmente les taux de réparation dès la première visite, réduit le temps de déplacement et minimise les coûts de service, tout en maintenant les lignes de production en activité."
+                ]
+            },
+            {
+                "title": "Prévision dynamique des pièces",
+                "desc": [
+                    "Les pannes imprévues entraînent souvent des commandes d’urgence de pièces, coûteuses et lentes. Constituer des stocks excessifs, en revanche, immobilise du capital et de l’espace d’entrepôt. Agentforce trouve l’équilibre.",
+                    "En détectant les tendances de pannes récurrentes et en tenant compte des plannings de production, il prédit quelles pièces risquent de tomber en panne, quand et où. Cela permet aux fabricants de disposer du bon stock au bon endroit, garantissant que les techniciens ne se présentent jamais les mains vides, tout en évitant les surstocks inutiles."
+                ]
+            },
+            {
+                "title": "Mises à jour automatisées des clients",
+                "desc": [
+                    "Les fabricants doivent tenir les clients informés. Quand un équipement tombe en panne, le silence provoque de la frustration. Agentforce comble cette lacune en déclenchant automatiquement des mises à jour via les canaux préférés comme WhatsApp, SMS ou e-mail.",
+                    "Les clients reçoivent des messages en temps réel concernant la détection du problème, l’envoi du technicien, les délais de résolution estimés et les actions de suivi. Cela renforce la confiance et réduit la charge des équipes de service, puisque les clients n’ont plus besoin d’appeler ou de réclamer des nouvelles."
+                ]
+            },
+            {
+                "title": "Apprentissage en boucle fermée",
+                "desc": [
+                    "Chaque incident de service, qu’il s’agisse d’une réparation mineure ou d’un remplacement majeur, enrichit l’intelligence collective d’Agentforce. Les agents IA enregistrent les résultats, analysent ce qui a fonctionné et affinent les prédictions. Avec le temps, cela crée un système auto-amélioré qui devient plus précis à chaque ticket résolu.",
+                    "Le résultat est un cycle d’optimisation continue : moins de surprises, des réparations plus rapides et des recommandations plus intelligentes qui gagnent en valeur au fil du temps."
+                ]
+            }
+        ],
+        "impactData": [
+            {
+                "title": "Réduction de 30–40 % des arrêts imprévus",
+                "desc": ""
+            },
+            {
+                "title": "Taux de réparation plus élevés dès la première intervention",
+                "desc": "grâce à un envoi plus intelligent"
+            },
+            {
+                "title": "Réduction des coûts de service",
+                "desc": "par l’optimisation des plannings des techniciens et de la logistique des pièces"
+            },
+            {
+                "title": "Confiance accrue des clients",
+                "desc": "grâce à des mises à jour proactives et une résolution plus rapide"
+            }
+        ],
+        "impactData2": [
+            {
+                "title": "Machines CNC",
+                "desc": "Au lieu de réagir aux pannes d’usure des broches, Agentforce détecte les anomalies tôt, recommande de planifier les arrêts en heures creuses et s’assure que les pièces de rechange sont disponibles avant que la panne ne survienne."
+            },
+            {
+                "title": "Lignes d’assemblage automobile",
+                "desc": "Les agents IA détectent l’usure récurrente des bras robotiques et ajustent dynamiquement les plannings de maintenance préventive, évitant ainsi les arrêts imprévus."
+            },
+            {
+                "title": "Équipements lourds",
+                "desc": "Lorsque des réclamations de garantie montrent des problèmes répétés dans une région spécifique, Agentforce alerte les équipes de service locales pour préparer pièces et techniciens à l’avance."
+            }
+        ],
+        "readyData": [
+            "<a href='https://fr.wikipedia.org/wiki/Industrie_4.0' class='text-[#0092E0] underline hover:text-gray-400'> Industrie 4.0 </a> repose sur l’intelligence connectée. Les machines peuvent générer des données, mais ce sont les agents IA d’Agentforce qui les transforment en valeur. En intégrant des capacités prédictives dans Salesforce Field Service et Manufacturing Cloud, les fabricants débloquent un système toujours actif qui maintient les opérations fluides et les clients satisfaits.",
+            "En tant que <a href='https://rialtes.netlify.app/solutions/enterprise-platforms/salesforce-consulting-partner-us-india' class='text-[#0092E0] underline hover:text-gray-400'>Partenaire Crest Salesforce</a>, nous sommes spécialisés dans le déploiement d’<a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/' class='text-[#0092E0] underline hover:text-gray-400'>Agentforce pour la fabrication</a> dans des entreprises de toutes tailles. Que vous souhaitiez commencer par un projet pilote dans une usine ou déployer l’intelligence prédictive à l’échelle mondiale, nous pouvons vous aider.",
+            "<a href='https://www.rialtes.com/contact-us' class='text-[#0092E0] underline hover:text-gray-400'>Discutons</a> de la manière dont Agentforce peut permettre zéro temps d’arrêt pour votre usine Industrie 4.0."
+        ],
+        "faqs": [
+            {
+                "question": "Qu’est-ce qui différencie Agentforce des solutions traditionnelles de maintenance prédictive ?",
+                "answer": [
+                    "La plupart des outils de maintenance prédictive se concentrent uniquement sur les données des machines.",
+                    "Agentforce va plus loin en combinant les données IoT avec les historiques de service, les réclamations de garantie et les flux de travail Salesforce Field Service.",
+                    "Cela crée des agents IA qui ne se contentent pas de prédire les pannes, mais qui agissent aussi : en envoyant des techniciens, en commandant des pièces et en notifiant automatiquement les clients."
+                ]
+            },
+            {
+                "question": "Agentforce peut-il fonctionner avec nos systèmes IoT et ERP existants ?",
+                "answer": [
+                    "Oui. Agentforce est conçu pour s’intégrer aux plateformes IoT, MES et ERP existantes.",
+                    "En intégrant les données des machines et les flux opérationnels, il crée une vue connectée de votre usine et de votre chaîne logistique, sans nécessiter de remplacement complet."
+                ]
+            },
+            {
+                "question": "Comment Agentforce réduit-il concrètement les arrêts imprévus ?",
+                "answer": [
+                    "Agentforce détecte les premiers signaux de panne, prévoit la demande de pièces et envoie le bon technicien avant que les problèmes n’escaladent.",
+                    "En passant d’une maintenance réactive à prédictive, les fabricants peuvent réduire les arrêts imprévus jusqu’à 30–40 % tout en diminuant les coûts de service."
+                ]
+            },
+            {
+                "question": "Agentforce est-il uniquement destiné aux grandes entreprises ou est-il évolutif pour les fabricants de taille moyenne ?",
+                "answer": [
+                    "Il est conçu pour être évolutif.",
+                    "Les fabricants de taille moyenne peuvent commencer petit — automatiser la planification de maintenance ou les alertes prédictives pour une seule usine — et évoluer vers une intelligence prédictive multi-sites à mesure de leur croissance.",
+                    "La plateforme s’adapte à vos besoins."
+                ]
+            },
+            {
+                "question": "Comment Agentforce améliore-t-il l’expérience client dans la fabrication prédictive ?",
+                "answer": [
+                    "Les clients ne subissent plus de retards ni d’arrêts inattendus.",
+                    "Agentforce les tient informés grâce à des mises à jour proactives, garantit la disponibilité des pièces et techniciens à l’avance, et minimise les interruptions de service.",
+                    "Le résultat : une confiance renforcée et des relations durables plus fiables."
+                ]
+            },
+            {
+                "question": "Agentforce peut-il soutenir de nouveaux modèles commerciaux comme « Équipement en tant que service » ?",
+                "answer": [
+                    "Absolument.",
+                    "Les capacités prédictives rendent possible pour les fabricants d’offrir des garanties de disponibilité, des contrats de maintenance par abonnement ou basés sur les résultats.",
+                    "Agentforce aide à transformer le service d’un centre de coûts en un modèle générateur de revenus."
+                ]
+            }
+        ],
+        "bloTopic": "Agentforce",
+        "blogTitle": "Comment Agentforce AI prédit et prévient les arrêts dans la fabrication Industrie 4.0",
+        "blogMainData": "La promesse de l’Industrie 4.0 est posée : des usines capables de penser, de s’adapter et de s’optimiser en temps réel. Cependant, de nombreux fabricants rencontrent un défi majeur. Bien que les capteurs IoT, les machines connectées et l’automatisation génèrent d’énormes quantités de données, la plupart peinent à les transformer en informations exploitables. Cela conduit souvent à des opérations réactives, à des arrêts imprévus et à des inefficacités coûteuses.",
+        "blogMainData2": "Construit sur Salesforce, Agentforce intègre des agents IA directement dans vos opérations, transformant les données brutes des machines et du service en décisions proactives. Il devient la couche d’intelligence pour la fabrication prédictive. Cette approche aide à maintenir les lignes de production fluides, les techniciens bien préparés et les clients satisfaits.",
+        "blogMainData3": "Personne ne veut seulement résoudre les problèmes plus vite ; on veut un moyen de les prévoir avant qu’ils ne surviennent.",
+        "agentforceTitle": "Agentforce vous permet de passer du réactif au prédictif",
+        "agentforceDesc": "Les arrêts non planifiés ont toujours été un frein à la rentabilité. Une seule panne sur une machine de grande valeur peut immobiliser toute une ligne de production, retarder les commandes clients et déclencher une cascade de perturbations dans votre chaîne logistique. Les modèles de service traditionnels se concentrent sur la gestion de crise : résoudre les problèmes après leur apparition.",
+        "agentforceDesc2": "Agentforce inverse le modèle. En intégrant les données IoT, les réclamations de garantie, les historiques de service et les signaux en temps réel dans Salesforce Field Service, il permet une intelligence prédictive à grande échelle. Les agents IA surveillent en continu l’état de vos opérations et agissent avant que les pannes ne s’aggravent.",
+        "agentforceDesc3": "Avec ce changement, les fabricants passent de :",
+        "agentforceEnablesTitle": "Comment Agentforce permet une fabrication sans temps d’arrêt",
+        "agentforceEnablesDesc": "Les agents IA d’Agentforce sont conçus pour penser comme vos meilleurs ingénieurs de terrain ; seulement plus rapides, plus cohérents et toujours disponibles. Au lieu de simplement réagir aux problèmes, ils surveillent en continu votre écosystème industriel et interviennent avec des actions proactives. Voici comment ils rendent le zéro temps d’arrêt possible :",
+        "impactTitle": "L’impact sur les entreprises manufacturières",
+        "impactDesc": "Les fabricants qui adoptent Agentforce pour des opérations prédictives rapportent des gains significatifs :",
+        "impactDesc2": "Concrètement, voici comment Agentforce fournit de l’intelligence prédictive en action. Dans chaque cas, le résultat est le même : moins de pannes, des réponses plus rapides et des opérations ininterrompues.",
+        "impactDesc3": "Et voici la vision plus large : les opérations prédictives ne se contentent pas de protéger les revenus. Elles ouvrent la voie à de nouveaux modèles commerciaux, comme l’équipement-en-tant-que-service ou les contrats de maintenance prédictive qui transforment le service en source de revenus.",
+        "readyTitle": "Prêt à prédire, pas à réagir ?",
+        "faqTitle": "FAQ : Foire aux questions"
     }
 }

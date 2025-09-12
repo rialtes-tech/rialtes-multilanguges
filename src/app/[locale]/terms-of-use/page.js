@@ -5,7 +5,7 @@ import enContent from '../../../../messages/en/homepage.json';
 import esContent from '../../../../messages/es/homepage.json';
 import frContent from '../../../../messages/fr/homepage.json';
 import { changeLocalization } from "../components/changeLocalization";
-
+import UnorderedList from "../components/unorderedList";
 export default function Page() {
     const t = useTranslations('termsUse');
     const locale = useLocale();
@@ -23,59 +23,50 @@ export default function Page() {
             <section className="custom-container mb-[40px]">
                 <div className="pb-10 xl:max-w-[1084px] xl:w-[1084px]">
                     <div>
-                        <h1 className="text-[#0092E0] py-6 ">{t('termsTitle')}</h1>
+                        <h1 className="text-[#0092E0] py-6 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('termsTitle')}</h1>
                     </div>
                     <div>
-                        <p>{t('termsDesc')}</p>
-                        <p className="mt-5">{t('termsDescOne')}</p>
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t('termsDesc')}</p>
+                        <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px]">{t('termsDescOne')}</p>
 
-                        <h3 className="text-[#0092E0] mt-5">{t('useTitle')}</h3>
-                        <p className="mt-3">{t('useDesc')}</p>
-                        <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2 mt-3 xl:text-[20px] text-[16px] font-medium">
-                            {useRestrictions.map((item, index) => (
-                                <li key={index} className="pb-4 text-black">{item}</li>
-                            ))}
-                        </ul>
-                        <p>{t('useDescOne')}</p>
+                        <h3 className="text-[#0092E0] mt-5 4xl:text-[35px] xl:text-[30px] text-[24px]">{t('useTitle')}</h3>
+                        <p className="mt-3 4xl:text-[22px] xl:text-[18px] text-[16px]">{t('useDesc')}</p>
 
-                        <h3 className="text-[#0092E0] pb-2 mt-10">{t('noTitle')}</h3>
-                        <p>{t('noDesc')}</p>
-                        <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2 mt-3 xl:text-[20px] text-[16px] font-medium">
-                            {noWarranties.map((item, index) => (
-                                <li key={index} className="pb-4 text-black">{item}</li>
-                            ))}
-                        </ul>
-                        <p>{t('noDescOne')}</p>
+                        <UnorderedList arrName={useRestrictions} ulClassName="list-disc marker:text-[#0092E0] text-black pl-[32px] pb-2 mt-3 font-medium" liClassName="pb-4 4xl:text-[22px] xl:text-[18px] text-[16px] text-black" />
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t('useDescOne')}</p>
 
-                        <h3 className="text-[#0092E0] pb-2 mt-10">{t('limitationTitle')}</h3>
-                        <p>{t('limitationDesc')}</p>
-                        <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2 mt-3 xl:text-[20px] text-[16px] font-medium">
-                            {limitationOfLiability.map((item, index) => (
-                                <li key={index} className="pb-4 text-black">{item}</li>
-                            ))}
-                        </ul>
-                        <p>{t('limitationDescOne')}</p>
+                        <h3 className="text-[#0092E0] pb-2 mt-10 4xl:text-[35px] xl:text-[30px] text-[24px]"> {t('noTitle')}</h3>
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t('noDesc')}</p>
 
-                        <h3 className="text-[#0092E0] pb-2 mt-10">{t('linksTitle')}</h3>
-                        <p>{t('linksDesc')}</p>
+                        <UnorderedList arrName={noWarranties} ulClassName="list-disc marker:text-[#0092E0] text-black pl-[32px] pb-2 mt-3 font-medium" liClassName="pb-4 4xl:text-[22px] xl:text-[18px] text-[16px] text-black" />
 
-                        <h3 className="text-[#0092E0] pb-2 mt-10">{t('lawTitle')}</h3>
-                        <p>{t('lawDesc')}</p>
-                        <p className="mt-3">{t('lawDescOne')}</p>
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t('noDescOne')}</p>
 
-                        <h3 className="text-[#0092E0] pb-2 mt-10">{t('complianceTitle')}</h3>
-                        <p>{t('complianceDesc')}</p>
+                        <h3 className="text-[#0092E0] pb-2 mt-10 4xl:text-[35px] xl:text-[30px] text-[24px]">{t('limitationTitle')}</h3>
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t('limitationDesc')}</p>
 
-                        <h3 className="text-[#0092E0] pb-2 mt-10">{t('submissionTitle')}</h3>
-                        <p>{t('submissionOne')}</p>
-                        <ul className="list-disc marker:text-[#0092E0] text-black pl-4 pb-2 mt-3 xl:text-[20px] text-[16px] font-medium">
-                            {submissionTerms.map((item, index) => (
-                                <li key={index} className="pb-4 text-black">{item}</li>
-                            ))}
-                        </ul>
-                        <p>{t('submissionTwo')}</p>
+                        <UnorderedList arrName={limitationOfLiability} ulClassName="list-disc marker:text-[#0092E0] text-black pl-[32px] pb-2 mt-3 font-medium" liClassName="pb-4 4xl:text-[22px] xl:text-[18px] text-[16px] text-black" />
 
-                        <p className="mt-5">{t('submissionThree')}</p>
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t('limitationDescOne')}</p>
+
+                        <h3 className="text-[#0092E0] pb-2 mt-10 4xl:text-[35px] xl:text-[30px] text-[24px]">{t('linksTitle')}</h3>
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t('linksDesc')}</p>
+
+                        <h3 className="text-[#0092E0] pb-2 mt-10 4xl:text-[35px] xl:text-[30px] text-[24px]">{t('lawTitle')}</h3>
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t('lawDesc')}</p>
+                        <p className="mt-3 4xl:text-[22px] xl:text-[18px] text-[16px]">{t('lawDescOne')}</p>
+
+                        <h3 className="text-[#0092E0] pb-2 mt-10 4xl:text-[35px] xl:text-[30px] text-[24px]">{t('complianceTitle')}</h3>
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t('complianceDesc')}</p>
+
+                        <h3 className="text-[#0092E0] pb-2 mt-10 4xl:text-[35px] xl:text-[30px] text-[24px]">{t('submissionTitle')}</h3>
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t('submissionOne')}</p>
+
+                        <UnorderedList arrName={submissionTerms} ulClassName="list-disc marker:text-[#0092E0] text-black pl-[32px] pb-2 mt-3 font-medium" liClassName="pb-4 4xl:text-[22px] xl:text-[18px] text-[16px] text-black" />
+
+                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t('submissionTwo')}</p>
+
+                        <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px]">{t('submissionThree')}</p>
                     </div>
                 </div>
             </section>

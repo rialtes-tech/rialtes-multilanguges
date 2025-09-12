@@ -180,7 +180,7 @@ export default function Page() {
             />
           </div>
         </div>
- 
+
       </section>
       {/* what is rialtes success section */}
       <section className="custom-container xl:mt-[112px] lg:mt-[82px] mt-[34px]">
@@ -243,8 +243,8 @@ export default function Page() {
                   priority
                   width={0}
                   height={0}
-                sizes="(max-width: 768px) 100vw, 50vw"
-                quality={90}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  quality={90}
                 />
               </div>
               <div className="lg:hidden block h-[80px] w-[200px] md:h-[120px] md:w-[260px]">
@@ -275,7 +275,7 @@ export default function Page() {
           </div>
         </div>
         <div className="w-full h-[1px] bg-gray-300"></div>
-     
+
         <>
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[39px] xl:mt-[90px] mt-[60px] 4xl:pr-[280px]">
             <div className="lg:col-span-7 3xl:col-span-8 col-span-12 lg:order-1 order-2">
@@ -295,8 +295,8 @@ export default function Page() {
                   priority
                   width={0}
                   height={0}
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                quality={90}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  quality={90}
                 />
               </div>
               <div className="lg:hidden block h-[80px] w-[200px] md:h-[120px] md:w-[260px]">
@@ -355,7 +355,7 @@ export default function Page() {
           </div>
         </div>
       </section>
- 
+
       {/* process section */}
       <section className="custom-container xl:mt-[116px] mt-[55px]">
         <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-[60px] gap-y-[26px]">
@@ -575,27 +575,29 @@ export default function Page() {
         <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[90%] lg:w-full">
           {t('relatedTitle1')}<div className="md:block hidden" /> {t('relatedTitle2')}
         </h2>
-       <div className="grid md:grid-cols-2 grid-cols-1 sm:w-[76%] md:w-[84%] lg:w-[70%] md:gap-[34px] gap-y-[20px] xl:mt-[39px] mt-[22px]">
-      {relatedData.map((item, ind) => (
-        <div
-          key={ind}
-          className="py-[26px] px-[28px] xl:py-[49px] xl:px-[50px] border border-[#707070]"
-        >
-          <h3 className="xl:text-[25px] 4xl:text-[30px] leading-tight text-[20px] font-semibold">
-            {item.link ? (
-              <Link
-                href={item.link}
-                className="hover:underline"
-              >
-                {item.text}
-              </Link>
-            ) : (
-              item.text
-            )}
-          </h3>
+        <div className="grid md:grid-cols-2 grid-cols-1 sm:w-[76%] md:w-[84%] lg:w-[70%] md:gap-[34px] gap-y-[20px] xl:mt-[39px] mt-[22px]">
+          {relatedData.map((item, ind) => (
+
+            <div
+              key={ind}
+              className="py-[26px] px-[28px] xl:py-[49px] xl:px-[50px] border border-[#707070]">
+
+              <h3 className="xl:text-[25px] 4xl:text-[30px] leading-tight text-[20px] font-semibold">
+                {/* {item.link ? (
+                  <Link
+                    href={item.link}
+                    className="hover:underline"
+                  >
+                    {item.text}
+                  </Link>
+                ) : (
+                  item.text
+                )} */}
+                {item}
+              </h3>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
       </section>
       {/* agentchat section */}
       <section className="xl:mt-[115px] mt-[59px] bg-[#184671] xl:pt-[120px] 2xl:pt-[140px] 4xl:pt-[176px] pt-[36px] 2xl:mt-[125px] 4xl:mt-[176px]">
@@ -649,11 +651,11 @@ export default function Page() {
             </div>
           </div>
           <div className="xl:mt-[64px] mt-[49px]">
-            <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName="Know More" href="https://www.rialtes.com/products/agentchat"/>
+            <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName="Know More" href="https://www.rialtes.com/products/agentchat" />
           </div>
         </div>
       </section>
- 
+
       {/* Contact Form */}
       <div className="xl:mt-[118px] mt-[48px] xl:mb-[120px] mb-[120px] custom-container text-black">
         <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={'2xl:text-[56px] xl:text-[46px] xl:w-[1000px] 2xl:w-[1200px]  4xl:text-[60px] 4xl:w-[1200px] lg:text-[38px] lg:w-[900px] leading-tight text-[24px]  md:text-[32px] '} />

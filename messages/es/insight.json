@@ -21,7 +21,7 @@
     "leadingDate": "30 Junio 2025",
     "leadingTitle": "Fabricante Automotriz Líder Logró un 35% Más en la Satisfacción del Cliente con AutoSense",
     "leadingblog": "Un destacado fabricante global de automóviles, conocido por su innovación y vehículos de alto rendimiento, enfrentaba desafíos con su sistema de gestión de garantías heredado.",
-    "Webinars": "Webinars",
+    "Webinars": "Seminarios web",
     "allWebinars": "Ver Todos los Webinars",
     "SapTitle": "Viaje con SAP – Servicios Transformacionales RISE with SAP por Rialtes",
     "sapdate": "20 Mayo 2025",
@@ -176,6 +176,26 @@
       }
     ],
     "latestBlogs": [
+      {
+        "id": 35,
+        "image": "/images/blog/ai-in-patient-mobile-banner.webp",
+        "category": "Inteligencia Artificial",
+        "industry": "Genérico",
+        "date": "09 de septiembre de 2025",
+        "url": "/ai-patient-engagement-medtech-remote-care",
+        "title": "IA en la participación del paciente: cómo los agentes de IA apoyan a MedTech en la monitorización remota",
+        "description": "La detección temprana del deterioro de la salud es vital para los pacientes con enfermedades crónicas o aquellos que se están recuperando de una cirugía."
+      },
+      {
+        "id": 34,
+        "image": "/images/blog/industry4-mobile-banner.webp",
+        "category": "Agentforce",
+        "industry": "Genérico",
+        "date": "08 de septiembre de 2025",
+        "url": "/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing",
+        "title": "Cómo la IA de Agentforce predice y previene el tiempo de inactividad en la manufactura de la Industria 4.0",
+        "description": "La promesa de la Industria 4.0 ya está planteada: fábricas que pueden pensar, adaptarse y optimizarse en tiempo real."
+      },
       {
         "id": 33,
         "image": "/images/blog/first-ai-agent-mob-banner.webp",

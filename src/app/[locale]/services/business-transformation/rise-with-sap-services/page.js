@@ -11,6 +11,7 @@ import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -117,6 +118,7 @@ export default function Page() {
   const t = useTranslations('riseWithSap')
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { frActive, esActive } = useActiveLocale();
   const { greenfieldItemsLeft, greenfieldItemsRight, brownfieldItemsLeft, brownfieldItemsRight, sapTransformations, btpData, sapIntegrations, communicationBenefits, aiData, ourActivateData, } = content.riseWithSap;
   return (
     <div className="min-h-screen bg-white">
@@ -133,7 +135,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]  group  overflow-hidden">
+      <section className="relative h-[350px] md:h-[500px] xl:h-[550px] 4xl:h-[700px] group overflow-hidden">
         <div className="xl:block hidden ">
           <Image
             src="/images/services/rise-with-sap/header.webp"
@@ -157,11 +159,11 @@ export default function Page() {
         <div
           className="custom-container h-full relative">
           <div className="h-full flex flex-col justify-center">
-            <h3 className="text-white xl:text-[24px] text-[17px] font-medium mb-2">{t('headerTitle')}</h3>
-            <h1 className="text-white 2xl:text-[56px] xl:text-[46px] xl:w-[512px] 2xl:w-[620px]  4xl:text-[60px] 4xl:w-[667px] lg:text-[38px] lg:w-[424px] leading-tight text-[24px] md:text-[36px] w-[266px] md:w-[400px]">
+            <h3 className="text-white xl:text-[24px] text-[17px] font-medium mb-4">{t('headerTitle')}</h3>
+            <h1 className={`text-white xl:text-[46px] 2xl:w-[620px] 4xl:text-[60px]  lg:text-[38px] leading-tight text-[24px] md:text-[36px] w-[266px] md:w-[400px] ${frActive || esActive ? "lg:w-[624px] xl:w-[542px] 4xl:w-[700px]" : "lg:w-[424px] xl:w-[512px] 4xl:w-[667px]"}`}>
               {t('headerSubTitle')}
             </h1>
-            <div className="md:max-w-32 w-20  4xl:w-[160px] 2xl:w-[140px] lg:w-[100px] xl:w-[100px] pt-6">
+            <div className="md:max-w-32 w-20 4xl:w-[160px] 2xl:w-[140px] lg:w-[100px] xl:w-[100px] pt-8">
               <Image
                 src="/images/sap-consulting/SAP-partner-logo.webp"
                 alt="SAP Partner Logo"
@@ -177,7 +179,7 @@ export default function Page() {
       </section>
       {/* unlock section */}
       <section className="xl:mt-[78px] mt-[51px] custom-container">
-        <h2 className="text-[26px]  md:text-[40px]  font-light xl:text-[50px] 4xl:text-[60px] 2xl:text-[56px]  xl:w-[1000px] 4xl:w-[1222px] 2xl:w-[1100px]  md:w-[700px] leading-tight  ">
+        <h2 className="text-[26px] md:text-[40px] font-light xl:text-[50px] 4xl:text-[60px] xl:w-[1000px] 4xl:w-[1222px] 2xl:w-[1100px] md:w-[700px] leading-tight">
           {t('pageDescTitle')}
         </h2>
         <p className="text-[16px] leading-[19px] md:text-[18px] md:leading-[26px] font-normal 4xl:text-[22px] xl:text-[18px] xl:leading-[30px] xl:w-[81%] w-[94%] 4xl:w-[81%] 2xl:w-[80%] xl:mt-[43px] mt-[32px] 2xl:text-[20px]">

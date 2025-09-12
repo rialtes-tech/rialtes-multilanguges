@@ -182,7 +182,7 @@ const t = useTranslations("uiPath");
                             height={0}
                         />
                     </div>
-                    <div className="xl:col-span-7 bg-[#006FBE] p-10 text-white order-2 xl:order-1 pb-40 4xl:pb-0 xl:pb-16">
+                    <div className="xl:col-span-7 bg-[#006FBE] p-10 text-white order-2 xl:order-1 pb-40 4xl:pb-20 xl:pb-16">
                         <h2 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[42px]"> {t('uiTitle')}  </h2>
                         <p className="mt-5 4xl:text-[22px] text-[16px] font-normal 4xl:pr-20">
                         {t('uiDesc')}</p>
@@ -247,7 +247,7 @@ const t = useTranslations("uiPath");
                 </div>
             </section>
             {/* ariba section */}
-            <section className="mt-20 custom-container 4xl:pl-[280px] 4xl:pr-0 max-md:px-0">
+            <section className="mt-20 custom-container 4xl:pl-[280px] 4xl:pr-0 max-md:px-0 relative">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-4 xl:mt-20 4xl:mt-20 mb-32">
                         <div className="xl:block hidden">
@@ -273,7 +273,7 @@ const t = useTranslations("uiPath");
                             />
                         </div>
                     </div>
-                    <div className="xl:col-span-8 bg-[#F0DCC9] max-md:px-[35px] md:px-[35px] text-black 4xl:pl-64 4xl:pr-[22rem] xl:pr-[14rem] xl:pl-[11rem] pt-16  4xl:ml-[-200px] xl:ml-[-130px] mt-[-230px] 4xl:mt-0 xl:mt-0">
+                    <div className="xl:col-span-8 bg-[#F0DCC9] max-md:px-[35px] 4xl:pb-[100px] xl:pb-32 md:px-[35px] text-black 4xl:pl-64 4xl:pr-[22rem] pb-[90px] xl:pr-[14rem] xl:pl-[11rem] pt-16  4xl:ml-[-200px] xl:ml-[-130px] mt-[-230px] 4xl:mt-0 xl:mt-0">
                         <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[40px] pt-24 4xl:pt-0 xl:pt-0 pr-20 xl:pr-0 4xl:pr-0">
                            {t('autoTitle')}
                         </h2>
@@ -285,14 +285,14 @@ const t = useTranslations("uiPath");
                         <UnorderedList arrName={aribaUseCases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1  font-medium marker:font-bold marker:text-2xl pl-5  mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[18px] leading-tight mt-10">{t('titleTwo')}</div>
                         <UnorderedList arrName={aribaBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 font-medium  marker:font-bold marker:text-2xl pl-5 mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                        <div className="mt-5">
+                        <div className="mt-5 absolute bottom-0">
                             <LearnMore />
                         </div>
                     </div>
                 </div>
             </section>
             {/* sap s4hana section */}
-            <section className="mt-20 custom-container 4xl:pl-[142px] 4xl:pr-[280px] max-md:px-0">
+            <section className="mt-20 custom-container 4xl:pl-[142px] 4xl:pr-[280px] max-md:px-0 relative">
                 <div className="grid xl:grid-cols-12">
                     <div className="4xl:col-span-5 xl:col-span-6 xl:mt-20 4xl:mb-32 mb-16 order-1 xl:order-2">
                         <div className="xl:block hidden">
@@ -318,7 +318,7 @@ const t = useTranslations("uiPath");
                             />
                         </div>
                     </div>
-                    <div className="4xl:col-span-7 max-md:px-[35px] md:px-[35px] xl:col-span-6 bg-[#BFDEE3] text-black pt-16 4xl:pl-[197px] 4xl:pr-[250px] 4xl:mr-[-200px] xl:pl-20 xl:pr-[200px] xl:mr-[-150px] order-2 xl:order-1 mt-[-285px] xl:mt-0 4xl:mt-0">
+                    <div className="4xl:col-span-7 max-md:px-[35px] 4xl:pb-32 xl:pb-20 md:px-[35px] xl:col-span-6 pb-[90px] bg-[#BFDEE3] text-black pt-16 4xl:pl-[197px] 4xl:pr-[250px] 4xl:mr-[-200px] xl:pl-20 xl:pr-[200px] xl:mr-[-150px] order-2 xl:order-1 mt-[-285px] xl:mt-0 4xl:mt-0">
                         <h2 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[42px] pt-48 xl:pt-0 4xl:pt-0">
                            {t('hanaTitle')}
                         </h2>
@@ -335,14 +335,14 @@ const t = useTranslations("uiPath");
                             {t('hanaTilteTwo')}
                         </div>
                         <UnorderedList arrName={s4hanaBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                        <div className="mt-5">
+                        <div className="mt-5 absolute bottom-0">
                             <LearnMore />
                         </div>
                     </div>
                 </div>
             </section>
             {/* success factor section */}
-            <section className="mt-20 custom-container 4xl:pl-[280px] 4xl:pr-0 max-md:px-0">
+            <section className="mt-20 custom-container 4xl:pl-[280px] 4xl:pr-0 max-md:px-0 relative">
                 <div className="grid xl:grid-cols-12">
                     <div className="xl:col-span-4 xl:mt-20 mb-16 xl:mb-32">
                         <div className="xl:block hidden">
@@ -368,7 +368,7 @@ const t = useTranslations("uiPath");
                             />
                         </div>
                     </div>
-                    <div className="xl:col-span-8 bg-[#E6D2D2] max-md:px-[35px] md:px-[35px] mt-[-200px] xl:mt-0 4xl:mt-0 text-black 4xl:pl-64 4xl:pr-[22rem] xl:pr-[14rem] xl:pl-[11rem] pt-16 4xl:ml-[-200px] xl:ml-[-130px] order-2 xl:order-1">
+                    <div className="xl:col-span-8 bg-[#E6D2D2] 4xl:pb-32 xl:pb-20 max-md:px-[35px] md:px-[35px] mt-[-200px] pb-[90px] xl:mt-0 4xl:mt-0 text-black 4xl:pl-64 4xl:pr-[22rem] xl:pr-[14rem] xl:pl-[11rem] pt-16 4xl:ml-[-200px] xl:ml-[-130px] order-2 xl:order-1">
                         <h2 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[40px] pt-32 xl:pt-0 4xl:pt-0">
                             {t('rpaTitle')}
                         </h2>
@@ -387,14 +387,14 @@ const t = useTranslations("uiPath");
                             {t('rpaTilteTwo')}
                         </div>
                         <UnorderedList arrName={successFactorBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                        <div className="mt-5">
+                        <div className="mt-5 absolute bottom-0">
                             <LearnMore />
                         </div>
                     </div>
                 </div>
             </section>
             {/* salesforce section */}
-            <section className="mt-20 custom-container 4xl:pl-[142px] 4xl:pr-[280px] max-md:px-0">
+            <section className="mt-20 custom-container 4xl:pl-[142px] 4xl:pr-[280px] max-md:px-0 relative">
                 <div className="grid xl:grid-cols-12">
                     <div className="4xl:col-span-5 xl:col-span-6  xl:mt-20 4xl:mb-32 mb-16 order-1 xl:order-2">
                         <div className="xl:block hidden">
@@ -420,7 +420,7 @@ const t = useTranslations("uiPath");
                             />
                         </div>
                     </div>
-                    <div className="4xl:col-span-7 xl:col-span-6 max-md:px-[35px] md:px-[35px] bg-[#ACD8ED] mt-[-200px] xl:mt-0 4xl:mt-0 text-black pt-16 4xl:pl-[197px] 4xl:pr-[250px] 4xl:mr-[-200px] xl:pl-20 xl:pr-[200px] xl:mr-[-150px] order-2 xl:order-1">
+                    <div className="4xl:col-span-7 xl:col-span-6 4xl:pb-32 xl:pb-20 max-md:px-[35px] md:px-[35px] bg-[#ACD8ED] pb-[90px] mt-[-200px] xl:mt-0 4xl:mt-0 text-black pt-16 4xl:pl-[197px] 4xl:pr-[250px] 4xl:mr-[-200px] xl:pl-20 xl:pr-[200px] xl:mr-[-150px] order-2 xl:order-1">
                         <h2 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[42px] pt-32 xl:pt-0 4xl:pt-0">
                             {t('SalesforceTitle')}
                         </h2>
@@ -438,7 +438,7 @@ const t = useTranslations("uiPath");
                             {t('SalesforceTilteTwo')}
                         </div>
                         <UnorderedList arrName={salesforceBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                        <div className="mt-10">
+                        <div className="mt-10 absolute bottom-0">
                             <LearnMore />
                         </div>
                     </div>

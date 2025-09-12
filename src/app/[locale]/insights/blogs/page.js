@@ -334,11 +334,8 @@ export default function Page() {
     );
   }
 
-
   return (
-
     <div className="min-h-screen bg-white text-black">
-
       <Seo
         title="Rialtes Blogs | Salesforce, SAP, AI, and Cloud Insights"
         description="Read expert blogs on Salesforce, SAP, cloud, and AI. Stay ahead with the latest innovation and digital transformation insights from Rialtes."
@@ -351,7 +348,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+      <section className="relative group overflow-hidden h-[350px] md:h-[500px] 4xl:h-[650px]">
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image

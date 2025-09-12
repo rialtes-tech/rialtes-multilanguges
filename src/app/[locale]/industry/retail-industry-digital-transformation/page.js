@@ -146,12 +146,12 @@ export default function retailPage() {
                     />
                 </div>
                 <div className="relative h-full custom-container flex items-center">
-                    <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
-                        <div className="col-span-12">
+                    <div className="grid xl:grid-cols-12">
+                        <div className="xl:col-span-6 ">
                             <h3 className="text-[#FFFFFF] text-[18px] md:text-[24px]  font-bold lg:w-full">
                                 {t('headerTitle')}  
                             </h3>
-                            <h1 className="text-[#FFFFFF] text-[26px] leading-[34px] md:text-[36px] md:leading-[50px] lg:text-[40px]  2xl:text-[60px] xl:text-[50px] 2xl:leading-[73px] xl:leading-[65px] lg:leading-[50px] mt-[11.5px] md:mt-[28.5px] max-[350px]:text-[22px] max-[350px]:leading-[30px]">
+                            <h1 className="text-[#FFFFFF] md:pr-32 xl:pr-0 text-[26px] leading-[34px] md:text-[36px] md:leading-[50px] lg:text-[40px]  2xl:text-[60px] xl:text-[50px] 2xl:leading-[73px] xl:leading-[65px] lg:leading-[50px] mt-[11.5px] md:mt-[28.5px] max-[350px]:text-[22px] max-[350px]:leading-[30px]">
                                 {t('headerSubTitle')}  
                             </h1>
                         </div>
@@ -288,7 +288,15 @@ export default function retailPage() {
                                                 <UnorderedList arrName={fashionRetailData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[44px] mt-[21px] pl-[20px] lg:pb-[49px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] max-[400px]:text-[16px] leading-tight font-normal" />
                                             </div>
                                         </div>
-                                        <div className="absolute bottom-[-170px] 2xl:bottom-[-102px] 4xl:bottom-[-107px] xl:bottom-[-98px] md:bottom-[-130px]">
+                                        <div className={`
+                                          ${locale === "es"
+                                    ? "absolute bottom-[-185px] 2xl:bottom-[-130px] 4xl:bottom-[-136px] xl:bottom-[-121px] md:bottom-[-130px] [@media(max-width:320px)]:bottom-[-204px]"
+                                    : locale === "fr"
+                                        ? "absolute bottom-[-185px] 2xl:bottom-[-128px] 4xl:bottom-[-135px] xl:bottom-[-121px] md:bottom-[-130px] [@media(max-width:320px)]:bottom-[-204px]"
+                                        : "absolute bottom-[-170px] 2xl:bottom-[-102px] 4xl:bottom-[-107px] xl:bottom-[-96px] md:bottom-[-130px]"
+                                }`}
+
+                                        >
                                             <div className="bg-[#163055] text-[#ffffff] max-lg:mt-[35px]">
                                                 <p className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[18px] text-[18px]  leading-tight  py-[24px] px-[24px] lg:pl-[31px] font-light">
                                                     {t('fashionBlueBox')}   
@@ -381,7 +389,16 @@ export default function retailPage() {
             {/*real time section */}
             <section className="lg:mt-[84px] mt-[62px] relative">
                 {/* Background Image */}
-                <div className="w-full h-auto hidden md:block md:h-[760px] lg:h-[710px] xl:h-[1000px] 2xl:h-[1080px] 3xl:h-[1036px] 4xl:h-[1136px]">
+                <div className={`w-full h-auto hidden  lg:h-[710px] xl:h-[1000px] 2xl:h-[1080px] 3xl:h-[1036px] 4xl:h-[1136px]
+                  ${locale === "es"
+                                    ? "md:block md:h-[750px]"
+                                    : locale === "fr"
+                                        ? "md:block md:h-[790px]"
+                                        : "md:block md:h-[720px]"
+                                }`}
+
+                
+                >
                     <Image
                         src="/images/industry/retail-industry/real-time-desk-img.webp"
                         alt="Real-Time Inventory"
@@ -402,7 +419,10 @@ export default function retailPage() {
                         priority
                     />
                 </div>
-                <div className="relative md:absolute md:inset-0 md:flex md:items-stretch max-md:mt-[-170px]">
+                <div className="relative md:absolute md:inset-0 md:flex md:items-stretch max-md:mt-[-170px]"
+                
+                
+                >
                     <div className="custom-container md:h-full">
                         <div className="bg-[rgba(0,111,190,0.85)] h-full w-full md:w-[52%] xl:w-[55%] 2xl:w-[54%] 3xl:w-[54%] text-white flex flex-col xl:pt-[68px] xl:px-[77px] pt-[25px] px-[33px]">
                             <div>
@@ -417,7 +437,15 @@ export default function retailPage() {
                                 </p>
                                 <UnorderedList arrName={realTimeData} ulClassName="list-disc mt-[18px] md:mt-[16px] pl-[20px] xl:space-y-[27px] space-y-[19px] lg:pr-[35px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
                             </div>
-                            <div className="mt-auto pt-[40px]">
+                            <div className={`mt-auto"
+                              ${locale === "es"
+                                    ? "pt-[27px]"
+                                    : locale === "fr"
+                                        ? "pt-[40px]"
+                                        : "pt-[25px]"
+                                }`}
+
+                            >
                                 <LearnMore />
                             </div>
                         </div>
@@ -453,7 +481,18 @@ export default function retailPage() {
                         </div>
                     </div>
                     <div className="md:col-span-7 col-span-12 max-md:px-[36px] bg-[#EFEFEF]">
-                        <div className="md:mx-[40px] md:pt-[64px] md:pb-[56px] pb-[31px] pt-[34px] 4xl:pr-[170px] 2xl:pr-[130px] xl:pr-[120px] ">
+                        <div className={`md:mx-[40px] md:pt-[64px] md:pb-[56px] pb-[31px] pt-[34px]
+                          ${locale === "es"
+                                    ? "4xl:pr-[15px] 2xl:pr-0 xl:pr-[65px]"
+                                    : locale === "fr"
+                                        ? "4xl:pr-[15px] 2xl:pr-0 xl:pr-[65px]"
+                                        : "4xl:pr-[170px] 2xl:pr-[130px] xl:pr-[120px]"
+                                }`}
+
+                        
+                        
+                        
+                        >
                             <h2 className="4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px]  leading-tight max-[400px]:text-[24px]">
                                 {t('loyaltyTitle')}   
                             </h2>

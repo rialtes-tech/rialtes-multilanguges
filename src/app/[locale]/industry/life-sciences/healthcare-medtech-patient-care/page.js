@@ -163,7 +163,7 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+      <section className="relative group overflow-hidden h-[400px] md:h-[500px] 4xl:h-[650px]">
         <div className="hidden lg:block">
           <Image
             src="/images/healthcare/AdobeStock_752092287_Preview copy.webp"
@@ -191,7 +191,7 @@ export default function Page() {
               <h3 className="text-white text-[18px] md:text-[24px] font-bold">
                 {t('headerTitle')}
               </h3>
-              <h2 className="text-white  leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] 2xl:w-[80%] 4xl:w-[90%]  xl:w-[90%] md:w-[80%] mt-[11.5px] md:mt-[28.5px]">
+              <h2 className="text-white leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] 2xl:w-[80%] 4xl:w-[90%] xl:w-[90%] md:w-[60%] mt-[11.5px] md:mt-[28.5px]">
                 {t('headerSubTitle')}
               </h2>
             </div>
@@ -238,7 +238,7 @@ export default function Page() {
         <section className="pb-8 bg-white">
           <div className="custom-container mx-auto text-black mt-14 md:mt-20 xl:mt-[120px]">
             <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 2xl:w-[60%] 4xl:w-[85%]">{t('servicesTitle')}</h2>
-            <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('servicesDesc')}</p>
+            <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight lg:w-[80%]">{t('servicesDesc')}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
               {latestServices.map((services) => (
                 <ServicesCard key={services.id} services={services} />
@@ -247,19 +247,19 @@ export default function Page() {
             <div className="mt-10">
               <LearnMore />
             </div>
-          </div>
+          </div> 
         </section>
       </div>
       {/* Latest Customer Success Stories */}
       <div className="bg-[#F5F5F5] py-20 mt-20" >
-        <div className="custom-container" >
+        <div className="custom-container lg:!pr-0">
           <CaseStudyIndivisual slides={slidesCaseStudy} />
         </div>
       </div>
 
       {/* Explore More */}
       < div className="bg-[#808080] mt-20 py-20">
-        <div className="custom-container">
+        <div className="custom-container lg:!pr-0">
           <ExploreMoreCarousel />
         </div>
       </div >

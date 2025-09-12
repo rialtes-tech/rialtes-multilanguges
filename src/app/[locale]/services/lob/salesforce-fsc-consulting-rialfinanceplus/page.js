@@ -10,6 +10,7 @@ import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -112,6 +113,7 @@ export default function page() {
     }
     const t = useTranslations('rialFinance')
     const locale = useLocale();
+    const { frActive, esActive, enActive } = useActiveLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { startWithData, exelonaData, agentChat, agentforceData, salesforceData, howWeDeliverData, whyRialtesData, deepDiveData } = content.rialFinance
     return (
@@ -408,17 +410,17 @@ export default function page() {
                 <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[40px] lg:gap-[80px] gap-y-[29px]">
                     <div className="md:order-1 order-2">
                         <h2 className="text-[26px] xl:text-[36px] 4xl:text-[50px]">
-                            {t('agentForceTitle')}   
+                            {t('agentForceTitle')}
                         </h2>
                         <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold w-[90%] xl:w-[90%] 4xl:w-full mt-[13px] xl:mt-[23px]">
-                            {t('agentForceSubTitle')}    
+                            {t('agentForceSubTitle')}
                         </h3>
                         <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] xl:mt-[35px] mt-[16px] font-normal w-[90%] xl:w-full">
-                            {t('agentForceDesc')}  
+                            {t('agentForceDesc')}
                         </p>
                         <UnorderedList arrName={agentforceData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[43px] mt-[16] pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                         <p className="xl:text-[18px] 4xl:text-[22px] text-[18px] xl:mt-[49px] mt-[48px] font-normal w-[90%] md:w-full">
-                            {t('agentForceDesc2')}    
+                            {t('agentForceDesc2')}
                         </p>
                         <div className="xl:mt-[55px] mt-[37px]">
                             <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
@@ -480,10 +482,10 @@ export default function page() {
                     </div>
                     <div className="md:col-span-5 col-span-12">
                         <h2 className="text-[26px] xl:text-[36px] 4xl:text-[48px] w-[90%] md:w-full">
-                            {t('salesforceTitle')}   
+                            {t('salesforceTitle')}
                         </h2>
                         <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold w-[90%] xl:w-[90%] 4xl:w-full mt-[16px] xl:mt-[33px]">
-                            {t('salesforceSubTitle')}  
+                            {t('salesforceSubTitle')}
                         </h3>
                         <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[33px] mt-[17px] pl-[20px] w-[86%] md:w-full">
                             {salesforceData.map((data, ind) => (
@@ -509,10 +511,10 @@ export default function page() {
                     <div className="lg:col-span-5 col-span-12 lg:mr-[-90px] relative z-20 lg:order-1 order-2">
                         <div className="bg-[#5D5F63] max-lg:mx-[36px] text-[#ffffff] xl:pt-[57px] xl:pb-[101px] xl:pl-[80px] xl:pr-[60px] lg:my-[60px] pt-[34px] px-[30px] pb-[60px]">
                             <h2 className="text-[26px] xl:text-[36px] 4xl:text-[48px] w-[90%] md:w-full">
-                                {t('howWeDeliverTitle')}     
+                                {t('howWeDeliverTitle')}
                             </h2>
                             <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold mt-[16px] xl:mt-[35px] w-[90%] lg:w-full">
-                                {t('howWeDeliverSubTitle')}    
+                                {t('howWeDeliverSubTitle')}
                             </h3>
                             <UnorderedList arrName={howWeDeliverData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[33px] mt-[17px] pl-[20px] w-[86%] md:w-full 4xl:w-[90%]" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[40px] mt-[10px] absolute">
@@ -555,7 +557,7 @@ export default function page() {
                                 alt="why-rialtes img"
                                 width={0}
                                 height={0}
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-cover xl:h-[790px] 2xl:h-full"
                                 priority
                             />
                         </div>
@@ -573,14 +575,18 @@ export default function page() {
                     </div>
                     <div className="lg:absolute lg:right-0 xl:top-[-90px] lg:top-[-40px] lg:w-[50%] xl:w-[48%] 3xl:w-[40%] 4xl:w-[50%]">
                         <div className="bg-[#006FBE] text-[#ffffff] 4xl:pt-[79px] 4xl:pl-[67px] 4xl:pr-[60px] xl:pt-[54px] xl:pl-[50px] xl:pr-[50px] pt-[34px] px-[36px]">
-                            <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] w-[90%] md:w-full">
-                                {t('whyRialtesTitle')}    
+                            <h2
+                                className={`text-[26px] w-[90%] md:w-full 
+                                    ${esActive ? "4xl:text-[52px] xl:text-[37px]" : ""} 
+                                    ${frActive ? "4xl:text-[40px] xl:text-[30px]" : ""} 
+                                    ${enActive ? "4xl:text-[60px] xl:text-[40px]" : ""}`}>
+                                {t('whyRialtesTitle')}
                             </h2>
-                            <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold mt-[16px] xl:mt-[27px] w-[90%] lg:w-full">
-                                {t('whyRialtesSubTitle')}    
+                            <h3 className="text-[20px] xl:text-[28px] 4xl:text-[36px] font-semibold mt-[16px] xl:mt-[27px] w-[90%] lg:w-full">
+                                {t('whyRialtesSubTitle')}
                             </h3>
                             <UnorderedList arrName={whyRialtesData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[39px] mt-[16px] pl-[20px] w-[86%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
-                            <div className="4xl:mt-[63px] mt-[44px]">
+                            <div className="4xl:mt-[53px] mt-[34px]">
                                 <LearnMore />
                             </div>
                         </div>

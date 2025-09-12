@@ -571,6 +571,65 @@
       "Automate compliant marketing and medical content distribution.",
       "Track customer interactions and feedback in real-time."
     ],
+    "strategicChallengeData": [
+      {
+        "number": "1",
+        "title": "Complex and Dynamic Regulatory Compliance",
+        "bgColor": "#CCFFEA",
+        "numberColor": "#415C3D",
+        "description": "Pharma companies operate in a highly regulated environment that requires real-time data visibility, accurate reporting, and global compliance adherence. Challenges include:",
+        "points": [
+          "Managing complex, ever-changing global regulatory frameworks (FDA, EMA, MHRA, TGA).",
+          "Maintaining submission readiness, audit trails, and risk assessments.",
+          "Lack of integrated platforms to manage quality events, safety reporting, and regulatory submissions."
+        ],
+        "imgDesktop": "/images/pharma/Complex and Dynamic Regulatory Compliance.webp",
+        "imgMobile": "/images/pharma/Complex and Dynamic .webp"
+      },
+      {
+        "number": "2",
+        "title": "Accelerating Clinical Trials and R&D Innovation",
+        "bgColor": "#C3EBFF",
+        "numberColor": "#086CB4",
+        "description": "Bringing therapies to market faster demands better trial management, patient recruitment, and data consolidation. Current issues:",
+        "points": [
+          "Delays in trial recruitment and site activation.",
+          "Fragmented systems for trial data and adverse event management.",
+          "Challenges in ensuring data accuracy for regulatory submissions."
+        ],
+        "imgDesktop": "/images/pharma/Accelerating Clinical Trials and R&D Innovation.webp",
+        "imgMobile": "/images/pharma/Accelerating Clinical.webp"
+      },
+      {
+        "number": "3",
+        "title": "Commercial and Medical Affairs Engagement Gaps",
+        "bgColor": "#FFF3D8",
+        "numberColor": "#B16929",
+        "description": "Engaging HCPs, payers, and patients requires personalized, compliant, and omnichannel engagement strategies. Key issues include:",
+        "points": [
+          "Disconnected field medical and sales teams limiting coordinated HCP engagement.",
+          "Lack of visibility into patient support and outcomes.",
+          "Struggles with medical inquiry and adverse event tracking."
+        ],
+        "imgDesktop": "/images/pharma/Commercial and Medical Affairs Engagement Gaps.webp",
+        "imgMobile": "/images/pharma/Commercial and Medical.webp"
+      },
+      {
+        "number": "4",
+        "title": "Supply Chain, Manufacturing, and Serialization",
+        "bgColor": "#C7DEFF",
+        "numberColor": "#4E70BA",
+        "description": "Pharma companies must ensure product integrity and compliance across the supply chain. Challenges include:",
+        "points": [
+          "Managing serialization and track & trace mandates.",
+          "Lack of real-time visibility into inventory and shipments.",
+          "Inefficiencies in recall, complaint, and adverse event responses."
+        ],
+        "imgDesktop": "/images/pharma/Supply Chain, Manufacturing, and Serialization.webp",
+        "imgMobile": "/images/pharma/Supply Chain (1).webp"
+      }
+    ],
+    "strategicTitle": "Top 4 Strategic Challenges Facing Pharma and Biotech Industry Today",
     "headerTitle": "Pharma Industry",
     "headerSubTitle": "Accelerating Pharma Innovation & Compliance",
     "headerSubTitle2": "Rialtes End-to-End Pharma & Biotech Solutions",
@@ -775,7 +834,8 @@
     "realTimeDesc": "RialChat, our WhatsApp integration solution, brings instant patient, provider, and field service communication:",
     "stayConnectedTitle": "Stay connected with patients and providers on the channel they trust.",
     "contactTitle": "Transform Patient Lives and Medical Device Operations with Rialtes!",
-    "contactSubTitle": "Ready to elevate your medical device operations? Contact Rialtes today to lead the way in patient-centric innovation and compliance."
+    "contactSubTitle": "Ready to elevate your medical device operations? Contact Rialtes today to lead the way in patient-centric innovation and compliance.",
+    "learnMoreBtn": "Learn More"
   },
   "homeHealth": {
     "addressingData": [
@@ -1358,6 +1418,7 @@
     "headerSubTitleTwo": "Smarter, Faster, Connected",
     "drivingDesc": "Driving end-to-end digital transformation for manufacturers with AI, Cloud, and Smart Automation. Rialtes empowers manufacturing companies to evolve beyond traditional operations and embrace next-gen manufacturing ecosystems that are agile, data-driven, and customer-centric.",
     "thoughtTitle": "Thought Leadership",
+    "learnMoreBtn": "Learn More",
     "thoughtSubTitle": "Leading the Digital Reinvention of Manufacturing",
     "thoughtSubTitleOne": "At Rialtes, we believe the future of manufacturing lies in resilient, adaptive, and AI-powered ecosystems. From digital twins to predictive supply chains, we help manufacturers think ahead of disruption and innovate at scale. Our focus is on customer personalization, operational efficiency, and global compliance, powered by connected data and automation.",
     "endTitle": "Rialtes’ End-to-End Manufacturing Transformation Services",
@@ -1424,6 +1485,7 @@
     "thoughtSubTitle": "Solving Education’s Most Pressing Challenges",
     "industryTitle": "Key Industry Challenges We Address:",
     "approachTitle": "Rialtes’ Approach:",
+    "learnMoreBtn": "Learn More",
     "journeyTitle": "The Complete Student Journey",
     "journeySubtitle": "From First Inquiry to Graduation and Beyond",
     "journeySubtitleOne": "Recruitment and Enrollment Journey",
@@ -1582,6 +1644,7 @@
     "topTitle": "Top 4 Critical Challenges Facing Commercial and Retail Banking Today",
     "deepTitle": "Deep Expertise in Salesforce FSC & SAP S/4 HANA",
     "deepSubtitle": "Transforming Financial Operations End-to-End",
+     "learnMoreBtn": "Learn More",
     "salesforceTitle": "Salesforce Financial Services Cloud (FSC)",
     "salesforceDesc": "Our Salesforce-certified architects and consultants deliver tailored FSC solutions to meet modern banking, lending, and wealth management needs:",
     "sapTitle": "SAP S/4 HANA for Financial Services",
@@ -1994,7 +2057,8 @@
     "smarterDesc": "Deliver service that makes every customer feel valued and understood.",
     "contactTitle": "Ready to Redefine the Future of Travel, Transportation & Hospitality?",
     "contactSubTitle": "Whether you’re an airline, hotel chain, cruise line, rideshare, or logistics provider, Rialtes can help you lead in a competitive world with technology, strategy, and execution that deliver results.",
-    "contactSubTitle2": "Contact Rialtes today to start your transformation journey — because great experiences start with great partners."
+    "contactSubTitle2": "Contact Rialtes today to start your transformation journey — because great experiences start with great partners.",
+    "learnMoreBtn": "Learn More"
   },
   "retailIndustry": {
     "newRealityData": [
@@ -2339,6 +2403,7 @@
     "preDeliveredTitle": "Rialtes Pre-Delivered Accelerators for Non-Profit Excellence",
     "preDeliveredDesc": "Our proprietary, ready-to-deploy solutions drastically reduce deployment times and improve process efficiencies for non-profits.",
     "significanceTitle": " Significance:",
+    "learnMoreBtn": "Learn More",
     "seamlessTitle": "Seamless Platform Integrations for Unified Non-Profit Operations",
     "seamlessCard1Title": "SAP S/4HANA",
     "seamlessCard1Desc": "Manage financials, procurement, and donor fund allocation with full transparency.",

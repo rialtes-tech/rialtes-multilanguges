@@ -56,7 +56,7 @@ export default function About() {
     );
     const Services = () => {
         return (
-            <div className="container mx-auto text-black">
+            <div className="custom-container mx-auto text-black 4xl:px-0 2xl:px-0 xl:px-0">
                 <h2 className="text-black xl:mt-20 mt-10 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] "> {t('ourTitle')}</h2>
                 <h3 className="mt-5 font-bold 4xl:text-[45px] 2xl:text-[36px] xl:text-[32px] text-[23px]"> {t('ourDesc')}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
@@ -127,10 +127,10 @@ export default function About() {
             {/* over section */}
             <section className="xl:py-14 py-10 bg-gray-100 mt-20">
                 <div className="custom-container">
-                    <div className="container mx-auto">
+                    <div className="mx-auto">
                         <h3 className="text-[#000000] mb-8 font-semibold w-full 4xl:text-[43px] 2xl:text-[36px] xl:text-[32px] text-[23px]">
                             {t('overTitle')}</h3>
-                        <div className="flex flex-col lg:flex-row mb-8 mt-16 lg:gap-40 gap-10">
+                        <div className="grid xl:grid-cols-4 md:grid-cols-2 mb-8 mt-16 lg:gap-40 gap-10 ">
                             {corePrinciples.map((item, index) => (
                                 <div key={index} className="grid">
                                     <Image
@@ -139,9 +139,8 @@ export default function About() {
                                         width={100}
                                         height={100}
                                         priority
-                                        className={`w-[${item.width.base}px] h-[${item.height.base}px] xl:w-[${item.width.xl}px] xl:h-[${item.height.xl}px] max-md:m-auto`}
                                     />
-                                    <p className="mt-5 lg:text-center max-md:text-center 4xl:text-[35px] xl:text-[30px] text-[22px]">
+                                    <p className="mt-5  4xl:text-[35px] xl:text-[30px] text-[22px]">
                                         {item.label}
                                     </p>
                                 </div>
@@ -152,14 +151,14 @@ export default function About() {
             </section>
             {/* what we do section*/}
             <section className="xl:py-16 pt-10">
-                <div className="custom-container max-md:px-0">
-                    <div className="container mx-auto">
+                <div className="custom-container">
+                    <div className="mx-auto">
                         <h2 className="text-[#000000] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">{t('whatTitle')}</h2>
                         <p className="my-10 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('whatDesc')}</p>
                         <div className="grid md:grid-cols-2 xl:grid-cols-3 xl:gap-4 gap-20 mb-20 mt-20 grid-cols-1">
                             {missionCards.map((card, index) => (
                                 <div key={index}>
-                                    <div className="relative border-b border-l border-r border-gray-300 p-12 h-[310px] md:h-[350px]  xl:mt-[40px]">
+                                    <div className="relative border-b border-l border-r border-gray-300 p-12 h-[360px] md:h-[350px]  xl:mt-[40px]">
                                         <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
                                         <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
                                         <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px] max-lg:mt-[-97px]">
@@ -172,7 +171,15 @@ export default function About() {
                                         <p className="mt-4 text-gray-600 text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight">
                                             {card.description}
                                         </p>
-                                        <div className="absolute bottom-[3rem] w-12 border-t border-gray-400"></div>
+                                        <div className={`absolute  w-12 border-t border-gray-400
+                                          ${locale === "es"
+                                    ? "bottom-[1.5rem]"
+                                    : locale === "fr"
+                                        ? "bottom-[0.5rem] xl:bottom-[1.5rem]"
+                                        : "bottom-[1.5rem]"
+                                }`}
+                                        
+                                        ></div>
                                     </div>
                                 </div>
                             ))}
@@ -192,7 +199,14 @@ export default function About() {
                 />
                 <div className=" h-full relative xl:ml-[280px] xl:mr-[156px] md:ml-[290px]">
                     <div className="flex justify-end">
-                        <div className="relative p-10 4xl:w-[720px] 4xl:h-[620px] xl:w-[535px] xl:h-[500px] max-md:h-[750px]">
+                        <div className={`relative p-10 4xl:w-[720px]  xl:w-[535px]
+                          ${locale === "es"
+                                    ? "4xl:h-[620px] xl:h-[550px] max-md:h-[750px] 2xl:h-[560px]"
+                                    : locale === "fr"
+                                        ? "4xl:h-[620px] xl:h-[550px] max-md:h-[750px] 2xl:h-[560px]"
+                                        : "4xl:h-[620px] xl:h-[500px] max-md:h-[750px]"
+                                }`}
+                        >
                             <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
                             <div className="relative bg-opacity-80 text-white z-10  rounded-lg">
                                 <h3 className="4xl:text-[45px] xl:text-[38px] text-[34px] leading-tight font-bold">{t('welcomeTitle')}</h3>
