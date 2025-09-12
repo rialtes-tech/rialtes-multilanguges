@@ -375,10 +375,10 @@ export default function Page() {
                                                 <div className="lg:col-span-8">
                                                     <p className="mt-3 lg:mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
                                                     {data.list &&
-                                                        <ul className="list-disc marker:text-[#006FBE] pl-[32px] space-y-2">
+                                                        <ul className="list-disc marker:text-[#006FBE] pl-[32px] space-y-5">
                                                             {
                                                                 data.list.map((item, ind) => (
-                                                                    <li
+                                                                    <li className="mt-5"
                                                                         key={ind}>
                                                                         <p className="inline font-bold text-[16px] xl:text-[17px] 4xl:text-[20px]">{item.title} : </p>
                                                                         <span className="font-medium text-[16px] xl:text-[17px] 4xl:text-[20px]">{item.desc}</span>
