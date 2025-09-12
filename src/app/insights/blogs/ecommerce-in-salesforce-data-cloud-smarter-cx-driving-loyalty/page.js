@@ -1,5 +1,4 @@
 "use client";
-// pages/blog-detail.js
 import Image from "next/image";
 import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
@@ -187,9 +186,9 @@ const predectiveData = [
 ]
 
 const empowerData = [
-    "<a href='https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce Data Cloud </span> </a> equips businesses with the tools to anticipate customer needs, deliver real-time insights, optimize inventory, and craft personalized journeys that keep them competitive in a crowded marketplace. Before implementing Data Cloud, organizations need to understand their data, define clear objectives, and align stakeholders on outcomes.",
-    "As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce consulting partner </span> </a>, Rialtes helps e-commerce brands go beyond the basics by unlocking the full power of Data Cloud. Our specialists identify the right use cases, streamline implementation timelines, and design customer journeys that truly matter. By blending predictive insights with personalization, we help you build stronger customer relationships, improve loyalty, and accelerate revenue growth.",
-    "Ready to turn prediction into profit? Reach out to us at  <a href='https://www.rialtes.com/contact-us' class='text-[#0092E0] underline hover:text-gray-400'>sales@rialtes.com.</span></a>"
+    "<a href='https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce Data Cloud</span></a> equips businesses with the tools to anticipate customer needs, deliver real-time insights, optimize inventory, and craft personalized journeys that keep them competitive in a crowded marketplace. Before implementing Data Cloud, organizations need to understand their data, define clear objectives, and align stakeholders on outcomes.",
+    "As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce consulting partner</span></a>, Rialtes helps e-commerce brands go beyond the basics by unlocking the full power of Data Cloud. Our specialists identify the right use cases, streamline implementation timelines, and design customer journeys that truly matter. By blending predictive insights with personalization, we help you build stronger customer relationships, improve loyalty, and accelerate revenue growth.",
+    "Ready to turn prediction into profit? Reach out to us at  <a href='mailto:sales@rialtes.com' class='underline hover:text-gray-400'>sales@rialtes.com</span></a>."
 ]
 const faqs = [
     {
@@ -353,7 +352,7 @@ export default function Page() {
                                 driveData.map((data, ind) => {
                                     return (
                                         <div key={ind}>
-                                            <p className="mt-10 4xl:pr-20 4xl:text-[22px] xl:text-[20px] text-[18px] font-bold">{data.title}</p>
+                                            <h3 className="mt-10 4xl:pr-20 4xl:text-[22px] xl:text-[20px] text-[18px] font-bold">{data.title}</h3>
                                             <p className="mt-2 4xl:pr-20 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
                                             <UnorderedList arrName={data.list} ulClassName="mt-3 list-disc pl-[36px] space-y-2" liClassName="font-medium 4xl:pr-20 4xl:text-[20px] xl:text-[17px] text-[16px]" />
                                         </div>
@@ -371,19 +370,18 @@ export default function Page() {
                                             <div className={`grid lg:grid-cols-12 grid-cols-1 gap-[22px] lg:gap-x-[46px] mt-10 ${ind != 4 && "border-b  pb-14"} border-[#BABABA]`} key={ind}>
                                                 <div className="flex gap-8 lg:col-span-4" key={ind}>
                                                     <p className="mt-3 lg:mt-5 text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px]"> <span className="border-r border-[#BABABA] pr-4"> {ind + 1}</span> </p>
-                                                    <p className="mt-3 lg:mt-5 4xl:text-[22px] xl:text-[20px] text-[18px] font-bold 4xl:w-[74%]">{data.title}</p>
+                                                    <h3 className="mt-3 lg:mt-5 4xl:text-[22px] xl:text-[20px] text-[18px] font-bold 4xl:w-[74%]">{data.title}</h3>
                                                 </div>
                                                 <div className="lg:col-span-8">
                                                     <p className="mt-3 lg:mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
                                                     {data.list &&
-                                                        <ul className="list-disc marker:text-[#006FBE] pl-[32px] space-y-2">
+                                                        <ul className="list-disc marker:text-[#006FBE] pl-[32px] space-y-5">
                                                             {
                                                                 data.list.map((item, ind) => (
-                                                                    <li
-                                                                        className="mt-5"
+                                                                    <li className="mt-5"
                                                                         key={ind}>
-                                                                        <h4 className="inline font-bold text-[16px] xl:text-[18px] 4xl:text-[20px]">{item.title} : </h4>
-                                                                        <span className="font-medium text-[16px] xl:text-[18px] 4xl:text-[20px]">{item.desc}</span>
+                                                                        <p className="inline font-bold text-[16px] xl:text-[17px] 4xl:text-[20px]">{item.title} : </p>
+                                                                        <span className="font-medium text-[16px] xl:text-[17px] 4xl:text-[20px]">{item.desc}</span>
                                                                     </li>
                                                                 ))
                                                             }
