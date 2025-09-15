@@ -30,7 +30,7 @@ const schemaData = {
 
 const latestBlogs = [
   // {
-  //   id: 38,
+  //   id: 39,
   //   image: "/images/blog/sap-industry-mobile-banner.webp",
   //   category: "SAP",
   //   industry: "Generic",
@@ -39,6 +39,16 @@ const latestBlogs = [
   //   title: "Accelerating Industry 4.0 with SAP Build: Low-Code Tools for Smarter Manufacturing",
   //   description: "Industry 4.0 has transformed factories into connected ecosystems where machines, people, and processes work in sync.",
   // },
+  {
+    id: 38,
+    image: "/images/blog/agentforce-ai-erp-mobile.webp",
+    category: "Agentforce",
+    industry: "Generic",
+    date: "Sep. 15, 2025",
+    url: '/how-agentforce-ai-transforms-erp-systems',
+    title: "How Agentforce AI Transforms ERP Systems: Automation, Predictive Insights, and Scalability",
+    description: "Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations.",
+  },
   {
     id: 37,
     image: "/images/blog/data-cloud-ecom-mobile-banner.webp",
