@@ -6218,5 +6218,108 @@
         "predictiveTitle": "Analytique prédictive en action : 5 façons dont Salesforce Data Cloud dynamise l’e-commerce",
         "empowerTitle": "Dynamiser l’e-commerce grâce à la prédiction et au partenariat",
         "faqTitle": "Foire aux questions (FAQ)"
+    },
+    "agentforceHitech": {
+        "agentfoceIntegrates": [
+            "Agentforce s'intègre aux systèmes ERP via Salesforce Data Cloud, unifiant les données provenant de diverses sources, y compris les systèmes ERP et de gestion de la chaîne d'approvisionnement (SCM). Des outils comme les connecteurs préconfigurés de MuleSoft pour SAP, Oracle et Microsoft Dynamics permettent une synchronisation des données en temps réel. Cela permet aux agents alimentés par l'IA d'accéder à des informations actuelles sur les stocks, les commandes et les finances, rationalisant ainsi les flux de travail et minimisant la saisie manuelle des données. En analysant les données ERP et SCM, Agentforce offre des informations prédictives qui améliorent la prise de décision. Dans l'agriculture, il prédit la demande et optimise les chaînes d'approvisionnement en examinant les rendements des cultures et les conditions météorologiques. De plus, dans la logistique, les agents d'IA peuvent gérer des volumes de commandes plus élevés pendant les saisons de pointe, en administrant efficacement les données d'expédition sans surcharger la main-d'œuvre."
+        ],
+        "benefitsData": [
+            {
+                "title": "Automatisation pilotée par l’IA",
+                "desc": "Agentforce utilise l'IA pour automatiser les tâches routinières dans les systèmes ERP telles que la gestion des stocks, le traitement des commandes et les rapports financiers, réduisant ainsi la charge de travail manuelle et les erreurs tout en augmentant l'efficacité. Dans la fabrication, par exemple, il surveille les niveaux de matières premières et passe automatiquement de nouvelles commandes lorsque cela est nécessaire, garantissant une production fluide. En analysant les données de production, Agentforce aide à identifier les inefficacités, permettant aux fabricants d'optimiser leurs opérations et de réduire le gaspillage."
+            },
+            {
+                "title": "Données unifiées et intégration",
+                "desc": "Salesforce Data Cloud est essentiel pour Agentforce, car il unifie les données de plusieurs systèmes afin de fournir des analyses et des informations en temps réel. Cette intégration améliore l'efficacité ; par exemple, dans la santé, elle relie les données ERP aux systèmes de gestion des patients pour améliorer la planification. Dans le commerce de détail, la fusion des données CRM sur les préférences des clients avec les systèmes ERP garantit des mises à jour de stock en temps réel, réduisant ainsi les ruptures et améliorant la satisfaction des clients."
+            },
+            {
+                "title": "Analytique prédictive pour des décisions proactives",
+                "desc": "Agentforce permet aux entreprises d'anticiper les tendances, de prévoir la demande et d'optimiser les opérations de la chaîne d'approvisionnement. En analysant les données ERP et SCM, notamment dans l'agriculture, il prédit la demande et améliore la planification. Cette intégration améliore la prise de décision, accroît la productivité et minimise les perturbations en tenant compte de facteurs tels que les rendements des cultures, les niveaux de stock, les calendriers de distribution et les conditions météorologiques."
+            },
+            {
+                "title": "Scalabilité",
+                "desc": "Agentforce gère efficacement l'augmentation des charges de travail dans les systèmes ERP et SCM sans nécessiter de personnel supplémentaire. Pendant les saisons de pointe en logistique, les agents d'IA peuvent traiter de plus grands volumes de données d'expédition et de livraison, comme les numéros de suivi et les niveaux de stock, permettant au système de gérer plus d'envois de manière dynamique sans surcharger la main-d'œuvre."
+            },
+            {
+                "title": "Collaboration renforcée",
+                "desc": "Intégré à l'écosystème Salesforce, Agentforce favorise la collaboration entre les équipes en connectant les données ERP avec des outils comme Slack et Salesforce Customer 360. Cela crée un environnement cohérent et connecté pour les décideurs."
+            }
+        ],
+        "applicationData": [
+            {
+                "title": "Gestion des stocks et de la chaîne d'approvisionnement",
+                "desc": "<a href='https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Les agents IA</span> </a> suivent les niveaux de stock, prédisent les fluctuations de la demande et automatisent les processus de réapprovisionnement. Par exemple, ils peuvent surveiller les perturbations de la chaîne d'approvisionnement et suggérer des fournisseurs alternatifs pour éviter les pénuries. Ces capacités aident à minimiser les ruptures et à réduire les excédents de stock, garantissant ainsi des opérations plus fluides."
+            },
+            {
+                "title": "Opérations financières",
+                "desc": "Amélioration des flux financiers en automatisant des tâches telles que la réconciliation des données, la génération de rapports de conformité et la détection d'anomalies transactionnelles. Cela améliore la précision, rationalise les processus et réduit le temps consacré aux tâches financières manuelles, comme les comptes fournisseurs, les comptes clients et la budgétisation."
+            },
+            {
+                "title": "Gestion de la relation client",
+                "desc": "Les agents analysent les données clients pour fournir des recommandations personnalisées et identifier des opportunités de ventes additionnelles. Les chatbots alimentés par ces agents automatisent les réponses aux questions des clients, améliorant ainsi l'engagement et la satisfaction. Par exemple, en analysant les historiques d'achats, les agents peuvent prédire les besoins futurs et affiner les stratégies marketing pour maximiser la valeur client."
+            },
+            {
+                "title": "Gestion automatisée des ressources humaines",
+                "desc": "En RH, ils rationalisent des processus tels que le recrutement, l'intégration et les évaluations de performance. Ils peuvent analyser les CV, planifier des entretiens et fournir des informations prédictives sur les tendances de rétention des employés. Cela améliore l'efficacité des RH tout en augmentant la satisfaction des employés et la gestion de la main-d'œuvre."
+            }
+        ],
+        "buildingData": [
+            "Agentforce est l'avenir des systèmes ERP : intelligent, évolutif et connecté. Avec l'IA et Salesforce Data Cloud, les entreprises atteignent une efficacité et une innovation accrues. Des fournisseurs ERP de premier plan comme SAP, Oracle et Microsoft intègrent <a href='https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>l’IA agentique</span> </a> pour la prise de décision en temps réel, l'analytique prédictive et l'automatisation des processus. Ces efforts transforment les systèmes ERP en écosystèmes intelligents qui optimisent les opérations, améliorent l'expérience client et permettent des solutions évolutives avec une intervention humaine minimale.",
+            "Rialtes permet aux entreprises <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>d’intégrer des agents Agentforce personnalisés</span> </a> dans leurs plateformes ERP spécifiques, automatisant les tâches répétitives et optimisant les flux de travail. En utilisant l'apprentissage automatique et le traitement du langage naturel, nous veillons à ce que ces agents s'alignent sur les objectifs organisationnels. Les entreprises peuvent s'assurer que leurs <a href='https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>déploiements Agentforce</span></a> exploitent des données fiables pour une automatisation intelligente. Contactez-nous à <a href='mailto:sales@rialtes.com'><span class='transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com.</span></a>"
+        ],
+        "faqs": [
+            {
+                "question": "Qu'est-ce qu'Agentforce et comment améliore-t-il les systèmes ERP ?",
+                "answer": "Agentforce est la plateforme d'IA de Salesforce qui s'intègre aux systèmes ERP et SCM pour unifier les données, automatiser les processus et fournir des informations prédictives. Il transforme l'ERP en un écosystème intelligent, permettant des décisions plus rapides et une plus grande efficacité opérationnelle."
+            },
+            {
+                "question": "Comment Agentforce s'intègre-t-il aux plateformes ERP existantes comme SAP, Oracle ou Microsoft Dynamics ?",
+                "answer": "Agentforce se connecte via Salesforce Data Cloud et les connecteurs préconfigurés de MuleSoft. Cela permet la synchronisation en temps réel des données ERP et SCM — telles que les commandes, les finances et les stocks — sans intégration personnalisée lourde."
+            },
+            {
+                "question": "Quels types de tâches les agents Agentforce peuvent-ils automatiser dans les systèmes ERP ?",
+                "answer": "Ils gèrent des processus routiniers tels que le suivi des stocks, le traitement des commandes, les rapports financiers, les flux RH et les réponses aux questions des clients. Cela réduit l'effort manuel et les erreurs tout en libérant les employés pour des travaux plus stratégiques."
+            },
+            {
+                "question": "Agentforce peut-il fournir des informations prédictives pour la chaîne d'approvisionnement et les opérations ?",
+                "answer": "Oui. En analysant les données ERP et SCM ainsi que des facteurs externes comme la météo ou la demande du marché, Agentforce prédit les perturbations de la chaîne d'approvisionnement, les fluctuations de la demande et les besoins en stock. Cette approche proactive aide les organisations à anticiper les risques."
+            },
+            {
+                "question": "Comment Agentforce améliore-t-il la collaboration entre les équipes ?",
+                "answer": "Parce qu'il fait partie de l'écosystème Salesforce, Agentforce connecte les données ERP avec des outils comme Slack et Salesforce Customer 360. Cela donne aux équipes une visibilité partagée en temps réel et permet des décisions plus rapides et coordonnées."
+            },
+            {
+                "question": "Quels secteurs peuvent le plus bénéficier de l'intégration d'Agentforce avec ERP ?",
+                "answer": "La fabrication, la logistique, l'agriculture, la santé, le commerce de détail et les services financiers en bénéficient. Par exemple, il aide les fabricants à optimiser la production, les détaillants à réduire les ruptures de stock et les entreprises logistiques à gérer les pics saisonniers d'expédition."
+            },
+            {
+                "question": "Agentforce est-il évolutif pour les entreprises en croissance ?",
+                "answer": "Oui. Agentforce est conçu pour gérer l'augmentation des charges de travail ERP et SCM sans nécessiter d'augmentation proportionnelle du personnel. Les agents IA gèrent dynamiquement des volumes de données plus importants, garantissant que le système grandisse avec l'entreprise."
+            },
+            {
+                "question": "Agentforce remplace-t-il la prise de décision humaine ?",
+                "answer": "Non. Agentforce est conçu pour compléter l'expertise humaine, et non pour la remplacer. En automatisant les tâches répétitives et en fournissant des informations fiables, il libère les personnes afin qu'elles se concentrent sur des décisions stratégiques complexes."
+            },
+            {
+                "question": "Quelle est la sécurité d'Agentforce lorsqu'il travaille avec des données ERP ?",
+                "answer": "Agentforce s'appuie sur les normes de sécurité, de conformité et de gouvernance de niveau entreprise de Salesforce. Les données sont traitées de manière sécurisée, garantissant que les organisations puissent adopter l'automatisation sans compromettre la confiance."
+            },
+            {
+                "question": "Comment mon entreprise peut-elle commencer à intégrer Agentforce avec ERP ?",
+                "answer": "Rialtes est spécialisé dans la personnalisation des agents Agentforce pour les systèmes ERP. Nous alignons les agents sur vos objectifs commerciaux, optimisons les flux de travail et assurons une automatisation fiable."
+            }
+        ],
+        "blogTopic": "Salesforce",
+        "blogTitle": "Comment Agentforce AI transforme les systèmes ERP : automatisation, analyses prédictives et scalabilité",
+        "blogMainData": "Les systèmes de planification des ressources d'entreprise (ERP) constituent la colonne vertébrale de nombreuses organisations, gérant des fonctions essentielles telles que la finance, les achats, la fabrication et les opérations de la chaîne d'approvisionnement. Cependant, ils fonctionnent souvent en silos, limitant leur potentiel à fournir des informations en temps réel et une collaboration fluide entre départements. Cela peut entraîner des inefficacités, des décisions retardées et des opportunités manquées. Agentforce, alimenté par les capacités avancées d'IA de Salesforce, est conçu pour relever ces défis de front. En s'intégrant aux systèmes ERP via Salesforce Data Cloud, Agentforce unifie les données provenant de sources internes et externes, y compris les systèmes ERP et SCM. Cette approche unifiée permet aux entreprises de prendre des décisions éclairées basées sur les données tout en favorisant l'agilité opérationnelle.",
+        "howDoesTitle": "Comment Agentforce fait-il cela ?",
+        "agentforceTitle": "Agentforce s'intègre aux systèmes ERP et SCM",
+        "howDoesDesc": "Il utilise des données intégrées pour améliorer les interactions clients et l'efficacité opérationnelle. Lorsqu'un agent IA a besoin d'informations sur une commande client, Salesforce, via MuleSoft, fournit un accès en temps réel aux données ERP, permettant des réponses rapides et précises. Le moteur de raisonnement Atlas analyse ces données de manière autonome pour des résultats fiables.",
+        "howDoesDesc2": "Un avantage clé est l'intégration d'Agentforce avec les systèmes ERP et SCM, qui élimine les tâches routinières et permet aux travailleurs humains de se concentrer sur des questions stratégiques complexes. Atteindre le bon équilibre entre automatisation et expertise humaine est essentiel pour améliorer la prise de décision sans la remplacer.",
+        "benefitsTitle": "Avantages de l'intégration d'Agentforce avec ERP",
+        "applicationTitle": "Quelles sont quelques applications des agents IA pour ERP ?",
+        "applicationDesc": "L'intégration des agents IA d'Agentforce avec les systèmes ERP transforme les opérations des entreprises en améliorant l'efficacité, la précision et la fonctionnalité. Ces agents automatisent les processus, fournissent des informations exploitables et facilitent des flux de travail fluides dans les modules clés d'ERP.",
+        "buildingTitle": "Construire un ERP intelligent et évolutif avec Agentforce",
+        "faqTitle": "FAQ : Questions fréquentes"
     }
 }

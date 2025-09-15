@@ -177,7 +177,7 @@
     ],
     "latestBlogs": [
       {
-        "id": 38,
+        "id": 39,
         "image": "/images/blog/sap-industry-mobile-banner.webp",
         "category": "SAP",
         "industry": "Genérico",
@@ -185,6 +185,16 @@
         "url": "/sap-build-for-manufacturing-4-0",
         "title": "Acelerando la Industria 4.0 con SAP Build: herramientas low-code para una fabricación más inteligente",
         "description": "La Industria 4.0 ha transformado las fábricas en ecosistemas conectados donde máquinas, personas y procesos trabajan en sincronía."
+      },
+      {
+        "id": 38,
+        "image": "/images/blog/agentforce-ai-erp-mobile.webp",
+        "category": "Agentforce",
+        "industry": "Genérico",
+        "date": "15 de septiembre de 2025",
+        "url": "/how-agentforce-ai-transforms-erp-systems",
+        "title": "Cómo la IA de Agentforce Transforma los Sistemas ERP: Automatización, Perspectivas Predictivas y Escalabilidad",
+        "description": "Los sistemas de Planificación de Recursos Empresariales (ERP) son la columna vertebral de muchas organizaciones, gestionando funciones críticas como finanzas, adquisiciones, manufactura y operaciones de la cadena de suministro."
       },
       {
         "id": 37,
