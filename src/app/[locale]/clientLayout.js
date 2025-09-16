@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Loader from "./Loader";
 
 export default function ClientLayout({ children }) {
-    const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(false);
 
     // Load GTM
     useEffect(() => {
