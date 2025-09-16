@@ -10,6 +10,7 @@ import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
+import { useActiveLocale } from "../../components/activeLanguages";
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -125,6 +126,9 @@ export default function page() {
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { keyIndustryChallenges, rialtesSolutions, predeliveredCardData, endtoendautomativesection, comprehensiveCustomerData, personalizedData,
         revolutionizingData, enablingDynamicData, dealerData, empoweringData, unlockingData, integratingAutomativeData, partenringPowerData, relatedSolutionsData } = content.automativeIndustry;
+
+    const { frActive, esActive } = useActiveLocale();
+
     const ThoughtLeadershipSection = () => {
         return (
             <section className="relative w-full xl:mt-[84px] mt-[64px]">
@@ -158,7 +162,7 @@ export default function page() {
                     </div>
                 </div>
                 {/* Desktop View */}
-                <div className="hidden md:block relative w-full h-[980px] lg:h-[1000px] xl:h-[1200px] md:h-[1050px] 2xl:h-[1450px] 3xl:h-[1300px]">
+                <div className={`hidden md:block relative w-full ${(frActive || esActive) ? "lg:h-[1100px] xl:h-[1300px] md:h-[1150px] 2xl:h-[1450px] 3xl:h-[1300px] 4xl:h-[1500px]" : "lg:h-[1000px] xl:h-[1200px] md:h-[1100px] 2xl:h-[1450px] 3xl:h-[1300px]"} `}>
                     <Image
                         src="/images/industry/auto-industry/thought-leadership-img.webp"
                         alt="thought-leadership-img"
@@ -203,43 +207,45 @@ export default function page() {
     }
     const PreDeliveredSection = () => {
         return (
-            <section className="relative mt-[60px] md:mt-0 mb-20">
-                <div className="absolute inset-0 xl:w-[94%] mx-auto
+            <section>
+                <div className="relative mt-[60px] md:mt-0 mb-20 max-[400px]:h-[1200px] h-[1000px] sm:h-[1000px] xl:h-[1000px] 2xl:h-[1200px] 3xl:h-[1100px]">
+                    <div className="absolute inset-0 xl:w-[94%] mx-auto
                             bg-[url('/images/industry/auto-industry/Mobile/predelivered-mob-img.webp')]
                             md:bg-[url('/images/industry/auto-industry/Mobile/predelivered-mob-img.webp')]
                             xl:bg-[url('/images/industry/auto-industry/predelivered-img.webp')]
                             bg-no-repeat bg-cover
                             z-0" style={{ backgroundSize: "100% 100%" }}></div>
-                <div className="relative z-10 pt-[64px] xl:pt-[82px] max-[350px]:h-[1100px] h-[1050px] sm:h-[760px] md:h-full  ">
-                    <div className="custom-container">
-                        <h2 className="text-white 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] leading-tight font-light lg:w-[58%] max-[380px]:text-[22px]">
-                            {t('preDeliverTitle')}
-                        </h2>
-                        <h3 className="text-white 4xl:text-[42px] 2xl:text-[38px] xl:text-[26px] lg:text-[30px] md:text-[22px] text-[22px] leading-[27px] xl:leading-[52px] font-semibold xl:mt-[49px] mt-[21px] max-[380px]:text-[20px]">
-                            {t('preDeliverSubTitle')}
-                        </h3>
-                        <p className="text-white 4xl:text-[22px] 2xl:text-[20px] xl:text-[16px] lg:text-[18px] md:text-[18px] text-[16px] leading-[19px] xl:leading-[30px] font-light xl:mt-[35px] mt-[21px] xl:w-[80%] w-[90%]">
-                            {t('preDeliverDesc')}
-                        </p>
+                    <div className="relative z-10 pt-[64px] xl:pt-[82px] max-[350px]:h-[1100px] h-[1050px] sm:h-[760px] md:h-full">
+                        <div className="custom-container">
+                            <h2 className="text-white 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] leading-tight font-light lg:w-[58%] max-[380px]:text-[22px]">
+                                {t('preDeliverTitle')}
+                            </h2>
+                            <h3 className="text-white 4xl:text-[42px] 2xl:text-[38px] xl:text-[26px] lg:text-[30px] md:text-[22px] text-[22px] leading-[27px] xl:leading-[52px] font-semibold xl:mt-[49px] mt-[21px] max-[380px]:text-[20px]">
+                                {t('preDeliverSubTitle')}
+                            </h3>
+                            <p className="text-white 4xl:text-[22px] 2xl:text-[20px] xl:text-[16px] lg:text-[18px] md:text-[18px] text-[16px] leading-[19px] xl:leading-[30px] font-light xl:mt-[35px] mt-[21px] xl:w-[80%] w-[90%]">
+                                {t('preDeliverDesc')}
+                            </p>
+                        </div>
                     </div>
-                    <div className="md:relative z-10 custom-container md:bottom-[-200px] absolute mt-[30px] lg:mt-[2px]">
-                        <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 lg:gap-12">
-                            {predeliveredCardData.map((card, index) => (
-                                <div
-                                    key={index}
-                                    className="bg-white border border-[#707070] pt-[33px] xl:pt-[65px] pb-[47px] xl:pb-[36px] xl:px-[50px] px-[33px]">
-                                    <h4 className="text-[#006FBE] 4xl:text-[30px] 2xl:text-[28px] xl:text-[22px] lg:text-[24px] md:text-[24px] text-[20px] font-semibold leading-[24px] xl:leading-[37px] w-[99%]">
-                                        {card.title}
-                                    </h4>
-                                    <p className="text-black 4xl:text-[24px] 2xl:text-[22px] xl:text-[18px] lg:text-[18px]  md:text-[18px] text-[16px] leading-[19px] xl:leading-[29px] font-normal mt-[21px] xl:mt-[20px]">
-                                        {card.desc}
-                                    </p>
-                                </div>
-                            ))}
-                        </div>
-                        <div className="mt-[36px] xl:mt-[37px]">
-                            <LearnMore />
-                        </div>
+                </div>
+                <div className="relative z-20 max-[400px]:mt-[-230%] mt-[-140%] sm:mt-[-100%] md:mt-[-62%] lg:mt-[-45%] xl:mt-[-30%] 2xl:mt-[-35%] 3xl:mt-[-25%] custom-container">
+                    <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 lg:gap-12">
+                        {predeliveredCardData.map((card, index) => (
+                            <div
+                                key={index}
+                                className="bg-white border border-[#707070] pt-[33px] xl:pt-[65px] pb-[47px] xl:pb-[36px] xl:px-[50px] px-[33px]">
+                                <h4 className="text-[#006FBE] 4xl:text-[30px] 2xl:text-[28px] xl:text-[22px] lg:text-[24px] md:text-[24px] text-[20px] font-semibold leading-tight w-[99%]">
+                                    {card.title}
+                                </h4>
+                                <p className="text-black 4xl:text-[24px] 2xl:text-[22px] xl:text-[18px] lg:text-[18px] md:text-[18px] text-[16px] leading-tight font-normal mt-[21px] xl:mt-[20px]">
+                                    {card.desc}
+                                </p>
+                            </div>
+                        ))}
+                    </div>
+                    <div className="mt-[36px] xl:mt-[37px]">
+                        <LearnMore btnName={t('learnMoreBtn')} />
                     </div>
                 </div>
             </section>
@@ -247,7 +253,7 @@ export default function page() {
     }
     const EndToEndAutomativeSection = () => {
         return (
-            <section className="lg:mt-[263px] md:mt-[282px] mt-[20rem] max-[430px]:mt-[245px]  max-[388px]:mt-[300px] max-[359px]:mt-[400px]  custom-container lg:pr-0 max-lg:!px-0 relative">
+            <section className="lg:mt-[80px] mt-[60px] custom-container lg:pr-0 max-lg:!px-0 relative">
                 <div className=" xl:pt-[67px] pt-[42px] xl:pb-[99px] pb-[89px] border border-[#707070] lg:pl-[40px] max-lg:px-[30px] ">
                     <h2 className="text-[#000000] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] leading-tight font-Light max-[380px]:text-[22px]">
                         {t('endToEndTitle')}
@@ -282,7 +288,7 @@ export default function page() {
                         ))}
                     </div>
                     <div className="absolute bottom-[-20px]">
-                        <LearnMore />
+                        <LearnMore btnName={t('learnMoreBtn')} />
                     </div>
                 </div>
             </section>
@@ -347,7 +353,7 @@ export default function page() {
                         ))}
                     </div>
                     <div className=" xl:mt-[66px] mt-[39px]">
-                        <LearnMore />
+                        <LearnMore btnName={t('learnMoreBtn')} />
                     </div>
                 </div>
             </section>
@@ -358,16 +364,16 @@ export default function page() {
             <section className="relative h-full xl:mt-[96px] mt-[91px] custom-container md:pr-0 max-md:px-0">
                 <div className="flex items-start justify-start xl:pt-[64px] pt-[38px] xl:pb-[104px] pb-[73px] bg-[url('/images/industry/auto-industry/Mobile/personalizing-mob-img.webp')]
                         md:bg-[url('/images/industry/auto-industry/personalizing-img.webp')] bg-no-repeat bg-cover">
-                    <div className="relative md:pl-[76px] 2xl:w-[61%] xl:w-[81%] lg:w-[60%] md:w-[70%] sm:w-[80%] max-md:pl-[36px]">
-                        <h2 className="text-[#FFFFFF] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] md:text-[29px] max-[400px]:text-[22px] leading-tight font-light  4xl:w-[732px] 2xl:w-[710px] xl:w-[500px] lg:w-[587px] md:w-[425px] w-[322px] max-[400px]:w-[260px]">
+                    <div className="md:pl-[76px] w-full 2xl:w-[61%] xl:w-[81%] lg:w-[60%] md:w-[70%] sm:w-[80%] max-md:pl-[36px]">
+                        <h2 className="text-[#FFFFFF] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] md:text-[29px] max-[400px]:text-[22px] leading-tight font-light 4xl:w-[732px] 2xl:w-[710px] xl:w-[500px] lg:w-[587px] md:w-[425px] w-full">
                             {t('personalizingTitle')}
                         </h2>
-                        <h3 className="text-[#FFFFFF] 4xl:text-[42px] 2xl:text-[38px] xl:text-[30px] lg:text-[30px] md:text-[23px] text-[22px] max-[400px]:text-[18px] leading-tight font-semibold xl:mt-[23px] mt-[20px] 4xl:w-[670px] 2xl:w-[650px] xl:w-[620px] lg:w-[600px] md:w-[483px] w-[400px] max-[400px]:w-[330px]">
+                        <h3 className="text-[#FFFFFF] 4xl:text-[42px] 2xl:text-[38px] xl:text-[30px] lg:text-[30px] md:text-[23px] text-[22px] max-[400px]:text-[18px] leading-tight font-semibold xl:mt-[23px] mt-[20px] 4xl:w-[670px] 2xl:w-[650px] xl:w-[620px] lg:w-[600px] md:w-[483px] w-full">
                             {t('personalizingSubTitle')}
                         </h3>
                         <UnorderedList arrName={personalizedData} ulClassName="list-disc pl-[22px] 4xl:w-[520px] 2xl:w-[519px] xl:w-[470px] lg:w-[420px] md:w-[380px] w-[340px] max-[400px]:w-[270px]" liClassName="text-[#FFFFFF] mt-[19px] xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] md:text-[18px] text-[16px] leading-tight" />
-                        <div className="absolute bottom-[-95px]">
-                            <LearnMore />
+                        <div className="absolute bottom-[-20px]">
+                            <LearnMore btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>
@@ -398,7 +404,7 @@ export default function page() {
                     />
                 </div>
                 <div className="custom-container">
-                    <div className="xl:pl-[72px] px-[31px] lg:mt-[-200px] mt-[-30px] xl:pt-[56px] pt-[32px] xl:pb-[0px] pb-[60px] bg-[#073259] relative">
+                    <div className="lg:pl-[72px] px-[31px] lg:mt-[-200px] mt-[-30px] lg:pt-[56px] pt-[32px] lg:pb-[0px] pb-[60px] bg-[#073259] relative">
                         <div className="grid grid-cols-1 lg:grid-cols-2 xl:gap-[71px] gap-[20px]">
                             <div>
                                 <h2 className="text-[#FFFFFF] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] text-[26px] md:text-[29px] max-[400px]:text-[22px] leading-tight 2xl:w-[99%] xl:w-[80%] lg:w-[60%] font-light ">
@@ -412,16 +418,16 @@ export default function page() {
                             <div className="flex flex-col">
                                 <UnorderedList arrName={revolutionizingData} ulClassName="list-disc pl-[22px] 4xl:w-[431px] 2xl:w-[426px] xl:w-[400px] lg:w-[350px] xl:mt-[20px]" liClassName="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] md:text-[18px] text-[16px] leading-tight" />
                                 {/* Button only visible on desktop inside the box */}
-                                <div className="hidden lg:block mt-[56px] xl:ml-1 ">
-                                    <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                                <div className="hidden lg:block mt-[56px] xl:ml-4">
+                                    <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 {/* Button outside grid for mobile */}
-                <div className="block lg:hidden custom-container xl:pl-[70px] ml-[35px] -mt-[26px] absolute z-10">
-                    <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                <div className="block lg:hidden custom-container xl:pl-[70px] ml-[36px] -mt-[50px] absolute z-10">
+                    <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" />
                 </div>
             </>
         );
@@ -455,7 +461,7 @@ export default function page() {
                             />
                         </div>
                     </div>
-                    <div className="md:ml-[-220px] xl:ml-[-200px] relative z-0 bg-[#A16B4D] flex flex-col md:pl-[240px] xl:pl-[260px] md:pr-[55px] 2xl:pr-[75px]  px-[40px] xl:pt-[94px] md:pt-[44px] pb-0 h-auto md:h-full md:min-h-full min-h-[810px] sm:min-h-[820px] max-[460px]:min-h-[800px]">
+                    <div className={`md:ml-[-220px] xl:ml-[-200px] relative z-0 bg-[#A16B4D] flex flex-col md:pl-[240px] xl:pl-[260px] md:pr-[55px] 2xl:pr-[75px] px-[40px] xl:pt-[94px] md:pt-[44px] pb-0 h-auto md:h-full md:min-h-full  ${(frActive || esActive) ? "min-h-[850px] sm:min-h-[850px]" : "min-h-[810px] sm:min-h-[820px] max-[460px]:min-h-[800px]"}`}>
                         <div className="max-md:absolute bottom-0">
                             <div className="max-md:pr-[36px]">
                                 <h2 className="text-white 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight  4xl:w-[689px]  2xl:w-[670px] xl:w-[500px] lg:w-[500px]   max-[380px]:w-[256px] font-light">
@@ -466,7 +472,7 @@ export default function page() {
                                 </h3>
                                 <UnorderedList arrName={enablingDynamicData} ulClassName="list-disc pl-[22px] xl:mt-[30px] mt-[23px] xl:mb-[74px] mb:[42px] 2xl:w-full xl:w-[95%] lg:w-[90%]" liClassName="text-white first:mt-0 mt-[19px] xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] text-[16px] leading-tight font-light" />
                                 <div className="mt-[20px] xl:mt-[4px] mb-0">
-                                    <LearnMore />
+                                    <LearnMore btnName={t('learnMoreBtn')} />
                                 </div>
                             </div>
                         </div>
@@ -501,17 +507,17 @@ export default function page() {
                             priority
                         />
                     </div>
-                    <div className="w-full relative md:-mr-[180px] z-0 bg-[#3B4E59] flex flex-col md:pl-[30px] lg:pl-[50px] md:pr-[194px] lg:pr-[204px] px-[35px] xl:pt-[104px] md:pt-[54px] pb-0h-auto md:h-full md:min-h-full min-h-[810px] sm:min-h-[820px] max-[460px]:min-h-[800px]">
+                    <div className={`w-full relative md:-mr-[180px] z-0 bg-[#3B4E59] flex flex-col md:pl-[30px] lg:pl-[50px] md:pr-[194px] lg:pr-[204px] px-[35px] xl:pt-[104px] md:pt-[54px] pb-0h-auto md:h-full md:min-h-full ${(frActive || esActive) ? "min-h-[840px] sm:min-h-[860px] max-[460px]:min-h-[820px]" : "min-h-[810px] sm:min-h-[820px] max-[460px]:min-h-[820px]"} `}>
                         <div className="max-md:absolute max-md:bottom-0 pr-[36px] ">
-                            <h2 className="text-[#FFFFFF] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight  4xl:w-[734px]  2xl:w-[670px] xl:w-[500px] lg:w-[500px]  max-[350px]:w-[265px] font-light">
+                            <h2 className="text-[#FFFFFF] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] max-[380px]:text-[22px] leading-tight 4xl:w-[734px] 2xl:w-[670px] xl:w-[500px] lg:w-[500px] max-[350px]:w-[265px] font-light">
                                 {t('dealerTitle')}
                             </h2>
-                            <h3 className="text-[#FFFFFF] font-semibold 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px]  text-[20px] max-[380px]:text-[18px]   leading-tight  2xl:w-[93%] xl:w-[88%] lg:w-[95%] mt-[19px] xl:mt-[28px]">
+                            <h3 className="text-[#FFFFFF] font-semibold 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px] text-[20px] max-[380px]:text-[18px] leading-tight 2xl:w-[93%] xl:w-[88%] lg:w-[95%] mt-[19px] xl:mt-[28px]">
                                 {t('dealerSubTitle')}
                             </h3>
                             <UnorderedList arrName={dealerData} ulClassName="list-disc pl-[22px] 2xl:w-[90%] xl:w-[90%] lg:w-[95%] xl:mt-[40px] mt-[28px]" liClassName="text-[#FFFFFF] mt-[19px] first:mt-0  xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] text-[16px] leading-tight xl:leading-[24px] font-light" />
                             <div className="mt-[20px] xl:mt-[48px] md:mb-[94px]">
-                                <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                                <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                     </div>
@@ -547,18 +553,18 @@ export default function page() {
                             />
                         </div>
                     </div>
-                    <div className="md:ml-[-220px] xl:ml-[-200px] relative z-0 bg-[#4087C7] flex flex-col md:pl-[240px] xl:pl-[260px] md:pr-[55px] 2xl:pr-[75px] px-[35px] xl:pt-[94px] md:pt-[44px] pb-0 h-auto md:h-full md:min-h-full min-h-[810px] sm:min-h-[820px] max-[460px]:min-h-[800px]">
+                    <div className={`md:ml-[-220px] xl:ml-[-200px] relative z-0 bg-[#4087C7] flex flex-col md:pl-[240px] xl:pl-[260px] md:pr-[55px] 2xl:pr-[75px] px-[35px] xl:pt-[94px] md:pt-[44px] pb-0 h-auto md:h-full md:min-h-full ${(frActive || esActive) ? "min-h-[870px] max-[400px]:min-h-[890px]" : "min-h-[810px] sm:min-h-[820px] max-[460px]:min-h-[800px]"}`}>
                         <div className="max-md:absolute bottom-0">
                             <div className="max-md:pr-[36px]">
-                                <h2 className="text-white  4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight  4xl:w-[670px]  2xl:w-[670px] xl:w-[500px] lg:w-[500px]  max-[350px]:w-[265px]  font-light">
+                                <h2 className="text-white 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] max-[380px]:text-[22px] leading-tight 4xl:w-[670px] 2xl:w-[670px] xl:w-[500px] lg:w-[500px] max-[350px]:w-[265px] font-light">
                                     {t('empoweringTitle')}
                                 </h2>
-                                <h3 className="text-white font-semibold 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px]  text-[20px] max-[400px]:text-[18px]  max-[350px]:w-[256px] leading-tight  2xl:w-[717px] xl:w-full lg:w-[95%]  mt-[18px] xl:mt-[39px] w-[80%] ">
+                                <h3 className="text-white font-semibold 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px] text-[20px] max-[400px]:text-[18px] max-[350px]:w-[256px] leading-tight 2xl:w-[717px] xl:w-full lg:w-[95%] mt-[18px] xl:mt-[39px] w-[80%]">
                                     {t('empoweringSubTitle')}
                                 </h3>
                                 <UnorderedList arrName={empoweringData} ulClassName="list-disc pl-[22px] 2xl:w-[90%] xl:w-[90%] lg:w-[95%] xl:mt-[40px] mt-[23px]" liClassName="text-white mt-[19px] first:mt-0 xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] text-[16px] leading-tight xl:leading-[24px] font-light" />
                                 <div className="mt-[20px] xl:mt-[60px] xl:mb-[70px] mb-0">
-                                    <LearnMore />
+                                    <LearnMore btnName={t('learnMoreBtn')} />
                                 </div>
                             </div>
                         </div>
@@ -593,17 +599,17 @@ export default function page() {
                             priority
                         />
                     </div>
-                    <div className="w-full relative md:-mr-[180px] z-0 bg-[#3B4E59] flex flex-col md:pl-[30px] lg:pl-[50px] md:pr-[194px] lg:pr-[204px] px-[35px] xl:pt-[104px] md:pt-[54px] pb-0h-auto md:h-full md:min-h-full min-h-[810px] sm:min-h-[820px] max-[460px]:min-h-[800px]">
+                    <div className={`w-full relative md:-mr-[180px] z-0 bg-[#3B4E59] flex flex-col md:pl-[30px] lg:pl-[50px] md:pr-[194px] lg:pr-[204px] px-[35px] xl:pt-[104px] md:pt-[54px] pb-0h-auto md:h-full md:min-h-full  ${(frActive || esActive) ? "min-h-[840px] sm:min-h-[860px] max-[460px]:min-h-[860px]" : "min-h-[810px] sm:min-h-[820px] max-[460px]:min-h-[800px]"}`}>
                         <div className="max-md:absolute max-md:bottom-0 pr-[36px]">
-                            <h2 className="text-white 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight  4xl:w-[689px]  2xl:w-[670px] xl:w-[500px] lg:w-[500px]   font-light ">
+                            <h2 className="text-white 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] max-[380px]:text-[22px] leading-tight  4xl:w-[689px]  2xl:w-[670px] xl:w-[500px] lg:w-[500px]   font-light ">
                                 {t('unlockingTitle')}
                             </h2>
-                            <h3 className="text-white font-semibold 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px]  text-[20px] max-[380px]:text-[18px]  max-[390px]:w-[256px] leading-tight  2xl:w-[689px] xl:w-full lg:w-[95%]   mt-[18px] xl:mt-[39px]">
+                            <h3 className="text-white font-semibold 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px] text-[20px] max-[380px]:text-[18px]  max-[390px]:w-[256px] leading-tight  2xl:w-[689px] xl:w-full lg:w-[95%]   mt-[18px] xl:mt-[39px]">
                                 {t('unlockingSubTitle')}
                             </h3>
                             <UnorderedList arrName={unlockingData} ulClassName="list-disc pl-[22px] 2xl:w-[90%] xl:w-[90%] lg:w-[95%] mt-[23px] xl:mt-[38px]" liClassName="text-white mt-[19px] first:mt-0 xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] text-[16px] xl:leading-[24px] leading-[19px] font-light" />
                             <div className="mt-[20px] xl:mt-[48px] xl:mb-[94px] mb-0">
-                                <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                                <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                     </div>
@@ -635,12 +641,12 @@ export default function page() {
                         </h3>
                         <UnorderedList arrName={integratingAutomativeData} ulClassName="list-disc pl-[22px] text-[#FFFFFF] mt-[16px]" liClassName="mt-[19px] first:mt-0 text-[16px] leading-[19px]" />
                         <div className="mt-[51px]">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>
                 {/* Desktop View */}
-                <div className="2xl:h-[900px] xl:h-[1000px] md:h-[700px]">
+                <div className={`${(frActive || esActive) ? "2xl:h-[990px]" : "2xl:h-[900px]"}  xl:h-[1000px] md:h-[700px]`}>
                     <Image
                         src="/images/industry/auto-industry/integrating-automative-img.webp"
                         alt="integrating-automative-img"
@@ -652,7 +658,7 @@ export default function page() {
                 </div>
                 <div className="hidden md:flex absolute inset-0 items-start justify-start">
                     <div className="custom-container">
-                        <div className="relative 2xl:w-[61%] w-[55%] xl:w-[56%] ">
+                        <div className={`relative ${(frActive || esActive) ? " 2xl:w-[66%]" : " 2xl:w-[61%]"} w-[55%] xl:w-[56%]`}>
                             <div
                                 className="absolute inset-0 z-0 pointer-events-none"
                                 style={{
@@ -669,7 +675,7 @@ export default function page() {
                                 </h3>
                                 <UnorderedList arrName={integratingAutomativeData} ulClassName="list-disc pl-[22px] text-[#FFFFFF] xl:mt-[40px] mt-[16px] 4xl:w-[85%] 2xl:w-[89%] xl:w-[90%] lg:w-[95%]" liClassName="mt-[19px] first:mt-0 2xl:text-[20px] xl:text-[16px] lg:text-[16px] text-[16px] leading-tight font-light" />
                                 <div className="xl:mt-[40px] mt-[41px]">
-                                    <LearnMore />
+                                    <LearnMore btnName={t('learnMoreBtn')} />
                                 </div>
                             </div>
                         </div>
@@ -682,7 +688,7 @@ export default function page() {
         return (
             <section className="relative w-full">
                 {/* Mobile View */}
-                <div className="2xl:h-[900px] xl:h-[1000px] md:h-[700px] block md:hidden">
+                <div className="md:h-[700px] block md:hidden">
                     <div className="sm:h-[1200px] h-full">
                         <Image
                             src="/images/industry/auto-industry/Mobile/partnering-power-mob-img.webp"
@@ -705,13 +711,13 @@ export default function page() {
                         </p>
                         <UnorderedList arrName={partenringPowerData} ulClassName="list-disc pl-[20px] text-[#000000] mt-[45px]" liClassName="mt-[19px] first:mt-0 text-[16px] leading-[19px]" />
                         <div className="mt-[33px]">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>
                 {/* Desktop View */}
-                <div className="hidden md:block relative w-full h-full">
-                    <div className="relative w-full md:h-[570px] lg:h-[500px] xl:h-[810px] 2xl:h-[794px] 3xl:h-[680px]">
+                <div className={`hidden md:block relative w-full h-full ${(frActive || esActive) ? "md:h-[530px] lg:h-[590px] xl:h-[650px] 2xl:h-[800px] 4xl:h-[780px]" : "md:h-[500px] lg:h-[550px] xl:h-[615px] 2xl:h-[740px] 4xl:h-[780px]"} `}>
+                    <div className="relative w-full h-full">
                         <Image
                             src="/images/industry/auto-industry/partnering-power-img.webp"
                             alt="partnering-power-img"
@@ -723,18 +729,18 @@ export default function page() {
                         <div className="absolute inset-0">
                             <div className="custom-container w-full h-full flex items-start justify-end">
                                 <div className="relative bg-white h-full xl:pt-[66px] pt-[32px] px-[26px] xl:px-[61px] md:w-[55%] w-full">
-                                    <h2 className="text-[#000000] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight  4xl:w-[624px]  2xl:w-[670px] xl:w-[400px] lg:w-[380px] md:w-[350px]   font-light  ">
+                                    <h2 className="text-[#000000] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] max-[380px]:text-[22px] leading-tight 4xl:w-[620px] xl:w-[500px] lg:w-[380px] md:w-[350px] font-light">
                                         {t('partneringTitle')}
                                     </h2>
-                                    <h3 className="text-[#0B0B0B] 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px]  text-[20px] max-[380px]:text-[18px]  max-[390px]:w-[256px] leading-tight  4xl:w-[614px] 2xl:w-[570px] xl:w-[405px] lg:w-[77%] font-semibold xl:mt-[18px] mt-[16px]  ">
+                                    <h3 className="text-[#0B0B0B] 4xl:text-[42px] 2xl:text-[38px] xl:text-[28px] lg:text-[28px] text-[20px] max-[380px]:text-[18px] max-[390px]:w-[256px] leading-tight 4xl:w-[614px] 2xl:w-[568px] xl:w-[405px] lg:w-[77%] font-semibold xl:mt-[18px] mt-[16px]  ">
                                         {t('partneringSubTitle')}
                                     </h3>
-                                    <p className="text-[#000000] 2xl:text-[20px] xl:text-[16px] lg:text-[16px]  text-[16px] leading-tight font-normal xl:mt-[11px] mt-[16px]  xl:leading-[24px]">
+                                    <p className="text-[#000000] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] text-[16px] leading-tight font-normal xl:mt-[11px] mt-[16px]  xl:leading-[24px]">
                                         {t('partneringDesc')}
                                     </p>
                                     <UnorderedList arrName={partenringPowerData} ulClassName="list-disc pl-[22px] text-[#000000] xl:mt-[26px] mt-[16px]" liClassName="mt-[19px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] text-[16px] xl:leading-[24px] leading-[19px]" />
-                                    <div className="xl:mt-[33px] mt-[41px]">
-                                        <LearnMore />
+                                    <div className="absolute bottom-0">
+                                        <LearnMore btnName={t("learnMoreBtn")} />
                                     </div>
                                 </div>
                             </div>
@@ -756,32 +762,47 @@ export default function page() {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:mt-[45px] mt-[33px] gap-[30px] lg:gap-0">
                         {relatedSolutionsData.map((item, index) => {
-                            // Border 
+
                             const borderRight = index < 2 ? 'xl:border-r-[2px] xl:border-[#FFFFFF]' : '';
-                            const borderBottom = 'border-b-[2px] border-[#FFFFFF] md:border-0 pb-[33px] last:border-b-0 last:pb-0';
-                            // Padding 
+                            const borderBottom = 'border-b-[2px] border-[#FFFFFF] lg:border-0 pb-[33px] last:border-b-0 last:pb-0';
+
                             let paddingClass = '';
                             if (index === 0) {
-                                paddingClass = 'xl:pr-0'; // 1st grid: only right padding
+                                paddingClass = 'xl:pr-4';
                             } else {
-                                paddingClass = 'xl:px-[30px]'; // Others: left + right
+                                paddingClass = 'xl:px-[30px]';
                             }
                             return (
                                 <div key={index} className={`flex xl:flex-col xl:justify-between md:w-[80%] xl:w-full ${borderRight} ${borderBottom} ${paddingClass} h-full`}>
                                     <div className="flex flex-col flex-1 xl:min-h-[300px]">
-                                        <h4 className="text-white 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px]  text-[18px] xl:font-semibold font-medium leading-tight">
+                                        <h4 className="text-white 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] text-[18px] xl:font-semibold font-medium leading-tight">
                                             {item.title}
                                         </h4>
-                                        <p className="text-white 2xl:text-[20px] xl:text-[16px] lg:text-[16px] font-light leading-[19px] xl:leading-[24px] xl:mt-[18px] mt-[18px] ">
+                                        <p className="text-white 4xl:text-[20px] xl:text-[18px] text-[16px] font-light leading-tight xl:mt-[18px] mt-[18px] ">
                                             {item.desc}
                                         </p>
-                                        <div className={`mt-auto pt-[20px] ${index === relatedSolutionsData.length - 1 ? 'xl:mt-[37px] 2xl:mt-[72px]' : ''}`}>
-                                            <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                                        <div className={`mt-auto pt-[20px] xl:hidden block`}>
+                                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" />
                                         </div>
                                     </div>
                                 </div>
                             );
                         })}
+                    </div>
+
+                    <div className="xl:block hidden">
+                        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[30px] lg:gap-0 mt-[-120px] 4xl:mt-[-90px]">
+                            {relatedSolutionsData.map((item, index) => (
+                                <div className={`w-fit ${index !== 0 ? "pl-[30px]" : ""}`}>
+                                    <LearnMore
+                                        key={index}
+                                        btnName={t('learnMoreBtn')}
+                                        bgcolor="#006FBE"
+                                        bordercolor="#006FBE"
+                                    />
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </section>
@@ -801,7 +822,7 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+            <section className="relative group overflow-hidden h-[400px] md:h-[500px] 4xl:h-[650px]">
                 <div className="hidden md:block">
                     <Image
                         src="/images/industry/auto-industry/auto-industry-banner.webp"
@@ -827,7 +848,7 @@ export default function page() {
                             <h3 className="text-[18px] 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[16px] md:text-[18px] font-bold pr-[60px]">
                                 {t('headerTitle')}
                             </h3>
-                            <h1 className="text-[24px] md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px] 4xl:text-[60px] leading-tight mt-[11.5px] md:mt-[28.5px] 4xl:w-[549px] 2xl:w-[520px] xl:w-[450px] lg:w-[430px] md:w-[334px] w-[198px] "  >
+                            <h1 className={`text-[24px] md:text-[36px] xl:text-[50px] 4xl:text-[60px] leading-tight mt-[11.5px] md:mt-[28.5px] ${(frActive || esActive) ? "sm:w-[70%] xl:w-[95%] 4xl:w-[90%]" : "sm:w-[70%] xl:w-[90%] 4xl:w-[70%]"}`}>
                                 {t('headerSubTitle')}
                             </h1>
                         </div>
