@@ -1483,7 +1483,7 @@
         "educationDesc": "L'éducation évolue aujourd'hui à un rythme rapide. Les institutions doivent engager des étudiants natifs du numérique, rationaliser les processus d'inscription et académiques, et favoriser des relations durables avec les apprenants. Du K-12 à l'enseignement supérieur, les organisations font face à des défis dans la gestion de parcours étudiants fragmentés, d'opérations académiques cloisonnées et d'attentes changeantes des parties prenantes.",
         "educationDescOne": "Rialtes fournit des solutions éducatives holistiques — couvrant le conseil stratégique, les mises en œuvre transparentes, l'optimisation des processus et le support à long terme.",
         "thoughtTitle": "Leadership d'opinion :",
-         "learnMoreBtn": "En savoir plus",
+        "learnMoreBtn": "En savoir plus",
         "thoughtSubTitle": "Résoudre les défis les plus pressants de l'éducation",
         "industryTitle": "Principaux défis du secteur que nous adressons :",
         "approachTitle": "Approche de Rialtes :",
@@ -1654,7 +1654,7 @@
         "futureDesc": "L'IA transforme chaque couche des services financiers — du service client à la décision de crédit. Rialtes exploite Salesforce AI (Einstein, Agentforce) et les outils IA SAP pour fournir :",
         "futureDescOne": "Rialtes rend l'IA actionnable — pas seulement une vision.",
         "exelonaTitle": "Exelona",
-         "learnMoreBtn": "En savoir plus",
+        "learnMoreBtn": "En savoir plus",
         "exelonaSubtitle": "Révolutionner la finance immobilière avec Salesforce FSC",
         "exelonaDesc": "Exelona, notre solution propriétaire Real Estate Cloud intégrée à Salesforce FSC, transforme la manière dont les sociétés immobilières gèrent les actifs et opérations financières :",
         "exelonaDescOne": "Exelona + FSC : Une combinaison révolutionnaire pour la finance et les opérations immobilières",
@@ -1932,7 +1932,8 @@
         "partneringSubTitle": "Expertise SAP et Salesforce réunie",
         "partneringDesc": "Grâce à des alliances solides avec SAP et Salesforce, Rialtes offre les solutions automobiles les plus complètes, agiles et prêtes pour l’avenir sur le marché. Nos experts sont certifiés dans :",
         "relatedTitle": "Solutions associées",
-        "contactTitle": "Prêt à transformer l’expérience client automobile ?"
+        "contactTitle": "Prêt à transformer l’expérience client automobile ?",
+        "learnMoreBtn": "En savoir plus"
     },
     "travelIndustry": {
         "endToEndData": [
