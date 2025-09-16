@@ -324,7 +324,7 @@ export default function Page() {
                             {
                                 whySapData.map((data, ind) => {
                                     return (
-                                        <div className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px]" key={ind}><h4 className="inline font-bold">{data.title} - </h4><span className="font-medium">{data.desc}</span></div>
+                                        <div className="mt-5" key={ind}><h3 className="inline font-bold 4xl:text-[20px] xl:text-[18px] text-[17px]">{data.title} - </h3><span className="font-medium text-[16px] xl:text-[17px] 4xl:text-[20px]">{data.desc}</span></div>
                                     )
                                 })
                             }
@@ -338,8 +338,8 @@ export default function Page() {
                                     howSapData.map((data, ind) => {
                                         return (
                                             <div key={ind} className="border border-[#707070] p-[26px] relative md:px-10 lg:px-[26px] pb-[62px]">
-                                                <p className="absolute top-[-24px] md:top-[-40px] 4xl:text-[20px] xl:text-[17px] text-[16px] text-[#0092E0] font-bold w-[80%] sm:w-[70%] lg:w-[80%] xl:w-[70%] 4xl:w-[80%] pb-4 px-3 bg-white border-b border-[#0092E0]">{data.title}</p>
-                                                <p className="4xl:mt-20 lg:mt-16 md:mt-16 sm:mt-12 mt-14 max-[352px]:mt-20 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
+                                                <h3 className="absolute top-[-24px] md:top-[-40px] 4xl:text-[24px] xl:text-[20px] text-[17px] text-[#0092E0] font-bold w-[80%] sm:w-[70%] lg:w-[80%] xl:w-[80%] 4xl:w-[90%] pb-4 px-3 bg-white border-b border-[#0092E0]">{data.title}</h3>
+                                                <p className="4xl:mt-24 lg:mt-20 md:mt-16 sm:mt-12 mt-14 max-[352px]:mt-20 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
                                                 <ul className="mt-[32px]">
                                                     {
                                                         data.list.map((elem, id) => {
@@ -377,7 +377,7 @@ export default function Page() {
                                     )
                                 })
                             }
-                            <h2 className="font-semibold mt-20 4xl:text-[24px] xl:text-[22px] text-[20px] pr-10 xl:pr-0">The Business Impact</h2>
+                            <h2 className="font-semibold mt-20 4xl:text-[30px] xl:text-[26px] text-[22px] pr-10 xl:pr-0">The Business Impact</h2>
                             <p className="mt-5 4xl:pr-20 4xl:text-[20px] xl:text-[17px] text-[16px]">By embedding SAP Build into manufacturing operations, companies report:</p>
 
                             <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[26px] mt-[47px] sm:w-[70%] md:w-[90%] lg:w-[900px] xl:w-[1090px] 3xl:w-[1140px]">
@@ -385,8 +385,8 @@ export default function Page() {
                                     businessImpactData.map((data, ind) => {
                                         return (
                                             <div key={ind} className="border border-[#707070] p-[28px] md:px-[34px] md:pt-[26px] md:pb-[40px]">
-                                                <h3 className="mt-2 2xl:text-[22px] 4xl:text-[24px] xl:text-[20px] text-[18px] text-[#0092E0] font-bold pb-4 border-b border-[#707070]">{data.title}</h3>
-                                                <p className="mt-5 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
+                                                <h3 className="mt-2  4xl:text-[24px] xl:text-[20px] text-[18px] text-[#0092E0] font-bold pb-4 border-b border-[#707070]">{data.title}</h3>
+                                                <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
                                             </div>
                                         )
                                     })

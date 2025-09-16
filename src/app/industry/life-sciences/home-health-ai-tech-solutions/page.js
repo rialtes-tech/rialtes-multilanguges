@@ -270,7 +270,7 @@ export default function Page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/home-health/mobile/hero-banner-Mob.webp"
+                        src="/images/home-health/Mobile/hero-banner-Mob.webp"
                         alt="mobile banner"
                         fill
                         style={{ objectFit: "cover", objectPosition: "5% 20%" }}
@@ -278,7 +278,7 @@ export default function Page() {
                     />
                 </div>
                 <div className="relative h-full custom-container flex items-center">
-                    <div className="grid grid-cols-1 lg:grid-cols-12 w-full pt-[120px] md:pt-0">
+                    <div className="grid grid-cols-1 lg:grid-cols-12 w-full pt-[80px] md:pt-0">
                         <div className="col-span-12">
                             <h1 className="text-[#FFFFFF] text-[18px] md:text-[24px] font-bold lg:w-full">
                                 Home Health {" "}
