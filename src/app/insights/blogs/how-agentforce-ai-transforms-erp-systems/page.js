@@ -259,7 +259,7 @@ export default function Page() {
                         <div className="flex flex-col md:flex-row justify-between text-black items-center xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">Salesforce</span>{" "}
-                                <span className="text-[#ACACAC]"> | </span>12 September 2025
+                                <span className="text-[#ACACAC]"> | </span>15 September 2025
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
