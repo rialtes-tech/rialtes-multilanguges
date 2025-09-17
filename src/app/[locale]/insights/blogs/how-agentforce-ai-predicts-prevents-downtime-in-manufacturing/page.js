@@ -114,7 +114,7 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
 
-            <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] overflow-hidden">
+            <section className="relative   4xl:h-[650px] 2xl:h-[500px]  xl:h-[450px] lg:h-[650px] md:h-[400px]  sm:h-[500px] h-[350px]  overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/industry4-desktop-banner.webp"
@@ -142,7 +142,7 @@ export default function Page() {
                         <div className="flex flex-col md:flex-row justify-between text-black items-center xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">{t('bloTopic')}</span>{" "}
-                                <span className="text-[#ACACAC]"> | </span>08 September 2025
+                                <span className="text-[#ACACAC]"> | </span>{t('date')}
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
@@ -205,7 +205,7 @@ export default function Page() {
                             <p className="mt-5 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">{t('blogMainData3')}</p>
 
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('agentforceTitle')}</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('agentforceTitle')}</h2>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('agentforceDesc')}</p>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('agentforceDesc2')}</p>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('agentforceDesc3')}</p>
@@ -224,7 +224,7 @@ export default function Page() {
                                 }
                             </div>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('agentforceEnablesTitle')}</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('agentforceEnablesTitle')}</h2>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('agentforceEnablesDesc')}</p>
                             {
                                 agentforceEnablingData.map((data, ind) => {
@@ -236,14 +236,14 @@ export default function Page() {
                                     )
                                 })
                             }
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('impactTitle')}</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('impactTitle')}</h2>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('impactDesc')}</p>
 
                             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-y-8 md:gap-x-6 lg:gap-0 sm:w-[50%] md:w-[80%] lg:mt-[50px] mt-[40px] lg:w-[980px] xl:w-[1090px] 3xl:w-[1150px]">
                                 {
                                     impactData.map((data, ind) => {
                                         return (
-                                            <div key={ind} className={` ${ind == 0 && "lg:border-r max-md:border-b max-md:pb-4 lg:pr-0 border-[#707070]"} ${ind == 3 && "md:pl-10 md:border-l max-sm:pt-6 border-[#707070]"} ${(ind == 2 || ind == 1) && "lg:px-[39px] max-md:py-6 max-md:border-b border-[#707070]"} ${ind == 1 && "lg:border-r md:border-l md:pl-10  border-[#707070]"}`}>
+                                            <div key={ind} className={` ${ind == 0 && "lg:border-r max-md:border-b max-md:pb-4 lg:pr-0 xl:pr-[39px] border-[#707070]"} ${ind == 3 && "md:pl-10 md:border-l md:pr-2 max-sm:pt-6 border-[#707070]"} ${(ind == 2 || ind == 1) && "lg:px-[39px] max-md:py-6 max-md:border-b border-[#707070]"} ${ind == 1 && "lg:border-r md:border-l md:pl-10  border-[#707070]"}`}>
                                                 <span className="mt-5 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">{data.title} {" "}</span>
                                                 <span className="mt-5 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</span>
                                             </div>
@@ -258,8 +258,8 @@ export default function Page() {
                                     impactData2.map((data, ind) => {
                                         return (
                                             <div key={ind} className="border border-[#707070] p-[24px] md:p-[34px]">
-                                                <p className="mt-5 2xl:text-[22px] 4xl:text-[24px] xl:text-[20px] text-[18px] text-[#0092E0] font-bold pb-4 border-b border-[#707070]">{data.title}</p>
-                                                <p className="mt-5 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
+                                                <p className="mt-5  2xl:text-[22px] 4xl:text-[24px] xl:text-[20px] text-[18px] text-[#0092E0] font-bold pb-4 border-b border-[#707070]">{data.title}</p>
+                                                <p className="mt-5   2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
                                             </div>
                                         )
                                     })
@@ -267,7 +267,7 @@ export default function Page() {
                             </div>
                             <p className="mt-10 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('impactDesc3')}</p>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('readyTitle')}</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('readyTitle')}</h2>
                             {readyData.map((data, ind) => (
                                 <p
                                     key={ind}
@@ -282,7 +282,7 @@ export default function Page() {
             </section>
 
             <section className="custom-container max-md:px-0 pb-10">
-                <h2 className="font-semibold mt-5 mb-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('faqTitle')}</h2>
+                <h2 className="font-semibold max-sm:px-[37px] mt-5 mb-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('faqTitle')}</h2>
                 <FAQAccordion faqData={faqs} />
             </section>
             {/* Latest Blogs */}

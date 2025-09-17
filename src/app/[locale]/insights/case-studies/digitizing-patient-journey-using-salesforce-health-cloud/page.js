@@ -66,42 +66,47 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
+         <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+       <div className="hidden lg:block"> 
+         <Image
           src="/images/case-studies/case-study-7.webp"
           alt="Digitizing patient journey using Salesforce health cloud"
           fill
           style={{ objectFit: "cover", objectPosition: "40% 20%" }}
           priority
         />
+       </div>
+        <div className="block lg:hidden">
+         <Image
+          src="/images/case-studies/case-study-7_thumb.webp"
+          alt="Digitizing patient journey using Salesforce health cloud"
+          fill
+          style={{ objectFit: "cover", objectPosition: "40% 20%" }}
+          priority
+        />
+       </div>
       </section>
       <section className="custom-container">
-        <div className="py-10 bg-white 4xl:max-w-[1084px] 4xl:w-[1084px] xl:w-[950px]">
+        <div className="py-10 bg-white  xl:max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[800px]">
           <div className="">
-            <h1 className="text-[#000000] py-6  leading-tight text-[26px]  4xl:text-[60px] xl:text-[45px]">
+            <h1 className="text-[#000000] py-6  leading-tight text-[26px] 4xl:text-[60px]  2xl:text-[48px] xl:text-[42px] md:text-[28px]">
               {t("digitizingTitle")}
             </h1>
           </div>
           <div className="py-4"></div>
           <div className="">
-            <div className="flex flex-col md:flex-row justify-between text-black">
-              <div className="pb-6">
+            <div className="flex flex-col md:flex-row gap-4 items-center justify-between text-black">
+              <div className="">
                 <span className="text-[#0092E0]">{t("healthcare")} </span>
                 <span className="text-[#ACACAC]"> | </span>
                 {t("date")}
               </div>
-              <div className="flex flex-col">
-                <span>{t("read")}</span>
-              </div>
-            </div>
-            <div className="pt-4"></div>
-            <div className="flex flex-col ml-[-8px]">
+             
+                   <div className="flex flex-col ml-[-8px]">
               <div className="flex flex-row gap-6">
                 <div className="max-w-[40px]">
                   <a
-                    href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                      fullUrl
-                    )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                    href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -111,11 +116,7 @@ export default function Page() {
                       width={0}
                       height={0}
                       sizes="100vw"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
+                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                       priority
                     />
                   </a>
@@ -123,53 +124,49 @@ export default function Page() {
 
                 <div className="max-w-[40px]">
                   <a
-                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                      fullUrl
-                    )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
                     target="_blank"
                     rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <Image
+                  >                      <Image
                       src="/images/case-studies/twitter.svg"
                       alt="Twitter"
                       width={0}
                       height={0}
                       sizes="100vw"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
+                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                       priority
                     />
                   </a>
                 </div>
               </div>
             </div>
+            </div>
+            <div className="pt-4"></div>
+          
           </div>
+
 
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
                 {t("clientTitle")}
               </h2>
-              <p className="text-black">{t("clientDesc")} </p>
+              <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">{t("clientDesc")} </p>
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
                 {t("peoblemTitle")}
               </h2>
-              <p className="text-black pb-6">{t("peoblemDesc")}</p>
+              <p className="text-black pb-6 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">{t("peoblemDesc")}</p>
 
               {challengesList.map((item, index) => (
                 <div
                   key={index}
-                  className="pb-4 last:pb-0 text-black font-medium xl:text-[20px] text-[16px] md:text-[19px]"
+                  className="pb-4 text-black font-medium  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] "
                 >
-                  <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">
+                  <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                     {item.title}
                   </h3>
                   <span> : {item.description}</span>
@@ -178,16 +175,16 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
                 {t("solutionsTitle")}
               </h2>
 
-              <p className="text-black pb-6">{t("solutionsDesc")}</p>
+              <p className="text-black pb-6 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">{t("solutionsDesc")}</p>
               <div className="pl-2">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium pl-[25px] lg:pl-[32px]">
                   {solutionsList.map((item, idx) => (
                     <li className="pb-4 last:pb-0" key={idx}>
-                      <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
+                      <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                         {item.title}
                       </h3> : {item.description}
                     </li>
@@ -199,13 +196,13 @@ export default function Page() {
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
                 {t('benefitsTitle')}
               </h2>
 
               <div className="pl-2">
                 <UnorderedList
-                  ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium"
+                  ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black   4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium pl-[25px] lg:pl-[32px]"
                   liClassName="text-black pb-4"
                   arrName={benefitsList}
                 />
