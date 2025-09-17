@@ -1,5 +1,4 @@
 "use client";
-// pages/blog.js
 import Image from "next/image";
 import { useState } from 'react';
 import 'react-multi-carousel/lib/styles.css';

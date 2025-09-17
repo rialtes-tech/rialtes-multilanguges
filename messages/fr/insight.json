@@ -177,6 +177,46 @@
     ],
     "latestBlogs": [
       {
+        "id": 39,
+        "image": "/images/blog/sap-industry-mobile-banner.webp",
+        "category": "SAP",
+        "industry": "Générique",
+        "date": "16 sept. 2025",
+        "url": "/sap-build-for-manufacturing-4-0",
+        "title": "Accélérer l’Industrie 4.0 avec SAP Build : des outils low-code pour une fabrication plus intelligente",
+        "description": "L’Industrie 4.0 a transformé les usines en écosystèmes connectés où machines, personnes et processus travaillent en synergie."
+      },
+      {
+        "id": 38,
+        "image": "/images/blog/agentforce-ai-erp-mobile.webp",
+        "category": "Agentforce",
+        "industry": "Générique",
+        "date": "15 septembre 2025",
+        "url": "/how-agentforce-ai-transforms-erp-systems",
+        "title": "Comment l’IA d’Agentforce Transforme les Systèmes ERP : Automatisation, Analyses Prédictives et Scalabilité",
+        "description": "Les systèmes de Planification des Ressources de l’Entreprise (ERP) sont l’épine dorsale de nombreuses organisations, gérant des fonctions critiques telles que la finance, les achats, la fabrication et les opérations de la chaîne d’approvisionnement."
+      },
+      {
+        "id": 37,
+        "image": "/images/blog/data-cloud-ecom-mobile-banner.webp",
+        "category": "Intelligence Artificielle",
+        "industry": "Générique",
+        "date": "12 sept. 2025",
+        "url": "/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty",
+        "title": "E-commerce prédictif dans Salesforce : comment Data Cloud façonne des expériences clients plus intelligentes",
+        "description": "L’analytique prédictive a toujours été essentielle pour aider les entreprises à offrir des expériences personnalisées. Salesforce Data Cloud permet aux entreprises d’exploiter l’analytique prédictive et les insights basés sur les données pour concevoir des stratégies de commerce électronique transformatrices."
+      },
+      {
+        "id": 36,
+        "image": "/images/blog/ai-that-listens-mob-banner.webp",
+        "category": "Intelligence Artificielle",
+        "industry": "Générique",
+        "date": "11 sept. 2025",
+        "url": "/how-large-language-models-improve-customer-experience",
+        "title": "Une IA qui écoute, apprend et délivre : comment les grands modèles de langage transforment l’expérience client",
+        "description": "Une excellente expérience client commence par une écoute de qualité. Mais il ne s’agit pas seulement d’entendre les mots ; il s’agit de comprendre l’intention, l’émotion, le contexte et l’historique."
+      },
+      {
         "id": 35,
         "image": "/images/blog/ai-in-patient-mobile-banner.webp",
         "category": "Intelligence Artificielle",

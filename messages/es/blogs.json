@@ -3770,6 +3770,8 @@
         "faqTitle": "Preguntas frecuentes (FAQs)"
     },
     "firstAiAgent": {
+                "date":"02 septiembre  2025",
+
         "blogs": [
             {
                 "id": 1,
@@ -4597,11 +4599,17 @@
             "Los LLM convierten puntos de contacto fragmentados con clientes en conversaciones fluidas y humanas. Captan el tono, recuerdan el historial y ajustan los mensajes en tiempo real. Por eso más líderes de CX están dejando atrás la automatización rígida en favor de IA conversacional, basada en datos y emocionalmente inteligente.",
             "Si te preguntas:"
         ],
+        "readyData": [
+            "En Rialtes, trabajamos con empresas para integrar los LLMs directamente en su plataforma de atención al cliente, ofreciendo conversaciones más inteligentes, una resolución más rápida y experiencias más humanas en todos los canales.",
+            "Con nuestra <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>experiencia en consultoría de Agentforce </span> </a>, le ayudaremos a construir una estrategia escalable, segura y alineada con sus objetivos, ya sea reducir la carga de soporte, aumentar el NPS o brindar asistencia multilingüe 24/7. Hagamos que su <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> experiencia del cliente sea tan inteligente como sus clientes </span> </a> esperan que sea. Contáctenos en <a href='https://www.rialtes.com/contact-us'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com </span> </a> para iniciar la conversación."
+        ],
         "blogTopic": "Inteligencia Artificial",
         "blogTitle": "IA que escucha, aprende y ofrece: cómo los modelos de lenguaje grande están transformando la experiencia del cliente",
-        "mainData": "Una gran experiencia del cliente comienza con una gran escucha. Pero no solo hablamos de oír las palabras; se trata de entender la intención, la emoción, el contexto y el historial. Ahí es donde fallan los modelos tradicionales, y donde entran en juego los Modelos de Lenguaje Grande (LLMs).",
-        "mainData2": "Los LLM, impulsados por la IA generativa, están redefiniendo cómo las empresas escuchan y responden. Van más allá de la automatización. Hacen posible una conversación real.",
-        "mainData3": "En esta guía, explicaremos qué son los LLM, cómo funcionan y qué los hace tan efectivos para transformar la experiencia del cliente (CX). También verás por qué se están volviendo esenciales para las empresas que quieren mantenerse competitivas, receptivas y humanas, incluso a medida que escalan.",
+        "blogMainData": [
+            "Una gran experiencia del cliente comienza con una gran escucha. Pero no se trata solo de oír las palabras; se trata de comprender la intención, la emoción, el contexto y la historia. Ahí es donde los modelos tradicionales se quedan cortos y donde entran en juego los Modelos de Lenguaje Extensos (LLMs).",
+            "Los LLMs, impulsados por la inteligencia artificial generativa, están redefiniendo la forma en que las empresas escuchan y responden. Van más allá de la automatización. Permiten una conversación real para impulsar el <a href='https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> futuro sostenible de nuestro planeta. </span></a>",
+            "En esta guía, explicaremos qué son los LLMs, cómo funcionan y qué los hace tan efectivos en la transformación de la experiencia del cliente (CX). También verás por qué se están volviendo fundamentales para las empresas que quieren mantenerse competitivas, receptivas y humanas, incluso a medida que escalan."
+        ],
         "llmTitle": "¿Qué es un modelo de lenguaje grande (LLM) y cómo funciona?",
         "llmDesc": "Los Modelos de Lenguaje Grande (LLM) son avanzados",
         "llmStrongDesc": "sistemas de IA agéntica",
@@ -5575,6 +5583,8 @@
         "faqTitle": "Preguntas Frecuentes: SAP Signavio + SAP Cloud ALM en Transformaciones S/4HANA"
     },
     "aiPatient": {
+                "date":"09 septiembre 2025",
+
         "rolesData": [
             {
                 "title": "Monitoreo continuo con contexto",
@@ -5655,34 +5665,34 @@
         ],
         "faqs": [
             {
-                "question": "¿En qué se diferencian los agentes de IA de la automatización tradicional en MedTech?",
+                "question": "1. ¿En qué se diferencian los agentes de IA de la automatización tradicional en MedTech?",
                 "answer": [
                     "Los agentes de IA no solo siguen reglas; interpretan el contexto.",
                     "A diferencia de la automatización simple, los agentes pueden detectar patrones en los datos de salud, decidir cuándo es necesaria una acción y comunicarse proactivamente con pacientes y proveedores."
                 ]
             },
             {
-                "question": "¿Pueden integrarse los agentes de IA con las plataformas y dispositivos de MedTech existentes?",
+                "question": "2. ¿Pueden integrarse los agentes de IA con las plataformas y dispositivos de MedTech existentes?",
                 "answer": [
                     "Sí. Plataformas como Salesforce Agentforce están diseñadas para integrarse con CRMs, EHRs, dispositivos médicos IoT y aplicaciones de participación del paciente con IA, creando un ecosistema unificado para la monitorización en tiempo real."
                 ]
             },
             {
-                "question": "¿Qué beneficios obtienen los pacientes del monitoreo remoto impulsado por IA?",
+                "question": "3. ¿Qué beneficios obtienen los pacientes del monitoreo remoto impulsado por IA?",
                 "answer": [
                     "Los pacientes se benefician de alertas oportunas, comunicación personalizada, menos visitas hospitalarias y una mayor sensación de apoyo.",
                     "Se sienten comprometidos y cuidados sin necesidad de chequeos presenciales constantes."
                 ]
             },
             {
-                "question": "¿Cómo mejoran los agentes de IA el cumplimiento y la seguridad de los datos en MedTech?",
+                "question": "4. ¿Cómo mejoran los agentes de IA el cumplimiento y la seguridad de los datos en MedTech?",
                 "answer": [
                     "Los agentes pueden hacer cumplir protocolos de cumplimiento registrando intervenciones, anonimizar datos sensibles y garantizar comunicaciones seguras con los pacientes.",
                     "También ayudan a los proveedores a cumplir con normas regulatorias como HIPAA."
                 ]
             },
             {
-                "question": "¿Es esta tecnología escalable para grandes sistemas de salud y proveedores de MedTech?",
+                "question": "5. ¿Es esta tecnología escalable para grandes sistemas de salud y proveedores de MedTech?",
                 "answer": [
                     "Absolutamente. Los agentes de IA están diseñados para manejar grandes volúmenes de pacientes, coordinar múltiples equipos de atención y generar análisis predictivos, permitiendo a las organizaciones escalar sin sobrecargar al personal."
                 ]
@@ -5713,6 +5723,8 @@
         "faqTitle": "Preguntas y respuestas: Compromiso del paciente con IA en la monitorización remota con agentes de IA"
     },
     "agentforceIndustry4": {
+                "date":"08 septiembre 2025",
+
         "reactiveData": [
             {
                 "image": "/images/blog/industr4Svg (1).svg",
@@ -5811,7 +5823,7 @@
         ],
         "faqs": [
             {
-                "question": "¿Qué hace que Agentforce sea diferente de las soluciones tradicionales de mantenimiento predictivo?",
+                "question": "1. ¿Qué hace que Agentforce sea diferente de las soluciones tradicionales de mantenimiento predictivo?",
                 "answer": [
                     "La mayoría de las herramientas de mantenimiento predictivo se enfocan solo en datos a nivel de máquina.",
                     "Agentforce va más allá al combinar conocimientos de IoT con historiales de servicio, reclamos de garantía y flujos de trabajo de Salesforce Field Service.",
@@ -5819,21 +5831,21 @@
                 ]
             },
             {
-                "question": "¿Puede Agentforce trabajar con nuestros sistemas IoT y ERP existentes?",
+                "question": "2. ¿Puede Agentforce trabajar con nuestros sistemas IoT y ERP existentes?",
                 "answer": [
                     "Sí. Agentforce está diseñado para integrarse con plataformas IoT, MES y sistemas ERP existentes.",
                     "Al incorporar datos de máquinas y flujos de trabajo operativos, crea una vista conectada de su fábrica y cadena de suministro sin necesidad de un reemplazo completo."
                 ]
             },
             {
-                "question": "¿Cómo reduce Agentforce el tiempo de inactividad no planificado en la práctica?",
+                "question": "3. ¿Cómo reduce Agentforce el tiempo de inactividad no planificado en la práctica?",
                 "answer": [
                     "Agentforce detecta señales tempranas de falla, pronostica la demanda de repuestos y despacha al técnico adecuado antes de que los problemas escalen.",
                     "Al pasar de un mantenimiento reactivo a uno predictivo, los fabricantes pueden reducir el tiempo de inactividad no planificado hasta en un 30–40% mientras reducen los costos de servicio."
                 ]
             },
             {
-                "question": "¿Agentforce solo ayuda a grandes empresas o es escalable para fabricantes medianos?",
+                "question": "4. ¿Agentforce solo ayuda a grandes empresas o es escalable para fabricantes medianos?",
                 "answer": [
                     "Es escalable por diseño.",
                     "Los fabricantes medianos pueden comenzar con poco—automatizando la programación de mantenimiento o alertas predictivas para una sola planta—y expandirse a inteligencia predictiva multi-sitio a medida que crecen.",
@@ -5841,7 +5853,7 @@
                 ]
             },
             {
-                "question": "¿Cómo mejora Agentforce la experiencia del cliente en la manufactura predictiva?",
+                "question": "5. ¿Cómo mejora Agentforce la experiencia del cliente en la manufactura predictiva?",
                 "answer": [
                     "Los clientes ya no enfrentan retrasos o tiempos de inactividad inesperados.",
                     "Agentforce los mantiene informados con actualizaciones proactivas, asegura que las piezas y técnicos estén listos con anticipación y minimiza las interrupciones de servicio.",
@@ -5849,7 +5861,7 @@
                 ]
             },
             {
-                "question": "¿Puede Agentforce apoyar nuevos modelos de negocio como 'Equipo como Servicio'?",
+                "question": "6. ¿Puede Agentforce apoyar nuevos modelos de negocio como 'Equipo como Servicio'?",
                 "answer": [
                     "Absolutamente.",
                     "Las capacidades predictivas hacen posible que los fabricantes ofrezcan garantías de tiempo de actividad, mantenimiento basado en suscripción o contratos de servicio orientados a resultados.",
@@ -5874,5 +5886,389 @@
         "impactDesc3": "Y aquí está la visión más amplia: las operaciones predictivas no solo protegen los ingresos. Abren la puerta a nuevos modelos de negocio, como equipo-como-servicio o contratos de mantenimiento predictivo que convierten el servicio en una fuente de ingresos.",
         "readyTitle": "¿Listo para predecir, no reaccionar?",
         "faqTitle": "Preguntas frecuentes"
+    },
+    "sapBuild": {
+        "blogMainData": [
+            "La Industria 4.0 ha transformado las fábricas en ecosistemas conectados donde las máquinas, las personas y los procesos trabajan en sincronía. Incluye áreas como el mantenimiento, la producción basada en pedidos, las fábricas interconectadas, la logística adaptativa y el desarrollo inteligente de productos.",
+            "Pero esta es la realidad: incluso los talleres más avanzados todavía enfrentan cuellos de botella cuando los usuarios de negocio no pueden adaptar rápidamente los sistemas a las necesidades cambiantes. Cada ajuste, cada nuevo panel de control, cada solicitud de automatización de procesos suele terminar en la lista de espera de TI, ralentizando la innovación donde la velocidad es más importante.",
+            "Al dar a los fabricantes herramientas de low-code y no-code para crear aplicaciones, automatizar flujos de trabajo y diseñar portales fáciles de usar, se pone el poder de la innovación en manos de ingenieros, supervisores y equipos de negocio. SAP Build le ayuda a hacerlo, y no necesita ser desarrollador para digitalizar una lista de verificación, automatizar una aprobación de repuestos o lanzar un panel móvil para su equipo en la planta. SAP Build no reemplaza a TI; amplía la capacidad de innovar en toda su fuerza laboral."
+        ],
+        "whySapData": [
+            {
+                "title": "Máquinas Conectadas",
+                "desc": "Los sensores IoT ya están entregando enormes cantidades de datos desde la planta. El reto es convertir esas señales en acción. Con SAP Build, los fabricantes pueden crear aplicaciones que muestren datos en tiempo real de las máquinas directamente en paneles móviles para los técnicos. En lugar de esperar a que las alertas pasen por sistemas complejos, los equipos de primera línea ven los problemas al instante, ya sea un aumento de temperatura en un horno o anomalías de vibración en una máquina CNC. Mayor visibilidad significa una respuesta más rápida."
+            },
+            {
+                "title": "Datos Integrados",
+                "desc": "Los sistemas de manufactura suelen vivir en silos: ERP para la planificación, MES para la ejecución y software especializado para calidad o logística. SAP Build Work Zone reúne estas piezas en una única interfaz basada en roles. Un gerente de producción puede verificar el estado de los pedidos, revisar la utilización de máquinas y aprobar una solicitud de material sin tener que saltar entre cinco sistemas diferentes. Esa integración no solo es conveniente, sino que también impulsa decisiones más inteligentes y seguras."
+            },
+            {
+                "title": "Procesos Ágiles",
+                "desc": "En la Industria 4.0, los flujos de trabajo estáticos son el enemigo de la eficiencia. SAP Build Process Automation permite a los fabricantes crear flujos dinámicos impulsados por IA que se adaptan en tiempo real. Una solicitud de mantenimiento puede activarse automáticamente a partir de datos IoT. Un informe de incidente de seguridad puede enviarse al instante al oficial de cumplimiento adecuado. Las aprobaciones de calidad pueden variar según el tipo de producto, la ubicación o los requisitos del cliente. El resultado: menos papeleo, menos retrasos y más tiempo para que los equipos se concentren en la producción y la innovación."
+            }
+        ],
+        "howSapData": [
+            {
+                "title": "Build Apps: Aplicaciones de Manufactura Low-Code",
+                "desc": "Piense en Build Apps como el kit de respuesta rápida de su fábrica. En lugar de esperar meses por una solución a medida, los equipos de planta pueden crear aplicaciones en días.",
+                "list": [
+                    "Una aplicación móvil para que los operadores registren anomalías en los equipos con fotos.",
+                    "Un portal para proveedores que agilice las actualizaciones sobre escasez de materiales.",
+                    "Un panel de control que rastree el consumo de energía en diferentes líneas de producción."
+                ]
+            },
+            {
+                "title": "Build Process Automation: Flujos de Trabajo sin Retrasos",
+                "desc": "Los procesos manuales y repetitivos ralentizan a las fábricas inteligentes. Build Process Automation elimina eso al integrar flujos de trabajo impulsados por IA.",
+                "list": [
+                    "Activar automáticamente una solicitud de mantenimiento cuando los datos IoT muestran vibración anormal.",
+                    "Dirigir las aprobaciones de repuestos según la urgencia, el tipo de máquina y la ubicación.",
+                    "Enviar alertas de cumplimiento cuando las inspecciones de seguridad estén vencidas."
+                ]
+            },
+            {
+                "title": "Build Work Zone: Un Centro Digital para los Equipos de Manufactura",
+                "desc": "Build Work Zone reúne todo—aplicaciones, datos, flujos de trabajo y colaboración—en un único espacio digital. En lugar de manejar múltiples sistemas, los empleados acceden a lo que necesitan en un solo lugar.",
+                "list": [
+                    "Los operadores consultan procedimientos operativos estándar digitales (SOP) y registran incidencias.",
+                    "Los gerentes rastrean indicadores clave como OEE (Eficiencia General de los Equipos) en tiempo real.",
+                    "Los socios acceden de forma segura a las actualizaciones de proyectos, reduciendo correos electrónicos innecesarios."
+                ]
+            }
+        ],
+        "practicalData": [
+            {
+                "title": "Mantenimiento Predictivo",
+                "desc": "Cree flujos de trabajo automatizados que generen tickets de servicio y envíen técnicos tan pronto como las máquinas muestren señales de advertencia temprana."
+            },
+            {
+                "title": "Gestión de Calidad",
+                "desc": "Cree aplicaciones móviles donde los operadores puedan capturar defectos con fotos, enviándolos automáticamente a los equipos de calidad."
+            },
+            {
+                "title": "Empoderamiento de la Fuerza Laboral",
+                "desc": "Cree portales en Build Work Zone donde los empleados accedan a capacitaciones, horarios de turnos y paneles de desempeño."
+            },
+            {
+                "title": "Seguimiento de Sostenibilidad",
+                "desc": "Cree aplicaciones para capturar el uso de energía, los desechos y los datos de emisiones directamente desde los sistemas de planta para apoyar los informes ESG."
+            }
+        ],
+        "businessImpactData": [
+            {
+                "title": "Ciclos de Innovación Más Rápidos",
+                "desc": "El desarrollo low-code reduce los tiempos de entrega de aplicaciones hasta en un 70%, permitiendo que nuevas herramientas y flujos se lancen en días en lugar de meses."
+            },
+            {
+                "title": "Menor Dependencia de TI",
+                "desc": "Los fabricantes han visto una reducción de hasta el 40% en la acumulación de solicitudes de TI, con usuarios de negocio creando aplicaciones de primera línea mientras los equipos de TI se enfocan en iniciativas estratégicas más grandes."
+            },
+            {
+                "title": "Menor Tiempo de Inactividad",
+                "desc": "Los flujos de trabajo automatizados y los disparadores predictivos ayudan a reducir el tiempo de inactividad no planificado de los equipos en un 20–30%."
+            },
+            {
+                "title": "Mayor Compromiso de la Fuerza Laboral",
+                "desc": "Dar a los empleados el poder de resolver desafíos diarios con sus propias aplicaciones ha llevado a un aumento del 25% en la satisfacción laboral reportada y una mayor adopción de herramientas digitales."
+            },
+            {
+                "title": "Ahorro de Costos Operativos",
+                "desc": "Al agilizar tareas y aprobaciones repetitivas, los fabricantes reducen los costos de procesos entre un 15–20% anualmente."
+            }
+        ],
+        "faqData": [
+            {
+                "question": "¿Qué hace diferente a SAP Build de otras plataformas low-code para la manufactura?",
+                "answer": "SAP Build está integrado de forma nativa con SAP ERP, MES y Manufacturing Cloud. Esto significa que las aplicaciones, flujos de trabajo y paneles se conectan directamente con los datos centrales de manufactura sin personalización compleja. Otras plataformas suelen requerir middleware complejo o duplicar flujos de datos."
+            },
+            {
+                "question": "¿El personal no técnico en plantas de manufactura realmente puede usar SAP Build?",
+                "answer": "Sí. SAP Build está diseñado para “desarrolladores ciudadanos”. Con interfaces de arrastrar y soltar y plantillas preconstruidas, ingenieros de procesos, supervisores y gerentes pueden diseñar aplicaciones o flujos sin escribir código. TI sigue gobernando la plataforma, pero los usuarios de negocio impulsan la innovación en primera línea."
+            },
+            {
+                "question": "¿Cómo mejora SAP Build las operaciones en planta?",
+                "answer": "Permite decisiones más rápidas y menos retrasos. Por ejemplo, las alertas IoT pueden activar solicitudes de mantenimiento automáticas, las fotos de defectos pueden enviarse al instante a los equipos de calidad y los operadores pueden acceder a SOP digitales a través de portales Work Zone. El resultado: menos cuellos de botella y una producción más resiliente."
+            },
+            {
+                "question": "¿Cómo apoya SAP Build los objetivos de sostenibilidad?",
+                "answer": "Los fabricantes pueden crear aplicaciones que capturen datos de energía, residuos y emisiones directamente desde los sistemas de producción. Los flujos automatizados generan informes o alertas cuando el consumo excede los límites, haciendo que el seguimiento de sostenibilidad sea parte de las operaciones diarias."
+            },
+            {
+                "question": "¿Puede SAP Build integrarse con sistemas que no son de SAP?",
+                "answer": "Sí. Aunque su integración nativa con soluciones SAP es inigualable, SAP Build también se conecta a sistemas de terceros, plataformas IoT y aplicaciones en la nube mediante APIs y conectores, asegurando que los fabricantes no tengan que reemplazar sus inversiones existentes."
+            },
+            {
+                "question": "¿Qué tipo de ROI pueden esperar los fabricantes de SAP Build?",
+                "answer": "Las empresas normalmente ven un despliegue de aplicaciones más rápido (hasta un 70% más rápido), costos de TI reducidos (20–40%) y menor tiempo de inactividad (20–30%). Estos beneficios se convierten en importantes ahorros y mayor productividad en el primer año de implementación."
+            }
+        ],
+        "readyData": [
+            "Los fabricantes reconocen que la Industria 4.0 se centra en la capacidad de responder rápidamente a las interrupciones y a las demandas de los clientes, al mismo tiempo que se alcanzan los objetivos de sostenibilidad. SAP Build ofrece a los equipos herramientas para innovar, ya sea un ingeniero de procesos creando una aplicación de registro de defectos, un gerente automatizando aprobaciones o un líder de sostenibilidad desarrollando un panel de energía.",
+            "Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>socio confiable de SAP </span></a>, ayudamos a los fabricantes a diseñar e implementar soluciones SAP Build que se integran perfectamente en su recorrido hacia la Industria 4.0. Desde el desarrollo de aplicaciones hasta la automatización de procesos y espacios de trabajo integrados, nos aseguramos de que sus equipos cuenten con las herramientas necesarias para acelerar la transformación digital.",
+            "<a href='https://www.rialtes.com/contact-us/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Hablemos </span> </a> sobre cómo SAP Build puede desbloquear la innovación en su planta de producción."
+        ],
+        "blogTopic": "SAP",
+        "blogTitle": "Acelerando la Industria 4.0 con SAP Build: Herramientas Low-Code para una Manufactura más Inteligente",
+        "whySapTitle": "Por qué SAP Build es tan importante para la Industria 4.0",
+        "whySapDesc": "La manufactura en la era de la Industria 4.0 se basa en tres pilares: máquinas conectadas, datos integrados y procesos ágiles. SAP Build ayuda a fortalecer los tres. Con estos pilares reforzados, SAP Build permite a los fabricantes acortar los ciclos de innovación, reducir el tiempo de inactividad y desbloquear nuevos niveles de resiliencia operativa.",
+        "howSapTitle": "Cómo SAP Build impulsa la manufactura inteligente",
+        "howSapDesc": "La Industria 4.0/IIoT ofrece beneficios significativos, como fábricas autónomas, mantenimiento predictivo, manejo automatizado de materiales y una mejor supervisión mediante robótica e inteligencia artificial. Para adoptar con éxito estas tecnologías, una arquitectura de referencia clara y una plataforma digital unificada son esenciales para integrar datos contextuales en las operaciones de manufactura y los procesos de negocio.",
+        "howSapDesc2": "Así es como los tres componentes principales de SAP Build respaldan las necesidades de la Industria 4.0:",
+        "practicalTitle": "Aplicaciones prácticas de SAP Build en la Industria 4.0",
+        "practicalDesc": "Vamos a aterrizarlo. Aquí hay solo algunas formas en que los fabricantes utilizan SAP Build para respaldar las operaciones de la Industria 4.0:",
+        "impactTitle": "El Impacto en el Negocio",
+        "impactDesc": "Al integrar SAP Build en las operaciones de manufactura, las empresas reportan:",
+        "readyTitle": "¿Listo para construir de manera más inteligente con SAP Build?",
+        "faqTitle": "Preguntas Frecuentes"
+    },
+    "ecommerceDataCloud": {
+        "salesforceData": [
+            {
+                "title": "Ingesta de Datos",
+                "desc": "Salesforce Data Cloud integra sin problemas datos de múltiples fuentes, incluidos tanto Salesforce como flujos de datos externos, ya sea que se ingieran en tiempo real o se agreguen en lotes."
+            },
+            {
+                "title": "Unificación de Datos y Resolución de Identidad",
+                "desc": "Combina datos mediante reglas de resolución de identidad, creando una vista única y completa de cada cliente a través de varios canales y dispositivos."
+            },
+            {
+                "title": "Consulta y Análisis de Datos",
+                "desc": "Salesforce Data Cloud facilita hacer preguntas y analizar datos, con información útil para comprender el comportamiento y las necesidades del cliente."
+            },
+            {
+                "title": "Activación y Personalización de Datos",
+                "desc": "Con la capacidad de analizar, ampliar y actuar sobre los datos en varios canales, crea experiencias personalizadas para mejorar la participación del cliente."
+            },
+            {
+                "title": "IA y Predicción de Datos",
+                "desc": "Data Cloud aprovecha la IA para predecir las próximas acciones de los clientes y ofrecer recomendaciones personalizadas basadas en los conocimientos obtenidos de sus datos."
+            }
+        ],
+        "driveData": [
+            {
+                "title": "Panel de Análisis de Inteligencia de Inventario",
+                "desc": "Gestionar el stock en múltiples ubicaciones y canales puede ser abrumador. El Panel de Inteligencia de Inventario lo simplifica. Las empresas pueden:",
+                "list": [
+                    "Monitorear el estado del stock en tiempo real.",
+                    "Comparar niveles de inventario con pedidos de clientes en distintas ubicaciones.",
+                    "Rastrear unidades vendidas y evaluar el rendimiento del producto.",
+                    "Usar filtros como nivel de stock, producto o categoría para obtener información específica."
+                ]
+            },
+            {
+                "title": "Conector de Inventario Omnicanal: Una Vista en Todos los Canales",
+                "desc": "El comercio electrónico no se limita a un solo canal, y tu inventario tampoco debería. El Conector de Inventario Omnicanal ingiere datos de inventario de diferentes ubicaciones y plataformas de venta en Data Cloud. Esta vista unificada garantiza:",
+                "list": [
+                    "Visibilidad precisa del stock en todos los canales.",
+                    "Cumplimiento de pedidos más fluido.",
+                    "Mejor pronóstico impulsado por información predictiva."
+                ]
+            },
+            {
+                "title": "Comercio Conversacional Impulsado por IA con Einstein Bots",
+                "desc": "La personalización va más allá de los paneles. Con B2C Einstein Bots y nuevas acciones de Shopper Copilot, las empresas pueden ofrecer experiencias de compra conversacionales.",
+                "list": [
+                    "Los compradores pueden recibir recomendaciones de productos en tiempo real.",
+                    "Los bots pueden guiar a los clientes, responder preguntas e incluso agregar productos directamente al carrito.",
+                    "Los bloques de Commerce Concierge permiten personalización y automatización adicionales."
+                ]
+            }
+        ],
+        "predectiveData": [
+            {
+                "title": "Anticipar las Necesidades del Cliente con Analítica Predictiva",
+                "desc": "Salesforce Data Cloud integra grandes cantidades de datos de clientes de múltiples fuentes, lo que permite a las empresas predecir lo que sus clientes quieren antes de que lo pidan. Analizando patrones de compra, comportamiento de navegación e interacciones pasadas, las empresas pueden ofrecer proactivamente recomendaciones y ofertas personalizadas que resuenen con cada cliente.",
+                "desc2": "Por ejemplo, si un cliente busca con frecuencia accesorios para bicicleta pero no compra, la analítica predictiva puede sugerir descuentos oportunos o paquetes de productos personalizados para fomentar la conversión. Estas interacciones específicas no solo impulsan las ventas, sino que también fortalecen la lealtad del cliente."
+            },
+            {
+                "title": "Información en Tiempo Real para Experiencias Dinámicas de Comercio Electrónico",
+                "desc": "Salesforce Data Cloud proporciona información en tiempo real, lo que garantiza que las empresas puedan responder de inmediato a las acciones de los clientes. Ya sea para ajustar una promoción o actualizar la disponibilidad de productos, estas respuestas oportunas crean experiencias fluidas y atractivas.",
+                "desc2": "Al actuar sobre información en tiempo real, las empresas generan inmediatez y relevancia, manteniendo a los clientes interesados y aumentando las probabilidades de conversión.",
+                "list": [
+                    {
+                        "title": "Precios Dinámicos",
+                        "desc": "Ajustar precios según fluctuaciones de demanda, actividad de la competencia o niveles de inventario."
+                    },
+                    {
+                        "title": "Recomendaciones de Productos en Vivo",
+                        "desc": "Mostrar sugerencias personalizadas en sitios web o apps móviles según las interacciones en vivo del cliente."
+                    },
+                    {
+                        "title": "Respuestas Activadas por Eventos",
+                        "desc": "Enviar campañas de correo o alertas SMS personalizadas cuando un cliente abandona su carrito o explora ciertos productos."
+                    }
+                ]
+            },
+            {
+                "title": "Transformar la Toma de Decisiones con Predicciones Basadas en Datos",
+                "desc": "Atrás quedaron los días de depender de la intuición. Data Cloud aprovecha modelos de aprendizaje automático para ofrecer predicciones precisas, ayudando a las empresas a tomar decisiones informadas. Desde entender tendencias de demanda hasta anticipar cambios en preferencias de clientes, la toma de decisiones basada en datos se convierte en un pilar del éxito.",
+                "desc2": "Por ejemplo, un minorista puede predecir un aumento en la demanda de ropa de invierno a medida que bajan las temperaturas, lo que le permite abastecer inventario y lanzar campañas de marketing específicas con anticipación."
+            },
+            {
+                "title": "Impulsar Recorridos de Cliente Personalizados",
+                "desc": "Los clientes esperan que las marcas conozcan sus preferencias y les ofrezcan experiencias adaptadas a sus necesidades. Las herramientas avanzadas de comercio predictivo de Data Cloud ayudan a crear recorridos personalizados al combinar datos de historial de compras, hábitos de navegación e incluso factores externos como la estacionalidad. Este enfoque aumenta la satisfacción del cliente y fomenta la repetición de compra.",
+                "desc2": "",
+                "list": [
+                    {
+                        "title": "Segmentar Audiencias con Precisión",
+                        "desc": "Agrupar clientes según características compartidas, como intereses, demografía o hábitos de compra."
+                    },
+                    {
+                        "title": "Entregar Interacciones Contextuales",
+                        "desc": "Adaptar comunicaciones según la etapa del cliente en su recorrido, desde visitante nuevo hasta comprador frecuente."
+                    },
+                    {
+                        "title": "Mejorar la Experiencia Post-Compra",
+                        "desc": "Recomendar productos complementarios u ofrecer programas de recompensas para fomentar futuras compras."
+                    }
+                ]
+            },
+            {
+                "title": "Optimizar Inventario y Marketing con Capacidades de Pronóstico",
+                "desc": "Un minorista de belleza predice un aumento en la demanda de sets de regalo durante la temporada navideña y ajusta sus niveles de inventario y campañas publicitarias en consecuencia. Este enfoque proactivo asegura que los clientes encuentren lo que necesitan mientras se minimizan las ineficiencias operativas.",
+                "desc2": "El pronóstico preciso es crítico en e-commerce. Con Salesforce Data Cloud, las empresas pueden optimizar niveles de inventario prediciendo la demanda de productos específicos. Además, las campañas de marketing son más efectivas cuando se respaldan en información basada en datos, asegurando que los recursos se asignen a estrategias de mayor retorno."
+            }
+        ],
+        "empowerData": [
+            "<a href='https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce Data Cloud </a> equipa a las empresas con herramientas para anticipar necesidades del cliente, ofrecer información en tiempo real, optimizar inventario y diseñar recorridos personalizados que las mantengan competitivas en un mercado saturado. Antes de implementar Data Cloud, las organizaciones deben comprender sus datos, definir objetivos claros y alinear a los interesados en los resultados.",
+            "Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] underline hover:text-gray-400'> socio consultor de Salesforce </a>, Rialtes ayuda a las marcas de e-commerce a ir más allá de lo básico desbloqueando todo el poder de Data Cloud. Nuestros especialistas identifican los casos de uso adecuados, optimizan los tiempos de implementación y diseñan recorridos de cliente significativos. Al combinar información predictiva con personalización, ayudamos a construir relaciones más sólidas, mejorar la lealtad y acelerar el crecimiento de ingresos.",
+            "¿Listo para convertir predicción en beneficio? Contáctanos en <a href='https://www.rialtes.com/contact-us' class='text-[#0092E0] underline hover:text-gray-400'>sales@rialtes.com</a>"
+        ],
+        "faqs": [
+            {
+                "question": "¿Para qué se utiliza Salesforce Data Cloud en e-commerce?",
+                "answer": "Salesforce Data Cloud centraliza los datos de clientes, permitiendo a las empresas predecir comportamientos, personalizar experiencias y tomar decisiones en tiempo real. Es especialmente potente en e-commerce en Salesforce, donde los datos unificados impulsan una personalización más inteligente."
+            },
+            {
+                "question": "¿Cómo mejora la analítica predictiva la experiencia del cliente en e-commerce?",
+                "answer": "Anticipa necesidades, recomienda productos relevantes y proporciona información en tiempo real que hace que las interacciones sean más personales y proactivas."
+            },
+            {
+                "question": "¿Puede Salesforce Data Cloud ayudar a reducir el abandono de carrito?",
+                "answer": "Sí. Al detectar carritos abandonados en tiempo real, puede activar correos personalizados, descuentos o alertas que animen a los clientes a completar sus compras."
+            },
+            {
+                "question": "¿Cómo encaja Einstein AI en Salesforce Data Cloud?",
+                "answer": "Einstein AI impulsa modelos predictivos, análisis de sentimiento con PLN y toma de decisiones automatizada para mejorar la personalización y la eficiencia."
+            },
+            {
+                "question": "¿Por qué son importantes los datos en tiempo real para el e-commerce predictivo?",
+                "answer": "La información en tiempo real permite ajustes instantáneos en precios, promociones y recomendaciones, manteniendo a los clientes interesados y reduciendo la deserción."
+            }
+        ],
+        "blogTopic": "Salesforce",
+        "blogTitle": "Comercio electrónico predictivo en Salesforce: cómo Data Cloud crea experiencias de cliente más inteligentes",
+        "blogMainData": "La analítica predictiva siempre ha sido fundamental para ayudar a las empresas a ofrecer experiencias personalizadas. Salesforce Data Cloud permite a las compañías aprovechar la analítica predictiva y los conocimientos basados en datos para diseñar estrategias de comercio electrónico transformadoras. Centraliza los datos de los clientes y proporciona una plataforma unificada para obtener información en tiempo real.",
+        "blogMainData2": "Sin embargo, el verdadero valor está en sus capacidades de IA y aprendizaje automático, que impulsan una analítica predictiva avanzada. El análisis de los datos históricos de los clientes revela patrones, tendencias y correlaciones para construir modelos predictivos. Las empresas pueden redefinir la interacción con los clientes, adaptar campañas de marketing y fortalecer estrategias de ventas al rastrear el comportamiento en correos electrónicos y redes sociales. Pueden anticipar necesidades, optimizar inventario, personalizar recorridos y crear estrategias de marketing ágiles, todo mientras mejoran la satisfacción y la lealtad.",
+        "salesforceTitle": "Salesforce Data Cloud: funciones clave que impulsan el comercio electrónico",
+        "salesforceDesc": "En conjunto, estas funciones hacen que el comercio electrónico en Salesforce sea una experiencia unificada a través del marketing, las ventas y el servicio.",
+        "driveTitle": "Impulsa insights de negocio y aumenta los ingresos con Salesforce Data Cloud para comercio",
+        "driveDesc": "Aprovecha el poder de la analítica casi en tiempo real con Data Cloud para comercio. Los paneles inteligentes para productos, compradores e inventario transforman los datos en bruto en insights claros, brindando a las empresas los KPIs necesarios para mejorar la eficiencia, optimizar estrategias de ventas e incrementar los ingresos.",
+        "predictiveTitle": "Analítica predictiva en acción: 5 formas en que Salesforce Data Cloud potencia el comercio electrónico",
+        "empowerTitle": "Potenciar el comercio electrónico con predicción y colaboración",
+        "faqTitle": "Preguntas frecuentes (FAQ)"
+    },
+    "agentforceHitech": {
+        "agentfoceIntegrates": [
+            "Agentforce se integra con los sistemas ERP a través de Salesforce Data Cloud, unificando datos de diversas fuentes, incluidos los sistemas de ERP y de gestión de la cadena de suministro (SCM). Herramientas como los conectores prediseñados de MuleSoft para SAP, Oracle y Microsoft Dynamics permiten la sincronización de datos en tiempo real. Esto permite que los agentes impulsados por IA accedan a información actual sobre inventario, pedidos y finanzas, optimizando los flujos de trabajo y minimizando la entrada manual de datos. Al analizar los datos de ERP y SCM, Agentforce ofrece perspectivas predictivas que mejoran la toma de decisiones. En agricultura, predice la demanda y optimiza las cadenas de suministro analizando los rendimientos de los cultivos y los patrones climáticos. Además, en logística, los agentes de IA pueden gestionar mayores volúmenes de pedidos durante las temporadas altas, administrando eficientemente los datos de los envíos sin sobrecargar a la fuerza laboral."
+        ],
+        "benefitsData": [
+            {
+                "title": "Automatización impulsada por IA",
+                "desc": "Agentforce utiliza IA para automatizar tareas rutinarias en los sistemas ERP, como la gestión de inventarios, el procesamiento de pedidos y los informes financieros, reduciendo las cargas manuales y los errores al tiempo que aumenta la eficiencia. En la fabricación, por ejemplo, supervisa los niveles de materias primas y vuelve a realizar pedidos automáticamente cuando es necesario, garantizando una producción fluida. Al analizar los datos de producción, Agentforce ayuda a identificar ineficiencias, lo que permite a los fabricantes optimizar las operaciones y reducir el desperdicio."
+            },
+            {
+                "title": "Datos unificados e integración",
+                "desc": "Salesforce Data Cloud es esencial para Agentforce, ya que unifica los datos de varios sistemas para proporcionar análisis e información en tiempo real. Esta integración mejora la eficiencia; por ejemplo, en el sector sanitario, vincula los datos de ERP con los sistemas de gestión de pacientes para mejorar la programación. En el comercio minorista, la fusión de los datos de CRM sobre las preferencias de los clientes con los sistemas ERP garantiza actualizaciones de inventario en tiempo real, reduciendo las roturas de stock y aumentando la satisfacción del cliente."
+            },
+            {
+                "title": "Analítica predictiva para decisiones proactivas",
+                "desc": "Agentforce permite a las empresas anticipar tendencias, prever la demanda y optimizar las operaciones de la cadena de suministro. Al analizar datos de ERP y SCM, especialmente en la agricultura, predice la demanda y mejora la planificación. Esta integración mejora la toma de decisiones, aumenta la productividad y minimiza las interrupciones al considerar factores como los rendimientos de los cultivos, los niveles de inventario, los horarios de distribución y los patrones climáticos."
+            },
+            {
+                "title": "Escalabilidad",
+                "desc": "Agentforce gestiona de manera eficiente las cargas de trabajo crecientes en los sistemas ERP y SCM sin necesidad de personal adicional. Durante las temporadas altas en logística, los agentes de IA pueden procesar mayores volúmenes de datos de envíos y entregas, como números de seguimiento y niveles de inventario, lo que permite al sistema manejar más envíos dinámicamente sin sobrecargar a la fuerza laboral."
+            },
+            {
+                "title": "Colaboración mejorada",
+                "desc": "Integrado en el ecosistema de Salesforce, Agentforce fomenta la colaboración entre equipos al conectar los datos de ERP con herramientas como Slack y Salesforce Customer 360. Esto crea un entorno cohesionado y conectado para los responsables de la toma de decisiones."
+            }
+        ],
+        "applicationData": [
+            {
+                "title": "Gestión de inventario y cadena de suministro",
+                "desc": "<a href='https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Los agentes de IA</span> </a> rastrean los niveles de inventario, predicen las fluctuaciones de la demanda y automatizan los procesos de reposición. Por ejemplo, pueden supervisar las interrupciones de la cadena de suministro y sugerir proveedores alternativos para evitar desabastecimientos. Estas capacidades ayudan a minimizar las roturas de stock y reducir el exceso de inventario, garantizando operaciones más fluidas."
+            },
+            {
+                "title": "Operaciones financieras",
+                "desc": "Mejora de los flujos de trabajo financieros mediante la automatización de tareas como la conciliación de datos, la generación de informes de cumplimiento y la detección de anomalías transaccionales. Esto mejora la precisión, agiliza los procesos y reduce el tiempo dedicado a tareas financieras manuales, como cuentas por pagar, por cobrar y presupuestos."
+            },
+            {
+                "title": "Gestión de relaciones con clientes",
+                "desc": "Los agentes analizan los datos de los clientes para proporcionar recomendaciones personalizadas e identificar oportunidades de venta adicional. Los chatbots impulsados por estos agentes automatizan las respuestas a las consultas de los clientes, mejorando el compromiso y la satisfacción. Por ejemplo, al analizar los historiales de compras, los agentes pueden predecir necesidades futuras y perfeccionar las estrategias de marketing para maximizar el valor del cliente."
+            },
+            {
+                "title": "Gestión automatizada de recursos humanos",
+                "desc": "En RRHH, agilizan procesos como la contratación, la incorporación y las evaluaciones de desempeño. Pueden analizar currículos, programar entrevistas y proporcionar información predictiva sobre las tendencias de retención de empleados. Esto mejora la eficiencia de RRHH al tiempo que aumenta la satisfacción de los empleados y la gestión de la fuerza laboral."
+            }
+        ],
+        "buildingData": [
+            "Agentforce es el futuro de los sistemas ERP: inteligente, escalable y conectado. Con IA y Salesforce Data Cloud, las empresas logran una mayor eficiencia e innovación. Proveedores líderes de ERP como SAP, Oracle y Microsoft están integrando <a href='https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>IA agéntica</span> </a> para la toma de decisiones en tiempo real, el análisis predictivo y la automatización de procesos. Estos esfuerzos están transformando los sistemas ERP en ecosistemas inteligentes que optimizan las operaciones, mejoran la experiencia del cliente y permiten soluciones escalables con mínima intervención humana.",
+            "Rialtes permite a las empresas <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>integrar agentes personalizados de Agentforce</span> </a> en sus plataformas ERP específicas, automatizando tareas repetitivas y optimizando flujos de trabajo. Utilizando aprendizaje automático y procesamiento de lenguaje natural, garantizamos que estos agentes se alineen con los objetivos de la organización. Las empresas pueden asegurarse de que sus <a href='https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>implementaciones de Agentforce</span></a> aprovechen datos confiables para una automatización inteligente. Contáctanos en <a href='mailto:sales@rialtes.com'><span class='transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com.</span></a>"
+        ],
+        "faqs": [
+            {
+                "question": "¿Qué es Agentforce y cómo mejora los sistemas ERP?",
+                "answer": "Agentforce es la plataforma de IA de Salesforce que se integra con sistemas ERP y SCM para unificar datos, automatizar procesos y proporcionar perspectivas predictivas. Convierte al ERP en un ecosistema inteligente, permitiendo decisiones más rápidas y mayor eficiencia operativa."
+            },
+            {
+                "question": "¿Cómo se integra Agentforce con plataformas ERP existentes como SAP, Oracle o Microsoft Dynamics?",
+                "answer": "Agentforce se conecta a través de Salesforce Data Cloud y los conectores prediseñados de MuleSoft. Esto permite la sincronización en tiempo real de datos de ERP y SCM —como pedidos, finanzas e inventarios— sin necesidad de integración personalizada compleja."
+            },
+            {
+                "question": "¿Qué tipo de tareas pueden automatizar los agentes de Agentforce dentro de los sistemas ERP?",
+                "answer": "Gestionan procesos rutinarios como el monitoreo de inventario, el procesamiento de pedidos, los informes financieros, los flujos de trabajo de RRHH y las respuestas a consultas de clientes. Esto reduce el esfuerzo manual y los errores, liberando a los empleados para trabajos más estratégicos."
+            },
+            {
+                "question": "¿Puede Agentforce proporcionar perspectivas predictivas para la cadena de suministro y las operaciones?",
+                "answer": "Sí. Al analizar los datos de ERP y SCM junto con factores externos como el clima o la demanda del mercado, Agentforce predice interrupciones en la cadena de suministro, fluctuaciones de la demanda y necesidades de inventario. Este enfoque proactivo ayuda a las organizaciones a anticiparse a los riesgos."
+            },
+            {
+                "question": "¿Cómo mejora Agentforce la colaboración entre equipos?",
+                "answer": "Al formar parte del ecosistema de Salesforce, Agentforce conecta los datos de ERP con herramientas como Slack y Salesforce Customer 360. Esto brinda a los equipos visibilidad compartida en tiempo real y permite decisiones más rápidas y coordinadas."
+            },
+            {
+                "question": "¿Qué industrias pueden beneficiarse más de la integración de Agentforce con ERP?",
+                "answer": "La manufactura, la logística, la agricultura, la salud, el comercio minorista y los servicios financieros se benefician. Por ejemplo, ayuda a los fabricantes a optimizar la producción, a los minoristas a reducir las roturas de stock y a las empresas de logística a gestionar picos de envíos estacionales."
+            },
+            {
+                "question": "¿Es Agentforce escalable para empresas en crecimiento?",
+                "answer": "Sí. Agentforce está diseñado para manejar cargas de trabajo crecientes de ERP y SCM sin necesidad de aumentos proporcionales de personal. Los agentes de IA gestionan dinámicamente mayores volúmenes de datos, asegurando que el sistema crezca junto con el negocio."
+            },
+            {
+                "question": "¿Reemplaza Agentforce la toma de decisiones humanas?",
+                "answer": "No. Agentforce está diseñado para complementar la experiencia humana, no para reemplazarla. Al automatizar tareas repetitivas y proporcionar información confiable, libera a las personas para que se concentren en decisiones estratégicas complejas."
+            },
+            {
+                "question": "¿Qué tan seguro es Agentforce al trabajar con datos de ERP?",
+                "answer": "Agentforce aprovecha los estándares de seguridad, cumplimiento y gobernanza de nivel empresarial de Salesforce. Los datos se manejan de manera segura, lo que garantiza que las organizaciones puedan adoptar la automatización sin comprometer la confianza."
+            },
+            {
+                "question": "¿Cómo puede mi empresa comenzar a integrar Agentforce con ERP?",
+                "answer": "Rialtes se especializa en personalizar agentes de Agentforce para sistemas ERP. Alineamos los agentes con los objetivos de tu negocio, optimizamos los flujos de trabajo y aseguramos una automatización confiable."
+            }
+        ],
+        "blogTopic": "Salesforce",
+        "blogTitle": "Cómo Agentforce AI transforma los sistemas ERP: automatización, perspectivas predictivas y escalabilidad",
+        "blogMainData": "Los sistemas de planificación de recursos empresariales (ERP) son la columna vertebral de muchas organizaciones, gestionando funciones críticas como finanzas, adquisiciones, fabricación y operaciones de la cadena de suministro. Sin embargo, a menudo operan en silos, limitando su potencial para proporcionar información en tiempo real y colaboración fluida entre departamentos. Esto puede resultar en ineficiencias, decisiones retrasadas y oportunidades perdidas. Agentforce, impulsado por las capacidades avanzadas de IA de Salesforce, está diseñado para abordar estos desafíos de frente. Al integrarse con los sistemas ERP a través de Salesforce Data Cloud, Agentforce unifica datos de fuentes internas y externas, incluidos los sistemas de ERP y SCM. Este enfoque unificado permite a las empresas tomar decisiones informadas basadas en datos y fomentar la agilidad operativa.",
+        "howDoesTitle": "¿Cómo lo hace Agentforce?",
+        "agentforceTitle": "Agentforce se integra con sistemas ERP y SCM",
+        "howDoesDesc": "Utiliza datos integrados para mejorar las interacciones con los clientes y la eficiencia operativa. Cuando un agente de IA necesita información sobre un pedido de cliente, Salesforce, a través de MuleSoft, proporciona acceso en tiempo real a los datos de ERP, permitiendo respuestas rápidas y precisas. El Atlas Reasoning Engine analiza estos datos de forma autónoma para obtener resultados confiables.",
+        "howDoesDesc2": "Un beneficio clave es la integración de Agentforce con los sistemas ERP y SCM, que elimina las tareas rutinarias y permite que los trabajadores humanos se concentren en cuestiones estratégicas complejas. Lograr el equilibrio adecuado entre la automatización y la experiencia humana es crucial para mejorar la toma de decisiones sin reemplazarla.",
+        "benefitsTitle": "Beneficios de integrar Agentforce con ERP",
+        "applicationTitle": "¿Cuáles son algunas aplicaciones de los agentes impulsados por IA para ERP?",
+        "applicationDesc": "La integración de los agentes de IA de Agentforce con los sistemas ERP transforma las operaciones empresariales al mejorar la eficiencia, la precisión y la funcionalidad. Estos agentes automatizan procesos, ofrecen información procesable y facilitan flujos de trabajo sin problemas en los módulos clave de ERP.",
+        "buildingTitle": "Construyendo ERP inteligente y escalable con Agentforce",
+        "faqTitle": "FAQ: Preguntas frecuentes"
     }
 }

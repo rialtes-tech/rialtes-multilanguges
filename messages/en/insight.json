@@ -24,7 +24,6 @@
     "leadingblog": "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions.",
     "Webinars": "Webinars",
     "allWebinars": "See All Webinars",
-    
     "SapTitle": "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
     "sapdate": "May 20, 2025",
     "president": "Vice President of Global Sales",
@@ -178,6 +177,46 @@
       }
     ],
     "latestBlogs": [
+      {
+        "id": 38,
+        "image": "/images/blog/sap-industry-mobile-banner.webp",
+        "category": "SAP",
+        "industry": "Generic",
+        "date": "Sep. 16, 2025",
+        "url": "/sap-build-for-manufacturing-4-0",
+        "title": "Accelerating Industry 4.0 with SAP Build: Low-Code Tools for Smarter Manufacturing",
+        "description": "Industry 4.0 has transformed factories into connected ecosystems where machines, people, and processes work in sync."
+      },
+      {
+        "id": 38,
+        "image": "/images/blog/agentforce-ai-erp-mobile.webp",
+        "category": "Agentforce",
+        "industry": "Generic",
+        "date": "Sep. 15, 2025",
+        "url": "/how-agentforce-ai-transforms-erp-systems",
+        "title": "How Agentforce AI Transforms ERP Systems: Automation, Predictive Insights, and Scalability",
+        "description": "Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations."
+      },
+      {
+        "id": 37,
+        "image": "/images/blog/data-cloud-ecom-mobile-banner.webp",
+        "category": "Artificial Intelligence",
+        "industry": "Generic",
+        "date": "Sep. 12, 2025",
+        "url": "/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty",
+        "title": "Predictive Ecommerce in Salesforce: How Data Cloud Shapes Smarter Customer Experiences",
+        "description": "Predictive analytics has always been crucial in helping businesses deliver personalized experiences.Salesforce Data Cloud empowers companies to leverage predictive analytics and data-driven insights to craft transformative e-commerce strategies."
+      },
+      {
+        "id": 36,
+        "image": "/images/blog/ai-that-listens-mob-banner.webp",
+        "category": "Artificial Intelligence",
+        "industry": "Generic",
+        "date": "Sep. 11, 2025",
+        "url": "/how-large-language-models-improve-customer-experience",
+        "title": "AI That Listens, Learns, and Delivers: How Large Language Models Are Transforming Customer Experience",
+        "description": "Great customer experience begins with great listening. But we are not just talking about hearing the words; it’s about understanding intent, emotion, context, and history."
+      },
       {
         "id": 35,
         "image": "/images/blog/ai-in-patient-mobile-banner.webp",
