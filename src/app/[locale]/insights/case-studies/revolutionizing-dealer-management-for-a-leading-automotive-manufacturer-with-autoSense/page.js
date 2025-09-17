@@ -66,7 +66,7 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-            <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+            <section className="relative h-[250px] sm:h-[500px] 4xl:h-[650px] 2xl:h-[550px] xl:h-[450px] overflow-hidden">
                 <Image
                     src="/images/case-studies/revolutionizing-dealer-management-for-a-eading-automotive-anufacturer-with-autosense-case-study-banner.webp"
                     alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
@@ -78,24 +78,20 @@ export default function Page() {
             <section className="custom-container">
                 <div className="py-10 bg-white 4xl:max-w-[1084px] 4xl:w-[1084px] xl:w-[840px]">
                     <div>
-                        <h1 className="text-[#000000] py-6  leading-tight  text-[24px]  4xl:text-[60px] xl:text-[45px] ">
+                        <h1 className="text-[#000000] py-6  leading-tight  text-[24px]  4xl:text-[60px] xl:text-[45px] 2xl:text-[48px]">
                             {t("dealerTitle")}
                         </h1>
                     </div>
                     <div className="py-4"></div>
                     <div>
-                        <div className="flex flex-col md:flex-row justify-between text-black">
-                            <div className="pb-6">
+                        <div className="flex flex-col md:flex-row justify-between text-black items-center">
+                            <div>
                                 <span className="text-[#0092E0]">{t("manufacturing")}</span>{" "}
                                 <span className="text-[#ACACAC]"> | </span>
                                 {t("date")}
                             </div>
                             <div className="flex flex-col ">
-                                <span>{t("read")}</span>
-                            </div>
-                        </div>
-                        <div className="pt-4"></div>
-                        <div className="flex flex-row gap-6 ml-[-8px]">
+                                  <div className="flex flex-row gap-6 ml-[-8px]">
                             <div className="max-w-[40px]">
                                 <a
                                     href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
@@ -144,24 +140,28 @@ export default function Page() {
                                 </a>
                             </div>
                         </div>
+                            </div>
+                        </div>
+                        <div className="pt-4"></div>
+                     
                     </div>
                     <div className="py-6"></div>
                     <div>
                         <div className="">
-                            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                            <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px]  text-[20px] pb-4">
                                 {t("cliendTitle")}
                             </h2>
                             <p className="text-black">{t("cliendDesc")}</p>
                             <div className="py-6"></div>
-                            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                            <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px]  text-[20px] pb-4">
                                 {t("keyTitle")}
                             </h2>
-                            <p className="text-black pb-4">{t("keyDesc")}</p>
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("keyDesc")}</p>
                             <div className="pl-3">
-                                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+                                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium">
                                     {keyList.map((item, index) => (
                                         <li key={index} className="pb-4 last:pb-0">
-                                            <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">
+                                            <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px]">
                                                 {item.title}
                                             </h3>
                                             : {item.description}
@@ -174,18 +174,18 @@ export default function Page() {
                     <div className="py-6"></div>
                     <div>
                         <div className="">
-                            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                            <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px]  text-[20px] pb-4">
                                 {t("autoTitle")}
                             </h2>
-                            <p className="text-black pb-4 ">{t("autoDesc")}</p>
-                            <h3 className="h3-bold pb-4 xl:text-[20px] text-[18px] md:text-[19px]">
+                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("autoDesc")}</p>
+                            <h3 className="h3-bold pb-4 4xl:text-[20px] text-[18px] md:text-[19px]">
                                 {t("approachTitle")}
                             </h3>
                             <div className="pl-2">
-                                <ul className="list-decimal marker:text-[#000] text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+                                <ul className="list-decimal marker:text-[#000] text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium">
                                     {approachList.map((item, index) => (
                                         <li key={index} className="pb-4 ">
-                                            <h4 className="inline xl:text-[19px] text-[16px] md:text-[18px]">
+                                            <h4 className="inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px]">
                                                 {item.title}
                                             </h4>
                                             : {item.description}
@@ -201,10 +201,10 @@ export default function Page() {
                                 {t("featuresTitle")}
                             </h3>
                             <div className="pl-2">
-                                <ul className="list-decimal marker:text-[#000] text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+                                <ul className="list-decimal marker:text-[#000] text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium">
                                     {featuresList.map((item, index) => (
                                         <li key={index} className="pb-4 last:pb-0">
-                                            <h4 className="inline xl:text-[19px] text-[16px] md:text-[18px]">
+                                            <h4 className="inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px]">
                                                 {item.title}
                                             </h4>
                                             : {item.description}
@@ -221,7 +221,7 @@ export default function Page() {
                                 {t("benifitTitle")}
                             </h2>
                             <div className="pl-2">
-                                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+                                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium">
                                     {benefitsList.map((item, index) => (
                                         <li key={index} className="pb-4 last:pb-0">
                                             <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">
@@ -242,10 +242,10 @@ export default function Page() {
                             </h2>
 
                             <div className="pl-2">
-                                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+                                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black  pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium">
                                     {deliverablesList.map((step, idx) => (
                                         <li key={idx} className="pb-4 last:pb-0">
-                                            <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
+                                            <h3 className="inline h3-bold 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px]">
                                                 {step.title}
                                             </h3>{" "}
                                             : {step.description}
@@ -258,7 +258,7 @@ export default function Page() {
                     <div className="py-6"></div>
                     <div>
                         <div className="">
-                            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                            <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
                                 {t("conclusionTitle")}
                             </h2>
                             <p>{t("conclusionDesc")}</p>

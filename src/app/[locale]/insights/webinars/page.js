@@ -145,7 +145,13 @@ export default function About() {
           className="custom-container h-full relative"
         >
           <div className="h-full flex flex-col justify-center">
-            <h1 className="text-[#000000] max-w-2xl leading-tight text-[26px] md:text-[35px] xl:text-[40px] 4xl:text-[60px]">
+            <h1  className="
+          text-[#000000] 
+          max-w-2xl leading-tight 
+          text-[26px] md:text-[35px] xl:text-[40px] 4xl:text-[60px] 
+          bg-white/80 px-3 py-2 rounded-md 
+          md:bg-transparent md:px-0 md:py-0 md:rounded-none
+        ">
               {t('headerTitle')}
               <br />
               {t('headerTitleOne')}
@@ -401,7 +407,7 @@ export default function About() {
                   </div>
 
                   <div className="p-8 flex flex-col flex-grow items-start gap-2 ">
-                    <h3 className="text-[#134874] mb-2  pr-8 xl:text-[20px] 4xl:text-[30px]">{webinar.title}</h3>
+                    <h3 className="text-[#134874] mb-2  xl:text-[20px] 4xl:text-[30px]">{webinar.title}</h3>
 
                     <div className="text-sm text-gray-600 mb-3">
                       <p>{webinar.date}</p>
