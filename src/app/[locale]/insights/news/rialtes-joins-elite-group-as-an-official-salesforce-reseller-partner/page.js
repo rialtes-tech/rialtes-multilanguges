@@ -71,8 +71,8 @@ export default function Page() {
               height={0}
             />
           </div>
-          <h1 className="leading-tight mt-10">{t('title')}</h1>
-          <div className="xl:hidden block">
+          <h1 className="leading-tight mt-10 4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px]">{t('title')}</h1>
+          <div className="xl:hidden block mt-10 xl:mt-0">
             <Image
               src="/images/news/ba-mobile.webp"
               alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
