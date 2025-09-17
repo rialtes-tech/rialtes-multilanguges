@@ -72,7 +72,7 @@ export default function Page() {
       <section className="custom-container">
 
         <div className="py-10 bg-white 4xl:max-w-[1200px] 4xl:w-[1200px] xl:w-[1000px]">
-          <div className=" ">
+          <div>
             <h1 className="text-[#000000] py-6 leading-tight text-[24px] 4xl:text-[60px] xl:text-[45px]">{t('warrantyTitle')}</h1>
           </div>
           <div className="py-4"></div>
@@ -137,9 +137,7 @@ export default function Page() {
             <p className="pb-6 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t('solutionsDescOne')}</p>
 
             <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t('solutionsDescTwo')}</p>
-
             <div className="py-6"></div>
-
             <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] text-[20px] pb-6">{t('benefitsTitle')}</h2>
             <div className="pl-2">
               <UnorderedList
@@ -147,11 +145,8 @@ export default function Page() {
                 liClassName="pb-4 last:pb-0"
                 arrName={benefitsList}
               />
-
             </div>
-
           </div>
-
         </div>
       </section>
 

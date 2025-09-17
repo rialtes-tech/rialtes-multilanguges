@@ -96,7 +96,7 @@ export default function Page() {
                 <span className="text-[#ACACAC]"> | </span>
                 {t("date")}                        
               </div>
-              <div className="flex flex-row gap-6 ml-[-8px] ">
+              <div className="flex flex-row gap-6 ml-[-8px]">
                 <div className="max-w-[40px]">
                   <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`} target="_blank" rel="noopener noreferrer" >
                     <Image

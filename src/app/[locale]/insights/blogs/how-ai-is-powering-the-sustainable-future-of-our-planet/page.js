@@ -15,16 +15,11 @@ import OrderedList from "@/app/[locale]/components/orderedList";
 
 const schemaData = {
   "@context": "https://schema.org",
-
   "@type": "BlogPosting",
-
   headline: "How AI Powers The Sustainable Future of Our Planet",
-
   description:
     "AI is a powerful ally in building a sustainable future by enhancing energy efficiency, protecting forests, preserving biodiversity, and enabling smarter climate solutions.",
-
   image: "https://www.rialtes.com/images/blog/sustainability-banner.webp",
-
   author: {
     "@type": "Organization",
 
@@ -155,7 +150,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { blogs, energyContent, smartList,faqs,climatePara,sustainabilityPara , thatList, trendsList, oceanParagraphs,oceanUseCases ,forestUseCases,farmingContent, } = blogsContent.aiPowerBlog;
+  const { blogs, goalDesc1, energyContent, smartList, faqs, climatePara, sustainabilityPara, thatList, trendsList, oceanParagraphs, oceanUseCases, forestUseCases, farmingContent, } = blogsContent.aiPowerBlog;
 
   const fullUrl =
     "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
@@ -198,10 +193,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section
-        className="
-       custom-container"
-      >
+      <section className="custom-container">
         <div className="pt-10 bg-white">
           <div className=" mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
@@ -267,8 +259,7 @@ export default function Page() {
           <div className=" mx-auto">
             <h1
               className="text-[#000000] leading-tight text-[26px] 2xl:text-[48px] 4xl:text-[60px] xl:text-[42px] md:text-[28px] 
-                         xl:w-[1000px] 4xl:w-[1150px] pb-6"
-            >
+                         xl:w-[1000px] 4xl:w-[1150px] pb-6">
               {t("aiTitle")}
             </h1>
           </div>
@@ -296,10 +287,17 @@ export default function Page() {
                 {t("goalDesc")}
               </p>
 
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                {t("goalDesc1")}
-              </p>
-
+              {
+                goalDesc1.map((data, ind) => {
+                  return (
+                    <p
+                      key={ind}
+                      className="4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]"
+                      dangerouslySetInnerHTML={{ __html: data }}
+                    />
+                  )
+                })
+              }
               <div className="py-6 "></div>
 
               <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
@@ -414,7 +412,7 @@ export default function Page() {
 
               <ol
                 className={
-                  "list-disc mt-3  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4"
+                  "list-disc mt-3 marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4"
                 }
               >
                 {oceanUseCases.map((item, i) => (
@@ -492,10 +490,7 @@ export default function Page() {
                     key={i}
                     className={
                       "text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"
-                    }
-                  >
-                    {text}
-                  </p>
+                    } dangerouslySetInnerHTML={{ __html: text }} />
                 ))}
               </>
 
@@ -508,10 +503,7 @@ export default function Page() {
                     key={i}
                     className={
                       "text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"
-                    }
-                  >
-                    {text}
-                  </p>
+                    } dangerouslySetInnerHTML={{ __html: text }} />
                 ))}
               </>
             </div>
