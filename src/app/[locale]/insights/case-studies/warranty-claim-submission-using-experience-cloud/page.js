@@ -137,9 +137,7 @@ export default function Page() {
             <p className="pb-6 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t('solutionsDescOne')}</p>
 
             <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t('solutionsDescTwo')}</p>
-
             <div className="py-6"></div>
-
             <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] text-[20px] pb-6">{t('benefitsTitle')}</h2>
             <div className="pl-2">
               <UnorderedList
