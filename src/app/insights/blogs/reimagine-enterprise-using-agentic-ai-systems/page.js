@@ -429,8 +429,6 @@ export default function Page() {
                                 Agentic AI isn’t just a step up—it’s a shift. Businesses using it see 2.4x higher productivity and 2.5x faster revenue growth. These systems use autonomous agents to reduce costs, speed up decision-making, and eliminate routine work. They <Link href={'https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience/'}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">collaborate, learn, and act</span> </Link> on their own, helping companies move faster and scale smarter.
                             </p>
 
-
-
                             <div className="4xl:py-6 2xl:py-4 xl:py-3"></div>
 
                             <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">

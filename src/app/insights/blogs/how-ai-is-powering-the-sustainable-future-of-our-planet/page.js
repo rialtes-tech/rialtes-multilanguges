@@ -1,5 +1,4 @@
 "use client";
-// pages/blog-detail.js
 import Image from "next/image";
 import Link from "next/link";
 import BlogsCarousel from "../../../components/latestBlogCarousel";
@@ -8,177 +7,91 @@ import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 
 const schemaData = {
-
     "@context": "https://schema.org",
-
     "@type": "BlogPosting",
-
     "headline": "How AI Powers The Sustainable Future of Our Planet",
-
     "description": "AI is a powerful ally in building a sustainable future by enhancing energy efficiency, protecting forests, preserving biodiversity, and enabling smarter climate solutions.",
-
     "image": "https://www.rialtes.com/images/blog/sustainability-banner.webp",
-
     "author": {
-
         "@type": "Organization",
-
         "name": "Rialtes"
-
     },
-
     "publisher": {
-
         "@type": "Organization",
-
         "name": "Rialtes",
-
         "logo": {
-
             "@type": "ImageObject",
-
             "url": " https://www.rialtes.com/images/homepage/logo.svg"
-
         }
-
     },
-
     "mainEntityOfPage": {
-
         "@type": "WebPage",
-
         "@id": "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet/"
-
     },
-
     "datePublished": "2025-08-21",
-
     "mainEntity": {
-
         "@type": "FAQPage",
-
         "name": "AI and Sustainability FAQs",
-
         "acceptedAnswer": [],
-
         "mainEntity": [
-
             {
-
                 "@type": "Question",
-
                 "name": "How is AI transforming energy management?",
-
                 "acceptedAnswer": {
-
                     "@type": "Answer",
-
                     "text": "AI improves how we generate, store, and use energy. It predicts demand, manages smart grids, and helps optimize performance in real time. Think solar panels that adjust based on weather forecasts or buildings that auto-regulate power consumption."
-
                 }
-
             },
-
             {
-
                 "@type": "Question",
-
                 "name": "What are smart grids, and how does AI support them?",
-
                 "acceptedAnswer": {
-
                     "@type": "Answer",
-
                     "text": "Smart grids are energy systems that adjust dynamically based on usage and supply. AI enables them to forecast demand, balance load, detect faults, and reduce outages. The result? Cleaner energy, fewer blackouts, and better integration of renewables like wind and solar."
-
                 }
-
             },
-
             {
-
                 "@type": "Question",
-
                 "name": "Can AI help fight deforestation?",
-
                 "acceptedAnswer": {
-
                     "@type": "Answer",
-
                     "text": "Yes. AI analyzes satellite imagery to detect illegal logging, predicts wildfire risks using weather data, and even listens for chainsaws in remote forests. These tools enable conservationists to act more quickly and protect more land more effectively."
-
                 }
-
             },
-
             {
-
                 "@type": "Question",
-
                 "name": "Is AI being used to protect biodiversity, too?",
-
                 "acceptedAnswer": {
-
                     "@type": "Answer",
-
                     "text": "Absolutely. AI-powered camera traps can identify species, track migrations, and monitor endangered populations without disturbing them. It’s helping researchers protect wildlife with minimal human intrusion."
-
                 }
-
             },
-
             {
-
                 "@type": "Question",
-
                 "name": "What role does AI play in ocean conservation?",
-
                 "acceptedAnswer": {
-
                     "@type": "Answer",
-
                     "text": "AI-guided underwater drones collect data on temperature, pH, and marine life. Algorithms track illegal fishing by flagging suspicious vessel behavior. It’s all about turning raw ocean data into insight—and action."
-
                 }
-
             },
-
             {
-
                 "@type": "Question",
-
                 "name": "Can AI predict natural disasters and climate shifts?",
-
                 "acceptedAnswer": {
-
                     "@type": "Answer",
-
                     "text": "Yes. AI-enhanced models predict floods, hurricanes, and rising sea levels faster and more accurately than traditional systems. That gives governments and communities the time to plan, adapt, and reduce damage."
-
                 }
-
             },
-
             {
-
                 "@type": "Question",
-
                 "name": "What are the risks of using AI for environmental goals?",
-
                 "acceptedAnswer": {
-
                     "@type": "Answer",
-
                     "text": "There are ethical concerns, bias in data, lack of transparency, or using AI in ways that harm local communities or ecosystems. That’s why responsible design, community involvement, and clear accountability are essential."
-
                 }
-
             }
-
         ]
-
     }
-
 }
 
 const blogs = [
@@ -311,13 +224,7 @@ export default function Page() {
         }
     ];
 
-
-
-
-
-
-    const fullUrl =
-        "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
 
     return (
         <div className="min-h-screen bg-white">
@@ -355,10 +262,7 @@ export default function Page() {
                 </div>
             </section>
 
-            <section
-                className="
-       custom-container"
-            >
+            <section className="custom-container">
                 <div className="pt-10 bg-white">
                     <div className=" mx-auto">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
@@ -370,12 +274,8 @@ export default function Page() {
                                 <div className="flex flex-row gap-6">
                                     <div className="max-w-[40px]">
                                         <a
-                                            href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                                                fullUrl
-                                            )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
+                                            href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                                            target="_blank" rel="noopener noreferrer">
                                             <Image
                                                 src="/images/case-studies/linkedin.svg"
                                                 alt="LinkedIn"
@@ -394,12 +294,8 @@ export default function Page() {
 
                                     <div className="max-w-[40px]">
                                         <a
-                                            href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                                                fullUrl
-                                            )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
+                                            href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                            target="_blank" rel="noopener noreferrer">
                                             <Image
                                                 src="/images/case-studies/twitter.svg"
                                                 alt="Twitter"
@@ -441,8 +337,8 @@ export default function Page() {
                             </h2>
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
-                                Sustainability is crucial for ensuring that future generations can enjoy a quality of life comparable to ours. The United Nations has established 
-                                   <Link
+                                Sustainability is crucial for ensuring that future generations can enjoy a quality of life comparable to ours. The United Nations has established
+                                <Link
                                     className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
                                     href={
                                         "https://sdgs.un.org/goals/"
@@ -450,10 +346,10 @@ export default function Page() {
                                 >
                                     <span className="px-2">17 Sustainable Development Goals</span>
                                 </Link>
-                                 (SDGs) as a roadmap to tackle global challenges like poverty, inequality, climate change, environmental degradation, peace, and justice.</p>
+                                (SDGs) as a roadmap to tackle global challenges like poverty, inequality, climate change, environmental degradation, peace, and justice.</p>
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                AI plays a growing role in this landscape. By analyzing massive datasets, spotting patterns humans miss, and making data-driven recommendations, AI enables smarter decision-making at every level. It helps cities become more energy-efficient, industries become cleaner, and farmers become more productive—all while reducing waste and emissions. Whether you're a policymaker, an enterprise leader, or a conservationist, AI can serve as a real-time compass for sustainability.                            </p>
+                                AI plays a growing role in this landscape. By analyzing massive datasets, spotting patterns humans miss, and making data-driven recommendations, AI enables smarter decision-making at every level. It helps cities become more energy-efficient, industries become cleaner, and farmers become more productive—all while reducing waste and emissions. Whether you're a policymaker, an enterprise leader, or a conservationist, AI can serve as a real-time compass for sustainability.Just as AI helps cities, industries, and farmers make smarter choices, <a href='https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>large language models</span> </a> are transforming how businesses connect with their customers.</p>
 
 
                             <div className="py-6 "></div>
@@ -481,7 +377,7 @@ export default function Page() {
                                 Smart grids are intelligent electricity networks that respond dynamically to demand and supply. Here’s what AI brings to the table:
                             </p>
 
-                            <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4">
+                            <ol className="list-disc  marker:text-xl pl-[36px] text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4">
                                 <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Real-time optimization: </h3> AI forecasts power usage and adjusts distribution instantly.  </li>
                                 <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Advanced Metering Infrastructure (AMI):</h3> Gives consumers and providers detailed, real-time data to control usage and costs.</li>
                                 <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Predictive maintenance:</h3> AI detects faults and anomalies early, reducing downtime and improving reliability.</li>
@@ -516,7 +412,7 @@ export default function Page() {
                                 Forests are vital carbon sinks but face increasing threats from illegal logging and wildfires.
                             </p>
 
-                            <ol className="list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4">
+                            <ol className="list-disc  marker:text-xl pl-[36px] text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-4">
                                 <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Satellite analysis: </h3> AI processes imagery to detect deforestation in real time.  </li>
                                 <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Wildfire prediction:</h3> Deep learning models use weather and historical fire data to predict high-risk areas.</li>
                                 <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Acoustic monitoring:</h3> AI can detect chainsaws and trucks in remote forests using sound, even before satellite images catch changes.</li>
@@ -554,7 +450,7 @@ export default function Page() {
                                 Oceans regulate Earth’s climate and support marine life, but they’re under stress from pollution and overfishing.
                             </p>
                             <p className="mt-3">AI is addressing this in several ways:</p>
-                            <ol className="list-disc mt-3  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4">
+                            <ol className="list-disc mt-3  marker:text-xl pl-[36px] text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4">
                                 <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Autonomous underwater vehicles (AUVs): </h3> Monitor temperature, acidity, and marine activity. </li>
                                 <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Smart sensors:</h3> Track ocean health indicators like coral bleaching and oxygen levels.</li>
                                 <li><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Illegal fishing detection:</h3> Predictive models analyze vessel routes to flag suspicious activity and alert authorities.</li>
@@ -585,7 +481,7 @@ export default function Page() {
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                                 Traditional climate models require massive computing power. AI speeds this up while improving accuracy.
                             </p>
-                            <ol className="list-disc  marker:text-xl pl-4 mt-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
+                            <ol className="list-disc  marker:text-xl pl-[36px] mt-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
                                 <li>AI-enhanced models predict hurricanes, floods, and sea-level rise faster.</li>
                                 <li>Governments use these insights to issue early warnings and plan resilient infrastructure.</li>
                                 <li>Resource allocation becomes more targeted in drought- and flood-prone areas.</li>
@@ -603,7 +499,7 @@ export default function Page() {
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                                 That means:                                </p>
 
-                            <ol className="list-disc  marker:text-xl pl-4 mt-2 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3">
+                            <ol className="list-disc marker:text-xl pl-[36px] mt-2 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3">
                                 <li>Using transparent, explainable models</li>
                                 <li>Involving local communities in tech design</li>
                                 <li>Ensuring data privacy and responsible use</li>
@@ -625,7 +521,7 @@ export default function Page() {
                                 Companies use AI to cut waste across the supply chain, monitor carbon emissions in real time, and automate reporting processes for ESG compliance. AI tools can optimize delivery routes, flag inefficient production processes, and even predict equipment failures before they lead to resource loss.
                             </p>
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Take manufacturing, for example. AI models can identify where raw materials get wasted, suggest energy-saving opportunities, or simulate different scenarios to make operations more sustainable without sacrificing profitability. In agriculture, retailers are using AI to reduce food waste by forecasting demand more accurately, improving shelf-life management, and minimizing overproduction.
+                                <a href='https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>  Take manufacturing</span></a>, for example. AI models can identify where raw materials get wasted, suggest energy-saving opportunities, or simulate different scenarios to make operations more sustainable without sacrificing profitability. In agriculture, retailers are using AI to reduce food waste by forecasting demand more accurately, improving shelf-life management, and minimizing overproduction.
                             </p>
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
@@ -644,9 +540,9 @@ export default function Page() {
                                 At Rialtes, we help organizations develop AI systems that make sustainability practical. From concept to execution, we partner with enterprises to apply AI ethically and effectively, turning climate ambition into action.
                             </p>
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Talk to our experts to learn how AI can unlock your sustainability potential, drive measurable impact, and help build a better future for both business and the planet.
+                                <a href='https://www.rialtes.com/contact-us/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Talk to our experts</span> </a> to learn how AI can unlock your sustainability potential, drive measurable impact, and help build a better future for both business and the planet.
                             </p>
-                             <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px]  xl:text-[21px] text-[23px] mt-16">
+                            <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px]  xl:text-[21px] text-[23px] mt-16">
                                 Frequently Asked Questions (FAQs)
                             </h2>
                         </div>

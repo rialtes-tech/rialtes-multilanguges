@@ -29,16 +29,26 @@ const schemaData = {
 }
 
 const latestBlogs = [
-  // {
-  //   id: 39,
-  //   image: "/images/blog/sap-industry-mobile-banner.webp",
-  //   category: "SAP",
-  //   industry: "Generic",
-  //   date: "Sep. 16, 2025",
-  //   url: '/sap-build-for-manufacturing-4-0',
-  //   title: "Accelerating Industry 4.0 with SAP Build: Low-Code Tools for Smarter Manufacturing",
-  //   description: "Industry 4.0 has transformed factories into connected ecosystems where machines, people, and processes work in sync.",
-  // },
+  {
+    id: 39,
+    image: "/images/blog/ai-agents-in-manufacturing-mobile.webp",
+    category: "AI",
+    industry: "Generic",
+    date: "Sep. 17, 2025",
+    url: '/implementing-ai-agents-in-manufacturing-operations',
+    title: "5 Signs You’re Ready to Implement AI Agents in Your Manufacturing Operations",
+    description: "Today, manufacturers are faced with a choice: continue adding incremental automation to existing systems or make a significant leap into AI-driven operations that are capable of learning, adapting, and taking action.",
+  }, 
+  {
+    id: 39,
+    image: "/images/blog/sap-industry-mobile-banner.webp",
+    category: "SAP",
+    industry: "Generic",
+    date: "Sep. 16, 2025",
+    url: '/sap-build-for-manufacturing-4-0',
+    title: "Accelerating Industry 4.0 with SAP Build: Low-Code Tools for Smarter Manufacturing",
+    description: "Industry 4.0 has transformed factories into connected ecosystems where machines, people, and processes work in sync.",
+  },
   {
     id: 38,
     image: "/images/blog/agentforce-ai-erp-mobile.webp",
