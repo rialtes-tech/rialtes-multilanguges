@@ -3333,6 +3333,8 @@
         "moveDesc2": " pour mettre en place des processus agricoles intelligents basés sur les données, tout en gérant de manière cohérente les données agricoles dans l’ensemble de votre entreprise avec SAP BTP."
     },
     "remagineEnterprise": {
+                "date":"25 août 2025",
+
         "blogs": [
             {
                 "id": 1,
@@ -4932,6 +4934,8 @@
         "faqTitle": "FAQ : Foire aux questions"
     },
     "beyondRobotics": {
+                "date":"01 septembre 2025",
+
         "blogs": [
             {
                 "id": 1,
@@ -5149,6 +5153,7 @@
         "faqTitle": "FAQ : Fabrication intelligente avec des agents IA"
     },
     "sapPiPo": {
+         "date":"26 août  2025",
         "blogs": [
             {
                 "id": 1,

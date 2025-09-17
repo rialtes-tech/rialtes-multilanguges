@@ -130,7 +130,7 @@ export default function Page() {
                         <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">{t('blogTopic')}</span>
-                                <span className="text-[#ACACAC]"> | </span>25 August 2025
+                                <span className="text-[#ACACAC]"> | </span>{t('date')}
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
@@ -215,11 +215,11 @@ export default function Page() {
                                 {t('agenticAiDesc2')}
                             </p>
 
-                            <ol className="list-disc marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-5">
+                            <ol className="list-disc pl-[25px] lg:pl-[32px] marker:text-xl text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-5">
                                 {
                                     agenticData.map((data, ind) => {
                                         return (
-                                            <li key={ind}><h4 className="font-bold inline 4xl:text-[18px] 2xl:text-[16px] xl:text-[15px] text-[16px]">{data.title}</h4>
+                                            <li key={ind}><h4 className=" font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">{data.title}</h4>
                                                 {" "}  {data.desc}
                                             </li>
                                         )
@@ -240,18 +240,18 @@ export default function Page() {
                             </p>
 
 
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
+                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-3">
                                 {t('keyTitle')}
                             </h3>
                             <div className="space-y-8">
                                 {benefits.map((item, index) => (
-                                    <div key={index} className="flex items-start gap-4">
+                                    <div key={index} className="pl-[8px] lg:pl-[17px] flex items-start gap-4">
                                         <div className="flex-shrink-0 w-2 h-2 mt-2 bg-black rounded-full"></div>
                                         <div>
-                                            <h4>
+                                            <h4 className="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
                                                 {item.title}
                                             </h4>
-                                            <p className="mt-2">{item.description}</p>
+                                            <p className="mt-2 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">{item.description}</p>
                                         </div>
                                     </div>
                                 ))}
@@ -310,7 +310,7 @@ export default function Page() {
                                 aiThinksData.map((data, ind) => {
                                     return (
                                         <div key={ind}>
-                                            <h4 className="mt-5">{data.title}</h4>
+                                            <h4 className="mt-5 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">{data.title}</h4>
                                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-3">
                                                 {data.desc}
                                             </p>

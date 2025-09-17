@@ -3333,6 +3333,7 @@
         "moveDesc2": " to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP."
     },
     "remagineEnterprise": {
+        "date":"25 August 2025",
         "blogs": [
             {
                 "id": 1,
@@ -4468,6 +4469,7 @@
         "faqTitle": "FAQs: Frequently Asked Questions"
     },
     "beyondRobotics": {
+        "date":"01 September 2025",
         "blogs": [
             {
                 "id": 1,
@@ -5148,6 +5150,7 @@
         ]
     },
     "sapPiPo": {
+          "date":"26 August 2025",
         "blogs": [
             {
                 "id": 1,
