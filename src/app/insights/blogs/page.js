@@ -30,7 +30,7 @@ const schemaData = {
 
 const latestBlogs = [
   {
-    id: 39,
+    id: 40,
     image: "/images/blog/ai-agents-in-manufacturing-mobile.webp",
     category: "AI",
     industry: "Generic",
@@ -38,7 +38,7 @@ const latestBlogs = [
     url: '/implementing-ai-agents-in-manufacturing-operations',
     title: "5 Signs You’re Ready to Implement AI Agents in Your Manufacturing Operations",
     description: "Today, manufacturers are faced with a choice: continue adding incremental automation to existing systems or make a significant leap into AI-driven operations that are capable of learning, adapting, and taking action.",
-  }, 
+  },
   {
     id: 39,
     image: "/images/blog/sap-industry-mobile-banner.webp",
