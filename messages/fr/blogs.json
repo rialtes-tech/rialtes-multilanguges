@@ -3506,7 +3506,9 @@
         "blogTitle": "Réinventer l’entreprise avec des systèmes d’IA agentique",
         "manufacturingTitle": "La fabrication a un problème d’expérience client",
         "manufacturingDesc": "La façon dont les humains interagissent avec l’IA évolue. D’outils isolés à des agents intelligents capables de planifier des voyages, surveiller la logistique, assister les personnes âgées ou gérer l’inventaire à l’échelle mondiale.",
-        "manufacturingDesc2": "L’IA agentique n’est pas seulement une amélioration, c’est un changement de paradigme. Les entreprises qui l’utilisent voient une productivité 2,4x plus élevée et une croissance des revenus 2,5x plus rapide.",
+        "manufacturingDesc2": [
+            "L’IA agentique n’est pas seulement une amélioration — c’est un changement de paradigme. Les entreprises qui l’utilisent constatent une productivité 2,4 fois supérieure et une croissance des revenus 2,5 fois plus rapide. Ces systèmes utilisent des agents autonomes pour réduire les coûts, accélérer la prise de décision et éliminer les tâches routinières. Ils <a href='https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>collaborent, apprennent et agissent</span></a> de manière autonome, aidant les entreprises à aller plus vite et à se développer plus intelligemment."
+        ],
         "agenticAiTitle": "Qu’est-ce que l’IA agentique ? Des outils d’IA aux coéquipiers intelligents",
         "agenticAiDesc": "L’IA agentique repose sur des agents intelligents et autonomes qui travaillent ensemble pour optimiser des processus complexes.",
         "agenticAiDesc2": "Ce qui la rend différente :",
@@ -4331,7 +4333,9 @@
         "whatDesc": "La durabilité est cruciale pour garantir que les générations futures puissent bénéficier d'une qualité de vie comparable à la nôtre. Les Nations Unies ont établi ",
         "goal": "17 Objectifs de Développement Durable",
         "goalDesc": "(ODD) comme feuille de route pour relever les défis mondiaux tels que la pauvreté, les inégalités, le changement climatique, la dégradation de l'environnement, la paix et la justice.",
-        "goalDesc1": "L'IA joue un rôle croissant dans ce domaine. En analysant d'énormes ensembles de données, en repérant des motifs que les humains manquent et en faisant des recommandations basées sur les données, l'IA permet une prise de décision plus intelligente à tous les niveaux. Elle aide les villes à devenir plus économes en énergie, les industries à devenir plus propres et les agriculteurs à être plus productifs, tout en réduisant les déchets et les émissions. Que vous soyez un décideur politique, un leader d'entreprise ou un défenseur de la conservation, l'IA peut servir de boussole en temps réel pour la durabilité.",
+        "goalDesc1": [
+            "L’IA joue un rôle croissant dans ce paysage. En analysant d’immenses ensembles de données, en détectant des schémas que les humains manquent et en formulant des recommandations basées sur les données, l’IA permet une prise de décision plus intelligente à tous les niveaux. Elle aide les villes à devenir plus économes en énergie, les industries à être plus propres et les agriculteurs à être plus productifs — tout en réduisant les déchets et les émissions. Que vous soyez décideur politique, dirigeant d’entreprise ou défenseur de l’environnement, l’IA peut servir de boussole en temps réel pour la durabilité. Tout comme l’IA aide les villes, les industries et les agriculteurs à faire des choix plus intelligents, les <a href='https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>grands modèles de langage</span></a> transforment la façon dont les entreprises se connectent avec leurs clients."
+        ],
         "howTitle": "Comment l'IA est-elle utilisée dans la gestion intelligente de l'énergie ?",
         "smartTitle": "Réseaux intelligents et fonctionnement avec l'IA",
         "smartDesc": "Les réseaux intelligents sont des réseaux électriques intelligents qui réagissent dynamiquement à la demande et à l'offre. Voici ce que l'IA apporte :",
@@ -4458,12 +4462,12 @@
         "climatePara": [
             "L'IA n'est pas une solution miracle pour le changement climatique. Mais elle agit comme un puissant accélérateur, rendant les solutions plus rapides, intelligentes et évolutives. Qu'il s'agisse de prévoir des catastrophes naturelles, d'améliorer l'utilisation de l'énergie ou de protéger les écosystèmes en danger, la technologie prouve sa valeur dans presque tous les aspects de la durabilité.",
             "Chez Rialtes, nous aidons les organisations à développer des systèmes d'IA qui rendent la durabilité concrète. Du concept à l'exécution, nous collaborons avec les entreprises pour appliquer l'IA de manière éthique et efficace, transformant l'ambition climatique en action.",
-            "Parlez à nos experts pour découvrir comment l'IA peut libérer votre potentiel de durabilité, générer un impact mesurable et contribuer à un avenir meilleur pour les entreprises et la planète."
+            "<a href='https://www.rialtes.com/contact-us/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Parlez à nos experts</span></a> pour découvrir comment l’IA peut libérer votre potentiel de durabilité, générer un impact mesurable et contribuer à construire un avenir meilleur pour les entreprises et la planète."
         ],
         "sustainabilityPara": [
             "Les consommateurs veulent des produits plus propres. Les régulateurs renforcent les exigences. Les investisseurs récompensent les entreprises avec une forte performance ESG (Environnementale, Sociale et de Gouvernance). Et l'IA aide les entreprises à rester en avance sur ces trois aspects.",
             "Les entreprises utilisent l'IA pour réduire les déchets dans la chaîne d'approvisionnement, surveiller les émissions de carbone en temps réel et automatiser les processus de reporting pour la conformité ESG. Les outils d'IA peuvent optimiser les itinéraires de livraison, signaler les processus de production inefficaces et même prédire les pannes d'équipement avant qu'elles ne causent une perte de ressources.",
-            "Prenons l'exemple de la fabrication. Les modèles d'IA peuvent identifier où les matières premières sont gaspillées, suggérer des opportunités d'économie d'énergie ou simuler différents scénarios pour rendre les opérations plus durables sans sacrifier la rentabilité. En agriculture, les détaillants utilisent l'IA pour réduire le gaspillage alimentaire en prévoyant la demande avec plus de précision, en améliorant la gestion de la durée de vie des produits et en minimisant la surproduction.",
+            "<a href='https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Prenons l’exemple de la fabrication</span></a>. Les modèles d’IA peuvent identifier où les matières premières sont gaspillées, suggérer des opportunités d’économie d’énergie ou simuler différents scénarios pour rendre les opérations plus durables sans sacrifier la rentabilité. Dans l’agriculture, les distributeurs utilisent l’IA pour réduire le gaspillage alimentaire en prévoyant la demande plus précisément, en améliorant la gestion de la durée de conservation et en minimisant la surproduction.",
             "En fin de compte, les entreprises qui adoptent l'IA non seulement pour l'efficacité mais aussi pour la responsabilité environnementale seront celles qui façonneront l'économie future."
         ],
         "thatList": [
@@ -6331,5 +6335,85 @@
         "applicationDesc": "L'intégration des agents IA d'Agentforce avec les systèmes ERP transforme les opérations des entreprises en améliorant l'efficacité, la précision et la fonctionnalité. Ces agents automatisent les processus, fournissent des informations exploitables et facilitent des flux de travail fluides dans les modules clés d'ERP.",
         "buildingTitle": "Construire un ERP intelligent et évolutif avec Agentforce",
         "faqTitle": "FAQ : Questions fréquentes"
+    },
+    "fiveSigns": {
+        "mainData": [
+            "Aujourd’hui, les fabricants sont confrontés à un choix : continuer à ajouter de l’automatisation incrémentale aux systèmes existants ou faire un saut significatif vers des opérations pilotées par l’IA, capables d’apprendre, de s’adapter et d’agir.",
+            "Les agents IA ne représentent pas seulement un nouvel outil, mais un <a href='https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> changement fondamental dans la façon dont le travail est effectué</span></a>, les décisions sont prises et les problèmes sont résolus. Cependant, comment déterminer si votre atelier et vos processus métier sont prêts pour cette transition ?",
+            "Le point clé est que l’adoption d’agents IA va au-delà de l’achat d’un nouvel outil ; il s’agit de reconnaître le moment où votre entreprise est prête à franchir ce cap. Si vous identifiez ces cinq signes dans vos opérations, agir rapidement est crucial, car vous pourriez déjà être en retard."
+        ],
+        "payoffData": [
+            "Si vous vous identifiez à deux scénarios ou plus parmi les suivants, vous êtes bien positionné pour adopter les agents IA. Vos systèmes existants, vos processus et votre besoin d’amélioration sont déjà en place ; ce qu’il vous faut, c’est une couche d’intelligence qui intègre tout et agit en temps réel. Lorsqu’ils sont mis en œuvre efficacement, les agents IA réduisent les coûts, améliorent l’agilité,<a href='https: //www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> renforcent la confiance des clients </span></a> et accroissent la résilience de vos opérations.",
+            "Rialtes aide les fabricants à mettre en œuvre Agentforce dans les opérations, les ventes et le service. En tant que <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> Partenaire Crest Salesforce</span></a>, nous apportons la stratégie, les systèmes et le support nécessaires pour rendre les agents IA réels et rapides. <Strong> Construisons des agents pensants pour vos opérations.</Strong>"
+        ],
+        "commonData": [
+            {
+                "title": "Vos équipes sont submergées par des tâches répétitives et à faible valeur ajoutée",
+                "desc": "Chaque fabricant en a : contrôles d’état, suivi des expéditions, mises à jour de commandes et inspections de qualité de routine. Le problème est que vos employés qualifiés sont bloqués dans la saisie de données, le tri manuel et les cycles administratifs au lieu de se concentrer sur l’amélioration et l’innovation.",
+                "list": [
+                    "Les agents IA n’attendent pas qu’un humain lance des rapports ; ils les exécutent automatiquement, signalent les anomalies et déclenchent même des actions correctives.",
+                    "Ils s’intègrent aux systèmes ERP, MES et CRM pour récupérer et mettre à jour les informations sans obliger les utilisateurs à naviguer dans plusieurs écrans.",
+                    "Ils assurent une surveillance 24/7, de sorte que votre équipe arrive avec une liste d’informations exploitables au lieu d’un arriéré de “demandes de statut”."
+                ],
+                "desc2": "Si vous pouvez lister cinq choses que vos opérateurs ou gestionnaires font quotidiennement et qu’une machine pourrait faire tout aussi bien (ou mieux), vous êtes prêt pour les agents IA."
+            },
+            {
+                "title": "Les goulets d’étranglement dans la prise de décision ralentissent la production",
+                "desc": "Une livraison fournisseur en retard, une panne machine ou un changement soudain de la demande nécessitent une décision rapide. Mais trop souvent, vos processus dépendent du passage de l’information à travers plusieurs couches humaines avant qu’une action soit prise. Lorsque la décision est enfin prise, il est déjà trop tard pour éviter les retards.",
+                "desc2": "<strong>Les agents IA</strong> agissent sur des données en temps réel, pas sur les rapports batch de la veille. Ils n’escaladent que les décisions nécessitant un jugement humain, tout en résolvant tout le reste immédiatement. Ils peuvent aussi modéliser des scénarios « et si » instantanément, afin que l’impact d’un changement soit clair avant de vous engager. C’est un grand pas en avant par rapport aux copilotes ou aux bots, qui jouent un rôle différent — <a href='https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>voir la comparaison complète ici</span></a>.",
+                "desc3": "<strong>Exemple :</strong> Si une expédition est retardée, un agent IA peut réacheminer le stock disponible, mettre à jour le planning de production, avertir les clients et réserver un transport alternatif, tout cela sans attendre une réunion de direction."
+            },
+            {
+                "title": "Votre travail de service et de maintenance est réactif, pas prédictif",
+                "desc": "Si les pannes vous surprennent encore, vous êtes en mode réactif, et cela vous coûte cher. Chaque heure d’arrêt non planifié peut entraîner des milliers de dollars de perte de production, des délais non respectés et des clients mécontents. Avec des agents IA en place, la santé de vos équipements est surveillée en continu, et les interventions ont lieu avant la panne.",
+                "list": [
+                    "Ils ne se contentent pas de collecter des données de capteurs ; ils agissent dessus",
+                    "Lorsque les données de vibration indiquent une usure des roulements, ils peuvent planifier automatiquement la maintenance, commander les pièces de rechange et alerter le technicien approprié.",
+                    "Pour les réclamations de garantie, ils peuvent vérifier instantanément l’historique du produit, les modes d’utilisation et les dossiers de service afin de confirmer la couverture"
+                ]
+            },
+            {
+                "title": "L’expérience client est le maillon faible de votre chaîne de valeur",
+                "desc": "Vous pouvez fabriquer des produits de classe mondiale, mais si vos clients rencontrent des réponses lentes, des mises à jour peu claires ou des retours compliqués, votre marque en pâtit. En fabrication, le service après-vente peut être aussi important que la qualité de production.",
+                "desc2": "Les agents IA gèrent instantanément les demandes courantes telles que l’état des commandes, la disponibilité des pièces et la couverture de garantie. Ils offrent un support multilingue et multicanal sans accroître les besoins en personnel. De plus, ils peuvent informer proactivement les clients des retards, des livraisons replanifiées ou des rendez-vous de service.",
+                "desc3": "Pendant ce temps, votre équipe de support humaine peut se concentrer sur les cas complexes nécessitant empathie et négociation, tandis que les agents IA gèrent efficacement les tâches quotidiennes à la vitesse de la machine."
+            },
+            {
+                "title": "Vous avez les données, mais elles ne déclenchent pas d’actions en temps réel",
+                "desc": "Les fabricants ne manquent pas de données — comptages de production, temps de cycle, taux de rebut, journaux de maintenance, commandes clients. Le défi est de transformer ces données en quelque chose qui guide les décisions immédiatement.",
+                "list": [
+                    "Les agents IA comblent l’écart entre « données collectées » et « actions entreprises ». ",
+                    "Si les taux de rebut dépassent un seuil, ils peuvent arrêter un processus, alerter le contrôle qualité et envoyer des instructions à l’atelier en quelques secondes.",
+                    "Si la demande augmente, ils peuvent déclencher instantanément la commande de matières premières et ajuster les plannings de production."
+                ],
+                "desc2": "Considérez-les comme un moteur de décision constant qui ne dort jamais, toujours connecté et toujours actif."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "1. En quoi les agents IA sont-ils différents de l’automatisation classique ?",
+                "answer": "L’automatisation classique suit des règles et des scripts définis. Les agents IA s’adaptent au contexte, apprennent des résultats et peuvent prendre des décisions de manière autonome dans des paramètres définis."
+            },
+            {
+                "question": "2. Ai-je besoin d’une refonte complète du système pour utiliser les agents IA ?",
+                "answer": "Pas nécessairement. Les agents IA modernes peuvent s’intégrer à vos systèmes ERP, MES et CRM existants, permettant une adoption progressive."
+            },
+            {
+                "question": "3. Les agents IA sont-ils uniquement destinés aux grands fabricants ?",
+                "answer": "Non. Les fabricants de taille moyenne constatent souvent le retour sur investissement le plus rapide car les agents IA réduisent le besoin de personnel supplémentaire et d’infrastructure."
+            },
+            {
+                "question": "4. Combien de temps faut-il avant que les agents IA ne commencent à montrer des résultats ?",
+                "answer": "Pour des implémentations bien définies, vous pouvez voir des améliorations mesurables des délais, de la disponibilité et des temps de réponse du service en 3 à 6 mois."
+            },
+            {
+                "question": "5. Quels risques dois-je envisager avant d’adopter les agents IA ?",
+                "answer": "Les principales considérations incluent la qualité des données, la complexité de l’intégration et la définition de limites claires pour les actions autonomes afin d’éviter des résultats indésirables."
+            }
+        ],
+        "blogTopic": "Intelligence Artificielle",
+        "blogTitle": "5 signes que vous êtes prêt à mettre en œuvre des agents IA dans vos opérations de fabrication",
+        "payoffTitle": "Le gain de la préparation",
+        "faqTitle": "FAQ : Agents IA dans la fabrication"
     }
 }

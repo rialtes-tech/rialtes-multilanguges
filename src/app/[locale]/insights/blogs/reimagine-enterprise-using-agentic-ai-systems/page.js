@@ -86,7 +86,7 @@ export default function Page() {
     const t = useTranslations("remagineEnterprise");
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { blogs, faqs, tableData, benefits, agenticData, aiThinksData, humansData } = content.remagineEnterprise
+    const { blogs, faqs, tableData, benefits, agenticData, aiThinksData, humansData,manufacturingDesc2 } = content.remagineEnterprise
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
 
     return (
@@ -190,7 +190,7 @@ export default function Page() {
                         </h1>
                     </div>
 
-                    <div className=" mx-auto">
+                    <div className="mx-auto">
                         <div className="max-w-[1200px] 4xl:w-[1284px] 2xl:w-[950px] xl:w-[850px]">
                             <div className="py-6 "></div>
                             <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
@@ -199,9 +199,17 @@ export default function Page() {
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
                                 {t('manufacturingDesc')}
                             </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                {t('manufacturingDesc2')}
-                            </p>
+                            {
+                                manufacturingDesc2.map((data, ind) => {
+                                    return (
+                                        <p
+                                            key={ind}
+                                            className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"
+                                            dangerouslySetInnerHTML={{ __html: data }}
+                                        />
+                                    )
+                                })
+                            }
 
                             <div className="py-6 "></div>
 

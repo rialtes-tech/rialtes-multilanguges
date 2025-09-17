@@ -44,7 +44,7 @@ export default function Page() {
   const t = useTranslations("omnichannelCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { slides, problemList, featureList,benifitList } = Content.omnichannelCaseStudy;
+  const { slides, problemList, featureList, benifitList } = Content.omnichannelCaseStudy;
 
   const fullUrl =
     "https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud";
@@ -64,7 +64,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      <section className="relative h-[350px] md:h-[500px] xl:h-[450px] 4xl:h-[650px] overflow-hidden">
         <Image
           src="/images/case-studies/case-study-4.webp "
           alt="Omnichannel case management with Salesforce Service Cloud"
@@ -76,33 +76,22 @@ export default function Page() {
 
       <section className="custom-container">
         <div className="py-10 bg-white 4xl:max-w-[1084px] 4xl:w-[1084px] xl:w-[850px]">
-          <div className="">
-            <h1 className="text-[#000000] py-6 leading-tight text-[26px]  4xl:text-[60px] xl:text-[45px]">
+          <div>
+            <h1 className="text-[#000000] py-6 leading-tight text-[26px 4xl:text-[60px] xl:text-[45px]">
               {t("serviceTitle")}
             </h1>
           </div>
 
-          <div className="">
-            <div className="flex flex-col md:flex-row justify-between text-black">
-              <div className="pb-6">
-                <span className="text-[#0092E0]">{t("manufacturing")}</span>{" "}
-                <span className="text-[#ACACAC]"> | </span>
-                {t("date")}
-              </div>
-              <div className="flex flex-col">
-                <span>{t("read")}</span>
-              </div>
+          <div className="flex flex-col md:flex-row justify-between text-black mt-4">
+            <div className="pb-6">
+              <span className="text-[#0092E0]">{t("manufacturing")}</span>{" "}
+              <span className="text-[#ACACAC]"> | </span>
+              {t("date")}
             </div>
-            <div className="pt-4"></div>
             <div className="flex flex-row gap-6 ml-[-8px]">
               <div className="max-w-[40px]">
-                <a
-                  href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                    fullUrl
-                  )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                  target="_blank" rel="noopener noreferrer">
                   <Image
                     src="/images/case-studies/linkedin.svg"
                     alt="LinkedIn"
@@ -119,13 +108,8 @@ export default function Page() {
                 </a>
               </div>
               <div className="max-w-[40px]">
-                <a
-                  href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                    fullUrl
-                  )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                  target="_blank" rel="noopener noreferrer">
                   {" "}
                   <Image
                     src="/images/case-studies/twitter.svg"
@@ -144,43 +128,44 @@ export default function Page() {
               </div>
             </div>
           </div>
+          <div className="pt-4"></div>
 
           <div className="py-6"></div>
-          <div className="">
-            <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+          <div>
+            <div>
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] text-[20px] pb-4">
                 {t("clientTitle")}
               </h2>
-              <p className="text-black">{t("clientDesc")}</p>
+              <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("clientDesc")}</p>
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] text-[20px] pb-4">
                 {t("problemTitle")}
               </h2>
 
-              <p className="text-black pb-2">{t("problemDesc")}</p>
+              <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] pb-2">{t("problemDesc")}</p>
 
               <div className="pl-2">
                 <UnorderedList
-                  ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4  xl:text-[20px] text-[16px] md:text-[19px] font-medium"
-                  liClassName="text-black pb-4"
+                  ulClassName="mt-3 list-disc marker:text-[#0092E0] marker:text-xl text-black pl-[34px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium"
+                  liClassName="text-black pb-2"
                   arrName={problemList}
                 />
               </div>
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] text-[20px] pb-4">
                 {t("solutionsTitle")}{" "}
               </h2>
 
-              <p className="text-black pb-4">{t("solutionsDesc")}</p>
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("solutionsDesc")}</p>
 
               <div className="pl-2">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-[34px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium">
                   {featureList.map((feature, index) => (
                     <li key={index} className="pb-4">
-                      <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">
+                      <h3 className="h3-bold inline 4xl:text-[20px] text-[17px] xl:text-[18px]">
                         {feature.title}
                       </h3>
                       : {feature.desc}
@@ -192,14 +177,14 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
 
-          <div className="">
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+          <div>
+            <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] text-[20px] pb-4">
               {t("benefitsTitle")}
             </h2>
 
             <div className="pl-2">
               <UnorderedList
-                ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4  xl:text-[20px] text-[16px] md:text-[19px] font-medium"
+                ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-[34px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium"
                 liClassName="text-black pb-4"
                 arrName={benifitList}
               />
