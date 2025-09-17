@@ -177,6 +177,16 @@
     ],
     "latestBlogs": [
       {
+        "id": 40,
+        "image": "/images/blog/ai-agents-in-manufacturing-mobile.webp",
+        "category": "IA",
+        "industry": "Générique",
+        "date": "17 septembre 2025",
+        "url": "/mise-en-oeuvre-agents-ia-dans-operations-de-fabrication",
+        "title": "5 signes que vous êtes prêt à mettre en œuvre des agents IA dans vos opérations de fabrication",
+        "description": "Aujourd’hui, les fabricants sont confrontés à un choix : continuer à ajouter de l’automatisation incrémentale aux systèmes existants ou faire un saut significatif vers des opérations pilotées par l’IA, capables d’apprendre, de s’adapter et d’agir."
+      },
+      {
         "id": 39,
         "image": "/images/blog/sap-industry-mobile-banner.webp",
         "category": "SAP",
