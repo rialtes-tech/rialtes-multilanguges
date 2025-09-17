@@ -72,7 +72,7 @@ export default function Page() {
       <section className="custom-container">
 
         <div className="py-10 bg-white 4xl:max-w-[1200px] 4xl:w-[1200px] xl:w-[1000px]">
-          <div className=" ">
+          <div>
             <h1 className="text-[#000000] py-6 leading-tight text-[24px] 4xl:text-[60px] xl:text-[45px]">{t('warrantyTitle')}</h1>
           </div>
           <div className="py-4"></div>
@@ -147,11 +147,8 @@ export default function Page() {
                 liClassName="pb-4 last:pb-0"
                 arrName={benefitsList}
               />
-
             </div>
-
           </div>
-
         </div>
       </section>
 

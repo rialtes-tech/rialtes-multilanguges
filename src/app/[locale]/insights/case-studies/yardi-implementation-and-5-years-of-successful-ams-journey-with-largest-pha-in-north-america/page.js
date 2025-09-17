@@ -62,7 +62,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      <section className="relative h-[350px] md:h-[500px] xl:h-[450px] 4xl:h-[650px] overflow-hidden">
         <Image
           src="/images/case-studies/publicsector (1).webp "
           alt="A public housing in US"
@@ -75,7 +75,7 @@ export default function Page() {
       <section className="custom-container">
         <div className="py-10 bg-white 4xl:max-w-[1080px] 4xl:w-[1080px] xl:w-[900px]">
           <div>
-            <h1 className="text-[#000000] py-6 leading-tight text-[26px]  4xl:text-[60px] xl:text-[45px]">
+            <h1 className="text-[#000000] md:py-6 leading-tight text-[26px] 4xl:text-[60px] xl:text-[45px]">
               {t("headerTitle")}
             </h1>
           </div>
@@ -87,58 +87,44 @@ export default function Page() {
                 <span className="text-[#ACACAC]"> | </span>
                 {t("date")}
               </div>
-              <div className="flex flex-col">
-                <span>{t("read")}</span>
-              </div>
-            </div>
-            <div className="pt-4"></div>
-            <div className="flex flex-row gap-6 ml-[-8px]">
-              <div className="max-w-[40px]">
-                <a
-                  href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                    fullUrl
-                  )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Image
-                    src="/images/case-studies/linkedin.svg"
-                    alt="LinkedIn"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                    priority
-                  />
-                </a>
-              </div>
-              <div className="max-w-[40px]">
-                <a
-                  href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                    fullUrl
-                  )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <Image
-                    src="/images/case-studies/twitter.svg"
-                    alt="Twitter"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                    priority
-                  />
-                </a>
+              <div className="flex flex-row gap-6 ml-[-8px]">
+                <div className="max-w-[40px]">
+                  <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                    target="_blank" rel="noopener noreferrer">
+                    <Image
+                      src="/images/case-studies/linkedin.svg"
+                      alt="LinkedIn"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                      }}
+                      priority
+                    />
+                  </a>
+                </div>
+                <div className="max-w-[40px]">
+                  <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                    target="_blank" rel="noopener noreferrer">
+                    {" "}
+                    <Image
+                      src="/images/case-studies/twitter.svg"
+                      alt="Twitter"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                      }}
+                      priority
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -146,54 +132,54 @@ export default function Page() {
           <div className="py-6"></div>
           <div>
             <div>
-              <h3 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h3 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] text-[20px] pb-4">
                 {t("clientTitle")}
               </h3>
-              <p className="text-black">{t("clientDesc")}</p>
+              <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("clientDesc")}</p>
               <div className="py-6"></div>
 
-              <h3 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h3 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] text-[20px] pb-4">
                 {t("challengesTitle")}
               </h3>
-              <p className="pb-4 text-black">{t("challengesDesc")}</p>
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
-                  {challengesList.map((item, idx) => (
-                    <li className="pb-4 last:pb-0" key={idx}>
-                      <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
-                        {item.title}
-                      </h3> : {item.description}
-                    </li>
-                  ))}
-                </ul>
-          
+              <p className="pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("challengesDesc")}</p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl pl-[34px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium">
+                {challengesList.map((item, idx) => (
+                  <li className="pb-4 last:pb-0" key={idx}>
+                    <h3 className="inline h3-bold 4xl:text-[20px] text-[17px] xl:text-[18px]">
+                      {item.title}
+                    </h3> : {item.description}
+                  </li>
+                ))}
+              </ul>
+
 
               <div className="py-6"></div>
 
-              <h3 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h3 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] text-[20px] pb-4">
                 {t("solutionsTitle")}{" "}
               </h3>
 
-              <p className="text-black pb-4">{t("solutionsDesc")}</p>
-               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
-                  {solutionStepsList.map((item, idx) => (
-                    <li className="pb-4 last:pb-0" key={idx}>
-                      <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
-                        {item.title}
-                      </h3> : {item.description}
-                    </li>
-                  ))}
-                </ul>
-      
+              <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] pb-4">{t("solutionsDesc")}</p>
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl pl-[34px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium ">
+                {solutionStepsList.map((item, idx) => (
+                  <li className="pb-4 last:pb-0" key={idx}>
+                    <h3 className="inline h3-bold 4xl:text-[20px] text-[17px] xl:text-[18px]">
+                      {item.title}
+                    </h3> : {item.description}
+                  </li>
+                ))}
+              </ul>
+
             </div>
           </div>
           <div className="py-6"></div>
           <div>
             <div>
-              <h3 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h3 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] text-[20px] pb-4">
                 {t("benefits")}
               </h3>
               <UnorderedList
-                ulClassName="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium"
+                ulClassName="list-disc marker:text-[#0092E0] text-black pl-[34px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium"
                 liClassName="pb-4"
                 arrName={benefitsList}
               />
