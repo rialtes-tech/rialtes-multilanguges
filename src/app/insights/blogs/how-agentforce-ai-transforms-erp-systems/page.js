@@ -346,8 +346,8 @@ export default function Page() {
                             {
                                 benefitsData.map((data, ind) => {
                                     return (
-                                        <div className={`md:flex mt-24 md:mt-10 py-[34px] px-[26px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[850px] 3xl:w-[1100px] ${ind == 5 && "md:py-[54px]"}`} key={ind}>
-                                            <h3 className={`md:absolute max-md:mt-[-80px] max-md:w-fit 4xl:w-[330px] xl:w-[320px] md:w-[280px] md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[24px] xl:text-[20px] text-[17px] px-[40px] py-[22px]`}>{data.title}</h3>
+                                        <div className={`md:flex mt-24 md:mt-10 py-[34px] px-[26px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[850px] 3xl:w-[1100px] ${ind == 4 && "md:pb-[54px] 4xl:pb-[34px]"}`} key={ind}>
+                                            <h3 className={`md:absolute max-md:mt-[-80px] max-md:w-fit 4xl:w-[330px] xl:w-[320px] md:w-[280px] md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] px-[40px] py-[22px]`}>{data.title}</h3>
                                             <div className="4xl:text-[20px] xl:text-[17px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[220px] xl:ml-[260px] 4xl:ml-[280px]">{data.desc}</div>
                                         </div>
 
@@ -364,7 +364,7 @@ export default function Page() {
                                     applicationData.map((data, ind) => {
                                         return (
                                             <div key={ind} className="md:pr-[34px] md:pt-[26px] md:pb-[40px]">
-                                                <h3 className="mt-2 2xl:text-[22px] 4xl:text-[24px] xl:text-[20px] text-[18px] font-bold pb-4 border-b border-[#006FBE]">{data.title}</h3>
+                                                <h3 className="mt-2 2xl:text-[22px] 4xl:text-[24px] xl:text-[20px] text-[20px] font-bold pb-4 border-b border-[#006FBE]">{data.title}</h3>
                                                 <p
                                                     key={ind}
                                                     className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] 4xl:w-[94%]"
@@ -391,7 +391,7 @@ export default function Page() {
                                 })
                             }
 
-                            <h2 className="font-semibold mt-16 mb-8 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px]">FAQ: Frequently Asked Questions</h2>
+                            <h2 className="font-semibold mt-16 mb-8 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px]">FAQs: Importance of Connected Care Ecosystems for Pharma & MedTech</h2>
 
                             <FAQAccordion faqData={faqs} />
 

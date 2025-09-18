@@ -270,7 +270,7 @@ export default function Page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/home-health/Mobile/hero-banner-Mob.webp"
+                        src="/images/home-health/Mobile/hero-banner-mob.webp"
                         alt="mobile banner"
                         fill
                         style={{ objectFit: "cover", objectPosition: "5% 20%" }}
