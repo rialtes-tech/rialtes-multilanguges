@@ -133,7 +133,7 @@ export default function Page() {
                         <div className="flex flex-col md:flex-row justify-between text-black items-center xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">{t('blogTopic')}</span>{" "}
-                                <span className="text-[#ACACAC]"> | </span>{t('date')}
+                                <span className="text-[#ACACAC]"> | </span>01 September 2025
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
