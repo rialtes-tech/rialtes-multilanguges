@@ -88,7 +88,7 @@ const schemaData = {
 }
 const mainData = [
     "The life sciences industry is at an inflection point. Pharma and MedTech organizations are no longer judged only by how well they innovate in labs or build medical devices. Today, they’re measured by how effectively they can connect patients, providers, payers, and partners into one unified healthcare experience. That’s where connected care ecosystems come in, and why they’re becoming the next big bet for the industry.",
-    "Let’s break down why this shift matters, the opportunities it creates, and how platforms <strong>MediAIana</strong> are redefining what it means to deliver care in the digital era."
+    "Let’s break down why this shift matters, the opportunities it creates, and how platforms <span>MediAIana</span> are redefining what it means to deliver care in the digital era."
 ]
 const whyConnectedData = [
     {
@@ -119,12 +119,12 @@ const whyConnectedData = [
 ]
 const patientCenterData = [
     "Here’s the thing: at the heart of connected ecosystems lies one simple truth: the patient must be the focal point. Patients today expect healthcare to mirror their experiences in other industries: personalized, accessible, and digital-first. They want reminders on their phones, virtual consultations on demand, and access to their health history without repeating themselves at every step.",
-    "That’s why <strong>digital patient engagement in daily healthcare</strong> is no longer optional. It’s the foundation of trust, adherence, and long-term outcomes. Pharma and MedTech leaders that invest here aren’t just enhancing patient experience, they’re building loyalty and differentiation in a competitive market."
+    "That’s why <span>digital patient engagement in daily healthcare</span> is no longer optional. It’s the foundation of trust, adherence, and long-term outcomes. Pharma and MedTech leaders that invest here aren’t just enhancing patient experience, they’re building loyalty and differentiation in a competitive market."
 ]
 const longTermData = [
     {
         "title": "Chronic disease management",
-        "desc": "Diabetes, heart disease, and cancer care require ongoing support. Here, <strong>long-term patient care management strategies</strong> powered by AI, wearables, and real-time monitoring can prevent complications and reduce costs."
+        "desc": "Diabetes, heart disease, and cancer care require ongoing support. Here, <span>long-term patient care management strategies</span> powered by AI, wearables, and real-time monitoring can prevent complications and reduce costs."
     },
     {
         "title": "Remote care adoption",
@@ -138,7 +138,7 @@ const longTermData = [
 const reimaginingData = [
     {
         "title": "Reimagining Digital Patient Journeys",
-        "desc": "What this really means is rethinking the way healthcare journeys are designed. Instead of focusing on isolated events (a hospital visit, a prescription, a device implant), it’s about <strong>reimagining digital patient journeys in life sciences</strong>  from end to end.",
+        "desc": "What this really means is rethinking the way healthcare journeys are designed. Instead of focusing on isolated events (a hospital visit, a prescription, a device implant), it’s about <span>reimagining digital patient journeys in life sciences</span>  from end to end.",
         "desc2": "That includes:",
         "list": [
             "A seamless transition from clinical trials to therapy adoption.",
@@ -286,7 +286,7 @@ export default function Page() {
                         {/* date and icons */}
                         <div className="sm:flex justify-between">
                             <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">SAP</span>{" "}
+                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">General</span>{" "}
                                 <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>18 September 2025
                             </div>
 
