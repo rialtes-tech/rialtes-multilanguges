@@ -6405,5 +6405,164 @@
         "blogTitle": "5 signes que vous êtes prêt à mettre en œuvre des agents IA dans vos opérations de fabrication",
         "payoffTitle": "Le gain de la préparation",
         "faqTitle": "FAQ : Agents IA dans la fabrication"
+    },
+    "connectedCore": {
+        "mainData": [
+            "L’industrie des sciences de la vie est à un point d’inflexion. Les organisations pharmaceutiques et MedTech ne sont plus jugées uniquement sur leur capacité à innover dans les laboratoires ou à fabriquer des dispositifs médicaux. Aujourd’hui, elles sont évaluées sur leur capacité à connecter efficacement patients, prestataires, payeurs et partenaires dans une expérience de santé unifiée. C’est là qu’interviennent les écosystèmes de soins connectés, et pourquoi ils deviennent le prochain grand pari pour l’industrie.",
+            "Voyons pourquoi ce changement est important, les opportunités qu’il crée et comment des plateformes comme <strong>MediAIana</strong> redéfinissent ce que signifie délivrer des soins à l’ère numérique."
+        ],
+        "whyConnectedData": [
+            {
+                "title": "Pourquoi les écosystèmes de soins connectés sont essentiels",
+                "desc": "Le paysage de la santé est aujourd’hui plus fragmenté que jamais. Les patients passent des soins primaires aux spécialistes, hôpitaux, pharmacies, portails d’assurance et applications de bien-être, souvent sans qu’un seul système ne les relie tous. Résultat : communication rompue, processus dupliqués, interventions retardées et coûts inutiles.",
+                "desc2": "Un écosystème de soins connectés vise à corriger cela en intégrant tous les points de contact numériques, cliniques et opérationnels dans un seul cadre. Au lieu de systèmes cloisonnés, on obtient une continuité des soins tout au long du parcours patient.",
+                "listDesc": "Pour les entreprises pharmaceutiques et MedTech, cela se traduit par :",
+                "list": [
+                    {
+                        "title": "Informations en temps réel",
+                        "description": "issues des interactions avec les patients, de l’utilisation des dispositifs et des données cliniques."
+                    },
+                    {
+                        "title": "Meilleurs résultats pour les patients",
+                        "description": "grâce à des interventions proactives plutôt que des traitements réactifs."
+                    },
+                    {
+                        "title": "Cycles d’innovation plus rapides",
+                        "description": "avec une R&D axée sur les données et des essais cliniques plus intelligents."
+                    },
+                    {
+                        "title": "Conformité améliorée",
+                        "description": "grâce à une gouvernance intégrée sur les flux de travail et les géographies."
+                    }
+                ],
+                "desc3": "L’argument commercial est clair : les entreprises qui adoptent les écosystèmes connectés dépasseront celles qui ne le font pas."
+            }
+        ],
+        "patientCenterData": [
+            "Voici le point clé : au cœur des écosystèmes connectés se trouve une vérité simple : le patient doit être le point focal. Aujourd’hui, les patients attendent des soins de santé qu’ils reflètent leurs expériences dans d’autres industries : personnalisés, accessibles et numériques dès le départ. Ils veulent des rappels sur leur téléphone, des consultations virtuelles à la demande et l’accès à leur historique médical sans devoir se répéter à chaque étape.",
+            "C’est pourquoi <strong>l’engagement numérique des patients dans les soins quotidiens</strong> n’est plus optionnel. C’est la base de la confiance, de l’adhésion et des résultats à long terme. Les leaders de la pharma et du MedTech qui investissent ici ne font pas seulement améliorer l’expérience patient, ils construisent la fidélité et la différenciation dans un marché compétitif."
+        ],
+        "longTermData": [
+            {
+                "title": "Gestion des maladies chroniques",
+                "desc": "Le diabète, les maladies cardiaques et le cancer nécessitent un soutien continu. Ici, les <strong>stratégies de gestion des soins à long terme</strong> alimentées par l’IA, les objets connectés et le suivi en temps réel peuvent prévenir les complications et réduire les coûts."
+            },
+            {
+                "title": "Adoption des soins à distance",
+                "desc": "Les patients peuvent rester suivis en dehors de l’hôpital grâce à la télémédecine et aux thérapies numériques."
+            },
+            {
+                "title": "Modèles de soins basés sur la valeur",
+                "desc": "Les entreprises pharmaceutiques et MedTech peuvent démontrer leur valeur auprès des payeurs et régulateurs en suivant les résultats plus efficacement."
+            }
+        ],
+        "reimaginingData": [
+            {
+                "title": "Réimaginer les parcours numériques des patients",
+                "desc": "Cela signifie réellement repenser la manière dont les parcours de santé sont conçus. Au lieu de se concentrer sur des événements isolés (une visite à l’hôpital, une ordonnance, un implant), il s’agit de <strong>réimaginer les parcours numériques des patients dans les sciences de la vie</strong> de bout en bout.",
+                "desc2": "Cela inclut :",
+                "list": [
+                    "Une transition fluide des essais cliniques à l’adoption des thérapies.",
+                    "Une communication transparente entre prestataires, payeurs et patients.",
+                    "Des alertes prédictives qui aident les cliniciens à intervenir avant une crise.",
+                    "Une personnalisation basée sur les données qui s’adapte au mode de vie de chaque patient."
+                ],
+                "desc3": "C’est exactement là que notre logiciel de parcours patient MediAIna intervient."
+            }
+        ],
+        "medianaData": [
+            {
+                "title": "MediAIna : Redéfinir les soins connectés",
+                "desc": "<strong>MediAIna</strong>, le <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>logiciel de parcours patient de nouvelle génération</span></a> de Rialtes, est conçu pour résoudre précisément ces défis dans l’industrie des sciences de la vie. Il ne se contente pas de numériser les interactions patient : il connecte tout l’écosystème de santé.",
+                "desc2": "Voici comment cela fonctionne :",
+                "list": [
+                    {
+                        "title": "Points de contact intégrés",
+                        "description": "MediAIna relie les canaux cliniques, opérationnels et numériques entre Pharma, MedTech, prestataires et payeurs."
+                    },
+                    {
+                        "title": "Propulsé par LifeAI+",
+                        "description": "Soutenu par la suite de conseil en santé de Rialtes, MediAIana exploite l’IA, le cloud et Salesforce pour offrir des solutions intelligentes, évolutives et conformes."
+                    },
+                    {
+                        "title": "Soins centrés sur l’humain",
+                        "description": "En plaçant les patients au cœur, il garantit de meilleurs résultats, un engagement accru et une confiance durable."
+                    }
+                ],
+                "desc3": "Pour les entreprises pharmaceutiques et MedTech, MediAIna accélère l’innovation, soutient la prestation de soins connectés et développe en toute confiance les thérapies numériques."
+            }
+        ],
+        "benefitsData": [
+            {
+                "title": "Innovation accélérée",
+                "desc": "Amenez plus rapidement de nouvelles thérapies et dispositifs sur le marché grâce à des modèles de livraison agiles."
+            },
+            {
+                "title": "Essais cliniques plus intelligents",
+                "desc": "Obtenez des informations réelles sur les patients qui optimisent le recrutement et l’adhésion."
+            },
+            {
+                "title": "Soins connectés",
+                "desc": "Unifiez les parcours de soins à travers de multiples parties prenantes."
+            },
+            {
+                "title": "Conformité à grande échelle",
+                "desc": "Maintenez des normes mondiales tout en innovant localement."
+            }
+        ],
+        "competitiveData": [
+            {
+                "title": "L’avantage compétitif",
+                "desc": "Pour Pharma et MedTech, le choix est clair. Rester avec des systèmes cloisonnés et risquer de prendre du retard, ou investir dans les écosystèmes de soins connectés et assurer une pertinence à long terme.",
+                "desc2": "Les gagnants seront ceux qui sauront :",
+                "list": [
+                    "Combiner données, IA et plateformes cloud pour des insights prédictifs.",
+                    "Construire des parcours numériques centrés sur le patient qui favorisent la fidélité et la confiance.",
+                    "Développer l’innovation sans compromettre la conformité."
+                ],
+                "desc3": "C’est exactement la vision que Rialtes apporte à l’industrie avec MediAIna et LifeAI+."
+            }
+        ],
+        "bettingData": [
+            "Les écosystèmes de soins connectés sont l’avenir inévitable de la santé. Les leaders de la Pharma et du MedTech qui misent ici transformeront non seulement leurs entreprises, mais aussi la vie de millions de patients.",
+            "Avec <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</span></a>, Rialtes aide l’industrie à franchir ce cap, permettant aux organisations de connecter, d’innover et de délivrer des soins centrés sur l’humain à grande échelle. Le prochain grand pari est là. La question est : êtes-vous prêt à le relever ?"
+        ],
+        "faqs": [
+            {
+                "question": "1. Qu’est-ce qu’un écosystème de soins connectés en santé ?",
+                "answer": "Un écosystème de soins connectés relie patients, prestataires, payeurs, entreprises pharmaceutiques et MedTech dans un cadre numérique intégré. Il garantit le partage de données en temps réel, la continuité des soins et de meilleurs résultats tout au long du parcours patient."
+            },
+            {
+                "question": "2. Pourquoi les écosystèmes de soins connectés sont-ils importants pour la Pharma et le MedTech ?",
+                "answer": "Ils aident les organisations à dépasser les systèmes cloisonnés. Les entreprises Pharma et MedTech obtiennent des informations en temps réel, accélèrent les essais cliniques et améliorent la conformité tout en offrant des expériences de santé numériques centrées sur le patient."
+            },
+            {
+                "question": "3. Comment les écosystèmes de soins connectés améliorent-ils l’engagement patient ?",
+                "answer": "En permettant l’engagement numérique des patients dans les soins quotidiens, les écosystèmes offrent aux patients l’accès à des applications personnalisées, au suivi à distance, aux consultations virtuelles et aux rappels en temps opportun, ce qui renforce l’adhésion et la confiance."
+            },
+            {
+                "question": "4. Quel rôle jouent les écosystèmes connectés dans les soins à long terme ?",
+                "answer": "Ils soutiennent des stratégies de gestion des soins à long terme telles que le suivi des maladies chroniques, les soins à distance et les alertes prédictives. Cela permet de prévenir les complications et de réduire les coûts tout en garantissant une prise en charge continue hors de l’hôpital."
+            },
+            {
+                "question": "5. En quoi MediAIana est-elle différente des autres plateformes de santé numérique ?",
+                "answer": "MediAIana va au-delà des portails numériques pour patients. Elle intègre des points de contact cliniques, opérationnels et numériques à travers tout l’écosystème de santé, propulsée par LifeAI+ de Rialtes. Elle est conçue pour la conformité, l’évolutivité et l’innovation dans les sciences de la vie et le MedTech."
+            },
+            {
+                "question": "6. Comment les écosystèmes connectés soutiennent-ils la transformation numérique dans les sciences de la vie ?",
+                "answer": "Ils permettent de réimaginer les parcours numériques des patients dans les sciences de la vie en créant des expériences fluides à travers essais cliniques, thérapies et prestation de soins, permettant aux organisations d’innover plus rapidement et de délivrer des soins centrés sur l’humain."
+            }
+        ],
+        "blogTopic": "General",
+        "blogTitle": "Pourquoi les écosystèmes de soins connectés sont le prochain grand pari pour la Pharma et le MedTech",
+        "patientTitle": "Le patient au centre",
+        "longTermTitle": "Valeur à long terme pour Pharma et MedTech",
+        "longTermDesc": "Un écosystème de soins connectés ne consiste pas seulement à résoudre les problèmes d’aujourd’hui, mais à planifier les opportunités de demain. Considérez :",
+        "longTermDesc2": "Le pari à long terme ? Les écosystèmes connectés évolueront d’un « nice to have » à l’unique modèle opérationnel viable pour la santé.",
+        "benefitsTitle": "Les avantages de MediAIna en action",
+        "benefitsDesc": "Les organisations qui adoptent MediAIna peuvent s’attendre à un impact mesurable :",
+        "benefitsDesc2": "En résumé, MediAIna est plus qu’un logiciel ; c’est la colonne vertébrale d’un écosystème de soins connectés pour l’avenir.",
+        "bettingTitle": "Parier sur l’avenir",
+        "faqTitle": "FAQ : Foire aux questions"
     }
 }

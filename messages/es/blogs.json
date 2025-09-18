@@ -6348,5 +6348,164 @@
         "blogTitle": "5 señales de que está listo para implementar agentes de IA en sus operaciones de manufactura",
         "payoffTitle": "La recompensa de estar preparado",
         "faqTitle": "Preguntas frecuentes: Agentes de IA en la manufactura"
+    },
+    "connectedCore": {
+        "mainData": [
+            "La industria de las ciencias de la vida se encuentra en un punto de inflexión. Las organizaciones farmacéuticas y de tecnología médica ya no son juzgadas solo por lo bien que innovan en los laboratorios o fabrican dispositivos médicos. Hoy en día, se las mide por qué tan efectivamente logran conectar a pacientes, proveedores, aseguradoras y socios en una experiencia de atención médica unificada. Ahí es donde entran los ecosistemas de atención conectada, y por qué se están convirtiendo en la próxima gran apuesta para la industria.",
+            "Veamos por qué este cambio importa, las oportunidades que crea y cómo plataformas como <strong>MediAIana</strong> están redefiniendo lo que significa brindar atención en la era digital."
+        ],
+        "whyConnectedData": [
+            {
+                "title": "Por qué los ecosistemas de atención conectada son tan importantes",
+                "desc": "El panorama de la salud está hoy más fragmentado que nunca. Los pacientes pasan de la atención primaria a especialistas, hospitales, farmacias, portales de seguros y aplicaciones de bienestar, muchas veces sin un sistema único que los vincule. El resultado: comunicación interrumpida, procesos duplicados, intervenciones tardías y costos innecesarios.",
+                "desc2": "Un ecosistema de atención conectada busca solucionar esto integrando todos los puntos de contacto digitales, clínicos y operativos en un solo marco. En lugar de sistemas aislados, se logra continuidad en la atención a lo largo de todo el recorrido del paciente.",
+                "listDesc": "Para las empresas farmacéuticas y de tecnología médica, esto se traduce en:",
+                "list": [
+                    {
+                        "title": "Información en tiempo real",
+                        "description": "a partir de interacciones con pacientes, uso de dispositivos y datos clínicos."
+                    },
+                    {
+                        "title": "Mejores resultados para los pacientes",
+                        "description": "gracias a intervenciones proactivas en lugar de tratamientos reactivos."
+                    },
+                    {
+                        "title": "Ciclos de innovación más rápidos",
+                        "description": "con I+D basada en datos y ensayos clínicos más inteligentes."
+                    },
+                    {
+                        "title": "Cumplimiento mejorado",
+                        "description": "mediante una gobernanza integrada en flujos de trabajo y geografías."
+                    }
+                ],
+                "desc3": "El caso empresarial es claro: las compañías que adopten ecosistemas conectados superarán a las que no lo hagan."
+            }
+        ],
+        "patientCenterData": [
+            "Aquí está la clave: en el centro de los ecosistemas conectados hay una verdad simple: el paciente debe ser el punto focal. Hoy en día los pacientes esperan que la atención médica se asemeje a sus experiencias en otras industrias: personalizada, accesible y digital desde el inicio. Quieren recordatorios en sus teléfonos, consultas virtuales bajo demanda y acceso a su historial de salud sin tener que repetir información en cada paso.",
+            "Por eso, el <strong>compromiso digital del paciente en la atención diaria</strong> ya no es opcional. Es la base de la confianza, la adherencia y los resultados a largo plazo. Los líderes en farma y MedTech que invierten aquí no solo mejoran la experiencia del paciente, sino que también generan lealtad y diferenciación en un mercado competitivo."
+        ],
+        "longTermData": [
+            {
+                "title": "Gestión de enfermedades crónicas",
+                "desc": "La diabetes, las enfermedades cardíacas y el cáncer requieren apoyo continuo. Aquí, las <strong>estrategias de gestión del cuidado a largo plazo</strong> potenciadas por IA, dispositivos portátiles y monitoreo en tiempo real pueden prevenir complicaciones y reducir costos."
+            },
+            {
+                "title": "Adopción del cuidado remoto",
+                "desc": "Los pacientes pueden mantenerse en control fuera del hospital mediante la telemedicina y terapias digitales."
+            },
+            {
+                "title": "Modelos de atención basados en el valor",
+                "desc": "Las farmacéuticas y empresas de tecnología médica pueden demostrar valor a aseguradoras y reguladores al hacer un mejor seguimiento de los resultados."
+            }
+        ],
+        "reimaginingData": [
+            {
+                "title": "Reimaginando los recorridos digitales del paciente",
+                "desc": "Esto realmente significa repensar la manera en que se diseñan los recorridos de salud. En lugar de centrarse en eventos aislados (una visita hospitalaria, una receta, un implante de dispositivo), se trata de <strong>reimaginar los recorridos digitales del paciente en ciencias de la vida</strong> de principio a fin.",
+                "desc2": "Eso incluye:",
+                "list": [
+                    "Una transición fluida de los ensayos clínicos a la adopción de la terapia.",
+                    "Comunicación transparente entre proveedores, aseguradoras y pacientes.",
+                    "Alertas predictivas que ayudan a los médicos a intervenir antes de una crisis.",
+                    "Personalización basada en datos que se adapta al estilo de vida de cada paciente."
+                ],
+                "desc3": "Aquí es exactamente donde nuestro software de recorridos del paciente MediAIna ayuda."
+            }
+        ],
+        "medianaData": [
+            {
+                "title": "MediAIna: Redefiniendo la atención conectada",
+                "desc": "<strong>MediAIna</strong>, el <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>software de próxima generación para recorridos del paciente</span></a> de Rialtes, está diseñado para resolver exactamente estos desafíos en la industria de las ciencias de la vida. No solo digitaliza las interacciones del paciente: conecta todo el ecosistema de atención médica.",
+                "desc2": "Así es como funciona:",
+                "list": [
+                    {
+                        "title": "Puntos de contacto integrados",
+                        "description": "MediAIna vincula canales clínicos, operativos y digitales entre Farma, MedTech, proveedores y aseguradoras."
+                    },
+                    {
+                        "title": "Impulsado por LifeAI+",
+                        "description": "Respaldado por la suite de consultoría en salud de Rialtes, MediAIana aprovecha IA, la nube y Salesforce para ofrecer soluciones escalables, compatibles e inteligentes."
+                    },
+                    {
+                        "title": "Atención centrada en las personas",
+                        "description": "Al mantener a los pacientes en el centro, garantiza mejores resultados, mayor compromiso y confianza duradera."
+                    }
+                ],
+                "desc3": "Para empresas farmacéuticas y de tecnología médica, MediAIna acelera la innovación, respalda la prestación de atención conectada y fomenta con confianza las terapias digitales."
+            }
+        ],
+        "benefitsData": [
+            {
+                "title": "Innovación acelerada",
+                "desc": "Lleve nuevas terapias y dispositivos al mercado más rápido con modelos de entrega ágiles."
+            },
+            {
+                "title": "Ensayos clínicos más inteligentes",
+                "desc": "Obtenga información real de los pacientes que optimiza el reclutamiento y la adherencia."
+            },
+            {
+                "title": "Atención conectada",
+                "desc": "Unifique los recorridos de atención entre múltiples actores."
+            },
+            {
+                "title": "Cumplimiento a escala",
+                "desc": "Mantenga estándares globales mientras innova localmente."
+            }
+        ],
+        "competitiveData": [
+            {
+                "title": "La ventaja competitiva",
+                "desc": "Para Farma y MedTech, la elección es clara. Seguir con sistemas aislados y arriesgarse a quedarse atrás, o invertir en ecosistemas de atención conectada y asegurar relevancia a largo plazo.",
+                "desc2": "Los ganadores serán aquellos que logren:",
+                "list": [
+                    "Combinar datos, IA y plataformas en la nube para obtener información predictiva.",
+                    "Construir recorridos digitales centrados en el paciente que generen lealtad y confianza.",
+                    "Escalar la innovación sin comprometer el cumplimiento."
+                ],
+                "desc3": "Esa es exactamente la visión que Rialtes aporta a la industria con MediAIna y LifeAI+."
+            }
+        ],
+        "bettingData": [
+            "Los ecosistemas de atención conectada son el futuro inevitable de la salud. Los líderes en farma y MedTech que apuesten aquí transformarán no solo sus negocios, sino también la vida de millones de pacientes.",
+            "Con <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</span></a>, Rialtes está ayudando a la industria a dar este salto, permitiendo a las organizaciones conectar, innovar y ofrecer atención médica centrada en las personas a gran escala. La próxima gran apuesta ya está aquí. La pregunta es: ¿está listo para asumirla?"
+        ],
+        "faqs": [
+            {
+                "question": "1. ¿Qué es un ecosistema de atención conectada en salud?",
+                "answer": "Un ecosistema de atención conectada enlaza pacientes, proveedores, aseguradoras, empresas farmacéuticas y de tecnología médica en un marco digital integrado. Garantiza intercambio de datos en tiempo real, continuidad de la atención y mejores resultados a lo largo de todo el recorrido del paciente."
+            },
+            {
+                "question": "2. ¿Por qué son importantes los ecosistemas de atención conectada para Farma y MedTech?",
+                "answer": "Ayudan a las organizaciones a superar los sistemas aislados. Las compañías de Farma y MedTech obtienen información en tiempo real, aceleran los ensayos clínicos y mejoran el cumplimiento mientras ofrecen experiencias de atención digital centradas en el paciente."
+            },
+            {
+                "question": "3. ¿Cómo mejoran los ecosistemas de atención conectada la participación del paciente?",
+                "answer": "Al permitir el compromiso digital del paciente en la atención diaria, los ecosistemas ofrecen a los pacientes acceso a aplicaciones personalizadas, monitoreo remoto, consultas virtuales y recordatorios oportunos, todo lo cual impulsa la adherencia y la confianza."
+            },
+            {
+                "question": "4. ¿Qué papel juegan los ecosistemas conectados en la atención a largo plazo?",
+                "answer": "Impulsan estrategias de gestión del cuidado a largo plazo como el monitoreo de enfermedades crónicas, la atención remota y las alertas predictivas. Esto previene complicaciones y reduce costos, garantizando atención continua fuera del hospital."
+            },
+            {
+                "question": "5. ¿En qué se diferencia MediAIana de otras plataformas de salud digital?",
+                "answer": "MediAIana va más allá de los portales digitales para pacientes. Integra puntos de contacto clínicos, operativos y digitales en todo el ecosistema de salud, impulsado por LifeAI+ de Rialtes. Está diseñado para el cumplimiento, la escalabilidad y la innovación en ciencias de la vida y MedTech."
+            },
+            {
+                "question": "6. ¿Cómo apoyan los ecosistemas conectados la transformación digital en ciencias de la vida?",
+                "answer": "Permiten reimaginar los recorridos digitales de los pacientes en ciencias de la vida, creando experiencias fluidas en ensayos clínicos, terapias y prestación de atención, lo que empodera a las organizaciones para innovar más rápido y ofrecer atención médica centrada en las personas."
+            }
+        ],
+        "blogTopic": "General",
+        "blogTitle": "Por qué los ecosistemas de atención conectada son la próxima gran apuesta para Farma y MedTech",
+        "patientTitle": "El paciente en el centro",
+        "longTermTitle": "Valor a largo plazo para Farma y MedTech",
+        "longTermDesc": "Un ecosistema de atención conectada no se trata solo de resolver los problemas de hoy, sino de planificar las oportunidades del mañana. Considere:",
+        "longTermDesc2": "¿La apuesta a largo plazo? Los ecosistemas conectados evolucionarán de ser un “agradable de tener” a convertirse en el único modelo operativo viable para la atención médica.",
+        "benefitsTitle": "Los beneficios de MediAIna en acción",
+        "benefitsDesc": "Las organizaciones que adopten MediAIna pueden esperar un impacto medible:",
+        "benefitsDesc2": "En resumen, MediAIna es más que un software; es la columna vertebral de un ecosistema de atención conectada para el futuro.",
+        "bettingTitle": "Apostando por el futuro",
+        "faqTitle": "Preguntas frecuentes"
     }
 }
