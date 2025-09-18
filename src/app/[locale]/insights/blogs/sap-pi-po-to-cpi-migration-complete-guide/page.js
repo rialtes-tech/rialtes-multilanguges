@@ -149,10 +149,10 @@ export default function Page() {
             <section className="custom-container">
                 <div className="pt-10 bg-white">
                     <div className=" mx-auto">
-                        <div className="flex flex-col md:flex-row justify-between text-black items-center xl:w-[1084px]">
+                        <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">{t('blogTopic')}</span>
-                                <span className="text-[#ACACAC]"> | </span>26 August 2025
+                                <span className="text-[#ACACAC]"> | </span>{t('date')}
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
@@ -200,13 +200,13 @@ export default function Page() {
                     <div className="py-6"></div>
                     <div className=" mx-auto">
                         <h1 className="text-[#000000] leading-tight text-[26px] 2xl:text-[48px] 4xl:text-[60px] xl:text-[42px] md:text-[28px] 
-                         xl:w-[1000px] 4xl:w-[1150px] pb-6">
+                         xl:w-[1000px] 4xl:w-[1150px] ">
                             {t('blogTitle')}
                         </h1>
                     </div>
 
                     <div className="mx-auto">
-                        <div className="4xl:w-[1284px] 2xl:w-[1060px] xl:w-[990px]">
+                        <div className="max-w-[1200px] 4xl:w-[1284px] 2xl:w-[950px] xl:w-[850px]">
                             <div className="py-6 "></div>
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 {t('blogMainData')}
@@ -223,7 +223,7 @@ export default function Page() {
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 {t('piPoServedDesc')}
                             </p >
-                            <ol className="list-disc marker:text-xl pl-5 2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-5">
+                            <ol className="list-disc marker:text-xl pl-[25px] lg:pl-[32px] text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-5">
                                 {
                                     piPoServedData.map((data, ind) => {
                                         return (
@@ -242,7 +242,7 @@ export default function Page() {
                             <div className="w-full max-w-5xl 4xl:px-8 2xl:px-8 xl:pl-8 py-8 xl:space-y-10 space-y-20">
                                 {cards.map((card, index) => (
                                     <div key={index} className="relative border border-black bg-white shadow-sm">
-                                        <div className="absolute xl:w-[337px] xl:-left-10 top-[-50px] left-[65px] 4xl:top-5 2xl:top-4 xl:top-3 bg-[#006FBE] text-white font-semibold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[18px] text-[16px]  px-6 py-8  shadow-md">
+                                        <div className="absolute xl:w-[337px]  top-[-50px] xl:left-[-40px] xl:translate-x-0 left-1/2 -translate-x-1/2 4xl:top-5 2xl:top-4 xl:top-3 bg-[#006FBE] text-white font-semibold 4xl:text-[20px] 2xl:text-[18px]  xl:text-[18px] text-[16px]  md:px-6 md:py-8 px-4 py-6  shadow-md">
                                             {card.title}
                                         </div>
                                         <div className="4xl:pl-[22rem] 2xl:pl-[20rem] xl:pl-[20rem] xl:pr-10 py-6 p-6 pt-20 xl:pt-5  4xl:text-[20px] 2xl:text-[18px]  xl:text-[16px] text-[16px] font-medium">
@@ -288,12 +288,12 @@ export default function Page() {
                                 {t('proactiveTitle')}
                             </h3>
 
-                            <UnorderedList arrName={monitoringFeatures} ulClassName="list-disc pl-5 2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 marker:text-xl space-y-5 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium" liClassName="" />
+                            <UnorderedList arrName={monitoringFeatures} ulClassName="list-disc pl-[25px] lg:pl-[32px] marker:text-xl space-y-5 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium" liClassName="" />
                             <h3 className="pb-4 font-semibold 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
                                 {t('multilayerTitle')}
                             </h3>
 
-                            <ol className="list-disc marker:text-xl pl-5 2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-5">
+                            <ol className="list-disc marker:text-xl pl-[25px] lg:pl-[32px] text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-5">
                                 {
                                     multilayerData.map((data, ind) => {
                                         return (
@@ -309,7 +309,7 @@ export default function Page() {
                                 {t('intelligentDesc')}
                             </p>
 
-                            <UnorderedList arrName={earlyWatchAlerts} ulClassName="list-disc pl-5 2xl:pl-16 xl:pl-16 4xl:pl-16 md:pl-16 marker:text-xl space-y-5 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium" liClassName="" />
+                            <UnorderedList arrName={earlyWatchAlerts} ulClassName="list-disc pl-[25px] lg:pl-[32px] marker:text-xl space-y-5 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium" liClassName="" />
 
                             <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
                                 {t('bestPracticesTitle')}

@@ -3333,6 +3333,7 @@
         "moveDesc2": " to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP."
     },
     "remagineEnterprise": {
+        "date":"25 August 2025",
         "blogs": [
             {
                 "id": 1,
@@ -3772,6 +3773,7 @@
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "firstAiAgent": {
+        "date":"02 September 2025",
         "blogs": [
             {
                 "id": 1,
@@ -4469,6 +4471,7 @@
         "faqTitle": "FAQs: Frequently Asked Questions"
     },
     "beyondRobotics": {
+        "date":"01 September 2025",
         "blogs": [
             {
                 "id": 1,
@@ -5151,6 +5154,7 @@
         ]
     },
     "sapPiPo": {
+          "date":"26 August 2025",
         "blogs": [
             {
                 "id": 1,
@@ -5642,6 +5646,7 @@
         "faqTitle": "FAQs: SAP Signavio + SAP Cloud ALM in S/4HANA Transformations"
     },
     "aiPatient": {
+        "date":"09 September 2025",
         "rolesData": [
             {
                 "title": "Continuous Monitoring with Context",
@@ -5722,34 +5727,34 @@
         ],
         "faqs": [
             {
-                "question": "How do AI agents differ from traditional automation in MedTech?",
+                "question": "1. How do AI agents differ from traditional automation in MedTech?",
                 "answer": [
                     "AI agents don’t just follow rules; they interpret context.",
                     "Unlike simple automation, agents can detect patterns in health data, decide when action is needed, and communicate proactively with patients and providers."
                 ]
             },
             {
-                "question": "Can AI agents integrate with existing MedTech platforms and devices?",
+                "question": "2. Can AI agents integrate with existing MedTech platforms and devices?",
                 "answer": [
                     "Yes. Platforms like Salesforce Agentforce are designed to integrate with CRMs, EHRs, IoT medical devices, and AI patient engagement apps, creating a unified ecosystem for real-time monitoring."
                 ]
             },
             {
-                "question": "What benefits do patients see from AI-driven remote monitoring?",
+                "question": "3. What benefits do patients see from AI-driven remote monitoring?",
                 "answer": [
                     "Patients benefit from timely alerts, personalized communication, reduced hospital visits, and a stronger sense of support.",
                     "They feel engaged and cared for without needing constant in-person checkups."
                 ]
             },
             {
-                "question": "How do AI agents improve compliance and data security in MedTech?",
+                "question": "4. How do AI agents improve compliance and data security in MedTech?",
                 "answer": [
                     "Agents can enforce compliance protocols by logging interventions, anonymizing sensitive data, and ensuring secure patient communications.",
                     "They also help providers meet regulatory standards like HIPAA."
                 ]
             },
             {
-                "question": "Is this technology scalable for large healthcare systems and MedTech providers?",
+                "question": "5. Is this technology scalable for large healthcare systems and MedTech providers?",
                 "answer": [
                     "Absolutely. AI agents are built to manage high patient volumes, coordinate multiple care teams, and generate predictive analytics, allowing organizations to scale without overwhelming staff."
                 ]
@@ -5780,6 +5785,7 @@
         "faqTitle": "Q&A: AI Patient Engagement in Remote Monitoring with AI Agents"
     },
     "agentforceIndustry4": {
+        "date":"08 September 2025",
         "reactiveData": [
             {
                 "image": "/images/blog/industr4Svg (1).svg",
@@ -5872,13 +5878,13 @@
             }
         ],
         "readyData": [
-            "<a href='https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution' class='text-[#0092E0] underline hover:text-gray-400'> Industry 4.0 </a> is all about connected intelligence. Machines may generate the data, but it’s Agentforce AI agents that turn it into value. By embedding predictive capabilities into Salesforce Field Service and Manufacturing Cloud, manufacturers unlock an always-on system that keeps operations running smoothly and customers delighted.",
+            "<a href='https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution' class='text-[#0092E0] underline hover:text-gray-400'> Industry 4.0</a> is all about connected intelligence. Machines may generate the data, but it’s Agentforce AI agents that turn it into value. By embedding predictive capabilities into Salesforce Field Service and Manufacturing Cloud, manufacturers unlock an always-on system that keeps operations running smoothly and customers delighted.",
             "As a <a href='https://rialtes.netlify.app/solutions/enterprise-platforms/salesforce-consulting-partner-us-india' class='text-[#0092E0] underline hover:text-gray-400'>Salesforce Crest Partner</a>, we specialize in deploying <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/' class='text-[#0092E0] underline hover:text-gray-400'>Agentforce for manufacturing</a> businesses of every scale. Whether you want to start with a pilot project in one plant or roll out predictive intelligence across your global operations, we can help.",
             "<a href='https://www.rialtes.com/contact-us' class='text-[#0092E0] underline hover:text-gray-400'>Let’s talk</a> about how Agentforce can drive zero downtime for your Industry 4.0 factory."
         ],
         "faqs": [
             {
-                "question": "What makes Agentforce different from traditional predictive maintenance solutions?",
+                "question": "1. What makes Agentforce different from traditional predictive maintenance solutions?",
                 "answer": [
                     "Most predictive maintenance tools focus only on machine-level data.",
                     "Agentforce goes further by combining IoT insights with service histories, warranty claims, and Salesforce Field Service workflows.",
@@ -5886,21 +5892,21 @@
                 ]
             },
             {
-                "question": "Can Agentforce work with our existing IoT and ERP systems?",
+                "question": "2. Can Agentforce work with our existing IoT and ERP systems?",
                 "answer": [
                     "Yes. Agentforce is designed to integrate with existing IoT platforms, MES, and ERP systems.",
                     "Pulling in machine data and operational workflows, it creates a connected view of your factory and supply chain without requiring a rip-and-replace approach."
                 ]
             },
             {
-                "question": "How does Agentforce reduce unplanned downtime in practice?",
+                "question": "3. How does Agentforce reduce unplanned downtime in practice?",
                 "answer": [
                     "Agentforce detects early failure signals, forecasts parts demand, and dispatches the right technician before issues escalate.",
                     "By moving maintenance from reactive to predictive, manufacturers can cut unplanned downtime by up to 30–40% while lowering service costs."
                 ]
             },
             {
-                "question": "Does Agentforce only help large enterprises, or is it scalable for mid-sized manufacturers?",
+                "question": "4. Does Agentforce only help large enterprises, or is it scalable for mid-sized manufacturers?",
                 "answer": [
                     "It’s scalable by design.",
                     "Mid-sized manufacturers can start small—automating maintenance scheduling or predictive alerts for a single plant—and expand to multi-site predictive intelligence as they grow.",
@@ -5908,7 +5914,7 @@
                 ]
             },
             {
-                "question": "How does Agentforce improve the customer experience in predictive manufacturing?",
+                "question": "5. How does Agentforce improve the customer experience in predictive manufacturing?",
                 "answer": [
                     "Customers no longer face unexpected delays or downtime.",
                     "Agentforce keeps them informed with proactive updates, ensures parts and technicians are ready in advance, and minimizes service interruptions.",
@@ -5916,7 +5922,7 @@
                 ]
             },
             {
-                "question": "Can Agentforce support new business models like “Equipment-as-a-Service”?",
+                "question": "6. Can Agentforce support new business models like “Equipment-as-a-Service”?",
                 "answer": [
                     "Absolutely.",
                     "Predictive capabilities make it possible for manufacturers to offer uptime guarantees, subscription-based maintenance, or outcome-driven service contracts.",

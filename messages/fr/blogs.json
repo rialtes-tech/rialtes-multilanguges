@@ -3333,6 +3333,8 @@
         "moveDesc2": " pour mettre en place des processus agricoles intelligents basés sur les données, tout en gérant de manière cohérente les données agricoles dans l’ensemble de votre entreprise avec SAP BTP."
     },
     "remagineEnterprise": {
+                "date":"25 août 2025",
+
         "blogs": [
             {
                 "id": 1,
@@ -3772,6 +3774,8 @@
         "faqTitle": "Foire aux questions (FAQ)"
     },
     "firstAiAgent": {
+                "date":"02 septembre  2025",
+
         "blogs": [
             {
                 "id": 1,
@@ -4934,6 +4938,8 @@
         "faqTitle": "FAQ : Foire aux questions"
     },
     "beyondRobotics": {
+                "date":"01 septembre 2025",
+
         "blogs": [
             {
                 "id": 1,
@@ -5151,6 +5157,7 @@
         "faqTitle": "FAQ : Fabrication intelligente avec des agents IA"
     },
     "sapPiPo": {
+         "date":"26 août  2025",
         "blogs": [
             {
                 "id": 1,
@@ -5642,6 +5649,7 @@
         "faqTitle": "FAQ : SAP Signavio + SAP Cloud ALM dans les Transformations S/4HANA"
     },
     "aiPatient": {
+         "date":"09 septembre 2025",
         "rolesData": [
             {
                 "title": "Surveillance continue avec contexte",
@@ -5722,34 +5730,34 @@
         ],
         "faqs": [
             {
-                "question": "En quoi les agents d’IA diffèrent-ils de l’automatisation traditionnelle en MedTech ?",
+                "question": "1. En quoi les agents d’IA diffèrent-ils de l’automatisation traditionnelle en MedTech ?",
                 "answer": [
                     "Les agents d’IA ne se contentent pas de suivre des règles ; ils interprètent le contexte.",
                     "Contrairement à une simple automatisation, les agents peuvent détecter des motifs dans les données de santé, décider quand une action est nécessaire et communiquer de manière proactive avec patients et prestataires."
                 ]
             },
             {
-                "question": "Les agents d’IA peuvent-ils s’intégrer aux plateformes et dispositifs MedTech existants ?",
+                "question": "2. Les agents d’IA peuvent-ils s’intégrer aux plateformes et dispositifs MedTech existants ?",
                 "answer": [
                     "Oui. Des plateformes comme Salesforce Agentforce sont conçues pour s’intégrer aux CRM, DME, dispositifs médicaux IoT et applications d’engagement patient basées sur l’IA, créant un écosystème unifié pour la surveillance en temps réel."
                 ]
             },
             {
-                "question": "Quels avantages les patients retirent-ils de la surveillance à distance pilotée par l’IA ?",
+                "question": "3. Quels avantages les patients retirent-ils de la surveillance à distance pilotée par l’IA ?",
                 "answer": [
                     "Les patients bénéficient d’alertes opportunes, d’une communication personnalisée, de moins de visites à l’hôpital et d’un sentiment accru de soutien.",
                     "Ils se sentent impliqués et pris en charge sans avoir besoin de consultations en présentiel constantes."
                 ]
             },
             {
-                "question": "Comment les agents d’IA améliorent-ils la conformité et la sécurité des données en MedTech ?",
+                "question": "4. Comment les agents d’IA améliorent-ils la conformité et la sécurité des données en MedTech ?",
                 "answer": [
                     "Les agents peuvent appliquer les protocoles de conformité en consignant les interventions, en anonymisant les données sensibles et en garantissant des communications sécurisées avec les patients.",
                     "Ils aident aussi les prestataires à respecter des normes réglementaires comme HIPAA."
                 ]
             },
             {
-                "question": "Cette technologie est-elle évolutive pour de grands systèmes de santé et fournisseurs MedTech ?",
+                "question": "5. Cette technologie est-elle évolutive pour de grands systèmes de santé et fournisseurs MedTech ?",
                 "answer": [
                     "Absolument. Les agents d’IA sont conçus pour gérer de grands volumes de patients, coordonner plusieurs équipes de soins et générer des analyses prédictives, permettant aux organisations de se développer sans surcharger le personnel."
                 ]
@@ -5780,6 +5788,8 @@
         "faqTitle": "Questions-réponses : Engagement patient avec l’IA dans la surveillance à distance"
     },
     "agentforceIndustry4": {
+                "date":"08 septembre 2025",
+
         "reactiveData": [
             {
                 "image": "/images/blog/industr4Svg (1).svg",
@@ -5878,7 +5888,7 @@
         ],
         "faqs": [
             {
-                "question": "Qu’est-ce qui différencie Agentforce des solutions traditionnelles de maintenance prédictive ?",
+                "question": "1. Qu’est-ce qui différencie Agentforce des solutions traditionnelles de maintenance prédictive ?",
                 "answer": [
                     "La plupart des outils de maintenance prédictive se concentrent uniquement sur les données des machines.",
                     "Agentforce va plus loin en combinant les données IoT avec les historiques de service, les réclamations de garantie et les flux de travail Salesforce Field Service.",
@@ -5886,21 +5896,21 @@
                 ]
             },
             {
-                "question": "Agentforce peut-il fonctionner avec nos systèmes IoT et ERP existants ?",
+                "question": "2. Agentforce peut-il fonctionner avec nos systèmes IoT et ERP existants ?",
                 "answer": [
                     "Oui. Agentforce est conçu pour s’intégrer aux plateformes IoT, MES et ERP existantes.",
                     "En intégrant les données des machines et les flux opérationnels, il crée une vue connectée de votre usine et de votre chaîne logistique, sans nécessiter de remplacement complet."
                 ]
             },
             {
-                "question": "Comment Agentforce réduit-il concrètement les arrêts imprévus ?",
+                "question": "3. Comment Agentforce réduit-il concrètement les arrêts imprévus ?",
                 "answer": [
                     "Agentforce détecte les premiers signaux de panne, prévoit la demande de pièces et envoie le bon technicien avant que les problèmes n’escaladent.",
                     "En passant d’une maintenance réactive à prédictive, les fabricants peuvent réduire les arrêts imprévus jusqu’à 30–40 % tout en diminuant les coûts de service."
                 ]
             },
             {
-                "question": "Agentforce est-il uniquement destiné aux grandes entreprises ou est-il évolutif pour les fabricants de taille moyenne ?",
+                "question": "4. Agentforce est-il uniquement destiné aux grandes entreprises ou est-il évolutif pour les fabricants de taille moyenne ?",
                 "answer": [
                     "Il est conçu pour être évolutif.",
                     "Les fabricants de taille moyenne peuvent commencer petit — automatiser la planification de maintenance ou les alertes prédictives pour une seule usine — et évoluer vers une intelligence prédictive multi-sites à mesure de leur croissance.",
@@ -5908,7 +5918,7 @@
                 ]
             },
             {
-                "question": "Comment Agentforce améliore-t-il l’expérience client dans la fabrication prédictive ?",
+                "question": "5. Comment Agentforce améliore-t-il l’expérience client dans la fabrication prédictive ?",
                 "answer": [
                     "Les clients ne subissent plus de retards ni d’arrêts inattendus.",
                     "Agentforce les tient informés grâce à des mises à jour proactives, garantit la disponibilité des pièces et techniciens à l’avance, et minimise les interruptions de service.",
@@ -5916,7 +5926,7 @@
                 ]
             },
             {
-                "question": "Agentforce peut-il soutenir de nouveaux modèles commerciaux comme « Équipement en tant que service » ?",
+                "question": "6. Agentforce peut-il soutenir de nouveaux modèles commerciaux comme « Équipement en tant que service » ?",
                 "answer": [
                     "Absolument.",
                     "Les capacités prédictives rendent possible pour les fabricants d’offrir des garanties de disponibilité, des contrats de maintenance par abonnement ou basés sur les résultats.",
