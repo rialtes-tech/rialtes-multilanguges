@@ -32,7 +32,7 @@ const latestBlogs = [
   {
     id: 41,
     image: "/images/blog/connected-care-ecosystem-feature.webp",
-    category: "General",
+    category: "MediAIna",
     industry: "Generic",
     date: "Sep. 18, 2025",
     url: '/connected-care-ecosystem-pharma-medtech',

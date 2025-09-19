@@ -6,6 +6,9 @@ import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import FAQAccordion from "@/app/components/faqAccordion";
 import Link from "next/link";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -192,6 +195,7 @@ const faqs = [
 ]
 
 export default function Page() {
+    const currUrl = useUrl()
     const fullUrl = "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care";
 
     return (
@@ -289,7 +293,7 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="py-6"></div>
-                    <div className="grid xl:grid-cols-12"> 
+                    <div className="grid xl:grid-cols-12">
                         <div className="xl:col-span-10 col-span-12">
                             <h1 className="text-[#000000] pb-6 leading-tight text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px] md:text-[28px]">
                                 AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring
@@ -365,15 +369,24 @@ export default function Page() {
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">For MedTech innovators, the opportunity is clear: remote monitoring unlocks powerful possibilities, but it also creates overwhelming streams of data and alerts. That’s where Agentforce makes the difference. By enabling AI agents that engage patients proactively, prioritize clinician response, and streamline workflows, Agentforce ensures your solutions truly deliver on their promise.</p>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">At Rialtes, we specialize in implementing  <Link href={"https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> Agentforce </span> </Link> for MedTech companies. Our consulting expertise helps you design, deploy, and scale  <Link href={"https://www.rialtes.com/industry/life-sciences/home-health-ai-tech-solutions/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> AI-driven patient engagement </span></Link> strategies that improve adherence, reduce provider burnout, and elevate the overall patient experience. With Rialtes as your partner, you unlock its full potential to drive smarter, more compassionate healthcare.</p>
 
-                            <h2 className="font-semibold mt-12 mb-5 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">Q&A: AI Patient Engagement in Remote Monitoring with AI Agents</h2>
-                            <FAQAccordion faqData={faqs} />
+
+                            {/* faq section */}
+                            <div className="xl:mt-[80px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: AI in Patient Engagement</h2>
+                                <div className="mt-[29px] xl:mt-[34px]">
+                                    <FAQAccordion faqData={faqs} />
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </section>
-            <div className="custom-container lg:pr-0 pb-10 mt-3">
-                <BlogsCarousel />
-            </div>
+            
+            {/* blog carousel */}
+            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+                <FilteredBlogCarousel url={currUrl} />
+            </section>
         </div>
     )
 }

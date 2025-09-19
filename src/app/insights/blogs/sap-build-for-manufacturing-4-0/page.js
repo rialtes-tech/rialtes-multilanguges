@@ -5,6 +5,9 @@ import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
+
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -202,6 +205,7 @@ const faqData = [
     },
 ]
 export default function Page() {
+    const currUrl = useUrl()
     const fullUrl = "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0";
 
     return (
@@ -400,16 +404,21 @@ export default function Page() {
                             <p className="mt-5 4xl:pr-20 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px]"> <Link href={"https://www.rialtes.com/contact-us/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">Let’s talk </span> </Link> about how SAP Build can unlock innovation on your shop floor.</p>
 
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px] pb-3">FAQs: SAP Build in Powering Smart Manufacturing for Industry 4.0</h2>
-                            <FAQAccordion faqData={faqData} />
-
+                            {/* faq section */}
+                            <div className="xl:mt-[80px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: SAP Build in Powering Smart Manufacturing for Industry 4.0</h2>
+                                <div className="mt-[29px] xl:mt-[34px]">
+                                    <FAQAccordion faqData={faqData} />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="custom-container lg:pr-0 my-10">
-                <BlogsCarousel />
+            {/* blog carousel */}
+            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+                <FilteredBlogCarousel url={currUrl} />
             </section>
         </div>
     )

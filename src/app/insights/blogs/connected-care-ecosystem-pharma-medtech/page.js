@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import Link from 'next/link';
-import BlogsCarousel from '../../../components/latestBlogCarousel';
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
@@ -212,32 +212,33 @@ const bettingData = [
 
 const faqs = [
     {
-        "question": "1.What is a connected care ecosystem in healthcare?",
+        "question": "What is a connected care ecosystem in healthcare?",
         "answer": "A connected care ecosystem links patients, providers, payers, Pharma, and MedTech companies into one integrated digital framework. It ensures real-time data sharing, continuity of care, and better patient outcomes across the entire healthcare journey."
     },
     {
-        "question": "2. Why are connected care ecosystems important for Pharma and MedTech?",
+        "question": "Why are connected care ecosystems important for Pharma and MedTech?",
         "answer": "They help organizations move beyond siloed systems. Pharma and MedTech companies gain real-time insights, accelerate clinical trials, and improve compliance while delivering patient-first digital healthcare experiences."
     },
     {
-        "question": "3. How do connected care ecosystems improve patient engagement?",
+        "question": "How do connected care ecosystems improve patient engagement?",
         "answer": "By enabling digital patient engagement in daily healthcare, ecosystems give patients access to personalized apps, remote monitoring, virtual consultations, and timely reminders, all of which boost adherence and trust."
     },
     {
-        "question": "4. What role do connected ecosystems play in long-term patient care?",
+        "question": "What role do connected ecosystems play in long-term patient care?",
         "answer": "They power long-term patient care management strategies such as chronic disease monitoring, remote care, and predictive alerts. This prevents complications and reduces costs while ensuring continuous care outside hospital walls."
     },
     {
-        "question": "5. How is MediAIana different from other digital health platforms?",
+        "question": "How is MediAIana different from other digital health platforms?",
         "answer": "MediAIana goes beyond digital patient portals. It integrates clinical, operational, and digital touchpoints across the healthcare ecosystem, powered by Rialtes’ LifeAI+. It’s built for compliance, scalability, and innovation in life sciences and MedTech."
     },
     {
-        "question": "6. How do connected ecosystems support digital transformation in life sciences?",
+        "question": "How do connected ecosystems support digital transformation in life sciences?",
         "answer": "They enable reimagining digital patient journeys in life sciences by creating seamless experiences across clinical trials, therapies, and care delivery, empowering organizations to innovate faster and deliver human-centered healthcare."
     }
 ]
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech";
+    const currUrl = useUrl()
 
     return (
         <section className="min-h-screen">
@@ -281,7 +282,7 @@ export default function Page() {
 
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12">
-                    <div className="4xl:col-span-9 xl:col-span-10 lg:col-span-11">
+                    <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
                         {/* date and icons */}
                         <div className="sm:flex justify-between">
@@ -522,12 +523,13 @@ export default function Page() {
 
 
                             {/* faq section */}
-                            <div className="4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+                            <div className="xl:mt-[80px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Frequently Asked Questions</h2>
                                 <div className="mt-[29px] xl:mt-[34px]">
                                     <FAQAccordion faqData={faqs} />
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -535,7 +537,7 @@ export default function Page() {
 
             {/* blog carousel */}
             <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
-                <BlogsCarousel />
+                <FilteredBlogCarousel url={currUrl} />
             </section>
         </section>
     )

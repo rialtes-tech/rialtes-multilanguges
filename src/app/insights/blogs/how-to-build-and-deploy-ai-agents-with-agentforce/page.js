@@ -1,9 +1,12 @@
 "use client";
 import Image from "next/image";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import useUrl from "@/app/components/useUrl";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import FAQAccordion from "@/app/components/faqAccordion";
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -74,73 +77,6 @@ const schemaData = {
         ]
     }
 }
-const blogs = [
-    {
-        id: 1,
-        image: "/images/blog/blog-1.webp",
-        category: "Salesforce Agentforce",
-        industry: "Generic",
-        date: "30 Sept 2024",
-        url: "how-salesforce-agentforce-actually-works",
-        title: "How Salesforce Agentforce Actually Works",
-        description:
-            "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-    },
-    {
-        id: 2,
-        image: "/images/blog/blog-2.webp",
-        category: "Salesforce Agentforce",
-        industry: "Generic",
-        date: "21 Oct 2024",
-        title:
-            "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-        description:
-            "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
-    },
-    {
-        id: 4,
-        image: "/images/blog/blog-4.webp",
-        category: "Salesforce Agentforce",
-        industry: "Generic",
-        date: "25 Nov 2024",
-        title:
-            "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-        description:
-            "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
-    },
-    {
-        id: 5,
-        image: "/images/blog/blog-5.webp",
-        category: "SAP SuccessFactors",
-        industry: "Human Resources",
-        date: "24 Dec 2024",
-        title:
-            "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-        description:
-            "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-    },
-    {
-        id: 6,
-        image: "/images/blog/blog-6.webp",
-        category: "Cloud Green Technology",
-        industry: "Agriculture",
-        date: "17 Sept 2024",
-        title:
-            "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-        description:
-            "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-    },
-    {
-        id: 7,
-        image: "/images/blog/blog-7.webp",
-        category: "SAP SuccessFactors",
-        industry: "Human Resources",
-        date: "29 Oct 2024",
-        title: "SAP SuccessFactors Performance and Goal Management",
-        description:
-            "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
-    },
-];
 const agentBuilderData = [
     {
         "title": "Data Collection: ",
@@ -370,7 +306,35 @@ const typesOfAgents = [
     }
 ]
 
+const faqs = [
+    {
+        "question": "What is Agentforce, and how does it help build AI agents?",
+        "answer": "Agentforce is Salesforce’s agentic AI platform that lets you create intelligent agents without coding. Using tools like Agent Builder and Prompt Builder, you can automate workflows, integrate with CRM data, and deploy digital coworkers that reason, plan, and act on business tasks."
+    },
+    {
+        "question": "Can I build an AI agent in Agentforce without coding skills?",
+        "answer": "Yes. Agentforce provides a low-code, drag-and-drop interface. Business users, Salesforce admins, and product owners can build, train, and deploy agents using natural-language prompts and visual workflows—no advanced coding required."
+    },
+    {
+        "question": "What kinds of AI agents can I create with Agentforce?",
+        "answer": "You can build agents for customer support, sales assistance, HR onboarding, finance automation, IT helpdesks, marketing personalization, and compliance monitoring. Each agent is tailored to specific business processes and integrates with Salesforce data."
+    },
+    {
+        "question": "How do I ensure my AI agent stays accurate and secure over time?",
+        "answer": "Continuous training and monitoring are key. Feed your agent updated data, run regular audits with Salesforce’s Trust Layer, and track metrics like resolution rates and user satisfaction. This ensures accuracy, compliance, and long-term performance."
+    },
+    {
+        "question": "What systems can Agentforce agents connect with?",
+        "answer": "Agents integrate with Salesforce CRM objects, Data Cloud, external APIs, ERPs,knowledge bases, and service tools. This gives them real-time access to customer and business data, enabling smarter decisions and actions."
+    },
+    {
+        "question": "How do I deploy my first AI agent with Agentforce?",
+        "answer": "You’ll follow a clear process: define your agent’s purpose, use Agent Builder to design workflows, train the agent with data, build prompts, connect systems, run simulations, and finally deploy and monitor it in production."
+    }
+]
 export default function Page() {
+    const currUrl = useUrl();
+
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce";
 
     return (
@@ -550,13 +514,21 @@ export default function Page() {
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">We saw that building an AI agent with Agentforce is a straightforward process that enables businesses to utilize AI-driven automation. With the Agentforce Agent Builder, any user can create agents using natural language queries. To ensure long-term success, continuously update your AI agent with new datasets for improved accuracy, enhanced integrations with emerging technologies, and regular audits to maintain compliance and security. However, successful deployment also requires an integrated technological infrastructure for agents to access up-to-date data and perform effectively.</p>
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Rialtes helps businesses easily adopt AI agents using Agentforce. We provide customization and deployment to meet your needs, enhancing customer service and streamlining operations for a smooth transition into the AI-driven world.</p>
                         </div>
+
+                    </div>
+                </div>
+                {/* faq section */}
+                <div className="xl:mt-[80px] mt-[40px]">
+                    <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Building and Deploying AI Agents with Agentforce</h2>
+                    <div className="mt-[29px] xl:mt-[34px]">
+                        <FAQAccordion faqData={faqs} />
                     </div>
                 </div>
             </section>
-            {/* Latest Blogs */}
-            <div className="custom-container lg:pr-0 pb-10 mt-3">
-                <BlogsCarousel slides={blogs} />
-            </div>
+            {/* blog carousel */}
+            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+                <FilteredBlogCarousel url={currUrl} />
+            </section>
         </div>
     )
 }
