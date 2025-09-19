@@ -1,6 +1,6 @@
 import Image from "next/image";
- 
-export default function page({fullUrl}) {
+
+export default function page({ fullUrl }) {
     return (
         <>
             <div className="">
@@ -34,4 +34,3 @@ export default function page({fullUrl}) {
         </>
     )
 }
- 
