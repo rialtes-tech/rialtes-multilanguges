@@ -152,7 +152,7 @@ const faqs = [
 ]
 
 export default function Page() {
-    const url = useUrl();
+    const currUrl = useUrl();
 
     const fullUrl = "https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations";
 
@@ -331,14 +331,19 @@ export default function Page() {
                             }
 
 
-                            <h2 className="font-semibold mt-16 pb-2 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px]">FAQs: Implement AI Agents in Your Manufacturing Operations</h2>
-                            <FAQAccordion faqData={faqs} />
+                            {/* faq section */}
+                            <div className="xl:mt-[80px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Implement AI Agents in Your Manufacturing Operations</h2>
+                                <div className="mt-[29px] xl:mt-[34px]">
+                                    <FAQAccordion faqData={faqs} />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section className="custom-container mt-[80px] pb-6 lg:pr-0">
-                <FilteredBlogCarousel url={url}/>
+                <FilteredBlogCarousel url={currUrl} />
             </section>
         </div>
     )

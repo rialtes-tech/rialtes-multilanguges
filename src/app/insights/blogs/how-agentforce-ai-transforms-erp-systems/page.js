@@ -5,6 +5,8 @@ import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
 
 
 const schemaData = {
@@ -211,6 +213,7 @@ const faqs = [
     }
 ]
 export default function Page() {
+    const currUrl = useUrl()
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-agentforce-ai-transforms-erp-systems";
 
     return (
@@ -391,16 +394,21 @@ export default function Page() {
                                 })
                             }
 
-                            <h2 className="font-semibold mt-16 mb-8 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px]">FAQs: Transforming ERP Systems Using Agentforce AI</h2>
 
-                            <FAQAccordion faqData={faqs} />
-
+                            {/* faq section */}
+                            <div className="xl:mt-[80px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Transforming ERP Systems Using Agentforce AI</h2>
+                                <div className="mt-[29px] xl:mt-[34px]">
+                                    <FAQAccordion faqData={faqs} />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="custom-container lg:pr-0">
-                <BlogsCarousel />
+            {/* blog carousel */}
+            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+                <FilteredBlogCarousel url={currUrl} />
             </section>
         </div>
     )
