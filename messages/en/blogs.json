@@ -3333,7 +3333,6 @@
         "moveDesc2": " to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP."
     },
     "remagineEnterprise": {
-        "date":"25 August 2025",
         "blogs": [
             {
                 "id": 1,
@@ -3773,7 +3772,6 @@
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "firstAiAgent": {
-        "date":"02 September 2025",
         "blogs": [
             {
                 "id": 1,
@@ -4471,7 +4469,6 @@
         "faqTitle": "FAQs: Frequently Asked Questions"
     },
     "beyondRobotics": {
-        "date":"01 September 2025",
         "blogs": [
             {
                 "id": 1,
@@ -5154,7 +5151,6 @@
         ]
     },
     "sapPiPo": {
-          "date":"26 August 2025",
         "blogs": [
             {
                 "id": 1,
@@ -5588,31 +5584,31 @@
         ],
         "faqData": [
             {
-                "question": "Why do I need both SAP Signavio and SAP Cloud ALM?",
+                "question": "1. Why do I need both SAP Signavio and SAP Cloud ALM?",
                 "answer": "Signavio ensures clarity and standardization at the process design level, while Cloud ALM enforces governance and traceability during execution. Together, they connect strategy to delivery—something neither tool achieves alone."
             },
             {
-                "question": "How does this pairing strengthen governance?",
+                "question": "2. How does this pairing strengthen governance?",
                 "answer": "Signavio defines standardized processes and aligns stakeholders around them. Cloud ALM ensures those processes are executed as designed by governing requirements, changes, and testing. Governance moves from theory to practice."
             },
             {
-                "question": "What does traceability mean in an S/4HANA program, and how do these tools enable it?",
+                "question": "3. What does traceability mean in an S/4HANA program, and how do these tools enable it?",
                 "answer": "Traceability is the ability to connect every business requirement and process decision to a corresponding system configuration and test case. Signavio documents the blueprint, while Cloud ALM links it to execution—creating a golden thread across the program."
             },
             {
-                "question": "Can these tools help us avoid scope creep and budget overruns?",
+                "question": "4. Can these tools help us avoid scope creep and budget overruns?",
                 "answer": "Yes. By aligning business and IT around “to-be” processes (Signavio) and managing every change through controlled workflows (Cloud ALM), the pairing reduces undocumented deviations, rework, and missed deadlines."
             },
             {
-                "question": "How do Signavio and Cloud ALM support KPI tracking?",
+                "question": "5. How do Signavio and Cloud ALM support KPI tracking?",
                 "answer": "Signavio defines baseline and target KPIs through process mining and modeling. Cloud ALM then validates those KPIs during testing and monitors them post go-live through live dashboards—closing the loop between design and business outcomes."
             },
             {
-                "question": "What happens if we implement S/4HANA without Signavio and Cloud ALM?",
+                "question": "6. What happens if we implement S/4HANA without Signavio and Cloud ALM?",
                 "answer": "You risk migrating inefficiencies, losing control over scope, inflating costs due to rework, and lacking measurable proof of ROI. In short, you may go live, but the transformation won’t deliver its full value."
             },
             {
-                "question": "Where does Rialtes add value in this journey?",
+                "question": "7. Where does Rialtes add value in this journey?",
                 "answer": "Rialtes uses its Voyager+ methodology to embed Signavio and Cloud ALM into every stage of SAP Activate. This ensures process clarity, execution governance, and KPI measurement are not just set up, but sustained."
             }
         ],
@@ -5646,7 +5642,6 @@
         "faqTitle": "FAQs: SAP Signavio + SAP Cloud ALM in S/4HANA Transformations"
     },
     "aiPatient": {
-        "date":"09 September 2025",
         "rolesData": [
             {
                 "title": "Continuous Monitoring with Context",
@@ -5785,7 +5780,6 @@
         "faqTitle": "Q&A: AI Patient Engagement in Remote Monitoring with AI Agents"
     },
     "agentforceIndustry4": {
-        "date":"08 September 2025",
         "reactiveData": [
             {
                 "image": "/images/blog/industr4Svg (1).svg",
