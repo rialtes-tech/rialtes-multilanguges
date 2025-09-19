@@ -64,7 +64,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      <section className="relative h-[250px]  4xl:h-[650px] 2xl:h-[500px] xl:h-[450px] overflow-hidden">
         <Image
           src="/images/case-studies/case study 3_n 1.webp "
           alt="Streamlined DevOps using Copado and Salesforce"
@@ -83,18 +83,14 @@ export default function Page() {
           </div>
           <div className="py-4"></div>
           <div className="">
-            <div className="flex flex-col md:flex-row justify-between text-black">
-              <div className="pb-6">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center">
+              <div>
                 <span className="text-[#0092E0]">{t("manufacturing")}</span>{" "}
                 <span className="text-[#ACACAC]"> | </span>
                 {t("date")}
               </div>
               <div className="flex flex-col">
-                <span>{t("read")}</span>
-              </div>
-            </div>
-            <div className="pt-4"></div>
-            <div className="flex flex-row gap-6 ml-[-8px]">
+                 <div className="flex flex-row gap-6 ml-[-8px]">
               <div className="max-w-[40px]">
                 <a
                   href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
@@ -143,42 +139,46 @@ export default function Page() {
                 </a>
               </div>
             </div>
+              </div>
+            </div>
+            <div className="pt-4"></div>
+          
           </div>
 
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
                 {t("clientTitle")}
               </h2>
-              <p className="text-black">{t("clientDesc")}</p>
+              <p className="text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("clientDesc")}</p>
               <div className="py-6"></div>
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
                 {t("problemTitle")}
               </h2>
-              <p className="text-black pb-6">{t("problemDesc")}</p>
+              <p className="text-black pb-6 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("problemDesc")}</p>
 
               <div className="pl-2">
                 <UnorderedList
-                  ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium"
+                  ulClassName="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium"
                   liClassName="pb-4 text-black last:pb-0"
                   arrName={problemList}
                 />
               </div>
 
               <div className="py-6"></div>
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
                 {t("solutionsTitle")}{" "}
               </h2>
-              <p className="text-black pb-4">{t("solutionsDesc")}</p>
-              <h3 className="h3-bold pb-4 xl:text-[20px] text-[18px] md:text-[19px]">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("solutionsDesc")}</p>
+              <h3 className="h3-bold pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px]">
                 {t("approachTitle")}
               </h3>
               <div className="pl-2">
-                <ol className="list-decimal marker:text-black text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+                <ol className="list-decimal marker:text-black xl:pl-10 text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium">
                   {approachList.map(({ title, description }, idx) => (
                     <li key={idx} className="pb-4 last:pb-0">
-                      <h4 className="inline xl:text-[19px] text-[17px] md:text-[18px] font-bold">
+                      <h4 className="inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[17px] md:text-[18px] font-bold">
                         {title}
                       </h4>{" "}
                       : {description}
@@ -190,14 +190,14 @@ export default function Page() {
           </div>
           <div className="py-4"></div>
           <div className="">
-            <h3 className="h3-bold pb-4 xl:text-[20px] text-[18px] md:text-[19px]">
+            <h3 className="h3-bold pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[18px] md:text-[19px]">
               {t("technologyTitle")}
             </h3>
             <div className="pl-2">
-              <ol className="list-decimal marker:text-black text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+              <ol className="list-decimal marker:text-black text-black xl:pl-10 pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium">
                 {technologyList.map(({ title, description }, idx) => (
                   <li key={idx} className="pb-4 last:pb-0">
-                    <h4 className="inline xl:text-[19px] text-[17px] md:text-[18px] font-bold">
+                    <h4 className="inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[17px] md:text-[18px] font-bold">
                       {title}
                     </h4>{" "}
                     : {description}
@@ -209,12 +209,12 @@ export default function Page() {
 
           <div className="py-6"></div>
           <div className="">
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+            <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
               {t("benefitsTitle")}
             </h2>
             <div className="pl-2">
               <UnorderedList
-                ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium"
+                ulClassName="list-disc marker:text-[#0092E0] marker:text-xl xl:pl-10 text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium"
                 liClassName="pb-4 text-black last:pb-0"
                 arrName={benefitsList}
               />
