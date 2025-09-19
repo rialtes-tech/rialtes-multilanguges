@@ -12,7 +12,7 @@ export default function page({ url }) {
             category: "MediAIna",
             industry: "Generic",
             date: "Sep. 18, 2025",
-            url: '/connected-care-ecosystem-pharma-medtech',
+            url: 'insights/blogs/connected-care-ecosystem-pharma-medtech',
             title: "Why Connected Care Ecosystems Are the Next Big Bet for Pharma & MedTech",
             description: "The life sciences industry is at an inflection point. Pharma and MedTech organizations are no longer judged only by how well they innovate in labs or build medical devices.",
         },
