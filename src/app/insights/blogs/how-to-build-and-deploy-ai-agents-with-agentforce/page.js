@@ -4,6 +4,9 @@ import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import useUrl from "@/app/components/useUrl";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -371,6 +374,8 @@ const typesOfAgents = [
 ]
 
 export default function Page() {
+    const url = useUrl();
+
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce";
 
     return (
@@ -557,9 +562,9 @@ export default function Page() {
                 </div>
             </section>
             {/* Latest Blogs */}
-            <div className="custom-container lg:pr-0 pb-10 mt-3">
-                <BlogsCarousel slides={blogs} />
-            </div>
+            <section className="custom-container my-10 pb-6 lg:pr-0">
+                <FilteredBlogCarousel url={url} />
+            </section>
         </div>
     )
 }
