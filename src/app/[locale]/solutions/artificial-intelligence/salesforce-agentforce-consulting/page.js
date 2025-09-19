@@ -178,7 +178,7 @@ export default function Agentforce() {
                 </div>
             </div>
             <section className="mt-[50px] md:mt-[60px] lg:mt-[94px] lg:pr-0 custom-container">
-                <h2 className="xl:w-[630px] md:w-[700px] 2xl:w-[850px] 4xl:w-[1000px] xl:h-[100px] 4xl:h-[219px] 2xl:h-[190px] lg:h-[100px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[24px] 4xl:text-[60px] lg:text-[38px] lg:w-[600px]">{t('manageTitle')}</h2>
+                <h2 className="xl:w-[630px] md:w-[700px] 2xl:w-[850px] 4xl:w-[1000px] xl:h-[100px] 4xl:h-[219px] 2xl:h-[190px] lg:h-[100px] leading-tight text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[42px] 4xl:text-[60px] lg:text-[38px] lg:w-[600px]">{t('manageTitle')}</h2>
                 <div className="grid lg:grid-cols-4 grid-cols-1 lg:mt-16 md:grid-cols-2">
                     {salesForce.map((sales) => {
                         return (
@@ -201,7 +201,7 @@ export default function Agentforce() {
                         )
                     })}
                 </div>
-                <h2 className="mt-[60px] md:mt-[70px] lg:mt-[104px] xl:w-[900px] lg:w-[850px] 2xl:w-[1250px] 4xl:w-[1300px] leading-tight text-[22px] md:text-[40px] lg:text-[38px] xl:text-[40px] 2xl:text-[56px] 4xl:text-[60px]">{t('leverageTitle')}</h2>
+                <h2 className="mt-[60px] md:mt-[70px] lg:mt-[104px] xl:w-[900px] lg:w-[850px] 2xl:w-[1250px] 4xl:w-[1300px] leading-tight text-[22px] md:text-[40px] lg:text-[38px] xl:text-[40px] 2xl:text-[42px] 4xl:text-[60px]">{t('leverageTitle')}</h2>
                 <div className="grid lg:grid-cols-4 grid-cols-1 md:grid-cols-2 lg:mt-10 gap-3 mt-10 ">
                     {salesForce2.map((sales) => {
                         return (

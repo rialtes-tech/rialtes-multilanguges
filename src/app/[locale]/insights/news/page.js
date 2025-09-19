@@ -36,7 +36,7 @@ export default function Page() {
   const t = useTranslations('news')
   const locale = useLocale();
   const newsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { latestCaseStudy } = newsContent.news;
+  const { latestNews } = newsContent.news;
 
   const CaseStudyCard = ({ casestudy }) => (
     <div className="border border-[#707070] w-full h-full flex flex-col group">
@@ -74,12 +74,12 @@ export default function Page() {
   const CaseStudy = () => {
     const [visibleCaseStudy, setVisibleCaseStudy] = useState(6);
     const loadMoreCaseStudy = () => setVisibleCaseStudy((prev) => prev + 6);
-    const isLoadMoreVisible = visibleCaseStudy < latestCaseStudy.length;
+    const isLoadMoreVisible = visibleCaseStudy < latestNews.length;
 
     return (
       <div className="text-black">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
-          {latestCaseStudy.slice(0, visibleCaseStudy).map((casestudy) => (
+          {latestNews.slice(0, visibleCaseStudy).map((casestudy) => (
             <CaseStudyCard key={casestudy.id} casestudy={casestudy} />
           ))}
         </div>
