@@ -133,13 +133,13 @@ export default function Page() {
             <p className="text-black  xl:text-[22px] text-[18px]">
               {t('rialtesOne')} <strong>{t('rialtesTwo')}</strong>{t('rialtesThree')} </p>
 
-            <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('crest')}</p>
+            <p className="text-black  4xl:text-[22px] 2xl:text-[20px] xl:text-[19px] text-[18px]  mt-8">{t('crest')}</p>
 
-            <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('journeyOne')} <strong> Prasad Venkatesan,</strong> {t('journeyTwo')}</p>
+            <p className="text-black  4xl:text-[22px] 2xl:text-[20px] xl:text-[19px] text-[18px] mt-8">{t('journeyOne')} <strong> Prasad Venkatesan,</strong> {t('journeyTwo')}</p>
 
-            <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('reseller')}</p>
+            <p className="text-black  4xl:text-[22px] 2xl:text-[20px] xl:text-[19px] text-[18px] mt-8">{t('reseller')}</p>
 
-            <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('visitOne')}<a className="text-blue-600" href="https://www.rialtes.com/">www.rialtes.com </a> {t('visitTwo')}<span className="text-blue-600">pr@rialtes.com </span></p>
+            <p className="text-black  4xl:text-[22px] 2xl:text-[20px] xl:text-[19px] text-[18px] mt-8">{t('visitOne')}<a className="text-blue-600" href="https://www.rialtes.com/">www.rialtes.com </a> {t('visitTwo')}<span className="text-blue-600">pr@rialtes.com </span></p>
           </div >
 
         </div >

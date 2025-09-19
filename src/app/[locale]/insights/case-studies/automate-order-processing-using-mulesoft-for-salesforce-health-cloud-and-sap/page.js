@@ -63,7 +63,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      <section className="relative h-[250px]  4xl:h-[650px] 2xl:h-[550px] xl:h-[450px] overflow-hidden">
         <Image
           src="/images/case-studies/case study 1_n 1.webp "
           alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
@@ -82,18 +82,14 @@ export default function Page() {
           </div>
 
           <div className="">
-            <div className="flex flex-col md:flex-row justify-between text-black  ">
-              <div className="pb-6">
+            <div className="flex flex-col md:flex-row justify-between text-black  items-center">
+              <div>
                 <span className="text-[#0092E0]">{t("healthcare")}</span>{" "}
                 <span className="text-[#ACACAC]"> | </span>
                 {t("date")}
               </div>
               <div className="flex flex-col">
-                <span>{t("read")}</span>
-              </div>
-            </div>
-            <div className="pt-4"></div>
-            <div className="flex flex-row gap-6 ml-[-8px]">
+                 <div className="flex flex-row gap-6 ml-[-8px]">
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
@@ -147,27 +143,31 @@ export default function Page() {
                 </div>
               </div>
             </div>
+              </div>
+            </div>
+            <div className="pt-4"></div>
+           
           </div>
 
           <div className="py-6"></div>
 
           <div className="">
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+            <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
               {t("cliendTitle")}
             </h2>
-            <p className="text-black">{t("clientDesc")}</p>
+            <p className="text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("clientDesc")}</p>
             <div className="py-6"></div>
 
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+            <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
               {t("companyTitle")}
             </h2>
-            <p className="text-black pb-4">{t("companyDesc")}</p>
+            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("companyDesc")}</p>
 
             <div className="pl-2">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
+              <ul className="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium ">
                   {problemList.map((item, idx) => (
                     <li className="pb-4 last:pb-0" key={idx}>
-                      <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
+                      <h3 className="inline h3-bold 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px]">
                         {item.title}
                       </h3>{" "}{item.description}
                     </li>
@@ -178,16 +178,16 @@ export default function Page() {
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
                 {t("solutionsTitle")}
               </h2>
-              <p className="text-black pb-4 ">{t("solutionsDesc")}</p>
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("solutionsDesc")}</p>
 
               <div className="pl-2">
-                   <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium ">
+                   <ul className="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium ">
                   {solutionsList.map((item, idx) => (
                     <li className="pb-4 last:pb-0" key={idx}>
-                      <h3 className="inline h3-bold xl:text-[20px] text-[17px] md:text-[19px]">
+                      <h3 className="inline h3-bold 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px]">
                         {item.title}
                       </h3> : {item.description}
                     </li>
@@ -200,14 +200,14 @@ export default function Page() {
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
                 {t("benefitsTitle")}
               </h2>
-              <p className="text-black pb-4">{t("benefitsDesc")}</p>
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("benefitsDesc")}</p>
 
               <div className="pl-2">
                 <UnorderedList
-                  ulClassName="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] font-medium"
+                  ulClassName="list-disc marker:text-[#0092E0] 4xl:pl-10 text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium"
                   liClassName="pb-4"
                   arrName={benefitsList}
                 />
