@@ -287,7 +287,7 @@ export default function Page() {
                         {/* date and icons */}
                         <div className="sm:flex justify-between">
                             <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">General</span>{" "}
+                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">MediAIna</span>{" "}
                                 <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>18 September 2025
                             </div>
 
@@ -317,14 +317,14 @@ export default function Page() {
                             </div>
 
                             {/* why connected section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 {
                                     whyConnectedData.map((data, ind) => {
                                         return (
                                             <div key={ind}>
                                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{data.title}</h2>
                                                 <p
-                                                    className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                    className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                                 <p
@@ -359,9 +359,9 @@ export default function Page() {
                             </div>
 
                             {/* patient at the center section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">The Patient at the Center</h2>
-                                <div className="mt-[29px] xl:mt-[34px]">
+                                <div className="mt-[29px] xl:mt-[30px]">
                                     {
                                         patientCenterData.map((data, ind) => {
                                             return (
@@ -379,9 +379,9 @@ export default function Page() {
                             </div>
 
                             {/* long term section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">Long-Term Value for Pharma and MedTech</h2>
-                                <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">A connected care ecosystem isn’t just about solving today’s problems—it’s about planning for tomorrow’s opportunities. Consider: </p>
+                                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">A connected care ecosystem isn’t just about solving today’s problems—it’s about planning for tomorrow’s opportunities. Consider: </p>
 
                                 {
                                     longTermData.map((data, ind) => {
@@ -400,14 +400,14 @@ export default function Page() {
                             </div>
 
                             {/* reimagining section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 {
                                     reimaginingData.map((data, ind) => {
                                         return (
                                             <div key={ind}>
                                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{data.title}</h2>
                                                 <p
-                                                    className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                    className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> {data.desc2}</p>
@@ -434,14 +434,14 @@ export default function Page() {
                             </div>
 
                             {/* mediana redefining section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 {
                                     medianaData.map((data, ind) => {
                                         return (
                                             <div key={ind}>
                                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{data.title}</h2>
                                                 <p
-                                                    className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                    className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                                 <h3 className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> {data.desc2}</h3>
@@ -470,7 +470,7 @@ export default function Page() {
                             {/* benefits section */}
                             <div className="xl:mt-[80px] md:mt-[60px] mt-[29px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">The Benefits of MediAIna in Action</h2>
-                                <p className={`mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}>Organizations adopting MediAIna can expect measurable impact:
+                                <p className={`mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}>Organizations adopting MediAIna can expect measurable impact:
                                 </p>
                                 <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-x-[60px] lg:gap-x-0 max-lg:gap-y-[24px] sm:w-[80%] md:w-[90%] lg:w-[950px] xl:w-[1100px] 4xl:w-[1200px] xl:mt-[44px] mt-[30px]">
                                     {
@@ -489,13 +489,13 @@ export default function Page() {
                             </div>
 
                             {/* competitive Edge section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 {
                                     competitiveData.map((data, ind) => {
                                         return (
                                             <div key={ind}>
                                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{data.title}</h2>
-                                                <p className={`mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}>{data.desc}</p>
+                                                <p className={`mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}>{data.desc}</p>
                                                 <p className={`mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}>{data.desc2}</p>
 
                                                 <UnorderedList arrName={data.list} ulClassName="pl-[36px] lg:pl-[56px] space-y-4 mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium" />
@@ -508,9 +508,9 @@ export default function Page() {
                             </div>
 
                             {/* betting section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">Betting on the Future</h2>
-                                <div className="mt-[29px] xl:mt-[34px]">
+                                <div className="mt-[29px] xl:mt-[30px]">
                                     {
                                         bettingData.map((data, ind) => {
                                             return (
@@ -524,8 +524,8 @@ export default function Page() {
 
                             {/* faq section */}
                             <div className="xl:mt-[80px] mt-[40px]">
-                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Frequently Asked Questions</h2>
-                                <div className="mt-[29px] xl:mt-[34px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Importance of Connected Care Ecosystems for Pharma & MedTech</h2>
+                                <div className="mt-[29px] xl:mt-[30px]">
                                     <FAQAccordion faqData={faqs} />
                                 </div>
                             </div>
