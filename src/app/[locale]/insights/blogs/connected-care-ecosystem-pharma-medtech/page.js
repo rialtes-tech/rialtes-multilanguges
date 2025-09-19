@@ -137,7 +137,6 @@ export default function Page() {
                 </div>
             </section>
 
-
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12">
                     <div className="4xl:col-span-9 xl:col-span-10 lg:col-span-11">
@@ -380,7 +379,7 @@ export default function Page() {
 
 
                             {/* faq section */}
-                            <div className="4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+                            <div className="xl:mt-[80px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{t('faqTitle')}</h2>
                                 <div className="mt-[29px] xl:mt-[34px]">
                                     <FAQAccordion faqData={faqs} />
