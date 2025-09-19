@@ -108,7 +108,7 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
 
-            <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] overflow-hidden">
+            <section className="relative 4xl:h-[650px] 2xl:h-[500px]  xl:h-[450px] lg:h-[650px] md:h-[400px]  sm:h-[500px] h-[350px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/ai-in-patient-desktop-banner.webp"
@@ -197,7 +197,7 @@ export default function Page() {
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('blogMainData')}</p>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('blogMainData2')}</p>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">{t('aiRoleTitle')}</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 xl:pr-0">{t('aiRoleTitle')}</h2>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('aiRoleDesc')}</p>
 
                             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[26px] gap-y-[84px] sm:w-[70%] md:w-[90%] lg:w-[900px] xl:w-[1090px] 3xl:w-[1150px] mt-[83px]">
@@ -208,10 +208,10 @@ export default function Page() {
                                             className="px-[36px] max-[360px]:pt-[80px] pt-[46px] sm:pt-[60px] lg:pt-[70px] pb-[40px] relative border border-[#707070] flex flex-col items-center">
 
                                             <p className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] font-bold bg-[#006FBE] text-white py-3 px-6 absolute -top-8 4xl:-top-12 left-1/2 transform -translate-x-1/2 w-[76%] text-center">
-                                                <span className={`${ind == 1 && "w-[70%] block md:py-0 mx-auto"} ${ind == 2 && "py-4 block"}`}>  {data.title}</span>
+                                                <span className={`${ind == 1 && " block md:py-0 mx-auto"} ${ind == 2 && "py-2 block"}`}>  {data.title}</span>
                                             </p>
 
-                                            <p className="mt-5 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                                            <p className="mt-9 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
                                                 {data.desc}
                                             </p>
                                         </div>
@@ -221,18 +221,18 @@ export default function Page() {
 
                             <p className="mt-10 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('aiRoleDesc2')}</p>
                            
-                            <h3 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">{t('turningTitle')}</h3>
+                            <h3 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 xl:pr-0">{t('turningTitle')}</h3>
 
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('turningDesc')}</p>
                             <p className="mt-6 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('turningDesc2')}</p>
-                            <p className="mt-6 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]"><strong>{t('turningDescStrong')}</strong>{t('turningDesc3')} </p>
+                            <p className="mt-6 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]"><strong>{t('turningDescStrong')}{" "}</strong>{t('turningDesc3')} </p>
                             <p className="mt-6 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('turningDesc4')}</p>
 
                             {
                                 commonData.map((data, ind) => {
                                     return (
                                         <div key={ind}>
-                                            <h3 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">{data.title}</h3>
+                                            <h3 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 xl:pr-0">{data.title}</h3>
                                             <p className="mt-5 4xl:pr-20 pr-4 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc1}</p>
                                             <p className="mt-5 4xl:pr-20 pr-4 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc2}</p>
                                             <UnorderedList arrName={data.list} ulClassName="list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[36px] mt-3 font-medium" />
@@ -242,7 +242,7 @@ export default function Page() {
                                 })
                             }
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">{t('benefitsTitle')}</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 xl:pr-0">{t('benefitsTitle')}</h2>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] lg:w-[90%]">{t('benefitsDesc')}</p>
 
                             <div className="grid md:grid-cols-2 grid-cols-1 gap-[26px] mt-[47px] sm:w-[70%] md:w-[90%] lg:w-[900px] xl:w-[1090px] 3xl:w-[1150px]">
@@ -258,11 +258,11 @@ export default function Page() {
                                 }
                             </div>
 
-                            <h2 className="font-semibold mt-16 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">{t('turnRemoteTitle')}</h2>
+                            <h2 className="font-semibold mt-16 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 xl:pr-0">{t('turnRemoteTitle')}</h2>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('turnDesc')}</p>
-                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('turnDesc2')}<Link href={"https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">{t('turnDescLink')}  </span> </Link>{t('turnDesc3')}   <Link href={"https://www.rialtes.com/industry/life-sciences/home-health-ai-tech-solutions/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> {t('turnDescLink2')}</span></Link>{t('turnDesc4')} </p>
+                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('turnDesc2')}{" "} <Link href={"https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">{t('turnDescLink')}</span></Link>{" "}{t('turnDesc3')}   <Link href={"https://www.rialtes.com/industry/life-sciences/home-health-ai-tech-solutions/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> {t('turnDescLink2')}</span></Link>{" "}{t('turnDesc4')} </p>
 
-                            <h2 className="font-semibold mt-12 mb-5 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 xl:pr-0">{t('faqTitle')}</h2>
+                            <h2 className="font-semibold mt-12 mb-5 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 xl:pr-0">{t('faqTitle')}</h2>
                             <FAQAccordion faqData={faqs} />
                         </div>
                     </div>

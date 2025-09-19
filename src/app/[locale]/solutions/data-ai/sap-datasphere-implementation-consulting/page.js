@@ -147,7 +147,7 @@ export default function () {
                                 })}
                             </div>
                             <div className="mt-[6px] md:mt-[40px] md:mb-[40px] xl:mt-[61px] xl:mb-[61px]">
-                                <LearnMore bgcolor="[#006FBE]" bordercolor="[#006FBE]" />
+                                <LearnMore bgcolor="[#006FBE]" bordercolor="[#006FBE]" className="text-black hover:text-black" textColor="black" btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                         <div className="w-full"></div>
@@ -184,7 +184,7 @@ export default function () {
                 <div className="custom-container max-md:px-0">
                     <div
                         className={`xl:pl-[94px] px-[35px] xl:mt-[-100px] mt-[-30px] xl:pt-[78px] pt-[38px] xl:pb-[0px] pb-[0px] bg-[#073259] relative 
-        ${locale === "es" ? "4xl:pb-[60px] 2xl:pb-20" : ""} 
+        ${locale === "es" ? "4xl:pb-0 2xl:pb-0" : ""} 
       `}
                     >
 
@@ -208,8 +208,16 @@ export default function () {
                             <div className="flex flex-col">
                                 <p className="text-[#FFFFFF] font-semibold xl:text-[22px] text-[20px] leading-[24px] xl:leading-[27px] md:mt-0 mt-[26px]"> {t('keyBenefitsTitle')}</p>
                                 <UnorderedList arrName={buildIntelligentData} ulClassName="list-disc pl-[22px] xl:w-[86%] w-[90%] xl:mt-[29px] mt-[26px]" liClassName="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
-                                <div className="2xl:mt-[104px] xl:mt-[144px] mt-[44px] xl:ml-1">
-                                    <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                                <div className={`
+                                  ${locale === "es"
+                                    ? "4xl:mt-[200] 2xl:mt-[190px] xl:mt-[150px] mt-[44px]"
+                                    : locale === "fr"
+                                        ? "2xl:mt-[104px] xl:mt-[144px] mt-[44px] xl:ml-1"
+                                        : "2xl:mt-[104px] xl:mt-[144px] mt-[44px] xl:ml-1"
+                                }`}
+
+                                >
+                                    <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                                 </div>
                             </div>
                         </div>
@@ -277,7 +285,15 @@ export default function () {
                     height={0}
                 />
                 {/* Desktop Image */}
-                <div className="md:h-[630px] lg:h-[630px] xl:h-[800px] 2xl:h-[860px]">
+                <div className={`
+                  ${locale === "es"
+                                    ? "md:h-[630px] lg:h-[630px] xl:h-[800px] 2xl:h-[860px]"
+                                    : locale === "fr"
+                                        ? "md:h-[630px]  xl:h-[800px] 2xl:h-[860px] 4xl:h-[1100px]"
+                                        : "md:h-[630px] lg:h-[630px] xl:h-[800px] 2xl:h-[860px]"
+                                }`}
+
+                >
                     <Image
                         src="/images/solutions/data-sphere/intelligent-automative-img.webp"
                         alt="intelligent-automative-img"
@@ -298,14 +314,14 @@ export default function () {
                         </h3>
                         <UnorderedList arrName={intelligentData} ulClassName="list-disc pl-[22px] lg:w-[70%] w-[90%] mt-[24px] xl:mt-[39px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight" />
                         <div className="xl:mt-[20px] mt-[54px]">
-                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                         </div>
                         <div className=
                             {`bg-[#163055] absolute  mr-[36px] lg:ml-[-20px] 
                              ${locale === "es"
                                     ? "xl:bottom-[-100px] bottom-[-135px]"
                                     : locale === "fr"
-                                        ? "bottom-[-100px] 4xl:bottom-[-130px]"
+                                        ? "bottom-[-100px] 4xl:bottom-[-80px] 2xl:bottom-[-60px] xl:bottom-[-95px]"
                                         : "bottom-[-70px]"
                                 }`}
                         >
@@ -541,7 +557,7 @@ export default function () {
                             <div className="flex flex-col">
                                 <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-[22px] 2xl:w-[86%] w-[90%] md:mt-[0] mt-[21px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] xl:text-[24px] text-[16px] leading-tight font-normal" />
                                 <div className="xl:mt-[49px] mt-[34px] xl:ml-1 ">
-                                    <LearnMore />
+                                    <LearnMore btnName={t('learnMoreBtn')}/>
                                 </div>
                             </div>
                         </div>
@@ -583,7 +599,7 @@ export default function () {
                             </h3>
                             <UnorderedList arrName={sapHanaData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] xl:leading-tight font-light" />
                             <div className="xl:my-[62px] mt-[34px] mb-[49px]">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                     </div>
@@ -624,7 +640,7 @@ export default function () {
                             </h3>
                             <UnorderedList arrName={sapSuccessData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] leading-tight font-light" />
                             <div className="xl:my-[62px] mt-[34px] mb-[49px]">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                     </div>
@@ -665,7 +681,7 @@ export default function () {
                             </h3>
                             <UnorderedList arrName={salesforcesapData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] xl:leading-tight font-light" />
                             <div className="xl:my-[62px] mt-[34px] mb-[49px]">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                     </div>
@@ -710,7 +726,7 @@ export default function () {
                                 </h3>
                                 <UnorderedList arrName={advancedData} ulClassName="list-disc pl-[22px] w-[80%] xl:w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[24px] text-[16px] xl:leading-tight font-light" />
                                 <div className="xl:my-[62px] mt-[34px] mb-[49px]">
-                                    <LearnMore />
+                                    <LearnMore btnName={t('learnMoreBtn')}/>
                                 </div>
                             </div>
                         </div>
@@ -737,7 +753,7 @@ export default function () {
                             width={0}
                             height={0}
                         />
-                        <div className="absolute bottom-[220px] max-[360px]:top-[25%] top-[38%] sm:top-[40%] left-0 right-0 inset-0 z-0"
+                        <div className="absolute bottom-[125px] max-[360px]:top-[25%] top-[38%] sm:top-[40%] left-0 right-0 inset-0 z-0"
                             style={{
                                 background: "#006FBE",
                                 mixBlendMode: "multiply",
@@ -763,7 +779,7 @@ export default function () {
                                 </h3>
                                 <UnorderedList arrName={aiPoweredUseData} ulClassName="list-disc pl-[22px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-[19px]" />
                                 <div className="mt-[44px] absolute">
-                                    <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                                    <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')}/>
                                 </div>
                             </div>
                         </div>
@@ -797,7 +813,7 @@ export default function () {
                                 <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] xl:mt-[43px] mt-[16px] w-[80%]  4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[15px] leading-tight font-light" />
 
                                 <div className="mt-[26px] absolute">
-                                    <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                                    <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')}/>
                                 </div>
                             </div>
                         </div>

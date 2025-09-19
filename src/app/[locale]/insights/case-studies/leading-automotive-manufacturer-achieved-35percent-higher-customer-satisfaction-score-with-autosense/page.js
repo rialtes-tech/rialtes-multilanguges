@@ -70,7 +70,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      <section className="relative h-[250px] sm:h-[500px] 4xl:h-[650px] 2xl:h-[600px] xl:h-[500px] overflow-hidden">
         <Image
           className="lg:block hidden overflow-hidden "
           src="/images/case-studies/AutoSense Warranty Management Modules_Case study banner.webp "
@@ -92,25 +92,16 @@ export default function Page() {
 
       <section className="custom-container">
         <div className="py-10 bg-white 4xl:max-w-[1084px] 4xl:w-[1084px] xl:w-[900px]">
+         
           <div className="">
-            <h1 className="text-[#000000] py-6 leading-tight  text-[26px]  4xl:text-[60px] xl:text-[45px]">
-              {t("leadingTitle")}
-            </h1>
-          </div>
-
-          <div className="">
-            <div className="flex flex-col md:flex-row justify-between text-black">
-              <div className="pb-6">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center">
+              <div>
                 <span className="text-[#0092E0]">{t("Automotive")} </span>{" "}
                 <span className="text-[#ACACAC]"> | </span>
                 {t("date")}
               </div>
               <div className="flex flex-col">
-                <span>{t("read")}</span>
-              </div>
-            </div>
-            <div className="pt-4"></div>
-            <div className="flex flex-row gap-6 ml-[-8px]">
+                 <div className="flex flex-row gap-6 ml-[-8px]">
               <div className="max-w-[40px]">
                 <a
                   href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
@@ -158,7 +149,17 @@ export default function Page() {
                 </a>
               </div>
             </div>
+              </div>
+            </div>
+            <div className="pt-4"></div>
+          
           </div>
+           <div className="">
+            <h1 className="text-[#000000] py-6 leading-tight  text-[26px]  4xl:text-[60px] xl:text-[45px]">
+              {t("leadingTitle")}
+            </h1>
+          </div>
+
 
           <div className="py-6"></div>
           <div className="">
@@ -174,13 +175,13 @@ export default function Page() {
                 {t("keyTitle")}
               </h2>
 
-              <p className="text-black pb-2">{t("keyDesc")}</p>
+              <p className="text-black pb-2 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">{t("keyDesc")}</p>
 
               <div className="pl-2">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium">
                   {keyList.map((item, index) => (
                     <li key={index} className="pb-4 last:pb-0">
-                      <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">
+                      <h3 className="h3-bold inline 4xl:text-[20px] xl:text-[17px] text-[17px] 2xl:text-[18px]  md:text-[19px]">
                         {item.title}
                       </h3> : {item.desc}
                     </li>
@@ -233,8 +234,8 @@ export default function Page() {
                 {t("benefitsTitle")}
               </h2>
               <div className="pl-2">
-                <p className="text-black pb-2">{t("benefitsDesc")}</p>
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium space-y-4">
+                <p className="text-black pb-2 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">{t("benefitsDesc")}</p>
+                <ul className="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black  4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] md:text-[19px] font-medium space-y-4">
                   {benefitsList.map((item, index) => (
                     <li className="last:pb-4" key={index}>
                       <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">

@@ -121,7 +121,7 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
  
-            <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] overflow-hidden">
+            <section className="relative 4xl:h-[650px] 2xl:h-[500px]  xl:h-[450px] lg:h-[650px] md:h-[400px]  sm:h-[500px] h-[350px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/first-ai-agent-desktop-banner.webp"
@@ -137,7 +137,8 @@ export default function Page() {
                         priority
                         height={0}
                         width={0}
-                        className="w-full h-auto object-cover"
+                        
+                        className="w-full h-auto object-cover  "
                     />
                 </div>
             </section>
@@ -148,7 +149,7 @@ export default function Page() {
                         <div className="flex flex-col md:flex-row justify-between text-black items-center  xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">{t('blogTopic')}</span>{" "}
-                                <span className="text-[#ACACAC]"> | </span>25 July 2025
+                                <span className="text-[#ACACAC]"> | </span>02 September 2025
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
@@ -209,7 +210,7 @@ export default function Page() {
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('mainData')}</p>
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('mainData2')}</p>
  
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('agentforceTitle')}</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('agentforceTitle')}</h2>
  
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('agentforceDesc')}</p>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('agentforceDesc2')}</p>
@@ -224,7 +225,7 @@ export default function Page() {
                             </ul>
                             <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('agentforceDesc3')}</p>
  
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('stepsTitle')}</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('stepsTitle')}</h2>
                             {
                                 stepToGuideData.map((data, ind) => {
                                     return (
@@ -237,7 +238,7 @@ export default function Page() {
                                 })
                             }
  
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('componentsTitle')}</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('componentsTitle')}</h2>
                             {
                                 componentsData.map((data, ind) => {
                                     return (
@@ -262,20 +263,20 @@ export default function Page() {
  
                             <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-7 font-bold">{t('actionsTitle')}</h3>
                             <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('actionsDesc')}</p>
-                            <UnorderedList arrName={actionsData} ulClassName="mt-3 list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
+                            <UnorderedList arrName={actionsData} ulClassName="mt-3 list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="text-black font-medium" />
  
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('typeTitle')}</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('typeTitle')}</h2>
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('typeDesc')}</p>
-                            <ul className="list-decimal marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[26px]">
+                            <ul className="list-decimal pl-[26px] lg:pl-[32px] marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium ">
                                 {
                                     typesOfAgents.map((data, ind) => {
                                         return (
-                                            <li key={ind}><h4 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{data.title}</h4>- {data.desc}</li>
+                                            <li className="" key={ind}><h4 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] ">{data.title}</h4>- {data.desc}</li>
                                         )
                                     })
                                 }
                             </ul>
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('futureTitle')}</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('futureTitle')}</h2>
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('futureDesc')}</p>
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('futureDesc2')}</p>
                         </div>

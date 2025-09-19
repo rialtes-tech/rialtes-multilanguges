@@ -60,7 +60,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      <section className="relative h-[350px] md:h-[400px]  4xl:h-[650px] 2xl:h-[500px] overflow-hidden">
         <Image
           src="/images/blog/salesforce-agentforce-features.webp "
           alt="Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)"
@@ -71,9 +71,9 @@ export default function Page() {
       </section>
 
       <section className="custom-container" >
-        <div className="py-10">
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center   max-[1084px] xl:w-[1084px] ">
+        <div className="py-10 bg-white xl:max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[800px]">
+          <div className="">
+            <div className="flex flex-col md:flex-row justify-between text-black items-center   ">
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>03 Feb 2025
               </div>
@@ -118,16 +118,16 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="container mx-auto pl-0">
-            <h1 className="text-[#000000] font-semibold pb-8  xl:w-[750px] 4xl:w-[1084px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">{t('blogTitle')}</h1>
+          <div className="pl-0">
+            <h1 className="text-[#000000] pb-8  leading-tight 4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px]  md:text-[28px] text-[26px]">{t('blogTitle')}</h1>
           </div>
 
-          <div className="container mx-auto pl-0">
-            <div className="max-[1084px] xl:w-[1084px]">
+          <div className="pl-0">
+            <div className="">
               {
                 blogMainData.map((data, ind) => {
                   return (
-                    <p className="text-black pb-4" key={ind}>{data}</p>
+                    <p className="text-black pb-4 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight" key={ind}>{data}</p>
                   )
                 })
               }
@@ -136,14 +136,14 @@ export default function Page() {
                 commonData.map((data, ind) => {
                   return (
                     <div key={ind}>
-                      <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4"> {data.title}</h2>
+                      <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] leading-tight pb-4"> {data.title}</h2>
 
-                      <p className="text-black pb-4">{data.desc}</p>
-                      <ul className="list-disc text-black marker:text-[#0092E0] pl-4 xl:text-[20px] text-[16px] font-medium mt-3">
+                      <p className="text-black pb-4 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">{data.desc}</p>
+                      <ul className="pl-[25px] lg:pl-[32px] *:list-disc text-black marker:text-[#0092E0]  4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight font-medium mt-3">
                         {
                           data.data.map((elem, ind) => {
                             return (
-                              <li className="pb-2" key={ind}><h3 className="font-bold inline xl:text-[20px] text-[16px]">{elem.title}</h3>{elem.desc}</li>
+                              <li className="pb-2 " key={ind}><h3 className="font-bold inline 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">{elem.title}</h3>{elem.desc}</li>
                             )
                           })
                         }
@@ -154,16 +154,16 @@ export default function Page() {
                 })
               }
               {/* transition section */}
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">{t('transitionTitle')}</h2>
-              <p className="text-black pb-4"><Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"}> {t('transitionLink')}</Link>{t('transitionDesc')} </p>
-              <p className="text-black pb-4">{t('transitionDesc2')}<Link className="underline" href={"mailto:sales@rialtes.com"}>sales@rialtes.com</Link>.</p>
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] pb-4">{t('transitionTitle')}</h2>
+              <p className="text-black pb-4 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight"><Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"}>{t('transitionLink')}</Link>{" "}{t('transitionDesc')} </p>
+              <p className="text-black pb-4 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">{t('transitionDesc2')}<Link className="underline" href={"mailto:sales@rialtes.com"}>sales@rialtes.com</Link>.</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Latest Blogs */}
-      <div className="custom-container">
+      <div className="custom-container lg:pr-0">
         <BlogsCarousel slides={blogs} />
       </div>
     </div>

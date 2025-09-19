@@ -5527,31 +5527,31 @@
         ],
         "faqData": [
             {
-                "question": "¿Por qué necesito tanto SAP Signavio como SAP Cloud ALM?",
+                "question": "1. ¿Por qué necesito tanto SAP Signavio como SAP Cloud ALM?",
                 "answer": "Signavio garantiza claridad y estandarización en el nivel de diseño de procesos, mientras que Cloud ALM hace cumplir la gobernanza y trazabilidad durante la ejecución. Juntos conectan la estrategia con la entrega—algo que ninguna herramienta logra por sí sola."
             },
             {
-                "question": "¿Cómo refuerza esta combinación la gobernanza?",
+                "question": "2. ¿Cómo refuerza esta combinación la gobernanza?",
                 "answer": "Signavio define procesos estandarizados y alinea a las partes interesadas en torno a ellos. Cloud ALM asegura que esos procesos se ejecuten tal como fueron diseñados al gobernar requisitos, cambios y pruebas. La gobernanza pasa de la teoría a la práctica."
             },
             {
-                "question": "¿Qué significa trazabilidad en un programa S/4HANA y cómo habilitan estas herramientas esa trazabilidad?",
+                "question": "3. ¿Qué significa trazabilidad en un programa S/4HANA y cómo habilitan estas herramientas esa trazabilidad?",
                 "answer": "La trazabilidad es la capacidad de conectar cada requisito de negocio y decisión de proceso con una configuración de sistema y un caso de prueba correspondientes. Signavio documenta el plano, mientras que Cloud ALM lo vincula con la ejecución—creando un hilo dorado en todo el programa."
             },
             {
-                "question": "¿Pueden estas herramientas ayudarnos a evitar la expansión del alcance y sobrecostos?",
+                "question": "4. ¿Pueden estas herramientas ayudarnos a evitar la expansión del alcance y sobrecostos?",
                 "answer": "Sí. Al alinear negocio y TI en torno a procesos “a ser” (Signavio) y gestionar cada cambio a través de flujos de trabajo controlados (Cloud ALM), la combinación reduce desviaciones no documentadas, retrabajos y plazos incumplidos."
             },
             {
-                "question": "¿Cómo apoyan Signavio y Cloud ALM el seguimiento de KPIs?",
+                "question": "5. ¿Cómo apoyan Signavio y Cloud ALM el seguimiento de KPIs?",
                 "answer": "Signavio define KPIs base y objetivos mediante minería y modelado de procesos. Cloud ALM valida esos KPIs durante las pruebas y los monitorea después de la puesta en marcha a través de tableros en vivo—cerrando el ciclo entre diseño y resultados de negocio."
             },
             {
-                "question": "¿Qué pasa si implementamos S/4HANA sin Signavio y Cloud ALM?",
+                "question": "6. ¿Qué pasa si implementamos S/4HANA sin Signavio y Cloud ALM?",
                 "answer": "Corres el riesgo de migrar ineficiencias, perder control sobre el alcance, inflar costos debido a retrabajos y carecer de pruebas medibles de ROI. En resumen, puedes entrar en producción, pero la transformación no entregará su valor completo."
             },
             {
-                "question": "¿Dónde agrega valor Rialtes en este recorrido?",
+                "question": "7. ¿Dónde agrega valor Rialtes en este recorrido?",
                 "answer": "Rialtes usa su metodología Voyager+ para integrar Signavio y Cloud ALM en cada etapa de SAP Activate. Esto asegura que la claridad de procesos, la gobernanza de ejecución y la medición de KPIs no solo se configuren, sino que se sostengan."
             }
         ],
@@ -5585,6 +5585,7 @@
         "faqTitle": "Preguntas Frecuentes: SAP Signavio + SAP Cloud ALM en Transformaciones S/4HANA"
     },
     "aiPatient": {
+
         "rolesData": [
             {
                 "title": "Monitoreo continuo con contexto",
@@ -5665,34 +5666,34 @@
         ],
         "faqs": [
             {
-                "question": "¿En qué se diferencian los agentes de IA de la automatización tradicional en MedTech?",
+                "question": "1. ¿En qué se diferencian los agentes de IA de la automatización tradicional en MedTech?",
                 "answer": [
                     "Los agentes de IA no solo siguen reglas; interpretan el contexto.",
                     "A diferencia de la automatización simple, los agentes pueden detectar patrones en los datos de salud, decidir cuándo es necesaria una acción y comunicarse proactivamente con pacientes y proveedores."
                 ]
             },
             {
-                "question": "¿Pueden integrarse los agentes de IA con las plataformas y dispositivos de MedTech existentes?",
+                "question": "2. ¿Pueden integrarse los agentes de IA con las plataformas y dispositivos de MedTech existentes?",
                 "answer": [
                     "Sí. Plataformas como Salesforce Agentforce están diseñadas para integrarse con CRMs, EHRs, dispositivos médicos IoT y aplicaciones de participación del paciente con IA, creando un ecosistema unificado para la monitorización en tiempo real."
                 ]
             },
             {
-                "question": "¿Qué beneficios obtienen los pacientes del monitoreo remoto impulsado por IA?",
+                "question": "3. ¿Qué beneficios obtienen los pacientes del monitoreo remoto impulsado por IA?",
                 "answer": [
                     "Los pacientes se benefician de alertas oportunas, comunicación personalizada, menos visitas hospitalarias y una mayor sensación de apoyo.",
                     "Se sienten comprometidos y cuidados sin necesidad de chequeos presenciales constantes."
                 ]
             },
             {
-                "question": "¿Cómo mejoran los agentes de IA el cumplimiento y la seguridad de los datos en MedTech?",
+                "question": "4. ¿Cómo mejoran los agentes de IA el cumplimiento y la seguridad de los datos en MedTech?",
                 "answer": [
                     "Los agentes pueden hacer cumplir protocolos de cumplimiento registrando intervenciones, anonimizar datos sensibles y garantizar comunicaciones seguras con los pacientes.",
                     "También ayudan a los proveedores a cumplir con normas regulatorias como HIPAA."
                 ]
             },
             {
-                "question": "¿Es esta tecnología escalable para grandes sistemas de salud y proveedores de MedTech?",
+                "question": "5. ¿Es esta tecnología escalable para grandes sistemas de salud y proveedores de MedTech?",
                 "answer": [
                     "Absolutamente. Los agentes de IA están diseñados para manejar grandes volúmenes de pacientes, coordinar múltiples equipos de atención y generar análisis predictivos, permitiendo a las organizaciones escalar sin sobrecargar al personal."
                 ]
@@ -5723,6 +5724,7 @@
         "faqTitle": "Preguntas y respuestas: Compromiso del paciente con IA en la monitorización remota con agentes de IA"
     },
     "agentforceIndustry4": {
+
         "reactiveData": [
             {
                 "image": "/images/blog/industr4Svg (1).svg",
@@ -5821,7 +5823,7 @@
         ],
         "faqs": [
             {
-                "question": "¿Qué hace que Agentforce sea diferente de las soluciones tradicionales de mantenimiento predictivo?",
+                "question": "1. ¿Qué hace que Agentforce sea diferente de las soluciones tradicionales de mantenimiento predictivo?",
                 "answer": [
                     "La mayoría de las herramientas de mantenimiento predictivo se enfocan solo en datos a nivel de máquina.",
                     "Agentforce va más allá al combinar conocimientos de IoT con historiales de servicio, reclamos de garantía y flujos de trabajo de Salesforce Field Service.",
@@ -5829,21 +5831,21 @@
                 ]
             },
             {
-                "question": "¿Puede Agentforce trabajar con nuestros sistemas IoT y ERP existentes?",
+                "question": "2. ¿Puede Agentforce trabajar con nuestros sistemas IoT y ERP existentes?",
                 "answer": [
                     "Sí. Agentforce está diseñado para integrarse con plataformas IoT, MES y sistemas ERP existentes.",
                     "Al incorporar datos de máquinas y flujos de trabajo operativos, crea una vista conectada de su fábrica y cadena de suministro sin necesidad de un reemplazo completo."
                 ]
             },
             {
-                "question": "¿Cómo reduce Agentforce el tiempo de inactividad no planificado en la práctica?",
+                "question": "3. ¿Cómo reduce Agentforce el tiempo de inactividad no planificado en la práctica?",
                 "answer": [
                     "Agentforce detecta señales tempranas de falla, pronostica la demanda de repuestos y despacha al técnico adecuado antes de que los problemas escalen.",
                     "Al pasar de un mantenimiento reactivo a uno predictivo, los fabricantes pueden reducir el tiempo de inactividad no planificado hasta en un 30–40% mientras reducen los costos de servicio."
                 ]
             },
             {
-                "question": "¿Agentforce solo ayuda a grandes empresas o es escalable para fabricantes medianos?",
+                "question": "4. ¿Agentforce solo ayuda a grandes empresas o es escalable para fabricantes medianos?",
                 "answer": [
                     "Es escalable por diseño.",
                     "Los fabricantes medianos pueden comenzar con poco—automatizando la programación de mantenimiento o alertas predictivas para una sola planta—y expandirse a inteligencia predictiva multi-sitio a medida que crecen.",
@@ -5851,7 +5853,7 @@
                 ]
             },
             {
-                "question": "¿Cómo mejora Agentforce la experiencia del cliente en la manufactura predictiva?",
+                "question": "5. ¿Cómo mejora Agentforce la experiencia del cliente en la manufactura predictiva?",
                 "answer": [
                     "Los clientes ya no enfrentan retrasos o tiempos de inactividad inesperados.",
                     "Agentforce los mantiene informados con actualizaciones proactivas, asegura que las piezas y técnicos estén listos con anticipación y minimiza las interrupciones de servicio.",
@@ -5859,7 +5861,7 @@
                 ]
             },
             {
-                "question": "¿Puede Agentforce apoyar nuevos modelos de negocio como 'Equipo como Servicio'?",
+                "question": "6. ¿Puede Agentforce apoyar nuevos modelos de negocio como 'Equipo como Servicio'?",
                 "answer": [
                     "Absolutamente.",
                     "Las capacidades predictivas hacen posible que los fabricantes ofrezcan garantías de tiempo de actividad, mantenimiento basado en suscripción o contratos de servicio orientados a resultados.",
