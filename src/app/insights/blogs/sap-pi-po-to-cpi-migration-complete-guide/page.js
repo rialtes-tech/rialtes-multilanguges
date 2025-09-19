@@ -17,7 +17,7 @@ const schemaData =
     "@type": "BlogPosting",
     "headline": "SAP PI PO to CPI Migration: A Complete Guide",
     "description": "Migrating from SAP PI/PO to SAP BTP Integration Suite is not just limited to re-platforming interfaces; it involves adopting a modern, cloud-native integration backbone.",
-    "image": "https://www.rialtes.com/images/industry/sap/sap-consulting-banner.webp",
+    "image": "https://www.rialtes.com/images/blogs/sap-pi-po-cpi-migration-banner.webp",
     "author": {
         "@type": "Organization",
         "name": "Rialtes"
@@ -217,11 +217,11 @@ export default function Page() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-            <section className="relative  h-[350px] md:h-[400px]  4xl:h-[600px] 2xl:h-[500px]">
+            <section className="relative h-[350px] md:h-[400px] 4xl:h-[600px] 2xl:h-[500px]">
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
-                        src="/images/blog/sap-consulting-banner.webp"
+                        src="/images/blog/sap-pi-po-cpi-migration-banner.webp"
                         alt="Discover AgentExchange"
                         fill
                         priority

@@ -356,7 +356,7 @@ export default function Page() {
                                 Let’s face it: in manufacturing, even one delayed shipment, broken part, or miscommunication can trigger a cascade of frustration for your customers. When that happens, how you respond can either build trust or break it.
                             </p>
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] xl:pl-6 2xl:pl-6 4xl:pl-6 md:pl-6 pl-0">
-                                Traditionally, service teams are overwhelmed. Tickets come in, support staff scramble to gather warranty details, dig through past orders, and route the case to the right department, often bouncing customers between teams. This slows resolution and erodes satisfaction. Agentforce changes that entirely.
+                                Traditionally, service teams are overwhelmed. Tickets come in, support staff scramble to gather warranty details, dig through past orders, and route the case to the right department, often bouncing customers between teams. This slows resolution and erodes satisfaction. <Link href={'https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/'} className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce changes that entirely</Link>.
                             </p>
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] xl:pl-6 2xl:pl-6 4xl:pl-6 md:pl-6 pl-0">
@@ -462,29 +462,20 @@ export default function Page() {
                             </ol>
 
                             <p className="text-black pb-4 mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                Talk to Rialtes. We help manufacturers deploy Agentforce systems that transform both the shop floor and the customer journey. As a
-                                <Link
+                                Talk to Rialtes. We help manufacturers deploy Agentforce systems that transform both the shop floor and the customer journey. As a<Link
                                     className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
                                     href={
                                         "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"
-                                    }
-                                >
+                                    }>
                                     <span className="pl-3">top-rated Salesforce Crest Partner</span>
                                 </Link>
-                                , we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our
-                                <Link
+                                , we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our <Link
                                     className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
                                     href={
                                         "https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/"
-                                    }
-                                >
-                                    <span className="pl-3 pr-3">Managed Services</span>
-                                </Link>
-
+                                    }>Managed Services</Link>{" "}
                                 and Consulting can help your business integrate AI agents into Sales, Service, Marketing, and Commerce
                             </p>
-
-
 
                             {/* faq section */}
                             <div className="xl:mt-[80px] mt-[40px]">

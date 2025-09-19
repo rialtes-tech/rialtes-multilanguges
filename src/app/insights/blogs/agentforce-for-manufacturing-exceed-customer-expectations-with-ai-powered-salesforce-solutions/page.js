@@ -1,11 +1,9 @@
 "use client";
-// pages/blog-detail.js
 import Image from "next/image";
 import Link from "next/link";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
-import { useState } from "react";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
 import FAQAccordion from "@/app/components/faqAccordion";
 import useUrl from "@/app/components/useUrl";
 
@@ -318,7 +316,7 @@ export default function Page() {
                             </h2>
 
                             <p className="text-black pb-4 text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
-                                Industrial manufacturing sales are anything but simple. Multiple stakeholders, fluctuating specs, made-to-order configurations, and pricing dependencies mean manual back-and-forth kills speed and accuracy. Agentforce simplifies this mess using smart agents integrated with Salesforce CPQ and Data Cloud.
+                                Industrial manufacturing sales are anything but simple. Multiple stakeholders, fluctuating specs, made-to-order configurations, and pricing dependencies mean manual back-and-forth kills speed and accuracy. Agentforce simplifies this mess using  <Link href={'https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/'} className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">smart agents</Link> integrated with Salesforce CPQ and Data Cloud.
                             </p>
                             <ol className="list-disc  marker:text-xl pl-4 marker:text-[#0092E0] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]  font-medium space-y-3">
                                 <li>It can pre-validate order feasibility based on available capacity and materials</li>
@@ -386,7 +384,7 @@ export default function Page() {
                             <p className="4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">Manufacturers already know how to build machines. But building lasting relationships? That takes more than machinery. It takes the ability to anticipate needs, personalize every interaction, and scale support without losing quality. Agentforce gives you exactly that: a smarter, AI-powered way to make every touchpoint count. If you're evaluating how AI agents differ from copilots or bots in driving efficiency and growth, explore our  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/" target="_blank">
                                 strategic comparison of Agents vs Copilots vs Bots</Link>.  While competitors are still chasing tickets and juggling systems, this is your chance to outgrow expectations—and the competition.</p>
                             <p className="mt-5 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">As a <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/" target="_blank">
-                                top-rated Salesforce Crest Partner</Link>,  we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our Managed Services and Consulting can help your business integrate AI agents into Sales, Service, Marketing, and Commerce. </p>
+                                top-rated Salesforce Crest Partner</Link>,  we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our Managed Services and Consulting can help your business  <Link href={' https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/'} className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>integrate AI agents</Link> into Sales, Service, Marketing, and Commerce. </p>
                             <p className="mt-5 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">Ready to see Agentforce in action for your manufacturing business? <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/contact-us/" target="_blank">
                                 Let’s talk</Link>.</p>
                         </div>
@@ -404,7 +402,7 @@ export default function Page() {
 
             {/* blog carousel */}
             <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
-                <BlogsCarousel />
+                <FilteredBlogCarousel url={currUrl} />
             </section>
         </div>
     );

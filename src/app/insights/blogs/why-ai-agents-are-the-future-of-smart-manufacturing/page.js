@@ -124,7 +124,7 @@ const manufacturingAreasData = [
             "Identify accounts at churn risk based on behavior or sentiment",
             "Recommend personalized follow-ups, preventive maintenance, or upsell opportunities"
         ],
-        "desc2": "This is where real customer experience is won, not just in what you build, but how you support and evolve with the customer over time."
+        "desc2": "This is where  <a href='https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>real customer experience is won</a>, not just in what you build, but how you support and evolve with the customer over time."
     },
     {
         "title": "AI That Unifies OEMs, Distributors, and Channel Partners",
@@ -353,7 +353,7 @@ export default function Page() {
                                             {
                                                 data.list && <UnorderedList arrName={data.list} ulClassName="mt-3 pl-[48px] list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
                                             }
-                                            {data.desc2 && <p className="mt-3 pl-[26px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc2}</p>}
+                                            {data.desc2 && <p className="mt-3 pl-[26px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]" dangerouslySetInnerHTML={{ __html: data.desc2 }} />}
                                         </div>
                                     )
                                 })
@@ -416,9 +416,9 @@ export default function Page() {
                                 })
                             }
                             <p className="mt-2 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
-                                "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a  <Link href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">Salesforce Crest Partner </span></Link>, we bring the strategy, systems, and support to make AI agents real and fast.",
+                                "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a  <Link href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">Salesforce Crest Partner</span></Link>, we bring the strategy, systems, and support to make AI agents real and fast.",
                             </p>
-                            <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">Let’s build smarter factories with thinking agents.</p>
+                            <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">Let’s build  <Link href={'https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/'} className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smarter factories with thinking agents</Link>.</p>
 
                             {/* faq section */}
                             <div className="xl:mt-[80px] mt-[40px]">
@@ -431,7 +431,7 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-            
+
             {/* blog carousel */}
             <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
                 <FilteredBlogCarousel url={currUrl} />
