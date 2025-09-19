@@ -333,7 +333,7 @@ export default function Page() {
                             }
 
 
-                            <h2 className="font-semibold mt-16 pb-2 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px]">FAQ: AI Agents in Manufacturing</h2>
+                            <h2 className="font-semibold mt-16 pb-2 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px]">FAQs: Implement AI Agents in Your Manufacturing Operations</h2>
                             <FAQAccordion faqData={faqs} />
                         </div>
                     </div>

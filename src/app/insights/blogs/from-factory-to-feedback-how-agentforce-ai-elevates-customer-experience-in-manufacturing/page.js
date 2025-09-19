@@ -569,7 +569,7 @@ export default function Page() {
                             </p>
 
                             <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px]  xl:text-[21px] text-[23px] mt-16">
-                                Frequently Asked Questions (FAQs)
+                                FAQs: Agentforce to Help Manufacturers Improve Customer Experience
                             </h2>
 
                         </div>

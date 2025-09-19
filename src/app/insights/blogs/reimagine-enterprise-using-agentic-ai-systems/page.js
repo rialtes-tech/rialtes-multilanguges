@@ -575,7 +575,7 @@ export default function Page() {
 
 
                             <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px]  xl:text-[21px] text-[23px] 4xl:mt-10 2xl:mt-10 xl:mt-5">
-                                Frequently Asked Questions (FAQs)
+                                FAQs: Enterprise Benefits of Using Gentic AI
                             </h2>
 
                         </div>

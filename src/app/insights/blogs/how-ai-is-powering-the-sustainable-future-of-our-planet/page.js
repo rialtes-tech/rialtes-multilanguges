@@ -349,7 +349,7 @@ export default function Page() {
                                 (SDGs) as a roadmap to tackle global challenges like poverty, inequality, climate change, environmental degradation, peace, and justice.</p>
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                AI plays a growing role in this landscape. By analyzing massive datasets, spotting patterns humans miss, and making data-driven recommendations, AI enables smarter decision-making at every level. It helps cities become more energy-efficient, industries become cleaner, and farmers become more productive—all while reducing waste and emissions. Whether you're a policymaker, an enterprise leader, or a conservationist, AI can serve as a real-time compass for sustainability.Just as AI helps cities, industries, and farmers make smarter choices, <a href='https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>large language models</span> </a> are transforming how businesses connect with their customers.</p>
+                                AI plays a growing role in this landscape. By analyzing massive datasets, spotting patterns humans miss, and making data-driven recommendations, AI enables smarter decision-making at every level. It helps cities become more energy-efficient, industries become cleaner, and farmers become more productive—all while reducing waste and emissions. Whether you're a policymaker, an enterprise leader, or a conservationist, AI can serve as a real-time compass for sustainability.Just as AI helps cities, industries, and farmers make smarter choices, <a href='https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience/'><span className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>large language models</span> </a> are transforming how businesses connect with their customers.</p>
 
 
                             <div className="py-6 "></div>
@@ -521,7 +521,7 @@ export default function Page() {
                                 Companies use AI to cut waste across the supply chain, monitor carbon emissions in real time, and automate reporting processes for ESG compliance. AI tools can optimize delivery routes, flag inefficient production processes, and even predict equipment failures before they lead to resource loss.
                             </p>
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                <a href='https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>  Take manufacturing</span></a>, for example. AI models can identify where raw materials get wasted, suggest energy-saving opportunities, or simulate different scenarios to make operations more sustainable without sacrificing profitability. In agriculture, retailers are using AI to reduce food waste by forecasting demand more accurately, improving shelf-life management, and minimizing overproduction.
+                                <a href='https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/'><span className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>  Take manufacturing</span></a>, for example. AI models can identify where raw materials get wasted, suggest energy-saving opportunities, or simulate different scenarios to make operations more sustainable without sacrificing profitability. In agriculture, retailers are using AI to reduce food waste by forecasting demand more accurately, improving shelf-life management, and minimizing overproduction.
                             </p>
 
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
@@ -540,10 +540,10 @@ export default function Page() {
                                 At Rialtes, we help organizations develop AI systems that make sustainability practical. From concept to execution, we partner with enterprises to apply AI ethically and effectively, turning climate ambition into action.
                             </p>
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                <a href='https://www.rialtes.com/contact-us/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Talk to our experts</span> </a> to learn how AI can unlock your sustainability potential, drive measurable impact, and help build a better future for both business and the planet.
+                                <a href='https://www.rialtes.com/contact-us/'><span className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Talk to our experts</span> </a> to learn how AI can unlock your sustainability potential, drive measurable impact, and help build a better future for both business and the planet.
                             </p>
                             <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px]  xl:text-[21px] text-[23px] mt-16">
-                                Frequently Asked Questions (FAQs)
+                                FAQs: Role of AI in Powering the Sustainable Future of Our Planet
                             </h2>
                         </div>
                     </div>

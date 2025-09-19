@@ -1,13 +1,10 @@
 "use client";
-// pages/insights.js
 import React, { useState, useEffect } from "react";
-import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
-import { HeroSection } from "../components/herosection";
 import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
@@ -187,7 +184,7 @@ export default function InsightsPage() {
               className="border w-full xl:w-2/5 lg:w-full border-gray-200 overflow-hidden"
               onMouseEnter={handleMouseEnter("blog1")}
               onMouseLeave={handleMouseLeave("blog1")}
-              onClick={handleClick("/insights/blogs/how-salesforce-agentforce-actually-works")}
+              onClick={handleClick("/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide")}
               style={{ cursor: "pointer" }}
             >
               <div className="relative h-[300px] md:h-[500px]  lg:h-[700px] xl:h-[900px] 2xl:h-[750px] w-full overflow-hidden">
@@ -200,7 +197,7 @@ export default function InsightsPage() {
                   }}
                 >
                   <Image
-                    src="/images/blog/blog-1.webp"
+                    src="/images/blog/sap-cpi-mobile-banner.webp"
                     alt="Green computing illustration showing tree and circuit integration"
                     fill
                     className="object-cover h-full"
@@ -216,21 +213,20 @@ export default function InsightsPage() {
                   backgroundColor:
                     hoveredBlog === "blog1" ? "#f1f1f1" : "transparent",
                 }}>
-                <div className="flex flex-row items-center mb-4">
-                  <span className="text-[#0092E0] font-medium">
-                    Salesforce Agentforce
-                  </span>
-                  <span className="mx-2">|</span>
-                  <span className="text-sm">30 Sept 2024</span>
+                <div className="flex 2xl:flex-row xl:flex-col flex-row max-[400px]:flex-col  mb-4">
+                  <div className="text-[#0092E0] text-sm font-medium pr-3 max-[400px]:border-0 border-r xl:border-r-0 2xl:border-r border-gray-500">
+                    SAP
+                  </div>
+                  <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">26 Aug 2025</div>
                 </div>
-                <h3 className="mb-3  4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
-                  How Salesforce Agentforce Actually Works
+                <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
+                  SAP PI PO to SAP CPI Migration: A Complete Guide
                 </h3>
                 <p className="mb-4 4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
-                  Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.
+                  Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation. For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes. But as organizations shift to cloud-first strategies, the cracks in PI/PO are showing.
                 </p>
                 <Link
-                  href="/insights/blogs/how-salesforce-agentforce-actually-works"
+                  href="/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide"
                   className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group">
                   <span>Read More</span>
                   <svg
@@ -255,7 +251,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 overflow-hidden flex flex-col lg:flex-row h-full"
                 onMouseEnter={handleMouseEnter("blog2")}
                 onMouseLeave={handleMouseLeave("blog2")}
-                onClick={handleClick("/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce")}
+                onClick={handleClick("/insights/blogs/ai-patient-engagement-medtech-remote-care")}
                 style={{ cursor: "pointer" }}>
                 <div className="relative h-[300px] md:h-[500px] lg:h-auto lg:w-1/2 overflow-hidden ">
                   <div
@@ -266,11 +262,11 @@ export default function InsightsPage() {
                         hoveredBlog === "blog2" ? "scale(1.05)" : "scale(1)",
                     }}>
                     <Image
-                      src="/images/blog/blog-2.webp"
+                      src="/images/blog/ai-in-patient-mobile-banner.webp"
                       alt="Diversity illustration"
                       fill
                       className="object-cover h-full w-full"
-                      style={{ objectPosition: "95% 60%" }}
+                      style={{ objectPosition: "15% 60%" }}
                       priority
                     />
                   </div>
@@ -282,22 +278,21 @@ export default function InsightsPage() {
                     backgroundColor:
                       hoveredBlog === "blog2" ? "#f1f1f1" : "transparent",
                   }}>
-                  <div className="flex flex-row items-center mb-4">
-                    <span className="text-[#0092E0] text-sm font-medium">
-                      Salesforce Agentforce
-                    </span>
-                    <span className="text-gray-500 mx-2">|</span>
-                    <span className="text-gray-600 text-sm">21 Oct 2024</span>
+                  <div className="flex 2xl:flex-row xl:flex-col flex-row max-[400px]:flex-col  mb-4">
+                    <div className="text-[#0092E0] text-sm font-medium pr-3 max-[400px]:border-0 border-r xl:border-r-0 2xl:border-r border-gray-500">
+                      Artificial Intelligence
+                    </div>
+                    <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">09 Sept. 2025</div>
                   </div>
                   <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
-                    The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce
+                    AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring
                   </h3>
                   <p className="mb-2 4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
-                    As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.
+                    Early detection of health deterioration is vital for patients with chronic conditions or those recovering from surgery. That is the reason why patients and clinicians now rely on real-time data for faster...
                   </p>
                   <div>
                     <Link
-                      href="/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce"
+                      href="/insights/blogs/ai-patient-engagement-medtech-remote-care"
                       className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group">
                       <span>Read More</span>
                       <svg
@@ -322,7 +317,7 @@ export default function InsightsPage() {
                 className="border border-gray-200 overflow-hidden flex flex-col lg:flex-row h-full"
                 onMouseEnter={handleMouseEnter("blog3")}
                 onMouseLeave={handleMouseLeave("blog3")}
-                onClick={handleClick("/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters")}
+                onClick={handleClick("/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce")}
                 style={{ cursor: "pointer" }}>
                 <div className="relative h-[300px] md:h-[500px] lg:h-auto lg:w-1/2 overflow-hidden">
                   <div
@@ -333,11 +328,11 @@ export default function InsightsPage() {
                         hoveredBlog === "blog3" ? "scale(1.05)" : "scale(1)",
                     }}>
                     <Image
-                      src="/images/blog/blog-3.webp"
+                      src="/images/blog/first-ai-agent-mob-banner.webp"
                       alt="Diversity illustration"
                       fill
                       className="object-cover h-full w-full"
-                      style={{ objectPosition: "60% 30%" }}
+                      style={{ objectPosition: "10% 30%" }}
                       priority
                     />
                   </div>
@@ -349,25 +344,21 @@ export default function InsightsPage() {
                     backgroundColor:
                       hoveredBlog === "blog3" ? "#f1f1f1" : "transparent",
                   }}>
-                  <div className="flex flex-row items-center mb-4">
-                    <span className="text-[#0092E0] text-sm font-medium">
-                      Salesforce Agentforce
-                    </span>
-                    <span className="text-gray-500 mx-2">|</span>
-                    <span className="text-gray-600 text-sm">28 Oct 2024</span>
+                  <div className="flex 2xl:flex-row xl:flex-col flex-row max-[400px]:flex-col  mb-4">
+                    <div className="text-[#0092E0] text-sm font-medium pr-3 max-[400px]:border-0 border-r xl:border-r-0 2xl:border-r border-gray-500">
+                      Artificial Intelligence
+                    </div>
+                    <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">02 Sept. 2025</div>
                   </div>
                   <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
-                    Agents vs. Copilots vs. Bots: What&apos;s the Difference and
-                    Why It Matters
+                    Build and Deploy Your First AI Agent Using Agentforce
                   </h3>
                   <p className="mb-2 4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
-                    Tools like Agentforce are redefining how we view digital
-                    assistants, bringing distinctions between Agents, Copilots,
-                    and Bots to the forefront.
+                    By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions.
                   </p>
                   <div>
                     <Link
-                      href="/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters"
+                      href="/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce"
                       className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group">
                       <span>Read More</span>
                       <svg
@@ -450,16 +441,15 @@ export default function InsightsPage() {
               </div>
               <div className="w-full h-full">
                 <div className=" p-6 xl:p-12 max-w-2xl">
-                  <div className="flex flex-row items-center mb-3">
-                    <span className="text-[#0092E0]">
-                    Education Cloud
-                    </span>{" "}
-                    <span className="mx-2">|</span>
-                    <span className="text-sm">21 August 2025</span>
+                  <div className="flex 2xl:flex-row xl:flex-col flex-row max-[400px]:flex-col mb-4">
+                    <div className="text-[#0092E0] text-sm font-medium pr-3 max-[400px]:border-0 border-r xl:border-r-0 2xl:border-r border-gray-500">
+                      Education Cloud
+                    </div>
+                    <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">21 August 2025</div>
                   </div>
                   <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                     Transforming Student Success with Salesforce Education Cloud and Edu+
-                    
+
                   </h3>
                   <p className="4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
                     A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions.
@@ -502,10 +492,11 @@ export default function InsightsPage() {
                     </div>
                   </div>
                   <div className="p-6 xl:p-8">
-                    <div className="flex flex-row items-center mb-3">
-                      <span className="text-[#0092E0]">{study.category}</span>
-                      <span className="mx-2">|</span>
-                      <span className="text-sm">{study.date}</span>
+                    <div className="flex 2xl:flex-row xl:flex-col flex-row max-[400px]:flex-col  mb-4">
+                      <div className="text-[#0092E0] text-sm font-medium pr-3 max-[400px]:border-0 border-r xl:border-r-0 2xl:border-r border-gray-500">
+                        {study.category}
+                      </div>
+                      <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">{study.date}</div>
                     </div>
                     <h3 className="mb-2  4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px] leading-tight">{study.title}</h3>
                     <p className="4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">{study.description}</p>
@@ -528,10 +519,7 @@ export default function InsightsPage() {
       </section>
 
       {/* Webinar Section */}
-      <div
-        className="
-       custom-container"
-      >
+      <div className="custom-container">
         <section className="mt-16 mb-16 lg:max-w-[800px]  xl:max-w-[1600px]">
           <div className="flex flex-col justify-between items-start sm:items-center sm:flex-row mb-8">
             <h2 className="mb-1 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[40px] text-[26px]">Webinars</h2>

@@ -324,10 +324,7 @@ export default function Page() {
                 </div>
             </section>
 
-            <section
-                className="
-       custom-container"
-            >
+            <section className="custom-container">
                 <div className="pt-10 bg-white">
                     <div className=" mx-auto">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
@@ -628,7 +625,7 @@ export default function Page() {
 
 
                             <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px]  xl:text-[21px] text-[23px] mt-10">
-                                Frequently Asked Questions (FAQs)
+                                FAQs: Migrating from SAP PI PO to SAP CPI Migration
                             </h2>
 
                         </div>

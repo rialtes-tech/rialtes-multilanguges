@@ -443,7 +443,7 @@ export default function Page() {
                                                     className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
-                                                <h3 className="mt-5 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]"> {data.desc2}</h3>
+                                                <h3 className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> {data.desc2}</h3>
                                                 <div className="mt-[30px] lg:mt-[49px] grid lg:grid-cols-3 md:grid-cols2 grid-cols-1 lg:gap-[60px] gap-y-[40px] sm:w-[80%] md:w-[90%] lg:w-[950px] xl:w-[1100px] 4xl:w-[1200px]">
                                                     {
                                                         data.list.map((elem, id) => {

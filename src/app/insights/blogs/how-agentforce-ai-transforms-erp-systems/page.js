@@ -391,7 +391,7 @@ export default function Page() {
                                 })
                             }
 
-                            <h2 className="font-semibold mt-16 mb-8 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px]">FAQs: Importance of Connected Care Ecosystems for Pharma & MedTech</h2>
+                            <h2 className="font-semibold mt-16 mb-8 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px]">FAQs: Transforming ERP Systems Using Agentforce AI</h2>
 
                             <FAQAccordion faqData={faqs} />
 
