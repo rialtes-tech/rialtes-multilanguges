@@ -324,7 +324,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+      <section className="relative group overflow-hidden h-[399px] 4xl:h-[650px] 2xl:h-[550px]">
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image

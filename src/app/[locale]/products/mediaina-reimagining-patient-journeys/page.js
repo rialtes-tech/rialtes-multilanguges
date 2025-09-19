@@ -218,7 +218,10 @@ export default function Page() {
                             <p className="font-bold 4xl:text-[20px]">{t('benefitsTitle')}</p>
                             <UnorderedList arrName={rialtesBenefits} ulClassName="list-disc pl-6 space-y-8 4xl:text-[20px] leading-tight 4xl:pr-8" liClassName="" />
                         </div>
-                        <LearnMore href="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/" />
+                        <div className="absolute bottom-0">
+                            <LearnMore href="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/" btnName={t('learnMoreBtn')} />
+
+                        </div>
                     </div>
 
                     {/* Right Side - Image */}
@@ -256,11 +259,21 @@ export default function Page() {
        xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px] 
         custom-container xl:!pr-[20px] xl:order-1 order-2 xl:mt-0 max-[400px]:mt-[-140px] mt-[-180px] sm:mt-[-200px] md:mt-[-300px] 
         relative z-10 xl:mb-[60px] 2xl:mb-[100px] 4xl:mb-[80px] 
-        `} style={{
+        
+
+          ${locale === "es"
+                                    ? "4xl:pb-[120px] 2xl:pb-[120px] xl:pb-[80px]"
+                                    : locale === "fr"
+                                        ? "4xl:pb-[100px] 2xl:pb-[120px] xl:pb-[80px]"
+                                        : ""
+                                }`}
+        
+        
+        style={{
                                             backgroundColor: data.bgColor ? data.bgColor : 'transparent'
                                         }}>
 
-                                        <h2 className={`4xl:text-[57px] xl:text-[40px] 2xl:text-[48px] text-[26px] leading-tight max-lg:w-[90%] ${ind == 4 || ind == 8 ? "xl:w-[90%]" : " xl:w-[70%]"} ${ind ==10 && "xl:w-[80%]"}`}>
+                                        <h2 className={`4xl:text-[52px] xl:text-[40px] 2xl:text-[48px] text-[26px] leading-tight max-lg:w-[90%] ${ind == 4 || ind == 8 ? "xl:w-[90%]" : " xl:w-[70%]"} ${ind == 10 && "xl:w-[80%]"}`}>
                                             {data.title}
                                         </h2>
                                         <p className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight mt-[15px] xl:mt-[18px] font-normal xl:w-[80%] 4xl:w-[76%]">
@@ -284,7 +297,7 @@ export default function Page() {
 
                                         <div className="xl:mt-[65px] xl:absolute bottom-0">
                                             <div>
-                                                <LearnMore bgcolor="#073259" bordercolor="#073259" />
+                                                <LearnMore bgcolor="#073259" bordercolor="#073259" btnName={t('learnMoreBtn')} />
                                             </div>
                                         </div>
                                     </div>
@@ -384,7 +397,7 @@ xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px]
 
                                         <div className="mt-auto xl:mt-[65px] items-end">
                                             <div>
-                                                <LearnMore bgcolor="#073259" bordercolor="#073259" />
+                                                <LearnMore bgcolor="#073259" bordercolor="#073259" btnName={t('learnMoreBtn')} />
                                             </div>
                                         </div>
                                     </div>

@@ -123,8 +123,8 @@ export default function Page() {
                 }
             />
 
-            <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] overflow-hidden">
-                <div className="xl:block hidden">
+            <section className="relative  h-[350px] md:h-[400px]  4xl:h-[650px] 2xl:h-[500px]">
+                <div className="md:block hidden">
                     <Image
                         src="/images/blog/sap-signavio-sap-cloud-desktop.webp"
                         alt="ai that listens"
@@ -132,14 +132,13 @@ export default function Page() {
                         priority
                     />
                 </div>
-                <div className="xl:hidden block">
+                <div className="md:hidden block">
                     <Image
                         src="/images/blog/sap-signavio-sap-cloud-mobile.webp"
                         alt="ai that listens"
                         priority
-                        height={0}
-                        width={0}
-                        className="w-full h-auto object-cover"
+                        fill
+                          style={{ objectFit: "cover" }}
                     />
                 </div>
             </section>
@@ -201,7 +200,7 @@ export default function Page() {
                     <div className="py-6"></div>
                     <div className="grid xl:grid-cols-12">
                         <div className="xl:col-span-10 col-span-12">
-                            <h1 className="text-[#000000]  pb-6 leading-tight text-[34px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px] md:text-[28px]">
+                            <h1 className="text-[#000000]  pb-6 leading-tight 4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px]  md:text-[28px] text-[26px]">
                                 {t('blogTitle')}
                             </h1>
                         </div>
@@ -211,21 +210,21 @@ export default function Page() {
                             {
                                 mainData.map((data, ind) => {
                                     return (
-                                        <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]" key={ind}>{data}</p>
+                                        <p className="mt-5 4xl:pr-20 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight" key={ind}>{data}</p>
                                     )
                                 })
                             }
 
                             <div>
-                                <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('whatDoesTitle')}</h2>
+                                <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] pr-10 4xl:pr-0 xl:pr-0">{t('whatDoesTitle')}</h2>
                                 <ul className="list-disc marker:text-black marker:text-xl text-black 4xl:pr-0 xl:pr-0 mt-2 space-y-3 font-medium pl-[34px]">
                                     {whatDoesData.map((data, ind) => (
                                         <li key={ind}>
-                                            <h3 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">
+                                            <h3 className="inline 4xl:text-[22px]   text-[18px] leading-tight">
                                                 {data.title
                                                 }
                                             </h3><br />
-                                            <p className="mt-2 4xl:text-[20px] xl:text-[17px] text-[16px]"
+                                            <p className="mt-2 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight"
                                                 dangerouslySetInnerHTML={{
                                                     __html: data.desc
                                                 }}
@@ -234,35 +233,35 @@ export default function Page() {
                                     ))
                                     }
                                 </ul>
-                                <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('whatDoesDesc')}</p>
+                                <p className="mt-5 4xl:pr-20 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">{t('whatDoesDesc')}</p>
                             </div>
 
                             <div>
-                                <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('governanceTitle')}</h2>
-                                <p className="mt-3 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('governanceDesc')}</p>
+                                <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] pr-10 4xl:pr-0 xl:pr-0">{t('governanceTitle')}</h2>
+                                <p className="mt-3 4xl:pr-20 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">{t('governanceDesc')}</p>
                                 <ul className="list-disc marker:text-black marker:text-xl text-black 4xl:pr-0 xl:pr-0 mt-5 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[34px]">
                                     {
                                         goverenanceData.map((data, ind) => {
                                             return (
-                                                <li key={ind}><h3 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{data.title}</h3>
+                                                <li key={ind}><h3 className="inline 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">{data.title}</h3>
                                                     <UnorderedList arrName={data.list} ulClassName="list-[circle] pl-[34px] mt-3 space-y-2" liClassName="4xl:text-[20px] xl:text-[17px] text-[16px]" />
                                                 </li>
                                             )
                                         })
                                     }
                                 </ul>
-                                <p className="mt-5 4xl:pr-20  2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-semibold">{t('governanceDesc2')}</p>
+                                <p className="mt-5 4xl:pr-20  4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight font-semibold">{t('governanceDesc2')}</p>
                             </div>
 
                             <div>
-                                <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[32px] xl:text-[26px] text-[24px] pr-10 4xl:pr-0 xl:pr-0">{t('traceabilityTitle')}</h2>
-                                <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('traceabilityDesc')}</p>
+                                <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] pr-10 4xl:pr-0 xl:pr-0">{t('traceabilityTitle')}</h2>
+                                <p className="mt-5 4xl:pr-20 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">{t('traceabilityDesc')}</p>
 
                                 <ul className="list-disc marker:text-black marker:text-xl text-black 4xl:pr-0 xl:pr-0 mt-3 space-y-3 text-[16px] xl:text-[17px] 4xl:text-[20px] font-medium pl-[34px]">
                                     {
                                         traceabilityData.map((data, ind) => {
                                             return (
-                                                <li key={ind}><h3 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{data.title}</h3>
+                                                <li key={ind}><h3 className="inline 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">{data.title}</h3>
                                                     {" "} {data.desc}
                                                 </li>
                                             )
@@ -270,25 +269,25 @@ export default function Page() {
                                     }
                                 </ul>
 
-                                <p className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('traceabilityDesc2')}</p>
+                                <p className="mt-5 4xl:pr-20 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">{t('traceabilityDesc2')}</p>
 
                                 <UnorderedList arrName={traceabilityData2} ulClassName="list-disc marker:text-black marker:text-xl text-black 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[17px] 4xl:text-[20px] font-medium pl-[34px]" liClassName="" />
                                 <p className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('traceabilityDesc3')}</p>
                             </div>
                             <div>
-                                <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('kpiTitle')}</h2>
-                                <p className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('kpiDesc')}</p>
-                                <p className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('kpiDesc2')}</p>
+                                <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] pr-10 4xl:pr-0 xl:pr-0">{t('kpiTitle')}</h2>
+                                <p className="mt-5 4xl:pr-20 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">{t('kpiDesc')}</p>
+                                <p className="mt-5 4xl:pr-20 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">{t('kpiDesc2')}</p>
                             </div>
                             <div>
-                                <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('lifecycleTitle')}</h2>
-                                <p className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('lifecycleDesc')}</p>
+                                <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px]  pr-10 4xl:pr-0 xl:pr-0">{t('lifecycleTitle')}</h2>
+                                <p className="mt-5 4xl:pr-20 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">{t('lifecycleDesc')}</p>
                                 <div className="text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[24px] mt-[49px]">
                                     {
                                         lifecycleData.map((data, ind) => {
                                             return (
                                                 <div key={ind} className="border border-[#707070] 3xl:p-[48px] 3xl:pl-[28 px] 3xl:pr-[26px] p-[30px] sm:w-[75%] md:w-full">
-                                                    <h3 className="inline text-[18px] 2xl:text-[22px] xl:text-[20px] 4xl:text-[24px] text-[#006FBE] font-bold">{data.title}</h3>
+                                                    <h3 className="inline 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight text-[#006FBE] font-bold">{data.title}</h3>
 
                                                     {
                                                         data.list.map((elem, id) => {
@@ -309,18 +308,18 @@ export default function Page() {
                                 </div>
                             </div>
                             <div>
-                                <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('whyMatterTitle')}</h2>
-                                <p className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('whyMatterDesc')}</p>
-                                <p className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('whyMatterDesc2')}</p>
+                                <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px]  pr-10 4xl:pr-0 xl:pr-0">{t('whyMatterTitle')}</h2>
+                                <p className="mt-5 4xl:pr-20 leading-tight 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('whyMatterDesc')}</p>
+                                <p className="mt-5 4xl:pr-20 leading-tight 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('whyMatterDesc2')}</p>
                             </div>
                             <div>
-                                <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('governedTitle')}</h2>
-                                <p className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]"><Link href="https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/"> <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">{t('governedLink')} </span> </Link> {t('governedDesc')}</p>
-                                <p className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('governedAt')} <strong>{t('rialtes')}</strong> ,{t('governedDesc2')} <Link href="https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting"> <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">{t('sap')} </span> </Link>, {t('governedDesc3')}</p>
+                                <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px]  pr-10 4xl:pr-0 xl:pr-0">{t('governedTitle')}</h2>
+                                <p className="mt-5 4xl:pr-20 leading-tight 4xl:text-[20px] xl:text-[17px] text-[16px]"><Link href="https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/"> <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">{t('governedLink')}</span></Link> {t('governedDesc')}</p>
+                                <p className="mt-5 4xl:pr-20 leading-tight 4xl:text-[20px] xl:text-[17px] text-[16px]">{t('governedAt')} <strong>{t('rialtes')}</strong> ,{t('governedDesc2')} <Link href="https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting"> <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">{t('sap')}</span></Link>, {t('governedDesc3')}</p>
                             </div>
                             <div>
                                 <section className="max-md:px-0">
-                                    <h2 className="font-semibold mt-14 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] 4xl:pr-0 xl:pr-0">{t('faqTitle')}</h2>
+                                    <h2 className="font-semibold mt-14 4xl:text-[32px] xl:text-[26px] text-[22px]  4xl:pr-0 xl:pr-0">{t('faqTitle')}</h2>
                                     <FAQAccordion faqData={faqData} />
                                 </section>
                             </div>

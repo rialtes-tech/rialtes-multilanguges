@@ -3333,8 +3333,6 @@
         "moveDesc2": " pour mettre en place des processus agricoles intelligents basés sur les données, tout en gérant de manière cohérente les données agricoles dans l’ensemble de votre entreprise avec SAP BTP."
     },
     "remagineEnterprise": {
-                "date":"25 août 2025",
-
         "blogs": [
             {
                 "id": 1,
@@ -3774,8 +3772,6 @@
         "faqTitle": "Foire aux questions (FAQ)"
     },
     "firstAiAgent": {
-                "date":"02 septembre  2025",
-
         "blogs": [
             {
                 "id": 1,
@@ -4938,8 +4934,6 @@
         "faqTitle": "FAQ : Foire aux questions"
     },
     "beyondRobotics": {
-                "date":"01 septembre 2025",
-
         "blogs": [
             {
                 "id": 1,
@@ -5157,7 +5151,6 @@
         "faqTitle": "FAQ : Fabrication intelligente avec des agents IA"
     },
     "sapPiPo": {
-         "date":"26 août  2025",
         "blogs": [
             {
                 "id": 1,
@@ -5591,31 +5584,31 @@
         ],
         "faqData": [
             {
-                "question": "Pourquoi ai-je besoin à la fois de SAP Signavio et SAP Cloud ALM ?",
+                "question": "1. Pourquoi ai-je besoin à la fois de SAP Signavio et SAP Cloud ALM ?",
                 "answer": "Signavio assure la clarté et la standardisation au niveau de la conception des processus, tandis que Cloud ALM applique la gouvernance et la traçabilité durant l’exécution. Ensemble, ils relient stratégie et livraison — quelque chose qu’aucun outil ne peut faire seul."
             },
             {
-                "question": "Comment cette combinaison renforce-t-elle la gouvernance ?",
+                "question": "2. Comment cette combinaison renforce-t-elle la gouvernance ?",
                 "answer": "Signavio définit des processus standardisés et aligne les parties prenantes. Cloud ALM veille à ce que ces processus soient exécutés comme prévu en gouvernant les exigences, changements et tests. La gouvernance passe de la théorie à la pratique."
             },
             {
-                "question": "Que signifie la traçabilité dans un programme S/4HANA et comment ces outils la permettent-ils ?",
+                "question": "3. Que signifie la traçabilité dans un programme S/4HANA et comment ces outils la permettent-ils ?",
                 "answer": "La traçabilité est la capacité à connecter chaque exigence métier et décision de processus à une configuration système et un cas de test correspondants. Signavio documente le plan, Cloud ALM le relie à l’exécution — créant un fil conducteur doré à travers le programme."
             },
             {
-                "question": "Ces outils peuvent-ils nous aider à éviter le dépassement de périmètre et de budget ?",
+                "question": "4. Ces outils peuvent-ils nous aider à éviter le dépassement de périmètre et de budget ?",
                 "answer": "Oui. En alignant métier et IT autour des processus “à atteindre” (Signavio) et en gérant chaque changement via des flux de travail contrôlés (Cloud ALM), la combinaison réduit les écarts non documentés, le retravail et les délais manqués."
             },
             {
-                "question": "Comment Signavio et Cloud ALM supportent-ils le suivi des KPI ?",
+                "question": "5. Comment Signavio et Cloud ALM supportent-ils le suivi des KPI ?",
                 "answer": "Signavio définit les KPI de référence et les objectifs via l’analyse et la modélisation des processus. Cloud ALM valide ces KPI pendant les tests et les suit après le déploiement via des tableaux de bord en temps réel — fermant la boucle entre conception et résultats métier."
             },
             {
-                "question": "Que se passe-t-il si nous implémentons S/4HANA sans Signavio et Cloud ALM ?",
+                "question": "6. Que se passe-t-il si nous implémentons S/4HANA sans Signavio et Cloud ALM ?",
                 "answer": "Vous risquez de migrer des inefficacités, de perdre le contrôle du périmètre, d’augmenter les coûts à cause du retravail et de ne pas avoir de preuves mesurables de ROI. En résumé, vous pouvez aller en production, mais la transformation ne délivrera pas sa pleine valeur."
             },
             {
-                "question": "Quelle valeur ajoute Rialtes dans ce parcours ?",
+                "question": "7. Quelle valeur ajoute Rialtes dans ce parcours ?",
                 "answer": "Rialtes utilise sa méthodologie Voyager+ pour intégrer Signavio et Cloud ALM à chaque étape de SAP Activate. Cela garantit que la clarté des processus, la gouvernance de l’exécution et la mesure des KPI ne sont pas seulement mises en place, mais durablement soutenues."
             }
         ],
@@ -5649,7 +5642,6 @@
         "faqTitle": "FAQ : SAP Signavio + SAP Cloud ALM dans les Transformations S/4HANA"
     },
     "aiPatient": {
-         "date":"09 septembre 2025",
         "rolesData": [
             {
                 "title": "Surveillance continue avec contexte",
@@ -5788,7 +5780,6 @@
         "faqTitle": "Questions-réponses : Engagement patient avec l’IA dans la surveillance à distance"
     },
     "agentforceIndustry4": {
-                "date":"08 septembre 2025",
 
         "reactiveData": [
             {

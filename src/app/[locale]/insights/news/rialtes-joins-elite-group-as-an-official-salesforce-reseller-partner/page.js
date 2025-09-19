@@ -71,8 +71,8 @@ export default function Page() {
               height={0}
             />
           </div>
-          <h1 className="leading-tight mt-10">{t('title')}</h1>
-          <div className="xl:hidden block">
+          <h1 className="leading-tight mt-10 4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px]">{t('title')}</h1>
+          <div className="xl:hidden block mt-10 xl:mt-0">
             <Image
               src="/images/news/ba-mobile.webp"
               alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
@@ -133,13 +133,13 @@ export default function Page() {
             <p className="text-black  xl:text-[22px] text-[18px]">
               {t('rialtesOne')} <strong>{t('rialtesTwo')}</strong>{t('rialtesThree')} </p>
 
-            <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('crest')}</p>
+            <p className="text-black  4xl:text-[22px] 2xl:text-[20px] xl:text-[19px] text-[18px]  mt-8">{t('crest')}</p>
 
-            <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('journeyOne')} <strong> Prasad Venkatesan,</strong> {t('journeyTwo')}</p>
+            <p className="text-black  4xl:text-[22px] 2xl:text-[20px] xl:text-[19px] text-[18px] mt-8">{t('journeyOne')} <strong> Prasad Venkatesan,</strong> {t('journeyTwo')}</p>
 
-            <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('reseller')}</p>
+            <p className="text-black  4xl:text-[22px] 2xl:text-[20px] xl:text-[19px] text-[18px] mt-8">{t('reseller')}</p>
 
-            <p className="text-black  xl:text-[22px] text-[18px] mt-8">{t('visitOne')}<a className="text-blue-600" href="https://www.rialtes.com/">www.rialtes.com </a> {t('visitTwo')}<span className="text-blue-600">pr@rialtes.com </span></p>
+            <p className="text-black  4xl:text-[22px] 2xl:text-[20px] xl:text-[19px] text-[18px] mt-8">{t('visitOne')}<a className="text-blue-600" href="https://www.rialtes.com/">www.rialtes.com </a> {t('visitTwo')}<span className="text-blue-600">pr@rialtes.com </span></p>
           </div >
 
         </div >
