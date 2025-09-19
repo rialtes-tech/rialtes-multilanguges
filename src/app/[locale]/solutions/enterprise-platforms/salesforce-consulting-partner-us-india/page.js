@@ -321,7 +321,14 @@ export default function SalesForceConsulting() {
                     {item.label}
                   </div>
 
-                  <p className="mt-10 xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] leading-tight text-[16px] whitespace-nowrap">
+                  <p className={`mt-10  leading-tight  whitespace-nowrap
+                    ${locale === "es"
+                                    ? "xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] text-[14px]"
+                                    : locale === "fr"
+                                        ? "xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] text-[16px]"
+                                        : "xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] text-[16px]"
+                                }`}
+                  >
                     {item.description.split("\n").map((line, i) => (
                       <React.Fragment key={i}>
                         {line}
@@ -337,20 +344,20 @@ export default function SalesForceConsulting() {
       </section>
 
       {/* different industries different mindset */}
-      <section className=" custom-container lg:mt-20 mt-5 pb-20">
+      <section className="custom-container lg:mt-20 mt-5 pb-20 xl:pr-0">
         <div>
-          <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+          <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
             {t("mindsetsTitle")}
           </h2>
           <CarouselComponent />
         </div>
       </section>
-      <section className="bg-[#F5F5F5]  custom-container xl:mt-12 mt-10 pb-20 pt-20">
+      <section className="bg-[#F5F5F5]  custom-container xl:mt-12 mt-10 pb-20 pt-20 xl:pr-0">
         <div className="">
           <FeaturedCarousel />
         </div>
       </section>
-      <section className=" custom-container lg:mt-20 mt-10">
+      <section className=" custom-container lg:mt-20 mt-10 xl:pr-0">
         <InsightsCarousel />
       </section>
 
