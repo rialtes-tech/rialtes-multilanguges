@@ -6,6 +6,9 @@ import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import FAQAccordion from "@/app/components/faqAccordion";
 import Link from "next/link";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
+
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -77,63 +80,6 @@ const schemaData = {
         ]
     }
 }
-const blogs = [
-    {
-        id: 1,
-        image: "/images/blog/blog-1.webp",
-        category: "Salesforce Agentforce",
-        industry: "Generic",
-        date: "30 Sept 2024",
-        url: "how-salesforce-agentforce-actually-works",
-        title: "How Salesforce Agentforce Actually Works",
-        description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-    },
-    {
-        id: 2,
-        image: "/images/blog/blog-2.webp",
-        category: "Salesforce Agentforce",
-        industry: "Generic",
-        date: "21 Oct 2024",
-        title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-        description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
-    },
-    {
-        id: 4,
-        image: "/images/blog/blog-4.webp",
-        category: "Salesforce Agentforce",
-        industry: "Generic",
-        date: "25 Nov 2024",
-        title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-        description: "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
-    },
-    {
-        id: 5,
-        image: "/images/blog/blog-5.webp",
-        category: "SAP SuccessFactors",
-        industry: "Human Resources",
-        date: "24 Dec 2024",
-        title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-        description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-    },
-    {
-        id: 6,
-        image: "/images/blog/blog-6.webp",
-        category: "Cloud Green Technology",
-        industry: "Agriculture",
-        date: "17 Sept 2024",
-        title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-        description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-    },
-    {
-        id: 7,
-        image: "/images/blog/blog-7.webp",
-        category: "SAP SuccessFactors",
-        industry: "Human Resources",
-        date: "29 Oct 2024",
-        title: "SAP SuccessFactors Performance and Goal Management",
-        description: "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
-    },
-];
 const blogMainData = [
     "Industrial automation isn’t a new concept. Robots have been welding, assembling, and packaging on factory floors for decades. But here’s the shift: automation is no longer just about machines moving faster. It’s about systems thinking smarter. But most factories still rely on automation that follows fixed rules, limited to one job, one system, and zero learning.",
     "Here’s the issue: Manufacturers today face a complex web of global demand shifts, compliance pressure, customer personalization needs, and fragile supply chains. Solving for that requires more than just faster arms and pre-programmed bots.",
@@ -178,7 +124,7 @@ const manufacturingAreasData = [
             "Identify accounts at churn risk based on behavior or sentiment",
             "Recommend personalized follow-ups, preventive maintenance, or upsell opportunities"
         ],
-        "desc2": "This is where real customer experience is won, not just in what you build, but how you support and evolve with the customer over time."
+        "desc2": "This is where  <a href='https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>real customer experience is won</a>, not just in what you build, but how you support and evolve with the customer over time."
     },
     {
         "title": "AI That Unifies OEMs, Distributors, and Channel Partners",
@@ -268,6 +214,7 @@ const faqData = [
 ]
 
 export default function Page() {
+    const currUrl = useUrl
     const fullUrl = "https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/";
 
     return (
@@ -406,7 +353,7 @@ export default function Page() {
                                             {
                                                 data.list && <UnorderedList arrName={data.list} ulClassName="mt-3 pl-[48px] list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
                                             }
-                                            {data.desc2 && <p className="mt-3 pl-[26px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc2}</p>}
+                                            {data.desc2 && <p className="mt-3 pl-[26px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]" dangerouslySetInnerHTML={{ __html: data.desc2 }} />}
                                         </div>
                                     )
                                 })
@@ -469,21 +416,26 @@ export default function Page() {
                                 })
                             }
                             <p className="mt-2 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
-                                "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a  <Link href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">Salesforce Crest Partner </span></Link>, we bring the strategy, systems, and support to make AI agents real and fast.",
+                                "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a  <Link href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">Salesforce Crest Partner</span></Link>, we bring the strategy, systems, and support to make AI agents real and fast.",
                             </p>
-                            <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">Let’s build smarter factories with thinking agents.</p>
+                            <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">Let’s build  <Link href={'https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/'} className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smarter factories with thinking agents</Link>.</p>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">FAQs: Smart Manufacturing with AI Agents</h2>
-                            <FAQAccordion faqData={faqData} />
-
+                            {/* faq section */}
+                            <div className="xl:mt-[80px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Smart Manufacturing with AI Agents</h2>
+                                <div className="mt-[29px] xl:mt-[34px]">
+                                    <FAQAccordion faqData={faqData} />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            {/* Latest Blogs */}
-            <div className="custom-container lg:pr-0 pb-10 mt-2">
-                <BlogsCarousel slides={blogs} />
-            </div>
+
+            {/* blog carousel */}
+            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+                <FilteredBlogCarousel url={currUrl} />
+            </section>
         </div>
     )
 }

@@ -5,6 +5,8 @@ import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
 
 
 const schemaData = {
@@ -211,6 +213,7 @@ const faqs = [
     }
 ]
 export default function Page() {
+    const currUrl = useUrl()
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-agentforce-ai-transforms-erp-systems";
 
     return (
@@ -346,8 +349,8 @@ export default function Page() {
                             {
                                 benefitsData.map((data, ind) => {
                                     return (
-                                        <div className={`md:flex mt-24 md:mt-10 py-[34px] px-[26px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[850px] 3xl:w-[1100px] ${ind == 5 && "md:py-[54px]"}`} key={ind}>
-                                            <h3 className={`md:absolute max-md:mt-[-80px] max-md:w-fit 4xl:w-[330px] xl:w-[320px] md:w-[280px] md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[24px] xl:text-[20px] text-[17px] px-[40px] py-[22px]`}>{data.title}</h3>
+                                        <div className={`md:flex mt-24 md:mt-10 py-[34px] px-[26px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[850px] 3xl:w-[1100px] ${ind == 4 && "md:pb-[54px] 4xl:pb-[34px]"}`} key={ind}>
+                                            <h3 className={`md:absolute max-md:mt-[-80px] max-md:w-fit 4xl:w-[330px] xl:w-[320px] md:w-[280px] md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] px-[40px] py-[22px]`}>{data.title}</h3>
                                             <div className="4xl:text-[20px] xl:text-[17px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[220px] xl:ml-[260px] 4xl:ml-[280px]">{data.desc}</div>
                                         </div>
 
@@ -364,7 +367,7 @@ export default function Page() {
                                     applicationData.map((data, ind) => {
                                         return (
                                             <div key={ind} className="md:pr-[34px] md:pt-[26px] md:pb-[40px]">
-                                                <h3 className="mt-2 2xl:text-[22px] 4xl:text-[24px] xl:text-[20px] text-[18px] font-bold pb-4 border-b border-[#006FBE]">{data.title}</h3>
+                                                <h3 className="mt-2 2xl:text-[22px] 4xl:text-[24px] xl:text-[20px] text-[20px] font-bold pb-4 border-b border-[#006FBE]">{data.title}</h3>
                                                 <p
                                                     key={ind}
                                                     className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] 4xl:w-[94%]"
@@ -391,16 +394,21 @@ export default function Page() {
                                 })
                             }
 
-                            <h2 className="font-semibold mt-16 mb-8 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px]">FAQ: Frequently Asked Questions</h2>
 
-                            <FAQAccordion faqData={faqs} />
-
+                            {/* faq section */}
+                            <div className="xl:mt-[80px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Transforming ERP Systems Using Agentforce AI</h2>
+                                <div className="mt-[29px] xl:mt-[34px]">
+                                    <FAQAccordion faqData={faqs} />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="custom-container lg:pr-0">
-                <BlogsCarousel />
+            {/* blog carousel */}
+            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+                <FilteredBlogCarousel url={currUrl} />
             </section>
         </div>
     )

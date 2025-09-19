@@ -1,11 +1,13 @@
 "use client";
 import Image from "next/image";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import FAQAccordion from "@/app/components/faqAccordion";
-import Link from "next/link";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
+
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -231,6 +233,7 @@ const faqs = [
 ]
 
 export default function Page() {
+    const currUrl = useUrl()
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing";
 
     return (
@@ -413,19 +416,25 @@ export default function Page() {
                                 />
                             ))}
 
+
+                            {/* faq section */}
+                            <div className="xl:mt-[80px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Agentforce in Predicting and Preventing Downtime in Industry 4.0 Manufacturing</h2>
+                                <div className="mt-[29px] xl:mt-[34px]">
+                                    <FAQAccordion faqData={faqs} />
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="custom-container max-md:px-0 pb-10">
-                <h2 className="font-semibold mt-5 mb-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">FAQs: Frequently Asked Questions</h2>
-                <FAQAccordion faqData={faqs} />
+            {/* blog carousel */}
+            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+                <FilteredBlogCarousel url={currUrl} />
             </section>
-            {/* Latest Blogs */}
-            <div className="custom-container lg:pr-0 pb-10 mt-3">
-                <BlogsCarousel />
-            </div>
         </div>
     )
 }
