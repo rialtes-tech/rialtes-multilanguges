@@ -6,6 +6,9 @@ import UnorderedList from "@/app/components/unorderedList";
 import FAQAccordion from "@/app/components/faqAccordion";
 import BlogsCarousel from "@/app/components/latestBlogCarousel";
 import Link from "next/link";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -266,6 +269,7 @@ const faqData = [
 ];
 
 export default function Page() {
+    const currUrl = useUrl()
     const fullUrl = "https://www.rialtes.com/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm";
 
     return (
@@ -454,7 +458,7 @@ export default function Page() {
                                                     <h3 className="inline text-[18px] 2xl:text-[22px] xl:text-[20px] 4xl:text-[24px] text-[#006FBE] font-bold">{data.title}</h3>
 
                                                     {
-                                                         data.list.map((elem, id) => {
+                                                        data.list.map((elem, id) => {
                                                             return (
                                                                 <div key={id}>
                                                                     <p className="4xl:text-[20px] xl:text-[17px] text-[16px] mt-[29px]">{elem}</p>
@@ -481,20 +485,22 @@ export default function Page() {
                                 <p className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]"><Link href="https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/"> <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">SAP S/4HANA implementations </span> </Link> succeed not just when systems go live but when business outcomes are delivered and sustained. Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution.</p>
                                 <p className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">At <strong>Rialtes</strong> , we help enterprises unlock the combined power of Signavio and Cloud ALM, transforming S/4HANA projects into controlled, transparent, and measurable business transformation programs. With our <Link href="https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting"> <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">SAP consulting expertise </span> </Link>, leaders gain the confidence that every decision, every configuration, and every KPI is connected to enterprise value.</p>
                             </div>
-                            <div>
-                                <section className="max-md:px-0">
-                                    <h2 className="font-semibold mt-10 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] 4xl:pr-0 xl:pr-0">FAQs: SAP Signavio + SAP Cloud ALM in S/4HANA Transformations</h2>
+                            {/* faq section */}
+                            <div className="xl:mt-[80px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: SAP Signavio + SAP Cloud ALM in S/4HANA</h2>
+                                <div className="mt-[29px] xl:mt-[34px]">
                                     <FAQAccordion faqData={faqData} />
-                                </section>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            { /* Latest Blogs */}
-            <div className="custom-container lg:pr-0 pb-10 mt-3">
-                <BlogsCarousel slides={blogs} />
-            </div>
+
+            {/* blog carousel */}
+            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+                <FilteredBlogCarousel url={currUrl} />
+            </section>
         </div>
     )
 }

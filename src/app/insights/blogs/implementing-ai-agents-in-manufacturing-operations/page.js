@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
-
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -76,17 +76,15 @@ const schemaData = {
         ]
     }
 }
-
 const mainData = [
     "Today, manufacturers are faced with a choice: continue adding incremental automation to existing systems or make a significant leap into AI-driven operations that are capable of learning, adapting, and taking action.",
     "AI agents represent not just a new tool, but a <a href='https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> fundamental shift in how work is performed</span></a>, decisions are made, and problems are solved. However, how can you determine if your factory floor and business processes are ready for this transition?",
     "The key point is that adopting AI agents goes beyond merely purchasing a new tool; it involves recognizing when your business is prepared to make this leap. If you identify these five signs within your operations, acting quickly is crucial, as you may already fall behind."
 ]
 const payoffData = [
-    "If you identify with two or more of the following scenarios, you are well-positioned for adopting AI agents. Your existing systems, processes, and urgency for improvement are already in place; what you need is an intelligence layer that integrates everything and acts in real time. When implemented effectively, AI agents reduce costs, enhance agility,<a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> build customer trust </span></a>, and improve the resilience of your operations.",
+    "If you identify with two or more of the following scenarios, you are well-positioned for adopting AI agents. Your existing systems, processes, and urgency for improvement are already in place; what you need is an intelligence layer that integrates everything and acts in real time. When implemented effectively, AI agents reduce costs, enhance agility,<a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>build customer trust</span></a>, and improve the resilience of your operations.",
     "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> Salesforce Crest Partner</span></a>, we bring the strategy, systems, and support to make AI agents real and fast. <Strong> Let’s build thinking agents for your operations.</Strong>"
 ]
-
 const commonData = [
     {
         "title": "Your Teams Are Drowning in Repetitive, Low-Value Tasks",
@@ -130,7 +128,6 @@ const commonData = [
         "desc2": "Think of them as a constant decision engine that never sleeps, always connected, and always acting."
     },
 ]
-
 const faqs = [
     {
         "question": "1. How are AI agents different from regular automation?",
@@ -154,8 +151,9 @@ const faqs = [
     }
 ]
 
-
 export default function Page() {
+    const currUrl = useUrl();
+
     const fullUrl = "https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations";
 
     return (
@@ -279,12 +277,12 @@ export default function Page() {
                                             <h2 className="font-semibold mt-16 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px] flex gap-1"><span>{ind + 1}.</span>{data.title}</h2>
 
                                             <p
-                                                className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-8"
+                                                className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-4"
                                                 dangerouslySetInnerHTML={{ __html: data.desc }}
                                             />
                                             {
                                                 data.list &&
-                                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:my-10 pl-8 lg:gap-[20px] sm:w-[70%] md:w-[100%] lg:w-[900px] xl:w-[1090px] 3xl:w-[1240px]">
+                                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:my-10 pl-4 lg:gap-[20px] sm:w-[70%] md:w-[100%] lg:w-[900px] xl:w-[1090px] 3xl:w-[1240px]">
                                                     {
                                                         data.list.map((elem, id) => (
                                                             <div key={id} className={`2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium border-[#707070] ${ind == 0 && "lg:p-[40px] p-[30px] border max-lg:my-5 md:mx-5 lg:mx-0"}
@@ -301,7 +299,7 @@ export default function Page() {
                                             {
                                                 data.desc2 &&
                                                 <p
-                                                    className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-8"
+                                                    className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-4"
                                                     dangerouslySetInnerHTML={{ __html: data.desc2 }}
                                                 />
                                             }
@@ -309,7 +307,7 @@ export default function Page() {
                                             {
                                                 data.desc3 &&
                                                 <p
-                                                    className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-8"
+                                                    className="mt-5 4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-4"
                                                     dangerouslySetInnerHTML={{ __html: data.desc3 }}
                                                 />
                                             }
@@ -333,14 +331,19 @@ export default function Page() {
                             }
 
 
-                            <h2 className="font-semibold mt-16 pb-2 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px]">FAQ: AI Agents in Manufacturing</h2>
-                            <FAQAccordion faqData={faqs} />
+                            {/* faq section */}
+                            <div className="xl:mt-[80px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Implement AI Agents in Your Manufacturing Operations</h2>
+                                <div className="mt-[29px] xl:mt-[34px]">
+                                    <FAQAccordion faqData={faqs} />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="custom-container pb-6 lg:pr-0">
-                <BlogsCarousel />
+            <section className="custom-container mt-[80px] pb-6 lg:pr-0">
+                <FilteredBlogCarousel url={currUrl} />
             </section>
         </div>
     )

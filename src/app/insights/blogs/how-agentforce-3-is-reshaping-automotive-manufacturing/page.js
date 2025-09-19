@@ -6,6 +6,8 @@ import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
+import useUrl from "@/app/components/useUrl";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
 
 const schemaData = {
 
@@ -77,86 +79,9 @@ const schemaData = {
         }
     ]
 };
-const blogs = [
-    {
-        id: 1,
-        image: "/images/blog/blog-1.webp",
-        category: "Salesforce Agentforce",
-        industry: "Generic",
-        date: "30 Sept 2024",
-        url: "how-salesforce-agentforce-actually-works",
-        title: "How Salesforce Agentforce Actually Works",
-        description:
-            "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-    },
-    /* {
-        id: 2,
-        image: "/images/blog/blog-2.webp",
-        category: "Salesforce Agentforce",
-        industry: "Generic",
-        date: "21 Oct 2024",
-        title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-        description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
-      }, */
-    {
-        id: 3,
-        image: "/images/blog/blog-3.webp",
-        category: "Salesforce Agentforce",
-        industry: "Generic",
-        date: "28 Oct 2024",
-        title:
-            "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-        description:
-            "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
-    },
-    {
-        id: 4,
-        image: "/images/blog/blog-4.webp",
-        category: "Salesforce Agentforce",
-        industry: "Generic",
-        date: "25 Nov 2024",
-        title:
-            "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-        description:
-            "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
-    },
-    {
-        id: 5,
-        image: "/images/blog/blog-5.webp",
-        category: "SAP SuccessFactors",
-        industry: "Human Resources",
-        date: "24 Dec 2024",
-        title:
-            "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-        description:
-            "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-    },
-    {
-        id: 6,
-        image: "/images/blog/blog-6.webp",
-        category: "Cloud Green Technology",
-        industry: "Agriculture",
-        date: "17 Sept 2024",
-        title:
-            "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-        description:
-            "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-    },
-    {
-        id: 7,
-        image: "/images/blog/blog-7.webp",
-        category: "SAP SuccessFactors",
-        industry: "Human Resources",
-        date: "29 Oct 2024",
-        title: "SAP SuccessFactors Performance and Goal Management",
-        description:
-            "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
-    },
-
-    // Add more blog objects as needed
-];
 
 export default function Page() {
+    const currUrl = useUrl()
 
     const faqs = [
         {
@@ -215,9 +140,6 @@ export default function Page() {
             ]
         }
     ];
-
-
-
     const features = [
         {
             title: "Automated vehicle servicing scheduling agents",
@@ -235,7 +157,6 @@ export default function Page() {
                 "that track parts shipments, detect delays or disruptions across the supply chain, and trigger automated workflows to reroute orders or notify relevant teams.",
         },
     ];
-
     const featuresData = [
         {
             icon: "/images/blog/realtime.webp",
@@ -268,9 +189,7 @@ export default function Page() {
                 "lets automotive OEMs and suppliers connect the dots across procurement, warehousing, shipping, and even after-sales service, making operations more agile, transparent, and resilient.",
         },
     ];
-
-    const fullUrl =
-        "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
 
     return (
         <div className="min-h-screen bg-white">
@@ -389,7 +308,7 @@ export default function Page() {
                             <p className="text-black mt-3 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                                 Not in the exaggerated “overnight transformation” sense, but in the practical, measurable improvements that directly impact the professionals managing and optimizing AI in automotive production  every day. With over 200 prebuilt agent actions, Agentforce 3.0 significantly advances the operationalization of intelligent automation across core workflows.
                                 While much of the external focus remains on headline-grabbing AI features, the real strategic value of this release lies in its ability to bridge the gap between visionary AI concepts and deployable, scalable automation, particularly for Salesforce administrators, developers, and DevOps teams driving industry innovation. Not all AI assistants are created equal—understanding the <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/">difference between bots, copilots, and AI agents</Link>  can fundamentally reshape how you architect automation across your factory.
-                                
+
                             </p>
                             <p className="text-black mt-3 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]"> The automotive industry is one of the sectors accelerating into a new era, defined by intelligent automation, supply chain volatility, and the shift to electric and autonomous vehicles. Manufacturers should not only focus on improving processes but also reinvent them to remain competitive. Agentforce 3.0 empowers automotive companies to build smarter factories, optimize quality, and drive faster innovation.</p>
 
@@ -411,32 +330,32 @@ export default function Page() {
                                 Key automotive capabilities include:
                             </h3>
 
-                           <div className="grid gap-10 mt-5">
-  {featuresData.map((item, idx) => (
-    <div
-      key={idx}
-      className="flex flex-col sm:flex-row sm:items-start sm:gap-[50px]"
-    >
-      <div className="min-w-[100px] sm:mt-1">
-        <Image
-          src={item.icon}
-          alt={item.title}
-          width={200}
-          height={112}
-          className="xl:w-[212px] xl:h-[90px] w-[100px]"
-        />
-      </div>
-      <div className="mt-10 xl:mt-0 md:mt-0">
-        <h4 className="inline font-bold xl:text-[17px] text-[16px] 4xl:text-[20px] 2xl:text-[18px] mr-1">
-          {item.title}
-        </h4>
-        <span className="inline text-gray-700 xl:text-[17px] text-[16px] 2xl:text-[20px] 4xl:text-[20px] font-medium">
-          {item.description}
-        </span>
-      </div>
-    </div>
-  ))}
-</div>
+                            <div className="grid gap-10 mt-5">
+                                {featuresData.map((item, idx) => (
+                                    <div
+                                        key={idx}
+                                        className="flex flex-col sm:flex-row sm:items-start sm:gap-[50px]"
+                                    >
+                                        <div className="min-w-[100px] sm:mt-1">
+                                            <Image
+                                                src={item.icon}
+                                                alt={item.title}
+                                                width={200}
+                                                height={112}
+                                                className="xl:w-[212px] xl:h-[90px] w-[100px]"
+                                            />
+                                        </div>
+                                        <div className="mt-10 xl:mt-0 md:mt-0">
+                                            <h4 className="inline font-bold xl:text-[17px] text-[16px] 4xl:text-[20px] 2xl:text-[18px] mr-1">
+                                                {item.title}
+                                            </h4>
+                                            <span className="inline text-gray-700 xl:text-[17px] text-[16px] 2xl:text-[20px] 4xl:text-[20px] font-medium">
+                                                {item.description}
+                                            </span>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
 
 
 
@@ -477,7 +396,7 @@ export default function Page() {
 
                             <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">This means your agents can now trigger reorders, adjust supply forecasts, or analyze parts defects in real time, across platforms.</p>
 
-                            <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px] md:text-[23px] xl:text-[17px] text-[16px]">As automotive factories evolve beyond robotic task execution, intelligent agents are redefining how systems collaborate, learn, and respond. Explore how this shift is shaping the Future of Smart Manufacturing.</p>
+                            <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px] md:text-[23px] xl:text-[17px] text-[16px]">As automotive factories evolve beyond robotic task execution, intelligent agents are redefining how systems collaborate, learn, and respond. Explore how this shift is shaping <Link href={'https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/'}  className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>the Future of Smart Manufacturing</Link>.</p>
                             <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-10 leading-tight">
                                 Revolutionize Quality and Compliance
                             </h2>
@@ -525,7 +444,7 @@ export default function Page() {
                             </div>
 
                             <p className="text-black xl:mt-16 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
-                                This ecosystem-driven approach allows manufacturers to adopt proven agent workflows quickly without starting from scratch. It drastically reduces development time, accelerates deployment, and ensures that industry best practices and regulatory compliance are built into every agent from day one, giving automotive companies a smarter, faster, and more secure path to AI adoption with Agentforce for automotive manufacturing.
+                                This ecosystem-driven approach allows manufacturers to adopt proven agent workflows quickly without starting from scratch. It drastically reduces development time, accelerates deployment, and ensures that industry best practices and regulatory compliance are built into every agent from day one, giving automotive companies a smarter, faster, and more secure path to <Link href={'https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/'}  className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AI adoption with Agentforce</Link>  for automotive manufacturing.
                             </p>
 
                             <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">
@@ -563,22 +482,24 @@ export default function Page() {
                             <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-10 text-[16px]">Whether you’re retrofitting legacy systems or building smart factories from the ground up, Agentforce 3.0 offers a powerful way to drive transformation.</p>
                             <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-5 text-[16px]" >Are you ready to discover <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/">how Agentforce can benefit your factory?</Link>  Let our experts assist you in integrating, scaling, and succeeding with <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/">AI in automotive manufacturing</Link> . Rialtes helps businesses incorporate customized Agentforce agents into their ERP platforms, automating tasks and optimizing workflows.</p>
 
-                            <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">
-                                FAQs: Agentforce for AI-Powered Manufacturing Transformation
-                            </h2>
 
+
+                            {/* faq section */}
+                            <div className="xl:mt-[80px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]"> FAQs: Agentforce 3.0 for Automotive Manufacturing</h2>
+                                <div className="mt-[29px] xl:mt-[34px]">
+                                    <FAQAccordion faqData={faqs} />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="custom-container max-md:px-0">
-                <FAQAccordion faqData={faqs} />
+            {/* blog carousel */}
+            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+                <FilteredBlogCarousel url={currUrl} />
             </section>
-            <div
-                className="custom-container xl:pr-0 mt-10">
-                <BlogsCarousel slides={blogs} />
-            </div>
         </div>
     );
 }

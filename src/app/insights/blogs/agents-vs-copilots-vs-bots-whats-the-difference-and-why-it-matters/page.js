@@ -5,6 +5,9 @@ import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import Link from "next/link";
 import FAQAccordion from "@/app/components/faqAccordion";
+import useUrl from "@/app/components/useUrl";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -91,73 +94,7 @@ const schemaData = {
     }
   ]
 }
-const blogs = [
-  {
-    id: 1,
-    image: "/images/blog/blog-1.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "30 Sept 2024",
-    url: "how-salesforce-agentforce-actually-works",
-    title: "How Salesforce Agentforce Actually Works",
-    description:
-      "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-  },
-  {
-    id: 2,
-    image: "/images/blog/blog-2.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "21 Oct 2024",
-    title:
-      "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-    description:
-      "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
-  },
-  {
-    id: 4,
-    image: "/images/blog/blog-4.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "25 Nov 2024",
-    title:
-      "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-    description:
-      "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
-  },
-  {
-    id: 5,
-    image: "/images/blog/blog-5.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "24 Dec 2024",
-    title:
-      "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-    description:
-      "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-  },
-  {
-    id: 6,
-    image: "/images/blog/blog-6.webp",
-    category: "Cloud Green Technology",
-    industry: "Agriculture",
-    date: "17 Sept 2024",
-    title:
-      "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    description:
-      "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-  },
-  {
-    id: 7,
-    image: "/images/blog/blog-7.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "29 Oct 2024",
-    title: "SAP SuccessFactors Performance and Goal Management",
-    description:
-      "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
-  },
-];
+
 export const faqData = [
   {
     question: "1. What’s the difference between bots, copilots, and agents?",
@@ -197,6 +134,7 @@ export const faqData = [
 
 
 export default function Page() {
+  const currUrl = useUrl()
   const fullUrl =
     "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
 
@@ -315,7 +253,7 @@ export default function Page() {
             <div className="col-span-9">
               <h2 className="pb-4 font-semibold leading-tight  text-[#0092E0] 4xl:text-[30px] xl:text-[25px] md:text-[23px] 2xl:text-[24px] text-[23px] pr-10 xl:pr-0 4xl:pr-0">Why Understanding Bots, Copilots, and AI Agents Matters for Your Business</h2>
 
-              <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">AI tools are shaping how industries like manufacturing, automotive, and customer service operate at scale. The right AI assistant can completely change how teams work, from automating repetitive tasks to delivering real-time insights.</p>
+              <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">AI tools are shaping  <Link href={'https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/'}  className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>how industries like manufacturing</Link>, automotive, and customer service operate at scale. The right AI assistant can completely change how teams work, from automating repetitive tasks to delivering real-time insights.</p>
               <p className="mt-5 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">But here's the problem: bots, copilots, and AI agents are often used interchangeably, even though they mean very different things. That confusion can lead to the wrong tech choices and underwhelming results.</p>
               <p className="mt-5 pr-8 4xl:pr-0 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">This breakdown aims to clear the air. We'll look at the differences between these types of AI assistants, how each one works, and what kind of use cases they’re best suited for. So you can match the right solution to your business goals, whether it's <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/" target="_blank">agent-based automation in manufacturing</Link>  or deploying smart copilots for field teams.</p>
               <div className="flex  items-center py-8 mt-5">
@@ -421,25 +359,25 @@ export default function Page() {
             <p className="mt-5 4xl:pr-32 pr-10  xl:pr-0 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">A major bank rolled out AI agents for banking that work behind the scenes to monitor transactions in real time. These intelligent agents analyze behavioral patterns, flag suspicious activity, and autonomously freeze transactions when needed. The bank saw a 45% improvement in fraud detection AI accuracy with minimal false positives.</p>
             <h2 className=" pb-4 font-semibold mt-10 leading-tight 2xl:text-[24px] text-[#0092E0] 4xl:text-[30px] xl:text-[25px] text-[23px]">How AI Tools Are Merging in Industry 4.0: Copilots, Bots, and Agents Explained</h2>
             <p className="4xl:pr-32 pr-10 xl:pr-0 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">AI’s future will likely see greater integration of these tools. What used to be separate tools- chatbots answering basic queries, copilots assisting users in CRMs, and agents running autonomous operations are increasingly working together in unified, AI-powered workflows.</p>
-            <p className="mt-5 4xl:pr-32 pr-6 xl:pr-0 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">AI convergence is transforming the factory floor, where a workflow may include a bot capturing data, a copilot validating it in ERP, and an agent determining the next steps. Agentforce agents are highly autonomous, capable of making data-driven decisions and learning from experiences without human oversight. They use sensors and actuators to sense their environment and pursue goals independently, such as automated production rescheduling during supply delays or resolving quality issues in manufacturing. These agents access data from ERP, MES, CRM, and IoT systems to make contextual decisions and initiate appropriate workflows.</p>
+            <p className="mt-5 4xl:pr-32 pr-6 xl:pr-0 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">AI convergence is transforming the factory floor, where a workflow may include a bot capturing data, a copilot validating it in ERP, and an agent determining the next steps. <Link href={' https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/'}  className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce agents are highly autonomous</Link> , capable of making data-driven decisions and learning from experiences without human oversight. They use sensors and actuators to sense their environment and pursue goals independently, such as automated production rescheduling during supply delays or resolving quality issues in manufacturing. These agents access data from ERP, MES, CRM, and IoT systems to make contextual decisions and initiate appropriate workflows.</p>
             <p className="mt-5 4xl:pr-32 pr-10  xl:pr-0 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">Interested in learning more about Agentforce agents or need help getting started? We’re here to assist. At Rialtes, we specialize in <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/" target="_blank">Agentforce consulting</Link> and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to handle complex, evolving tasks autonomously. Talk to us about aligning the right AI with your business process.</p>
-            <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px]  xl:text-[21px] text-[23px] mt-16">
-              FAQs: Bots vs Copilots vs Agents — Top Questions Answered
-            </h2>
+
+
+            {/* faq section */}
+            <div className="xl:mt-[80px] mt-[40px]">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Bots vs Copilots vs Agents</h2>
+              <div className="mt-[29px] xl:mt-[34px]">
+                <FAQAccordion faqData={faqData} />
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section className="custom-container max-md:px-0">
-        <FAQAccordion faqData={faqData} />
-      </section>
 
-      {/* Latest Blogs */}
-      <div
-        className="custom-container lg:pr-0
-        pb-10 mt-20"
-      >
-        <BlogsCarousel slides={blogs} />
-      </div>
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
     </div>
   );
 }
