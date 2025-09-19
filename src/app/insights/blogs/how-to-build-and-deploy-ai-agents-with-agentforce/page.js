@@ -450,11 +450,8 @@ export default function Page() {
                                         </a>
                                     </div>
                                     <div className="max-w-[40px]">
-                                        <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                                            fullUrl
-                                        )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                                            target="_blank"
-                                            rel="noopener noreferrer">
+                                        <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                            target="_blank" rel="noopener noreferrer">
                                             {" "}
                                             <Image
                                                 src="/images/case-studies/twitter.svg"

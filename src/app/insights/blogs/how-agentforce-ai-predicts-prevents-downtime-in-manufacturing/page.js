@@ -419,7 +419,7 @@ export default function Page() {
             </section>
 
             <section className="custom-container max-md:px-0 pb-10">
-                <h2 className="font-semibold mt-5 mb-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">FAQs: Frequently Asked Questions</h2>
+                <h2 className="font-semibold mt-5 mb-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">FAQs: Agentforce in Predicting and Preventing Downtime in Industry 4.0 Manufacturing</h2>
                 <FAQAccordion faqData={faqs} />
             </section>
             {/* Latest Blogs */}

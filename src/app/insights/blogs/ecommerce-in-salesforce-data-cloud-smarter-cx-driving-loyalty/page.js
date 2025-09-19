@@ -411,7 +411,7 @@ export default function Page() {
                                 })
                             }
 
-                            <h2 className="font-semibold mt-16 mb-10 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px] pr-10 xl:pr-0">Frequently Asked Questions (FAQs)</h2>
+                            <h2 className="font-semibold mt-16 mb-10 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px] pr-10 xl:pr-0">FAQs: Salesforce Data Cloud to Improve Customer Experience in E-commerce</h2>
 
                             <FAQAccordion faqData={faqs} />
 

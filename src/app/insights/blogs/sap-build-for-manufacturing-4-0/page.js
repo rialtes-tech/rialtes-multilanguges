@@ -400,7 +400,7 @@ export default function Page() {
                             <p className="mt-5 4xl:pr-20 pr-8 4xl:text-[20px] xl:text-[17px] text-[16px]"> <Link href={"https://www.rialtes.com/contact-us/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">Let’s talk </span> </Link> about how SAP Build can unlock innovation on your shop floor.</p>
 
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px] pb-3">FAQs: Frequently Asked Questions</h2>
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px] pb-3">FAQs: SAP Build in Powering Smart Manufacturing for Industry 4.0</h2>
                             <FAQAccordion faqData={faqData} />
 
                         </div>

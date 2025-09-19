@@ -564,7 +564,7 @@ export default function Page() {
                             <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-5 text-[16px]" >Are you ready to discover <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/">how Agentforce can benefit your factory?</Link>  Let our experts assist you in integrating, scaling, and succeeding with <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/">AI in automotive manufacturing</Link> . Rialtes helps businesses incorporate customized Agentforce agents into their ERP platforms, automating tasks and optimizing workflows.</p>
 
                             <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">
-                                FAQs: Agentforce for AI-Powered Manufacturing Transformation
+                                FAQs: Agentforce 3.0 for Automotive Manufacturing
                             </h2>
 
                         </div>
