@@ -111,7 +111,8 @@
                 "title": "Migration de SAP PI/PO vers SAP BTP Integration Suite (CPI)",
                 "description": "Les entreprises ne peuvent plus se permettre des systèmes déconnectés ; l’intégration est l’épine dorsale de la transformation numérique. Pendant des années, SAP PI et PO ont joué ce rôle en connectant les environnements SAP et non-SAP."
             }
-        ]
+        ],
+        "latestBlogsTitle": "Derniers Blogs"
     },
     "agentforceForManufacturing": {
         "blogs": [
