@@ -111,7 +111,8 @@
                 "title": "Migración de SAP PI/PO a SAP BTP Integration Suite (CPI)",
                 "description": "Las empresas ya no pueden permitirse sistemas desconectados; la integración es la columna vertebral de la verdadera transformación digital. Durante años, SAP Process Integration (PI) y Process Orchestration (PO) desempeñaron este papel, conectando entornos SAP y no SAP."
             }
-        ]
+        ],
+        "latestBlogsTitle": "Últimos Blogs"
     },
     "agentforceForManufacturing": {
         "blogs": [
