@@ -63,8 +63,7 @@ export default function Page() {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
+  const fullUrl ="https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
 
   return (
     <div className="min-h-screen bg-white">
@@ -321,13 +320,11 @@ export default function Page() {
                 <Link
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
                   href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/" target="_blank">
-                  {t('dontDeliverDataLink')}
-                </Link>{" "}
+                  {t('dontDeliverDataLink')}</Link>{" "}
                 {t('dontDeliverData2')}
               </p>
               <p className="mt-5">
-                {t('asTitle')} {" "}
-                <Link
+                {t('asTitle')} {" "}<Link
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
                   href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
                   target="_blank">
