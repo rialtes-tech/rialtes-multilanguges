@@ -140,7 +140,7 @@ export default function Page() {
                         priority
                         height={0}
                         width={0}
-                        className="w-full h-auto object-cover"
+                        className="w-full h-auto object-cover md:h-[500px]"
                     />
                 </div>
             </section>
@@ -151,7 +151,7 @@ export default function Page() {
                         <div className="flex flex-col md:flex-row justify-between text-black items-center xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">{t('blogTopic')}</span>
-                                <span className="text-[#ACACAC]"> | </span>16 June 2025
+                                <span className="text-[#ACACAC]"> | </span>{t('blogDate')}
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
@@ -217,7 +217,7 @@ export default function Page() {
                                 );
                             })}
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">
+                            <h2 className="font-semibold mt-10 text-[#0092E0]  4xl:text-[32px] xl:text-[26px] 2xl:text-[26px] text-[22px] pr-10 4xl:pr-0 xl:pr-0">
                                 {t('strategicTitle')}
                             </h2>
                             <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pb-2">
@@ -237,11 +237,11 @@ export default function Page() {
                                 ))}
                             </ul>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] 2xl:text-[26px] text-[22px] pr-10 4xl:pr-0 xl:pr-0">
                                 {t('voyagerTitle')}
                             </h2>
                             <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] ">
-                                {t('voyagerDesc')}{" "}<Link href={"https://www.rialtes.com/services/business-transformation/rise-with-sap-services/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">{t('voyagerDescLink')}</span></Link>,
+                                {t('voyagerDesc')}{" "}<Link href={"https://www.rialtes.com/services/business-transformation/rise-with-sap-services/"}> <span className="text-[#0092E0] pr-2 transition duration-300 ease-out hover:text-gray-400 underline">{t('voyagerDescLink')}</span></Link>,
                                 {t('voyagerDesc2')}
                                 {t('voyagerDesc3')}  {" "}
                                 <strong> {t('voyagerDescStrong')}</strong>
@@ -265,8 +265,17 @@ export default function Page() {
                                         )}
 
                                         {/* Label */}
-                                        <div className="lg:mt-[44px] max-lg:ml-[40px] max-lg:mt-[-20px]">
-                                            <h3 className="font-bold inline 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[18px] lg:pr-8 xl:pr-2">
+                                        <div className="lg:mt-[44px] max-lg:ml-[40px] max-lg:mt-[-20px]
+                                        ">
+                                            <h3 className={`font-bold inline 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[18px]"
+                                              ${locale === "es"
+                                    ? "lg:pr-8 xl:pr-2  4xl:text-[22px] 2xl:text-[22px] xl:text-[20px] text-[18px]"
+                                    : locale === "fr"
+                                        ? "lg:pr-8 xl:pr-2"
+                                        : "lg:pr-8 xl:pr-2  4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[18px]"
+                                }`}
+                                            
+                                            >
                                                 {step.title}
                                             </h3>
                                             <p className="2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] lg:mt-[34px] mt-[8px] lg:pr-12 4xl:pr-10 max-lg:mb-12">
@@ -277,15 +286,15 @@ export default function Page() {
                                 ))}
                             </ol>
 
-                            <p className="mt-[40px] lg:mt-[110px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                            <p className="mt-[40px] md:mt-0 lg:mt-[110px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
                                 {t('methodologyDesc')}
                             </p>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] 2xl:text-[26px] text-[22px] pr-10 4xl:pr-0 xl:pr-0">
                                 {t('jouleTitle')}
                             </h2>
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
-                                {t('jouleDesc')}   ,<strong>{t('jouleDescStrong')} </strong>,
+                                {t('jouleDesc')}   ,<strong className="pl-1">{t('jouleDescStrong')} </strong>,
                                 {t('jouleDesc2')}
                                 {t('jouleDesc3')}   <strong>{t('signavioStrong')} </strong>, {t('jouleDesc4')}
                             </p>
@@ -300,26 +309,41 @@ export default function Page() {
                                 ))}
                             </div>
                             <p className="4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] lg:mt-[47px] mt-[28px]">
-                                {t('jouleSignavioDesc')}   <strong>{t('jouleSignavioStrong')}</strong>,
+                                {t('jouleSignavioDesc')}   <strong>{t('jouleSignavioStrong')}</strong>,<span className="pl-1"></span>
                                 {t('jouleSignavioDesc2')}{" "}
                                 <strong>{t('jouleSignavioDesc3')}</strong>
                             </p>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] 2xl:text-[26px] text-[22px] pr-10 4xl:pr-0 xl:pr-0">
                                 {t('benefitsTitle')}
                             </h2>
-                            <ol className="list-decimal space-y-2 font-medium 4xl:text-[20px] xl:text-[18px] text-[16px] pl-[32px] mt-4">
-                                {benefitsPoints.map((point, index) => (
-                                    <li key={index}>
-                                        <h3 className="font-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] pb-2">
-                                            {point.title}
-                                        </h3>
-                                        {point.desc}
-                                    </li>
-                                ))}
-                            </ol>
 
-                            <h2 className="pb-3 font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">
+                            <div className="flex flex-wrap justify-center lg:mt-[120px] mt-[80px] gap-y-[60px] md:gap-y-[90px] md:gap-x-[18px] xl:w-[1100px] md:w-[90%] sm:w-[70%]">
+                                {benefitsPoints.map((point, index) => (
+                                    <div
+                                        key={index}
+                                        className="border border-[#707070] relative flex-1 min-w-[300px] max-w-[350px] lg:pb-[41px] lg:pt-[70px] pt-[60px] pb-[40px]"
+                                    >
+                                        <div className="w-[60px] h-[60px] md:w-[75px] md:h-[75px] lg:w-[80px] lg:h-[80px] absolute lg:top-[-40px] top-[-30px] left-1/2 -translate-x-1/2 flex items-center justify-center bg-[#006FBE] text-white font-bold rounded-full text-[26px] xl:text-[32px] 2xl:text-[38px] 4xl:text-[50px]">
+                                            {index + 1}
+                                        </div>
+
+                                        <div>
+                                            <h3 className="font-bold 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] p-4 bg-[#e0dfdf] px-[35px]">
+                                                {point.title}
+                                            </h3>
+                                            <p className="px-[35px] lg:pl-[28px] lg:pr-[22px] lg:mt-[32px] mt-[18px] 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                                                {point.desc}
+                                            </p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+
+
+
+
+                            <h2 className="pb-3 font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] 2xl:text-[26px] text-[22px] pr-10 4xl:pr-0 xl:pr-0">
                                 {t('useCasesTitle')}
                             </h2>
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
@@ -336,7 +360,7 @@ export default function Page() {
                                     </li>
                                 ))}
                             </ul>
-                            <h2 className="pb-3 font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">
+                            <h2 className="pb-3 font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] 2xl:text-[26px] text-[22px] pr-10 4xl:pr-0 xl:pr-0">
                                 {t('whyNotTitle')}
                             </h2>
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
@@ -350,7 +374,7 @@ export default function Page() {
                             <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
                                 {t('whyNotDesc2')}
                             </p>
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] 2xl:text-[26px] text-[22px] pr-10 4xl:pr-0 xl:pr-0">
                                 {t('rialtesSignavioTitle')}
                             </h2>
                             <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
@@ -360,7 +384,7 @@ export default function Page() {
                             <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
                                 {t('rialtesSignavioDesc3')}
                             </p>
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">
+                            <h2 className="font-semibold mt-10 text-[#0092E0] 4xl:text-[32px] xl:text-[26px] 2xl:text-[26px] text-[22px] pr-10 4xl:pr-0 xl:pr-0">
                                 {t('faqTitle')}
                             </h2>
                             <FAQAccordion faqData={faqData} />

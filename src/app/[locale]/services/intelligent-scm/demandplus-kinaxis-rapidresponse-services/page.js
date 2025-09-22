@@ -332,12 +332,12 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-            <div className={`grid xl:grid-cols-12 grid-cols-1 absolute xl:mt-[-100px] mt-[-75px] md:mt-0 custom-container
+            <div className={`grid xl:grid-cols-12 grid-cols-1 absolute xl:mt-[-100px]  md:mt-0 custom-container
               ${locale === "es"
-                                    ? "[@media(max-width:360px)]:mt-0"
+                                    ? "[@media(max-width:360px)]:mt-0 mt-[-30px]"
                                     : locale === "fr"
-                                        ? "[@media(max-width:360px)]:mt-0"
-                                        : "[@media(max-width:360px)]:mt-[-50px]"
+                                        ? "[@media(max-width:360px)]:mt-0 mt-[-30px]"
+                                        : "[@media(max-width:360px)]:mt-[-50px] mt-[-75px]"
                                 }`}
             
             >
@@ -354,11 +354,11 @@ export default function DemandPlusSection() {
                 </div>
                 <div className="xl:col-span-3 col-span-12"></div>
             </div>
-            <section className={`relative h-auto 4xl:mt-[17rem]  custom-container xl:!pr-0 max-md:px-0 md:mt-[32rem]
+            <section className={`relative h-auto 4xl:mt-[17rem]  custom-container xl:!pr-0 max-md:px-0 md:mt-[33rem]
               ${locale === "es"
-                                    ? "mt-[37rem] max-[360px]:mt-[51rem] max-[375px]:mt-[44rem] max-[390px]:mt-[43rem] max-[414px]:mt-[40rem]  max-[320px]:mt-[53rem] 2xl:mt-[16rem] xl:mt-[21rem]"
+                                    ? "mt-[39rem] max-[360px]:mt-[51rem] max-[375px]:mt-[44rem] max-[390px]:mt-[43rem] max-[414px]:mt-[42rem]  max-[320px]:mt-[53rem] 2xl:mt-[16rem] xl:mt-[21rem]"
                                     : locale === "fr"
-                                        ? "mt-[40rem] max-[360px]:mt-[55rem] max-[375px]:mt-[50rem] max-[390px]:mt-[48rem] max-[400px]:mt-[38rem]  max-[320px]:mt-[53rem] 2xl:mt-[19rem] xl:mt-[21rem]"
+                                        ? "mt-[42rem] max-[360px]:mt-[55rem] max-[375px]:mt-[52rem] max-[390px]:mt-[49rem] max-[400px]:mt-[38rem]  max-[320px]:mt-[53rem] 2xl:mt-[19rem] xl:mt-[21rem]"
                                         : "mt-[34rem] max-[360px]:mt-[47rem] max-[375px]:mt-[44rem] max-[390px]:mt-[38rem] max-[400px]:mt-[38rem]  max-[320px]:mt-[53rem] 2xl:mt-[16rem] xl:mt-[16rem]"
                                 }`}
             >
@@ -644,10 +644,10 @@ export default function DemandPlusSection() {
                         alt="Leading the Future"
                         className={`object-cover w-full
                           ${locale === "es"
-                                    ? "h-[872px] md:h-[722px] [@media(max-width:360px)]:h-[952px]"
+                                    ? "h-[900px] md:h-[722px]"
                                     : locale === "fr"
-                                        ? "h-[872px] md:h-[722px] [@media(max-width:360px)]:h-[1024px]" 
-                                        : "h-[850px] md:h-[725px] [@media(max-width:360px)]:h-[940px]"
+                                        ? "h-[1021px] md:h-[722px]" 
+                                        : "h-[850px] md:h-[725px] [@media(max-width:400px)]:h-[940px]"
                                 }`}
                         priority
                         width={0}

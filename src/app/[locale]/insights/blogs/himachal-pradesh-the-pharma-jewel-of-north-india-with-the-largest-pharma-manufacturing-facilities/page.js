@@ -59,7 +59,7 @@ export default function Page() {
             <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
               <div className="sm:mb-0 mb-6 text-[16px] md:text-[20px]">
                 <span className="text-[#0092E0]"> {t('blogTopic')}</span>{" "}
-                <span className="text-[#ACACAC]"> | </span>01 July 2025
+                <span className="text-[#ACACAC]"> | </span>{t('blogDate')}
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -114,7 +114,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div>
-            <h1 className="text-[#000000] font-semibold pb-10  4xl:w-full xl:w-[950px] leading-tight 4xl:text-[60px] xl:text-[50px] text-[26px]">
+            <h1 className="text-[#000000]  pb-10  4xl:w-full xl:w-[950px] leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] text-[26px] md:text-[28px]">
               {t('blogTitle')}
             </h1>
           </div>
@@ -124,7 +124,7 @@ export default function Page() {
               {
                 blogMainData.map((data, ind) => {
                   return (
-                    <p className="text-black pb-6" key={ind}>
+                    <p className="text-black pb-6 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]" key={ind}>
                       {data}
                     </p>
                   )
@@ -135,25 +135,25 @@ export default function Page() {
                 alt="India's impact on the global pharmaceutical industry"
                 width={0}
                 height={0}
-                className="w-full h-full relative xl:right-[64px] lg:right-[55px] md:right-[44px]" />
+                className="xl:w-full h-full w-full relative xl:right-[64px] lg:right-[55px] md:right-[44px] md:w-[80%]"/>
               <div className="py-6 xl:py-0"></div>
-              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
+              <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
                 {t('northernTitle')} {" "}
               </h2>
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                 {t('northerData')}    {" "}
               </p>
-              <p className="text-black">
+              <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                 {t('northerData2')}
               </p>
               <div className="py-6"></div>
-              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
+              <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[32px]  2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
                 {t('pharmaTitle')}
               </h2>
               {
                 pharmaData.map((data, ind) => {
                   return (
-                    <p className="text-black pb-4" key={ind}>
+                    <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]" key={ind}>
                       {data}
                     </p>
 
@@ -161,56 +161,56 @@ export default function Page() {
                 })
               }
               <div className="py-6"></div>
-              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
+              <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[32px]  2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
                 {t('economicTitle')}    {" "}
               </h2>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                 {t('economicDesc')}
               </p>
 
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                 {t('economicDesc2')}
               </p>
               <div className="pl-3 pb-4">
-                <UnorderedList arrName={economicData} ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] md:text-[20px] font-medium" />
+                <UnorderedList arrName={economicData} ulClassName="list-disc xl:pl-10 marker:text-[#0092E0] marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:text-[20px] font-medium" />
               </div>
 
-              <p className="pb-4 text-black">
+              <p className="pb-4 text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                 {t('economicDesc3')}
               </p>
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                 {t('economicDesc4')}
               </p>
               <div className="pl-3 pb-4">
-                <UnorderedList arrName={economicData2} ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] md:text-[20px] font-medium" />
+                <UnorderedList arrName={economicData2} ulClassName="list-disc xl:pl-10 marker:text-[#0092E0] marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:text-[20px] font-medium" />
               </div>
-              <p className="text-black pb-4">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                 {t('economicDesc5')}
               </p>
               <div className="pl-3 pb-4">
-                <UnorderedList arrName={economicData3} ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] md:text-[20px] font-medium" />
+                <UnorderedList arrName={economicData3} ulClassName="list-disc xl:pl-10 marker:text-[#0092E0] marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:text-[20px] font-medium" />
               </div>
-              <p className="text-black">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                 {t('economicDesc6')}
               </p>
               <div className="py-6"></div>
 
               {/* himachal pradeshs section */}
-              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
+              <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[32px]  2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
                 {t('hmRoleTitle')}
               </h2>
               {
                 hmData.map((data, ind) => {
                   return (
-                    <p className="text-black pb-4" key={ind}>
+                    <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]" key={ind}>
                       {data}
                     </p>
                   )
                 })
               }
 
-              <p className="text-black">
+              <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                 {t('hmDesc')}{" "}
                 <Link className="underline" href={"mailto:sales@rialtes.com"}><span>sales@rialtes.com</span></Link>{" "}
                 {t('hmDesc2')}

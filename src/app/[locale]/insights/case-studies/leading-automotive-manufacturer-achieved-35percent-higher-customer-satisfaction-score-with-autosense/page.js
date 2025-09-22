@@ -70,7 +70,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px] sm:h-[500px] 4xl:h-[650px] 2xl:h-[600px] xl:h-[500px] overflow-hidden">
+      <section className="relative h-[250px]  4xl:h-[650px] 2xl:h-[600px] xl:h-[500px] overflow-hidden">
         <Image
           className="lg:block hidden overflow-hidden "
           src="/images/case-studies/AutoSense Warranty Management Modules_Case study banner.webp "
@@ -92,8 +92,8 @@ export default function Page() {
 
       <section className="custom-container">
         <div className="py-10 bg-white 4xl:max-w-[1084px] 4xl:w-[1084px] xl:w-[900px]">
-         
-          <div className="">
+
+          <div  >
             <div className="flex flex-col md:flex-row justify-between text-black items-center">
               <div>
                 <span className="text-[#0092E0]">{t("Automotive")} </span>{" "}
@@ -101,87 +101,87 @@ export default function Page() {
                 {t("date")}
               </div>
               <div className="flex flex-col">
-                 <div className="flex flex-row gap-6 ml-[-8px]">
-              <div className="max-w-[40px]">
-                <a
-                  href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                    fullUrl
-                  )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Image
-                    src="/images/case-studies/linkedin.svg"
-                    alt="LinkedIn"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                    priority
-                  />
-                </a>
-              </div>
-              <div className="max-w-[40px]">
-                <a
-                  href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                    fullUrl
-                  )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Image
-                    src="/images/case-studies/twitter.svg"
-                    alt="Twitter"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                    priority
-                  />
-                </a>
-              </div>
-            </div>
+                <div className="flex flex-row gap-6 ml-[-8px]">
+                  <div className="max-w-[40px]">
+                    <a
+                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
+                        fullUrl
+                      )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Image
+                        src="/images/case-studies/linkedin.svg"
+                        alt="LinkedIn"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{
+                          width: "100%",
+                          height: "100%",
+                          objectFit: "cover",
+                        }}
+                        priority
+                      />
+                    </a>
+                  </div>
+                  <div className="max-w-[40px]">
+                    <a
+                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
+                        fullUrl
+                      )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Image
+                        src="/images/case-studies/twitter.svg"
+                        alt="Twitter"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{
+                          width: "100%",
+                          height: "100%",
+                          objectFit: "cover",
+                        }}
+                        priority
+                      />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="pt-4"></div>
-          
+
           </div>
-           <div className="">
-            <h1 className="text-[#000000] py-6 leading-tight  text-[26px]  4xl:text-[60px] xl:text-[45px]">
+          <div  >
+            <h1 className="text-[#000000] py-6 leading-tight  text-[26px]  4xl:text-[60px] xl:text-[42px] 2xl:text-[48px]nmd:text-[28px]">
               {t("leadingTitle")}
             </h1>
           </div>
 
 
           <div className="py-6"></div>
-          <div className="">
-            <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] md:text-[22px] text-[20px] pb-4">
+          <div  >
+            <div  >
+              <h2 className="font-medium text-[#0092E0] 2xl:text-[26px] xl:text-[26px] 4xl:text-[32px] md:text-[22px] text-[22px] pb-4">
                 {t("clientTitle")}
               </h2>
-              <p className="text-black">{t("clientDesc")}</p>
+              <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t("clientDesc")}</p>
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4 md:text-[22px]">
+              <h2 className="font-medium text-[#0092E0] 2xl:text-[26px] xl:text-[26px] 4xl:text-[32px] md:text-[22px] text-[22px]">
                 {t("keyTitle")}
               </h2>
 
-              <p className="text-black pb-2 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">{t("keyDesc")}</p>
+              <p className="text-black pb-2 4xl:text-[20px] 2xl:text-[17px]  xl:text-[17px] text-[16px]">{t("keyDesc")}</p>
 
               <div className="pl-2">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium">
+                <ul className="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:text-[19px] font-medium">
                   {keyList.map((item, index) => (
                     <li key={index} className="pb-4 last:pb-0">
-                      <h3 className="h3-bold inline 4xl:text-[20px] xl:text-[17px] text-[17px] 2xl:text-[18px]  md:text-[19px]">
+                      <h3 className="font-bold inline 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] md:text-[20px]">
                         {item.title}
                       </h3> : {item.desc}
                     </li>
@@ -190,37 +190,37 @@ export default function Page() {
               </div>
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4 md:text-[22px]">
+              <h2 className="font-medium text-[#0092E0] 2xl:text-[26px] xl:text-[26px] 4xl:text-[32px] md:text-[22px] text-[22px] pb-4">
                 {t("solutionTitle")}
               </h2>
 
-              <p className="text-black pb-4">{t("solutionDesc")}</p>
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px]  xl:text-[17px] text-[16px]">{t("solutionDesc")}</p>
 
-              <h3 className="h3-bold pb-4 xl:text-[22px] text-[18px] md:text-[19px]">
+              <h3 className="h3-bold pb-4 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] md:text-[20px]">
                 {t("approchTitle")}
               </h3>
               <div className="pl-2">
-                <ol className="list-decimal marker:text-[#000] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium space-y-4">
+                <ol className="list-decimal marker:text-[#000] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:text-[19px] font-medium space-y-4">
                   {solutionList.map((item, index) => (
                     <li className="last:pb-4" key={index}>
-                      <h4 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">
+                      <h3 className="h3-bold inline 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] md:text-[20px]">
                         {item.title}
-                      </h4> : {item.desc}
+                      </h3> : {item.desc}
                     </li>
                   ))}
                 </ol>
               </div>
 
-              <h3 className="h3-bold pb-4 xl:text-[22px] text-[18px] md:text-[19px]">
+              <h3 className="h3-bold pb-4 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] md:text-[20px]">
                 {t("featuresTitle")}
               </h3>
               <div className="pl-2">
-                <ol className="list-decimal marker:text-[#000] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium space-y-4">
+                <ol className="list-decimal marker:text-[#000] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:text-[19px] font-medium space-y-4">
                   {featureList.map((item, index) => (
                     <li key={index}>
-                      <h4 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">
+                      <h3 className="h3-bold inline 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] md:text-[20px]">
                         {item.title}
-                      </h4> : {item.desc}
+                      </h3> : {item.desc}
                     </li>
                   ))}
                 </ol>
@@ -228,17 +228,17 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-          <div className="">
-            <div className="">
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4 md:text-[22px]">
+          <div  >
+            <div  >
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px] pb-4 md:text-[22px]">
                 {t("benefitsTitle")}
               </h2>
               <div className="pl-2">
-                <p className="text-black pb-2 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">{t("benefitsDesc")}</p>
-                <ul className="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black  4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] md:text-[19px] font-medium space-y-4">
+                <p className="text-black pb-2 4xl:text-[20px] 2xl:text-[17px]  xl:text-[17px] text-[16px]">{t("benefitsDesc")}</p>
+                <ul className="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black  4xl:text-[20px] 2xl:text-[17px]  xl:text-[17px] text-[16px] md:text-[19px] font-medium space-y-4">
                   {benefitsList.map((item, index) => (
                     <li className="last:pb-4" key={index}>
-                      <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">
+                      <h3 className="h3-bold inline 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] md:text-[20px]">
                         {item.title}
                       </h3> : {item.desc}
                     </li>
@@ -246,15 +246,15 @@ export default function Page() {
                 </ul>
               </div>
 
-              <h3 className="h3-bold pb-4 xl:text-[20px] text-[18px] md:text-[19px]">
+              <h3 className="h3-bold pb-4 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] md:text-[20px]">
                 {t("serviceTitle")}
               </h3>
 
               <div className="pl-2">
-                <ol className="list-decimal marker:text-[#000] marker:text-xl text-black pl-4 xl:text-[20px] text-[16px] md:text-[19px] font-medium space-y-4">
+                <ol className="list-decimal marker:text-[#000] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:text-[19px] font-medium space-y-4">
                   {serviceList.map((step, index) => (
                     <li key={index}>
-                      <h4 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">
+                      <h4 className="h3-bold inline 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] md:text-[20px]">
                         {step.title}
                       </h4> : {step.desc}
                     </li>
@@ -264,11 +264,11 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-          <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4 md:text-[22px]">
+          <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px] pb-4 md:text-[22px]">
             {t("conclusion")}
           </h2>
-          <p className="text-black pb-4">{t("conclusionDesc")}</p>
-          <p className="text-black">{t("conclusionDescOne")} </p>
+          <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px]  xl:text-[17px] text-[16px]">{t("conclusionDesc")}</p>
+          <p className="text-black 4xl:text-[20px] 2xl:text-[17px]  xl:text-[17px] text-[16px]">{t("conclusionDescOne")} </p>
         </div>
       </section>
 

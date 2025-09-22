@@ -381,11 +381,13 @@
             }
         ],
         "blogTopic": "General",
+        "blogDate":"01 July 2025",
         "blogTitle": "Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities",
         "blogMainData": [
             "India’s rise as a pharmaceutical powerhouse on the global stage is remarkable. Today, it supplies 20% of all global generic drug exports, 40% of the United States' generic demand, and 25% of all medicines used in the United Kingdom.Behind this pharmaceutical dominance lies a network of innovation, production, and manufacturing, and one of its brightest stars in North India is Himachal Pradesh.",
             "It has long been a significant contributor to tourism and economic development in India. The state is known for its investor-friendly environment and is emerging as a preferred investment destination in Northern India due to its supportive policies, strong industrial infrastructure, and high Ease of Doing Business ranking."
         ],
+        
         "northernTitle": "A Northern Powerhouse in Pharmaceutical Manufacturing",
         "northerData": "Himachal Pradesh's rise as a pharmaceutical hub is a result of strategic policies and economic foresight, attracting major Indian and multinational companies over the past decade. Nestled amidst the majestic Himalayas, it has quietly emerged as the pharma manufacturing capital of North India, boasting the largest number of contract manufacturing facilities (25) among northern states. In comparison, Uttarakhand hosts 10 such facilities, while Madhya Pradesh, a central Indian state, accounts for 23.",
         "northerData2": "The state is well-positioned for investment with affordable power, effective law enforcement, a skilled workforce, and proactive governance. Notably, Himachal Pradesh has been sanctioned the first Medical Devices Park in North India, with the foundation stone laid by Prime Minister Narendra Modi. Spanning 265 acres in Nalagarh, Solan, the park is well-connected to global supply chains and is near prestigious institutes such as IIT-Mandi and IIM-Sirmour, along with essential supporting infrastructure like ICD, CETP, and Skill Development Centres.",
@@ -485,6 +487,7 @@
             }
         ],
         "blogTopic": "AI",
+        "blogDate":"30 May 2025",
         "blogTitle": "Agentic Pharma - The AI-Driven Era of the Pharmaceutical Industry",
         "blogMainData": [
             "The pharmaceutical industry has long been a pioneer in adopting new technologies, from cutting-edge lab equipment to intelligent data management systems. Now, in the era of artificial intelligence, the sector is not only experimenting with AI but fully embracing its transformative potential to reshape research and enhance patient care.",
@@ -4433,6 +4436,7 @@
             }
         ],
         "blogTopic": "SAP Signavio",
+        "blogDate": "16 June 2025",
         "blogTitle": "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
         "strategicTitle": "The Strategic Role of SAP Signavio in S/4HANA Transformations",
         "strategicDesc": "Migrating to S/4HANA is not merely a technical upgrade. It’s an enterprise-wide initiative that redefines processes, governance, and performance models. SAP Signavio provides the end-to-end visibility, modeling, and optimization capabilities that allow enterprises to transition with confidence.",

@@ -50,7 +50,7 @@ export default function Page() {
   const t = useTranslations("agenticPharma");
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const {blogs, blogMainData, whyPharmaData, agenticAppData } = content.agenticPharma
+  const { blogs, blogMainData, whyPharmaData, agenticAppData } = content.agenticPharma
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -87,7 +87,7 @@ export default function Page() {
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>30 May 2025
+                <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>{t('blogDate')}
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -129,14 +129,14 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div>
-            <h1 className="text-[#000000] pb-6 4xl:w-[1084px] xl:w-[920px] leading-tight font-semibold text-[26px] xl:text-[50px] 4xl:text-[60px]">{t('blogTitle')}</h1>
+            <h1 className="text-[#000000] pb-6 4xl:w-[1084px] xl:w-[920px] leading-tight text-[26px] 2xl:text-[48px] xl:text-[42px] 4xl:text-[60px] md:text-[28px]">{t('blogTitle')}</h1>
           </div>
           <div>
             <div className="max-w-[1084px] xl:w-[1084px]">
               {
                 blogMainData.map((data, ind) => {
                   return (
-                    <p className="text-black pb-4" key={ind}>
+                    <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]" key={ind}>
                       {data}
                     </p>
                   )
@@ -145,27 +145,27 @@ export default function Page() {
               <div className="py-4"></div>
 
               {/* breaking down section */}
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]"> {t('breakingTitle')}</h2>
+              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] 2xl:text-[26px]  md:text-[22px] text-[22px]"> {t('breakingTitle')}</h2>
 
-              <p className="text-black pb-4">{t('breakingData')} </p>
-              <p className="text-black ">{t('breakingData2')}</p>
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('breakingData')} </p>
+              <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('breakingData2')}</p>
               <div className="py-6"></div>
 
               {/* how agentic section */}
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">{t('howAgenticTitle')}</h2>
-              <p className="text-black pb-4">{t('howAgenticData')}</p>
-              <p className="text-black">{t('howAgenticData2')}</p>
+              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] 2xl:text-[26px]  md:text-[22px] text-[22px]">{t('howAgenticTitle')}</h2>
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('howAgenticData')}</p>
+              <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('howAgenticData2')}</p>
               <div className="py-6"></div>
 
               {/* why the pharma section */}
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">{t('whyPharmaTitle')}</h2>
-              <p className="text-black pb-4">{t('whyPharmaDesc')}</p>
-              <ul className="list-disc text-black space-y-2 text-[16px] sm:text-[20px]">
+              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] 2xl:text-[26px]  md:text-[22px] text-[22px]">{t('whyPharmaTitle')}</h2>
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('whyPharmaDesc')}</p>
+              <ul className="list-disc text-black space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium xl:pl-10">
                 {
                   whyPharmaData.map((data, ind) => {
                     return (
                       <li key={ind}>
-                        <h3 className="h3-bold inline ">{data.title} : </h3>{data.desc}
+                        <h3 className="h3-bold inline 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{data.title} : </h3>{data.desc}
                       </li>
                     )
                   })
@@ -174,14 +174,14 @@ export default function Page() {
 
               <div className="py-6"></div>
               {/* agentict applications section */}
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]"> {t('agenticAppTitle')}</h2>
+              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] 2xl:text-[26px]  md:text-[22px] text-[22px]"> {t('agenticAppTitle')}</h2>
               <>
                 {
                   agenticAppData.map((data, ind) => {
                     return (
-                      <div key={ind}>
-                        <h3 className="text-black pb-2 h3-bold">{ind + 1}.{data.title}  </h3>
-                        <p className="text-black pb-4">{data.desc}</p>
+                      <div key={ind} className="xl:pl-10">
+                        <h3 className="text-black pb-2 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{ind + 1} .&nbsp;{data.title}  </h3>
+                        <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
                       </div>
                     )
                   })
@@ -189,9 +189,9 @@ export default function Page() {
               </>
               <div className="py-6"></div>
               {/* improve patient section */}
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">{t('improveTitle')}</h2>
-              <p className="text-black pb-4"> {t('improveData')}</p>
-              <p className="text-black">{t('improveData2')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/?utm_source=internal&utm_medium=blog" target="_blank"> {t('improveDataLink')}</Link> {t('improveData3')} </p>
+              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] 2xl:text-[26px]  md:text-[22px] text-[22px]">{t('improveTitle')}</h2>
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"> {t('improveData')}</p>
+              <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('improveData2')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/?utm_source=internal&utm_medium=blog" target="_blank"> {t('improveDataLink')}</Link> {t('improveData3')} </p>
             </div>
           </div>
         </div>

@@ -308,7 +308,7 @@
       },
       {
         "id": 26,
-        "image": "/images/blog/sustain-small-slider.webp",
+        "image": "/images/blog/sustain-slider.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "21 aug. 2025",
@@ -842,7 +842,7 @@
     "slides": [
       {
         "id": 24,
-        "image": "/images/blog/sustain-small-slider.webp",
+        "image": "/images/blog/sustain-slider.webp",
         "category": "Salesforce Agentforce",
         "industry": "Genérico",
         "date": "21 ago. 2025",

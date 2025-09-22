@@ -151,7 +151,7 @@ export default function Page() {
                             <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px]  text-[20px] pb-4">
                                 {t("cliendTitle")}
                             </h2>
-                            <p className="text-black">{t("cliendDesc")}</p>
+                            <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:text-[19px]">{t("cliendDesc")}</p>
                             <div className="py-6"></div>
                             <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px]  text-[20px] pb-4">
                                 {t("keyTitle")}
@@ -197,7 +197,7 @@ export default function Page() {
                     </div>
                     <div>
                         <div className="pt-2">
-                            <h3 className="h3-bold pb-4 xl:text-[20px] text-[18px] md:text-[19px]">
+                            <h3 className="h3-bold pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[18px] md:text-[19px]">
                                 {t("featuresTitle")}
                             </h3>
                             <div className="pl-2">
@@ -217,14 +217,14 @@ export default function Page() {
                     <div className="py-6"></div>
                     <div>
                         <div className="">
-                            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                            <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
                                 {t("benifitTitle")}
                             </h2>
                             <div className="pl-2">
                                 <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium">
                                     {benefitsList.map((item, index) => (
                                         <li key={index} className="pb-4 last:pb-0">
-                                            <h3 className="h3-bold inline xl:text-[20px] text-[17px] md:text-[19px]">
+                                            <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[17px] md:text-[19px]">
                                                 {item.title}
                                             </h3>
                                             : {item.description}
@@ -237,7 +237,7 @@ export default function Page() {
                     <div className="py-6"></div>
                     <div>
                         <div className="">
-                            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">
+                            <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
                                 {t("deliverablesTitle")}
                             </h2>
 
