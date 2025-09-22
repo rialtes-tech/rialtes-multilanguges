@@ -15,6 +15,7 @@ import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 import OrderedList from "@/app/[locale]/components/orderedList";
 import FilteredBlogCarouse from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 import useUrl from "@/app/[locale]/components/useUrl";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -145,112 +146,72 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="custom-container">
-        <div className="pt-10 bg-white">
-          <div className=" mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
-              <div className="sm:mb-0 mb-6">
-                <span className="text-[#0092E0]">{t("agentforce")}</span>
-                <span className="text-[#ACACAC]"> | </span>
-                29 July 2025
-              </div>
-              <div className="flex flex-col">
-                <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank" rel="noopener noreferrer">
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          objectFit: "cover",
-                        }}
-                        priority
-                      />
-                    </a>
-                  </div>
+      <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+        {/* date and icons */}
+        <div className="sm:flex justify-between">
+          <div>
+            <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">{t("agentforce")}</span>{" "}
+            <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] "> | </span>29 July 2025
+          </div>
 
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank" rel="noopener noreferrer">
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          objectFit: "cover",
-                        }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
+          <div>
+            <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
+              <BlogSocialIcons fullUrl={fullUrl} />
             </div>
           </div>
-          <div className="py-6"></div>
-          <div className=" mx-auto">
-            <h1 className="text-[#000000] leading-tight text-[26px] 2xl:text-[48px] 4xl:text-[60px] xl:text-[42px] md:text-[28px] xl:w-[1000px] 4xl:w-[1150px] pb-6">
-              {t("title")}
-            </h1>
-          </div>
 
-          <div className="mx-auto">
-            <div className="max-w-[1084px] 4xl:w-[1084px] 2xl:w-[950px] xl:w-[850px]">
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                {t("desc")}{" "}
-                <Link
-                  className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                  href="https://www.salesforce.com/in/news/press-releases/2025/06/23/agentforce-3-announcement/"
-                >
-                  {t("descLink")}
-                </Link>
-                {t("descLink2")}
-              </p>
+        </div>
 
-              <p className="text-black mt-3 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                {t("desctwo")}
-                <Link
-                  className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                  href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
-                >
-                  {t("desctwoLink")}
-                </Link>{" "}
-                {t("desctwoLink1")}
-              </p>
-              <p className="text-black mt-3 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                {t("autoTitle")}
-              </p>
+        {/* main blog */}
+        <div className="xl:mt-[60px] mt-[42px]">
+          <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]">
+            {t("title")}
+          </h1>
+        </div>
 
-              <div className="py-6 "></div>
+        <div className="xl:mt-[38px] mt-[33px]">
+          <div className="max-w-[1084px] 4xl:w-[1084px] 2xl:w-[950px] xl:w-[850px]">
+            <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
+              {t("desc")}{" "}
+              <Link
+                className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
+                href="https://www.salesforce.com/in/news/press-releases/2025/06/23/agentforce-3-announcement/"
+              >
+                {t("descLink")}
+              </Link>
+              {t("descLink2")}
+            </p>
 
-              <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
+            <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
+              {t("desctwo")}
+              <Link
+                className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
+                href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
+              >
+                {t("desctwoLink")}
+              </Link>{" "}
+              {t("desctwoLink1")}
+            </p>
+            <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
+              {t("autoTitle")}
+            </p>
+
+            {/* agentforce section */}
+            <div className="md:mt-[50px] mt-[40px]">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] ">
                 {t("automotive")}
               </h2>
-
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("sinceTitle")}
               </p>
-              <h3 className="pb-4 mt-6 font-bold text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
+              <h3 className="mt-5 font-bold text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px]">
                 {t("keyTitle")}
               </h3>
               <div className="grid gap-10 mt-5">
                 {featuresData.map((item, idx) => (
                   <div
                     key={idx}
-                    className="flex flex-col sm:flex-row sm:items-start sm:gap-[50px]"
-                  >
+                    className="flex flex-col sm:flex-row sm:items-start sm:gap-[50px]">
                     <div className="min-w-[100px] sm:mt-1">
                       <Image
                         src={item.icon}
@@ -261,104 +222,116 @@ export default function Page() {
                       />
                     </div>
                     <div className="mt-10 xl:mt-0 md:mt-0">
-                      <h4 className="inline font-bold xl:text-[17px] text-[16px] 4xl:text-[20px] 2xl:text-[18px] mr-1">
+                      <h4 className="inline font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]  mr-1">
                         {item.title}
                       </h4>
-                      <span className="inline text-gray-700 xl:text-[17px] text-[16px] 2xl:text-[20px] 4xl:text-[20px] font-medium">
+                      <span className="inline text-gray-700 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]  font-medium">
                         {item.description}
                       </span>
                     </div>
                   </div>
                 ))}
               </div>
+            </div>
 
-              <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">
+            {/* streamline section */}
+            <div className="md:mt-[50px] mt-[40px]">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] ">
                 {t("streamlineTitle")}
               </h2>
 
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("oneTitle")}
               </p>
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("means")}
               </p>
-              <ol className="list-decimal pl-5 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3">
+              <ol className="list-decimal mt-3 pl-[34px] text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]  font-medium space-y-3">
                 {commandList.map((item, i) => (
                   <li key={i}>
                     <span className="font-bold">{item.title}:</span> {item.desc}
                   </li>
                 ))}
               </ol>
-              <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("meansdesc")}
               </p>
+            </div>
 
-              <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-10 leading-tight">
+
+            {/* universal integration section */}
+            <div className="md:mt-[50px] mt-[40px]">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] ">
                 {t("universalTitle")}
               </h2>
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("modelTitle")}
               </p>
 
-              <ol className="list-disc marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-4">
+              <ol className="list-disc mt-5 marker:text-xl pl-[34px] text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]  font-medium space-y-4">
                 {integrationPoints.map((item, i) => (
                   <li key={i}>
                     <span className="font-bold">{item.title}:</span> {item.desc}
                   </li>
                 ))}
               </ol>
-              <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("modelDesc")}
               </p>
 
-              <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px] md:text-[23px] xl:text-[17px] text-[16px]">
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("modelDesc1")}
               </p>
-              <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-10 leading-tight">
+            </div>
+
+
+            {/* revolutionize section */}
+            <div className="md:mt-[50px] mt-[40px]">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] ">
                 {t("qualityTitle")}
               </h2>
 
-              <div>
+              <div className="mt-[29px] xl:mt-[30px]">
                 {agentforceContent.map((text, i) => (
                   <p
                     key={i}
                     className={`${i === 0 ? "" : "mt-5"
-                      } 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]`}
+                      } 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] `}
                   >
                     {text}
                   </p>
                 ))}
               </div>
-              <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">
+            </div>
+
+            {/* drive section */}
+            <div className="md:mt-[50px] mt-[40px]">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] ">
                 {t("driveTitle")}
               </h2>
-              <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("driveDesc")}
               </p>
 
-              <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
+              <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("driveDesc1")}
               </p>
               <OrderedList
                 arrName={listItems}
-                olClassName="list-disc marker:text-xl pl-4 mt-4 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3"
+                olClassName="list-disc marker:text-xl pl-[34px] mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]  font-medium space-y-2"
               />
 
-              <h3 className="pb-4 font-bold text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-10">
+              <h3 className="pb-4 font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-8">
                 {t("useTitle")}
               </h3>
 
               <div className="grid grid-cols-1 mt-0 xl:mt-10 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-black border-black">
                 {features.map((item, index) => (
-                  <div
-                    key={index}
-                    className={`py-6 xl:py-0 ${index === 0 ? "pr-6" : "xl:pl-6 xl:pr-5 lg:px-10 md:px-5"
-                      }`}
-                  >
-                    <h4 className="text-[#0067B9] font-semibold 4xl:text-[20px] xl:text-[17px] 2xl:text-[18px] text-[16px] leading-tight pl-2">
+                  <div key={index} className={`py-6 xl:py-0 ${index === 0 ? "pr-6" : "xl:pl-6 xl:pr-5 lg:px-10 md:px-5"}`}>
+                    <h4 className="text-[#0067B9] font-semibold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2">
                       {item.title}
 
-                      <span className="text-black font-normal 4xl:text-[22px] xl:text-[20px] text-[16px] pl-2">
+                      <span className="font-medium text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2">
                         {item.description}
                       </span>
                     </h4>
@@ -366,61 +339,65 @@ export default function Page() {
                 ))}
               </div>
 
-              <p className="text-black xl:mt-16 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              <p className="xl:mt-16 mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("useDesc")}
               </p>
+            </div>
 
-              <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">
+
+            {/* accelerate section */}
+            <div className="md:mt-[50px] mt-[40px]">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] ">
                 {t("action")}
               </h2>
 
-              <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("actionDesc")}
               </p>
 
-              <p className="mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("useCase")}
               </p>
               <UnorderedList
                 arrName={useCaseList}
-                ulClassName="list-disc marker:text-xl pl-4 text-black mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4"
+                ulClassName="list-disc marker:text-xl pl-[34px] text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3 mt-5"
               />
 
-              <p className="mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("newTitle")}
               </p>
+            </div>
 
-              <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">
+            {/* ai work section */}
+            <div className="md:mt-[50px] mt-[40px]">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] ">
                 {t("putTitle")}
               </h2>
-              <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("putDesc")}
               </p>
 
-              <p className="mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("putDesc2")}
               </p>
               <UnorderedList
                 arrName={aiList}
-                ulClassName="list-disc pl-4 marker:text-xl text-black 4xl:text-[20px] 2xl:text-[18px] mt-5  xl:text-[17px] text-[16px] font-medium space-y-4"
+                ulClassName="list-disc pl-[34px] mt-5 marker:text-xl text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3"
               />
 
-              <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-10 text-[16px]">
+              <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] mt-5">
                 {t("whetherDesc")}
               </p>
-              <p className="4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-5 text-[16px]">
+              <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] mt-5">
                 {t("link")}
                 <Link
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                  href="https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"
-                >
+                  href="https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/">
                   {t("link1")}
                 </Link>{" "}
                 {t("link2")}
-                <Link
-                  className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                  href="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/"
-                >
+                <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
+                  href="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/">
                   {t("link3")}
                 </Link>
                 {t("link4")}

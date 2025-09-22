@@ -5,7 +5,7 @@ import React, { memo, useEffect, useState } from "react";
 
 export const HeroSection = ({ title, subtitle, mobimg, deskimg, extraImg, txtColor, h3title, mobStyle, desktopStyle }) => {
     return (
-        <section className="relative group overflow-hidden h-[399px] 4xl:h-[650px] 2xl:h-[600px] xl:h-[500px]">
+        <section className="relative group overflow-hidden h-[399px] 4xl:h-[650px] 2xl:h-[500px] xl:h-[500px]">
             {/* Desktop Image */}
             <div className="hidden md:block">
                 {

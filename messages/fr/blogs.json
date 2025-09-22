@@ -111,7 +111,8 @@
                 "title": "Migration de SAP PI/PO vers SAP BTP Integration Suite (CPI)",
                 "description": "Les entreprises ne peuvent plus se permettre des systèmes déconnectés ; l’intégration est l’épine dorsale de la transformation numérique. Pendant des années, SAP PI et PO ont joué ce rôle en connectant les environnements SAP et non-SAP."
             }
-        ]
+        ],
+        "latestBlogsTitle": "Derniers Blogs"
     },
     "agentforceForManufacturing": {
         "blogs": [
@@ -495,6 +496,7 @@
             }
         ],
         "blogTopic": "Général",
+        "blogDate": "01 juillet 2025",
         "blogTitle": "Himachal Pradesh : Le joyau pharmaceutique du nord de l’Inde avec les plus grandes installations de fabrication pharmaceutique",
         "blogMainData": [
             "L’ascension de l’Inde en tant que puissance pharmaceutique mondiale est remarquable. Aujourd’hui, elle fournit 20 % de toutes les exportations mondiales de médicaments génériques, 40 % de la demande générique des États-Unis et 25 % de tous les médicaments utilisés au Royaume-Uni. Derrière cette domination pharmaceutique se cache un réseau d’innovation, de production et de fabrication, et l’un de ses pôles les plus brillants dans le nord de l’Inde est l’Himachal Pradesh.",
@@ -599,6 +601,7 @@
             }
         ],
         "blogTopic": "IA",
+        "blogDate": "30 mai 2025",
         "blogTitle": "Agentic Pharma - L’ère de l’IA dans l’industrie pharmaceutique",
         "blogMainData": [
             "L’industrie pharmaceutique a toujours été pionnière dans l’adoption de nouvelles technologies, des équipements de laboratoire de pointe aux systèmes intelligents de gestion des données. Aujourd’hui, à l’ère de l’intelligence artificielle, le secteur ne se contente plus d’expérimenter l’IA mais en embrasse pleinement le potentiel transformateur pour remodeler la recherche et améliorer les soins aux patients.",
@@ -4954,6 +4957,7 @@
             }
         ],
         "blogTopic": "SAP Signavio",
+        "blogDate": "16 juin 2025",
         "blogTitle": "Pourquoi SAP Signavio est essentiel pour une mise en œuvre réussie de S/4HANA",
         "strategicTitle": "Le rôle stratégique de SAP Signavio dans les transformations S/4HANA",
         "strategicDesc": "Migrer vers S/4HANA n’est pas simplement une mise à niveau technique. C’est une initiative à l’échelle de l’entreprise qui redéfinit les processus, la gouvernance et les modèles de performance. SAP Signavio fournit la visibilité de bout en bout, la modélisation et les capacités d’optimisation permettant aux entreprises de faire la transition en toute confiance.",
