@@ -1,4 +1,118 @@
 {
+    "filteredBlogs": {
+        "latestBlogsList": [
+            {
+                "id": 41,
+                "image": "/images/blog/connected-care-ecosystem-mobile.webp",
+                "category": "MediAIna",
+                "industry": "Generic",
+                "date": "Sep. 18, 2025",
+                "url": "insights/blogs/connected-care-ecosystem-pharma-medtech",
+                "title": "Why Connected Care Ecosystems Are the Next Big Bet for Pharma & MedTech",
+                "description": "The life sciences industry is at an inflection point. Pharma and MedTech organizations are no longer judged only by how well they innovate..."
+            },
+            {
+                "id": 40,
+                "image": "/images/blog/ai-agents-in-manufacturing-mobile.webp",
+                "category": "AI",
+                "industry": "Generic",
+                "date": "Sep. 17, 2025",
+                "url": "insights/blogs/implementing-ai-agents-in-manufacturing-operations",
+                "title": "5 Signs You’re Ready to Implement AI Agents in Your Manufacturing Operations",
+                "description": "Today, manufacturers are faced with a choice: continue adding incremental automation to existing systems or make a significant leap into AI-driven operations that are capable of learning, adapting, and taking action."
+            },
+            {
+                "id": 39,
+                "image": "/images/blog/sap-industry-mobile-banner.webp",
+                "category": "SAP",
+                "industry": "Generic",
+                "date": "Sep. 16, 2025",
+                "url": "insights/blogs/sap-build-for-manufacturing-4-0",
+                "title": "Accelerating Industry 4.0 with SAP Build: Low-Code Tools for Smarter Manufacturing",
+                "description": "Industry 4.0 has transformed factories into connected ecosystems where machines, people, and processes work in sync."
+            },
+            {
+                "id": 38,
+                "image": "/images/blog/agentforce-ai-erp-mobile.webp",
+                "category": "Agentforce",
+                "industry": "Generic",
+                "date": "Sep. 15, 2025",
+                "url": "insights/blogs/how-agentforce-ai-transforms-erp-systems",
+                "title": "How Agentforce AI Transforms ERP Systems: Automation, Predictive Insights, and Scalability",
+                "description": "Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations."
+            },
+            {
+                "id": 37,
+                "image": "/images/blog/data-cloud-ecom-mobile-banner.webp",
+                "category": "Artificial Intelligence",
+                "industry": "Generic",
+                "date": "Sep. 12, 2025",
+                "url": "insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty",
+                "title": "Predictive Ecommerce in Salesforce: How Data Cloud Shapes Smarter Customer Experiences",
+                "description": "Predictive analytics has always been crucial in helping businesses deliver personalized experiences.Salesforce Data Cloud empowers companies to leverage predictive analytics and data-driven insights to craft transformative e-commerce strategies."
+            },
+            {
+                "id": 36,
+                "image": "/images/blog/ai-that-listens-mob-banner.webp",
+                "category": "Artificial Intelligence",
+                "industry": "Generic",
+                "date": "Sep. 11, 2025",
+                "url": "insights/blogs/how-large-language-models-improve-customer-experience",
+                "title": "AI That Listens, Learns, and Delivers: How Large Language Models Are Transforming Customer Experience",
+                "description": "Great customer experience begins with great listening. But we are not just talking about hearing the words; it’s about understanding intent, emotion, context, and history."
+            },
+            {
+                "id": 35,
+                "image": "/images/blog/ai-in-patient-mobile-banner.webp",
+                "category": "Artificial Intelligence",
+                "industry": "Generic",
+                "date": "Sep. 09, 2025",
+                "url": "insights/blogs/ai-patient-engagement-medtech-remote-care",
+                "title": "AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring",
+                "description": "Early detection of health deterioration is vital for patients with chronic conditions or those recovering from surgery."
+            },
+            {
+                "id": 34,
+                "image": "/images/blog/industry4-mobile-banner.webp",
+                "category": "Agentforce",
+                "industry": "Generic",
+                "date": "Sep. 08, 2025",
+                "url": "insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing",
+                "title": "How Agentforce AI Predicts and Prevents Downtime in Industry 4.0 Manufacturing",
+                "description": "The promise of Industry 4.0 has been laid out: factories that can think, adapt, and optimize in real time."
+            },
+            {
+                "id": 33,
+                "image": "/images/blog/first-ai-agent-mob-banner.webp",
+                "category": "Artificial Intelligence",
+                "industry": "Generic",
+                "date": "Sep. 02, 2025",
+                "url": "insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce",
+                "title": "Build and Deploy Your First AI Agent Using Agentforce",
+                "description": "By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions. Despite ethical concerns, the value of training AI for growth is clear. Teaching AI to understand human language enhances its ability to respond and perform useful tasks."
+            },
+            {
+                "id": 32,
+                "image": "/images/blog/byond-robotics-mobile-banner.webp",
+                "category": "Artificial Intelligence",
+                "industry": "Generic",
+                "date": "Sep. 01, 2025",
+                "url": "insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing",
+                "title": "Beyond Automation: Why AI Agents Power Smart Manufacturing",
+                "description": "Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems."
+            },
+            {
+                "id": 30,
+                "image": "/images/blog/sap-cpi-feature-thumb.webp",
+                "category": "SAP",
+                "industry": "Generic",
+                "date": "Aug. 26, 2025",
+                "url": "insights/blogs/sap-pi-po-to-cpi-migration-complete-guide",
+                "title": "Migrating from SAP PI/PO to SAP BTP Integration Suite (CPI)",
+                "description": "Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation.For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes."
+            }
+        ]
+    },
     "agentforceForManufacturing": {
         "blogs": [
             {
@@ -4687,7 +4801,6 @@
     },
     "howAgentforce": {
         "agentforce": "Agentforce",
-        "date": "29 July 2025",
         "title": "How Agentforce 3.0 is Reshaping Automotive Manufacturing",
         "desc": "Salesforce has",
         "descLink": "launched",
@@ -4776,63 +4889,6 @@
             {
                 "title": "Cross-Team Transparency",
                 "desc": "View human and AI activity side-by-side, enabling coordinated efforts between maintenance teams and digital agents."
-            }
-        ],
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "How Salesforce Agentforce Actually Works",
-                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "28 Oct 2024",
-                "title": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "25 Nov 2024",
-                "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-                "description": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
-            },
-            {
-                "id": 5,
-                "image": "/images/blog/blog-5.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Human Resources",
-                "date": "24 Dec 2024",
-                "title": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-                "description": "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Cloud Green Technology",
-                "industry": "Agriculture",
-                "date": "17 Sept 2024",
-                "title": "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Human Resources",
-                "date": "29 Oct 2024",
-                "title": "SAP SuccessFactors Performance and Goal Management",
-                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
             }
         ],
         "faqs": [
