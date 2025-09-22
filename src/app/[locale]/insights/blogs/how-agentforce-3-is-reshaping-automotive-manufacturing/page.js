@@ -13,7 +13,8 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 import OrderedList from "@/app/[locale]/components/orderedList";
-
+import FilteredBlogCarouse from '@/app/[locale]/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/[locale]/components/useUrl";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -96,7 +97,6 @@ export default function Page() {
     fr: frContent,
   });
   const {
-    blogs,
     faqs,
     features,
     featuresData,
@@ -108,27 +108,23 @@ export default function Page() {
     useCaseList
   } = blogsContent.howAgentforce;
 
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
-
+  const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
+  const currUrl = useUrl()
   return (
     <div className="min-h-screen bg-white">
       <Seo
         title="Agentforce 3.0 for Automotive Manufacturing Success | Rialtes"
         description="Agentforce for Automotive is transforming vehicle production with AI-powered agents that enhance workflows, compliance, and agility on the factory floor."
-        canonical={
-          "  https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"
-        }
-      />
+        canonical={"https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"} />
 
       <Script
         id="schema-discover"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative  h-[350px] md:h-[400px]  4xl:h-[650px] 2xl:h-[500px]">
+      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[500px] overflow-hidden">
         {/* Desktop Image */}
-        <div className="hidden md:block">
+        <div className="hidden xl:block">
           <Image
             src="/images/blog/agentforce-3.0-desktop-banner.webp"
             alt="Discover AgentExchange"
@@ -138,7 +134,7 @@ export default function Page() {
         </div>
 
         {/* Mobile Image */}
-        <div className="block md:hidden">
+        <div className="block xl:hidden">
           <Image
             src="/images/blog/agentforce-3.0-mobile.webp"
             alt="Discover AgentExchange"
@@ -156,18 +152,14 @@ export default function Page() {
               <div className="sm:mb-0 mb-6">
                 <span className="text-[#0092E0]">{t("agentforce")}</span>
                 <span className="text-[#ACACAC]"> | </span>
-                {t("date")}
+                29 July 2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
                     <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                        fullUrl
-                      )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                      target="_blank" rel="noopener noreferrer">
                       <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
@@ -186,12 +178,8 @@ export default function Page() {
 
                   <div className="max-w-[40px]">
                     <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                        fullUrl
-                      )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                      target="_blank" rel="noopener noreferrer">
                       <Image
                         src="/images/case-studies/twitter.svg"
                         alt="Twitter"
@@ -218,7 +206,7 @@ export default function Page() {
             </h1>
           </div>
 
-          <div className=" mx-auto">
+          <div className="mx-auto">
             <div className="max-w-[1084px] 4xl:w-[1084px] 2xl:w-[950px] xl:w-[850px]">
               <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                 {t("desc")}{" "}
@@ -226,7 +214,7 @@ export default function Page() {
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
                   href="https://www.salesforce.com/in/news/press-releases/2025/06/23/agentforce-3-announcement/"
                 >
-                 {t("descLink")}
+                  {t("descLink")}
                 </Link>
                 {t("descLink2")}
               </p>
@@ -334,9 +322,8 @@ export default function Page() {
                 {agentforceContent.map((text, i) => (
                   <p
                     key={i}
-                    className={`${
-                      i === 0 ? "" : "mt-5"
-                    } 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]`}
+                    className={`${i === 0 ? "" : "mt-5"
+                      } 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]`}
                   >
                     {text}
                   </p>
@@ -354,20 +341,19 @@ export default function Page() {
               </p>
               <OrderedList
                 arrName={listItems}
-                olClassName="list-disc  marker:text-xl pl-4 mt-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3"
+                olClassName="list-disc marker:text-xl pl-4 mt-4 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3"
               />
 
               <h3 className="pb-4 font-bold text-[16px] 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] mt-10">
                 {t("useTitle")}
               </h3>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 mt-0 xl:mt-10 lg:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-black  border-black">
+              <div className="grid grid-cols-1 mt-0 xl:mt-10 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-black border-black">
                 {features.map((item, index) => (
                   <div
                     key={index}
-                    className={`py-6 xl:py-0 ${
-                      index === 0 ? "pr-6" : "xl:pl-6 xl:pr-5 md:pl-10"
-                    }`}
+                    className={`py-6 xl:py-0 ${index === 0 ? "pr-6" : "xl:pl-6 xl:pr-5 lg:px-10 md:px-5"
+                      }`}
                   >
                     <h4 className="text-[#0067B9] font-semibold 4xl:text-[20px] xl:text-[17px] 2xl:text-[18px] text-[16px] leading-tight pl-2">
                       {item.title}
@@ -439,21 +425,23 @@ export default function Page() {
                 </Link>
                 {t("link4")}
               </p>
-
-              <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">
-                {t("faq")}
-              </h2>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="custom-container max-md:px-0">
-        <FAQAccordion faqData={faqs} />
+      {/* faq section */}
+      <section className="custom-container xl:mt-[80px] mt-[40px]">
+        <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{t("faq")}</h2>
+        <div className="mt-[29px] xl:mt-[30px]">
+          <FAQAccordion faqData={faqs} />
+        </div>
       </section>
-      <div className="custom-container xl:pr-0 mt-10">
-        <BlogsCarousel slides={blogs} />
-      </div>
+
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
+        <FilteredBlogCarouse url={currUrl} />
+      </section>
     </div>
   );
 }
