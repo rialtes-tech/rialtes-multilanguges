@@ -1,4 +1,118 @@
 {
+    "filteredBlogs": {
+        "latestBlogsList": [
+            {
+                "id": 41,
+                "image": "/images/blog/connected-care-ecosystem-mobile.webp",
+                "category": "MediAIna",
+                "industry": "Genérico",
+                "date": "18 de septiembre de 2025",
+                "url": "insights/blogs/connected-care-ecosystem-pharma-medtech",
+                "title": "Por qué los ecosistemas de atención conectada son la próxima gran apuesta para Pharma y MedTech",
+                "description": "La industria de las ciencias de la vida está en un punto de inflexión. Las organizaciones farmacéuticas y de tecnología médica ya no son evaluadas solo por lo bien que innovan..."
+            },
+            {
+                "id": 40,
+                "image": "/images/blog/ai-agents-in-manufacturing-mobile.webp",
+                "category": "IA",
+                "industry": "Genérico",
+                "date": "17 de septiembre de 2025",
+                "url": "insights/blogs/implementing-ai-agents-in-manufacturing-operations",
+                "title": "5 señales de que estás listo para implementar agentes de IA en tus operaciones de manufactura",
+                "description": "Hoy, los fabricantes enfrentan una elección: seguir agregando automatización incremental a los sistemas existentes o dar un salto significativo hacia operaciones impulsadas por IA, capaces de aprender, adaptarse y actuar."
+            },
+            {
+                "id": 39,
+                "image": "/images/blog/sap-industry-mobile-banner.webp",
+                "category": "SAP",
+                "industry": "Genérico",
+                "date": "16 de septiembre de 2025",
+                "url": "insights/blogs/sap-build-for-manufacturing-4-0",
+                "title": "Acelerando la Industria 4.0 con SAP Build: herramientas de bajo código para una manufactura más inteligente",
+                "description": "La Industria 4.0 ha transformado las fábricas en ecosistemas conectados donde máquinas, personas y procesos trabajan en sincronía."
+            },
+            {
+                "id": 38,
+                "image": "/images/blog/agentforce-ai-erp-mobile.webp",
+                "category": "Agentforce",
+                "industry": "Genérico",
+                "date": "15 de septiembre de 2025",
+                "url": "insights/blogs/how-agentforce-ai-transforms-erp-systems",
+                "title": "Cómo Agentforce AI transforma los sistemas ERP: automatización, conocimientos predictivos y escalabilidad",
+                "description": "Los sistemas de planificación de recursos empresariales (ERP) son la columna vertebral de muchas organizaciones, ya que gestionan funciones críticas como finanzas, adquisiciones, manufactura y operaciones de la cadena de suministro."
+            },
+            {
+                "id": 37,
+                "image": "/images/blog/data-cloud-ecom-mobile-banner.webp",
+                "category": "Inteligencia Artificial",
+                "industry": "Genérico",
+                "date": "12 de septiembre de 2025",
+                "url": "insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty",
+                "title": "Ecommerce predictivo en Salesforce: cómo Data Cloud impulsa experiencias de cliente más inteligentes",
+                "description": "La analítica predictiva siempre ha sido crucial para ayudar a las empresas a ofrecer experiencias personalizadas. Salesforce Data Cloud permite a las compañías aprovechar la analítica predictiva y las ideas basadas en datos para diseñar estrategias de comercio electrónico transformadoras."
+            },
+            {
+                "id": 36,
+                "image": "/images/blog/ai-that-listens-mob-banner.webp",
+                "category": "Inteligencia Artificial",
+                "industry": "Genérico",
+                "date": "11 de septiembre de 2025",
+                "url": "insights/blogs/how-large-language-models-improve-customer-experience",
+                "title": "IA que escucha, aprende y entrega: cómo los modelos de lenguaje grandes están transformando la experiencia del cliente",
+                "description": "Una gran experiencia de cliente comienza con una gran escucha. Pero no solo hablamos de oír las palabras; se trata de comprender la intención, la emoción, el contexto y la historia."
+            },
+            {
+                "id": 35,
+                "image": "/images/blog/ai-in-patient-mobile-banner.webp",
+                "category": "Inteligencia Artificial",
+                "industry": "Genérico",
+                "date": "09 de septiembre de 2025",
+                "url": "insights/blogs/ai-patient-engagement-medtech-remote-care",
+                "title": "IA en la participación del paciente: cómo los agentes de IA apoyan a MedTech en el monitoreo remoto",
+                "description": "La detección temprana del deterioro de la salud es vital para pacientes con enfermedades crónicas o aquellos que se recuperan de una cirugía."
+            },
+            {
+                "id": 34,
+                "image": "/images/blog/industry4-mobile-banner.webp",
+                "category": "Agentforce",
+                "industry": "Genérico",
+                "date": "08 de septiembre de 2025",
+                "url": "insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing",
+                "title": "Cómo Agentforce AI predice y previene el tiempo de inactividad en la manufactura de la Industria 4.0",
+                "description": "La promesa de la Industria 4.0 ya está sobre la mesa: fábricas que pueden pensar, adaptarse y optimizarse en tiempo real."
+            },
+            {
+                "id": 33,
+                "image": "/images/blog/first-ai-agent-mob-banner.webp",
+                "category": "Inteligencia Artificial",
+                "industry": "Genérico",
+                "date": "02 de septiembre de 2025",
+                "url": "insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce",
+                "title": "Crea e implementa tu primer agente de IA con Agentforce",
+                "description": "Para 2028, el 33% de las aplicaciones de software empresarial utilizarán IA agentica. La transición de la IA predictiva a la generativa se ha acelerado, permitiendo a las empresas ir más allá de la simple previsión hacia la definición de acciones óptimas. A pesar de las preocupaciones éticas, el valor de entrenar a la IA para el crecimiento es claro. Enseñar a la IA a comprender el lenguaje humano mejora su capacidad de respuesta y ejecución de tareas útiles."
+            },
+            {
+                "id": 32,
+                "image": "/images/blog/byond-robotics-mobile-banner.webp",
+                "category": "Inteligencia Artificial",
+                "industry": "Genérico",
+                "date": "01 de septiembre de 2025",
+                "url": "insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing",
+                "title": "Más allá de la automatización: por qué los agentes de IA impulsan la manufactura inteligente",
+                "description": "Agentforce incorpora agentes autónomos que cierran la brecha entre la producción y la experiencia. Eso significa menos silos, decisiones más rápidas y sistemas más inteligentes."
+            },
+            {
+                "id": 30,
+                "image": "/images/blog/sap-cpi-feature-thumb.webp",
+                "category": "SAP",
+                "industry": "Genérico",
+                "date": "26 de agosto de 2025",
+                "url": "insights/blogs/sap-pi-po-to-cpi-migration-complete-guide",
+                "title": "Migración de SAP PI/PO a SAP BTP Integration Suite (CPI)",
+                "description": "Las empresas ya no pueden permitirse sistemas desconectados; la integración es la columna vertebral de la verdadera transformación digital. Durante años, SAP Process Integration (PI) y Process Orchestration (PO) desempeñaron este papel, conectando entornos SAP y no SAP."
+            }
+        ]
+    },
     "agentforceForManufacturing": {
         "blogs": [
             {
@@ -4073,7 +4187,6 @@
     },
     "howAgentforce": {
         "agentforce": "Agentforce",
-        "date": "29 de julio de 2025",
         "title": "Cómo Agentforce 3.0 Está Transformando la Fabricación Automotriz",
         "desc": "Salesforce ha",
         "descLink": "lanzado",
@@ -4162,63 +4275,6 @@
             {
                 "title": "Transparencia entre Equipos",
                 "desc": "Visualiza la actividad humana y de IA lado a lado, permitiendo esfuerzos coordinados entre equipos de mantenimiento y agentes digitales."
-            }
-        ],
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Genérico",
-                "date": "30 Sept 2024",
-                "url": "como-funciona-realmente-salesforce-agentforce",
-                "title": "Cómo Funciona Realmente Salesforce Agentforce",
-                "description": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando terreno, especialmente en organizaciones que trabajan con grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de campo."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Genérico",
-                "date": "28 Oct 2024",
-                "title": "Agentes vs. Copilotos vs. Bots: ¿Cuál es la Diferencia y Por Qué Importa?",
-                "description": "Herramientas como Agentforce están redefiniendo cómo vemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Los términos se usan con frecuencia en la automatización impulsada por inteligencia artificial y las interfaces conversacionales, cada uno con un propósito distinto."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Genérico",
-                "date": "25 Nov 2024",
-                "title": "Centro de Pruebas de Agentforce: Redefiniendo las Pruebas de IA con Datos Sintéticos",
-                "description": "Salesforce ha introducido una nueva función llamada Centro de Pruebas dentro de su plataforma de IA agéntica, Agentforce. Esta incorporación permite a los usuarios empresariales probar y monitorear agentes de IA antes de implementarlos en producción."
-            },
-            {
-                "id": 5,
-                "image": "/images/blog/blog-5.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Recursos Humanos",
-                "date": "24 Dic 2024",
-                "title": "Cómo Integrar SAP SuccessFactors con Microsoft Office 365 para una Colaboración Mejorada",
-                "description": "La integración fluida entre aplicaciones empresariales ofrece una mejor colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder en gestión de la experiencia humana (HXM) y un sólido conjunto de herramientas de productividad."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Tecnología Verde en la Nube",
-                "industry": "Agricultura",
-                "date": "17 Sept 2024",
-                "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Mañana?",
-                "description": "La agricultura desempeña un papel significativo en la creciente economía de India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Recursos Humanos",
-                "date": "29 Oct 2024",
-                "title": "SAP SuccessFactors: Gestión del Rendimiento y de Objetivos",
-                "description": "Lograr los objetivos de tu organización es una responsabilidad clave que comparte todo tu equipo. Cuando la estrategia del equipo se alinea con sus metas y los objetivos organizacionales más amplios, hacer lo correcto se vuelve instintivo."
             }
         ],
         "faqs": [
@@ -5585,7 +5641,6 @@
         "faqTitle": "Preguntas Frecuentes: SAP Signavio + SAP Cloud ALM en Transformaciones S/4HANA"
     },
     "aiPatient": {
-
         "rolesData": [
             {
                 "title": "Monitoreo continuo con contexto",
@@ -5724,7 +5779,6 @@
         "faqTitle": "Preguntas y respuestas: Compromiso del paciente con IA en la monitorización remota con agentes de IA"
     },
     "agentforceIndustry4": {
-
         "reactiveData": [
             {
                 "image": "/images/blog/industr4Svg (1).svg",
