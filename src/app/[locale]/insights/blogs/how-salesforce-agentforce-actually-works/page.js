@@ -9,6 +9,8 @@ import enContent from "../../../../../../messages/en/blogs.json";
 import esContent from "../../../../../../messages/es/blogs.json";
 import frContent from "../../../../../../messages/fr/blogs.json";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
+import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
+import useUrl from "@/app/[locale]/components/useUrl";
 
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
@@ -50,10 +52,11 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { blogs, salesforceData, useCasesData } =
+  const {salesforceData, useCasesData } =
     blogsContent.howSalesforceAgentforceWorks;
   const fullUrl =
     "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works";
+  const currUrl = useUrl();
 
   return (
     <div className="min-h-screen bg-white">
@@ -101,19 +104,19 @@ export default function Page() {
               </div>
             </div>
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]">
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
                 {t("blogTitle")}
               </h1>
             </div>
             <div className="xl:mt-[38px] mt-[33px]">
               <div className="">
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                   {t("blogMainData")}
                 </p>
 
                 <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
                   {/* quick section */}
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
+                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                     {t("quickTitle")}
                   </h2>
                   <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
@@ -125,20 +128,20 @@ export default function Page() {
                 </div>
                 {/* how does ai agent section */}
                 <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
+                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                     {t("howTitle")}
                   </h2>
-                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                     {t("howDesc")}
                   </p>
                 </div>
                 <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
                   {/* salesforce agentforce section */}
-                  <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">
+                  <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2 leading-tight">
                     {t("salesforceTitle")}
                   </h2>
 
-                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                     {t("salesforceDesc")}{" "}
                     <Link href="mailto:sales@rialtes.com" className="underline">
                       {" "}
@@ -147,7 +150,7 @@ export default function Page() {
                     ”
                   </p>
 
-                  <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                     {t("salesforceDesc2")}
                   </p>
                   {salesforceData.map((data, ind) => {
@@ -159,7 +162,7 @@ export default function Page() {
                         {data.desc.map((elem, id) => {
                           return (
                             <p
-                              className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                              className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] "
                               key={id}
                             >
                               {elem}
@@ -170,40 +173,40 @@ export default function Page() {
                     );
                   })}
                 </div>
-  <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
-                  {t("useCasesTitle")}
-                </h2>
+                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                    {t("useCasesTitle")}
+                  </h2>
 
-                <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("useCasesDesc")}
-                </p>
+                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
+                    {t("useCasesDesc")}
+                  </p>
 
-                <ul className="pl-[36px] lg:pl-[56px] space-y-4 mt-5  marker:text-[#0092E0]">
-                  {useCasesData.map((data, ind) => {
-                    return (
-                      <li
-                        className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium"
-                        key={ind}
-                      >
-                        <h3
-                          className="font-bold inline  4xl:text-[22px] text-[18px] leading-tight
-"
+                  <ul className="pl-[36px] lg:pl-[56px] space-y-4 mt-5  marker:text-[#0092E0]">
+                    {useCasesData.map((data, ind) => {
+                      return (
+                        <li
+                          className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium "
+                          key={ind}
                         >
-                          {data.title}
-                        </h3>
-                        {data.desc}
-                      </li>
-                    );
-                  })}
-                </ul>
+                          <h3
+                            className="font-bold inline  4xl:text-[22px] text-[18px] leading-tight
+"
+                          >
+                            {data.title}
+                          </h3>
+                          {data.desc}
+                        </li>
+                      );
+                    })}
+                  </ul>
                 </div>
                 <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
                   {" "}
-                  <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2">
+                  <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2 leading-tight">
                     {t("gettingTitle")}
                   </h2>
-                  <p>
+                  <p className=" mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium ">
                     {t("gettingDesc")}{" "}
                     <Link
                       className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
@@ -228,9 +231,9 @@ export default function Page() {
       </section>
 
       {/* Latest Blogs */}
-      <div className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
-        <BlogsCarousel slides={blogs} />
-      </div>
+      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
     </div>
   );
 }
