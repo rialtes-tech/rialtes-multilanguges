@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
@@ -11,9 +10,7 @@ import frContent from "../../../../../../messages/fr/blogs.json";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
-
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
