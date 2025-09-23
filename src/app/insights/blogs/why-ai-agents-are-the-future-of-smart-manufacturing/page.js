@@ -8,7 +8,7 @@ import FAQAccordion from "@/app/components/faqAccordion";
 import Link from "next/link";
 import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
 import useUrl from "@/app/components/useUrl";
-
+import BlogSocialIcons from '@/app/components/blogSocialIcons'
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -213,12 +213,12 @@ const faqData = [
     }
 ]
 
-export default function Page() {
-    const currUrl = useUrl
-    const fullUrl = "https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/";
+export default function page() {
+    const fullUrl = "https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech";
+    const currUrl = useUrl()
 
     return (
-        <div className="min-h-screen">
+        <section className="min-h-screen">
             <Seo
                 title="Beyond Automation: Why AI Agents Power Smart Manufacturing"
                 description="Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems."
@@ -235,11 +235,12 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
 
-            <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] overflow-hidden">
+
+            <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] lg:h-[800px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/byond-robotics-desktop-baner.webp"
-                        alt="ai that listens"
+                        alt="banner image"
                         fill
                         priority
                     />
@@ -247,7 +248,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/byond-robotics-mobile-banner.webp"
-                        alt="ai that listens"
+                        alt="banner image"
                         priority
                         height={0}
                         width={0}
@@ -256,179 +257,156 @@ export default function Page() {
                 </div>
             </section>
 
-            <section className="custom-container">
-                <div className="py-10 bg-white">
-                    <div>
-                        <div className="flex flex-col md:flex-row justify-between text-black items-center  xl:max-w-[1084px] xl:w-[1084px]">
-                            <div className="sm:mb-0 mb-6">
-                                <span className="text-[#0092E0]">Artificial Intelligence</span>{" "}
-                                <span className="text-[#ACACAC]"> | </span>01 September 2025
+
+            <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+                <div className="grid lg:grid-cols-12">
+                    <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
+
+                        {/* date and icons */}
+                        <div className="sm:flex justify-between">
+                            <div>
+                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Artificial Intelligence</span>{" "}
+                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>01 September 2025
                             </div>
-                            <div className="flex flex-col">
-                                <div className="flex flex-row gap-6">
-                                    <div className="max-w-[40px]">
-                                        <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                                            fullUrl
-                                        )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                                            target="_blank"
-                                            rel="noopener noreferrer">
-                                            {" "}
-                                            <Image
-                                                src="/images/case-studies/linkedin.svg"
-                                                alt="LinkedIn"
-                                                width={0}
-                                                height={0}
-                                                sizes="100vw"
-                                                style={{
-                                                    width: "100%",
-                                                    height: "100%",
-                                                    objectFit: "cover",
-                                                }}
-                                                priority
-                                            />
-                                        </a>
-                                    </div>
-                                    <div className="max-w-[40px]">
-                                        <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                                            target="_blank"
-                                            rel="noopener noreferrer">
-                                            {" "}
-                                            <Image
-                                                src="/images/case-studies/twitter.svg"
-                                                alt="Twitter"
-                                                width={0}
-                                                height={0}
-                                                sizes="100vw"
-                                                style={{
-                                                    width: "100%",
-                                                    height: "100%",
-                                                    objectFit: "cover",
-                                                }}
-                                                priority
-                                            />
-                                        </a>
-                                    </div>
+
+                            <div>
+                                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
+                                    <BlogSocialIcons fullUrl={fullUrl} />
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="py-6"></div>
-                    <div className="grid xl:grid-cols-12">
-                        <div className="xl:col-span-10 col-span-12">
-                            <h1 className="text-[#000000]  pb-6 leading-tight text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px] md:text-[28px]">
-                                Beyond Robotic Automation: Why Agents Are the Future of Smart Manufacturing
-                            </h1>
-                        </div>
-                    </div>
-                    <div className="grid xl:grid-cols-12">
-                        <div className="col-span-9">
-                            <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-2 font-bold">Robotic Automation Solves Tasks. AI Agents Solve Problems.</h3>
+
+                        {/* main blog */}
+                        <div className="xl:mt-[60px] mt-[42px]">
+                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]">Beyond Robotic Automation: Why Agents Are the Future of Smart Manufacturing</h1>
+
+                            <h3 className="text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight xl:mt-[38px] mt-[33px]">Robotic Automation Solves Tasks. AI Agents Solve Problems.</h3>
                             {
                                 blogMainData.map((data, ind) => {
                                     return (
-                                        <p key={ind} className="mt-3 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data}</p>
+                                        <p key={ind} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-4">{data}</p>
                                     )
                                 })
                             }
-                            <p className="mt-3 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">That's where AI agents can help you incorporate intelligence that can adapt, reason, and act across the value chain. The next generation of  <Link href={"https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">smart manufacturing </span></Link> transcends automation and becomes agentic."</p>
+                            <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-4">That's where AI agents can help you incorporate intelligence that can adapt, reason, and act across the value chain. The next generation of  <Link href={"https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">smart manufacturing </span></Link> transcends automation and becomes agentic."</p>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">Why You Need to Shift from Static Automation to Agentic Intelligence?</h2>
-                            <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Most robotic systems excel at handling repetitive tasks, such as welding or packing. But ask them to respond to a late shipment, coordinate across departments, or update a customer about a delay? They freeze.</p>
-                            <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Now compare that with AI agents, like those built into Agentforce:</p>
-                            <UnorderedList arrName={whyNeedShiftData} ulClassName="mt-3 pl-[42px] list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">So, while a bot assembles parts, an agent detects a shortage, reroutes a delivery, updates the customer, and alerts procurement before the line stops. That’s intelligent orchestration.</p>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">Agentforce: The Intelligent Layer Over Your Factory</h2>
-                            <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Agentforce isn’t just AI layered onto your tech stack. It’s a network of autonomous, outcome-driven agents designed for real-world manufacturing complexity. These agents are embedded into Salesforce's Manufacturing Cloud, CPQ, Service, and Field Service systems and extended to your MES, IoT platforms, and legacy apps.</p>
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]"><strong>Agentforce, </strong>for example, lets manufacturers deploy AI agents that can:</p>
-                            <UnorderedList arrName={agentforceData} ulClassName="mt-3 pl-[42px] list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
-                            <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Let’s look at how they work across core manufacturing areas:</p>
-                            {
-                                manufacturingAreasData.map((data, ind) => {
-                                    return (
-                                        <div key={ind}>
-                                            <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-8 font-bold">{ind + 1}. {data.title}</h3>
-                                            <p className="mt-3 pl-[26px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
-                                            {data.desc3 && <p className="mt-1 pl-[26px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc3}</p>}
-                                            {
-                                                data.list && <UnorderedList arrName={data.list} ulClassName="mt-3 pl-[48px] list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
-                                            }
-                                            {data.desc2 && <p className="mt-3 pl-[26px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]" dangerouslySetInnerHTML={{ __html: data.desc2 }} />}
-                                        </div>
-                                    )
-                                })
-                            }
-
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">What Agentforce Unlocks That Bots Never Could</h2>
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Let’s recap how agentic AI goes further than robotic automation:</p>
-                            <div className="w-full max-w-3xl mx-auto py-10">
-                                <div className="overflow-x-auto">
-                                    <table className="w-full border border-gray-300 text-left text-sm md:text-base">
-                                        <thead className="bg-gray-100">
-                                            <tr>
-                                                <th className="border border-gray-300 p-3 font-semibold">
-                                                    Robotic Automation
-                                                </th>
-                                                <th className="border border-gray-300 p-3 font-semibold">
-                                                    AI Agents (Agentforce)
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {agentforceTable.map((row, idx) => (
-                                                <tr key={idx}>
-                                                    <td className="border border-gray-300 p-3">{row.robotic}</td>
-                                                    <td className="border border-gray-300 p-3">{row.agents}</td>
-                                                </tr>
-                                            ))}
-                                        </tbody>
-                                    </table>
-                                </div>
+                            {/* why you need section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Why You Need to Shift from Static Automation to Agentic Intelligence?</h2>
+                                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Most robotic systems excel at handling repetitive tasks, such as welding or packing. But ask them to respond to a late shipment, coordinate across departments, or update a customer about a delay? They freeze.</p>
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">Now compare that with AI agents, like those built into Agentforce:</p>
+                                <UnorderedList arrName={whyNeedShiftData} ulClassName="mt-3 pl-[34px] font-medium list-disc 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] space-y-2" liClassName="" />
+                                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">So, while a bot assembles parts, an agent detects a shortage, reroutes a delivery, updates the customer, and alerts procurement before the line stops. That’s intelligent orchestration.</p>
                             </div>
 
-                            <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">The true power of agents is that they improve over time. Every interaction, be it a field fix, a ticket resolution, or a customer response, feeds into the model. Agents get smarter. Recommendations get sharper. Efficiency compounds.</p>
-                            <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">McKinsey found that AI-driven companies in manufacturing see a 15–20% improvement in throughput and up to 50% reductions in unplanned downtime. Those are numbers robotic automation alone can’t touch.</p>
+                            {/* agentforce the int section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Agentforce: The Intelligent Layer Over Your Factory</h2>
+                                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Agentforce isn’t just AI layered onto your tech stack. It’s a network of autonomous, outcome-driven agents designed for real-world manufacturing complexity. These agents are embedded into Salesforce's Manufacturing Cloud, CPQ, Service, and Field Service systems and extended to your MES, IoT platforms, and legacy apps.</p>
+                                <p className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Agentforce,for example, lets manufacturers deploy AI agents that can:</p>
+                                <UnorderedList arrName={agentforceData} ulClassName="mt-4 pl-[42px] list-disc 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] space-y-2" liClassName="" />
+                                <p className="mt-8 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Let’s look at how they work across core manufacturing areas:</p>
+                                {
+                                    manufacturingAreasData.map((data, ind) => {
+                                        return (
+                                            <div key={ind} className="mt-[29px] xl:mt-[30px]">
+                                                <h3 className="text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight">{ind + 1}. {data.title}</h3>
+                                                <p className="mt-5 pl-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
+                                                {data.desc3 && <p className="mt-1 pl-5  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc3}</p>}
+                                                {
+                                                    data.list && <UnorderedList arrName={data.list} ulClassName="mt-5 pl-[48px] list-disc 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-2" liClassName="" />
+                                                }
+                                                {data.desc2 && <p className="mt-5 pl-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" dangerouslySetInnerHTML={{ __html: data.desc2 }} />}
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">How to Get Started with Agentic AI in Manufacturing</h2>
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">You don’t need to overhaul everything on Day 1. Start where it matters:</p>
-                            <ul className="mt-4 pl-[36px] list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] space-y-2">
-                                {agenticData.map((item, idx) => {
-                                    const [before, ...afterParts] = item.desc.split(item.highlight);
-                                    const after = afterParts.join(item.highlight);
+                            {/* what agentforce section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">What Agentforce Unlocks That Bots Never Could</h2>
+                                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Let’s recap how agentic AI goes further than robotic automation:</p>
 
-                                    return (
-                                        <li key={idx}>
-                                            {before}
-                                            <strong>{item.highlight}</strong>
-                                            {after}
-                                        </li>
-                                    );
-                                })}
-                            </ul>
-                            <p className="mt-4 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">These agents plug directly into your Salesforce stack—CPQ, Service Cloud, Manufacturing Cloud, and scale as you grow.</p>
-
-                            <h2 className="pb-3 font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">Ready to Upgrade from Automation to Intelligence?</h2>
-                            {
-                                readyToUpgradeData.map((data, ind) => {
-                                    return (
-                                        <p className="mt-2 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]" key={ind}>{data}</p>
-                                    )
-                                })
-                            }
-                            <p className="mt-2 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
-                                "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a  <Link href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">Salesforce Crest Partner</span></Link>, we bring the strategy, systems, and support to make AI agents real and fast.",
-                            </p>
-                            <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">Let’s build  <Link href={'https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/'} className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smarter factories with thinking agents</Link>.</p>
-
-                            {/* faq section */}
-                            <div className="xl:mt-[80px] mt-[40px]">
-                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Smart Manufacturing with AI Agents</h2>
-                                <div className="mt-[29px] xl:mt-[34px]">
-                                    <FAQAccordion faqData={faqData} />
+                                <div className="w-full max-w-3xl mx-auto py-10">
+                                    <div className="overflow-x-auto">
+                                        <table className="w-full border border-gray-300 text-left text-sm md:text-base">
+                                            <thead className="bg-gray-100">
+                                                <tr>
+                                                    <th className="border border-gray-300 p-3 font-semibold">
+                                                        Robotic Automation
+                                                    </th>
+                                                    <th className="border border-gray-300 p-3 font-semibold">
+                                                        AI Agents (Agentforce)
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {agentforceTable.map((row, idx) => (
+                                                    <tr key={idx}>
+                                                        <td className="border border-gray-300 p-3">{row.robotic}</td>
+                                                        <td className="border border-gray-300 p-3">{row.agents}</td>
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
+
+                                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">The true power of agents is that they improve over time. Every interaction, be it a field fix, a ticket resolution, or a customer response, feeds into the model. Agents get smarter. Recommendations get sharper. Efficiency compounds.</p>
+                                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">McKinsey found that AI-driven companies in manufacturing see a 15–20% improvement in throughput and up to 50% reductions in unplanned downtime. Those are numbers robotic automation alone can’t touch.</p>
+
+                            </div>
+
+                            {/* how to get section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">How to Get Started with Agentic AI in Manufacturing</h2>
+                                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">You don’t need to overhaul everything on Day 1. Start where it matters:</p>
+                                <ul className="mt-4 pl-[36px] list-disc 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] space-y-2">
+                                    {agenticData.map((item, idx) => {
+                                        const [before, ...afterParts] = item.desc.split(item.highlight);
+                                        const after = afterParts.join(item.highlight);
+
+                                        return (
+                                            <li key={idx}>
+                                                {before}
+                                                <strong>{item.highlight}</strong>
+                                                {after}
+                                            </li>
+                                        );
+                                    })}
+                                </ul>
+                                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">These agents plug directly into your Salesforce stack—CPQ, Service Cloud, Manufacturing Cloud, and scale as you grow.</p>
+
+                            </div>
+
+                            {/* ready section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Ready to Upgrade from Automation to Intelligence?</h2>
+                                {
+                                    readyToUpgradeData.map((data, ind) => {
+                                        return (
+                                            <p className="mt-1 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" key={ind}>{data}</p>
+                                        )
+                                    })
+                                }
+                                <p className="mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                    "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a  <Link href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"}><span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">Salesforce Crest Partner</span></Link>, we bring the strategy, systems, and support to make AI agents real and fast.",
+                                </p>
+                                <p className="mt-1 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-bold">Let’s build  <Link href={'https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/'} className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smarter factories with thinking agents</Link>.</p>
+
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            {/* faq section */}
+            <section className="xl:mt-[80px] mt-[40px] custom-container">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Building and Deploying AI Agents with Agentforce</h2>
+                <div className="mt-[29px] xl:mt-[34px]">
+                    <FAQAccordion faqData={faqData} />
                 </div>
             </section>
 
@@ -436,6 +414,6 @@ export default function Page() {
             <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
                 <FilteredBlogCarousel url={currUrl} />
             </section>
-        </div>
+        </section>
     )
 }

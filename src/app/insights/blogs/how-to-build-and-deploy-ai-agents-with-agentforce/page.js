@@ -6,6 +6,7 @@ import UnorderedList from "@/app/components/unorderedList";
 import useUrl from "@/app/components/useUrl";
 import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
 import FAQAccordion from "@/app/components/faqAccordion";
+import BlogSocialIcons from '@/app/components/blogSocialIcons'
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -305,7 +306,6 @@ const typesOfAgents = [
         "desc": "Monitor policy adherence, detect anomalies, and flag risks."
     }
 ]
-
 const faqs = [
     {
         "question": "What is Agentforce, and how does it help build AI agents?",
@@ -338,7 +338,7 @@ export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce";
 
     return (
-        <div className="min-h-screen">
+        <section className="min-h-screen">
             <Seo
                 title="How to Deploy AI Agents in Salesforce Agentforce | Rialtes"
                 description="Ready to automate with AI? Use this step-by-step guide to build AI agents in Agentforce by Salesforce without coding or expensive systems."
@@ -355,180 +355,160 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
 
-            <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] overflow-hidden">
+            <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/first-ai-agent-desktop-banner.webp"
-                        alt="ai that listens"
+                        alt="banner image"
                         fill
                         priority
+                        className="object-cover"
                     />
                 </div>
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/first-ai-agent-mob-banner.webp"
-                        alt="ai that listens"
+                        alt="banner image"
                         priority
                         height={0}
                         width={0}
-                        className="w-full h-auto object-cover"
+                        className="w-full h-auto object-cover lg:object-[50%_30%]"
                     />
                 </div>
             </section>
 
-            <section className="custom-container">
-                <div className="py-10 bg-white">
-                    <div>
-                        <div className="flex flex-col md:flex-row justify-between text-black items-center  xl:max-w-[1084px] xl:w-[1084px]">
-                            <div className="sm:mb-0 mb-6">
-                                <span className="text-[#0092E0]">Artificial Intelligence</span>{" "}
-                                <span className="text-[#ACACAC]"> | </span>02 September 2025
+            <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+                <div className="grid lg:grid-cols-12">
+                    <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
+
+                        {/* date and icons */}
+                        <div className="sm:flex justify-between">
+                            <div>
+                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">MediAIna</span>{" "}
+                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>18 September 2025
                             </div>
-                            <div className="flex flex-col">
-                                <div className="flex flex-row gap-6">
-                                    <div className="max-w-[40px]">
-                                        <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                                            fullUrl
-                                        )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                                            target="_blank"
-                                            rel="noopener noreferrer">
-                                            {" "}
-                                            <Image
-                                                src="/images/case-studies/linkedin.svg"
-                                                alt="LinkedIn"
-                                                width={0}
-                                                height={0}
-                                                sizes="100vw"
-                                                style={{
-                                                    width: "100%",
-                                                    height: "100%",
-                                                    objectFit: "cover",
-                                                }}
-                                                priority
-                                            />
-                                        </a>
-                                    </div>
-                                    <div className="max-w-[40px]">
-                                        <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                                            target="_blank" rel="noopener noreferrer">
-                                            {" "}
-                                            <Image
-                                                src="/images/case-studies/twitter.svg"
-                                                alt="Twitter"
-                                                width={0}
-                                                height={0}
-                                                sizes="100vw"
-                                                style={{
-                                                    width: "100%",
-                                                    height: "100%",
-                                                    objectFit: "cover",
-                                                }}
-                                                priority
-                                            />
-                                        </a>
-                                    </div>
+
+                            <div>
+                                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
+                                    <BlogSocialIcons fullUrl={fullUrl} />
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="py-6"></div>
-                    <div className="grid xl:grid-cols-12">
-                        <div className="xl:col-span-10 col-span-12">
-                            <h1 className="text-[#000000]  pb-6 leading-tight text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px] md:text-[28px]">
-                                Build and Deploy Your First AI Agent Using Agentforce
-                            </h1>
+
+                        {/* main blog */}
+
+                        <div className="xl:mt-[60px] mt-[42px]">
+                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]">Build and Deploy Your First AI Agent Using Agentforce</h1>
+                            <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions. Despite ethical concerns, the value of training AI for growth is clear. Teaching AI to understand human language enhances its ability to respond and perform useful tasks. </p>
+                            <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">With Salesforce introducing AI Agents through Agentforce, a new revolution is underway. Agentforce AI Agents are both assistive and autonomous, equipped with well-processed knowledge and human-level expertise. These agents can recommend actions, reason effectively, and handle multiple queries without human intervention at every step. However, while they offer greater autonomy than other AI systems, building AI agents requires careful preparation and strategic planning.</p>
                         </div>
-                    </div>
-                    <div className="grid xl:grid-cols-12">
-                        <div className="col-span-9">
-                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions. Despite ethical concerns, the value of training AI for growth is clear. Teaching AI to understand human language enhances its ability to respond and perform useful tasks.</p>
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">With Salesforce introducing AI Agents through Agentforce, a new revolution is underway. Agentforce AI Agents are both assistive and autonomous, equipped with well-processed knowledge and human-level expertise. These agents can recommend actions, reason effectively, and handle multiple queries without human intervention at every step. However, while they offer greater autonomy than other AI systems, building AI agents requires careful preparation and strategic planning.</p>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">Agentforce Agent Builder</h2>
+                        {/* agentforce section */}
+                        <div className="md:mt-[50px] mt-[40px]">
+                            <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Agentforce Agent Builder</h2>
 
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Agent Builder is a low-code tool in Salesforce for customizing AI agents across various business functions. Users can create tasks for agents by defining topics with natural-language instructions and setting guardrails. It features testing options, seamless human handoff, and built-in templates for customer service, sales, or e-commerce. This allows businesses to easily automate processes and customize agents for any industry by using existing Salesforce tools like Flows, Apex, and APIs</p>
-                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Building AI agents involves multiple techniques, which can be broadly categorized into six key areas:</p>
-                            <ul className="list-disc marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[26px]">
+                            <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Agent Builder is a low-code tool in Salesforce for customizing AI agents across various business functions. Users can create tasks for agents by defining topics with natural-language instructions and setting guardrails. It features testing options, seamless human handoff, and built-in templates for customer service, sales, or e-commerce. This allows businesses to easily automate processes and customize agents for any industry by using existing Salesforce tools like Flows, Apex, and APIs</p>
+                            <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Building AI agents involves multiple techniques, which can be broadly categorized into six key areas:</p>
+                            <ul className="pl-[36px] lg:pl-[56px] space-y-4 mt-5">
                                 {
                                     agentBuilderData.map((data, ind) => {
                                         return (
-                                            <li key={ind}><h4 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{data.title}</h4>{data.desc}</li>
+                                            <li key={ind} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium">
+                                                <h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.title} </h4>{data.desc}
+                                            </li>
                                         )
                                     })
                                 }
                             </ul>
-                            <p className="mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Agent Builder streamlines the process, enabling business users to create AI agents without the need for extensive coding skills.</p>
+                            <p className="mt-8 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Agent Builder streamlines the process, enabling business users to create AI agents without the need for extensive coding skills. </p>
+                        </div>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">Step-by-Step Guide to Building an AI Agent with Agentforce</h2>
+                        {/* step by step section */}
+                        <div className="md:mt-[50px] mt-[40px]">
+                            <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Step-by-Step Guide to Building an AI Agent with Agentforce</h2>
                             {
                                 stepToGuideData.map((data, ind) => {
                                     return (
-                                        <div key={ind}>
-                                            <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-7 font-bold">{data.step}</h3>
-                                            {data.desc && <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>}
-                                            <UnorderedList arrName={data.list} ulClassName="list-disc marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-1 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[30px]" liClassName="" />
+                                        <div key={ind} className="mt-[29px] xl:mt-[30px]">
+                                            <h3 className="text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight">{data.step}</h3>
+                                            {data.desc && <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>}
+                                            <UnorderedList arrName={data.list} ulClassName="list-disc 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-[34px] mt-2" liClassName="" />
                                         </div>
                                     )
                                 })
                             }
+                        </div>
 
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">Components that Build and Customize AI Agents</h2>
+
+                        {/* components section */}
+                        <div className="md:mt-[50px] mt-[40px]">
+                            <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Components that Build and Customize AI Agents</h2>
                             {
                                 componentsData.map((data, ind) => {
                                     return (
-                                        <div key={ind}>
-                                            <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-7 font-bold">{data.title}</h3>
-                                            {data.desc && <p className="mt-2 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>}
-                                            <ul className="list-disc marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[30px]">
+                                        <div key={ind} className="mt-[29px] xl:mt-[30px]">
+                                            <h3 className="pt-3 text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] leading-tight font-bold">{data.title}</h3>
+                                            {data.desc && <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-3">{data.desc}</p>}
+                                            <ul className="list-disc font-medium pl-[34px] space-y-2 mt-3">
 
                                                 {
                                                     data.list.map((elem, id) => {
                                                         return (
-                                                            <li key={id}><h4 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{elem.title}: </h4>{elem.desc}</li>
+                                                            <li key={id} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium">
+                                                                <h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{elem.title}: </h4>{elem.desc}
+                                                            </li>
                                                         )
                                                     })
                                                 }
                                             </ul>
-                                            {data.desc2 && <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc2}</p>}
+                                            {data.desc2 && <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc2}</p>}
                                         </div>
                                     )
                                 })
                             }
+                            <h3 className="text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight mt-8">Actions</h3>
+                            <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-4">Actions empower AI agents to execute logic and integrate with external systems. Standard and custom actions can be created using:</p>
+                            <UnorderedList arrName={actionsData} ulClassName="mt-3 list-disc  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] space-y-2" liClassName="" />
+                        </div>
 
-                            <h3 className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] mt-7 font-bold">Actions</h3>
-                            <p className="mt-1 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Actions empower AI agents to execute logic and integrate with external systems. Standard and custom actions can be created using:</p>
-                            <UnorderedList arrName={actionsData} ulClassName="mt-3 list-disc 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2" liClassName="" />
-
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">Types of AI agents You can build using Agentforce</h2>
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Agentforce AI agents help scale the workforce across various industries. Their user-friendly, low-code customization allows business users to leverage multiagent systems effectively. Here are their main roles and functions in different sectors:</p>
-                            <ul className="list-decimal marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[26px]">
+                        {/* types of ai section */}
+                        <div className="md:mt-[50px] mt-[40px]">
+                            <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Types of AI agents You can build using Agentforce</h2>
+                            <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Agentforce AI agents help scale the workforce across various industries. Their user-friendly, low-code customization allows business users to leverage multiagent systems effectively. Here are their main roles and functions in different sectors:</p>
+                            <ul className="list-decimal pl-[34px] space-y-4 mt-5">
                                 {
                                     typesOfAgents.map((data, ind) => {
                                         return (
-                                            <li key={ind}><h4 className="inline text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{data.title}</h4>- {data.desc}</li>
+                                            <li key={ind} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium">
+                                                <h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.title}: </h4>{data.desc}
+                                            </li>
                                         )
                                     })
                                 }
                             </ul>
-                            <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[25px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">Future-Proof Your AI Agent to Revamp the Customer Experience </h2>
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">We saw that building an AI agent with Agentforce is a straightforward process that enables businesses to utilize AI-driven automation. With the Agentforce Agent Builder, any user can create agents using natural language queries. To ensure long-term success, continuously update your AI agent with new datasets for improved accuracy, enhanced integrations with emerging technologies, and regular audits to maintain compliance and security. However, successful deployment also requires an integrated technological infrastructure for agents to access up-to-date data and perform effectively.</p>
-                            <p className="mt-3 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">Rialtes helps businesses easily adopt AI agents using Agentforce. We provide customization and deployment to meet your needs, enhancing customer service and streamlining operations for a smooth transition into the AI-driven world.</p>
                         </div>
 
-                    </div>
-                </div>
-                {/* faq section */}
-                <div className="xl:mt-[80px] mt-[40px]">
-                    <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Building and Deploying AI Agents with Agentforce</h2>
-                    <div className="mt-[29px] xl:mt-[34px]">
-                        <FAQAccordion faqData={faqs} />
+                        {/* future proof section */}
+                        <div className="md:mt-[50px] mt-[40px]">
+                            <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Future-Proof Your AI Agent to Revamp the Customer Experience</h2>
+                            <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">We saw that building an AI agent with Agentforce is a straightforward process that enables businesses to utilize AI-driven automation. With the Agentforce Agent Builder, any user can create agents using natural language queries. To ensure long-term success, continuously update your AI agent with new datasets for improved accuracy, enhanced integrations with emerging technologies, and regular audits to maintain compliance and security. However, successful deployment also requires an integrated technological infrastructure for agents to access up-to-date data and perform effectively.</p>
+                            <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Rialtes helps businesses easily adopt AI agents using Agentforce. We provide customization and deployment to meet your needs, enhancing customer service and streamlining operations for a smooth transition into the AI-driven world.</p>
+                        </div>
                     </div>
                 </div>
             </section>
+            {/* faq section */}
+            <section className="xl:mt-[80px] mt-[40px] custom-container">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Building and Deploying AI Agents with Agentforce</h2>
+                <div className="mt-[29px] xl:mt-[34px]">
+                    <FAQAccordion faqData={faqs} />
+                </div>
+            </section>
+
             {/* blog carousel */}
             <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
                 <FilteredBlogCarousel url={currUrl} />
             </section>
-        </div>
+        </section>
     )
 }
