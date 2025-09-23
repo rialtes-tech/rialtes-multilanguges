@@ -128,7 +128,7 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div>
-            <h1 className="text-[#000000] font-semibold pb-6 w-full  4xl:w-[1084px] xl:w-[900px] leading-tight text-[26px] xl:text-[50px] 4xl:text-[60px]">
+            <h1 className="text-[#000000]  pb-6 w-full  4xl:w-[1084px] xl:w-[900px] leading-tight text-[26px] xl:text-[50px] 4xl:text-[60px]">
               {t('blogTitle')}</h1>
           </div>
 
@@ -158,11 +158,11 @@ export default function Page() {
 
               <p className="text-black pb-4">{t('mainActivityDesc')}</p>
 
-              <ul className="list-disc text-black pl-8 md:text-[20px] text-[16px]">
+              <ul className="list-disc text-black pl-8 md:text-[20px] text-[16px]  marker:text-[#0092E0]">
                 {
                   mainActivityData.map((data, ind) => {
                     return (
-                      <li className="pb-2" key={ind}>
+                      <li className="pb-2 font-medium" key={ind}>
                         <span className="font-bold">{data.title} </span>{ }
                         {data.desc}
                       </li>
@@ -178,7 +178,7 @@ export default function Page() {
               {
                 aribaOptimizesData.map((data, ind) => {
                   return (
-                    <div key={ind}>
+                    <div key={ind} className="xl:pl-10">
                       <h3 className="text-black pb-2 h3-bold">{ind + 1}. {data.title}  </h3>
                       <p className="text-black pb-4">{data.desc}</p>
                     </div>
