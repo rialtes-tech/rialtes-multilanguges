@@ -3236,62 +3236,6 @@
         "gameDesc2": "A medida que las empresas priorizan la satisfacción del cliente, herramientas como Atlas sin duda desempeñarán un papel fundamental en la configuración del futuro de la experiencia del cliente. Podemos esperar una mayor integración con otros productos de Salesforce, capacidades de IA más sofisticadas e incluso funciones de análisis predictivo más profundas en un futuro próximo. Rialtes te ayuda a desarrollar, personalizar y desplegar agentes de IA autónomos para tareas relacionadas con ventas, marketing, servicio y comercio electrónico con la plataforma Agentforce. Ponte en contacto con nuestros expertos."
     },
     "howSalesforceAgentforceWorks": {
-        "blogs": [
-            {
-                "id": 2,
-                "image": "/images/blog/blog-2.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Genérico",
-                "date": "21 Oct 2024",
-                "title": "El Cerebro Detrás de los Agentes: Revelando el Atlas Reasoning Engine en Agentforce",
-                "description": "A medida que las empresas crecen, la complejidad de gestionar las interacciones con los clientes se multiplica, lo que impulsa la necesidad de sistemas de soporte más inteligentes y eficientes. Salesforce Agentforce proporciona una sólida plataforma para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Genérico",
-                "date": "28 Oct 2024",
-                "title": "Agentes vs. Copilotos vs. Bots: ¿Cuál es la Diferencia y por Qué Importa?",
-                "description": "Herramientas como Agentforce están redefiniendo la forma en que vemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en la automatización impulsada por inteligencia artificial y en las interfaces conversacionales, y cada uno cumple una función distinta."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Genérico",
-                "date": "25 Nov 2024",
-                "title": "Centro de Pruebas de Agentforce: Redefiniendo las Pruebas de IA con Datos Sintéticos",
-                "description": "Salesforce ha introducido una nueva función llamada Centro de Pruebas dentro de su plataforma de IA agentica, Agentforce. Esta adición permite a los usuarios empresariales probar y supervisar agentes de IA antes de implementarlos en producción."
-            },
-            {
-                "id": 5,
-                "image": "/images/blog/blog-5.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Recursos Humanos",
-                "date": "24 Dec 2024",
-                "title": "Cómo Integrar SAP SuccessFactors con Microsoft Office 365 para una Colaboración Mejorada",
-                "description": "La integración fluida entre aplicaciones empresariales ofrece una mejor colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder en gestión de la experiencia humana (HXM) con un robusto conjunto de herramientas de productividad."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Tecnología Verde en la Nube",
-                "industry": "Agricultura",
-                "date": "17 Sept 2024",
-                "title": "Agricultura 4.0: ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mañana Mejor?",
-                "description": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Recursos Humanos",
-                "date": "29 Oct 2024",
-                "title": "SAP SuccessFactors: Gestión del Rendimiento y de Objetivos",
-                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que comparte todo tu equipo. Cuando la estrategia de tu equipo se alinea con sus metas y con los objetivos más amplios de la organización, hacer lo correcto se convierte en algo instintivo."
-            }
-        ],
         "blogTopic": "Salesforce Agentforce",
         "blogTitle": "Cómo Funciona Realmente Salesforce Agentforce",
         "blogMainData": "Salesforce Agentforce, aunque es una incorporación más reciente al ecosistema de Salesforce, está ganando popularidad, especialmente en organizaciones que gestionan grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio en campo. La plataforma utiliza IA para automatizar tareas y ayudar a las empresas a mejorar sus operaciones, la experiencia del cliente y la productividad. La plataforma Agentforce funciona integrando agentes de IA con el CRM de Salesforce y otras herramientas como Data Cloud para garantizar que los datos sean procesables.",
@@ -3352,63 +3296,7 @@
     },
     "agriculture": {
         "blogTopic": "Tecnología Verde",
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Genérico",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "Cómo Funciona Realmente Salesforce Agentforce",
-                "description": "Salesforce Agentforce, aunque es una adición más reciente al ecosistema de Salesforce, está ganando popularidad, particularmente en organizaciones que manejan grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio en campo."
-            },
-            {
-                "id": 2,
-                "image": "/images/blog/blog-2.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Genérico",
-                "date": "21 Oct 2024",
-                "title": "El Cerebro Detrás de los Agentes: Revelando el Atlas Reasoning Engine en Agentforce",
-                "description": "A medida que las empresas crecen, la complejidad de gestionar las interacciones con los clientes se multiplica, impulsando la necesidad de sistemas de soporte más inteligentes y optimizados. Salesforce Agentforce ofrece una sólida plataforma para la automatización del servicio al cliente, ahora mejorada con el innovador Atlas Reasoning Engine."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Genérico",
-                "date": "28 Oct 2024",
-                "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
-                "description": "Herramientas como Agentforce están redefiniendo cómo vemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan con frecuencia en la automatización impulsada por inteligencia artificial y en las interfaces conversacionales, cada uno con un propósito distinto."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Genérico",
-                "date": "25 Nov 2024",
-                "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
-                "description": "Salesforce ha introducido una nueva función llamada Testing Center dentro de su plataforma de IA agentic, Agentforce. Esta adición permite a los usuarios empresariales probar y monitorear agentes de IA antes de implementarlos en producción."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Tecnología Verde en la Nube",
-                "industry": "Agricultura",
-                "date": "17 Sept 2024",
-                "title": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
-                "description": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Recursos Humanos",
-                "date": "29 Oct 2024",
-                "title": "SAP SuccessFactors Gestión del Rendimiento y de Objetivos",
-                "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que todo tu equipo comparte. Cuando la estrategia de tu equipo se alinea con sus objetivos y con los objetivos organizacionales más amplios, hacer lo correcto se convierte en algo instintivo."
-            }
-        ],
+       
         "blogTitle": "Agricultura 4.0. ¿Cómo Transforman las Tecnologías Digitales la Agricultura para un Mejor Futuro?",
         "blogMainData": "La agricultura desempeña un papel importante en la creciente economía de la India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica. Con una creciente conciencia de los problemas medioambientales y la necesidad de gestionar mejor los recursos disponibles, las tecnologías agrícolas están ganando fuerza para mejorar la sostenibilidad y crear métodos de cultivo más efectivos. Aproximadamente el 54,6% de la fuerza laboral total está involucrada en actividades del sector agrícola y afines, y el sector representa el 17,8% del valor agregado bruto (VAB) del país.",
         "blogMainData2": "Aunque está creciendo rápidamente, la adopción de tecnologías agrícolas emergentes y SaaS para la agricultura de precisión todavía está en sus primeras etapas en la India. Un informe de EMR indica que el mercado agrícola indio alcanzará un valor de 580,82 mil millones de dólares para 2028.",
@@ -6040,34 +5928,34 @@
         ],
         "faqData": [
             {
-                "question": "¿Qué hace diferente a SAP Build de otras plataformas low-code para la manufactura?",
+                "question": "1. ¿Qué hace diferente a SAP Build de otras plataformas low-code para la manufactura?",
                 "answer": "SAP Build está integrado de forma nativa con SAP ERP, MES y Manufacturing Cloud. Esto significa que las aplicaciones, flujos de trabajo y paneles se conectan directamente con los datos centrales de manufactura sin personalización compleja. Otras plataformas suelen requerir middleware complejo o duplicar flujos de datos."
             },
             {
-                "question": "¿El personal no técnico en plantas de manufactura realmente puede usar SAP Build?",
+                "question": "2. ¿El personal no técnico en plantas de manufactura realmente puede usar SAP Build?",
                 "answer": "Sí. SAP Build está diseñado para “desarrolladores ciudadanos”. Con interfaces de arrastrar y soltar y plantillas preconstruidas, ingenieros de procesos, supervisores y gerentes pueden diseñar aplicaciones o flujos sin escribir código. TI sigue gobernando la plataforma, pero los usuarios de negocio impulsan la innovación en primera línea."
             },
             {
-                "question": "¿Cómo mejora SAP Build las operaciones en planta?",
+                "question": "3.¿Cómo mejora SAP Build las operaciones en planta?",
                 "answer": "Permite decisiones más rápidas y menos retrasos. Por ejemplo, las alertas IoT pueden activar solicitudes de mantenimiento automáticas, las fotos de defectos pueden enviarse al instante a los equipos de calidad y los operadores pueden acceder a SOP digitales a través de portales Work Zone. El resultado: menos cuellos de botella y una producción más resiliente."
             },
             {
-                "question": "¿Cómo apoya SAP Build los objetivos de sostenibilidad?",
+                "question": "4. ¿Cómo apoya SAP Build los objetivos de sostenibilidad?",
                 "answer": "Los fabricantes pueden crear aplicaciones que capturen datos de energía, residuos y emisiones directamente desde los sistemas de producción. Los flujos automatizados generan informes o alertas cuando el consumo excede los límites, haciendo que el seguimiento de sostenibilidad sea parte de las operaciones diarias."
             },
             {
-                "question": "¿Puede SAP Build integrarse con sistemas que no son de SAP?",
+                "question": "5. ¿Puede SAP Build integrarse con sistemas que no son de SAP?",
                 "answer": "Sí. Aunque su integración nativa con soluciones SAP es inigualable, SAP Build también se conecta a sistemas de terceros, plataformas IoT y aplicaciones en la nube mediante APIs y conectores, asegurando que los fabricantes no tengan que reemplazar sus inversiones existentes."
             },
             {
-                "question": "¿Qué tipo de ROI pueden esperar los fabricantes de SAP Build?",
+                "question": "6. ¿Qué tipo de ROI pueden esperar los fabricantes de SAP Build?",
                 "answer": "Las empresas normalmente ven un despliegue de aplicaciones más rápido (hasta un 70% más rápido), costos de TI reducidos (20–40%) y menor tiempo de inactividad (20–30%). Estos beneficios se convierten en importantes ahorros y mayor productividad en el primer año de implementación."
             }
         ],
         "readyData": [
             "Los fabricantes reconocen que la Industria 4.0 se centra en la capacidad de responder rápidamente a las interrupciones y a las demandas de los clientes, al mismo tiempo que se alcanzan los objetivos de sostenibilidad. SAP Build ofrece a los equipos herramientas para innovar, ya sea un ingeniero de procesos creando una aplicación de registro de defectos, un gerente automatizando aprobaciones o un líder de sostenibilidad desarrollando un panel de energía.",
-            "Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>socio confiable de SAP </span></a>, ayudamos a los fabricantes a diseñar e implementar soluciones SAP Build que se integran perfectamente en su recorrido hacia la Industria 4.0. Desde el desarrollo de aplicaciones hasta la automatización de procesos y espacios de trabajo integrados, nos aseguramos de que sus equipos cuenten con las herramientas necesarias para acelerar la transformación digital.",
-            "<a href='https://www.rialtes.com/contact-us/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Hablemos </span> </a> sobre cómo SAP Build puede desbloquear la innovación en su planta de producción."
+            "Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>socio confiable de SAP</span></a>, ayudamos a los fabricantes a diseñar e implementar soluciones SAP Build que se integran perfectamente en su recorrido hacia la Industria 4.0. Desde el desarrollo de aplicaciones hasta la automatización de procesos y espacios de trabajo integrados, nos aseguramos de que sus equipos cuenten con las herramientas necesarias para acelerar la transformación digital.",
+            "<a href='https://www.rialtes.com/contact-us/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Hablemos</span> </a> sobre cómo SAP Build puede desbloquear la innovación en su planta de producción."
         ],
         "blogTopic": "SAP",
         "blogTitle": "Acelerando la Industria 4.0 con SAP Build: Herramientas Low-Code para una Manufactura más Inteligente",
@@ -6192,29 +6080,29 @@
             }
         ],
         "empowerData": [
-            "<a href='https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce Data Cloud </a> equipa a las empresas con herramientas para anticipar necesidades del cliente, ofrecer información en tiempo real, optimizar inventario y diseñar recorridos personalizados que las mantengan competitivas en un mercado saturado. Antes de implementar Data Cloud, las organizaciones deben comprender sus datos, definir objetivos claros y alinear a los interesados en los resultados.",
-            "Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] underline hover:text-gray-400'> socio consultor de Salesforce </a>, Rialtes ayuda a las marcas de e-commerce a ir más allá de lo básico desbloqueando todo el poder de Data Cloud. Nuestros especialistas identifican los casos de uso adecuados, optimizan los tiempos de implementación y diseñan recorridos de cliente significativos. Al combinar información predictiva con personalización, ayudamos a construir relaciones más sólidas, mejorar la lealtad y acelerar el crecimiento de ingresos.",
+            "<a href='https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce Data Cloud</a> equipa a las empresas con herramientas para anticipar necesidades del cliente, ofrecer información en tiempo real, optimizar inventario y diseñar recorridos personalizados que las mantengan competitivas en un mercado saturado. Antes de implementar Data Cloud, las organizaciones deben comprender sus datos, definir objetivos claros y alinear a los interesados en los resultados.",
+            "Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] underline hover:text-gray-400'> socio consultor de Salesforce</a>, Rialtes ayuda a las marcas de e-commerce a ir más allá de lo básico desbloqueando todo el poder de Data Cloud. Nuestros especialistas identifican los casos de uso adecuados, optimizan los tiempos de implementación y diseñan recorridos de cliente significativos. Al combinar información predictiva con personalización, ayudamos a construir relaciones más sólidas, mejorar la lealtad y acelerar el crecimiento de ingresos.",
             "¿Listo para convertir predicción en beneficio? Contáctanos en <a href='https://www.rialtes.com/contact-us' class='text-[#0092E0] underline hover:text-gray-400'>sales@rialtes.com</a>"
         ],
         "faqs": [
             {
-                "question": "¿Para qué se utiliza Salesforce Data Cloud en e-commerce?",
+                "question": "1. ¿Para qué se utiliza Salesforce Data Cloud en e-commerce?",
                 "answer": "Salesforce Data Cloud centraliza los datos de clientes, permitiendo a las empresas predecir comportamientos, personalizar experiencias y tomar decisiones en tiempo real. Es especialmente potente en e-commerce en Salesforce, donde los datos unificados impulsan una personalización más inteligente."
             },
             {
-                "question": "¿Cómo mejora la analítica predictiva la experiencia del cliente en e-commerce?",
+                "question": "2. ¿Cómo mejora la analítica predictiva la experiencia del cliente en e-commerce?",
                 "answer": "Anticipa necesidades, recomienda productos relevantes y proporciona información en tiempo real que hace que las interacciones sean más personales y proactivas."
             },
             {
-                "question": "¿Puede Salesforce Data Cloud ayudar a reducir el abandono de carrito?",
+                "question": "3. ¿Puede Salesforce Data Cloud ayudar a reducir el abandono de carrito?",
                 "answer": "Sí. Al detectar carritos abandonados en tiempo real, puede activar correos personalizados, descuentos o alertas que animen a los clientes a completar sus compras."
             },
             {
-                "question": "¿Cómo encaja Einstein AI en Salesforce Data Cloud?",
+                "question": "4. ¿Cómo encaja Einstein AI en Salesforce Data Cloud?",
                 "answer": "Einstein AI impulsa modelos predictivos, análisis de sentimiento con PLN y toma de decisiones automatizada para mejorar la personalización y la eficiencia."
             },
             {
-                "question": "¿Por qué son importantes los datos en tiempo real para el e-commerce predictivo?",
+                "question": "5. ¿Por qué son importantes los datos en tiempo real para el e-commerce predictivo?",
                 "answer": "La información en tiempo real permite ajustes instantáneos en precios, promociones y recomendaciones, manteniendo a los clientes interesados y reduciendo la deserción."
             }
         ],
@@ -6280,43 +6168,43 @@
         ],
         "faqs": [
             {
-                "question": "¿Qué es Agentforce y cómo mejora los sistemas ERP?",
+                "question": "1. ¿Qué es Agentforce y cómo mejora los sistemas ERP?",
                 "answer": "Agentforce es la plataforma de IA de Salesforce que se integra con sistemas ERP y SCM para unificar datos, automatizar procesos y proporcionar perspectivas predictivas. Convierte al ERP en un ecosistema inteligente, permitiendo decisiones más rápidas y mayor eficiencia operativa."
             },
             {
-                "question": "¿Cómo se integra Agentforce con plataformas ERP existentes como SAP, Oracle o Microsoft Dynamics?",
+                "question": "2. ¿Cómo se integra Agentforce con plataformas ERP existentes como SAP, Oracle o Microsoft Dynamics?",
                 "answer": "Agentforce se conecta a través de Salesforce Data Cloud y los conectores prediseñados de MuleSoft. Esto permite la sincronización en tiempo real de datos de ERP y SCM —como pedidos, finanzas e inventarios— sin necesidad de integración personalizada compleja."
             },
             {
-                "question": "¿Qué tipo de tareas pueden automatizar los agentes de Agentforce dentro de los sistemas ERP?",
+                "question": "3. ¿Qué tipo de tareas pueden automatizar los agentes de Agentforce dentro de los sistemas ERP?",
                 "answer": "Gestionan procesos rutinarios como el monitoreo de inventario, el procesamiento de pedidos, los informes financieros, los flujos de trabajo de RRHH y las respuestas a consultas de clientes. Esto reduce el esfuerzo manual y los errores, liberando a los empleados para trabajos más estratégicos."
             },
             {
-                "question": "¿Puede Agentforce proporcionar perspectivas predictivas para la cadena de suministro y las operaciones?",
+                "question": "4. ¿Puede Agentforce proporcionar perspectivas predictivas para la cadena de suministro y las operaciones?",
                 "answer": "Sí. Al analizar los datos de ERP y SCM junto con factores externos como el clima o la demanda del mercado, Agentforce predice interrupciones en la cadena de suministro, fluctuaciones de la demanda y necesidades de inventario. Este enfoque proactivo ayuda a las organizaciones a anticiparse a los riesgos."
             },
             {
-                "question": "¿Cómo mejora Agentforce la colaboración entre equipos?",
+                "question": "5. ¿Cómo mejora Agentforce la colaboración entre equipos?",
                 "answer": "Al formar parte del ecosistema de Salesforce, Agentforce conecta los datos de ERP con herramientas como Slack y Salesforce Customer 360. Esto brinda a los equipos visibilidad compartida en tiempo real y permite decisiones más rápidas y coordinadas."
             },
             {
-                "question": "¿Qué industrias pueden beneficiarse más de la integración de Agentforce con ERP?",
+                "question": "6. ¿Qué industrias pueden beneficiarse más de la integración de Agentforce con ERP?",
                 "answer": "La manufactura, la logística, la agricultura, la salud, el comercio minorista y los servicios financieros se benefician. Por ejemplo, ayuda a los fabricantes a optimizar la producción, a los minoristas a reducir las roturas de stock y a las empresas de logística a gestionar picos de envíos estacionales."
             },
             {
-                "question": "¿Es Agentforce escalable para empresas en crecimiento?",
+                "question": "7. ¿Es Agentforce escalable para empresas en crecimiento?",
                 "answer": "Sí. Agentforce está diseñado para manejar cargas de trabajo crecientes de ERP y SCM sin necesidad de aumentos proporcionales de personal. Los agentes de IA gestionan dinámicamente mayores volúmenes de datos, asegurando que el sistema crezca junto con el negocio."
             },
             {
-                "question": "¿Reemplaza Agentforce la toma de decisiones humanas?",
+                "question": "8. ¿Reemplaza Agentforce la toma de decisiones humanas?",
                 "answer": "No. Agentforce está diseñado para complementar la experiencia humana, no para reemplazarla. Al automatizar tareas repetitivas y proporcionar información confiable, libera a las personas para que se concentren en decisiones estratégicas complejas."
             },
             {
-                "question": "¿Qué tan seguro es Agentforce al trabajar con datos de ERP?",
+                "question": "9. ¿Qué tan seguro es Agentforce al trabajar con datos de ERP?",
                 "answer": "Agentforce aprovecha los estándares de seguridad, cumplimiento y gobernanza de nivel empresarial de Salesforce. Los datos se manejan de manera segura, lo que garantiza que las organizaciones puedan adoptar la automatización sin comprometer la confianza."
             },
             {
-                "question": "¿Cómo puede mi empresa comenzar a integrar Agentforce con ERP?",
+                "question": "10. ¿Cómo puede mi empresa comenzar a integrar Agentforce con ERP?",
                 "answer": "Rialtes se especializa en personalizar agentes de Agentforce para sistemas ERP. Alineamos los agentes con los objetivos de tu negocio, optimizamos los flujos de trabajo y aseguramos una automatización confiable."
             }
         ],
