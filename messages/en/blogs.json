@@ -4204,13 +4204,13 @@
         ],
         "readyData": [
             "At Rialtes, we work with companies to integrate LLMs directly into their customer service stack, bringing smarter conversations, faster resolution, and more human interactions across every channel.",
-            "With our <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce consulting expertise </span> </a>, we’ll help you build a strategy that’s scalable, secure, and aligned to your goals, whether that’s reducing support load, increasing NPS, or delivering 24/7 multilingual support. Let’s make your  <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> customer experience as intelligent as your customers </span> </a> expect it to be. Reach out to us at <a href='mailto:sales@rialtes.com'><span class='transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com</span> </a> to start the conversation."
+            "With our <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce consulting expertise</span> </a>, we’ll help you build a strategy that’s scalable, secure, and aligned to your goals, whether that’s reducing support load, increasing NPS, or delivering 24/7 multilingual support. Let’s make your  <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> customer experience as intelligent as your customers</span></a> expect it to be. Reach out to us at <a href='mailto:sales@rialtes.com'><span class='transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com</span> </a> to start the conversation."
         ],
         "blogTopic": "Artificial Intelligence",
         "blogTitle": "AI That Listens, Learns, and Delivers: How Large Language Models Are Transforming Customer Experience",
         "blogMainData": [
             "Great customer experience begins with great listening. But we are not just talking about hearing the words; it’s about understanding intent, emotion, context, and history. That’s where traditional models fall short, and where Large Language Models (LLMs) step in.",
-            "LLMs, powered by generative AI, are redefining how businesses listen and respond. They go beyond automation. They enable real conversation to power the <a href='https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> sustainable future of our planet. </span></a>",
+            "LLMs, powered by generative AI, are redefining how businesses listen and respond. They go beyond automation. They enable real conversation to power the <a href='https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> sustainable future of our planet</span>.</a>",
             "In this guide, we’ll explain what LLMs are, how they work, and what makes them so effective at transforming customer experience (CX). You’ll also see why they’re becoming mission-critical for companies that want to stay competitive, responsive, and human, even as they scale."
         ],
         "llmTitle": "What Is a Large Language Model (LLM), and How Does It Work?",
@@ -4920,6 +4920,7 @@
         "thatDesc": " Responsible AI development is key to long-term sustainability",
         "goals": " How Can Businesses Use AI to Advance Sustainability Goals?",
         "smarter": "Take A Smarter Path to Sustainable Future with AI",
+        "faq":"FAQs: Role of AI in Powering the Sustainable Future of Our Planet",
         "faqs": [
             {
                 "question": "1. How is AI transforming energy management?",

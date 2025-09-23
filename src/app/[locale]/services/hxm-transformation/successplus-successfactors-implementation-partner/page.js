@@ -115,7 +115,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative h-[470px] sm:h-[640px] lg:h-[650px] overflow-hidden">
+      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
         <div className="md:block hidden">
           <Image
             src="/images/services/success-plus/desktop-banner.webp"
@@ -326,8 +326,8 @@ export default function Page() {
             </div>
           </div>
         </>
-        <div className="4xl:mr-[280px] xl:shadow-lg border-b-2 border-white xl:mt-[100px] mt-[63px] bg-[#FFFFFF] pt-[40px]  pl-[24px]  xl:py-[83px] md:px-[60px]">
-          <h2 className="text-black xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] lg:w-[60%] xl:w-full">
+        <div className="4xl:mr-[280px] xl:shadow-lg border-b-2 border-white xl:mt-[100px] mt-[63px] bg-[#FFFFFF] pt-[40px]  pl-[24px]  xl:py-[83px] md:px-[60px] pb-6">
+          <h2 className="text-black xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] lg:w-[60%] xl:w-full max-sm:pr-5">
             {t('benefitsMigratingTitle')}
           </h2>
           <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-[40px] 2xl:gap-[60px] gap-y-[26px] sm:w-[90%] lg:w-full">
@@ -409,7 +409,7 @@ export default function Page() {
               <UnorderedList arrName={sapSuccessFactorData} ulClassName="4xl:mt-[38px] mt-[22px] w-[88%] lg:w-full 4xl:w-[96%] xl:space-y-[24px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[18px] 4xl:text-[20px] leading-tight text-[16px] font-semibold" />
             </div>
             <div className="lg:order-2 order-1 lg:col-span-7 4xl:col-span-6 max-lg:pt-[45px]">
-              <div className="lg:block hidden h-full 4xl:h-[800px] xl:h-[710px] lg:h-[620px] w-full lg:mt-[-60px]">
+              <div className="lg:block hidden h-full 4xl:h-[800px] xl:h-[732px] lg:h-[620px] w-full lg:mt-[-60px]">
                 <Image
                   src="/images/services/success-plus/successfactor-desk.webp"
                   alt="successfactor-desktop image"
@@ -651,7 +651,7 @@ export default function Page() {
             </div>
           </div>
           <div className="xl:mt-[64px] mt-[49px]">
-            <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName="Know More" href="https://www.rialtes.com/products/agentchat" />
+            <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('knowMore')}href="https://www.rialtes.com/products/agentchat" />
           </div>
         </div>
       </section>

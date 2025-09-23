@@ -2,7 +2,6 @@
 // pages/blog-detail.js
 import Image from "next/image";
 import Link from "next/link";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
@@ -12,6 +11,9 @@ import esContent from "../../../../../../messages/es/blogs.json";
 import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import OrderedList from "@/app/[locale]/components/orderedList";
+import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
+import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
+import useUrl from "@/app/[locale]/components/useUrl";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -150,10 +152,25 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { blogs, goalDesc1, energyContent, smartList, faqs, climatePara, sustainabilityPara, thatList, trendsList, oceanParagraphs, oceanUseCases, forestUseCases, farmingContent, } = blogsContent.aiPowerBlog;
+  const {
+    blogs,
+    goalDesc1,
+    energyContent,
+    smartList,
+    faqs,
+    climatePara,
+    sustainabilityPara,
+    thatList,
+    trendsList,
+    oceanParagraphs,
+    oceanUseCases,
+    forestUseCases,
+    farmingContent,
+  } = blogsContent.aiPowerBlog;
 
   const fullUrl =
     "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
+  const currUrl = useUrl();
 
   return (
     <div className="min-h-screen bg-white">
@@ -170,7 +187,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative  h-[350px] md:h-[400px]  4xl:h-[650px] 2xl:h-[500px]">
+      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
@@ -193,330 +210,309 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="custom-container">
-        <div className="pt-10 bg-white">
-          <div className=" mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
-              <div className="sm:mb-0 mb-6">
-                <span className="text-[#0092E0]">{t("artificial")}</span>
-                <span className="text-[#ACACAC]"> | </span>
+      <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+        <div className="grid lg:grid-cols-12">
+          <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
+            {/* date and icons */}
+            <div className="sm:flex justify-between">
+              <div>
+                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("artificial")}
+                </span>
+                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {" "}
+                  |{" "}
+                </span>
                 {t("date")}
               </div>
-              <div className="flex flex-col">
-                <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                        fullUrl
-                      )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          objectFit: "cover",
-                        }}
-                        priority
-                      />
-                    </a>
-                  </div>
 
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                        fullUrl
-                      )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
+              <div>
+                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
+                  <BlogSocialIcons fullUrl={fullUrl} />
+                </div>
+              </div>
+            </div>
+
+            <div className="xl:mt-[60px] mt-[42px]">
+              <h1
+                className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"
+              >
+                {t("aiTitle")}
+              </h1>
+              <div className="xl:mt-[38px] mt-[33px]">
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("aiDesc")}
+                </p>
+              </div>
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t("whatTitle")}
+                </h2>
+
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("whatDesc")}
+                  <Link
+                    className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
+                    href={"https://sdgs.un.org/goals/"}
+                  >
+                    <span className="">{t("goal")}</span>
+                  </Link>{" "}
+                  {t("goalDesc")}
+                </p>
+
+                {goalDesc1.map((data, ind) => {
+                  return (
+                    <p
+                      key={ind}
+                      className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                      dangerouslySetInnerHTML={{ __html: data }}
+                    />
+                  );
+                })}
+              </div>
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t("howTitle")}
+                </h2>
+
+                <div className="mt-[29px] xl:mt-[30px]">
+                  {energyContent.map((paragraph, index) => (
+                    <p
+                      key={index}
+                      className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                     >
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          objectFit: "cover",
-                        }}
-                        priority
-                      />
-                    </a>
-                  </div>
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              </div>
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t("smartTitle")}
+                </h2>
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("smartDesc")}
+                </p>
+
+                <ol
+                  className={
+                    "list-disc marker:text-xl mt-4  pl-[36px] lg:pl-[56px]  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-4"
+                  }
+                >
+                  {smartList.map((item, i) => (
+                    <li key={i}>
+                      <h3
+                        className={
+                          "font-bold mt-5 inline 4xl:text-[22px] text-[18px] leading-tight "
+                        }
+                      >
+                        {item.title}{" "}
+                      </h3>
+                      {item.desc}
+                    </li>
+                  ))}
+                </ol>
+
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("smartDesc1")}
+                </p>
+
+                <Image
+                  src="/images/blog/sus-contain.webp"
+                  alt="LinkedIn"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                  priority
+                />
+              </div>
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t("beingTitle")}
+                </h2>
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("beingDesc")}
+                </p>
+
+                <ol
+                  className={
+                    "list-disc  marker:text-xl pl-[36px] lg:pl-[56px]  mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-4"
+                  }
+                >
+                  {forestUseCases.map((item, i) => (
+                    <li key={i}>
+                      <h3
+                        className={
+                          "font-bold inline 4xl:text-[22px] text-[18px] leading-tight"
+                        }
+                      >
+                        {item.title}{" "}
+                      </h3>
+                      {item.desc}
+                    </li>
+                  ))}
+                </ol>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("beingDesc1")}
+                </p>
+              </div>
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t("roleTitle")}
+                </h2>
+                <div className="mt-[29px] xl:mt-[30px]">
+                  {farmingContent.map((text, i) => (
+                    <p
+                      key={i}
+                      className={
+                        "mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                      }
+                    >
+                      {text}
+                    </p>
+                  ))}
+                </div>
+              </div>
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t("howAiTitle")}
+                </h2>
+
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("howAiDesc")}
+                </p>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("howAiDesc1")}</p>
+
+                <ol
+                  className={
+                    "list-disc mt-5 marker:text-xl pl-[36px] lg:pl-[56px] 4xl:text-[20px]  xl:text-[17px] text-[16px] font-medium space-y-4"
+                  }
+                >
+                  {oceanUseCases.map((item, i) => (
+                    <li key={i}>
+                      <h3
+                        className={
+                          "font-bold inline 4xl:text-[22px] text-[18px] leading-tight"
+                        }
+                      >
+                        {item.title}{" "}
+                      </h3>
+                      {item.desc}
+                    </li>
+                  ))}
+                </ol>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("howAiDesc2")}
+                </p>
+              </div>
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t("oceanTitle")}
+                </h2>
+                <div className="mt-[29px] xl:mt-[30px]">
+                  {oceanParagraphs.map((text, i) => (
+                    <p
+                      key={i}
+                      className={
+                        "mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                      }
+                    >
+                      {text}
+                    </p>
+                  ))}
+                </div>
+              </div>
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t("predictTitle")}
+                </h2>
+
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("predictDesc")}
+                </p>
+                <OrderedList
+                  arrName={trendsList}
+                  olClassName="list-disc  marker:text-xl pl-[36px] lg:pl-[56px] mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3"
+                />
+
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("helpDesc")}
+                </p>
+                <div className="md:mt-[50px] mt-[40px]">
+                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px leading-tight">
+                    {t("ethicalTitle")}
+                  </h2>
+
+                  <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                    {t("ethicalDesc")}
+                  </p>
+                  <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                    {t("that")}
+                  </p>
+                  <OrderedList
+                    arrName={thatList}
+                    olClassName="list-disc  marker:text-xl pl-[36px] lg:pl-[56px]  mt-4  4xl:text-[20px]  xl:text-[17px] text-[16px] font-medium space-y-3"
+                  />
+
+                  <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                    {t("thatDesc")}
+                  </p>
+                </div>
+              </div>
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t("goals")}
+                </h2>
+
+                <div className="mt-[29px] xl:mt-[30px]">
+                  {sustainabilityPara.map((text, i) => (
+                    <p
+                      key={i}
+                      className={
+                        "mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                      }
+                      dangerouslySetInnerHTML={{ __html: text }}
+                    />
+                  ))}
+                </div>
+              </div>
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t("smarter")}
+                </h2>
+                <div className="mt-[29px] xl:mt-[30px]">
+                  {climatePara.map((text, i) => (
+                    <p
+                      key={i}
+                      className={
+                        "mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                      }
+                      dangerouslySetInnerHTML={{ __html: text }}
+                    />
+                  ))}
                 </div>
               </div>
             </div>
           </div>
-          <div className="py-6"></div>
-          <div className=" mx-auto">
-            <h1
-              className="text-[#000000] leading-tight text-[26px] 2xl:text-[48px] 4xl:text-[60px] xl:text-[42px] md:text-[28px] 
-                         xl:w-[1000px] 4xl:w-[1150px] pb-6">
-              {t("aiTitle")}
-            </h1>
-          </div>
-
-          <div className=" mx-auto">
-            <div className="max-w-[1200px] 4xl:w-[1284px] 2xl:w-[950px] xl:w-[850px]">
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                {t("aiDesc")}
-              </p>
-
-              <div className="py-6 "></div>
-
-              <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                {t("whatTitle")}
-              </h2>
-
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
-                {t("whatDesc")}
-                <Link
-                  className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
-                  href={"https://sdgs.un.org/goals/"}
-                >
-                  <span className="">{t("goal")}</span>
-                </Link>
-                {t("goalDesc")}
-              </p>
-
-              {
-                goalDesc1.map((data, ind) => {
-                  return (
-                    <p
-                      key={ind}
-                      className="4xl:pr-20 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]"
-                      dangerouslySetInnerHTML={{ __html: data }}
-                    />
-                  )
-                })
-              }
-              <div className="py-6 "></div>
-
-              <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                {t("howTitle")}
-              </h2>
-
-              <div>
-                {energyContent.map((paragraph, index) => (
-                  <p
-                    key={index}
-                    className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"
-                  >
-                    {paragraph}
-                  </p>
-                ))}
-              </div>
-              <div className="py-6 "></div>
-              <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                {t("smartTitle")}
-              </h2>
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                {t("smartDesc")}
-              </p>
-
-              <ol
-                className={
-                  "list-disc marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-4"
-                }
-              >
-                {smartList.map((item, i) => (
-                  <li key={i}>
-                    <h3
-                      className={
-                        "font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]"
-                      }
-                    >
-                      {item.title}{" "}
-                    </h3>
-                    {item.desc}
-                  </li>
-                ))}
-              </ol>
-
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-5">
-                {t("smartDesc1")}
-              </p>
-
-              <Image
-                src="/images/blog/sus-contain.webp"
-                alt="LinkedIn"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                }}
-                priority
-              />
-
-              <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                {t("beingTitle")}
-              </h2>
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                {t("beingDesc")}
-              </p>
-
-              <ol
-                className={
-                  "list-disc  marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4"
-                }
-              >
-                {forestUseCases.map((item, i) => (
-                  <li key={i}>
-                    <h3
-                      className={
-                        "font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]"
-                      }
-                    >
-                      {item.title}{" "}
-                    </h3>
-                    {item.desc}
-                  </li>
-                ))}
-              </ol>
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-3">
-                {t("beingDesc1")}
-              </p>
-
-              <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight mt-10">
-                {t("roleTitle")}
-              </h2>
-              {farmingContent.map((text, i) => (
-                <p
-                  key={i}
-                  className={
-                    "text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"
-                  }
-                >
-                  {text}
-                </p>
-              ))}
-              <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                {t("howAiTitle")}
-              </h2>
-
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                {t("howAiDesc")}
-              </p>
-              <p className="mt-3">{t("howAiDesc1")}</p>
-
-              <ol
-                className={
-                  "list-disc mt-3 marker:text-xl pl-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-4"
-                }
-              >
-                {oceanUseCases.map((item, i) => (
-                  <li key={i}>
-                    <h3
-                      className={
-                        "font-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]"
-                      }
-                    >
-                      {item.title}{" "}
-                    </h3>
-                    {item.desc}
-                  </li>
-                ))}
-              </ol>
-              <p className="text-black mt-3 pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                {t("howAiDesc2")}
-              </p>
-
-              <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                {t("oceanTitle")}
-              </h2>
-              {oceanParagraphs.map((text, i) => (
-                <p
-                  key={i}
-                  className={
-                    "text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"
-                  }
-                >
-                  {text}
-                </p>
-              ))}
-
-              <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                {t("predictTitle")}
-              </h2>
-
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                {t("predictDesc")}
-              </p>
-              <OrderedList
-                arrName={trendsList}
-                olClassName="list-disc  marker:text-xl pl-4 mt-4 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3"
-              />
-
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                {t("helpDesc")}
-              </p>
-              <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                {t("ethicalTitle")}
-              </h2>
-
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                {t("ethicalDesc")}
-              </p>
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                {t("that")}
-              </p>
-              <OrderedList
-                arrName={thatList}
-                olClassName="list-disc  marker:text-xl pl-4 mt-2 text-black 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium space-y-3"
-              />
-
-              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                {t("thatDesc")}
-              </p>
-
-              <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                {t("goals")}
-              </h2>
-
-              <>
-                {sustainabilityPara.map((text, i) => (
-                  <p
-                    key={i}
-                    className={
-                      "text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"
-                    } dangerouslySetInnerHTML={{ __html: text }} />
-                ))}
-              </>
-
-              <h2 className="mt-10 pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                {t("smarter")}
-              </h2>
-              <>
-                {climatePara.map((text, i) => (
-                  <p
-                    key={i}
-                    className={
-                      "text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"
-                    } dangerouslySetInnerHTML={{ __html: text }} />
-                ))}
-              </>
-            </div>
-          </div>
+        </div>
+      </section>
+      <section className="custom-container xl:mt-[80px] mt-[40px]">
+        <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+          {t("faq")}
+        </h2>
+        <div className="mt-[29px] xl:mt-[30px]">
+          <FAQAccordion faqData={faqs} />
         </div>
       </section>
 
-      <section className="custom-container max-md:px-0 pb-10">
-        <FAQAccordion faqData={faqs} />
+      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <FilteredBlogCarousel url={currUrl} />
       </section>
-      <div className="custom-container xl:pr-0 mt-10">
-        <BlogsCarousel slides={blogs} />
-      </div>
     </div>
   );
 }
