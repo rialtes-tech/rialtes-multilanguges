@@ -17,7 +17,7 @@ const schemaData =
     "@type": "BlogPosting",
     "headline": "SAP PI PO to CPI Migration: A Complete Guide",
     "description": "Migrating from SAP PI/PO to SAP BTP Integration Suite is not just limited to re-platforming interfaces; it involves adopting a modern, cloud-native integration backbone.",
-    "image": "https://www.rialtes.com/images/blogs/sap-pi-po-cpi-migration-banner.webp",
+    "image": "https://www.rialtes.com/images/blog/sap-pi-po-cpi-migration-banner.webp",
     "author": {
         "@type": "Organization",
         "name": "Rialtes"
