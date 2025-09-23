@@ -309,7 +309,7 @@
       },
       {
         "id": 26,
-        "image": "/images/blog/sustain-small-slider.webp",
+        "image": "/images/blog/sustain-slider.webp",
         "category": "Artificial Intelligence",
         "industry": "Generic",
         "date": "aug. 21, 2025",
@@ -383,7 +383,7 @@
         "category": "AI",
         "industry": "Pharma",
         "date": "May 30, 2025",
-        "url": "/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry",
+        "url": "/agentic-pharma-the-ai-driven-era-of-pharmaceutical-industry",
         "title": "Agentic Pharma - The AI-driven era of the Pharmaceutical Industry",
         "description": "The pharmaceutical industry has long been a pioneer in adopting new technologies, from cutting-edge lab equipment to intelligent data management systems."
       },
@@ -843,7 +843,7 @@
     "slides": [
       {
         "id": 24,
-        "image": "/images/blog/sustain-small-slider.webp",
+        "image": "/images/blog/sustain-slider.webp",
         "category": "Salesforce Agentforce",
         "industry": "Generic",
         "date": "21 August 2025",
@@ -907,7 +907,7 @@
         "category": "AI",
         "industry": "Pharma",
         "date": "30 May 2025",
-        "url": "insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry",
+        "url": "insights/blogs/agentic-pharma-the-ai-driven-era-of-pharmaceutical-industry",
         "title": "Agentic Pharma - The AI-driven era of the Pharmaceutical Industry",
         "description": "The pharmaceutical industry has long been a pioneer in adopting new technologies, from cutting-edge lab equipment to intelligent data management systems."
       },

@@ -67,7 +67,7 @@ export default function Page() {
           <div>
             <div className="flex flex-col md:flex-row justify-between text-black items-center">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>28 May 2024
+                <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>{t('blogDate')}
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -108,13 +108,13 @@ export default function Page() {
             </div>
           </div>
           <div className="py-6"></div>
-          <h1 className="text-[#000000] 4xl:w-[1084px] xl:w-[750px] font-semibold pb-6 leading-tight  text-[26px] xl:text-[40px] 4xl:text-[60px]">
+          <h1 className="text-[#000000] 4xl:w-[1084px] xl:w-[750px] pb-6 leading-tight xl:text-[42px]  md:text-[28px] text-[26px] 2xl:text-[48px] 4xl:text-[60px]">
             {t('blogTitle')}</h1>
           <div>
             {
               blogMainData.map((data, ind) => {
                 return (
-                  <p className="text-black pb-4" key={ind}>
+                  <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]" key={ind}>
                     {data}
                   </p>
                 )
@@ -122,27 +122,27 @@ export default function Page() {
             }
             <div className="py-6"></div>
             {/* what should enterprises section */}
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4"> {t('enterpriseTitle')}</h2>
-            <p className="text-black">{t('enterpriseDesc')}</p>
+            <h2 className="font-medium text-[#0092E0] pb-4 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px]"> {t('enterpriseTitle')}</h2>
+            <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('enterpriseDesc')}</p>
             <div className="py-6"></div>
 
             {/* hr mgmt section */}
-            <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">{t('hrmgmtTitle')}</h2>
+            <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px] pb-4">{t('hrmgmtTitle')}</h2>
             <div className="pl-6">
               <UnorderedList arrName={hrmgmtData} ulClassName="list-disc font-medium marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] space-y-2" liClassName="" />
             </div>
             <div className="py-6"></div>
 
             {/* role integration section */}
-            <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4"> {t('roleIntegrationTitle')}</h2>
-            <p className="text-black pb-4">{t('roleIntegrationDesc')}</p>
+            <h2 className=" font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px] pb-4"> {t('roleIntegrationTitle')}</h2>
+            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('roleIntegrationDesc')}</p>
 
             <div className="pl-6">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] xl:text-[17px] 2xl:text-[17px] 4xl:text-[20px] font-medium">
                 {
                   roleIntegrationData.map((data, ind) => {
                     return (
-                      <li className="pb-2"><h3 className="h3-bold inline text-black" key={ind}>{data.title}</h3>{data.desc}</li>
+                      <li className="pb-2"><h3 className="h3-bold inline text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] " key={ind}>{data.title}</h3>{data.desc}</li>
                     )
                   })
                 }
@@ -151,20 +151,20 @@ export default function Page() {
             <div className="py-6"></div>
 
             {/* sap success facotrs integration section */}
-            <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px]">{t('successFactorIntegrationTitle')}</h2>
+            <h2 className=" font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px]">{t('successFactorIntegrationTitle')}</h2>
 
             {
               successFactorIntegration.map((data, ind) => {
                 return (
                   <div key={ind}>
-                    <h3 className="pb-4 mt-6 h3-bold">{ind + 1}.{data.title} </h3>
-                    <p className="text-black pb-4">{data.desc}</p>
+                    <h3 className="pb-4 mt-6 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{ind + 1}.{data.title} </h3>
+                    <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
                     <div className="pl-6">
-                      <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium">
+                      <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] 2xl:text-[18px] xl:text-[17px] 4xl:text-[20px] font-medium">
                         {
                           data.list.map((elem, ind) => {
                             return (
-                              <li className="pb-2" key={ind}><h4 className="inline text-black">{elem.title} </h4>{elem.desc}</li>
+                              <li className="pb-2" key={ind}><div className="inline text-black font-bold">{elem.title} </div>{elem.desc}</li>
                             )
                           })
                         }
@@ -178,15 +178,15 @@ export default function Page() {
             <div className="py-6"></div>
             {/* employee section */}
 
-            <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">{t('empTitle')} </h2>
+            <h2 className=" font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px] pb-4">{t('empTitle')} </h2>
 
-            <p className="text-black pb-4">{t('empDesc')} </p>
+            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('empDesc')} </p>
             {
               empData.map((data, ind) => {
                 return (
                   <div key={ind}>
-                    <h3 className="pb-4 h3-bold">{data.title}</h3>
-                    <p className="text-black pb-4">{data.desc}</p>
+                    <h3 className="pb-4 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{data.title}</h3>
+                    <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
                   </div>
                 )
               })
@@ -194,9 +194,9 @@ export default function Page() {
             <div className="py-6"></div>
 
             {/* overcome section */}
-            <h2 className=" font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4"> {t('overcomeTitle')}</h2>
-            <p className="text-black pb-4"> {t('overcomeDesc')}</p>
-            <p className="text-black"> {t('overcomeDesc2')} <Link href={" https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=internal&utm_medium=blog"} className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> <span> {t('overcomeLink')} </span></Link></p>
+            <h2 className=" font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px] pb-4"> {t('overcomeTitle')}</h2>
+            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"> {t('overcomeDesc')}</p>
+            <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"> {t('overcomeDesc2')} <Link href={" https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=internal&utm_medium=blog"} className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> <span> {t('overcomeLink')} </span></Link></p>
           </div>
         </div>
       </section>

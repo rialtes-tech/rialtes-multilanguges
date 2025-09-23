@@ -108,7 +108,7 @@ const t = useTranslations('latestBlog')
               key={slide.id}
               className="flex flex-col sm:basis-1/4 border border-[#707070] sm:mr-6 mb-4 h-full group"
             >
-              <div className="max-h-[300px]">
+              <div>
                 <Link href={'/' + slide.url}>
                   <Image
                     src={slide.image}

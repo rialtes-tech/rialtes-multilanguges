@@ -308,7 +308,7 @@
       },
       {
         "id": 26,
-        "image": "/images/blog/sustain-small-slider.webp",
+        "image": "/images/blog/sustain-slider.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "21 aug. 2025",
@@ -382,7 +382,7 @@
         "category": "IA",
         "industry": "Farmacéutica",
         "date": "30 may. 2025",
-        "url": "/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry",
+        "url": "/agentic-pharma-the-ai-driven-era-of-pharmaceutical-industry",
         "title": "Agentic Pharma - La Era de la Industria Farmacéutica Impulsada por IA",
         "description": "La industria farmacéutica ha sido pionera en adoptar nuevas tecnologías, desde equipos de laboratorio de vanguardia hasta sistemas inteligentes de gestión de datos."
       },
@@ -842,7 +842,7 @@
     "slides": [
       {
         "id": 24,
-        "image": "/images/blog/sustain-small-slider.webp",
+        "image": "/images/blog/sustain-slider.webp",
         "category": "Salesforce Agentforce",
         "industry": "Genérico",
         "date": "21 ago. 2025",
@@ -906,7 +906,7 @@
         "category": "IA",
         "industry": "Farmacéutica",
         "date": "30 de mayo de 2025",
-        "url": "insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry",
+        "url": "insights/blogs/agentic-pharma-the-ai-driven-era-of-pharmaceutical-industry",
         "title": "Agentic Pharma: La Era de la IA en la Industria Farmacéutica",
         "description": "La industria farmacéutica ha sido pionera en la adopción de nuevas tecnologías, desde equipos de laboratorio avanzados hasta sistemas inteligentes de gestión de datos."
       },

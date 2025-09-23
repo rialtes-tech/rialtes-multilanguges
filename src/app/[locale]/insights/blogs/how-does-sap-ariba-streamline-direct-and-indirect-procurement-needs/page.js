@@ -86,7 +86,7 @@ export default function Page() {
           <div>
             <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>29 May 2024
+                <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>{t('blogDate')}
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -128,41 +128,41 @@ export default function Page() {
           </div>
           <div className="py-6"></div>
           <div>
-            <h1 className="text-[#000000] font-semibold pb-6 w-full  4xl:w-[1084px] xl:w-[900px] leading-tight text-[26px] xl:text-[50px] 4xl:text-[60px]">
+            <h1 className="text-[#000000]  pb-6 w-full  4xl:w-[1084px] xl:w-[900px] leading-tight md:text-[28px] text-[26px] xl:text-[42px] 2xl:text-[48px] 4xl:text-[60px]">
               {t('blogTitle')}</h1>
           </div>
 
           <div>
             <div className="xl:max-w-[1084px] xl:w-[1084px]">
-              <p className="text-black pb-4">{t('blogMainData')}</p>
-              <p className="text-black">{t('blogMainData2')}</p>
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('blogMainData')}</p>
+              <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('blogMainData2')}</p>
               <div className="py-6"></div>
 
               {/* what is ariba section */}
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]"> {t('procurementTitle')} </h2>
-              <p className="text-black">{t('procurementDesc')}</p>
+              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]"> {t('procurementTitle')} </h2>
+              <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('procurementDesc')}</p>
               <div className="pb-4"></div>
               {
                 procurementData.map((data, ind) => {
                   return (
                     <div key={ind}>
-                      <h3 className="h3-bold pb-2">{data.title}</h3>
-                      <p className="text-black pb-4">{data.desc}</p>
+                      <h3 className="h3-bold pb-2 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{data.title}</h3>
+                      <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
                     </div>
                   )
                 })
               }
               <div className="py-6"></div>
               {/* main activities section */}
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]"> {t('mainActivityTitle')}</h2>
+              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]"> {t('mainActivityTitle')}</h2>
 
-              <p className="text-black pb-4">{t('mainActivityDesc')}</p>
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('mainActivityDesc')}</p>
 
-              <ul className="list-disc text-black pl-8 md:text-[20px] text-[16px]">
+              <ul className="list-disc text-black pl-8 md:text-[20px] text-[16px]  marker:text-[#0092E0]">
                 {
                   mainActivityData.map((data, ind) => {
                     return (
-                      <li className="pb-2" key={ind}>
+                      <li className="pb-2 font-medium" key={ind}>
                         <span className="font-bold">{data.title} </span>{ }
                         {data.desc}
                       </li>
@@ -173,25 +173,25 @@ export default function Page() {
               <div className="py-6"></div>
 
               {/* ariba optimizes section */}
-              <h2 className=" pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]"> {t('aribaOptimizesTitle')}</h2>
+              <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]"> {t('aribaOptimizesTitle')}</h2>
 
               {
                 aribaOptimizesData.map((data, ind) => {
                   return (
-                    <div key={ind}>
-                      <h3 className="text-black pb-2 h3-bold">{ind + 1}. {data.title}  </h3>
-                      <p className="text-black pb-4">{data.desc}</p>
+                    <div key={ind} className="xl:pl-10">
+                      <h3 className="text-black pb-2 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{ind + 1}. {data.title}  </h3>
+                      <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
                     </div>
                   )
                 })
               }
               <div className="py-6"></div>
               {/* integrate section */}
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
+              <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
                 {t('integrateTitle')}</h2>
 
-              <p className="text-black pb-4">{t('integrateDesc')}</p>
-              <p className="text-black">
+              <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('integrateDesc')}</p>
+              <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                 {t('integrateDesc2')}{" "}<Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href=" https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/?utm_source=internal&utm_medium=blog" target="_blank">
                   {t('integrateLink')}</Link> , {t('integrateDesc3')}  </p>
             </div>
