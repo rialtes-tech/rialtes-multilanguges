@@ -4,7 +4,7 @@ import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 import Link from "next/link";
 import Script from "next/script";
-import { useLocale, useTranslations } from "next-intl"; 
+import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
@@ -58,12 +58,12 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+      <section className="relative h-[350px]  4xl:h-[650px] 2xl:h-[500px] xl:h-[450px] overflow-hidden">
         <Image
           src="/images/blog/sap-joule-ai.webp"
           alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
           fill
-          style={{ objectFit: "cover", objectPosition: "50% 20%" }}
+          style={{ objectFit: "cover", objectPosition: "11% 20%" }}
           priority
         />
       </section>
@@ -73,7 +73,7 @@ export default function Page() {
           <div className="container pl-0 mx-auto">
             <div className="flex flex-col md:flex-row justify-between text-black items-center max-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>25 April 2025
+                <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>{t('blogDate')}
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -116,93 +116,93 @@ export default function Page() {
           <div className="py-6"></div>
           <div className="container pl-0 mx-auto">
             <div className="xl:max-w-[1084px] xl:w-[1084px]">
-              <h1 className="text-[#000000] font-semibold pb-6 4xl:w-[1084px] xl:w-[720px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">
+              <h1 className="text-[#000000] pb-6 4xl:w-[1084px] xl:w-[720px] leading-tight text-[26px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] 4xl:text-[60px]">
                 {t('blogTitle')}</h1>
 
-              <p className="text-black">{t('blogMainData')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.youtube.com/watch?v=YRg5a0iKKuI&t=1s"> {t('blogMainLink')}</Link> {t('blogMainData2')}  </p>
+              <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('blogMainData')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.youtube.com/watch?v=YRg5a0iKKuI&t=1s"> {t('blogMainLink')}</Link> {t('blogMainData2')}  </p>
 
               {/* a quick glimpse section */}
-              <h2 className="mt-8 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">{t('quickGlimpseTitle')}</h2>
-              <p className='mt-3'> {t('quickGlimpseDesc')}</p>
+              <h2 className="mt-8 font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px]">{t('quickGlimpseTitle')}</h2>
+              <p className='mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]'> {t('quickGlimpseDesc')}</p>
 
-              <p className="mt-3">{t('quickGlimpseDescTitle')}</p>
-              <UnorderedList arrName={quickGlimpseData1} ulClassName="list-disc text-black pl-4 xl:text-[20px] text-[16px] font-medium my-3" />
+              <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('quickGlimpseDescTitle')}</p>
+              <UnorderedList arrName={quickGlimpseData1} ulClassName="list-disc xl:pl-10 text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium my-3 marker:text-[#0092E0]" />
 
-              <p>{t('quickGlimpseDesc2')}</p>
+              <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('quickGlimpseDesc2')}</p>
 
               {/* sap generative section */}
-              <h2 className="mt-10 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">{t('sapGenerativeTitle')}</h2>
-              <p className="mt-3">{t('sapGenerativeDesc')}</p>
-              <p className="mt-3">{t('sapGenerativeDesc2')}</p>
-              <UnorderedList arrName={sapGenerativeData} ulClassName="list-disc text-black pl-4 xl:text-[20px] text-[16px] font-medium mt-3 space-y-3" />
+              <h2 className="mt-10 font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px]">{t('sapGenerativeTitle')}</h2>
+              <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('sapGenerativeDesc')}</p>
+              <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('sapGenerativeDesc2')}</p>
+              <UnorderedList arrName={sapGenerativeData} ulClassName="list-disc xl:pl-10 text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium mt-3 space-y-3 marker:text-[#0092E0]" />
 
               <h3 className="h3-bold mt-5">{t('resposibleTitle')}</h3>
-              <p className="mt-4">{t('responsiveDesc')}</p>
-              <ul className="list-disc text-black pl-4 xl:text-[20px] text-[16px] font-medium mt-3 space-y-3">
+              <p className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('responsiveDesc')}</p>
+              <ul className="list-disc text-black pl-4 4xl:text-[20px] xl:pl-10 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium mt-3 space-y-3 marker:text-[#0092E0]">
                 {
                   responsiveData.map((data, ind) => {
                     return (
-                      <li key={ind}><h4 className="font-bold inline">{data.title}</h4>{data.desc}</li>
+                      <li key={ind}><div className="font-bold inline">{data.title}</div>{data.desc}</li>
                     )
                   })
                 }
               </ul>
 
               {/* how does joule work section */}
-              <h2 className="mt-10 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">{t('jouleTitle')}</h2>
-              <p className="mt-3">{t('jouleDesc')}</p>
+              <h2 className="mt-10 font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px]">{t('jouleTitle')}</h2>
+              <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('jouleDesc')}</p>
 
               {
                 jouleData.map((data, ind) => {
                   return (
-                    <div>
+                    <div className="xl:pl-10">
                       <h3 className="h3-bold pb-4 mt-3">{ind + 1}. {data.title} </h3>
-                      <p className="text-black">{data.desc}</p>
+                      <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
                     </div>
                   )
                 })
               }
 
               {/* how does ai work */}
-              <h2 className="mt-10 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">{t('howAiWorkTitle')}</h2>
-              <p className="mt-3">{t('howAiWorkDesc')}</p>
-              <UnorderedList arrName={howAiWorkData} ulClassName="list-disc text-black pl-4 xl:text-[20px] text-[16px] font-medium mt-3" />
+              <h2 className="mt-10 font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px]">{t('howAiWorkTitle')}</h2>
+              <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('howAiWorkDesc')}</p>
+              <UnorderedList arrName={howAiWorkData} ulClassName="list-disc xl:pl-10 text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium mt-3 marker:text-[#0092E0]" />
 
-              <h2 className="mt-10 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">{t('howSapJouleTitle')}</h2>
+              <h2 className="mt-10 font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px]">{t('howSapJouleTitle')}</h2>
               {
                 howSapJouleData.map((data, ind) => {
                   return (
-                    <p className="mt-3" key={ind}>{data}</p>
+                    <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]" key={ind}>{data}</p>
                   )
                 })
               }
 
               {/* sap joule section */}
-              <h2 className="mt-10 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">{t('sapJouleTitle')}</h2>
-              <p className="mt-3">{t('sapJouleDesc')}</p>
+              <h2 className="mt-10 font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px]">{t('sapJouleTitle')}</h2>
+              <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('sapJouleDesc')}</p>
 
               {/* sap joule data */}
               {
                 sapJouleData.map((data, ind) => {
                   return (
-                    <div key={ind}>
+                    <div key={ind} className="xl:pl-10">
                       <h3 className="h3-bold pb-4 mt-3">{data.title}</h3>
-                      <p className="text-black">{data.desc}</p>
+                      <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
                     </div>
                   )
                 })
               }
 
-              <h2 className="mt-10 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">{t('shiftFromTitle')}</h2>
-              <p className="mt-3">{t('shiftFromDesc')}</p>
-              <p className="mt-3">{t('shiftFromDesc2')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/contact-us/?utm_source=blog&utm_medium=internal">{t('contactUsLink')}</Link> {t('shiftFromDesc3')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=internal">{t('shiftFromLink2')}</Link> {t('shiftFromAnd')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/?utm_source=blog&utm_medium=internal">{t('shiftFromLink3')}.</Link> </p>
+              <h2 className="mt-10 font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px]">{t('shiftFromTitle')}</h2>
+              <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('shiftFromDesc')}</p>
+              <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('shiftFromDesc2')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/contact-us/?utm_source=blog&utm_medium=internal">{t('contactUsLink')}</Link> {t('shiftFromDesc3')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=internal">{t('shiftFromLink2')}</Link> {t('shiftFromAnd')} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/?utm_source=blog&utm_medium=internal">{t('shiftFromLink3')}.</Link> </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Latest Blogs */}
-      <div className="custom-container">
+      <div className="custom-container xl:pr-0">
         <BlogsCarousel slides={blogs} />
       </div>
     </div>

@@ -11,6 +11,8 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
+import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
+import useUrl from "@/app/[locale]/components/useUrl";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -52,9 +54,10 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { blogs, adoptingData, commonData } = blogsContent.agriculture;
+  const {  adoptingData, commonData } = blogsContent.agriculture;
   const fullUrl =
     "https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow";
+  const currUrl = useUrl();
 
   return (
     <div className="min-h-screen bg-white">
@@ -127,7 +130,7 @@ export default function Page() {
                 </p>
 
                 <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
+                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                     {t("whatAgriTitle")}
                   </h2>
                   <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
@@ -138,7 +141,7 @@ export default function Page() {
                   </p>
                 </div>
                 <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
+                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px leading-tight">
                     {t("adoptingTitle")}
                   </h2>
 
@@ -155,7 +158,7 @@ export default function Page() {
                   {commonData.map((data, ind) => {
                     return (
                       <div key={ind}>
-                        <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] mt-[29px] xl:mt-[34px]">
+                        <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] mt-[29px] xl:mt-[34px] leading-tight">
                           {data.title}
                         </h2>
                         <p className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
@@ -166,7 +169,7 @@ export default function Page() {
                   })}
                 </div>
                 <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
+                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                     {t("moveTitle")}
                   </h2>
 
@@ -188,9 +191,9 @@ export default function Page() {
       </section>
 
       {/* Latest Blogs */}
-      <div className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
-        <BlogsCarousel slides={blogs} />
-      </div>
+      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
     </div>
   );
 }
