@@ -8,7 +8,7 @@ export default function page({ url }) {
     const latestBlogs = [
         {
             id: 41,
-            image: "/images/blog/connected-care-ecosystem-feature.webp",
+            image: "/images/blog/connected-care-ecosystem-mobile.webp",
             category: "MediAIna",
             industry: "Generic",
             date: "Sep. 18, 2025",
@@ -185,10 +185,10 @@ export default function page({ url }) {
     };
 
     return (
-        <section className="relative sm:pb-10 pb-16 bg-white">
+        <section className="relative pb-8 lg:pb-4">
             <div className="mb-[36px] mx-auto">
                 <div className="flex flex-row justify-between md:mr-24 mr-0">
-                    <h2 className="text-black mb-[43px] leading-tight text-[26px] xl:text-[50px] 4xl:text-[60px]">Latest Blogs</h2>
+                    <h2 className="mb-[43px] leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> Latest Blogs</h2>
                 </div>
                 <Carousel
                     swipeable={true}
@@ -216,7 +216,7 @@ export default function page({ url }) {
                     {filteredBlogs.slice(0, 9).map((slide) => (
                         <div
                             key={slide.id}
-                            className="flex flex-col sm:basis-1/4 border border-[#707070] sm:mr-6 mb-4 h-full group"
+                            className="flex flex-col sm:basis-1/4 border border-[#707070] sm:mr-6 mb-4 sm:h-[580px] md:h-full h-full lg:h-[600px] group"
                         >
 
                             <div className="max-h-[300px]">
@@ -237,9 +237,9 @@ export default function page({ url }) {
                             <div className="flex flex-col text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                                 <div className="flex flex-col">
                                     <div className=" leading-tight text-[16px] 4xl:text-[17px]"><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
-                                    <Link href={'/' + slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight text-[16px]  xl:text-[18px] 4xl:text-[20px]">{slide.title}</h5></Link>
+                                    <Link href={'/' + slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.title}</h5></Link>
                                 </div>
-                                <p className="line-clamp-4  leading-tight text-[16px] xl:text-[16px] 4xl:text-[18px]">{slide.description}</p>
+                                <p className="line-clamp-4 leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.description}</p>
                             </div>
 
                         </div>
