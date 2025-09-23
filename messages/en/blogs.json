@@ -112,7 +112,7 @@
                 "description": "Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation.For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes."
             }
         ],
-        "latestBlogsTitle":"Latest Blogs"
+        "latestBlogsTitle": "Latest Blogs"
     },
     "agentforceForManufacturing": {
         "blogs": [
@@ -496,13 +496,12 @@
             }
         ],
         "blogTopic": "General",
-        "blogDate":"01 July 2025",
+        "blogDate": "01 July 2025",
         "blogTitle": "Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities",
         "blogMainData": [
             "India’s rise as a pharmaceutical powerhouse on the global stage is remarkable. Today, it supplies 20% of all global generic drug exports, 40% of the United States' generic demand, and 25% of all medicines used in the United Kingdom.Behind this pharmaceutical dominance lies a network of innovation, production, and manufacturing, and one of its brightest stars in North India is Himachal Pradesh.",
             "It has long been a significant contributor to tourism and economic development in India. The state is known for its investor-friendly environment and is emerging as a preferred investment destination in Northern India due to its supportive policies, strong industrial infrastructure, and high Ease of Doing Business ranking."
         ],
-        
         "northernTitle": "A Northern Powerhouse in Pharmaceutical Manufacturing",
         "northerData": "Himachal Pradesh's rise as a pharmaceutical hub is a result of strategic policies and economic foresight, attracting major Indian and multinational companies over the past decade. Nestled amidst the majestic Himalayas, it has quietly emerged as the pharma manufacturing capital of North India, boasting the largest number of contract manufacturing facilities (25) among northern states. In comparison, Uttarakhand hosts 10 such facilities, while Madhya Pradesh, a central Indian state, accounts for 23.",
         "northerData2": "The state is well-positioned for investment with affordable power, effective law enforcement, a skilled workforce, and proactive governance. Notably, Himachal Pradesh has been sanctioned the first Medical Devices Park in North India, with the foundation stone laid by Prime Minister Narendra Modi. Spanning 265 acres in Nalagarh, Solan, the park is well-connected to global supply chains and is near prestigious institutes such as IIT-Mandi and IIM-Sirmour, along with essential supporting infrastructure like ICD, CETP, and Skill Development Centres.",
@@ -602,7 +601,7 @@
             }
         ],
         "blogTopic": "AI",
-        "blogDate":"30 May 2025",
+        "blogDate": "30 May 2025",
         "blogTitle": "Agentic Pharma - The AI-Driven Era of the Pharmaceutical Industry",
         "blogMainData": [
             "The pharmaceutical industry has long been a pioneer in adopting new technologies, from cutting-edge lab equipment to intelligent data management systems. Now, in the era of artificial intelligence, the sector is not only experimenting with AI but fully embracing its transformative potential to reshape research and enhance patient care.",
@@ -723,6 +722,7 @@
             }
         ],
         "blogTopic": "SAP",
+        "blogDate": "29 May 2024",
         "blogTitle": "How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
         "blogMainData": "The term 'Procurement' encompasses the entire process of acquiring goods or services, from identifying needs to supplying them. Solutions like Guided Sourcing enable companies to conduct market research, find qualified suppliers, and negotiate better contracts. It is about purchasing goods and services and optimizing costs, enhancing supplier relationships, and ensuring supply chain resilience.",
         "blogMainData2": "A leading procurement and supply chain solution, SAP Ariba offers organizations a unified platform to manage both direct and indirect procurement efficiently. The SAP Ariba procurement solution integrates well with S/4HANA and other ERP systems, supporting P2O, P2S, and P2P functionalities for effective electronic communication with suppliers. But how exactly does SAP Ariba streamline these processes? Let’s explore.",
@@ -854,6 +854,7 @@
             }
         ],
         "blogTopic": "SAP SucessFactors",
+        "blogDate": "28 May 2024",
         "blogTitle": "How SAP SuccessFactors Integrations Enhance HR and Payroll Operations",
         "blogMainData": [
             "Are payroll challenges slowing you down? SAP SuccessFactors turns payroll management from a hassle into a streamlined process that boosts employee satisfaction. By combining advanced technology with intuitive features, SuccessFactors Payroll is built to address the evolving demands of modern businesses, ensuring your workforce is always paid accurately and on time.",
@@ -875,19 +876,19 @@
         "roleIntegrationDesc": "HR and payroll processes are inherently complex, involving a range of activities such as recruitment, employee onboarding, benefits administration, time tracking,compliance, and compensation. Managing these processes in isolation often results in inefficiencies, errors, and frustration for HR teams and employees alike. By integrating SAP SuccessFactors with other enterprise systems, organizations can:",
         "roleIntegrationData": [
             {
-                "title": "Automate Processes",
+                "title": "Automate Processes ",
                 "desc": ": Reduce manual data entry and minimize human error."
             },
             {
-                "title": "Ensure Data Consistency",
+                "title": "Ensure Data Consistency ",
                 "desc": ": Maintain accurate and up-to-date information across all systems."
             },
             {
-                "title": "Enhance Reporting",
+                "title": "Enhance Reporting ",
                 "desc": ": Gain insights through consolidated data and analytics."
             },
             {
-                "title": "Improve Compliance",
+                "title": "Improve Compliance ",
                 "desc": ": Ensure adherence to local labor laws and regulations."
             }
         ],
@@ -1083,6 +1084,7 @@
             }
         ],
         "blogTopic": "SAP",
+        "blogDate": "25 April 2025",
         "blogTitle": "Redefining the Future of Enterprise AI with SAP Joule",
         "blogMainData": "SAP’s generative AI copilot, Joule, designed to enhance organizational efficiency, collaboration, and analysis, marks a major step forward in intelligent automation within SAP systems. Launched in 2023 and updated at the 2024 SAP TechEd event, Joule reflects SAP’s commitment to advancing business AI. By integrating natural language processing and generative AI,",
         "blogMainLink": "Joule transforms how businesses interact with SAP,",

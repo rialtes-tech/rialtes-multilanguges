@@ -722,6 +722,7 @@
             }
         ],
         "blogTopic": "SAP",
+        "blogDate": "29 de mayo de 2024",
         "blogTitle": "¿Cómo Optimiza SAP Ariba las Necesidades de Compras Directas e Indirectas?",
         "blogMainData": "El término 'Compras' abarca todo el proceso de adquisición de bienes o servicios, desde la identificación de necesidades hasta el suministro. Soluciones como Guided Sourcing permiten a las empresas realizar estudios de mercado, encontrar proveedores calificados y negociar mejores contratos. Se trata no solo de comprar, sino de optimizar costos, mejorar relaciones con proveedores y asegurar la resiliencia de la cadena de suministro.",
         "blogMainData2": "Como solución líder en compras y cadena de suministro, SAP Ariba ofrece a las organizaciones una plataforma unificada para gestionar de forma eficiente tanto las compras directas como indirectas. La solución de compras de SAP Ariba se integra perfectamente con S/4HANA y otros sistemas ERP, admitiendo funcionalidades P2O, P2S y P2P para una comunicación electrónica eficaz con los proveedores. Pero, ¿cómo exactamente SAP Ariba optimiza estos procesos? Vamos a explorarlo.",
@@ -852,7 +853,9 @@
                 "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave que comparte todo el equipo. Cuando la estrategia de tu equipo se alinea con sus metas y los objetivos más amplios de la organización, hacer lo correcto se vuelve instintivo."
             }
         ],
-        "blogTopic": "SAP SuccessFactors",
+        "blogTopic": "SAP SucessFactors",
+        "blogDate": "29 de mayo de 2024",
+
         "blogTitle": "Cómo las Integraciones de SAP SuccessFactors Mejoran las Operaciones de RRHH y Nómina",
         "blogMainData": [
             "¿Los desafíos en la nómina te están frenando? SAP SuccessFactors convierte la gestión de nóminas de un dolor de cabeza a un proceso optimizado que aumenta la satisfacción del empleado. Al combinar tecnología avanzada con funciones intuitivas, SuccessFactors Payroll está diseñado para abordar las demandas cambiantes de las empresas modernas, garantizando que tu fuerza laboral siempre reciba su pago con precisión y puntualidad.",
@@ -1082,6 +1085,7 @@
             }
         ],
         "blogTopic": "SAP",
+        "blogDate": "25 de abril de 2025",
         "blogTitle": "Redefiniendo el Futuro de la IA Empresarial con SAP Joule",
         "blogMainData": "Joule, el copiloto de IA generativa de SAP, diseñado para mejorar la eficiencia organizacional, la colaboración y el análisis, marca un gran paso adelante en la automatización inteligente dentro de los sistemas SAP. Lanzado en 2023 y actualizado en el evento SAP TechEd 2024, Joule refleja el compromiso de SAP con el avance de la IA empresarial. Al integrar el procesamiento de lenguaje natural y la IA generativa,",
         "blogMainLink": "Joule transforma la forma en que las empresas interactúan con SAP,",

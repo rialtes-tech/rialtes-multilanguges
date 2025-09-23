@@ -722,6 +722,7 @@
             }
         ],
         "blogTopic": "SAP",
+        "blogDate": "29 mai 2024",
         "blogTitle": "Comment SAP Ariba rationalise les besoins en achats directs et indirects ?",
         "blogMainData": "Le terme « Approvisionnement » englobe l’ensemble du processus d’acquisition de biens ou de services, de l’identification des besoins jusqu’à leur fourniture. Des solutions comme Guided Sourcing permettent aux entreprises de réaliser des études de marché, de trouver des fournisseurs qualifiés et de négocier de meilleurs contrats. Il s’agit non seulement d’acheter des biens et services, mais aussi d’optimiser les coûts, d’améliorer les relations fournisseurs et d’assurer la résilience de la chaîne d’approvisionnement.",
         "blogMainData2": "Solution leader en approvisionnement et gestion de la chaîne d’approvisionnement, SAP Ariba offre aux organisations une plateforme unifiée pour gérer efficacement les achats directs et indirects. La solution d’approvisionnement SAP Ariba s’intègre parfaitement avec S/4HANA et d’autres ERP, prenant en charge les fonctionnalités P2O, P2S et P2P pour une communication électronique efficace avec les fournisseurs. Mais comment SAP Ariba rationalise-t-il exactement ces processus ? Explorons.",
@@ -852,7 +853,8 @@
                 "description": "Atteindre les objectifs de votre organisation est une responsabilité partagée par toute votre équipe. Lorsque la stratégie de votre équipe s’aligne sur ses objectifs et ceux plus larges de l’organisation, faire ce qu’il faut devient instinctif."
             }
         ],
-        "blogTopic": "SAP SuccessFactors",
+        "blogTopic": "SAP SucessFactors",
+        "blogDate": "28 mai 2024",
         "blogTitle": "Comment les intégrations SAP SuccessFactors améliorent les opérations RH et de paie",
         "blogMainData": [
             "Les défis liés à la paie vous ralentissent-ils ? SAP SuccessFactors transforme la gestion de la paie d’une contrainte en un processus fluide qui améliore la satisfaction des employés. En combinant une technologie avancée avec des fonctionnalités intuitives, SuccessFactors Payroll répond aux exigences évolutives des entreprises modernes, garantissant que vos employés soient toujours payés correctement et à temps.",
@@ -1082,6 +1084,7 @@
             }
         ],
         "blogTopic": "SAP",
+        "blogDate":"25 avril 2025",
         "blogTitle": "Redéfinir l’avenir de l’IA d’entreprise avec SAP Joule",
         "blogMainData": "Le copilote génératif d’IA de SAP, Joule, conçu pour améliorer l’efficacité organisationnelle, la collaboration et l’analyse, marque une avancée majeure dans l’automatisation intelligente au sein des systèmes SAP. Lancé en 2023 et mis à jour lors de l’événement SAP TechEd 2024, Joule reflète l’engagement de SAP à faire progresser l’IA d’entreprise. En intégrant le traitement du langage naturel et l’IA générative,",
         "blogMainLink": "Joule transforme la manière dont les entreprises interagissent avec SAP,",
