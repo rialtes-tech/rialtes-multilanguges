@@ -115,63 +115,6 @@
         "latestBlogsTitle": "Derniers Blogs"
     },
     "agentforceForManufacturing": {
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Générique",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "Comment fonctionne réellement Salesforce Agentforce",
-                "description": "Salesforce Agentforce, bien que récent dans l’écosystème Salesforce, gagne en popularité, en particulier auprès des organisations qui gèrent de grandes équipes d’agents, comme les commerciaux, les représentants du service client et le personnel de terrain."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Générique",
-                "date": "28 Oct 2024",
-                "title": "Agents vs. Copilotes vs. Bots : Quelle est la différence et pourquoi est-ce important",
-                "description": "Des outils comme Agentforce redéfinissent notre vision des assistants numériques, en mettant en avant les distinctions entre Agents, Copilotes et Bots. Ces termes sont fréquemment utilisés dans le cadre de l’automatisation pilotée par l’intelligence artificielle et des interfaces conversationnelles, chacun ayant un rôle distinct."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Générique",
-                "date": "25 Nov 2024",
-                "title": "Agentforce Testing Center : Redéfinir les tests IA avec des données synthétiques",
-                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center au sein de sa plateforme d’IA agentique, Agentforce. Cette nouveauté permet aux entreprises de tester et de surveiller les agents IA avant leur mise en production."
-            },
-            {
-                "id": 5,
-                "image": "/images/blog/blog-5.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Ressources Humaines",
-                "date": "24 Déc 2024",
-                "title": "Comment intégrer SAP SuccessFactors avec Microsoft Office 365 pour une meilleure collaboration",
-                "description": "Une intégration fluide entre les applications d’entreprise offre une meilleure collaboration, efficacité et productivité. L’intégration de SAP SuccessFactors avec Microsoft Office 365 combine les atouts d’une solution leader de gestion de l’expérience humaine (HXM) et d’une suite d’outils de productivité robuste."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Technologie Verte Cloud",
-                "industry": "Agriculture",
-                "date": "17 Sept 2024",
-                "title": "Agriculture 4.0 : Comment les technologies numériques transforment l’agriculture pour un avenir meilleur",
-                "description": "L’agriculture joue un rôle majeur dans l’économie croissante de l’Inde et son avenir ne peut être atteint sans outils numériques et innovations technologiques."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Ressources Humaines",
-                "date": "29 Oct 2024",
-                "title": "SAP SuccessFactors Performance et Gestion des Objectifs",
-                "description": "Atteindre les objectifs de votre organisation est une responsabilité clé partagée par toute votre équipe. Lorsque la stratégie de votre équipe s’aligne avec ses objectifs et ceux de l’organisation, faire ce qu’il faut devient instinctif."
-            }
-        ],
         "faqData": [
             {
                 "question": "1. Qu'est-ce qui différencie Agentforce des autres solutions d'IA pour la fabrication ?",
@@ -266,7 +209,9 @@
         "agentforceData2": "Ainsi, vous ne faites pas qu’alléger les frictions, vous donnez à votre équipe commerciale la possibilité de développer les comptes au lieu de courir après la paperasse.",
         "empowerTitle": "Donnez plus de pouvoir aux distributeurs et partenaires avec des agents en libre-service",
         "empowerTitle2": "Donnez aux partenaires un accès en temps réel aux stocks, retours et outils de service",
-        "empowerData": "Les distributeurs, revendeurs et partenaires OEM sont essentiels à votre expérience client. Dans un écosystème manufacturier, ils ont besoin de la même réactivité en temps réel que vos équipes internes. Agentforce 3.0 pour les fabricants automobiles offre cela avec des agents en libre-service alimentés par l’IA, conçus spécifiquement pour les chaînes d’approvisionnement étendues. Ces agents permettent aux partenaires de travailler de manière autonome :",
+        "empowerData": [
+            "Les distributeurs, revendeurs et partenaires OEM sont essentiels à votre <a class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline pr-2' href='https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/'> expérience client.</a> Dans un écosystème manufacturier, ils ont besoin de la même réactivité en temps réel dont dépendent vos équipes internes.<a class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline pr-2' href='https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/'> Agentforce 3.0 pour les fabricants automobiles </a> fournit cela grâce à des agents en libre-service alimentés par l’IA, conçus spécifiquement pour les chaînes d’approvisionnement étendues. Ces agents permettent aux partenaires de travailler de manière autonome:"
+        ],
         "enableMultilingualTitle": "Activez des canaux de support multilingues et mobiles-first",
         "enableMultilingualData": "Agentforce prend en charge la communication multilingue et fonctionne sur mobile, web et plateformes de messagerie populaires comme WhatsApp et SMS. Où que se trouvent vos équipes partenaires et quels que soient les appareils qu’elles utilisent, elles bénéficient d’une expérience de support cohérente et accessible.",
         "intelligentlyTitle": "Escalade intelligente uniquement des demandes partenaires prioritaires",

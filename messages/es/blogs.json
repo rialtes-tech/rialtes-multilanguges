@@ -115,63 +115,6 @@
         "latestBlogsTitle": "Últimos Blogs"
     },
     "agentforceForManufacturing": {
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Genérico",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "Cómo Funciona Realmente Salesforce Agentforce",
-                "description": "Salesforce Agentforce, aunque es una adición reciente al ecosistema de Salesforce, está ganando popularidad, especialmente en organizaciones con grandes equipos de agentes, como agentes de ventas, representantes de servicio al cliente y personal de servicio de campo."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Genérico",
-                "date": "28 Oct 2024",
-                "title": "Agentes vs. Copilotos vs. Bots: ¿Cuál es la Diferencia y por Qué Importa?",
-                "description": "Herramientas como Agentforce están redefiniendo la forma en que vemos a los asistentes digitales, destacando las diferencias entre Agentes, Copilotos y Bots. Estos términos se utilizan frecuentemente en automatización impulsada por inteligencia artificial e interfaces conversacionales, y cada uno cumple una función específica."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Genérico",
-                "date": "25 Nov 2024",
-                "title": "Centro de Pruebas de Agentforce: Redefiniendo Pruebas de IA con Datos Sintéticos",
-                "description": "Salesforce ha introducido una nueva función llamada Centro de Pruebas dentro de su plataforma de IA agentica, Agentforce. Esta adición permite a los usuarios empresariales probar y monitorear agentes de IA antes de implementarlos en producción."
-            },
-            {
-                "id": 5,
-                "image": "/images/blog/blog-5.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Recursos Humanos",
-                "date": "24 Dic 2024",
-                "title": "Cómo Integrar SAP SuccessFactors con Microsoft Office 365 para una Mejor Colaboración",
-                "description": "La integración fluida entre aplicaciones empresariales ofrece una mejor colaboración, eficiencia y productividad. Integrar SAP SuccessFactors con Microsoft Office 365 combina las fortalezas de una solución líder en gestión de experiencia humana (HXM) con un conjunto robusto de herramientas de productividad."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Tecnología Verde en la Nube",
-                "industry": "Agricultura",
-                "date": "17 Sept 2024",
-                "title": "Agricultura 4.0: ¿Cómo Transforman las Tecnologías Digitales el Campo para un Mañana Mejor?",
-                "description": "La agricultura desempeña un papel importante en la economía creciente de India y su futuro no puede lograrse sin herramientas digitales e innovación tecnológica."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Recursos Humanos",
-                "date": "29 Oct 2024",
-                "title": "Gestión del Rendimiento y Objetivos con SAP SuccessFactors",
-                "description": "Lograr los objetivos de tu organización es una responsabilidad compartida por todo tu equipo. Cuando la estrategia de tu equipo se alinea con sus metas y los objetivos organizacionales, hacer lo correcto se vuelve instintivo."
-            }
-        ],
         "faqData": [
             {
                 "question": "1. ¿Qué hace que Agentforce sea diferente de otras soluciones de IA para manufactura?",
@@ -266,7 +209,7 @@
         "agentforceData2": "Así, reduces fricción y das a tu equipo más tiempo para hacer crecer cuentas.",
         "empowerTitle": "Empodera a Distribuidores y Socios con Agentes de Autoservicio",
         "empowerTitle2": "Ofrece acceso en tiempo real a inventario, devoluciones y herramientas de servicio",
-        "empowerData": "Distribuidores, revendedores y OEMs son clave. Agentforce 3.0 les ofrece agentes de autoservicio con IA para trabajar de forma independiente:",
+        "empowerData": ["Los distribuidores, revendedores y socios OEM son fundamentales para su <a class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline pr-2' href='https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/'> experiencia del cliente.</a> En un ecosistema de fabricación, necesitan la misma capacidad de respuesta en tiempo real de la que dependen sus equipos internos.<a class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline pr-2' href='https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/'> Agentforce 3.0 para fabricantes de automóviles </a> ofrece eso con agentes de autoservicio impulsados por IA, diseñados específicamente para cadenas de suministro extendidas. Estos agentes permiten que los socios trabajen de manera independiente:"],
         "enableMultilingualTitle": "Habilita canales de soporte móviles y multilingües",
         "enableMultilingualData": "Agentforce admite múltiples idiomas y funciona en móvil, web y plataformas como WhatsApp y SMS.",
         "intelligentlyTitle": "Escala inteligentemente solo solicitudes prioritarias",
