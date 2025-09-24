@@ -2,6 +2,7 @@
   "agentChat": {
     "headerTitle": "Présentation de",
     "headerSubTitle": "AgentChat :",
+     "learnMoreBtn": "En savoir plus",
     "headerOne": " Conversations WhatsApp fluides dans Salesforce",
     "engageHeader": "Engagez, soutenez et concluez des affaires — tout via WhatsApp. Tout dans Salesforce.",
     "engageDescOne": "AgentChat est une application conversationnelle WhatsApp bidirectionnelle, développée nativement sur Salesforce, permettant à vos équipes de se connecter instantanément avec les clients, de gérer efficacement les conversations et d’automatiser les flux de travail — sans jamais quitter Salesforce.",

@@ -221,7 +221,7 @@ export default function retailPage() {
                     </p>
                 </div>
                 <div className="lg:mt-[50px] mt-[36px] max-md:mx-[36px]">
-                    <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                    <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')}/>
                 </div>
             </section>
             {/* why choose rialtes section */}
@@ -264,7 +264,7 @@ export default function retailPage() {
                         </div>
                     </div>
                     <div className="xl:mt-[78px] mt-[54px]">
-                        <LearnMore />
+                        <LearnMore btnName={t('learnMoreBtn')}/>
                     </div>
                 </div>
             </section>
@@ -446,7 +446,7 @@ export default function retailPage() {
                                 }`}
 
                             >
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                     </div>
@@ -600,7 +600,7 @@ export default function retailPage() {
                                         {t('actionableSubTitle')}  
                                     </p>
                                     <div className="mt-auto max-lg:hidden">
-                                        <LearnMore />
+                                        <LearnMore btnName={t('learnMoreBtn')}/>
                                     </div>
                                 </div>
                                 <div>
@@ -614,7 +614,7 @@ export default function retailPage() {
                                         <UnorderedList arrName={actionableData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[27px] pl-[20px] pb-[48px] md:pb-[52px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
                                     </div>
                                     <div className="mt-auto block lg:hidden">
-                                        <LearnMore />
+                                        <LearnMore btnName={t('learnMoreBtn')}/>
                                     </div>
                                 </div>
                             </div>
@@ -709,7 +709,7 @@ export default function retailPage() {
                             {t('aiPoweredDesc2')}  
                         </p>
                         <div className="xl:mt-[74px] mt-[31px]">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>

@@ -185,7 +185,7 @@ export default function Page() {
                                 <p className="leading-tight font-normal 4xl:pr-20">
                                     {t('pageDesc')}
                                 </p>
-                                <p className="mt-5 font-normal 4xl:pr-32">{t('pageDesc2')}</p>
+                                <p className="mt-5 font-normal 4xl:pr-32 leading-tight">{t('pageDesc2')}</p>
                             </div>
                             <div className="xl:col-span-4 col-span-12">
                                 <Image

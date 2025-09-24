@@ -161,7 +161,7 @@ export default function About() {
                                     <div className="relative border-b border-l border-r border-gray-300 p-12 h-[360px] md:h-[350px]  xl:mt-[40px]">
                                         <div className="absolute -top-px left-0 w-10 border-t-2 border-gray-300 bg-white"></div>
                                         <div className="absolute -top-px right-0 xl:w-[12rem] w-[8rem] border-t-2 border-gray-300 bg-white"></div>
-                                        <h2 className="xl:text-[40px] text-[30px] font-bold text-[#0C8AD4] mt-[-110px] max-lg:mt-[-97px]">
+                                        <h2 className="4xl:text-[40px] 2xl:text-[36px] xl:text-[30px] text-[30px] font-bold text-[#0C8AD4] 4xl:mt-[-110px] 2xl:mt-[-108px] xl:mt-[-95px] max-lg:mt-[-97px]">
                                             {card.headingBold} <br />
                                             <span className="font-normal">{card.headingLight}</span>
                                         </h2>

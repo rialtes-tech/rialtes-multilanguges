@@ -52,7 +52,7 @@ const schemaData = {
             "itemListElement": [
                 {
                     "@type": "Offer",
-                    "itemOffered": {
+                    "itemOffered": { 
                         "@type": "Service",
                         "name": "Salesforce Life Sciences Cloud Implementation"
                     }
@@ -167,7 +167,7 @@ export default function page() {
                                         {item.desc}
                                     </p>
                                     <div className={`mt-auto pt-10 ${index === relatedSolutionsData.length - 1 ? 'xl:mt-[37px]' : ''}`}>
-                                        <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                                        <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')}/>
                                     </div>
                                 </div>
                             </div>
@@ -268,7 +268,7 @@ export default function page() {
                             }
                         </div>
                         <div className="max-lg:mt-8 lg:absolute lg:right-20 lg:bottom-20">
-                            <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                            <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>
@@ -292,7 +292,7 @@ export default function page() {
                             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  pr-16 xl:pr-0">{t('whyPartnerTitle')}</h2>
                             <UnorderedList arrName={whyPartnerData} ulClassName="list-disc leading-tight 4xl:space-y-4 xl:space-y-3 2xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 pr-2 xl:pr-0" liClassName="" />
                             <div className="mt-5 absolute">
-                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                     </div>
@@ -331,7 +331,7 @@ export default function page() {
                                 {t('deepExpertiseDesc')}
                             </p>
                             <div className=" absolute bottom-[75px] xl:block hidden">
-                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                         <div className="xl:col-span-6 col-span-12 xl:mt-10 mt-5">
@@ -340,7 +340,7 @@ export default function page() {
                             </h3>
                             <UnorderedList arrName={deepData} ulClassName="list-disc leading-tight xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 lg:pr-4" liClassName="" />
                             <div className="mt-12 xl:hidden block pb-[20px]">
-                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                         <div className="xl:col-span-1 col-span-12"></div>
@@ -425,7 +425,7 @@ export default function page() {
                         <div className="col-span-6  xl:p-16 p-8">
                             <UnorderedList arrName={priorData} ulClassName="list-disc leading-tight xl:space-y-4 space-y-2 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-10 xl:pr-14 pr-8" liClassName="" />
                             <div className="xl:mt-10 mt-5">
-                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                     </div>

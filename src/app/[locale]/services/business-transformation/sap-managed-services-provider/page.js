@@ -198,7 +198,7 @@ export default function Page() {
                             <h3 className="xl:text-[28px] text-[18px] xl:font-bold font-medium xl:pr-20 xl:pt-20 pt-10">{t('hybridTitle')}</h3>
                             <UnorderedList arrName={rialtesTwentyData2} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3 xl:pr-20" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                             <div className="xl:absolute bottom-[-26px] xl:block hidden">
-                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                         <div className="xl:col-span-1 col-span-12">
@@ -209,7 +209,7 @@ export default function Page() {
                             <h3 className="xl:text-[28px] text-[18px] font-bold xl:pt-20 pt-10">{t('onsiteDeliveryTitle2')}</h3>
                             <UnorderedList arrName={onsiteDeliveryData2} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                             <div className="absolute mt-[28px] xl:hidden block">
-                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@ export default function Page() {
                         <p className="mt-10 4xl:pr-40 pb-10 font-medium">
                             {t('projectPartnershipDesc2')}
                         </p>
-                        <LearnMore />
+                        <LearnMore btnName={t('learnMoreBtn')}/>
                     </div>
                 </div>
             </section>
@@ -338,7 +338,7 @@ export default function Page() {
                         <p className="mt-5 font-normal 4xl:text-[20px] xl:text-[18px]">{t('futureProofDesc')}</p>
                         <UnorderedList arrName={futureData} ulClassName="list-disc 4xl:space-y-3 xl:space-y-2 marker:font-bold marker:text-2xl pl-5 4xl:mt-10 mt-3 4xl:pr-24" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="4xl:mt-10 xl:mt-2">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>
@@ -419,7 +419,7 @@ export default function Page() {
                         </p>
                         <UnorderedList arrName={unleashData} ulClassName="list-disc 4xl:space-y-5 4xl:text-[20px] xl:text-[18px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight pr-5 xl:pr-0" liClassName="first:mt-3" />
                         <div className="absolute 4xl:mt-10 mt-2">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>
@@ -513,10 +513,10 @@ export default function Page() {
                     <div className={`col-span-5  order-2 xl:order-1  bg-[#073259] xl:pb-0 pb-20 p-8 text-white xl:mt-24 z-[9] mx-[35px] xl:mx-0 mt-[-115px] xl:!pr-0 xl:pl-[80px]"
                     
                                   ${locale === "es"
-                                    ? "xl:h-[690px] 2xl:h-[650px] 4xl:h-[650px]"
+                                    ? "xl:h-[690px] 2xl:h-[650px] 4xl:h-[718px]"
                                     : locale === "fr"
                                         ? "xl:h-[640px] 2xl:h-[650px] 4xl:h-[650px]"
-                                        : "xl:h-[640px] 2xl:h-[650px] 4xl:h-[650px]"
+                                        : "xl:h-[640px] 2xl:h-[600px] 4xl:h-[650px]"
                                 }`}
                     
                     >
@@ -529,7 +529,7 @@ export default function Page() {
                         </p>
                         <UnorderedList arrName={intelligentData} ulClassName="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight font-light" liClassName="first:mt-5" />
                         <div className="4xl:mt-[36px] 2xl:mt-[48px] xl:mt-[40px] mt-[29px] absolute">
-                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>
@@ -573,7 +573,7 @@ export default function Page() {
                                 </p>
                                 <UnorderedList arrName={winningSectionData} ulClassName="list-disc 4xl:space-y-5 xl:space-y-3 pl-5 4xl:text-[20px] text-[16px] mt-5 " liClassName="" />
                                 <div className="xl:bottom-0 absolute">
-                                    <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                                    <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                                 </div>
                             </div>
                         </div>
@@ -739,7 +739,7 @@ export default function Page() {
                         </p>
                         <UnorderedList arrName={btpData} ulClassName="list-disc 4xl:space-y-5 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-10 mt-3 xl:pr-10" liClassName="" />
                         <div className="mt-5 relative">
-                            <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+                            <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>
