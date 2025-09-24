@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from 'next/link';
-import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/blogs.json';
@@ -10,6 +9,9 @@ import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import useUrl from "@/app/[locale]/components/useUrl";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -43,11 +45,11 @@ export default function Page() {
   const t = useTranslations('integrateSapSuccessFactor')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { blogs, prerequisitesList, prerequisitesData, benefitsData, steps, whatDoesData } = blogsContent.integrateSapSuccessFactor;
+  const { prerequisitesList, prerequisitesData, benefitsData, steps, whatDoesData } = blogsContent.integrateSapSuccessFactor;
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration";
-
+  const currUrl = useUrl()
   return (
-    <div className="min-h-screen bg-white">
+    <section className="min-h-screen bg-white">
       <Seo
         title="How to Integrate SAP with Office 365 for Enhanced HR Collaboration"
         description="Discover how SAP Office 365 integration can simplify HR processes, automate workflows, and foster seamless collaboration across Office 365 apps."
@@ -59,142 +61,147 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-        <Image
-          src="/images/blog/successfactors-office365-integration.webp "
-          alt="Discover SAP SuccessFactors and Office 365 integration benefits with vibrant intersecting dots on a sleek blue background."
-          fill
-          style={{ objectFit: "cover", objectPosition: "50% 20%" }}
-          priority
-        />
+
+      <section className="relative group overflow-hidden 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[400px]">
+        {/* Desktop Image */}
+        <div className="hidden md:block">
+          <Image
+            src="/images/blog/successfactors-office365-integration.webp"
+            alt="banner"
+            fill
+            style={{ objectFit: "cover" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+
+        {/* Mobile Image */}
+        <div className="block md:hidden h-full">
+          <Image
+            src="/images/blog/successfactors-office365-integration.webp"
+            alt="banner"
+            priority
+            height={0}
+            width={0}
+            className="w-full h-full object-cover object-[60%_30%]"
+          />
+        </div>
       </section>
 
-      <section className="custom-container">
-        <div className="py-10 bg-white">
-          <div className="container mx-auto pl-0">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  max-[1084px] xl:w-[1084px]">
-              <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>24 Dec 2024
+      <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+        <div className="grid lg:grid-cols-12">
+          <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
+
+            {/* date and icons */}
+            <div className="sm:flex justify-between">
+              <div>
+                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogTopic')}</span>{" "}
+                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>24 Dec 2024
               </div>
-              <div className="flex flex-col">
-                <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer">
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
+
+              <div>
+                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
+                  <BlogSocialIcons fullUrl={fullUrl} />
                 </div>
               </div>
             </div>
-          </div>
-          <div className="py-3"></div>
-          <div className="container pl-0 ">
-            <h1 className="text-[#000000] font-semibold pb-6 xl:w-[760px] 4xl:w-[1154px] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px]">{t('blogTitle')}</h1>
-          </div>
 
-          <div className="container mx-auto pl-0">
-            <div className="max-[1084px] xl:w-[1084px]">
-              <p className="text-black">{t('blogMainData')}</p>
-              <div className="py-3"></div>
+            {/* main blog */}
+            <div className="xl:mt-[60px] mt-[42px]">
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> {t('blogTitle')}</h1>
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogMainData')}</p>
+
 
               {/* benefits section */}
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">{t('benefitsTitle')}</h2>
-              <ul className="list-none text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium space-y-4">
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('benefitsTitle')}</h2>
+                <ul className="list-none mt-[29px] xl:mt-[30px] pl-[24px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-4">
+                  {
+                    benefitsData.map((data, ind) => {
+                      return (
+                        <li key={ind}><h3 className="h3-bold inline">{data.title}</h3>{data.desc}</li>
+                      )
+                    })
+                  }
+                </ul>
+              </div>
+
+              {/* prerequisites section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('prerequisitesTitle')}</h2>
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('prerequisitesMainData')}</p>
+
+                <UnorderedList arrName={prerequisitesList} ulClassName="list-disc mt-5 space-y-3 marker:text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium" />
+
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-8">{t('prerequisitesDesc')}</p>
+
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium">
+                  {
+                    prerequisitesData.map((data, ind) => {
+                      return (
+                        <li key={ind}><span className="font-bold pb-4">{data.title}</span>{data.desc}</li>
+                      )
+                    })
+                  }
+                </ul>
+              </div>
+
+              {/* steps section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('stepsTitle')}</h2>
                 {
-                  benefitsData.map((data, ind) => {
+                  steps.map((data, id) => {
                     return (
-                      <li key={ind}><h3 className="h3-bold inline">{data.title}</h3>{data.desc}</li>
+                      <div key={id}>
+                        <h3 className="mt-[29px] xl:mt-[30px] text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight">{data.title}</h3>
+                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">{data.desc}</p>
+                        <ul className="list-disc marker:text-[#0092E0] marker:text-xl 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 pl-[34px] font-medium space-y-3">
+                          {data.list.map((item, ind) => (
+                            <li
+                              key={ind}
+                              className={id === 2 && (ind === 3 || ind === 4) ? "ml-5" : ""}>
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
                     )
                   })
                 }
-              </ul>
+              </div>
 
-              <div className="py-3"></div>
-
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">{t('prerequisitesTitle')}</h2>
-              <p className="text-black pb-4">{t('prerequisitesMainData')}</p>
-
-              <UnorderedList arrName={prerequisitesList} ulClassName="list-disc marker:text-[#0092E0] text-black pl-4 xl:text-[20px] text-[16px] pb-6 font-medium" />
-
-              <p className="text-black pb-4">{t('prerequisitesDesc')}</p>
-
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
-                {
-                  prerequisitesData.map((data, ind) => {
-                    return (
-                      <li key={ind}><span className="font-bold pb-4">{data.title}</span>{data.desc}</li>
-                    )
-                  })
-                }
-              </ul>
-
-              <div className="py-3"></div>
-
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">{t('stepsTitle')}</h2>
-              {
-                steps.map((data, id) => {
-                  return (
-                    <div key={id}>
-                      <h3 className="text-black pb-4 h3-bold">{data.title}</h3>
-                      <p className="text-black pb-4">{data.desc}</p>
-                      <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
-                        {data.list.map((item, ind) => (
-                          <li
-                            key={ind}
-                            className={id === 2 && (ind === 3 || ind === 4) ? "ml-5" : ""}>
-                            {item}
-                          </li>
-                        ))}
-                      </ul>
-
-                    </div>
-                  )
-                })
-              }
-
-              <div className="py-3"></div>
               {/* what does section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('whatDoesTitle')}</h2>
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] space-y-3 font-medium">
+                  {
+                    whatDoesData.map((data, ind) => {
+                      return (
+                        <li key={ind}><h3 className="h3-bold inline">{data.title}</h3>{data.desc}</li>
+                      )
+                    })
+                  }
+                </ul>
+              </div>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">{t('whatDoesTitle')}</h2>
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 pb-6 xl:text-[20px] text-[16px] font-medium">
-                {
-                  whatDoesData.map((data, ind) => {
-                    return (
-                      <li key={ind}><h3 className="h3-bold inline">{data.title}</h3>{data.desc}</li>
-                    )
-                  })
-                }
-              </ul>
-              <div className="py-3"></div>
               {/* complete section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('completeTitle')}</h2>
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('completeDesc')}</p>
 
-              <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-4">{t('completeTitle')}</h2>
-
-              <p className="text-black pb-4">{t('completeDesc')}</p>
-
-              <p className="text-black pb-4">{t('completeDesc2')}
-                {" "} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner?utm_source=blog&utm_medium=organic/"}>{t('completeLink')}</Link>
-                {" "}  {t('completeDesc3')} <Link className="underline" href={"mailto:sales@rialtes.com"}><span >sales@rialtes.com</span></Link> {t('completeDesc4')}</p>
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">{t('completeDesc2')}
+                  {" "} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner?utm_source=blog&utm_medium=organic/"}>{t('completeLink')}</Link>
+                  {" "}  {t('completeDesc3')} <Link className="underline" href={"mailto:sales@rialtes.com"}><span >sales@rialtes.com</span></Link> {t('completeDesc4')}</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Latest Blogs */}
-      <div className="custom-container xl:pr-0 pb-10">
-        <BlogsCarousel slides={blogs} />
-      </div>
-    </div>
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
+    </section>
   );
 }

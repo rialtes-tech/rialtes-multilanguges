@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
@@ -9,6 +8,10 @@ import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import useUrl from "@/app/[locale]/components/useUrl";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -41,13 +44,13 @@ export default function Page() {
   const t = useTranslations("discoverAgentExchange");
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { blogs, understandingDataList, whatLedData, exploreAllData, seamlessData,
+  const { understandingDataList, whatLedData, exploreAllData, seamlessData,
     understandingData
   } = content.discoverAgentExchange
   const fullUrl = "https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success";
-
+  const currUrl = useUrl()
   return (
-    <div className="min-h-screen bg-white">
+    <section className="min-h-screen bg-white">
       <Seo
         title="Why AgentExchange Is a Game-Changer | Rialtes"
         description="AgentExchange is a thriving ecosystem where businesses, partners, and Agentblazers collaborate, share best practices, and drive the future of agentic AI together."
@@ -59,12 +62,12 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative group overflow-hidden  h-[350px] md:h-[500px]  4xl:h-[650px]  ">
+      <section className="relative group overflow-hidden 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px]">
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
             src="/images/blog/agentexchange-blog-banner.webp"
-            alt="Discover AgentExchange"
+            alt="banner"
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -76,110 +79,64 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/blog/agentexchange-blog-banner-mobile.webp"
-            alt="Discover AgentExchange"
-            fill
-            style={{ objectFit: "cover" }}
+            alt="banner"
             priority
+            height={0}
+            width={0}
+            className="w-full h-auto object-cover"
           />
         </div>
       </section>
+      <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+        <div className="grid lg:grid-cols-12">
+          <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
-      <section className="custom-container">
-        <div className="py-10 bg-white">
-          <div className=" mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
-              <div className="sm:mb-0 mb-6">
-                <span className="text-[#0092E0]">{t('blogTopic')}</span>
-                <span className="text-[#ACACAC] text-[16px] md:text-[20px] xl:text-[20px]"> | </span>02 July 2025
+            {/* date and icons */}
+            <div className="sm:flex justify-between">
+              <div>
+                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogTopic')}</span>{" "}
+                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>02 July 2025
               </div>
-              <div className="flex flex-col">
-                <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                        fullUrl
-                      )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          objectFit: "cover",
-                        }}
-                        priority
-                      />
-                    </a>
-                  </div>
 
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                        fullUrl
-                      )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          objectFit: "cover",
-                        }}
-                        priority
-                      />
-                    </a>
-                  </div>
+              <div>
+                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
+                  <BlogSocialIcons fullUrl={fullUrl} />
                 </div>
               </div>
             </div>
-          </div>
-          <div className="py-6"></div>
-          <div className="mx-auto">
-            <h1 className="text-[#000000] leading-tight text-[26px] xl:text-[50px] 4xl:text-[60px] font-semibold pb-6 xl:w-[830px] 4xl:w-[1084px]">
-              {t('blogTitle')}
-            </h1>
-          </div>
 
-          <div className="mx-auto">
-            <div className="max-w-[1084px] xl:w-[1084px]">
-              <p className="text-black pb-4">
+            {/* main blog */}
+            <div className="xl:mt-[60px] mt-[42px]">
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> {t('blogTitle')}</h1>
+
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t('blogMainData')}{" "}
                 <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/in/news/press-releases/2025/03/04/agentexchange-announcement/" target="_blank">{t('blogMainDataLink')}</Link>
                 {t('blogMainData2')}
               </p>
-              <p className="text-black">
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t('blogMainData3')}
               </p>
-              <div className="py-6 "></div>
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
-                {t('understandingTitle')}
-              </h2>
-              {
-                understandingData.map((data, ind) => (
-                  <p className="text-black pb-4" key={ind}>
-                    {data}
-                  </p>
-                ))
-              }
-              <div className="pl-6">
-                <ol className="list-decimal marker:text-xl text-black md:text-[20px] text-[16px] font-medium space-y-3">
+
+
+              {/* understanding Data */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="mb-[29px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight"> {t('understandingTitle')}</h2>
+
+                {
+                  understandingData.map((data, ind) => (
+                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" key={ind}>
+                      {data}
+                    </p>
+                  ))
+                }
+
+                <ol className="list-decimal marker:text-xl pl-[34px] mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3">
                   {
                     understandingDataList.map((data, ind) => {
                       return (
                         <li key={ind}>
-                          <h3 className="h3-bold inline md:text-[20px] text-[16px]">
+                          <h3 className="h3-bold inline">
                             {data.title}
                           </h3>
                           {data.desc}
@@ -189,49 +146,21 @@ export default function Page() {
                   }
                 </ol>
               </div>
-              <div className="py-6"></div>
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
-                {t('whatLedTitle')}
-              </h2>
-              <p className="text-black pb-4">
-                {t('whatLedDesc')}
-              </p>
 
-              <ol className="text-black md:text-[20px] text-[16px] font-medium space-y-3 list-none">
-                {
-                  whatLedData.map((data, ind) => {
-                    return (
-                      <li key={ind}>
-                        <h3 className="h3-bold inline md:text-[20px] text-[16px]">{data.title}</h3>
-                        {data.desc}
-                      </li>
-                    )
-                  })
-                }
-              </ol>
-              <div className="py-6"></div>
-              <h2 className=" font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
-                {t('exploreAllTitle')}  {" "}
-              </h2>
+              {/* what led section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('whatLedTitle')}</h2>
 
-              <h3 className="pb-4 mt-6 h3-bold text-[18px] md:text-[22px] xl:text-[24px] 4xl:text-[26px]">
-                {t('exploreAllTitle2')}
-              </h3>
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('whatLedDesc')}
+                </p>
 
-              <p className="text-black pb-4">
-                <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/" target="_blank">
-                  {t('exploreAllLink')}   </Link>
-                {t('exploreAllDesc')}
-              </p>
-              <div className="pl-6">
-                <ol className="list-decimal marker:text-xl text-black md:text-[20px] text-[16px] font-medium space-y-3">
+                <ol className="mt-5 pl-[24px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3 list-none">
                   {
-                    exploreAllData.map((data, desc) => {
+                    whatLedData.map((data, ind) => {
                       return (
-                        <li key={desc}>
-                          <h4 className="h3-bold inline md:text-[20px] text-[16px]">
-                            {data.title}
-                          </h4>
+                        <li key={ind}>
+                          <h3 className="h3-bold inline">{data.title}</h3>
                           {data.desc}
                         </li>
                       )
@@ -240,61 +169,93 @@ export default function Page() {
                 </ol>
               </div>
 
-              <h3 className="pb-4 mt-6 h3-bold text-[18px] md:text-[22px] xl:text-[24px] 4xl:text-[26px]">
-                {t('seamlessAiTitle')}
-              </h3>
+              {/* explore section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight"> {t('exploreAllTitle')}</h2>
+                <h3 className="mt-[29px] xl:mt-[30px] text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight">
+                  {t('exploreAllTitle2')}
+                </h3>
 
-              <ol className="text-black md:text-[20px] text-[16px] font-medium space-y-3 list-none">
-                {
-                  seamlessData.map((data, ind) => {
-                    return (
-                      <li key={ind}>
-                        <h4 className="h3-bold inline md:text-[20px] text-[16px]">{data.title}</h4>
-                        {data.desc}
-                      </li>
-                    )
-                  })
-                }
-              </ol>
-              <h3 className="pb-4 mt-6 h3-bold text-[18px] md:text-[22px] xl:text-[24px] 4xl:text-[26px]">
-                {t('fosteringTitle')}
-              </h3>
-              <p className="text-black">
-                {t('fosteringData')}
-              </p>
-              <div className="py-6"></div>
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
-                {t('industriesTitle')}
-              </h2>
-              <p className="text-black">
-                {t('industriesData')}
-              </p>
-              <div className="py-6"></div>
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] md:text-[24px] text-[20px]">
-                {t('availabilityTitle')}
-              </h2>
-              <p className="text-black pb-4">
-                {t('availabilityData')}
-              </p>
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
+                  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/" target="_blank">
+                    {t('exploreAllLink')}</Link>{" "}
+                  {t('exploreAllDesc')}
+                </p>
 
-              <p className="text-black">
-                {t('availabilityData2')}{" "}
-                <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/?utm_source=blog&utm_medium=organic" target="_blank">
-                  {t('availabilityLink')}   </Link>
-                {t('availabilityData3')} , 
-                <Link className="underline" href={"mailto:sales@rialtes.com"}>
-                  <span> sales@rialtes.com.</span>
-                </Link>
-              </p>
+                <ol className="mt-5 list-decimal 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3 pl-[36px]">
+                  {
+                    exploreAllData.map((data, desc) => {
+                      return (
+                        <li key={desc}>
+                          <h4 className="h3-bold inline">
+                            {data.title}
+                          </h4>
+                          {data.desc}
+                        </li>
+                      )
+                    })
+                  }
+                </ol>
+
+                <h3 className="text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight mt-10">
+                  {t('seamlessAiTitle')}
+                </h3>
+
+                <ol className="mt-5 list-none 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3 pl-[24px]">
+                  {
+                    seamlessData.map((data, ind) => {
+                      return (
+                        <li key={ind}>
+                          <h4 className="h3-bold inline">{data.title}</h4>
+                          {data.desc}
+                        </li>
+                      )
+                    })
+                  }
+                </ol>
+                <h3 className="text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight mt-10">
+                  {t('fosteringTitle')}
+                </h3>
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
+                  {t('fosteringData')}
+                </p>
+              </div>
+
+              {/* industries section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('industriesTitle')}</h2>
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-[29px] xl:mt-[30px]">
+                  {t('industriesData')}
+                </p>
+              </div>
+
+              {/* availability section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight"> {t('availabilityTitle')}</h2>
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-[29px] xl:mt-[30px]">
+                  {t('availabilityData')}
+                </p>
+
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
+                  {t('availabilityData2')}{" "}
+                  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/?utm_source=blog&utm_medium=organic" target="_blank">
+                    {t('availabilityLink')}</Link>,{" "}
+                  {t('availabilityData3')} ,
+                  <Link className="underline" href={"mailto:sales@rialtes.com"}>
+                    <span> sales@rialtes.com</span>.
+                  </Link>
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Latest Blogs */}
-      <div className="custom-container xl:pr-0">
-        <BlogsCarousel slides={blogs} />
-      </div>
-    </div>
+
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
+    </section>
   );
 }
