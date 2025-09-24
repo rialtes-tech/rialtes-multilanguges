@@ -79,7 +79,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/blog/agentforce-ai-for-manufacturing.webp"
-            alt="Discover AgentExchange"
+            alt="banner"
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -91,7 +91,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/blog/agentforce-mobile-banner.webp"
-            alt="Discover AgentExchange"
+            alt="banner"
             priority
             height={0}
             width={0}
@@ -307,7 +307,7 @@ export default function Page() {
       </section>
 
       {/* blog carousel */}
-      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]" >
+      <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
         <FilteredBlogCarousel url={currUrl} />
       </section>
     </div >
