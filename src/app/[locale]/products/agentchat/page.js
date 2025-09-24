@@ -271,7 +271,7 @@ export default function Page() {
                                     />
                                 ))}
                             </ul>
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')}/>
                         </div>
                         <div className="mt-10 xl:mt-0">
                             <Image
@@ -317,7 +317,7 @@ export default function Page() {
             {/* quick setup section */}
             <div className={`bg-[url('/images/industry/rialchat/bg2.png')] bg-cover bg-right overflow-hidden
              ${locale === "es"
-                                    ? "xl:h-[400px] 4xl:h-[520px] 2xl:h-[480px]"
+                                    ? "xl:h-[400px] 4xl:h-[580px] 2xl:h-[510px]"
                                     : locale === "fr"
                                         ? "xl:h-[400px] 4xl:h-[580px] 2xl:h-[510px]"
                                         : "xl:h-[400px] 4xl:h-[520px] 2xl:h-[480px]"
@@ -361,7 +361,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px] left-[55px] top-[100px] text-[22px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px] md:top-[130px] md:left-[90px] 4xl:w-[230px] 2xl:w-[210px] xl:w-[180px] lg:w-[170px] md:w-[310px] ">{t('descThree')}</p>
+                            <p className="absolute leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px] left-[55px] top-[100px] text-[20px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px] md:top-[130px] md:left-[90px] 4xl:w-[230px] 2xl:w-[210px] xl:w-[180px] lg:w-[170px] md:w-[310px] ">{t('descThree')}</p>
                         </div>
 
                         <div className="relative">

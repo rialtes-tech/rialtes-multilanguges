@@ -1,16 +1,18 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-import OrderedList from "@/app/[locale]/components/orderedList";
+import UnorderdList from "@/app/[locale]/components/unorderedList";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import useUrl from "@/app/[locale]/components/useUrl";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -53,17 +55,13 @@ export default function Page() {
   const t = useTranslations("agentforceForManufacturing");
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { blogs, faqData, copilotData, intelligenceData, useCases, simplifyingData, giverPartnersData, realTimeData,
+  const { empowerData, faqData, copilotData, intelligenceData, useCases, simplifyingData, giverPartnersData, realTimeData,
     realTimeVisibilityData
   } = content.agentforceForManufacturing
 
+  const currUrl = useUrl();
 
-  const [openIndex, setOpenIndex] = useState(null);
-  const toggleAccordion = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
-
-  const fullUrl ="https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
 
   return (
     <div className="min-h-screen bg-white">
@@ -75,12 +73,13 @@ export default function Page() {
         id="schema-discover"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
-      <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
+
+      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
             src="/images/blog/agentforce-ai-for-manufacturing.webp"
-            alt="Discover AgentExchange"
+            alt="banner"
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -92,288 +91,225 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/blog/agentforce-mobile-banner.webp"
-            alt="Discover AgentExchange"
-            fill
-            style={{ objectFit: "cover" }}
+            alt="banner"
             priority
+            height={0}
+            width={0}
+            className="w-full h-auto object-cover lg:object-[50%_30%]"
           />
         </div>
       </section>
 
-      <section className="custom-container">
-        <div className="py-10 bg-white">
-          <div className="mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
-              <div className="sm:mb-0 mb-6">
-                <span className="text-[#0092E0]">{t('blogTopic')}</span>
-                <span className="text-[#ACACAC]"> | </span>21 July 2025
-              </div>
-              <div className="flex flex-col">
-                <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                        fullUrl
-                      )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer">
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          objectFit: "cover",
-                        }}
-                        priority
-                      />
-                    </a>
-                  </div>
+      <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+        <div className="grid lg:grid-cols-12">
+          <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                        fullUrl
-                      )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          objectFit: "cover",
-                        }}
-                        priority
-                      />
-                    </a>
-                  </div>
+            {/* date and icons */}
+            <div className="sm:flex justify-between">
+              <div>
+                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogTopic')}</span>{" "}
+                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>21 July 2025
+              </div>
+
+              <div>
+                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
+                  <BlogSocialIcons fullUrl={fullUrl} />
                 </div>
               </div>
             </div>
-          </div>
-          <div className="py-6"></div>
-          <div className=" mx-auto">
-            <h1 className="text-[#000000] leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] font-semibold pb-6 xl:w-[730px] 4xl:w-[1084px]">
-              {t('blogTitle')}
-            </h1>
-          </div>
 
-          <div className="mx-auto">
-            <div className="max-w-[1084px] xl:w-[1084px]">
-              <p className="text-black pb-4">
-                {t('blogMainData')}  
+            {/* main blog */}
+            <div className="xl:mt-[60px] mt-[42px]">
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> {t('blogTitle')}</h1>
+
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                {t('blogMainData')}
               </p>
-                <p className="text-black pb-4">
-                  {t('the')} {" "}
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                {t('the')} {" "}
                 <Link
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
                   href="https://www.salesforce.com/industry/manufacturing-cloud-erp/" target="_blank">
-      
-                {t('blogMainDataLink')}
+
+                  {t('blogMainDataLink')}
                 </Link>{" "}{t('blogMainData2')}
-                </p>
-              <p className="text-black">
+              </p>
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t('blogMainData3')}
               </p>
 
-              <div className="py-6 "></div>
 
               {/* turn customer section */}
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">
-                {t('turnCustomerTitle')}
-              </h2>
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('turnCustomerTitle')}</h2>
 
-              <p className="text-black pb-4">
-                {t('turnCustomerData')}
-              </p>
-              <p className="text-black pb-4">
-                {t('turnCustomerData2')}
-              </p>
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('turnCustomerData')}
+                </p>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('turnCustomerData2')}
+                </p>
 
-              <h3 className="pb-4 mt-6 h3-bold text-[18px] xl:text-[24px] 4xl:text-[26px]">
-                {t('thatsWhereTitle')}
-              </h3>
-              <p className="text-black pb-4">
-                {t('thatsWhereData')}
-              </p>
-              <p className="text-black pb-4">
-                {t('thatsWhereData2')}   {" "}
-                <Link
-                  className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                  href="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
-                  target="_blank"
-                >
-                  {t('thatsWhereDataLink')}
-                </Link>{" "}
-                {t('thatsWhereData3')}
-              </p>
+                <h3 className="text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight mt-5">
+                  {t('thatsWhereTitle')}
+                </h3>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('thatsWhereData')}
+                </p>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('thatsWhereData2')}   {" "}
+                  <Link
+                    className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
+                    href="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
+                    target="_blank"
+                  >
+                    {t('thatsWhereDataLink')}
+                  </Link>{" "}
+                  {t('thatsWhereData3')}
+                </p>
 
-              <div className="pl-6">
-                <OrderedList arrName={copilotData} olClassName="list-disc marker:text-xl pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3" />
+                <UnorderdList arrName={copilotData} ulClassName="list-disc marker:text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[36px] mt-5 font-medium space-y-3" />
+
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
+                  {t('withTitle')}
+                </p>
+                <ul className="pl-[34px] mt-5 list-disc font-medium space-y-3 marker:text-[#0092E0]">
+                  {
+                    intelligenceData.map((data, ind) => {
+                      return (
+                        <li key={ind} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                          <h4 className="h3-bold inline xl:text-[20px] text-[16px]">
+                            {data.title}
+                          </h4>
+                          {data.desc}
+                        </li>
+                      )
+                    })
+                  }
+                </ul>
+
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
+                  {t('withData')}
+                </p>
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5"> {t('withData2')} </p>
+
               </div>
-              <p className="text-black pb-4 mt-5">
-                {t('withTitle')}
-              </p>
-              <ol className="pl-4 list-disc text-black xl:text-[20px] text-[16px] font-medium space-y-3">
-                {
-                  intelligenceData.map((data, ind) => {
-                    return (
-                      <li key={ind}>
-                        <h4 className="h3-bold inline xl:text-[20px] text-[16px]">
-                          {data.title}
-                        </h4>
-                        {data.desc}
-                      </li>
-                    )
-                  })
-                }
-              </ol>
 
-              <p className="text-black mt-5">
-                {t('withData')}
-              </p>
-              <p className="mt-5"> {t('withData2')} </p>
+              {/* use cases section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('useCasesTitle')}</h2>
 
-              <div className="py-6"></div>
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('useCasesData')}
+                </p>
+                <UnorderdList arrName={useCases} ulClassName="list-disc marker:text-[#0092E0] pl-[34px] mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3" />
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('useCasesData2')}
+                </p>
+              </div>
 
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px]">
-                {t('useCasesTitle')}
-              </h2>
+              {/* agentforce for manufacturing section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('agentforceTitle')}</h2>
 
-              <p className="text-black ">
-                {t('useCasesData')}
-              </p>
-              <div className="py-4"></div>
-              <OrderedList arrName={useCases} olClassName="list-disc marker:text-xl pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3" />
-              <p className="mt-5">
-                {t('useCasesData2')}
-              </p>
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-[29px] xl:mt-[30px]">
+                  {t('agentforceData')}
+                </p>
 
-              {/* Agentforce for Manufacturing Sales section */}
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-10">
-                {t('agentforceTitle')}
-              </h2>
-
-              <p className="text-black pb-4">
-                {t('agentforceData')}
-              </p>
-
-              <OrderedList arrName={simplifyingData} olClassName="list-disc marker:text-xl pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3" />
-              <p className="text-black mt-5">
-                {t('agentforceData2')}
-              </p>
+                <UnorderdList arrName={simplifyingData} ulClassName="list-disc marker:text-[#0092E0] pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 font-medium space-y-3" />
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
+                  {t('agentforceData2')}
+                </p>
+              </div>
 
               {/* empower section */}
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-10">
-                {t('empowerTitle')}
-              </h2>
-              <h3 className="pb-4 mt-6 h3-bold text-[18px] xl:text-[24px] 4xl:text-[26px]">
-                {t('empowerTitle2')}
-              </h3>
-              <p className="mt-5">
-                {t('empowerData')}
-              </p>
-              <OrderedList arrName={giverPartnersData} olClassName="list-disc marker:text-xl pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3 mt-5" />
-              <h3 className="pb-4 mt-6 h3-bold text-[18px] xl:text-[24px] 4xl:text-[26px]">
-                {t('enableMultilingualTitle')}
-              </h3>
-              <p className="mt-5">
-                {t('enableMultilingualData')}
-              </p>
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('empowerTitle')}</h2>
 
-              {/* Intelligently  section */}
-              <h3 className="pb-4 mt-6 h3-bold text-[18px] xl:text-[24px] 4xl:text-[26px]">
-                {t('intelligentlyTitle')}
-              </h3>
-              <p className="mt-5">
-                {t('intelligentlyData')}
-              </p>
+                <h3 className="text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight mt-[29px] xl:mt-[30px]">
+                  {t('empowerTitle2')}
+                </h3>
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5" dangerouslySetInnerHTML={{ __html: empowerData }} />
+
+                <UnorderdList arrName={giverPartnersData} ulClassName="list-disc marker:text-[#0092E0] pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 font-medium space-y-3" />
+                <h3 className="mt-8 text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight">
+                  {t('enableMultilingualTitle')}
+                </h3>
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
+                  {t('enableMultilingualData')}
+                </p>
+
+                <h3 className="mt-8 text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight">
+                  {t('intelligentlyTitle')}
+                </h3>
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
+                  {t('intelligentlyData')}
+                </p>
+              </div>
 
               {/* real time section */}
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-10">
-                {t('realTimeVisibilityTitle')}
-              </h2>
-             
-              <div className="mt-3">
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="mb-[29px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('realTimeVisibilityTitle')}</h2>
                 {realTimeVisibilityData.map((para, index) => (
-                  <p key={index} className="mb-4">
+                  <p key={index} className="mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                     {para}
                   </p>
                 ))}
+                <UnorderdList arrName={realTimeData} ulClassName="list-disc marker:text-[#0092E0] pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 font-medium space-y-3" />
               </div>
-              <OrderedList arrName={realTimeData} olClassName="list-disc marker:text-xl pl-4 text-black xl:text-[20px] text-[16px] font-medium space-y-3 mt-5" />
 
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-10">
-                {t('dontDeliverTitle')}
-              </h2>
-              <p className="mt-5">
-                {t('dontDeliverData')}  {" "}
-                <Link
-                  className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                  href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/" target="_blank">
-                  {t('dontDeliverDataLink')}</Link>{" "}
-                {t('dontDeliverData2')}
-              </p>
-              <p className="mt-5">
-                {t('asTitle')} {" "}<Link
-                  className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                  href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
-                  target="_blank">
-                  {t('asDataLink')}
-                </Link>{" "}
-                {t('asData2')}    {" "}
-              </p>
-              <p className="mt-5">
-                {t('readyToTitle')}  {" "}
-                <Link
-                  className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                  href="https://www.rialtes.com/contact-us/" target="_blank">
-                  {t('letsTalk')}
-                </Link>{" "}
-              </p>
-              <h2 className="pb-4 font-medium text-[#0092E0] xl:text-[30px] text-[20px] mt-10">
-                {t('faqTitle')}
-              </h2>
-              <div className="mx-auto">
-                {faqData.map((item, index) => (
-                  <div key={index} className="border-b border-gray-300">
-                    <button
-                      onClick={() => toggleAccordion(index)}
-                      className="w-full flex justify-between items-center py-4 text-left bg-gray-100">
-                      <span className="font-medium text-xl text-gray-800">
-                        {item.question}
-                      </span>
-                      <span className="text-black text-2xl">
-                        {openIndex === index ? "−" : "+"}
-                      </span>
-                    </button>
+              {/* dont deliver section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t('dontDeliverTitle')}
+                </h2>
 
-                    {openIndex === index && (
-                      <div className="pb-4 text-black transition-all text-lg">
-                        {item.answer}
-                      </div>
-                    )}
-                  </div>
-                ))}
+                <p className="mt-[29px] xl:mt-[30px]  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('dontDeliverData')}  {" "}
+                  <Link
+                    className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
+                    href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/" target="_blank">
+                    {t('dontDeliverDataLink')}
+                  </Link>{" "}
+                  {t('dontDeliverData2')}
+                </p>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('asTitle')} {" "}
+                  <Link
+                    className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
+                    href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
+                    target="_blank">
+                    {t('asDataLink')}
+                  </Link>{" "}
+                  {t('asData2')}    {" "}
+                </p>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('readyToTitle')}  {" "}
+                  <Link
+                    className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
+                    href="https://www.rialtes.com/contact-us/" target="_blank">
+                    {t('letsTalk')}
+                  </Link>{" "}
+                </p>
+
               </div>
             </div>
           </div>
         </div>
       </section >
 
-      {/* Latest Blogs */}
-      <div className="custom-container xl:pr-0" >
-        <BlogsCarousel slides={blogs} />
-      </div>
+      {/* faq section */}
+      <section className="xl:mt-[80px] mt-[40px] custom-container" >
+        <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{t('faqTitle')}</h2>
+        <div className="mt-[29px] xl:mt-[34px]">
+          <FAQAccordion faqData={faqData} />
+        </div>
+      </section>
+
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
     </div >
   );
 }

@@ -115,63 +115,6 @@
         "latestBlogsTitle": "Latest Blogs"
     },
     "agentforceForManufacturing": {
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "How Salesforce Agentforce Actually Works",
-                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "28 Oct 2024",
-                "title": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "25 Nov 2024",
-                "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-                "description": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
-            },
-            {
-                "id": 5,
-                "image": "/images/blog/blog-5.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Human Resources",
-                "date": "24 Dec 2024",
-                "title": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-                "description": "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Cloud Green Technology",
-                "industry": "Agriculture",
-                "date": "17 Sept 2024",
-                "title": "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Human Resources",
-                "date": "29 Oct 2024",
-                "title": "SAP SuccessFactors Performance and Goal Management",
-                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
-            }
-        ],
         "faqData": [
             {
                 "question": "1.What makes Agentforce different from other AI solutions for manufacturing?",
@@ -266,7 +209,9 @@
         "agentforceData2": "This way, you’re not just reducing friction, you’re giving your sales team room to grow accounts instead of chasing paperwork.",
         "empowerTitle": "Empower Distributors and Channel Partners with Self-Service Agents",
         "empowerTitle2": "Give partners real-time access to inventory, returns, and service tools",
-        "empowerData": " Distributors, resellers, and OEM partners are critical to your customer experience. In a manufacturing ecosystem, they need the same real-time responsiveness that your internal teams rely on. Agentforce 3.0 for automotive manufacturers delivers that with AI-powered self-service agents built specifically for extended supply chains. These agents let partners work independently:",
+        "empowerData": [
+            "Distributors, resellers, and OEM partners are critical to your <a class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline pr-2' href='https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/'> customer experience.</a> In a manufacturing ecosystem, they need the same real-time responsiveness that your internal teams rely on.<a class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline pr-2' href='https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/'> Agentforce 3.0 for automotive manufacturers</a> delivers that with AI-powered self-service agents built specifically for extended supply chains. These agents let partners work independently:"
+        ],
         "enableMultilingualTitle": "Enable multilingual, mobile-first support channels",
         "enableMultilingualData": "Agentforce supports multilingual communication and works across mobile, web, and popular messaging platforms like WhatsApp and SMS. No matter where your partner teams are located or what devices they use, they get a consistent and accessible support experience.",
         "intelligentlyTitle": "Intelligently escalate only high-priority partner requests",
@@ -288,63 +233,6 @@
         "faqTitle": "FAQs: Agentforce for AI-Powered Manufacturing Transformation"
     },
     "discoverAgentExchange": {
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "How Salesforce Agentforce Actually Works",
-                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "28 Oct 2024",
-                "title": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "25 Nov 2024",
-                "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-                "description": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
-            },
-            {
-                "id": 5,
-                "image": "/images/blog/blog-5.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Human Resources",
-                "date": "24 Dec 2024",
-                "title": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-                "description": "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Cloud Green Technology",
-                "industry": "Agriculture",
-                "date": "17 Sept 2024",
-                "title": "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Human Resources",
-                "date": "29 Oct 2024",
-                "title": "SAP SuccessFactors Performance and Goal Management",
-                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
-            }
-        ],
         "understandingDataList": [
             {
                 "title": "Pre-built AI Agents",
@@ -1998,63 +1886,6 @@
         "collaborateDesc3": "are driven by reliable, actionable data, maximizing the potential of intelligent automation. Get in touch with us at"
     },
     "integrateSapSuccessFactor": {
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "How Salesforce Agentforce Actually Works",
-                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
-            },
-            {
-                "id": 2,
-                "image": "/images/blog/blog-2.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "21 Oct 2024",
-                "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-                "description": "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "28 Oct 2024",
-                "title": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "25 Nov 2024",
-                "title": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-                "description": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Cloud Green Technology",
-                "industry": "Agriculture",
-                "date": "17 Sept 2024",
-                "title": "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Human Resources",
-                "date": "29 Oct 2024",
-                "title": "SAP SuccessFactors Performance and Goal Management",
-                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
-            }
-        ],
         "blogTopic": "SAP SuccessFactors",
         "blogTitle": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
         "blogMainData": "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools. It enables users to collaborate more seamlessly and complete everyday HR tasks directly within Microsoft 365 applications. Real-time collaboration lets multiple users simultaneously work on documents stored in Office 365 applications like Word, Excel, and PowerPoint, improving collaboration on SuccessFactors-related tasks.",
@@ -2185,63 +2016,6 @@
         "completeDesc4": "to get started with one of our expert SAP SuccessFactors consultants!"
     },
     "enhancingCompliance": {
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "How Salesforce Agentforce Actually Works",
-                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
-            },
-            {
-                "id": 2,
-                "image": "/images/blog/blog-2.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "21 Oct 2024",
-                "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-                "description": "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "28 Oct 2024",
-                "title": "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
-                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "25 Nov 2024",
-                "title": "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
-                "description": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Cloud Green Technology",
-                "industry": "Agriculture",
-                "date": "17 Sept 2024",
-                "title": "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
-                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Human Resources",
-                "date": "29 Oct 2024",
-                "title": "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
-                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
-            }
-        ],
         "blogTopic": "SAP GTS",
         "blogTitle": "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
         "blogMainData": "Maintaining compliance with international trade regulations is a must. Companies engaged in cross-border trade must ensure that their transactions comply with government-imposed sanctions and export control laws. Failure to comply can result in severe financial penalties, reputational damage, and legal consequences.",
@@ -2337,63 +2111,6 @@
         "complyDesc3": "with deep expertise in global trade and risk management, we empower companies to navigate these processes efficiently, delivering maximum value and return on investment. Our seasoned SAP consultants possess the skills and experience to address your critical needs while equipping your internal teams for ongoing improvement and innovation."
     },
     "agentforceTesting": {
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "How Salesforce Agentforce Actually Works",
-                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
-            },
-            {
-                "id": 2,
-                "image": "/images/blog/blog-2.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "21 Oct 2024",
-                "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-                "description": "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "28 Oct 2024",
-                "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
-            },
-            {
-                "id": 5,
-                "image": "/images/blog/blog-5.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Human Resources",
-                "date": "24 Dec 2024",
-                "title": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-                "description": "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Cloud Green Technology",
-                "industry": "Agriculture",
-                "date": "17 Sept 2024",
-                "title": "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Human Resources",
-                "date": "29 Oct 2024",
-                "title": "SAP SuccessFactors Performance and Goal Management",
-                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
-            }
-        ],
         "blogTopic": "Salesforce Agentforce",
         "blogTitle": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
         "blogMainData": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production. Agentforce, launched for general availability in September, is a low-code suite designed to help enterprises create AI agents capable of autonomous reasoning for AI-powered solutions across sales, service, marketing, and commerce. The Agentforce Testing Center offers tools to help enterprise users test and evaluate agents before deploying them into production. These agents operate autonomously, a core aspect of agentic AI—a growing enterprise strategy to transform business processes by automating specific functions without human involvement.",
@@ -2454,63 +2171,6 @@
         "whyDesc4": "or need help getting started? We’re here to assist. At Rialtes, we specialize in AI testing and  , and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to streamline their business processes."
     },
     "successfactorSupportsDiversity": {
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "How Salesforce Agentforce Actually Works",
-                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
-            },
-            {
-                "id": 2,
-                "image": "/images/blog/blog-2.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "21 Oct 2024",
-                "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-                "description": "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "28 Oct 2024",
-                "title": "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
-                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "25 Nov 2024",
-                "title": "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
-                "description": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Cloud Green Technology",
-                "industry": "Agriculture",
-                "date": "17 Sept 2024",
-                "title": "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
-                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Human Resources",
-                "date": "29 Oct 2024",
-                "title": "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
-                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
-            }
-        ],
         "bloTopic": "Diversity & Inclusion",
         "blogTitle": "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
         "blogMainData": "Diversity, Equity, and Inclusion (DEI) are no longer optional components of a modern workplace; they are foundational pillars for innovation, employee engagement, and long-term organizational success. Leading companies understand that fostering a diverse and inclusive environment allows employees to bring their authentic selves to work, which enhances creativity, productivity, and ultimately, business growth. In today’s tech-driven world, DEI initiatives require not only commitment but also the right tools.",
@@ -2562,63 +2222,6 @@
         "hrSystemDesc3": " Contact us today at"
     },
     "automateCrucial": {
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "How Salesforce Agentforce Actually Works",
-                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
-            },
-            {
-                "id": 2,
-                "image": "/images/blog/blog-2.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "21 Oct 2024",
-                "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-                "description": "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "28 Oct 2024",
-                "title": "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
-                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "25 Nov 2024",
-                "title": "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
-                "description": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Cloud Green Technology",
-                "industry": "Agriculture",
-                "date": "17 Sept 2024",
-                "title": "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
-                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Human Resources",
-                "date": "29 Oct 2024",
-                "title": "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
-                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
-            }
-        ],
         "blogTopic": "Integration",
         "blogTitle": "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
         "blogMainData": "Historical evidence strongly indicates that a healthcare industry fragmented by disparate systems results in operational inefficiencies, duplicative work, patient safety issues, and rising costs to manage an increasingly complex healthcare market. Delivering a seamless patient experience is as important as providing quality care. With the increasing need for efficient patient management and data integration, healthcare providers are turning to strategic EHR/EMR app integrations and data operations to enhance their CRM systems.",
@@ -2703,67 +2306,10 @@
         "findDesc4": ", is dedicated to utilizing the complete potential of Salesforce by providing exceptional user experiences to our clients."
     },
     "successFactorPerformance": {
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "How Salesforce Agentforce Actually Works",
-                "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
-            },
-            {
-                "id": 2,
-                "image": "/images/blog/blog-2.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "21 Oct 2024",
-                "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-                "description": "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "28 Oct 2024",
-                "title": "SAP SuccessFactors Performance and Goal Management",
-                "description": "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Generic",
-                "date": "25 Nov 2024",
-                "title": "SAP SuccessFactors Performance and Goal Management",
-                "description": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Cloud Green Technology",
-                "industry": "Agriculture",
-                "date": "17 Sept 2024",
-                "title": "SAP SuccessFactors Performance and Goal Management",
-                "description": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Human Resources",
-                "date": "29 Oct 2024",
-                "title": "SAP SuccessFactors Performance and Goal Management",
-                "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
-            }
-        ],
         "blogTopic": "SAP SuccessFactors",
         "blogTitle": "SAP SuccessFactors Performance and Goal Management",
         "blogMainData": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive. SAP SuccessFactors Performance and Goal Management (PMGM) is a powerful tool that supports organizations in aligning individual performance with organizational goals, fostering a high-performance culture, and driving employee engagement.",
-        "blogMainData2": "It enables your employees to excel by aligning their strategies and performance with their goals. Through its proven system, you can offer continuous feedback and meaningful mentoring that boosts engagement and productivity.",
+        "blogMainData2": "It enables your employees 7to excel by aligning their strategies and performance with their goals. Through its proven system, you can offer continuous feedback and meaningful mentoring that boosts engagement and productivity.",
         "describingTitle": "Describing SAP SuccessFactors Performance and Goal Management",
         "describingDesc": "SAP SuccessFactors PMGM is designed to streamline and optimize the performance management process. The module supports the entire cycle of setting, tracking, and evaluating employee goals, as well as conducting performance appraisals. It aims to promote transparency and alignment, making it easier for managers and employees to understand how individual contributions drive organizational success. Managers can instantly track the status of all the goals across their team to save time and provide HR with outlines of goal distribution and insights into goal progression.",
         "configurationTitle": "Configuration and Implementation",
@@ -3235,7 +2781,6 @@
         "gameDesc2": "As businesses prioritize customer satisfaction, tools like Atlas will undoubtedly play a pivotal role in shaping the future of customer experience. We can expect further integration with other Salesforce products, more sophisticated AI capabilities, and even deeper predictive analytics features soon. Rialtes helps you develop, customize, and deploy autonomous AI agents for sales, marketing, service, and e-commerce related tasks with the Agentforce platform. Get in touch with our experts."
     },
     "howSalesforceAgentforceWorks": {
-    
         "blogTopic": "Salesforce Agentforce",
         "blogTitle": "How Salesforce Agentforce Actually Works",
         "blogMainData": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel. The platform uses AI to automate tasks and help businesses improve their operations, customer experience, and productivity. Agentforce platform works by integrating AI agents with Salesforce’s CRM and other tools like Data Cloud to ensure data is actionable.",
@@ -3296,7 +2841,6 @@
     },
     "agriculture": {
         "blogTopic": "Green Technology",
-        
         "blogTitle": "Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?",
         "blogMainData": "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation. With increasing awareness of environmental issues and the need to better manage available resources, agriculture technologies are gaining traction to enhance sustainability and create more effective farming methods. Approximately 54.6% of the total manpower is engaged in agricultural and related sector activities, the sector accounts for 17.8% of the country’s gross value added (GVA).",
         "blogMainData2": "Even though it’s growing rapidly, the adoption of emerging agriculture technologies and SaaS for precision farming is still in its initial stages in India. A report by EMR says that the Indian agriculture market will reach a value of $580.82 Bn by 2028.",
@@ -4204,13 +3748,13 @@
         ],
         "readyData": [
             "At Rialtes, we work with companies to integrate LLMs directly into their customer service stack, bringing smarter conversations, faster resolution, and more human interactions across every channel.",
-            "With our <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce consulting expertise </span> </a>, we’ll help you build a strategy that’s scalable, secure, and aligned to your goals, whether that’s reducing support load, increasing NPS, or delivering 24/7 multilingual support. Let’s make your  <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> customer experience as intelligent as your customers </span> </a> expect it to be. Reach out to us at <a href='mailto:sales@rialtes.com'><span class='transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com</span> </a> to start the conversation."
+            "With our <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce consulting expertise</span> </a>, we’ll help you build a strategy that’s scalable, secure, and aligned to your goals, whether that’s reducing support load, increasing NPS, or delivering 24/7 multilingual support. Let’s make your  <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> customer experience as intelligent as your customers</span></a> expect it to be. Reach out to us at <a href='mailto:sales@rialtes.com'><span class='transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com</span> </a> to start the conversation."
         ],
         "blogTopic": "Artificial Intelligence",
         "blogTitle": "AI That Listens, Learns, and Delivers: How Large Language Models Are Transforming Customer Experience",
         "blogMainData": [
             "Great customer experience begins with great listening. But we are not just talking about hearing the words; it’s about understanding intent, emotion, context, and history. That’s where traditional models fall short, and where Large Language Models (LLMs) step in.",
-            "LLMs, powered by generative AI, are redefining how businesses listen and respond. They go beyond automation. They enable real conversation to power the <a href='https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> sustainable future of our planet. </span></a>",
+            "LLMs, powered by generative AI, are redefining how businesses listen and respond. They go beyond automation. They enable real conversation to power the <a href='https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> sustainable future of our planet</span>.</a>",
             "In this guide, we’ll explain what LLMs are, how they work, and what makes them so effective at transforming customer experience (CX). You’ll also see why they’re becoming mission-critical for companies that want to stay competitive, responsive, and human, even as they scale."
         ],
         "llmTitle": "What Is a Large Language Model (LLM), and How Does It Work?",
@@ -4920,6 +4464,7 @@
         "thatDesc": " Responsible AI development is key to long-term sustainability",
         "goals": " How Can Businesses Use AI to Advance Sustainability Goals?",
         "smarter": "Take A Smarter Path to Sustainable Future with AI",
+        "faq":"FAQs: Role of AI in Powering the Sustainable Future of Our Planet",
         "faqs": [
             {
                 "question": "1. How is AI transforming energy management?",
@@ -6285,7 +5830,7 @@
             "The key point is that adopting AI agents goes beyond merely purchasing a new tool; it involves recognizing when your business is prepared to make this leap. If you identify these five signs within your operations, acting quickly is crucial, as you may already fall behind."
         ],
         "payoffData": [
-            "If you identify with two or more of the following scenarios, you are well-positioned for adopting AI agents. Your existing systems, processes, and urgency for improvement are already in place; what you need is an intelligence layer that integrates everything and acts in real time. When implemented effectively, AI agents reduce costs, enhance agility,<a href='https: //www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> build customer trust </span></a>, and improve the resilience of your operations.",
+            "If you identify with two or more of the following scenarios, you are well-positioned for adopting AI agents. Your existing systems, processes, and urgency for improvement are already in place; what you need is an intelligence layer that integrates everything and acts in real time. When implemented effectively, AI agents reduce costs, enhance agility, <a href='https: //www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>build customer trust</span></a> , and improve the resilience of your operations.",
             "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> Salesforce Crest Partner</span></a>, we bring the strategy, systems, and support to make AI agents real and fast. <Strong> Let’s build thinking agents for your operations.</Strong>"
         ],
         "commonData": [
@@ -6356,7 +5901,7 @@
         "blogTopic": "Artificial Intelligence",
         "blogTitle": "5 Signs You’re Ready to Implement AI Agents in Your Manufacturing Operations",
         "payoffTitle": "The Payoff of Readiness",
-        "faqTitle": "FAQ: AI Agents in Manufacturing"
+        "faqTitle": "FAQs: Implement AI Agents in Your Manufacturing Operations"
     },
     "connectedCore": {
         "mainData": [
@@ -6515,6 +6060,6 @@
         "benefitsDesc": "Organizations adopting MediAIna can expect measurable impact:",
         "benefitsDesc2": "In short, MediAIna is more than software; it’s the backbone of a connected care ecosystem for the future.",
         "bettingTitle": "Betting on the Future",
-        "faqTitle": "FAQs: Frequently Asked Questions"
+        "faqTitle": "FAQs : Importance of Connected Care Ecosystems for Pharma & MedTech"
     }
 }

@@ -297,12 +297,20 @@ export default function Page() {
                     </div>
 
                     {/* Buttons */}
-                    <div className="flex mt-[50px] lg:gap-[57px] max-lg:flex-col max-lg:gap-[36px]">
+                    <div className="flex mt-[50px] lg:gap-[57px] max-lg:flex-col max-lg:gap-[36px] justify-between">
                         <div>
                              <LearnMore btnName={t('learnMoreBtn')} bgcolor="#0A6BB8" bordercolor="#0A6BB8" hoverTextColor="black" />
                         </div>
                         <div>
-                            <p className="bg-[#0A6BB8] text-white 4xl:text-[24px] xl:text-[20px] text-[18px] md:py-[12px] md:px-[32px] py-[14px] px-[20px] md:mt-[23px] min-[400px]:w-[90%] sm:w-fit"> {t('assetMarketingBlueBox')}</p>
+                            <p className={`bg-[#0A6BB8] text-white  md:py-[12px] md:px-[32px] py-[14px] px-[20px] md:mt-[23px] min-[400px]:w-[90%] sm:w-fit"
+                              ${locale === "es"
+                                    ? "4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[18px]"
+                                    : locale === "fr"
+                                        ? "4xl:text-[17px] 2xl:text-[16px] xl:text-[14px] text-[18px]"
+                                        : "4xl:text-[24px] xl:text-[20px] text-[18px]"
+                                }`}
+                            
+                            > {t('assetMarketingBlueBox')}</p>
                         </div>
                     </div>
                 </div>
@@ -354,7 +362,16 @@ export default function Page() {
                           
                              <LearnMore btnName={t('learnMoreBtn')} />
                             <div>
-                                <p className="bg-[#0A6BB8] mt-10 w-fit xl:mt-[20px] px-6 py-[14px] text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px]">
+                                <p className={`bg-[#0A6BB8] mt-10 w-fit xl:mt-[20px] px-6 py-[14px] text-white text-left
+                                
+                                  ${locale === "es"
+                                    ? "4xl:text-[23px] 2xl:text-[18px] xl:text-[14px] text-[18px]"
+                                    : locale === "fr"
+                                        ? "4xl:text-[20px] 2xl:text-[16px] xl:text-[12px] text-[18px]"
+                                        : "4xl:text-[26px] text-[18px] xl:text-[16px]"
+                                }`}
+                            
+                                >
                                 {t('aiEnabledBlueBox')}    
                                 </p>
                             </div>
@@ -467,7 +484,16 @@ export default function Page() {
                             <>
                                  <LearnMore btnName={t('learnMoreBtn')} bgcolor="#073259" bordercolor="#073259"/>
                             </>
-                            <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 w-fit text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] 4xl:w-[60%]">
+                            <p className={`bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 w-fit text-white text-left  4xl:w-[60%]
+                              ${locale === "es"
+                                    ? "4xl:text-[22px] 2xl:text-[17px] xl:text-[15px] text-[18px]"
+                                    : locale === "fr"
+                                        ? "4xl:text-[20px] 2xl:text-[16px] xl:text-[12px] text-[18px]"
+                                        : "4xl:text-[26px] text-[18px] xl:text-[16px]"
+                                }`}
+                            
+
+                            >
                                {t('excelPersonaBlueBox')} 
                             </p>
                         </div>
@@ -520,10 +546,18 @@ export default function Page() {
 
                             {/* Buttons */}
                             <div className="lg:flex gap-8 xl:gap-5 2xl:gap-10 xl:mt-[65px] mt-[36px] items-end">
-                                <div className="xl:w-[200px]">
+                                <div>
                                      <LearnMore btnName={t('learnMoreBtn')}  bgcolor="#073259" bordercolor="#073259"/>
                                 </div>
-                                <p className="bg-[#0A6BB8] w-fit mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[22px] text-[18px] xl:text-[18px]">
+                                <p className={`bg-[#0A6BB8] w-fit mt-10 xl:mt-0 px-6 py-3 text-white text-left 
+                                 ${locale === "es"
+                                    ? "4xl:text-[22px] text-[18px] xl:text-[17px]"
+                                    : locale === "fr"
+                                        ? "4xl:text-[18px] 2xl:text-[17px] xl:text-[12px] text-[18px]"
+                                        : "4xl:text-[22px] text-[18px] xl:text-[18px]"
+                                }`}
+                                
+                                >
                                 {t('excelPayBlueBox')}    
                                 </p>
                             </div>
@@ -584,7 +618,16 @@ export default function Page() {
                                  <LearnMore btnName={t('learnMoreBtn')} bgcolor="#134874" bordercolor="#134874"/>
                             </>
                             <div>
-                                <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-[13px] text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] w-fit">
+                                <p className={`bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-[13px] text-white text-left  w-fit
+                                
+  ${locale === "es"
+                                    ? "4xl:text-[22px] 2xl:text-[17px] xl:text-[14px] text-[18px]"
+                                    : locale === "fr"
+                                        ? "4xl:text-[20px] 2xl:text-[16px] xl:text-[13px] text-[18px]"
+                                        : "4xl:text-[26px] text-[18px] xl:text-[16px]"
+                                }`}
+
+                                >
                                   {t('agentChatBlueBox')}  
                                 </p>
                             </div>
