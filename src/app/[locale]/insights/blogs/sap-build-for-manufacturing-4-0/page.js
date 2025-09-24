@@ -339,7 +339,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+      <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
         <FilteredBlogCarousel url={currUrl} />
       </section>
     </div>

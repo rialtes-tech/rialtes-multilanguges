@@ -214,7 +214,7 @@ export default function Page() {
                 <p className="mt-5 4xl:pr-20 4xl:text-[20px] xl:text-[17px] text-[16px]">
                   {t("blogMainData")}
                 </p>
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                <div className="md:mt-[50px] mt-[40px]">
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                     {t("agentforceTitle")}
                   </h2>
@@ -239,7 +239,7 @@ export default function Page() {
                     {t("howDoesDesc2")}
                   </p>
                 </div>
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                <div className="md:mt-[50px] mt-[40px]">
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight ">
                     {t("benefitsTitle")}
                   </h2>
@@ -264,7 +264,7 @@ export default function Page() {
                     );
                   })}
                 </div>
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                <div className="md:mt-[50px] mt-[40px]">
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                     {t("applicationTitle")}
                   </h2>
@@ -292,7 +292,7 @@ export default function Page() {
                     })}
                   </div>
                 </div>{" "}
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                <div className="md:mt-[50px] mt-[40px]">
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                     {t("buildingTitle")}
                   </h2>
@@ -307,7 +307,7 @@ export default function Page() {
                     );
                   })}
                 </div>
-                <div className="xl:mt-[80px] mt-[40px]">
+                <div className="xl:mt-[50px] mt-[40px]">
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
                     {" "}
                     {t("faqTitle")}
