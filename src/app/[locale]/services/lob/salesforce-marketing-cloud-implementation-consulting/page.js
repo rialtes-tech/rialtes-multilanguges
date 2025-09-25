@@ -356,8 +356,15 @@ export default function Page() {
                     </div>
 
                     <div className="relative z-20 mt-10 grid xl:grid-cols-2 gap-10 px-4 xl:px-0 max-md:px-[35px] pb-[90px] xl:pb-0">
-                        <div className="4xl:mt-[40rem] mt-[14rem] xs:mt-[17rem] md:mt-[38rem] xl:mt-[29rem] xl:ml-[5rem] 4xl:ml-0 2xl:mt-[32rem]">
-                            <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight pr-10 xl:pr-0 4xl:pr-0">
+                        <div className="4xl:mt-[40rem]  xl:mt-[29rem] xl:ml-[5rem] 4xl:ml-0 2xl:mt-[32rem]">
+                            <h2 className={`text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight pr-10 xl:pr-0 4xl:pr-0
+                               ${locale === "es"
+                                    ? "mt-[15rem] xxs:mt-[14rem] xs:mt-[18rem] md:mt-[38rem] lg:mt-[48rem]"
+                                    : locale === "fr"
+                                        ? "mt-[15rem] xxs:mt-[14rem] xs:mt-[18rem] md:mt-[38rem] lg:mt-[48rem]"
+                                        : "mt-[15rem] xxs:mt-[14rem] xs:mt-[18rem] md:mt-[38rem] lg:mt-[48rem]"
+                                }`}
+                >
                                 {t('reimaginTitle')}
                             </h2>
                             <p className="mt-5 text-[16px] 4xl:text-[22px]">
@@ -432,10 +439,10 @@ export default function Page() {
             {/* your growth section */}
             <section className={` custom-container relative 4xl:pr-[142px]  max-md:px-0
              ${locale === "es"
-                                    ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[98rem] xs:mt-[1333px] sm:mt-[58rem] md:mt-[52rem] lg:mt-[80rem] xl:mt-[30rem]"
+                                    ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[100rem] xs:mt-[1333px] sm:mt-[58rem] md:mt-[52rem] lg:mt-[80rem] xl:mt-[30rem]"
                                     : locale === "fr"
-                                        ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[98rem] xs:mt-[1413px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[32rem]"
-                                        : "4xl:mt-[14rem] 2xl:mt-[10rem] mt-[98rem] xs:mt-[1200px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[20rem]"
+                                        ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[104rem] xs:mt-[1413px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[32rem] max-md:px-0"
+                                        : "4xl:mt-[14rem] 2xl:mt-[10rem] mt-[98rem] xs:mt-[1200px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[20rem] max-md:px-0"
                                 }`}
             >
                 <div className="grid grid-cols-1 xl:grid-cols-2 items-stretch relative">

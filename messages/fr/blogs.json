@@ -2782,6 +2782,7 @@
             }
         ],
         "blogTopic": "Salesforce Agentforce",
+        "blogDate": "21 octobre 2024",
         "blogTitle": "Le cerveau derrière les agents : dévoiler le moteur de raisonnement Atlas dans Agentforce",
         "blogMainData": "À mesure que les entreprises se développent, la complexité de la gestion des interactions clients se multiplie, entraînant le besoin de systèmes de support plus intelligents et rationalisés.",
         "blogMainDataLink": "Salesforce Agentforce",
@@ -6117,6 +6118,6 @@
         "benefitsDesc": "Les organisations qui adoptent MediAIna peuvent s’attendre à un impact mesurable :",
         "benefitsDesc2": "En résumé, MediAIna est plus qu’un logiciel ; c’est la colonne vertébrale d’un écosystème de soins connectés pour l’avenir.",
         "bettingTitle": "Parier sur l’avenir",
-    "faqTitle": "FAQs : Importance des écosystèmes de soins connectés pour la pharmacie et les technologies médicales"
+        "faqTitle": "FAQs : Importance des écosystèmes de soins connectés pour la pharmacie et les technologies médicales"
     }
 }

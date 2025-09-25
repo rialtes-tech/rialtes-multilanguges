@@ -78,7 +78,7 @@ export default function Page() {
             <section className="custom-container">
                 <div className="py-10 bg-white 4xl:max-w-[1084px] 4xl:w-[1084px] xl:w-[840px]">
                     <div>
-                        <h1 className="text-[#000000] py-6  leading-tight  text-[24px]  4xl:text-[60px] xl:text-[45px] 2xl:text-[48px]">
+                        <h1 className="text-[#000000] py-6  leading-tight  text-[24px]  4xl:text-[60px] xl:text-[42px] 2xl:text-[48px]">
                             {t("dealerTitle")}
                         </h1>
                     </div>
@@ -91,59 +91,59 @@ export default function Page() {
                                 {t("date")}
                             </div>
                             <div className="flex flex-col ">
-                                  <div className="flex flex-row gap-6 ml-[-8px]">
-                            <div className="max-w-[40px]">
-                                <a
-                                    href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                                        fullUrl
-                                    )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <Image
-                                        src="/images/case-studies/linkedin.svg"
-                                        alt="LinkedIn"
-                                        width={0}
-                                        height={0}
-                                        sizes="100vw"
-                                        style={{
-                                            width: "100%",
-                                            height: "100%",
-                                            objectFit: "cover",
-                                        }}
-                                        priority
-                                    />
-                                </a>
-                            </div>
-                            <div className="max-w-[40px]">
-                                <a
-                                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                                        fullUrl
-                                    )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    {" "}
-                                    <Image
-                                        src="/images/case-studies/twitter.svg"
-                                        alt="Twitter"
-                                        width={0}
-                                        height={0}
-                                        sizes="100vw"
-                                        style={{
-                                            width: "100%",
-                                            height: "100%",
-                                            objectFit: "cover",
-                                        }}
-                                        priority
-                                    />
-                                </a>
-                            </div>
-                        </div>
+                                <div className="flex flex-row gap-6 ml-[-8px]">
+                                    <div className="max-w-[40px]">
+                                        <a
+                                            href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
+                                                fullUrl
+                                            )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <Image
+                                                src="/images/case-studies/linkedin.svg"
+                                                alt="LinkedIn"
+                                                width={0}
+                                                height={0}
+                                                sizes="100vw"
+                                                style={{
+                                                    width: "100%",
+                                                    height: "100%",
+                                                    objectFit: "cover",
+                                                }}
+                                                priority
+                                            />
+                                        </a>
+                                    </div>
+                                    <div className="max-w-[40px]">
+                                        <a
+                                            href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
+                                                fullUrl
+                                            )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            {" "}
+                                            <Image
+                                                src="/images/case-studies/twitter.svg"
+                                                alt="Twitter"
+                                                width={0}
+                                                height={0}
+                                                sizes="100vw"
+                                                style={{
+                                                    width: "100%",
+                                                    height: "100%",
+                                                    objectFit: "cover",
+                                                }}
+                                                priority
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="pt-4"></div>
-                     
+
                     </div>
                     <div className="py-6"></div>
                     <div>
@@ -178,7 +178,7 @@ export default function Page() {
                                 {t("autoTitle")}
                             </h2>
                             <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("autoDesc")}</p>
-                            <h3 className="h3-bold pb-4 4xl:text-[20px] text-[18px] md:text-[19px]">
+                            <h3 className="h3-bold pb-4 4xl:text-[20px] 2xl:text-[19px] xl:text-[18px] text-[18px] md:text-[19px]">
                                 {t("approachTitle")}
                             </h3>
                             <div className="pl-2">
@@ -261,7 +261,7 @@ export default function Page() {
                             <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
                                 {t("conclusionTitle")}
                             </h2>
-                            <p>{t("conclusionDesc")}</p>
+                            <p className="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px]">{t("conclusionDesc")}</p>
                         </div>
                     </div>
                 </div>
