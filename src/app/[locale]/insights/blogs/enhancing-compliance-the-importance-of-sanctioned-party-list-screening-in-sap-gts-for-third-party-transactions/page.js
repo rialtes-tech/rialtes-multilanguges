@@ -111,7 +111,7 @@ export default function Page() {
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> {t('blogTitle')}</h1>
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight"> {t('blogTitle')}</h1>
               <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogMainData')}</p>
               <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t('blogMainData2')}
@@ -141,12 +141,12 @@ export default function Page() {
                         {
                           data.desc && <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
                         }
-                        <ul className="list-disc marker:text-[#0092E0] marker:text-xl xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium space-y-4">
+                        <ul className="list-disc marker:text-xl mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium space-y-4">
                           {
                             data.list.map((elem, id) => {
                               return (
                                 <li key={id}>
-                                  <h3 className="h3-bold inline">
+                                  <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                                     {elem.title}
                                   </h3>
                                   {elem.desc}

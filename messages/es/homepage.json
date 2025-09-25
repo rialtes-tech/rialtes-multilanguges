@@ -448,7 +448,7 @@
     },
     "privacyPolicy": {
         "headerTitle": "Política de Privacidad",
-        "headerDate": "Fecha de entrada en vigor: 19 de marzo de 2025.",
+        "headerDate": "Fecha de entrada en vigor: ",
         "headerDesc": "Valoramos su privacidad y estamos comprometidos con la protección de sus datos. Este Aviso de Privacidad explica cómo recopilamos, utilizamos, divulgamos y protegemos su información cuando visita nuestro sitio web",
         "headerDescOne": ". También describe sus derechos y opciones con respecto a su información personal.",
         "headerDescTwo": " Al acceder o utilizar nuestro sitio web, usted reconoce y acepta las prácticas descritas en esta Política de Privacidad. Si no está de acuerdo con nuestras políticas y prácticas, por favor deje de usar nuestro sitio web.",
@@ -480,7 +480,7 @@
         "changeDesc": "Podemos actualizar esta Política de Privacidad de vez en cuando para reflejar cambios en nuestras prácticas, servicios o requisitos legales. Cualquier actualización será publicada en esta página con la fecha de vigencia revisada. Le recomendamos revisar esta política periódicamente.",
         "contactUs": "Contáctenos",
         "thankYou": "Gracias por visitar nuestro sitio web. Si tiene alguna pregunta, inquietud o solicitud relacionada con esta Política de Privacidad, comuníquese con nosotros a través de nuestro",
-        "contactForm": "formulario de contacto.",
+        "contactForm": "formulario de contacto",
         "euRightsList": [
             {
                 "title": "Acceso y rectificación",

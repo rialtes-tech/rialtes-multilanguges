@@ -114,7 +114,7 @@ export default function Page() {
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> {t('blogTitle')}</h1>
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight"> {t('blogTitle')}</h1>
               <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogMainData')}</p>
               <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogMainData2')}</p>
 
@@ -158,12 +158,12 @@ export default function Page() {
               {/* use cases section */}
               <div className="md:mt-[50px] mt-[40px]">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('useCasesTitle')}</h2>
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl pl-[34px] space-y-3 mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl pl-[34px] space-y-4 mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium">
                   {
                     useCasesData.map((data, ind) => {
                       return (
-                        <li className="pb-4" key={ind}>
-                          <h4 className="inline">
+                        <li key={ind}>
+                          <h4 className="inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                             {data.title}
                           </h4>{data.desc}
                         </li>

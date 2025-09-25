@@ -141,7 +141,7 @@ export default function Page() {
 
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12">
-                    <div className="4xl:col-span-9 xl:col-span-10 lg:col-span-11">
+                    <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
                         {/* date and icons */}
                         <div className="sm:flex justify-between">
@@ -379,19 +379,18 @@ export default function Page() {
                                 </div>
                             </div>
 
-
-                            {/* faq section */}
-                            <div className="xl:mt-[80px] mt-[40px]">
-                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('faqTitle')}</h2>
-                                <div className="mt-[29px] xl:mt-[34px]">
-                                    <FAQAccordion faqData={faqs} />
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
+            {/* faq section */}
+            <section className="xl:mt-[80px] mt-[40px] custom-container">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('faqTitle')}</h2>
+                <div className="mt-[29px] xl:mt-[34px]">
+                    <FAQAccordion faqData={faqs} />
+                </div>
+            </section>
             {/* blog carousel */}
             <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
                 <FilteredBlogCarousel url={currUrl} />

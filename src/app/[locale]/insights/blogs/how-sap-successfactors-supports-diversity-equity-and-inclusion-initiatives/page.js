@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from 'next/link';
-import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
@@ -109,7 +108,7 @@ export default function Page() {
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> {t('blogTitle')}</h1>
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight"> {t('blogTitle')}</h1>
               <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogMainData')}</p>
               <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogMainData2')}</p>
 

@@ -109,7 +109,7 @@ export default function Page() {
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> {t('blogTitle')}</h1>
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight"> {t('blogTitle')}</h1>
               <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogMainData')}</p>
 
               <div className="md:mt-[50px] mt-[40px]">
@@ -130,7 +130,7 @@ export default function Page() {
                         <ul className="list-disc marker:text-[#0092E0] marker:text-xl mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium">
                           {data.list.map((elem, id) => {
                             return (
-                              <li className="pb-2" key={id}><h4 className="font-bold inline">{elem.title}</h4>{" "}{elem.desc}</li>
+                              <li className="pb-2" key={id}><h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{elem.title}</h4>{" "}{elem.desc}</li>
                             )
                           })}
                         </ul>
