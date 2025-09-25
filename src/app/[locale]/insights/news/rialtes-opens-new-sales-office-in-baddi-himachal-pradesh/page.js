@@ -70,7 +70,7 @@ export default function Page() {
               priority
               className="object-cover"
             />
-            <h1 className="text-white text-[26px] xl:text-[40px] 4xl:text-[50px] font-medium sm:w-[65%] absolute top-1/2 -translate-y-1/2 left-4 max-md:pr-4 md:left-8 xl:left-20">
+            <h1 className="text-white leading-tight text-[26px] xl:text-[40px] 4xl:text-[50px] font-medium sm:w-[65%] absolute top-1/2 -translate-y-1/2 left-4 max-md:pr-4 md:left-8 xl:left-20">
               {t("rialtesTitle")}
             </h1>
           </div>
@@ -79,7 +79,7 @@ export default function Page() {
         <div className="pt-10 pb-24 bg-white">
           <div className="container mx-auto border-b-[2px] border-gray-400 pb-6">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-[1084px]">
-              <div className="sm:mb-0 mb-6">{t("date")}</div>
+              <div className="sm:mb-0 mb-6">4 April 2025</div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
@@ -131,22 +131,22 @@ export default function Page() {
             {paragraphs.map((para, idx) => (
               <p
                 key={idx}
-                className="text-black 4xl:text-[22px] xl:text-[20px] text-[18px] mt-8"
+                className="text-black 4xl:text-[20px] xl:text-[17px] text-[16px] mt-8"
                 dangerouslySetInnerHTML={{ __html: para }}
               />
             ))}
-            <h3 className="text-[#068EDA] mt-10 font-bold">{t("heading")}</h3>
-            <p className="text-black 4xl:text-[22px] xl:text-[20px] text-[18px] mt-8">
+            <h2 className="text-[#068EDA] mt-10 font-bold 4xl:text-[32px] xl:text-[26px] text-[22px] leading-tight">{t("heading")}</h2>
+            <p className="4xl:text-[20px] xl:text-[17px] text-[16px] mt-8">
               {t("aboutDesc")}
             </p>
-            <p className="text-black 4xl:text-[22px] xl:text-[20px] text-[18px] mt-10">
+            <p className="4xl:text-[20px] xl:text-[17px] text-[16px] mt-10">
               {t("aboutDescOne")}
             </p>
-            <p className="text-black 4xl:text-[22px] xl:text-[20px] text-[18px] mt-2 font-bold">
+            <p className="4xl:text-[20px] xl:text-[17px] text-[16px] mt-2 font-bold">
               {t("aboutDescTwo")}
             </p>
 
-            <p className="4xl:text-[22px] xl:text-[20px] text-[18px]">
+            <p className="4xl:text-[20px] xl:text-[17px] text-[16px]">
               Email: pr@rialtes.com
             </p>
           </div>
