@@ -3849,6 +3849,7 @@
         "thatDesc": "El desarrollo responsable de la IA es clave para la sostenibilidad a largo plazo",
         "goals": "¿Cómo pueden las empresas usar la IA para avanzar en los objetivos de sostenibilidad?",
         "smarter": "Toma un camino más inteligente hacia un futuro sostenible con IA",
+        "faq": "Preguntas frecuentes: El papel de la IA en impulsar el futuro sostenible de nuestro planeta",
         "faqs": [
             {
                 "question": "1. ¿Cómo está transformando la IA la gestión energética?",
@@ -4098,13 +4099,13 @@
         ],
         "readyData": [
             "En Rialtes, trabajamos con empresas para integrar los LLMs directamente en su plataforma de atención al cliente, ofreciendo conversaciones más inteligentes, una resolución más rápida y experiencias más humanas en todos los canales.",
-            "Con nuestra <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>experiencia en consultoría de Agentforce </span> </a>, le ayudaremos a construir una estrategia escalable, segura y alineada con sus objetivos, ya sea reducir la carga de soporte, aumentar el NPS o brindar asistencia multilingüe 24/7. Hagamos que su <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> experiencia del cliente sea tan inteligente como sus clientes </span> </a> esperan que sea. Contáctenos en <a href='https://www.rialtes.com/contact-us'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com </span> </a> para iniciar la conversación."
+            "Con nuestra <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>experiencia en consultoría de Agentforce</span></a>, le ayudaremos a construir una estrategia escalable, segura y alineada con sus objetivos, ya sea reducir la carga de soporte, aumentar el NPS o brindar asistencia multilingüe 24/7. Hagamos que su <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> experiencia del cliente sea tan inteligente como sus clientes</span></a> esperan que sea. Contáctenos en <a href='https://www.rialtes.com/contact-us'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com</span></a> para iniciar la conversación."
         ],
         "blogTopic": "Inteligencia Artificial",
         "blogTitle": "IA que escucha, aprende y ofrece: cómo los modelos de lenguaje grande están transformando la experiencia del cliente",
         "blogMainData": [
             "Una gran experiencia del cliente comienza con una gran escucha. Pero no se trata solo de oír las palabras; se trata de comprender la intención, la emoción, el contexto y la historia. Ahí es donde los modelos tradicionales se quedan cortos y donde entran en juego los Modelos de Lenguaje Extensos (LLMs).",
-            "Los LLMs, impulsados por la inteligencia artificial generativa, están redefiniendo la forma en que las empresas escuchan y responden. Van más allá de la automatización. Permiten una conversación real para impulsar el <a href='https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> futuro sostenible de nuestro planeta. </span></a>",
+            "Los LLMs, impulsados por la inteligencia artificial generativa, están redefiniendo la forma en que las empresas escuchan y responden. Van más allá de la automatización. Permiten una conversación real para impulsar el <a href='https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> futuro sostenible de nuestro planeta</span>.</a>",
             "En esta guía, explicaremos qué son los LLMs, cómo funcionan y qué los hace tan efectivos en la transformación de la experiencia del cliente (CX). También verás por qué se están volviendo fundamentales para las empresas que quieren mantenerse competitivas, receptivas y humanas, incluso a medida que escalan."
         ],
         "llmTitle": "¿Qué es un modelo de lenguaje grande (LLM) y cómo funciona?",
@@ -5772,7 +5773,7 @@
             "El punto clave es que adoptar agentes de IA va más allá de comprar una nueva herramienta; implica reconocer cuándo su empresa está preparada para dar este salto. Si identifica estas cinco señales en sus operaciones, actuar rápidamente es crucial, ya que puede que ya se esté quedando atrás."
         ],
         "payoffData": [
-            "Si se identifica con dos o más de los siguientes escenarios, está bien posicionado para adoptar agentes de IA. Sus sistemas, procesos y necesidad de mejora ya están en su lugar; lo que necesita es una capa de inteligencia que integre todo y actúe en tiempo real. Cuando se implementan de manera eficaz, los agentes de IA reducen costos, mejoran la agilidad,<a href='https: //www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> generan confianza en los clientes </span></a> y mejoran la resiliencia de sus operaciones.",
+            "Si se identifica con dos o más de los siguientes escenarios, está bien posicionado para adoptar agentes de IA. Sus sistemas, procesos y necesidad de mejora ya están en su lugar; lo que necesita es una capa de inteligencia que integre todo y actúe en tiempo real. Cuando se implementan de manera eficaz, los agentes de IA reducen costos, mejoran la agilidad, <a href='https: //www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>generan confianza en los clientes</span></a> y mejoran la resiliencia de sus operaciones.",
             "Rialtes ayuda a los fabricantes a implementar Agentforce en operaciones, ventas y servicio. Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> Socio Crest de Salesforce</span></a>, aportamos la estrategia, los sistemas y el soporte para hacer que los agentes de IA sean una realidad de forma rápida. <Strong> Construyamos agentes pensantes para sus operaciones.</Strong>"
         ],
         "commonData": [
@@ -5843,7 +5844,7 @@
         "blogTopic": "Inteligencia Artificial",
         "blogTitle": "5 señales de que está listo para implementar agentes de IA en sus operaciones de manufactura",
         "payoffTitle": "La recompensa de estar preparado",
-        "faqTitle": "Preguntas frecuentes: Agentes de IA en la manufactura"
+        "faqTitle":"FAQs: Implementar agentes de IA en sus operaciones de fabricación"
     },
     "connectedCore": {
         "mainData": [
@@ -6002,6 +6003,6 @@
         "benefitsDesc": "Las organizaciones que adopten MediAIna pueden esperar un impacto medible:",
         "benefitsDesc2": "En resumen, MediAIna es más que un software; es la columna vertebral de un ecosistema de atención conectada para el futuro.",
         "bettingTitle": "Apostando por el futuro",
-        "faqTitle": "Preguntas frecuentes"
+           "faqTitle": "FAQs : Importancia de los ecosistemas de atención conectada para la industria farmacéutica y la tecnología médica"
     }
 }

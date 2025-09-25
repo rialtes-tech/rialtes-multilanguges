@@ -243,6 +243,7 @@
         "contactTitle": "Partner with Rialtes for Your SAP SuccessFactors Journey",
         "contactSubTitle": "Whether you are starting fresh, migrating from Workday or ZOHO, or enhancing your current SuccessFactors environment, Rialtes’ SuccessPlus offers the expertise, tools, and methodology to drive real HR transformation.",
         "empoweringTitle": " Rialtes — Empowering Enterprises to Lead with SAP SuccessFactors Journey",
+        "knowMore":"Know More",
         "relatedData": [
             "SAP S/4HANA for Finance & Operations.",
             "SAP Ariba for Direct & Indirect Procurement",
@@ -1399,6 +1400,7 @@
             "Flexible, outcome-based engagement models."
         ],
         "headerTitle": "SAP Digital Desk",
+        "learnMoreBtn": " Learn More",
         "headerSubTitle": "Maximize Your SAP Investment with Always-On Expertise",
         "pageDescTitle": "Reimagine SAP Support with Rialtes Managed Services",
         "pageDesc1": "At Rialtes, we empower organizations to run their SAP landscapes more efficiently, securely, and effectively. SAP Digital Desk, our next-gen managed services platform, brings together end-to-end SAP expertise, from stabilization and innovation to continuous optimization, ensuring your SAP systems become a strategic driver for business growth, not just an operational tool.",
@@ -1572,6 +1574,7 @@
             "Fully integrated with Salesforce workflows and automation for real - time, intelligent conversations."
         ],
         "headerTitle": "Retail+",
+          "learnMoreBtn": " Learn More",
         "headerSubTitle": "Intelligent, Connected, and Scalable Retail Transformation",
         "empoweringTitle": " Empowering Global Retailers with AI-Driven, Omnichannel Solutions",
         "empoweringDesc1": "In today’s dynamic and highly competitive retail landscape, customer expectations are evolving rapidly, driven by hyper-personalization, seamless omnichannel engagement, and intelligent operations. At Rialtes, we bring over a decade of global consulting experience to help B2B and B2C retailers successfully navigate these challenges and drive sustainable growth.",
@@ -1607,6 +1610,7 @@
     },
     "lifeAiPlus": {
         "headerTitle": "LifeAI+",
+         "learnMoreBtn": " Learn More",
         "headerSubTitle": "Transforming Life Sciences with Rialtes LifeAI+ Services",
         "pageDescTitle": "Salesforce Life Sciences Cloud Services for Smarter, Compliant Innovation with AI",
         "pageDesc1": "At Rialtes, we understand that the life sciences industry is rapidly evolving — with growing expectations from patients, providers, regulators, and partners. To meet these demands, organizations need intelligent, AI-driven solutions that integrate compliance, personalization, and automation at scale.",
@@ -1685,6 +1689,7 @@
             "Proactive Intervention Triggers — powered by AI models using real-time Data Cloud signals."
         ],
         "whatIsLifeTitle": "What is LifeAI+?",
+
         "whatIsLifeDesc": "A 360° consulting service that unites Advisory, Design, Implementation, Quality Assurance, Integration, and Post-Go-Live Support — ensuring continuous value creation and innovation across your life sciences value chain.",
         "whatIsLifeSubTitle": "Our End-to-End Services Include:",
         "whyPartnerTitle": "Why Partner with Rialtes?",

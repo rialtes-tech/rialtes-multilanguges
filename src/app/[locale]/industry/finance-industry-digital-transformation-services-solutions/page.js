@@ -201,7 +201,7 @@ export default function Page() {
             </div>
             <div className="lg:col-span-6 col-span-12 md:col-span-1">
               <UnorderedList arrName={thougthLeadershipData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pb-[40px]" liClassName="" />
-              <div className=" absolute bottom-0">
+              <div className=" absolute bottom-0"> 
                <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
@@ -414,12 +414,12 @@ export default function Page() {
                 </p>
               </div>
               {/* Mobile */}
-              <p className={`4xl:text-[26px] xl:text-[22px] text-[18px] max-md:m-[29px] bg-[#006FBE] p-[24px] text-white leading-tight hidden md:block relative
+              <p className={` max-md:m-[29px] bg-[#006FBE] p-[24px] text-white leading-tight hidden md:block relative
                 ${locale === "es"
-                                    ? "mt-[25px]"
+                                    ? "mt-[25px] 4xl:text-[26px] xl:text-[19px] 2xl:text-[20px] text-[18px]"
                                     : locale === "fr"
-                                        ? "mt-[25px]"
-                                        : "mt-[25px]"
+                                        ? "mt-[25px] 4xl:text-[26px] xl:text-[22px] text-[18px]"
+                                        : "mt-[25px] 4xl:text-[26px] xl:text-[22px] text-[18px]"
                                 }`}
 
               

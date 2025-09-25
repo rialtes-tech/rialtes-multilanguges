@@ -213,7 +213,7 @@ export default function page() {
             </ul>
 
             <div className="absolute xl:mt-[35px] mt-[25px] md:mt-0">
-              <LearnMore bgcolor="#006FBE" />
+              <LearnMore bgcolor="#006FBE" btnName={t('learnMoreBtn')}/>
             </div>
           </div>
         </div>
@@ -329,7 +329,7 @@ export default function page() {
                 {t('specializedDesc')}
               </p>
               <div className="bottom-0  absolute">
-                <LearnMore />
+                <LearnMore  btnName={t('learnMoreBtn')}/>
               </div>
             </div>
           </div>
@@ -365,7 +365,7 @@ export default function page() {
               {t('aiDrivenDesc')}
             </p>
             <div className="absolute bottom-0">
-              <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+              <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')}/>
             </div>
           </div>
         </div>
@@ -381,7 +381,7 @@ export default function page() {
               <h3 className="text-[#0A6BB8] xl:pr-20 4xl:pr-8 font-semibold leading-tight 4xl:text-[30px] xl:text-[20px]">{item.title}</h3>
               <p className="4xl:text-[24px] text-[16px] mt-5 xl:pr-10 font-normal mb-[40px] leading-tight">{item.description}</p>
               <div className="absolute bottom-[-20px]">
-                <LearnMore />
+                <LearnMore btnName={t('learnMoreBtn')}/>
               </div>
             </div>
           ))}
@@ -478,7 +478,7 @@ export default function page() {
                       : "4xl:mt-0 xl:mt-[30px] 2xl:mt-[26px]"
                   }`}
                 >
-                  <LearnMore />
+                  <LearnMore btnName={t('learnMoreBtn')}/>
                 </div>
               </div>
             </div>

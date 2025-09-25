@@ -243,6 +243,7 @@
         "contactTitle": "Asóciese con Rialtes para su Transformación con SAP SuccessFactors",
         "contactSubTitle": "Ya sea que esté comenzando, migrando desde Workday o ZOHO, o mejorando su entorno actual de SuccessFactors, SuccessPlus de Rialtes ofrece la experiencia, herramientas y metodología para lograr una verdadera transformación de RRHH.",
         "empoweringTitle": " Rialtes — Impulsando Empresas a Liderar con SAP SuccessFactors",
+        "knowMore": "Saber más",
         "relatedData": [
             "SAP S/4HANA para Finanzas y Operaciones.",
             "SAP Ariba para Compras Directas e Indirectas",
@@ -1399,6 +1400,7 @@
             "Modelos de compromiso flexibles, basados en resultados."
         ],
         "headerTitle": "SAP Digital Desk",
+         "learnMoreBtn": "Saber Más",
         "headerSubTitle": "Maximice su inversión en SAP con experiencia siempre disponible",
         "pageDescTitle": "Reimagine el Soporte SAP con los Servicios Gestionados de Rialtes",
         "pageDesc1": "En Rialtes, ayudamos a las organizaciones a operar sus paisajes SAP de manera más eficiente, segura y efectiva. SAP Digital Desk, nuestra plataforma de servicios gestionados de nueva generación, reúne experiencia SAP integral, desde estabilización e innovación hasta optimización continua, asegurando que sus sistemas SAP impulsen el crecimiento empresarial.",
@@ -1572,6 +1574,7 @@
             "Totalmente integrado con flujos de trabajo y automatización de Salesforce para conversaciones inteligentes en tiempo real."
         ],
         "headerTitle": "Retail+",
+          "learnMoreBtn": "Saber Más",
         "headerSubTitle": "Transformación minorista inteligente, conectada y escalable",
         "empoweringTitle": "Empoderando a minoristas globales con soluciones omnicanal impulsadas por IA",
         "empoweringDesc1": "En el panorama minorista dinámico y altamente competitivo de hoy, las expectativas del cliente evolucionan rápidamente, impulsadas por la hiperpersonalización, el compromiso omnicanal fluido y operaciones inteligentes. En Rialtes, aportamos más de una década de experiencia global en consultoría para ayudar a minoristas B2B y B2C a afrontar estos desafíos con éxito y lograr un crecimiento sostenible.",
@@ -1607,6 +1610,7 @@
     },
     "lifeAiPlus": {
         "headerTitle": "LifeAI+",
+         "learnMoreBtn": "Saber Más",
         "headerSubTitle": "Transformando las Ciencias de la Vida con los Servicios LifeAI+ de Rialtes",
         "pageDescTitle": "Servicios en la Nube de Salesforce para Ciencias de la Vida: Innovación Inteligente y Cumplimiento con IA",
         "pageDesc1": "En Rialtes, comprendemos que la industria de las ciencias de la vida está evolucionando rápidamente, con crecientes expectativas de pacientes, proveedores, reguladores y socios. Para satisfacer estas demandas, las organizaciones necesitan soluciones inteligentes impulsadas por IA que integren cumplimiento normativo, personalización y automatización a escala.",
