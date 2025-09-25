@@ -397,6 +397,7 @@
         "seamlessTitle": "Intégration fluide avec SAP, Oracle, MuleSoft pour des opérations unifiées en sciences de la vie",
         "seamlessSubTitle": "Propulsé par Data Cloud",
         "contactTitle": "Prêt à transformer les sciences de la vie avec Rialtes ?",
+        "learnMoreBtn": "En savoir plus",
         "contactSubTitle": "Associez-vous à Rialtes pour débloquer l'innovation, la conformité et des solutions centrées sur le patient dans tout l'écosystème des sciences de la vie.",
         "contactSubTitle2": "Contactez-nous dès aujourd'hui pour découvrir comment Rialtes peut stimuler la croissance et l'impact patient de votre organisation."
     },
@@ -507,6 +508,7 @@
         "growServicesDesc": "L’industrie de la santé évolue à un carrefour critique entre technologie et soins aux patients. Chez Rialtes, nous proposons des solutions spécialisées Salesforce Health Cloud permettant aux établissements médicaux d’améliorer leur agilité et de se concentrer sur les besoins des patients. Nos solutions IT intégrées combinent logiciels hospitaliers, services MedTech et outils d’engagement patient pour offrir des soins exceptionnels, que ce soit pour les pharmacies ou les équipes de soins à domicile.",
         "servicesTitle": "De la Pharma à la MedTech, nous desservons tous les segments majeurs de la santé",
         "servicesDesc": "Nous proposons la mise en œuvre de Health Cloud, le développement d’applications santé, des services de conseil et bien plus pour les entreprises des segments de santé suivants.",
+        "learnMoreBtn": "En savoir plus",
         "contactTitle": "Faites le prochain pas vers l’excellence opérationnelle avec nous."
     },
     "pharmaBiotech": {
@@ -1011,6 +1013,7 @@
         "agentChatSubTitle2": "Conçu pour les soins à domicile",
         "relatedTitle": "Solutions connexes à explorer",
         "contactTitle": "Prêt à offrir des soins proactifs, connectés et empathiques directement aux patients ?",
+        "learnMoreBtn": "En savoir plus",
         "contactSubTitle": "Transformez votre modèle de soins avec les solutions de soins à domicile propulsées par Salesforce de Rialtes"
     },
     "semiconductor": {

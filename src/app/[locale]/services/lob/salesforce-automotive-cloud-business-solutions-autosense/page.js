@@ -92,7 +92,7 @@ export default function page() {
     const t = useTranslations('autoSense')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { keyPillarsSectionData, chooseRialtesData, rialtesMakesWorkData, thoughtLeadershipData} = content.autoSense;
+    const { keyPillarsSectionData, chooseRialtesData, rialtesMakesWorkData, thoughtLeadershipData } = content.autoSense;
     const KeyPillarsSectionDesign = () => {
         return (
             <section className="xl:mt-[95px] mt-[79px]">
@@ -104,7 +104,7 @@ export default function page() {
                 />
                 <div className="custom-container">
                     <h2 className="text-[000000] 4xl:text-[30px] xl:text-[24px] text-[18px] leading-tight font-bold">
-                      {t('keyPillarsTitle')}  
+                        {t('keyPillarsTitle')}
                     </h2>
                     <div className="xl:mt-[49px] mt-[35px]">
                         {keyPillarsSectionData.map((data, ind) => {
@@ -122,7 +122,7 @@ export default function page() {
                                                 </h3>
                                                 <UnorderedList arrName={data.listItems} ulClassName="list-disc text-[#FFFFFF] xl:mt-[24px] xl:px-[24px] pb-0 px-[22px] xl:pl-[52px] pl-[16px] xl:w-[80%] pr-0" liClassName="xl:mt[24px] mt-[19px] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" />
                                                 <div className="xl:mt-[31px] xl:px-[30px]">
-                                                    <LearnMore />
+                                                    <LearnMore btnName={t('learnMoreBtn')} />
                                                 </div>
                                             </div>
                                             <div className="order-1 md:order-none">
@@ -173,7 +173,7 @@ export default function page() {
                                                 </h3>
                                                 <UnorderedList arrName={data.listItems} ulClassName="list-disc text-[#FFFFFF] xl:mt-[24px] xl:px-[24px] pb-0 px-[22px] xl:pl-[52px] pl-[16px] xl:w-[90%] pr-0" liClassName="xl:mt[24px] mt-[19px] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" />
                                                 <div className="xl:mt-[31px] xl:px-[30px]">
-                                                    <LearnMore />
+                                                    <LearnMore btnName={t('learnMoreBtn')} />
                                                 </div>
                                             </div>
                                         </>
@@ -208,7 +208,7 @@ export default function page() {
                     })}
                 </div>
                 <div className="xl:mt-[52px] mt-[32px]">
-                    <LearnMore />
+                    <LearnMore btnName={t('learnMoreBtn')} />
                 </div>
             </section>
         );
@@ -288,7 +288,7 @@ export default function page() {
                         </div>
                     </div>
                     <div className="xl:mb-[34px] xl:mt-[78px] mt-[73px]">
-                        <LearnMore />
+                        <LearnMore btnName={t('learnMoreBtn')} />
                     </div>
                 </div>
             </section>
@@ -315,7 +315,7 @@ export default function page() {
                 </div>
                 <div className="md:hidden block">
                     <Image
-                        src="/images/industry/auto-sense/Mobile/auto-sense-banner-mob.webp"                                                                                                                                                                                                                                                                                                     
+                        src="/images/industry/auto-sense/Mobile/auto-sense-banner-mob.webp"
                         alt=""
                         fill
                         priority
@@ -326,7 +326,7 @@ export default function page() {
                         <div className="lg:col-span-5 2xl:col-span-5 4xl:col-span-7 col-span-12 mt-16 md:mt-28 2xl:mt-28 2xl:pr-[34px]">
                             <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">{t('headerTitle')}</h3>
                             <h1 className="text-white leading-tight md:text-[26px] xl:text-[40px] 4xl:text-[60px] mt-5 sm:w-[70%] lg:w-full">
-                              {t('headerSubTitle')}  
+                                {t('headerSubTitle')}
                             </h1>
                         </div>
                         <div className="xl:col-span-7 col-span-12">
@@ -385,12 +385,12 @@ export default function page() {
                             <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[10px]">
                                 <div className="">
                                     <h2 className="text-[#FFFFFF] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] lg:w-[80%] xl:w-full 2xl:w-[90%] 4xl:w-[100%]">
-                                    {t('partnerTitle')}   
+                                        {t('partnerTitle')}
                                     </h2>
                                 </div>
                                 <div className="lg:mt-0 2xl:mt-[14px] mt-[27px] xl:ml-[61px] xl:w-[80%] lg:pl-[40px]">
                                     <p className="text-[#FFFFFF] text-[16px] xl:text-[18px] 4xl:text-[24px] leading-tight font-normal lg:w-[80%] xl:w-full">
-                                     {t('partnerDesc')}   
+                                        {t('partnerDesc')}
                                     </p>
                                 </div>
                             </div>
@@ -402,7 +402,7 @@ export default function page() {
             <ThoughtLeadershipDesign />
             {/* Contact Form */}
             <div className="custom-container text-black xl:pb-20 pb-10 pt-[115px] xl:pt-[138px]">
-                <ContactForm title= {t('contactTitle')}   className={"max-w-[62rem] xl:font-light xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />
+                <ContactForm title={t('contactTitle')} className={"max-w-[62rem] xl:font-light xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />
             </div >
         </>
     )

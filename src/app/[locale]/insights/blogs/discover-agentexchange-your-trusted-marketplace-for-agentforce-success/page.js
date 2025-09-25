@@ -107,7 +107,7 @@ export default function Page() {
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> {t('blogTitle')}</h1>
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight"> {t('blogTitle')}</h1>
 
               <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t('blogMainData')}{" "}
@@ -136,10 +136,10 @@ export default function Page() {
                     understandingDataList.map((data, ind) => {
                       return (
                         <li key={ind}>
-                          <h3 className="h3-bold inline">
+                          <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                             {data.title}
                           </h3>
-                          {data.desc}
+                          {" "}  {data.desc}
                         </li>
                       )
                     })
@@ -160,8 +160,8 @@ export default function Page() {
                     whatLedData.map((data, ind) => {
                       return (
                         <li key={ind}>
-                          <h3 className="h3-bold inline">{data.title}</h3>
-                          {data.desc}
+                          <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.title}</h3>
+                         {" "} {data.desc}
                         </li>
                       )
                     })
@@ -187,10 +187,10 @@ export default function Page() {
                     exploreAllData.map((data, desc) => {
                       return (
                         <li key={desc}>
-                          <h4 className="h3-bold inline">
+                          <h4 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                             {data.title}
                           </h4>
-                          {data.desc}
+                         {" "} {data.desc}
                         </li>
                       )
                     })
@@ -206,7 +206,7 @@ export default function Page() {
                     seamlessData.map((data, ind) => {
                       return (
                         <li key={ind}>
-                          <h4 className="h3-bold inline">{data.title}</h4>
+                          <h4 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.title} {" "}</h4>
                           {data.desc}
                         </li>
                       )
@@ -242,7 +242,7 @@ export default function Page() {
                     {t('availabilityLink')}</Link>,{" "}
                   {t('availabilityData3')} ,
                   <Link className="underline" href={"mailto:sales@rialtes.com"}>
-                    <span> sales@rialtes.com</span>.
+                    <span>sales@rialtes.com</span>.
                   </Link>
                 </p>
               </div>

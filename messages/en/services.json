@@ -215,7 +215,6 @@
         "ourZohoSubTitle": "Benefits of Migrating from ZOHO HR to SAP SuccessFactors:",
         "benefitsMigratingTitle": " Benefits of Migrating to SAP SuccessFactors with Rialtes’ Success+",
         "processTitle": "Process-Driven Success with SAP Signavio and SAP Activate Methodology",
-       
         "processDesc": "Rialtes leverages SAP Signavio’s powerful process intelligence combined with SAP Activate Methodology to ensure smooth and efficient implementation of SAP SuccessFactors.",
         "processSubTitle1": "SAP Activate Methodology -",
         "processSubTitle2": "Phased Approach with Rialtes:",
@@ -693,6 +692,8 @@
         "futureProofingTitle": "Future-Proofing with AI, Data, and Automation: The Next Frontier",
         "futureProofingDesc": "Leverage SAP Data Cloud and Salesforce Agentforce AI to unlock next-gen ERP capabilities:",
         "contactTitle": "Ready to Grow with SAP? Partner with Rialtes VoyagerNext Today!",
+        "knowMoreBtn": "Know More",
+        "learnMoreBtn": "Learn More",
         "contactSubTitle": "Empower your growth journey with VoyagerNext — the Rialtes way to unlock S/4HANA Cloud potential."
     },
     "riseWithSap": {
@@ -1030,6 +1031,7 @@
         "introducingDesc": "AutoSense is Rialtes comprehensive service suite designed specifically for the evolving needs of the automotive ecosystem — including OEMs, suppliers, dealers, and mobility providers. AutoSense combines advisory, implementation, quality assurance, and post-go-live support, fully integrated with OEM technology partners like SAP and Salesforce.",
         "partnerTitle": " Partner with Rialtes to Drive Intelligent Automotive Transformation",
         "partnerDesc": "Whether you’re a global OEM, a growing EV brand, or a leading dealership network, Rialtes helps you connect technology with outcomes. From advisory and implementation to ongoing innovation, we are your partner in building the future of mobility.",
+        "learnMoreBtn": "Learn More",
         "contactTitle": "Accelerate Your Automotive Transformation with Rialtes"
     },
     "salesforceAgent": {
@@ -1238,6 +1240,7 @@
             }
         ],
         "knowMore": "Know More",
+        "learnMoreBtn": "Learn More",
         "contactTitle": "Let’s Elevate Your Salesforce Together!",
         "contactSubTitle": "Ready to unlock AI, boost productivity, and optimize Salesforce?",
         "contactSubTitleOne": "Contact Rialtes to discover how SalesforceAgent+ can supercharge your Salesforce ecosystem."
@@ -2071,6 +2074,7 @@
         "whyRialtesSubTitle": "The Experts Behind Your Salesforce Success",
         "contactTitle": "Get Started with RialFinance+ — Transform Your Financial Services with AI, Data, and Salesforce",
         "contactSubTitle": "Ready to future-proof your financial institution and deliver next-gen customer experiences?",
+        "learnMoreBtn": "Learn More",
         "contactSubTitle2": "Contact Rialtes to explore RialFinance+ — your partner for Salesforce-driven financial transformation."
     }
 }

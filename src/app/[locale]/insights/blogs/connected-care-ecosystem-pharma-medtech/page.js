@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
@@ -11,6 +10,8 @@ import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import useUrl from "@/app/[locale]/components/useUrl";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -92,6 +93,7 @@ const schemaData = {
 }
 
 export default function Page() {
+    const currUrl = useUrl()
     const t = useTranslations('connectedCore')
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
@@ -157,7 +159,7 @@ export default function Page() {
 
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
-                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]">{t('blogTitle')}</h1>
+                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t('blogTitle')}</h1>
 
                             <div className="xl:mt-[38px] mt-[33px]">
                                 {
@@ -174,7 +176,7 @@ export default function Page() {
                             </div>
 
                             {/* why connected section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 {
                                     whyConnectedData.map((data, ind) => {
                                         return (
@@ -216,7 +218,7 @@ export default function Page() {
                             </div>
 
                             {/* patient at the center section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{t('patientTitle')}</h2>
                                 <div className="mt-[29px] xl:mt-[34px]">
                                     {
@@ -236,7 +238,7 @@ export default function Page() {
                             </div>
 
                             {/* long term section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{t('longTermTitle')}</h2>
                                 <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('longTermDesc')}</p>
 
@@ -257,7 +259,7 @@ export default function Page() {
                             </div>
 
                             {/* reimagining section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 {
                                     reimaginingData.map((data, ind) => {
                                         return (
@@ -291,7 +293,7 @@ export default function Page() {
                             </div>
 
                             {/* mediana redefining section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 {
                                     medianaData.map((data, ind) => {
                                         return (
@@ -345,7 +347,7 @@ export default function Page() {
                             </div>
 
                             {/* competitive Edge section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 {
                                     competitiveData.map((data, ind) => {
                                         return (
@@ -364,7 +366,7 @@ export default function Page() {
                             </div>
 
                             {/* betting section */}
-                            <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{t('bettingTitle')}</h2>
                                 <div className="mt-[29px] xl:mt-[34px]">
                                     {
@@ -391,8 +393,8 @@ export default function Page() {
             </section>
 
             {/* blog carousel */}
-            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
-                <BlogsCarousel />
+            <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
+                <FilteredBlogCarousel url={currUrl} />
             </section>
         </section>
     )

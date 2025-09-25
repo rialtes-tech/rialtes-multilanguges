@@ -191,10 +191,10 @@ export default function Page() {
             </section>
             {/* thought leadership section */}
             <section
-                className={`relative group overflow-hidden text-white mt-16 xl:mt-20 3xl:h-[850px] xl:h-[920px] md:h-[720px] sm:h-[950px] h-[1150px] max-[374px]:h-[1300px]
-    ${frActive ? "3xl:h-[1000px] 2xl:h-[1000px] xl:h-[990px] lg:h-[820px] md:h-[900px] sm:h-[1050px] h-[1200px] max-[432px]:h-[1360px] max-[374px]:h-[1500px]" : ""}
-    ${esActive ? "3xl:h-[1050px] 2xl:h-[1000px] xl:h-[990px] lg:h-[820px] md:h-[840px] sm:h-[1050px] max-[432px]:h-[1300px] max-[356px]:h-[1500px]" : ""}`}
-            >
+                className={`relative group overflow-hidden text-white mt-16 xl:mt-20 
+    ${frActive ? "4xl:h-[1100px] 3xl:h-[1000px] 2xl:h-[1000px] xl:h-[990px] lg:h-[820px] md:h-[920px] sm:h-[1050px] h-[1200px] max-[432px]:h-[1360px] max-[374px]:h-[1500px]" : ""}
+    ${esActive ? "3xl:h-[1080px] 2xl:h-[1000px] xl:h-[990px] lg:h-[850px] md:h-[840px] sm:h-[1050px] h-[1150px] max-[432px]:h-[1300px] max-[356px]:h-[1500px]" : ""}
+    ${enActive ? "3xl:h-[850px] xl:h-[920px] md:h-[720px] sm:h-[950px] h-[1150px] max-[374px]:h-[1300px]" : ""}`}>
 
                 <div className="md:block hidden">
                     <Image
@@ -475,11 +475,11 @@ export default function Page() {
                             className="h-full w-full object-cover"
                         />
                     </div>
-                    <div className="grid lg:grid-cols-12 grid-cols-1 relative text-black">
+                    <div className="grid lg:grid-cols-12 grid-cols-1 relative max-md:pr-[35px] text-black">
                         <div className="lg:col-span-5 col-span-12">
                         </div>
                         <div className="lg:col-span-7 lg:order-2 col-span-12 lg:mt-[93px] mt-[500px md:mt-[600px] sm:mt-[500px] mt-[480px] lg:ml-[61px] lg:mr-[20px] ml-[36px] lg:mb-[81px] mb-[40px]">
-                            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[36px] lg:text-[30px] md:text-[30px] text-[22px] font-bold  lg:w-[680px]">{t('benefitsTitle')}</h3>
+                            <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[36px] lg:text-[30px] md:text-[30px] text-[22px] font-bold  lg:w-[680px] max-[415px]:pr-5">{t('benefitsTitle')}</h3>
                             <UnorderedList arrName={benefitsOfAiData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] text-[16px] mt-5 xl:pr-20 pr-10" liClassName="" />
                             <div className="mt-5 xl:block hidden">
                                 <LearnMore btnName={t('learnMoreBtn')} />
@@ -612,6 +612,6 @@ export default function Page() {
             <div className={`xl:mt-32 ${(frActive || esActive) ? "max-[360px]:mt-20 mt-14" : "mt-12"} custom-container text-black py-20`}>
                 <ContactForm title={t('contactTitle')} className={"max-w-[62rem]  font-light text-[26px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px] 4xl:text-[60px] leading-tight pr-10 xl:pr-0"} />
             </div>
-        </div>
+        </div >
     );
 }

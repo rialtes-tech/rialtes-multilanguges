@@ -120,7 +120,7 @@ export default function Page() {
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> {t('blogTitle')}</h1>
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight"> {t('blogTitle')}</h1>
 
               <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t('blogMainData')}
@@ -168,17 +168,17 @@ export default function Page() {
                   {t('thatsWhereData3')}
                 </p>
 
-                <UnorderdList arrName={copilotData} ulClassName="list-disc marker:text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[36px] mt-5 font-medium space-y-3" />
+                <UnorderdList arrName={copilotData} ulClassName="list-disc 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[36px] mt-5 font-medium space-y-3" />
 
                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
                   {t('withTitle')}
                 </p>
-                <ul className="pl-[34px] mt-5 list-disc font-medium space-y-3 marker:text-[#0092E0]">
+                <ul className="pl-[34px] mt-5 list-disc font-medium space-y-3">
                   {
                     intelligenceData.map((data, ind) => {
                       return (
                         <li key={ind} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                          <h4 className="h3-bold inline xl:text-[20px] text-[16px]">
+                          <h4 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                             {data.title}
                           </h4>
                           {data.desc}
@@ -202,7 +202,7 @@ export default function Page() {
                 <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {t('useCasesData')}
                 </p>
-                <UnorderdList arrName={useCases} ulClassName="list-disc marker:text-[#0092E0] pl-[34px] mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3" />
+                <UnorderdList arrName={useCases} ulClassName="list-disc pl-[34px] mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3" />
                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {t('useCasesData2')}
                 </p>
@@ -216,7 +216,7 @@ export default function Page() {
                   {t('agentforceData')}
                 </p>
 
-                <UnorderdList arrName={simplifyingData} ulClassName="list-disc marker:text-[#0092E0] pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 font-medium space-y-3" />
+                <UnorderdList arrName={simplifyingData} ulClassName="list-disc pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 font-medium space-y-3" />
                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
                   {t('agentforceData2')}
                 </p>
@@ -231,7 +231,7 @@ export default function Page() {
                 </h3>
                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5" dangerouslySetInnerHTML={{ __html: empowerData }} />
 
-                <UnorderdList arrName={giverPartnersData} ulClassName="list-disc marker:text-[#0092E0] pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 font-medium space-y-3" />
+                <UnorderdList arrName={giverPartnersData} ulClassName="list-disc pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 font-medium space-y-3" />
                 <h3 className="mt-8 text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight">
                   {t('enableMultilingualTitle')}
                 </h3>
@@ -255,7 +255,7 @@ export default function Page() {
                     {para}
                   </p>
                 ))}
-                <UnorderdList arrName={realTimeData} ulClassName="list-disc marker:text-[#0092E0] pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 font-medium space-y-3" />
+                <UnorderdList arrName={realTimeData} ulClassName="list-disc pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 font-medium space-y-3" />
               </div>
 
               {/* dont deliver section */}

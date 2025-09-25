@@ -240,7 +240,7 @@ export default function Page() {
                                 </p>
                                 <UnorderedList arrName={industryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                                 <div className="absolute bottom-[-20px] xl:pl-[61px] lg:pl-[26px]">
-                                    <LearnMore bgcolor="#006FBE" />
+                                    <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" />
                                 </div>
                             </div>
                         </div>
@@ -277,7 +277,7 @@ export default function Page() {
                                             <UnorderedList arrName={industryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-light" />
                                         </div>
                                         <div className="absolute bottom-[-20px] xl:pl-[61px] lg:pl-[26px]">
-                                            <LearnMore bgcolor="#006FBE" />
+                                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" />
                                         </div>
                                     </div>
                                 </div>

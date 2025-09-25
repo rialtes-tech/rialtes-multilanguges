@@ -397,6 +397,7 @@
     "seamlessTitle": "Seamless Integration with SAP, Oracle, MuleSoft for Unified Life Sciences Operations",
     "seamlessSubTitle": "Powered by Data Cloud",
     "contactTitle": "Ready to Transform Life Sciences with Rialtes?",
+    "learnMoreBtn": "Learn More",
     "contactSubTitle": "Partner with Rialtes to unlock innovation, compliance, and patient-centric solutions across the life sciences ecosystem.",
     "contactSubTitle2": "Contact us today to discover how Rialtes can drive growth and patient impact for your organization."
   },
@@ -507,6 +508,7 @@
     "growServicesDesc": "The healthcare industry is evolving at a critical crossroads of technology and patient care. At Rialtes, we offer specialized Salesforce Health Cloud solutions that enable medical facilities to enhance agility and focus on patient needs. Our integrated healthcare IT solutions combine hospital software, MedTech services, and patient engagement tools to deliver exceptional care, whether for pharmacies or in-home care teams.",
     "servicesTitle": "From Pharma to Medtech, We Serve all Major Healthcare Segments",
     "servicesDesc": "We offer Health cloud implementation, healthcare applications development, advisory services, and much more for companies within the following healthcare segments.",
+    "learnMoreBtn": "Learn More",
     "contactTitle": "Take the next step to operational excellence with us."
   },
   "pharmaBiotech": {
@@ -1011,6 +1013,7 @@
     "agentChatSubTitle2": "Designed for Home Health",
     "relatedTitle": "Related Solutions You Can Explore",
     "contactTitle": "Ready to Deliver Proactive, Connected, and Compassionate Care Directly to Patients?",
+    "learnMoreBtn": "Learn More",
     "contactSubTitle": "Transform your patient care model with Rialtes’ Salesforce-powered home health solutions"
   },
   "semiconductor": {
@@ -1644,7 +1647,7 @@
     "topTitle": "Top 4 Critical Challenges Facing Commercial and Retail Banking Today",
     "deepTitle": "Deep Expertise in Salesforce FSC & SAP S/4 HANA",
     "deepSubtitle": "Transforming Financial Operations End-to-End",
-     "learnMoreBtn": "Learn More",
+    "learnMoreBtn": "Learn More",
     "salesforceTitle": "Salesforce Financial Services Cloud (FSC)",
     "salesforceDesc": "Our Salesforce-certified architects and consultants deliver tailored FSC solutions to meet modern banking, lending, and wealth management needs:",
     "sapTitle": "SAP S/4 HANA for Financial Services",
@@ -1932,7 +1935,7 @@
     "partneringDesc": " With deep alliances with SAP and Salesforce, Rialtes delivers the most comprehensive, agile, and future-ready automotive solutions on the market. Our experts hold certifications in:",
     "relatedTitle": "Related Solutions",
     "contactTitle": "Ready to Transform Your Automotive Customer Experience?",
-    "learnMoreBtn":"Learn More"
+    "learnMoreBtn": "Learn More"
   },
   "travelIndustry": {
     "endToEndData": [

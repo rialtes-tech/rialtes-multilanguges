@@ -280,7 +280,7 @@
             },
             {
                 "title": "Agent Templates",
-                "desc": "Build comprehensive AI solutions by combining multiple topics, actions, and metadata into structured, scalable agent models."
+                "desc": ": Build comprehensive AI solutions by combining multiple topics, actions, and metadata into structured, scalable agent models."
             }
         ],
         "seamlessData": [
@@ -290,7 +290,7 @@
             },
             {
                 "title": "Pre-Built CRM and Slack Actions",
-                "desc": ":Partners can now offer out-of-the-box Agentforce actions, including Slack capabilities. These pre-packaged solutions support tasks like case creation, order cancellations, Slack canvas updates, and direct messaging, streamlining enterprise workflows."
+                "desc": ": Partners can now offer out-of-the-box Agentforce actions, including Slack capabilities. These pre-packaged solutions support tasks like case creation, order cancellations, Slack canvas updates, and direct messaging, streamlining enterprise workflows."
             },
             {
                 "title": "Industry-Specific AI Solutions",
