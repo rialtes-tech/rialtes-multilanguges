@@ -2725,6 +2725,7 @@
             }
         ],
         "blogTopic": "Salesforce Agentforce",
+        "blogDate": "21 de octubre de 2024",
         "blogTitle": "El Cerebro Detrás de los Agentes: Revelando el Atlas Reasoning Engine en Agentforce",
         "blogMainData": "A medida que las empresas escalan, la complejidad de gestionar las interacciones con los clientes se multiplica, lo que impulsa la necesidad de sistemas de soporte más inteligentes y eficientes.",
         "blogMainDataLink": "Salesforce Agentforce",
@@ -5844,7 +5845,7 @@
         "blogTopic": "Inteligencia Artificial",
         "blogTitle": "5 señales de que está listo para implementar agentes de IA en sus operaciones de manufactura",
         "payoffTitle": "La recompensa de estar preparado",
-        "faqTitle":"FAQs: Implementar agentes de IA en sus operaciones de fabricación"
+        "faqTitle": "FAQs: Implementar agentes de IA en sus operaciones de fabricación"
     },
     "connectedCore": {
         "mainData": [
@@ -6003,6 +6004,6 @@
         "benefitsDesc": "Las organizaciones que adopten MediAIna pueden esperar un impacto medible:",
         "benefitsDesc2": "En resumen, MediAIna es más que un software; es la columna vertebral de un ecosistema de atención conectada para el futuro.",
         "bettingTitle": "Apostando por el futuro",
-           "faqTitle": "FAQs : Importancia de los ecosistemas de atención conectada para la industria farmacéutica y la tecnología médica"
+        "faqTitle": "FAQs : Importancia de los ecosistemas de atención conectada para la industria farmacéutica y la tecnología médica"
     }
 }
