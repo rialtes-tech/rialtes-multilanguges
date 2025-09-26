@@ -99,7 +99,7 @@ export default function Page() {
               <div className="">
                 <span className="text-[#0092E0]">{t("healthcare")} </span>
                 <span className="text-[#ACACAC]"> | </span>
-                {t("date")}
+                16 August 2024
               </div>
              
                    <div className="flex flex-col ml-[-8px]">
@@ -149,24 +149,24 @@ export default function Page() {
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] leading-tight pb-4">
                 {t("clientTitle")}
               </h2>
-              <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">{t("clientDesc")} </p>
+              <p className="4xl:text-[20px] xl:text-[17px] text-[16px]">{t("clientDesc")} </p>
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] leading-tight pb-4">
                 {t("peoblemTitle")}
               </h2>
-              <p className="text-black pb-6 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">{t("peoblemDesc")}</p>
+              <p className="text-black pb-6 4xl:text-[20px] xl:text-[17px] text-[16px]">{t("peoblemDesc")}</p>
 
               {challengesList.map((item, index) => (
                 <div
                   key={index}
-                  className="pb-4 text-black font-medium  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] "
+                  className="pb-4 text-black font-medium  4xl:text-[20px]  xl:text-[17px] text-[16px] "
                 >
-                  <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
+                  <h3 className="h3-bold inline 4xl:text-[22px] text-[18px] leading-tight">
                     {item.title}
                   </h3>
                   <span> : {item.description}</span>
@@ -175,16 +175,16 @@ export default function Page() {
 
               <div className="py-6"></div>
 
-              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] leading-tight pb-4">
                 {t("solutionsTitle")}
               </h2>
 
-              <p className="text-black pb-6 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">{t("solutionsDesc")}</p>
-              <div className="pl-2">
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium pl-[25px] lg:pl-[32px]">
+              <p className="text-black pb-6 4xl:text-[20px]   xl:text-[17px] text-[16px]">{t("solutionsDesc")}</p>
+              <div className="">
+                <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium pl-[36px] lg:pl-[56px]">
                   {solutionsList.map((item, idx) => (
                     <li className="pb-4 last:pb-0" key={idx}>
-                      <h3 className="h3-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
+                      <h3 className="h3-bold inline  4xl:text-[22px] text-[18px] leading-tight">
                         {item.title}
                       </h3> : {item.description}
                     </li>
@@ -196,13 +196,13 @@ export default function Page() {
           <div className="py-6"></div>
           <div className="">
             <div className="">
-              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] leading-tight pb-4">
                 {t('benefitsTitle')}
               </h2>
 
-              <div className="pl-2">
+              <div className="">
                 <UnorderedList
-                  ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black   4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium pl-[25px] lg:pl-[32px]"
+                  ulClassName="list-disc marker:text-[#0092E0] marker:text-xl text-black   4xl:text-[20px]  xl:text-[17px] text-[16px] font-medium pl-[36px] lg:pl-[56px]"
                   liClassName="text-black pb-4"
                   arrName={benefitsList}
                 />
