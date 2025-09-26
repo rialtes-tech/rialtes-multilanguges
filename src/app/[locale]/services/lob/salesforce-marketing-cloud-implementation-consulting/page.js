@@ -138,7 +138,7 @@ export default function Page() {
                                     <p className="text-black xl:mb-5 4xl:text-[22px] text-[16px] leading-tight pr-[5rem] xl:pr-0 4xl:pr-10">{service.description}</p>
                                 </div>
                                 <div>
-                                    <LearnMore />
+                                    <LearnMore btnName={t('learnMoreBtn')}/>
                                 </div>
                             </div>
                         ))}
@@ -162,7 +162,7 @@ export default function Page() {
                     ))}
                 </div>
                 <div className="4xl:mt-10 xl:mt-10 mt-5">
-                    <LearnMore />
+                    <LearnMore btnName={t('learnMoreBtn')}/>
                 </div>
             </div>
         );
@@ -290,7 +290,7 @@ export default function Page() {
 
                         {/* Button */}
                         <div className="xl:mt-10 mt-5  xl:text-left">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </section>
@@ -322,7 +322,7 @@ export default function Page() {
                             ))}
                         </ul>
                         <div className="mt-10">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>
@@ -371,7 +371,7 @@ export default function Page() {
                                 {t('reimaginDesc')}
                             </p>
                             <div className="absolute bottom-0 ">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                         <div className="4xl:mt-[40rem]  xl:mt-[29rem] 2xl:mt-[32rem] 4xl:pb-[60px] 2xl:pb-[70px] xl:pb-[70px]">
@@ -431,7 +431,7 @@ export default function Page() {
                         </ul>
                         <p className="mt-5 4xl:text-[22px] text-[16px] font-light 4xl:pr-6">{t('introducingAgentChatDesc2')}</p>
                         <div className="mt-5">
-                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>
@@ -497,7 +497,7 @@ export default function Page() {
                         </p>
                         <UnorderedList arrName={yourGrowthData} ulClassName="list-disc pl-5 mt-4 xl:mt-8 space-y-3 4xl:space-y-5 xl:space-y-3 text-[16px] 4xl:text-[22px] leading-tight font-normal marker:text-white 4xl:pr-[20px] pr-10" liClassName="" />
                         <div className="xl:absolute xl:mt-2 bottom-0 mt-8 4xl:mt-2">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>

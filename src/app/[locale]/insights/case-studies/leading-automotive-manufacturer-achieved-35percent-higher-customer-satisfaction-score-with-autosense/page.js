@@ -98,7 +98,7 @@ export default function Page() {
               <div>
                 <span className="text-[#0092E0]">{t("Automotive")} </span>{" "}
                 <span className="text-[#ACACAC]"> | </span>
-                {t("date")}
+               30 June 2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6 ml-[-8px]">
@@ -181,7 +181,7 @@ export default function Page() {
                 <ul className="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:text-[19px] font-medium">
                   {keyList.map((item, index) => (
                     <li key={index} className="pb-4 last:pb-0">
-                      <h3 className="font-bold inline 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] md:text-[20px]">
+                      <h3 className="font-bold inline 4xl:text-[24px] 2xl:text-[19px] xl:text-[18px] text-[20px] md:text-[20px]">
                         {item.title}
                       </h3> : {item.desc}
                     </li>
