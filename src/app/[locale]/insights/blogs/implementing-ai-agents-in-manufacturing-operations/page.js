@@ -145,23 +145,9 @@ export default function Page() {
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
             {/* date and icons */}
-            <div className="sm:flex justify-between">
-              <div>
-                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("blogTopic")}
-                </span>{" "}
-                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  |{" "}
-                </span>
-                11 September 2025
-              </div>
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="11 September 2025" />
 
-              <div>
-                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                  <BlogSocialIcons fullUrl={fullUrl} />
-                </div>
-              </div>
-            </div>
+
             <div className="xl:mt-[60px] mt-[42px]">
               <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
                 {t("blogTitle")}
@@ -196,20 +182,17 @@ export default function Page() {
                         {data.list.map((elem, id) => (
                           <div
                             key={id}
-                            className={` 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium border-[#707070] ${
-                              ind == 0 &&
+                            className={` 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium border-[#707070] ${ind == 0 &&
                               "lg:p-[40px] p-[30px] border max-lg:my-5 md:mx-5 lg:mx-0"
-                            }
-                                                            ${
-                                                              ind !== 0 &&
-                                                              id !== 0
-                                                                ? "lg:px-[36px] max-lg:p-[30px] lg:border-l max-md:border-b max-lg:last:border-none"
-                                                                : ""
-                                                            } ${
-                              ind !== 0 && id == 0
+                              }
+                                                            ${ind !== 0 &&
+                                id !== 0
+                                ? "lg:px-[36px] max-lg:p-[30px] lg:border-l max-md:border-b max-lg:last:border-none"
+                                : ""
+                              } ${ind !== 0 && id == 0
                                 ? "lg:w-[90%] max-lg:p-[30px] max-md:border-b md:border-r lg:border-r-0"
                                 : ""
-                            }
+                              }
                                                             `}
                           >
                             {elem}
@@ -240,15 +223,15 @@ export default function Page() {
                 {t("payoffTitle")}
               </h2>
               <div className="mt-[29px] xl:mt-[34px]">
-              {payoffData.map((data, ind) => {
-                return (
-                  <p
-                    key={ind}
-                    className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]"
-                    dangerouslySetInnerHTML={{ __html: data }}
-                  />
-                );
-              })}</div>
+                {payoffData.map((data, ind) => {
+                  return (
+                    <p
+                      key={ind}
+                      className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]"
+                      dangerouslySetInnerHTML={{ __html: data }}
+                    />
+                  );
+                })}</div>
             </div>{" "}
             <div className="xl:mt-[80px] mt-[40px]">
               <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
@@ -261,9 +244,9 @@ export default function Page() {
           </div>
         </div>
       </section>
-     <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
-           <FilteredBlogCarouse url={currUrl} />
-         </section>
+      <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
+        <FilteredBlogCarouse url={currUrl} />
+      </section>
     </div>
   );
 }

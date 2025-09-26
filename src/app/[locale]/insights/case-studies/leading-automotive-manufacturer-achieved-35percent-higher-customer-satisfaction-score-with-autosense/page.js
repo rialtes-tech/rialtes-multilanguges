@@ -9,6 +9,8 @@ import esContent from "../../../../../../messages/es/caseStudy.json";
 import frContent from "../../../../../../messages/fr/caseStudy.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import Script from "next/script";
+import useUrl from "@/app/[locale]/components/useUrl";
+import RelatedCaseStudies from '../../../components/RealtedCaseStudies';
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -40,6 +42,7 @@ const schemaData = {
   datePublished: "2025-06-30",
 };
 export default function Page() {
+  const currUrl = useUrl()
   const t = useTranslations("leadingCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
@@ -52,11 +55,10 @@ export default function Page() {
     serviceList,
   } = Content.leadingCaseStudy;
 
-  const fullUrl =
-    "https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud";
+  const fullUrl = "https://www.rialtes.com/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/";
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen xl:mb-[80px] md:mb-[60px] mb-[40px]">
       <Seo
         title="Salesforce Warranty Management: AutoSense in Action"
         description="This Salesforce warranty management case study highlights how AutoSense automated warranty claims, reduced errors, and improved operational efficiency."
@@ -70,7 +72,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px]  4xl:h-[650px] 2xl:h-[550px] xl:h-[450px] overflow-hidden">
+      <section className="relative h-[250px] 4xl:h-[650px] 2xl:h-[550px] xl:h-[450px] overflow-hidden">
         <Image
           className="lg:block hidden overflow-hidden "
           src="/images/case-studies/AutoSense Warranty Management Modules_Case study banner.webp "
@@ -93,7 +95,7 @@ export default function Page() {
       <section className="custom-container">
         <div className="py-10 bg-white 4xl:max-w-[1084px] 4xl:w-[1084px] xl:w-[900px]">
 
-          <div  >
+          <div>
             <div className="flex flex-col md:flex-row justify-between text-black items-center">
               <div>
                 <span className="text-[#0092E0]">{t("Automotive")} </span>{" "}
@@ -272,10 +274,10 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Latest Blogs */}
-      <div className="py-10 custom-container lg:pr-0">
-        <RelatedTopicsCarousel slides={slides} />
-      </div>
+      {/* case study carousel */}
+      {/* <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <RelatedCaseStudies url={currUrl} currTopic={t("Automotive")} />
+      </section> */}
     </div>
   );
 }

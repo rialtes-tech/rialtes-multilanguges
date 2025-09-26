@@ -1,4 +1,144 @@
 {
+  "relatedCaseStudies": {
+    "latestCaseStudyTitle": "Estudios de caso relacionados",
+    "latestCaseStudy": [
+      {
+        "id": 15,
+        "image": "/images/case-studies/Small thumb.webp",
+        "industry": "Educación",
+        "date": "21 Aug 2025",
+        "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
+        "title": "Transformando el éxito estudiantil con Salesforce Education Cloud y Edu+",
+        "description": "Una destacada universidad privada en Norteamérica con más de 25,000 estudiantes y múltiples programas académicos en divisiones de pregrado, posgrado y educación continua."
+      },
+      {
+        "id": 14,
+        "image": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
+        "industry": "Automotriz",
+        "date": "30 Jun 2025",
+        "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
+        "title": "Fabricante automotriz líder alcanzó un 35% más de satisfacción del cliente con AutoSense",
+        "description": "Un destacado fabricante automotriz global, reconocido por su innovación y vehículos de alto rendimiento, enfrentaba desafíos con su sistema heredado de gestión de garantías."
+      },
+      {
+        "id": 13,
+        "image": "/images/case-studies/Adaptis_featured CS.webp",
+        "industry": "Fabricación",
+        "date": "10 Jun 2025",
+        "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud",
+        "title": "40% de aumento en la adopción de la aplicación de garantías usando Salesforce Experience Cloud",
+        "description": "Descubre cómo Rialtes utilizó Salesforce Experience Cloud para optimizar las reclamaciones de garantía y mejorar la satisfacción del cliente de un fabricante de techos."
+      },
+      {
+        "id": 12,
+        "image": "/images/case-studies/revolutionary-filter.webp",
+        "industry": "Fabricación",
+        "date": "03 Jun 2025",
+        "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense",
+        "title": "Impulsando la gestión de concesionarios con AutoSense de Rialtes",
+        "description": "Un reconocido fabricante automotriz global, famoso por sus vehículos de vanguardia, enfrentaba grandes desafíos con su portal de concesionarios obsoleto."
+      },
+      {
+        "id": 11,
+        "image": "/images/case-studies/adaptis-for-carousel.webp",
+        "industry": "Fabricación",
+        "date": "30 May 2025",
+        "url": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud",
+        "title": "Reclamo en 4 minutos: Rialtes construye un portal móvil para transformar la experiencia de reclamos",
+        "description": "Un fabricante líder de soluciones de techado de alta calidad diseñadas para proteger lo que más importa. Especializado en productos duraderos e innovadores para el hogar."
+      },
+      {
+        "id": 1,
+        "image": "/images/case-studies/fiory-carosel.webp",
+        "industry": "Fabricación",
+        "date": "28 May 2025",
+        "url": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
+        "title": "150 pedidos al día, cero trabajo manual: priorización de pedidos con Fiori y autoservicio",
+        "description": "A pesar de las importantes inversiones tecnológicas del cliente en manufactura, su proceso de gestión de pedidos dependía en gran medida de la intervención manual. Los clientes que querían priorizar ciertos pedidos debían llamar al equipo de ventas y enviar su lista de pedidos urgentes."
+      },
+      {
+        "id": 2,
+        "image": "/images/case-studies/carosel.webp",
+        "industry": "Fabricación",
+        "date": "26 Mar 2025",
+        "url": "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company",
+        "title": "Optimizando las ventas con Salesforce Sales Cloud para manufactura",
+        "description": "La empresa es un fabricante líder especializado en equipos de tratamiento de agua personalizados. Cada producto está diseñado según requisitos específicos del cliente, lo que significa que no hay dos productos iguales."
+      },
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "industry": "Fabricación",
+        "date": "08 Jan 2025",
+        "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
+        "title": "Transformación de DevOps con Copado y Salesforce",
+        "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales."
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "industry": "Bienes raíces",
+        "date": "22 Dec 2024",
+        "url": "/insights/case-studies/realForce-banking-module-ach",
+        "title": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona",
+        "description": "Una firma inmobiliaria multifamiliar en EE. UU., especializada en la gestión e inversión de propiedades multifamiliares."
+      },
+      {
+        "id": 5,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "industry": "Salud",
+        "date": "17 Nov 2024",
+        "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+        "title": "Automatizando el procesamiento de pedidos en salud con MuleSoft",
+        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores."
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "industry": "Fabricación",
+        "date": "14 Nov 2024",
+        "url": "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud",
+        "title": "Transformando la gestión omnicanal de casos con Salesforce Service Cloud",
+        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable."
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case-study-5_thumb.webp",
+        "industry": "Sector público",
+        "date": "27 Sep 2024",
+        "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america",
+        "title": "Socio de confianza en YARDI para la mayor PHA de Norteamérica",
+        "description": "Una autoridad de vivienda pública responsable de gestionar programas de vivienda asequible en múltiples condados de su zona."
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "industry": "Bienes raíces",
+        "date": "04 Sep 2024",
+        "url": "/insights/case-studies/yardi-managed-services",
+        "title": "Reducción del tiempo de inactividad para una firma inmobiliaria multifamiliar con Yardi Managed Services",
+        "description": "Una firma inmobiliaria multifamiliar en EE. UU., especializada en la gestión e inversión de propiedades multifamiliares."
+      },
+      {
+        "id": 9,
+        "image": "/images/case-studies/case-study-7_thumb.webp",
+        "industry": "Salud",
+        "date": "16 Aug 2024",
+        "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
+        "title": "Digitalizando la experiencia del paciente con Salesforce Health Cloud",
+        "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales."
+      },
+      {
+        "id": 10,
+        "image": "/images/case-studies/case-study-8_thumb.webp",
+        "industry": "Salud",
+        "date": "02 Aug 2024",
+        "url": "/insights/case-studies/salesforce-health-cloud-prior-authorization",
+        "title": "Digitalizando la autorización previa para mejores resultados en pacientes",
+        "description": "Una firma inmobiliaria multifamiliar en EE. UU., especializada en la gestión e inversión de propiedades multifamiliares."
+      }
+    ]
+  },
   "yardiCaseStudy": {
     "headerTitle": "Socio confiable de YARDI para la PHA más grande de América del Norte",
     "publicTitle": "Sector Público",
@@ -6,13 +146,10 @@
     "read": "8 minutos de lectura",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Una destacada empresa de bienes raíces multifamiliares con sede en EE. UU., especializada en la adquisición, desarrollo y revalorización de propiedades residenciales y comerciales. Enfocada en la excelencia operativa y la creación de valor a largo plazo, la empresa se dedica a construir comunidades prósperas mientras maximiza los rendimientos para sus inversionistas.",
-
     "challengesTitle": "Desafíos",
     "challengesDesc": "El cliente enfrentaba ineficiencias operativas al gestionar múltiples plataformas de administración de propiedades, incluyendo Yardi Voyager 7, MRI, Voyager y RealPage:",
-
     "solutionsTitle": "Soluciones",
     "solutionsDesc": "Rialtes, un proveedor confiable de Servicios Gestionados de Yardi, entregó una solución estructurada y escalable para abordar estas brechas:",
-
     "benefits": "Beneficios",
     "challengesList": [
       {
@@ -734,7 +871,7 @@
   },
   "optimizingCaseStudy": {
     "salesTitle": "Optimización de Ventas con Salesforce Sales Cloud para la Manufactura",
-    "manufacturing": "Manufactura",
+    "manufacturing": "Fabricación",
     "date": "26 de marzo de 2025",
     "read": "8 min de lectura",
     "clientTitle": "Descripción del Cliente",
@@ -817,58 +954,6 @@
         "description": [
           "Con operaciones que abarcan múltiples regiones, sus equipos de fabricación y ventas enfrentan barreras lingüísticas, variaciones en el cumplimiento normativo regional e interacciones con clientes inconsistentes. La ausencia de un sistema que admita múltiples idiomas dificulta un servicio al cliente fluido y la alineación global de ventas."
         ]
-      }
-    ],
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Salud",
-        "industry": "Bienes Raíces",
-        "date": "17 Nov 2024",
-        "title": "Automatización del Procesamiento de Pedidos en Salud usando MuleSoft",
-        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Manufactura",
-        "industry": "Salud",
-        "date": "14 Oct 2024",
-        "title": "Transformación de la Gestión de Casos Omnicanal Usando Salesforce Service Cloud",
-        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Bienes Raíces",
-        "industry": "Manufactura",
-        "date": "04 Sept 2024",
-        "title": "Reducción del Tiempo de Inactividad para una Empresa de Bienes Raíces Multifamiliares Usando Servicios Gestionados de Yardi",
-        "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Manufactura",
-        "industry": "Venta Minorista y Comercio Electrónico",
-        "date": "08 Ene 2025",
-        "title": "Transformación de DevOps usando Copado y Salesforce",
-        "description": "Un fabricante líder especializado en la creación de materiales innovadores para proyectos de construcción residenciales y comerciales.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Bienes Raíces",
-        "industry": "Alta Tecnología",
-        "date": "22 Dic 2024",
-        "title": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
-        "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
       }
     ]
   },
@@ -995,7 +1080,6 @@
     "cliendDesc": "Un reconocido fabricante automotriz global, conocido por sus vehículos de vanguardia, enfrentaba importantes desafíos con su portal de concesionarios obsoleto. Construido sobre un marco heredado de .NET, el portal no lograba mantenerse al día con las necesidades empresariales modernas, lo que obstaculizaba la participación de los concesionarios, los procesos de ventas y la eficiencia operativa. El cliente buscaba una solución potente y escalable para optimizar las interacciones con los concesionarios, agilizar los flujos de trabajo y mejorar el rendimiento general en su vasta red de concesionarios a nivel mundial.",
     "keyTitle": "Principales Desafíos:",
     "keyDesc": "El portal heredado del cliente presentaba varios obstáculos críticos que afectaban el crecimiento de su negocio:",
-
     "autoTitle": "La solución AutoSense de Rialtes",
     "autoDesc": "Para abordar estos desafíos, Rialtes, un líder global en transformación digital impulsada por IA, se asoció con el fabricante automotriz para entregar AutoSense, una plataforma de gestión de concesionarios de próxima generación construida sobre la robusta Salesforce Experience Cloud. Rialtes adoptó un enfoque centrado en el cliente, realizando talleres de diseño, creando un plan detallado de desarrollo ágil y entregando una solución innovadora mediante desarrollos basados en sprints.",
     "approachTitle": "Enfoque Estratégico:",
@@ -1004,7 +1088,6 @@
     "deliverablesTitle": "Entregables Clave de Rialtes bajo AutoSense:",
     "conclusionTitle": "Conclusión:",
     "conclusionDesc": "Aprovechando AutoSense, Rialtes transformó con éxito el portal de concesionarios heredado y obsoleto del fabricante automotriz en una solución moderna, escalable y eficiente que empoderó a sus concesionarios y agilizó las operaciones internas. Con integraciones de Salesforce Experience Cloud y SAP S/4 HANA, AutoSense entregó una experiencia superior en gestión de concesionarios, proporcionando datos en tiempo real, eficiencias operativas y una interfaz de usuario fluida. Esta transformación no solo mejoró el compromiso con los concesionarios del cliente, sino que también los posicionó para un crecimiento continuo en un mercado automotriz cada vez más competitivo.",
-
     "approachList": [
       {
         "title": "Talleres de Diseño Colaborativo",
@@ -1023,7 +1106,6 @@
         "description": "Rialtes aseguró que la solución estuviera completamente integrada con SAP S/4 HANA, proporcionando visibilidad de extremo a extremo en el proceso de gestión de pedidos y finanzas, optimizando flujos de trabajo y permitiendo un seguimiento financiero eficiente."
       }
     ],
-
     "featuresList": [
       {
         "title": "Envío y Nutrición de Leads",
@@ -1046,7 +1128,6 @@
         "description": "AutoSense ofreció visibilidad completa del ciclo de vida de cada vehículo, desde la producción hasta la entrega y el servicio postventa. Esta visión holística ayudó a los concesionarios a gestionar el stock de vehículos de manera más efectiva y ofrecer a los clientes información detallada sobre el estado de sus vehículos."
       }
     ],
-
     "benefitsList": [
       {
         "title": "Mejor Compromiso de los Concesionarios",
@@ -1069,7 +1150,6 @@
         "description": "La integración estrecha con Salesforce Automotive Cloud y SAP S/4 HANA garantizó que los datos de los concesionarios, los pedidos y la información financiera estuvieran siempre sincronizados, reduciendo errores y proporcionando una vista completa de las operaciones comerciales."
       }
     ],
-
     "deliverablesList": [
       {
         "title": "Talleres Integrales de Diseño y Requisitos",
@@ -1183,7 +1263,6 @@
     "solutionsTitle": "Soluciones",
     "solutionsDesc": "Para optimizar y digitalizar el proceso de autorización previa, Rialtes desarrolló una solución basada en Salesforce utilizando Salesforce Health Cloud que conectó hospitales, proveedores de atención médica, pacientes y aseguradoras dentro de un flujo de trabajo digital unificado.",
     "benefitsTitle": "Beneficios",
-
     "problemList": [
       "Los pacientes a menudo tenían múltiples pólizas con reglas de cobertura variables, lo que causaba confusión y aprobaciones demoradas.",
       "Frecuentemente, los pacientes desconocían tratamientos no cubiertos hasta recibir notificaciones de denegación post-tratamiento, resultando en costos inesperados.",
@@ -1407,7 +1486,6 @@
       "La retroalimentación de los usuarios mostró una mejora del 25% en los puntajes de satisfacción, directamente vinculada a un procesamiento más rápido y facilidad de acceso.",
       "La menor dependencia del soporte manual liberó a los equipos internos, reduciendo a la mitad el tiempo de manejo de reclamaciones y mejorando las tasas de respuesta."
     ],
-
     "slides": [
       {
         "id": 3,
@@ -1482,6 +1560,57 @@
       "Las alertas en tiempo real por SMS y correo electrónico redujeron en un 40% las solicitudes de seguimiento de clientes, mejorando la transparencia y la satisfacción del cliente.",
       "La sincronización de datos sin interrupciones con sistemas SAP y ERP permitió un seguimiento casi en tiempo real de las reclamaciones de garantía, aumentando la precisión del procesamiento y reduciendo a la mitad el tiempo de resolución de reclamaciones.",
       "Una interfaz moderna basada en LWC mejoró la accesibilidad del usuario y redujo el tiempo de capacitación para los usuarios internos en un 30%."
+    ]
+  },
+  "yardiManageCaseStudy": {
+    "yardiTitle": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar mediante servicios gestionados de Yardi",
+    "realEstate": "Bienes Raíces",
+    "date": "04 septiembre 2024",
+    "read": "8 min de lectura",
+    "clientProfile": "Perfil del Cliente",
+    "clientDesc": "Una destacada empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la adquisición, desarrollo y revalorización de propiedades residenciales y comerciales. Centrada en la excelencia operativa y la creación de valor a largo plazo, la empresa se dedica a construir comunidades prósperas mientras maximiza el retorno para sus inversores.",
+    "businessTitle": "Desafío Empresarial",
+    "solutionsTitle": "Soluciones",
+    "solutionsDesc": "Rialtes, un proveedor de confianza de servicios gestionados de Yardi, entregó una solución estructurada y escalable para abordar estas brechas:",
+    "benefitsTitle": "Beneficios",
+    "businessList": [
+      {
+        "title": "Silos de habilidades",
+        "description": "La dependencia de expertos individuales para cada plataforma generaba cuellos de botella. Cualquier indisponibilidad provocaba retrasos."
+      },
+      {
+        "title": "Escasez de talento",
+        "description": "Los mercados locales de contratación carecían de especialistas con profundo conocimiento del conjunto tecnológico específico del cliente."
+      },
+      {
+        "title": "Falta de supervisión centralizada",
+        "description": "Los proyectos estaban organizados de manera laxa, lo que limitaba la colaboración efectiva y el intercambio de conocimientos."
+      }
+    ],
+    "solutionList": [
+      {
+        "title": "Evaluación de capacidades",
+        "desc": "Se realizó una revisión exhaustiva del equipo interno del cliente e identificaron las brechas de habilidades."
+      },
+      {
+        "title": "Aumento de equipo",
+        "desc": "Se desplegaron recursos especializados para complementar el equipo interno del cliente, proporcionando soporte inmediato para Yardi, MRI y RealPage."
+      },
+      {
+        "title": "Transición colaborativa",
+        "desc": "El soporte inicial fue proporcionado de forma remota por el equipo técnico de Rialtes, pasando gradualmente a un modelo híbrido con responsabilidades compartidas."
+      },
+      {
+        "title": "Gestión integral",
+        "desc": "Tras un año exitoso, Rialtes asumió la plena responsabilidad de todos los sistemas relacionados—Yardi, RealPage, vivienda asequible, residencial y soporte comercial—ofreciendo un modelo integral de servicios gestionados."
+      }
+    ],
+    "benefitsList": [
+      "Con un modelo de seguimiento continuo, el cliente ahora recibe asistencia 24/7, asegurando cero tiempo de inactividad operativo en todas las zonas horarias.",
+      "La cobertura con múltiples recursos eliminó la dependencia de colaboradores individuales, aumentando la resiliencia del sistema en un 90 %.",
+      "Al introducir personal principal y de respaldo para todos los sistemas críticos, Rialtes redujo significativamente las interrupciones del servicio.",
+      "El aprovechamiento de recursos offshore redujo los costos en casi un tercio en comparación con mantener un equipo interno completo con sede en California.",
+      "El cliente obtuvo acceso bajo demanda a una amplia gama de habilidades en Yardi, MRI, RealPage e infraestructura sin la carga de contratar localmente."
     ],
     "slides": [
       {
@@ -1489,311 +1618,151 @@
         "image": "/images/case-studies/case study 1_thumb_n.webp",
         "category": "Salud",
         "industry": "Bienes Raíces",
-        "date": "17 Nov 2024",
-        "title": "Automatización del Procesamiento de Pedidos usando Mulesoft para Salesforce Health Cloud y SAP",
+        "date": "17 nov 2024",
+        "title": "Automatización del procesamiento de pedidos en el sector salud mediante MuleSoft",
         "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores",
         "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
       },
       {
         "id": 4,
         "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Bienes Raíces",
+        "category": "Manufactura",
         "industry": "Salud",
-        "date": "14 Oct 2024",
-        "title": "Gestión de casos omnicanal con Salesforce Service Cloud",
+        "date": "14 oct 2024",
+        "title": "Transformación de la gestión de casos omnicanal mediante Salesforce Service Cloud",
         "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
         "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
       },
       {
         "id": 6,
         "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Salud",
-        "industry": "Fabricación",
-        "date": "4 Sept 2024",
-        "title": "Servicios Gestionados de Yardi",
-        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. que se especializa en la gestión e inversión en propiedades multifamiliares.",
+        "category": "Bienes Raíces",
+        "industry": "Manufactura",
+        "date": "04 sept 2024",
+        "title": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar mediante servicios gestionados de Yardi",
+        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares.",
         "url": "insights/case-studies/yardi-managed-services"
       },
       {
         "id": 7,
         "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "SAP",
-        "industry": "Venta Minorista y Comercio Electrónico",
-        "date": "25 Oct 2024",
-        "title": "Optimización de DevOps usando Copado y Salesforce",
-        "description": "Un fabricante líder especializado en la creación de materiales innovadores para proyectos de construcción residenciales y comerciales.",
+        "category": "Manufactura",
+        "industry": "Venta minorista y comercio electrónico",
+        "date": "08 ene 2025",
+        "title": "Transformación DevOps utilizando Copado y Salesforce",
+        "description": "Un fabricante líder especializado en materiales innovadores para proyectos de construcción residenciales y comerciales.",
         "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
       },
       {
         "id": 8,
         "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Salesforce",
-        "industry": "Alta Tecnología",
-        "date": "25 Oct 2024",
-        "title": "Módulo Bancario RealForce - ACH",
-        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. que se especializa en la gestión e inversión en propiedades multifamiliares.",
+        "category": "Bienes Raíces",
+        "industry": "Alta tecnología",
+        "date": "22 dic 2024",
+        "title": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona",
+        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares.",
         "url": "insights/case-studies/realForce-banking-module-ach"
       }
     ]
   },
-  "yardiManageCaseStudy": {
-  "yardiTitle": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar mediante servicios gestionados de Yardi",
-  "realEstate": "Bienes Raíces",
-  "date": "04 septiembre 2024",
-  "read": "8 min de lectura",
-  "clientProfile": "Perfil del Cliente",
-  "clientDesc": "Una destacada empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la adquisición, desarrollo y revalorización de propiedades residenciales y comerciales. Centrada en la excelencia operativa y la creación de valor a largo plazo, la empresa se dedica a construir comunidades prósperas mientras maximiza el retorno para sus inversores.",
-  "businessTitle": "Desafío Empresarial",
-  "solutionsTitle": "Soluciones",
-  "solutionsDesc": "Rialtes, un proveedor de confianza de servicios gestionados de Yardi, entregó una solución estructurada y escalable para abordar estas brechas:",
-  "benefitsTitle": "Beneficios",
-  "businessList": [
-    {
-      "title": "Silos de habilidades",
-      "description": "La dependencia de expertos individuales para cada plataforma generaba cuellos de botella. Cualquier indisponibilidad provocaba retrasos."
-    },
-    {
-      "title": "Escasez de talento",
-      "description": "Los mercados locales de contratación carecían de especialistas con profundo conocimiento del conjunto tecnológico específico del cliente."
-    },
-    {
-      "title": "Falta de supervisión centralizada",
-      "description": "Los proyectos estaban organizados de manera laxa, lo que limitaba la colaboración efectiva y el intercambio de conocimientos."
-    }
-  ],
-  "solutionList": [
-    {
-      "title": "Evaluación de capacidades",
-      "desc": "Se realizó una revisión exhaustiva del equipo interno del cliente e identificaron las brechas de habilidades."
-    },
-    {
-      "title": "Aumento de equipo",
-      "desc": "Se desplegaron recursos especializados para complementar el equipo interno del cliente, proporcionando soporte inmediato para Yardi, MRI y RealPage."
-    },
-    {
-      "title": "Transición colaborativa",
-      "desc": "El soporte inicial fue proporcionado de forma remota por el equipo técnico de Rialtes, pasando gradualmente a un modelo híbrido con responsabilidades compartidas."
-    },
-    {
-      "title": "Gestión integral",
-      "desc": "Tras un año exitoso, Rialtes asumió la plena responsabilidad de todos los sistemas relacionados—Yardi, RealPage, vivienda asequible, residencial y soporte comercial—ofreciendo un modelo integral de servicios gestionados."
-    }
-  ],
-  "benefitsList": [
-    "Con un modelo de seguimiento continuo, el cliente ahora recibe asistencia 24/7, asegurando cero tiempo de inactividad operativo en todas las zonas horarias.",
-    "La cobertura con múltiples recursos eliminó la dependencia de colaboradores individuales, aumentando la resiliencia del sistema en un 90 %.",
-    "Al introducir personal principal y de respaldo para todos los sistemas críticos, Rialtes redujo significativamente las interrupciones del servicio.",
-    "El aprovechamiento de recursos offshore redujo los costos en casi un tercio en comparación con mantener un equipo interno completo con sede en California.",
-    "El cliente obtuvo acceso bajo demanda a una amplia gama de habilidades en Yardi, MRI, RealPage e infraestructura sin la carga de contratar localmente."
-  ],
-  "slides": [
-    {
-      "id": 3,
-      "image": "/images/case-studies/case study 1_thumb_n.webp",
-      "category": "Salud",
-      "industry": "Bienes Raíces",
-      "date": "17 nov 2024",
-      "title": "Automatización del procesamiento de pedidos en el sector salud mediante MuleSoft",
-      "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores",
-      "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-    },
-    {
-      "id": 4,
-      "image": "/images/case-studies/case-study-4_thumb.webp",
-      "category": "Manufactura",
-      "industry": "Salud",
-      "date": "14 oct 2024",
-      "title": "Transformación de la gestión de casos omnicanal mediante Salesforce Service Cloud",
-      "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
-      "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-    },
-    {
-      "id": 6,
-      "image": "/images/case-studies/case-study-6_thumb.webp",
-      "category": "Bienes Raíces",
-      "industry": "Manufactura",
-      "date": "04 sept 2024",
-      "title": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar mediante servicios gestionados de Yardi",
-      "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares.",
-      "url": "insights/case-studies/yardi-managed-services"
-    },
-    {
-      "id": 7,
-      "image": "/images/case-studies/case study 3_thumb_n.webp",
-      "category": "Manufactura",
-      "industry": "Venta minorista y comercio electrónico",
-      "date": "08 ene 2025",
-      "title": "Transformación DevOps utilizando Copado y Salesforce",
-      "description": "Un fabricante líder especializado en materiales innovadores para proyectos de construcción residenciales y comerciales.",
-      "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-    },
-    {
-      "id": 8,
-      "image": "/images/case-studies/case-study-2_thumb_n.webp",
-      "category": "Bienes Raíces",
-      "industry": "Alta tecnología",
-      "date": "22 dic 2024",
-      "title": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona",
-      "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares.",
-      "url": "insights/case-studies/realForce-banking-module-ach"
-    }
-  ]
-},
-"eduplusCaseStudy": {
-  "educationcloud": "Nube de Educación",
-  "date": "21 de agosto de 2025",
-  "eduTitle": "Transformando el Éxito Estudiantil con Salesforce Education Cloud y Edu+",
-   "clientTitle": "Descripción del Cliente",
-  "cliendDesc": "Una universidad privada líder en América del Norte con más de 25,000 estudiantes y múltiples programas académicos en divisiones de pregrado, posgrado y educación continua. La institución enfrentaba desafíos en la gestión del compromiso estudiantil, el seguimiento de matrículas, la resolución de casos y la provisión de una visión unificada de su ecosistema académico.",
-  "challengesTitle": "Desafío",
-  "challengesDesc": "Experiencia Estudiantil Desconectada y Operaciones Manuales",
-  "challengesOne": "La universidad operaba con sistemas aislados para admisiones, servicios estudiantiles, asesoría académica y compromiso con exalumnos. Los principales desafíos incluían:",
-  "challengesTwo": "El liderazgo necesitaba una plataforma digital sólida para mejorar los procesos de inscripción, la participación estudiantil y la gestión de casos en todo el ciclo académico.",
-  "solutionTitle": "Solución",
-  "solutionDesc": "Implementación de Edu+ de Rialtes en Salesforce Education Cloud",
-  "solutionOne": "Rialtes, aprovechando su servicio especializado en la industria Edu+, implementó Salesforce Education Cloud integrado con Agentforce (asistente basado en IA) y Salesforce Data Cloud para análisis en tiempo real y una visión de 360° de los estudiantes.",
-  "highlights": "Aspectos Destacados de la Implementación",
-  "keyTitle": "Características Clave Entregadas con Edu+",
-  "impactTitle": "Resultados e Impacto Empresarial",
-  "impactDesc": "Después de implementar Salesforce Education Cloud potenciado por Edu+, la universidad observó mejoras medibles en los dos primeros períodos académicos:",
-  "resultsTitle": "Resultados Cuantitativos",
-  "benefits": "Beneficios Cualitativos",
-  "about": "Acerca de Edu+ de Rialtes",
-  "aboutDesc": "Edu+ es el marco de consultoría e implementación dedicado de Rialtes, diseñado para instituciones educativas. Reúne Salesforce Education Cloud, IA/automatización (Agentforce) e integración de datos (Data Cloud) para ofrecer:",
-  "aboutList": [
-    "Tiempo de obtención de valor más rápido",
-    "Modelos de objetos y flujos de trabajo alineados con la industria",
-    "Campus digitales escalables y preparados para el futuro"
-  ],
-  "eduBenefits": [
-    "Estudiantes empoderados con experiencias personalizadas y orientación proactiva",
-    "Reducción de la carga administrativa para los equipos de admisiones y asuntos estudiantiles",
-    "Colaboración en tiempo real entre departamentos académicos",
-    "Provisión al liderazgo de información procesable para la estrategia de inscripción y retención estudiantil"
-  ],
-  "eduSolutions": [
-    "Salesforce Education Cloud con objetos principales como Estudiantes, Profesores, Asesores, Clases, Cursos y Casos",
-    "Asistente de IA Agentforce para gestionar preguntas frecuentes, consultas de inscripción e interacciones de soporte a través de una interfaz conversacional",
-    "Integración con Salesforce Data Cloud para unificar datos de SIS, LMS, correo electrónico y plataformas de admisiones para un compromiso predictivo",
-    "Flujos de trabajo de asesoría personalizados y automatización de la gestión de casos para el apoyo académico y la vida estudiantil",
-    "Tableros personalizados y mapas de recorrido para cada estudiante, profesor y programa"
-  ],
-  "studentChallenges": [
-    "Falta de un perfil estudiantil unificado e historial centralizado de interacción",
-    "Flujos de trabajo de inscripción manuales con visibilidad limitada en tiempo real",
-    "Gestión inconsistente de casos para servicios estudiantiles y asesoría académica",
-    "Incapacidad para rastrear relaciones estudiante-profesor-clase de manera escalable"
-  ],
-
-  "slides": [
-    {
-      "id": 3,
-      "image": "/images/case-studies/case study 1_thumb_n.webp",
-      "category": "Salud",
-      "industry": "Bienes Raíces",
-      "date": "17 de noviembre de 2024",
-      "title": "Automatización del Procesamiento de Pedidos en Salud usando MuleSoft",
-      "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores",
-      "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-    },
-    {
-      "id": 4,
-      "image": "/images/case-studies/case-study-4_thumb.webp",
-      "category": "Manufactura",
-      "industry": "Salud",
-      "date": "14 de octubre de 2024",
-      "title": "Transformación de la Gestión de Casos Omnicanal Usando Salesforce Service Cloud",
-      "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
-      "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-    },
-    {
-      "id": 6,
-      "image": "/images/case-studies/case-study-6_thumb.webp",
-      "category": "Bienes Raíces",
-      "industry": "Manufactura",
-      "date": "04 de septiembre de 2024",
-      "title": "Reducción del Tiempo de Inactividad para una Empresa de Bienes Raíces Multifamiliares Usando Servicios Gestionados de Yardi",
-      "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU. que se especializa en la gestión e inversión en propiedades multifamiliares.",
-      "url": "insights/case-studies/yardi-managed-services"
-    },
-    {
-      "id": 7,
-      "image": "/images/case-studies/case study 3_thumb_n.webp",
-      "category": "Manufactura",
-      "industry": "Retail y Comercio Electrónico",
-      "date": "08 de enero de 2025",
-      "title": "Transformación de DevOps usando Copado y Salesforce",
-      "description": "Un fabricante líder que se especializa en la construcción de materiales innovadores para proyectos de construcción residenciales y comerciales.",
-      "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-    },
-    {
-      "id": 8,
-      "image": "/images/case-studies/case-study-2_thumb_n.webp",
-      "category": "Bienes Raíces",
-      "industry": "Alta Tecnología",
-      "date": "22 de diciembre de 2024",
-      "title": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
-      "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU. que se especializa en la gestión e inversión en propiedades multifamiliares.",
-      "url": "insights/case-studies/realForce-banking-module-ach"
-    }
-  ],
-
-  "eduPlusFeatures": [
-    {
-      "icon": "/images/case-studies/folder_13684196.svg",
-      "title": "Perfil Unificado del Estudiante",
-      "description": "Un registro único en admisiones, inscripción, asesoría y exalumnos"
-    },
-    {
-      "icon": "/images/case-studies/computer_11981853.svg",
-      "title": "Perfiles de Profesores y Personal",
-      "description": "Perfiles dedicados con asignaciones de clases, disponibilidad y herramientas de comunicación"
-    },
-    {
-      "icon": "/images/case-studies/artificial-intelligence_17092469.svg",
-      "title": "Gestión de Clases y Programas",
-      "description": "Modelos de objetos para Cursos, Inscripciones, Horarios y Trayectorias Académicas"
-    },
-    {
-      "icon": "/images/case-studies/data-analytics_9948626.svg",
-      "title": "Analítica Predictiva de Inscripciones",
-      "description": "Información de Data Cloud sobre tendencias de aplicación, patrones de abandono y pronósticos de rendimiento"
-    },
-    {
-      "icon": "/images/case-studies/_x31_3.svg",
-      "title": "Gestión Automatizada de Casos",
-      "description": "Portal centralizado para el seguimiento de problemas estudiantiles, tickets de soporte y tiempos de resolución"
-    },
-    {
-      "icon": "/images/case-studies/Layer 32 copy 11.svg",
-      "title": "Integración con Agentforce",
-      "description": "Asistente de IA para soporte 24/7, incluyendo preguntas frecuentes, plazos, disponibilidad de cursos, etc."
-    }
-  ],
-
-  "quantitativeResults": [
-    {
-      "value": "22%",
-      "description": "Aumento en la tasa de conversión de solicitudes a inscripciones"
-    },
-    {
-      "value": "35%",
-      "description": "Resolución más rápida de casos de soporte estudiantil"
-    },
-    {
-      "value": "100%",
-      "description": "Adopción de portales de autoservicio para estudiantes y profesores"
-    },
-    {
-      "value": "20%",
-      "description": "Mejora en la participación en la asesoría académica"
-    },
-    {
-      "value": "360°",
-      "description": "Visibilidad de los recorridos estudiantiles a lo largo del ciclo académico"
-    }
-  ]
-}
-
-
+  "eduplusCaseStudy": {
+    "educationcloud": "Educación",
+    "date": "21 de agosto de 2025",
+    "eduTitle": "Transformando el Éxito Estudiantil con Salesforce Education Cloud y Edu+",
+    "clientTitle": "Descripción del Cliente",
+    "cliendDesc": "Una universidad privada líder en América del Norte con más de 25,000 estudiantes y múltiples programas académicos en divisiones de pregrado, posgrado y educación continua. La institución enfrentaba desafíos en la gestión del compromiso estudiantil, el seguimiento de matrículas, la resolución de casos y la provisión de una visión unificada de su ecosistema académico.",
+    "challengesTitle": "Desafío",
+    "challengesDesc": "Experiencia Estudiantil Desconectada y Operaciones Manuales",
+    "challengesOne": "La universidad operaba con sistemas aislados para admisiones, servicios estudiantiles, asesoría académica y compromiso con exalumnos. Los principales desafíos incluían:",
+    "challengesTwo": "El liderazgo necesitaba una plataforma digital sólida para mejorar los procesos de inscripción, la participación estudiantil y la gestión de casos en todo el ciclo académico.",
+    "solutionTitle": "Solución",
+    "solutionDesc": "Implementación de Edu+ de Rialtes en Salesforce Education Cloud",
+    "solutionOne": "Rialtes, aprovechando su servicio especializado en la industria Edu+, implementó Salesforce Education Cloud integrado con Agentforce (asistente basado en IA) y Salesforce Data Cloud para análisis en tiempo real y una visión de 360° de los estudiantes.",
+    "highlights": "Aspectos Destacados de la Implementación",
+    "keyTitle": "Características Clave Entregadas con Edu+",
+    "impactTitle": "Resultados e Impacto Empresarial",
+    "impactDesc": "Después de implementar Salesforce Education Cloud potenciado por Edu+, la universidad observó mejoras medibles en los dos primeros períodos académicos:",
+    "resultsTitle": "Resultados Cuantitativos",
+    "benefits": "Beneficios Cualitativos",
+    "about": "Acerca de Edu+ de Rialtes",
+    "aboutDesc": "Edu+ es el marco de consultoría e implementación dedicado de Rialtes, diseñado para instituciones educativas. Reúne Salesforce Education Cloud, IA/automatización (Agentforce) e integración de datos (Data Cloud) para ofrecer:",
+    "aboutList": [
+      "Tiempo de obtención de valor más rápido",
+      "Modelos de objetos y flujos de trabajo alineados con la industria",
+      "Campus digitales escalables y preparados para el futuro"
+    ],
+    "eduBenefits": [
+      "Estudiantes empoderados con experiencias personalizadas y orientación proactiva",
+      "Reducción de la carga administrativa para los equipos de admisiones y asuntos estudiantiles",
+      "Colaboración en tiempo real entre departamentos académicos",
+      "Provisión al liderazgo de información procesable para la estrategia de inscripción y retención estudiantil"
+    ],
+    "eduSolutions": [
+      "Salesforce Education Cloud con objetos principales como Estudiantes, Profesores, Asesores, Clases, Cursos y Casos",
+      "Asistente de IA Agentforce para gestionar preguntas frecuentes, consultas de inscripción e interacciones de soporte a través de una interfaz conversacional",
+      "Integración con Salesforce Data Cloud para unificar datos de SIS, LMS, correo electrónico y plataformas de admisiones para un compromiso predictivo",
+      "Flujos de trabajo de asesoría personalizados y automatización de la gestión de casos para el apoyo académico y la vida estudiantil",
+      "Tableros personalizados y mapas de recorrido para cada estudiante, profesor y programa"
+    ],
+    "studentChallenges": [
+      "Falta de un perfil estudiantil unificado e historial centralizado de interacción",
+      "Flujos de trabajo de inscripción manuales con visibilidad limitada en tiempo real",
+      "Gestión inconsistente de casos para servicios estudiantiles y asesoría académica",
+      "Incapacidad para rastrear relaciones estudiante-profesor-clase de manera escalable"
+    ],
+    "eduPlusFeatures": [
+      {
+        "icon": "/images/case-studies/folder_13684196.svg",
+        "title": "Perfil Unificado del Estudiante",
+        "description": "Un registro único en admisiones, inscripción, asesoría y exalumnos"
+      },
+      {
+        "icon": "/images/case-studies/computer_11981853.svg",
+        "title": "Perfiles de Profesores y Personal",
+        "description": "Perfiles dedicados con asignaciones de clases, disponibilidad y herramientas de comunicación"
+      },
+      {
+        "icon": "/images/case-studies/artificial-intelligence_17092469.svg",
+        "title": "Gestión de Clases y Programas",
+        "description": "Modelos de objetos para Cursos, Inscripciones, Horarios y Trayectorias Académicas"
+      },
+      {
+        "icon": "/images/case-studies/data-analytics_9948626.svg",
+        "title": "Analítica Predictiva de Inscripciones",
+        "description": "Información de Data Cloud sobre tendencias de aplicación, patrones de abandono y pronósticos de rendimiento"
+      },
+      {
+        "icon": "/images/case-studies/_x31_3.svg",
+        "title": "Gestión Automatizada de Casos",
+        "description": "Portal centralizado para el seguimiento de problemas estudiantiles, tickets de soporte y tiempos de resolución"
+      },
+      {
+        "icon": "/images/case-studies/Layer 32 copy 11.svg",
+        "title": "Integración con Agentforce",
+        "description": "Asistente de IA para soporte 24/7, incluyendo preguntas frecuentes, plazos, disponibilidad de cursos, etc."
+      }
+    ],
+    "quantitativeResults": [
+      {
+        "value": "22%",
+        "description": "Aumento en la tasa de conversión de solicitudes a inscripciones"
+      },
+      {
+        "value": "35%",
+        "description": "Resolución más rápida de casos de soporte estudiantil"
+      },
+      {
+        "value": "100%",
+        "description": "Adopción de portales de autoservicio para estudiantes y profesores"
+      },
+      {
+        "value": "20%",
+        "description": "Mejora en la participación en la asesoría académica"
+      },
+      {
+        "value": "360°",
+        "description": "Visibilidad de los recorridos estudiantiles a lo largo del ciclo académico"
+      }
+    ]
+  }
 }

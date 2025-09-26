@@ -154,24 +154,8 @@ export default function Page() {
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
             {/* date and icons */}
-            <div className="sm:flex justify-between">
-              <div>
-                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("agentforce")}
-                </span>{" "}
-                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {" "}
-                  |{" "}
-                </span>
-                29 July 2025
-              </div>
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('agentforce')} date="29 July 2025" />
 
-              <div>
-                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                  <BlogSocialIcons fullUrl={fullUrl} />
-                </div>
-              </div>
-            </div>
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
@@ -306,9 +290,8 @@ export default function Page() {
                   {agentforceContent.map((text, i) => (
                     <p
                       key={i}
-                      className={`${
-                        i === 0 ? "" : "mt-5"
-                      } 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] `}
+                      className={`${i === 0 ? "" : "mt-5"
+                        } 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] `}
                     >
                       {text}
                     </p>
@@ -341,11 +324,10 @@ export default function Page() {
                   {features.map((item, index) => (
                     <div
                       key={index}
-                      className={`py-6 xl:py-0 ${
-                        index === 0
-                          ? "pr-6"
-                          : "xl:pl-6 xl:pr-5 lg:px-10 md:px-5"
-                      }`}
+                      className={`py-6 xl:py-0 ${index === 0
+                        ? "pr-6"
+                        : "xl:pl-6 xl:pr-5 lg:px-10 md:px-5"
+                        }`}
                     >
                       <h4 className="text-[#0067B9] font-semibold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2">
                         {item.title}

@@ -106,7 +106,7 @@ export default function Page() {
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { faqs, mainData, bestAiToolsDesc, bestAiToolsData, intelligentDesc, intelligentData, businessData, postSaleData, postSaleData2, consistencyData, readyData } = blogsContent.factoryToFeedback;
-    const fullUrl = "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/";
 
     return (
         <section className="min-h-screen bg-white">
@@ -151,18 +151,7 @@ export default function Page() {
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
                         {/* date and icons */}
-                        <div className="sm:flex justify-between">
-                            <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogTopic')}</span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>22 August 2025
-                            </div>
-
-                            <div>
-                                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                                    <BlogSocialIcons fullUrl={fullUrl} />
-                                </div>
-                            </div>
-                        </div>
+                        <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="22 August 2025" />
 
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">

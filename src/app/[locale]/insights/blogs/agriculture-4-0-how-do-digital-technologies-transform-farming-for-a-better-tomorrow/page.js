@@ -54,7 +54,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const {  adoptingData, commonData } = blogsContent.agriculture;
+  const { adoptingData, commonData } = blogsContent.agriculture;
   const fullUrl =
     "https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow";
   const currUrl = useUrl();
@@ -98,23 +98,8 @@ export default function Page() {
       <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
-            <div className="sm:flex justify-between">
-              <div>
-                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("blogTopic")}
-                </span>{" "}
-                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {" "}
-                  |{" "}
-                </span>
-                17 Sept 2024
-              </div>
-              <div>
-                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                  <BlogSocialIcons fullUrl={fullUrl} />
-                </div>
-              </div>
-            </div>
+
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="17 Sept 2024" />
 
             <div className="xl:mt-[60px] mt-[42px]">
               <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
