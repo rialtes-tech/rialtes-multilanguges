@@ -6,7 +6,7 @@ import Image from "next/image";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
-import enContent from '../../../../../../messages/en/solutions.json';
+import enContent from '../../../../../../messages/en/solutions.json'; 
 import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
@@ -237,9 +237,9 @@ export default function DemandPlusSection() {
       {/* end to end section */}
       <section className={`custom-container xl:!pr-0
        ${locale === "es"
-          ? "mt-[700px] md:mt-[540px] 2xl:mt-[230px] xl:mt-[220px] 4xl:mt-[24rem]"
+          ? "mt-[750px] md:mt-[540px] 2xl:mt-[230px] xl:mt-[220px] 4xl:mt-[24rem]"
           : locale === "fr"
-            ? "mt-[700px] md:mt-[600px] 2xl:mt-[230px] xl:mt-[220px] 4xl:mt-[18rem]"
+            ? "mt-[750px] md:mt-[600px] 2xl:mt-[230px] xl:mt-[220px] 4xl:mt-[18rem]"
             : "max-[425px]:mt-[660px] max-[372px]:mt-[705px] max-[345px]:mt-[770px] mt-[630px] md:mt-[540px] lg:mt-[325px] xl:mt-[144px] 4xl:mt-22"
         }`}
       >
@@ -300,7 +300,7 @@ export default function DemandPlusSection() {
       >
         <div className="xl:col-span-2">
           <div className="4xl:mt-[44px]  xl:mt-[75px] 2xl:mt-[5rem]">
-            <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
+            <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
           </div>
         </div>
         <div className="xl:col-span-1"></div>
@@ -362,7 +362,7 @@ export default function DemandPlusSection() {
           </div>
         </div>
       </section>
-      <section className="custom-container xl:px-0 4xl:pl-[280px] 4xl:pr-[398px] xl:pl-[200px] xl:pr-[220px] max-[350px]:mt-[900px] max-[375px]:mt-[890px] max-sm:mt-[770px]  sm:mt-[37rem] md:mt-[32rem] lg:mt-[32rem]  xl:mt-0 4xl:mt-0">
+      <section className="custom-container xl:px-0 4xl:pl-[280px] 4xl:pr-[398px] xl:pl-[200px] xl:pr-[220px] max-[350px]:mt-[900px] max-[390px]:mt-[890px] max-[375px]:mt-[890px] max-sm:mt-[770px]  sm:mt-[37rem] md:mt-[36rem] lg:mt-[32rem]  xl:mt-0 4xl:mt-0">
         <div className={`bg-[#073259] p-8 relative
          ${locale === "es"
             ? "4xl:mt-[460px] xl:mt-[420px] 2xl:mt-[350px]"
@@ -415,7 +415,7 @@ export default function DemandPlusSection() {
               liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] text-[16px]"
             />
             <div className="xl:hidden block mt-5">
-              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
             </div>
           </div>
         </div>
@@ -435,7 +435,7 @@ export default function DemandPlusSection() {
         </div>
         <div className="xl:col-span-1"></div>
         <div className="xl:col-span-2 xl:block hidden">
-          <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+          <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
         </div>
       </div>
       {/* neo load section */}
@@ -498,7 +498,7 @@ export default function DemandPlusSection() {
                 liClassName=" 4xl:text-[20px] 2xl:text-[18px] text-[16px]"
               />
               <div className="xl:hidden block mt-10">
-                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
               </div>
               <div className="xl:hidden block bg-[#073259] p-8  mt-[40px]">
                 <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">
@@ -527,7 +527,7 @@ export default function DemandPlusSection() {
         </section>
         <div className="xl:col-span-1"></div>
         <div className="xl:col-span-2 4xl:mt-[42px] xl:block hidden">
-          <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+          <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
         </div>
       </div>
       {/* rialtes certified section */}
@@ -644,7 +644,7 @@ export default function DemandPlusSection() {
         <div className="relative">
           <div className="xl:grid xl:grid-cols-12">
             <div className="order-1 xl:order-3 col-span-2 max-[405px]:mt-[-185px] max-[520px]:mt-[-172px] mt-[-156px] md:mt-[-146px] xl:mt-[-74px] 3xl:mt-[-74px] 4xl:mt-[-80px]">
-              <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+              <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
             </div>
             <div className="order-2 xl:order-2 xl:col-span-1"></div>
             <div className="order-3 xl:order-1 xl:col-span-7 col-span-12 xl:mr-0 4xl:mr-0 mt-[26px]  xl:mt-[-70px] 3xl:mt-[-50px] 4xl:mt-[-80px]">

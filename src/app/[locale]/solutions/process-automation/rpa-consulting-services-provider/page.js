@@ -125,7 +125,7 @@ const t = useTranslations("uiPath");
                     <Image
                         src="/images/uipath/mobile/banner.webp"
                         alt="Toska Banner Mobile"
-                        className="w-full h-[400px] object-cover"
+                        className="w-full h-[490px] object-cover max-[360px]:h-[540px]"
                         priority
                         sizes="100vw"
                         width={0}
@@ -240,7 +240,7 @@ const t = useTranslations("uiPath");
                             </div>
                             <p className="text-[#000000] mt-2 4xl:text-[22px] xl:text-[18px] text-[20px] leading-tight font-normal pb-6 lg:pb-4">{feature.description}</p>
                             <div className="mt-auto">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')}/>
                             </div>
                         </div>
                     ))}
@@ -286,7 +286,7 @@ const t = useTranslations("uiPath");
                         <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[18px] leading-tight mt-10">{t('titleTwo')}</div>
                         <UnorderedList arrName={aribaBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 font-medium  marker:font-bold marker:text-2xl pl-5 mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="mt-5 absolute bottom-0">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>
@@ -336,7 +336,7 @@ const t = useTranslations("uiPath");
                         </div>
                         <UnorderedList arrName={s4hanaBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="mt-5 absolute bottom-0">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>
@@ -388,7 +388,7 @@ const t = useTranslations("uiPath");
                         </div>
                         <UnorderedList arrName={successFactorBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="mt-5 absolute bottom-0">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>
@@ -439,7 +439,7 @@ const t = useTranslations("uiPath");
                         </div>
                         <UnorderedList arrName={salesforceBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="mt-10 absolute bottom-0">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>
@@ -476,14 +476,14 @@ const t = useTranslations("uiPath");
                                 <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">{t('headingThree')}</h3>
                                 <UnorderedList arrName={retailData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                                 <div className="absolute 4xl:mt-5 xl:block hidden">
-                                    <LearnMore />
+                                    <LearnMore btnName={t('learnMoreBtn')}/>
                                 </div>
                             </div>
                             <div>
                                 <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">{t('headingFour')}</h3>
                                 <UnorderedList arrName={hrData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                                 <div className="absolute mt-5 xl:hidden block">
-                                    <LearnMore />
+                                    <LearnMore btnName={t('learnMoreBtn')}/>
                                 </div>
                             </div>
                         </div>
@@ -536,7 +536,7 @@ const t = useTranslations("uiPath");
                         </p>
                         <UnorderedList arrName={aiEnhanceData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5  mt-8 4xl:pr-16" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="absolute mt-5 xl:mt-5">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')}/>
                         </div>
                     </div>
                 </div>
