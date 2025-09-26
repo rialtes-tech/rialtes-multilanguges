@@ -142,7 +142,7 @@ export default function Page() {
         <UnorderedList arrName={services?.productsDetails} ulClassName="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]" />
       </div>
       <div className="mt-auto pt-5">
-        <LearnMore />
+       <LearnMore btnName={t('learnMoreBtn')} />
       </div>
     </div>
 
@@ -245,7 +245,7 @@ export default function Page() {
               ))}
             </div>
             <div className="mt-10">
-              <LearnMore />
+             <LearnMore btnName={t('learnMoreBtn')} />
             </div>
           </div> 
         </section>

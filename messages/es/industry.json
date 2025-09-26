@@ -220,7 +220,7 @@
         "desc": "Para decisiones más inteligentes, rápidas y un compromiso centrado en el paciente."
       }
     ],
-    "seamlessData": [ 
+    "seamlessData": [
       "Integración guiada por API conectando SAP, Oracle, Salesforce y EMRs.",
       "Automatización de Order‑to‑Cash y Procure‑to‑Pay.",
       "Sincronización de datos regulatorios, flujo de datos financieros y clínicos."
@@ -397,6 +397,7 @@
     "seamlessTitle": "Integración Sin Fricciones con SAP, Oracle y MuleSoft para operaciones unificadas en ciencias de la vida",
     "seamlessSubTitle": "Impulsado por Data Cloud",
     "contactTitle": "¿Listo para transformar las ciencias de la vida con Rialtes?",
+    "learnMoreBtn": "Saber más",
     "contactSubTitle": "Asóciate con Rialtes para desbloquear innovación, cumplimiento y soluciones centradas en el paciente en todo el ecosistema de ciencias de la vida.",
     "contactSubTitle2": "Contáctanos hoy para descubrir cómo Rialtes puede impulsar el crecimiento y el impacto en pacientes en tu organización."
   },
@@ -507,6 +508,7 @@
     "growServicesDesc": "El sector salud se encuentra en una encrucijada entre tecnología y atención al paciente. En Rialtes, ofrecemos soluciones especializadas de Salesforce Health Cloud que ayudan a los centros médicos a ser más ágiles y centrarse en el paciente. Nuestras soluciones integradas combinan software hospitalario, servicios MedTech y herramientas de compromiso con el paciente para brindar una atención excepcional, desde farmacias hasta atención domiciliaria.",
     "servicesTitle": "Desde Farmacéuticas hasta Tecnología Médica, Atendemos Todos los Segmentos del Sector Salud",
     "servicesDesc": "Ofrecemos implementación de Health Cloud, desarrollo de aplicaciones para salud, servicios de consultoría y mucho más para empresas dentro de los siguientes segmentos de la industria médica.",
+    "learnMoreBtn": "Saber más",
     "contactTitle": "Da el siguiente paso hacia la excelencia operativa con nosotros."
   },
   "pharmaBiotech": {
@@ -651,7 +653,7 @@
     "aiRevolTitle": "Cómo la IA Está Revolucionando la Industria Farmacéutica",
     "aiRevolDesc": "La IA está generando un valor significativo en la industria farmacéutica, transformando la forma en que las empresas innovan, interactúan y gestionan el cumplimiento.",
     "keyImpactTitle": "Áreas Clave de Impacto de la IA en Farmacéutica:",
-    "learnMoreBtn": "Saber Más",
+    "learnMoreBtn": "Saber más",
     "benefitsTitle": "Beneficios de la IA en Farmacéutica:",
     "patientTitle": "Aplicaciones Móviles Centrada en el Paciente",
     "patientSubTitle": "Impulsando Resultados y Evidencia del Mundo Real",
@@ -835,7 +837,7 @@
     "stayConnectedTitle": "Manténgase conectado con pacientes y proveedores en el canal que ellos confían.",
     "contactTitle": "¡Transforme las Vidas de los Pacientes y las Operaciones de Dispositivos Médicos con Rialtes!",
     "contactSubTitle": "¿Listo para elevar sus operaciones de dispositivos médicos? Contacte con Rialtes hoy para liderar la innovación centrada en el paciente y el cumplimiento.",
-    "learnMoreBtn": "Aprender más"
+    "learnMoreBtn": "Saber más"
   },
   "homeHealth": {
     "addressingData": [
@@ -1011,6 +1013,7 @@
     "agentChatSubTitle2": "Diseñado para la atención en el hogar",
     "relatedTitle": "Otras soluciones que puedes explorar",
     "contactTitle": "¿Listo para ofrecer una atención proactiva, conectada y compasiva directamente en el hogar del paciente?",
+    "learnMoreBtn": "Saber más",
     "contactSubTitle": "Transforma tu modelo de atención con las soluciones de salud en el hogar de Rialtes impulsadas por Salesforce"
   },
   "semiconductor": {
@@ -1418,7 +1421,7 @@
     "headerSubTitleTwo": "Más Inteligente, Rápido y Conectado",
     "drivingDesc": "Impulsamos la transformación digital de extremo a extremo para fabricantes con IA, la nube y automatización inteligente. Rialtes permite a las empresas manufactureras ir más allá de las operaciones tradicionales y adoptar ecosistemas de fabricación de próxima generación que sean ágiles, basados en datos y centrados en el cliente.",
     "thoughtTitle": "Liderazgo Intelectual",
-     "learnMoreBtn": "Saber Más",
+    "learnMoreBtn": "Saber Más",
     "thoughtSubTitle": "Liderando la Reinversión Digital de la Fabricación",
     "thoughtSubTitleOne": "En Rialtes, creemos que el futuro de la fabricación reside en ecosistemas resilientes, adaptativos y potenciados por IA. Desde gemelos digitales hasta cadenas de suministro predictivas, ayudamos a los fabricantes a anticiparse a la disrupción e innovar a escala. Nos enfocamos en la personalización del cliente, la eficiencia operativa y el cumplimiento global, todo impulsado por datos conectados y automatización.",
     "endTitle": "Servicios de Transformación Integral de Fabricación de Rialtes",
@@ -1482,7 +1485,7 @@
     "educationDesc": "La educación actual está evolucionando a un ritmo acelerado. Las instituciones deben involucrar a estudiantes nativos digitales, optimizar los procesos de inscripción y académicos, y fomentar relaciones duraderas con los estudiantes. Desde la educación primaria hasta la superior, las organizaciones enfrentan desafíos en la gestión de trayectorias estudiantiles fragmentadas, operaciones académicas desconectadas y expectativas cambiantes de los interesados.",
     "educationDescOne": "Rialtes ofrece soluciones educativas holísticas, que abarcan asesoría estratégica, implementaciones fluidas, optimización de procesos y soporte a largo plazo.",
     "thoughtTitle": "Liderazgo de Pensamiento:",
-    "learnMoreBtn": "Saber Más",
+    "learnMoreBtn": "Saber más",
     "thoughtSubTitle": "Resolviendo los Desafíos Más Urgentes de la Educación",
     "industryTitle": "Principales Desafíos de la Industria que Abordamos:",
     "approachTitle": "Enfoque de Rialtes:",
@@ -1647,7 +1650,7 @@
     "salesforceTitle": "Salesforce Financial Services Cloud (FSC)",
     "salesforceDesc": "Nuestros arquitectos y consultores certificados por Salesforce entregan soluciones FSC personalizadas para satisfacer las necesidades actuales de banca, préstamos y gestión patrimonial:",
     "sapTitle": "SAP S/4 HANA para servicios financieros",
-      "learnMoreBtn": "Saber Más",
+    "learnMoreBtn": "Saber más",
     "sapDesc": "Extendemos las capacidades de Salesforce FSC con soluciones financieras y bancarias principales de SAP S/4 HANA:",
     "sapDescOne": "Rialtes crea una plataforma financiera unificada — integrando el front office de Salesforce con el motor financiero central de SAP.",
     "futureTitle": "IA: Revolucionando el futuro de las finanzas",
@@ -2059,7 +2062,7 @@
     "contactTitle": "¿Listo para redefinir el futuro de viajes, transporte y hospitalidad?",
     "contactSubTitle": "Ya seas una aerolínea, cadena hotelera, crucero, empresa de transporte o proveedor logístico, Rialtes puede ayudarte a liderar en un mundo competitivo con tecnología, estrategia y ejecución que generan resultados.",
     "contactSubTitle2": "Contacta a Rialtes hoy para iniciar tu camino de transformación — porque las grandes experiencias comienzan con grandes socios.",
-    "learnMoreBtn": "Más información"
+    "learnMoreBtn": "Saber más"
   },
   "retailIndustry": {
     "newRealityData": [
@@ -2405,7 +2408,7 @@
     "preDeliveredTitle": "Aceleradores preentregados de Rialtes para excelencia sin ánimo de lucro",
     "preDeliveredDesc": "Nuestras soluciones propietarias listas para implementar reducen drásticamente los tiempos de despliegue y mejoran la eficiencia de procesos.",
     "significanceTitle": "Importancia:",
-     "learnMoreBtn": "Saber Más",
+    "learnMoreBtn": "Saber más",
     "seamlessTitle": "Integraciones de plataforma sin fisuras para operaciones unificadas sin ánimo de lucro",
     "seamlessCard1Title": "SAP S/4HANA",
     "seamlessCard1Desc": "Gestiona finanzas, adquisiciones y asignación de fondos con total transparencia.",

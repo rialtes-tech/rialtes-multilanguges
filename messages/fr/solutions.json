@@ -1006,6 +1006,7 @@
   },
   "uiPath": {
     "headerTitle": "Services UiPath RPA",
+    "learnMoreBtn": "En savoir plus",
     "headerDesc": "Stimuler l’automatisation de nouvelle génération pour une entreprise plus intelligente",
     "operationsTitle": "Transformez vos opérations d’entreprise avec une RPA intelligente.",
     "operationsDescOne": "Chez Rialtes, nous aidons les entreprises à exploiter toute la puissance de la plateforme Robotic Process Automation (RPA) de UiPath pour automatiser les processus de bout en bout, réduire l’effort manuel, améliorer la précision et favoriser une croissance évolutive.",
@@ -1193,6 +1194,7 @@
   "tosca": {
     "headerTitle": "Élevez l’ingénierie de la qualité avec les services de tests automatisés Tosca de Rialtes",
     "headerSubTitle": "Tricentis TOSCA",
+    "learnMoreBtn": "En savoir plus",
     "empowerTitleOne": "Donner du pouvoir aux entreprises avec",
     "empowerTitleTwo": "Tests automatisés de bout en bout, QTest, LiveCompare & NeoLoad",
     "empowerDescOne": "Chez Rialtes, nous aidons les organisations à transformer leur cycle de vie de tests avec Tricentis Tosca — la principale plateforme de tests continus de l’industrie. Avec une expertise approfondie et une équipe d’experts Tosca hautement certifiés, Rialtes fournit des solutions de test évolutives, intelligentes et résilientes qui améliorent considérablement la qualité, la rapidité et l’efficacité.",

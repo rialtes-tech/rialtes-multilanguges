@@ -280,7 +280,7 @@
             },
             {
                 "title": "Modèles d’agent",
-                "desc": "Créez des solutions IA complètes en combinant plusieurs sujets, actions et métadonnées dans des modèles d’agents structurés et évolutifs."
+                "desc": ": Créez des solutions IA complètes en combinant plusieurs sujets, actions et métadonnées dans des modèles d’agents structurés et évolutifs."
             }
         ],
         "seamlessData": [
@@ -3176,63 +3176,6 @@
         "faqTitle": "Foire Aux Questions (FAQ)"
     },
     "factoryToFeedback": {
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Générique",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "Comment fonctionne réellement Salesforce Agentforce",
-                "description": "Salesforce Agentforce, bien qu’étant une nouveauté dans l’écosystème Salesforce, gagne en popularité, notamment dans les organisations qui gèrent de grandes équipes d’agents comme les commerciaux, les représentants du service client et le personnel de terrain."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Générique",
-                "date": "28 Oct 2024",
-                "title": "Agents vs. Copilotes vs. Bots : Quelle est la différence et pourquoi est-ce important ?",
-                "description": "Des outils comme Agentforce redéfinissent notre vision des assistants numériques, en mettant en lumière les distinctions entre Agents, Copilotes et Bots. Ces termes sont fréquemment utilisés dans l’automatisation et les interfaces conversationnelles basées sur l’IA, chacun ayant un rôle distinct."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Générique",
-                "date": "25 Nov 2024",
-                "title": "Agentforce Testing Center : Redéfinir les tests d’IA avec des données synthétiques",
-                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center au sein de sa plateforme d’IA agentique, Agentforce. Cette nouveauté permet aux entreprises de tester et surveiller les agents IA avant leur mise en production."
-            },
-            {
-                "id": 5,
-                "image": "/images/blog/blog-5.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Ressources humaines",
-                "date": "24 Déc 2024",
-                "title": "Comment intégrer SAP SuccessFactors avec Microsoft Office 365 pour une meilleure collaboration",
-                "description": "Une intégration fluide entre les applications d’entreprise améliore la collaboration, l’efficacité et la productivité. L’intégration de SAP SuccessFactors avec Microsoft Office 365 combine la puissance d’une solution de gestion de l’expérience humaine (HXM) et une suite robuste d’outils de productivité."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Technologies vertes Cloud",
-                "industry": "Agriculture",
-                "date": "17 Sept 2024",
-                "title": "Agriculture 4.0 : Comment les technologies numériques transforment l’agriculture pour un avenir meilleur ?",
-                "description": "L’agriculture joue un rôle majeur dans l’économie en croissance de l’Inde, et son avenir ne peut se réaliser sans outils numériques et innovations technologiques."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Ressources humaines",
-                "date": "29 Oct 2024",
-                "title": "SAP SuccessFactors : Gestion de la performance et des objectifs",
-                "description": "Atteindre les objectifs de votre organisation est une responsabilité clé partagée par toute votre équipe. Lorsque la stratégie de votre équipe est alignée sur ses objectifs et les objectifs globaux de l’organisation, faire le bon choix devient instinctif."
-            }
-        ],
         "faqs": [
             {
                 "question": "1. Qu’est-ce qu’Agentforce et comment aide-t-il les fabricants à améliorer l’expérience client ?",
@@ -3291,8 +3234,8 @@
             {
                 "title": "Agentforce : des agents IA à la périphérie de la fabrication",
                 "desc": [
-                    "Agentforce n’est pas une plateforme d’IA classique. C’est un écosystème d’agents intelligents, orientés objectifs, qui apprennent, agissent et collaborent entre départements sans attendre une instruction humaine. Construit sur l’infrastructure sécurisée de Salesforce et conçu pour les workflows d’entreprise, Agentforce donne aux fabricants un avantage prédictif en temps réel.",
-                    "Nous avons déjà expliqué comment Agentforce aide à automatiser les opérations de fabrication, améliorer la résilience de la chaîne d’approvisionnement et accélérer la prise de décision. Mais cet article va plus loin : montrer comment Agentforce transforme l’expérience client, de la planification de la production au service après-vente."
+                    "Agentforce n’est pas une plateforme d’IA classique. C’est un écosystème d’agents intelligents, orientés vers des objectifs, qui apprennent, agissent et collaborent entre les départements sans attendre d’instructions humaines. Construit sur l’infrastructure sécurisée de Salesforce et adapté aux flux de travail des entreprises, Agentforce offre aux fabricants un avantage prédictif en temps réel.",
+                    "Nous avons déjà abordé <a class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline' href='https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/'>comment Agentforce aide à automatiser les opérations de fabrication</a>, à renforcer la résilience de la chaîne d’approvisionnement et à <a class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline' href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'>faire évoluer la prise de décision</a> dans des blogs précédents. Mais cet article va encore plus loin : comment Agentforce transforme l’expérience client, de la planification de la production au service après-vente."
                 ]
             }
         ],
@@ -3315,8 +3258,8 @@
         "aiToolDesc2": "Avec Agentforce, les agents IA connectent les systèmes cloisonnés à travers la chaîne d’approvisionnement, la production, le service et les ventes. Ils fournissent une source commune de vérité, visible par les équipes en première ligne comme par les opérations back-office. Cela permet aux ventes de confirmer des délais de livraison réalistes, au support d’accéder à l’historique des machines et aux achats de savoir si une pénurie de matières premières risque de retarder une commande.",
         "intelligentTitle": "3. Routage et résolution intelligente des cas",
         "intelligentDesc": [
-            "Soyons honnêtes : en fabrication, même un seul retard de livraison, une pièce défectueuse ou une mauvaise communication peut déclencher une cascade de frustrations pour vos clients. Quand cela arrive, votre manière de réagir peut soit renforcer la confiance, soit la briser.",
-            "Traditionnellement, les équipes de service sont débordées. Les tickets arrivent, le personnel de support cherche des détails de garantie, fouille les commandes passées et transfère le cas entre départements, souvent en faisant rebondir les clients. Cela ralentit la résolution et nuit à la satisfaction. Agentforce change complètement cela.",
+            "Soyons honnêtes : dans la fabrication, même un seul retard d’expédition, une pièce défectueuse ou une mauvaise communication peut déclencher une cascade de frustrations pour vos clients. Lorsque cela se produit, la façon dont vous réagissez peut soit renforcer la confiance, soit la briser.",
+            "Traditionnellement, les équipes de service sont débordées. Les tickets arrivent, le personnel de support s’empresse de rassembler les détails de la garantie, de consulter les commandes passées et d’acheminer le dossier vers le bon service, tout en faisant souvent passer les clients d’une équipe à l’autre. Cela ralentit la résolution et réduit la satisfaction. <a href='https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce change cela complètement</a>.",
             "Voici comment cela fonctionne :"
         ],
         "intelligentData": [

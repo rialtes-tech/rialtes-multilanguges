@@ -33,7 +33,7 @@ const Header = () => {
   const [openSectionProduct, setOpenSectionProduct] = useState("rialchat");
   const [activeLink, setActiveLink] = useState(true); // Track active link
   const [activeSubLink, setActiveSubLink] = useState(null);
- const t = useTranslations("header")
+  const t = useTranslations("header")
   const handleSubMenuClick = (section) => {
     setOpenSection(section);
   };
@@ -358,7 +358,7 @@ const Header = () => {
               link="/"
               onHover={() => handleMouseEnterCard(1)}
               onClick={() => handleMenuClick(1)}
-              className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[16px]`}
               isActive={activeCard === 1}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
             />
@@ -368,7 +368,7 @@ const Header = () => {
               onHover={() => handleMouseEnterCard(2)}
               onClick={() => handleMenuClick(2)}
               isActive={activeCard === 2}
-              className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[16px]`}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
 
             />
@@ -378,7 +378,7 @@ const Header = () => {
               onHover={() => handleMouseEnterCard(3)}
               onClick={() => handleMenuClick(3)}
               isActive={activeCard === 3}
-              className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[16px]`}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
 
             />
@@ -388,7 +388,7 @@ const Header = () => {
               onHover={() => handleMouseEnterCard(4)}
               onClick={() => handleMenuClick(4)}
               isActive={activeCard === 4}
-              className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[16px]`}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
 
             />
@@ -397,7 +397,7 @@ const Header = () => {
               link="/about-us"
               onHover={() => handleMouseEnterCard(5)}
               onClick={() => handleMenuClick(5)}
-              className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[16px]`}
               isActive={activeCard === 5}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
             />
@@ -406,14 +406,14 @@ const Header = () => {
               link="/insights"
               onHover={() => handleMouseEnterCard(6)}
               onClick={() => handleMenuClick(6)}
-              className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[16px]`}
               isActive={activeCard === 6}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
             />
             <MenuItem
               label={t('contactTitle')}
               link="/contact-us"
-              className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[16px]`}
               isActive={activeCard === 7}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
             />
@@ -430,36 +430,36 @@ const Header = () => {
                 <div className="col-span-3 bg-[#deebf8] p-3 relative">
                   {/* Data & AI Section */}
                   <div
-                    className={`cursor-pointer font-bold mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "dataAI" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                    className={`cursor-pointer font-bold mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionSolution === "dataAI" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickSolution("dataAI")}>
                     {t('dataAiLabel')}
                   </div>
 
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "enterprise" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionSolution === "enterprise" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickSolution("enterprise")}>
                     {t('enterpriseLabel')}
                   </div>
 
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "integration" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionSolution === "integration" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickSolution("integration")}>
                     {t('integrationLabel')}
                   </div>
 
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "artificialIntelligence" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionSolution === "artificialIntelligence" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickSolution("artificialIntelligence")}>
                     {t('artificialLabel')}
                   </div>
 
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "aiAutomation" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionSolution === "aiAutomation" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickSolution("aiAutomation")}>
                     {t('processAutoLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "quality-engi" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionSolution === "quality-engi" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickSolution("quality-engi")}>
                     {t('qualityEngLabel')}
                   </div>
@@ -469,17 +469,17 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5"  >
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('dataAiDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">{t('dataAiDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('dataAiDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]">{t('dataAiDesc2')}</p>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SalesforceDataCloud')} link="/solutions/data-ai/salesforce-data-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/salesforce-data-cloud-consulting")} />
-                            <MenuItem className="font-bold text-[#2f78c4] mt-10 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('sapBusinessDataCloud')} link="/solutions/data-ai/sap-business-data-cloud-bdc-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-business-data-cloud-bdc-consulting/")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SalesforceDataCloud')} link="/solutions/data-ai/salesforce-data-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/salesforce-data-cloud-consulting")} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-10 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('sapBusinessDataCloud')} link="/solutions/data-ai/sap-business-data-cloud-bdc-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-business-data-cloud-bdc-consulting/")} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('dataSphere')} link="/solutions/data-ai/sap-datasphere-implementation-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-datasphere-implementation-consulting/")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('dataSphere')} link="/solutions/data-ai/sap-datasphere-implementation-consulting/" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-datasphere-implementation-consulting/")} />
                           </div>
                         </div>
                       </div>
@@ -492,22 +492,22 @@ const Header = () => {
                     <div>
                       <div>
                         <div className="border-b pb-5">
-                          <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('enterpriseDesc')}</div>
-                          <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">{t('enterpriseDesc2')}</p>
+                          <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('enterpriseDesc')}</div>
+                          <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]">{t('enterpriseDesc2')}</p>
                         </div>
                         <div className="mt-5">
                           <div className="grid grid-cols-2 gap-32">
                             <div>
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAP')} link="/solutions/enterprise-platforms/sap-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/sap-consulting")} />
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Salesforce')} link="/solutions/enterprise-platforms/salesforce-consulting-partner-us-india" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-consulting-partner-us-india")} />
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPAriba')} link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")} />
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Oracle')} link="/solutions/enterprise-platforms/oracle-ebs-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/oracle-ebs-consulting")} />
+                              <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAP')} link="/solutions/enterprise-platforms/sap-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/sap-consulting")} />
+                              <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Salesforce')} link="/solutions/enterprise-platforms/salesforce-consulting-partner-us-india" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-consulting-partner-us-india")} />
+                              <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPAriba')} link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")} />
+                              <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Oracle')} link="/solutions/enterprise-platforms/oracle-ebs-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/oracle-ebs-consulting")} />
                             </div>
                             <div>
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Agentforce')} link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} />
-                              <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SuccessPlus')} link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")} />
-                              <MenuItem className="font-bold text-[#2f78c4] mt-6 pb-3 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('RevenueCloud')} link="/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting")} />
-                              <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Kinaxis')} link="/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services" onClick={(e) => handleLinkClick(e, "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services")} />
+                              <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Agentforce')} link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} />
+                              <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SuccessPlus')} link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")} />
+                              <MenuItem className="font-bold text-[#2f78c4] mt-6 pb-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('RevenueCloud')} link="/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting")} />
+                              <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Kinaxis')} link="/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services" onClick={(e) => handleLinkClick(e, "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services")} />
                             </div>
                           </div>
                         </div>
@@ -519,16 +519,16 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('integrationDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">{t('integrationDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('integrationDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]">{t('integrationDesc2')}</p>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Mulesoft')} link="/solutions/integration/mulesoft-salesforce" onClick={(e) => handleLinkClick(e, "/solutions/integration/mulesoft-salesforce")} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Mulesoft')} link="/solutions/integration/mulesoft-salesforce" onClick={(e) => handleLinkClick(e, "/solutions/integration/mulesoft-salesforce")} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPCPI')} link="/solutions/integration/sap-cloud-platform-integration-consulting" onClick={(e) => handleLinkClick(e, "/solutions/integration/sap-cloud-platform-integration-consulting")} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPCPI')} link="/solutions/integration/sap-cloud-platform-integration-consulting" onClick={(e) => handleLinkClick(e, "/solutions/integration/sap-cloud-platform-integration-consulting")} />
                           </div>
                           <div>
                           </div>
@@ -541,13 +541,13 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('qualityEngDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">{t('qualityEngDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('qualityEngDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]">{t('qualityEngDesc2')}</p>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Tosca')} link="/solutions/quality-engineering-assurance/tosca-software-automation-testing" onClick={(e) => handleLinkClick(e, "/solutions/quality-engineering-assurance/tosca-software-automation-testing")} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Tosca')} link="/solutions/quality-engineering-assurance/tosca-software-automation-testing" onClick={(e) => handleLinkClick(e, "/solutions/quality-engineering-assurance/tosca-software-automation-testing")} />
                           </div>
                           <div>
                           </div>
@@ -560,13 +560,13 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('artificialDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">{t('artificialDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('artificialDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]">{t('artificialDesc2')}</p>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Agentforce')} link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Agentforce')} link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} />
                           </div>
                         </div>
                       </div>
@@ -577,16 +577,16 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('aiAutomationDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">{t('aiAutomationDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('aiAutomationDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]">{t('aiAutomationDesc2')}</p>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Agentforce')} link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Agentforce')} link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('UIPath')} link="/solutions/process-automation/rpa-consulting-services-provider" onClick={(e) => handleLinkClick(e, "/solutions/process-automation/rpa-consulting-services-provider")} />
+                            <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('UIPath')} link="/solutions/process-automation/rpa-consulting-services-provider" onClick={(e) => handleLinkClick(e, "/solutions/process-automation/rpa-consulting-services-provider")} />
                           </div>
                           <div>
                           </div>
@@ -605,18 +605,18 @@ const Header = () => {
                 <div className="col-span-3">
                   <div className="bg-[#deebf8] p-3">
                     <div
-                      className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionProduct === "rialchat" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionProduct === "rialchat" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                       onClick={() => handleSubMenuClickProduct("rialchat")}>
                       {t('agentchatLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionProduct === "mediaina" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionProduct === "mediaina" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                       onClick={() => handleSubMenuClickProduct("mediaina")}
                     >
                       MediAIna
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionProduct === "exelona" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionProduct === "exelona" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                       onClick={() => handleSubMenuClickProduct("exelona")}
                     >
                       Exelona
@@ -628,8 +628,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5"  >
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('agentDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('agentDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('agentDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('agentDesc2')}</p>
                         <Link href='/products/agentchat' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/agentchat")}>{t('letsBeginBtn')}</Link>
                       </div>
                     </div>
@@ -640,8 +640,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5"  >
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Transform Patient Care—From Discovery to Recovery</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Powered by LifeAI+, Rialtes' consulting service dedicated to life sciences, MediAIana delivers intelligent, scalable, and compliant healthcare innovation at every stage of the patient journey.</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">Transform Patient Care—From Discovery to Recovery</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">Powered by LifeAI+, Rialtes' consulting service dedicated to life sciences, MediAIana delivers intelligent, scalable, and compliant healthcare innovation at every stage of the patient journey.</p>
                         <Link href='/products/mediaina-reimagining-patient-journeys/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/mediaina-reimagining-patient-journeys/")}
                         >Let's Begin</Link>
                       </div>
@@ -653,8 +653,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5"  >
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Exelona™ – Your End-to-End Real Estate Command Center</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Unites every stage of your property business—sales, operations, and finance into one AI-powered, mobile-ready platform, merging CRM and ERP for faster, smarter decisions.</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">Exelona™ – Your End-to-End Real Estate Command Center</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">Unites every stage of your property business—sales, operations, and finance into one AI-powered, mobile-ready platform, merging CRM and ERP for faster, smarter decisions.</p>
                         <Link href='/products/exelona-salesforce-for-real-estate-management' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/exelona-salesforce-for-real-estate-management")}
                         >Let's Begin</Link>
                       </div>
@@ -672,37 +672,37 @@ const Header = () => {
               <div className="grid grid-cols-12 custom-container gap-5 xl:w-full  md:gap-5  lg:gap-10 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
                 <div className="col-span-3 bg-[#deebf8] p-3">
                   <div
-                    className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "businessTransform" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "businessTransform" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickBusiness("businessTransform")}>
                     {t('businessTransformationLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "intelligentScm" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "intelligentScm" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickBusiness("intelligentScm")}>
                     {t('LobLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "spentMangemnet" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "spentMangemnet" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickBusiness("spentMangemnet")}>
                     {t('spendMgmtLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "hxmTransformation" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "hxmTransformation" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickBusiness("hxmTransformation")}>
                     {t('hxmLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "data-ai" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "data-ai" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickBusiness("data-ai")}>
                     {t('dataAiLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "intelligent" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "intelligent" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickBusiness("intelligent")}>
                     {t('intelligentLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "applicationServices" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] 2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "applicationServices" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickBusiness("applicationServices")}>
                     {t('appServicesLabel')}
                   </div>
@@ -711,19 +711,19 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5"  >
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('businessTransDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">{t('businessTransDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]  2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('businessTransDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]">{t('businessTransDesc2')}</p>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('GrowwithSAP')} link="/services/business-transformation/grow-with-sap-services" onClick={(e) => handleLinkClick(e, "/services/business-transformation/grow-with-sap-services")} />
-                            <MenuItem className="font-bold text-[#2f78c4] mt-8 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('OracleEBSPlus')} link="/solutions/enterprise-platforms/oracle-ebs-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/oracle-ebs-consulting")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('GrowwithSAP')} link="/services/business-transformation/grow-with-sap-services" onClick={(e) => handleLinkClick(e, "/services/business-transformation/grow-with-sap-services")} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-8 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('OracleEBSPlus')} link="/solutions/enterprise-platforms/oracle-ebs-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/oracle-ebs-consulting")} />
                           </div>
 
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('RisewithSAP')} link="/services/business-transformation/rise-with-sap-services" onClick={(e) => handleLinkClick(e, "/services/business-transformation/rise-with-sap-services")} />
-                            <MenuItem className="font-bold text-[#2f78c4] mt-8 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPDigitalDesk')} link="/services/business-transformation/sap-managed-services-provider" onClick={(e) => handleLinkClick(e, "/services/business-transformation/sap-managed-services-provider")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('RisewithSAP')} link="/services/business-transformation/rise-with-sap-services" onClick={(e) => handleLinkClick(e, "/services/business-transformation/rise-with-sap-services")} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-8 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPDigitalDesk')} link="/services/business-transformation/sap-managed-services-provider" onClick={(e) => handleLinkClick(e, "/services/business-transformation/sap-managed-services-provider")} />
                           </div>
                           <div>
                           </div>
@@ -736,18 +736,18 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5"  >
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('servicesDataAiDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">{t('servicesDataAiDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('servicesDataAiDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]    xl:text-[13px] text-[14px]">{t('servicesDataAiDesc2')}</p>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SalesforceDataCloud')} link="/solutions/data-ai/salesforce-data-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/salesforce-data-cloud-consulting")} />
-                            <MenuItem className="font-bold text-[#2f78c4] mt-8 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Agentforce')} link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SalesforceDataCloud')} link="/solutions/data-ai/salesforce-data-cloud-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/salesforce-data-cloud-consulting")} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-8 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Agentforce')} link="/solutions/artificial-intelligence/salesforce-agentforce-consulting" onClick={(e) => handleLinkClick(e, "/solutions/artificial-intelligence/salesforce-agentforce-consulting")} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPDatasphere')} link="/solutions/data-ai/sap-datasphere-implementation-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-datasphere-implementation-consulting")} />
-                            <MenuItem className="font-bold text-[#2f78c4] mt-8 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('sapBusinessDataCloud')} link="/solutions/data-ai/sap-business-data-cloud-bdc-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-business-data-cloud-bdc-consulting")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]    2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPDatasphere')} link="/solutions/data-ai/sap-datasphere-implementation-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-datasphere-implementation-consulting")} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-8 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('sapBusinessDataCloud')} link="/solutions/data-ai/sap-business-data-cloud-bdc-consulting" onClick={(e) => handleLinkClick(e, "/solutions/data-ai/sap-business-data-cloud-bdc-consulting")} />
                           </div>
                         </div>
                       </div>
@@ -758,14 +758,14 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('spendMgmtDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">{t('spendMgmtDesc2')}
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('spendMgmtDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]    xl:text-[13px] text-[14px]">{t('spendMgmtDesc2')}
                         </p>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPBuy+')} link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPBuy+')} link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")} />
                           </div>
                         </div>
                       </div>
@@ -776,29 +776,29 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('intelligentScmDesc')}</div>
-                        <div className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('intelligentScmDesc2')}
+                        <div className="font-bold mt-5 4xl:text-[20px]  2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('intelligentScmDesc')}</div>
+                        <div className="mt-3 4xl:text-[18px] 2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('intelligentScmDesc2')}
                         </div>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-10">
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Retail+')} link="/services/lob/retail-plus-business-consulting-omnichannel-solutions" onClick={(e) => handleLinkClick(e, "/services/lob/retail-plus-business-consulting-omnichannel-solutions")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Retail+')} link="/services/lob/retail-plus-business-consulting-omnichannel-solutions" onClick={(e) => handleLinkClick(e, "/services/lob/retail-plus-business-consulting-omnichannel-solutions")} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('AutoSense')} link="/services/lob/salesforce-automotive-cloud-business-solutions-autosense" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-automotive-cloud-business-solutions-autosense")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('AutoSense')} link="/services/lob/salesforce-automotive-cloud-business-solutions-autosense" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-automotive-cloud-business-solutions-autosense")} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPBuy+')} link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPBuy+')} link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('LifeAI+')} link="/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('LifeAI+')} link="/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting")} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Advantage+')} link="/services/lob/salesforce-marketing-cloud-implementation-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-marketing-cloud-implementation-consulting")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Advantage+')} link="/services/lob/salesforce-marketing-cloud-implementation-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-marketing-cloud-implementation-consulting")} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4]" label={t('RialFinance+')} link="/services/lob/salesforce-fsc-consulting-rialfinanceplus/" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-fsc-consulting-rialfinanceplus/")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" label={t('RialFinance+')} link="/services/lob/salesforce-fsc-consulting-rialfinanceplus/" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-fsc-consulting-rialfinanceplus/")} />
                           </div>
                         </div>
                       </div>
@@ -809,14 +809,14 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('appServicesDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">{t('appServicesDesc2')}
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('appServicesDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]">{t('appServicesDesc2')}
                         </p>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-10">
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SalesforceAgent+')} link="/services/application-services/salesforce-managed-services-provider-salesforceagentplus" onClick={(e) => handleLinkClick(e, "/services/application-services/salesforce-managed-services-provider-salesforceagentplus")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SalesforceAgent+')} link="/services/application-services/salesforce-managed-services-provider-salesforceagentplus" onClick={(e) => handleLinkClick(e, "/services/application-services/salesforce-managed-services-provider-salesforceagentplus")} />
                           </div>
                         </div>
                       </div>
@@ -827,13 +827,13 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('hxmDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">{t('hxmDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('hxmDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]">{t('hxmDesc2')}</p>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SuccessPlus')} link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px]text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SuccessPlus')} link="/services/hxm-transformation/successplus-successfactors-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/hxm-transformation/successplus-successfactors-implementation-partner")} />
                           </div>
                         </div>
                       </div>
@@ -844,13 +844,13 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('intelligentServicesDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px]">{t('intelligentServicesDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]  2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('intelligentServicesDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]">{t('intelligentServicesDesc2')}</p>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Demand+')} link="/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services" onClick={(e) => handleLinkClick(e, "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Demand+')} link="/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services" onClick={(e) => handleLinkClick(e, "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services")} />
                           </div>
                         </div>
                       </div>
@@ -866,52 +866,52 @@ const Header = () => {
               <div className="grid grid-cols-12 w-full lg:gap-10 xl:gap-[22px] md:gap-5 custom-container md:mt-10 xl:mt-10">
                 <div className="col-span-3 bg-[#deebf8] p-3">
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "automotive" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "automotive" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
                     onClick={() => handleSubMenuClick("automotive")}>
                     {t('realEstateLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "lifeSciences" ? "bg-white pl-3 pt-3 pb-3 " : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "lifeSciences" ? "bg-white pl-3 pt-3 pb-3 " : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
                     onClick={() => handleSubMenuClick("lifeSciences")}>
                     {t('lifeScienceLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "hiTech" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "hiTech" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
                     onClick={() => handleSubMenuClick("hiTech")}>
                     {t('semiconductorLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "manufacturing" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "manufacturing" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
                     onClick={() => handleSubMenuClick("manufacturing")}>
                     {t('manufacturingLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "education" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "education" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
                     onClick={() => handleSubMenuClick("education")}>
                     {t('educationLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "autoinstry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "autoinstry" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
                     onClick={() => handleSubMenuClick("autoinstry")}>
                     {t('automativeLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "travelHospitality" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "travelHospitality" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
                     onClick={() => handleSubMenuClick("travelHospitality")}>
                     {t('TTHLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "retailIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "retailIndustry" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
                     onClick={() => handleSubMenuClick("retailIndustry")}>
                     {t('retailLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "nonProfitIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "nonProfitIndustry" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
                     onClick={() => handleSubMenuClick("nonProfitIndustry")}>
                     {t('nonProfitLabel')}
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "financeIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "financeIndustry" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
                     onClick={() => handleSubMenuClick("financeIndustry")}>
                     {t('financeLabel')}
                   </div>
@@ -920,8 +920,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5"  >
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]"> {t('automativeIndDesc')}</div>
-                        <div className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('automativeIndDesc2')}</div>
+                        <div className="font-bold mt-5 4xl:text-[20px] 2xl:text-[15px]  xl:text-[13px] text-[16px]"> {t('automativeIndDesc')}</div>
+                        <div className="mt-3 4xl:text-[18px] 2xl:text-[15px]  2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('automativeIndDesc2')}</div>
                         <Link href='/industry/real-estate-property-management' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/real-estate-property-management")}
                         >{t('letsBeginBtn')}</Link>
                       </div>
@@ -932,26 +932,26 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('lifeSciencesDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('lifeSciencesDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]  2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('lifeSciencesDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('lifeSciencesDesc2')}</p>
                         <Link href='/industry/life-sciences-digital-transformation' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-10" onClick={(e) => handleLinkClick(e, "/industry/life-sciences-digital-transformation")}>{t('letsBeginBtn')}</Link>
                       </div>
                       <div className="mt-5">
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" label="Healthcare" link="/industry/life-sciences/healthcare-medtech-patient-care" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/healthcare-medtech-patient-care")}
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] 2xl:text-[15px] xl:text-[13px] text-[14px]" label="Healthcare" link="/industry/life-sciences/healthcare-medtech-patient-care" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/healthcare-medtech-patient-care")}
                               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" />
                           </div>
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Pharma and Biotech" link="/industry/life-sciences/pharma-biotech-digital-transformation" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/pharma-biotech-digital-transformation/")} />
+                            <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] 2xl:text-[15px] xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Pharma and Biotech" link="/industry/life-sciences/pharma-biotech-digital-transformation" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/pharma-biotech-digital-transformation/")} />
                           </div>
                         </div>
                         <div className="grid grid-cols-2 gap-32">
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Medical Devices" link="/industry/life-sciences/medical-devices-it-solutions" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/medical-devices-it-solutions")} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] 2xl:text-[15px] xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Medical Devices" link="/industry/life-sciences/medical-devices-it-solutions" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/medical-devices-it-solutions")} />
                           </div>
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Home Health" link="/industry/life-sciences/home-health-ai-tech-solutions" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/home-health-ai-tech-solutions")} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] 2xl:text-[15px] xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Home Health" link="/industry/life-sciences/home-health-ai-tech-solutions" onClick={(e) => handleLinkClick(e, "/industry/life-sciences/home-health-ai-tech-solutions")} />
                           </div>
                         </div>
                       </div>
@@ -962,8 +962,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('hiTechDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('hiTechDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px] 2xl:text-[15px] xl:text-[13px] text-[16px]">{t('hiTechDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px] 2xl:text-[15px] xl:text-[13px] text-[14px] pb-8">{t('hiTechDesc2')}</p>
                         <Link href='/industry/hitech-semiconductor-ai-it-solutions' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/hitech-semiconductor-ai-it-solutions")}>{t('letsBeginBtn')}</Link>
                       </div>
                     </div>
@@ -973,8 +973,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('autoIndustryDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('autoIndustryDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px] 2xl:text-[15px] xl:text-[13px] text-[16px]">{t('autoIndustryDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px] 2xl:text-[15px] xl:text-[13px] text-[14px] pb-8">{t('autoIndustryDesc2')}</p>
                         <Link className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" href='/industry/digital-transformation-in-automotive-industry' onClick={(e) => handleLinkClick(e, "/industry/digital-transformation-in-automotive-industry")}>{t('letsBeginBtn')}</Link>
                       </div>
                     </div>
@@ -984,8 +984,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('TTHDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('TTHDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]  2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('TTHDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('TTHDesc2')}</p>
                         <Link href='/industry/travel-hospitality-it-solutions' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/industry/travel-hospitality-it-solutions")}>{t('letsBeginBtn')}</Link>
                       </div>
                     </div>
@@ -995,8 +995,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('retailInduDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('retailInduDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]  2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('retailInduDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('retailInduDesc2')}</p>
                         <Link href='/industry/retail-industry-digital-transformation' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/industry/retail-industry-digital-transformation")}>{t('letsBeginBtn')}</Link>
                       </div>
                     </div>
@@ -1006,8 +1006,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('nonProfitDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('nonProfitDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]  2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('nonProfitDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('nonProfitDesc2')}</p>
                         <Link href='/industry/nonprofit-digital-transformation-it-solutions' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/nonprofit-digital-transformation-it-solutions")}
                         >{t('letsBeginBtn')}</Link>
                       </div>
@@ -1018,8 +1018,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('financeDesc')}</div>
-                        <p className="mt-3  4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('financeDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]  2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('financeDesc')}</div>
+                        <p className="mt-3  4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('financeDesc2')}</p>
                         <Link href='/industry/finance-industry-digital-transformation-services-solutions' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/finance-industry-digital-transformation-services-solutions")}>{t('letsBeginBtn')}</Link>
                       </div>
                     </div>
@@ -1029,8 +1029,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('manufacturingDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('manufacturingDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]  2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('manufacturingDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('manufacturingDesc2')}</p>
                         <Link href='/industry/manufacturing-cloud-erp' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/manufacturing-cloud-erp")}
                         >{t('letsBeginBtn')}</Link>
                       </div>
@@ -1041,8 +1041,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5">
                     <div className="flex-1">
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('educationDesc')}</div>
-                        <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('educationDesc2')}</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]  2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('educationDesc')}</div>
+                        <p className="mt-3 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('educationDesc2')}</p>
                         <Link href='/industry/education-cloud-it-solutions' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/education-cloud-it-solutions")}
                         >{t('letsBeginBtn')}</Link>
                       </div>
@@ -1059,7 +1059,7 @@ const Header = () => {
                 <div className="col-span-3">
                   <div className="bg-[#deebf8] p-3">
                     <div
-                      className="cursor-pointer font-bold bg-white pl-3 pt-3 pb-3 4xl:text-[18px] xl:text-[16px] text-[14px]">
+                      className="cursor-pointer font-bold bg-white pl-3 pt-3 pb-3 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]">
                       {t('aboutLabel')}
                     </div>
                   </div>
@@ -1068,20 +1068,20 @@ const Header = () => {
                 <div className="col-span-8 flex space-x-5"  >
                   <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('aboutDesc')}</div>
-                      <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('aboutDesc2')}</p>
+                      <div className="font-bold mt-5 4xl:text-[20px]  2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('aboutDesc')}</div>
+                      <p className="mt-3 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('aboutDesc2')}</p>
                       <Link href='/about-us' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/about-us")}>{t('letsBeginBtn')}</Link>
                     </div>
                     <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Culture and Values" link="/about-us/our-values" onClick={(e) => handleLinkClick(e, "/about-us/our-values")} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Partnership" link="/about-us/global-alliances" onClick={(e) => handleLinkClick(e, "/about-us/global-alliances")} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="News and Press Releases" link="/insights/news" onClick={(e) => handleLinkClick(e, "/insights/news")} />
+                          <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Culture and Values" link="/about-us/our-values" onClick={(e) => handleLinkClick(e, "/about-us/our-values")} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px]  2xl:text-[15px]    xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Partnership" link="/about-us/global-alliances" onClick={(e) => handleLinkClick(e, "/about-us/global-alliances")} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="News and Press Releases" link="/insights/news" onClick={(e) => handleLinkClick(e, "/insights/news")} />
                         </div>
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Corporate Citizenship" link="/about-us/impact-and-social-responsibility" onClick={(e) => handleLinkClick(e, "/about-us/impact-and-social-responsibility")} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6  4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label=" Contact Us" link="/contact-us" onClick={(e) => handleLinkClick(e, "/contact-us")} />
+                          <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Corporate Citizenship" link="/about-us/impact-and-social-responsibility" onClick={(e) => handleLinkClick(e, "/about-us/impact-and-social-responsibility")} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6  4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label=" Contact Us" link="/contact-us" onClick={(e) => handleLinkClick(e, "/contact-us")} />
                         </div>
                         <div>
                         </div>
@@ -1098,7 +1098,7 @@ const Header = () => {
                 <div className="col-span-3">
                   <div className="bg-[#deebf8] p-3">
                     <div
-                      className="cursor-pointer font-bold bg-white pl-3 pt-3 pb-3 4xl:text-[18px] xl:text-[16px] text-[14px]">
+                      className="cursor-pointer font-bold bg-white pl-3 pt-3 pb-3 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]">
                       {t('insightTitle')}
                     </div>
                   </div>
@@ -1106,20 +1106,20 @@ const Header = () => {
                 <div className="col-span-8 flex space-x-5">
                   <div>
                     <div className="border-b pb-5">
-                      <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('insightDesc')}</div>
-                      <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">{t('insightDesc2')}</p>
+                      <div className="font-bold mt-5 4xl:text-[20px]  2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('insightDesc')}</div>
+                      <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('insightDesc2')}</p>
                       <Link href='/insights' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/insights")}>{t('letsBeginBtn')}</Link>
                     </div>
                     <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Blogs')} link="/insights/blogs" onClick={(e) => handleLinkClick(e, "/insights/blogs")} />
+                          <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Blogs')} link="/insights/blogs" onClick={(e) => handleLinkClick(e, "/insights/blogs")} />
                           <div>
-                            <MenuItem className="font-bold text-[#2f78c4] mt-10 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Webinars')} link="/insights/webinars" onClick={(e) => handleLinkClick(e, "/insights/webinars")} />
+                            <MenuItem className="font-bold text-[#2f78c4] mt-10 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Webinars')} link="/insights/webinars" onClick={(e) => handleLinkClick(e, "/insights/webinars")} />
                           </div>
                         </div>
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" label={t('CaseStudies')} aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" link="/insights/case-studies" onClick={(e) => handleLinkClick(e, "/insights/case-studies")} />
+                          <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" label={t('CaseStudies')} aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" link="/insights/case-studies" onClick={(e) => handleLinkClick(e, "/insights/case-studies")} />
                         </div>
                         <div>
                         </div>

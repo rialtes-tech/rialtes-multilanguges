@@ -92,22 +92,11 @@ export default function Page() {
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
             {/* date and icons */}
-            <div className="sm:flex justify-between">
-              <div>
-                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogTopic')}</span>{" "}
-                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>02 July 2025
-              </div>
-
-              <div>
-                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                  <BlogSocialIcons fullUrl={fullUrl} />
-                </div>
-              </div>
-            </div>
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="02 July 2025" />
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> {t('blogTitle')}</h1>
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight"> {t('blogTitle')}</h1>
 
               <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t('blogMainData')}{" "}
@@ -136,10 +125,10 @@ export default function Page() {
                     understandingDataList.map((data, ind) => {
                       return (
                         <li key={ind}>
-                          <h3 className="h3-bold inline">
+                          <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                             {data.title}
                           </h3>
-                          {data.desc}
+                          {" "}  {data.desc}
                         </li>
                       )
                     })
@@ -160,8 +149,8 @@ export default function Page() {
                     whatLedData.map((data, ind) => {
                       return (
                         <li key={ind}>
-                          <h3 className="h3-bold inline">{data.title}</h3>
-                          {data.desc}
+                          <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.title}</h3>
+                          {" "} {data.desc}
                         </li>
                       )
                     })
@@ -187,10 +176,10 @@ export default function Page() {
                     exploreAllData.map((data, desc) => {
                       return (
                         <li key={desc}>
-                          <h4 className="h3-bold inline">
+                          <h4 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                             {data.title}
                           </h4>
-                          {data.desc}
+                          {" "} {data.desc}
                         </li>
                       )
                     })
@@ -206,7 +195,7 @@ export default function Page() {
                     seamlessData.map((data, ind) => {
                       return (
                         <li key={ind}>
-                          <h4 className="h3-bold inline">{data.title}</h4>
+                          <h4 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.title} {" "}</h4>
                           {data.desc}
                         </li>
                       )
@@ -242,7 +231,7 @@ export default function Page() {
                     {t('availabilityLink')}</Link>,{" "}
                   {t('availabilityData3')} ,
                   <Link className="underline" href={"mailto:sales@rialtes.com"}>
-                    <span> sales@rialtes.com</span>.
+                    <span>sales@rialtes.com</span>.
                   </Link>
                 </p>
               </div>

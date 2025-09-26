@@ -189,7 +189,7 @@ export default function Page() {
                                 <div className={`lg:col-span-8 col-span-12 xl:pt-[51px] xl:pb-[93px] xl:px-[68px] pt-[29px] pb-[64px] px-[30px] relative  ${!isEven && "lg:order-1 order-2"}`} key="text">
                                     <h2 className="4xl:text-[30px] xl:text-[26px] text-[22px] leading-tight text-[#0A6BB8] font-semibold w-[90%] md:w-full">{data.title}</h2>
                                     <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[39px] mt-[19px] w-[90%] lg:w-[94%]">{data.desc}</p>
-                                    <div className="xl:mt-[40px] mt-[20px] absolute"><LearnMore /></div>
+                                    <div className="xl:mt-[40px] mt-[20px] absolute"><LearnMore btnName={t('learnMoreBtn')} /></div>
                                 </div>
                             </React.Fragment>
                         ];
@@ -211,7 +211,7 @@ export default function Page() {
                             <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[90%] lg:w-[60%] xl:w-full">{t('globalTitle')}</h2>
                             <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[65px] mt-[25px] w-[94%] lg:w-[90%]">{t('globalSubTitle')}</p>
                             <div className="absolute xl:mt-[40px] mt-[20px]">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>
@@ -291,7 +291,7 @@ export default function Page() {
                         }
                     </div>
                     <div className="mt-[74px] xl:mt-[104px]">
-                        <LearnMore bgcolor="#0C8AED" bordercolor="#0C8AED" />
+                        <LearnMore btnName={t('learnMoreBtn')} bgcolor="#0C8AED" bordercolor="#0C8AED" />
                     </div>
                 </div>
             </section>
@@ -353,7 +353,7 @@ export default function Page() {
 
                     </div>
                     <div className="lg:absolute lg:bottom-0 lg:right-0">
-                        <LearnMore />
+                        <LearnMore btnName={t('learnMoreBtn')} />
                     </div>
                 </div>
             </section>
@@ -382,7 +382,7 @@ export default function Page() {
                                         {data.desc}
                                     </p>
                                     <div className="mt-auto">
-                                        <LearnMore />
+                                        <LearnMore btnName={t('learnMoreBtn')} />
                                     </div>
                                 </div>
                             )

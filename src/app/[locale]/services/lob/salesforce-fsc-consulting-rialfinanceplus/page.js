@@ -222,7 +222,7 @@ export default function page() {
                             </p>
                             <UnorderedList arrName={startWithData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[17px] pl-[20px]" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[62px] mt-[46px]">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>
@@ -301,7 +301,7 @@ export default function page() {
                                         </div>
                                     </div>
                                     <div className="xl:mt-5 4xl:mt-5 2xl:mt-5  mt-[27px]">
-                                        <LearnMore />
+                                        <LearnMore btnName={t('learnMoreBtn')} />
                                     </div>
                                 </div>
                             )
@@ -350,7 +350,7 @@ export default function page() {
                         <div className="md:col-span-6 col-span-12">
                             <UnorderedList arrName={exelonaData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[75px] mt-[55px]">
-                                <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                                <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" />
                             </div>
                         </div>
                     </div>
@@ -400,7 +400,7 @@ export default function page() {
                             {t('agentChatDesc2')}
                         </p>
                         <div className="xl:mt-[55px] mt-[37px]">
-                            <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" />
                         </div>
                     </div>
                 </div>
@@ -423,7 +423,7 @@ export default function page() {
                             {t('agentForceDesc2')}
                         </p>
                         <div className="xl:mt-[55px] mt-[37px]">
-                            <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" />
                         </div>
                     </div>
                     <div className="md:order-2 order-1">
@@ -497,7 +497,7 @@ export default function page() {
                             ))}
                         </ul>
                         <div className="xl:mt-[71px] mt-[37px]">
-                            <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" />
                         </div>
                         <div className="md:hidden mt-[40px]">
                             <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]">{t('salesforceBlueBox')}</p>
@@ -518,7 +518,7 @@ export default function page() {
                             </h3>
                             <UnorderedList arrName={howWeDeliverData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[33px] mt-[17px] pl-[20px] w-[86%] md:w-full 4xl:w-[90%]" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[40px] mt-[10px] absolute">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>
@@ -577,8 +577,8 @@ export default function page() {
                         <div className="bg-[#006FBE] text-[#ffffff] 4xl:pt-[79px] 4xl:pl-[67px] 4xl:pr-[60px] xl:pt-[54px] xl:pl-[50px] xl:pr-[50px] pt-[34px] px-[36px]">
                             <h2
                                 className={`text-[26px] w-[90%] md:w-full 
-                                    ${esActive ? "4xl:text-[52px] xl:text-[37px]" : ""} 
-                                    ${frActive ? "4xl:text-[40px] xl:text-[30px]" : ""} 
+                                    ${esActive ? "4xl:text-[52px] 2xl:text-[28px] xl:text-[37px]" : ""} 
+                                    ${frActive ? "4xl:text-[40px] 2xl:text-[28px] xl:text-[30px] lg:text-[22px]" : ""} 
                                     ${enActive ? "4xl:text-[60px] xl:text-[40px]" : ""}`}>
                                 {t('whyRialtesTitle')}
                             </h2>
@@ -587,7 +587,7 @@ export default function page() {
                             </h3>
                             <UnorderedList arrName={whyRialtesData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[39px] mt-[16px] pl-[20px] w-[86%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="4xl:mt-[53px] mt-[34px]">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>

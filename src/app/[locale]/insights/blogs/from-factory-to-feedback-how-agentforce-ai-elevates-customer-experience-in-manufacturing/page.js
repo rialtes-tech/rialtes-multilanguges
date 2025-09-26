@@ -11,6 +11,9 @@ import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import useUrl from "@/app/[locale]/components/useUrl";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 const schemaData = {
 
     "@context": "https://schema.org",
@@ -99,13 +102,14 @@ const schemaData = {
 
 export default function Page() {
     const t = useTranslations('factoryToFeedback')
+    const currUrl = useUrl()
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { blogs, faqs, mainData, bestAiToolsDesc, bestAiToolsData, intelligentDesc, intelligentData, businessData, postSaleData, postSaleData2, consistencyData, readyData } = blogsContent.factoryToFeedback;
-    const fullUrl = "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
+    const { faqs, mainData, bestAiToolsDesc, bestAiToolsData, intelligentDesc, intelligentData, businessData, postSaleData, postSaleData2, consistencyData, readyData } = blogsContent.factoryToFeedback;
+    const fullUrl = "https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/";
 
     return (
-        <div className="min-h-screen bg-white">
+        <section className="min-h-screen bg-white">
             <Seo
                 title="Agentforce for Manufacturers: Smart AI for CX | Rialtes"
                 description="With AI-driven visibility and automation, Agentforce for manufacturers reimagines CX, creating smarter, proactive, and seamless customer journeys."
@@ -117,255 +121,218 @@ export default function Page() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-            <section className="relative  h-[350px] md:h-[400px]  4xl:h-[600px] 2xl:h-[500px]">
+            <section className="relative group overflow-hidden 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[400px]">
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
                         src="/images/blog/factory-banner.webp"
-                        alt="Discover AgentExchange"
+                        alt="banner"
                         fill
+                        style={{ objectFit: "cover" }}
                         priority
+                        className="transform transition-transform duration-500 group-hover:scale-110"
                     />
                 </div>
 
                 {/* Mobile Image */}
-                <div className="block md:hidden">
+                <div className="block md:hidden h-full">
                     <Image
                         src="/images/blog/small-mobile-banner.webp"
-                        alt="Discover AgentExchange"
-                        fill
-                        style={{ objectFit: "cover" }}
+                        alt="banner"
                         priority
+                        height={0}
+                        width={0}
+                        className="w-full h-full object-cover object-[60%_30%]"
                     />
                 </div>
             </section>
+            <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+                <div className="grid lg:grid-cols-12">
+                    <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
-            <section className="custom-container">
-                <div className="pt-10 bg-white">
-                    <div className=" mx-auto">
-                        <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
-                            <div className="sm:mb-0 mb-6">
-                                <span className="text-[#0092E0]">{t('blogTopic')}</span>
-                                <span className="text-[#ACACAC]"> | </span>22 August 2025
-                            </div>
-                            <div className="flex flex-col">
-                                <div className="flex flex-row gap-6">
-                                    <div className="max-w-[40px]">
-                                        <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                                            target="_blank"
-                                            rel="noopener noreferrer" >
-                                            <Image
-                                                src="/images/case-studies/linkedin.svg"
-                                                alt="LinkedIn"
-                                                width={0}
-                                                height={0}
-                                                sizes="100vw"
-                                                style={{
-                                                    width: "100%",
-                                                    height: "100%",
-                                                    objectFit: "cover",
-                                                }}
-                                                priority
-                                            />
-                                        </a>
-                                    </div>
+                        {/* date and icons */}
+                        <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="22 August 2025" />
 
-                                    <div className="max-w-[40px]">
-                                        <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                                            target="_blank"
-                                            rel="noopener noreferrer" >
-                                            <Image
-                                                src="/images/case-studies/twitter.svg"
-                                                alt="Twitter"
-                                                width={0}
-                                                height={0}
-                                                sizes="100vw"
-                                                style={{
-                                                    width: "100%",
-                                                    height: "100%",
-                                                    objectFit: "cover",
-                                                }}
-                                                priority
-                                            />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="py-6"></div>
-                    <div className=" mx-auto">
-                        <h1 className="text-[#000000] leading-tight text-[26px] 2xl:text-[48px] 4xl:text-[60px] xl:text-[42px] md:text-[28px] 
-                         xl:w-[1000px] 4xl:w-[1150px] pb-6">
-                            {t('blogTitle')}
-                        </h1>
-                    </div>
-
-                    <div className="mx-auto">
-                        <div className="max-w-[1200px] 4xl:w-[1284px] 2xl:w-[950px] xl:w-[850px] mt-5">
-                            {
-                                mainData?.map((data, ind) => {
-
-                                    return (
-                                        <div key={ind}>
-                                            <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                                                {data.title}
-                                            </h2>
-                                            {
-                                                data.desc.map((elem, id) => {
-                                                    return (
-                                                        <p key={id} className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
-                                                            {elem}
-                                                        </p>
-                                                    )
-                                                })
-                                            }
-                                            <div className="py-3"></div>
-                                        </div>
-                                    )
-                                })
-                            }
-
-                            <h3 className="pb-4 font-semibold 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight">
-                                {t('bestAiToolsTitle')}
-                            </h3>
-                            {
-                                bestAiToolsDesc.map((data, ind) => {
-                                    return (
-                                        <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]" key={ind}>
-                                            {data}
-                                        </p>
-                                    )
-                                })
-                            }
-                            <UnorderedList arrName={bestAiToolsData} ulClassName="list-disc marker:text-xl space-y-5 pl-4 mt-4 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium pl-[56px]" />
-
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-5">
-                                {t('bestAiToolsDesc2')}
-                            </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                {t('bestAiToolsDesc3')}
-                            </p>
-
-                            <h3 className=" pb-4 font-semibold 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                {t('aiToolTitle')}
-                            </h3>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]">
-                                {t('aiToolDesc')}
-                            </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]">
-                                {t('aiToolDesc2')}
-                            </p>
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                {t('intelligentTitle')}
-                            </h3>
-                            {
-                                intelligentDesc.map((data, ind) => {
-                                    return (
-                                        <p key={ind} className="text-black ml-[24px] pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                            {data}
-                                        </p>
-                                    )
-                                })
-                            }
-
-                            <ul className="list-disc marker:text-xl pl-[56px] text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-5">
+                        {/* main blog */}
+                        <div className="xl:mt-[60px] mt-[42px]">
+                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight"> {t('blogTitle')}</h1>
+                            {/* main data */}
+                            <div className="md:mt-[50px] mt-[40px]">
                                 {
-                                    intelligentData.map((data, ind) => {
+                                    mainData?.map((data, ind) => {
                                         return (
-                                            <li><h4 className="font-bold inline 4xl:text-[18px] 2xl:text-[16px] xl:text-[15px] text-[16px]">{data.title}</h4>{data.desc}</li>
+                                            <div key={ind} className="mt-[29px] xl:mt-[30px]">
+                                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                                                    {data.title}
+                                                </h2>
+                                                {
+                                                    data.desc.map((elem, id) => {
+                                                        return (
+                                                            <p key={id} className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" dangerouslySetInnerHTML={{ __html: elem }} />
+                                                        )
+                                                    })
+                                                }
+                                            </div>
                                         )
                                     })
                                 }
-                            </ul>
+                            </div>
 
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                {t('businessTitle')}
-                            </h3>
-                            <UnorderedList arrName={businessData} ulClassName="list-disc marker:text-xl pl-[32px] text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3" />
+                            {/* best ai tools section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]">
+                                    {t('bestAiToolsTitle')}
+                                </h3>
+                                {
+                                    bestAiToolsDesc.map((data, ind) => {
+                                        return (
+                                            <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-4" key={ind}>
+                                                {data}
+                                            </p>
+                                        )
+                                    })
+                                }
+                                <UnorderedList arrName={bestAiToolsData} ulClassName="list-disc mt-3 space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-8 lg:pl-[56px]" />
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-8 pl-2 lg:pl-[24px]">
+                                    {t('bestAiToolsDesc2')}
+                                </p>
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 pl-2 lg:pl-[24px]">
+                                    {t('bestAiToolsDesc3')}
+                                </p>
+                            </div>
 
-                            <h3 className=" pb-4 font-semibold  4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                {t('postSaleTitle')}
-                            </h3>
+                            {/* ai tool section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]">
+                                    {t('aiToolTitle')}
+                                </h3>
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]">
-                                {t('postSaleDesc')}
-                            </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]">
-                                {t('postSaleDesc2')}
-                            </p>
-                            <UnorderedList arrName={postSaleData} ulClassName="list-disc marker:text-xl pl-[56px] mt-4 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3" />
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-3">
+                                    {t('aiToolDesc')}
+                                </p>
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-3">
+                                    {t('aiToolDesc2')}
+                                </p>
+                            </div>
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-10 pl-[24px]">
-                                {t('postSaleDesc3')}
-                            </p>
-                            <UnorderedList arrName={postSaleData2} ulClassName="list-disc marker:text-xl pl-[56px] mt-2 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3" />
+                            {/* intelligent section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]">
+                                    {t('intelligentTitle')}
+                                </h3>
+                                <div className="pl-2 lg:pl-[24px]">
+                                    {
+                                        intelligentDesc.map((data, ind) => {
+                                            return (
+                                                <p key={ind} className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" dangerouslySetInnerHTML={{ __html: data }} />
+                                            )
+                                        })
+                                    }
+                                </div>
+                                <ul className="list-disc mt-3 pl-8 lg:pl-[56px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-4">
+                                    {
+                                        intelligentData.map((data, ind) => {
+                                            return (
+                                                <li key={ind}><h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.title}</h4>{" "}{data.desc}</li>
+                                            )
+                                        })
+                                    }
+                                </ul>
+                            </div>
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-7 pl-[24px]">
-                                {t('postSaleDesc4')}
-                            </p>
+                            {/* business section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]">
+                                    {t('businessTitle')}
+                                </h3>
+                                <UnorderedList arrName={businessData} ulClassName="list-disc mt-5 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-8 lg:pl-[34px]" />
+                            </div>
 
-                            <h3 className="pb-4 font-semibold 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-10">
-                                {t('consistencyTitle')}
-                            </h3>
+                            {/* post sale section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]">
+                                    {t('postSaleTitle')}
+                                </h3>
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-3">
+                                    {t('postSaleDesc')}
+                                </p>
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-5">
+                                    {t('postSaleDesc2')}
+                                </p>
+                                <UnorderedList arrName={postSaleData} ulClassName="list-disc mt-3 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-8 lg:pl-[56px]" />
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-8">
+                                    {t('postSaleDesc3')}
+                                </p>
+                                <UnorderedList arrName={postSaleData2} ulClassName="list-disc mt-3 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-8 lg:pl-[56px]" />
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-8">
+                                    {t('postSaleDesc4')}
+                                </p>
+                            </div>
 
+                            {/* consistency section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]">
+                                    {t('consistencyTitle')}
+                                </h3>
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-3">
+                                    {t('consistencyDesc')}
+                                </p>
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-3">
+                                    {t('consistencyDesc2')}
+                                </p>
+                                <UnorderedList arrName={consistencyData} ulClassName="list-disc mt-3 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium lg:pl-[56px] pl-8" />
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-5">
+                                    {t('consistencyDesc3')}
+                                </p>
+                            </div>
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]">
-                                {t('consistencyDesc')}
-                            </p>
+                            {/* ai thinks section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                                    {t('aiThinksTitle')}
+                                </h2>
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-[29px] xl:mt-[34px]">
+                                    {t('aiThinkDesc')}
+                                </p>
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-3">
+                                    {t('aiThinkDesc2')}
+                                </p>
+                            </div>
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] pl-[24px]">
-                                {t('consistencyDesc2')}
-                            </p>
-                            <UnorderedList arrName={consistencyData} ulClassName="list-disc marker:text-xl pl-[56px] mt-4 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3" />
+                            {/* ready section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                                    {t('readyTitle')}
+                                </h2>
+                                <h3 className="mt-[29px] xl:mt-[34px] font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]">
+                                    {t('readySubTitle')}
+                                </h3>
+                                <UnorderedList arrName={readyData} ulClassName="list-disc mt-5 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium lg:pl-[56px] pl-8" />
 
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-7 pl-[24px]">
-                                {t('consistencyDesc3')}
-                            </p>
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-5">
+                                    {t('rialtesTalkDesc')}{" "}
+                                    <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
+                                        href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"}>
+                                        <span>{t('rialtesTalkLink')}</span>
+                                    </Link> {t('rialtesTalkDesc2')}.
+                                </p>
+                            </div>
 
-                            <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] mt-10 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                                {t('aiThinksTitle')}
-                            </h2>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                {t('aiThinkDesc')}
-                            </p>
-                            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                {t('aiThinkDesc2')}
-                            </p>
-
-                            <h2 className=" pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] mt-10 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight">
-                                {t('readyTitle')}
-                            </h2>
-
-                            <h3 className=" pb-4 font-semibold 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] leading-tight mt-3">
-                                {t('readySubTitle')}
-                            </h3>
-
-                            <UnorderedList arrName={readyData} ulClassName="list-disc marker:text-xl pl-[34px] mt-4 text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] font-medium space-y-3" />
-
-                            <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                                {t('rialtesTalkDesc')}
-                                <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
-                                    href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"}>
-                                    <span>{t('rialtesTalkLink')}</span>
-                                </Link> {t('rialtesTalkDesc2')},
-                            </p>
-
-                            <h2 className="pb-4 2xl:text-[24px] font-medium text-[#0092E0] 4xl:text-[30px] xl:text-[21px] text-[23px] mt-10">
-                                {t('faqTitle')}
-                            </h2>
                         </div>
                     </div>
                 </div>
             </section>
-
-            <section className="custom-container max-md:px-0 pb-10">
-                <FAQAccordion faqData={faqs} />
+            {/* faq section */}
+            <section className="xl:mt-[80px] mt-[40px] custom-container">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('faqTitle')}</h2>
+                <div className="mt-[29px] xl:mt-[34px]">
+                    <FAQAccordion faqData={faqs} />
+                </div>
             </section>
-            <div
-                className="custom-container xl:pr-0 mt-10">
-                <BlogsCarousel slides={blogs} />
-            </div>
-        </div>
+            {/* blog carousel */}
+            <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
+                <FilteredBlogCarousel url={currUrl} />
+            </section>
+        </section>
     );
 }

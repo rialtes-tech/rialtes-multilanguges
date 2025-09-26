@@ -693,6 +693,8 @@
     "futureProofingTitle": "Anticiper l’avenir avec l’IA, les données et l’automatisation : la prochaine frontière",
     "futureProofingDesc": "Exploitez SAP Data Cloud et Salesforce Agentforce AI pour libérer les capacités ERP nouvelle génération :",
     "contactTitle": "Prêt à croître avec SAP ? Collaborez avec Rialtes VoyagerNext dès aujourd’hui !",
+    "knowMoreBtn": "En savoir plus",
+    "learnMoreBtn": "En savoir plus",
     "contactSubTitle": "Renforcez votre parcours de croissance avec VoyagerNext — la méthode Rialtes pour libérer le potentiel de S/4HANA Cloud."
   },
   "riseWithSap": {
@@ -1030,6 +1032,7 @@
     "introducingDesc": "AutoSense est la suite complète de services de Rialtes, conçue spécifiquement pour les besoins évolutifs de l’écosystème automobile — y compris les OEM, fournisseurs, concessionnaires et prestataires de mobilité. AutoSense combine conseil, mise en œuvre, assurance qualité et support post-mise en production, entièrement intégré avec les partenaires technologiques OEM comme SAP et Salesforce.",
     "partnerTitle": " Partenariat avec Rialtes pour une transformation automobile intelligente",
     "partnerDesc": "Que vous soyez un OEM mondial, une marque EV en pleine croissance ou un réseau de concessionnaires leader, Rialtes vous aide à relier la technologie aux résultats. Du conseil à la mise en œuvre jusqu’à l’innovation continue, nous sommes votre partenaire pour construire l’avenir de la mobilité.",
+    "learnMoreBtn": "En savoir plus",
     "contactTitle": "Accélérez votre transformation automobile avec Rialtes"
   },
   "salesforceAgent": {
@@ -1238,6 +1241,7 @@
       }
     ],
     "knowMore": "En savoir plus",
+    "learnMoreBtn": "En savoir plus",
     "contactTitle": "Élevons ensemble votre Salesforce !",
     "contactSubTitle": "Prêt à libérer l’IA, booster la productivité et optimiser Salesforce ?",
     "contactSubTitleOne": "Contactez Rialtes pour découvrir comment SalesforceAgent+ peut dynamiser votre écosystème Salesforce."
@@ -1411,9 +1415,9 @@
     ],
     "hybridTitle": "Modèle Hybride (Onsite + Offshore)",
     "rialtesTwentyData2": [
-  "Combinaison stratégique d’une expertise locale et d’une prestation offshore pour un support rentable mais personnalisé.",
-  "Direction locale et consultants en contact avec les clients, soutenus par des équipes offshore du SAP CoE pour assurer l’évolutivité."
-],
+      "Combinaison stratégique d’une expertise locale et d’une prestation offshore pour un support rentable mais personnalisé.",
+      "Direction locale et consultants en contact avec les clients, soutenus par des équipes offshore du SAP CoE pour assurer l’évolutivité."
+    ],
     "onsiteDeliveryTitle": "Modèle Onsite",
     "onsiteDeliveryTitle2": "Modèle 100% Offshore",
     "onsiteDeliveryData": [
@@ -1861,6 +1865,7 @@
       "Support complet allant du conseil à l’optimisation post-déploiement."
     ],
     "headerTitle": "Advantage+",
+     "learnMoreBtn": "En savoir plus",
     "headerSubTitle": "Stimuler la croissance grâce au marketing personnalisé",
     "headerSubTitle2": "Services Salesforce Marketing Cloud de Rialtes",
     "pageDescTitle": "Offrez des expériences hyper-personnalisées et basées sur les données avec Advantage+",
@@ -2074,6 +2079,7 @@
     "whyRialtesSubTitle": "Les experts derrière votre succès Salesforce",
     "contactTitle": "Commencez avec RialFinance+ — Transformez vos services financiers avec IA, Data et Salesforce",
     "contactSubTitle": "Prêt à préparer l’avenir de votre institution financière et offrir des expériences client nouvelle génération ?",
+    "learnMoreBtn": "En savoir plus",
     "contactSubTitle2": "Contactez Rialtes pour découvrir RialFinance+ — votre partenaire de transformation financière propulsée par Salesforce."
   }
 }
