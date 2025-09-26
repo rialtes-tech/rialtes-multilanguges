@@ -246,7 +246,7 @@ export default function page({ url, currTopic }) {
                             className="flex flex-col sm:basis-1/4 border border-[#707070] sm:mr-6 mb-4 max-[415px]:h-[460px] h-[520px] sm:h-[500px] md:h-[520px] lg:h-[520px] xl:h-[500px] 3xl:h-[550px] 4xl:h-[600px] group">
 
                             <div className="max-h-[300px]">
-                                <Link href={'/' + slide.url}>
+                                <Link href={slide.url}>
                                     <Image
                                         src={slide.image}
                                         alt={slide.title}
@@ -263,7 +263,7 @@ export default function page({ url, currTopic }) {
                             <div className="flex flex-col text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                                 <div className="flex flex-col">
                                     <div className=" leading-tight text-[16px] 4xl:text-[17px]"><span className="text-[#0092E0]">{slide.industry}</span> | {slide.date}</div>
-                                    <Link href={'/' + slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.title}</h5></Link>
+                                    <Link href={slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.title}</h5></Link>
                                 </div>
                                 <p className="line-clamp-4 leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.description}</p>
                             </div>
