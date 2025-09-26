@@ -1,4 +1,144 @@
 {
+  "relatedCaseStudies": {
+    "latestCaseStudyTitle": "Related Case Studies",
+    "latestCaseStudy": [
+      {
+        "id": 15,
+        "image": "/images/case-studies/Small thumb.webp",
+        "industry": "Education",
+        "date": "21 Aug 2025",
+        "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
+        "title": "Transforming Student Success with Salesforce Education Cloud and Edu+",
+        "description": "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions."
+      },
+      {
+        "id": 14,
+        "image": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
+        "industry": "Automotive",
+        "date": "30 Jun 2025",
+        "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
+        "title": "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
+        "description": "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
+      },
+      {
+        "id": 13,
+        "image": "/images/case-studies/Adaptis_featured CS.webp",
+        "industry": "Manufacturing",
+        "date": "10 Jun 2025",
+        "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud",
+        "title": "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
+        "description": "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer."
+      },
+      {
+        "id": 12,
+        "image": "/images/case-studies/revolutionary-filter.webp",
+        "industry": "Manufacturing",
+        "date": "03 Jun 2025",
+        "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense",
+        "title": "Revving Up Dealer Management with AutoSense by Rialtes",
+        "description": "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal."
+      },
+      {
+        "id": 11,
+        "image": "/images/case-studies/adaptis-for-carousel.webp",
+        "industry": "Manufacturing",
+        "date": "30 May 2025",
+        "url": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud",
+        "title": "Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience",
+        "description": "A leading manufacturer of high-quality roofing solutions designed to protect what matters most.Specializing in durable and innovative products for residential"
+      },
+      {
+        "id": 1,
+        "image": "/images/case-studies/fiory-carosel.webp",
+        "industry": "Manufacturing",
+        "date": "28 May 2025",
+        "url": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
+        "title": "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
+        "description": "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders."
+      },
+      {
+        "id": 2,
+        "image": "/images/case-studies/carosel.webp",
+        "industry": "Manufacturing",
+        "date": "26 Mar 2025",
+        "url": "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company",
+        "title": "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
+        "description": "The company is a leading manufacturer specializing in customized water treatment equipment. Each product is uniquely designed based on specific customer requirements, meaning no two products are alike."
+      },
+      {
+        "id": 3,
+        "image": "/images/case-studies/case study 3_thumb_n.webp",
+        "industry": "Manufacturing",
+        "date": "08 Jan 2025",
+        "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
+        "title": "DevOps Transformation using Copado and Salesforce",
+        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects."
+      },
+      {
+        "id": 4,
+        "image": "/images/case-studies/case-study-2_thumb_n.webp",
+        "industry": "Real Estate",
+        "date": "22 Dec 2024",
+        "url": "/insights/case-studies/realForce-banking-module-ach",
+        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
+      },
+      {
+        "id": 5,
+        "image": "/images/case-studies/case study 1_thumb_n.webp",
+        "industry": "Healthcare",
+        "date": "17 Nov 2024",
+        "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+        "title": "Automating Order Processing in Healthcare using MuleSoft",
+        "description": "A global medical technology company that develops and manufactures innovative products"
+      },
+      {
+        "id": 6,
+        "image": "/images/case-studies/case-study-4_thumb.webp",
+        "industry": "Manufacturing",
+        "date": "14 Oct 2024",
+        "url": "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud",
+        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
+        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity."
+      },
+      {
+        "id": 7,
+        "image": "/images/case-studies/case-study-5_thumb.webp",
+        "industry": "Public Sector",
+        "date": "27 Sep 2024",
+        "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america",
+        "title": "Trusted YARDI Partner for North America’s Largest PHA",
+        "description": "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone."
+      },
+      {
+        "id": 8,
+        "image": "/images/case-studies/case-study-6_thumb.webp",
+        "industry": "Real Estate",
+        "date": "04 Sep 2024",
+        "url": "/insights/case-studies/yardi-managed-services",
+        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
+      },
+      {
+        "id": 9,
+        "image": "/images/case-studies/case-study-7_thumb.webp",
+        "industry": "Healthcare",
+        "date": "16 Aug 2024",
+        "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
+        "title": "Digitizing the Patient Journey Using Salesforce Health Cloud",
+        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects."
+      },
+      {
+        "id": 10,
+        "image": "/images/case-studies/case-study-8_thumb.webp",
+        "industry": "Healthcare",
+        "date": "02 Aug 2024",
+        "url": "/insights/case-studies/salesforce-health-cloud-prior-authorization",
+        "title": "Digitizing Prior Authorization for Better Patient Outcomes",
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
+      }
+    ]
+  },
   "yardiCaseStudy": {
     "headerTitle": "Trusted YARDI Partner for North America’s Largest PHA",
     "publicTitle": "Public Sector",
@@ -49,58 +189,6 @@
       "By introducing primary and backup personnel for all critical systems, Rialtes significantly reduced service interruptions.",
       "Leveraging offshore resources cuts costs by nearly one-third compared to maintaining a full in-house California-based team.",
       "The client gained on-demand access to a wide range of skills across Yardi, MRI, RealPage, and infrastructure without the burden of hiring locally."
-    ],
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Healthcare",
-        "industry": "Real Estate",
-        "date": "17 Nov 2024",
-        "title": "Automating Order Processing in Healthcare using MuleSoft",
-        "description": "A global medical technology company that develops and manufactures innovative products",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Manufacturing",
-        "industry": "Healthcare",
-        "date": "14 Oct 2024",
-        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
-        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Real Estate",
-        "industry": "Manufacturing",
-        "date": "04 Sept 2024",
-        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Manufacturing",
-        "industry": "Retail & e-Commerce",
-        "date": "08 Jan 2025",
-        "title": "DevOps Transformation using Copado and Salesforce",
-        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Real Estate",
-        "industry": "Hi-Tech",
-        "date": "22 Dec 2024",
-        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
     ]
   },
   "relatedTopic": {
@@ -371,7 +459,6 @@
         "description": "The removal of manual data entry decreased order processing errors by over 80%, enhancing accuracy and helping achieve a 15% improvement in on-time and in-full (OTIF) delivery metrics, critical for the construction supply chain."
       }
     ],
-
     "slides": [
       {
         "id": 3,
@@ -675,58 +762,6 @@
       "Improved global support consistency and seamless collaboration across continents.",
       "Scalability for future integration with Salesforce CPQ and Marketing Cloud, enabling a unified customer lifecycle.",
       "Knowledge article usage increased by 45%, improving first-contact resolution."
-    ],
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Healthcare",
-        "industry": "Real Estate",
-        "date": "17 Nov 2024",
-        "title": "Automating Order Processing in Healthcare using MuleSoft",
-        "description": "A global medical technology company that develops and manufactures innovative products",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Manufacturing",
-        "industry": "Healthcare",
-        "date": "14 Oct 2024",
-        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
-        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Real Estate",
-        "industry": "Manufacturing",
-        "date": "04 Sept 2024",
-        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Manufacturing",
-        "industry": "Retail & e-Commerce",
-        "date": "08 Jan 2025",
-        "title": "DevOps Transformation using Copado and Salesforce",
-        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Real Estate",
-        "industry": "Hi-Tech",
-        "date": "22 Dec 2024",
-        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
     ]
   },
   "optimizingCaseStudy": {
@@ -744,7 +779,6 @@
     "managingTitle": "Managing Budgets, Order History, and Invoices",
     "unifiedTitle": "Unified  Platform for All Subsidiaries",
     "globalTitle": "Globalization",
-
     "maxiList": [
       "Implemented Salesforce Sales Cloud to automate lead qualification and opportunity management.",
       "Implementing automated lead tracking and AI-driven recommendations boosted sales team productivity, reducing the average sales cycle from 46 days to 28 days and enabling faster deal closures.",
@@ -778,7 +812,6 @@
       "Implemented multi-language and multi-currency support to accommodate regional sales teams and customers.",
       "Configured country-specific tax rules, pricing models, and regulatory compliance to align with business requirements."
     ],
-
     "problemList": [
       {
         "title": "Complex Sales Process",
@@ -817,58 +850,6 @@
           "With operations spanning multiple regions, their manufacturing and sales teams combat language barriers, regional compliance variations, and inconsistent customer interactions. The absence of a system that supports multiple languages hinders seamless customer service and global sales alignment."
         ]
       }
-    ],
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Healthcare",
-        "industry": "Real Estate",
-        "date": "17 Nov 2024",
-        "title": "Automating Order Processing in Healthcare using MuleSoft",
-        "description": "A global medical technology company that develops and manufactures innovative products",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Manufacturing",
-        "industry": "Healthcare",
-        "date": "14 Oct 2024",
-        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
-        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Real Estate",
-        "industry": "Manufacturing",
-        "date": "04 Sept 2024",
-        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Manufacturing",
-        "industry": "Retail & e-Commerce",
-        "date": "08 Jan 2025",
-        "title": "DevOps Transformation using Copado and Salesforce",
-        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Real Estate",
-        "industry": "Hi-Tech",
-        "date": "22 Dec 2024",
-        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
     ]
   },
   "realForceCaseStudy": {
@@ -880,62 +861,9 @@
     "clientDesc": "A leading U.S.-based multifamily real estate investment firm focused on acquisitions, development, and operational excellence. With a portfolio of residential properties across the country, the firm’s mission is to build thriving communities for residents while driving strong returns for investors.",
     "problemTitle": "Problem or Challenge ",
     "problemDesc": "The client was operating on a legacy banking application hosted in a non-standard, outdated environment (referred to as a 'dark net' system), which presented several challenges:",
-
     "solutionTitle": "Solutions",
     "solutionDesc": "Rialtes modernized the client’s ACH and journal entry operations by implementing a custom Exelona Banking Module built on Salesforce Einstein 1 Platform. Key components of the solution included:",
     "benefitsTitle": "Benefits",
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Healthcare",
-        "industry": "Real Estate",
-        "date": "17 Nov 2024",
-        "title": "Automating Order Processing in Healthcare using MuleSoft",
-        "description": "A global medical technology company that develops and manufactures innovative products",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Manufacturing",
-        "industry": "Healthcare",
-        "date": "14 Oct 2024",
-        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
-        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Real Estate",
-        "industry": "Manufacturing",
-        "date": "04 Sept 2024",
-        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Manufacturing",
-        "industry": "Retail & e-Commerce",
-        "date": "08 Jan 2025",
-        "title": "DevOps Transformation using Copado and Salesforce",
-        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Real Estate",
-        "industry": "Hi-Tech",
-        "date": "22 Dec 2024",
-        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
-    ],
     "problemList": [
       {
         "title": "Manual Processes",
@@ -995,7 +923,6 @@
     "cliendDesc": "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal. Built on a legacy .NET framework, the portal struggled to keep up with modern business needs, hindering dealer engagement, sales processes, and operational efficiency. The client sought a powerful, scalable solution to optimize dealer interactions, streamline workflows, and enhance overall performance across its vast network of global dealers.",
     "keyTitle": "Key Challenges:",
     "keyDesc": "The client’s legacy dealer portal posed several critical obstacles that impacted their business growth:",
-
     "autoTitle": "The AutoSense Solution by Rialtes",
     "autoDesc": "To address these challenges, Rialtes, a global leader in AI-powered digital transformation, partnered with the automotive manufacturer to deliver AutoSense, a next-generation dealer management platform built on the robust Salesforce Experience   Cloud. Rialtes took a customer-centric approach, running design workshops, creating a detailed agile development plan, and delivering an innovative solution through sprint-based development.",
     "approachTitle": "Strategic Approach:",
@@ -1004,7 +931,6 @@
     "deliverablesTitle": "Key Deliverables from Rialtes Under AutoSense:",
     "conclusionTitle": "Conclusion:",
     "conclusionDesc": "By leveraging AutoSense, Rialtes successfully transformed the automotive manufacturer’s outdated legacy dealer portal into a modern, scalable, and efficient solution that empowered their dealers and streamlined internal operations. With Salesforce Experience Cloud and SAP S/4 HANA integrations, AutoSense delivered a superior dealer management experience, providing real-time data, operational efficiencies, and a seamless user interface. This transformation not only enhanced the client’s dealer engagement but also positioned them for continued growth in an increasingly competitive automotive market.",
-
     "approachList": [
       {
         "title": "Collaborative Design Workshops",
@@ -1114,58 +1040,6 @@
         "title": "Scalability Issues",
         "description": "The legacy system was not equipped to scale with the manufacturer’s growing dealer network and expanding product portfolio."
       }
-    ],
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Healthcare",
-        "industry": "Real Estate",
-        "date": "17 Nov 2024",
-        "title": "Automating Order Processing in Healthcare using MuleSoft",
-        "description": "A global medical technology company that develops and manufactures innovative products",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Manufacturing",
-        "industry": "Healthcare",
-        "date": "14 Oct 2024",
-        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
-        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Real Estate",
-        "industry": "Manufacturing",
-        "date": "04 Sept 2024",
-        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Manufacturing",
-        "industry": "Retail & e-Commerce",
-        "date": "08 Jan 2025",
-        "title": "DevOps Transformation using Copado and Salesforce",
-        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Real Estate",
-        "industry": "Hi-Tech",
-        "date": "22 Dec 2024",
-        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
     ]
   },
   "salesForceCaseStudy": {
@@ -1180,7 +1054,6 @@
     "solutionsTitle": "Solutions",
     "solutionsDesc": "To streamline and digitize the prior authorization process, Rialtes developed a Salesforce-based solution using Salesforce Health Cloud that connected hospitals, healthcare providers, patients, and insurers within a unified digital workflow. ",
     "benefitsTitle": "Benefits",
-
     "problemList": [
       "Patients often had multiple policies with varying coverage rules, leading to confusion and delayed approvals.",
       "Patients were frequently unaware of non-covered treatments until they received post-treatment denial notifications, resulting in unexpected costs.",
@@ -1478,58 +1351,6 @@
       "Real-time SMS and email alerts cut down customer follow-ups by 40%, improving transparency and customer satisfaction.",
       "Seamless data sync with SAP and ERP systems enabled near real-time tracking of warranty claims, boosting processing accuracy and cutting claim resolution time by half.",
       "A modern LWC-based UI improved user accessibility and reduced training time for internal users by 30%."
-    ],
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Healthcare",
-        "industry": "Real Estate",
-        "date": "17 Nov 2024",
-        "title": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
-        "description": "A global medical technology company that develops and manufactures innovative products",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Real Estate",
-        "industry": "Healthcare",
-        "date": "14 Oct 2024",
-        "title": "Omnichannel case management with Salesforce Service Cloud",
-        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Healthcare",
-        "industry": "Manufacturing",
-        "date": "4 Sept 2024",
-        "title": "Yardi Managed Services",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "SAP",
-        "industry": "Retail & e-Commerce",
-        "date": "25 Oct 2024",
-        "title": "Streamlined DevOps using Copado and Salesforce",
-        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Salesforce",
-        "industry": "Hi-Tech",
-        "date": "25 Oct 2024",
-        "title": "RealForce Banking Module - ACH",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
     ]
   },
   "yardiManageCaseStudy": {
@@ -1636,101 +1457,49 @@
     ]
   },
   "eduplusCaseStudy": {
-    "educationcloud": "Education Cloud",
+    "educationcloud": "Education",
     "date": "21 August 2025",
     "eduTitle": "Transforming Student Success with Salesforce Education Cloud and Edu+",
     "clientTitle": " Client Overview",
-        "cliendDesc": "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions. The institution was facing challenges in managing student engagement, enrollment tracking, case resolution, and providing a unified view of its academic ecosystem.",
-        "challengesTitle": "Challenge",
-        "challengesDesc": "Disconnected Student Experience & Manual Operations",
-        "challengesOne": "The university operated with siloed systems for admissions, student services, academic advising, and alumni engagement. Key challenges included:",
-        "challengesTwo": "The leadership needed a robust digital platform to improve enrollment processes, student engagement, and case handling across the academic lifecycle.",
-        "solutionTitle": "Solution",
-        "solutionDesc": "Rialtes Edu+ Implementation on Salesforce Education Cloud",
-        "solutionOne": "Rialtes, leveraging its industry-specialized service Edu+, implemented Salesforce Education Cloud integrated with Agentforce (AI-based assistant) and Salesforce Data Cloud for real-time analytics and 360° student insights.",
-        "highlights": "Implementation Highlights",
-        "keyTitle": "Key Features Delivered with Edu+",
-        "impactTitle": "Outcomes & Business Impact",
-        "impactDesc": "After going live with Salesforce Education Cloud powered by Edu+, the university saw measurable improvements within the first two academic terms:",
-        "resultsTitle": "Quantitative Results",
-        "benefits": "Qualitative Benefits",
-        "about": "About Edu+ by Rialtes",
-        "aboutDesc": "Edu+ is Rialtes’ dedicated consulting and implementation framework tailored for educational institutions. It brings together Salesforce Education Cloud, AI/automation (Agentforce), and data integration (Data Cloud) to deliver:",
-        "aboutList":  [
-  "Faster time to value",
-  "Industry-aligned object models and workflows",
-  "Scalable, future-ready digital campuses"
-],
-        "eduBenefits" : [
-  "Empowered students with personalized experiences and proactive guidance",
-  "Reduced administrative overhead for admissions and student affairs teams",
-  "Enabled real-time collaboration across academic departments",
-  "Provided leadership with actionable insights for enrollment strategy and student retention"
-],
-        "eduSolutions" : [
-  "Salesforce Education Cloud with core objects like Students, Teachers, Advisors, Classes, Courses, and Cases",
-  "Agentforce AI Assistant to manage FAQs, enrollment queries, and support interactions through a conversational interface",
-  "Salesforce Data Cloud integration to unify data across SIS, LMS, email, and admissions platforms for predictive engagement",
-  "Custom advising workflows and case management automation for academic support and student life",
-  "Personalized dashboards and journey maps for every student, teacher, and program"
-],
-"studentChallenges" : [
-  "Lack of a unified student profile and centralized engagement history",
-  "Manual enrollment workflows with limited real-time visibility",
-  "Inconsistent case management for student services and academic advising",
-  "Inability to track student-teacher-class relationships in a scalable manner"
-],
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Healthcare",
-        "industry": "Real Estate",
-        "date": "17 Nov 2024",
-        "title": "Automating Order Processing in Healthcare using MuleSoft",
-        "description": "A global medical technology company that develops and manufactures innovative products",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Manufacturing",
-        "industry": "Healthcare",
-        "date": "14 Oct 2024",
-        "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
-        "description": "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Real Estate",
-        "industry": "Manufacturing",
-        "date": "04 Sept 2024",
-        "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Manufacturing",
-        "industry": "Retail & e-Commerce",
-        "date": "08 Jan 2025",
-        "title": "DevOps Transformation using Copado and Salesforce",
-        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Real Estate",
-        "industry": "Hi-Tech",
-        "date": "22 Dec 2024",
-        "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
+    "cliendDesc": "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions. The institution was facing challenges in managing student engagement, enrollment tracking, case resolution, and providing a unified view of its academic ecosystem.",
+    "challengesTitle": "Challenge",
+    "challengesDesc": "Disconnected Student Experience & Manual Operations",
+    "challengesOne": "The university operated with siloed systems for admissions, student services, academic advising, and alumni engagement. Key challenges included:",
+    "challengesTwo": "The leadership needed a robust digital platform to improve enrollment processes, student engagement, and case handling across the academic lifecycle.",
+    "solutionTitle": "Solution",
+    "solutionDesc": "Rialtes Edu+ Implementation on Salesforce Education Cloud",
+    "solutionOne": "Rialtes, leveraging its industry-specialized service Edu+, implemented Salesforce Education Cloud integrated with Agentforce (AI-based assistant) and Salesforce Data Cloud for real-time analytics and 360° student insights.",
+    "highlights": "Implementation Highlights",
+    "keyTitle": "Key Features Delivered with Edu+",
+    "impactTitle": "Outcomes & Business Impact",
+    "impactDesc": "After going live with Salesforce Education Cloud powered by Edu+, the university saw measurable improvements within the first two academic terms:",
+    "resultsTitle": "Quantitative Results",
+    "benefits": "Qualitative Benefits",
+    "about": "About Edu+ by Rialtes",
+    "aboutDesc": "Edu+ is Rialtes’ dedicated consulting and implementation framework tailored for educational institutions. It brings together Salesforce Education Cloud, AI/automation (Agentforce), and data integration (Data Cloud) to deliver:",
+    "aboutList": [
+      "Faster time to value",
+      "Industry-aligned object models and workflows",
+      "Scalable, future-ready digital campuses"
+    ],
+    "eduBenefits": [
+      "Empowered students with personalized experiences and proactive guidance",
+      "Reduced administrative overhead for admissions and student affairs teams",
+      "Enabled real-time collaboration across academic departments",
+      "Provided leadership with actionable insights for enrollment strategy and student retention"
+    ],
+    "eduSolutions": [
+      "Salesforce Education Cloud with core objects like Students, Teachers, Advisors, Classes, Courses, and Cases",
+      "Agentforce AI Assistant to manage FAQs, enrollment queries, and support interactions through a conversational interface",
+      "Salesforce Data Cloud integration to unify data across SIS, LMS, email, and admissions platforms for predictive engagement",
+      "Custom advising workflows and case management automation for academic support and student life",
+      "Personalized dashboards and journey maps for every student, teacher, and program"
+    ],
+    "studentChallenges": [
+      "Lack of a unified student profile and centralized engagement history",
+      "Manual enrollment workflows with limited real-time visibility",
+      "Inconsistent case management for student services and academic advising",
+      "Inability to track student-teacher-class relationships in a scalable manner"
     ],
     "eduPlusFeatures": [
       {
@@ -1764,7 +1533,6 @@
         "description": "AI assistant for 24/7 support, including FAQs, deadlines, course availability, etc."
       }
     ],
-
     "quantitativeResults": [
       {
         "value": "22%",

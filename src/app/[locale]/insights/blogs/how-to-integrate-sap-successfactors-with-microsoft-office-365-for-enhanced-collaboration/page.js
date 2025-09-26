@@ -93,22 +93,12 @@ export default function Page() {
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
             {/* date and icons */}
-            <div className="sm:flex justify-between">
-              <div>
-                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogTopic')}</span>{" "}
-                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>24 Dec 2024
-              </div>
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="24 Dec 2024" />
 
-              <div>
-                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                  <BlogSocialIcons fullUrl={fullUrl} />
-                </div>
-              </div>
-            </div>
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> {t('blogTitle')}</h1>
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight"> {t('blogTitle')}</h1>
               <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogMainData')}</p>
 
 
@@ -119,7 +109,7 @@ export default function Page() {
                   {
                     benefitsData.map((data, ind) => {
                       return (
-                        <li key={ind}><h3 className="h3-bold inline">{data.title}</h3>{data.desc}</li>
+                        <li key={ind}><h3 className="h3-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] inline">{data.title}</h3>{data.desc}</li>
                       )
                     })
                   }
@@ -177,7 +167,7 @@ export default function Page() {
                   {
                     whatDoesData.map((data, ind) => {
                       return (
-                        <li key={ind}><h3 className="h3-bold inline">{data.title}</h3>{data.desc}</li>
+                        <li key={ind}><h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.title}</h3>{data.desc}</li>
                       )
                     })
                   }

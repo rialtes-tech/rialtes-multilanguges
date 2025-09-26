@@ -214,7 +214,7 @@ export default function page() {
                                         </p>
                                     </div>
                                     <div className="mt-auto lg:block hidden">
-                                        <LearnMore />
+                                        <LearnMore btnName={t('learnMoreBtn')} />
                                     </div>
                                 </div>
                             </div>
@@ -236,7 +236,7 @@ export default function page() {
                                     {t('aiPara')}
                                 </p>
                                 <div className="mt-[48px] lg:hidden block">
-                                    <LearnMore />
+                                    <LearnMore btnName={t('learnMoreBtn')} />
                                 </div>
                             </div>
                         </div>
@@ -306,7 +306,7 @@ export default function page() {
                             </p>
                         </div>
                         <div className="xl:mt-[53px] mt-[20px]">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>
@@ -469,7 +469,7 @@ export default function page() {
                         <div className="lg:col-span-3 col-span-12">
                             <div className="flex flex-row w-full lg:mt-[-10px] xl:mt-0">
                                 <div className="lg:ml-auto">
-                                    <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                                    <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" />
                                 </div>
                             </div>
                         </div>
@@ -555,7 +555,7 @@ export default function page() {
                             </h2>
                             <UnorderedList arrName={certifiedData} ulClassName="list-disc xl:mt-[44px] mt-[28px] md:ml-[26px] ml-[20px]" liClassName="xl:text-[21px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[23px]" />
                             <div className="absolute xl:mt-[40px] mt-[30px]">
-                                <LearnMore />
+                                <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>

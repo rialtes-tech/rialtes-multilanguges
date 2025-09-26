@@ -10,8 +10,8 @@ import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-import FilteredBlogCarouse from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -98,7 +98,7 @@ export default function Page() {
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { mainData, whyConnectedData, patientCenterData, longTermData, reimaginingData, medianaData, benefitsData, competitiveData, bettingData, faqs } = blogsContent.connectedCore;
     const fullUrl = "https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech";
-  const currUrl = useUrl();
+    const currUrl = useUrl();
 
     return (
         <section className="min-h-screen">
@@ -141,21 +141,10 @@ export default function Page() {
 
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12">
-                    <div className="4xl:col-span-9 xl:col-span-10 lg:col-span-11">
+                    <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
                         {/* date and icons */}
-                        <div className="sm:flex justify-between">
-                            <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogTopic')}</span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>18 September 2025
-                            </div>
-
-                            <div>
-                                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                                    <BlogSocialIcons fullUrl={fullUrl} />
-                                </div>
-                            </div>
-                        </div>
+                        <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="18 September 2025"/>
 
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
@@ -219,7 +208,7 @@ export default function Page() {
 
                             {/* patient at the center section */}
                             <div className="md:mt-[50px] mt-[40px]">
-                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('patientTitle')}</h2>
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{t('patientTitle')}</h2>
                                 <div className="mt-[29px] xl:mt-[34px]">
                                     {
                                         patientCenterData.map((data, ind) => {
@@ -239,7 +228,7 @@ export default function Page() {
 
                             {/* long term section */}
                             <div className="md:mt-[50px] mt-[40px]">
-                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('longTermTitle')}</h2>
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{t('longTermTitle')}</h2>
                                 <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('longTermDesc')}</p>
 
                                 {
@@ -367,7 +356,7 @@ export default function Page() {
 
                             {/* betting section */}
                             <div className="md:mt-[50px] mt-[40px]">
-                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight"> {t('bettingTitle')}</h2>
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{t('bettingTitle')}</h2>
                                 <div className="mt-[29px] xl:mt-[34px]">
                                     {
                                         bettingData.map((data, ind) => {
@@ -379,23 +368,22 @@ export default function Page() {
                                 </div>
                             </div>
 
-
-                            {/* faq section */}
-                            <div className="xl:mt-[80px] mt-[40px]">
-                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('faqTitle')}</h2>
-                                <div className="mt-[29px] xl:mt-[34px]">
-                                    <FAQAccordion faqData={faqs} />
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
+            {/* faq section */}
+            <section className="xl:mt-[80px] mt-[40px] custom-container">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('faqTitle')}</h2>
+                <div className="mt-[29px] xl:mt-[34px]">
+                    <FAQAccordion faqData={faqs} />
+                </div>
+            </section>
             {/* blog carousel */}
-              <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
-                    <FilteredBlogCarouse url={currUrl} />
-                  </section>
+            <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
+                <FilteredBlogCarousel url={currUrl} />
+            </section>
         </section>
     )
 }

@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import RelatedTopicsCarousel from "../../../components/relatedTopicsCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/caseStudy.json";
@@ -9,6 +8,8 @@ import frContent from "../../../../../../messages/fr/caseStudy.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
+import useUrl from "@/app/[locale]/components/useUrl";
+import RelatedCaseStudies from '../../../components/RelatedCaseStudies';
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -40,6 +41,7 @@ const schemaData = {
 };
 
 export default function page() {
+  const currUrl = useUrl()
   const t = useTranslations("eduplusCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, {
@@ -47,7 +49,7 @@ export default function page() {
     es: esContent,
     fr: frContent,
   });
-  const { slides, eduPlusFeatures, quantitativeResults, studentChallenges ,aboutList,eduBenefits,eduSolutions} =
+  const { eduPlusFeatures, quantitativeResults, studentChallenges, aboutList, eduBenefits, eduSolutions } =
     Content.eduplusCaseStudy;
 
   const fullUrl =
@@ -299,9 +301,10 @@ export default function page() {
         </div>
         <div className="py-6"></div>
       </section>
-      <div className="py-10 custom-container xl:pr-0">
-        <RelatedTopicsCarousel slides={slides} />
-      </div>
+      {/* case study carousel */}
+      {/* <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <RelatedCaseStudies url={currUrl} currTopic={t("educationcloud")} />
+      </section> */}
     </div>
   );
 }

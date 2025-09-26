@@ -47,8 +47,7 @@ export default function Page() {
   const { slides, problemList, solutionsList, benefitsList } =
     Content.automateCaseStudy;
 
-  const fullUrl2 =
-    "https://www.rialtes.com/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap";
+  const fullUrl2 = "https://www.rialtes.com/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap";
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -89,64 +88,64 @@ export default function Page() {
                 {t("date")}
               </div>
               <div className="flex flex-col">
-                 <div className="flex flex-row gap-6 ml-[-8px]">
-              <div className="flex flex-col">
-                <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                        fullUrl2
-                      )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          objectFit: "cover",
-                        }}
-                        priority
-                      />
-                    </a>
-                  </div>
+                <div className="flex flex-row gap-6 ml-[-8px]">
+                  <div className="flex flex-col">
+                    <div className="flex flex-row gap-6">
+                      <div className="max-w-[40px]">
+                        <a
+                          href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
+                            fullUrl2
+                          )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Image
+                            src="/images/case-studies/linkedin.svg"
+                            alt="LinkedIn"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{
+                              width: "100%",
+                              height: "100%",
+                              objectFit: "cover",
+                            }}
+                            priority
+                          />
+                        </a>
+                      </div>
 
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                        fullUrl2
-                      )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          objectFit: "cover",
-                        }}
-                        priority
-                      />
-                    </a>
+                      <div className="max-w-[40px]">
+                        <a
+                          href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
+                            fullUrl2
+                          )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {" "}
+                          <Image
+                            src="/images/case-studies/twitter.svg"
+                            alt="Twitter"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            style={{
+                              width: "100%",
+                              height: "100%",
+                              objectFit: "cover",
+                            }}
+                            priority
+                          />
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-              </div>
-            </div>
             <div className="pt-4"></div>
-           
+
           </div>
 
           <div className="py-6"></div>
@@ -165,14 +164,14 @@ export default function Page() {
 
             <div className="pl-2">
               <ul className="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium ">
-                  {problemList.map((item, idx) => (
-                    <li className="pb-4 last:pb-0" key={idx}>
-                      <h3 className="inline h3-bold 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px]">
-                        {item.title}
-                      </h3>{" "}{item.description}
-                    </li>
-                  ))}
-                </ul>
+                {problemList.map((item, idx) => (
+                  <li className="pb-4 last:pb-0" key={idx}>
+                    <h3 className="inline h3-bold 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px]">
+                      {item.title}
+                    </h3>{" "}{item.description}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
           <div className="py-6"></div>
@@ -184,7 +183,7 @@ export default function Page() {
               <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("solutionsDesc")}</p>
 
               <div className="pl-2">
-                   <ul className="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium ">
+                <ul className="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium ">
                   {solutionsList.map((item, idx) => (
                     <li className="pb-4 last:pb-0" key={idx}>
                       <h3 className="inline h3-bold 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px]">
@@ -193,7 +192,7 @@ export default function Page() {
                     </li>
                   ))}
                 </ul>
-                
+
               </div>
             </div>
           </div>

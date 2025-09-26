@@ -29,7 +29,7 @@ export default function Page() {
       "This page explains Rialtes' policies on data privacy and user information protection.",
   };
   return (
-    <div className="min-h-screen bg-white">
+    <section className="min-h-screen">
       <Seo
         title="Privacy Policy | Rialtes"
         description="Read Rialtes' Privacy Policy to understand how we collect, use, and protect your personal information while delivering exceptional IT consulting services."
@@ -42,172 +42,158 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="custom-container">
-        <div className="py-10 xl:max-w-[1084px] xl:w-[1084px]">
-          <div>
-            <h1 className="text-[#0092E0] 4xl:text-[60px] xl:text-[40px] text-[26px] pb-4">{t("headerTitle")}</h1>
-          </div>
-          <div>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px] pb-4">{t("headerDate")}</p>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px] pb-4">
+
+      <section className="custom-container pt-[40px] pb-[80px]">
+        <div className="grid lg:grid-cols-12">
+          <div className="4xl:col-span-9 xl:col-span-10 lg:col-span-11">
+            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t('headerTitle')}</h1>
+            <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('headerDate')}March 19, 2025.</p>
+            <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
               {t("headerDesc")}{" "}
               <a href="https://rialtes.com/" className="text-[#0092E0]">
                 https://www.rialtes.com/
               </a>{" "}
               {t("headerDescOne")}
             </p>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t("headerDescTwo")}</p>
-            <div className="py-6"></div>
-            <h2 className="text-[#0092E0] font-medium 4xl:text-[30px] xl:text-[26px] text-[20px] pb-4">
-              {t("collectionTitle")}
-            </h2>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t("collectionDesc")}</p>
-            <div className="py-6"></div>
-            <h2 className="text-[#0092E0] font-medium 4xl:text-[30px] xl:text-[26px] text-[20px] pb-4">
-              {t("collectTitle")}
-            </h2>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px] pb-4">{t("collectDesc")}</p>
-
-            <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl pl-[26px] font-medium">
-                {privacyList.map((item, idx) => (
-                  <li className="4xl:text-[22px] xl:text-[18px] text-[16px] pb-4" key={idx}>
-                    <h4 className="inline ">{item.title}</h4> :{" "}
-                    {item.description}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="py-6"></div>
-
-            <h2 className="text-[#0092E0] font-medium 4xl:text-[30px] xl:text-[26px] text-[20px] pb-4">
-              {t("howTitle")}
-            </h2>
-            <div className="pl-3">
-              <UnorderedList
-                ulClassName="list-disc marker:text-[#0092E0] marker:text-xl pl-[26px] font-medium"
-                liClassName="4xl:text-[22px] xl:text-[18px] text-[16px] pb-3 last:pb-0"
-                arrName={purposeList}
-              />
-            </div>
-
-            <div className="py-6"></div>
-
-            <h2 className="text-[#0092E0] font-medium 4xl:text-[30px] xl:text-[26px] text-[20px] pb-4">
-              {t("shareTitle")}
-            </h2>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px] pb-4">{t("shareDesc")}</p>
-
-            <div className="pl-3">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl pl-[26px] font-medium">
-                {sharingList.map((item, idx) => (
-                  <li className="4xl:text-[22px] xl:text-[18px] text-[16px] pb-4 last:pb-0" key={idx}>
-                    <h4 className="inline ">{item.title}</h4> :{" "}
-                    {item.description}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="py-6"></div>
-
-            <h2 className="text-[#0092E0] font-medium 4xl:text-[30px] xl:text-[26px] text-[20px] pb-4">
-              {t("dataTitle")}
-            </h2>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t("dataDesc")}</p>
-
-            <div className="py-6"></div>
-
-            <h2 className="text-[#0092E0] font-medium 4xl:text-[30px] xl:text-[26px] text-[20px] pb-4">
-              {t("yourTitle")}
-            </h2>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px] pb-4">{t("yourDesc")}</p>
-            <div className="pl-3">
-              <UnorderedList
-                ulClassName="list-disc marker:text-[#0092E0] marker:text-xl pl-[26px] font-medium"
-                liClassName="4xl:text-[22px] xl:text-[18px] text-[16px] pb-3 last:pb-0"
-                arrName={userRightsList}
-              />
-            </div>
-
-            <div className="py-6"></div>
-
-            <h2 className="text-[#0092E0] font-medium 4xl:text-[30px] xl:text-[26px] text-[20px] pb-4">
-              {t("thirdTitle")}
-            </h2>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t("thirdDesc")}</p>
-
-            <div className="py-6"></div>
-
-            <h2 className="text-[#0092E0] font-medium 4xl:text-[30px] xl:text-[26px] text-[20px] pb-4">
-              {t("childTitle")}
-            </h2>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t("childDesc")}</p>
-
-            <div className="py-6"></div>
-
-            <h2 className="text-[#0092E0] font-medium 4xl:text-[30px] xl:text-[26px] text-[20px] pb-4">
-              {t("residentsTitle")}
-            </h2>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px] pb-4">{t("residentsDesc")}</p>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px] pb-4">{t("underTitle")}</p>
-            <div className="pl-3">
-              <UnorderedList
-                ulClassName="list-disc marker:text-[#0092E0] marker:text-xl  pl-[26px] font-medium"
-                liClassName="4xl:text-[22px] xl:text-[18px] text-[16px] pb-3"
-                arrName={californiaRightsList}
-              />
-            </div>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px] pt-2">{t("underDesc")}</p>
-
-            <div className="py-6"></div>
-
-            <h2 className="text-[#0092E0] font-medium 4xl:text-[30px] xl:text-[26px] text-[20px] pb-4">
-              {t("euTitle")}
-            </h2>
-            <p className="pb-4 4xl:text-[22px] xl:text-[18px] text-[16px]">{t("euDesc")}</p>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t("yourRight")}</p>
-            <ol className="list-none marker:text-[#0092E0] marker:text-xl pl-[26px] mt-3 font-medium">
-              {euRightsList.map((item, idx) => (
-                <li key={idx} className="pb-2 4xl:text-[22px] xl:text-[18px] text-[16px]">
-                  <h3 className="h3-bold inline 4xl:text-[22px] xl:text-[18px] text-[16px]">{item.title}</h3> –{" "}
-                  {item.description}
-                </li>
-              ))}
-            </ol>
-            <p className="mt-3 4xl:text-[22px] xl:text-[18px] text-[16px]">
-              {t("forDetails")}{" "}
-              <a className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline 4xl:text-[22px] xl:text-[18px] text-[16px]"
-                href="https://www.edpb.europa.eu/about-edpb/about-edpb/members_en">
-                {t("forDesc")}
-              </a>{" "}
-              .
-            </p>
-
-            <div className="py-6"></div>
-
-            <h2 className="text-[#0092E0] font-medium 4xl:text-[30px] xl:text-[26px] text-[20px] pb-4">
-              {" "}
-              {t("changeTitle")}
-            </h2>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">{t("changeDesc")}</p>
-
-            <div className="py-6"></div>
-
-            <h2 className="text-[#0092E0] font-medium 4xl:text-[30px] xl:text-[26px] text-[20px] pb-4">
-              {t("contactUs")}
-            </h2>
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px]">
-              {t("thankYou")}{" "}
-              <a className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline 4xl:text-[22px] xl:text-[18px] text-[16px]"
-                href="https://rialtes.netlify.app/contact-us">
-                {t("contactForm")}
-              </a>
-            </p>
+            <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">{t("headerDescTwo")}</p>
           </div>
         </div>
+
+        <div className="md:mt-[50px] mt-[40px]">
+          <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+            {t("collectionTitle")}
+          </h2>
+          <p className="mt-[22px] xl:mt-[28px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("collectionDesc")}</p>
+          <ul className="list-disc mt-5 space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium">
+            {privacyList.map((item, idx) => (
+              <li key={idx}>
+                <h3 className="inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{item.title}</h3> :{" "}
+                {item.description}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="md:mt-[50px] mt-[40px]">
+          <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+            {t("howTitle")}
+          </h2>
+          <UnorderedList
+            ulClassName="list-disc mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium"
+            liClassName=""
+            arrName={purposeList}
+          />
+        </div>
+        <div className="md:mt-[50px] mt-[40px]">
+          <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+            {t("shareTitle")}
+          </h2>
+          <p className="mt-[22px] xl:mt-[28px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("shareDesc")}</p>
+          <ul className="list-disc mt-5 space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium">
+            {sharingList.map((item, idx) => (
+              <li key={idx}>
+                <h3 className="inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{item.title}</h3> :{" "}
+                {item.description}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+
+        <div className="md:mt-[50px] mt-[40px]">
+          <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+            {t("dataTitle")}
+          </h2>
+          <p className="mt-[22px] xl:mt-[28px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("dataDesc")}</p>
+        </div>
+
+        <div className="md:mt-[50px] mt-[40px]">
+          <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+            {t("yourTitle")}
+          </h2>
+          <p className="mt-[22px] xl:mt-[28px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("yourDesc")}</p>
+
+          <UnorderedList
+            ulClassName="list-disc mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium"
+            liClassName=""
+            arrName={userRightsList}
+          />
+        </div>
+
+        <div className="md:mt-[50px] mt-[40px]">
+          <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+            {t("thirdTitle")}
+          </h2>
+          <p className="mt-[22px] xl:mt-[28px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("thirdDesc")}</p>
+        </div>
+
+        <div className="md:mt-[50px] mt-[40px]">
+          <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+            {t("childTitle")}
+          </h2>
+          <p className="mt-[22px] xl:mt-[28px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("childDesc")}</p>
+        </div>
+
+
+        <div className="md:mt-[50px] mt-[40px]">
+          <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+            {t("residentsTitle")}
+          </h2>
+          <p className="mt-[22px] xl:mt-[28px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("residentsDesc")}</p>
+          <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("underTitle")}</p>
+          <UnorderedList
+            ulClassName="list-disc mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium"
+            liClassName=""
+            arrName={californiaRightsList}
+          />
+          <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("underDesc")}</p>
+        </div>
+
+        <div className="md:mt-[50px] mt-[40px]">
+          <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+            {t("euTitle")}
+          </h2>
+          <p className="mt-[22px] xl:mt-[28px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("euDesc")}</p>
+          <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("yourRight")}</p>
+          <ul className="list-disc mt-5 space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium">
+            {euRightsList.map((item, idx) => (
+              <li key={idx}>
+                <h3 className="inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{item.title}</h3> –{" "}
+                {item.description}
+              </li>
+            ))}
+          </ul>
+
+          <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+            {t("forDetails")}{" "}
+            <a className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+              href="https://www.edpb.europa.eu/about-edpb/about-edpb/members_en">
+              {t("forDesc")}
+            </a>{" "}
+            .
+          </p>
+        </div>
+
+        <div className="md:mt-[50px] mt-[40px]">
+          <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+            {t("changeTitle")}
+          </h2>
+          <p className="mt-[22px] xl:mt-[28px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("changeDesc")}</p>
+        </div>
+        <div className="md:mt-[50px] mt-[40px]">
+          <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+            {t("contactUs")}
+          </h2>
+          <p className="mt-[22px] xl:mt-[28px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+            {t("thankYou")}{" "}
+            <a className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+              href="https://rialtes.netlify.app/contact-us">
+              {t("contactForm")}
+            </a>.
+          </p>
+        </div>
+
       </section>
-    </div>
+    </section>
   );
 }

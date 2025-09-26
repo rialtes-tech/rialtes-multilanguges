@@ -55,22 +55,40 @@
         "image": "/images/about-us/trust.svg",
         "label": "Confianza",
         "alt": "Ícono del principio de confianza",
-        "width": { "base": 135, "xl": 177 },
-        "height": { "base": 135, "xl": 177 }
+        "width": {
+          "base": 135,
+          "xl": 177
+        },
+        "height": {
+          "base": 135,
+          "xl": 177
+        }
       },
       {
         "image": "/images/about-us/transperancy.svg",
         "label": "Transparencia",
         "alt": "Ícono del principio de transparencia",
-        "width": { "base": 150, "xl": 192 },
-        "height": { "base": 150, "xl": 192 }
+        "width": {
+          "base": 150,
+          "xl": 192
+        },
+        "height": {
+          "base": 150,
+          "xl": 192
+        }
       },
       {
         "image": "/images/about-us/commitment.svg",
         "label": "Compromiso",
         "alt": "Ícono del principio de compromiso",
-        "width": { "base": 150, "xl": 192 },
-        "height": { "base": 150, "xl": 192 }
+        "width": {
+          "base": 150,
+          "xl": 192
+        },
+        "height": {
+          "base": 150,
+          "xl": 192
+        }
       }
     ],
     "missionCards": [
@@ -94,8 +112,7 @@
       }
     ]
   },
- 
-    "ourValue": {
+  "ourValue": {
     "growLatestServices": [
       {
         "id": 1,
@@ -157,8 +174,7 @@
     "employeeTitle": "Grupos de afinidad para empleados",
     "contactUs": "¿Listo para dar el siguiente paso? Comencemos tu camino hacia la excelencia operativa"
   },
-
-    "impact": {
+  "impact": {
     "impactTitle": "Impacto social",
     "impactSubtitle": "Sostenibilidad con",
     "impactSubtitleOne": "IA responsable",
@@ -183,10 +199,8 @@
     "certifiedTitle": "500+ certificados en IA",
     "certifiedDesc": "profesionales cada seis meses",
     "contactUs": "¿Listo para dar el siguiente paso? Comencemos tu camino hacia la excelencia operativa"
-
   },
-
-   "globalAlliance": {
+  "globalAlliance": {
     "headerTitle": "Nuestros Socios",
     "headerSubTitle": "Alianzas Globales",
     "ourTitle": "Nuestros Socios Estratégicos",
@@ -195,29 +209,39 @@
     "keyTitle": "Alianzas Clave",
     "regionalTitle": "Alianzas Regionales",
     "allTitle": "Todas las Alianzas",
-
     "approachData": [
       {
         "src": "/images/partners/our1.png",
         "alt": "Equipo de Liderazgo",
-        "texts": ["Orquestación", "estratégica"]
+        "texts": [
+          "Orquestación",
+          "estratégica"
+        ]
       },
       {
         "src": "/images/partners/our2.png",
         "alt": "Equipo de Liderazgo",
-        "texts": ["Personalización", "centrada en el cliente"]
+        "texts": [
+          "Personalización",
+          "centrada en el cliente"
+        ]
       },
       {
         "src": "/images/partners/our3.png",
         "alt": "Equipo de Liderazgo",
-        "texts": ["Soluciones", "específicas de la industria"]
+        "texts": [
+          "Soluciones",
+          "específicas de la industria"
+        ]
       },
       {
         "src": "/images/partners/our4.png",
         "alt": "Equipo de Liderazgo",
-        "texts": ["Alianzas", "independientes del proveedor"]
+        "texts": [
+          "Alianzas",
+          "independientes del proveedor"
+        ]
       }
     ]
   }
 }
-
