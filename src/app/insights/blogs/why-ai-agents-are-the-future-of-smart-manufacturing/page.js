@@ -304,7 +304,7 @@ export default function page() {
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Agentforce: The Intelligent Layer Over Your Factory</h2>
                                 <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Agentforce isn’t just AI layered onto your tech stack. It’s a network of autonomous, outcome-driven agents designed for real-world manufacturing complexity. These agents are embedded into Salesforce's Manufacturing Cloud, CPQ, Service, and Field Service systems and extended to your MES, IoT platforms, and legacy apps.</p>
-                                <p className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Agentforce,for example, lets manufacturers deploy AI agents that can:</p>
+                                <p className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Agentforce, for example, lets manufacturers deploy AI agents that can:</p>
                                 <UnorderedList arrName={agentforceData} ulClassName="mt-4 pl-[42px] list-disc 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] space-y-2" liClassName="" />
                                 <p className="mt-8 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Let’s look at how they work across core manufacturing areas:</p>
                                 {

@@ -1,11 +1,11 @@
 "use client";
-// pages/case-study-detail.js
 import Image from "next/image";
-import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
-const schemaData = {
+import useUrl from "@/app/components/useUrl";
+import RelatedCaseStudies from '../../../components/RealtedCaseStudies';
 
+const schemaData = {
   "@context": "https://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {
@@ -31,61 +31,9 @@ const schemaData = {
   "datePublished": "2024-11-17"
 
 }
-const slides = [
-  {
-    id: 3,
-    image: "/images/case-studies/case study 1_thumb_n.webp",
-    category: "Healthcare",
-    industry: "Real Estate",
-    date: "17 Nov 2024",
-    title: "Automating Order Processing in Healthcare using MuleSoft",
-    description: "A global medical technology company that develops and manufactures innovative products",
-    url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
-  },
-  {
-    id: 4,
-    image: "/images/case-studies/case-study-4_thumb.webp",
-    category: "Manufacturing",
-    industry: "Healthcare",
-    date: "14 Oct 2024",
-    title: "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
-    description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-    url: 'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
-  },
-  {
-    id: 6,
-    image: "/images/case-studies/case-study-6_thumb.webp",
-    category: "Real Estate",
-    industry: "Manufacturing",
-    date: "04 Sept 2024",
-    title: "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    url: 'insights/case-studies/yardi-managed-services'
-  },
-  {
-    id: 7,
-    image: "/images/case-studies/case study 3_thumb_n.webp",
-    category: "Manufacturing",
-    industry: "Retail & e-Commerce",
-    date: "08 Jan 2025",
-    title: "DevOps Transformation using Copado and Salesforce",
-    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-    url: "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-  },
-  {
-    id: 8,
-    image: "/images/case-studies/case-study-2_thumb_n.webp",
-    category: "Real Estate",
-    industry: "Hi-Tech",
-    date: "22 Dec 2024",
-    title: "Automating ACH and Journal Entries with Our Exelona Banking Module",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-    url: 'insights/case-studies/realForce-banking-module-ach'
-  },
-  // Add more blog objects as needed
-];
 
 export default function Page() {
+  const currUrl = useUrl()
   const fullUrl2 = "https://www.rialtes.com/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap";
   return (
     <div className="min-h-screen bg-white">
@@ -94,8 +42,8 @@ export default function Page() {
         description="Streamlined complex order flows using MuleSoft, Salesforce, and SAP APIs. Dive into this MuleSoft case study to see integration in action."
         canonical="https://www.rialtes.com/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/"
       />
-    
-         <Script
+
+      <Script
         id="schema-automate"
         type="application/ld+json"
         strategy="afterInteractive"
@@ -103,24 +51,24 @@ export default function Page() {
       />
 
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]   overflow-hidden">
-       <div className="hidden md:block">
-         <Image
-          src="/images/case-studies/case study 1_n 1.webp "
-          alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
-          fill
-          style={{ objectFit: "cover", objectPosition: "70% 30%" }}
-          priority
-        />
-       </div>
-         <div className="block md:hidden">
-         <Image
-          src="/images/case-studies/case study 1_thumb_n.webp"
-          alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
-          fill
-          style={{ objectFit: "cover", objectPosition: "70% 30%" }}
-          priority
-        />
-       </div> 
+        <div className="hidden md:block">
+          <Image
+            src="/images/case-studies/case study 1_n 1.webp "
+            alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
+            fill
+            style={{ objectFit: "cover", objectPosition: "70% 30%" }}
+            priority
+          />
+        </div>
+        <div className="block md:hidden">
+          <Image
+            src="/images/case-studies/case study 1_thumb_n.webp"
+            alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
+            fill
+            style={{ objectFit: "cover", objectPosition: "70% 30%" }}
+            priority
+          />
+        </div>
       </section>
 
       <section
@@ -137,49 +85,49 @@ export default function Page() {
               <div className=''>
                 <span className='text-[#0092E0]'>Healthcare</span> <span className='text-[#ACACAC]'> | </span>17 November 2024
               </div>
-               <div className="flex flex-row gap-6 ml-[-8px] ">
-              <div className="flex flex-col">
-                <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl2)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
+              <div className="flex flex-row gap-6 ml-[-8px] ">
+                <div className="flex flex-col">
+                  <div className="flex flex-row gap-6">
+                    <div className="max-w-[40px]">
+                      <a
+                        href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl2)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Image
+                          src="/images/case-studies/linkedin.svg"
+                          alt="LinkedIn"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                          priority
+                        />
+                      </a>
+                    </div>
 
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl2)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
+                    <div className="max-w-[40px]">
+                      <a
+                        href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl2)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >                      <Image
+                          src="/images/case-studies/twitter.svg"
+                          alt="Twitter"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                          priority
+                        />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            </div>
             <div className="pt-4"></div>
-           
+
           </div>
 
           <div className="py-6"></div>
@@ -230,16 +178,16 @@ export default function Page() {
             <div className="">
               <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">Benefits</h2>
               <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">The integration delivered measurable improvements across departments:</p>
-            
+
 
               <div className="pl-2">
                 <ul className="list-disc marker:text-[#0092E0] 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] text-black pl-2 font-medium ">
-                 <li className="pb-4">60% reduction in order processing time by eliminating manual data entry.</li>
-                   <li className="pb-4">Real-time synchronization between Salesforce and SAP minimized errors and improved data integrity.</li>
-                <li className="pb-4">Improved collaboration between sales and finance teams through shared visibility into order and payment statuses.</li>
+                  <li className="pb-4">60% reduction in order processing time by eliminating manual data entry.</li>
+                  <li className="pb-4">Real-time synchronization between Salesforce and SAP minimized errors and improved data integrity.</li>
+                  <li className="pb-4">Improved collaboration between sales and finance teams through shared visibility into order and payment statuses.</li>
                   <li className="pb-4">Up to 40% fewer order discrepancies, thanks to automated validation and real-time updates.</li>
-                 <li className="pb-4">Streamlined payment handling, enabling seamless processing of insurance, co-pays, and direct payments.</li>
-               <li>Increased productivity—sales teams can now focus on growth, while finance handles transactions with greater efficiency.</li>
+                  <li className="pb-4">Streamlined payment handling, enabling seamless processing of insurance, co-pays, and direct payments.</li>
+                  <li>Increased productivity—sales teams can now focus on growth, while finance handles transactions with greater efficiency.</li>
 
                 </ul>
               </div>
@@ -249,13 +197,10 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Latest Blogs */}
-      <div
-        className="py-10 custom-container lg:pr-0"
-      >
-        <RelatedTopicsCarousel slides={slides} />
-
-      </div>
+      {/* case study carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <RelatedCaseStudies url={currUrl} currTopic="Healthcare" />
+      </section>
     </div>
   );
 }

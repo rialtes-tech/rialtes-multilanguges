@@ -1,88 +1,34 @@
 "use client";
 import Image from "next/image";
-import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
 import Seo from "@/app/components/Seo";
-import ContactForm from "@/app/components/contactform";
 import Script from "next/script";
+
 const schemaData = {
-      "@context": "https://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/"
-  },
-  "headline": "Transforming Student Success with Salesforce Education Cloud and Edu+",
-  "description": "This case study explores how a leading North American university improved enrollment, student engagement, and case management with Rialtes Edu+ powered by Salesforce Education Cloud, Agentforce, and Data Cloud.",
-  "image": "https://www.rialtes.com/images/case-studies/Transforming-student-success.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "articleSection": "Case Studies",
-  "datePublished": "2025-08-21"
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/"
+    },
+    "headline": "Transforming Student Success with Salesforce Education Cloud and Edu+",
+    "description": "This case study explores how a leading North American university improved enrollment, student engagement, and case management with Rialtes Edu+ powered by Salesforce Education Cloud, Agentforce, and Data Cloud.",
+    "image": "https://www.rialtes.com/images/case-studies/Transforming-student-success.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "articleSection": "Case Studies",
+    "datePublished": "2025-08-21"
 
 }
-const slides = [
-    {
-        id: 3,
-        image: "/images/case-studies/case study 1_thumb_n.webp",
-        category: "Healthcare",
-        industry: "Real Estate",
-        date: "17 Nov 2024",
-        title: "Automating Order Processing in Healthcare using MuleSoft",
-        description: "A global medical technology company that develops and manufactures innovative products",
-        url: 'insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap'
-    },
-    {
-        id: 4,
-        image: "/images/case-studies/case-study-4_thumb.webp",
-        category: "Manufacturing",
-        industry: "Healthcare",
-        date: "14 Oct 2024",
-        title: "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
-        description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
-        url: 'insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud'
-    },
-    {
-        id: 6,
-        image: "/images/case-studies/case-study-6_thumb.webp",
-        category: "Real Estate",
-        industry: "Manufacturing",
-        date: "04 Sept 2024",
-        title: "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
-        description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        url: 'insights/case-studies/yardi-managed-services'
-    },
-    {
-        id: 7,
-        image: "/images/case-studies/case study 3_thumb_n.webp",
-        category: "Manufacturing",
-        industry: "Retail & e-Commerce",
-        date: "08 Jan 2025",
-        title: "DevOps Transformation using Copado and Salesforce",
-        description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-        url: "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-    },
-    {
-        id: 8,
-        image: "/images/case-studies/case-study-2_thumb_n.webp",
-        category: "Real Estate",
-        industry: "Hi-Tech",
-        date: "22 Dec 2024",
-        title: "Automating ACH and Journal Entries with Our Exelona Banking Module",
-        description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
-        url: 'insights/case-studies/realForce-banking-module-ach'
-    },
-    
-];
 
 const eduPlusFeatures = [
     {
@@ -143,7 +89,7 @@ const quantitativeResults = [
 export default function page() {
     const fullUrl = "https://www.rialtes.com/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus"
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-white xl:mb-[80px] md:mb-[60px] mb-[40px]">
             <Seo
                 title="Salesforce Education Cloud Case Study | Rialtes"
                 description="See how Rialtes Edu+ on Salesforce Education Cloud boosted enrollment by 22% and improved student support with AI, automation, and connected experiences."
@@ -185,11 +131,14 @@ export default function page() {
             >
 
                 <div className="py-10 bg-white  4xl:w-[1130px] 2xl:w-[900px] xl:w-[800px]">
-                    <div className=""></div>
+                    <div className="pt-4"></div>
                     <div>
-                        <div className="flex flex-col md:flex-row gap-4 justify-between items-center text-black  ">
+                        <h1 className="text-[#000000] py-4  leading-tight  text-[26px] 4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px] md:text-[28px] ">Transforming Student Success with Salesforce Education Cloud and Edu+</h1>
+                    </div>
+                    <div>
+                        <div className="flex flex-col md:flex-row gap-4 justify-between items-center text-black pt-6">
                             <div className="">
-                                <span className='text-[#0092E0] 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]'>Education Cloud</span> <span className='text-[#ACACAC]'> | </span>21 August 2025
+                                <span className='text-[#0092E0] 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]'>Education</span> <span className='text-[#ACACAC]'> | </span>21 August 2025
                             </div>
                             <div className="flex flex-row gap-6  ml-[-8px]">
                                 <div className="max-w-[40px]">
@@ -227,12 +176,6 @@ export default function page() {
                                 </div>
                             </div>
                         </div>
-                        <div className="pt-4"></div>
-                        <div>
-                            <h1 className="text-[#000000] py-4  leading-tight  text-[26px] 4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px] md:text-[28px] ">Transforming Student Success with Salesforce Education Cloud and Edu+</h1>
-                        </div>
-
-
 
                     </div>
 
@@ -354,12 +297,6 @@ export default function page() {
                 <div className="py-6"></div>
 
             </section>
-            <div
-                className="py-10 custom-container xl:pr-0"
-            >
-                <RelatedTopicsCarousel slides={slides} />
-
-            </div>
         </div>
     )
 }
