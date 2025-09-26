@@ -4,7 +4,6 @@ import { usePathname } from "next/navigation";
 
 export default function useUrl() {
     const pathname = usePathname();
-    const splitUrl = pathname.split("/");
-    const url = splitUrl[3];
+    const url = pathname.split("/").pop();
     return url;
 }

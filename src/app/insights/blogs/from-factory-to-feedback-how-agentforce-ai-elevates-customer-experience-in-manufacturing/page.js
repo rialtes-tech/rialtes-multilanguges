@@ -145,7 +145,7 @@ export default function Page() {
     ];
 
 
-    const fullUrl = "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/";
 
     return (
         <div className="min-h-screen bg-white">

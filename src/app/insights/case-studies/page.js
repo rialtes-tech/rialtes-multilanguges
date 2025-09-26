@@ -35,7 +35,7 @@ const latestCaseStudy = [
   {
   id: 15,
     image: "/images/case-studies/Small thumb.webp",
-    industry: "Education Cloud",
+    industry: "Education",
     date: "21 August 2025",
     url: "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
     title: "Transforming Student Success with Salesforce Education Cloud and Edu+",

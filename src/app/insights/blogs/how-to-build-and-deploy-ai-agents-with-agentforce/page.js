@@ -396,7 +396,6 @@ export default function Page() {
                         </div>
 
                         {/* main blog */}
-
                         <div className="xl:mt-[60px] mt-[42px]">
                             <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]">Build and Deploy Your First AI Agent Using Agentforce</h1>
                             <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions. Despite ethical concerns, the value of training AI for growth is clear. Teaching AI to understand human language enhances its ability to respond and perform useful tasks. </p>
