@@ -70,7 +70,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[250px]  4xl:h-[650px] 2xl:h-[600px] xl:h-[500px] overflow-hidden">
+      <section className="relative h-[250px]  4xl:h-[650px] 2xl:h-[550px] xl:h-[450px] overflow-hidden">
         <Image
           className="lg:block hidden overflow-hidden "
           src="/images/case-studies/AutoSense Warranty Management Modules_Case study banner.webp "
@@ -203,7 +203,7 @@ export default function Page() {
                 <ol className="list-decimal marker:text-[#000] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:text-[19px] font-medium space-y-4">
                   {solutionList.map((item, index) => (
                     <li className="last:pb-4" key={index}>
-                      <h3 className="h3-bold inline 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] md:text-[20px]">
+                      <h3 className="h3-bold inline 4xl:text-[22px] 2xl:text-[19px] xl:text-[18px] text-[20px] md:text-[20px]">
                         {item.title}
                       </h3> : {item.desc}
                     </li>
@@ -218,7 +218,7 @@ export default function Page() {
                 <ol className="list-decimal marker:text-[#000] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:text-[19px] font-medium space-y-4">
                   {featureList.map((item, index) => (
                     <li key={index}>
-                      <h3 className="h3-bold inline 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] md:text-[20px]">
+                      <h3 className="h3-bold inline 4xl:text-[22px] 2xl:text-[19px] xl:text-[18px] text-[20px] md:text-[20px]">
                         {item.title}
                       </h3> : {item.desc}
                     </li>
@@ -238,7 +238,7 @@ export default function Page() {
                 <ul className="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black  4xl:text-[20px] 2xl:text-[17px]  xl:text-[17px] text-[16px] md:text-[19px] font-medium space-y-4">
                   {benefitsList.map((item, index) => (
                     <li className="last:pb-4" key={index}>
-                      <h3 className="h3-bold inline 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] md:text-[20px]">
+                      <h3 className="h3-bold inline 4xl:text-[22px] 2xl:text-[19px] xl:text-[18px] text-[20px] md:text-[20px]">
                         {item.title}
                       </h3> : {item.desc}
                     </li>
@@ -254,7 +254,7 @@ export default function Page() {
                 <ol className="list-decimal marker:text-[#000] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:text-[19px] font-medium space-y-4">
                   {serviceList.map((step, index) => (
                     <li key={index}>
-                      <h4 className="h3-bold inline 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] md:text-[20px]">
+                      <h4 className="h3-bold inline 4xl:text-[22px] 2xl:text-[19px] xl:text-[18px] text-[20px] md:text-[20px]">
                         {step.title}
                       </h4> : {step.desc}
                     </li>

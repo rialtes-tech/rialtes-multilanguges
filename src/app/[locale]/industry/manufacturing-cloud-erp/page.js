@@ -233,7 +233,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
         <div className="relative  bg-opacity-80 text-white z-10  rounded-lg">
           <h2 className="font-light leading-tight">{t('thoughtTitle')}</h2>
-          <h3 className="xl:text-[36px] text-[22px] mt-5 leading-tight font-semibold pr-20">{t('thoughtSubTitle')}</h3>
+          <h3 className="xl:text-[36px] text-[22px] mt-5 leading-tight font-semibold">{t('thoughtSubTitle')}</h3>
           <p className='mt-5 font-normal'> {t('thoughtSubTitleOne')}</p></div>
       </div>
       {/* end to end section */}
@@ -357,7 +357,7 @@ export default function Page() {
               <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('processTitle')}</h2>
               <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold  leading-tight">
                 {t('processSubtitle')}</h3>
-              <p className="mt-5 font-light pr-10 leading-tight xl:pr-0">{t('processDesc')} </p>
+              <p className="mt-5 font-light leading-tight xl:pr-0">{t('processDesc')} </p>
             </div>
           </div>
         </div>
@@ -378,8 +378,8 @@ export default function Page() {
           </div>
           <div className="col-span-5 bg-[#DDF74D] order-2 xl:order-1 pb-10 xl:pb-0">
             <div className="custom-container xl:!pr-0">
-              <h2 className="leading-tight mt-10 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('repetitiveTitle')}</h2>
-              <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">
+              <h2 className="leading-tight mt-10 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] text-[26px]">{t('repetitiveTitle')}</h2>
+              <h3 className="4xl:text-[36px] 2xl:text-[30px] xl:text-[25px] text-[22px] mt-5 font-semibold leading-tight xl:pr-10">
                 {t('repetitiveSubtitle')}
               </h3>
               <p className="mt-5 xl:mb-5 font-normal xl:pr-10 4xl:text-[20px] xl:text-[18px] text-[16px]">
@@ -465,10 +465,26 @@ export default function Page() {
           <div className="col-span-6"></div>
           <div className="col-span-4">
             <div className="bg-[#A1DAF6] p-10 text-black pb-20 mx-[35px] xl:mx-0">
-              <h2 className="leading-tight pr-20 xl:pr-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('dataTitle')}</h2>
-              <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold pr-10 xl:pr-0">{t('dataSubtitle')}</h3>
-              <p className="mt-8 leading-tight 4xl:text-[20px] xl:text-[15px]">{t('dataDesc')}  </p>
-              <div className="absolute mt-5">
+              <h2 className="leading-tight xl:pr-0 4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px]">{t('dataTitle')}</h2>
+              <h3 className={`mt-5  leading-tight font-semibold  xl:pr-0
+                ${locale === "es"
+                                    ? "4xl:text-[42px] 2xl:text-[32px] xl:text-[27px] text-[22px]"
+                                    : locale === "fr"
+                                        ? "4xl:text-[42px] 2xl:text-[32px] xl:text-[27px] text-[22px]"
+                                        : "4xl:text-[42px] 2xl:text-[36px] xl:text-[30px] text-[22px]"
+                                }`}
+              
+              >{t('dataSubtitle')}</h3>
+              <p className="mt-8 leading-tight 4xl:text-[20px] xl:text-[15px] 2xl:text-[17px] text-[16px]">{t('dataDesc')}  </p>
+              <div className={`
+                ${locale === "es"
+                                    ? "absolute mt-[30px]"
+                                    : locale === "fr"
+                                        ? "absolute mt-[30px]"
+                                        : "absolute mt-5"
+                                }`}
+              
+              >
               <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
@@ -477,12 +493,12 @@ export default function Page() {
         </div>
       </section>
       {/* ERP integration section */}
-      <section className={`4xl:mt-48 2xl:mt-36 xl:mt-48 custom-container xl:mx-0  xl:!pr-[142px]
+      <section className={` custom-container xl:mx-0  xl:!pr-[142px]
         ${locale === "es"
-                                    ? "mt-[35rem]  md:mt-[24rem] [@media(max-width:375px)]:mt-[40rem]"
+                                    ? "mt-[35rem]  md:mt-[24rem] [@media(max-width:375px)]:mt-[40rem] 4xl:mt-[15rem] 2xl:mt-[12rem] xl:mt-[15rem]"
                                     : locale === "fr"
-                                        ? "mt-[35rem] md:mt-[24rem] [@media(max-width:375px)]:mt-[40rem]"
-                                        : "mt-[29rem] md:mt-[20rem] [@media(max-width:375px)]:mt-[34rem]"
+                                        ? "mt-[35rem] md:mt-[24rem] [@media(max-width:375px)]:mt-[40rem] 4xl:mt-48 2xl:mt-[12rem] xl:mt-[15rem]"
+                                        : "mt-[29rem] md:mt-[20rem] [@media(max-width:375px)]:mt-[34rem] 4xl:mt-48 2xl:mt-36 xl:mt-48"
                                 }`}
 
       >
@@ -499,7 +515,7 @@ export default function Page() {
             />
           </div>
           <div className="xl:col-span-5 col-span-12 order-2 xl:order-1">
-            <h2 className="leading-tight pr-16 xl:pr-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('erpTitle')}</h2>
+            <h2 className="leading-tight xl:pr-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('erpTitle')}</h2>
             <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold">{t('erpSubtitle')}</h3>
             <p className="mt-8 font-normal leading-tight">
               {t('erpDesc')}
@@ -672,7 +688,7 @@ export default function Page() {
                 <div>
                   <h3 className="pr-10 leading-tight font-medium 4xl:text-[30px] xl:text-[18px] text-[20px]" >{t('adoption')}</h3>
                   <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px] xl:text-[40px]">{t('billion')} </h2>
-                  <h3 className="leading-tight">{t('by')}</h3>
+                  <h3 className="leading-tight font-medium 4xl:text-[30px] xl:text-[18px] text-[20px]">{t('by')}</h3>
                 </div>
                 <div className="mt-10 xl:mt-0">
                   <h3 className="pr-12 leading-tight 4xl:text-[30px] xl:text-[18px] text-[20px]">{t('smartTitle')}</h3>
@@ -685,7 +701,7 @@ export default function Page() {
       </section>
       {/* Contact Form */}
       <div className="mt-20 xl:mt-10 custom-container text-black xl:py-20 pb-10">
-        <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubtitleOne')} className={"max-w-[62rem]  leading-tight xl:text-[60px] text-[26px]"} />
+        <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubtitleOne')} className={"max-w-[62rem]  leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] text-[26px]"} />
       </div>
     </div>
   );
