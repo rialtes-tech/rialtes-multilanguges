@@ -10,7 +10,7 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
-import RealtedCaseStudies from '@/app/[locale]/components/RealtedCaseStudies'
+import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -42,12 +42,10 @@ const schemaData = {
 
 export default function Page() {
   const currUrl = useUrl()
-  console.log(currUrl);
-  
   const t = useTranslations("realForceCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const {  problemList, solutionList, benefitsList } =
+  const { problemList, solutionList, benefitsList } =
     Content.realForceCaseStudy;
 
   const fullUrl = "https://www.rialtes.com/insights/case-studies/realForce-banking-module-ach";
@@ -97,10 +95,53 @@ export default function Page() {
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
               <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t('autoTitle')}</h1>
+
               {/* client section */}
               <div className="md:mt-[50px] mt-[40px]">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('clientTitle')}</h2>
                 <p className="mt-[16px] xl:mt-[22px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('clientDesc')}</p>
+              </div>
+
+              {/* problem section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('problemTitle')}</h2>
+                <p className="mt-[16px] xl:mt-[22px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('problemDesc')}</p>
+
+                <ul className="list-disc mt-5 pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3">
+                  {problemList.map(({ title, description }, index) => (
+                    <li key={index}>
+                      <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        {title}
+                      </h3>
+                      : {description}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* solution section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('solutionTitle')}</h2>
+                <p className="mt-[16px] xl:mt-[22px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('solutionDesc')}</p>
+                <ul className="list-disc mt-5 pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3">
+                  {solutionList.map(({ title, description }, index) => (
+                    <li key={index}>
+                      <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        {title}
+                      </h3>
+                      : {description}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* benefits section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('benefitsTitle')}</h2>
+                <UnorderedList
+                  ulClassName="list-disc mt-[16px] xl:mt-[22px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] space-y-4 font-medium"
+                  arrName={benefitsList}
+                />
               </div>
             </div>
           </div>
@@ -108,8 +149,8 @@ export default function Page() {
       </section>
       {/* case study  carousel */}
       <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
-        <RealtedCaseStudies url={currUrl} currTopic={t('realEstate')} />
+        <RelatedCaseStudies url={currUrl} currTopic={t('realEstate')} />
       </section>
-    </section>
+    </section >
   );
 }

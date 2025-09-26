@@ -12,7 +12,7 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
-import RealtedCaseStudies from '@/app/[locale]/components/RealtedCaseStudies'
+import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -167,7 +167,7 @@ export default function Page() {
       </section>
       {/* case study  carousel */}
       <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
-        <RealtedCaseStudies url={currUrl} currTopic={t('manufacturing')} />
+        <RelatedCaseStudies url={currUrl} currTopic={t('manufacturing')} />
       </section>
     </section>
   );

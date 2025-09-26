@@ -9,7 +9,7 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
 import useUrl from "@/app/[locale]/components/useUrl";
-import RelatedCaseStudies from '../../../components/RealtedCaseStudies';
+import RelatedCaseStudies from '../../../components/RelatedCaseStudies';
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Article",
