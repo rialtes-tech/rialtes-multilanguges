@@ -3,7 +3,6 @@ import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
 const schemaData = {
-
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     "mainEntityOfPage": {
@@ -42,17 +41,15 @@ export default function Page() {
                 description="Rialtes opens a new office in Baddi, Himachal Pradesh, to enhance client service and deliver Salesforce and SAP solutions for the manufacturing industry."
                 canonical="https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/"
             />
-           
-               <Script
-        id="schema-rilates-opens"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
 
-            <section
-                className="custom-container "
-            >
+            <Script
+                id="schema-rilates-opens"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+
+            <section className="custom-container">
 
                 <section className="relative h-[250px] sm:h-[500px] lg:h-[650px] overflow-hidden">
                     <div>
@@ -124,7 +121,7 @@ export default function Page() {
 
                             <p className="text-black  xl:text-[22px] text-[18px] mt-8">In a statement, <span className="font-bold">Ajay Tyagi, CEO of Rialtes Technologies</span>, expressed his enthusiasm for this strategic initiative. “Himachal Pradesh, along with the larger northern region, is an untapped manufacturing territory with immense potential for digital transformation. With the vision of Viksat Bharat under the leadership of Prime Minister Narendra Modi, we see this as an opportunity to empower local industries and integrate them with the world’s digital economy. This move aligns perfectly with our goal of supporting a Digital Himachal Pradesh and contributing to India's thriving manufacturing landscape.”</p>
 
-                            <p className="text-black  xl:text-[22px] text-[18px] mt-8">Rialtes has always been at the forefront of innovation and digital solutions, and this expansion into Baddi represents the company’s commitment to driving sustainable economic growth and technological advancement in the region. Rialtes is a Certified SAP Partner for <a className='text-[#038EF4]' href="/services/business-transformation/grow-with-sap-services"> Grow with SAP</a> and <a className="text-[#038EF4]" href="/services/business-transformation/rise-with-sap-services">Rise with SAP</a> initiatives and have been transforming customer care using the <a className="text-[#038EF4]" href="/solutions/enterprise-platforms/salesforce-consulting">Salesforce</a> as a global leader and partner. Whether it’s data <a className="text-[#038EF4]" href="/solutions/data-ai/salesforce-data-cloud-consulting">Data Cloud</a> or Human resources software <a className="text-[#038EF4]" href="/services/hxm-transformation/successplus-successfactors-implementation-partner">SuccessFactors</a> , Rialtes’s team has highly certified professionals to serve clients of all market verticals. Read more about Rialtes here <a className="text-[#038EF4]" href="/about-us">About Us.</a></p>
+                            <p className="text-black  xl:text-[22px] text-[18px] mt-8">Rialtes has always been at the forefront of innovation and digital solutions, and this expansion into Baddi represents the company’s commitment to driving sustainable economic growth and technological advancement in the region. Rialtes is a Certified SAP Partner for <a className='text-[#038EF4]' href="/services/business-transformation/grow-with-sap-services"> Grow with SAP</a> and <a className="text-[#038EF4]" href="/services/business-transformation/rise-with-sap-services">Rise with SAP</a> initiatives and have been transforming customer care using the <a className="text-[#038EF4]" href="/solutions/enterprise-platforms/salesforce-consulting-partner-us-india">Salesforce</a> as a global leader and partner. Whether it’s <a className="text-[#038EF4]" href="/solutions/data-ai/salesforce-data-cloud-consulting">Data Cloud</a> or Human resources software <a className="text-[#038EF4]" href="/services/hxm-transformation/successplus-successfactors-implementation-partner">SuccessFactors</a> , Rialtes’s team has highly certified professionals to serve clients of all market verticals. Read more about Rialtes here <a className="text-[#038EF4]" href="/about-us">About Us.</a></p>
                             <p className="text-black  xl:text-[22px] text-[18px] mt-8">With its deep expertise in consulting, the company is poised to play a key role in transforming the manufacturing sector in the state and helping businesses adopt cutting-edge technologies.</p>
                             <p className="text-black  xl:text-[22px] text-[18px] mt-8">This new sales office is expected to foster stronger collaborations with regional businesses, enhance digital literacy, and catalyze the adoption of Industry 4.0 technologies across Himachal Pradesh.</p>
                             <h3 className="text-[#068EDA] mt-10 font-bold">About Rialtes Technologies:</h3>
