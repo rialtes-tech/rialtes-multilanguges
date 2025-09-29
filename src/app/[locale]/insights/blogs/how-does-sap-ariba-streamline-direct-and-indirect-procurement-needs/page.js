@@ -9,6 +9,8 @@ import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel';
+import useUrl from "@/app/[locale]/components/useUrl";
 
 const schemaData =
 {
@@ -41,6 +43,7 @@ const fullUrl = "https://www.rialtes.com/insights/blogs/how-does-sap-ariba-strea
 export default function Page() {
   const t = useTranslations("howDoesSapAribaStreamline");
   const locale = useLocale();
+   const currUrl = useUrl()
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, procurementData, mainActivityData, aribaOptimizesData } = content.howDoesSapAribaStreamline
   return (
@@ -84,9 +87,9 @@ export default function Page() {
       <section className="custom-container">
         <div className="py-10 bg-white">
           <div>
-            <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
+            <div className="flex flex-col md:flex-row justify-between text-black  max-w-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>{t('blogDate')}
+                <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>29 May 2024
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -201,7 +204,7 @@ export default function Page() {
 
       {/* Latest Blogs */}
       <div className="custom-container pb-10 xl:pr-0">
-        <BlogsCarousel slides={blogs} />
+        <FilteredBlogCarousel url={currUrl} />
       </div>
     </div>
   );

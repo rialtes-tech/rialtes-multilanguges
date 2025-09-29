@@ -10,6 +10,9 @@ import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel';
+import useUrl from "@/app/[locale]/components/useUrl";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -41,6 +44,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations("redefiningBlog");
   const locale = useLocale();
+    const currUrl = useUrl()
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, sapGenerativeData, jouleData, howAiWorkData, howSapJouleData, sapJouleData, quickGlimpseData1, responsiveData } = content.redefiningBlog
   const fullUrl = "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule";
@@ -70,10 +74,10 @@ export default function Page() {
 
       <section className="custom-container">
         <div className="py-10 bg-white">
-          <div className="container pl-0 mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center max-[1084px] xl:w-[1084px]">
+          <div className="pl-0 mx-auto">
+            <div className="flex flex-col md:flex-row justify-between text-black max-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>{t('blogDate')}
+                <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>25 April 2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -203,7 +207,7 @@ export default function Page() {
 
       {/* Latest Blogs */}
       <div className="custom-container xl:pr-0">
-        <BlogsCarousel slides={blogs} />
+       <FilteredBlogCarousel url={currUrl} />
       </div>
     </div>
   );
