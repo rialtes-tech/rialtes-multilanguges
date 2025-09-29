@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
@@ -9,6 +8,9 @@ import enContent from "../../../../../../messages/en/blogs.json";
 import esContent from "../../../../../../messages/es/blogs.json";
 import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import useUrl from "@/app/[locale]/components/useUrl";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -41,6 +43,7 @@ const schemaData = {
   url: "https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/",
 };
 export default function Page() {
+  const currUrl = useUrl()
   const t = useTranslations("meetTeammate");
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, {
@@ -48,13 +51,12 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { blogs, featuresData, whatAgentData, integrateData, bringData } =
+  const { featuresData, whatAgentData, integrateData, bringData } =
     blogsContent.meetTeammate;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce";
 
   return (
-    <div className="min-h-screen bg-white">
+    <section className="min-h-screen">
       <Seo
         title="How to Enhance Slack Collaboration with Agentforce | Rialtes"
         description="Agentforce turns Slack into a smarter collaboration hub, combining real-time messaging with AI agents to streamline IT requests and enhance teamwork."
@@ -67,116 +69,53 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      {/* hero section */}
-      <section className="relative group overflow-hidden h-[350px] md:h-[400px]  4xl:h-[650px] 2xl:h-[500px] ">
+      <section className="relative group overflow-hidden 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[400px]">
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
             src="/images/blog/agents-as-teammates-desk-img.webp"
-            alt="desktop banner"
+            alt="banner"
             fill
-            style={{ objectFit: "cover", objectPosition: "55% 10%" }}
+            style={{ objectFit: "cover" }}
             priority
-            className="transform transition-transform duration-500 group-hover:scale-110"
+            className="transform transition-transform duration-500 group-hover:scale-110 object-[80%_30%]"
           />
         </div>
 
         {/* Mobile Image */}
-        <div className="block md:hidden">
+        <div className="block md:hidden h-full">
           <Image
             src="/images/blog/agents-as-teammates-mob-img.webp"
-            alt="mobile banner"
-            fill
-            style={{ objectFit: "cover", objectPosition: "60% 20%" }}
+            alt="banner"
             priority
+            height={0}
+            width={0}
+            className="w-full h-full object-cover object-[20%_30%]"
           />
         </div>
       </section>
 
-      <section className="custom-container">
-        <div className="py-10 bg-white xl:max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[800px]">
-          <div>
-            <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
-              <div className="sm:mb-0 mb-6">
-                <span className="text-[#0092E0]">{t("blogTopic")}</span>{" "}
-                <span className="text-[#ACACAC]"> | </span>30 Dec 2024
-              </div>
-              <div className="flex flex-col">
-                <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                        fullUrl
-                      )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          objectFit: "cover",
-                        }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                        fullUrl
-                      )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          objectFit: "cover",
-                        }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
+      <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+        <div className="grid lg:grid-cols-12">
+          <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
+
+            {/* date and icons */}
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="30 Dec 2024" />
+
+            {/* main blog */}
+            <div className="xl:mt-[60px] mt-[42px]">
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight"> {t('blogTitle')}</h1>
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogMainData')}</p>
             </div>
-          </div>
-          <div className="py-4"></div>
-          <div>
-            <h1 className="text-[#000000] pb-6 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
-              {t("blogTitle")}
-            </h1>
-          </div>
 
-          <div>
-            <div>
-              <p className="text-black  4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">
-                {t("blogMainData")}
-              </p>
-              <div className="py-4"></div>
-
-              <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] leading-tight pb-4">
-                {t("feturesTitle")}
-              </h2>
-
-              <ul className="list-disc marker:text-[#0092E0] 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px] font-medium pl-[25px] lg:pl-[32px]">
+            {/* features section */}
+            <div className="md:mt-[50px] mt-[40px]">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('feturesTitle')}</h2>
+              <ul className="mt-[29px] xl:mt-[30px] list-disc font-medium marker:text-xl 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] space-y-3">
                 {featuresData.map((data, ind) => {
                   return (
                     <li className="pb-4" key={ind}>
-                      <h3 className="h3-bold inline 4xl:text-[22px] text-[18px] leading-tight">
+                      <h3 className="inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-bold leading-tight">
                         {data.title}
                       </h3>
                       {data.desc}
@@ -184,36 +123,30 @@ export default function Page() {
                   );
                 })}
               </ul>
+            </div>
 
-              <div className="py-4"></div>
-
-              <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] pb-4 leading-tight">
-                {t("roleTitle")}
-              </h2>
-
-              <p className="text-black pb-4  4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">
+            {/* role section */}
+            <div className="md:mt-[50px] mt-[40px]">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('roleTitle')}</h2>
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("roleDesc")}
               </p>
-
-              <p className="text-black 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("roleDesc2")}
               </p>
+            </div>
 
-              <div className="py-4"></div>
-
-              <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] leading-tight pb-4">
-                {t("whatAgentTitle")}
-              </h2>
-
-              <p className="text-black pb-4  4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">
+            {/* why agent section */}
+            <div className="md:mt-[50px] mt-[40px]">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('whatAgentTitle')}</h2>
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("whatAgentDesc")}
               </p>
-
-              <ul className="list-disc marker:text-[#0092E0] text-black   4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight font-medium pl-[25px] lg:pl-[32px]">
+              <ul className="list-disc font-medium marker:text-xl 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 pl-[34px] space-y-3">
                 {whatAgentData.map((data, ind) => {
                   return (
-                    <li className="pb-4 last:pb-0">
-                      <h3 className="h3-bold inline 4xl:text-[22px] text-[18px] leading-tight">
+                    <li className="pb-4" key={ind}>
+                      <h3 className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] inline font-bold leading-tight">
                         {data.title}
                       </h3>
                       {data.desc}
@@ -221,34 +154,30 @@ export default function Page() {
                   );
                 })}
               </ul>
+            </div>
 
-              <div className="py-4"></div>
-
-              <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] leading-tight pb-4">
-                {t("integrateTitle")}
-              </h2>
+            {/* integrate section */}
+            <div className="md:mt-[50px] mt-[40px]">
+              <h2 className="mb-[29px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('integrateTitle')}</h2>
               {integrateData.map((data, ind) => {
                 return (
                   <p
-                    className="text-black pb-4  4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight "
-                    key={ind}
-                  >
+                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] first:mt-0 mt-5"
+                    key={ind}>
                     {data}
                   </p>
                 );
               })}
+            </div>
 
-              <div className="py-4"></div>
-
-              <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] leading-tight pb-4">
-                {t("bringTitle")}
-              </h2>
-
-              <ul className="list-none text-black  4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight font-medium">
+            {/* bring section */}
+            <div className="md:mt-[50px] mt-[40px]">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('bringTitle')}</h2>
+              <ul className="list-disc font-medium marker:text-xl 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 pl-[34px] space-y34">
                 {bringData.map((data, ind) => {
                   return (
-                    <li className="pb-4 last:pb-0" key={ind}>
-                      <h3 className="h3-bold inline 4xl:text-[22px] text-[18px] leading-tight">
+                    <li className="pb-4" key={ind}>
+                      <h3 className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] inline font-bold leading-tight">
                         {data.title}
                       </h3>
                       {data.desc}
@@ -256,41 +185,35 @@ export default function Page() {
                   );
                 })}
               </ul>
+            </div>
 
-              <div className="py-4"></div>
-
-              <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] text-[22px] leading-tight pb-4">
-                {t("collaborateTitle")}
-              </h2>
-
-              <p className="text-black pb-4  4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">
+            {/* collaborate section */}
+            <div className="md:mt-[50px] mt-[40px]">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('collaborateTitle')}</h2>
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("collaborateDesc")}
               </p>
 
-              <p className="text-black pb-4  4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("collaborateDesc2")}{" "}
                 <Link
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                  href={
-                    "https://rialtes.netlify.app/solutions/artificial-intelligence/salesforce-agentforce-consulting?utm_source=blog&utm_medium=organic"
-                  }
-                >
+                  href={"https://rialtes.netlify.app/solutions/artificial-intelligence/salesforce-agentforce-consulting?utm_source=blog&utm_medium=organic"}>
                   <span>{t("collaborateLink")}</span>
                 </Link>{" "}
                 {t("collaborateDesc3")}{" "}
                 <Link className="underline" href={"mailto:sales@rialtes.com"}>
                   <span className="font-normal">sales@rialtes.com</span>
-                </Link>
+                </Link>.
               </p>
             </div>
           </div>
         </div>
       </section>
-
-      {/* Latest Blogs */}
-      <div className="custom-container lg:pr-0 pb-10">
-        <BlogsCarousel slides={blogs} />
-      </div>
-    </div>
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
+    </section>
   );
 }
