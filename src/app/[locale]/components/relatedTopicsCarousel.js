@@ -7,7 +7,7 @@ import { useLocale, useTranslations } from "next-intl";
 
 export default function RelatedTopicsCarousel({ slides }) {
   const t = useTranslations('relatedTopic')
- const locale = useLocale();
+  const locale = useLocale();
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -73,12 +73,12 @@ export default function RelatedTopicsCarousel({ slides }) {
         <div className="flex flex-row max-md:flex-col justify-between md:mr-24 mr-0">
           <h2 className={`text-black xl:mb-[82px] mb-[40px]
             ${locale === "es"
-                                    ? "text-[22px] 4xl:text-[55px] 2xl:text-[42px] xl:text-[36px]"
-                                    : locale === "fr"
-                                        ? "4xl:text-[55px] 2xl:text-[42px] xl:text-[36px]"
-                                        : "4xl:text-[55px] 2xl:text-[42px] xl:text-[36px]"
-                                }`}
-          
+              ? "text-[22px] 4xl:text-[55px] 2xl:text-[42px] xl:text-[36px]"
+              : locale === "fr"
+                ? "4xl:text-[55px] 2xl:text-[42px] xl:text-[36px]"
+                : "4xl:text-[55px] 2xl:text-[42px] xl:text-[36px]"
+            }`}
+
           >{t('related')} <br className="block min-[360px]:hidden" /> {t('topics')}</h2>
         </div>
         <Carousel

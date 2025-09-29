@@ -185,22 +185,7 @@ export default function Page() {
       <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px] ">
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 max-[365px]:pr-[38px]">
-            <div className="sm:flex justify-between">
-              <div>
-                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("blogTopic")}
-                </span>{" "}
-                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  |{" "}
-                </span>
-                15 September 2025
-              </div>
-              <div>
-                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                  <BlogSocialIcons fullUrl={fullUrl} />
-                </div>
-              </div>
-            </div>
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="15 September 2025" />
 
             <div className="xl:mt-[60px] mt-[42px]">
               <div className="">
@@ -247,9 +232,8 @@ export default function Page() {
                   {benefitsData.map((data, ind) => {
                     return (
                       <div
-                        className={`md:flex mt-24 md:mt-10 py-[34px] px-[26px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[850px] 3xl:w-[1100px] ${
-                          ind == 5 && "md:py-[54px]"
-                        }`}
+                        className={`md:flex mt-24 md:mt-10 py-[34px] px-[26px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[850px] 3xl:w-[1100px] ${ind == 5 && "md:py-[54px]"
+                          }`}
                         key={ind}
                       >
                         <h3

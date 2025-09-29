@@ -295,7 +295,7 @@ export default function Page() {
             {/* card 3 */}
             <div className="relative flex flex-col">
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10 xl:py-10 flex flex-col justify-center flex-grow min-h-[220px]">
-                <h3 className="h3-bold line-clamp-2 4xl:text-[40px] xl:text-[36px] text-[35px]">
+                <h3 className="h3-bold 4xl:text-[40px] xl:text-[36px] text-[35px]">
                   {t('certifiedTitle')}
                 </h3>
                 <p className="md:mt-4 mt-0 4xl:text-[30px] xl:text-[28px] text-[26px]">

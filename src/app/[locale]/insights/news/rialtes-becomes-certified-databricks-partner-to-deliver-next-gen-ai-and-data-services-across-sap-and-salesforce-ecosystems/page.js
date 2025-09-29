@@ -84,12 +84,12 @@ export default function Page() {
             />
           </div>
         </section>
-        <h1 className="mt-10 leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] xl:w-[80%] 4xl:w-full">{t("title")}</h1>
+        <h1 className="mt-10 4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px]  md:text-[28px] text-[26px] leading-tight xl:w-[80%] 4xl:w-full">{t("title")}</h1>
 
         <div className="pt-10 pb-24 bg-white">
           <div className="container mx-auto border-b-[2px] border-gray-400 pb-6">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-[1084px]">
-              <div className="sm:mb-0 mb-6">{t("date")}</div>
+              <div className="sm:mb-0 mb-6">18 April 2025</div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
@@ -142,12 +142,12 @@ export default function Page() {
               {paragraphs.map((para, idx) => (
                 <p
                   key={idx}
-                  className={`text-black 4xl:text-[22px] xl:text-[20px] text-[18px] mt-8`}
+                  className={`text-black 4xl:text-[20px] xl:text-[17px] text-[16px] mt-8`}
                   dangerouslySetInnerHTML={{ __html: para }}
                 />
               ))}
               <UnorderedList
-                ulClassName="list-disc text-black pl-4 xl:text-[20px] text-[16px] font-medium mt-3"
+                ulClassName="list-disc text-black pl-[36px] lg:pl-[56px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium mt-3"
                 liClassName="pb-4"
                 arrName={listItems.map((item) => (
                   <span dangerouslySetInnerHTML={{ __html: item }} />
@@ -156,7 +156,7 @@ export default function Page() {
               {paragraphsEnd.map((para, idx) => (
                 <p
                   key={idx}
-                  className="text-black 4xl:text-[22px] xl:text-[20px] text-[18px] mt-8"
+                  className="text-black 4xl:text-[20px] xl:text-[17px] text-[16px] mt-8"
                   dangerouslySetInnerHTML={{ __html: para }}
                 />
               ))}

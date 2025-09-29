@@ -55,7 +55,7 @@ export default function servicesFeaturedCarousel({ slides }) {
     } = rest;
     return (
       <li>
-        <span
+        <div
           role="button"
           className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
           onClick={() => onClick()}
@@ -67,7 +67,7 @@ export default function servicesFeaturedCarousel({ slides }) {
   };
 
   return (
-    <section className="relative pb-10">
+    <section className="relative pb-14">
       <div>
         <div className="flex flex-row justify-between md:mr-24 mr-0 pr-3 max-[380px]:mb-16 max-md:mb-20 mb-6">
           <h2 className="text-black mb-10 sm:mr-0 4xl:w-[70%] xl:w-[55%] md:w-[65%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]"> {t('caseStudyTitle')}</h2>

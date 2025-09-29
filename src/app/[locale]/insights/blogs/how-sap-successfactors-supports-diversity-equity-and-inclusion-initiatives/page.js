@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from 'next/link';
-import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
@@ -94,22 +93,12 @@ export default function Page() {
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
             {/* date and icons */}
-            <div className="sm:flex justify-between">
-              <div>
-                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('bloTopic')}</span>{" "}
-                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>12 Nov 2024
-              </div>
 
-              <div>
-                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                  <BlogSocialIcons fullUrl={fullUrl} />
-                </div>
-              </div>
-            </div>
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('bloTopic')} date="12 Nov 2024" />
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> {t('blogTitle')}</h1>
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight"> {t('blogTitle')}</h1>
               <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogMainData')}</p>
               <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogMainData2')}</p>
 
