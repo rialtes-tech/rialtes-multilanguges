@@ -11,6 +11,9 @@ import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel';
+import useUrl from "@/app/[locale]/components/useUrl";
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -101,6 +104,7 @@ const schemaData = {
 
 export default function Page() {
     const t = useTranslations('whySapSignavio')
+     const currUrl = useUrl()
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { blogs, blogdescData, transformationPoints, voyagerPoints, intelligentPoints, benefitsPoints, domainsPoints, riskPoints, faqData } = blogsContent.whySapSignavio;
@@ -148,10 +152,10 @@ export default function Page() {
             <section className="custom-container">
                 <div className="py-10 bg-white">
                     <div>
-                        <div className="flex flex-col md:flex-row justify-between text-black items-center xl:max-w-[1084px] xl:w-[1084px]">
+                        <div className="flex flex-col md:flex-row justify-between text-black  xl:max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
                                 <span className="text-[#0092E0]">{t('blogTopic')}</span>
-                                <span className="text-[#ACACAC]"> | </span>{t('blogDate')}
+                                <span className="text-[#ACACAC]"> | </span>16 June 2025
                             </div>
                             <div className="flex flex-col">
                                 <div className="flex flex-row gap-6">
@@ -267,11 +271,11 @@ export default function Page() {
                                         {/* Label */}
                                         <div className="lg:mt-[44px] max-lg:ml-[40px] max-lg:mt-[-20px]
                                         ">
-                                            <h3 className={`font-bold inline 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[18px]"
+                                            <h3 className={`font-bold inline"
                                               ${locale === "es"
-                                    ? "lg:pr-8 xl:pr-2  4xl:text-[22px] 2xl:text-[22px] xl:text-[20px] text-[18px]"
+                                    ? "lg:pr-8 xl:pr-2  4xl:text-[20px] 2xl:text-[20px] xl:text-[20px] text-[18px]"
                                     : locale === "fr"
-                                        ? "lg:pr-8 xl:pr-2"
+                                        ? "lg:pr-8 xl:pr-2 4xl:text-[22px] 2xl:text-[21px] xl:text-[22px] text-[18px]"
                                         : "lg:pr-8 xl:pr-2  4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[18px]"
                                 }`}
                                             
@@ -286,7 +290,7 @@ export default function Page() {
                                 ))}
                             </ol>
 
-                            <p className="mt-[40px] md:mt-0 lg:mt-[110px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                            <p className="md:mt-0 lg:mt-[110px] 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
                                 {t('methodologyDesc')}
                             </p>
 
@@ -394,7 +398,7 @@ export default function Page() {
             </section>
             {/* Latest Blogs */}
             <div className="custom-container lg:pr-0 pb-10 mt-2">
-                <BlogsCarousel slides={blogs} />
+                <FilteredBlogCarousel url={currUrl} />
             </div>
         </div>
     );

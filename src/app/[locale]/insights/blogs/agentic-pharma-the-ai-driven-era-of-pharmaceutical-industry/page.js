@@ -9,6 +9,9 @@ import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel';
+import useUrl from "@/app/[locale]/components/useUrl";
+
 const schemaData =
 {
   "@context": "https://schema.org",
@@ -48,6 +51,7 @@ const fullUrl = "https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-dr
 
 export default function Page() {
   const t = useTranslations("agenticPharma");
+   const currUrl = useUrl()
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, blogMainData, whyPharmaData, agenticAppData } = content.agenticPharma
@@ -84,10 +88,10 @@ export default function Page() {
       </section>
       <section className="custom-container">
         <div className="py-10 bg-white">
-          <div className="container mx-auto">
-            <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
+          <div className="mx-auto">
+            <div className="flex flex-col md:flex-row justify-between text-black max-w-[1084px] xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>{t('blogDate')}
+                <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>30 May 2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -160,7 +164,7 @@ export default function Page() {
               {/* why the pharma section */}
               <h2 className="pb-4 font-medium text-[#0092E0] 4xl:text-[32px] xl:text-[26px] 2xl:text-[26px]  md:text-[22px] text-[22px]">{t('whyPharmaTitle')}</h2>
               <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('whyPharmaDesc')}</p>
-              <ul className="list-disc text-black space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium xl:pl-10">
+              <ul className="list-disc text-black space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium xl:pl-10 pl-5">
                 {
                   whyPharmaData.map((data, ind) => {
                     return (
@@ -199,7 +203,7 @@ export default function Page() {
 
       {/* Latest Blogs */}
       <div className="custom-container xl:pr-0 pb-20">
-        <BlogsCarousel slides={blogs} />
+        <FilteredBlogCarousel url={currUrl} />
       </div>
     </div>
   );
