@@ -187,9 +187,9 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
                 <input type="hidden" id="lead_source" name="lead_source" value="Web" />
 
-                <div className='mt-5 flex flex-col items-center xl:flex-row md:flex-row gap-6'>
+                <div className='mt-5 flex flex-col xl:flex-row md:flex-row gap-6'>
                     <div className="flex items-center space-x-4">
-                        <span className={`font-semibold text-lg text-[${beginBtnBg ? "white":"gray-800"}]`}> {captcha.question} = ?</span>
+                        <span className={`font-semibold text-lg text-[${beginBtnBg ? "white" : "gray-800"}]`}> {captcha.question} = ?</span>
                         <button type="button" onClick={refreshCaptcha} title="Refresh Captcha" className="text-blue-600 hover:text-blue-800 text-xl font-bold">
                             ↻
                         </button>
@@ -202,6 +202,8 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                         className="border border-gray-400 px-3 py-2 rounded shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         required
                     />
+                    <p className="md:hidden 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[14px] text-gray-700 mt-[-5px]">Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</p>
+
                     <input type="hidden" name="form_submit" value="Submit" />
                     <button
                         type="submit"
@@ -209,7 +211,6 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                         className="bg-[#134874] border border-[#134874] font-semibold py-3 px-8 transition duration-300 text-white hover:bg-[#ffffff] hover:text-[#134874]">
                         {t('letsBegin')}
                     </button>
-
 
                 </div>
                 <div>{t('captchaMsg')} (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>

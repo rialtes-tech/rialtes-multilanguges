@@ -1,15 +1,13 @@
 "use client";
 import Image from "next/image";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
-import { useLocale, useTranslations } from "next-intl";
-import enContent from '../../../../../../messages/en/blogs.json';
-import esContent from '../../../../../../messages/es/blogs.json';
-import frContent from '../../../../../../messages/fr/blogs.json';
-import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/[locale]/components/useUrl";
+
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -90,10 +88,7 @@ const schemaData = {
 }
 
 export default function Page() {
-    const t = useTranslations('agentforceIndustry4')
-    const locale = useLocale();
-    const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { reactiveData, agentforceEnablingData, impactData, impactData2, readyData, faqs } = blogsContent.agentforceIndustry4;
+    const currUrl = useUrl()
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing";
 
     return (
@@ -276,19 +271,25 @@ export default function Page() {
                                 />
                             ))}
 
+
+                            {/* faq section */}
+                            <div className="xl:mt-[80px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">FAQs: Agentforce in Predicting and Preventing Downtime in Industry 4.0 Manufacturing</h2>
+                                <div className="mt-[29px] xl:mt-[34px]">
+                                    <FAQAccordion faqData={faqs} />
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="custom-container max-md:px-0 pb-10">
-                <h2 className="font-semibold max-sm:px-[37px] mt-5 mb-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] pr-10 4xl:pr-0 xl:pr-0">{t('faqTitle')}</h2>
-                <FAQAccordion faqData={faqs} />
+            {/* blog carousel */}
+            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+                <FilteredBlogCarousel url={currUrl} />
             </section>
-            {/* Latest Blogs */}
-            <div className="custom-container lg:pr-0 pb-10 mt-3">
-                <BlogsCarousel />
-            </div>
         </div>
     )
 }
