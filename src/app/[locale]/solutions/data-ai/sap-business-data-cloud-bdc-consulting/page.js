@@ -176,7 +176,7 @@ export default function Page() {
                 {t('dataSubtitleTwo')}
               </p>
               <div className="xl:mt-[59px] mt-[22px]">
-                <LearnMore />
+                <LearnMore btnName={t('learnMore')}/>
               </div>
             </div>
           </div>
@@ -223,7 +223,7 @@ export default function Page() {
               liClassName=""
             />
             <div className="absolute bottom-[-24px]">
-              <LearnMore />
+              <LearnMore btnName={t('learnMore')}/>
             </div>
           </div>
         </section>
@@ -317,7 +317,7 @@ export default function Page() {
               />
             </div>
             <div className="lg:mt-[30px]">
-              <LearnMore />
+              <LearnMore btnName={t('learnMore')} />
             </div>
           </div>
         </section>
@@ -380,7 +380,7 @@ export default function Page() {
                       ))}
                     </ul>
                     <div className="absolute mt-0 xl:mt-[3px] max-lg:mt-[-10px]">
-                      <LearnMore bgcolor={"#006FBE"} />
+                      <LearnMore bgcolor={"#006FBE"} btnName={t('learnMore')}/>
                     </div>
                   </div>
                 </div>

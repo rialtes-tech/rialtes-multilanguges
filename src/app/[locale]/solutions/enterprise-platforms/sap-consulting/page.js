@@ -202,7 +202,7 @@ export default function Page() {
                                     <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{product.description}</p>
                                     <UnorderedList arrName={product?.productsDetails} ulClassName="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]" />
                                     <h5 className="text-[#0092E0] mt-10 font-bold cursor-pointer xl:text-[20px] text-[16px]">
-                                        <Link href={product?.knowMore}>Know More</Link>
+                                        <Link href={product?.knowMore}>{t('KnowMore')}</Link>
                                     </h5>
                                 </div>
                             </div>
@@ -246,7 +246,7 @@ export default function Page() {
                         <p className='text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-medium t mt-[23px]'>
                             {t('riseWithSapDesc')}
                         </p>
-                        <LearnMore href="/services/business-transformation/rise-with-sap-services" arialabel="rise with sap btn" />
+                        <LearnMore href="/services/business-transformation/rise-with-sap-services" arialabel="rise with sap btn" btnName={t('learnMore')} />
                     </div>
                 </div>
             </section>
