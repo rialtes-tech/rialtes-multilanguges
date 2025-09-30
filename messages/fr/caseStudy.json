@@ -1089,58 +1089,6 @@
             "La transition du papier au numérique a réduit de 50 % les délais d’approbation des autorisations préalables, améliorant la rapidité globale des soins.",
             "Une meilleure transparence a réduit la facturation imprévue et permis une planification des traitements plus sereine.",
             "La charge administrative des hôpitaux pour le traitement des autorisations préalables a diminué de 35 %, libérant du temps pour se concentrer sur les soins aux patients."
-        ],
-        "slides": [
-            {
-                "id": 3,
-                "image": "/images/case-studies/case study 1_thumb_n.webp",
-                "category": "Santé",
-                "industry": "Immobilier",
-                "date": "17 nov. 2024",
-                "title": "Automatisation du Traitement des Commandes dans le Secteur de la Santé avec MuleSoft",
-                "description": "Une entreprise mondiale de technologie médicale qui développe et fabrique des produits innovants",
-                "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-            },
-            {
-                "id": 4,
-                "image": "/images/case-studies/case-study-4_thumb.webp",
-                "category": "Fabrication",
-                "industry": "Santé",
-                "date": "14 oct. 2024",
-                "title": "Transformation de la Gestion Omnicanale des Cas avec Salesforce Service Cloud",
-                "description": "Un fournisseur leader de semi-conducteurs analogiques haute performance pour la connectivité sans fil et filaire.",
-                "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-            },
-            {
-                "id": 6,
-                "image": "/images/case-studies/case-study-6_thumb.webp",
-                "category": "Immobilier",
-                "industry": "Fabrication",
-                "date": "04 sept. 2024",
-                "title": "Réduction des Temps d’Arrêt pour une Société Immobilière Multifamiliale avec Yardi Managed Services",
-                "description": "Une société immobilière multifamiliale basée aux États-Unis spécialisée dans la gestion et l’investissement immobilier.",
-                "url": "insights/case-studies/yardi-managed-services"
-            },
-            {
-                "id": 7,
-                "image": "/images/case-studies/case study 3_thumb_n.webp",
-                "category": "Fabrication",
-                "industry": "Commerce de détail & e-Commerce",
-                "date": "08 janv. 2025",
-                "title": "Transformation DevOps avec Copado et Salesforce",
-                "description": "Un fabricant leader spécialisé dans la création de matériaux innovants pour les projets résidentiels et commerciaux.",
-                "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-            },
-            {
-                "id": 8,
-                "image": "/images/case-studies/case-study-2_thumb_n.webp",
-                "category": "Immobilier",
-                "industry": "Hi-Tech",
-                "date": "22 déc. 2024",
-                "title": "Automatisation des Virements ACH et des Écritures Comptables avec Notre Module Bancaire Exelona",
-                "description": "Une société immobilière multifamiliale basée aux États-Unis spécialisée dans la gestion et l’investissement immobilier.",
-                "url": "insights/case-studies/realForce-banking-module-ach"
-            }
         ]
     },
     "devopsCaseStudy": {
@@ -1402,58 +1350,6 @@
             "En introduisant du personnel principal et de secours pour tous les systèmes critiques, Rialtes a considérablement réduit les interruptions de service.",
             "L’utilisation de ressources offshore réduit les coûts d’environ un tiers par rapport au maintien d’une équipe interne complète basée en Californie.",
             "Le client a accès à la demande à un large éventail de compétences sur Yardi, MRI, RealPage et l’infrastructure sans le fardeau de l’embauche locale."
-        ],
-        "slides": [
-            {
-                "id": 3,
-                "image": "/images/case-studies/case study 1_thumb_n.webp",
-                "category": "Santé",
-                "industry": "Immobilier",
-                "date": "17 nov. 2024",
-                "title": "Automatisation du traitement des commandes dans le secteur de la santé avec MuleSoft",
-                "description": "Une entreprise mondiale de technologie médicale qui développe et fabrique des produits innovants",
-                "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-            },
-            {
-                "id": 4,
-                "image": "/images/case-studies/case-study-4_thumb.webp",
-                "category": "Fabrication",
-                "industry": "Santé",
-                "date": "14 oct. 2024",
-                "title": "Transformation de la gestion omnicanale des cas avec Salesforce Service Cloud",
-                "description": "Un fournisseur leader de semi-conducteurs analogiques haute performance pour la connectivité sans fil et filaire.",
-                "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-            },
-            {
-                "id": 6,
-                "image": "/images/case-studies/case-study-6_thumb.webp",
-                "category": "Immobilier",
-                "industry": "Fabrication",
-                "date": "04 sept. 2024",
-                "title": "Réduction des Temps d’Arrêt pour une Société Immobilière Multifamiliale grâce aux Services Gérés Yardi",
-                "description": "Une société immobilière multifamiliale basée aux États-Unis spécialisée dans la gestion et l’investissement immobilier.",
-                "url": "insights/case-studies/yardi-managed-services"
-            },
-            {
-                "id": 7,
-                "image": "/images/case-studies/case study 3_thumb_n.webp",
-                "category": "Fabrication",
-                "industry": "Commerce de détail & e-Commerce",
-                "date": "08 janv. 2025",
-                "title": "DevOps rationalisé avec Copado et Salesforce",
-                "description": "Un fabricant leader spécialisé dans la création de matériaux innovants pour les projets résidentiels et commerciaux.",
-                "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-            },
-            {
-                "id": 8,
-                "image": "/images/case-studies/case-study-2_thumb_n.webp",
-                "category": "Immobilier",
-                "industry": "Hi-Tech",
-                "date": "22 déc. 2024",
-                "title": "Automatisation des écritures ACH et journalières avec notre module bancaire Exelona",
-                "description": "Une société immobilière multifamiliale basée aux États-Unis spécialisée dans la gestion et l’investissement immobilier.",
-                "url": "insights/case-studies/realForce-banking-module-ach"
-            }
         ]
     },
     "eduplusCaseStudy": {

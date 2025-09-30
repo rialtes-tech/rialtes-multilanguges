@@ -110,11 +110,10 @@ export default function Page() {
     readyData,
     faqData,
   } = blogsContent.sapBuild;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0";
   const currUrl = useUrl();
   return (
-    <div className="min-h-screen">
+    <section className="min-h-screen">
       <Seo
         title="SAP Build for Manufacturing Sector: Cut Downtime 30% | Rialtes"
         description="Discover how SAP Build helps manufacturers accelerate innovation, reduce downtime, and empower teams with low-code apps and automation."
@@ -162,130 +161,111 @@ export default function Page() {
               <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
                 {t("blogTitle")}
               </h1>
-            </div>
-            <div className="xl:mt-[38px] mt-[33px]">
-              <div className="">
-                <div>
-                  {blogMainData.map((data, ind) => {
-                    return (
-                      <p
-                        className="mt-5 4xl:pr-20  4xl:text-[20px] xl:text-[17px] text-[16px]"
-                        key={ind}
-                      >
-                        {data}
-                      </p>
-                    );
-                  })}
-                </div>
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                    {t("whySapTitle")}
-                  </h2>
-                  <p className="mt-[29px] xl:mt-[34px] 4xl:pr-20  4xl:text-[20px] xl:text-[17px] text-[16px]">
-                    {t("whySapDesc")}
-                  </p>
+              <div className="mt-[29px] xl:mt-[34px]">
+                {blogMainData.map((data, ind) => {
+                  return (
+                    <p
+                      className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" key={ind}>
+                      {data}
+                    </p>
+                  );
+                })}
+              </div>
 
-                  {whySapData.map((data, ind) => {
+              {/* why sap section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('whySapTitle')}</h2>
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("whySapDesc")}
+                </p>
+                {whySapData.map((data, ind) => {
+                  return (
+                    <div className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" key={ind}>
+                      <h4 className="inline font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        {data.title} -{" "}
+                      </h4>
+                      <span className="font-medium">{data.desc}</span>
+                    </div>
+                  );
+                })}
+              </div>
+
+              {/* how sap section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('howSapTitle')}</h2>
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("howSapDesc")}
+                </p>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("howSapDesc2")}
+                </p>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:w-[80%] md:w-[90%] lg:w-[950px] xl:w-[1100px] 4xl:w-[1200px] mt-[95px] gap-[26px] gap-y-[80px] md:gap-y-[90px]">
+                  {howSapData.map((data, ind) => {
                     return (
                       <div
-                        className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px]"
                         key={ind}
-                      >
-                        <h4 className="inline font-bold 4xl:text-[22px] text-[18px] ">
-                          {data.title} -{" "}
-                        </h4>
-                        <span className="font-medium">{data.desc}</span>
+                        className="border border-[#707070] p-[26px] relative md:px-10 lg:px-[26px] pb-[62px]" >
+                        <p className="absolute top-[-24px] md:top-[-40px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] text-[#0092E0] font-bold w-[80%] sm:w-[70%] lg:w-[80%] xl:w-[70%] 4xl:w-[80%] pb-4 px-3 bg-white border-b border-[#0092E0]">
+                          {data.title}
+                        </p>
+                        <p className="4xl:mt-20 lg:mt-16 md:mt-16 sm:mt-12 mt-14 max-[352px]:mt-20 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                          {data.desc}
+                        </p>
+                        <ul className="mt-[32px]">
+                          {data.list.map((elem, id) => {
+                            return (
+                              <li key={id} className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium">
+                                {elem}
+                                {id < data.list.length - 1 && (
+                                  <p className="w-16 h-[3px] mt-4 bg-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"></p>
+                                )}
+                              </li>
+                            );
+                          })}
+                        </ul>
                       </div>
                     );
                   })}
-                </div>{" "}
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                    {t("howSapTitle")}
-                  </h2>
-                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] xl:text-[17px] md:text-[16px] text-[16px]">
-                    {t("howSapDesc")}
-                  </p>
-                  <p className="mt-5 4xl:text-[20px]  xl:text-[17px] md:text-[16px] text-[16px] ">
-                    {t("howSapDesc2")}
-                  </p>
+                </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:w-[80%] md:w-[90%] lg:w-[950px] xl:w-[1100px] 4xl:w-[1200px] mt-[95px] gap-[26px] gap-y-[80px] md:gap-y-[90px]">
-                    {howSapData.map((data, ind) => {
-                      return (
-                        <div
-                          key={ind}
-                          className="border border-[#707070] p-[26px] relative md:px-10 lg:px-[26px] pb-[62px]"
-                        >
-                          <p className="absolute top-[-24px] md:top-[-40px] 4xl:text-[20px] xl:text-[17px] text-[16px] text-[#0092E0] font-bold w-[80%] sm:w-[70%] lg:w-[80%] xl:w-[70%] 4xl:w-[80%] pb-4 px-3 bg-white border-b border-[#0092E0]">
-                            {data.title}
-                          </p>
-                          <p className="4xl:mt-20 lg:mt-16 md:mt-16 sm:mt-12 mt-14 max-[352px]:mt-20 4xl:text-[20px] xl:text-[17px] text-[16px]">
-                            {data.desc}
-                          </p>
-                          <ul className="mt-[32px]">
-                            {data.list.map((elem, id) => {
-                              return (
-                                <li
-                                  key={id}
-                                  className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium"
-                                >
-                                  {elem}
-                                  {id < data.list.length - 1 && (
-                                    <p className="w-16 h-[3px] mt-4 bg-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"></p>
-                                  )}
-                                </li>
-                              );
-                            })}
-                          </ul>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>{" "}
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                    {t("practicalTitle")}
-                  </h2>
-                  <p className="mt-[29px] xl:mt-[34px]  4xl:pr-20  4xl:text-[20px] xl:text-[17px] text-[16px]">
+                {/* practical section */}
+                <div className="md:mt-[80px] mt-[60px]">
+                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('practicalTitle')}</h2>
+                  <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                     {t("practicalDesc")}
                   </p>
-
                   {practicalData.map((data, ind) => {
                     return (
                       <div
                         className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[46px] px-[26px] md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto"
-                        key={ind}
-                      >
-                        <div className="md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[300px] xl:w-[280px] md:w-[240px] w-fit md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[24px] xl:text-[20px] text-[17px] px-[40px] py-[22px]">
+                        key={ind}>
+                        <div className="md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[300px] xl:w-[280px] md:w-[240px] w-fit md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] px-[40px] py-[22px]">
                           {data.title}
                         </div>
-                        <div className="4xl:text-[20px] xl:text-[17px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[180px] xl:ml-[210px] 4xl:ml-[240px]">
+                        <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[180px] xl:ml-[210px] 4xl:ml-[240px]">
                           {data.desc}
                         </div>
                       </div>
                     );
                   })}
                 </div>
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                  <h2 className="font-semibold 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                    {t("impactTitle")}
-                  </h2>
-                  <p className="mt-[29px] xl:mt-[34px]  4xl:pr-20 4xl:text-[20px] xl:text-[17px] text-[16px]">
+
+                {/* impact section */}
+                <div className="md:mt-[80px] mt-[60px]">
+                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('impactTitle')}</h2>
+                  <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                     {t("impactDesc")}
                   </p>
 
                   <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[26px] mt-[47px] sm:w-[70%] md:w-[90%] lg:w-[900px] xl:w-[1090px] 3xl:w-[1140px]">
                     {businessImpactData.map((data, ind) => {
                       return (
-                        <div
-                          key={ind}
-                          className="border border-[#707070] p-[28px] md:px-[34px] md:pt-[26px] md:pb-[40px]"
-                        >
-                          <h3 className="mt-2 4xl:text-[24px]  2xl:text-[21px] text-[20px] leading-tight text-[#0092E0] font-bold pb-4 border-b border-[#707070]">
+                        <div key={ind} className="border border-[#707070] p-[28px] md:px-[34px] md:pt-[26px] md:pb-[40px]">
+                          <h3 className="mt-2 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight text-[#0092E0] font-bold pb-4 border-b border-[#707070]">
                             {data.title}
                           </h3>
-                          <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">
+                          <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                             {data.desc}
                           </p>
                         </div>
@@ -293,29 +273,20 @@ export default function Page() {
                     })}
                   </div>
                 </div>
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                    {t("readyTitle")}
-                  </h2>
-                  <div className="mt-[29px] xl:mt-[34px] ">
+
+                {/* ready section */}
+                <div className="md:mt-[80px] mt-[60px]">
+                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('readyTitle')}</h2>
+                  <div className="mt-[29px] xl:mt-[34px]">
                     {readyData.map((data, ind) => {
                       return (
                         <p
                           key={ind}
-                          className="mt-5 4xl:pr-20 4xl:text-[20px] xl:text-[17px] text-[16px]"
+                          className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                           dangerouslySetInnerHTML={{ __html: data }}
                         />
                       );
                     })}
-                  </div>
-                </div>{" "}
-                <div className="xl:mt-[80px] mt-[40px]">
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
-                    {" "}
-                    {t("faqTitle")}
-                  </h2>
-                  <div className="mt-[29px] xl:mt-[30px]">
-                    <FAQAccordion faqData={faqData} />
                   </div>
                 </div>
               </div>
@@ -324,9 +295,17 @@ export default function Page() {
         </div>
       </section>
 
+      {/* faq section */}
+      <section className="xl:mt-[80px] mt-[40px] custom-container">
+        <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('faqTitle')}</h2>
+        <div className="mt-[29px] xl:mt-[34px]">
+          <FAQAccordion faqData={faqData} />
+        </div>
+      </section>
+
       <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
         <FilteredBlogCarousel url={currUrl} />
       </section>
-    </div>
+    </section>
   );
 }

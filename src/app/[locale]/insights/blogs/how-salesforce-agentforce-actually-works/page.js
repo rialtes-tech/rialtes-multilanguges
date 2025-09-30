@@ -56,7 +56,7 @@ export default function Page() {
   const currUrl = useUrl();
 
   return (
-    <div className="min-h-screen bg-white">
+    <section className="min-h-screen">
       <Seo
         title="How Does Salesforce Agentforce Work? | Rialtes"
         description="Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!"
@@ -69,16 +69,32 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      <section className="relative group overflow-hidden 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[400px]">
+        {/* Desktop Image */}
+        <div className="hidden md:block">
+          <Image
+            src="/images/blog/how-agentforce-works-blog-banner.webp"
+            alt="banner"
+            fill
+            style={{ objectFit: "cover" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110 object-[50%_30%]"
+          />
+        </div>
 
-      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
-        <Image
-          src="/images/blog/how-agentforce-works-blog-banner.webp "
-          alt="How Salesforce Agentforce Actually Works"
-          fill
-          style={{ objectFit: "cover", objectPosition: "70% 20%" }}
-          priority
-        />
+        {/* Mobile Image */}
+        <div className="block md:hidden h-full">
+          <Image
+            src="/images/blog/how-agentforce-works-blog-banner.webp"
+            alt="banner"
+            priority
+            height={0}
+            width={0}
+            className="w-full h-full object-cover object-[50%_30%]"
+          />
+        </div>
       </section>
+
 
       <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
         <div className="grid lg:grid-cols-12">
@@ -90,92 +106,88 @@ export default function Page() {
               <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
                 {t("blogTitle")}
               </h1>
-            </div>
-            <div className="xl:mt-[38px] mt-[33px]">
-              <div className="">
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
-                  {t("blogMainData")}
+              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
+                {t("blogMainData")}
+              </p>
+
+              {/* quick section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t("quickTitle")}
+                </h2>
+                <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("quickDesc")}
+                </p>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("quickDesc2")}
+                </p>
+              </div>
+
+              {/* how does ai agent section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t("howTitle")}
+                </h2>
+                <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("howDesc")}
+                </p>
+              </div>
+
+              {/* salesforce agentforce section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t("salesforceTitle")}
+                </h2>
+
+                <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("salesforceDesc")}{" "}
+                  <Link href="mailto:sales@rialtes.com" className="underline">
+                    {" "}
+                    <span>mrjohn@example.com</span>
+                  </Link>
+                  ”
                 </p>
 
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                  {/* quick section */}
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                    {t("quickTitle")}
-                  </h2>
-                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                    {t("quickDesc")}
-                  </p>
-                  <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                    {t("quickDesc2")}
-                  </p>
-                </div>
-                {/* how does ai agent section */}
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                    {t("howTitle")}
-                  </h2>
-                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
-                    {t("howDesc")}
-                  </p>
-                </div>
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                  {/* salesforce agentforce section */}
-                  <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2 leading-tight">
-                    {t("salesforceTitle")}
-                  </h2>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t("salesforceDesc2")}
+                </p>
 
-                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
-                    {t("salesforceDesc")}{" "}
-                    <Link href="mailto:sales@rialtes.com" className="underline">
-                      {" "}
-                      <span>mrjohn@example.com</span>
-                    </Link>
-                    ”
-                  </p>
+                {salesforceData.map((data, ind) => {
+                  return (
+                    <div key={ind}>
+                      <h3 className="mt-[29px] xl:mt-[34px] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold leading-tight">
+                        {data.title}
+                      </h3>
+                      {data.desc.map((elem, id) => {
+                        return (
+                          <p
+                            className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                            key={id}>
+                            {elem}
+                          </p>
+                        );
+                      })}
+                    </div>
+                  );
+                })}
 
-                  <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
-                    {t("salesforceDesc2")}
-                  </p>
-                  {salesforceData.map((data, ind) => {
-                    return (
-                      <div key={ind}>
-                        <h3 className="font-bold mt-[29px] xl:mt-[34px]  4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
-                          {data.title}
-                        </h3>
-                        {data.desc.map((elem, id) => {
-                          return (
-                            <p
-                              className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] "
-                              key={id}
-                            >
-                              {elem}
-                            </p>
-                          );
-                        })}
-                      </div>
-                    );
-                  })}
-                </div>
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                {/* use cases section */}
+                <div className="md:mt-[50px] mt-[40px]">
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                     {t("useCasesTitle")}
                   </h2>
 
-                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
+                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                     {t("useCasesDesc")}
                   </p>
 
-                  <ul className="pl-[36px] lg:pl-[56px] space-y-4 mt-5  marker:text-[#0092E0]">
+                  <ul className="list-disc font-medium marker:text-xl 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 pl-[34px] space-y-4">
                     {useCasesData.map((data, ind) => {
                       return (
                         <li
-                          className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium "
-                          key={ind}
-                        >
-                          <h3
-                            className="font-bold inline  4xl:text-[22px] text-[18px] leading-tight
-"
-                          >
+                          className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                          key={ind}>
+                          <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                             {data.title}
                           </h3>
                           {data.desc}
@@ -184,29 +196,27 @@ export default function Page() {
                     })}
                   </ul>
                 </div>
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+
+                {/* getting section */}
+                <div className="md:mt-[50px] mt-[40px]">
                   {" "}
-                  <h2 className="font-medium text-[#0092E0] xl:text-[30px] text-[20px] pb-2 leading-tight">
+                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                     {t("gettingTitle")}
                   </h2>
-                  <p className=" mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium ">
+                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                     {t("gettingDesc")}{" "}
-                    <Link
-                      className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                      href="https://www.salesforce.com/dreamforce/"
-                    >
+                    <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.salesforce.com/dreamforce/">
                       {t("gettingLink")}
                     </Link>
                     . {t("gettingDesc2")}{" "}
-                    <Link
-                      className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                      href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"
-                    >
+                    <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
+                      href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/">
                       {t("gettingLink2")}
                     </Link>
                     , {t("gettingDesc3")}{" "}
                   </p>
                 </div>
+
               </div>
             </div>
           </div>
@@ -214,9 +224,9 @@ export default function Page() {
       </section>
 
       {/* Latest Blogs */}
-      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+      <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
         <FilteredBlogCarousel url={currUrl} />
       </section>
-    </div>
+    </section>
   );
 }
