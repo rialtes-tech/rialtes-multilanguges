@@ -30,6 +30,16 @@ const schemaData = {
 
 const latestBlogs = [
   {
+    id: 42,
+    image: "/images/blog/digital-patient-journeys-mobile.webp",
+    category: "MediAIna",
+    industry: "Generic",
+    date: "Sep. 30, 2025",
+    url: '/digital-patient-journeys-ai-healthcare-life-sciences',
+    title: "The Future of Digital Patient Journeys: How AI is Reshaping Life Sciences",
+    description: "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals.",
+  },
+  {
     id: 41,
     image: "/images/blog/connected-care-ecosystem-feature.webp",
     category: "MediAIna",
