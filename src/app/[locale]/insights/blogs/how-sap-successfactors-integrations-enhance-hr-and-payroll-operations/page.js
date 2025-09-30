@@ -11,6 +11,8 @@ import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel';
+import useUrl from "@/app/[locale]/components/useUrl";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -40,6 +42,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations("howSapSuccessFactorIntegration");
   const locale = useLocale();
+    const currUrl = useUrl()
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, blogMainData, hrmgmtData, roleIntegrationData, successFactorIntegration, empData } = content.howSapSuccessFactorIntegration
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations";
@@ -65,9 +68,9 @@ export default function Page() {
 
         <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
           <div>
-            <div className="flex flex-col md:flex-row justify-between text-black items-center">
+            <div className="flex flex-col md:flex-row justify-between text-black ">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>{t('blogDate')}
+                <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>28 May 2024
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -157,7 +160,7 @@ export default function Page() {
               successFactorIntegration.map((data, ind) => {
                 return (
                   <div key={ind}>
-                    <h3 className="pb-4 mt-6 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{ind + 1}.{data.title} </h3>
+                    <h3 className="pb-4 mt-6 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{ind + 1}. {data.title} </h3>
                     <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
                     <div className="pl-6">
                       <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] 2xl:text-[18px] xl:text-[17px] 4xl:text-[20px] font-medium">
@@ -202,7 +205,7 @@ export default function Page() {
       </section>
       {/* Latest Blogs */}
       <div className="custom-container lg:pr-0">
-        <BlogsCarousel slides={blogs} />
+        <FilteredBlogCarousel url={currUrl} />
       </div>
     </div>
   );
