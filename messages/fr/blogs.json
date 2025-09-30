@@ -3326,63 +3326,7 @@
         "faqTitle": "Foire aux questions (FAQ)"
     },
     "firstAiAgent": {
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Générique",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "Comment Fonctionne Réellement Salesforce Agentforce",
-                "description": "Salesforce Agentforce, bien qu’étant une nouveauté dans l’écosystème Salesforce, gagne en popularité, en particulier dans les organisations qui gèrent de grandes équipes d’agents, comme les commerciaux, les représentants du service client et le personnel de terrain."
-            },
-            {
-                "id": 2,
-                "image": "/images/blog/blog-2.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Générique",
-                "date": "21 Oct 2024",
-                "title": "Le Cerveau Derrière les Agents : Dévoiler le Atlas Reasoning Engine dans Agentforce",
-                "description": "À mesure que les entreprises se développent, la complexité de la gestion des interactions avec les clients se multiplie, ce qui accroît le besoin de systèmes d’assistance plus intelligents et rationalisés. Salesforce Agentforce fournit une plateforme robuste d’automatisation du service client, désormais améliorée par le révolutionnaire Atlas Reasoning Engine."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Générique",
-                "date": "25 Nov 2024",
-                "title": "Centre de Test Agentforce : Redéfinir les Tests d’IA avec des Données Synthétiques",
-                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Centre de Test dans sa plateforme d’IA agentive, Agentforce. Cet ajout permet aux utilisateurs d’entreprise de tester et de surveiller les agents d’IA avant leur déploiement en production."
-            },
-            {
-                "id": 5,
-                "image": "/images/blog/blog-5.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Ressources Humaines",
-                "date": "24 Déc 2024",
-                "title": "Comment Intégrer SAP SuccessFactors avec Microsoft Office 365 pour une Collaboration Optimisée",
-                "description": "L’intégration fluide entre les applications d’entreprise améliore la collaboration, l’efficacité et la productivité. L’intégration de SAP SuccessFactors avec Microsoft Office 365 combine les atouts d’une solution leader en gestion de l’expérience humaine (HXM) et d’une suite robuste d’outils de productivité."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Technologie Verte Cloud",
-                "industry": "Agriculture",
-                "date": "17 Sept 2024",
-                "title": "Agriculture 4.0. Comment les Technologies Numériques Transforment l’Agriculture pour un Meilleur Avenir ?",
-                "description": "L’agriculture joue un rôle significatif dans l’économie croissante de l’Inde et son avenir ne peut être accompli sans outils numériques et innovation technologique."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Ressources Humaines",
-                "date": "29 Oct 2024",
-                "title": "SAP SuccessFactors Gestion de la Performance et des Objectifs",
-                "description": "Atteindre les objectifs de votre organisation est une responsabilité clé que partage toute votre équipe. Lorsque la stratégie de votre équipe est alignée sur ses objectifs et sur les objectifs organisationnels plus larges, faire ce qu’il faut devient instinctif."
-            }
-        ],
+        
         "stepToGuideData": [
             {
                 "step": "Étape 1 : Définir le But de Votre Agent IA",
@@ -5275,7 +5219,7 @@
         "turnDesc3": "pour les entreprises MedTech. Notre expertise en conseil vous aide à concevoir, déployer et mettre à l’échelle",
         "turnDescLink2": "des stratégies d’engagement patient pilotées par l’IA",
         "turnDesc4": "qui améliorent l’adhésion, réduisent l’épuisement des prestataires et élèvent l’expérience globale du patient. Avec Rialtes comme partenaire, vous libérez tout le potentiel d’une santé plus intelligente et plus humaine.",
-        "faqTitle": "Questions-réponses : Engagement patient avec l’IA dans la surveillance à distance"
+        "faqTitle": "FAQs : L’IA dans l’engagement des patients"
     },
     "agentforceIndustry4": {
         "reactiveData": [
