@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
@@ -8,7 +7,6 @@ import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-import UnorderedList from "@/app/[locale]/components/unorderedList";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
@@ -135,8 +133,8 @@ export default function Page() {
             </section>
 
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
-                <div className="grid lg:grid-cols-12">
-                    <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
+                <div className="grid grid-cols-12 lg:grid-cols-12">
+                    <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 col-span-12">
 
                         {/* date and icons */}
                         <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="25 August 2025" />
@@ -287,7 +285,7 @@ export default function Page() {
                                     {
                                         humansData.map((data, ind) => {
                                             return (
-                                                <p key={ind} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                                <p key={ind} className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                                                     {data}
                                                 </p>
                                             )
@@ -311,7 +309,7 @@ export default function Page() {
             </section>
 
             {/* blog carousel */}
-            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+            <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
                 <FilteredBlogCarousel url={currUrl} />
             </section>
         </section>
