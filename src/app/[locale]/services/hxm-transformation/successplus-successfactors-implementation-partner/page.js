@@ -115,7 +115,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
+      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] h-[400px] md:h-[600px] overflow-hidden">
         <div className="md:block hidden">
           <Image
             src="/images/services/success-plus/desktop-banner.webp"
@@ -142,7 +142,7 @@ export default function Page() {
               {t('headerSubTitlep1')}  <div className="" /> {t('headerSubTitlep2')}
               <div className="lg:mt-[20px] mt-[10px]" /><span className="text-[16px] font-bold lg:text-[36px] 4xl:text-[45px]"> {t('headerSubTitle2')} </span> <div className="2xl:mt-[-20px] lg:mt-[-5px] xl:mt-0 mt-[-10px]" /><span className="text-[16px] lg:text-[36px] 4xl:text-[45px]"> {t('headerSubTitle3')}</span>
             </h2>
-            <div className="md:max-w-32 w-20 4xl:w-[160px] 2xl:w-[140px] lg:w-[100px] xl:w-[100px] mt-[49px] xl:mt-[62px]">
+            <div className="md:max-w-32 w-20 4xl:w-[160px] 2xl:w-[140px] lg:w-[100px] xl:w-[100px] mt-[44px] xl:mt-[62px]">
               <Image
                 src="/images/services/success-plus/sap-partner-logo.webp"
                 alt="SAP Partner Logo"
@@ -398,7 +398,7 @@ export default function Page() {
       <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[38px] 4xl:!pr-[142px] 2xl:!pr-[90px] lg:!pr-[40px] md:!pr-0 max-lg:px-0">
         <div className="lg:pl-[59px] lg:pr-[60px]  px-[36px] bg-[#F2ECD9]">
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[30px]">
-            <div className="lg:order-1 order-2 lg:col-span-5 4xl:col-span-5 lg:pt-[86px] xl:pb-[68px] pb-[52]">
+            <div className="lg:order-1 order-2 lg:col-span-5 4xl:col-span-5 lg:pt-[86px] xl:pb-[68px] pb-[54]">
               <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
                 {t('sapSuccessTitle1')} <div className="font-normal">{t('sapSuccessTitle2')}</div>
               </h2>
@@ -438,7 +438,7 @@ export default function Page() {
         <div className="absolute bg-[#EFE0CD] bottom-0 top-0 4xl:w-[120px] 4xl:ml-[-120px] 2xl:w-[90px] 2xl:ml-[-90px] lg:w-[26px] lg:ml-[-26px]"></div>
         <div className="lg:pr-[60px] max-lg:px-[36px] bg-[#EFE0CD]">
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[30px]">
-            <div className="lg:order-2 order-2 lg:col-span-6 lg:pt-[86px] xl:pb-[68px] pb-[52]">
+            <div className="lg:order-2 order-2 lg:col-span-6 lg:pt-[86px] xl:pb-[68px] pb-[54]">
               <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
                 {t('sapCpiTitle1')} <div className="font-normal">{t('sapCpiTitle2')}</div>
               </h2>
@@ -477,7 +477,7 @@ export default function Page() {
       <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[68px] 4xl:!pr-[142px] 2xl:!pr-[90px] xl:!pr-[40px] md:!pr-0 max-lg:px-0 ">
         <div className="lg:pl-[59px] lg:pr-[60px] lg:pb-[90px] xl:pb-[138px] px-[36px] bg-[#BEDDFC]">
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[80px] gap-y-[30px]">
-            <div className="lg:order-1 order-2 lg:col-span-6 lg:pt-[76px] pb-[52]">
+            <div className="lg:order-1 order-2 lg:col-span-6 lg:pt-[76px] pb-[54]">
               <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
                 {t('sapJouleTitle1')}<div className="font-normal">{t('sapJouleTitle2')}</div>
               </h2>
@@ -523,7 +523,7 @@ export default function Page() {
         <div className="absolute bg-[#E4EAD2] bottom-0 top-0 4xl:w-[120px] 4xl:ml-[-120px] 2xl:w-[90px] 2xl:ml-[-90px] lg:w-[26px] lg:ml-[-26px]"></div>
         <div className="lg:pr-[60px] max-lg:px-[36px] bg-[#E4EAD2] relative">
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[30px]">
-            <div className="lg:order-2 order-2 lg:col-span-6 lg:pt-[86px] xl:pb-[68px] pb-[52]">
+            <div className="lg:order-2 order-2 lg:col-span-6 lg:pt-[86px] xl:pb-[68px] pb-[54]">
               <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
                 {t('extendSapTitle1')} <div className="font-normal">{t('extendSapTitle2')}</div>
               </h2>

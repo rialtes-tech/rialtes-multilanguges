@@ -75,7 +75,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
+      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[350px] overflow-hidden">
         <div className="hidden lg:block">
           <Image
             src="/images/blog/agriculture-4.0-digital-farming.webp "
@@ -114,7 +114,7 @@ export default function Page() {
                   {t("blogMainData2")}
                 </p>
 
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                <div className="md:mt-[50px] mt-[40px]">
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                     {t("whatAgriTitle")}
                   </h2>
@@ -125,35 +125,35 @@ export default function Page() {
                     {t("whatAgriDesc2")}
                   </p>
                 </div>
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                <div className="md:mt-[50px] mt-[40px]">
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px leading-tight">
                     {t("adoptingTitle")}
                   </h2>
 
-                  <div className="mt-[29px] xl:mt-[34px] ">
+                  <div className="mt-[29px] xl:mt-[34px]">
                     <UnorderedList
                       arrName={adoptingData}
-                      ulClassName="marker:text-[#0092E0] pl-[36px] lg:pl-[56px] space-y-4 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium"
+                      ulClassName="pl-[36px] space-y-4 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium"
                       liClassName=""
                     />
                   </div>
                 </div>
 
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                <div className="md:mt-[50px] mt-[40px]">
                   {commonData.map((data, ind) => {
                     return (
                       <div key={ind}>
                         <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] mt-[29px] xl:mt-[34px] leading-tight">
                           {data.title}
                         </h2>
-                        <p className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                           {data.desc}
                         </p>
                       </div>
                     );
                   })}
                 </div>
-                <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
+                <div className="md:mt-[50px] mt-[40px]">
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                     {t("moveTitle")}
                   </h2>

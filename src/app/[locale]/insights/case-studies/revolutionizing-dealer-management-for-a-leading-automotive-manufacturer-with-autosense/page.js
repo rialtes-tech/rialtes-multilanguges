@@ -52,8 +52,7 @@ export default function Page() {
         deliverablesList,
     } = Content.autoSenseCaseStudy;
 
-    const fullUrl =
-        "https://www.rialtes.com/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense";
+    const fullUrl = "https://www.rialtes.com/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense";
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -203,7 +202,7 @@ export default function Page() {
             </section>
 
             {/* case study carousel */}
-            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+            <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
                 <RelatedCaseStudies url={currUrl} currTopic={t("manufacturing")} />
             </section>
         </div>

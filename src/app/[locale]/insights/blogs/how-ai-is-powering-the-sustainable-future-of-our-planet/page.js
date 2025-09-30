@@ -189,7 +189,7 @@ export default function Page() {
       />
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
         {/* Desktop Image */}
-        <div className="hidden md:block">
+        <div className="hidden xl:block">
           <Image
             src="/images/blog/sustainability-banner.webp"
             alt="Discover AgentExchange"
@@ -199,12 +199,13 @@ export default function Page() {
         </div>
 
         {/* Mobile Image */}
-        <div className="block md:hidden">
+        <div className="block xl:hidden">
           <Image
-            src="/images/blog/sustain-mobile.webp"
+            src="/images/blog/sustain-small-slider.webp"
             alt="Discover AgentExchange"
-            fill
-            style={{ objectFit: "cover" }}
+            height={0}
+            width={0}
+            className="w-full h-auto object-cover"
             priority
           />
         </div>
@@ -220,7 +221,7 @@ export default function Page() {
 
             <div className="xl:mt-[60px] mt-[42px]">
               <h1
-                className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]">
+                className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
                 {t("aiTitle")}
               </h1>
               <div className="xl:mt-[38px] mt-[33px]">

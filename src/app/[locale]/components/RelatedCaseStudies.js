@@ -8,6 +8,7 @@ import enContent from "../../../../messages/en/caseStudy.json";
 import esContent from "../../../../messages/es/caseStudy.json";
 import frContent from "../../../../messages/fr/caseStudy.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import { useMediaQuery } from "react-responsive";
 
 export default function page({ url, currTopic }) {
     const t = useTranslations("relatedCaseStudies");
@@ -18,6 +19,7 @@ export default function page({ url, currTopic }) {
         fr: frContent,
     });
     const { latestCaseStudy } = blogsContent.relatedCaseStudies
+    const isMobile = useMediaQuery({ maxWidth: 650 });
 
     const filteredCases = latestCaseStudy.filter((elem) => {
         const caseIndustry = elem.industry;
@@ -33,13 +35,13 @@ export default function page({ url, currTopic }) {
             slidesToSlide: 3,
         },
         tablet: {
-            breakpoint: { max: 1024, min: 575 },
+            breakpoint: { max: 1024, min: 650 },
             items: 2,
             centerMode: true,
             slidesToSlide: 2,
         },
         mobile: {
-            breakpoint: { max: 575, min: 0 },
+            breakpoint: { max: 650, min: 0 },
             items: 1,
             centerMode: true,
         },
@@ -76,7 +78,6 @@ export default function page({ url, currTopic }) {
                 <div
                     role="button"
                     className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
-                    onClick={() => onClick()}
                     aria-label="Custom Dots"
 
                 />
@@ -96,8 +97,8 @@ export default function page({ url, currTopic }) {
                     showDots={true}
                     responsive={responsive}
                     ssr={true}
-                    infinite={true}
-                    autoPlay={true}
+                    infinite={filteredCases.length > 1}
+                    autoPlay={filteredCases.length > 1}
                     autoPlaySpeed={3000}
                     keyBoardControl={true}
                     customTransition="all .5s"
@@ -109,7 +110,11 @@ export default function page({ url, currTopic }) {
                     partialVisible={true}
                     arrows={false}
                     renderButtonGroupOutside={true}
-                    customButtonGroup={filteredCases.length > 3 && <ButtonGroup />}
+                    customButtonGroup={
+                        (isMobile && filteredCases.length > 1) || (!isMobile && filteredCases.length > 3)
+                            ? <ButtonGroup />
+                            : null
+                    }
                     renderDotsOutside={true}
                     customDot={<CustomDot />}
                 >

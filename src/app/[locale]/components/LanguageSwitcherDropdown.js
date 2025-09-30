@@ -50,7 +50,7 @@ export default function LanguageSwitcher({ arrowImg }) {
     return (
         <div ref={dropdownRef}>
             <div
-                className="md:font-bold font-normal flex gap-2 4xl:text-[17px] xl:text-[15px] text-[13px] cursor-pointer mt-1"
+                className="md:font-bold font-normal flex gap-2 4xl:text-[17px]  2xl:text-[15px] xl:text-[13px] text-[13px] cursor-pointer mt-1"
                 onClick={() => setShowFlags((prev) => !prev)}>
                 {(() => {
                     const current = locales.find(l => l.code === currentLocale);
@@ -86,14 +86,14 @@ export default function LanguageSwitcher({ arrowImg }) {
                         <li
                             key={data.code}
                             onClick={() => handleChange(data.code)}
-                            className='flex gap-4 md:font-bold font-normal 4xl:text-[17px] xl:text-[15px] text-[13px] cursor-pointer'>
+                            className='flex gap-4 md:font-bold font-normal 4xl:text-[17px] 2xl:text-[15px] xl:text-[13px] text-[13px] cursor-pointer'>
                             <Image
                                 src={data.flag}
                                 alt={`${data.label} flag`}
-                                className="w-[20px] h-[20px] lg:w-[24px] lg:h-[24px] object-cover"
+                                className="w-[20px] h-[20px] xl:w-[24px] xl:h-[24px] object-cover"
                                 priority
-                                width={30}
-                                height={30}
+                                width={24}
+                                height={24}
                             />
                             {data.subtitle}
                         </li>
