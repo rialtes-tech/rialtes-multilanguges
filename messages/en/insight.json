@@ -664,8 +664,8 @@
       {
         "id": 7,
         "imgSrc": "/images/case-studies/Small thumb.webp",
-        "category": "Education Cloud",
-        "date": "21 August 2025",
+        "category": "Education",
+        "date": "21 Aug 2025",
         "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
         "title": "Transforming Student Success with Salesforce Education Cloud and Edu+",
         "description": "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions."
@@ -674,7 +674,7 @@
         "id": 6,
         "imgSrc": "/images/case-studies/AutoSense Warranty Management Modules_Case study thumb.webp",
         "category": "Automotive",
-        "date": "30 June 2025",
+        "date": "30 Jun 2025",
         "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
         "title": "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
         "description": "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
@@ -683,7 +683,7 @@
         "id": 5,
         "imgSrc": "/images/case-studies/Adaptis_featured CS.webp",
         "category": "Manufacturing",
-        "date": "10 June 2025",
+        "date": "10 Jun 2025",
         "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud",
         "title": "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
         "description": "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer."
@@ -692,7 +692,7 @@
         "id": 4,
         "imgSrc": "/images/case-studies/revolutionizing-latest-carosel.webp",
         "category": "Manufacturing",
-        "date": "03 June 2025",
+        "date": "03 Jun 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer",
         "title": "Revving Up Dealer Management with AutoSense by Rialtes",
         "description": "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal."
@@ -702,8 +702,8 @@
       {
         "id": 15,
         "image": "/images/case-studies/Small thumb.webp",
-        "industry": "Education Cloud",
-        "date": "21 August 2025",
+        "industry": "Education",
+        "date": "21 Aug 2025",
         "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
         "title": "Transforming Student Success with Salesforce Education Cloud and Edu+",
         "description": "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions."
@@ -712,7 +712,7 @@
         "id": 14,
         "image": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
         "industry": "Automotive",
-        "date": "30 June 2025",
+        "date": "30 Jun 2025",
         "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
         "title": "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
         "description": "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
@@ -721,7 +721,7 @@
         "id": 13,
         "image": "/images/case-studies/Adaptis_featured CS.webp",
         "industry": "Manufacturing",
-        "date": "10 June 2025",
+        "date": "10 Jun 2025",
         "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud",
         "title": "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
         "description": "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer."
@@ -730,7 +730,7 @@
         "id": 12,
         "image": "/images/case-studies/revolutionary-filter.webp",
         "industry": "Manufacturing",
-        "date": "03 June 2025",
+        "date": "03 Jun 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer",
         "title": "Revving Up Dealer Management with AutoSense by Rialtes",
         "description": "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal."

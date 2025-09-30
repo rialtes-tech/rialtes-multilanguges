@@ -69,7 +69,6 @@ export default function Page() {
       </div>
     </div>
   );
-
   const BlogList = () => {
     const [visibleBlogs, setVisibleBlogs] = useState(6);
     const [showOptionsIndustry, setShowOptionsIndustry] = useState(false);
@@ -265,7 +264,7 @@ export default function Page() {
       } = rest;
       return (
         <li>
-          <span
+          <div
             role="button"
             className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
             onClick={() => onClick()}
