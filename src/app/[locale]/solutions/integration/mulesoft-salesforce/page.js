@@ -239,7 +239,7 @@ const page = () => {
           </div>
         </div>
         <div className="mt-6 custom-container">
-          <LearnMore />
+          <LearnMore btnName={t('learnMore')}/>
         </div>
       </section>
       {/* serve section */}

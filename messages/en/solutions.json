@@ -358,6 +358,9 @@
     "headerSubTitle1": "Leaning towards",
     "headerSubTitle2": "a better tomorrow.",
     "headerSubTitle3": "Leveraging SAP Consulting Services for reliable business operations.",
+    "KnowMore":"Know More",
+     "learnMore": "Learn More",
+
     "solutionSuccess": [
       {
         "id": 1,
@@ -778,6 +781,7 @@
     "contactTitle": "Ready to Modernize Oracle EBS for Your Business?"
   },
   "sapCpi": {
+    "learnMore": "Learn More",
     "thoughtLeadershipData": [
       "Disconnected systems and data silos limiting agility.",
       "Manual processes draining resources and increasing errors.",
@@ -1319,6 +1323,7 @@
     "servicesTitle": "Our MuleSoft Integration Services cater to a wide range of industries",
     "driveTitle": "Drive Measurable Business Outcomes",
     "contactTitle": "Take the next step to operational excellence with MuleSoft Integration Services",
+    "learnMore": "Learn More",
     "pointsData": [
       "Leverage the power of integration to streamline robust workflows",
       "Deliver exceptional customer experiences",
