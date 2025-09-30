@@ -256,23 +256,23 @@ export default function Page() {
             "listTitle": "What sets MediAIna apart:",
             "list": [
                 {
-                    "title": "End-to-end digital journey: From ",
+                    "title": "End-to-end digital journey",
                     "desc": "From onboarding to follow-up, everything is connected."
                 },
                 {
-                    "title": "AI-powered care pathways: ",
+                    "title": "AI-powered care pathways ",
                     "desc": "Personalized engagement for each patient type."
                 },
                 {
-                    "title": "Provider-patient collaboration: ",
+                    "title": "Provider-patient collaboration ",
                     "desc": "Easy communication channels that reduce friction."
                 },
                 {
-                    "title": "Compliance-first design: ",
+                    "title": "Compliance-first design ",
                     "desc": "Built to meet HIPAA, GDPR, and global healthcare regulations."
                 },
                 {
-                    "title": "Scalable architecture: ",
+                    "title": "Scalable architecture ",
                     "desc": "Designed for hospitals, clinics, and life sciences enterprises."
                 },
             ],
