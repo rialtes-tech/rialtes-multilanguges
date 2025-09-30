@@ -33,14 +33,14 @@ const schemaData = {
 }
 const latestCaseStudy = [
   {
-  id: 15,
+    id: 15,
     image: "/images/case-studies/Small thumb.webp",
     industry: "Education",
     date: "21 August 2025",
     url: "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
     title: "Transforming Student Success with Salesforce Education Cloud and Edu+",
     description: "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions."
-  
+
   },
   {
     id: 14,
@@ -325,14 +325,14 @@ const CaseStudy = () => {
 const FeaturedCarousel = () => {
   const slides = [
     {
-     id: 7,
+      id: 7,
       imgSrc: '/images/case-studies/Small thumb.webp',
       category: "Education Cloud",
       date: "21 August 2025",
       url: "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
       title: "Transforming Student Success with Salesforce Education Cloud and Edu+",
       description: "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions."
-  
+
     },
     {
       id: 6,
@@ -436,13 +436,13 @@ const FeaturedCarousel = () => {
     } = rest;
     return (
       <li>
-      <div
-      role="button"
-        className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
-        onClick={() => onClick()}
-                aria-label="Custom Dots"
+        <div
+          role="button"
+          className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
+          onClick={() => onClick()}
+          aria-label="Custom Dots"
 
-      />
+        />
       </li>
     );
   };
@@ -512,60 +512,60 @@ export default function Page() {
       <Seo title="Salesforce and SAP Wins | Case Studies That Inspire | Rialtes"
         description="Explore SAP and Salesforce case studies from Rialtes. See how global businesses drive AI-powered innovation, efficiency, and ROI through smart tech solutions."
         canonical="https://www.rialtes.com/insights/case-studies/" />
-    
-         <Script
+
+      <Script
         id="schema-case-study"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-    
-    
-     <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
-            {/* Desktop Image */}
-            <div className="hidden md:block">
-              <Image
-                src="/images/case-studies/case-study-header.webp"
-                alt="desktop banner"
-                fill
-                style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                priority
-                className="transform transition-transform duration-500 group-hover:scale-110"
-              />
+
+
+      <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
+        {/* Desktop Image */}
+        <div className="hidden md:block">
+          <Image
+            src="/images/case-studies/case-study-header.webp"
+            alt="desktop banner"
+            fill
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+
+
+        {/* Mobile Image */}
+        <div className="block md:hidden">
+          <Image
+            src="/images/case-studies/case-study-main-banner.webp"
+            alt="Case study banner"
+            fill
+            priority
+            style={{ objectFit: "cover", objectPosition: "35% 60%" }}
+          />
+        </div>
+
+        <div className="relative h-full custom-container flex items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
+            <div className="col-span-12 xl:col-span-7 lg:col-span-9">
+
+              <h3 className="text-white text-[18px] xl:text-[24px] font-bold">
+                Case Studies
+              </h3>
+
+              <h1 className="text-white 4xl:w-[70%] xl:w-[50%] text-[26px] xl:text-[40px]  4xl:text-[60px] leading-tight mt-[11px] md:mt-[28px]">
+                Success Stories That Inspire
+              </h1>
+
             </div>
-     
-           
-            {/* Mobile Image */}
-            <div className="block md:hidden">
-              <Image
-                src="/images/case-studies/case-study-main-banner.webp"
-                alt="Case study banner"
-                fill
-                priority
-                style={{ objectFit: "cover", objectPosition: "35% 60%" }}
-              />
+
+            <div className="col-span-12 lg:col-span-3 xl:col-span-5">
             </div>
-    
-            <div className="relative h-full custom-container flex items-center">
-              <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
-                <div className="col-span-12 xl:col-span-7 lg:col-span-9">
-    
-                  <h3 className="text-white text-[18px] xl:text-[24px] font-bold"> 
-                   Case Studies
-                  </h3>
-    
-                  <h1 className="text-white 4xl:w-[70%] xl:w-[50%] text-[26px] xl:text-[40px]  4xl:text-[60px] leading-tight mt-[11px] md:mt-[28px]">
-                   Success Stories That Inspire
-                  </h1>
-    
-                </div>
-    
-                <div className="col-span-12 lg:col-span-3 xl:col-span-5">
-                </div>
-              </div>
-            </div>
-          </section>
+          </div>
+        </div>
+      </section>
       <section
         className="custom-container">
         <div className="xl:mt-[84px] mt-[44px] bg-white">
