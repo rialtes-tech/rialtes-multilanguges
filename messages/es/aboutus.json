@@ -1,6 +1,7 @@
 {
   "aboutUs": {
     "aboutusTitle": "Sobre nosotros",
+
     "aboutusSubtitle": "Forjando el verdadero propósito de la tecnología en la vida cotidiana.",
     "aboutusSubtitleone": "Imaginando cómo la tarea más compleja puede simplificarse con IA, datos y tecnología.",
     "worldTitle": "Las marcas más grandes del mundo trabajan con Rialtes para transformar sus procesos y automatizar sus negocios para aumentar el ROI.",
@@ -13,7 +14,8 @@
     "learnMore": "Saber más",
     "ourTitle": "Nuestra cultura y valores",
     "ourDesc": "Perseguir la perfección está en nuestro ADN.",
-    "latestServices": [
+   
+   "latestServices": [
       {
         "id": 1,
         "title": "Nuestros valores",
@@ -54,7 +56,7 @@
       {
         "image": "/images/about-us/trust.svg",
         "label": "Confianza",
-        "alt": "Ícono del principio de confianza",
+        "alt": "Ícono del principio de confianza", 
         "width": {
           "base": 135,
           "xl": 177

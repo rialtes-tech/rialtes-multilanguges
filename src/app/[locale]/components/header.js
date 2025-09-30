@@ -135,6 +135,8 @@ const Header = () => {
       label: t('productsTitle'),
       links: [
         { label: t('agentchatLabel'), href: '/products/agentchat' },
+         { label: 'MediAIna', href: '/products/mediaina-reimagining-patient-journeys/' },
+          { label: ' Exelona', href: '/products/exelona-salesforce-for-real-estate-management' },
       ],
     },
     {
@@ -632,7 +634,7 @@ const Header = () => {
                         <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('agentDesc2')}</p>
                         <Link href='/products/agentchat' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/agentchat")}>{t('letsBeginBtn')}</Link>
                       </div>
-                    </div>
+                    </div> 
                   </div>
                 )}
 
@@ -640,8 +642,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5"  >
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">Transform Patient Care—From Discovery to Recovery</div>
-                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">Powered by LifeAI+, Rialtes' consulting service dedicated to life sciences, MediAIana delivers intelligent, scalable, and compliant healthcare innovation at every stage of the patient journey.</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('mediainaDescrip')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('mediainaDes2')}</p>
                         <Link href='/products/mediaina-reimagining-patient-journeys/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/mediaina-reimagining-patient-journeys/")}
                         >Let's Begin</Link>
                       </div>
@@ -653,8 +655,8 @@ const Header = () => {
                   <div className="col-span-8 flex space-x-5"  >
                     <div>
                       <div className="border-b pb-5">
-                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">Exelona™ – Your End-to-End Real Estate Command Center</div>
-                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">Unites every stage of your property business—sales, operations, and finance into one AI-powered, mobile-ready platform, merging CRM and ERP for faster, smarter decisions.</p>
+                        <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('exelonaDescription')}</div>
+                        <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('exelonaDescription2')}</p>
                         <Link href='/products/exelona-salesforce-for-real-estate-management' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/exelona-salesforce-for-real-estate-management")}
                         >Let's Begin</Link>
                       </div>
@@ -1075,13 +1077,13 @@ const Header = () => {
                     <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Culture and Values" link="/about-us/our-values" onClick={(e) => handleLinkClick(e, "/about-us/our-values")} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px]  2xl:text-[15px]    xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Partnership" link="/about-us/global-alliances" onClick={(e) => handleLinkClick(e, "/about-us/global-alliances")} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="News and Press Releases" link="/insights/news" onClick={(e) => handleLinkClick(e, "/insights/news")} />
+                          <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('cultureLable')} link="/about-us/our-values" onClick={(e) => handleLinkClick(e, "/about-us/our-values")} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px]  2xl:text-[15px]    xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('partnershipLable')} link="/about-us/global-alliances" onClick={(e) => handleLinkClick(e, "/about-us/global-alliances")} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('newsLable')} link="/insights/news" onClick={(e) => handleLinkClick(e, "/insights/news")} />
                         </div>
                         <div>
-                          <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Corporate Citizenship" link="/about-us/impact-and-social-responsibility" onClick={(e) => handleLinkClick(e, "/about-us/impact-and-social-responsibility")} />
-                          <MenuItem className="font-bold text-[#2f78c4] mt-6  4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label=" Contact Us" link="/contact-us" onClick={(e) => handleLinkClick(e, "/contact-us")} />
+                          <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('corporateLable')} link="/about-us/impact-and-social-responsibility" onClick={(e) => handleLinkClick(e, "/about-us/impact-and-social-responsibility")} />
+                          <MenuItem className="font-bold text-[#2f78c4] mt-6  4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('contactusLable')} link="/contact-us" onClick={(e) => handleLinkClick(e, "/contact-us")} />
                         </div>
                         <div>
                         </div>
