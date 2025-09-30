@@ -176,7 +176,7 @@ export default function page() {
                         </div>
                     </div>
                     <div className="lg:col-span-7 xl:col-span-6 4xl:col-span-5 col-span-12">
-                        <p className="xl:text-[22px] text-[16px] leading-tight"  dangerouslySetInnerHTML={{ __html: t('pageDesc') }}>
+                        <p className="xl:text-[19px] 4xl:text-[22px] text-[16px]"  dangerouslySetInnerHTML={{ __html: t('pageDesc') }}>
 
                         </p>
                     </div>
@@ -263,7 +263,7 @@ export default function page() {
                             })
                         }
                         <div className="absolute max-md:left-0 md:right-0 bottom-[-100px]">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMore')}/>
                         </div>
                     </div>
                 </div>
@@ -303,7 +303,7 @@ export default function page() {
                                             </div>
                                         </div>
                                         <div className="xl:mt-[61px] mt-[44px]">
-                                            <LearnMore />
+                                            <LearnMore btnName={t('learnMore')}/>
                                         </div>
                                     </div>
                                     <div className="lg:order-2 order-1">
@@ -377,7 +377,7 @@ export default function page() {
                                 </p>
                                 <UnorderedList arrName={integrationData} ulClassName="list-disc xl:mt-[44px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="absolute md:mt-[40px] mt-[60px]">
-                                    <LearnMore />
+                                    <LearnMore btnName={t('learnMore')}/>
                                 </div>
                             </div>
                         </div>
@@ -406,7 +406,7 @@ export default function page() {
                                                 </p>
                                                 <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                                 <div className="md:mt-[83px] mt-[25px]">
-                                                    <LearnMore />
+                                                    <LearnMore btnName={t('learnMore')}/>
                                                 </div>
                                             </div>
                                             {/* image section */}
@@ -492,7 +492,7 @@ export default function page() {
                                                 </p>
                                                 <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                                 <div className="lg:mt-[60px] mt-[33px]">
-                                                    <LearnMore />
+                                                    <LearnMore btnName={t('learnMore')}/>
                                                 </div>
                                             </div>
                                         </div>
@@ -535,7 +535,7 @@ export default function page() {
                                 </h2>
                                 <UnorderedList arrName={whyRialtesData} ulClassName="list-disc xl:mt-[60px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="absolute xl:mt-[40px] lg:mt-[20px] sm:mt-[10px] mt-[20px]">
-                                    <LearnMore />
+                                    <LearnMore btnName={t('learnMore')}/>
                                 </div>
                             </div>
                         </div>

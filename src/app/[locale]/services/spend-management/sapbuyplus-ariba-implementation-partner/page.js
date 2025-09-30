@@ -119,10 +119,10 @@ export default function page() {
                         </div>
                     </div>
                     <div className="lg:mt-[53px] mt-[38px] lg:hidden block">
-                        <LearnMore />
+                        <LearnMore btnName={t('learnMore')} />
                     </div>
                     <div className="mt-[38px] hidden lg:block">
-                        <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                        <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMore')} />
                     </div>
                 </div>
             </section>
@@ -232,7 +232,7 @@ export default function page() {
                             <UnorderedList arrName={sapAribaIndirectData} ulClassName="list-disc pl-6 lg:mt-[26px] mt-[29px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]" />
                         </div>
                         <div className="lg:mt-[25px]">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMore')}/>
                         </div>
                     </div>
                 </div>
@@ -311,7 +311,7 @@ export default function page() {
                             <UnorderedList arrName={supplierAribaDirectData} ulClassName="list-disc pl-6 lg:mt-[26px] mt-[26px] w-[90%] sm:w-[80%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]" />
                         </div>
                         <div className="lg:mt-[76px]">
-                            <LearnMore />
+                            <LearnMore btnName={t('learnMore')}/>
                         </div>
                     </div>
                 </section>
@@ -494,7 +494,7 @@ export default function page() {
                                 <h3 className="text-[26px] leading-tight font-semibold xl:mt-[6px] 4xl:text-[40px] xl:text-[30px]">{t('agentChatSubTitle')}</h3>
                                 <p className="mt-[24px] text-[18px] leading-[22px] font-light xl:mt-[53px] 4xl:text-[22px] xl:text-[18px] lg:w-[80%]">{t('agentChatDesc')}</p>
                                 <div className="mt-[30px] xl:block hidden">
-                                    <LearnMore href="/products/agentchat" bgcolor="#006FBE" bordercolor="#006FBE" />
+                                    <LearnMore href="/products/agentchat" bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMore')}/>
                                 </div>
                             </div>
                             <div>
@@ -511,7 +511,7 @@ export default function page() {
                                     </ul>
                                 </div>
                                 <div className="my-[46px] xl:hidden block">
-                                    <LearnMore href="/products/agentchat" bgcolor="#006FBE" bordercolor="#006FBE" />
+                                    <LearnMore href="/products/agentchat" bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMore')}/>
                                 </div>
                             </div>
                         </div>
