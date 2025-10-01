@@ -142,8 +142,6 @@
   "yardiCaseStudy": {
     "headerTitle": "Socio confiable de YARDI para la PHA más grande de América del Norte",
     "publicTitle": "Sector Público",
-    "date": "27 de septiembre de 2024",
-    "read": "8 minutos de lectura",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Una destacada empresa de bienes raíces multifamiliares con sede en EE. UU., especializada en la adquisición, desarrollo y revalorización de propiedades residenciales y comerciales. Enfocada en la excelencia operativa y la creación de valor a largo plazo, la empresa se dedica a construir comunidades prósperas mientras maximiza los rendimientos para sus inversionistas.",
     "challengesTitle": "Desafíos",
@@ -200,8 +198,6 @@
   "automateCaseStudy": {
     "autoTitle": "Automatización del procesamiento de pedidos en el sector sanitario con MuleSoft",
     "healthcare": "Sanidad",
-    "date": "17 de noviembre de 2024",
-    "read": "8 min de lectura",
     "cliendTitle": "Perfil del cliente",
     "clientDesc": "Una empresa mundial de tecnología médica especializada en el desarrollo y la fabricación de productos innovadores para el diagnóstico, tratamiento y seguimiento de afecciones cardiovasculares y endovasculares. Su cartera incluye marcapasos, desfibriladores y sistemas de monitorización remota para pacientes con dispositivos implantados. La misión de la empresa es mejorar la calidad de vida de las personas con enfermedades del corazón y los vasos sanguíneos mediante tecnologías médicas avanzadas.",
     "companyTitle": "Problema o desafío",
@@ -249,64 +245,11 @@
       "Hasta un 40 % menos de discrepancias en pedidos, gracias a la validación automatizada y las actualizaciones en tiempo real.",
       "Gestión de pagos optimizada, lo que permite un procesamiento fluido de seguros, copagos y pagos directos.",
       "Mayor productividad: los equipos de ventas ahora pueden centrarse en el crecimiento, mientras que finanzas gestiona las transacciones con mayor eficiencia."
-    ],
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Salud",
-        "industry": "Bienes Raíces",
-        "date": "17 Nov 2024",
-        "title": "Automatización del Procesamiento de Pedidos en Salud con MuleSoft",
-        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores.",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Manufactura",
-        "industry": "Salud",
-        "date": "14 Oct 2024",
-        "title": "Transformación de la Gestión Omnicanal de Casos con Salesforce Service Cloud",
-        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Bienes Raíces",
-        "industry": "Manufactura",
-        "date": "04 Sept 2024",
-        "title": "Reducción del Tiempo de Inactividad para una Empresa de Bienes Raíces Multifamiliares Usando Servicios Gestionados de Yardi",
-        "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Manufactura",
-        "industry": "Comercio Minorista y Electrónico",
-        "date": "08 Ene 2025",
-        "title": "Transformación DevOps con Copado y Salesforce",
-        "description": "Un fabricante líder especializado en materiales innovadores para proyectos de construcción residenciales y comerciales.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Bienes Raíces",
-        "industry": "Alta Tecnología",
-        "date": "22 Dic 2024",
-        "title": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
-        "description": "Una empresa de bienes raíces multifamiliares con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
     ]
   },
   "digitizingCaseStudy": {
     "digitizingTitle": "Digitalización del viaje del paciente utilizando Salesforce Health Cloud",
     "healthcare": "Salud",
-    "read": "8 min de lectura",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Una empresa global de tecnología médica dedicada a mejorar vidas mediante cuidados cardiovasculares y endovasculares innovadores. La empresa diseña y fabrica marcapasos, desfibriladores y sistemas de monitoreo remoto utilizados por profesionales de la salud en todo el mundo. Su misión es respaldar mejores resultados para los pacientes combinando tecnología médica avanzada con experiencias digitales sin interrupciones.",
     "peoblemTitle": "Problema o Desafío",
@@ -368,65 +311,11 @@
         "title": "Educación en la App",
         "description": "Los pacientes podían acceder a videos y artículos para comprender sus condiciones y terapias. Los proveedores podían monitorear la participación con el contenido y entregar materiales de seguimiento personalizados."
       }
-    ],
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Salud",
-        "industry": "Bienes Raíces",
-        "date": "17 Nov 2024",
-        "title": "Automatización del procesamiento de pedidos en el sector salud usando MuleSoft",
-        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Manufactura",
-        "industry": "Salud",
-        "date": "14 Oct 2024",
-        "title": "Transformación de la gestión omnicanal de casos con Salesforce Service Cloud",
-        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Bienes Raíces",
-        "industry": "Manufactura",
-        "date": "04 Sept 2024",
-        "title": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar con servicios gestionados de Yardi",
-        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión de propiedades multifamiliares.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Manufactura",
-        "industry": "Retail y Comercio Electrónico",
-        "date": "08 Ene 2025",
-        "title": "Transformación DevOps con Copado y Salesforce",
-        "description": "Un fabricante líder especializado en materiales innovadores para proyectos de construcción residenciales y comerciales.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Bienes Raíces",
-        "industry": "Alta Tecnología",
-        "date": "22 Dic 2024",
-        "title": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona",
-        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión de propiedades multifamiliares.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
     ]
   },
   "empoweringCaseStudy": {
     "headerTitle": "150 pedidos al día, cero trabajo manual: Priorización de pedidos con autoservicio impulsada por Fiori",
     "manufacturing": "Fabricación",
-    "date": "28 de mayo de 2025",
-    "read": "8 min de lectura",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Nuestro cliente es un fabricante reconocido de productos para techos de alta calidad con una trayectoria basada en la innovación, la calidad y la sostenibilidad. Con un portafolio diverso que incluye tejas asfálticas, accesorios para techos, capas base e impermeabilización, atienden tanto al mercado residencial como al comercial. Respaldada por instalaciones de fabricación de última generación y una sólida red de distribución, la empresa es un socio de confianza para constructores, contratistas y propietarios en todo el país.",
     "challengesTitle": "Desafíos",
@@ -458,65 +347,11 @@
         "title": "Reducción de Errores",
         "description": "La eliminación de la entrada manual de datos disminuyó los errores en el procesamiento de pedidos en más del 80%, mejorando la precisión y ayudando a lograr una mejora del 15% en las métricas de entrega a tiempo y completas (OTIF), fundamentales para la cadena de suministro de la construcción."
       }
-    ],
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Salud",
-        "industry": "Bienes Raíces",
-        "date": "17 de noviembre de 2024",
-        "title": "Automatización del procesamiento de pedidos en salud usando MuleSoft",
-        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Fabricación",
-        "industry": "Salud",
-        "date": "14 de octubre de 2024",
-        "title": "Transformación de la gestión omnicanal de casos con Salesforce Service Cloud",
-        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Bienes Raíces",
-        "industry": "Fabricación",
-        "date": "04 de septiembre de 2024",
-        "title": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar con servicios gestionados de Yardi",
-        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Fabricación",
-        "industry": "Retail y Comercio Electrónico",
-        "date": "08 de enero de 2025",
-        "title": "Transformación DevOps utilizando Copado y Salesforce",
-        "description": "Un fabricante líder especializado en materiales innovadores para proyectos de construcción residenciales y comerciales.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Bienes Raíces",
-        "industry": "Alta Tecnología",
-        "date": "22 de diciembre de 2024",
-        "title": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona",
-        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
     ]
   },
   "leadingCaseStudy": {
     "leadingTitle": "Fabricante de Automóviles Líder Logró un Aumento del 35% en la Satisfacción del Cliente con AutoSense",
     "Automotive": "Automotriz",
-    "date": "30 Junio 2025",
-    "read": "8 minutos de lectura",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un destacado fabricante mundial de automóviles, reconocido por su innovación y vehículos de alto rendimiento, enfrentaba desafíos con su sistema de gestión de garantías heredado. El sistema, basado en un portal para concesionarios en Java/J2EE, se había vuelto engorroso, difícil de mantener y carecía de la flexibilidad necesaria para respaldar las necesidades comerciales cambiantes. El cliente necesitaba una solución moderna y completa para optimizar los reclamos de garantía, mejorar la interacción con los concesionarios y optimizar los procesos generales de gestión de garantías.",
     "keyTitle": "Desafíos Clave:",
@@ -644,64 +479,11 @@
         "title": "Proceso de Reclamos Ineficiente",
         "desc": "El proceso de reclamos de garantía era manual, propenso a errores y carecía de transparencia, lo que causaba demoras, aumentaba los costos y generaba clientes insatisfechos."
       }
-    ],
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Salud",
-        "industry": "Bienes Raíces",
-        "date": "17 Nov 2024",
-        "title": "Automatización del Procesamiento de Pedidos en Salud usando MuleSoft",
-        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores.",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Manufactura",
-        "industry": "Salud",
-        "date": "14 Oct 2024",
-        "title": "Transformación de la Gestión de Casos Omnicanal Usando Salesforce Service Cloud",
-        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Bienes Raíces",
-        "industry": "Manufactura",
-        "date": "04 Sept 2024",
-        "title": "Reducción del Tiempo de Inactividad para una Firma Inmobiliaria Multifamiliar Usando Servicios Administrados de Yardi",
-        "description": "Una firma inmobiliaria multifamiliar con sede en EE.UU. especializada en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Manufactura",
-        "industry": "Retail y Comercio Electrónico",
-        "date": "08 Ene 2025",
-        "title": "Transformación DevOps Usando Copado y Salesforce",
-        "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Bienes Raíces",
-        "industry": "Alta Tecnología",
-        "date": "22 Dic 2024",
-        "title": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
-        "description": "Una firma inmobiliaria multifamiliar con sede en EE.UU. especializada en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
     ]
   },
   "omnichannelCaseStudy": {
     "serviceTitle": "Transformación de la Gestión de Casos Omnicanal con Salesforce Service Cloud",
     "manufacturing": "Fabricación",
-    "read": "8 minutos de lectura",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un proveedor líder de semiconductores analógicos de alto rendimiento que impulsa la conectividad inalámbrica y por cable en diversas industrias. Sus principales ofertas, como amplificadores, filtros, interruptores y módulos integrados, respaldan transmisiones inalámbricas eficientes para smartphones, routers, dispositivos médicos, automóviles y más. Reconocido por su innovación, es un socio tecnológico clave en aplicaciones tanto de consumo como industriales a nivel mundial.",
     "problemTitle": "Problema o Desafío",
@@ -766,8 +548,6 @@
   "optimizingCaseStudy": {
     "salesTitle": "Optimización de Ventas con Salesforce Sales Cloud para la Manufactura",
     "manufacturing": "Fabricación",
-    "date": "26 de marzo de 2025",
-    "read": "8 min de lectura",
     "clientTitle": "Descripción del Cliente",
     "clientDesc": "La empresa es un fabricante líder especializado en equipos de tratamiento de agua personalizados. Cada producto está diseñado de manera única según los requisitos específicos del cliente, lo que significa que no hay dos productos iguales. Su equipo de ventas está compuesto por ingenieros que se encargan tanto de las ventas como de las especificaciones técnicas para satisfacer las necesidades del cliente. La complejidad del proceso de ventas requiere una solución sólida que maximice el rendimiento comercial, mejore la interacción con el cliente y se integre perfectamente con los sistemas ERP existentes.",
     "problemTitle": "Problema o Desafío",
@@ -854,8 +634,6 @@
   "realForceCaseStudy": {
     "autoTitle": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
     "realEstate": "Bienes Raíces",
-    "date": "22 de diciembre de 2024",
-    "read": "8 minutos de lectura",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Una destacada firma de inversión inmobiliaria multifamiliar con sede en EE. UU., enfocada en adquisiciones, desarrollo y excelencia operativa. Con una cartera de propiedades residenciales en todo el país, la misión de la empresa es construir comunidades prósperas para los residentes mientras genera sólidos retornos para los inversionistas.",
     "problemTitle": "Problema o Desafío",
@@ -863,58 +641,6 @@
     "solutionTitle": "Soluciones",
     "solutionDesc": "Rialtes modernizó las operaciones ACH y de asientos contables del cliente implementando un Módulo Bancario Exelona personalizado, construido sobre la Plataforma Salesforce Einstein 1. Los componentes clave de la solución incluyeron:",
     "benefitsTitle": "Beneficios",
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Cuidado de la salud",
-        "industry": "Bienes raíces",
-        "date": "17 Nov 2024",
-        "title": "Automatización del procesamiento de pedidos en el sector salud utilizando MuleSoft",
-        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores.",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Manufactura",
-        "industry": "Cuidado de la salud",
-        "date": "14 Oct 2024",
-        "title": "Transformación de la gestión de casos omnicanal utilizando Salesforce Service Cloud",
-        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Bienes raíces",
-        "industry": "Manufactura",
-        "date": "04 Sept 2024",
-        "title": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar utilizando servicios gestionados de Yardi",
-        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. que se especializa en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Manufactura",
-        "industry": "Comercio minorista y comercio electrónico",
-        "date": "08 Ene 2025",
-        "title": "Transformación de DevOps utilizando Copado y Salesforce",
-        "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos de construcción residenciales y comerciales.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Bienes raíces",
-        "industry": "Alta tecnología",
-        "date": "22 Dic 2024",
-        "title": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona",
-        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. que se especializa en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
-    ],
     "problemList": [
       {
         "title": "Procesos Manuales",
@@ -968,8 +694,6 @@
   "autoSenseCaseStudy": {
     "dealerTitle": "Impulsando la Gestión de Concesionarios con AutoSense de Rialtes",
     "manufacturing": "Fabricación",
-    "date": "03 de junio de 2025",
-    "read": "8 min de lectura",
     "cliendTitle": "Descripción del Cliente:",
     "cliendDesc": "Un reconocido fabricante automotriz global, conocido por sus vehículos de vanguardia, enfrentaba importantes desafíos con su portal de concesionarios obsoleto. Construido sobre un marco heredado de .NET, el portal no lograba mantenerse al día con las necesidades empresariales modernas, lo que obstaculizaba la participación de los concesionarios, los procesos de ventas y la eficiencia operativa. El cliente buscaba una solución potente y escalable para optimizar las interacciones con los concesionarios, agilizar los flujos de trabajo y mejorar el rendimiento general en su vasta red de concesionarios a nivel mundial.",
     "keyTitle": "Principales Desafíos:",
@@ -1096,8 +820,6 @@
   "salesForceCaseStudy": {
     "salesforceTitle": "Digitalización de la Autorización Previa para Mejores Resultados en Pacientes",
     "healthcare": "Salud",
-    "date": "02 de agosto de 2024",
-    "read": "8 min de lectura",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un líder global en tecnología médica que diseña y fabrica productos cardiovasculares y endovasculares que salvan vidas, como marcapasos, desfibriladores y sistemas de monitoreo remoto de pacientes. La misión de la empresa es mejorar y prolongar la vida de pacientes con enfermedades cardíacas y vasculares mediante innovación avanzada y atención centrada en el paciente.",
     "problemTitle": "Problema o Desafío",
@@ -1144,8 +866,6 @@
   "devopsCaseStudy": {
     "devopsTitle": "Transformación DevOps usando Copado y Salesforce",
     "manufacturing": "Manufactura",
-    "date": "08 de enero de 2025",
-    "read": "8 min de lectura",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un fabricante destacado especializado en materiales de construcción innovadores para proyectos residenciales y comerciales. Su portafolio de productos incluye tejas para techos, terrazas, barandillas y soluciones de impermeabilización. La empresa está comprometida en apoyar a contratistas, constructores y propietarios para mejorar la durabilidad, el rendimiento y el atractivo visual de las edificaciones.",
     "problemTitle": "Problema o Desafío",
@@ -1200,66 +920,12 @@
       "La integración con GitHub brindó trazabilidad y transparencia completas en todos los entornos, reduciendo conflictos de código y mejorando la preparación para auditorías.",
       "Con herramientas centralizadas y flujos de trabajo automatizados, los equipos de desarrollo y QA dedicaron menos tiempo a tareas repetitivas, aumentando la productividad del equipo DevOps en un 40%.",
       "Menos errores de implementación llevaron a un mayor tiempo de actividad de los entornos y menos retrocesos, asegurando un entorno de producción más estable."
-    ],
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Salud",
-        "industry": "Bienes Raíces",
-        "date": "17 de noviembre de 2024",
-        "title": "Automatización del Procesamiento de Pedidos en Salud usando MuleSoft",
-        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores.",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Manufactura",
-        "industry": "Salud",
-        "date": "14 de octubre de 2024",
-        "title": "Transformación de la Gestión de Casos Omnicanal usando Salesforce Service Cloud",
-        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Bienes Raíces",
-        "industry": "Manufactura",
-        "date": "04 de septiembre de 2024",
-        "title": "Reducción del Tiempo de Inactividad para una Empresa de Bienes Raíces Multifamiliares usando Servicios Gestionados de Yardi",
-        "description": "Una empresa de bienes raíces multifamiliares con sede en EE.UU. especializada en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Manufactura",
-        "industry": "Venta Minorista y Comercio Electrónico",
-        "date": "08 de enero de 2025",
-        "title": "Transformación DevOps usando Copado y Salesforce",
-        "description": "Un fabricante líder especializado en materiales innovadores para construcción residencial y comercial.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Bienes Raíces",
-        "industry": "Alta Tecnología",
-        "date": "22 de diciembre de 2024",
-        "title": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
-        "description": "Una empresa de bienes raíces multifamiliares con sede en EE.UU. especializada en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
     ]
   },
   "mobileCaseStudy": {
     "claimTitle": "Reclamo en 4 minutos: Rialtes crea un portal móvil para transformar la experiencia de reclamaciones",
     "manufacturing": "Fabricación",
-    "date": "30 mayo 2025",
-    "read": "8 min de lectura",
-    "clientTitle": "Perfil del Cliente",
+     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un fabricante líder de soluciones de techado de alta calidad diseñadas para proteger lo que más importa. Especializados en productos duraderos e innovadores para espacios residenciales y comerciales, ofrecen una gama de tejas asfálticas, bases para techos, soluciones de impermeabilización y materiales compuestos para una protección y estética superiores.",
     "challengesTitle": "Desafíos",
     "challengesDesc": "Los clientes de nuestro cliente tenían dificultades para presentar reclamaciones de garantía desde sus dispositivos móviles, lo que les obligaba a utilizar computadoras de escritorio, un proceso incómodo y frustrante. Los clientes tenían que buscar apoyo adicional para completar sus reclamaciones. La falta de accesibilidad móvil provocaba retrasos, ineficiencias y un aumento en las solicitudes de soporte, lo que reducía la satisfacción del cliente y sobrecargaba las operaciones.",
@@ -1275,65 +941,11 @@
       "La conveniencia del acceso móvil impulsó un aumento del 35% en las reclamaciones presentadas, mostrando mayor compromiso y uso.",
       "La retroalimentación de los usuarios mostró una mejora del 25% en los puntajes de satisfacción, directamente vinculada a un procesamiento más rápido y facilidad de acceso.",
       "La menor dependencia del soporte manual liberó a los equipos internos, reduciendo a la mitad el tiempo de manejo de reclamaciones y mejorando las tasas de respuesta."
-    ],
-    "slides": [
-      {
-        "id": 3,
-        "image": "/images/case-studies/case study 1_thumb_n.webp",
-        "category": "Cuidado de la salud",
-        "industry": "Bienes raíces",
-        "date": "17 Nov 2024",
-        "title": "Automatización del procesamiento de pedidos en el cuidado de la salud utilizando MuleSoft",
-        "description": "Una empresa mundial de tecnología médica que desarrolla y fabrica productos innovadores.",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/case-study-4_thumb.webp",
-        "category": "Fabricación",
-        "industry": "Cuidado de la salud",
-        "date": "14 Oct 2024",
-        "title": "Transformación de la gestión de casos omnicanal utilizando Salesforce Service Cloud",
-        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable.",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/case-study-6_thumb.webp",
-        "category": "Bienes raíces",
-        "industry": "Fabricación",
-        "date": "04 Sept 2024",
-        "title": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar utilizando servicios gestionados de Yardi",
-        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/yardi-managed-services"
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "category": "Fabricación",
-        "industry": "Venta minorista y comercio electrónico",
-        "date": "08 Ene 2025",
-        "title": "Transformación de DevOps utilizando Copado y Salesforce",
-        "description": "Un fabricante líder especializado en la creación de materiales innovadores para proyectos de construcción residencial y comercial.",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "category": "Bienes raíces",
-        "industry": "Alta tecnología",
-        "date": "22 Dic 2024",
-        "title": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona",
-        "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión en propiedades multifamiliares.",
-        "url": "insights/case-studies/realForce-banking-module-ach"
-      }
     ]
   },
   "warrantyClaimCaseStudy": {
     "warrantyTitle": "40% de Aumento en la Adopción de la Aplicación de Garantías Usando la Funcionalidad de Salesforce Experience Cloud",
     "manufacturing": "Fabricación",
-    "date": "10 de junio de 2025",
-    "read": "Lectura de 8 min",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un fabricante líder de productos para techos, reconocido por su innovación y calidad. Con décadas de experiencia, se especializa en tejas asfálticas, accesorios para techos, soluciones de impermeabilización y revestimientos para uso residencial y comercial. Comprometidos con la sostenibilidad, invierten en tecnologías avanzadas de fabricación y mantienen una amplia red de distribución, asegurando que constructores, contratistas y propietarios tengan acceso a soluciones de techado de primera calidad.",
     "challengesTitle": "Desafíos",
@@ -1355,8 +967,6 @@
   "yardiManageCaseStudy": {
     "yardiTitle": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar mediante servicios gestionados de Yardi",
     "realEstate": "Bienes Raíces",
-    "date": "04 septiembre 2024",
-    "read": "8 min de lectura",
     "clientProfile": "Perfil del Cliente",
     "clientDesc": "Una destacada empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la adquisición, desarrollo y revalorización de propiedades residenciales y comerciales. Centrada en la excelencia operativa y la creación de valor a largo plazo, la empresa se dedica a construir comunidades prósperas mientras maximiza el retorno para sus inversores.",
     "businessTitle": "Desafío Empresarial",

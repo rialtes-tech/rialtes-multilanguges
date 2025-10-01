@@ -66,25 +66,25 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-         <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
-       <div className="hidden lg:block"> 
-         <Image
-          src="/images/case-studies/case-study-7.webp"
-          alt="Digitizing patient journey using Salesforce health cloud"
-          fill
-          style={{ objectFit: "cover", objectPosition: "40% 20%" }}
-          priority
-        />
-       </div>
+      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] h-[350px] sm:h-[500px] lg:h-[650px] overflow-hidden">
+        <div className="hidden lg:block">
+          <Image
+            src="/images/case-studies/case-study-7.webp"
+            alt="Digitizing patient journey using Salesforce health cloud"
+            fill
+            style={{ objectFit: "cover", objectPosition: "40% 20%" }}
+            priority
+          />
+        </div>
         <div className="block lg:hidden">
-         <Image
-          src="/images/case-studies/case-study-7_thumb.webp"
-          alt="Digitizing patient journey using Salesforce health cloud"
-          fill
-          style={{ objectFit: "cover", objectPosition: "40% 20%" }}
-          priority
-        />
-       </div>
+          <Image
+            src="/images/case-studies/case-study-7_thumb.webp"
+            alt="Digitizing patient journey using Salesforce health cloud"
+            fill
+            style={{ objectFit: "cover", objectPosition: "40% 20%" }}
+            priority
+          />
+        </div>
       </section>
       <section className="custom-container">
         <div className="py-10 bg-white  xl:max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[800px]">
@@ -101,48 +101,48 @@ export default function Page() {
                 <span className="text-[#ACACAC]"> | </span>
                 16 August 2024
               </div>
-             
-                   <div className="flex flex-col ml-[-8px]">
-              <div className="flex flex-row gap-6">
-                <div className="max-w-[40px]">
-                  <a
-                    href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Image
-                      src="/images/case-studies/linkedin.svg"
-                      alt="LinkedIn"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                      priority
-                    />
-                  </a>
-                </div>
 
-                <div className="max-w-[40px]">
-                  <a
-                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >                      <Image
-                      src="/images/case-studies/twitter.svg"
-                      alt="Twitter"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                      priority
-                    />
-                  </a>
+              <div className="flex flex-col ml-[-8px]">
+                <div className="flex flex-row gap-6">
+                  <div className="max-w-[40px]">
+                    <a
+                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Image
+                        src="/images/case-studies/linkedin.svg"
+                        alt="LinkedIn"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        priority
+                      />
+                    </a>
+                  </div>
+
+                  <div className="max-w-[40px]">
+                    <a
+                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >                      <Image
+                        src="/images/case-studies/twitter.svg"
+                        alt="Twitter"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        priority
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-            </div>
             <div className="pt-4"></div>
-          
+
           </div>
 
 
