@@ -23,7 +23,7 @@
       {
         "id": 13,
         "image": "/images/case-studies/Adaptis_featured CS.webp",
-        "industry": "Fabricación",
+        "industry": "Manufactura",
         "date": "10 Jun 2025",
         "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud",
         "title": "40% de aumento en la adopción de la aplicación de garantías usando Salesforce Experience Cloud",
@@ -32,7 +32,7 @@
       {
         "id": 12,
         "image": "/images/case-studies/revolutionary-filter.webp",
-        "industry": "Fabricación",
+        "industry": "Manufactura",
         "date": "03 Jun 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense",
         "title": "Impulsando la gestión de concesionarios con AutoSense de Rialtes",
@@ -41,7 +41,7 @@
       {
         "id": 11,
         "image": "/images/case-studies/adaptis-for-carousel.webp",
-        "industry": "Fabricación",
+        "industry": "Manufactura",
         "date": "30 May 2025",
         "url": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud",
         "title": "Reclamo en 4 minutos: Rialtes construye un portal móvil para transformar la experiencia de reclamos",
@@ -50,7 +50,7 @@
       {
         "id": 1,
         "image": "/images/case-studies/fiory-carosel.webp",
-        "industry": "Fabricación",
+        "industry": "Manufactura",
         "date": "28 May 2025",
         "url": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori",
         "title": "150 pedidos al día, cero trabajo manual: priorización de pedidos con Fiori y autoservicio",
@@ -59,7 +59,7 @@
       {
         "id": 2,
         "image": "/images/case-studies/carosel.webp",
-        "industry": "Fabricación",
+        "industry": "Manufactura",
         "date": "26 Mar 2025",
         "url": "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company",
         "title": "Optimizando las ventas con Salesforce Sales Cloud para manufactura",
@@ -68,7 +68,7 @@
       {
         "id": 3,
         "image": "/images/case-studies/case study 3_thumb_n.webp",
-        "industry": "Fabricación",
+        "industry": "Manufactura",
         "date": "08 Jan 2025",
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
         "title": "Transformación de DevOps con Copado y Salesforce",
@@ -77,7 +77,7 @@
       {
         "id": 4,
         "image": "/images/case-studies/case-study-2_thumb_n.webp",
-        "industry": "Bienes raíces",
+        "industry": "Bienes Raíces",
         "date": "22 Dec 2024",
         "url": "/insights/case-studies/realForce-banking-module-ach",
         "title": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona",
@@ -113,7 +113,7 @@
       {
         "id": 8,
         "image": "/images/case-studies/case-study-6_thumb.webp",
-        "industry": "Bienes raíces",
+        "industry": "Bienes Raíces",
         "date": "04 Sep 2024",
         "url": "/insights/case-studies/yardi-managed-services",
         "title": "Reducción del tiempo de inactividad para una firma inmobiliaria multifamiliar con Yardi Managed Services",
@@ -197,7 +197,7 @@
   },
   "automateCaseStudy": {
     "autoTitle": "Automatización del procesamiento de pedidos en el sector sanitario con MuleSoft",
-    "healthcare": "Sanidad",
+    "healthcare": "Salud",
     "cliendTitle": "Perfil del cliente",
     "clientDesc": "Una empresa mundial de tecnología médica especializada en el desarrollo y la fabricación de productos innovadores para el diagnóstico, tratamiento y seguimiento de afecciones cardiovasculares y endovasculares. Su cartera incluye marcapasos, desfibriladores y sistemas de monitorización remota para pacientes con dispositivos implantados. La misión de la empresa es mejorar la calidad de vida de las personas con enfermedades del corazón y los vasos sanguíneos mediante tecnologías médicas avanzadas.",
     "companyTitle": "Problema o desafío",
@@ -315,7 +315,7 @@
   },
   "empoweringCaseStudy": {
     "headerTitle": "150 pedidos al día, cero trabajo manual: Priorización de pedidos con autoservicio impulsada por Fiori",
-    "manufacturing": "Fabricación",
+    "manufacturing": "Manufactura",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Nuestro cliente es un fabricante reconocido de productos para techos de alta calidad con una trayectoria basada en la innovación, la calidad y la sostenibilidad. Con un portafolio diverso que incluye tejas asfálticas, accesorios para techos, capas base e impermeabilización, atienden tanto al mercado residencial como al comercial. Respaldada por instalaciones de fabricación de última generación y una sólida red de distribución, la empresa es un socio de confianza para constructores, contratistas y propietarios en todo el país.",
     "challengesTitle": "Desafíos",
@@ -483,7 +483,7 @@
   },
   "omnichannelCaseStudy": {
     "serviceTitle": "Transformación de la Gestión de Casos Omnicanal con Salesforce Service Cloud",
-    "manufacturing": "Fabricación",
+    "manufacturing": "Manufactura",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un proveedor líder de semiconductores analógicos de alto rendimiento que impulsa la conectividad inalámbrica y por cable en diversas industrias. Sus principales ofertas, como amplificadores, filtros, interruptores y módulos integrados, respaldan transmisiones inalámbricas eficientes para smartphones, routers, dispositivos médicos, automóviles y más. Reconocido por su innovación, es un socio tecnológico clave en aplicaciones tanto de consumo como industriales a nivel mundial.",
     "problemTitle": "Problema o Desafío",
@@ -547,7 +547,7 @@
   },
   "optimizingCaseStudy": {
     "salesTitle": "Optimización de Ventas con Salesforce Sales Cloud para la Manufactura",
-    "manufacturing": "Fabricación",
+    "manufacturing": "Manufactura",
     "clientTitle": "Descripción del Cliente",
     "clientDesc": "La empresa es un fabricante líder especializado en equipos de tratamiento de agua personalizados. Cada producto está diseñado de manera única según los requisitos específicos del cliente, lo que significa que no hay dos productos iguales. Su equipo de ventas está compuesto por ingenieros que se encargan tanto de las ventas como de las especificaciones técnicas para satisfacer las necesidades del cliente. La complejidad del proceso de ventas requiere una solución sólida que maximice el rendimiento comercial, mejore la interacción con el cliente y se integre perfectamente con los sistemas ERP existentes.",
     "problemTitle": "Problema o Desafío",
@@ -693,7 +693,7 @@
   },
   "autoSenseCaseStudy": {
     "dealerTitle": "Impulsando la Gestión de Concesionarios con AutoSense de Rialtes",
-    "manufacturing": "Fabricación",
+    "manufacturing": "Manufactura",
     "cliendTitle": "Descripción del Cliente:",
     "cliendDesc": "Un reconocido fabricante automotriz global, conocido por sus vehículos de vanguardia, enfrentaba importantes desafíos con su portal de concesionarios obsoleto. Construido sobre un marco heredado de .NET, el portal no lograba mantenerse al día con las necesidades empresariales modernas, lo que obstaculizaba la participación de los concesionarios, los procesos de ventas y la eficiencia operativa. El cliente buscaba una solución potente y escalable para optimizar las interacciones con los concesionarios, agilizar los flujos de trabajo y mejorar el rendimiento general en su vasta red de concesionarios a nivel mundial.",
     "keyTitle": "Principales Desafíos:",
@@ -924,8 +924,8 @@
   },
   "mobileCaseStudy": {
     "claimTitle": "Reclamo en 4 minutos: Rialtes crea un portal móvil para transformar la experiencia de reclamaciones",
-    "manufacturing": "Fabricación",
-     "clientTitle": "Perfil del Cliente",
+    "manufacturing": "Manufactura",
+    "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un fabricante líder de soluciones de techado de alta calidad diseñadas para proteger lo que más importa. Especializados en productos duraderos e innovadores para espacios residenciales y comerciales, ofrecen una gama de tejas asfálticas, bases para techos, soluciones de impermeabilización y materiales compuestos para una protección y estética superiores.",
     "challengesTitle": "Desafíos",
     "challengesDesc": "Los clientes de nuestro cliente tenían dificultades para presentar reclamaciones de garantía desde sus dispositivos móviles, lo que les obligaba a utilizar computadoras de escritorio, un proceso incómodo y frustrante. Los clientes tenían que buscar apoyo adicional para completar sus reclamaciones. La falta de accesibilidad móvil provocaba retrasos, ineficiencias y un aumento en las solicitudes de soporte, lo que reducía la satisfacción del cliente y sobrecargaba las operaciones.",
@@ -945,7 +945,7 @@
   },
   "warrantyClaimCaseStudy": {
     "warrantyTitle": "40% de Aumento en la Adopción de la Aplicación de Garantías Usando la Funcionalidad de Salesforce Experience Cloud",
-    "manufacturing": "Fabricación",
+    "manufacturing": "Manufactura",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un fabricante líder de productos para techos, reconocido por su innovación y calidad. Con décadas de experiencia, se especializa en tejas asfálticas, accesorios para techos, soluciones de impermeabilización y revestimientos para uso residencial y comercial. Comprometidos con la sostenibilidad, invierten en tecnologías avanzadas de fabricación y mantienen una amplia red de distribución, asegurando que constructores, contratistas y propietarios tengan acceso a soluciones de techado de primera calidad.",
     "challengesTitle": "Desafíos",

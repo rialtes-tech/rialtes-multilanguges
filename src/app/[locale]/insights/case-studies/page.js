@@ -236,8 +236,6 @@ export default function Page() {
 
     const CustomDot = ({ onClick, ...rest }) => {
       const {
-        onMove,
-        index,
         active,
         carouselState: { currentSlide, deviceType }
       } = rest;

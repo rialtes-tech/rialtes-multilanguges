@@ -257,8 +257,6 @@ export default function Page() {
 
     const CustomDot = ({ onClick, ...rest }) => {
       const {
-        onMove,
-        index,
         active,
         carouselState: { currentSlide, deviceType }
       } = rest;
@@ -303,7 +301,7 @@ export default function Page() {
           >
             {slides.map((slide) => (
               <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full">
-                <div className="basis-full  xl:h-[500px]">
+                <div className="basis-full lg:h-[320px] xl:h-[420px] 2xl:h-[500px]">
                   <Link href={'/insights/blogs' + slide.url}>
                     <Image
                       src={slide.image}

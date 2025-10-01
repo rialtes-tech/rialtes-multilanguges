@@ -178,7 +178,7 @@ export default function InsightsPage() {
                   <div className="text-[#0092E0] text-sm font-medium pr-3 max-[400px]:border-0 border-r xl:border-r-0 2xl:border-r border-gray-500">
                     SAP
                   </div>
-                  <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">26 Aug 2025</div>
+                  <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">Aug. 26, 2025</div>
                 </div>
                 <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                   SAP PI PO to SAP CPI Migration: A Complete Guide
@@ -243,7 +243,7 @@ export default function InsightsPage() {
                     <div className="text-[#0092E0] text-sm font-medium pr-3 max-[400px]:border-0 border-r xl:border-r-0 2xl:border-r border-gray-500">
                       Artificial Intelligence
                     </div>
-                    <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">09 Sept. 2025</div>
+                    <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">Sep. 09, 2025</div>
                   </div>
                   <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                     AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring
@@ -309,7 +309,7 @@ export default function InsightsPage() {
                     <div className="text-[#0092E0] text-sm font-medium pr-3 max-[400px]:border-0 border-r xl:border-r-0 2xl:border-r border-gray-500">
                       Artificial Intelligence
                     </div>
-                    <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">02 Sept. 2025</div>
+                    <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">Sep. 02, 2025</div>
                   </div>
                   <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                     Build and Deploy Your First AI Agent Using Agentforce
@@ -406,7 +406,7 @@ export default function InsightsPage() {
                     <div className="text-[#0092E0] text-sm font-medium pr-3 max-[400px]:border-0 border-r xl:border-r-0 2xl:border-r border-gray-500">
                       Education Cloud
                     </div>
-                    <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">21 August 2025</div>
+                    <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">Aug. 21, 2025</div>
                   </div>
                   <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
                     Transforming Student Success with Salesforce Education Cloud and Edu+
