@@ -9,6 +9,9 @@ import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/[locale]/components/useUrl";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -40,6 +43,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('brainBehind')
   const locale = useLocale();
+   const currUrl = useUrl()
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { blogs, commonData, atlasData } = blogsContent.brainBehind;
   const fullUrl = "https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce";
@@ -74,9 +78,9 @@ export default function Page() {
 
         <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
           <div>
-            <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-4xl xl:w-4/2">
+            <div className="flex flex-col md:flex-row justify-between text-black  max-w-4xl xl:w-4/2">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>{t('blogDate')}
+                <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>21 Oct 2024
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -163,7 +167,7 @@ export default function Page() {
       </section>
       {/* Latest Blogs */}
       <div className="custom-container lg:pr-0 pb-10">
-        <BlogsCarousel slides={blogs} />
+        <FilteredBlogCarousel url={currUrl} />
       </div>
     </div>
   );

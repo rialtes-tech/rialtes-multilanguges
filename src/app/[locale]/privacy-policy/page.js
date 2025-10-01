@@ -45,7 +45,7 @@ export default function Page() {
 
       <section className="custom-container pt-[40px] pb-[80px]">
         <div className="grid lg:grid-cols-12">
-          <div className="4xl:col-span-9 xl:col-span-10 lg:col-span-11">
+          <div className="xl:col-span-12">
             <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t('headerTitle')}</h1>
             <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('headerDate')}March 19, 2025.</p>
             <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">

@@ -529,6 +529,9 @@
     "headerSubTitle1": "Avanzando hacia",
     "headerSubTitle2": "un mejor mañana.",
     "headerSubTitle3": "Aprovechando los servicios de consultoría SAP para operaciones comerciales confiables.",
+    "KnowMore":"Saber más",
+    "learnMore": "Aprender más",
+
     "solutionSuccess": [
       {
         "id": 1,
@@ -778,6 +781,7 @@
     "contactTitle": "¿Listo para modernizar Oracle EBS en tu negocio?"
   },
   "sapCpi": {
+    "learnMore": "Aprender más",
     "thoughtLeadershipData": [
       "Sistemas desconectados y silos de datos que limitan la agilidad.",
       "Procesos manuales que consumen recursos y provocan errores.",
@@ -1316,6 +1320,7 @@
     "servicesTitle": "Nuestros servicios de integración MuleSoft atienden a una amplia gama de industrias",
     "driveTitle": "Impulsar Resultados Empresariales Medibles",
     "contactTitle": "Dé el siguiente paso hacia la excelencia operativa con los Servicios de Integración MuleSoft",
+    "learnMore": "Aprender más",
     "pointsData": [
       "Aproveche el poder de la integración para optimizar flujos de trabajo robustos",
       "Ofrezca experiencias excepcionales al cliente",
