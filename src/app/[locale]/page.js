@@ -81,11 +81,11 @@ const Home = () => {
         <div>
             <Head>
                 <link rel="icon" href="/images/homepage/Rialtes symbol 1.jpg" />
-            </Head>
+            </Head> 
 
             <Seo
-                title="IT Services and IT Consulting Company | Rialtes"
-                description="Unlock success with Rialtes’ IT services and IT consulting. Powered by AI innovation, we drive efficiency, elevate performance, and fuel sustainable growth."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/"}
             />

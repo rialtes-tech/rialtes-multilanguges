@@ -374,6 +374,8 @@
     },
     "kinaxis": {
         "headerTitle": "DemandPlus",
+          "learnMoreBtn": "Learn More",
+          "knowMoreBtn": "Know More",
         "headerSubTitle": "Transform Your Supply Chain with Rialtes ‘DemandPlus’ for Kinaxis RapidResponse",
         "pageDescTitle": "Agility, Accuracy, and Resilience in Supply Chain — Powered by Kinaxis and Rialtes",
         "pageDesc1": "In today’s volatile and complex supply chain landscape, businesses need real-time visibility, agile planning, and predictive insights to stay competitive. Rialtes’ DemandPlus Services, built around Kinaxis RapidResponse, deliver end-to-end supply chain transformation, enabling companies to plan, monitor, and respond to supply chain dynamics in real-time.",

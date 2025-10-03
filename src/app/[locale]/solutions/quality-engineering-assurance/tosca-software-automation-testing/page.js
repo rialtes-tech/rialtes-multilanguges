@@ -362,7 +362,7 @@ export default function DemandPlusSection() {
           </div>
         </div>
       </section>
-      <section className="custom-container xl:px-0 4xl:pl-[280px] 4xl:pr-[398px] xl:pl-[200px] xl:pr-[220px] max-[350px]:mt-[900px] max-[390px]:mt-[890px] max-[375px]:mt-[890px] max-sm:mt-[770px]  sm:mt-[37rem] md:mt-[36rem] lg:mt-[32rem]  xl:mt-0 4xl:mt-0">
+      <section className="custom-container xl:px-0 4xl:pl-[280px] 4xl:pr-[398px] xl:pl-[200px] xl:pr-[220px] max-[350px]:mt-[900px] max-[390px]:mt-[890px] max-[375px]:mt-[890px] max-sm:mt-[815px]  sm:mt-[37rem] md:mt-[36rem] lg:mt-[32rem]  xl:mt-0 4xl:mt-0">
         <div className={`bg-[#073259] p-8 relative
          ${locale === "es"
             ? "4xl:mt-[460px] xl:mt-[420px] 2xl:mt-[350px]"

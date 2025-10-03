@@ -359,10 +359,10 @@ export default function Page() {
                         <div className="4xl:mt-[40rem]  xl:mt-[29rem] xl:ml-[5rem] 4xl:ml-0 2xl:mt-[32rem]">
                             <h2 className={`text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight pr-10 xl:pr-0 4xl:pr-0
                                ${locale === "es"
-                                    ? "mt-[15rem] xxs:mt-[14rem] xs:mt-[18rem] md:mt-[38rem] lg:mt-[48rem]"
+                                    ? "mt-[15rem] xxs:mt-[14rem] xs:mt-[18rem] md:mt-[38rem] 4xl:mt-0 2xl:mt-0 xl:mt-0"
                                     : locale === "fr"
-                                        ? "mt-[15rem] xxs:mt-[14rem] xs:mt-[18rem] md:mt-[38rem] lg:mt-[48rem]"
-                                        : "mt-[15rem] xxs:mt-[14rem] xs:mt-[18rem] md:mt-[38rem] lg:mt-[48rem]"
+                                        ? "mt-[15rem] xxs:mt-[14rem] xs:mt-[18rem] md:mt-[38rem] 4xl:mt-0 2xl:mt-0 xl:mt-0"
+                                        : "mt-[15rem] xxs:mt-[14rem] xs:mt-[18rem] md:mt-[38rem] 4xl:mt-0 2xl:mt-0 xl:mt-0"
                                 }`}
                 >
                                 {t('reimaginTitle')}

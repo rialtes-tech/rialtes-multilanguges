@@ -1,7 +1,5 @@
 "use client";
-// pages/case-study-detail.js
 import Image from "next/image";
-import RelatedTopicsCarousel from "../../../components/relatedTopicsCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import { HeroSection } from "@/app/[locale]/components/herosection";
 import Script from "next/script";
@@ -11,6 +9,9 @@ import enContent from "../../../../../../messages/en/caseStudy.json";
 import esContent from "../../../../../../messages/es/caseStudy.json";
 import frContent from "../../../../../../messages/fr/caseStudy.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import useUrl from "@/app/[locale]/components/useUrl";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -42,16 +43,16 @@ const schemaData = {
 };
 
 export default function Page() {
+  const currUrl = useUrl()
   const t = useTranslations("empoweringCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { slides, solutionsList, benifitList } = Content.empoweringCaseStudy;
+  const { solutionsList, benifitList } = Content.empoweringCaseStudy;
 
-  const fullUrl =
-    "https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori";
+  const fullUrl = "https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori";
 
   return (
-    <div className="min-h-screen bg-white">
+    <section className="min-h-screen">
       <Seo
         title="SAP Fiori for Sales Order Prioritization in Manufacturing | Rialtes"
         description="Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy."
@@ -65,139 +66,83 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <HeroSection
-        mobimg="/images/case-studies/Sample and literature Request_Case study Mobile banner.webp"
-        deskimg="/images/case-studies/fiori-banner.webp"
-      />
+      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[380px] overflow-hidden">
+        <div className="xl:block hidden">
+          <Image
+            src="/images/case-studies/Sample and literature Request_Case study Mobile banner.webp"
+            alt="banner image"
+            fill
+            priority
+            className="w-full h-full object-cover object-[90%_20%]"
+          />
+        </div>
+        <div className="xl:hidden block h-full">
+          <Image
+            src="/images/case-studies/Sample and literature Request_Case study Mobile banner.webp"
+            alt="banner image"
+            priority
+            height={0}
+            width={0}
+            className="w-full h-full object-cover object-[80%_20%]"
+          />
+        </div>
+      </section>
+      <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+        <div className="grid lg:grid-cols-12">
+          <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
-      <section className="custom-container">
-        <div className="py-10 bg-white 4xl:max-w-[1084px] 4xl:w-[1084px] xl:w-[810px]">
-          <div>
-            <h1 className="text-[#000000] py-6 leading-tight text-[24px] 4xl:text-[60px] xl:text-[42px] 2xl:text-[48px]">
-              {t("headerTitle")}
-            </h1>
-          </div>
-          <div className="py-4"></div>
-          <div>
-            <div className="flex flex-col md:flex-row justify-between text-black items-center">
-              <div>
-                <span className="text-[#0092E0]">{t("manufacturing")}</span>{" "}
-                <span className="text-[#ACACAC]"> | </span>
-                {t("date")}
-              </div>
-              <div className="flex flex-col">
-                 <div className="flex flex-row gap-6 ml-[-8px]">
-              <div className="max-w-[40px]">
-                <a
-                  href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                    fullUrl
-                  )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Image
-                    src="/images/case-studies/linkedin.svg"
-                    alt="LinkedIn"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                    priority
-                  />
-                </a>
+            {/* date and icons */}
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('manufacturing')} date="28 May 2025" />
+
+            {/* main blog */}
+            <div className="xl:mt-[60px] mt-[42px]">
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t('headerTitle')}</h1>
+
+              {/* client section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('clientTitle')}</h2>
+                <p className="mt-[16px] xl:mt-[22px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('clientDesc')}</p>
               </div>
 
-              <div className="max-w-[40px]">
-                <a
-                  href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                    fullUrl
-                  )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <Image
-                    src="/images/case-studies/twitter.svg"
-                    alt="Twitter"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                    priority
-                  />
-                </a>
+              {/* challenges section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('challengesTitle')}</h2>
+                <p className="mt-[16px] xl:mt-[22px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('challengesDesc')}</p>
               </div>
-            </div>
-              </div>
-            </div>
-            <div className="pt-4"></div>
-         
-          </div>
 
-          <div className="py-6"></div>
-          <div>
-            <div>
-              <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
-                {t("clientTitle")}
-              </h2>
-              <p className="text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">{t("clientDesc")}</p>
-
-              <div className="py-6"></div>
-              <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
-                {t("challengesTitle")}
-              </h2>
-
-              <p className="text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] pb-12">{t("challengesDesc")}</p>
-
-              <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
-                {t("solutionsTitle")}
-              </h2>
-
-              <p className="text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] pb-4">{t("solutionsDesc")}</p>
-
-              <div className="pl-2">
+              {/* solution section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('solutionsTitle')}</h2>
+                <p className="mt-[16px] xl:mt-[22px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('solutionsDesc')}</p>
                 <UnorderedList
-                  ulClassName="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium "
-                  liClassName="text-black pb-4 last:pb-12"
+                  ulClassName="list-disc mt-[16px] xl:mt-[22px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] space-y-4 font-medium"
                   arrName={solutionsList}
                 />
               </div>
 
-              <h2 className=" font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[25px] xl:text-[20px] text-[20px] pb-4">
-                {t("benefitsTitle")}
-              </h2>
-
-              <p className="text-black 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] pb-6 mt-2">{t("benefitsDesc")}</p>
-              <div className="pl-2">
-
-                 <ul className="list-disc marker:text-[#0092E0] xl:pl-10 marker:text-xl text-black pl-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] md:text-[19px] font-medium ">
-                  {benifitList.map((item, idx) => (
-                    <li className="pb-4 last:pb-0" key={idx}>
-                      <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[17px] md:text-[19px]">
-                        {item.title}
-                      </h3> : {item.description}
+              {/* benefits section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('benefitsTitle')}</h2>
+                <p className="mt-[16px] xl:mt-[22px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('benefitsDesc')}</p>
+                <ul className="list-disc mt-5 pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3">
+                  {benifitList.map(({ title, description }, index) => (
+                    <li key={index}>
+                      <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        {title}
+                      </h3>
+                      : {description}
                     </li>
                   ))}
                 </ul>
-
               </div>
             </div>
           </div>
         </div>
       </section>
-
-      {/* Latest Blogs */}
-      <div className="pb-20 custom-container lg:pr-0">
-        <RelatedTopicsCarousel slides={slides} />
-      </div>
-    </div>
+      {/* case study  carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
+        <RelatedCaseStudies url={currUrl} currTopic={t('manufacturing')} />
+      </section>
+    </section>
   );
 }

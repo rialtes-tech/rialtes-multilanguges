@@ -409,7 +409,7 @@ export default function Page() {
                         </div>
                         <div className="xl:col-span-8">
                             <h2 className="text-[26px] md:text-[40px] lg:text-[40px] xl:text-[40px] 2xl:text-[50px] 4xl:text-[60px] leading-tight max-w-[1081px] w-full">{t('readyTitle')}</h2>
-                            <p className="mt-10 font-light text-[18px] md:text-[22px] lg:text-[22px] xl:text-[22px] 2xl:text-[26px] 4xl:text-[28px] max-w-[1000px] w-full xl:w-[880px] leading-tight">{t('readyDesc')}</p>
+                            <p className="mt-10 font-light text-[18px] md:text-[22px] lg:text-[22px] xl:text-[22px] 2xl:text-[26px] 4xl:text-[28px] max-w-[1000px] w-full leading-tight">{t('readyDesc')}</p>
                             <div className="xl:flex xl:flex-row md:flex-row flex-col mt-16 items-center gap-10 4xl:gap-[34px] ">
                                 <div className="flex flex-col lg:flex-row gap-4 w-full h-[105px] max-lg:p-4">
                                     <div className="flex flex-row items-center gap-4 ">

@@ -1,6 +1,8 @@
 {
   "aboutUs": {
     "aboutusTitle": "About Us",
+    "seoTitle": "Empowering Enterprise Transformation Journey | About Rialtes",
+    "seoDescription": "Your enterprise transformation journey starts here—Rialtes simplifies change, enables AI adoption, and empowers growth with trusted partnership and boosted ROI.",
     "aboutusSubtitle": "Crafting the true purpose of technology in everyday lives.",
     "aboutusSubtitleone": "Imagining how the most complex task can be made simple with AI, data, and technology.",
     "worldTitle": "  World largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.",
@@ -113,6 +115,8 @@
     ]
   },
   "ourValue": {
+    "seoTitle": "Our Values - Empowering People with Trust & Inclusion | Rialtes",
+    "seoDescription": "At Rialtes, we celebrate people. From women in tech to LGBTQ+ and veterans, we drive impact through equal opportunity and unwavering commitment.",
     "growLatestServices": [
       {
         "id": 1,
@@ -176,6 +180,8 @@
   },
   "impact": {
     "impactTitle": "Social Impact",
+    "seoTitle": "Driving Sustainability with Responsible AI | Rialtes",
+    "seoDescription": "Rialtes redefines corporate citizenship with sustainable AI, ESG innovation, talent upskilling, and social impact to build a smarter, inclusive future.",
     "impactSubtitle": "Sustainability with",
     "impactSubtitleOne": "Responsible AI",
     "rialtesTitle": "Rialtes has been empowering customers across the world to trust AI and strengthen the philosophy of responsible AI.",
