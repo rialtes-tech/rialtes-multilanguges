@@ -109,8 +109,8 @@ export default function Page() {
         <section>
             <div className="min-h-screen bg-white">
                 <Seo
-                    title="Travel and Hospitality IT Solutions | SAP and Salesforce | Rialtes"
-                    description="Reimagine travel and hospitality IT solutions with AI, SAP, and Salesforce to enable real-time booking, loyalty programs, personalization, and efficiency."
+                    title={t("seoTitle")}
+                    description={t("seoDescription")}
                     keywords="home, website, welcome"
                     canonical="https://www.rialtes.com/industry/travel-hospitality-it-solutions/"
                 />

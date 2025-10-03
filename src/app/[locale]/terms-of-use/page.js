@@ -15,8 +15,8 @@ export default function Page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Terms of Use | Rialtes"
-                description="Review the terms and conditions for using Rialtes’ website, services, and content. Understand your rights, responsibilities, and legal disclaimers."
+              title={t('seoTitle')}
+               description={t('seoDescription')}
                 keywords="Contact, website, welcome"
                 canonical={"https://www.rialtes.com/terms-of-use/"}
             />

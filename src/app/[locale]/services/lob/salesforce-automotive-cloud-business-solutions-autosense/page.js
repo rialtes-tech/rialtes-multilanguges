@@ -97,8 +97,8 @@ export default function page() {
         return (
             <section className="xl:mt-[95px] mt-[79px]">
                 <Seo
-                    title="Salesforce Automotive Cloud Solutions and Services | Rialtes AutoSense"
-                    description="Salesforce automotive cloud by Rialtes AutoSense drives innovation and efficiency, helping automotive businesses deliver exceptional customer experiences."
+                    title={t('seoTitle')}
+                    description={t('seoDescription')}
                     keywords="home, website, welcome"
                     canonical="https://www.rialtes.com/services/lob/salesforce-automotive-cloud-business-solutions-autosense/"
                 />

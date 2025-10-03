@@ -181,8 +181,8 @@ const GrowServices = () => {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Revolutionizing Property Management for Real Estate Industry | Rialtes"
-        description="The future of property management for real estate industry is here. Automate leasing, reduce vacancies, and improve ROI with purpose-built software."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/real-estate-property-management/"
       />

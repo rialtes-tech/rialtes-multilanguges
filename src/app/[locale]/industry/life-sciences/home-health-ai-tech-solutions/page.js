@@ -105,8 +105,8 @@ export default function Page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="AI-Powered Home Healthcare Technology Solutions | Rialtes"
-                description="Rialtes offers home healthcare technology solutions powered by AI to support virtual, remote, and personalized patient care—anytime, anywhere."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical=" https://www.rialtes.com/industry/life-sciences/home-health-ai-tech-solutions/"
             />
             <Script

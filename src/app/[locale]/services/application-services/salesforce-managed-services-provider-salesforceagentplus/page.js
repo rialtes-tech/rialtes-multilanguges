@@ -109,8 +109,8 @@ export default function page() {
     return (
         <section>
             <Seo
-                title="Salesforce Managed Services Provider | Rialtes SalesforceAgent+"
-                description="Looking for a Salesforce managed services partner and provider? Rialtes drives innovation with SalesforceAgent+, making your platform smarter, faster, and AI-ready."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical="https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/"
             />
             <Script

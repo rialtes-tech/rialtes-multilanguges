@@ -31,8 +31,8 @@ export default function Page() {
   return (
     <section className="min-h-screen">
       <Seo
-        title="Privacy Policy | Rialtes"
-        description="Read Rialtes' Privacy Policy to understand how we collect, use, and protect your personal information while delivering exceptional IT consulting services."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="Contact, website, welcome"
         canonical={"https://www.rialtes.com/privacy-policy/"}
       />

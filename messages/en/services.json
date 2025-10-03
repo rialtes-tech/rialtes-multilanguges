@@ -1,6 +1,8 @@
 {
     "sapBuyPlus": {
         "headerTitle": "SAPBuy+",
+        "seoTitle": "SAP Ariba Implementation Partner and Procurement Solutions | Rialtes",
+        "seoDescription": "As a leading Ariba implementation partner, Rialtes powers procurement transformation with SAPBuy+ and expert Ariba services tailored to modern supply chain needs.",
         "headerSubTitle": "Transform Procurement Excellence with Rialtes SAPBuy+ Services for SAP ARIBA",
         "pageDesc": "At Rialtes, we help organizations redefine procurement efficiency with SAP ARIBA, the industry’s leading cloud-based solution for strategic sourcing, contract management, supplier collaboration, and procure-to-pay automation. With SAP ARIBA, businesses can streamline procurement operations, reduce costs, ensure compliance, and drive supplier engagement on a global scale.",
         "pageDesc2": "As a certified SAP partner with a global presence in the United States, Canada, India, and Singapore, Rialtes delivers comprehensive SAP ARIBA solutions, covering advisory, implementation, integration, and continuous optimization. Our SAPBuy+ service suite ensures that enterprises achieve end-to-end procurement transformation while maximizing ROI on SAP investments.",
@@ -191,6 +193,8 @@
     },
     "successPlus": {
         "headerTitle": "Success+",
+        "seoTitle": "SAP SuccessFactors Consulting and Implementation Partners | Rialtes",
+        "seoDescription": "Success+ by Rialtes delivers AI-powered SuccessFactors consulting and implementation to modernize HCM and accelerate your HR transformation. Let’s begin!",
         "headerSubTitlep1": "Transforming HR for",
         "headerSubTitlep2": " the Modern Enterprise",
         "headerSubTitle2": "Rialtes’ Success+",
@@ -374,6 +378,8 @@
     },
     "kinaxis": {
         "headerTitle": "DemandPlus",
+        "seoTitle": "Kinaxis RapidResponse for Agile SCM with Rialtes DemandPlus",
+        "seoDescription": "Reimagine resilient supply chains with Kinaxis RapidResponse and Rialtes’ DemandPlus—smart SCM solutions for agility, speed, and precision.",
           "learnMoreBtn": "Learn More",
           "knowMoreBtn": "Know More",
         "headerSubTitle": "Transform Your Supply Chain with Rialtes ‘DemandPlus’ for Kinaxis RapidResponse",
@@ -511,6 +517,8 @@
         "contactSubTitle": "Ready to transform your supply chain planning and resilience with Kinaxis RapidResponse? Let Rialtes DemandPlus guide you through every step — from strategy to execution."
     },
     "growWithSap": {
+        "seoTitle": "Grow with SAP Solutions by a Trusted SAP Partner | Rialtes",
+        "seoDescription": "Grow with SAP solutions that deliver measurable business success, powered by Rialtes—a trusted SAP partner driving enterprise-ready innovation and growth.",
         "services": [
             {
                 "text": "SAP License Advisory",
@@ -701,6 +709,8 @@
         "contactSubTitle": "Empower your growth journey with VoyagerNext — the Rialtes way to unlock S/4HANA Cloud potential."
     },
     "riseWithSap": {
+        "seoTitle": "Rise with SAP Services from a Trusted Implementation Partner | Rialtes",
+        "seoDescription": "Looking for a SAP Rise implementation partner you can trust? Rialtes’ Voyager+ delivers tailored rise with SAP services for smooth S/4HANA transformation.",
         "greenfieldItemsLeft": [
             {
                 "title": "Vision and Strategy Alignment",
@@ -896,6 +906,8 @@
     },
     "autoSense": {
         "keyPillarsTitle": "Key Pillars of AutoSense",
+        "seoTitle": "Salesforce Automotive Cloud Solutions and Services | Rialtes AutoSense",
+        "seoDescription": "Salesforce automotive cloud by Rialtes AutoSense drives innovation and efficiency, helping automotive businesses deliver exceptional customer experiences.",
         "keyPillarsSectionData": [
             {
                 "imageUrl": "/images/industry/auto-sense/strategic-advisory-img.webp",
@@ -1040,6 +1052,8 @@
     },
     "salesforceAgent": {
         "headerTitle": " SalesforceAgent+",
+        "seoTitle": "Salesforce Managed Services Provider | Rialtes SalesforceAgent+",
+        "seoDescription": "Looking for a Salesforce managed services partner and provider? Rialtes drives innovation with SalesforceAgent+, making your platform smarter, faster, and AI-ready.",
         "headerSubTitleone": "Unleash the Power",
         "headerSubTitletwo": "of Salesforce with",
         "headerSubTitleThree": "SalesforceAgent+",
@@ -1250,6 +1264,8 @@
         "contactSubTitleOne": "Contact Rialtes to discover how SalesforceAgent+ can supercharge your Salesforce ecosystem."
     },
     "sapDigitalDesk": {
+        "seoTitle": "SAP Managed Services Provider Driving ROI and Agility | Rialtes",
+        "seoDescription": "As a next-gen SAP Managed Services Provider, Rialtes future-proofs your SAP stack with AI, automation, cloud-native apps, and continuous innovation.",
         "sapCertificationData": [
             "SAP S/4HANA (Finance, Logistics, Manufacturing, Sales & Distribution, Procurement)",
             "SAP SuccessFactors (EC, LMS, Talent, Onboarding, Compensation, Workforce Analytics)",
@@ -1486,6 +1502,8 @@
         "contactSubTitle": "Contact us today to explore how SAP Digital Desk can transform your SAP operations."
     },
     "retailPlus": {
+        "seoTitle": "Retail Business Consulting Services and Omnichannel Solutions | Rialtes",
+        "seoDescription": "Retail+ by Rialtes offers expert-led Retail Business Consulting Services and AI-powered Omnichannel Solutions. Start your retail transformation now.",
         "retailServices": [
             {
                 "title": "Advisory & Strategy Consulting:",
@@ -1613,6 +1631,8 @@
     },
     "lifeAiPlus": {
         "headerTitle": "LifeAI+",
+        "seoTitle": "Salesforce Life Sciences Cloud Consulting Services | Rialtes",
+        "seoDescription": "LifeAI+ by Rialtes provides Salesforce Life Sciences cloud consulting to streamline healthcare operations, enhance compliance, and elevate patient care.",
          "learnMoreBtn": " Learn More",
         "headerSubTitle": "Transforming Life Sciences with Rialtes LifeAI+ Services",
         "pageDescTitle": "Salesforce Life Sciences Cloud Services for Smarter, Compliant Innovation with AI",
@@ -1733,6 +1753,8 @@
         "contactSubTitle2": "Contact us today to schedule a personalized strategy session and demo."
     },
     "advantagePlus": {
+        "seoTitle": "Salesforce Marketing Cloud Consulting & Implementation Services",
+        "seoDescription": "Salesforce marketing cloud consulting & implementation services by Rialtes Advantage+ deliver AI-powered, personalized journeys across channels, driving real ROI.",
         "latestServices": [
             {
                 "id": 1,
@@ -1896,6 +1918,8 @@
         "contactTitle": "Ready to Accelerate Your Marketing? Let’s Talk!"
     },
     "rialFinance": {
+        "seoTitle": "Salesforce Financial Services Cloud Consulting | RialFinance+ ",
+        "seoDescription": "Rialtes RialFinance+ delivers Salesforce Financial Services Cloud (FSC) consulting with AI-led design, strategic advisory, implementation, and 24/7 support.",
         "startWithData": [
             "Pre-built AI bots for customer onboarding, lending, service, and wealth advisory.",
             "Agentforce enablement workshops for rapid AI readiness.",

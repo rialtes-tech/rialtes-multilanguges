@@ -111,7 +111,7 @@ const LocationPage = () => {
     es: esContent,
     fr: frContent,
   });
-  const {} = contactUsContent.contactUs;
+  const { } = contactUsContent.contactUs;
 
   const locations = [
     {
@@ -234,8 +234,8 @@ const LocationPage = () => {
   return (
     <div>
       <Seo
-        title="Contact Us – Expert IT Consulting for Your Business Growth | Rialtes"
-        description="Have a question or need IT consulting services? Contact Rialtes for expert advice on SaaS solutions and IT strategy that drive business success."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="Contact, website, welcome"
         canonical={"https://www.rialtes.com/contact-us/"}
       />

@@ -1,6 +1,8 @@
 {
     "agentChat": {
         "headerTitle": "Introducing",
+        "seoTitle": "AgentChat: Salesforce WhatsApp Integration Made Easy | Rialtes",
+        "seoDescription": "AgentChat enables WhatsApp integration with Salesforce, reducing silos and enhancing team collaboration for stronger customer engagement and higher ROI.",
         "headerSubTitle": "AgentChat:",
          "learnMoreBtn": "Learn More",
         "headerOne": " Seamless WhatsApp Conversations Inside Salesforce",
@@ -118,6 +120,8 @@
         "contactTitle": "Let me know if you want a design mockup, call-to-action variations, or shorter ad copy versions!"
     },
     "exelona": {
+        "seoTitle": "Exelona™ – Salesforce for Real Estate Property Management | Rialtes",
+        "seoDescription": "Exelona leverages AI and Salesforce for Real Estate to streamline intelligent property management, driving automation, insights, and operational excellence.",
         "features": [
             {
                 "img": "/images/products/exelona/mobile-enable.svg",
@@ -386,6 +390,8 @@
         "trustedTitle": "Trusted Infrastructure for the Real Estate Enterprise"
     },
     "mediaina": {
+        "seoTitle": "MediAIna - Redefining Patient Journey Mapping in Healthcare",
+        "seoDescription": "MediAIna puts patients at the center by mapping every care moment with Salesforce Cloud and Rialtes' LifeAI+ to enable truly connected, human-first healthcare.",
         "rialtesBenefits": [
             "Accelerate product-to-market timelines with agile delivery models.",
             "Enable smarter clinical trials, connected care, and digital therapeutics.",

@@ -121,8 +121,8 @@ export default function HealthCloud() {
   return (
     <section>
       <Seo
-        title="Salesforce Revenue Cloud Implementation Partner | Rialtes"
-        description="Rialtes, a trusted Salesforce Revenue Cloud implementation partner, offers tailored solutions to transform sales, billing, and revenue operations."
+       title={t('seoTitle')}
+       description={t('seoDescription')}
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting/"
       />

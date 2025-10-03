@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from 'react';
-import BlogsCarousel from '../../components/latestBlogCarousel';
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Seo from "@/app/[locale]/components/Seo";
@@ -12,6 +11,8 @@ import enContent from '../../../../../messages/en/insight.json';
 import esContent from '../../../../../messages/es/insight.json';
 import frContent from '../../../../../messages/fr/insight.json';
 import { changeLocalization } from "../../components/changeLocalization";
+import useUrl from "@/app/[locale]/components/useUrl";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -36,6 +37,7 @@ const schemaData = {
 }
 
 export default function Page() {
+  const currUrl = useUrl()
   const t = useTranslations('caseStudy')
   const locale = useLocale();
   const caseStudyContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
@@ -234,14 +236,12 @@ export default function Page() {
 
     const CustomDot = ({ onClick, ...rest }) => {
       const {
-        onMove,
-        index,
         active,
         carouselState: { currentSlide, deviceType }
       } = rest;
       return (
         <li>
-          <span
+          <div
             role="button"
             className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
             onClick={() => onClick()}
@@ -313,9 +313,10 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-white">
-      <Seo title="Salesforce and SAP Wins | Case Studies That Inspire | Rialtes"
-        description="Explore SAP and Salesforce case studies from Rialtes. See how global businesses drive AI-powered innovation, efficiency, and ROI through smart tech solutions."
-        canonical="https://www.rialtes.com/insights/case-studies/" />
+      <Seo
+      title={t('seoTitle')}
+      description={t('seoDescription')}
+      canonical="https://www.rialtes.com/insights/case-studies/" />
 
       <Script
         id="schema-case-study"
@@ -324,7 +325,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative group overflow-hidden h-[399px] 4xl:h-[650px] 2xl:h-[550px]">
+      <section className="relative group overflow-hidden 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[500px] h-[380px]">
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
@@ -365,7 +366,7 @@ export default function Page() {
       </section>
       <section
         className="custom-container">
-        <div className="xl:mt-[84px] mt-[44px] bg-white">
+        <div className="xl:mt-[64px] mt-[34px] bg-white">
           <p className="text-[#000000] py-6 max-w-2xl xl:max-w-4xl 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">{t('headerDesc')}</p>
         </div>
       </section>
@@ -373,7 +374,6 @@ export default function Page() {
       <div
         className="custom-container lg:pr-0 xl:mt-[84px] mt-[44px]">
         <FeaturedCarousel />
-
       </div>
 
       {/* Latest Case Study Section */}
@@ -382,13 +382,10 @@ export default function Page() {
         <CaseStudy />
       </div>
 
-      {/* Latest Blogs */}
-      <div
-        className="custom-container lg:pr-0 xl:mt-[40px] xl:mb-[128px] my-[44px] "
-      >
-        <BlogsCarousel />
-
-      </div>
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
     </div>
   );
 }

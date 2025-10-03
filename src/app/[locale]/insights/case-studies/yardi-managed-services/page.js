@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import RelatedTopicsCarousel from "../../../components/relatedTopicsCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/caseStudy.json";

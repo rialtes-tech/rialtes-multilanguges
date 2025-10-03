@@ -152,8 +152,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="MedTech Healthcare Consulting and Patient Care Solutions | Rialtes"
-        description="Rialtes delivers AI-powered MedTech healthcare consulting and patient care solutions to enhance clinical outcomes and streamline healthcare operations."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care/"
       />

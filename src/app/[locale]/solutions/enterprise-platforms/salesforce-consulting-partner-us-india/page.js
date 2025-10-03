@@ -133,8 +133,8 @@ export default function SalesForceConsulting() {
   return (
     <div>
       <Seo
-        title="Top Salesforce Consulting and Implementation Partners | Rialtes"
-        description="Partner with Rialtes—your Salesforce consulting services partner in the US and India for AI-enabled Salesforce implementation and integration success."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical={
           "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"
         }

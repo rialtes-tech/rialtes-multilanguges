@@ -885,8 +885,8 @@ export default function () {
     return (
         <>
             <Seo
-                title="SAP Datasphere Implementation with AI Consulting Services | Rialtes"
-                description="Need smarter data? SAP Datasphere Implementation Consulting by Rialtes blends AI with expertise to unify systems, optimize workflows, and drive success."
+               title={t('seoTitle')}
+               description={t('seoDescription')}
                 canonical="https://www.rialtes.com/solutions/data-ai/sap-datasphere-implementation-consulting/"
             />
             <Script

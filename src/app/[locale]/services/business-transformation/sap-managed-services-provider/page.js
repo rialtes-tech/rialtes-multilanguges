@@ -83,8 +83,8 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="SAP Managed Services Provider Driving ROI and Agility | Rialtes"
-                description="As a next-gen SAP Managed Services Provider, Rialtes future-proofs your SAP stack with AI, automation, cloud-native apps, and continuous innovation"
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/business-transformation/sap-managed-services-provider/"
             />

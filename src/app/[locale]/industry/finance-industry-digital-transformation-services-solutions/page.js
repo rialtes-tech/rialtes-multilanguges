@@ -104,8 +104,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Digital Finance Transformation Services and Solutions | Rialtes"
-        description="Rialtes delivers expert-led digital finance transformation consulting with proven SAP and Salesforce solutions tailored to financial institutions, globally."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions/"
       />

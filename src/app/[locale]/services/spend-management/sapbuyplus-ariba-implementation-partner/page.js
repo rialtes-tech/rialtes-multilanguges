@@ -523,8 +523,8 @@ export default function page() {
     return (
         <section>
             <Seo
-                title="SAP Ariba Implementation Partner and Procurement Solutions | Rialtes"
-                description="As a leading Ariba implementation partner, Rialtes powers procurement transformation with SAPBuy+ and expert Ariba services tailored to modern supply chain needs."
+               title={t('seoTitle')}
+               description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/"
             />

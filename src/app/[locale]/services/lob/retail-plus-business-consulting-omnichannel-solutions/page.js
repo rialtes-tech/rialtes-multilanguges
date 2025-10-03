@@ -99,8 +99,8 @@ export default function page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Retail Business Consulting Services and Omnichannel Solutions | Rialtes"
-        description="Retail+ by Rialtes offers expert-led Retail Business Consulting Services and AI-powered Omnichannel Solutions. Start your retail transformation now."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/lob/retail-plus-business-consulting-omnichannel-solutions/"
       />

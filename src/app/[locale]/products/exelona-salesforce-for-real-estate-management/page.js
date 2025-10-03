@@ -105,8 +105,8 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Exelona™ – Salesforce for Real Estate Property Management | Rialtes"
-                description="Exelona leverages AI and Salesforce for Real Estate to streamline intelligent property management, driving automation, insights, and operational excellence."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/"
             />
