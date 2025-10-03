@@ -71,8 +71,8 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="AgentChat: Salesforce WhatsApp Integration Made Easy | Rialtes"
-                description="AgentChat enables WhatsApp integration with Salesforce, reducing silos and enhancing team collaboration for stronger customer engagement and higher ROI."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="Contact, website, welcome"
                 canonical="https://www.rialtes.com/products/agentchat/"
             />

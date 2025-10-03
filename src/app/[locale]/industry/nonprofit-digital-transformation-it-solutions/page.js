@@ -111,8 +111,8 @@ export default function retailPage() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Nonprofit Digital Transformation and IT Solutions | Rialtes"
-                description="Rialtes empowers nonprofits with smart IT solutions and digital transformation to streamline grants, donors, volunteers, and program operations seamlessly."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical="https://www.rialtes.com/industry/nonprofit-digital-transformation-it-solutions/"
             />
             <Script

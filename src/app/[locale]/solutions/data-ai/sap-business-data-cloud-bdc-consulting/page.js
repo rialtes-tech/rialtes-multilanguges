@@ -74,8 +74,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="SAP Business Data Cloud: End Data Chaos Today | Rialtes"
-        description="SAP Business Data Cloud turns chaos into clarity with a single source of truth. Make smarter decisions with Rialtes. Start your data journey today."
+      title={t('seoTitle')}
+       description={t('seoDescription')}
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/solutions/data-ai/sap-business-data-cloud-bdc-consulting/"
       />

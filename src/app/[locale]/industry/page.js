@@ -150,8 +150,8 @@ export default function Industry() {
   return (
     <div className="min-h-screen">
       <Seo
-        title="Salesforce & SAP Solutions by Industry | Rialtes"
-        description="Salesforce and SAP industry solutions that drive measurable outcomes, streamline operations, and unlock innovation in every sector we serve."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/industry/"
       />

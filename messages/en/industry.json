@@ -1,6 +1,8 @@
 {
   "industry": {
     "headerTitle": "Industries",
+    "seoTitle": "Salesforce & SAP Solutions by Industry | Rialtes",
+    "seoDescription": "Salesforce and SAP industry solutions that drive measurable outcomes, streamline operations, and unlock innovation in every sector we serve.",
     "headerSubTitleOne": " Transform how ",
     "headerSubTitleTwo": " you engage with ",
     "headerSubTitleThree": "your clients",
@@ -83,6 +85,8 @@
     "contactUs": "Ready to take the next step? Let’s kick off your journey"
   },
   "realEstate": {
+    "seoTitle": "Revolutionizing Property Management for Real Estate Industry | Rialtes",
+    "seoDescription": "The future of property management for real estate industry is here. Automate leasing, reduce vacancies, and improve ROI with purpose-built software.",
     "headerTitle": "Manage real estate processes with cloud-based property management software",
     "headerSubTitle": "REAL ESTATE ",
     "realTitle": "Affordable property management software for your real estate operations",
@@ -198,6 +202,8 @@
     "knowMore": "Know More"
   },
   "lifeScience": {
+    "seoTitle": "Life Sciences Digital Transformation with AI | Rialtes",
+    "seoDescription": "Empowering digital transformation in life sciences with connected data, AI insights, and cloud solutions for Pharma, MedTech, public health, and providers.",
     "whyRialtesData": [
       {
         "title": "Industry-Proven Accelerators",
@@ -402,6 +408,8 @@
     "contactSubTitle2": "Contact us today to discover how Rialtes can drive growth and patient impact for your organization."
   },
   "healthCare": {
+    "seoTitle": "MedTech Healthcare Consulting and Patient Care Solutions | Rialtes",
+    "seoDescription": "Rialtes delivers AI-powered MedTech healthcare consulting and patient care solutions to enhance clinical outcomes and streamline healthcare operations.",
     "slidesCaseStudy": [
       {
         "id": 1,
@@ -512,6 +520,8 @@
     "contactTitle": "Take the next step to operational excellence with us."
   },
   "pharmaBiotech": {
+    "seoTitle": "Pharma & Biotech Digital Transformation with AI | Rialtes",
+    "seoDescription": "Rialtes leverages certified expertise in Salesforce Life Sciences Cloud and",
     "thoughtData": [
       "Accelerate product development, regulatory submissions, and commercialization.",
       "Build integrated clinical, medical, and commercial operations platforms.",
@@ -675,6 +685,8 @@
     "contactTitle": "Partner with Rialtes — Enabling Next-Gen Pharma and Biotech Excellence!"
   },
   "medicalDevices": {
+    "seoTitle": "Medical Device Digital Transformation with AI | Rialtes",
+    "seoDescription": "Rialtes drives digital transformation in medical devices with AI-powered insights",
     "thoughLeadershipData": [
       "Deliver compliant and seamless patient journeys from device prescription to outcome tracking.",
       "Integrate clinical, supply chain, and sales operations into a unified digital ecosystem.",
@@ -840,6 +852,8 @@
     "learnMoreBtn": "Learn More"
   },
   "homeHealth": {
+    "seoTitle": "AI-Powered Home Healthcare Technology Solutions | Rialtes",
+    "seoDescription": "Rialtes offers home healthcare technology solutions powered by AI to support virtual, remote, and personalized patient care—anytime, anywhere.",
     "addressingData": [
       {
         "title": "Geographical Divide & Accessibility",
@@ -1017,6 +1031,8 @@
     "contactSubTitle": "Transform your patient care model with Rialtes’ Salesforce-powered home health solutions"
   },
   "semiconductor": {
+    "seoTitle": "AI in Semiconductor Industry: Scalable IT Solutions | Rialtes",
+    "seoDescription": "Rialtes enables AI in semiconductor industry with SAP and Salesforce to boost fab productivity, partner collaboration, and intelligent forecasting.",
     "headerTitle": " Semiconductor Industry",
     "subTitleOne": "Empowering",
     "subTitleTwo": "Semiconductor Innovation",
@@ -1416,6 +1432,8 @@
     "contactSubtitleOne": "Contact us today for a free consultation and explore how we can empower your connected enterprise!"
   },
   "manufacturing": {
+    "seoTitle": "IT and Cloud ERP Solutions for Manufacturing Industry | Rialtes",
+    "seoDescription": "Rialtes delivers expert IT and cloud ERP solutions for manufacturing businesses, helping drive efficiency, innovation, and digital transformation at scale.",
     "headerTitle": "Manufacturing",
     "headerSubTitleOne": "Powering the Future of Manufacturing",
     "headerSubTitleTwo": "Smarter, Faster, Connected",
@@ -1478,6 +1496,8 @@
     "contactSubtitleOne": "Contact Us Today and start your journey toward intelligent, resilient, and customer-centric manufacturing!"
   },
   "education": {
+    "seoTitle": "Salesforce Cloud IT Solutions for Education Industry | Rialtes",
+    "seoDescription": "IT solutions for education using AI and Salesforce Cloud empower K–12 to higher ed to transform learning. Explore smarter outcomes with Rialtes today.",
     "headerTitle": "Education Industry",
     "headerSubTitle": "Empowering the Future of Education",
     "headerSubTitleOne": " Rialtes’ End-to-End Solutions for Student Success",
@@ -1638,6 +1658,8 @@
   },
   "finance": {
     "financeTitle": "Finance Industry Solutions",
+    "seoTitle": "Digital Finance Transformation Services and Solutions | Rialtes",
+    "seoDescription": "Rialtes delivers expert-led digital finance transformation consulting with proven SAP and Salesforce solutions tailored to financial institutions, globally.",
     "financeDesc": "Shaping the Future of Intelligent Financial Experiences",
     "digitalTitle": "Accelerating Digital Transformation in Financial Services",
     "digitalDesc": "Rialtes empowers banks, insurers, wealth managers, and real estate firms to drive innovation confidently. As a certified Salesforce and SAP partner, we offer end-to-end services—from advisory to post-go-live support—specialized in Financial Services Cloud, SAP S/4HANA, and AI solutions. With a global presence and deep industry expertise, we help financial institutions transform securely, stay compliant, and deliver exceptional customer experiences.",
@@ -1766,6 +1788,8 @@
     ]
   },
   "automativeIndustry": {
+    "seoTitle": "Digital Transformation in Automotive Industry | Rialtes",
+    "seoDescription": "Ready for digital transformation in automotive? Partner with Rialtes to revolutionize your automotive industry journey and fuel future growth.",
     "keyIndustryChallenges": [
       "Fragmented customer lifecycle management (from prospect to owner).",
       "Inefficient dealer and franchisee management, impacting sales velocity.",
@@ -1938,6 +1962,8 @@
     "learnMoreBtn": "Learn More"
   },
   "travelIndustry": {
+    "seoTitle": "Travel and Hospitality IT Solutions | SAP and Salesforce | Rialtes",
+    "seoDescription": "Reimagine travel and hospitality IT solutions with AI, SAP, and Salesforce to enable real-time booking, loyalty programs, personalization, and efficiency.",
     "endToEndData": [
       "Industry-specific advisory services to shape your digital roadmap.",
       "Custom solution architecture and design for unique TTH needs.",
@@ -2065,6 +2091,8 @@
     "learnMoreBtn": "Learn More"
   },
   "retailIndustry": {
+    "seoTitle": "Digital Transformation in Retail Industry with SAP | Rialtes",
+    "seoDescription": "Drive retail industry digital transformation with SAP and Salesforce. Rialtes fuels innovation and growth with agile, intelligent, customer-first solutions.",
     "newRealityData": [
       {
         "title": "Fragmented Customer Journeys:",
@@ -2251,6 +2279,8 @@
     "contactSubTitle2": "Contact us today to unlock the future of retail."
   },
   "nonProfit": {
+    "seoTitle": "Nonprofit Digital Transformation and IT Solutions | Rialtes",
+    "seoDescription": "Rialtes empowers nonprofits with smart IT solutions and digital transformation to streamline grants, donors, volunteers, and program operations seamlessly.",
     "whyChooseData": [
       "Deep non-profit domain expertise.",
       "Accelerated implementations with pre-built solutions tailored to non-profit needs.",

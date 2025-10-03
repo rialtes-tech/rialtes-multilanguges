@@ -133,8 +133,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Grow with SAP Solutions by a Trusted SAP Partner | Rialtes"
-        description="Grow with SAP solutions that deliver measurable business success, powered by Rialtes—a trusted SAP partner driving enterprise-ready innovation and growth."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
       />

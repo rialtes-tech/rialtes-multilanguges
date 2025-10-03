@@ -112,8 +112,8 @@ export default function retailPage() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Digital Transformation in Retail Industry with SAP | Rialtes"
-                description="Drive retail industry digital transformation with SAP and Salesforce. Rialtes fuels innovation and growth with agile, intelligent, customer-first solutions."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical="https://www.rialtes.com/industry/retail-industry-digital-transformation/"
             />
             <Script

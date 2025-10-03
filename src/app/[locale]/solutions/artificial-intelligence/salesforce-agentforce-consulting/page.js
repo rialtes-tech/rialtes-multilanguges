@@ -105,8 +105,8 @@ export default function Agentforce() {
     return (
         <section>
             <Seo
-                title="Agentforce Consulting Services | Rialtes"
-                description="Agentforce Consulting Services by Rialtes combines AI and expertise to help businesses optimize workflows, scale smarter, and achieve lasting success."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
             />

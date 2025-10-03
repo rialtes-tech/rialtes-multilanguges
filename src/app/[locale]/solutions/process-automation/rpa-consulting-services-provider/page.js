@@ -97,8 +97,8 @@ const t = useTranslations("uiPath");
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="RPA Consulting Services and Solutions with UiPath | Rialtes"
-                description="Looking for RPA consulting services providers? We help automate SAP and Salesforce workflows, cut costs, and boost efficiency using UiPath. Start today."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/solutions/process-automation/rpa-consulting-services-provider/"
             />

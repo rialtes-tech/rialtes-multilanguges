@@ -199,8 +199,8 @@ export default function Contact() {
     return (
         <div>
             <Seo
-                title="Our Strategic Partners – Empowering Success with Rialtes"
-                description="Rialtes partners with top IT and SaaS companies to deliver innovative solutions. Explore our trusted network of collaborators driving business success."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="Partners, website, welcome"
                 canonical={"https://www.rialtes.com/about-us/global-alliances/"}
             />

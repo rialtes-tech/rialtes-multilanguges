@@ -135,8 +135,8 @@ export default function Page() {
   return (
     <section className="min-h-screen bg-white">
       <Seo
-        title="Semiconductor Industry: Digital Solutions That Scale | Rialtes"
-        description=" Explore semiconductor industry IT solutions with SAP and Salesforce to streamline chip design, testing, partner collaboration, and customer engagement."
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         canonical="https://www.rialtes.com/industry/hitech-semiconductor-ai-it-solutions/"
       />
       <Script

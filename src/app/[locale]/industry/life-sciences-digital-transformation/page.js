@@ -111,8 +111,8 @@ export default function page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Life Sciences Digital Transformation with AI | Rialtes"
-                description=" Empowering digital transformation in life sciences with connected data, AI insights, and cloud solutions for Pharma, MedTech, public health, and providers."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical="https://www.rialtes.com/industry/life-sciences-digital-transformation/"
             />
             <Script

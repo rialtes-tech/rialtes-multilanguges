@@ -162,8 +162,8 @@ export default function Page() {
     return (
         <div>
             <Seo
-                title="Salesforce-Powered IT Solutions for Medical Device Companies | Rialtes"
-                description="Salesforce-based IT solutions for medical device companies simplify compliance, improve traceability, and accelerate sales. Discover the Rialtes advantage."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical="https://www.rialtes.com/industry/life-sciences/medical-devices-it-solutions/"
             />
             <Script
