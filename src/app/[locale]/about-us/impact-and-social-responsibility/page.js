@@ -29,8 +29,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Driving Sustainability with Responsible AI | Rialtes"
-        description="Rialtes redefines corporate citizenship with sustainable AI, ESG innovation, talent upskilling, and social impact to build a smarter, inclusive future."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="home, website, welcome"
         canonical={
           "https://www.rialtes.com/about-us/impact-and-social-responsibility/"

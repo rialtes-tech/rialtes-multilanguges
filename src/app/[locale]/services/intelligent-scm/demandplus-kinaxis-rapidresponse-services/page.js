@@ -82,7 +82,7 @@ export default function DemandPlusSection() {
                     <div className="grid xl:grid-cols-12  grid-cols-1 gap-2 2xl:mt-10 4xl:mt-20 mt-10">
                         <div className="xl:col-span-7 md:col-span-2 col-span-12">
                             <h3 className="text-white xl:text-[24px]  font-bold mb-2">{t('headerTitle')}</h3>
-                            <h1 className="text-white leading-tight mt-5 pr-14 xl:pr-0 md:text-[42px] 4xl:text-[60px] xl:text-[45px] text-[26px]">
+                            <h1 className="text-white leading-tight mt-5  xl:pr-0 md:text-[42px] 4xl:text-[60px] xl:text-[45px] text-[26px]">
                                 {t('headerSubTitle')}
                             </h1>
                         </div>
@@ -105,11 +105,11 @@ export default function DemandPlusSection() {
             </section>
             <section className={`relative  group overflow-hidden
               ${locale === "es"
-                                    ? "4xl:h-[775px] 2xl:h-[660px] xl:h-[650px]"
-                                    : locale === "fr"
-                                        ? "4xl:h-[700px] 2xl:h-[660px] xl:h-[650px]"
-                                        : "4xl:h-[700px] 2xl:h-[660px] xl:h-[650px]"
-                                }`}
+                    ? "4xl:h-[775px] 2xl:h-[660px] xl:h-[650px]"
+                    : locale === "fr"
+                        ? "4xl:h-[700px] 2xl:h-[660px] xl:h-[650px]"
+                        : "4xl:h-[700px] 2xl:h-[660px] xl:h-[650px]"
+                }`}
             >
                 {/* Desktop Image */}
                 <div className="xl:block hidden">
@@ -139,11 +139,11 @@ export default function DemandPlusSection() {
                     <div className={`bg-[#016FBE] bg-opacity-90 text-white p-[20px] md:p-8 xl:w-[720px] xl:pb-20 4xl:pb-20 pb-32`}>
                         <h3 className={`font-light xl:text-[30px] text-[18px]
                           ${locale === "es"
-                                    ? "pt-20"
-                                    : locale === "fr"
-                                        ? "pt-10"
-                                        : "pt-10"
-                                }`}
+                                ? "pt-20"
+                                : locale === "fr"
+                                    ? "pt-10"
+                                    : "pt-10"
+                            }`}
                         >{t('introducingTitle')} </h3>
                         <h3 className="4xl:text-[50px] xl:text-[40px] text-[23px] max-[350px]:text-[20px] leading-[60px]">{t('introducingTitle2')}</h3>
                         <h3 className="4xl:text-[36px] xl:text-[25px] text-[22px] mt-5">{t('introducingTitle3')}</h3>
@@ -152,7 +152,7 @@ export default function DemandPlusSection() {
                         </p>
                         <UnorderedList arrName={endToEndData} ulClassName="list-disc leading-tight xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 mt-5  xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] " />
                         <div className="mt-5 absolute">
-                            <LearnMore bgcolor="#134874" bordercolor="#134874" />
+                            <LearnMore bgcolor="#134874" bordercolor="#134874" btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>
@@ -199,11 +199,11 @@ export default function DemandPlusSection() {
                 </div>
                 <div className={`grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 relative xl:-mt-10 mt-[-40px]  xl:mr-[50px] custom-container xl:!pr-16
                   ${locale === "es"
-                                    ? "[@media(max-width:360px)]:mt-[-10px]"
-                                    : locale === "fr"
-                                        ? "[@media(max-width:360px)]:mt-[-10px]"
-                                        : "[@media(max-width:360px)]:mt-[-40px]"
-                                }`}
+                        ? "[@media(max-width:360px)]:mt-[-10px]"
+                        : locale === "fr"
+                            ? "[@media(max-width:360px)]:mt-[-10px]"
+                            : "[@media(max-width:360px)]:mt-[-40px]"
+                    }`}
                 >
                     {whyKinaxisData.map((item, index) => (
                         <div
@@ -236,7 +236,7 @@ export default function DemandPlusSection() {
                         <h3 className="4xl:pt-20 xl:pt-10 pt-24 text-[22px] 4xl:text-[30px] 4xl:pr-[20rem] xl:pr-[14rem]">{t('endToEndTitle')}</h3>
                         <UnorderedList arrName={supplyChain} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-1 font-light marker:font-bold marker:text-2xl pl-5 mt-8 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[17px] 2xl:text-[18px] text-[16px]" />
                         <div className="4xl:mt-6 2xl:mt-28 xl:mt-10 mt-4 absolute">
-                            <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
+                            <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>
@@ -261,15 +261,15 @@ export default function DemandPlusSection() {
                         />
                     </div>
                     <div className="xl:col-span-5 order-2 xl:order-1">
-                        <h2 className={`leading-tight mt-10 xl:mt-0 pr-10 xl:pr-0 
+                        <h2 className={`leading-tight mt-10 xl:mt-0 xl:pr-0 
                           ${locale === "es"
-                                    ? "4xl:text-[60px] xl:text-[38px] text-[26px]"
-                                    : locale === "fr"
-                                        ? "4xl:text-[60px] xl:text-[40px] text-[26px]"
-                                        : "4xl:text-[60px] xl:text-[40px] text-[26px]"
-                                }`}
-                        
-                        
+                                ? "4xl:text-[60px] xl:text-[38px] text-[26px]"
+                                : locale === "fr"
+                                    ? "4xl:text-[60px] xl:text-[40px] text-[26px]"
+                                    : "4xl:text-[60px] xl:text-[40px] text-[26px]"
+                            }`}
+
+
                         >{t('salesTitle')} </h2>
                         <h3 className="4xl:text-[42px] xl:text-[30px] 2xl:text-[32px] text-[22px] xl:mt-5 mt-5 leading-tight font-semibold">{t('driveTitle')} </h3>
                         <p className="mt-5 font-normal 4xl:text-[20px] text-[16px] xl:text-[17px] leading-tight">
@@ -281,22 +281,22 @@ export default function DemandPlusSection() {
             </section>
             <p className={`bg-[#163055] p-8 xl:!mx-[280px] z-[15] max-md:mx-[35px] text-white  mt-10 relative 4xl:text-[26px] 2xl:text-[20px] xl:text-[15px] text-[18px] font-normal
               ${locale === "es"
-                                    ? "4xl:mt-[-10px] 2xl:mt-[-45px] xl:mt-[-35px]"
-                                    : locale === "fr"
-                                        ? "4xl:mt-[-90px] 2xl:mt-[-72px] xl:mt-[-56px]"
-                                        : "4xl:mt-[-50px] 2xl:mt-[-45px] xl:mt-[-35px]"
-                                }`}
-            
-            
+                    ? "4xl:mt-[-10px] 2xl:mt-[-45px] xl:mt-[-35px]"
+                    : locale === "fr"
+                        ? "4xl:mt-[-90px] 2xl:mt-[-72px] xl:mt-[-56px]"
+                        : "4xl:mt-[-50px] 2xl:mt-[-45px] xl:mt-[-35px]"
+                }`}
+
+
             >{t('outcomeTitle')} </p>
-           
+
             <section className={`relative w-full 
               ${locale === "es"
-                                    ? "2xl:mt-[-80px] mt-16 4xl:mt-[-95px] xl:mt-[-75px]"
-                                    : locale === "fr"
-                                        ? "xl:mt-[-53px] mt-16"
-                                        : "xl:mt-[-53px] mt-16"
-                                }`}
+                    ? "2xl:mt-[-80px] mt-16 4xl:mt-[-95px] xl:mt-[-75px]"
+                    : locale === "fr"
+                        ? "xl:mt-[-53px] mt-16"
+                        : "xl:mt-[-53px] mt-16"
+                }`}
             >
                 <div className="w-full xl:h-[1083px]">
                     <div className="xl:block hidden">
@@ -324,7 +324,7 @@ export default function DemandPlusSection() {
                         <div className="xl:col-span-7  custom-container xl:!pr-0 pl-[35px] xl:py-16 py-8">
                             <h2 className="mb-4 leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px]">{t('inventoryTitle')} </h2>
                             <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] mt-5">{t('inventoryTitle2')}</h3>
-                            <p className="font-light xl:pr-24 pr-20 mt-5 leading-tight">
+                            <p className="font-light xl:pr-24 pr-10 mt-5 leading-tight">
                                 {t('inventoryDesc')}
                             </p>
                         </div>
@@ -334,12 +334,12 @@ export default function DemandPlusSection() {
             </section>
             <div className={`grid xl:grid-cols-12 grid-cols-1 absolute xl:mt-[-100px]  md:mt-0 custom-container
               ${locale === "es"
-                                    ? "[@media(max-width:360px)]:mt-0 mt-[-30px]"
-                                    : locale === "fr"
-                                        ? "[@media(max-width:360px)]:mt-0 mt-[-30px]"
-                                        : "[@media(max-width:360px)]:mt-[-50px] mt-[-75px]"
-                                }`}
-            
+                    ? "[@media(max-width:360px)]:mt-0"
+                    : locale === "fr"
+                        ? "[@media(max-width:360px)]:mt-0"
+                        : "[@media(max-width:360px)]:mt-[-50px] mt-[-75px]"
+                }`}
+
             >
                 <div className="xl:col-span-5 col-span-12 bg-[#163055] px-10 py-12 text-white">
                     <h3 className="leading-tight">{t('inventeryOptimizationTitle')} </h3>
@@ -356,11 +356,11 @@ export default function DemandPlusSection() {
             </div>
             <section className={`relative h-auto 4xl:mt-[17rem]  custom-container xl:!pr-0 max-md:px-0 md:mt-[33rem]
               ${locale === "es"
-                                    ? "mt-[39rem] max-[360px]:mt-[51rem] max-[375px]:mt-[44rem] max-[390px]:mt-[43rem] max-[414px]:mt-[42rem]  max-[320px]:mt-[53rem] 2xl:mt-[16rem] xl:mt-[21rem]"
-                                    : locale === "fr"
-                                        ? "mt-[42rem] max-[360px]:mt-[55rem] max-[375px]:mt-[52rem] max-[390px]:mt-[49rem] max-[400px]:mt-[38rem]  max-[320px]:mt-[53rem] 2xl:mt-[19rem] xl:mt-[21rem]"
-                                        : "mt-[34rem] max-[360px]:mt-[47rem] max-[375px]:mt-[44rem] max-[390px]:mt-[38rem] max-[400px]:mt-[38rem]  max-[320px]:mt-[53rem] 2xl:mt-[16rem] xl:mt-[16rem]"
-                                }`}
+                    ? "mt-[39rem] max-[360px]:mt-[51rem] max-[375px]:mt-[44rem] max-[390px]:mt-[43rem] max-[414px]:mt-[42rem]  max-[320px]:mt-[53rem] 2xl:mt-[16rem] xl:mt-[21rem]"
+                    : locale === "fr"
+                        ? "mt-[42rem] max-[360px]:mt-[55rem] max-[375px]:mt-[52rem] max-[390px]:mt-[49rem] max-[400px]:mt-[38rem]  max-[320px]:mt-[53rem] 2xl:mt-[19rem] xl:mt-[21rem]"
+                        : "mt-[34rem] max-[360px]:mt-[47rem] max-[375px]:mt-[44rem] max-[390px]:mt-[38rem] max-[400px]:mt-[38rem]  max-[320px]:mt-[53rem] 2xl:mt-[16rem] xl:mt-[16rem]"
+                }`}
             >
                 <div className="xl:block hidden">
                     <Image
@@ -369,11 +369,11 @@ export default function DemandPlusSection() {
                         className={`w-full
 
                           ${locale === "es"
-                                    ? "xl:h-[666px] 2xl:h-[730px] 4xl:h-[826px]"
-                                    : locale === "fr"
-                                        ? "xl:h-[710px] 2xl:h-[750px] 4xl:h-[826px]"
-                                        : "xl:h-[596px] 2xl:h-[620px] 4xl:h-[725px]"
-                                }`}
+                                ? "xl:h-[666px] 2xl:h-[730px] 4xl:h-[826px]"
+                                : locale === "fr"
+                                    ? "xl:h-[710px] 2xl:h-[750px] 4xl:h-[826px]"
+                                    : "xl:h-[596px] 2xl:h-[620px] 4xl:h-[725px]"
+                            }`}
                         priority
                         width={0}
                         height={0}
@@ -398,18 +398,18 @@ export default function DemandPlusSection() {
                         <p className="xl:mt-8 mt-5 font-medium leading-tight 4xl:text-[20px] text-[16px]">{t('scenarioDesc')} </p>
                         <UnorderedList arrName={scenarioData} ulClassName="list-disc xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5  mt-8 leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="mt-6 4xl:mt-[38px] 2xl:mt-[96px] xl:mt-[10px] absolute">
-                            <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
+                            <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>
             </section>
             <section className={`mt-[37rem] xl:mt-0 md:mt-[6rem]
               ${locale === "es"
-                                    ? "[@media(max-width:375px)]:mt-[48rem]"
-                                    : locale === "fr"
-                                        ? "[@media(max-width:375px)]:mt-[50rem]"
-                                        : "[@media(max-width:375px)]:mt-[46rem]"
-                                }`}
+                    ? "[@media(max-width:375px)]:mt-[48rem]"
+                    : locale === "fr"
+                        ? "[@media(max-width:375px)]:mt-[50rem]"
+                        : "[@media(max-width:375px)]:mt-[46rem]"
+                }`}
             >
                 <div className="grid xl:grid-cols-12 grid-cols-1 mx-[35px] xl:mx-0">
                     <div className="col-span-6">
@@ -426,7 +426,7 @@ export default function DemandPlusSection() {
                     <div className="col-span-6 xl:bg-[#EAEAEA] xl:p-20 pt-8 xl:pr-[120px]">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('seamlessTitle')} </h2>
                         <h3 className="mt-10 4xl:text-[42px] xl:text-[32px] text-[22px] font-semibold leading-tight">{t('seamlessSubTitle')} </h3>
-                        <p className="mt-5 xl:pr-20 pr-10 font-normal leading-tight 4xl:text-[20px] text-[16px]">{t('seamlessDesc')} </p>
+                        <p className="mt-5 xl:pr-20 font-normal leading-tight 4xl:text-[20px] text-[16px]">{t('seamlessDesc')} </p>
                         <UnorderedList arrName={seamlessIntegrationData} ulClassName="list-disc leading-normal xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 mt-5  xl:pr-16" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                     </div>
                 </div>
@@ -460,7 +460,7 @@ export default function DemandPlusSection() {
                             </p>
                             <UnorderedList arrName={rialtesStrongData} ulClassName="list-disc leading-normal xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 mt-8 xl:pr-16" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                             <div className="mt-5 absolute">
-                                <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
+                                <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                         <p className="4xl:text-[26px] text-[18px] bg-[#163055] xl:p-8 p-6 xl:pl-14 pl-10 4xl:pr-32 text-white font-light mx-[35px] xl:mx-0 mt-[-172px] xl:mt-0 leading-tight">{t('rialtesStrongBlueBox')}</p>
@@ -491,17 +491,17 @@ export default function DemandPlusSection() {
                 <div className="grid xl:grid-cols-12 grid-cols-1 custom-container mx-[35px] xl:mx-0 absolute top-0">
                     <div className="col-span-7 pt-20">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('bringingTitle')} </h2>
-                        <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] mt-10 font-bold leading-tight pr-20">{t('bringingSubTitle')} </h3>
+                        <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] mt-10 font-bold leading-tight">{t('bringingSubTitle')} </h3>
                     </div>
                 </div>
                 <div className={`custom-container mx-[35px] xl:mx-0 xl:mr-[464px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5 absolute bottom-[-3rem] z-[9]
                   ${locale === "es"
-                                    ? "[@media(max-width:375px)]:bottom-[-8rem]"
-                                    : locale === "fr"
-                                        ? "[@media(max-width:375px)]:bottom-[-8rem]"
-                                        : "[@media(max-width:375px)]:bottom-[-8rem]"
-                                }`}
-                
+                        ? "[@media(max-width:375px)]:bottom-[-8rem]"
+                        : locale === "fr"
+                            ? "[@media(max-width:375px)]:bottom-[-8rem]"
+                            : "[@media(max-width:375px)]:bottom-[-8rem]"
+                    }`}
+
                 >
                     {kinaxisServices.map((service, index) => (
                         <div
@@ -510,7 +510,7 @@ export default function DemandPlusSection() {
                             <h3 className="mb-8 text-[#0A6BB8] font-semibold leading-tight 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] ">{service.title}</h3>
                             <p className="text-[#000000] leading-tight 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[16px]">{service.description}</p>
                             <div className="xl:bottom-[30px] xl:absolute">
-                                <LearnMore href={service.knowMore} btnName="Know More" arialabel="kinaxis know more btn" />
+                                <LearnMore href={service.knowMore} btnName={t('knowMoreBtn')} arialabel="kinaxis know more btn" />
                             </div>
                         </div>
                     ))}
@@ -545,14 +545,14 @@ export default function DemandPlusSection() {
                     <div className="bg-[#073259] xl:p-16 p-10">
                         <h2 className={`leading-tight pr-20 xl:pr-0  xl:text-[50px] text-[26px]
                           ${locale === "es"
-                                    ? "4xl:text-[60px]"
-                                    : locale === "fr"
-                                        ? "4xl:text-[52px]"
-                                        : "4xl:text-[60px]"
-                                }`}
-                        
+                                ? "4xl:text-[60px]"
+                                : locale === "fr"
+                                    ? "4xl:text-[52px]"
+                                    : "4xl:text-[60px]"
+                            }`}
+
                         >{t('sapAribaTitle')}</h2>
-                        <h3 className="xl:text-[40px] text-[22px] font-semibold leading-tight mt-5 pr-16 xl:pr-0">
+                        <h3 className="xl:text-[40px] text-[22px] font-semibold leading-tight mt-5 xl:pr-0">
                             {t('sapAribaSubTitle')}
                         </h3>
                         <h3 className="mt-5 leading-tight"> {t('sapAribaSubTitle2')}</h3>
@@ -560,7 +560,7 @@ export default function DemandPlusSection() {
                             {t('sapAribaDesc')}
                         </p>
                         <div className="absolute 4xl:mt-[10px] 2xl:mt-[13px] xl:mt-[13px]">
-                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>
@@ -568,12 +568,12 @@ export default function DemandPlusSection() {
             <div className="bg-[#555555] mt-0">
                 <div className={`pt-32 mx-[35px] xl:mx-0
                   ${locale === "es"
-                                    ? "xl:pt-64"
-                                    : locale === "fr"
-                                        ? "xl:pt-[19rem]"
-                                        : "xl:pt-64"
-                                }`}
-                
+                        ? "xl:pt-64"
+                        : locale === "fr"
+                            ? "xl:pt-[19rem]"
+                            : "xl:pt-64"
+                    }`}
+
                 >
                     <div className="xl:block hidden">
                         <Image
@@ -607,9 +607,9 @@ export default function DemandPlusSection() {
                         <h3 className="mt-8 xl:mt-0 pr-16 xl:pr-0 4xl:text-[30px] xl:text-[25px] text-[20px] leading-tight">{t('agentChatTitle')} </h3>
                         <p className="mt-5 font-normal">{t('agentChatDesc')}</p>
                         <h3 className="xl:text-[24px] text-[18px] mt-10">{t('highlightTitle')} </h3>
-                        <UnorderedList arrName={agentChatData} ulClassName="list-disc leading-tight xl:space-y-4 mb-10 font-light marker:font-bold marker:text-2xl pl-5 mt-5 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                        <UnorderedList arrName={agentChatData} ulClassName="list-disc leading-tight xl:space-y-4 mb-10 font-light marker:font-bold marker:text-2xl pl-5 mt-5 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="xl:mt-10">
-                            <LearnMore href="/products/agentchat" btnName="Know More" arialabel="kinaxis know more btn" />
+                            <LearnMore href="/products/agentchat" btnName={t('knowMoreBtn')} arialabel="kinaxis know more btn" />
                         </div>
                     </div>
                 </div>
@@ -627,11 +627,11 @@ export default function DemandPlusSection() {
                         className={`w-full
 
                           ${locale === "es"
-                                    ? "h-full 4xl:h-[840px] 2xl:h-[556px] xl:h-[665px]"
-                                    : locale === "fr"
-                                        ? "h-full 4xl:h-[945px] 2xl:h-[575px] xl:h-[665px]"
-                                        : "h-full 4xl:h-full 2xl:h-[556px] xl:h-[618px]"
-                                }`}
+                                ? "h-full 4xl:h-[840px] 2xl:h-[556px] xl:h-[665px]"
+                                : locale === "fr"
+                                    ? "h-full 4xl:h-[945px] 2xl:h-[575px] xl:h-[665px]"
+                                    : "h-full 4xl:h-full 2xl:h-[556px] xl:h-[618px]"
+                            }`}
                         priority
                         width={0}
                         height={0}
@@ -644,11 +644,11 @@ export default function DemandPlusSection() {
                         alt="Leading the Future"
                         className={`object-cover w-full
                           ${locale === "es"
-                                    ? "h-[900px] md:h-[722px]"
-                                    : locale === "fr"
-                                        ? "h-[1021px] md:h-[722px]" 
-                                        : "h-[850px] md:h-[725px] [@media(max-width:400px)]:h-[940px]"
-                                }`}
+                                ? "h-[955px] [@media(min-width:375px)]:h-[905px] [@media(min-width:414px)]:h-[900px] [@media(min-width:390px)]:h-[908px] [@media(min-width:430px)]:h-[875px] [@media(min-width:412px)]:h-[875px] [@media(min-width:768px)]:h-[725px] [@media(min-width:820px)]:h-[725px] [@media(min-width:1024px)]:h-[670px]"
+                                : locale === "fr"
+                                    ? "h-[1021px] [@media(min-width:375px)]:h-[985px] [@media(min-width:414px)]:h-[900px] [@media(min-width:390px)]:h-[930px] [@media(min-width:430px)]:h-[875px] [@media(min-width:412px)]:h-[900px] [@media(min-width:768px)]:h-[725px] [@media(min-width:820px)]:h-[725px] [@media(min-width:1024px)]:h-[770px]"
+                                    : "h-[940px] [@media(min-width:375px)]:h-[875px] [@media(min-width:414px)]:h-[850px] [@media(min-width:390px)]:h-[850px] [@media(min-width:430px)]:h-[850px] [@media(min-width:412px)]:h-[855px] [@media(min-width:768px)]:h-[725px] [@media(min-width:820px)]:h-[700px] [@media(min-width:1024px)]:h-[770px]"
+                            }`}
                         priority
                         width={0}
                         height={0}
@@ -661,7 +661,7 @@ export default function DemandPlusSection() {
                         <p className="mt-8 font-light 4xl:text-[20px] text-[16px]">{t('leadingDesc')} </p>
                         <UnorderedList arrName={leadingData} ulClassName="list-disc leading-tight xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 mt-5  xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="absolute 4xl:mt-16 2xl:mt-4 xl:mt-8 mt-10 md:mt-20 max-[768px]:mt-16 ">
-                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                     <div className="col-span-6"></div>
@@ -669,7 +669,7 @@ export default function DemandPlusSection() {
             </section>
             {/* contact form */}
             <div className="mt-20 custom-container text-black pb-20" >
-                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={"4xl:max-w-[60rem] xl:max-w-[40rem] leading-tight text-[26px] font-light 4xl:text-[60px] xl:text-[40px] pr-10 xl:pr-0"} />
+                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={"4xl:max-w-[60rem] xl:max-w-[40rem] leading-tight text-[26px] font-light 4xl:text-[60px] xl:text-[40px] xl:pr-0"} />
             </div >
         </div>
     );

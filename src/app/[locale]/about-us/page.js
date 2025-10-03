@@ -70,8 +70,8 @@ export default function About() {
     return (
         <div className="min-h-screen">
             <Seo
-                title="About Us | Rialtes - AI-Powered Business Transformation"
-                description="Rialtes delivers intelligent automation and digital transformation solutions, empowering businesses and putting customers at the center of success."
+              title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/about-us/"}
             />
