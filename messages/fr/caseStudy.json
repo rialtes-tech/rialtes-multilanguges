@@ -141,6 +141,8 @@
     },
     "yardiCaseStudy": {
         "headerTitle": "Partenaire YARDI de confiance pour la plus grande PHA d’Amérique du Nord",
+        "seoTitle": "Étude mise en œuvre Yardi : 5 ans et succès clés",
+        "seoDescription": "Découvrez comment nous avons accompagné 5 ans de transformation digitale avec Yardi AMS pour un succès durable.",
         "publicTitle": "Secteur Public",
         "date": "27 septembre 2024",
         "read": "8 min de lecture",
@@ -199,6 +201,8 @@
     },
     "automateCaseStudy": {
         "autoTitle": "Automatisation du traitement des commandes dans le secteur de la santé avec MuleSoft",
+        "seoTitle": "Étude MuleSoft : Automatisation des commandes Salesforce & SAP",
+        "seoDescription": "Découvrez comment MuleSoft a automatisé les flux de commandes complexes avec Salesforce et SAP.",
         "healthcare": "Santé",
         "date": "17 novembre 2024",
         "read": "8 min de lecture",
@@ -305,6 +309,8 @@
     },
     "digitizingCaseStudy": {
         "digitizingTitle": "Numériser le parcours patient avec Salesforce Health Cloud",
+        "seoTitle": "Étude Salesforce Health Cloud : Parcours patient numérisé",
+        "seoDescription": "Découvrez comment Salesforce transforme le parcours patient grâce au numérique, améliorant soins, accès et engagement.",
         "healthcare": "Santé",
         "read": "8 min de lecture",
         "clientTitle": "Profil du client",
@@ -424,6 +430,8 @@
     },
     "empoweringCaseStudy": {
         "headerTitle": "150 commandes par jour, zéro travail manuel : la priorisation des commandes en libre-service grâce à Fiori",
+        "seoTitle": "SAP Fiori pour priorisation des commandes en production",
+        "seoDescription": "Découvrez comment un fabricant de toiture a utilisé SAP Fiori pour prioriser ses commandes, réduisant 150 ajustements manuels/jour et améliorant la précision.",
         "manufacturing": "Fabrication",
         "date": "28 Mai 2025",
         "read": "8 min de lecture",
@@ -514,6 +522,8 @@
     },
     "leadingCaseStudy": {
         "leadingTitle": "Un leader de l'industrie automobile a atteint un score de satisfaction client supérieur de 35 % grâce à AutoSense",
+        "seoTitle": "Gestion des garanties Salesforce : AutoSense en action | Rialtes",
+        "seoDescription": "Cette étude montre comment AutoSense a automatisé les garanties, réduit les erreurs et amélioré l’efficacité opérationnelle.",
         "Automotive": "Automobile",
         "date": "30 Juin 2025",
         "read": "8 min de lecture",
@@ -700,6 +710,8 @@
     },
     "omnichannelCaseStudy": {
         "serviceTitle": "Transformation de la gestion des cas omnicanal avec Salesforce Service Cloud",
+        "seoTitle": "Étude mise en œuvre Yardi : 5 ans et succès clés",
+        "seoDescription": "Découvrez comment nous avons accompagné 5 ans de transformation digitale avec Yardi AMS pour un succès durable.",
         "manufacturing": "Fabrication",
         "date": "14 octobre 2024",
         "read": "Lecture de 8 minutes",
@@ -766,6 +778,8 @@
     },
     "optimizingCaseStudy": {
         "salesTitle": "Rationalisation des ventes avec Salesforce Sales Cloud pour l'industrie manufacturière",
+        "seoTitle": "Étude Salesforce Sales Cloud : Optimisation des ventes",
+        "seoDescription": "Découvrez comment l’optimisation des ventes avec Sales Cloud a accéléré conversions et clôtures de contrats.",
         "manufacturing": "Fabrication",
         "date": "26 mars 2025",
         "read": "Lecture de 8 min",
@@ -854,6 +868,8 @@
     },
     "realForceCaseStudy": {
         "autoTitle": "Automatisation des paiements ACH et des écritures comptables avec notre module bancaire Exelona",
+        "seoTitle": "Étude Exelona : Préchargement ACH et journaux",
+        "seoDescription": "Découvrez comment Rialtes a optimisé le préchargement des ACH et journaux pour fiabiliser la finance.",
         "realEstate": "Immobilier",
         "date": "22 décembre 2024",
         "read": "8 min de lecture",
@@ -916,6 +932,8 @@
     },
     "autoSenseCaseStudy": {
         "dealerTitle": "Accélérer la Gestion des Concessionnaires avec AutoSense par Rialtes",
+        "seoTitle": "Révolution gestion concession auto avec AutoSense | Rialtes",
+        "seoDescription": "Découvrez comment Rialtes a transformé la gestion des concessions avec AutoSense : UX moderne, intégration SAP & Salesforce, opérations en temps réel.",
         "manufacturing": "Fabrication",
         "date": "03 Juin 2025",
         "read": "8 min de lecture",
@@ -1041,10 +1059,11 @@
                 "description": "Le système hérité n’était pas conçu pour évoluer avec le réseau de concessionnaires croissant du constructeur et son portefeuille de produits en expansion."
             }
         ]
-        
     },
     "salesForceCaseStudy": {
         "salesforceTitle": "Numérisation de l’Autorisation Préalable pour de Meilleurs Résultats pour les Patients",
+        "seoTitle": "Étude Salesforce Health Cloud : Autorisations simplifiées",
+        "seoDescription": "Découvrez comment Salesforce Health Cloud a accéléré les autorisations, simplifiant les flux de travail pour des soins plus rapides.",
         "healthcare": "Santé",
         "date": "02 août 2024",
         "read": "8 min de lecture",
@@ -1093,6 +1112,8 @@
     },
     "devopsCaseStudy": {
         "devopsTitle": "Transformation DevOps avec Copado et Salesforce",
+        "seoTitle": "Étude Salesforce DevOps : Optimiser les livraisons",
+        "seoDescription": "Découvrez comment le préchargement DevOps avec Copado et Salesforce a accéléré les livraisons et réduit les erreurs.",
         "manufacturing": "Fabrication",
         "date": "08 janvier 2025",
         "read": "8 min de lecture",
@@ -1206,6 +1227,8 @@
     },
     "mobileCaseStudy": {
         "claimTitle": "Réclamation en 4 Minutes : Rialtes Développe un Portail Mobile-First pour Transformer l’Expérience des Réclamations",
+        "seoTitle": "Étude Salesforce Experience Cloud : Portail mobile de garantie",
+        "seoDescription": "Découvrez comment une marque de toiture a créé une expérience de garantie mobile conviviale avec Experience Cloud.",
         "manufacturing": "Fabrication",
         "date": "30 mai 2025",
         "read": "8 min de lecture",
@@ -1281,6 +1304,8 @@
     },
     "warrantyClaimCaseStudy": {
         "warrantyTitle": "Adoption Améliorée de 40 % de l’Application de Garantie grâce à Salesforce Experience Cloud",
+        "seoTitle": "Étude : Experience Cloud pour fabricant de toiture | Rialtes",
+        "seoDescription": "Découvrez comment Rialtes a optimisé les réclamations de garantie et la satisfaction client avec Experience Cloud.",
         "manufacturing": "Manufacture",
         "read": "8 min de lecture",
         "clientTitle": "Profil du Client",
@@ -1303,6 +1328,8 @@
     },
     "yardiManageCaseStudy": {
         "yardiTitle": "Réduction des Temps d’Arrêt pour une Société Immobilière Multifamiliale grâce aux Services Gérés Yardi",
+        "seoTitle": "Étude Yardi : Réduire les temps d’arrêt en immobilier",
+        "seoDescription": "Découvrez comment nos services Yardi ont réduit les temps d’arrêt, optimisé la performance et l’efficacité opérationnelle.",
         "realEstate": "Immobilier",
         "date": "04 septembre 2024",
         "read": "8 min de lecture",
@@ -1354,6 +1381,8 @@
     },
     "eduplusCaseStudy": {
         "educationcloud": "Education",
+        "seoTitle": "Étude Salesforce Education Cloud | Rialtes",
+        "seoDescription": "Découvrez comment Edu+ sur Education Cloud a augmenté les inscriptions de 22% et amélioré le support étudiant grâce à l’IA et l’automatisation.",
         "date": "21 août 2025",
         "eduTitle": "Transformer la réussite des étudiants avec Salesforce Education Cloud et Edu+",
         "clientTitle": "Aperçu du Client",

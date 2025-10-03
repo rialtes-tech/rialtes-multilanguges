@@ -1,6 +1,8 @@
 {
     "industry": {
         "headerTitle": "Industries",
+        "seoTitle": "Solutions Salesforce & SAP par Secteur d’Activité | Rialtes",
+        "seoDescription": "Solutions Salesforce et SAP de Rialtes pour des résultats mesurables, des opérations fluides et une innovation accélérée dans chaque secteur.",
         "headerSubTitleOne": "Transformez la façon dont ",
         "headerSubTitleTwo": " vous interagissez avec ",
         "headerSubTitleThree": "vos clients",
@@ -84,6 +86,8 @@
     },
     "realEstate": {
         "headerTitle": "Gérez vos processus immobiliers avec un logiciel de gestion de biens basé sur le cloud",
+        "seoTitle": "Révolutionner la Gestion Immobilière pour le Secteur de l’Immobilier | Rialtes",
+        "seoDescription": "L’avenir de la gestion immobilière est là : automatisez vos locations, réduisez les vacances et améliorez le ROI avec un logiciel dédié.",
         "headerSubTitle": "IMMOBILIER",
         "realTitle": "Logiciel de gestion immobilière abordable pour vos opérations",
         "realDescOne": "Le marché immobilier est dynamique et imprévisible – mais votre entreprise ne doit pas l'être. Avec les bons outils et stratégies, les entreprises immobilières peuvent connaître une croissance constante d'année en année tout en dépassant les attentes des clients.",
@@ -370,6 +374,8 @@
             }
         ],
         "headerTitle": "Industrie des sciences de la vie",
+        "seoTitle": "Transformation Numérique des Sciences de la Vie avec l’IA | Rialtes",
+        "seoDescription": "Rialtes accélère la transformation numérique des sciences de la vie avec données connectées, insights IA et solutions cloud pour santé et pharma.",
         "headerSubTitle1": "Propulser la prochaine",
         "headerSubTitle2": "ère des sciences de la vie",
         "headerSubTitle3": "Intelligente, connectée,",
@@ -500,6 +506,8 @@
             }
         ],
         "headerTitle": "SANTÉ",
+        "seoTitle": "Conseil en Santé MedTech et Solutions de Soins aux Patients | Rialtes",
+        "seoDescription": "Rialtes propose conseil MedTech et solutions IA pour améliorer les résultats cliniques et optimiser les opérations de santé.",
         "headerSubTitle": "Redéfinir les soins de santé en plaçant les patients au centre",
         "pageDescTitle": "Soins aux patients et solutions MedTech basés sur Salesforce Health Cloud",
         "pageDesc1": "L’industrie de la santé connaît une transformation numérique majeure. Du cabinet médical au domicile, les patients ont accès à plus d’options de soins que jamais, grâce aux avancées non seulement de la technologie médicale mais aussi des solutions informatiques pour la santé.",
@@ -633,6 +641,8 @@
         ],
         "strategicTitle": "Les 4 Principaux Défis Stratégiques auxquels l’Industrie Pharmaceutique et Biotechnologique est Confrontée Aujourd’hui",
         "headerTitle": "Industrie Pharmaceutique",
+        "seoTitle": "Transformation Numérique dans l’Industrie Pharmaceutique et les Sciences de la Vie | Rialtes",
+        "seoDescription": "Rialtes accompagne la transformation numérique en pharma et sciences de la vie avec SAP et Salesforce, grâce à des solutions innovantes et conformes.",
         "headerSubTitle": "Accélérer l’innovation et la conformité pharmaceutique",
         "headerSubTitle2": "Solutions Pharma & Biotech de bout en bout par Rialtes",
         "pageDesc": "Les industries pharmaceutique et biotechnologique sont à la pointe des soins de santé mondiaux, mais elles font face à une pression croissante pour innover plus rapidement, rester conformes et garder une approche centrée sur le patient. Face à une concurrence accrue, des régulations changeantes et la nécessité d’accélérer la R&D, les solutions technologiques et basées sur l’IA deviennent essentielles au succès.",
@@ -796,6 +806,8 @@
             }
         ],
         "headerTitle": "Dispositifs Médicaux",
+        "seoTitle": "Solutions IT Basées sur Salesforce pour les Entreprises de Dispositifs Médicaux | Rialtes",
+        "seoDescription": "Avec Salesforce, Rialtes simplifie la conformité, améliore la traçabilité et accélère les ventes pour les entreprises de dispositifs médicaux.",
         "headerSubTitle": "Transformer l’innovation et la conformité des dispositifs médicaux",
         "headerSubTitle2": "Solutions Rialtes Life Sciences & Dispositifs Médicaux",
         "pageDesc": "Dans l’industrie des dispositifs médicaux en constante évolution, les entreprises subissent une pression immense pour innover rapidement, améliorer les résultats patients, assurer la conformité réglementaire et gérer des chaînes d’approvisionnement mondiales complexes. Chez Rialtes, nous apportons une expertise approfondie en dispositifs médicaux, SAP S/4 HANA, Salesforce Life Sciences Cloud et solutions pilotées par IA pour fournir des services de conseil, d’implémentation, d’intégration et post-mise en production de bout en bout, permettant aux entreprises de dispositifs médicaux d’accélérer leur croissance tout en restant conformes et centrées sur le patient.",
@@ -993,6 +1005,8 @@
             }
         ],
         "headerTitle": "Soins à domicile",
+        "seoTitle": "Solutions Technologiques de Soins à Domicile Alimentées par l’IA | Rialtes",
+        "seoDescription": "Rialtes propose des solutions technologiques de soins à domicile pilotées par l’IA pour un suivi personnalisé, virtuel et à distance.",
         "headerSubTitle": "Solutions technologiques",
         "headerSubTitle2": "Pour connecter les patients",
         "headerSubTitle3": "avec leurs prestataires",
@@ -1018,6 +1032,8 @@
     },
     "semiconductor": {
         "headerTitle": "Industrie des semi-conducteurs",
+        "seoTitle": "IA dans l’Industrie des Semi-conducteurs : Solutions IT Évolutives | Rialtes",
+        "seoDescription": "Rialtes déploie l’IA dans l’industrie des semi-conducteurs avec SAP et Salesforce pour accroître productivité, collaboration et prévisions.",
         "subTitleOne": "Favoriser",
         "subTitleTwo": "l'Innovation en Semi-conducteurs",
         "subTitleThree": "avec une Transformation Numérique",
@@ -1418,6 +1434,8 @@
     },
     "manufacturing": {
         "headerTitle": "Fabrication",
+        "seoTitle": "Solutions IT et ERP Cloud pour l’Industrie Manufacturière | Rialtes",
+        "seoDescription": "Rialtes fournit des solutions IT et ERP cloud pour l’industrie, afin de stimuler efficacité, innovation et transformation numérique à grande échelle.",
         "headerSubTitleOne": "Propulser l'avenir de la fabrication",
         "headerSubTitleTwo": "Plus intelligent, plus rapide, connecté",
         "drivingDesc": "Piloter la transformation digitale de bout en bout pour les fabricants grâce à l'IA, au Cloud et à l'automatisation intelligente. Rialtes permet aux entreprises manufacturières de dépasser les opérations traditionnelles et d'adopter des écosystèmes de fabrication de nouvelle génération, agiles, axés sur les données et centrés sur le client.",
@@ -1480,6 +1498,8 @@
     },
     "education": {
         "headerTitle": "Secteur de l'Éducation",
+        "seoTitle": "Solutions IT Salesforce Cloud pour le Secteur de l’Éducation | Rialtes",
+        "seoDescription": "Solutions IT pour l’éducation avec IA et Salesforce Cloud : de l’école au supérieur, transformez l’apprentissage avec Rialtes.",
         "headerSubTitle": "Favoriser l'avenir de l'éducation",
         "headerSubTitleOne": "Solutions de bout en bout de Rialtes pour la réussite des étudiants",
         "educationTitle": "Transformer l'éducation avec des expériences étudiantes pilotées par la technologie",
@@ -1639,6 +1659,8 @@
     },
     "finance": {
         "financeTitle": "Solutions pour le secteur financier",
+        "seoTitle": "Services et Solutions de Transformation Numérique de la Finance | Rialtes",
+        "seoDescription": "Rialtes propose un conseil expert en finance digitale avec SAP et Salesforce, pour transformer les institutions financières à l’échelle mondiale.",
         "financeDesc": "Façonner l'avenir des expériences financières intelligentes",
         "digitalTitle": "Accélérer la transformation digitale dans les services financiers",
         "digitalDesc": "Rialtes permet aux banques, assureurs, gestionnaires de patrimoine et sociétés immobilières d'innover en toute confiance. En tant que partenaire certifié Salesforce et SAP, nous offrons des services de bout en bout — du conseil au support post-déploiement — spécialisés dans Financial Services Cloud, SAP S/4HANA et les solutions IA. Grâce à notre présence mondiale et notre expertise sectorielle approfondie, nous aidons les institutions financières à se transformer en toute sécurité, rester conformes et offrir des expériences client exceptionnelles.",
@@ -1902,6 +1924,8 @@
             }
         ],
         "headerTitle": "Solutions pour l'industrie automobile",
+        "seoTitle": "Transformation Numérique dans l’Industrie Automobile | Rialtes",
+        "seoDescription": "Prêt pour la transformation numérique automobile ? Partenaire de confiance, Rialtes révolutionne votre secteur et alimente votre croissance.",
         "headerSubTitle": "Piloter la transformation digitale du showroom au service après-vente",
         "pageDescTitle": "Alimenter l’écosystème automobile de nouvelle génération avec Rialtes",
         "pageDesc": "L'industrie automobile est en pleine mutation — des modèles traditionnels centrés sur le concessionnaire à un écosystème de mobilité connecté et centré sur le client. Les constructeurs, concessionnaires et fournisseurs doivent offrir des expériences omnicanales fluides, gérer des cycles de vie complexes des véhicules et fidéliser la clientèle dans un marché ultra-compétitif.",
@@ -2023,6 +2047,8 @@
             "Visualisations interactives et actionnables avec Tableau."
         ],
         "headerTitle": "Industrie du Voyage, du Transport et de l’Hôtellerie",
+        "seoTitle": "Solutions IT pour le Voyage et l’Hôtellerie | SAP et Salesforce | Rialtes",
+        "seoDescription": "Réinventez voyage et hôtellerie avec des solutions IT IA, SAP et Salesforce pour réservation en temps réel, fidélisation et efficacité accrue.",
         "headerSubTitle": "Propulser l’expérience Travel, Transport & Hospitality de nouvelle génération",
         "pageDescTitle": "Élever les parcours clients, moderniser les opérations et générer de nouveaux revenus avec IA, SAP et Salesforce",
         "pageDesc1": "Chez Rialtes, nous transformons l'industrie Travel, Transport et Hôtellerie (TTH) grâce à des solutions prêtes pour l’avenir, basées sur SAP, Salesforce, MuleSoft et Oracle. Des compagnies aériennes aux hôtels, des croisiéristes aux prestataires logistiques, notre expertise sectorielle permet de délivrer des expériences clients inoubliables.",
@@ -2198,7 +2224,9 @@
             "Intégration avec e-commerce, POS et systèmes d’entrepôt."
         ],
         "headerTitle": "Industrie Retail",
-         "learnMoreBtn": "En savoir plus",
+        "seoTitle": "Transformation Numérique du Commerce de Détail avec SAP | Rialtes",
+        "seoDescription": "Rialtes stimule la transformation numérique du retail avec SAP et Salesforce : solutions agiles, intelligentes et centrées client.",
+        "learnMoreBtn": "En savoir plus",
         "headerSubTitle": "Rialtes : Votre partenaire de confiance pour l’innovation dans le Retail",
         "pageDescTitle": "Permettre aux détaillants de prospérer dans un monde centré sur le client et piloté par l’IA",
         "pageDesc1": "Dans le retail, le succès réside dans la création d’expériences fluides et personnalisées sur tous les canaux tout en gérant la complexité opérationnelle en arrière-plan. Chez Rialtes, nous permettons aux détaillants d’embrasser l’avenir du commerce en unifiant processus métiers, engagement client et analyses intelligentes via des partenariats stratégiques avec SAP, Salesforce, MuleSoft et Oracle.",
@@ -2399,6 +2427,8 @@
             }
         ],
         "headerTitle": "Secteur Non-Profit",
+        "seoTitle": "Transformation Numérique et Solutions IT pour les Organisations à But Non Lucratif | Rialtes",
+        "seoDescription": "Rialtes aide les associations avec des solutions IT intelligentes et une transformation digitale pour fluidifier dons, subventions et bénévolat.",
         "headerSubTitle": "Transformer l’impact des ONG avec Rialtes",
         "headerSubTitle2": "Solutions technologiques de bout en bout pour organisations à but non lucratif",
         "pageDescTitle": "Maximiser l’impact des ONG grâce à la technologie et à la stratégie",

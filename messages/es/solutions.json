@@ -1,6 +1,8 @@
 {
   "sapBdc": {
     "headerTitle": "Nube de Datos Empresariales de SAP",
+    "seoTitle": "SAP Business Data Cloud: Termina el Caos de Datos Hoy | Rialtes",
+    "seoDescription": "SAP Business Data Cloud transforma caos en claridad con una única fuente de verdad. Toma mejores decisiones con Rialtes hoy mismo.",
     "headerSubtitle": "Desbloquea el futuro de los datos con SAP Business Data Cloud",
     "unifyTitle": "Unifica los datos de tu empresa, desde las finanzas hasta la primera línea",
     "unifyDesc": "Rialtes te ayuda a conectar y armonizar los datos empresariales en todas tus aplicaciones de negocio.\nCon SAP Business Data Cloud, te ayudamos a integrarlos:",
@@ -216,12 +218,14 @@
   },
   "datasphere": {
     "headerTitle": "SAP Datasphere",
+    "seoTitle": "Implementación de SAP Datasphere con Servicios de Consultoría en IA | Rialtes",
+    "seoDescription": "¿Necesitas datos inteligentes? Rialtes combina IA y experiencia en SAP Datasphere para unificar sistemas, optimizar flujos y asegurar el éxito.",
     "headerSubtitle": "Libera el poder de los lagos de datos impulsados por IA con Rialtes y SAP Datasphere",
     "pageDescTitle": "Prepara tu empresa para el futuro con consolidación inteligente de datos, información basada en IA e integración sin fisuras",
     "pageDesc1": "En el panorama competitivo actual, los datos son la nueva moneda. Sin embargo, la mayoría de las organizaciones luchan con datos fragmentados repartidos en múltiples sistemas como SAP, Salesforce, Oracle y más. Rialtes, como socio certificado de SAP, ofrece servicios de vanguardia con SAP Datasphere para consolidar y armonizar los datos empresariales, desbloqueando información en tiempo real impulsada por IA que genera valor e innovación.",
     "pageDesc2": "Con una profunda experiencia en SAP Datasphere y arquitecturas de datos lideradas por IA, convertimos la dispersión de datos en un activo unificado y poderoso, creando una empresa inteligente preparada para el futuro.",
     "whyRialtesTitle": "¿Por qué Rialtes?",
-      "learnMoreBtn": "Más información",
+    "learnMoreBtn": "Más información",
     "whyRialtesSubTitle": "Tu socio en SAP Datasphere impulsado por IA para el éxito de extremo a extremo",
     "whyrialtessectiondata": [
       "Servicios para todo el ciclo de vida: Consultoría, Diseño, Implementación, Integración y Optimización con IA posterior al lanzamiento.",
@@ -355,6 +359,8 @@
   },
   "agentForce": {
     "headerTitle": "Agentforce",
+    "seoTitle": "Consultoría Agentforce | Automatiza Inteligente con Rialtes",
+    "seoDescription": "¿Listo para escalar mejor? Agentforce Consulting de Rialtes ofrece agentes Salesforce que automatizan, se adaptan y generan éxito más rápido.",
     "headerDesc": "Humanos + Agentes automatizan tareas rutinarias para impulsar el éxito del cliente",
     "headerOne": "Salesforce Agentforce:",
     "headerTwo": "Qué necesitas saber",
@@ -526,12 +532,13 @@
   },
   "sapConsulting": {
     "headerTitle": "Consultoría SAP",
+    "seoTitle": "Servicios de Consultoría SAP y Socio de Implementación | Rialtes",
+    "seoDescription": "Rialtes, socio SAP de confianza para implementaciones con IA, integraciones más inteligentes y éxito SAP a largo plazo.",
     "headerSubTitle1": "Avanzando hacia",
     "headerSubTitle2": "un mejor mañana.",
     "headerSubTitle3": "Aprovechando los servicios de consultoría SAP para operaciones comerciales confiables.",
-    "KnowMore":"Saber más",
+    "KnowMore": "Saber más",
     "learnMore": "Aprender más",
-
     "solutionSuccess": [
       {
         "id": 1,
@@ -721,6 +728,8 @@
       "Mejora de la experiencia del cliente y resolución rápida de incidencias."
     ],
     "headerTitle": "Servicios Oracle EBS",
+    "seoTitle": "Servicios y Soluciones de Consultoría Oracle EBS | Rialtes",
+    "seoDescription": "OracleEBSPlus de Rialtes redefine la consultoría Oracle EBS, permitiendo a empresas visionarias liderar con mayor agilidad, visión profunda e innovación.",
     "headerSubtitle": "Modernizando tu empresa de principio a fin",
     "pageDescTitle": "Potencia tu empresa con las soluciones Oracle EBS de vanguardia de Rialtes, respaldadas por profundo conocimiento del sector, experiencia certificada y propiedad integral — desde asesoría hasta éxito post‑implementación.",
     "pageDesc": "Como socio certificado de Oracle y Kinaxis, Rialtes ofrece la poderosa combinación de Oracle E‑Business Suite (EBS) y Kinaxis RapidResponse® a través de nuestra oferta estrella “EBSPlus”. Con oficinas globales en India, EE. UU., Canadá y Singapur, Rialtes está idealmente posicionado para liderar transformaciones globales de Oracle EBS en empresas de manufactura, retail, salud, semiconductores y más.",
@@ -782,6 +791,8 @@
   },
   "sapCpi": {
     "learnMore": "Aprender más",
+    "seoTitle": "Servicios de Integración SAP Cloud Platform (CPI) | Rialtes",
+    "seoDescription": "Rialtes ofrece servicios expertos en Integración SAP CPI para optimizar operaciones, conectar apps SAP y no SAP, y acelerar la transformación.",
     "thoughtLeadershipData": [
       "Sistemas desconectados y silos de datos que limitan la agilidad.",
       "Procesos manuales que consumen recursos y provocan errores.",
@@ -1010,7 +1021,9 @@
   },
   "uiPath": {
     "headerTitle": "Servicios de RPA con UiPath",
-     "learnMoreBtn": "Saber más",
+    "seoTitle": "Servicios y Soluciones de Consultoría RPA con UiPath | Rialtes",
+    "seoDescription": "¿Buscas servicios de consultoría RPA? Ayudamos a automatizar flujos SAP y Salesforce, reducir costos y mejorar eficiencia usando UiPath. Comienza hoy.",
+    "learnMoreBtn": "Saber más",
     "headerDesc": "Impulsando la automatización de próxima generación para una empresa más inteligente",
     "operationsTitle": "Transforma las operaciones de tu empresa con RPA inteligente.",
     "operationsDescOne": "En Rialtes, ayudamos a las empresas a aprovechar todo el potencial de la plataforma de Automatización Robótica de Procesos (RPA) de UiPath para automatizar procesos de extremo a extremo, reducir el esfuerzo manual, mejorar la precisión y fomentar un crecimiento escalable.",
@@ -1197,6 +1210,8 @@
   },
   "tosca": {
     "headerTitle": "Mejora la ingeniería de calidad con los servicios de pruebas automatizadas Tosca de Rialtes",
+    "seoTitle": "Servicios de Pruebas Automatizadas Tosca | Rialtes",
+    "seoDescription": "Rialtes ofrece servicios de pruebas automatizadas Tosca con IA, CI/CD y pruebas basadas en riesgos para transformar SAP, Salesforce y DevOps sin fricciones.",
     "headerSubTitle": "Tricentis TOSCA",
     "learnMoreBtn": "Saber más",
     "empowerTitleOne": "Impulsando a las empresas con",
@@ -1310,6 +1325,8 @@
   },
   "mulesoft": {
     "MmuleSoftTitle": "Soluciones de Integración MuleSoft",
+    "seoTitle": "Soluciones y Servicios de Consultoría MuleSoft | Rialtes",
+    "seoDescription": "Nuestras soluciones de consultoría MuleSoft facilitan el flujo de servicios digitales al liberar todo el potencial de sistemas Salesforce conectados.",
     "digitalOne": "Conectando Negocios",
     "digitaltwo": "Digitales utilizando la",
     "digitalThree": "Plataforma MuleSoft",
@@ -1404,6 +1421,8 @@
   },
   "salesForceConsulting": {
     "consultingTitle": "Servicios de Consultoría de Salesforce",
+    "seoTitle": "Implementación y Consultoría de Salesforce Data Cloud | Rialtes",
+    "seoDescription": "Rialtes impulsa tu negocio con consultoría experta en Salesforce Data Cloud para crecer, mejorar decisiones, innovar y lograr resultados sólidos.",
     "consultingDesc": "Transforma la forma en que interactúas con tus clientes",
     "clientsTitle": "Retener a tus clientes o buscar repetición: hazlo viable con la consultoría de Salesforce",
     "clientsDesc": "Rialtes es un socio de confianza en la comunidad de Salesforce. Sabemos cómo ir más allá de lo básico de Salesforce, personalizando y ampliando sus capacidades con nuestras soluciones de Salesforce. Contamos con un sistema dinámico basado en recursos para configurar la arquitectura en la nube sin inconvenientes y automatizar tus procesos empresariales.",
@@ -1641,6 +1660,8 @@
       }
     ],
     "revenueTitle": "Salesforce Revenue Cloud",
+    "seoTitle": "Socio de Implementación Salesforce Revenue Cloud | Rialtes",
+    "seoDescription": "Rialtes, socio de confianza en Salesforce Revenue Cloud, ofrece soluciones a medida para transformar ventas, facturación e ingresos.",
     "revenueSubTitle": "Gestione Flujos de Ingresos y Relaciones con Clientes en un Solo Lugar",
     "simplifyTitle": "Simplifique la Generación de Ingresos de su Empresa con Revenue Cloud",
     "simplifyDesc": "Aproveche la experiencia de nuestros profesionales de Salesforce para implementar una solución de gestión de ingresos altamente efectiva. La completa suite de soluciones de software basadas en la nube está diseñada para ayudar a las empresas a optimizar y agilizar todo su ciclo de ingresos.",
