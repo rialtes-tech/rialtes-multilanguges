@@ -119,8 +119,8 @@ export default function page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Salesforce Financial Services Cloud Consulting | RialFinance+"
-                description="Rialtes RialFinance+ delivers Salesforce Financial Services Cloud (FSC) consulting with AI-led design, strategic advisory, implementation, and 24/7 support."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical="https://www.rialtes.com/services/lob/salesforce-fsc-consulting-rialfinanceplus/"
             />
             <Script

@@ -333,8 +333,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white text-black">
       <Seo
-        title="Rialtes Blogs | Salesforce, SAP, AI, and Cloud Insights"
-        description="Read expert blogs on Salesforce, SAP, cloud, and AI. Stay ahead with the latest innovation and digital transformation insights from Rialtes."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/blogs/"
       />
       <Script

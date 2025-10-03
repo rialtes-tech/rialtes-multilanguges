@@ -397,6 +397,8 @@
   },
   "contactUs": {
     "headerTitle": "Our presence across the Globe",
+    "seoTitle":"Contact Us – Expert IT Consulting for Your Business Growth | Rialtes",
+    "seoDescription":"Have a question or need IT consulting services? Contact Rialtes for expert advice on SaaS solutions and IT strategy that drive business success.",
     "headerSubtitle": "How can we help you?",
     "headerDesc": "Contact us, we would love to hear from you",
     "contactUsTitle": "Ready to take the next step? Let’s kick off your journey to operational excellence"
@@ -410,6 +412,8 @@
   },
   "termsUse": {
     "termsTitle": "Rialtes Terms of Use",
+    "seoTitle":"Terms of Use | Rialtes",
+    "seoDescription":"Review the terms and conditions for using Rialtes’ website, services, and content. Understand your rights, responsibilities, and legal disclaimers.",
     "termsDesc": "By accessing and using this website, you acknowledge and agree to be bound by the following terms and conditions, without limitation or qualification. These terms govern your use of our Website, including all content, services, and functionalities. If you do not agree with these terms, please refrain from using our Website.",
     "termsDescOne": "All content on this Website, including but not limited to text, images, graphics, logos, icons, videos, software, and the arrangement of such content, is the exclusive property of Rialtes Technologies and Solutions LLC unless otherwise stated. This content is protected under applicable copyright, trademark, and other intellectual property laws. All trademarks, trade names, and logos displayed on this Website are the property of their respective owners. Unauthorized use of any content, trademarks, or intellectual property from this Website may violate applicable laws and result in legal consequences.",
     "useTitle": "Use of Website and Restrictions",
@@ -459,6 +463,8 @@
   },
   "privacyPolicy": {
     "headerTitle": "Privacy Policy",
+    "seoTitle":"Privacy Policy | Rialtes",
+    "seoDescription":"Read Rialtes' Privacy Policy to understand how we collect, use, and protect your personal information while delivering exceptional IT consulting services.",
     "headerDate": "Effective Date: ",
     "headerDesc": "We value your privacy and are committed to protecting your data. This Privacy Notice explains how we collect, use, disclose, and protect your information when you visit our Website",
     "headerDescOne": ". It also describes your rights and choices regarding your personal information.",

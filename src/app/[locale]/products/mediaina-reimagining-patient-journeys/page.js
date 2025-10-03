@@ -132,8 +132,8 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="MediAIna - Redefining Patient Journey Mapping in Healthcare"
-                description="MediAIna puts patients at the center by mapping every care moment with Salesforce Cloud and Rialtes' LifeAI+ to enable truly connected, human-first healthcare."
+                title={t('seoTitle')}   
+                description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/"
             />

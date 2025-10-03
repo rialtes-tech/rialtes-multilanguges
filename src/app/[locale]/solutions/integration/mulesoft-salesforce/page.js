@@ -123,8 +123,8 @@ const page = () => {
   return (
     <>
       <Seo
-        title="MuleSoft Integration Consulting Solutions and Services | Rialtes"
-        description="Our MuleSoft integration consulting solutions make digital services flow effortlessly by unleashing the full power of connected Salesforce systems."
+          title={t('seoTitle')}
+          description={t('seoDescription')}
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/solutions/integration/mulesoft-salesforce/"
       />

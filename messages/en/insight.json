@@ -1,5 +1,7 @@
 {
   "insights": {
+    "seoTitle": "Rialtes Insights Hub | Salesforce and SAP | Rialtes",
+    "seoDescription": "Stay ahead with Rialtes insights: access blogs, real-world case studies, and webinars on Salesforce, SAP, and digital innovation.",
     "insightTitle": "Stay Ahead with Expert Industry Insights",
     "insightDesc": "Take a tour of our insights section to see our latest blogs, press releases, case studies, news coverage, updates and upcoming events.",
     "featuredTitle": "Featured Blog",
@@ -70,6 +72,8 @@
   },
   "news": {
     "newsTitle": "News",
+    "seoTitle": "Rialtes News | PR Highlights and Industry Collaborations",
+    "seoDescription": "From headline PR to powerful partnerships—explore how Rialtes leads industry change with innovation, tech moves, and smart collaborations.",
     "newsDesc": "Explore how we’re shaping the future of businesses worldwide. Your go-to source for the latest updates, achievements, and innovations from Rialtes. Stay informed with our latest news, press releases, and industry insights as we continue to push boundaries in process consulting, AI-driven enterprise solutions, and digital transformation.",
     "readMore": "Read More",
     "loadMore": "Load more",
@@ -101,6 +105,8 @@
     ]
   },
   "blogs": {
+    "seoTitle": "Rialtes Blogs | Salesforce, SAP, AI, and Cloud Insights",
+    "seoDescription": "Read expert blogs on Salesforce, SAP, cloud, and AI. Stay ahead with the latest innovation and digital transformation insights from Rialtes.",
     "searchTitle": "Search result by",
     "industry": "industry",
     "category": "category",
@@ -570,6 +576,8 @@
     ]
   },
   "webinars": {
+    "seoTitle": "SAP and Salesforce Tech Webinars by a Trusted Partner | Rialtes",
+    "seoDescription": "Salesforce tech webinars and SAP sessions by Rialtes. Learn from experts, explore innovations, and boost your digital transformation strategy.",
     "allWebinars": [
       {
         "id": 6,
@@ -642,6 +650,8 @@
     "openNow": " Open Now"
   },
   "caseStudy": {
+    "seoTitle": "Salesforce and SAP Wins | Case Studies That Inspire | Rialtes",
+    "seoDescription": "Explore SAP and Salesforce case studies from Rialtes. See how global businesses drive AI-powered innovation, efficiency, and ROI through smart tech solutions.",
     "headerTitle": "caseStudy",
     "headerSubTitle": "Success Stories That Inspire",
     "headerDesc": "Discover how Rialtes empowers businesses with transformative SAP and Salesforce solutions. Our case studies highlight real-world success stories, showcasing how organizations across industries have leveraged our expertise to optimize operations, enhance customer experiences, and drive growth.",

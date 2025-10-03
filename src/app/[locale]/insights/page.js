@@ -82,8 +82,8 @@ export default function InsightsPage() {
   return (
     <div className="min-h-scree">
       <Seo
-        title="Rialtes Insights Hub | Salesforce and SAP | Rialtes"
-        description="Stay ahead with Rialtes insights: access blogs, real-world case studies, and webinars on Salesforce, SAP, and digital innovation."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/"
       />
       <Script

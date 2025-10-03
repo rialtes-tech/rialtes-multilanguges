@@ -811,8 +811,8 @@ export default function page() {
     return (
         <>
             <Seo
-                title="Digital Transformation in Automotive Industry | Rialtes"
-                description="Ready for digital transformation in automotive? Partner with Rialtes to revolutionize your automotive industry journey and fuel future growth."
+                title={t("seoTitle")}
+                desc={t("seoDescription")}
                 canonical="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/"
             />
             <Script

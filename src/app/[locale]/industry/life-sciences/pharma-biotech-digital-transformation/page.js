@@ -128,8 +128,8 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Digital Transformation in Pharma and Life Sciences Industry | Rialtes"
-                description="Rialtes enables Digital Transformation in Pharma and Life Sciences Industry with SAP and Salesforce, delivering innovative and compliant solutions globally."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical="https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/"
             />
             <Script

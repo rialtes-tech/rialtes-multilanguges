@@ -180,8 +180,8 @@ export default function page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="Salesforce Life Sciences Cloud Consulting Services | Rialtes"
-                description="LifeAI+ by Rialtes provides Salesforce Life Sciences cloud consulting to streamline healthcare operations, enhance compliance, and elevate patient care"
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/"
             />

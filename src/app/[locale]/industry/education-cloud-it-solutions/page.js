@@ -141,8 +141,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Salesforce Cloud IT Solutions for Education Industry | Rialtes"
-        description="IT solutions for education using AI and Salesforce Cloud empower K–12 to higher ed to transform learning. Explore smarter outcomes with Rialtes today."
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         canonical="https://www.rialtes.com/industry/education-cloud-it-solutions/"
       />
       <Script

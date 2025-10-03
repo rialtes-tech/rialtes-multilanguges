@@ -112,8 +112,8 @@ export default function page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="SAP Cloud Platform Integration (CPI) Consulting | Rialtes"
-                description="Smarter cloud integration with SAP CPI. Empower enterprise agility, drive innovation, and unlock speed with AI-powered automation and real-time insights."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical="https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting/"
             />
             <Script

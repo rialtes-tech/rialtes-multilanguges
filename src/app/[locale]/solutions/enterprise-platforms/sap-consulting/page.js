@@ -113,8 +113,8 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="SAP Consulting and Implementation Services Company | Rialtes"
-                description="Our SAP consulting and implementation services, with AI at their core, simplify the process, so you can focus on what matters most—growing your business."
+               title={t('seoTitle')}
+               description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/"}
             />
