@@ -151,6 +151,6 @@ export default function Page() {
       <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
         <RelatedCaseStudies url={currUrl} currTopic={t('realEstate')} />
       </section>
-    </section >
+    </section>
   );
 }
