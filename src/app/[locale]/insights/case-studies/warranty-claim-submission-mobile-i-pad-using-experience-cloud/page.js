@@ -54,8 +54,8 @@ export default function Page() {
   return (
     <section className="min-h-screen">
       <Seo
-        title=" Salesforce Experience Cloud Case Study: Mobile Warranty Portal | Rialtes"
-        description=" Discover how a leading roofing brand used Salesforce Experience Cloud to deliver a mobile-friendly warranty claim experience customers love."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/"
       />
 

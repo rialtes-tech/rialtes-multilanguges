@@ -54,8 +54,8 @@ export default function Page() {
   return (
     <section className="min-h-screen">
       <Seo
-        title="Salesforce Health Cloud Case Study: Patient Journey Digitized"
-        description="Discover how healthcare is transforming with a digital-first patient journey powered by Salesforce, enhancing care, access, and patient engagement."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/" />
       <Script
         id="schema-digitizing"

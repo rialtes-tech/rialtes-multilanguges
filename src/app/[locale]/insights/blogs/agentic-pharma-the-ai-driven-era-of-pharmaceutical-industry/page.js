@@ -58,8 +58,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Agentic AI Pharma: Automating Complex Pharma Workflows | Rialtes"
-        description="Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention"
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical={"https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry/"}
       />
       <Script

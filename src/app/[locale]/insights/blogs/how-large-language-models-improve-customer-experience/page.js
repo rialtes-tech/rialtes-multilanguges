@@ -128,8 +128,8 @@ export default function Page() {
   return (
     <div className="min-h-screen">
       <Seo
-        title="Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes"
-        description="Learn the key differences between bots, copilots, and AI agents. Choose the best AI automation tool to scale productivity and transform workflows."
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         keywords="Partners, website, welcome"
         canonical={
           "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"

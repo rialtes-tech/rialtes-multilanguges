@@ -51,8 +51,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="SAP Joule AI: Powering the Future of Enterprise | Rialtes"
-        description="SAP Joule AI transforms business operations by enabling faster decision-making, giving users instant answers without navigating complex dashboards."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical={"https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"}
       />
       <Script

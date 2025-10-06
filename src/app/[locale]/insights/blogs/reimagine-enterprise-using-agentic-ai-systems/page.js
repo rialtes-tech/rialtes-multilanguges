@@ -94,8 +94,8 @@ export default function Page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title=""
-                description=""
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical={"  https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"}
             />
 

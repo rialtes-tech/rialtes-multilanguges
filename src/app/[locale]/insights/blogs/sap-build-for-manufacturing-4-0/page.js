@@ -114,8 +114,8 @@ export default function Page() {
   return (
     <section className="min-h-screen">
       <Seo
-        title="SAP Build for Manufacturing Sector: Cut Downtime 30% | Rialtes"
-        description="Discover how SAP Build helps manufacturers accelerate innovation, reduce downtime, and empower teams with low-code apps and automation."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="Partners, website, welcome"
         canonical={
           "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0/"
