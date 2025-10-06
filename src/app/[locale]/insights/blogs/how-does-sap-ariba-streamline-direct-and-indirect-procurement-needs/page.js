@@ -43,9 +43,9 @@ const fullUrl = "https://www.rialtes.com/insights/blogs/how-does-sap-ariba-strea
 export default function Page() {
   const t = useTranslations("howDoesSapAribaStreamline");
   const locale = useLocale();
-   const currUrl = useUrl()
+  const currUrl = useUrl()
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { blogs, procurementData, mainActivityData, aribaOptimizesData } = content.howDoesSapAribaStreamline
+  const {  procurementData, mainActivityData, aribaOptimizesData } = content.howDoesSapAribaStreamline
   return (
     <div className="min-h-screen bg-white">
       <Seo

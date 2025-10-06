@@ -1,8 +1,6 @@
 "use client";
-// pages/blog-detail.js
 import Image from "next/image";
 import Link from "next/link";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
@@ -109,8 +107,7 @@ export default function Page() {
     useCaseList,
   } = blogsContent.howAgentforce;
 
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
   const currUrl = useUrl();
   return (
     <div className="min-h-screen bg-white">

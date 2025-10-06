@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from 'next/link';
-import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import { HeroSection } from "@/app/[locale]/components/herosection";
@@ -42,9 +41,9 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations("howSapSuccessFactorIntegration");
   const locale = useLocale();
-    const currUrl = useUrl()
+  const currUrl = useUrl()
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { blogs, blogMainData, hrmgmtData, roleIntegrationData, successFactorIntegration, empData } = content.howSapSuccessFactorIntegration
+  const { blogMainData, hrmgmtData, roleIntegrationData, successFactorIntegration, empData } = content.howSapSuccessFactorIntegration
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations";
 
   return (
@@ -145,7 +144,7 @@ export default function Page() {
                 {
                   roleIntegrationData.map((data, ind) => {
                     return (
-                      <li className="pb-2"><h3 className="h3-bold inline text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] " key={ind}>{data.title}</h3>{data.desc}</li>
+                      <li className="pb-2" key={ind}><h3 className="h3-bold inline text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.title}</h3>{data.desc}</li>
                     )
                   })
                 }
@@ -204,7 +203,7 @@ export default function Page() {
         </div>
       </section>
       {/* Latest Blogs */}
-      <div className="custom-container lg:pr-0">
+      <div className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
         <FilteredBlogCarousel url={currUrl} />
       </div>
     </div>

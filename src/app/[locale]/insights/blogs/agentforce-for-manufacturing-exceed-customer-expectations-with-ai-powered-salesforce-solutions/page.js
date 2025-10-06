@@ -103,7 +103,7 @@ export default function Page() {
       <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
-            
+
             {/* date and icons */}
             <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="21 July 2025" />
 
@@ -299,6 +299,6 @@ export default function Page() {
       <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
         <FilteredBlogCarousel url={currUrl} />
       </section>
-    </div >
+    </div>
   );
 }

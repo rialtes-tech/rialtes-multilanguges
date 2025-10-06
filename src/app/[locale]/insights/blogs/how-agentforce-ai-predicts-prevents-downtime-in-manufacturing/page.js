@@ -87,6 +87,10 @@ const schemaData = {
     }
 }
 
+
+// agentforceIndustry4  blog json name
+
+
 export default function Page() {
     const currUrl = useUrl()
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing";

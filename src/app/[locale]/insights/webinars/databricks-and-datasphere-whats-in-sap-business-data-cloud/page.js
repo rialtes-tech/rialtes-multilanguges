@@ -51,7 +51,7 @@ export default function () {
         <>
             <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud"
                 seoData={
-                    < Seo
+                    <Seo
                         title=" How SAP Business Data Cloud, Databricks & SAP Datasphere Unify Data"
                         description="Join our expert-led webinar on May 13 to learn how SAP Business Data Cloud, Databricks, and SAP Datasphere together simplify data unification, power AI, and drive business innovation."
                         canonical="https://www.rialtes.com/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"
