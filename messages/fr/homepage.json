@@ -1,5 +1,7 @@
 {
     "homePage": {
+        "seoTitle": "Société de Services et de Conseil en Informatique | Rialtes",
+        "seoDescription": "Libérez votre succès avec les services IT de Rialtes. Portés par l’IA, nous renforçons l’efficacité, la performance et une croissance durable.",
         "withImpactTitle": "avec Impact",
         "beyondTitle": "Au-delà des affaires : un engagement pour le changement",
         "innovatingData": "Rialtes est plus qu'un leader technologique — nous sommes des défenseurs du changement positif. Des initiatives de durabilité à l'autonomisation des voix sous-représentées, nous nous engageons à avoir un impact significatif.",
@@ -216,11 +218,11 @@
         "insightDesc2": "Restez à la pointe grâce aux perspectives d'experts, aux histoires de réussite et aux dernières innovations en IA.",
         "agentDesc": "Engagez, soutenez et concluez des affaires — tout via WhatsApp. Tout dans Salesforce.",
         "agentDesc2": "Connectez-vous et répondez aux clients via WhatsApp depuis n'importe quel enregistrement Salesforce — Prospects, Cas, Opportunités, Ordres de travail ou Objets personnalisés.",
-       "mediainaDescrip":"Transform Patient Care—From Discovery to Recovery → Transformez les Soins aux Patients : De la Découverte à la Récupération",
-       "mediainaDes2":"Powered by LifeAI+, Rialtes' consulting service dedicated to life sciences, MediAIana delivers intelligent, scalable, and compliant healthcare innovation at every stage of the patient journey. → Propulsé par LifeAI+, le service de conseil de Rialtes dédié aux sciences de la vie, MediAIana fournit une innovation en santé intelligente, évolutive et conforme à la réglementation à chaque étape du parcours du patient.",
-       "exelonaDescription":"Exelona™ – Your End-to-End Real Estate Command Center → Exelona™ – Votre Centre de Commande Immobilier de A à Z",
-       "exelonaDescription2":"Unites every stage of your property business—sales, operations, and finance into one AI-powered, mobile-ready platform, merging CRM and ERP for faster, smarter decisions. → Réunit chaque étape de votre activité immobilière—ventes, opérations et finances—dans une seule plateforme alimentée par l’IA et prête pour les mobiles, fusionnant CRM et ERP pour des décisions plus rapides et plus intelligentes",
-       "letsBeginBtn": "Commençons",
+        "mediainaDescrip": "Transform Patient Care—From Discovery to Recovery → Transformez les Soins aux Patients : De la Découverte à la Récupération",
+        "mediainaDes2": "Powered by LifeAI+, Rialtes' consulting service dedicated to life sciences, MediAIana delivers intelligent, scalable, and compliant healthcare innovation at every stage of the patient journey. → Propulsé par LifeAI+, le service de conseil de Rialtes dédié aux sciences de la vie, MediAIana fournit une innovation en santé intelligente, évolutive et conforme à la réglementation à chaque étape du parcours du patient.",
+        "exelonaDescription": "Exelona™ – Your End-to-End Real Estate Command Center → Exelona™ – Votre Centre de Commande Immobilier de A à Z",
+        "exelonaDescription2": "Unites every stage of your property business—sales, operations, and finance into one AI-powered, mobile-ready platform, merging CRM and ERP for faster, smarter decisions. → Réunit chaque étape de votre activité immobilière—ventes, opérations et finances—dans une seule plateforme alimentée par l’IA et prête pour les mobiles, fusionnant CRM et ERP pour des décisions plus rapides et plus intelligentes",
+        "letsBeginBtn": "Commençons",
         "SalesforceDataCloud": "Salesforce Data Cloud",
         "dataSphere": "DataSphere",
         "sapBusinessDataCloud": "SAP Business Data Cloud",
@@ -397,7 +399,9 @@
         "headerTitle": "Notre présence à travers le monde",
         "headerSubtitle": "Comment pouvons-nous vous aider ?",
         "headerDesc": "Contactez-nous, nous serions ravis d'avoir de vos nouvelles",
-        "contactUsTitle": "Prêt à passer à l'étape suivante ? Commençons votre parcours vers l'excellence opérationnelle"
+        "contactUsTitle": "Prêt à passer à l'étape suivante ? Commençons votre parcours vers l'excellence opérationnelle",
+        "seoTitle": "Contactez-nous – Conseil IT Expert pour la Croissance de Votre Entreprise | Rialtes",
+        "seoDescription": "Besoin de conseil IT ? Contactez Rialtes pour des solutions SaaS et des stratégies numériques qui accélèrent la réussite de votre entreprise."
     },
     "thankYou": {
         "thankYouTitle": "Merci",
@@ -408,6 +412,8 @@
     },
     "termsUse": {
         "termsTitle": "Conditions d'utilisation de Rialtes",
+        "seoTitle": "Conditions d’Utilisation | Rialtes",
+        "seoDescription": "Consultez les conditions d’utilisation du site, des services et contenus Rialtes. Comprenez vos droits, responsabilités et mentions légales.",
         "termsDesc": "En accédant et en utilisant ce site web, vous reconnaissez et acceptez d'être lié par les conditions générales suivantes, sans limitation ni réserve. Ces conditions régissent votre utilisation de notre site web, y compris tout contenu, service et fonctionnalité. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre site.",
         "termsDescOne": "Tout le contenu de ce site web, y compris, mais sans s'y limiter, les textes, images, graphiques, logos, icônes, vidéos, logiciels et l'agencement de ce contenu, est la propriété exclusive de Rialtes Technologies and Solutions LLC, sauf indication contraire. Ce contenu est protégé par les lois applicables sur le droit d'auteur, les marques et autres droits de propriété intellectuelle. Toutes les marques, noms commerciaux et logos affichés sur ce site sont la propriété de leurs détenteurs respectifs. Toute utilisation non autorisée de contenu, de marques ou de propriété intellectuelle de ce site peut violer les lois applicables et entraîner des conséquences juridiques.",
         "useTitle": "Utilisation du site et restrictions",
@@ -457,6 +463,8 @@
     },
     "privacyPolicy": {
         "headerTitle": "Politique de Confidentialité",
+        "seoTitle": "Retrieving data. Wait a few seconds and try to cut or copy again.",
+        "seoDescription": "Lisez la Politique de Confidentialité de Rialtes pour savoir comment vos données sont collectées, utilisées et protégées avec nos services IT.",
         "headerDate": "Date d'entrée en vigueur: ",
         "headerDesc": "Nous respectons votre vie privée et nous nous engageons à protéger vos données. Cette notice de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web",
         "headerDescOne": ". Elle décrit également vos droits et vos choix concernant vos informations personnelles.",

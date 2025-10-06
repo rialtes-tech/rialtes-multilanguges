@@ -58,8 +58,8 @@ export default function Page() {
   return (
     <section className="min-h-screen">
       <Seo
-        title="How Does Salesforce Agentforce Work? | Rialtes"
-        description="Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!"
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         canonical="https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
       />
 

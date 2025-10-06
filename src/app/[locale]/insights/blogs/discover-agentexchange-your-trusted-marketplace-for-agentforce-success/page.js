@@ -52,8 +52,8 @@ export default function Page() {
   return (
     <section className="min-h-screen bg-white">
       <Seo
-        title="Why AgentExchange Is a Game-Changer | Rialtes"
-        description="AgentExchange is a thriving ecosystem where businesses, partners, and Agentblazers collaborate, share best practices, and drive the future of agentic AI together."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical={"https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/"}
       />
 

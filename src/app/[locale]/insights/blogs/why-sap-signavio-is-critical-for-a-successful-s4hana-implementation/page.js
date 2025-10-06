@@ -113,8 +113,8 @@ export default function Page() {
     return (
         <div className="min-h-screen">
             <Seo
-                title="SAP Signavio: Simplifying S/4HANA Implementation Success| Rialtes"
-                description="Ready for S/4HANA Implementation? Rialtes’ Voyager+ and SAP Signavio make the journey smooth, transparent, and built for scalable enterprise success."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="Partners, website, welcome"
                 canonical={
                     "https://www.rialtes.com/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/"

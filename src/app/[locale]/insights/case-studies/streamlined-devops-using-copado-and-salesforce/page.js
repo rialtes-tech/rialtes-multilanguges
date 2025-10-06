@@ -54,8 +54,8 @@ export default function Page() {
   return (
     <section className="min-h-screen">
       <Seo
-        title="Salesforce DevOps Case Study: How to Front Load Delivery"
-        description="Discover how front loading DevOps with Copado and Salesforce improved release speed and reduced manual errors for a tech-forward enterprise."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/case-studies/streamlined-devops-using-copado-and-salesforce/"
       />
 

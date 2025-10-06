@@ -1,13 +1,15 @@
 {
     "sapBuyPlus": {
         "headerTitle": "SAPBuy+",
+        "seoTitle": "Socio de Implementación SAP Ariba y Soluciones de Compras | Rialtes",
+        "seoDescription": "Como socio líder en Ariba, Rialtes transforma compras con SAPBuy+ y servicios expertos adaptados a las necesidades de la cadena moderna.",
         "headerSubTitle": "Transforma la Excelencia en Compras con los Servicios SAPBuy+ de Rialtes para SAP ARIBA",
         "pageDesc": "En Rialtes, ayudamos a las organizaciones a redefinir la eficiencia en las compras con SAP ARIBA, la principal solución en la nube para adquisiciones estratégicas, gestión de contratos, colaboración con proveedores y automatización del ciclo de compras a pagos. Con SAP ARIBA, las empresas pueden optimizar operaciones, reducir costos, asegurar el cumplimiento normativo e impulsar la participación de proveedores a nivel global.",
         "pageDesc2": "Como socio certificado de SAP con presencia global en Estados Unidos, Canadá, India y Singapur, Rialtes ofrece soluciones integrales de SAP ARIBA, que incluyen asesoría, implementación, integración y optimización continua. Nuestra suite de servicios SAPBuy+ garantiza una transformación completa en las compras, maximizando el retorno de inversión en SAP.",
         "contactTitle": "¿Listo para Impulsar tus Compras con SAP ARIBA?",
         "contactSubTitle": "Con la experiencia de Rialtes en SAP ARIBA, puedes optimizar compras, mejorar la colaboración con proveedores y reducir costos.",
         "contactSubTitle2": "¡Habla con nuestros expertos y transforma tus procesos de compras!",
-         "learnMore": "Aprender más",
+        "learnMore": "Aprender más",
         "whyChooseData": [
             {
                 "title": "Asesoría en Licencias SAP ARIBA",
@@ -191,6 +193,8 @@
     },
     "successPlus": {
         "headerTitle": "Success+",
+        "seoTitle": "Consultoría e Implementación de SAP SuccessFactors | Rialtes",
+        "seoDescription": "Success+ de Rialtes moderniza RRHH con consultoría e implementación SuccessFactors impulsada por IA para acelerar tu transformación HCM.",
         "headerSubTitlep1": "Transformando RRHH para",
         "headerSubTitlep2": " la Empresa Moderna",
         "headerSubTitle2": "Success+ de Rialtes",
@@ -374,8 +378,10 @@
     },
     "kinaxis": {
         "headerTitle": "DemandPlus",
-          "learnMoreBtn": "Saber más",
-          "knowMoreBtn": "Saber más",
+        "seoTitle": "Kinaxis RapidResponse para SCM Ágil con Rialtes DemandPlus",
+        "seoDescription": "Reimagina cadenas de suministro resilientes con Kinaxis RapidResponse y DemandPlus de Rialtes—soluciones SCM inteligentes para agilidad, velocidad y precisión.",
+        "learnMoreBtn": "Saber más",
+        "knowMoreBtn": "Saber más",
         "headerSubTitle": "Transforma tu cadena de suministro con DemandPlus de Rialtes para Kinaxis RapidResponse",
         "pageDescTitle": "Agilidad, Precisión y Resiliencia en la cadena de suministro — Impulsadas por Kinaxis y Rialtes",
         "pageDesc1": "En el volátil y complejo panorama actual de la cadena de suministro, las empresas necesitan visibilidad en tiempo real, planificación ágil e insights predictivos para mantenerse competitivas. Los servicios DemandPlus de Rialtes, basados en Kinaxis RapidResponse, ofrecen transformación integral de la cadena de suministro, permitiendo planificar, monitorear y responder en tiempo real.",
@@ -660,6 +666,8 @@
             }
         ],
         "headerTitle": "VoyagerNext",
+        "seoTitle": "Crece con Soluciones SAP de un Socio de Confianza | Rialtes",
+        "seoDescription": "Crece con soluciones SAP que impulsan el éxito empresarial medible, con Rialtes—un socio SAP confiable que lidera la innovación y el crecimiento empresarial.",
         "headerSubTitle": "Crece más rápido e inteligentemente con VoyagerNext de Rialtes",
         "headerSubTitle2": "Tu socio para la transformación con SAP S/4HANA Cloud",
         "pageDescTitle": "Libera el poder de SAP S/4HANA Cloud con los servicios VoyagerNext de Rialtes",
@@ -854,6 +862,8 @@
             }
         ],
         "headerTitle": "Voyager+",
+        "seoTitle": "Servicios Rise with SAP de un Socio de Implementación Confiable | Rialtes",
+        "seoDescription": "¿Buscas un socio confiable para implementar Rise with SAP? Voyager+ de Rialtes ofrece servicios a medida para una transformación S/4HANA sin fricciones.",
         "headerSubTitle": "Acelera tu Transformación Digital con Rialtes Voyager+ para RISE with SAP",
         "pageDescTitle": "Desbloquea el Futuro de la Empresa Inteligente con un Socio SAP Confiable",
         "pageDesc": "En Rialtes, ayudamos a las organizaciones a preparar su futuro con RISE with SAP — combinando experiencia profunda en la industria, un equipo certificado en SAP y metodologías comprobadas. Como socio certificado de SAP con presencia global en Estados Unidos, Canadá, India y Singapur, Rialtes está en una posición única para entregar transformaciones completas de SAP S/4HANA que van más allá de la tecnología y generan resultados reales.",
@@ -896,6 +906,8 @@
     },
     "autoSense": {
         "keyPillarsTitle": "Pilares Clave de AutoSense",
+        "seoTitle": "Soluciones Salesforce Automotive Cloud y Servicios | Rialtes AutoSense",
+        "seoDescription": "AutoSense de Rialtes impulsa Salesforce Automotive Cloud para lograr eficiencia e innovación, mejorando experiencias del cliente automotriz.",
         "keyPillarsSectionData": [
             {
                 "imageUrl": "/images/industry/auto-sense/strategic-advisory-img.webp",
@@ -1040,6 +1052,8 @@
     },
     "salesforceAgent": {
         "headerTitle": "SalesforceAgent+",
+        "seoTitle": "Proveedor de Servicios Gestionados Salesforce | Rialtes SalesforceAgent+",
+        "seoDescription": "¿Buscas un socio de servicios gestionados Salesforce? Rialtes impulsa innovación con SalesforceAgent+, haciendo tu plataforma más ágil e IA.",
         "headerSubTitleone": "Desata el Poder",
         "headerSubTitletwo": "de Salesforce con",
         "headerSubTitleThree": "SalesforceAgent+",
@@ -1403,7 +1417,9 @@
             "Modelos de compromiso flexibles, basados en resultados."
         ],
         "headerTitle": "SAP Digital Desk",
-         "learnMoreBtn": "Saber Más",
+        "seoTitle": "Proveedor de Servicios Gestionados SAP que Impulsa ROI y Agilidad | Rialtes",
+        "seoDescription": "Rialtes moderniza tu stack SAP con IA, automatización, apps en la nube e innovación continua como proveedor de servicios gestionados SAP.",
+        "learnMoreBtn": "Saber Más",
         "headerSubTitle": "Maximice su inversión en SAP con experiencia siempre disponible",
         "pageDescTitle": "Reimagine el Soporte SAP con los Servicios Gestionados de Rialtes",
         "pageDesc1": "En Rialtes, ayudamos a las organizaciones a operar sus paisajes SAP de manera más eficiente, segura y efectiva. SAP Digital Desk, nuestra plataforma de servicios gestionados de nueva generación, reúne experiencia SAP integral, desde estabilización e innovación hasta optimización continua, asegurando que sus sistemas SAP impulsen el crecimiento empresarial.",
@@ -1577,7 +1593,9 @@
             "Totalmente integrado con flujos de trabajo y automatización de Salesforce para conversaciones inteligentes en tiempo real."
         ],
         "headerTitle": "Retail+",
-          "learnMoreBtn": "Saber Más",
+        "seoTitle": "Servicios de Consultoría de Negocios Retail y Soluciones Omnicanal | Rialtes",
+        "seoDescription": "Retail+ de Rialtes ofrece consultoría experta en negocios retail y soluciones omnicanal con IA. Comienza tu transformación retail hoy.",
+        "learnMoreBtn": "Saber Más",
         "headerSubTitle": "Transformación minorista inteligente, conectada y escalable",
         "empoweringTitle": "Empoderando a minoristas globales con soluciones omnicanal impulsadas por IA",
         "empoweringDesc1": "En el panorama minorista dinámico y altamente competitivo de hoy, las expectativas del cliente evolucionan rápidamente, impulsadas por la hiperpersonalización, el compromiso omnicanal fluido y operaciones inteligentes. En Rialtes, aportamos más de una década de experiencia global en consultoría para ayudar a minoristas B2B y B2C a afrontar estos desafíos con éxito y lograr un crecimiento sostenible.",
@@ -1613,7 +1631,9 @@
     },
     "lifeAiPlus": {
         "headerTitle": "LifeAI+",
-         "learnMoreBtn": "Saber Más",
+        "seoTitle": "Servicios de Consultoría Salesforce Life Sciences Cloud",
+        "seoDescription": "LifeAI+ de Rialtes ofrece consultoría Salesforce Life Sciences para optimizar operaciones, cumplir normativas y mejorar la atención médica.",
+        "learnMoreBtn": "Saber Más",
         "headerSubTitle": "Transformando las Ciencias de la Vida con los Servicios LifeAI+ de Rialtes",
         "pageDescTitle": "Servicios en la Nube de Salesforce para Ciencias de la Vida: Innovación Inteligente y Cumplimiento con IA",
         "pageDesc1": "En Rialtes, comprendemos que la industria de las ciencias de la vida está evolucionando rápidamente, con crecientes expectativas de pacientes, proveedores, reguladores y socios. Para satisfacer estas demandas, las organizaciones necesitan soluciones inteligentes impulsadas por IA que integren cumplimiento normativo, personalización y automatización a escala.",
@@ -1868,7 +1888,9 @@
             "Soporte de extremo a extremo desde la asesoría hasta la optimización posterior al lanzamiento."
         ],
         "headerTitle": "Advantage+",
-         "learnMoreBtn": "Saber más",
+        "seoTitle": "Consultoría e Implementación de Salesforce Marketing Cloud",
+        "seoDescription": "Los servicios de consultoría e implementación de Salesforce Marketing Cloud de Rialtes Advantage+ ofrecen recorridos personalizados con IA, generando ROI real.",
+        "learnMoreBtn": "Saber más",
         "headerSubTitle": "Impulsando el crecimiento a través del marketing personalizado",
         "headerSubTitle2": "Servicios de Salesforce Marketing Cloud de Rialtes",
         "pageDescTitle": "Ofrece experiencias hiperpersonalizadas y basadas en datos con Advantage+",
@@ -2045,6 +2067,8 @@
             }
         ],
         "headerTitle": "RialFinance+",
+        "seoTitle": "Consultoría Salesforce Financial Services Cloud | RialFinance+",
+        "seoDescription": "Rialtes RialFinance+ ofrece consultoría Salesforce FSC con diseño con IA, asesoría estratégica, implementación y soporte 24/7.",
         "headerSubTitle": "Potenciando los Servicios Financieros con RialFinance+",
         "headerSubTitle2": "Soluciones Transformadoras de Salesforce para el Futuro de las Finanzas",
         "pageDescTitle": "Servicios Financieros Impulsados por IA.",

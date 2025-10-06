@@ -130,8 +130,8 @@ export default function Page() {
   return (
     <div className="min-h-screen">
       <Seo
-        title="How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation"
-        description="Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution for successful S/4HANA transformation."
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         canonical={
           "https://www.rialtes.com/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm/"
         }

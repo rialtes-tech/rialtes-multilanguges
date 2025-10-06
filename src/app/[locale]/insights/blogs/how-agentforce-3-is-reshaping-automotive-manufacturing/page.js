@@ -115,8 +115,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Agentforce 3.0 for Automotive Manufacturing Success | Rialtes"
-        description="Agentforce for Automotive is transforming vehicle production with AI-powered agents that enhance workflows, compliance, and agility on the factory floor."
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         canonical={
           "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"
         }

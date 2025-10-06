@@ -51,8 +51,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="How Does a Reasoning Engine Work in Agentforce? | Rialtes"
-        description="Learn how Agentforce’s reasoning engine works to optimize customer support and enhance service quality for improved customer experiences and satisfaction."
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         canonical={"https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"}
         image="https://rialtes.netlify.app/images/blog/atlas-reasoning-engine-agentforce.jpg"
       />

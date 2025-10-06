@@ -49,8 +49,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="SAP Ariba Procurement for Direct & Indirect Efficiency | Rialtes"
-        description="SAP Ariba streamlines direct and indirect procurement by digitizing every step—from sourcing to payment—boosting savings, speed, and control."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical={"https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"}
       />
       <Script

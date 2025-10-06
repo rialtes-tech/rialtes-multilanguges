@@ -51,8 +51,8 @@ export default function Page() {
   return (
     <section className="min-h-screen bg-white">
       <Seo
-        title="Salesforce Experience Cloud for Roofing Manufacturer | Rialtes"
-        description="Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/case-studies/warranty-claim-submission-using-experience-cloud/"
       />
       <Script

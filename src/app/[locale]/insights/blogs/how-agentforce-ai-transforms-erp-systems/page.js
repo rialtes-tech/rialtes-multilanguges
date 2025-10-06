@@ -145,8 +145,8 @@ export default function Page() {
   return (
     <section className="min-h-screen">
       <Seo
-        title="How Agentforce AI Transforms ERP with Automation | Rialtes"
-        description="By analyzing ERP and SCM data, Agentforce offers predictive insights that enhance decision-making and boost productivity across industries. Know more!"
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         keywords="Partners, website, welcome"
         canonical={
           "https://www.rialtes.com/insights/blogs/how-agentforce-ai-transforms-erp-systems/"

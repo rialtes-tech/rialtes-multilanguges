@@ -53,8 +53,8 @@ export default function Page() {
   return (
     <section className="min-h-screen">
       <Seo
-        title="Yardi Case Study: Reducing Downtime in Multifamily Real Estate"
-        description="Discover how our Yardi Managed Services significantly reduced downtime, improved performance, and boosted operational efficiency for a real estate leader."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/case-studies/yardi-managed-services/"
       />
 

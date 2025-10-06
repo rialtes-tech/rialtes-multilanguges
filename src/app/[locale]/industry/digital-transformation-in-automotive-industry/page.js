@@ -812,7 +812,7 @@ export default function page() {
         <>
             <Seo
                 title={t("seoTitle")}
-                desc={t("seoDescription")}
+                description={t("seoDescription")}
                 canonical="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/"
             />
             <Script
