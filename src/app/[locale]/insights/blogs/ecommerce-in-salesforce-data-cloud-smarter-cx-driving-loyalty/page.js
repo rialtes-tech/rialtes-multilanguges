@@ -107,8 +107,8 @@ export default function Page() {
   return (
     <div className="min-h-screen">
       <Seo
-        title="Ecommerce in Salesforce: Driving Loyalty with Data Cloud | Rialtes"
-        description="Salesforce Data Cloud unifies customer data to power predictive insights, helping businesses drive ecommerce loyalty and real-time personalization."
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         keywords="Partners, website, welcome"
         canonical={
           "https://www.rialtes.com/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty/"

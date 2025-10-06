@@ -52,8 +52,8 @@ export default function Page() {
   return (
     <section className="min-h-screen">
       <Seo
-        title="Your Guide to SAP SuccessFactors for Remote Teams | Rialtes"
-        description="Facing challenges managing remote teams? SAP SuccessFactors offers tools to boost engagement, track performance, and ensure seamless collaboration."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/blogs/how-sap-successfactors-enhances-remote-work-management/"
       />
       <Script

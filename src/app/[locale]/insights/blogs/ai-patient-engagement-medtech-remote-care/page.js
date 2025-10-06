@@ -105,8 +105,8 @@ export default function Page() {
   return (
     <div className="min-h-screen">
       <Seo
-        title="AI Patient Engagement: How Smart Agents Simplify Care | Rialtes"
-        description=" Discover how AI for patient engagement helps MedTech streamline monitoring, simplify workflows, and enhance patient-provider interactions with ease."
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         keywords="Partners, website, welcome"
         canonical={
           "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care/"

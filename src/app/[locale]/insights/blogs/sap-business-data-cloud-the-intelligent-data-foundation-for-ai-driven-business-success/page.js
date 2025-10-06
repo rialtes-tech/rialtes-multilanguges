@@ -61,8 +61,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="What Is BDC in SAP? Transform with SAP Business Data Cloud | Rialtes"
-        description="SAP BDC simplifies data integration by enabling real-time access to trustworthy data, supporting AI-ready decision-making and business transformation."
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         canonical={
           "https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/"
         }

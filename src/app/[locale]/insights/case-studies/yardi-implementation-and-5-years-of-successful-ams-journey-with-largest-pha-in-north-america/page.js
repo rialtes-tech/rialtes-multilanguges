@@ -53,8 +53,9 @@ export default function Page() {
   return (
     <section className="min-h-screen xl:mb-[120px] mb-[80px]">
       <Seo
-        title="Yardi Implementation Case Study: 5 Years, 1 PHA, and Big Wins"
-        description="Explore our Yardi implementation case study to see how we supported a 5-year digital transformation journey with Yardi AMS for long-term success."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
+
         canonical="https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/"
       />
       <Script

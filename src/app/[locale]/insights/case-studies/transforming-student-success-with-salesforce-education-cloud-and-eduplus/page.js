@@ -57,8 +57,8 @@ export default function page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Salesforce Education Cloud Case Study | Rialtes"
-        description="See how Rialtes Edu+ on Salesforce Education Cloud boosted enrollment by 22% and improved student support with AI, automation, and connected experiences."
+      title={t('seoTitle')}
+      description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/"
       />
       <Script

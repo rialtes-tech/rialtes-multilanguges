@@ -51,8 +51,8 @@ export default function Page() {
   return (
     <section className="min-h-screen">
       <Seo
-        title="Key Features That Make Agentforce a Game-Changer | Rialtes"
-        description="Salesforce Agentforce features address CX gaps with intelligent routing, AI-led case resolution, and performance dashboards for better decisions."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/"
       />
 

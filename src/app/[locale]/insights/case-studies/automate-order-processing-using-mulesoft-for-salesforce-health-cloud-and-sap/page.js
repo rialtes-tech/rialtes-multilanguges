@@ -55,8 +55,8 @@ export default function Page() {
   return (
     <section className="min-h-screen">
       <Seo
-        title="MuleSoft Case Study: Order Processing Automation with Salesforce & SAP"
-        description="Streamlined complex order flows using MuleSoft, Salesforce, and SAP APIs. Dive into this MuleSoft case study to see integration in action."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/"
       />
       <Script
