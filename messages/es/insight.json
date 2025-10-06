@@ -1,6 +1,8 @@
 {
   "insights": {
     "insightTitle": "Mantente a la Vanguardia con Información Experta de la Industria",
+    "seoTitle": "Blogs Rialtes | Salesforce, SAP, IA y Nube",
+    "seoDescription": "Lee blogs expertos sobre Salesforce, SAP, nube e IA. Mantente informado con las últimas tendencias e innovación digital de Rialtes.",
     "insightDesc": "Explora nuestra sección de perspectivas para ver nuestros blogs más recientes, comunicados de prensa, estudios de caso, cobertura de noticias, actualizaciones y próximos eventos.",
     "featuredTitle": "Blog Destacado",
     "allBlog": "Ver Todos los Blogs",
@@ -69,6 +71,8 @@
   },
   "news": {
     "newsTitle": "Noticias",
+    "seoTitle": "Noticias Rialtes | PR y Colaboraciones Industriales",
+    "seoDescription": "Desde PR destacado hasta colaboraciones poderosas: descubre cómo Rialtes lidera cambios industriales con innovación, tecnología y alianzas estratégicas.",
     "newsDesc": "Descubre cómo estamos dando forma al futuro de los negocios a nivel mundial. Tu fuente de referencia para las últimas actualizaciones, logros e innovaciones de Rialtes. Mantente informado con nuestras noticias más recientes, comunicados de prensa y perspectivas de la industria mientras seguimos superando los límites en consultoría de procesos, soluciones empresariales impulsadas por IA y transformación digital.",
     "readMore": "Leer Más",
     "loadMore": "Cargar Más",
@@ -632,6 +636,8 @@
       }
     ],
     "headerTitle": "Una sinfonía de",
+    "seoTitle": "Webinars Tecnológicos SAP y Salesforce por un Socio de Confianza | Rialtes",
+    "seoDescription": "Webinars tecnológicos de Salesforce y sesiones SAP por Rialtes. Aprende de expertos, explora innovaciones y potencia tu estrategia de transformación digital.",
     "headerTitleOne": "voces expertas",
     "headerSubTitle": "Explora a Fondo con Webinars Dirigidos por Expertos para Generar Resultados",
     "headerDesc": "Nuestra serie de webinars reúne a líderes de la industria, consultores experimentados y especialistas en tecnología para conversaciones profundas que van más allá de la teoría y generan impacto real. Ya sea que estés atravesando una transformación digital, optimizando tus sistemas ERP o explorando las fronteras de la IA y la automatización, estas sesiones están diseñadas para brindarte ideas que te lleven por el camino correcto.",
@@ -642,6 +648,8 @@
   },
   "caseStudy": {
     "headerTitle": "estudioDeCaso",
+    "seoTitle": "Éxitos Salesforce y SAP | Casos de Estudio Inspiradores | Rialtes",
+    "seoDescription": "Descubre casos de estudio SAP y Salesforce de Rialtes: empresas globales logran innovación con IA, eficiencia y ROI mediante tecnología.",
     "headerSubTitle": "Historias de Éxito que Inspiran",
     "headerDesc": "Descubra cómo Rialtes potencia a las empresas con soluciones transformadoras de SAP y Salesforce. Nuestros estudios de caso destacan historias de éxito reales, mostrando cómo organizaciones de diversas industrias han aprovechado nuestra experiencia para optimizar operaciones, mejorar la experiencia del cliente y fomentar el crecimiento.",
     "searchByTitle": "Resultado de búsqueda por",
