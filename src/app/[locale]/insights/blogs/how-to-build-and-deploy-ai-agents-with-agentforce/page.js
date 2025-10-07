@@ -165,24 +165,7 @@ export default function Page() {
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-9 xl:col-span-10 lg:col-span-11">
             {/* date and icons */}
-            <div className="sm:flex justify-between">
-              <div>
-                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("blogTopic")}
-                </span>{" "}
-                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {" "}
-                  |{" "}
-                </span>
-                02 September 2025
-              </div>
-
-              <div>
-                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                  <BlogSocialIcons fullUrl={fullUrl} />
-                </div>
-              </div>
-            </div>
+               <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="02 September 2025" />
             {/* main blog */}
 
             <div className="xl:mt-[60px] mt-[42px]">
@@ -210,7 +193,7 @@ export default function Page() {
                 <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">
                   {t("agentforceDesc2")}
                 </p>
-                <ul className="list-disc marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium pl-[26px]">
+                <ul className="list-disc marker:text-black marker:text-xl mt-2 space-y-3 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium pl-[36px] lg:pl-[56px]">
                   {agentBuilderData.map((data, ind) => {
                     return (
                       <li key={ind}>
@@ -244,7 +227,7 @@ export default function Page() {
                         )}
                         <UnorderedList
                           arrName={data.list}
-                          ulClassName="list-disc marker:text-black marker:text-xl text-black  mt-2 space-y-1 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium pl-[30px]"
+                          ulClassName="list-disc marker:text-black marker:text-xl text-black  mt-2 space-y-1 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium pl-[36px] lg:pl-[56px]"
                           liClassName=""
                         />
                       </div>
@@ -264,11 +247,11 @@ export default function Page() {
                           {data.title}
                         </h3>
                         {data.desc && (
-                          <p className="mt-2   4xl:text-[20px] xl:text-[17px] text-[16px]">
+                          <p className="mt-2 4xl:text-[20px] xl:text-[17px] text-[16px]">
                             {data.desc}
                           </p>
                         )}
-                        <ul className="list-disc marker:text-black marker:text-xl text-black pr-14 4xl:pr-0 xl:pr-0 mt-2 space-y-3 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium pl-[30px]">
+                        <ul className="list-disc marker:text-black marker:text-xl text-black  mt-2 space-y-3 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium pl-[36px] lg:pl-[56px]">
                           {data.list.map((elem, id) => {
                             return (
                               <li key={id}>
@@ -298,7 +281,7 @@ export default function Page() {
                 </p>
                 <UnorderedList
                   arrName={actionsData}
-                  ulClassName="mt-3 list-disc 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[30px] space-y-2"
+                  ulClassName="mt-3 list-disc 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[36px] lg:pl-[56px] space-y-2"
                   liClassName="text-black font-medium"
                 />
               </div>
