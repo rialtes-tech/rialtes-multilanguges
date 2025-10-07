@@ -51,8 +51,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Rialtes Now a Certified Databricks Partner"
-        description="As a certified Databricks partner, Rialtes empowers businesses with AI-driven data solutions across SAP and Salesforce ecosystems."
+      title={t('seoTitle')}
+      description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/"
       />
 

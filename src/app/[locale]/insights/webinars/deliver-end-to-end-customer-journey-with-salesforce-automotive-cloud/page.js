@@ -61,8 +61,8 @@ export default function () {
             <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud"
                 seoData={
                     < Seo
-                        title="Salesforce Automotive Cloud Webinar: Transforming Customer Engagement"
-                        description="Join our webinar to explore how Salesforce Automotive Cloud enhances customer journeys with unified data, AI-driven insights, and seamless automation."
+                    title={t('seoTitle')}
+                   description={t('seoDescription')}
                         canonical="https://www.rialtes.com/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/"
                     />
                 }

@@ -53,8 +53,8 @@ export default function () {
             <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/let-whatsapp-in-salesforce-with-agentchat"
                 seoData={
                     < Seo
-                        title="Salesforce WhatsApp Integration via AgentChat | Rialtes Webinar"
-                        description="See how to integrate WhatsApp with Salesforce using AgentChat and empower CX teams with secure, real-time engagement across all touchpoints"
+                    title={t('seoTitle')}
+                    description={t('seoDescription')}
                         canonical="https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
                     />
                 }
