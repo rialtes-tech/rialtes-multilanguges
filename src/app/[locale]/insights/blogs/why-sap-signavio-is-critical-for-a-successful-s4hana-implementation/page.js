@@ -104,10 +104,10 @@ const schemaData = {
 
 export default function Page() {
     const t = useTranslations('whySapSignavio')
-     const currUrl = useUrl()
+    const currUrl = useUrl()
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { blogs, blogdescData, transformationPoints, voyagerPoints, intelligentPoints, benefitsPoints, domainsPoints, riskPoints, faqData } = blogsContent.whySapSignavio;
+    const { blogdescData, transformationPoints, voyagerPoints, intelligentPoints, benefitsPoints, domainsPoints, riskPoints, faqData } = blogsContent.whySapSignavio;
     const fullUrl = "https://www.rialtes.com/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/";
 
     return (
@@ -273,12 +273,12 @@ export default function Page() {
                                         ">
                                             <h3 className={`font-bold inline"
                                               ${locale === "es"
-                                    ? "lg:pr-8 xl:pr-2  4xl:text-[20px] 2xl:text-[20px] xl:text-[20px] text-[18px]"
-                                    : locale === "fr"
-                                        ? "lg:pr-8 xl:pr-2 4xl:text-[22px] 2xl:text-[21px] xl:text-[22px] text-[18px]"
-                                        : "lg:pr-8 xl:pr-2  4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[18px]"
-                                }`}
-                                            
+                                                    ? "lg:pr-8 xl:pr-2  4xl:text-[20px] 2xl:text-[20px] xl:text-[20px] text-[18px]"
+                                                    : locale === "fr"
+                                                        ? "lg:pr-8 xl:pr-2 4xl:text-[22px] 2xl:text-[21px] xl:text-[22px] text-[18px]"
+                                                        : "lg:pr-8 xl:pr-2  4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] text-[18px]"
+                                                }`}
+
                                             >
                                                 {step.title}
                                             </h3>

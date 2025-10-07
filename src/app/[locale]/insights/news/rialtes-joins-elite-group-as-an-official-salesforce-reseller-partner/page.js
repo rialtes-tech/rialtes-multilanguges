@@ -40,8 +40,8 @@ export default function Page() {
   const t = useTranslations("newsElite");
   const locale = useLocale();
   const newsEliteContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-      const {   } =newsEliteContent.newsElite;
-    
+  const { } = newsEliteContent.newsElite;
+
 
   const fullUrl = "https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner";
 
@@ -87,7 +87,7 @@ export default function Page() {
           <div className="container mx-auto border-b-[2px] border-gray-400 pb-6">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  max-w-4xl xl:w-[1084px]">
               <div className='sm:mb-0 mb-6'>
-               12 May 2025
+                12 May 2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">

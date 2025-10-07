@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
@@ -11,7 +10,6 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
-
 import Link from "next/link";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 const schemaData = {
@@ -113,7 +111,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { blogs, faqData, list, caseStudies, agentUseCases, copilotList } =
+  const { faqData, list, caseStudies, agentUseCases, copilotList } =
     blogsContent.agentCopilot;
   const fullUrl =
     "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
