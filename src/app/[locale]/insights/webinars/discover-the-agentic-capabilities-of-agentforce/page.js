@@ -61,8 +61,8 @@ export default function () {
             <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/discover-the-agentic-capabilities-of-agentforce"
                 seoData={
                     < Seo
-                        title="AI Webinar: Exploring Agentic Capabilities with Agentforce | Rialtes"
-                        description="Join our AI webinar to discover how Agentforce’s agentic AI transforms enterprise workflows with autonomous agents, context, and smart integration."
+                        title={t('seoTitle')}
+                        description={t('seoDescription')}
                         canonical="https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
                     />
                 }

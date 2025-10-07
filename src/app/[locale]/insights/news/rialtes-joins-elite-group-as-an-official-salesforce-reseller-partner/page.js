@@ -48,9 +48,9 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Rialtes Becomes Official Salesforce Reseller Partner"
+      title={t('seoTitle')}
+      description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/"
-        description="Rialtes is now an official Salesforce Reseller Partner, offering complete Salesforce licensing, implementation, and managed services under one roof"
       />
 
       <Script

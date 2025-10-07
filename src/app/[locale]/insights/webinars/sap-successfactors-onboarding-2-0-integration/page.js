@@ -50,8 +50,8 @@ export default function () {
             <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/sap-successfactors-onboarding-2-0-integration"
                 seoData={
                     < Seo
-                        title="SAP SuccessFactors Onboarding 2.0 Webinar: Boost HR ROI | Rialtes"
-                        description="Join our SAP SuccessFactors Onboarding 2.0 webinar—see how it compares to 1.0, integrates with Employee Central, and powers automated HR workflows"
+                    title={t('seoTitle')}
+                    description={t('seoDescription')}
                         canonical="https://www.rialtes.com/insights/webinars/sap-successfactors-onboarding-2-0-integration/"
                     />
 
