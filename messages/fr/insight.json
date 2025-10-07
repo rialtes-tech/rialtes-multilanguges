@@ -104,6 +104,8 @@
     ]
   },
   "blogs": {
+    "seoTitle": "Blogs Rialtes | Insights sur Salesforce, SAP, IA et Cloud",
+    "seoDescription": "Lisez nos blogs experts sur Salesforce, SAP, IA et Cloud. Suivez les dernières tendances et insights en innovation et transformation digitale.",
     "searchTitle": "Résultat de recherche par",
     "industry": "industrie",
     "category": "catégorie",
@@ -180,6 +182,26 @@
       }
     ],
     "latestBlogs": [
+      {
+        "id": 43,
+        "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-ter m-care-mobile.webp",
+        "category": "MediAIna",
+        "industry": "Santé",
+        "date": "Oct. 07, 2025",
+        "url": "/patient-experience-platform-transforming-long-term-care",
+        "title": "Comment une plateforme d’expérience patient transforme les soins du diagnostic à la gestion à long terme",
+        "description": "Fournir des soins de santé a toujours été bien plus qu’un simple diagnostic. Pour les patients, le véritable parcours commence après le diagnostic, en explorant les options de traitement, en gérant les maladies chroniques et en apprenant à vivre avec des besoins de soins continus."
+      },
+      {
+        "id": 42,
+        "image": "/images/blog/digital-patient-journeys-mobile.webp",
+        "category": "Général",
+        "industry": "Générique",
+        "date": "Sep. 30, 2025",
+        "url": "/digital-patient-journeys-ai-healthcare-life-sciences",
+        "title": "L’Avenir des Parcours Numériques du Patient : Comment l’IA Transforme les Sciences de la Vie",
+        "description": "L’industrie des soins de santé est à un tournant. Les patients ne veulent plus d’expériences fragmentées, d’attendre des semaines pour des rendez-vous, de répéter leur historique à chaque contact ou de gérer des portails déconnectés."
+      },
       {
         "id": 41,
         "image": "/images/blog/connected-care-ecosystem-feature.webp",
