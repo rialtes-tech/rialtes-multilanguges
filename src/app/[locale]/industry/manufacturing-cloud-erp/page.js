@@ -125,7 +125,6 @@ export default function Page() {
   const t = useTranslations('manufacturing')
   const locale = useLocale();
 
-
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -214,11 +213,11 @@ export default function Page() {
         <div className="custom-container h-full relative xl:block hidden ">
           <div className={`relative  px-[48px] pb-[80px] pt-[45px]  4xl:w-[570px] w-[488px]  xl:block hidden
             ${locale === "es"
-                                    ? "4xl:h-[695px]"
-                                    : locale === "fr"
-                                        ? "4xl:h-[750px]"
-                                        : "4xl:h-[695px]"
-                                }`}
+              ? "4xl:h-[695px]"
+              : locale === "fr"
+                ? "4xl:h-[750px]"
+                : "4xl:h-[695px]"
+            }`}
 
           >
             <div className="xl:absolute  inset-0 bg-[#016FBE] mix-blend-multiply"></div>
@@ -293,7 +292,7 @@ export default function Page() {
             <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">{t('preSubtitle')}</h3>
             <p className="mt-5 xl:mb-10 mb-5 font-normal 4xl:pr-20 pr-5 leading-tight">{t('preDesc')}</p>
             <div className="xl:bottom-0">
-             <LearnMore btnName={t('learnMoreBtn')} />
+              <LearnMore btnName={t('learnMoreBtn')} />
             </div>
           </div>
         </div>
@@ -323,7 +322,7 @@ export default function Page() {
             <p className="mt-5 xl:mb-10 font-normal 4xl:pr-24 pr-5 leading-tight xl:pr-10 4xl:text-[20px] xl:text-[18px]">
               {t('discreteDesc')}</p>
             <div className="xl:bottom-0">
-             <LearnMore btnName={t('learnMoreBtn')} />
+              <LearnMore btnName={t('learnMoreBtn')} />
             </div>
           </div>
         </div>
@@ -386,7 +385,7 @@ export default function Page() {
                 {t('repetitiveDesc')}
               </p>
               <div>
-             <LearnMore btnName={t('learnMoreBtn')} />
+                <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>
@@ -468,24 +467,24 @@ export default function Page() {
               <h2 className="leading-tight xl:pr-0 4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px]">{t('dataTitle')}</h2>
               <h3 className={`mt-5  leading-tight font-semibold  xl:pr-0
                 ${locale === "es"
-                                    ? "4xl:text-[42px] 2xl:text-[32px] xl:text-[27px] text-[22px]"
-                                    : locale === "fr"
-                                        ? "4xl:text-[42px] 2xl:text-[32px] xl:text-[27px] text-[22px]"
-                                        : "4xl:text-[42px] 2xl:text-[36px] xl:text-[30px] text-[22px]"
-                                }`}
-              
+                  ? "4xl:text-[42px] 2xl:text-[32px] xl:text-[27px] text-[22px]"
+                  : locale === "fr"
+                    ? "4xl:text-[42px] 2xl:text-[32px] xl:text-[27px] text-[22px]"
+                    : "4xl:text-[42px] 2xl:text-[36px] xl:text-[30px] text-[22px]"
+                }`}
+
               >{t('dataSubtitle')}</h3>
               <p className="mt-8 leading-tight 4xl:text-[20px] xl:text-[15px] 2xl:text-[17px] text-[16px]">{t('dataDesc')}  </p>
               <div className={`
                 ${locale === "es"
-                                    ? "absolute mt-[30px]"
-                                    : locale === "fr"
-                                        ? "absolute mt-[30px]"
-                                        : "absolute mt-5"
-                                }`}
-              
+                  ? "absolute mt-[30px]"
+                  : locale === "fr"
+                    ? "absolute mt-[30px]"
+                    : "absolute mt-5"
+                }`}
+
               >
-              <LearnMore btnName={t('learnMoreBtn')} />
+                <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>
@@ -495,11 +494,11 @@ export default function Page() {
       {/* ERP integration section */}
       <section className={` custom-container xl:mx-0  xl:!pr-[142px]
         ${locale === "es"
-                                    ? "mt-[35rem]  md:mt-[24rem] [@media(max-width:375px)]:mt-[40rem] 4xl:mt-[15rem] 2xl:mt-[12rem] xl:mt-[15rem]"
-                                    : locale === "fr"
-                                        ? "mt-[35rem] md:mt-[24rem] [@media(max-width:375px)]:mt-[40rem] 4xl:mt-48 2xl:mt-[12rem] xl:mt-[15rem]"
-                                        : "mt-[29rem] md:mt-[20rem] [@media(max-width:375px)]:mt-[34rem] 4xl:mt-48 2xl:mt-36 xl:mt-48"
-                                }`}
+          ? "mt-[35rem]  md:mt-[24rem] [@media(max-width:375px)]:mt-[40rem] 4xl:mt-[15rem] 2xl:mt-[12rem] xl:mt-[15rem]"
+          : locale === "fr"
+            ? "mt-[35rem] md:mt-[24rem] [@media(max-width:375px)]:mt-[40rem] 4xl:mt-48 2xl:mt-[12rem] xl:mt-[15rem]"
+            : "mt-[29rem] md:mt-[20rem] [@media(max-width:375px)]:mt-[34rem] 4xl:mt-48 2xl:mt-36 xl:mt-48"
+        }`}
 
       >
         <div className="grid xl:grid-cols-12 grid-cols-1 gap-5">
@@ -567,7 +566,7 @@ export default function Page() {
               {t('shapingDesc')}
             </p>
             <div className="mt-5 absolute  xl:relative">
-             <LearnMore btnName={t('learnMoreBtn')} />
+              <LearnMore btnName={t('learnMoreBtn')} />
             </div>
           </div>
           <div className="xl:col-span-8 col-span-12 xl:block hidden xl:ml-[-300px]">
@@ -617,88 +616,52 @@ export default function Page() {
               {t('sapDesc')}
             </p>
             <div className="mt-5">
-              <LearnMore btnName={t('learnMoreBtn')}  bgcolor={"#006FBE"} bordercolor={"#006FBE"}/>
+              <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
             </div>
           </div>
         </div>
       </section>
       {/* fast facts section */}
-      <section className="mt-20 relative">
-        <div className="xl:block hidden pb-20">
-          <Image
-            src="/images/industry/manufacture/fast.webp"
-            alt="fast facts image"
-            priority
-            className={`w-full
-            
-              ${locale === "es"
-                ? "4xl:h-[1314px] 2xl:h-[980px] xl:h-[815px]"
-                : locale === "fr"
-                  ? "4xl:h-[1280px] 2xl:h-[960px] xl:h-[775px]"
-                  : "4xl:h-[1111px] 2xl:h-[890px] xl:h-[755px]"
-              }`}
-
-            width={0}
-            height={0}
-            sizes="100vw"
-          />
-        </div>
-        <div className="xl:hidden block">
-          <Image
-            src="/images/industry/manufacture/fact-mobile.webp"
-            alt="fast facts image"
-            priority
-            className={`w-full 
-              ${locale === "es"
-                ? "h-[1464px] md:h-[1100px] [@media(max-width:375px)]:h-[1570px]"
-                : locale === "fr"
-                  ? "h-[1465px] md:h-[1070px] [@media(max-width:375px)]:h-[1500px]"
-                  : "h-[1410px] md:h-[1045px] [@media(max-width:375px)]:h-[1500px]"
-              }`}
-
-
-            width={0}
-            height={0}
-            sizes="100vw"
-          />
-        </div>
-        <div className="grid xl:grid-cols-12 grid-cols-1 absolute top-20 text-white mx-[35px] xl:mx-0 mt-64 xl:mt-0 custom-container">
-          <div className="xl:col-span-7 md:col-span-1 col-span-12">
-            <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px]">{t('factTitle')}</h2>
-            <h3 className="mt-5 4xl:text-[42px] text-[22px] xl:text-[30px] leading-tight">{t('factSubtitle')}</h3>
-            <div className="grid xl:grid-cols-12 grid-cols-12 md:grid-cols-2 mt-10">
-              <div className="xl:col-span-6 md:col-span-1 col-span-12">
-                <div>
-                  <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px]">{t('factNum')} </h2>
-                  <h3 className="pr-10 leading-tight 4xl:text-[30px] xl:text-[18px] text-[20px]"> {t('factDesc')}</h3>
-                </div>
-                <div className="mt-16">
-                  <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px]">{t('factOneNum')}</h2>
-                  <h3 className="pr-10 leading-tight 4xl:text-[30px] xl:text-[18px] text-[20px]">{t('factDescOne')}</h3>
-                </div>
-                <div className="mt-16">
-                  <h3 className="leading-tight 4xl:text-[30px] xl:text-[18px] text-[20px]">{t('factDescTwo')}</h3>
-                  <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px]">{t('factTwo')}</h2>
-                </div>
-                <div className="4xl:mt-[50px] 2xl:mt-[190px] xl:mt-[-15px] mt-[395px] max-[375px]:mt-[430px] md:mt-8 absolute  ">
-                  <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"}/>
-                </div>
+      <section className="mt-20 py-[100px] max-[515px]:pt-[320px] max-[575px]:pt-[500px] relative text-white bg-[url('/images/industry/manufacture/fact-mobile.webp')] sm:bg-[url('/images/industry/manufacture/fast.webp')] bg-cover bg-center bg-no-repeat">
+        <div className="custom-container">
+          <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] xl:w-[80%]">{t('factTitle')}</h2>
+          <h3 className="mt-5 4xl:text-[42px] text-[22px] xl:text-[30px] leading-tight xl:w-[60%]">{t('factSubtitle')}</h3>
+          <div className="grid md:grid-cols-12 grid-cols-1 gap-[60px] mt-10 lg:w-[70%] sm:w-[70%] md:w-full">
+            <div className="md:col-span-5 space-y-14">
+              <div>
+                <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px]">{t('factNum')} </h2>
+                <h3 className="leading-tight 4xl:text-[30px] xl:text-[18px] text-[20px]"> {t('factDesc')}</h3>
               </div>
-              <div className="xl:col-span-6 md:col-span-1 col-span-12 xl:space-y-10  mt-10 xl-mt-0">
-                <div>
-                  <h3 className="pr-10 leading-tight font-medium 4xl:text-[30px] xl:text-[18px] text-[20px]" >{t('adoption')}</h3>
-                  <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px] xl:text-[40px]">{t('billion')} </h2>
-                  <h3 className="leading-tight font-medium 4xl:text-[30px] xl:text-[18px] text-[20px]">{t('by')}</h3>
-                </div>
-                <div className="mt-10 xl:mt-0">
-                  <h3 className="pr-12 leading-tight 4xl:text-[30px] xl:text-[18px] text-[20px]">{t('smartTitle')}</h3>
-                  <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px]">{t('smartNum')}</h2>
-                </div>
+              <div>
+                <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px]">{t('factOneNum')}</h2>
+                <h3 className="leading-tight 4xl:text-[30px] xl:text-[18px] text-[20px]">{t('factDescOne')}</h3>
+              </div>
+              <div>
+                <h3 className="leading-tight 4xl:text-[30px] xl:text-[18px] text-[20px]">{t('factDescTwo')}</h3>
+                <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px]">{t('factTwo')}</h2>
+              </div>
+            </div>
+
+            {/* 2nd col */}
+            <div className="md:col-span-6 lg:col-span-5 space-y-14">
+              <div className="lg:mt-10">
+                <h3 className="leading-tight font-medium 4xl:text-[30px] xl:text-[18px] text-[20px]" >{t('adoption')}</h3>
+                <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px] xl:text-[40px]">{t('billion')} </h2>
+                <h3 className="leading-tight font-medium 4xl:text-[30px] xl:text-[18px] text-[20px]">{t('by')}</h3>
+              </div>
+              <div>
+                <h3 className="leading-tight 4xl:text-[30px] xl:text-[18px] text-[20px]">{t('smartTitle')}</h3>
+                <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px]">{t('smartNum')}</h2>
               </div>
             </div>
           </div>
+
+          <div className="-bottom-6 absolute">
+            <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+          </div>
         </div>
       </section>
+
       {/* Contact Form */}
       <div className="mt-20 xl:mt-10 custom-container text-black xl:py-20 pb-10">
         <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubtitleOne')} className={"max-w-[62rem]  leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] text-[26px]"} />
