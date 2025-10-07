@@ -138,7 +138,7 @@ export default function Page() {
                                     <p className="text-black xl:mb-5 4xl:text-[22px] text-[16px] leading-tight pr-[5rem] xl:pr-0 4xl:pr-10">{service.description}</p>
                                 </div>
                                 <div>
-                                    <LearnMore btnName={t('learnMoreBtn')}/>
+                                    <LearnMore btnName={t('learnMoreBtn')} />
                                 </div>
                             </div>
                         ))}
@@ -162,7 +162,7 @@ export default function Page() {
                     ))}
                 </div>
                 <div className="4xl:mt-10 xl:mt-10 mt-5">
-                    <LearnMore btnName={t('learnMoreBtn')}/>
+                    <LearnMore btnName={t('learnMoreBtn')} />
                 </div>
             </div>
         );
@@ -290,7 +290,7 @@ export default function Page() {
 
                         {/* Button */}
                         <div className="xl:mt-10 mt-5  xl:text-left">
-                            <LearnMore btnName={t('learnMoreBtn')}/>
+                            <LearnMore btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </section>
@@ -311,9 +311,9 @@ export default function Page() {
                         />
                     </div>
                     <div className="lg:col-span-5 col-span-12 max-md:px-[35px]">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight pt-10 lg:pt-0 4xl:pt-0 pr-10 lg:pr-0 4xl:pr-0">{t('drivingBusinessTitle')}</h2>
+                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight pt-10 lg:pt-0 4xl:pt-0  lg:pr-0 4xl:pr-0">{t('drivingBusinessTitle')}</h2>
                         <p className="4xl:pt-10 xl:pt-3 pt-5 pr-10 lg:pr-0 4xl:pr-0">{t('drivingBusinessDesc')}</p>
-                        <ul className="list-disc 4xl:space-y-5 lg:space-y-2 space-y-3 marker:font-bold marker:text-2xl pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:mt-8 mt-3 4xl:pr-[11rem] xl:pr-0 pr-12">
+                        <ul className="list-disc 4xl:space-y-5 lg:space-y-2 space-y-3 marker:font-bold marker:text-2xl pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:mt-8 mt-3 4xl:pr-[11rem] xl:pr-0 ">
                             {marketingFeatures.map((feature, index) => (
                                 <li key={index}>
                                     <span className="font-bold">{feature.title} </span>
@@ -322,15 +322,16 @@ export default function Page() {
                             ))}
                         </ul>
                         <div className="mt-10">
-                            <LearnMore btnName={t('learnMoreBtn')}/>
+                            <LearnMore btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>
             </section>
             {/* reimagine section */}
-            <div className="relative 4xl:mt-[20rem] 4xl:pl-[142px] pb-20 custom-container mt-[16rem] max-md:px-0 xl:mt-[18rem]">
+            <div className="relative 4xl:mt-[20rem] 4xl:pl-[142px] pb-20 custom-container mt-[10rem] max-md:px-0 xl:mt-[14rem]">
                 <div className="bg-[#F0F0F0] relative 4xl:pl-[142px]">
-                    <div className="relative z-10 -mt-32 4xl:mr-[-140px] xl:mr-[-70px] xl:ml-[80px] 4xl:ml-0">
+                    {/* Image Section */}
+                    <div className="relative z-10 -mt-[8vh] md:-mt-[10vh] xl:-mt-[12vh] 4xl:mr-[-140px] xl:mr-[-70px] xl:ml-[80px] 4xl:ml-0">
                         <div className="xl:block hidden">
                             <Image
                                 src="/images/services/lob/advantageplus/desktop/reimage.webp"
@@ -338,7 +339,7 @@ export default function Page() {
                                 width={0}
                                 height={0}
                                 sizes="100vw"
-                                className="w-full h-auto object-cover absolute 4xl:mt-[-100px] xl:mt-[-100px] max-md:px-[35px]"
+                                className="w-full h-auto object-cover max-md:px-[35px]"
                                 priority
                             />
                         </div>
@@ -349,32 +350,33 @@ export default function Page() {
                                 width={0}
                                 height={0}
                                 sizes="100vw"
-                                className="w-full h-auto object-cover absolute 4xl:mt-[-100px] xl:mt-[-100px] max-md:px-[35px] mt-[-80px]"
+                                className="w-full h-auto object-cover max-md:px-[35px] mt-[-80px]"
                                 priority
                             />
                         </div>
                     </div>
 
-                    <div className="relative z-20 mt-10 grid xl:grid-cols-2 gap-10 px-4 xl:px-0 max-md:px-[35px] pb-[90px] xl:pb-0">
-                        <div className="4xl:mt-[40rem]  xl:mt-[29rem] xl:ml-[5rem] 4xl:ml-0 2xl:mt-[32rem]">
-                            <h2 className={`text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight pr-10 xl:pr-0 4xl:pr-0
-                               ${locale === "es"
-                                    ? "mt-[15rem] xxs:mt-[14rem] xs:mt-[18rem] md:mt-[38rem] 4xl:mt-0 2xl:mt-0 xl:mt-0"
-                                    : locale === "fr"
-                                        ? "mt-[15rem] xxs:mt-[14rem] xs:mt-[18rem] md:mt-[38rem] 4xl:mt-0 2xl:mt-0 xl:mt-0"
-                                        : "mt-[15rem] xxs:mt-[14rem] xs:mt-[18rem] md:mt-[38rem] 4xl:mt-0 2xl:mt-0 xl:mt-0"
-                                }`}
-                >
-                                {t('reimaginTitle')}
-                            </h2>
-                            <p className="mt-5 text-[16px] 4xl:text-[22px]">
-                                {t('reimaginDesc')}
-                            </p>
-                            <div className="absolute bottom-0 ">
-                                <LearnMore btnName={t('learnMoreBtn')}/>
+                    {/* Content Section */}
+                    <div className="relative z-20 grid xl:grid-cols-2 gap-10 px-4 xl:px-0 max-md:px-[35px] pb-[0px] xl:pb-0">
+                        {/* Left Content */}
+                        <div className="pt-10  xl:pt-20 4xl:pt-20 xl:ml-[5rem] 4xl:ml-0 flex flex-col justify-between">
+                            <div>
+                                <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight pr-10 xl:pr-0 4xl:pr-0">
+                                    {t('reimaginTitle')}
+                                </h2>
+                                <p className="mt-5 text-[16px] 4xl:text-[22px]">
+                                    {t('reimaginDesc')}
+                                </p>
+                            </div>
+
+
+                            <div className="hidden xl:block mt-10">
+                                <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
-                        <div className="4xl:mt-[40rem]  xl:mt-[29rem] 2xl:mt-[32rem] 4xl:pb-[60px] 2xl:pb-[70px] xl:pb-[70px]">
+
+                        {/* Right Content */}
+                        <div className=" xl:pt-20 4xl:pt-20 4xl:pb-[60px] 2xl:pb-[70px] xl:pb-[70px]">
                             <ul className="list-disc marker:text-black marker:font-bold 4xl:pl-5 4xl:p-10 4xl:pt-0 4xl:pb-5 text-[16px] 4xl:text-[22px] space-y-3 pr-6 pl-6 xl:pr-20 4xl:pr-24 font-medium">
                                 {aiMarketingData.map((item, index) => (
                                     <li key={index}>
@@ -382,14 +384,19 @@ export default function Page() {
                                     </li>
                                 ))}
                             </ul>
-                            <p className="text-[16px] 4xl:text-[22px] mt-5 xl:mt-5 4xl:mt-5 pr-12 xl:pr-0 4xl:pr-0">
+                            <p className="text-[16px] 4xl:text-[22px] mt-5 xl:mt-5 4xl:mt-5 pr-12 xl:pr-4 4xl:pr-4">
                                 {t('byHarnessingTitle')}
                             </p>
-                           
+                        </div>
+
+
+                        <div className="xl:hidden col-span-full flex justify-start mt-10">
+                            <LearnMore btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>
             </div>
+
             {/* introducing agentchat section */}
             <section className="relative 4xl:mt-[9rem] mt-[1rem] xl:mt-[84px] 2xl:mt-[83px]">
                 <div className="xl:block hidden">
@@ -431,7 +438,7 @@ export default function Page() {
                         </ul>
                         <p className="mt-5 4xl:text-[22px] text-[16px] font-light 4xl:pr-6">{t('introducingAgentChatDesc2')}</p>
                         <div className="mt-5">
-                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
+                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>
@@ -439,20 +446,20 @@ export default function Page() {
             {/* your growth section */}
             <section className={` custom-container relative 4xl:pr-[142px]  max-md:px-0
              ${locale === "es"
-                                    ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[100rem] xs:mt-[1333px] sm:mt-[58rem] md:mt-[52rem] lg:mt-[80rem] xl:mt-[30rem]"
-                                    : locale === "fr"
-                                        ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[104rem] xs:mt-[1413px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[32rem] max-md:px-0"
-                                        : "4xl:mt-[14rem] 2xl:mt-[10rem] mt-[98rem] xs:mt-[1200px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[20rem] max-md:px-0"
-                                }`}
+                    ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[100rem] xs:mt-[1333px] sm:mt-[58rem] md:mt-[52rem] lg:mt-[80rem] xl:mt-[30rem]"
+                    : locale === "fr"
+                        ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[104rem] xs:mt-[1413px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[32rem] max-md:px-0"
+                        : "4xl:mt-[14rem] 2xl:mt-[10rem] mt-[98rem] xs:mt-[1200px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[20rem] max-md:px-0"
+                }`}
             >
                 <div className="grid grid-cols-1 xl:grid-cols-2 items-stretch relative">
                     <div className={`relative z-0 order-1 xl:order-2
                      ${locale === "es"
-                                    ? "4xl:ml-[-185px] 2xl:ml-[-240px] xl:ml-[-120px]"
-                                    : locale === "fr"
-                                        ? "4xl:ml-[-185px] 2xl:ml-[-240px] xl:ml-[-120px]"
-                                        : "4xl:ml-[-300px] xl:ml-[-211px]"
-                                }`}
+                            ? "4xl:ml-[-185px] 2xl:ml-[-240px] xl:ml-[-120px]"
+                            : locale === "fr"
+                                ? "4xl:ml-[-185px] 2xl:ml-[-240px] xl:ml-[-120px]"
+                                : "4xl:ml-[-300px] xl:ml-[-211px]"
+                        }`}
                     >
                         <div className="xl:block hidden">
                             <Image
@@ -462,13 +469,13 @@ export default function Page() {
                                 height={0}
                                 className={`w-full  mt-10 xl:mt-20 object-cover
                                  ${locale === "es"
-                                    ? "4xl:h-[980px] xl:h-[800px]"
-                                    : locale === "fr"
                                         ? "4xl:h-[980px] xl:h-[800px]"
-                                        : "4xl:h-[980px] xl:h-[800px]"
-                                }`}
-                                
-                                
+                                        : locale === "fr"
+                                            ? "4xl:h-[980px] xl:h-[800px]"
+                                            : "4xl:h-[980px] xl:h-[800px]"
+                                    }`}
+
+
                                 sizes="100vw"
                                 priority
                             />
@@ -497,7 +504,7 @@ export default function Page() {
                         </p>
                         <UnorderedList arrName={yourGrowthData} ulClassName="list-disc pl-5 mt-4 xl:mt-8 space-y-3 4xl:space-y-5 xl:space-y-3 text-[16px] 4xl:text-[22px] leading-tight font-normal marker:text-white 4xl:pr-[20px] pr-10" liClassName="" />
                         <div className="xl:absolute xl:mt-2 bottom-0 mt-8 4xl:mt-2">
-                            <LearnMore btnName={t('learnMoreBtn')}/>
+                            <LearnMore btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>

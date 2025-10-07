@@ -223,7 +223,7 @@ export default function Page() {
           >
             <div className="xl:absolute  inset-0 bg-[#016FBE] mix-blend-multiply"></div>
             <div className="relative  bg-opacity-80 text-white z-10 rounded-lg">
-              <h2 className="font-light leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px]">{t('thoughtTitle')}</h2>
+              <h2 className="font-light leading-tight 4xl:text-[60px] xl:text-[45px]  text-[26px]">{t('thoughtTitle')}</h2>
               <h3 className="4xl:text-[36px] xl:text-[26px] text-[22px] mt-5 leading-tight font-semibold">{t('thoughtSubTitle')}</h3>
               <p className='mt-5 font-normal'>{t('thoughtSubTitleOne')}</p></div>
           </div>
@@ -232,7 +232,7 @@ export default function Page() {
       <div className="relative pt-[37px] pb-[53px] xl:hidden block custom-container ">
         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
         <div className="relative  bg-opacity-80 text-white z-10  rounded-lg">
-          <h2 className="font-light leading-tight">{t('thoughtTitle')}</h2>
+          <h2 className="font-light leading-tight 4xl:text-[60px] xl:text-[45px] md:text-[36px] text-[26px] ">{t('thoughtTitle')}</h2>
           <h3 className="xl:text-[36px] text-[22px] mt-5 leading-tight font-semibold">{t('thoughtSubTitle')}</h3>
           <p className='mt-5 font-normal'> {t('thoughtSubTitleOne')}</p></div>
       </div>
