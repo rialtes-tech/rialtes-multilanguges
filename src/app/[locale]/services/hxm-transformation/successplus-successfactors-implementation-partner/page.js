@@ -8,9 +8,9 @@ import Script from "next/script";
 import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
-
 import { useLocale, useTranslations } from "next-intl";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -398,7 +398,7 @@ export default function Page() {
       <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[38px] 4xl:!pr-[142px] 2xl:!pr-[90px] lg:!pr-[40px] md:!pr-0 max-lg:px-0">
         <div className="lg:pl-[59px] lg:pr-[60px]  px-[36px] bg-[#F2ECD9]">
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[30px]">
-            <div className="lg:order-1 order-2 lg:col-span-5 4xl:col-span-5 lg:pt-[86px] xl:pb-[68px] pb-[54]">
+            <div className="lg:order-1 order-2 lg:col-span-5 4xl:col-span-5 lg:pt-[86px] xl:pb-[68px] pb-[54px]">
               <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
                 {t('sapSuccessTitle1')} <div className="font-normal">{t('sapSuccessTitle2')}</div>
               </h2>
@@ -438,7 +438,7 @@ export default function Page() {
         <div className="absolute bg-[#EFE0CD] bottom-0 top-0 4xl:w-[120px] 4xl:ml-[-120px] 2xl:w-[90px] 2xl:ml-[-90px] lg:w-[26px] lg:ml-[-26px]"></div>
         <div className="lg:pr-[60px] max-lg:px-[36px] bg-[#EFE0CD]">
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[30px]">
-            <div className="lg:order-2 order-2 lg:col-span-6 lg:pt-[86px] xl:pb-[68px] pb-[54]">
+            <div className="lg:order-2 order-2 lg:col-span-6 lg:pt-[86px] xl:pb-[68px] pb-[54px]">
               <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
                 {t('sapCpiTitle1')} <div className="font-normal">{t('sapCpiTitle2')}</div>
               </h2>
@@ -477,7 +477,7 @@ export default function Page() {
       <section className="custom-container relative lg:mt-[130px] xl:mt-[175px] mt-[68px] 4xl:!pr-[142px] 2xl:!pr-[90px] xl:!pr-[40px] md:!pr-0 max-lg:px-0 ">
         <div className="lg:pl-[59px] lg:pr-[60px] lg:pb-[90px] xl:pb-[138px] px-[36px] bg-[#BEDDFC]">
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[80px] gap-y-[30px]">
-            <div className="lg:order-1 order-2 lg:col-span-6 lg:pt-[76px] pb-[54]">
+            <div className="lg:order-1 order-2 lg:col-span-6 lg:pt-[76px] pb-[54px]">
               <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
                 {t('sapJouleTitle1')}<div className="font-normal">{t('sapJouleTitle2')}</div>
               </h2>
@@ -523,7 +523,7 @@ export default function Page() {
         <div className="absolute bg-[#E4EAD2] bottom-0 top-0 4xl:w-[120px] 4xl:ml-[-120px] 2xl:w-[90px] 2xl:ml-[-90px] lg:w-[26px] lg:ml-[-26px]"></div>
         <div className="lg:pr-[60px] max-lg:px-[36px] bg-[#E4EAD2] relative">
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[30px]">
-            <div className="lg:order-2 order-2 lg:col-span-6 lg:pt-[86px] xl:pb-[68px] pb-[54]">
+            <div className="lg:order-2 order-2 lg:col-span-6 lg:pt-[86px] xl:pb-[68px] pb-[54px]">
               <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
                 {t('extendSapTitle1')} <div className="font-normal">{t('extendSapTitle2')}</div>
               </h2>
@@ -651,7 +651,7 @@ export default function Page() {
             </div>
           </div>
           <div className="xl:mt-[64px] mt-[49px]">
-            <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('knowMore')}href="https://www.rialtes.com/products/agentchat" />
+            <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('knowMore')} href="https://www.rialtes.com/products/agentchat" />
           </div>
         </div>
       </section>
