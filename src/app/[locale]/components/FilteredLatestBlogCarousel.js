@@ -4,13 +4,13 @@ import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
-import enContent from "../../../../messages/en/blogs.json";
-import esContent from "../../../../messages/es/blogs.json";
-import frContent from "../../../../messages/fr/blogs.json";
+import enContent from '../../../../messages/en/insight.json';
+import esContent from '../../../../messages/es/insight.json';
+import frContent from '../../../../messages/fr/insight.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 export default function page({ url }) {
-    const t = useTranslations("filteredBlogs");
+    const t = useTranslations("blogs");
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, {
         en: enContent,
@@ -18,9 +18,9 @@ export default function page({ url }) {
         fr: frContent,
     });
 
-    const { latestBlogsList } = blogsContent.filteredBlogs
+    const { latestBlogs } = blogsContent.blogs
     // returning all blogs except current page url
-    const filteredBlogsData = latestBlogsList.filter((elem) => {
+    const filteredBlogsData = latestBlogs.filter((elem) => {
         const blogSlug = elem.url.split("/").pop();
         return blogSlug !== url;
     });
@@ -67,8 +67,6 @@ export default function page({ url }) {
 
     const CustomDot = ({ onClick, ...rest }) => {
         const {
-            onMove,
-            index,
             active,
             carouselState: { currentSlide, deviceType }
         } = rest;
@@ -121,7 +119,7 @@ export default function page({ url }) {
                         >
 
                             <div className="max-h-[300px]">
-                                <Link href={'/' + slide.url}>
+                                <Link href={'/insights/blogs' + slide.url}>
                                     <Image
                                         src={slide.image}
                                         alt={slide.title}
@@ -138,7 +136,7 @@ export default function page({ url }) {
                             <div className="flex flex-col text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                                 <div className="flex flex-col">
                                     <div className=" leading-tight text-[16px] 4xl:text-[17px]"><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
-                                    <Link href={'/' + slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.title}</h5></Link>
+                                    <Link href={'/insights/blogs' + slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.title}</h5></Link>
                                 </div>
                                 <p className="line-clamp-4 leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.description}</p>
                             </div>
