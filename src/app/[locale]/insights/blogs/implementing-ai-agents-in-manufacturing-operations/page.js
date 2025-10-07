@@ -1,9 +1,7 @@
 "use client";
 import Image from "next/image";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import Link from "next/link";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/blogs.json";

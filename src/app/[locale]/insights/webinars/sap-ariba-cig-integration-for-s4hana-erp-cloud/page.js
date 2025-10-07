@@ -4,7 +4,6 @@ import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/webinars.json';
 import esContent from '../../../../../../messages/es/webinars.json';
 import frContent from '../../../../../../messages/fr/webinars.json';
-
 import WebinarComponent from "@/app/[locale]/components/webinarComponent";
 import { changeLocalization } from "../../../components/changeLocalization";
 

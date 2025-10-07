@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 import Link from "next/link";
 import Script from "next/script";
@@ -46,7 +45,7 @@ export default function Page() {
   const locale = useLocale();
     const currUrl = useUrl()
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { blogs, sapGenerativeData, jouleData, howAiWorkData, howSapJouleData, sapJouleData, quickGlimpseData1, responsiveData } = content.redefiningBlog
+  const { sapGenerativeData, jouleData, howAiWorkData, howSapJouleData, sapJouleData, quickGlimpseData1, responsiveData } = content.redefiningBlog
   const fullUrl = "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule";
 
   return (
@@ -159,7 +158,7 @@ export default function Page() {
               {
                 jouleData.map((data, ind) => {
                   return (
-                    <div className="xl:pl-10">
+                    <div className="xl:pl-10" key={ind}>
                       <h3 className="h3-bold pb-4 mt-3">{ind + 1}. {data.title} </h3>
                       <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
                     </div>
@@ -206,7 +205,7 @@ export default function Page() {
       </section>
 
       {/* Latest Blogs */}
-      <div className="custom-container xl:pr-0">
+      <div className="custom-container xl:pr-0 xl:my-[80px] my-[60px]">
        <FilteredBlogCarousel url={currUrl} />
       </div>
     </div>

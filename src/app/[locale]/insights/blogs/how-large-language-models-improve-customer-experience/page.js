@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
@@ -12,8 +11,8 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
-
 import Link from "next/link";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -113,7 +112,6 @@ export default function Page() {
     fr: frContent,
   });
   const {
-    blogs,
     blogMainData,
     LLMarchData,
     howLLMsData,
@@ -123,8 +121,8 @@ export default function Page() {
     fromChatbotsData,
     readyData,
   } = blogsContent.aiThatListens;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
+
+  const fullUrl = "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
   const currUrl = useUrl();
 
   return (
