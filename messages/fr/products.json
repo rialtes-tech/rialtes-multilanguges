@@ -1,8 +1,10 @@
 {
   "agentChat": {
     "headerTitle": "Présentation de",
+    "seoTitle": "AgentChat : Intégration WhatsApp avec Salesforce Simplifiée | Rialtes",
+    "seoDescription": "AgentChat relie WhatsApp à Salesforce, brise les silos et améliore la collaboration pour un engagement client renforcé et un meilleur ROI.",
     "headerSubTitle": "AgentChat :",
-     "learnMoreBtn": "En savoir plus",
+    "learnMoreBtn": "En savoir plus",
     "headerOne": " Conversations WhatsApp fluides dans Salesforce",
     "engageHeader": "Engagez, soutenez et concluez des affaires — tout via WhatsApp. Tout dans Salesforce.",
     "engageDescOne": "AgentChat est une application conversationnelle WhatsApp bidirectionnelle, développée nativement sur Salesforce, permettant à vos équipes de se connecter instantanément avec les clients, de gérer efficacement les conversations et d’automatiser les flux de travail — sans jamais quitter Salesforce.",
@@ -344,12 +346,14 @@
       }
     ],
     "headerTitle": "Exelona",
+    "seoTitle": "Exelona™ – Salesforce pour la Gestion Immobilière | Rialtes",
+    "seoDescription": "Exelona utilise l’IA et Salesforce pour transformer la gestion immobilière grâce à l’automatisation, aux insights et à l’excellence opérationnelle.",
     "headerSubTitle": "Propulser l’Entreprise Immobilière Moderne",
     "pageDesc": "Bienvenue sur Exelona, la plateforme intelligente cloud pour l’immobilier qui unifie chaque étape du cycle de vie d’un bien — de la génération de leads à la clôture financière. Conçu pour les gestionnaires de biens, promoteurs et propriétaires de portefeuilles, Exelona offre une automatisation IA, des expériences mobile-first et la convergence CRM + ERP, le tout depuis une seule plateforme.",
     "yourDigitalTitle": "Votre colonne vertébrale digitale immobilière",
     "yourDigitalDesc": "Conçu pour les portefeuilles modernes, Exelona permet à vos équipes une collaboration fluide, une automatisation et une mise à l’échelle efficace.",
     "yourDigitalSubTitle": "Ce qui distingue Exelona",
-     "learnMoreBtn": "En savoir plus",
+    "learnMoreBtn": "En savoir plus",
     "assetMarketingTitle": "Marketing d’Actifs – Maximisez la Vitesse de Location et la Performance de Marque",
     "assetMarketingSubTitle": "Commercialisez plus intelligemment. Louez plus vite.",
     "assetMarketingDesc": "Le module de Marketing d’Actifs d’Exelona transforme la manière dont vous positionnez, promouvez et louez vos propriétés.",
@@ -391,8 +395,9 @@
       "Permettez des essais cliniques plus intelligents, des soins connectés et des thérapies numériques.",
       "Exploitez Salesforce, l’IA et les plateformes cloud pour une innovation conforme."
     ],
-    
     "headerTitle": "MediAIna",
+    "seoTitle": "MediAIna – Redéfinir le Parcours Patient dans le Secteur de la Santé",
+    "seoDescription": "MediAIna place le patient au centre en cartographiant chaque moment de soin avec Salesforce et LifeAI+ de Rialtes pour une santé connectée et humaine.",
     "headerSubTitle": "Redéfinir le",
     "headerSubTitle2": "Parcours Numérique du Patient pour l’Industrie des Sciences de la Vie",
     "pageDesc": "MediAIna est le logiciel de parcours patient nouvelle génération de Rialtes conçu pour transformer le parcours des patients en santé. Il intègre les points de contact cliniques, opérationnels et numériques entre fournisseurs, assureurs, MedTech et entreprises des sciences de la vie.",
@@ -401,7 +406,7 @@
     "visionSubTitle": "Notre Vision pour les Sciences de la Vie",
     "visionDesc": "En tant que leader du conseil en transformation digitale, Rialtes croit que l’avenir des soins de santé repose sur des écosystèmes connectés, des analyses prédictives et l’automatisation intelligente. Avec LifeAI+, nos services de conseil dédiés aux sciences de la vie, nous aidons les organisations à :",
     "benefitsTitle": "Avantages",
-      "learnMoreBtn": "En savoir plus",
+    "learnMoreBtn": "En savoir plus",
     "commonData": [
       {
         "title": "Identification des Patients",

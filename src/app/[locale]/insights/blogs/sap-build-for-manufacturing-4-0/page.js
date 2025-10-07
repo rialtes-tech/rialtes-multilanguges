@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
@@ -115,8 +114,8 @@ export default function Page() {
   return (
     <section className="min-h-screen">
       <Seo
-        title="SAP Build for Manufacturing Sector: Cut Downtime 30% | Rialtes"
-        description="Discover how SAP Build helps manufacturers accelerate innovation, reduce downtime, and empower teams with low-code apps and automation."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="Partners, website, welcome"
         canonical={
           "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0/"

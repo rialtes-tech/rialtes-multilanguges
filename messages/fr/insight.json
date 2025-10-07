@@ -1,6 +1,8 @@
 {
   "insights": {
     "insightTitle": "Restez en avance avec des analyses sectorielles d'experts",
+    "seoTitle": "Blogs Rialtes | Insights sur Salesforce, SAP, IA et Cloud",
+    "seoDescription": "Lisez nos blogs experts sur Salesforce, SAP, IA et Cloud. Suivez les dernières tendances et insights en innovation et transformation digitale.",
     "insightDesc": "Parcourez notre section Insights pour découvrir nos derniers blogs, communiqués de presse, études de cas, couvertures médiatiques, mises à jour et événements à venir.",
     "featuredTitle": "Blog en vedette",
     "allBlog": "Voir tous les blogs",
@@ -69,6 +71,8 @@
   },
   "news": {
     "newsTitle": "Actualités",
+    "seoTitle": "Actualités Rialtes | Points Forts RP et Collaborations Sectorielles",
+    "seoDescription": "De la presse aux partenariats stratégiques, découvrez comment Rialtes transforme l’industrie avec innovation et collaborations intelligentes.",
     "newsDesc": "Découvrez comment nous façonnons l’avenir des entreprises à l’échelle mondiale. Votre source incontournable pour les dernières mises à jour, réalisations et innovations de Rialtes. Restez informé grâce à nos actualités, communiqués de presse et analyses sectorielles, alors que nous continuons à repousser les limites du conseil en processus, des solutions d’entreprise pilotées par l’IA et de la transformation numérique.",
     "readMore": "Lire la suite",
     "loadMore": "Charger plus",
@@ -632,6 +636,8 @@
       }
     ],
     "headerTitle": "Une symphonie de",
+    "seoTitle": "Webinaires Techniques SAP et Salesforce par un Partenaire de Confiance | Rialtes",
+    "seoDescription": "Participez aux webinaires Salesforce et SAP de Rialtes. Apprenez des experts, découvrez les innovations et renforcez votre stratégie digitale.",
     "headerTitleOne": "voix expertes",
     "headerSubTitle": "Plongez au cœur de webinaires animés par des experts, conçus pour générer des résultats",
     "headerDesc": "Notre série de webinaires réunit des leaders du secteur, des consultants chevronnés et des spécialistes technologiques pour des conversations approfondies allant au-delà de la théorie et orientées vers l’impact concret. Que vous soyez en pleine transformation numérique, en train d’optimiser vos systèmes ERP ou d’explorer les frontières de l’IA et de l’automatisation, ces sessions sont conçues pour vous fournir des perspectives qui vous mettront sur la bonne voie.",
@@ -642,6 +648,8 @@
   },
   "caseStudy": {
     "headerTitle": "Études de cas",
+    "seoTitle": "Succès Salesforce et SAP | Études de Cas Inspirantes | Rialtes",
+    "seoDescription": "Découvrez nos études de cas SAP et Salesforce : des entreprises mondiales boostent innovation, efficacité et ROI grâce aux technologies IA.",
     "headerSubTitle": "Histoires de succès qui inspirent",
     "headerDesc": "Découvrez comment Rialtes aide les entreprises à se transformer grâce à des solutions SAP et Salesforce innovantes. Nos études de cas mettent en avant des réussites concrètes, montrant comment des organisations de divers secteurs ont tiré parti de notre expertise pour optimiser leurs opérations, améliorer l’expérience client et stimuler leur croissance.",
     "searchByTitle": "Résultat de recherche par",
@@ -1003,7 +1011,8 @@
     ]
   },
   "newsDataBricks": {
-    "title": "Rialtes renforce son jeu d’IA grâce à son partenariat avec Databricks pour alimenter une IA unifiée sur SAP et Salesforce",
+    "seoTitle": "Rialtes devient partenaire certifié Databricks",
+    "seoDescription": "En tant que partenaire certifié Databricks, Rialtes permet aux entreprises de bénéficier de solutions de données basées sur l’IA dans les écosystèmes SAP et Salesforce.",
     "bannerImage": "/images/homepage/banner.webp",
     "paragraphs": [
       "<span class='font-bold'>Rialtes, </span>leader mondial du conseil et de la transformation digitale, annonce fièrement sa nouvelle désignation en tant que <span class='font-bold'>Partenaire Certifié Databricks</span>. Cette étape marque une avancée significative dans la mission de Rialtes visant à fournir des solutions de données et d’IA de pointe aux clients entreprises, en particulier ceux exploitant les plateformes <strong>SAP</strong> et <strong>Salesforce</strong>.",
@@ -1023,6 +1032,8 @@
     ]
   },
   "newsElite": {
+    "seoTitle": "Rialtes devient partenaire revendeur officiel Salesforce",
+    "seoDescription": "Rialtes est désormais partenaire revendeur officiel Salesforce, offrant licences, implémentation et services gérés Salesforce sous un même toit.",
     "title": "Rialtes obtient le statut de Partenaire Revendeur Salesforce, élargissant ses capacités cloud de bout en bout",
     "date": "12 May 2025",
     "rialtesOne": "Rialtes annonce fièrement que nous avons officiellement été nommés",
@@ -1036,6 +1047,8 @@
     "visitTwo": "ou contactez "
   },
   "newsSales": {
+    "seoTitle": "Rialtes ouvre un bureau commercial à Baddi, HP",
+    "seoDescription": "Rialtes ouvre un nouveau bureau à Baddi, Himachal Pradesh, pour améliorer le service client et fournir des solutions Salesforce et SAP pour l’industrie manufacturière.",
     "rialtesTitle": "Rialtes ouvre un nouveau bureau commercial à Himachal Pradesh, Inde.",
     "paragraphs": [
       "<span class='font-bold'>Baddi, Himachal Pradesh – 3 avril 2025 – </span>Rialtes Technologies, un cabinet de conseil mondial de premier plan, a annoncé l’inauguration de son nouveau bureau commercial à Baddi, Himachal Pradesh, marquant une étape importante dans la stratégie d’expansion de l’entreprise. Le nouveau bureau vise à renforcer sa présence dans le nord de l’Inde, tout en explorant l’immense potentiel du secteur manufacturier de la région.",

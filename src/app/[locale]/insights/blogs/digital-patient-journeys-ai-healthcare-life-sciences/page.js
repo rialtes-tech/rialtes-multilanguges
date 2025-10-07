@@ -7,8 +7,16 @@ import Script from "next/script";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import Link from "next/link";
+import { useLocale, useTranslations } from "next-intl";
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import enContent from '../../../../../../messages/en/blogs.json';
+import esContent from '../../../../../../messages/es/blogs.json';
+import frContent from '../../../../../../messages/fr/blogs.json';
 
 export default function Page() {
+     const t = useTranslations('connectedCore')
+        const locale = useLocale();
+        const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const fullUrl = "https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/";
     const currUrl = useUrl()
     const schemaData = {
@@ -311,8 +319,8 @@ export default function Page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Digital Patient Journeys: The Future of AI Healthcare | Rialtes"
-                description=" The future of healthcare is digital patient journeys—AI-driven, predictive, and personalized pathways that empower patients and providers alike."
+               title={t('seoTitle')}
+               description={t('seoDescription')}
                 canonical={
                     "https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/"
                 }

@@ -103,8 +103,8 @@ export default function Page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Connected Care Ecosystems: Future for Pharma and MedTech | Rialtes"
-                description="Discover how a connected care ecosystem helps Pharma and MedTech with predictive alerts, chronic care, and remote monitoring for better outcomes."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="Partners, website, welcome"
                 canonical={
                     "https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/"

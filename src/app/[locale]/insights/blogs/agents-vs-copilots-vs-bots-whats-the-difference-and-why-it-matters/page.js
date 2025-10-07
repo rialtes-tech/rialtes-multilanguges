@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
@@ -11,7 +10,6 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
-
 import Link from "next/link";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 const schemaData = {
@@ -113,7 +111,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { blogs, faqData, list, caseStudies, agentUseCases, copilotList } =
+  const { faqData, list, caseStudies, agentUseCases, copilotList } =
     blogsContent.agentCopilot;
   const fullUrl =
     "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
@@ -122,8 +120,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes"
-        description="Learn the key differences between bots, copilots, and AI agents. Choose the best AI automation tool to scale productivity and transform workflows."
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         keywords="Partners, website, welcome"
         canonical={
           "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"

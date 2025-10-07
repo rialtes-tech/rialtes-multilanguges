@@ -1,6 +1,8 @@
 {
     "aboutUs": {
         "aboutusTitle": "À propos de nous",
+        "seoTitle": "Accompagner la Transformation des Entreprises | À propos de Rialtes",
+        "seoDescription": "Votre transformation commence ici : Rialtes simplifie le changement, favorise l’adoption de l’IA et stimule la croissance avec un partenariat fiable.",
         "aboutusSubtitle": "Façonner la véritable finalité de la technologie dans la vie quotidienne.",
         "aboutusSubtitleone": "Imaginer comment les tâches les plus complexes peuvent être simplifiées grâce à l’IA, aux données et à la technologie.",
         "worldTitle": "Les plus grandes marques du monde travaillent avec Rialtes pour transformer leurs processus et automatiser leurs activités afin d’augmenter leur ROI.",
@@ -163,6 +165,8 @@
                 "className": "xl:w-[150px] w-[124px]"
             }
         ],
+        "seoTitle": "Nos Valeurs – Responsabiliser avec Confiance et Inclusion | Rialtes",
+        "seoDescription": "Chez Rialtes, nous valorisons chacun : femmes en tech, LGBTQ+ et vétérans, avec égalité des chances et engagement fort pour un impact positif.",
         "cultureTitle": "Culture et valeurs",
         "growthTitleOne": "Construire un état d’esprit",
         "growthTitleTwo": "de croissance. Chaque jour.",
@@ -176,6 +180,8 @@
     },
     "impact": {
         "impactTitle": "Impact social",
+        "seoTitle": "Promouvoir la Durabilité grâce à une IA Responsable | Rialtes",
+        "seoDescription": "Rialtes redéfinit la citoyenneté d’entreprise avec IA durable, innovation ESG, formation des talents et impact social pour un avenir inclusif.",
         "impactSubtitle": "Durabilité avec",
         "impactSubtitleOne": "IA responsable",
         "rialtesTitle": "Rialtes aide les clients du monde entier à faire confiance à l’IA et à renforcer la philosophie de l’IA responsable.",
@@ -202,6 +208,8 @@
     },
     "globalAlliance": {
         "headerTitle": "Nos partenaires",
+        "seoTitle": "Nos Partenaires Stratégiques – Construire le Succès avec Rialtes",
+        "seoDescription": "Rialtes collabore avec des leaders IT et SaaS pour offrir des solutions innovantes. Découvrez notre réseau de partenaires de confiance.",
         "headerSubTitle": "Alliances mondiales",
         "ourTitle": "Nos partenaires stratégiques",
         "ourDesc": "Rialtes a établi un partenariat avec les éditeurs de logiciels d’entreprise les plus innovants pour vous fournir des solutions de conseil en informatique personnalisées et axées sur les données, qui simplifient, permettent et vous donnent les moyens de relever vos plus grands défis business.",

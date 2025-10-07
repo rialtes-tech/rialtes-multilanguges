@@ -112,14 +112,14 @@ export default function Page() {
 
   return (
     <div className="min-h-screen">
-      <Seo
-        title="Beyond Automation: Why AI Agents Power Smart Manufacturing"
-        description="Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems."
-        keywords="Partners, website, welcome"
-        canonical={
-          "https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/"
-        }
-      />
+       <Seo
+                title={t('seoTitle')}
+                description={t('seoDescription')}
+                keywords="Partners, website, welcome"
+                canonical={
+                    "https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/"
+                }
+            />
 
       <Script
         id="schema-copilots"

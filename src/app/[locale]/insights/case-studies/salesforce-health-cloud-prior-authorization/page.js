@@ -49,8 +49,9 @@ export default function Page() {
   const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization";
   return (
     <div className="min-h-screen bg-white">
-      <Seo title="Salesforce Health Cloud Case Study: Prior Authorization Streamlined"
-        description="See how Salesforce Health Cloud sped up prior authorizations, streamlining workflows in complex healthcare environments for faster patient care."
+      <Seo 
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization/"
       />
       <Script

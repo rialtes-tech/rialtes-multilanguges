@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
@@ -15,7 +14,6 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 const schemaData = {
-
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": "From Factory to Feedback: How Agentforce AI Elevates Customer Experience in Manufacturing",
@@ -111,8 +109,8 @@ export default function Page() {
     return (
         <section className="min-h-screen bg-white">
             <Seo
-                title="Agentforce for Manufacturers: Smart AI for CX | Rialtes"
-                description="With AI-driven visibility and automation, Agentforce for manufacturers reimagines CX, creating smarter, proactive, and seamless customer journeys."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical={"https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/"}
             />
 

@@ -116,14 +116,14 @@ export default function Page() {
 
   return (
     <div className="min-h-screen">
-      <Seo
-        title="How Agentforce AI Enables Zero Downtime Manufacturing | Rialtes"
-        description="Agentforce AI helps manufacturers prevent unplanned downtime with predictive intelligence, ensuring zero disruption and 24/7 operational efficiency."
-        keywords="Partners, website, welcome"
-        canonical={
-          "https://www.rialtes.com/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing/"
-        }
-      />
+     <Seo
+                title={t('seoTitle')}
+                description={t('seoDescription')}
+                keywords="Partners, website, welcome"
+                canonical={
+                    "https://www.rialtes.com/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing/"
+                }
+            />
 
       <Script
         id="schema-copilots"

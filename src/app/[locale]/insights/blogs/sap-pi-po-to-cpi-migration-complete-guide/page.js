@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
@@ -133,8 +132,9 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="SAP PI PO to SAP CPI Migration: Everything You Need to Know"
-        description="Migrating from SAP PI PO to SAP CPI is not a simple upgrade; it’s a transformation toward a cloud-native, intelligent integration backbone."
+        title={t("seoTitle")}
+        description={t("seoDescription")}
+        type="article"
         canonical={
           "https://www.rialtes.com/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide/"
         }
@@ -334,9 +334,8 @@ export default function Page() {
                       {features1.map((feature, index) => (
                         <div
                           key={index}
-                          className={`relative flex flex-col items-start xl:border-none max-md:border-b border-black xl:pb-0 pb-10 ${
-                            index !== 0 ? "md:pl-10" : ""
-                          }`}
+                          className={`relative flex flex-col items-start xl:border-none max-md:border-b border-black xl:pb-0 pb-10 ${index !== 0 ? "md:pl-10" : ""
+                            }`}
                         >
                           {index !== 0 && (
                             <span className="absolute left-0 top-0 h-full md:border-l border-b border-gray-300"></span>

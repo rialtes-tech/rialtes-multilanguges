@@ -1,8 +1,6 @@
 "use client";
-// pages/blog-detail.js
 import Image from "next/image";
 import Link from "next/link";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
@@ -109,14 +107,13 @@ export default function Page() {
     useCaseList,
   } = blogsContent.howAgentforce;
 
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
   const currUrl = useUrl();
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Agentforce 3.0 for Automotive Manufacturing Success | Rialtes"
-        description="Agentforce for Automotive is transforming vehicle production with AI-powered agents that enhance workflows, compliance, and agility on the factory floor."
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         canonical={
           "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"
         }

@@ -33,6 +33,8 @@
         "captchaError2": "Respuesta de captcha incorrecta. Por favor, inténtalo de nuevo."
     },
     "CIGWebinar": {
+        "seoTitle": "Webinar Integración SAP Ariba CIG: Sincronización Cloud S/4HANA | Rialtes",
+        "seoDescription": "Descubre cómo la integración SAP Ariba CIG ayuda a usuarios de ERP y S/4HANA a optimizar compras con automatización en la nube y análisis.",
         "webinarTitle": "CIG, tu puerta de entrada a SAP Ariba",
         "webinarInfo": "Únete a nuestro seminario web exclusivo para descubrir cómo el Ariba Cloud Integration Gateway (CIG) conecta sin problemas tu SAP ERP (S/4HANA) con la Red Ariba. Descubre cómo CIG centraliza y agiliza las transacciones de compras, simplifica la gestión de integraciones y acelera tu camino hacia operaciones de adquisiciones más inteligentes y sincronizadas.",
         "webinarAdvantagesData": [
@@ -67,6 +69,8 @@
         ]
     },
     "successFactorWebinar": {
+        "seoTitle": "Webinar SAP SuccessFactors Onboarding 2.0: Mejorar ROI de RRHH | Rialtes",
+        "seoDescription": "Únete a nuestro webinar SAP SuccessFactors Onboarding 2.0 para ver cómo se compara con la versión 1.0, su integración con Employee Central y flujos de RRHH automatizados.",
         "webinarAdvantagesData": [
             {
                 "title": "Introducción a SAP SuccessFactors Onboarding 2.0:",
@@ -104,6 +108,8 @@
         "webinarInfo": "Descubre una forma más eficiente de incorporar empleados. Únete a nosotros en un seminario web informativo que muestra las últimas mejoras de SAP SuccessFactors Onboarding 2.0, enfocadas en mejorar la experiencia del nuevo empleado desde el pre-onboarding hasta el primer día y más allá, destacando cómo transforma y optimiza el proceso de incorporación en comparación con su predecesor, SAP Onboarding 1.0."
     },
     "voyageWebinar": {
+        "seoTitle": "Webinar SAP RISE: Simplifica tu viaje SAP con Voyager+ de Rialtes",
+        "seoDescription": "Únete a nuestro webinar SAP RISE y descubre VoyagerPlus, un potente marco para simplificar tu viaje SAP, acelerar la adopción de la nube y fomentar la transformación.",
         "webinarAdvantagesData": [
             {
                 "title": "Simplifica la Transformación de SAP:",
@@ -138,6 +144,8 @@
         "webinarInfo": "No te pierdas esta oportunidad de unirte a nosotros en un seminario web exclusivo para explorar cómo Salesforce Automotive Cloud está revolucionando la interacción con el cliente en la industria automotriz. Descubre cómo tus equipos pueden dirigir cada interacción con el cliente utilizando datos, IA y automatización, desde el lead hasta la lealtad, todo dentro de una plataforma conectada."
     },
     "discoverAgenticWebinar": {
+        "seoTitle": "Webinar IA: Explorando capacidades agenticas con Agentforce | Rialtes",
+        "seoDescription": "Únete a nuestro webinar de IA y descubre cómo la IA agentica de Agentforce transforma los flujos de trabajo con agentes autónomos e integración inteligente.",
         "webinarAdvantagesData": [
             {
                 "title": "¿Qué es Agentforce?",
@@ -172,6 +180,8 @@
         "webinarInfo": "No te pierdas esta oportunidad de unirte a nuestro seminario web exclusivo para explorar cómo Salesforce Automotive Cloud está revolucionando la interacción con los clientes en la industria automotriz. Descubre cómo tus equipos pueden liderar cada interacción con el cliente utilizando datos, IA y automatización, todo dentro de una plataforma conectada."
     },
     "databricksWebinar": {
+        "seoTitle": "Cómo SAP Business Data Cloud, Databricks y SAP Datasphere unifican los datos",
+        "seoDescription": "Únete a nuestro webinar del 13 de mayo para aprender cómo SAP Business Data Cloud, Databricks y SAP Datasphere simplifican la unificación de datos e impulsan la innovación.",
         "webinarInfo": "No te pierdas esta oportunidad de unirte a nuestro seminario web exclusivo para explorar cómo Salesforce Automotive Cloud está revolucionando la interacción con los clientes en la industria automotriz. Descubre cómo tus equipos pueden liderar cada interacción con el cliente utilizando datos, IA y automatización, todo dentro de una plataforma conectada.",
         "webinarTitle": "Databricks y Datasphere — ¿Qué ofrece SAP Business Data Cloud?",
         "webinarAdvantagesData": [
@@ -206,6 +216,8 @@
         ]
     },
     "deliverEndToEndWebinar": {
+        "seoTitle": "Webinar Salesforce Automotive Cloud: Transformando la experiencia del cliente",
+        "seoDescription": "Únete a nuestro webinar y descubre cómo Salesforce Automotive Cloud mejora el recorrido del cliente con datos unificados, IA e automatización fluida.",
         "webinarAdvantagesData": [
             {
                 "title": "Descripción General Integral:",
@@ -240,6 +252,8 @@
         "webinarInfo": "No te pierdas esta oportunidad de unirte a nuestro seminario web exclusivo para explorar cómo Salesforce Automotive Cloud está revolucionando la interacción con los clientes en la industria automotriz. Descubre cómo tus equipos pueden liderar cada interacción con el cliente utilizando datos, IA y automatización, desde el primer contacto hasta la fidelización, todo dentro de una sola plataforma conectada."
     },
     "letsWhatsappWebinar": {
+        "seoTitle": "Integración Salesforce WhatsApp vía AgentChat | Webinar Rialtes",
+        "seoDescription": "Descubre cómo integrar WhatsApp con Salesforce usando AgentChat y potenciar a los equipos de CX con interacción segura en tiempo real.",
         "webinarTitle": "Hablemos por WhatsApp en Salesforce con AgentChat",
         "webinarInfo": "No te pierdas este seminario web exclusivo para descubrir cómo AgentChat, nuestra integración nativa y bidireccional de WhatsApp con Salesforce, transforma la manera en que tus equipos se comunican directamente dentro de Salesforce. Ya sea en ventas, servicio, marketing u operaciones en campo, AgentChat lleva conversaciones por WhatsApp en tiempo real y sin interrupciones a tu entorno CRM.",
         "webinarAdvantagesData": [

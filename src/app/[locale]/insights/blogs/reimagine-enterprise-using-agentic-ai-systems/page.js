@@ -93,9 +93,9 @@ export default function Page() {
 
     return (
         <section className="min-h-screen">
-            {/* <Seo
-                title=""
-                description=""
+            <Seo
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical={"  https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"}
             />
 
@@ -103,7 +103,7 @@ export default function Page() {
                 id="schema-discover"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            /> */}
+            />
 
 
             <section className="relative group overflow-hidden 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[400px]">

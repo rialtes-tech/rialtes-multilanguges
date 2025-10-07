@@ -51,8 +51,8 @@ export default function Page() {
   return (
     <section className="min-h-screen bg-white">
       <Seo
-        title="How to Integrate SAP with Office 365 for Enhanced HR Collaboration"
-        description="Discover how SAP Office 365 integration can simplify HR processes, automate workflows, and foster seamless collaboration across Office 365 apps."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
       />
       <Script

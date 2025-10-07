@@ -47,7 +47,7 @@ const schemaData = {
 };
 
 export default function Page() {
-  const t = useTranslations("agriculture");
+  const t = useTranslations("agriculture"); 
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, {
     en: enContent,
@@ -62,8 +62,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Salesforce for Agriculture: Digital Farming Revolution | Rialtes"
-        description="Discover how Salesforce for agriculture powers digital farming, improving efficiency and driving innovation for a sustainable future in Agriculture 4.0."
+      title={t("seoTitle")}
+      description={t("seoDescription")}
         canonical="https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
         image="https://www.rialtes.com/images/blog/agriculture-4.0-digital-farming.webp"
       />

@@ -51,15 +51,15 @@ const fullUrl = "https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-dr
 
 export default function Page() {
   const t = useTranslations("agenticPharma");
-   const currUrl = useUrl()
+  const currUrl = useUrl()
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { blogs, blogMainData, whyPharmaData, agenticAppData } = content.agenticPharma
+  const { blogMainData, whyPharmaData, agenticAppData } = content.agenticPharma
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Agentic AI Pharma: Automating Complex Pharma Workflows | Rialtes"
-        description="Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention"
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical={"https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry/"}
       />
       <Script

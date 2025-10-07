@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
@@ -126,8 +125,8 @@ export default function Page() {
   return (
     <div className="min-h-screen">
       <Seo
-        title="Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes"
-        description="Learn the key differences between bots, copilots, and AI agents. Choose the best AI automation tool to scale productivity and transform workflows."
+       title={t('seoTitle')}
+       description={t('seoDescription')}
         keywords="Partners, website, welcome"
         canonical={
           "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/"

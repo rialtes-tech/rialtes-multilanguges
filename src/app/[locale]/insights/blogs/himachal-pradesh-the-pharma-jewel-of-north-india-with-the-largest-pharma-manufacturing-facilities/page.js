@@ -20,14 +20,14 @@ const fullUrl = "https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pha
 export default function Page() {
   const t = useTranslations("himachalBlog");
   const locale = useLocale();
-   const currUrl = useUrl()
+  const currUrl = useUrl()
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { blogs, blogMainData, pharmaData, economicData, economicData2, economicData3, hmData } = content.himachalBlog
+  const { blogMainData, pharmaData, economicData, economicData2, economicData3, hmData } = content.himachalBlog
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="The Rise of Himachal in India’s Pharma Industry | Rialtes"
-        description="Explore how Himachal Pradesh became a pharma manufacturing leader with SEZs, tax breaks, global supply links, and 600+ certified production units."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical={
           "https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/"
         }
@@ -139,7 +139,7 @@ export default function Page() {
                 alt="India's impact on the global pharmaceutical industry"
                 width={0}
                 height={0}
-                className="xl:w-full h-full w-full relative xl:right-[64px] lg:right-[55px]  md:w-[80%]"/>
+                className="xl:w-full h-full w-full relative xl:right-[64px] lg:right-[55px]  md:w-[80%]" />
               <div className="py-6 xl:py-0"></div>
               <h2 className=" pb-4 font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">
                 {t('northernTitle')} {" "}
@@ -225,7 +225,7 @@ export default function Page() {
       </section >
       {/* Latest Blogs */}
       <div className="custom-container pb-10 xl:pr-0">
-           <FilteredBlogCarousel url={currUrl} />
+        <FilteredBlogCarousel url={currUrl} />
       </div>
     </div >
   );

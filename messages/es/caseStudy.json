@@ -141,6 +141,8 @@
   },
   "yardiCaseStudy": {
     "headerTitle": "Socio confiable de YARDI para la PHA más grande de América del Norte",
+    "seoTitle": "Estudio de implementación Yardi: 5 años y grandes logros",
+    "seoDescription": "Descubre cómo apoyamos 5 años de transformación digital con Yardi AMS para un éxito sostenido.",
     "publicTitle": "Sector Público",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Una destacada empresa de bienes raíces multifamiliares con sede en EE. UU., especializada en la adquisición, desarrollo y revalorización de propiedades residenciales y comerciales. Enfocada en la excelencia operativa y la creación de valor a largo plazo, la empresa se dedica a construir comunidades prósperas mientras maximiza los rendimientos para sus inversionistas.",
@@ -197,6 +199,8 @@
   },
   "automateCaseStudy": {
     "autoTitle": "Automatización del procesamiento de pedidos en el sector sanitario con MuleSoft",
+    "seoTitle": "Estudio MuleSoft: Automatización de pedidos con Salesforce y SAP",
+    "seoDescription": "Descubre cómo MuleSoft automatizó flujos de pedidos complejos con Salesforce y SAP.",
     "healthcare": "Salud",
     "cliendTitle": "Perfil del cliente",
     "clientDesc": "Una empresa mundial de tecnología médica especializada en el desarrollo y la fabricación de productos innovadores para el diagnóstico, tratamiento y seguimiento de afecciones cardiovasculares y endovasculares. Su cartera incluye marcapasos, desfibriladores y sistemas de monitorización remota para pacientes con dispositivos implantados. La misión de la empresa es mejorar la calidad de vida de las personas con enfermedades del corazón y los vasos sanguíneos mediante tecnologías médicas avanzadas.",
@@ -249,6 +253,8 @@
   },
   "digitizingCaseStudy": {
     "digitizingTitle": "Digitalización del viaje del paciente utilizando Salesforce Health Cloud",
+    "seoTitle": "Estudio Salesforce Health Cloud: Trayectoria del paciente digital",
+    "seoDescription": "Descubre cómo la salud se transforma con un recorrido digital del paciente, mejorando atención, acceso y participación.",
     "healthcare": "Salud",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Una empresa global de tecnología médica dedicada a mejorar vidas mediante cuidados cardiovasculares y endovasculares innovadores. La empresa diseña y fabrica marcapasos, desfibriladores y sistemas de monitoreo remoto utilizados por profesionales de la salud en todo el mundo. Su misión es respaldar mejores resultados para los pacientes combinando tecnología médica avanzada con experiencias digitales sin interrupciones.",
@@ -316,6 +322,8 @@
   "empoweringCaseStudy": {
     "headerTitle": "150 pedidos al día, cero trabajo manual: Priorización de pedidos con autoservicio impulsada por Fiori",
     "manufacturing": "Manufactura",
+    "seoTitle": "SAP Fiori para priorización de pedidos en manufactura",
+    "seoDescription": "Retrieving data. Wait a few seconds and try to cut or copy again.",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Nuestro cliente es un fabricante reconocido de productos para techos de alta calidad con una trayectoria basada en la innovación, la calidad y la sostenibilidad. Con un portafolio diverso que incluye tejas asfálticas, accesorios para techos, capas base e impermeabilización, atienden tanto al mercado residencial como al comercial. Respaldada por instalaciones de fabricación de última generación y una sólida red de distribución, la empresa es un socio de confianza para constructores, contratistas y propietarios en todo el país.",
     "challengesTitle": "Desafíos",
@@ -351,6 +359,8 @@
   },
   "leadingCaseStudy": {
     "leadingTitle": "Fabricante de Automóviles Líder Logró un Aumento del 35% en la Satisfacción del Cliente con AutoSense",
+    "seoTitle": "Gestión de garantías Salesforce: AutoSense en acción",
+    "seoDescription": "Esta estudio muestra cómo AutoSense automatizó garantías, redujo errores y mejoró la eficiencia operativa.",
     "Automotive": "Automotriz",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un destacado fabricante mundial de automóviles, reconocido por su innovación y vehículos de alto rendimiento, enfrentaba desafíos con su sistema de gestión de garantías heredado. El sistema, basado en un portal para concesionarios en Java/J2EE, se había vuelto engorroso, difícil de mantener y carecía de la flexibilidad necesaria para respaldar las necesidades comerciales cambiantes. El cliente necesitaba una solución moderna y completa para optimizar los reclamos de garantía, mejorar la interacción con los concesionarios y optimizar los procesos generales de gestión de garantías.",
@@ -484,6 +494,8 @@
   "omnichannelCaseStudy": {
     "serviceTitle": "Transformación de la Gestión de Casos Omnicanal con Salesforce Service Cloud",
     "manufacturing": "Manufactura",
+    "seoTitle": "Estudio de implementación Yardi: 5 años y grandes logros",
+    "seoDescription": "Descubre cómo apoyamos 5 años de transformación digital con Yardi AMS para un éxito sostenido.",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un proveedor líder de semiconductores analógicos de alto rendimiento que impulsa la conectividad inalámbrica y por cable en diversas industrias. Sus principales ofertas, como amplificadores, filtros, interruptores y módulos integrados, respaldan transmisiones inalámbricas eficientes para smartphones, routers, dispositivos médicos, automóviles y más. Reconocido por su innovación, es un socio tecnológico clave en aplicaciones tanto de consumo como industriales a nivel mundial.",
     "problemTitle": "Problema o Desafío",
@@ -548,6 +560,8 @@
   "optimizingCaseStudy": {
     "salesTitle": "Optimización de Ventas con Salesforce Sales Cloud para la Manufactura",
     "manufacturing": "Manufactura",
+    "seoTitle": "Estudio Salesforce Sales Cloud: Optimización de ventas",
+    "seoDescription": "Descubre cómo optimizar flujos de ventas con Sales Cloud aceleró conversiones y cierres de contratos.",
     "clientTitle": "Descripción del Cliente",
     "clientDesc": "La empresa es un fabricante líder especializado en equipos de tratamiento de agua personalizados. Cada producto está diseñado de manera única según los requisitos específicos del cliente, lo que significa que no hay dos productos iguales. Su equipo de ventas está compuesto por ingenieros que se encargan tanto de las ventas como de las especificaciones técnicas para satisfacer las necesidades del cliente. La complejidad del proceso de ventas requiere una solución sólida que maximice el rendimiento comercial, mejore la interacción con el cliente y se integre perfectamente con los sistemas ERP existentes.",
     "problemTitle": "Problema o Desafío",
@@ -633,6 +647,8 @@
   },
   "realForceCaseStudy": {
     "autoTitle": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
+    "seoTitle": "Estudio Exelona: Carga anticipada de ACH y registros",
+    "seoDescription": "Descubre cómo Rialtes optimizó la carga anticipada de ACH y registros para mejorar la precisión financiera.",
     "realEstate": "Bienes Raíces",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Una destacada firma de inversión inmobiliaria multifamiliar con sede en EE. UU., enfocada en adquisiciones, desarrollo y excelencia operativa. Con una cartera de propiedades residenciales en todo el país, la misión de la empresa es construir comunidades prósperas para los residentes mientras genera sólidos retornos para los inversionistas.",
@@ -694,6 +710,8 @@
   "autoSenseCaseStudy": {
     "dealerTitle": "Impulsando la Gestión de Concesionarios con AutoSense de Rialtes",
     "manufacturing": "Manufactura",
+    "seoTitle": "Revolucionando la gestión de concesionarios con AutoSense",
+    "seoDescription": "Descubre cómo Rialtes transformó la gestión de concesionarios con AutoSense: UX moderno, integración SAP y Salesforce y operaciones en tiempo real.",
     "cliendTitle": "Descripción del Cliente:",
     "cliendDesc": "Un reconocido fabricante automotriz global, conocido por sus vehículos de vanguardia, enfrentaba importantes desafíos con su portal de concesionarios obsoleto. Construido sobre un marco heredado de .NET, el portal no lograba mantenerse al día con las necesidades empresariales modernas, lo que obstaculizaba la participación de los concesionarios, los procesos de ventas y la eficiencia operativa. El cliente buscaba una solución potente y escalable para optimizar las interacciones con los concesionarios, agilizar los flujos de trabajo y mejorar el rendimiento general en su vasta red de concesionarios a nivel mundial.",
     "keyTitle": "Principales Desafíos:",
@@ -819,6 +837,8 @@
   },
   "salesForceCaseStudy": {
     "salesforceTitle": "Digitalización de la Autorización Previa para Mejores Resultados en Pacientes",
+    "seoTitle": "Estudio Salesforce Health Cloud: Autorizaciones simplificadas",
+    "seoDescription": "Descubre cómo Salesforce Health Cloud aceleró las autorizaciones, simplificando los procesos para un cuidado más rápido.",
     "healthcare": "Salud",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un líder global en tecnología médica que diseña y fabrica productos cardiovasculares y endovasculares que salvan vidas, como marcapasos, desfibriladores y sistemas de monitoreo remoto de pacientes. La misión de la empresa es mejorar y prolongar la vida de pacientes con enfermedades cardíacas y vasculares mediante innovación avanzada y atención centrada en el paciente.",
@@ -865,6 +885,8 @@
   },
   "devopsCaseStudy": {
     "devopsTitle": "Transformación DevOps usando Copado y Salesforce",
+    "seoTitle": "Estudio Salesforce DevOps: Optimización de entregas",
+    "seoDescription": "Descubre cómo optimizar DevOps con Copado y Salesforce aceleró entregas y redujo errores manuales.",
     "manufacturing": "Manufactura",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un fabricante destacado especializado en materiales de construcción innovadores para proyectos residenciales y comerciales. Su portafolio de productos incluye tejas para techos, terrazas, barandillas y soluciones de impermeabilización. La empresa está comprometida en apoyar a contratistas, constructores y propietarios para mejorar la durabilidad, el rendimiento y el atractivo visual de las edificaciones.",
@@ -925,6 +947,8 @@
   "mobileCaseStudy": {
     "claimTitle": "Reclamo en 4 minutos: Rialtes crea un portal móvil para transformar la experiencia de reclamaciones",
     "manufacturing": "Manufactura",
+    "seoTitle": "Estudio Salesforce Experience Cloud: Portal móvil de garantías",
+    "seoDescription": "Descubre cómo una marca de techos creó una experiencia de garantía móvil que encanta a sus clientes con Experience Cloud.",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un fabricante líder de soluciones de techado de alta calidad diseñadas para proteger lo que más importa. Especializados en productos duraderos e innovadores para espacios residenciales y comerciales, ofrecen una gama de tejas asfálticas, bases para techos, soluciones de impermeabilización y materiales compuestos para una protección y estética superiores.",
     "challengesTitle": "Desafíos",
@@ -946,6 +970,8 @@
   "warrantyClaimCaseStudy": {
     "warrantyTitle": "40% de Aumento en la Adopción de la Aplicación de Garantías Usando la Funcionalidad de Salesforce Experience Cloud",
     "manufacturing": "Manufactura",
+    "seoTitle": "Estudio: Experience Cloud para fabricante de techos",
+    "seoDescription": "Descubre cómo Rialtes agilizó reclamos de garantía y mejoró la satisfacción del cliente con Experience Cloud.",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Un fabricante líder de productos para techos, reconocido por su innovación y calidad. Con décadas de experiencia, se especializa en tejas asfálticas, accesorios para techos, soluciones de impermeabilización y revestimientos para uso residencial y comercial. Comprometidos con la sostenibilidad, invierten en tecnologías avanzadas de fabricación y mantienen una amplia red de distribución, asegurando que constructores, contratistas y propietarios tengan acceso a soluciones de techado de primera calidad.",
     "challengesTitle": "Desafíos",
@@ -966,6 +992,8 @@
   },
   "yardiManageCaseStudy": {
     "yardiTitle": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar mediante servicios gestionados de Yardi",
+    "seoTitle": "Estudio Yardi: Reduciendo tiempos de inactividad en inmobiliaria",
+    "seoDescription": "Descubre cómo nuestros servicios Yardi redujeron tiempos de inactividad, mejoraron el rendimiento y aumentaron la eficiencia operativa.",
     "realEstate": "Bienes Raíces",
     "clientProfile": "Perfil del Cliente",
     "clientDesc": "Una destacada empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la adquisición, desarrollo y revalorización de propiedades residenciales y comerciales. Centrada en la excelencia operativa y la creación de valor a largo plazo, la empresa se dedica a construir comunidades prósperas mientras maximiza el retorno para sus inversores.",
@@ -1015,6 +1043,8 @@
   },
   "eduplusCaseStudy": {
     "educationcloud": "Educación",
+    "seoTitle": "Estudio Salesforce Education Cloud | Rialtes",
+    "seoDescription": "Descubre cómo Edu+ en Education Cloud aumentó inscripciones 22% y mejoró soporte estudiantil con IA y automatización.",
     "date": "21 de agosto de 2025",
     "eduTitle": "Transformando el Éxito Estudiantil con Salesforce Education Cloud y Edu+",
     "clientTitle": "Descripción del Cliente",

@@ -140,6 +140,8 @@
     ]
   },
   "yardiCaseStudy": {
+    "seoTitle": "Yardi Implementation Case Study: 5 Years, 1 PHA, and Big Wins",
+    "seoDescription": "Explore our Yardi implementation case study to see how we supported a 5-year digital transformation journey with Yardi AMS for long-term success.",
     "headerTitle": "Trusted YARDI Partner for North America’s Largest PHA",
     "publicTitle": "Public Sector",
     "clientTitle": "Client Profile",
@@ -196,6 +198,8 @@
     "topics": "Topics"
   },
   "automateCaseStudy": {
+    "seoTitle": "MuleSoft Case Study: Order Processing Automation with Salesforce & SAP",
+    "seoDescription":"Streamlined complex order flows using MuleSoft, Salesforce, and SAP APIs. Dive into this MuleSoft case study to see integration in action.",
     "autoTitle": "Automating Order Processing in Healthcare using MuleSoft",
     "healthcare": "Healthcare",
     "cliendTitle": "Client Profile",
@@ -248,6 +252,8 @@
     ]
   },
   "digitizingCaseStudy": {
+    "seoTitle": "Salesforce Health Cloud Case Study: Patient Journey Digitized",
+    "seoDescription":"Discover how healthcare is transforming with a digital-first patient journey powered by Salesforce, enhancing care, access, and patient engagement.",
     "digitizingTitle": "Digitizing the Patient Journey Using Salesforce Health Cloud",
     "healthcare": "Healthcare",
     "clientTitle": "Client Profile",
@@ -314,6 +320,8 @@
     ]
   },
   "empoweringCaseStudy": {
+    "seoTitle": "SAP Fiori for Sales Order Prioritization in Manufacturing | Rialtes",  
+    "seoDescription": "Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy.",
     "headerTitle": "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
     "manufacturing": "Manufacturing",
     "clientTitle": "Client Profile",
@@ -350,6 +358,8 @@
     ]
   },
   "leadingCaseStudy": {
+    "seoTitle": "Salesforce Warranty Management: AutoSense in Action",
+    "seoDescription": "This Salesforce warranty management case study highlights how AutoSense automated warranty claims, reduced errors, and improved operational efficiency.",
     "leadingTitle": "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
     "Automotive": "Automotive",
     "clientTitle": "Client Overview",
@@ -482,6 +492,8 @@
     ]
   },
   "omnichannelCaseStudy": {
+    "seoTitle": "Salesforce Service Cloud Case Study: Omnichannel Case Management",
+    "seoDescription": "Explore how a leading semiconductor provider transformed their customer service with Salesforce Service Cloud.Discover a Salesforce Service Cloud success story—next-gen case management transformed with automation, faster service, and elevated customer support.",
     "serviceTitle": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
     "manufacturing": "Manufacturing",
     "clientTitle": "Client Profile",
@@ -546,6 +558,8 @@
     ]
   },
   "optimizingCaseStudy": {
+    "seoTitle": "Salesforce Sales Cloud Case Study: Front Load in Manufacturing",
+    "seoDescription": "Discover how front loading sales workflows using Salesforce Sales Cloud improved conversion speed and deal closures for a manufacturer.",
     "salesTitle": "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
     "manufacturing": "Manufacturing",
     "clientTitle": "Client Overview",
@@ -632,6 +646,8 @@
     ]
   },
   "realForceCaseStudy": {
+    "seoTitle": "Exelona Case Study: Front Load ACH and Journals",
+    "seoDescription": "Learn how Rialtes helped front load ACH and journal entries using Exelona’s banking module to streamline finance ops and improve accuracy.",
     "autoTitle": "Automating ACH and Journal Entries with Our Exelona Banking Module",
     "realEstate": "Real Estate",
     "clientTitle": "Client Profile",
@@ -692,6 +708,8 @@
     ]
   },
   "autoSenseCaseStudy": {
+    "seoTitle": "Revolutionizing Automotive Dealer Management with AutoSense | Rialtes",
+    "seoDescription": "Discover how Rialtes transformed automotive dealer management with AutoSense—modern UX, SAP & Salesforce integration, and real-time operations.",
     "dealerTitle": "Revving Up Dealer Management with AutoSense by Rialtes",
     "manufacturing": "Manufacturing",
     "cliendTitle": "Client Overview:",
@@ -818,6 +836,8 @@
     ]
   },
   "salesForceCaseStudy": {
+    "seoTitle": "Salesforce Health Cloud Case Study: Prior Authorization Streamlined",
+    "seoDescription":"See how Salesforce Health Cloud sped up prior authorizations, streamlining workflows in complex healthcare environments for faster patient care.",
     "salesforceTitle": "Digitizing Prior Authorization for Better Patient Outcomes",
     "healthcare": "Healthcare",
     "clientTitle": "Client Profile",
@@ -864,6 +884,8 @@
     ]
   },
   "devopsCaseStudy": {
+    "seoTitle": "Salesforce DevOps Case Study: How to Front Load Delivery",
+    "seoDescription": "Discover how front loading DevOps with Copado and Salesforce improved release speed and reduced manual errors for a tech-forward enterprise.",
     "devopsTitle": "DevOps Transformation using Copado and Salesforce",
     "manufacturing": "Manufacturing",
     "clientTitle": "Client Profile",
@@ -923,6 +945,8 @@
     ]
   },
   "mobileCaseStudy": {
+    "seoTitle": "Salesforce Experience Cloud Case Study: Mobile Warranty Portal | Rialtes",
+    "seoDescription": "Discover how a leading roofing brand used Salesforce Experience Cloud to deliver a mobile-friendly warranty claim experience customers love.",
     "claimTitle": "Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience",
     "manufacturing": "Manufacturing",
     "clientTitle": "Client Profile",
@@ -944,6 +968,9 @@
     ]
   },
   "warrantyClaimCaseStudy": {
+
+    "seoTitle": "Case Study: Salesforce Experience Cloud for Roofing Manufacturer | Rialtes",
+    "seoDescription": "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
     "warrantyTitle": "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
     "manufacturing": "Manufacturing",
     "clientTitle": "Client Profile",
@@ -965,6 +992,8 @@
     ]
   },
   "yardiManageCaseStudy": {
+    "seoTitle": "Yardi Case Study: Reducing Downtime in Multifamily Real Estate",
+    "seoDescription":"Discover how our Yardi Managed Services significantly reduced downtime, improved performance, and boosted operational efficiency for a real estate leader.",
     "yardiTitle": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
     "realEstate": "Real Estate",
     "clientProfile": "Client Profile",
@@ -1014,6 +1043,8 @@
     ]
   },
   "eduplusCaseStudy": {
+    "seoTitle":"Retrieving data. Wait a few seconds and try to cut or copy again.",
+    "seoDescription":"See how Rialtes Edu+ on Salesforce Education Cloud boosted enrollment by 22% and improved student support with AI, automation, and connected experiences.",
     "educationcloud": "Education",
     "date": "21 August 2025",
     "eduTitle": "Transforming Student Success with Salesforce Education Cloud and Edu+",
