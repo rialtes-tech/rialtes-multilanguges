@@ -442,7 +442,7 @@ export default function Page() {
                                         })
                                     }
                                 </div>
-                                <p className="mt-[60px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">AI is not just an added feature; it’s the enabler of future-ready healthcare systems. By analyzing massive datasets from clinical trials, electronic medical records, and patient interactions, AI can help life sciences organizations identify trends, predict outcomes, and personalize care.</p>
+                                <p className="mt-[60px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">This isn’t just about efficiency. It’s about ensuring patients feel heard, supported, and cared for every step of the way.</p>
 
                             </div>
 
