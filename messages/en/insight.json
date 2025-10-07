@@ -37,7 +37,14 @@
     "director": "Sr. Managing Director – SAP Services",
     "dataDate": "May 13, 2025",
     "contactUs": "Take the next step to operational excellence with us.",
-    "caseStudies": [
+    "sapPi":"SAP PI PO to SAP CPI Migration: A Complete Guide",
+    "sapPiDesc":"Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation. For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes. But as organizations shift to cloud-first strategies, the cracks in PI/PO are showing.",
+    "aiTitle":"AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring",
+    "aiDesc":"Early detection of health deterioration is vital for patients with chronic conditions or those recovering from surgery. That is the reason why patients and clinicians now rely on real-time data for faster...",
+   "buildTitle":"Build and Deploy Your First AI Agent Using Agentforce",
+   "buildDesc":"By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions.",
+    "transforming":"Transforming Student Success with Salesforce Education Cloud and Edu+",
+   "caseStudies": [
       {
         "id": "case-study-2",
         "image": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",

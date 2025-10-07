@@ -127,7 +127,7 @@ export default function InsightsPage() {
       {/* Blog Section */}
       <div className="custom-container">
         <section className="mb-16 mt-[50px] md:mt-[100px] xl:mt-[100px] lg:max-w-[800px] xl:max-w-[1600px]">
-          <h2 className="text-[#000000] text-[20px] xl:text-[26px] pb-6 mb-8 max-w-4xl md:text-[20px] ">
+          <h2 className="text-[#000000] text-[20px] 4xl:text-[26px] pb-6 mb-8 max-w-4xl md:text-[20px] ">
             {t('insightDesc')}
           </h2>
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-6">
@@ -180,12 +180,11 @@ export default function InsightsPage() {
                   </div>
                   <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">Aug. 26, 2025</div>
                 </div>
-                <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
-                  SAP PI PO to SAP CPI Migration: A Complete Guide
+                <h3 className="mb-3 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
+                 {t('sapPi')}
                 </h3>
-                <p className="mb-4 4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
-                  Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation. For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes. But as organizations shift to cloud-first strategies, the cracks in PI/PO are showing.
-                </p>
+                <p className="mb-4 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                {t('sapPiDesc')}</p>
                 <Link
                   href="/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide"
                   className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group">
@@ -245,11 +244,11 @@ export default function InsightsPage() {
                     </div>
                     <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">Sep. 09, 2025</div>
                   </div>
-                  <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
-                    AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring
+                  <h3 className="mb-3 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
+                   {t('aiTitle')}
                   </h3>
-                  <p className="mb-2 4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
-                    Early detection of health deterioration is vital for patients with chronic conditions or those recovering from surgery. That is the reason why patients and clinicians now rely on real-time data for faster...
+                  <p className="mb-2 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                    {t('aiDesc')}
                   </p>
                   <div>
                     <Link
@@ -311,11 +310,11 @@ export default function InsightsPage() {
                     </div>
                     <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">Sep. 02, 2025</div>
                   </div>
-                  <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
-                    Build and Deploy Your First AI Agent Using Agentforce
+                  <h3 className="mb-3 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
+                   {t('buildTitle')}
                   </h3>
-                  <p className="mb-2 4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
-                    By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions.
+                  <p className="mb-2 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                     {t('buildDesc')}
                   </p>
                   <div>
                     <Link
@@ -357,7 +356,7 @@ export default function InsightsPage() {
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
               <div className="md:w-[50%]">
                 <h2 className="mb-1 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] text-[26px]">{t('caseTitle')}</h2>
-                <p>{t('caseDesc')}</p>
+                <p className="4xl:text-[20px] xl:text-[17px] text-[16px]">{t('caseDesc')}</p>
               </div>
               <div className="hidden sm:block">
                 <Link
@@ -408,11 +407,10 @@ export default function InsightsPage() {
                     </div>
                     <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">Aug. 21, 2025</div>
                   </div>
-                  <h3 className="mb-3 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px]">
-                    Transforming Student Success with Salesforce Education Cloud and Edu+
-
+                  <h3 className="mb-3 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
+                  {t('transforming')} 
                   </h3>
-                  <p className="4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">
+                  <p className="4xl:text-[20px] xl:text-[17px] text-[16px]">
                     {t('leadingblog')}
                   </p>
                 </div>
@@ -459,8 +457,8 @@ export default function InsightsPage() {
                       </div>
                       <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">{study.date}</div>
                     </div>
-                    <h3 className="mb-2 4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[20px] leading-tight">{study.title}</h3>
-                    <p className="4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px]">{study.description}</p>
+                    <h3 className="mb-2 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">{study.title}</h3>
+                    <p className="4xl:text-[20px] xl:text-[17px] text-[16px]">{study.description}</p>
                   </div>
                 </div>
               ))}
@@ -539,7 +537,7 @@ export default function InsightsPage() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-[#134874] mb-4 min-h-[4rem]">
+                <h3 className="text-[#134874] mb-4 min-h-[4rem] 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
                   {t('SapTitle')}
                 </h3>
                 <div className="space-y-3 mb-6">
@@ -617,7 +615,7 @@ export default function InsightsPage() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-[#134874] mb-4 min-h-[4rem]">
+                <h3 className="text-[#134874] mb-4 min-h-[4rem] 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
                   {t('discoverTitle')}
                 </h3>
                 <div className="space-y-3 mb-6">
@@ -694,7 +692,7 @@ export default function InsightsPage() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-[#134874] mb-4 min-h-[4rem]">
+                <h3 className="text-[#134874] mb-4 min-h-[4rem] 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
                   {t('databricksTitle')}
                 </h3>
                 <div className="space-y-3 mb-6">
