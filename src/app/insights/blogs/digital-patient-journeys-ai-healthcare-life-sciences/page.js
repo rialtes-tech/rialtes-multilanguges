@@ -166,7 +166,7 @@ export default function Page() {
                     "desc": "by reducing inefficiencies and manual processes.",
                 }
             ],
-            "desc2": "MediAIna supports these needs by bridging the gap between healthcare AI platforms and <span>digital patient engagement in daily healthcare</span>, creating connected ecosystems for life sciences enterprises."
+            "desc2": "MediAIna supports these needs by bridging the gap between healthcare AI platforms and <span> <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient engagement</a> in daily healthcare</span>, creating connected ecosystems for life sciences enterprises."
         }
     ]
     const digitalData = [
@@ -549,9 +549,9 @@ export default function Page() {
                                             <div className="md:mt-[50px] mt-[40px]" key={ind}>
                                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
-                                                 dangerouslySetInnerHTML={{ __html: data.desc }}/>
-                                                
-                                              
+                                                    dangerouslySetInnerHTML={{ __html: data.desc }} />
+
+
                                                 <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-6 font-bold">{data.listTitle}</h3>
 
                                                 <ul className="list-disc pl-[36px] font-medium mt-4 space-y-2">
