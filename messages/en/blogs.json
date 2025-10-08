@@ -5024,7 +5024,7 @@
         "longTermData": [
             {
                 "title": "Chronic disease management",
-                "desc": "Diabetes, heart disease, and cancer care require ongoing support. Here, <strong>long-term patient care management strategies</strong> powered by AI, wearables, and real-time monitoring can prevent complications and reduce costs."
+                "desc": "Diabetes, heart disease, and cancer care require ongoing support. Here, <a href='https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>long-term patient care management strategies</a> powered by AI, wearables, and real-time monitoring can prevent complications and reduce costs."
             },
             {
                 "title": "Remote care adoption",
@@ -5038,7 +5038,7 @@
         "reimaginingData": [
             {
                 "title": "Reimagining Digital Patient Journeys",
-                "desc": "What this really means is rethinking the way healthcare journeys are designed. Instead of focusing on isolated events (a hospital visit, a prescription, a device implant), it’s about <strong>reimagining digital patient journeys in life sciences</strong>  from end to end.",
+                "desc": "What this really means is rethinking the way healthcare journeys are designed. Instead of focusing on isolated events (a hospital visit, a prescription, a device implant), it’s about <a href='https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>reimagining digital patient journeys in life sciences</a> from end to end.",
                 "desc2": "That includes:",
                 "list": [
                     "A seamless transition from clinical trials to therapy adoption.",
@@ -5207,7 +5207,7 @@
                         "desc": "automated scheduling, digital insurance approvals, and real-time lab updates."
                     }
                 ],
-                "desc2": "These <a href='https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>connected care ecosystems in pharma</a> represent more than convenience. It directly impacts outcomes; patients who feel supported and engaged are more likely to follow treatment plans, reducing readmissions and improving long-term health. "
+                "desc2": "These <a href='https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>connected care ecosystems in pharma</a> represent more than convenience. It directly impacts outcomes; patients who feel supported and engaged are more likely to follow treatment plans, reducing readmissions and improving  <a href='https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> long-term patient care management strategies </a>. "
             },
             {
                 "title": "Why Life Sciences Must Embrace Digital Patient Journeys",
@@ -5317,7 +5317,7 @@
         "medianaData": [
             {
                 "title": "MediAIna: Transforming Digital Patient Journeys in Practice",
-                "desc": "While the vision sounds futuristic, MediAIna makes it practical today.",
+                "desc": "While the vision sounds futuristic, <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a>  makes it practical today.",
                 "listTitle": "What sets MediAIna apart:",
                 "list": [
                     {
@@ -5521,7 +5521,7 @@
         "blogTopic": "MediAIna",
         "blogTitle": "How a Patient Experience Platform Transforms Care from Diagnosis to Long-Term Management",
         "medianaTitle": "MediAIna: Redefining the Integrated Healthcare Journey",
-        "medianaDesc": "Unlike traditional point solutions, MediAIna healthcare delivers a unified platform that integrates clinical, operational, and digital experiences. Designed specifically for the life sciences and MedTech ecosystem, it is backed by Rialtes’ LifeAI+ consulting suite to ensure scalability, intelligence, and compliance.",
+        "medianaDesc": "Unlike traditional point solutions, <a href=' https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a> healthcare delivers a unified platform that integrates clinical, operational, and digital experiences. Designed specifically for the life sciences and MedTech ecosystem, it is backed by Rialtes’ <a href='https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>LifeAI+ consulting suite</a>  to ensure scalability, intelligence, and compliance.",
         "medianaDesc2": "Here’s what sets the MediAIna patient journey platform apart:",
         "medianaDesc3": "By connecting providers, payers, MedTech, and life sciences organizations, MediAIna ensures that no part of the patient journey is fragmented or overlooked.",
         "faqTitle": "FAQs: Transforms Care with Patient Experience Platform"
