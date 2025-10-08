@@ -184,7 +184,7 @@
     "latestBlogs": [
       {
         "id": 43,
-        "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-ter m-care-mobile.webp",
+        "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
         "category": "MediAIna",
         "industry": "Santé",
         "date": "Oct. 07, 2025",
@@ -693,7 +693,7 @@
       {
         "id": 7,
         "imgSrc": "/images/case-studies/Small thumb.webp",
-        "category": "Education Cloud",
+        "category": "Education",
         "date": "Aug. 21, 2025",
         "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
         "title": "Transformer la Réussite des Étudiants avec Salesforce Education Cloud et Edu+",
@@ -795,7 +795,7 @@
         "id": 3,
         "image": "/images/case-studies/case study 3_thumb_n.webp",
         "industry": "Fabrication",
-        "date": "Jan. 8, 2025",
+        "date": "Jan. 08, 2025",
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
         "title": "Transformation DevOps avec Copado et Salesforce",
         "description": "Un fabricant leader spécialisé dans les matériaux innovants pour la construction résidentielle et commerciale."
