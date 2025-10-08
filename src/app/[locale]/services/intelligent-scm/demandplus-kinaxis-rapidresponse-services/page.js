@@ -79,10 +79,10 @@ export default function DemandPlusSection() {
                         sizes="100vw" />
                 </div>
                 <div className="h-full relative custom-container xl:!pr-0  mr-0">
-                    <div className="grid xl:grid-cols-12  grid-cols-1 gap-2 2xl:mt-10 4xl:mt-20 mt-10">
+                    <div className="grid xl:grid-cols-12  grid-cols-1 gap-2  xl:mt-20 md:mt-20 mt-10">
                         <div className="xl:col-span-7 md:col-span-2 col-span-12">
                             <h3 className="text-white xl:text-[24px]  font-bold mb-2">{t('headerTitle')}</h3>
-                            <h1 className="text-white leading-tight mt-5  xl:pr-0 md:text-[42px] 4xl:text-[60px] xl:text-[45px] text-[26px]">
+                            <h1 className="text-white leading-tight mt-5  xl:pr-0 md:text-[36px] 4xl:text-[60px] xl:text-[45px] text-[26px]">
                                 {t('headerSubTitle')}
                             </h1>
                         </div>
@@ -96,7 +96,7 @@ export default function DemandPlusSection() {
                 className="custom-container xl:!pr-0">
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-24 mt-10">
                     <div className="xl:col-span-8 xl:pr-0 pr-10">
-                        <h2 className="leading-tight md:text-[42px] 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('pageDescTitle')}</h2>
+                        <h2 className="leading-tight md:text-[36px] 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('pageDescTitle')}</h2>
                         <p className="mt-12">{t('pageDesc1')} </p>
                         <p className="mt-8 pb-16">{t('pageDesc2')}</p>
                     </div>
@@ -137,7 +137,7 @@ export default function DemandPlusSection() {
                 {/* Content Block */}
                 <div className={`custom-container z-10 relative xl:absolute 4xl:top-[45%] 2xl:top-[43%] xl:top-[43%] top-[-100px]  xl:-translate-y-1/2`}>
                     <div className={`bg-[#016FBE] bg-opacity-90 text-white p-[20px] md:p-8 xl:w-[720px] xl:pb-20 4xl:pb-20 pb-32`}>
-                        <h3 className={`font-light xl:text-[30px] text-[18px]
+                        <h3 className={`font-light xl:text-[30px] text-[20px] md:text-[26px]
                           ${locale === "es"
                                 ? "pt-20"
                                 : locale === "fr"
@@ -235,7 +235,7 @@ export default function DemandPlusSection() {
                     <div className="col-span-7 bg-[#006FBE] 4xl:mt-[-2rem] xl:mt-[-1rem] mt-[-4rem] text-white 4xl:ml-[-90px] xl:ml-[-108px] 4xl:mb-[75px] xl:pl-[10rem] px-[35px] pb-16  xl:pb-20">
                         <h3 className="4xl:pt-20 xl:pt-10 pt-24 text-[22px] 4xl:text-[30px] 4xl:pr-[20rem] xl:pr-[14rem]">{t('endToEndTitle')}</h3>
                         <UnorderedList arrName={supplyChain} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-1 font-light marker:font-bold marker:text-2xl pl-5 mt-8 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[17px] 2xl:text-[18px] text-[16px]" />
-                        <div className="4xl:mt-6 2xl:mt-28 xl:mt-10 mt-4 absolute">
+                        <div className="4xl:mt-6 2xl:mt-32 xl:mt-10 mt-4 absolute">
                             <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
@@ -341,25 +341,25 @@ export default function DemandPlusSection() {
                 }`}
 
             >
-                <div className="xl:col-span-5 col-span-12 bg-[#163055] px-10 py-12 text-white">
+                <div className="xl:col-span-5 col-span-12 bg-[#163055] px-10 py-10 text-white">
                     <h3 className="leading-tight">{t('inventeryOptimizationTitle')} </h3>
                     <UnorderedList arrName={inventeryOptimizationData} ulClassName="list-disc leading-tight xl:space-y-5 font-normal marker:font-bold marker:text-2xl pl-5 xl:mt-8 mt-5" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                 </div>
                 <div className="xl:col-span-1 col-span-12 bg-[#163055] xl:flex xl:items-center xl:justify-center">
                     <div className="border-b border-white [@media(max-width:430px)]:mx-[35px] xl:mx-0 xl:border-b-0 xl:border-r xl:h-[70%] xl:w-auto"></div>
                 </div>
-                <div className="xl:col-span-5 col-span-12 bg-[#163055] px-10 py-12 text-white">
+                <div className="xl:col-span-5 col-span-12 bg-[#163055] px-10 py-10 text-white">
                     <h3 className="leading-tight"> {t('enterpriseTitle')} </h3>
                     <UnorderedList arrName={enterpriseSchedulingData} ulClassName="list-disc leading-tight xl:space-y-5 font-normal marker:font-bold marker:text-2xl pl-5 xl:mt-8 mt-5" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                 </div>
                 <div className="xl:col-span-3 col-span-12"></div>
             </div>
-            <section className={`relative h-auto 4xl:mt-[17rem]  custom-container xl:!pr-0 max-md:px-0 md:mt-[33rem]
+            <section className={`relative h-auto  custom-container xl:!pr-0 max-md:px-0 md:mt-[33rem]
               ${locale === "es"
-                    ? "mt-[39rem] max-[360px]:mt-[51rem] max-[375px]:mt-[44rem] max-[390px]:mt-[43rem] max-[414px]:mt-[42rem]  max-[320px]:mt-[53rem] 2xl:mt-[16rem] xl:mt-[21rem]"
+                    ? "mt-[39rem] max-[360px]:mt-[51rem] max-[375px]:mt-[46rem] max-[390px]:mt-[44rem] max-[414px]:mt-[43rem] max-[400px]:mt-[44rem]   max-[320px]:mt-[53rem] 2xl:mt-[15rem] xl:mt-[19rem]"
                     : locale === "fr"
-                        ? "mt-[42rem] max-[360px]:mt-[55rem] max-[375px]:mt-[52rem] max-[390px]:mt-[49rem] max-[400px]:mt-[38rem]  max-[320px]:mt-[53rem] 2xl:mt-[19rem] xl:mt-[21rem]"
-                        : "mt-[34rem] max-[360px]:mt-[47rem] max-[375px]:mt-[44rem] max-[390px]:mt-[38rem] max-[400px]:mt-[38rem]  max-[320px]:mt-[53rem] 2xl:mt-[16rem] xl:mt-[16rem]"
+                        ? "mt-[42rem] max-[360px]:mt-[55rem] max-[375px]:mt-[52rem] max-[390px]:mt-[49rem] max-[400px]:mt-[48rem]  max-[320px]:mt-[53rem] 2xl:mt-[17rem] xl:mt-[19rem] "
+                        : "mt-[32rem] max-[360px]:mt-[44rem] max-[375px]:mt-[40rem] max-[390px]:mt-[35rem] max-[400px]:mt-[35rem]  max-[320px]:mt-[53rem] 2xl:mt-[15rem] xl:mt-[15rem]"
                 }`}
             >
                 <div className="xl:block hidden">
@@ -391,23 +391,29 @@ export default function DemandPlusSection() {
                         sizes="100vw"
                     />
                 </div>
-                <div className="grid xl:grid-cols-12 grid-cols-1 absolute  top-0 xl:pl-20 4xl:pt-20 pt-[25rem] md:pt-[16rem] xl:pt-10">
-                    <div className="xl:col-span-5 px-[35px]">
+                <div className="grid xl:grid-cols-12 grid-cols-1 absolute  top-0 xl:pl-20 4xl:pt-20 max-[390px]:pt-[22rem] pt-[25rem] md:pt-[11rem] xl:pt-10">
+                    <div className="xl:col-span-5 px-[35px] md:px-[45px] xl:px-[20px]">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('scenarioTitle')} </h2>
                         <h3 className="4xl:text-[42px] xl:text-[30px] text-[22px] mt-5 font-semibold leading-tight">{t('scenarioSubTitle')} </h3>
-                        <p className="xl:mt-8 mt-5 font-medium leading-tight 4xl:text-[20px] text-[16px]">{t('scenarioDesc')} </p>
-                        <UnorderedList arrName={scenarioData} ulClassName="list-disc xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5  mt-8 leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                        <div className="mt-6 4xl:mt-[38px] 2xl:mt-[96px] xl:mt-[10px] absolute">
+                        <p className="xl:mt-8 mt-5 font-medium leading-tight 4xl:text-[20px] text-[16px] ">{t('scenarioDesc')} </p>
+                        <UnorderedList arrName={scenarioData} ulClassName="list-disc xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5  mt-8 leading-tight" liClassName="4xl:text-[20px] xl:text-[16px] text-[16px]" />
+                        <div className={` absolute
+                         ${locale === "es"
+                    ? "mt-6 4xl:mt-[65px] 2xl:mt-[128px] xl:mt-[42px]  md:mt-[50px]"
+                    : locale === "fr"
+                        ? "mt-6 4xl:mt-[40px] 2xl:mt-[178px] xl:mt-[65px]  md:mt-[40px]"
+                        : "mt-6 4xl:mt-[88px] 2xl:mt-[104px] xl:mt-[40px]  md:mt-[50px]"
+                }` }>
                             <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>
             </section>
-            <section className={`mt-[37rem] xl:mt-0 md:mt-[6rem]
+            <section className={`mt-[40rem] xl:mt-0 md:mt-[6rem]
               ${locale === "es"
-                    ? "[@media(max-width:375px)]:mt-[48rem]"
+                    ? "[@media(max-width:400px)]:mt-[48rem]"
                     : locale === "fr"
-                        ? "[@media(max-width:375px)]:mt-[50rem]"
+                        ? "[@media(max-width:400px)]:mt-[50rem]"
                         : "[@media(max-width:375px)]:mt-[46rem]"
                 }`}
             >
@@ -619,54 +625,40 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </div>
-            <section className="custom-container relative xl:!pr-0 max-md:px-0">
-                <div className="xl:block hidden">
-                    <Image
-                        src="/images/solutions/enterprise-platform/kinaxis/leading-desktop.webp"
+            <section className="relative  custom-container xl:!pr-0 max-md:px-0">
+                {/* Desktop Image */}
+                <div className="hidden xl:block">
+                    <Image src="/images/solutions/enterprise-platform/kinaxis/leading-desktop.webp"
                         alt="Leading the Future"
-                        className={`w-full
+                        className="w-full h-full xl:h-[618px] 2xl:h-[556px] 4xl:h-[840px] object-cover"
+                        priority
+                        width={0}
+                        height={0}
+                        sizes="100vw" /> </div>
+                {/* Mobile Image */}
+                <div className="block xl:hidden">
+                    <Image src="/images/solutions/enterprise-platform/kinaxis/leading-mobile.webp"
+                        alt="Leading the Future"
 
-                          ${locale === "es"
-                                ? "h-full 4xl:h-[840px] 2xl:h-[556px] xl:h-[665px]"
-                                : locale === "fr"
-                                    ? "h-full 4xl:h-[945px] 2xl:h-[575px] xl:h-[665px]"
-                                    : "h-full 4xl:h-full 2xl:h-[556px] xl:h-[618px]"
-                            }`}
-                        priority
+                        className="w-full object-cover h-[800px] sm:h-[875px] md:h-[725px] lg:h-[700px] xl:h-[770px]" priority
                         width={0}
                         height={0}
-                        sizes="100vw"
-                    />
+                        sizes="100vw" />
                 </div>
-                <div className="xl:hidden block">
-                    <Image
-                        src="/images/solutions/enterprise-platform/kinaxis/leading-mobile.webp"
-                        alt="Leading the Future"
-                        className={`object-cover w-full
-                          ${locale === "es"
-                                ? "h-[955px] [@media(min-width:375px)]:h-[905px] [@media(min-width:414px)]:h-[900px] [@media(min-width:390px)]:h-[908px] [@media(min-width:430px)]:h-[875px] [@media(min-width:412px)]:h-[875px] [@media(min-width:768px)]:h-[725px] [@media(min-width:820px)]:h-[725px] [@media(min-width:1024px)]:h-[670px]"
-                                : locale === "fr"
-                                    ? "h-[1021px] [@media(min-width:375px)]:h-[985px] [@media(min-width:414px)]:h-[900px] [@media(min-width:390px)]:h-[930px] [@media(min-width:430px)]:h-[875px] [@media(min-width:412px)]:h-[900px] [@media(min-width:768px)]:h-[725px] [@media(min-width:820px)]:h-[725px] [@media(min-width:1024px)]:h-[770px]"
-                                    : "h-[940px] [@media(min-width:375px)]:h-[875px] [@media(min-width:414px)]:h-[850px] [@media(min-width:390px)]:h-[850px] [@media(min-width:430px)]:h-[850px] [@media(min-width:412px)]:h-[855px] [@media(min-width:768px)]:h-[725px] [@media(min-width:820px)]:h-[700px] [@media(min-width:1024px)]:h-[770px]"
-                            }`}
-                        priority
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                    />
-                </div>
-                <div className="grid xl:grid-cols-12  grid-cols-1 absolute 4xl:top-40 xl:top-[6rem] top-[20rem] text-white">
-                    <div className="col-span-6 xl:px-16 px-14">
-                        <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px] 4xl:pr-20">{t('leadingTitle')}</h2>
-                        <p className="mt-8 font-light 4xl:text-[20px] text-[16px]">{t('leadingDesc')} </p>
-                        <UnorderedList arrName={leadingData} ulClassName="list-disc leading-tight xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 mt-5  xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                        <div className="absolute 4xl:mt-16 2xl:mt-4 xl:mt-8 mt-10 md:mt-20 max-[768px]:mt-16 ">
-                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
-                        </div>
+                <div className="absolute top-[500px] xl:top-1/2 -translate-y-1/2 grid grid-cols-1 xl:grid-cols-12 text-white  px-9 xl:px-0">
+                    <div className="col-span-6 xl:px-16 ">
+                        <h2 className="leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] xl:pr-0 md:pr-6"> {t('leadingTitle')} </h2>
+                        <p className="mt-6 font-light text-[16px] 4xl:text-[20px] md:pr-8"> {t('leadingDesc')} </p> <UnorderedList arrName={leadingData} ulClassName="list-disc leading-tight space-y-3 xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 mt-5" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px]" />
                     </div>
-                    <div className="col-span-6"></div>
+
+                    <div className="col-span-6" />
                 </div>
+                <div className="absolute -bottom-[30px] z-10 px-12">
+                    <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} /> </div>
             </section>
+
+
+
             {/* contact form */}
             <div className="mt-20 custom-container text-black pb-20" >
                 <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={"4xl:max-w-[60rem] xl:max-w-[40rem] leading-tight text-[26px] font-light 4xl:text-[60px] xl:text-[40px] xl:pr-0"} />
