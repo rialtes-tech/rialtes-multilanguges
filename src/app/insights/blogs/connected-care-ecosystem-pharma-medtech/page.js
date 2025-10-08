@@ -124,7 +124,7 @@ const patientCenterData = [
 const longTermData = [
     {
         "title": "Chronic disease management",
-        "desc": "Diabetes, heart disease, and cancer care require ongoing support. Here, <span>long-term patient care management strategies</span> powered by AI, wearables, and real-time monitoring can prevent complications and reduce costs."
+        "desc": "Diabetes, heart disease, and cancer care require ongoing support. Here, <a href='https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>long-term patient care management strategies</a>  powered by AI, wearables, and real-time monitoring can prevent complications and reduce costs."
     },
     {
         "title": "Remote care adoption",
@@ -138,7 +138,7 @@ const longTermData = [
 const reimaginingData = [
     {
         "title": "Reimagining Digital Patient Journeys",
-        "desc": "What this really means is rethinking the way healthcare journeys are designed. Instead of focusing on isolated events (a hospital visit, a prescription, a device implant), it’s about <span>reimagining digital patient journeys in life sciences</span>  from end to end.",
+        "desc": "What this really means is rethinking the way healthcare journeys are designed. Instead of focusing on isolated events (a hospital visit, a prescription, a device implant), it’s about <a href='https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>reimagining digital patient journeys in life sciences</a>  from end to end.",
         "desc2": "That includes:",
         "list": [
             "A seamless transition from clinical trials to therapy adoption.",

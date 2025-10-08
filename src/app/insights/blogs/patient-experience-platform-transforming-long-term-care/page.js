@@ -401,7 +401,12 @@ export default function Page() {
                             {/* mediana redifining section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">MediAIna: Redefining the Integrated Healthcare Journey</h2>
-                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> Unlike traditional point solutions, MediAIna healthcare delivers a unified platform that integrates clinical, operational, and digital experiences. Designed specifically for the life sciences and MedTech ecosystem, it is backed by Rialtes’ LifeAI+ consulting suite to ensure scalability, intelligence, and compliance.</p>
+                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                    Unlike traditional point solutions,
+                                    <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400 pr-2 pl-2" href=" https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/"> MediAIna </Link> healthcare delivers
+                                    a unified platform that integrates clinical, operational, and digital experiences. Designed specifically for the life sciences and MedTech ecosystem, it is backed by Rialtes’
+                                    <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400 pl-2 pr-2" href=" https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/">  LifeAI+ consulting suite </Link>
+                                    to ensure scalability, intelligence, and compliance.</p>
 
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Here’s what sets the MediAIna patient journey platform apart:</p>
                                 {
