@@ -36,6 +36,13 @@
     "director": "Director General Senior – Servicios SAP",
     "dataDate": "13 Mayo 2025",
     "contactUs": "Da el siguiente paso hacia la excelencia operativa con nosotros.",
+    "sapPi": "Migración de SAP PI PO a SAP CPI: Guía completa",
+    "sapPiDesc": "Las empresas ya no pueden permitirse tener sistemas desconectados; la integración es la columna vertebral de la verdadera transformación digital. Durante años, SAP Process Integration (PI) y Process Orchestration (PO) desempeñaron este papel, conectando entornos SAP y no SAP. Pero a medida que las organizaciones adoptan estrategias centradas en la nube, las limitaciones de PI/PO se hacen evidentes.",
+    "aiTitle": "IA en la participación del paciente: cómo los agentes de IA apoyan a MedTech en la monitorización remota",
+    "aiDesc": "La detección temprana del deterioro de la salud es vital para los pacientes con enfermedades crónicas o en recuperación tras una cirugía. Por eso, los pacientes y los médicos ahora dependen de los datos en tiempo real para obtener respuestas más rápidas...",
+    "buildTitle": "Crea y despliega tu primer agente de IA usando Agentforce",
+    "buildDesc": "Para 2028, el 33 % de las aplicaciones de software empresarial utilizarán IA agente. La transición de la IA predictiva a la generativa se ha acelerado, lo que permite a las empresas ir más allá de la simple predicción para definir acciones óptimas.",
+    "transforming": "Transformando el éxito estudiantil con Salesforce Education Cloud y Edu+",
     "caseStudies": [
       {
         "id": "case-study-2",

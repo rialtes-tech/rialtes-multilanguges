@@ -130,7 +130,7 @@ export default function Page() {
           </div>
           <div className="py-3"></div>
           <div className="">
-            <p className="text-black  xl:text-[22px] text-[18px]">
+            <p className="text-black 4xl:text-[22px] 2xl:text-[20px] xl:text-[19px] text-[18px]  mt-8">
               {t('rialtesOne')} <strong>{t('rialtesTwo')}</strong>{t('rialtesThree')} </p>
 
             <p className="text-black  4xl:text-[22px] 2xl:text-[20px] xl:text-[19px] text-[18px]  mt-8">{t('crest')}</p>

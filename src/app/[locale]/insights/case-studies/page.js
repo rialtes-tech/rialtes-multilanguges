@@ -174,7 +174,7 @@ export default function Page() {
           <div className='w-full mx-auto text-center md:py-20 py-10'>
             <button
               type='button'
-              className={`border border-[#707070]  font-medium w-[160px] h-[50px] relative group hover:bg-[#EDEDED] ${visibleCaseStudy >= filteredCaseStudyByCategory.length ? 'opacity-50 cursor-not-allowed pointer-events-none' : 'cursor-pointer'}`}
+              className={`border border-[#707070]  font-medium w-[190px] h-[50px] relative group hover:bg-[#EDEDED] ${visibleCaseStudy >= filteredCaseStudyByCategory.length ? 'opacity-50 cursor-not-allowed pointer-events-none' : 'cursor-pointer'}`}
               onClick={loadMoreCaseStudy}
               disabled={visibleCaseStudy >= filteredCaseStudyByCategory.length}
             >
