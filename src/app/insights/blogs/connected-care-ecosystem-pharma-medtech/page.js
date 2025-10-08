@@ -119,7 +119,7 @@ const whyConnectedData = [
 ]
 const patientCenterData = [
     "Here’s the thing: at the heart of connected ecosystems lies one simple truth: the patient must be the focal point. Patients today expect healthcare to mirror their experiences in other industries: personalized, accessible, and digital-first. They want reminders on their phones, virtual consultations on demand, and access to their health history without repeating themselves at every step.",
-    "That’s why <span>digital patient engagement in daily healthcare</span> is no longer optional. It’s the foundation of trust, adherence, and long-term outcomes. Pharma and MedTech leaders that invest here aren’t just enhancing patient experience, they’re building loyalty and differentiation in a competitive market."
+    "That’s why <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient engagement in daily healthcare</a> is no longer optional. It’s the foundation of trust, adherence, and long-term outcomes. Pharma and MedTech leaders that invest here aren’t just enhancing patient experience, they’re building loyalty and differentiation in a competitive market."
 ]
 const longTermData = [
     {

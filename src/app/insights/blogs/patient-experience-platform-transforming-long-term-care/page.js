@@ -93,7 +93,7 @@ export default function Page() {
 
     const blogMainData = [
         "Providing healthcare has always been about more than just diagnosis. For patients, the real journey begins after they receive a diagnosis, navigating treatment options, managing chronic conditions, and learning how to live with ongoing care needs. Unfortunately, traditional systems often fail to support patients beyond the walls of the clinic. That is why a patient experience platform becomes essential, helping healthcare providers deliver continuity, coordination, and personalized care at scale.",
-        "<strong>MediAIna</strong>, Rialtes’ next-generation patient journey platform, is designed to close these gaps. Integrating clinical, operational, and digital touchpoints reimagines the healthcare journey from first diagnosis to long-term management. Let’s break down how platforms like MediAIna create  <span>digital patient journeys beyond the clinic</span> and set new standards in long-term care. "
+        "<strong>MediAIna</strong>, Rialtes’ next-generation patient journey platform, is designed to close these gaps. Integrating clinical, operational, and digital touchpoints reimagines the healthcare journey from first diagnosis to long-term management. Let’s break down how platforms like MediAIna create  <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient journeys beyond the clinic</a> and set new standards in long-term care. "
     ]
     const whyPatientData = [
         {
