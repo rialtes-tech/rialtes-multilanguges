@@ -403,7 +403,7 @@ export default function Page() {
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">MediAIna: Redefining the Integrated Healthcare Journey</h2>
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> Unlike traditional point solutions, MediAIna healthcare delivers a unified platform that integrates clinical, operational, and digital experiences. Designed specifically for the life sciences and MedTech ecosystem, it is backed by Rialtes’ LifeAI+ consulting suite to ensure scalability, intelligence, and compliance.</p>
 
-                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Here’s what sets the MediAIna patient journey platform apart:</p>
+                                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Here’s what sets the MediAIna patient journey platform apart:</p>
                                 {
                                     medianaRedData.map((data, ind) => {
                                         return (
