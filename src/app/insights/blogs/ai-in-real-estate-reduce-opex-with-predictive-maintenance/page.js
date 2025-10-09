@@ -8,16 +8,95 @@ import FAQAccordion from "@/app/components/faqAccordion";
 import BlogSocialIcons from '@/app/components/blogSocialIcons'
 import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
+
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/";
     const currUrl = useUrl()
 
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
+        "description": "AI-driven predictive maintenance transforms property operations, cutting downtime by 30% and reducing Opex through proactive interventions.",
+        "image": "https://www.rialtes.com/images/blogs/ai-property-operations-predictive-maintenance.webp",
+        "author": {
+            "@type": "Organization",
+            "name": "Rialtes"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.rialtes.com/images/homepage/logo.svg"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/"
+        },
+        "datePublished": "2025-10-13",
+        "mainEntity": {
+            "@type": "FAQPage",
+            "name": "AI in Property Operations FAQs",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How can AI reduce maintenance downtime in property management?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "AI continuously analyzes equipment data to predict potential failures before they occur. Maintenance teams can act proactively, reducing downtime and avoiding costly emergency repairs."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How to reduce time spent on corrective maintenance?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Strategies include improving accessibility, interchangeability, managing redundant systems, accounting for human limitations, and enhancing fault recognition and isolation efficiency."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is predictive maintenance for property operations?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Predictive maintenance uses AI and IoT sensors to monitor equipment health in real time, forecasting when assets need servicing to improve uptime and extend asset lifespan."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does AI optimize technician assignment?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "AI evaluates technician skills, availability, and location to automatically assign the best person for each job, reducing response times and enhancing efficiency."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the benefits of using AI in property operations?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Benefits include up to 30% less downtime, lower operational costs, faster service responses, and improved tenant satisfaction through real-time insights and automation."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does Exelona help with predictive maintenance and Opex reduction?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Exelona integrates AI, IoT, and workflow automation to monitor assets, predict issues, and dispatch technicians efficiently, helping property managers reduce Opex, extend asset life, and improve portfolio performance."
+                    }
+                }
+            ]
+        }
+    }
 
     const blogMainData = [
         "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity. The challenge is that most maintenance models are still reactive. Teams fix what breaks, scramble to respond to tenant complaints, and watch operating expenses climb year after year.",
         "In an industry where every minute of equipment downtime hits profitability and reputation, the need for a smarter approach is crystal clear. That’s where artificial intelligence (AI) steps in — transforming how buildings think, predict, and act.",
         "AI isn’t just automating tasks; it’s reshaping property management from the ground up. For property owners and operators, AI-driven predictive maintenance is a game-changer, cutting downtime by as much as 30% and reducing Opex through proactive interventions.",
-        "Instead of reacting to issues after they occur, predictive systems powered by AI continuously analyze data from sensors, HVAC systems, lifts, and meters to flag potential issues before they become costly failures. This translates to fewer surprises, lower costs, and a smoother, next-gen resident experience in real estate."
+        "Instead of reacting to issues after they occur, predictive systems powered by AI continuously analyze data from sensors, HVAC systems, lifts, and meters to flag potential issues before they become costly failures. This translates to fewer surprises, lower costs, and a smoother, <span>next-gen resident experience in real estate</span>."
     ]
     const howAiData = [
         "IoT sensors collect performance data from equipment (temperature, vibration, pressure, usage frequency).",
@@ -98,7 +177,7 @@ export default function Page() {
                 },
                 {
                     "title": "Tenant Experience",
-                    "desc": "Use sentiment data and conversational AI for resident support to personalize communication and improve satisfaction."
+                    "desc": "Use sentiment data and <span>conversational AI for resident support</span> to personalize communication and improve satisfaction."
                 }
             ],
             "desc2": "In short, AI converts reactive property operations into strategic, data-driven ecosystems. It gives asset managers the visibility they need to make informed decisions about maintenance, performance, investment, and sustainability.",
@@ -149,7 +228,7 @@ export default function Page() {
         {
             "title": "The Exelona Edge – Smarter Property Operations Powered by AI",
             "desc": "Let’s bring this closer to home.",
-            "desc2": "<strong>Exelona</strong>, Rialtes’ real estate management platform, unifies every step of the property lifecycle — from lead generation to financial closeout. Built for property managers, developers, and portfolio owners, Exelona delivers AI-driven automation, mobile-first experiences, and CRM + ERP convergence for property management, all from a single platform.",
+            "desc2": "<a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Exelona</a>, Rialtes’ real estate management platform, unifies every step of the property lifecycle — from lead generation to financial closeout. Built for property managers, developers, and portfolio owners, Exelona delivers AI-driven automation, mobile-first experiences, and CRM + ERP convergence for property management, all from a single platform.",
             "listTitle": "What Makes Exelona Different",
             "list": [
                 {
@@ -205,7 +284,7 @@ export default function Page() {
         },
         {
             "title": "Exelona Advantage",
-            "desc": "The all-in-one AI-powered property platform built to reduce Opex and optimize performance through SLA tracking and billing automation in real estate."
+            "desc": "The all-in-one AI-powered property platform built to reduce Opex and optimize performance through <span>SLA tracking and billing automation in real estate</span>."
         }
     ]
     const faqs = [
@@ -238,24 +317,24 @@ export default function Page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Patient Experience Platform Transforming Long-Term Care | Rialtes"
-                description="Discover how MediAIna, Rialtes’ patient experience platform, redefines healthcare journeys with digital engagement, AI insights, and chronic care support."
+                title=" How AI in Real Estate Powers Predictive Maintenance | Rialtes"
+                description="AI-driven predictive maintenance is a game-changer, cutting downtime by as much as 30% and reducing Opex through proactive interventions. Discover how today."
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/"
+                    "https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/"
                 }
             />
 
-            {/* <Script
+            <Script
                 id="schema-copilots"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            /> */}
+            />
 
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care.webp"
+                        src="/images/blog/ai-property-operations-predictive-maintenance.webp"
                         alt="banner image"
                         fill
                         priority
@@ -263,7 +342,7 @@ export default function Page() {
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp"
+                        src="/images/blog/ai-property-operations-predictive-maintenance-mobile.webp"
                         alt="banner image"
                         priority
                         height={0}
@@ -282,7 +361,7 @@ export default function Page() {
                         <div className="sm:flex justify-between">
                             <div>
                                 <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Artificial Intelligence</span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>07 October 2025
+                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>13 October 2025
                             </div>
 
                             <div>
@@ -371,7 +450,7 @@ export default function Page() {
                                     }
                                 </div>
 
-                                <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">By merging these technologies, property managers can monitor dozens or even hundreds of assets without needing manual inspection — a foundational part of CRM + ERP convergence for property management.</p>
+                                <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">By merging these technologies, property managers can monitor dozens or even hundreds of assets without needing manual inspection — a foundational part of <span>CRM + ERP convergence for property management</span>.</p>
 
                                 <h3 className="mt-10 lg:mt-[80px] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold">Data That Powers Prediction</h3>
                                 <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-[28px] lg:mt-[48px] md:gap-x-[60px] lg:gap-0 sm:w-[80%] md:w-full 4xl:w-[1200px]">
@@ -431,7 +510,7 @@ export default function Page() {
                                                             return (
                                                                 <div className="4xl:p-[30px] p-[22px] border border-[#707070]" key={id}>
                                                                     <h3 className="text-[#006FBE] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 border-b border-[#707070]">{elem.title}</h3>
-                                                                    <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{elem.desc}</p>
+                                                                    <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" dangerouslySetInnerHTML={{ __html: elem.desc }} />
                                                                 </div>
                                                             )
                                                         })
@@ -542,8 +621,6 @@ export default function Page() {
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                             </div>
-
-
                                         )
                                     })
                                 }

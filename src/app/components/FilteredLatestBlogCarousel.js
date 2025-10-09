@@ -7,6 +7,16 @@ import Link from "next/link";
 export default function page({ url }) {
     const latestBlogs = [
         {
+            id: 44,
+            image: "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
+            category: "AI",
+            industry: "Generic",
+            date: "Oct. 13, 2025",
+            url: '/ai-in-real-estate-reduce-opex-with-predictive-maintenance',
+            title: "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
+            description: "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity.",
+        },
+        {
             id: 43,
             image: "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
             category: "MediAIna",
