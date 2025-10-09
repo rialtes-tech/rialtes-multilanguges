@@ -45,7 +45,7 @@ export default function FAQAccordion({ faqData = [] }) {
                     <p key={i} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{block}</p>
                   )
                 )
-                : item.answer.split("\n\n").map((para, i) => <p key={i} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{para}</p>)}
+                : item.answer.split("\n\n").map((para, i) => <p key={i} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" dangerouslySetInnerHTML={{ __html: para }} />)}
             </div>
           )}
         </div>
