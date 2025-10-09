@@ -183,6 +183,16 @@
     ],
     "latestBlogs": [
       {
+        "id": 44,
+        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
+        "category": "IA",
+        "industry": "Générique",
+        "date": "13 Oct. 2025",
+        "url": "/fr/ia-dans-les-operations-immobilieres-reduction-opex-maintenance-predictive",
+        "title": "L’IA dans les opérations immobilières : réduisez les temps d’arrêt de 30 % et les coûts d’exploitation grâce à la maintenance prédictive",
+        "description": "La vérité sur les opérations immobilières est qu’elles ont toujours consisté à trouver un équilibre entre coût, confort et continuité."
+      },
+      {
         "id": 43,
         "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
         "category": "MediAIna",

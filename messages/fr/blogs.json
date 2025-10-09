@@ -5410,5 +5410,250 @@
         "medianaDesc2": "Voici ce qui distingue la plateforme de parcours patient MediAIna :",
         "medianaDesc3": "En connectant prestataires, assureurs, MedTech et organisations des sciences de la vie, MediAIna garantit qu'aucune partie du parcours patient n'est fragmentée ou négligée.",
         "faqTitle": "FAQs : Transformer les soins avec une plateforme d'expérience patient"
+    },
+    "exelonaPillar": {
+        "blogMainData": [
+            "Voici la vérité sur les opérations immobilières : elles ont toujours été un exercice d'équilibre entre coût, confort et continuité. Le problème est que la plupart des modèles de maintenance restent réactifs. Les équipes réparent ce qui se casse, courent pour répondre aux plaintes des locataires et voient les dépenses opérationnelles augmenter chaque année.",
+            "Dans une industrie où chaque minute d'arrêt d'équipement affecte la rentabilité et la réputation, le besoin d'une approche plus intelligente est clair. C'est là que l'intelligence artificielle (IA) intervient — transformant la façon dont les bâtiments pensent, prédisent et agissent.",
+            "L'IA ne se contente pas d'automatiser les tâches ; elle redéfinit la gestion immobilière depuis le sol. Pour les propriétaires et exploitants, la maintenance prédictive pilotée par l'IA est une révolution, réduisant les temps d'arrêt jusqu'à 30 % et diminuant les Opex grâce à des interventions proactives.",
+            "Au lieu de réagir aux problèmes après qu'ils se produisent, les systèmes prédictifs alimentés par l'IA analysent en continu les données des capteurs, systèmes HVAC, ascenseurs et compteurs pour détecter les problèmes potentiels avant qu'ils ne deviennent coûteux. Cela se traduit par moins de surprises, des coûts réduits et une expérience résidentielle plus fluide et de nouvelle génération."
+        ],
+        "howAiData": [
+            "Les capteurs IoT collectent des données de performance des équipements (température, vibration, pression, fréquence d'utilisation).",
+            "Les modèles d'IA analysent continuellement ces flux de données pour détecter les premiers signes d'usure ou d'inefficacité.",
+            "Lorsqu'une déviation est détectée, le système déclenche automatiquement un ordre de travail ou une alerte de maintenance."
+        ],
+        "howAiData2": [
+            {
+                "title": "Avant l'IA",
+                "list": [
+                    "Les équipes de maintenance réagissaient aux plaintes des locataires.",
+                    "Les pannes imprévues perturbaient les opérations.",
+                    "Les réparations étaient plus coûteuses en raison de la main-d'œuvre et des pièces d'urgence."
+                ]
+            },
+            {
+                "title": "Après l'IA",
+                "list": [
+                    "Les alertes prédictives ont identifié des problèmes HVAC deux jours avant la panne.",
+                    "Les techniciens ont reçu des notifications automatiques avec des plans d'action clairs.",
+                    "Les temps d'arrêt ont fortement diminué et la maintenance est devenue proactive, non réactive."
+                ]
+            }
+        ],
+        "keyTechData": [
+            {
+                "title": "IA et Apprentissage Automatique",
+                "desc": "Identifier les modèles de défaillance avant qu'ils ne se produisent."
+            },
+            {
+                "title": "Capteurs IoT",
+                "desc": "Collecter des données en temps réel pour une surveillance constante."
+            },
+            {
+                "title": "Tableaux de Bord d'Analyse de Données",
+                "desc": "Transformer des données complexes en informations visuelles."
+            },
+            {
+                "title": "Intégration Cloud",
+                "desc": "Centraliser les données des actifs sur plusieurs sites pour une supervision unifiée."
+            }
+        ],
+        "predictionData": [
+            {
+                "title": "Consommation d'Énergie",
+                "desc": "Détecter les baisses d'efficacité signalant des défaillances potentielles."
+            },
+            {
+                "title": "Température et Vibration",
+                "desc": "Identifier les performances anormales des moteurs ou compresseurs."
+            },
+            {
+                "title": "Télémétrie HVAC",
+                "desc": "Surveiller le flux d'air et l'état des filtres."
+            },
+            {
+                "title": "Fréquence d'Utilisation",
+                "desc": "Suivre l'usure dans les zones à fort trafic."
+            }
+        ],
+        "howAiImprovesData": [
+            {
+                "title": "Comment l'IA améliore tout le cycle de vie de la propriété",
+                "desc": "La maintenance prédictive n'est qu'une partie de ce que l'IA peut faire pour les opérations immobilières. Une fois que les données circulent entre les actifs, systèmes et locataires, la porte s'ouvre à l'intelligence complète du cycle.",
+                "listDataTitle": "Optimisation pilotée par l'IA à travers les opérations",
+                "list": [
+                    {
+                        "title": "Gestion de l'Énergie",
+                        "desc": "Prédire les pics de charge et optimiser les systèmes HVAC et d'éclairage pour économiser l'énergie."
+                    },
+                    {
+                        "title": "Prévision Budgétaire",
+                        "desc": "Utiliser les insights prédictifs pour estimer les coûts futurs de maintenance et les besoins en CapEx."
+                    },
+                    {
+                        "title": "Suivi de la Durabilité",
+                        "desc": "Mesurer l'efficacité énergétique et la performance environnementale en temps réel."
+                    },
+                    {
+                        "title": "Expérience Résidentielle",
+                        "desc": "Utiliser les données de sentiment et <span>IA conversationnelle pour le support aux résidents</span> pour personnaliser la communication et améliorer la satisfaction."
+                    }
+                ],
+                "desc2": "En résumé, l'IA transforme les opérations réactives en écosystèmes stratégiques et basés sur les données. Elle offre aux gestionnaires d'actifs la visibilité nécessaire pour prendre des décisions éclairées sur la maintenance, la performance, l'investissement et la durabilité."
+            }
+        ],
+        "optimizingData": [
+            {
+                "title": "Optimisation de l'Assignation des Techniciens avec l'IA et la Planification Intelligente",
+                "desc": "Même avec des alertes prédictives, l'exécution de la maintenance est essentielle. Une fois qu'un problème est détecté, assigner rapidement le bon technicien maintient les opérations fluides.",
+                "desc2": "L'IA apporte de l'intelligence non seulement au diagnostic mais aussi à la gestion de la main-d'œuvre.",
+                "commonData": [
+                    {
+                        "listTitle": "Voici à quoi cela ressemble :",
+                        "list": [
+                            "Le système évalue les compétences, la disponibilité et l'emplacement des techniciens.",
+                            "Il priorise ensuite et assigne automatiquement les ordres de travail, minimisant le temps d'inactivité et les déplacements.",
+                            "Si plusieurs problèmes surviennent, l'IA programme les tâches en fonction de l'urgence et de l'impact."
+                        ],
+                        "desc": "Cette optimisation peut réduire les temps de réponse jusqu'à 25 % et améliorer considérablement le respect des SLA."
+                    },
+                    {
+                        "listTitle": "Exemple de Flux de Travail : Smart Dispatch",
+                        "list": [
+                            "Un capteur HVAC détecte une anomalie du flux d'air et envoie une alerte à la plateforme.",
+                            "L'IA identifie le technicien disponible le plus proche avec l'expertise requise.",
+                            "Un ordre de travail est automatiquement généré et synchronisé sur le dispositif mobile du technicien.",
+                            "Le technicien complète le travail, télécharge les notes et clôt le ticket.",
+                            "Le système met à jour le statut en temps réel — offrant une visibilité complète et le <strong>suivi des SLA et facturation automatisée dans l'immobilier</strong>"
+                        ],
+                        "desc": "Ce niveau de coordination aide les grandes portefeuilles immobilières à gagner du temps, réduire les coûts de carburant et s'assurer qu'aucune alerte n'est manquée."
+                    }
+                ]
+            }
+        ],
+        "fromMaintenanceData": [
+            {
+                "title": "Des Journaux de Maintenance aux Décisions Stratégiques",
+                "desc": "En analysant les tendances de maintenance à long terme, l'IA fournit des insights tels que :",
+                "list": [
+                    "Quels équipements doivent être remplacés le trimestre prochain ?",
+                    "Où concentrer les investissements en efficacité énergétique.",
+                    "Comment prolonger la durée de vie des actifs grâce à des interventions précoces."
+                ],
+                "desc2": "Ce n'est pas de la simple gestion de maintenance — c'est de <strong>l'intelligence de portefeuille</strong>, redéfinissant la manière dont les entreprises immobilières évoluent efficacement."
+            }
+        ],
+        "exelonaEdgeData": [
+            {
+                "title": "L'Avantage Exelona – Opérations Immobilières Plus Intelligentes Pilotées par l'IA",
+                "desc": "Rapprochons cela de la pratique.",
+                "desc2": "<a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Exelona</a>, la plateforme de gestion immobilière de Rialtes, unifie chaque étape du cycle de vie de la propriété — de la génération de leads à la clôture financière. Conçue pour les gestionnaires de propriétés, développeurs et propriétaires de portefeuille, Exelona offre automatisation pilotée par IA, expérience mobile et convergence CRM + ERP, le tout depuis une seule plateforme.",
+                "listTitle": "Ce qui rend Exelona différente",
+                "list": [
+                    {
+                        "title": "100% Mobile",
+                        "desc": "Gérez la location, la maintenance et la finance sur n'importe quel appareil."
+                    },
+                    {
+                        "title": "IA Agentique + Interfaces Conversationnelles",
+                        "desc": "IA qui automatise, priorise et communique via IA conversationnelle pour le support aux résidents."
+                    },
+                    {
+                        "title": "CRM + ERP Unifiés",
+                        "desc": "Un système pour marketing, opérations, location et comptabilité."
+                    },
+                    {
+                        "title": "Architecture OPENAPI",
+                        "desc": "S'intègre facilement avec SAP, Yardi, Oracle, Salesforce et plus."
+                    }
+                ],
+                "desc3": "Exelona ne se contente pas de numériser les opérations immobilières, elle redéfinit la manière dont les entreprises immobilières évoluent, combinant intelligence, automatisation et insights dans une expérience connectée."
+            }
+        ],
+        "preparingData": [
+            {
+                "title": "Commencez Petit, Pensez Grand",
+                "desc": "Commencez avec un seul bâtiment ou une seule catégorie d'actifs pour valider le ROI."
+            },
+            {
+                "title": "Connectez Vos Données",
+                "desc": "Intégrez les dispositifs IoT et les systèmes existants dans une plateforme unifiée comme Exelona."
+            },
+            {
+                "title": "Formez Vos Équipes",
+                "desc": "Équipez le personnel pour interpréter les insights de l'IA et agir en toute confiance sur les recommandations."
+            },
+            {
+                "title": "Évoluez Graduellement",
+                "desc": "Étendez les capacités prédictives à l'ensemble de votre portefeuille à mesure que la maturité des données augmente."
+            }
+        ],
+        "keyElemData": [
+            {
+                "title": "Maintenance Prédictive = Efficacité Proactive",
+                "desc": "L'IA réduit les temps d'arrêt jusqu'à 30 % et diminue les coûts opérationnels."
+            },
+            {
+                "title": "Prise de Décision Basée sur les Données",
+                "desc": "L'IA permet un meilleur forecasting, budget et gestion des actifs."
+            },
+            {
+                "title": "Allocation Intelligente de la Main-d'œuvre",
+                "desc": "L'assignation intelligente des techniciens améliore les temps de réponse et la satisfaction des locataires."
+            },
+            {
+                "title": "Avantage Exelona",
+                "desc": "La plateforme immobilière tout-en-un pilotée par l'IA, conçue pour réduire l'Opex et optimiser les performances grâce au <span>suivi SLA et facturation automatisée dans l'immobilier</span>."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Comment l'IA peut-elle réduire les temps d'arrêt en gestion immobilière ?",
+                "answer": "L'IA analyse en continu les données des équipements pour prédire les pannes potentielles avant qu'elles ne se produisent. Cela permet aux équipes de maintenance d'agir de manière proactive, réduisant les temps d'arrêt et évitant des réparations d'urgence coûteuses."
+            },
+            {
+                "question": "Comment réduire le temps consacré à la maintenance corrective ?",
+                "answer": "Voici quelques stratégies pour réduire le temps de maintenance corrective et permettre à votre site de fonctionner à son efficacité maximale :\n\n1. Améliorer l'accessibilité.\n2. Améliorer l'interchangeabilité.\n3. Gérer les systèmes redondants.\n4. Tenir compte des limitations humaines.\n5. Améliorer l'efficacité dans la reconnaissance, la localisation et l'isolement des pannes."
+            },
+            {
+                "question": "Qu'est-ce que la maintenance prédictive pour les opérations immobilières ?",
+                "answer": "La maintenance prédictive utilise l'IA et les capteurs IoT pour surveiller la santé des équipements en temps réel. Elle prévoit quand les actifs nécessitent un entretien, améliorant le temps de fonctionnement et prolongeant la durée de vie des actifs."
+            },
+            {
+                "question": "Comment l'IA optimise-t-elle l'assignation des techniciens ?",
+                "answer": "L'IA évalue les compétences, la disponibilité et la proximité des techniciens pour attribuer automatiquement la meilleure personne pour chaque tâche. Cela réduit les temps de réponse, minimise les déplacements et améliore l'efficacité."
+            },
+            {
+                "question": "Quels sont les avantages de l'utilisation de l'IA dans les opérations immobilières ?",
+                "answer": "Les entreprises constatent jusqu'à 30 % de temps d'arrêt en moins, des coûts opérationnels réduits, des réponses plus rapides et une satisfaction accrue des locataires grâce aux insights en temps réel et à l'automatisation."
+            },
+            {
+                "question": "Comment Exelona aide-t-elle pour la maintenance prédictive et la réduction de l'Opex ?",
+                "answer": "Exelona intègre IA, IoT et automatisation des flux de travail pour surveiller les actifs, prédire les problèmes et dispatcher efficacement les techniciens — aidant les gestionnaires à réduire l'Opex, prolonger la durée de vie des actifs et améliorer les performances du portefeuille."
+            }
+        ],
+        "blogTopic": "Intelligence Artificielle",
+        "blogTitle": "IA dans les Opérations Immobilières : Réduisez le Temps d'Arrêt de 30% et Diminuez l'Opex grâce à la Maintenance Prédictive",
+        "howAiTitle": "Comment l'IA Réduit le Temps d'Arrêt dans les Opérations Immobilières",
+        "howAiDesc": "L'un des usages les plus pratiques de l'IA dans la gestion immobilière est sa capacité à réduire les temps d'arrêt. Considérez-la comme un gestionnaire numérique surveillant chaque actif 24h/24 et 7j/7 — vous alertant avant qu'un problème ne survienne.",
+        "howAiDesc2": "Voici comment cela fonctionne en pratique :",
+        "howAiDesc3": "Ce processus élimine le besoin de surveillance manuelle et d'estimations approximatives. À la place, vous obtenez une visibilité en temps réel de l'état des actifs dans tout votre portefeuille.",
+        "howAiDesc4": "Une entreprise immobilière commerciale ayant mis en œuvre la maintenance prédictive pilotée par l'IA sur 50 bâtiments a vu le temps d'arrêt du HVAC diminuer de 30 % en six mois, tandis que les coûts annuels de maintenance ont chuté de près de 20 %. Ce n'est pas une théorie, c'est la puissance des opérations basées sur les données en action.",
+        "predictiveTitle": "Maintenance Prédictive pour la Gestion Immobilière : À quoi Cela Ressemble en Action",
+        "predictiveDesc": "La maintenance prédictive semble futuriste, mais elle est déjà au cœur des plateformes modernes de gestion immobilière.",
+        "predictiveDesc2": "Le système apprend à partir de multiples points de données — historiques de maintenance, tendances de consommation d'énergie et télémétrie des capteurs — pour prévoir quand un actif est susceptible de tomber en panne. Ces insights alimentent la planification de la maintenance, l'allocation budgétaire et la planification du cycle de vie des actifs.",
+        "predictiveDesc3": "Technologies Clés qui Alimentent la Maintenance Prédictive",
+        "predictiveDesc4": "En combinant ces technologies, les gestionnaires immobiliers peuvent surveiller des dizaines voire des centaines d'actifs sans inspection manuelle — une partie essentielle de",
+        "predictiveDesc4Link": "Convergence CRM + ERP pour la gestion immobilière",
+        "dataPowerTitle": "Données qui Alimentent la Prédiction",
+        "predictionDesc": "Combinées, ces signaux créent une image prédictive de la santé des actifs, permettant aux équipes d'agir avant que les systèmes ne tombent en panne.",
+        "preparingTitle": "Se Préparer à un Avenir Immobilier Piloté par l'IA",
+        "preparingDesc": "L'IA devient rapidement la norme pour les opérations immobilières, et non l'exception. Des complexes multifamiliaux aux bâtiments commerciaux, les organisations qui intègrent l'analyse prédictive aujourd'hui se préparent à la résilience de demain.",
+        "preparingDesc2": "Voici comment commencer",
+        "preparingDesc3": "En suivant cette approche structurée, vous construirez non seulement des flux de maintenance plus intelligents, mais aussi une stratégie de gestion immobilière qui apprend, s'adapte et s'améliore continuellement.",
+        "keyTitle": "Points Clés",
+        "keyDesc": "Que vous gériez 100 unités ou 100 000, Exelona vous offre une plateforme flexible, intelligente et sécurisée pour gérer votre entreprise immobilière. Prêt à Transformer Votre Entreprise Immobilière ? Construisons-la, automatisons-la et développons-la avec Rialtes, votre partenaire de confiance en transformation immobilière.",
+        "faqTitle": "FAQ : Réduisez l'Opex avec la Maintenance Prédictive"
     }
 }
