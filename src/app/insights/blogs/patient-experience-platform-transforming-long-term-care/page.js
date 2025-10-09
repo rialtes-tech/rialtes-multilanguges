@@ -426,7 +426,7 @@ export default function Page() {
                                 </p>
 
 
-                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Here’s what sets the MediAIna patient journey platform apart:</p>
+                                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Here’s what sets the MediAIna patient journey platform apart:</p>
                                 {
                                     medianaRedData.map((data, ind) => {
                                         return (
