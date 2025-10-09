@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import { HeroSection } from "@/app/[locale]/components/herosection";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
@@ -61,58 +61,39 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <HeroSection mobimg="/images/blog/successfactor-mobile-banner.webp" deskimg="/images/blog/successfactor-web-banner.webp" extraImg="" />
-
-      <section className="custom-container">
-
-        <div className="py-10 bg-white xl:max-w-[1084px] xl:w-[1084px]">
-          <div>
-            <div className="flex flex-col md:flex-row justify-between text-black ">
-              <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>{t('blogTopic')}</span> <span className='text-[#ACACAC]'> | </span>28 May 2024
-              </div>
-              <div className="flex flex-col">
-                <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer">
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+ <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
+                <div className="xl:block hidden">
+                    <Image
+                        src="/images/blog/successfactor-web-banner.webp"
+                        alt="banner image"
+                        fill
                         priority
-                      />
-                    </a>
-                  </div>
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer">
-                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
+                    />
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="py-6"></div>
-          <h1 className="text-[#000000] 4xl:w-[1084px] xl:w-[750px] pb-6 leading-tight xl:text-[42px]  md:text-[28px] text-[26px] 2xl:text-[48px] 4xl:text-[60px]">
+                <div className="xl:hidden block">
+                    <Image
+                        src="/images/blog/successfactor-mobile-banner.webp"
+                        alt="banner image"
+                        priority
+                        height={0}
+                        width={0}
+                        className="w-full h-auto object-cover"
+                    />
+                </div>
+            </section>
+
+      <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+
+        <div className="grid lg:grid-cols-12">
+                              <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
+     {/* date and icons */}
+                        <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="28 May 2024"/>
+             {/* main blog */}
+                                     <div className="xl:mt-[60px] mt-[42px]">
+
+          <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
             {t('blogTitle')}</h1>
-          <div>
+                            <div className="xl:mt-[38px] mt-[33px]">
             {
               blogMainData.map((data, ind) => {
                 return (
@@ -122,25 +103,29 @@ export default function Page() {
                 )
               })
             }
-            <div className="py-6"></div>
+                            <div className="md:mt-[50px] mt-[40px]">
             {/* what should enterprises section */}
-            <h2 className="font-medium text-[#0092E0] pb-4 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px]"> {t('enterpriseTitle')}</h2>
-            <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('enterpriseDesc')}</p>
-            <div className="py-6"></div>
+            <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight"> {t('enterpriseTitle')}</h2>
+            <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-[29px] xl:mt-[34px]">{t('enterpriseDesc')}</p>
+            </div>
 
             {/* hr mgmt section */}
-            <h2 className="font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px] pb-4">{t('hrmgmtTitle')}</h2>
-            <div className="pl-6">
-              <UnorderedList arrName={hrmgmtData} ulClassName="list-disc font-medium marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] space-y-2" liClassName="" />
+                                        <div className="md:mt-[50px] mt-[40px]">
+
+            <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('hrmgmtTitle')}</h2>
+            <div className="pl-[36px] lg:pl-[56px] mt-[29px] xl:mt-[34px]">
+              <UnorderedList arrName={hrmgmtData} ulClassName="list-disc font-medium marker:text-[#0092E0] marker:text-xl text-black text-[16px] xl:text-[17px] 4xl:text-[20px] space-y-3" liClassName="" />
             </div>
-            <div className="py-6"></div>
+           </div>
 
             {/* role integration section */}
-            <h2 className=" font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px] pb-4"> {t('roleIntegrationTitle')}</h2>
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('roleIntegrationDesc')}</p>
+                                        <div className="md:mt-[50px] mt-[40px]">
 
-            <div className="pl-6">
-              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] xl:text-[17px] 2xl:text-[17px] 4xl:text-[20px] font-medium">
+            <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight"> {t('roleIntegrationTitle')}</h2>
+            <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('roleIntegrationDesc')}</p>
+
+            <div className="pl-[36px] lg:pl-[56px] mt-5">
+              <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black  text-[16px] xl:text-[17px] 2xl:text-[17px] 4xl:text-[20px] font-medium">
                 {
                   roleIntegrationData.map((data, ind) => {
                     return (
@@ -150,23 +135,25 @@ export default function Page() {
                 }
               </ul>
             </div>
-            <div className="py-6"></div>
+          </div>
 
             {/* sap success facotrs integration section */}
-            <h2 className=" font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px]">{t('successFactorIntegrationTitle')}</h2>
+                                        <div className="md:mt-[50px] mt-[40px]">
+
+            <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('successFactorIntegrationTitle')}</h2>
 
             {
               successFactorIntegration.map((data, ind) => {
                 return (
-                  <div key={ind}>
-                    <h3 className="pb-4 mt-6 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{ind + 1}. {data.title} </h3>
-                    <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
-                    <div className="pl-6">
-                      <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px] 2xl:text-[18px] xl:text-[17px] 4xl:text-[20px] font-medium">
+                  <div key={ind} className="mt-[29px] xl:mt-[34px]">
+                    <h3 className=" mt-6 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{ind + 1}. {data.title} </h3>
+                    <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
+                    <div className="pl-[36px] lg:pl-[56px]">
+                      <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black  text-[16px]  xl:text-[17px] 4xl:text-[20px] font-medium">
                         {
                           data.list.map((elem, ind) => {
                             return (
-                              <li className="pb-2" key={ind}><div className="inline text-black font-bold">{elem.title} </div>{elem.desc}</li>
+                              <li className="mt-3" key={ind}><div className="inline text-black font-bold">{elem.title} </div>{elem.desc}</li>
                             )
                           })
                         }
@@ -177,30 +164,33 @@ export default function Page() {
               })
             }
 
-            <div className="py-6"></div>
+          </div>
             {/* employee section */}
+                            <div className="md:mt-[50px] mt-[40px]">
 
-            <h2 className=" font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px] pb-4">{t('empTitle')} </h2>
+            <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('empTitle')} </h2>
 
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('empDesc')} </p>
+            <p className="text-black mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('empDesc')} </p>
             {
               empData.map((data, ind) => {
                 return (
                   <div key={ind}>
-                    <h3 className="pb-4 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{data.title}</h3>
-                    <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
+                    <h3 className="mt-5 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{data.title}</h3>
+                    <p className="text-black mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
                   </div>
                 )
               })
             }
-            <div className="py-6"></div>
+       </div>
 
             {/* overcome section */}
-            <h2 className=" font-medium text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] text-[22px] pb-4"> {t('overcomeTitle')}</h2>
-            <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"> {t('overcomeDesc')}</p>
-            <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"> {t('overcomeDesc2')} <Link href={" https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=internal&utm_medium=blog"} className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> <span> {t('overcomeLink')} </span></Link></p>
-          </div>
-        </div>
+                                        <div className="md:mt-[50px] mt-[40px]">
+
+            <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight"> {t('overcomeTitle')}</h2>
+            <p className="text-black mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"> {t('overcomeDesc')}</p>
+            <p className="text-black mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"> {t('overcomeDesc2')} <Link href={" https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=internal&utm_medium=blog"} className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> <span> {t('overcomeLink')} </span></Link></p>
+          </div>  </div>
+        </div>  </div>  </div>
       </section>
       {/* Latest Blogs */}
       <div className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
