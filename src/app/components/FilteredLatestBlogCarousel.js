@@ -7,17 +7,6 @@ import Link from "next/link";
 export default function page({ url }) {
     const latestBlogs = [
         {
-                        id: 46,
-            image: "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
-            category: "Salesforce",
-            industry: "Generic",
-            date: "Oct. 06, 2025",
-            url: 'insights/blogs/salesforce-development-services-to-boost-crm-efficiency',
-            title: "Boost Your CRM Efficiency with Tailored Salesforce Development Services",
-            description: "Customer Relationship Management (CRM) is the beating heart of modern enterprises. It drives how sales teams close deals, how service teams respond to customers, and how marketing delivers personalized campaigns.",
-
-        },
-        {
             id: 45,
             image: "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
             category: "Salesforce",
@@ -48,6 +37,16 @@ export default function page({ url }) {
             description: "Providing healthcare has always been about more than just diagnosis. For patients, the real journey begins after they receive a diagnosis, navigating treatment options, managing chronic conditions, and learning how to live with ongoing care needs.",
         },
         {
+            id: 46,
+            image: "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
+            category: "Salesforce",
+            industry: "Generic",
+            date: "Oct. 06, 2025",
+            url: 'insights/blogs/salesforce-development-services-to-boost-crm-efficiency',
+            title: "Boost Your CRM Efficiency with Tailored Salesforce Development Services",
+            description: "Customer Relationship Management (CRM) is the beating heart of modern enterprises. It drives how sales teams close deals, how service teams respond to customers, and how marketing delivers personalized campaigns.",
+        },
+        {
             id: 42,
             image: "/images/blog/digital-patient-journeys-mobile.webp",
             category: "MediAIna",
@@ -56,6 +55,16 @@ export default function page({ url }) {
             url: 'insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences',
             title: "The Future of Digital Patient Journeys: How AI is Reshaping Life Sciences",
             description: "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals.",
+        },
+        {
+            id: 45,
+            image: "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
+            category: "Salesforce",
+            industry: "Generic",
+            date: "Sep. 29, 2025",
+            url: 'insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi',
+            title: "Seamless Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI",
+            description: "Salesforce is the world’s leading CRM platform, powering enterprises across industries to better manage customers, data, and processes.",
         },
         {
             id: 41,

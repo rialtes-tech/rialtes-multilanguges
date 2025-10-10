@@ -33,7 +33,7 @@ export default function Page() {
             "@type": "WebPage",
             "@id": "https://www.rialtes.com/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/"
         },
-        "datePublished": "2025-10-09",
+        "datePublished": "2025-09-29",
         "mainEntity": {
             "@type": "FAQPage",
             "name": "Salesforce Implementation FAQs",
@@ -132,7 +132,7 @@ export default function Page() {
                 {
                     "title": "Build for Scalability",
                     "desc": [
-                        "Integrations shouldn’t just solve today’s problems; they must prepare for tomorrow. Top partners build scalable frameworks that support future adoption of AI, Salesforce Data Cloud, and automation. This future-proofing ensures <span>enterprise success with Salesforce partners</span> within a year or two."
+                        "Integrations shouldn’t just solve today’s problems; they must prepare for tomorrow. Top partners build scalable frameworks that support future adoption of AI, Salesforce Data Cloud, and automation. This future-proofing ensures <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>enterprise success with Salesforce partners</a> within a year or two."
                     ]
                 }
             ]
@@ -212,7 +212,7 @@ export default function Page() {
     const trustedData = [
         {
             "title": "Rialtes – Your Trusted Salesforce Implementation Partner",
-            "desc": "When it comes to Salesforce partners, not every firm can deliver enterprise-grade success. Rialtes stands apart as a Salesforce Crest Partner, recognized for its expertise, certifications, and <span>tailored Salesforce development for integration</span>.",
+            "desc": "When it comes to Salesforce partners, not every firm can deliver enterprise-grade success. Rialtes stands apart as a Salesforce Crest Partner, recognized for its expertise, certifications, and <a href='https://www.rialtes.com/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>tailored Salesforce development for integration</a>.",
             "desc2": "Here’s what Rialtes brings to the table:",
             "list": [
                 {
@@ -242,7 +242,7 @@ export default function Page() {
     const buildData = [
         "A Salesforce implementation can either be a catalyst for growth or a costly misstep. The difference lies in execution. With the right partners and Salesforce integration partners, enterprises can reduce risk, accelerate adoption, and maximize ROI.",
         "If you’re asking <i>“How to ensure a successful Salesforce implementation?”</i> or <i>“What are the best practices for Salesforce integration?”</i> the answer is simple: partner with experts who combine strategy, industry knowledge, and technical excellence.",
-        "That’s exactly what Rialtes offers. As a Salesforce Crest Partner, Rialtes has helped enterprises across industries implement and integrate Salesforce seamlessly—delivering measurable ROI while setting the stage for future innovation. Partner with Rialtes and turn Salesforce into the backbone of your enterprise success."
+        "That’s exactly what Rialtes offers. As a Salesforce Crest Partner, Rialtes has helped enterprises across industries implement and integrate Salesforce seamlessly—delivering measurable ROI while setting the stage for future innovation. <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Partner with Rialtes</a> and turn Salesforce into the backbone of your enterprise success."
     ]
     const faqs = [
         {
@@ -314,7 +314,7 @@ export default function Page() {
                         <div className="sm:flex justify-between">
                             <div>
                                 <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Salesforce</span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>14 October 2025
+                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>29 September 2025
                             </div>
 
                             <div>
@@ -327,8 +327,6 @@ export default function Page() {
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
                             <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">Seamless Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI</h1>
-
-
                             <div className="xl:mt-[38px] mt-[33px]">
                                 {
                                     blogMainData.map((data, ind) => {
@@ -342,7 +340,6 @@ export default function Page() {
                                     })
                                 }
                             </div>
-
 
                             {/* common data */}
                             <>
@@ -374,25 +371,23 @@ export default function Page() {
                                     salesforceData.map((data, ind) => {
                                         return (
                                             <div
-                                                className="md:flex mt-24 md:mt-[47px] py-[34px] xl:py-[46px] px-[26px] 
+                                                className="md:flex mt-24 md:mt-[35px] py-[34px] xl:py-[46px] px-[26px] 
                                                            md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative 
-                                                           md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto 4xl:w-[86%]"
+                                                           md:ml-[90px] sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[75%] 4xl:w-[75%]"
                                                 key={ind}>
-                                                <h3
-                                                    className="md:absolute md:flex items-center
+                                                <p className="md:absolute md:flex items-center
                                                                 max-md:mt-[-65px] sm:mt-[-70px] md:mt-0
                                                                 md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
                                                                 bg-[#006FBE] text-white font-semibold
                                                                 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
                                                                 px-[20px] py-[15px] leading-tight
-                                                                4xl:w-[320px] xl:w-[270px] md:w-[250px] w-fit">
+                                                                4xl:w-[290px] xl:w-[240px] md:w-[250px] w-fit">
                                                     {data.title}
-                                                </h3>
+                                                </p>
 
-                                                <div
-                                                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
+                                                <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
                                                                 font-medium my-auto max-md:mt-8
-                                                                md:ml-[200px] xl:ml-[240px] 4xl:ml-[300px]"
+                                                                md:ml-[200px] xl:ml-[180px] 4xl:ml-[240px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                             </div>
