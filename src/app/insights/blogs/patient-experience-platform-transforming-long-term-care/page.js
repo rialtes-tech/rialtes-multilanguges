@@ -93,7 +93,7 @@ export default function Page() {
 
     const blogMainData = [
         "Providing healthcare has always been about more than just diagnosis. For patients, the real journey begins after they receive a diagnosis, navigating treatment options, managing chronic conditions, and learning how to live with ongoing care needs. Unfortunately, traditional systems often fail to support patients beyond the walls of the clinic. That is why a patient experience platform becomes essential, helping healthcare providers deliver continuity, coordination, and personalized care at scale.",
-        "<strong>MediAIna</strong>, Rialtes’ next-generation patient journey platform, is designed to close these gaps. Integrating clinical, operational, and digital touchpoints reimagines the healthcare journey from first diagnosis to long-term management. Let’s break down how platforms like MediAIna create  <span>digital patient journeys beyond the clinic</span> and set new standards in long-term care. "
+        "<strong>MediAIna</strong>, Rialtes’ next-generation patient journey platform, is designed to close these gaps. Integrating clinical, operational, and digital touchpoints reimagines the healthcare journey from first diagnosis to long-term management. Let’s break down how platforms like MediAIna create  <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient journeys beyond the clinic</a> and set new standards in long-term care. "
     ]
     const whyPatientData = [
         {
@@ -401,7 +401,30 @@ export default function Page() {
                             {/* mediana redifining section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">MediAIna: Redefining the Integrated Healthcare Journey</h2>
-                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> Unlike traditional point solutions, MediAIna healthcare delivers a unified platform that integrates clinical, operational, and digital experiences. Designed specifically for the life sciences and MedTech ecosystem, it is backed by Rialtes’ LifeAI+ consulting suite to ensure scalability, intelligence, and compliance.</p>
+                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                    Unlike traditional point solutions,{" "}
+                                    <a
+                                        href="https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/"
+                                        className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        MediAIna
+                                    </a>{" "}
+                                    healthcare delivers a unified platform that integrates clinical, operational,
+                                    and digital experiences. Designed specifically for the life sciences and
+                                    MedTech ecosystem, it is backed by Rialtes’{" "}
+                                    <a
+                                        href="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/"
+                                        className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        LifeAI+ consulting suite
+                                    </a>{" "}
+                                    to ensure scalability, intelligence, and compliance.
+                                </p>
+
 
                                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Here’s what sets the MediAIna patient journey platform apart:</p>
                                 {

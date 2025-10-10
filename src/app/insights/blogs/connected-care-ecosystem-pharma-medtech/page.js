@@ -119,12 +119,12 @@ const whyConnectedData = [
 ]
 const patientCenterData = [
     "Here’s the thing: at the heart of connected ecosystems lies one simple truth: the patient must be the focal point. Patients today expect healthcare to mirror their experiences in other industries: personalized, accessible, and digital-first. They want reminders on their phones, virtual consultations on demand, and access to their health history without repeating themselves at every step.",
-    "That’s why <span>digital patient engagement in daily healthcare</span> is no longer optional. It’s the foundation of trust, adherence, and long-term outcomes. Pharma and MedTech leaders that invest here aren’t just enhancing patient experience, they’re building loyalty and differentiation in a competitive market."
+    "That’s why <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient engagement in daily healthcare</a> is no longer optional. It’s the foundation of trust, adherence, and long-term outcomes. Pharma and MedTech leaders that invest here aren’t just enhancing patient experience, they’re building loyalty and differentiation in a competitive market."
 ]
 const longTermData = [
     {
         "title": "Chronic disease management",
-        "desc": "Diabetes, heart disease, and cancer care require ongoing support. Here, <span>long-term patient care management strategies</span> powered by AI, wearables, and real-time monitoring can prevent complications and reduce costs."
+        "desc": "Diabetes, heart disease, and cancer care require ongoing support. Here, <a href='https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>long-term patient care management strategies</a>  powered by AI, wearables, and real-time monitoring can prevent complications and reduce costs."
     },
     {
         "title": "Remote care adoption",
@@ -138,7 +138,7 @@ const longTermData = [
 const reimaginingData = [
     {
         "title": "Reimagining Digital Patient Journeys",
-        "desc": "What this really means is rethinking the way healthcare journeys are designed. Instead of focusing on isolated events (a hospital visit, a prescription, a device implant), it’s about <span>reimagining digital patient journeys in life sciences</span>  from end to end.",
+        "desc": "What this really means is rethinking the way healthcare journeys are designed. Instead of focusing on isolated events (a hospital visit, a prescription, a device implant), it’s about <a href='https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>reimagining digital patient journeys in life sciences</a>  from end to end.",
         "desc2": "That includes:",
         "list": [
             "A seamless transition from clinical trials to therapy adoption.",

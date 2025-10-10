@@ -142,7 +142,7 @@ export default function Page() {
                     "desc": "automated scheduling, digital insurance approvals, and real-time lab updates.",
                 }
             ],
-            "desc2": "These <a href='https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>connected care ecosystems in pharma</a> represent more than convenience. It directly impacts outcomes; patients who feel supported and engaged are more likely to follow treatment plans, reducing readmissions and improving long-term health. "
+            "desc2": "These <a href='https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>connected care ecosystems in pharma</a> represent more than convenience. It directly impacts outcomes; patients who feel supported and engaged are more likely to follow treatment plans, reducing readmissions and improving <a href=' https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>long-term patient care management strategies</a>. "
         },
         {
             "title": "Why Life Sciences Must Embrace Digital Patient Journeys",
@@ -166,7 +166,7 @@ export default function Page() {
                     "desc": "by reducing inefficiencies and manual processes.",
                 }
             ],
-            "desc2": "MediAIna supports these needs by bridging the gap between healthcare AI platforms and <span>digital patient engagement in daily healthcare</span>, creating connected ecosystems for life sciences enterprises."
+            "desc2": "MediAIna supports these needs by bridging the gap between healthcare AI platforms and <span> <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient engagement</a> in daily healthcare</span>, creating connected ecosystems for life sciences enterprises."
         }
     ]
     const digitalData = [
@@ -252,7 +252,7 @@ export default function Page() {
     const medianaData = [
         {
             "title": "MediAIna: Transforming Digital Patient Journeys in Practice",
-            "desc": "While the vision sounds futuristic, MediAIna makes it practical today.",
+            "desc": "While the vision sounds futuristic, <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a>  makes it practical today.",
             "listTitle": "What sets MediAIna apart:",
             "list": [
                 {
@@ -548,7 +548,10 @@ export default function Page() {
                                         return (
                                             <div className="md:mt-[50px] mt-[40px]" key={ind}>
                                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
-                                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
+                                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                    dangerouslySetInnerHTML={{ __html: data.desc }} />
+
+
                                                 <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-6 font-bold">{data.listTitle}</h3>
 
                                                 <ul className="list-disc pl-[36px] font-medium mt-4 space-y-2">
