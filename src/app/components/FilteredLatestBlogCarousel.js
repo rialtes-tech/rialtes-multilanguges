@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function page({ url }) {
     const latestBlogs = [
         {
-            id: 44,
+                        id: 46,
             image: "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
             category: "Salesforce",
             industry: "Generic",
@@ -15,6 +15,27 @@ export default function page({ url }) {
             url: 'insights/blogs/salesforce-development-services-to-boost-crm-efficiency',
             title: "Boost Your CRM Efficiency with Tailored Salesforce Development Services",
             description: "Customer Relationship Management (CRM) is the beating heart of modern enterprises. It drives how sales teams close deals, how service teams respond to customers, and how marketing delivers personalized campaigns.",
+
+        },
+        {
+            id: 45,
+            image: "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
+            category: "Salesforce",
+            industry: "Generic",
+            date: "Oct. 14, 2025",
+            url: 'insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi',
+            title: "Seamless Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI",
+            description: "Salesforce is the world’s leading CRM platform, powering enterprises across industries to better manage customers, data, and processes.",
+        },
+        {
+            id: 44,
+            image: "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
+            category: "AI",
+            industry: "Generic",
+            date: "Oct. 13, 2025",
+            url: 'insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance',
+            title: "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
+            description: "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity.",
         },
         {
             id: 43,
