@@ -29,16 +29,7 @@ const schemaData = {
 }
 
 const latestBlogs = [
-  {
-    id: 45,
-    image: "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
-    category: "Salesforce",
-    industry: "Generic",
-    date: "Oct. 14, 2025",
-    url: '/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi',
-    title: "Seamless Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI",
-    description: "Salesforce is the world’s leading CRM platform, powering enterprises across industries to better manage customers, data, and processes.",
-  },
+
   {
     id: 44,
     image: "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
@@ -68,6 +59,16 @@ const latestBlogs = [
     url: '/digital-patient-journeys-ai-healthcare-life-sciences',
     title: "The Future of Digital Patient Journeys: How AI is Reshaping Life Sciences",
     description: "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals.",
+  },
+  {
+    id: 45,
+    image: "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
+    category: "Salesforce",
+    industry: "Generic",
+    date: "Sep. 29, 2025",
+    url: '/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi',
+    title: "Seamless Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI",
+    description: "Salesforce is the world’s leading CRM platform, powering enterprises across industries to better manage customers, data, and processes.",
   },
   {
     id: 41,
