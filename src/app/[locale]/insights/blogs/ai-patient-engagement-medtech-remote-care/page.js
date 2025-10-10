@@ -12,7 +12,7 @@ import esContent from "../../../../../../messages/es/blogs.json";
 import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
-import FilteredBlogCarouse from "@/app/[locale]/components/FilteredLatestBlogCarousel";
+import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
 
 const schemaData = {
@@ -98,8 +98,7 @@ export default function Page() {
     fr: frContent,
   });
   const { rolesData, commonData, benefitsData, faqs } = blogsContent.aiPatient;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care";
   const currUrl = useUrl();
 
   return (
@@ -179,9 +178,8 @@ export default function Page() {
                       >
                         <p className="text-[16px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] font-bold bg-[#006FBE] text-white py-3 px-6 absolute -top-8 4xl:-top-12 left-1/2 transform -translate-x-1/2 w-[76%] text-center">
                           <span
-                            className={`${
-                              ind == 1 && " block md:py-0 mx-auto"
-                            } ${ind == 2 && "py-2 block"}`}
+                            className={`${ind == 1 && " block md:py-0 mx-auto"
+                              } ${ind == 2 && "py-2 block"}`}
                           >
                             {" "}
                             {data.title}
@@ -316,7 +314,7 @@ export default function Page() {
       </section>
       {/* blog carousel */}
       <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
-        <FilteredBlogCarouse url={currUrl} />
+        <FilteredBlogCarousel url={currUrl} />
       </section>
     </div>
   );
