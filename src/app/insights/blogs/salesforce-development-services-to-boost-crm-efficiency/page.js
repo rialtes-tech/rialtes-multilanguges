@@ -103,43 +103,6 @@ export default function Page() {
         }
     ]
 
-    const choosingList = [
-        {
-            "title": "Proximity to enterprise markets",
-            "desc": "Teams understand local industry regulations and customer expectations"
-        },
-        {
-            "title": "Compliance and securit",
-            "desc": "US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards"
-        },
-        {
-            "title": "Certified expertise",
-            "desc": "A deeper talent pool of Salesforce-certified developers and consultants"
-        },
-
-    ]
-
-
-
-    const rialtesYourTrustedList = [
-        {
-            "title": "Salesforce CRM optimization",
-            "desc": "to streamline operations"
-        },
-        {
-            "title": "Custom integrations",
-            "desc": "with ERP, marketing, and legacy systems"
-        },
-        {
-            "title": "App development",
-            "desc": "tailored to your unique workflows"
-        },
-        {
-            "title": "AI and analytics enablement",
-            "desc": "for future-ready insights"
-        },
-
-    ]
 
     const rialtesYourTrustData = [
         {
@@ -147,7 +110,13 @@ export default function Page() {
             "desc1": "At Rialtes, we understand that no two enterprises are alike. As one of the <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>top Salesforce development companies in the USA </a> , we specialize in delivering tailored Salesforce services that drive measurable efficiency, innovation, and growth.",
             "desc2": "Our expertise includes:",
             "desc3": "We don’t just implement Salesforce for you; we help you transform it into a growth engine. With our Crest Partner status, Rialtes combines deep industry expertise with proven Salesforce excellence.",
-            "desc4": "If your enterprise is ready to move beyond off-the-shelf solutions and unlock the full power of Salesforce, Rialtes is here to help you thrive."
+            "desc4": "If your enterprise is ready to move beyond off-the-shelf solutions and unlock the full power of Salesforce, Rialtes is here to help you thrive.",
+            "list2": [
+                "<strong>Salesforce CRM optimization </strong> to streamline operations.",
+                "<strong>Custom integrations</strong> with ERP, marketing, and legacy systems",
+                "<strong>App development</strong/> tailored to your unique workflows",
+                "<strong>AI and analytics enablement</strong/> for future-ready insights",
+            ]
         }
     ]
 
@@ -158,10 +127,10 @@ export default function Page() {
                 "Not all partners are created equal. The right partner won’t just configure Salesforce; they’ll future-proof your enterprise. Here are key qualities to look for:",
             ],
             "list": [
-                "Proven track record in Salesforce CRM optimization",
-                "Experience with Salesforce integrations, app development, and automation",
-                "Ability to deliver scalable, AI-ready solutions",
-                "Commitment to training and change management for smooth adoption"
+                "<h3 class='text-[20px]'>Proven track record in Salesforce CRM optimization</h3>",
+                "<h3 class='text-[20px]'>Experience with Salesforce integrations, app development, and automation</h3>",
+                "<h3 class='text-[20px]'>Ability to deliver scalable, AI-ready solutions</h3>",
+                "<h3 class='text-[20px]'>Commitment to training and change management for smooth adoption</h3>"
             ],
         }
     ]
@@ -217,32 +186,13 @@ export default function Page() {
             "desc2": "Think of it like tailoring a suit. Off-the-rack might work, but when custom-fitted, everything feels sharper, more comfortable, and more aligned with your needs.",
             "howCanCus": "How Can Custom Salesforce Development Improve CRM Efficiency?",
             "hereAre": "Here are some real-world improvements enterprises see through custom development:",
-            "thisisWhere": "This is where tailored Salesforce development services unlock true CRM efficiency."
-        }
-    ]
+            "thisisWhere": "This is where tailored Salesforce development services unlock true CRM efficiency.",
 
-
-    const howCanCustomList = [
-        {
-            "title": "Automating manual workflow",
-            "desc": "Instead of sales reps manually updating deal stages, automation moves opportunities through the pipeline."
-        },
-        {
-            "title": "User-friendly dashboards",
-            "desc": "Leaders no longer wade through irrelevant data—they see exactly what matters."
-        },
-        {
-            "title": "Seamless integrations",
-            "desc": "Finance, marketing, and ERP systems share data automatically, eliminating double entry."
-        },
-    ]
-
-
-    const strategiesForSuccessfull = [
-        {
-            "title": "Strategies for Successful Salesforce Development & Deployment",
-            "desc": "Maximizing ROI from Salesforce requires <a href='https://www.rialtes.com/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smooth Salesforce implementation strategies</a>. Here are proven approaches:",
-            "thisisWhere": "These strategies help enterprises not only reduce Salesforce project risk but also maximize ROI."
+            "list2": [
+                "<strong><h4 class='inline text-[20px]'>Automating manual workflow</h4></strong> Instead of sales reps manually updating deal stages, automation moves opportunities through the pipeline.",
+                "<strong> <h4 class='inline text-[20px]'>User-friendly dashboards</h4></strong> Leaders no longer wade through irrelevant data—they see exactly what matters",
+                "<strong> <h4 class='inline text-[20px]'>Seamless integrations</h4></strong/> Finance, marketing, and ERP systems share data automatically, eliminating double entry",
+            ]
         }
     ]
 
@@ -288,8 +238,10 @@ export default function Page() {
         {
             "title": "Key Benefits of Tailored Salesforce Development Services",
             "desc":
-                "Tailored development doesn’t just improve system performance; it transforms the way your business operates:"
+                "Tailored development doesn’t just improve system performance; it transforms the way your business operates:",
+            "desc2": "With customization, your CRM moves from being just a tool to becoming a competitive advantage."
         }
+
     ]
 
 
@@ -321,7 +273,12 @@ export default function Page() {
     const choosingRightData = [
         {
             "title": "Choosing the Right Salesforce Development Partner",
-            "desc": "While Salesforce partners are global, working with a <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>leading Salesforce partner</a> comes with unique advantages:",
+            "desc": "While Salesforce partners are global, <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>working with a leading Salesforce partner</a> comes with unique advantages:",
+            "list2": [
+                "<strong>Proximity to enterprise markets</strong> Teams understand local industry regulations and customer expectations",
+                "<strong>Compliance and security</strong> US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards",
+                "<strong>Certified expertise</strong/> A deeper talent pool of Salesforce-certified developers and consultants",
+            ]
         }
     ]
 
@@ -398,6 +355,133 @@ export default function Page() {
                                     })
                                 }
                             </div>
+                            {/* chronic care section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                {
+                                    keyBenifitesSalesforce.map((data, ind) => {
+                                        return (
+                                            <div key={ind}>
+                                                <h2 className="mb-[22px] xl:mb-[15px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+
+                                                <p
+                                                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                    dangerouslySetInnerHTML={{ __html: data.desc }}
+                                                />
+                                            </div>
+                                        )
+                                    })
+                                }
+
+                                <div >
+                                    {
+                                        keyBenifiteList.map((data, ind) => {
+                                            return (
+                                                <div
+                                                    className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[46px] px-[26px] 
+                                                           md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative 
+                                                           md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto 4xl:w-[86%]"
+                                                    key={ind}>
+                                                    <h3
+                                                        className="md:absolute md:flex items-center justify-center
+                                                                max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
+                                                                md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
+                                                                bg-[#006FBE] text-white font-semibold
+                                                                4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
+                                                                px-[30px] py-[22px] leading-tight
+                                                                4xl:w-[340px] xl:w-[280px] md:w-[240px] w-fit 4xl:h-[100px]">
+                                                        {data.title}
+                                                    </h3>
+
+                                                    <div
+                                                        className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
+                                                                font-medium my-auto max-md:mt-8
+                                                                md:ml-[220px] xl:ml-[210px] 4xl:ml-[320px]"
+                                                        dangerouslySetInnerHTML={{ __html: data.desc }}
+                                                    />
+
+                                                </div>
+
+
+                                            )
+                                        })
+                                    }
+                                </div>
+                                {
+                                    keyBenifitesSalesforce.map((data, ind) => {
+                                        return (
+                                            <div key={ind}>
+
+                                                <p
+                                                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-10"
+                                                    dangerouslySetInnerHTML={{ __html: data.desc2 }}
+                                                />
+                                            </div>
+                                        )
+                                    })
+                                }
+
+                            </div>
+
+
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Strategies for Successful Salesforce Development & Deployment</h2>
+                                <p className="mt-[22px] xl:mt-[10px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Maximizing ROI from Salesforce requires a well-planned strategy. Here are proven approaches:</p>
+
+                                <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-x-[60px] lg:gap-0 sm:w-[80%] md:w-full">
+                                    {
+                                        strategiesList.map((data, ind) => {
+                                            return (
+                                                <div key={ind} className={`mt-[48px] ${(ind == 1 || ind == 2) ? "lg:px-[32px] border-[#707070] lg:border-l max-md:border-b max-md:pb-5" : ""} ${ind == 3 ? "lg:pl-[32px] border-[#707070] lg:border-l" : ""} ${ind == 0 ? "lg:pr-[40px] md:border-b lg:border-0 border-[#707070] max-md:border-b max-md:pb-5" : ""} ${(ind == 1) ? "pb-4 md:border-b lg:border-0" : ""}`}>
+                                                    <h4 className="4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[18px] text-[18px] font-bold">{data.title}</h4>
+                                                    <p className="md:mt-5 mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                </div>
+                                <p className="mt-[60px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">These strategies help enterprises not only reduce Salesforce project risk but also maximize ROI.</p>
+
+                            </div>
+
+
+                            <div className="md:mt-[70px] mt-[40px]">
+                                {
+                                    salesforceFeature.map((data, ind) => {
+                                        return (
+                                            <div key={ind}>
+                                                <h2 className="mb-[22px] xl:mb-[15px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+
+                                                <p
+                                                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                    dangerouslySetInnerHTML={{ __html: data.desc }}
+                                                />
+                                            </div>
+                                        )
+                                    })
+                                }
+
+                                <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[26px] mt-[47px] sm:w-[70%] md:w-[90%] lg:w-[900px] xl:w-[1090px] 3xl:w-[1140px]">
+                                    {
+                                        salesforceFeatureList.map((data, ind) => {
+                                            return (
+                                                <div key={ind} className="border border-[#707070] p-[28px] md:px-[34px] md:pt-[26px] md:pb-[40px]">
+                                                    <h3 className="mt-2  4xl:text-[24px] xl:text-[20px] text-[18px] text-[#0092E0] font-bold pb-4 border-b border-[#707070]">{data.title}</h3>
+                                                    <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                </div>
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-10">Enterprises that invest in tailored Salesforce development today are better positioned to harness AI-powered care pathways, predictive sales models, and advanced automation tomorrow.</p>
+                            </div>
+
+
+
+
+
+
+
+
 
                             {/* why patient section */}
                             <div className="md:mt-[50px] mt-[40px]">
@@ -405,13 +489,13 @@ export default function Page() {
                                     whyCrmDAta.map((data, ind) => {
                                         return (
                                             <div key={ind}>
-                                                <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+                                                <h2 className="mb-[22px] xl:mb-[10px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                                 {
                                                     data.desc.map((elem, id) => {
                                                         return (
                                                             <p
                                                                 key={id}
-                                                                className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                                className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                                 dangerouslySetInnerHTML={{ __html: elem }}
                                                             />
                                                         )
@@ -435,9 +519,9 @@ export default function Page() {
                                         return (
                                             <div key={id}>
                                                 <h2 className="mb-[22px] xl:mb-[18px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
-                                                <h3 className="mb-[22px] xl:mb-[30px] font-semibold  4xl:text-[22px] 2xl:text-[19px] xl:text-[18px] md:text-[18px] text-[18px] leading-tight">{data.whatMakes}</h3>
+                                                <h3 className="mb-[22px] xl:mb-[10px] font-semibold  4xl:text-[22px] 2xl:text-[19px] xl:text-[18px] md:text-[18px] text-[18px] leading-tight">{data.whatMakes}</h3>
                                                 <p
-                                                    className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                                 <p
@@ -449,38 +533,7 @@ export default function Page() {
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.hereAre }}
                                                 />
-                                                {
-                                                    howCanCustomList.map((data, ind) => {
-                                                        return (
-                                                            <div
-                                                                className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[46px] px-[26px] 
-                                                           md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative 
-                                                           md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto 4xl:w-[86%]"
-                                                                key={ind}>
-                                                                <h3
-                                                                    className="md:absolute md:flex items-center justify-center
-                                                                max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
-                                                                md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
-                                                                bg-[#006FBE] text-white font-semibold
-                                                                4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
-                                                                px-[30px] py-[22px] leading-tight
-                                                                4xl:w-[340px] xl:w-[280px] md:w-[240px] w-fit 4xl:h-[100px]">
-                                                                    {data.title}
-                                                                </h3>
-
-                                                                <div
-                                                                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
-                                                                font-medium my-auto max-md:mt-8
-                                                                md:ml-[220px] xl:ml-[210px] 4xl:ml-[320px]"
-                                                                    dangerouslySetInnerHTML={{ __html: data.desc }}
-                                                                />
-
-                                                            </div>
-
-
-                                                        )
-                                                    })
-                                                }
+                                                <UnorderedList arrName={data.list2} ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2" />
                                                 <p
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-8"
                                                     dangerouslySetInnerHTML={{ __html: data.thisisWhere }}
@@ -491,36 +544,7 @@ export default function Page() {
                                 }
                             </div>
 
-                            {/* chronic care section */}
-                            <div className="md:mt-[50px] mt-[40px]">
-                                {
-                                    keyBenifitesSalesforce.map((data, ind) => {
-                                        return (
-                                            <div key={ind}>
-                                                <h2 className="mb-[22px] xl:mb-[15px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
 
-                                                <p
-                                                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
-                                                    dangerouslySetInnerHTML={{ __html: data.desc }}
-                                                />
-                                            </div>
-                                        )
-                                    })
-                                }
-
-                                <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-x-[60px] lg:gap-x-0 max-lg:gap-y-[24px] sm:w-[80%] md:w-[90%] lg:w-[950px] xl:w-[1100px] 4xl:w-[1200px] xl:mt-[44px] mt-[30px]">
-                                    {
-                                        keyBenifiteList.map((data, ind) => {
-                                            return (
-                                                <div key={ind} className={`${ind == 0 ? "lg:pr-[24px]" : "lg:px-[34px]"} ${ind == 3 ? "lg:pr-0 max-lg:border-b-0 max-lg:pb-0" : ""} ${ind == 2 && "md:border-b-0"} max-lg:pb-3 max-lg:border-b lg:first:border-0 lg:border-l border-[#707070]`}>
-                                                    <h3 className="pb-3 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold leading-tight"> {data.title}</h3>
-                                                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> {data.desc}</p>
-                                                </div>
-                                            )
-                                        })
-                                    }
-                                </div>
-                            </div>
 
                             {/* digital patient section */}
                             <div className="md:mt-[60px] mt-[40px]">
@@ -533,23 +557,12 @@ export default function Page() {
                                                     className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
+                                                <UnorderedList arrName={data.list2} ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2" />
 
                                             </div>
                                         )
                                     })
                                 }
-                                <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[26px] mt-[47px] sm:w-[70%] md:w-[90%] lg:w-[900px] xl:w-[1090px] 3xl:w-[1140px]">
-                                    {
-                                        choosingList.map((data, ind) => {
-                                            return (
-                                                <div key={ind} className="border border-[#707070] p-[28px] md:px-[34px] md:pt-[26px] md:pb-[40px]">
-                                                    <h3 className="mt-2  4xl:text-[24px] xl:text-[20px] text-[18px] text-[#0092E0] font-bold pb-4 border-b border-[#707070]">{data.title}</h3>
-                                                    <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
-                                                </div>
-                                            )
-                                        })
-                                    }
-                                </div>
 
                             </div>
 
@@ -560,12 +573,12 @@ export default function Page() {
                                     whatToLook.map((data, ind) => {
                                         return (
                                             <div key={ind}>
-                                                <h3 className="mt-2  4xl:text-[24px] xl:text-[20px] text-[18px]  font-bold pb-4 ">{data.title}</h3>                                                {
+                                                <h2 className="mt-2  4xl:text-[24px] xl:text-[20px] text-[18px]  font-bold pb-2 ">{data.title}</h2>                                                {
                                                     data.desc.map((elem, id) => {
                                                         return (
                                                             <p
                                                                 key={id}
-                                                                className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                                className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                                 dangerouslySetInnerHTML={{ __html: elem }}
                                                             />
                                                         )
@@ -578,85 +591,29 @@ export default function Page() {
                                     })
                                 }
                             </div>
-                            {/* from diagnosis section */}
-                            <div className="md:mt-[70px] mt-[40px]">
-                                {
-                                    strategiesForSuccessfull.map((data, id) => {
-                                        return (
-                                            <div key={id}>
-                                                <h2 className="mb-[22px] xl:mb-[18px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
-                                                <p
-                                                    className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
-                                                    dangerouslySetInnerHTML={{ __html: data.desc }}
-                                                />
 
-                                                {
-                                                    strategiesList.map((data, ind) => {
-                                                        return (
-                                                            <div
-                                                                className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[46px] px-[26px] 
-                                                           md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative 
-                                                           md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto 4xl:w-[86%]"
-                                                                key={ind}>
-                                                                <h3
-                                                                    className="md:absolute md:flex items-center justify-center
-                                                                max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
-                                                                md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
-                                                                bg-[#006FBE] text-white font-semibold
-                                                                4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
-                                                                px-[30px] py-[22px] leading-tight
-                                                                4xl:w-[340px] xl:w-[280px] md:w-[240px] w-fit 4xl:h-[100px]">
-                                                                    {data.title}
-                                                                </h3>
-
-                                                                <div
-                                                                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
-                                                                font-medium my-auto max-md:mt-8
-                                                                md:ml-[220px] xl:ml-[210px] 4xl:ml-[320px]"
-                                                                    dangerouslySetInnerHTML={{ __html: data.desc }}
-                                                                />
-
-                                                            </div>
-
-
-                                                        )
-                                                    })
-                                                }
-                                                <p
-                                                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-8"
-                                                    dangerouslySetInnerHTML={{ __html: data.thisisWhere }}
-                                                />
-                                            </div>
-                                        )
-                                    })
-                                }
-                            </div>
 
                             <div className="md:mt-[50px] mt-[40px]">
                                 {
                                     workFlowExample.map((data, ind) => {
                                         return (
                                             <div key={ind}>
-                                                <h3 className="mt-2  4xl:text-[24px] xl:text-[20px] text-[18px]  font-bold pb-4 ">{data.title}</h3>
+                                                <h2 className="mt-2  4xl:text-[24px] xl:text-[20px] text-[18px]  font-bold pb-4 ">{data.title}</h2>
 
-                                                <div className="xl:flex">
-                                                    <div>
-                                                        <p
-                                                            className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-bold"
-                                                            dangerouslySetInnerHTML={{ __html: data.desc1 }}
-                                                        />
+                                                <div>
+                                                    <h3
+                                                        className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-bold"
+                                                        dangerouslySetInnerHTML={{ __html: data.desc1 }}
+                                                    />
 
 
-                                                        <UnorderedList arrName={data.list1} ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2" />
-                                                    </div>
-                                                    <div>
-                                                        <p
-                                                            className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-bold"
-                                                            dangerouslySetInnerHTML={{ __html: data.desc2 }}
-                                                        />
+                                                    <UnorderedList arrName={data.list1} ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2" />
+                                                    <h3
+                                                        className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-bold"
+                                                        dangerouslySetInnerHTML={{ __html: data.desc2 }}
+                                                    />
 
-                                                        <UnorderedList arrName={data.list2} ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2" />
-                                                    </div>
+                                                    <UnorderedList arrName={data.list2} ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2" />
                                                 </div>
 
 
@@ -667,35 +624,6 @@ export default function Page() {
                                 }
                             </div>
 
-                            <div className="md:mt-[70px] mt-[40px]">
-                                {
-                                    salesforceFeature.map((data, ind) => {
-                                        return (
-                                            <div key={ind}>
-                                                <h2 className="mb-[22px] xl:mb-[15px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
-
-                                                <p
-                                                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
-                                                    dangerouslySetInnerHTML={{ __html: data.desc }}
-                                                />
-                                            </div>
-                                        )
-                                    })
-                                }
-
-                                <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-x-[60px] lg:gap-x-0 max-lg:gap-y-[24px] sm:w-[80%] md:w-[90%] lg:w-[950px] xl:w-[1100px] 4xl:w-[1200px] xl:mt-[44px] mt-[30px]">
-                                    {
-                                        salesforceFeatureList.map((data, ind) => {
-                                            return (
-                                                <div key={ind} className={`${ind == 0 ? "lg:pr-[24px]" : "lg:px-[34px]"} ${ind == 3 ? "lg:pr-0 max-lg:border-b-0 max-lg:pb-0" : ""} ${ind == 2 && "md:border-b-0"} max-lg:pb-3 max-lg:border-b lg:first:border-0 lg:border-l border-[#707070]`}>
-                                                    <h3 className="pb-3 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold leading-tight"> {data.title}</h3>
-                                                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> {data.desc}</p>
-                                                </div>
-                                            )
-                                        })
-                                    }
-                                </div>
-                            </div>
 
 
                             <div className="md:mt-[50px] mt-[40px]">
@@ -703,33 +631,24 @@ export default function Page() {
                                     rialtesYourTrustData.map((data, id) => {
                                         return (
                                             <div key={id}>
-                                                <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+                                                <h2 className="mb-[22px] xl:mb-[10px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                                 <p
-                                                    className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc1 }}
                                                 />
                                                 <p
                                                     className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc2 }}
                                                 />
+                                                <UnorderedList arrName={data.list2} ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2" />
+
                                             </div>
                                         )
                                     })
 
 
                                 }
-                                <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[26px] mt-[47px] sm:w-[70%] md:w-[90%] lg:w-[900px] xl:w-[1090px] 3xl:w-[1140px]">
-                                    {
-                                        rialtesYourTrustedList.map((data, ind) => {
-                                            return (
-                                                <div key={ind} className="border border-[#707070] p-[28px] md:px-[34px] md:pt-[26px] md:pb-[40px]">
-                                                    <h3 className="mt-2  4xl:text-[24px] xl:text-[20px] text-[18px] text-[#0092E0] font-bold pb-4 border-b border-[#707070]">{data.title}</h3>
-                                                    <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
-                                                </div>
-                                            )
-                                        })
-                                    }
-                                </div>
+
                                 {
                                     rialtesYourTrustData.map((data, id) => {
                                         return (
