@@ -933,7 +933,7 @@ const Header = () => {
                     <div className="flex-1">
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] 2xl:text-[15px]  xl:text-[13px] text-[16px]"> {t('automativeIndDesc')}</div>
-                        <div className="mt-3 4xl:text-[18px] 2xl:text-[15px]  2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('automativeIndDesc2')}</div>
+                        <div className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('automativeIndDesc2')}</div>
                         <Link href='/industry/real-estate-property-management' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/real-estate-property-management")}
                         >{t('letsBeginBtn')}</Link>
                       </div>
