@@ -3546,7 +3546,7 @@
         "rialtesSignavioLink": "intelligence de Joule",
         "rialtesSignavioDesc2": "les entreprises peuvent mener en toute confiance une transformation métier évolutive, mesurable et prête pour l’avenir.",
         "rialtesSignavioDesc3": "Le message est clair : avec Rialtes comme partenaire de transformation, S/4HANA devient la base de la réinvention intelligente de l’entreprise.",
-"faqTitle": "FAQs : Mise en œuvre de SAP Signavio S/4HANA"
+        "faqTitle": "FAQs : Mise en œuvre de SAP Signavio S/4HANA"
     },
     "beyondRobotics": {
         "seoTitle": "Au-delà de l’automatisation : agents IA et industrie intelligente",
@@ -5710,7 +5710,7 @@
                     {
                         "title": "Construire pour l'évolutivité",
                         "desc": [
-                            "Les intégrations ne doivent pas seulement résoudre les problèmes d'aujourd'hui ; elles doivent préparer l'avenir. Les meilleurs partenaires construisent des cadres évolutifs qui prennent en charge l'adoption future de l'IA, Salesforce Data Cloud et l'automatisation. Cette préparation assure le <span>succès des entreprises avec les partenaires Salesforce</span> dans un ou deux ans."
+                            "Les intégrations ne doivent pas seulement résoudre les problèmes d'aujourd'hui ; elles doivent préparer l'avenir. Les meilleurs partenaires construisent des cadres évolutifs qui prennent en charge l'adoption future de l'IA, Salesforce Data Cloud et l'automatisation. Cette préparation assure le <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>succès des entreprises avec les partenaires Salesforce</a> dans un ou deux ans."
                         ]
                     }
                 ]
@@ -5790,7 +5790,7 @@
         "trustedData": [
             {
                 "title": "Rialtes – Votre partenaire de confiance pour l'implémentation Salesforce",
-                "desc": "Quand il s'agit de partenaires Salesforce, toutes les entreprises ne peuvent pas garantir le succès au niveau entreprise. Rialtes se distingue comme partenaire Salesforce Crest, reconnu pour son expertise, ses certifications et son <span>développement Salesforce personnalisé pour l'intégration</span>.",
+                "desc": "Quand il s'agit de partenaires Salesforce, toutes les entreprises ne peuvent pas garantir le succès au niveau entreprise. Rialtes se distingue comme partenaire Salesforce Crest, reconnu pour son expertise, ses certifications et son <a href='https://www.rialtes.com/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>développement Salesforce personnalisé pour l'intégration</a>.",
                 "desc2": "Voici ce que Rialtes apporte :",
                 "list": [
                     {
@@ -5818,9 +5818,9 @@
             }
         ],
         "buildData": [
-            "Une implémentation Salesforce peut être un catalyseur de croissance ou une erreur coûteuse. La différence réside dans l'exécution. Avec les bons partenaires et partenaires d'intégration Salesforce, les entreprises peuvent réduire les risques, accélérer l'adoption et maximiser le ROI.",
-            "Si vous vous demandez <i>« Comment garantir une mise en œuvre réussie de Salesforce ? »</i> ou <i>« Quelles sont les meilleures pratiques pour l'intégration de Salesforce ? »</i>, la réponse est simple : collaborez avec des experts qui combinent stratégie, connaissance sectorielle et excellence technique.",
-            "C'est exactement ce que propose Rialtes. En tant que partenaire Salesforce Crest, Rialtes a aidé des entreprises de divers secteurs à implémenter et intégrer Salesforce de manière fluide, offrant un ROI mesurable et préparant le terrain pour l'innovation future. Collaborez avec Rialtes et transformez Salesforce en colonne vertébrale du succès de votre entreprise."
+            "Une mise en œuvre de Salesforce peut être soit un catalyseur de croissance, soit une erreur coûteuse. La différence réside dans l’exécution. Avec les bons partenaires et les experts en intégration Salesforce, les entreprises peuvent réduire les risques, accélérer l’adoption et maximiser le retour sur investissement.",
+            "Si vous vous demandez <i>« Comment assurer une mise en œuvre réussie de Salesforce ? »</i> ou <i>« Quelles sont les meilleures pratiques pour l’intégration de Salesforce ? »</i>, la réponse est simple : collaborez avec des experts qui allient stratégie, connaissance sectorielle et excellence technique.",
+            "C’est exactement ce que propose Rialtes. En tant que partenaire Salesforce Crest, Rialtes a aidé des entreprises de divers secteurs à mettre en œuvre et intégrer Salesforce de manière fluide — offrant un ROI mesurable et posant les bases d’une innovation future. <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Collaborez avec Rialtes</a> et faites de Salesforce la colonne vertébrale du succès de votre entreprise."
         ],
         "faqs": [
             {

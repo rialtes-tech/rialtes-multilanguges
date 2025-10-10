@@ -190,21 +190,11 @@
     ],
     "latestBlogs": [
       {
-        "id": 45,
-        "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
-        "category": "Salesforce",
-        "industry": "Générique",
-        "date": "14 oct. 2025",
-        "url": "/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi",
-        "title": "Mise en Œuvre Transparente de Salesforce : Stratégies Partenaires pour Réduire les Risques et Maximiser le ROI",
-        "description": "Salesforce est la principale plateforme CRM au monde, aidant les entreprises de tous les secteurs à mieux gérer leurs clients, leurs données et leurs processus."
-      },
-      {
         "id": 44,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
         "category": "IA",
         "industry": "Générique",
-        "date": "13 Oct. 2025",
+        "date": "Oct. 13, 2025",
         "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance",
         "title": "L’IA dans les opérations immobilières : réduisez les temps d’arrêt de 30 % et les coûts d’exploitation grâce à la maintenance prédictive",
         "description": "La vérité sur les opérations immobilières est qu’elles ont toujours consisté à trouver un équilibre entre coût, confort et continuité."
@@ -228,6 +218,16 @@
         "url": "/digital-patient-journeys-ai-healthcare-life-sciences",
         "title": "L’Avenir des Parcours Numériques du Patient : Comment l’IA Transforme les Sciences de la Vie",
         "description": "L’industrie des soins de santé est à un tournant. Les patients ne veulent plus d’expériences fragmentées, d’attendre des semaines pour des rendez-vous, de répéter leur historique à chaque contact ou de gérer des portails déconnectés."
+      },
+      {
+        "id": 45,
+        "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
+        "category": "Salesforce",
+        "industry": "Générique",
+        "date": "Sep. 29, 2025",
+        "url": "/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi",
+        "title": "Mise en Œuvre Transparente de Salesforce : Stratégies Partenaires pour Réduire les Risques et Maximiser le ROI",
+        "description": "Salesforce est la principale plateforme CRM au monde, aidant les entreprises de tous les secteurs à mieux gérer leurs clients, leurs données et leurs processus."
       },
       {
         "id": 41,

@@ -5653,7 +5653,7 @@
                     {
                         "title": "Construya para la escalabilidad",
                         "desc": [
-                            "Las integraciones no deben resolver solo los problemas de hoy; deben prepararse para el mañana. Los mejores socios construyen marcos escalables que soportan la futura adopción de IA, Salesforce Data Cloud y automatización. Esta preparación para el futuro garantiza el <span>éxito empresarial con socios de Salesforce</span> en uno o dos años."
+                            "Las integraciones no deben resolver solo los problemas de hoy; deben prepararse para el mañana. Los mejores socios construyen marcos escalables que soportan la futura adopción de IA, Salesforce Data Cloud y automatización. Esta preparación para el futuro garantiza el <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>éxito empresarial con socios de Salesforce</a> en uno o dos años."
                         ]
                     }
                 ]
@@ -5733,7 +5733,7 @@
         "trustedData": [
             {
                 "title": "Rialtes – Su socio de confianza en la implementación de Salesforce",
-                "desc": "Cuando se trata de socios de Salesforce, no todas las empresas pueden ofrecer éxito a nivel empresarial. Rialtes se destaca como socio Salesforce Crest, reconocido por su experiencia, certificaciones y <span>desarrollo personalizado de Salesforce para integración</span>.",
+                "desc": "Cuando se trata de socios de Salesforce, no todas las empresas pueden ofrecer éxito a nivel empresarial. Rialtes se destaca como socio Salesforce Crest, reconocido por su experiencia, certificaciones y <a href='https://www.rialtes.com/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>desarrollo personalizado de Salesforce para integración</a>.",
                 "desc2": "Esto es lo que Rialtes aporta:",
                 "list": [
                     {
@@ -5761,9 +5761,9 @@
             }
         ],
         "buildData": [
-            "Una implementación de Salesforce puede ser un catalizador para el crecimiento o un error costoso. La diferencia está en la ejecución. Con los socios y socios de integración de Salesforce adecuados, las empresas pueden reducir riesgos, acelerar la adopción y maximizar el ROI.",
-            "Si se pregunta <i>“¿Cómo garantizar una implementación exitosa de Salesforce?”</i> o <i>“¿Cuáles son las mejores prácticas para la integración de Salesforce?”</i>, la respuesta es simple: asóciese con expertos que combinen estrategia, conocimiento del sector y excelencia técnica.",
-            "Eso es exactamente lo que ofrece Rialtes. Como socio Salesforce Crest, Rialtes ha ayudado a empresas de múltiples sectores a implementar e integrar Salesforce sin problemas, ofreciendo un ROI medible y sentando las bases para la innovación futura. Asóciese con Rialtes y convierta Salesforce en la columna vertebral del éxito de su empresa."
+            "Una implementación de Salesforce puede ser un catalizador para el crecimiento o un error costoso. La diferencia radica en la ejecución. Con los socios adecuados y expertos en integración de Salesforce, las empresas pueden reducir riesgos, acelerar la adopción y maximizar el ROI.",
+            "Si te preguntas <i>“¿Cómo asegurar una implementación exitosa de Salesforce?”</i> o <i>“¿Cuáles son las mejores prácticas para la integración de Salesforce?”</i>, la respuesta es simple: colabora con expertos que combinen estrategia, conocimiento del sector y excelencia técnica.",
+            "Eso es exactamente lo que ofrece Rialtes. Como socio Salesforce Crest, Rialtes ha ayudado a empresas de diversos sectores a implementar e integrar Salesforce sin problemas, logrando un ROI medible y sentando las bases para la innovación futura. <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Colabora con Rialtes</a> y convierte Salesforce en la columna vertebral del éxito de tu empresa."
         ],
         "faqs": [
             {
