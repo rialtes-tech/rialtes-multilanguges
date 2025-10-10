@@ -29,6 +29,16 @@ const schemaData = {
 }
 
 const latestBlogs = [
+   {
+    id: 47,
+    image: "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
+    category: "Salesforce",
+    industry: "Generic",
+    date: "Oct. 06, 2025",
+    url: '/salesforce-development-services-to-boost-crm-efficiency',
+    title: "Boost Your CRM Efficiency with Tailored Salesforce Development Services",
+    description: "Customer Relationship Management (CRM) is the beating heart of modern enterprises. It drives how sales teams close deals, how service teams respond to customers, and how marketing delivers personalized campaigns.",
+  },
   {
     id: 43,
     image: "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
