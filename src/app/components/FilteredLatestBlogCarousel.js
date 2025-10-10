@@ -7,6 +7,17 @@ import Link from "next/link";
 export default function page({ url }) {
     const latestBlogs = [
         {
+                        id: 46,
+            image: "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
+            category: "Salesforce",
+            industry: "Generic",
+            date: "Oct. 06, 2025",
+            url: 'insights/blogs/salesforce-development-services-to-boost-crm-efficiency',
+            title: "Boost Your CRM Efficiency with Tailored Salesforce Development Services",
+            description: "Customer Relationship Management (CRM) is the beating heart of modern enterprises. It drives how sales teams close deals, how service teams respond to customers, and how marketing delivers personalized campaigns.",
+
+        },
+        {
             id: 45,
             image: "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
             category: "Salesforce",
