@@ -16,16 +16,7 @@ export default function page({ url }) {
             title: "Seamless Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI",
             description: "Salesforce is the world’s leading CRM platform, powering enterprises across industries to better manage customers, data, and processes.",
         },
-        {
-            id: 44,
-            image: "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
-            category: "AI",
-            industry: "Generic",
-            date: "Oct. 13, 2025",
-            url: 'insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance',
-            title: "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
-            description: "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity.",
-        },
+
         {
             id: 43,
             image: "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
