@@ -190,8 +190,18 @@
     ],
     "latestBlogs": [
       {
+        "id": 44,
+        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
+        "category": "IA",
+        "industry": "Générique",
+        "date": "Oct. 13, 2025",
+        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance",
+        "title": "L’IA dans les opérations immobilières : réduisez les temps d’arrêt de 30 % et les coûts d’exploitation grâce à la maintenance prédictive",
+        "description": "La vérité sur les opérations immobilières est qu’elles ont toujours consisté à trouver un équilibre entre coût, confort et continuité."
+      },
+      {
         "id": 43,
-        "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-ter m-care-mobile.webp",
+        "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
         "category": "MediAIna",
         "industry": "Santé",
         "date": "Oct. 07, 2025",
@@ -208,6 +218,16 @@
         "url": "/digital-patient-journeys-ai-healthcare-life-sciences",
         "title": "L’Avenir des Parcours Numériques du Patient : Comment l’IA Transforme les Sciences de la Vie",
         "description": "L’industrie des soins de santé est à un tournant. Les patients ne veulent plus d’expériences fragmentées, d’attendre des semaines pour des rendez-vous, de répéter leur historique à chaque contact ou de gérer des portails déconnectés."
+      },
+      {
+        "id": 45,
+        "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
+        "category": "Salesforce",
+        "industry": "Générique",
+        "date": "Sep. 29, 2025",
+        "url": "/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi",
+        "title": "Mise en Œuvre Transparente de Salesforce : Stratégies Partenaires pour Réduire les Risques et Maximiser le ROI",
+        "description": "Salesforce est la principale plateforme CRM au monde, aidant les entreprises de tous les secteurs à mieux gérer leurs clients, leurs données et leurs processus."
       },
       {
         "id": 41,
@@ -700,7 +720,7 @@
       {
         "id": 7,
         "imgSrc": "/images/case-studies/Small thumb.webp",
-        "category": "Education Cloud",
+        "category": "Education",
         "date": "Aug. 21, 2025",
         "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
         "title": "Transformer la Réussite des Étudiants avec Salesforce Education Cloud et Edu+",
@@ -802,7 +822,7 @@
         "id": 3,
         "image": "/images/case-studies/case study 3_thumb_n.webp",
         "industry": "Fabrication",
-        "date": "Jan. 8, 2025",
+        "date": "Jan. 08, 2025",
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
         "title": "Transformation DevOps avec Copado et Salesforce",
         "description": "Un fabricant leader spécialisé dans les matériaux innovants pour la construction résidentielle et commerciale."

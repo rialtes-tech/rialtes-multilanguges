@@ -60,13 +60,12 @@ export default function page() {
     eduSolutions,
   } = Content.eduplusCaseStudy;
 
-  const fullUrl =
-    "https://www.rialtes.com/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus";
+  const fullUrl = "https://www.rialtes.com/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus";
   return (
     <section className="min-h-screen bg-white">
       <Seo
-        title={t("seoTitle")}
-        description={t("seoDescription")}
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/"
       />
       <Script

@@ -5526,5 +5526,449 @@
         "medianaDesc2": "Here’s what sets the MediAIna patient journey platform apart:",
         "medianaDesc3": "By connecting providers, payers, MedTech, and life sciences organizations, MediAIna ensures that no part of the patient journey is fragmented or overlooked.",
         "faqTitle": "FAQs: Transforms Care with Patient Experience Platform"
+    },
+    "exelonaPillar": {
+        "blogMainData": [
+            "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity. The challenge is that most maintenance models are still reactive. Teams fix what breaks, scramble to respond to tenant complaints, and watch operating expenses climb year after year.",
+            "In an industry where every minute of equipment downtime hits profitability and reputation, the need for a smarter approach is crystal clear. That’s where artificial intelligence (AI) steps in — transforming how buildings think, predict, and act.",
+            "AI isn’t just automating tasks; it’s reshaping property management from the ground up. For property owners and operators, AI-driven predictive maintenance is a game-changer, cutting downtime by as much as 30% and reducing Opex through proactive interventions.",
+            "Instead of reacting to issues after they occur, predictive systems powered by AI continuously analyze data from sensors, HVAC systems, lifts, and meters to flag potential issues before they become costly failures. This translates to fewer surprises, lower costs, and a smoother, <span>next-gen resident experience in real estate</span>."
+        ],
+        "howAiData": [
+            "IoT sensors collect performance data from equipment (temperature, vibration, pressure, usage frequency).",
+            "AI models continuously analyze these data streams to detect early warning signs of wear or inefficiency.",
+            "When a deviation is detected, the system triggers an automated work order or maintenance alert."
+        ],
+        "howAiData2": [
+            {
+                "title": "Before AI",
+                "list": [
+                    "Maintenance teams reacted to tenant complaints.",
+                    "Unplanned equipment failures disrupted operations.",
+                    "Repairs were costlier due to emergency labor and parts."
+                ]
+            },
+            {
+                "title": "After AI",
+                "list": [
+                    "Predictive alerts identified HVAC issues two days before failure.",
+                    "Technicians received automated notifications with clear action plans.",
+                    "Downtime dropped sharply, and maintenance became proactive, not reactive."
+                ]
+            }
+        ],
+        "keyTechData": [
+            {
+                "title": "AI & Machine Learning",
+                "desc": "Identify patterns of failure before they occur."
+            },
+            {
+                "title": "IoT Sensors",
+                "desc": "Collect real-time equipment data for constant monitoring."
+            },
+            {
+                "title": "Data Analytics Dashboards",
+                "desc": "Turn complex data into visual insights."
+            },
+            {
+                "title": "Cloud Integration",
+                "desc": "Centralize asset data across locations for unified oversight."
+            }
+        ],
+        "predictionData": [
+            {
+                "title": "Energy Consumption",
+                "desc": "Detect efficiency drops signaling potential failure."
+            },
+            {
+                "title": "Temperature and Vibration Metrics",
+                "desc": "Identify abnormal performance in motors or compressors."
+            },
+            {
+                "title": "HVAC Telemetry",
+                "desc": "Monitor airflow and filter conditions."
+            },
+            {
+                "title": "Usage Frequency",
+                "desc": "Track wear and tear across high-traffic areas."
+            }
+        ],
+        "howAiImprovesData": [
+            {
+                "title": "How AI Improves the Entire Property Lifecycle",
+                "desc": "Predictive maintenance is only one part of what AI can do for property operations. Once data begins to flow across assets, systems, and tenants, it opens the door to full lifecycle intelligence.",
+                "listDataTitle": "AI-Driven Optimization Across Operations",
+                "list": [
+                    {
+                        "title": "Energy Management",
+                        "desc": "Predict peak load times and optimize HVAC and lighting systems for energy savings."
+                    },
+                    {
+                        "title": "Budget Forecasting",
+                        "desc": "Use predictive insights to estimate future maintenance costs and CapEx needs."
+                    },
+                    {
+                        "title": "Sustainability Tracking",
+                        "desc": "Measure energy efficiency and environmental performance in real time."
+                    },
+                    {
+                        "title": "Tenant Experience",
+                        "desc": "Use sentiment data and <span>conversational AI for resident support</span> to personalize communication and improve satisfaction."
+                    }
+                ],
+                "desc2": "In short, AI converts reactive property operations into strategic, data-driven ecosystems. It gives asset managers the visibility they need to make informed decisions about maintenance, performance, investment, and sustainability."
+            }
+        ],
+        "optimizingData": [
+            {
+                "title": "Optimizing Technician Assignment with AI and Smart Scheduling",
+                "desc": "Even with predictive alerts, maintenance execution matters. Once an issue is flagged, assigning the right technician quickly is what keeps operations running smoothly.",
+                "desc2": "AI brings intelligence not only to diagnostics but also to workforce management.",
+                "commonData": [
+                    {
+                        "listTitle": "Here’s what that looks like:",
+                        "list": [
+                            "The system evaluates technician skill sets, availability, and location.",
+                            "It then prioritizes and assigns work orders automatically, minimizing idle time and travel.",
+                            "If multiple issues occur, the AI schedules tasks based on urgency and impact."
+                        ],
+                        "desc": "This optimization can reduce response times by up to 25% and significantly improve SLA compliance."
+                    },
+                    {
+                        "listTitle": "Example Workflow: Smart Dispatch",
+                        "list": [
+                            "An HVAC sensor detects an airflow anomaly and sends an alert to the platform.",
+                            "AI identifies the nearest available technician with the required expertise.",
+                            "A work order is automatically generated and synced to the technician’s mobile device.",
+                            "The technician completes the job, uploads notes, and closes the ticket.",
+                            "The system updates status in real time — giving management full visibility and <strong>SLA tracking and billing automation in real estate</strong>"
+                        ],
+                        "desc": "This level of coordination helps large property portfolios save time, reduce fuel costs, and ensure that no alert is missed."
+                    }
+                ]
+            }
+        ],
+        "fromMaintenanceData": [
+            {
+                "title": "From Maintenance Logs to Strategic Decisions",
+                "desc": "By analyzing long-term maintenance trends, AI provides insights such as:",
+                "list": [
+                    "Which equipment needs replacement next quarter?",
+                    "Where to focus energy efficiency investments.",
+                    "How to extend asset life through early intervention."
+                ],
+                "desc2": "This isn’t maintenance management — it’s <strong>portfolio intelligence</strong>, and it’s redefining how property enterprises scale efficiently."
+            }
+        ],
+        "exelonaEdgeData": [
+            {
+                "title": "The Exelona Edge – Smarter Property Operations Powered by AI",
+                "desc": "Let’s bring this closer to home.",
+                "desc2": "<a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Exelona</a>, Rialtes’ real estate management platform, unifies every step of the property lifecycle — from lead generation to financial closeout. Built for property managers, developers, and portfolio owners, Exelona delivers AI-driven automation, mobile-first experiences, and CRM + ERP convergence for property management, all from a single platform.",
+                "listTitle": "What Makes Exelona Different",
+                "list": [
+                    {
+                        "title": "100% Mobile-Enabled",
+                        "desc": "Manage leasing, maintenance, and finance on any device."
+                    },
+                    {
+                        "title": "Agentic AI + Conversational Interfaces",
+                        "desc": "AI that automates, prioritizes, and communicates through conversational AI for resident support."
+                    },
+                    {
+                        "title": "CRM + ERP, Unified",
+                        "desc": "One system for marketing, operations, leasing, and accounting."
+                    },
+                    {
+                        "title": "OPENAPI Architecture",
+                        "desc": "Easily integrates with SAP, Yardi, Oracle, Salesforce, and more."
+                    }
+                ],
+                "desc3": "Exelona doesn’t just digitize property operations but redefines how property businesses scale, combining intelligence, automation, and insight into one connected experience."
+            }
+        ],
+        "preparingData": [
+            {
+                "title": "Start Small, Think Big",
+                "desc": "Begin with one building or a single asset category to validate ROI."
+            },
+            {
+                "title": "Connect Your Data",
+                "desc": "Integrate IoT devices and existing building systems into a unified platform like Exelona."
+            },
+            {
+                "title": "Train Your Teams",
+                "desc": "Equip staff to interpret AI insights and act confidently on recommendations."
+            },
+            {
+                "title": "Scale Gradually",
+                "desc": "Expand predictive capabilities across your portfolio as data maturity grows."
+            }
+        ],
+        "keyElemData": [
+            {
+                "title": "Predictive Maintenance = Proactive Efficiency",
+                "desc": "AI cuts downtime by up to 30% and reduces operational costs."
+            },
+            {
+                "title": "Data-Driven Decision-Making",
+                "desc": "AI enables better forecasting, budgeting, and asset management."
+            },
+            {
+                "title": "Smarter Workforce Allocation",
+                "desc": "Intelligent technician routing improves response times and tenant satisfaction."
+            },
+            {
+                "title": "Exelona Advantage",
+                "desc": "The all-in-one AI-powered property platform built to reduce Opex and optimize performance through <span>SLA tracking and billing automation in real estate</span>."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How can AI reduce maintenance downtime in property management?",
+                "answer": "AI continuously analyzes equipment data to predict potential failures before they occur. This allows maintenance teams to act proactively, reducing downtime and avoiding costly emergency repairs."
+            },
+            {
+                "question": "How to reduce time spent on corrective maintenance?",
+                "answer": "Here are some strategies to reduce corrective maintenance time and allow your plant to operate at the highest efficiency it can:\n\n1. Improve accessibility.\n\n2. Improve interchangeability.\n\n3. Manage redundant systems.\n\n4. Account for human limitations.\n\n5. Enhance efficiency in fault recognition, location, and isolation."
+            },
+            {
+                "question": "What is predictive maintenance for property operations?",
+                "answer": "Predictive maintenance uses AI and IoT sensors to monitor equipment health in real time. It forecasts when assets need servicing, improving uptime and extending asset lifespan."
+            },
+            {
+                "question": "How does AI optimize technician assignment?",
+                "answer": "AI evaluates technician skills, availability, and proximity to automatically assign the best person for each job. This reduces response times, minimizes travel, and enhances efficiency."
+            },
+            {
+                "question": "What are the benefits of using AI in property operations?",
+                "answer": "Enterprises experience up to 30% less downtime, lower operational costs, faster service responses, and improved tenant satisfaction through real-time insights and automation."
+            },
+            {
+                "question": "How does Exelona help with predictive maintenance and Opex reduction?",
+                "answer": "Exelona integrates AI, IoT, and workflow automation to monitor assets, predict issues, and dispatch technicians efficiently — helping property managers reduce Opex, extend asset life, and improve portfolio performance."
+            }
+        ],
+        "seoTitle": "How AI in Real Estate Powers Predictive Maintenance | Rialtes",
+        "seoDescription": "AI-driven predictive maintenance is a game-changer, cutting downtime by as much as 30% and reducing Opex through proactive interventions. Discover how today.",
+        "blogTopic": "Artificial Intelligence",
+        "blogTitle": "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
+        "howAiTitle": "How AI Reduces Maintenance Downtime in Property Operations",
+        "howAiDesc": "One of the most practical uses of AI in property management is its ability to reduce downtime. Think of it as having a digital operations manager watching every asset 24/7 — alerting you before something goes wrong.",
+        "howAiDesc2": "Here’s how it works in practice:",
+        "howAiDesc3": "This process eliminates the need for manual monitoring and guesswork. Instead, you get real-time visibility into asset health across your portfolio.",
+        "howAiDesc4": "A commercial real estate firm that implemented AI-driven predictive maintenance across 50 buildings saw HVAC downtime drop by 30% within six months, while annual maintenance costs fell by nearly 20%. That’s not theory. That’s the power of data-driven operations in action.",
+        "predictiveTitle": "Predictive Maintenance for Property Management: What It Looks Like in Action",
+        "predictiveDesc": "Predictive maintenance sounds futuristic, but it’s already a cornerstone of modern property management platforms.",
+        "predictiveDesc2": "The system learns from multiple data points — historical maintenance logs, energy consumption trends, and sensor telemetry to forecast when an asset is likely to fail. These insights feed into maintenance scheduling, budget allocation, and asset lifecycle planning.",
+        "predictiveDesc3": "Key Technologies Driving Predictive Maintenance",
+        "predictiveDesc4": "By merging these technologies, property managers can monitor dozens or even hundreds of assets without needing manual inspection — a foundational part of",
+        "predictiveDesc4Link": "CRM + ERP convergence for property management",
+        "dataPowerTitle": "Data That Powers Prediction",
+        "predictionDesc": "When combined, these signals create a predictive picture of asset health, allowing teams to act before systems fail.",
+        "preparingTitle": "Preparing for an AI-Driven Property Future",
+        "preparingDesc": "AI is quickly becoming the standard for property operations, not the exception. From multifamily complexes to commercial buildings, organizations that integrate predictive analytics today are setting themselves up for resilience tomorrow.",
+        "preparingDesc2": "Here’s How to Get Started",
+        "preparingDesc3": "By taking this structured approach, you’ll build not just smarter maintenance workflows but a property management strategy that continuously learns, adapts, and improves.",
+        "keyTitle": "Key Takeaways",
+        "keyDesc": "Whether you manage 100 units or 100,000, Exelona gives you a flexible, intelligent, and secure platform to run your real estate enterprise. Ready to Transform Your Real Estate Business? Let’s build it, automate it, and grow it with Rialtes, your trusted partner in real estate transformation.",
+        "faqTitle": "FAQs: Reduce Opex with Predictive Maintenance"
+    },
+    "salesforceImplementation": {
+        "blogMainData": [
+            "Salesforce is the world’s leading CRM platform, powering enterprises across industries to better manage customers, data, and processes. But here’s the catch: Salesforce success isn’t guaranteed by simply purchasing licenses. Implementation is where many projects falter. Delays, scope creep, or poor adoption can turn what should be a growth driver into a sunk investment.",
+            "This is why enterprises <span>partner with expert Salesforce consultants</span>. The right partner brings structure, expertise, and proven frameworks to reduce risk and maximize return on investment. From planning a Salesforce implementation roadmap to handling complex integrations, partners ensure enterprises extract full value from the platform.",
+            "Let’s explore the strategies that top partners use to make Salesforce implementations seamless."
+        ],
+        "commonData": [
+            {
+                "title": "How to Ensure a Successful Salesforce Implementation?",
+                "list": [
+                    {
+                        "title": "Start with a Clear Salesforce Implementation Roadmap",
+                        "desc": [
+                            "A Salesforce rollout without a roadmap is like embarking on a cross-country trip without directions. The first step is aligning Salesforce to business objectives. Ask: What do we want Salesforce to achieve? Is the goal to shorten sales cycles, unify customer data, or streamline service processes?",
+                            "An implementation roadmap defines phases, milestones, and deliverables. Partners help translate strategic goals into technical design, ensuring business outcomes guide configuration, not the other way around."
+                        ]
+                    },
+                    {
+                        "title": "Engage Stakeholders Early",
+                        "desc": [
+                            "Even the best technology fails without adoption. A successful implementation requires early involvement of sales, marketing, service, and IT teams. When stakeholders help shape requirements, they’re more likely to champion the solution later.",
+                            "Change management is often underestimated. Partners who build communication and training into the roadmap increase adoption rates, helping enterprises avoid costly underutilization."
+                        ]
+                    },
+                    {
+                        "title": "Choose the Right Salesforce Integration Partner",
+                        "desc": [
+                            "Perhaps the most critical decision is choosing the right partner. Certified Salesforce integration partners bring experience across industries and geographies. They know common pitfalls and how to avoid them. Instead of learning on the job, they apply tried-and-tested frameworks, accelerators, and governance models."
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Best Practices for Salesforce Integration Success",
+                "list": [
+                    {
+                        "title": "Map the Salesforce Integration Roadmap",
+                        "desc": [
+                            "Salesforce rarely exists in isolation. It needs to talk to ERP, HR, finance, supply chain, and marketing systems. A clear Salesforce integration roadmap identifies which systems are most critical to connect and in what order.",
+                            "For example, connecting Salesforce to ERP ensures sales teams see real-time inventory data. Linking to HR helps with territory management. Mapping out priorities prevents chaos and keeps integrations aligned with business needs."
+                        ]
+                    },
+                    {
+                        "title": "Leverage Certified Salesforce Integration Partners",
+                        "desc": [
+                            "Integrations are one of the biggest risk areas. A poorly designed integration can create data silos, duplication, or compliance risks. Certified Salesforce integration partners bring the technical skill and tools needed to connect Salesforce securely and efficiently.",
+                            "The best partners combine technical know-how with industry experience. A life sciences integration looks very different from a manufacturing setup. Industry-aware partners prevent “cookie-cutter” mistakes."
+                        ]
+                    },
+                    {
+                        "title": "Build for Scalability",
+                        "desc": [
+                            "Integrations shouldn’t just solve today’s problems; they must prepare for tomorrow. Top partners build scalable frameworks that support future adoption of AI, Salesforce Data Cloud, and automation. This future-proofing ensures <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>enterprise success with Salesforce partners</a> within a year or two."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "salesforceData": [
+            {
+                "title": "Scope Creep",
+                "desc": "Adding requirements without revisiting timelines."
+            },
+            {
+                "title": "Misalignment",
+                "desc": "When technical features don’t match business goals."
+            },
+            {
+                "title": "Low Adoption",
+                "desc": "Employees revert to old processes."
+            },
+            {
+                "title": "Compliance Issues",
+                "desc": "Particularly in regulated industries."
+            }
+        ],
+        "salesforceStratergies": [
+            {
+                "title": "Frameworks and Accelerators",
+                "desc": "Pre-built templates for workflows, dashboards, and integrations speed delivery and lower error rates."
+            },
+            {
+                "title": "Agile Delivery Models",
+                "desc": "Iterative sprints allow course correction before issues escalate."
+            },
+            {
+                "title": "Compliance-First Design",
+                "desc": "Especially for industries like healthcare or finance, partners ensure regulatory alignment from the start."
+            }
+        ],
+        "maximizeData": [
+            {
+                "title": "Maximizing ROI with Salesforce Implementation and Integration",
+                "list": [
+                    {
+                        "title": "Measure ROI Beyond Cost Savings",
+                        "descArr": [
+                            {
+                                "desc": "When enterprises think about ROI, they often focus on cost reduction. But Salesforce ROI extends much further:",
+                                "steps": [
+                                    "Increased sales pipeline visibility.",
+                                    "Faster deal closures.",
+                                    "Improved service resolution times.",
+                                    "Enhanced customer satisfaction."
+                                ],
+                                "desc2": "Top partners help define metrics before the project begins, so ROI is measurable across revenue growth and experience improvements—not just expenses"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Ongoing Optimization and Managed Services",
+                        "descArr": [
+                            {
+                                "desc": "Implementation is just the start. Salesforce is constantly evolving, with new features and innovations released multiple times per year. Without ongoing optimization, enterprises risk falling behind.",
+                                "desc2": "This is where managed services from partners come in. They ensure Salesforce evolves with the business, continuously fine-tuning workflows, automations, and integrations."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "From Implementation to Innovation",
+                        "descArr": [
+                            {
+                                "desc": "The best partners don’t stop at implementation. They introduce enterprises to new Salesforce capabilities like AI-driven insights, Agentforce automation, and Data Cloud-powered personalization. This shift from system-of-record to system-of-intelligence multiplies ROI over time."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "trustedData": [
+            {
+                "title": "Rialtes – Your Trusted Salesforce Implementation Partner",
+                "desc": "When it comes to Salesforce partners, not every firm can deliver enterprise-grade success. Rialtes stands apart as a Salesforce Crest Partner, recognized for its expertise, certifications, and <a href='https://www.rialtes.com/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>tailored Salesforce development for integration</a>.",
+                "desc2": "Here’s what Rialtes brings to the table:",
+                "list": [
+                    {
+                        "title": "Structured Roadmaps",
+                        "desc": "Guiding enterprises from discovery to post-launch optimization."
+                    },
+                    {
+                        "title": "Risk Reduction",
+                        "desc": "Using accelerators, governance models, and compliance-first design."
+                    },
+                    {
+                        "title": "Integration Expertise",
+                        "desc": "Connecting Salesforce with ERP, HR, supply chain, and marketing systems for true enterprise alignment."
+                    },
+                    {
+                        "title": "Industry Experience",
+                        "desc": "Deep knowledge in life sciences, healthcare, manufacturing, and automotive ensures solutions are tailored, not generic."
+                    },
+                    {
+                        "title": "Innovation at Scale",
+                        "desc": "Rialtes helps clients adopt AI, automation, and Data Cloud to transform Salesforce into a true growth engine."
+                    }
+                ],
+                "desc3": "Enterprises trust Rialtes because it doesn’t just deliver Salesforce, it delivers results."
+            }
+        ],
+        "buildData": [
+            "A Salesforce implementation can either be a catalyst for growth or a costly misstep. The difference lies in execution. With the right partners and Salesforce integration partners, enterprises can reduce risk, accelerate adoption, and maximize ROI.",
+            "If you’re asking <i>“How to ensure a successful Salesforce implementation?”</i> or <i>“What are the best practices for Salesforce integration?”</i> the answer is simple: partner with experts who combine strategy, industry knowledge, and technical excellence.",
+            "That’s exactly what Rialtes offers. As a Salesforce Crest Partner, Rialtes has helped enterprises across industries implement and integrate Salesforce seamlessly—delivering measurable ROI while setting the stage for future innovation. <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Partner with Rialtes</a> and turn Salesforce into the backbone of your enterprise success."
+        ],
+        "faqs": [
+            {
+                "question": "How to ensure a successful Salesforce implementation?",
+                "answer": "Start with a clear roadmap, engage stakeholders early, and work with certified Salesforce implementation partners who can align the system with your business goals."
+            },
+            {
+                "question": "What are the best practices for Salesforce integration?",
+                "answer": "Best practices include mapping an integration roadmap, prioritizing critical systems, and leveraging Salesforce integration partners with proven expertise. Scalability and compliance should always be built in."
+            },
+            {
+                "question": "Why do enterprises need Salesforce integration partners?",
+                "answer": "Integration partners bring frameworks, accelerators, and industry expertise that reduce risk and speed time-to-value. They ensure Salesforce isn’t just installed but optimized for measurable business outcomes."
+            },
+            {
+                "question": "How can Salesforce integration partners reduce project risk?",
+                "answer": "They prevent common issues like data duplication, scope creep, or compliance failures. Certified integration partners design secure, scalable connections that future-proof your Salesforce ecosystem."
+            },
+            {
+                "question": "Why choose Rialtes as a Salesforce implementation partner?",
+                "answer": "Rialtes is a Salesforce Crest Partner with a proven track record in seamless implementations, complex integrations, and ongoing innovation. With Rialtes, enterprises reduce project risks and maximize Salesforce ROI."
+            }
+        ],
+        "seoTitle": "Salesforce Partners Driving AI-Powered Enterprise Growth",
+        "seoDescription": "Best Salesforce implementation partners don’t stop at rollout, they guide enterprises with AI-driven insights, Agentforce automation, and Data Cloud solutions.",
+        "blogTopic": "Salesforce",
+        "blogTitle": "Seamless Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI",
+        "howSalesforceTitle": "How Salesforce Partners Reduce Project Risk",
+        "howSalesforceDesc": "Implementing Salesforce at an enterprise scale is not without challenges. Common risks include:",
+        "howSalesforceDesc2": "Salesforce partners reduce these risks through proven strategies:",
+        "howSalesforceDesc3": "Ultimately, reducing risk isn’t just about avoiding failure. It’s about ensuring the project delivers measurable business value. Risk management is directly tied to ROI.",
+        "buildTitle": "Build Salesforce the Right Way, Maximize ROI with the Right Partner",
+        "faqTitle": "FAQs: Salesforce Implementation and Integration"
     }
 }
