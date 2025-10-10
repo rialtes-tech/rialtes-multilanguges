@@ -107,8 +107,8 @@ export default function Page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title=" How AI in Real Estate Powers Predictive Maintenance | Rialtes"
-                description="AI-driven predictive maintenance is a game-changer, cutting downtime by as much as 30% and reducing Opex through proactive interventions. Discover how today."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical={
                     "https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/"
                 }

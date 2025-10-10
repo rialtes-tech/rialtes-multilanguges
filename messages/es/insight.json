@@ -183,12 +183,22 @@
     ],
     "latestBlogs": [
       {
+        "id": 45,
+        "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
+        "category": "Salesforce",
+        "industry": "Genérico",
+        "date": "14 oct. 2025",
+        "url": "/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi",
+        "title": "Implementación Perfecta de Salesforce: Estrategias de Socios que Reducen el Riesgo y Maximizan el ROI",
+        "description": "Salesforce es la principal plataforma CRM del mundo, que impulsa a las empresas de todos los sectores a gestionar mejor a sus clientes, datos y procesos."
+      },
+      {
         "id": 44,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
         "category": "IA",
         "industry": "Genérico",
         "date": "13 Oct. 2025",
-        "url": "/es/ia-en-operaciones-inmobiliarias-reduce-opex-con-mantenimiento-predictivo",
+        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance",
         "title": "IA en operaciones inmobiliarias: reduce el tiempo de inactividad un 30 % y los gastos operativos con mantenimiento predictivo",
         "description": "La verdad sobre las operaciones inmobiliarias es que siempre han sido un equilibrio entre costo, confort y continuidad."
       },
