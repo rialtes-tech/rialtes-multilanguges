@@ -81,7 +81,7 @@ const Home = () => {
         <div>
             <Head>
                 <link rel="icon" href="/images/homepage/Rialtes symbol 1.jpg" />
-            </Head> 
+            </Head>
 
             <Seo
                 title={t('seoTitle')}
