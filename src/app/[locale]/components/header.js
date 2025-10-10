@@ -6,7 +6,7 @@ import { useRef, useState } from "react";
 import LanguageSwitcher from "./LanguageSwitcherDropdown";
 
 import arrowImg from "../../../../public/images/flags/arrow.png"
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 const MenuItem = ({ label, link, onHover, className, onClick, isActive }) => {
   return (
@@ -34,6 +34,7 @@ const Header = () => {
   const [activeLink, setActiveLink] = useState(true); // Track active link
   const [activeSubLink, setActiveSubLink] = useState(null);
   const t = useTranslations("header")
+  const locale = useLocale();
   const handleSubMenuClick = (section) => {
     setOpenSection(section);
   };
@@ -135,8 +136,8 @@ const Header = () => {
       label: t('productsTitle'),
       links: [
         { label: t('agentchatLabel'), href: '/products/agentchat' },
-         { label: 'MediAIna', href: '/products/mediaina-reimagining-patient-journeys/' },
-          { label: ' Exelona', href: '/products/exelona-salesforce-for-real-estate-management' },
+        { label: 'MediAIna', href: '/products/mediaina-reimagining-patient-journeys/' },
+        { label: ' Exelona', href: '/products/exelona-salesforce-for-real-estate-management' },
       ],
     },
     {
@@ -343,7 +344,7 @@ const Header = () => {
           <div className="col-span-3 md:col-span-2 lg:col-span-2 xl:col-span-2">
             <Link rel='preload' href="/" aria-label="Homepage"  >
               <Image
-                className="cursor-pointer w-[120px] md:w-[130px] lg:w-[165px] h-auto"
+                className="cursor-pointer w-[120px] md:w-[130px] lg:w-[100px] xl:w-[165px] h-auto"
                 alt="Company logo"
                 width={165}
                 height={50}
@@ -354,13 +355,22 @@ const Header = () => {
               />
             </Link>
           </div>
-          <div className="col-span-9 md:col-span-10 lg:col-span-10 xl:col-span-10 overflow-x-auto whitespace-nowrap flex items-center justify-end gap-2 md:gap-3 lg:gap-5 xl:gap-6 2xl:gap-5">
+          <div className={`col-span-9 md:col-span-10 lg:col-span-10 xl:col-span-10  whitespace-nowrap flex items-center  gap-2 md:gap-3  xl:gap-6 2xl:gap-5
+            ${locale === "es"
+              ? "justify-end lg:gap-3"
+              : locale === "fr"
+                ? "justify-end lg:gap-3"
+                : "justify-end lg:gap-6 overflow-x-auto"
+            }`}
+
+
+          >
             <MenuItem
               label={t('solutionTitle')}
               link="/"
               onHover={() => handleMouseEnterCard(1)}
               onClick={() => handleMenuClick(1)}
-              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
               isActive={activeCard === 1}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
             />
@@ -370,7 +380,7 @@ const Header = () => {
               onHover={() => handleMouseEnterCard(2)}
               onClick={() => handleMenuClick(2)}
               isActive={activeCard === 2}
-              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
 
             />
@@ -380,7 +390,7 @@ const Header = () => {
               onHover={() => handleMouseEnterCard(3)}
               onClick={() => handleMenuClick(3)}
               isActive={activeCard === 3}
-              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
 
             />
@@ -390,7 +400,7 @@ const Header = () => {
               onHover={() => handleMouseEnterCard(4)}
               onClick={() => handleMenuClick(4)}
               isActive={activeCard === 4}
-              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
 
             />
@@ -399,7 +409,7 @@ const Header = () => {
               link="/about-us"
               onHover={() => handleMouseEnterCard(5)}
               onClick={() => handleMenuClick(5)}
-              className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
               isActive={activeCard === 5}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
             />
@@ -408,14 +418,14 @@ const Header = () => {
               link="/insights"
               onHover={() => handleMouseEnterCard(6)}
               onClick={() => handleMenuClick(6)}
-              className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
               isActive={activeCard === 6}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
             />
             <MenuItem
               label={t('contactTitle')}
               link="/contact-us"
-              className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
               isActive={activeCard === 7}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
             />
@@ -634,7 +644,7 @@ const Header = () => {
                         <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('agentDesc2')}</p>
                         <Link href='/products/agentchat' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/agentchat")}>{t('letsBeginBtn')}</Link>
                       </div>
-                    </div> 
+                    </div>
                   </div>
                 )}
 
