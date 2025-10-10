@@ -401,7 +401,7 @@ export default function page() {
               priority
             />
           </div>
-          <div className="col-span-8 bg-[#646464] text-white 4xl:ml-[-25rem] xl:ml-[-20rem] 4xl:pr-80  pb-20 xl:pb-0 px-[35px] 4xl:pl-[30rem] xl:pl-[24rem] xl:pr-[10rem] xl:mt-0 mt-[-300px] xl:h-[630px] 2xl:h-[680px] 4xl:h-[865px]">
+          <div className="col-span-8 bg-[#646464] text-white 4xl:ml-[-25rem] 2xl:ml-[-15rem] xl:ml-[-20rem] 4xl:pr-80  pb-20 xl:pb-0 px-[35px] 4xl:pl-[30rem] xl:pl-[24rem] xl:pr-[10rem] xl:mt-0 mt-[-300px] xl:h-[630px] 2xl:h-[680px] 4xl:h-[865px]">
             <h2 className=" xl:mt-10 mt-80 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('realChatTitle')}</h2>
             <h3 className="4xl:text-[42px] text-[22px] mt-4 font-semibold leading-tight">
               {t('realChatSubTitle')}

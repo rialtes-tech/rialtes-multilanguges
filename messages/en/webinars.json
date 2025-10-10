@@ -33,6 +33,8 @@
         "captchaError2": "Wrong captcha answer. Please try again."
     },
     "CIGWebinar": {
+        "seoTitle":"SAP Ariba CIG Integration Webinar: S/4HANA Cloud Sync | Rialtes",
+        "seoDescription":"Discover how SAP Ariba CIG integration helps ERP and S/4HANA users streamline procurement with cloud-based automation and insights.",
         "webinarTitle": "CIG, Your Gateway to SAP Ariba",
         "webinarInfo": "Join us for an exclusive webinar to explore how the Ariba Cloud Integration Gateway (CIG) seamlessly connects your SAP ERP (S/4HANA) with the Ariba Network. Discover how CIG centralizes and streamlines procurement transactions, simplifies integration management, and accelerates your journey to smarter, synchronized procurement operations.",
         "webinarAdvantagesData": [
@@ -67,6 +69,8 @@
         ]
     },
     "successFactorWebinar": {
+        "seoTitle":"SAP SuccessFactors Onboarding 2.0 Webinar: Boost HR ROI | Rialtes",
+        "seoDescription":"Join our SAP SuccessFactors Onboarding 2.0 webinar—see how it compares to 1.0, integrates with Employee Central, and powers automated HR workflows.",
         "webinarAdvantagesData": [
             {
                 "title": "Introduction to SAP SuccessFactors Onboarding 2.0:",
@@ -104,6 +108,8 @@
         "webinarInfo": "Unveil the more efficient way of Employee Onboarding.Join us for an insightful webinar that illustrates the latest enhancements in SAP SuccessFactors Onboarding 2.0, aimed at improving the new hire experience from pre - boarding to day one and so on, and highlights how it transforms and streamlines the onboarding journey compared to its predecessor, SAP Onboarding 1.0."
     },
     "voyageWebinar": {
+        "seoTitle":"SAP RISE Webinar: Simplify Your SAP Journey with Voyager+ by Rialtes",
+        "seoDescription":"Join our SAP RISE webinar to explore VoyagerPlus, a powerful framework to simplify your SAP journey, accelerate cloud adoption, and drive transformation.",
         "webinarAdvantagesData": [
             {
                 "title": "Simplify SAP Transformation:",
@@ -138,6 +144,8 @@
         "webinarInfo": "Don’t miss this opportunity to join us for an exclusive webinar to explore how Salesforce Automotive Cloud is revolutionizing customer engagement in the auto industry. Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform."
     },
     "discoverAgenticWebinar": {
+        "seoTitle":"AI Webinar: Exploring Agentic Capabilities with Agentforce | Rialtes",
+        "seoDescription":"Join our AI webinar to discover how Agentforce’s agentic AI transforms enterprise workflows with autonomous agents, context, and smart integration.",
         "webinarAdvantagesData": [
             {
                 "title": "What is Agentforce?",
@@ -172,6 +180,8 @@
         "webinarInfo": "Don’t miss this opportunity to join us for an exclusive webinar to explore how Salesforce Automotive Cloud is revolutionizing customer engagement in the auto industry.Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform."
     },
     "databricksWebinar": {
+        "seoTitle":"How SAP Business Data Cloud, Databricks & SAP Datasphere Unify Data",
+        "seoDescription":"Join our expert-led webinar on May 13 to learn how SAP Business Data Cloud, Databricks, and SAP Datasphere together simplify data unification, power AI, and drive business innovation.",
         "webinarInfo": "Don’t miss this opportunity to join us for an exclusive webinar to explore how Salesforce Automotive Cloud is revolutionizing customer engagement in the auto industry. Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform.",
         "webinarTitle": "Databricks and Datasphere — What’s in SAP Business Data Cloud ?",
         "webinarAdvantagesData": [
@@ -206,6 +216,8 @@
         ]
     },
     "deliverEndToEndWebinar": {
+        "seoTitle":"Salesforce Automotive Cloud Webinar: Transforming Customer Engagement",
+        "seoDescription":"Join our webinar to explore how Salesforce Automotive Cloud enhances customer journeys with unified data, AI-driven insights, and seamless automation.",
         "webinarAdvantagesData": [
             {
                 "title": "Comprehensive Overview:",
@@ -240,6 +252,8 @@
         "webinarInfo": "Don’t miss this opportunity to join us for an exclusive webinar to explore how Salesforce Automotive Cloud is revolutionizing customer engagement in the auto industry. Discover how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform."
     },
     "letsWhatsappWebinar": {
+        "seoTitle":"Salesforce WhatsApp Integration via AgentChat | Rialtes Webinar",
+        "seoDescription":"See how to integrate WhatsApp with Salesforce using AgentChat and empower CX teams with secure, real-time engagement across all touchpoints.",
         "webinarTitle": "Let’s WhatsApp in Salesforce with AgentChat",
         "webinarInfo": "Don’t miss this exclusive webinar to discover how AgentChat, our native, bidirectional Salesforce WhatsApp integration, transforms the way your teams communicate, directly within Salesforce. Whether you're in Sales, Service, Marketing, or Field Operations, AgentChat brings seamless, real-time WhatsApp conversations to your CRM environment.",
         "webinarAdvantagesData": [

@@ -9,7 +9,9 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
 import useUrl from "@/app/[locale]/components/useUrl";
-import RelatedCaseStudies from '../../../components/RelatedCaseStudies';
+import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -67,152 +69,91 @@ export default function page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]  overflow-hidden">
-        <div className="hidden lg:block">
+      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[380px] overflow-hidden">
+        <div className="xl:block hidden">
           <Image
             src="/images/case-studies/Transforming-student-success.webp"
-            alt=""
+            alt="banner image"
             fill
-            style={{ objectFit: "cover", objectPosition: "50% 20%" }}
             priority
           />
         </div>
-        <div className="block lg:hidden">
+        <div className="xl:hidden block h-full">
           <Image
             src="/images/case-studies/Feature Thumb.webp"
-            alt=""
-            fill
-            style={{ objectFit: "cover", objectPosition: "50% 20%" }}
+            alt="banner image"
             priority
+            height={0}
+            width={0}
+            className="w-full h-full object-cover"
           />
         </div>
       </section>
 
-      <section className="custom-container">
-        <div className="py-10 bg-white  4xl:w-[1130px] 2xl:w-[900px] xl:w-[800px]">
-          <div className=""></div>
-          <div>
-            <div className="flex flex-col md:flex-row gap-4 justify-between items-center text-black  ">
-              <div className="">
-                <span className="text-[#0092E0] 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
-                  {t("educationcloud")}
-                </span>{" "}
-                <span className="text-[#ACACAC]"> | </span>
-                {t("date")}
-              </div>
-              <div className="flex flex-row gap-6  ml-[-8px]">
-                <div className="max-w-[40px]">
-                  <a
-                    href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                      fullUrl
-                    )}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Image
-                      src="/images/case-studies/linkedin.svg"
-                      alt="LinkedIn"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                      priority
-                    />
-                  </a>
-                </div>
-                <div className="max-w-[40px]">
-                  <a
-                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                      fullUrl
-                    )}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <Image
-                      src="/images/case-studies/twitter.svg"
-                      alt="Twitter"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                      priority
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="pt-4"></div>
-            <div>
-              <h1 className="text-[#000000] py-4  leading-tight  text-[26px] 4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px] md:text-[28px] ">
-                {t("eduTitle")}
-              </h1>
-            </div>
-          </div>
+      <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+        <div className="grid lg:grid-cols-12">
+          <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
+             {/* date and icons */}
+                <BlogSocialIcons fullUrl={fullUrl} topic={t('educationcloud')} date="21 August 2025" />
+             {/* main blog */}
+            <div className="xl:mt-[60px] mt-[42px]">
 
-          <div className="py-6"></div>
-          <div>
-            <div>
-              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
                 {t("clientTitle")}
-              </h2>
-              <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              </h1>
+                            {/* client section */}
+              <div className="md:mt-[50px] mt-[40px]">
+
+              <p className="mt-[16px] xl:mt-[22px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("cliendDesc")}
               </p>
-              <div className="py-6"></div>
+           </div>
+              <div className="md:mt-[50px] mt-[40px]">
 
-              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
+              <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                 {t("challengesTitle")}
               </h2>
 
-              <h3 className="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-bold leading-tight text-black pb-4">
+              <h3 className="4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight font-bold  mt-5 ">
                 {t("challengesDesc")}
               </h3>
-              <p className="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] pb-4">
+              <p className="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] mt-5 ">
                 {t("challengesOne")}
               </p>
 
               <UnorderedList
-                ulClassName="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] marker:text-black list-disc text-black font-medium pb-4 pl-[32px]"
+                ulClassName="4xl:text-[20px]    xl:text-[17px] text-[16px] marker:text-black list-disc text-black font-medium mt-5  pl-[32px]"
                 liClassName="pb-4 text-black last:pb-0"
                 arrName={studentChallenges}
               />
-              <p className="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
+              <p className="4xl:text-[20px] xl:text-[17px] text-[16px] mt-5 ">
                 {t("challengesTwo")}
               </p>
+           </div>
+              <div className="md:mt-[50px] mt-[40px]">
 
-              <div className="py-6"></div>
-              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
+              <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight mt-5 ">
                 {t("solutionTitle")}
               </h2>
 
-              <h3 className="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-bold leading-tight text-black pb-4">
+              <h3 className="4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight font-bold mt-5 ">
                 {t("solutionDesc")}
               </h3>
 
-              <p className="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] pb-6">
+              <p className="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] mt-5">
                 {t("solutionOne")}
               </p>
 
-              <h3 className="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-bold leading-tight text-black pb-4">
+              <h3 className="4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight font-bold text-black xl:py-12 py-8">
                 {t("highlights")}:
               </h3>
               <UnorderedList
-                ulClassName="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] marker:text-black list-disc text-black font-medium pb-4 xl:pr-[10rem] pl-[32px]"
+                ulClassName="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] marker:text-black list-disc text-black font-medium mt-4 xl:pr-[10rem] pl-[32px]"
                 liClassName="pb-4 text-black last:pb-0"
                 arrName={eduSolutions}
               />
 
-              <div className="py-6"></div>
-              <h3 className="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-bold leading-tight text-black pb-4">
+              <h3 className="4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] font-bold leading-tight text-black xl:py-12 py-8">
                 {t("keyTitle")}
               </h3>
 
@@ -229,10 +170,10 @@ export default function page() {
                       />
                     </div>
                     <div className="4xl:pr-20 2xl:pr-10 xl:pr-4 pt-2">
-                      <h3 className="font-bold text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] mb-2">
+                      <h3 className="font-bold text-black 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight mt-5">
                         {feature.title}
                       </h3>
-                      <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">
+                      <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] mt-4">
                         {feature.description}
                       </p>
                     </div>
@@ -240,17 +181,13 @@ export default function page() {
                 ))}
               </div>
 
-              <div className="xl:py-12 py-8"></div>
-              <h3 className="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-bold leading-tight text-black pb-4">
+              <h3 className="4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] font-bold leading-tight text-black xl:py-12 py-8">
                 {t("impactTitle")}
               </h3>
 
               <p className="4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] ">
                 {t("impactDesc")}
               </p>
-            </div>
-          </div>
-        </div>
         <section className="w-full flex justify-center  ">
           <div className="w-full max-w-[1500px] flex flex-col lg:flex-row">
             <div className="4xl:w-[60%] 2xl:w-[58%] xl:w-[57%] pr-4 lg:pr-6 pb-10 lg:pb-0">
@@ -273,7 +210,7 @@ export default function page() {
             </div>
 
             <div className="4xl:w-[35%] 2xl:w-[33%] xl:w-[32%] lg:pl-6 lg:border-l border-gray-500">
-              <h3 className="text-black font-bold 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] pb-6">
+              <h3 className="text-black font-bold 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight pb-6">
                 {t("benefits")}
               </h3>
               <UnorderedList
@@ -284,7 +221,7 @@ export default function page() {
             </div>
           </div>
         </section>
-        <div className="xl:py-10 py-6"></div>
+       </div>
         <div className=" 4xl:w-[1130px] 2xl:w-[900px] xl:w-[800px]">
           <h2 className="font-medium text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight pb-4">
             {t("about")}
@@ -298,7 +235,7 @@ export default function page() {
             arrName={aboutList}
           />
         </div>
-        <div className="py-6"></div>
+       </div>  </div> </div>
       </section>
       {/* case study carousel */}
       {/* <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">

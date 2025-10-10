@@ -52,8 +52,8 @@ export default function () {
             <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes"
                 seoData={
                     < Seo
-                        title="SAP RISE Webinar: Simplify Your SAP Journey with Voyager+ by Rialtes"
-                        description="Join our SAP RISE webinar to explore VoyagerPlus, a powerful framework to simplify your SAP journey, accelerate cloud adoption, and drive transformation"
+                    title={t('seoTitle')}
+                    description={t('seoDescription')}
                         canonical="https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
                     />
 

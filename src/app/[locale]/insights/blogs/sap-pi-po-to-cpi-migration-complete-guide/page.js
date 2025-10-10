@@ -149,7 +149,7 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden xl:block">
           <Image
-            src="/images/blog/sap-consulting-banner.webp"
+            src="/images/blog/sap-pi-po-cpi-migration-banner.webp"
             alt="Discover AgentExchange"
             fill
             priority
