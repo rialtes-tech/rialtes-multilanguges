@@ -127,10 +127,10 @@ export default function Page() {
                 "Not all partners are created equal. The right partner won’t just configure Salesforce; they’ll future-proof your enterprise. Here are key qualities to look for:",
             ],
             "list": [
-                "<h3 class='text-[20px]'>Proven track record in Salesforce CRM optimization</h3>",
-                "<h3 class='text-[20px]'>Experience with Salesforce integrations, app development, and automation</h3>",
-                "<h3 class='text-[20px]'>Ability to deliver scalable, AI-ready solutions</h3>",
-                "<h3 class='text-[20px]'>Commitment to training and change management for smooth adoption</h3>"
+                "<h3 class='4xl:text-[20px] 2xl:text-[17px]] xl:text-[17px]'>Proven track record in Salesforce CRM optimization</h3>",
+                "<h3 class='4xl:text-[20px] 2xl:text-[17px]] xl:text-[17px]'>Experience with Salesforce integrations, app development, and automation</h3>",
+                "<h3 class='4xl:text-[20px] 2xl:text-[17px]] xl:text-[17px]'>Ability to deliver scalable, AI-ready solutions</h3>",
+                "<h3 class='4xl:text-[20px] 2xl:text-[17px]] xl:text-[17px]'>Commitment to training and change management for smooth adoption</h3>"
             ],
         }
     ]
@@ -189,9 +189,9 @@ export default function Page() {
             "thisisWhere": "This is where tailored Salesforce development services unlock true CRM efficiency.",
 
             "list2": [
-                "<strong><h4 class='inline text-[20px]'>Automating manual workflow</h4></strong>: Instead of sales reps manually updating deal stages, automation moves opportunities through the pipeline.",
-                "<strong> <h4 class='inline text-[20px]'>User-friendly dashboards</h4></strong> : Leaders no longer wade through irrelevant data—they see exactly what matters",
-                "<strong> <h4 class='inline text-[20px]'>Seamless integrations</h4></strong/>: Finance, marketing, and ERP systems share data automatically, eliminating double entry",
+                "<strong><h4 class='inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'>Automating manual workflow</h4></strong>: Instead of sales reps manually updating deal stages, automation moves opportunities through the pipeline.",
+                "<strong> <h4 class='inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'>User-friendly dashboards</h4></strong> : Leaders no longer wade through irrelevant data—they see exactly what matters",
+                "<strong> <h4 class='inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'>Seamless integrations</h4></strong/>: Finance, marketing, and ERP systems share data automatically, eliminating double entry",
             ]
         }
     ]
@@ -275,9 +275,9 @@ export default function Page() {
             "title": "Choosing the Right Salesforce Development Partner",
             "desc": "While Salesforce partners are global, <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>working with a leading Salesforce partner</a> comes with unique advantages:",
             "list2": [
-                "<strong><h3 class='text-[20px] font-bold inline-block'>Proximity to enterprise markets</h3></strong>: Teams understand local industry regulations and customer expectations",
-                "<strong><h3 class='text-[20px] font-bold inline-block'>Compliance and security</h3></strong>: US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards",
-                "<strong><h3 class='text-[20px] font-bold inline-block'>Certified expertise</h3></strong/>: A deeper talent pool of Salesforce-certified developers and consultants",
+                "<strong><h3 class='4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] font-bold inline-block'>Proximity to enterprise markets</h3></strong>: <span class='4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]'> Teams understand local industry regulations and customer expectations</span>",
+                "<strong><h3 class='4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] font-bold inline-block'>Compliance and security</h3></strong>: <span class='4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]'> US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards</span>",
+                "<strong><h3 class='4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] font-bold inline-block'>Certified expertise</h3></strong/>:  <span class='4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]'>A deeper talent pool of Salesforce-certified developers and consultants </span/>",
             ]
         }
     ]
@@ -323,7 +323,7 @@ export default function Page() {
 
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12 grid-cols-12">
-                    <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 col-span-12">
+                    <div className="4xl:col-span-11 xl:col-span-11 lg:col-span-11 col-span-12">
 
                         {/* date and icons */}
                         <div className="sm:flex justify-between">
@@ -438,23 +438,23 @@ export default function Page() {
                                                 <div
                                                     className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[46px] px-[26px] 
                                                            md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative 
-                                                           md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto 4xl:w-[86%]"
+                                                           md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto 4xl:w-full"
                                                     key={ind}>
                                                     <h3
                                                         className="md:absolute md:flex items-center justify-center
                                                                 max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
                                                                 md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
                                                                 bg-[#006FBE] text-white font-semibold
-                                                                4xl:text-[21px] 2xl:text-[20px] xl:text-[18px] md:text-[20px] text-[20px]
+                                                                4xl:text-[23px] 2xl:text-[20px] xl:text-[18px] md:text-[20px] text-[20px]
                                                                 px-[30px] py-[22px] leading-tight
-                                                                4xl:w-[415px] 2xl:w-[390px] xl:w-[380px] md:w-[240px] w-fit 4xl:h-[100px]">
+                                                                4xl:w-[440px] 2xl:w-[390px] xl:w-[355px] md:w-[240px] w-fit 4xl:h-[80px]">
                                                         {data.title}
                                                     </h3>
 
-                                                    <div
-                                                        className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
+                                                    <p
+                                                        className="4xl:text-[22px] 2xl:text-[18px] xl:text-[16px] md:text-[16px] text-[16px]
                                                                 font-medium my-auto max-md:mt-8
-                                                                md:ml-[220px] xl:ml-[335px] 4xl:ml-[360px]"
+                                                                md:ml-[220px] xl:ml-[281px] 4xl:ml-[385px] 2xl:ml-[325px]"
                                                         dangerouslySetInnerHTML={{ __html: data.desc }}
                                                     />
 
@@ -522,14 +522,6 @@ export default function Page() {
                                 }
                             </div>
 
-
-
-
-
-
-
-
-
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Strategies for Successful Salesforce Development & Deployment</h2>
                                 <p className="mt-[22px] xl:mt-[10px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Maximizing ROI from Salesforce requires a well-planned strategy. Here are proven approaches:</p>
@@ -539,8 +531,8 @@ export default function Page() {
                                         strategiesList.map((data, ind) => {
                                             return (
                                                 <div key={ind} className={`mt-[48px] ${(ind == 1 || ind == 2) ? "lg:px-[32px] border-[#707070] lg:border-l max-md:border-b max-md:pb-5" : ""} ${ind == 3 ? "lg:pl-[32px] border-[#707070] lg:border-l" : ""} ${ind == 0 ? "lg:pr-[40px] md:border-b lg:border-0 border-[#707070] max-md:border-b max-md:pb-5" : ""} ${(ind == 1) ? "pb-4 md:border-b lg:border-0" : ""}`}>
-                                                    <h4 className="4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[18px] text-[18px] font-bold">{data.title}</h4>
-                                                    <p className="md:mt-5 mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
+                                                    <h3 className="4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[18px] text-[18px] font-bold">{data.title}</h3>
+                                                    <p className="md:mt-5 mt-2 4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[16px] text-[16px]">{data.desc}</p>
                                                 </div>
                                             )
                                         })
