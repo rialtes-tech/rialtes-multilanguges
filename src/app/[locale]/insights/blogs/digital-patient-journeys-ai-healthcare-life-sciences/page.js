@@ -168,7 +168,7 @@ export default function Page() {
                                 }
                             </div>
 
-                            {/* why are digital journey section */}
+                            {/* what are digital journey section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('whatDigitalTitle')}</h2>
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('whatDigitalDesc')} </p>
