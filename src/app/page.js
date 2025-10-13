@@ -151,9 +151,9 @@ const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const slides = useMemo(() => [
-        { link: "/services/lob/salesforce-automotive-cloud-business-solutions-autosense/", title: "Autosense", image: '/images/homepage/autosense2.webp', imageMobile: '/images/homepage/autosense-mobile2.webp' },
-        { link: "/solutions/artificial-intelligence/salesforce-agentforce-consulting/", image: '/images/homepage/agenforce-desktop-2.webp', title: "Agentforce", imageMobile: '/images/homepage/agentforce-mobile.webp' },
-        { link: "/services/hxm-transformation/successplus-successfactors-implementation-partner/", image: '/images/homepage/success2.webp', title: "Success+", imageMobile: '/images/homepage/success-mobile2.webp' },
+        { link: "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/", title: "Life Science", image: '/images/homepage/life-science-banner-new.webp', imageMobile: '/images/homepage/life-sciece-mobile-banner.webp' },
+        { link: "/industry/manufacturing-cloud-erp/", image: '/images/homepage/manufacturing-banner-new.webp', title: "Manufacturing", imageMobile: '/images/homepage/manufacturing-mobile-banner.webp' },
+        { link: "/products/mediaina-reimagining-patient-journeys/", image: '/images/homepage/mediayana-banner-new.webp', title: "MediAIna", imageMobile: '/images/homepage/mediayan-mobile-banner.webp' },
 
     ], [])
     const handlePrevInsights = () => {
