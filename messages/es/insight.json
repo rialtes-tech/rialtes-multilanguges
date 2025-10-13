@@ -190,6 +190,16 @@
     ],
     "latestBlogs": [
       {
+        "id": 44,
+        "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
+        "category": "Salesforce",
+        "industry": "SAP",
+        "date": "Oct. 06, 2025",
+        "url": "/salesforce-development-services-to-boost-crm-efficiency",
+        "title": "Mejora la eficiencia de tu CRM con servicios de desarrollo de Salesforce personalizados",
+        "description": "La gestión de relaciones con los clientes (CRM) es el corazón de las empresas modernas. Impulsa cómo los equipos de ventas cierran acuerdos, cómo los equipos de servicio responden a los clientes y cómo el marketing ofrece campañas personalizadas."
+      },
+      {
         "id": 43,
         "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
         "category": "MediAIna",
