@@ -3046,6 +3046,7 @@
         ]
     },
     "aiPowerBlog": {
+         "susContain":"/images/blog/sus-contain-diagram-spanish.webp",
         "seoTitle": "Cómo la IA Crea un Futuro Sostenible para el Planeta",
         "seoDescription": "La IA ayuda a proteger el planeta, escalando la sostenibilidad: desde seguimiento de deforestación hasta predicción de energía y biodiversidad.",
         "artificial": "Inteligencia Artificial",

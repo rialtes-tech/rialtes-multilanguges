@@ -3042,6 +3042,7 @@
         ]
     },
     "aiPowerBlog": {
+        "susContain":"/images/blog/sus-contain-diagram-french.webp",
         "seoTitle": "Comment l’IA construit un avenir durable pour la planète | Rialtes",
         "seoDescription": "L’IA aide à protéger la planète : suivi de la déforestation, prévision énergétique et préservation de la biodiversité.",
         "artificial": "Intelligence Artificielle",

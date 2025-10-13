@@ -203,7 +203,7 @@ export default function Page() {
       <section className="custom-container md:px-0 mt-[58px] md:mt-[90px] xl:mt-[173px]">
         <div className="md:block hidden">
           <Image
-            src="/images/services/success-plus/key-services-desk.webp"
+            src={t('keyServiceImg')}
             alt="key-services-desktop image"
             className="w-full h-full object-cover"
             priority
@@ -213,7 +213,7 @@ export default function Page() {
         </div>
         <div className="md:hidden block">
           <Image
-            src="/images/services/success-plus/Mobile/key-services-mob.webp"
+            src={t('keyServiceImgMobile')}
             alt="key-services-mobile image"
             className="w-full h-full object-cover"
             priority
