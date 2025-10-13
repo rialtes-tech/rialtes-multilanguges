@@ -7,6 +7,16 @@ import Link from "next/link";
 export default function page({ url }) {
     const latestBlogs = [
         {
+            id: 44,
+            image: "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
+            category: "Salesforce",
+            industry: "Generic",
+            date: "Oct. 10, 2025",
+            url: "insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate",
+            title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
+            description: "Salesforce has become the foundation for modern enterprise CRM solutions, helping organizations unify data, streamline processes, and deliver personalized customer experiences. "
+        },
+        {
             id: 43,
             image: "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
             category: "MediAIna",
