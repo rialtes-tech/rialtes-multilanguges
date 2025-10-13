@@ -135,20 +135,13 @@ export default function Page() {
                 <div className="grid lg:grid-cols-12 grid-cols-12">
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 col-span-12">
 
-                        {/* date and icons */}
-                        <div className="sm:flex justify-between">
-                            <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogTopic')}</span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>30 September 2025
-                            </div>
-
-                            <div>
-                                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                                    <BlogSocialIcons fullUrl={fullUrl} />
-                                </div>
-                            </div>
-                        </div>
-
+                       
+ {/* date and icons */}
+            <BlogSocialIcons
+              fullUrl={fullUrl}
+              topic={t("blogTopic")}
+              date="30 September 2025"
+            />
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
                             <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t('blogTitle')}</h1>
@@ -168,7 +161,7 @@ export default function Page() {
                                 }
                             </div>
 
-                            {/* why are digital journey section */}
+                            {/* what are digital journey section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('whatDigitalTitle')}</h2>
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('whatDigitalDesc')} </p>
@@ -358,7 +351,7 @@ export default function Page() {
                             </>
                             {/* reshaping section */}
                             <div className="md:mt-[50px] mt-[40px]">
-                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Reshaping Healthcare, One Journey at a Time</h2>
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('digiTitle')}</h2>
                                 {
                                     reshapingData.map((data, ind) => {
                                         return (

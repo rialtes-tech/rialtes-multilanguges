@@ -20,7 +20,7 @@
     "caseTitle": "Case Studies",
     "caseDesc": "Find our latest work and collaborations",
     "allCaseStudy": " See All Case Studies",
-    "education": "Education Cloud",
+    "education": "Education",
     "leadingDate": "21 August 2025",
     "leadingTitle": "Transforming Student Success with Salesforce Education Cloud and Edu+",
     "leadingblog": "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions.",
@@ -190,6 +190,26 @@
       }
     ],
     "latestBlogs": [
+       {
+        "id": 44,
+        "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
+        "category": "Salesforce",
+        "industry": "SAP",
+        "date": "Oct. 06, 2025",
+        "url": "/salesforce-development-services-to-boost-crm-efficiency",
+        "title": "Boost Your CRM Efficiency with Tailored Salesforce Development Services",
+        "description": "Customer Relationship Management (CRM) is the beating heart of modern enterprises. It drives how sales teams close deals, how service teams respond to customers, and how marketing delivers personalized campaigns."
+      },
+      {
+        "id": 44,
+        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
+        "category": "AI",
+        "industry": "Generic",
+        "date": "Oct. 13, 2025",
+        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance",
+        "title": "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
+        "description": "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity."
+      },
       {
         "id": 44,
         "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
@@ -219,6 +239,16 @@
         "url": "/digital-patient-journeys-ai-healthcare-life-sciences",
         "title": "The Future of Digital Patient Journeys: How AI is Reshaping Life Sciences",
         "description": "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals. "
+      },
+      {
+        "id": 45,
+        "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
+        "category": "Salesforce",
+        "industry": "Generic",
+        "date": "Sep. 29, 2025",
+        "url": "/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi",
+        "title": "Seamless Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI",
+        "description": "Salesforce is the world’s leading CRM platform, powering enterprises across industries to better manage customers, data, and processes."
       },
       {
         "id": 41,
@@ -813,7 +843,7 @@
         "id": 3,
         "image": "/images/case-studies/case study 3_thumb_n.webp",
         "industry": "Manufacturing",
-        "date": "Dec. 22, 2024",
+        "date": "Jan. 08, 2025",
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
         "title": "DevOps Transformation using Copado and Salesforce",
         "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects."

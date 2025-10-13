@@ -116,7 +116,7 @@ export default function Page() {
                       <div key={ind}>
                         <h3 className="md:mt-[50px] mt-[40px] first:mt-8 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold leading-tight">{elem.title}</h3>
 
-                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-3">{elem.desc}</p>
+                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-3 xl:w-[90%]">{elem.desc}</p>
                         <div>
                           <ul className="list-disc font-medium marker:text-xl 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 pl-[34px] space-y-4">
                             {

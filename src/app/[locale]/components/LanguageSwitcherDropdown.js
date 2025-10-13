@@ -50,7 +50,7 @@ export default function LanguageSwitcher({ arrowImg }) {
     return (
         <div ref={dropdownRef}>
             <div
-                className="md:font-bold font-normal flex gap-2 4xl:text-[17px]  2xl:text-[15px] xl:text-[13px] text-[13px] cursor-pointer mt-1"
+                className="md:font-bold font-normal flex gap-2 4xl:text-[17px] 2xl:text-[15px] xl:text-[13px] text-[13px] cursor-pointer mt-1"
                 onClick={() => setShowFlags((prev) => !prev)}>
                 {(() => {
                     const current = locales.find(l => l.code === currentLocale);
@@ -81,7 +81,7 @@ export default function LanguageSwitcher({ arrowImg }) {
             </div>
 
             {showFlags && (
-                <ul className='absolute lg:top-[103px] top-[80px] bg-white py-4 px-4 space-y-4 border z-30'>
+                <ul className='absolute lg:top-[81px] xl:top-[103px] top-[80px] bg-white py-4 px-4 space-y-4 border z-30'>
                     {locales.map((data) => (
                         <li
                             key={data.code}

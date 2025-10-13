@@ -44,3 +44,6 @@ next-env.d.ts
 
 # Local Netlify folder
 .netlify
+
+# Ignore the predictive maintenance blog
+/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/

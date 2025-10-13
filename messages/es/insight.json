@@ -190,7 +190,7 @@
     ],
     "latestBlogs": [
       {
-        "id": 44,
+        "id": 45,
         "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
         "category": "Salesforce",
         "industry": "Genérico",
@@ -198,6 +198,16 @@
         "url": "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate",
         "title": "Cómo los principales socios de Salesforce ayudan a las empresas a prosperar e innovar",
         "description": "Salesforce se ha convertido en la base de las soluciones CRM empresariales modernas, ayudando a las organizaciones a unificar datos, optimizar procesos y ofrecer experiencias personalizadas a los clientes."
+      },
+      {
+         "id": 44,
+        "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
+        "category": "Salesforce",
+        "industry": "SAP",
+        "date": "Oct. 06, 2025",
+        "url": "/salesforce-development-services-to-boost-crm-efficiency",
+        "title": "Mejora la eficiencia de tu CRM con servicios de desarrollo de Salesforce personalizados",
+        "description": "La gestión de relaciones con los clientes (CRM) es el corazón de las empresas modernas. Impulsa cómo los equipos de ventas cierran acuerdos, cómo los equipos de servicio responden a los clientes y cómo el marketing ofrece campañas personalizadas."
       },
       {
         "id": 43,
@@ -218,6 +228,16 @@
         "url": "/digital-patient-journeys-ai-healthcare-life-sciences",
         "title": "El Futuro de los Recorridos Digitales del Paciente: Cómo la IA Está Transformando las Ciencias de la Vida",
         "description": "La industria de la salud se encuentra en un punto de inflexión. Los pacientes ya no quieren experiencias fragmentadas, esperar semanas para las citas, repetir su historial en cada contacto o lidiar con portales desconectados."
+      },
+      {
+        "id": 45,
+        "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
+        "category": "Salesforce",
+        "industry": "Genérico",
+        "date": "Sep. 29, 2025",
+        "url": "/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi",
+        "title": "Implementación Perfecta de Salesforce: Estrategias de Socios que Reducen el Riesgo y Maximizan el ROI",
+        "description": "Salesforce es la principal plataforma CRM del mundo, que impulsa a las empresas de todos los sectores a gestionar mejor a sus clientes, datos y procesos."
       },
       {
         "id": 41,
@@ -812,7 +832,7 @@
         "id": 3,
         "image": "/images/case-studies/case study 3_thumb_n.webp",
         "industry": "Manufactura",
-        "date": "Jan. 8, 2025",
+        "date": "Jan. 08, 2025",
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
         "title": "Transformación DevOps con Copado y Salesforce",
         "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales."
