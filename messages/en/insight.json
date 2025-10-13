@@ -37,14 +37,14 @@
     "director": "Sr. Managing Director – SAP Services",
     "dataDate": "May 13, 2025",
     "contactUs": "Take the next step to operational excellence with us.",
-    "sapPi":"SAP PI PO to SAP CPI Migration: A Complete Guide",
-    "sapPiDesc":"Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation. For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes. But as organizations shift to cloud-first strategies, the cracks in PI/PO are showing.",
-    "aiTitle":"AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring",
-    "aiDesc":"Early detection of health deterioration is vital for patients with chronic conditions or those recovering from surgery. That is the reason why patients and clinicians now rely on real-time data for faster...",
-   "buildTitle":"Build and Deploy Your First AI Agent Using Agentforce",
-   "buildDesc":"By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions.",
-    "transforming":"Transforming Student Success with Salesforce Education Cloud and Edu+",
-   "caseStudies": [
+    "sapPi": "SAP PI PO to SAP CPI Migration: A Complete Guide",
+    "sapPiDesc": "Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation. For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes. But as organizations shift to cloud-first strategies, the cracks in PI/PO are showing.",
+    "aiTitle": "AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring",
+    "aiDesc": "Early detection of health deterioration is vital for patients with chronic conditions or those recovering from surgery. That is the reason why patients and clinicians now rely on real-time data for faster...",
+    "buildTitle": "Build and Deploy Your First AI Agent Using Agentforce",
+    "buildDesc": "By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions.",
+    "transforming": "Transforming Student Success with Salesforce Education Cloud and Edu+",
+    "caseStudies": [
       {
         "id": "case-study-2",
         "image": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
@@ -190,6 +190,16 @@
       }
     ],
     "latestBlogs": [
+      {
+        "id": 44,
+        "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
+        "category": "Salesforce",
+        "industry": "Generic",
+        "date": "Oct. 10, 2025",
+        "url": "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate",
+        "title": "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
+        "description": "Salesforce has become the foundation for modern enterprise CRM solutions, helping organizations unify data, streamline processes, and deliver personalized customer experiences. "
+      },
       {
         "id": 43,
         "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
@@ -1041,8 +1051,8 @@
     ]
   },
   "newsDataBricks": {
-    "seoTitle":"Rialtes Now a Certified Databricks Partner",
-    "seoDescription":"As a certified Databricks partner, Rialtes empowers businesses with AI-driven data solutions across SAP and Salesforce ecosystems.",
+    "seoTitle": "Rialtes Now a Certified Databricks Partner",
+    "seoDescription": "As a certified Databricks partner, Rialtes empowers businesses with AI-driven data solutions across SAP and Salesforce ecosystems.",
     "title": "Rialtes Levels Up AI Game with Databricks Partnership to Power Unified AI Across SAP and Salesforce",
     "bannerImage": "/images/homepage/banner.webp",
     "paragraphs": [
@@ -1063,8 +1073,8 @@
     ]
   },
   "newsElite": {
-    "seoTitle":"Rialtes Becomes Official Salesforce Reseller Partner",
-    "seoDescription":"Rialtes is now an official Salesforce Reseller Partner, offering complete Salesforce licensing, implementation, and managed services under one roof.",
+    "seoTitle": "Rialtes Becomes Official Salesforce Reseller Partner",
+    "seoDescription": "Rialtes is now an official Salesforce Reseller Partner, offering complete Salesforce licensing, implementation, and managed services under one roof.",
     "title": "Rialtes Achieves Salesforce Reseller Partner Status, Expanding End-to-End Cloud Capabilities",
     "date": "12 May 2025",
     "rialtesOne": "Rialtes proudly announces that we have officially been named a",
@@ -1078,8 +1088,8 @@
     "visitTwo": "or contact "
   },
   "newsSales": {
-    "seoTitle":"Rialtes Opens Sales Office in Baddi, HP",
-    "seoDescription":"Rialtes opens a new office in Baddi, Himachal Pradesh, to enhance client service and deliver Salesforce and SAP solutions for the manufacturing industry.",
+    "seoTitle": "Rialtes Opens Sales Office in Baddi, HP",
+    "seoDescription": "Rialtes opens a new office in Baddi, Himachal Pradesh, to enhance client service and deliver Salesforce and SAP solutions for the manufacturing industry.",
     "rialtesTitle": "Rialtes Opens new Sales Office in Himachal Pradesh, India.",
     "paragraphs": [
       "<span class='font-bold'>Baddi, Himachal Pradesh – April 3, 2025 – </span>Rialtes Technologies, a leading global consulting firm, has announced the grand opening of its new Sales Office in Baddi, Himachal Pradesh, marking a significant step in the company’s expansion strategy. The new office aims to strengthen its presence in the northern part of India, while exploring the immense potential of the region's manufacturing sector.",

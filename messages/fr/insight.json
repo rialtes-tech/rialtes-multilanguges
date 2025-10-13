@@ -190,6 +190,16 @@
     ],
     "latestBlogs": [
       {
+        "id": 44,
+        "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
+        "category": "Salesforce",
+        "industry": "Générique",
+        "date": "Oct. 10, 2025",
+        "url": "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate",
+        "title": "Comment les meilleurs partenaires Salesforce aident les entreprises à prospérer et innover",
+        "description": "Salesforce est devenu la base des solutions CRM modernes pour les entreprises, aidant les organisations à unifier les données, rationaliser les processus et offrir des expériences client personnalisées."
+      },
+      {
         "id": 43,
         "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-ter m-care-mobile.webp",
         "category": "MediAIna",

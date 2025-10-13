@@ -5353,5 +5353,203 @@
         "medianaDesc2": "Esto es lo que diferencia a la plataforma de viaje del paciente MediAIna:",
         "medianaDesc3": "Al conectar proveedores, aseguradoras, MedTech y organizaciones de ciencias de la vida, MediAIna asegura que ninguna parte del viaje del paciente esté fragmentada u omitida.",
         "faqTitle": "FAQs: Transforma la Atención con la Plataforma de Experiencia del Paciente"
+    },
+    "salesforcePartners": {
+        "salesforceTitle": "Cómo los principales socios de Salesforce ayudan a las empresas a prosperar e innovar",
+        "blogTopic": "Education Cloud",
+        "salesforcePartnersHelp": [
+            "Salesforce se ha convertido en la base de las soluciones modernas de CRM para empresas, ayudando a las organizaciones a unificar datos, optimizar procesos y ofrecer experiencias personalizadas a los clientes. Pero aquí está la realidad: comprar licencias de Salesforce por sí solo no garantiza el éxito empresarial. Las empresas necesitan la experiencia adecuada para desbloquear todo el potencial de Salesforce.",
+            "Ahí es donde entran los socios de Salesforce. Estos expertos en consultoría e implementación no solo configuran herramientas de CRM; ayudan a las empresas a reinventar sus operaciones, innovar con inteligencia artificial y escalar con confianza. Para las compañías que se preguntan, “¿Quiénes son los principales socios de Salesforce para empresas?”, la respuesta suele estar en evaluar qué socio puede alinear la tecnología con los objetivos comerciales a largo plazo.",
+            "Analicemos cómo los socios de Salesforce generan impacto, qué distingue a los mejores y por qué elegir un socio de nivel Crest como Rialtes puede redefinir el crecimiento empresarial."
+        ],
+        "salesforceSubTitle": "¿Quiénes son los principales socios de Salesforce para las empresas?",
+        "salesforcePara1": "No todos los socios de Salesforce son iguales. El ecosistema de Salesforce reconoce a los socios según su experiencia, éxito con los clientes e innovación. Por cada $1 que gana Salesforce, su ecosistema de socios gana $6.19, lo que resalta el valor que aportan los socios. Los consultores certificados configuran la plataforma correctamente desde el principio, asegurando que su inversión genere retornos medibles.",
+        "salesforcePara2": "Salesforce tiene un programa de socios por niveles, donde los niveles más altos ofrecen beneficios y reconocimiento significativos:",
+        "partners": [
+            {
+                "title": "Socios Summit (Platino)",
+                "image": "/images/blog/summit partner.webp",
+                "badge": "SOCIO SUMMIT",
+                "description": "El nivel más alto, que indica experiencia de primer nivel y capacidades estratégicas para implementaciones a gran escala."
+            },
+            {
+                "title": "Socios Crest (Plata)",
+                "image": "/images/blog/Crest Partner.webp",
+                "badge": "SOCIO CREST",
+                "description": "Reconocidos por su éxito comprobado y amplia experiencia en la entrega de valor al cliente."
+            },
+            {
+                "title": "Socios Ridge (Oro)",
+                "image": "/images/blog/Ridge partner.webp",
+                "badge": "SOCIO RIDGE",
+                "description": "Demuestra compromiso con el éxito del cliente y es ideal para empresas medianas que buscan apoyo confiable."
+            }
+        ],
+        "topSalesforce": "¿Qué se considera un socio certificado de Salesforce?",
+        "whatQualifies": [
+            {
+                "title": "Certificaciones y especializaciones",
+                "desc": "Equipos con consultores, arquitectos y desarrolladores certificados por Salesforce."
+            },
+            {
+                "title": "Historial comprobado",
+                "desc": "Casos de estudio de implementaciones exitosas a gran escala."
+            },
+            {
+                "title": "Enfoque en la industria",
+                "desc": "Experiencia en sectores como salud, manufactura, ciencias de la vida y comercio minorista."
+            },
+            {
+                "title": "Innovación",
+                "desc": "Adopción de Salesforce AI, Data Cloud, MuleSoft y Tableau para crear soluciones preparadas para el futuro."
+            }
+        ],
+        "salesforcePara3": "En resumen, los mejores socios consultores de Salesforce combinan el dominio técnico con una profunda comprensión empresarial, lo que permite a las empresas impulsar su crecimiento con la consultoría de Salesforce.",
+        "businessTitle": "¿Cómo ayudan los socios de Salesforce al crecimiento empresarial?",
+        "businessGrowth": [
+            {
+                "title": "Soluciones CRM empresariales como base",
+                "paragraphs": [
+                    "Un socio de Salesforce garantiza que el CRM no solo se implemente, sino que se integre profundamente en los procesos de la organización. Adaptan Salesforce para ajustarse a modelos de negocio únicos con <a href='https://www.rialtes.com/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>servicios de optimización de Salesforce CRM</a>, ya sea gestionando ciclos de ventas complejos, apoyando el comercio minorista omnicanal o permitiendo el compromiso del paciente en el sector salud.",
+                    "Esto significa una mejor visibilidad de los datos, relaciones más sólidas con los clientes y una toma de decisiones más rápida. Las empresas obtienen una solución CRM escalable en lugar de un sistema único para todos."
+                ]
+            },
+            {
+                "title": "Impulsando la transformación digital y la innovación",
+                "paragraphs": [
+                    "Las empresas modernas no solo necesitan tecnología, necesitan innovación. Los socios de Salesforce impulsan la transformación mediante:"
+                ],
+                "list": [
+                    "Implementación de insights impulsados por IA a través de Salesforce Einstein y Agentforce.",
+                    "Automatización de flujos de trabajo manuales para mejorar la eficiencia.",
+                    "Integración de Salesforce con sistemas ERP, RR.HH. y de cadena de suministro.",
+                    "Aprovechamiento de Data Cloud para vistas del cliente en tiempo real y 360 grados."
+                ],
+                "afterList": "Estas innovaciones van más allá del ahorro de costos. Ayudan a las empresas a lanzar nuevos modelos de ingresos, entrar en nuevos mercados y construir una ventaja competitiva a largo plazo."
+            },
+            {
+                "title": "Escalar con confianza",
+                "paragraphs": [
+                    "El crecimiento trae complejidad: más usuarios, más regiones y regulaciones más estrictas. Los mejores socios de consultoría de Salesforce aseguran que <a href='https://www.rialtes.com/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>las empresas puedan escalar sin riesgo</a>. Ellos proporcionan:"
+                ],
+                "list": [
+                    "Marcos de gobernanza para el uso de datos conforme a normativas.",
+                    "Servicios gestionados y optimizaciones continuas.",
+                    "Modelos de entrega ágiles para adaptarse a las necesidades comerciales en evolución."
+                ],
+                "afterList": "En lugar de temer la disrupción, las empresas ganan la confianza para escalar globalmente manteniendo la consistencia y el cumplimiento."
+            }
+        ],
+        "keyBenefitsTitle": "Principales beneficios de trabajar con socios certificados de Salesforce",
+        "keyBenefitsPara": "Cuando las empresas se asocian con los mejores, desbloquean beneficios medibles:",
+        "keyBenefitsPara2": "Esto responde a la pregunta común: “¿Cómo ayudan los socios de Salesforce al crecimiento empresarial?”, al proporcionar experiencia, innovación y valor a largo plazo.",
+        "keyBenefits": [
+            {
+                "title": "Tiempo de obtención de valor más rápido",
+                "desc": "Aceleradores, plantillas y mejores prácticas preconstruidas que agilizan la implementación."
+            },
+            {
+                "title": "Acceso completo al ecosistema de Salesforce",
+                "desc": "Desde Sales Cloud hasta Marketing Cloud, Data Cloud, MuleSoft y Agentforce."
+            },
+            {
+                "title": "Reducción de riesgos",
+                "desc": "Evita configuraciones incorrectas costosas o incumplimientos normativos."
+            },
+            {
+                "title": "Innovación continua",
+                "desc": "Los socios aportan las últimas actualizaciones de Salesforce, funciones de IA y mejoras del ecosistema a los clientes."
+            },
+            {
+                "title": "Alineación estratégica",
+                "desc": "Hojas de ruta tecnológicas alineadas con la visión empresarial, no solo con los requisitos de TI."
+            }
+        ],
+        "consultantTitle": "Qué buscar en los mejores socios consultores de Salesforce",
+        "consultantPara": "Elegir un socio es tan importante como elegir la plataforma. Esto es lo que las empresas deben priorizar:",
+        "partnerQualities": [
+            {
+                "title": "Certificaciones y reconocimiento Crest/Summit",
+                "paragraph": "Siempre busca un Socio de Salesforce, un reconocimiento otorgado solo a aquellos con experiencia comprobada, entregas consistentes y casos de éxito con clientes sólidos."
+            },
+            {
+                "title": "Experiencia en la industria",
+                "paragraph": "Un socio comprende más que tecnología; comprende los desafíos específicos del sector. Por ejemplo:",
+                "list": [
+                    {
+                        "title": "Salud : ",
+                        "description": "Plataformas de compromiso con el paciente que cumplen con las normativas."
+                    },
+                    {
+                        "title": "Manufactura : ",
+                        "description": "Sistemas inteligentes de gestión de cadena de suministro y distribuidores."
+                    },
+                    {
+                        "title": "Servicios financieros : ",
+                        "description": "Gestión de clientes segura e impulsada por IA."
+                    }
+                ]
+            },
+            {
+                "title": "Capacidades técnicas y de asesoría",
+                "paragraph": "Las empresas necesitan un socio que haga más que una implementación. Los mejores socios consultores de Salesforce ofrecen estrategia, gestión del cambio y apoyo para la adopción."
+            },
+            {
+                "title": "Cultura de co-innovación",
+                "paragraph": "Los socios de confianza colaboran, no imponen. Diseñan soluciones junto con las empresas, asegurando resultados medibles alineados con los KPIs del negocio."
+            }
+        ],
+        "crestTitle": "Rialtes – Tu socio Crest de Salesforce para el éxito empresarial",
+        "crestPara1": "Rialtes es un socio Crest de Salesforce en quien confían empresas de todo el mundo. Reconocido como uno de los principales socios de Salesforce, aportamos una profunda experiencia en:",
+        "crestPara2": "Lo que distingue a Rialtes es su doble enfoque: estrategia + ejecución. Con Rialtes, las empresas no solo implementan Salesforce; prosperan e innovan con él.",
+        "enterpriseCRM": [
+            {
+                "title": "Solución CRM empresarial",
+                "description": "adaptada para industrias como ciencias de la vida, salud, manufactura y automoción."
+            },
+            {
+                "title": "Innovaciones en IA y Data Cloud",
+                "description": "para conocimientos predictivos y vista 360 del cliente."
+            },
+            {
+                "title": "Agentforce y automatización",
+                "description": "para escalar flujos de trabajo empresariales."
+            },
+            {
+                "title": "Experiencia en integración",
+                "description": "en sistemas ERP, RR.HH. y cadena de suministro."
+            }
+        ],
+        "partneringTitle": "Asociarse para el futuro: Las alianzas con Salesforce impulsan el crecimiento empresarial",
+        "partneringtomorrow": [
+            "Aquí está la conclusión: Salesforce es el CRM número 1 del mundo, pero su verdadero potencial solo se desbloquea con el socio adecuado. <a href='https://appexchange.salesforce.com/appxConsultingListingDetail?listingId=a0N3A00000FZIFCUA5' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Los mejores socios de Salesforce</a> ayudan a las empresas a prosperar alineando la tecnología con el crecimiento empresarial, acelerando la innovación y asegurando valor a largo plazo.",
+            "Si te preguntas: “¿Cuáles son los mejores socios de consultoría de Salesforce para empresas?”, busca un socio con experiencia en la industria, éxito comprobado y una visión para el futuro.",
+            "Eso es exactamente lo que ofrece Rialtes. Como Socio Crest de Salesforce, Rialtes potencia a las empresas con soluciones CRM preparadas para el futuro, conocimientos impulsados por IA y co-innovación a gran escala. <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Asóciate con Rialtes hoy</a> y convierte Salesforce en el motor del crecimiento de tu empresa."
+        ],
+        "faqTitle": "Preguntas frecuentes (FAQs)",
+        "faqs": [
+            {
+                "question": "¿Quiénes son los principales socios de Salesforce para empresas?",
+                "answer": "Los principales socios de Salesforce son firmas consultoras de nivel Crest o Summit, reconocidas por su experiencia comprobada, implementaciones exitosas e innovación. Rialtes, como Socio Crest de Salesforce, es uno de ellos."
+            },
+            {
+                "question": "¿Cómo ayudan los socios de Salesforce al crecimiento empresarial?",
+                "answer": "Los socios de Salesforce personalizan soluciones CRM, habilitan conocimientos impulsados por IA, automatizan flujos de trabajo y brindan optimización continua, ayudando a las empresas a mejorar la eficiencia, reducir costos y descubrir nuevas oportunidades de ingresos."
+            },
+            {
+                "question": "¿Qué son las soluciones CRM empresariales y por qué son importantes?",
+                "answer": "Las soluciones CRM empresariales conectan ventas, marketing, servicio y datos en una única plataforma unificada. Ayudan a las empresas a gestionar relaciones con los clientes a gran escala, mejorar la toma de decisiones y ofrecer experiencias personalizadas."
+            },
+            {
+                "question": "¿Por qué una empresa debería elegir un Socio Crest de Salesforce?",
+                "answer": "Los Socios Crest son reconocidos por sus certificaciones avanzadas, altos puntajes de satisfacción del cliente y experiencia comprobada en la industria. Ofrecen soluciones Salesforce complejas y de gran escala con menor riesgo y un retorno de inversión más rápido."
+            },
+            {
+                "question": "¿Por qué Rialtes es considerado uno de los mejores socios consultores de Salesforce?",
+                "answer": "Rialtes combina experiencia en Salesforce con conocimiento específico de la industria y un enfoque de co-innovación. Como Socio Crest, ha implementado soluciones CRM empresariales en múltiples sectores, ayudando a los clientes a prosperar e innovar."
+            }
+        ],
+        "seoTitle" : "Cómo los socios Salesforce impulsan el éxito empresarial | Rialtes",
+        "seoDescription" : "Los mejores socios Salesforce impulsan la innovación y el crecimiento alineando la tecnología con los objetivos del negocio."
     }
 }
