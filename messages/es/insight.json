@@ -220,6 +220,16 @@
         "description": "La industria de la salud se encuentra en un punto de inflexión. Los pacientes ya no quieren experiencias fragmentadas, esperar semanas para las citas, repetir su historial en cada contacto o lidiar con portales desconectados."
       },
       {
+        "id": 45,
+        "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
+        "category": "Salesforce",
+        "industry": "Genérico",
+        "date": "Sep. 29, 2025",
+        "url": "/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi",
+        "title": "Implementación Perfecta de Salesforce: Estrategias de Socios que Reducen el Riesgo y Maximizan el ROI",
+        "description": "Salesforce es la principal plataforma CRM del mundo, que impulsa a las empresas de todos los sectores a gestionar mejor a sus clientes, datos y procesos."
+      },
+      {
         "id": 41,
         "image": "/images/blog/connected-care-ecosystem-feature.webp",
         "category": "General",
@@ -812,7 +822,7 @@
         "id": 3,
         "image": "/images/case-studies/case study 3_thumb_n.webp",
         "industry": "Manufactura",
-        "date": "Jan. 8, 2025",
+        "date": "Jan. 08, 2025",
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
         "title": "Transformación DevOps con Copado y Salesforce",
         "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales."

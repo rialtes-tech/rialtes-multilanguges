@@ -1,16 +1,28 @@
 "use client";
 import Image from "next/image";
-import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
-import useUrl from "@/app/components/useUrl";
-import Seo from "@/app/components/Seo";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/[locale]/components/useUrl";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import FAQAccordion from "@/app/components/faqAccordion";
-import BlogSocialIcons from '@/app/components/blogSocialIcons'
-import UnorderedList from "@/app/components/unorderedList";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../../messages/en/blogs.json';
+import esContent from '../../../../../../messages/es/blogs.json';
+import frContent from '../../../../../../messages/fr/blogs.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
+
 
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/";
     const currUrl = useUrl()
+    const t = useTranslations('salesforceImplementation')
+    const locale = useLocale();
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { blogMainData, commonData, salesforceData, salesforceStratergies, maximizeData, trustedData, buildData, faqs } = content.salesforceImplementation;
+    const { enActive } = useActiveLocale()
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
@@ -81,197 +93,12 @@ export default function Page() {
             ]
         }
     }
-    const blogMainData = [
-        "Salesforce is the world’s leading CRM platform, powering enterprises across industries to better manage customers, data, and processes. But here’s the catch: Salesforce success isn’t guaranteed by simply purchasing licenses. Implementation is where many projects falter. Delays, scope creep, or poor adoption can turn what should be a growth driver into a sunk investment.",
-        "This is why enterprises <span>partner with expert Salesforce consultants</span>. The right partner brings structure, expertise, and proven frameworks to reduce risk and maximize return on investment. From planning a Salesforce implementation roadmap to handling complex integrations, partners ensure enterprises extract full value from the platform.",
-        "Let’s explore the strategies that top partners use to make Salesforce implementations seamless."
-    ]
-    const commonData = [
-        {
-            "title": "How to Ensure a Successful Salesforce Implementation?",
-            "list": [
-                {
-                    "title": "Start with a Clear Salesforce Implementation Roadmap",
-                    "desc": [
-                        "A Salesforce rollout without a roadmap is like embarking on a cross-country trip without directions. The first step is aligning Salesforce to business objectives. Ask: What do we want Salesforce to achieve? Is the goal to shorten sales cycles, unify customer data, or streamline service processes?",
-                        "An implementation roadmap defines phases, milestones, and deliverables. Partners help translate strategic goals into technical design, ensuring business outcomes guide configuration, not the other way around."
-                    ]
-                },
-                {
-                    "title": "Engage Stakeholders Early",
-                    "desc": [
-                        "Even the best technology fails without adoption. A successful implementation requires early involvement of sales, marketing, service, and IT teams. When stakeholders help shape requirements, they’re more likely to champion the solution later.",
-                        "Change management is often underestimated. Partners who build communication and training into the roadmap increase adoption rates, helping enterprises avoid costly underutilization."
-                    ]
-                },
-                {
-                    "title": "Choose the Right Salesforce Integration Partner",
-                    "desc": [
-                        "Perhaps the most critical decision is choosing the right partner. Certified Salesforce integration partners bring experience across industries and geographies. They know common pitfalls and how to avoid them. Instead of learning on the job, they apply tried-and-tested frameworks, accelerators, and governance models."
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Best Practices for Salesforce Integration Success",
-            "list": [
-                {
-                    "title": "Map the Salesforce Integration Roadmap",
-                    "desc": [
-                        "Salesforce rarely exists in isolation. It needs to talk to ERP, HR, finance, supply chain, and marketing systems. A clear Salesforce integration roadmap identifies which systems are most critical to connect and in what order.",
-                        "For example, connecting Salesforce to ERP ensures sales teams see real-time inventory data. Linking to HR helps with territory management. Mapping out priorities prevents chaos and keeps integrations aligned with business needs."
-                    ]
-                },
-                {
-                    "title": "Leverage Certified Salesforce Integration Partners",
-                    "desc": [
-                        "Integrations are one of the biggest risk areas. A poorly designed integration can create data silos, duplication, or compliance risks. Certified Salesforce integration partners bring the technical skill and tools needed to connect Salesforce securely and efficiently.",
-                        "The best partners combine technical know-how with industry experience. A life sciences integration looks very different from a manufacturing setup. Industry-aware partners prevent “cookie-cutter” mistakes."
-                    ]
-                },
-                {
-                    "title": "Build for Scalability",
-                    "desc": [
-                        "Integrations shouldn’t just solve today’s problems; they must prepare for tomorrow. Top partners build scalable frameworks that support future adoption of AI, Salesforce Data Cloud, and automation. This future-proofing ensures <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>enterprise success with Salesforce partners</a> within a year or two."
-                    ]
-                }
-            ]
-        }
-    ]
-    const salesforceData = [
-        {
-            "title": "Scope Creep",
-            "desc": "Adding requirements without revisiting timelines."
-        },
-        {
-            "title": "Misalignment",
-            "desc": "When technical features don’t match business goals."
-        },
-        {
-            "title": "Low Adoption",
-            "desc": "Employees revert to old processes."
-        },
-        {
-            "title": "Compliance Issues",
-            "desc": "Particularly in regulated industries."
-        }
-    ]
-    const salesforceStratergies = [
-        {
-            "title": "Frameworks and Accelerators",
-            "desc": "Pre-built templates for workflows, dashboards, and integrations speed delivery and lower error rates."
-        },
-        {
-            "title": "Agile Delivery Models",
-            "desc": "Iterative sprints allow course correction before issues escalate."
-        },
-        {
-            "title": "Compliance-First Design",
-            "desc": "Especially for industries like healthcare or finance, partners ensure regulatory alignment from the start."
-        }
-    ]
-    const maximizeData = [
-        {
-            "title": "Maximizing ROI with Salesforce Implementation and Integration",
-            "list": [
-                {
-                    "title": "Measure ROI Beyond Cost Savings",
-                    "descArr": [
-                        {
-                            "desc": "When enterprises think about ROI, they often focus on cost reduction. But Salesforce ROI extends much further:",
-                            "steps": [
-                                "Increased sales pipeline visibility.",
-                                "Faster deal closures.",
-                                "Improved service resolution times.",
-                                "Enhanced customer satisfaction."
-                            ],
-                            "desc2": "Top partners help define metrics before the project begins, so ROI is measurable across revenue growth and experience improvements—not just expenses"
-                        }
-                    ]
-                },
-                {
-                    "title": "Ongoing Optimization and Managed Services",
-                    "descArr": [
-                        {
-                            "desc": "Implementation is just the start. Salesforce is constantly evolving, with new features and innovations released multiple times per year. Without ongoing optimization, enterprises risk falling behind.",
-                            "desc2": "This is where managed services from partners come in. They ensure Salesforce evolves with the business, continuously fine-tuning workflows, automations, and integrations."
-                        }
-                    ]
-                },
-                {
-                    "title": "From Implementation to Innovation",
-                    "descArr": [
-                        {
-                            "desc": "The best partners don’t stop at implementation. They introduce enterprises to new Salesforce capabilities like AI-driven insights, Agentforce automation, and Data Cloud-powered personalization. This shift from system-of-record to system-of-intelligence multiplies ROI over time.",
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
-    const trustedData = [
-        {
-            "title": "Rialtes – Your Trusted Salesforce Implementation Partner",
-            "desc": "When it comes to Salesforce partners, not every firm can deliver enterprise-grade success. Rialtes stands apart as a Salesforce Crest Partner, recognized for its expertise, certifications, and <a href='https://www.rialtes.com/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>tailored Salesforce development for integration</a>.",
-            "desc2": "Here’s what Rialtes brings to the table:",
-            "list": [
-                {
-                    "title": "Structured Roadmaps",
-                    "desc": "Guiding enterprises from discovery to post-launch optimization."
-                },
-                {
-                    "title": "Risk Reduction",
-                    "desc": "Using accelerators, governance models, and compliance-first design."
-                },
-                {
-                    "title": "Integration Expertise",
-                    "desc": "Connecting Salesforce with ERP, HR, supply chain, and marketing systems for true enterprise alignment."
-                },
-                {
-                    "title": "Industry Experience",
-                    "desc": "Deep knowledge in life sciences, healthcare, manufacturing, and automotive ensures solutions are tailored, not generic."
-                },
-                {
-                    "title": "Innovation at Scale",
-                    "desc": "Rialtes helps clients adopt AI, automation, and Data Cloud to transform Salesforce into a true growth engine."
-                }
-            ],
-            "desc3": "Enterprises trust Rialtes because it doesn’t just deliver Salesforce, it delivers results."
-        }
-    ]
-    const buildData = [
-        "A Salesforce implementation can either be a catalyst for growth or a costly misstep. The difference lies in execution. With the right partners and Salesforce integration partners, enterprises can reduce risk, accelerate adoption, and maximize ROI.",
-        "If you’re asking <i>“How to ensure a successful Salesforce implementation?”</i> or <i>“What are the best practices for Salesforce integration?”</i> the answer is simple: partner with experts who combine strategy, industry knowledge, and technical excellence.",
-        "That’s exactly what Rialtes offers. As a Salesforce Crest Partner, Rialtes has helped enterprises across industries implement and integrate Salesforce seamlessly—delivering measurable ROI while setting the stage for future innovation. <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Partner with Rialtes</a> and turn Salesforce into the backbone of your enterprise success."
-    ]
-    const faqs = [
-        {
-            "question": "How to ensure a successful Salesforce implementation?",
-            "answer": "Start with a clear roadmap, engage stakeholders early, and work with certified Salesforce implementation partners who can align the system with your business goals."
-        },
-        {
-            "question": "What are the best practices for Salesforce integration?",
-            "answer": "Best practices include mapping an integration roadmap, prioritizing critical systems, and leveraging Salesforce integration partners with proven expertise. Scalability and compliance should always be built in."
-        },
-        {
-            "question": "Why do enterprises need Salesforce integration partners?",
-            "answer": "Integration partners bring frameworks, accelerators, and industry expertise that reduce risk and speed time-to-value. They ensure Salesforce isn’t just installed but optimized for measurable business outcomes."
-        },
-        {
-            "question": "How can Salesforce integration partners reduce project risk?",
-            "answer": "They prevent common issues like data duplication, scope creep, or compliance failures. Certified integration partners design secure, scalable connections that future-proof your Salesforce ecosystem."
-        },
-        {
-            "question": "Why choose Rialtes as a Salesforce implementation partner?",
-            "answer": "Rialtes is a Salesforce Crest Partner with a proven track record in seamless implementations, complex integrations, and ongoing innovation. With Rialtes, enterprises reduce project risks and maximize Salesforce ROI."
-        }
-    ]
 
     return (
         <section className="min-h-screen">
             <Seo
-                title="Salesforce Partners Driving AI-Powered Enterprise Growth"
-                description="Best Salesforce implementation partners don’t stop at rollout, they guide enterprises with AI-driven insights, Agentforce automation, and Data Cloud solutions."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical={
                     "https://www.rialtes.com/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/"
                 }
@@ -311,22 +138,13 @@ export default function Page() {
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 col-span-12">
 
                         {/* date and icons */}
-                        <div className="sm:flex justify-between">
-                            <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Salesforce</span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>29 September 2025
-                            </div>
+                        <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="29 September 2025" />
 
-                            <div>
-                                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                                    <BlogSocialIcons fullUrl={fullUrl} />
-                                </div>
-                            </div>
-                        </div>
 
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
-                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">Seamless Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI</h1>
+                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t('blogTitle')}</h1>
+
                             <div className="xl:mt-[38px] mt-[33px]">
                                 {
                                     blogMainData.map((data, ind) => {
@@ -365,29 +183,31 @@ export default function Page() {
 
                             {/* how salesforce partners section */}
                             <div className="md:mt-[50px] mt-[40px]">
-                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">How Salesforce Partners Reduce Project Risk</h2>
-                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Implementing Salesforce at an enterprise scale is not without challenges. Common risks include:</p>
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('howSalesforceTitle')}</h2>
+                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] xl:w-[90%]">{t('howSalesforceDesc')}</p>
                                 {
                                     salesforceData.map((data, ind) => {
                                         return (
                                             <div
-                                                className="md:flex mt-24 md:mt-[35px] py-[34px] xl:py-[46px] px-[26px] 
+                                                className="md:flex mt-24 md:mt-[40px] py-[34px] xl:py-[46px] px-[26px] 
                                                            md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative 
-                                                           md:ml-[90px] sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[75%] 4xl:w-[75%]"
+                                                           md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto 4xl:w-[80%]"
                                                 key={ind}>
-                                                <p className="md:absolute md:flex items-center
+                                                <p
+                                                    className={`md:absolute md:flex items-center
                                                                 max-md:mt-[-65px] sm:mt-[-70px] md:mt-0
                                                                 md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
                                                                 bg-[#006FBE] text-white font-semibold
                                                                 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
                                                                 px-[20px] py-[15px] leading-tight
-                                                                4xl:w-[290px] xl:w-[240px] md:w-[250px] w-fit">
+                                                                 xl:w-[270px] md:w-[340px] ${enActive ? "4xl:w-[300px]" : "md:h-[80px] xl:h-[95px] 4xl:w-[350px]"} w-fit`}>
                                                     {data.title}
                                                 </p>
 
-                                                <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
+                                                <div
+                                                    className={`4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
                                                                 font-medium my-auto max-md:mt-8
-                                                                md:ml-[200px] xl:ml-[180px] 4xl:ml-[240px]"
+                                                                md:ml-[300px] xl:ml-[240px]  ${enActive ? "4xl:ml-[260px]" : "4xl:ml-[300px]"}`}
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                             </div>
@@ -395,7 +215,7 @@ export default function Page() {
                                     })
                                 }
 
-                                <p className="md:mt-[63px] mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Salesforce partners reduce these risks through proven strategies:</p>
+                                <p className="md:mt-[63px] mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('howSalesforceDesc2')}</p>
                                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-[40px] mt-[40px] gap-[20px] 4xl:w-[1200px] sm:w-[80%] md:w-full">
                                     {
                                         salesforceStratergies.map((elem, id) => {
@@ -409,7 +229,7 @@ export default function Page() {
                                     }
                                 </div>
 
-                                <p className="md:mt-[47px] mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Ultimately, reducing risk isn’t just about avoiding failure. It’s about ensuring the project delivers measurable business value. Risk management is directly tied to ROI.</p>
+                                <p className="md:mt-[47px] mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('howSalesforceDesc3')}</p>
 
                             </div>
 
@@ -479,7 +299,7 @@ export default function Page() {
 
                             {/* build section */}
                             <div className="xl:mt-[38px] mt-[33px]">
-                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Build Salesforce the Right Way, Maximize ROI with the Right Partner</h2>
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('buildTitle')}</h2>
                                 {
                                     buildData.map((data, ind) => {
                                         return (
@@ -499,7 +319,7 @@ export default function Page() {
 
             {/* faq section */}
             <section className="xl:mt-[80px] mt-[40px] custom-container">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">FAQs: Salesforce Implementation and Integration</h2>
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('faqTitle')}</h2>
                 <div className="mt-[29px] xl:mt-[30px]">
                     <FAQAccordion faqData={faqs} />
                 </div>
