@@ -189,6 +189,37 @@
       }
     ],
     "latestBlogs": [
+      
+      {
+        "id": 47,
+        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
+        "category": "IA",
+        "industry": "Générique",
+        "date": "Oct. 13, 2025",
+        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance",
+        "title": "L’IA dans les opérations immobilières : réduisez les temps d’arrêt de 30 % et les coûts d’exploitation grâce à la maintenance prédictive",
+        "description": "La vérité sur les opérations immobilières est qu’elles ont toujours consisté à trouver un équilibre entre coût, confort et continuité."
+      },
+      {
+        "id": 46,
+        "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
+        "category": "Salesforce",
+        "industry": "Générique",
+        "date": "Oct. 10, 2025",
+        "url": "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate",
+        "title": "Comment les meilleurs partenaires Salesforce aident les entreprises à prospérer et innover",
+        "description": "Salesforce est devenu la base des solutions CRM modernes pour les entreprises, aidant les organisations à unifier les données, rationaliser les processus et offrir des expériences client personnalisées."
+      },
+      {
+        "id": 45,
+        "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
+        "category": "MediAIna",
+        "industry": "Santé",
+        "date": "Oct. 07, 2025",
+        "url": "/patient-experience-platform-transforming-long-term-care",
+        "title": "Comment une plateforme d’expérience patient transforme les soins du diagnostic à la gestion à long terme",
+        "description": "Fournir des soins de santé a toujours été bien plus qu’un simple diagnostic. Pour les patients, le véritable parcours commence après le diagnostic, en explorant les options de traitement, en gérant les maladies chroniques et en apprenant à vivre avec des besoins de soins continus."
+      },
        {
         "id": 44,
         "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
@@ -200,37 +231,7 @@
         "description": "La gestion de la relation client (CRM) est le cœur battant des entreprises modernes. Elle détermine comment les équipes commerciales concluent des affaires, comment les équipes de service répondent aux clients et comment le marketing propose des campagnes personnalisées."
       },
       {
-        "id": 44,
-        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
-        "category": "IA",
-        "industry": "Générique",
-        "date": "Oct. 13, 2025",
-        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance",
-        "title": "L’IA dans les opérations immobilières : réduisez les temps d’arrêt de 30 % et les coûts d’exploitation grâce à la maintenance prédictive",
-        "description": "La vérité sur les opérations immobilières est qu’elles ont toujours consisté à trouver un équilibre entre coût, confort et continuité."
-      },
-      {
-        "id": 44,
-        "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
-        "category": "Salesforce",
-        "industry": "Générique",
-        "date": "Oct. 10, 2025",
-        "url": "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate",
-        "title": "Comment les meilleurs partenaires Salesforce aident les entreprises à prospérer et innover",
-        "description": "Salesforce est devenu la base des solutions CRM modernes pour les entreprises, aidant les organisations à unifier les données, rationaliser les processus et offrir des expériences client personnalisées."
-      },
-      {
         "id": 43,
-        "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
-        "category": "MediAIna",
-        "industry": "Santé",
-        "date": "Oct. 07, 2025",
-        "url": "/patient-experience-platform-transforming-long-term-care",
-        "title": "Comment une plateforme d’expérience patient transforme les soins du diagnostic à la gestion à long terme",
-        "description": "Fournir des soins de santé a toujours été bien plus qu’un simple diagnostic. Pour les patients, le véritable parcours commence après le diagnostic, en explorant les options de traitement, en gérant les maladies chroniques et en apprenant à vivre avec des besoins de soins continus."
-      },
-      {
-        "id": 42,
         "image": "/images/blog/digital-patient-journeys-mobile.webp",
         "category": "Général",
         "industry": "Générique",
@@ -240,7 +241,7 @@
         "description": "L’industrie des soins de santé est à un tournant. Les patients ne veulent plus d’expériences fragmentées, d’attendre des semaines pour des rendez-vous, de répéter leur historique à chaque contact ou de gérer des portails déconnectés."
       },
       {
-        "id": 45,
+        "id": 42,
         "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
         "category": "Salesforce",
         "industry": "Générique",

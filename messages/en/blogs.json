@@ -215,6 +215,7 @@
         "availabilityData3": "streamlining operations and enhancing workflows. By leveraging machine learning and natural language processing, we align agents with the organization's objectives to achieve efficient intelligent automation. Contact us at"
     },
     "himachalBlog": {
+        "impactImage":"/images/blog/infographic.png",
         "seoTitle": "The Rise of Himachal in India’s Pharma Industry | Rialtes",
         "seoDescription": "Explore how Himachal Pradesh became a pharma manufacturing leader with SEZs, tax breaks, global supply links, and 600+ certified production units.",
         "blogs": [
@@ -1845,6 +1846,8 @@
         "empowerLink": "expert SAP SuccessFactors consultants"
     },
     "agentCopilot": {
+        "agentChart":"/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp",
+        "agentChartMobile":"/images/blog/infographic-mobile.webp",
         "seoTitle": "Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes",
         "seoDescription": "Learn the key differences between bots, copilots, and AI agents. Choose the best AI automation tool to scale productivity and transform workflows.",
         "blogTopic": "Salesforce Agentforce",

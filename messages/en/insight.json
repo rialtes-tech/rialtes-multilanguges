@@ -190,7 +190,38 @@
       }
     ],
     "latestBlogs": [
-       {
+       
+      {
+        "id": 47,
+        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
+        "category": "AI",
+        "industry": "Generic",
+        "date": "Oct. 13, 2025",
+        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance",
+        "title": "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
+        "description": "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity."
+      },
+      {
+        "id": 46,
+        "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
+        "category": "Salesforce",
+        "industry": "Generic",
+        "date": "Oct. 10, 2025",
+        "url": "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate",
+        "title": "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
+        "description": "Salesforce has become the foundation for modern enterprise CRM solutions, helping organizations unify data, streamline processes, and deliver personalized customer experiences. "
+      },
+      {
+        "id": 45,
+        "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
+        "category": "MediAIna",
+        "industry": "Healthcare",
+        "date": "Oct. 07, 2025",
+        "url": "/patient-experience-platform-transforming-long-term-care",
+        "title": "How a Patient Experience Platform Transforms Care from Diagnosis to Long-Term Management",
+        "description": "Providing healthcare has always been about more than just diagnosis. For patients, the real journey begins after they receive a diagnosis, navigating treatment options, managing chronic conditions, and learning how to live with ongoing care needs."
+      },
+      {
         "id": 44,
         "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
         "category": "Salesforce",
@@ -201,37 +232,7 @@
         "description": "Customer Relationship Management (CRM) is the beating heart of modern enterprises. It drives how sales teams close deals, how service teams respond to customers, and how marketing delivers personalized campaigns."
       },
       {
-        "id": 44,
-        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
-        "category": "AI",
-        "industry": "Generic",
-        "date": "Oct. 13, 2025",
-        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance",
-        "title": "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
-        "description": "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity."
-      },
-      {
-        "id": 44,
-        "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
-        "category": "Salesforce",
-        "industry": "Generic",
-        "date": "Oct. 10, 2025",
-        "url": "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate",
-        "title": "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
-        "description": "Salesforce has become the foundation for modern enterprise CRM solutions, helping organizations unify data, streamline processes, and deliver personalized customer experiences. "
-      },
-      {
         "id": 43,
-        "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
-        "category": "MediAIna",
-        "industry": "Healthcare",
-        "date": "Oct. 07, 2025",
-        "url": "/patient-experience-platform-transforming-long-term-care",
-        "title": "How a Patient Experience Platform Transforms Care from Diagnosis to Long-Term Management",
-        "description": "Providing healthcare has always been about more than just diagnosis. For patients, the real journey begins after they receive a diagnosis, navigating treatment options, managing chronic conditions, and learning how to live with ongoing care needs."
-      },
-      {
-        "id": 42,
         "image": "/images/blog/digital-patient-journeys-mobile.webp",
         "category": "General",
         "industry": "Generic",
@@ -241,7 +242,7 @@
         "description": "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals. "
       },
       {
-        "id": 45,
+        "id": 42,
         "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
         "category": "Salesforce",
         "industry": "Generic",
