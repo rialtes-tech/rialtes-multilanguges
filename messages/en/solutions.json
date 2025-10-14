@@ -1596,6 +1596,7 @@
     "insights": "Insights"
   },
   "revenueCloud": {
+    "revenueCloudImg":"/images/revenue-cloud/revenue-cloud-infographic.webp",
     "seoTitle": "Salesforce Revenue Cloud Implementation Partner | Rialtes",
     "seoDescription": "Rialtes, a trusted Salesforce Revenue Cloud implementation partner, offers tailored solutions to transform sales, billing, and revenue operations.",
     "revenueStats": [

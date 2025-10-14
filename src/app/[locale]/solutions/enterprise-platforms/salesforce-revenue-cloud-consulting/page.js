@@ -113,7 +113,7 @@ const schemaData = {
   },
 };
 export default function HealthCloud() {
-  const t = useTranslations("");
+  const t = useTranslations("revenueCloud");
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { revenueStats, salesForce, salesForce2 } = content.revenueCloud;
@@ -199,7 +199,7 @@ export default function HealthCloud() {
           {t("cloudTitle")}
         </h3>
         <Image
-          src="/images/revenue-cloud/revenue-cloud-infographic.webp"
+          src=   {t("revenueCloudImg")}
           alt="Revenue Cloud Process Flow"
           width={0}
           height={0}

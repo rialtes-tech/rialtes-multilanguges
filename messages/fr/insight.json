@@ -189,6 +189,16 @@
       }
     ],
     "latestBlogs": [
+       {
+        "id": 44,
+        "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
+        "category": "Salesforce",
+        "industry": "SAP",
+        "date": "Oct. 06, 2025",
+        "url": "/salesforce-development-services-to-boost-crm-efficiency",
+        "title": "Améliorez l’efficacité de votre CRM grâce à des services de développement Salesforce sur mesure",
+        "description": "La gestion de la relation client (CRM) est le cœur battant des entreprises modernes. Elle détermine comment les équipes commerciales concluent des affaires, comment les équipes de service répondent aux clients et comment le marketing propose des campagnes personnalisées."
+      },
       {
         "id": 44,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",

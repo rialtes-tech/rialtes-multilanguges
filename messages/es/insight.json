@@ -191,13 +191,13 @@
     "latestBlogs": [
       {
         "id": 44,
-        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
-        "category": "IA",
-        "industry": "Genérico",
-        "date": "Oct. 13, 2025",
-        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance",
-        "title": "IA en operaciones inmobiliarias: reduce el tiempo de inactividad un 30 % y los gastos operativos con mantenimiento predictivo",
-        "description": "La verdad sobre las operaciones inmobiliarias es que siempre han sido un equilibrio entre costo, confort y continuidad."
+        "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
+        "category": "Salesforce",
+        "industry": "SAP",
+        "date": "Oct. 06, 2025",
+        "url": "/salesforce-development-services-to-boost-crm-efficiency",
+        "title": "Mejora la eficiencia de tu CRM con servicios de desarrollo de Salesforce personalizados",
+        "description": "La gestión de relaciones con los clientes (CRM) es el corazón de las empresas modernas. Impulsa cómo los equipos de ventas cierran acuerdos, cómo los equipos de servicio responden a los clientes y cómo el marketing ofrece campañas personalizadas."
       },
       {
         "id": 43,
