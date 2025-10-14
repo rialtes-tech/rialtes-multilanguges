@@ -99,7 +99,7 @@ export default function Page() {
                 "Reports and dashboards that don’t deliver actionable insights.",
                 "Poor adoption rates due to complex or irrelevant workflows."
             ],
-            "desc2": "That’s why strategic Salesforce consulting for enterprises is essential to keep pace with modern business demands. When your CRM is efficient, your teams work smarter, customers get faster responses, and leadership gains the insights they need to make better decisions."
+            "desc2": "That’s why  <a href='https://www.linkedin.com/pulse/unlock-growth-salesforce-consulting-understands-gm99f/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>strategic Salesforce consulting for enterprises</a> is essential to keep pace with modern business demands. When your CRM is efficient, your teams work smarter, customers get faster responses, and leadership gains the insights they need to make better decisions."
         }
     ]
 
