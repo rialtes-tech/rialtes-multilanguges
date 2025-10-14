@@ -1081,10 +1081,11 @@
     ]
   },
   "newsDataBricks": {
+    "bannerImage":"/images/homepage/baner.webp",
+    "bannerImageMobile":"/images/homepage/banner.webp",
     "seoTitle": "Rialtes Now a Certified Databricks Partner",
     "seoDescription": "As a certified Databricks partner, Rialtes empowers businesses with AI-driven data solutions across SAP and Salesforce ecosystems.",
     "title": "Rialtes Levels Up AI Game with Databricks Partnership to Power Unified AI Across SAP and Salesforce",
-    "bannerImage": "/images/homepage/banner.webp",
     "paragraphs": [
       "<span class='font-bold'>Rialtes, </span>a global leader in consulting and digital transformation, proudly announces its new designation as a <span class='font-bold'>Certified Databricks Partner</span>. This milestone marks a significant advancement in Rialtes’ mission to provide cutting-edge data and AI solutions to enterprise clients, particularly those leveraging <strong>SAP</strong> and <strong>Salesforce</strong> Platforms.",
       "The announcement comes shortly after SAP unveiled the <a class='text-[#038EF4]' href='/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success'>SAP Business Data Cloud</a> — a fully managed SaaS solution designed to unify, govern, and connect SAP data with third-party sources. Central to this launch was SAP’s <strong>landmark partnership with Databricks,</strong> integrating the Databricks Lakehouse architecture directly into SAP Business Data Cloud to unlock real-time, AI-powered insights.",

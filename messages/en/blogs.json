@@ -739,6 +739,7 @@
         "shiftFromLink3": "SAP Ariba"
     },
     "sapDataCloud": {
+        "sapImage":"/images/blog/image (5).png",
         "seoTitle": "What Is BDC in SAP? Transform with SAP Business Data Cloud | Rialtes",
         "seoDescription": "SAP BDC simplifies data integration by enabling real-time access to trustworthy data, supporting AI-ready decision-making and business transformation.",
         "blogs": [
