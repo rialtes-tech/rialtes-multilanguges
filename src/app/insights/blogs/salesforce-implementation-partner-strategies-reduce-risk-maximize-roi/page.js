@@ -16,7 +16,7 @@ export default function Page() {
         "@type": "BlogPosting",
         "headline": "Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI",
         "description": "From planning a Salesforce implementation roadmap to handling complex integrations, best partners ensure enterprises extract full value from the platform.",
-        "image": "https://www.rialtes.com/images/blogs/salesforce-implementation-partners-strategies.webp",
+        "image": "https://www.rialtes.com/images/blog/salesforce-implementation-partners-strategies.webp",
         "author": {
             "@type": "Organization",
             "name": "Rialtes"
@@ -83,7 +83,7 @@ export default function Page() {
     }
     const blogMainData = [
         "Salesforce is the world’s leading CRM platform, powering enterprises across industries to better manage customers, data, and processes. But here’s the catch: Salesforce success isn’t guaranteed by simply purchasing licenses. Implementation is where many projects falter. Delays, scope creep, or poor adoption can turn what should be a growth driver into a sunk investment.",
-        "This is why enterprises <span>partner with expert Salesforce consultants</span>. The right partner brings structure, expertise, and proven frameworks to reduce risk and maximize return on investment. From planning a Salesforce implementation roadmap to handling complex integrations, partners ensure enterprises extract full value from the platform.",
+        "This is why enterprises <a href='https://www.linkedin.com/pulse/unlock-growth-salesforce-consulting-understands-gm99f/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>partner with expert Salesforce consultants</a> The right partner brings structure, expertise, and proven frameworks to reduce risk and maximize return on investment. From planning a Salesforce implementation roadmap to handling complex integrations, partners ensure enterprises extract full value from the platform.",
         "Let’s explore the strategies that top partners use to make Salesforce implementations seamless."
     ]
     const commonData = [
