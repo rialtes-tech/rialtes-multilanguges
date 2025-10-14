@@ -67,7 +67,7 @@ export default function Page() {
         <section className="relative overflow-hidden xl:h-[500px] 4xl:h-[650px]">
           <div className="xl:block hidden">
             <Image
-              src="/images/homepage/baner.webp"
+              src={t('bannerImage')}
               alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
               fill
               priority
@@ -75,7 +75,7 @@ export default function Page() {
           </div>
           <div className="xl:hidden block">
             <Image
-              src="/images/homepage/banner.webp"
+              src={t('bannerImageMobile')}
               alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
               className="!w-full h-full"
               width={0}

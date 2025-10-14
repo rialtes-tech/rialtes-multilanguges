@@ -135,19 +135,13 @@ export default function Page() {
                   {t("understandingDesc")}
                 </p>
                 <Image
-                  src="/images/blog/image (5).png"
+                  src={t('sapImage')}
                   alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
                   fill
                   priority
                   className="!w-full !h-full !relative"
                 />
-                <Image
-                  src="/images/blog/image (5).png"
-                  alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
-                  fill
-                  priority
-                  className="hidden !w-full !h-full !relative"
-                />
+              
               </div>
               {/* whats new section */}
               <div className="md:mt-[50px] mt-[40px]">
