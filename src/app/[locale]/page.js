@@ -93,13 +93,13 @@ const Home = () => {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             <div className="relative custom-container overflow-hidden">
-                <div className="w-full h-[400px] sm:h-[600px] lg:h-[540px] xl:h-[630px] 4xl:h-[700px] relative">
+                <div className="w-full max-[400px]:h-[340px] h-[480px] min-[500px]:h-[600px] sm:h-[780px] md:h-[700px] lg:h-[540px] xl:h-[630px] 4xl:h-[700px] relative">
+
                     {slidesData.map((s, i) => (
                         <Link key={i} href={s.link}>
                             <div
                                 className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${i === currentSlide ? "opacity-100 z-30" : "opacity-0 z-20"
-                                    }`}
-                            >
+                                    }`}>
                                 {/* Desktop */}
                                 <div className="hidden md:block w-full h-full relative">
                                     <Image
@@ -107,6 +107,7 @@ const Home = () => {
                                         alt={s.title}
                                         fill
                                         priority={i === 0}
+                                        className='max-lg:object-cover max-lg:object-[14%_20%]'
                                     />
                                 </div>
                                 {/* Mobile */}
@@ -116,12 +117,21 @@ const Home = () => {
                                         alt={s.title}
                                         fill
                                         priority={i === 0}
+                                        className='min-[400px]:object-cover'
                                     />
                                 </div>
                             </div>
                         </Link>
                     ))}
-
+                    <div className="absolute bottom-4 lg:bottom-8 left-1/2 -translate-x-1/2 z-30 flex gap-4">
+                        {slidesData.map((_, index) => (
+                            <button
+                                key={index}
+                                onClick={() => setCurrentSlide(index)}
+                                className={`lg:w-3 lg:h-3 w-2 h-2 rounded-full transition-all duration-300 ${currentSlide === index ? "bg-white scale-110" : "bg-white/30"}`}
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
 
