@@ -14,7 +14,6 @@ export default function LanguageSwitcher({ arrowImg }) {
     const [showFlags, setShowFlags] = useState(false);
     const dropdownRef = useRef(null);
 
-
     const locales = [
         { code: 'en', label: 'En', flag: usFlag, subtitle: "US-EN" },
         { code: 'es', label: 'Es', flag: spainFlag, subtitle: "US-ES" },
@@ -27,7 +26,6 @@ export default function LanguageSwitcher({ arrowImg }) {
         router.replace(newPath);
         setShowFlags(false);
     };
-
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -50,7 +48,7 @@ export default function LanguageSwitcher({ arrowImg }) {
     return (
         <div ref={dropdownRef}>
             <div
-                className="md:font-bold font-normal flex gap-2 4xl:text-[17px] 2xl:text-[15px] xl:text-[13px] text-[13px] cursor-pointer mt-1"
+                className="md:font-bold font-normal flex gap-2 4xl:text-[17px] 2xl:text-[15px] xl:text-[13px] text-[13px] cursor-pointer mt-2"
                 onClick={() => setShowFlags((prev) => !prev)}>
                 {(() => {
                     const current = locales.find(l => l.code === currentLocale);
@@ -72,21 +70,20 @@ export default function LanguageSwitcher({ arrowImg }) {
                 <Image
                     src={arrowImg}
                     alt="arrow"
-                    className="w-[24px] h-[24px] lg:w-[30px] lg:h-[30px] object-cover mt-[-4px]"
+                    className="w-[24px] h-[24px] lg:w-[30px] lg:h-[30px] object-cover mt-[-4px] ml-[-6px]"
                     priority
                     width={30}
                     height={30}
                 />
-
             </div>
 
             {showFlags && (
-                <ul className='absolute lg:top-[81px] xl:top-[103px] top-[80px] bg-white py-4 px-4 space-y-4 border z-30'>
+                <ul className='absolute lg:top-[81px] xl:top-[103px] top-[62px] bg-white py-4 px-4 space-y-4 border z-30'>
                     {locales.map((data) => (
                         <li
                             key={data.code}
                             onClick={() => handleChange(data.code)}
-                            className='flex gap-4 md:font-bold font-normal 4xl:text-[17px] 2xl:text-[15px] xl:text-[13px] text-[13px] cursor-pointer'>
+                            className='flex gap-3 md:font-bold font-normal 4xl:text-[17px] 2xl:text-[15px] xl:text-[13px] text-[13px] cursor-pointer'>
                             <Image
                                 src={data.flag}
                                 alt={`${data.label} flag`}

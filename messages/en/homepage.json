@@ -1,8 +1,8 @@
 {
   "homePage": {
     "withImpactTitle": "with Impact",
-       "seoTitle":"IT Services and IT Consulting Company | Rialtes",
-    "seoDescription":"Unlock success with Rialtes’ IT services and IT consulting. Powered by AI innovation, we drive efficiency, elevate performance, and fuel sustainable growth.",
+    "seoTitle": "IT Services and IT Consulting Company | Rialtes",
+    "seoDescription": "Unlock success with Rialtes’ IT services and IT consulting. Powered by AI innovation, we drive efficiency, elevate performance, and fuel sustainable growth.",
     "beyondTitle": "Beyond Business: A Commitment to Change",
     "innovatingData": "Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact",
     "successStoriesTitle": "Success Stories",
@@ -50,6 +50,26 @@
         "description": "How Salesforce Agentforce Actually Works",
         "image": "/images/blog/blog-1.webp",
         "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
+      }
+    ],
+    "slidesData": [
+      {
+        "link": "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/",
+        "title": "Life Science",
+        "image": "/images/homepage/life-sciece-banner-english.webp",
+        "imageMobile": "/images/homepage/life-science-mobile-english-banner.webp"
+      },
+      {
+        "link": "/industry/manufacturing-cloud-erp/",
+        "title": "Manufacturing",
+        "image": "/images/homepage/manufacturing-english-banner.webp",
+        "imageMobile": "/images/homepage/manufacturing-mobile-english-banner.webp"
+      },
+      {
+        "link": "/products/mediaina-reimagining-patient-journeys/",
+        "title": "MediAIna",
+        "image": "/images/homepage/mediayana-banner-new-english.webp",
+        "imageMobile": "/images/homepage/mediayana-english-mobile-banner.webp"
       }
     ],
     "successStoryData": [
@@ -134,11 +154,11 @@
     "productsTitle": "Products",
     "servicesTitle": "Services",
     "industriesTitle": "Industries",
-     "cultureLable":"Culture and Values",
-    "partnershipLable":"Partnership",
-    "newsLable":"News and Press Releases",
-    "corporateLable":"Corporate Citizenship",
-    "contactusLable":"Contact Us",
+    "cultureLable": "Culture and Values",
+    "partnershipLable": "Partnership",
+    "newsLable": "News and Press Releases",
+    "corporateLable": "Corporate Citizenship",
+    "contactusLable": "Contact Us",
     "aboutusTitle": "About Us",
     "insightTitle": "Insights",
     "contactTitle": "Contact Us",
@@ -218,10 +238,10 @@
     "insightDesc2": "Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.",
     "agentDesc": "Engage, Support, and Close Deals — All Through WhatsApp. All Inside Salesforce.",
     "agentDesc2": "Connect and respond to customers over WhatsApp from any Salesforce record — Leads, Cases, Opportunities, Work Orders, or Custom Objects.",
-    "mediainaDescrip":"Transform Patient Care—From Discovery to Recovery",
-    "mediainaDes2":"Powered by LifeAI+, Rialtes' consulting service dedicated to life sciences, MediAIana delivers intelligent, scalable, and compliant healthcare innovation at every stage of the patient journey.",
-    "exelonaDescription":"Exelona™ – Your End-to-End Real Estate Command Center",
-    "exelonaDescription2":"Unites every stage of your property business—sales, operations, and finance into one AI-powered, mobile-ready platform, merging CRM and ERP for faster, smarter decisions.",
+    "mediainaDescrip": "Transform Patient Care—From Discovery to Recovery",
+    "mediainaDes2": "Powered by LifeAI+, Rialtes' consulting service dedicated to life sciences, MediAIana delivers intelligent, scalable, and compliant healthcare innovation at every stage of the patient journey.",
+    "exelonaDescription": "Exelona™ – Your End-to-End Real Estate Command Center",
+    "exelonaDescription2": "Unites every stage of your property business—sales, operations, and finance into one AI-powered, mobile-ready platform, merging CRM and ERP for faster, smarter decisions.",
     "letsBeginBtn": "Let's Begin",
     "SalesforceDataCloud": "Salesforce Data Cloud",
     "dataSphere": "DataSphere",
@@ -397,12 +417,12 @@
   },
   "contactUs": {
     "headerTitle": "Our presence across the Globe",
-    "seoTitle":"Contact Us – Expert IT Consulting for Your Business Growth | Rialtes",
-    "seoDescription":"Have a question or need IT consulting services? Contact Rialtes for expert advice on SaaS solutions and IT strategy that drive business success.",
+    "seoTitle": "Contact Us – Expert IT Consulting for Your Business Growth | Rialtes",
+    "seoDescription": "Have a question or need IT consulting services? Contact Rialtes for expert advice on SaaS solutions and IT strategy that drive business success.",
     "headerSubtitle": "How can we help you?",
     "headerDesc": "Contact us, we would love to hear from you",
     "contactUsTitle": "Ready to take the next step? Let’s kick off your journey to operational excellence"
-    },
+  },
   "thankYou": {
     "thankYouTitle": "Thank",
     "thankYouTitleOne": "you for contacting Rialtes!",
@@ -412,8 +432,8 @@
   },
   "termsUse": {
     "termsTitle": "Rialtes Terms of Use",
-    "seoTitle":"Terms of Use | Rialtes",
-    "seoDescription":"Review the terms and conditions for using Rialtes’ website, services, and content. Understand your rights, responsibilities, and legal disclaimers.",
+    "seoTitle": "Terms of Use | Rialtes",
+    "seoDescription": "Review the terms and conditions for using Rialtes’ website, services, and content. Understand your rights, responsibilities, and legal disclaimers.",
     "termsDesc": "By accessing and using this website, you acknowledge and agree to be bound by the following terms and conditions, without limitation or qualification. These terms govern your use of our Website, including all content, services, and functionalities. If you do not agree with these terms, please refrain from using our Website.",
     "termsDescOne": "All content on this Website, including but not limited to text, images, graphics, logos, icons, videos, software, and the arrangement of such content, is the exclusive property of Rialtes Technologies and Solutions LLC unless otherwise stated. This content is protected under applicable copyright, trademark, and other intellectual property laws. All trademarks, trade names, and logos displayed on this Website are the property of their respective owners. Unauthorized use of any content, trademarks, or intellectual property from this Website may violate applicable laws and result in legal consequences.",
     "useTitle": "Use of Website and Restrictions",
@@ -463,8 +483,8 @@
   },
   "privacyPolicy": {
     "headerTitle": "Privacy Policy",
-    "seoTitle":"Privacy Policy | Rialtes",
-    "seoDescription":"Read Rialtes' Privacy Policy to understand how we collect, use, and protect your personal information while delivering exceptional IT consulting services.",
+    "seoTitle": "Privacy Policy | Rialtes",
+    "seoDescription": "Read Rialtes' Privacy Policy to understand how we collect, use, and protect your personal information while delivering exceptional IT consulting services.",
     "headerDate": "Effective Date: ",
     "headerDesc": "We value your privacy and are committed to protecting your data. This Privacy Notice explains how we collect, use, disclose, and protect your information when you visit our Website",
     "headerDescOne": ". It also describes your rights and choices regarding your personal information.",
