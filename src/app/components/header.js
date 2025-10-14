@@ -88,7 +88,6 @@ const Header = () => {
   };
 
 
-
   const menuItems = [
     {
       label: 'Solutions',
@@ -318,7 +317,7 @@ const Header = () => {
                       className="w-full text-left flex justify-between items-center"
                     >
                       <h4
-                        className={`text-sm cursor-pointer text-[16px]  ${activeLink === link.label ? 'text-blue-500 font-bold' : 'text-black'}`}
+                        className={`text-sm cursor-pointer text-[16px] ${link.label == "Life Sciences" && "font-light"} ${activeLink === link.label ? 'text-blue-500 font-bold' : 'text-black'}`}
                         onClick={() => handleLinkClick(link.label)}
                       >
                         {link.label}
@@ -339,11 +338,11 @@ const Header = () => {
                     {expandedSub === link.label && (
                       <div className="pt-2 text-gray-600">
                         {link.subLinks.map((subLink, subIdx) => (
-                          <div key={subIdx} className="border-b-[2px] pb-2 pt-2">
+                          <div key={subIdx} className="pb-2 pt-2">
                             <Link
                               href={subLink.href}
                               onClick={() => handleSubLinkClick(subLink.label)}
-                              className={`text-sm ${activeSubLink === subLink.label ? 'text-blue-500 font-bold' : 'text-[#505050] hover:text-[#05B1FD]'} cursor-pointer`}
+                              className={`text-sm ${link.label == "Life Sciences" && "ml-3"} ${activeSubLink === subLink.label ? 'text-blue-500 font-bold' : 'text-[#505050] hover:text-[#05B1FD]'} cursor-pointer`}
                               aria-label={subLink.label}
                             >
                               {subLink.label}
@@ -371,10 +370,9 @@ const Header = () => {
     );
   };
   return (
-    <section>
-      <div className="hidden lg:block fixed w-full bg-white top-0 z-50 shadow-md">
-
-        <div className="custom-container grid grid-cols-12 items-center gap-4 md:gap-4 xl:gap-6 py-4 md:py-6">
+    <section className="relative">
+      <div className="fixed top-0 left-0 right-0 w-full max-w-[1920px] mx-auto z-50">
+        <div className="bg-white shadow-md custom-container grid grid-cols-12 items-center gap-4 md:gap-4 xl:gap-6 py-4 md:py-6">
 
           <div className="col-span-3 md:col-span-2 lg:col-span-2 xl:col-span-2">
             <Link rel='preload' href="/" aria-label="Homepage"  >

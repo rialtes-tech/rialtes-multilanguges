@@ -144,16 +144,15 @@ const successStoryData = [
 
 ]
 const Home = () => {
-
     const sectionCount = 10;
     const [refs, inViews] = useMultipleScrollAnimation(sectionCount);
     const [activeIndexInsights, setActiveIndexInsights] = useState(0);
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const slides = useMemo(() => [
-        { link: "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/", title: "Life Science", image: '/images/homepage/life-science-banner-new.webp', imageMobile: '/images/homepage/life-sciece-mobile-banner.webp' },
-        { link: "/industry/manufacturing-cloud-erp/", image: '/images/homepage/manufacturing-banner-new.webp', title: "Manufacturing", imageMobile: '/images/homepage/manufacturing-mobile-banner.webp' },
-        { link: "/products/mediaina-reimagining-patient-journeys/", image: '/images/homepage/mediayana-banner-new.webp', title: "MediAIna", imageMobile: '/images/homepage/mediayan-mobile-banner.webp' },
+        { link: "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/", title: "Life Science", image: '/images/homepage/lifeaiplus-banner.webp', imageMobile: '/images/homepage/lifeaiplus-banner-mobile.webp' },
+        { link: "/industry/manufacturing-cloud-erp/", image: '/images/homepage/manufacturing-banner.webp', title: "Manufacturing", imageMobile: '/images/homepage/manufacturing-banner-mobile.webp' },
+        { link: "/products/mediaina-reimagining-patient-journeys/", image: '/images/homepage/mediaina-banner.webp', title: "MediAIna", imageMobile: '/images/homepage/mediaina-banner-mobile.webp' },
 
     ], [])
     const handlePrevInsights = () => {
@@ -203,13 +202,12 @@ const Home = () => {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             <div className="relative custom-container overflow-hidden">
-                <div className="w-full h-[400px] sm:h-[600px] lg:h-[540px] xl:h-[630px] 4xl:h-[700px] relative">
+                <div className="w-full max-[400px]:h-[340px] h-[480px] min-[500px]:h-[600px] sm:h-[780px] md:h-[700px] lg:h-[540px] xl:h-[630px] 4xl:h-[700px] relative">
                     {slides.map((s, i) => (
                         <Link key={i} href={s.link}>
                             <div
                                 className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${i === currentSlide ? "opacity-100 z-30" : "opacity-0 z-20"
-                                    }`}
-                            >
+                                    }`}>
                                 {/* Desktop */}
                                 <div className="hidden md:block w-full h-full relative">
                                     <Image
@@ -217,6 +215,7 @@ const Home = () => {
                                         alt={s.title}
                                         fill
                                         priority={i === 0}
+                                        className='max-lg:object-cover max-lg:object-[14%_20%]'
                                     />
                                 </div>
                                 {/* Mobile */}
@@ -226,6 +225,7 @@ const Home = () => {
                                         alt={s.title}
                                         fill
                                         priority={i === 0}
+                                        className='min-[400px]:object-cover'
                                     />
                                 </div>
                             </div>
@@ -233,37 +233,15 @@ const Home = () => {
                     ))}
 
                     {/* Arrows */}
-                    {/* <div className="absolute bottom-[-10px] right-0 z-30 flex gap-4">
-                        <div className='text-white xl:text-[25px] font-light'>
-                            {currentSlide + 1}/{slides.length}
-                        </div>
-                        <div>
+                    <div className="absolute bottom-4 lg:bottom-8 left-1/2 -translate-x-1/2 z-30 flex gap-4">
+                        {slides.map((_, index) => (
                             <button
-                                onClick={() =>
-                                    setCurrentSlide((prev) =>
-                                        prev === 0 ? slides.length - 1 : prev - 1
-                                    )
-                                }
-                                className="btn z-20 bg-white"
-                            >
-                                <svg viewBox="0 0 24 24" fill="black" width="45">
-                                    <polygon points="15,6 9,12 15,18" />
-                                </svg>
-                            </button>
-                            <button
-                                onClick={() =>
-                                    setCurrentSlide((prev) =>
-                                        prev === slides.length - 1 ? 0 : prev + 1
-                                    )
-                                }
-                                className="btn z-20 bg-white"
-                            >
-                                <svg viewBox="0 0 24 24" fill="black" width="45">
-                                    <polygon points="9,6 15,12 9,18" />
-                                </svg>
-                            </button>
-                        </div>
-                    </div> */}
+                                key={index}
+                                onClick={() => setCurrentSlide(index)}
+                                className={`lg:w-3 lg:h-3 w-2 h-2 rounded-full transition-all duration-300 ${currentSlide === index ? "bg-white scale-110" : "bg-white/30"}`}
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
 
@@ -300,49 +278,30 @@ const Home = () => {
             {/* success stories section */}
             <section className='custom-container lg:pr-0 xl:mt-[147px] mt-[87px]'>
                 <div
-
                     ref={refs[0]}
-
-                    className={`col-span-4 transition-all duration-1000 ease-out transform items-center grid xl:grid-cols-12 grid-cols-1 ${inViews[0] ? "opacity-100 translate-y-0" : "translate-y-12"
-
-                        }`}
-
-                >
+                    className={`col-span-4 transition-all duration-1000 ease-out transform items-center grid xl:grid-cols-12 grid-cols-1 ${inViews[0] ? "opacity-100 translate-y-0" : "translate-y-12"}`} >
                     <div className='col-span-5'>
                         <h2>Success Stories</h2>
                     </div>
                     <div className='col-span-7'>
                         <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5 pr-8 xl:pr-0 lg:w-[80%]'>Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.</p>
-
                     </div>
                     <div className='col-span-3'></div>
-
                 </div>
                 <div className='grid xl:grid-cols-4 md:grid-cols-2 mt-16 gap-10 xl:gap-0'>
-
                     {successStoryData.map((success, index) => {
-
                         // const isLight = success.theme === "light";
-
                         return (
                             <React.Fragment key={index}>
                                 <Link href={success.url}>
                                     <div className="relative  xl:h-[486px] h-[391px] w-[97%] overflow-hidden group shadow-lg">
                                         <div
-
-                                            className="absolute  inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]"
-
+                                            className="absolute inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]"
                                             style={{
-
                                                 backgroundImage: `url(${success.imageUrl})`,
-
                                                 backgroundSize: 'cover',
-
                                                 backgroundPosition: 'left center',
-
-                                            }}
-                                        ></div>
-
+                                            }}></div>
                                         <div className="absolute inset-0 hover:text-white bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
                                         <div className={`relative  z-10 p-6 text-white`}>
                                             <p className="mb-5 text-[18px] ">{success.title}</p>
@@ -352,29 +311,21 @@ const Home = () => {
                                             </h3>
                                         </div>
                                     </div>
-
                                     {(index + 1) % 4 === 0 && (
                                         <div className="w-full xl:col-span-4 xl:mt-10"></div>
-
                                     )}
                                 </Link>
                             </React.Fragment>
-
                         );
-
                     })}
                 </div>
-
             </section>
-
 
             {/* industry experties and solutions */}
             <section className='xl:mt-[158px] mt-[87px]'>
                 <div
                     ref={refs[1]}
-                    className={`custom-container transition-all duration-1000 ease-out transform items-center grid xl:grid-cols-12 grid-cols-1 ${inViews[1] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
-                        }`}
-                >
+                    className={`custom-container transition-all duration-1000 ease-out transform items-center grid xl:grid-cols-12 grid-cols-1 ${inViews[1] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`} >
                     <div className='col-span-6'>
                         <h2 className='4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] leading-tight'>Industry Expertise & Solutions</h2>
                     </div>
@@ -382,9 +333,7 @@ const Home = () => {
                         <p className='mt-5 xl:mt-0 sm:mt-5 lg:mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]'>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
                     </div>
                 </div>
-
                 <AutoTimerSlider />
-
             </section>
 
             {/* insights section */}
@@ -393,9 +342,7 @@ const Home = () => {
                     {/* mob section */}
                     <div
                         ref={refs[2]}
-                        className={`transition-all duration-1000 ease-out transform xl:pl-[68px] block lg:hidden mb-[23px] w-[90%] ${inViews[2] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
-                            }`}
-                    >
+                        className={`transition-all duration-1000 ease-out transform xl:pl-[68px] block lg:hidden mb-[23px] w-[90%] ${inViews[2] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
                         <h2 className="leading-tight 4xl:text-[48px] xl:text-[42px] text-[32px] font-bold text-[#073259]">
                             Insights
                         </h2>
