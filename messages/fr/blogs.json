@@ -5508,9 +5508,9 @@
         "hereAre": "Voici quelques améliorations réelles que les entreprises constatent grâce au développement personnalisé :",
         "thisisWhere": "C’est là que les services de développement Salesforce personnalisés libèrent une véritable efficacité CRM.",
         "list2": [
-          "<strong><h4 class='inline text-[20px]'>Automatisation des flux de travail manuels</h4></strong> Au lieu que les commerciaux mettent manuellement à jour les étapes des affaires, l’automatisation fait avancer les opportunités dans le pipeline.",
-          "<strong> <h4 class='inline text-[20px]'>Tableaux de bord conviviaux</h4></strong> Les dirigeants ne se perdent plus dans des données non pertinentes — ils voient exactement ce qui compte.",
-          "<strong> <h4 class='inline text-[20px]'>Intégrations transparentes</h4></strong/> Les systèmes financiers, marketing et ERP partagent automatiquement les données, éliminant les doubles saisies."
+          "<strong><h4 class='inline text-[20px]'>Automatisation des flux de travail manuels</h4></strong>: Au lieu que les commerciaux mettent manuellement à jour les étapes des affaires, l’automatisation fait avancer les opportunités dans le pipeline.",
+          "<strong> <h4 class='inline text-[20px]'>Tableaux de bord conviviaux</h4></strong>: Les dirigeants ne se perdent plus dans des données non pertinentes — ils voient exactement ce qui compte.",
+          "<strong> <h4 class='inline text-[20px]'>Intégrations transparentes</h4></strong/>: Les systèmes financiers, marketing et ERP partagent automatiquement les données, éliminant les doubles saisies."
         ]
       }
     ],
@@ -5519,9 +5519,9 @@
         "title": "Choisir le bon partenaire de développement Salesforce",
         "desc": "Bien que les partenaires Salesforce soient mondiaux, <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>travailler avec un partenaire Salesforce de premier plan</a> présente des avantages uniques :",
         "list2": [
-          "<strong>Proximité des marchés d’entreprise</strong> Les équipes comprennent les réglementations locales et les attentes des clients.",
-          "<strong>Conformité et sécurité</strong> Les partenaires américains maîtrisent HIPAA, SOC 2 et d’autres normes de conformité critiques.",
-          "<strong>Expertise certifiée</strong/> Un vivier de talents plus important de développeurs et consultants certifiés Salesforce."
+          "<strong><h3 class='text-[20px] font-bold inline-block'>Proximité des marchés d’entreprise</h3></strong>: Les équipes comprennent les réglementations locales et les attentes des clients.",
+          "<strong><h3 class='text-[20px] font-bold inline-block'>Conformité et sécurité</h3></strong>: Les partenaires américains maîtrisent HIPAA, SOC 2 et d’autres normes de conformité critiques.",
+          "<strong><h3 class='text-[20px] font-bold inline-block'>Expertise certifiée</h3></strong/>: Un vivier de talents plus important de développeurs et consultants certifiés Salesforce."
         ]
       }
     ],

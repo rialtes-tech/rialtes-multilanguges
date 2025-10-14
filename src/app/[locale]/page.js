@@ -38,18 +38,14 @@ const Home = () => {
     const t = useTranslations('homePage')
     const locale = useLocale();
     const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { carouselData, successStoryData } = homepageContent.homePage;
+    const { carouselData, successStoryData, slidesData } = homepageContent.homePage;
     const sectionCount = 10;
     const [refs, inViews] = useMultipleScrollAnimation(sectionCount);
     const [activeIndexInsights, setActiveIndexInsights] = useState(0);
     const [currentSlide, setCurrentSlide] = useState(0);
 
-    const slides = useMemo(() => [
-        { link: "/services/lob/salesforce-automotive-cloud-business-solutions-autosense/", title: "Autosense", image: '/images/homepage/autosense2.webp', imageMobile: '/images/homepage/autosense-mobile2.webp' },
-        { link: "/solutions/artificial-intelligence/salesforce-agentforce-consulting/", image: '/images/homepage/agenforce-desktop-2.webp', title: "Agentforce", imageMobile: '/images/homepage/agentforce-mobile.webp' },
-        { link: "/services/hxm-transformation/successplus-successfactors-implementation-partner/", image: '/images/homepage/success2.webp', title: "Success+", imageMobile: '/images/homepage/success-mobile2.webp' },
 
-    ], [])
+
     const handlePrevInsights = () => {
         setActiveIndexInsights((prevIndex) =>
             prevIndex === 0 ? carouselData.length - 1 : prevIndex - 1
@@ -64,10 +60,10 @@ const Home = () => {
 
     useEffect(() => {
         const timer = setInterval(() => {
-            setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+            setCurrentSlide((prev) => (prev === slidesData.length - 1 ? 0 : prev + 1));
         }, 5000);
         return () => clearInterval(timer);
-    }, [slides]);
+    }, [slidesData]);
 
 
     useEffect(() => {
@@ -98,7 +94,7 @@ const Home = () => {
             />
             <div className="relative custom-container overflow-hidden">
                 <div className="w-full h-[400px] sm:h-[600px] lg:h-[540px] xl:h-[630px] 4xl:h-[700px] relative">
-                    {slides.map((s, i) => (
+                    {slidesData.map((s, i) => (
                         <Link key={i} href={s.link}>
                             <div
                                 className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${i === currentSlide ? "opacity-100 z-30" : "opacity-0 z-20"
@@ -126,38 +122,6 @@ const Home = () => {
                         </Link>
                     ))}
 
-                    {/* Arrows */}
-                    {/* <div className="absolute bottom-[-10px] right-0 z-30 flex gap-4">
-                        <div className='text-white xl:text-[25px] font-light'>
-                            {currentSlide + 1}/{slides.length}
-                        </div>
-                        <div>
-                            <button
-                                onClick={() =>
-                                    setCurrentSlide((prev) =>
-                                        prev === 0 ? slides.length - 1 : prev - 1
-                                    )
-                                }
-                                className="btn z-20 bg-white"
-                            >
-                                <svg viewBox="0 0 24 24" fill="black" width="45">
-                                    <polygon points="15,6 9,12 15,18" />
-                                </svg>
-                            </button>
-                            <button
-                                onClick={() =>
-                                    setCurrentSlide((prev) =>
-                                        prev === slides.length - 1 ? 0 : prev + 1
-                                    )
-                                }
-                                className="btn z-20 bg-white"
-                            >
-                                <svg viewBox="0 0 24 24" fill="black" width="45">
-                                    <polygon points="9,6 15,12 9,18" />
-                                </svg>
-                            </button>
-                        </div>
-                    </div> */}
                 </div>
             </div>
 

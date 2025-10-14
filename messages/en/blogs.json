@@ -5622,9 +5622,9 @@
                 "hereAre": "Here are some real-world improvements enterprises see through custom development:",
                 "thisisWhere": "This is where tailored Salesforce development services unlock true CRM efficiency.",
                 "list2": [
-                    "<strong><h4 class='inline text-[20px]'>Automating manual workflow</h4></strong> Instead of sales reps manually updating deal stages, automation moves opportunities through the pipeline.",
-                    "<strong> <h4 class='inline text-[20px]'>User-friendly dashboards</h4></strong> Leaders no longer wade through irrelevant data—they see exactly what matters",
-                    "<strong> <h4 class='inline text-[20px]'>Seamless integrations</h4></strong/> Finance, marketing, and ERP systems share data automatically, eliminating double entry"
+                    "<strong><h4 class='inline text-[20px]'>Automating manual workflow</h4></strong>: Instead of sales reps manually updating deal stages, automation moves opportunities through the pipeline.",
+                    "<strong> <h4 class='inline text-[20px]'>User-friendly dashboards</h4></strong>: Leaders no longer wade through irrelevant data—they see exactly what matters",
+                    "<strong> <h4 class='inline text-[20px]'>Seamless integrations</h4></strong/>: Finance, marketing, and ERP systems share data automatically, eliminating double entry"
                 ]
             }
         ],
@@ -5633,9 +5633,9 @@
                 "title": "Choosing the Right Salesforce Development Partner",
                 "desc": "While Salesforce partners are global, <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>working with a leading Salesforce partner</a> comes with unique advantages:",
                 "list2": [
-                    "<strong>Proximity to enterprise markets</strong> Teams understand local industry regulations and customer expectations",
-                    "<strong>Compliance and security</strong> US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards",
-                    "<strong>Certified expertise</strong/> A deeper talent pool of Salesforce-certified developers and consultants"
+                "<strong><h3 class='text-[20px] font-bold inline-block'>Proximity to enterprise markets</h3></strong>: Teams understand local industry regulations and customer expectations",
+                "<strong><h3 class='text-[20px] font-bold inline-block'>Compliance and security</h3></strong>: US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards",
+                "<strong><h3 class='text-[20px] font-bold inline-block'>Certified expertise</h3></strong/>: A deeper talent pool of Salesforce-certified developers and consultants"
                 ]
             }
         ],

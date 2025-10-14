@@ -52,6 +52,26 @@
                 "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
             }
         ],
+        "slidesData": [
+            {
+                "link": "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/",
+                "title": "Life Science",
+                "image": "/images/homepage/life-science-spanish-banner.webp",
+                "imageMobile": "/images/homepage/life-science-mobile-spanish.webp"
+            },
+            {
+                "link": "/industry/manufacturing-cloud-erp/",
+                "title": "Manufacturing",
+                "image": "/images/homepage/manufacturing-spanish-banner.webp",
+                "imageMobile": "/images/homepage/manufact-mobile-spanish-banner.webp"
+            },
+            {
+                "link": "/products/mediaina-reimagining-patient-journeys/",
+                "title": "MediAIna",
+                "image": "/images/homepage/mediyana-spanish-banner.webp",
+                "imageMobile": "/images/homepage/mediyana-spanish-mobile-banner.webp"
+            }
+        ],
         "successStoryData": [
             {
                 "id": 1,
