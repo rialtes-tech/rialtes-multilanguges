@@ -1329,43 +1329,43 @@ const Header = () => {
         </div>
 
         {/* Drawer Menu (Mobile only) */}
-        <div
-          className={`fixed inset-0 bg-gray-800 bg-opacity-50 z-50 transform transition-transform duration-300 xl:hidden ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
-            }`}
-        >
-          <div className="bg-white w-full h-full p-4">
-            <div className="flex justify-between items-center px-4" onClick={toggleMenu}>
-              <div>
-                <svg
-                  className="w-6 h-6 text-gray-800"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M6 18L18 6M6 6l12 12"
+        <div className={`fixed inset-0 bg-gray-800 bg-opacity-50 z-50 transform transition-transform duration-300 xl:hidden ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`} >
+          <div className="bg-white w-full h-full p-4 overflow-y-auto">
+
+            <div className="fixed top-0 left-0 w-full bg-white z-50 p-4 border-b">
+              <div className="flex justify-between items-center px-4" onClick={toggleMenu}>
+                <div>
+                  <svg
+                    className="w-6 h-6 text-gray-800 cursor-pointer"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <Image
+                    loading="lazy"
+                    className="cursor-pointer"
+                    href='/'
+                    alt="Company Logo"
+                    height='150'
+                    width='100'
+                    src='/images/homepage/logo.svg'
+                    aria-label="Logo2"
                   />
-                </svg>
-              </div>
-              <div>
-                <Image
-                  loading="lazy"
-                  className="cursor-pointer"
-                  href='/'
-                  alt="Company Logo"
-                  height='150'
-                  width='100'
-                  src='/images/homepage/logo.svg'
-                  aria-label="Logo2"
-                />
+                </div>
               </div>
             </div>
 
-            <nav className="mt-5 border-t-2 p-3">
+
+            <nav className="mt-10 p-3">
               <ul>
                 {menuItems.map((item, idx) => (
                   <Accordion
@@ -1380,12 +1380,9 @@ const Header = () => {
                   />
                 ))}
                 <Link onClick={toggleMenu} href='/contact-us' aria-label="Contact us page">
-
                   <p className="text-sm mt-3 font-bold pb-8">Contact Us</p>
-
                 </Link>
-
-                <Link href='/contact-us' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={toggleMenu} className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">Let's Begin</Link>
+                <Link href='/contact-us' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={toggleMenu} className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-2 px-6 transition duration-300 order-4 mt-4">Lets Begin</Link>
               </ul>
             </nav>
           </div>
