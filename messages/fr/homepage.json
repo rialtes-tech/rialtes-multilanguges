@@ -58,7 +58,7 @@
                 "title": "Life Science",
                 "image": "/images/homepage/life-science-banner-french.webp",
                 "imageMobile": "/images/homepage/life-science-mobile-french.webp"
-            },
+            }, 
             {
                 "link": "/industry/manufacturing-cloud-erp/",
                 "title": "Manufacturing",
