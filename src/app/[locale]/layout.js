@@ -46,7 +46,7 @@ export default async function RootLayout({ children, params }) {
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="w-full mx-auto max-w-[1920px]">
               <Header /> 
-            <main className="xl:mt-[100px] lg:mt-[78px] md:mt-[80px] mt-[80px]">
+            <main className="2xl:mt-[170px] lg:mt-[110px] md:mt-[60px] mt-[60px]">
               <ClientLayout>{children}</ClientLayout>
             </main>
  

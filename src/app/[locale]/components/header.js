@@ -5,6 +5,8 @@ import { useRef, useState } from "react";
 import LanguageSwitcher from "./LanguageSwitcherDropdown";
 import arrowImg from "../../../../public/images/flags/arrow.png"
 import { useLocale, useTranslations } from "next-intl";
+import SearchBar from "./searchBar";
+
 
 const MenuItem = ({ label, link, onHover, className, onClick, isActive }) => {
   return (
@@ -338,12 +340,12 @@ const Header = () => {
   return (
     <section className="relative">
       <div className="fixed top-0 left-0 right-0 w-full max-w-[1920px] mx-auto z-50">
-        <div className="hidden lg:block bg-white shadow-md custom-container">
-          <div className="grid grid-cols-12 items-center gap-4 md:gap-4 xl:gap-6 py-4 md:py-6">
-            <div className="col-span-3 md:col-span-2 lg:col-span-2 xl:col-span-2">
+        <div className="hidden lg:block bg-white shadow-md custom-container 2xl:pt-[37px] 2xl:pb-[36px] py-[18px]">
+          <div className="flex justify-between">
+            <div className="">
               <Link rel='preload' href="/" aria-label="Homepage"  >
                 <Image
-                  className="cursor-pointer w-[120px] md:w-[130px] lg:w-[100px] xl:w-[165px] h-auto"
+                  className="cursor-pointer w-[120px] md:w-[130px] lg:w-[100px] 2xl:w-[145px] h-auto"
                   alt="Company logo"
                   width={165}
                   height={50}
@@ -354,83 +356,85 @@ const Header = () => {
                 />
               </Link>
             </div>
-            <div className={`col-span-9 md:col-span-10 lg:col-span-10 xl:col-span-10  whitespace-nowrap flex items-center  gap-2 md:gap-3  xl:gap-6 2xl:gap-5
-            ${locale === "es"
-                ? "justify-end lg:gap-3"
-                : locale === "fr"
-                  ? "justify-end lg:gap-3"
-                  : "justify-end lg:gap-6 overflow-x-auto"
-              }`}
-
-
-            >
-              <MenuItem
-                label={t('solutionTitle')}
-                link="/"
-                onHover={() => handleMouseEnterCard(1)}
-                onClick={() => handleMenuClick(1)}
-                className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
-                isActive={activeCard === 1}
-                aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
-              />
-              <MenuItem
-                label={t('productsTitle')}
-                link="/"
-                onHover={() => handleMouseEnterCard(2)}
-                onClick={() => handleMenuClick(2)}
-                isActive={activeCard === 2}
-                className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
-                aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
-
-              />
-              <MenuItem
-                label={t('servicesTitle')}
-                link="/"
-                onHover={() => handleMouseEnterCard(3)}
-                onClick={() => handleMenuClick(3)}
-                isActive={activeCard === 3}
-                className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
-                aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
-
-              />
-              <MenuItem
-                label={t('industriesTitle')}
-                link="/industry"
-                onHover={() => handleMouseEnterCard(4)}
-                onClick={() => handleMenuClick(4)}
-                isActive={activeCard === 4}
-                className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
-                aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
-
-              />
-              <MenuItem
-                label={t('aboutusTitle')}
-                link="/about-us"
-                onHover={() => handleMouseEnterCard(5)}
-                onClick={() => handleMenuClick(5)}
-                className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
-                isActive={activeCard === 5}
-                aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
-              />
-              <MenuItem
-                label={t('insightTitle')}
-                link="/insights"
-                onHover={() => handleMouseEnterCard(6)}
-                onClick={() => handleMenuClick(6)}
-                className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
-                isActive={activeCard === 6}
-                aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
-              />
-              <MenuItem
-                label={t('contactTitle')}
-                link="/contact-us"
-                className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
-                isActive={activeCard === 7}
-                aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
-              />
+            <div className="my-auto flex gap-4">
+              <SearchBar />
               <LanguageSwitcher arrowImg={arrowImg} />
             </div>
           </div>
+
+          <div className={`whitespace-nowrap flex items-center gap-2 md:gap-3 lg:gap-[60px] lg:mt-[28px]
+            ${locale === "es"
+              ? "lg:gap-3"
+              : locale === "fr"
+                ? "lg:gap-3"
+                : "lg:gap-6 overflow-x-auto"
+            }`}>
+            <MenuItem
+              label={t('solutionTitle')}
+              link="/"
+              onHover={() => handleMouseEnterCard(1)}
+              onClick={() => handleMenuClick(1)}
+              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
+              isActive={activeCard === 1}
+              aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
+            />
+            <MenuItem
+              label={t('productsTitle')}
+              link="/"
+              onHover={() => handleMouseEnterCard(2)}
+              onClick={() => handleMenuClick(2)}
+              isActive={activeCard === 2}
+              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
+              aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
+
+            />
+            <MenuItem
+              label={t('servicesTitle')}
+              link="/"
+              onHover={() => handleMouseEnterCard(3)}
+              onClick={() => handleMenuClick(3)}
+              isActive={activeCard === 3}
+              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
+              aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
+
+            />
+            <MenuItem
+              label={t('industriesTitle')}
+              link="/industry"
+              onHover={() => handleMouseEnterCard(4)}
+              onClick={() => handleMenuClick(4)}
+              isActive={activeCard === 4}
+              className={`md:font-bold font-normal 4xl:text-[19px]  2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
+              aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
+
+            />
+            <MenuItem
+              label={t('aboutusTitle')}
+              link="/about-us"
+              onHover={() => handleMouseEnterCard(5)}
+              onClick={() => handleMenuClick(5)}
+              className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
+              isActive={activeCard === 5}
+              aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
+            />
+            <MenuItem
+              label={t('insightTitle')}
+              link="/insights"
+              onHover={() => handleMouseEnterCard(6)}
+              onClick={() => handleMenuClick(6)}
+              className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
+              isActive={activeCard === 6}
+              aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
+            />
+            <MenuItem
+              label={t('contactTitle')}
+              link="/contact-us"
+              className={`md:font-bold font-normal 4xl:text-[19px]   2xl:text-[15px]  xl:text-[13px] text-[15px] lg:text-[14px]`}
+              isActive={activeCard === 7}
+              aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
+            />
+          </div>
+
           {/* Cards for each menu item */}
           <div>
             {/* solutions Card */}
@@ -1145,21 +1149,22 @@ const Header = () => {
       </div>
       {/* ///mobile menu */}
       <div>
-        <div className="lg:hidden flex justify-between items-center px-[35px] py-3 bg-white w-full z-50 fixed top-0 shadow-md" id="mobile-menu">
+        <div className="lg:hidden flex justify-between items-center px-[35px] py-1 bg-white w-full z-50 fixed top-0 shadow-md" id="mobile-menu">
 
           <Link href='/' aria-label="Homepage">
             <Image
               loading="lazy"
               className="cursor-pointer"
               alt="Company Logo"
-              height='150'
-              width='100'
+              height='140'
+              width='80'
               src='/images/homepage/logo.svg'
               aria-label="logo2"
             />
           </Link>
-          <div className="flex gap-4">
-            <div className="my-auto">
+          <div className="flex gap-4 max-[360px]:gap-1">
+            <div className="my-auto flex max-[360px]:gap-1 gap-4">
+              <SearchBar />
               <LanguageSwitcher arrowImg={arrowImg} />
             </div>
             <button onClick={toggleMenu} className="pt-4 pb-4">
