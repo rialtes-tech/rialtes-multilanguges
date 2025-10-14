@@ -287,7 +287,7 @@ export default function page() {
     console.log(filtered);
 
     return (
-        <section className="min-h-screen">
+        <section className="min-h-screen mb-20">
             <div className="custom-container">
                 <h2 className="font-semibold pt-10 text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                     Search results for : <span className="ml-2 text-black">{query}</span>
@@ -296,9 +296,10 @@ export default function page() {
                 {filtered.length > 0 ? (
                     <div className="mt-10 w-[80%]">
                         {filtered.map((data, i) => (
-                            <div className="mt-10">
+                            <div className="mt-10" key={i}>
                                 <Link key={i} href={"/insights/blogs/" + data.url}>
                                     <h3 className="mt-5 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold leading-tight hover:text-[#0092E0]">{data.title}</h3>
+                                    <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] text-gray-900">https://www.rialtes.com/insights/blogs{data.url}</p>
                                     <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.description}</p>
                                 </Link>
                             </div>
