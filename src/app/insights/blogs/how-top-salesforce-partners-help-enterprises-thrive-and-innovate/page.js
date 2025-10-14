@@ -401,14 +401,14 @@ export default function Page() {
 
 
 
-                                <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-[48px] xl:mt-[80px] font-bold">What qualifies as a certified Salesforce partner?</h3>
+                                <h2 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-[48px] xl:mt-[80px] font-bold">What qualifies as a certified Salesforce partner?</h2>
 
                                 <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-x-[60px] lg:gap-0 sm:w-[80%] md:w-full">
                                     {
                                         whatQualifies.map((data, ind) => {
                                             return (
                                                 <div key={ind} className={`mt-[48px] ${(ind == 1 || ind == 2) ? "lg:px-[32px] border-[#707070] lg:border-l max-md:border-b max-md:pb-5" : ""} ${ind == 3 ? "lg:pl-[32px] border-[#707070] lg:border-l" : ""} ${ind == 0 ? "lg:pr-[40px] md:border-b lg:border-0 border-[#707070] max-md:border-b max-md:pb-5" : ""} ${(ind == 1) ? "pb-4 md:border-b lg:border-0" : ""}`}>
-                                                    <h4 className="4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[18px] text-[18px] font-bold text-[#006FBE] ">{data.title}</h4>
+                                                    <h3 className="4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[18px] text-[18px] font-bold text-[#006FBE] ">{data.title}</h3   >
                                                     <p className="md:mt-5 mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] md:mb-4">{data.desc}</p>
                                                 </div>
                                             )
@@ -465,25 +465,25 @@ export default function Page() {
                                     keyBenefits.map((data, ind) => {
                                         return (
                                             <div
-                                                className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[46px] px-[26px] 
-                                                           md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative 
-                                                           md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto 4xl:w-[86%]"
+                                                className="md:flex mt-24 md:mt-10 py-[34px] 2xl:py-[46px] xl:py-[40px] px-[26px] 
+                                                           md:pr-[44px] 4xl:pr-[80px] 2xl:pr-[60px] xl:pr-[40px] border border-[#707070] relative 
+                                                           md:ml-[90px] sm:w-[80%] md:w-[78%] lg:w-[80%] xl:w-[86%] 4xl:w-[86%] 2xl:w-[80%] "
                                                 key={ind}>
                                                 <h3
-                                                    className="md:absolute md:flex items-center justify-center
+                                                    className="md:absolute md:flex items-center justify-start
                                                                 max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
                                                                 md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
                                                                 bg-[#006FBE] text-white font-semibold
                                                                 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
                                                                 px-[30px] py-[22px] leading-tight
-                                                                4xl:w-[340px] xl:w-[280px] md:w-[240px] w-fit 4xl:h-[100px]">
+                                                                4xl:w-[340px] 2xl:w-[320px] xl:w-[300px] md:w-[300px] w-fit 4xl:h-[100px] 2xl:h-[100px] xl:h-[90px]">
                                                     {data.title}
                                                 </h3>
 
                                                 <div
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
                                                                 font-medium my-auto max-md:mt-8
-                                                                md:ml-[220px] xl:ml-[210px] 4xl:ml-[300px]"
+                                                                md:ml-[220px] xl:ml-[260px] 4xl:ml-[310px] 2xl:ml-[300px]  "
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                             </div>
@@ -514,9 +514,9 @@ export default function Page() {
                                                 <ul className="list-disc pl-[36px] mt-4 space-y-2">
                                                     {section.list.map((item, i) => (
                                                         <li key={i}>
-                                                            <h4 className="font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] inline">
+                                                            <p className="font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] inline">
                                                                 {item.title}
-                                                            </h4>
+                                                            </p>
                                                             <p className="mt-1 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] inline">
                                                                 {item.description}
                                                             </p>
