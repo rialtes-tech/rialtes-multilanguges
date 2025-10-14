@@ -4,7 +4,6 @@ import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
-import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
