@@ -5836,9 +5836,9 @@
                 "title": "Choosing the Right Salesforce Development Partner",
                 "desc": "While Salesforce partners are global, <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>working with a leading Salesforce partner</a> comes with unique advantages:",
                 "list2": [
-                    "<strong><h3 class='text-[20px] font-bold inline-block'>Proximity to enterprise markets</h3></strong>: Teams understand local industry regulations and customer expectations",
-                    "<strong><h3 class='text-[20px] font-bold inline-block'>Compliance and security</h3></strong>: US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards",
-                    "<strong><h3 class='text-[20px] font-bold inline-block'>Certified expertise</h3></strong/>: A deeper talent pool of Salesforce-certified developers and consultants"
+                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Proximity to enterprise markets</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> Teams understand local industry regulations and customer expectations </span>",
+                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Compliance and security</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards </span>",
+                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Certified expertise</h3></strong/>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> A deeper talent pool of Salesforce-certified developers and consultants </span>"
                 ]
             }
         ],
@@ -5884,10 +5884,10 @@
                 "desc3": "We don’t just implement Salesforce for you; we help you transform it into a growth engine. With our Crest Partner status, Rialtes combines deep industry expertise with proven Salesforce excellence.",
                 "desc4": "If your enterprise is ready to move beyond off-the-shelf solutions and unlock the full power of Salesforce, Rialtes is here to help you thrive.",
                 "list2": [
-                    "<strong>Salesforce CRM optimization </strong> to streamline operations.",
-                    "<strong>Custom integrations</strong> with ERP, marketing, and legacy systems",
-                    "<strong>App development</strong/> tailored to your unique workflows",
-                    "<strong>AI and analytics enablement</strong/> for future-ready insights"
+                    "<strong>Salesforce CRM optimization </strong>: to streamline operations.",
+                    "<strong>Custom integrations</strong>: with ERP, marketing, and legacy systems",
+                    "<strong>App development</strong/>: tailored to your unique workflows",
+                    "<strong>AI and analytics enablement</strong/>: for future-ready insights"
                 ]
             }
         ],
