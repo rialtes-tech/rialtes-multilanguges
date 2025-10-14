@@ -190,7 +190,17 @@
     ],
     "latestBlogs": [
       {
-        "id": 44,
+        "id": 45,
+        "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
+        "category": "Salesforce",
+        "industry": "Genérico",
+        "date": "Oct. 10, 2025",
+        "url": "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate",
+        "title": "Cómo los principales socios de Salesforce ayudan a las empresas a prosperar e innovar",
+        "description": "Salesforce se ha convertido en la base de las soluciones CRM empresariales modernas, ayudando a las organizaciones a unificar datos, optimizar procesos y ofrecer experiencias personalizadas a los clientes."
+      },
+      {
+         "id": 44,
         "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
         "category": "Salesforce",
         "industry": "SAP",
