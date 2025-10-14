@@ -1583,6 +1583,7 @@
     "insights": "Perspectivas"
   },
   "revenueCloud": {
+    "revenueCloudImg":"/images/revenue-cloud/revenue-cloud-infographic-spanish.webp",
     "revenueStats": [
       {
         "value": "40%",

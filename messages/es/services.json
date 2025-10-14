@@ -192,6 +192,8 @@
         "keyFeatureTitle": "Características Clave de AgentChat para Usuarios SAP ARIBA"
     },
     "successPlus": {
+        "keyServiceImg":"/images/services/success-plus/key-service-spanish.webp",
+        "keyServiceImgMobile":"/images/services/success-plus/Mobile/key-service-spanish-mobile.webp",
         "headerTitle": "Success+",
         "seoTitle": "Consultoría e Implementación de SAP SuccessFactors | Rialtes",
         "seoDescription": "Success+ de Rialtes moderniza RRHH con consultoría e implementación SuccessFactors impulsada por IA para acelerar tu transformación HCM.",

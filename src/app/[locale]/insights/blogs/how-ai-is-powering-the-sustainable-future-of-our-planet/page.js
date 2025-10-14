@@ -265,7 +265,7 @@ export default function Page() {
                 </p>
 
                 <Image
-                  src="/images/blog/sus-contain.webp"
+                  src={t('susContain')}
                   alt="LinkedIn"
                   width={0}
                   height={0}

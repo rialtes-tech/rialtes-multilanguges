@@ -192,6 +192,8 @@
         "keyFeatureTitle": "Key Features of AgentChat for SAP ARIBA Users"
     },
     "successPlus": {
+        "keyServiceImg":"/images/services/success-plus/key-services-desk.webp",
+        "keyServiceImgMobile":"/images/services/success-plus/Mobile/key-services-mob.webp",
         "headerTitle": "Success+",
         "seoTitle": "SAP SuccessFactors Consulting and Implementation Partners | Rialtes",
         "seoDescription": "Success+ by Rialtes delivers AI-powered SuccessFactors consulting and implementation to modernize HCM and accelerate your HR transformation. Let’s begin!",

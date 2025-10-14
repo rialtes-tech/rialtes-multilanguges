@@ -3607,6 +3607,7 @@
         ]
     },
     "aiPowerBlog": {
+        "susContain":"/images/blog/sus-contain.webp",
         "seoTitle": "How AI Can Enable a Sustainable Future for Our Planet | Rialtes",
         "seoDescription": "AI is helping protect the planet and make sustainability scalable, from tracking deforestation to predicting energy demand and preserving biodiversity.",
         "artificial": "Artificial Intelligence",
