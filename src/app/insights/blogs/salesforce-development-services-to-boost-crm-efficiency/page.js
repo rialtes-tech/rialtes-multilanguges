@@ -275,9 +275,9 @@ export default function Page() {
             "title": "Choosing the Right Salesforce Development Partner",
             "desc": "While Salesforce partners are global, <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>working with a leading Salesforce partner</a> comes with unique advantages:",
             "list2": [
-                "<strong><h3 class='4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] font-bold inline-block'>Proximity to enterprise markets</h3></strong>: <span class='4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]'> Teams understand local industry regulations and customer expectations</span>",
-                "<strong><h3 class='4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] font-bold inline-block'>Compliance and security</h3></strong>: <span class='4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]'> US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards</span>",
-                "<strong><h3 class='4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] font-bold inline-block'>Certified expertise</h3></strong/>:  <span class='4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]'>A deeper talent pool of Salesforce-certified developers and consultants </span/>",
+                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Proximity to enterprise markets</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> Teams understand local industry regulations and customer expectations</span>",
+                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Compliance and security</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards</span>",
+                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Certified expertise</h3></strong/>:  <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'>A deeper talent pool of Salesforce-certified developers and consultants </span/>",
             ]
         }
     ]
