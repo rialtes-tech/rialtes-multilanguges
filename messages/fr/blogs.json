@@ -215,6 +215,7 @@
         "availabilityData3": "rationalisant les opérations et améliorant les flux de travail. En exploitant l’apprentissage automatique et le traitement du langage naturel, nous alignons les agents sur les objectifs de l’organisation afin d’atteindre une automatisation intelligente et efficace. Contactez-nous à"
     },
     "himachalBlog": {
+        "impactImage":"/images/blog/impact-image-french.webp",
         "seoTitle": "L’essor de l’Himachal dans l’industrie pharmaceutique indienne | Rialtes",
         "seoDescription": "Découvrez comment l’Himachal est devenu un leader de la production pharmaceutique grâce aux ZES, avantages fiscaux et réseaux mondiaux.",
         "blogTopic": "Général",
@@ -1786,6 +1787,8 @@
         "empowerLink": "consultants experts SAP SuccessFactors"
     },
     "agentCopilot": {
+        "agentChart":"/images/blog/chart-french.webp",
+        "agentChartMobile":"/images/blog/chart-french-m.webp",
         "seoTitle": "Agents, copilotes ou bots : différences clés expliquées | Rialtes",
         "seoDescription": "Découvrez les différences entre bots, copilotes et agents IA. Choisissez l’outil idéal pour accroître la productivité et transformer vos processus.",
         "blogTopic": "Salesforce Agentforce",
