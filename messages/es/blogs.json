@@ -215,6 +215,7 @@
         "availabilityData3": "optimizando las operaciones y mejorando los flujos de trabajo. Al aprovechar el aprendizaje automático y el procesamiento del lenguaje natural, alineamos los agentes con los objetivos de la organización para lograr una automatización inteligente y eficiente. Contáctanos en"
     },
     "himachalBlog": {
+       "impactImage":"/images/blog/impact-image-spanish.webp",
         "seoTitle": "El Auge de Himachal en la Industria Farmacéutica India",
         "seoDescription": "Descubre cómo Himachal Pradesh se convirtió en líder en manufactura farmacéutica con ZEE, incentivos fiscales y más de 600 plantas certificadas.",
         "blogTopic": "General",
@@ -1786,6 +1787,8 @@
         "empowerLink": "consultores expertos en SAP SuccessFactors"
     },
     "agentCopilot": {
+        "agentChart":"/images/blog/chart-spanish.webp",
+        "agentChartMobile":"/images/blog/chart-spanish-m.webp",
         "seoTitle": "Agentes vs. Copilotos vs. Bots: Diferencias Clave",
         "seoDescription": "Descubre las diferencias entre bots, copilotos y agentes de IA. Elige la mejor herramienta de automatización para productividad y flujos eficientes.",
         "blogTopic": "Salesforce Agentforce",

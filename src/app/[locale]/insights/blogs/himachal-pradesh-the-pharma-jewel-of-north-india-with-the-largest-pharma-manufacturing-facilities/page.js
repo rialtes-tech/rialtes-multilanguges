@@ -97,7 +97,7 @@ export default function Page() {
                   );
                 })}
                 <Image
-                  src="/images/blog/infographic.png"
+                  src={t('impactImage')}
                   alt="India's impact on the global pharmaceutical industry"
                   width={0}
                   height={0}
@@ -187,7 +187,7 @@ export default function Page() {
                       <p
                         className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                         key={ind}
-                      >
+                      >\     
                         {data}
                       </p>
                     );
