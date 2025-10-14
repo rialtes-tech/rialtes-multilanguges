@@ -6,6 +6,7 @@ import LanguageSwitcher from "./LanguageSwitcherDropdown";
 import arrowImg from "../../../../public/images/flags/arrow.png"
 import { useLocale, useTranslations } from "next-intl";
 import SearchBar from "./searchBar";
+import { useRouter } from "next/navigation";
 
 
 const MenuItem = ({ label, link, onHover, className, onClick, isActive }) => {
@@ -35,6 +36,7 @@ const Header = () => {
   const [activeSubLink, setActiveSubLink] = useState(null);
   const t = useTranslations("header")
   const locale = useLocale();
+  const router = useRouter()
   const handleSubMenuClick = (section) => {
     setOpenSection(section);
   };
@@ -71,7 +73,7 @@ const Header = () => {
   const handleLinkClick = (e, link) => {
     e.preventDefault();
     setActiveLink(false); // Close the card
-    window.location.href = link;  // This will navigate after closing the card
+    router.push(link)
   };
   const handleSubLinkClick = (label) => {
     setActiveSubLink(label); // Set the submenu link as active
@@ -287,7 +289,7 @@ const Header = () => {
                       onClick={() => toggleSubAccordion(link.label)}
                       className="w-full text-left flex justify-between items-center">
                       <h4
-                        className={`text-sm cursor-pointer text-[16px]  ${activeLink === link.label ? 'text-blue-500 font-bold' : 'text-black'}`}
+                        className={`text-sm cursor-pointer text-[16px] ${link.label == t('lifeScienceLabel') && "font-light"} ${activeLink === link.label ? 'text-blue-500 font-bold' : 'text-black'}`}
                         onClick={() => handleLinkClick(link.label)}>
                         {link.label}
                       </h4>
@@ -310,7 +312,7 @@ const Header = () => {
                             <Link
                               href={subLink.href}
                               onClick={() => handleSubLinkClick(subLink.label)}
-                              className={`text-sm ${activeSubLink === subLink.label ? 'text-blue-500 font-bold' : 'text-[#505050] hover:text-[#05B1FD]'} cursor-pointer`}
+                              className={`text-sm ${link.label == t('lifeScienceLabel') && "ml-3"} ${activeSubLink === subLink.label ? 'text-blue-500 font-bold' : 'text-[#505050] hover:text-[#05B1FD]'} cursor-pointer`}
                               aria-label={subLink.label}
                             >
                               {subLink.label}
