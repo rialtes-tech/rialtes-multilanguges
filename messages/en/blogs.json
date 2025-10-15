@@ -92,7 +92,7 @@
         "useCasesData": "Unplanned downtime can drain revenue and erode customer trust. Agentforce helps field service teams flip the script, from reacting to issues to anticipating them. By integrating with Salesforce Field Service, Agentforce analyses real-time signals from warranty claims, service logs, and IoT-enabled equipment. Following is the outcome of that:",
         "useCasesData2": "Instead of waiting for problems to show up, you're already solving them. That’s predictive intelligence in action and a clear advantage over teams still chasing tickets.",
         "agentforceTitle": "Agentforce for Manufacturing Sales: Simplifying B2B with AI and Salesforce CPQ",
-        "agentforceData": "Industrial manufacturing sales are anything but simple. Multiple stakeholders, fluctuating specs, made-to-order configurations, and pricing dependencies mean manual back-and-forth kills speed and accuracy. Agentforce simplifies this mess using smart agents integrated with Salesforce CPQ and Data Cloud.",
+        "agentforceData": ["Industrial manufacturing sales are anything but simple. Multiple stakeholders, fluctuating specs, made-to-order configurations, and pricing dependencies mean manual back-and-forth kills speed and accuracy. Agentforce simplifies this mess using <a href='https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smart agents</a> integrated with Salesforce CPQ and Data Cloud."],
         "agentforceData2": "This way, you’re not just reducing friction, you’re giving your sales team room to grow accounts instead of chasing paperwork.",
         "empowerTitle": "Empower Distributors and Channel Partners with Self-Service Agents",
         "empowerTitle2": "Give partners real-time access to inventory, returns, and service tools",
@@ -109,14 +109,11 @@
             "Agentforce taps into Salesforce Manufacturing Cloud, Service Cloud, and ERP integrations to give you:"
         ],
         "dontDeliverTitle": "Don’t Just Deliver Products. Deliver Trust at Every Touchpoint",
-        "dontDeliverData": "Manufacturers already know how to build machines. But building lasting relationships? That takes more than machinery. It takes the ability to anticipate needs, personalize every interaction, and scale support without losing quality. Agentforce gives you exactly that: a smarter, AI-powered way to make every touchpoint count. If you're evaluating how AI agents differ from copilots or bots in driving efficiency and growth, explore our",
-        "dontDeliverDataLink": "strategic comparison of Agents vs Copilots vs Bots.",
-        "dontDeliverData2": "While competitors are still chasing tickets and juggling systems, this is your chance to outgrow expectations—and the competition.",
-        "asTitle": "As a",
-        "asDataLink": "top-rated Salesforce Crest Partner,",
-        "asData2": "we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our Managed Services and Consulting can help your business integrate AI agents into Sales, Service, Marketing, and Commerce.",
-        "readyToTitle": "Ready to see Agentforce in action for your manufacturing business?",
-        "letsTalk": "Let’s talk.",
+        "dontDeliverData": [
+            "Manufacturers already know how to build machines. But building lasting relationships? That takes more than machinery. It takes the ability to anticipate needs, personalize every interaction, and scale support without losing quality. Agentforce gives you exactly that: a smarter, AI-powered way to make every touchpoint count. If you're evaluating how AI agents differ from copilots or bots in driving efficiency and growth, explore our <a href='https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>strategic comparison of Agents vs Copilots vs Bots</a>. While competitors are still chasing tickets and juggling systems, this is your chance to outgrow expectations—and the competition.",
+            "As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>top-rated Salesforce Crest Partner</a>,we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our Managed Services and Consulting can help your business <a href='https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>integrate AI agents</a> into Sales, Service, Marketing, and Commerce.",
+            "Ready to see Agentforce in action for your manufacturing business? <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Let’s talk</a>."
+        ],
         "faqTitle": "FAQs: Agentforce for AI-Powered Manufacturing Transformation"
     },
     "discoverAgentExchange": {
@@ -1852,11 +1849,11 @@
         "blogTitle": "Agents vs. Copilots vs. Bots:",
         "blogMainData": "A Strategic Comparison That Drives AI Adoption Right",
         "why": "Why Understanding Bots, Copilots, and AI Agents Matters for Your Business",
-        "whyDesc": "AI tools are shaping how industries like manufacturing, automotive, and customer service operate at scale. The right AI assistant can completely change how teams work, from automating repetitive tasks to delivering real-time insights.",
-        "whyDescOne": "But here's the problem: bots, copilots, and AI agents are often used interchangeably, even though they mean very different things. That confusion can lead to the wrong tech choices and underwhelming results.",
-        "whylink": "This breakdown aims to clear the air. We'll look at the differences between these types of AI assistants, how each one works, and what kind of use cases they’re best suited for. So you can match the right solution to your business goals, whether it's ",
-        "whylinkOne": "agent-based automation in manufacturing",
-        "whylinkTwo": " or deploying smart copilots for field teams.",
+        "whyData": [
+            "AI tools are shaping <a href='https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>how industries like manufacturing<a/>, automotive, and customer service operate at scale. The right AI assistant can completely change how teams work, from automating repetitive tasks to delivering real-time insights.",
+            "But here's the problem: bots, copilots, and AI agents are often used interchangeably, even though they mean very different things. That confusion can lead to the wrong tech choices and underwhelming results.",
+            "This breakdown aims to clear the air. We'll look at the differences between these types of AI assistants, how each one works, and what kind of use cases they’re best suited for. So you can match the right solution to your business goals, whether it's <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>agent-based automation in manufacturing</a> or deploying smart copilots for field teams."
+        ],
         "title": "The greatest danger in times of turbulence is not the turbulence, it is to act with yesterday’s logic.”",
         "name": " — Peter Drucker",
         "aiTitle": "Let’s make sure your AI strategy isn’t stuck in yesterday’s definitions.",
@@ -1878,11 +1875,11 @@
         "decision": "Decision Matrix: Choosing Between Bots, Copilots, and AI Agents for Business Use Cases",
         "real": "Real-World Case Studies: AI in Action",
         "toolTitle": "How AI Tools Are Merging in Industry 4.0: Copilots, Bots, and Agents Explained",
-        "toolDesc": "AI’s future will likely see greater integration of these tools. What used to be separate tools- chatbots answering basic queries, copilots assisting users in CRMs, and agents running autonomous operations are increasingly working together in unified, AI-powered workflows.",
-        "toolDecs1": "AI convergence is transforming the factory floor, where a workflow may include a bot capturing data, a copilot validating it in ERP, and an agent determining the next steps. Agentforce agents are highly autonomous, capable of making data-driven decisions and learning from experiences without human oversight. They use sensors and actuators to sense their environment and pursue goals independently, such as automated production rescheduling during supply delays or resolving quality issues in manufacturing. These agents access data from ERP, MES, CRM, and IoT systems to make contextual decisions and initiate appropriate workflows.",
-        "toolLink": "Interested in learning more about Agentforce agents or need help getting started? We’re here to assist. At Rialtes, we specialize in ",
-        "toolLink1": "Agentforce consulting",
-        "toolLink2": " and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to handle complex, evolving tasks autonomously. Talk to us about aligning the right AI with your business process.",
+        "toolData": [
+            "AI’s future will likely see greater integration of these tools. What used to be separate tools- chatbots answering basic queries, copilots assisting users in CRMs, and agents running autonomous operations are increasingly working together in unified, AI-powered workflows.",
+            "AI convergence is transforming the factory floor, where a workflow may include a bot capturing data, a copilot validating it in ERP, and an agent determining the next steps. <a href='https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce agents are highly autonomous</a>, capable of making data-driven decisions and learning from experiences without human oversight. They use sensors and actuators to sense their environment and pursue goals independently, such as automated production rescheduling during supply delays or resolving quality issues in manufacturing. These agents access data from ERP, MES, CRM, and IoT systems to make contextual decisions and initiate appropriate workflows.",
+            "Interested in learning more about Agentforce agents or need help getting started? We’re here to assist. At Rialtes, we specialize in <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce consulting</a> and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to handle complex, evolving tasks autonomously. Talk to us about aligning the right AI with your business process."
+        ],
         "faq": "FAQs: Bots vs Copilots vs Agents — Top Questions Answered",
         "scenario": "Scenario",
         "task": "Task Complexity",
@@ -2504,8 +2501,8 @@
         "humansTitle": "Humans and Agents: A Smarter Partnership",
         "humansData": [
             "Agentic AI isn’t replacing humans. It’s amplifying what we do best - strategize, empathize, innovate.",
-            "The future lies in collaboration: humans define the vision, and agents take care of the execution. When that balance works, businesses unlock real efficiency and creativity. At Rialtes, we make this transformation real. We help enterprises deploy agentic systems that are secure, scalable, and purpose-built for results. Our digital thread portfolio weaves AI across engineering, operations, and service, backed by partnerships with the best in the industry.",
-            "Now’s the time. Agentic AI isn’t just a tech upgrade; it’s a mindset shift. Waiting means falling behind. Let’s talk about how to make your enterprise truly intelligent."
+            "The future lies in collaboration: humans define the vision, and agents take care of the execution. When that balance works, businesses unlock real efficiency and creativity. At Rialtes, we make this transformation real. We help enterprises <a href='https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>deploy agentic systems</a> that are secure, scalable, and purpose-built for results. Our digital thread portfolio weaves AI across engineering, operations, and service, backed by partnerships with the best in the industry.",
+            "Now’s the time. Agentic AI isn’t just a tech upgrade; it’s a mindset shift. Waiting means falling behind. <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Let’s talk</a> about how to make your enterprise truly intelligent."
         ],
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
@@ -2656,9 +2653,9 @@
             "AI agents improve CX by automating case resolution, detecting delays, and driving retention.",
             "From factory to field service, Agentforce AI turns operations into proactive, customer-focused systems."
         ],
-        "rialtesTalkDesc": "Talk to Rialtes. We help manufacturers deploy Agentforce systems that transform both the shop floor and the customer journey. As a",
-        "rialtesTalkLink": "top-rated Salesforce Crest Partner",
-        "rialtesTalkDesc2": "we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our Managed Services and Consulting can help your business integrate AI agents into Sales, Service, Marketing, and Commerce",
+        "rialtesTalkData": [
+            "Talk to Rialtes. We help manufacturers deploy Agentforce systems that transform both the shop floor and the customer journey. As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>top-rated Salesforce Crest Partner</a> we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our <a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Managed Services</a> and Consulting can help your business integrate AI agents into Sales, Service, Marketing, and Commerce"
+        ],
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "firstAiAgent": {
@@ -3257,7 +3254,7 @@
         "blogMainData": [
             "Industrial automation isn’t a new concept. Robots have been welding, assembling, and packaging on factory floors for decades. But here’s the shift: automation is no longer just about machines moving faster. It’s about systems thinking smarter. But most factories still rely on automation that follows fixed rules, limited to one job, one system, and zero learning.",
             "Here’s the issue: Manufacturers today face a complex web of global demand shifts, compliance pressure, customer personalization needs, and fragile supply chains. Solving for that requires more than just faster arms and pre-programmed bots.",
-            "That's where AI agents can help you incorporate intelligence that can adapt, reason, and act across the value chain. The next generation of smart manufacturing transcends automation and becomes agentic."
+            "That's where AI agents can help you incorporate intelligence that can adapt, reason, and act across the value chain. The next generation of <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smart manufacturing</a> transcends automation and becomes agentic."
         ],
         "whyNeedShiftData": [
             "In addition to executing, they understand goals and work toward them.",
@@ -3299,7 +3296,7 @@
                     "Identify accounts at churn risk based on behavior or sentiment",
                     "Recommend personalized follow-ups, preventive maintenance, or upsell opportunities"
                 ],
-                "desc2": "This is where real customer experience is won, not just in what you build, but how you support and evolve with the customer over time."
+                "desc2": "This is where <a href='https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>real customer experience is won</a>, not just in what you build, but how you support and evolve with the customer over time."
             },
             {
                 "title": "AI That Unifies OEMs, Distributors, and Channel Partners",
@@ -3354,7 +3351,7 @@
             "Bots follow instructions.",
             "Agents follow intent.",
             "And that’s the leap manufacturers need to thrive in the next decade.",
-            "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a Salesforce Crest Partner, we bring the strategy, systems, and support to make AI agents real and fast."
+            "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce Crest Partner</a>, we bring the strategy, systems, and support to make AI agents real and fast."
         ],
         "faqData": [
             {
@@ -3410,7 +3407,9 @@
         "agenticDesc": "You don’t need to overhaul everything on Day 1. Start where it matters:",
         "agenticDesc2": "These agents plug directly into your Salesforce stack—CPQ, Service Cloud, Manufacturing Cloud, and scale as you grow.",
         "readyTitle": "Ready to Upgrade from Automation to Intelligence?",
-        "readyDesc": "Let’s build smarter factories with thinking agents.",
+        "readyDesc": [
+            "Let’s build <a href='https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smarter factories with thinking agents</a>."
+        ],
         "faqTitle": "FAQs: Smart Manufacturing with AI Agents"
     },
     "howAgentforce": {
@@ -3435,13 +3434,17 @@
         "universalTitle": " Universal Integration with Model Context Protocol (MCP)",
         "modelTitle": "The Model Context Protocol (MCP) brings the “USB-C for AI agents” to automotive IT systems. For manufacturers juggling multiple platforms such as ERP, MES, PLM, and IoT dashboards. MCP acts as the universal adapter.",
         "modelDesc": "This means your agents can now trigger reorders, adjust supply forecasts, or analyze parts defects in real time, across platforms.",
-        "modelDesc1": "As automotive factories evolve beyond robotic task execution, intelligent agents are redefining how systems collaborate, learn, and respond. Explore how this shift is shaping the Future of Smart Manufacturing.",
+        "modelDesc1": [
+            "As automotive factories evolve beyond robotic task execution, intelligent agents are redefining how systems collaborate, learn, and respond. Explore how this shift is shaping <a href='https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>the Future of Smart Manufacturing</a>."
+        ],
         "qualityTitle": "Revolutionize Quality and Compliance",
         "driveTitle": "  Drive Innovation with the AgentExchange",
         "driveDesc": "Salesforce’s AgentExchange brings a plug-and-play marketplace for automotive innovation.",
         "driveDesc1": "Instead of building every agent from scratch, manufacturers can now:",
         "useTitle": " Use cases tailored to automotive manufacturers include:",
-        "useDesc": "This ecosystem-driven approach allows manufacturers to adopt proven agent workflows quickly without starting from scratch. It drastically reduces development time, accelerates deployment, and ensures that industry best practices and regulatory compliance are built into every agent from day one, giving automotive companies a smarter, faster, and more secure path to AI adoption with Agentforce for automotive manufacturing.",
+        "useDesc": [
+            "This ecosystem-driven approach allows manufacturers to adopt proven agent workflows quickly without starting from scratch. It drastically reduces development time, accelerates deployment, and ensures that industry best practices and regulatory compliance are built into every agent from day one, giving automotive companies a smarter, faster, and more secure path to <a href='https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AI adoption with Agentforce</a> for automotive manufacturing."
+        ],
         "action": "Accelerate Time to Value with Pre-Built Industry Actions",
         "actionDesc": "Agentforce 3.0 isn’t just for tech groups; it’s built for immediate value on the factory floor. Salesforce is rolling out 100+ pre-built industry actions in 2025, tailored for sectors like automotive.",
         "useCase": "Use cases include:",
@@ -4761,7 +4764,7 @@
         "empowerData": [
             "<a href='https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce Data Cloud</span></a> equips businesses with the tools to anticipate customer needs, deliver real-time insights, optimize inventory, and craft personalized journeys that keep them competitive in a crowded marketplace. Before implementing Data Cloud, organizations need to understand their data, define clear objectives, and align stakeholders on outcomes.",
             "As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce consulting partner</span></a>, Rialtes helps e-commerce brands go beyond the basics by unlocking the full power of Data Cloud. Our specialists identify the right use cases, streamline implementation timelines, and design customer journeys that truly matter. By blending predictive insights with personalization, we help you build stronger customer relationships, improve loyalty, and accelerate revenue growth.",
-            "Ready to turn prediction into profit? Reach out to us at  <a href='https://www.rialtes.com/contact-us' class='underline hover:text-gray-400'>sales@rialtes.com.</span></a>"
+            "Ready to turn prediction into profit? Reach out to us at  <a href='mailto:sales@rialtes.com' class='underline hover:text-gray-400'>sales@rialtes.com.</span></a>"
         ],
         "faqs": [
             {
@@ -4911,7 +4914,7 @@
             "The key point is that adopting AI agents goes beyond merely purchasing a new tool; it involves recognizing when your business is prepared to make this leap. If you identify these five signs within your operations, acting quickly is crucial, as you may already fall behind."
         ],
         "payoffData": [
-            "If you identify with two or more of the following scenarios, you are well-positioned for adopting AI agents. Your existing systems, processes, and urgency for improvement are already in place; what you need is an intelligence layer that integrates everything and acts in real time. When implemented effectively, AI agents reduce costs, enhance agility, <a href='https: //www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>build customer trust</span></a> , and improve the resilience of your operations.",
+            "If you identify with two or more of the following scenarios, you are well-positioned for adopting AI agents. Your existing systems, processes, and urgency for improvement are already in place; what you need is an intelligence layer that integrates everything and acts in real time. When implemented effectively, AI agents reduce costs, enhance agility, <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>build customer trust</span></a> , and improve the resilience of your operations.",
             "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> Salesforce Crest Partner</span></a>, we bring the strategy, systems, and support to make AI agents real and fast. <Strong> Let’s build thinking agents for your operations.</Strong>"
         ],
         "commonData": [
@@ -5020,7 +5023,7 @@
         ],
         "patientCenterData": [
             "Here’s the thing: at the heart of connected ecosystems lies one simple truth: the patient must be the focal point. Patients today expect healthcare to mirror their experiences in other industries: personalized, accessible, and digital-first. They want reminders on their phones, virtual consultations on demand, and access to their health history without repeating themselves at every step.",
-            "That’s why <strong>digital patient engagement in daily healthcare</strong> is no longer optional. It’s the foundation of trust, adherence, and long-term outcomes. Pharma and MedTech leaders that invest here aren’t just enhancing patient experience, they’re building loyalty and differentiation in a competitive market."
+            "That’s why <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient engagement in daily healthcare</a> is no longer optional. It’s the foundation of trust, adherence, and long-term outcomes. Pharma and MedTech leaders that invest here aren’t just enhancing patient experience, they’re building loyalty and differentiation in a competitive market."
         ],
         "longTermData": [
             {
@@ -5233,7 +5236,7 @@
                         "desc": "by reducing inefficiencies and manual processes."
                     }
                 ],
-                "desc2": "MediAIna supports these needs by bridging the gap between healthcare AI platforms and <span>digital patient engagement in daily healthcare</span>, creating connected ecosystems for life sciences enterprises."
+                "desc2": "MediAIna supports these needs by bridging the gap between healthcare AI platforms and <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient engagement</a> in daily healthcare, creating connected ecosystems for life sciences enterprises."
             }
         ],
         "digitalData": [
@@ -5391,7 +5394,7 @@
     "patientExperience": {
         "blogMainData": [
             "Providing healthcare has always been about more than just diagnosis. For patients, the real journey begins after they receive a diagnosis, navigating treatment options, managing chronic conditions, and learning how to live with ongoing care needs. Unfortunately, traditional systems often fail to support patients beyond the walls of the clinic. That is why a patient experience platform becomes essential, helping healthcare providers deliver continuity, coordination, and personalized care at scale.",
-            "<strong>MediAIna</strong>, Rialtes’ next-generation patient journey platform, is designed to close these gaps. Integrating clinical, operational, and digital touchpoints reimagines the healthcare journey from first diagnosis to long-term management. Let’s break down how platforms like MediAIna create  <span>digital patient journeys beyond the clinic</span> and set new standards in long-term care. "
+            "<strong>MediAIna</strong>, Rialtes’ next-generation patient journey platform, is designed to close these gaps. Integrating clinical, operational, and digital touchpoints reimagines the healthcare journey from first diagnosis to long-term management. Let’s break down how platforms like MediAIna create  <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient journeys beyond the clinic</a> and set new standards in long-term care. "
         ],
         "whyPatientData": [
             {

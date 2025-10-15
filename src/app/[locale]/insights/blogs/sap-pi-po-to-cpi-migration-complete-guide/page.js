@@ -300,7 +300,7 @@ export default function Page() {
                 <ol className="list-disc marker:text-xl pl-[36px] lg:pl-[56px] space-y-4 mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium">
                   {multilayerData.map((data, ind) => {
                     return (
-                      <li>
+                      <li key={ind}>
                         <h4 className="font-bold inline 4xl:text-[22px] text-[18px] leading-tight">
                           {data.title}{" "}
                         </h4>

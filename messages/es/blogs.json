@@ -92,7 +92,9 @@
         "useCasesData": "El tiempo de inactividad no planificado reduce ingresos y confianza. Agentforce ayuda a pasar de reaccionar a anticipar. Se conecta con Service Cloud e IoT para analizar señales en tiempo real.",
         "useCasesData2": "En lugar de esperar los problemas, ya los estás resolviendo. Esa es la ventaja de la inteligencia predictiva.",
         "agentforceTitle": "Agentforce para Ventas en Manufactura: Simplificando B2B con IA y Salesforce CPQ",
-        "agentforceData": "Las ventas industriales no son simples: múltiples interesados, especificaciones cambiantes, configuraciones personalizadas y precios variables. Agentforce simplifica este proceso con agentes inteligentes integrados con Salesforce CPQ y Data Cloud.",
+        "agentforceData": [
+            "Las ventas en la manufactura industrial están lejos de ser simples. Múltiples partes interesadas, especificaciones cambiantes, configuraciones a medida y dependencias de precios hacen que los intercambios manuales ralenticen la velocidad y reduzcan la precisión. Agentforce simplifica este caos utilizando <a href='https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>agentes inteligentes</a> integrados con Salesforce CPQ y Data Cloud."
+        ],
         "agentforceData2": "Así, reduces fricción y das a tu equipo más tiempo para hacer crecer cuentas.",
         "empowerTitle": "Empodera a Distribuidores y Socios con Agentes de Autoservicio",
         "empowerTitle2": "Ofrece acceso en tiempo real a inventario, devoluciones y herramientas de servicio",
@@ -109,14 +111,11 @@
             "Agentforce aprovecha Salesforce Manufacturing Cloud, Service Cloud e integraciones con ERP para brindarte:"
         ],
         "dontDeliverTitle": "No solo entregues productos. Entrega confianza en cada punto de contacto",
-        "dontDeliverData": "Los fabricantes ya saben cómo construir máquinas. Pero construir relaciones duraderas requiere más que maquinaria. Requiere la capacidad de anticiparse a las necesidades, personalizar cada interacción y escalar el soporte sin perder calidad. Agentforce te ofrece exactamente eso: una forma más inteligente y potenciada por IA para que cada punto de contacto cuente. Si estás evaluando cómo se diferencian los agentes de IA de los copilotos o bots en cuanto a eficiencia y crecimiento, explora nuestra",
-        "dontDeliverDataLink": "comparación estratégica entre Agentes, Copilotos y Bots.",
-        "dontDeliverData2": "Mientras los competidores aún están persiguiendo tickets y manejando múltiples sistemas, esta es tu oportunidad de superar expectativas—y a la competencia.",
-        "asTitle": "Como",
-        "asDataLink": "partner Salesforce Crest mejor valorado,",
-        "asData2": "destacamos en la implementación de Salesforce Agentforce para mejorar la eficiencia en diversas industrias. Nuestros Servicios Gestionados y Consultoría pueden ayudar a tu empresa a integrar agentes de IA en Ventas, Servicio, Marketing y Comercio.",
-        "readyToTitle": "¿Listo para ver Agentforce en acción para tu negocio de manufactura?",
-        "letsTalk": "Hablemos.",
+        "dontDeliverData": [
+            "Los fabricantes ya saben cómo construir máquinas. ¿Pero construir relaciones duraderas? Eso requiere más que maquinaria. Se necesita la capacidad de anticipar necesidades, personalizar cada interacción y escalar el soporte sin perder calidad. Agentforce te ofrece exactamente eso: una forma más inteligente y potenciada por IA de hacer que cada punto de contacto cuente. Si estás evaluando cómo los agentes de IA difieren de los copilotos o bots en impulsar eficiencia y crecimiento, explora nuestra <a href='https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>comparación estratégica de Agentes vs Copilotos vs Bots</a>. Mientras los competidores todavía persiguen tickets y gestionan sistemas, esta es tu oportunidad de superar expectativas — y a la competencia.",
+            "Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Socio Crest de Salesforce mejor valorado</a>, destacamos en la implementación de Salesforce Agentforce para mejorar la eficiencia en todas las industrias. Nuestros Servicios Gestionados y Consultoría pueden ayudar a tu empresa a <a href='https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>integrar agentes de IA</a> en Ventas, Servicio, Marketing y Comercio.",
+            "¿Listo para ver Agentforce en acción para tu empresa de manufactura? <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Hablemos</a>."
+        ],
         "faqTitle": "Preguntas frecuentes: Agentforce para la transformación de manufactura impulsada por IA"
     },
     "discoverAgentExchange": {
@@ -1793,11 +1792,11 @@
         "blogTitle": "Agentes vs. Copilotos vs. Bots:",
         "blogMainData": "Una comparación estratégica que impulsa la adopción correcta de la IA",
         "why": "Por qué comprender Bots, Copilotos y Agentes de IA es importante para tu negocio",
-        "whyDesc": "Las herramientas de IA están transformando cómo industrias como la manufactura, la automotriz y el servicio al cliente operan a gran escala. El asistente de IA adecuado puede cambiar por completo la forma en que trabajan los equipos, desde automatizar tareas repetitivas hasta ofrecer información en tiempo real.",
-        "whyDescOne": "Pero aquí está el problema: bots, copilotos y agentes de IA a menudo se usan indistintamente, aunque significan cosas muy diferentes. Esa confusión puede llevar a elecciones tecnológicas equivocadas y resultados decepcionantes.",
-        "whylink": "Este desglose tiene como objetivo aclarar el panorama. Veremos las diferencias entre estos tipos de asistentes de IA, cómo funciona cada uno y para qué casos de uso son más adecuados. Así podrás alinear la solución correcta con los objetivos de tu negocio, ya sea ",
-        "whylinkOne": "automatización basada en agentes en manufactura",
-        "whylinkTwo": " o desplegar copilotos inteligentes para equipos de campo.",
+        "whyData": [
+            "Las herramientas de IA están moldeando <a href='https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>cómo operan a gran escala industrias como la manufactura</a>, la automotriz y el servicio al cliente. El asistente de IA adecuado puede cambiar completamente la forma en que los equipos trabajan, desde automatizar tareas repetitivas hasta ofrecer información en tiempo real.",
+            "Pero aquí está el problema: bots, copilotos y agentes de IA a menudo se usan de manera intercambiable, aunque significan cosas muy diferentes. Esa confusión puede llevar a elecciones tecnológicas incorrectas y resultados decepcionantes.",
+            "Este desglose tiene como objetivo aclarar las cosas. Analizaremos las diferencias entre estos tipos de asistentes de IA, cómo funciona cada uno y para qué casos de uso son más adecuados. Así podrás elegir la solución correcta según los objetivos de tu empresa, ya sea <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>automatización basada en agentes en manufactura</a> o implementar copilotos inteligentes para equipos de campo."
+        ],
         "title": "“El mayor peligro en tiempos de turbulencia no es la turbulencia, sino actuar con la lógica de ayer.”",
         "name": " — Peter Drucker",
         "aiTitle": "Asegurémonos de que tu estrategia de IA no esté atrapada en definiciones pasadas.",
@@ -1819,11 +1818,11 @@
         "decision": "Matriz de decisión: elegir entre Bots, Copilotos y Agentes de IA para casos de uso empresariales",
         "real": "Casos de estudio del mundo real: IA en acción",
         "toolTitle": "Cómo las herramientas de IA se están fusionando en la Industria 4.0: Copilotos, Bots y Agentes explicados",
-        "toolDesc": "El futuro de la IA probablemente verá una mayor integración de estas herramientas. Lo que antes eran herramientas separadas (chatbots que respondían preguntas básicas, copilotos que asistían en CRMs y agentes que ejecutaban operaciones autónomas) ahora trabajan juntos en flujos unificados impulsados por IA.",
-        "toolDecs1": "La convergencia de la IA está transformando el piso de la fábrica, donde un flujo de trabajo puede incluir un bot capturando datos, un copiloto validándolos en un ERP y un agente determinando los próximos pasos. Los agentes de Agentforce son altamente autónomos, capaces de tomar decisiones basadas en datos y aprender de experiencias sin supervisión humana. Utilizan sensores y actuadores para percibir su entorno y perseguir objetivos de manera independiente, como reprogramar la producción de forma automática durante retrasos en el suministro o resolver problemas de calidad en la manufactura. Estos agentes acceden a datos de ERP, MES, CRM e IoT para tomar decisiones contextuales e iniciar los flujos de trabajo adecuados.",
-        "toolLink": "¿Interesado en aprender más sobre los agentes de Agentforce o necesitas ayuda para comenzar? Estamos aquí para apoyarte. En Rialtes, nos especializamos en ",
-        "toolLink1": "consultoría de Agentforce",
-        "toolLink2": " y hemos ayudado a clientes a lograr mejoras significativas en productividad aprovechando herramientas de IA para manejar tareas complejas y en evolución de forma autónoma. Hablemos sobre alinear la IA correcta con tu proceso empresarial.",
+        "toolData": [
+            "El futuro de la IA probablemente verá una mayor integración de estas herramientas. Lo que antes eran herramientas separadas —chatbots respondiendo consultas básicas, copilotos asistiendo a los usuarios en CRM y agentes ejecutando operaciones autónomas— cada vez más trabajan juntos en flujos de trabajo unificados impulsados por IA.",
+            "La convergencia de la IA está transformando el piso de fábrica, donde un flujo de trabajo puede incluir un bot capturando datos, un copiloto validándolos en ERP y un agente determinando los siguientes pasos. <a href='https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Los agentes Agentforce son altamente autónomos</a>, capaces de tomar decisiones basadas en datos y aprender de experiencias sin supervisión humana. Utilizan sensores y actuadores para percibir su entorno y perseguir objetivos de manera independiente, como reprogramación automática de producción durante retrasos en el suministro o resolución de problemas de calidad en manufactura. Estos agentes acceden a datos de ERP, MES, CRM y sistemas IoT para tomar decisiones contextuales e iniciar los flujos de trabajo apropiados.",
+            "¿Interesado en aprender más sobre los agentes Agentforce o necesitas ayuda para empezar? Estamos aquí para ayudarte. En Rialtes, nos especializamos en <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>consultoría Agentforce</a> y hemos ayudado a clientes a lograr mejoras significativas en productividad aprovechando herramientas de IA para manejar tareas complejas y en evolución de forma autónoma. Habla con nosotros sobre cómo alinear la IA adecuada con tus procesos de negocio."
+        ],
         "faq": "Preguntas frecuentes: Bots vs Copilotos vs Agentes — Las principales dudas respondidas",
         "scenario": "Escenario",
         "task": "Complejidad de la tarea",
@@ -2445,9 +2444,9 @@
         "aiThinksDesc4": "Estos agentes no operan de forma aislada. El agente de cadena de suministro puede informar al agente financiero sobre costos entrantes. El agente de RRHH puede señalar un pico en horas extras, lo que desencadena ajustes operacionales en otra parte. Cada agente aprende del sistema y contribuye a él, alineando acciones con objetivos generales de negocio. Con el tiempo, forman una capa inteligente interconectada que se adapta al cambio, escala con la complejidad y hace que la empresa se vuelva más inteligente con cada interacción.",
         "humansTitle": "Humanos y agentes: Una asociación más inteligente",
         "humansData": [
-            "Agentic AI no reemplaza a los humanos. Amplifica lo que hacemos mejor: estratégizar, empatizar e innovar.",
-            "El futuro está en la colaboración: los humanos definen la visión y los agentes cuidan la ejecución. Cuando ese equilibrio funciona, las empresas desbloquean verdadera eficiencia y creatividad. En Rialtes, hacemos real esta transformación. Ayudamos a las empresas a desplegar sistemas agentic que son seguros, escalables y diseñados para resultados. Nuestro portafolio de hilo digital teje IA a través de ingeniería, operaciones y servicio, respaldado por alianzas con los mejores en la industria.",
-            "Ahora es el momento. Agentic AI no es solo una actualización tecnológica; es un cambio de mentalidad. Esperar significa quedarse atrás. Hablemos sobre cómo hacer que tu empresa sea verdaderamente inteligente."
+            "La IA agentiva no está reemplazando a los humanos. Está amplificando lo que mejor hacemos: estrategizar, empatizar e innovar.",
+            "El futuro está en la colaboración: los humanos definen la visión y los agentes se encargan de la ejecución. Cuando ese equilibrio funciona, las empresas desbloquean una verdadera eficiencia y creatividad. En Rialtes, hacemos que esta transformación sea una realidad. Ayudamos a las empresas a <a href='https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>desplegar sistemas agentivos</a> que sean seguros, escalables y diseñados específicamente para obtener resultados. Nuestro portafolio de hilos digitales integra la IA en ingeniería, operaciones y servicios, respaldado por alianzas con los mejores del sector.",
+            "Es el momento. La IA agentiva no es solo una mejora tecnológica; es un cambio de mentalidad. Esperar significa quedarse atrás. <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Hablemos</a> de cómo hacer que tu empresa sea verdaderamente inteligente."
         ],
         "faqTitle": "Preguntas Frecuentes (FAQs)"
     },
@@ -2598,9 +2597,9 @@
             "Los agentes de IA mejoran la experiencia del cliente al automatizar la resolución de casos, detectar retrasos y fomentar la retención.",
             "Desde la fábrica hasta el servicio en campo, Agentforce AI convierte las operaciones en sistemas proactivos y centrados en el cliente."
         ],
-        "rialtesTalkDesc": "Habla con Rialtes. Ayudamos a los fabricantes a implementar sistemas Agentforce que transforman tanto el piso de producción como el recorrido del cliente. Como un",
-        "rialtesTalkLink": "socio Salesforce Crest mejor calificado",
-        "rialtesTalkDesc2": "destacamos en implementar Salesforce Agentforce para mejorar la eficiencia en todas las industrias. Nuestros Servicios Gestionados y Consultoría pueden ayudar a tu empresa a integrar agentes de IA en Ventas, Servicio, Marketing y Comercio",
+        "rialtesTalkData": [
+            "Habla con Rialtes. Ayudamos a los fabricantes a desplegar sistemas Agentforce que transforman tanto el taller como el recorrido del cliente. Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Socio Crest de Salesforce mejor valorado</a>, nos destacamos en implementar Salesforce Agentforce para mejorar la eficiencia en todas las industrias. Nuestros <a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Servicios Gestionados</a> y Consultoría pueden ayudar a tu empresa a integrar agentes de IA en Ventas, Servicio, Marketing y Comercio."
+        ],
         "faqTitle": "Preguntas frecuentes (FAQs)"
     },
     "firstAiAgent": {
@@ -2870,13 +2869,17 @@
         "universalTitle": "Integración Universal con el Protocolo de Contexto de Modelo (MCP)",
         "modelTitle": "El Protocolo de Contexto de Modelo (MCP) trae el “USB-C para agentes de IA” a los sistemas de TI automotrices. Para los fabricantes que manejan múltiples plataformas como ERP, MES, PLM y paneles IoT, MCP actúa como un adaptador universal.",
         "modelDesc": "Esto significa que tus agentes ahora pueden activar pedidos, ajustar previsiones de suministro o analizar defectos de piezas en tiempo real, a través de plataformas.",
-        "modelDesc1": "A medida que las fábricas automotrices evolucionan más allá de la ejecución de tareas robóticas, los agentes inteligentes están redefiniendo cómo los sistemas colaboran, aprenden y responden. Explora cómo este cambio está moldeando el Futuro de la Fabricación Inteligente.",
+        "modelDesc1": [
+            "A medida que las fábricas automotrices evolucionan más allá de la ejecución de tareas robóticas, los agentes inteligentes están redefiniendo cómo los sistemas colaboran, aprenden y responden. Descubre cómo este cambio está moldeando <a href='https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>el Futuro de la Fabricación Inteligente</a>."
+        ],
         "qualityTitle": "Revoluciona la Calidad y el Cumplimiento",
         "driveTitle": "Impulsa la Innovación con AgentExchange",
         "driveDesc": "AgentExchange de Salesforce ofrece un mercado plug-and-play para la innovación automotriz.",
         "driveDesc1": "En lugar de construir cada agente desde cero, los fabricantes ahora pueden:",
         "useTitle": "Casos de uso adaptados a fabricantes automotrices incluyen:",
-        "useDesc": "Este enfoque impulsado por ecosistemas permite a los fabricantes adoptar flujos de trabajo de agentes probados rápidamente sin empezar desde cero. Reduce drásticamente el tiempo de desarrollo, acelera el despliegue y asegura que las mejores prácticas de la industria y el cumplimiento normativo estén integrados en cada agente desde el primer día, ofreciendo a las empresas automotrices un camino más inteligente, rápido y seguro hacia la adopción de IA con Agentforce para la fabricación automotriz.",
+        "useDesc": [
+            "Este enfoque impulsado por ecosistemas permite a los fabricantes adoptar flujos de trabajo de agentes probados rápidamente, sin comenzar desde cero. Reduce drásticamente el tiempo de desarrollo, acelera el despliegue y asegura que las mejores prácticas de la industria y el cumplimiento normativo estén integrados en cada agente desde el primer día, ofreciendo a las empresas automotrices un camino más inteligente, rápido y seguro hacia la <a href='https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>adopción de IA con Agentforce</a> para la fabricación automotriz."
+        ],
         "action": "Acelera el Tiempo de Valor con Acciones Industriales Preconstruidas",
         "actionDesc": "Agentforce 3.0 no es solo para grupos técnicos; está diseñado para generar valor inmediato en la planta. Salesforce está implementando más de 100 acciones industriales preconstruidas en 2025, adaptadas a sectores como el automotriz.",
         "useCase": "Los casos de uso incluyen:",
@@ -3273,7 +3276,7 @@
         ],
         "readyData": [
             "En Rialtes, trabajamos con empresas para integrar los LLMs directamente en su plataforma de atención al cliente, ofreciendo conversaciones más inteligentes, una resolución más rápida y experiencias más humanas en todos los canales.",
-            "Con nuestra <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>experiencia en consultoría de Agentforce</span></a>, le ayudaremos a construir una estrategia escalable, segura y alineada con sus objetivos, ya sea reducir la carga de soporte, aumentar el NPS o brindar asistencia multilingüe 24/7. Hagamos que su <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> experiencia del cliente sea tan inteligente como sus clientes</span></a> esperan que sea. Contáctenos en <a href='https://www.rialtes.com/contact-us'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com</span></a> para iniciar la conversación."
+            "Con nuestra <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>experiencia en consultoría de Agentforce</span></a>, le ayudaremos a construir una estrategia escalable, segura y alineada con sus objetivos, ya sea reducir la carga de soporte, aumentar el NPS o brindar asistencia multilingüe 24/7. Hagamos que su <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> experiencia del cliente sea tan inteligente como sus clientes</span></a> esperan que sea. Contáctenos en <a href='mailto:sales@rialtes.com'><span class='transition duration-300 ease-out underline'> sales@rialtes.com</span></a> para iniciar la conversación."
         ],
         "blogTopic": "Inteligencia Artificial",
         "blogTitle": "IA que escucha, aprende y ofrece: cómo los modelos de lenguaje grande están transformando la experiencia del cliente",
@@ -3498,7 +3501,7 @@
         "blogMainData": [
             "La automatización industrial no es un concepto nuevo. Los robots han estado soldando, ensamblando y empaquetando en los pisos de las fábricas durante décadas. Pero aquí está el cambio: la automatización ya no se trata solo de que las máquinas se muevan más rápido. Se trata de sistemas que piensan de manera más inteligente. Pero la mayoría de las fábricas aún dependen de la automatización que sigue reglas fijas, limitada a un trabajo, un sistema y cero aprendizaje.",
             "Aquí está el problema: Los fabricantes hoy enfrentan una red compleja de cambios en la demanda global, presión de cumplimiento, necesidades de personalización del cliente y cadenas de suministro frágiles. Resolver eso requiere más que brazos más rápidos y bots preprogramados.",
-            "Ahí es donde los agentes de IA pueden ayudarte a incorporar inteligencia que pueda adaptarse, razonar y actuar a lo largo de la cadena de valor. La próxima generación de manufactura inteligente trasciende la automatización y se convierte en agéntica."
+            "Ahí es donde los agentes de IA pueden ayudarte a incorporar inteligencia que pueda adaptarse, razonar y actuar a lo largo de toda la cadena de valor. La próxima generación de <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>fabricación inteligente</a> trasciende la automatización y se convierte en agentiva."
         ],
         "whyNeedShiftData": [
             "Además de ejecutar, entienden metas y trabajan para alcanzarlas.",
@@ -3540,7 +3543,7 @@
                     "Identificar cuentas en riesgo de abandono basadas en comportamiento o sentimiento",
                     "Recomendar seguimientos personalizados, mantenimiento preventivo u oportunidades de venta adicional"
                 ],
-                "desc2": "Aquí es donde se gana la verdadera experiencia del cliente, no solo en lo que construyes, sino en cómo apoyas y evolucionas con el cliente a lo largo del tiempo."
+                "desc2": "Aquí es donde se gana la <a href='https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>verdadera experiencia del cliente</a>, no solo en lo que construyes, sino en cómo apoyas y evolucionas junto al cliente con el tiempo."
             },
             {
                 "title": "IA que unifica OEMs, distribuidores y socios de canal",
@@ -3595,7 +3598,7 @@
             "Los bots siguen instrucciones.",
             "Los agentes siguen la intención.",
             "Y ese es el salto que los fabricantes necesitan para prosperar en la próxima década.",
-            "Rialtes ayuda a los fabricantes a implementar Agentforce en operaciones, ventas y servicio. Como socio Crest de Salesforce, traemos la estrategia, los sistemas y el soporte para hacer que los agentes de IA sean reales y rápidos."
+            "Rialtes ayuda a los fabricantes a implementar Agentforce en operaciones, ventas y servicio. Como socio <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Crest de Salesforce</a>, traemos la estrategia, los sistemas y el soporte para hacer que los agentes de IA sean reales y rápidos."
         ],
         "faqData": [
             {
@@ -3651,7 +3654,9 @@
         "agenticDesc": "No necesitas renovar todo el primer día. Empieza donde importa:",
         "agenticDesc2": "Estos agentes se conectan directamente a tu stack de Salesforce—CPQ, Service Cloud, Manufacturing Cloud—y escalan a medida que creces.",
         "readyTitle": "¿Listo para pasar de la automatización a la inteligencia?",
-        "readyDesc": "Construyamos fábricas más inteligentes con agentes pensantes.",
+        "rialtesTalkData": [
+            "Construyamos <a href='https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>fábricas más inteligentes con agentes pensantes</a>."
+        ],
         "faqTitle": "Preguntas frecuentes: Manufactura inteligente con agentes de IA"
     },
     "sapPiPo": {
@@ -4589,7 +4594,7 @@
         "empowerData": [
             "<a href='https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce Data Cloud</a> equipa a las empresas con herramientas para anticipar necesidades del cliente, ofrecer información en tiempo real, optimizar inventario y diseñar recorridos personalizados que las mantengan competitivas en un mercado saturado. Antes de implementar Data Cloud, las organizaciones deben comprender sus datos, definir objetivos claros y alinear a los interesados en los resultados.",
             "Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] underline hover:text-gray-400'> socio consultor de Salesforce</a>, Rialtes ayuda a las marcas de e-commerce a ir más allá de lo básico desbloqueando todo el poder de Data Cloud. Nuestros especialistas identifican los casos de uso adecuados, optimizan los tiempos de implementación y diseñan recorridos de cliente significativos. Al combinar información predictiva con personalización, ayudamos a construir relaciones más sólidas, mejorar la lealtad y acelerar el crecimiento de ingresos.",
-            "¿Listo para convertir predicción en beneficio? Contáctanos en <a href='https://www.rialtes.com/contact-us' class=' underline hover:text-gray-400'>sales@rialtes.com</a>"
+            "¿Listo para convertir predicción en beneficio? Contáctanos en <a href='mailto:sales@rialtes.com' class=' underline hover:text-gray-400'>sales@rialtes.com</a>"
         ],
         "faqs": [
             {
@@ -4739,7 +4744,7 @@
             "El punto clave es que adoptar agentes de IA va más allá de comprar una nueva herramienta; implica reconocer cuándo su empresa está preparada para dar este salto. Si identifica estas cinco señales en sus operaciones, actuar rápidamente es crucial, ya que puede que ya se esté quedando atrás."
         ],
         "payoffData": [
-            "Si se identifica con dos o más de los siguientes escenarios, está bien posicionado para adoptar agentes de IA. Sus sistemas, procesos y necesidad de mejora ya están en su lugar; lo que necesita es una capa de inteligencia que integre todo y actúe en tiempo real. Cuando se implementan de manera eficaz, los agentes de IA reducen costos, mejoran la agilidad, <a href='https: //www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>generan confianza en los clientes</span></a> y mejoran la resiliencia de sus operaciones.",
+            "Si se identifica con dos o más de los siguientes escenarios, está bien posicionado para adoptar agentes de IA. Sus sistemas, procesos y necesidad de mejora ya están en su lugar; lo que necesita es una capa de inteligencia que integre todo y actúe en tiempo real. Cuando se implementan de manera eficaz, los agentes de IA reducen costos, mejoran la agilidad, <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>generan confianza en los clientes</span></a> y mejoran la resiliencia de sus operaciones.",
             "Rialtes ayuda a los fabricantes a implementar Agentforce en operaciones, ventas y servicio. Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> Socio Crest de Salesforce</span></a>, aportamos la estrategia, los sistemas y el soporte para hacer que los agentes de IA sean una realidad de forma rápida. <Strong> Construyamos agentes pensantes para sus operaciones.</Strong>"
         ],
         "commonData": [
@@ -4848,12 +4853,12 @@
         ],
         "patientCenterData": [
             "Aquí está la clave: en el centro de los ecosistemas conectados hay una verdad simple: el paciente debe ser el punto focal. Hoy en día los pacientes esperan que la atención médica se asemeje a sus experiencias en otras industrias: personalizada, accesible y digital desde el inicio. Quieren recordatorios en sus teléfonos, consultas virtuales bajo demanda y acceso a su historial de salud sin tener que repetir información en cada paso.",
-            "Por eso, el <strong>compromiso digital del paciente en la atención diaria</strong> ya no es opcional. Es la base de la confianza, la adherencia y los resultados a largo plazo. Los líderes en farma y MedTech que invierten aquí no solo mejoran la experiencia del paciente, sino que también generan lealtad y diferenciación en un mercado competitivo."
+            "Por eso, el <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>compromiso digital del paciente en la atención diaria</a> ya no es opcional. Es la base de la confianza, la adherencia y los resultados a largo plazo. Los líderes en farma y MedTech que invierten aquí no solo mejoran la experiencia del paciente, sino que también generan lealtad y diferenciación en un mercado competitivo."
         ],
         "longTermData": [
             {
                 "title": "Gestión de enfermedades crónicas",
-                "desc": "La diabetes, las enfermedades cardíacas y el cáncer requieren apoyo continuo. Aquí, las <strong>estrategias de gestión del cuidado a largo plazo</strong> potenciadas por IA, dispositivos portátiles y monitoreo en tiempo real pueden prevenir complicaciones y reducir costos."
+                "desc": "La diabetes, las enfermedades cardíacas y el cáncer requieren apoyo continuo. Aquí, las <a href='https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>estrategias de gestión del cuidado a largo plazo</a> potenciadas por IA, dispositivos portátiles y monitoreo en tiempo real pueden prevenir complicaciones y reducir costos."
             },
             {
                 "title": "Adopción del cuidado remoto",
@@ -4867,7 +4872,7 @@
         "reimaginingData": [
             {
                 "title": "Reimaginando los recorridos digitales del paciente",
-                "desc": "Esto realmente significa repensar la manera en que se diseñan los recorridos de salud. En lugar de centrarse en eventos aislados (una visita hospitalaria, una receta, un implante de dispositivo), se trata de <strong>reimaginar los recorridos digitales del paciente en ciencias de la vida</strong> de principio a fin.",
+                "desc": "Esto realmente significa repensar la manera en que se diseñan los recorridos de salud. En lugar de centrarse en eventos aislados (una visita hospitalaria, una receta, un implante de dispositivo), se trata de <a href='https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>reimaginar los recorridos digitales del paciente en ciencias de la vida</a> de principio a fin.",
                 "desc2": "Eso incluye:",
                 "list": [
                     "Una transición fluida de los ensayos clínicos a la adopción de la terapia.",
@@ -4974,6 +4979,7 @@
         "faqTitle": "FAQs : Importancia de los ecosistemas de atención conectada para la industria farmacéutica y la tecnología médica"
     },
     "digitalJourney": {
+        "digiTitle": "Transformando la atención sanitaria, un viaje a la vez",
         "seoTitle": "Viajes Digitales del Paciente: Futuro de la IA en Salud",
         "seoDescription": "El futuro de la salud son viajes digitales impulsados por IA: predictivos, personalizados y que empoderan a pacientes y proveedores.",
         "whyDigitalJourneyData": [
@@ -5036,7 +5042,7 @@
                         "desc": "programación automatizada, aprobaciones digitales de seguros y actualizaciones de laboratorio en tiempo real."
                     }
                 ],
-                "desc2": "Estos <a href='https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>ecosistemas de atención conectada en farmacéutica</a> representan más que conveniencia. Impactan directamente los resultados; los pacientes que se sienten apoyados y comprometidos tienen más probabilidades de seguir los planes de tratamiento, reduciendo las readmisiones y mejorando la salud a largo plazo."
+                "desc2": "Estos <a href='https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>ecosistemas de atención conectada en la industria farmacéutica</a> representan más que comodidad. Tienen un impacto directo en los resultados; los pacientes que se sienten apoyados y comprometidos son más propensos a seguir los planes de tratamiento, reduciendo las readmisiones y mejorando las <a href='https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>estrategias de gestión de la atención a largo plazo</a>."
             },
             {
                 "title": "Por Qué las Ciencias de la Vida Deben Adoptar los Recorridos Digitales del Paciente",
@@ -5060,7 +5066,7 @@
                         "desc": "al reducir ineficiencias y procesos manuales."
                     }
                 ],
-                "desc2": "MediAIna satisface estas necesidades al cerrar la brecha entre las plataformas de IA en salud y la <span>participación digital del paciente en la atención diaria</span>, creando ecosistemas conectados para las empresas de ciencias de la vida."
+                "desc2": "MediAIna responde a estas necesidades al cerrar la brecha entre las plataformas de IA en el ámbito sanitario y la <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>participación digital del paciente</a> en la atención médica diaria, creando ecosistemas conectados para las empresas de ciencias de la vida."
             }
         ],
         "digitalData": [
@@ -5146,7 +5152,7 @@
         "medianaData": [
             {
                 "title": "MediAIna: Transformando los Recorridos Digitales del Paciente en la Práctica",
-                "desc": "Aunque la visión parece futurista, MediAIna la hace práctica hoy.",
+                "desc": "Aunque la visión parece futurista, <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a> la hace práctica hoy.",
                 "listTitle": "Lo que distingue a MediAIna:",
                 "list": [
                     {
@@ -5218,7 +5224,7 @@
     "patientExperience": {
         "blogMainData": [
             "Brindar atención médica siempre ha sido mucho más que un simple diagnóstico. Para los pacientes, el verdadero viaje comienza después de recibir un diagnóstico, al explorar opciones de tratamiento, manejar condiciones crónicas y aprender a vivir con necesidades de atención continua. Desafortunadamente, los sistemas tradicionales a menudo no apoyan a los pacientes más allá de las paredes de la clínica. Por eso, una plataforma de experiencia del paciente se vuelve esencial, ayudando a los proveedores de salud a ofrecer continuidad, coordinación y atención personalizada a gran escala.",
-            "<strong>MediAIna</strong>, la plataforma de viajes del paciente de próxima generación de Rialtes, está diseñada para cerrar estas brechas. La integración de puntos de contacto clínicos, operativos y digitales reimagina el viaje de atención médica desde el primer diagnóstico hasta la gestión a largo plazo. Analicemos cómo plataformas como MediAIna crean <span>viajes digitales del paciente más allá de la clínica</span> y establecen nuevos estándares en la atención a largo plazo."
+            "<strong>MediAIna</strong>, la plataforma de viajes del paciente de próxima generación de Rialtes, está diseñada para cerrar estas brechas. La integración de puntos de contacto clínicos, operativos y digitales reimagina el viaje de atención médica desde el primer diagnóstico hasta la gestión a largo plazo. Analicemos cómo plataformas como MediAIna crean <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>viajes digitales del paciente más allá de la clínica</a> y establecen nuevos estándares en la atención a largo plazo."
         ],
         "whyPatientData": [
             {
@@ -5350,7 +5356,7 @@
         "blogTopic": "MediAIna",
         "blogTitle": "Cómo una Plataforma de Experiencia del Paciente Transforma la Atención desde el Diagnóstico hasta la Gestión a Largo Plazo",
         "medianaTitle": "MediAIna: Redefiniendo el Viaje de Atención Integrado",
-        "medianaDesc": "A diferencia de soluciones puntuales tradicionales, la atención de MediAIna ofrece una plataforma unificada que integra experiencias clínicas, operativas y digitales. Diseñada específicamente para el ecosistema de ciencias de la vida y MedTech, está respaldada por la suite de consultoría LifeAI+ de Rialtes para garantizar escalabilidad, inteligencia y cumplimiento.",
+        "medianaDesc": "A diferencia de las soluciones puntuales tradicionales, <a href=' https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a> ofrece una plataforma unificada que integra experiencias clínicas, operativas y digitales. Diseñada específicamente para el ecosistema de ciencias de la vida y tecnología médica (MedTech), cuenta con el respaldo de la <a href='https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>suite de consultoría LifeAI+</a> de Rialtes para garantizar escalabilidad, inteligencia y cumplimiento normativo.",
         "medianaDesc2": "Esto es lo que diferencia a la plataforma de viaje del paciente MediAIna:",
         "medianaDesc3": "Al conectar proveedores, aseguradoras, MedTech y organizaciones de ciencias de la vida, MediAIna asegura que ninguna parte del viaje del paciente esté fragmentada u omitida.",
         "faqTitle": "FAQs: Transforma la Atención con la Plataforma de Experiencia del Paciente"

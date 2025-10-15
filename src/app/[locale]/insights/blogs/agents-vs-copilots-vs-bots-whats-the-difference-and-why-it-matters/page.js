@@ -111,10 +111,9 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { faqData, list, caseStudies, agentUseCases, copilotList } =
+  const { faqData, list, caseStudies, agentUseCases, copilotList, whyData, toolData } =
     blogsContent.agentCopilot;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
   const currUrl = useUrl();
 
   return (
@@ -180,23 +179,18 @@ export default function Page() {
                     {t("why")}
                   </h2>
 
-                  <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                    {t("whyDesc")}
-                  </p>
-                  <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                    {t("whyDescOne")}
-                  </p>
-                  <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                    {t("whylink")}
-                    <Link
-                      className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                      href="https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"
-                      target="_blank"
-                    >
-                      {t("whylinkOne")}
-                    </Link>{" "}
-                    {t("whylinkTwo")}
-                  </p>
+                  {
+                    whyData.map((data, ind) => {
+                      return (
+                        <p
+                          key={ind}
+                          className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                          dangerouslySetInnerHTML={{ __html: data }}
+                        />
+                      )
+                    })
+                  }
+
                   <div className="flex  items-center py-8 mt-5">
                     <div className="relative border border-[#0A6BB8] rounded-sm py-12 px-8  w-full">
                       <div className="absolute -top-8 left-4  px-1 w-[84px] h-[50px]">
@@ -307,7 +301,7 @@ export default function Page() {
         </div>
       </section>
       <section>
-        <h3 className="4xl:text-[24px]  2xl:text-[21px] xl:text-[20px] text-[20px] mt-[30px] lg:mt-[49px]  font-bold  custom-container leading-tight ">
+        <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] mt-[30px] lg:mt-[49px]  font-bold  custom-container leading-tight ">
           {t("auto")}
         </h3>
         <div className="xl:block hidden mt-5">
@@ -356,24 +350,20 @@ export default function Page() {
               <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                 {t("toolTitle")}
               </h2>
-              <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                {t("toolDesc")}
-              </p>
-              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                {t("toolDecs1")}
-              </p>{" "}
+
+              {
+                toolData.map((data, ind) => {
+                  return (
+                    <p
+                      key={ind}
+                      className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                      dangerouslySetInnerHTML={{ __html: data }}
+                    />
+                  )
+                })
+              }
+
             </div>
-            <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-              {t("toolLink")}
-              <Link
-                className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                href="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
-                target="_blank"
-              >
-                {t("toolLink1")}
-              </Link>
-              {t("toolLink2")}
-            </p>
             <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] xl:mt-[80px] mt-[40px] leading-tight">
               {t("faq")}
             </h2>
