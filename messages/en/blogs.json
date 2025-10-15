@@ -2233,6 +2233,9 @@
     "howSalesforceAgentforceWorks": {
         "seoTitle": "How Does Salesforce Agentforce Work? | Rialtes",
         "seoDescription": "Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!",
+        "blogTopic": "Salesforce Agentforce",
+        "blogTitle":"How Salesforce Agentforce Actually Works",
+        "blogMainData":"Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel. The platform uses AI to automate tasks and help businesses improve their operations, customer experience, and productivity. Agentforce platform works by integrating AI agents with Salesforce’s CRM and other tools like Data Cloud to ensure data is actionable.",
         "quickTitle": "Quick Introduction to Salesforce Agentforce",
         "quickDesc": "Salesforce Agentforce is a platform designed to relieve agents’ workload by blending the capabilities of Salesforce with tools specifically tailored to the needs of on-the-field agents. With a suite of autonomous AI agents, it strives to automate complex tasks across sales, marketing, service, and more.",
         "quickDesc2": "Safe to say Agentforce is not just another chatbot, Its AI agents work autonomously by analyzing data, making decisions, and conducting actions needing humans, delivering advanced business automation. Unlike traditional chatbots, Agentforce is intelligent and adaptive, capable of solving a wide range of customer issues. Just like Einstein GPT, Agentforce leverages Salesforce’s generative AI to automate tasks and deliver real-time insights, enabling agents to provide superior customer experiences.",
