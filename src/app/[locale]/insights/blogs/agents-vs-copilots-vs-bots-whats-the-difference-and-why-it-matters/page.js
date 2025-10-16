@@ -306,7 +306,7 @@ export default function Page() {
         </h3>
         <div className="xl:block hidden mt-5">
           <Image
-            src="/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp"
+            src={t('agentChart')}
             alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
             priority
             height={0}
@@ -316,7 +316,7 @@ export default function Page() {
         </div>
         <div className="xl:hidden block mt-5">
           <Image
-            src="/images/blog/infographic-mobile.webp"
+            src={t('agentChartMobile')}
             alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
             priority
             height={0}

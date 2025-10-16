@@ -190,6 +190,16 @@
     ],
     "latestBlogs": [
       {
+        "id": 47,
+        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
+        "category": "IA",
+        "industry": "Genérico",
+        "date": "Oct. 13, 2025",
+        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance",
+        "title": "IA en Operaciones Inmobiliarias: Reduce el Tiempo de Inactividad un 30% y Disminuye el Opex con Mantenimiento Predictivo",
+        "description": "Aquí está la verdad sobre las operaciones inmobiliarias: siempre han sido un acto de equilibrio entre costo, confort y continuidad."
+      },
+      {
         "id": 46,
         "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
         "category": "Salesforce",
@@ -200,7 +210,17 @@
         "description": "Salesforce se ha convertido en la base de las soluciones CRM empresariales modernas, ayudando a las organizaciones a unificar datos, optimizar procesos y ofrecer experiencias personalizadas a los clientes."
       },
       {
-         "id": 47,
+        "id": 45,
+        "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
+        "category": "MediAIna",
+        "industry": "Salud",
+        "date": "Oct. 07, 2025",
+        "url": "/patient-experience-platform-transforming-long-term-care",
+        "title": "Cómo una plataforma de experiencia del paciente transforma la atención desde el diagnóstico hasta el manejo a largo plazo",
+        "description": "Brindar atención médica siempre ha sido mucho más que un simple diagnóstico. Para los pacientes, el verdadero viaje comienza después del diagnóstico, al explorar opciones de tratamiento, manejar condiciones crónicas y aprender a vivir con necesidades de atención continua."
+      },
+      {
+        "id": 44,
         "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
         "category": "Salesforce",
         "industry": "SAP",
@@ -211,16 +231,6 @@
       },
       {
         "id": 43,
-        "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
-        "category": "MediAIna",
-        "industry": "Salud",
-        "date": "Oct. 07, 2025",
-        "url": "/patient-experience-platform-transforming-long-term-care",
-        "title": "Cómo una plataforma de experiencia del paciente transforma la atención desde el diagnóstico hasta el manejo a largo plazo",
-        "description": "Brindar atención médica siempre ha sido mucho más que un simple diagnóstico. Para los pacientes, el verdadero viaje comienza después del diagnóstico, al explorar opciones de tratamiento, manejar condiciones crónicas y aprender a vivir con necesidades de atención continua."
-      },
-      {
-        "id": 42,
         "image": "/images/blog/digital-patient-journeys-mobile.webp",
         "category": "General",
         "industry": "Genérico",
@@ -230,7 +240,7 @@
         "description": "La industria de la salud se encuentra en un punto de inflexión. Los pacientes ya no quieren experiencias fragmentadas, esperar semanas para las citas, repetir su historial en cada contacto o lidiar con portales desconectados."
       },
       {
-        "id": 45,
+        "id": 42,
         "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
         "category": "Salesforce",
         "industry": "Genérico",
@@ -1070,9 +1080,10 @@
     ]
   },
   "newsDataBricks": {
+    "bannerImageMobile":"/images/homepage/databricks-partner-spanish-m.webp",
     "seoTitle": "Rialtes ahora es socio certificado de Databricks",
     "seoDescription": "Como socio certificado de Databricks, Rialtes potencia a las empresas con soluciones de datos impulsadas por IA en los ecosistemas SAP y Salesforce.",
-    "bannerImage": "/images/homepage/banner.webp",
+    "bannerImage": "/images/homepage/databricks-partner-spanish.webp",
     "paragraphs": [
       "<span class='font-bold'>Rialtes, </span>líder global en consultoría y transformación digital, anuncia con orgullo su nueva designación como <span class='font-bold'>Socio Certificado de Databricks</span>. Este hito marca un avance significativo en la misión de Rialtes de ofrecer soluciones de datos e IA de vanguardia a clientes empresariales, especialmente aquellos que utilizan las plataformas <strong>SAP</strong> y <strong>Salesforce</strong>.",
       "El anuncio se produce poco después de que SAP presentara el <a class='text-[#038EF4]' href='/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success'>SAP Business Data Cloud</a>, una solución SaaS totalmente gestionada diseñada para unificar, gobernar y conectar los datos de SAP con fuentes de terceros. En el centro de este lanzamiento estuvo la <strong>asociación emblemática de SAP con Databricks,</strong> integrando la arquitectura Databricks Lakehouse directamente en SAP Business Data Cloud para desbloquear insights en tiempo real impulsados por IA.",

@@ -189,16 +189,6 @@
       }
     ],
     "latestBlogs": [
-       {
-        "id": 46,
-        "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
-        "category": "Salesforce",
-        "industry": "SAP",
-        "date": "Oct. 06, 2025",
-        "url": "/salesforce-development-services-to-boost-crm-efficiency",
-        "title": "Améliorez l’efficacité de votre CRM grâce à des services de développement Salesforce sur mesure",
-        "description": "La gestion de la relation client (CRM) est le cœur battant des entreprises modernes. Elle détermine comment les équipes commerciales concluent des affaires, comment les équipes de service répondent aux clients et comment le marketing propose des campagnes personnalisées."
-      },
       {
         "id": 47,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
@@ -210,7 +200,7 @@
         "description": "La vérité sur les opérations immobilières est qu’elles ont toujours consisté à trouver un équilibre entre coût, confort et continuité."
       },
       {
-        "id": 44,
+        "id": 48,
         "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
         "category": "Salesforce",
         "industry": "Générique",
@@ -220,7 +210,7 @@
         "description": "Salesforce est devenu la base des solutions CRM modernes pour les entreprises, aidant les organisations à unifier les données, rationaliser les processus et offrir des expériences client personnalisées."
       },
       {
-        "id": 43,
+        "id": 45,
         "image": "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
         "category": "MediAIna",
         "industry": "Santé",
@@ -230,7 +220,17 @@
         "description": "Fournir des soins de santé a toujours été bien plus qu’un simple diagnostic. Pour les patients, le véritable parcours commence après le diagnostic, en explorant les options de traitement, en gérant les maladies chroniques et en apprenant à vivre avec des besoins de soins continus."
       },
       {
-        "id": 42,
+        "id": 46,
+        "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
+        "category": "Salesforce",
+        "industry": "SAP",
+        "date": "Oct. 06, 2025",
+        "url": "/salesforce-development-services-to-boost-crm-efficiency",
+        "title": "Améliorez l’efficacité de votre CRM grâce à des services de développement Salesforce sur mesure",
+        "description": "La gestion de la relation client (CRM) est le cœur battant des entreprises modernes. Elle détermine comment les équipes commerciales concluent des affaires, comment les équipes de service répondent aux clients et comment le marketing propose des campagnes personnalisées."
+      },
+      {
+        "id": 43,
         "image": "/images/blog/digital-patient-journeys-mobile.webp",
         "category": "Général",
         "industry": "Générique",
@@ -240,7 +240,7 @@
         "description": "L’industrie des soins de santé est à un tournant. Les patients ne veulent plus d’expériences fragmentées, d’attendre des semaines pour des rendez-vous, de répéter leur historique à chaque contact ou de gérer des portails déconnectés."
       },
       {
-        "id": 45,
+        "id": 42,
         "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
         "category": "Salesforce",
         "industry": "Générique",
@@ -1080,9 +1080,10 @@
     ]
   },
   "newsDataBricks": {
+    "bannerImageMobile": "/images/homepage/databricks-partner-french-m.webp",
     "seoTitle": "Rialtes devient partenaire certifié Databricks",
     "seoDescription": "En tant que partenaire certifié Databricks, Rialtes permet aux entreprises de bénéficier de solutions de données basées sur l’IA dans les écosystèmes SAP et Salesforce.",
-    "bannerImage": "/images/homepage/banner.webp",
+    "bannerImage": "/images/homepage/databricks-partner-french.webp",
     "paragraphs": [
       "<span class='font-bold'>Rialtes, </span>leader mondial du conseil et de la transformation digitale, annonce fièrement sa nouvelle désignation en tant que <span class='font-bold'>Partenaire Certifié Databricks</span>. Cette étape marque une avancée significative dans la mission de Rialtes visant à fournir des solutions de données et d’IA de pointe aux clients entreprises, en particulier ceux exploitant les plateformes <strong>SAP</strong> et <strong>Salesforce</strong>.",
       "Cette annonce intervient peu après le lancement par SAP du <a class='text-[#038EF4]' href='/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success'>SAP Business Data Cloud</a> — une solution SaaS entièrement gérée conçue pour unifier, gouverner et connecter les données SAP avec des sources tierces. Au cœur de ce lancement figurait le <strong>partenariat historique de SAP avec Databricks,</strong> intégrant directement l’architecture Lakehouse de Databricks dans le SAP Business Data Cloud afin de libérer des informations en temps réel alimentées par l’IA.",

@@ -212,6 +212,7 @@
         "availabilityData3": "streamlining operations and enhancing workflows. By leveraging machine learning and natural language processing, we align agents with the organization's objectives to achieve efficient intelligent automation. Contact us at"
     },
     "himachalBlog": {
+        "impactImage":"/images/blog/infographic.png",
         "seoTitle": "The Rise of Himachal in India’s Pharma Industry | Rialtes",
         "seoDescription": "Explore how Himachal Pradesh became a pharma manufacturing leader with SEZs, tax breaks, global supply links, and 600+ certified production units.",
         "blogs": [
@@ -735,6 +736,7 @@
         "shiftFromLink3": "SAP Ariba"
     },
     "sapDataCloud": {
+        "sapImage":"/images/blog/image (5).png",
         "seoTitle": "What Is BDC in SAP? Transform with SAP Business Data Cloud | Rialtes",
         "seoDescription": "SAP BDC simplifies data integration by enabling real-time access to trustworthy data, supporting AI-ready decision-making and business transformation.",
         "blogs": [
@@ -1842,6 +1844,8 @@
         "empowerLink": "expert SAP SuccessFactors consultants"
     },
     "agentCopilot": {
+        "agentChart":"/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp",
+        "agentChartMobile":"/images/blog/infographic-mobile.webp",
         "seoTitle": "Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes",
         "seoDescription": "Learn the key differences between bots, copilots, and AI agents. Choose the best AI automation tool to scale productivity and transform workflows.",
         "blogTopic": "Salesforce Agentforce",
@@ -5835,9 +5839,9 @@
                 "title": "Choosing the Right Salesforce Development Partner",
                 "desc": "While Salesforce partners are global, <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>working with a leading Salesforce partner</a> comes with unique advantages:",
                 "list2": [
-                    "<strong><h3 class='text-[20px] font-bold inline-block'>Proximity to enterprise markets</h3></strong>: Teams understand local industry regulations and customer expectations",
-                    "<strong><h3 class='text-[20px] font-bold inline-block'>Compliance and security</h3></strong>: US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards",
-                    "<strong><h3 class='text-[20px] font-bold inline-block'>Certified expertise</h3></strong/>: A deeper talent pool of Salesforce-certified developers and consultants"
+                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Proximity to enterprise markets</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> Teams understand local industry regulations and customer expectations </span>",
+                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Compliance and security</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards </span>",
+                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Certified expertise</h3></strong/>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> A deeper talent pool of Salesforce-certified developers and consultants </span>"
                 ]
             }
         ],
@@ -5883,10 +5887,10 @@
                 "desc3": "We don’t just implement Salesforce for you; we help you transform it into a growth engine. With our Crest Partner status, Rialtes combines deep industry expertise with proven Salesforce excellence.",
                 "desc4": "If your enterprise is ready to move beyond off-the-shelf solutions and unlock the full power of Salesforce, Rialtes is here to help you thrive.",
                 "list2": [
-                    "<strong>Salesforce CRM optimization </strong> to streamline operations.",
-                    "<strong>Custom integrations</strong> with ERP, marketing, and legacy systems",
-                    "<strong>App development</strong/> tailored to your unique workflows",
-                    "<strong>AI and analytics enablement</strong/> for future-ready insights"
+                    "<strong>Salesforce CRM optimization </strong>: to streamline operations.",
+                    "<strong>Custom integrations</strong>: with ERP, marketing, and legacy systems",
+                    "<strong>App development</strong/>: tailored to your unique workflows",
+                    "<strong>AI and analytics enablement</strong/>: for future-ready insights"
                 ]
             }
         ],
