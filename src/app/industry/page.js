@@ -99,6 +99,23 @@ export default function Industry() {
     }
   }
   const growLatestServices = [
+     {
+      id: 3,
+      image: "/images/industry/real-estate.webp",
+      title: "Real Estate",
+      description: "Expand your real estate portfolio with cloud-based property management software. Helping realtors, property owners, and brokers navigate through client details, properties, and rental agreements.",
+      knowMore: '/industry/real-estate-property-management'
+
+    },
+     {
+      id: 11,
+      image: "/images/industry/lifescience.webp",
+      title: "Life Sciences",
+      description: "Unify research, clinical, and commercial operations on a connected digital foundation. With Salesforce Life Sciences Cloud and AI-driven analytics, Rialtes helps organizations enhance compliance, accelerate innovation, and improve patient outcomes.",
+      knowMore: '/industry/life-sciences-digital-transformation'
+
+    },
+
     {
       id: 1,
       image: "/images/industry/healthcare.webp",
@@ -107,32 +124,7 @@ export default function Industry() {
       knowMore: '/industry/life-sciences/healthcare-medtech-patient-care'
 
     },
-    {
-      id: 2,
-      image: "/images/industry/manufacturing.webp",
-      title: "Manufacturing",
-      description: "Manufacturing technology expertise at your fingertips. Streamline operations, sales processes, and supply chain management in manufacturing companies.",
-      knowMore: '/industry/manufacturing-cloud-erp'
-
-    },
-    {
-      id: 3,
-      image: "/images/industry/real-estate.webp",
-      title: "Real Estate",
-      description: "Expand your real estate portfolio with cloud-based property management software. Helping realtors, property owners, and brokers navigate through client details, properties, and rental agreements.",
-      knowMore: '/industry/real-estate-property-management'
-
-    },
-    {
-      id: 4,
-      image: "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
-      title: "Semiconductor",
-      description: "Best-in-class tech services spanning supply chain integration, demand planning, and more. Meet your growing demands without compromising on performance with tailored hi-tech software solutions.",
-      knowMore: '/industry/hitech-semiconductor-ai-it-solutions'
-
-    },
-
-    {
+     {
       id: 5,
       image: "/images/pharma/Header Pharma.webp",
       title: "Pharma & Biotech",
@@ -149,6 +141,32 @@ export default function Industry() {
 
     },
     {
+      id: 12,
+      image: "/images/industry/home-health.webp",
+      title: "Home Health",
+      description: "Empower caregivers, clinicians, and coordinators with digital tools that enhance care delivery. Rialtes brings automation, real-time scheduling, and patient engagement solutions that simplify operations and improve quality of care at home.",
+      knowMore: '/industry/life-sciences/home-health-ai-tech-solutions'
+
+    },
+     {
+      id: 4,
+      image: "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
+      title: "Semiconductor",
+      description: "Best-in-class tech services spanning supply chain integration, demand planning, and more. Meet your growing demands without compromising on performance with tailored hi-tech software solutions.",
+      knowMore: '/industry/hitech-semiconductor-ai-it-solutions'
+
+    },
+   
+    {
+      id: 2,
+      image: "/images/industry/manufacturing.webp",
+      title: "Manufacturing",
+      description: "Manufacturing technology expertise at your fingertips. Streamline operations, sales processes, and supply chain management in manufacturing companies.",
+      knowMore: '/industry/manufacturing-cloud-erp'
+
+    },
+    
+    {
       id: 7,
       image: "/images/education/Group 483.webp",
       title: "Education",
@@ -164,6 +182,14 @@ export default function Industry() {
       knowMore: '/industry/digital-transformation-in-automotive-industry'
 
     },
+     {
+      id: 10,
+      image: "/images/industry/travel-transporation/TTH.webp",
+      title: "Travel and Hospitality",
+      description: "Rialtes enables TTH companies to elevate every journey—from check-in to checkout, booking to delivery. With our expertise in AI, cloud, and enterprise platforms, we help you modernize operations, personalize experiences, and maximize business impact.",
+      knowMore: '/industry/travel-hospitality-it-solutions'
+
+    },
     {
       id: 9,
       image: "/images/industry/travel-transporation/retail+.webp",
@@ -172,14 +198,23 @@ export default function Industry() {
       knowMore: '/industry/retail-industry-digital-transformation'
 
     },
-    {
-      id: 10,
-      image: "/images/industry/travel-transporation/TTH.webp",
-      title: "Travel and Hospitality",
-      description: "Rialtes enables TTH companies to elevate every journey—from check-in to checkout, booking to delivery. With our expertise in AI, cloud, and enterprise platforms, we help you modernize operations, personalize experiences, and maximize business impact.",
-      knowMore: '/industry/travel-hospitality-it-solutions'
+     {
+      id: 13,
+      image: "/images/industry/nonprofit.webp",
+      title: "Non-Profit",
+      description: "Drive greater mission impact through connected data and donor engagement. Our Salesforce Nonprofit Cloud expertise helps organizations streamline fundraising, volunteer management, and community programs with measurable transparency.",
+      knowMore: '/industry/nonprofit-digital-transformation-it-solutions'
 
-    }
+    },
+    {
+      id: 14,
+      image: "/images/Finance/mobile/finance-mobile.webp",
+      title: "Finance",
+      description: "Modernize financial operations with AI-enabled insights and automation. From banking to insurance, Rialtes helps financial institutions simplify compliance, strengthen customer relationships, and deliver personalized financial experiences across every channel.",
+      knowMore: '/industry/finance-industry-digital-transformation-services-solutions'
+
+    },
+   
   ];
   const GrowServicesCard = ({ services }) => (
     <div className="w-full h-full flex flex-col">
