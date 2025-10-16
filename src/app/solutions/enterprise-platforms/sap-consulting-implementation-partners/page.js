@@ -159,8 +159,8 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title="SAP Consulting and Implementation Services Company | Rialtes"
-                description="Our SAP consulting and implementation services, with AI at their core, simplify the process, so you can focus on what matters most—growing your business."
+                title="SAP Consulting Services and Implementation Partners | Rialtes"
+                description="Rialtes, a trusted SAP Consulting and Implementation Partner you can rely on for AI-powered implementations, smarter integrations, and long-term SAP success."
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/"}
             />

@@ -68,7 +68,7 @@ const allWebinars = [
     speaker: "Sapna Chauhan",
     position: "Software Engineer - SAP",
     image: "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
-    url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud'
+    url: 'insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud/'
   },
   {
     id: 5,
@@ -78,7 +78,7 @@ const allWebinars = [
     speaker: "Anuraag Aggarwal",
     position: "Vice President of Global Sales",
     image: "/images/webinar/rise.webp",
-    url: 'insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes'
+    url: 'insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/'
   },
   {
     id: 1,
@@ -88,7 +88,7 @@ const allWebinars = [
     speaker: "Lokesh Adhikari",
     position: "Software Engineer - Salesforce",
     image: "/images/webinar/Webinar_15 May 25_webinar thumb.webp",
-    url: 'insights/webinars/discover-the-agentic-capabilities-of-agentforce'
+    url: 'insights/webinars/discover-the-agentic-capabilities-of-agentforce/'
 
   },
   {
@@ -99,7 +99,7 @@ const allWebinars = [
     speaker: "Akshay Kale",
     position: "Sr. Managing Director – SAP Services",
     image: "/images/webinar/Webinar_13 May 25_webinar thumb.webp",
-    url: 'insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud'
+    url: 'insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/'
   },
   {
     id: 3,
@@ -109,7 +109,7 @@ const allWebinars = [
     speaker: "Divya Agarwal",
     position: "Software Engineer - Salesforce",
     image: "/images/webinar/webinar-thumb.webp",
-    url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud'
+    url: 'insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/'
 
   },
   {
@@ -120,7 +120,7 @@ const allWebinars = [
     speaker: "Lokesh Adhikari",
     position: "Software Engineer - Salesforce",
     image: "/images/webinar/Webinar_6.webp",
-    url: 'insights/webinars/let-whatsapp-in-salesforce-with-agentchat'
+    url: 'insights/webinars/let-whatsapp-in-salesforce-with-agentchat/'
   },
 
   // {

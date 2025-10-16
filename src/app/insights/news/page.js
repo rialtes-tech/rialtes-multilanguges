@@ -31,7 +31,7 @@ const latestCaseStudy = [
     image: "/images/news/new-12-may.webp",
     industry: "News",
     date: "12 May 2025",
-    url: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner",
+    url: "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/",
     title: "Rialtes Joins Elite Group as an Official Salesforce Reseller Partner",
   },
   {
@@ -39,7 +39,7 @@ const latestCaseStudy = [
     image: "/images/news/news2.webp",
     industry: "News",
     date: "18 April 2025",
-    url: "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems",
+    url: "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/",
     title: "Rialtes Becomes Certified Databricks Partner to Deliver Next-Gen AI and Data Services Across SAP and Salesforce Ecosystems",
   },
   {
@@ -47,7 +47,7 @@ const latestCaseStudy = [
     image: "/images/news/generic thumb.webp",
     industry: "News",
     date: "4 April 2025",
-    url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh",
+    url: "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/",
     title: "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh.",
   },
 ];
