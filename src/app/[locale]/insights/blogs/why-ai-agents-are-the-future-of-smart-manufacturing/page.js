@@ -105,21 +105,21 @@ export default function Page() {
     agenticData,
     readyToUpgradeData,
     faqData,
+    readyDesc
   } = blogsContent.beyondRobotics;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/";
   const currUrl = useUrl();
 
   return (
     <div className="min-h-screen">
-       <Seo
-                title={t('seoTitle')}
-                description={t('seoDescription')}
-                keywords="Partners, website, welcome"
-                canonical={
-                    "https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/"
-                }
-            />
+      <Seo
+        title={t('seoTitle')}
+        description={t('seoDescription')}
+        keywords="Partners, website, welcome"
+        canonical={
+          "https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/"
+        }
+      />
 
       <Script
         id="schema-copilots"
@@ -172,9 +172,8 @@ export default function Page() {
                     <p
                       key={ind}
                       className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]"
-                    >
-                      {data}
-                    </p>
+                      dangerouslySetInnerHTML={{ __html: data }}
+                    />
                   );
                 })}
               </div>
@@ -238,9 +237,7 @@ export default function Page() {
                         />
                       )}
                       {data.desc2 && (
-                        <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]  ">
-                          {data.desc2}
-                        </p>
+                        <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]" dangerouslySetInnerHTML={{ __html: data.desc2 }} />
                       )}
                     </div>
                   );
@@ -324,16 +321,11 @@ export default function Page() {
                     return (
                       <p
                         className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]"
-                        key={ind}
-                      >
-                        {data}
-                      </p>
+                        key={ind} dangerouslySetInnerHTML={{ __html: data }} />
                     );
                   })}
                 </div>
-                <p className="mt-5 4xl:text-[22px] text-[18px] leading-tight font-bold">
-                  {t("readyDesc")}
-                </p>
+                <p className="mt-5 4xl:text-[22px] text-[18px] leading-tight font-bold" dangerouslySetInnerHTML={{ __html: readyDesc }} />
               </div>
               <section className="xl:mt-[80px] mt-[40px]">
                 <div className="mt-[29px] xl:mt-[34px]">

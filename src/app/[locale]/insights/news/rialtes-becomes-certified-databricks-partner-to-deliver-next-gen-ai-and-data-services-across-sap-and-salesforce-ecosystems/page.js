@@ -147,12 +147,10 @@ export default function Page() {
                 />
               ))}
               <UnorderedList
-                ulClassName="list-disc text-black pl-[36px] lg:pl-[56px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium mt-3"
-                liClassName="pb-4"
-                arrName={listItems.map((item) => (
-                  <span dangerouslySetInnerHTML={{ __html: item }} />
-                ))}
-              />
+  ulClassName="list-disc text-black pl-[36px] lg:pl-[56px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium mt-3"
+  liClassName="pb-4"
+  arrName={listItems}
+/>
               {paragraphsEnd.map((para, idx) => (
                 <p
                   key={idx}

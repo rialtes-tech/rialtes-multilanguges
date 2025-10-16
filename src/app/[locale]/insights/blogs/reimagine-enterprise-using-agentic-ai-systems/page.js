@@ -285,9 +285,7 @@ export default function Page() {
                                     {
                                         humansData.map((data, ind) => {
                                             return (
-                                                <p key={ind} className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                                    {data}
-                                                </p>
+                                                <p key={ind} className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" dangerouslySetInnerHTML={{ __html: data }} />
                                             )
                                         })
                                     }

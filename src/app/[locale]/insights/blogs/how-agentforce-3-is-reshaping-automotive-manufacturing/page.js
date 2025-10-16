@@ -105,6 +105,8 @@ export default function Page() {
     listItems,
     aiList,
     useCaseList,
+    useDesc,
+    modelDesc1
   } = blogsContent.howAgentforce;
 
   const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
@@ -272,9 +274,8 @@ export default function Page() {
                   {t("modelDesc")}
                 </p>
 
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
-                  {t("modelDesc1")}
-                </p>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" dangerouslySetInnerHTML={{ __html: modelDesc1 }} />
+
               </div>
 
               {/* revolutionize section */}
@@ -337,9 +338,7 @@ export default function Page() {
                   ))}
                 </div>
 
-                <p className="xl:mt-16 mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("useDesc")}
-                </p>
+                <p className="xl:mt-16 mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" dangerouslySetInnerHTML={{ __html: useDesc }} />
               </div>
 
               {/* accelerate section */}
