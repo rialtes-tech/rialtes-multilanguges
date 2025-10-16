@@ -48,7 +48,7 @@ export default function Page() {
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]  overflow-hidden">
        <div>
          <Image
-          src="/images/case-studies/publicsector (1).webp "
+          src="/images/case-studies/yardi-casestudy.webp "
           alt="A public housing in US"
           fill
           style={{ objectFit: "cover", objectPosition: "40% 20%" }}
