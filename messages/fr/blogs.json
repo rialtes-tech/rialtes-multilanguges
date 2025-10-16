@@ -214,7 +214,7 @@
         "availabilityData3": "rationalisant les opérations et améliorant les flux de travail. En exploitant l’apprentissage automatique et le traitement du langage naturel, nous alignons les agents sur les objectifs de l’organisation afin d’atteindre une automatisation intelligente et efficace. Contactez-nous à"
     },
     "himachalBlog": {
-        "impactImage":"/images/blog/impact-image-french.webp",
+        "impactImage": "/images/blog/impact-image-french.webp",
         "seoTitle": "L’essor de l’Himachal dans l’industrie pharmaceutique indienne | Rialtes",
         "seoDescription": "Découvrez comment l’Himachal est devenu un leader de la production pharmaceutique grâce aux ZES, avantages fiscaux et réseaux mondiaux.",
         "blogTopic": "Général",
@@ -681,7 +681,7 @@
         "shiftFromLink3": "SAP Ariba"
     },
     "sapDataCloud": {
-        "sapImage":"/images/blog/sap-french-diagram.webp",
+        "sapImage": "/images/blog/sap-french-diagram.webp",
         "seoTitle": "Qu’est-ce que le BDC dans SAP ? Transformez avec Business Data Cloud | Rialtes",
         "seoDescription": "SAP BDC simplifie l’intégration des données, donne un accès temps réel et soutient des décisions IA-ready pour transformer l’entreprise.",
         "blogs": [
@@ -1787,8 +1787,8 @@
         "empowerLink": "consultants experts SAP SuccessFactors"
     },
     "agentCopilot": {
-        "agentChart":"/images/blog/chart-french.webp",
-        "agentChartMobile":"/images/blog/chart-french-m.webp",
+        "agentChart": "/images/blog/chart-french.webp",
+        "agentChartMobile": "/images/blog/chart-french-m.webp",
         "seoTitle": "Agents, copilotes ou bots : différences clés expliquées | Rialtes",
         "seoDescription": "Découvrez les différences entre bots, copilotes et agents IA. Choisissez l’outil idéal pour accroître la productivité et transformer vos processus.",
         "blogTopic": "Salesforce Agentforce",
@@ -2054,63 +2054,8 @@
         ]
     },
     "brainBehind": {
-        "blogs": [
-            {
-                "id": 1,
-                "image": "/images/blog/blog-1.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Générique",
-                "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
-                "title": "Comment fonctionne réellement Salesforce Agentforce",
-                "description": "Salesforce Agentforce, bien qu’il soit une nouveauté dans l’écosystème Salesforce, fait parler de lui, en particulier dans les organisations qui gèrent de grandes équipes d’agents, tels que les commerciaux, les représentants du service client et le personnel de terrain."
-            },
-            {
-                "id": 3,
-                "image": "/images/blog/blog-3.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Générique",
-                "date": "28 Oct 2024",
-                "title": "Agents vs. Copilotes vs. Bots : Quelle différence et pourquoi est-ce important",
-                "description": "Des outils comme Agentforce redéfinissent notre vision des assistants numériques, en mettant en avant les distinctions entre Agents, Copilotes et Bots. Ces termes sont fréquemment utilisés dans l’automatisation pilotée par l’intelligence artificielle et les interfaces conversationnelles, chacun ayant un rôle bien distinct."
-            },
-            {
-                "id": 4,
-                "image": "/images/blog/blog-4.webp",
-                "category": "Salesforce Agentforce",
-                "industry": "Générique",
-                "date": "25 Nov 2024",
-                "title": "Agentforce Testing Center : Redéfinir les tests IA avec des données synthétiques",
-                "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Testing Center dans sa plateforme d’IA agentique, Agentforce. Cet ajout permet aux utilisateurs d’entreprise de tester et de surveiller les agents IA avant leur déploiement en production."
-            },
-            {
-                "id": 5,
-                "image": "/images/blog/blog-5.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Ressources Humaines",
-                "date": "24 Déc 2024",
-                "title": "Comment intégrer SAP SuccessFactors avec Microsoft Office 365 pour une meilleure collaboration",
-                "description": "Une intégration fluide entre les applications d’entreprise offre une meilleure collaboration, efficacité et productivité. L’intégration de SAP SuccessFactors avec Microsoft Office 365 combine la puissance d’une solution de gestion de l’expérience humaine (HXM) et une suite robuste d’outils de productivité."
-            },
-            {
-                "id": 6,
-                "image": "/images/blog/blog-6.webp",
-                "category": "Technologie Verte Cloud",
-                "industry": "Agriculture",
-                "date": "17 Sept 2024",
-                "title": "Agriculture 4.0 : Comment les technologies numériques transforment l’agriculture pour un avenir meilleur ?",
-                "description": "L’agriculture joue un rôle important dans l’économie croissante de l’Inde et son avenir ne peut être atteint sans outils numériques et innovations technologiques."
-            },
-            {
-                "id": 7,
-                "image": "/images/blog/blog-7.webp",
-                "category": "SAP SuccessFactors",
-                "industry": "Ressources Humaines",
-                "date": "29 Oct 2024",
-                "title": "SAP SuccessFactors Performance et Gestion des Objectifs",
-                "description": "Atteindre les objectifs de votre organisation est une responsabilité clé que toute votre équipe partage. Lorsque la stratégie de votre équipe s’aligne avec ses objectifs et ceux de l’organisation, faire ce qu’il faut devient instinctif."
-            }
-        ],
+        "seoTitle": "Comment fonctionne le moteur de raisonnement d’Agentforce ? | Rialtes",
+        "seoDescription": "Découvrez comment le moteur de raisonnement optimise le support client et améliore la qualité de service pour une meilleure expérience.",
         "blogTopic": "Salesforce Agentforce",
         "blogDate": "21 octobre 2024",
         "blogTitle": "Le cerveau derrière les agents : dévoiler le moteur de raisonnement Atlas dans Agentforce",

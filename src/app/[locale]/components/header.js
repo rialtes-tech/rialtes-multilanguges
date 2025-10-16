@@ -94,7 +94,7 @@ const Header = () => {
         {
           label: t('enterpriseLabel'), href: '/',
           subLinks: [
-            { label: t('SAP'), href: '/solutions/enterprise-platforms/sap-consulting' },
+            { label: t('SAP'), href: '/solutions/enterprise-platforms/sap-consulting-implementation-partners' },
             { label: t('Salesforce'), href: '/solutions/enterprise-platforms/salesforce-consulting-partner-us-india' },
             { label: t('SAPAriba'), href: '/services/spend-management/sapbuyplus-ariba-implementation-partner' },
             { label: t('RevenueCloud'), href: '/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting' },
@@ -514,7 +514,7 @@ const Header = () => {
                           <div className="mt-5">
                             <div className="grid grid-cols-2 gap-32">
                               <div>
-                                <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAP')} link="/solutions/enterprise-platforms/sap-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/sap-consulting")} />
+                                <MenuItem className="font-bold pb-3 text-[#2f78c4] 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAP')} link="/solutions/enterprise-platforms/sap-consulting-implementation-partners" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/sap-consulting-implementation-partners")} />
                                 <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Salesforce')} link="/solutions/enterprise-platforms/salesforce-consulting-partner-us-india" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/salesforce-consulting-partner-us-india")} />
                                 <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('SAPAriba')} link="/services/spend-management/sapbuyplus-ariba-implementation-partner" onClick={(e) => handleLinkClick(e, "/services/spend-management/sapbuyplus-ariba-implementation-partner")} />
                                 <MenuItem className="font-bold pb-3 text-[#2f78c4] mt-6 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label={t('Oracle')} link="/solutions/enterprise-platforms/oracle-ebs-consulting" onClick={(e) => handleLinkClick(e, "/solutions/enterprise-platforms/oracle-ebs-consulting")} />
