@@ -12,74 +12,102 @@
         "knowMore": "En savoir plus",
         "growLatestServices": [
             {
-                "id": 1,
-                "image": "/images/industry/healthcare.webp",
-                "title": "Santé",
-                "description": "CRM santé Salesforce pour aider les prestataires de services médicaux à intégrer parfaitement les logiciels hospitaliers et harmoniser les données patients provenant de divers canaux.",
-                "knowMore": "/industry/life-sciences/healthcare-medtech-patient-care"
-            },
-            {
-                "id": 2,
-                "image": "/images/industry/manufacturing.webp",
-                "title": "Fabrication",
-                "description": "Expertise en technologie de fabrication à portée de main. Rationalisez les opérations, les processus de vente et la gestion de la chaîne d'approvisionnement dans les entreprises de fabrication.",
-                "knowMore": "/industry/manufacturing-cloud-erp"
-            },
-            {
                 "id": 3,
                 "image": "/images/industry/real-estate.webp",
                 "title": "Immobilier",
-                "description": "Développez votre portefeuille immobilier avec un logiciel de gestion de biens basé sur le cloud. Aidez les agents immobiliers, propriétaires et courtiers à gérer les détails des clients, des propriétés et des contrats de location.",
+                "description": "Développez votre portefeuille immobilier grâce à un logiciel de gestion immobilière basé sur le cloud. Nous aidons les agents, propriétaires et courtiers à gérer facilement les informations des clients, les biens et les contrats de location.",
                 "knowMore": "/industry/real-estate-property-management"
             },
             {
-                "id": 4,
-                "image": "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
-                "title": "Semi-conducteurs",
-                "description": "Services technologiques de premier ordre couvrant l'intégration de la chaîne d'approvisionnement, la planification de la demande et plus encore. Répondez à vos besoins croissants sans compromettre les performances grâce à des solutions logicielles hi-tech sur mesure.",
-                "knowMore": "/industry/hitech-semiconductor-ai-it-solutions"
+                "id": 11,
+                "image": "/images/industry/lifescience.webp",
+                "title": "Sciences de la Vie",
+                "description": "Unifiez la recherche, les opérations cliniques et commerciales sur une base digitale connectée. Avec Salesforce Life Sciences Cloud et l’analytique pilotée par IA, Rialtes aide les organisations à améliorer la conformité, accélérer l’innovation et améliorer les résultats des patients.",
+                "knowMore": "/industry/life-sciences-digital-transformation"
+            },
+            {
+                "id": 1,
+                "image": "/images/industry/healthcare.webp",
+                "title": "Santé",
+                "description": "Le CRM santé de Salesforce aide les prestataires médicaux à intégrer facilement les logiciels hospitaliers et à harmoniser les données patients issues de divers canaux.",
+                "knowMore": "/industry/life-sciences/healthcare-medtech-patient-care"
             },
             {
                 "id": 5,
                 "image": "/images/pharma/Header Pharma.webp",
-                "title": "Pharma & Biotechnologie",
-                "description": "Rialtes exploite son expertise certifiée en Salesforce Life Sciences Cloud et SAP S/4HANA pour aider les leaders du secteur pharma et biotech à tirer parti de l'IA, du machine learning et de l'automatisation pour des opérations cliniques, médicales et commerciales intégrées.",
+                "title": "Pharmacie & Biotechnologie",
+                "description": "Rialtes exploite une expertise certifiée sur Salesforce Life Sciences Cloud et SAP S/4HANA pour aider les leaders pharmaceutiques et biotechnologiques à tirer parti de l'IA, du machine learning et de l'automatisation pour des opérations cliniques, médicales et commerciales intégrées.",
                 "knowMore": "/industry/life-sciences/pharma-biotech-digital-transformation"
             },
             {
                 "id": 6,
                 "image": "/images/medical/medical-header.webp",
                 "title": "Dispositifs Médicaux",
-                "description": "Nous aidons les entreprises de dispositifs médicaux à transformer la conformité en avantage concurrentiel en combinant stratégie, technologie et conception centrée sur le patient pour garantir des parcours patients fluides, de la prescription à la collecte des résultats.",
+                "description": "Aider les entreprises de dispositifs médicaux à transformer la conformité en avantage concurrentiel en combinant stratégie, technologie et conception centrée sur le patient pour assurer des parcours patients fluides, de la prescription au suivi des résultats.",
                 "knowMore": "/industry/life-sciences/medical-devices-it-solutions"
+            },
+            {
+                "id": 12,
+                "image": "/images/industry/home-health.webp",
+                "title": "Soins à Domicile",
+                "description": "Autonomisez les aidants, cliniciens et coordinateurs avec des outils numériques qui améliorent la prestation des soins. Rialtes apporte automatisation, planification en temps réel et solutions d'engagement des patients qui simplifient les opérations et améliorent la qualité des soins à domicile.",
+                "knowMore": "/industry/life-sciences/home-health-ai-tech-solutions"
+            },
+            {
+                "id": 4,
+                "image": "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
+                "title": "Semi-conducteurs",
+                "description": "Services technologiques de premier ordre couvrant l'intégration de la chaîne d'approvisionnement, la planification de la demande et plus encore. Répondez à vos besoins croissants sans compromettre la performance grâce à des solutions logicielles haute technologie sur mesure.",
+                "knowMore": "/industry/hitech-semiconductor-ai-it-solutions"
+            },
+            {
+                "id": 2,
+                "image": "/images/industry/manufacturing.webp",
+                "title": "Fabrication",
+                "description": "L’expertise technologique en fabrication à votre portée. Rationalisez les opérations, les processus de vente et la gestion de la chaîne d’approvisionnement au sein des entreprises manufacturières.",
+                "knowMore": "/industry/manufacturing-cloud-erp"
             },
             {
                 "id": 7,
                 "image": "/images/education/Group 483.webp",
                 "title": "Éducation",
-                "description": "Nous nous concentrons sur les défis clés de l'éducation, tels que l'engagement fragmenté des étudiants et le recrutement inefficace. Grâce à des conseils stratégiques et aux technologies SAP et Salesforce, nous aidons les établissements à rationaliser leurs opérations et à améliorer l'expérience étudiante.",
+                "description": "Nous nous concentrons sur les principaux défis de l'éducation, tels que l'engagement fragmenté des étudiants et le recrutement inefficace. En tirant parti du conseil stratégique et des technologies SAP et Salesforce, nous aidons les établissements à rationaliser leurs opérations et à améliorer l'expérience étudiante.",
                 "knowMore": "/industry/education-cloud-it-solutions"
             },
             {
                 "id": 8,
                 "image": "/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp",
                 "title": "Automobile",
-                "description": "Répondez aux défis complexes du secteur automobile, en particulier la fragmentation du cycle de vie client, de la prospection à la propriété. Grâce aux solutions SAP et Salesforce Industry Cloud, nous concevons des systèmes sur mesure et évolutifs qui rationalisent les opérations.",
+                "description": "Relevez les défis complexes du secteur automobile, en particulier la fragmentation tout au long du cycle de vie client, de la prospection à la propriété. En exploitant SAP et Salesforce Industry Cloud, nous concevons des systèmes évolutifs et personnalisés qui optimisent les opérations.",
                 "knowMore": "/industry/digital-transformation-in-automotive-industry"
-            },
-            {
-                "id": 9,
-                "image": "/images/industry/travel-transporation/retail+.webp",
-                "title": "Retail",
-                "description": "Relevez les défis du retail avec confiance. Rialtes Retail+ combine vision stratégique et exécution robuste, permettant aux détaillants B2B et B2C de moderniser, personnaliser et croître. De la planification au support post-lancement, nous accompagnons chaque étape de la transformation.",
-                "knowMore": "/industry/retail-industry-digital-transformation"
             },
             {
                 "id": 10,
                 "image": "/images/industry/travel-transporation/TTH.webp",
                 "title": "Voyage et Hôtellerie",
-                "description": "Rialtes permet aux entreprises TTH d'améliorer chaque expérience, du check-in au check-out, de la réservation à la livraison. Grâce à notre expertise en IA, cloud et plateformes d'entreprise, nous vous aidons à moderniser vos opérations, personnaliser les expériences et maximiser l'impact commercial.",
+                "description": "Rialtes permet aux entreprises de voyages et d’hôtellerie d’améliorer chaque parcours : du check-in au checkout, de la réservation à la livraison. Grâce à notre expertise en IA, cloud et plateformes d’entreprise, nous modernisons les opérations et personnalisons les expériences pour maximiser l’impact commercial.",
                 "knowMore": "/industry/travel-hospitality-it-solutions"
+            },
+            {
+                "id": 9,
+                "image": "/images/industry/travel-transporation/retail+.webp",
+                "title": "Commerce de détail",
+                "description": "Naviguez avec confiance dans les défis du commerce de détail. Rialtes Retail+ combine vision stratégique et exécution robuste, permettant aux détaillants B2B et B2C de moderniser, personnaliser et se développer. De la planification au support post-lancement, nous conduisons la transformation à chaque étape.",
+                "knowMore": "/industry/retail-industry-digital-transformation"
+            },
+            {
+                "id": 13,
+                "image": "/images/industry/nonprofit.webp",
+                "title": "Organisations à but Non Lucratif",
+                "description": "Générez un impact plus important grâce aux données connectées et à l’engagement des donateurs. Notre expertise Salesforce Nonprofit Cloud aide les organisations à rationaliser la collecte de fonds, la gestion des bénévoles et les programmes communautaires avec une transparence mesurable.",
+                "knowMore": "/industry/nonprofit-digital-transformation-it-solutions"
+            },
+            {
+                "id": 14,
+                "image": "/images/Finance/mobile/finance-mobile.webp",
+                "title": "Finance",
+                "description": "Modernisez les opérations financières grâce à des informations et à l’automatisation basées sur l’IA. De la banque à l’assurance, Rialtes aide les institutions financières à simplifier la conformité, renforcer les relations clients et offrir des expériences financières personnalisées sur tous les canaux.",
+                "knowMore": "/industry/finance-industry-digital-transformation-services-solutions"
             }
         ],
         "contactUs": "Prêt à passer à l'étape suivante ? Commencez votre parcours"

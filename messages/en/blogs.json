@@ -92,7 +92,9 @@
         "useCasesData": "Unplanned downtime can drain revenue and erode customer trust. Agentforce helps field service teams flip the script, from reacting to issues to anticipating them. By integrating with Salesforce Field Service, Agentforce analyses real-time signals from warranty claims, service logs, and IoT-enabled equipment. Following is the outcome of that:",
         "useCasesData2": "Instead of waiting for problems to show up, you're already solving them. That’s predictive intelligence in action and a clear advantage over teams still chasing tickets.",
         "agentforceTitle": "Agentforce for Manufacturing Sales: Simplifying B2B with AI and Salesforce CPQ",
-        "agentforceData": ["Industrial manufacturing sales are anything but simple. Multiple stakeholders, fluctuating specs, made-to-order configurations, and pricing dependencies mean manual back-and-forth kills speed and accuracy. Agentforce simplifies this mess using <a href='https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smart agents</a> integrated with Salesforce CPQ and Data Cloud."],
+        "agentforceData": [
+            "Industrial manufacturing sales are anything but simple. Multiple stakeholders, fluctuating specs, made-to-order configurations, and pricing dependencies mean manual back-and-forth kills speed and accuracy. Agentforce simplifies this mess using <a href='https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smart agents</a> integrated with Salesforce CPQ and Data Cloud."
+        ],
         "agentforceData2": "This way, you’re not just reducing friction, you’re giving your sales team room to grow accounts instead of chasing paperwork.",
         "empowerTitle": "Empower Distributors and Channel Partners with Self-Service Agents",
         "empowerTitle2": "Give partners real-time access to inventory, returns, and service tools",
@@ -212,7 +214,7 @@
         "availabilityData3": "streamlining operations and enhancing workflows. By leveraging machine learning and natural language processing, we align agents with the organization's objectives to achieve efficient intelligent automation. Contact us at"
     },
     "himachalBlog": {
-        "impactImage":"/images/blog/infographic.png",
+        "impactImage": "/images/blog/infographic.png",
         "seoTitle": "The Rise of Himachal in India’s Pharma Industry | Rialtes",
         "seoDescription": "Explore how Himachal Pradesh became a pharma manufacturing leader with SEZs, tax breaks, global supply links, and 600+ certified production units.",
         "blogs": [
@@ -736,7 +738,7 @@
         "shiftFromLink3": "SAP Ariba"
     },
     "sapDataCloud": {
-        "sapImage":"/images/blog/image (5).png",
+        "sapImage": "/images/blog/image (5).png",
         "seoTitle": "What Is BDC in SAP? Transform with SAP Business Data Cloud | Rialtes",
         "seoDescription": "SAP BDC simplifies data integration by enabling real-time access to trustworthy data, supporting AI-ready decision-making and business transformation.",
         "blogs": [
@@ -1844,8 +1846,8 @@
         "empowerLink": "expert SAP SuccessFactors consultants"
     },
     "agentCopilot": {
-        "agentChart":"/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp",
-        "agentChartMobile":"/images/blog/infographic-mobile.webp",
+        "agentChart": "/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp",
+        "agentChartMobile": "/images/blog/infographic-mobile.webp",
         "seoTitle": "Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes",
         "seoDescription": "Learn the key differences between bots, copilots, and AI agents. Choose the best AI automation tool to scale productivity and transform workflows.",
         "blogTopic": "Salesforce Agentforce",
@@ -2231,8 +2233,8 @@
         "seoTitle": "How Does Salesforce Agentforce Work? | Rialtes",
         "seoDescription": "Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!",
         "blogTopic": "Salesforce Agentforce",
-        "blogTitle":"How Salesforce Agentforce Actually Works",
-        "blogMainData":"Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel. The platform uses AI to automate tasks and help businesses improve their operations, customer experience, and productivity. Agentforce platform works by integrating AI agents with Salesforce’s CRM and other tools like Data Cloud to ensure data is actionable.",
+        "blogTitle": "How Salesforce Agentforce Actually Works",
+        "blogMainData": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel. The platform uses AI to automate tasks and help businesses improve their operations, customer experience, and productivity. Agentforce platform works by integrating AI agents with Salesforce’s CRM and other tools like Data Cloud to ensure data is actionable.",
         "quickTitle": "Quick Introduction to Salesforce Agentforce",
         "quickDesc": "Salesforce Agentforce is a platform designed to relieve agents’ workload by blending the capabilities of Salesforce with tools specifically tailored to the needs of on-the-field agents. With a suite of autonomous AI agents, it strives to automate complex tasks across sales, marketing, service, and more.",
         "quickDesc2": "Safe to say Agentforce is not just another chatbot, Its AI agents work autonomously by analyzing data, making decisions, and conducting actions needing humans, delivering advanced business automation. Unlike traditional chatbots, Agentforce is intelligent and adaptive, capable of solving a wide range of customer issues. Just like Einstein GPT, Agentforce leverages Salesforce’s generative AI to automate tasks and deliver real-time insights, enabling agents to provide superior customer experiences.",
@@ -5842,9 +5844,9 @@
                 "title": "Choosing the Right Salesforce Development Partner",
                 "desc": "While Salesforce partners are global, <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>working with a leading Salesforce partner</a> comes with unique advantages:",
                 "list2": [
-                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Proximity to enterprise markets</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> Teams understand local industry regulations and customer expectations </span>",
-                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Compliance and security</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards </span>",
-                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Certified expertise</h3></strong/>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> A deeper talent pool of Salesforce-certified developers and consultants </span>"
+                    "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Proximity to enterprise markets</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> Teams understand local industry regulations and customer expectations </span>",
+                    "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Compliance and security</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards </span>",
+                    "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Certified expertise</h3></strong/>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> A deeper talent pool of Salesforce-certified developers and consultants </span>"
                 ]
             }
         ],
