@@ -3,11 +3,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
-import Link from "next/link";
-import { useState } from "react";
-
-
-
 
 const ServicesCard = ({ services }) => (
     <div className="w-full h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
