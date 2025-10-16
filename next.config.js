@@ -12,7 +12,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-   trailingSlash: true,
   webpack: (config) => {
     config.externals = config.externals || {};
     return config;
