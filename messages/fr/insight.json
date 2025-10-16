@@ -189,7 +189,6 @@
       }
     ],
     "latestBlogs": [
-      
       {
         "id": 47,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
@@ -201,7 +200,7 @@
         "description": "La vérité sur les opérations immobilières est qu’elles ont toujours consisté à trouver un équilibre entre coût, confort et continuité."
       },
       {
-        "id": 46,
+        "id": 48,
         "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
         "category": "Salesforce",
         "industry": "Générique",
@@ -220,8 +219,8 @@
         "title": "Comment une plateforme d’expérience patient transforme les soins du diagnostic à la gestion à long terme",
         "description": "Fournir des soins de santé a toujours été bien plus qu’un simple diagnostic. Pour les patients, le véritable parcours commence après le diagnostic, en explorant les options de traitement, en gérant les maladies chroniques et en apprenant à vivre avec des besoins de soins continus."
       },
-       {
-        "id": 44,
+      {
+        "id": 46,
         "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
         "category": "Salesforce",
         "industry": "SAP",
@@ -1081,7 +1080,7 @@
     ]
   },
   "newsDataBricks": {
-    "bannerImageMobile":"/images/homepage/databricks-partner-french-m.webp",
+    "bannerImageMobile": "/images/homepage/databricks-partner-french-m.webp",
     "seoTitle": "Rialtes devient partenaire certifié Databricks",
     "seoDescription": "En tant que partenaire certifié Databricks, Rialtes permet aux entreprises de bénéficier de solutions de données basées sur l’IA dans les écosystèmes SAP et Salesforce.",
     "bannerImage": "/images/homepage/databricks-partner-french.webp",

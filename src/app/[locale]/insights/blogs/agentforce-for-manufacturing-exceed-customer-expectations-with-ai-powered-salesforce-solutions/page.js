@@ -55,7 +55,7 @@ export default function Page() {
   const t = useTranslations("agentforceForManufacturing");
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { empowerData, faqData, copilotData, intelligenceData, useCases, simplifyingData, giverPartnersData, realTimeData,
+  const { empowerData, faqData, agentforceData, copilotData, intelligenceData, useCases, simplifyingData, giverPartnersData, realTimeData, dontDeliverData,
     realTimeVisibilityData
   } = content.agentforceForManufacturing
 
@@ -118,7 +118,7 @@ export default function Page() {
                 {t('the')} {" "}
                 <Link
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                  href="https://www.salesforce.com/industry/manufacturing-cloud-erp/" target="_blank">
+                  href="https://www.rialtes.com/industry/manufacturing-cloud-erp/" target="_blank">
 
                   {t('blogMainDataLink')}
                 </Link>{" "}{t('blogMainData2')}
@@ -201,10 +201,17 @@ export default function Page() {
               <div className="md:mt-[50px] mt-[40px]">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('agentforceTitle')}</h2>
 
-                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-[29px] xl:mt-[30px]">
-                  {t('agentforceData')}
-                </p>
-
+                {
+                  agentforceData.map((data, ind) => {
+                    return (
+                      <p
+                        key={ind}
+                        className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                        dangerouslySetInnerHTML={{ __html: data }}
+                      />
+                    )
+                  })
+                }
                 <UnorderdList arrName={simplifyingData} ulClassName="list-disc pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 font-medium space-y-3" />
                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
                   {t('agentforceData2')}
@@ -253,33 +260,17 @@ export default function Page() {
                   {t('dontDeliverTitle')}
                 </h2>
 
-                <p className="mt-[29px] xl:mt-[30px]  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t('dontDeliverData')}  {" "}
-                  <Link
-                    className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                    href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/" target="_blank">
-                    {t('dontDeliverDataLink')}
-                  </Link>{" "}
-                  {t('dontDeliverData2')}
-                </p>
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t('asTitle')} {" "}
-                  <Link
-                    className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                    href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
-                    target="_blank">
-                    {t('asDataLink')}
-                  </Link>{" "}
-                  {t('asData2')}    {" "}
-                </p>
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t('readyToTitle')}  {" "}
-                  <Link
-                    className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                    href="https://www.rialtes.com/contact-us/" target="_blank">
-                    {t('letsTalk')}
-                  </Link>{" "}
-                </p>
+                {
+                  dontDeliverData.map((data, ind) => {
+                    return (
+                      <p
+                        key={ind}
+                        className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                        dangerouslySetInnerHTML={{ __html: data }}
+                      />
+                    )
+                  })
+                }
 
               </div>
             </div>

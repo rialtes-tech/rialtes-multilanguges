@@ -103,7 +103,7 @@ export default function Page() {
     const currUrl = useUrl()
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { faqs, mainData, bestAiToolsDesc, bestAiToolsData, intelligentDesc, intelligentData, businessData, postSaleData, postSaleData2, consistencyData, readyData } = blogsContent.factoryToFeedback;
+    const { faqs, mainData, bestAiToolsDesc, bestAiToolsData, intelligentDesc, intelligentData, businessData, postSaleData, postSaleData2, rialtesTalkData, consistencyData, readyData } = blogsContent.factoryToFeedback;
     const fullUrl = "https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/";
 
     return (
@@ -307,13 +307,17 @@ export default function Page() {
                                 </h3>
                                 <UnorderedList arrName={readyData} ulClassName="list-disc mt-5 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium lg:pl-[56px] pl-8" />
 
-                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-5">
-                                    {t('rialtesTalkDesc')}{" "}
-                                    <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"
-                                        href={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"}>
-                                        <span>{t('rialtesTalkLink')}</span>
-                                    </Link> {t('rialtesTalkDesc2')}.
-                                </p>
+                                {
+                                    rialtesTalkData.map((data, ind) => {
+                                        return (
+                                            <p
+                                                key={ind}
+                                                className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-5"
+                                                dangerouslySetInnerHTML={{ __html: data }}
+                                            />
+                                        )
+                                    })
+                                }
                             </div>
 
                         </div>
