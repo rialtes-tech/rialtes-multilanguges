@@ -329,7 +329,7 @@ const FeaturedCarousel = () => {
       imgSrc: '/images/case-studies/Small thumb.webp',
       category: "Education Cloud",
       date: "21 August 2025",
-      url: "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
+      url: "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/",
       title: "Transforming Student Success with Salesforce Education Cloud and Edu+",
       description: "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions."
 
@@ -339,7 +339,7 @@ const FeaturedCarousel = () => {
       imgSrc: '/images/case-studies/AutoSense Warranty Management Modules_Case study thumb.webp',
       category: "Automotive",
       date: "30 June 2025",
-      url: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
+      url: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
       title: "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
       description: "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
     },
@@ -348,7 +348,7 @@ const FeaturedCarousel = () => {
       imgSrc: '/images/case-studies/Adaptis_featured CS.webp',
       category: 'Manufacturing',
       date: '10 June 2025',
-      url: "/insights/case-studies/warranty-claim-submission-using-experience-cloud",
+      url: "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
       title: "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
       description: "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
     },
