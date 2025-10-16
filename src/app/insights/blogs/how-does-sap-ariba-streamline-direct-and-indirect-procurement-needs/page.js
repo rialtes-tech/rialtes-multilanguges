@@ -173,38 +173,38 @@ export default function Page() {
         description="SAP Ariba streamlines direct and indirect procurement by digitizing every step—from sourcing to payment—boosting savings, speed, and control."
         canonical={"https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"}
       />
-     
-         <Script
+
+      <Script
         id="schema-how-does"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <section className="relative group overflow-hidden  h-[350px] md:h-[500px]  4xl:h-[650px]  ">
-             {/* Desktop Image */}
-             <div className="hidden md:block">
-               <Image
-                 src="/images/blog/sap-ariba-web-banner.webp"
-                 alt="SAP Ariba Streamline"
-                 fill
-                 style={{ objectFit: "cover" }}
-                 priority
-                 className="transform transition-transform duration-500 group-hover:scale-110"
-               />
-             </div>
-     
-             {/* Mobile Image */}
-             <div className="block md:hidden">
-               <Image
-                 src="/images/blog/sap-ariba-mobile-banner.webp"
-                 alt="SAP Ariba Streamline"
-                 fill
-                 style={{ objectFit: "cover" }}
-                 priority
-               />
-             </div>
-           </section>
-     
+        {/* Desktop Image */}
+        <div className="hidden md:block">
+          <Image
+            src="/images/blog/sap-ariba-web-banner.webp"
+            alt="SAP Ariba Streamline"
+            fill
+            style={{ objectFit: "cover" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+
+        {/* Mobile Image */}
+        <div className="block md:hidden">
+          <Image
+            src="/images/blog/sap-ariba-mobile-banner.webp"
+            alt="SAP Ariba Streamline"
+            fill
+            style={{ objectFit: "cover" }}
+            priority
+          />
+        </div>
+      </section>
+
       <section
         className="custom-container"
       >
@@ -215,7 +215,7 @@ export default function Page() {
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px]'>SAP</span> <span className='text-[#ACACAC]'> | </span>29 May 2024
               </div>
-             <div className="flex flex-col">
+              <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
                   <div className="max-w-[40px]">
                     <a
@@ -306,23 +306,23 @@ export default function Page() {
 
               <p className="text-black pb-4 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">As a strategic purchasing management solution, procurement is structured around four core activities: Sourcing, Contract Management, Purchasing, and Accounts Payable.</p>
 
-               <ul className="list-disc marker:text-xl text-black marker:text-[#0092E0] pl-5  text-[16px] font-medium space-y-4   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
-                  <li>
-                    <h3 className="h3-bold inline  text-[16px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
-                      Sourcing 
-                    </h3>   focuses on selecting and managing suppliers for purchasing operations. This phase involves market research, defining strategies, and setting key metrics to identify the best suppliers based on quality and cost-effectiveness. An efficient sourcing process ensures a well-stocked and optimized supply chain. 
-                  </li>
-                  <li>
-                    <h3 className="h3-bold inline  text-[16px]    4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] ">
-                      Contract management</h3>   oversees the entire contract lifecycle, from initial drafting to termination. This includes continuous contract analysis to secure the best terms, as well as monitoring compliance from both parties. Effective contract management enhances financial and operational performance through well-structured agreements.
-                  </li>
-                  <li>
-                    <h3 className="h3-bold inline  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Purchasing </h3> encompasses all operational activities related to acquiring goods and services. This includes purchase requests, order processing, payment execution, and material receipt. Ensuring timely deliveries is a critical performance metric in this area.
-                  </li>
-                  <li>
-                    <h3 className="h3-bold inline  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Managing financial obligations</h3>  to suppliers, particularly for credit-based purchases with predefined terms, is vital for financial stability. Closely integrated with purchasing, this function provides a comprehensive view of procurement expenses and helps identify cost-saving opportunities across the process.
-                  </li>
-                </ul>
+              <ul className="list-disc marker:text-xl text-black marker:text-[#0092E0] pl-5  text-[16px] font-medium space-y-4   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+                <li>
+                  <h3 className="h3-bold inline  text-[16px]   4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">
+                    Sourcing
+                  </h3>   focuses on selecting and managing suppliers for purchasing operations. This phase involves market research, defining strategies, and setting key metrics to identify the best suppliers based on quality and cost-effectiveness. An efficient sourcing process ensures a well-stocked and optimized supply chain.
+                </li>
+                <li>
+                  <h3 className="h3-bold inline  text-[16px]    4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] ">
+                    Contract management</h3>   oversees the entire contract lifecycle, from initial drafting to termination. This includes continuous contract analysis to secure the best terms, as well as monitoring compliance from both parties. Effective contract management enhances financial and operational performance through well-structured agreements.
+                </li>
+                <li>
+                  <h3 className="h3-bold inline  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Purchasing </h3> encompasses all operational activities related to acquiring goods and services. This includes purchase requests, order processing, payment execution, and material receipt. Ensuring timely deliveries is a critical performance metric in this area.
+                </li>
+                <li>
+                  <h3 className="h3-bold inline  text-[16px]  4xl:text-[20px] 2xl:text-[18px] xl:text-[17px]">Managing financial obligations</h3>  to suppliers, particularly for credit-based purchases with predefined terms, is vital for financial stability. Closely integrated with purchasing, this function provides a comprehensive view of procurement expenses and helps identify cost-saving opportunities across the process.
+                </li>
+              </ul>
 
               <div className="py-6"></div>
 
