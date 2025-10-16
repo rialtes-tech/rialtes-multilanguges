@@ -214,7 +214,7 @@
         "availabilityData3": "optimizando las operaciones y mejorando los flujos de trabajo. Al aprovechar el aprendizaje automático y el procesamiento del lenguaje natural, alineamos los agentes con los objetivos de la organización para lograr una automatización inteligente y eficiente. Contáctanos en"
     },
     "himachalBlog": {
-       "impactImage":"/images/blog/impact-image-spanish.webp",
+        "impactImage": "/images/blog/impact-image-spanish.webp",
         "seoTitle": "El Auge de Himachal en la Industria Farmacéutica India",
         "seoDescription": "Descubre cómo Himachal Pradesh se convirtió en líder en manufactura farmacéutica con ZEE, incentivos fiscales y más de 600 plantas certificadas.",
         "blogTopic": "General",
@@ -681,7 +681,7 @@
         "shiftFromLink3": "SAP Ariba"
     },
     "sapDataCloud": {
-         "sapImage":"/images/blog/sap-spanish-diagram.webp",
+        "sapImage": "/images/blog/sap-spanish-diagram.webp",
         "seoTitle": "¿Qué es BDC en SAP? Transforma con Business Data Cloud",
         "seoDescription": "SAP BDC simplifica la integración de datos con acceso en tiempo real y confiable, impulsando decisiones basadas en IA y transformación empresarial.",
         "blogs": [
@@ -1098,6 +1098,8 @@
     },
     "agentForceAgents": {
         "blogTopic": "Salesforce Agentforce",
+        "seoTitle": "Escala el Futuro del ERP con IA",
+        "seoDescription": "Con Salesforce AI, Agentforce automatiza tareas de ERP, ofrece información en tiempo real y asegura colaboración fluida para sistemas escalables.",
         "blogTitle": "Cómo los agentes de Agentforce escalan los sistemas ERP con IA",
         "blogMainData": "Los sistemas de Planificación de Recursos Empresariales (ERP) son la columna vertebral de muchas organizaciones, gestionando funciones críticas como finanzas, adquisiciones, fabricación y operaciones de la cadena de suministro. Sin embargo, estos sistemas a menudo operan en silos, lo que limita su potencial para proporcionar información en tiempo real y una colaboración fluida entre departamentos. Esto puede resultar en ineficiencias, decisiones retrasadas y oportunidades perdidas.",
         "blogMainData2": "Agentforce, impulsado por las capacidades avanzadas de IA de Salesforce, está diseñado para abordar estos desafíos. Al integrarse con los sistemas ERP a través de Salesforce Data Cloud, Agentforce unifica datos de fuentes internas y externas, incluidos sistemas ERP y de Gestión de la Cadena de Suministro (SCM). Este enfoque unificado permite a las empresas tomar decisiones informadas basadas en datos y fomentar la agilidad operativa.",
@@ -1787,8 +1789,8 @@
         "empowerLink": "consultores expertos en SAP SuccessFactors"
     },
     "agentCopilot": {
-        "agentChart":"/images/blog/chart-spanish.webp",
-        "agentChartMobile":"/images/blog/chart-spanish-m.webp",
+        "agentChart": "/images/blog/chart-spanish.webp",
+        "agentChartMobile": "/images/blog/chart-spanish-m.webp",
         "seoTitle": "Agentes vs. Copilotos vs. Bots: Diferencias Clave",
         "seoDescription": "Descubre las diferencias entre bots, copilotos y agentes de IA. Elige la mejor herramienta de automatización para productividad y flujos eficientes.",
         "blogTopic": "Salesforce Agentforce",

@@ -12,74 +12,102 @@
     "knowMore": "Saber más",
     "growLatestServices": [
       {
-        "id": 1,
-        "image": "/images/industry/healthcare.webp",
-        "title": "Salud",
-        "description": "CRM de Salesforce para el sector salud que ayuda a los proveedores de servicios médicos a integrar el software hospitalario y armonizar los datos de los pacientes desde diversos canales.",
-        "knowMore": "/industry/life-sciences/healthcare-medtech-patient-care"
-      },
-      {
-        "id": 2,
-        "image": "/images/industry/manufacturing.webp",
-        "title": "Manufactura",
-        "description": "Experiencia en tecnología de manufactura a tu alcance. Optimiza operaciones, procesos de ventas y la gestión de la cadena de suministro en empresas manufactureras.",
-        "knowMore": "/industry/manufacturing-cloud-erp"
-      },
-      {
         "id": 3,
         "image": "/images/industry/real-estate.webp",
         "title": "Bienes Raíces",
-        "description": "Expande tu portafolio inmobiliario con software de gestión de propiedades basado en la nube. Ayudamos a agentes, propietarios y corredores a gestionar clientes, propiedades y contratos de arrendamiento.",
+        "description": "Amplíe su cartera inmobiliaria con software de gestión de propiedades basado en la nube. Ayudamos a agentes inmobiliarios, propietarios y corredores a gestionar fácilmente los detalles de los clientes, propiedades y contratos de alquiler.",
         "knowMore": "/industry/real-estate-property-management"
       },
       {
-        "id": 4,
-        "image": "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
-        "title": "Semiconductores",
-        "description": "Servicios tecnológicos de primer nivel que abarcan integración de la cadena de suministro, planificación de la demanda y más. Satisface la creciente demanda sin comprometer el rendimiento con soluciones tecnológicas personalizadas.",
-        "knowMore": "/industry/hitech-semiconductor-ai-it-solutions"
+        "id": 11,
+        "image": "/images/industry/lifescience.webp",
+        "title": "Ciencias de la Vida",
+        "description": "Unifique investigación, operaciones clínicas y comerciales sobre una base digital conectada. Con Salesforce Life Sciences Cloud y análisis impulsados por IA, Rialtes ayuda a las organizaciones a mejorar el cumplimiento, acelerar la innovación y mejorar los resultados de los pacientes.",
+        "knowMore": "/industry/life-sciences-digital-transformation"
+      },
+      {
+        "id": 1,
+        "image": "/images/industry/healthcare.webp",
+        "title": "Atención Médica",
+        "description": "CRM de atención médica de Salesforce para ayudar a los proveedores de servicios médicos a integrar sin problemas el software hospitalario y armonizar los datos de los pacientes de varios canales.",
+        "knowMore": "/industry/life-sciences/healthcare-medtech-patient-care"
       },
       {
         "id": 5,
         "image": "/images/pharma/Header Pharma.webp",
-        "title": "Farmacéutica y Biotecnología",
-        "description": "Rialtes aplica su experiencia certificada en Salesforce Life Sciences Cloud y SAP S/4HANA para ayudar a líderes del sector farmacéutico y biotecnológico a aprovechar IA, machine learning y automatización para operaciones clínicas, médicas y comerciales integradas.",
+        "title": "Farmacia y Biotecnología",
+        "description": "Rialtes aprovecha la experiencia certificada en Salesforce Life Sciences Cloud y SAP S/4HANA para ayudar a los líderes de farmacia y biotecnología a aprovechar la IA, el aprendizaje automático y la automatización para operaciones clínicas, médicas y comerciales integradas.",
         "knowMore": "/industry/life-sciences/pharma-biotech-digital-transformation"
       },
       {
         "id": 6,
         "image": "/images/medical/medical-header.webp",
         "title": "Dispositivos Médicos",
-        "description": "Ayudamos a las empresas de dispositivos médicos a convertir el cumplimiento en una ventaja competitiva mediante estrategia, tecnología y diseño centrado en el paciente, asegurando recorridos fluidos desde la prescripción del dispositivo hasta el seguimiento de resultados.",
+        "description": "Ayudamos a las empresas de dispositivos médicos a convertir el cumplimiento en una ventaja competitiva combinando estrategia, tecnología y diseño centrado en el paciente para garantizar recorridos de pacientes sin problemas desde la prescripción del dispositivo hasta el seguimiento de resultados.",
         "knowMore": "/industry/life-sciences/medical-devices-it-solutions"
+      },
+      {
+        "id": 12,
+        "image": "/images/industry/home-health.webp",
+        "title": "Atención en el Hogar",
+        "description": "Empodere a cuidadores, clínicos y coordinadores con herramientas digitales que mejoran la entrega de atención. Rialtes ofrece automatización, programación en tiempo real y soluciones de participación del paciente que simplifican las operaciones y mejoran la calidad del cuidado en casa.",
+        "knowMore": "/industry/life-sciences/home-health-ai-tech-solutions"
+      },
+      {
+        "id": 4,
+        "image": "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
+        "title": "Semiconductores",
+        "description": "Servicios tecnológicos de primer nivel que abarcan la integración de la cadena de suministro, planificación de la demanda y más. Cumpla con sus crecientes demandas sin comprometer el rendimiento con soluciones de software de alta tecnología personalizadas.",
+        "knowMore": "/industry/hitech-semiconductor-ai-it-solutions"
+      },
+      {
+        "id": 2,
+        "image": "/images/industry/manufacturing.webp",
+        "title": "Manufactura",
+        "description": "Experiencia tecnológica en manufactura a su alcance. Optimice las operaciones, los procesos de ventas y la gestión de la cadena de suministro en las empresas manufactureras.",
+        "knowMore": "/industry/manufacturing-cloud-erp"
       },
       {
         "id": 7,
         "image": "/images/education/Group 483.webp",
         "title": "Educación",
-        "description": "Abordamos los principales retos en educación, como la interacción fragmentada con estudiantes y reclutamiento ineficiente. Combinamos asesoría estratégica con tecnología SAP y Salesforce para ayudar a las instituciones a optimizar sus operaciones y mejorar la experiencia estudiantil.",
+        "description": "Nos enfocamos en abordar los desafíos clave en educación, como el compromiso estudiantil fragmentado y el reclutamiento ineficiente. Al aprovechar la asesoría estratégica junto con la tecnología SAP y Salesforce, ayudamos a las instituciones a optimizar las operaciones y mejorar la experiencia del estudiante.",
         "knowMore": "/industry/education-cloud-it-solutions"
       },
       {
         "id": 8,
         "image": "/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp",
         "title": "Automotriz",
-        "description": "Abordamos los desafíos complejos del sector automotriz, especialmente la fragmentación del ciclo de vida del cliente desde la prospección hasta la propiedad. Usamos soluciones de SAP y Salesforce Industry Cloud para diseñar sistemas personalizados y escalables.",
+        "description": "Aborde los complejos desafíos del sector automotriz, especialmente la fragmentación a lo largo del ciclo de vida del cliente desde la prospección hasta la propiedad. Aprovechando SAP y Salesforce Industry Cloud, diseñamos sistemas escalables y personalizados que optimizan las operaciones.",
         "knowMore": "/industry/digital-transformation-in-automotive-industry"
-      },
-      {
-        "id": 9,
-        "image": "/images/industry/travel-transporation/retail+.webp",
-        "title": "Retail",
-        "description": "Enfrenta los desafíos del comercio minorista con confianza. Rialtes Retail+ combina visión estratégica con ejecución sólida, permitiendo a minoristas B2B y B2C modernizarse, personalizar y crecer. Desde la planificación hasta el soporte post-lanzamiento, impulsamos la transformación en cada paso.",
-        "knowMore": "/industry/retail-industry-digital-transformation"
       },
       {
         "id": 10,
         "image": "/images/industry/travel-transporation/TTH.webp",
         "title": "Viajes y Hospitalidad",
-        "description": "Rialtes ayuda a las empresas de viajes y hospitalidad a mejorar cada experiencia — desde el check-in hasta el check-out, desde la reserva hasta la entrega. Con nuestra experiencia en IA, nube y plataformas empresariales, modernizamos operaciones, personalizamos experiencias y maximizamos el impacto comercial.",
+        "description": "Rialtes permite a las empresas de viajes y hospitalidad mejorar cada experiencia: desde el check-in hasta el checkout, y desde la reserva hasta la entrega. Con nuestra experiencia en IA, nube y plataformas empresariales, modernizamos operaciones y personalizamos experiencias para maximizar el impacto del negocio.",
         "knowMore": "/industry/travel-hospitality-it-solutions"
+      },
+      {
+        "id": 9,
+        "image": "/images/industry/travel-transporation/retail+.webp",
+        "title": "Retail",
+        "description": "Navegue los desafíos del comercio minorista con confianza. Rialtes Retail+ combina visión estratégica con ejecución sólida, permitiendo a minoristas B2B y B2C modernizar, personalizar y crecer. Desde la planificación hasta el soporte post-lanzamiento, impulsamos la transformación en cada paso.",
+        "knowMore": "/industry/retail-industry-digital-transformation"
+      },
+      {
+        "id": 13,
+        "image": "/images/industry/nonprofit.webp",
+        "title": "Organizaciones sin Fines de Lucro",
+        "description": "Impulse un mayor impacto en la misión mediante datos conectados y compromiso de donantes. Nuestra experiencia en Salesforce Nonprofit Cloud ayuda a las organizaciones a optimizar la recaudación de fondos, gestión de voluntarios y programas comunitarios con transparencia medible.",
+        "knowMore": "/industry/nonprofit-digital-transformation-it-solutions"
+      },
+      {
+        "id": 14,
+        "image": "/images/Finance/mobile/finance-mobile.webp",
+        "title": "Finanzas",
+        "description": "Modernice las operaciones financieras con información y automatización habilitadas por IA. Desde la banca hasta los seguros, Rialtes ayuda a las instituciones financieras a simplificar el cumplimiento, fortalecer las relaciones con los clientes y ofrecer experiencias financieras personalizadas en todos los canales.",
+        "knowMore": "/industry/finance-industry-digital-transformation-services-solutions"
       }
     ],
     "contactUs": "¿Está listo para dar el siguiente paso? Iniciemos su viaje"
