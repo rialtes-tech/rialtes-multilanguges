@@ -42,7 +42,8 @@ const Home = () => {
     const sectionCount = 10;
     const [refs, inViews] = useMultipleScrollAnimation(sectionCount);
     const [activeIndexInsights, setActiveIndexInsights] = useState(0);
-    const [currentSlide, setCurrentSlide] = useState(0);
+    const [currentSlide, setCurrentSlide] = useState
+    (0);
 
 
 
@@ -104,7 +105,7 @@ const Home = () => {
                                 <div className="hidden md:block w-full h-full relative">
                                     <Image
                                         src={s.image}
-                                        alt={s.title}
+                                        alt={s.alt}
                                         fill
                                         priority={i === 0}
                                         className='max-lg:object-cover max-lg:object-[14%_20%]'
@@ -114,7 +115,7 @@ const Home = () => {
                                 <div className="block md:hidden w-full h-full relative">
                                     <Image
                                         src={s.imageMobile}
-                                        alt={s.title}
+                                        alt={s.alt}
                                         fill
                                         priority={i === 0}
                                         className='min-[400px]:object-cover'

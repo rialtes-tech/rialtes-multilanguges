@@ -55,21 +55,24 @@
         "slidesData": [
             {
                 "link": "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/",
+                "alt": "Des ondes numériques bleues abstraites et fluides avec des motifs de maille représentant la technologie de l'IA pour la conformité en sciences de la vie.",
                 "title": "Life Science",
-                "image": "/images/homepage/life-science-banner-french.webp",
-                "imageMobile": "/images/homepage/life-science-mobile-french.webp"
-            }, 
+                "image": "/images/homepage/ai-compliance-in-life-sciences-banner-fr.webp",
+                "imageMobile": "/images/homepage/ai-compliance-in-life-sciences-banner-fr-mobile.webp"
+            },
             {
                 "link": "/industry/manufacturing-cloud-erp/",
+                "alt": "Des rayons de lumière bleu et vert brillants convergeant vers le haut symbolisant l'innovation numérique dans l'industrie manufacturière.",
                 "title": "Manufacturing",
-                "image": "/images/homepage/manufact-french-banner.webp",
-                "imageMobile": "/images/homepage/manufact-french-mobile.webp"
+                "image": "/images/homepage/digital-manufacturing-transformation-banner-fr.webp",
+                "imageMobile": "/images/homepage/digital-manufacturing-transformation-banner-fr-mobile.webp"
             },
             {
                 "link": "/products/mediaina-reimagining-patient-journeys/",
+                "alt": "Professionnel de la santé avec superposition d'interface numérique affichant les données des patients et les systèmes de soins de santé connectés.",
                 "title": "MediAIna",
-                "image": "/images/homepage/mediyana-french-banner.webp",
-                "imageMobile": "/images/homepage/mediyana-french-mobile-banner.webp"
+                "image": "/images/homepage/connected-healthcare-technology-banner-fr.webp",
+                "imageMobile": "/images/homepage/connected-healthcare-technology-banner-fr-mobile.webp"
             }
         ],
         "successStoryData": [
