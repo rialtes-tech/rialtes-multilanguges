@@ -53,7 +53,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { blogs, commonData, atlasData } = blogsContent.brainBehind;
+  const { commonData, atlasData } = blogsContent.brainBehind;
   const fullUrl =
     "https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce";
 

@@ -261,13 +261,12 @@ export default function Page() {
                       >
                         <h3
                           className={`font-bold inline"
-                                              ${
-                                                locale === "es"
-                                                  ? "lg:pr-8 xl:pr-2  4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight "
-                                                  : locale === "fr"
-                                                  ? "lg:pr-8 xl:pr-2 4xl:text-[24px] 2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight"
-                                                  : "lg:pr-8 xl:pr-2 4xl:text-[24px] 2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight"
-                                              }`}
+                                              ${locale === "es"
+                              ? "lg:pr-8 xl:pr-2  4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight "
+                              : locale === "fr"
+                                ? "lg:pr-8 xl:pr-2 4xl:text-[24px] 2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight"
+                                : "lg:pr-8 xl:pr-2 4xl:text-[24px] 2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight"
+                            }`}
                         >
                           {step.title}
                         </h3>
@@ -406,10 +405,10 @@ export default function Page() {
           </div>{" "}
         </div>
       </section>
-       {/* blog carousel */}
-                  <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
-                      <FilteredBlogCarousel url={currUrl} />
-                  </section>
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
     </div>
   );
 }
