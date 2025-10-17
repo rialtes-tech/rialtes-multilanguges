@@ -492,7 +492,7 @@ export default function Page() {
           {/* Mobile */}
           <div className="block md:hidden">
             <Image
-              src="/images/finance-img/mobile/exelona-mobile.webp"
+              src="/images/finance-img/mobile/Exelona-mobile.webp"
               alt="Exelona"
               width={800}
               height={600}
@@ -763,7 +763,7 @@ export default function Page() {
         <div className="grid grid-cols-1 xl:grid-cols-[6fr_6fr]">
           <div className="block md:hidden w-full h-auto">
             <Image
-              src="/images/finance-img/mobile/financial-industry-mobile.webp"
+              src="/images/finance-img/mobile/Financial-Industry-mobile.webp"
               alt="Financial-Industry-img"
               className="mx-auto w-full object-cover"
               priority

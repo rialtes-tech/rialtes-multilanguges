@@ -208,7 +208,7 @@ export default function Industry() {
     },
     {
       id: 14,
-      image: "/images/Finance/mobile/finance-mobile.webp",
+      image: "/images/finance-img/mobile/finance-mobile.webp", 
       title: "Finance",
       description: "Modernize financial operations with AI-enabled insights and automation. From banking to insurance, Rialtes helps financial institutions simplify compliance, strengthen customer relationships, and deliver personalized financial experiences across every channel.",
       knowMore: '/industry/finance-industry-digital-transformation-services-solutions'
