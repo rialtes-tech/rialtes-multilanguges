@@ -111,7 +111,7 @@ export default function Page() {
                       <div key={ind}>
                         <h3 className="mt-[29px] xl:mt-[30px] text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] leading-tight font-bold">{data.title}</h3>
                         <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc && data.desc}</p>
-                        <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc2}{data.link && <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.sap.com/products/hcm/corporate-lms/what-is-lms.html"}><span>{data.link}</span></Link>}{" "}{data.desc3 && data.desc3}</p>
+                        <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc2}{" "}{data.link && <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.sap.com/products/hcm/corporate-lms/what-is-lms.html"}><span>{data.link}</span></Link>}{" "}{data.desc3 && data.desc3}</p>
                         {data.desc4 && <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc4}</p>}
                       </div>
                     )
