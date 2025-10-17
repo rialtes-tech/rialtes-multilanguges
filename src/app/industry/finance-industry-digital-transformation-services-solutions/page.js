@@ -480,7 +480,7 @@ export default function Page() {
           {/* Desktop */}
           <div className=" hidden md:block h-full w-full md:h-[900px] lg:h-[800px] 3xl:h-full">
             <Image
-              src="/images/finance-img/exelona-web.webp"
+              src="/images/finance-img/Exelona-web.webp"
               alt="Exelona"
               width={0}
               height={0}
@@ -680,7 +680,7 @@ export default function Page() {
               <div className="flex flex-col xl:flex-row mb-8 mt-16 xl:gap-[80px] gap-10">
                 <div className="grid flex-start items-center">
                   <Image
-                    src="/images/finance-img/certified-experts.svg"
+                    src="/images/finance-img/Certified-experts.svg"
                     alt="Certified experts"
                     width={100}
                     height={100}
@@ -713,7 +713,7 @@ export default function Page() {
                 </div>
                 <div className="grid flex-start items-center">
                   <Image
-                    src="/images/finance-img/global-delivery-from.svg"
+                    src="/images/finance-img/Global-delivery-from.svg"
                     alt="Global delivery from"
                     width={100}
                     height={100}
@@ -775,7 +775,7 @@ export default function Page() {
           {/* Desktop Image */}
           <div className="w-full h-full">
             <Image
-              src="/images/finance-img/financial-industry-web.webp"
+              src="/images/finance-img/Financial-Industry-web.webp"
               alt="Financial-Industry-img"
               className="hidden md:block  object-cover w-full mx-auto"
               priority
