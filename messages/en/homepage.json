@@ -52,25 +52,27 @@
         "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
       }
     ],
-    
     "slidesData": [
       {
         "link": "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/",
         "title": "Life Science",
-        "image": "/images/homepage/life-sciece-banner-english.webp",
-        "imageMobile": "/images/homepage/life-science-mobile-english-banner.webp"
+        "alt": "Abstract flowing blue digital waves with mesh patterns representing AI technology for life sciences compliance.",
+        "image": "/images/homepage/ai-compliance-in-life-sciences-banner-en.webp",
+        "imageMobile": "/images/homepage/ai-compliance-in-life-sciences-banner-en-mobile.webp"
       },
       {
         "link": "/industry/manufacturing-cloud-erp/",
+        "alt": "Glowing blue and green light rays converging upward symbolizing digital innovation in manufacturing industry.",
         "title": "Manufacturing",
-        "image": "/images/homepage/manufacturing-english-banner.webp",
-        "imageMobile": "/images/homepage/manufacturing-mobile-english-banner.webp"
+        "image": "/images/homepage/digital-manufacturing-transformation-banner-en.webp",
+        "imageMobile": "/images/homepage/digital-manufacturing-transformation-banner-en-mobile.webp"
       },
       {
         "link": "/products/mediaina-reimagining-patient-journeys/",
+        "alt": "Healthcare professional with digital interface overlay showing patient data and connected care technology systems.",
         "title": "MediAIna",
-        "image": "/images/homepage/mediayana-banner-new-english.webp",
-        "imageMobile": "/images/homepage/mediayana-english-mobile-banner.webp"
+        "image": "/images/homepage/connected-healthcare-technology-banner-en.webp",
+        "imageMobile": "/images/homepage/connected-healthcare-technology-banner-en-mobile.webp"
       }
     ],
     "successStoryData": [
