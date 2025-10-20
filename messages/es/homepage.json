@@ -56,20 +56,23 @@
             {
                 "link": "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/",
                 "title": "Life Science",
-                "image": "/images/homepage/life-science-spanish-banner.webp",
-                "imageMobile": "/images/homepage/life-science-mobile-spanish.webp"
+                "alt": "Profesional sanitario con superposición de interfaz digital mostrando datos del paciente y sistemas de atención sanitaria conectada.",
+                "image": "/images/homepage/ai-compliance-in-life-sciences-banner-es.webp",
+                "imageMobile": "/images/homepage/ai-compliance-in-life-sciences-banner-es-mobile.webp"
             },
-            { 
+            {
                 "link": "/industry/manufacturing-cloud-erp/",
+                "alt": "Rayos de luz azul y verde brillantes convergiendo hacia arriba simbolizando innovación digital en la industria manufacturera.",
                 "title": "Manufacturing",
-                "image": "/images/homepage/manufacturing-spanish-banner.webp",
-                "imageMobile": "/images/homepage/manufact-mobile-spanish-banner.webp"
+                "image": "/images/homepage/digital-manufacturing-transformation-banner-es.webp",
+                "imageMobile": "/images/homepage/digital-manufacturing-transformation-banner-es-mobile.webp"
             },
             {
                 "link": "/products/mediaina-reimagining-patient-journeys/",
+                "alt": "Ondas digitales azules abstractas y fluidas con patrones de malla que representan tecnología de IA para cumplimiento en ciencias de la vida.",
                 "title": "MediAIna",
-                "image": "/images/homepage/mediyana-spanish-banner.webp",
-                "imageMobile": "/images/homepage/mediyana-spanish-mobile-banner.webp"
+                "image": "/images/homepage/connected-healthcare-technology-banner-es.webp",
+                "imageMobile": "/images/homepage/connected-healthcare-technology-banner-es-mobile.webp"
             }
         ],
         "successStoryData": [
