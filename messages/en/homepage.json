@@ -14,41 +14,43 @@
     "lifeTitle": "LIFE",
     "rialtesName": "RIALTES",
     "rialtesData": "Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.",
+    "lifeAtAlt": "Business professionals at SAP Gold Partner conference, presentations, team events and Salesforce industry gatherings",
+    "logoAlt":"Rialtes logo with white striped oval icon and tagline Simply Enable Empower on clean background",
     "carouselData": [
       {
-        "title": "Blogs",
+        "alt": "Abstract blue glowing network visualization with flowing data streams and digital nodes",
         "description": "Redefining the Future of Enterprise AI with SAP Joule",
-        "image": "/images/blog/jthumb.webp",
+        "image": "/images/homepage/data-flow-network-art.webp",
         "link": "/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule"
       },
       {
-        "title": "Blogs",
+        "alt": "Female healthcare worker in blue scrubs wearing face mask holding digital tablet",
         "description": "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
-        "image": "/images/blog/blog-88.webp",
+        "image": "/images/homepage/medical-professional-with-tablet.webp",
         "link": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
       },
       {
-        "title": "Blogs",
+        "alt": "Blue digital wave pattern blending water splashes with mesh grid technology backdrop",
         "description": "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
-        "image": "/images/blog/SAP Business cloud_Blog thumb.webp",
+        "image": "/images/homepage/tech-wave-fusion-background.webp",
         "link": "/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success"
       },
       {
-        "title": "Blogs",
+        "alt": "Glowing blue robotic hand with illuminated LED fingers on touchscreen surface",
         "description": "How Agentforce Agents Scale ERP Systems with AI ",
-        "image": "/images/blog/blog-12.webp",
+        "image": "/images/homepage/ai-robot-hand-technology.webp",
         "link": "/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai"
       },
       {
-        "title": "Blogs",
+        "alt": "Overhead view of person's hand using silver laptop on blue gradient background",
         "description": "How SAP SuccessFactors Enhances Remote Work Management",
-        "image": "/images/blog/blog-13.webp",
+        "image": "/images/homepage/modern-laptop-workstation.webp",
         "link": "/insights/blogs/how-sap-successfactors-enhances-remote-work-management"
       },
       {
-        "title": "Blogs",
+        "alt": "Cute white and blue AI robot with glowing features next to smartphone chatbot interface",
         "description": "How Salesforce Agentforce Actually Works",
-        "image": "/images/blog/blog-1.webp",
+        "image": "/images/homepage/ai-chatbot-assistant-robot.webp",
         "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
       }
     ],
