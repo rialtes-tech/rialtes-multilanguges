@@ -172,7 +172,7 @@ export default function Page() {
 
             <section className="relative h-[350px] sm:h-[500px] lg:h-[650px] group overflow-hidden">
                 <Image
-                    src="/images/sap-consulting/SAP Consulting banner.png"
+                    src="/images/sap-consulting/SAP Consulting banner.webp"
                     alt="RISE with SAP"
                     className="transform transition-transform duration-500 group-hover:scale-110"
                     fill
