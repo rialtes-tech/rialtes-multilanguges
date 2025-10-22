@@ -361,22 +361,22 @@
       {
         "id": 1,
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-        "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
-        "title": "Streamlined DevOps using Copado and Salesforce",
+        "imgSrc": "/images/case-studies/industrial-workers-safety-collaboration.webp",
+        "title": "Industrial workers in safety gear and hard hats collaborating with laptop in manufacturing facility warehouse",
         "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects."
       },
       {
         "id": 2,
         "url": "/insights/case-studies/realForce-banking-module-ach",
-        "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
-        "title": "RealForce Banking Module - ACH",
+        "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
+        "title": "Business professionals in modern office discussing strategy while pointing at vision board during team collaboration",
         "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
       },
       {
         "id": 3,
         "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-        "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
-        "title": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+        "imgSrc": "/images/case-studies/healthcare-professionals-patient-care.webp",
+        "title": "Healthcare professionals in medical scrubs smiling while discussing patient care with digital tablets in clinic",
         "description": "A global medical technology company that develops and manufactures innovative products"
       }
     ],
@@ -394,26 +394,30 @@
     "slides": [
       {
         "id": 1,
-        "image": "/images/industry/manufacturing.webp",
-        "title": "Manufacturing",
+        "image": "/images/industry/manufacturing-cnc-machine-metalworking.webp",
+        "title": "Industrial CNC machine tool drilling with sparks flying during precision manufacturing metalworking process operation",
+        "titleOne":"Manufacturing",
         "url": "/industry/manufacturing-cloud-erp"
       },
       {
         "id": 2,
-        "image": "/images/industry/healthcare.webp",
-        "title": "Healthcare",
+        "image": "/images/industry/healthcare-digital-medical-data-analysis.webp",
+        "title": "Healthcare professional analyzing digital medical data on futuristic touchscreen interface in modern hospital facility",
+        "titleOne": "Healthcare",
         "url": "/industry/life-sciences/healthcare-medtech-patient-care"
       },
       {
         "id": 3,
-        "image": "/images/industry/real-estate.webp",
-        "title": "Real Estate",
+        "image": "/images/industry/real-estate-urban-planning-model.webp",
+        "title": "Business professional pointing at white 3D architectural city model during real estate urban planning presentation",
+        "titleOne": "Real Estate",
         "url": "/industry/real-estate-property-management"
       },
       {
         "id": 4,
-        "image": "/images/industry/hi-tech.webp",
-        "title": "Hi-Tech",
+        "image": "/images/industry/hi-tech-circuit-board-microchip.webp",
+        "title": "Close-up of turquoise circuit board with electronic pins showing hi-tech microchip technology and hardware components",
+        "titleOne": "Hi-Tech",
         "url": "/industry/hitech-semiconductor-ai-it-solutions"
       }
     ]

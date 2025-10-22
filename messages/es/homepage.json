@@ -361,22 +361,22 @@
             {
                 "id": 1,
                 "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-                "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
-                "title": "DevOps optimizado con Copado y Salesforce",
+                "imgSrc": "/images/case-studies/industrial-workers-safety-collaboration.webp",
+                "title": "Trabajadores industriales con equipo de seguridad colaborando con laptop en instalación de fabricación.",
                 "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales."
             },
             {
                 "id": 2,
                 "url": "/insights/case-studies/realForce-banking-module-ach",
-                "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
-                "title": "Módulo Bancario RealForce - ACH",
+                "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
+                "title": "Profesionales de negocios en oficina moderna discutiendo estrategia señalando durante colaboración en equipo.",
                 "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares."
             },
             {
                 "id": 3,
                 "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-                "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
-                "title": "Automatización del procesamiento de pedidos con Mulesoft para Salesforce Health Cloud y SAP",
+                "imgSrc": "/images/case-studies/healthcare-professionals-patient-care.webp",
+                "title": "Profesionales de salud en uniformes médicos sonriendo mientras discuten atención al paciente con tablets",
                 "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores."
             }
         ],
@@ -394,26 +394,30 @@
         "slides": [
             {
                 "id": 1,
-                "image": "/images/industry/manufacturing.webp",
-                "title": "Manufactura",
+                "image": "/images/industry/manufacturing-cnc-machine-metalworking.webp",
+                "title": "Herramienta máquina CNC industrial perforando con chispas volando durante operación de fabricación metalúrgica",
+                "titleOne": "Manufactura",
                 "url": "/industry/manufacturing-cloud-erp"
             },
             {
                 "id": 2,
-                "image": "/images/industry/healthcare.webp",
-                "title": "Salud",
+                "image": "/images/industry/healthcare-digital-medical-data-analysis.webp",
+                "title": "Profesional de salud analizando datos médicos digitales en pantalla táctil futurista en hospital moderno",
+                "titleOne": "Salud",
                 "url": "/industry/life-sciences/healthcare-medtech-patient-care"
             },
             {
                 "id": 3,
-                "image": "/images/industry/real-estate.webp",
-                "title": "Bienes Raíces",
+                "image": "/images/industry/real-estate-urban-planning-model.webp",
+                "title": "Profesional señalando modelo arquitectónico 3D blanco de ciudad durante presentación de planificación urbana",
+                "titleOne": "Bienes Raíces",
                 "url": "/industry/real-estate-property-management"
             },
             {
                 "id": 4,
-                "image": "/images/industry/hi-tech.webp",
-                "title": "Alta Tecnología",
+                "image": "/images/industry/hi-tech-circuit-board-microchip.webp",
+                "title": "Primer plano de placa de circuito turquesa con pines electrónicos mostrando tecnología de microchip hi-tech",
+                "titleOne": "Alta Tecnología",
                 "url": "/industry/hitech-semiconductor-ai-it-solutions"
             }
         ]
