@@ -539,10 +539,13 @@
     "headerSubTitle3": "Aprovechando los servicios de consultoría SAP para operaciones comerciales confiables.",
     "KnowMore": "Saber más",
     "learnMore": "Aprender más",
+    "sapConsultingBannerAlt": "Equipo profesional colaborando en la transformación digital con soluciones SAP",
+    "sapPartnerLogoAlt": "Insignia oficial de Socio SAP que representa experiencia certificada en implementación",
     "solutionSuccess": [
       {
         "id": 1,
-        "imageUrl": "/images/sap-consulting/RISE with SAP thumb.png",
+        "imageUrl": "/images/sap-consulting/rise-with-sap-team.webp",
+        "imageAlt": "Consultores implementando RISE con SAP para la transformación en la nube de empresas",
         "title": "RISE con SAP",
         "description": "RISE con SAP es la solución definitiva para toda empresa que necesita desarrollar nuevos modelos de negocio, evitar interrupciones operativas y crear un sistema digital bien definido.",
         "productsDetails": [
@@ -555,8 +558,9 @@
       },
       {
         "id": 2,
-        "imageUrl": "/images/sap-consulting/thumb 1.webp",
+        "imageUrl": "/images/sap-consulting/grow-with-sap-team.webp",
         "title": "GROW con SAP",
+        "imageAlt": "Expertos SAP guiando a empresas en la adopción de GROW con SAP Cloud ERP.",
         "description": "Los servicios GROW con SAP ofrecen soluciones integrales, apoyo comunitario y recursos para ayudarte a adoptar Cloud ERP de forma rápida y confiable.",
         "productsDetails": [
           "Acelera tu transformación digital",
@@ -569,8 +573,9 @@
       },
       {
         "id": 3,
-        "imageUrl": "/images/sap-consulting/Successfactor thumb.png",
+        "imageUrl": "/images/sap-consulting/successfactor-hcm-transform-team.webp",
         "title": "SuccessFactors",
+        "imageAlt": "Profesionales de tecnología de RR.HH. optimizando la gestión de personal con SAP SuccessFactors",
         "description": "SuccessFactors ofrece una transformación HCM global de extremo a extremo, automatizando los procesos de RRHH para mantener a los empleados comprometidos y alineados con las necesidades de la organización, al tiempo que alivia la carga de los líderes de RRHH.",
         "productsDetails": [
           "Employee Central y Nómina de Employee Central",
@@ -582,8 +587,9 @@
       },
       {
         "id": 4,
-        "imageUrl": "/images/sap-consulting/SAP Ariba.webp",
+        "imageUrl": "/images/sap-consulting/sap-ariba-procurement-team.webp",
         "title": "SAP Ariba",
+        "imageAlt": "Especialistas en compras gestionando transformación digital de aprovisionamiento y gastos con SAP Ariba.",
         "description": "Transforma tu estrategia de adquisiciones para mejorar la innovación y el valor mediante la gestión del gasto, el abastecimiento estratégico y el ahorro de costos, al tiempo que optimizas las operaciones, la toma de decisiones y la gestión de contratos.",
         "productsDetails": [
           "Métricas de adquisiciones y cadena de suministro",
@@ -601,7 +607,8 @@
     "sapInustryTitle": "Soluciones SAP Enfocadas en la Industria Adaptadas a las Necesidades de Diferentes Organizaciones",
     "riseWithSapTitle": "RISE con SAP",
     "riseWithSapDesc": "Simplifica la transformación empresarial mediante un modelo personalizable de suscripción \"como servicio\" que te permite migrar a la nube y a S/4HANA a tu propio ritmo. Como Socio Gold de SAP, aportamos una profunda experiencia en aplicaciones SAP, procesos de negocio y tecnología para ayudarte a aprovechar al máximo RISE.",
-    "contactTitle": "Da el siguiente paso hacia la excelencia operativa con nosotros."
+    "contactTitle": "Da el siguiente paso hacia la excelencia operativa con nosotros.",
+    "riseWithSapNavigationAlt": "Como Socio Gold de SAP, aportamos una profunda experiencia en aplicaciones SAP, procesos empresariales y tecnología para ayudarle a aprovechar al máximo RISE."
   },
   "oracle": {
     "data": [
@@ -1583,7 +1590,7 @@
     "insights": "Perspectivas"
   },
   "revenueCloud": {
-    "revenueCloudImg":"/images/revenue-cloud/revenue-cloud-infographic-spanish.webp",
+    "revenueCloudImg": "/images/revenue-cloud/revenue-cloud-infographic-spanish.webp",
     "revenueStats": [
       {
         "value": "40%",

@@ -366,11 +366,14 @@
     "headerSubTitle3": "Tirer parti des services de conseil SAP pour des opérations commerciales fiables.",
     "KnowMore": "En savoir plus",
     "learnMore": "En savoir plus",
+    "sapConsultingBannerAlt": "Équipe professionnelle collaborant sur la transformation digitale avec les solutions SAP",
+    "sapPartnerLogoAlt": "Badge officiel de Partenaire SAP représentant l’expertise certifiée en implémentation.",
     "solutionSuccess": [
       {
         "id": 1,
-        "imageUrl": "/images/sap-consulting/RISE with SAP thumb.png",
+        "imageUrl": "/images/sap-consulting/rise-with-sap-team.webp",
         "title": "RISE with SAP",
+        "imageAlt": "Consultants mettant en œuvre RISE avec SAP pour la transformation cloud des entreprises.",
         "description": "RISE with SAP est la solution ultime pour toute entreprise qui doit développer de nouveaux modèles commerciaux afin d’éviter les perturbations opérationnelles et de créer un système numérique bien défini.",
         "productsDetails": [
           "Migration SAP S/4HANA",
@@ -382,8 +385,9 @@
       },
       {
         "id": 2,
-        "imageUrl": "/images/sap-consulting/thumb 1.webp",
+        "imageUrl": "/images/sap-consulting/grow-with-sap-team.webp",
         "title": "GROW with SAP",
+        "imageAlt": "Experts SAP guidant les entreprises dans l’adoption de GROW avec SAP Cloud ERP.",
         "description": "Les services GROW with SAP offrent des solutions complètes, un soutien communautaire et des ressources pour vous aider à adopter le Cloud ERP rapidement et de manière fiable.",
         "productsDetails": [
           "Accélérez votre transformation numérique",
@@ -396,8 +400,9 @@
       },
       {
         "id": 3,
-        "imageUrl": "/images/sap-consulting/Successfactor thumb.png",
+        "imageUrl": "/images/sap-consulting/successfactor-hcm-transform-team.webp",
         "title": "SuccessFactors",
+        "imageAlt": "Professionnels RH et technologies optimisant la gestion des effectifs avec SAP SuccessFactors.",
         "description": "SuccessFactors propose une transformation HCM mondiale de bout en bout, en automatisant les processus RH pour maintenir l’engagement des employés et les aligner sur les besoins organisationnels, tout en allégeant la charge de travail des responsables RH.",
         "productsDetails": [
           "Employee Central & Employee Central Payroll",
@@ -409,8 +414,9 @@
       },
       {
         "id": 4,
-        "imageUrl": "/images/sap-consulting/SAP Ariba.webp",
+        "imageUrl": "/images/sap-consulting/sap-ariba-procurement-team.webp",
         "title": "SAP Ariba",
+        "imageAlt": "Spécialistes en achats gérant la transformation numérique des approvisionnements et dépenses avec SAP Ariba.",
         "description": "Transformez votre stratégie d’approvisionnement pour renforcer l’innovation et la valeur grâce à la gestion des dépenses, à l’approvisionnement stratégique et aux économies de coûts, tout en améliorant les opérations, la prise de décision et la gestion des contrats.",
         "productsDetails": [
           "Indicateurs d’approvisionnement et de chaîne d’approvisionnement",
@@ -428,7 +434,8 @@
     "sapInustryTitle": "Solutions SAP axées sur l’industrie, adaptées aux besoins des différentes organisations",
     "riseWithSapTitle": "RISE with SAP",
     "riseWithSapDesc": "Simplifiez la transformation de votre entreprise grâce à un modèle personnalisable par abonnement, « as a service », qui vous permet de migrer vers le cloud et S/4HANA à votre propre rythme. En tant que partenaire SAP Gold, nous apportons une expertise approfondie en matière d’applications SAP, de processus métier et de technologie pour vous aider à tirer pleinement parti de RISE.",
-    "contactTitle": "Faites le prochain pas vers l’excellence opérationnelle avec nous."
+    "contactTitle": "Faites le prochain pas vers l’excellence opérationnelle avec nous.",
+    "riseWithSapNavigationAlt": "En tant que Partenaire Gold SAP, nous apportons une expertise approfondie en applications SAP, processus métier et technologie pour vous aider à tirer pleinement parti de RISE"
   },
   "agentForce": {
     "headerTitle": "Agentforce",
@@ -1583,8 +1590,7 @@
     "insights": "Perspectives"
   },
   "revenueCloud": {
-        "revenueCloudImg":"/images/revenue-cloud/revenue-cloud-infographic-french.webp",
-
+    "revenueCloudImg": "/images/revenue-cloud/revenue-cloud-infographic-french.webp",
     "revenueStats": [
       {
         "value": "40%",

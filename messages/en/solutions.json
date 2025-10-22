@@ -1,8 +1,8 @@
 {
   "sapBdc": {
     "headerTitle": "SAP Business Data Cloud",
-    "seoTitle":"SAP Business Data Cloud: End Data Chaos Today | Rialtes",
-    "seoDescription":"SAP Business Data Cloud turns chaos into clarity with a single source of truth. Make smarter decisions with Rialtes. Start your data journey today.",
+    "seoTitle": "SAP Business Data Cloud: End Data Chaos Today | Rialtes",
+    "seoDescription": "SAP Business Data Cloud turns chaos into clarity with a single source of truth. Make smarter decisions with Rialtes. Start your data journey today.",
     "headerSubtitle": "Unlock the Future of Data with SAP Business Data Cloud",
     "unifyTitle": "Unify Your Enterprise Data From Finance to Frontline",
     "unifyDesc": "Rialtes helps you connect and harmonize enterprise data across your business applications. With SAP Business Data Cloud, we enable you to integrate:",
@@ -128,8 +128,8 @@
   },
   "salesforceDataCloud": {
     "headerTitle": "Data Cloud",
-    "seoTitle":"Salesforce Data Cloud Implementation and Consulting Services | Rialtes",
-    "seoDescription":"Expert Salesforce Data Cloud implementation and consulting to fuel growth, boost decisions, accelerate innovation, and drive stronger outcomes with Rialtes.",
+    "seoTitle": "Salesforce Data Cloud Implementation and Consulting Services | Rialtes",
+    "seoDescription": "Expert Salesforce Data Cloud implementation and consulting to fuel growth, boost decisions, accelerate innovation, and drive stronger outcomes with Rialtes.",
     "headerSubtitle": "Harness the Potential of Salesforce Data Cloud",
     "headerDesc": "Drive automation, predictive, and generative AI, as well as analytics, within the world’s leading AI-powered CRM",
     "pageDescTitle": "What Is Salesforce Data Cloud?",
@@ -220,15 +220,15 @@
   },
   "datasphere": {
     "headerTitle": "SAP Datasphere",
-    "seoTitle":"SAP Datasphere Implementation with AI Consulting Services | Rialtes",
-    "seoDescription":"Need smarter data? SAP Datasphere Implementation Consulting by Rialtes blends AI with expertise to unify systems, optimize workflows, and drive success.",
+    "seoTitle": "SAP Datasphere Implementation with AI Consulting Services | Rialtes",
+    "seoDescription": "Need smarter data? SAP Datasphere Implementation Consulting by Rialtes blends AI with expertise to unify systems, optimize workflows, and drive success.",
     "headerSubtitle": "Unleash the Power of AI-Driven Data Lakes with Rialtes & SAP Datasphere",
     "pageDescTitle": "Future-Proof Your Business with Intelligent Data Consolidation, AI Insights, and Seamless Integration",
     "pageDesc1": "In today’s competitive landscape, data is the new currency. Yet, most organizations struggle with fragmented data spread across multiple systems like SAP, Salesforce, Oracle, and more. Rialtes, as a certified SAP partner, offers cutting-edge SAP Datasphere services to consolidate and harmonize your enterprise data, unlocking real-time AI-powered insights that drive value and innovation.",
     "pageDesc2": "With deep expertise in SAP Datasphere and AI-led data architecture, we turn your data sprawl into a powerful, unified asset — creating a future-ready, intelligent enterprise.",
     "whyRialtesTitle": "Why Rialtes?",
     "whyRialtesSubTitle": "Your AI-Powered SAP Datasphere Partner for End-to-End Success",
-      "learnMoreBtn": "Learn More",
+    "learnMoreBtn": "Learn More",
     "whyrialtessectiondata": [
       "Complete lifecycle services: Consulting, Design, Implementation, Integration, and Post-Go-Live AI Optimization.",
       "Industry-first AI/ML data models and accelerators for rapid value realization.",
@@ -361,19 +361,21 @@
   },
   "sapConsulting": {
     "headerTitle": "SAP Consulting",
-    "seoTitle":"SAP Consulting Services and Implementation Partners | Rialtes", 
-    "seoDescription":"Rialtes, a trusted SAP Consulting and Implementation Partner you can rely on for AI-powered implementations, smarter integrations, and long-term SAP success.",
+    "seoTitle": "SAP Consulting Services and Implementation Partners | Rialtes",
+    "seoDescription": "Rialtes, a trusted SAP Consulting and Implementation Partner you can rely on for AI-powered implementations, smarter integrations, and long-term SAP success.",
     "headerSubTitle1": "Leaning towards",
     "headerSubTitle2": "a better tomorrow.",
     "headerSubTitle3": "Leveraging SAP Consulting Services for reliable business operations.",
-    "KnowMore":"Know More",
-     "learnMore": "Learn More",
-
+    "KnowMore": "Know More",
+    "learnMore": "Learn More",
+    "sapConsultingBannerAlt": "Banner image showing business professionals collaborating, representing SAP consulting and implementation services",
+    "sapPartnerLogoAlt": "Official SAP Partner badge representing certified implementation expertise",
     "solutionSuccess": [
       {
         "id": 1,
-        "imageUrl": "/images/sap-consulting/RISE with SAP thumb.png",
+        "imageUrl": "/images/sap-consulting/rise-with-sap-team.webp",
         "title": "RISE with SAP",
+        "imageAlt": "Consultants implementing RISE with SAP for enterprise cloud transformation",
         "description": "RISE with SAP is the ultimate solution for every enterprise that needs to develop new business models to avoid operational disruptions and create a well-defined digital system.",
         "productsDetails": [
           "SAP S/4HANA Migration",
@@ -385,8 +387,9 @@
       },
       {
         "id": 2,
-        "imageUrl": "/images/sap-consulting/thumb 1.webp",
+        "imageUrl": "/images/sap-consulting/grow-with-sap-team.webp",
         "title": "GROW with SAP",
+        "imageAlt": "SAP experts guiding businesses through GROW with SAP cloud ERP adoption services",
         "description": "Grow with SAP services offers comprehensive solutions, community support, and resources to help you adopt Cloud ERP quickly and reliably",
         "productsDetails": [
           "Accelerate Your Digital Transformation",
@@ -399,8 +402,9 @@
       },
       {
         "id": 3,
-        "imageUrl": "/images/sap-consulting/Successfactor thumb.png",
+        "imageUrl": "/images/sap-consulting/successfactor-hcm-transform-team.webp",
         "title": "SuccessFactors",
+        "imageAlt": "HR technology professionals optimizing workforce management using SAP SuccessFactors",
         "description": "SuccessFactors provides end-to-end global HCM transformation, automating HR processes to keep employees engaged and aligned with organizational needs, all while easing the workload for HR leaders.",
         "productsDetails": [
           "Employee Central & Employee Central Payroll",
@@ -412,8 +416,9 @@
       },
       {
         "id": 4,
-        "imageUrl": "/images/sap-consulting/SAP Ariba.webp",
+        "imageUrl": "/images/sap-consulting/sap-ariba-procurement-team.webp",
         "title": "SAP Ariba",
+        "imageAlt": "Procurement specialists managing digital sourcing and spend transformation with SAP Ariba",
         "description": "Transform your procurement strategy to enhance innovation and value through spend management, strategic sourcing, and cost savings, while improving operations, decision-making, and contract management",
         "productsDetails": [
           "Procurement and supply chain metrics",
@@ -431,12 +436,13 @@
     "sapInustryTitle": "SAP Industry Focused Solutions Tailored to Meet the Needs of Different Organizations",
     "riseWithSapTitle": "RISE with SAP",
     "riseWithSapDesc": "Simplify the business of transformation through a customizable, subscription-based “as a service” model that empowers you to move to the cloud and S/4HANA at your own pace. As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE.",
-    "contactTitle": "Take the next step to operational excellence with us."
+    "contactTitle": "Take the next step to operational excellence with us.",
+    "riseWithSapNavigationAlt": "As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE. "
   },
   "agentForce": {
     "headerTitle": "Agentforce",
-    "seoTitle":"Agentforce Consulting | Automate Smarter with Rialtes",
-    "seoDescription":"Ready to scale smarter? Agentforce Consulting by Rialtes delivers Salesforce agents that automate, adapt, and drive success faster than ever.",
+    "seoTitle": "Agentforce Consulting | Automate Smarter with Rialtes",
+    "seoDescription": "Ready to scale smarter? Agentforce Consulting by Rialtes delivers Salesforce agents that automate, adapt, and drive success faster than ever.",
     "headerDesc": "Humans + Agents Automate Routine Tasks to Drive Customer Success",
     "headerOne": "Salesforce Agentforce:",
     "headerTwo": "What You Need To Know",
@@ -607,8 +613,8 @@
     "contactTitle": "Take the next step to operational excellence with us."
   },
   "oracle": {
-    "seoTitle":"Oracle EBS Consulting Services and Solutions | Rialtes",
-    "seoDescription":"OracleEBSPlus by Rialtes redefines Oracle EBS consulting, enabling forward-thinking enterprises to lead with greater agility, deeper insight, and innovation.",
+    "seoTitle": "Oracle EBS Consulting Services and Solutions | Rialtes",
+    "seoDescription": "OracleEBSPlus by Rialtes redefines Oracle EBS consulting, enabling forward-thinking enterprises to lead with greater agility, deeper insight, and innovation.",
     "data": [
       {
         "img": "/images/oracle-ebs/20 yrs ERP.svg",
@@ -793,8 +799,8 @@
     "contactTitle": "Ready to Modernize Oracle EBS for Your Business?"
   },
   "sapCpi": {
-    "seoTitle":"SAP Cloud Platform Integration (CPI) Services | Rialtes", 
-    "seoDescription":"Rialtes offers expert SAP Cloud Platform Integration (CPI) services to streamline operations, connect SAP and non-SAP apps, and accelerate transformation.",
+    "seoTitle": "SAP Cloud Platform Integration (CPI) Services | Rialtes",
+    "seoDescription": "Rialtes offers expert SAP Cloud Platform Integration (CPI) services to streamline operations, connect SAP and non-SAP apps, and accelerate transformation.",
     "learnMore": "Learn More",
     "thoughtLeadershipData": [
       "Disconnected systems and data silos limiting agility.",
@@ -1022,11 +1028,11 @@
     "contactSubTitle1": "Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value.",
     "contactSubTitle2": "Contact us today for a free consultation and explore how we can empower your connected enterprise!"
   },
-  "uiPath": { 
+  "uiPath": {
     "headerTitle": "UiPath RPA Services",
-    "seoTitle":"RPA Consulting Services and Solutions with UiPath | Rialtes",
-    "seoDescription":"Looking for RPA consulting services providers? We help automate SAP and Salesforce workflows, cut costs, and boost efficiency using UiPath. Start today.",
-     "learnMoreBtn": "Learn More",
+    "seoTitle": "RPA Consulting Services and Solutions with UiPath | Rialtes",
+    "seoDescription": "Looking for RPA consulting services providers? We help automate SAP and Salesforce workflows, cut costs, and boost efficiency using UiPath. Start today.",
+    "learnMoreBtn": "Learn More",
     "headerDesc": "Driving Next-Gen Automation for a Smarter Enterprise",
     "operationsTitle": "Transform Your Enterprise Operations with Intelligent RPA.",
     "operationsDescOne": "At Rialtes, we help businesses harness the full power of UiPath’s Robotic Process Automation (RPA) platform to automate end-to-end processes, reduce manual effort, improve accuracy, and drive scalable growth.",
@@ -1104,7 +1110,6 @@
       "Error-free supplier transactions.",
       "Improved compliance and vendor satisfaction."
     ],
-
     "hanaTitle": " RPA Automation with SAP S/4HANA",
     "hanaSubtitle": "Intelligent ERP Process Automation",
     "hanaDesc": "Rialtes helps clients leverage UiPath to automate mission-critical workflows within SAP S/4HANA, enhancing operational efficiency.",
@@ -1137,7 +1142,6 @@
       "Enhanced employee onboarding experience.",
       "Improved data accuracy and compliance."
     ],
-
     "SalesforceTitle": "RPA Automation with Salesforce",
     "SalesforceSubtitle": " Powering Customer-Centric Automation",
     "SalesforceDesc": "Rialtes enables clients to extend UiPath RPA to Salesforce, improving CRM, sales, and service processes.",
@@ -1214,11 +1218,11 @@
     "contactSubtitleOne": "Contact us today for a free automation assessment!"
   },
   "tosca": {
-    "seoTitle":"Tosca Software Automation Testing Services | Rialtes",
-    "seoDescription":"Rialtes offers Tosca Software Automation Testing Services with AI, CI/CD, and risk-based testing for seamless transformation of SAP, Salesforce, and DevOps.",
+    "seoTitle": "Tosca Software Automation Testing Services | Rialtes",
+    "seoDescription": "Rialtes offers Tosca Software Automation Testing Services with AI, CI/CD, and risk-based testing for seamless transformation of SAP, Salesforce, and DevOps.",
     "headerTitle": "Elevate Quality Engineering with Rialtes’ Tosca Automation Testing Services",
     "headerSubTitle": "Tricentis TOSCA",
-     "learnMoreBtn": "Learn More",
+    "learnMoreBtn": "Learn More",
     "empowerTitleOne": "Empowering Enterprises with",
     "empowerTitleTwo": "End-to-End Automated Testing, QTest, LiveCompare & NeoLoad Solutions",
     "empowerDescOne": "At Rialtes, we help organizations transform their testing lifecycle with Tricentis Tosca — the industry’s leading continuous testing platform. With deep expertise and a team of highly certified Tosca experts, Rialtes delivers scalable, intelligent, and resilient testing solutions that dramatically improve quality, speed, and efficiency.",
@@ -1357,19 +1361,16 @@
         "tittle": "Healthcare",
         "descrip": "Ensure seamless patient data exchange across systems for better care delivery."
       },
-
       {
         "_id": 2,
         "tittle": "Retail",
         "descrip": "Connect eCommerce platforms, inventory systems, and payment gateways for a superior customer experience."
       },
-
       {
         "_id": 3,
         "tittle": "Finance",
         "descrip": "Enable real-time data flow across banking systems to improve operational efficiency and compliance."
       },
-
       {
         "_id": 4,
         "tittle": "Manufacturing",
@@ -1511,7 +1512,6 @@
         "title": "World’s #1 CRM ",
         "description": "A customer-first approach since inception offers options for integrating custom platforms, conversational AI, and modern app development features."
       },
-
       {
         "id": 2,
         "title": "Breathes Transparency",
@@ -1560,7 +1560,6 @@
         "url": "insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce",
         "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
       },
-
       {
         "id": 4,
         "image": "/images/blog/blog-4-long-thumb.webp",
@@ -1570,7 +1569,6 @@
         "url": "insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data",
         "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data"
       },
-
       {
         "id": 6,
         "image": "/images/blog/blog-8-long-thumb.webp",
@@ -1580,7 +1578,6 @@
         "url": "insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration",
         "title": "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration"
       },
-
       {
         "id": 11,
         "image": "/images/blog/blog-12-long-thumb.webp",
@@ -1596,7 +1593,7 @@
     "insights": "Insights"
   },
   "revenueCloud": {
-    "revenueCloudImg":"/images/revenue-cloud/revenue-cloud-infographic.webp",
+    "revenueCloudImg": "/images/revenue-cloud/revenue-cloud-infographic.webp",
     "seoTitle": "Salesforce Revenue Cloud Implementation Partner | Rialtes",
     "seoDescription": "Rialtes, a trusted Salesforce Revenue Cloud implementation partner, offers tailored solutions to transform sales, billing, and revenue operations.",
     "revenueStats": [
