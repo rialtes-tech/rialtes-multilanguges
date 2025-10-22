@@ -192,8 +192,8 @@
         "keyFeatureTitle": "Key Features of AgentChat for SAP ARIBA Users"
     },
     "successPlus": {
-        "keyServiceImg":"/images/services/success-plus/key-services-desk.webp",
-        "keyServiceImgMobile":"/images/services/success-plus/Mobile/key-services-mob.webp",
+        "keyServiceImg": "/images/services/success-plus/key-services-desk.webp",
+        "keyServiceImgMobile": "/images/services/success-plus/Mobile/key-services-mob.webp",
         "headerTitle": "Success+",
         "seoTitle": "SAP SuccessFactors Consulting and Implementation Partners | Rialtes",
         "seoDescription": "Success+ by Rialtes delivers AI-powered SuccessFactors consulting and implementation to modernize HCM and accelerate your HR transformation. Let’s begin!",
@@ -250,7 +250,7 @@
         "contactTitle": "Partner with Rialtes for Your SAP SuccessFactors Journey",
         "contactSubTitle": "Whether you are starting fresh, migrating from Workday or ZOHO, or enhancing your current SuccessFactors environment, Rialtes’ SuccessPlus offers the expertise, tools, and methodology to drive real HR transformation.",
         "empoweringTitle": " Rialtes — Empowering Enterprises to Lead with SAP SuccessFactors Journey",
-        "knowMore":"Know More",
+        "knowMore": "Know More",
         "relatedData": [
             "SAP S/4HANA for Finance & Operations.",
             "SAP Ariba for Direct & Indirect Procurement",
@@ -382,8 +382,8 @@
         "headerTitle": "DemandPlus",
         "seoTitle": "Kinaxis RapidResponse for Agile SCM with Rialtes DemandPlus",
         "seoDescription": "Reimagine resilient supply chains with Kinaxis RapidResponse and Rialtes’ DemandPlus—smart SCM solutions for agility, speed, and precision.",
-          "learnMoreBtn": "Learn More",
-          "knowMoreBtn": "Know More",
+        "learnMoreBtn": "Learn More",
+        "knowMoreBtn": "Know More",
         "headerSubTitle": "Transform Your Supply Chain with Rialtes ‘DemandPlus’ for Kinaxis RapidResponse",
         "pageDescTitle": "Agility, Accuracy, and Resilience in Supply Chain — Powered by Kinaxis and Rialtes",
         "pageDesc1": "In today’s volatile and complex supply chain landscape, businesses need real-time visibility, agile planning, and predictive insights to stay competitive. Rialtes’ DemandPlus Services, built around Kinaxis RapidResponse, deliver end-to-end supply chain transformation, enabling companies to plan, monitor, and respond to supply chain dynamics in real-time.",
@@ -523,24 +523,29 @@
         "seoDescription": "Grow with SAP solutions that deliver measurable business success, powered by Rialtes—a trusted SAP partner driving enterprise-ready innovation and growth.",
         "services": [
             {
+                "alt": "Blue line icon of certificate document with ribbon medal and text lines representing achievement or qualification ",
                 "text": "SAP License Advisory",
-                "img": "/images/services/grow-with-sap/SAP License Advisory.svg"
+                "img": "/images/services/grow-with-sap/certificate-document-icon.svg"
             },
             {
+                "alt": " Blue outline shield icon with award ribbon and checkmark symbolizing security certification and verified protection",
                 "text": "Quality Assurance & User Training",
-                "img": "/images/services/grow-with-sap/Quality Assurance & User Training.svg"
+                "img": "/images/services/grow-with-sap/security-badge-shield-icon.svg"
             },
             {
+                "alt": "Blue line icon of customer service representative with headset and speech bubble symbolizing technical support assistance",
                 "text": "Post Go-Live Support & Continuous Optimization",
-                "img": "/images/services/grow-with-sap/Post Go-Live Support .svg"
+                "img": "/images/services/grow-with-sap/customer-support-service-icon.svg"
             },
             {
+                "alt": "Blue line icon with cloud, lightbulb, and gear symbolizing cloud computing innovation and integrated technology solutions ",
                 "text": "Solution Design & Implementation",
-                "img": "/images/services/grow-with-sap/Solution Design & Implementation.svg"
+                "img": "/images/services/grow-with-sap/cloud-innovation-technology-icon.svg"
             },
             {
+                "alt": "Blue line icon showing connected users around verified gear symbol representing team collaboration and approved workflow",
                 "text": "System Integration & Customization",
-                "img": "/images/services/grow-with-sap/System Integration & Customization.svg"
+                "img": "/images/services/grow-with-sap/network-collaboration-verified-icon.svg"
             }
         ],
         "cardsData": [
@@ -669,6 +674,13 @@
                 "desc": "Hypercare, continuous improvement, AI integration."
             }
         ],
+        "bannerAlt": " Abstract speed motion blur creating dynamic tunnel effect with flowing lines and warm light at horizon point",
+        "whyAlt": "Glowing neon arrow pointing upward with flowing digital lines representing business growth and success on dark background",
+        "sapAlt": "Ethereal blue and pink clouds with glowing cyan data streams flowing through dreamlike sky representing cloud computing concept",
+        "signavioAlt": "SAP Signavio logo with blue geometric brand mark and navy text on white background for business process management software",
+        "expandingAlt": "Hand touching luminous upward arrow with golden particles on dark blue background symbolizing digital growth and innovation",
+        "convAlt": "Smiling young man in green hoodie using smartphone at cafe table with coffee cup and teapot in cozy interior setting ",
+        "futureAlt": "Human profile composed of glowing red and cyan digital code and data streams against blurred cityscape representing AI technology",
         "headerTitle": "VoyagerNext",
         "headerSubTitle": "Grow Faster, Smarter with Rialtes' VoyagerNext",
         "headerSubTitle2": "Your Partner for SAP S/4HANA Cloud Transformation",
@@ -865,6 +877,12 @@
                 "desc": "Continuous optimization and support."
             }
         ],
+        "bannerAlt": "Abstract blue gradient background with radial curved lines creating dynamic circular pattern representing digital transformation",
+        "whyAlt": "Business professional working on laptop with glowing blue network visualization and bokeh lights representing data connectivity",
+        "greenAlt": " Highway at night with orange and blue light trails under starry sky symbolizing high-speed digital connectivity and data transfer ",
+        "connectedAlt": "Dynamic blue and purple data streams with connected particles on dark background representing high-speed network flow",
+        "agentAlt": "Smiling bearded man wearing glasses and green shirt using smartphone outdoors against brick wall in natural daylight",
+        "aiAlt": "Hand holding luminous golden sphere with clouds inside against bokeh background symbolizing innovation and future vision ",
         "headerTitle": "Voyager+",
         "headerSubTitle": "Accelerate Your Digital Transformation with Rialtes Voyager+ for RISE with SAP",
         "pageDescTitle": " Unlock the Future of Intelligent Enterprise with a Trusted SAP Partner",
@@ -912,9 +930,9 @@
         "seoDescription": "Salesforce automotive cloud by Rialtes AutoSense drives innovation and efficiency, helping automotive businesses deliver exceptional customer experiences.",
         "keyPillarsSectionData": [
             {
-                "imageUrl": "/images/industry/auto-sense/strategic-advisory-img.webp",
-                "imageAlt": "strategic advisory image",
-                "mobileImageUrl": "/images/industry/auto-sense/Mobile/strategic-advisory-mob-img.webp",
+                "imageUrl": "/images/industry/auto-sense/holographic-car-design-engineering.webp",
+                "imageAlt": "Holographic transparent car model with exposed green battery system on digital display for automotive engineering design",
+                "mobileImageUrl": "/images/industry/auto-sense/Mobile/holographic-car-design-engineering-mobile.webp",
                 "title": "Strategic Advisory & Roadmapping",
                 "listItems": [
                     "Future-ready IT and digital strategy aligned to electrification, AI, and CX goals.",
@@ -925,7 +943,7 @@
             },
             {
                 "imageUrl": "/images/industry/auto-sense/design-and-implementation-img.webp",
-                "imageAlt": "design and implementation image",
+                "imageAlt": "",
                 "mobileImageUrl": "/images/industry/auto-sense/Mobile/design-and-implementation-mob-img.webp",
                 "title": "Design & Implementation",
                 "listItems": [
@@ -937,7 +955,7 @@
             },
             {
                 "imageUrl": "/images/industry/auto-sense/integration-quality-assurance-img.webp",
-                "imageAlt": "integration quality assurance image",
+                "imageAlt": "",
                 "mobileImageUrl": "/images/industry/auto-sense/Mobile/integration-quality-assurance-mob-img.webp",
                 "title": "Integration & Quality Assurance",
                 "listItems": [
@@ -949,7 +967,7 @@
             },
             {
                 "imageUrl": "/images/industry/auto-sense/post-go-live-img.webp",
-                "imageAlt": "post go live image",
+                "imageAlt": "",
                 "mobileImageUrl": "/images/industry/auto-sense/Mobile/post-go-live-mob-img.webp",
                 "title": "Post Go-Live & Continuous Innovation",
                 "listItems": [
@@ -1038,6 +1056,8 @@
                 "description": "Aligning profitability with ESG goals through AI and intelligent platforms."
             }
         ],
+        "bannerAlt": "Blue motion blur light trails on highway at night with mountain silhouettes representing high-speed digital acceleration",
+
         "thoughtLeadershipTitle": "Thought Leadership Themes for Automotive Clients ",
         "thoughtLeadershipDesc": " Here are 5 high impact thought leadership ideas Rialtes can drive to position as an industry leader:",
         "headerTitle": "AutoSense",
@@ -1597,7 +1617,7 @@
             "Fully integrated with Salesforce workflows and automation for real - time, intelligent conversations."
         ],
         "headerTitle": "Retail+",
-          "learnMoreBtn": " Learn More",
+        "learnMoreBtn": " Learn More",
         "headerSubTitle": "Intelligent, Connected, and Scalable Retail Transformation",
         "empoweringTitle": " Empowering Global Retailers with AI-Driven, Omnichannel Solutions",
         "empoweringDesc1": "In today’s dynamic and highly competitive retail landscape, customer expectations are evolving rapidly, driven by hyper-personalization, seamless omnichannel engagement, and intelligent operations. At Rialtes, we bring over a decade of global consulting experience to help B2B and B2C retailers successfully navigate these challenges and drive sustainable growth.",
@@ -1635,7 +1655,7 @@
         "headerTitle": "LifeAI+",
         "seoTitle": "Salesforce Life Sciences Cloud Consulting Services | Rialtes",
         "seoDescription": "LifeAI+ by Rialtes provides Salesforce Life Sciences cloud consulting to streamline healthcare operations, enhance compliance, and elevate patient care.",
-         "learnMoreBtn": " Learn More",
+        "learnMoreBtn": " Learn More",
         "headerSubTitle": "Transforming Life Sciences with Rialtes LifeAI+ Services",
         "pageDescTitle": "Salesforce Life Sciences Cloud Services for Smarter, Compliant Innovation with AI",
         "pageDesc1": "At Rialtes, we understand that the life sciences industry is rapidly evolving — with growing expectations from patients, providers, regulators, and partners. To meet these demands, organizations need intelligent, AI-driven solutions that integrate compliance, personalization, and automation at scale.",
@@ -1714,7 +1734,6 @@
             "Proactive Intervention Triggers — powered by AI models using real-time Data Cloud signals."
         ],
         "whatIsLifeTitle": "What is LifeAI+?",
-
         "whatIsLifeDesc": "A 360° consulting service that unites Advisory, Design, Implementation, Quality Assurance, Integration, and Post-Go-Live Support — ensuring continuous value creation and innovation across your life sciences value chain.",
         "whatIsLifeSubTitle": "Our End-to-End Services Include:",
         "whyPartnerTitle": "Why Partner with Rialtes?",
@@ -1893,7 +1912,7 @@
             "End-to-end support from advisory to post-go-live optimization."
         ],
         "headerTitle": "Advantage+",
-          "learnMoreBtn": "Learn More",
+        "learnMoreBtn": "Learn More",
         "headerSubTitle": "Fueling Growth Through Personalized Marketing",
         "headerSubTitle2": "Rialtes’ Salesforce Marketing Cloud Services",
         "pageDescTitle": "Deliver Hyper-Personalized, Data-Driven Experiences with Advantage+",

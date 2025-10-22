@@ -306,8 +306,8 @@ export default function page() {
             <section className="relative group overflow-hidden h-[400px] md:h-[480px] 4xl:h-[650px]">
                 <div className="md:block hidden">
                     <Image
-                        src="/images/industry/auto-sense/auto-sense-banner.webp"
-                        alt="auto-sense-banner"
+                        src="/images/industry/auto-sense/speed-motion-blue-highway-night.webp"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                         priority
@@ -315,8 +315,8 @@ export default function page() {
                 </div>
                 <div className="md:hidden block">
                     <Image
-                        src="/images/industry/auto-sense/Mobile/auto-sense-banner-mob.webp"
-                        alt=""
+                        src="/images/industry/auto-sense/Mobile/speed-motion-blue-highway-night-mobile.webp"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
@@ -362,8 +362,8 @@ export default function page() {
                 <div className="custom-container md:pl-0 max-md:px-0">
                     {/* Desktop Image */}
                     <Image
-                        src="/images/industry/auto-sense/partner-with-rialtes-img.webp"
-                        alt="partner-with-rialtes-img"
+                        src="/images/industry/auto-sense/man-charging-electric-vehicle.webp"
+                        alt={t('')}
                         width={0}
                         height={0}
                         className="hidden lg:block w-full"
@@ -371,8 +371,8 @@ export default function page() {
                     />
                     {/* Mobile Image */}
                     <Image
-                        src="/images/industry/auto-sense/Mobile/partner-with-rialtes-img-mobile.webp"
-                        alt="partner-with-rialtes-img-mobile"
+                        src="/images/industry/auto-sense/Mobile/man-charging-electric-vehicle-mobile.webp"
+                        alt={t('')}
                         width={0}
                         height={0}
                         className="block lg:hidden w-full"

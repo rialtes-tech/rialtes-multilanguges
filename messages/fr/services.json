@@ -192,8 +192,8 @@
     "keyFeatureTitle": "Fonctionnalités clés d’AgentChat pour les utilisateurs SAP ARIBA"
   },
   "successPlus": {
-     "keyServiceImg":"/images/services/success-plus/key-service-french.webp",
-     "keyServiceImgMobile":"/images/services/success-plus/Mobile/key-service-french-mobile.webp",
+    "keyServiceImg": "/images/services/success-plus/key-service-french.webp",
+    "keyServiceImgMobile": "/images/services/success-plus/Mobile/key-service-french-mobile.webp",
     "headerTitle": "Success+",
     "seoTitle": "Partenaires de Conseil et d’Implémentation SAP SuccessFactors | Rialtes",
     "seoDescription": "Success+ de Rialtes offre conseil et implémentation SuccessFactors avec IA pour moderniser la gestion RH et accélérer votre transformation.",
@@ -521,24 +521,29 @@
   "growWithSap": {
     "services": [
       {
-        "text": "Conseil en licences SAP",
-        "img": "/images/services/grow-with-sap/SAP License Advisory.svg"
+        "alt": "Icône en ligne bleue d’un document de certificat avec ruban de médaille et lignes de texte représentant un accomplissement ou une qualification",
+        "text": "SAP License Advisory",
+        "img": "/images/services/grow-with-sap/certificate-document-icon.svg"
       },
       {
-        "text": "Assurance qualité et formation des utilisateurs",
-        "img": "/images/services/grow-with-sap/Quality Assurance & User Training.svg"
+        "alt": "Icône de contour bleu d’un bouclier avec ruban de récompense et coche symbolisant la certification de sécurité et la protection vérifiée",
+        "text": "Quality Assurance & User Training",
+        "img": "/images/services/grow-with-sap/security-badge-shield-icon.svg"
       },
       {
-        "text": "Support post-mise en service et optimisation continue",
-        "img": "/images/services/grow-with-sap/Post Go-Live Support .svg"
+        "alt": "Icône en ligne bleue d’un représentant du service client avec casque et bulle de dialogue symbolisant l’assistance technique",
+        "text": "Post Go-Live Support & Continuous Optimization",
+        "img": "/images/services/grow-with-sap/customer-support-service-icon.svg"
       },
       {
-        "text": "Conception et mise en œuvre de solutions",
-        "img": "/images/services/grow-with-sap/Solution Design & Implementation.svg"
+        "alt": "Icône en ligne bleue avec nuage, ampoule et engrenage symbolisant l’innovation cloud et les solutions technologiques intégrées",
+        "text": "Solution Design & Implementation",
+        "img": "/images/services/grow-with-sap/cloud-innovation-technology-icon.svg"
       },
       {
-        "text": "Intégration et personnalisation du système",
-        "img": "/images/services/grow-with-sap/System Integration & Customization.svg"
+        "alt": "Icône en ligne bleue montrant des utilisateurs connectés autour d’un engrenage vérifié représentant la collaboration d’équipe et le flux de travail approuvé",
+        "text": "System Integration & Customization",
+        "img": "/images/services/grow-with-sap/network-collaboration-verified-icon.svg"
       }
     ],
     "cardsData": [
@@ -667,6 +672,13 @@
         "desc": "Support renforcé, amélioration continue, intégration de l’IA."
       }
     ],
+    "bannerAlt": "Flou de mouvement de vitesse abstrait créant un effet de tunnel dynamique avec des lignes fluides et une lumière chaude au point d'horizon",
+    "whyAlt": "Flèche néon brillante pointant vers le haut avec des lignes numériques fluides représentant la croissance commerciale et le succès sur fond sombre",
+    "sapAlt": "Nuages éthérés bleus et roses avec flux de données cyan lumineux traversant un ciel onirique représentant le concept de cloud computing",
+    "signavioAlt": "Logo SAP Signavio avec marque géométrique bleue et texte bleu marine sur fond blanc pour logiciel de gestion des processus métiers",
+    "expandingAlt": "Main touchant flèche lumineuse vers le haut avec particules dorées sur fond bleu foncé symbolisant croissance numérique et innovation",
+    "convAlt": "Jeune homme souriant en sweat à capuche vert utilisant un smartphone à table de café avec tasse de café et théière dans un cadre confortable",
+    "futureAlt": " Profil humain composé de code numérique lumineux rouge et cyan et flux de données sur paysage urbain flou représentant la technologie IA",
     "headerTitle": "VoyagerNext",
     "seoTitle": "Développez-vous avec les Solutions SAP d’un Partenaire de Confiance | Rialtes",
     "seoDescription": "Croissez avec les solutions SAP de Rialtes, partenaire de confiance qui stimule l’innovation et la croissance avec des résultats mesurables.",
@@ -863,6 +875,12 @@
         "desc": "Optimisation continue et support."
       }
     ],
+    "bannerAlt": " Fond dégradé bleu abstrait avec lignes courbes radiales créant motif circulaire dynamique représentant transformation numérique",
+    "whyAlt": "Professionnel d'affaires travaillant sur ordinateur portable avec visualisation réseau bleue lumineuse et lumières bokeh représentant connectivité données",
+    "greenAlt": "Autoroute de nuit avec traînées lumineuses orange et bleues sous ciel étoilé symbolisant connectivité numérique haute vitesse et transfert de données",
+    "connectedAlt": "Flux de données dynamiques bleus et violets avec particules connectées sur fond sombre représentant flux réseau haute vitesse",
+    "agentAlt": "Homme souriant barbu portant lunettes et chemise verte utilisant smartphone en extérieur contre mur de briques en lumière naturelle",
+    "aiAlt": " Main tenant sphère dorée lumineuse avec nuages à l'intérieur sur fond bokeh symbolisant innovation et vision d'avenir",
     "headerTitle": "Voyager+",
     "seoTitle": "Rise with SAP – Services d’un Partenaire d’Implémentation de Confiance | Rialtes",
     "seoDescription": "Besoin d’un partenaire SAP Rise fiable ? Voyager+ de Rialtes propose des services adaptés pour réussir votre transformation S/4HANA.",
@@ -913,7 +931,7 @@
     "keyPillarsSectionData": [
       {
         "imageUrl": "/images/industry/auto-sense/strategic-advisory-img.webp",
-        "imageAlt": "image conseil stratégique",
+        "imageAlt": "",
         "mobileImageUrl": "/images/industry/auto-sense/Mobile/strategic-advisory-mob-img.webp",
         "title": "Conseil stratégique & Planification",
         "listItems": [
@@ -925,7 +943,7 @@
       },
       {
         "imageUrl": "/images/industry/auto-sense/design-and-implementation-img.webp",
-        "imageAlt": "image conception et mise en œuvre",
+        "imageAlt": "",
         "mobileImageUrl": "/images/industry/auto-sense/Mobile/design-and-implementation-mob-img.webp",
         "title": "Conception & Mise en œuvre",
         "listItems": [
@@ -937,7 +955,7 @@
       },
       {
         "imageUrl": "/images/industry/auto-sense/integration-quality-assurance-img.webp",
-        "imageAlt": "image intégration et assurance qualité",
+        "imageAlt": "",
         "mobileImageUrl": "/images/industry/auto-sense/Mobile/integration-quality-assurance-mob-img.webp",
         "title": "Intégration & Assurance Qualité",
         "listItems": [
@@ -949,7 +967,7 @@
       },
       {
         "imageUrl": "/images/industry/auto-sense/post-go-live-img.webp",
-        "imageAlt": "image post mise en production",
+        "imageAlt": "",
         "mobileImageUrl": "/images/industry/auto-sense/Mobile/post-go-live-mob-img.webp",
         "title": "Post-Mise en Production & Innovation Continue",
         "listItems": [
@@ -1038,6 +1056,7 @@
         "description": "Aligner rentabilité et objectifs ESG grâce à l’IA et aux plateformes intelligentes."
       }
     ],
+    "bannerAlt": "Traînées lumineuses bleues en flou de mouvement sur autoroute de nuit avec silhouettes de montagnes représentant accélération numérique haute vitesse",
     "thoughtLeadershipTitle": "Thèmes de leadership éclairé pour les clients automobiles",
     "thoughtLeadershipDesc": " Voici 5 idées à fort impact que Rialtes peut promouvoir pour se positionner comme leader du secteur :",
     "headerTitle": "AutoSense",

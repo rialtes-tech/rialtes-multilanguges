@@ -192,8 +192,8 @@
         "keyFeatureTitle": "Características Clave de AgentChat para Usuarios SAP ARIBA"
     },
     "successPlus": {
-        "keyServiceImg":"/images/services/success-plus/key-service-spanish.webp",
-        "keyServiceImgMobile":"/images/services/success-plus/Mobile/key-service-spanish-mobile.webp",
+        "keyServiceImg": "/images/services/success-plus/key-service-spanish.webp",
+        "keyServiceImgMobile": "/images/services/success-plus/Mobile/key-service-spanish-mobile.webp",
         "headerTitle": "Success+",
         "seoTitle": "Consultoría e Implementación de SAP SuccessFactors | Rialtes",
         "seoDescription": "Success+ de Rialtes moderniza RRHH con consultoría e implementación SuccessFactors impulsada por IA para acelerar tu transformación HCM.",
@@ -521,24 +521,29 @@
     "growWithSap": {
         "services": [
             {
-                "text": "Asesoría de Licencias SAP",
-                "img": "/images/services/grow-with-sap/SAP License Advisory.svg"
+                "alt": "Ícono de línea azul de documento de certificado con cinta de medalla y líneas de texto que representan logro o cualificación",
+                "text": "SAP License Advisory",
+                "img": "/images/services/grow-with-sap/certificate-document-icon.svg"
             },
             {
-                "text": "Garantía de Calidad y Capacitación de Usuarios",
-                "img": "/images/services/grow-with-sap/Quality Assurance & User Training.svg"
+                "alt": "Ícono de contorno azul de escudo con cinta de premio y marca de verificación que simboliza certificación de seguridad y protección verificada",
+                "text": "Quality Assurance & User Training",
+                "img": "/images/services/grow-with-sap/security-badge-shield-icon.svg"
             },
             {
-                "text": "Soporte Post Go-Live y Optimización Continua",
-                "img": "/images/services/grow-with-sap/Post Go-Live Support .svg"
+                "alt": "Ícono de línea azul de representante de servicio al cliente con auriculares y burbuja de diálogo que simboliza asistencia técnica",
+                "text": "Post Go-Live Support & Continuous Optimization",
+                "img": "/images/services/grow-with-sap/customer-support-service-icon.svg"
             },
             {
-                "text": "Diseño e Implementación de Soluciones",
-                "img": "/images/services/grow-with-sap/Solution Design & Implementation.svg"
+                "alt": "Ícono de línea azul con nube, bombilla y engranaje que simbolizan innovación en la nube y soluciones tecnológicas integradas",
+                "text": "Solution Design & Implementation",
+                "img": "/images/services/grow-with-sap/cloud-innovation-technology-icon.svg"
             },
             {
-                "text": "Integración y Personalización de Sistemas",
-                "img": "/images/services/grow-with-sap/System Integration & Customization.svg"
+                "alt": "Ícono de línea azul que muestra usuarios conectados alrededor de un engranaje verificado, representando colaboración en equipo y flujo de trabajo aprobado",
+                "text": "System Integration & Customization",
+                "img": "/images/services/grow-with-sap/network-collaboration-verified-icon.svg"
             }
         ],
         "cardsData": [
@@ -667,6 +672,13 @@
                 "desc": "Soporte post implementación, mejora continua, integración de IA."
             }
         ],
+        "bannerAlt": "Desenfoque de movimiento de velocidad abstracto creando efecto de túnel dinámico con líneas fluidas y luz cálida en punto de horizonte",
+        "whyAlt": "Flecha de neón brillante apuntando hacia arriba con líneas digitales fluyendo representando crecimiento empresarial y éxito sobre fondo oscuro",
+        "sapAlt": "Nubes etéreas azules y rosas con flujos de datos cian brillantes atravesando cielo onírico representando concepto de computación en nube",
+        "signavioAlt": "Logotipo de SAP Signavio con marca geométrica azul y texto azul marino sobre fondo blanco para software de gestión de procesos empresariales",
+        "expandingAlt": "Mano tocando flecha luminosa hacia arriba con partículas doradas sobre fondo azul oscuro simbolizando crecimiento digital e innovación",
+        "convAlt": "Joven sonriente con sudadera verde usando teléfono inteligente en mesa de cafetería con taza de café y tetera en ambiente acogedor",
+        "futureAlt": "Perfil humano compuesto de código digital brillante rojo y cian y flujos de datos contra paisaje urbano borroso representando tecnología de IA",
         "headerTitle": "VoyagerNext",
         "seoTitle": "Crece con Soluciones SAP de un Socio de Confianza | Rialtes",
         "seoDescription": "Crece con soluciones SAP que impulsan el éxito empresarial medible, con Rialtes—un socio SAP confiable que lidera la innovación y el crecimiento empresarial.",
@@ -863,6 +875,12 @@
                 "desc": "Optimización continua y soporte."
             }
         ],
+        "bannerAlt": "Fondo degradado azul abstracto con líneas curvas radiales creando patrón circular dinámico representando transformación digital",
+        "whyAlt": "Profesional de negocios trabajando en portátil con visualización de red azul brillante y luces bokeh representando conectividad de datos",
+        "greenAlt": " Carretera nocturna con estelas de luz naranja y azul bajo cielo estrellado simbolizando conectividad digital de alta velocidad y transferencia de datos",
+        "connectedAlt": " Flujos de datos dinámicos azules y morados con partículas conectadas sobre fondo oscuro representando flujo de red de alta velocidad",
+        "agentAlt": "Hombre sonriente con barba usando gafas y camisa verde utilizando teléfono inteligente al aire libre contra pared de ladrillo con luz natural",
+        "aiAlt": "Mano sosteniendo esfera dorada luminosa con nubes en el interior contra fondo bokeh simbolizando innovación y visión de futuro",
         "headerTitle": "Voyager+",
         "seoTitle": "Servicios Rise with SAP de un Socio de Implementación Confiable | Rialtes",
         "seoDescription": "¿Buscas un socio confiable para implementar Rise with SAP? Voyager+ de Rialtes ofrece servicios a medida para una transformación S/4HANA sin fricciones.",
@@ -913,7 +931,7 @@
         "keyPillarsSectionData": [
             {
                 "imageUrl": "/images/industry/auto-sense/strategic-advisory-img.webp",
-                "imageAlt": "imagen de asesoría estratégica",
+                "imageAlt": "",
                 "mobileImageUrl": "/images/industry/auto-sense/Mobile/strategic-advisory-mob-img.webp",
                 "title": "Asesoría Estratégica y Planificación",
                 "listItems": [
@@ -925,7 +943,7 @@
             },
             {
                 "imageUrl": "/images/industry/auto-sense/design-and-implementation-img.webp",
-                "imageAlt": "imagen de diseño e implementación",
+                "imageAlt": "",
                 "mobileImageUrl": "/images/industry/auto-sense/Mobile/design-and-implementation-mob-img.webp",
                 "title": "Diseño e Implementación",
                 "listItems": [
@@ -937,7 +955,7 @@
             },
             {
                 "imageUrl": "/images/industry/auto-sense/integration-quality-assurance-img.webp",
-                "imageAlt": "imagen de integración y aseguramiento de calidad",
+                "imageAlt": "",
                 "mobileImageUrl": "/images/industry/auto-sense/Mobile/integration-quality-assurance-mob-img.webp",
                 "title": "Integración y Aseguramiento de Calidad",
                 "listItems": [
@@ -949,7 +967,7 @@
             },
             {
                 "imageUrl": "/images/industry/auto-sense/post-go-live-img.webp",
-                "imageAlt": "imagen post implementación",
+                "imageAlt": "",
                 "mobileImageUrl": "/images/industry/auto-sense/Mobile/post-go-live-mob-img.webp",
                 "title": "Post Implementación e Innovación Continua",
                 "listItems": [
@@ -1038,6 +1056,7 @@
                 "description": "Alineando rentabilidad con objetivos ESG mediante IA y plataformas inteligentes."
             }
         ],
+        "bannerAlt": "Estelas de luz azul con efecto de movimiento en carretera nocturna con siluetas de montañas representando aceleración digital de alta velocidad",
         "thoughtLeadershipTitle": "Temas de liderazgo intelectual para clientes automotrices",
         "thoughtLeadershipDesc": "Aquí tienes 5 ideas de alto impacto que Rialtes puede liderar para posicionarse como referente en la industria:",
         "headerTitle": "AutoSense",
