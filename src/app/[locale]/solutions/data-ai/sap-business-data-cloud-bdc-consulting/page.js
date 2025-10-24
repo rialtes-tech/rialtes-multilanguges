@@ -86,11 +86,11 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px] ">
+      <section className="relative h-[350px] md:h-[500px] 4xl:h-[650px]">
         <div className="xl:block hidden">
           <Image
-            src="/images/sap-bdc-services/sap-bdc-services-web.webp"
-            alt="SAP Business Data Cloud"
+            src="/images/sap-bdc-services/network-grid-technology.webp"
+            alt={t('headerAlt')}
             fill
             priority
             sizes="100vw"
@@ -100,8 +100,8 @@ export default function Page() {
         {/* Mobile/Tablet Image */}
         <div className="xl:hidden block">
           <Image
-            src="/images/sap-bdc-services/sap-bdc-services-mobile.webp"
-            alt="SAP Business Data Cloud"
+            src="/images/sap-bdc-services/network-grid-technology-mobile.webp"
+            alt={t('headerAlt')}
             fill
             priority
             sizes="100vw"
@@ -151,16 +151,16 @@ export default function Page() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 4xl:gap-[60px] items-center gap-y-10">
             <div className="lg:col-span-7 h-full w-full ">
               <Image
-                src="/images/sap-bdc-services/Unified-web.webp"
-                alt="Open data foundation image"
+                src="/images/sap-bdc-services/business-team-strategy-meeting.webp"
+                alt={t('unifiedAlt')}
                 className="w-full h-full object-cover hidden lg:block "
                 width={0}
                 height={0}
                 style={{ objectPosition: "75% 20%" }}
               />
               <Image
-                src="/images/sap-bdc-services/Unified-mobile.webp"
-                alt="Open data foundation image"
+                src="/images/sap-bdc-services/business-team-strategy-meeting-mobile.webp"
+                alt={t('unifiedAlt')}
                 width={0}
                 height={0}
                 className="block lg:hidden w-full h-full object-cover px-0"
@@ -188,8 +188,8 @@ export default function Page() {
             <div className="hidden lg:block h-full xl:py-20">
               <Image
                 className="w-full h-full object-cover"
-                src="/images/sap-bdc-services/SAP-data-web.webp"
-                alt="Sap data fabric image"
+                src="/images/sap-bdc-services/warehouse-manager-inventory.webp"
+                alt={t('sapDataAlt')}
                 width={0}
                 height={0} 
                 priority
@@ -198,8 +198,8 @@ export default function Page() {
             {/* Mobile image */}
             <div className="block lg:hidden h-100%">
               <Image
-                src="/images/sap-bdc-services/SAP-data-mobile.webp"
-                alt="sap data fabric image"
+                src="/images/sap-bdc-services/warehouse-manager-inventory-mobile.webp"
+                alt={t('sapDataAlt')}
                 width={0}
                 height={0}
                 className="w-full h-full object-cover"
@@ -232,8 +232,8 @@ export default function Page() {
         <section className="relative">
           <div className="hidden lg:block">
             <Image
-              src="/images/sap-bdc-services/sap-cover.webp"
-              alt="Why Choose SAP image"
+              src="/images/sap-bdc-services/digital-network-waves.webp"
+              alt={t('sapBdcAlt')}
               fill
               priority
               style={{ objectFit: "cover" }}
@@ -243,8 +243,8 @@ export default function Page() {
           {/* Mobile Background Image */}
           <div className="block lg:hidden">
             <Image
-              src="/images/sap-bdc-services/sap-cover-mobile.webp"
-              alt="Why Choose SAP image"
+              src="/images/sap-bdc-services/digital-network-waves-mobile.webp"
+              alt={t('sapBdcAlt')}
               fill
               priority
               style={{ objectFit: "cover" }}
@@ -288,16 +288,16 @@ export default function Page() {
         <section className="custom-container grid grid-cols-1 lg:grid-cols-12 gap-8 items-center md:mt-[52px] lg:mt-6">
           <div className="order-1 lg:order-2 2xl:h-[579px] h-full lg:col-span-5">
             <Image
-              src="/images/sap-bdc-services/Your-Trusted-SAP-web.webp"
-              alt="Your Trusted SAP image"
+              src="/images/sap-bdc-services/businesswoman-writing-whiteboard.webp"
+              alt={t('trustedAlt')}
               width={0}
               height={0}
               className="w-full hidden md:block h-full object-cover"
               style={{ objectPosition: "75% 20%" }}
             />
             <Image
-              src="/images/sap-bdc-services/your-trusted-sap-mobile.webp"
-              alt="Your Trusted SAP image"
+              src="/images/sap-bdc-services/businesswoman-writing-whiteboard-mobile.webp"
+              alt={t('trustedAlt')}
               width={0}
               height={0}
               className="w-full block md:hidden h-auto object-cover"
@@ -390,8 +390,8 @@ export default function Page() {
               {/* Desktop Image */}
               <div className="hidden lg:block relative w-full h-full top-[-72px] right-0 z-20">
                 <Image
-                  src="/images/sap-bdc-services/web.webp"
-                  alt="Migrate from SAP image"
+                  src="/images/sap-bdc-services/developers-analyzing-code.webp"
+                  alt={t('migrateAlt')}
                   className="w-full h-full"
                   width={0}
                   height={0}
@@ -402,8 +402,8 @@ export default function Page() {
               {/* Mobile Image */}
               <div className="block lg:hidden w-full h-[340px] sm:h-[700px] md:h-[750px] relative">
                 <Image
-                  src="/images/sap-bdc-services/web.webp"
-                  alt="Migrate from SAP image"
+                  src="/images/sap-bdc-services/developers-analyzing-code.webp"
+                  alt={t('migrateAlt')}
                   width={0}
                   height={0}
                   style={{ objectFit: "cover", objectPosition: "70% 20%" }}
@@ -420,8 +420,8 @@ export default function Page() {
           <div className="relative overflow-hidden">
             <div className="hidden lg:block">
               <Image
-                src="/images/sap-bdc-services/connect.webp"
-                alt="Connect SAP Business image"
+                src="/images/sap-bdc-services/hand-holding-cloud-concept.webp"
+                alt={t('connectAlt')}
                 fill
                 priority
                 style={{ objectFit: "cover" }}
@@ -431,8 +431,8 @@ export default function Page() {
             {/* Mobile Background Image */}
             <div className="block lg:hidden">
               <Image
-                src="/images/sap-bdc-services/connect-mobile.webp"
-                alt="Connect SAP Business image"
+                src="/images/sap-bdc-services/hand-holding-cloud-concept-mobile.webp"
+                alt={t('connectAlt')}
                 fill
                 priority
                 style={{ objectFit: "cover" }}
@@ -460,8 +460,8 @@ export default function Page() {
         <section className="relative max-[345px]:h-[580px] max-[390px]:h-[530px] h-[455px] md:h-[530px] lg:h-[470px] xl:h-[560px] 2xl:h-[530px] 4xl:h-[630px] overflow-hidden">
           <div className="hidden lg:block">
             <Image
-              src="/images/sap-bdc-services/sap-business-web.webp"
-              alt="Our SAP Business image"
+              src="/images/sap-bdc-services/wind-turbine-digital-network.webp"
+              alt={t('businessAlt')}
               fill
               priority
               style={{ objectFit: "cover" }}
@@ -471,8 +471,8 @@ export default function Page() {
           {/* Mobile Background Image */}
           <div className="block lg:hidden">
             <Image
-              src="/images/sap-bdc-services/sap-business-mobile.webp"
-              alt="Our SAP Business image"
+              src="/images/sap-bdc-services/wind-turbine-digital-network-mobile.webp"
+              alt={t('businessAlt')}
               fill
               priority
               style={{ objectFit: "cover" }}
@@ -517,8 +517,8 @@ export default function Page() {
             <div className="lg:col-span-6 col-span-12 lg:order-1 order-2 xl:mr-[40px] relative">
               <div className="block lg:hidden relative z-10 px-6 ">
                 <Image
-                  src="/images/sap-bdc-services/clients-choose-rialtes-web.webp"
-                  alt="Why Clients Choose Rialtes image"
+                  src="/images/sap-bdc-services/software-developer-workspace.webp"
+                  alt={t('clientsAlt')}
                   width={0}
                   height={0}
                   className="w-full h-[400px] 2xl:h-[90%] md:w-[60%]"
@@ -545,8 +545,8 @@ export default function Page() {
             <div className="lg:col-span-6 col-span-12 lg:order-2 order-1 xl:mr-5">
               <div className="hidden lg:block relative w-full h-full top-[-120px] right-0 z-20">
                 <Image
-                  src="/images/sap-bdc-services/clients-choose-rialtes-web.webp"
-                  alt="Why Clients Choose Rialtes image"
+                  src="/images/sap-bdc-services/software-developer-workspace.webp"
+                  alt={t('clientsAlt')}
                   className="w-full h-full "
                   width={0}
                   height={0}

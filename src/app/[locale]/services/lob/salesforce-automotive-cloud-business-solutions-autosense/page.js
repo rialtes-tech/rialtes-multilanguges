@@ -196,7 +196,7 @@ export default function page() {
                     {chooseRialtesData.map((item, ind) => {
                         return (
                             <div key={ind} className="xl:p-[47px] p-[42px] border-[1px] border-[#707070] hover:border-[#D9F2FF] hover:bg-[#D9F2FF] transition-colors duration-300">
-                                <img src={item.imageUrl} alt={`image-${ind}`} />
+                                <img src={item.imageUrl} alt={item.alt} />
                                 <h3 className="xl:mt-[46px] mt-[33px] 4xl:text-[30px] xl:text-[23px] text-[20px] font-semibold leading-tight">{item.title}</h3>
                                 <div>
                                     {item.listItems.map((listItem, index) => (
@@ -306,8 +306,8 @@ export default function page() {
             <section className="relative group overflow-hidden h-[400px] md:h-[480px] 4xl:h-[650px]">
                 <div className="md:block hidden">
                     <Image
-                        src="/images/industry/auto-sense/auto-sense-banner.webp"
-                        alt="auto-sense-banner"
+                        src="/images/industry/auto-sense/speed-motion-blue-highway-night.webp"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                         priority
@@ -315,8 +315,8 @@ export default function page() {
                 </div>
                 <div className="md:hidden block">
                     <Image
-                        src="/images/industry/auto-sense/Mobile/auto-sense-banner-mob.webp"
-                        alt=""
+                        src="/images/industry/auto-sense/Mobile/speed-motion-blue-highway-night-mobile.webp"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
@@ -362,8 +362,8 @@ export default function page() {
                 <div className="custom-container md:pl-0 max-md:px-0">
                     {/* Desktop Image */}
                     <Image
-                        src="/images/industry/auto-sense/partner-with-rialtes-img.webp"
-                        alt="partner-with-rialtes-img"
+                        src="/images/industry/auto-sense/man-charging-electric-vehicle.webp"
+                        alt={t('partnerAlt')}
                         width={0}
                         height={0}
                         className="hidden lg:block w-full"
@@ -371,8 +371,8 @@ export default function page() {
                     />
                     {/* Mobile Image */}
                     <Image
-                        src="/images/industry/auto-sense/Mobile/partner-with-rialtes-img-mobile.webp"
-                        alt="partner-with-rialtes-img-mobile"
+                        src="/images/industry/auto-sense/Mobile/man-charging-electric-vehicle-mobile.webp"
+                        alt={t('partnerAlt')}
                         width={0}
                         height={0}
                         className="block lg:hidden w-full"

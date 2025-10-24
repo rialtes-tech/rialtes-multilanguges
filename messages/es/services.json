@@ -192,8 +192,8 @@
         "keyFeatureTitle": "Características Clave de AgentChat para Usuarios SAP ARIBA"
     },
     "successPlus": {
-        "keyServiceImg":"/images/services/success-plus/key-service-spanish.webp",
-        "keyServiceImgMobile":"/images/services/success-plus/Mobile/key-service-spanish-mobile.webp",
+        "keyServiceImg": "/images/services/success-plus/key-service-spanish.webp",
+        "keyServiceImgMobile": "/images/services/success-plus/Mobile/key-service-spanish-mobile.webp",
         "headerTitle": "Success+",
         "seoTitle": "Consultoría e Implementación de SAP SuccessFactors | Rialtes",
         "seoDescription": "Success+ de Rialtes moderniza RRHH con consultoría e implementación SuccessFactors impulsada por IA para acelerar tu transformación HCM.",
@@ -388,6 +388,19 @@
         "pageDescTitle": "Agilidad, Precisión y Resiliencia en la cadena de suministro — Impulsadas por Kinaxis y Rialtes",
         "pageDesc1": "En el volátil y complejo panorama actual de la cadena de suministro, las empresas necesitan visibilidad en tiempo real, planificación ágil e insights predictivos para mantenerse competitivas. Los servicios DemandPlus de Rialtes, basados en Kinaxis RapidResponse, ofrecen transformación integral de la cadena de suministro, permitiendo planificar, monitorear y responder en tiempo real.",
         "pageDesc2": "Como socio certificado de Kinaxis y SAP con oficinas en EE. UU., Canadá, India y Singapur y un equipo de expertos certificados en Kinaxis, Rialtes ayuda a los clientes a aprovechar RapidResponse para crear cadenas de suministro conectadas, inteligentes y resilientes — preparadas para los desafíos de mañana.",
+        "bannerAlt": "Vista aérea de buques portacontenedores con contenedores apilados coloridos y grúas amarillas en terminal portuaria ocupada",
+        "demandAlt": "Dos trabajadores de logística con equipo de seguridad inspeccionando contenedores de envío con montacargas en terminal de carga industrial",
+        "whyAlt": "Dos gerentes de almacén con vestimenta de negocios revisando datos de inventario en tableta en centro de distribución con cajas apiladas",
+        "supplyAlt": "Trabajador de almacén con casco amarillo y chaleco de seguridad revisando documentos mientras analiza datos logísticos en monitor grande",
+        "salesAlt": "Profesionales de negocios diversos colaborando en portátiles en oficina moderna de estilo industrial con tuberías expuestas e iluminación",
+        "inventoryAlt": "Vista aérea de trabajador de almacén con chaleco amarillo de seguridad usando tableta para gestión de inventario entre estanterías altas de almacenamiento de paletas",
+        "scenarioAlt": "Tres profesionales diversos colaborando en proyecto con tableta y documentos en ambiente de espacio de trabajo de oficina moderna y luminosa",
+        "seamlessAlt": "Hombre sonriente con barba y gafas dando choque de manos entusiasta a colega en oficina moderna y luminosa celebrando éxito del equipo",
+        "btpAlt": "Pasillo futurista de centro de datos con bastidores de servidores iluminados mostrando luces azules y naranjas representando infraestructura en nube",
+        "bringingAlt": "Estructura de nube en wireframe azul con patrón de cuadrícula digital sobre fondo blanco representando tecnología de computación en nube",
+        "sapAlt": "Cajas de cartón moviéndose en sistema de cinta transportadora automatizada en almacén moderno con estanterías al fondo",
+        "enhanceAlt": "Mujer sonriente con camisa naranja y gafas en escritorio de oficina durante reunión de equipo con colega en entorno laboral moderno",
+        "leadingAlt": "Trabajador de almacén con tableta viendo pantallas holográficas de datos de inventario digital en pasillo de instalación de almacenamiento automatizado moderno",
         "kinaxisServices": [
             {
                 "id": 1,
@@ -521,24 +534,29 @@
     "growWithSap": {
         "services": [
             {
-                "text": "Asesoría de Licencias SAP",
-                "img": "/images/services/grow-with-sap/SAP License Advisory.svg"
+                "alt": "Ícono de línea azul de documento de certificado con cinta de medalla y líneas de texto que representan logro o cualificación",
+                "text": "SAP License Advisory",
+                "img": "/images/services/grow-with-sap/certificate-document-icon.svg"
             },
             {
-                "text": "Garantía de Calidad y Capacitación de Usuarios",
-                "img": "/images/services/grow-with-sap/Quality Assurance & User Training.svg"
+                "alt": "Ícono de contorno azul de escudo con cinta de premio y marca de verificación que simboliza certificación de seguridad y protección verificada",
+                "text": "Quality Assurance & User Training",
+                "img": "/images/services/grow-with-sap/security-badge-shield-icon.svg"
             },
             {
-                "text": "Soporte Post Go-Live y Optimización Continua",
-                "img": "/images/services/grow-with-sap/Post Go-Live Support .svg"
+                "alt": "Ícono de línea azul de representante de servicio al cliente con auriculares y burbuja de diálogo que simboliza asistencia técnica",
+                "text": "Post Go-Live Support & Continuous Optimization",
+                "img": "/images/services/grow-with-sap/customer-support-service-icon.svg"
             },
             {
-                "text": "Diseño e Implementación de Soluciones",
-                "img": "/images/services/grow-with-sap/Solution Design & Implementation.svg"
+                "alt": "Ícono de línea azul con nube, bombilla y engranaje que simbolizan innovación en la nube y soluciones tecnológicas integradas",
+                "text": "Solution Design & Implementation",
+                "img": "/images/services/grow-with-sap/cloud-innovation-technology-icon.svg"
             },
             {
-                "text": "Integración y Personalización de Sistemas",
-                "img": "/images/services/grow-with-sap/System Integration & Customization.svg"
+                "alt": "Ícono de línea azul que muestra usuarios conectados alrededor de un engranaje verificado, representando colaboración en equipo y flujo de trabajo aprobado",
+                "text": "System Integration & Customization",
+                "img": "/images/services/grow-with-sap/network-collaboration-verified-icon.svg"
             }
         ],
         "cardsData": [
@@ -667,6 +685,13 @@
                 "desc": "Soporte post implementación, mejora continua, integración de IA."
             }
         ],
+        "bannerAlt": "Desenfoque de movimiento de velocidad abstracto creando efecto de túnel dinámico con líneas fluidas y luz cálida en punto de horizonte",
+        "whyAlt": "Flecha de neón brillante apuntando hacia arriba con líneas digitales fluyendo representando crecimiento empresarial y éxito sobre fondo oscuro",
+        "sapAlt": "Nubes etéreas azules y rosas con flujos de datos cian brillantes atravesando cielo onírico representando concepto de computación en nube",
+        "signavioAlt": "Logotipo de SAP Signavio con marca geométrica azul y texto azul marino sobre fondo blanco para software de gestión de procesos empresariales",
+        "expandingAlt": "Mano tocando flecha luminosa hacia arriba con partículas doradas sobre fondo azul oscuro simbolizando crecimiento digital e innovación",
+        "convAlt": "Joven sonriente con sudadera verde usando teléfono inteligente en mesa de cafetería con taza de café y tetera en ambiente acogedor",
+        "futureAlt": "Perfil humano compuesto de código digital brillante rojo y cian y flujos de datos contra paisaje urbano borroso representando tecnología de IA",
         "headerTitle": "VoyagerNext",
         "seoTitle": "Crece con Soluciones SAP de un Socio de Confianza | Rialtes",
         "seoDescription": "Crece con soluciones SAP que impulsan el éxito empresarial medible, con Rialtes—un socio SAP confiable que lidera la innovación y el crecimiento empresarial.",
@@ -863,6 +888,12 @@
                 "desc": "Optimización continua y soporte."
             }
         ],
+        "bannerAlt": "Fondo degradado azul abstracto con líneas curvas radiales creando patrón circular dinámico representando transformación digital",
+        "whyAlt": "Profesional de negocios trabajando en portátil con visualización de red azul brillante y luces bokeh representando conectividad de datos",
+        "greenAlt": " Carretera nocturna con estelas de luz naranja y azul bajo cielo estrellado simbolizando conectividad digital de alta velocidad y transferencia de datos",
+        "connectedAlt": " Flujos de datos dinámicos azules y morados con partículas conectadas sobre fondo oscuro representando flujo de red de alta velocidad",
+        "agentAlt": "Hombre sonriente con barba usando gafas y camisa verde utilizando teléfono inteligente al aire libre contra pared de ladrillo con luz natural",
+        "aiAlt": "Mano sosteniendo esfera dorada luminosa con nubes en el interior contra fondo bokeh simbolizando innovación y visión de futuro",
         "headerTitle": "Voyager+",
         "seoTitle": "Servicios Rise with SAP de un Socio de Implementación Confiable | Rialtes",
         "seoDescription": "¿Buscas un socio confiable para implementar Rise with SAP? Voyager+ de Rialtes ofrece servicios a medida para una transformación S/4HANA sin fricciones.",
@@ -912,34 +943,34 @@
         "seoDescription": "AutoSense de Rialtes impulsa Salesforce Automotive Cloud para lograr eficiencia e innovación, mejorando experiencias del cliente automotriz.",
         "keyPillarsSectionData": [
             {
-                "imageUrl": "/images/industry/auto-sense/strategic-advisory-img.webp",
-                "imageAlt": "imagen de asesoría estratégica",
-                "mobileImageUrl": "/images/industry/auto-sense/Mobile/strategic-advisory-mob-img.webp",
+                "imageUrl": "/images/industry/auto-sense/holographic-car-design-engineering.webp",
+                "imageAlt": "Modelo de coche holográfico transparente con sistema de batería verde expuesto en una pantalla digital para diseño de ingeniería automotriz",
+                "mobileImageUrl": "/images/industry/auto-sense/Mobile/holographic-car-design-engineering-mobile.webp",
                 "title": "Asesoría Estratégica y Planificación",
                 "listItems": [
-                    "Estrategia digital y de TI preparada para el futuro alineada con los objetivos de electrificación, IA y experiencia del cliente (CX).",
-                    "Talleres de reinvención de procesos utilizando SAP Signavio y herramientas de asesoría de Salesforce.",
+                    "Estrategia de TI y digital preparada para el futuro alineada con los objetivos de electrificación, IA y experiencia del cliente.",
+                    "Talleres de reimaginación de procesos utilizando SAP Signavio y herramientas de asesoría de Salesforce.",
                     "Evaluaciones de preparación para el mercado de vehículos eléctricos y cumplimiento normativo."
                 ],
                 "bgColor": "#1FA274"
             },
             {
-                "imageUrl": "/images/industry/auto-sense/design-and-implementation-img.webp",
-                "imageAlt": "imagen de diseño e implementación",
-                "mobileImageUrl": "/images/industry/auto-sense/Mobile/design-and-implementation-mob-img.webp",
+                "imageUrl": "/images/industry/auto-sense/automotive-software-development-laptop.webp",
+                "imageAlt": "Ingeniero analizando modelo 3D de coche en un portátil con diagramas técnicos para el desarrollo de software automotriz y diseño de vehículos",
+                "mobileImageUrl": "/images/industry/auto-sense/Mobile/automotive-software-development-laptop-mobile.webp",
                 "title": "Diseño e Implementación",
                 "listItems": [
-                    "Despliegue rápido de Salesforce Automotive Cloud, SAP S/4HANA Automotive, SAP VMS y SAP IBP para la cadena de suministro.",
-                    "Diseño de ecosistemas de vehículos conectados, integrando plataformas IoT y lagos de datos con IA.",
-                    "Transformación de redes de concesionarios con soluciones de Salesforce Automotive Retail."
+                    "Implementación rápida de Salesforce Automotive Cloud, SAP S/4HANA Automotive, SAP Vehicle Management System (VMS) y SAP IBP para la cadena de suministro.",
+                    "Diseño del ecosistema de vehículos conectados, integrando plataformas IoT y lagos de datos con IA.",
+                    "Transformación de la red de concesionarios con las soluciones Salesforce Automotive Retail."
                 ],
                 "bgColor": "#0F90BF"
             },
             {
-                "imageUrl": "/images/industry/auto-sense/integration-quality-assurance-img.webp",
-                "imageAlt": "imagen de integración y aseguramiento de calidad",
-                "mobileImageUrl": "/images/industry/auto-sense/Mobile/integration-quality-assurance-mob-img.webp",
-                "title": "Integración y Aseguramiento de Calidad",
+                "imageUrl": "/images/industry/auto-sense/mechanic-diagnosing-vehicle-computer.webp",
+                "imageAlt": "Técnico automotriz utilizando una tableta de diagnóstico para examinar el sistema informático del coche en un taller profesional",
+                "mobileImageUrl": "/images/industry/auto-sense/Mobile/mechanic-diagnosing-vehicle-computer-mobile.webp",
+                "title": "Integración y Aseguramiento de la Calidad",
                 "listItems": [
                     "Integración fluida entre ERP, CRM, dispositivos conectados y plataformas de terceros.",
                     "Integridad de datos, evaluaciones de ciberseguridad y preparación para el cumplimiento.",
@@ -948,35 +979,38 @@
                 "bgColor": "#006FBE"
             },
             {
-                "imageUrl": "/images/industry/auto-sense/post-go-live-img.webp",
-                "imageAlt": "imagen post implementación",
-                "mobileImageUrl": "/images/industry/auto-sense/Mobile/post-go-live-mob-img.webp",
-                "title": "Post Implementación e Innovación Continua",
+                "imageUrl": "/images/industry/auto-sense/autonomous-driving-hands-free-technology.webp",
+                "imageAlt": "Conductor con las manos fuera del volante demostrando tecnología de conducción autónoma en carretera soleada con efecto de movimiento",
+                "mobileImageUrl": "/images/industry/auto-sense/Mobile/autonomous-driving-hands-free-technology-mobile.webp",
+                "title": "Post Go-Live e Innovación Continua",
                 "listItems": [
-                    "Centro de Excelencia (CoE) dedicado para soluciones automotrices de IA, SAP y Salesforce.",
-                    "Servicios gestionados 24/7, monitoreo proactivo y optimización continua.",
-                    "Marcos de monetización de datos: ayudando a los OEM a aprovechar los datos de vehículos conectados para nuevas fuentes de ingresos."
+                    "Centro de Excelencia (CoE) dedicado a soluciones automotrices de IA, SAP y Salesforce.",
+                    "Servicios gestionados 24x7, monitoreo proactivo y optimización continua.",
+                    "Marcos de monetización de datos — ayudando a los fabricantes a aprovechar los datos de vehículos conectados para generar nuevos ingresos."
                 ],
                 "bgColor": "#5C8C9D"
             }
         ],
         "chooseRialtesData": [
             {
-                "imageUrl": "/images/industry/auto-sense/automative-experties-img.svg",
+                "imageUrl": "/images/industry/auto-sense/vehicle-fleet-monitoring-icon.svg",
+                "alt": "Icono de línea azul de monitor de computadora mostrando vehículo con puntos de conexión representando sistema de gestión de flotas",
                 "title": "Más de 10 años de experiencia en la industria automotriz",
                 "listItems": [
                     "Contamos con más de una década de experiencia directa trabajando con OEM, proveedores, concesionarios y startups de vehículos eléctricos. Desde las plantas de fabricación hasta las salas de exhibición, entendemos los desafíos y oportunidades que moldean el futuro de la movilidad."
                 ]
             },
             {
-                "imageUrl": "/images/industry/auto-sense/automative-cloud-experts-img.svg",
+                "imageUrl": "/images/industry/auto-sense/cloud-user-settings-integration-icon.svg",
+                "alt": "Icono de línea azul mostrando figura de usuario con almacenamiento en nube y configuración de engranaje representando gestión de plataforma en nube integrada",
                 "title": "Expertos en Salesforce Automotive Cloud",
                 "listItems": [
                     "Como especialistas certificados en Salesforce Automotive Cloud, ayudamos a las empresas automotrices a ofrecer experiencias personalizadas, mejorar la colaboración con concesionarios y aprovechar el valor de los datos de vehículos conectados."
                 ]
             },
             {
-                "imageUrl": "/images/industry/auto-sense/data-integration-img.svg",
+                "imageUrl": "/images/industry/auto-sense/cloud-connectivity-network-icon.svg",
+                "alt": "Icono de línea azul de nube con engranaje y nodos conectados abajo representando infraestructura en nube y red distribuida",
                 "title": "Integración fluida de ERP y datos",
                 "listItems": [
                     "Especialistas en integrar Salesforce Automotive Cloud con plataformas ERP como SAP S/4HANA y Oracle, creando un ecosistema de datos unificado que conecta ventas, servicios, cadena de suministro y finanzas."
@@ -987,30 +1021,33 @@
         "whyChooseTitle2": "Transformación Automotriz?",
         "rialtesMakesWorkData": [
             {
-                "image": "/images/industry/auto-sense/backend-erp-img.webp",
-                "mobileImage": "/images/industry/auto-sense/Mobile/backend-erp-mob-img.webp",
-                "title": "Salesforce Automotive Cloud + ERP Backend (SAP, Oracle, otros)",
+                "image": "/images/industry/auto-sense/automotive-port-shipping-logistics.webp",
+                "mobileImage": "/images/industry/auto-sense/Mobile/automotive-port-shipping-logistics-mobile.webp",
+                "alt": "Gran barco de carga en el puerto con filas de vehículos nuevos listos para exportación que representan la logística automotriz y la distribución global",
+                "title": "Salesforce Automotive Cloud + Sistemas ERP de Backend (SAP, Oracle, Otros)",
                 "list": [
-                    "Integración de Salesforce Automotive Cloud con sistemas ERP como SAP S/4HANA Automotive, SAP IBP y Oracle Automotive para sincronización en tiempo real de inventarios, producción, garantía y datos de cadena de suministro.",
-                    "Habilitación de precios dinámicos, incentivos, gestión de pedidos y visibilidad de inventario dentro de Salesforce."
+                    "Integración de Salesforce Automotive Cloud con sistemas ERP como SAP S/4HANA for Automotive, SAP IBP for Supply Chain y soluciones automotrices de Oracle para la sincronización en tiempo real de datos de inventario, producción, garantía y cadena de suministro.",
+                    "Habilitación de precios dinámicos, incentivos, gestión de pedidos y visibilidad de inventario directamente dentro de Salesforce."
                 ]
             },
             {
-                "image": "/images/industry/auto-sense/frontend-img.webp",
-                "mobileImage": "/images/industry/auto-sense/Mobile/frontend-mob-img.webp",
-                "title": "Salesforce Automotive Cloud + Visualización de Datos y Soluciones de IA",
+                "image": "/images/industry/auto-sense/aerial-highway-interchange-light-trails.webp",
+                "mobileImage": "/images/industry/auto-sense/Mobile/aerial-highway-interchange-light-trails-mobile.webp",
+                "alt": "Vista aérea de un intercambio de autopistas iluminado con estelas de luz azul y blanca que muestran el flujo de tráfico nocturno",
+                "title": "Salesforce Automotive Cloud + Visualización de Datos y Soluciones de IA Front-End",
                 "list": [
-                    "Creación de dashboards interactivos y portales de clientes usando Tableau, Power BI y análisis basados en IA/ML.",
-                    "Información visual en tiempo real para liderazgo sobre ventas, demanda de vehículos, patrones de servicio y sentimiento del cliente."
+                    "Creación de paneles interactivos y portales de clientes utilizando herramientas como Tableau, Power BI y análisis impulsados por IA/ML.",
+                    "Entrega de información visual en tiempo real para la dirección sobre tendencias de ventas, demanda de vehículos, patrones de servicio y sentimiento del cliente."
                 ]
             },
             {
-                "image": "/images/industry/auto-sense/end-to-end-process-img.webp",
-                "mobileImage": "/images/industry/auto-sense/Mobile/end-to-end-process-mob-img.webp",
-                "title": "Automatización de Procesos de Extremo a Extremo y Calidad",
+                "image": "/images/industry/auto-sense/engineers-monitoring-industrial-systems.webp",
+                "mobileImage": "/images/industry/auto-sense/Mobile/engineers-monitoring-industrial-systems-mobile.webp",
+                "alt": "Dos ingenieros con equipo de seguridad analizando datos en varios monitores en una sala de control industrial para la gestión de operaciones",
+                "title": "Automatización de Procesos de Extremo a Extremo y Aseguramiento de la Calidad",
                 "list": [
-                    "Automatización de flujos de trabajo de ventas, servicio y marketing.",
-                    "Aseguramiento de integridad de datos, cumplimiento de seguridad y entrega sin defectos mediante marcos de prueba basados en IA."
+                    "Implementación de automatización de procesos para flujos de trabajo de ventas, servicio y marketing.",
+                    "Garantía de integridad de datos, cumplimiento de seguridad y entrega sin defectos mediante marcos de prueba impulsados por IA."
                 ]
             }
         ],
@@ -1038,6 +1075,8 @@
                 "description": "Alineando rentabilidad con objetivos ESG mediante IA y plataformas inteligentes."
             }
         ],
+        "bannerAlt": "Estelas de luz azul con efecto de movimiento en carretera nocturna con siluetas de montañas representando aceleración digital de alta velocidad",
+        "partnerAlt": "Hombre usando tableta mientras carga vehículo eléctrico en estación de carga doméstica en entrada residencial soleada con vegetación",
         "thoughtLeadershipTitle": "Temas de liderazgo intelectual para clientes automotrices",
         "thoughtLeadershipDesc": "Aquí tienes 5 ideas de alto impacto que Rialtes puede liderar para posicionarse como referente en la industria:",
         "headerTitle": "AutoSense",
@@ -1532,38 +1571,45 @@
         ],
         "retailVerticals": [
             {
-                "title": "Moda y Ropa",
-                "icon": "/images/industry/retail/fashan.svg",
+                "title": "Fashion & Apparel",
+                "alt": "Ícono de línea azul que muestra una camiseta doblada y un bolso de mano que representan la categoría de ropa y accesorios sobre fondo gris",
+                "icon": "/images/industry/retail/clothing-accessories-shopping-bag-icon.svg",
                 "paddingClass": "xl:pr-20"
             },
             {
-                "title": "Electrónica de Consumo",
-                "icon": "/images/industry/retail/consumer.svg",
+                "title": "Consumer Electronics",
+                "alt": "Ícono de línea azul que representa una lavadora, una licuadora y un microondas que simbolizan la categoría de electrodomésticos y electrónica",
+                "icon": "/images/industry/retail/home-appliances-electronics-category-icon.svg",
                 "paddingClass": "xl:pr-20"
             },
             {
-                "title": "Hogar y Muebles",
-                "icon": "/images/industry/retail/ferniture.svg",
+                "title": "Home & Furniture",
+                "alt": "Ícono de línea azul que muestra un armario, un sillón y una mesa auxiliar que representan la categoría de muebles y decoración del hogar",
+                "icon": "/images/industry/retail/furniture-home-decor-category-icon.svg",
                 "paddingClass": "xl:pr-20"
             },
             {
-                "title": "Artículos de Lujo y Estilo de Vida",
-                "icon": "/images/industry/retail/lux.svg",
+                "title": "Luxury Goods & Lifestyle",
+                "alt": "Ícono de línea azul que muestra un diamante en una caja de regalo con estrellas que representa la categoría de joyería, artículos de lujo y regalos",
+                "icon": "/images/industry/retail/jewelry-luxury-gifts-category-icon.svg",
                 "paddingClass": "xl:pr-40"
             },
             {
-                "title": "Alimentos y Bebidas",
-                "icon": "/images/industry/retail/foods.svg",
+                "title": "Food & Beverage",
+                "alt": "Ícono de línea azul que muestra una hamburguesa, una taza de café y una bolsa para llevar que representan la categoría de alimentos, bebidas y restaurantes",
+                "icon": "/images/industry/retail/food-beverage-restaurant-category-icon.svg",
                 "paddingClass": "xl:pr-24"
             },
             {
-                "title": "Salud y Bienestar",
-                "icon": "/images/industry/retail/health.svg",
+                "title": "Health & Wellness",
+                "alt": "Ícono de línea azul con hojas de planta, corazón y mancuerna que representan la categoría de salud, bienestar y fitness",
+                "icon": "/images/industry/retail/health-wellness-fitness-category-icon.svg",
                 "paddingClass": "xl:pr-20"
             },
             {
-                "title": "Retail de Viajes y Duty-Free",
-                "icon": "/images/industry/retail/travel.svg",
+                "title": "Travel Retail and Duty-Free",
+                "alt": "Ícono de línea azul que muestra un frasco de perfume, una bolsa de compras y un frasco cosmético que representan la categoría de belleza y cosméticos",
+                "icon": "/images/industry/retail/beauty-cosmetics-perfume-category-icon.svg",
                 "paddingClass": "xl:pr-12"
             }
         ],
@@ -1594,6 +1640,13 @@
             "Soporta delegación de casos, leads, órdenes de trabajo, solicitudes de servicio y más por tipo de registro y unidad de negocio.",
             "Totalmente integrado con flujos de trabajo y automatización de Salesforce para conversaciones inteligentes en tiempo real."
         ],
+        "whyAlt": "Profesional analizando gráficos de datos financieros y hojas de cálculo en monitores duales de computadora en oficina moderna con plantas cerca",
+        "realchatAlt": "Mujer sonriente con suéter amarillo brillante y aretes rosas usando smartphone mientras sostiene taza de café para llevar sobre fondo azul",
+        "aiAlt": "Carrito de compras rodeado de estelas de luz digital azul y naranja dinámicas representando comercio electrónico rápido y retail digital",
+        "exelonaAlt": "Pareja sonriente con delantales azules a juego parada en la entrada de su restaurante con brazos cruzados dando la bienvenida a clientes",
+        "salesforceAlt": "Trabajadora de almacén con polo azul revisando cajas de inventario con tableta digital en pasillo de centro de distribución",
+        "comprehensiveAlt": "Dos mujeres emprendedoras trabajando en portátil en tienda de cerámica con productos cerámicos exhibidos en estantes de madera al fondo",
+        "headerAlt": "Mujer usando smartphone en pasillo de supermercado con superposición de red digital representando compras conectadas y tecnología de retail inteligente",
         "headerTitle": "Retail+",
         "seoTitle": "Servicios de Consultoría de Negocios Retail y Soluciones Omnicanal | Rialtes",
         "seoDescription": "Retail+ de Rialtes ofrece consultoría experta en negocios retail y soluciones omnicanal con IA. Comienza tu transformación retail hoy.",
@@ -1640,6 +1693,13 @@
         "pageDescTitle": "Servicios en la Nube de Salesforce para Ciencias de la Vida: Innovación Inteligente y Cumplimiento con IA",
         "pageDesc1": "En Rialtes, comprendemos que la industria de las ciencias de la vida está evolucionando rápidamente, con crecientes expectativas de pacientes, proveedores, reguladores y socios. Para satisfacer estas demandas, las organizaciones necesitan soluciones inteligentes impulsadas por IA que integren cumplimiento normativo, personalización y automatización a escala.",
         "pageDesc2": "Presentamos Rialtes LifeAI+, nuestro servicio integral de consultoría diseñado para empresas de ciencias de la vida, que combina un profundo conocimiento del sector con Salesforce Life Sciences Cloud, Health Cloud y soluciones impulsadas por IA para ayudarte a impulsar la innovación, garantizar el cumplimiento y mejorar la eficiencia operativa.",
+        "headerAlt": "Científico sosteniendo hélice de ADN brillante con hojas, simbolizando biotecnología y crecimiento sostenible",
+        "whatAlt": "Primer plano de células verdes de microalgas brillantes bajo microscopio, simbolizando innovación bioenergética y investigación sostenible",
+        "whyAlt": "Investigadores usando visor de realidad virtual y tableta para estudiar tecnología de simulación cerebral en laboratorio moderno",
+        "deepAlt": "Médico sostiene tableta con nube luminosa que representa computación en la nube y almacenamiento seguro de datos médicos digitales",
+        "rialtesAlt": "Científica usa tableta digital para analizar datos de investigación en laboratorio moderno con tubos de ensayo y computadoras",
+        "priorAlt": "Equipo empresarial diverso colabora y discute ideas alrededor de una computadora portátil durante una reunión moderna de oficina",
+        "aiAlt": "Nube digital abstracta con flujos de datos brillantes y códigos binarios en el cielo que representan la computación en la nube",
         "featureBoxes": [
             {
                 "title": "Cumplimiento Normativo y Preparación para Auditorías",

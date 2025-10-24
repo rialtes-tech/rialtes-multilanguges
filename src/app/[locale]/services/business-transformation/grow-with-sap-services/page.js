@@ -148,8 +148,8 @@ export default function Page() {
       <section className={`relative group overflow-hidden pb-20 ${enActive ? "h-[400px] md:h-[500px]  4xl:h-[650px]" : "h-[400px] md:h-[500px] xl:h-[550px] 4xl:h-[700px]"}`}>
         <div className="xl:block hidden">
           <Image
-            src="/images/services/grow-with-sap/AdobeStock_1335365875.webp"
-            alt="grow with sap banner"
+            src="/images/services/grow-with-sap/abstract-speed-motion-tunnel.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -158,8 +158,8 @@ export default function Page() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/services/grow-with-sap/AdobeStock_1335365875 (1).webp"
-            alt="grow with sap banner"
+            src="/images/services/grow-with-sap/abstract-speed-motion-tunnel-mobile.webp"
+            alt={t('bannerAlt')}
             fill
             priority
             className="transform transition-transform duration-500 group-hover:scale-110"
@@ -180,7 +180,7 @@ export default function Page() {
               <div className="md:w-32 w-20 pt-6 mt-2">
                 <Image
                   src="/images/sap-consulting/SAP-partner-logo.webp"
-                  alt="SAP Partner Logo"
+                  alt="SAP-partner-logo"
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -219,7 +219,7 @@ export default function Page() {
                 <Image
                   className="xl:w-[138px] xl:h-[138px] w-[75px] h-[75px]"
                   src={service.img}
-                  alt={service.text}
+                  alt={service.alt}
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -240,8 +240,8 @@ export default function Page() {
           className="relative group overflow-hidden pb-16">
           <div className="xl:block hidden">
             <Image
-              src="/images/services/grow-with-sap/GWS.webp"
-              alt="Grow with SAP: Why Now?"
+              src="/images/services/grow-with-sap/glowing-upward-growth-arrow.webp"
+              alt={t('whyAlt')}
               fill
               priority
               className="transform transition-transform duration-500 group-hover:scale-110 object-[35%_20%]"
@@ -249,8 +249,8 @@ export default function Page() {
           </div>
           <div className="xl:hidden block">
             <Image
-              src="/images/services/grow-with-sap/Why Now.webp"
-              alt="Grow with SAP: Why Now?"
+              src="/images/services/grow-with-sap/glowing-upward-growth-arrow-mobile.webp"
+              alt={t('whyAlt')}
               fill
               priority
             />
@@ -290,16 +290,16 @@ export default function Page() {
       <section className="relative  xl:mt-32 mt-10">
         <div className="xl:block hidden">
           <Image
-            src="/images/services/grow-with-sap/Migration.webp"
-            alt="SAP Business"
+            src="/images/services/grow-with-sap/dreamy-cloudscape-glowing-data-streams.webp"
+            alt={t('sapAlt')}
             fill
             priority
           />
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/services/grow-with-sap/Group 458.webp"
-            alt="SAP Business"
+            src="/images/services/grow-with-sap/dreamy-cloudscape-glowing-data-streams-mobile.webp"
+            alt={t('sapAlt')}
             fill
             priority
           />
@@ -382,8 +382,8 @@ export default function Page() {
         <div className="grid xl:grid-cols-12 grid-cols-1 bg-[#068EDA] xl:gap-8 gap-3 px-[36px]">
           <div className="xl:col-span-3 col-span-12 flex justify-center xl:justify-start pl-0 xl:pl-10">
             <Image
-              src="/images/services/rise-with-sap/SAP Signavio.webp"
-              alt="SAP Signavio"
+              src="/images/services/grow-with-sap/sap-signavio-logo.webp"
+              alt={t('signavioAlt')}
               width={0}
               height={0}
               priority
@@ -399,8 +399,8 @@ export default function Page() {
       <section className="relative w-full group overflow-visible">
         <div className="relative h-[660px] xl:h-[720px] w-full overflow-hidden">
           <Image
-            src="/images/services/grow-with-sap/Expanding Value.webp"
-            alt="Expanding Value with SAP"
+            src="/images/services/grow-with-sap/hand-touching-glowing-growth-arrow.webp"
+            alt={t('expandingAlt')}
             fill
             priority
             className="transition-transform duration-700 group-hover:scale-110 object-cover object-[85%_30%]"
@@ -472,8 +472,8 @@ export default function Page() {
         <div className="custom-container h-full relative">
           <div className="relative xl:h-[665px] h-[341px]">
             <Image
-              src="/images/services/grow-with-sap/Agentchat banner (1).webp"
-              alt="grow with sap"
+              src="/images/services/grow-with-sap/man-using-smartphone-cafe.webp"
+              alt={t('convAlt')}
               fill
               style={{ objectFit: "cover" }}
               priority
@@ -513,8 +513,8 @@ export default function Page() {
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="xl:col-span-5 col-span-12 relative group overflow-hidden h-[383px] xl:h-full">
               <Image
-                src="/images/services/grow-with-sap/Future-Proofing.webp"
-                alt="Future-Proofing with AI"
+                src="/images/services/grow-with-sap/digital-human-face-artificial-intelligence.webp"
+                alt={t('futureAlt')}
                 fill
                 priority
                 className=" transform transition-transform duration-500 group-hover:scale-110 xl:!h-[563px] xl:!w-[532px]"
