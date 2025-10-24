@@ -811,6 +811,10 @@
     "contactTitle": "Prêt à moderniser Oracle EBS pour votre entreprise ?"
   },
   "sapCpi": {
+    "bannerAlt":"Formation de nuages numériques sur paysage urbain illuminé montrant services d'intégration cloud SAP connectés",
+    "leaderAlt":"Tunnel numérique futuriste avec traînées lumineuses illustrant l'intégration comme colonne de transformation digitale",
+    "connectAlt":"Main tenant une ampoule avec un réseau d'icônes connectées, symbolisant l'innovation, le flux de données et la transformation numérique.",
+    "whyAlt":"Femme d’affaires confiante serrant la main dans un bureau moderne, symbolisant un partenariat réussi.",
     "learnMore": "En savoir plus",
     "seoTitle": "Services d’Intégration SAP Cloud Platform (CPI) | Rialtes",
     "seoDescription": "Rialtes propose des services experts d’intégration SAP CPI pour connecter vos apps, simplifier vos opérations et accélérer votre transformation.",
@@ -862,6 +866,7 @@
     "specializedData": [
       {
         "title": "Intégration SAP Ariba",
+        "imageAlt":"Travailleurs d'entrepôt en équipement de sécurité examinant données d'inventaire numérique sur ordinateur portable",
         "subtitle": "Libérer l’excellence des achats",
         "desc": "Rialtes offre une intégration de bout en bout entre SAP Ariba, SAP S/4HANA et d’autres systèmes, rationalisant les achats et la collaboration avec les fournisseurs.",
         "keyData": [
@@ -875,11 +880,12 @@
           "Collaboration et visibilité renforcées avec les fournisseurs.",
           "Visibilité en temps réel des indicateurs clés des achats."
         ],
-        "mobImg": "/images/solutions/sap-cpi/Mobile/sap-ariba-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/sap-ariba-desk.webp"
+        "mobImg": "/images/solutions/sap-cpi/Mobile/warehouse-safety-digital-operations-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/warehouse-safety-digital-operations.webp"
       },
       {
         "title": "Intégration SAP S/4HANA",
+        "imageAlt":"Femme d'affaires en tenue professionnelle parlant au téléphone en consultant tablette dans bureau avec cartons",
         "subtitle": "Connecter votre cœur numérique",
         "desc": "L’intégration de SAP S/4HANA avec d’autres systèmes d’entreprise est essentielle pour les processus métier de bout en bout. Rialtes permet des intégrations sécurisées et en temps réel avec Salesforce, Ariba, Oracle et plus.",
         "keyData": [
@@ -893,11 +899,13 @@
           "Visibilité opérationnelle en temps réel.",
           "Réduction des erreurs manuelles et rationalisation des workflows."
         ],
-        "mobImg": "/images/solutions/sap-cpi/Mobile/sap-s4hana-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/sap-s4hana-desk.webp"
+        "mobImg": "/images/solutions/sap-cpi/Mobile/businesswoman-phone-tablet-shipping-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/businesswoman-phone-tablet-shipping.webp"
+
       },
       {
         "title": "Intégration SAP SuccessFactors",
+        "imageAlt":"Business woman in professional attire talking on phone while reviewing tablet in modern office with shipping boxesProfessionnelles RH examinant l'intégration SAP SuccessFactors sur tablette pour gestion du cycle de vie des employés",
         "subtitle": "Alimenter la nouvelle génération RH",
         "desc": "Rialtes fournit des intégrations robustes de SAP SuccessFactors avec la paie, les avantages sociaux, le suivi du temps et les systèmes financiers, permettant une gestion fluide du cycle de vie des employés.",
         "keyData": [
@@ -911,11 +919,12 @@
           "Meilleure expérience employé et intégration plus rapide.",
           "Conformité avec les réglementations RH locales et mondiales."
         ],
-        "mobImg": "/images/solutions/sap-cpi/Mobile/sap-successfactor-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/sap-successfactor-desk.webp"
+         "mobImg": "/images/solutions/sap-cpi/Mobile/sap-successfactors-hr-integration-meeting-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/sap-successfactors-hr-integration-meeting.webp"
       },
       {
         "title": "Intégration Salesforce et SAP CPI",
+        "imageAlt":"Couple comparant les fonctionnalités d’un lave-vaisselle dans un magasin d’électroménager moderne.",
         "subtitle": "Offrir une vision client à 360°",
         "desc": "Rialtes connecte Salesforce CRM aux systèmes SAP comme S/4HANA et SAP ERP via CPI, pour des workflows fluides clients, commandes et services.",
         "keyData": [
@@ -929,8 +938,8 @@
           "Cycles devis-à-encaissement plus rapides.",
           "Données client et produit précises et en temps réel."
         ],
-        "mobImg": "/images/solutions/sap-cpi/Mobile/salesforce-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/salesforce-desk.webp"
+         "mobImg": "/images/solutions/sap-cpi/Mobile/salesforce-and-sap-cpi-integration-discussion-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/salesforce-and-sap-cpi-integration-discussion.webp"
       }
     ],
     "integrationData": [
@@ -940,8 +949,9 @@
     ],
     "commonSectionsData": [
       {
-        "mobImg": "/images/solutions/sap-cpi/Mobile/data-visulization-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/data-visulization-desk.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/data-analytics-professionals-office-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/data-analytics-professionals-office.webp",
+        "imageAlt":"Professionnels analysant tableaux de bord et graphiques colorés sur écrans multiples dans espace de travail moderne",
         "title": "Visualisation des données avec Data Cloud et Tableau",
         "subtitle": "Des insights exploitables à partir de données connectées",
         "desc": "Avec SAP CPI assurant une intégration fluide des données, Rialtes exploite Tableau et Data Cloud pour transformer des données complexes en insights exploitables.",
@@ -952,8 +962,9 @@
         ]
       },
       {
-        "mobImg": "/images/solutions/sap-cpi/Mobile/production-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/production-desk.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/manufacturing-workers-tablet-automation-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/manufacturing-workers-tablet-automation.webp",
+        "imageAlt":"Travailleurs industriels en équipement de sécurité utilisant tablette numérique pour gérer machines robotiques",
         "title": "Planification de production & gestion de la demande avec Mulesoft + SAP CPI",
         "desc": "Intégrer SAP, Oracle, Salesforce et systèmes existants pour la planification de la production et la prévision de la demande avec Mulesoft et SAP CPI :",
         "dataList": [
@@ -963,8 +974,9 @@
         ]
       },
       {
-        "mobImg": "/images/solutions/sap-cpi/Mobile/demand-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/demand-desk.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/digital-project-management-gantt-chart-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/digital-project-management-gantt-chart.webp",
+        "imageAlt":"Professionnel interagissant avec diagramme de Gantt numérique sur écran d'ordinateur pour planification de projet",
         "title": "Planification de la demande avec Kinaxis RapidResponse & SAP CPI",
         "desc": "L’intégration de Kinaxis RapidResponse avec SAP pour la planification de la demande en temps réel permet :",
         "dataList": [
@@ -974,8 +986,9 @@
         ]
       },
       {
-        "mobImg": "/images/solutions/sap-cpi/Mobile/ai-powered-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/ai-powered-desk.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/augmented-reality-smart-manufacturing-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/augmented-reality-smart-manufacturing.webp",
+        "imageAlt":"Ingénieurs en casques de sécurité visualisant données de réalité augmentée dans installation de fabrication intelligente",
         "title": "Intégrations SAP pilotées par l’IA",
         "subtitle": "L’avenir des workflows intelligents",
         "desc": "L’IA transforme les paysages d’intégration, et Rialtes le rend concret :",
@@ -986,8 +999,9 @@
         ]
       },
       {
-        "mobImg": "/images/solutions/sap-cpi/Mobile/agile-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/agile-desk.webp",
+         "mobImg": "/images/solutions/sap-cpi/Mobile/warehouse-inventory-management-professionals-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/warehouse-inventory-management-professionals.webp",
+        "imageAlt":"Professionnels d'entrepôt avec tablettes examinant données de gestion d'inventaire parmi étagères de distribution",
         "title": "Livraison Agile, certifiée SCRUM pour des intégrations fluides",
         "desc": "Chaque mission SAP CI de Rialtes est pilotée par des chefs de projet certifiés SCRUM, garantissant :",
         "dataList": [
@@ -997,8 +1011,9 @@
         ]
       },
       {
-        "mobImg": "/images/solutions/sap-cpi/Mobile/sap-salesforce-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/sap-salesforce-desk.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/team-collaboration-digital-network-unity-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/team-collaboration-digital-network-unity.webp",
+        "imageAlt":"Mains d'équipe diverse ensemble en unité avec réseau numérique symbolisant collaboration et esprit d'équipe connecté",
         "title": "Partenariat SAP et Salesforce",
         "subtitle": "La puissance des écosystèmes connectés",
         "desc": "En tant que partenaires de confiance de SAP et Salesforce, Rialtes fournit :",
@@ -1230,6 +1245,14 @@
     "contactSubtitleOne": "Contactez-nous dès aujourd’hui pour une évaluation gratuite de l’automatisation !"
   },
   "tosca": {
+    "bannerAlt":"Ingénieure logiciel souriante au bureau avec écrans de codage présentant services de test d'automatisation Tricentis TOSCA",
+    "trustAlt":"Développeurs logiciels collaborant avec tablette examinant code sur écrans multiples dans environnement de bureau tech",
+    "serviceAlt":"Professionnel analysant graphiques financiers et données analytiques sur écrans d'ordinateurs portables multiples au bureau",
+    "qtestAlt":"Professionnels tech collaborant à un poste informatique dans bureau moderne avec plantes et écrans multiples en arrière-plan",
+    "liveAlt":"Analyste de données concentrée travaillant sur un ordinateur avec code et graphiques, illustrant l’innovation numérique",
+    "businessAlt":"Deux professionnels analysant des tableaux de bord numériques avec graphiques, discutant des stratégies commerciales",
+    "codeAlt":"Deux professionnels collaborant sur la programmation, examinant du code sur des écrans avec des documents de conception sur le bureau",
+    "desktopAlt":"Ville dans le cloud avec texte sur l'intégration SAP, Oracle, Salesforce et tests unifiés pour entreprises",
     "headerTitle": "Élevez l’ingénierie de la qualité avec les services de tests automatisés Tosca de Rialtes",
     "seoTitle": "Services de Tests Automatisés avec Tosca Software | Rialtes",
     "seoDescription": "Rialtes propose des tests automatisés Tosca avec IA, CI/CD et approche basée sur les risques pour transformer SAP, Salesforce et DevOps sans rupture.",
@@ -1345,6 +1368,9 @@
     "ContactSubTitleOne": "Planifiez une consultation gratuite Tosca, réservez une démo ou contactez nos experts en remplissant le formulaire ci-dessous."
   },
   "mulesoft": {
+    "bannerAlt":"Paysage urbain numérique avec lignes réseau illustrant l’intégration MuleSoft de Salesforce partenaire.",
+    "partnerAlt":"Logo badge Partenaire Salesforce affiché sur fond de skyline urbain illuminé montrant le partenariat technologique",
+    "robustAlt":"Horizon urbain au coucher du soleil avec des lumières illustrant la transformation numérique et l’intégration.",
     "MmuleSoftTitle": "Solutions d’Intégration MuleSoft",
     "seoTitle": "Solutions et Services de Conseil en Intégration MuleSoft | Rialtes",
     "seoDescription": "Nos solutions MuleSoft fluidifient vos services numériques en exploitant toute la puissance des systèmes Salesforce connectés avec Rialtes.",

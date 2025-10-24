@@ -127,8 +127,8 @@ export default function page() {
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
-                        src="/images/solutions/sap-cpi/hero-desk-banner.webp"
-                        alt="desktop banner"
+                        src="/images/solutions/sap-cpi/sap-cloud-integration-services-banner.webp"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover" }}
                         priority
@@ -138,8 +138,8 @@ export default function page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/solutions/sap-cpi/Mobile/hero-mob-banner.webp"
-                        alt="mobile banner"
+                        src="/images/solutions/sap-cpi/Mobile/sap-cloud-integration-services-mob-banner.webp"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "25% 40%" }}
                         priority
@@ -188,8 +188,8 @@ export default function page() {
                     {/* Desktop Image */}
                     <div className="hidden md:block w-full h-full">
                         <Image
-                            src="/images/solutions/sap-cpi/thought-leadership-desk.webp"
-                            alt="thought-leadership"
+                            src="/images/solutions/sap-cpi/thought-leadership-digital-integration.webp"
+                            alt={t('leaderAlt')}
                             fill
                             className="object-cover object-[35%_20%]"
                             priority
@@ -199,8 +199,8 @@ export default function page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden w-full h-full">
                     <Image
-                        src="/images/solutions/sap-cpi/Mobile/thought-leadership-mob.webp"
-                        alt="thought-leadership"
+                        src="/images/solutions/sap-cpi/Mobile/thought-leadership-digital-integration-mobile.webp"
+                        alt={t('leaderAlt')}
                         width={0}
                         height={0}
                         className="object-cover object-center w-full h-full"
@@ -311,7 +311,7 @@ export default function page() {
                                         <div className="hidden lg:block w-full h-full">
                                             <Image
                                                 src={data.deskImg}
-                                                alt={`${data.title} image`}
+                                                alt={data.imageAlt}
                                                 width={0}
                                                 height={0}
                                                 className="object-cover w-full h-full object-center lg:object-[20%_20%]"
@@ -322,7 +322,7 @@ export default function page() {
                                         <div className="block lg:hidden w-full h-full">
                                             <Image
                                                 src={data.mobImg}
-                                                alt={`${data.title} image`}
+                                                alt={data.imageAlt}
                                                 width={0}
                                                 height={0}
                                                 className="object-cover object-center w-full h-full md:w-[80%]"
@@ -343,8 +343,8 @@ export default function page() {
                         {/* Desktop Image */}
                         <div className="hidden md:block w-full h-full">
                             <Image
-                                src="/images/solutions/sap-cpi/integration-desk.webp"
-                                alt="integration image"
+                                src="/images/solutions/sap-cpi/connected-enterprise-ecosystem.webp"
+                                alt={t('connectAlt')}
                                 fill
                                 className="object-cover object-[55%_20%]"
                                 priority
@@ -353,8 +353,8 @@ export default function page() {
                         {/* Mobile Image */}
                         <div className="block md:hidden w-full h-full">
                             <Image
-                                src="/images/solutions/sap-cpi/Mobile/integration-mob.webp"
-                                alt="integration image"
+                                src="/images/solutions/sap-cpi/Mobile/connected-enterprise-ecosystem-mobile.webp"
+                                alt={t('connectAlt')}
                                 width={0}
                                 height={0}
                                 className="object-cover object-center w-full h-full"
@@ -424,7 +424,7 @@ export default function page() {
                                                 <div className="hidden md:block w-full h-full">
                                                     <Image
                                                         src={data.deskImg}
-                                                        alt={`${data.title} image`}
+                                                        alt={data.imageAlt}
                                                         width={0}
                                                         height={0}
                                                         className="object-cover object-[55%_20%] h-full w-full"
@@ -435,7 +435,7 @@ export default function page() {
                                                 <div className="block md:hidden w-full mt-[27px] h-[70%] sm:h-[80%] max-[350px]:h-[60%]">
                                                     <Image
                                                         src={data.mobImg}
-                                                        alt={`${data.title} image`}
+                                                        alt={data.imageAlt}
                                                         width={0}
                                                         height={0}
                                                         className="object-cover w-full h-full"
@@ -460,7 +460,7 @@ export default function page() {
                                                 <div className="hidden md:block w-full h-full">
                                                     <Image
                                                         src={data.deskImg}
-                                                        alt={`${data.title} image`}
+                                                        alt={data.imageAlt}
                                                         width={0}
                                                         height={0}
                                                         className="object-cover object-[55%_20%] w-full h-full"
@@ -472,7 +472,7 @@ export default function page() {
                                                 <div className="block md:hidden w-full mt-[27px] h-[70%] sm:h-[80%] max-[350px]:h-[60%]">
                                                     <Image
                                                         src={data.mobImg}
-                                                        alt={`${data.title} image`}
+                                                        alt={data.imageAlt}
                                                         width={0}
                                                         height={0}
                                                         className="object-cover object-center w-full h-full"
@@ -507,8 +507,8 @@ export default function page() {
                 {/* Desktop Image */}
                 <div className="hidden lg:block w-full lg:h-[430px] xl:h-[600px]">
                     <Image
-                        src="/images/solutions/sap-cpi/why-rialtes-desk.webp"
-                        alt="why-rialtes image"
+                        src="/images/solutions/sap-cpi/business-woman-professional-handshake.webp"
+                        alt={t('whyAlt')}
                         width={0}
                         height={0}
                         className="object-cover object-center w-full h-full"
@@ -518,8 +518,8 @@ export default function page() {
                 {/* Mobile Image */}
                 <div className="block lg:hidden w-full h-full">
                     <Image
-                        src="/images/solutions/sap-cpi/Mobile/why-rialtes-mob.webp"
-                        alt="why-rialtes image"
+                        src="/images/solutions/sap-cpi/Mobile/business-woman-professional-handshake-mobile.webp"
+                        alt={t('whyAlt')}
                         width={0}
                         height={0}
                         className="object-cover object-center w-full h-full"
