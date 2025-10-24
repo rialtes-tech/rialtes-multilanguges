@@ -190,6 +190,16 @@
     ],
     "latestBlogs": [
       {
+        "id": 48,
+        "image": "/images/blog/Exelona Cluster 1.2_Blog feature thumb.webp",
+        "category": "Salesforce",
+        "industry": "Générique",
+        "date": "Oct. 20, 2025",
+        "url": "/how-do-you-track-slas-and-billing-without-losing-your-mind/",
+        "title": "Comment suivre les SLA et la facturation sans devenir fou ?",
+        "description": "Un accord de niveau de service (SLA) définit le niveau de service attendu d’un fournisseur. Il précise les indicateurs utilisés pour mesurer ce service et les recours disponibles si les niveaux de service convenus ne sont pas respectés."
+      },
+      {
         "id": 47,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
         "category": "IA",
@@ -200,7 +210,7 @@
         "description": "La vérité sur les opérations immobilières est qu’elles ont toujours consisté à trouver un équilibre entre coût, confort et continuité."
       },
       {
-        "id": 48,
+        "id": 46,
         "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
         "category": "Salesforce",
         "industry": "Générique",
@@ -220,7 +230,7 @@
         "description": "Fournir des soins de santé a toujours été bien plus qu’un simple diagnostic. Pour les patients, le véritable parcours commence après le diagnostic, en explorant les options de traitement, en gérant les maladies chroniques et en apprenant à vivre avec des besoins de soins continus."
       },
       {
-        "id": 46,
+        "id": 44,
         "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
         "category": "Salesforce",
         "industry": "SAP",

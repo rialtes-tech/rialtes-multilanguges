@@ -190,6 +190,17 @@
       }
     ],
     "latestBlogs": [
+
+      {
+        "id": 48,
+        "image": "/images/blog/Exelona Cluster 1.2_Blog feature thumb.webp",
+        "category": "Saleforce",
+        "industry": "Generic",
+        "date": "Oct. 20, 2025",
+        "url": "/how-do-you-track-slas-and-billing-without-losing-your-mind/",
+        "title": "How Do You Track SLAs and Billing Without Losing Your Mind?",
+        "description": " A service-level agreement (SLA) outlines the expected level of service from a vendor. It specifies the metrics used to measure that service and the remedies available if the agreed-upon service levels are not met."
+      },
        
       {
         "id": 47,
