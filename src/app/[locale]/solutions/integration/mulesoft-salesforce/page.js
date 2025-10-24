@@ -139,8 +139,8 @@ const page = () => {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/mulesoft-integration/mulesoftBanner.webp"
-            alt="desktop banner"
+            src="/images/mulesoft-integration/mulesoft-digital-business-integration-banner.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "85% 40%" }}
             priority
@@ -150,8 +150,8 @@ const page = () => {
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
-            src="/images/mulesoft-integration/mulesoftBanner.webp"
-            alt="mobile banner"
+            src="/images/mulesoft-integration/mulesoft-digital-business-integration-banner.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "25% 40%" }}
             priority
@@ -170,9 +170,9 @@ const page = () => {
           </h2>
           <div className="flex sm:justify-end justify-start">
             <Image
-              src="/images/salesforce-consulting-services/salesforce-partner.webp"
+              src="/images/salesforce-consulting-services/salesforce-partnership-badge.webp"
               className="sm:w-[22%] w-[37%]  h-full bg-transperent sm:mt-15  mt-8"
-              alt="Leadership Team"
+              alt={t('partnerAlt')}
               width={0}
               height={0}
               sizes="100vw"
@@ -230,10 +230,10 @@ const page = () => {
           </div>
           <div className="w-full xl:max-w-[50%] h-full max-w-full relative flex xl:justify-end max-xl:gap-5">
             <Image
-              src="/images/mulesoft-integration/RobustIntegrationSolution.webp"
+              src="/images/mulesoft-integration/digital-transformation-integration-solution.webp"
               width={650}
               height={500}
-              alt="Robust Integration Solution"
+              alt={t('robustAlt')}
               priority
             />
           </div>

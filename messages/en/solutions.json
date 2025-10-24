@@ -395,11 +395,14 @@
     "headerSubTitle3": "Leveraging SAP Consulting Services for reliable business operations.",
     "KnowMore": "Know More",
     "learnMore": "Learn More",
+    "sapConsultingBannerAlt": "Banner image showing business professionals collaborating, representing SAP consulting and implementation services",
+    "sapPartnerLogoAlt": "Official SAP Partner badge representing certified implementation expertise",
     "solutionSuccess": [
       {
         "id": 1,
-        "imageUrl": "/images/sap-consulting/RISE with SAP thumb.png",
+        "imageUrl": "/images/sap-consulting/rise-with-sap-team.webp",
         "title": "RISE with SAP",
+        "imageAlt": "Consultants implementing RISE with SAP for enterprise cloud transformation",
         "description": "RISE with SAP is the ultimate solution for every enterprise that needs to develop new business models to avoid operational disruptions and create a well-defined digital system.",
         "productsDetails": [
           "SAP S/4HANA Migration",
@@ -411,8 +414,9 @@
       },
       {
         "id": 2,
-        "imageUrl": "/images/sap-consulting/thumb 1.webp",
+        "imageUrl": "/images/sap-consulting/grow-with-sap-team.webp",
         "title": "GROW with SAP",
+        "imageAlt": "SAP experts guiding businesses through GROW with SAP cloud ERP adoption services",
         "description": "Grow with SAP services offers comprehensive solutions, community support, and resources to help you adopt Cloud ERP quickly and reliably",
         "productsDetails": [
           "Accelerate Your Digital Transformation",
@@ -425,8 +429,9 @@
       },
       {
         "id": 3,
-        "imageUrl": "/images/sap-consulting/Successfactor thumb.png",
+        "imageUrl": "/images/sap-consulting/successfactor-hcm-transform-team.webp",
         "title": "SuccessFactors",
+        "imageAlt": "HR technology professionals optimizing workforce management using SAP SuccessFactors",
         "description": "SuccessFactors provides end-to-end global HCM transformation, automating HR processes to keep employees engaged and aligned with organizational needs, all while easing the workload for HR leaders.",
         "productsDetails": [
           "Employee Central & Employee Central Payroll",
@@ -438,8 +443,9 @@
       },
       {
         "id": 4,
-        "imageUrl": "/images/sap-consulting/SAP Ariba.webp",
+        "imageUrl": "/images/sap-consulting/sap-ariba-procurement-team.webp",
         "title": "SAP Ariba",
+        "imageAlt": "Procurement specialists managing digital sourcing and spend transformation with SAP Ariba",
         "description": "Transform your procurement strategy to enhance innovation and value through spend management, strategic sourcing, and cost savings, while improving operations, decision-making, and contract management",
         "productsDetails": [
           "Procurement and supply chain metrics",
@@ -457,7 +463,8 @@
     "sapInustryTitle": "SAP Industry Focused Solutions Tailored to Meet the Needs of Different Organizations",
     "riseWithSapTitle": "RISE with SAP",
     "riseWithSapDesc": "Simplify the business of transformation through a customizable, subscription-based “as a service” model that empowers you to move to the cloud and S/4HANA at your own pace. As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE.",
-    "contactTitle": "Take the next step to operational excellence with us."
+    "contactTitle": "Take the next step to operational excellence with us.",
+    "riseWithSapNavigationAlt": "As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE. "
   },
   "agentForce": {
     "headerTitle": "Agentforce",
@@ -465,6 +472,8 @@
     "seoDescription": "Ready to scale smarter? Agentforce Consulting by Rialtes delivers Salesforce agents that automate, adapt, and drive success faster than ever.",
     "headerDesc": "Humans + Agents Automate Routine Tasks to Drive Customer Success",
     "headerOne": "Salesforce Agentforce:",
+    "desktopBannerAlt": "Professional team collaborating on Salesforce Agentforce AI solutions for enterprise efficiency.",
+    "agentforceLogoAlt": "Agentforce AI Dashboard English Alt Text: Screenshot of Salesforce Agentforce dashboard displaying AI agent performance metrics. ",
     "headerTwo": "What You Need To Know",
     "headerParaOne": "Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.",
     "headerParaTwo": "Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.",
@@ -472,23 +481,27 @@
     "salesForce": [
       {
         "id": 1,
-        "imageUrl": "/images/salesforce-consulting-services/achive1.svg",
-        "title": "Autonomous operation within customized guardrails"
+        "imageUrl": "/images/salesforce-consulting-services/autonomous_operation_guardrails.svg",
+        "title": "Autonomous operation within customized guardrails",
+        "altText": "Cloud icon with gears and shield representing secure, automated operations."
       },
       {
         "id": 2,
-        "imageUrl": "/images/salesforce-consulting-services/achive2.svg",
-        "title": "Real-time data adaptation"
+        "imageUrl": "/images/salesforce-consulting-services/real_time_data_adaptation.svg",
+        "title": "Real-time data adaptation",
+        "altText": "Icon of three people with stars symbolizing dynamic, responsive data handling. "
       },
       {
         "id": 3,
-        "imageUrl": "/images/salesforce-consulting-services/achive3.svg",
-        "title": "Seamless integration with employees"
+        "imageUrl": "/images/salesforce-consulting-services/employee_integration.svg",
+        "title": "Seamless integration with employees",
+        "altText": "Stopwatch and person icon indicating efficient employee workflow integration"
       },
       {
         "id": 4,
-        "imageUrl": "/images/salesforce-consulting-services/achive4.svg",
-        "title": "Low-code tools for customization and deployment"
+        "imageUrl": "/images/salesforce-consulting-services/low_code_customization_tools.svg",
+        "title": "Low-code tools for customization and deployment",
+        "altText": "Interconnected nodes and gears icon representing flexible development tools."
       }
     ],
     "leverageTitle": "Leverage cutting-edge technologies to deliver innovative solutions with Agentforce",
@@ -519,50 +532,58 @@
       {
         "title": "Agent Builder",
         "description": "Create and customize your own agents with low-code",
-        "image": "/images/salesforce-consulting-services/Agent Builder.svg"
+        "image": "/images/salesforce-consulting-services/agent_builder_salesforce.svg",
+        "altText": "Icon representing low-code creation and customization of AI agents."
       },
       {
         "title": "Prompt Builder",
         "description": "Supercharge every workflow with trusted AI prompts",
-        "image": "/images/salesforce-consulting-services/achive1.svg"
+        "image": "/images/salesforce-consulting-services/autonomous_operation_guardrails.svg",
+        "altText": "Icon symbolizing AI-enhanced workflows using trusted prompts."
       },
       {
         "title": "Model Builder",
         "description": "Build, train, and deploy custom AI models externally using data in Salesforce.",
-        "image": "/images/salesforce-consulting-services/Model Builder.svg"
+        "image": "/images/salesforce-consulting-services/model_builder_salesforce.svg",
+        "altText": "Icon for building, training, and deploying external AI models using Salesforce data."
       }
     ],
     "industryTitle": "Industry-specific Benefits That We Bring to Our Clients",
     "industryBenifite": [
       {
         "id": 1,
-        "imageUrl": "/images/salesforce-consulting-services/benif1.webp",
+        "imageUrl": "/images/salesforce-consulting-services/sales_automation.webp",
         "title": "Sales",
-        "description": "Automate lead qualification, booking appointments, and nurturing leads."
+        "description": "Automate lead qualification, booking appointments, and nurturing leads.",
+        "altText": "Person using laptop to automate lead qualification and appointment booking. "
       },
       {
         "id": 2,
-        "imageUrl": "/images/salesforce-consulting-services/cusser.webp",
+        "imageUrl": "/images/salesforce-consulting-services/customer_service_automation.webp",
         "title": "Customer Service",
-        "description": "Manage tickets, resolve inquiries, and provide 24/7 support."
+        "description": "Manage tickets, resolve inquiries, and provide 24/7 support.",
+        "altText": "Person interacting with digital interface to manage tickets and provide 24/7 support. "
       },
       {
         "id": 3,
-        "imageUrl": "/images/salesforce-consulting-services/Marketing.webp",
+        "imageUrl": "/images/salesforce-consulting-services/marketing_automation.webp",
         "title": "Marketing",
-        "description": "Run automated campaigns that adapt based on performance metrics."
+        "description": "Run automated campaigns that adapt based on performance metrics.",
+        "altText": "Person holding smartphone to run adaptive campaigns based on performance metrics. "
       },
       {
         "id": 4,
-        "imageUrl": "/images/salesforce-consulting-services/Insurance and financial services.webp",
+        "imageUrl": "/images/salesforce-consulting-services/insurance_financial_services.webp",
         "title": "Insurance and financial services",
-        "description": "Utilize Agentforce to access crucial client data on the go."
+        "description": "Utilize Agentforce to access crucial client data on the go.",
+        "altText": "Futuristic robot on platform representing digital transformation in finance. "
       },
       {
         "id": 5,
-        "imageUrl": "/images/salesforce-consulting-services/Healthcare and life sciences.webp",
+        "imageUrl": "/images/salesforce-consulting-services/healthcare_life_sciences.webp",
         "title": "Healthcare and life sciences",
-        "description": "Engage with patients, providers, and payers to act across multiple channels."
+        "description": "Engage with patients, providers, and payers to act across multiple channels.",
+        "altText": "Smartphone displaying medical interface, symbolizing tech-enabled healthcare solutions. "
       }
     ],
     "slides": [
@@ -819,6 +840,10 @@
     "contactTitle": "Ready to Modernize Oracle EBS for Your Business?"
   },
   "sapCpi": {
+    "bannerAlt": "Digital cloud formation over illuminated cityscape showcasing SAP Cloud Integration Services for connected enterprises",
+    "leaderAlt": "Futuristic digital tunnel with flowing light trails illustrating integration as backbone of digital transformation journey",
+    "connectAlt": "Hand holding a lightbulb with a network of connected icons, symbolizing innovation, data flow, and digital transformation",
+    "whyAlt": "Confident businesswoman smiling and shaking hands in a modern office setting, symbolizing partnership success.",
     "seoTitle": "SAP Cloud Platform Integration (CPI) Services | Rialtes",
     "seoDescription": "Rialtes offers expert SAP Cloud Platform Integration (CPI) services to streamline operations, connect SAP and non-SAP apps, and accelerate transformation.",
     "learnMore": "Learn More",
@@ -870,6 +895,7 @@
     "specializedData": [
       {
         "title": "SAP Ariba Integration",
+        "imageAlt": "Warehouse workers in safety gear and hard hats reviewing digital inventory data on laptop and monitor in distribution center",
         "subtitle": "Unlock Procurement Excellence",
         "desc": "Rialtes offers end-to-end integration between SAP Ariba and SAP S/4HANA and other systems, streamlining procurement and supplier collaboration.",
         "keyData": [
@@ -883,11 +909,12 @@
           "Enhanced supplier collaboration and visibility.",
           "Real-time insights into procurement KPIs."
         ],
-        "mobImg": "/images/solutions/sap-cpi/Mobile/sap-ariba-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/sap-ariba-desk.webp"
+        "mobImg": "/images/solutions/sap-cpi/Mobile/warehouse-safety-digital-operations-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/warehouse-safety-digital-operations.webp"
       },
       {
         "title": "SAP S/4HANA Integration",
+        "imageAlt": "Business woman in professional attire talking on phone while reviewing tablet in modern office with shipping boxes",
         "subtitle": "Connecting Your Digital Core",
         "desc": "Integrating SAP S/4HANA with other enterprise systems is critical for end-to-end business processes. Rialtes enables real-time and secure integrations with Salesforce, Ariba, Oracle, and more.",
         "keyData": [
@@ -901,11 +928,12 @@
           "Real-time operational insights.",
           "Reduced manual errors and streamlined workflows."
         ],
-        "mobImg": "/images/solutions/sap-cpi/Mobile/sap-s4hana-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/sap-s4hana-desk.webp"
+        "mobImg": "/images/solutions/sap-cpi/Mobile/businesswoman-phone-tablet-shipping-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/businesswoman-phone-tablet-shipping.webp"
       },
       {
         "title": "SAP SuccessFactors Integration",
+        "imageAlt": "HR professionals reviewing SAP SuccessFactors integration on tablet for seamless employee lifecycle management in office",
         "subtitle": "Powering Next-Gen HR",
         "desc": "Rialtes provides robust integrations of SAP SuccessFactors with payroll, benefits, time tracking, and finance systems, enabling seamless employee lifecycle management.",
         "keyData": [
@@ -919,11 +947,12 @@
           "Better employee experience and faster onboarding.",
           "Compliance with local and global HR regulations."
         ],
-        "mobImg": "/images/solutions/sap-cpi/Mobile/sap-successfactor-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/sap-successfactor-desk.webp"
+        "mobImg": "/images/solutions/sap-cpi/Mobile/sap-successfactors-hr-integration-meeting-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/sap-successfactors-hr-integration-meeting.webp"
       },
       {
         "title": "Salesforce and SAP CPI Integration",
+        "imageAlt": "Couple comparing dishwasher features in a modern appliance store, discussing options with a tablet.",
         "subtitle": "Delivering 360° Customer View",
         "desc": "Rialtes connects Salesforce CRM with SAP backend systems like S/4HANA and SAP ERP using CPI for seamless customer, order, and service workflows.",
         "keyData": [
@@ -937,8 +966,8 @@
           "Faster quote-to-cash cycles.",
           "Accurate and real-time customer and product data."
         ],
-        "mobImg": "/images/solutions/sap-cpi/Mobile/salesforce-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/salesforce-desk.webp"
+        "mobImg": "/images/solutions/sap-cpi/Mobile/salesforce-and-sap-cpi-integration-discussion-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/salesforce-and-sap-cpi-integration-discussion.webp"
       }
     ],
     "integrationData": [
@@ -948,8 +977,9 @@
     ],
     "commonSectionsData": [
       {
-        "mobImg": "/images/solutions/sap-cpi/Mobile/data-visulization-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/data-visulization-desk.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/data-analytics-professionals-office-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/data-analytics-professionals-office.webp",
+        "imageAlt": "Business professionals analyzing colorful data dashboards and charts on multiple monitors in modern office workspace",
         "title": "Data Visualization with Data Cloud and Tableau",
         "subtitle": "Actionable Insights from Connected Data",
         "desc": "With SAP CPI powering seamless data integration, Rialtes leverages Tableau and Data Cloud to turn complex data into actionable insights.",
@@ -960,8 +990,9 @@
         ]
       },
       {
-        "mobImg": "/images/solutions/sap-cpi/Mobile/production-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/production-desk.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/manufacturing-workers-tablet-automation-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/manufacturing-workers-tablet-automation.webp",
+        "imageAlt": "Industrial workers in safety gear and hard hats using digital tablet to manage robotic machinery in manufacturing facility",
         "title": "Production Planning & Demand Management using Mulesoft + SAP CPI",
         "desc": "Integrate SAP, Oracle, Salesforce, and legacy systems for production planning and demand forecasting with Mulesoft and SAP CPI:",
         "dataList": [
@@ -971,8 +1002,9 @@
         ]
       },
       {
-        "mobImg": "/images/solutions/sap-cpi/Mobile/demand-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/demand-desk.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/digital-project-management-gantt-chart-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/digital-project-management-gantt-chart.webp",
+        "imageAlt": "Business professional interacting with digital Gantt chart project timeline on laptop screen for workflow management planning",
         "title": "Demand Planning with Kinaxis RapidResponse & SAP CPI",
         "desc": "Kinaxis RapidResponse integration with SAP for real-time demand planning delivers:",
         "dataList": [
@@ -982,8 +1014,9 @@
         ]
       },
       {
-        "mobImg": "/images/solutions/sap-cpi/Mobile/ai-powered-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/ai-powered-desk.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/augmented-reality-smart-manufacturing-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/augmented-reality-smart-manufacturing.webp",
+        "imageAlt": "Engineers in hard hats viewing augmented reality data overlays and digital dashboards in modern smart manufacturing facility",
         "title": "AI-Powered SAP Integrations",
         "subtitle": "The Future of Intelligent Workflows",
         "desc": "AI is transforming integration landscapes, and Rialtes makes this real:",
@@ -994,8 +1027,9 @@
         ]
       },
       {
-        "mobImg": "/images/solutions/sap-cpi/Mobile/agile-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/agile-desk.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/warehouse-inventory-management-professionals-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/warehouse-inventory-management-professionals.webp",
+        "imageAlt": "Warehouse professionals with tablets and clipboard reviewing inventory management data among shelves in distribution center",
         "title": "Agile, SCRUM-Certified Delivery for Seamless Integrations",
         "desc": "Every Rialtes SAP CI engagement is driven by SCRUM-certified project managers, ensuring:",
         "dataList": [
@@ -1005,8 +1039,9 @@
         ]
       },
       {
-        "mobImg": "/images/solutions/sap-cpi/Mobile/sap-salesforce-mob.webp",
-        "deskImg": "/images/solutions/sap-cpi/sap-salesforce-desk.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/team-collaboration-digital-network-unity-mobile.webp",
+        "deskImg": "/images/solutions/sap-cpi/team-collaboration-digital-network-unity.webp",
+        "imageAlt": "Diverse team hands together in unity with digital network connections overlay symbolizing collaboration and teamwork spirit",
         "title": "SAP and Salesforce Partnership",
         "subtitle": "The Power of Connected Ecosystems",
         "desc": "As trusted partners with SAP and Salesforce, Rialtes delivers:",
@@ -1238,6 +1273,14 @@
     "contactSubtitleOne": "Contact us today for a free automation assessment!"
   },
   "tosca": {
+    "bannerAlt": "Software engineer smiling at desk with coding screens showcasing Tricentis TOSCA automation testing services and quality work",
+    "trustAlt": "Software developers collaborating with tablet reviewing code on multiple monitors in modern tech office workspace environment",
+    "serviceAlt": "Professional analyzing financial charts and data analytics on multiple laptop screens in warm-lit modern workspace environment",
+    "qtestAlt": "Tech professionals collaborating at computer workstation in modern open office with plants and multiple monitors in background",
+    "liveAlt": "Focused data analyst working on laptop with digital code and analytics graphs, symbolizing data-driven innovation",
+    "businessAlt": "Two professionals analyzing digital dashboards with charts and graphs, discussing strategic business insights.",
+    "codeAlt": "Two professionals collaborating on coding, reviewing code on screens with design documents on the desk",
+    "desktopAlt": "Cloud cityscape with text overlay on SAP, Oracle, Salesforce integration and unified enterprise testing solutions",
     "seoTitle": "Tosca Software Automation Testing Services | Rialtes",
     "seoDescription": "Rialtes offers Tosca Software Automation Testing Services with AI, CI/CD, and risk-based testing for seamless transformation of SAP, Salesforce, and DevOps.",
     "headerTitle": "Elevate Quality Engineering with Rialtes’ Tosca Automation Testing Services",
@@ -1350,10 +1393,12 @@
     "platformPara": " of enterprise testing needs in one suite.",
     "contactTitle": "Ready to Transform Your Testing Journey?",
     "contactSubTitle": "Let Rialtes help you embrace Tosca and modern test automation to ensure every release is high-quality, fast, and secure.",
-    "ContactSubTitleOne": "Schedule a Free Tosca Consultation, Book a Demo or Contact Our Experts Please fill the below form.",
-    "": ""
+    "ContactSubTitleOne": "Schedule a Free Tosca Consultation, Book a Demo or Contact Our Experts Please fill the below form."
   },
   "mulesoft": {
+    "bannerAlt": "Digital cityscape with glowing network lines showing MuleSoft integration connecting businesses as Salesforce partner",
+    "partnerAlt": "Salesforce Partner badge logo displayed against illuminated city skyline background showcasing technology partnership",
+    "robustAlt": "City skyline at sunset with colorful light trails showing digital transformation through robust integration solutions",
     "MmuleSoftTitle": "MuleSoft Integration Solutions",
     "seoTitle": "MuleSoft Integration Consulting Solutions and Services | Rialtes",
     "seoDescription": "Our MuleSoft integration consulting solutions make digital services flow effortlessly by unleashing the full power of connected Salesforce systems.",
@@ -1451,6 +1496,8 @@
   },
   "salesForceConsulting": {
     "consultingTitle": "Salesforce Consulting Services",
+    "partnerLogoAltText": "Official Salesforce Partner logo representing Rialtes’ certification as a trusted Salesforce consulting and implementation partner. ",
+    "bannerAltText": "A futuristic digital landscape background with text “Transform how you engage with your clients,” representing Salesforce consulting and customer engagement services. ",
     "seoTitle": "Salesforce Consulting, Implementation & Integration Partner | Rialtes",
     "seoDescription": "Trusted by enterprises across the US & India, Rialtes provides Salesforce consulting, implementation, and integration services—powered by AI-driven innovation.",
     "consultingDesc": "Transform how you engage with your clients",
@@ -1467,42 +1514,49 @@
     "agentforceDesc": "Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.",
     "learnMore": "Learn More",
     "contactUs": "Take the next step to operational excellence with Salesforce Consulting.",
+    "neuralNetworkAltText": "Symmetrical digital artwork resembling a neural network, paired with a description of Salesforce Agentforce's AI agent deployment across business functions.",
     "salesForce": [
       {
         "id": 1,
-        "imageUrl": "/images/salesforce-consulting-services/light.svg",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-lightning-services-icon.svg",
         "title": "Lightning Services",
-        "description": "Dedicated app developers are at your disposal for the development of an app closely knit for enhanced customer experience."
+        "description": "Dedicated app developers are at your disposal for the development of an app closely knit for enhanced customer experience.",
+        "altText": "Cloud and lightning bolt icon symbolizing Salesforce Lightning app development for enhanced customer experiences. "
       },
       {
         "id": 2,
-        "imageUrl": "/images/salesforce-consulting-services/inte.svg",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-integration-services-icon.svg",
         "title": "Integration Services",
-        "description": "Salesforce Integration services like never before to help you deliver a connected experience for seamless data flow – on the go"
+        "description": "Salesforce Integration services like never before to help you deliver a connected experience for seamless data flow – on the go",
+        "altText": "Gear and connection icon representing seamless Salesforce integration for smooth data flow across systems."
       },
       {
         "id": 3,
-        "imageUrl": "/images/salesforce-consulting-services/imple.svg",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-implementation-services-icon.svg",
         "title": "Implementation Services",
-        "description": "We know how to move beyond Salesforce basics, customizing and extending its capabilities with our implementation solutions."
+        "description": "We know how to move beyond Salesforce basics, customizing and extending its capabilities with our implementation solutions.",
+        "altText": "Gear and wrench icon illustrating Salesforce implementation solutions that customize and extend platform capabilities. "
       },
       {
         "id": 4,
-        "imageUrl": "/images/salesforce-consulting-services/mig.svg",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-migration-services-icon.svg",
         "title": "Migration Services",
-        "description": "With a user-friendly UI, interact with your customers with sleek visuals, unleash next-gen analytics, and improve your user engagement."
+        "description": "With a user-friendly UI, interact with your customers with sleek visuals, unleash next-gen analytics, and improve your user engagement.",
+        "altText": "Cloud with upward arrows icon depicting migration of data and applications to Salesforce with enhanced user experience."
       },
       {
         "id": 5,
-        "imageUrl": "/images/salesforce-consulting-services/light.svg",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-contact-support-icon.svg",
         "title": "Contact Support",
-        "description": "End-to-end monitoring and user support to identify and resolve challenges faced in the implementation cycle."
+        "description": "End-to-end monitoring and user support to identify and resolve challenges faced in the implementation cycle.",
+        "altText": "Cloud and headset icon representing end-to-end Salesforce customer support and issue resolution assistance. "
       }
     ],
     "salesForceProduct": [
       {
         "id": 3,
-        "imageUrl": "/images/salesforce-consulting-services/agentforce.png",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-agentforce-ai-support.png",
+        "altText": "Illustration of a humanoid robot interacting with a laptop, representing Salesforce Agentforce's autonomous AI agents designed to resolve customer inquiries 24/7.",
         "title": "Salesforce Agentforce",
         "description": "Build and customize autonomous AI agents to help your employees and customers 24/7.",
         "productsDetails": [
@@ -1515,7 +1569,8 @@
       },
       {
         "id": 4,
-        "imageUrl": "/images/salesforce-consulting-services/lap.webp",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-data-cloud-customer-360.webp",
+        "altText": "Photo of a person using a laptop with digital data visualizations, highlighting Salesforce Data Cloud's ability to unify and transform data for a complete Customer 360 view.",
         "title": "Salesforce Data Cloud",
         "description": "Turn raw data into insights by unifying and transforming it, unlocking a sea of opportunities for your business.",
         "productsDetails": [

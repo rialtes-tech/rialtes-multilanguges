@@ -148,8 +148,8 @@ export default function SalesForceConsulting() {
 
       <div className="relative group overflow-hidden">
         <Image
-          src="/images/salesforce-consulting-services/banner.webp"
-          alt="Salesforce Consulting Team"
+          src="/images/salesforce-consulting-services/salesforce-consulting-banner.webp"
+          alt={t("bannerAltText")}
           className="transform transition-transform duration-500 group-hover:scale-110 xl:h-full h-[250px] md:h-[350px] lg:h-[450px]"
           width={0}
           height={0}
@@ -168,9 +168,9 @@ export default function SalesForceConsulting() {
             {t("consultingDesc")}
           </h2>
           <Image
-            src="/images/salesforce-consulting-services/salesforce-partner.webp"
+            src="/images/salesforce-consulting-services/salesforce-partner-logo.webp"
             className="w-[22%] h-full bg-transperent lg:mt-20 lg:m-0 mt-5"
-            alt="Leadership Team"
+            alt={t("partnerLogoAltText")}
             width={0}
             height={0}
             sizes="100vw"
@@ -208,7 +208,7 @@ export default function SalesForceConsulting() {
                 <div>
                   <Image
                     src={sales.imageUrl}
-                    alt="Salesforce Consulting Team"
+                    alt={sales.altText}
                     className="w-20 h-20"
                     width={0}
                     height={0}
@@ -247,7 +247,7 @@ export default function SalesForceConsulting() {
                 <div className="relative group overflow-hidden m-3">
                   <Image
                     src={product.imageUrl}
-                    alt="Salesforce Consulting Team"
+                    alt={product.altText}
                     className="transform transition-transform duration-500 group-hover:scale-110"
                     height={325}
                     width={1250}
@@ -311,35 +311,35 @@ export default function SalesForceConsulting() {
           <h3 className=" mb-10 text-[#000000] 4xl:text-[40px] xl:text-[30px] text-[22px]">
             {t("actionTitle")}
           </h3>
-            <div className="grid  xl:grid-cols-3 gap-16">
-              {growthData.map((item, index) => (
-                <div key={index}>
-                  <div className="px-2 bg-[#EDEDED] py-1 rounded text-[#0092E0] font-bold 4xl:text-[70px] xl:text-[40px] text-[23px]">
-                    {item.percentage}
-                  </div>
-                  <div className="px-2 rounded leading-[20px] text-[#0092E0] font-bold 4xl:text-[50px] xl:text-[35px] text-[20px]">
-                    {item.label}
-                  </div>
-
-                  <p className={`mt-10  leading-tight  whitespace-nowrap
-                    ${locale === "es"
-                                    ? "xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] text-[14px]"
-                                    : locale === "fr"
-                                        ? "xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] text-[16px]"
-                                        : "xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] text-[16px]"
-                                }`}
-                  >
-                    {item.description.split("\n").map((line, i) => (
-                      <React.Fragment key={i}>
-                        {line}
-                        <br />
-                      </React.Fragment>
-                    ))}
-                  </p>
+          <div className="grid  xl:grid-cols-3 gap-16">
+            {growthData.map((item, index) => (
+              <div key={index}>
+                <div className="px-2 bg-[#EDEDED] py-1 rounded text-[#0092E0] font-bold 4xl:text-[70px] xl:text-[40px] text-[23px]">
+                  {item.percentage}
                 </div>
-              ))}
-            </div>
-           
+                <div className="px-2 rounded leading-[20px] text-[#0092E0] font-bold 4xl:text-[50px] xl:text-[35px] text-[20px]">
+                  {item.label}
+                </div>
+
+                <p className={`mt-10  leading-tight  whitespace-nowrap
+                    ${locale === "es"
+                    ? "xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] text-[14px]"
+                    : locale === "fr"
+                      ? "xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] text-[16px]"
+                      : "xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] text-[16px]"
+                  }`}
+                >
+                  {item.description.split("\n").map((line, i) => (
+                    <React.Fragment key={i}>
+                      {line}
+                      <br />
+                    </React.Fragment>
+                  ))}
+                </p>
+              </div>
+            ))}
+          </div>
+
         </div>
       </section>
 
@@ -371,8 +371,8 @@ export default function SalesForceConsulting() {
               width="100"
               height="100"
               className="w-full lg:!h-[500px] hidden xl:block transition-transform duration-500 transform group-hover:scale-110"
-              alt="Life Section"
-              src="/images/homepage/agentforce-banner.webp"
+              alt={t("neuralNetworkAltText")}
+              src="/images/salesforce-consulting-services/agentforce-banner-desktop.webp"
             />
           </div>
         </div>

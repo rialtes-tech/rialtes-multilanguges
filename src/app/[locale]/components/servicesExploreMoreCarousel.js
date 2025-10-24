@@ -121,7 +121,7 @@ export default function servicesExploreMoreCarousel() {
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     priority
                   />
-                  <h4 className="absolute inset-0 p-6 my-4 line-clamp-4 md:line-clamp-none 4xl:text-[32px] xl:text-[24px] text-[22px] leading-tight">{slide.title}</h4>
+                  <h4 className="absolute inset-0 p-6 my-4 line-clamp-4 md:line-clamp-none 4xl:text-[32px] xl:text-[24px] text-[22px] leading-tight">{slide.titleOne}</h4>
                 </a>
               </div>
             </div>

@@ -113,8 +113,8 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-               title={t('seoTitle')}
-               description={t('seoDescription')}
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/"}
             />
@@ -129,8 +129,8 @@ export default function Page() {
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
-                        src="/images/sap-consulting/SAP-Consulting-banner.webp"
-                        alt="desktop banner"
+                        src="/images/sap-consulting/sap-consulting-banner-desktop.webp"
+                        alt={t('sapConsultingBannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                         priority
@@ -140,8 +140,8 @@ export default function Page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/sap-consulting/SAP-Consulting-banner-mob.webp"
-                        alt="mobile banner"
+                        src="/images/sap-consulting/sap-consulting-logo-mobile.webp"
+                        alt={t('sapConsultingBannerAlt')}
                         className="object-cover"
                         fill
                         priority
@@ -160,8 +160,8 @@ export default function Page() {
                                 {t('headerSubTitle3')}
                             </h3>
                             <Image
-                                src="/images/sap-consulting/SAP-partner-logo.webp"
-                                alt="SAP Partner Logo"
+                                src="/images/sap-consulting/sap-partner-logo.webp"
+                                alt={t('sapPartnerLogoAlt')}
                                 width={0}
                                 height={0}
                                 priority
@@ -192,7 +192,7 @@ export default function Page() {
                                 <div className="relative group overflow-hidden m-3">
                                     <Image
                                         src={product.imageUrl}
-                                        alt="Salesforce Consulting Team"
+                                        alt={product.imageAlt}
                                         className="transform w-full h-full transition-transform duration-500 group-hover:scale-110"
                                         height={0} width={0}
                                         priority />
@@ -232,12 +232,12 @@ export default function Page() {
                         <Image
                             quality={100}
                             layout="responsive"
+                            alt={t('riseWithSapNavigationAlt')}
                             loading="lazy"
                             width='100'
                             height='100'
                             className='w-full 3xl:!h-[500px] 2xl:!h-[500px] xl:!h-[500px] lg:!h-[380px] md:!h-[384px] sm:!h-[360px] !h-[480px] object-cover transition-transform duration-500 transform group-hover:scale-110 object-[35%_80%]'
-                            alt='Life science image'
-                            src='/images/services/rise-with-sap/header.webp' />
+                            src='/images/services/rise-with-sap/rise-with-sap-page-navigation.webp' />
                     </div>
                 </div>
                 <div className="custom-container">

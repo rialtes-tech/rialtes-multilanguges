@@ -136,8 +136,8 @@ export default function DemandPlusSection() {
       <section className="relative">
         <div className="xl:block hidden">
           <Image
-            src="/images/toska/desktop/banner-desktop.webp"
-            alt="Tosca Banner desktop"
+            src="/images/toska/desktop/tricentis-tosca-automation-testing-services.webp"
+            alt={t('bannerAlt')}
             width={0}
             height={0}
             priority
@@ -147,8 +147,8 @@ export default function DemandPlusSection() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/toska/mobile/banner-mobile.webp"
-            alt="Toska Banner Mobile"
+            src="/images/toska/mobile/tricentis-tosca-automation-testing-services-mobile.webp"
+            alt={t('bannerAlt')}
             className="w-full h-[400px] md:h-full object-cover"
             priority
             sizes="100vw"
@@ -190,8 +190,8 @@ export default function DemandPlusSection() {
       <section className="relative">
         <div className="md:block hidden  2xl:h-full xl:h-[633px]">
           <Image
-            src="/images/toska/desktop/why-choose.webp"
-            alt="Why Choose Rialtes for Tosca Implementation?"
+            src="/images/toska/desktop/software-developers-collaboration-coding.webp"
+            alt={t('trustAlt')}
             priority
             sizes="100vw"
             className="w-full h-full object-cover"
@@ -201,8 +201,8 @@ export default function DemandPlusSection() {
         </div>
         <div className="md:hidden block">
           <Image
-            src="/images/toska/mobile/why-choose-mobile.webp"
-            alt="Why Choose Rialtes for Tosca Implementation?"
+            src="/images/toska/mobile/software-developers-collaboration-coding-mobile.webp"
+            alt={t('trustAlt')}
             width={0}
             height={0}
             sizes="100vw"
@@ -253,8 +253,8 @@ export default function DemandPlusSection() {
         <div className="grid xl:grid-cols-12 grid-cols-1 4xl:gap-10 xl:gap-16 4xl:mt-10 mt-16">
           <div className="xl:col-span-6 order-1 xl:order-2">
             <Image
-              src="/images/toska/desktop/end-to-end-desktop.webp"
-              alt="End to End desktop right side Image"
+              src="/images/toska/desktop/financial-data-analytics-multi-screen.webp"
+              alt={t('serviceAlt')}
               width={0}
               height={0}
               sizes="100vw"
@@ -316,8 +316,8 @@ export default function DemandPlusSection() {
       <section className="relative mt-16 xl:custom-container px-0 sm:px-0 md:px-6 4xl:px-[142px]">
         <div className="xl:block hidden">
           <Image
-            src="/images/toska/desktop/qtest.webp"
-            alt="Qtest Desktop"
+            src="/images/toska/desktop/tech-team-collaboration-modern-office.webp"
+            alt={t('qtestAlt')}
             priority
             sizes="100vw"
             className="w-full h-full"
@@ -327,8 +327,8 @@ export default function DemandPlusSection() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/toska/mobile/qtest-mobile.webp"
-            alt="Qtest Mobile"
+            src="/images/toska/mobile/tech-team-collaboration-modern-office-mobile.webp"
+            alt={t('qtestAlt')}
             width={0}
             height={0}
             sizes="100vw"
@@ -388,8 +388,8 @@ export default function DemandPlusSection() {
                     ? "4xl:h-[865px] xl:h-[620px] 2xl:h-[645px]"
                     : "4xl:h-[760px] 2xl:h-[565px] xl:h-[590px]"
                 }`}
-              src="/images/toska/desktop/live-desk.webp"
-              alt="Live Desktop"
+              src="/images/toska/desktop/data-analyst-digital-transformation.webp"
+              alt={t('liveAlt')}
               width={0}
               height={0}
               sizes="100vw"
@@ -451,8 +451,8 @@ export default function DemandPlusSection() {
                       ? "4xl:h-[980px] 4xl:mt-[110px] 4xl:mb-16 xl:mt-10 xl:-mb-16"
                       : "4xl:mt-[110px] 4xl:mb-16 xl:mt-10 xl:-mb-16"
                   }`}
-                src="/images/toska/desktop/neoload-desktop.webp"
-                alt="Neoload desktop Image"
+                src="/images/toska/desktop/business-data-analytics-meeting.webp"
+                alt={t('businessAlt')}
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -462,8 +462,8 @@ export default function DemandPlusSection() {
             <div className="xl:hidden block">
               <Image
                 className="w-full 4xl:mt-[6rem] 4xl:mb-16 xl:mt-10 xl:-mb-16 relative px-[35px] xl:px-0 4xl:px-0"
-                src="/images/toska/mobile/neoload-mobile.webp"
-                alt="Neoload desktop Image"
+                src="/images/toska/mobile/business-data-analytics-meeting-mobile.webp"
+                alt={t('businessAlt')}
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -537,8 +537,8 @@ export default function DemandPlusSection() {
             <div className="xl:block hidden h-full">
               <Image
                 className="w-full h-full object-cover"
-                src="/images/toska/desktop/new-to.webp"
-                alt="Certifide Unamtched Image"
+                src="/images/toska/desktop/collaborative-coding-session.webp"
+                alt={t('codeAlt')}
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -548,8 +548,8 @@ export default function DemandPlusSection() {
             <div className="xl:hidden block">
               <Image
                 className="w-full h-[350px] md:h-full "
-                src="/images/toska/mobile/certifide.webp"
-                alt="Certifide Unamtched Image"
+                src="/images/toska/mobile/collaborative-coding-session-mobile.webp.webp"
+                alt={t('codeAlt')}
                 style={{ objectFit: "cover", objectPosition: "5% 20%" }}
                 width={0}
                 height={0}
@@ -595,8 +595,8 @@ export default function DemandPlusSection() {
         {/* Desktop Image */}
         <div className="xl:block hidden">
           <Image
-            src="/images/toska/desktop/seamless.webp"
-            alt="Seamless Desktop"
+            src="/images/toska/desktop/enterprise-integration-testing-banner.webp"
+            alt={t('desktopAlt')}
             priority
             sizes="100vw"
             className="w-full h-full xl:h-[700px] 3xl:h-[650px] 4xl:h-[900px]"
@@ -606,8 +606,8 @@ export default function DemandPlusSection() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/toska/mobile/seamless-mobile.webp"
-            alt="Seamless Mobile"
+            src="/images/toska/mobile/enterprise-integration-testing-banner-mobile.webp"
+            alt={t('desktopAlt')}
             width={0}
             height={0}
             sizes="100vw"

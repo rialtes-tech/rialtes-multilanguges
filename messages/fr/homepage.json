@@ -363,22 +363,22 @@
             {
                 "id": 1,
                 "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-                "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
-                "title": "DevOps Rationalisé avec Copado et Salesforce",
+                "imgSrc": "/images/case-studies/industrial-workers-safety-collaboration.webp",
+                "title": "Travailleurs industriels en équipement de sécurité collaborant avec ordinateur portable dans l'usine.",
                 "description": "Un fabricant de premier plan spécialisé dans la création de matériaux innovants pour des projets de construction résidentiels et commerciaux."
             },
             {
                 "id": 2,
                 "url": "/insights/case-studies/realForce-banking-module-ach",
-                "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
-                "title": "Module Bancaire RealForce - ACH",
+                "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
+                "title": "Professionnels d'affaires dans un bureau moderne discutant de stratégie en pointant lors d'une collaboration",
                 "description": "Une entreprise immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l'investissement dans des propriétés multifamiliales."
             },
             {
                 "id": 3,
                 "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-                "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
-                "title": "Automatiser le traitement des commandes avec Mulesoft pour Salesforce Health Cloud et SAP",
+                "imgSrc": "/images/case-studies/healthcare-professionals-patient-care.webp",
+                "title": "Professionnels de santé en tenue médicale souriant en discutant des soins aux patients avec tablettes numériques",
                 "description": "Une entreprise mondiale de technologie médicale qui développe et fabrique des produits innovants."
             }
         ],
@@ -396,26 +396,30 @@
         "slides": [
             {
                 "id": 1,
-                "image": "/images/industry/manufacturing.webp",
-                "title": "Fabrication",
+                "image": "/images/industry/manufacturing-cnc-machine-metalworking.webp",
+                "title": "Outil machine CNC industriel perçant avec étincelles volant pendant opération de fabrication métallurgique",
+                "titleOne": "Fabrication",
                 "url": "/industry/manufacturing-cloud-erp"
             },
             {
                 "id": 2,
-                "image": "/images/industry/healthcare.webp",
-                "title": "Santé",
+                "image": "/images/industry/healthcare-digital-medical-data-analysis.webp",
+                "title": "Professionnel de santé analysant données médicales numériques sur écran tactile futuriste en hôpital moderne",
+                "titleOne": "Santé",
                 "url": "/industry/life-sciences/healthcare-medtech-patient-care"
             },
             {
                 "id": 3,
-                "image": "/images/industry/real-estate.webp",
-                "title": "Immobilier",
+                "image": "/images/industry/real-estate-urban-planning-model.webp",
+                "title": "Professionnel pointant modèle architectural 3D blanc de ville pendant présentation de planification urbaine",
+                "titleOne": "Immobilier",
                 "url": "/industry/real-estate-property-management"
             },
             {
                 "id": 4,
-                "image": "/images/industry/hi-tech.webp",
-                "title": "Haute technologie",
+                "image": "/images/industry/hi-tech-circuit-board-microchip.webp",
+                "title": "Gros plan de carte de circuit turquoise avec broches électroniques montrant technologie de micropuce hi-tech",
+                "titleOne": "Haute technologie",
                 "url": "/industry/hitech-semiconductor-ai-it-solutions"
             }
         ]
