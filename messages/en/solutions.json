@@ -25,7 +25,16 @@
       "Ensure trusted data governance and lineage across all business functions",
       "Accelerate AI, planning, and analytics with clean, context-rich data"
     ],
+    "headerAlt": "Abstract blue digital network grid with interconnected nodes and glowing connection points in technology background",
+    "unifiedAlt": "Three business professionals discussing strategy with tablet and data charts in modern office conference room ",
+    "sapDataAlt": "Warehouse manager in yellow safety vest and hard hat holding laptop inspecting inventory in distribution center",
+    "sapBdcAlt": "Abstract flowing digital network waves with connected nodes and glowing particles on deep blue technology background",
+    "trustedAlt": "Professional businesswoman in orange shirt writing on whiteboard with charts and graphs in modern office space ",
+    "connectAlt": "Hand holding fluffy white cloud against clear blue sky representing cloud computing and digital storage concept",
+    "businessAlt": "Wind turbine with flowing digital particle network against starry twilight sky representing renewable energy technology ",
+    "clientsAlt": "Smiling software developer wearing glasses holding tablet at desk with programming code on computer monitors behind",
     "sapTitle": "Why Choose SAP Business Data Cloud?",
+    "migrateAlt": "Two software developers analyzing programming code on large display screen while holding laptop in tech workspace ",
     "learnMore": "Learn More",
     "dataItems": [
       {
@@ -128,6 +137,8 @@
   },
   "salesforceDataCloud": {
     "headerTitle": "Data Cloud",
+    "bannerAlt": "Rock climber wearing safety harness with carabiners and ropes against snowy mountain peaks and cloudy sky",
+    "salesforceLogoAlt": "Salesforce Partner badge with blue cloud logo and white text on dark blue background",
     "seoTitle": "Salesforce Data Cloud Implementation and Consulting Services | Rialtes",
     "seoDescription": "Expert Salesforce Data Cloud implementation and consulting to fuel growth, boost decisions, accelerate innovation, and drive stronger outcomes with Rialtes.",
     "headerSubtitle": "Harness the Potential of Salesforce Data Cloud",
@@ -141,33 +152,33 @@
     "contactTitle": "Take the next step to operational excellence with us.",
     "featureBoxes": [
       {
-        "icon": "/images/data-cloud/customer-360-view.svg",
-        "title": "Customer 360 View",
+        "icon": "/images/data-cloud/user-growth-icon.svg",
+        "alt": "User growth icon with figure and expanding arrows ",
         "description": "Integrate customer data across business units to build, for both real-time, omni-channel marketing, transactional personalization, content, subscription, and e-commerce."
       },
       {
-        "icon": "/images/data-cloud/zero-copy-integration.svg",
-        "title": "Zero Copy Integration",
+        "icon": "/images/data-cloud/process-integration-icon.svg",
+        "alt": "Process integration icon with clipboard and workflow arrows ",
         "description": "Connect your databases, applications with zero copying delays and share data among multiple data sources on demand. No ETL, eliminate ingestion costs and keeping down operational costs."
       },
       {
-        "icon": "/images/data-cloud/real-time-data-processing.svg",
-        "title": "Real-time Data Processing",
+        "icon": "/images/data-cloud/cloud-storage-icon.svg",
+        "alt": "Cloud storage icon with data protection shield ",
         "description": "Processes in real-time and drives data-driven decision-making, optimize inventory management, influence services, improve customer satisfaction, add trusted promotions and recommendations in real-time."
       },
       {
-        "icon": "/images/data-cloud/omnichannel-engagement.svg",
-        "title": "Omnichannel Engagement",
+        "icon": "/images/data-cloud/network-connection-icon.svg",
+        "alt": "Network connection icon with central node and linked points ",
         "description": "Build brand loyalty and trust by ensuring consistent experiences by managing data and service channels."
       },
       {
-        "icon": "/images/data-cloud/privacy-and-compliance.svg",
-        "title": "Privacy and Compliance",
+        "icon": "/images/data-cloud/document-checklist-icon.svg",
+        "alt": "Document checklist icon with clipboard and checkmarks ",
         "description": "Monitor transactions, protect third-party relationships and data usage, adhering to GDPR and CCPA."
       },
       {
         "icon": "/images/data-cloud/personalized-marketing-campaigns.svg",
-        "title": "Personalized Marketing Campaigns",
+        "alt": "Personalized Marketing Campaigns",
         "description": "Leverage unified customer profiles to deliver tailored and timely 1:1 targeted campaigns, seamless and secure omnichannel interactions that drive conversion rates."
       }
     ],
@@ -188,38 +199,39 @@
     "services": [
       {
         "id": 1,
-        "image": "/images/data-cloud/managed-cloud-services.webp",
-        "title": "Managed Cloud Services",
+        "image": "/images/data-cloud/it-professional-data-center.webp",
+        "alt": "IT professional with tablet monitoring illuminated data center servers and digital analytics displays",
         "description": "With a comprehensive suite of managed services for both public, private, and hybrid cloud environments, empower enterprises to optimize their entire cloud infrastructure and applications."
       },
       {
         "id": 2,
-        "image": "/images/data-cloud/private-cloud-services.webp",
-        "title": "Private Cloud Services",
+        "image": "/images/data-cloud/cloud-network-connection.webp",
+        "alt": "Hand selecting blue cloud icon amid interconnected network nodes and security icons on dark backdrop",
         "description": "Experience the ideal blend of cloud flexibility with the utmost data compliance, and security of private infrastructure - providing you an isolation from the public cloud enterprise workloads."
       },
       {
         "id": 3,
-        "image": "/images/data-cloud/data-cloud-consulting.webp",
-        "title": "Data Cloud Consulting",
+        "image": "/images/data-cloud/business-team-collaboration.webp",
+        "alt": "Business professionals reviewing digital tablet together in modern office with ambient lighting",
         "description": "Tailored recommendations, best practices and certified expertise in maximizing the value of Salesforce Data Cloud within your organization."
       },
       {
         "id": 4,
-        "image": "/images/data-cloud/data-cloud-migration.webp",
-        "title": "Data Cloud Migration",
+        "image": "/images/data-cloud/cloud-storage-infrastructure.webp",
+        "alt": "3D abstract illustration of stacked cloud storage units with data servers in blue environment",
         "description": "Develop and implement the best practices for securely and efficiently migrate the composition of cloud workloads from any environment with expert assessments and seamless workload migration solutions."
       },
       {
         "id": 5,
-        "image": "/images/data-cloud/data-cloud-implementation.webp",
-        "title": "Data Cloud Implementation",
+        "image": "/images/data-cloud/developer-programming-code.webp",
+        "alt": "Developer working at computer with transparent code interface and digital data visualization overlays",
         "description": "Set up the necessary infrastructure, configure data sources, and ensure that your organization can fully utilize Salesforce Data Cloud."
       }
     ]
   },
   "datasphere": {
     "headerTitle": "SAP Datasphere",
+    "bannerAlt": "Abstract digital wave with flowing mesh network and glowing particles on blue tech background",
     "seoTitle": "SAP Datasphere Implementation with AI Consulting Services | Rialtes",
     "seoDescription": "Need smarter data? SAP Datasphere Implementation Consulting by Rialtes blends AI with expertise to unify systems, optimize workflows, and drive success.",
     "headerSubtitle": "Unleash the Power of AI-Driven Data Lakes with Rialtes & SAP Datasphere",
@@ -229,6 +241,21 @@
     "whyRialtesTitle": "Why Rialtes?",
     "whyRialtesSubTitle": "Your AI-Powered SAP Datasphere Partner for End-to-End Success",
     "learnMoreBtn": "Learn More",
+    "whyRialtesAlt": "Two professionals shaking hands in modern glass office with city skyline view, business agreement",
+    "buildInteAlt": "Abstract 3D glass cubes with glowing purple and blue digital particles, flowing wave data visualization",
+    "industryAlt": "High-speed neon light trails with blue and pink rays converging toward bright center point",
+    "intelligentAlt": "Modern data center facility with glowing 'data' sign reflected in calm lake water, misty mountains backdrop",
+    "aiReadyAlt": "Industrial robotic arm assembling colorful LED semiconductor microchips in high-tech factory environment",
+    "smartEdAlt": "Person wearing VR headset with digital network particles and glowing connection points overlaid on body",
+    "omniAlt": "Fashion designer working on laptop with digital clothing design, packaging boxes, and studio accessories at desk",
+    "aiPoweredAlt": "Data analyst smiling at desk with analytics dashboard displaying colorful charts, graphs, and performance metrics ",
+    "aribaAlt": "Man reviewing comprehensive business analytics platform with data visualization charts and performance reports on screen",
+    "sapAlt": "Hand holding tablet displaying financial trading charts and market data with modern skyscraper background ",
+    "successAlt": "Business team collaborating at table with digital network visualization showing interconnected nodes and glowing data points ",
+    "salesforceSapAlt": "Silhouettes of diverse business professionals with digital data overlay and glowing network points in urban cityscape",
+    "advancedAlt": " Neon glowing 3D buildings on digital hologram with pink and blue circuit network and data flow visualization",
+    "aiPoweredUseAlt": "Abstract flowing digital particles and glowing dots creating curved wave patterns with warm gold and cool blue tones ",
+    "globalAlt": "Diverse group of smiling business professionals standing together in modern office with bright window background ",
     "whyrialtessectiondata": [
       "Complete lifecycle services: Consulting, Design, Implementation, Integration, and Post-Go-Live AI Optimization.",
       "Industry-first AI/ML data models and accelerators for rapid value realization.",
@@ -813,12 +840,12 @@
     "contactTitle": "Ready to Modernize Oracle EBS for Your Business?"
   },
   "sapCpi": {
-    "bannerAlt":"Digital cloud formation over illuminated cityscape showcasing SAP Cloud Integration Services for connected enterprises",
-    "leaderAlt":"Futuristic digital tunnel with flowing light trails illustrating integration as backbone of digital transformation journey",
-    "connectAlt":"Hand holding a lightbulb with a network of connected icons, symbolizing innovation, data flow, and digital transformation",
-    "whyAlt":"Confident businesswoman smiling and shaking hands in a modern office setting, symbolizing partnership success.",
-    "seoTitle":"SAP Cloud Platform Integration (CPI) Services | Rialtes", 
-    "seoDescription":"Rialtes offers expert SAP Cloud Platform Integration (CPI) services to streamline operations, connect SAP and non-SAP apps, and accelerate transformation.",
+    "bannerAlt": "Digital cloud formation over illuminated cityscape showcasing SAP Cloud Integration Services for connected enterprises",
+    "leaderAlt": "Futuristic digital tunnel with flowing light trails illustrating integration as backbone of digital transformation journey",
+    "connectAlt": "Hand holding a lightbulb with a network of connected icons, symbolizing innovation, data flow, and digital transformation",
+    "whyAlt": "Confident businesswoman smiling and shaking hands in a modern office setting, symbolizing partnership success.",
+    "seoTitle": "SAP Cloud Platform Integration (CPI) Services | Rialtes",
+    "seoDescription": "Rialtes offers expert SAP Cloud Platform Integration (CPI) services to streamline operations, connect SAP and non-SAP apps, and accelerate transformation.",
     "learnMore": "Learn More",
     "thoughtLeadershipData": [
       "Disconnected systems and data silos limiting agility.",
@@ -868,7 +895,7 @@
     "specializedData": [
       {
         "title": "SAP Ariba Integration",
-        "imageAlt":"Warehouse workers in safety gear and hard hats reviewing digital inventory data on laptop and monitor in distribution center",
+        "imageAlt": "Warehouse workers in safety gear and hard hats reviewing digital inventory data on laptop and monitor in distribution center",
         "subtitle": "Unlock Procurement Excellence",
         "desc": "Rialtes offers end-to-end integration between SAP Ariba and SAP S/4HANA and other systems, streamlining procurement and supplier collaboration.",
         "keyData": [
@@ -887,7 +914,7 @@
       },
       {
         "title": "SAP S/4HANA Integration",
-        "imageAlt":"Business woman in professional attire talking on phone while reviewing tablet in modern office with shipping boxes",
+        "imageAlt": "Business woman in professional attire talking on phone while reviewing tablet in modern office with shipping boxes",
         "subtitle": "Connecting Your Digital Core",
         "desc": "Integrating SAP S/4HANA with other enterprise systems is critical for end-to-end business processes. Rialtes enables real-time and secure integrations with Salesforce, Ariba, Oracle, and more.",
         "keyData": [
@@ -906,7 +933,7 @@
       },
       {
         "title": "SAP SuccessFactors Integration",
-        "imageAlt":"HR professionals reviewing SAP SuccessFactors integration on tablet for seamless employee lifecycle management in office",
+        "imageAlt": "HR professionals reviewing SAP SuccessFactors integration on tablet for seamless employee lifecycle management in office",
         "subtitle": "Powering Next-Gen HR",
         "desc": "Rialtes provides robust integrations of SAP SuccessFactors with payroll, benefits, time tracking, and finance systems, enabling seamless employee lifecycle management.",
         "keyData": [
@@ -925,7 +952,7 @@
       },
       {
         "title": "Salesforce and SAP CPI Integration",
-        "imageAlt":"Couple comparing dishwasher features in a modern appliance store, discussing options with a tablet.",
+        "imageAlt": "Couple comparing dishwasher features in a modern appliance store, discussing options with a tablet.",
         "subtitle": "Delivering 360° Customer View",
         "desc": "Rialtes connects Salesforce CRM with SAP backend systems like S/4HANA and SAP ERP using CPI for seamless customer, order, and service workflows.",
         "keyData": [
@@ -952,7 +979,7 @@
       {
         "mobImg": "/images/solutions/sap-cpi/Mobile/data-analytics-professionals-office-mobile.webp",
         "deskImg": "/images/solutions/sap-cpi/data-analytics-professionals-office.webp",
-        "imageAlt":"Business professionals analyzing colorful data dashboards and charts on multiple monitors in modern office workspace",
+        "imageAlt": "Business professionals analyzing colorful data dashboards and charts on multiple monitors in modern office workspace",
         "title": "Data Visualization with Data Cloud and Tableau",
         "subtitle": "Actionable Insights from Connected Data",
         "desc": "With SAP CPI powering seamless data integration, Rialtes leverages Tableau and Data Cloud to turn complex data into actionable insights.",
@@ -965,7 +992,7 @@
       {
         "mobImg": "/images/solutions/sap-cpi/Mobile/manufacturing-workers-tablet-automation-mobile.webp",
         "deskImg": "/images/solutions/sap-cpi/manufacturing-workers-tablet-automation.webp",
-        "imageAlt":"Industrial workers in safety gear and hard hats using digital tablet to manage robotic machinery in manufacturing facility",
+        "imageAlt": "Industrial workers in safety gear and hard hats using digital tablet to manage robotic machinery in manufacturing facility",
         "title": "Production Planning & Demand Management using Mulesoft + SAP CPI",
         "desc": "Integrate SAP, Oracle, Salesforce, and legacy systems for production planning and demand forecasting with Mulesoft and SAP CPI:",
         "dataList": [
@@ -977,7 +1004,7 @@
       {
         "mobImg": "/images/solutions/sap-cpi/Mobile/digital-project-management-gantt-chart-mobile.webp",
         "deskImg": "/images/solutions/sap-cpi/digital-project-management-gantt-chart.webp",
-        "imageAlt":"Business professional interacting with digital Gantt chart project timeline on laptop screen for workflow management planning",
+        "imageAlt": "Business professional interacting with digital Gantt chart project timeline on laptop screen for workflow management planning",
         "title": "Demand Planning with Kinaxis RapidResponse & SAP CPI",
         "desc": "Kinaxis RapidResponse integration with SAP for real-time demand planning delivers:",
         "dataList": [
@@ -989,7 +1016,7 @@
       {
         "mobImg": "/images/solutions/sap-cpi/Mobile/augmented-reality-smart-manufacturing-mobile.webp",
         "deskImg": "/images/solutions/sap-cpi/augmented-reality-smart-manufacturing.webp",
-        "imageAlt":"Engineers in hard hats viewing augmented reality data overlays and digital dashboards in modern smart manufacturing facility",
+        "imageAlt": "Engineers in hard hats viewing augmented reality data overlays and digital dashboards in modern smart manufacturing facility",
         "title": "AI-Powered SAP Integrations",
         "subtitle": "The Future of Intelligent Workflows",
         "desc": "AI is transforming integration landscapes, and Rialtes makes this real:",
@@ -1002,7 +1029,7 @@
       {
         "mobImg": "/images/solutions/sap-cpi/Mobile/warehouse-inventory-management-professionals-mobile.webp",
         "deskImg": "/images/solutions/sap-cpi/warehouse-inventory-management-professionals.webp",
-        "imageAlt":"Warehouse professionals with tablets and clipboard reviewing inventory management data among shelves in distribution center",
+        "imageAlt": "Warehouse professionals with tablets and clipboard reviewing inventory management data among shelves in distribution center",
         "title": "Agile, SCRUM-Certified Delivery for Seamless Integrations",
         "desc": "Every Rialtes SAP CI engagement is driven by SCRUM-certified project managers, ensuring:",
         "dataList": [
@@ -1014,7 +1041,7 @@
       {
         "mobImg": "/images/solutions/sap-cpi/Mobile/team-collaboration-digital-network-unity-mobile.webp",
         "deskImg": "/images/solutions/sap-cpi/team-collaboration-digital-network-unity.webp",
-        "imageAlt":"Diverse team hands together in unity with digital network connections overlay symbolizing collaboration and teamwork spirit",
+        "imageAlt": "Diverse team hands together in unity with digital network connections overlay symbolizing collaboration and teamwork spirit",
         "title": "SAP and Salesforce Partnership",
         "subtitle": "The Power of Connected Ecosystems",
         "desc": "As trusted partners with SAP and Salesforce, Rialtes delivers:",
@@ -1246,16 +1273,16 @@
     "contactSubtitleOne": "Contact us today for a free automation assessment!"
   },
   "tosca": {
-    "bannerAlt":"Software engineer smiling at desk with coding screens showcasing Tricentis TOSCA automation testing services and quality work",
-    "trustAlt":"Software developers collaborating with tablet reviewing code on multiple monitors in modern tech office workspace environment",
-    "serviceAlt":"Professional analyzing financial charts and data analytics on multiple laptop screens in warm-lit modern workspace environment",
-    "qtestAlt":"Tech professionals collaborating at computer workstation in modern open office with plants and multiple monitors in background",
-    "liveAlt":"Focused data analyst working on laptop with digital code and analytics graphs, symbolizing data-driven innovation",
-    "businessAlt":"Two professionals analyzing digital dashboards with charts and graphs, discussing strategic business insights.",
-    "codeAlt":"Two professionals collaborating on coding, reviewing code on screens with design documents on the desk",
-    "desktopAlt":"Cloud cityscape with text overlay on SAP, Oracle, Salesforce integration and unified enterprise testing solutions",
-    "seoTitle":"Tosca Software Automation Testing Services | Rialtes",
-    "seoDescription":"Rialtes offers Tosca Software Automation Testing Services with AI, CI/CD, and risk-based testing for seamless transformation of SAP, Salesforce, and DevOps.",
+    "bannerAlt": "Software engineer smiling at desk with coding screens showcasing Tricentis TOSCA automation testing services and quality work",
+    "trustAlt": "Software developers collaborating with tablet reviewing code on multiple monitors in modern tech office workspace environment",
+    "serviceAlt": "Professional analyzing financial charts and data analytics on multiple laptop screens in warm-lit modern workspace environment",
+    "qtestAlt": "Tech professionals collaborating at computer workstation in modern open office with plants and multiple monitors in background",
+    "liveAlt": "Focused data analyst working on laptop with digital code and analytics graphs, symbolizing data-driven innovation",
+    "businessAlt": "Two professionals analyzing digital dashboards with charts and graphs, discussing strategic business insights.",
+    "codeAlt": "Two professionals collaborating on coding, reviewing code on screens with design documents on the desk",
+    "desktopAlt": "Cloud cityscape with text overlay on SAP, Oracle, Salesforce integration and unified enterprise testing solutions",
+    "seoTitle": "Tosca Software Automation Testing Services | Rialtes",
+    "seoDescription": "Rialtes offers Tosca Software Automation Testing Services with AI, CI/CD, and risk-based testing for seamless transformation of SAP, Salesforce, and DevOps.",
     "headerTitle": "Elevate Quality Engineering with Rialtes’ Tosca Automation Testing Services",
     "headerSubTitle": "Tricentis TOSCA",
     "learnMoreBtn": "Learn More",
@@ -1369,9 +1396,9 @@
     "ContactSubTitleOne": "Schedule a Free Tosca Consultation, Book a Demo or Contact Our Experts Please fill the below form."
   },
   "mulesoft": {
-    "bannerAlt":"Digital cityscape with glowing network lines showing MuleSoft integration connecting businesses as Salesforce partner",
-    "partnerAlt":"Salesforce Partner badge logo displayed against illuminated city skyline background showcasing technology partnership",
-    "robustAlt":"City skyline at sunset with colorful light trails showing digital transformation through robust integration solutions",
+    "bannerAlt": "Digital cityscape with glowing network lines showing MuleSoft integration connecting businesses as Salesforce partner",
+    "partnerAlt": "Salesforce Partner badge logo displayed against illuminated city skyline background showcasing technology partnership",
+    "robustAlt": "City skyline at sunset with colorful light trails showing digital transformation through robust integration solutions",
     "MmuleSoftTitle": "MuleSoft Integration Solutions",
     "seoTitle": "MuleSoft Integration Consulting Solutions and Services | Rialtes",
     "seoDescription": "Our MuleSoft integration consulting solutions make digital services flow effortlessly by unleashing the full power of connected Salesforce systems.",

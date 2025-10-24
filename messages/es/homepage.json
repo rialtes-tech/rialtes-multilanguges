@@ -14,41 +14,43 @@
         "lifeTitle": "VIDA",
         "rialtesName": "RIALTES",
         "rialtesData": "Impulsados por la innovación y motivados por el potencial humano, nuestra empresa de consultoría de TI enfrenta los problemas más difíciles del mundo digital. Juntos, simplifiquemos los problemas, habilitemos soluciones y empoderémonos unos a otros.",
+        "lifeAtAlt": "Profesionales de negocios en conferencia SAP Gold Partner, presentaciones, eventos de equipo y reuniones de la industria Salesforce",
+        "logoAlt": "Logotipo de Rialtes con ícono ovalado blanco a rayas y el lema “Simply Enable Empower” sobre un fondo limpio.",
         "carouselData": [
             {
-                "title": "Blogs",
-                "description": "Redefiniendo el Futuro de la IA Empresarial con SAP Joule",
-                "image": "/images/blog/jthumb.webp",
+                "alt": "Visualización de red azul brillante con flujos de datos y nodos digitales",
+                "description": "Redefiniendo el futuro de la IA empresarial con SAP Joule",
+                "image": "/images/homepage/data-flow-network-art.webp",
                 "link": "/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule"
             },
             {
-                "title": "Blogs",
-                "description": "Automatiza tu Organización de Salud con la Integración de athenahealth y Salesforce",
-                "image": "/images/blog/blog-88.webp",
+                "alt": "Trabajadora sanitaria con bata azul y mascarilla sosteniendo una tableta digital",
+                "description": "Automatiza tu organización sanitaria con la integración de athenahealth y Salesforce",
+                "image": "/images/homepage/medical-professional-with-tablet.webp",
                 "link": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
             },
             {
-                "title": "Blogs",
-                "description": "SAP Business Data Cloud: La Base de Datos Inteligente para el Éxito Empresarial Impulsado por IA",
-                "image": "/images/blog/SAP Business cloud_Blog thumb.webp",
+                "alt": "Patrón de ondas digitales azules que combina salpicaduras de agua con una cuadrícula tecnológica",
+                "description": "SAP Business Data Cloud: la base de datos inteligente para el éxito empresarial impulsado por la IA",
+                "image": "/images/homepage/tech-wave-fusion-background.webp",
                 "link": "/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success"
             },
             {
-                "title": "Blogs",
-                "description": "Cómo los Agentes de Agentforce Escalan los Sistemas ERP con IA",
-                "image": "/images/blog/blog-12.webp",
+                "alt": "Mano robótica azul brillante con dedos LED iluminados sobre una pantalla táctil",
+                "description": "Cómo los agentes de Agentforce escalan los sistemas ERP con IA",
+                "image": "/images/homepage/ai-robot-hand-technology.webp",
                 "link": "/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai"
             },
             {
-                "title": "Blogs",
-                "description": "Cómo SAP SuccessFactors Mejora la Gestión del Trabajo Remoto",
-                "image": "/images/blog/blog-13.webp",
+                "alt": "Vista superior de una mano usando una computadora portátil plateada sobre un fondo azul degradado",
+                "description": "Cómo SAP SuccessFactors mejora la gestión del trabajo remoto",
+                "image": "/images/homepage/modern-laptop-workstation.webp",
                 "link": "/insights/blogs/how-sap-successfactors-enhances-remote-work-management"
             },
             {
-                "title": "Blogs",
-                "description": "Cómo Funciona Realmente Salesforce Agentforce",
-                "image": "/images/blog/blog-1.webp",
+                "alt": "Lindo robot de IA blanco y azul con rasgos brillantes junto a una interfaz de chatbot en un smartphone",
+                "description": "Cómo funciona realmente Salesforce Agentforce",
+                "image": "/images/homepage/ai-chatbot-assistant-robot.webp",
                 "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
             }
         ],

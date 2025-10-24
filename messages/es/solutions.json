@@ -25,7 +25,16 @@
       "Garantizar una gobernanza y trazabilidad de datos confiables en todas las funciones empresariales",
       "Acelerar la IA, planificación y análisis con datos limpios y enriquecidos con contexto"
     ],
+    "headerAlt": "Red digital azul abstracta con nodos interconectados y puntos de conexión brillantes en fondo tecnológico",
+    "unifiedAlt": "Tres profesionales empresariales discutiendo estrategia con tableta y gráficos de datos en sala de conferencias moderna",
+    "sapDataAlt": "Gerente de almacén con chaleco de seguridad amarillo y casco sosteniendo laptop inspeccionando inventario en centro de distribución",
+    "sapBdcAlt": "Ondas de red digital abstractas y fluidas con nodos conectados y partículas brillantes sobre fondo tecnológico azul profundo",
+    "trustedAlt": "Mujer de negocios profesional con camisa naranja escribiendo en pizarra con gráficos en espacio de oficina moderno",
+    "connectAlt": "Mano sosteniendo nube blanca esponjosa contra cielo azul claro representando concepto de computación en la nube y almacenamiento digital",
+    "businessAlt": "Turbina eólica con red de partículas digitales fluyendo contra cielo crepuscular estrellado representando tecnología de energía renovable",
+    "clientsAlt": "Desarrollador de software sonriente con gafas sosteniendo tableta en escritorio con código de programación en monitores detrás",
     "sapTitle": "¿Por qué elegir SAP Business Data Cloud?",
+    "migrateAlt": "Dos desarrolladores de software analizando código de programación en pantalla grande mientras sostienen laptop en espacio tecnológico",
     "learnMore": "Aprender más",
     "dataItems": [
       {
@@ -128,6 +137,10 @@
   },
   "salesforceDataCloud": {
     "headerTitle": "Nube de Datos",
+    "seoTitle": "Implementación y Consultoría de Salesforce Data Cloud | Rialtes",
+    "seoDescription": "Rialtes impulsa tu negocio con consultoría experta en Salesforce Data Cloud para crecer, mejorar decisiones, innovar y lograr resultados sólidos.",
+    "bannerAlt": "Escalador usando arnés de seguridad con mosquetones y cuerdas contra picos nevados y cielo nublado",
+    "salesforceLogoAlt": "Insignia de Socio Salesforce con logo de nube azul y texto blanco sobre fondo azul oscuro",
     "headerSubtitle": "Aprovecha el Potencial de Salesforce Data Cloud",
     "headerDesc": "Impulsa la automatización, la IA predictiva y generativa, así como los análisis, dentro del CRM líder impulsado por IA del mundo",
     "pageDescTitle": "¿Qué es Salesforce Data Cloud?",
@@ -139,34 +152,34 @@
     "contactTitle": "Da el siguiente paso hacia la excelencia operativa con nosotros.",
     "featureBoxes": [
       {
-        "icon": "/images/data-cloud/customer-360-view.svg",
-        "title": "Vista 360 del Cliente",
-        "description": "Integra datos de clientes en todas las unidades de negocio para construir campañas en tiempo real, marketing multicanal, personalización transaccional, contenido, suscripciones y comercio electrónico."
+        "icon": "/images/data-cloud/user-growth-icon.svg",
+        "alt": "Ícono de crecimiento de usuarios con figura y flechas en expansión",
+        "description": "Integra los datos de los clientes en todas las unidades de negocio para crear marketing omnicanal en tiempo real, personalización transaccional, contenido, suscripciones y comercio electrónico."
       },
       {
-        "icon": "/images/data-cloud/zero-copy-integration.svg",
-        "title": "Integración sin Copia",
-        "description": "Conecta tus bases de datos y aplicaciones sin retrasos por copias, y comparte datos entre múltiples fuentes bajo demanda. Sin ETL, eliminando los costos de ingesta y reduciendo los costos operativos."
+        "icon": "/images/data-cloud/process-integration-icon.svg",
+        "alt": "Ícono de integración de procesos con portapapeles y flechas de flujo de trabajo",
+        "description": "Conecta tus bases de datos y aplicaciones sin retrasos por copias, y comparte datos entre múltiples fuentes bajo demanda. Sin ETL, elimina los costos de ingesta y reduce los costos operativos."
       },
       {
-        "icon": "/images/data-cloud/real-time-data-processing.svg",
-        "title": "Procesamiento de Datos en Tiempo Real",
-        "description": "Procesa en tiempo real y promueve la toma de decisiones basada en datos, optimiza la gestión de inventario, influye en los servicios, mejora la satisfacción del cliente e impulsa promociones y recomendaciones confiables en tiempo real."
+        "icon": "/images/data-cloud/cloud-storage-icon.svg",
+        "alt": "Ícono de almacenamiento en la nube con escudo de protección de datos",
+        "description": "Procesa datos en tiempo real y fomenta la toma de decisiones basada en datos, optimiza la gestión de inventario, mejora los servicios, aumenta la satisfacción del cliente y agrega promociones y recomendaciones confiables en tiempo real."
       },
       {
-        "icon": "/images/data-cloud/omnichannel-engagement.svg",
-        "title": "Interacción Omnicanal",
-        "description": "Construye lealtad y confianza en la marca asegurando experiencias consistentes mediante la gestión de datos y canales de servicio."
+        "icon": "/images/data-cloud/network-connection-icon.svg",
+        "alt": "Ícono de conexión de red con nodo central y puntos enlazados",
+        "description": "Crea lealtad y confianza en la marca asegurando experiencias coherentes mediante la gestión de datos y canales de servicio."
       },
       {
-        "icon": "/images/data-cloud/privacy-and-compliance.svg",
-        "title": "Privacidad y Cumplimiento",
-        "description": "Monitorea transacciones, protege relaciones y uso de datos con terceros, cumpliendo con el GDPR y la CCPA."
+        "icon": "/images/data-cloud/document-checklist-icon.svg",
+        "alt": "Ícono de lista de verificación de documentos con portapapeles y marcas de verificación",
+        "description": "Supervisa las transacciones, protege las relaciones con terceros y el uso de datos, cumpliendo con GDPR y CCPA."
       },
       {
         "icon": "/images/data-cloud/personalized-marketing-campaigns.svg",
-        "title": "Campañas de Marketing Personalizadas",
-        "description": "Aprovecha perfiles unificados de clientes para ofrecer campañas dirigidas 1:1 personalizadas y oportunas, con interacciones omnicanal fluidas y seguras que impulsan las tasas de conversión."
+        "alt": "Campañas de marketing personalizadas",
+        "description": "Aprovecha los perfiles de clientes unificados para ofrecer campañas dirigidas 1:1 personalizadas y oportunas, con interacciones omnicanal fluidas y seguras que aumentan las tasas de conversión."
       }
     ],
     "stats": [
@@ -186,38 +199,39 @@
     "services": [
       {
         "id": 1,
-        "image": "/images/data-cloud/managed-cloud-services.webp",
-        "title": "Servicios de Nube Gestionada",
-        "description": "Con una suite integral de servicios gestionados para entornos de nube pública, privada e híbrida, empodera a las empresas para optimizar toda su infraestructura y aplicaciones en la nube."
+        "image": "/images/data-cloud/it-professional-data-center.webp",
+        "alt": "Profesional de TI con tableta supervisando servidores del centro de datos iluminados y pantallas de análisis digital",
+        "description": "Con una completa gama de servicios gestionados para entornos de nube pública, privada e híbrida, permite a las empresas optimizar toda su infraestructura y aplicaciones en la nube."
       },
       {
         "id": 2,
-        "image": "/images/data-cloud/private-cloud-services.webp",
-        "title": "Servicios de Nube Privada",
-        "description": "Experimenta la combinación ideal de flexibilidad de la nube con el máximo cumplimiento de datos y seguridad de la infraestructura privada, proporcionando aislamiento de las cargas de trabajo empresariales en la nube pública."
+        "image": "/images/data-cloud/cloud-network-connection.webp",
+        "alt": "Mano seleccionando un ícono de nube azul entre nodos de red interconectados e íconos de seguridad sobre un fondo oscuro",
+        "description": "Experimenta la combinación ideal de flexibilidad en la nube con el máximo cumplimiento de datos y la seguridad de una infraestructura privada, brindándote aislamiento de las cargas de trabajo en la nube pública."
       },
       {
         "id": 3,
-        "image": "/images/data-cloud/data-cloud-consulting.webp",
-        "title": "Consultoría en Nube de Datos",
+        "image": "/images/data-cloud/business-team-collaboration.webp",
+        "alt": "Profesionales de negocios revisando juntos una tableta digital en una oficina moderna con iluminación ambiental",
         "description": "Recomendaciones personalizadas, mejores prácticas y experiencia certificada para maximizar el valor de Salesforce Data Cloud dentro de tu organización."
       },
       {
         "id": 4,
-        "image": "/images/data-cloud/data-cloud-migration.webp",
-        "title": "Migración a la Nube de Datos",
-        "description": "Desarrolla e implementa mejores prácticas para migrar de manera segura y eficiente la composición de cargas de trabajo en la nube desde cualquier entorno con evaluaciones expertas y soluciones de migración sin problemas."
+        "image": "/images/data-cloud/cloud-storage-infrastructure.webp",
+        "alt": "Ilustración abstracta 3D de unidades de almacenamiento en la nube apiladas con servidores de datos en un entorno azul",
+        "description": "Desarrolla e implementa las mejores prácticas para migrar de manera segura y eficiente las cargas de trabajo en la nube desde cualquier entorno, con evaluaciones expertas y soluciones de migración sin interrupciones."
       },
       {
         "id": 5,
-        "image": "/images/data-cloud/data-cloud-implementation.webp",
-        "title": "Implementación de Nube de Datos",
-        "description": "Configura la infraestructura necesaria, configura las fuentes de datos y garantiza que tu organización pueda aprovechar al máximo Salesforce Data Cloud."
+        "image": "/images/data-cloud/developer-programming-code.webp",
+        "alt": "Desarrollador trabajando en un ordenador con interfaz de código transparente y superposiciones de visualización de datos digitales",
+        "description": "Configura la infraestructura necesaria, ajusta las fuentes de datos y asegúrate de que tu organización pueda aprovechar plenamente Salesforce Data Cloud."
       }
     ]
   },
   "datasphere": {
     "headerTitle": "SAP Datasphere",
+    "bannerAlt": "Onda digital abstracta con red de malla fluida y partículas brillantes sobre fondo tecnológico azul",
     "seoTitle": "Implementación de SAP Datasphere con Servicios de Consultoría en IA | Rialtes",
     "seoDescription": "¿Necesitas datos inteligentes? Rialtes combina IA y experiencia en SAP Datasphere para unificar sistemas, optimizar flujos y asegurar el éxito.",
     "headerSubtitle": "Libera el poder de los lagos de datos impulsados por IA con Rialtes y SAP Datasphere",
@@ -227,6 +241,21 @@
     "whyRialtesTitle": "¿Por qué Rialtes?",
     "learnMoreBtn": "Más información",
     "whyRialtesSubTitle": "Tu socio en SAP Datasphere impulsado por IA para el éxito de extremo a extremo",
+    "whyRialtesAlt": " Dos profesionales estrechando manos en oficina moderna de cristal con vista al horizonte de la ciudad",
+    "buildInteAlt": "Cubos de cristal 3D abstractos con partículas digitales brillantes púrpuras y azules, visualización de datos en onda",
+    "industryAlt": "Senderos de luz de neón de alta velocidad con rayos azules y rosas convergiendo hacia punto central brillante",
+    "intelligentAlt": "Instalación moderna de centro de datos con letrero 'data' iluminado reflejado en agua tranquila del lago, montañas brumosas",
+    "aiReadyAlt": " Brazo robótico industrial ensamblando microchips LED coloridos de semiconductores en ambiente de fábrica de alta tecnología",
+    "smartEdAlt": "Persona usando auriculares de realidad virtual con partículas de red digital y puntos de conexión brillantes superpuestos en el cuerpo",
+    "omniAlt": "Diseñador de moda trabajando en laptop con diseño de ropa digital, cajas de embalaje y accesorios de estudio en escritorio",
+    "aiPoweredAlt": " Analista de datos sonriendo en escritorio con panel de análisis mostrando gráficos coloridos, tablas y métricas de rendimiento",
+    "aribaAlt": " Hombre revisando plataforma integral de análisis empresarial con gráficos de visualización de datos e informes de rendimiento",
+    "sapAlt": " Mano sosteniendo tableta mostrando gráficos de comercio financiero y datos de mercado con fondo de rascacielos moderno",
+    "successAlt": "Equipo empresarial colaborando en mesa con visualización de red digital mostrando nodos interconectados y puntos de datos brillantes",
+    "salesforceSapAlt": "Siluetas de profesionales empresariales diversos con superposición de datos digitales y puntos de red brillantes en paisaje urbano",
+    "advancedAlt": "Edificios 3D con brillo de neón en holograma digital con red de circuito rosa y azul y visualización de flujo de datos",
+    "aiPoweredUseAlt": "Partículas digitales abstractas y puntos brillantes creando patrones de ondas curvas con tonos dorados cálidos y azules fríos",
+    "globalAlt": "Grupo diverso de profesionales empresariales sonrientes de pie juntos en oficina moderna con fondo de ventana brillante",
     "whyrialtessectiondata": [
       "Servicios para todo el ciclo de vida: Consultoría, Diseño, Implementación, Integración y Optimización con IA posterior al lanzamiento.",
       "Modelos de datos y aceleradores de IA/ML pioneros en la industria para una rápida obtención de valor.",

@@ -60,8 +60,8 @@ export default function DemandPlusSection() {
             <section className="relative group overflow-hidden h-[400px] md:h-[500px]  4xl:h-[650px] ">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/solutions/enterprise-platform/kinaxis/banner.webp"
-                        alt="kinaxis banner"
+                        src="/images/solutions/enterprise-platform/kinaxis/aerial-cargo-ships-port-logistics.webp"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover" }}
                         priority
@@ -71,8 +71,8 @@ export default function DemandPlusSection() {
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/solutions/enterprise-platform/kinaxis/banner-mobile.webp"
-                        alt="kinaxis banner"
+                        src="/images/solutions/enterprise-platform/kinaxis/aerial-cargo-ships-port-logistics-mobile.webp"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                         className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
@@ -114,8 +114,8 @@ export default function DemandPlusSection() {
                 {/* Desktop Image */}
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/solutions/enterprise-platform/kinaxis/demandplus-desktop.webp"
-                        alt="demandplus-desktop"
+                        src="/images/solutions/enterprise-platform/kinaxis/logistics-workers-container-yard-inspection.webp"
+                        alt={t('demandAlt')}
                         className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
                         fill
                         priority
@@ -125,8 +125,8 @@ export default function DemandPlusSection() {
                 {/* Mobile Image */}
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/solutions/enterprise-platform/kinaxis/realtes-demadplus-mobile.webp"
-                        alt="realtes-demadplus-mobile"
+                        src="/images/solutions/enterprise-platform/kinaxis/logistics-workers-container-yard-inspection-mobile.webp"
+                        alt={t('demandAlt')}
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -168,8 +168,8 @@ export default function DemandPlusSection() {
                 <div className="w-full xl:h-[1046px] ">
                     <div className="xl:block hidden">
                         <Image
-                            src="/images/solutions/enterprise-platform/kinaxis/why-ki-desktop.webp"
-                            alt="Kinaxis RapidResponse image"
+                            src="/images/solutions/enterprise-platform/kinaxis/warehouse-managers-reviewing-tablet-inventory.webp"
+                            alt={t('whyAlt')}
                             fill
                             className="object-cover transform transition-transform duration-500 group-hover:scale-110"
                             priority
@@ -178,8 +178,8 @@ export default function DemandPlusSection() {
                     </div>
                     <div className="xl:hidden block">
                         <Image
-                            src="/images/solutions/enterprise-platform/kinaxis/why-ki-mobile.webp"
-                            alt="Kinaxis RapidResponse image"
+                            src="/images/solutions/enterprise-platform/kinaxis/warehouse-managers-reviewing-tablet-inventory-mobile.webp"
+                            alt={t('whyAlt')}
                             priority
                             width={0}
                             height={0}
@@ -223,10 +223,10 @@ export default function DemandPlusSection() {
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="col-span-5  xl:mx-0">
                         <Image
-                            src="/images/solutions/enterprise-platform/kinaxis/supply-desktop.webp"
-                            alt="supply image"
+                            src="/images/solutions/enterprise-platform/kinaxis/warehouse-worker-analyzing-logistics-data.webp"
+                            alt={t('supplyAlt')}
                             priority
-                            className="w-full 4xl:mt-16 xl:mt-8 mt-10 relative xl:h-full  4xl:h-auto max-md:px-[35px]"
+                            className="w-full 4xl:mt-16 xl:mt-8 mt-10 relative xl:h-full 4xl:h-auto max-md:px-[35px]"
                             width={0}
                             height={0}
                             sizes="100vw"
@@ -245,8 +245,8 @@ export default function DemandPlusSection() {
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20">
                     <div className="xl:col-span-6 order-1 xl:order-2">
                         <Image
-                            src="/images/solutions/enterprise-platform/kinaxis/sales-operation-desktop.webp"
-                            alt="Sales and Operations"
+                            src="/images/solutions/enterprise-platform/kinaxis/business-team-collaborating-modern-office.webp"
+                            alt={t('salesAlt')}
                             priority
                             className={`
                               ${locale === "es"
@@ -301,8 +301,8 @@ export default function DemandPlusSection() {
                 <div className="w-full xl:h-[1083px]">
                     <div className="xl:block hidden">
                         <Image
-                            src="/images/solutions/enterprise-platform/kinaxis/inventery-desktop.webp"
-                            alt="inventery image"
+                            src="/images/solutions/enterprise-platform/kinaxis/aerial-warehouse-worker-inventory-management.webp"
+                            alt={t('inventoryAlt')}
                             fill
                             className="object-cover"
                             priority
@@ -311,8 +311,8 @@ export default function DemandPlusSection() {
                     </div>
                     <div className="xl:hidden block">
                         <Image
-                            src="/images/solutions/enterprise-platform/kinaxis/inventery-mobile.webp"
-                            alt="inventery image"
+                            src="/images/solutions/enterprise-platform/kinaxis/aerial-warehouse-worker-inventory-management-mobile.webp"
+                            alt={t('inventoryAlt')}
                             priority
                             width={0}
                             height={0}
@@ -364,8 +364,8 @@ export default function DemandPlusSection() {
             >
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/solutions/enterprise-platform/kinaxis/scenario-desktop.webp"
-                        alt="scenario image"
+                        src="/images/solutions/enterprise-platform/kinaxis/diverse-team-collaborating-office-project.webp"
+                        alt={t('scenarioAlt')}
                         className={`w-full
 
                           ${locale === "es"
@@ -382,8 +382,8 @@ export default function DemandPlusSection() {
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/solutions/enterprise-platform/kinaxis/scenario-mobile.webp"
-                        alt="scenario image"
+                        src="/images/solutions/enterprise-platform/kinaxis/diverse-team-collaborating-office-project-mobile.webp"
+                        alt={t('scenarioAlt')}
                         className="object-cover w-full"
                         priority
                         width={0}
@@ -399,11 +399,11 @@ export default function DemandPlusSection() {
                         <UnorderedList arrName={scenarioData} ulClassName="list-disc xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5  mt-8 leading-tight" liClassName="4xl:text-[20px] xl:text-[16px] text-[16px]" />
                         <div className={` absolute
                          ${locale === "es"
-                    ? "mt-6 4xl:mt-[65px] 2xl:mt-[128px] xl:mt-[42px]  md:mt-[50px]"
-                    : locale === "fr"
-                        ? "mt-6 4xl:mt-[40px] 2xl:mt-[178px] xl:mt-[65px]  md:mt-[40px]"
-                        : "mt-6 4xl:mt-[88px] 2xl:mt-[104px] xl:mt-[40px]  md:mt-[50px]"
-                }` }>
+                                ? "mt-6 4xl:mt-[65px] 2xl:mt-[128px] xl:mt-[42px]  md:mt-[50px]"
+                                : locale === "fr"
+                                    ? "mt-6 4xl:mt-[40px] 2xl:mt-[178px] xl:mt-[65px]  md:mt-[40px]"
+                                    : "mt-6 4xl:mt-[88px] 2xl:mt-[104px] xl:mt-[40px]  md:mt-[50px]"
+                            }`}>
                             <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
@@ -420,8 +420,8 @@ export default function DemandPlusSection() {
                 <div className="grid xl:grid-cols-12 grid-cols-1 mx-[35px] xl:mx-0">
                     <div className="col-span-6">
                         <Image
-                            src="/images/solutions/enterprise-platform/kinaxis/seamless-desktop.webp"
-                            alt="seamless image"
+                            src="/images/solutions/enterprise-platform/kinaxis/colleagues-celebrating-high-five-office.webp"
+                            alt={t('seamlessAlt')}
                             className="object-cover w-full h-full"
                             priority
                             width={0}
@@ -448,8 +448,8 @@ export default function DemandPlusSection() {
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:order-2 order-1 col-span-6">
                         <Image
-                            src="/images/solutions/enterprise-platform/kinaxis/btp-desktop.webp"
-                            alt="Rialtes’ Strong SAP BTP"
+                            src="/images/solutions/enterprise-platform/kinaxis/modern-data-center-server-infrastructure.webp"
+                            alt={t('btpAlt')}
                             className="object-cover w-full h-full"
                             priority
                             width={0}
@@ -476,8 +476,8 @@ export default function DemandPlusSection() {
             <section className="relative">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/solutions/enterprise-platform/kinaxis/bringing-desktop.webp"
-                        alt="Rialtes’ Strong SAP BTP"
+                        src="/images/solutions/enterprise-platform/kinaxis/digital-cloud-network-wireframe-structure.webp"
+                        alt={t('bringingAlt')}
                         className="object-cover w-full xl:h-[885px]"
                         priority
                         width={0}
@@ -486,8 +486,8 @@ export default function DemandPlusSection() {
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/solutions/enterprise-platform/kinaxis/bringing-mobile.webp"
-                        alt="Rialtes’ Strong SAP BTP"
+                        src="/images/solutions/enterprise-platform/kinaxis/digital-cloud-network-wireframe-structure-mobile.webp"
+                        alt={t('bringingAlt')}
                         className="w-full h-[1233px]"
                         priority
                         width={0}
@@ -526,8 +526,8 @@ export default function DemandPlusSection() {
                 {/* Desktop Image */}
                 <div className="hidden xl:block">
                     <Image
-                        src="/images/solutions/enterprise-platform/kinaxis/sap-ariba-desktop.webp"
-                        alt="sap-ariba"
+                        src="/images/solutions/enterprise-platform/kinaxis/warehouse-conveyor-belt-sorting-packages.webp"
+                        alt={t('sapAlt')}
                         className="object-cover"
                         fill
                         priority
@@ -537,8 +537,8 @@ export default function DemandPlusSection() {
                 {/* Mobile Image */}
                 <div className="block xl:hidden">
                     <Image
-                        src="/images/solutions/enterprise-platform/kinaxis/sap-ariba-mobile.webp"
-                        alt="sap-ariba"
+                        src="/images/solutions/enterprise-platform/kinaxis/warehouse-conveyor-belt-sorting-packages-mobile.webp"
+                        alt={t('sapAlt')}
                         className="w-full h-auto"
                         width={0}
                         height={0}
@@ -583,8 +583,8 @@ export default function DemandPlusSection() {
                 >
                     <div className="xl:block hidden">
                         <Image
-                            src="/images/solutions/enterprise-platform/kinaxis/enhance-desktop.webp"
-                            alt="enhance image"
+                            src="/images/solutions/enterprise-platform/kinaxis/professional-woman-office-meeting-collaboration.webp"
+                            alt={t('enhanceAlt')}
                             className="w-[1360px] xl:h-[612px] custom-container"
                             priority
                             width={0}
@@ -594,8 +594,8 @@ export default function DemandPlusSection() {
                     </div>
                     <div className="xl:hidden block">
                         <Image
-                            src="/images/solutions/enterprise-platform/kinaxis/enhance-mobile.webp"
-                            alt="enhance image"
+                            src="/images/solutions/enterprise-platform/kinaxis/professional-woman-office-meeting-collaboration-mobile.webp"
+                            alt={t('enhanceAlt')}
                             className="w-full"
                             priority
                             width={0}
@@ -628,8 +628,8 @@ export default function DemandPlusSection() {
             <section className="relative  custom-container xl:!pr-0 max-md:px-0">
                 {/* Desktop Image */}
                 <div className="hidden xl:block">
-                    <Image src="/images/solutions/enterprise-platform/kinaxis/leading-desktop.webp"
-                        alt="Leading the Future"
+                    <Image src="/images/solutions/enterprise-platform/kinaxis/warehouse-worker-digital-inventory-management-system.webp"
+                        alt={t('leadingAlt')}
                         className="w-full h-full xl:h-[618px] 2xl:h-[556px] 4xl:h-[840px] object-cover"
                         priority
                         width={0}
@@ -637,9 +637,8 @@ export default function DemandPlusSection() {
                         sizes="100vw" /> </div>
                 {/* Mobile Image */}
                 <div className="block xl:hidden">
-                    <Image src="/images/solutions/enterprise-platform/kinaxis/leading-mobile.webp"
-                        alt="Leading the Future"
-
+                    <Image src="/images/solutions/enterprise-platform/kinaxis/warehouse-worker-digital-inventory-management-system-mobile.webp"
+                        alt={t('leadingAlt')}
                         className="w-full object-cover h-[800px] sm:h-[875px] md:h-[725px] lg:h-[700px] xl:h-[770px]" priority
                         width={0}
                         height={0}
@@ -650,7 +649,6 @@ export default function DemandPlusSection() {
                         <h2 className="leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] xl:pr-0 md:pr-6"> {t('leadingTitle')} </h2>
                         <p className="mt-6 font-light text-[16px] 4xl:text-[20px] md:pr-8"> {t('leadingDesc')} </p> <UnorderedList arrName={leadingData} ulClassName="list-disc leading-tight space-y-3 xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 mt-5" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px]" />
                     </div>
-
                     <div className="col-span-6" />
                 </div>
                 <div className="absolute -bottom-[30px] z-10 px-12">

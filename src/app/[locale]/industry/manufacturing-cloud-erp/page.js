@@ -255,7 +255,7 @@ export default function Page() {
             fill
             priority
             sizes="100vw"
-            className="sm:object-cover sm:object-[position:75%_43%]"
+            className="sm:object-cover sm:object-[75%_43%]"
           />
         </div>
         <div

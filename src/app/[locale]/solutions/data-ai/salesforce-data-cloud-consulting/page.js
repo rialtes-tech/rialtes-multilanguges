@@ -113,8 +113,8 @@ export default function DataCloud() {
   return (
     <div className="min-h-screen">
       <Seo
-       title={t('seoTitle')}
-       description={t('seoDescription')}
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="home, website, welcome"
         canonical={"https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/"}
       />
@@ -128,8 +128,8 @@ export default function DataCloud() {
       <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
         <div className="hidden md:block">
           <Image
-            src="/images/data-cloud/salesforce-data-cloud-header.webp"
-            alt="desktop banner"
+            src="/images/data-cloud/rock-climber-safety-equipment.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "55% 20%" }}
             priority
@@ -139,8 +139,8 @@ export default function DataCloud() {
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
-            src="/images/data-cloud/salesforce-data-cloud-header.webp"
-            alt="mobile banner"
+            src="/images/data-cloud/rock-climber-safety-equipment.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -162,8 +162,8 @@ export default function DataCloud() {
               </h3>
               <div className=" w-full xl:mt-10 mt-5">
                 <Image
-                  src="/images/data-cloud/salesforce-partner.webp"
-                  alt="salesforce-partner image"
+                  src="/images/data-cloud/salesforce-partner-badge.webp"
+                  alt={t('salesforceLogoAlt')}
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -210,7 +210,7 @@ export default function DataCloud() {
                     <div className="w-full h-full flex items-center justify-center">
                       <Image
                         src={feature.icon}
-                        alt={`${feature.title} image`}
+                        alt={feature.alt}
                         width={100}
                         height={100}
                         priority
@@ -271,7 +271,7 @@ export default function DataCloud() {
                     }}>
                     <Image
                       src={service.image}
-                      alt={`${service.title} image`}
+                      alt={service.alt}
                       width={0}
                       height={0}
                       style={{

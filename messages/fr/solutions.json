@@ -25,6 +25,15 @@
       "Assurer une gouvernance et une traçabilité fiables des données dans toutes les fonctions métier",
       "Accélérer l’IA, la planification et l’analytique avec des données propres et riches en contexte"
     ],
+    "migrateAlt": "Deux développeurs de logiciels analysant du code de programmation sur grand écran tout en tenant un ordinateur portable dans un espace technologique",
+    "headerAlt": "Réseau numérique bleu abstrait avec nœuds interconnectés et points de connexion lumineux dans un fond technologique",
+    "unifiedAlt": "Trois professionnels commerciaux discutant d'une stratégie avec tablette et graphiques de données dans une salle de conférence moderne",
+    "sapDataAlt": "Responsable d'entrepôt en gilet de sécurité jaune et casque tenant un ordinateur portable inspectant l'inventaire dans un centre de distribution",
+    "sapBdcAlt": "Ondes de réseau numérique abstraites et fluides avec nœuds connectés et particules lumineuses sur fond technologique bleu profond",
+    "trustedAlt": "Femme d'affaires professionnelle en chemise orange écrivant sur tableau blanc avec graphiques dans un espace de bureau moderne",
+    "connectAlt": "Main tenant un nuage blanc duveteux contre un ciel bleu clair représentant le concept de cloud computing et de stockage numérique",
+    "businessAlt": "Éolienne avec réseau de particules numériques fluide contre ciel crépusculaire étoilé représentant la technologie d'énergie renouvelableRetry",
+    "clientsAlt": "Développeur de logiciels souriant portant des lunettes tenant une tablette au bureau avec du code de programmation sur les moniteurs derrière",
     "sapTitle": "Pourquoi choisir SAP Business Data Cloud ?",
     "learnMore": "En savoir plus",
     "dataItems": [
@@ -127,7 +136,11 @@
     "SubTitle": "Parlez dès aujourd’hui à nos experts SAP Data Cloud et commencez votre parcours avec Rialtes."
   },
   "salesforceDataCloud": {
+    "seoTitle": "Services de Conseil et de Mise en Œuvre de Salesforce Data Cloud | Rialtes",
+    "seoDescription": "Conseil et mise en œuvre Salesforce Data Cloud par Rialtes pour stimuler la croissance, accélérer l’innovation et améliorer la prise de décision.",
     "headerTitle": "Data Cloud",
+    "bannerAlt": "Grimpeur portant un harnais de sécurité avec mousquetons et cordes contre des pics enneigés et ciel nuageux",
+    "salesforceLogoAlt": "Badge Partenaire Salesforce avec logo nuage bleu et texte blanc sur fond bleu foncé",
     "headerSubtitle": "Exploitez le potentiel de Salesforce Data Cloud",
     "headerDesc": "Stimulez l’automatisation, l’IA prédictive et générative, ainsi que l’analytique, au sein du CRM leader mondial alimenté par l’IA.",
     "pageDescTitle": "Qu’est-ce que Salesforce Data Cloud ?",
@@ -139,34 +152,34 @@
     "contactTitle": "Passez à l’étape suivante vers l’excellence opérationnelle avec nous.",
     "featureBoxes": [
       {
-        "icon": "/images/data-cloud/customer-360-view.svg",
-        "title": "Vue Client 360",
-        "description": "Intégrez les données clients à travers les unités commerciales afin de bâtir des expériences en temps réel : marketing omnicanal, personnalisation transactionnelle, contenu, abonnements et e-commerce."
+        "icon": "/images/data-cloud/user-growth-icon.svg",
+        "alt": "Icône de croissance des utilisateurs avec silhouette et flèches en expansion",
+        "description": "Intégrez les données clients entre les unités commerciales pour créer des expériences de marketing omnicanal en temps réel, une personnalisation transactionnelle, du contenu, des abonnements et du commerce électronique."
       },
       {
-        "icon": "/images/data-cloud/zero-copy-integration.svg",
-        "title": "Intégration Zero Copy",
-        "description": "Connectez vos bases de données et applications sans délais de copie, et partagez les données entre plusieurs sources à la demande. Pas d’ETL, éliminez les coûts d’ingestion et réduisez les coûts opérationnels."
+        "icon": "/images/data-cloud/process-integration-icon.svg",
+        "alt": "Icône d’intégration de processus avec presse-papiers et flèches de flux de travail",
+        "description": "Connectez vos bases de données et applications sans délai de copie et partagez les données entre plusieurs sources à la demande. Pas d’ETL, éliminez les coûts d’ingestion et réduisez les coûts opérationnels."
       },
       {
-        "icon": "/images/data-cloud/real-time-data-processing.svg",
-        "title": "Traitement des données en temps réel",
-        "description": "Traitez les données en temps réel et favorisez une prise de décision basée sur les données, optimisez la gestion des stocks, influencez les services, améliorez la satisfaction client, ajoutez des promotions et recommandations fiables en temps réel."
+        "icon": "/images/data-cloud/cloud-storage-icon.svg",
+        "alt": "Icône de stockage cloud avec bouclier de protection des données",
+        "description": "Traite les données en temps réel et favorise la prise de décisions basée sur les données, optimise la gestion des stocks, améliore les services, augmente la satisfaction client et ajoute des promotions et recommandations fiables en temps réel."
       },
       {
-        "icon": "/images/data-cloud/omnichannel-engagement.svg",
-        "title": "Engagement omnicanal",
-        "description": "Renforcez la fidélité et la confiance envers votre marque en garantissant des expériences cohérentes grâce à la gestion des données et des canaux de service."
+        "icon": "/images/data-cloud/network-connection-icon.svg",
+        "alt": "Icône de connexion réseau avec nœud central et points reliés",
+        "description": "Renforcez la fidélité et la confiance envers la marque en garantissant des expériences cohérentes grâce à la gestion des données et des canaux de service."
       },
       {
-        "icon": "/images/data-cloud/privacy-and-compliance.svg",
-        "title": "Confidentialité et conformité",
-        "description": "Surveillez les transactions, protégez les relations avec les tiers et l’utilisation des données, tout en respectant le RGPD et le CCPA."
+        "icon": "/images/data-cloud/document-checklist-icon.svg",
+        "alt": "Icône de liste de contrôle de documents avec presse-papiers et coches",
+        "description": "Surveillez les transactions, protégez les relations avec les tiers et l’utilisation des données, conformément au RGPD et au CCPA."
       },
       {
         "icon": "/images/data-cloud/personalized-marketing-campaigns.svg",
-        "title": "Campagnes marketing personnalisées",
-        "description": "Exploitez des profils clients unifiés pour proposer des campagnes ciblées 1:1, personnalisées et opportunes, avec des interactions omnicanal fluides et sécurisées favorisant les taux de conversion."
+        "alt": "Campagnes marketing personnalisées",
+        "description": "Exploitez des profils clients unifiés pour offrir des campagnes ciblées 1:1 personnalisées et opportunes, avec des interactions omnicanales fluides et sécurisées qui augmentent les taux de conversion."
       }
     ],
     "stats": [
@@ -186,38 +199,39 @@
     "services": [
       {
         "id": 1,
-        "image": "/images/data-cloud/managed-cloud-services.webp",
-        "title": "Services Cloud Managés",
-        "description": "Grâce à une suite complète de services managés pour les environnements cloud publics, privés et hybrides, offrez aux entreprises la possibilité d’optimiser l’ensemble de leur infrastructure et de leurs applications cloud."
+        "image": "/images/data-cloud/it-professional-data-center.webp",
+        "alt": "Professionnel informatique avec tablette surveillant les serveurs du centre de données illuminés et les écrans d’analytique numérique",
+        "description": "Avec une gamme complète de services gérés pour les environnements cloud publics, privés et hybrides, permettez aux entreprises d’optimiser toute leur infrastructure et leurs applications cloud."
       },
       {
         "id": 2,
-        "image": "/images/data-cloud/private-cloud-services.webp",
-        "title": "Services Cloud Privé",
-        "description": "Bénéficiez d’un équilibre idéal entre la flexibilité du cloud et la conformité maximale des données, avec la sécurité d’une infrastructure privée – vous offrant une isolation des charges de travail du cloud public."
+        "image": "/images/data-cloud/cloud-network-connection.webp",
+        "alt": "Main sélectionnant une icône de nuage bleue parmi des nœuds de réseau interconnectés et des icônes de sécurité sur un fond sombre",
+        "description": "Découvrez le parfait équilibre entre la flexibilité du cloud, la conformité maximale des données et la sécurité d’une infrastructure privée, vous offrant une isolation des charges de travail du cloud public."
       },
       {
         "id": 3,
-        "image": "/images/data-cloud/data-cloud-consulting.webp",
-        "title": "Conseil Data Cloud",
+        "image": "/images/data-cloud/business-team-collaboration.webp",
+        "alt": "Professionnels d’affaires consultant ensemble une tablette numérique dans un bureau moderne à l’éclairage ambiant",
         "description": "Recommandations personnalisées, meilleures pratiques et expertise certifiée pour maximiser la valeur de Salesforce Data Cloud au sein de votre organisation."
       },
       {
         "id": 4,
-        "image": "/images/data-cloud/data-cloud-migration.webp",
-        "title": "Migration Data Cloud",
-        "description": "Développez et mettez en œuvre les meilleures pratiques pour migrer de manière sécurisée et efficace les charges de travail cloud depuis n’importe quel environnement, avec des évaluations expertes et des solutions de migration fluides."
+        "image": "/images/data-cloud/cloud-storage-infrastructure.webp",
+        "alt": "Illustration abstraite 3D d’unités de stockage cloud empilées avec des serveurs de données dans un environnement bleu",
+        "description": "Développez et mettez en œuvre les meilleures pratiques pour migrer en toute sécurité et efficacité les charges de travail cloud depuis tout environnement, grâce à des évaluations d’experts et des solutions de migration transparentes."
       },
       {
         "id": 5,
-        "image": "/images/data-cloud/data-cloud-implementation.webp",
-        "title": "Implémentation Data Cloud",
-        "description": "Mettez en place l’infrastructure nécessaire, configurez les sources de données et assurez-vous que votre organisation exploite pleinement Salesforce Data Cloud."
+        "image": "/images/data-cloud/developer-programming-code.webp",
+        "alt": "Développeur travaillant sur un ordinateur avec une interface de code transparente et des superpositions de visualisation de données numériques",
+        "description": "Mettez en place l’infrastructure nécessaire, configurez les sources de données et assurez-vous que votre organisation puisse pleinement tirer parti de Salesforce Data Cloud."
       }
     ]
   },
   "datasphere": {
     "headerTitle": "SAP Datasphere",
+    "bannerAlt": "Onde numérique abstraite avec réseau maillé fluide et particules brillantes sur fond technologique bleu",
     "seoTitle": "Mise en Œuvre de SAP Datasphere avec Services de Conseil en IA | Rialtes",
     "seoDescription": "Besoin de données plus intelligentes ? Avec SAP Datasphere, Rialtes associe IA et expertise pour unifier vos systèmes et optimiser vos processus.",
     "headerSubtitle": "Libérez la puissance des lacs de données pilotés par l’IA avec Rialtes & SAP Datasphere",
@@ -226,7 +240,22 @@
     "pageDesc2": "Grâce à une expertise approfondie de SAP Datasphere et d’architectures de données pilotées par l’IA, nous transformons la dispersion de vos données en un actif unifié et puissant — créant une entreprise intelligente et prête pour l’avenir.",
     "whyRialtesTitle": "Pourquoi Rialtes ?",
     "learnMoreBtn": "En savoir plus",
+    "whyRialtesAlt": "Deux professionnels se serrant la main dans un bureau moderne en verre avec vue sur l'horizon urbain",
     "whyRialtesSubTitle": "Votre partenaire SAP Datasphere, propulsé par l’IA, pour un succès de bout en bout",
+    "buildInteAlt": " Cubes en verre 3D abstraits avec particules numériques brillantes violettes et bleues, visualisation de données en onde",
+    "industryAlt": "Traînées de lumière néon haute vitesse avec rayons bleus et roses convergeant vers un point central brillant",
+    "intelligentAlt": "Installation moderne de centre de données avec enseigne 'data' illuminée reflétée dans l'eau calme du lac, montagnes brumeuses",
+    "aiReadyAlt": "Bras robotique industriel assemblant des puces microélectroniques LED colorées de semiconducteurs dans un environnement d'usine haute technologie",
+    "smartEdAlt": " Personne portant un casque de réalité virtuelle avec des particules de réseau numérique et des points de connexion brillants superposés sur le corps",
+    "omniAlt": "Créateur de mode travaillant sur ordinateur portable avec design de vêtements numérique, boîtes d'emballage et accessoires de studio sur le bureau",
+    "aiPoweredAlt": "Analyste de données souriante à son bureau avec tableau de bord d'analyse affichant des graphiques colorés et des métriques de performance",
+    "aribaAlt": "Homme examinant une plateforme complète d'analyse commerciale avec des graphiques de visualisation de données et des rapports de performance",
+    "sapAlt": "Main tenant une tablette affichant des graphiques de trading financier et des données de marché avec arrière-plan de gratte-ciel moderne",
+    "successAlt": " Équipe commerciale collaborant à table avec visualisation de réseau numérique montrant des nœuds interconnectés et des points de données brillants",
+    "salesforceSapAlt": " Silhouettes de professionnels commerciaux diversifiés avec superposition de données numériques et points de réseau brillants dans un paysage urbain",
+    "advancedAlt": "Bâtiments 3D luminescent au néon sur hologramme numérique avec réseau de circuit rose et bleu et visualisation du flux de données",
+    "aiPoweredUseAlt": "Particules numériques abstraites et points lumineux créant des motifs d'ondes courbes avec des tons or chauds et bleus froids",
+    "globalAlt": "Groupe diversifié de professionnels commerciaux souriants debout ensemble dans un bureau moderne avec arrière-plan de fenêtre lumineuse",
     "whyrialtessectiondata": [
       "Services couvrant l’ensemble du cycle de vie : Conseil, Conception, Mise en œuvre, Intégration et Optimisation IA post-déploiement.",
       "Modèles et accélérateurs de données IA/ML inédits pour une création de valeur rapide.",
