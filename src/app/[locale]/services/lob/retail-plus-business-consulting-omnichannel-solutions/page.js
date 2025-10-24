@@ -113,8 +113,8 @@ export default function page() {
       <section className="relative group overflow-hidden ">
         <div className="xl:block hidden">
           <Image
-            src="/images/industry/retail/banner.webp"
-            alt="auto-sense-banner"
+            src="/images/industry/retail/woman-shopping-smart-retail-connected-technology.webp"
+            alt={t('headerAlt')}
             fill
             priority
             sizes="100vw"
@@ -122,8 +122,8 @@ export default function page() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/industry/retail/bannerMob.webp"
-            alt=""
+            src="/images/industry/retail/woman-shopping-smart-retail-connected-technology-mobile.webp"
+            alt={t('headerAlt')}
             fill
             priority
             sizes="100vw"
@@ -165,8 +165,8 @@ export default function page() {
           {/* Desktop Image */}
           <div className="hidden xl:block h-full w-full">
             <Image
-              src="/images/industry/retail/comprehensive.webp"
-              alt="comprehensive image"
+              src="/images/industry/retail/women-small-business-owners-pottery-shop.webp"
+              alt={t('comprehensiveAlt')}
               fill
               priority
               sizes="100vw"
@@ -177,8 +177,8 @@ export default function page() {
           {/* Mobile Image */}
           <div className="block xl:hidden h-full w-full">
             <Image
-              src="/images/industry/retail/compre-mobile.webp"
-              alt="comprehensive image"
+              src="/images/industry/retail/women-small-business-owners-pottery-shop-mobile.webp"
+              alt={t('comprehensiveAlt')}
               fill
               priority
               sizes="100vw"
@@ -213,7 +213,7 @@ export default function page() {
             </ul>
 
             <div className="absolute xl:mt-[35px] mt-[25px] md:mt-0">
-              <LearnMore bgcolor="#006FBE" btnName={t('learnMoreBtn')}/>
+              <LearnMore bgcolor="#006FBE" btnName={t('learnMoreBtn')} />
             </div>
           </div>
         </div>
@@ -240,7 +240,7 @@ export default function page() {
                 <Image
                   className="4xl:w-[138px] 4xl:h-[138px] w-[75px] h-[75px] md:w-[100px] md:h-[100px]"
                   src={item.icon}
-                  alt={item.title}
+                  alt={item.alt}
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -264,8 +264,8 @@ export default function page() {
         <div className="xl:col-span-6 order-1 xl:order-2">
           <Image
             className="w-full h-full"
-            src="/images/industry/retail/salesforce.webp"
-            alt="Taking the lead"
+            src="/images/industry/retail/warehouse-worker-inventory-check-tablet.webp"
+            alt={t('salesforceAlt')}
             width={0}
             height={0}
             priority
@@ -292,8 +292,8 @@ export default function page() {
         <div className="lg:block hidden">
           <Image
             className="w-full"
-            src="/images/industry/retail/exelona-desk.webp"
-            alt="Taking the lead"
+            src="/images/industry/retail/small-business-restaurant-owners-couple.webp"
+            alt={t('exelonaAlt')}
             width={0}
             height={0}
             sizes="100vw"
@@ -303,8 +303,8 @@ export default function page() {
         <div className="lg:hidden block">
           <Image
             className="w-full"
-            src="/images/industry/retail/exelona-mobile.webp"
-            alt="Taking the lead"
+            src="/images/industry/retail/small-business-restaurant-owners-couple-mobile.webp"
+            alt={t('exelonaAlt')}
             width={0}
             height={0}
             sizes="100vw"
@@ -329,7 +329,7 @@ export default function page() {
                 {t('specializedDesc')}
               </p>
               <div className="bottom-0  absolute">
-                <LearnMore  btnName={t('learnMoreBtn')}/>
+                <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>
@@ -341,8 +341,8 @@ export default function page() {
           <div className="xl:col-span-6 col-span-12 mt-16 xl:mb-16 mb-[-20rem] z-10 flex justify-center lg:justify-start">
             <Image
               className="mx-auto md:mx-0  w-full max-md:px-[35px] xl:h-full h-[391px] md:h-[480px] lg:h-[600px]"
-              src="/images/industry/retail/advance-ai.webp"
-              alt="advance-ai image"
+              src="/images/industry/retail/digital-shopping-cart-ecommerce-technology.webp"
+              alt={t('aiAlt')}
               width={0}
               height={0}
               sizes="100vw"
@@ -365,7 +365,7 @@ export default function page() {
               {t('aiDrivenDesc')}
             </p>
             <div className="absolute bottom-0">
-              <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')}/>
+              <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} />
             </div>
           </div>
         </div>
@@ -381,7 +381,7 @@ export default function page() {
               <h3 className="text-[#0A6BB8] xl:pr-20 4xl:pr-8 font-semibold leading-tight 4xl:text-[30px] xl:text-[20px]">{item.title}</h3>
               <p className="4xl:text-[24px] text-[16px] mt-5 xl:pr-10 font-normal mb-[40px] leading-tight">{item.description}</p>
               <div className="absolute bottom-[-20px]">
-                <LearnMore btnName={t('learnMoreBtn')}/>
+                <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           ))}
@@ -393,8 +393,8 @@ export default function page() {
           <div className="col-span-4 flex justify-center xl:block">
             <Image
               className="w-full  h-auto 4xl:h-[671px] xl:h-[451px] 2xl:h-[500px] mt-16 relative mx-auto xl:mx-0 max-md:px-[35px]"
-              src="/images/industry/retail/mobile-re.webp"
-              alt="RialChat image"
+              src="/images/industry/retail/woman-using-smartphone-holding-coffee-cup.webp"
+              alt={t('realchatAlt')}
               width={0}
               height={0}
               sizes="100vw"
@@ -433,8 +433,8 @@ export default function page() {
       >
         <div className="xl:block hidden">
           <Image
-            src="/images/industry/retail/why.webp"
-            alt="GROW with SAP"
+            src="/images/industry/retail/business-analyst-reviewing-data-charts-monitors.webp"
+            alt={t('whyAlt')}
             fill
             priority
             sizes="100vw"
@@ -442,8 +442,8 @@ export default function page() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/industry/retail/why-mobile.webp"
-            alt="GROW with SAP"
+            src="/images/industry/retail/business-analyst-reviewing-data-charts-monitors-mobile.webp"
+            alt={t('whyAlt')}
             fill
             priority
             sizes="100vw"
@@ -478,7 +478,7 @@ export default function page() {
                       : "4xl:mt-0 xl:mt-[30px] 2xl:mt-[26px]"
                   }`}
                 >
-                  <LearnMore btnName={t('learnMoreBtn')}/>
+                  <LearnMore btnName={t('learnMoreBtn')} />
                 </div>
               </div>
             </div>

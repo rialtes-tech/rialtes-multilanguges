@@ -2,7 +2,6 @@
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import Seo from "@/app/[locale]/components/Seo";
-import Link from "next/link";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
@@ -52,7 +51,7 @@ const schemaData = {
             "itemListElement": [
                 {
                     "@type": "Offer",
-                    "itemOffered": { 
+                    "itemOffered": {
                         "@type": "Service",
                         "name": "Salesforce Life Sciences Cloud Implementation"
                     }
@@ -167,7 +166,7 @@ export default function page() {
                                         {item.desc}
                                     </p>
                                     <div className={`mt-auto pt-10 ${index === relatedSolutionsData.length - 1 ? 'xl:mt-[37px]' : ''}`}>
-                                        <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')}/>
+                                        <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} />
                                     </div>
                                 </div>
                             </div>
@@ -195,8 +194,8 @@ export default function page() {
             <section className="relative h-[435px] 4xl:h-[650px] xl:h-[500px]">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/services/lob/lifeai/lifeai-banner.webp"
-                        alt="lifeai-banner"
+                        src="/images/services/lob/lifeai/biotech-dna-growth.webp"
+                        alt={t('headerAlt')}
                         fill
                         style={{ objectFit: "cover" }}
                         priority
@@ -204,8 +203,8 @@ export default function page() {
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/services/lob/lifeai/mobile-banner.webp"
-                        alt="lifeai-banner"
+                        src="/images/services/lob/lifeai/biotech-dna-growth-mobile.webp"
+                        alt={t('headerAlt')}
                         fill
                         priority
                     />
@@ -241,8 +240,8 @@ export default function page() {
             <section className="relative lg:min-h-[980px] 2xl:min-h-[1100px] lg:mt-[95px] mt-[80px]">
                 <div className="relative w-full h-[500px] lg:h-[980px]">
                     <Image
-                        src="/images/services/lob/lifeai/what-is.webp"
-                        alt="What is LifeAI+? image"
+                        src="/images/services/lob/lifeai/microalgae-green-cells.webp"
+                        alt={t('whatAlt')}
                         fill
                         priority
                         className="object-cover"
@@ -268,7 +267,7 @@ export default function page() {
                             }
                         </div>
                         <div className="max-lg:mt-8 lg:absolute lg:right-20 lg:bottom-20">
-                            <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
+                            <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
                 </div>
@@ -279,8 +278,8 @@ export default function page() {
                     <div className="col-span-6 order-1 xl:order-2">
                         <Image
                             className="w-full h-full object-cover"
-                            src="/images/services/lob/lifeai/why-partner-desktop.webp"
-                            alt="Why Partner with Rialtes? image"
+                            src="/images/services/lob/lifeai/virtual-reality-brain-research.webp"
+                            alt={t('whyAlt')}
                             width={0}
                             height={0}
                             sizes="100vw"
@@ -292,7 +291,7 @@ export default function page() {
                             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  pr-16 xl:pr-0">{t('whyPartnerTitle')}</h2>
                             <UnorderedList arrName={whyPartnerData} ulClassName="list-disc leading-tight 4xl:space-y-4 xl:space-y-3 2xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 pr-2 xl:pr-0" liClassName="" />
                             <div className="mt-5 absolute">
-                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
+                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>
@@ -304,8 +303,8 @@ export default function page() {
                     <div className="xl:block hidden">
                         <Image
                             className="w-full xl:h-full h-[400px]"
-                            src="/images/services/lob/lifeai/deep-desk.webp"
-                            alt="Deep Expertise in Salesforce image"
+                            src="/images/services/lob/lifeai/healthcare-cloud-technology.webp"
+                            alt={t('deepAlt')}
                             width={0}
                             height={0}
                             sizes="100vw"
@@ -315,8 +314,8 @@ export default function page() {
                     <div className="xl:hidden block">
                         <Image
                             className="w-full h-full object-cover"
-                            src="/images/services/lob/lifeai/deep-mobile.webp"
-                            alt="Deep Expertise in Salesforce image"
+                            src="/images/services/lob/lifeai/healthcare-cloud-technology-mobile.webp"
+                            alt={t('deepAlt')}
                             width={0}
                             height={0}
                             priority
@@ -331,7 +330,7 @@ export default function page() {
                                 {t('deepExpertiseDesc')}
                             </p>
                             <div className=" absolute bottom-[75px] xl:block hidden">
-                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
+                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                         <div className="xl:col-span-6 col-span-12 xl:mt-10 mt-5">
@@ -340,7 +339,7 @@ export default function page() {
                             </h3>
                             <UnorderedList arrName={deepData} ulClassName="list-disc leading-tight xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 lg:pr-4" liClassName="" />
                             <div className="mt-12 xl:hidden block pb-[20px]">
-                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
+                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                         <div className="xl:col-span-1 col-span-12"></div>
@@ -355,8 +354,8 @@ export default function page() {
                     <div className="xl:col-span-6 order-1 xl:order-2">
                         <Image
                             className="w-full"
-                            src="/images/services/lob/lifeai/how-ri-desktop.webp"
-                            alt="How Rialtes LifeAI+ image"
+                            src="/images/services/lob/lifeai/scientist-using-digital-tablet-lab.webp"
+                            alt={t('rialtesAlt')}
                             width={0}
                             height={0}
                             sizes="100vw"
@@ -396,8 +395,8 @@ export default function page() {
                 <div className="xl:block hidden">
                     <Image
                         className="w-full"
-                        src="/images/services/lob/lifeai/prio-desk.webp"
-                        alt="Prior Authorization Management image"
+                        src="/images/services/lob/lifeai/business-team-collaboration-meeting.webp"
+                        alt={t('priorAlt')}
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -407,8 +406,8 @@ export default function page() {
                 <div className="xl:hidden block">
                     <Image
                         className="w-full"
-                        src="/images/services/lob/lifeai/prior-mobile.webp"
-                        alt="Prior Authorization Management image"
+                        src="/images/services/lob/lifeai/business-team-collaboration-meeting-mobile.webp"
+                        alt={t('priorAlt')}
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -425,7 +424,7 @@ export default function page() {
                         <div className="col-span-6  xl:p-16 p-8">
                             <UnorderedList arrName={priorData} ulClassName="list-disc leading-tight xl:space-y-4 space-y-2 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-10 xl:pr-14 pr-8" liClassName="" />
                             <div className="xl:mt-10 mt-5">
-                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
+                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>
@@ -440,17 +439,17 @@ export default function page() {
             {/* AI-Driven Life Sciences with Salesforce Data Cloud & Agentforce section */}
             <section className={`relative h-full  overflow-hidden lg:mt-[95px] mt-[80px]
               ${locale === "es"
-                                    ? "2xl:h-[950px] 4xl:h-[1045px] xl:h-[880px]"
-                                    : locale === "fr"
-                                        ? "2xl:h-[950px] 4xl:h-[1045px] xl:h-[950px]"
-                                        : "xl:h-[909px]"
-                                }`}
+                    ? "2xl:h-[950px] 4xl:h-[1045px] xl:h-[880px]"
+                    : locale === "fr"
+                        ? "2xl:h-[950px] 4xl:h-[1045px] xl:h-[950px]"
+                        : "xl:h-[909px]"
+                }`}
 
             >
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/services/lob/lifeai/ai-driven-desktop.webp"
-                        alt="AI-Driven Life Sciences image"
+                        src="/images/services/lob/lifeai/digital-cloud-data-network.webp"
+                        alt={t('aiAlt')}
                         className="object-cover"
                         fill
                         priority
@@ -458,8 +457,8 @@ export default function page() {
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/services/lob/lifeai/ai-dreven-mobile.webp"
-                        alt="AI-Driven Life Sciences image"
+                        src="/images/services/lob/lifeai/digital-cloud-data-network-mobile.webp"
+                        alt={t('aiAlt')}
                         fill
                         className="object-cover"
                         priority

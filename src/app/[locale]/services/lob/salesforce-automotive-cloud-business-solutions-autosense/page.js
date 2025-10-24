@@ -196,7 +196,7 @@ export default function page() {
                     {chooseRialtesData.map((item, ind) => {
                         return (
                             <div key={ind} className="xl:p-[47px] p-[42px] border-[1px] border-[#707070] hover:border-[#D9F2FF] hover:bg-[#D9F2FF] transition-colors duration-300">
-                                <img src={item.imageUrl} alt={`image-${ind}`} />
+                                <img src={item.imageUrl} alt={item.alt} />
                                 <h3 className="xl:mt-[46px] mt-[33px] 4xl:text-[30px] xl:text-[23px] text-[20px] font-semibold leading-tight">{item.title}</h3>
                                 <div>
                                     {item.listItems.map((listItem, index) => (
@@ -363,7 +363,7 @@ export default function page() {
                     {/* Desktop Image */}
                     <Image
                         src="/images/industry/auto-sense/man-charging-electric-vehicle.webp"
-                        alt={t('')}
+                        alt={t('partnerAlt')}
                         width={0}
                         height={0}
                         className="hidden lg:block w-full"
@@ -372,7 +372,7 @@ export default function page() {
                     {/* Mobile Image */}
                     <Image
                         src="/images/industry/auto-sense/Mobile/man-charging-electric-vehicle-mobile.webp"
-                        alt={t('')}
+                        alt={t('partnerAlt')}
                         width={0}
                         height={0}
                         className="block lg:hidden w-full"
