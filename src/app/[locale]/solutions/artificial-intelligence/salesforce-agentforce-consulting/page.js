@@ -119,8 +119,8 @@ export default function Agentforce() {
             <section className="relative group overflow-hidden">
                 <div className="relative w-full h-[360px] md:h-[400px] xl:h-[540px] lg:h-[520px] 4xl:h-[740px] 2xl:h-[600px]">
                     <Image
-                        src="/images/salesforce-consulting-services/Agentforce banner 2.webp"
-                        alt="Agentforce banner"
+                        src="/images/salesforce-consulting-services/agentforce-banner-desktop.webp"
+                        alt={t('desktopBannerAlt')}
                         fill
                         className="transition-transform duration-500 group-hover:scale-110 object-cover"
                         priority
@@ -132,15 +132,15 @@ export default function Agentforce() {
                         <h4 className="font-bold lg:text-[24px] text-[18px] md:text-[20px]" >{t('headerTitle')}</h4>
                         <h2 className={`mt-3 leading-tight 2xl:text-[45px] xl:text-[40px] md:text-[30px] 4xl:text-[57px]  lg:text-[38px]"
                          ${locale === "es"
+                                ? "2xl:w-[600px] xl:w-[500px] 4xl:w-[750px] md:w-[280px]"
+                                : locale === "fr"
                                     ? "2xl:w-[600px] xl:w-[500px] 4xl:w-[750px] md:w-[280px]"
-                                    : locale === "fr"
-                                        ? "2xl:w-[600px] xl:w-[500px] 4xl:w-[750px] md:w-[280px]"
-                                        : "w-[300px] 4xl:w-[600px] 2xl:w-[600px] xl:w-[500px]"
-                                }`}
-                        
+                                    : "w-[300px] 4xl:w-[600px] 2xl:w-[600px] xl:w-[500px]"
+                            }`}
+
                         >
                             {t('headerDesc')}
-                        </h2> 
+                        </h2>
                         <div>
                             <div className="relative w-[120px] h-[40px] 4xl:w-[300px] 4xl:h-[102px] lg:w-[200px] lg:h-[60px] md:w-[150px] md:h-[50px] 2xl:w-[260px] 2xl:h-[80px] xl:w-[240px] xl-h-[70px]">
                                 <Image
@@ -167,9 +167,9 @@ export default function Agentforce() {
                 </div>
                 <div>
                     <Image
-                        src="/images/salesforce-consulting-services/agentforce logo.webp"
+                        src="/images/salesforce-consulting-services/agentforce-dashboard.webp"
                         className="4xl:w-[398px] 4xl:h-[78px] 2xl:w-[300px] 2xl:h-[65px] xl:w-[280px] xl:h-[60px] lg:w-[240px] lg:h-[55px] md:w-[220px]  md:4-[75px] w-[150px] h-[40px] bg-transperent"
-                        alt="agentforce logo"
+                        alt={t('agentforceLogoAlt')}
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -186,7 +186,7 @@ export default function Agentforce() {
                                 <div className="mt-10">
                                     <Image
                                         src={sales.imageUrl}
-                                        alt={`${sales.title} image`}
+                                        alt={sales.altText}
                                         className="w-20 h-20"
                                         width={0}
                                         height={0}
@@ -219,18 +219,18 @@ export default function Agentforce() {
                     {t('blocksTitle')}</h2>
                 <div className={`grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2  xl:gap-16 gap-5 md:gap-12"
                  ${locale === "es"
-                                    ? "4xl:mt-20 2xl:mt-10 xl:mt-16 mt-10"
-                                    : locale === "fr" 
-                                        ? "mt-16"
-                                        : "mt-10"
-                                }`}
+                        ? "4xl:mt-20 2xl:mt-10 xl:mt-16 mt-10"
+                        : locale === "fr"
+                            ? "mt-16"
+                            : "mt-10"
+                    }`}
                 >
                     {agentBlocks.map((block, index) => (
                         <div key={index} className="flex xl:gap-5 gap-2">
                             <div>
                                 <Image
                                     src={block.image}
-                                    alt={block.title}
+                                    alt={block.altText}
                                     className="lg:w-[150px] h-20 w-[100px]"
                                     width={0}
                                     height={0}
@@ -253,11 +253,11 @@ export default function Agentforce() {
             {/* //industries benifites */}
             <section className={`px-6 custom-container
              ${locale === "es"
-                                    ? "4xl:mt-40 2xl:mt-32 xl:mt-32 mt-20 md:mt-40"
-                                    : locale === "fr"
-                                        ? "4xl:mt-40 2xl:mt-32 xl:mt-32 mt-20 md:mt-40"
-                                        : "mt-[75px] md:mt-[120px] lg:mt-[120px]"
-                                }`}
+                    ? "4xl:mt-40 2xl:mt-32 xl:mt-32 mt-20 md:mt-40"
+                    : locale === "fr"
+                        ? "4xl:mt-40 2xl:mt-32 xl:mt-32 mt-20 md:mt-40"
+                        : "mt-[75px] md:mt-[120px] lg:mt-[120px]"
+                }`}
             >
                 <h2 className="w-full leading-tight xl:w-[900px] md:w-[700px] 2xl:w-[900px] 4xl:w-[1100px]   text-[22px] md:text-[40px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] lg:text-[38px]">{t('industryTitle')}</h2>
                 <div className="grid lg:grid-cols-3 lg:gap-20 gap-10 grid-cols-1 md:grid-cols-2">
@@ -267,7 +267,7 @@ export default function Agentforce() {
                                 <div>
                                     <Image
                                         src={benifite.imageUrl}
-                                        alt={`${benifite.title} image`}
+                                        alt={benifite.altText}
                                         className="pt-10"
                                         width={0}
                                         height={0}

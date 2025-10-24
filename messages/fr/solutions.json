@@ -443,6 +443,8 @@
     "seoDescription": "Prêt à évoluer plus vite ? Avec Agentforce Consulting, Rialtes déploie des agents Salesforce qui automatisent, s’adaptent et accélèrent votre succès.",
     "headerDesc": "Les humains + les agents automatisent les tâches routinières pour favoriser la réussite client",
     "headerOne": "Salesforce Agentforce :",
+    "desktopBannerAlt": "Équipe professionnelle collaborant sur les solutions IA Agentforce de Salesforce pour l'efficacité des entreprises.",
+    "agentforceLogoAlt": "Capture d’écran du tableau de bord Agentforce de Salesforce affichant les métriques de performance des agents IA. ",
     "headerTwo": "Ce que vous devez savoir",
     "headerParaOne": "Salesforce Agentforce est une plateforme robuste qui permet aux organisations de créer, personnaliser et déployer des agents d’IA autonomes dans diverses fonctions métiers, notamment les ventes, le marketing, le service client et le e-commerce.",
     "headerParaTwo": "Agentforce AI est conçu pour gérer de manière proactive les tâches, en fonctionnant de manière autonome : collecte de données, élaboration de plans d’action et exécution sans intervention humaine. Cela permet aux entreprises de rationaliser leurs opérations grâce à des interactions pilotées par l’IA. En intégrant les capacités CRM de Salesforce avec des outils spécialisés pour agents, Agentforce dans Salesforce fournit aux agents des données client en temps réel, de puissantes fonctionnalités de collaboration et des analyses basées sur l’IA.",
@@ -450,23 +452,27 @@
     "salesForce": [
       {
         "id": 1,
-        "imageUrl": "/images/salesforce-consulting-services/achive1.svg",
-        "title": "Fonctionnement autonome dans des garde-fous personnalisés"
+        "imageUrl": "/images/salesforce-consulting-services/autonomous_operation_guardrails.svg",
+        "title": "Fonctionnement autonome dans des garde-fous personnalisés",
+        "altText": "Icône de nuage avec engrenages et bouclier représentant une automatisation sécurisée. "
       },
       {
         "id": 2,
-        "imageUrl": "/images/salesforce-consulting-services/achive2.svg",
-        "title": "Adaptation en temps réel aux données"
+        "imageUrl": "/images/salesforce-consulting-services/real_time_data_adaptation.svg",
+        "title": "Adaptation en temps réel aux données",
+        "altText": "Icône de trois personnes avec des étoiles représentant une adaptation dynamique aux données."
       },
       {
         "id": 3,
-        "imageUrl": "/images/salesforce-consulting-services/achive3.svg",
-        "title": "Intégration fluide avec les employés"
+        "imageUrl": "/images/salesforce-consulting-services/employee_integration.svg",
+        "title": "Intégration fluide avec les employés",
+        "altText": "Icône de chronomètre et de personne indiquant une intégration efficace dans les flux de travail."
       },
       {
         "id": 4,
-        "imageUrl": "/images/salesforce-consulting-services/achive4.svg",
-        "title": "Outils low-code pour la personnalisation et le déploiement"
+        "imageUrl": "/images/salesforce-consulting-services/low_code_customization_tools.svg",
+        "title": "Outils low-code pour la personnalisation et le déploiement",
+        "altText": "Icône de nœuds interconnectés et d'engrenages représentant des outils de développement flexibles. "
       }
     ],
     "leverageTitle": "Exploitez les technologies de pointe pour offrir des solutions innovantes avec Agentforce",
@@ -497,50 +503,58 @@
       {
         "title": "Agent Builder",
         "description": "Créez et personnalisez vos propres agents avec du low-code",
-        "image": "/images/salesforce-consulting-services/Agent Builder.svg"
+        "image": "/images/salesforce-consulting-services/agent_builder_salesforce.svg",
+        "altText": "Icône représentant la création et la personnalisation d'agents IA avec peu de code. "
       },
       {
         "title": "Prompt Builder",
         "description": "Dynamisez chaque flux de travail avec des prompts IA fiables",
-        "image": "/images/salesforce-consulting-services/achive1.svg"
+        "image": "/images/salesforce-consulting-services/autonomous_operation_guardrails.svg",
+        "altText": "Icône symbolisant l'amélioration des flux de travail grâce à des invites IA fiables. "
       },
       {
         "title": "Model Builder",
         "description": "Concevez, entraînez et déployez des modèles d’IA personnalisés en externe à partir des données dans Salesforce.",
-        "image": "/images/salesforce-consulting-services/Model Builder.svg"
+        "image": "/images/salesforce-consulting-services/model_builder_salesforce.svg",
+        "altText": "Icône pour créer, entraîner et déployer des modèles IA externes à l'aide des données Salesforce. "
       }
     ],
     "industryTitle": "Des avantages sectoriels spécifiques que nous apportons à nos clients",
     "industryBenifite": [
       {
         "id": 1,
-        "imageUrl": "/images/salesforce-consulting-services/benif1.webp",
+        "imageUrl": "/images/salesforce-consulting-services/sales_automation.webp",
         "title": "Ventes",
-        "description": "Automatisez la qualification des prospects, la prise de rendez-vous et la maturation des leads."
+        "description": "Automatisez la qualification des prospects, la prise de rendez-vous et la maturation des leads.",
+        "altText": "Personne utilisant un ordinateur portable pour qualifier des prospects et planifier des rendez-vous. "
       },
       {
         "id": 2,
-        "imageUrl": "/images/salesforce-consulting-services/cusser.webp",
+        "imageUrl": "/images/salesforce-consulting-services/customer_service_automation.webp",
         "title": "Service client",
-        "description": "Gérez les tickets, résolvez les demandes et offrez une assistance 24/7."
+        "description": "Gérez les tickets, résolvez les demandes et offrez une assistance 24/7.",
+        "altText": "Personne interagissant avec une interface numérique pour gérer les tickets et offrir un support 24h/24. "
       },
       {
         "id": 3,
-        "imageUrl": "/images/salesforce-consulting-services/Marketing.webp",
+        "imageUrl": "/images/salesforce-consulting-services/marketing_automation.webp",
         "title": "Marketing",
-        "description": "Lancez des campagnes automatisées qui s’adaptent en fonction des indicateurs de performance."
+        "description": "Lancez des campagnes automatisées qui s’adaptent en fonction des indicateurs de performance.",
+        "altText": "Personne tenant un smartphone pour exécuter des campagnes adaptatives basées sur les performances. "
       },
       {
         "id": 4,
-        "imageUrl": "/images/salesforce-consulting-services/Insurance and financial services.webp",
+        "imageUrl": "/images/salesforce-consulting-services/insurance_financial_services.webp",
         "title": "Assurances et services financiers",
-        "description": "Exploitez Agentforce pour accéder aux données essentielles des clients en mobilité."
+        "description": "Exploitez Agentforce pour accéder aux données essentielles des clients en mobilité.",
+        "altText": "Robot futuriste sur une plateforme représentant la transformation numérique dans la finance. "
       },
       {
         "id": 5,
-        "imageUrl": "/images/salesforce-consulting-services/Healthcare and life sciences.webp",
+        "imageUrl": "/images/salesforce-consulting-services/healthcare_life_sciences.webp",
         "title": "Santé et sciences de la vie",
-        "description": "Interagissez avec les patients, prestataires et payeurs sur plusieurs canaux."
+        "description": "Interagissez avec les patients, prestataires et payeurs sur plusieurs canaux.",
+        "altText": "Smartphone affichant une interface médicale numérique, symbolisant les solutions technologiques en santé. "
       }
     ],
     "slides": [
@@ -1428,6 +1442,8 @@
   },
   "salesForceConsulting": {
     "consultingTitle": "Services de Conseil Salesforce",
+    "partnerLogoAltText": "Logo officiel de partenaire Salesforce représentant la certification de Rialtes en tant que partenaire de confiance pour le conseil et la mise en œuvre Salesforce.",
+    "bannerAltText": "Un paysage numérique futuriste en arrière-plan avec le texte « Transformez la manière dont vous engagez vos clients », représentant les services de conseil Salesforce et l’engagement client.",
     "seoTitle": "Services de Conseil et de Mise en Œuvre de Salesforce Data Cloud | Rialtes",
     "seoDescription": "Conseil et mise en œuvre Salesforce Data Cloud par Rialtes pour stimuler la croissance, accélérer l’innovation et améliorer la prise de décision.",
     "consultingDesc": "Transformez la manière dont vous interagissez avec vos clients",
@@ -1444,42 +1460,49 @@
     "agentforceDesc": "Salesforce Agentforce est une plateforme robuste qui permet aux organisations de créer, personnaliser et déployer des agents IA autonomes dans diverses fonctions commerciales, notamment les ventes, le marketing, le service client et l’e-commerce.",
     "learnMore": "En savoir plus",
     "contactUs": "Passez à l’étape suivante vers l’excellence opérationnelle avec le conseil Salesforce.",
+    "neuralNetworkAltText": "Œuvre numérique symétrique ressemblant à un réseau neuronal, accompagnée d’une description du déploiement des agents IA de Salesforce Agentforce dans les fonctions commerciales. ",
     "salesForce": [
       {
         "id": 1,
-        "imageUrl": "/images/salesforce-consulting-services/light.svg",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-lightning-services-icon.svg",
         "title": "Services Lightning",
-        "description": "Des développeurs d’applications dédiés sont à votre disposition pour créer une application parfaitement adaptée, offrant une meilleure expérience client."
+        "description": "Des développeurs d’applications dédiés sont à votre disposition pour créer une application parfaitement adaptée, offrant une meilleure expérience client.",
+        "altText": "Icône de nuage et d’éclair symbolisant le développement d’applications Salesforce Lightning pour améliorer l’expérience client."
       },
       {
         "id": 2,
-        "imageUrl": "/images/salesforce-consulting-services/inte.svg",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-integration-services-icon.svg",
         "title": "Services d’intégration",
-        "description": "Des services d’intégration Salesforce comme jamais auparavant pour vous aider à offrir une expérience connectée et un flux de données fluide — en toute mobilité."
+        "description": "Des services d’intégration Salesforce comme jamais auparavant pour vous aider à offrir une expérience connectée et un flux de données fluide — en toute mobilité.",
+        "altText": "Icône d’engrenage et de connexion représentant l’intégration transparente de Salesforce pour un flux de données fluide entre les systèmes. "
       },
       {
         "id": 3,
-        "imageUrl": "/images/salesforce-consulting-services/imple.svg",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-implementation-services-icon.svg",
         "title": "Services de mise en œuvre",
-        "description": "Nous savons aller au-delà des bases de Salesforce, en personnalisant et en étendant ses capacités avec nos solutions de mise en œuvre."
+        "description": "Nous savons aller au-delà des bases de Salesforce, en personnalisant et en étendant ses capacités avec nos solutions de mise en œuvre.",
+        "altText": "Icône d’engrenage et de clé à molette illustrant les solutions d’implémentation Salesforce qui personnalisent et étendent les fonctionnalités de la plateforme. "
       },
       {
         "id": 4,
-        "imageUrl": "/images/salesforce-consulting-services/mig.svg",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-contact-support-icon.svg",
         "title": "Services de migration",
-        "description": "Avec une interface utilisateur conviviale, interagissez avec vos clients grâce à des visuels élégants, libérez des analyses nouvelle génération et améliorez l’engagement des utilisateurs."
+        "description": "Avec une interface utilisateur conviviale, interagissez avec vos clients grâce à des visuels élégants, libérez des analyses nouvelle génération et améliorez l’engagement des utilisateurs.",
+        "altText": " Icône de nuage avec des flèches vers le haut représentant la migration de données et d’applications vers Salesforce avec une expérience utilisateur améliorée. "
       },
       {
         "id": 5,
-        "imageUrl": "/images/salesforce-consulting-services/light.svg",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-contact-support-icon.svg",
         "title": "Support et assistance",
-        "description": "Un suivi complet et une assistance utilisateur pour identifier et résoudre les défis rencontrés dans le cycle de mise en œuvre."
+        "description": "Un suivi complet et une assistance utilisateur pour identifier et résoudre les défis rencontrés dans le cycle de mise en œuvre.",
+        "altText": "Icône de nuage avec casque représentant le support client Salesforce de bout en bout et l’assistance à la résolution des problèmes. "
       }
     ],
     "salesForceProduct": [
       {
         "id": 3,
-        "imageUrl": "/images/salesforce-consulting-services/agentforce.png",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-agentforce-ai-support.png",
+        "altText": "Illustration d’un robot humanoïde interagissant avec un ordinateur portable, représentant les agents IA autonomes de Salesforce Agentforce conçus pour résoudre les demandes des clients 24h/24 et 7j/7",
         "title": "Salesforce Agentforce",
         "description": "Créez et personnalisez des agents IA autonomes pour aider vos employés et vos clients 24h/24 et 7j/7.",
         "productsDetails": [
@@ -1492,7 +1515,8 @@
       },
       {
         "id": 4,
-        "imageUrl": "/images/salesforce-consulting-services/lap.webp",
+        "imageUrl": "/images/salesforce-consulting-services/salesforce-data-cloud-customer-360.webp",
+        "altText": "Photo d’une personne utilisant un ordinateur portable avec des visualisations de données numériques, mettant en avant la capacité de Salesforce Data Cloud à unifier et transformer les données pour une vue complète du Client 360. ",
         "title": "Salesforce Data Cloud",
         "description": "Transformez les données brutes en informations en les unifiant et en les exploitant, libérant ainsi un océan d’opportunités pour votre entreprise.",
         "productsDetails": [
