@@ -118,8 +118,8 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] h-[400px] md:h-[600px] overflow-hidden">
         <div className="md:block hidden">
           <Image
-            src="/images/services/success-plus/desktop-banner.webp"
-            alt="SuccessFactor"
+            src="/images/services/success-plus/successplus-successfactors-implementation-partner.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "75% 20%" }}
             priority
@@ -128,7 +128,7 @@ export default function Page() {
         <div className="md:hidden block">
           <Image
             src="/images/services/success-plus/Mobile/mobile-banner.webp"
-            alt="SuccessFactor"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "75% 20%" }}
             priority
@@ -145,7 +145,7 @@ export default function Page() {
             <div className="md:max-w-32 w-20 4xl:w-[160px] 2xl:w-[140px] lg:w-[100px] xl:w-[100px] mt-[44px] xl:mt-[62px]">
               <Image
                 src="/images/services/success-plus/sap-partner-logo.webp"
-                alt="SAP Partner Logo"
+                alt={t('sapPartnerLogoAlt')}
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -171,8 +171,8 @@ export default function Page() {
           </div>
           <div className="lg:col-span-4 col-span-12 lg:my-auto lg:ml-auto order-1 lg:order-2 mt-[40px]">
             <Image
-              src="/images/services/success-plus/successfactor-logo-1.jpg"
-              alt="SAP Partner Logo"
+              src="/images/services/success-plus/sap-successfactors-logo.jpg"
+              alt={t('sapSuccessfacorAlt')}
               width={0}
               height={0}
               className="w-full h-full md:w-[50%] lg:w-full lg:h-full"
@@ -204,7 +204,7 @@ export default function Page() {
         <div className="md:block hidden">
           <Image
             src={t('keyServiceImg')}
-            alt="key-services-desktop image"
+            alt={t('keySerAlt')}
             className="w-full h-full object-cover"
             priority
             width={0}
@@ -214,7 +214,7 @@ export default function Page() {
         <div className="md:hidden block">
           <Image
             src={t('keyServiceImgMobile')}
-            alt="key-services-mobile image"
+            alt={t('keySerAlt')}
             className="w-full h-full object-cover"
             priority
             width={0}
@@ -238,7 +238,7 @@ export default function Page() {
               <div className="lg:block hidden h-[180px] aspect-[19/9]">
                 <Image
                   src="/images/services/success-plus/workday-desk.webp"
-                  alt="workday-desktop image"
+                  alt={t('workDayAlt')}
                   className="w-full h-full object-contain"
                   priority
                   width={0}
@@ -250,7 +250,7 @@ export default function Page() {
               <div className="lg:hidden block h-[80px] w-[200px] md:h-[120px] md:w-[260px]">
                 <Image
                   src="/images/services/success-plus/Mobile/workday-mob.webp"
-                  alt="workday-mobile image"
+                  alt={t('workDayAlt')}
                   className="w-full h-full object-cover"
                   priority
                   width={0}
@@ -290,7 +290,7 @@ export default function Page() {
               <div className="lg:block hidden h-[180px] aspect-[19/9]">
                 <Image
                   src="/images/services/success-plus/zoho-desk.webp"
-                  alt="zoho-desktop image"
+                  alt={t('zohoAlt')}
                   className="w-full h-full object-contain"
                   priority
                   width={0}
@@ -302,7 +302,7 @@ export default function Page() {
               <div className="lg:hidden block h-[80px] w-[200px] md:h-[120px] md:w-[260px]">
                 <Image
                   src="/images/services/success-plus/Mobile/zoho-mob.webp"
-                  alt="zoho-mobile image"
+                  alt={t('zohoAlt')}
                   className="w-full h-full object-cover"
                   priority
                   width={0}
@@ -338,7 +338,7 @@ export default function Page() {
                     <div>
                       <Image
                         src={data.img}
-                        alt={`${data.title} image`}
+                        alt={`${data.alt}`}
                         className="xl:w-[120px] xl:h-[120px] object-cover h-[75px] w-[75px]"
                         priority
                         width={0}
@@ -412,7 +412,7 @@ export default function Page() {
               <div className="lg:block hidden h-full 4xl:h-[800px] xl:h-[732px] lg:h-[620px] w-full lg:mt-[-60px]">
                 <Image
                   src="/images/services/success-plus/successfactor-desk.webp"
-                  alt="successfactor-desktop image"
+                  alt={t('successFactorAlt')}
                   className="w-full h-full object-cover"
                   priority
                   width={0}
@@ -422,7 +422,7 @@ export default function Page() {
               <div className="lg:hidden block">
                 <Image
                   src="/images/services/success-plus/Mobile/successfactor-mob.webp"
-                  alt="successfactor-mobile image"
+                  alt={t('successFactorAlt')}
                   className="w-full h-full object-cover"
                   priority
                   width={0}
@@ -452,7 +452,7 @@ export default function Page() {
               <div className="lg:block hidden h-full 4xl:h-[800px] xl:h-[710px] lg:h-[620px] w-full lg:mt-[-60px]">
                 <Image
                   src="/images/services/success-plus/sap-cpi-desk.webp"
-                  alt="sap-cpi-desktop image"
+                  alt={t('sapCpiAlt')}
                   className="w-full h-full object-cover"
                   priority
                   width={0}
@@ -462,7 +462,7 @@ export default function Page() {
               <div className="lg:hidden block">
                 <Image
                   src="/images/services/success-plus/Mobile/sap-cpi-mob.webp"
-                  alt="sap-cpi-mobile image"
+                  alt={t('sapCpiAlt')}
                   className="w-full h-full object-cover"
                   priority
                   width={0}
@@ -491,7 +491,7 @@ export default function Page() {
               <div className="lg:block hidden h-full w-full lg:mt-[-60px]">
                 <Image
                   src="/images/services/success-plus/sap-desk.webp"
-                  alt="sap-desktop image"
+                  alt={t('sapJouleAlt')}
                   className="w-full h-full object-cover"
                   priority
                   width={0}
@@ -501,7 +501,7 @@ export default function Page() {
               <div className="lg:hidden block">
                 <Image
                   src="/images/services/success-plus/Mobile/sap-mob.webp"
-                  alt="sap-mobile image"
+                  alt={t('sapJouleAlt')}
                   className="w-full h-full object-cover"
                   priority
                   width={0}
@@ -543,7 +543,7 @@ export default function Page() {
               <div className="lg:block hidden h-full w-full lg:mt-[-60px]">
                 <Image
                   src="/images/services/success-plus/extend-desk.webp"
-                  alt="extend-desktop image"
+                  alt={t('extendAlt')}
                   className="w-full h-full object-cover"
                   priority
                   width={0}
@@ -553,7 +553,7 @@ export default function Page() {
               <div className="lg:hidden block">
                 <Image
                   src="/images/services/success-plus/Mobile/extend-mob.webp"
-                  alt="extend-mobile image"
+                  alt={t('extendAlt')}
                   className="w-full h-full object-cover"
                   priority
                   width={0}
@@ -605,7 +605,7 @@ export default function Page() {
           <div className="md:block hidden">
             <Image
               src="/images/services/success-plus/agentchat-desk.webp"
-              alt="agentchat-desktop image"
+              alt={t('agentchatAlt')}
               className="w-full h-full object-cover"
               priority
               width={0}
@@ -615,7 +615,7 @@ export default function Page() {
           <div className="md:hidden block">
             <Image
               src="/images/services/success-plus/Mobile/agentchat-mob.webp"
-              alt="agentchat-mob image"
+              alt={t('agentchatAlt')}
               className="w-full h-full object-cover"
               priority
               width={0}

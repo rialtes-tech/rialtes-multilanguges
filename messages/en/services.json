@@ -1,6 +1,16 @@
 {
     "sapBuyPlus": {
         "headerTitle": "SAPBuy+",
+        "whyChooseAlt": "Banner image highlighting Rialtes' SAPBuy+ ARIBA implementation services with two professionals reviewing documents.",
+        "agentchatAlt": "Screenshot of RialChat WhatsApp app enabling real-time procurement approvals and collaboration.",
+        "seamlessIntegrationsAlt": "Diagram of SAP ARIBA integration with SAP S/4HANA, SuccessFactors, and third-party systems via SAP CPI.",
+        "suplierProfileAlt": "Visual showing SAP ARIBA’s supplier profile management for onboarding and compliance",
+        "sapbuyplusContractAlt": "Graphic illustrating SAP ARIBA Contract Management features including automated creation, collaboration, digital signatures, and compliance tracking.",
+        "buyingAlt": "Image illustrating SAP ARIBA Buying & Invoicing module for automated procure-to-pay workflows",
+        "sapAribaNetworkAlt": "Graphic representing SAP ARIBA Business Network for supplier collaboration and digital procurement.",
+        "sapAribaModuleAlt": "Visual overview of SAP ARIBA modules for direct and indirect procurement processes",
+        "unloackProcurementAlt": "Illustration showing SAP ARIBA integration with SAP S/4HANA and third-party apps to unlock procurement efficiency.",
+        "sapbuyplusBannerAlt": "Banner image showing SAP Ariba implementation with the text “SAPBuyPlus – Optimize Spend Management,” representing efficient procurement transformation",
         "seoTitle": "SAP Ariba Implementation Partner and Procurement Solutions | Rialtes",
         "seoDescription": "As a leading Ariba implementation partner, Rialtes powers procurement transformation with SAPBuy+ and expert Ariba services tailored to modern supply chain needs.",
         "headerSubTitle": "Transform Procurement Excellence with Rialtes SAPBuy+ Services for SAP ARIBA",
@@ -193,8 +203,21 @@
     },
     "successPlus": {
         "keyServiceImg": "/images/services/success-plus/key-services-desk.webp",
+        "sapSuccessfacorAlt": "Official SAP SuccessFactors logo featuring blue text and a yellow heart icon, representing people-centric HR transformation.",
+        "agentchatIconAlt": "WhatsApp icon linking to Rialtes support for SAP SuccessFactors inquiries.",
+        "agentchatAlt": "Rialtes AgentChat interface enabling automated HR support and communication for SAP SuccessFactors users.",
+        "sapCpiAlt": "SAP Cloud Platform Integration (CPI) dashboard illustrating connected HR workflows within SuccessFactors. ",
+        "extendAlt": "Illustration showing extended SAP SuccessFactors capabilities through Rialtes SuccessPlus add-ons. ",
+        "sapJuleAlt": "SAP ERP and SuccessFactors integration dashboard for seamless HR operations.",
+        "successFactorAlt": "SAP SuccessFactors dashboard showcasing unified HR, payroll, and talent management features.",
+        "keySerAlt": "Illustration showing key SAP SuccessFactors implementation and support services offered by Rialtes. ",
         "keyServiceImgMobile": "/images/services/success-plus/Mobile/key-services-mob.webp",
+        "zohoAlt": "Infographic comparing SAP SuccessFactors and Zoho People HR management solutions. ",
+        "workDayAlt": "Comparison chart highlighting SAP SuccessFactors advantages over Workday in HR transformation.",
         "headerTitle": "Success+",
+        "bannerAlt": "Rialtes SuccessPlus – SAP SuccessFactors implementation partner helping organizations optimize HR transformation.",
+        "sapPartnerLogoAlt": "Official SAP Partner logo representing Rialtes’ certified expertise in SAP SuccessFactors implementation. ",
+        "sapSuccessAlt": "Official SAP SuccessFactors logo featuring blue text and a yellow heart icon, representing people-centric HR transformation. ",
         "seoTitle": "SAP SuccessFactors Consulting and Implementation Partners | Rialtes",
         "seoDescription": "Success+ by Rialtes delivers AI-powered SuccessFactors consulting and implementation to modernize HCM and accelerate your HR transformation. Let’s begin!",
         "headerSubTitlep1": "Transforming HR for",
@@ -288,20 +311,24 @@
         ],
         "migratingBenefitsData": [
             {
-                "img": "/images/services/success-plus/unified-img.svg",
-                "title": "Unified HR platform aligned with business goals."
+                "img": "/images/services/success-plus/unified-hr-platform-business-goals.svg",
+                "title": "Unified HR platform aligned with business goals.",
+                "alt": "Graphic showing a unified HR platform aligned with business goals through SAP SuccessFactors. "
             },
             {
-                "img": "/images/services/success-plus/future-img.svg",
-                "title": "Future-proofing HR with AI, automation, and advanced analytics."
+                "img": "/images/services/success-plus/future-proof-hr-ai-automation-analytics.svg",
+                "title": "Future-proofing HR with AI, automation, and advanced analytics.",
+                "alt": "Illustration of future-ready HR transformation using AI, automation, and analytics in SAP SuccessFactors. "
             },
             {
-                "img": "/images/services/success-plus/integration-img.svg",
-                "title": "Integration with core SAP and third-party systems for a connected enterprise."
+                "img": "/images/services/success-plus/sap-integration-connected-enterprise.svg",
+                "title": "Integration with core SAP and third-party systems for a connected enterprise.",
+                "alt": "Visualization of SAP SuccessFactors integration with core SAP and third-party systems for enterprise connectivity. "
             },
             {
-                "img": "/images/services/success-plus/global-hr-img.svg",
-                "title": "Global HR compliance and local adaptability."
+                "img": "/images/services/success-plus/global-hr-compliance-local-adaptability.svg",
+                "title": "Global HR compliance and local adaptability.",
+                "alt": "Image representing global HR compliance and local adaptability enabled by SAP SuccessFactors."
             }
         ],
         "sapActivateData": [
