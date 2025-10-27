@@ -88,9 +88,9 @@ export default function Page() {
                     <div className="overflow-hidden relative z-0 ">
                         <div className="w-full h-full xl:block hidden ">
                             <Image
-                                src="/images/industry/real-estate/newAgentchat.webp"
-                                alt="agentchat banner"
-                                className=" w-full bg-cover xl:object-contain"
+                                src="/images/industry/real-estate/agentchat-whatsapp-salesforce-integration.webp"
+                                alt={t('bannerAlt')}
+                                className="w-full bg-cover xl:object-contain"
                                 width={0}
                                 height={0}
                                 objectPosition="right"
@@ -100,9 +100,9 @@ export default function Page() {
                         </div>
                         <div className="w-full h-full xl:hidden block">
                             <Image
-                                src="/images/industry/real-estate/agentchat header mobile.webp"
-                                alt="agentchat banner"
-                                className=" h-full w-full object-cover object-right"
+                                src="/images/industry/real-estate/agentchat-whatsapp-salesforce-integration-mobile.webp"
+                                alt={t('bannerAlt')}
+                                className="h-full w-full object-cover object-right"
                                 width={0}
                                 height={0}
                                 objectPosition="right"
@@ -124,8 +124,8 @@ export default function Page() {
                         <div className="absolute z-30 xl:right-16 right-0 md:right-10 mt-[-121px] xl:mt-[-180px] 4xl:mt-[-200px] ">
                             <Image
                                 className=" w-[137px] h-[180px] md:w-[220px] md:h-[170px] xl:w-[246px] xl:h-[249px] 4xl:w-[276px] 4xl:h-[249px] "
-                                src='/images/industry/rialchat/AgentChat logo.svg'
-                                alt="AgentChat logo"
+                                src='/images/industry/rialchat/agentchat-logo-messaging-platform.svg'
+                                alt={t('svgAlt')}
                                 width={0}
                                 height={0}
                                 sizes="100vw"
@@ -154,8 +154,8 @@ export default function Page() {
                     <div className="relative group overflow-hidden w-full">
                         <Image
                             className="w-full h-full transform transition-transform duration-500 group-hover:scale-110"
-                            src='/images/industry/rialchat/Why AgentChat.webp'
-                            alt="Instant WhatsApp Conversations"
+                            src='/images/industry/rialchat/whatsapp-business-chat-interface-smartphone.webp'
+                            alt={t('whyAlt')}
                             width={0}
                             height={0}
                             sizes="100vw"
@@ -172,8 +172,8 @@ export default function Page() {
                                     {t('whyDesc')} </p>
                             </div>
                             <Image className="w-[50px] 4xl:w-[75px] 2xl:w-[70px] md:mt-20 mt-10 group-hover:invert group-hover:brightness-200"
-                                src="/images/industry/rialchat/Instant WhatsApp .svg"
-                                alt="Connect and respond"
+                                src="/images/industry/rialchat/pointing-hand-icon-call-to-action.svg"
+                                alt={t('handAlt')}
                                 width={0}
                                 height={0}
                                 sizes="100vw"
@@ -189,8 +189,8 @@ export default function Page() {
                             </div>
                             <Image
                                 className="w-[50px] 4xl:w-[83px]  2xl:w-[76px] mt-20 group-hover:invert group-hover:brightness-200"
-                                src='/images/industry/rialchat/Rapid Setup.svg'
-                                alt="Bi-Directional image"
+                                src='/images/industry/rialchat/fast-response-time-stopwatch-icon.svg'
+                                alt={t('fastAlt')}
                                 width={0}
                                 height={0}
                                 sizes="100vw"
@@ -208,8 +208,8 @@ export default function Page() {
                             </div>
                             <Image
                                 className="w-[50px] 4xl:w-[67px] 2xl:w-[64px] xl:mt-40 mt-5 group-hover:invert group-hover:brightness-200"
-                                src='/images/industry/rialchat/Real-Time Messaging.svg'
-                                alt="Our Solution to Success"
+                                src='/images/industry/rialchat/customer-support-chat-messaging-icon.svg'
+                                alt={t('supportAlt')}
                                 width={0}
                                 height={0}
                                 sizes="100vw"
@@ -225,8 +225,8 @@ export default function Page() {
                             </div>
                             <Image
                                 className="w-[50px] 4xl:w-[74px] 2xl:w-[70px] xl:mt-20 md:mt-20 mt-5 group-hover:invert group-hover:brightness-200"
-                                src='/images/industry/rialchat/Delegate Messages.svg'
-                                alt="Delegate Messages"
+                                src='/images/industry/rialchat/team-task-completion-approval-icon.svg'
+                                alt={t('taskAlt')}
                                 width={0}
                                 height={0}
                                 sizes="100vw"
@@ -240,8 +240,8 @@ export default function Page() {
                             <p className="mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]">{t('roleDesc')}</p>
                             <Image
                                 className="w-[50px] 4xl:w-[83px]  2xl:w-[76px] xl:mt-20 md:mt-20 mt-5 group-hover:invert group-hover:brightness-200"
-                                src='/images/industry/rialchat/Rapid Setup.svg'
-                                alt="Built-in Role-Based Access and Security"
+                                src='/images/industry/rialchat/fast-response-time-stopwatch-icon.svg'
+                                alt={t('fastAlt')}
                                 width={0}
                                 height={0}
                                 sizes="100vw"
@@ -331,8 +331,8 @@ export default function Page() {
                         <div className="relative">
                             <Image
                                 className="w-[194px] 4xl:w-[188px] 2xl:w-[120px] xl:w-[400px] md:w-[220px] "
-                                src='/images/industry/rialchat/Group 380.svg'
-                                alt="Our Solution to Success"
+                                src='/images/industry/rialchat/step-1-install-agentchat-appexchange.svg'
+                                alt={t('stepOne')}
                                 width={0}
                                 height={0}
                                 priority
@@ -341,9 +341,9 @@ export default function Page() {
                         </div>
                         <div className="relative">
                             <Image
-                                className="w-[194px]  4xl:w-[188px] 2xl:w-[120px] xl:w-[400px] md:w-[220px]"
-                                src='/images/industry/rialchat/Group 381.svg'
-                                alt="agent chat image"
+                                className="w-[194px] 4xl:w-[188px] 2xl:w-[120px] xl:w-[400px] md:w-[220px]"
+                                src='/images/industry/rialchat/step-2-connect-whatsapp-business-account.svg'
+                                alt={t('stepTwo')}
                                 width={0}
                                 height={0}
                                 sizes="100vw"
@@ -353,9 +353,9 @@ export default function Page() {
                         </div>
                         <div className="relative">
                             <Image
-                                className="w-[194px]  4xl:w-[188px] 2xl:w-[120px] xl:w-[400px] md:w-[220px]"
-                                src='/images/industry/rialchat/Group 382.svg'
-                                alt="agent chat image"
+                                className="w-[194px] 4xl:w-[188px] 2xl:w-[120px] xl:w-[400px] md:w-[220px]"
+                                src='/images/industry/rialchat/step-3-map-salesforce-record-types.svg'
+                                alt={t('stepThree')}
                                 width={0}
                                 height={0}
                                 sizes="100vw"
@@ -367,8 +367,8 @@ export default function Page() {
                         <div className="relative">
                             <Image
                                 className="w-[194px] 4xl:w-[188px] 2xl:w-[120px] xl:w-[400px] md:w-[220px]"
-                                src='/images/industry/rialchat/Group 383.svg'
-                                alt="agent chat image"
+                                src='/images/industry/rialchat/step-4-set-roles-permissions-teams.svg'
+                                alt={t('stepFour')}
                                 width={0}
                                 height={0}
                                 sizes="100vw"
@@ -380,8 +380,8 @@ export default function Page() {
                         <div className="relative">
                             <Image
                                 className="w-[194px] 4xl:w-[188px] 2xl:w-[120px] xl:w-[400px] md:w-[220px]"
-                                src='/images/industry/rialchat/Group 384.svg'
-                                alt="agent chat image"
+                                src='/images/industry/rialchat/step-5-start-chatting-salesforce-agentchat.svg'
+                                alt={t('stepFive')}
                                 width={0}
                                 height={0}
                                 sizes="100vw"
@@ -398,9 +398,9 @@ export default function Page() {
                     <div className="grid xl:grid-cols-12 grid-cols-1 items-center">
                         <div className="xl:col-span-4">
                             <Image
-                                className="w-[60%] md:w-[44%] "
-                                src='/images/industry/rialchat/CTA (1).svg'
-                                alt="Ready to Supercharge WhatsApp Engagement in Salesforce?"
+                                className="w-[60%] md:w-[44%]"
+                                src='/images/industry/rialchat/developer-code-presentation-training-icon.svg'
+                                alt={t('trainAlt')}
                                 width={0}
                                 height={0}
                                 sizes="100vw"
@@ -415,8 +415,8 @@ export default function Page() {
                                     <div className="flex flex-row items-center gap-4 ">
                                         <Image
                                             className="w-[50px] md:w-[60px] xl:w-[50px]"
-                                            src='/images/industry/rialchat/get started now (1).svg'
-                                            alt="Ready to Supercharge WhatsApp Engagement in Salesforce?"
+                                            src='/images/industry/rialchat/get-started-now-call-to-action.svg'
+                                            alt={t('startAlt')}
                                             width={0}
                                             height={0}
                                             sizes="100vw"
@@ -431,8 +431,8 @@ export default function Page() {
                                     <div className="flex flex-row items-center gap-4   ">
                                         <Image
                                             className="w-[50px] md:w-[60px] xl:w-[50px]"
-                                            src='/images/industry/rialchat/contact us (1).svg'
-                                            alt="agent chat images"
+                                            src='/images/industry/rialchat/contact-us-phone-support.svg'
+                                            alt={t('SupportAlt')}
                                             width={0}
                                             height={0}
                                             sizes="100vw"
@@ -448,8 +448,8 @@ export default function Page() {
                                     <div className="flex flex-row items-center gap-4  ">
                                         <Image
                                             className="w-[50px] md:w-[60px] xl:w-[50px] "
-                                            src='/images/industry/rialchat/demo (1).svg'
-                                            alt="agent chat images"
+                                            src='/images/industry/rialchat/schedule-demo-appointment-calendar.svg'
+                                            alt={t('demoAlt')}
                                             width={0}
                                             height={0}
                                             sizes="100vw"
