@@ -1,6 +1,16 @@
 {
     "sapBuyPlus": {
         "headerTitle": "SAPBuy+",
+        "whyChooseAlt": "Imagen de banner que destaca los servicios de implementación SAPBuy+ ARIBA de Rialtes con dos profesionales revisando documentos",
+        "agentchatAlt": "Captura de pantalla de la aplicación RialChat en WhatsApp que permite aprobaciones de compras en tiempo real.",
+        "seamlessIntegrationsAlt": "Diagrama de integración de SAP ARIBA con SAP S/4HANA, SuccessFactors y sistemas externos mediante SAP CPI.",
+        "suplierProfileAlt": "Visual que muestra la gestión de perfiles de proveedores en SAP ARIBA para incorporación y cumplimiento",
+        "sapbuyplusContractAlt": "ráfico que ilustra las funciones de gestión de contratos de SAP ARIBA, incluyendo creación automatizada, colaboración, firmas digitales y seguimiento de cumplimiento.",
+        "buyingAlt": "Imagen que ilustra el módulo SAP ARIBA de compras y facturación para flujos automatizados de compra a pago.",
+        "sapAribaNetworkAlt": "Gráfico que representa la red empresarial SAP ARIBA para la colaboración con proveedores y compras digitales.",
+        "sapAribaModuleAlt": "Resumen visual de los módulos SAP ARIBA para procesos de compras directas e indirectas.",
+        "unloackProcurementAlt": "Ilustración que muestra la integración de SAP ARIBA con SAP S/4HANA y aplicaciones externas para mejorar la eficiencia de compras.",
+        "sapbuyplusBannerAlt": " Imagen del banner que muestra la implementación de SAP Ariba con el texto “SAPBuyPlus – Optimice la gestión de gastos”, que representa la transformación eficiente de las compras.",
         "seoTitle": "Socio de Implementación SAP Ariba y Soluciones de Compras | Rialtes",
         "seoDescription": "Como socio líder en Ariba, Rialtes transforma compras con SAPBuy+ y servicios expertos adaptados a las necesidades de la cadena moderna.",
         "headerSubTitle": "Transforma la Excelencia en Compras con los Servicios SAPBuy+ de Rialtes para SAP ARIBA",
@@ -193,8 +203,21 @@
     },
     "successPlus": {
         "keyServiceImg": "/images/services/success-plus/key-service-spanish.webp",
+        "sapSuccessfacorAlt": " Logotipo oficial de SAP SuccessFactors con texto azul y un ícono de corazón amarillo, que representa una transformación de RRHH centrada en las personas.",
+        "agentchatIconAlt": "Icono de WhatsApp que enlaza con el soporte de Rialtes para consultas sobre SAP SuccessFactors.",
+        "agentchatAlt": "Interfaz de Rialtes AgentChat que permite soporte y comunicación automatizados en RR. HH. para usuarios de SAP SuccessFactors.",
+        "sapJuleAlt": "Panel de integración SAP ERP y SuccessFactors para operaciones de RR. HH. sin interrupciones.",
+        "extendAlt": "Ilustración que muestra las capacidades ampliadas de SAP SuccessFactors mediante los complementos SuccessPlus de Rialtes. ",
+        "successFactorAlt": "Panel de control de SAP SuccessFactors que muestra gestión unificada de RR. HH., nómina y talento. ",
+        "sapCpiAlt": "Panel de SAP Cloud Platform Integration (CPI) que muestra flujos de trabajo de RR. HH. conectados dentro de SuccessFactors. ",
+        "keySerAlt": "Ilustración que muestra los principales servicios de implementación y soporte de SAP SuccessFactors ofrecidos por Rialtes. ",
+        "workDayAlt": "Gráfico comparativo que destaca las ventajas de SAP SuccessFactors frente a Workday en la transformación de RR. HH. ",
         "keyServiceImgMobile": "/images/services/success-plus/Mobile/key-service-spanish-mobile.webp",
+        "zohoAlt": "Infografía que compara las soluciones de gestión de RR. HH. de SAP SuccessFactors y Zoho People. ",
         "headerTitle": "Success+",
+        "sapPartnerLogoAlt": "Logotipo oficial de socio SAP que representa la certificación de Rialtes en la implementación de SAP SuccessFactors. ",
+        "sapSuccessAlt": "Logotipo oficial de SAP SuccessFactors con texto azul y un ícono de corazón amarillo, que representa una transformación de RRHH centrada en las personas.",
+        "bannerAlt": "Rialtes SuccessPlus – socio de implementación de SAP SuccessFactors que ayuda a las organizaciones a optimizar su transformación de RR. HH. ",
         "seoTitle": "Consultoría e Implementación de SAP SuccessFactors | Rialtes",
         "seoDescription": "Success+ de Rialtes moderniza RRHH con consultoría e implementación SuccessFactors impulsada por IA para acelerar tu transformación HCM.",
         "headerSubTitlep1": "Transformando RRHH para",
@@ -288,20 +311,24 @@
         ],
         "migratingBenefitsData": [
             {
-                "img": "/images/services/success-plus/unified-img.svg",
-                "title": "Plataforma de RRHH unificada alineada con objetivos de negocio."
+                "img": "/images/services/success-plus/unified-hr-platform-business-goals.svg",
+                "title": "Plataforma de RRHH unificada alineada con objetivos de negocio.",
+                "alt": "Gráfico que muestra una plataforma unificada de RR. HH. alineada con los objetivos empresariales mediante SAP SuccessFactors. "
             },
             {
-                "img": "/images/services/success-plus/future-img.svg",
-                "title": "Preparación del RRHH para el futuro con IA, automatización y análisis avanzados."
+                "img": "/images/services/success-plus/future-proof-hr-ai-automation-analytics.svg",
+                "title": "Preparación del RRHH para el futuro con IA, automatización y análisis avanzados.",
+                "alt": "Ilustración de la transformación de RR. HH. preparada para el futuro mediante IA, automatización y análisis avanzados en SAP SuccessFactors. "
             },
             {
-                "img": "/images/services/success-plus/integration-img.svg",
-                "title": "Integración con sistemas SAP principales y terceros para una empresa conectada."
+                "img": "/images/services/success-plus/sap-integration-connected-enterprise.svg",
+                "title": "Integración con sistemas SAP principales y terceros para una empresa conectada.",
+                "alt": "Visualización de la integración de SAP SuccessFactors con SAP central y sistemas de terceros para una empresa conectada. "
             },
             {
-                "img": "/images/services/success-plus/global-hr-img.svg",
-                "title": "Cumplimiento global de RRHH y adaptabilidad local."
+                "img": "/images/services/success-plus/global-hr-compliance-local-adaptability.svg",
+                "title": "Cumplimiento global de RRHH y adaptabilidad local.",
+                "alt": "Imagen que representa el cumplimiento global de RR. HH. y la adaptabilidad local con SAP SuccessFactors. "
             }
         ],
         "sapActivateData": [
