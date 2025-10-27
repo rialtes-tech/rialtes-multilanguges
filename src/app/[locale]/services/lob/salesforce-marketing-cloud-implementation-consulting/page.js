@@ -185,8 +185,8 @@ export default function Page() {
             <section className="relative group overflow-hidden  lg:pb-[10rem] xs:pb-40 xl:pb-[6rem] 2xl:pb-[10rem] 4xl:pb-[12rem] sm:pb-[12rem]  pb-20">
                 <div className="xl:block hidden pt-20">
                     <Image
-                        src="/images/services/lob/advantageplus/desktop/banner.webp"
-                        alt="Advantage+ banner"
+                        src="/images/services/lob/advantageplus/desktop/rocket-launching-laptop-startup-growth-concept.webp"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                         className="objet-[49%_20%]"
@@ -194,8 +194,8 @@ export default function Page() {
                 </div>
                 <div className="xl:hidden block md:pt-64">
                     <Image
-                        src="/images/services/lob/advantageplus/mobile/banner.webp"
-                        alt="Advantage+ banner"
+                        src="/images/services/lob/advantageplus/mobile/rocket-launching-laptop-startup-growth-concept-mobile.webp"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                         className="h-full objet-[49%_20%] object-cover"
@@ -246,8 +246,8 @@ export default function Page() {
                     <div className="w-full xl:h-[1083px]">
                         <div className="xl:block hidden">
                             <Image
-                                src="/images/services/lob/advantageplus/desktop/deep-under.webp"
-                                alt="Salesforce Marketing Cloud image"
+                                src="/images/services/lob/advantageplus/desktop/business-team-digital-network-collaboration-meeting.webp"
+                                alt={t('deepAlt')}
                                 fill
                                 className="object-cover"
                                 priority
@@ -256,8 +256,8 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/services/lob/advantageplus/mobile/deep.webp"
-                                alt="Salesforce Marketing Cloud image"
+                                src="/images/services/lob/advantageplus/mobile/business-team-digital-network-collaboration-meeting-mobile.webp"
+                                alt={t('deepAlt')}
                                 priority
                                 width={0}
                                 height={0}
@@ -274,11 +274,10 @@ export default function Page() {
                         <div className="text-left mb-5">
 
                             <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[50px] text-[26px] leading-tight pt-10 2xl:pt-20 4xl:pt-16 xl:pt-10 lg:pr-0 4xl:pr-64 2xl:pr-64 xl:pr-64">
-                                Deep Salesforce Marketing Cloud Expertise</h2>
+                                {t('deepTitle')}     </h2>
 
                             <p className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] 4xl:pr-[40rem] 2xl:pr-[32rem] xl:pr-[25rem]">
-                                At Rialtes, we bring years of hands-on experience in Salesforce
-                                Marketing Cloud, covering:
+                                {t('deepDesc')}    
                             </p>
                         </div>
 
@@ -301,8 +300,8 @@ export default function Page() {
                 <div className="grid lg:grid-cols-12 grid-cols-1 xs:mt-[2rem] sm:mt-[5rem] mt-10 md:mt-[22rem]  lg:mt-[20rem] xl:mt-0 4xl:mt-0">
                     <div className="lg:col-span-7 col-span-12 4xl:pr-[60px] xl:pr-20 lg:pr-10">
                         <Image
-                            src="/images/services/lob/advantageplus/desktop/driving.webp"
-                            alt="Our expertise image"
+                            src="/images/services/lob/advantageplus/desktop/diverse-team-reviewing-digital-tablets-office.webp"
+                            alt={t('drivingAlt')}
                             priority
                             width={0}
                             height={0}
@@ -334,8 +333,8 @@ export default function Page() {
                     <div className="relative z-10 -mt-[8vh] md:-mt-[10vh] xl:-mt-[12vh] 4xl:mr-[-140px] xl:mr-[-70px] xl:ml-[80px] 4xl:ml-0">
                         <div className="xl:block hidden">
                             <Image
-                                src="/images/services/lob/advantageplus/desktop/reimage.webp"
-                                alt="Cloud Technology"
+                                src="/images/services/lob/advantageplus/desktop/woman-analyzing-cloud-computing-data-dashboard.webp"
+                                alt={t('reimaginAlt')}
                                 width={0}
                                 height={0}
                                 sizes="100vw"
@@ -345,8 +344,8 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/services/lob/advantageplus/mobile/reimage.webp"
-                                alt="Cloud Technology"
+                                src="/images/services/lob/advantageplus/mobile/woman-analyzing-cloud-computing-data-dashboard-mobile.webp"
+                                alt={t('reimaginAlt')}
                                 width={0}
                                 height={0}
                                 sizes="100vw"
@@ -401,8 +400,8 @@ export default function Page() {
             <section className="relative 4xl:mt-[9rem] mt-[1rem] xl:mt-[84px] 2xl:mt-[83px]">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/services/lob/advantageplus/desktop/agentchat.webp"
-                        alt="agentchat image"
+                        src="/images/services/lob/advantageplus/desktop/professional-businessman-using-smartphone-office.webp"
+                        alt={t('agentAlt')}
                         width={0}
                         height={0}
                         className="w-full object-cover mt-[-100px]"
@@ -412,8 +411,8 @@ export default function Page() {
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/services/lob/advantageplus/mobile/introducing-agentchat.webp"
-                        alt="agentchat image"
+                        src="/images/services/lob/advantageplus/mobile/professional-businessman-using-smartphone-office-mobile.webp"
+                        alt={t('agentAlt')}
                         width={0}
                         height={0}
                         className="w-full object-cover mt-[-100px]"
@@ -463,8 +462,8 @@ export default function Page() {
                     >
                         <div className="xl:block hidden">
                             <Image
-                                src="/images/services/lob/advantageplus/desktop/your-growth.webp"
-                                alt=" Your Growth Partners image"
+                                src="/images/services/lob/advantageplus/desktop/businesswoman-presenting-whiteboard-office-meeting.webp"
+                                alt={t('growthAlt')}
                                 width={0}
                                 height={0}
                                 className={`w-full  mt-10 xl:mt-20 object-cover
@@ -482,8 +481,8 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/services/lob/advantageplus/mobile/your-growth.webp"
-                                alt=" Your Growth Partners image"
+                                src="/images/services/lob/advantageplus/mobile/businesswoman-presenting-whiteboard-office-meeting-mobile.webp"
+                                alt={t('growthAlt')}
                                 width={0}
                                 height={0}
                                 className="w-full h-full mt-10  object-cover"

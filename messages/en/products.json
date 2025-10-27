@@ -4,7 +4,7 @@
         "seoTitle": "AgentChat: Salesforce WhatsApp Integration Made Easy | Rialtes",
         "seoDescription": "AgentChat enables WhatsApp integration with Salesforce, reducing silos and enhancing team collaboration for stronger customer engagement and higher ROI.",
         "headerSubTitle": "AgentChat:",
-         "learnMoreBtn": "Learn More",
+        "learnMoreBtn": "Learn More",
         "headerOne": " Seamless WhatsApp Conversations Inside Salesforce",
         "engageHeader": "Engage, Support, and Close Deals - All Through WhatsApp. All Inside Salesforce.",
         "engageDescOne": "AgentChat is a bi-directional WhatsApp cionversational app natively built on Salesforce, enabling your teams to connect with customers instantly, manage conversatons efficiently, and automate workflows — all without leaving Salesforce.",
@@ -69,7 +69,7 @@
                 "points": [
                     "Serve customers through dedicated teams (Sales, Support, Field Agents, Advisors).",
                     "Define who can initiate, view, or respond based on roles and business units."
-                ] 
+                ]
             },
             {
                 "title": "Salesforce-Native Security and Compliance",
@@ -124,25 +124,25 @@
         "seoDescription": "Exelona leverages AI and Salesforce for Real Estate to streamline intelligent property management, driving automation, insights, and operational excellence.",
         "features": [
             {
-                "img": "/images/products/exelona/mobile-enable.svg",
-                "alt": "Mobile Enabled",
+                "img": "/images/products/exelona/mobile-payment-icon.svg",
+                "alt": "Vector icon of a smartphone with checkmark representing secure mobile payment approval",
                 "title": "100% Mobile-Enabled",
                 "desc": "Manage leasing, maintenance, and finance on any device."
             },
             {
-                "img": "/images/products/exelona/web-chat.svg",
-                "alt": "AI Interfaces",
+                "img": "/images/products/exelona/chat-interface-icon.svg",
+                "alt": "Vector icon showing chat window and message bubbles symbolizing online communication platform",
                 "title": "Agentic AI + Conversational Interfaces",
                 "desc": "AI that automates, prioritizes, and communicates."
             },
             {
-                "img": "/images/products/exelona/crm.svg",
-                "alt": "CRM + ERP",
+                "img": "/images/products/exelona/network-integration-icon.svg",
+                "alt": "CVector icon depicting connected nodes and central light bulb symbolizing network integration and innovation",
                 "title": "CRM + ERP, Unified",
                 "desc": "One system for marketing, operations, leasing, and accounting."
             },
             {
-                "img": "/images/products/exelona/open-api.svg",
+                "img": "/images/products/exelona/cloud-development-icon.svg",
                 "alt": "Open API",
                 "title": "OPENAPI Architecture",
                 "desc": "Easily integrates with SAP, Yardi, Oracle, Salesforce, and more."
@@ -151,7 +151,8 @@
         "properties": [
             {
                 "title": "Accounts Receivable",
-                "img": "/images/products/exelona/desktop/account.webp",
+                "img": "/images/products/exelona/desktop/real-estate-agent-digital-tablet.webp",
+                "alt": "Smiling professional holding a digital tablet outside a modern apartment building, representing smart real estate management and property technology",
                 "points": [
                     "Automated tenant billing and late fee application.",
                     "Write-off approval workflows and history tracking.",
@@ -164,7 +165,8 @@
             },
             {
                 "title": "Budgeting, Forecasting & Financial Reporting",
-                "img": "/images/products/exelona/desktop/budgeting.webp",
+                "img": "/images/products/exelona/desktop/real-estate-investment-finance.webp",
+                "alt": "Miniature house model surrounded by stacks of coins on financial documents, symbolizing real estate investment and property finance",
                 "points": [
                     "Multi-year budgeting with property-level customization.",
                     "Rolling forecasts based on occupancy and lease data.",
@@ -177,7 +179,8 @@
             },
             {
                 "title": "Accounts Payable & Procurement",
-                "img": "/images/products/exelona/desktop/account-payble.webp",
+                "img": "/images/products/exelona/desktop/digital-procurement-technology.webp",
+                "alt": "Business professional using a laptop with floating digital icons representing procurement process and contract management technology",
                 "points": [
                     "Payable invoice automation and approval workflows.",
                     "Purchase order creation and receipt matching.",
@@ -190,7 +193,8 @@
             },
             {
                 "title": "Inventory & Asset Management",
-                "img": "/images/products/exelona/desktop/inventory.webp",
+                "img": "/images/products/exelona/desktop/warehouse-inventory-management.webp",
+                "alt": "Businesswoman using a digital tablet to inspect inventory in a warehouse, representing modern supply chain and logistics management",
                 "points": [
                     "Track inventory at unit, building, and warehouse level.",
                     "Manage capital assets with depreciation schedules.",
@@ -347,6 +351,14 @@
                 ]
             }
         ],
+        "bannerAlt": "Double exposure of hands holding tablet with modern cityscape and network connections representing smart city digital transformation",
+        "digitalAlt": "Abstract blue wireframe cityscape with modern skyscrapers and digital grid lines representing urban planning and architecture",
+        "assetAlt": "Miniature smart residential buildings with green landscaping displayed on digital tablet representing urban property technology ",
+        "aiAlt": "Futuristic cityscape integrated with glowing data charts and analytics graphs representing smart data-driven urban technology",
+        "excelAlt": "Hand interacting with digital tablet displaying 3D architectural model of modern buildings and smart urban design",
+        "paymentAlt": "Person using tablet to complete secure online payment with digital confirmation showing successful transaction",
+        "agentAlt": "Smiling woman using smartphone to check messages or notifications in bright modern office environment",
+        "builtAlt": "Abstract digital cloud network with binary data and glowing blue patterns symbolizing futuristic cloud computing technology",
         "headerTitle": "Exelona",
         "headerSubTitle": "Powering the Modern Real Estate Enterprise",
         "pageDesc": "Welcome to Exelona, the intelligent real estate cloud platform that unifies every step of the property lifecycle—from lead generation to financial closeout. Built for property managers, developers, and portfolio owners, Exelona delivers AI-driven automation, mobile-first experiences, and CRM + ERP convergence, all from a single platform.",
@@ -397,13 +409,24 @@
             "Enable smarter clinical trials, connected care, and digital therapeutics.",
             "Leverage Salesforce, AI, and cloud platforms for compliant innovation."
         ],
+        "bannerAlt": "Close-up of a digital eye with glowing blue and purple details, symbolizing artificial intelligence, vision technology, and data perception",
+        "": "",
+        "": "",
+        "": "",
+        "": "",
+        "": "",
+        "": "",
+        "": "",
+        "": "",
+        "": "",
+        "": "",
         "headerTitle": "MediAIna",
         "headerSubTitle": "Redefining the",
         "headerSubTitle2": "Digital Patient Journey for the Life Sciences Industry",
         "pageDesc": "MediAIna is Rialtes’ next-generation patient journey software designed to transform the healthcare patient journey. It integrates clinical, operational, and digital touchpoints across providers, payers, MedTech, and life sciences enterprises.",
         "pageDesc2": "Backed by LifeAI+, Rialtes’ specialized healthcare consulting suite, MediAIna offers intelligent, scalable, and compliant solutions that accelerate innovation, improve outcomes, and deliver human-centered healthcare at scale.",
         "visionTitle": "Rialtes LifeAI+",
-         "learnMoreBtn": "Learn More",
+        "learnMoreBtn": "Learn More",
         "visionSubTitle": "Our Vision for Life Sciences",
         "visionDesc": "As a consulting leader in digital transformation, Rialtes believes the future of healthcare is built on connected ecosystems, predictive insights, and intelligent automation. With LifeAI+, our dedicated consulting services for life sciences, we help organizations:",
         "benefitsTitle": "Benefits",
@@ -424,7 +447,7 @@
                 "deskImg": "/images/products/mediyana/desktop/patient-desktop.webp",
                 "mobImg": "/images/products/mediyana/desktop/patient-desktop.webp",
                 "imgAlt": "",
-                "bgColor":"#CCF7F5"
+                "bgColor": "#CCF7F5"
             },
             {
                 "title": "Candidate Education",
@@ -442,7 +465,7 @@
                 "deskImg": "/images/products/mediyana/desktop/candidate.webp",
                 "mobImg": "/images/products/mediyana/mobile/candidate.webp",
                 "imgAlt": "",
-                "bgColor":"#C6E7FF"
+                "bgColor": "#C6E7FF"
             },
             {
                 "title": "Digital Prior Authorization (PA)",
@@ -460,7 +483,7 @@
                 "deskImg": "/images/products/mediyana/desktop/digital.webp",
                 "mobImg": "/images/products/mediyana/mobile/digital.webp",
                 "imgAlt": "",
-                "bgColor":"#EDEDED"
+                "bgColor": "#EDEDED"
             },
             {
                 "title": "Clinical Trial Management with 360° Patient View",
@@ -478,7 +501,7 @@
                 "deskImg": "/images/products/mediyana/desktop/clinical.webp",
                 "mobImg": "/images/products/mediyana/mobile/clinical.webp",
                 "imgAlt": "",
-                "bgColor":"#CCF7F5"
+                "bgColor": "#CCF7F5"
             },
             {
                 "title": "Long-Term Care Management",
@@ -496,7 +519,7 @@
                 "deskImg": "/images/products/mediyana/desktop/long.webp",
                 "mobImg": "/images/products/mediyana/mobile/long.webp",
                 "imgAlt": "",
-                "bgColor":"#C6E7FF"
+                "bgColor": "#C6E7FF"
             },
             {
                 "title": "Body MAP App – Track Pain & Progress Visually",
@@ -514,7 +537,7 @@
                 "deskImg": "/images/products/mediyana/desktop/body.webp",
                 "mobImg": "/images/products/mediyana/mobile/body.webp",
                 "imgAlt": "",
-                "bgColor":"#EDEDED"
+                "bgColor": "#EDEDED"
             },
             {
                 "title": "Conversational Insights with Agentforce",
@@ -532,7 +555,7 @@
                 "deskImg": "/images/products/mediyana/desktop/conversational.webp",
                 "mobImg": "/images/products/mediyana/mobile/conver.webp",
                 "imgAlt": "",
-                "bgColor":"#CCF7F5"
+                "bgColor": "#CCF7F5"
             },
             {
                 "title": "Unified Intelligence with Salesforce Data Cloud",
@@ -550,7 +573,7 @@
                 "deskImg": "/images/products/mediyana/desktop/unified.webp",
                 "mobImg": "/images/products/mediyana/mobile/unified.webp",
                 "imgAlt": "",
-                "bgColor":"#C6E7FF"
+                "bgColor": "#C6E7FF"
             },
             {
                 "title": "Seamless Integration with MuleSoft + Athenahealth",
@@ -568,7 +591,7 @@
                 "deskImg": "/images/products/mediyana/desktop/seamless.webp",
                 "mobImg": "/images/products/mediyana/mobile/seamless.webp",
                 "imgAlt": "",
-                "bgColor":"#EDEDED"
+                "bgColor": "#EDEDED"
             },
             {
                 "title": "Real-Time Patient Engagement with AgentChat",
@@ -586,7 +609,7 @@
                 "deskImg": "/images/products/mediyana/desktop/real.webp",
                 "mobImg": "/images/products/mediyana/mobile/real.webp",
                 "imgAlt": "",
-                "bgColor":"#CCF7F5"
+                "bgColor": "#CCF7F5"
             },
             {
                 "title": "Order & Inventory Management Integration with ERP (SAP)",
@@ -604,7 +627,7 @@
                 "deskImg": "/images/products/mediyana/desktop/order.webp",
                 "mobImg": "/images/products/mediyana/mobile/order.webp",
                 "imgAlt": "",
-                "bgColor":"#C6E7FF"
+                "bgColor": "#C6E7FF"
             },
             {
                 "title": "Trusted by Salesforce. Certified by Rialtes.",
@@ -624,7 +647,7 @@
                 "deskImg": "/images/products/mediyana/desktop/trusted.webp",
                 "mobImg": "/images/products/mediyana/mobile/trusted.webp",
                 "imgAlt": "",
-                "bgColor":"#EDEDED"
+                "bgColor": "#EDEDED"
             }
         ],
         "contactTitle": "Let’s Begin.",

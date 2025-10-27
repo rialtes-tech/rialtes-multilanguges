@@ -83,10 +83,12 @@
     "newsDesc": "Découvrez comment nous façonnons l’avenir des entreprises à l’échelle mondiale. Votre source incontournable pour les dernières mises à jour, réalisations et innovations de Rialtes. Restez informé grâce à nos actualités, communiqués de presse et analyses sectorielles, alors que nous continuons à repousser les limites du conseil en processus, des solutions d’entreprise pilotées par l’IA et de la transformation numérique.",
     "readMore": "Lire la suite",
     "loadMore": "Charger plus",
-    "latestCaseStudy": [
+    "bannerAlt": "Personne utilisant un ordinateur portable convertible en mode tablette pour consulter des actualités en ligne, représentant les médias numériques modernes et l’utilisation de la technologie",
+    "latestNews": [
       {
         "id": 1,
-        "image": "/images/news/new-12-may.webp",
+        "image": "/images/news/salesforce-authorized-cloud-reseller.webp",
+        "alt": "Logo Salesforce Authorized Cloud Reseller sur un fond numérique futuriste bleu et violet, représentant un partenariat cloud officiel et des services technologiques",
         "industry": "Actualités",
         "date": "May 12, 2025",
         "url": "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/",
@@ -94,7 +96,8 @@
       },
       {
         "id": 2,
-        "image": "/images/news/news2.webp",
+        "image": "/images/news/digital-handshake-technology.webp",
+        "alt": "Poignée de main numérique 3D avec design en fil de fer futuriste sur fond technologique bleu, symbolisant le partenariat technologique et la collaboration numérique",
         "industry": "Actualités",
         "date": "Apr. 18, 2025",
         "url": "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/",
@@ -102,7 +105,8 @@
       },
       {
         "id": 3,
-        "image": "/images/news/generic thumb.webp",
+        "image": "/images/news/ribbon-cutting-ceremony.webp",
+        "alt": "Ciseaux dorés coupant un ruban rouge sur fond bleu, symbolisant une inauguration, une ouverture ou de nouveaux débuts",
         "industry": "Actualités",
         "date": "Apr. 4, 2025",
         "url": "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/",

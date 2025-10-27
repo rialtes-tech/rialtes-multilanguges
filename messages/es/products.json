@@ -122,25 +122,25 @@
   "exelona": {
     "features": [
       {
-        "img": "/images/products/exelona/mobile-enable.svg",
-        "alt": "Compatible con dispositivos móviles",
+        "img": "/images/products/exelona/mobile-payment-icon.svg",
+        "alt": "Icono vectorial de un teléfono inteligente con una marca de verificación que representa la aprobación segura de pagos móviles",
         "title": "100% Compatible con Móviles",
-        "desc": "Gestione arrendamientos, mantenimiento y finanzas en cualquier dispositivo."
+        "desc": "Gestiona arrendamientos, mantenimiento y finanzas desde cualquier dispositivo."
       },
       {
-        "img": "/images/products/exelona/web-chat.svg",
-        "alt": "Interfaces de IA",
+        "img": "/images/products/exelona/chat-interface-icon.svg",
+        "alt": "Icono vectorial que muestra una ventana de chat y burbujas de mensaje que simbolizan una plataforma de comunicación en línea",
         "title": "IA Agente + Interfaces Conversacionales",
-        "desc": "IA que automatiza, prioriza y comunica."
+        "desc": "IA que automatiza, prioriza y se comunica."
       },
       {
-        "img": "/images/products/exelona/crm.svg",
-        "alt": "CRM + ERP",
+        "img": "/images/products/exelona/network-integration-icon.svg",
+        "alt": "Icono vectorial que representa nodos conectados y una bombilla central que simboliza integración e innovación en red",
         "title": "CRM + ERP, Unificados",
         "desc": "Un solo sistema para marketing, operaciones, arrendamientos y contabilidad."
       },
       {
-        "img": "/images/products/exelona/open-api.svg",
+        "img": "/images/products/exelona/cloud-development-icon.svg",
         "alt": "API Abierta",
         "title": "Arquitectura OPENAPI",
         "desc": "Se integra fácilmente con SAP, Yardi, Oracle, Salesforce y más."
@@ -149,54 +149,58 @@
     "properties": [
       {
         "title": "Cuentas por Cobrar",
-        "img": "/images/products/exelona/desktop/account.webp",
+        "img": "/images/products/exelona/desktop/real-estate-agent-digital-tablet.webp",
+        "alt": "Profesional sonriente sosteniendo una tableta digital frente a un edificio moderno, representando la gestión inmobiliaria inteligente y la tecnología de propiedad",
         "points": [
-          "Facturación automatizada de inquilinos y aplicación de recargos por mora.",
-          "Flujos de aprobación de cancelaciones y seguimiento histórico.",
-          "Procesamiento de recibos y conciliación de libros contables."
+          "Facturación automática de inquilinos y aplicación de cargos por demora.",
+          "Flujos de aprobación de cancelaciones y seguimiento del historial.",
+          "Procesamiento de recibos y conciliación del libro mayor."
         ],
         "outcomes": [
           "Mayor eficiencia en la cobranza.",
-          "Visibilidad en tiempo real de cuentas por cobrar en todas las propiedades."
+          "Visibilidad en tiempo real de las cuentas por cobrar en todas las propiedades."
         ]
       },
       {
-        "title": "Presupuestación, Pronósticos y Reportes Financieros",
-        "img": "/images/products/exelona/desktop/budgeting.webp",
+        "title": "Presupuestación, Pronóstico y Reportes Financieros",
+        "img": "/images/products/exelona/desktop/real-estate-investment-finance.webp",
+        "alt": "Modelo de casa en miniatura rodeado de pilas de monedas sobre documentos financieros, simbolizando la inversión inmobiliaria y las finanzas de propiedad",
         "points": [
-          "Presupuestos plurianuales con personalización a nivel de propiedad.",
-          "Pronósticos continuos basados en ocupación y datos de arrendamiento.",
-          "Estados financieros: Balance general, Balance de comprobación, Estado de resultados."
+          "Presupuestos multianuales con personalización a nivel de propiedad.",
+          "Pronósticos continuos basados en datos de ocupación y arrendamiento.",
+          "Estados financieros: Balance General, Balance de Comprobación, Estado de Resultados."
         ],
         "outcomes": [
           "Planificación financiera precisa y dinámica.",
-          "Reportes en tiempo real listos para la junta directiva."
+          "Informes en tiempo real listos para el consejo directivo."
         ]
       },
       {
         "title": "Cuentas por Pagar y Adquisiciones",
-        "img": "/images/products/exelona/desktop/account-payble.webp",
+        "img": "/images/products/exelona/desktop/digital-procurement-technology.webp",
+        "alt": "Profesional de negocios utilizando una computadora portátil con íconos digitales flotantes que representan el proceso de adquisiciones y la gestión de contratos",
         "points": [
           "Automatización de facturas por pagar y flujos de aprobación.",
           "Creación de órdenes de compra y conciliación de recibos.",
-          "Programación de pagos multimodo y gestión de proveedores."
+          "Programación de pagos en múltiples modos y gestión de proveedores."
         ],
         "outcomes": [
           "Compras centralizadas y cumplimiento de auditoría.",
-          "Control de gastos transparente en todo su portafolio."
+          "Control transparente del gasto en todo el portafolio."
         ]
       },
       {
         "title": "Gestión de Inventario y Activos",
-        "img": "/images/products/exelona/desktop/inventory.webp",
+        "img": "/images/products/exelona/desktop/warehouse-inventory-management.webp",
+        "alt": "Empresaria utilizando una tableta digital para inspeccionar inventario en un almacén, representando la gestión moderna de cadena de suministro y logística",
         "points": [
-          "Seguimiento de inventario a nivel de unidad, edificio y almacén.",
+          "Seguimiento del inventario a nivel de unidad, edificio y almacén.",
           "Gestión de activos de capital con cronogramas de depreciación.",
           "Pronóstico de mantenimiento y reemplazo."
         ],
         "outcomes": [
-          "Mejor utilización y precisión de los activos.",
-          "Alineación financiera con la estrategia de CAPEX."
+          "Mejor utilización y precisión de activos.",
+          "Alineación financiera con la estrategia CAPEX."
         ]
       }
     ],
@@ -345,6 +349,14 @@
         ]
       }
     ],
+    "bannerAlt": "Doble exposición de manos sosteniendo tableta con paisaje urbano moderno y conexiones de red representando transformación digital de ciudad inteligente",
+    "digitalAlt": "Paisaje urbano abstracto en wireframe azul con rascacielos modernos y líneas de cuadrícula digital representando planificación urbana y arquitectura",
+    "assetAlt": "Edificios residenciales inteligentes en miniatura con paisajismo verde mostrados en tableta digital representando tecnología de propiedad urbana",
+    "aiAlt": "Paisaje urbano futurista con gráficos de datos y análisis brillantes que representan tecnología urbana impulsada por datos",
+    "excelAlt": "Mano interactuando con tableta digital que muestra modelo arquitectónico 3D de edificios modernos y diseño urbano inteligente",
+    "paymentAlt": "Persona usa tableta para completar pago en línea seguro con confirmación digital que muestra transacción exitosa",
+    "agentAlt": "Mujer sonriente usa teléfono inteligente para revisar mensajes o notificaciones en un entorno de oficina moderno y luminoso",
+    "builtAlt": "Red digital abstracta en la nube con datos binarios y patrones azules brillantes que simbolizan la tecnología de computación en la nube",
     "headerTitle": "Exelona",
     "seoTitle": "Exelona™ – Salesforce para Gestión Inmobiliaria | Rialtes",
     "seoDescription": "Exelona combina IA y Salesforce para gestión inmobiliaria inteligente, con automatización, insights y excelencia operativa.",
@@ -395,6 +407,7 @@
       "Habilite ensayos clínicos más inteligentes, atención conectada y terapias digitales.",
       "Aproveche Salesforce, IA y plataformas en la nube para una innovación cumpliendo con la normativa."
     ],
+    "bannerAlt": "Primer plano de un ojo digital con detalles brillantes en azul y púrpura, que simboliza la inteligencia artificial, la tecnología de visión y la percepción de datos",
     "headerTitle": "MediAIna",
     "seoTitle": "MediAIna - Redefiniendo el Mapeo del Viaje del Paciente en Salud",
     "seoDescription": "MediAIna pone al paciente en el centro con Salesforce Cloud y LifeAI+ de Rialtes para una atención conectada y verdaderamente humana.",
