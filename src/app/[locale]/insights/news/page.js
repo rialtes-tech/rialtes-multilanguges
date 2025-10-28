@@ -126,8 +126,8 @@ export default function Page() {
       <section className="relative group overflow-hidden h-[350px] md:h-[500px] 4xl:h-[650px]">
         <div className="hidden md:block">
           <Image
-            src="/images/news/news header.webp"
-            alt="desktop banner"
+            src="/images/news/digital-news-on-tablet.webp"
+            alt={t('bannerAlt')}
             fill
             priority
             className="transform transition-transform duration-500 group-hover:scale-110"
@@ -136,8 +136,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
-            src="/images/news/news_mobile_banner.webp"
-            alt="mobile banner"
+            src="/images/news/digital-news-on-tablet-mobile.webp"
+            alt={t('bannerAlt')}
             fill
             priority
           />
