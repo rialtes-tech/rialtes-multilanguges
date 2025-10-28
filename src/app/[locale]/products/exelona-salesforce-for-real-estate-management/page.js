@@ -121,8 +121,8 @@ export default function Page() {
                 <div className="xl:absolute inset-0 z-0">
                     <div className="hidden xl:block w-full h-full">
                         <Image
-                            src="/images/products/exelona/desktop/banner-desk.webp"
-                            alt="grow with sap banner desktop"
+                            src="/images/products/exelona/desktop/smart-city-digital-transformation-concept.webp"
+                            alt={t('bannerAlt')}
                             priority
                             fill
                             className="object-cover"
@@ -132,8 +132,8 @@ export default function Page() {
                     {/* Mobile Banner */}
                     <div className="block xl:hidden w-full h-full">
                         <Image
-                            src="/images/products/exelona/mobile/mobile-banner.webp"
-                            alt="grow with sap banner mobile"
+                            src="/images/products/exelona/mobile/smart-city-digital-transformation-concept-mobile.webp"
+                            alt={t('bannerAlt')}
                             priority
                             fill
                             className="object-cover"
@@ -145,9 +145,9 @@ export default function Page() {
                 <div className="absolute xl:bottom-0 xl:right-0 right-[-185px] bottom-[-59px] z-10">
                     <Image
                         src="/images/products/exelona/desktop/mask.webp"
-                        alt="mask decoration"
-                        width={500}   
-                        height={500}  
+                        alt="image mask"
+                        width={500}
+                        height={500}
                         className="object-contain"
                         priority
                     />
@@ -160,11 +160,11 @@ export default function Page() {
                         <div className="xl:col-span-12 col-span-12 pr-5 text-white">
                             <h1 className="leading-tight break-words 4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:pr-0 md:pr-40 pr-10">
                                 <span className="text-white text-[24px] xl:text-[60px] 2xl:text-[80px] 4xl:text-[105px] mb-2 break-words">
-                                  {t('headerTitle')}  
+                                    {t('headerTitle')}
                                     <span className="align-super inline-block w-5 h-5 xl:w-12 xl:h-12">
                                         <Image
                                             src="/images/products/exelona/desktop/trademark.png"
-                                            alt="mask decoration"
+                                            alt="trademark logo"
                                             width={500}
                                             height={500}
                                             className="object-contain mt-1"
@@ -174,7 +174,7 @@ export default function Page() {
                                 </span>
                             </h1>
                             <h2 className="xl:font-bold font-semibold leading-tight pb-10 xl:pb-0 text-[20px] 4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] mt-5 pr-16 4xl:pr-0 2xl:pr-0 xl:pr-0">
-                             {t('headerSubTitle')}   
+                                {t('headerSubTitle')}
                             </h2>
                         </div>
                     </div>
@@ -186,14 +186,14 @@ export default function Page() {
                 <div className="grid grid-cols-12 bg-[#134874] custom-container 4xl:pr-0 2xl:pr-0 xl:pr-0">
                     <div className="xl:col-span-7 4xl:col-span-6 col-span-12 mt-10 4xl:pb-20 xl:pb-20 pb-10 4xl:pr-24 xl:pr-0 2xl:pr-0 pr-10">
                         <p className="text-white font-light leading-tight">
-                         {t('pageDesc')}   
+                            {t('pageDesc')}
                         </p>
                     </div>
                     <div className="xl:col-span-5 4xl:col-span-6 col-span-12 relative ">
                         <div className="absolute bottom-0 right-0 z-10 xl:block hidden">
                             <Image
                                 src="/images/products/exelona/desktop/mask.webp"
-                                alt="mask decoration"
+                                alt="image mask"
                                 width={500}
                                 height={500}
                                 className="object-contain"
@@ -208,16 +208,16 @@ export default function Page() {
             <section className="relative group overflow-hidden 2xl:pb-0 4xl:pb-0 bg-[#134874]">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/products/exelona/desktop/your-desktop.webp"
-                        alt="grow with sap banner"
+                        src="/images/products/exelona/desktop/abstract-digital-city-wireframe-architecture.webp"
+                        alt={t('digitalAlt')}
                         fill
                         priority
                     />
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/products/exelona/mobile/your.webp"
-                        alt="grow with sap banner"
+                        src="/images/products/exelona/mobile/abstract-digital-city-wireframe-architecture-mobile.webp"
+                        alt={t('digitalAlt')}
                         fill
                         priority
                         className="transform transition-transform duration-500 group-hover:scale-110"
@@ -250,7 +250,7 @@ export default function Page() {
                         ))}
                     </div>
                     <div className="mt-[62px] xl:mt-[72px]">
-                           <LearnMore btnName={t('learnMoreBtn')} bgcolor="#0A6BB8" bordercolor="#0A6BB8" href="https://www.rialtes.com/industry/real-estate-property-management/" />
+                        <LearnMore btnName={t('learnMoreBtn')} bgcolor="#0A6BB8" bordercolor="#0A6BB8" href="https://www.rialtes.com/industry/real-estate-property-management/" />
                     </div>
                 </div>
 
@@ -261,21 +261,21 @@ export default function Page() {
                     {/* Left Content */}
                     <div className="text-white">
                         <h2 className="min-[400px]:w-[80%] sm:w-full 4xl:text-[60px] 2x:text-[40px] xl:text-[40px] md:text-[30px] font-light leading-tight text-white mt-20">
-                         {t('assetMarketingTitle')}   
+                            {t('assetMarketingTitle')}
                         </h2>
                         <h3 className="mt-8 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] font-semibold text-white">
-                         {t('assetMarketingSubTitle')}   
+                            {t('assetMarketingSubTitle')}
                         </h3>
                         <p className="mt-4 text-gray-200 leading-tight 4xl:w-[90%] min-[400px]:w-[90%] sm:w-full">
-                          {t('assetMarketingDesc')}  
+                            {t('assetMarketingDesc')}
                         </p>
                     </div>
 
                     {/* Right Image */}
                     <div className="mt-[34px]">
                         <Image
-                            src="/images/products/exelona/desktop/asset-marketing.webp"
-                            alt="Asset Marketing"
+                            src="/images/products/exelona/desktop/smart-city-residential-complex-tablet.webp"
+                            alt={t('assetAlt')}
                             width={0}
                             height={0}
                             className="object-cover h-full w-full xl:pt-[40px]"
@@ -299,7 +299,7 @@ export default function Page() {
                     {/* Buttons */}
                     <div className="flex mt-[50px] lg:gap-[57px] max-lg:flex-col max-lg:gap-[36px] justify-between">
                         <div>
-                             <LearnMore btnName={t('learnMoreBtn')} bgcolor="#0A6BB8" bordercolor="#0A6BB8" hoverTextColor="black" />
+                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#0A6BB8" bordercolor="#0A6BB8" hoverTextColor="black" />
                         </div>
                         <div>
                             <p className={`bg-[#0A6BB8] text-white  md:py-[12px] md:px-[32px] py-[14px] px-[20px] md:mt-[23px] min-[400px]:w-[90%] sm:w-fit"
@@ -309,7 +309,7 @@ export default function Page() {
                                         ? "4xl:text-[17px] 2xl:text-[16px] xl:text-[14px] text-[18px]"
                                         : "4xl:text-[24px] xl:text-[20px] text-[18px]"
                                 }`}
-                            
+
                             > {t('assetMarketingBlueBox')}</p>
                         </div>
                     </div>
@@ -322,8 +322,8 @@ export default function Page() {
                     {/* Left Side - Image */}
                     <div className="lg:col-span-4 col-span-12 relative 4xl:my-16 2xl:my-14 lg:my-12 z-[9] 4xl:mr-[-140px] 2xl:m4-[100px] lg:mr-[-80px] mt-[-100px] ">
                         <img
-                            src="/images/products/exelona/desktop/ai-enable.webp"
-                            alt="AI Property Operations"
+                            src="/images/products/exelona/desktop/futuristic-data-analytics-city.webp"
+                            alt={t('aiAlt')}
                             className="w-full h-full object-cover max-lg:px-[35px] md:h-[700px] lg:h-full"
                         />
                     </div>
@@ -333,14 +333,14 @@ export default function Page() {
 
                         {/* Text content */}
                         <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px] text-[#0A2E4D] leading-tight mb-4">
-                          {t('aiEnabledTitle')}  
+                            {t('aiEnabledTitle')}
                         </h2>
 
                         <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] text-black mb-2 leading-tight">
-                        {t('aiEnabledDesc')}    
+                            {t('aiEnabledDesc')}
                         </p>
                         <p className="text-gray-700 mb-6 max-w-2xl mt-6">
-                        {t('aiEnabledDesc2')}    
+                            {t('aiEnabledDesc2')}
                         </p>
 
                         {/* Features + Outcomes */}
@@ -359,20 +359,20 @@ export default function Page() {
 
                         {/* Buttons */}
                         <div className="mt-16 xl:mt-0 xl:flex gap-8 xl:gap-10 4xl:mt-[65px] items-end">
-                          
-                             <LearnMore btnName={t('learnMoreBtn')} />
+
+                            <LearnMore btnName={t('learnMoreBtn')} />
                             <div>
                                 <p className={`bg-[#0A6BB8] mt-10 w-fit xl:mt-[20px] px-6 py-[14px] text-white text-left
                                 
                                   ${locale === "es"
-                                    ? "4xl:text-[23px] 2xl:text-[18px] xl:text-[14px] text-[18px]"
-                                    : locale === "fr"
-                                        ? "4xl:text-[20px] 2xl:text-[16px] xl:text-[12px] text-[18px]"
-                                        : "4xl:text-[26px] text-[18px] xl:text-[16px]"
-                                }`}
-                            
+                                        ? "4xl:text-[23px] 2xl:text-[18px] xl:text-[14px] text-[18px]"
+                                        : locale === "fr"
+                                            ? "4xl:text-[20px] 2xl:text-[16px] xl:text-[12px] text-[18px]"
+                                            : "4xl:text-[26px] text-[18px] xl:text-[16px]"
+                                    }`}
+
                                 >
-                                {t('aiEnabledBlueBox')}    
+                                    {t('aiEnabledBlueBox')}
                                 </p>
                             </div>
                         </div>
@@ -395,7 +395,7 @@ export default function Page() {
                                 <div className="order-first lg:order-none mt-10 lg:mt-0">
                                     <Image
                                         src={feature.img}
-                                        alt={feature.title}
+                                        alt={feature.alt}
                                         width={600}
                                         height={400}
                                         className="object-cover w-full h-full"
@@ -409,7 +409,7 @@ export default function Page() {
                                     </h3>
                                     <UnorderedList arrName={feature.points} ulClassName="list-disc pl-5 space-y-5 mb-4 text-white 4xl:text-[20px] text-[16px]" liClassName="" />
                                     <h4 className="font-semibold text-white mt-10 4xl:text-[22px] text-[18px]">
-                                     {t('outcomeTitle')}   
+                                        {t('outcomeTitle')}
                                     </h4>
                                     <UnorderedList arrName={feature.outcomes} ulClassName="list-disc pl-5 space-y-5 text-white mt-4 4xl:text-[20px] text-[16px] min-[400px]:w-[90%] sm:w-full" liClassName="" />
                                 </div>
@@ -420,11 +420,11 @@ export default function Page() {
                     </div>
                     <div className="mt-16 md:flex items-end gap-8 md:gap-10 2xl:gap-10 4xl:mt-24 max-md:pr-[35px]">
                         <>
-                             <LearnMore btnName={t('learnMoreBtn')}  bgcolor="#073259" bordercolor="#073259" />
+                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#073259" bordercolor="#073259" />
                         </>
                         <>
                             <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[22px] text-[18px] xl:text-[16px] w-fit">
-                               {t('propertyBlueBox')} 
+                                {t('propertyBlueBox')}
                             </p>
                         </>
                     </div>
@@ -434,8 +434,8 @@ export default function Page() {
                     {/* Left Side - Image */}
                     <div className="relative xl:col-span-4 col-span-12">
                         <Image
-                            src="/images/products/exelona/desktop/excel-persona.webp"
-                            alt="ExelPersona Preview"
+                            src="/images/products/exelona/desktop/digital-architecture-3d-model.webp"
+                            alt={t('excelAlt')}
                             className="object-cover w-full xl:h-full h-[300px] md:h-[500px] md:w-[800px]"
                             priority
                             width={1000}
@@ -446,10 +446,10 @@ export default function Page() {
                     {/* Right Side - Content */}
                     <div className="4xl:px-16 text-white xl:col-span-8 col-span-12 2xl:px-14 xl:px-14">
                         <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] font-light leading-tight mt-10 xl:mt-0 4xl:mt-0 2xl:mt-0">
-                           {t('excelPersonaTitle')}  <span className="align-super inline-block ml-[-6px] md:ml-[-8px] w-4 h-4 xl:w-6 xl:h-6">
+                            {t('excelPersonaTitle')}  <span className="align-super inline-block ml-[-6px] md:ml-[-8px] w-4 h-4 xl:w-6 xl:h-6">
                                 <Image
                                     src="/images/products/exelona/desktop/trademark.png"
-                                    alt="mask decoration"
+                                    alt="trademark logo"
                                     width={500}
                                     height={500}
                                     className="object-contain mt-[2px]"
@@ -458,10 +458,10 @@ export default function Page() {
                             </span> – {t('excelPersonaTitle2')}
                         </h2>
                         <h3 className="mt-8 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] text-[18px] font-semibold leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32 min-[400px]:w-[90%] sm:w-full">
-                          {t('excelPersonaSubTitle')}  
+                            {t('excelPersonaSubTitle')}
                         </h3>
                         <p className="mt-8 4xl:text-[20px] text-base 4xl:pr-[28rem] 2xl:pr-[20rem] xl:pr-[13rem] pr-10">
-                         {t('excelPersonaDesc')}   
+                            {t('excelPersonaDesc')}
                         </p>
 
                         {/* Two Column Features + Outcomes */}
@@ -482,7 +482,7 @@ export default function Page() {
                         {/* CTA Button */}
                         <div className="mt-16 lg:flex gap-8 lg:gap-5 2xl:gap-10 4xl:mt-24 items-end">
                             <>
-                                 <LearnMore btnName={t('learnMoreBtn')} bgcolor="#073259" bordercolor="#073259"/>
+                                <LearnMore btnName={t('learnMoreBtn')} bgcolor="#073259" bordercolor="#073259" />
                             </>
                             <p className={`bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 w-fit text-white text-left  4xl:w-[60%]
                               ${locale === "es"
@@ -491,10 +491,10 @@ export default function Page() {
                                         ? "4xl:text-[20px] 2xl:text-[16px] xl:text-[12px] text-[18px]"
                                         : "4xl:text-[26px] text-[18px] xl:text-[16px]"
                                 }`}
-                            
+
 
                             >
-                               {t('excelPersonaBlueBox')} 
+                                {t('excelPersonaBlueBox')}
                             </p>
                         </div>
                     </div>
@@ -509,10 +509,10 @@ export default function Page() {
                     pl-10 order-last xl:order-first mt-[-230px] 4xl:mt-0 2xl:mt-0 xl:mt-0 max-xl:px-[35px]">
                             {/* Text content */}
                             <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px] text-[#0A2E4D] leading-tight mb-4 pt-[17rem] xl:pt-14 4xl:pt-20 2xl:pt-16 3xl:w-[90%]">
-                              {t('excelPayTitle')}  <span className="align-super inline-block ml-[6px] w-4 h-4 xl:w-6 xl:h-6">
+                                {t('excelPayTitle')}  <span className="align-super inline-block ml-[6px] w-4 h-4 xl:w-6 xl:h-6">
                                     <Image
                                         src="/images/products/exelona/desktop/black-trademark.png"
-                                        alt="mask decoration"
+                                        alt="trademark logo"
                                         width={500}
                                         height={500}
                                         className="object-contain mt-[2px]"
@@ -522,10 +522,10 @@ export default function Page() {
                             </h2>
 
                             <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] text-black mb-2 leading-tight 4xl:pr-[12rem]">
-                             {t('excelPayDesc')}   
+                                {t('excelPayDesc')}
                             </p>
                             <p className="text-gray-700 mb-6 max-w-2xl mt-6">
-                             {t('excelPayDesc2')}   
+                                {t('excelPayDesc2')}
                             </p>
 
                             {/* Features + Outcomes */}
@@ -547,18 +547,18 @@ export default function Page() {
                             {/* Buttons */}
                             <div className="lg:flex gap-8 xl:gap-5 2xl:gap-10 xl:mt-[65px] mt-[36px] items-end">
                                 <div>
-                                     <LearnMore btnName={t('learnMoreBtn')}  bgcolor="#073259" bordercolor="#073259"/>
+                                    <LearnMore btnName={t('learnMoreBtn')} bgcolor="#073259" bordercolor="#073259" />
                                 </div>
                                 <p className={`bg-[#0A6BB8] w-fit mt-10 xl:mt-0 px-6 py-3 text-white text-left 
                                  ${locale === "es"
-                                    ? "4xl:text-[22px] text-[18px] xl:text-[17px]"
-                                    : locale === "fr"
-                                        ? "4xl:text-[18px] 2xl:text-[17px] xl:text-[12px] text-[18px]"
-                                        : "4xl:text-[22px] text-[18px] xl:text-[18px]"
-                                }`}
-                                
+                                        ? "4xl:text-[22px] text-[18px] xl:text-[17px]"
+                                        : locale === "fr"
+                                            ? "4xl:text-[18px] 2xl:text-[17px] xl:text-[12px] text-[18px]"
+                                            : "4xl:text-[22px] text-[18px] xl:text-[18px]"
+                                    }`}
+
                                 >
-                                {t('excelPayBlueBox')}    
+                                    {t('excelPayBlueBox')}
                                 </p>
                             </div>
 
@@ -566,8 +566,8 @@ export default function Page() {
 
                         <div className="xl:col-span-1 4xl:ml-[-445px] 2xl:ml-[-440px] xl:ml-[-395px] col-span-12 relative 4xl:my-16 2xl:my-14 xl:my-12 z-[9] order-first xl:order-last">
                             <Image
-                                src="/images/products/exelona/desktop/payment.webp"
-                                alt="AI Property Operations"
+                                src="/images/products/exelona/desktop/digital-payment-success.webp"
+                                alt={t('paymentAlt')}
                                 className="w-full h-full object-cover max-xl:px-[36px] sm:h-[700px] xl:h-full 4xl:h-[740px]"
                                 priority
                                 width={0}
@@ -580,8 +580,8 @@ export default function Page() {
                 <section className="custom-container mx-auto grid xl:grid-cols-12 gap-0 items-stretch 4xl:pl-[140px] 2xl:pl-[100px] xl:pl-[80px] 2xl:px-0 xl:px-0 max-xl:px-0 max-xl:bg-[#073259] max-xl:mt-[300px] xl:mt-20">
                     <div className="xl:col-span-3 col-span-12 relative 4xl:mt-16 2xl:mt-14 xl:mt-12 z-[9] 4xl:mr-[-140px] xl:mr-[-80px] mt-[-200px]">
                         <img
-                            src="/images/products/exelona/desktop/agentchat.webp"
-                            alt="AI Property Operations"
+                            src="/images/products/exelona/desktop/woman-using-smartphone-happily.webp"
+                            alt={t('agentAlt')}
                             className="w-full h-full object-cover max-xl:px-[36px]"
                         />
                     </div>
@@ -589,14 +589,14 @@ export default function Page() {
                     <div className="xl:col-span-9 4xl:mt-0 xl:mt-0 2xl:mt-0 xl:mb-20 col-span-12 bg-[#073259] text-white xl:relative 4xl:pl-[315px] 4xl:ml-[-100px] 4xl:pr-[150px] 2xl:px-[150px] xl:pl-[130px] xl:pr-[100px] px-10">
 
                         <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px] leading-tight mb-4 pt-[49px] xl:pt-14 4xl:pt-20 2xl:pt-16 min-[400px]:w-[90%] sm:w-full">
-                         {t('agentchatTitle')}   
+                            {t('agentchatTitle')}
                         </h2>
 
                         <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] mb-2 leading-tight">
-                          {t('agentChatDesc')}  
+                            {t('agentChatDesc')}
                         </p>
                         <p className="mb-6 mt-6 leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32">
-                         {t('agentChatDesc2')}   
+                            {t('agentChatDesc2')}
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xl:gap-0 xl:mt-[62px]">
@@ -615,20 +615,20 @@ export default function Page() {
                         {/* Buttons */}
                         <div className="mt-16 xl:mt-0 md:flex gap-8 md:gap-5 2xl:gap-10 4xl:mt-[65px] items-end">
                             <>
-                                 <LearnMore btnName={t('learnMoreBtn')} bgcolor="#134874" bordercolor="#134874"/>
+                                <LearnMore btnName={t('learnMoreBtn')} bgcolor="#134874" bordercolor="#134874" />
                             </>
                             <div>
                                 <p className={`bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-[13px] text-white text-left  w-fit
                                 
-  ${locale === "es"
-                                    ? "4xl:text-[22px] 2xl:text-[17px] xl:text-[14px] text-[18px]"
-                                    : locale === "fr"
-                                        ? "4xl:text-[20px] 2xl:text-[16px] xl:text-[13px] text-[18px]"
-                                        : "4xl:text-[26px] text-[18px] xl:text-[16px]"
-                                }`}
+                                        ${locale === "es"
+                                        ? "4xl:text-[22px] 2xl:text-[17px] xl:text-[14px] text-[18px]"
+                                        : locale === "fr"
+                                            ? "4xl:text-[20px] 2xl:text-[16px] xl:text-[13px] text-[18px]"
+                                            : "4xl:text-[26px] text-[18px] xl:text-[16px]"
+                                    }`}
 
                                 >
-                                  {t('agentChatBlueBox')}  
+                                    {t('agentChatBlueBox')}
                                 </p>
                             </div>
 
@@ -640,13 +640,13 @@ export default function Page() {
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 xl:gap-10 4xl:gap-[80px]">
                         <div className="xl:col-span-7 col-span-12">
                             <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px]  leading-tight text-white font-light">
-                             {t('builtTitle')}   
+                                {t('builtTitle')}
                             </h2>
                         </div>
 
                         <div className="xl:col-span-5 col-span-12 max-lg:mt-[23px]">
                             <p className="text-lg leading-relaxed text-gray-200 4xl:w-[86%]">
-                             {t('builtDesc')}   
+                                {t('builtDesc')}
                             </p>
                         </div>
                     </div>
@@ -669,8 +669,8 @@ export default function Page() {
             <section className="relative">
                 <div className="lg:block hidden">
                     <Image
-                        src="/images/products/exelona/desktop/built-on.webp"
-                        alt="grow with sap banner"
+                        src="/images/products/exelona/desktop/cloud-data-digital-network.webp"
+                        alt={t('builtAlt')}
                         fill
                         priority
                     />
@@ -678,8 +678,8 @@ export default function Page() {
 
                 <div className="lg:hidden block">
                     <Image
-                        src="/images/products/exelona/mobile/built-on.webp"
-                        alt="grow with sap banner"
+                        src="/images/products/exelona/mobile/cloud-data-digital-network-mobile.webp"
+                        alt={t('builtAlt')}
                         fill
                         priority
                         className="transform transition-transform duration-500 group-hover:scale-110"
@@ -692,23 +692,23 @@ export default function Page() {
                         <div className="absolute inset-0 bg-[#068EDA] mix-blend-multiply"></div>
                         <div className="relative pt-[63px] xl:pt-[80px] text-white xl:px-[81px] px-[36px] md:w-[90%] lg:w-full">
                             <h2 className="font-light 4xl:text-[60px] xl:text-[40px] text-[26px]">
-                              {t('salesforceTitle')}  
+                                {t('salesforceTitle')}
                             </h2>
                             <h3 className="font-semibold 4xl:text-[40px] xl:text-[30px] text-[18px] xl:mt-[24px] mt-[22px]">
-                              {t('salesforceSubTitle')}  
+                                {t('salesforceSubTitle')}
                             </h3>
                             <p className="font-light 4xl:text-[20px] xl:text-[18px] text-[16px] xl:mt-[33px] mt-[22px]">
-                              {t('headerTitle')}  Exelona<span className="align-super inline-block ml-[1px] w-3 h-3 xl:w-4 xl:h-4">
+                                {t('headerTitle')}  Exelona<span className="align-super inline-block ml-[1px] w-3 h-3 xl:w-4 xl:h-4">
                                     <Image
                                         src="/images/products/exelona/desktop/trademark.png"
-                                        alt="mask decoration"
+                                        alt="trademark logo"
                                         width={500}
                                         height={500}
                                         className="object-contain md:mt-[5px]"
                                         priority
                                     />
-                                </span> 
-                                {t('salesforceDesc')} 
+                                </span>
+                                {t('salesforceDesc')}
                             </p>
                             <div className="grid lg:grid-cols-2 grid-cols-1 gap-[29px] lg:gap-[40px]">
                                 {
@@ -742,11 +742,11 @@ export default function Page() {
 
                         <div className="md:flex items-end gap-8 md:gap-10 2xl:gap-10 bottom-0 max-lg:mx-[36px] lg:right-0 absolute ">
                             <>
-                                 <LearnMore btnName={t('learnMoreBtn')} bgcolor="#073259" bordercolor="#073259"/>
+                                <LearnMore btnName={t('learnMoreBtn')} bgcolor="#073259" bordercolor="#073259" />
                             </>
                             <>
                                 <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] min-[400px]:w-[96%] sm:w-fit">
-                                 {t('salesforceBlueBox')}   
+                                    {t('salesforceBlueBox')}
                                 </p>
                             </>
                         </div>
@@ -758,7 +758,7 @@ export default function Page() {
                 <ContactForm title={'Ready to Transform Your Real Estate Business?'} subtitle={"Let’s build it, automate it, and grow it—with Exelona."} className={"leading-tight  xl:w-[70%] 4xl:text-[60px] xl:text-[40px]"} beginBtnBg="#006FBE" />
 
                 <h3 className="font-semibold 4xl:text-[40px] xl:text-[30px] text-[18px] xl:mt-[91px] mt-[62px]">
-                {t('trustedTitle')}    
+                    {t('trustedTitle')}
                 </h3>
             </section>
         </div>

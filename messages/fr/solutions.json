@@ -1085,6 +1085,18 @@
     "contactSubTitle2": "Contactez-nous dès aujourd’hui pour une consultation gratuite et découvrez comment nous pouvons renforcer votre entreprise connectée !"
   },
   "uiPath": {
+    "bannerAlt":"Circuit imprimé numérique abstrait avec chemins bleus lumineux et nœuds de données colorés représentant services UiPath RPA",
+    "uiAlt":"Logo UiPath Agentic Automation avec texte noir et accent orange représentant plateforme d'automatisation robotique intelligente",
+    "rpaAlt":"Main tenant réseau numérique lumineux avec nœuds connectés cyan et rouges représentant innovation IA et données numériques",
+    "chainALt":"Colis empilés sur une tablette avec icônes logistiques numériques, illustrant la chaîne d’approvisionnement intelligente",
+    "hanaAlt": "Personne analysant les données d’entrepôt en temps réel sur une tablette, illustrant la gestion intelligente des stocks",
+    "autoAlt": "Main interagissant avec un tableau de bord RH numérique affichant profils, évaluations et analyses de performance",
+    "digiAlt": "Main touchant hub de réseau numérique avec icônes connectées représentant communication d'affaires globale et analytique",
+    "industryAlt": "Plaquette de silicium semi-conducteur colorée avec motifs de circuits de micropuce en bleu vert jaune et rouge en fabrication",
+    "dataAlt": "Main tenant loupe examinant graphiques de données financières et diagrammes circulaires sur tableau de bord analytique",
+    "aiAlt":"Main touchant icône cerveau holographique avec circuits symbolisant l'IA et technologie d'apprentissage automatique",
+    "provenAlt":"Professionnels analysant données sur écrans multiples affichant graphiques et analyses dans bureau moderne",
+    "meetAlt":"Femme d'affaires présentant graphiques et données sur écran à l'équipe lors de réunion en salle de conférence",
     "headerTitle": "Services UiPath RPA",
     "seoTitle": "Services et Solutions de Conseil RPA avec UiPath | Rialtes",
     "seoDescription": "Vous cherchez un expert RPA ? Rialtes automatise vos flux SAP et Salesforce avec UiPath pour réduire les coûts et augmenter l’efficacité.",
@@ -1130,23 +1142,27 @@
     "industryDesc": "Rialtes propose des accélérateurs RPA spécifiques aux secteurs pour un déploiement rapide dans :",
     "featureBoxes2": [
       {
-        "icon": "/images/uipath/manufcature.svg",
+        "icon": "/images/uipath/manufacturing-automation-industry-icon.svg",
         "title": "Manufacturing",
+        "alt":"Icône bleue de bras robotique et convoyeur représentant automatisation industrielle et processus de fabrication",
         "description": "Robots pour la chaîne d’approvisionnement et la gestion des stocks."
       },
       {
-        "icon": "/images/uipath/semiconductor.svg",
+        "icon":"/images/uipath/microchip-semiconductor-technology-icon.svg",
         "title": "Semiconductor",
+        "alt":"Icône bleue de micropuce avec circuits représentant technologie des semi-conducteurs et capacités de traitement numérique",
         "description": "Robots pour les achats et le traitement des commandes."
       },
       {
-        "icon": "/images/uipath/automotive.svg",
+        "icon": "/images/uipath/connected-automotive-smart-vehicle-icon.svg",
         "title": "Automotive",
+        "alt":"Icône bleue de voiture connectée avec éléments de circuit représentant technologie automobile et véhicules intelligents",
         "description": "Robots pour le réseau de concessionnaires et la gestion des pièces."
       },
       {
-        "icon": "/images/uipath/retail.svg",
+        "icon": "/images/uipath/ecommerce-shopping-cart-retail-icon.svg",
         "title": "Retail",
+        "alt":"Icône bleue de panier d'achat dans badge circulaire représentant solutions e-commerce et services de boutique en ligne",
         "description": "Robots pour les commandes et le service client."
       }
     ],

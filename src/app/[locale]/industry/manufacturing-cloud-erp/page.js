@@ -142,8 +142,8 @@ export default function Page() {
       <section className="relative pb-20">
         <div className="xl:block hidden">
           <Image
-            src="/images/industry/manufacture/banner-desktop.webp"
-            alt="desktop banner"
+            src="/images/industry/manufacture/smart-manufacturing-technology.webp"
+            alt={t('bannerAlt')}
             fill
             priority
             sizes="100vw"
@@ -153,8 +153,8 @@ export default function Page() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/industry/manufacture/banner-mobile.webp"
-            alt="mobile banner"
+            src="/images/industry/manufacture/smart-manufacturing-technology-mobile.webp"
+            alt={t('bannerAlt')}
             fill
             priority
             sizes="100vw"
@@ -190,8 +190,8 @@ export default function Page() {
       <section className="relative  overflow-hidden mt-20 xl:!mr-[142px]">
         <div className="xl:block hidden">
           <Image
-            src="/images/industry/manufacture/thoughts.webp"
-            alt="thought leadership image"
+            src="/images/industry/manufacture/digital-manufacturing-transformation.webp"
+            alt={t('thoughtAlt')}
             fill
             priority
             sizes="100vw"
@@ -200,8 +200,8 @@ export default function Page() {
         </div>
         <div className="xl:hidden block h-[625px]">
           <Image
-            src="/images/industry/manufacture/thoughts-mobile.webp"
-            alt="thought leadership image"
+            src="/images/industry/manufacture/digital-manufacturing-transformation-mobile.webp"
+            alt={t('thoughtAlt')}
             priority
             sizes="100vw"
             width={0}
@@ -239,8 +239,8 @@ export default function Page() {
       <section className="relative">
         <div className="xl:block hidden">
           <Image
-            src="/images/industry/manufacture/transform-desk.webp"
-            alt="transform image"
+            src="/images/industry/manufacture/end-to-end-manufacturing-services.webp"
+            alt={t('endAlt')}
             fill
             priority
             className="custom-container xl:!pr-0"
@@ -250,8 +250,8 @@ export default function Page() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/industry/manufacture/man-mobile.webp"
-            alt="transform image"
+            src="/images/industry/manufacture/end-to-end-manufacturing-services-mobile.webp"
+            alt={t('endAlt')}
             fill
             priority
             sizes="100vw"
@@ -277,8 +277,8 @@ export default function Page() {
       <section className="relative grid xl:grid-cols-12 grid-cols-1">
         <div className="xl:col-span-7 col-span-12">
           <Image
-            src="/images/industry/manufacture/prebuilt.webp"
-            alt="prebuilt image"
+            src="/images/industry/manufacture/futuristic-digital-city-horizon.webp"
+            alt={t('preAlt')}
             priority
             className="w-full h-full"
             width={0}
@@ -304,8 +304,8 @@ export default function Page() {
           {/* Image First on Mobile */}
           <div className="xl:col-span-7 col-span-12 order-1 xl:order-2">
             <Image
-              src="/images/industry/manufacture/discrite.webp"
-              alt=""
+              src="/images/industry/manufacture/precision-manufacturing-engineer-assembly.webp"
+              alt={t('enginerAlt')}
               priority
               className="w-full"
               width={0}
@@ -332,8 +332,8 @@ export default function Page() {
         <div></div>
         <div className="xl:block hidden">
           <Image
-            src="/images/industry/manufacture/man-process.webp"
-            alt="man-process image"
+            src="/images/industry/manufacture/automated-pharmaceutical-production-line.webp"
+            alt={t('manAlt')}
             fill
             priority
             sizes="100vw"
@@ -341,8 +341,8 @@ export default function Page() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/industry/manufacture/process-mamobile.webp"
-            alt="man-process image"
+            src="/images/industry/manufacture/automated-pharmaceutical-production-line-mobile.webp"
+            alt={t('manAlt')}
             fill
             priority
             sizes="100vw"
@@ -366,8 +366,8 @@ export default function Page() {
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="col-span-7 order-1 xl:order-2">
             <Image
-              src="/images/industry/manufacture/repe-desk.webp"
-              alt="Repetitive image"
+              src="/images/industry/manufacture/engineers-analyzing-manufacturing-data.webp"
+              alt={t('dataAlt')}
               priority
               className="w-full h-full"
               width={0}
@@ -396,8 +396,8 @@ export default function Page() {
         <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-16 text-white">
           <div className="col-span-6">
             <Image
-              src="/images/industry/manufacture/robotics.webp"
-              alt="robotics image"
+              src="/images/industry/manufacture/robotic-ev-battery-assembly-line.webp"
+              alt={t('roboticAlt')}
               priority
               className="w-full"
               width={0}
@@ -416,8 +416,8 @@ export default function Page() {
           </div>
           <div className="col-span-6 xl:mt-32 mt-10">
             <Image
-              src="/images/industry/manufacture/shop.webp"
-              alt="shop image"
+              src="/images/industry/manufacture/quality-control-food-processing-inspection.webp"
+              alt={t('shopAlt')}
               priority
               className="w-full"
               width={0}
@@ -440,8 +440,8 @@ export default function Page() {
       <section className="relative">
         <div className="xl:block hidden">
           <Image
-            src="/images/industry/manufacture/data-clude.webp"
-            alt="data cloud image"
+            src="/images/industry/manufacture/cybersecurity-analyst-monitoring-dashboard.webp"
+            alt={t('cloudAlt')}
             className="w-full relative"
             priority
             width={0}
@@ -451,8 +451,8 @@ export default function Page() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/industry/manufacture/cloude-mobile.webp"
-            alt="data cloud image"
+            src="/images/industry/manufacture/cybersecurity-analyst-monitoring-dashboard-mobile.webp"
+            alt={t('cloudAlt')}
             className="w-full relative h-[668px]"
             priority
             width={0}
@@ -504,8 +504,8 @@ export default function Page() {
         <div className="grid xl:grid-cols-12 grid-cols-1 gap-5">
           <div className="xl:col-span-7 col-span-12 order-1 xl:order-2">
             <Image
-              src="/images/industry/manufacture/erp2.webp"
-              alt="erp image"
+              src="/images/industry/manufacture/wind-energy-engineers-inspecting-turbines.webp"
+              alt={t('erpAlt')}
               priority
               className="w-full  object-cover h-full"
               width={0}
@@ -534,8 +534,8 @@ export default function Page() {
           </div>
           <div className="xl:col-span-6 col-span-12 order-1 xl:order-1">
             <Image
-              src="/images/industry/manufacture/demand.webp"
-              alt="demand image"
+              src="/images/industry/manufacture/warehouse-workers-distribution-center.webp"
+              alt={t('demandAlt')}
               priority
               className="w-full h-full"
               width={0}
@@ -550,8 +550,8 @@ export default function Page() {
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:hidden block">
             <Image
-              src="/images/industry/manufacture/ai-mobile.webp"
-              alt="ai manufacturing image"
+              src="/images/industry/manufacture/digital-infrastructure-sustainable-energy-mobile.webp"
+              alt={t('aiAlt')}
               priority
               className="w-full h-[492px] "
               width={0}
@@ -571,8 +571,8 @@ export default function Page() {
           </div>
           <div className="xl:col-span-8 col-span-12 xl:block hidden xl:ml-[-300px]">
             <Image
-              src="/images/industry/manufacture/ai.webp"
-              alt="ai image"
+              src="/images/industry/manufacture/digital-infrastructure-sustainable-energy.webp"
+              alt={t('aiAlt')}
               priority
               className="w-full h-full"
               width={0}
@@ -588,8 +588,8 @@ export default function Page() {
           <div className="xl:col-span-6 col-span-12">
             <div className="xl:block hidden h-full">
               <Image
-                src="/images/industry/manufacture/power.webp"
-                alt="power image"
+                src="/images/industry/manufacture/neon-innovation-energy-light-bulb.webp"
+                alt={t('powerAlt')}
                 priority
                 className="w-full h-full"
                 width={0}
@@ -599,8 +599,8 @@ export default function Page() {
             </div>
             <div className="xl:hidden block">
               <Image
-                src="/images/industry/manufacture/power-mobile.webp"
-                alt="power image"
+                src="/images/industry/manufacture/neon-innovation-energy-light-bulb-mobile.webp"
+                alt={t('powerAlt')}
                 priority
                 className="w-full h-full"
                 width={0}
