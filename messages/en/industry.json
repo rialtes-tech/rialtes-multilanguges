@@ -230,6 +230,13 @@
     "knowMore": "Know More"
   },
   "lifeScience": {
+    "bannerAlt":"Digital hand holding plant with connected blue network overlay on dark background representing life sciences digital innovation",
+    "whyAlt":"Digital wireframe human body with highlighted organs and medical data interfaces on dark background showing health analytics",
+    "thoughtAlt":"Two doctors in white coats meeting with business professional discussing healthcare data charts and graphs on monitor screen",
+    "preAlt":"Medical professional in green scrubs interacting with holographic patient anatomy and colorful health data charts on tablet",
+    "seamlessAlt":"Two doctors in white coats with stethoscopes analyzing patient data on computer screen in modern hospital environment",
+
+
     "seoTitle": "Life Sciences Digital Transformation with AI | Rialtes",
     "seoDescription": "Empowering digital transformation in life sciences with connected data, AI insights, and cloud solutions for Pharma, MedTech, public health, and providers.",
     "whyRialtesData": [
@@ -282,8 +289,9 @@
           "Real-Time Payer-Provider Collaboration using Salesforce Health Cloud."
         ],
         "blueCard": "Deliver efficient, personalized care and manage cost with real-time analytics.",
-        "mobImg": "/images/industry/life-science/Mobile/payers-module-mob.webp",
-        "deskImg": "/images/industry/life-science/payers-module-desk.webp"
+        "imageAlt":"Tablet displaying real-time business analytics with multicolor bar graphs, line charts, and data grid in corporate office",
+        "mobImg": "/images/industry/life-science/Mobile/real-time-business-analytics-tablet-dashboard-mobile.webp",
+        "deskImg": "/images/industry/life-science/real-time-business-analytics-tablet-dashboard.webp"
       },
       {
         "title": "Provider Network Solutions",
@@ -295,8 +303,9 @@
           "Referral and Provider Collaboration Platforms integrated via Salesforce."
         ],
         "blueCard": "Enhancing patient experiences with connected, coordinated care.",
-        "mobImg": "/images/industry/life-science/Mobile/provider-mob.webp",
-        "deskImg": "/images/industry/life-science/provider-desk.webp"
+        "imageAlt":"Doctor using futuristic healthcare dashboard with patient data, appointment stats, and medical analytics on transparent screen",
+        "mobImg": "/images/industry/life-science/Mobile/doctor-healthcare-dashboard-medical-analytics-mobile.webp",
+        "deskImg": "/images/industry/life-science/doctor-healthcare-dashboard-medical-analytics.webp"
       },
       {
         "title": "Pharma Innovation",
@@ -308,8 +317,9 @@
           "Salesforce Health Cloud for patient-centric program orchestration."
         ],
         "blueCard": "Smarter, faster, and safer therapy launches.",
-        "mobImg": "/images/industry/life-science/Mobile/pharma-mob.webp",
-        "deskImg": "/images/industry/life-science/pharma-desk.webp"
+        "imageAlt":"Medical researcher wearing VR headset examining virtual data with blue gloves in modern laboratory for immersive analysis",
+        "mobImg": "/images/industry/life-science/Mobile/vr-medical-research-virtual-reality-lab-mobile.webp",
+        "deskImg": "/images/industry/life-science/vr-medical-research-virtual-reality-lab.webp"
       },
       {
         "title": "MedTech Revolution",
@@ -321,8 +331,9 @@
           "Integrated Remote Monitoring and Digital Health Platforms."
         ],
         "blueCard": "Deliver superior patient outcomes with connected MedTech solutions.",
-        "mobImg": "/images/industry/life-science/Mobile/medtech-mob.webp",
-        "deskImg": "/images/industry/life-science/medtech-desk.webp"
+        "imageAlt":"Patient having telemedicine video consultation with doctor on laptop while reviewing health data chart on tablet screen",
+        "mobImg": "/images/industry/life-science/Mobile/telemedicine-video-consultation-patient-doctor-mobile.webp",
+        "deskImg": "/images/industry/life-science/telemedicine-video-consultation-patient-doctor.webp"
       },
       {
         "title": "Public Health Excellence",
@@ -334,8 +345,9 @@
           "Public Health Community Outreach and Behavioral Health Programs."
         ],
         "blueCard": "Strengthening community health through data and AI insights.",
-        "mobImg": "/images/industry/life-science/Mobile/public-health-mob.webp",
-        "deskImg": "/images/industry/life-science/public-health-desk.webp"
+        "imageAlt":"Healthcare professional wearing mask checking elderly patient's blood pressure during home health visit with medical chart",
+        "mobImg": "/images/industry/life-science/Mobile/home-healthcare-blood-pressure-check-elderly-mobile.webp",
+        "deskImg": "/images/industry/life-science/home-healthcare-blood-pressure-check-elderly.webp"
       },
       {
         "title": "Hyper-Personalized Patient Engagement",
@@ -347,8 +359,9 @@
           "Compliance-Driven Patient Journeys."
         ],
         "blueCard": "Transforming patient engagement into meaningful outcomes.",
-        "mobImg": "/images/industry/life-science/Mobile/hyper-mob.webp",
-        "deskImg": "/images/industry/life-science/hyper-desk.webp"
+        "imageAlt":"Three healthcare professionals in medical attire consulting together over digital tablet in hospital environment",
+        "mobImg": "/images/industry/life-science/Mobile/medical-team-consulting-digital-tablet-mobile.webp",
+        "deskImg": "/images/industry/life-science/medical-team-consulting-digital-tablet.webp"
       },
       {
         "title": "Supply Chain & Inventory Excellence",
@@ -359,8 +372,9 @@
           "Integrated Logistics and Distribution Network."
         ],
         "blueCard": "Ensuring life-saving therapies and devices reach patients on time.",
-        "mobImg": "/images/industry/life-science/Mobile/supply-chain-mob.webp",
-        "deskImg": "/images/industry/life-science/supply-chain-desk.webp"
+        "imageAlt":"Male pharmacist in white coat and glasses using digital tablet while colleague stocks shelves in modern pharmacy drugstore",
+        "mobImg": "/images/industry/life-science/Mobile/spharmacist-using-tablet-pharmacy-inventory-mobile.webp",
+        "deskImg": "/images/industry/life-science/pharmacist-using-tablet-pharmacy-inventory.webp"
       }
     ],
     "commonSectionData1": [
@@ -374,8 +388,9 @@
           "Predictive Analytics for Care and Compliance."
         ],
         "blueCard": "Transform raw data into actionable intelligence.",
-        "mobImg": "/images/industry/life-science/Mobile/advanced-mob.webp",
-        "deskImg": "/images/industry/life-science/advanced-desk.webp"
+        "imageAlt":"Healthcare worker in surgical cap and blue scrubs viewing medical monitoring screens displaying patient data and vital signs",
+        "mobImg": "/images/industry/life-science/Mobile/medical-professional-monitoring-patient-data-mobile.webp",
+        "deskImg": "/images/industry/life-science/medical-professional-monitoring-patient-data.webp"
       },
       {
         "title": "AI-Driven Future",
@@ -387,8 +402,9 @@
           "AI-Driven Compliance Monitoring and Pharmacovigilance."
         ],
         "blueCard": "AI is revolutionizing patient care, therapy development, and safety.",
-        "mobImg": "/images/industry/life-science/Mobile/ai-driven-mob.webp",
-        "deskImg": "/images/industry/life-science/ai-driven-desk.webp"
+         "imageAlt":"Healthcare researcher in lab with digital data overlay examining test tubes and analyzing pharmaceutical research on computer screen",
+        "mobImg": "/images/industry/life-science/Mobile/healthcare-research-digital-lab-analysis-mobile.webp",
+        "deskImg": "/images/industry/life-science/healthcare-research-digital-lab-analysis.webp"
       },
       {
         "title": "Quick Commerce in Life Sciences",
@@ -399,8 +415,9 @@
           "AI-Powered Logistics and Supply Chain Optimization."
         ],
         "blueCard": "Deliver healthcare at the speed of need — powered by SAP & Salesforce.",
-        "mobImg": "/images/industry/life-science/Mobile/quick-mob.webp",
-        "deskImg": "/images/industry/life-science/quick-desk.webp"
+         "imageAlt":"A physiotherapist applies electrode pads on a woman’s back for electrical muscle stimulation therapy",
+        "mobImg": "/images/industry/life-science/Mobile/physiotherapy-electrical-muscle-stimulation-session-mobile.webp",
+        "deskImg": "/images/industry/life-science/physiotherapy-electrical-muscle-stimulation-session.webp"
       }
     ],
     "headerTitle": "Life Sciences Industry",
@@ -1538,6 +1555,22 @@
     "contactSubtitleOne": "Contact Us Today and start your journey toward intelligent, resilient, and customer-centric manufacturing!"
   },
   "education": {
+    "bannerAlt":"Graduate student in cap and gown with digital data overlay looking forward representing education technology and future learning",
+    "businessAlt":"Business professional in gray suit and blue tie using digital tablet in modern office with glass wall background",
+    "studentALt":"Smiling young woman in orange shirt with backpack using laptop outdoors leaning against wall on sunny city street",
+    "markeAlt":"Group of diverse students collaborating with tablet and notebooks in bright library study space with bookshelves behind",
+    "studentAlt":"Diverse group of young students engaged in animated discussion with laptop outdoors in casual collaborative learning session",
+    "teamAlt":"Three diverse business professionals in discussion around laptop reviewing documents in bright modern office meeting space",
+    "hanaAlt":"Professional woman in beige coat with glasses smiling while using smartphone and holding leather bag on urban city street",
+    "cloudAlt":"Excited woman in pink cardigan celebrating with fist pump while holding credit card and using laptop outdoors for online shopping",
+    "campusAlt":"Smiling male graduate in green cap and gown with red stole holding diploma standing outdoors at university campus",
+    "empowerAlt":"Hands holding holographic glowing brain surrounded by educational technology icons including books videos and search symbols",
+    "aiAlt":"Woman with headset holding smartphone displaying AI brain icon surrounded by educational and communication technology symbols",
+    "autoAlt":"White gear and circular arrows icon on blue background representing cloud automation and workflow",
+    "smartAlt":"White gear with microchip center and circular arrows on blue background representing continuous process automation",
+    "systemAlt":"White gear with connected nodes and three chat bubbles on blue background representing system integration and communication",
+    "leadAlt":"White chat bubbles with padlock icon on blue background representing secure messaging and data protection",
+    "solutionAlt":"Hands holding holographic graduation cap made of connected blue particles and light points representing digital education",
     "seoTitle": "Salesforce Cloud IT Solutions for Education Industry | Rialtes",
     "seoDescription": "IT solutions for education using AI and Salesforce Cloud empower K–12 to higher ed to transform learning. Explore smarter outcomes with Rialtes today.",
     "headerTitle": "Education Industry",
