@@ -132,7 +132,7 @@ export default function Page() {
     return (
         <div className="min-h-screen bg-white">
             <Seo
-                title={t('seoTitle')}   
+                title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/"
@@ -147,16 +147,16 @@ export default function Page() {
             <section className="relative group overflow-hidden pb-20 md:pb-48 xl:pb-20 4xl:pb-20">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/products/mediyana/mediyana-banner.webp"
-                        alt="grow with sap banner"
+                        src="/images/products/mediyana/digital-eye-technology.webp"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/products/mediyana/mediyana-mobile-banner.webp"
-                        alt="grow with sap banner"
+                        src="/images/products/mediyana/digital-eye-technology-mobile.webp"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
@@ -262,14 +262,14 @@ export default function Page() {
         
 
           ${locale === "es"
-                                    ? "4xl:pb-[120px] 2xl:pb-[120px] xl:pb-[80px]"
-                                    : locale === "fr"
-                                        ? "4xl:pb-[100px] 2xl:pb-[120px] xl:pb-[80px]"
-                                        : ""
-                                }`}
-        
-        
-        style={{
+                                            ? "4xl:pb-[120px] 2xl:pb-[120px] xl:pb-[80px]"
+                                            : locale === "fr"
+                                                ? "4xl:pb-[100px] 2xl:pb-[120px] xl:pb-[80px]"
+                                                : ""
+                                        }`}
+
+
+                                        style={{
                                             backgroundColor: data.bgColor ? data.bgColor : 'transparent'
                                         }}>
 

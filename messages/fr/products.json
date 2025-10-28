@@ -138,26 +138,26 @@
   "exelona": {
     "features": [
       {
-        "img": "/images/products/exelona/mobile-enable.svg",
-        "alt": "Compatible avec les appareils mobiles",
-        "title": "100% Compatible Mobile",
-        "desc": "Gérez la location, la maintenance et les finances sur n’importe quel appareil."
+        "img": "/images/products/exelona/mobile-payment-icon.svg",
+        "alt": "Icône vectorielle d’un smartphone avec une coche représentant l’approbation sécurisée des paiements mobiles",
+        "title": "100 % Compatible Mobile",
+        "desc": "Gérez la location, la maintenance et la finance sur tout appareil."
       },
       {
-        "img": "/images/products/exelona/web-chat.svg",
-        "alt": "Interfaces IA",
+        "img": "/images/products/exelona/chat-interface-icon.svg",
+        "alt": "Icône vectorielle montrant une fenêtre de chat et des bulles de message symbolisant une plateforme de communication en ligne",
         "title": "IA Agentique + Interfaces Conversationnelles",
-        "desc": "IA qui automatise, priorise et communique."
+        "desc": "Une IA qui automatise, hiérarchise et communique."
       },
       {
-        "img": "/images/products/exelona/crm.svg",
-        "alt": "CRM + ERP",
+        "img": "/images/products/exelona/network-integration-icon.svg",
+        "alt": "Icône vectorielle représentant des nœuds connectés et une ampoule centrale symbolisant l’intégration et l’innovation en réseau",
         "title": "CRM + ERP, Unifiés",
         "desc": "Un seul système pour le marketing, les opérations, la location et la comptabilité."
       },
       {
-        "img": "/images/products/exelona/open-api.svg",
-        "alt": "API Ouverte",
+        "img": "/images/products/exelona/cloud-development-icon.svg",
+        "alt": "Icône vectorielle portant l’inscription “API Ouverte” symbolisant une architecture logicielle flexible et extensible pour l’intégration cloud",
         "title": "Architecture OPENAPI",
         "desc": "S’intègre facilement avec SAP, Yardi, Oracle, Salesforce et plus encore."
       }
@@ -165,23 +165,25 @@
     "properties": [
       {
         "title": "Comptes Clients",
-        "img": "/images/products/exelona/desktop/account.webp",
+        "img": "/images/products/exelona/desktop/real-estate-agent-digital-tablet.webp",
+        "alt": "Professionnel souriant tenant une tablette numérique devant un immeuble moderne, représentant la gestion immobilière intelligente et la technologie de propriété",
         "points": [
-          "Facturation automatisée des locataires et application des frais de retard.",
-          "Flux de travail d’approbation des radiations et suivi historique.",
-          "Traitement des reçus et rapprochement des livres."
+          "Facturation automatique des locataires et application des pénalités de retard.",
+          "Flux d’approbation des radiations et suivi de l’historique.",
+          "Traitement des reçus et rapprochement du grand livre."
         ],
         "outcomes": [
-          "Amélioration de l’efficacité du recouvrement.",
-          "Visibilité en temps réel des comptes clients sur l’ensemble des propriétés."
+          "Efficacité accrue de la collecte.",
+          "Visibilité en temps réel des comptes clients sur toutes les propriétés."
         ]
       },
       {
-        "title": "Budgétisation, Prévisions et Rapports Financiers",
-        "img": "/images/products/exelona/desktop/budgeting.webp",
+        "title": "Budgétisation, Prévision et Rapports Financiers",
+        "img": "/images/products/exelona/desktop/real-estate-investment-finance.webp",
+        "alt": "Maquette de maison entourée de piles de pièces sur des documents financiers, symbolisant l’investissement immobilier et la finance de propriété",
         "points": [
-          "Budgets pluriannuels avec personnalisation par propriété.",
-          "Prévisions continues basées sur l’occupation et les données de bail.",
+          "Budgétisation pluriannuelle personnalisée au niveau des propriétés.",
+          "Prévisions continues basées sur les données d’occupation et de location.",
           "États financiers : Bilan, Balance de vérification, Compte de résultat."
         ],
         "outcomes": [
@@ -190,28 +192,30 @@
         ]
       },
       {
-        "title": "Comptes Fournisseurs et Achats",
-        "img": "/images/products/exelona/desktop/account-payble.webp",
+        "title": "Comptes Fournisseurs et Approvisionnement",
+        "img": "/images/products/exelona/desktop/digital-procurement-technology.webp",
+        "alt": "Professionnel utilisant un ordinateur portable avec des icônes numériques flottantes représentant le processus d’approvisionnement et la gestion des contrats",
         "points": [
           "Automatisation des factures fournisseurs et flux d’approbation.",
           "Création de bons de commande et rapprochement des réceptions.",
-          "Planification des paiements multicanaux et gestion des fournisseurs."
+          "Planification des paiements multi-modes et gestion des fournisseurs."
         ],
         "outcomes": [
           "Achats centralisés et conformité aux audits.",
-          "Contrôle transparent des dépenses à travers votre portefeuille."
+          "Contrôle transparent des dépenses à travers le portefeuille."
         ]
       },
       {
         "title": "Gestion des Stocks et des Actifs",
-        "img": "/images/products/exelona/desktop/inventory.webp",
+        "img": "/images/products/exelona/desktop/warehouse-inventory-management.webp",
+        "alt": "Femme d’affaires utilisant une tablette numérique pour inspecter les stocks dans un entrepôt, représentant la gestion moderne de la chaîne d’approvisionnement et de la logistique",
         "points": [
-          "Suivi des stocks au niveau de l’unité, du bâtiment et de l’entrepôt.",
-          "Gestion des immobilisations avec calendriers d’amortissement.",
-          "Prévisions de maintenance et de remplacement."
+          "Suivi des stocks au niveau des unités, bâtiments et entrepôts.",
+          "Gestion des actifs avec plans d’amortissement.",
+          "Prévision de la maintenance et du remplacement."
         ],
         "outcomes": [
-          "Amélioration de l’utilisation et de la précision des actifs.",
+          "Meilleure utilisation et précision des actifs.",
           "Alignement financier avec la stratégie CAPEX."
         ]
       }
@@ -361,6 +365,14 @@
         ]
       }
     ],
+    "bannerAlt": "Double exposition de mains tenant tablette avec paysage urbain moderne et connexions réseau représentant transformation numérique de ville intelligente",
+    "digitalAlt": "Paysage urbain abstrait filaire bleu avec gratte-ciel modernes et lignes de grille numériques représentant planification urbaine et architecture",
+    "assetAlt": "Bâtiments résidentiels intelligents miniatures avec aménagement paysager vert affichés sur tablette numérique représentant technologie propriété urbaine",
+    "aiAlt": "Paysage urbain futuriste avec graphiques de données et analyses lumineuses représentant une technologie urbaine axée sur les données",
+    "excelAlt": "Main interagissant avec une tablette numérique affichant un modèle architectural 3D de bâtiments modernes et de conception urbaine intelligente",
+    "paymentAlt": "Personne utilisant une tablette pour effectuer un paiement en ligne sécurisé avec confirmation numérique de transaction réussie",
+    "agentAlt": "Femme souriante utilisant un smartphone pour consulter des messages ou notifications dans un environnement de bureau moderne et lumineux",
+    "builtAlt": "Réseau numérique abstrait dans les nuages avec données binaires et motifs bleus lumineux symbolisant la technologie de l’informatique en nuage",
     "headerTitle": "Exelona",
     "seoTitle": "Exelona™ – Salesforce pour la Gestion Immobilière | Rialtes",
     "seoDescription": "Exelona utilise l’IA et Salesforce pour transformer la gestion immobilière grâce à l’automatisation, aux insights et à l’excellence opérationnelle.",
@@ -411,6 +423,7 @@
       "Permettez des essais cliniques plus intelligents, des soins connectés et des thérapies numériques.",
       "Exploitez Salesforce, l’IA et les plateformes cloud pour une innovation conforme."
     ],
+    "bannerAlt": "Gros plan sur un œil numérique aux détails lumineux bleus et violets, symbolisant l’intelligence artificielle, la technologie de vision et la perception des données",
     "headerTitle": "MediAIna",
     "seoTitle": "MediAIna – Redéfinir le Parcours Patient dans le Secteur de la Santé",
     "seoDescription": "MediAIna place le patient au centre en cartographiant chaque moment de soin avec Salesforce et LifeAI+ de Rialtes pour une santé connectée et humaine.",

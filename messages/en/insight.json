@@ -84,10 +84,12 @@
     "newsDesc": "Explore how we’re shaping the future of businesses worldwide. Your go-to source for the latest updates, achievements, and innovations from Rialtes. Stay informed with our latest news, press releases, and industry insights as we continue to push boundaries in process consulting, AI-driven enterprise solutions, and digital transformation.",
     "readMore": "Read More",
     "loadMore": "Load more",
+    "bannerAlt": "Person using a convertible laptop in tablet mode to browse online news, representing modern digital media and technology use",
     "latestNews": [
       {
         "id": 1,
-        "image": "/images/news/new-12-may.webp",
+        "image": "/images/news/salesforce-authorized-cloud-reseller.webp",
+        "alt": "salesforce-authorized-cloud-reseller",
         "industry": "News",
         "date": "May 12, 2025",
         "url": "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/",
@@ -95,7 +97,8 @@
       },
       {
         "id": 2,
-        "image": "/images/news/news2.webp",
+        "image": "/images/news/digital-handshake-technology.webp",
+        "alt": "3D polygonal digital handshake with futuristic wireframe design on a blue tech background, symbolizing technology partnership and digital collaboration",
         "industry": "News",
         "date": "Apr. 18, 2025",
         "url": "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/",
@@ -103,7 +106,8 @@
       },
       {
         "id": 3,
-        "image": "/images/news/generic thumb.webp",
+        "image": "/images/news/ribbon-cutting-ceremony.webp",
+        "alt": "Golden scissors cutting a red ribbon on a blue background, symbolizing inauguration, grand opening, or new beginnings",
         "industry": "News",
         "date": "Apr. 4, 2025",
         "url": "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/",
@@ -190,7 +194,6 @@
       }
     ],
     "latestBlogs": [
-       
       {
         "id": 47,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
@@ -1082,8 +1085,8 @@
     ]
   },
   "newsDataBricks": {
-    "bannerImage":"/images/homepage/baner.webp",
-    "bannerImageMobile":"/images/homepage/banner.webp",
+    "bannerImage": "/images/homepage/baner.webp",
+    "bannerImageMobile": "/images/homepage/banner.webp",
     "seoTitle": "Rialtes Now a Certified Databricks Partner",
     "seoDescription": "As a certified Databricks partner, Rialtes empowers businesses with AI-driven data solutions across SAP and Salesforce ecosystems.",
     "title": "Rialtes Levels Up AI Game with Databricks Partnership to Power Unified AI Across SAP and Salesforce",
