@@ -17,7 +17,7 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "SAP Consulting Services",
-    "url": "https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/",
+    "url": "https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting-implementation-partners/",
     "description": "Rialtes provides SAP Consulting Services including RISE with SAP, GROW with SAP, SuccessFactors, S/4HANA Migration, and Ariba implementation to help organizations enhance operations, automate workflows, and scale efficiently.",
     "inLanguage": "en",
     "publisher": {
@@ -116,7 +116,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/"}
+                canonical={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting-implementation-partners/"}
             />
             <Script
                 id="schema-sap-consulting"
