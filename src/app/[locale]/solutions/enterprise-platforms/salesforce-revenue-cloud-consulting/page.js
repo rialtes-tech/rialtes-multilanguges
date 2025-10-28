@@ -122,7 +122,7 @@ export default function HealthCloud() {
     <section>
       <Seo
        title={t('seoTitle')}
-       description={t('seoDescription')}
+       description={t('seoDescription')} 
         keywords="home, website, welcome"
         canonical="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting/"
       />
@@ -137,7 +137,7 @@ export default function HealthCloud() {
         <div className="hidden md:block">
           <Image
             src="/images/revenue-cloud/revenue-cloud-banner.webp"
-            alt="desktop banner"
+            alt={t("bannerAlt")}
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -148,7 +148,7 @@ export default function HealthCloud() {
         <div className="block md:hidden">
           <Image
             src="/images/revenue-cloud/revenue-cloud-banner-mob.webp"
-            alt="mobile banner"
+            alt={t("bannerAlt")}
             style={{ objectFit: "cover", objectPosition: "55% 20%" }}
             fill
             priority
@@ -164,8 +164,8 @@ export default function HealthCloud() {
                 {t("revenueSubTitle")}
               </h2>
               <Image
-                src="/images/salesforce-consulting-services/salesforce-partner.webp"
-                alt="SAP Partner Logo"
+                src="/images/salesforce-consulting-services/salesforce-partner-logo.webp"
+                alt={t("sapPartnerLogoAlt")}
                 width={0}
                 height={0}
                 priority
@@ -199,8 +199,8 @@ export default function HealthCloud() {
           {t("cloudTitle")}
         </h3>
         <Image
-          src=   {t("revenueCloudImg")}
-          alt="Revenue Cloud Process Flow"
+          src={t("revenueCloudImg")}
+          alt={t("infographicAlt")}
           width={0}
           height={0}
           sizes="100vw"
@@ -223,7 +223,7 @@ export default function HealthCloud() {
                 <div className="mt-10">
                   <Image
                     src={sales.imageUrl}
-                    alt={`${sales.title} image`}
+                    alt={sales.alt}
                     className="w-20 h-20"
                     width={0}
                     height={0}
