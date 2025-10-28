@@ -203,17 +203,7 @@
   },
   "successPlus": {
     "keyServiceImg": "/images/services/success-plus/key-service-french.webp",
-    "sapSuccessfacorAlt": "Logo officiel de SAP SuccessFactors avec texte bleu et icône de cœur jaune, représentant une transformation RH centrée sur les personnes. ",
-    "agentchatIconAlt": "Icône WhatsApp renvoyant vers l’assistance Rialtes pour les demandes liées à SAP SuccessFactors.",
-    "extendAlt": "Illustration des fonctionnalités étendues de SAP SuccessFactors grâce aux modules complémentaires SuccessPlus de Rialtes.",
-    "agentchatAlt": "Interface AgentChat de Rialtes permettant le support et la communication RH automatisés pour les utilisateurs SAP SuccessFactors.",
-    "sapJuleAlt": "Tableau d’intégration SAP ERP et SuccessFactors pour des opérations RH fluides.",
-    "successFactorAlt": "Tableau de bord SAP SuccessFactors présentant la gestion unifiée des RH, de la paie et des talents.",
-    "sapCpiAlt": "Tableau SAP Cloud Platform Integration (CPI) illustrant les flux de travail RH connectés au sein de SuccessFactors.",
-    "keySerAlt": "Illustration présentant les principaux services d’implémentation et de support SAP SuccessFactors proposés par Rialtes. ",
-    "workDayAlt": "Graphique comparatif mettant en avant les avantages de SAP SuccessFactors par rapport à Workday dans la transformation RH. ",
     "keyServiceImgMobile": "/images/services/success-plus/Mobile/key-service-french-mobile.webp",
-    "zohoAlt": "Infographie comparant les solutions de gestion RH SAP SuccessFactors et Zoho People. ",
     "headerTitle": "Success+",
     "sapPartnerLogoAlt": "Logo officiel de partenaire SAP représentant la certification de Rialtes en implémentation SAP SuccessFactors. ",
     "bannerAlt": "Rialtes SuccessPlus – partenaire d’implémentation SAP SuccessFactors aidant les organisations à optimiser leur transformation RH. ",
@@ -1119,6 +1109,14 @@
     "contactTitle": "Accélérez votre transformation automobile avec Rialtes"
   },
   "salesforceAgent": {
+     "certifiedSectionAlt" : "Développeurs de logiciels codant sur plusieurs écrans dans espace de travail technologique collaboratif avec équipe",
+     "migrateSectionAlt" : "Bâtiment futuriste en verre avec nuages reflétés représentant infrastructure cloud moderne évolutive et architecture",
+      "salesforceIndustryCloudSolutionsAlt" : "Spécialisations Salesforce Industry Cloud incluant solutions Healthcare, Manufacturing, Education et Real Estate",
+     "salesforceSectionAlt" : "Équipe professionnelle collaborant sur ordinateur portable examinant stratégies d'affaires en espace de travail moderne",
+     "rialchatAlt" : "Femme professionnelle souriante utilisant smartphone dans bureau moderne lumineux avec tableaux de bord au mur derrière",
+     "unlockAIAlt" : "Vagues de données numériques bleues avec particules lumineuses représentant synchronisation Salesforce Financial Cloud",
+    "startAlAlt" : "Silhouette professionnelle contemplant vallée montagneuse avec réseau numérique lumineux symbolisant transformation IA",
+     "bannerAlt" : "Portail doré lumineux avec rayons de lumière rayonnants représentant services gérés SalesforceAgent+ prêts pour IA",
     "headerTitle": " SalesforceAgent+",
     "seoTitle": "Fournisseur de Services Gérés Salesforce | Rialtes SalesforceAgent+",
     "seoDescription": "Besoin d’un partenaire Salesforce géré ? Avec SalesforceAgent+, Rialtes rend votre plateforme plus intelligente, rapide et prête pour l’IA.",
@@ -1305,24 +1303,30 @@
     "whySubTitle": "Votre Partenaire de Confiance pour l’IA & les Services Managés Salesforce",
     "whyChooseData": [
       {
-        "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (1).svg",
-        "data": "Experts en services managés Salesforce, en activation IA et en Data Cloud."
+        "img": "/images/services/salesforce-agentforce/Mobile/connected-network-communication-icon.svg",
+        "data": "Experts en services managés Salesforce, en activation IA et en Data Cloud.",
+        "alt"  :"Diagramme de réseau interconnecté avec profil utilisateur central entouré de nœuds de communication et points de connexion"
       },
       {
-        "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (2).svg",
-        "data": "Livraison mondiale avec une touche locale."
+        "img": "/images/services/salesforce-agentforce/Mobile/hand-holding-globe-service-icon.svg",
+        "data": "Livraison mondiale avec une touche locale.",
+        "alt" : "Main supportant globe avec lignes de mouvement représentant livraison de service mondial et accessibilité internationale"
       },
       {
-        "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (3).svg",
-        "data": "Support 24h/24 pour vous maintenir en fonctionnement — et en croissance."
+        "img": "/images/services/salesforce-agentforce/Mobile/customer-support-representative-icon.svg",
+        "data": "Support 24h/24 pour vous maintenir en fonctionnement — et en croissance.",
+         "alt" : "Représentant service client avec casque sur ordinateur affichant bulle de dialogue pour assistance communication"
       },
       {
-        "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (4).svg",
-        "data": "RialChat (intégration WhatsApp) inclus — Gratuit."
+        "img": "/images/services/salesforce-agentforce/Mobile/automated-process-workflow-cycle-icon.svg",
+        "data": "RialChat (intégration WhatsApp) inclus — Gratuit.",
+          "alt" : "Flux de travail circulaire avec engrenage et bulle de discussion montrant cycle processus automatisé et boucle continue"
+
       },
       {
-        "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (5).svg",
-        "data": "Focalisation approfondie sur Agentforce et les parcours de transformation IA."
+        "img": "/images/services/salesforce-agentforce/Mobile/artificial-intelligence-brain-technology-icon.svg",
+        "data": "Focalisation approfondie sur Agentforce et les parcours de transformation IA.",
+            "alt" : "Profil de tête humaine avec motif de circuit et engrenage symbolisant intelligence artificielle et technologie cognitive"
       }
     ],
     "knowMore": "En savoir plus",
@@ -1332,6 +1336,22 @@
     "contactSubTitleOne": "Contactez Rialtes pour découvrir comment SalesforceAgent+ peut dynamiser votre écosystème Salesforce."
   },
   "sapDigitalDesk": {
+      "whyPartnersAlt" : "Poignée main professionnelle avec effets lumière numérique vibrants symbolisant partenariat technologique et collaboration affaires ",
+    "migrateSectionAlt" : "Arrière-plan onde numérique affichant chemins migration SAP SuccessFactors depuis Workday et ZOHO HR avec détails services",
+        "btpSectionAlt" : "Professionnels affaires souriants analysant visualisation données sur écran numérique interactif dans espace travail collaboratif",
+      "superchargeSectionAlt" : "Mains assemblant pièces puzzle bleues avec icônes RH montrant intégration IA SAP Joule pour système gestion employés automatisé",
+    "sapSignavioAlt" : "Méthodologie implémentation SAP Signavio et Activate montrant processus six étapes depuis découverte jusqu'au déploiement",
+    "winnigSectionAlt" : "Vue aérienne professionnels RH menant réunion gestion talents SAP SuccessFactors avec documents et ordinateur portable",
+      "intelligentSectionAlt" : "Professionnels affaires examinant tableau bord analytique coloré avec graphiques sur ordinateur portable pour informations données",
+     "codeFutureAlt" : "Développeur logiciel portant lunettes analysant code programmation avec superposition affichage holographique montrant visualisation",
+     "seamlessSectionAlt" : "Vue aérienne intersection autoroute multiniveau avec flux trafic montrant infrastructure transport et connectivité réseau",
+     "unleashSectionAlt" : "Professionnels affaires examinant données numériques sur tablette avec superposition interface transparente dans bureau corporatif moderne",
+      "sapFioriSectionAlt" : "Femme professionnelle souriante en tenue noire travaillant sur ordinateur portable dans espace bureau moderne avec lumière naturelle",
+     "futureProofAlt" : "Ingénieur industriel avec gilet sécurité et casque analysant données temps réel sur écrans numériques surveillance en usine",
+     "sapSectionAlt" : "Page informations certifications SAP affichant plus de 150 certifications sur modules principaux avec avantages expertise listés",
+     "projectleadershipAlt" : "Entrepôt futuriste avec superposition grille numérique et chariots élévateurs montrant logistique intelligente et gestion automatisée",
+     "rialtesSectionAlt" : "Visualisation réseau numérique abstrait montrant infrastructure support SAP mondiale avec formes ondes bleues et connectivité",
+    "bannerAlt" : "Professionnel analysant données analytiques SAP sur tablette avec graphiques financiers superposés pour maximiser investissement",
     "sapCertificationData": [
       "SAP S/4HANA (Finance, Logistique, Production, Ventes & Distribution, Achats)",
       "SAP SuccessFactors (EC, LMS, Talent, Onboarding, Rémunération, Workforce Analytics)",
@@ -2014,6 +2034,14 @@
     "contactTitle": "Prêt à accélérer votre marketing ? Parlons-en !"
   },
   "rialFinance": {
+     "whyRialtesAlt" : "Femme professionnelle présentant analyse Salesforce Financial Services Cloud et stratégies numériques au client",
+     "howWeDeliverAlt" : "Trois professionnels collaborant joyeusement en examinant données financières sur tablette en bureau moderne",
+    "salesforceAlt" : "Main utilisant stylet sur tablette futuriste affichant analyses financières temps réel, graphiques et tableaux IA",
+     "aiAlt" : "Tirelire numérique futuriste avec circuits lumineux et lunettes symbolisant transformation financière par IA",
+     "agentchatAlt" : "Femme professionnelle souriante utilisant smartphone pour communication WhatsApp via plateforme Salesforce AgentChat",
+     "exelonaAlt" : "Gratte-ciel numérique en wireframe représentant Exelona Financial Services Cloud pour gestion actifs et portefeuilles",
+    "agentforceAlt": "Professionnel analysant données financières sur ordinateur avec graphiques holographiques IA et analytics",
+    "bannerAlt": "Solutions Salesforce RialFinance+ avec flèche bleue ascendante sur graphiques de croissance financière",
     "startWithData": [
       "Bots IA préconfigurés pour l’intégration des clients, le crédit, le service et le conseil en gestion de patrimoine.",
       "Ateliers d’activation Agentforce pour une préparation rapide à l’IA.",
@@ -2075,8 +2103,9 @@
           "Parcours bancaires mobiles intégrés et portails en libre-service.",
           "Workflows bancaires sans agence pour une meilleure portée client."
         ],
-        "deskImg": "/images/services/rial-finance/retail-banking-desk.webp",
-        "mobImg": "/images/services/rial-finance/Mobile/retail-banking-mob.webp"
+        "alt": "Main tenant smartphone affichant interface d'application bancaire avec données financières et aperçu transactions",
+        "deskImg": "/images/services/rial-finance/retail-banking-mobile-app.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/retail-banking-mobile-app-mobile.webp"
       },
       {
         "id": "2",
@@ -2089,8 +2118,9 @@
           "Workflows d’initiation et d’approbation des prêts.",
           "Onboarding client fluide et services de compte."
         ],
-        "deskImg": "/images/services/rial-finance/commercial-banking-desk.webp",
-        "mobImg": "/images/services/rial-finance/Mobile/commercial-banking-mob.webp"
+        "alt": "Conseiller bancaire et client en réunion professionnelle discutant graphiques financiers affichés sur ordinateur",
+        "deskImg": "/images/services/rial-finance/commercial-banking-consultation.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/commercial-banking-consultation-mobile.webp"
       },
       {
         "id": "3",
@@ -2103,8 +2133,9 @@
           "Offres de taux personnalisées et pré-qualifications.",
           "Libre-service client pour suivi et gestion des demandes."
         ],
-        "deskImg": "/images/services/rial-finance/mortgage-desk.webp",
-        "mobImg": "/images/services/rial-finance/Mobile/mortgage-mob.webp"
+        "alt": "Mains interagissant avec interface hypothécaire futuriste montrant maison, évaluations, graphiques et taux d'intérêt",
+        "deskImg": "/images/services/rial-finance/digital-mortgage-technology-interface.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/digital-mortgage-technology-interface-mobile.webp"
       },
       {
         "id": "4",
@@ -2117,8 +2148,9 @@
           "Planification financière intégrée et suivi des objectifs.",
           "Portails de collaboration pour conseillers et rapports automatisés."
         ],
-        "deskImg": "/images/services/rial-finance/wealth-desk.webp",
-        "mobImg": "/images/services/rial-finance/Mobile/wealth-mob.webp"
+        "alt": "Équipe d'affaires analysant tableau de bord financier avec graphiques et métriques de performance sur écran",
+        "deskImg": "/images/services/rial-finance/team-financial-analytics-dashboard.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/team-financial-analytics-dashboard-mobile.webp"
       },
       {
         "id": "5",
@@ -2131,8 +2163,9 @@
           "Gestion intégrée des polices et des sinistres.",
           "Plateformes de collaboration courtiers-négociants."
         ],
-        "deskImg": "/images/services/rial-finance/agencies-desk.webp",
-        "mobImg": "/images/services/rial-finance/Mobile/agencies-mob.webp"
+        "alt": "Professionnel présentant analyses de données financières avec graphiques et lignes de tendance sur grand écran",
+        "deskImg": "/images/services/rial-finance/financial-data-presentation.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/financial-data-presentation-mobile.webp"
       },
       {
         "id": "6",
@@ -2145,8 +2178,9 @@
           "Tableaux de bord de gestion des risques et conformité.",
           "Intégration avec ERP et plateformes de trésorerie."
         ],
-        "deskImg": "/images/services/rial-finance/corporate-desk.webp",
-        "mobImg": "/images/services/rial-finance/Mobile/corporate-mob.webp"
+        "alt": "Professionnel d'affaires en costume passant appel téléphonique en examinant documents financiers au bureau",
+        "deskImg": "/images/services/rial-finance/business-professional-phone-call.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/business-professional-phone-call-mobile.webp"
       },
       {
         "id": "7",
@@ -2159,8 +2193,9 @@
           "Communications et portails investisseurs personnalisés.",
           "Tableaux de bord d’analyses de performance et de risques."
         ],
-        "deskImg": "/images/services/rial-finance/asset-desk.webp",
-        "mobImg": "/images/services/rial-finance/Mobile/asset-mob.webp"
+        "alt": "Femme d'affaires confiante souriante en réunion professionnelle avec collègues discutant stratégie en salle",
+        "deskImg": "/images/services/rial-finance/professional-business-meeting.webp",
+        "mobImg": "/images/services/rial-finance/Mobile/professional-business-meeting-mobile.webp"
       }
     ],
     "headerTitle": "RialFinance+",

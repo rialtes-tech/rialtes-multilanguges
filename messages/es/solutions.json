@@ -654,26 +654,41 @@
     "riseWithSapNavigationAlt": "Como Socio Gold de SAP, aportamos una profunda experiencia en aplicaciones SAP, procesos empresariales y tecnología para ayudarle a aprovechar al máximo RISE."
   },
   "oracle": {
+    "bannerAlt": "Banner que promociona los servicios de consultoría Oracle EBS de Rialtes para la modernización empresarial.",
+    "ebsimageAlt": "Visual que destaca la oferta EBSPlus de Rialtes para la integración de Oracle EBS y Kinaxis.",
+    "deepexpertiseAlt": "Imagen que representa la experiencia certificada de Rialtes en Oracle EBS y Oracle Cloud Infrastructure.",
+    "thoughtleadershipAlt": "Gráfico que ilustra el liderazgo intelectual de Rialtes en la transformación de Oracle EBS y la integración de IA.",
+    "supplyChainAlt": "Imagen que muestra la integración de Oracle EBS y Kinaxis para la planificación ágil de la cadena de suministro.",
+    "salesAndOperationsAlt": "Visual que representa la planificación colaborativa de ventas y operaciones con Oracle EBS y Kinaxis",
+    "inventoryAlt ": "Imagen que muestra la optimización de inventario y la programación empresarial con Oracle EBS ASCP.",
+    "senarioplanningAlt": "Gráfico que muestra la planificación de escenarios de extremo a extremo con Oracle EBS y Kinaxis para mitigar riesgos.",
+    "aiDrivenAlt": "Imagen que representa la transformación impulsada por IA en los flujos de trabajo de Oracle EBS para pronósticos y automatización.",
+    "ebsSuitelogoAlt": "Logotipo de Oracle E-Business Suite, con la palabra ORACLE en rojo y E-BUSINESS SUITE en letras mayúsculas negras.",
     "data": [
       {
-        "img": "/images/oracle-ebs/20 yrs ERP.svg",
-        "text": "Más de 20 años de experiencia en ERP con clientes Fortune 500."
+        "img": "/images/oracle-ebs/oracle-ebusiness-suite-logo.svg",
+        "text": "Más de 20 años de experiencia en ERP con clientes Fortune 500.",
+        "alt": "ogotipo de Oracle E-Business Suite, con la palabra ORACLE en rojo y E-BUSINESS SUITE en letras mayúsculas negras"
       },
       {
-        "img": "/images/oracle-ebs/oracle certify.svg",
-        "text": "Socio certificado de Oracle y Kinaxis con conocimiento profundo del sector."
+        "img": "/images/oracle-ebs/oracle-ebs-erp-expertise-icon.svg",
+        "text": "Socio certificado de Oracle y Kinaxis con conocimiento profundo del sector.",
+        "alt": "Icono que representa más de 20 años de experiencia en ERP con clientes Fortune 500."
       },
       {
-        "img": "/images/oracle-ebs/global delivery.svg",
-        "text": "Entrega global con experiencia local en India, EE. UU., Canadá y Singapur."
+        "img": "/images/oracle-ebs/oracle-ebs-global-delivery-icon.svg",
+        "text": "Entrega global con experiencia local en India, EE. UU., Canadá y Singapur.",
+        "alt": "Icono que representa entrega global con experiencia localizada en India, EE. UU., Canadá y Singapur."
       },
       {
-        "img": "/images/oracle-ebs/transformation.svg",
-        "text": "Hoja de ruta demostrada en transformaciones completas de Oracle EBS."
+        "img": "/images/oracle-ebs/oracle-ebs-transformation-track-record-icon.svg",
+        "text": "Hoja de ruta demostrada en transformaciones completas de Oracle EBS.",
+        "alt": "Icono que destaca un historial comprobado de transformaciones completas de Oracle EBS."
       },
       {
-        "img": "/images/oracle-ebs/AI approach.svg",
-        "text": "Enfoque basado en IA y datos para operaciones preparadas para el futuro."
+        "img": "/images/oracle-ebs/oracle-ebs-ai-data-first-icon.svg",
+        "text": "Enfoque basado en IA y datos para operaciones preparadas para el futuro.",
+        "alt": "Icono que representa un enfoque basado en IA y datos para operaciones preparadas para el futuro."
       }
     ],
     "InventoryData": [
@@ -840,10 +855,10 @@
     "contactTitle": "¿Listo para modernizar Oracle EBS en tu negocio?"
   },
   "sapCpi": {
-    "bannerAlt":"Formación de nubes digitales sobre paisaje urbano iluminado mostrando servicios de integración cloud SAP conectados",
-    "leaderAlt":"Túnel digital futurista con rastros de luz ilustrando integración como columna vertebral de transformación digital",
-    "connectAlt":"Mano sosteniendo una bombilla con una red de iconos conectados, simbolizando innovación, flujo de datos y transformación digital.",
-    "whyAlt":"Mujer de negocios segura dando la mano en una oficina moderna, simbolizando una asociación exitosa.",
+    "bannerAlt": "Formación de nubes digitales sobre paisaje urbano iluminado mostrando servicios de integración cloud SAP conectados",
+    "leaderAlt": "Túnel digital futurista con rastros de luz ilustrando integración como columna vertebral de transformación digital",
+    "connectAlt": "Mano sosteniendo una bombilla con una red de iconos conectados, simbolizando innovación, flujo de datos y transformación digital.",
+    "whyAlt": "Mujer de negocios segura dando la mano en una oficina moderna, simbolizando una asociación exitosa.",
     "learnMore": "Aprender más",
     "seoTitle": "Servicios de Integración SAP Cloud Platform (CPI) | Rialtes",
     "seoDescription": "Rialtes ofrece servicios expertos en Integración SAP CPI para optimizar operaciones, conectar apps SAP y no SAP, y acelerar la transformación.",
@@ -895,7 +910,7 @@
     "specializedData": [
       {
         "title": "Integración SAP Ariba",
-        "imageAlt":"Trabajadores de almacén con equipo de seguridad revisando datos de inventario digital en laptop y monitor en centro",
+        "imageAlt": "Trabajadores de almacén con equipo de seguridad revisando datos de inventario digital en laptop y monitor en centro",
         "subtitle": "Impulsa la excelencia en compras",
         "desc": "Rialtes ofrece integración completa entre SAP Ariba y SAP S/4HANA u otros sistemas, agilizando adquisiciones y colaboración con proveedores.",
         "keyData": [
@@ -914,7 +929,7 @@
       },
       {
         "title": "Integración SAP S/4HANA",
-        "imageAlt":"Mujer de negocios en traje profesional hablando por teléfono mientras revisa tablet en oficina con cajas de envío",
+        "imageAlt": "Mujer de negocios en traje profesional hablando por teléfono mientras revisa tablet en oficina con cajas de envío",
         "subtitle": "Conecta tu núcleo digital",
         "desc": "La integración de SAP S/4HANA con otros sistemas empresariales es crítica. Rialtes habilita integraciones seguras y en tiempo real con Salesforce, Ariba, Oracle y más.",
         "keyData": [
@@ -933,7 +948,7 @@
       },
       {
         "title": "Integración SAP SuccessFactors",
-       "imageAlt":"Profesionales de RR.HH. revisando integración SAP SuccessFactors en tablet para gestión del ciclo de vida del empleado",
+        "imageAlt": "Profesionales de RR.HH. revisando integración SAP SuccessFactors en tablet para gestión del ciclo de vida del empleado",
         "subtitle": "Impulsando el RRHH de próxima generación",
         "desc": "Rialtes integra SAP SuccessFactors con sistemas de nómina, beneficios, seguimiento de tiempos y finanzas para una gestión fluida del ciclo de vida del empleado.",
         "keyData": [
@@ -952,7 +967,7 @@
       },
       {
         "title": "Integración Salesforce y SAP CPI",
-        "imageAlt":"Pareja comparando las funciones de un lavavajillas en una tienda de electrodomésticos moderna.",
+        "imageAlt": "Pareja comparando las funciones de un lavavajillas en una tienda de electrodomésticos moderna.",
         "subtitle": "Experiencia de cliente 360°",
         "desc": "Rialtes conecta Salesforce CRM con SAP S/4HANA y ERP mediante CPI para flujos integrados de clientes, órdenes y servicios.",
         "keyData": [
@@ -979,7 +994,7 @@
       {
         "mobImg": "/images/solutions/sap-cpi/Mobile/data-analytics-professionals-office-mobile.webp",
         "deskImg": "/images/solutions/sap-cpi/data-analytics-professionals-office.webp",
-        "imageAlt":"Profesionales de negocios analizando paneles de datos coloridos y gráficos en monitores múltiples en oficina moderna",
+        "imageAlt": "Profesionales de negocios analizando paneles de datos coloridos y gráficos en monitores múltiples en oficina moderna",
         "title": "Visualización de datos con Data Cloud y Tableau",
         "subtitle": "Información accionable desde datos conectados",
         "desc": "Con SAP CPI habilitando integración fluida de datos, Rialtes aprovecha Tableau y Data Cloud para convertir datos complejos en insights accionables.",
@@ -992,7 +1007,7 @@
       {
         "mobImg": "/images/solutions/sap-cpi/Mobile/manufacturing-workers-tablet-automation-mobile.webp",
         "deskImg": "/images/solutions/sap-cpi/manufacturing-workers-tablet-automation.webp",
-        "imageAlt":"Trabajadores industriales con equipo de seguridad usando tablet digital para gestionar maquinaria robótica en fábrica",
+        "imageAlt": "Trabajadores industriales con equipo de seguridad usando tablet digital para gestionar maquinaria robótica en fábrica",
         "title": "Planificación de producción y gestión de demanda con Mulesoft + SAP CPI",
         "desc": "Integra SAP, Oracle, Salesforce y sistemas heredados para pronósticos y planificación con Mulesoft y SAP CPI:",
         "dataList": [
@@ -1002,9 +1017,9 @@
         ]
       },
       {
-       "mobImg": "/images/solutions/sap-cpi/Mobile/digital-project-management-gantt-chart-mobile.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/digital-project-management-gantt-chart-mobile.webp",
         "deskImg": "/images/solutions/sap-cpi/digital-project-management-gantt-chart.webp",
-        "imageAlt":"Profesional interactuando con diagrama de Gantt digital en pantalla de laptop para planificación de gestión de proyectos",
+        "imageAlt": "Profesional interactuando con diagrama de Gantt digital en pantalla de laptop para planificación de gestión de proyectos",
         "title": "Planificación de demanda con Kinaxis RapidResponse & SAP CPI",
         "desc": "La integración de Kinaxis RapidResponse con SAP para planificación de demanda en tiempo real ofrece:",
         "dataList": [
@@ -1014,9 +1029,9 @@
         ]
       },
       {
-      "mobImg": "/images/solutions/sap-cpi/Mobile/augmented-reality-smart-manufacturing-mobile.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/augmented-reality-smart-manufacturing-mobile.webp",
         "deskImg": "/images/solutions/sap-cpi/augmented-reality-smart-manufacturing.webp",
-        "imageAlt":"Ingenieros con cascos de seguridad viendo datos de realidad aumentada y paneles digitales en planta de fabricación moderna",
+        "imageAlt": "Ingenieros con cascos de seguridad viendo datos de realidad aumentada y paneles digitales en planta de fabricación moderna",
         "title": "Integraciones SAP impulsadas por IA",
         "subtitle": "El futuro de los flujos de trabajo inteligentes",
         "desc": "La IA está transformando la integración, y Rialtes lo hace realidad:",
@@ -1027,9 +1042,9 @@
         ]
       },
       {
-         "mobImg": "/images/solutions/sap-cpi/Mobile/warehouse-inventory-management-professionals-mobile.webp",
+        "mobImg": "/images/solutions/sap-cpi/Mobile/warehouse-inventory-management-professionals-mobile.webp",
         "deskImg": "/images/solutions/sap-cpi/warehouse-inventory-management-professionals.webp",
-        "imageAlt":"Profesionales de almacén con tablets y portapapeles revisando datos de gestión de inventario entre estantes de centro",
+        "imageAlt": "Profesionales de almacén con tablets y portapapeles revisando datos de gestión de inventario entre estantes de centro",
         "title": "Entrega ágil certificada SCRUM para integraciones",
         "desc": "Cada proyecto CPI de Rialtes está liderado por gerentes certificados SCRUM, asegurando:",
         "dataList": [
@@ -1041,7 +1056,7 @@
       {
         "mobImg": "/images/solutions/sap-cpi/Mobile/team-collaboration-digital-network-unity-mobile.webp",
         "deskImg": "/images/solutions/sap-cpi/team-collaboration-digital-network-unity.webp",
-        "imageAlt":"Manos de equipo diverso juntas en unidad con conexiones de red digital simbolizando colaboración y espíritu de equipo",
+        "imageAlt": "Manos de equipo diverso juntas en unidad con conexiones de red digital simbolizando colaboración y espíritu de equipo",
         "title": "Alianza SAP y Salesforce",
         "subtitle": "El poder de ecosistemas conectados",
         "desc": "Como socios de SAP y Salesforce, Rialtes ofrece:",
@@ -1084,6 +1099,18 @@
     "contactSubTitle2": "Contáctanos hoy para una consulta gratuita y descubre cómo podemos potenciar tu empresa conectada."
   },
   "uiPath": {
+    "bannerAlt": "Placa de circuito digital abstracta con caminos azules brillantes y nodos de datos coloridos representando servicios UiPath",
+    "uiAlt": "Logo UiPath Agentic Automation con texto negro y acento naranja representando plataforma de automatización robótica inteligente",
+    "rpaAlt": "Mano sosteniendo red digital brillante con nodos conectados cian y rojos representando innovación de IA y datos digitales",
+    "chainALt": "Paquetes apilados sobre una tableta con íconos digitales de logística, que representan cadena de suministro inteligente",
+    "hanaAlt": "Persona analizando datos de almacén en tiempo real en una tableta digital, mostrando gestión inteligente de inventario",
+    "autoAlt": "Mano interactuando con panel RH digital que muestra perfiles, calificaciones y análisis de rendimiento laboral",
+    "digiAlt": "Mano tocando centro de red digital con iconos conectados representando comunicación empresarial global y análisis de datos",
+    "industryAlt": "Oblea de silicio semiconductor colorida con patrones de circuitos de microchip en azul verde amarillo y rojo en fabricación",
+    "dataAlt": "Mano sosteniendo lupa examinando gráficos de datos financieros y diagramas circulares en panel de análisis digital",
+    "aiAlt": "Mano tocando icono cerebral holográfico con circuitos simbolizando IA y tecnología de aprendizaje automático",
+    "provenAlt": "Profesionales analizando datos en múltiples monitores mostrando gráficos y análisis en oficina moderna",
+    "meetAlt": "Mujer de negocios presentando gráficos y datos en pantalla al equipo durante reunión en sala de conferencias",
     "headerTitle": "Servicios de RPA con UiPath",
     "seoTitle": "Servicios y Soluciones de Consultoría RPA con UiPath | Rialtes",
     "seoDescription": "¿Buscas servicios de consultoría RPA? Ayudamos a automatizar flujos SAP y Salesforce, reducir costos y mejorar eficiencia usando UiPath. Comienza hoy.",
@@ -1129,23 +1156,27 @@
     "industryDesc": "Rialtes ofrece aceleradores RPA específicos para cada industria para una implementación rápida en:",
     "featureBoxes2": [
       {
-        "icon": "/images/uipath/manufcature.svg",
+        "icon": "/images/uipath/manufacturing-automation-industry-icon.svg",
         "title": "Manufactura",
+        "alt": "Icono azul de brazo robótico y cinta transportadora representando automatización industrial y procesos de fabricación",
         "description": "Bots para cadena de suministro y gestión de inventario."
       },
       {
-        "icon": "/images/uipath/semiconductor.svg",
+        "icon": "/images/uipath/microchip-semiconductor-technology-icon.svg",
         "title": "Semiconductores",
+        "alt": "Icono azul de microchip con patrones de circuitos representando tecnología de semiconductores y procesamiento digital",
         "description": "Bots para adquisiciones y procesamiento de pedidos."
       },
       {
-        "icon": "/images/uipath/automotive.svg",
+        "icon": "/images/uipath/connected-automotive-smart-vehicle-icon.svg",
         "title": "Automotriz",
+        "alt": "Icono azul de automóvil conectado con elementos de circuito representando tecnología automotriz y vehículos inteligentes",
         "description": "Bots para gestión de red de concesionarios y repuestos."
       },
       {
-        "icon": "/images/uipath/retail.svg",
+        "icon": "/images/uipath/ecommerce-shopping-cart-retail-icon.svg",
         "title": "Retail",
+        "alt": "Icono azul de carrito de compras en insignia circular representando soluciones de comercio electrónico y tienda digital",
         "description": "Bots para pedidos y servicio al cliente."
       }
     ],
@@ -1273,14 +1304,14 @@
     "contactSubtitleOne": "¡Contáctanos hoy para una evaluación gratuita de automatización!"
   },
   "tosca": {
-    "bannerAlt":"Ingeniera de software sonriendo en escritorio con pantallas de código mostrando servicios de pruebas Tricentis TOSCA",
-    "trustAlt":"Desarrolladores de software colaborando con tablet revisando código en monitores múltiples en espacio de trabajo tech",
-    "serviceAlt":"Profesional analizando gráficos financieros y datos analíticos en múltiples pantallas de laptop en espacio de trabajo",
-    "qtestAlt":"Profesionales tecnológicos colaborando en estación de trabajo con computadora en oficina moderna con plantas y monitores",
-    "liveAlt":"Analista de datos concentrada trabajando en portátil con código y gráficos digitales, simbolizando innovación basada en datos",
-    "businessAlt":"Dos profesionales analizando paneles digitales con gráficos y datos, discutiendo ideas estratégicas de negocio",
-    "codeAlt":"Dos profesionales colaborando en programación, revisando código en pantallas con documentos de diseño en el escritorio",
-    "desktopAlt":"Paisaje urbano en la nube con texto sobre integración SAP, Oracle, Salesforce y pruebas unificadas empresariales",
+    "bannerAlt": "Ingeniera de software sonriendo en escritorio con pantallas de código mostrando servicios de pruebas Tricentis TOSCA",
+    "trustAlt": "Desarrolladores de software colaborando con tablet revisando código en monitores múltiples en espacio de trabajo tech",
+    "serviceAlt": "Profesional analizando gráficos financieros y datos analíticos en múltiples pantallas de laptop en espacio de trabajo",
+    "qtestAlt": "Profesionales tecnológicos colaborando en estación de trabajo con computadora en oficina moderna con plantas y monitores",
+    "liveAlt": "Analista de datos concentrada trabajando en portátil con código y gráficos digitales, simbolizando innovación basada en datos",
+    "businessAlt": "Dos profesionales analizando paneles digitales con gráficos y datos, discutiendo ideas estratégicas de negocio",
+    "codeAlt": "Dos profesionales colaborando en programación, revisando código en pantallas con documentos de diseño en el escritorio",
+    "desktopAlt": "Paisaje urbano en la nube con texto sobre integración SAP, Oracle, Salesforce y pruebas unificadas empresariales",
     "headerTitle": "Mejora la ingeniería de calidad con los servicios de pruebas automatizadas Tosca de Rialtes",
     "seoTitle": "Servicios de Pruebas Automatizadas Tosca | Rialtes",
     "seoDescription": "Rialtes ofrece servicios de pruebas automatizadas Tosca con IA, CI/CD y pruebas basadas en riesgos para transformar SAP, Salesforce y DevOps sin fricciones.",
@@ -1396,9 +1427,9 @@
     "ContactSubTitleOne": "Programa una consulta gratuita de Tosca, reserva una demostración o contacta con nuestros expertos. Por favor, completa el siguiente formulario."
   },
   "mulesoft": {
-    "bannerAlt":"Ciudad digital con líneas de red que muestran la integración de MuleSoft como socio de Salesforce.",
-    "partnerAlt":"Logo insignia Salesforce Partner mostrado contra horizonte urbano iluminado demostrando asociación tecnológica",
-    "robustAlt":"Horizonte urbano al atardecer con luces que muestran la transformación digital y soluciones de integración.",
+    "bannerAlt": "Ciudad digital con líneas de red que muestran la integración de MuleSoft como socio de Salesforce.",
+    "partnerAlt": "Logo insignia Salesforce Partner mostrado contra horizonte urbano iluminado demostrando asociación tecnológica",
+    "robustAlt": "Horizonte urbano al atardecer con luces que muestran la transformación digital y soluciones de integración.",
     "MmuleSoftTitle": "Soluciones de Integración MuleSoft",
     "seoTitle": "Soluciones y Servicios de Consultoría MuleSoft | Rialtes",
     "seoDescription": "Nuestras soluciones de consultoría MuleSoft facilitan el flujo de servicios digitales al liberar todo el potencial de sistemas Salesforce conectados.",
@@ -1668,6 +1699,8 @@
     "insights": "Perspectivas"
   },
   "revenueCloud": {
+    "infographicAlt": "Infografía que ilustra el flujo de procesos de Salesforce Revenue Cloud desde la cotización hasta el cobro",
+    "sapPartnerLogoAlt": "Insignia oficial de Socio SAP que representa experiencia certificada en implementación",
     "revenueCloudImg": "/images/revenue-cloud/revenue-cloud-infographic-spanish.webp",
     "revenueStats": [
       {
@@ -1690,27 +1723,32 @@
       {
         "id": 1,
         "imageUrl": "/images/revenue-cloud/customer-insight.svg",
-        "title": "Información del Cliente"
+        "title": "Información del Cliente",
+        "alt": "Icono de gráfico circular y lupa que representa el conocimiento del cliente y el análisis de datos."
       },
       {
         "id": 2,
         "imageUrl": "/images/revenue-cloud/streamlined-revenue-efficiency.svg",
-        "title": "Eficiencia de Ingresos Optimizada"
+        "title": "Eficiencia de Ingresos Optimizada",
+        "alt": "Icono de gráfico de barras y engranaje que simboliza operaciones de ingresos optimizadas."
       },
       {
         "id": 3,
         "imageUrl": "/images/revenue-cloud/enhanced-buyer-experience.svg",
-        "title": "Experiencia del Comprador Mejorada"
+        "title": "Experiencia del Comprador Mejorada",
+        "alt": "Icono de dispositivo móvil con perfil de usuario que indica una mejor experiencia de compra."
       },
       {
         "id": 4,
         "imageUrl": "/images/revenue-cloud/increased-conversion-rates.svg",
-        "title": "Aumento de Tasas de Conversión"
+        "title": "Aumento de Tasas de Conversión",
+        "alt": "Icono de gráfico ascendente y símbolo de porcentaje que representa el aumento de tasas de conversión."
       },
       {
         "id": 5,
         "imageUrl": "/images/revenue-cloud/optimized-product-delivery.svg",
-        "title": "Entrega de Productos Optimizada"
+        "title": "Entrega de Productos Optimizada",
+        "alt": "Icono de engranaje y caja de entrega que representa la optimización de la entrega de productos."
       }
     ],
     "salesForce2": [

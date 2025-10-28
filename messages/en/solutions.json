@@ -654,28 +654,43 @@
     "contactTitle": "Take the next step to operational excellence with us."
   },
   "oracle": {
+    "bannerAlt": "Banner promoting Rialtes' Oracle EBS consulting services for enterprise modernization",
+    "ebsimageAlt": "Visual highlighting Rialtes' EBSPlus offering for Oracle EBS and Kinaxis integration.",
+    "deepexpertiseAlt": "Image representing Rialtes' certified expertise in Oracle EBS and Oracle Cloud Infrastructure.",
+    "thoughtleadershipAlt": "Graphic illustrating Rialtes' thought leadership in Oracle EBS transformation and AI integration",
+    "supplyChainAlt": "Image showing Oracle EBS and Kinaxis integration for agile supply chain planning.",
+    "salesAndOperationsAlt": "Visual representing collaborative sales and operations planning using Oracle EBS and Kinaxis.",
+    "inventoryAlt": "Image depicting inventory optimization and enterprise scheduling using Oracle EBS ASCP",
+    "senarioplanningAlt": "Graphic showing end-to-end scenario planning with Oracle EBS and Kinaxis for risk mitigation.",
+    "aiDrivenAlt": "Image representing AI-powered transformation in Oracle EBS workflows for forecasting and automation.",
     "seoTitle": "Oracle EBS Consulting Services and Solutions | Rialtes",
+    "ebsSuitelogoAlt": "Logo for Oracle E-Business Suite, featuring the word ORACLE in red and E-BUSINESS SUITE in black uppercase letters.",
     "seoDescription": "OracleEBSPlus by Rialtes redefines Oracle EBS consulting, enabling forward-thinking enterprises to lead with greater agility, deeper insight, and innovation.",
     "data": [
       {
-        "img": "/images/oracle-ebs/20 yrs ERP.svg",
-        "text": "20+ years of ERP expertise with Fortune 500 clients."
+        "img": "/images/oracle-ebs/oracle-ebusiness-suite-logo.svg",
+        "text": "20+ years of ERP expertise with Fortune 500 clients.",
+        "alt": "Logo for Oracle E-Business Suite, featuring the word ORACLE in red and E-BUSINESS SUITE in black uppercase letters."
       },
       {
-        "img": "/images/oracle-ebs/oracle certify.svg",
-        "text": "Certified Oracle and Kinaxis partner with real industry insights."
+        "img": "/images/oracle-ebs/oracle-ebs-erp-expertise-icon.svg",
+        "text": "Certified Oracle and Kinaxis partner with real industry insights.",
+        "alt": "Icon representing 20+ years of ERP expertise with Fortune 500 clients."
       },
       {
-        "img": "/images/oracle-ebs/global delivery.svg",
-        "text": "Global delivery with localized expertise in India, US, Canada, and Singapore."
+        "img": "/images/oracle-ebs/oracle-ebs-global-delivery-icon.svg",
+        "text": "Global delivery with localized expertise in India, US, Canada, and Singapore.",
+        "alt": "Icon representing global delivery with localized expertise in India, US, Canada, and Singapore."
       },
       {
-        "img": "/images/oracle-ebs/transformation.svg",
-        "text": "Proven track record of end-to-end Oracle EBS transformations."
+        "img": "/images/oracle-ebs/oracle-ebs-transformation-track-record-icon.svg",
+        "text": "Proven track record of end-to-end Oracle EBS transformations.",
+        "alt": "Icon highlighting a proven track record of end-to-end Oracle EBS transformations"
       },
       {
-        "img": "/images/oracle-ebs/AI approach.svg",
-        "text": "AI and Data-first approach for future-ready operations."
+        "img": "/images/oracle-ebs/oracle-ebs-ai-data-first-icon.svg",
+        "text": "AI and Data-first approach for future-ready operations.",
+        "alt": "Icon representing an AI and data-first approach for future-ready operations"
       }
     ],
     "InventoryData": [
@@ -1084,6 +1099,18 @@
     "contactSubTitle2": "Contact us today for a free consultation and explore how we can empower your connected enterprise!"
   },
   "uiPath": {
+    "bannerAlt": "Abstract digital circuit board with glowing blue pathways and colorful data nodes representing UiPath RPA automation services",
+    "uiAlt": "UiPath Agentic Automation logo with black text and orange accent representing intelligent robotic process automation platform",
+    "rpaAlt": "Hand holding glowing digital network with cyan and red connected nodes representing AI and data innovation on dark background",
+    "chainALt": "Stacked packages on tablet with digital logistics icons, representing smart supply chain and procurement automation",
+    "hanaAlt": "Person analyzing real-time warehouse data on a digital tablet with charts, showcasing smart inventory management",
+    "autoAlt": "Hand interacting with digital HR dashboard showing employee profiles, ratings, and analytics for performance review",
+    "digiAlt": "Hand touching digital network hub with connected icons representing global business communication and data analytics systems",
+    "industryAlt": "Colorful semiconductor silicon wafer with microchip circuit patterns in blue green yellow and red showing manufacturing process",
+    "dataAlt": "Hand holding magnifying glass examining financial data charts graphs and pie diagrams on digital analytics dashboard screen",
+    "aiAlt": "Hand reaching toward holographic brain icon with circuit patterns symbolizing AI and machine learning technology",
+    "provenAlt": "Business professionals analyzing data on multiple monitor screens displaying charts and analytics in modern office",
+    "meetAlt": "Business woman presenting data charts and graphs on screen to team during corporate meeting in modern conference room",
     "headerTitle": "UiPath RPA Services",
     "seoTitle": "RPA Consulting Services and Solutions with UiPath | Rialtes",
     "seoDescription": "Looking for RPA consulting services providers? We help automate SAP and Salesforce workflows, cut costs, and boost efficiency using UiPath. Start today.",
@@ -1129,23 +1156,27 @@
     "industryDesc": "Rialtes offers industry-specific RPA accelerators for rapid deployment in:",
     "featureBoxes2": [
       {
-        "icon": "/images/uipath/manufcature.svg",
+        "icon": "/images/uipath/manufacturing-automation-industry-icon.svg",
         "title": "Manufacturing",
+        "alt": "Blue line icon of robotic arm and conveyor belt representing industrial manufacturing automation and production processes",
         "description": "Supply chain and inventory bots."
       },
       {
-        "icon": "/images/uipath/semiconductor.svg",
+        "icon": "/images/uipath/microchip-semiconductor-technology-icon.svg",
         "title": "Semiconductor",
+        "alt": "Blue microchip icon with circuit patterns representing semiconductor technology and digital processing capabilities",
         "description": "Procurement and order processing bots."
       },
       {
-        "icon": "/images/uipath/automotive.svg",
+        "icon": "/images/uipath/connected-automotive-smart-vehicle-icon.svg",
         "title": "Automotive",
+        "alt": "Blue connected car icon with circuit elements representing automotive technology and smart vehicle connectivity solutions",
         "description": "Dealer network and parts management bots."
       },
       {
-        "icon": "/images/uipath/retail.svg",
+        "icon": "/images/uipath/ecommerce-shopping-cart-retail-icon.svg",
         "title": "Retail",
+        "alt": "Blue shopping cart icon in circular badge representing e-commerce retail solutions and digital shopping platform services",
         "description": "Order and customer service bots."
       }
     ],
@@ -1668,6 +1699,9 @@
     "insights": "Insights"
   },
   "revenueCloud": {
+    "infographicAlt": "Infographic illustrating the Salesforce Revenue Cloud process flow from quote to cash",
+    "sapPartnerLogoAlt": "Official SAP Partner badge representing certified implementation expertise",
+    "bannerAlt": "Banner promoting Salesforce Revenue Cloud consulting services for streamlined revenue lifecycle management",
     "revenueCloudImg": "/images/revenue-cloud/revenue-cloud-infographic.webp",
     "seoTitle": "Salesforce Revenue Cloud Implementation Partner | Rialtes",
     "seoDescription": "Rialtes, a trusted Salesforce Revenue Cloud implementation partner, offers tailored solutions to transform sales, billing, and revenue operations.",
@@ -1692,27 +1726,32 @@
       {
         "id": 1,
         "imageUrl": "/images/revenue-cloud/customer-insight.svg",
-        "title": "Customer Insight"
+        "title": "Customer Insight",
+        "alt": "Icon of a pie chart and magnifying glass representing customer insight and data analysis."
       },
       {
         "id": 2,
         "imageUrl": "/images/revenue-cloud/streamlined-revenue-efficiency.svg",
-        "title": "Streamlined Revenue Efficiency"
+        "title": "Streamlined Revenue Efficiency",
+        "alt": "Icon of a bar chart and gear symbolizing streamlined revenue operations and process optimization."
       },
       {
         "id": 3,
         "imageUrl": "/images/revenue-cloud/enhanced-buyer-experience.svg",
-        "title": "Enhanced Buyer Experience"
+        "title": "Enhanced Buyer Experience",
+        "alt": "Icon of a mobile device with user profile indicating improved buyer experience and personalization."
       },
       {
         "id": 4,
         "imageUrl": "/images/revenue-cloud/increased-conversion-rates.svg",
-        "title": "Increased Conversion Rates"
+        "title": "Increased Conversion Rates",
+        "alt": "Icon of a rising graph and percentage symbol representing increased conversion rates and sales growth."
       },
       {
         "id": 5,
         "imageUrl": "/images/revenue-cloud/optimized-product-delivery.svg",
-        "title": "Optimized Product Delivery"
+        "title": "Optimized Product Delivery",
+        "alt": "Icon of a gear and delivery box representing optimized product delivery and logistics."
       }
     ],
     "salesForce2": [

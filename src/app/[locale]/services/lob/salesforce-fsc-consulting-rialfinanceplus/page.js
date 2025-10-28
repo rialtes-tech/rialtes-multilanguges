@@ -133,8 +133,8 @@ export default function page() {
             <section className="relative group overflow-hidden h-[420px] lg:h-[550px] 4xl:h-[650px]">
                 <div className="hidden md:block">
                     <Image
-                        src="/images/services/rial-finance/hero-desk-banner.webp"
-                        alt="desktop banner"
+                        src="/images/services/rial-finance/rialFinance-salesforce-growth.webp"
+                        alt={t("bannerAlt")}
                         fill
                         style={{ objectFit: "cover", objectPosition: "55% 20%" }}
                         priority
@@ -144,8 +144,8 @@ export default function page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/services/rial-finance/Mobile/hero-mob-banner.webp"
-                        alt="mobile banner"
+                        src="/images/services/rial-finance/Mobile/rialFinance-salesforce-growth-mobile.webp"
+                        alt={t("bannerAlt")}
                         fill
                         style={{ objectFit: "cover", objectPosition: "5% 20%" }}
                         priority
@@ -190,8 +190,8 @@ export default function page() {
                         <div className="lg:col-span-7 col-span-12">
                             <div className="lg:block hidden w-full h-full">
                                 <Image
-                                    src="/images/services/rial-finance/start-with-desk.webp"
-                                    alt="Start with Agentforce Adoption img"
+                                    src="/images/services/rial-finance/financial-analytics-ai-dashboard.webp"
+                                    alt={t("agentforceAlt")}
                                     width={0}
                                     height={0}
                                     className="w-full h-full object-cover xl:object-[75%_20%] 4xl:object-[25%_20%]"
@@ -201,8 +201,8 @@ export default function page() {
                             {/* mob image */}
                             <div className="lg:hidden block w-full h-full">
                                 <Image
-                                    src="/images/services/rial-finance/Mobile/start-with-mob.webp"
-                                    alt="Start with Agentforce Adoption img"
+                                    src="/images/services/rial-finance/Mobile/financial-analytics-ai-dashboard-mobile.webp"
+                                    alt={t("agentforceAlt")}
                                     width={0}
                                     height={0}
                                     className="w-full h-full md:h-[600px] object-cover"
@@ -278,7 +278,7 @@ export default function page() {
                                             <div className="md:hidden block mt-[23px]">
                                                 <Image
                                                     src={data.mobImg}
-                                                    alt={`${data.title} image`}
+                                                    alt={`${data.alt}`}
                                                     width={0}
                                                     height={0}
                                                     className="w-full h-full object-cover"
@@ -291,11 +291,11 @@ export default function page() {
                                             <div className="md:block hidden w-full h-full mt-[-20px]">
                                                 <Image
                                                     src={data.deskImg}
-                                                    alt="desktop img"
+                                                    alt={`${data.alt}`}
                                                     width={0}
                                                     height={0}
                                                     className="w-full h-full object-cover"
-                                                    priority
+                                                    priority 
                                                 />
                                             </div>
                                         </div>
@@ -314,8 +314,8 @@ export default function page() {
                 <div className="custom-container md:pl-0 max-md:px-0">
                     <div className="lg:block hidden w-full h-full">
                         <Image
-                            src="/images/services/rial-finance/exelona-desk.webp"
-                            alt="exelona img"
+                            src="/images/services/rial-finance/exelona-financial-services-cloud.webp"
+                            alt={t("exelonaAlt")}
                             width={0}
                             height={0}
                             className="w-full h-full object-cover"
@@ -325,8 +325,8 @@ export default function page() {
                     {/* mob image */}
                     <div className="lg:hidden block w-full h-full">
                         <Image
-                            src="/images/services/rial-finance/Mobile/exelona-mob.webp"
-                            alt="exelona img"
+                            src="/images/services/rial-finance/Mobile/exelona-financial-services-cloud-mobile.webp"
+                            alt={t("exelonaAlt")}
                             width={0}
                             height={0}
                             className="w-full h-full md:h-[600px] object-cover"
@@ -363,8 +363,8 @@ export default function page() {
             <section className="xl:mt-[181px] mt-[123px] bg-[#184671] custom-container">
                 <div className="lg:block hidden w-full h-full">
                     <Image
-                        src="/images/services/rial-finance/agentchat-desk.webp"
-                        alt="AgentChat img"
+                        src="/images/services/rial-finance/agentchat-whatsapp-salesforce.webp"
+                        alt={t("agentchatAlt")}
                         width={0}
                         height={0}
                         className="w-full h-full object-cover"
@@ -374,8 +374,8 @@ export default function page() {
                 {/* mob image */}
                 <div className="lg:hidden block w-full h-full">
                     <Image
-                        src="/images/services/rial-finance/Mobile/agentchat-mob.webp"
-                        alt="AgentChat img"
+                        src="/images/services/rial-finance/Mobile/agentchat-whatsapp-salesforce-mobile.webp"
+                        alt={t("agentchatAlt")}
                         width={0}
                         height={0}
                         className="w-full h-full md:h-[600px] object-cover"
@@ -405,6 +405,7 @@ export default function page() {
                     </div>
                 </div>
             </section>
+
             {/* agent force section */}
             <section className="xl:mt-[73px] mt-[42px] custom-container">
                 <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[40px] lg:gap-[80px] gap-y-[29px]">
@@ -429,8 +430,8 @@ export default function page() {
                     <div className="md:order-2 order-1">
                         <div className="lg:block hidden w-full h-full">
                             <Image
-                                src="/images/services/rial-finance/agentforce-desk.webp"
-                                alt="agentforce img"
+                                src="/images/services/rial-finance/ai-financial-transformation-technology.webp"
+                                alt={t("aiAlt")}
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -440,8 +441,8 @@ export default function page() {
                         {/* mob image */}
                         <div className="lg:hidden block w-full h-full">
                             <Image
-                                src="/images/services/rial-finance/Mobile/agentforce-mob.webp"
-                                alt="agentforce img"
+                                src="/images/services/rial-finance/Mobile/ai-financial-transformation-technology-mobile.webp"
+                                alt={t("aiAlt")}
                                 width={0}
                                 height={0}
                                 className="w-full h-full md:h-[600px] object-cover"
@@ -451,14 +452,15 @@ export default function page() {
                     </div>
                 </div>
             </section>
+
             {/* salesforce section */}
             <section className="xl:mt-[147px] mt-[75px] custom-container md:pl-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] lg:gap-[60px] gap-y-[29px]">
                     <div className="md:col-span-7 col-span-12">
                         <div className="md:block hidden w-full h-full relative">
                             <Image
-                                src="/images/services/rial-finance/salesforce-desk.webp"
-                                alt="salesforce img"
+                                src="/images/services/rial-finance/digital-financial-analytics-dashboard.webp"
+                                alt={t("salesforceAlt")}
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -471,8 +473,8 @@ export default function page() {
                         {/* mob image */}
                         <div className="md:hidden block w-full h-full">
                             <Image
-                                src="/images/services/rial-finance/Mobile/salesforce-mob.webp"
-                                alt="salesforce img"
+                                src="/images/services/rial-finance/Mobile/digital-financial-analytics-dashboard-mobile.webp"
+                                alt={t("salesforceAlt")}
                                 width={0}
                                 height={0}
                                 className="w-full h-full md:h-[600px] object-cover"
@@ -505,6 +507,7 @@ export default function page() {
                     </div>
                 </div>
             </section>
+
             {/* how we deliver section */}
             <section className="xl:mt-[147px] mt-[75px] custom-container lg:pr-0 max-lg:px-0">
                 <div className="grid lg:grid-cols-12 grid-cols-1">
@@ -525,8 +528,8 @@ export default function page() {
                     <div className="lg:col-span-7 col-span-12 lg:order-2 order-1">
                         <div className="lg:block hidden w-full h-full">
                             <Image
-                                src="/images/services/rial-finance/how-we-deliver-desk.webp"
-                                alt="how-we-deliver img"
+                                src="/images/services/rial-finance/team-collaboration-financial-review.webp"
+                                alt={t("howWeDeliverAlt")}
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -536,8 +539,8 @@ export default function page() {
                         {/* mob image */}
                         <div className="lg:hidden block w-full h-full">
                             <Image
-                                src="/images/services/rial-finance/Mobile/how-we-deliver-mob.webp"
-                                alt="how-we-deliver img"
+                                src="/images/services/rial-finance/Mobile/team-collaboration-financial-review-mobile.webp"
+                                alt={t("howWeDeliverAlt")}
                                 width={0}
                                 height={0}
                                 className="w-full h-full md:h-[600px] object-cover"
@@ -553,8 +556,8 @@ export default function page() {
                     <div className="lg:w-[70%]">
                         <div className="lg:block hidden w-full h-full">
                             <Image
-                                src="/images/services/rial-finance/why-rialtes-desk.webp"
-                                alt="why-rialtes img"
+                                src="/images/services/rial-finance/salesforce-expert-presentation.webp"
+                                alt={t("whyRialtesAlt")}
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover xl:h-[790px] 2xl:h-full"
@@ -564,8 +567,8 @@ export default function page() {
                         {/* mob image */}
                         <div className="lg:hidden block w-full h-full">
                             <Image
-                                src="/images/services/rial-finance/Mobile/why-rialtes-mob.webp"
-                                alt="why-rialtes img"
+                                src="/images/services/rial-finance/Mobile/salesforce-expert-presentation-mobile.webp"
+                                alt={t("whyRialtesAlt")}
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"

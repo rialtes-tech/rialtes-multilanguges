@@ -112,8 +112,8 @@ const t = useTranslations("uiPath");
             <section className="relative">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/uipath/desktop/banner.webp"
-                        alt="Tosca Banner desktop"
+                        src="/images/uipath/desktop/uipath-rpa-next-gen-automation.webp"
+                        alt={t('bannerAlt')}
                         width={0}
                         height={0}
                         priority
@@ -123,8 +123,8 @@ const t = useTranslations("uiPath");
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/uipath/mobile/banner.webp"
-                        alt="Toska Banner Mobile"
+                        src="/images/uipath/mobile/uipath-rpa-next-gen-automation-mobile.webp"
+                        alt={t('bannerAlt')}
                         className="w-full h-[490px] object-cover max-[360px]:h-[540px]"
                         priority
                         sizes="100vw"
@@ -149,8 +149,8 @@ const t = useTranslations("uiPath");
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-24 mt-10 items-center">
                     <div className="col-span-2 mt-10 xl:mt-20 order-1 xl:order-2">
                         <Image
-                            src="/images/uipath/image.svg"
-                            alt="UiPath Banner"
+                            src="/images/uipath/uipath-agentic-automation-logo.svg"
+                            alt={t('uiAlt')}
                             className="4xl:w-full w-[170px]"
                             priority
                             sizes="100vw"
@@ -173,8 +173,8 @@ const t = useTranslations("uiPath");
                 <div className="xl:grid-cols-12 grid">
                     <div className="xl:col-span-5 order-1 xl:order-2">
                         <Image
-                            src="/images/uipath/desktop/why-rpa.webp"
-                            alt="Why RPA with UiPath?"
+                            src="/images/uipath/desktop/ai-data-network-connectivity-visual.webp"
+                            alt={t('rpaAlt')}
                             priority
                             sizes="100vw"
                             className="w-full h-full"
@@ -228,7 +228,7 @@ const t = useTranslations("uiPath");
                             <div className="w-[140px] h-[140px] flex items-start justify-start">
                                 <Image
                                     src={feature.icon}
-                                    alt={`${feature.title} image`}
+                                    alt={feature.alt}
                                     width={100}
                                     height={100}
                                     priority
@@ -252,8 +252,8 @@ const t = useTranslations("uiPath");
                     <div className="xl:col-span-4 xl:mt-20 4xl:mt-20 mb-32">
                         <div className="xl:block hidden">
                             <Image
-                                src="/images/uipath/desktop/rpa-sap-ariba.webp"
-                                alt="RPA Automation with SAP Ariba"
+                                src="/images/uipath/desktop/digital-supply-chain-procurement.webp"
+                                alt={t('chainALt')}
                                 priority
                                 sizes="100vw"
                                 className="w-full relative"
@@ -263,8 +263,8 @@ const t = useTranslations("uiPath");
                         </div>
                         <div className="xl:hidden block px-[35px]">
                             <Image
-                                src="/images/uipath/mobile/sap-ariba.webp"
-                                alt="RPA Automation with SAP Ariba"
+                                src="/images/uipath/mobile/digital-supply-chain-procurement-mobile.webp"
+                                alt={t('chainALt')}
                                 priority
                                 sizes="100vw"
                                 className="w-full relative"
@@ -297,8 +297,8 @@ const t = useTranslations("uiPath");
                     <div className="4xl:col-span-5 xl:col-span-6 xl:mt-20 4xl:mb-32 mb-16 order-1 xl:order-2">
                         <div className="xl:block hidden">
                             <Image
-                                src="/images/uipath/desktop/rpa-auto.webp"
-                                alt="RPA Automation with SAP S/4HANA"
+                                src="/images/uipath/desktop/warehouse-digital-analytics-dashboard.webp"
+                                alt={t('hanaAlt')}
                                 priority
                                 sizes="100vw"
                                 className="w-full relative"
@@ -308,8 +308,8 @@ const t = useTranslations("uiPath");
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/uipath/mobile/saps4hana.webp"
-                                alt="RPA Automation with SAP S/4HANA"
+                                src="/images/uipath/mobile/warehouse-digital-analytics-dashboard-mobile.webp"
+                                alt={t('hanaAlt')}
                                 priority
                                 sizes="100vw"
                                 className="w-full relative max-md:px-[35px]"
@@ -347,8 +347,8 @@ const t = useTranslations("uiPath");
                     <div className="xl:col-span-4 xl:mt-20 mb-16 xl:mb-32">
                         <div className="xl:block hidden">
                             <Image
-                                src="/images/uipath/desktop/sap-successfactor.webp"
-                                alt="RPA Automation with SAP SuccessFactors"
+                                src="/images/uipath/desktop/digital-hr-employee-evaluation.webp"
+                                alt={t('autoAlt')}
                                 priority
                                 sizes="100vw"
                                 className="w-full relative"
@@ -358,8 +358,8 @@ const t = useTranslations("uiPath");
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/uipath/mobile/sap-successfactor.webp"
-                                alt="RPA Automation with SAP SuccessFactors"
+                                src="/images/uipath/mobile/digital-hr-employee-evaluation-mobile.webp"
+                                alt={t('autoAlt')}
                                 priority
                                 sizes="100vw"
                                 className="w-full relative max-md:px-[35px]"
@@ -399,8 +399,8 @@ const t = useTranslations("uiPath");
                     <div className="4xl:col-span-5 xl:col-span-6  xl:mt-20 4xl:mb-32 mb-16 order-1 xl:order-2">
                         <div className="xl:block hidden">
                             <Image
-                                src="/images/uipath/desktop/rpa.webp"
-                                alt="RPA Automation with Salesforce"
+                                src="/images/uipath/desktop/digital-business-network-connectivity.webp"
+                                alt={t('digiAlt')}
                                 priority
                                 sizes="100vw"
                                 className="w-full relative"
@@ -410,8 +410,8 @@ const t = useTranslations("uiPath");
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/uipath/mobile/rpa-auto.webp"
-                                alt="RPA Automation with Salesforce"
+                                src="/images/uipath/mobile/digital-business-network-connectivity-mobile.webp"
+                                alt={t('digiAlt')}
                                 priority
                                 sizes="100vw"
                                 className="w-full relative max-md:px-[35px]"
@@ -448,8 +448,8 @@ const t = useTranslations("uiPath");
             <section className="relative 4xl:mt-32 xl:mt-32 mt-20 custom-container 4xl:pl-[280px] 4xl:pr-0 xl:pr-0 max-md:pr-0">
                 <div>
                     <Image
-                        src="/images/uipath/desktop/industry.webp"
-                        alt="Automotive Industry"
+                        src="/images/uipath/desktop/semiconductor-wafer-microchip-manufacturing.webp"
+                        alt={t('industryAlt')}
                         priority
                         sizes="100vw"
                         className="w-full h-[300px] xl:h-full"
@@ -495,8 +495,8 @@ const t = useTranslations("uiPath");
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20 4xl:gap-20">
                     <div className="xl:col-span-5 col-span-12">
                         <Image
-                            src="/images/uipath/desktop/data-visu.webp"
-                            alt="Data Visualization"
+                            src="/images/uipath/desktop/data-analysis-magnifying-glass-dashboard.webp"
+                            alt={t('dataAlt')}
                             priority
                             sizes="100vw"
                             className="w-full relative"
@@ -515,8 +515,8 @@ const t = useTranslations("uiPath");
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:col-span-8 4xl:ml-[35px] order-1 xl:order-2">
                         <Image
-                            src="/images/uipath/desktop/ai-enhance.webp"
-                            alt="AI-Enhanced RPA"
+                            src="/images/uipath/desktop/ai-brain-technology-interface.webp"
+                            alt={t('aiAlt')}
                             priority
                             sizes="100vw"
                             className="w-full"
@@ -546,8 +546,8 @@ const t = useTranslations("uiPath");
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20">
                     <div className="xl:col-span-5 4xl:ml-[35px]">
                         <Image
-                            src="/images/uipath/desktop/proven.webp"
-                            alt="Rialtes’ certified SCRUM"
+                            src="/images/uipath/desktop/business-team-analyzing-data-multiple-monitors.webp"
+                            alt={t('provenAlt')}
                             priority
                             sizes="100vw"
                             className="w-full"
@@ -565,8 +565,8 @@ const t = useTranslations("uiPath");
             <section className="relative xl:mt-32 4xl:mt-32 mt-16 custom-container 4xl:pl-[280px] 4xl:pr-[142px] xl:pr-0 max-md:px-0">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/uipath/desktop/why-uipath-rpa.webp"
-                        alt="Why Rialtes for UiPath RPA?"
+                        src="/images/uipath/desktop/business-presentation-data-charts-team-meeting.webp"
+                        alt={t('meetAlt')}
                         priority
                         sizes="100vw"
                         className="w-full h-full"
@@ -576,8 +576,8 @@ const t = useTranslations("uiPath");
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/uipath/mobile/why-uipath-rpa.webp"
-                        alt="Why Rialtes for UiPath RPA?"
+                        src="/images/uipath/mobile/business-presentation-data-charts-team-meeting-mobile.webp"
+                        alt={t('meetAlt')}
                         width={0}
                         height={0}
                         sizes="100vw"

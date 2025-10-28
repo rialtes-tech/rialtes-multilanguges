@@ -1,5 +1,21 @@
 {
   "agentChat": {
+    "bannerAlt":"Professionnel utilisant AgentChat pour intégration WhatsApp avec Salesforce sur smartphone affichant plateforme",
+    "svgAlt":"Logo AgentChat avec icône bulle de dialogue bleue et verte représentant plateforme de communication client",
+    "whyAlt":"Interface chat WhatsApp Business sur smartphone montrant conversation client et notifications sur écran vert",
+    "handAlt":"Icône main pointant doigt avec lignes d'emphase représentant interaction utilisateur ou geste d'appel à l'action",
+    "fastAlt":"Icône chronomètre avec lignes de vitesse représentant temps de réponse rapide et performance en affaires",
+    "supportAlt":"Bulles de dialogue avec astérisque représentant conversation support client et communication messagerie temps réel",
+    "taskAlt":"Trois membres d'équipe avec coches au-dessus représentant tâches terminées et collaboration réussie",
+    "stepOne":"Icône flèche étape un en orange représentant première phase d'installation et configuration AgentChat",
+    "stepTwo":"Icône flèche étape deux en orange représentant phase de connexion compte WhatsApp Business dans workflow",
+    "stepThree":"Icône flèche étape trois en orange représentant phase de mappage des enregistrements Salesforce et données",
+    "stepFour":"Icône flèche étape quatre en orange représentant phase de configuration des rôles et autorisations d'équipe",
+    "stepFive":"Icône flèche étape cinq en orange représentant phase finale pour commencer à discuter depuis Salesforce",
+    "trainAlt":"Icône développeur présentant code sur écran représentant formation technique, tutoriel programmation et développement",
+    "startAlt":"Icône de chaîne de liens blanche avec texte Commencer maintenant sur fond bleu représentant démarrage rapide et action",
+    "SupportAlt":"Icône de combiné téléphonique blanc avec texte Nous contacter sur fond bleu représentant support client et communication",
+    "demoAlt":"Icono de calendario blanco con marca de verificación y texto Programar demo en fondo azul representando reserva de demostración",
     "headerTitle": "Présentation de",
     "seoTitle": "AgentChat : Intégration WhatsApp avec Salesforce Simplifiée | Rialtes",
     "seoDescription": "AgentChat relie WhatsApp à Salesforce, brise les silos et améliore la collaboration pour un engagement client renforcé et un meilleur ROI.",
@@ -24,8 +40,8 @@
     "features": [
       {
         "title": "Messagerie WhatsApp bidirectionnelle en temps réel",
-        "image": "/images/industry/rialchat/Seamless Messaging.webp",
-        "alt": "Messagerie WhatsApp en temps réel",
+        "image": "/images/industry/rialchat/customer-chat-product-inquiry-ecommerce.webp",
+        "alt": "Interface chat client sur tablette et mobile montrant conversation demande produit avec partage d'image pour e-commerce",
         "points": [
           "Initiez et gérez des conversations WhatsApp directement depuis n’importe quel objet Salesforce.",
           "Suivi automatique des conversations liées aux enregistrements Salesforce.",
@@ -34,8 +50,8 @@
       },
       {
         "title": "Messagerie contextuelle",
-        "image": "/images/industry/rialchat/rich-media-support.webp",
-        "alt": "Messagerie contextuelle",
+        "image": "/images/industry/rialchat/desktop-customer-service-chat-ecommerce.webp",
+        "alt": "Ordinateur de bureau affichant interface chat service client avec partage d'image produit pour gestion demandes e-commerce",
         "points": [
           "Accédez au contexte client complet depuis Salesforce pendant la discussion.",
           "Partagez des fichiers, médias et réponses rapides pour des résolutions plus rapides."
@@ -43,8 +59,8 @@
       },
       {
         "title": "Compatible avec tous les Clouds Salesforce",
-        "image": "/images/industry/rialchat/Automated Conversation Logging.webp",
-        "alt": "Prend en charge tous les Clouds Salesforce",
+        "image": "/images/industry/rialchat/crm-dashboard-customer-data-management-laptop.webp",
+        "alt": "Ordinateur portable affichant tableau de bord CRM avec interface gestion données client et liste contacts organisée",
         "points": [
           "<strong>Sales Cloud :</strong> Convertissez les chats en Pistes et Opportunités.",
           "<strong>Service Cloud :</strong> Gérez les Cas et offrez un support instantané.",
@@ -55,8 +71,8 @@
       },
       {
         "title": "Intégration transparente à Salesforce",
-        "image": "/images/industry/rialchat/Seamless Messaging.webp",
-        "alt": "Intégration fluide à Salesforce",
+        "image": "/images/industry/rialchat/customer-chat-product-inquiry-ecommerce.webp",
+        "alt": "Interface chat client sur tablette et mobile montrant conversation demande produit avec partage d'image pour e-commerce",
         "points": [
           "Fonctionne immédiatement avec Cas, Pistes, Opportunités, Ordres de travail, et plus encore.",
           "Règles d’acheminement et de délégation par type d’enregistrement — aucun effort manuel requis."
@@ -64,8 +80,8 @@
       },
       {
         "title": "Support multi-rôles, multi-équipes",
-        "image": "/images/industry/rialchat/Multi-Agent Collaboration.webp",
-        "alt": "Support multi-équipes",
+        "image": "/images/industry/rialchat/sales-engagement-owner-portal-platform.webp",
+        "alt": "Ordinateur portable affichant plateforme engagement commercial avec portail propriétaire pour communication d'entreprise",
         "points": [
           "Servez les clients via des équipes dédiées (Ventes, Support, Agents de terrain, Conseillers).",
           "Définissez qui peut initier, voir ou répondre selon les rôles et unités commerciales."
@@ -73,8 +89,8 @@
       },
       {
         "title": "Sécurité et conformité natives Salesforce",
-        "image": "/images/industry/rialchat/Seamless Messaging.webp",
-        "alt": "Sécurité et conformité",
+        "image": "/images/industry/rialchat/customer-chat-product-inquiry-ecommerce.webp",
+        "alt": "Interface chat client sur tablette et mobile montrant conversation demande produit avec partage d'image pour e-commerce",
         "points": [
           "Exploite les hiérarchies de rôles, règles de partage et sécurité au niveau des objets de Salesforce.",
           "Compatible RGPD, HIPAA grâce à la plateforme sécurisée de Salesforce."
