@@ -2133,6 +2133,16 @@
     "learnMoreBtn": "Saber más"
   },
   "retailIndustry": {
+      "aiPoweredAlt" : "Empleado de tienda minorista sonriente asistiendo cliente con escaneo de pago móvil en mostrador moderno con tecnología",
+     "rightSectionAlt" : "Gerente de tienda minorista y empleado discutiendo inventario en tableta en boutique de ropa moderna con estantes de exhibición",
+     "actionableSectionAlt" : "Profesional viendo análisis dinámico de nube de datos con efecto de desenfoque de movimiento mostrando inteligencia comercial minorista",
+     "frictionlessSectionAlt" : "Mano interactuando con panel de análisis digital transparente mostrando gráficos de datos en tiempo real y métricas comerciales",
+    "loyaltySectionAlt" : "Bloques de madera mostrando íconos de programa de lealtad incluyendo tarjeta descuento código QR caja regalo y bolsas de compras",
+     "realTimeAlt" : "Equipo de almacén con chalecos de seguridad usando tableta para seguimiento de inventario en tiempo real impulsado por la nube",
+    "salesforceMarketingAlt" : "Persona con suéter amarillo navegando catálogo de productos de compras en línea con ropa y artículos del hogar en pantalla tableta",
+     "fashionRetailAlt" : "Hombre profesional con gafas interactuando con pantalla táctil azul mostrando avatares digitales en entorno de oficina moderna",
+     "newRealitySectionAlt" : "Empleada de tienda minorista sonriente con gafas sosteniendo tableta para gestión de inventario en pasillo de productos",
+     "bannerAlt" : "Cliente usando interfaz de carrito de compras digital interactivo en tienda minorista moderna con pantalla táctil tecnológica",
     "newRealityData": [
       {
         "title": "Viajes del cliente fragmentados:",
@@ -2153,28 +2163,34 @@
     ],
     "chooseRialtesData": [
       {
-        "imgUrl": "/images/industry/retail-industry/img-1.svg",
-        "desc": "Asesoría estratégica retail y arquitectura de negocios"
+        "imgUrl": "/images/industry/retail-industry/omnichannel-retail-network-connectivity-icon.svg",
+        "desc": "Asesoría estratégica retail y arquitectura de negocios",
+        "alt" : "Ícono de línea azul mostrando tienda conectada a múltiples dispositivos representando integración de red minorista omnicanal"
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-2.svg",
-        "desc": "Diseño de soluciones personalizadas y blueprint de industria"
+        "imgUrl": "/images/industry/retail-industry/retail-blueprint-planning-design-icon.svg",
+        "desc": "Diseño de soluciones personalizadas y blueprint de industria",
+        "alt" : "Ícono de línea azul representando plano con lápiz y elementos de diseño para planificación y optimización de tienda minorista"
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-3.svg",
-        "desc": "Aceleradores pre‑construidos para implementaciones rápidas"
+        "imgUrl": "/images/industry/retail-industry/retail-business-growth-launch-acceleration-icon.svg",
+        "desc": "Aceleradores pre‑construidos para implementaciones rápidas",
+        "alt" : "Ícono de cohete azul con símbolo de porcentaje lanzándose hacia arriba representando crecimiento comercial minorista y aceleración"
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-4.svg",
-        "desc": "Garantía de calidad e ingeniería de rendimiento"
+        "imgUrl": "/images/industry/retail-industry/retail-security-compliance-protection-icon.svg",
+        "desc": "Garantía de calidad e ingeniería de rendimiento",
+        "alt" : "Escudo azul con marca de verificación e ícono de engranaje representando cumplimiento de seguridad minorista y protección operativa"
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-5.svg",
-        "desc": "Integración de front y back office (SAP, Salesforce, Oracle, MuleSoft)"
+        "imgUrl": "/images/industry/retail-industry/retail-data-integration-system-synchronization-icon.svg",
+        "desc": "Integración de front y back office (SAP, Salesforce, Oracle, MuleSoft)",
+        "alt" : "Ícono azul mostrando monitor de computadora con flechas bidireccionales y carpeta representando integración de datos minoristas"
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-6.svg",
-        "desc": "Soporte post‑go‑live, optimización e innovación"
+        "imgUrl": "/images/industry/retail-industry/retail-customer-support-service-icon.svg",
+        "desc": "Soporte post‑go‑live, optimización e innovación",
+        "alt" : "Auriculares azules con ícono de bombilla representando innovación de soporte al cliente minorista y soluciones de servicio inteligente"
       }
     ],
     "fashionRetailData": [
@@ -2232,16 +2248,18 @@
     ],
     "aiPoweredCustomerData": [
       {
-        "mobImgUrl": "/images/industry/retail-industry/mobile/aiPowered-agentforce-mob-img.webp",
-        "deskImgUrl": "/images/industry/retail-industry/aiPowered-agentforce-desk-img.webp",
+        "mobImgUrl": "/images/industry/retail-industry/mobile/digital-hands-ai-technology-connection-concept-mobile.webp",
+        "deskImgUrl": "/images/industry/retail-industry/digital-hands-ai-technology-connection-concept.webp",
         "title": "Agentforce",
-        "desc": "Bots de servicio en Service Cloud impulsados por IA, agentes virtuales y recorridos de soporte personalizados."
+        "desc": "Bots de servicio en Service Cloud impulsados por IA, agentes virtuales y recorridos de soporte personalizados.",
+        "alt" : "Dos manos acercándose con partículas digitales púrpuras brillantes representando tecnología IA y conexión humana"
       },
       {
-        "mobImgUrl": "/images/industry/retail-industry/mobile/aiPowered-datacloud-mob-img.webp",
-        "deskImgUrl": "/images/industry/retail-industry/aiPowered-datacloud-desk-img.webp",
+        "mobImgUrl": "/images/industry/retail-industry/mobile/cloud-data-technology-infrastructure-computing-mobile.webp",
+        "deskImgUrl": "/images/industry/retail-industry/cloud-data-technology-infrastructure-computing.webp",
         "title": "Data Cloud",
-        "desc": "Perfiles de cliente unificados 360° para ofertas personalizadas, soporte y upselling."
+        "desc": "Perfiles de cliente unificados 360° para ofertas personalizadas, soporte y upselling.",
+        "alt" : "Nube blanca con conexiones de circuitos digitales azules debajo representando computación en la nube e infraestructura de datos"
       }
     ],
     "actionableData": [
@@ -2321,6 +2339,12 @@
     "contactSubTitle2": "Contacta hoy para desbloquear el futuro del retail."
   },
   "nonProfit": {
+     "whyChooseRialtesAlt" : "Mano tocando interfaz de red digital sin fines de lucro con íconos conectados mostrando colaboración comunitaria e innovación",
+    "dataCloudAlt" : "Voluntarios trabajando con superposición de análisis de datos transparente mostrando gráficos circulares representando métricas de impacto",
+      "agentforceAlt" : "Profesionales sonrientes sin fines de lucro colaborando en portátil revisando estrategia organizacional y planificación de programas juntos",
+      "donorSectionAlt" : "Profesional revisando gráficos de análisis de datos en teléfono inteligente con portátil mostrando informes de métricas sin fines lucro",
+    "thoughtLeadershipAlt" : "Miembros del equipo de voluntarios usando tableta para coordinar distribución de alimentos y gestión de donaciones en banco",
+     "bannerAlt" : "Manos ensamblando rompecabezas de corazón arcoíris colorido representando trabajo en equipo sin fines de lucro y unidad",
     "whyChooseData": [
       "Amplia experiencia en el dominio del sector sin fines de lucro.",
       "Implementaciones aceleradas con soluciones preconstruidas adaptadas a necesidades de organizaciones sin ánimo de lucro.",
@@ -2379,8 +2403,9 @@
           "Proporcionar transparencia a los donantes sobre el uso de sus contribuciones mediante informes automáticos de impacto."
         ],
         "bgColor": "#FCF0D9",
-        "deskImg": "/images/industry/non-profit-industry/fundraising-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/fundraising-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/team-circle-puzzle-pieces-unity-collaboration.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/team-circle-puzzle-pieces-unity-collaboration-mobile.webp",
+        "alt" : "Equipo diverso sosteniendo piezas de rompecabezas de madera en círculo desde arriba representando colaboración sin fines de lucro"
       },
       {
         "title": "Mapeo de familias y hogares",
@@ -2393,8 +2418,9 @@
           "Mapear relaciones entre donantes, miembros de junta y participantes de programas para fortalecer la comunidad."
         ],
         "bgColor": "#E6E6A1",
-        "deskImg": "/images/industry/non-profit-industry/family-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/family-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/growing-plant-golden-coins-nonprofit-funding.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/growing-plant-golden-coins-nonprofit-funding-mobile.webp",
+        "alt" : "Plántula verde creciendo de monedas doradas con figuras en miniatura representando financiamiento sin fines de lucro y crecimiento"
       },
       {
         "title": "Alcance personalizado a donantes con Salesforce Marketing Cloud",
@@ -2407,8 +2433,9 @@
           "Recorridos dinámicos para donantes que se ajustan según su comportamiento y patrones de donación."
         ],
         "bgColor": "#D8DBEF",
-        "deskImg": "/images/industry/non-profit-industry/personalized-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/personalized-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/foundation-presentation-whiteboard-nonprofit-meeting.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/foundation-presentation-whiteboard-nonprofit-meeting-mobile.webp",
+        "alt" : "Mujer presentando misión de fundación y programas de voluntariado en pizarra durante reunión estratégica de organización sin fines lucro"
       },
       {
         "title": "Gestión de donantes",
@@ -2421,8 +2448,9 @@
           "Procesos integrales de agradecimiento y reconocimiento para fomentar la lealtad."
         ],
         "bgColor": "#E1E6C9",
-        "deskImg": "/images/industry/non-profit-industry/donor-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/donor-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/diverse-team-office-collaboration-nonprofit-meeting.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/diverse-team-office-collaboration-nonprofit-meeting-mobile.webp",
+        "alt" : "Equipo diverso sin fines de lucro colaborando en espacio de oficina moderna discutiendo proyectos y estrategia organizacional juntos"
       },
       {
         "title": "Gestión de voluntarios",
@@ -2435,8 +2463,9 @@
           "Paneles en tiempo real sobre compromiso y aportación de voluntarios."
         ],
         "bgColor": "#F2D8C2",
-        "deskImg": "/images/industry/non-profit-industry/volunteer-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/volunteer-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/volunteers-planting-tree-community-environmental-service.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/volunteers-planting-tree-community-environmental-service-mobile.webp",
+        "alt" : "Grupo de voluntarios con camisetas verdes plantando árbol juntos durante servicio comunitario ambiental y proyecto de sostenibilidad"
       },
       {
         "title": "Gestión de programas y resultados",
@@ -2449,8 +2478,9 @@
           "Informes transparentes para donantes, juntas y financiadores."
         ],
         "bgColor": "#E6E1F7",
-        "deskImg": "/images/industry/non-profit-industry/program-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/program-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/mobile-phone-donation-app-charity-interface.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/mobile-phone-donation-app-charity-interface-mobile.webp",
+        "alt" : "Persona usando interfaz de aplicación de donación en teléfono inteligente mostrando contribución benéfica y plataforma de recaudación"
       },
       {
         "title": "Gestión de subvenciones",
@@ -2463,8 +2493,9 @@
           "Informes integrados para demostrar uso eficaz de fondos a financiadores."
         ],
         "bgColor": "#F0E4ED",
-        "deskImg": "/images/industry/non-profit-industry/grant-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/grant-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/financial-management-technology-icons-nonprofit-dashboard.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/financial-management-technology-icons-nonprofit-dashboard-mobile.webp",
+        "alt" : "Íconos financieros holográficos incluyendo bolsa de dinero gráficos y análisis mostrando panel de gestión financiera sin fines lucro"
       }
     ],
     "headerTitle": "Industria sin Fines de Lucro",

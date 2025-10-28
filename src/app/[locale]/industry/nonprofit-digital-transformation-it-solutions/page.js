@@ -126,8 +126,8 @@ export default function retailPage() {
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
-                        src="/images/industry/non-profit-industry/hero-desk-banner.webp"
-                        alt="desktop banner"
+                        src="/images/industry/non-profit-industry/nonprofit-heart-puzzle-teamwork-collaboration.webp"
+                        alt={t("bannerAlt")}
                         fill
                         style={{ objectFit: "cover", objectPosition: "55% 20%" }}
                         priority
@@ -137,8 +137,8 @@ export default function retailPage() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/industry/non-profit-industry/Mobile/hero-mob-banner.webp"
-                        alt="mobile banner"
+                        src="/images/industry/non-profit-industry/Mobile/nonprofit-heart-puzzle-teamwork-collaboration-mobile.webp"
+                        alt={t("bannerAlt")}
                         fill
                         style={{ objectFit: "cover", objectPosition: "5% 20%" }}
                         priority
@@ -197,8 +197,8 @@ export default function retailPage() {
                         <div>
                             <div className="md:block hidden w-full h-full">
                                 <Image
-                                    src="/images/industry/non-profit-industry/thought-leadership-desk.webp"
-                                    alt="thought-leadership desktop img"
+                                    src="/images/industry/non-profit-industry/volunteers-tablet-food-bank-coordination.webp"
+                                    alt={t("thoughtLeadershipAlt")}
                                     width={0}
                                     height={0}
                                     className="w-full h-full object-cover"
@@ -207,8 +207,8 @@ export default function retailPage() {
                             </div>
                             <div className="md:hidden block w-full h-full">
                                 <Image
-                                    src="/images/industry/non-profit-industry/Mobile/thought-leadership-mob.webp"
-                                    alt="thought-leadership mob img"
+                                    src="/images/industry/non-profit-industry/Mobile/volunteers-tablet-food-bank-coordination-mobile.webp"
+                                    alt={t("thoughtLeadershipAlt")}
                                     width={0}
                                     height={0}
                                     className="w-full h-full object-cover"
@@ -302,7 +302,7 @@ export default function retailPage() {
                                                 <div className="md:block hidden w-full h-full relative">
                                                     <Image
                                                         src={data.deskImg}
-                                                        alt="desktop img"
+                                                        alt={`${data.alt}`}
                                                         width={0}
                                                         height={0}
                                                         className={`w-full h-full object-cover absolute mt-[80px] ${ind == 2 && "md:mt-[50px] lg:mt-[30px]"}`}
@@ -312,7 +312,7 @@ export default function retailPage() {
                                                 <div className="md:hidden block w-full h-full">
                                                     <Image
                                                         src={data.mobImg}
-                                                        alt="mob img"
+                                                        alt={`${data.alt}`}
                                                         width={0}
                                                         height={0}
                                                         className="w-full h-full object-cover"
@@ -423,8 +423,8 @@ export default function retailPage() {
                     <div>
                         <div className="md:block hidden w-[80%] h-[60%]">
                             <Image
-                                src="/images/industry/non-profit-industry/donor-volunteer-desk-img.webp"
-                                alt="donor-volunteer desktop img"
+                                src="/images/industry/non-profit-industry/professional-analyzing-data-mobile-analytics-reports.webp"
+                                alt={t("donorSectionAlt")}
                                 width={0}
                                 height={0}
                                 className=" w-full h-full object-cover"
@@ -433,8 +433,8 @@ export default function retailPage() {
                         </div>
                         <div className="md:hidden block w-full h-[60%]">
                             <Image
-                                src="/images/industry/non-profit-industry/Mobile/donor-volunteer-mob-img.webp"
-                                alt="donor-volunteer mob img"
+                                src="/images/industry/non-profit-industry/Mobile/professional-analyzing-data-mobile-analytics-reports-mobile.webp"
+                                alt={t("donorSectionAlt")}
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -456,8 +456,8 @@ export default function retailPage() {
                     <div>
                         <div className="md:block hidden w-[80%] h-[60%]">
                             <Image
-                                src="/images/industry/non-profit-industry/agentforce-desk-img.webp"
-                                alt="agentforce desktop img"
+                                src="/images/industry/non-profit-industry/team-reviewing-laptop-strategy-planning-collaboration.webp"
+                                alt={t("agentforceAlt")}
                                 width={0}
                                 height={0}
                                 className=" w-full h-full object-cover"
@@ -466,8 +466,8 @@ export default function retailPage() {
                         </div>
                         <div className="md:hidden block w-full h-[60%]">
                             <Image
-                                src="/images/industry/non-profit-industry/Mobile/agentforce-mob-img.webp"
-                                alt="agentforce mob img"
+                                src="/images/industry/non-profit-industry/Mobile/team-reviewing-laptop-strategy-planning-collaboration-mobile.webp"
+                                alt={t("agentforceAlt")}
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -488,8 +488,8 @@ export default function retailPage() {
                     <div className="4xl:col-span-5 md:col-span-5 lg:col-span-6 col-span-12 flex justify-center">
                         <div className="md:block hidden w-full h-full">
                             <Image
-                                src="/images/industry/non-profit-industry/data-cloud-desk-img.webp"
-                                alt="data-cloud desktop img"
+                                src="/images/industry/non-profit-industry/volunteers-data-analytics-overlay-visualization-metrics.webp"
+                                alt={t("dataCloudAlt")}
                                 width={0}
                                 height={0}
                                 className=" w-full h-full object-cover"
@@ -498,8 +498,8 @@ export default function retailPage() {
                         </div>
                         <div className="md:hidden block w-full h-full">
                             <Image
-                                src="/images/industry/non-profit-industry/Mobile/data-cloud-mob-img.webp"
-                                alt="data-cloud mob img"
+                                src="/images/industry/non-profit-industry/Mobile/volunteers-data-analytics-overlay-visualization-metrics-mobile.webp"
+                                alt={t("dataCloudAlt")}
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -543,8 +543,8 @@ export default function retailPage() {
                     <div className="md:col-span-6 col-span-12 md:order-2 order-1">
                         <div className="md:block hidden w-full h-full">
                             <Image
-                                src="/images/industry/non-profit-industry/why-choose-desk-img.webp"
-                                alt="why-choose desktop img"
+                                src="/images/industry/non-profit-industry/nonprofit-digital-network-ecosystem-technology-interface.webp"
+                                alt={t("whyChooseRialtesAlt")}
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
@@ -553,8 +553,8 @@ export default function retailPage() {
                         </div>
                         <div className="md:hidden block w-full h-full">
                             <Image
-                                src="/images/industry/non-profit-industry/Mobile/why-choose-mob-img.webp"
-                                alt="why-choose mob img"
+                                src="/images/industry/non-profit-industry/Mobile/nonprofit-digital-network-ecosystem-technology-interface-mobile.webp"
+                                alt={t("whyChooseRialtesAlt")}
                                 width={0}
                                 height={0}
                                 className="w-full h-full object-cover"
