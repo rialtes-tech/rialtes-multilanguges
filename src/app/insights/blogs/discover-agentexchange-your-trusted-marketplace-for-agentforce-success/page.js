@@ -1,9 +1,8 @@
 "use client";
-// pages/blog-detail.js
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 
@@ -12,12 +11,10 @@ const schemaData = {
   "@type": "BlogPosting",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/",
+    "@id": "https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/",
   },
   headline: "Discover AgentExchange by Salesforce",
-  description:
-    "AgentExchange simplifies the discovery and deployment of trusted AI solutions. Customers can explore offerings through the marketplace or within Salesforce’s Agent Builder tool, ensuring the right fit for their industry and use case.",
+  description: "AgentExchange simplifies the discovery and deployment of trusted AI solutions. Customers can explore offerings through the marketplace or within Salesforce’s Agent Builder tool, ensuring the right fit for their industry and use case.",
   image: "https://www.rialtes.com/images/blog/agentexchange-banner.jpg",
   author: {
     "@type": "Organization",
@@ -34,88 +31,11 @@ const schemaData = {
   datePublished: "2025-05-22",
   dateModified: "2025-05-22",
 };
-const blogs = [
-  {
-    id: 1,
-    image: "/images/blog/blog-1.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "30 Sept 2024",
-    url: "how-salesforce-agentforce-actually-works",
-    title: "How Salesforce Agentforce Actually Works",
-    description:
-      "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-  },
-  /* {
-      id: 2,
-      image: "/images/blog/blog-2.webp",
-      category: "Salesforce Agentforce",
-      industry: "Generic",
-      date: "21 Oct 2024",
-      title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-      description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
-    }, */
-  {
-    id: 3,
-    image: "/images/blog/blog-3.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "28 Oct 2024",
-    title:
-      "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-    description:
-      "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
-  },
-  {
-    id: 4,
-    image: "/images/blog/blog-4.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "25 Nov 2024",
-    title:
-      "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-    description:
-      "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
-  },
-  {
-    id: 5,
-    image: "/images/blog/blog-5.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "24 Dec 2024",
-    title:
-      "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-    description:
-      "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-  },
-  {
-    id: 6,
-    image: "/images/blog/blog-6.webp",
-    category: "Cloud Green Technology",
-    industry: "Agriculture",
-    date: "17 Sept 2024",
-    title:
-      "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    description:
-      "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-  },
-  {
-    id: 7,
-    image: "/images/blog/blog-7.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "29 Oct 2024",
-    title: "SAP SuccessFactors Performance and Goal Management",
-    description:
-      "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
-  },
 
-  // Add more blog objects as needed
-];
 
 export default function Page() {
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success";
+  const currUrl = useUrl()
 
   return (
     <div className="min-h-screen bg-white">
@@ -484,13 +404,11 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Latest Blogs */}
-      <div
-        className="custom-container xl:pr-0  
-        "
-      >
-        <BlogsCarousel slides={blogs} />
-      </div>
+
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
     </div>
   );
 }

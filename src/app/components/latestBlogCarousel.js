@@ -9,7 +9,6 @@ import Link from "next/link";
 export default function BlogsCarousel() {
   // if (!slides) {
   const slides = [
-
     {
       id: 27,
       image: "/images/blog/sap-cpi-feature-thumb.webp",
@@ -20,7 +19,6 @@ export default function BlogsCarousel() {
       title: "Migrating from SAP PI/PO to SAP BTP Integration Suite (CPI)",
       description: "Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation.For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes.",
     },
-
     {
       id: 26,
       image: "/images/blog/big-reimage-slider.webp",
@@ -71,7 +69,6 @@ export default function BlogsCarousel() {
       title: "Agents vs. Copilots vs. Bots: A Strategic Comparison That Drives AI Adoption Right",
       description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
     },
-
     {
       id: 14,
       image: "/images/blog/slider.webp",
@@ -82,9 +79,6 @@ export default function BlogsCarousel() {
       title: "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
       description: "We know that Artificial intelligence has transformed how we work, significantly boosting productivity by automating manual tasks and allowing teams to focus on high-value deliverables. With customer expectations soaring, they demand seamless, personalized experiences and instant support",
     },
-
-
-
     {
       id: 13,
       image: "/images/blog/agentexchange-Blog-feature-thumb.webp",
@@ -95,8 +89,6 @@ export default function BlogsCarousel() {
       title: "Discover AgentExchange: Your Trusted Marketplace for Agentforce Success",
       description: "Salesforce has once again raised the bar in AI-driven business solutions with the launch of AgentExchange, ",
     },
-
-
     {
       id: 12,
       image: "/images/blog/Pharma Jewel of North India_Blog feature thumb.webp",
@@ -137,8 +129,6 @@ export default function BlogsCarousel() {
       url: "insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs",
       title: "How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
       description: "The term Procurement encompasses the entire process of acquiring goods or services, from identifying needs to supplying them.Solutions like Guided Sourcing enable companies to conduct market research,"
-
-
     },
     {
       id: 8,
@@ -150,7 +140,6 @@ export default function BlogsCarousel() {
       title: "How SAP SuccessFactors Integrations Enhance HR and Payroll Operations",
       description: "Are payroll challenges slowing you down? SAP SuccessFactors turns payroll management from a hassle into a streamlined process that boosts employee satisfaction."
     },
-
     {
       id: 7,
       image: "/images/blog/jcarosel.webp",
@@ -171,7 +160,6 @@ export default function BlogsCarousel() {
       title: "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
       description: "Businesses increasingly rely on real-time data to drive decisions, optimize operations, and unlock AI-powered insights.",
     },
-
     {
       id: 5,
       image: "/images/blog/blog-14.webp",
@@ -182,7 +170,6 @@ export default function BlogsCarousel() {
       title: "Powerful Features of Agentforce You Should Be Using",
       description: "Salesforce Agentforce features address CX gaps with intelligent routing, AI-led case resolution, and performance dashboards for better decisions.",
     },
-
     {
       id: 4,
       image: "/images/blog/blog-13.webp",
@@ -193,7 +180,6 @@ export default function BlogsCarousel() {
       title: "How SAP SuccessFactors Enhances Remote Work Management",
       description: "Remote work has rapidly transformed from a temporary solution to a need for many businesses worldwide. With businesses shifting towards remote work, operating a remote workforce can be challenging, particularly considering local dynamics and regulatory requirements.",
     },
-
     {
       id: 3,
       image: "/images/blog/blog-12.webp",
