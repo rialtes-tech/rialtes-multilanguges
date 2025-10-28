@@ -123,8 +123,8 @@ export default function page() {
             <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 <div className="hidden md:block">
                     <Image
-                        src="/images/services/salesforce-agentforce/hero-desk-banner.webp"
-                        alt="desktop banner"
+                        src="/images/services/salesforce-agentforce/salesforceagent-plus-ai-services.webp"
+                        alt={t("bannerAlt")}
                         fill
                         style={{ objectFit: "cover", objectPosition: "55% 20%" }}
                         priority
@@ -134,8 +134,8 @@ export default function page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/services/salesforce-agentforce/Mobile/hero-mob-banner.webp"
-                        alt="mobile banner"
+                        src="/images/services/salesforce-agentforce/Mobile/salesforceagent-plus-ai-services-mobile.webp"
+                        alt={t("bannerAlt")}
                         fill
                         style={{ objectFit: "cover", objectPosition: "5% 40%" }}
                         priority
@@ -178,8 +178,8 @@ export default function page() {
             <section className="xl:mt-[94px] mt-[49px]">
                 <div className="block md:hidden w-full h-full">
                     <Image
-                        src="/images/services/salesforce-agentforce/Mobile/start-your-ai-mob-img.webp"
-                        alt="start your AI image"
+                        src="/images/services/salesforce-agentforce/Mobile/ai-journey-digital-transformation-mobile.webp"
+                        alt={t("startAlAlt")}
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -189,8 +189,8 @@ export default function page() {
                 {/* Desktop image */}
                 <div className="hidden md:block w-full h-full 4xl:pr-[80px] 2xl:pr-[60px] xl:pr-[40px] lg:pr-[20px]">
                     <Image
-                        src="/images/services/salesforce-agentforce/start-your-ai-desk-img.webp"
-                        alt="start your AI image"
+                        src="/images/services/salesforce-agentforce/ai-journey-digital-transformation.webp"
+                        alt={t("startAlAlt")}
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -272,8 +272,8 @@ export default function page() {
                     <>
                         <div className="block md:hidden w-full h-full">
                             <Image
-                                src="/images/services/salesforce-agentforce/Mobile/unlock-mob-img.webp"
-                                alt="unlock ai image"
+                                src="/images/services/salesforce-agentforce/Mobile/salesforce-cloud-data-synchronization-mobile.webp"
+                                alt={t("unlockAIAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -283,8 +283,8 @@ export default function page() {
                         {/* Desktop image */}
                         <div className="hidden md:block w-full h-full">
                             <Image
-                                src="/images/services/salesforce-agentforce/unlock-desk-img.webp"
-                                alt="unlock ai image"
+                                src="/images/services/salesforce-agentforce/salesforce-cloud-data-synchronization.webp"
+                                alt={t("unlockAIAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -315,8 +315,8 @@ export default function page() {
             <section className="xl:mt-[134px] mt-[72px]">
                 <div className="block lg:hidden w-full h-full">
                     <Image
-                        src="/images/services/salesforce-agentforce/Mobile/rial-chat-mob-img.webp"
-                        alt="rial chat image"
+                        src="/images/services/salesforce-agentforce/Mobile/professional-mobile-technology-user-mobile.webp"
+                        alt={t("rialchatAlt")}
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -327,8 +327,8 @@ export default function page() {
                 <div className="2xl:mx-[80px] xl:mx-[40px] lg:mx-[20px]">
                     <div className="hidden lg:block w-full h-full">
                         <Image
-                            src="/images/services/salesforce-agentforce/rial-chat-desk-img.webp"
-                            alt="rial chat image"
+                            src="/images/services/salesforce-agentforce/professional-mobile-technology-user.webp"
+                            alt={t("rialchatAlt")}
                             className="w-full h-full object-cover"
                             width={0}
                             height={0}
@@ -392,8 +392,8 @@ export default function page() {
                     <>
                         <div className="block md:hidden w-full h-full">
                             <Image
-                                src="/images/services/salesforce-agentforce/Mobile/rialtes-salesforce-mob-img.webp"
-                                alt="rialtes salesforce image"
+                                src="/images/services/salesforce-agentforce/Mobile/professional-team-collaboration-mobile.webp"
+                                alt={t("salesforceSectionAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -403,8 +403,8 @@ export default function page() {
                         {/* Desktop image */}
                         <div className="hidden md:block w-full h-full">
                             <Image
-                                src="/images/services/salesforce-agentforce/rialtes-salesforce-desk-img.webp"
-                                alt="rialtes salesforce image"
+                                src="/images/services/salesforce-agentforce/professional-team-collaboration.webp"
+                                alt={t("salesforceSectionAlt")}
                                 className="w-full h-full object-cover"
                                 style={{ objectPosition: "95% 20%" }}
                                 width={0}
@@ -431,7 +431,8 @@ export default function page() {
             </section>
             {/* our salesforce section */}
             <section>
-                <div className="xl:mt-[155px] mt-[110px] bg-[url('/images/services/salesforce-agentforce/Mobile/our-salesforce-mob-bg.webp')] md:bg-[url('/images/services/salesforce-agentforce/our-salesforce-desk-bg.webp')] bg-cover bg-no-repeat bg-center xl:pt-[84px] pt-[52px] xl:pb-[103px] pb-[142px] text-[#ffffff]">
+                <div className="xl:mt-[155px] mt-[110px] bg-[url('/images/services/salesforce-agentforce/Mobile/salesforce-industry-cloud-solutions-mobile.webp')] md:bg-[url('/images/services/salesforce-agentforce/salesforce-industry-cloud-solutions.webp')] bg-cover bg-no-repeat bg-center xl:pt-[84px] pt-[52px] xl:pb-[103px] pb-[142px] text-[#ffffff]">
+
                     <div className="custom-container">
                         <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light xl:w-[70%] 2xl:w-[60%] lg:w-[40%] sm:w-[60%]">
                             {t('ourTitle')}
@@ -499,8 +500,8 @@ export default function page() {
                     <div className="md:order-2 order-1">
                         <div className="block md:hidden w-full h-full">
                             <Image
-                                src="/images/services/salesforce-agentforce/Mobile/migrate-mob-img.webp"
-                                alt="migrate salesforce image"
+                                src="/images/services/salesforce-agentforce/Mobile/modern-cloud-infrastructure-building-mobile.webp"
+                                alt={t("migrateSectionAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -510,8 +511,8 @@ export default function page() {
                         {/* Desktop image */}
                         <div className="hidden md:block w-full h-full">
                             <Image
-                                src="/images/services/salesforce-agentforce/migrate-desk-img.webp"
-                                alt="migrate salesforce image"
+                                src="/images/services/salesforce-agentforce/modern-cloud-infrastructure-building.webp"
+                                alt={t("migrateSectionAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -527,8 +528,8 @@ export default function page() {
                     <div className="md:col-span-7 xl:col-span-7">
                         <div className="block md:hidden w-full h-full">
                             <Image
-                                src="/images/services/salesforce-agentforce/Mobile/certified-mob-img.webp"
-                                alt="certified salesforce image"
+                                src="/images/services/salesforce-agentforce/Mobile/software-development-team-workspace-mobile.webp"
+                                alt={t("certifiedSectionAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -538,8 +539,8 @@ export default function page() {
                         {/* Desktop image */}
                         <div className="hidden md:block w-full h-full">
                             <Image
-                                src="/images/services/salesforce-agentforce/certified-desk-img.webp"
-                                alt="certified salesforce image"
+                                src="/images/services/salesforce-agentforce/software-development-team-workspace.webp"
+                                alt={t("certifiedSectionAlt")}
                                 className="w-full h-full object-cover"
                                 style={{ objectPosition: "35% 20%" }}
                                 width={0}
@@ -576,7 +577,7 @@ export default function page() {
                                     <div>
                                         <Image
                                             src={data.img}
-                                            alt="Why Choose Rialtes? image"
+                                            alt={`${data.alt}`}
                                             className="lg:w-[139px] lg:h-[139px] w-[100px] h-[100px]"
                                             width={0}
                                             height={0}
