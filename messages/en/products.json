@@ -1,10 +1,26 @@
 {
     "agentChat": {
+        "bannerAlt":"Professional using AgentChat for WhatsApp integration with Salesforce on smartphone displaying seamless messaging platform",
+        "svgAlt":"AgentChat logo with blue and green speech bubble icon representing customer communication and messaging platform",
+        "whyAlt":"WhatsApp business chat interface on smartphone showing customer conversation messages and notifications on green screen",
+        "handAlt":"Hand pointing finger icon with emphasis lines representing user interaction, selection, or call-to-action gesture",
+        "fastAlt":"Stopwatch icon with speed lines representing fast response time and quick performance in business operations",
+        "supportAlt":"Chat bubbles with asterisk icon representing customer support conversation and real-time messaging communication",
+        "taskAlt":"Three team members with checkmarks above representing completed tasks, approved workflow, and successful collaboration",
+        "stepOne":"Step one arrow icon in orange representing first stage of AgentChat installation and setup process",
+        "stepTwo":"Step two arrow icon in orange representing WhatsApp Business Account connection phase in setup workflow",
+        "stepThree":"Step three arrow icon in orange representing Salesforce record mapping phase for Cases, Leads, and Work Orders",
+        "stepFour":"Step four arrow icon in orange representing team roles and permissions configuration phase in setup process",
+        "stepFive":"Step five arrow icon in orange representing final stage to start chatting directly from Salesforce platform",
+        "trainAlt":"Developer presenting code on screen icon representing technical training, programming tutorial, and software development",
+        "startAlt":"White link chain icon with text Get Started Now on blue background representing quick onboarding and immediate action button",
+        "SupportAlt":"White phone receiver icon with text Contact Us on blue background representing customer support and communication channel",
+        "demoAlt":"White calendar icon with checkmark and text Schedule demo on blue background representing appointment booking and product demo",
         "headerTitle": "Introducing",
         "seoTitle": "AgentChat: Salesforce WhatsApp Integration Made Easy | Rialtes",
         "seoDescription": "AgentChat enables WhatsApp integration with Salesforce, reducing silos and enhancing team collaboration for stronger customer engagement and higher ROI.",
         "headerSubTitle": "AgentChat:",
-         "learnMoreBtn": "Learn More",
+        "learnMoreBtn": "Learn More",
         "headerOne": " Seamless WhatsApp Conversations Inside Salesforce",
         "engageHeader": "Engage, Support, and Close Deals - All Through WhatsApp. All Inside Salesforce.",
         "engageDescOne": "AgentChat is a bi-directional WhatsApp cionversational app natively built on Salesforce, enabling your teams to connect with customers instantly, manage conversatons efficiently, and automate workflows — all without leaving Salesforce.",
@@ -24,8 +40,8 @@
         "features": [
             {
                 "title": "Real-Time, Two-Way WhatsApp Messaging",
-                "image": "/images/industry/rialchat/Seamless Messaging.webp",
-                "alt": "Real-Time WhatsApp Messaging",
+                "image": "/images/industry/rialchat/customer-chat-product-inquiry-ecommerce.webp",
+                "alt": "Customer chat interface on tablet and mobile showing product inquiry conversation with image sharing for e-commerce support",
                 "points": [
                     "Start and manage WhatsApp conversations directly from any Salesforce object.",
                     "Automatic conversation tracking linked to Salesforce records.",
@@ -34,8 +50,8 @@
             },
             {
                 "title": "Context-Aware Messaging",
-                "image": "/images/industry/rialchat/rich-media-support.webp",
-                "alt": "Context-Aware Messaging",
+                "image": "/images/industry/rialchat/desktop-customer-service-chat-ecommerce.webp",
+                "alt": "Desktop computer displaying customer service chat interface with product image sharing for e-commerce inquiry management",
                 "points": [
                     "Access full customer context from Salesforce while chatting.",
                     "Share files, media, and quick replies for faster resolutions."
@@ -43,8 +59,8 @@
             },
             {
                 "title": "Supports All Salesforce Clouds",
-                "image": "/images/industry/rialchat/Automated Conversation Logging.webp",
-                "alt": "Supports All Salesforce Clouds",
+                "image": "/images/industry/rialchat/crm-dashboard-customer-data-management-laptop.webp",
+                "alt": "Laptop displaying CRM dashboard with customer data management interface and organized contact list for business operations",
                 "points": [
                     "<strong>Sales Cloud:</strong> Convert chats to Leads and Opportunities.",
                     "<strong>Service Cloud:</strong> Manage Cases and provide instant support.",
@@ -55,8 +71,8 @@
             },
             {
                 "title": "Seamless Salesforce Integration",
-                "image": "/images/industry/rialchat/Seamless Messaging.webp",
-                "alt": "Seamless Salesforce Integration",
+                "image": "/images/industry/rialchat/customer-chat-product-inquiry-ecommerce.webp",
+                "alt": "Customer chat interface on tablet and mobile showing product inquiry conversation with image sharing for e-commerce support",
                 "points": [
                     "Works out-of-the-box with Cases, Leads, Opportunities, Work Orders, and more.",
                     "Delegation and routing rules by record type — no manual effort needed."
@@ -64,8 +80,8 @@
             },
             {
                 "title": "Multi-Role, Multi-Team Support",
-                "image": "/images/industry/rialchat/Multi-Agent Collaboration.webp",
-                "alt": "Multi-Team Support",
+                "image": "/images/industry/rialchat/sales-engagement-owner-portal-platform.webp",
+                "alt": "Laptop displaying sales engagement platform with owner portal interface for business communication and customer management",
                 "points": [
                     "Serve customers through dedicated teams (Sales, Support, Field Agents, Advisors).",
                     "Define who can initiate, view, or respond based on roles and business units."
@@ -73,8 +89,8 @@
             },
             {
                 "title": "Salesforce-Native Security and Compliance",
-                "image": "/images/industry/rialchat/Seamless Messaging.webp",
-                "alt": "Security and Compliance",
+                "image": "/images/industry/rialchat/customer-chat-product-inquiry-ecommerce.webp",
+                "alt": "Customer chat interface on tablet and mobile showing product inquiry conversation with image sharing for e-commerce support",
                 "points": [
                     "Leverages Salesforce’s role hierarchies, sharing rules, and object-level security.",
                     "GDPR, HIPAA-ready based on Salesforce’s secure platform."
