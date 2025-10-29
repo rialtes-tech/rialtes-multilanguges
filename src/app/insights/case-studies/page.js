@@ -2,15 +2,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from 'react';
-import BlogsCarousel from '../../components/latestBlogCarousel';
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
-import { HeroSection } from "@/app/components/herosection";
 import Script from "next/script";
 import Seo from "@/app/components/Seo";
 
 const schemaData = {
-
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "mainEntityOfPage": {
@@ -170,9 +169,6 @@ const latestCaseStudy = [
     title: "Digitizing Prior Authorization for Better Patient Outcomes",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
-
-
-  // Add more case study objects as needed
 ];
 
 const CaseStudyCard = ({ casestudy }) => (
@@ -320,7 +316,6 @@ const CaseStudy = () => {
     </div>
   );
 };
-
 
 const FeaturedCarousel = () => {
   const slides = [
@@ -507,6 +502,7 @@ const FeaturedCarousel = () => {
 }
 
 export default function Page() {
+  const currUrl = useUrl()
   return (
     <div className="min-h-screen bg-white">
       <Seo title="Salesforce and SAP Wins | Case Studies That Inspire | Rialtes"
@@ -576,7 +572,6 @@ export default function Page() {
       <div
         className="custom-container lg:pr-0 xl:mt-[84px] mt-[44px]">
         <FeaturedCarousel />
-
       </div>
 
       {/* Latest Case Study Section */}
@@ -585,13 +580,10 @@ export default function Page() {
         <CaseStudy />
       </div>
 
-      {/* Latest Blogs */}
-      <div
-        className="custom-container lg:pr-0 xl:mt-[40px] xl:mb-[128px] my-[44px] "
-      >
-        <BlogsCarousel />
-
-      </div>
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
     </div>
   );
 }
