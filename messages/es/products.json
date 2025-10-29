@@ -1,21 +1,21 @@
 {
   "agentChat": {
-     "bannerAlt":"Profesional usando AgentChat para integración de WhatsApp con Salesforce en smartphone mostrando plataforma",
-    "svgAlt":"Logo AgentChat con icono de burbuja de diálogo azul y verde representando plataforma de comunicación cliente",
-    "whyAlt":"Interfaz de chat WhatsApp Business en smartphone mostrando conversación con cliente y notificaciones en pantalla",
-    "handAlt":"Icono de mano señalando con líneas de énfasis representando interacción del usuario o gesto de llamada a acción",
-    "fastAlt":"Icono de cronómetro con líneas de velocidad representando tiempo de respuesta rápido y rendimiento empresarial",
-    "supportAlt":"Burbujas de chat con asterisco representando conversación de soporte al cliente y comunicación de mensajería",
-    "taskAlt":"Tres miembros del equipo con marcas de verificación representando tareas completadas y colaboración exitosa",
-    "stepOne":"Icono de flecha paso uno en naranja representando primera etapa de instalación y configuración de AgentChat",
-    "stepTwo":"Icono de flecha paso dos en naranja representando fase de conexión de cuenta de WhatsApp Business en flujo",
-    "stepThree":"Icono de flecha paso tres en naranja representando fase de mapeo de registros de Salesforce y tipos de datos",
-    "stepFour":"Icono de flecha paso cuatro en naranja representando fase de configuración de roles y permisos del equipo",
-    "stepFive":"Icono de flecha paso cinco en naranja representando etapa final para comenzar a chatear desde Salesforce",
-    "trainAlt":"Developer presenting code on screen icon representing technical training, programming tutorial, and software development",
-    "startAlt":"Icono de cadena de enlace blanco con texto Comenzar ahora en fondo azul representando incorporación rápida y acción directa",
-    "SupportAlt":"Icono de auricular telefónico blanco con texto Contáctenos en fondo azul representando soporte al cliente y comunicación",
-    "demoAlt":"Icono de calendario blanco con marca y texto Programar demo en fondo azul representando reserva de demostración del producto",
+    "bannerAlt": "Profesional usando AgentChat para integración de WhatsApp con Salesforce en smartphone mostrando plataforma",
+    "svgAlt": "Logo AgentChat con icono de burbuja de diálogo azul y verde representando plataforma de comunicación cliente",
+    "whyAlt": "Interfaz de chat WhatsApp Business en smartphone mostrando conversación con cliente y notificaciones en pantalla",
+    "handAlt": "Icono de mano señalando con líneas de énfasis representando interacción del usuario o gesto de llamada a acción",
+    "fastAlt": "Icono de cronómetro con líneas de velocidad representando tiempo de respuesta rápido y rendimiento empresarial",
+    "supportAlt": "Burbujas de chat con asterisco representando conversación de soporte al cliente y comunicación de mensajería",
+    "taskAlt": "Tres miembros del equipo con marcas de verificación representando tareas completadas y colaboración exitosa",
+    "stepOne": "Icono de flecha paso uno en naranja representando primera etapa de instalación y configuración de AgentChat",
+    "stepTwo": "Icono de flecha paso dos en naranja representando fase de conexión de cuenta de WhatsApp Business en flujo",
+    "stepThree": "Icono de flecha paso tres en naranja representando fase de mapeo de registros de Salesforce y tipos de datos",
+    "stepFour": "Icono de flecha paso cuatro en naranja representando fase de configuración de roles y permisos del equipo",
+    "stepFive": "Icono de flecha paso cinco en naranja representando etapa final para comenzar a chatear desde Salesforce",
+    "trainAlt": "Developer presenting code on screen icon representing technical training, programming tutorial, and software development",
+    "startAlt": "Icono de cadena de enlace blanco con texto Comenzar ahora en fondo azul representando incorporación rápida y acción directa",
+    "SupportAlt": "Icono de auricular telefónico blanco con texto Contáctenos en fondo azul representando soporte al cliente y comunicación",
+    "demoAlt": "Icono de calendario blanco con marca y texto Programar demo en fondo azul representando reserva de demostración del producto",
     "headerTitle": "Presentamos",
     "seoTitle": "AgentChat: Integración de WhatsApp con Salesforce Hecha Fácil | Rialtes",
     "seoDescription": "AgentChat de Rialtes integra WhatsApp con Salesforce, elimina silos y mejora colaboración para mayor interacción del cliente y ROI.",
@@ -418,6 +418,8 @@
     "trustedTitle": "Infraestructura Confiable para la Empresa Inmobiliaria"
   },
   "mediaina": {
+    "mediainaLogoAlt": "Logotipo de MediAlna con una figura humana estilizada con los brazos levantados y el nombre de la marca en fuente moderna azul oscuro.",
+    "lifeAIPlusAlt": "Ilustración que representa la suite de consultoría LifeAI+ para la transformación sanitaria inteligente y escalable.",
     "rialtesBenefits": [
       "Acelere los tiempos de lanzamiento de productos al mercado con modelos de entrega ágiles.",
       "Habilite ensayos clínicos más inteligentes, atención conectada y terapias digitales.",
@@ -452,7 +454,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/patient-desktop.webp",
         "mobImg": "/images/products/mediyana/desktop/patient-desktop.webp",
-        "imgAlt": "",
+        "imgAlt": "Visual que muestra la identificación y segmentación de pacientes impulsada por IA para terapias y ensayos específicos.",
         "bgColor": "#CCF7F5"
       },
       {
@@ -470,7 +472,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/candidate.webp",
         "mobImg": "/images/products/mediyana/mobile/candidate.webp",
-        "imgAlt": "",
+        "imgAlt": "Imagen que ilustra la educación digital personalizada para pacientes como apoyo en la adopción de terapias.",
         "bgColor": "#C6E7FF"
       },
       {
@@ -488,7 +490,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/digital.webp",
         "mobImg": "/images/products/mediyana/mobile/digital.webp",
-        "imgAlt": "",
+        "imgAlt": "Gráfico que muestra flujos de trabajo automatizados de autorizaciones previas para reducir los retrasos en el tratamiento.",
         "bgColor": "#EDEDED"
       },
       {
@@ -506,7 +508,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/clinical.webp",
         "mobImg": "/images/products/mediyana/mobile/clinical.webp",
-        "imgAlt": "",
+        "imgAlt": "Visual que representa la asignación de pacientes a ensayos clínicos relevantes mediante IA.",
         "bgColor": "#CCF7F5"
       },
       {
@@ -524,7 +526,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/long.webp",
         "mobImg": "/images/products/mediyana/mobile/long.webp",
-        "imgAlt": "",
+        "imgAlt": "Imagen que representa la gestión conectada de cuidados a largo plazo para el apoyo continuo al paciente.",
         "bgColor": "#C6E7FF"
       },
       {
@@ -542,7 +544,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/body.webp",
         "mobImg": "/images/products/mediyana/mobile/body.webp",
-        "imgAlt": "",
+        "imgAlt": "Gráfico que ilustra el mapeo de recorridos del paciente impulsado por IA en puntos de contacto y etapas de atención.",
         "bgColor": "#EDEDED"
       },
       {
@@ -560,7 +562,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/conversational.webp",
         "mobImg": "/images/products/mediyana/mobile/conver.webp",
-        "imgAlt": "",
+        "imgAlt": "Visual que muestra consultas en lenguaje natural e información automatizada impulsada por Agentforce.",
         "bgColor": "#CCF7F5"
       },
       {
@@ -578,7 +580,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/unified.webp",
         "mobImg": "/images/products/mediyana/mobile/unified.webp",
-        "imgAlt": "",
+        "imgAlt": "Gráfico que representa una plataforma de datos unificada para proveedores, pagadores, ensayos y pacientes.",
         "bgColor": "#C6E7FF"
       },
       {
@@ -596,7 +598,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/seamless.webp",
         "mobImg": "/images/products/mediyana/mobile/seamless.webp",
-        "imgAlt": "",
+        "imgAlt": "Imagen que muestra la integración basada en API entre sistemas EHR, CRM y ERP con cumplimiento FHIR y HL7.",
         "bgColor": "#EDEDED"
       },
       {
@@ -614,7 +616,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/real.webp",
         "mobImg": "/images/products/mediyana/mobile/real.webp",
-        "imgAlt": "",
+        "imgAlt": "Visual de chat inteligente conforme a HIPAA para la comunicación entre pacientes y personal.",
         "bgColor": "#CCF7F5"
       },
       {
@@ -632,7 +634,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/order.webp",
         "mobImg": "/images/products/mediyana/mobile/order.webp",
-        "imgAlt": "",
+        "imgAlt": "Imagen que muestra visibilidad de inventario en tiempo real e integración con SAP para logística hospitalaria.",
         "bgColor": "#C6E7FF"
       },
       {
@@ -652,7 +654,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/trusted.webp",
         "mobImg": "/images/products/mediyana/mobile/trusted.webp",
-        "imgAlt": "",
+        "imgAlt": "Imagen que muestra herramientas digitales para monitorear la adherencia del paciente a las terapias prescritas.",
         "bgColor": "#EDEDED"
       }
     ],

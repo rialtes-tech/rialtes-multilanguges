@@ -120,7 +120,7 @@ export default function Page() {
                 <div className="hidden md:block">
                     <Image
                         src="/images/home-health/hero-banner-desk.webp"
-                        alt="desktop banner"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "55% 20%" }}
                         priority
@@ -131,7 +131,7 @@ export default function Page() {
                 <div className="block md:hidden">
                     <Image
                         src="/images/home-health/Mobile/hero-banner-mob.webp"
-                        alt="mobile banner"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "5% 20%" }}
                         priority
@@ -182,8 +182,8 @@ export default function Page() {
                             <React.Fragment key="image">
                                 <div className={`lg:col-span-4 col-span-12 ${!isEven && "lg:order-2 order-1"}`}>
                                     <div className="h-full w-full">
-                                        <Image src={data.mobImg} alt="mobile" className="block md:hidden w-full h-full object-cover" width={0} height={0} priority />
-                                        <Image src={data.deskImg} alt="desktop" className="hidden md:block w-full h-full object-cover" width={0} height={0} priority />
+                                        <Image src={data.mobImg} alt={data.alt} className="block md:hidden w-full h-full object-cover" width={0} height={0} priority />
+                                        <Image src={data.deskImg} alt={data.alt} className="hidden md:block w-full h-full object-cover" width={0} height={0} priority />
                                     </div>
                                 </div>
                                 <div className={`lg:col-span-8 col-span-12 xl:pt-[51px] xl:pb-[93px] xl:px-[68px] pt-[29px] pb-[64px] px-[30px] relative  ${!isEven && "lg:order-1 order-2"}`} key="text">
@@ -216,8 +216,8 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="lg:col-span-7 col-span-12 lg:order-2 order-1">
-                        <Image src="/images/home-health/Mobile/global-mob.webp" alt="mobile" className="block md:hidden w-full h-full object-cover" width={0} height={0} priority />
-                        <Image src="/images/home-health/global-desk.webp" alt="desktop" className="hidden md:block w-full h-full object-cover" width={0} height={0} priority />
+                        <Image src="/images/home-health/Mobile/global-mob.webp" alt={t('globalDeleveryAlt')} className="block md:hidden w-full h-full object-cover" width={0} height={0} priority />
+                        <Image src="/images/home-health/global-desk.webp" alt={t('globalDeleveryAlt')} className="hidden md:block w-full h-full object-cover" width={0} height={0} priority />
                     </div>
                 </div>
             </section>
@@ -255,7 +255,9 @@ export default function Page() {
             {/* our capabilities section */}
             <section className="relative xl:mt-[133px] mt-[70px] xl:pt-[141px] pt-[45px] bg-no-repeat bg-cover bg-center
                     md:bg-[url('/images/home-health/our-capabilities-desk.webp')]
-                    bg-[url('/images/home-health/Mobile/our-capabilities-mob.webp')]">
+                    bg-[url('/images/home-health/Mobile/our-capabilities-mob.webp')]"
+                alt={t('aiPoweredAlt')}>
+
                 <div className="custom-container text-[#ffffff]">
                     <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">
                         {t('ourCapabTitle')}
@@ -299,8 +301,8 @@ export default function Page() {
             <section className="custom-container bg-[#0A6BB8] text-[#ffffff] xl:mt-[247px] mt-[174px] relative">
                 <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[80px] gap-y-[40px]">
                     <div className="relative mt-[-120px]">
-                        <Image src="/images/home-health/Mobile/agent-chat-mob.webp" alt="mobile" className="block md:hidden w-full h-full object-cover" width={0} height={0} priority />
-                        <Image src="/images/home-health/agent-chat-desk.webp" alt="desktop" className="hidden md:block w-full h-full object-cover md:h-[600px] lg:h-full" width={0} height={0} priority />
+                        <Image src="/images/home-health/Mobile/agent-chat-mob.webp" alt={t('agentchatAlt')} className="block md:hidden w-full h-full object-cover" width={0} height={0} priority />
+                        <Image src="/images/home-health/agent-chat-desk.webp" alt={t('agentchatAlt')} className="hidden md:block w-full h-full object-cover md:h-[600px] lg:h-full" width={0} height={0} priority />
                     </div>
                     <div>
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight lg:mt-[46px]">
