@@ -127,8 +127,8 @@ export default function retailPage() {
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
-                        src="/images/industry/retail-industry/hero-section-desk-banner.webp"
-                        alt="desktop banner"
+                        src="/images/industry/retail-industry/retail-industry-digital-shopping-innovation.webp"
+                        alt={t("bannerAlt")}
                         fill
                         style={{ objectFit: "cover", objectPosition: "55% 20%" }}
                         priority
@@ -138,8 +138,8 @@ export default function retailPage() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/industry/retail-industry/mobile/hero-section-mob-banner.webp"
-                        alt="mobile banner"
+                        src="/images/industry/retail-industry/mobile/retail-industry-digital-shopping-innovation-mobile.webp"
+                        alt={t("bannerAlt")}
                         fill
                         style={{ objectFit: "cover", objectPosition: "5% 20%" }}
                         priority
@@ -193,8 +193,8 @@ export default function retailPage() {
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
                             <Image
-                                src="/images/industry/retail-industry/mobile/new-reality-mob-img.webp"
-                                alt="new-reality mobile image"
+                                src="/images/industry/retail-industry/mobile/retail-employee-inventory-management-tablet-mobile.webp"
+                                alt={t("newRealitySectionAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -204,8 +204,8 @@ export default function retailPage() {
                         {/* Desktop image */}
                         <div className="hidden md:block w-full h-full">
                             <Image
-                                src="/images/industry/retail-industry/new-reality-desk-img.webp"
-                                alt="new-reality mobile image"
+                                src="/images/industry/retail-industry/retail-employee-inventory-management-tablet.webp"
+                                alt={t("newRealitySectionAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -243,7 +243,7 @@ export default function retailPage() {
                                     <div key={ind}>
                                         <Image
                                             src={data.imgUrl}
-                                            alt="mobile image"
+                                            alt={`${data.alt}`}
                                             className="lg:w-[138px] lg:h-[138px] w-[100px] h-[100px] object-cover"
                                             width={0}
                                             height={0}
@@ -308,8 +308,8 @@ export default function retailPage() {
                                         {/* Mobile image */}
                                         <div className="block md:hidden w-full h-full">
                                             <Image
-                                                src="/images/industry/retail-industry/mobile/fashion-mob-img.webp"
-                                                alt="fashion mobile image"
+                                                src="/images/industry/retail-industry/mobile/professional-interactive-touchscreen-display-technology-mobile.webp"
+                                                alt={t("fashionRetailAlt")}
                                                 className="w-full h-full object-cover"
                                                 width={0}
                                                 height={0}
@@ -319,8 +319,8 @@ export default function retailPage() {
                                         {/* Desktop image */}
                                         <div className="hidden md:block w-full h-full">
                                             <Image
-                                                src="/images/industry/retail-industry/fashion-desk-img.webp"
-                                                alt="fashion desktop image"
+                                                src="/images/industry/retail-industry/professional-interactive-touchscreen-display-technology.webp"
+                                                alt={t("fashionRetailAlt")}
                                                 className="w-full h-full object-cover"
                                                 width={0}
                                                 height={0}
@@ -342,8 +342,8 @@ export default function retailPage() {
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
                             <Image
-                                src="/images/industry/retail-industry/mobile/hyper-mob-img.webp"
-                                alt="hyper mobile image"
+                                src="/images/industry/retail-industry/mobile/person-browsing-ecommerce-products-tablet-mobile.webp"
+                                alt={t("salesforceMarketingAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -353,8 +353,8 @@ export default function retailPage() {
                         {/* Desktop image */}
                         <div className="hidden md:block w-full h-full">
                             <Image
-                                src="/images/industry/retail-industry/hyper-desk-img.webp"
-                                alt="hyper mobile image"
+                                src="/images/industry/retail-industry/person-browsing-ecommerce-products-tablet.webp"
+                                alt={t("salesforceMarketingAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -400,8 +400,8 @@ export default function retailPage() {
                 
                 >
                     <Image
-                        src="/images/industry/retail-industry/real-time-desk-img.webp"
-                        alt="Real-Time Inventory"
+                        src="/images/industry/retail-industry/warehouse-workers-inventory-management-system.webp"
+                        alt={t("realTimeAlt")}
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -411,8 +411,8 @@ export default function retailPage() {
                 </div>
                 <div className="w-full h-auto block md:hidden">
                     <Image
-                        src="/images/industry/retail-industry/mobile/real-time-mob-img.webp"
-                        alt="Real-Time Inventory Mobile"
+                        src="/images/industry/retail-industry/mobile/warehouse-workers-inventory-management-system-mobile.webp"
+                        alt={t("realTimeAlt")}
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -459,8 +459,8 @@ export default function retailPage() {
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
                             <Image
-                                src="/images/industry/retail-industry/mobile/loyalty-mob-img.webp"
-                                alt="loyalty mobile image"
+                                src="/images/industry/retail-industry/mobile/loyalty-program-rewards-icons-display-mobile.webp"
+                                alt={t("loyaltySectionAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -470,8 +470,8 @@ export default function retailPage() {
                         {/* Desktop image */}
                         <div className="hidden md:block w-full h-full">
                             <Image
-                                src="/images/industry/retail-industry/loyalty-desk-img.webp"
-                                alt="loyalty mobile image"
+                                src="/images/industry/retail-industry/loyalty-program-rewards-icons-display.webp"
+                                alt={t("loyaltySectionAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -541,8 +541,8 @@ export default function retailPage() {
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
                             <Image
-                                src="/images/industry/retail-industry/mobile/frictionless-mob-img.webp"
-                                alt="frictionless mobile image"
+                                src="/images/industry/retail-industry/mobile/interactive-business-analytics-dashboard-interface-mobile.webp"
+                                alt={t("frictionlessSectionAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -552,8 +552,8 @@ export default function retailPage() {
                         {/* Desktop image */}
                         <div className="hidden md:block w-full h-full">
                             <Image
-                                src="/images/industry/retail-industry/frictionless-desk-img.webp"
-                                alt="frictionless mobile image"
+                                src="/images/industry/retail-industry/interactive-business-analytics-dashboard-interface.webp"
+                                alt={t("frictionlessSectionAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -569,8 +569,8 @@ export default function retailPage() {
                 {/* Mobile image */}
                 <div className="block md:hidden w-full h-full">
                     <Image
-                        src="/images/industry/retail-industry/mobile/actionable-mob-img.webp"
-                        alt="actionable mobile image"
+                        src="/images/industry/retail-industry/mobile/data-cloud-analytics-visualization-interface-mobile.webp"
+                        alt={t("actionableSectionAlt")}
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -580,8 +580,8 @@ export default function retailPage() {
                 {/* Desktop image */}
                 <div className="hidden md:block w-full h-full">
                     <Image
-                        src="/images/industry/retail-industry/actionable-desk-img.webp"
-                        alt="actionable mobile image"
+                        src="/images/industry/retail-industry/data-cloud-analytics-visualization-interface.webp"
+                        alt={t("actionableSectionAlt")}
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -641,8 +641,8 @@ export default function retailPage() {
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
                             <Image
-                                src="/images/industry/retail-industry/mobile/right-mob-img.webp"
-                                alt="right mobile image"
+                                src="/images/industry/retail-industry/mobile/retail-store-manager-employee-tablet-consultation-mobile.webp"
+                                alt={t("rightSectionAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -652,8 +652,8 @@ export default function retailPage() {
                         {/* Desktop image */}
                         <div className="hidden md:block w-full h-full">
                             <Image
-                                src="/images/industry/retail-industry/right-desk-img.webp"
-                                alt="right mobile image"
+                                src="/images/industry/retail-industry/retail-store-manager-employee-tablet-consultation.webp"
+                                alt={t("rightSectionAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -671,8 +671,8 @@ export default function retailPage() {
                         {/* Mobile image */}
                         <div className="block md:hidden w-full h-full">
                             <Image
-                                src="/images/industry/retail-industry/mobile/ai-powered-mob-img.webp"
-                                alt="ai-powered mobile image"
+                                src="/images/industry/retail-industry/mobile/retail-staff-mobile-payment-technology-checkout-mobile.webp"
+                                alt={t("aiPoweredAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -682,8 +682,8 @@ export default function retailPage() {
                         {/* Desktop image */}
                         <div className="hidden md:block w-full h-full">
                             <Image
-                                src="/images/industry/retail-industry/ai-powered-desk-img.webp"
-                                alt="ai-powered mobile image"
+                                src="/images/industry/retail-industry/retail-staff-mobile-payment-technology-checkout.webp"
+                                alt={t("aiPoweredAlt")}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -721,10 +721,10 @@ export default function retailPage() {
                         {/* Mobile Background */}
                         <div
                             className="block md:hidden w-full bg-cover h-[365px] sm:h-[630px]"
-                            style={{ backgroundImage: "url('/images/industry/retail-industry/mobile/fast-mob-img.webp')" }}
+                            style={{ backgroundImage: "url('/images/industry/retail-industry/mobile/delivery-person-24-hour-fast-shipping-service-mobile.webp')" }}
                         />
                         {/* Desktop Background */}
-                        <div className="hidden md:block w-full h-full bg-cover" style={{ backgroundImage: "url('/images/industry/retail-industry/fast-desk-img.webp')", backgroundPosition: "8% 20%" }} />
+                        <div className="hidden md:block w-full h-full bg-cover" style={{ backgroundImage: "url('/images/industry/retail-industry/delivery-person-24-hour-fast-shipping-service.webp')", backgroundPosition: "8% 20%" }} />
                     </div>
 
 
@@ -750,8 +750,8 @@ export default function retailPage() {
                 </div>
             </section>
             {/* proprietary section */}
-            <section className="bg-[url('/images/industry/retail-industry/mobile/properietary-mob-img.webp')]
-                           md:bg-[url('/images/industry/retail-industry/properietary-desk-img.webp')]
+            <section className="bg-[url('/images/industry/retail-industry/mobile/rialtes-accelerators-retail-technology-solutions-mobile.webp')]
+                           md:bg-[url('/images/industry/retail-industry/rialtes-accelerators-retail-technology-solutions.webp')]
                            bg-cover bg-no-repeat bg-center xl:pt-[99px] pt-[42px] pb-[71px] xl:pb-[82px] lg:mt-[94px] mt-[89px] text-[#FFFFFF]">
                 <div className="custom-container">
                     <h2 className="4xl:text-[60px] 2xl:text-[52px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight max-[400px]:text-[22px] ">

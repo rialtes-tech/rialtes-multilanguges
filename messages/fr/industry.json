@@ -230,6 +230,12 @@
         "knowMore": "En savoir plus"
     },
     "lifeScience": {
+        "bannerAlt":"Main numérique tenant plante avec réseau bleu connecté sur fond sombre représentant innovation numérique sciences de vie",
+        "whyAlt":"Corps humain numérique filaire avec organes mis en évidence et interfaces données médicales sur fond sombre montrant analytique",
+        "thoughtAlt":"Deux médecins en blouses blanches réunis avec professionnel d'affaires discutant graphiques données santé sur écran",
+        "preAlt":"Professionnel médical en tenue verte interagissant avec anatomie holographique patient et graphiques données santé sur tablette",
+        "seamlessAlt":"Deux médecins en blouses blanches avec stéthoscopes analysant données patients sur écran d'ordinateur en environnement hospitalier",
+
         "whyRialtesData": [
             {
                 "title": "Accélérateurs éprouvés dans l'industrie",
@@ -279,9 +285,10 @@
                     "Soins basés sur la valeur et insights sur la santé de la population.",
                     "Collaboration payeur-prestataire en temps réel via Salesforce Health Cloud."
                 ],
-                "blueCard": "Fournir des soins efficaces et personnalisés tout en maîtrisant les coûts grâce à l'analyse en temps réel.",
-                "mobImg": "/images/industry/life-science/Mobile/payers-module-mob.webp",
-                "deskImg": "/images/industry/life-science/payers-module-desk.webp"
+                 "blueCard": "Fournir des soins efficaces et personnalisés tout en maîtrisant les coûts grâce à l'analyse en temps réel.",
+                 "imageAlt":"Tablette affichant analytique d'affaires en temps réel avec graphiques barres, courbes et grille de données en bureau",
+                 "mobImg": "/images/industry/life-science/Mobile/real-time-business-analytics-tablet-dashboard-mobile.webp",
+                 "deskImg": "/images/industry/life-science/real-time-business-analytics-tablet-dashboard.webp"
             },
             {
                 "title": "Solutions pour les réseaux de prestataires",
@@ -293,8 +300,9 @@
                     "Plateformes de collaboration et de référence des prestataires intégrées via Salesforce."
                 ],
                 "blueCard": "Améliorer l'expérience patient grâce à des soins connectés et coordonnés.",
-                "mobImg": "/images/industry/life-science/Mobile/provider-mob.webp",
-                "deskImg": "/images/industry/life-science/provider-desk.webp"
+                "imageAlt":"Médico usando panel de salud futurista con datos de pacientes, estadísticas de citas y análisis médico en pantalla",
+                "mobImg": "/images/industry/life-science/Mobile/doctor-healthcare-dashboard-medical-analytics-mobile.webp",
+                "deskImg": "/images/industry/life-science/doctor-healthcare-dashboard-medical-analytics.webp"
             },
             {
                 "title": "Innovation Pharma",
@@ -306,8 +314,9 @@
                     "Salesforce Health Cloud pour l'orchestration des programmes centrés sur le patient."
                 ],
                 "blueCard": "Lancements de thérapies plus intelligents, rapides et sécurisés.",
-                "mobImg": "/images/industry/life-science/Mobile/pharma-mob.webp",
-                "deskImg": "/images/industry/life-science/pharma-desk.webp"
+                "imageAlt":"Chercheuse médicale portant casque VR examinant données virtuelles avec gants bleus en laboratoire pour analyse immersive",
+                "mobImg": "/images/industry/life-science/Mobile/vr-medical-research-virtual-reality-lab-mobile.webp",
+                "deskImg": "/images/industry/life-science/vr-medical-research-virtual-reality-lab.webp"
             },
             {
                 "title": "Révolution MedTech",
@@ -319,8 +328,9 @@
                     "Surveillance à distance et plateformes de santé numérique intégrées."
                 ],
                 "blueCard": "Offrir de meilleurs résultats aux patients grâce à des solutions MedTech connectées.",
-                "mobImg": "/images/industry/life-science/Mobile/medtech-mob.webp",
-                "deskImg": "/images/industry/life-science/medtech-desk.webp"
+                "imageAlt":"Patient en consultation vidéo de télémédecine avec médecin sur ordinateur portable révisant données de santé sur tablette",
+                "mobImg": "/images/industry/life-science/Mobile/telemedicine-video-consultation-patient-doctor-mobile.webp",
+                "deskImg": "/images/industry/life-science/telemedicine-video-consultation-patient-doctor.webp"
             },
             {
                 "title": "Excellence en santé publique",
@@ -332,8 +342,9 @@
                     "Programmes communautaires de santé publique et de santé comportementale."
                 ],
                 "blueCard": "Renforcer la santé communautaire grâce aux données et à l'IA.",
-                "mobImg": "/images/industry/life-science/Mobile/public-health-mob.webp",
-                "deskImg": "/images/industry/life-science/public-health-desk.webp"
+                "imageAlt":"Professionnel de santé portant masque vérifiant tension artérielle d'une patiente âgée lors d'une visite médicale à domicile",
+                 "mobImg": "/images/industry/life-science/Mobile/home-healthcare-blood-pressure-check-elderly-mobile.webp",
+                 "deskImg": "/images/industry/life-science/home-healthcare-blood-pressure-check-elderly.webp"
             },
             {
                 "title": "Engagement patient hyper-personnalisé",
@@ -345,8 +356,9 @@
                     "Parcours patients conformes aux réglementations."
                 ],
                 "blueCard": "Transformer l'engagement patient en résultats significatifs.",
-                "mobImg": "/images/industry/life-science/Mobile/hyper-mob.webp",
-                "deskImg": "/images/industry/life-science/hyper-desk.webp"
+                "imageAlt":"Trois professionnels de santé en tenue médicale consultant ensemble sur tablette numérique dans environnement hospitalier",
+                "mobImg": "/images/industry/life-science/Mobile/medical-team-consulting-digital-tablet-mobile.webp",
+               "deskImg": "/images/industry/life-science/medical-team-consulting-digital-tablet.webp"
             },
             {
                 "title": "Excellence de la chaîne d'approvisionnement et des stocks",
@@ -357,8 +369,9 @@
                     "Réseau logistique et de distribution intégré."
                 ],
                 "blueCard": "Garantir que les thérapies et dispositifs salvateurs atteignent les patients à temps.",
-                "mobImg": "/images/industry/life-science/Mobile/supply-chain-mob.webp",
-                "deskImg": "/images/industry/life-science/supply-chain-desk.webp"
+                "imageAlt":"Pharmacien en blouse blanche et lunettes utilisant tablette numérique pendant que collègue range étagères en pharmacie moderne",
+                "mobImg": "/images/industry/life-science/Mobile/spharmacist-using-tablet-pharmacy-inventory-mobile.webp",
+                "deskImg": "/images/industry/life-science/pharmacist-using-tablet-pharmacy-inventory.webp"
             }
         ],
         "commonSectionData1": [
@@ -372,8 +385,9 @@
                     "Analyses prédictives pour les soins et la conformité."
                 ],
                 "blueCard": "Transformer les données brutes en intelligence exploitable.",
-                "mobImg": "/images/industry/life-science/Mobile/advanced-mob.webp",
-                "deskImg": "/images/industry/life-science/advanced-desk.webp"
+                "imageAlt":"Professionnel de santé en calot chirurgical et tenue bleue consultant écrans de surveillance médicale affichant données patients",
+                 "mobImg": "/images/industry/life-science/Mobile/medical-professional-monitoring-patient-data-mobile.webp",
+                "deskImg": "/images/industry/life-science/medical-professional-monitoring-patient-data.webp"
             },
             {
                 "title": "Futur piloté par l'IA",
@@ -385,8 +399,9 @@
                     "Surveillance de la conformité et pharmacovigilance pilotées par IA."
                 ],
                 "blueCard": "L'IA révolutionne les soins aux patients, le développement des thérapies et la sécurité.",
-                "mobImg": "/images/industry/life-science/Mobile/ai-driven-mob.webp",
-                "deskImg": "/images/industry/life-science/ai-driven-desk.webp"
+                 "imageAlt":"Chercheur en santé en laboratoire avec superposition de données numériques examinant tubes à essai et analysant recherche pharmaceutique",
+                 "mobImg": "/images/industry/life-science/Mobile/healthcare-research-digital-lab-analysis-mobile.webp",
+                 "deskImg": "/images/industry/life-science/healthcare-research-digital-lab-analysis.webp"
             },
             {
                 "title": "Quick Commerce dans les sciences de la vie",
@@ -397,8 +412,9 @@
                     "Optimisation logistique et de la chaîne d'approvisionnement pilotée par IA."
                 ],
                 "blueCard": "Fournir des soins de santé à la vitesse du besoin — alimenté par SAP & Salesforce.",
-                "mobImg": "/images/industry/life-science/Mobile/quick-mob.webp",
-                "deskImg": "/images/industry/life-science/quick-desk.webp"
+                 "imageAlt":"Un physiothérapeute applique des électrodes sur le dos d’une femme pour une thérapie de stimulation musculaire électrique",
+                 "mobImg": "/images/industry/life-science/Mobile/physiotherapy-electrical-muscle-stimulation-session-mobile.webp",
+                 "deskImg": "/images/industry/life-science/physiotherapy-electrical-muscle-stimulation-session.webp"
             }
         ],
         "headerTitle": "Industrie des sciences de la vie",
@@ -1564,6 +1580,22 @@
         "contactSubtitleOne": "Contactez-nous dès aujourd'hui et commencez votre parcours vers une fabrication intelligente, résiliente et centrée sur le client !"
     },
     "education": {
+        "bannerAlt":"Étudiant diplômé en toge et mortier avec superposition de données numériques regardant vers l'avenir de l'éducation technologique",
+        "businessAlt":"Professionnel d'affaires en costume gris et cravate bleue utilisant tablette numérique dans bureau moderne avec mur vitré",
+        "studentALt":"Jeune femme souriante en chemise orange avec sac à dos utilisant ordinateur portable en extérieur adossée au mur dans rue ensoleillée",
+        "markeAlt":"Groupe d'étudiants divers collaborant avec tablette et cahiers dans espace d'étude lumineux de bibliothèque avec étagères",
+        "studentAlt":"Groupe diversifié de jeunes étudiants en discussion animée avec ordinateur portable en extérieur lors de session d'apprentissage",
+        "teamAlt":"Trois professionnels d'affaires divers en discussion autour d'ordinateur portable examinant documents dans salle de réunion moderne",
+        "hanaAlt":"Femme professionnelle en manteau beige avec lunettes souriante utilisant smartphone et tenant sac en cuir dans rue urbaine",
+        "cloudAlt":"Femme enthousiaste en cardigan rose célébrant poing levé tenant carte de crédit utilisant ordinateur portable en extérieur shopping",
+        "campusAlt":"Diplômé souriant en mortier vert et toge avec étole rouge tenant diplôme debout en extérieur sur campus universitaire",
+        "empowerAlt":"Mains tenant cerveau holographique lumineux entouré d'icônes de technologie éducative incluant livres vidéos et symboles recherche",
+        "aiAlt":"Femme avec casque tenant smartphone affichant icône cerveau IA entouré de symboles technologiques éducatifs et de communication",
+        "autoAlt":"Icône d'engrenage blanc et flèches circulaires sur fond bleu représentant automatisation cloud",
+        "smartAlt":"Engrenage blanc avec puce centrale et flèches circulaires sur fond bleu représentant automatisation continue des processus",
+        "systemAlt":"Engrenage blanc avec nœuds connectés et trois bulles de discussion sur fond bleu représentant intégration et communication",
+        "leadAlt":"Bulles de discussion blanches avec icône de cadenas sur fond bleu représentant messagerie sécurisée et protection",
+        "solutionAlt":"Mains tenant toque de graduation holographique faite de particules bleues connectées représentant éducation numérique",
         "headerTitle": "Secteur de l'Éducation",
         "seoTitle": "Solutions IT Salesforce Cloud pour le Secteur de l’Éducation | Rialtes",
         "seoDescription": "Solutions IT pour l’éducation avec IA et Salesforce Cloud : de l’école au supérieur, transformez l’apprentissage avec Rialtes.",
@@ -2170,6 +2202,16 @@
         "learnMoreBtn": "En savoir plus"
     },
     "retailIndustry": {
+          "aiPoweredAlt" : "Employé magasin détail souriant assistant client avec scan paiement mobile au comptoir caisse moderne avec technologie",
+         "rightSectionAlt" : "Gérant magasin détail et employé discutant inventaire sur tablette dans boutique vêtements moderne avec présentoirs",
+         "actionableSectionAlt" : "Professionnel visualisant analyse cloud données dynamique avec effet flou mouvement montrant intelligence commerciale vente détail",
+         "frictionlessSectionAlt" : "Main interagissant avec tableau bord analytique numérique transparent affichant graphiques données temps réel et métriques commerciales",
+        "loyaltySectionAlt" : "Blocs bois montrant icônes programme fidélité incluant carte réduction code QR boîte cadeau et sacs achats pour récompenses clients",
+         "realTimeAlt" : "Équipe entrepôt en gilets sécurité utilisant tablette pour suivi inventaire temps réel alimenté par cloud dans installation stockage",
+        "salesforceMarketingAlt" : "Personne en pull jaune parcourant catalogue produits achats en ligne avec vêtements et articles maison affichés sur écran tablette",
+         "fashionRetailAlt" : "Homme professionnel avec lunettes interagissant avec écran tactile bleu montrant avatars numériques dans environnement bureau moderne",
+         "newRealitySectionAlt" : "Employée magasin détail souriante avec lunettes tenant tablette pour gestion inventaire dans allée produits avec étagères",
+         "bannerAlt" : "Client utilisant interface panier achat numérique interactif dans magasin détail moderne avec affichage technologie tactile",
         "newRealityData": [
             {
                 "title": "Parcours clients fragmentés :",
@@ -2190,28 +2232,34 @@
         ],
         "chooseRialtesData": [
             {
-                "imgUrl": "/images/industry/retail-industry/img-1.svg",
-                "desc": "Conseil stratégique en retail et architecture d’entreprise"
+                "imgUrl": "/images/industry/retail-industry/omnichannel-retail-network-connectivity-icon.svg",
+                "desc": "Conseil stratégique en retail et architecture d’entreprise",
+                "alt" : "Icône ligne bleue montrant vitrine connectée à plusieurs appareils représentant intégration réseau vente détail omnicanal"
             },
             {
-                "imgUrl": "/images/industry/retail-industry/img-2.svg",
-                "desc": "Conception de solutions sur mesure & plans sectoriels"
+                "imgUrl": "/images/industry/retail-industry/retail-blueprint-planning-design-icon.svg",
+                "desc": "Conception de solutions sur mesure & plans sectoriels",
+                "alt" : "Icône ligne bleue représentant plan avec crayon et éléments conception pour planification et optimisation magasin détail"
             },
             {
-                "imgUrl": "/images/industry/retail-industry/img-3.svg",
-                "desc": "Accélérateurs préconstruits pour un déploiement rapide"
+                "imgUrl": "/images/industry/retail-industry/retail-business-growth-launch-acceleration-icon.svg",
+                "desc": "Accélérateurs préconstruits pour un déploiement rapide",
+                "alt" : "Icône fusée bleue avec symbole pourcentage se lançant vers haut représentant croissance commerciale détail et accélération ventes"
             },
             {
-                "imgUrl": "/images/industry/retail-industry/img-4.svg",
-                "desc": "Assurance qualité et ingénierie des performances"
+                "imgUrl": "/images/industry/retail-industry/retail-security-compliance-protection-icon.svg",
+                "desc": "Assurance qualité et ingénierie des performances",
+                "alt" : "Bouclier bleu avec coche et icône engrenage représentant conformité sécurité vente détail et systèmes protection opérationnelle"
             },
             {
-                "imgUrl": "/images/industry/retail-industry/img-5.svg",
-                "desc": "Intégration du front-office et back-office (SAP, Salesforce, Oracle, MuleSoft)"
+                "imgUrl": "/images/industry/retail-industry/retail-data-integration-system-synchronization-icon.svg",
+                "desc": "Intégration du front-office et back-office (SAP, Salesforce, Oracle, MuleSoft)",
+                "alt" : "Icône bleue montrant moniteur ordinateur avec flèches bidirectionnelles et dossier représentant intégration données vente détail"
             },
             {
-                "imgUrl": "/images/industry/retail-industry/img-6.svg",
-                "desc": "Support post-go-live, optimisation et innovation"
+                "imgUrl": "/images/industry/retail-industry/retail-customer-support-service-icon.svg",
+                "desc": "Support post-go-live, optimisation et innovation",
+                "alt" : "Casque bleu avec icône ampoule représentant innovation support client vente détail et solutions service intelligent"
             }
         ],
         "fashionRetailData": [
@@ -2269,16 +2317,18 @@
         ],
         "aiPoweredCustomerData": [
             {
-                "mobImgUrl": "/images/industry/retail-industry/mobile/aiPowered-agentforce-mob-img.webp",
-                "deskImgUrl": "/images/industry/retail-industry/aiPowered-agentforce-desk-img.webp",
+                "mobImgUrl": "/images/industry/retail-industry/mobile/digital-hands-ai-technology-connection-concept-mobile.webp",
+                "deskImgUrl": "/images/industry/retail-industry/digital-hands-ai-technology-connection-concept.webp",
                 "title": "Agentforce",
-                "desc": "Bots Service Cloud alimentés par IA, agents virtuels et parcours de support personnalisés."
+                "desc": "Bots Service Cloud alimentés par IA, agents virtuels et parcours de support personnalisés.",
+                "alt" : "Deux mains se tendant mutuellement avec particules numériques violettes lumineuses représentant technologie IA et connexion humaine"
             },
             {
-                "mobImgUrl": "/images/industry/retail-industry/mobile/aiPowered-datacloud-mob-img.webp",
-                "deskImgUrl": "/images/industry/retail-industry/aiPowered-datacloud-desk-img.webp",
+                "mobImgUrl": "/images/industry/retail-industry/mobile/cloud-data-technology-infrastructure-computing-mobile.webp",
+                "deskImgUrl": "/images/industry/retail-industry/cloud-data-technology-infrastructure-computing.webp",
                 "title": "Data Cloud",
-                "desc": "Profils clients unifiés à 360° pour offres personnalisées, support et upselling."
+                "desc": "Profils clients unifiés à 360° pour offres personnalisées, support et upselling.",
+                "alt" : "Nuage blanc avec connexions circuits numériques bleus dessous représentant informatique cloud et infrastructure technologie données"
             }
         ],
         "actionableData": [
@@ -2358,6 +2408,12 @@
         "contactSubTitle2": "Contactez-nous dès aujourd’hui pour libérer l’avenir du retail."
     },
     "nonProfit": {
+         "whyChooseRialtesAlt" : "Main touchant interface réseau numérique organisme but non lucratif avec icônes connectées montrant collaboration communautaire innovation",
+        "dataCloudAlt" : "Bénévoles travaillant avec superposition analyses données transparente montrant graphiques circulaires représentant métriques impact organisme",
+          "agentforceAlt" : "Professionnels souriants organisme but non lucratif collaborant sur ordinateur portable révisant stratégie organisationnelle et planification",
+          "donorSectionAlt" : "Professionnel examinant graphiques analyses données sur smartphone avec ordinateur portable affichant rapports métriques performance organisme",
+        "thoughtLeadershipAlt" : "Membres équipe bénévoles utilisant tablette pour coordonner distribution alimentaire et gestion dons à banque alimentaire communautaire",
+         "bannerAlt" : "Mains assemblant puzzle cœur arc-en-ciel coloré représentant travail équipe organisme but non lucratif et unité orientée mission",
         "whyChooseData": [
             "Expertise approfondie dans le domaine des organisations à but non lucratif.",
             "Implémentations accélérées avec des solutions préconstruites adaptées aux besoins des ONG.",
@@ -2416,8 +2472,9 @@
                     "Fournir aux donateurs une transparence sur l’utilisation de leurs contributions grâce à des rapports d’impact automatisés."
                 ],
                 "bgColor": "#FCF0D9",
-                "deskImg": "/images/industry/non-profit-industry/fundraising-desk.webp",
-                "mobImg": "/images/industry/non-profit-industry/Mobile/fundraising-mob.webp"
+                "deskImg": "/images/industry/non-profit-industry/team-circle-puzzle-pieces-unity-collaboration.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/team-circle-puzzle-pieces-unity-collaboration-mobile.webp",
+                "alt" : "Équipe diverse tenant pièces puzzle bois en cercle vue dessus représentant collaboration organisme but non lucratif et impact collectif"
             },
             {
                 "title": "Cartographie Familles & Ménages",
@@ -2430,8 +2487,9 @@
                     "Cartographier les relations entre donateurs, membres du conseil et participants aux programmes pour renforcer la communauté."
                 ],
                 "bgColor": "#E6E6A1",
-                "deskImg": "/images/industry/non-profit-industry/family-desk.webp",
-                "mobImg": "/images/industry/non-profit-industry/Mobile/family-mob.webp"
+                "deskImg": "/images/industry/non-profit-industry/growing-plant-golden-coins-nonprofit-funding.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/growing-plant-golden-coins-nonprofit-funding-mobile.webp",
+                "alt" : "Jeune plante verte poussant pièces monnaie dorées avec figurines miniatures représentant financement organisme but non lucratif croissance"
             },
             {
                 "title": "Communication personnalisée avec Salesforce Marketing Cloud",
@@ -2444,8 +2502,9 @@
                     "Parcours dynamiques des donateurs qui s’ajustent selon leur comportement et leurs habitudes de don."
                 ],
                 "bgColor": "#D8DBEF",
-                "deskImg": "/images/industry/non-profit-industry/personalized-desk.webp",
-                "mobImg": "/images/industry/non-profit-industry/Mobile/personalized-mob.webp"
+                "deskImg": "/images/industry/non-profit-industry/foundation-presentation-whiteboard-nonprofit-meeting.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/foundation-presentation-whiteboard-nonprofit-meeting-mobile.webp",
+                "alt" : "Femme présentant mission fondation et programmes bénévolat sur tableau blanc lors réunion stratégie organisme but non lucratif"
             },
             {
                 "title": "Gestion des Donateurs",
@@ -2458,8 +2517,9 @@
                     "Processus complets de reconnaissance et de remerciement pour renforcer la loyauté."
                 ],
                 "bgColor": "#E1E6C9",
-                "deskImg": "/images/industry/non-profit-industry/donor-desk.webp",
-                "mobImg": "/images/industry/non-profit-industry/Mobile/donor-mob.webp"
+                "deskImg": "/images/industry/non-profit-industry/diverse-team-office-collaboration-nonprofit-meeting.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/diverse-team-office-collaboration-nonprofit-meeting-mobile.webp",
+                "alt" : "Équipe diverse organisme but non lucratif collaborant dans espace bureau moderne discutant projets et stratégie organisationnelle ensemble"
             },
             {
                 "title": "Gestion des bénévoles",
@@ -2472,8 +2532,9 @@
                     "Tableaux de bord en temps réel pour mesurer engagement et contribution des bénévoles."
                 ],
                 "bgColor": "#F2D8C2",
-                "deskImg": "/images/industry/non-profit-industry/volunteer-desk.webp",
-                "mobImg": "/images/industry/non-profit-industry/Mobile/volunteer-mob.webp"
+                "deskImg": "/images/industry/non-profit-industry/volunteers-planting-tree-community-environmental-service.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/volunteers-planting-tree-community-environmental-service-mobile.webp",
+                "alt" : "Groupe bénévoles en chemises vertes plantant arbre ensemble lors service communautaire environnemental et projet développement durable"
             },
             {
                 "title": "Gestion des Programmes & Résultats",
@@ -2486,8 +2547,9 @@
                     "Rapports transparents pour les donateurs, conseils et financeurs."
                 ],
                 "bgColor": "#E6E1F7",
-                "deskImg": "/images/industry/non-profit-industry/program-desk.webp",
-                "mobImg": "/images/industry/non-profit-industry/Mobile/program-mob.webp"
+                "deskImg": "/images/industry/non-profit-industry/mobile-phone-donation-app-charity-interface.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/mobile-phone-donation-app-charity-interface-mobile.webp",
+                "alt" : "Personne utilisant interface application don sur smartphone montrant contribution caritative et plateforme collecte fonds organismes but non lucratif"
             },
             {
                 "title": "Gestion des Subventions",
@@ -2500,8 +2562,9 @@
                     "Rapports intégrés pour démontrer l’utilisation efficace des fonds aux financeurs."
                 ],
                 "bgColor": "#F0E4ED",
-                "deskImg": "/images/industry/non-profit-industry/grant-desk.webp",
-                "mobImg": "/images/industry/non-profit-industry/Mobile/grant-mob.webp"
+                "deskImg": "/images/industry/non-profit-industry/financial-management-technology-icons-nonprofit-dashboard.webp",
+                "mobImg": "/images/industry/non-profit-industry/Mobile/financial-management-technology-icons-nonprofit-dashboard-mobile.webp",
+                "alt" : "Icônes financières holographiques incluant sac argent graphiques et analyses affichant tableau bord gestion financière organisme but non lucratif"
             }
         ],
         "headerTitle": "Secteur Non-Profit",

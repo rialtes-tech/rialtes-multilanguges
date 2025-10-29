@@ -155,8 +155,8 @@ export default function Page() {
       <section className="relative group overflow-hidden xl:pb-40 2xl:pb-20 pb-10 h-[400px] md:h-[530px]  4xl:h-[650px] 2xl:h-[550px] xl:h-[600px]">
         <div className="md:block hidden">
           <Image
-            src="/images/education/Education banner.webp"
-            alt="Education banner"
+            src="/images/education/digital-education-graduate-future-learning.webp"
+            alt={t('bannerAlt')}
             fill
             priority
             sizes="100vw"
@@ -165,11 +165,10 @@ export default function Page() {
         </div>
         <div className="md:hidden block">
           <Image
-            src="/images/education/Group 483.webp"
-            alt="Education banner"
+            src="/images/education/digital-education-graduate-future-learning-mobile.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-
             priority
             className="transform transition-transform duration-500 group-hover:scale-110"
             sizes="100vw"
@@ -213,8 +212,8 @@ export default function Page() {
       <section className="relative group xl:mt-20 mt-16 pb-20">
         <div className="xl:block hidden">
           <Image
-            src="/images/education/TL.webp"
-            alt="Thought Leadership image"
+            src="/images/education/business-professional-using-tablet.webp"
+            alt={t('businessAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -223,8 +222,8 @@ export default function Page() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/education/AdobeStock_612317773.webp"
-            alt="Thought Leadership image"
+            src="/images/education/business-professional-using-tablet-mobile.webp"
+            alt={t('businessAlt')}
             priority
             sizes="100vw"
             className="h-[343px] w-full"
@@ -273,10 +272,7 @@ export default function Page() {
           : locale === "fr"
             ? "xl:mt-40 4xl:mt-[14rem] 2xl:mt-[13rem]"
             : "xl:mt-40"
-        }`}
-
-
-      >
+        }`}>
         <div className="pb-16 bg-white">
           <Services2 />
         </div>
@@ -285,8 +281,8 @@ export default function Page() {
       <section className="relative group overflow-hidden h-auto 4xl:h-[1620px] 2xl:h-[1550px] xl:h-[1500px]  xl:mt-0">
         <div className="xl:block hidden">
           <Image
-            src="/images/education/student journey.webp"
-            alt="student journey image"
+            src="/images/education/student-working-laptop-outdoors-city.webp"
+            alt={t('studentALt')}
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -296,8 +292,8 @@ export default function Page() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/education/Group 484.webp"
-            alt="student journey image"
+            src="/images/education/student-working-laptop-outdoors-city-mobile.webp"
+            alt={t('studentALt')}
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -369,8 +365,8 @@ export default function Page() {
             <div className="custom-container xl:!pr-12 xl:top-[3rem] top-[5rem] relative">
               <div className="relative group overflow-hidden">
                 <Image
-                  src="/images/education/marketing.webp"
-                  alt="marketing image"
+                  src="/images/education/students-collaborating-library-study-group.webp"
+                  alt={t('markeAlt')}
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
@@ -382,7 +378,6 @@ export default function Page() {
             <div className="bg-[#C4EBEA] custom-container w-full xl:pr-20 xl:pb-20 pb-10 pt-[8rem] xl:pt-[5rem]">
               <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px] font-medium leading-tight max-[400px]:text-[25px] max-[350px]:text-[20px] ">
                 {t('hyperTitle')}
-                Cloud
               </h2>
               <UnorderedList
                 arrName={hyperData}
@@ -398,8 +393,8 @@ export default function Page() {
             <div className="custom-container xl:pl-16  xl:mt-[20rem]">
               <div className="relative group overflow-hidden">
                 <Image
-                  src="/images/education/service cloud.webp"
-                  alt="service cloud image"
+                  src="/images/education/students-outdoor-collaborative-discussion.webp"
+                  alt={t('studentAlt')}
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
@@ -431,8 +426,8 @@ export default function Page() {
             <div className="custom-container xl:!pr-12">
               <div className="relative group overflow-hidden">
                 <Image
-                  src="/images/education/experience cloud.webp"
-                  alt="experience cloud image"
+                  src="/images/education/business-team-meeting-office-discussion.webp"
+                  alt={t('teamAlt')}
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
@@ -462,8 +457,8 @@ export default function Page() {
             <div className="custom-container xl:pl-16 xl:mt-[14rem]">
               <div className="relative group overflow-hidden">
                 <Image
-                  src="/images/education/s4hana.webp"
-                  alt="s4hana image"
+                  src="/images/education/professional-woman-smartphone-city-street.webp"
+                  alt={t('hanaAlt')}
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
@@ -498,8 +493,8 @@ export default function Page() {
             <div className="custom-container xl:!pr-12">
               <div className="relative group overflow-hidden">
                 <Image
-                  src="/images/education/revenue cloud.webp"
-                  alt="revenue cloud image"
+                  src="/images/education/woman-celebrating-online-shopping-success.webp"
+                  alt={t('cloudAlt')}
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
@@ -529,8 +524,8 @@ export default function Page() {
             <div className="custom-container xl:pl-16  xl:mt-[14rem]">
               <div className="relative group overflow-hidden">
                 <Image
-                  src="/images/education/data cloud.webp"
-                  alt="data cloud image"
+                  src="/images/education/male-graduate-diploma-university-campus.webp"
+                  alt={t('campusAlt')}
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
@@ -565,8 +560,8 @@ export default function Page() {
             <div className="custom-container xl:!pr-12">
               <div className="relative group overflow-hidden">
                 <Image
-                  src="/images/education/eduction agentforce.webp"
-                  alt="Agentforce for Education"
+                  src="/images/education/digital-learning-brain-technology-concept.webp"
+                  alt={t('empowerAlt')}
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
@@ -600,8 +595,8 @@ export default function Page() {
         <div className="relative h-[2750px] md:h-[1000px] group md:overflow-hidden">
           <div className="md:block hidden">
             <Image
-              src="/images/education/agentchat.webp"
-              alt="agentchat image"
+              src="/images/education/ai-powered-mobile-learning-technology.webp"
+              alt={t('aiAlt')}
               fill
               priority
               className="transform transition-transform duration-500 group-hover:scale-110"
@@ -611,8 +606,8 @@ export default function Page() {
           </div>
           <div className="md:hidden block">
             <Image
-              src="/images/education/Group 485.webp"
-              alt="agentchat image"
+              src="/images/education/ai-powered-mobile-learning-technology-mobile.webp"
+              alt={t('aiAlt')}
               fill
               priority
               className="!h-full"
@@ -646,8 +641,8 @@ export default function Page() {
                 <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2">
                   <Image
                     className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
-                    src="/images/education/Seamless Salesforce Integration.svg"
-                    alt="Taking the lead"
+                    src="/images/education/cloud-automation-integration-icon.svg"
+                    alt={t('autoAlt')}
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -665,8 +660,8 @@ export default function Page() {
                 <div className="flex flex-col  xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2 mt-10 md:mt-0 xl:mt-0">
                   <Image
                     className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
-                    src="/images/education/AI-Powered Automation & Personalization.svg"
-                    alt="Taking the lead"
+                    src="/images/education/smart-manufacturing-automation-icon.svg"
+                    alt={t('smartAlt')}
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -686,8 +681,8 @@ export default function Page() {
                 <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2 mt-10 xl:mt-0">
                   <Image
                     className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
-                    src="/images/education/Scalable & Efficient Communication.svg"
-                    alt="Taking the lead"
+                    src="/images/education/system-integration-communication-icon.svg"
+                    alt={t('systemAlt')}
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -705,8 +700,8 @@ export default function Page() {
                 <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2 mt-10 xl:mt-0">
                   <Image
                     className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
-                    src="/images/education/Actionable Insights & Data Security.svg"
-                    alt="Taking the lead"
+                    src="/images/education/secure-communication-encryption-icon.svg"
+                    alt={t('leadAlt')}
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -755,8 +750,8 @@ export default function Page() {
               <div className="xl:col-span-5 col-span-12 relative group overflow-hidden">
                 <div className="xl:block hidden">
                   <Image
-                    src="/images/education/solutions.webp"
-                    alt="solutions image"
+                    src="/images/education/digital-education-technology-elearning.webp"
+                    alt={t('solutionAlt')}
                     fill
                     priority
                     sizes="100vw"
@@ -765,8 +760,8 @@ export default function Page() {
                 </div>
                 <div className="xl:hidden block">
                   <Image
-                    src="/images/education/solutions.webp"
-                    alt="solutions image"
+                    src="/images/education/digital-education-technology-elearning.webp"
+                    alt={t('solutionAlt')}
                     priority
                     sizes="100vw"
                     className="w-full h-full "
