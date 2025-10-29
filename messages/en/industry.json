@@ -2133,6 +2133,16 @@
     "learnMoreBtn": "Learn More"
   },
   "retailIndustry": {
+    "aiPoweredAlt" : "Smiling retail employee assisting customer with mobile payment scanning at modern store checkout counter with technology",
+    "rightSectionAlt" : "Retail store manager and employee discussing inventory on tablet in modern clothing boutique with display racks",
+    "actionableSectionAlt" : "Professional viewing dynamic data cloud analytics with motion blur effect showing retail business intelligence and insights",
+    "frictionlessSectionAlt" : "Hand interacting with transparent digital analytics dashboard displaying real-time data charts graphs and business metrics",
+    "loyaltySectionAlt" : "Wooden blocks showing loyalty program icons including discount card QR code gift box and shopping bags for customer rewards",
+    "realTimeAlt" : "Warehouse team in safety vests using tablet for cloud-powered real-time inventory tracking and management in storage facility",
+    "salesforceMarketingAlt" : "Person in yellow sweater browsing online shopping product catalog with clothing and home items displayed on tablet screen",
+    "fashionRetailAlt" : "Professional man with glasses interacting with blue touchscreen display showing digital avatars in modern office environment",
+    "newRealitySectionAlt" : "Smiling retail store employee with glasses holding tablet for inventory management in product aisle with shelves",
+    "bannerAlt" : "Customer using interactive digital shopping cart interface in modern retail store with touchscreen technology display",
     "seoTitle": "Digital Transformation in Retail Industry with SAP | Rialtes",
     "seoDescription": "Drive retail industry digital transformation with SAP and Salesforce. Rialtes fuels innovation and growth with agile, intelligent, customer-first solutions.",
     "newRealityData": [
@@ -2155,28 +2165,35 @@
     ],
     "chooseRialtesData": [
       {
-        "imgUrl": "/images/industry/retail-industry/img-1.svg",
-        "desc": "Strategic Retail Advisory and Business Architecture"
+        "imgUrl": "/images/industry/retail-industry/omnichannel-retail-network-connectivity-icon.svg",
+        "desc": "Strategic Retail Advisory and Business Architecture",
+        "alt" : "Blue line icon showing storefront connected to multiple devices representing omnichannel retail network integration"
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-2.svg",
-        "desc": "Customized Solution Design & Industry Blueprints"
+        "imgUrl": "/images/industry/retail-industry/retail-blueprint-planning-design-icon.svg",
+        "desc": "Customized Solution Design & Industry Blueprints",
+        "alt" : "Blue line icon depicting blueprint with pencil and design elements for retail store planning and layout optimization"
+
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-3.svg",
-        "desc": "Pre-Built Accelerators for Rapid Deployment"
+        "imgUrl": "/images/industry/retail-industry/retail-business-growth-launch-acceleration-icon.svg",
+        "desc": "Pre-Built Accelerators for Rapid Deployment",
+        "alt" : "Blue rocket icon with percentage symbol launching upward representing retail business growth and sales acceleration"
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-4.svg",
-        "desc": "Quality Assurance & Performance Engineering"
+        "imgUrl": "/images/industry/retail-industry/retail-security-compliance-protection-icon.svg",
+        "desc": "Quality Assurance & Performance Engineering",
+        "alt" : "Blue shield with checkmark and gear icon representing retail security compliance and operational protection systems"
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-5.svg",
-        "desc": "Integration of Front and Back Office (SAP, Salesforce, Oracle, MuleSoft)"
+        "imgUrl": "/images/industry/retail-industry/retail-data-integration-system-synchronization-icon.svg",
+        "desc": "Integration of Front and Back Office (SAP, Salesforce, Oracle, MuleSoft)",
+        "alt" : "Blue icon showing computer monitor with bidirectional arrows and folder representing retail data integration and synchronization"
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-6.svg",
-        "desc": "Post Go-Live Support, Optimization & Innovation"
+        "imgUrl": "/images/industry/retail-industry/retail-customer-support-service-icon.svg",
+        "desc": "Post Go-Live Support, Optimization & Innovation",
+        "alt" : "Blue headset with lightbulb icon representing retail customer support innovation and intelligent service solutions"
       }
     ],
     "fashionRetailData": [
@@ -2234,16 +2251,18 @@
     ],
     "aiPoweredCustomerData": [
       {
-        "mobImgUrl": "/images/industry/retail-industry/mobile/aiPowered-agentforce-mob-img.webp",
-        "deskImgUrl": "/images/industry/retail-industry/aiPowered-agentforce-desk-img.webp",
+        "mobImgUrl": "/images/industry/retail-industry/mobile/digital-hands-ai-technology-connection-concept-mobile.webp",
+        "deskImgUrl": "/images/industry/retail-industry/digital-hands-ai-technology-connection-concept.webp",
         "title": "Agentforce",
-        "desc": "AI-powered service cloud bots, virtual agents, and personalized support journeys."
+        "desc": "AI-powered service cloud bots, virtual agents, and personalized support journeys.",
+        "alt" : "Two hands reaching toward each other with glowing purple digital particles representing AI technology and human connection"
       },
       {
-        "mobImgUrl": "/images/industry/retail-industry/mobile/aiPowered-datacloud-mob-img.webp",
-        "deskImgUrl": "/images/industry/retail-industry/aiPowered-datacloud-desk-img.webp",
+        "mobImgUrl": "/images/industry/retail-industry/mobile/cloud-data-technology-infrastructure-computing-mobile.webp",
+        "deskImgUrl": "/images/industry/retail-industry/cloud-data-technology-infrastructure-computing.webp",
         "title": "Data Cloud",
-        "desc": "Unified 360° customer profiles for personalized offers, support, and upselling."
+        "desc": "Unified 360° customer profiles for personalized offers, support, and upselling.",
+        "alt" : "White cloud with blue digital circuit connections below representing cloud computing and data technology infrastructure"
       }
     ],
     "actionableData": [
@@ -2321,6 +2340,12 @@
     "contactSubTitle2": "Contact us today to unlock the future of retail."
   },
   "nonProfit": {
+    "whyChooseRialtesAlt" : "Hand touching nonprofit digital network interface with connected icons showing community collaboration innovation and organization ecosystem",
+    "dataCloudAlt" : "Volunteers working with transparent data analytics overlay showing pie charts graphs representing nonprofit impact measurement metrics",
+    "agentforceAlt" : "Smiling nonprofit professionals collaborating on laptop reviewing organizational strategy and program planning together at desk",
+    "donorSectionAlt" : "Professional reviewing data analytics charts and graphs on smartphone with laptop displaying nonprofit performance metrics reports",
+    "thoughtLeadershipAlt" : "Volunteer team members using tablet for coordinating food distribution and donation management at community food bank",
+    "bannerAlt" : "Hands assembling colorful rainbow heart puzzle representing nonprofit teamwork collaboration and purpose-driven unity",
     "seoTitle": "Nonprofit Digital Transformation and IT Solutions | Rialtes",
     "seoDescription": "Rialtes empowers nonprofits with smart IT solutions and digital transformation to streamline grants, donors, volunteers, and program operations seamlessly.",
     "whyChooseData": [
@@ -2381,8 +2406,9 @@
           "Provide transparency to donors on how their contributions are used through automated impact reporting."
         ],
         "bgColor": "#FCF0D9",
-        "deskImg": "/images/industry/non-profit-industry/fundraising-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/fundraising-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/team-circle-puzzle-pieces-unity-collaboration.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/team-circle-puzzle-pieces-unity-collaboration-mobile.webp",
+        "alt" : "Diverse team holding wooden puzzle pieces in circle from above representing nonprofit collaboration and collective impact"
       },
       {
         "title": "Family & Household Mapping",
@@ -2395,8 +2421,9 @@
           "Map relationships between donors, board members, and program participants for community building."
         ],
         "bgColor": "#E6E6A1",
-        "deskImg": "/images/industry/non-profit-industry/family-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/family-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/growing-plant-golden-coins-nonprofit-funding.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/growing-plant-golden-coins-nonprofit-funding-mobile.webp",
+        "alt" : "Green plant seedling growing from golden coins with miniature figures representing nonprofit funding and sustainable growth"
       },
       {
         "title": "Personalized Donor Outreach with Salesforce Marketing Cloud",
@@ -2409,8 +2436,9 @@
           "Dynamic donor journeys that adjust based on behavior and giving patterns."
         ],
         "bgColor": "#D8DBEF",
-        "deskImg": "/images/industry/non-profit-industry/personalized-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/personalized-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/foundation-presentation-whiteboard-nonprofit-meeting.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/foundation-presentation-whiteboard-nonprofit-meeting-mobile.webp",
+        "alt" : "Woman presenting foundation mission and volunteer programs on whiteboard during nonprofit organization strategy meeting"
       },
       {
         "title": "Donor Management",
@@ -2423,8 +2451,9 @@
           "Comprehensive acknowledgment and recognition processes to foster loyalty."
         ],
         "bgColor": "#E1E6C9",
-        "deskImg": "/images/industry/non-profit-industry/donor-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/donor-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/diverse-team-office-collaboration-nonprofit-meeting.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/diverse-team-office-collaboration-nonprofit-meeting-mobile.webp",
+        "alt" : "Diverse nonprofit team collaborating in modern office workspace discussing projects and organizational strategy together"
       },
       {
         "title": "Volunteer Management",
@@ -2437,8 +2466,9 @@
           "Real-time dashboards for volunteer engagement and contribution measurement."
         ],
         "bgColor": "#F2D8C2",
-        "deskImg": "/images/industry/non-profit-industry/volunteer-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/volunteer-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/volunteers-planting-tree-community-environmental-service.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/volunteers-planting-tree-community-environmental-service-mobile.webp",
+        "alt" : "Group of volunteers in green shirts planting tree together during environmental community service and sustainability project"
       },
       {
         "title": "Program & Outcome Management",
@@ -2451,8 +2481,9 @@
           "Transparent reporting for donors, boards, and grantors."
         ],
         "bgColor": "#E6E1F7",
-        "deskImg": "/images/industry/non-profit-industry/program-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/program-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/mobile-phone-donation-app-charity-interface.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/mobile-phone-donation-app-charity-interface-mobile.webp",
+        "alt" : "Person using smartphone donation app interface showing charity contribution and fundraising platform for nonprofit organizations"
       },
       {
         "title": "Grant Management",
@@ -2465,8 +2496,9 @@
           "Integrated reporting to demonstrate effective fund usage to grantors."
         ],
         "bgColor": "#F0E4ED",
-        "deskImg": "/images/industry/non-profit-industry/grant-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/grant-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/financial-management-technology-icons-nonprofit-dashboard.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/financial-management-technology-icons-nonprofit-dashboard-mobile.webp",
+        "alt" : "Holographic financial icons including money bag charts and analytics displaying nonprofit financial management technology dashboard"
       }
     ],
     "headerTitle": "Non-Profit Industry",
