@@ -101,7 +101,7 @@ export default function servicesFeaturedCarousel({ slides }) {
                 <Link href={slide?.url}>
                   <Image
                     src={slide.imgSrc}
-                    alt={slide.title}
+                    alt={slide.imageAlt}
                     width={0}
                     height={0}
                     sizes="100vw"
