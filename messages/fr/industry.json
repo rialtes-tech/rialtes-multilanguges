@@ -564,6 +564,18 @@
         "contactTitle": "Faites le prochain pas vers l’excellence opérationnelle avec nous."
     },
     "pharmaBiotech": {
+        "agentForceAlt": "Visuel représentant la solution Agentforce de Salesforce pour les équipes de vente et affaires médicales en pharmacie",
+        "agentChatAlt": "Image montrant l’intégration AgentChat avec WhatsApp pour une communication sécurisée entre patients et professionnels de santé.",
+        "remoteMonitoringAlt": "Visuel représentant des outils de surveillance à distance pour suivre la sécurité des patients et l’utilisation des produits.",
+        "patientCentricAlt": "Image montrant des applications mobiles conçues pour l’engagement des patients et le suivi des résultats.",
+        "benefitsAlt": "Visuel listant les avantages de l’IA dans la pharmacie, y compris un développement plus rapide et une meilleure conformité.",
+        "deepExpertiesAlt": "Visuel représentant l’expertise approfondie de Rialtes dans les plateformes numériques pharmaceutiques et biotechnologiques.",
+        "keyImpactAlt": "Graphique montrant les domaines clés d’impact de l’IA dans la pharmacie, y compris la découverte de médicaments et l’engagement des patients.",
+        "sapOperationsAlt": "Visuel représentant les opérations pharmaceutiques pilotées par SAP, y compris la sérialisation et la conformité.",
+        "lifeSciencesPlatformAlt": "Image montrant l’intégration des opérations commerciales, cliniques et médicales dans les sciences de la vie.",
+        "bannerAlt": "Image de bannière pour les services de transformation numérique en pharmacie et biotechnologie.",
+        "thoughtLeadershipAlt": "Visuel mettant en avant le leadership intellectuel de Rialtes en IA et transformation numérique pour la pharmacie.",
+        "whyRialtesAlt": "Graphique expliquant pourquoi les entreprises pharmaceutiques et biotechnologiques choisissent Rialtes pour la transformation numérique.",
         "thoughtData": [
             "Accélérer le développement de produits, les soumissions réglementaires et la commercialisation.",
             "Construire des plateformes intégrées pour les opérations cliniques, médicales et commerciales.",
@@ -637,8 +649,9 @@
                     "Maintenir la préparation des soumissions, les pistes d’audit et les évaluations des risques.",
                     "Manque de plateformes intégrées pour gérer les événements qualité, les rapports de sécurité et les soumissions réglementaires."
                 ],
-                "imgDesktop": "/images/pharma/Complex and Dynamic Regulatory Compliance.webp",
-                "imgMobile": "/images/pharma/Complex and Dynamic .webp"
+                "imgDesktop": "/images/pharma/pharma-regulatory-compliance.webp",
+                "imgMobile": "/images/pharma/pharma-regulatory-compliance-mobile.webp",
+                "imageAlt": "Image illustrant les défis de conformité réglementaire mondiale dans le secteur pharmaceutique."
             },
             {
                 "number": "2",
@@ -651,8 +664,9 @@
                     "Systèmes fragmentés pour la gestion des données d’essais et des événements indésirables.",
                     "Défis pour assurer l’exactitude des données pour les soumissions réglementaires."
                 ],
-                "imgDesktop": "/images/pharma/Accelerating Clinical Trials and R&D Innovation.webp",
-                "imgMobile": "/images/pharma/Accelerating Clinical.webp"
+                "imgDesktop": "/images/pharma/pharma-clinical-trials-innovation.webp",
+                "imgMobile": "/images/pharma/pharma-clinical-trials-innovation-mobile.webp",
+                "imageAlt": "Visuel montrant des solutions numériques pour accélérer les essais cliniques et la R&D pharmaceutique."
             },
             {
                 "number": "3",
@@ -665,8 +679,9 @@
                     "Manque de visibilité sur le soutien aux patients et leurs résultats.",
                     "Difficultés dans la gestion des demandes médicales et le suivi des événements indésirables."
                 ],
-                "imgDesktop": "/images/pharma/Commercial and Medical Affairs Engagement Gaps.webp",
-                "imgMobile": "/images/pharma/Commercial and Medical.webp"
+                "imgDesktop": "/images/pharma/pharma-medical-affairs-engagement.webp",
+                "imgMobile": "/images/pharma/pharma-medical-affairs-engagement-mobile.webp",
+                "imageAlt": "Image mettant en évidence les lacunes d’engagement entre les affaires médicales, les professionnels de santé et les patients."
             },
             {
                 "number": "4",
@@ -679,8 +694,9 @@
                     "Manque de visibilité en temps réel sur les stocks et les expéditions.",
                     "Inefficacités dans les rappels, les plaintes et les réponses aux événements indésirables."
                 ],
-                "imgDesktop": "/images/pharma/Supply Chain, Manufacturing, and Serialization.webp",
-                "imgMobile": "/images/pharma/Supply Chain (1).webp"
+                "imgDesktop": "/images/pharma/pharma-supply-chain-serialization.webp",
+                "imgMobile": "/images/pharma/pharma-supply-chain-serialization-mobile.webp",
+                "imageAlt": "Graphique montrant les défis de la chaîne d’approvisionnement pharmaceutique, y compris la sérialisation et la conformité."
             }
         ],
         "strategicTitle": "Les 4 Principaux Défis Stratégiques auxquels l’Industrie Pharmaceutique et Biotechnologique est Confrontée Aujourd’hui",
@@ -896,36 +912,45 @@
         "learnMoreBtn": "En savoir plus"
     },
     "homeHealth": {
+        "aiPoweredAlt": "Graphique illustrant les soins à domicile pilotés par IA avec des insights prédictifs et de l’automatisation.",
+        "agentchatAlt": "Image montrant l’intégration d’AgentChat avec WhatsApp pour la communication entre patients et soignants.",
+        "globalDeleveryAlt": "Image montrant la prestation mondiale de programmes de santé à domicile avec conformité régionale.",
+        "bannerAlt": "Image de bannière promouvant les solutions technologiques de santé à domicile pour les soins à distance et l’accès mobile.",
         "addressingData": [
             {
                 "title": "Divisions géographiques et accessibilité",
                 "desc": "Les patients vivant dans des zones rurales ou éloignées font face à des obstacles importants pour accéder à des soins médicaux en temps opportun en raison d’une infrastructure limitée et de l’isolement géographique. Notre équipe fournit aux prestataires de soins à domicile des outils de coordination de soins virtuels, des applications optimisées pour mobile et un accès aux données en temps réel, afin que les patients puissent recevoir des soins continus sans jamais se rendre dans une clinique.",
                 "deskImg": "/images/home-health/geographical-desk.webp",
-                "mobImg": "/images/home-health/Mobile/geographical-mob.webp"
+                "mobImg": "/images/home-health/Mobile/geographical-mob.webp",
+                "alt": "Visuel mettant en évidence les défis d’accès aux soins en zones rurales et les outils de coordination virtuelle."
             },
             {
                 "title": "Pandémie et risque de maladies infectieuses",
                 "desc": "Les consultations physiques exposent les patients vulnérables aux maladies contagieuses, notamment lors de crises sanitaires comme la COVID-19. Nous soutenons le passage des visites en clinique aux consultations et suivis à distance, garantissant que les patients reçoivent des soins dans un environnement sûr et contrôlé, à domicile, via des rendez-vous virtuels, des diagnostics à distance et la prestation de soins sans contact grâce à Salesforce.",
                 "deskImg": "/images/home-health/pandemic-desk.webp",
-                "mobImg": "/images/home-health/Mobile/pandemic-mob.webp"
+                "mobImg": "/images/home-health/Mobile/pandemic-mob.webp",
+                "alt": "Image montrant des consultations à distance et des soins sans contact pour réduire l’exposition aux maladies infectieuses."
             },
             {
                 "title": "Manque de suivi de santé en temps réel",
                 "desc": "Sans visibilité en temps réel sur l’état de santé des patients, les signes avant-coureurs sont souvent manqués, entraînant des complications évitables. Rialtes permet la surveillance à distance des patients (RPM) en intégrant des dispositifs médicaux intelligents et des objets connectés avec Salesforce Health Cloud, assurant aux prestataires de soins des mises à jour et alertes en temps réel pour des interventions rapides.",
                 "deskImg": "/images/home-health/lack-desk.webp",
-                "mobImg": "/images/home-health/Mobile/lack-mob.webp"
+                "mobImg": "/images/home-health/Mobile/lack-mob.webp",
+                "alt": "Graphique illustrant la surveillance à distance des patients avec des dispositifs médicaux intelligents et des objets connectés."
             },
             {
                 "title": "Longs temps d’attente",
                 "desc": "Les cliniques surchargées entraînent des soins retardés, des suivis manqués et des patients frustrés. Grâce à la planification automatisée des rendez-vous, des outils d’orientation intelligents et des options de soins virtuels, nous aidons à réduire le retard des patients et à faciliter les consultations à la demande pour les patients confinés à domicile.",
                 "deskImg": "/images/home-health/long-desk.webp",
-                "mobImg": "/images/home-health/Mobile/long-mob.webp"
+                "mobImg": "/images/home-health/Mobile/long-mob.webp",
+                "alt": "Image montrant la planification automatisée et les consultations virtuelles pour réduire le retard des patients."
             },
             {
                 "title": "Accès limité au soutien en santé mentale",
                 "desc": "L’accès aux services de santé mentale reste un défi en raison de la stigmatisation, de la disponibilité limitée et des obstacles logistiques. Rialtes propose un accès virtuel discret à des professionnels de la santé comportementale, des séances de conseil et des outils de suivi de l’humeur, le tout intégré dans une plateforme numérique sécurisée et conviviale pour les patients.",
                 "deskImg": "/images/home-health/limited-desk.webp",
-                "mobImg": "/images/home-health/Mobile/limited-mob.webp"
+                "mobImg": "/images/home-health/Mobile/limited-mob.webp",
+                "alt": "isuel représentant les services de santé mentale virtuels et les outils de suivi de l’humeur."
             }
         ],
         "aiRovolutionizingData": [
@@ -1477,20 +1502,20 @@
         "learnMoreBtn": "En savoir plus"
     },
     "manufacturing": {
-        "bannerAlt":"Turbines industrielles et tuyaux connectés dans installation bleue représentant intégration MuleSoft et connectivité",
-        "thoughtAlt":"Ingénieur avec tablette visualisant tableaux de bord holographiques et flux lumineux bleus dans usine intelligente digitale",
-        "endAlt":"Ingénieure avec casque jaune et gilet de sécurité utilisant tablette lors d'inspection d'installation industrielle moderne",
-        "preAlt":"Paysage urbain numérique avec rayons lumineux bleus et oranges jaillissant de l'horizon sur sol technologique futuriste grillé",
-        "enginerAlt":"Ingénieur en gants bleus utilisant machine de précision tenant composant métallique sur pièces industrielles en usine moderne",
-        "manAlt":"Chaîne de production pharmaceutique automatisée avec distributeurs de précision remplissant flacons de liquide orange lumineux",
-        "dataAlt":"Deux ingénieures en gilets de sécurité analysant données techniques et modèles 3D sur écrans en salle de contrôle industriel",
-        "roboticAlt":"Bras robotiques orange assemblant châssis de batterie de véhicule électrique sur chaîne de production automatisée moderne",
-        "shopAlt":"Deux contrôleurs qualité en équipement de protection inspectant contenants métalliques avec presse-papiers en usine stérile",
-        "cloudAlt":"Professionnel informatique analysant tableau de bord cybersécurité avec graphiques de données et icônes cadenas sur écran",
-        "erpAlt":"Deux ingénieurs en énergie renouvelable avec gilets de sécurité et casques inspectant éolienne avec ordinateur portable en parc",
-        "demandAlt":"Deux employés d'entrepôt en gilets jaunes de sécurité et casques marchant dans centre de distribution moderne avec hauts rayonnages",
-        "aiAlt":"Chemin de réseau numérique avec points de données lumineux menant à installation industrielle et éoliennes en paysage vert durable",
-        "powerAlt":"Ampoule néon lumineuse avec ondes d'énergie bleu électrique et rose montant illustrant concept d'innovation et pouvoir créatif",
+        "bannerAlt": "Turbines industrielles et tuyaux connectés dans installation bleue représentant intégration MuleSoft et connectivité",
+        "thoughtAlt": "Ingénieur avec tablette visualisant tableaux de bord holographiques et flux lumineux bleus dans usine intelligente digitale",
+        "endAlt": "Ingénieure avec casque jaune et gilet de sécurité utilisant tablette lors d'inspection d'installation industrielle moderne",
+        "preAlt": "Paysage urbain numérique avec rayons lumineux bleus et oranges jaillissant de l'horizon sur sol technologique futuriste grillé",
+        "enginerAlt": "Ingénieur en gants bleus utilisant machine de précision tenant composant métallique sur pièces industrielles en usine moderne",
+        "manAlt": "Chaîne de production pharmaceutique automatisée avec distributeurs de précision remplissant flacons de liquide orange lumineux",
+        "dataAlt": "Deux ingénieures en gilets de sécurité analysant données techniques et modèles 3D sur écrans en salle de contrôle industriel",
+        "roboticAlt": "Bras robotiques orange assemblant châssis de batterie de véhicule électrique sur chaîne de production automatisée moderne",
+        "shopAlt": "Deux contrôleurs qualité en équipement de protection inspectant contenants métalliques avec presse-papiers en usine stérile",
+        "cloudAlt": "Professionnel informatique analysant tableau de bord cybersécurité avec graphiques de données et icônes cadenas sur écran",
+        "erpAlt": "Deux ingénieurs en énergie renouvelable avec gilets de sécurité et casques inspectant éolienne avec ordinateur portable en parc",
+        "demandAlt": "Deux employés d'entrepôt en gilets jaunes de sécurité et casques marchant dans centre de distribution moderne avec hauts rayonnages",
+        "aiAlt": "Chemin de réseau numérique avec points de données lumineux menant à installation industrielle et éoliennes en paysage vert durable",
+        "powerAlt": "Ampoule néon lumineuse avec ondes d'énergie bleu électrique et rose montant illustrant concept d'innovation et pouvoir créatif",
         "headerTitle": "Fabrication",
         "seoTitle": "Solutions IT et ERP Cloud pour l’Industrie Manufacturière | Rialtes",
         "seoDescription": "Rialtes fournit des solutions IT et ERP cloud pour l’industrie, afin de stimuler efficacité, innovation et transformation numérique à grande échelle.",
@@ -2037,6 +2062,17 @@
         "learnMoreBtn": "En savoir plus"
     },
     "travelIndustry": {
+        "smaterServiceAlt": "Graphique montrant les bots IA d’Agentforce et les interactions personnalisées pour le support voyage.",
+        "quikCommerceAlt": "isuel mobile représentant les réservations en temps réel, l’enregistrement et les demandes de service dans le secteur du voyage et de l’hôtellerie.",
+        "aiPoweredAlt": "Image mobile montrant des expériences de voyage pilotées par IA, y compris des chatbots et la maintenance prédictive.",
+        "rightTechPartAlt": "Image soulignant l’importance de choisir le bon partenaire technologique pour des solutions de voyage évolutives.",
+        "flawlessAlt": "Visuel montrant l’intégration des systèmes front-end et back-end pour des opérations de voyage fluides.",
+        "drivingReapeatAlt": "Image illustrant la gestion de la fidélité et les stratégies de gamification pour les clients récurrents du secteur du voyage.",
+        "optimizeAlt": "Visuel mobile montrant l’inventaire en temps réel et les tarifs dynamiques pour les services de voyage et d’hôtellerie.",
+        "personalizedAlt": "Image d’arrière-plan représentant des expériences de voyage personnalisées grâce à l’IA et aux données.",
+        "industryFocusAlt": "Image optimisée pour mobile mettant en avant des solutions informatiques spécifiques à l’industrie du voyage et de l’hôtellerie.",
+        "endtoendAlt": "Visuel représentant des solutions numériques de bout en bout pour le secteur du voyage et de l’hôtellerie.",
+        "bannerAlt": "Image de bannière promouvant la transformation numérique dans les secteurs du voyage, du transport et de l’hôtellerie avec SAP et Salesforce.",
         "endToEndData": [
             "Services de conseil spécifiques à l'industrie pour définir votre feuille de route digitale.",
             "Architecture et conception de solutions sur mesure pour répondre aux besoins uniques TTH.",

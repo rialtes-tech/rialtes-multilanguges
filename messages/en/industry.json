@@ -565,6 +565,18 @@
     "contactTitle": "Take the next step to operational excellence with us."
   },
   "pharmaBiotech": {
+    "agentForceAlt": "Visual representing Agentforce Salesforce solution for pharma sales and medical affairs teams",
+    "agentChatAlt": "Image showing AgentChat WhatsApp integration for secure patient and HCP communication.",
+    "remoteMonitoringAlt": "Visual representing remote monitoring tools for tracking patient safety and product usage.",
+    "patientCentricAlt": "Image showing mobile apps designed for patient engagement and outcome tracking.",
+    "benefitsAlt": "Visual listing benefits of AI in pharma including faster development and improved compliance.",
+    "deepExpertiesAlt": "Visual representing Rialtes' deep expertise in pharma and biotech digital platforms.",
+    "keyImpactAlt": "Graphic showing key AI impact areas in pharma including drug discovery and patient engagement.",
+    "lifeSciencesPlatformAlt": "Image showing integration of commercial, clinical, and medical operations in life sciences.",
+    "sapOperationsAlt": "Visual representing SAP-driven pharma operations including serialization and compliance.",
+    "bannerAlt": "Banner image for pharma and biotech digital transformation services.",
+    "thoughtLeadershipAlt": "Visual highlighting Rialtes' thought leadership in AI and digital transformation for pharma.",
+    "whyRialtesAlt": "Graphic explaining why pharma and biotech firms choose Rialtes for digital transformation.",
     "seoTitle": "Pharma & Biotech Digital Transformation with AI | Rialtes",
     "seoDescription": "Rialtes leverages certified expertise in Salesforce Life Sciences Cloud and",
     "thoughtData": [
@@ -640,8 +652,9 @@
           "Maintaining submission readiness, audit trails, and risk assessments.",
           "Lack of integrated platforms to manage quality events, safety reporting, and regulatory submissions."
         ],
-        "imgDesktop": "/images/pharma/Complex and Dynamic Regulatory Compliance.webp",
-        "imgMobile": "/images/pharma/Complex and Dynamic .webp"
+        "imgDesktop": "/images/pharma/pharma-regulatory-compliance.webp",
+        "imageAlt": "Image illustrating complex global regulatory compliance challenges in pharma.",
+        "imgMobile": "/images/pharma/pharma-regulatory-compliance-mobile.webp"
       },
       {
         "number": "2",
@@ -654,8 +667,9 @@
           "Fragmented systems for trial data and adverse event management.",
           "Challenges in ensuring data accuracy for regulatory submissions."
         ],
-        "imgDesktop": "/images/pharma/Accelerating Clinical Trials and R&D Innovation.webp",
-        "imgMobile": "/images/pharma/Accelerating Clinical.webp"
+        "imgDesktop": "/images/pharma/pharma-clinical-trials-innovation.webp",
+        "imageAlt": "Visual showing digital solutions for accelerating clinical trials and R&D in pharma.",
+        "imgMobile": "/images/pharma/pharma-clinical-trials-innovation-mobile.webp"
       },
       {
         "number": "3",
@@ -668,8 +682,9 @@
           "Lack of visibility into patient support and outcomes.",
           "Struggles with medical inquiry and adverse event tracking."
         ],
-        "imgDesktop": "/images/pharma/Commercial and Medical Affairs Engagement Gaps.webp",
-        "imgMobile": "/images/pharma/Commercial and Medical.webp"
+        "imgDesktop": "/images/pharma/pharma-medical-affairs-engagement.webp",
+        "imageAlt": "Image highlighting engagement gaps between medical affairs, HCPs, and patients.",
+        "imgMobile": "/images/pharma/pharma-medical-affairs-engagement-mobile.webp"
       },
       {
         "number": "4",
@@ -682,8 +697,9 @@
           "Lack of real-time visibility into inventory and shipments.",
           "Inefficiencies in recall, complaint, and adverse event responses."
         ],
-        "imgDesktop": "/images/pharma/Supply Chain, Manufacturing, and Serialization.webp",
-        "imgMobile": "/images/pharma/Supply Chain (1).webp"
+        "imgDesktop": "/images/pharma/pharma-supply-chain-serialization.webp",
+        "imageAlt": "Graphic showing pharma supply chain challenges including serialization and compliance.",
+        "imgMobile": "/images/pharma/pharma-supply-chain-serialization-mobile.webp"
       }
     ],
     "strategicTitle": "Top 4 Strategic Challenges Facing Pharma and Biotech Industry Today",
@@ -897,6 +913,10 @@
     "learnMoreBtn": "Learn More"
   },
   "homeHealth": {
+    "aiPoweredAlt": "Graphic illustrating AI-driven home health care including predictive insights and automation.",
+    "agentchatAlt": "Image showing AgentChat integration with WhatsApp for patient and caregiver communication.",
+    "globalDeleveryAlt": "Image showing global delivery of home health programs with regional compliance support.",
+    "bannerAlt": "Banner image promoting home health technology solutions for remote care and mobile access.",
     "seoTitle": "AI-Powered Home Healthcare Technology Solutions | Rialtes",
     "seoDescription": "Rialtes offers home healthcare technology solutions powered by AI to support virtual, remote, and personalized patient care—anytime, anywhere.",
     "addressingData": [
@@ -904,31 +924,36 @@
         "title": "Geographical Divide & Accessibility",
         "desc": "Patients in rural or remote areas face significant barriers to accessing timely medical care due to limited healthcare infrastructure and geographic isolation. Our team empowers home health providers with virtual care coordination tools, mobile-optimized apps, and real-time data access, so patients can receive continuous care without ever visiting a clinic.",
         "deskImg": "/images/home-health/geographical-desk.webp",
-        "mobImg": "/images/home-health/Mobile/geographical-mob.webp"
+        "mobImg": "/images/home-health/Mobile/geographical-mob.webp",
+        "alt": "Visual highlighting challenges in rural healthcare access and virtual care coordination tools."
       },
       {
         "title": "Pandemic & Infectious Disease Risk",
         "desc": "Physical consultations expose vulnerable patients to contagious diseases, especially during public health crises like COVID-19. We support the shift from clinic-based visits to remote consultations and monitoring, ensuring that patients receive care in a safe, controlled environment, at home. It is done by virtual appointments, remote diagnostics, and contactless care delivery via Salesforce.",
         "deskImg": "/images/home-health/pandemic-desk.webp",
-        "mobImg": "/images/home-health/Mobile/pandemic-mob.webp"
+        "mobImg": "/images/home-health/Mobile/pandemic-mob.webp",
+        "alt": "Image showing remote consultations and contactless care to reduce infectious disease exposure."
       },
       {
         "title": "Lack of Real-Time Health Tracking",
         "desc": "Without real-time visibility into patient health, early warning signs are often missed, leading to preventable complications. Rialtes enables Remote Patient Monitoring (RPM) by integrating smart medical devices and wearables with Salesforce Health Cloud, ensuring healthcare providers receive live updates and alerts for timely intervention.",
         "deskImg": "/images/home-health/lack-desk.webp",
-        "mobImg": "/images/home-health/Mobile/lack-mob.webp"
+        "mobImg": "/images/home-health/Mobile/lack-mob.webp",
+        "alt": "Graphic illustrating remote patient monitoring using wearables and smart medical devices."
       },
       {
         "title": "Long Waiting Times",
         "desc": "Overburdened clinics lead to delayed care, missed follow-ups, and frustrated patients. With automated appointment scheduling, intelligent routing tools, and virtual care options, we help reduce patient backlog and facilitate on-demand consultations for home-bound patients.",
         "deskImg": "/images/home-health/long-desk.webp",
-        "mobImg": "/images/home-health/Mobile/long-mob.webp"
+        "mobImg": "/images/home-health/Mobile/long-mob.webp",
+        "alt": "Image showing automated scheduling and virtual consultations to reduce patient backlog."
       },
       {
         "title": "Limited Access to Mental Health Support",
         "desc": "Access to mental health services remains a challenge due to stigma, limited availability, and logistical barriers. Rialtes offers discreet, virtual access to behavioral health professionals, counseling sessions, and mood-tracking tools, all integrated within a secure and patient-friendly digital platform.",
         "deskImg": "/images/home-health/limited-desk.webp",
-        "mobImg": "/images/home-health/Mobile/limited-mob.webp"
+        "mobImg": "/images/home-health/Mobile/limited-mob.webp",
+        "alt": "Visual representing virtual behavioral health services and mood tracking tools."
       }
     ],
     "aiRovolutionizingData": [
@@ -1477,20 +1502,20 @@
     "contactSubtitleOne": "Contact us today for a free consultation and explore how we can empower your connected enterprise!"
   },
   "manufacturing": {
-    "bannerAlt":"Industrial turbines and connected pipelines in blue-lit facility representing MuleSoft integration and data connectivity",
-    "thoughtAlt":"Engineer with tablet viewing holographic data dashboards and blue light streams in smart factory showing digital transformation",
-    "endAlt":"Female engineer in yellow hard hat and safety vest using tablet while inspecting industrial facility with metallic structures",
-    "preAlt":"Digital cityscape with glowing blue and orange light rays bursting from horizon over futuristic grid technology floor",
-    "enginerAlt":"Engineer in blue gloves operating precision machinery holding metal component over industrial parts in manufacturing facility",
-    "manAlt":"Automated pharmaceutical production line with precision dispensers filling vials with glowing orange liquid in modern facility",
-    "dataAlt":"Two female engineers in safety vests analyzing technical data and 3D models on computer screens in manufacturing control room",
-    "roboticAlt":"Orange robotic arms assembling electric vehicle battery chassis on automated production line in modern manufacturing facility",
-    "shopAlt":"Two quality control workers in protective gear inspecting metal containers with clipboard in sterile food processing facility",
-    "cloudAlt":"IT professional analyzing cybersecurity dashboard with data visualization charts and lock icons on digital screen at night",
-    "erpAlt":"Two renewable energy engineers in safety vests and helmets inspecting wind turbine with laptop at wind farm under blue sky",
-    "demandAlt":"Two warehouse workers in yellow safety vests and helmets walking through modern distribution center with tall storage racks",
-    "aiAlt":"Digital grid pathway with glowing data points leading to industrial facility and wind turbines in green sustainable landscape",
-    "powerAlt":"Glowing neon light bulb with electric blue and pink energy waves flowing upward showing innovation and creative power concept",
+    "bannerAlt": "Industrial turbines and connected pipelines in blue-lit facility representing MuleSoft integration and data connectivity",
+    "thoughtAlt": "Engineer with tablet viewing holographic data dashboards and blue light streams in smart factory showing digital transformation",
+    "endAlt": "Female engineer in yellow hard hat and safety vest using tablet while inspecting industrial facility with metallic structures",
+    "preAlt": "Digital cityscape with glowing blue and orange light rays bursting from horizon over futuristic grid technology floor",
+    "enginerAlt": "Engineer in blue gloves operating precision machinery holding metal component over industrial parts in manufacturing facility",
+    "manAlt": "Automated pharmaceutical production line with precision dispensers filling vials with glowing orange liquid in modern facility",
+    "dataAlt": "Two female engineers in safety vests analyzing technical data and 3D models on computer screens in manufacturing control room",
+    "roboticAlt": "Orange robotic arms assembling electric vehicle battery chassis on automated production line in modern manufacturing facility",
+    "shopAlt": "Two quality control workers in protective gear inspecting metal containers with clipboard in sterile food processing facility",
+    "cloudAlt": "IT professional analyzing cybersecurity dashboard with data visualization charts and lock icons on digital screen at night",
+    "erpAlt": "Two renewable energy engineers in safety vests and helmets inspecting wind turbine with laptop at wind farm under blue sky",
+    "demandAlt": "Two warehouse workers in yellow safety vests and helmets walking through modern distribution center with tall storage racks",
+    "aiAlt": "Digital grid pathway with glowing data points leading to industrial facility and wind turbines in green sustainable landscape",
+    "powerAlt": "Glowing neon light bulb with electric blue and pink energy waves flowing upward showing innovation and creative power concept",
     "seoTitle": "IT and Cloud ERP Solutions for Manufacturing Industry | Rialtes",
     "seoDescription": "Rialtes delivers expert IT and cloud ERP solutions for manufacturing businesses, helping drive efficiency, innovation, and digital transformation at scale.",
     "headerTitle": "Manufacturing",
@@ -2037,6 +2062,17 @@
     "learnMoreBtn": "Learn More"
   },
   "travelIndustry": {
+    "smaterServiceAlt": "Graphic showing Agentforce AI bots and personalized agent interactions for travel support",
+    "quikCommerceAlt": "Mobile visual representing real-time booking, check-in, and service requests in travel and hospitality",
+    "aiPoweredAlt": "Mobile image showing AI-powered travel experiences including chatbots and predictive maintenance.",
+    "rightTechPartAlt": "Image emphasizing the importance of choosing the right technology partner for scalable travel solutions.",
+    "flawlessAlt": "Visual showing integration of front-end and back-end systems for seamless travel operations.",
+    "drivingReapeatAlt": "Image illustrating loyalty management and gamification strategies for repeat travel customers.",
+    "optimizeAlt": "Mobile visual showing real-time inventory and dynamic pricing for travel and hospitality services.",
+    "personalizeAlt": "Background image representing personalized travel experiences powered by AI and data insights.",
+    "industryFocusAlt": "Mobile-optimized image highlighting industry-specific IT solutions for travel and hospitality.",
+    "endtoendAlt": "Visual representing end-to-end digital solutions for the travel and hospitality industry.",
+    "bannerAlt": "Banner image promoting digital transformation in travel, transportation, and hospitality with SAP and Salesforce.",
     "seoTitle": "Travel and Hospitality IT Solutions | SAP and Salesforce | Rialtes",
     "seoDescription": "Reimagine travel and hospitality IT solutions with AI, SAP, and Salesforce to enable real-time booking, loyalty programs, personalization, and efficiency.",
     "endToEndData": [
