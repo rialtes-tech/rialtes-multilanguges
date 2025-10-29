@@ -125,7 +125,7 @@ export default function Page() {
                     <div className="hidden md:block">
                         <Image
                             src="/images/industry/travel-transporation/hero-section-desktop-banner.webp"
-                            alt="desktop banner"
+                            alt={t("bannerAlt")}
                             fill
                             style={{ objectFit: "cover", objectPosition: "55% 20%" }}
                             priority
@@ -136,7 +136,7 @@ export default function Page() {
                     <div className="block md:hidden">
                         <Image
                             src="/images/industry/travel-transporation/Mobile/hero-section-mob-banner.webp"
-                            alt="mobile banner"
+                            alt={t("bannerAlt")}
                             fill
                             style={{ objectFit: "cover", objectPosition: "5% 20%" }}
                             priority
@@ -190,7 +190,7 @@ export default function Page() {
                                 <div className="hidden md:block relative w-full h-full">
                                     <Image
                                         src="/images/industry/travel-transporation/end-to-end-desktop-img.webp"
-                                        alt="end-to-end desktop image"
+                                        alt={t('endtoendAlt')}
                                         className="h-full w-full"
                                         width={0}
                                         height={0}
@@ -202,7 +202,7 @@ export default function Page() {
                                 <div className="block md:hidden relative w-full h-[400px] sm:h-[600px] md:h-[700px]">
                                     <Image
                                         src="/images/industry/travel-transporation/Mobile/end-to-end-mob-img.webp"
-                                        alt="end-to-end mobile image"
+                                        alt={t('endtoendAlt')}
                                         fill
                                         style={{ objectFit: "cover", objectPosition: "80% 20%" }}
                                         priority
@@ -223,7 +223,7 @@ export default function Page() {
                         <div className="block lg:hidden">
                             <Image
                                 src="/images/industry/travel-transporation/Mobile/industry-focused-mob-img.webp"
-                                alt="industry-focused-mob-img"
+                                alt={t('industryFocusAlt')}
                                 className="w-full h-auto"
                                 priority
                                 width={0}
@@ -249,7 +249,7 @@ export default function Page() {
                         <div className="hidden lg:block w-full h-[980px] lg:h-[670px] xl:h-[1150px] 2xl:h-[1000px] 3xl:h-[950px]">
                             <Image
                                 src="/images/industry/travel-transporation/industry-focused-desk-img.webp"
-                                alt="industry-focused mobile image"
+                                alt={t('industryFocusAlt')}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -336,7 +336,7 @@ export default function Page() {
                     <div className="hidden md:block h-full">
                         <Image
                             src="/images/industry/travel-transporation/personalized-img-desk1.webp"
-                            alt="personalized desktop background"
+                            alt={t('personalizedAlt')}
                             width={0}
                             height={0}
                             className="h-full w-full"
@@ -348,7 +348,7 @@ export default function Page() {
                     <div className="block md:hidden h-full">
                         <Image
                             src="/images/industry/travel-transporation/Mobile/personalized-img-mob.webp"
-                            alt="personalized mobile background"
+                            alt={t('personalizedAlt')}
                             className="h-full w-full"
                             priority
                             width={0}
@@ -382,7 +382,7 @@ export default function Page() {
                         <div className="block md:hidden w-full h-full">
                             <Image
                                 src="/images/industry/travel-transporation/Mobile/optimize-asset-mob-img.webp"
-                                alt="mobile background"
+                                alt={t('optimizeAlt')}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -393,7 +393,7 @@ export default function Page() {
                         <div className="hidden md:block w-full 3xl:h-[950px] 2xl:h-[1050px] xl:h-[1070px] lg:h-[700px] md:h-[750px]">
                             <Image
                                 src="/images/industry/travel-transporation/optimize-asset-desk-img.webp"
-                                alt="mobile background"
+                                alt={t('optimizeAlt')}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -451,7 +451,7 @@ export default function Page() {
                             <div className="block md:hidden w-full h-full px-[36px] relative z-20">
                                 <Image
                                     src="/images/industry/travel-transporation/Mobile/driving-repeat-mob-img.webp"
-                                    alt="driving-repeat mobile background"
+                                    alt={t('drivingReapeatAlt')}
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
@@ -463,7 +463,7 @@ export default function Page() {
                             <div className="hidden md:flex w-full items-center z-20">
                                 <Image
                                     src="/images/industry/travel-transporation/driving-repeat-desk-img.webp"
-                                    alt="driving-repeat mobile background"
+                                    alt={t('drivingReapeatAlt')}
                                     className="w-full h-[80%] py-auto object-cover"
                                     width={0}
                                     height={0}
@@ -483,7 +483,7 @@ export default function Page() {
                                 <div className="block md:hidden w-full h-full">
                                     <Image
                                         src="/images/industry/travel-transporation/Mobile/flawless-backend-mob-img.webp"
-                                        alt="flawless-backend mobile background"
+                                        alt={t('flawlessAlt')}
                                         className="w-full h-full object-cover"
                                         width={0}
                                         height={0}
@@ -495,7 +495,7 @@ export default function Page() {
                                 <div className="hidden md:block w-full h-full">
                                     <Image
                                         src="/images/industry/travel-transporation/flawless-backend-desk-img.webp"
-                                        alt="flawless-backend mobile background"
+                                        alt={t('flawlessAlt')}
                                         className="w-full h-full object-cover"
                                         width={0}
                                         height={0}
@@ -549,7 +549,7 @@ export default function Page() {
                     <div className="block md:hidden w-full h-full">
                         <Image
                             src="/images/industry/travel-transporation/Mobile/right-technology-mob-img.webp"
-                            alt="right-technology mobile background"
+                            alt={t('rightTechPartAlt')}
                             className="w-full h-full object-cover"
                             width={0}
                             height={0}
@@ -560,7 +560,7 @@ export default function Page() {
                     <div className="hidden md:block w-full h-full">
                         <Image
                             src="/images/industry/travel-transporation/right-technology-desk-img.webp"
-                            alt="right-technology mobile background"
+                            alt={t('rightTechPartAlt')}
                             className="w-full h-full object-cover"
                             width={0}
                             height={0}
@@ -607,7 +607,7 @@ export default function Page() {
 
                                 <Image
                                     src="/images/industry/travel-transporation/Mobile/ai-powered-mob-img.webp"
-                                    alt="mobile background"
+                                    alt={t('aiPoweredAlt')}
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
@@ -618,7 +618,7 @@ export default function Page() {
                             <div className="hidden md:block w-full h-full">
                                 <Image
                                     src="/images/industry/travel-transporation/ai-powered-desk-img.webp"
-                                    alt="mobile background"
+                                    alt={t('aiPoweredAlt')}
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
@@ -654,7 +654,7 @@ export default function Page() {
                             <div className="block lg:hidden w-full h-full">
                                 <Image
                                     src="/images/industry/travel-transporation/Mobile/quick-commerce-mob-img.webp"
-                                    alt="quick-commerce mobile background"
+                                    alt={t('quikCommerceAlt')}
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
@@ -665,7 +665,7 @@ export default function Page() {
                             <div className="hidden lg:block w-full h-full">
                                 <Image
                                     src="/images/industry/travel-transporation/quick-commerce-desk-img.webp"
-                                    alt="quick-commerce mobile background"
+                                    alt={t('quikCommerceAlt')}
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
@@ -702,7 +702,7 @@ export default function Page() {
 
                                 <Image
                                     src="/images/industry/travel-transporation/Mobile/smarter-service-mob-img.webp"
-                                    alt="smarter-service mobile background"
+                                    alt={t('smaterServiceAlt')}
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}
@@ -713,7 +713,7 @@ export default function Page() {
                             <div className="hidden md:block">
                                 <Image
                                     src="/images/industry/travel-transporation/smarter-service-desk-img.webp"
-                                    alt="smarter-service mobile background"
+                                    alt={t('smaterServiceAlt')}
                                     className="w-full h-full object-cover"
                                     width={0}
                                     height={0}

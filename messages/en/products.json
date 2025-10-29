@@ -1,21 +1,21 @@
 {
     "agentChat": {
-        "bannerAlt":"Professional using AgentChat for WhatsApp integration with Salesforce on smartphone displaying seamless messaging platform",
-        "svgAlt":"AgentChat logo with blue and green speech bubble icon representing customer communication and messaging platform",
-        "whyAlt":"WhatsApp business chat interface on smartphone showing customer conversation messages and notifications on green screen",
-        "handAlt":"Hand pointing finger icon with emphasis lines representing user interaction, selection, or call-to-action gesture",
-        "fastAlt":"Stopwatch icon with speed lines representing fast response time and quick performance in business operations",
-        "supportAlt":"Chat bubbles with asterisk icon representing customer support conversation and real-time messaging communication",
-        "taskAlt":"Three team members with checkmarks above representing completed tasks, approved workflow, and successful collaboration",
-        "stepOne":"Step one arrow icon in orange representing first stage of AgentChat installation and setup process",
-        "stepTwo":"Step two arrow icon in orange representing WhatsApp Business Account connection phase in setup workflow",
-        "stepThree":"Step three arrow icon in orange representing Salesforce record mapping phase for Cases, Leads, and Work Orders",
-        "stepFour":"Step four arrow icon in orange representing team roles and permissions configuration phase in setup process",
-        "stepFive":"Step five arrow icon in orange representing final stage to start chatting directly from Salesforce platform",
-        "trainAlt":"Developer presenting code on screen icon representing technical training, programming tutorial, and software development",
-        "startAlt":"White link chain icon with text Get Started Now on blue background representing quick onboarding and immediate action button",
-        "SupportAlt":"White phone receiver icon with text Contact Us on blue background representing customer support and communication channel",
-        "demoAlt":"White calendar icon with checkmark and text Schedule demo on blue background representing appointment booking and product demo",
+        "bannerAlt": "Professional using AgentChat for WhatsApp integration with Salesforce on smartphone displaying seamless messaging platform",
+        "svgAlt": "AgentChat logo with blue and green speech bubble icon representing customer communication and messaging platform",
+        "whyAlt": "WhatsApp business chat interface on smartphone showing customer conversation messages and notifications on green screen",
+        "handAlt": "Hand pointing finger icon with emphasis lines representing user interaction, selection, or call-to-action gesture",
+        "fastAlt": "Stopwatch icon with speed lines representing fast response time and quick performance in business operations",
+        "supportAlt": "Chat bubbles with asterisk icon representing customer support conversation and real-time messaging communication",
+        "taskAlt": "Three team members with checkmarks above representing completed tasks, approved workflow, and successful collaboration",
+        "stepOne": "Step one arrow icon in orange representing first stage of AgentChat installation and setup process",
+        "stepTwo": "Step two arrow icon in orange representing WhatsApp Business Account connection phase in setup workflow",
+        "stepThree": "Step three arrow icon in orange representing Salesforce record mapping phase for Cases, Leads, and Work Orders",
+        "stepFour": "Step four arrow icon in orange representing team roles and permissions configuration phase in setup process",
+        "stepFive": "Step five arrow icon in orange representing final stage to start chatting directly from Salesforce platform",
+        "trainAlt": "Developer presenting code on screen icon representing technical training, programming tutorial, and software development",
+        "startAlt": "White link chain icon with text Get Started Now on blue background representing quick onboarding and immediate action button",
+        "SupportAlt": "White phone receiver icon with text Contact Us on blue background representing customer support and communication channel",
+        "demoAlt": "White calendar icon with checkmark and text Schedule demo on blue background representing appointment booking and product demo",
         "headerTitle": "Introducing",
         "seoTitle": "AgentChat: Salesforce WhatsApp Integration Made Easy | Rialtes",
         "seoDescription": "AgentChat enables WhatsApp integration with Salesforce, reducing silos and enhancing team collaboration for stronger customer engagement and higher ROI.",
@@ -418,6 +418,8 @@
         "trustedTitle": "Trusted Infrastructure for the Real Estate Enterprise"
     },
     "mediaina": {
+        "mediainaLogoAlt": "Logo for MediAlna featuring a stylized human figure with raised arms and the brand name in modern dark blue font.",
+        "lifeAIPlusAlt": "Illustration representing LifeAI+ consulting suite for intelligent, scalable healthcare transformation.",
         "seoTitle": "MediAIna - Redefining Patient Journey Mapping in Healthcare",
         "seoDescription": "MediAIna puts patients at the center by mapping every care moment with Salesforce Cloud and Rialtes' LifeAI+ to enable truly connected, human-first healthcare.",
         "rialtesBenefits": [
@@ -462,7 +464,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/patient-desktop.webp",
                 "mobImg": "/images/products/mediyana/desktop/patient-desktop.webp",
-                "imgAlt": "",
+                "imgAlt": "Visual showing AI-powered patient identification and segmentation for targeted therapies and trials.",
                 "bgColor": "#CCF7F5"
             },
             {
@@ -480,7 +482,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/candidate.webp",
                 "mobImg": "/images/products/mediyana/mobile/candidate.webp",
-                "imgAlt": "",
+                "imgAlt": "Image illustrating personalized digital education for patients to support therapy adoption.",
                 "bgColor": "#C6E7FF"
             },
             {
@@ -498,7 +500,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/digital.webp",
                 "mobImg": "/images/products/mediyana/mobile/digital.webp",
-                "imgAlt": "",
+                "imgAlt": "Graphic showing automated prior authorization workflows to reduce treatment delays.",
                 "bgColor": "#EDEDED"
             },
             {
@@ -516,7 +518,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/clinical.webp",
                 "mobImg": "/images/products/mediyana/mobile/clinical.webp",
-                "imgAlt": "",
+                "imgAlt": "Visual representing AI-powered matching of patients to relevant clinical trials.",
                 "bgColor": "#CCF7F5"
             },
             {
@@ -534,7 +536,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/long.webp",
                 "mobImg": "/images/products/mediyana/mobile/long.webp",
-                "imgAlt": "",
+                "imgAlt": "Image representing connected long-term care management for ongoing patient support.",
                 "bgColor": "#C6E7FF"
             },
             {
@@ -552,7 +554,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/body.webp",
                 "mobImg": "/images/products/mediyana/mobile/body.webp",
-                "imgAlt": "",
+                "imgAlt": "Graphic illustrating AI-driven mapping of patient journeys across touchpoints and care stages.",
                 "bgColor": "#EDEDED"
             },
             {
@@ -570,7 +572,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/conversational.webp",
                 "mobImg": "/images/products/mediyana/mobile/conver.webp",
-                "imgAlt": "",
+                "imgAlt": "Visual showing natural language queries and automated insights powered by Agentforce.",
                 "bgColor": "#CCF7F5"
             },
             {
@@ -588,7 +590,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/unified.webp",
                 "mobImg": "/images/products/mediyana/mobile/unified.webp",
-                "imgAlt": "",
+                "imgAlt": "Graphic representing a unified data platform for providers, payers, trials, and patients.",
                 "bgColor": "#C6E7FF"
             },
             {
@@ -606,7 +608,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/seamless.webp",
                 "mobImg": "/images/products/mediyana/mobile/seamless.webp",
-                "imgAlt": "",
+                "imgAlt": "Image showing API-led integration across EHR, CRM, and ERP systems with FHIR and HL7 compliance.",
                 "bgColor": "#EDEDED"
             },
             {
@@ -624,7 +626,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/real.webp",
                 "mobImg": "/images/products/mediyana/mobile/real.webp",
-                "imgAlt": "",
+                "imgAlt": "Visual of HIPAA-compliant intelligent chat for patient and staff communication.",
                 "bgColor": "#CCF7F5"
             },
             {
@@ -642,7 +644,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/order.webp",
                 "mobImg": "/images/products/mediyana/mobile/order.webp",
-                "imgAlt": "",
+                "imgAlt": "Image showing real-time inventory visibility and SAP integration for hospital logistics.",
                 "bgColor": "#C6E7FF"
             },
             {
@@ -662,7 +664,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/trusted.webp",
                 "mobImg": "/images/products/mediyana/mobile/trusted.webp",
-                "imgAlt": "",
+                "imgAlt": "Image showing digital tools for monitoring patient adherence to prescribed therapies.",
                 "bgColor": "#EDEDED"
             }
         ],

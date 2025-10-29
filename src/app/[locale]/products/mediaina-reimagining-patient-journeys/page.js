@@ -189,8 +189,8 @@ export default function Page() {
                             </div>
                             <div className="xl:col-span-4 col-span-12">
                                 <Image
-                                    src="/images/products/mediyana/desktop/logo-1.svg"
-                                    alt="Empower your enterprise with Rialtes"
+                                    src="/images/products/mediyana/desktop/logo-1medialna-logo-primary.svg"
+                                    alt={t('mediainaLogoAlt')}
                                     priority
                                     className="xl:w-[500px]  xl:h-[233] h-[150px] w-[225px] md:h-[200px] md:w-[300px] xl:mt-[-20px]"
                                     width={0}
@@ -228,8 +228,8 @@ export default function Page() {
                     <div className="w-full h-full relative  order-1 xl:order-2">
                         <div className="xl:block hidden 4xl:ml-[-200px] 4xl:mt-[9rem] 2xl:ml-[-100px] xl:mt-[12rem] xl:ml-[-100px] 2xl:mt-[12rem]">
                             <Image
-                                src="/images/products/mediyana/desktop/lifeai.webp"
-                                alt="LifeAI Illustration"
+                                src="/images/products/mediyana/desktop/mediaina-lifeai-illustration.webp"
+                                alt={t('lifeAIPlusAlt')}
                                 className="object-cover w-full h-full 4xl:h-[814px] 2xl:h-[800px] xl:h-[900px]"
                                 priority
                                 width={0}
@@ -238,8 +238,8 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/lifeai.webp"
-                                alt="LifeAI Illustration"
+                                src="/images/products/mediyana/mobile/mediaina-lifeai-illustration-mobile.webp"
+                                alt={t('lifeAIPlusAlt')}
                                 className="object-cover w-full h-full"
                                 priority
                                 width={0}
@@ -306,7 +306,7 @@ export default function Page() {
                                         <div className="xl:block hidden  xl:mt-[80px] 4xl:mt-[120px] xl:ml-[-120px] 4xl:ml-[-180px] relative z-20 h-full">
                                             <Image
                                                 src={data.deskImg}
-                                                alt="desktop Image"
+                                                alt={data.imgAlt}
                                                 className={`w-full object-cover h-full  xl:h-[760px] xl:w-[900px] 4xl:w-[600px] ${(ind == 0 || ind == 4 || ind == 6 || ind == 8) ? "4xl:h-[660px]" : "4xl:h-[750px]"}`}
                                                 width={0}
                                                 height={0}
@@ -318,7 +318,7 @@ export default function Page() {
                                         <div className="xl:hidden block relative z-20">
                                             <Image
                                                 src={data.mobImg}
-                                                alt="Mobile Img"
+                                                alt={data.imgAlt}
                                                 className="h-full w-full object-cover max-xl:px-[36px] md:w-[80%] max-lg:mx-auto"
                                                 width={0}
                                                 height={0}
@@ -336,7 +336,7 @@ export default function Page() {
                                         <div className="xl:block hidden xl:mt-[-80px] xl:mr-[-120px] 4xl:mr-[-180px] relative z-20 h-full">
                                             <Image
                                                 src={data.deskImg}
-                                                alt="desktop Image"
+                                                alt={data.imgAlt}
                                                 className="w-full object-cover h-full 4xl:h-[720px] xl:h-[680px] xl:w-[900px] 4xl:w-[600px]"
                                                 width={0}
                                                 height={0}
@@ -348,7 +348,7 @@ export default function Page() {
                                         <div className="xl:hidden block relative z-20">
                                             <Image
                                                 src={data.mobImg}
-                                                alt="Mobile Img"
+                                                alt={data.imgAlt}
                                                 className="h-full w-full object-cover max-xl:px-[36px] md:w-[80%] max-lg:mx-auto"
                                                 width={0}
                                                 height={0}
