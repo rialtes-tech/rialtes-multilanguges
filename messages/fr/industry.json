@@ -116,6 +116,7 @@
         "headerTitle": "Gérez vos processus immobiliers avec un logiciel de gestion de biens basé sur le cloud",
         "seoTitle": "Révolutionner la Gestion Immobilière pour le Secteur de l’Immobilier | Rialtes",
         "seoDescription": "L’avenir de la gestion immobilière est là : automatisez vos locations, réduisez les vacances et améliorez le ROI avec un logiciel dédié.",
+        "bannerAlt": "Main d'architecte pointant maquette de ville miniature blanche avec gratte-ciels représentant planification urbaine et développement immobilier",
         "headerSubTitle": "IMMOBILIER",
         "realTitle": "Logiciel de gestion immobilière abordable pour vos opérations",
         "realDescOne": "Le marché immobilier est dynamique et imprévisible – mais votre entreprise ne doit pas l'être. Avec les bons outils et stratégies, les entreprises immobilières peuvent connaître une croissance constante d'année en année tout en dépassant les attentes des clients.",
@@ -131,8 +132,9 @@
         "growLatestServices": [
             {
                 "id": 1,
-                "image": "/images/industry/real-estate/AdobeStock_493889513 copy.webp",
+                "image": "/images/industry/real-estate/hands-typing-laptop-digital-files-data-management.webp",
                 "title": "Opérations centralisées : la solution tout-en-un",
+                "alt": "Mains tapant sur ordinateur portable avec superposition d'icônes de fichiers numériques représentant gestion de données et stockage cloud",
                 "description": "Imaginez gérer toutes vos données immobilières, des contrats de location aux plannings de maintenance, en un seul endroit. RealForce offre des opérations centralisées pour une expérience de gestion simplifiée grâce à nos solutions en ligne.",
                 "productsDetails": [
                     "Génération automatique des contrats",
@@ -142,7 +144,8 @@
             },
             {
                 "id": 2,
-                "image": "/images/industry/real-estate/AdobeStock_519184506 copy.webp",
+                "image": "/images/industry/real-estate/hand-stylus-tablet-holographic-data-analytics.webp",
+                "alt": "Main utilisant stylet sur tablette avec graphiques de données holographiques et carte mondiale représentant analytique commerciale et technologie numérique",
                 "title": "Accessibilité multi-plateformes : gérez en déplacement",
                 "description": "Notre système de gestion immobilière en ligne vous permet d'accéder à votre tableau de bord de gestion où que vous soyez, faisant de nous un leader parmi les logiciels de gestion immobilière aux États-Unis.",
                 "productsDetails": [
@@ -153,7 +156,8 @@
             },
             {
                 "id": 3,
-                "image": "/images/industry/real-estate/AdobeStock_921769044 copy.webp",
+                "image": "/images/industry/real-estate/hands-interacting-holographic-dashboard-data-visualization.webp",
+                "alt": "Mains interagissant avec écrans holographiques de tableau de bord montrant graphiques de données et analytique sur ordinateur portable représentant intelligence d'affaires",
                 "title": "Analyse complète : prenez des décisions éclairées",
                 "description": "Nous nous distinguons parmi les meilleurs logiciels de gestion immobilière en offrant la plateforme d'analyse n°1 pour améliorer vos performances, des revenus aux taux de vacance.",
                 "productsDetails": [
@@ -164,7 +168,8 @@
             },
             {
                 "id": 4,
-                "image": "/images/industry/real-estate/AdobeStock_1029847777 copy.webp",
+                "image": "/images/industry/real-estate/accountant-using-calculator-financial-reports-laptop.webp",
+                "alt": "Personne utilisant calculatrice avec rapports financiers et ordinateur portable affichant graphiques colorés représentant travail de comptabilité et analyse budgétaire",
                 "title": "Clarté financière : comptabilité simplifiée",
                 "description": "Notre logiciel est le choix incontournable pour les agents immobiliers recherchant des rapports financiers détaillés et des fonctionnalités de facturation. Simplifiez votre processus budgétaire avec la plateforme cloud n°1 au monde.",
                 "productsDetails": [
@@ -210,7 +215,8 @@
         "slides": [
             {
                 "id": 1,
-                "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
+                "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
+                "alt": "Trois professionnels d'affaires dans bureau moderne discutant plans pendant qu'un pointe mur représentant planification d'espace de travail et collaboration",
                 "title": "Module bancaire RealForce - ACH",
                 "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l'investissement dans des propriétés multifamiliales.",
                 "url": "/insights/case-studies/realForce-banking-module-ach"
@@ -218,7 +224,8 @@
             {
                 "id": 2,
                 "url": "/insights/case-studies/yardi-managed-services",
-                "imgSrc": "/images/case-studies/case-study-6_thumb.webp",
+                "alt": "Paysage urbain abstrait 3D avec barres dégradées colorées en rose, bleu et orange représentant visualisation de données et analytique urbaine",
+                "imgSrc": "/images/case-studies/abstract-colorful-city-skyline-data-visualization.webp",
                 "title": "Services gérés Yardi",
                 "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l'investissement dans des propriétés multifamiliales."
             }
@@ -1461,20 +1468,20 @@
         "learnMoreBtn": "En savoir plus"
     },
     "manufacturing": {
-        "bannerAlt":"Turbines industrielles et tuyaux connectés dans installation bleue représentant intégration MuleSoft et connectivité",
-        "thoughtAlt":"Ingénieur avec tablette visualisant tableaux de bord holographiques et flux lumineux bleus dans usine intelligente digitale",
-        "endAlt":"Ingénieure avec casque jaune et gilet de sécurité utilisant tablette lors d'inspection d'installation industrielle moderne",
-        "preAlt":"Paysage urbain numérique avec rayons lumineux bleus et oranges jaillissant de l'horizon sur sol technologique futuriste grillé",
-        "enginerAlt":"Ingénieur en gants bleus utilisant machine de précision tenant composant métallique sur pièces industrielles en usine moderne",
-        "manAlt":"Chaîne de production pharmaceutique automatisée avec distributeurs de précision remplissant flacons de liquide orange lumineux",
-        "dataAlt":"Deux ingénieures en gilets de sécurité analysant données techniques et modèles 3D sur écrans en salle de contrôle industriel",
-        "roboticAlt":"Bras robotiques orange assemblant châssis de batterie de véhicule électrique sur chaîne de production automatisée moderne",
-        "shopAlt":"Deux contrôleurs qualité en équipement de protection inspectant contenants métalliques avec presse-papiers en usine stérile",
-        "cloudAlt":"Professionnel informatique analysant tableau de bord cybersécurité avec graphiques de données et icônes cadenas sur écran",
-        "erpAlt":"Deux ingénieurs en énergie renouvelable avec gilets de sécurité et casques inspectant éolienne avec ordinateur portable en parc",
-        "demandAlt":"Deux employés d'entrepôt en gilets jaunes de sécurité et casques marchant dans centre de distribution moderne avec hauts rayonnages",
-        "aiAlt":"Chemin de réseau numérique avec points de données lumineux menant à installation industrielle et éoliennes en paysage vert durable",
-        "powerAlt":"Ampoule néon lumineuse avec ondes d'énergie bleu électrique et rose montant illustrant concept d'innovation et pouvoir créatif",
+        "bannerAlt": "Turbines industrielles et tuyaux connectés dans installation bleue représentant intégration MuleSoft et connectivité",
+        "thoughtAlt": "Ingénieur avec tablette visualisant tableaux de bord holographiques et flux lumineux bleus dans usine intelligente digitale",
+        "endAlt": "Ingénieure avec casque jaune et gilet de sécurité utilisant tablette lors d'inspection d'installation industrielle moderne",
+        "preAlt": "Paysage urbain numérique avec rayons lumineux bleus et oranges jaillissant de l'horizon sur sol technologique futuriste grillé",
+        "enginerAlt": "Ingénieur en gants bleus utilisant machine de précision tenant composant métallique sur pièces industrielles en usine moderne",
+        "manAlt": "Chaîne de production pharmaceutique automatisée avec distributeurs de précision remplissant flacons de liquide orange lumineux",
+        "dataAlt": "Deux ingénieures en gilets de sécurité analysant données techniques et modèles 3D sur écrans en salle de contrôle industriel",
+        "roboticAlt": "Bras robotiques orange assemblant châssis de batterie de véhicule électrique sur chaîne de production automatisée moderne",
+        "shopAlt": "Deux contrôleurs qualité en équipement de protection inspectant contenants métalliques avec presse-papiers en usine stérile",
+        "cloudAlt": "Professionnel informatique analysant tableau de bord cybersécurité avec graphiques de données et icônes cadenas sur écran",
+        "erpAlt": "Deux ingénieurs en énergie renouvelable avec gilets de sécurité et casques inspectant éolienne avec ordinateur portable en parc",
+        "demandAlt": "Deux employés d'entrepôt en gilets jaunes de sécurité et casques marchant dans centre de distribution moderne avec hauts rayonnages",
+        "aiAlt": "Chemin de réseau numérique avec points de données lumineux menant à installation industrielle et éoliennes en paysage vert durable",
+        "powerAlt": "Ampoule néon lumineuse avec ondes d'énergie bleu électrique et rose montant illustrant concept d'innovation et pouvoir créatif",
         "headerTitle": "Fabrication",
         "seoTitle": "Solutions IT et ERP Cloud pour l’Industrie Manufacturière | Rialtes",
         "seoDescription": "Rialtes fournit des solutions IT et ERP cloud pour l’industrie, afin de stimuler efficacité, innovation et transformation numérique à grande échelle.",

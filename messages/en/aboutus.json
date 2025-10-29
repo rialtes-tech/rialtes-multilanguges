@@ -182,6 +182,13 @@
     "impactTitle": "Social Impact",
     "seoTitle": "Driving Sustainability with Responsible AI | Rialtes",
     "seoDescription": "Rialtes redefines corporate citizenship with sustainable AI, ESG innovation, talent upskilling, and social impact to build a smarter, inclusive future.",
+    "bannerAlt": "Hand holding digital network globe over green nature background representing environmental sustainability and global conservation concept",
+    "innovationAlt": "Hands cradling paper brain with colorful puzzle pieces on mint background representing autism awareness and mental health support",
+    "esgAlt": "Scenic winding road along tranquil blue lake surrounded by lush green trees and mountains representing peaceful nature travel journey",
+    "aiAlt": "Two software developers collaborating on laptop in modern office with whiteboard and sticky notes representing teamwork and coding project",
+    "revenueAlt": "Diverse group of hands stacked together outdoors with green nature background representing teamwork, unity, and community collaboration",
+    "plantAlt": "Hands planting a young green seedling in soil, symbolizing growth and sustainability",
+    "profesAlt": "Professional giving a presentation with data charts and graphs on a large screen, representing analytics and business insights",
     "impactSubtitle": "Sustainability with",
     "impactSubtitleOne": "Responsible AI",
     "rialtesTitle": "Rialtes has been empowering customers across the world to trust AI and strengthen the philosophy of responsible AI.",
@@ -208,6 +215,7 @@
   },
   "globalAlliance": {
     "headerTitle": "Our Partners",
+    "bannerAlt": "Digital handshake with glowing blue particles and network connections symbolizing business partnership and technology innovation ",
     "seoTitle": "Our Strategic Partners – Empowering Success with Rialtes",
     "seoDescription": "Rialtes partners with top IT and SaaS companies to deliver innovative solutions. Explore our trusted network of collaborators driving business success.",
     "headerSubTitle": "Global Alliances",
@@ -219,32 +227,32 @@
     "allTitle": "All Partnerships",
     "approachData": [
       {
-        "src": "/images/partners/our1.png",
-        "alt": "Leadership Team",
+        "src": "/images/partners/team-management-gear-icon.png",
+        "alt": "Three people figures with gear icon representing team management, workforce collaboration, and organizational structure concept",
         "texts": [
           "Strategic",
           "orchestration"
         ]
       },
       {
-        "src": "/images/partners/our2.png",
-        "alt": "Leadership Team",
+        "src": "/images/partners/user-profile-settings-gear.png",
+        "alt": "User profile icon surrounded by gear symbols representing account settings, user configuration, and system customization features",
         "texts": [
           "Client-first",
           "customization"
         ]
       },
       {
-        "src": "/images/partners/our3.png",
-        "alt": "Leadership Team",
+        "src": "/images/partners/hand-holding-location-pin.png",
+        "alt": "Hand holding location pin marker representing geolocation services, local business support, and place-based solutions concept",
         "texts": [
           "Industry-specific",
           "solutions"
         ]
       },
       {
-        "src": "/images/partners/our4.png",
-        "alt": "Leadership Team",
+        "src": "/images/partners/global-handshake-partnership-icon.png",
+        "alt": "Handshake with globe icon representing global business partnership, international collaboration, and worldwide network connection",
         "texts": [
           "Vendor-agnostic",
           "partnerships"

@@ -115,6 +115,7 @@
   "realEstate": {
     "seoTitle": "Revolutionizing Property Management for Real Estate Industry | Rialtes",
     "seoDescription": "The future of property management for real estate industry is here. Automate leasing, reduce vacancies, and improve ROI with purpose-built software.",
+    "bannerAlt": "Architect's hand pointing at white miniature city model with skyscrapers representing urban planning and real estate development",
     "headerTitle": "Manage real estate processes with cloud-based property management software",
     "headerSubTitle": "REAL ESTATE ",
     "realTitle": "Affordable property management software for your real estate operations",
@@ -131,8 +132,9 @@
     "growLatestServices": [
       {
         "id": 1,
-        "image": "/images/industry/real-estate/AdobeStock_493889513 copy.webp",
+        "image": "/images/industry/real-estate/hands-typing-laptop-digital-files-data-management.webp",
         "title": "Centralized Operations: The One-Stop Solution",
+        "alt": "Hands typing on laptop with digital file icons overlay representing data management, document organization, and cloud storage",
         "description": "Imagine managing all your property data, from rental agreements to maintenance schedules in one place. RealForce provides centralized operations for a streamlined management experience via our online rental property management efficiencies.",
         "productsDetails": [
           "Automatic agreement generation",
@@ -142,8 +144,9 @@
       },
       {
         "id": 2,
-        "image": "/images/industry/real-estate/AdobeStock_519184506 copy.webp",
+        "image": "/images/industry/real-estate/hand-stylus-tablet-holographic-data-analytics.webp",
         "title": "Multi-Platform Accessibility: Manage On-The-Go",
+        "alt": "Hand using stylus on tablet with holographic data charts and world map overlay representing business analytics and digital technology",
         "description": "Our online property management system ensures you can access your management dashboard wherever you are, making us a leader among property management software companies in the USA.",
         "productsDetails": [
           "Mobile reports and dashboards",
@@ -153,7 +156,8 @@
       },
       {
         "id": 3,
-        "image": "/images/industry/real-estate/AdobeStock_921769044 copy.webp",
+        "image": "/images/industry/real-estate/hands-interacting-holographic-dashboard-data-visualization.webp",
+        "alt": "Hands interacting with holographic dashboard screens showing data charts and analytics over laptop representing business intelligence",
         "title": "Comprehensive Analytics: Make Informed Decisions",
         "description": "We stand out among top property management software companies by providing the #1 analytics platform to improve your numbers, from revenue to vacancies.",
         "productsDetails": [
@@ -164,7 +168,8 @@
       },
       {
         "id": 4,
-        "image": "/images/industry/real-estate/AdobeStock_1029847777 copy.webp",
+        "image": "/images/industry/real-estate/accountant-using-calculator-financial-reports-laptop.webp",
+        "alt": "Person using calculator with financial reports and laptop displaying colorful charts representing accounting and budget analysis work",
         "title": "Financial Clarity: Accounting Made Easy",
         "description": "Our software is the go-to accounting software for realtors looking for detailed financial reports and invoicing capabilities. Simplify your budgeting process with the world’s #1 cloud platform.",
         "productsDetails": [
@@ -210,7 +215,8 @@
     "slides": [
       {
         "id": 1,
-        "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
+        "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
+        "alt": "Three business professionals in modern office discussing plans while one points at wall representing workspace planning and collaboration",
         "title": "RealForce Banking Module - ACH",
         "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
         "url": "/insights/case-studies/realForce-banking-module-ach"
@@ -218,7 +224,8 @@
       {
         "id": 2,
         "url": "/insights/case-studies/yardi-managed-services",
-        "imgSrc": "/images/case-studies/case-study-6_thumb.webp",
+        "imgSrc": "/images/case-studies/abstract-colorful-city-skyline-data-visualization.webp",
+        "alt": "Abstract 3D cityscape with colorful gradient bars in pink, blue, and orange representing data visualization and urban analytics concept",
         "title": "Yardi Managed Services",
         "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
       }
@@ -1460,20 +1467,20 @@
     "contactSubtitleOne": "Contact us today for a free consultation and explore how we can empower your connected enterprise!"
   },
   "manufacturing": {
-    "bannerAlt":"Industrial turbines and connected pipelines in blue-lit facility representing MuleSoft integration and data connectivity",
-    "thoughtAlt":"Engineer with tablet viewing holographic data dashboards and blue light streams in smart factory showing digital transformation",
-    "endAlt":"Female engineer in yellow hard hat and safety vest using tablet while inspecting industrial facility with metallic structures",
-    "preAlt":"Digital cityscape with glowing blue and orange light rays bursting from horizon over futuristic grid technology floor",
-    "enginerAlt":"Engineer in blue gloves operating precision machinery holding metal component over industrial parts in manufacturing facility",
-    "manAlt":"Automated pharmaceutical production line with precision dispensers filling vials with glowing orange liquid in modern facility",
-    "dataAlt":"Two female engineers in safety vests analyzing technical data and 3D models on computer screens in manufacturing control room",
-    "roboticAlt":"Orange robotic arms assembling electric vehicle battery chassis on automated production line in modern manufacturing facility",
-    "shopAlt":"Two quality control workers in protective gear inspecting metal containers with clipboard in sterile food processing facility",
-    "cloudAlt":"IT professional analyzing cybersecurity dashboard with data visualization charts and lock icons on digital screen at night",
-    "erpAlt":"Two renewable energy engineers in safety vests and helmets inspecting wind turbine with laptop at wind farm under blue sky",
-    "demandAlt":"Two warehouse workers in yellow safety vests and helmets walking through modern distribution center with tall storage racks",
-    "aiAlt":"Digital grid pathway with glowing data points leading to industrial facility and wind turbines in green sustainable landscape",
-    "powerAlt":"Glowing neon light bulb with electric blue and pink energy waves flowing upward showing innovation and creative power concept",
+    "bannerAlt": "Industrial turbines and connected pipelines in blue-lit facility representing MuleSoft integration and data connectivity",
+    "thoughtAlt": "Engineer with tablet viewing holographic data dashboards and blue light streams in smart factory showing digital transformation",
+    "endAlt": "Female engineer in yellow hard hat and safety vest using tablet while inspecting industrial facility with metallic structures",
+    "preAlt": "Digital cityscape with glowing blue and orange light rays bursting from horizon over futuristic grid technology floor",
+    "enginerAlt": "Engineer in blue gloves operating precision machinery holding metal component over industrial parts in manufacturing facility",
+    "manAlt": "Automated pharmaceutical production line with precision dispensers filling vials with glowing orange liquid in modern facility",
+    "dataAlt": "Two female engineers in safety vests analyzing technical data and 3D models on computer screens in manufacturing control room",
+    "roboticAlt": "Orange robotic arms assembling electric vehicle battery chassis on automated production line in modern manufacturing facility",
+    "shopAlt": "Two quality control workers in protective gear inspecting metal containers with clipboard in sterile food processing facility",
+    "cloudAlt": "IT professional analyzing cybersecurity dashboard with data visualization charts and lock icons on digital screen at night",
+    "erpAlt": "Two renewable energy engineers in safety vests and helmets inspecting wind turbine with laptop at wind farm under blue sky",
+    "demandAlt": "Two warehouse workers in yellow safety vests and helmets walking through modern distribution center with tall storage racks",
+    "aiAlt": "Digital grid pathway with glowing data points leading to industrial facility and wind turbines in green sustainable landscape",
+    "powerAlt": "Glowing neon light bulb with electric blue and pink energy waves flowing upward showing innovation and creative power concept",
     "seoTitle": "IT and Cloud ERP Solutions for Manufacturing Industry | Rialtes",
     "seoDescription": "Rialtes delivers expert IT and cloud ERP solutions for manufacturing businesses, helping drive efficiency, innovation, and digital transformation at scale.",
     "headerTitle": "Manufacturing",
