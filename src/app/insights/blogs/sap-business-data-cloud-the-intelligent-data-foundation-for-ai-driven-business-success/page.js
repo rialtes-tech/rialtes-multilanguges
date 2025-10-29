@@ -1,13 +1,12 @@
 "use client";
-// pages/blog-detail.js
-import Head from "next/head";
 import Image from "next/image";
-import BlogsCarousel from '../../../components/latestBlogCarousel';
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import Script from "next/script";
-const schemaData={
-    "@context": "https://schema.org",
+const schemaData = {
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -33,146 +32,9 @@ const schemaData={
   "articleSection": "SAP Data Cloud",
   "url": "https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/"
 }
-const blogs = [
-  {
-    id: 8,
-    image: "/images/blog/SAP Business cloud_Carousal.webp",
-    category: "General",
-    industry: "Generic",
-    date: "22 April 2025",
-    url: 'insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success',
-    title: "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
-    description: "Businesses increasingly rely on real-time data to drive decisions, optimize operations, and unlock AI-powered insights.",
-  },
-  {
-    id: 1,
-    image: "/images/blog/blog-1.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "30 Sept 2024",
-    url: 'insights/blogs/how-salesforce-agentforce-actually-works',
-    title: "How Salesforce Agentforce Actually Works",
-    description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-  },
-  {
-    id: 2,
-    image: "/images/blog/blog-2.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "21 Oct 2024",
-    url: 'insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce',
-    title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-    description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
-  },
-  {
-    id: 3,
-    image: "/images/blog/blog-3.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "28 Oct 2024",
-    url: 'insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters',
-    title: "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-    description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
-  },
-  {
-    id: 4,
-    image: "/images/blog/blog-4.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "25 Nov 2024",
-    url: 'insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data',
-    title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-    description: "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
-  },
-  {
-    id: 5,
-    image: "/images/blog/blog-5.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "24 Dec 2024",
-    url: 'insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration',
-    title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-    description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-  },
-  {
-    id: 6,
-    image: "/images/blog/blog-6.webp",
-    category: "Cloud Green Technology",
-    industry: "Agriculture",
-    date: "17 Sept 2024",
-    url: 'insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow',
-    title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-  },
-  // Add more blog objects as needed
-
-  /* {
-    id: 8,
-    image: "/images/blog/blog-88.webp",
-    category: "Integration",
-    industry: "Healthcare",
-    date: "11 Nov 2024",
-    title: "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
-    description: "Historical evidence strongly indicates that a healthcare industry fragmented by disparate systems results in operational inefficiencies, duplicative work, patient safety issues, and rising costs to manage an increasingly complex healthcare market.",
-  },
-  {
-    id: 9,
-    image: "/images/blog/blog-9.webp",
-    category: "Diversity & Inclusion",
-    industry: "Human Resources",
-    date: "12 Nov 2024",
-    title: "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
-    description: "Diversity, Equity, and Inclusion (DEI) are no longer optional components of a modern workplace; they are foundational pillars for innovation, employee engagement, and long-term organizational success.",
-  },
-  {
-    id: 10,
-    image: "/images/blog/blog-10.webp",
-    category: "SAP GTS",
-    industry: "Generic",
-    date: "19 Dec 2024",
-    title: "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
-    description: "Maintaining compliance with international trade regulations is a must. Companies engaged in cross-border trade must ensure that their transactions comply with government-imposed sanctions and export control laws.",
-  },
-  {
-    id: 11,
-    image: "/images/blog/blog-11.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "30 Dec 2024",
-    title: "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce",
-    description: "Agentforce agents do more than just gather data and insights—they provide fully customizable and independent AI functionalities that can link to any enterprise data and act on your behalf.",
-  },
-  {
-    id: 12,
-    image: "/images/blog/blog-12.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "13 Jan 2025",
-    title: "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
-    description: "Enterprise Resource Planning (ERP) systems are the backbone of many organizations, managing critical functions like finance, procurement, manufacturing, and supply chain operations. However, these systems often operate in silos, limiting their potential to provide real-time insights and seamless collaboration across departments.",
-  },
-  {
-    id: 13,
-    image: "/images/blog/blog-13.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "21 Jan 2025",
-    title: "How SAP SuccessFactors Enhances Remote Work Management",
-    description: "Remote work has rapidly transformed from a temporary solution to a need for many businesses worldwide. With businesses shifting towards remote work, operating a remote workforce can be challenging, particularly considering local dynamics and regulatory requirements.",
-  },
-  {
-    id: 14,
-    image: "/images/blog/blog-14.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "03 Feb 2025",
-    title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
-    description: "Agentforce was one of Salesforce’s major announcements last year. It introduced “AI agents,” marking a significant shift in its AI strategy. It embodies Salesforce’s vision for the Third Wave of AI by moving beyond the early, more assistive AI models to a generation of intelligent agents that are more accurate, reliable, and actively engaged in driving customer outcomes",
-  }, */
-  // Add more blog objects as needed
-];
 
 export default function Page() {
+  const currUrl = useUrl()
   const fullUrl = "https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success";
 
   return (
@@ -182,8 +44,8 @@ export default function Page() {
         description="SAP BDC simplifies data integration by enabling real-time access to trustworthy data, supporting AI-ready decision-making and business transformation."
         canonical={"https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/"}
       />
- 
-         <Script
+
+      <Script
         id="schema-nonprofit"
         type="application/ld+json"
         strategy="afterInteractive"
@@ -191,24 +53,24 @@ export default function Page() {
       />
 
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]   overflow-hidden">
-       <div className="hidden md:block">
-         <Image
-          src="/images/blog/sap-business-data-cloud.webp"
-          alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
-          fill
-          style={{ objectFit: "cover", objectPosition: "50% 20%" }}
-          priority
-        />
-       </div>
-       <div className="block md:hidden">
-         <Image
-          src="/images/blog/SAP Business cloud_Carousal.webp"
-          alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
-          fill
-          style={{ objectFit: "cover", objectPosition: "50% 20%" }}
-          priority
-        />
-       </div>
+        <div className="hidden md:block">
+          <Image
+            src="/images/blog/sap-business-data-cloud.webp"
+            alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
+            fill
+            style={{ objectFit: "cover", objectPosition: "50% 20%" }}
+            priority
+          />
+        </div>
+        <div className="block md:hidden">
+          <Image
+            src="/images/blog/SAP Business cloud_Carousal.webp"
+            alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
+            fill
+            style={{ objectFit: "cover", objectPosition: "50% 20%" }}
+            priority
+          />
+        </div>
       </section>
 
       <section
@@ -222,26 +84,26 @@ export default function Page() {
               <div className='sm:mb-0 mb-6'>
                 <span className='text-[#0092E0]'>General</span> <span className='text-[#ACACAC]'> | </span>22 April 2025
               </div>
-            <div className="flex flex-col">
-                           <div className="flex flex-row gap-6">
-                             <div className="max-w-[40px]">
-                               <a
-                                 href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                                 target="_blank"
-                                 rel="noopener noreferrer"
-                               >
-                                 <Image
-                                   src="/images/case-studies/linkedin.svg"
-                                   alt="LinkedIn"
-                                   width={0}
-                                   height={0}
-                                   sizes="100vw"
-                                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                   priority
-                                 />
-                               </a>
-                             </div>
-                             {/* <div className="max-w-[40px]">
+              <div className="flex flex-col">
+                <div className="flex flex-row gap-6">
+                  <div className="max-w-[40px]">
+                    <a
+                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Image
+                        src="/images/case-studies/linkedin.svg"
+                        alt="LinkedIn"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        priority
+                      />
+                    </a>
+                  </div>
+                  {/* <div className="max-w-[40px]">
                                <a
                                  href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(fullUrl)}`}
                                  target="_blank"
@@ -258,24 +120,24 @@ export default function Page() {
                                  />
                                </a>
                              </div> */}
-                             <div className="max-w-[40px]">
-                               <a
-                                 href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                                 target="_blank"
-                                 rel="noopener noreferrer"
-                               >                      <Image
-                                   src="/images/case-studies/twitter.svg"
-                                   alt="Twitter"
-                                   width={0}
-                                   height={0}
-                                   sizes="100vw"
-                                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                   priority
-                                 />
-                               </a>
-                             </div>
-                           </div>
-                         </div>
+                  <div className="max-w-[40px]">
+                    <a
+                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >                      <Image
+                        src="/images/case-studies/twitter.svg"
+                        alt="Twitter"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        priority
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="py-6"></div>
@@ -283,7 +145,7 @@ export default function Page() {
           <div className=" pl-0 ">
             <div className=" ">
               <h1 className="text-[#000000]   pb-6   leading-tight text-[26px] 4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px]  md:text-[28px]">SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success
-</h1>
+              </h1>
               <p className="text-black 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">On February 13th, 2025, <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://news.sap.com/2025/02/sap-business-data-cloud-databricks-turbocharge-business-ai/">SAP announced</Link> its new managed software-as-a-service, SAP Business Data Cloud (BDC). As of Q1 2025, BDC is in a controlled general availability phase, initially available to selected customers. This unified data management solution addresses key pain points and combines existing and new services from SAP and its partners. BDC acts as a context-aware data foundation for analytical and AI use cases, utilizing a cost-effective SAP-managed object store for data storage.</p>
               <p className="mt-3 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">BDC is an evolution of the business data fabric journey, with Datasphere and SAP Analytics Cloud as core components. The solution integrates various technologies to deliver curated data products, advanced analytics, benchmarking data, and AI-powered insights, utilizing applications like SAP Datasphere, SAP Business Warehouse, and SAP Analytics Cloud.</p>
               <h2 className="mt-8 font-medium text-[#0092E0] leading-tight 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px]">Understanding SAP Business Data Cloud</h2>
@@ -295,7 +157,7 @@ export default function Page() {
                 priority
                 className="!w-full !h-full !relative"
               />
-              
+
               <h2 className="mt-8 font-medium text-[#0092E0] leading-tight 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px]">What's New with SAP Business Data Cloud?</h2>
               <p className="mt-5 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">SAP is revitalizing its Data and Analytics (D&A) platform with BDC, which features enhanced functionality, openness, and adherence to industry standards compared to SAP BW. Unlike before, when transferring SAP data to an external data lakehouse meant losing semantics and business context, SAP BDC preserves these elements. This ensures that curated, consumable data sets can be effectively utilized in analytics, AI, and custom applications.</p>
               <p className="mt-3 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Companies that can effectively consolidate, analyze, and operationalize their data unlock powerful insights, much like striking gold. The deeper and more connected the analysis, the greater the business value. SAP Business Data Cloud is designed to break down these long-standing silos. It allows businesses to seamlessly connect data across SAP applications, third-party platforms, and multiple business domains. This unified approach ensures your decision-makers have access to the latest, most relevant data, whenever and wherever it’s needed.</p>
@@ -342,15 +204,11 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Latest Blogs */}
-      <div
-        className="
-     custom-container
-        pb-10 lg:pr-0"
-      >
-        <BlogsCarousel slides={blogs} />
 
-      </div>
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
     </div>
   );
 }

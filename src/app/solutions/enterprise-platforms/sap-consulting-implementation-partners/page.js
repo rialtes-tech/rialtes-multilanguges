@@ -11,7 +11,7 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "SAP Consulting Services",
-    "url": "https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/",
+    "url": "https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting-implementation-partners/",
     "description": "Rialtes provides SAP Consulting Services including RISE with SAP, GROW with SAP, SuccessFactors, S/4HANA Migration, and Ariba implementation to help organizations enhance operations, automate workflows, and scale efficiently.",
     "inLanguage": "en",
     "publisher": {
@@ -162,7 +162,7 @@ export default function Page() {
                 title="SAP Consulting Services and Implementation Partners | Rialtes"
                 description="Rialtes, a trusted SAP Consulting and Implementation Partner you can rely on for AI-powered implementations, smarter integrations, and long-term SAP success."
                 keywords="home, website, welcome"
-                canonical={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/"}
+                canonical={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting-implementation-partners/"}
             />
             <Script
                 id="schema-sap-consulting"
@@ -282,7 +282,7 @@ export default function Page() {
                             height='100'
                             className='w-full 3xl:!h-[500px] 2xl:!h-[500px] xl:!h-[500px] lg:!h-[380px] md:!h-[384px] sm:!h-[360px] !h-[480px] object-cover transition-transform duration-500 transform group-hover:scale-110 object-[35%_80%]'
                             alt='Life science image'
-                            src='/images/services/rise-with-sap/header.webp'/>
+                            src='/images/services/rise-with-sap/header.webp' />
                     </div>
                 </div>
                 <div className="custom-container">

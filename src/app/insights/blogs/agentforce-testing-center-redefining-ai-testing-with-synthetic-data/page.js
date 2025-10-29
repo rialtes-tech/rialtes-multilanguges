@@ -1,13 +1,11 @@
 "use client";
-// pages/blog-detail.js
-import Head from "next/head";
 import Image from "next/image";
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
 import Link from 'next/link';
-import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/components/Seo";
-import { HeroSection } from "@/app/components/herosection";
 import Script from "next/script";
-const schemaData={
+const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "mainEntityOfPage": {
@@ -35,67 +33,10 @@ const schemaData={
   "url": "https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
 
 }
-const blogs = [
-  {
-    id: 1,
-    image: "/images/blog/blog-1.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "30 Sept 2024",
-    url: 'how-salesforce-agentforce-actually-works',
-    title: "How Salesforce Agentforce Actually Works",
-    description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-  },
-  {
-    id: 2,
-    image: "/images/blog/blog-2.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "21 Oct 2024",
-    title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-    description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
-  },
-  {
-    id: 3,
-    image: "/images/blog/blog-3.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "28 Oct 2024",
-    title: "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-    description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
-  },
-  {
-    id: 5,
-    image: "/images/blog/blog-5.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "24 Dec 2024",
-    title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-    description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-  },
-  {
-    id: 6,
-    image: "/images/blog/blog-6.webp",
-    category: "Cloud Green Technology",
-    industry: "Agriculture",
-    date: "17 Sept 2024",
-    title: "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-    description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-  },
-  {
-    id: 7,
-    image: "/images/blog/blog-7.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "29 Oct 2024",
-    title: "SAP SuccessFactors Performance and Goal Management",
-    description: "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
-  },
-
-];
 
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data";
+  const currUrl = useUrl()
+  const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data";
 
   return (
     <div className="min-h-screen bg-white">
@@ -104,38 +45,38 @@ export default function Page() {
         description="The Agentforce Testing Center is a powerful suite of tools that helps enterprises evaluate AI agents before they are deployed in production. Know more."
         canonical="https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
       />
-       
-   <Script
+
+      <Script
         id="schema-agent-tes"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
- 
-        <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]">
-               {/* Desktop Image */}
-               <div className="hidden md:block">
-                 <Image
-                   src="/images/blog/agentforce-testing-center.webp"
-                   alt="Agentforce Testing Center: Redefining AI Testing with Synthetic Data"
-                   fill
-                   style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                   priority
-                   className="transform transition-transform duration-500 group-hover:scale-110"
-                 />
-               </div>
-       
-               {/* Mobile Image */}
-               <div className="block md:hidden">
-                 <Image
-                   src="/images/blog/blog-4-mob-banner.webp"
-                   alt="Agentforce Testing Center: Redefining AI Testing with Synthetic Data"
-                   fill
-                   style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-                   priority
-                 />
-               </div>
-             </section>
+
+      <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]">
+        {/* Desktop Image */}
+        <div className="hidden md:block">
+          <Image
+            src="/images/blog/agentforce-testing-center.webp"
+            alt="Agentforce Testing Center: Redefining AI Testing with Synthetic Data"
+            fill
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            priority
+            className="transform transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+
+        {/* Mobile Image */}
+        <div className="block md:hidden">
+          <Image
+            src="/images/blog/blog-4-mob-banner.webp"
+            alt="Agentforce Testing Center: Redefining AI Testing with Synthetic Data"
+            fill
+            style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+            priority
+          />
+        </div>
+      </section>
       <section
         className="custom-container">
 
@@ -163,7 +104,7 @@ export default function Page() {
                       />
                     </a>
                   </div>
-                   <div className="max-w-[30px]">
+                  <div className="max-w-[30px]">
                     <a
                       href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
                       target="_blank"
@@ -212,8 +153,8 @@ export default function Page() {
 
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium">
                 <li className="pb-2"><h4 className="font-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Synthetic Interaction Generation:</h4> Simulates real-world interactions using natural language, allowing agents to experience a wide range of scenarios.</li>
-               <li className="pb-2"><h4 className="font-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Secure Sandbox Environments:</h4> Isolated testing spaces where agents can be evaluated without impacting live systems or sensitive data.</li>
-               <li><h4 className="font-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Performance Monitoring Tools:</h4> Provides insights into how agents respond, reason, and adapt in dynamic situations.</li>
+                <li className="pb-2"><h4 className="font-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Secure Sandbox Environments:</h4> Isolated testing spaces where agents can be evaluated without impacting live systems or sensitive data.</li>
+                <li><h4 className="font-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Performance Monitoring Tools:</h4> Provides insights into how agents respond, reason, and adapt in dynamic situations.</li>
               </ul>
 
               <div className="py-6"></div>
@@ -223,10 +164,10 @@ export default function Page() {
               <p className="text-black pb-4  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Among the Testing Center’s offerings, the use of synthetic data is perhaps the most transformative. Synthetic data refers to artificially generated information that mimics real-world datasets. It allows enterprises to simulate complex customer interactions, edge cases, and rare scenarios that might otherwise be difficult to replicate. Here’s how synthetic data revolutionized AI testing.</p>
 
               <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black pl-4 text-[16px]  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px]  font-medium">
-                 <li className="pb-2"><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Scalability: </h3>Synthetic data can be generated in large volumes, ensuring agents are tested against diverse scenarios without the limitations of real-world datasets.</li>
-                 <li className="pb-2"><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Cost-Efficiency: </h3> Avoids the expenses and logistical challenges of collecting and anonymizing real customer data.</li>
-                 <li className="pb-2"><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Privacy and Compliance: </h3> Since synthetic data does not involve real user information, it minimizes privacy risks and ensures compliance with data protection regulations like GDPR.</li>
-                 <li><h3 className="font-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Edge Case Preparation: </h3> Enables testing of rare or extreme scenarios, ensuring agents perform reliably even in unexpected situations.</li>
+                <li className="pb-2"><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Scalability: </h3>Synthetic data can be generated in large volumes, ensuring agents are tested against diverse scenarios without the limitations of real-world datasets.</li>
+                <li className="pb-2"><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Cost-Efficiency: </h3> Avoids the expenses and logistical challenges of collecting and anonymizing real customer data.</li>
+                <li className="pb-2"><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Privacy and Compliance: </h3> Since synthetic data does not involve real user information, it minimizes privacy risks and ensures compliance with data protection regulations like GDPR.</li>
+                <li><h3 className="font-bold inline  4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Edge Case Preparation: </h3> Enables testing of rare or extreme scenarios, ensuring agents perform reliably even in unexpected situations.</li>
 
               </ul>
               <div className="py-6"></div>
@@ -252,13 +193,11 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Latest Blogs */}
-      <div
-        className="custom-container lg:pr-0 pb-10"
-      >
-        <BlogsCarousel slides={blogs} />
 
-      </div>
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
     </div>
   );
 }
