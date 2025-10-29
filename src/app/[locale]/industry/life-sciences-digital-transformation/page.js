@@ -125,8 +125,8 @@ export default function page() {
             <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 <div className="hidden md:block">
                     <Image
-                        src="/images/industry/life-science/hero-desk-banner.webp"
-                        alt="desktop banner"
+                        src="/images/industry/life-science/life-sciences-digital-transformation.webp"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "55% 20%" }}
                         priority
@@ -136,8 +136,8 @@ export default function page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/industry/life-science/Mobile/hero-mob-banner.webp"
-                        alt="mobile banner"
+                        src="/images/industry/life-science/Mobile/life-sciences-digital-transformation-mobile.webp"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "5% 40%" }}
                         priority
@@ -207,8 +207,8 @@ export default function page() {
                         {/* Desktop Image */}
                         <div className="hidden md:block w-full h-full">
                             <Image
-                                src="/images/industry/life-science/why-rialtes-desk.webp"
-                                alt="why-rialtes-desk-Image"
+                                src="/images/industry/life-science/digital-health-medical-analytics-visualization.webp"
+                                alt={t('whyAlt')}
                                 fill
                                 style={{ objectFit: "cover" }}
                                 priority
@@ -217,8 +217,8 @@ export default function page() {
                         {/* Mobile Image */}
                         <div className="block md:hidden w-full h-full">
                             <Image
-                                src="/images/industry/life-science/Mobile/why-rialtes-mob.webp"
-                                alt="why-rialtes-mob-Image"
+                                src="/images/industry/life-science/Mobile/digital-health-medical-analytics-visualization-mobile.webp"
+                                alt={t('whyAlt')}
                                 fill
                                 style={{ objectFit: "cover" }}
                                 priority
@@ -265,8 +265,8 @@ export default function page() {
                                 <div className="relative z-30 lg:hidden block mt-[31px]">
                                     {/* Mobile Image */}
                                     <Image
-                                        src="/images/industry/life-science/Mobile/thought-leadership-mob.webp"
-                                        alt="thought leadership Mobile"
+                                        src="/images/industry/life-science/Mobile/healthcare-collaboration-data-analytics-meeting-mobile.webp"
+                                        alt={t('thoughtAlt')}
                                         className="object-cover h-full md:h-[400px] w-full md:w-[80%]"
                                         priority
                                         width={0}
@@ -279,8 +279,8 @@ export default function page() {
                                 <div className="w-full h-full relative z-30 lg:block hidden">
                                     {/* Desktop Image */}
                                     <Image
-                                        src="/images/industry/life-science/thought-leadership-desk.webp"
-                                        alt="thought leadership Desktop"
+                                        src="/images/industry/life-science/healthcare-collaboration-data-analytics-meeting.webp"
+                                        alt={t('thoughtAlt')}
                                         className="w-full h-full object-cover"
                                         priority
                                         width={0}
@@ -302,8 +302,8 @@ export default function page() {
                 <div className="custom-container 4xl:!px-[142px] xl:!px-[52px] lg:!px-[32px] max-lg:px-0">
                     <div>
                         <Image
-                            src="/images/industry/life-science/Mobile/pre-build-mob.webp"
-                            alt="prebuilt Mobile"
+                            src="/images/industry/life-science/Mobile/digital-health-medical-data-visualization-mobile.webp"
+                            alt={t('preAlt')}
                             className="w-full h-full object-cover md:hidden"
                             priority
                             width={0}
@@ -311,8 +311,8 @@ export default function page() {
                         />
                         {/* Desktop Image */}
                         <Image
-                            src="/images/industry/life-science/pre-build-desk.webp"
-                            alt="prebuilt Desktop"
+                            src="/images/industry/life-science/digital-health-medical-data-visualization.webp"
+                            alt={t('preAlt')}
                             className="w-full h-[800px] object-cover hidden md:block"
                             priority
                             width={0}
@@ -377,7 +377,7 @@ export default function page() {
                                         <div className="w-full h-full md:block hidden">
                                             <Image
                                                 src={data.deskImg}
-                                                alt="common section Desktop"
+                                                alt={data.imageAlt}
                                                 className="w-full h-full object-cover lg:h-[560px] xl:h-full"
                                                 priority
                                                 width={0}
@@ -388,7 +388,7 @@ export default function page() {
                                             {/* Mobile Image */}
                                             <Image
                                                 src={data.mobImg}
-                                                alt="common section Mobile"
+                                                alt={data.imageAlt}
                                                 className="object-cover h-full w-full"
                                                 priority
                                                 width={0}
@@ -404,7 +404,7 @@ export default function page() {
                                             {/* Desktop Image */}
                                             <Image
                                                 src={data.deskImg}
-                                                alt="common section Desktop"
+                                                alt={data.imageAlt}
                                                 className="w-full h-full object-cover lg:h-[560px] xl:h-full"
                                                 priority
                                                 width={0}
@@ -416,7 +416,7 @@ export default function page() {
                                             {/* Mobile Image */}
                                             <Image
                                                 src={data.mobImg}
-                                                alt="common section Mobile"
+                                                alt={data.imageAlt}
                                                 className="object-cover h-full w-full"
                                                 priority
                                                 width={0}
@@ -453,8 +453,8 @@ export default function page() {
                         <div className="w-full h-full lg:block hidden">
                             {/* Desktop Image */}
                             <Image
-                                src="/images/industry/life-science/seamless-desk.webp"
-                                alt="seamless section Desktop"
+                                src="/images/industry/life-science/doctors-analyzing-medical-data-computer.webp"
+                                alt={t('seamlessAlt')}
                                 className="w-full h-full object-cover"
                                 priority
                                 width={0}
@@ -464,8 +464,8 @@ export default function page() {
                         <div className="lg:hidden block">
                             {/* Mobile Image */}
                             <Image
-                                src="/images/industry/life-science/Mobile/seamless-mob.webp"
-                                alt="seamless section Mobile"
+                                src="/images/industry/life-science/Mobile/doctors-analyzing-medical-data-computer-mobile.webp"
+                                alt={t('seamlessAlt')}
                                 className="object-cover h-full w-full md:h-[600px]"
                                 priority
                                 width={0}
@@ -524,7 +524,7 @@ export default function page() {
                                             {/* Desktop Image */}
                                             <Image
                                                 src={data.deskImg}
-                                                alt="Why Rialtes Desktop"
+                                                alt={data.imageAlt}
                                                 className="w-full h-full object-cover lg:h-[560px] xl:h-full md:object-[85%_25%] xl:object-[35%_25%]"
                                                 priority
                                                 width={0}
@@ -535,7 +535,7 @@ export default function page() {
                                             {/* Mobile Image */}
                                             <Image
                                                 src={data.mobImg}
-                                                alt="Why Rialtes Mobile"
+                                                alt={data.imageAlt}
                                                 className="object-cover h-full w-full"
                                                 priority
                                                 width={0}
@@ -551,7 +551,7 @@ export default function page() {
                                             {/* Desktop Image */}
                                             <Image
                                                 src={data.deskImg}
-                                                alt="Why Rialtes Desktop"
+                                                alt={data.imageAlt}
                                                 className="w-full h-full object-cover lg:h-[560px] xl:h-full"
                                                 priority
                                                 width={0}
@@ -562,7 +562,7 @@ export default function page() {
                                             {/* Mobile Image */}
                                             <Image
                                                 src={data.mobImg}
-                                                alt="Why Rialtes Mobile"
+                                                alt={data.imageAlt}
                                                 className="object-cover h-full w-full"
                                                 priority
                                                 width={0}

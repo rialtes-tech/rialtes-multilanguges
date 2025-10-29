@@ -230,6 +230,12 @@
         "knowMore": "En savoir plus"
     },
     "lifeScience": {
+        "bannerAlt":"Main numérique tenant plante avec réseau bleu connecté sur fond sombre représentant innovation numérique sciences de vie",
+        "whyAlt":"Corps humain numérique filaire avec organes mis en évidence et interfaces données médicales sur fond sombre montrant analytique",
+        "thoughtAlt":"Deux médecins en blouses blanches réunis avec professionnel d'affaires discutant graphiques données santé sur écran",
+        "preAlt":"Professionnel médical en tenue verte interagissant avec anatomie holographique patient et graphiques données santé sur tablette",
+        "seamlessAlt":"Deux médecins en blouses blanches avec stéthoscopes analysant données patients sur écran d'ordinateur en environnement hospitalier",
+
         "whyRialtesData": [
             {
                 "title": "Accélérateurs éprouvés dans l'industrie",
@@ -279,9 +285,10 @@
                     "Soins basés sur la valeur et insights sur la santé de la population.",
                     "Collaboration payeur-prestataire en temps réel via Salesforce Health Cloud."
                 ],
-                "blueCard": "Fournir des soins efficaces et personnalisés tout en maîtrisant les coûts grâce à l'analyse en temps réel.",
-                "mobImg": "/images/industry/life-science/Mobile/payers-module-mob.webp",
-                "deskImg": "/images/industry/life-science/payers-module-desk.webp"
+                 "blueCard": "Fournir des soins efficaces et personnalisés tout en maîtrisant les coûts grâce à l'analyse en temps réel.",
+                 "imageAlt":"Tablette affichant analytique d'affaires en temps réel avec graphiques barres, courbes et grille de données en bureau",
+                 "mobImg": "/images/industry/life-science/Mobile/real-time-business-analytics-tablet-dashboard-mobile.webp",
+                 "deskImg": "/images/industry/life-science/real-time-business-analytics-tablet-dashboard.webp"
             },
             {
                 "title": "Solutions pour les réseaux de prestataires",
@@ -293,8 +300,9 @@
                     "Plateformes de collaboration et de référence des prestataires intégrées via Salesforce."
                 ],
                 "blueCard": "Améliorer l'expérience patient grâce à des soins connectés et coordonnés.",
-                "mobImg": "/images/industry/life-science/Mobile/provider-mob.webp",
-                "deskImg": "/images/industry/life-science/provider-desk.webp"
+                "imageAlt":"Médico usando panel de salud futurista con datos de pacientes, estadísticas de citas y análisis médico en pantalla",
+                "mobImg": "/images/industry/life-science/Mobile/doctor-healthcare-dashboard-medical-analytics-mobile.webp",
+                "deskImg": "/images/industry/life-science/doctor-healthcare-dashboard-medical-analytics.webp"
             },
             {
                 "title": "Innovation Pharma",
@@ -306,8 +314,9 @@
                     "Salesforce Health Cloud pour l'orchestration des programmes centrés sur le patient."
                 ],
                 "blueCard": "Lancements de thérapies plus intelligents, rapides et sécurisés.",
-                "mobImg": "/images/industry/life-science/Mobile/pharma-mob.webp",
-                "deskImg": "/images/industry/life-science/pharma-desk.webp"
+                "imageAlt":"Chercheuse médicale portant casque VR examinant données virtuelles avec gants bleus en laboratoire pour analyse immersive",
+                "mobImg": "/images/industry/life-science/Mobile/vr-medical-research-virtual-reality-lab-mobile.webp",
+                "deskImg": "/images/industry/life-science/vr-medical-research-virtual-reality-lab.webp"
             },
             {
                 "title": "Révolution MedTech",
@@ -319,8 +328,9 @@
                     "Surveillance à distance et plateformes de santé numérique intégrées."
                 ],
                 "blueCard": "Offrir de meilleurs résultats aux patients grâce à des solutions MedTech connectées.",
-                "mobImg": "/images/industry/life-science/Mobile/medtech-mob.webp",
-                "deskImg": "/images/industry/life-science/medtech-desk.webp"
+                "imageAlt":"Patient en consultation vidéo de télémédecine avec médecin sur ordinateur portable révisant données de santé sur tablette",
+                "mobImg": "/images/industry/life-science/Mobile/telemedicine-video-consultation-patient-doctor-mobile.webp",
+                "deskImg": "/images/industry/life-science/telemedicine-video-consultation-patient-doctor.webp"
             },
             {
                 "title": "Excellence en santé publique",
@@ -332,8 +342,9 @@
                     "Programmes communautaires de santé publique et de santé comportementale."
                 ],
                 "blueCard": "Renforcer la santé communautaire grâce aux données et à l'IA.",
-                "mobImg": "/images/industry/life-science/Mobile/public-health-mob.webp",
-                "deskImg": "/images/industry/life-science/public-health-desk.webp"
+                "imageAlt":"Professionnel de santé portant masque vérifiant tension artérielle d'une patiente âgée lors d'une visite médicale à domicile",
+                 "mobImg": "/images/industry/life-science/Mobile/home-healthcare-blood-pressure-check-elderly-mobile.webp",
+                 "deskImg": "/images/industry/life-science/home-healthcare-blood-pressure-check-elderly.webp"
             },
             {
                 "title": "Engagement patient hyper-personnalisé",
@@ -345,8 +356,9 @@
                     "Parcours patients conformes aux réglementations."
                 ],
                 "blueCard": "Transformer l'engagement patient en résultats significatifs.",
-                "mobImg": "/images/industry/life-science/Mobile/hyper-mob.webp",
-                "deskImg": "/images/industry/life-science/hyper-desk.webp"
+                "imageAlt":"Trois professionnels de santé en tenue médicale consultant ensemble sur tablette numérique dans environnement hospitalier",
+                "mobImg": "/images/industry/life-science/Mobile/medical-team-consulting-digital-tablet-mobile.webp",
+               "deskImg": "/images/industry/life-science/medical-team-consulting-digital-tablet.webp"
             },
             {
                 "title": "Excellence de la chaîne d'approvisionnement et des stocks",
@@ -357,8 +369,9 @@
                     "Réseau logistique et de distribution intégré."
                 ],
                 "blueCard": "Garantir que les thérapies et dispositifs salvateurs atteignent les patients à temps.",
-                "mobImg": "/images/industry/life-science/Mobile/supply-chain-mob.webp",
-                "deskImg": "/images/industry/life-science/supply-chain-desk.webp"
+                "imageAlt":"Pharmacien en blouse blanche et lunettes utilisant tablette numérique pendant que collègue range étagères en pharmacie moderne",
+                "mobImg": "/images/industry/life-science/Mobile/spharmacist-using-tablet-pharmacy-inventory-mobile.webp",
+                "deskImg": "/images/industry/life-science/pharmacist-using-tablet-pharmacy-inventory.webp"
             }
         ],
         "commonSectionData1": [
@@ -372,8 +385,9 @@
                     "Analyses prédictives pour les soins et la conformité."
                 ],
                 "blueCard": "Transformer les données brutes en intelligence exploitable.",
-                "mobImg": "/images/industry/life-science/Mobile/advanced-mob.webp",
-                "deskImg": "/images/industry/life-science/advanced-desk.webp"
+                "imageAlt":"Professionnel de santé en calot chirurgical et tenue bleue consultant écrans de surveillance médicale affichant données patients",
+                 "mobImg": "/images/industry/life-science/Mobile/medical-professional-monitoring-patient-data-mobile.webp",
+                "deskImg": "/images/industry/life-science/medical-professional-monitoring-patient-data.webp"
             },
             {
                 "title": "Futur piloté par l'IA",
@@ -385,8 +399,9 @@
                     "Surveillance de la conformité et pharmacovigilance pilotées par IA."
                 ],
                 "blueCard": "L'IA révolutionne les soins aux patients, le développement des thérapies et la sécurité.",
-                "mobImg": "/images/industry/life-science/Mobile/ai-driven-mob.webp",
-                "deskImg": "/images/industry/life-science/ai-driven-desk.webp"
+                 "imageAlt":"Chercheur en santé en laboratoire avec superposition de données numériques examinant tubes à essai et analysant recherche pharmaceutique",
+                 "mobImg": "/images/industry/life-science/Mobile/healthcare-research-digital-lab-analysis-mobile.webp",
+                 "deskImg": "/images/industry/life-science/healthcare-research-digital-lab-analysis.webp"
             },
             {
                 "title": "Quick Commerce dans les sciences de la vie",
@@ -397,8 +412,9 @@
                     "Optimisation logistique et de la chaîne d'approvisionnement pilotée par IA."
                 ],
                 "blueCard": "Fournir des soins de santé à la vitesse du besoin — alimenté par SAP & Salesforce.",
-                "mobImg": "/images/industry/life-science/Mobile/quick-mob.webp",
-                "deskImg": "/images/industry/life-science/quick-desk.webp"
+                 "imageAlt":"Un physiothérapeute applique des électrodes sur le dos d’une femme pour une thérapie de stimulation musculaire électrique",
+                 "mobImg": "/images/industry/life-science/Mobile/physiotherapy-electrical-muscle-stimulation-session-mobile.webp",
+                 "deskImg": "/images/industry/life-science/physiotherapy-electrical-muscle-stimulation-session.webp"
             }
         ],
         "headerTitle": "Industrie des sciences de la vie",
@@ -1539,6 +1555,22 @@
         "contactSubtitleOne": "Contactez-nous dès aujourd'hui et commencez votre parcours vers une fabrication intelligente, résiliente et centrée sur le client !"
     },
     "education": {
+        "bannerAlt":"Étudiant diplômé en toge et mortier avec superposition de données numériques regardant vers l'avenir de l'éducation technologique",
+        "businessAlt":"Professionnel d'affaires en costume gris et cravate bleue utilisant tablette numérique dans bureau moderne avec mur vitré",
+        "studentALt":"Jeune femme souriante en chemise orange avec sac à dos utilisant ordinateur portable en extérieur adossée au mur dans rue ensoleillée",
+        "markeAlt":"Groupe d'étudiants divers collaborant avec tablette et cahiers dans espace d'étude lumineux de bibliothèque avec étagères",
+        "studentAlt":"Groupe diversifié de jeunes étudiants en discussion animée avec ordinateur portable en extérieur lors de session d'apprentissage",
+        "teamAlt":"Trois professionnels d'affaires divers en discussion autour d'ordinateur portable examinant documents dans salle de réunion moderne",
+        "hanaAlt":"Femme professionnelle en manteau beige avec lunettes souriante utilisant smartphone et tenant sac en cuir dans rue urbaine",
+        "cloudAlt":"Femme enthousiaste en cardigan rose célébrant poing levé tenant carte de crédit utilisant ordinateur portable en extérieur shopping",
+        "campusAlt":"Diplômé souriant en mortier vert et toge avec étole rouge tenant diplôme debout en extérieur sur campus universitaire",
+        "empowerAlt":"Mains tenant cerveau holographique lumineux entouré d'icônes de technologie éducative incluant livres vidéos et symboles recherche",
+        "aiAlt":"Femme avec casque tenant smartphone affichant icône cerveau IA entouré de symboles technologiques éducatifs et de communication",
+        "autoAlt":"Icône d'engrenage blanc et flèches circulaires sur fond bleu représentant automatisation cloud",
+        "smartAlt":"Engrenage blanc avec puce centrale et flèches circulaires sur fond bleu représentant automatisation continue des processus",
+        "systemAlt":"Engrenage blanc avec nœuds connectés et trois bulles de discussion sur fond bleu représentant intégration et communication",
+        "leadAlt":"Bulles de discussion blanches avec icône de cadenas sur fond bleu représentant messagerie sécurisée et protection",
+        "solutionAlt":"Mains tenant toque de graduation holographique faite de particules bleues connectées représentant éducation numérique",
         "headerTitle": "Secteur de l'Éducation",
         "seoTitle": "Solutions IT Salesforce Cloud pour le Secteur de l’Éducation | Rialtes",
         "seoDescription": "Solutions IT pour l’éducation avec IA et Salesforce Cloud : de l’école au supérieur, transformez l’apprentissage avec Rialtes.",
