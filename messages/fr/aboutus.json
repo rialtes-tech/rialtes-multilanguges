@@ -1,5 +1,7 @@
 {
     "aboutUs": {
+         "welcomeAlt" : "Femme professionnelle souriante avec tablette extérieur représentant avenir commercial intelligent et stratégies transformation IA",
+         "bannerAlt" : "Visages numériques futuristes avec éclairage néon rose bleu et lunettes RA représentant technologie IA et innovation données",
         "aboutusTitle": "À propos de nous",
         "seoTitle": "Accompagner la Transformation des Entreprises | À propos de Rialtes",
         "seoDescription": "Votre transformation commence ici : Rialtes simplifie le changement, favorise l’adoption de l’IA et stimule la croissance avec un partenariat fiable.",
@@ -37,26 +39,26 @@
         ],
         "brandStories": [
             {
-                "image": "/images/about-us/lifescience.webp",
-                "alt": "Entreprise de sciences de la vie",
+                "image": "/images/about-us/digital-tree-life-sciences-patient-solution.webp",
+                "alt": "Arbre numérique vert lumineux sur base réseau représentant solution technologie santé centrée patient sciences vie européennes",
                 "description": "Lancement d’une solution complète centrée sur le patient pour la plus grande entreprise européenne de sciences de la vie aux États-Unis."
             },
             {
-                "image": "/images/about-us/singapore.webp",
-                "alt": "Plus grand employeur de Singapour",
+                "image": "/images/about-us/singapore-marina-bay-business-architecture-twilight.webp",
+                "alt": "Architecture iconique Marina Bay Sands au crépuscule avec fenêtres illuminées donnant pouvoir opérations plus grand employeur Singapour",
                 "description": "Donner les moyens au plus grand employeur de Singapour de gérer son activité au quotidien."
             },
             {
-                "image": "/images/about-us/automotive.webp",
-                "alt": "Plus grand constructeur automobile en Inde",
+                "image": "/images/about-us/highway-light-trails-automotive-expansion-speed.webp",
+                "alt": "Traînées lumière dynamiques autoroute avec stries orange bleues représentant expansion et accélération constructeur automobile indien",
                 "description": "Accélérer l’expansion du plus grand constructeur automobile indien en Amérique du Nord."
             }
         ],
         "corePrinciples": [
             {
-                "image": "/images/about-us/trust.svg",
+                "image": "/images/about-us/trust-shield-badge-certification-icon.svg",
                 "label": "Confiance",
-                "alt": "Icône du principe Confiance",
+                "alt": "Icône ligne bleue montrant bouclier avec coche et badge ruban représentant certification confiance et normes assurance qualité",
                 "width": {
                     "base": 135,
                     "xl": 177
@@ -67,9 +69,9 @@
                 }
             },
             {
-                "image": "/images/about-us/transperancy.svg",
+                "image": "/images/about-us/transparency-document-magnifying-glass-icon.svg",
                 "label": "Transparence",
-                "alt": "Icône du principe Transparence",
+                "alt": "Icône ligne bleue représentant document avec loupe représentant transparence responsabilité et examen informations détaillées",
                 "width": {
                     "base": 150,
                     "xl": 192
@@ -80,9 +82,9 @@
                 }
             },
             {
-                "image": "/images/about-us/commitment.svg",
+                "image": "/images/about-us/commitment-handshake-partnership-agreement-icon.svg",
                 "label": "Engagement",
-                "alt": "Icône du principe Engagement",
+                "alt": "Icône ligne bleue montrant poignée main représentant engagement commercial collaboration partenariat et relations accord professionnel",
                 "width": {
                     "base": 150,
                     "xl": 192
@@ -115,31 +117,37 @@
         ]
     },
     "ourValue": {
+         "commitmentAlt" : "Athlète féminine saut perche contre ciel bleu représentant confiance transparence entreprise et engagement fournir excellence",
+        "bannerAlt" : "Randonneur avec sac dos Rialtes face pics montagne enneigés représentant valeurs culture entreprise et mentalité croissance quotidienne",
         "growLatestServices": [
             {
                 "id": 1,
-                "image": "/images/culture/Equal Opportunity.webp",
+                "image": "/images/culture/diversity-inclusion-colorful-figures-accessibility.webp",
+                "alt" : "Figurines papier colorées incluant symboles fauteuil roulant sur fond sombre représentant égalité chances diversité et inclusion",
                 "title": "Égalité des chances",
                 "description1": "Nous sommes fiers d’être un employeur garantissant l’égalité des chances, engagé à promouvoir un environnement de travail diversifié, inclusif et respectueux.",
                 "description2": "Notre culture repose sur l’équité, l’inclusion et la méritocratie, permettant à chaque membre de l’équipe de s’épanouir. Chez Rialtes, la diversité stimule l’innovation et l’excellence."
             },
             {
                 "id": 2,
-                "image": "/images/culture/Welcome LGBTQ+.webp",
+                "image": "/images/culture/lgbtq-pride-rainbow-flags-workplace-celebration.webp",
+                "alt" : "Équipe diverse célébrant avec drapeaux fierté arc-en-ciel dans bureau moderne représentant inclusion LGBTQ+ et valeurs diversité lieu travail",
                 "title": "Bienvenue aux LGBTQ+",
                 "description1": "Nous nous engageons à créer un environnement sûr, inclusif et favorable pour les personnes LGBTQ+. Nous promouvons activement la diversité, l’inclusion et l’alliance, en favorisant une culture où chacun se sent valorisé et libre d’être soi-même.",
                 "description2": "Chez Rialtes, nous défendons l’égalité, l’acceptation et l’appartenance."
             },
             {
                 "id": 3,
-                "image": "/images/culture/Honor Veterans.webp",
+                "image": "/images/culture/veterans-professional-handshake-office-meeting.webp",
+                "alt" : "Femme et homme professionnels se serrant main dans bureau moderne représentant honneur anciens combattants et relations professionnelles",
                 "title": "Honneur aux vétérans",
                 "description1": "Notre lieu de travail inclusif garantit que les vétérans se sentent accueillis, valorisés et encouragés à s’épanouir dans leur parcours professionnel.",
                 "description2": "Chez Rialtes, nous reconnaissons les sacrifices de nos vétérans et nous nous engageons à les aider à construire un avenir prospère."
             },
             {
                 "id": 4,
-                "image": "/images/culture/Women in Tech.webp",
+                "image": "/images/culture/women-in-tech-diverse-team-collaboration.webp",
+                "alt" : "Trois femmes diverses souriantes ensemble travaillant sur ordinateurs représentant femmes technologie et culture travail collaboratif",
                 "title": "Les femmes dans la tech",
                 "description1": "Grâce au mentorat, à l’égalité des chances et au développement du leadership, nous veillons à ce que les femmes dans la tech prospèrent et stimulent l’innovation.",
                 "description2": "Chez Rialtes, nous croyons que la diversité dans la technologie conduit à des solutions plus fortes et plus intelligentes pour l’avenir."
@@ -147,20 +155,20 @@
         ],
         "principleItems": [
             {
-                "image": "/images/about-us/trust.svg",
-                "alt": "Icône Confiance",
+                "image": "/images/about-us/trust-shield-badge-certification-icon.svg",
+                "alt": "Icône ligne bleue montrant bouclier avec coche et badge ruban représentant certification confiance et normes assurance qualité",
                 "label": "Confiance",
                 "className": "xl:w-[132px] w-[119px]"
             },
             {
-                "image": "/images/about-us/transperancy.svg",
-                "alt": "Icône Transparence",
+                "image": "/images/about-us/transparency-document-magnifying-glass-icon.svg",
+                "alt": "Icône ligne bleue représentant document avec loupe représentant transparence responsabilité et examen informations détaillées",
                 "label": "Transparence",
                 "className": "xl:w-[150px] w-[119px]"
             },
             {
-                "image": "/images/about-us/commitment.svg",
-                "alt": "Icône Engagement",
+                "image": "/images/about-us/commitment-handshake-partnership-agreement-icon.svg",
+                "alt": "Icône ligne bleue montrant poignée main représentant engagement commercial collaboration partenariat et relations accord professionnel",
                 "label": "Engagement",
                 "className": "xl:w-[150px] w-[124px]"
             }
@@ -182,6 +190,13 @@
         "impactTitle": "Impact social",
         "seoTitle": "Promouvoir la Durabilité grâce à une IA Responsable | Rialtes",
         "seoDescription": "Rialtes redéfinit la citoyenneté d’entreprise avec IA durable, innovation ESG, formation des talents et impact social pour un avenir inclusif.",
+        "bannerAlt": "Main tenant globe terrestre numérique avec réseau sur fond de nature verte représentant durabilité environnementale et conservation mondiale",
+        "innovationAlt": "Mains tenant cerveau en papier avec pièces de puzzle colorées sur fond menthe représentant sensibilisation à l'autisme et soutien en santé mentale",
+        "esgAlt": "Route sinueuse panoramique le long d'un lac bleu tranquille entouré d'arbres verts luxuriants et montagnes représentant voyage paisible dans nature",
+        "aiAlt": "Deux développeurs de logiciels collaborant sur ordinateur portable dans bureau moderne avec tableau blanc et notes adhésives représentant travail d'équipe et projet de codage",
+        "revenueAlt": "Groupe diversifié de mains empilées ensemble en plein air avec fond de nature verte représentant travail d'équipe, unité et collaboration communautaire",
+        "plantAlt": "Mains plantant un jeune semis vert dans la terre, symbolisant la croissance et la durabilité",
+        "profesAlt": "Professionnel faisant une présentation avec des graphiques et des diagrammes sur un grand écran, représentant l’analyse et les informations commerciales",
         "impactSubtitle": "Durabilité avec",
         "impactSubtitleOne": "IA responsable",
         "rialtesTitle": "Rialtes aide les clients du monde entier à faire confiance à l’IA et à renforcer la philosophie de l’IA responsable.",
@@ -208,6 +223,7 @@
     },
     "globalAlliance": {
         "headerTitle": "Nos partenaires",
+        "bannerAlt": "Poignée de main numérique avec particules bleues lumineuses et connexions réseau symbolisant partenariat commercial et technologie",
         "seoTitle": "Nos Partenaires Stratégiques – Construire le Succès avec Rialtes",
         "seoDescription": "Rialtes collabore avec des leaders IT et SaaS pour offrir des solutions innovantes. Découvrez notre réseau de partenaires de confiance.",
         "headerSubTitle": "Alliances mondiales",
@@ -219,32 +235,32 @@
         "allTitle": "Tous les partenariats",
         "approachData": [
             {
-                "src": "/images/partners/our1.png",
-                "alt": "Équipe de direction",
+                "src": "/images/partners/team-management-gear-icon.png",
+                "alt": "Trois silhouettes de personnes avec icône d'engrenage représentant gestion d'équipe, collaboration et structure organisationnelle",
                 "texts": [
                     "Orchestration",
                     "stratégique"
                 ]
             },
             {
-                "src": "/images/partners/our2.png",
-                "alt": "Équipe de direction",
+                "src": "/images/partners/user-profile-settings-gear.png",
+                "alt": "Icône de profil utilisateur entourée de symboles d'engrenage représentant paramètres de compte et personnalisation du système",
                 "texts": [
                     "Personnalisation",
                     "axée client"
                 ]
             },
             {
-                "src": "/images/partners/our3.png",
-                "alt": "Équipe de direction",
+                "src": "/images/partners/hand-holding-location-pin.png",
+                "alt": "Main tenant marqueur de localisation représentant services de géolocalisation, support commercial local et solutions localisées",
                 "texts": [
                     "Solutions",
                     "spécifiques aux secteurs"
                 ]
             },
             {
-                "src": "/images/partners/our4.png",
-                "alt": "Équipe de direction",
+                "src": "/images/partners/global-handshake-partnership-icon.png",
+                "alt": "Poignée de main avec icône de globe représentant partenariat commercial mondial, collaboration internationale et connexion globale",
                 "texts": [
                     "Partenariats",
                     "indépendants des fournisseurs"

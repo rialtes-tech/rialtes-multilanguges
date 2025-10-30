@@ -85,8 +85,8 @@ export default function About() {
                 <div className="custom-container lg:!pr-0 overflow-hidden max-md:px-0 h-[350px] md:h-[500px]  4xl:h-[650px] ">
                     {/* Image Element */}
                     <Image
-                        src="/images/about-us/header-logo.webp"
-                        alt="About Us"
+                        src="/images/about-us/futuristic-ai-technology-digital-faces-visualization.webp"
+                        alt={t("bannerAlt")}
                         className="w-full h-[400px] xl:h-[650px] object-cover xl:object-right"
                         width={0}
                         height={0}
@@ -191,8 +191,8 @@ export default function About() {
             {/* welcome section */}
             <section className="relative sm:h-[750px] md:h-[500px] xl:h-[765px] overflow-hidden mt-5 xl:mt-0">
                 <Image
-                    src="/images/about-us/welcome-to.webp"
-                    alt="welcome image"
+                    src="/images/about-us/professional-woman-digital-transformation-future-business.webp"
+                    alt={t("welcomeAlt")}
                     fill
                     style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                     priority
