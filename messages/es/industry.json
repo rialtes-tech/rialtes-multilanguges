@@ -720,6 +720,18 @@
     "contactTitle": "¡Asóciate con Rialtes — Habilitando la Excelencia de Próxima Generación en Farmacéutica y Biotecnología!"
   },
   "medicalDevices": {
+    "bannerAlt": "Escáner de resonancia magnética moderno con iluminación azul en una sala clínica de diagnóstico por imágenes",
+    "thoughtAlt": "Doctora profesional con bata blanca revisando registros médicos en un moderno centro de atención sanitaria",
+    "whyAlt": "Brazos robóticos quirúrgicos avanzados con instrumentos de precisión en quirófano estéril para cirugía mínimamente invasiva",
+    "endAlt": "Pasillo de centro de datos moderno con plantas verdes que representan tecnología de servidores ecológica y eficiente en energía",
+    "keyAlt": "Profesional médico usando tecnología de inteligencia artificial con iconos de salud digital e interfaz de visualización anatómica",
+    "benefitsAlt": "Mujer usando un teléfono inteligente para monitorear datos de salud desde un sensor de glucosa portátil en su brazo, representando tecnología sanitaria conectada",
+    "patientAlt": "Profesional de la salud sonriente con bata y estetoscopio usando una tableta digital para la gestión de pacientes o revisión de datos médicos",
+    "integratedAlt": "Trabajador sanitario con ropa protectora gestionando el inventario de suministros médicos en un almacén",
+    "mobileAlt": "Médico ayudando a un paciente mayor a usar una aplicación móvil de seguimiento de salud",
+    "remoteAlt": "Primer plano de manos usando una aplicación móvil para monitorear datos de salud y estado físico",
+    "agentforceAlt": "Grupo de profesionales médicos discutiendo la atención al paciente mientras revisan información en una tableta digital",
+    "realAlt": "Persona usando un teléfono inteligente con una interfaz de chatbot de IA para comunicación automatizada de atención al cliente",
     "thoughLeadershipData": [
       "Ofrezca recorridos del paciente conformes y fluidos desde la prescripción del dispositivo hasta el seguimiento de resultados.",
       "Integre operaciones clínicas, de cadena de suministro y ventas en un ecosistema digital unificado.",
@@ -798,45 +810,49 @@
       {
         "id": 1,
         "title": "Cumplimiento Normativo y Gestión de Calidad",
-        "imageMobile": "/images/medical/Regulatory Compliance.webp",
-        "imageDesktop": "/images/medical/Regulatory Compliance & Quality Management.webp",
+        "alt": "Interfaz digital que muestra íconos de seguridad laboral y cumplimiento, con una persona usando un teléfono inteligente para el monitoreo",
+        "imageMobile": "/images/medical/workplace-safety-digital-monitoring-mobile.webp",
+        "imageDesktop": "/images/medical/workplace-safety-digital-monitoring.webp",
         "points": [
           "Navegar por regulaciones globales complejas y en constante evolución.",
-          "Dificultad para gestionar la documentación, trazabilidad y auditorías.",
+          "Dificultad para gestionar documentación, trazabilidad y auditorías.",
           "Integración de sistemas de gestión de calidad y acciones correctivas (CAPA)."
         ]
       },
       {
         "id": 2,
         "title": "Complejidad de la Cadena de Suministro y Cumplimiento de Pedidos",
-        "imageMobile": "/images/medical/Supply Chain Complexity.webp",
-        "imageDesktop": "/images/medical/Supply Chain Complexity & Order Fulfillment.webp",
+        "alt": "Farmacéutico con bata blanca utilizando una tableta digital para revisar el inventario en una farmacia",
+        "imageMobile": "/images/medical/pharmacist-using-digital-tablet-mobile.webp",
+        "imageDesktop": "/images/medical/pharmacist-using-digital-tablet.webp",
         "points": [
           "Sistemas desconectados para inventario, fabricación y gestión de pedidos.",
-          "Dificultades para rastrear dispositivos médicos serializados en distintas regiones.",
-          "Gestión de retiradas y devoluciones con cumplimiento normativo y eficiencia."
+          "Dificultades para rastrear dispositivos médicos serializados en diferentes geografías.",
+          "Gestión de retiradas y devoluciones con cumplimiento y eficiencia."
         ]
       },
       {
         "id": 3,
         "title": "Ensayos Clínicos y Seguimiento de Resultados de Pacientes",
-        "imageMobile": "/images/medical/Clinical Trial & Patient.webp",
-        "imageDesktop": "/images/medical/Clinical Trial.webp",
+        "alt": "Técnico de laboratorio con equipo de protección usando una tableta digital para monitorear equipos de fabricación farmacéutica",
+        "imageMobile": "/images/medical/lab-technician-using-digital-tablet-mobile.webp",
+        "imageDesktop": "/images/medical/lab-technician-using-digital-tablet.webp",
         "points": [
           "Herramientas inadecuadas para la gestión integral de ensayos clínicos.",
-          "Datos limitados en tiempo real sobre el rendimiento de dispositivos y resultados de pacientes.",
-          "Desafíos en el compromiso del paciente y la vigilancia postcomercialización."
+          "Datos en tiempo real limitados sobre el rendimiento del dispositivo y los resultados de los pacientes.",
+          "Desafíos en la participación del paciente y la vigilancia posterior a la comercialización."
         ]
       },
       {
         "id": 4,
-        "title": "Monitoreo Remoto y Perspectivas Predictivas Impulsadas por IA",
-        "imageMobile": "/images/medical/Remote Monitoring (3).webp",
-        "imageDesktop": "/images/medical/Remote Monitoring (1).webp",
+        "title": "Monitoreo Remoto e Información Predictiva Impulsada por IA",
+        "alt": "Científica con bata de laboratorio interactuando con una interfaz digital futurista que muestra datos y análisis médicos",
+        "imageMobile": "/images/medical/futuristic-medical-analytics-mobile.webp",
+        "imageDesktop": "/images/medical/futuristic-medical-analytics.webp",
         "points": [
-          "Falta de datos en tiempo real de dispositivos implantados o portátiles.",
-          "Oportunidades perdidas para predecir fallos o eventos adversos.",
-          "Incapacidad para optimizar el rendimiento de dispositivos según datos de uso del mundo real."
+          "Falta de datos de pacientes en tiempo real provenientes de dispositivos implantados o portátiles.",
+          "Oportunidades perdidas para predecir fallas o eventos adversos.",
+          "Incapacidad para optimizar el rendimiento del dispositivo según datos del uso real."
         ]
       }
     ],

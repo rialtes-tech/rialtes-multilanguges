@@ -121,7 +121,7 @@
       },
       {
         "id": 9,
-        "image": "/images/case-studies/case-study-7_thumb.webp",
+        "image": "/images/case-studies/doctor-patient-consultation-mobile.webp",
         "industry": "Healthcare",
         "date": "16 Aug 2024",
         "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/",
@@ -140,6 +140,7 @@
     ]
   },
   "yardiCaseStudy": {
+    "bannerAlt": "Conceptual illustration of a diverse urban community collaborating within a circular city model",
     "seoTitle": "Yardi Implementation Case Study: 5 Years, 1 PHA, and Big Wins",
     "seoDescription": "Explore our Yardi implementation case study to see how we supported a 5-year digital transformation journey with Yardi AMS for long-term success.",
     "headerTitle": "Trusted YARDI Partner for North America’s Largest PHA",
@@ -199,7 +200,7 @@
   },
   "automateCaseStudy": {
     "seoTitle": "MuleSoft Case Study: Order Processing Automation with Salesforce & SAP",
-    "seoDescription":"Streamlined complex order flows using MuleSoft, Salesforce, and SAP APIs. Dive into this MuleSoft case study to see integration in action.",
+    "seoDescription": "Streamlined complex order flows using MuleSoft, Salesforce, and SAP APIs. Dive into this MuleSoft case study to see integration in action.",
     "autoTitle": "Automating Order Processing in Healthcare using MuleSoft",
     "healthcare": "Healthcare",
     "cliendTitle": "Client Profile",
@@ -252,8 +253,9 @@
     ]
   },
   "digitizingCaseStudy": {
+    "bannerAlt": "Doctor showing medical information on a digital tablet to a senior patient during a consultation",
     "seoTitle": "Salesforce Health Cloud Case Study: Patient Journey Digitized",
-    "seoDescription":"Discover how healthcare is transforming with a digital-first patient journey powered by Salesforce, enhancing care, access, and patient engagement.",
+    "seoDescription": "Discover how healthcare is transforming with a digital-first patient journey powered by Salesforce, enhancing care, access, and patient engagement.",
     "digitizingTitle": "Digitizing the Patient Journey Using Salesforce Health Cloud",
     "healthcare": "Healthcare",
     "clientTitle": "Client Profile",
@@ -320,7 +322,7 @@
     ]
   },
   "empoweringCaseStudy": {
-    "seoTitle": "SAP Fiori for Sales Order Prioritization in Manufacturing | Rialtes",  
+    "seoTitle": "SAP Fiori for Sales Order Prioritization in Manufacturing | Rialtes",
     "seoDescription": "Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy.",
     "headerTitle": "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
     "manufacturing": "Manufacturing",
@@ -492,6 +494,7 @@
     ]
   },
   "omnichannelCaseStudy": {
+    "bannerAlt": "Close-up of a precision machine working on a glowing microchip representing advanced semiconductor manufacturing",
     "seoTitle": "Salesforce Service Cloud Case Study: Omnichannel Case Management",
     "seoDescription": "Explore how a leading semiconductor provider transformed their customer service with Salesforce Service Cloud.Discover a Salesforce Service Cloud success story—next-gen case management transformed with automation, faster service, and elevated customer support.",
     "serviceTitle": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
@@ -836,8 +839,9 @@
     ]
   },
   "salesForceCaseStudy": {
+    "bannerAlt": "Digital visualization of a neural network or brain structure above a tablet, symbolizing artificial intelligence and data connectivity",
     "seoTitle": "Salesforce Health Cloud Case Study: Prior Authorization Streamlined",
-    "seoDescription":"See how Salesforce Health Cloud sped up prior authorizations, streamlining workflows in complex healthcare environments for faster patient care.",
+    "seoDescription": "See how Salesforce Health Cloud sped up prior authorizations, streamlining workflows in complex healthcare environments for faster patient care.",
     "salesforceTitle": "Digitizing Prior Authorization for Better Patient Outcomes",
     "healthcare": "Healthcare",
     "clientTitle": "Client Profile",
@@ -968,7 +972,6 @@
     ]
   },
   "warrantyClaimCaseStudy": {
-
     "seoTitle": "Case Study: Salesforce Experience Cloud for Roofing Manufacturer | Rialtes",
     "seoDescription": "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
     "warrantyTitle": "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
@@ -992,8 +995,9 @@
     ]
   },
   "yardiManageCaseStudy": {
+    "bannerAlt": "Abstract 3D visualization of colorful data bars representing analytics and digital growth",
     "seoTitle": "Yardi Case Study: Reducing Downtime in Multifamily Real Estate",
-    "seoDescription":"Discover how our Yardi Managed Services significantly reduced downtime, improved performance, and boosted operational efficiency for a real estate leader.",
+    "seoDescription": "Discover how our Yardi Managed Services significantly reduced downtime, improved performance, and boosted operational efficiency for a real estate leader.",
     "yardiTitle": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
     "realEstate": "Real Estate",
     "clientProfile": "Client Profile",
@@ -1043,8 +1047,8 @@
     ]
   },
   "eduplusCaseStudy": {
-    "seoTitle":"Retrieving data. Wait a few seconds and try to cut or copy again.",
-    "seoDescription":"See how Rialtes Edu+ on Salesforce Education Cloud boosted enrollment by 22% and improved student support with AI, automation, and connected experiences.",
+    "seoTitle": "Retrieving data. Wait a few seconds and try to cut or copy again.",
+    "seoDescription": "See how Rialtes Edu+ on Salesforce Education Cloud boosted enrollment by 22% and improved student support with AI, automation, and connected experiences.",
     "educationcloud": "Education",
     "eduTitle": "Transforming Student Success with Salesforce Education Cloud and Edu+",
     "clientTitle": " Client Overview",
