@@ -1932,6 +1932,16 @@
     ]
   },
   "automativeIndustry": {
+    "partneringPowerAlt" : "Night highway with red orange light trails representing Rialtes SAP and Salesforce partnership power for automotive solutions",
+    "integrationSectionAlt" : "Man charging electric vehicle outdoors showcasing SAP CPI BTP integration for automotive stack and mobility services technology",
+    "unlockingSectionAlt" : "Commercial vehicle technician performing maintenance in workshop representing fleet service management and automotive repair operations",
+    "empoweringSectionAlt" : "Digital red car with cloud technology on highway with light trails representing connected automotive cloud and data integration",
+    "dealerSectionAlt" : "Professional sales team reviewing tablet together in modern car dealership for customer relationship management and deal closing",
+    "enablingSectionAlt" : "Car salesman consulting with customer at computer in bright showroom providing personalized automotive sales and finance solutions",
+    "revolutionizingAlt" : "Automotive technician using diagnostic tablet in modern service center revolutionizing vehicle maintenance and repair operations",
+    "comprehensiveSectionAlt" :"Smiling automotive manager with smartphone in vehicle fleet dealership representing comprehensive customer service journey",
+    "thoughtLeadershipAlt" : "Automotive professionals consulting with tablet in modern car dealership discussing industry solutions and leadership challenges",
+    "bannerAlt" : "Futuristic green digital car with network visualization on urban road representing automotive digital transformation technology",
     "seoTitle": "Digital Transformation in Automotive Industry | Rialtes",
     "seoDescription": "Ready for digital transformation in automotive? Partner with Rialtes to revolutionize your automotive industry journey and fuel future growth.",
     "keyIndustryChallenges": [
@@ -1965,9 +1975,10 @@
     ],
     "endtoendautomativesection": [
       {
-        "imgUrlMobile": "/images/industry/auto-industry/Mobile/lead-mgmt-mob-img.webp",
-        "imgUrlDesktop": "/images/industry/auto-industry/lead-mgmt-img.webp",
+        "imgUrlMobile": "/images/industry/auto-industry/Mobile/female-automotive-professional-tablet-showroom-mobile.webp",
+        "imgUrlDesktop": "/images/industry/auto-industry/female-automotive-professional-tablet-showroom.webp",
         "title": "Lead Management & Vehicle Discovery",
+        "alt" : "Confident female automotive professional with tablet in car showroom representing dealer management and digital solutions",
         "list": [
           "Omnichannel lead capture via Salesforce Automotive Cloud — web, mobile, showroom, and social.",
           "Dynamic lead scoring and nurturing using Marketing Cloud.",
@@ -1977,9 +1988,10 @@
         ]
       },
       {
-        "imgUrlMobile": "/images/industry/auto-industry/Mobile/deal-finance-mob-img.webp",
-        "imgUrlDesktop": "/images/industry/auto-industry/deal-finance-img.webp",
+        "imgUrlMobile": "/images/industry/auto-industry/Mobile/car-sales-team-consulting-blue-folder-showroom-mobile.webp",
+        "imgUrlDesktop": "/images/industry/auto-industry/car-sales-team-consulting-blue-folder-showroom.webp",
         "title": "Deal & Finance Management",
+        "alt" : "Professional car sales team reviewing blue folder in showroom for deal and finance management automotive solutions",
         "list": [
           "Quote and negotiation management using Salesforce Revenue Cloud (CPQ).",
           "Integrated credit application, leasing, and financing options.",

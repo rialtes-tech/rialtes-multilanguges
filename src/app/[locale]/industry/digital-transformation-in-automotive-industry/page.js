@@ -135,8 +135,8 @@ export default function page() {
                 {/* Mobile View */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/industry/auto-industry/Mobile/thought-leadership-mob-img.webp"
-                        alt="thought-leadership-mob-img"
+                        src="/images/industry/auto-industry/Mobile/automotive-team-consulting-tablet-dealership-mobile.webp"
+                        alt={t("thoughtLeadershipAlt")}
                         className="w-full h-auto"
                         width={0}
                         height={0}
@@ -164,8 +164,8 @@ export default function page() {
                 {/* Desktop View */}
                 <div className={`hidden md:block relative w-full ${(frActive || esActive) ? "lg:h-[1100px] xl:h-[1300px] md:h-[1150px] 2xl:h-[1450px] 3xl:h-[1300px] 4xl:h-[1500px]" : "lg:h-[1000px] xl:h-[1200px] md:h-[1100px] 2xl:h-[1450px] 3xl:h-[1300px]"} `}>
                     <Image
-                        src="/images/industry/auto-industry/thought-leadership-img.webp"
-                        alt="thought-leadership-img"
+                        src="/images/industry/auto-industry/automotive-team-consulting-tablet-dealership.webp"
+                        alt={t("thoughtLeadershipAlt")}
                         className="w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -210,9 +210,9 @@ export default function page() {
             <section>
                 <div className="relative mt-[60px] md:mt-0 mb-20 max-[400px]:h-[1200px] h-[1000px] sm:h-[1000px] xl:h-[1000px] 2xl:h-[1200px] 3xl:h-[1100px]">
                     <div className="absolute inset-0 xl:w-[94%] mx-auto
-                            bg-[url('/images/industry/auto-industry/Mobile/predelivered-mob-img.webp')]
-                            md:bg-[url('/images/industry/auto-industry/Mobile/predelivered-mob-img.webp')]
-                            xl:bg-[url('/images/industry/auto-industry/predelivered-img.webp')]
+                            bg-[url('/images/industry/auto-industry/Mobile/automotive-accelerators-blue-motion-technology-mobile.webp')]
+                            md:bg-[url('/images/industry/auto-industry/Mobile/automotive-accelerators-blue-motion-technology-mobile.webp')]
+                            xl:bg-[url('/images/industry/auto-industry/automotive-accelerators-blue-motion-technology.webp')]
                             bg-no-repeat bg-cover
                             z-0" style={{ backgroundSize: "100% 100%" }}></div>
                     <div className="relative z-10 pt-[64px] xl:pt-[82px] max-[350px]:h-[1100px] h-[1050px] sm:h-[760px] md:h-full">
@@ -267,7 +267,7 @@ export default function page() {
                                 {/* Mobile Image */}
                                 <Image
                                     src={section.imgUrlMobile}
-                                    alt={section.title}
+                                    alt={section.alt}
                                     className="block lg:hidden mb-4 h-auto w-full"
                                     width={0}
                                     height={0}
@@ -276,7 +276,7 @@ export default function page() {
                                 {/* Desktop Image */}
                                 <Image
                                     src={section.imgUrlDesktop}
-                                    alt={section.title}
+                                    alt={section.alt}
                                     className="hidden lg:block mb-4 h-auto w-full"
                                     width={0}
                                     height={0}
@@ -299,8 +299,8 @@ export default function page() {
             <section className="relative xl:mt-[93px] mt-[107px] w-full">
                 {/* Mobile Image */}
                 <Image
-                    src="/images/industry/auto-industry/Mobile/comprehensive-customer-mob-img.webp"
-                    alt="Customer Journey Mobile"
+                    src="/images/industry/auto-industry/Mobile/automotive-manager-smartphone-fleet-dealership-mobile.webp"
+                    alt={t("comprehensiveSectionAlt")}
                     className="block md:hidden w-full h-full object-cover"
                     width={0}
                     height={0}
@@ -309,8 +309,8 @@ export default function page() {
                 {/* Desktop Image */}
                 <div className="3xl:h-full xl:h-[700px]">
                     <Image
-                        src="/images/industry/auto-industry/comprehensive-customer-img.webp"
-                        alt="Customer Journey Desktop"
+                        src="/images/industry/auto-industry/automotive-manager-smartphone-fleet-dealership.webp"
+                        alt={t("comprehensiveSectionAlt")}
                         className="hidden md:block w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -362,8 +362,8 @@ export default function page() {
     const PersonalizingSection = () => {
         return (
             <section className="relative h-full xl:mt-[96px] mt-[91px] custom-container md:pr-0 max-md:px-0">
-                <div className="flex items-start justify-start xl:pt-[64px] pt-[38px] xl:pb-[104px] pb-[73px] bg-[url('/images/industry/auto-industry/Mobile/personalizing-mob-img.webp')]
-                        md:bg-[url('/images/industry/auto-industry/personalizing-img.webp')] bg-no-repeat bg-cover">
+                <div className="flex items-start justify-start xl:pt-[64px] pt-[38px] xl:pb-[104px] pb-[73px] bg-[url('/images/industry/auto-industry/Mobile/salesforce-marketing-cloud-automotive-personalization-mobile.webp')]
+                        md:bg-[url('/images/industry/auto-industry/salesforce-marketing-cloud-automotive-personalization.webp')] bg-no-repeat bg-cover">
                     <div className="md:pl-[76px] w-full 2xl:w-[61%] xl:w-[81%] lg:w-[60%] md:w-[70%] sm:w-[80%] max-md:pl-[36px]">
                         <h2 className="text-[#FFFFFF] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] md:text-[29px] max-[400px]:text-[22px] leading-tight font-light 4xl:w-[732px] 2xl:w-[710px] xl:w-[500px] lg:w-[587px] md:w-[425px] w-full">
                             {t('personalizingTitle')}
@@ -386,8 +386,8 @@ export default function page() {
                 <div className="mt-[78px] xl:mt-[89px]">
                     {/* Mobile Image */}
                     <Image
-                        src="/images/industry/auto-industry/Mobile/revolutionizing-service-mob-img.webp"
-                        alt="revolutionizing-service-img"
+                        src="/images/industry/auto-industry/Mobile/automotive-technician-diagnostic-tablet-service-center-mobile.webp"
+                        alt={t("revolutionizingAlt")}
                         className="block md:hidden w-full"
                         width={0}
                         height={0}
@@ -395,8 +395,8 @@ export default function page() {
                     />
                     {/* Desktop Image */}
                     <Image
-                        src="/images/industry/auto-industry/revolutionizing-service-img.webp"
-                        alt="revolutionizing-service-img"
+                        src="/images/industry/auto-industry/automotive-technician-diagnostic-tablet-service-center.webp"
+                        alt={t("revolutionizingAlt")}
                         className="hidden md:block w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -440,8 +440,8 @@ export default function page() {
                         {/* Mobile Image - overlapping on content */}
                         <div className="block sm:block md:hidden absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[25%] z-20 w-[80%] max-w-[460px]">
                             <Image
-                                src="/images/industry/auto-industry/Mobile/enabling-dynamic-mob-img.webp"
-                                alt="enabling-dynamic-img-mobile"
+                                src="/images/industry/auto-industry/Mobile/car-salesman-customer-consultation-showroom-computer-mobile.webp"
+                                alt={t("enablingSectionAlt")}
                                 className="h-auto w-full max-w-full object-cover"
                                 width={0}
                                 height={0}
@@ -451,8 +451,8 @@ export default function page() {
                         {/* Desktop Image */}
                         <div className="absolute h-[80%] w-full hidden md:block">
                             <Image
-                                src="/images/industry/auto-industry/enabling-dyanamic-img.webp"
-                                alt="enabling-dynamic-img-desktop"
+                                src="/images/industry/auto-industry/car-salesman-customer-consultation-showroom-computer.webp"
+                                alt={t("enablingSectionAlt")}
                                 className="w-full object-cover h-full"
                                 style={{ objectPosition: '40% 20%' }}
                                 width={0}
@@ -489,8 +489,8 @@ export default function page() {
                         {/* Mobile Image - overlapping on content */}
                         <div className="block sm:block md:hidden absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[25%] z-20 w-[80%] max-w-[460px]">
                             <Image
-                                src="/images/industry/auto-industry/Mobile/dealer-buyer-mob-img.webp"
-                                alt="dealer-buyer-mob-img"
+                                src="/images/industry/auto-industry/Mobile/sales-professionals-tablet-dealership-consultation-mobile.webp"
+                                alt={t("dealerSectionAlt")}
                                 className="block md:hidden h-full w-full object-cover"
                                 width={0}
                                 height={0}
@@ -499,8 +499,8 @@ export default function page() {
                         </div>
                         {/* Desktop Image */}
                         <Image
-                            src="/images/industry/auto-industry/dealer-buyer-img.webp"
-                            alt="dealer-buyer-img"
+                            src="/images/industry/auto-industry/sales-professionals-tablet-dealership-consultation.webp"
+                            alt={t("dealerSectionAlt")}
                             className="hidden md:block w-full h-[80%] lg:h-[90%] object-cover"
                             width={0}
                             height={0}
@@ -533,8 +533,8 @@ export default function page() {
                         {/* Mobile Image - overlapping on content */}
                         <div className="block sm:block md:hidden absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[25%] z-20 w-[80%] max-w-[460px]">
                             <Image
-                                src="/images/industry/auto-industry/Mobile/empowering-dealers-mob-img.webp"
-                                alt="empowering-dealers-mob-img"
+                                src="/images/industry/auto-industry/Mobile/cloud-technology-highway-digital-automotive-future-mobile.webp"
+                                alt={t("empoweringSectionAlt")}
                                 className="h-auto w-full object-cover"
                                 width={0}
                                 height={0}
@@ -544,8 +544,8 @@ export default function page() {
                         {/* Desktop Image */}
                         <div className="absolute h-[80%] w-full hidden md:block">
                             <Image
-                                src="/images/industry/auto-industry/empowering-dealers-img.webp"
-                                alt="empowering-dealers-img"
+                                src="/images/industry/auto-industry/cloud-technology-highway-digital-automotive-future.webp"
+                                alt={t("empoweringSectionAlt")}
                                 className="w-full object-cover h-full"
                                 width={0}
                                 height={0}
@@ -581,8 +581,8 @@ export default function page() {
                         {/* Mobile Image - overlapping on content */}
                         <div className="block sm:block md:hidden absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[25%] z-20 w-[80%] max-w-[460px]">
                             <Image
-                                src="/images/industry/auto-industry/Mobile/unlocking-data-mob-img.webp"
-                                alt="unlocking-data-mob-img"
+                                src="/images/industry/auto-industry/Mobile/commercial-vehicle-technician-maintenance-workshop-mobile.webp"
+                                alt={t("unlockingSectionAlt")}
                                 className="block md:hidden h-full w-full object-cover"
                                 width={0}
                                 height={0}
@@ -591,8 +591,8 @@ export default function page() {
                         </div>
                         {/* Desktop Image */}
                         <Image
-                            src="/images/industry/auto-industry/unlocking-data-img.webp"
-                            alt="unlocking-data-img"
+                            src="/images/industry/auto-industry/commercial-vehicle-technician-maintenance-workshop.webp"
+                            alt={t("unlockingSectionAlt")}
                             className="hidden md:block w-full h-[80%] lg:h-[90%] object-cover"
                             width={0}
                             height={0}
@@ -624,8 +624,8 @@ export default function page() {
                 <div className="relative block md:hidden">
                     <div className="sm:h-[1200px] h-full">
                         <Image
-                            src="/images/industry/auto-industry/Mobile/integrating-automative-mob-img.webp"
-                            alt="integrating-automative-mob-img"
+                            src="/images/industry/auto-industry/Mobile/ev-charging-integration-automotive-technology-sap-mobile.webp"
+                            alt={t("integrationSectionAlt")}
                             className="w-full h-full object-cover sm:object-[35%_50%]"
                             width={0}
                             height={0}
@@ -648,8 +648,8 @@ export default function page() {
                 {/* Desktop View */}
                 <div className={`${(frActive || esActive) ? "2xl:h-[990px]" : "2xl:h-[900px]"}  xl:h-[1000px] md:h-[700px]`}>
                     <Image
-                        src="/images/industry/auto-industry/integrating-automative-img.webp"
-                        alt="integrating-automative-img"
+                        src="/images/industry/auto-industry/ev-charging-integration-automotive-technology-sap.webp"
+                        alt={t("integrationSectionAlt")}
                         className="hidden md:block w-full h-full object-cover"
                         width={0}
                         height={0}
@@ -691,8 +691,8 @@ export default function page() {
                 <div className="md:h-[700px] block md:hidden">
                     <div className="sm:h-[1200px] h-full">
                         <Image
-                            src="/images/industry/auto-industry/Mobile/partnering-power-mob-img.webp"
-                            alt="partnering-power-mob-img"
+                            src="/images/industry/auto-industry/Mobile/highway-light-trails-sap-salesforce-partnership-mobile.webp"
+                            alt={t("partneringPowerAlt")}
                             className="w-full h-full"
                             width={0}
                             height={0}
@@ -719,8 +719,8 @@ export default function page() {
                 <div className={`hidden md:block relative w-full h-full ${(frActive || esActive) ? "md:h-[530px] lg:h-[590px] xl:h-[650px] 2xl:h-[800px] 4xl:h-[780px]" : "md:h-[500px] lg:h-[550px] xl:h-[615px] 2xl:h-[740px] 4xl:h-[780px]"} `}>
                     <div className="relative w-full h-full">
                         <Image
-                            src="/images/industry/auto-industry/partnering-power-img.webp"
-                            alt="partnering-power-img"
+                            src="/images/industry/auto-industry/highway-light-trails-sap-salesforce-partnership.webp"
+                            alt={t("partneringPowerAlt")}
                             className="w-full h-full object-cover"
                             width={0}
                             height={0}
@@ -755,8 +755,8 @@ export default function page() {
             <section className="custom-container max-md:px-0">
                 <div
                     className={`xl:pl-[61px] px-[35px] xl:mt-[94px] mt-[63px] xl:pt-[129px] pt-[49px] xl:pb-[160px] pb-[59px] 
-                    bg-[url('/images/industry/auto-industry/Mobile/related-solutions-mob-img.webp')] bg-cover bg-center
-                    md:bg-[url('/images/industry/auto-industry/related-solutions-img.webp')] md:bg-cover md:bg-center`}>
+                    bg-[url('/images/industry/auto-industry/Mobile/blue-technology-network-related-automotive-solutions-mobile.webp')] bg-cover bg-center
+                    md:bg-[url('/images/industry/auto-industry/blue-technology-network-related-automotive-solutions.webp')] md:bg-cover md:bg-center`}>
                     <h2 className="4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight font-light text-[#FFFFFF]">
                         {t('relatedTitle')}
                     </h2>
@@ -793,9 +793,9 @@ export default function page() {
                     <div className="xl:block hidden">
                         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[30px] lg:gap-0 mt-[-120px] 4xl:mt-[-90px]">
                             {relatedSolutionsData.map((item, index) => (
-                                <div className={`w-fit ${index !== 0 ? "pl-[30px]" : ""}`}>
+                                <div  key={index} className={`w-fit ${index !== 0 ? "pl-[30px]" : ""}`}>
                                     <LearnMore
-                                        key={index}
+                                
                                         btnName={t('learnMoreBtn')}
                                         bgcolor="#006FBE"
                                         bordercolor="#006FBE"
@@ -825,8 +825,8 @@ export default function page() {
             <section className="relative group overflow-hidden h-[400px] md:h-[500px] 4xl:h-[650px]">
                 <div className="hidden md:block">
                     <Image
-                        src="/images/industry/auto-industry/auto-industry-banner.webp"
-                        alt="desktop banner"
+                        src="/images/industry/auto-industry/digital-car-green-technology-urban-transformation.webp"
+                        alt={t("bannerAlt")}
                         fill
                         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                         priority
@@ -836,8 +836,8 @@ export default function page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp"
-                        alt="mobile banner"
+                        src="/images/industry/auto-industry/Mobile/digital-car-green-technology-urban-transformation-mobile.webp"
+                        alt={t("bannerAlt")}
                         fill
                         priority
                     />
