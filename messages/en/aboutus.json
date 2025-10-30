@@ -1,5 +1,7 @@
 {
   "aboutUs": {
+    "welcomeAlt" : "Smiling professional woman with tablet outdoors representing intelligent business future and AI-driven transformation strategies",
+    "bannerAlt" : "Futuristic digital faces with neon pink blue lighting and AR glasses representing AI technology and data-driven innovation",
     "aboutusTitle": "About Us",
     "seoTitle": "Empowering Enterprise Transformation Journey | About Rialtes",
     "seoDescription": "Your enterprise transformation journey starts here—Rialtes simplifies change, enables AI adoption, and empowers growth with trusted partnership and boosted ROI.",
@@ -37,26 +39,26 @@
     ],
     "brandStories": [
       {
-        "image": "/images/about-us/lifescience.webp",
-        "alt": "Life Sciences Company",
+        "image": "/images/about-us/digital-tree-life-sciences-patient-solution.webp",
+        "alt": "Glowing green digital tree on network base representing European life sciences patient-centric healthcare technology solution",
         "description": "Launching comprehensive patient centric solution for the largest European life sciences company in United States"
       },
       {
-        "image": "/images/about-us/singapore.webp",
-        "alt": "Singapore’s Largest Employer",
+        "image": "/images/about-us/singapore-marina-bay-business-architecture-twilight.webp",
+        "alt": "Marina Bay Sands iconic architecture at twilight with illuminated windows empowering Singapore's largest employer operations",
         "description": "Empowering Singapore’s largest employer to run their business every day"
       },
       {
-        "image": "/images/about-us/automotive.webp",
-        "alt": "India’s Largest Automotive Manufacturer",
+        "image": "/images/about-us/highway-light-trails-automotive-expansion-speed.webp",
+        "alt": "Dynamic highway light trails with orange blue streaks representing India's automotive manufacturer expansion and acceleration",
         "description": "Accelerating India’s Largest automotive manufacturer to expand in North America"
       }
     ],
     "corePrinciples": [
       {
-        "image": "/images/about-us/trust.svg",
+        "image": "/images/about-us/trust-shield-badge-certification-icon.svg",
         "label": "Trust",
-        "alt": "Trust Principle Icon",
+        "alt": "Blue line icon showing shield with checkmark and ribbon badge representing trust certification and quality assurance standards",
         "width": {
           "base": 135,
           "xl": 177
@@ -67,9 +69,9 @@
         }
       },
       {
-        "image": "/images/about-us/transperancy.svg",
+        "image": "/images/about-us/transparency-document-magnifying-glass-icon.svg",
         "label": "Transparency",
-        "alt": "Transparency Principle Icon",
+        "alt": "Blue line icon depicting document with magnifying glass representing transparency accountability and detailed information review",
         "width": {
           "base": 150,
           "xl": 192
@@ -80,9 +82,9 @@
         }
       },
       {
-        "image": "/images/about-us/commitment.svg",
+        "image": "/images/about-us/commitment-handshake-partnership-agreement-icon.svg",
         "label": "Commitment",
-        "alt": "Commitment Principle Icon",
+        "alt": "Blue line icon showing handshake representing business commitment partnership collaboration and professional agreement relationships",
         "width": {
           "base": 150,
           "xl": 192
@@ -115,33 +117,39 @@
     ]
   },
   "ourValue": {
+    "commitmentAlt" : "Female athlete pole vaulting against blue sky representing business trust transparency and commitment to deliver excellence",
+    "bannerAlt" : "Hiker with Rialtes backpack facing snowy mountain peaks representing company culture values and daily growth mindset journey",
     "seoTitle": "Our Values - Empowering People with Trust & Inclusion | Rialtes",
     "seoDescription": "At Rialtes, we celebrate people. From women in tech to LGBTQ+ and veterans, we drive impact through equal opportunity and unwavering commitment.",
     "growLatestServices": [
       {
         "id": 1,
-        "image": "/images/culture/Equal Opportunity.webp",
+        "image": "/images/culture/diversity-inclusion-colorful-figures-accessibility.webp",
+        "alt" :"Colorful paper figures including wheelchair symbols on dark background representing equal opportunity diversity and inclusion",
         "title": "Equal Opportunity",
         "description1": "We are proud to be an equal opportunity employer, committed to fostering a diverse, inclusive, and respectful workplace.",
         "description2": "Our culture is built on fairness, inclusion, and meritocracy, empowering every team member to thrive. At Rialtes, diversity drives innovation and excellence."
       },
       {
         "id": 2,
-        "image": "/images/culture/Welcome LGBTQ+.webp",
+        "image": "/images/culture/lgbtq-pride-rainbow-flags-workplace-celebration.webp",
+        "alt" : "Diverse team celebrating with rainbow pride flags in modern office representing LGBTQ+ inclusion and workplace diversity values",
         "title": "Welcome LGBTQ+",
         "description1": "We are committed to creating a safe, inclusive, and supportive environment for LGBTQ+ individuals. We actively promote diversity, inclusion, and allyship, fostering a culture where everyone feels valued and empowered to be their authentic selves.",
         "description2": "At Rialtes, we stand for equality, acceptance, and belonging."
       },
       {
         "id": 3,
-        "image": "/images/culture/Honor Veterans.webp",
+        "image": "/images/culture/veterans-professional-handshake-office-meeting.webp",
+        "alt" : "Professional woman and man shaking hands in modern office representing honoring veterans and professional workplace relationships",
         "title": "Honor Veterans",
         "description1": "Our inclusive workplace ensures that veterans feel welcomed, valued, and empowered to thrive in their professional journeys.",
         "description2": "At Rialtes, we recognize the sacrifices of our veterans and are dedicated to helping them build successful futures."
       },
       {
         "id": 4,
-        "image": "/images/culture/Women in Tech.webp",
+        "image": "/images/culture/women-in-tech-diverse-team-collaboration.webp",
+        "alt" : "Three diverse women smiling together working on computers representing women in technology and collaborative workplace culture",
         "title": "Women in Tech",
         "description1": "Through mentorship, equal opportunities, and leadership development, we ensure that women in tech thrive and drive innovation.",
         "description2": "At Rialtes, we believe diversity in technology leads to stronger, smarter solutions for the future."
@@ -149,20 +157,20 @@
     ],
     "principleItems": [
       {
-        "image": "/images/about-us/trust.svg",
-        "alt": "Trust Icon",
+        "image": "/images/about-us/trust-shield-badge-certification-icon.svg",
+        "alt": "Blue line icon showing shield with checkmark and ribbon badge representing trust certification and quality assurance standards",
         "label": "Trust",
         "className": "xl:w-[132px] w-[119px]"
       },
       {
-        "image": "/images/about-us/transperancy.svg",
-        "alt": "Transparency Icon",
+        "image": "/images/about-us/transparency-document-magnifying-glass-icon.svg",
+        "alt": "Blue line icon depicting document with magnifying glass representing transparency accountability and detailed information review",
         "label": "Transparency",
         "className": "xl:w-[150px] w-[119px]"
       },
       {
-        "image": "/images/about-us/commitment.svg",
-        "alt": "Commitment Icon",
+        "image": "/images/about-us/commitment-handshake-partnership-agreement-icon.svg",
+        "alt": "Blue line icon showing handshake representing business commitment partnership collaboration and professional agreement relationships",
         "label": "Commitment",
         "className": "xl:w-[150px] w-[124px]"
       }
