@@ -59,8 +59,9 @@ export default function () {
 
                 }
                 schemaData={schemaData}
-                deskImg="/images/webinar/webinar-20.webp"
-                mobImg="/images/webinar/webinar-20.webp"
+                deskImg="/images/webinar/digital-wave-data-network.webp"
+                mobImg="/images/webinar/digital-wave-data-network.webp"
+                imageAlt={t('imageAlt')}
                 webinarTitle={t('webinarTitle')}
                 speakerName="Anuraag Aggarwal"
                 speakerDesignation="Vice President of Global Sales"

@@ -33,6 +33,7 @@
         "captchaError2": "Réponse captcha incorrecte. Veuillez réessayer."
     },
     "CIGWebinar": {
+        "imageAlt":"Bâtiment en verre futuriste reflétant le ciel bleu et les nuages, symbole d’innovation et de transformation numérique",
         "seoTitle": "Webinar Intégration SAP Ariba CIG : Synchronisation Cloud S/4HANA | Rialtes",
         "seoDescription": "Découvrez comment l’intégration SAP Ariba CIG aide les utilisateurs ERP et S/4HANA à optimiser leurs achats avec automatisation cloud et insights.",
         "webinarTitle": "CIG, votre passerelle vers SAP Ariba",
@@ -108,6 +109,7 @@
         "webinarInfo": "Découvrez une manière plus efficace d'intégrer les employés. Rejoignez-nous pour un webinaire instructif illustrant les dernières améliorations d’Onboarding 2.0 de SAP SuccessFactors, visant à améliorer l'expérience des nouvelles recrues de la pré-intégration au jour 1, et mettant en évidence comment il transforme et simplifie le parcours d'intégration par rapport à son prédécesseur, SAP Onboarding 1.0."
     },
     "voyageWebinar": {
+        "imageAlt":"Vague numérique composée de connexions lumineuses fusionnant avec l’océan, symbolisant le flux de données et l’innovation",
         "seoTitle": "Webinar SAP RISE : Simplifiez votre parcours SAP avec Voyager+",
         "seoDescription": "Participez à notre webinar SAP RISE pour découvrir VoyagerPlus, un cadre puissant pour simplifier votre parcours SAP, accélérer l’adoption cloud et transformer l’entreprise.",
         "webinarAdvantagesData": [

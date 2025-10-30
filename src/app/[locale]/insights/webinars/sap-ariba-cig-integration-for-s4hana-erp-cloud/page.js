@@ -59,8 +59,9 @@ export default function () {
                     />
                 }
                 schemaData={schemaData}
-                deskImg="/images/webinar/Webinar_27 May 25_webinar Banner.webp"
-                mobImg="/images/webinar/Webinar_27 May 25_webinar Banner.webp"
+                deskImg="/images/webinar/futuristic-glass-building-reflection.webp"
+                mobImg="/images/webinar/futuristic-glass-building-reflection.webp"
+                imageAlt={t('imageAlt')}
                 webinarTitle={t('webinarTitle')}
                 speakerName="Sapna Chauhan"
                 speakerDesignation="Software Engineer - SAP"

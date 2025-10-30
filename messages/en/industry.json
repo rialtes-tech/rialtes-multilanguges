@@ -1131,6 +1131,15 @@
     "contactSubTitle": "Transform your patient care model with Rialtes’ Salesforce-powered home health solutions"
   },
   "semiconductor": {
+    "bannerAlt":"Macro view of semiconductor wafer with glowing pink and blue silicon chips on circuit board representing advanced microelectronics",
+    "dataAlt":"Futuristic microprocessor chip with glowing red and blue data streams flowing upward representing quantum computing and AI processing",
+    "semiALt":"Semiconductor technician in cleanroom suit holding colorful silicon wafer with microchip patterns in sterile manufacturing facility",
+    "deepAlt":"Gloved hands holding glowing microchip with bright orange sparks representing semiconductor innovation and nanotechnology research",
+    "aiAlt": "Robotic arm performing precision inspection on semiconductor wafer with microchips in advanced chip manufacturing facility",
+    "keyAlt": "Female worker in white hard hat and yellow safety vest monitoring production data dashboard with charts in industrial facility",
+    "endAlt": "Two robotic hands shaking in digital handshake with glowing orange circuit patterns on blue technology background showing partnership",
+    "whyAlt": "Semiconductor engineer in protective eyewear and gloves precisely handling illuminated microchip pins in advanced research laboratory",
+    "globalAlt":"Business professionals analyzing global data on digital world map in a modern analytics control room",
     "seoTitle": "AI in Semiconductor Industry: Scalable IT Solutions | Rialtes",
     "seoDescription": "Rialtes enables AI in semiconductor industry with SAP and Salesforce to boost fab productivity, partner collaboration, and intelligent forecasting.",
     "headerTitle": " Semiconductor Industry",
@@ -1265,8 +1274,9 @@
           "Costing, profitability, and revenue recognition linked directly to production yields, customer-specific agreements, and volume pricing models.",
           "Warranty, return, and service management for both B2B and B2C semiconductor products, including support for long lifecycle components."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/sap-s4hana-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/sap-s4hana-desk.webp"
+        "imageAlt":"Precision probe testing semiconductor wafer with microchips in advanced manufacturing lab for electronics quality control",
+        "mobImg": "/images/industry/semi-conductor/Mobile/semiconductor-wafer-testing-manufacturing-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/semiconductor-wafer-testing-manufacturing.webp"
       },
       {
         "title": "Salesforce Industry Cloud for Semiconductor Customer and Partner Engagement",
@@ -1278,8 +1288,9 @@
           "Customer support, RMA, and technical service case management, including escalation tracking and AI-based service analytics.",
           "Intelligent forecasting and demand planning driven by customer engagement insights and AI/ML analysis of sales pipelines and design pipelines."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/salesforce-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/salesforce-desk.webp"
+        "imageAlt":"Robotic arm touching glowing cloud icon on digital interface representing AI automation and cloud computing technology",
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-automation-cloud-computing-technology-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-automation-cloud-computing-technology.webp"
       },
       {
         "title": "Unified SAP and Salesforce Integration",
@@ -1292,8 +1303,9 @@
           "Streamlined compliance and audit readiness, covering everything from environmental certifications to export licenses.",
           "End-to-end visibility from customer spec to wafer production, assembly, and final shipment, ensuring responsiveness and risk mitigation."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/unified-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/unified-desk.webp"
+        "imageAlt":"Engineer with tablet reviewing circuit board schematic on monitor in modern electronics manufacturing facility for production",
+        "mobImg": "/images/industry/semi-conductor/Mobile/electronics-engineer-circuit-design-manufacturing-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/electronics-engineer-circuit-design-manufacturing.webp"
       }
     ],
     "keyTitle": " Key Business Outcomes from Integration:",
@@ -1311,8 +1323,9 @@
           "Automated layout and power optimization, reducing chip size and energy consumption.",
           "Detecting design rule violations early, minimizing costly redesigns."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-powered-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-powered-desk.webp"
+        "imageAlt": "AI microchip with glowing blue letters on circuit board with orange and blue illuminated pathways showing neural processing",
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-chip-artificial-intelligence-processor-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-chip-artificial-intelligence-processor.webp"
       },
       {
         "title": "Predictive Yield Management & Fab Operations Optimization",
@@ -1322,8 +1335,9 @@
           "AI models predicting wafer yields based on real-time fab data, reducing production losses.",
           "Automated root cause analysis (RCA) for yield drops, shortening investigation time."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/predictive-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/predictive-desk.webp"
+        "imageAlt": "Technicians in white sterile suits working with automated manufacturing equipment in bright pharmaceutical cleanroom facility",
+        "mobImg": "/images/industry/semi-conductor/Mobile/pharmaceutical-cleanroom-manufacturing-sterile-production-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/pharmaceutical-cleanroom-manufacturing-sterile-production.webp"
       },
       {
         "title": "AI-Driven Supply Chain and Demand Forecasting",
@@ -1333,8 +1347,9 @@
           "Risk mitigation through AI-led supplier risk monitoring and dual sourcing strategies.",
           "Dynamic production scheduling and fab capacity planning based on AI demand forecasts."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-supply-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-supply-desk.webp"
+        "imageAlt": "Miniature tilt-shift view of modern industrial manufacturing facility with blue and orange lights at dusk showing smart factory",
+        "mobImg": "/images/industry/semi-conductor/Mobile/smart-factory-industrial-iot-manufacturing-facility-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/smart-factory-industrial-iot-manufacturing-facility.webp"
       },
       {
         "title": "AI for Test, Validation, and Post-Silicon Debug",
@@ -1344,8 +1359,9 @@
           "Early identification of systematic defects and design-for-test (DFT) optimization.",
           "Anomaly detection in silicon validation, speeding up debug cycles for first-silicon success."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-test-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-test-desk.webp"
+        "imageAlt": "Gloved hand using soldering iron creating bright spark on circuit board with electronic components in precision assembly work",
+        "mobImg": "/images/industry/semi-conductor/Mobile/precision-electronics-manufacturing-circuit-board-assembly-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/precision-electronics-manufacturing-circuit-board-assembly.webp"
       }
     ],
     "worldTitle": "Real-World Impacts:",
@@ -1449,8 +1465,9 @@
       {
         "id": "1",
         "title": "20+ Years of Semiconductor Domain Experience — Industry-Aligned, Actionable Solutions",
-        "mobImg": "/images/industry/semi-conductor/Mobile/20yrssemiconductor-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/20yrssemiconductor-desk.webp",
+        "imageAlt":"Two software engineers in glasses collaborating at computer workstation analyzing code in modern blue-lit technology office environment",
+        "mobImg": "/images/industry/semi-conductor/Mobile/software-engineers-collaborating-computer-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/software-engineers-collaborating-computer.webp",
         "desc": "Rialtes has built a reputation working closely with some of the world’s largest semiconductor brands to modernize their business processes. We understand the unique complexity of semiconductor value chains — from wafer fabrication, IC design, and testing, to contract manufacturing, and IP licensing.",
         "dataList": [
           "Practical knowledge of fabless and foundry models",
@@ -1463,8 +1480,9 @@
       {
         "id": "2",
         "title": "Business Process Experts with Fortune 500 Project Expertise",
-        "mobImg": "/images/industry/semi-conductor/Mobile/business-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/business-desk.webp",
+        "imageAlt":"Business professionals in formal attire smiling while collaborating on laptop during office meeting with colleague at wooden conference table",
+        "mobImg": "/images/industry/semi-conductor/Mobile/business-professionals-collaborating-laptop-meeting-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/business-professionals-collaborating-laptop-meeting.webp",
         "desc": "Our consultants and architects are not just technologists — they are semiconductor business process experts with real-world expertise driving transformation projects in Fortune 500 semiconductor firms. We understand what it takes to make SAP & Salesforce work for complex, global, multi-stakeholder environments.",
         "dataList": [
           "End-to-end advisory on streamlining design-win processes, deal management, and supply chain",
@@ -1477,8 +1495,9 @@
       {
         "id": "3",
         "title": "Proven SAP S/4 HANA & Salesforce Integration for Semiconductor",
-        "mobImg": "/images/industry/semi-conductor/Mobile/proven-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/proven-desk.webp",
+        "imageAlt":"Close-up of colorful silicon wafer with rainbow reflections showing intricate microchip patterns in semiconductor fabrication",
+        "mobImg": "/images/industry/semi-conductor/Mobile/silicon-wafer-microchip-semiconductor-manufacturing-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/silicon-wafer-microchip-semiconductor-manufacturing.webp",
         "desc": "Rialtes delivers fully integrated SAP and Salesforce solutions tailored for semiconductor processes — enabling seamless information flow from the customer to the fab floor and back. Our approach ensures one version of truth across sales, engineering, and operations, reducing errors, improving collaboration, and driving faster time to market.",
         "dataList": [
           "Integrated deal registration and quoting directly linked to SAP order management",
@@ -1491,8 +1510,9 @@
       {
         "id": "4",
         "title": "AI-Driven Approach with Data at the Core",
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-approach-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-approach-desk.webp",
+        "imageAlt":"Two engineers collaborating on a laptop in a modern industrial facility, discussing data-driven solutions",
+        "mobImg": "/images/industry/semi-conductor/Mobile/industrial-engineers-collaboration-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/industrial-engineers-collaboration.webp",
         "desc": "In today’s semiconductor landscape, data and AI play a pivotal role in everything from demand planning to engineering collaboration and partner management. Rialtes combines AI, analytics, and automation across Salesforce and SAP platforms to empower semiconductor companies with data-driven decision-making.",
         "dataList": [
           "Predictive deal scoring and partner performance insights",
@@ -1505,8 +1525,9 @@
       {
         "id": "5",
         "title": "Agile, End-to-End Delivery: Advisory to Post-Go-Live Success",
-        "mobImg": "/images/industry/semi-conductor/Mobile/agile-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/agile-desk.webp",
+        "imageAlt":"Businesswoman giving a presentation with growth charts on a screen during a corporate meeting",
+        "mobImg": "/images/industry/semi-conductor/Mobile/business-presentation-growth-meeting-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/business-presentation-growth-meeting.webp",
         "desc": "What sets Rialtes apart is our commitment to end-to-end ownership — from initial advisory, process design, system implementation, to post-go-live support and continuous optimization. We work as a true partner, not just an implementer.",
         "dataList": [
           "Pre-built accelerators for semiconductor-specific SAP & Salesforce processes",
