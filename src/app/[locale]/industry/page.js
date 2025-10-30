@@ -115,13 +115,14 @@ export default function Industry() {
         <Image
           className="w-full transition-transform duration-300 hover:scale-105"
           src={services.image}
-          alt={services.title}
+          alt={services.imageAlt}
           width={0}
           height={0}
           sizes="100vw"
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           priority
         />
+
       </div>
       <div className="flex flex-col mt-[23px]">
         <h3 className="4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight font-semibold ">{services.title}</h3>
@@ -165,8 +166,8 @@ export default function Industry() {
       <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px] ">
         <div className="hidden md:block">
           <Image
-            src="/images/industry/industry-header.webp"
-            alt="desktop banner"
+            src="/images/industry/digital-transformation-client-engagement-industries.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "55% 20%" }}
             priority
@@ -176,8 +177,8 @@ export default function Industry() {
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
-            src="/images/industry/industry-header.webp"
-            alt="mobile banner"
+            src="/images/industry/digital-transformation-client-engagement-industries.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "5% 20%" }}
             priority

@@ -1,5 +1,6 @@
 {
   "industry": {
+    "bannerAlt":"Dynamic light trails on highway representing digital transformation and client engagement for business industries innovation",
     "headerTitle": "Industries",
     "seoTitle": "Salesforce & SAP Solutions by Industry | Rialtes",
     "seoDescription": "Salesforce and SAP industry solutions that drive measurable outcomes, streamline operations, and unlock innovation in every sector we serve.",
@@ -13,98 +14,112 @@
     "growLatestServices": [
       {
         "id": 3,
-        "image": "/images/industry/real-estate.webp",
+        "image": "/images/industry/real-estate-urban-planning-model.webp",
+        "imageAlt":"Architect's hand placing building on white city model representing urban planning, real estate development, and smart city design",
         "title": "Real Estate",
         "description": "Expand your real estate portfolio with cloud-based property management software. Helping realtors, property owners, and brokers navigate through client details, properties, and rental agreements.",
         "knowMore": "/industry/real-estate-property-management"
       },
       {
         "id": 11,
-        "image": "/images/industry/lifescience.webp",
+        "image": "/images/industry/sustainable-technology-environmental-innovation.webp",
+        "imageAlt":"Digital hand with glowing network holding green plant representing sustainable technology, environmental innovation, and growth",
         "title": "Life Sciences",
         "description": "Unify research, clinical, and commercial operations on a connected digital foundation. With Salesforce Life Sciences Cloud and AI-driven analytics, Rialtes helps organizations enhance compliance, accelerate innovation, and improve patient outcomes.",
         "knowMore": "/industry/life-sciences-digital-transformation"
       },
       {
         "id": 1,
-        "image": "/images/industry/healthcare.webp",
+        "image": "/images/industry/healthcare-digital-medical-data-analysis.webp",
+        "imageAlt":"Healthcare professional analyzing digital medical data on futuristic touchscreen interface in modern hospital facility",
         "title": "Healthcare",
         "description": "Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software, harmonize patient data from various channels",
         "knowMore": "/industry/life-sciences/healthcare-medtech-patient-care"
       },
       {
         "id": 5,
-        "image": "/images/pharma/Header Pharma.webp",
+        "image": "/images/pharma/genetic-research-biotechnology-innovation.webp",
+        "imageAlt":"Hand reaching toward glowing blue DNA double helix on dark background representing genetic research innovation",
         "title": "Pharma & Biotech",
         "description": "Rialtes leverages certified expertise in Salesforce Life Sciences Cloud and SAP S/4HANA to help pharma and biotech leaders harness AI, machine learning, and automation for integrated clinical, medical, and commercial operations.",
         "knowMore": "/industry/life-sciences/pharma-biotech-digital-transformation"
       },
       {
         "id": 6,
-        "image": "/images/medical/medical-header.webp",
+        "image": "/images/medical/medical-imaging-mri-scanner-technology.webp",
+        "imageAlt":"Modern MRI scanner machine in blue-lit clinical room with digital display screens showing advanced medical imaging",
         "title": "Medical Devices",
         "description": "Helping medical device companies turn compliance into a competitive advantage by combining strategy, technology, and patient-centric design to ensure seamless patient journeys from device prescription to outcome tracking.",
         "knowMore": "/industry/life-sciences/medical-devices-it-solutions"
       },
       {
         "id": 12,
-        "image": "/images/industry/home-health.webp",
+        "image": "/images/industry/connected-healthcare-patient-engagement-mobile.webp",
+        "imageAlt":"Person in blue shirt holding smartphone with holographic healthcare icons including people, heart, and medical symbols above",
         "title": "Home Health",
         "description": "Empower caregivers, clinicians, and coordinators with digital tools that enhance care delivery. Rialtes brings automation, real-time scheduling, and patient engagement solutions that simplify operations and improve quality of care at home.",
         "knowMore": "/industry/life-sciences/home-health-ai-tech-solutions"
       },
       {
         "id": 4,
-        "image": "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
+        "image": "/images/industry/semi-conductor/Mobile/pharmaceutical-manufacturing-production-biotechnology.webp",
+        "imageAlt":"Close-up of purple and pink pharmaceutical vials or containers in rows with vibrant lighting in production facility",
         "title": "Semiconductor",
         "description": "Best-in-class tech services spanning supply chain integration, demand planning, and more. Meet your growing demands without compromising on performance with tailored hi-tech software solutions.",
         "knowMore": "/industry/hitech-semiconductor-ai-it-solutions"
       },
       {
         "id": 2,
-        "image": "/images/industry/manufacturing.webp",
+        "image": "/images/industry/manufacturing-cnc-machine-metalworking.webp",
+        "imageAlt":"Industrial CNC machine tool drilling with sparks flying during precision manufacturing metalworking process operation",
         "title": "Manufacturing",
         "description": "Manufacturing technology expertise at your fingertips. Streamline operations, sales processes, and supply chain management in manufacturing companies.",
         "knowMore": "/industry/manufacturing-cloud-erp"
       },
       {
         "id": 7,
-        "image": "/images/education/Group 483.webp",
+        "image": "/images/education/digital-education-graduate-future-learning-mobile.webp",
+        "imageAlt":"Business professional in glasses viewing digital data streams and code overlay with green and gold tech interface display",
         "title": "Education",
         "description": "We focus on addressing key challenges in education, like fragmented student engagement and inefficient recruitment. By leveraging strategic advisory along with SAP and Salesforce technology, we help institutions streamline operations and enhance the student experience",
         "knowMore": "/industry/education-cloud-it-solutions"
       },
       {
         "id": 8,
-        "image": "/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp",
+        "image": "/images/industry/auto-industry/Mobile/connected-automotive-smart-mobility-technology.webp",
+        "imageAlt":"Futuristic sports car with green digital overlay and connected network lines on urban road with modern skyscrapers background",
         "title": "Automotive",
         "description": "Address the complex challenges faced by the automotive sector, particularly the fragmentation across the customer lifecycle from prospecting to ownership. Leveraging SAP and Salesforce Industry Cloud solutions, we design tailored, scalable systems that streamline operations.",
         "knowMore": "/industry/digital-transformation-in-automotive-industry"
       },
       {
         "id": 10,
-        "image": "/images/industry/travel-transporation/TTH.webp",
+        "image": "/images/industry/travel-transporation/business-woman-airport-travel-luggage.webp",
+        "imageAlt":"Professional woman in business suit walking through modern airport terminal pulling black rolling suitcase luggage",
         "title": "Travel and Hospitality",
         "description": "Rialtes enables TTH companies to elevate every journey—from check-in to checkout, booking to delivery. With our expertise in AI, cloud, and enterprise platforms, we help you modernize operations, personalize experiences, and maximize business impact.",
         "knowMore": "/industry/travel-hospitality-it-solutions"
       },
       {
         "id": 9,
-        "image": "/images/industry/travel-transporation/retail+.webp",
+        "image": "/images/industry/travel-transporation/digital-shopping-holographic-interface-retail.webp",
+        "imageAlt":"Hand touching holographic shopping cart icon overlaying retail store aisle representing digital commerce and omnichannel shopping",
         "title": "Retail",
         "description": "Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.",
         "knowMore": "/industry/retail-industry-digital-transformation"
       },
       {
         "id": 13,
-        "image": "/images/industry/nonprofit.webp",
+        "image": "/images/industry/diversity-inclusion-puzzle-heart-hands.webp",
+        "imageAlt":"Multiple hands holding colorful rainbow puzzle pieces forming heart shape representing diversity inclusion and collaboration",
         "title": "Non-Profit",
         "description": "Drive greater mission impact through connected data and donor engagement. Our Salesforce Nonprofit Cloud expertise helps organizations streamline fundraising, volunteer management, and community programs with measurable transparency.",
         "knowMore": "/industry/nonprofit-digital-transformation-it-solutions"
       },
       {
         "id": 14,
-        "image": "/images/Finance/mobile/finance-mobile.webp",
+        "image": "/images/Finance/mobile/finance-digital-technology-network-visualization-mobile.webp",
+        "imageAlt":"Abstract digital data visualization with purple and blue light rays radiating from center in circular pattern on dark background",
         "title": "Finance",
         "description": "Modernize financial operations with AI-enabled insights and automation. From banking to insurance, Rialtes helps financial institutions simplify compliance, strengthen customer relationships, and deliver personalized financial experiences across every channel.",
         "knowMore": "/industry/finance-industry-digital-transformation-services-solutions"
@@ -460,27 +475,31 @@
     "contactSubTitle2": "Contact us today to discover how Rialtes can drive growth and patient impact for your organization."
   },
   "healthCare": {
+    "bannerAlt":"Healthcare professional in lab coat and glasses analyzing holographic medical data display with DNA strand and patient imaging scans",
     "seoTitle": "MedTech Healthcare Consulting and Patient Care Solutions | Rialtes",
     "seoDescription": "Rialtes delivers AI-powered MedTech healthcare consulting and patient care solutions to enhance clinical outcomes and streamline healthcare operations.",
     "slidesCaseStudy": [
       {
         "id": 1,
         "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
-        "imgSrc": "/images/case-studies/case-study-7_thumb.webp",
+        "imgSrc": "/images/case-studies/doctor-patient-consultation-digital-tablet.webp",
+        "imageAlt":"Doctor with stethoscope consulting elderly patient while reviewing information together on digital tablet in medical office",
         "title": "Digitizing patient journey using Salesforce health cloud",
         "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects."
       },
       {
         "id": 2,
         "url": "/insights/case-studies/salesforce-health-cloud-prior-authorization",
-        "imgSrc": "/images/case-studies/case-study-8_thumb.webp",
+        "imgSrc": "/images/case-studies/digital-network-cloud-technology-tablet.webp",
+        "imageAlt":"Business professional holding tablet with glowing digital network connections representing cloud technology and data exchange",
         "title": "Salesforce Health Cloud, Prior Authorization",
         "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
       },
       {
         "id": 3,
         "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-        "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
+        "imgSrc": "/images/case-studies/nurse-patient-consultation-medical-records.webp",
+        "imageAlt":"Male nurse and female patient smiling while discussing medical records and treatment plan in bright healthcare facility",
         "title": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
         "description": "A global medical technology company that develops and manufactures innovative products."
       }
@@ -515,7 +534,8 @@
     "growLatestServices": [
       {
         "id": 1,
-        "image": "/images/healthcare/AdobeStock_572162228 copy.webp",
+        "image": "/images/healthcare/healthcare-worker-patient-digital-consultation.webp",
+        "imageAlt":"Healthcare worker in blue scrubs with stethoscope discussing digital medical records on tablet with masked patient in clinic setting",
         "title": "Patient Care with Salesforce Health Cloud",
         "description": "Implementing Salesforce Health Cloud can significantly upgrade the patient experience solutions by centralizing all healthcare data. This helps in smarter decision-making and offers an intuitive platform for healthcare professionals.",
         "productsDetails": [
@@ -527,7 +547,8 @@
       },
       {
         "id": 2,
-        "image": "/images/healthcare/AdobeStock_200878864 copy.webp",
+        "image": "/images/healthcare/couple-healthcare-consultation-meeting.webp",
+        "imageAlt":"Couple meeting with healthcare professional at desk with computer discussing medical information in consultation office",
         "title": "Urgent Care & Hospital Enhancements",
         "description": "Hospital solutions optimize every aspect of managing your bespoke healthcare delivery, from the administration of team members to boosting quality patient care and post-treatment follow-up appointments.",
         "productsDetails": [
@@ -538,7 +559,8 @@
       },
       {
         "id": 3,
-        "image": "/images/healthcare/AdobeStock_930210511 copy.webp",
+        "image": "/images/healthcare/woman-telehealth-video-consultation-home.webp",
+        "imageAlt":"Woman in purple shirt having virtual telehealth video consultation with doctor on laptop and tablet in bright home office",
         "title": "Tailored Patient Care Solutions",
         "description": "Our patient care solutions focus on creating an empathetic healthcare environment. By leveraging these solutions, medical facilities can enhance patient engagement and satisfaction.",
         "productsDetails": [
@@ -549,7 +571,8 @@
       },
       {
         "id": 4,
-        "image": "/images/healthcare/AdobeStock_184771424 copy.webp",
+        "image": "/images/healthcare/healthcare-professional-electronic-medical-records.webp",
+        "imageAlt":"Healthcare professional in blue scrubs holding tablet displaying electronic medical record system with patient data and X-ray imaging",
         "title": "Unmatched MedTech Services",
         "description": "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities.",
         "productsDetails": [
