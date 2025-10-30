@@ -182,6 +182,13 @@
     "impactTitle": "Impacto social",
     "seoTitle": "Impulsando la Sostenibilidad con IA Responsable | Rialtes",
     "seoDescription": "Rialtes redefine la responsabilidad corporativa con IA sostenible, innovación ESG, talento capacitado e impacto social para un futuro inclusivo.",
+    "bannerAlt": "Mano sosteniendo globo terráqueo digital con red sobre fondo de naturaleza verde representando sostenibilidad ambiental y conservación global",
+    "innovationAlt": "Manos sosteniendo cerebro de papel con piezas de rompecabezas coloridas sobre fondo menta representando conciencia sobre autismo y salud mental",
+    "esgAlt": "Carretera sinuosa escénica junto a lago azul tranquilo rodeado de árboles verdes frondosos y montañas representando viaje pacífico por naturaleza",
+    "aiAlt": "Dos desarrolladores de software colaborando en laptop en oficina moderna con pizarra y notas adhesivas representando trabajo en equipo y proyecto de codificación",
+    "revenueAlt": "Grupo diverso de manos apiladas juntas al aire libre con fondo de naturaleza verde representando trabajo en equipo, unidad y colaboración comunitaria",
+    "plantAlt": "Manos plantando una joven plántula verde en la tierra, simbolizando crecimiento y sostenibilidad",
+    "profesAlt": "Profesional dando una presentación con gráficos y diagramas en una gran pantalla, representando análisis y conocimientos empresariales",
     "impactSubtitle": "Sostenibilidad con",
     "impactSubtitleOne": "IA responsable",
     "rialtesTitle": "Rialtes ha estado empoderando a clientes de todo el mundo para confiar en la IA y fortalecer la filosofía de una IA responsable.",
@@ -208,6 +215,7 @@
   },
   "globalAlliance": {
     "headerTitle": "Nuestros Socios",
+    "bannerAlt": "Apretón de manos digital con partículas azules brillantes y conexiones de red simbolizando asociación empresarial y tecnología",
     "seoTitle": "Nuestros Socios Estratégicos – Impulsando el Éxito con Rialtes",
     "seoDescription": "Rialtes se asocia con líderes IT y SaaS para ofrecer soluciones innovadoras. Conoce nuestra red de socios de confianza para tu éxito.",
     "headerSubTitle": "Alianzas Globales",
@@ -219,32 +227,32 @@
     "allTitle": "Todas las Alianzas",
     "approachData": [
       {
-        "src": "/images/partners/our1.png",
-        "alt": "Equipo de Liderazgo",
+        "src": "/images/partners/team-management-gear-icon.png",
+        "alt": "Tres figuras de personas con ícono de engranaje representando gestión de equipo, colaboración laboral y estructura organizacional",
         "texts": [
           "Orquestación",
           "estratégica"
         ]
       },
       {
-        "src": "/images/partners/our2.png",
-        "alt": "Equipo de Liderazgo",
+        "src": "/images/partners/user-profile-settings-gear.png",
+        "alt": "Ícono de perfil de usuario rodeado de símbolos de engranaje representando configuración de cuenta y personalización del sistema",
         "texts": [
           "Personalización",
           "centrada en el cliente"
         ]
       },
       {
-        "src": "/images/partners/our3.png",
-        "alt": "Equipo de Liderazgo",
+        "src": "/images/partners/hand-holding-location-pin.png",
+        "alt": "Mano sosteniendo marcador de ubicación representando servicios de geolocalización, soporte empresarial local y soluciones locales",
         "texts": [
           "Soluciones",
           "específicas de la industria"
         ]
       },
       {
-        "src": "/images/partners/our4.png",
-        "alt": "Equipo de Liderazgo",
+        "src": "/images/partners/global-handshake-partnership-icon.png",
+        "alt": "Apretón de manos con ícono de globo representando asociación empresarial global, colaboración internacional y conexión mundial",
         "texts": [
           "Alianzas",
           "independientes del proveedor"

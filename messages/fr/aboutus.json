@@ -182,6 +182,13 @@
         "impactTitle": "Impact social",
         "seoTitle": "Promouvoir la Durabilité grâce à une IA Responsable | Rialtes",
         "seoDescription": "Rialtes redéfinit la citoyenneté d’entreprise avec IA durable, innovation ESG, formation des talents et impact social pour un avenir inclusif.",
+        "bannerAlt": "Main tenant globe terrestre numérique avec réseau sur fond de nature verte représentant durabilité environnementale et conservation mondiale",
+        "innovationAlt": "Mains tenant cerveau en papier avec pièces de puzzle colorées sur fond menthe représentant sensibilisation à l'autisme et soutien en santé mentale",
+        "esgAlt": "Route sinueuse panoramique le long d'un lac bleu tranquille entouré d'arbres verts luxuriants et montagnes représentant voyage paisible dans nature",
+        "aiAlt": "Deux développeurs de logiciels collaborant sur ordinateur portable dans bureau moderne avec tableau blanc et notes adhésives représentant travail d'équipe et projet de codage",
+        "revenueAlt": "Groupe diversifié de mains empilées ensemble en plein air avec fond de nature verte représentant travail d'équipe, unité et collaboration communautaire",
+        "plantAlt": "Mains plantant un jeune semis vert dans la terre, symbolisant la croissance et la durabilité",
+        "profesAlt": "Professionnel faisant une présentation avec des graphiques et des diagrammes sur un grand écran, représentant l’analyse et les informations commerciales",
         "impactSubtitle": "Durabilité avec",
         "impactSubtitleOne": "IA responsable",
         "rialtesTitle": "Rialtes aide les clients du monde entier à faire confiance à l’IA et à renforcer la philosophie de l’IA responsable.",
@@ -208,6 +215,7 @@
     },
     "globalAlliance": {
         "headerTitle": "Nos partenaires",
+        "bannerAlt": "Poignée de main numérique avec particules bleues lumineuses et connexions réseau symbolisant partenariat commercial et technologie",
         "seoTitle": "Nos Partenaires Stratégiques – Construire le Succès avec Rialtes",
         "seoDescription": "Rialtes collabore avec des leaders IT et SaaS pour offrir des solutions innovantes. Découvrez notre réseau de partenaires de confiance.",
         "headerSubTitle": "Alliances mondiales",
@@ -219,32 +227,32 @@
         "allTitle": "Tous les partenariats",
         "approachData": [
             {
-                "src": "/images/partners/our1.png",
-                "alt": "Équipe de direction",
+                "src": "/images/partners/team-management-gear-icon.png",
+                "alt": "Trois silhouettes de personnes avec icône d'engrenage représentant gestion d'équipe, collaboration et structure organisationnelle",
                 "texts": [
                     "Orchestration",
                     "stratégique"
                 ]
             },
             {
-                "src": "/images/partners/our2.png",
-                "alt": "Équipe de direction",
+                "src": "/images/partners/user-profile-settings-gear.png",
+                "alt": "Icône de profil utilisateur entourée de symboles d'engrenage représentant paramètres de compte et personnalisation du système",
                 "texts": [
                     "Personnalisation",
                     "axée client"
                 ]
             },
             {
-                "src": "/images/partners/our3.png",
-                "alt": "Équipe de direction",
+                "src": "/images/partners/hand-holding-location-pin.png",
+                "alt": "Main tenant marqueur de localisation représentant services de géolocalisation, support commercial local et solutions localisées",
                 "texts": [
                     "Solutions",
                     "spécifiques aux secteurs"
                 ]
             },
             {
-                "src": "/images/partners/our4.png",
-                "alt": "Équipe de direction",
+                "src": "/images/partners/global-handshake-partnership-icon.png",
+                "alt": "Poignée de main avec icône de globe représentant partenariat commercial mondial, collaboration internationale et connexion globale",
                 "texts": [
                     "Partenariats",
                     "indépendants des fournisseurs"
