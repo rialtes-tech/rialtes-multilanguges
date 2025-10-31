@@ -4525,6 +4525,7 @@
         "faqTitle": "FAQs: Agentforce in Predicting and Preventing Downtime in Industry 4.0 Manufacturing"
     },
     "sapBuild": {
+        "bannerAlt": "Smart factory interface showing SAP Build low-code automation tools and connected machinery ",
         "seoTitle": "Retrieving data. Wait a few seconds and try to cut or copy again.",
         "seoDescription": "Discover how SAP Build helps manufacturers accelerate innovation, reduce downtime, and empower teams with low-code apps and automation.",
         "blogMainData": [
@@ -4915,6 +4916,7 @@
         "faqTitle": "FAQ: Frequently Asked Questions"
     },
     "fiveSigns": {
+        "bannerAlt": "Smart manufacturing floor with robotic arms and AI interface for predictive automation ",
         "seoTitle": "AI Agents in Manufacturing: 5 Signs You’re Ready | Rialtes",
         "seoDescription": "AI agents represent not just a new tool, but a fundamental shift in how work is performed, decisions are made, and problems are solved for manufacturers today.",
         "mainData": [
@@ -4997,6 +4999,7 @@
         "faqTitle": "FAQs: Implement AI Agents in Your Manufacturing Operations"
     },
     "connectedCore": {
+        "bannerAlt": "Visual network of healthcare providers, pharma systems, and MedTech devices in a connected care model ",
         "seoTitle": "Connected Care Ecosystems: Future for Pharma and MedTech | Rialtes",
         "seoDescription": "Discover how a connected care ecosystem helps Pharma and MedTech with predictive alerts, chronic care, and remote monitoring for better outcomes.",
         "mainData": [
@@ -5158,6 +5161,7 @@
         "faqTitle": "FAQs : Importance of Connected Care Ecosystems for Pharma & MedTech"
     },
     "digitalJourney": {
+        "bannerAlt": "Visual timeline of a patient journey enhanced by AI, showing diagnosis, treatment, and follow-up stages ",
         "digiTitle": "Reshaping Healthcare, One Journey at a Time",
         "seoTitle": "Digital Patient Journeys: The Future of AI Healthcare | Rialtes",
         "seoDescription": "The future of healthcare is digital patient journeys—AI-driven, predictive, and personalized pathways that empower patients and providers alike.",
@@ -5401,6 +5405,7 @@
         "faqTitle": "FAQs: Importance of Connected Care Ecosystems for Pharma & MedTech"
     },
     "patientExperience": {
+        "bannerAlt": "A patient viewing health data on a tablet, with icons representing diagnosis, treatment, and long-term care ",
         "blogMainData": [
             "Providing healthcare has always been about more than just diagnosis. For patients, the real journey begins after they receive a diagnosis, navigating treatment options, managing chronic conditions, and learning how to live with ongoing care needs. Unfortunately, traditional systems often fail to support patients beyond the walls of the clinic. That is why a patient experience platform becomes essential, helping healthcare providers deliver continuity, coordination, and personalized care at scale.",
             "<strong>MediAIna</strong>, Rialtes’ next-generation patient journey platform, is designed to close these gaps. Integrating clinical, operational, and digital touchpoints reimagines the healthcare journey from first diagnosis to long-term management. Let’s break down how platforms like MediAIna create  <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient journeys beyond the clinic</a> and set new standards in long-term care. "
@@ -5541,6 +5546,7 @@
         "faqTitle": "FAQs: Transforms Care with Patient Experience Platform"
     },
     "salesforcePartners": {
+        "bannerAlt": "Abstract banner showing enterprise growth with Salesforce cloud and digital transformation icons ",
         "salesforceTitle": "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
         "blogTopic": "Education Cloud",
         "salesforcePartnersHelp": [
@@ -5554,21 +5560,24 @@
         "partners": [
             {
                 "title": "Summit Partners (Platinum)",
-                "image": "/images/blog/summit partner.webp",
+                "image": "/images/blog/summit-partner-logo.webp",
                 "badge ": "SUMMIT PARTNER",
-                "description": "The highest tier, indicating top-level expertise and strategic capabilities for large-scale deployments."
+                "description": "The highest tier, indicating top-level expertise and strategic capabilities for large-scale deployments.",
+                "alt": "Salesforce Summit Partner badge representing top-tier consulting expertise "
             },
             {
                 "title": "Crest Partners (Silver)",
-                "image": "/images/blog/Crest Partner.webp",
+                "image": "/images/blog/salesforce-crest-partner-logo.webp",
                 "badge ": "CREST PARTNER",
-                "description": "Recognized for proven success and extensive experience in delivering customer value."
+                "description": "Recognized for proven success and extensive experience in delivering customer value.",
+                "alt": "Salesforce Crest Partner badge indicating certified success and strategic delivery "
             },
             {
                 "title": "Ridge Partners (Gold)",
-                "image": "/images/blog/Ridge partner.webp",
+                "image": "/images/blog/salesforce-ridge-partner-logo.webp",
                 "badge": "RIDGE PARTNER",
-                "description": "Demonstrates commitment to customer success and is ideal for mid-sized businesses seeking trusted support."
+                "description": "Demonstrates commitment to customer success and is ideal for mid-sized businesses seeking trusted support.",
+                "alt": "Salesforce Ridge Partner badge for mid-market CRM support and customer success"
             }
         ],
         "topSalesforce": "What qualifies as a certified Salesforce partner?",
@@ -5739,6 +5748,7 @@
         "seoDescription": "Top Salesforce partners help enterprises thrive by aligning technology with business growth, accelerating innovation, and ensuring long-term value."
     },
     "salesforceDevelopment": {
+        "bannerAlt": "CRM dashboard interface displaying Salesforce analytics, user engagement metrics, and workflow automation ",
         "blogMainData": [
             "Customer Relationship Management (CRM) is the beating heart of modern enterprises. It drives how sales teams close deals, how service teams respond to customers, and how marketing delivers personalized campaigns. Among the many CRM platforms available, Salesforce stands out as the most trusted CRM out there. But here’s the catch: simply deploying Salesforce isn’t enough. To truly maximize its potential, businesses need tailored Salesforce services that adapt the platform to unique workflows, data models, and customer expectations.",
             "In this blog, we’ll explore why custom Salesforce development matters, how it boosts CRM efficiency, and why choosing the right partner, especially a trusted Salesforce development company in the USA, makes all the difference."
@@ -5928,6 +5938,7 @@
         "strategiesDesc2": "These strategies help enterprises not only reduce Salesforce project risk but also maximize ROI."
     },
     "exelonaPillar": {
+        "bannerAlt": "Illustration of a commercial building with AI-powered maintenance sensors and analytics dashboard ",
         "blogMainData": [
             "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity. The challenge is that most maintenance models are still reactive. Teams fix what breaks, scramble to respond to tenant complaints, and watch operating expenses climb year after year.",
             "In an industry where every minute of equipment downtime hits profitability and reputation, the need for a smarter approach is crystal clear. That’s where artificial intelligence (AI) steps in — transforming how buildings think, predict, and act.",
@@ -6175,6 +6186,7 @@
         "faqTitle": "FAQs: Reduce Opex with Predictive Maintenance"
     },
     "salesforceImplementation": {
+        "bannerAlt": "Business team reviewing Salesforce implementation roadmap with cloud integration visuals ",
         "blogMainData": [
             "Salesforce is the world’s leading CRM platform, powering enterprises across industries to better manage customers, data, and processes. But here’s the catch: Salesforce success isn’t guaranteed by simply purchasing licenses. Implementation is where many projects falter. Delays, scope creep, or poor adoption can turn what should be a growth driver into a sunk investment.",
             "This is why enterprises <a href='https://www.linkedin.com/pulse/unlock-growth-salesforce-consulting-understands-gm99f/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>partner with expert Salesforce consultants</a>. The right partner brings structure, expertise, and proven frameworks to reduce risk and maximize return on investment. From planning a Salesforce implementation roadmap to handling complex integrations, partners ensure enterprises extract full value from the platform.",

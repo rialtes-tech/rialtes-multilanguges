@@ -121,7 +121,7 @@ export default function Page() {
         <div className="xl:block hidden">
           <Image
             src="/images/blog/ai-agents-in-manufacturing.webp "
-            alt="ai that listens"
+            alt={t('bannerAlt')}
             fill
             priority
           />
@@ -129,7 +129,7 @@ export default function Page() {
         <div className="xl:hidden block">
           <Image
             src="/images/blog/ai-agents-in-manufacturing-mobile.webp"
-            alt="ai that listens"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}

@@ -4354,6 +4354,7 @@
         "faqTitle": "FAQs : Agentforce dans la prédiction et la prévention des temps d'arrêt dans la fabrication Industrie 4.0"
     },
     "sapBuild": {
+        "bannerAlt": "Interface d'usine intelligente avec outils d'automatisation low-code SAP Build et machines connectées ",
         "seoTitle": "SAP Build : réduire de 30 % les arrêts dans l’industrie | Rialtes",
         "seoDescription": "SAP Build accélère l’innovation industrielle, réduit les temps d’arrêt et renforce les équipes avec applications low-code et automatisation.",
         "blogMainData": [
@@ -4744,6 +4745,7 @@
         "faqTitle": "FAQ : Questions fréquentes"
     },
     "fiveSigns": {
+        "bannerAlt": "Atelier de fabrication intelligent avec bras robotiques et interface IA pour automatisation prédictive ",
         "seoTitle": "Agents IA en industrie : 5 signes que vous êtes prêt | Rialtes",
         "seoDescription": "Les agents IA ne sont pas qu’un outil : ils redéfinissent le travail, les décisions et la résolution de problèmes pour les industriels.",
         "mainData": [
@@ -4826,6 +4828,7 @@
         "faqTitle": "FAQs : Mettre en œuvre des agents IA dans vos opérations de fabrication"
     },
     "connectedCore": {
+        "bannerAlt": "Réseau visuel de prestataires de soins, systèmes pharmaceutiques et dispositifs MedTech dans un modèle de soins connectés ",
         "seoTitle": "Écosystèmes de soins connectés : l’avenir de la santé | Rialtes",
         "seoDescription": "Découvrez comment un écosystème de soins connectés aide Pharma et MedTech grâce aux alertes prédictives et au suivi à distance.",
         "mainData": [
@@ -4987,6 +4990,7 @@
         "faqTitle": "FAQs : Importance des écosystèmes de soins connectés pour la pharmacie et les technologies médicales"
     },
     "digitalJourney": {
+        "bannerAlt": "Chronologie visuelle du parcours patient amélioré par l'IA, montrant diagnostic, traitement et suivi ",
         "digiTitle": "Redéfinir les soins de santé, un voyage à la fois",
         "seoTitle": "Parcours Numériques du Patient : L’Avenir des Soins de Santé avec l’IA | Rialtes",
         "seoDescription": "L’avenir des soins de santé repose sur les parcours numériques du patient — des itinéraires pilotés par l’IA, prédictifs et personnalisés qui responsabilisent à la fois les patients et les prestataires.",
@@ -5230,6 +5234,7 @@
         "faqTitle": "FAQ : L’Importance des Écosystèmes de Soins Connectés pour la Pharmaceutique et MedTech"
     },
     "patientExperience": {
+        "bannerAlt": "Patient consultant des données de santé sur une tablette, avec des icônes de diagnostic, traitement et soins à long terme ",
         "blogMainData": [
             "Fournir des soins de santé a toujours été bien plus qu'un simple diagnostic. Pour les patients, le véritable parcours commence après le diagnostic, en explorant les options de traitement, en gérant les maladies chroniques et en apprenant à vivre avec des besoins de soins continus. Malheureusement, les systèmes traditionnels ne soutiennent souvent pas les patients au-delà des murs de la clinique. C'est pourquoi une plateforme d'expérience patient devient essentielle, aidant les prestataires de soins à offrir continuité, coordination et soins personnalisés à grande échelle.",
             "<strong>MediAIna</strong>, la plateforme de parcours patient de prochaine génération de Rialtes, est conçue pour combler ces lacunes. L'intégration des points de contact cliniques, opérationnels et numériques réinvente le parcours de soins depuis le premier diagnostic jusqu'à la gestion à long terme. Voyons comment des plateformes comme MediAIna créent des <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>parcours patients numériques au-delà de la clinique</a> et établissent de nouvelles normes en matière de soins à long terme."
@@ -5370,6 +5375,7 @@
         "faqTitle": "FAQs : Transformer les soins avec une plateforme d'expérience patient"
     },
     "salesforcePartners": {
+        "bannerAlt": "Bannière abstraite illustrant la croissance des entreprises avec Salesforce et des icônes de transformation numérique ",
         "salesforceTitle": "Comment les meilleurs partenaires Salesforce aident les entreprises à prospérer et innover",
         "blogTopic": "Education Cloud",
         "salesforcePartnersHelp": [
@@ -5383,20 +5389,23 @@
         "partners": [
             {
                 "title": "Partenaires Summit (Platine)",
-                "image": "/images/blog/summit partner.webp",
+                "image": "/images/blog/summit-partner-logo.webp",
                 "badge": "PARTENAIRE SUMMIT",
-                "description": "Le niveau le plus élevé, indiquant une expertise de haut niveau et des capacités stratégiques pour des déploiements à grande échelle."
+                "description": "Le niveau le plus élevé, indiquant une expertise de haut niveau et des capacités stratégiques pour des déploiements à grande échelle.",
+                "alt": "Badge de partenaire Summit Salesforce représentant une expertise de conseil de haut niveau "
             },
             {
                 "title": "Partenaires Crest (Argent)",
-                "image": "/images/blog/Crest Partner.webp",
+                "image": "/images/blog/salesforce-crest-partner-logo.webp",
                 "badge": "PARTENAIRE CREST",
-                "description": "Reconnus pour leur succès avéré et leur grande expérience dans la création de valeur client."
+                "description": "Reconnus pour leur succès avéré et leur grande expérience dans la création de valeur client.",
+                "alt": "Badge de partenaire Crest Salesforce indiquant un succès certifié et une prestation stratégique "
             },
             {
                 "title": "Partenaires Ridge (Or)",
-                "image": "/images/blog/Ridge partner.webp",
+                "image": "/images/blog/salesforce-ridge-partner-logo.webp",
                 "badge": "PARTENAIRE RIDGE",
+                "alt": "Badge de partenaire Ridge Salesforce pour le support CRM intermédiaire et la réussite client ",
                 "description": "Fait preuve d’un engagement envers la réussite client et convient parfaitement aux entreprises de taille moyenne recherchant un soutien fiable."
             }
         ],
@@ -5568,6 +5577,7 @@
         "seoDescription": "Les meilleurs partenaires Salesforce stimulent la croissance et l’innovation en alignant la technologie avec les objectifs d’entreprise."
     },
     "salesforceDevelopment": {
+        "bannerAlt": "Interface de tableau CRM affichant les analyses Salesforce, les métriques d'engagement et l'automatisation des flux ",
         "blogMainData": [
             "La gestion de la relation client (CRM) est le cœur battant des entreprises modernes. Elle détermine comment les équipes commerciales concluent des affaires, comment les équipes de service répondent aux clients et comment le marketing propose des campagnes personnalisées. Parmi les nombreuses plateformes CRM disponibles, Salesforce se distingue comme le CRM le plus fiable. Mais voici le problème : déployer Salesforce seul ne suffit pas. Pour exploiter pleinement son potentiel, les entreprises ont besoin de services Salesforce personnalisés qui s’adaptent aux flux de travail, aux modèles de données et aux attentes des clients uniques.",
             "Dans ce blog, nous explorerons pourquoi le développement Salesforce personnalisé est important, comment il améliore l’efficacité du CRM et pourquoi choisir le bon partenaire, en particulier une entreprise de développement Salesforce de confiance aux États-Unis, fait toute la différence."
@@ -5757,6 +5767,7 @@
         "strategiesDesc2": "Ces stratégies aident les entreprises non seulement à réduire les risques des projets Salesforce, mais aussi à maximiser le ROI."
     },
     "salesforceImplementation": {
+        "bannerAlt": "Équipe métier examinant la feuille de route de mise en œuvre Salesforce avec visuels d'intégration cloud ",
         "blogMainData": [
             "Salesforce est la principale plateforme CRM au monde, permettant aux entreprises de tous les secteurs de mieux gérer leurs clients, leurs données et leurs processus. Mais voici le point clé : le succès avec Salesforce n’est pas garanti simplement en achetant des licences. L’implémentation est l’étape où de nombreux projets échouent. Les retards, l’élargissement du périmètre ou une adoption insuffisante peuvent transformer ce qui devrait être un moteur de croissance en un investissement perdu.",
             "C’est pourquoi les entreprises <a href='https://www.linkedin.com/pulse/unlock-growth-salesforce-consulting-understands-gm99f/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>s’associent à des consultants Salesforce experts</a>. Le bon partenaire apporte structure, expertise et cadres éprouvés pour réduire les risques et maximiser le retour sur investissement. De la planification d’une feuille de route d’implémentation Salesforce à la gestion d’intégrations complexes, les partenaires garantissent que les entreprises tirent une valeur maximale de la plateforme.",

@@ -113,7 +113,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/salesforce-development-services-to-boost-efficiency.webp"
-                        alt="banner image"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
@@ -121,7 +121,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/salesforce-consulting-cluster-feature-thumb.webp"
-                        alt="banner image"
+                        alt={t('bannerAlt')}
                         priority
                         height={0}
                         width={0}
