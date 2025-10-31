@@ -33,6 +33,7 @@
         "captchaError2": "Respuesta de captcha incorrecta. Por favor, inténtalo de nuevo."
     },
     "CIGWebinar": {
+        "imageAlt":"Edificio de vidrio futurista que refleja el cielo azul y las nubes, símbolo de innovación y transformación digital",
         "seoTitle": "Webinar Integración SAP Ariba CIG: Sincronización Cloud S/4HANA | Rialtes",
         "seoDescription": "Descubre cómo la integración SAP Ariba CIG ayuda a usuarios de ERP y S/4HANA a optimizar compras con automatización en la nube y análisis.",
         "webinarTitle": "CIG, tu puerta de entrada a SAP Ariba",
@@ -108,6 +109,7 @@
         "webinarInfo": "Descubre una forma más eficiente de incorporar empleados. Únete a nosotros en un seminario web informativo que muestra las últimas mejoras de SAP SuccessFactors Onboarding 2.0, enfocadas en mejorar la experiencia del nuevo empleado desde el pre-onboarding hasta el primer día y más allá, destacando cómo transforma y optimiza el proceso de incorporación en comparación con su predecesor, SAP Onboarding 1.0."
     },
     "voyageWebinar": {
+        "imageAlt":"Ola digital formada por conexiones brillantes que se fusionan con el océano, simbolizando el flujo de datos y la innovación",
         "seoTitle": "Webinar SAP RISE: Simplifica tu viaje SAP con Voyager+ de Rialtes",
         "seoDescription": "Únete a nuestro webinar SAP RISE y descubre VoyagerPlus, un potente marco para simplificar tu viaje SAP, acelerar la adopción de la nube y fomentar la transformación.",
         "webinarAdvantagesData": [

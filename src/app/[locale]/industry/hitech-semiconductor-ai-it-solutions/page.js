@@ -112,6 +112,7 @@ const schemaData = {
     },
   },
 };
+
 export default function Page() {
   const t = useTranslations("semiconductor");
   const locale = useLocale();
@@ -149,8 +150,8 @@ export default function Page() {
       <section className="relative group overflow-hidden h-[350px] md:h-[500px] 4xl:h-[650px]">
         <div className="hidden md:block">
           <Image
-            src="/images/industry/semi-conductor/hero-banner-desk.webp"
-            alt="desktop banner"
+            src="/images/industry/semi-conductor/semiconductor-wafer-microchips-technology.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "55% 20%" }}
             priority
@@ -160,8 +161,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
-            src="/images/industry/semi-conductor/Mobile/hero-banner-mob.webp"
-            alt="mobile banner"
+            src="/images/industry/semi-conductor/Mobile/pharmaceutical-manufacturing-production-biotechnology.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "5% 20%" }}
             priority
@@ -202,8 +203,8 @@ export default function Page() {
           <div className="lg:col-span-7 xl:col-span-6 4xl:col-span-7 col-span-12 my-auto">
             <div className="hidden md:block">
               <Image
-                src="/images/industry/semi-conductor/thought-desk.webp"
-                alt="thought desktop image"
+                src="/images/industry/semi-conductor/quantum-computing-processor-data-visualization.webp"
+                alt={t('dataAlt')}
                 height={0}
                 width={0}
                 priority
@@ -214,8 +215,8 @@ export default function Page() {
             {/* Mobile Image */}
             <div className="block md:hidden">
               <Image
-                src="/images/industry/semi-conductor/Mobile/thought-mob.webp"
-                alt="thought mobile image"
+                src="/images/industry/semi-conductor/Mobile/quantum-computing-processor-data-visualization-mobile.webp"
+                alt={t('dataAlt')}
                 height={0}
                 width={0}
                 priority
@@ -327,8 +328,8 @@ export default function Page() {
           <div className="md:col-span-6 col-span-12 md:order-2 order-1">
             <div className="hidden md:block h-full w-full">
               <Image
-                src="/images/industry/semi-conductor/semiconductor-foundry-desk.webp"
-                alt="Semiconductor image"
+                src="/images/industry/semi-conductor/semiconductor-technician-silicon-wafer-cleanroom.webp"
+                alt={t('semiALt')}
                 height={0}
                 width={0}
                 priority
@@ -338,8 +339,8 @@ export default function Page() {
             {/* Mobile Image */}
             <div className="block md:hidden">
               <Image
-                src="/images/industry/semi-conductor/Mobile/semiconductor-foundry-mob.webp"
-                alt="Semiconductor image"
+                src="/images/industry/semi-conductor/Mobile/semiconductor-technician-silicon-wafer-cleanroom-mobile.webp"
+                alt={t('semiALt')}
                 height={0}
                 width={0}
                 priority
@@ -396,8 +397,8 @@ export default function Page() {
           <div>
             <div className="hidden md:block h-full w-full">
               <Image
-                src="/images/industry/semi-conductor/deep-industry-desk.webp"
-                alt="deep-industry desktop image"
+                src="/images/industry/semi-conductor/glowing-microchip-semiconductor-innovation.webp"
+                alt={t('deepAlt')}
                 height={0}
                 width={0}
                 priority
@@ -407,8 +408,8 @@ export default function Page() {
             {/* Mobile Image */}
             <div className="block md:hidden">
               <Image
-                src="/images/industry/semi-conductor/Mobile/deep-industry-mob.webp"
-                alt="deep-industry mobile image"
+                src="/images/industry/semi-conductor/Mobile/glowing-microchip-semiconductor-innovation-mobile.webp"
+                alt={t('deepAlt')}
                 height={0}
                 width={0}
                 priority
@@ -453,7 +454,7 @@ export default function Page() {
                   <div className="block md:hidden mt-[41px]">
                     <Image
                       src={data.mobImg}
-                      alt="mobile image"
+                      alt={data.imageAlt}
                       height={0}
                       width={0}
                       priority
@@ -478,7 +479,7 @@ export default function Page() {
                 <div className="xl:col-span-7 hidden md:block h-full w-full">
                   <Image
                     src={data.deskImg}
-                    alt="desktop image"
+                    alt={data.imageAlt}
                     height={0}
                     width={0}
                     priority
@@ -498,8 +499,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden mt-[41px]">
           <Image
-            src="/images/industry/semi-conductor/Mobile/ai-driven-mob.webp"
-            alt="AI-Driven mobile image"
+            src="/images/industry/semi-conductor/Mobile/robotic-semiconductor-wafer-inspection-manufacturing-mobile.webp"
+            alt={t('aiAlt')}
             height={0}
             width={0}
             priority
@@ -508,8 +509,8 @@ export default function Page() {
         </div>
         <div className="hidden md:block h-full w-full">
           <Image
-            src="/images/industry/semi-conductor/ai-driven-desk.webp"
-            alt="AI-Driven desktop image"
+            src="/images/industry/semi-conductor/robotic-semiconductor-wafer-inspection-manufacturing.webp"
+            alt={t('aiAlt')}
             height={0}
             width={0}
             priority
@@ -544,7 +545,7 @@ export default function Page() {
                     <div className="block md:hidden mt-[41px]">
                       <Image
                         src={data.mobImg}
-                        alt="Key Areas mobile image"
+                        alt={data.imageAlt}
                         height={0}
                         width={0}
                         priority
@@ -554,7 +555,7 @@ export default function Page() {
                     <div className="hidden md:block">
                       <Image
                         src={data.deskImg}
-                        alt="Key Areas desktop image"
+                        alt={data.imageAlt}
                         height={0}
                         width={0}
                         priority
@@ -585,8 +586,8 @@ export default function Page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden mt-[41px]">
                   <Image
-                    src="/images/industry/semi-conductor/Mobile/ai-enabled-mob.webp"
-                    alt="mobile image"
+                    src="/images/industry/semi-conductor/Mobile/industrial-monitoring-production-data-dashboard-operations-mobile.webp"
+                    alt={t('keyAlt')}
                     height={0}
                     width={0}
                     priority
@@ -596,8 +597,8 @@ export default function Page() {
 
                 <div className="hidden md:block">
                   <Image
-                    src="/images/industry/semi-conductor/ai-enabled-desk.webp"
-                    alt="desktop image"
+                    src="/images/industry/semi-conductor/industrial-monitoring-production-data-dashboard-operations.webp"
+                    alt={t('keyAlt')}
                     height={0}
                     width={0}
                     priority
@@ -741,8 +742,8 @@ export default function Page() {
           {/* Mobile Image */}
           <div className="block lg:hidden mt-[41px]">
             <Image
-              src="/images/industry/semi-conductor/Mobile/end-mob.webp"
-              alt="mobile image"
+              src="/images/industry/semi-conductor/Mobile/digital-partnership-technology-integration-collaboration-mobile.webp"
+              alt={t('endAlt')}
               height={0}
               width={0}
               priority
@@ -751,8 +752,8 @@ export default function Page() {
           </div>
           <div className="hidden lg:block">
             <Image
-              src="/images/industry/semi-conductor/end-desk.webp"
-              alt="desktop image"
+              src="/images/industry/semi-conductor/digital-partnership-technology-integration-collaboration.webp"
+              alt={t('endAlt')}
               height={0}
               width={0}
               priority
@@ -812,8 +813,8 @@ export default function Page() {
             {/* Mobile Image */}
             <div className="block md:hidden">
               <Image
-                src="/images/industry/semi-conductor/Mobile/why-rialtes-mob.webp"
-                alt="mobile image"
+                src="/images/industry/semi-conductor/Mobile/semiconductor-engineer-microchip-research-mobile.webp"
+                alt={t('whyAlt')}
                 height={0}
                 width={0}
                 priority
@@ -822,8 +823,8 @@ export default function Page() {
             </div>
             <div className="hidden md:block">
               <Image
-                src="/images/industry/semi-conductor/why-rialtes-desk.webp"
-                alt="desktop image"
+                src="/images/industry/semi-conductor/semiconductor-engineer-microchip-research.webp"
+                alt={t('whyAlt')}
                 height={0}
                 width={0}
                 priority
@@ -877,7 +878,7 @@ export default function Page() {
                     <div className="block md:hidden h-full w-full">
                       <Image
                         src={data.mobImg}
-                        alt="Key Reasons mobile image"
+                        alt={data.imageAlt}
                         height={0}
                         width={0}
                         priority
@@ -887,7 +888,7 @@ export default function Page() {
                     <div className="hidden md:block h-full">
                       <Image
                         src={data.deskImg}
-                        alt="Key Reasons desktop image"
+                        alt={data.imageAlt}
                         height={0}
                         width={0}
                         priority
@@ -930,8 +931,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
-            src="/images/industry/semi-conductor/Mobile/rialtes-mob.webp"
-            alt="Rialtes mobile image"
+            src="/images/industry/semi-conductor/Mobile/global-data-analysis-team-mobile.webp"
+            alt={t('globalAlt')}
             height={0}
             width={0}
             priority
@@ -940,8 +941,8 @@ export default function Page() {
         </div>
         <div className="hidden md:block">
           <Image
-            src="/images/industry/semi-conductor/rialtes-desk.webp"
-            alt="Rialtes desktop image"
+            src="/images/industry/semi-conductor/global-data-analysis-team.webp"
+            alt={t('globalAlt')}
             height={0}
             width={0}
             priority

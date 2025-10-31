@@ -6,7 +6,7 @@ import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-export default function ({ fullUrl, seoData, schemaData, deskImg, mobImg, webinarTitle, speakerName, speakerDesignation, speakerImg, speakerImgAlt, webinarInfo, webinarAdvantages, whoShouldAttend, dateNumber, monthYear, CstIstTime, estPstTime, redirectUrl, emailWebinarLink }) {
+export default function ({ fullUrl, seoData, schemaData, deskImg, mobImg, webinarTitle, speakerName, speakerDesignation, speakerImg, speakerImgAlt, webinarInfo, webinarAdvantages, whoShouldAttend, dateNumber, monthYear, CstIstTime, estPstTime, redirectUrl, emailWebinarLink ,imageAlt}) {
     const t = useTranslations("webinarComponent");
     const sectionRef = useRef(null);
     const handleScroll = () => {
@@ -39,7 +39,7 @@ export default function ({ fullUrl, seoData, schemaData, deskImg, mobImg, webina
                 <div className="hidden md:block">
                     <Image
                         src={deskImg}
-                        alt="desktop banner"
+                        alt={imageAlt}
                         width={0}
                         height={0}
                         priority
@@ -50,7 +50,7 @@ export default function ({ fullUrl, seoData, schemaData, deskImg, mobImg, webina
                 <div className="block md:hidden">
                     <Image
                         src={mobImg ? mobImg : deskImg}
-                        alt="mobile banner"
+                        alt={imageAlt}
                         width={0}
                         height={0}
                         className="w-full h-[399px]"
