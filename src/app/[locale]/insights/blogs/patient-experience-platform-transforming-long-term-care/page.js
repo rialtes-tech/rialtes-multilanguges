@@ -123,7 +123,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care.webp"
-                        alt="banner image"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
@@ -131,7 +131,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp"
-                        alt="banner image"
+                        alt={t('bannerAlt')}
                         priority
                         height={0}
                         width={0}

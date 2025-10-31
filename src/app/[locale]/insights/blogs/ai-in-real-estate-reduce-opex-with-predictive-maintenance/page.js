@@ -14,7 +14,7 @@ import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 export default function Page() {
-    const t = useTranslations("exelonaPillar");
+    const t = useTranslations("exelonaPillar"); 
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, {
         en: enContent,
@@ -125,7 +125,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/ai-property-operations-predictive-maintenance.webp"
-                        alt="banner image"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
@@ -133,7 +133,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/ai-property-operations-predictive-maintenance-mobile.webp"
-                        alt="banner image"
+                       alt={t('bannerAlt')}
                         priority
                         height={0}
                         width={0}

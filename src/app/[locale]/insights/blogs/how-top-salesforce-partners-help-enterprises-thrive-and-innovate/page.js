@@ -113,7 +113,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/top-salesforce-partners-help-enterprises-thrive.webp"
-                        alt="banner image"
+                        alt={t("bannerAlt")}
                         fill
                         priority
                     />
@@ -121,7 +121,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/salesforce-consulting-mobile-banner.webp"
-                        alt="banner image"
+                        alt={t("bannerAlt")}
                         priority
                         height={0}
                         width={0}
@@ -175,7 +175,7 @@ export default function Page() {
                                                     <div className=" w-32 h-32 relative mb-4">
                                                         <Image
                                                             src={data.image}
-                                                            alt={data.badge || "Salesforce Partner Logo"}
+                                                            alt={data.alt}
                                                             layout="fill"
                                                             objectFit="contain"
                                                         />
@@ -261,11 +261,11 @@ export default function Page() {
                                                             border border-[#707070] relative 
                                                            md:ml-[90px] sm:w-[80%]  lg:w-[80%] xl:w-[86%] 4xl:w-[86%] 2xl:w-[80%]
                                                            ${locale === "es"
-                                                            ? "md:pr-[44px] 4xl:pr-[70px] 2xl:pr-[55px] xl:pr-[30px] 4xl:w-[92%] 4xl:py-[56px] 2xl:w-[87%] xl:w-[92%] md:w-[86%] md:py-[46px]  "
-                                                            : locale === "fr"
-                                                                ? "md:pr-[44px] 4xl:pr-[40px] 2xl:pr-[40px] xl:pr-[30px] 4xl:w-[99%] 4xl:py-[56px] 2xl:w-[92%] xl:w-[94%] md:py-[46px] md:w-[86%]  "
-                                                                : "md:pr-[44px] 4xl:pr-[80px] 2xl:pr-[60px] xl:pr-[40px] md:w-[79%]"
-                                                        }`}
+                                                        ? "md:pr-[44px] 4xl:pr-[70px] 2xl:pr-[55px] xl:pr-[30px] 4xl:w-[92%] 4xl:py-[56px] 2xl:w-[87%] xl:w-[92%] md:w-[86%] md:py-[46px]  "
+                                                        : locale === "fr"
+                                                            ? "md:pr-[44px] 4xl:pr-[40px] 2xl:pr-[40px] xl:pr-[30px] 4xl:w-[99%] 4xl:py-[56px] 2xl:w-[92%] xl:w-[94%] md:py-[46px] md:w-[86%]  "
+                                                            : "md:pr-[44px] 4xl:pr-[80px] 2xl:pr-[60px] xl:pr-[40px] md:w-[79%]"
+                                                    }`}
                                                 key={ind}>
                                                 <h3
                                                     className={`md:absolute md:flex items-center justify-start
