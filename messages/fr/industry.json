@@ -776,6 +776,18 @@
         "contactTitle": "Collaborez avec Rialtes — pour l’excellence Pharma et Biotech de nouvelle génération !"
     },
     "medicalDevices": {
+        "bannerAlt": "Scanner IRM moderne avec éclairage bleu dans une suite d'imagerie clinique présentant une technologie de diagnostic",
+        "thoughtAlt": "Femme médecin professionnelle en blouse blanche examinant des dossiers médicaux dans un établissement de santé moderne",
+        "whyAlt": "Bras chirurgicaux robotiques avancés avec instruments de précision dans une salle d'opération stérile et moderne",
+        "endAlt": "Couloir de centre de données moderne avec des plantes vertes représentant une technologie de serveurs écologique et écoénergétique",
+        "keyAlt": " Professionnel médical utilisant la technologie d'intelligence artificielle avec icônes santé et interface de visualisation anatomique",
+        "benefitsAlt": "Femme utilisant un smartphone pour surveiller les données de santé à partir d’un capteur de glucose portable sur son bras, représentant la technologie de santé connectée",
+        "patientAlt": "Professionnel de santé souriant portant une blouse et un stéthoscope utilisant une tablette numérique pour la gestion des patients ou la révision des données médicales",
+        "integratedAlt": "Agent de santé en tenue de protection gérant les stocks de fournitures médicales dans un entrepôt",
+        "mobileAlt": "Médecin aidant un patient âgé à utiliser une application mobile de suivi de santé",
+        "remoteAlt": "Gros plan sur des mains utilisant une application mobile pour suivre les données de santé et de forme physique",
+        "agentforceAlt": "Groupe de professionnels de la santé discutant des soins aux patients tout en consultant des informations sur une tablette numérique",
+        "realAlt": "Personne utilisant un smartphone avec une interface de chatbot IA pour la communication automatisée du service client",
         "thoughLeadershipData": [
             "Offrir des parcours patients conformes et fluides, de la prescription de l’appareil au suivi des résultats.",
             "Intégrer les opérations cliniques, de la chaîne d’approvisionnement et commerciales dans un écosystème numérique unifié.",
@@ -853,46 +865,50 @@
         "challenges": [
             {
                 "id": 1,
-                "title": "Conformité réglementaire et gestion de la qualité",
-                "imageMobile": "/images/medical/Regulatory Compliance.webp",
-                "imageDesktop": "/images/medical/Regulatory Compliance & Quality Management.webp",
+                "title": "Conformité Réglementaire et Gestion de la Qualité",
+                "alt": "Interface numérique affichant des icônes de sécurité au travail et de conformité, avec une personne utilisant un smartphone pour la surveillance",
+                "imageMobile": "/images/medical/workplace-safety-digital-monitoring-mobile.webp",
+                "imageDesktop": "/images/medical/workplace-safety-digital-monitoring.webp",
                 "points": [
-                    "Naviguer dans des réglementations mondiales complexes et en évolution.",
-                    "Difficulté à gérer documentation, traçabilité et audits.",
-                    "Intégrer la gestion de la qualité et les systèmes d’actions correctives (CAPA)."
+                    "Naviguer dans des réglementations mondiales complexes et en constante évolution.",
+                    "Difficulté à gérer la documentation, la traçabilité et les audits.",
+                    "Intégration des systèmes de gestion de la qualité et d’actions correctives (CAPA)."
                 ]
             },
             {
                 "id": 2,
-                "title": "Complexité de la chaîne d’approvisionnement et exécution des commandes",
-                "imageMobile": "/images/medical/Supply Chain Complexity.webp",
-                "imageDesktop": "/images/medical/Supply Chain Complexity & Order Fulfillment.webp",
+                "title": "Complexité de la Chaîne d’Approvisionnement et Exécution des Commandes",
+                "alt": "Pharmacien en blouse blanche utilisant une tablette numérique pour vérifier les stocks dans une pharmacie",
+                "imageMobile": "/images/medical/pharmacist-using-digital-tablet-mobile.webp",
+                "imageDesktop": "/images/medical/pharmacist-using-digital-tablet.webp",
                 "points": [
-                    "Systèmes déconnectés pour inventaire, fabrication et gestion des commandes.",
-                    "Difficultés à suivre les dispositifs médicaux sérialisés à l’international.",
+                    "Systèmes déconnectés pour la gestion des stocks, de la production et des commandes.",
+                    "Difficultés à suivre les dispositifs médicaux sérialisés à travers différentes régions.",
                     "Gestion des rappels et retours avec conformité et efficacité."
                 ]
             },
             {
                 "id": 3,
-                "title": "Suivi des essais cliniques et des résultats patients",
-                "imageMobile": "/images/medical/Clinical Trial & Patient.webp",
-                "imageDesktop": "/images/medical/Clinical Trial.webp",
+                "title": "Essais Cliniques et Suivi des Résultats des Patients",
+                "alt": "Technicien de laboratoire en tenue de protection utilisant une tablette numérique pour surveiller les équipements de fabrication pharmaceutique",
+                "imageMobile": "/images/medical/lab-technician-using-digital-tablet-mobile.webp",
+                "imageDesktop": "/images/medical/lab-technician-using-digital-tablet.webp",
                 "points": [
-                    "Outils insuffisants pour la gestion complète des essais cliniques.",
-                    "Données en temps réel limitées sur la performance des dispositifs et les résultats patients.",
-                    "Défis dans l’engagement des patients et la surveillance post-commercialisation."
+                    "Outils inadéquats pour la gestion complète des essais cliniques.",
+                    "Données en temps réel limitées sur les performances des dispositifs et les résultats des patients.",
+                    "Difficultés d’engagement des patients et de surveillance post-commercialisation."
                 ]
             },
             {
                 "id": 4,
-                "title": "Surveillance à distance et analyses prédictives par IA",
-                "imageMobile": "/images/medical/Remote Monitoring (3).webp",
-                "imageDesktop": "/images/medical/Remote Monitoring (1).webp",
+                "title": "Surveillance à Distance et Analyses Prédictives Alimentées par l’IA",
+                "alt": "Scientifique en blouse de laboratoire interagissant avec une interface numérique futuriste affichant des données et analyses médicales",
+                "imageMobile": "/images/medical/futuristic-medical-analytics-mobile.webp",
+                "imageDesktop": "/images/medical/futuristic-medical-analytics.webp",
                 "points": [
-                    "Manque de données patients en temps réel depuis les dispositifs implantés ou portables.",
-                    "Opportunités manquées pour prédire les défaillances ou événements indésirables.",
-                    "Impossible d’optimiser les performances des dispositifs basées sur les données d’utilisation réelle."
+                    "Manque de données patients en temps réel provenant de dispositifs implantés ou portables.",
+                    "Occasions manquées de prédire les pannes ou les événements indésirables.",
+                    "Incapacité à optimiser les performances des dispositifs selon les données d’utilisation réelle."
                 ]
             }
         ],

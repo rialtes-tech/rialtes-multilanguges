@@ -778,6 +778,18 @@
   "medicalDevices": {
     "seoTitle": "Medical Device Digital Transformation with AI | Rialtes",
     "seoDescription": "Rialtes drives digital transformation in medical devices with AI-powered insights",
+    "bannerAlt": "Modern MRI scanner with blue lighting in clinical imaging suite showcasing advanced diagnostic medical technology",
+    "thoughtAlt": "Professional female doctor in white coat reviewing patient records in modern healthcare facility with clinical background",
+    "whyAlt": "Advanced robotic surgical arms with precision instruments in sterile operating room for minimally invasive procedures",
+    "endAlt": "Modern data center corridor with green plants representing eco-friendly and energy-efficient server technology",
+    "keyAlt": "Medical professional using artificial intelligence technology with digital health icons and human anatomy visualization interface",
+    "benefitsAlt": "Woman using a smartphone to monitor health data from a wearable glucose sensor on her arm, representing connected healthcare technology",
+    "patientAlt": "Smiling healthcare professional wearing scrubs and a stethoscope using a digital tablet for patient management or medical data review",
+    "integratedAlt": "Healthcare worker in protective clothing managing medical supply inventory in a storage facility",
+    "mobileAlt": "Doctor assisting an elderly patient in using a mobile health monitoring app",
+    "remoteAlt": "Close-up of hands using a smartphone app to monitor health and fitness data",
+    "agentforceAlt": "Group of medical professionals discussing patient care while reviewing information on a digital tablet",
+    "realAlt": "Person using smartphone with AI chatbot interface for automated customer support communication",
     "thoughLeadershipData": [
       "Deliver compliant and seamless patient journeys from device prescription to outcome tracking.",
       "Integrate clinical, supply chain, and sales operations into a unified digital ecosystem.",
@@ -856,8 +868,9 @@
       {
         "id": 1,
         "title": "Regulatory Compliance & Quality Management",
-        "imageMobile": "/images/medical/Regulatory Compliance.webp",
-        "imageDesktop": "/images/medical/Regulatory Compliance & Quality Management.webp",
+        "alt": "Digital interface showing workplace safety and compliance icons with a person using a smartphone for monitoring",
+        "imageMobile": "/images/medical/workplace-safety-digital-monitoring-mobile.webp",
+        "imageDesktop": "/images/medical/workplace-safety-digital-monitoring.webp",
         "points": [
           "Navigating complex, evolving global regulations.",
           "Difficulty in managing documentation, traceability, and audits.",
@@ -866,9 +879,10 @@
       },
       {
         "id": 2,
-        "title": " Supply Chain Complexity & Order Fulfillment",
-        "imageMobile": "/images/medical/Supply Chain Complexity.webp",
-        "imageDesktop": "/images/medical/Supply Chain Complexity & Order Fulfillment.webp",
+        "title": "Supply Chain Complexity & Order Fulfillment",
+        "alt": "Pharmacist in a white coat using a digital tablet to check inventory in a pharmacy",
+        "imageMobile": "/images/medical/pharmacist-using-digital-tablet-mobile.webp",
+        "imageDesktop": "/images/medical/pharmacist-using-digital-tablet.webp",
         "points": [
           "Disconnected systems for inventory, manufacturing, and order management.",
           "Struggles with tracking serialized medical devices across geographies.",
@@ -878,8 +892,9 @@
       {
         "id": 3,
         "title": "Clinical Trial & Patient Outcome Tracking",
-        "imageMobile": "/images/medical/Clinical Trial & Patient.webp",
-        "imageDesktop": "/images/medical/Clinical Trial.webp",
+        "alt": "Laboratory technician in protective gear using a digital tablet to monitor pharmaceutical manufacturing equipment",
+        "imageMobile": "/images/medical/lab-technician-using-digital-tablet-mobile.webp",
+        "imageDesktop": "/images/medical/lab-technician-using-digital-tablet.webp",
         "points": [
           "Inadequate tools for end-to-end clinical trial management.",
           "Limited real-time data on device performance and patient outcomes.",
@@ -889,8 +904,9 @@
       {
         "id": 4,
         "title": "Remote Monitoring & AI-Powered Predictive Insights",
-        "imageMobile": "/images/medical/Remote Monitoring (3).webp",
-        "imageDesktop": "/images/medical/Remote Monitoring (1).webp",
+        "alt": "Female scientist in lab coat interacting with futuristic digital interface displaying medical data and analytics",
+        "imageMobile": "/images/medical/futuristic-medical-analytics-mobile.webp",
+        "imageDesktop": "/images/medical/futuristic-medical-analytics.webp",
         "points": [
           "Lack of real-time patient data from implanted or wearable devices.",
           "Missed opportunities to predict failures or adverse events.",

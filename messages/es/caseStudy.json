@@ -140,6 +140,7 @@
     ]
   },
   "yardiCaseStudy": {
+    "bannerAlt": "Ilustración conceptual de una comunidad urbana diversa colaborando dentro de un modelo de ciudad circular",
     "headerTitle": "Socio confiable de YARDI para la PHA más grande de América del Norte",
     "seoTitle": "Estudio de implementación Yardi: 5 años y grandes logros",
     "seoDescription": "Descubre cómo apoyamos 5 años de transformación digital con Yardi AMS para un éxito sostenido.",
@@ -252,6 +253,7 @@
     ]
   },
   "digitizingCaseStudy": {
+    "bannerAlt": "Médica mostrando información médica en una tableta digital a una paciente mayor durante una consulta",
     "digitizingTitle": "Digitalización del viaje del paciente utilizando Salesforce Health Cloud",
     "seoTitle": "Estudio Salesforce Health Cloud: Trayectoria del paciente digital",
     "seoDescription": "Descubre cómo la salud se transforma con un recorrido digital del paciente, mejorando atención, acceso y participación.",
@@ -492,6 +494,7 @@
     ]
   },
   "omnichannelCaseStudy": {
+    "bannerAlt": "Primer plano de una máquina de precisión trabajando en un microchip brillante que representa la fabricación avanzada de semiconductores",
     "serviceTitle": "Transformación de la Gestión de Casos Omnicanal con Salesforce Service Cloud",
     "manufacturing": "Manufactura",
     "seoTitle": "Estudio de implementación Yardi: 5 años y grandes logros",
@@ -836,6 +839,7 @@
     ]
   },
   "salesForceCaseStudy": {
+    "bannerAlt": "Visualización digital de una red neuronal o estructura cerebral sobre una tableta, que simboliza la inteligencia artificial y la conectividad de datos",
     "salesforceTitle": "Digitalización de la Autorización Previa para Mejores Resultados en Pacientes",
     "seoTitle": "Estudio Salesforce Health Cloud: Autorizaciones simplificadas",
     "seoDescription": "Descubre cómo Salesforce Health Cloud aceleró las autorizaciones, simplificando los procesos para un cuidado más rápido.",
@@ -991,6 +995,7 @@
     ]
   },
   "yardiManageCaseStudy": {
+    "bannerAlt": "Visualización 3D abstracta de barras de datos coloridas que representan análisis y crecimiento digital",
     "yardiTitle": "Reducción del tiempo de inactividad para una empresa inmobiliaria multifamiliar mediante servicios gestionados de Yardi",
     "seoTitle": "Estudio Yardi: Reduciendo tiempos de inactividad en inmobiliaria",
     "seoDescription": "Descubre cómo nuestros servicios Yardi redujeron tiempos de inactividad, mejoraron el rendimiento y aumentaron la eficiencia operativa.",
