@@ -778,6 +778,18 @@
   "medicalDevices": {
     "seoTitle": "Medical Device Digital Transformation with AI | Rialtes",
     "seoDescription": "Rialtes drives digital transformation in medical devices with AI-powered insights",
+    "bannerAlt": "Modern MRI scanner with blue lighting in clinical imaging suite showcasing advanced diagnostic medical technology",
+    "thoughtAlt": "Professional female doctor in white coat reviewing patient records in modern healthcare facility with clinical background",
+    "whyAlt": "Advanced robotic surgical arms with precision instruments in sterile operating room for minimally invasive procedures",
+    "endAlt": "Modern data center corridor with green plants representing eco-friendly and energy-efficient server technology",
+    "keyAlt": "Medical professional using artificial intelligence technology with digital health icons and human anatomy visualization interface",
+    "benefitsAlt": "Woman using a smartphone to monitor health data from a wearable glucose sensor on her arm, representing connected healthcare technology",
+    "patientAlt": "Smiling healthcare professional wearing scrubs and a stethoscope using a digital tablet for patient management or medical data review",
+    "integratedAlt": "Healthcare worker in protective clothing managing medical supply inventory in a storage facility",
+    "mobileAlt": "Doctor assisting an elderly patient in using a mobile health monitoring app",
+    "remoteAlt": "Close-up of hands using a smartphone app to monitor health and fitness data",
+    "agentforceAlt": "Group of medical professionals discussing patient care while reviewing information on a digital tablet",
+    "realAlt": "Person using smartphone with AI chatbot interface for automated customer support communication",
     "thoughLeadershipData": [
       "Deliver compliant and seamless patient journeys from device prescription to outcome tracking.",
       "Integrate clinical, supply chain, and sales operations into a unified digital ecosystem.",
@@ -856,8 +868,9 @@
       {
         "id": 1,
         "title": "Regulatory Compliance & Quality Management",
-        "imageMobile": "/images/medical/Regulatory Compliance.webp",
-        "imageDesktop": "/images/medical/Regulatory Compliance & Quality Management.webp",
+        "alt": "Digital interface showing workplace safety and compliance icons with a person using a smartphone for monitoring",
+        "imageMobile": "/images/medical/workplace-safety-digital-monitoring-mobile.webp",
+        "imageDesktop": "/images/medical/workplace-safety-digital-monitoring.webp",
         "points": [
           "Navigating complex, evolving global regulations.",
           "Difficulty in managing documentation, traceability, and audits.",
@@ -866,9 +879,10 @@
       },
       {
         "id": 2,
-        "title": " Supply Chain Complexity & Order Fulfillment",
-        "imageMobile": "/images/medical/Supply Chain Complexity.webp",
-        "imageDesktop": "/images/medical/Supply Chain Complexity & Order Fulfillment.webp",
+        "title": "Supply Chain Complexity & Order Fulfillment",
+        "alt": "Pharmacist in a white coat using a digital tablet to check inventory in a pharmacy",
+        "imageMobile": "/images/medical/pharmacist-using-digital-tablet-mobile.webp",
+        "imageDesktop": "/images/medical/pharmacist-using-digital-tablet.webp",
         "points": [
           "Disconnected systems for inventory, manufacturing, and order management.",
           "Struggles with tracking serialized medical devices across geographies.",
@@ -878,8 +892,9 @@
       {
         "id": 3,
         "title": "Clinical Trial & Patient Outcome Tracking",
-        "imageMobile": "/images/medical/Clinical Trial & Patient.webp",
-        "imageDesktop": "/images/medical/Clinical Trial.webp",
+        "alt": "Laboratory technician in protective gear using a digital tablet to monitor pharmaceutical manufacturing equipment",
+        "imageMobile": "/images/medical/lab-technician-using-digital-tablet-mobile.webp",
+        "imageDesktop": "/images/medical/lab-technician-using-digital-tablet.webp",
         "points": [
           "Inadequate tools for end-to-end clinical trial management.",
           "Limited real-time data on device performance and patient outcomes.",
@@ -889,8 +904,9 @@
       {
         "id": 4,
         "title": "Remote Monitoring & AI-Powered Predictive Insights",
-        "imageMobile": "/images/medical/Remote Monitoring (3).webp",
-        "imageDesktop": "/images/medical/Remote Monitoring (1).webp",
+        "alt": "Female scientist in lab coat interacting with futuristic digital interface displaying medical data and analytics",
+        "imageMobile": "/images/medical/futuristic-medical-analytics-mobile.webp",
+        "imageDesktop": "/images/medical/futuristic-medical-analytics.webp",
         "points": [
           "Lack of real-time patient data from implanted or wearable devices.",
           "Missed opportunities to predict failures or adverse events.",
@@ -1131,6 +1147,15 @@
     "contactSubTitle": "Transform your patient care model with Rialtes’ Salesforce-powered home health solutions"
   },
   "semiconductor": {
+    "bannerAlt":"Macro view of semiconductor wafer with glowing pink and blue silicon chips on circuit board representing advanced microelectronics",
+    "dataAlt":"Futuristic microprocessor chip with glowing red and blue data streams flowing upward representing quantum computing and AI processing",
+    "semiALt":"Semiconductor technician in cleanroom suit holding colorful silicon wafer with microchip patterns in sterile manufacturing facility",
+    "deepAlt":"Gloved hands holding glowing microchip with bright orange sparks representing semiconductor innovation and nanotechnology research",
+    "aiAlt": "Robotic arm performing precision inspection on semiconductor wafer with microchips in advanced chip manufacturing facility",
+    "keyAlt": "Female worker in white hard hat and yellow safety vest monitoring production data dashboard with charts in industrial facility",
+    "endAlt": "Two robotic hands shaking in digital handshake with glowing orange circuit patterns on blue technology background showing partnership",
+    "whyAlt": "Semiconductor engineer in protective eyewear and gloves precisely handling illuminated microchip pins in advanced research laboratory",
+    "globalAlt":"Business professionals analyzing global data on digital world map in a modern analytics control room",
     "seoTitle": "AI in Semiconductor Industry: Scalable IT Solutions | Rialtes",
     "seoDescription": "Rialtes enables AI in semiconductor industry with SAP and Salesforce to boost fab productivity, partner collaboration, and intelligent forecasting.",
     "headerTitle": " Semiconductor Industry",
@@ -1265,8 +1290,9 @@
           "Costing, profitability, and revenue recognition linked directly to production yields, customer-specific agreements, and volume pricing models.",
           "Warranty, return, and service management for both B2B and B2C semiconductor products, including support for long lifecycle components."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/sap-s4hana-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/sap-s4hana-desk.webp"
+        "imageAlt":"Precision probe testing semiconductor wafer with microchips in advanced manufacturing lab for electronics quality control",
+        "mobImg": "/images/industry/semi-conductor/Mobile/semiconductor-wafer-testing-manufacturing-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/semiconductor-wafer-testing-manufacturing.webp"
       },
       {
         "title": "Salesforce Industry Cloud for Semiconductor Customer and Partner Engagement",
@@ -1278,8 +1304,9 @@
           "Customer support, RMA, and technical service case management, including escalation tracking and AI-based service analytics.",
           "Intelligent forecasting and demand planning driven by customer engagement insights and AI/ML analysis of sales pipelines and design pipelines."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/salesforce-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/salesforce-desk.webp"
+        "imageAlt":"Robotic arm touching glowing cloud icon on digital interface representing AI automation and cloud computing technology",
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-automation-cloud-computing-technology-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-automation-cloud-computing-technology.webp"
       },
       {
         "title": "Unified SAP and Salesforce Integration",
@@ -1292,8 +1319,9 @@
           "Streamlined compliance and audit readiness, covering everything from environmental certifications to export licenses.",
           "End-to-end visibility from customer spec to wafer production, assembly, and final shipment, ensuring responsiveness and risk mitigation."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/unified-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/unified-desk.webp"
+        "imageAlt":"Engineer with tablet reviewing circuit board schematic on monitor in modern electronics manufacturing facility for production",
+        "mobImg": "/images/industry/semi-conductor/Mobile/electronics-engineer-circuit-design-manufacturing-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/electronics-engineer-circuit-design-manufacturing.webp"
       }
     ],
     "keyTitle": " Key Business Outcomes from Integration:",
@@ -1311,8 +1339,9 @@
           "Automated layout and power optimization, reducing chip size and energy consumption.",
           "Detecting design rule violations early, minimizing costly redesigns."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-powered-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-powered-desk.webp"
+        "imageAlt": "AI microchip with glowing blue letters on circuit board with orange and blue illuminated pathways showing neural processing",
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-chip-artificial-intelligence-processor-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-chip-artificial-intelligence-processor.webp"
       },
       {
         "title": "Predictive Yield Management & Fab Operations Optimization",
@@ -1322,8 +1351,9 @@
           "AI models predicting wafer yields based on real-time fab data, reducing production losses.",
           "Automated root cause analysis (RCA) for yield drops, shortening investigation time."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/predictive-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/predictive-desk.webp"
+        "imageAlt": "Technicians in white sterile suits working with automated manufacturing equipment in bright pharmaceutical cleanroom facility",
+        "mobImg": "/images/industry/semi-conductor/Mobile/pharmaceutical-cleanroom-manufacturing-sterile-production-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/pharmaceutical-cleanroom-manufacturing-sterile-production.webp"
       },
       {
         "title": "AI-Driven Supply Chain and Demand Forecasting",
@@ -1333,8 +1363,9 @@
           "Risk mitigation through AI-led supplier risk monitoring and dual sourcing strategies.",
           "Dynamic production scheduling and fab capacity planning based on AI demand forecasts."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-supply-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-supply-desk.webp"
+        "imageAlt": "Miniature tilt-shift view of modern industrial manufacturing facility with blue and orange lights at dusk showing smart factory",
+        "mobImg": "/images/industry/semi-conductor/Mobile/smart-factory-industrial-iot-manufacturing-facility-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/smart-factory-industrial-iot-manufacturing-facility.webp"
       },
       {
         "title": "AI for Test, Validation, and Post-Silicon Debug",
@@ -1344,8 +1375,9 @@
           "Early identification of systematic defects and design-for-test (DFT) optimization.",
           "Anomaly detection in silicon validation, speeding up debug cycles for first-silicon success."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-test-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-test-desk.webp"
+        "imageAlt": "Gloved hand using soldering iron creating bright spark on circuit board with electronic components in precision assembly work",
+        "mobImg": "/images/industry/semi-conductor/Mobile/precision-electronics-manufacturing-circuit-board-assembly-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/precision-electronics-manufacturing-circuit-board-assembly.webp"
       }
     ],
     "worldTitle": "Real-World Impacts:",
@@ -1449,8 +1481,9 @@
       {
         "id": "1",
         "title": "20+ Years of Semiconductor Domain Experience — Industry-Aligned, Actionable Solutions",
-        "mobImg": "/images/industry/semi-conductor/Mobile/20yrssemiconductor-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/20yrssemiconductor-desk.webp",
+        "imageAlt":"Two software engineers in glasses collaborating at computer workstation analyzing code in modern blue-lit technology office environment",
+        "mobImg": "/images/industry/semi-conductor/Mobile/software-engineers-collaborating-computer-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/software-engineers-collaborating-computer.webp",
         "desc": "Rialtes has built a reputation working closely with some of the world’s largest semiconductor brands to modernize their business processes. We understand the unique complexity of semiconductor value chains — from wafer fabrication, IC design, and testing, to contract manufacturing, and IP licensing.",
         "dataList": [
           "Practical knowledge of fabless and foundry models",
@@ -1463,8 +1496,9 @@
       {
         "id": "2",
         "title": "Business Process Experts with Fortune 500 Project Expertise",
-        "mobImg": "/images/industry/semi-conductor/Mobile/business-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/business-desk.webp",
+        "imageAlt":"Business professionals in formal attire smiling while collaborating on laptop during office meeting with colleague at wooden conference table",
+        "mobImg": "/images/industry/semi-conductor/Mobile/business-professionals-collaborating-laptop-meeting-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/business-professionals-collaborating-laptop-meeting.webp",
         "desc": "Our consultants and architects are not just technologists — they are semiconductor business process experts with real-world expertise driving transformation projects in Fortune 500 semiconductor firms. We understand what it takes to make SAP & Salesforce work for complex, global, multi-stakeholder environments.",
         "dataList": [
           "End-to-end advisory on streamlining design-win processes, deal management, and supply chain",
@@ -1477,8 +1511,9 @@
       {
         "id": "3",
         "title": "Proven SAP S/4 HANA & Salesforce Integration for Semiconductor",
-        "mobImg": "/images/industry/semi-conductor/Mobile/proven-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/proven-desk.webp",
+        "imageAlt":"Close-up of colorful silicon wafer with rainbow reflections showing intricate microchip patterns in semiconductor fabrication",
+        "mobImg": "/images/industry/semi-conductor/Mobile/silicon-wafer-microchip-semiconductor-manufacturing-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/silicon-wafer-microchip-semiconductor-manufacturing.webp",
         "desc": "Rialtes delivers fully integrated SAP and Salesforce solutions tailored for semiconductor processes — enabling seamless information flow from the customer to the fab floor and back. Our approach ensures one version of truth across sales, engineering, and operations, reducing errors, improving collaboration, and driving faster time to market.",
         "dataList": [
           "Integrated deal registration and quoting directly linked to SAP order management",
@@ -1491,8 +1526,9 @@
       {
         "id": "4",
         "title": "AI-Driven Approach with Data at the Core",
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-approach-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-approach-desk.webp",
+        "imageAlt":"Two engineers collaborating on a laptop in a modern industrial facility, discussing data-driven solutions",
+        "mobImg": "/images/industry/semi-conductor/Mobile/industrial-engineers-collaboration-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/industrial-engineers-collaboration.webp",
         "desc": "In today’s semiconductor landscape, data and AI play a pivotal role in everything from demand planning to engineering collaboration and partner management. Rialtes combines AI, analytics, and automation across Salesforce and SAP platforms to empower semiconductor companies with data-driven decision-making.",
         "dataList": [
           "Predictive deal scoring and partner performance insights",
@@ -1505,8 +1541,9 @@
       {
         "id": "5",
         "title": "Agile, End-to-End Delivery: Advisory to Post-Go-Live Success",
-        "mobImg": "/images/industry/semi-conductor/Mobile/agile-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/agile-desk.webp",
+        "imageAlt":"Businesswoman giving a presentation with growth charts on a screen during a corporate meeting",
+        "mobImg": "/images/industry/semi-conductor/Mobile/business-presentation-growth-meeting-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/business-presentation-growth-meeting.webp",
         "desc": "What sets Rialtes apart is our commitment to end-to-end ownership — from initial advisory, process design, system implementation, to post-go-live support and continuous optimization. We work as a true partner, not just an implementer.",
         "dataList": [
           "Pre-built accelerators for semiconductor-specific SAP & Salesforce processes",
@@ -1932,6 +1969,16 @@
     ]
   },
   "automativeIndustry": {
+    "partneringPowerAlt" : "Night highway with red orange light trails representing Rialtes SAP and Salesforce partnership power for automotive solutions",
+    "integrationSectionAlt" : "Man charging electric vehicle outdoors showcasing SAP CPI BTP integration for automotive stack and mobility services technology",
+    "unlockingSectionAlt" : "Commercial vehicle technician performing maintenance in workshop representing fleet service management and automotive repair operations",
+    "empoweringSectionAlt" : "Digital red car with cloud technology on highway with light trails representing connected automotive cloud and data integration",
+    "dealerSectionAlt" : "Professional sales team reviewing tablet together in modern car dealership for customer relationship management and deal closing",
+    "enablingSectionAlt" : "Car salesman consulting with customer at computer in bright showroom providing personalized automotive sales and finance solutions",
+    "revolutionizingAlt" : "Automotive technician using diagnostic tablet in modern service center revolutionizing vehicle maintenance and repair operations",
+    "comprehensiveSectionAlt" :"Smiling automotive manager with smartphone in vehicle fleet dealership representing comprehensive customer service journey",
+    "thoughtLeadershipAlt" : "Automotive professionals consulting with tablet in modern car dealership discussing industry solutions and leadership challenges",
+    "bannerAlt" : "Futuristic green digital car with network visualization on urban road representing automotive digital transformation technology",
     "seoTitle": "Digital Transformation in Automotive Industry | Rialtes",
     "seoDescription": "Ready for digital transformation in automotive? Partner with Rialtes to revolutionize your automotive industry journey and fuel future growth.",
     "keyIndustryChallenges": [
@@ -1965,9 +2012,10 @@
     ],
     "endtoendautomativesection": [
       {
-        "imgUrlMobile": "/images/industry/auto-industry/Mobile/lead-mgmt-mob-img.webp",
-        "imgUrlDesktop": "/images/industry/auto-industry/lead-mgmt-img.webp",
+        "imgUrlMobile": "/images/industry/auto-industry/Mobile/female-automotive-professional-tablet-showroom-mobile.webp",
+        "imgUrlDesktop": "/images/industry/auto-industry/female-automotive-professional-tablet-showroom.webp",
         "title": "Lead Management & Vehicle Discovery",
+        "alt" : "Confident female automotive professional with tablet in car showroom representing dealer management and digital solutions",
         "list": [
           "Omnichannel lead capture via Salesforce Automotive Cloud — web, mobile, showroom, and social.",
           "Dynamic lead scoring and nurturing using Marketing Cloud.",
@@ -1977,9 +2025,10 @@
         ]
       },
       {
-        "imgUrlMobile": "/images/industry/auto-industry/Mobile/deal-finance-mob-img.webp",
-        "imgUrlDesktop": "/images/industry/auto-industry/deal-finance-img.webp",
+        "imgUrlMobile": "/images/industry/auto-industry/Mobile/car-sales-team-consulting-blue-folder-showroom-mobile.webp",
+        "imgUrlDesktop": "/images/industry/auto-industry/car-sales-team-consulting-blue-folder-showroom.webp",
         "title": "Deal & Finance Management",
+        "alt" : "Professional car sales team reviewing blue folder in showroom for deal and finance management automotive solutions",
         "list": [
           "Quote and negotiation management using Salesforce Revenue Cloud (CPQ).",
           "Integrated credit application, leasing, and financing options.",

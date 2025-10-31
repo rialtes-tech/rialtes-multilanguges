@@ -720,6 +720,7 @@
     "openNow": "Abrir ahora"
   },
   "caseStudy": {
+    "bannerAlt": "Ondas de luz neón abstractas vibrantes con colores rosa azul y verde creando efecto de movimiento dinámico sobre fondo oscuro",
     "headerTitle": "estudioDeCaso",
     "seoTitle": "Éxitos Salesforce y SAP | Casos de Estudio Inspiradores | Rialtes",
     "seoDescription": "Descubre casos de estudio SAP y Salesforce de Rialtes: empresas globales logran innovación con IA, eficiencia y ROI mediante tecnología.",
@@ -1107,6 +1108,7 @@
     ]
   },
   "newsElite": {
+    "bannerAlt" : "Servidores de centro de datos digital con insignia de revendedor cloud autorizado Salesforce mostrando certificación oficial",
     "seoTitle": "Rialtes se convierte en socio revendedor oficial de Salesforce",
     "seoDescription": "Rialtes ahora es socio revendedor oficial de Salesforce, ofreciendo licencias completas, implementación y servicios gestionados bajo un mismo techo.",
     "title": "Rialtes Logra el Estatus de Salesforce Reseller Partner, Ampliando Capacidades Integrales en la Nube",
@@ -1122,6 +1124,7 @@
     "visitTwo": "o contacte a "
   },
   "newsSales": {
+    "bannerAlt" : "Tijeras doradas cortando cinta roja simbolizando inauguración de nueva oficina de ventas Rialtes en Himachal Pradesh India",
     "seoTitle": "Rialtes inaugura oficina de ventas en Baddi, HP",
     "seoDescription": "Rialtes abre una nueva oficina en Baddi, Himachal Pradesh, para mejorar el servicio al cliente y ofrecer soluciones Salesforce y SAP para la industria manufacturera.",
     "rialtesTitle": "Rialtes Abre Nueva Oficina de Ventas en Himachal Pradesh, India.",

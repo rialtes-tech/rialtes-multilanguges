@@ -776,6 +776,18 @@
     "contactTitle": "¡Asóciate con Rialtes — Habilitando la Excelencia de Próxima Generación en Farmacéutica y Biotecnología!"
   },
   "medicalDevices": {
+    "bannerAlt": "Escáner de resonancia magnética moderno con iluminación azul en una sala clínica de diagnóstico por imágenes",
+    "thoughtAlt": "Doctora profesional con bata blanca revisando registros médicos en un moderno centro de atención sanitaria",
+    "whyAlt": "Brazos robóticos quirúrgicos avanzados con instrumentos de precisión en quirófano estéril para cirugía mínimamente invasiva",
+    "endAlt": "Pasillo de centro de datos moderno con plantas verdes que representan tecnología de servidores ecológica y eficiente en energía",
+    "keyAlt": "Profesional médico usando tecnología de inteligencia artificial con iconos de salud digital e interfaz de visualización anatómica",
+    "benefitsAlt": "Mujer usando un teléfono inteligente para monitorear datos de salud desde un sensor de glucosa portátil en su brazo, representando tecnología sanitaria conectada",
+    "patientAlt": "Profesional de la salud sonriente con bata y estetoscopio usando una tableta digital para la gestión de pacientes o revisión de datos médicos",
+    "integratedAlt": "Trabajador sanitario con ropa protectora gestionando el inventario de suministros médicos en un almacén",
+    "mobileAlt": "Médico ayudando a un paciente mayor a usar una aplicación móvil de seguimiento de salud",
+    "remoteAlt": "Primer plano de manos usando una aplicación móvil para monitorear datos de salud y estado físico",
+    "agentforceAlt": "Grupo de profesionales médicos discutiendo la atención al paciente mientras revisan información en una tableta digital",
+    "realAlt": "Persona usando un teléfono inteligente con una interfaz de chatbot de IA para comunicación automatizada de atención al cliente",
     "thoughLeadershipData": [
       "Ofrezca recorridos del paciente conformes y fluidos desde la prescripción del dispositivo hasta el seguimiento de resultados.",
       "Integre operaciones clínicas, de cadena de suministro y ventas en un ecosistema digital unificado.",
@@ -854,45 +866,49 @@
       {
         "id": 1,
         "title": "Cumplimiento Normativo y Gestión de Calidad",
-        "imageMobile": "/images/medical/Regulatory Compliance.webp",
-        "imageDesktop": "/images/medical/Regulatory Compliance & Quality Management.webp",
+        "alt": "Interfaz digital que muestra íconos de seguridad laboral y cumplimiento, con una persona usando un teléfono inteligente para el monitoreo",
+        "imageMobile": "/images/medical/workplace-safety-digital-monitoring-mobile.webp",
+        "imageDesktop": "/images/medical/workplace-safety-digital-monitoring.webp",
         "points": [
           "Navegar por regulaciones globales complejas y en constante evolución.",
-          "Dificultad para gestionar la documentación, trazabilidad y auditorías.",
+          "Dificultad para gestionar documentación, trazabilidad y auditorías.",
           "Integración de sistemas de gestión de calidad y acciones correctivas (CAPA)."
         ]
       },
       {
         "id": 2,
         "title": "Complejidad de la Cadena de Suministro y Cumplimiento de Pedidos",
-        "imageMobile": "/images/medical/Supply Chain Complexity.webp",
-        "imageDesktop": "/images/medical/Supply Chain Complexity & Order Fulfillment.webp",
+        "alt": "Farmacéutico con bata blanca utilizando una tableta digital para revisar el inventario en una farmacia",
+        "imageMobile": "/images/medical/pharmacist-using-digital-tablet-mobile.webp",
+        "imageDesktop": "/images/medical/pharmacist-using-digital-tablet.webp",
         "points": [
           "Sistemas desconectados para inventario, fabricación y gestión de pedidos.",
-          "Dificultades para rastrear dispositivos médicos serializados en distintas regiones.",
-          "Gestión de retiradas y devoluciones con cumplimiento normativo y eficiencia."
+          "Dificultades para rastrear dispositivos médicos serializados en diferentes geografías.",
+          "Gestión de retiradas y devoluciones con cumplimiento y eficiencia."
         ]
       },
       {
         "id": 3,
         "title": "Ensayos Clínicos y Seguimiento de Resultados de Pacientes",
-        "imageMobile": "/images/medical/Clinical Trial & Patient.webp",
-        "imageDesktop": "/images/medical/Clinical Trial.webp",
+        "alt": "Técnico de laboratorio con equipo de protección usando una tableta digital para monitorear equipos de fabricación farmacéutica",
+        "imageMobile": "/images/medical/lab-technician-using-digital-tablet-mobile.webp",
+        "imageDesktop": "/images/medical/lab-technician-using-digital-tablet.webp",
         "points": [
           "Herramientas inadecuadas para la gestión integral de ensayos clínicos.",
-          "Datos limitados en tiempo real sobre el rendimiento de dispositivos y resultados de pacientes.",
-          "Desafíos en el compromiso del paciente y la vigilancia postcomercialización."
+          "Datos en tiempo real limitados sobre el rendimiento del dispositivo y los resultados de los pacientes.",
+          "Desafíos en la participación del paciente y la vigilancia posterior a la comercialización."
         ]
       },
       {
         "id": 4,
-        "title": "Monitoreo Remoto y Perspectivas Predictivas Impulsadas por IA",
-        "imageMobile": "/images/medical/Remote Monitoring (3).webp",
-        "imageDesktop": "/images/medical/Remote Monitoring (1).webp",
+        "title": "Monitoreo Remoto e Información Predictiva Impulsada por IA",
+        "alt": "Científica con bata de laboratorio interactuando con una interfaz digital futurista que muestra datos y análisis médicos",
+        "imageMobile": "/images/medical/futuristic-medical-analytics-mobile.webp",
+        "imageDesktop": "/images/medical/futuristic-medical-analytics.webp",
         "points": [
-          "Falta de datos en tiempo real de dispositivos implantados o portátiles.",
-          "Oportunidades perdidas para predecir fallos o eventos adversos.",
-          "Incapacidad para optimizar el rendimiento de dispositivos según datos de uso del mundo real."
+          "Falta de datos de pacientes en tiempo real provenientes de dispositivos implantados o portátiles.",
+          "Oportunidades perdidas para predecir fallas o eventos adversos.",
+          "Incapacidad para optimizar el rendimiento del dispositivo según datos del uso real."
         ]
       }
     ],
@@ -1131,6 +1147,15 @@
     "contactSubTitle": "Transforma tu modelo de atención con las soluciones de salud en el hogar de Rialtes impulsadas por Salesforce"
   },
   "semiconductor": {
+    "bannerAlt":"Vista macro de oblea de semiconductores con chips de silicio brillantes rosa y azul en placa de circuito representando microelectrónica",
+    "dataAlt":"Chip microprocesador futurista con flujos de datos brillantes rojos y azules fluyendo hacia arriba representando computación cuántica e IA",
+    "semiALt":"Técnico de semiconductores con traje de sala limpia sosteniendo oblea de silicio colorida con patrones de microchip en instalación estéril",
+    "deepAlt":"Manos enguantadas sosteniendo microchip brillante con chispas naranjas brillantes representando innovación en semiconductores y nanotecnología",
+    "aiAlt": "Brazo robótico realizando inspección de precisión en oblea de semiconductores con microchips en fábrica avanzada",
+    "keyAlt": "Trabajadora con casco blanco y chaleco amarillo de seguridad monitoreando panel de datos de producción con gráficos en instalación industrial",
+    "endAlt": "Dos manos robóticas estrechándose en apretón digital con patrones de circuitos naranjas brillantes sobre fondo azul tecnológico mostrando asociación",
+    "whyAlt": "Ingeniero de semiconductores con gafas protectoras y guantes manipulando con precisión pines de microchip iluminados en laboratorio avanzado",
+    "globalAlt":"Profesionales analizando datos globales en un mapa digital dentro de una sala de control moderna",
     "headerTitle": "Industria de Semiconductores",
     "seoTitle": "IA en Industria de Semiconductores: Soluciones IT Escalables | Rialtes",
     "seoDescription": "Rialtes aplica IA en la industria de semiconductores con SAP y Salesforce para aumentar productividad, colaboración y previsión inteligente.",
@@ -1265,8 +1290,9 @@
           "Costeo, rentabilidad y reconocimiento de ingresos vinculados directamente al rendimiento de producción, acuerdos específicos con clientes y modelos de precios por volumen.",
           "Gestión de garantías, devoluciones y servicios para productos semiconductores B2B y B2C, incluyendo soporte para componentes de ciclo de vida largo."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/sap-s4hana-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/sap-s4hana-desk.webp"
+        "imageAlt":"Sonda de precisión probando oblea de semiconductores con microchips en laboratorio de fabricación avanzada para control",
+        "mobImg": "/images/industry/semi-conductor/Mobile/semiconductor-wafer-testing-manufacturing-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/semiconductor-wafer-testing-manufacturing.webp"
       },
       {
         "title": "Salesforce Industry Cloud para la Relación con Clientes y Socios en Semiconductores",
@@ -1278,8 +1304,9 @@
           "Gestión de soporte al cliente, RMA y casos de servicio técnico, incluyendo seguimiento de escalaciones y análisis basado en IA.",
           "Pronóstico inteligente y planificación de la demanda impulsados por insights de interacción con clientes y análisis de IA/ML de los embudos de ventas y diseño."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/salesforce-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/salesforce-desk.webp"
+        "imageAlt":"Brazo robótico tocando icono de nube brillante en interfaz digital representando automatización IA y computación en nube",
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-automation-cloud-computing-technology-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-automation-cloud-computing-technology.webp"
       },
       {
         "title": "Integración Unificada de SAP y Salesforce",
@@ -1292,8 +1319,9 @@
           "Cumplimiento normativo y preparación para auditorías optimizados, abarcando desde certificaciones ambientales hasta licencias de exportación.",
           "Visibilidad de extremo a extremo desde la especificación del cliente hasta la producción de obleas, ensamblaje y envío final, asegurando capacidad de respuesta y mitigación de riesgos."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/unified-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/unified-desk.webp"
+        "imageAlt":"Ingeniero con tableta revisando esquema de circuito en monitor en instalación de fabricación electrónica moderna",
+        "mobImg": "/images/industry/semi-conductor/Mobile/electronics-engineer-circuit-design-manufacturing-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/electronics-engineer-circuit-design-manufacturing.webp"
       }
     ],
     "keyTitle": "Resultados Clave del Negocio a partir de la Integración:",
@@ -1311,8 +1339,9 @@
           "Distribución automática y optimización energética, reduciendo el tamaño del chip y el consumo de energía.",
           "Detección temprana de violaciones de reglas de diseño, minimizando rediseños costosos."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-powered-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-powered-desk.webp"
+         "imageAlt": "Microchip de IA con letras azules brillantes en placa de circuito con caminos iluminados naranjas y azules mostrando procesamiento",
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-chip-artificial-intelligence-processor-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-chip-artificial-intelligence-processor.webp"
       },
       {
         "title": "Gestión Predictiva del Rendimiento y Optimización de Operaciones en Fábricas",
@@ -1322,8 +1351,9 @@
           "Modelos de IA que predicen el rendimiento de las obleas en tiempo real, reduciendo pérdidas de producción.",
           "Análisis automatizado de causa raíz (RCA) para caídas en el rendimiento, reduciendo el tiempo de investigación."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/predictive-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/predictive-desk.webp"
+        "imageAlt": "Técnicos con trajes estériles blancos trabajando con equipo de fabricación automatizado en instalación de sala limpia farmacéutica",
+        "mobImg": "/images/industry/semi-conductor/Mobile/pharmaceutical-cleanroom-manufacturing-sterile-production-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/pharmaceutical-cleanroom-manufacturing-sterile-production.webp"
       },
       {
         "title": "Cadena de Suministro y Pronóstico de la Demanda Impulsados por IA",
@@ -1333,8 +1363,9 @@
           "Mitigación de riesgos a través del monitoreo de riesgos de proveedores impulsado por IA y estrategias de doble abastecimiento.",
           "Programación de producción dinámica y planificación de capacidad fabril basada en pronósticos de demanda con IA."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-supply-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-supply-desk.webp"
+        "imageAlt": "Vista miniatura tilt-shift de instalación de fabricación industrial moderna con luces azules y naranjas al anochecer mostrando fábrica inteligente",
+        "mobImg": "/images/industry/semi-conductor/Mobile/smart-factory-industrial-iot-manufacturing-facility-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/smart-factory-industrial-iot-manufacturing-facility.webp"
       },
       {
         "title": "IA para Pruebas, Validación y Depuración Post-Silicio",
@@ -1344,8 +1375,9 @@
           "Identificación temprana de defectos sistemáticos y optimización para diseño para prueba (DFT).",
           "Detección de anomalías en la validación de silicio, acelerando los ciclos de depuración para lograr éxito en el primer silicio."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-test-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-test-desk.webp"
+      "imageAlt": "Mano enguantada usando soldador creando chispa brillante en placa de circuito con componentes electrónicos en trabajo de ensamblaje precisión",
+        "mobImg": "/images/industry/semi-conductor/Mobile/precision-electronics-manufacturing-circuit-board-assembly-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/precision-electronics-manufacturing-circuit-board-assembly.webp"
       }
     ],
     "worldTitle": "Impactos en el Mundo Real",
@@ -1449,8 +1481,9 @@
       {
         "id": "1",
         "title": "Más de 20 Años de Experiencia en Semiconductores — Soluciones Prácticas y Alineadas a la Industria",
-        "mobImg": "/images/industry/semi-conductor/Mobile/20yrssemiconductor-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/20yrssemiconductor-desk.webp",
+         "imageAlt":"Dos ingenieros de software con gafas colaborando en estación de trabajo de computadora analizando código en oficina tecnológica moderna",
+        "mobImg": "/images/industry/semi-conductor/Mobile/software-engineers-collaborating-computer-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/software-engineers-collaborating-computer.webp",
         "desc": "Rialtes ha trabajado estrechamente con algunas de las marcas más grandes del mundo para modernizar sus procesos empresariales. Entendemos la complejidad única de la cadena de valor del semiconductor — desde la fabricación de obleas, diseño de CI y pruebas, hasta manufactura por contrato y licencias de propiedad intelectual.",
         "dataList": [
           "Conocimiento práctico de modelos fabless y foundry",
@@ -1463,8 +1496,9 @@
       {
         "id": "2",
         "title": "Expertos en Procesos Empresariales con Proyectos en Empresas Fortune 500",
-        "mobImg": "/images/industry/semi-conductor/Mobile/business-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/business-desk.webp",
+        "imageAlt":"Profesionales de negocios con ropa formal sonriendo mientras colaboran en laptop durante reunión de oficina con colega en mesa de conferencias",
+        "mobImg": "/images/industry/semi-conductor/Mobile/business-professionals-collaborating-laptop-meeting-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/business-professionals-collaborating-laptop-meeting.webp",
         "desc": "Nuestros consultores y arquitectos no son solo tecnólogos — son expertos en procesos empresariales de semiconductores con experiencia real en proyectos de transformación en empresas Fortune 500. Sabemos lo que se necesita para que SAP y Salesforce funcionen en entornos complejos, globales y con múltiples partes interesadas.",
         "dataList": [
           "Asesoría integral en optimización de procesos de diseño, gestión de oportunidades y cadena de suministro",
@@ -1477,8 +1511,9 @@
       {
         "id": "3",
         "title": "Integración Comprobada de SAP S/4 HANA y Salesforce para Semiconductores",
-        "mobImg": "/images/industry/semi-conductor/Mobile/proven-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/proven-desk.webp",
+        "imageAlt":"Primer plano de oblea de silicio colorida con reflejos arcoíris mostrando intrincados patrones de microchips en fabricación de semiconductores",
+        "mobImg": "/images/industry/semi-conductor/Mobile/silicon-wafer-microchip-semiconductor-manufacturing-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/silicon-wafer-microchip-semiconductor-manufacturing.webp",
         "desc": "Rialtes ofrece soluciones SAP y Salesforce totalmente integradas y adaptadas a los procesos del sector, permitiendo un flujo de información sin interrupciones desde el cliente hasta la fábrica y viceversa. Nuestro enfoque garantiza una única versión de la verdad entre ventas, ingeniería y operaciones, reduciendo errores y mejorando la colaboración.",
         "dataList": [
           "Registro de oportunidades y cotización integrados con gestión de pedidos SAP",
@@ -1491,8 +1526,9 @@
       {
         "id": "4",
         "title": "Enfoque Impulsado por IA con los Datos en el Centro",
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-approach-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-approach-desk.webp",
+        "imageAlt":"Dos ingenieros colaborando en un portátil dentro de una planta industrial moderna, analizando soluciones basadas en datos",
+        "mobImg": "/images/industry/semi-conductor/Mobile/industrial-engineers-collaboration-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/industrial-engineers-collaboration.webp",
         "desc": "En el entorno actual, los datos y la inteligencia artificial juegan un papel crucial en la planificación de demanda, colaboración de ingeniería y gestión de socios. Rialtes combina IA, analítica y automatización en plataformas Salesforce y SAP para empoderar a las empresas con decisiones basadas en datos.",
         "dataList": [
           "Puntaje predictivo de oportunidades y análisis de rendimiento de socios",
@@ -1505,8 +1541,9 @@
       {
         "id": "5",
         "title": "Entrega Ágil de Principio a Fin: Desde Asesoría hasta el Éxito Post-Go-Live",
-        "mobImg": "/images/industry/semi-conductor/Mobile/agile-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/agile-desk.webp",
+        "imageAlt":"Mujer de negocios presentando gráficos de crecimiento durante una reunión corporativa",
+        "mobImg": "/images/industry/semi-conductor/Mobile/business-presentation-growth-meeting-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/business-presentation-growth-meeting.webp",
         "desc": "Lo que diferencia a Rialtes es nuestro compromiso con la responsabilidad total — desde la asesoría inicial, el diseño de procesos, la implementación del sistema, hasta el soporte post-lanzamiento y la optimización continua. Actuamos como un socio real, no solo como un implementador.",
         "dataList": [
           "Aceleradores preconstruidos para procesos específicos de SAP y Salesforce para semiconductores",
@@ -1932,6 +1969,16 @@
     ]
   },
   "automativeIndustry": {
+    "partneringPowerAlt" :"Carretera nocturna con senderos de luz roja naranja representando poder de asociación SAP y Salesforce de Rialtes para soluciones automotrices",
+    "integrationSectionAlt" : "Hombre cargando vehículo eléctrico al aire libre mostrando integración SAP CPI BTP para pila automotriz y servicios de movilidad",
+    "unlockingSectionAlt" : "Técnico de vehículos comerciales realizando mantenimiento en taller representando gestión de servicio de flotas y operaciones de reparación",
+    "empoweringSectionAlt" : "Auto rojo digital con tecnología en la nube en carretera con senderos de luz representando nube automotriz conectada e integración datos",
+    "dealerSectionAlt" : "Equipo de ventas profesional revisando tableta juntos en concesionario moderno para gestión de relaciones con clientes y cierre de ofertas",
+    "enablingSectionAlt" : "Vendedor de autos consultando con cliente en computadora en sala de exposición proporcionando soluciones personalizadas de ventas y finanzas",
+    "revolutionizingAlt" : "Técnico automotriz usando tableta de diagnóstico en centro de servicio moderno revolucionando operaciones de mantenimiento y reparación",
+    "comprehensiveSectionAlt" : "Gerente automotriz sonriente con teléfono inteligente en concesionario de flotas representando viaje integral de servicio al cliente",
+    "thoughtLeadershipAlt" : "Profesionales automotrices consultando con tableta en concesionario moderno discutiendo soluciones de industria y desafíos de liderazgo",
+    "bannerAlt" : "Auto digital verde futurista con visualización de red en carretera urbana representando transformación digital tecnología automotriz",
     "keyIndustryChallenges": [
       "Gestión fragmentada del ciclo de vida del cliente (desde el prospecto hasta el propietario).",
       "Gestión ineficiente de concesionarios y franquiciados, lo que afecta la velocidad de ventas.",
@@ -1963,9 +2010,10 @@
     ],
     "endtoendautomativesection": [
       {
-        "imgUrlMobile": "/images/industry/auto-industry/Mobile/lead-mgmt-mob-img.webp",
-        "imgUrlDesktop": "/images/industry/auto-industry/lead-mgmt-img.webp",
+        "imgUrlMobile": "/images/industry/auto-industry/Mobile/female-automotive-professional-tablet-showroom-mobile.webp",
+        "imgUrlDesktop": "/images/industry/auto-industry/female-automotive-professional-tablet-showroom.webp",
         "title": "Gestión de Prospectos y Descubrimiento de Vehículos",
+        "alt" : "Profesional automotriz femenina confiada con tableta en sala de exposición representando gestión de concesionarios y soluciones digitales",
         "list": [
           "Captura de prospectos omnicanal mediante Salesforce Automotive Cloud — web, móvil, sala de exposición y redes sociales.",
           "Puntaje dinámico y nutrición de prospectos usando Marketing Cloud.",
@@ -1975,9 +2023,10 @@
         ]
       },
       {
-        "imgUrlMobile": "/images/industry/auto-industry/Mobile/deal-finance-mob-img.webp",
-        "imgUrlDesktop": "/images/industry/auto-industry/deal-finance-img.webp",
+        "imgUrlMobile": "/images/industry/auto-industry/Mobile/car-sales-team-consulting-blue-folder-showroom-mobile.webp",
+        "imgUrlDesktop": "/images/industry/auto-industry/car-sales-team-consulting-blue-folder-showroom.webp",
         "title": "Gestión de Ofertas y Financiamiento",
+        "alt" : "Equipo de ventas de autos profesional revisando carpeta azul en sala de exposición para gestión de ofertas y finanzas automotrices",
         "list": [
           "Gestión de cotizaciones y negociaciones usando Salesforce Revenue Cloud (CPQ).",
           "Solicitud de crédito integrada, opciones de arrendamiento y financiamiento.",

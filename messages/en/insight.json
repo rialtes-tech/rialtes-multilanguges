@@ -721,6 +721,7 @@
     "openNow": " Open Now"
   },
   "caseStudy": {
+    "bannerAlt": "Vibrant abstract neon light waves with pink blue and green colors creating dynamic motion blur effect on dark background",
     "seoTitle": "Salesforce and SAP Wins | Case Studies That Inspire | Rialtes",
     "seoDescription": "Explore SAP and Salesforce case studies from Rialtes. See how global businesses drive AI-powered innovation, efficiency, and ROI through smart tech solutions.",
     "headerTitle": "caseStudy",
@@ -1108,6 +1109,7 @@
     ]
   },
   "newsElite": {
+    "bannerAlt" : "Digital data center servers with Salesforce authorized cloud reseller badge displaying official partnership certification",
     "seoTitle": "Rialtes Becomes Official Salesforce Reseller Partner",
     "seoDescription": "Rialtes is now an official Salesforce Reseller Partner, offering complete Salesforce licensing, implementation, and managed services under one roof.",
     "title": "Rialtes Achieves Salesforce Reseller Partner Status, Expanding End-to-End Cloud Capabilities",
@@ -1123,6 +1125,7 @@
     "visitTwo": "or contact "
   },
   "newsSales": {
+    "bannerAlt" : "Golden scissors cutting red ribbon symbolizing Rialtes new sales office grand opening in Himachal Pradesh India",
     "seoTitle": "Rialtes Opens Sales Office in Baddi, HP",
     "seoDescription": "Rialtes opens a new office in Baddi, Himachal Pradesh, to enhance client service and deliver Salesforce and SAP solutions for the manufacturing industry.",
     "rialtesTitle": "Rialtes Opens new Sales Office in Himachal Pradesh, India.",
