@@ -64,8 +64,8 @@ export default function Page() {
         <section className="relative h-[350px] md:h-[500px] 4xl:h-[650px] overflow-hidden">
           <div className="relative w-full h-full">
             <Image
-              src="/images/homepage/inauguration-14 2.webp"
-              alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
+              src="/images/homepage/rialtes-new-sales-office-opening-himachal-pradesh.webp"
+              alt={t("bannerAlt")}
               fill
               priority
               className="object-cover"

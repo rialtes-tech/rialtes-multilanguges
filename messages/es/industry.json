@@ -1969,6 +1969,16 @@
     ]
   },
   "automativeIndustry": {
+    "partneringPowerAlt" :"Carretera nocturna con senderos de luz roja naranja representando poder de asociación SAP y Salesforce de Rialtes para soluciones automotrices",
+    "integrationSectionAlt" : "Hombre cargando vehículo eléctrico al aire libre mostrando integración SAP CPI BTP para pila automotriz y servicios de movilidad",
+    "unlockingSectionAlt" : "Técnico de vehículos comerciales realizando mantenimiento en taller representando gestión de servicio de flotas y operaciones de reparación",
+    "empoweringSectionAlt" : "Auto rojo digital con tecnología en la nube en carretera con senderos de luz representando nube automotriz conectada e integración datos",
+    "dealerSectionAlt" : "Equipo de ventas profesional revisando tableta juntos en concesionario moderno para gestión de relaciones con clientes y cierre de ofertas",
+    "enablingSectionAlt" : "Vendedor de autos consultando con cliente en computadora en sala de exposición proporcionando soluciones personalizadas de ventas y finanzas",
+    "revolutionizingAlt" : "Técnico automotriz usando tableta de diagnóstico en centro de servicio moderno revolucionando operaciones de mantenimiento y reparación",
+    "comprehensiveSectionAlt" : "Gerente automotriz sonriente con teléfono inteligente en concesionario de flotas representando viaje integral de servicio al cliente",
+    "thoughtLeadershipAlt" : "Profesionales automotrices consultando con tableta en concesionario moderno discutiendo soluciones de industria y desafíos de liderazgo",
+    "bannerAlt" : "Auto digital verde futurista con visualización de red en carretera urbana representando transformación digital tecnología automotriz",
     "keyIndustryChallenges": [
       "Gestión fragmentada del ciclo de vida del cliente (desde el prospecto hasta el propietario).",
       "Gestión ineficiente de concesionarios y franquiciados, lo que afecta la velocidad de ventas.",
@@ -2000,9 +2010,10 @@
     ],
     "endtoendautomativesection": [
       {
-        "imgUrlMobile": "/images/industry/auto-industry/Mobile/lead-mgmt-mob-img.webp",
-        "imgUrlDesktop": "/images/industry/auto-industry/lead-mgmt-img.webp",
+        "imgUrlMobile": "/images/industry/auto-industry/Mobile/female-automotive-professional-tablet-showroom-mobile.webp",
+        "imgUrlDesktop": "/images/industry/auto-industry/female-automotive-professional-tablet-showroom.webp",
         "title": "Gestión de Prospectos y Descubrimiento de Vehículos",
+        "alt" : "Profesional automotriz femenina confiada con tableta en sala de exposición representando gestión de concesionarios y soluciones digitales",
         "list": [
           "Captura de prospectos omnicanal mediante Salesforce Automotive Cloud — web, móvil, sala de exposición y redes sociales.",
           "Puntaje dinámico y nutrición de prospectos usando Marketing Cloud.",
@@ -2012,9 +2023,10 @@
         ]
       },
       {
-        "imgUrlMobile": "/images/industry/auto-industry/Mobile/deal-finance-mob-img.webp",
-        "imgUrlDesktop": "/images/industry/auto-industry/deal-finance-img.webp",
+        "imgUrlMobile": "/images/industry/auto-industry/Mobile/car-sales-team-consulting-blue-folder-showroom-mobile.webp",
+        "imgUrlDesktop": "/images/industry/auto-industry/car-sales-team-consulting-blue-folder-showroom.webp",
         "title": "Gestión de Ofertas y Financiamiento",
+        "alt" : "Equipo de ventas de autos profesional revisando carpeta azul en sala de exposición para gestión de ofertas y finanzas automotrices",
         "list": [
           "Gestión de cotizaciones y negociaciones usando Salesforce Revenue Cloud (CPQ).",
           "Solicitud de crédito integrada, opciones de arrendamiento y financiamiento.",

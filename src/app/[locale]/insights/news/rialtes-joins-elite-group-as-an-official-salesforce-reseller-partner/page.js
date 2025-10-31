@@ -63,8 +63,8 @@ export default function Page() {
         <section className="relative overflow-hidden  lg:!pr-0">
           <div className="xl:block hidden">
             <Image
-              src="/images/news/sales-news1.webp"
-              alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
+              src="/images/news/salesforce-authorized-cloud-reseller-partner.webp"
+              alt={t("bannerAlt")}
               priority
               className="h-[650px] w-full"
               width={0}
@@ -74,8 +74,8 @@ export default function Page() {
           <h1 className="leading-tight mt-10 4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px]">{t('title')}</h1>
           <div className="xl:hidden block mt-10 xl:mt-0">
             <Image
-              src="/images/news/ba-mobile.webp"
-              alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
+              src="/images/news/salesforce-authorized-cloud-reseller-partner-mobile.webp"
+              alt={t("bannerAlt")}
               className="!w-full"
               width={0}
               height={0}
@@ -99,7 +99,7 @@ export default function Page() {
                     >
                       <Image
                         src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
+                        alt="LinkedIn-Logo"
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -115,7 +115,7 @@ export default function Page() {
                       rel="noopener noreferrer"
                     >                      <Image
                         src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
+                        alt="Twitter-Logo"
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -127,6 +127,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
+              {/* <BlogSocialIcons fullUrl={fullUrl} date="12 May 2025"/> */}
           </div>
           <div className="py-3"></div>
           <div className="">

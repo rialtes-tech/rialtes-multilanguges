@@ -1108,6 +1108,7 @@
     ]
   },
   "newsElite": {
+    "bannerAlt" : "Serveurs de centre de données numériques avec badge revendeur cloud autorisé Salesforce affichant certification officielle",
     "seoTitle": "Rialtes devient partenaire revendeur officiel Salesforce",
     "seoDescription": "Rialtes est désormais partenaire revendeur officiel Salesforce, offrant licences, implémentation et services gérés Salesforce sous un même toit.",
     "title": "Rialtes obtient le statut de Partenaire Revendeur Salesforce, élargissant ses capacités cloud de bout en bout",
@@ -1123,6 +1124,7 @@
     "visitTwo": "ou contactez "
   },
   "newsSales": {
+    "bannerAlt" : "Ciseaux dorés coupant ruban rouge symbolisant inauguration nouveau bureau des ventes Rialtes à Himachal Pradesh Inde",
     "seoTitle": "Rialtes ouvre un bureau commercial à Baddi, HP",
     "seoDescription": "Rialtes ouvre un nouveau bureau à Baddi, Himachal Pradesh, pour améliorer le service client et fournir des solutions Salesforce et SAP pour l’industrie manufacturière.",
     "rialtesTitle": "Rialtes ouvre un nouveau bureau commercial à Himachal Pradesh, Inde.",
