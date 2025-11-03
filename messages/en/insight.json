@@ -647,6 +647,7 @@
     ]
   },
   "webinars": {
+    "bannerAlt":"Person typing on laptop during virtual team video conference call with diverse group of professionals in grid view",
     "seoTitle": "SAP and Salesforce Tech Webinars by a Trusted Partner | Rialtes",
     "seoDescription": "Salesforce tech webinars and SAP sessions by Rialtes. Learn from experts, explore innovations, and boost your digital transformation strategy.",
     "allWebinars": [
@@ -657,7 +658,8 @@
         "time": "10:00 AM CST",
         "speaker": "Sapna Chauhan",
         "position": "Software Engineer - SAP",
-        "image": "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
+        "altImage":"Futuristic glass building reflecting blue sky and clouds, symbolizing innovation, transparency, and digital transformation",
+        "image": "/images/webinar/futuristic-glass-building-reflection-carousal.webp",
         "url": "insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud/"
       },
       {
@@ -667,7 +669,8 @@
         "time": "10:00 AM CST",
         "speaker": "Anuraag Aggarwal",
         "position": "Vice President of Global Sales",
-        "image": "/images/webinar/rise.webp",
+        "altImage":"Digital wave made of glowing network connections merging with the ocean, symbolizing data flow and innovation",
+        "image": "/images/webinar/digital-wave-data-network-carousal.webp",
         "url": "insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
       },
       {
@@ -677,7 +680,8 @@
         "time": "10:00 AM CST",
         "speaker": "Lokesh Adhikari",
         "position": "Software Engineer - Salesforce",
-        "image": "/images/webinar/Webinar_15 May 25_webinar thumb.webp",
+        "altImage":"Woman's profile with digital data overlay representing AI, machine learning, and digital transformation in technology",
+        "image": "/images/webinar/ai-digital-transformation-data-overlay-carousal.webp",
         "url": "insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
       },
       {
@@ -687,7 +691,8 @@
         "time": "10:00 AM CST",
         "speaker": "Akshay Kale",
         "position": "Sr. Managing Director – SAP Services",
-        "image": "/images/webinar/Webinar_13 May 25_webinar thumb.webp",
+        "altImage":"Abstract blue and orange flowing data wave visualization representing digital transformation, big data analytics, and AI",
+        "image": "/images/webinar/digital-data-wave-visualization-abstract-carousal.webp",
         "url": "insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"
       },
       {
@@ -697,7 +702,8 @@
         "time": "10:00 AM CST",
         "speaker": "Divya Agarwal",
         "position": "Software Engineer - Salesforce",
-        "image": "/images/webinar/webinar-thumb.webp",
+        "altImage":"Aerial view of organized car inventory lot with hundreds of vehicles in rows for automotive dealership fleet management",
+        "image": "/images/webinar/automotive-fleet-inventory-aerial-view-carousal.webp",
         "url": "insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/"
       },
       {
@@ -707,7 +713,8 @@
         "time": "10:00 AM CST",
         "speaker": "Lokesh Adhikari",
         "position": "Software Engineer - Salesforce",
-        "image": "/images/webinar/Webinar_6.webp",
+        "altImage":"Smiling woman with curly hair looking at smartphone against blue gradient background with geometric pattern overlay",
+        "image": "/images/webinar/woman-smiling-smartphone-blue-background.webp",
         "url": "insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
       }
     ],
