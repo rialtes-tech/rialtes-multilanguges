@@ -1,5 +1,6 @@
 {
     "agentforceForManufacturing": {
+        "bannerAlt" : "Professionnels collaborant sur tablette examinant données numériques et stratégies en bureau technologique moderne",
         "seoTitle": "Agentforce pour l’industrie : l’avantage du service IA | Rialtes",
         "seoDescription": "Agentforce apporte copilotes IA, services prédictifs et outils self-service pour améliorer support et ventes.",
         "faqData": [
@@ -119,6 +120,7 @@
         "faqTitle": "FAQs : Agentforce pour la transformation manufacturière alimentée par l’IA"
     },
     "discoverAgentExchange": {
+        "bannerAlt" : "Vagues numériques abstraites violet et bleu avec connexions réseau représentant connectivité mondiale et communication",
         "seoTitle": "Pourquoi AgentExchange change la donne | Rialtes",
         "seoDescription": "AgentExchange est un écosystème où entreprises et partenaires collaborent, partagent leurs pratiques et façonnent l’avenir de l’IA agentique.",
         "understandingDataList": [
@@ -214,7 +216,9 @@
         "availabilityData3": "rationalisant les opérations et améliorant les flux de travail. En exploitant l’apprentissage automatique et le traitement du langage naturel, nous alignons les agents sur les objectifs de l’organisation afin d’atteindre une automatisation intelligente et efficace. Contactez-nous à"
     },
     "himachalBlog": {
-        "impactImage": "/images/blog/impact-image-french.webp",
+        "bannerAlt" : "Bras robotiques manipulant flacons pharmaceutiques sur ligne de production automatisée en installation sciences de la vie",
+        "impactImage": "/images/blog/india-pharmaceutical-industry-global-impact-statistics-french.webp",
+        "impactImgAlt" : "Infographie industrie pharmaceutique Inde montrant 20% exportations mondiales, 40% demande générique US, 25% UK",
         "seoTitle": "L’essor de l’Himachal dans l’industrie pharmaceutique indienne | Rialtes",
         "seoDescription": "Découvrez comment l’Himachal est devenu un leader de la production pharmaceutique grâce aux ZES, avantages fiscaux et réseaux mondiaux.",
         "blogTopic": "Général",
@@ -265,6 +269,7 @@
         "hmDesc2": "pour contribuer au paysage manufacturier florissant de l’Inde."
     },
     "agenticPharma": {
+        "bannerAlt" : "Illustration arbre fibre optique coloré avec branches lumineuses multicolores sur fond bleu-vert foncé tech",
         "seoTitle": "Agentic AI Pharma : automatiser les workflows complexes | Rialtes",
         "seoDescription": "Agentic AI Pharma gère les processus multi-étapes avec flexibilité et contexte, en réduisant au minimum l’intervention humaine.",
         "blogTopic": "IA",
@@ -1789,8 +1794,11 @@
         "empowerLink": "consultants experts SAP SuccessFactors"
     },
     "agentCopilot": {
-        "agentChart": "/images/blog/chart-french.webp",
-        "agentChartMobile": "/images/blog/chart-french-m.webp",
+        "chartAlt" : "Graphique comparatif d'automatisation avec bordure de feuillage vert montrant matrice bots, copilotes et agents IA",
+        "quotationAlt" : "Icône de guillemets bleus sur fond blanc pour élément de design de section témoignages ou citations",
+        "agentBannerAlt" : "Visualisation abstraite vibrante flux de données avec vagues colorées et particules représentant analyse transformation",
+        "agentChart": "/images/blog/automation-bots-copilots-ai-agents-comparison-chart-french.webp",
+        "agentChartMobile": "/images/blog/automation-bots-copilots-ai-agents-comparison-chart-french-mobile.webp",
         "seoTitle": "Agents, copilotes ou bots : différences clés expliquées | Rialtes",
         "seoDescription": "Découvrez les différences entre bots, copilotes et agents IA. Choisissez l’outil idéal pour accroître la productivité et transformer vos processus.",
         "blogTopic": "Salesforce Agentforce",
@@ -2802,6 +2810,7 @@
         "futureDesc2": "Rialtes aide les entreprises à adopter facilement des agents IA grâce à Agentforce. Nous fournissons personnalisation et déploiement pour répondre à vos besoins, améliorer le service client et rationaliser les opérations pour une transition fluide vers le monde piloté par l’IA."
     },
     "howAgentforce": {
+        "bannerAlt" : "Ingénieur de fabrication en équipement de sécurité jaune utilisant tablette pour contrôle qualité usine automobile",
         "seoTitle": "Agentforce 3.0 : réussir la production automobile | Rialtes",
         "seoDescription": "Agentforce transforme la production automobile grâce aux agents IA, renforçant workflows, conformité et agilité.",
         "agentforce": "Agentforce",
@@ -2972,34 +2981,41 @@
         ],
         "featuresData": [
             {
-                "icon": "/images/blog/realtime.webp",
+                "icon": "/images/blog/real-time-monitoring-system-icon.webp",
                 "title": "Visibilité opérationnelle en temps réel",
-                "description": "permet aux responsables d’usine de surveiller les indicateurs de performance, l’état des machines et l’activité des agents depuis un centre de commandement centralisé, aidant à prévenir les interruptions avant qu’elles n’escaladent."
+                "description": "permet aux responsables d’usine de surveiller les indicateurs de performance, l’état des machines et l’activité des agents depuis un centre de commandement centralisé, aidant à prévenir les interruptions avant qu’elles n’escaladent.",
+                "alt" : "Icône de surveillance en temps réel avec écran d'ordinateur affichant engrenage, loupe et symbole œil pour surveillance"
             },
             {
-                "icon": "/images/blog/ai.webp",
+                "icon": "/images/blog/ai-powered-intelligence-network-icon.webp",
                 "title": "Collaboration entre agents pilotée par l’IA à travers les systèmes",
-                "description": "permet aux différentes parties du flux de fabrication—conception, production, logistique et services—de travailler ensemble de manière fluide grâce à des agents intelligents qui agissent comme des membres numériques de l’équipe, et non simplement comme des bots de tâches."
+                "description": "permet aux différentes parties du flux de fabrication—conception, production, logistique et services—de travailler ensemble de manière fluide grâce à des agents intelligents qui agissent comme des membres numériques de l’équipe, et non simplement comme des bots de tâches.",
+                "alt" : "Icône d'intelligence pilotée par IA avec puce AI centrale connectée à nœuds réseau représentant apprentissage automatique"
             },
             {
-                "icon": "/images/blog/faster.webp",
+                "icon": "/images/blog/fast-fault-detection-alert-icon.webp",
                 "title": "Diagnostic plus rapide et résolution des problèmes de production",
-                "description": "sont rendus possibles grâce à des agents capables de suivre les pannes entre systèmes, recommander des solutions et même initier des flux de travail pour planifier la maintenance ou rediriger les tâches, réduisant ainsi les temps d’arrêt."
+                "description": "sont rendus possibles grâce à des agents capables de suivre les pannes entre systèmes, recommander des solutions et même initier des flux de travail pour planifier la maintenance ou rediriger les tâches, réduisant ainsi les temps d’arrêt.",
+                "alt" : "Icône de détection rapide de défauts avec engrenage et symbole d'alerte représentant identification automatisée d'erreurs"
             },
             {
-                "icon": "/images/blog/better.webp",
+                "icon": "/images/blog/data-analysis-verification-quality-icon.webp",
                 "title": "Meilleur contrôle qualité et suivi de conformité",
-                "description": "sont obtenus grâce à des agents intelligents qui signalent les écarts, analysent les modèles de défauts et garantissent que chaque produit respecte les normes réglementaires et internes, avec traçabilité d’audit et perspectives alimentées par l’IA."
+                "description": "sont obtenus grâce à des agents intelligents qui signalent les écarts, analysent les modèles de défauts et garantissent que chaque produit respecte les normes réglementaires et internes, avec traçabilité d’audit et perspectives alimentées par l’IA.",
+                "alt" : "Icône de vérification d'analyse de données avec documents, loupe et coche représentant validation d'assurance qualité"
             },
             {
-                "icon": "/images/blog/deeper.webp",
+                "icon": "/images/blog/deployment-support-technical-service-icon.webp",
                 "title": "Intégration accrue avec la chaîne d’approvisionnement et les systèmes clients",
-                "description": "permet aux constructeurs automobiles et aux fournisseurs de connecter les points de l’approvisionnement, du stockage, de l’expédition et même du service après-vente, rendant les opérations plus agiles, transparentes et résilientes."
+                "description": "permet aux constructeurs automobiles et aux fournisseurs de connecter les points de l’approvisionnement, du stockage, de l’expédition et même du service après-vente, rendant les opérations plus agiles, transparentes et résilientes.",
+                "alt" : "Icône support déploiement avec ordinateur portable, engrenage et symboles utilisateur pour implémentation technique"
             }
         ]
     },
     "aiPowerBlog": {
-        "susContain": "/images/blog/sus-contain-diagram-french.webp",
+        "flowchartAlt" : "Diagramme de système de réseau intelligent piloté par IA montrant sources d'énergie renouvelable et analyse prédictive",
+        "bannerAlt" : "Ville verte durable flottante avec éoliennes, panneaux solaires et bâtiments représentant avenir d'énergie renouvelable",
+        "susContain": "/images/blog/ai-driven-smart-grid-system-flowchart-french.webp",
         "seoTitle": "Comment l’IA construit un avenir durable pour la planète | Rialtes",
         "seoDescription": "L’IA aide à protéger la planète : suivi de la déforestation, prévision énergétique et préservation de la biodiversité.",
         "artificial": "Intelligence Artificielle",
@@ -3316,6 +3332,7 @@
         "readyDesc2": "Nous vous aiderons à élaborer une stratégie évolutive, sécurisée et alignée sur vos objectifs, qu’il s’agisse de réduire la charge du support, d’augmenter le NPS ou de fournir un support multilingue 24/7. Rendons votre expérience client aussi intelligente que vos clients s’y attendent. Contactez-nous à sales@rialtes.com pour commencer la conversation."
     },
     "whySapSignavio": {
+        "bannerAlt" : "Tunnel numérique bleu avec code binaire et lumières floues représentant transfert de données haute vitesse",
         "seoTitle": "SAP Signavio : simplifier le succès des implémentations S/4HANA",
         "seoDescription": "Voyager+ et SAP Signavio assurent une transition S/4HANA fluide, transparente et évolutive pour la réussite des entreprises.",
         "blogdescData": [

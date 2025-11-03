@@ -51,24 +51,29 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
-        <Image
-          src="/images/blog/Pharma Jewel of North India_Blog banner.webp"
-          alt="Himachal Pradesh: The Pharma Jewel of North India"
-          fill
-          style={{ objectFit: "cover", objectPosition: "50% 20%" }}
-          priority
-          className="w-full h-full xl:block hidden "
-        />
-        <Image
-          src="/images/blog/Pharma Jewel of North India_Blog mobile banner.webp"
-          alt="Himachal Pradesh: The Pharma Jewel of North India"
-          fill
-          priority
-          className="xl:hidden block"
-          style={{ objectFit: "cover", objectPosition: "50% 20%" }}
-        />
-      </section>
+     <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
+               {/* Desktop Image */}
+               <div className="hidden xl:block">
+                 <Image
+                   src="/images/blog/pharmaceutical-manufacturing-robotics-automation.webp"
+                   alt={t("bannerAlt")}
+                   fill
+                   priority
+                 />
+               </div>
+       
+               {/* Mobile Image */}
+               <div className="block xl:hidden">
+                 <Image
+                   src="/images/blog/pharmaceutical-manufacturing-robotics-automation-mobile.webp"
+                   alt={t("bannerAlt")}
+                   height={0}
+                   width={0}
+                   className="w-full h-auto object-cover"
+                   priority
+                 />
+               </div>
+             </section>
 
       <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
         <div className="grid lg:grid-cols-12">
@@ -98,7 +103,7 @@ export default function Page() {
                 })}
                 <Image
                   src={t('impactImage')}
-                  alt="India's impact on the global pharmaceutical industry"
+                  alt={t("impactImgAlt")}
                   width={0}
                   height={0}
                   className="xl:w-full h-full w-full relative xl:right-[64px] lg:right-[55px]  md:w-[80%]"
