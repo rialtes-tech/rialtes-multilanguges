@@ -2339,6 +2339,7 @@
         "moveDesc2": " to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP."
     },
     "remagineEnterprise": {
+        "bannerAlt" : "Agentic AI microchip with colorful light beams and data streams representing artificial intelligence computing power",
         "seoTitle": "Enterprise Agentic AI: Reimagine Workflows Smarter | Rialtes",
         "seoDescription": "Agentic AI is helping enterprises automate smarter. They act on intent, respond in real time, and learn as they go, turning tasks into intelligent workflows.",
         "faqs": [
@@ -2516,6 +2517,7 @@
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "factoryToFeedback": {
+        "bannerAlt" : "Diverse technology team collaborating on laptop with circuit boards in modern command center control room workspace",
         "seoTitle": "Agentforce for Manufacturers: Smart AI for CX | Rialtes",
         "seoDescription": "With AI-driven visibility and automation, Agentforce for manufacturers reimagines CX, creating smarter, proactive, and seamless customer journeys.",
         "faqs": [
@@ -2668,6 +2670,7 @@
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "firstAiAgent": {
+        "bannerAlt" : "Man interacting with glowing AI data visualization wave representing digital transformation and machine learning.",
         "seoTitle": "How to Deploy AI Agents in Salesforce Agentforce | Rialtes",
         "seoDescription": "Ready to automate with AI? Use this step-by-step guide to build and deploy AI agents in Agentforce by Salesforce without coding or expensive systems.",
         "stepToGuideData": [
@@ -2913,7 +2916,8 @@
         "futureDesc2": "Rialtes helps businesses easily adopt AI agents using Agentforce. We provide customization and deployment to meet your needs, enhancing customer service and streamlining operations for a smooth transition into the AI-driven world."
     },
     "aiThatListens": {
-        "seoTitle": "How LLMs Transform Customer Experience with AI | Rialtes",
+        "aithatlistensAlt" : "Dynamic digital waves and colorful data streams illustrating technology flow and network connectivity.",
+         "seoTitle": "How LLMs Transform Customer Experience with AI | Rialtes",
         "seoDescription": "LLMs, powered by generative AI, are redefining how businesses listen and respond. They go beyond automation, enabling real conversations and transforming CX.",
         "blogs": [
             {
@@ -3258,6 +3262,7 @@
         "faqTitle": "FAQs: SAP Signavio S/4HANA Implementation"
     },
     "beyondRobotics": {
+        "bannerAlt" :"Professional reviewing industrial digital twin 3D model on tablet for factory layout planning and manufacturing optimization",
         "seoTitle": "Beyond Automation: Why AI Agents Power Smart Manufacturing",
         "seoDescription": "Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems.",
         "blogMainData": [
@@ -3839,6 +3844,7 @@
         ]
     },
     "sapPiPo": {
+        "bannerAlt" : "Glowing neon frame with white clouds and digital particles representing cloud computing and data transformation",
         "seoTitle": "SAP PI PO to SAP CPI Migration: Everything You Need to Know",
         "seoDescription": "Migrating from SAP PI PO to SAP CPI is not a simple upgrade; it’s a transformation toward a cloud-native, intelligent integration backbone.",
         "steps": [
@@ -4220,6 +4226,7 @@
         "faqTitle": "FAQs: SAP Signavio + SAP Cloud ALM in S/4HANA"
     },
     "aiPatient": {
+        "bannerAlt" : "Digital medical innovation showing human anatomy and AI analysis through interactive 3D holographic interface.",
         "seoTitle": "AI Patient Engagement: How Smart Agents Simplify Care | Rialtes",
         "seoDescription": "Discover how AI for patient engagement helps MedTech streamline monitoring, simplify workflows, and enhance patient-provider interactions with ease.",
         "rolesData": [
@@ -4360,28 +4367,33 @@
         "faqTitle": "FAQs: AI in Patient Engagement"
     },
     "agentforceIndustry4": {
+        "bannerAlt" : "Advanced Industry 4.0 automation with robotic arm, digital data overlay, and futuristic manufacturing interface.",
         "seoTitle": "Retrieving data. Wait a few seconds and try to cut or copy again.",
         "seoDescription": "Agentforce AI helps manufacturers prevent unplanned downtime with predictive intelligence, ensuring zero disruption and 24/7 operational efficiency.",
         "reactiveData": [
             {
-                "image": "/images/blog/industr4Svg (1).svg",
+                "image": "/images/blog/reactive-analytics-data-monitoring-icon.svg",
                 "title": "Reactive",
-                "desc": "Waiting for machines to fail"
+                "desc": "Waiting for machines to fail",
+                "alt" : "Blue reactive analytics icon with clock, magnifying glass, person, and bar charts representing real-time data analysis"
             },
             {
-                "image": "/images/blog/industr4Svg (2).svg",
+                "image": "/images/blog/proactive-automation-workflow-icon.svg",
                 "title": "Proactive",
-                "desc": "Scheduling regular maintenance cycles"
+                "desc": "Scheduling regular maintenance cycles",
+                "alt" : "Blue proactive automation icon with gear, cloud, and circular arrows representing intelligent workflow automation systems"
             },
             {
-                "image": "/images/blog/industr4Svg (3).svg",
+                "image": "/images/blog/predictive-cycle-forecasting-icon.svg",
                 "title": "Predictive",
-                "desc": "Anticipating failures based on patterns and usage data"
+                "desc": "Anticipating failures based on patterns and usage data",
+                "alt" : "Blue predictive cycle icon with circular arrow representing continuous forecasting and predictive analytics process"
             },
             {
-                "image": "/images/blog/industr4Svg (4).svg",
+                "image": "/images/blog/autonomous-scheduling-automation-icon.svg",
                 "title": "Autonomous",
-                "desc": "Allowing AI agents to trigger service workflows automatically"
+                "desc": "Allowing AI agents to trigger service workflows automatically",
+                "alt" : "Blue autonomous scheduling icon with calendar, clock, and gear representing automated time management and smart scheduling"
             }
         ],
         "agentforceEnablingData": [

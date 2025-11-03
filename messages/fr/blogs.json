@@ -2225,6 +2225,7 @@
         "moveDesc2": " pour mettre en place des processus agricoles intelligents basés sur les données, tout en gérant de manière cohérente les données agricoles dans l’ensemble de votre entreprise avec SAP BTP."
     },
     "remagineEnterprise": {
+        "bannerAlt" : "Micropuce IA agentique avec rayons lumineux colorés représentant puissance de calcul intelligence artificielle",
         "seoTitle": "IA agentique en entreprise : des workflows plus intelligents | Rialtes",
         "seoDescription": "L’IA agentique automatise intelligemment, agit en temps réel et apprend en continu pour transformer les processus en workflows intelligents.",
         "faqs": [
@@ -2402,6 +2403,7 @@
         "faqTitle": "Foire Aux Questions (FAQ)"
     },
     "factoryToFeedback": {
+        "bannerAlt" : "Équipe technologique diversifiée collaborant sur ordinateur avec circuits imprimés dans salle de contrôle moderne",
         "seoTitle": "Agentforce pour l’industrie : une IA intelligente pour le CX | Rialtes",
         "seoDescription": "Grâce à l’automatisation et la visibilité IA, Agentforce réinvente l’expérience client avec des parcours fluides et proactifs.",
         "faqs": [
@@ -2554,6 +2556,7 @@
         "faqTitle": "Foire aux questions (FAQ)"
     },
     "firstAiAgent": {
+        "bannerAlt" : "Homme interagissant avec une onde lumineuse de visualisation de données IA représentant la transformation numérique et l’apprentissage automatique.",
         "seoTitle": "Déployer des agents IA dans Salesforce Agentforce | Rialtes",
         "seoDescription": "Suivez ce guide étape par étape pour créer et déployer vos agents IA dans Agentforce sans coder ni systèmes coûteux.",
         "stepToGuideData": [
@@ -3216,6 +3219,7 @@
         ]
     },
     "aiThatListens": {
+        "aithatlistensAlt" : "Ondes numériques dynamiques et flux de données colorés illustrant le flux technologique et la connectivité réseau.",
         "seoTitle": "Comment les LLM transforment l’expérience client avec l’IA | Rialtes",
         "seoDescription": "Les LLM redéfinissent l’écoute et la réponse client, allant au-delà de l’automatisation pour créer des conversations réelles et enrichir le CX.",
         "LLMarchData": [
@@ -3504,6 +3508,7 @@
         "faqTitle": "FAQs : Mise en œuvre de SAP Signavio S/4HANA"
     },
     "beyondRobotics": {
+        "bannerAlt" : "Professionnel examinant modèle 3D jumeau numérique industriel sur tablette pour planification usine et optimisation",
         "seoTitle": "Au-delà de l’automatisation : agents IA et industrie intelligente",
         "seoDescription": "Agentforce déploie des agents autonomes pour combler le fossé entre production et expérience, avec moins de silos et des décisions rapides.",
         "blogMainData": [
@@ -3668,6 +3673,7 @@
         "faqTitle": "FAQ : Fabrication intelligente avec des agents IA"
     },
     "sapPiPo": {
+        "bannerAlt" : "Cadre néon lumineux avec nuages blancs et particules numériques représentant cloud computing et transformation données",
         "seoTitle": "Migration SAP PI PO vers SAP CPI : l’essentiel à savoir",
         "seoDescription": "Passer de PI PO à SAP CPI est une transformation vers une intégration cloud-native et intelligente, pas une simple mise à jour.",
         "steps": [
@@ -4049,6 +4055,7 @@
         "faqTitle": "FAQs : SAP Signavio + SAP Cloud ALM dans S/4HANA"
     },
     "aiPatient": {
+        "bannerAlt" : "Innovation médicale numérique affichant l’anatomie humaine et l’analyse IA via une interface holographique 3D interactive.",
         "seoTitle": "Engagement patient avec l’IA : simplifier les soins | Rialtes",
         "seoDescription": "Découvrez comment l’IA MedTech facilite le suivi, simplifie les processus et améliore la relation patient-professionnel de santé.",
         "rolesData": [
@@ -4189,28 +4196,33 @@
         "faqTitle": "FAQs : L’IA dans l’engagement des patients"
     },
     "agentforceIndustry4": {
+        "bannerAlt" : "Automatisation avancée de l’industrie 4.0 avec bras robotisé, données numériques et interface de fabrication futuriste.",
         "seoTitle": "Agentforce AI : zéro interruption en production industrielle | Rialtes",
         "seoDescription": "L’IA d’Agentforce prédit les pannes, évite les interruptions et garantit une efficacité opérationnelle continue.",
         "reactiveData": [
             {
-                "image": "/images/blog/industr4Svg (1).svg",
+                "image": "/images/blog/reactive-analytics-data-monitoring-icon.svg",
                 "title": "Réactif",
-                "desc": "Attendre que les machines tombent en panne"
+                "desc": "Attendre que les machines tombent en panne",
+                "alt" : "Icône bleue d'analyse réactive avec horloge, loupe, personne et graphiques représentant analyse de données en temps réel"
             },
             {
-                "image": "/images/blog/industr4Svg (2).svg",
+                "image": "/images/blog/proactive-automation-workflow-icon.svg",
                 "title": "Proactif",
-                "desc": "Planifier des cycles de maintenance réguliers"
+                "desc": "Planifier des cycles de maintenance réguliers",
+                "alt" : "Icône bleue d'automation proactive avec engrenage, nuage et flèches circulaires représentant systèmes de flux de travail"
             },
             {
-                "image": "/images/blog/industr4Svg (3).svg",
+                "image": "/images/blog/predictive-cycle-forecasting-icon.svg",
                 "title": "Prédictif",
-                "desc": "Anticiper les pannes sur la base des modèles et des données d’utilisation"
+                "desc": "Anticiper les pannes sur la base des modèles et des données d’utilisation",
+                "alt" : "Icône bleue de cycle prédictif avec flèche circulaire représentant prévision continue et processus d'analyse prédictive"
             },
             {
-                "image": "/images/blog/industr4Svg (4).svg",
+                "image": "/images/blog/autonomous-scheduling-automation-icon.svg",
                 "title": "Autonome",
-                "desc": "Permettre aux agents IA de déclencher automatiquement des flux de travail de service"
+                "desc": "Permettre aux agents IA de déclencher automatiquement des flux de travail de service",
+                "alt" : "Icône bleue de planification autonome avec calendrier, horloge et engrenage représentant gestion automatique du temps"
             }
         ],
         "agentforceEnablingData": [

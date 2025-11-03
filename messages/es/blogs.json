@@ -2225,6 +2225,7 @@
         "moveDesc2": " para implementar procesos agrícolas inteligentes basados en datos mientras gestionas la información agrícola de forma coherente en toda tu empresa con SAP BTP."
     },
     "remagineEnterprise": {
+        "bannerAlt" : "Microchip IA agéntica con rayos de luz coloridos y flujos de datos representando poder de computación inteligencia artificial",
         "seoTitle": "IA Agéntica Empresarial: Flujos Más Inteligentes",
         "seoDescription": "La IA agéntica ayuda a automatizar con inteligencia: actúa en tiempo real, aprende y convierte tareas en flujos de trabajo inteligentes.",
         "faqs": [
@@ -2402,6 +2403,7 @@
         "faqTitle": "Preguntas Frecuentes (FAQs)"
     },
     "factoryToFeedback": {
+        "bannerAlt" : "Equipo tecnológico diverso colaborando en portátil con placas de circuitos en centro de control de sala de comando moderno",
         "seoTitle": "Agentforce para Manufactura: IA Inteligente en CX",
         "seoDescription": "Con automatización e IA, Agentforce transforma la experiencia del cliente, creando recorridos más inteligentes, proactivos y fluidos.",
         "faqs": [
@@ -2554,6 +2556,7 @@
         "faqTitle": "Preguntas frecuentes (FAQs)"
     },
     "firstAiAgent": {
+        "bannerAlt" : "Hombre interactuando con una ola luminosa de visualización de datos de IA que representa la transformación digital y el aprendizaje automático.",
         "seoTitle": "Cómo Implementar Agentes de IA en Salesforce Agentforce",
         "seoDescription": "¿Listo para automatizar con IA? Usa esta guía paso a paso para crear e implementar agentes de IA en Agentforce sin código ni altos costos.",
         "stepToGuideData": [
@@ -3159,6 +3162,7 @@
         ]
     },
     "aiThatListens": {
+        "aithatlistensAlt" : "Ondas digitales dinámicas y flujos de datos coloridos que ilustran el flujo tecnológico y la conectividad de red.",
         "seoTitle": "Cómo los LLM Transforman la Experiencia del Cliente",
         "seoDescription": "Los LLM con IA generativa redefinen cómo las empresas escuchan y responden, creando conversaciones reales y transformando la experiencia del cliente.",
         "LLMarchData": [
@@ -3447,6 +3451,7 @@
         "faqTitle": "FAQs: Implementación de SAP Signavio S/4HANA"
     },
     "beyondRobotics": {
+        "bannerAlt" : "Profesional revisando modelo 3D gemelo digital industrial en tablet para planificación de diseño de fábrica y optimización",
         "seoTitle": "Más Allá de la Automatización: Agentes de IA en Manufactura",
         "seoDescription": "Agentforce integra agentes autónomos que unen producción y experiencia, reduciendo silos, acelerando decisiones y creando sistemas inteligentes.",
         "blogMainData": [
@@ -3611,6 +3616,7 @@
         "faqTitle": "Preguntas frecuentes: Manufactura inteligente con agentes de IA"
     },
     "sapPiPo": {
+        "bannerAlt" : "Marco neón brillante con nubes blancas y partículas digitales representando computación en la nube y transformación datos",
         "seoTitle": "Migración de SAP PI PO a SAP CPI: Todo lo que Debes Saber",
         "seoDescription": "Migrar de SAP PI PO a SAP CPI no es solo una actualización: es una transformación hacia una integración inteligente y nativa en la nube.",
         "steps": [
@@ -3992,6 +3998,7 @@
         "faqTitle": "FAQs: SAP Signavio + SAP Cloud ALM en S/4HANA"
     },
     "aiPatient": {
+        "bannerAlt" : "Innovación médica digital que muestra la anatomía humana y análisis de IA mediante una interfaz holográfica 3D interactiva.",
         "seoTitle": "Compromiso del Paciente con IA: Atención Simplificada",
         "seoDescription": "Descubre cómo la IA en la relación paciente simplifica monitoreo, flujos de trabajo y mejora la interacción entre paciente y proveedor.",
         "rolesData": [
@@ -4132,28 +4139,33 @@
         "faqTitle": "FAQs: La IA en la participación del paciente"
     },
     "agentforceIndustry4": {
+        "bannerAlt" : "Automatización avanzada de Industria 4.0 con brazo robótico, datos digitales y una interfaz de fabricación futurista.",
         "seoTitle": "Cómo Agentforce IA Logra Cero Paros en Manufactura",
         "seoDescription": "Agentforce IA previene paradas no planificadas con inteligencia predictiva, asegurando continuidad y eficiencia 24/7.",
         "reactiveData": [
             {
-                "image": "/images/blog/industr4Svg (1).svg",
+                "image": "/images/blog/reactive-analytics-data-monitoring-icon.svg",
                 "title": "Reactivo",
-                "desc": "Esperar a que las máquinas fallen"
+                "desc": "Esperar a que las máquinas fallen",
+                "alt" : "Icono azul de análisis reactivo con reloj, lupa, persona y gráficos de barras representando análisis de datos en tiempo real"
             },
             {
-                "image": "/images/blog/industr4Svg (2).svg",
+                "image": "/images/blog/proactive-automation-workflow-icon.svg",
                 "title": "Proactivo",
-                "desc": "Programar ciclos regulares de mantenimiento"
+                "desc": "Programar ciclos regulares de mantenimiento",
+                "alt" : "Icono azul automatización proactiva con engranaje, nube y flechas representando sistemas de flujo de trabajo inteligente"
             },
             {
-                "image": "/images/blog/industr4Svg (3).svg",
+                "image": "/images/blog/predictive-cycle-forecasting-icon.svg",
                 "title": "Predictivo",
-                "desc": "Anticipar fallas basadas en patrones y datos de uso"
+                "desc": "Anticipar fallas basadas en patrones y datos de uso",
+                "alt" : "Icono azul de ciclo predictivo con flecha circular representando pronóstico continuo y proceso de análisis predictivo"
             },
             {
-                "image": "/images/blog/industr4Svg (4).svg",
+                "image": "/images/blog/autonomous-scheduling-automation-icon.svg",
                 "title": "Autónomo",
-                "desc": "Permitir que los agentes de IA activen flujos de trabajo de servicio automáticamente"
+                "desc": "Permitir que los agentes de IA activen flujos de trabajo de servicio automáticamente",
+                "alt" : "Icono azul programación autónoma con calendario, reloj y engranaje representando gestión automática de tiempo y tareas"
             }
         ],
         "agentforceEnablingData": [
