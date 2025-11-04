@@ -12,7 +12,7 @@ export default function page({ url }) {
     category : "Exelona",
     industry : "Generic",
     date : "Nov. 04, 2025",
-    url: "insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
+    url: "insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/",
     title : "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
     description : "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
   },
