@@ -31,8 +31,8 @@ export default function page({ url }) {
             category: "Exelona",
             industry: "Real Estate",
             date: "Oct. 31, 2025",
-            url: "insights/blogs/open-api-integrations-every-growing-real-estate/",
-            title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
+            url: "insights/blogs/smart-api-integrations-for-real-estate-2026/",
+            title: "5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
            description: "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. "
          },
         {
