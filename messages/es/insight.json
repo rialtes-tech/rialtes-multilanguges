@@ -1,6 +1,6 @@
 {
   "insights": {
-    "bannerAlt" : "Iceberg flotando en océano azul simbolizando profundidades ocultas y perspectivas expertas de la industria empresarial",
+    "bannerAlt": "Iceberg flotando en océano azul simbolizando profundidades ocultas y perspectivas expertas de la industria empresarial",
     "insightTitle": "Mantente a la Vanguardia con Información Experta de la Industria",
     "seoTitle": "Blogs Rialtes | Salesforce, SAP, IA y Nube",
     "seoDescription": "Lee blogs expertos sobre Salesforce, SAP, nube e IA. Mantente informado con las últimas tendencias e innovación digital de Rialtes.",
@@ -194,6 +194,36 @@
       }
     ],
     "latestBlogs": [
+      {
+        "id": 50,
+        "image": "/images/blog/ai-real-estate-cloud-infrastructure-mobile.webp",
+        "category": "Exelona",
+        "industry": "Bienes Raíces",
+        "date": "03 nov. 2025",
+        "url": "/erp-crm-convergence-real-estate-leaders-guide/",
+        "title": "Convergencia CRM + ERP: cómo los líderes inmobiliarios eliminan los silos de sistemas y reducen costos",
+        "description": "Esto es algo que todo líder inmobiliario ya sabe pero rara vez dice en voz alta: la pila tecnológica que debía simplificar las operaciones ha terminado por complicarlas."
+      },
+      {
+        "id": 49,
+        "image": "/images/blog/conversational-ai-in-real-estate-mobile.webp",
+        "category": "Exelona",
+        "industry": "Bienes Raíces",
+        "date": "20 oct. 2025",
+        "url": "/conversational-ai-in-real-estate-scale-resident-support/",
+        "title": "IA conversacional en bienes raíces: amplía el soporte a los residentes sin aumentar el personal",
+        "description": "El soporte a los residentes en la gestión de propiedades se está volviendo más difícil de escalar. Entre las solicitudes de mantenimiento y las consultas de alquiler,"
+      },
+      {
+        "id": 48,
+        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
+        "category": "IA",
+        "industry": "Genérico",
+        "date": "13 oct. 2025",
+        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
+        "title": "IA en operaciones inmobiliarias: reduce el tiempo de inactividad un 30 % y los costos operativos con mantenimiento predictivo",
+        "description": "Esta es la verdad sobre las operaciones inmobiliarias: siempre han sido un equilibrio entre costo, confort y continuidad."
+      },
       {
         "id": 47,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
@@ -647,7 +677,7 @@
     ]
   },
   "webinars": {
-    "bannerAlt":"Persona escribiendo en laptop durante videollamada de conferencia con equipo virtual mostrando grupo diverso de profesionales",
+    "bannerAlt": "Persona escribiendo en laptop durante videollamada de conferencia con equipo virtual mostrando grupo diverso de profesionales",
     "allWebinars": [
       {
         "id": 6,
@@ -656,7 +686,7 @@
         "time": "10:00 AM CST",
         "speaker": "Sapna Chauhan",
         "position": "Ingeniera de Software - SAP",
-        "altImage":"Edificio de vidrio futurista que refleja el cielo azul y las nubes, símbolo de innovación y transformación digital",
+        "altImage": "Edificio de vidrio futurista que refleja el cielo azul y las nubes, símbolo de innovación y transformación digital",
         "image": "/images/webinar/futuristic-glass-building-reflection-carousal.webp",
         "url": "insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud/"
       },
@@ -667,7 +697,7 @@
         "time": "10:00 AM CST",
         "speaker": "Anuraag Aggarwal",
         "position": "Vicepresidente de Ventas Globales",
-        "altImage":"Ola digital formada por conexiones brillantes que se fusionan con el océano, simbolizando el flujo de datos y la innovación",
+        "altImage": "Ola digital formada por conexiones brillantes que se fusionan con el océano, simbolizando el flujo de datos y la innovación",
         "image": "/images/webinar/digital-wave-data-network-carousal.webp",
         "url": "insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
       },
@@ -678,7 +708,7 @@
         "time": "10:00 AM CST",
         "speaker": "Lokesh Adhikari",
         "position": "Ingeniero de Software - Salesforce",
-        "altImage":"Perfil de mujer con superposición de datos digitales representando IA, aprendizaje automático y transformación digital",
+        "altImage": "Perfil de mujer con superposición de datos digitales representando IA, aprendizaje automático y transformación digital",
         "image": "/images/webinar/ai-digital-transformation-data-overlay-carousal.webp",
         "url": "insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
       },
@@ -689,7 +719,7 @@
         "time": "10:00 AM CST",
         "speaker": "Akshay Kale",
         "position": "Director General Senior – Servicios SAP",
-        "altImage":"Visualización abstracta de ola de datos azul y naranja representando transformación digital, big data e inteligencia artificial",
+        "altImage": "Visualización abstracta de ola de datos azul y naranja representando transformación digital, big data e inteligencia artificial",
         "image": "/images/webinar/digital-data-wave-visualization-abstract-carousal.webp",
         "url": "insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"
       },
@@ -700,7 +730,7 @@
         "time": "10:00 AM CST",
         "speaker": "Divya Agarwal",
         "position": "Ingeniera de Software - Salesforce",
-        "altImage":"Vista aérea de lote de inventario de autos organizado con cientos de vehículos en filas para gestión de flota automotriz",
+        "altImage": "Vista aérea de lote de inventario de autos organizado con cientos de vehículos en filas para gestión de flota automotriz",
         "image": "/images/webinar/automotive-fleet-inventory-aerial-view-carousal.webp",
         "url": "insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/"
       },
@@ -711,7 +741,7 @@
         "time": "10:00 AM CST",
         "speaker": "Lokesh Adhikari",
         "position": "Ingeniero de Software - Salesforce",
-        "altImage":"Mujer sonriente con cabello rizado mirando smartphone contra fondo azul degradado con superposición de patrón geométrico",
+        "altImage": "Mujer sonriente con cabello rizado mirando smartphone contra fondo azul degradado con superposición de patrón geométrico",
         "image": "/images/webinar/woman-smiling-smartphone-blue-background.webp",
         "url": "insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
       }
@@ -1116,7 +1146,7 @@
     ]
   },
   "newsElite": {
-    "bannerAlt" : "Servidores de centro de datos digital con insignia de revendedor cloud autorizado Salesforce mostrando certificación oficial",
+    "bannerAlt": "Servidores de centro de datos digital con insignia de revendedor cloud autorizado Salesforce mostrando certificación oficial",
     "seoTitle": "Rialtes se convierte en socio revendedor oficial de Salesforce",
     "seoDescription": "Rialtes ahora es socio revendedor oficial de Salesforce, ofreciendo licencias completas, implementación y servicios gestionados bajo un mismo techo.",
     "title": "Rialtes Logra el Estatus de Salesforce Reseller Partner, Ampliando Capacidades Integrales en la Nube",
@@ -1132,7 +1162,7 @@
     "visitTwo": "o contacte a "
   },
   "newsSales": {
-    "bannerAlt" : "Tijeras doradas cortando cinta roja simbolizando inauguración de nueva oficina de ventas Rialtes en Himachal Pradesh India",
+    "bannerAlt": "Tijeras doradas cortando cinta roja simbolizando inauguración de nueva oficina de ventas Rialtes en Himachal Pradesh India",
     "seoTitle": "Rialtes inaugura oficina de ventas en Baddi, HP",
     "seoDescription": "Rialtes abre una nueva oficina en Baddi, Himachal Pradesh, para mejorar el servicio al cliente y ofrecer soluciones Salesforce y SAP para la industria manufacturera.",
     "rialtesTitle": "Rialtes Abre Nueva Oficina de Ventas en Himachal Pradesh, India.",
