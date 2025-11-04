@@ -30,6 +30,26 @@ const schemaData = {
 
 const latestBlogs = [
    {
+    id:45,
+    image: "/images/blog/exelona-cluster-feature-thumb.webp",
+    category : "Exelona",
+    industry : "Generic",
+    date : "Nov. 04, 2025",
+    url: "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
+    title : "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
+    description : "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
+  },
+  {
+    id: 50,
+    image: "/images/blog/crm-erp-convergence-for-real-estate-mobile.webp",
+    category: "Exelona",
+    industry: "Real Estate",
+    date: "Nov. 03, 2025",
+    url: "/erp-crm-convergence-real-estate-leaders-guide/",
+    title: "CRM + ERP Convergence: How Real Estate Leaders Break System Silos and Cut Costs",
+    description: "Here’s something every property leader already knows but rarely says out loud: the technology stack that was meant to simplify operations has ended up complicating it."
+  },
+  {
     id: 45,
     image: "/images/blog/digital-puzzle-technology-integration-thumb.webp",
     category: "Exelona",
@@ -39,15 +59,36 @@ const latestBlogs = [
     title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
     description: "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. "
   },
+  
   {
-    id:44,
+    id: 49,
+    image: "/images/blog/conversational-ai-in-real-estate-mobile.webp",
+    category: "Exelona",
+    industry: "Real Estate",
+    date: "Oct. 20, 2025",
+    url: "/conversational-ai-in-real-estate-scale-resident-support/",
+    title: "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
+    description: "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries,"
+  },
+  {
+    id: 48,
+    image: "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
+    category: "AI",
+    industry: "Generic",
+    date: "Oct. 13, 2025",
+    url: "/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
+    title: "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
+    description: "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity."
+  },
+  {
+    id: 44,
     image: "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
-    category : "Salesforce",
-    industry : "Generic",
-    date : "Oct. 10, 2025",
+    category: "Salesforce",
+    industry: "Generic",
+    date: "Oct. 10, 2025",
     url: "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/",
-    title : "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
-    description : "Salesforce has become the foundation for modern enterprise CRM solutions, helping organizations unify data, streamline processes, and deliver personalized customer experiences. "
+    title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
+    description: "Salesforce has become the foundation for modern enterprise CRM solutions, helping organizations unify data, streamline processes, and deliver personalized customer experiences. "
   },
   {
     id: 43,
