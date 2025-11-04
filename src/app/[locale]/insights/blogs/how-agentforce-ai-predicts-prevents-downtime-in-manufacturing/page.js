@@ -135,16 +135,16 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
-            src="/images/blog/industry4-desktop-banner.webp"
-            alt="ai that listens"
+            src="/images/blog/industry-4-automation-technology.webp"
+            alt={t("bannerAlt")}
             fill
             priority
           />
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/blog/industry4-mobile-banner.webp"
-            alt="ai that listens"
+            src="/images/blog/industry-4-automation-technology-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}
@@ -198,6 +198,7 @@ export default function Page() {
                       <div key={ind}>
                         <img
                           src={data.image}
+                          alt = {`${data.alt}`}
                           className="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px]"
                         />
                         <p className="mt-10 lg:mt-5 4xl:pr-20 pr-8  4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">

@@ -123,8 +123,8 @@ export default function Page() {
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
-                        src="/images/blog/factory-banner.webp"
-                        alt="banner"
+                        src="/images/blog/technology-team-collaboration-command-center.webp"
+                        alt={t("bannerAlt")}
                         fill
                         style={{ objectFit: "cover" }}
                         priority
@@ -135,8 +135,8 @@ export default function Page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden h-full">
                     <Image
-                        src="/images/blog/small-mobile-banner.webp"
-                        alt="banner"
+                        src="/images/blog/technology-team-collaboration-command-center-mobile.webp"
+                        alt={t("bannerAlt")}
                         priority
                         height={0}
                         width={0}

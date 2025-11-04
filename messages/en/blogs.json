@@ -1,5 +1,6 @@
 {
     "agentforceForManufacturing": {
+        "bannerAlt" : "Business professionals collaborating on tablet reviewing digital data and strategies in modern corporate technology office",
         "seoTitle": "Agentforce for Manufacturing: AI Service Edge | Rialtes",
         "seoDescription": "Want to scale smarter? Agentforce for Manufacturing brings AI copilots, predictive service, and self-service tools to elevate your support and sales ops.",
         "faqData": [
@@ -119,6 +120,7 @@
         "faqTitle": "FAQs: Agentforce for AI-Powered Manufacturing Transformation"
     },
     "discoverAgentExchange": {
+        "bannerAlt" : "Purple and blue abstract digital waves with network connections representing global connectivity and data communication",
         "seoTitle": "Why AgentExchange Is a Game-Changer | Rialtes",
         "seoDescription": "AgentExchange is a thriving ecosystem where businesses, partners, and Agentblazers collaborate, share best practices, and drive the future of agentic AI together.",
         "understandingDataList": [
@@ -214,7 +216,9 @@
         "availabilityData3": "streamlining operations and enhancing workflows. By leveraging machine learning and natural language processing, we align agents with the organization's objectives to achieve efficient intelligent automation. Contact us at"
     },
     "himachalBlog": {
-        "impactImage": "/images/blog/infographic.png",
+        "bannerAlt" : "Robotic arms handling pharmaceutical vials on automated production line in sterile life sciences manufacturing facility",
+        "impactImage": "/images/blog/india-pharmaceutical-industry-global-impact-statistics.png",
+        "impactImgAlt" : "India pharmaceutical industry infographic showing 20% global exports, 40% US generic demand, 25% UK medicines supply",
         "seoTitle": "The Rise of Himachal in India’s Pharma Industry | Rialtes",
         "seoDescription": "Explore how Himachal Pradesh became a pharma manufacturing leader with SEZs, tax breaks, global supply links, and 600+ certified production units.",
         "blogs": [
@@ -322,6 +326,7 @@
         "hmDesc2": "to contribute to India's thriving manufacturing landscape."
     },
     "agenticPharma": {
+        "bannerAlt" : "Colorful fiber optic tree illustration with glowing multicolor branches on dark teal tech-themed background",
         "seoTitle": "Agentic AI Pharma: Automating Complex Pharma Workflows | Rialtes",
         "seoDescription": "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention.",
         "blogTopic": "AI",
@@ -1846,8 +1851,11 @@
         "empowerLink": "expert SAP SuccessFactors consultants"
     },
     "agentCopilot": {
-        "agentChart": "/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp",
-        "agentChartMobile": "/images/blog/infographic-mobile.webp",
+        "chartAlt" : "Automation comparison chart with green foliage border showing bots, copilots, and AI agents features matrix",
+        "quotationAlt" : "Blue quotation marks icon on white background for testimonial or quote section design element",
+        "agentBannerAlt" : "Vibrant abstract data flow visualization with colorful waves and particles representing digital transformation analytics",
+        "agentChart": "/images/blog/automation-bots-copilots-ai-agents-comparison-chart.webp",
+        "agentChartMobile": "/images/blog/automation-bots-copilots-ai-agents-comparison-chart-mobile.webp",
         "seoTitle": "Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes",
         "seoDescription": "Learn the key differences between bots, copilots, and AI agents. Choose the best AI automation tool to scale productivity and transform workflows.",
         "blogTopic": "Salesforce Agentforce",
@@ -2339,6 +2347,7 @@
         "moveDesc2": " to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP."
     },
     "remagineEnterprise": {
+        "bannerAlt" : "Agentic AI microchip with colorful light beams and data streams representing artificial intelligence computing power",
         "seoTitle": "Enterprise Agentic AI: Reimagine Workflows Smarter | Rialtes",
         "seoDescription": "Agentic AI is helping enterprises automate smarter. They act on intent, respond in real time, and learn as they go, turning tasks into intelligent workflows.",
         "faqs": [
@@ -2516,6 +2525,7 @@
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "factoryToFeedback": {
+        "bannerAlt" : "Diverse technology team collaborating on laptop with circuit boards in modern command center control room workspace",
         "seoTitle": "Agentforce for Manufacturers: Smart AI for CX | Rialtes",
         "seoDescription": "With AI-driven visibility and automation, Agentforce for manufacturers reimagines CX, creating smarter, proactive, and seamless customer journeys.",
         "faqs": [
@@ -2668,6 +2678,7 @@
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "firstAiAgent": {
+        "bannerAlt" : "Man interacting with glowing AI data visualization wave representing digital transformation and machine learning.",
         "seoTitle": "How to Deploy AI Agents in Salesforce Agentforce | Rialtes",
         "seoDescription": "Ready to automate with AI? Use this step-by-step guide to build and deploy AI agents in Agentforce by Salesforce without coding or expensive systems.",
         "stepToGuideData": [
@@ -2913,7 +2924,8 @@
         "futureDesc2": "Rialtes helps businesses easily adopt AI agents using Agentforce. We provide customization and deployment to meet your needs, enhancing customer service and streamlining operations for a smooth transition into the AI-driven world."
     },
     "aiThatListens": {
-        "seoTitle": "How LLMs Transform Customer Experience with AI | Rialtes",
+        "aithatlistensAlt" : "Dynamic digital waves and colorful data streams illustrating technology flow and network connectivity.",
+         "seoTitle": "How LLMs Transform Customer Experience with AI | Rialtes",
         "seoDescription": "LLMs, powered by generative AI, are redefining how businesses listen and respond. They go beyond automation, enabling real conversations and transforming CX.",
         "blogs": [
             {
@@ -3066,6 +3078,7 @@
         "readyDesc2": "We’ll help you build a strategy that’s scalable, secure, and aligned to your goals, whether that’s reducing support load, increasing NPS, or delivering 24/7 multilingual support. Let’s make your customer experience as intelligent as your customers expect it to be. Reach out to us at sales@rialtes.com to start the conversation."
     },
     "whySapSignavio": {
+        "bannerAlt" : "Blue digital tunnel with binary code and motion blur lights representing high-speed data transfer and technology",
         "seoTitle": "SAP Signavio: Simplifying S/4HANA Implementation Success",
         "seoDescription": "Ready for S/4HANA Implementation? Rialtes’ Voyager+ and SAP Signavio make the journey smooth, transparent, and built for scalable enterprise success.",
         "blogdescData": [
@@ -3258,6 +3271,7 @@
         "faqTitle": "FAQs: SAP Signavio S/4HANA Implementation"
     },
     "beyondRobotics": {
+        "bannerAlt" :"Professional reviewing industrial digital twin 3D model on tablet for factory layout planning and manufacturing optimization",
         "seoTitle": "Beyond Automation: Why AI Agents Power Smart Manufacturing",
         "seoDescription": "Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems.",
         "blogMainData": [
@@ -3422,6 +3436,7 @@
         "faqTitle": "FAQs: Smart Manufacturing with AI Agents"
     },
     "howAgentforce": {
+        "bannerAlt" : "Manufacturing engineer in yellow safety gear using tablet for quality control in automated automotive assembly facility",
         "seoTitle": "Agentforce 3.0 for Automotive Manufacturing Success | Rialtes",
         "seoDescription": "Agentforce for Automotive is transforming vehicle production with AI-powered agents that enhance workflows, compliance, and agility on the factory floor.",
         "agentforce": "Agentforce",
@@ -3592,34 +3607,41 @@
         ],
         "featuresData": [
             {
-                "icon": "/images/blog/realtime.webp",
+                "icon": "/images/blog/real-time-monitoring-system-icon.webp",
                 "title": "Real-time operational visibility",
-                "description": "lets factory managers monitor performance metrics, machine statuses, and agent activity from a centralized Command Center, helping to prevent disruptions before they escalate."
+                "description": "lets factory managers monitor performance metrics, machine statuses, and agent activity from a centralized Command Center, helping to prevent disruptions before they escalate.",
+                "alt" : "Real-time monitoring icon with computer screen displaying gear, magnifying glass, and eye symbol for system surveillance"
             },
             {
-                "icon": "/images/blog/ai.webp",
+                "icon": "/images/blog/ai-powered-intelligence-network-icon.webp",
                 "title": "AI-powered agent collaboration across systems",
-                "description": "allows different parts of the manufacturing workflow—design, production, logistics, and services to work together seamlessly through intelligent agents that act as digital team members, not just taskbots."
+                "description": "allows different parts of the manufacturing workflow—design, production, logistics, and services to work together seamlessly through intelligent agents that act as digital team members, not just taskbots.",
+                "alt" : "AI-powered intelligence icon with central AI chip connected to network nodes representing machine learning connectivity"
             },
             {
-                "icon": "/images/blog/faster.webp",
+                "icon": "/images/blog/fast-fault-detection-alert-icon.webp",
                 "title": "Faster diagnostics and resolution of production issues",
-                "description": "are enabled by agents that can trace faults across systems, recommend fixes, and even initiate workflows to schedule maintenance or reroute tasks, thereby minimizing downtime."
+                "description": "are enabled by agents that can trace faults across systems, recommend fixes, and even initiate workflows to schedule maintenance or reroute tasks, thereby minimizing downtime.",
+                "alt" : "Fast fault detection icon with gear and warning alert symbol representing automated error identification and troubleshooting"
             },
             {
-                "icon": "/images/blog/better.webp",
+                "icon": "/images/blog/data-analysis-verification-quality-icon.webp",
                 "title": "Better quality control and compliance tracking",
-                "description": "are accomplished through smart agents that flag deviations, analyze defect patterns, and ensure every product meets regulatory and internal standards, with audit trails and AI-driven insights."
+                "description": "are accomplished through smart agents that flag deviations, analyze defect patterns, and ensure every product meets regulatory and internal standards, with audit trails and AI-driven insights.",
+                "alt" : "Data analysis verification icon with documents, magnifying glass, and checkmark representing quality assurance validation"
             },
             {
-                "icon": "/images/blog/deeper.webp",
+                "icon": "/images/blog/deployment-support-technical-service-icon.webp",
                 "title": "Deeper integration with supply chain and customer systems",
-                "description": "lets automotive OEMs and suppliers connect the dots across procurement, warehousing, shipping, and even after-sales service, making operations more agile, transparent, and resilient."
+                "description": "lets automotive OEMs and suppliers connect the dots across procurement, warehousing, shipping, and even after-sales service, making operations more agile, transparent, and resilient.",
+                "alt" : "Deployment support icon with laptop, gear, and user symbols representing technical implementation and customer service"
             }
         ]
     },
     "aiPowerBlog": {
-        "susContain": "/images/blog/sus-contain.webp",
+        "flowchartAlt" : "AI-driven smart grid system flowchart showing renewable energy sources, predictive analytics, and data management integration",
+        "bannerAlt" : "Floating green sustainable city with wind turbines, solar panels, and urban buildings representing renewable energy future",
+        "susContain": "/images/blog/ai-driven-smart-grid-system-flowchart.webp",
         "seoTitle": "How AI Can Enable a Sustainable Future for Our Planet | Rialtes",
         "seoDescription": "AI is helping protect the planet and make sustainability scalable, from tracking deforestation to predicting energy demand and preserving biodiversity.",
         "artificial": "Artificial Intelligence",
@@ -3839,6 +3861,7 @@
         ]
     },
     "sapPiPo": {
+        "bannerAlt" : "Glowing neon frame with white clouds and digital particles representing cloud computing and data transformation",
         "seoTitle": "SAP PI PO to SAP CPI Migration: Everything You Need to Know",
         "seoDescription": "Migrating from SAP PI PO to SAP CPI is not a simple upgrade; it’s a transformation toward a cloud-native, intelligent integration backbone.",
         "steps": [
@@ -4220,6 +4243,7 @@
         "faqTitle": "FAQs: SAP Signavio + SAP Cloud ALM in S/4HANA"
     },
     "aiPatient": {
+        "bannerAlt" : "Digital medical innovation showing human anatomy and AI analysis through interactive 3D holographic interface.",
         "seoTitle": "AI Patient Engagement: How Smart Agents Simplify Care | Rialtes",
         "seoDescription": "Discover how AI for patient engagement helps MedTech streamline monitoring, simplify workflows, and enhance patient-provider interactions with ease.",
         "rolesData": [
@@ -4360,28 +4384,33 @@
         "faqTitle": "FAQs: AI in Patient Engagement"
     },
     "agentforceIndustry4": {
+        "bannerAlt" : "Advanced Industry 4.0 automation with robotic arm, digital data overlay, and futuristic manufacturing interface.",
         "seoTitle": "Retrieving data. Wait a few seconds and try to cut or copy again.",
         "seoDescription": "Agentforce AI helps manufacturers prevent unplanned downtime with predictive intelligence, ensuring zero disruption and 24/7 operational efficiency.",
         "reactiveData": [
             {
-                "image": "/images/blog/industr4Svg (1).svg",
+                "image": "/images/blog/reactive-analytics-data-monitoring-icon.svg",
                 "title": "Reactive",
-                "desc": "Waiting for machines to fail"
+                "desc": "Waiting for machines to fail",
+                "alt" : "Blue reactive analytics icon with clock, magnifying glass, person, and bar charts representing real-time data analysis"
             },
             {
-                "image": "/images/blog/industr4Svg (2).svg",
+                "image": "/images/blog/proactive-automation-workflow-icon.svg",
                 "title": "Proactive",
-                "desc": "Scheduling regular maintenance cycles"
+                "desc": "Scheduling regular maintenance cycles",
+                "alt" : "Blue proactive automation icon with gear, cloud, and circular arrows representing intelligent workflow automation systems"
             },
             {
-                "image": "/images/blog/industr4Svg (3).svg",
+                "image": "/images/blog/predictive-cycle-forecasting-icon.svg",
                 "title": "Predictive",
-                "desc": "Anticipating failures based on patterns and usage data"
+                "desc": "Anticipating failures based on patterns and usage data",
+                "alt" : "Blue predictive cycle icon with circular arrow representing continuous forecasting and predictive analytics process"
             },
             {
-                "image": "/images/blog/industr4Svg (4).svg",
+                "image": "/images/blog/autonomous-scheduling-automation-icon.svg",
                 "title": "Autonomous",
-                "desc": "Allowing AI agents to trigger service workflows automatically"
+                "desc": "Allowing AI agents to trigger service workflows automatically",
+                "alt" : "Blue autonomous scheduling icon with calendar, clock, and gear representing automated time management and smart scheduling"
             }
         ],
         "agentforceEnablingData": [

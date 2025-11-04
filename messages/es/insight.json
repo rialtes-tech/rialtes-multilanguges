@@ -1,5 +1,6 @@
 {
   "insights": {
+    "bannerAlt" : "Iceberg flotando en océano azul simbolizando profundidades ocultas y perspectivas expertas de la industria empresarial",
     "insightTitle": "Mantente a la Vanguardia con Información Experta de la Industria",
     "seoTitle": "Blogs Rialtes | Salesforce, SAP, IA y Nube",
     "seoDescription": "Lee blogs expertos sobre Salesforce, SAP, nube e IA. Mantente informado con las últimas tendencias e innovación digital de Rialtes.",
@@ -163,7 +164,7 @@
     "slides": [
       {
         "id": 1,
-        "image": "/images/blog/signavio-blog-feature-thumb.webp",
+        "image": "/images/blog/digital-data-tunnel-technology-speed-concept-feature-thumb.webp",
         "category": "SAP Signavio",
         "industry": "Genérico",
         "date": "Jun. 16, 2025",
@@ -305,7 +306,7 @@
       },
       {
         "id": 36,
-        "image": "/images/blog/ai-that-listens-mob-banner.webp",
+        "image": "/images/blog/ai-that-listens-feature-thumb.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "Sep. 11, 2025",
@@ -315,7 +316,7 @@
       },
       {
         "id": 35,
-        "image": "/images/blog/ai-in-patient-mobile-banner.webp",
+        "image": "/images/blog/futuristic-medical-technology-innovation-mobile.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "Sep. 09, 2025",
@@ -325,7 +326,7 @@
       },
       {
         "id": 34,
-        "image": "/images/blog/industry4-mobile-banner.webp",
+        "image": "/images/blog/industry-4-automation-technology-mobile.webp",
         "category": "Agentforce",
         "industry": "Genérico",
         "date": "Sep. 08, 2025",
@@ -335,7 +336,7 @@
       },
       {
         "id": 33,
-        "image": "/images/blog/first-ai-agent-mob-banner.webp",
+        "image": "/images/blog/artificial-intelligence-data-visualization-mobile.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "Sep. 02, 2025",
@@ -345,7 +346,7 @@
       },
       {
         "id": 32,
-        "image": "/images/blog/byond-robotics-mobile-banner.webp",
+        "image": "/images/blog/industrial-digital-twin-factory-planning-mobile.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "Sep. 01, 2025",
@@ -355,7 +356,7 @@
       },
       {
         "id": 30,
-        "image": "/images/blog/sap-cpi-feature-thumb.webp",
+        "image": "/images/blog/cloud-data-digital-transformation-mobile.webp",
         "category": "SAP",
         "industry": "Genérico",
         "date": "Aug. 26, 2025",
@@ -365,7 +366,7 @@
       },
       {
         "id": 29,
-        "image": "/images/blog/big-reimage-slider.webp",
+        "image": "/images/blog/agentic-ai-technology-microchip-computing-mobile.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "Aug. 25, 2025",
@@ -375,7 +376,7 @@
       },
       {
         "id": 27,
-        "image": "/images/blog/small-slider.webp",
+        "image": "/images/blog/technology-team-collaboration-command-center-mobile.webp",
         "category": "Agentforce",
         "industry": "Genérico",
         "date": "Aug. 22, 2025",
@@ -385,7 +386,7 @@
       },
       {
         "id": 26,
-        "image": "/images/blog/sustain-slider.webp",
+        "image": "/images/blog/sustainable-green-energy-city-renewable-mobile.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "Aug. 21, 2025",
@@ -395,7 +396,7 @@
       },
       {
         "id": 25,
-        "image": "/images/blog/Agentforce-featured-blog.webp",
+        "image": "/images/blog/automotive-manufacturing-engineer-quality-control-mobile.webp",
         "category": "Salesforce Agentforce",
         "industry": "Genérico",
         "date": "Jul. 29, 2025",
@@ -405,7 +406,7 @@
       },
       {
         "id": 24,
-        "image": "/images/blog/blog-slider.webp",
+        "image": "/images/blog/abstract-data-flow-visualization-digital-mobile.webp",
         "category": "Salesforce Agentforce",
         "industry": "Genérico",
         "date": "Jul. 25, 2025",
@@ -415,7 +416,7 @@
       },
       {
         "id": 23,
-        "image": "/images/blog/slider.webp",
+        "image": "/images/blog/business-technology-collaboration-office-mobile.webp",
         "category": "Agentforce",
         "industry": "General",
         "date": "Jul. 21, 2025",
@@ -425,7 +426,7 @@
       },
       {
         "id": 22,
-        "image": "/images/blog/agentexchange-Blog-feature-thumb.webp",
+        "image": "/images/blog/digital-network-connectivity-waves-abstract-mobile.webp",
         "category": "Agentforce",
         "industry": "General",
         "date": "Jul. 02, 2025",
@@ -435,7 +436,7 @@
       },
       {
         "id": 21,
-        "image": "/images/blog/Pharma Jewel of North India_Blog feature thumb.webp",
+        "image": "/images/blog/pharmaceutical-manufacturing-robotics-automation-mobile.webp",
         "category": "General",
         "industry": "Manufactura",
         "date": "Jul. 01, 2025",
@@ -445,7 +446,7 @@
       },
       {
         "id": 20,
-        "image": "/images/blog/signavio-blog-feature-thumb.webp",
+        "image": "/images/blog/digital-data-tunnel-technology-speed-concept-mobile.webp",
         "category": "SAP Signavio",
         "industry": "Genérico",
         "date": "Jun. 16, 2025",
@@ -455,7 +456,7 @@
       },
       {
         "id": 19,
-        "image": "/images/blog/Agentic Pharma_Blog feature thumb.webp",
+        "image": "/images/blog/fiber-optic-tree-network-connectivity-illustration-mobile.webp",
         "category": "IA",
         "industry": "Farmacéutica",
         "date": "May. 30, 2025",

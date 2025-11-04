@@ -79,16 +79,16 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
-            src="/images/blog/agentic-pharma-blog-banner.webp"
-            alt="Agentic Pharma"
+            src="/images/blog/fiber-optic-tree-network-connectivity-illustration.webp"
+            alt={t("bannerAlt")}
             fill
             priority
           />
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/blog/agentic-pharma-mobile-banner.webp"
-            alt="Agentic Pharma"
+            src="/images/blog/fiber-optic-tree-network-connectivity-illustration-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

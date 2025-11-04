@@ -137,16 +137,16 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
-            src="/images/blog/agents-vs-copilots-vs-bots-explained.webp "
-            alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+            src="/images/blog/abstract-data-flow-visualization-digital.webp "
+            alt={t("agentBannerAlt")}
             fill
             priority
           />
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/blog/agents-vs-copilots-vs-bots-comparison.webp"
-            alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+            src="/images/blog/abstract-data-flow-visualization-digital-mobile.webp"
+            alt={t("agentBannerAlt")}
             priority
             height={0}
             width={0}
@@ -195,8 +195,8 @@ export default function Page() {
                     <div className="relative border border-[#0A6BB8] rounded-sm py-12 px-8  w-full">
                       <div className="absolute -top-8 left-4  px-1 w-[84px] h-[50px]">
                         <Image
-                          src="/images/blog/quote-mark.svg"
-                          alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+                          src="/images/blog/blue-quotation-marks-icon.svg"
+                          alt={t("quotationAlt")}
                           fill
                           priority
                         />
@@ -307,7 +307,7 @@ export default function Page() {
         <div className="xl:block hidden mt-5">
           <Image
             src={t('agentChart')}
-            alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+            alt={t("chartAlt")}
             priority
             height={0}
             width={0}
@@ -317,7 +317,7 @@ export default function Page() {
         <div className="xl:hidden block mt-5">
           <Image
             src={t('agentChartMobile')}
-            alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
+            alt={t("chartAlt")}
             priority
             height={0}
             width={0}
