@@ -279,7 +279,7 @@ const buildData=[
         },
       ],
       desc4:
-        "If your current setup feels like a patchwork of disconnected apps and spreadsheets, it’s time to rethink integration and <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>talk to our experts</a> because Exelona is built to help you do exactly that.",
+        "If your current setup feels like a patchwork of disconnected apps and spreadsheets, it’s time to rethink integration and <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>talk to our experts</a> because Exelona is built to help you do exactly that.",
     },
 ]
 
@@ -474,16 +474,14 @@ const buildData=[
                               className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium"
                             >
                               <h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                {enable.title}:{" "}
+                                {enable.title}{" "}
                               </h4>
                               {enable.description}
                             </li>
                           );
                         })}
                       </ul>
-                       <h3 className="font-bold 4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[17px] text-[17px] mt-[25px]">
-                        Example:
-                      </h3>
+                      
                       <p className="mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                         {data.example}
                       </p>
@@ -518,9 +516,9 @@ const buildData=[
                               key={id}
                               className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium"
                             >
-                              <h4 className="font-semibold inline 4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[17px] text-[17px]">
+                              <p className="font-semibold inline 4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[17px] text-[17px]">
                                 {enable.title}{" "}
-                              </h4>
+                              </p>
                               {enable.description}
                             </li>
                           );
