@@ -25,7 +25,7 @@ const schemaData = {
   description:
     "Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
   image:
-    "https://www.rialtes.com/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp",
+    "https://www.rialtes.com/images/blog/abstract-data-flow-visualization-digital.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

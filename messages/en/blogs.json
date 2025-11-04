@@ -1321,6 +1321,7 @@
         "collaborateDesc3": "are driven by reliable, actionable data, maximizing the potential of intelligent automation. Get in touch with us at"
     },
     "integrateSapSuccessFactor": {
+        "bannerAlt" : "Abstract blue and orange halftone dot pattern creating wave design on navy background for tech graphics",
         "seoTitle": "How to Integrate SAP with Office 365 for Enhanced HR Collaboration",
         "seoDescription": "Discover how SAP Office 365 integration can simplify HR processes, automate workflows, and foster seamless collaboration across Office 365 apps.",
         "blogTopic": "SAP SuccessFactors",
@@ -1453,6 +1454,7 @@
         "completeDesc4": "to get started with one of our expert SAP SuccessFactors consultants!"
     },
     "enhancingCompliance": {
+        "bannerAlt" : "3D world map with illuminated connection lines showing global network connectivity and data flow visualization",
         "seoTitle": "How SAP GTS Sanctioned Party List Screening Ensures Compliance | Rialtes",
         "seoDescription": "Minimize risks with SAP Sanctioned Party List Screening by ensuring your business never deals with prohibited parties. Stay compliant and avoid legal penalties.",
         "blogTopic": "SAP GTS",
@@ -1550,6 +1552,7 @@
         "complyDesc3": "with deep expertise in global trade and risk management, we empower companies to navigate these processes efficiently, delivering maximum value and return on investment. Our seasoned SAP consultants possess the skills and experience to address your critical needs while equipping your internal teams for ongoing improvement and innovation."
     },
     "agentforceTesting": {
+        "bannerAlt" : "Blue digital wireframe gears and network nodes representing industrial automation and blockchain technology",
         "seoTitle": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
         "seoDescription": "Explore how the Agentforce Testing Center leverages synthetic data to enhance AI testing and monitoring.",
         "blogTopic": "Salesforce Agentforce",
@@ -1612,6 +1615,7 @@
         "whyDesc4": "or need help getting started? We’re here to assist. At Rialtes, we specialize in AI testing and  , and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to streamline their business processes."
     },
     "successfactorSupportsDiversity": {
+        "bannerAlt" : "Colorful puzzle pieces with diversity icons showing people and wheelchair symbols representing inclusion concept",
         "seoTitle": "How SuccessFactors Diversity and Inclusion Drives Workplace Equity | Rialtes",
         "seoDescription": "Discover how SAP SuccessFactors diversity and inclusion capabilities support unbiased hiring, inclusive performance, and engagement. Learn more with Rialtes.",
         "bloTopic": "Diversity & Inclusion",
@@ -1665,6 +1669,7 @@
         "hrSystemDesc3": " Contact us today at"
     },
     "automateCrucial": {
+        "bannerAlt" : "Female healthcare worker in blue scrubs and mask using tablet device in modern medical facility setting",
         "seoTitle": "Athenahealth Salesforce Integration: Elevate Patient Care | Rialtes",
         "seoDescription": "Integrating athenahealth with Salesforce is beneficial in many ways, providing a more comprehensive view of patient interactions and data across the healthcare journey.",
         "blogTopic": "Integration",
@@ -1751,6 +1756,7 @@
         "findDesc4": ", is dedicated to utilizing the complete potential of Salesforce by providing exceptional user experiences to our clients."
     },
     "successFactorPerformance": {
+        "bannerAlt" : "Hand drawing target circle with pen on light blue surface representing goal setting and precision concept",
         "seoTitle": "SuccessFactors Performance Management & Goal Management Tips | Rialtes",
         "seoDescription": "SuccessFactors performance management and goal management boost employee engagement and strategic alignment. Contact us today for expert guidance and support!",
         "blogTopic": "SAP SuccessFactors",
@@ -2121,6 +2127,7 @@
         ]
     },
     "brainBehind": {
+        "bannerAlt" : "Digital brain circuit illustration with glowing connections on dark blue tech background showing AI concept",
         "seoTitle": "How Does a Reasoning Engine Work in Agentforce? | Rialtes",
         "seoDescription": "Learn how Agentforce’s reasoning engine works to optimize customer support and enhance service quality for improved customer experiences and satisfaction.",
         "blogs": [
@@ -2238,6 +2245,7 @@
         "gameDesc2": "As businesses prioritize customer satisfaction, tools like Atlas will undoubtedly play a pivotal role in shaping the future of customer experience. We can expect further integration with other Salesforce products, more sophisticated AI capabilities, and even deeper predictive analytics features soon. Rialtes helps you develop, customize, and deploy autonomous AI agents for sales, marketing, service, and e-commerce related tasks with the Agentforce platform. Get in touch with our experts."
     },
     "howSalesforceAgentforceWorks": {
+        "bannerAlt" : "Futuristic white robot with glowing blue eyes and pink lighting displaying digital interface screens",
         "seoTitle": "How Does Salesforce Agentforce Work? | Rialtes",
         "seoDescription": "Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!",
         "blogTopic": "Salesforce Agentforce",
@@ -2299,6 +2307,7 @@
         "gettingDesc3": "and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance their business processes."
     },
     "agriculture": {
+        "bannerAlt" : "Professional drone with camera hovering over green agricultural field for aerial photography and monitoring",
         "blogTopic": "Green Technology",
         "seoTitle": "Salesforce for Agriculture: Digital Farming Revolution | Rialtes",
         "seoDescription": "Discover how Salesforce for agriculture powers digital farming, improving efficiency and driving innovation for a sustainable future in Agriculture 4.0.",

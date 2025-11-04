@@ -21,7 +21,7 @@ const schemaData = {
   },
   "headline": "SAP SuccessFactors Performance and Goal Management",
   "description": "Learn how SAP SuccessFactors empowers organizations to streamline performance reviews, align individual goals, and boost workforce productivity.",
-  "image": "https://www.rialtes.com/images/blog/successfactors-performance-goals.webp",
+  "image": "https://www.rialtes.com/images/blog/target-goal-setting-precision-business-concept.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes",
@@ -67,8 +67,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/successfactors-performance-goals.webp"
-            alt="banner"
+            src="/images/blog/target-goal-setting-precision-business-concept.webp"
+            alt={t("bannerAlt")}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -79,8 +79,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden h-full">
           <Image
-            src="/images/blog/successfactors-performance-goals.webp"
-            alt="banner"
+            src="/images/blog/target-goal-setting-precision-business-concept-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

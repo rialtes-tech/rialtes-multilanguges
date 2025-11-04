@@ -21,7 +21,7 @@ const schemaData = {
   headline: "How AI Powers The Sustainable Future of Our Planet",
   description:
     "AI is a powerful ally in building a sustainable future by enhancing energy efficiency, protecting forests, preserving biodiversity, and enabling smarter climate solutions.",
-  image: "https://www.rialtes.com/images/blog/sustainability-banner.webp",
+  image: "https://www.rialtes.com/images/blog/sustainable-green-energy-city-renewable.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

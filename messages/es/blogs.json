@@ -1264,6 +1264,7 @@
         "collaborateDesc3": "estén impulsadas por datos confiables y accionables, maximizando el potencial de la automatización inteligente. Contáctanos en"
     },
     "integrateSapSuccessFactor": {
+        "bannerAlt" : "Patrón abstracto de puntos semitono azul y naranja creando diseño de onda sobre fondo azul marino",
         "seoTitle": "Cómo Integrar SAP con Office 365 para Mejorar RRHH",
         "seoDescription": "La integración de SAP con Office 365 simplifica procesos de RRHH, automatiza flujos y fomenta la colaboración entre aplicaciones.",
         "blogTopic": "SAP SuccessFactors",
@@ -1396,6 +1397,7 @@
         "completeDesc4": "para comenzar con uno de nuestros consultores expertos en SAP SuccessFactors."
     },
     "enhancingCompliance": {
+        "bannerAlt" : "Mapa mundial 3D con líneas de conexión iluminadas mostrando conectividad de red global y flujo de datos",
         "seoTitle": "SAP GTS: Cumplimiento con Listas de Partes Sancionadas",
         "seoDescription": "Reduce riesgos con SAP GTS evitando tratos con partes prohibidas. Mantén el cumplimiento normativo y evita sanciones legales.",
         "blogTopic": "SAP GTS",
@@ -1493,6 +1495,7 @@
         "complyDesc3": "con amplia experiencia en comercio global y gestión de riesgos, ayudamos a las empresas a navegar estos procesos de forma eficiente, ofreciendo el máximo valor y retorno de la inversión. Nuestros consultores SAP cuentan con las habilidades y la experiencia para abordar sus necesidades críticas mientras capacitan a sus equipos internos para una mejora e innovación continuas."
     },
     "agentforceTesting": {
+        "bannerAlt" : "Engranajes digitales azules y nodos de red representando automatización industrial y tecnología blockchain",
         "seoTitle": "Centro de Pruebas Agentforce: Evalúa Agentes de IA",
         "seoDescription": "El Centro de Pruebas de Agentforce ayuda a las empresas a evaluar agentes de IA antes de su implementación en producción. Conoce más aquí.",
         "blogTopic": "Salesforce Agentforce",
@@ -1555,6 +1558,7 @@
         "whyDesc4": "o necesitas ayuda para comenzar? Estamos aquí para ayudarte. En Rialtes, nos especializamos en pruebas de IA y hemos ayudado a clientes a lograr mejoras significativas en productividad aprovechando herramientas de IA para optimizar sus procesos empresariales."
     },
     "successfactorSupportsDiversity": {
+        "bannerAlt" : "Piezas de rompecabezas coloridas con íconos de diversidad mostrando personas y símbolos de silla de ruedas",
         "seoTitle": "Diversidad e Inclusión con SuccessFactors: Equidad Laboral",
         "seoDescription": "Descubre cómo SAP SuccessFactors impulsa contrataciones justas, desempeño inclusivo y mayor compromiso. Aprende más con Rialtes.",
         "bloTopic": "Diversidad e Inclusión",
@@ -1608,6 +1612,7 @@
         "hrSystemDesc3": " Contáctanos hoy en"
     },
     "automateCrucial": {
+        "bannerAlt" : "Trabajadora de salud en uniforme azul y mascarilla usando tableta en instalación médica moderna",
         "seoTitle": "Integración Athenahealth y Salesforce: Mejor Atención",
         "seoDescription": "Integrar Athenahealth con Salesforce ofrece una visión integral de pacientes y datos, optimizando toda la experiencia en el sector salud.",
         "blogTopic": "Integración",
@@ -1694,6 +1699,7 @@
         "findDesc4": ", está dedicada a aprovechar todo el potencial de Salesforce proporcionando experiencias de usuario excepcionales a nuestros clientes."
     },
     "successFactorPerformance": {
+        "bannerAlt" : "Mano dibujando círculo objetivo con pluma sobre superficie azul claro representando establecimiento de metas",
         "seoTitle": "Consejos de SuccessFactors para Desempeño y Metas",
         "seoDescription": "La gestión de desempeño y metas en SuccessFactors impulsa el compromiso y la alineación. Contacta a Rialtes para asesoría experta.",
         "blogTopic": "SAP SuccessFactors",
@@ -2064,6 +2070,7 @@
         ]
     },
     "brainBehind": {
+        "bannerAlt" : "Ilustración cerebro circuito digital con conexiones brillantes sobre fondo azul oscuro mostrando concepto IA",
         "seoTitle": "¿Cómo Funciona el Motor de Razonamiento en Agentforce?",
         "seoDescription": "Conoce cómo el motor de razonamiento de Agentforce optimiza el soporte y mejora la calidad del servicio para experiencias más satisfactorias.",
         "blogTopic": "Salesforce Agentforce",
@@ -2124,6 +2131,7 @@
         "gameDesc2": "A medida que las empresas priorizan la satisfacción del cliente, herramientas como Atlas sin duda desempeñarán un papel fundamental en la configuración del futuro de la experiencia del cliente. Podemos esperar una mayor integración con otros productos de Salesforce, capacidades de IA más sofisticadas e incluso funciones de análisis predictivo más profundas en un futuro próximo. Rialtes te ayuda a desarrollar, personalizar y desplegar agentes de IA autónomos para tareas relacionadas con ventas, marketing, servicio y comercio electrónico con la plataforma Agentforce. Ponte en contacto con nuestros expertos."
     },
     "howSalesforceAgentforceWorks": {
+        "bannerAlt" : "Robot blanco futurista con ojos azules brillantes e iluminación rosa mostrando pantallas de interfaz digital",
         "seoTitle": "¿Cómo Funciona Salesforce Agentforce?",
         "seoDescription": "Descubre cómo Agentforce mejora la experiencia del cliente y optimiza operaciones. Contacta con Rialtes y comienza tu camino con la IA hoy.",
         "blogTopic": "Salesforce Agentforce",
@@ -2185,6 +2193,7 @@
         "gettingDesc3": "y hemos ayudado a los clientes a lograr importantes incrementos de productividad mediante el uso de herramientas basadas en IA para mejorar sus procesos empresariales."
     },
     "agriculture": {
+        "bannerAlt" : "Dron profesional con cámara flotando sobre campo agrícola verde para fotografía aérea y monitoreo",
         "seoTitle": "Salesforce para Agricultura: Revolución Digital",
         "seoDescription": "Descubre cómo Salesforce impulsa la agricultura digital, aumentando eficiencia e innovación hacia un futuro sostenible en la Agricultura 4.0.",
         "blogTopic": "Tecnología Verde",
