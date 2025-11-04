@@ -146,6 +146,7 @@
         "webinarInfo": "No te pierdas esta oportunidad de unirte a nosotros en un seminario web exclusivo para explorar cómo Salesforce Automotive Cloud está revolucionando la interacción con el cliente en la industria automotriz. Descubre cómo tus equipos pueden dirigir cada interacción con el cliente utilizando datos, IA y automatización, desde el lead hasta la lealtad, todo dentro de una plataforma conectada."
     },
     "discoverAgenticWebinar": {
+        "imageAlt":"Perfil de mujer con superposición de datos digitales representando IA, aprendizaje automático y transformación digital",
         "seoTitle": "Webinar IA: Explorando capacidades agenticas con Agentforce | Rialtes",
         "seoDescription": "Únete a nuestro webinar de IA y descubre cómo la IA agentica de Agentforce transforma los flujos de trabajo con agentes autónomos e integración inteligente.",
         "webinarAdvantagesData": [
@@ -182,6 +183,7 @@
         "webinarInfo": "No te pierdas esta oportunidad de unirte a nuestro seminario web exclusivo para explorar cómo Salesforce Automotive Cloud está revolucionando la interacción con los clientes en la industria automotriz. Descubre cómo tus equipos pueden liderar cada interacción con el cliente utilizando datos, IA y automatización, todo dentro de una plataforma conectada."
     },
     "databricksWebinar": {
+        "imageAlt":"Visualización abstracta de ola de datos azul y naranja representando transformación digital, big data e inteligencia artificial",
         "seoTitle": "Cómo SAP Business Data Cloud, Databricks y SAP Datasphere unifican los datos",
         "seoDescription": "Únete a nuestro webinar del 13 de mayo para aprender cómo SAP Business Data Cloud, Databricks y SAP Datasphere simplifican la unificación de datos e impulsan la innovación.",
         "webinarInfo": "No te pierdas esta oportunidad de unirte a nuestro seminario web exclusivo para explorar cómo Salesforce Automotive Cloud está revolucionando la interacción con los clientes en la industria automotriz. Descubre cómo tus equipos pueden liderar cada interacción con el cliente utilizando datos, IA y automatización, todo dentro de una plataforma conectada.",
@@ -218,6 +220,7 @@
         ]
     },
     "deliverEndToEndWebinar": {
+        "imageAlt":"Vista aérea de lote de inventario de autos organizado con cientos de vehículos en filas para gestión de flota automotriz",
         "seoTitle": "Webinar Salesforce Automotive Cloud: Transformando la experiencia del cliente",
         "seoDescription": "Únete a nuestro webinar y descubre cómo Salesforce Automotive Cloud mejora el recorrido del cliente con datos unificados, IA e automatización fluida.",
         "webinarAdvantagesData": [
@@ -254,6 +257,7 @@
         "webinarInfo": "No te pierdas esta oportunidad de unirte a nuestro seminario web exclusivo para explorar cómo Salesforce Automotive Cloud está revolucionando la interacción con los clientes en la industria automotriz. Descubre cómo tus equipos pueden liderar cada interacción con el cliente utilizando datos, IA y automatización, desde el primer contacto hasta la fidelización, todo dentro de una sola plataforma conectada."
     },
     "letsWhatsappWebinar": {
+        "imageAlt":"Mujer sonriente con cabello rizado mirando smartphone contra fondo azul degradado con superposición de patrón geométrico",
         "seoTitle": "Integración Salesforce WhatsApp vía AgentChat | Webinar Rialtes",
         "seoDescription": "Descubre cómo integrar WhatsApp con Salesforce usando AgentChat y potenciar a los equipos de CX con interacción segura en tiempo real.",
         "webinarTitle": "Hablemos por WhatsApp en Salesforce con AgentChat",

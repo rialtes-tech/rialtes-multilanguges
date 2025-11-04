@@ -67,13 +67,14 @@ export default function () {
                     />
                 }
                 schemaData={schemaData}
-                deskImg="/images/webinar/Webinar_15 May 25_webinar Banner.webp"
-                mobImg="/images/webinar/Webinar_15 May 25_webinar Banner.webp"
+                deskImg="/images/webinar/ai-digital-transformation-data-overlay.webp"
+                mobImg="/images/webinar/ai-digital-transformation-data-overlay.webp"
+                imageAlt={t('imageAlt')}
                 webinarTitle={t('webinarTitle')}
                 speakerName="Lokesh Adhikari"
                 speakerDesignation="Software Engineer - Salesforce"
                 speakerImg="/images/webinar/Lokesh.webp"
-                speakerImgAlt="webinar speaker image"
+                speakerImgAlt="webinar speaker Lokesh Adhikari"
                 webinarInfo={t('webinarInfo')}
                 webinarAdvantages={webinarAdvantagesData}
                 whoShouldAttend={whoShouldAttendData}

@@ -78,8 +78,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/agentforce-ai-for-manufacturing.webp"
-            alt="banner"
+            src="/images/blog/business-technology-collaboration-office.webp"
+            alt={t("bannerAlt")}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -90,8 +90,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
-            src="/images/blog/agentforce-mobile-banner.webp"
-            alt="banner"
+            src="/images/blog/business-technology-collaboration-office-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

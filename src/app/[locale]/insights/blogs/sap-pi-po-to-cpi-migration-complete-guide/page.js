@@ -149,8 +149,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden xl:block">
           <Image
-            src="/images/blog/sap-pi-po-cpi-migration-banner.webp"
-            alt="Discover AgentExchange"
+            src="/images/blog/cloud-data-digital-transformation.webp"
+            alt={t("bannerAlt")}
             fill
             priority
           />
@@ -159,8 +159,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block xl:hidden">
           <Image
-            src="/images/blog/sap-cpi-mobile-banner.webp"
-            alt="Discover AgentExchange"
+            src="/images/blog/cloud-data-digital-transformation-mobile.webp"
+            alt={t("bannerAlt")}
             height={0}
             width={0}
             className="w-full h-auto object-cover"
