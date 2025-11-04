@@ -162,7 +162,7 @@ export default function Page() {
                 title="SAP Consulting Services and Implementation Partners | Rialtes"
                 description="Rialtes, a trusted SAP Consulting and Implementation Partner you can rely on for AI-powered implementations, smarter integrations, and long-term SAP success."
                 keywords="home, website, welcome"
-                canonical={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/"}
+                canonical={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting-implementation-partners/"}
             />
             <Script
                 id="schema-sap-consulting"

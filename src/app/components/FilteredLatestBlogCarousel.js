@@ -6,6 +6,16 @@ import Link from "next/link";
 
 export default function page({ url }) {
     const latestBlogs = [
+         {
+    id:45,
+    image: "/images/blog/exelona-cluster-feature-thumb.webp",
+    category : "Exelona",
+    industry : "Generic",
+    date : "Nov. 04, 2025",
+    url: "insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
+    title : "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
+    description : "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
+  },
         {
             id: 44,
             image: "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
