@@ -29,6 +29,16 @@ const schemaData = {
 }
 
 const latestBlogs = [
+   {
+    id: 45,
+    image: "/images/blog/digital-puzzle-technology-integration-thumb.webp",
+    category: "Exelona",
+    industry: "Real Estate",
+    date: "Oct. 31, 2025",
+    url: "/open-api-integrations-every-growing-real-estate/",
+    title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
+    description: "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. "
+  },
   {
     id:44,
     image: "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
