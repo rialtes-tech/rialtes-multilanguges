@@ -12,6 +12,8 @@ import Link from "next/link";
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate";
     const currUrl = useUrl()
+    console.log(currUrl);
+
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
@@ -84,17 +86,13 @@ export default function Page() {
     }
     const salesforcePartnersHelp = [
         "Salesforce has become the foundation for modern enterprise CRM solutions, helping organizations unify data, streamline processes, and deliver personalized customer experiences. But here’s the reality: buying Salesforce licenses alone doesn’t guarantee business success. Enterprises need the right expertise to unlock Salesforce’s full potential.",
-
         "That’s where we need the Salesforce partners. These consulting and implementation experts don’t just configure CRM tools; they help enterprises reimagine operations, innovate with AI, and scale with confidence. For companies wondering, “Who are the top Salesforce partners for enterprises?” the answer often lies in evaluating which partner can align technology with long-term business goals.",
-
         "Let’s break down how Salesforce partners deliver impact, what sets the best apart, and why choosing a Crest-level partner like Rialtes can redefine enterprise growth."
     ]
 
     const partneringtomorrow = [
         "Here’s the bottom line: Salesforce is the world’s #1 CRM, but its true potential is unlocked only with the right partner.  <a href='https://appexchange.salesforce.com/appxConsultingListingDetail?listingId=a0N3A00000FZIFCUA5'  class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Top Salesforce partners</a> help enterprises thrive by aligning technology with business growth, accelerating innovation, and ensuring long-term value.",
-
         "If you’re asking, “Who are the best Salesforce consulting partners for enterprises?” look for a Partner with industry expertise, proven success, and a vision for the future.",
-
         "That’s exactly what Rialtes delivers. As a Salesforce Crest Partner, Rialtes empowers enterprises with future-ready CRM solutions, AI-driven insights, and co-innovation at scale.  <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Partner with Rialtes today</a> and turn Salesforce into the engine of your enterprise growth."
     ]
 

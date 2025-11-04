@@ -1,12 +1,12 @@
 "use client";
-// pages/blog-detail.js
 import Image from "next/image";
 import Link from 'next/link';
-import BlogsCarousel from '../../../components/latestBlogCarousel';
+import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/components/useUrl";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
-const schemaData={
-    "@context": "https://schema.org",
+const schemaData = {
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -32,78 +32,10 @@ const schemaData={
   "articleSection": "Salesforce Agentforce",
   "url": "https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/"
 }
-const blogs = [
-  {
-    id: 1,
-    image: "/images/blog/blog-1.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "30 Sept 2024",
-    url: 'how-salesforce-agentforce-actually-works',
-    title: "How Salesforce Agentforce Actually Works",
-    description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
-  },
-  {
-    id: 2,
-    image: "/images/blog/blog-2.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "21 Oct 2024",
-    title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-    description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
-  },
-  {
-    id: 3,
-    image: "/images/blog/blog-3.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "28 Oct 2024",
-    title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
-    description: "Tools like Agentforce are redefining how we view digital assistants, bringing distinctions between Agents, Copilots, and Bots to the forefront. The terms are frequently used within artificial intelligence-driven automation and conversational interfaces, each serving a distinct purpose.",
-  },
-  {
-    id: 4,
-    image: "/images/blog/blog-4.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "25 Nov 2024",
-    title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
-    description: "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production.",
-  },
-  /* {
-    id: 5,
-    image: "/images/blog/blog-5.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "24 Dec 2024",
-    title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
-    description: "Seamless integration between enterprise applications offers improved collaboration, efficiency, and productivity. Integrating SAP SuccessFactors with Microsoft Office 365 combines the strengths of a leading human experience management (HXM) solution and a robust suite of productivity tools.",
-  }, */
-  {
-    id: 6,
-    image: "/images/blog/blog-6.webp",
-    category: "Cloud Green Technology",
-    industry: "Agriculture",
-    date: "17 Sept 2024",
-    title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
-    description: "Agriculture plays a significant role in India’s growing economy and its future cannot be accomplished without digital tools and technological innovation.",
-  },
-  {
-    id: 7,
-    image: "/images/blog/blog-7.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
-    date: "29 Oct 2024",
-    title: "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)",
-    description: "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
-  },
-  
-  // Add more blog objects as needed
-];
 
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should";
-
+  const fullUrl = "https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should";
+  const currUrl = useUrl()
   return (
     <div className="min-h-screen bg-white">
 
@@ -112,8 +44,8 @@ export default function Page() {
         description="Salesforce Agentforce features address CX gaps with intelligent routing, AI-led case resolution, and performance dashboards for better decisions."
         canonical="https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/"
       />
- 
-         <Script
+
+      <Script
         id="schema-sales-agentforce"
         type="application/ld+json"
         strategy="afterInteractive"
@@ -140,44 +72,44 @@ export default function Page() {
                 <span className='text-[#0092E0]'>Salesforce Agentforce</span> <span className='text-[#ACACAC]'> | </span>03 Feb 2025
               </div>
               <div className="flex flex-col">
-               <div className="flex flex-col">
-                <div className="flex flex-row gap-6">
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="/images/case-studies/linkedin.svg"
-                        alt="LinkedIn"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
-                  </div>
-                 
-                  <div className="max-w-[40px]">
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >                      <Image
-                        src="/images/case-studies/twitter.svg"
-                        alt="Twitter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                        priority
-                      />
-                    </a>
+                <div className="flex flex-col">
+                  <div className="flex flex-row gap-6">
+                    <div className="max-w-[40px]">
+                      <a
+                        href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Image
+                          src="/images/case-studies/linkedin.svg"
+                          alt="LinkedIn"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                          priority
+                        />
+                      </a>
+                    </div>
+
+                    <div className="max-w-[40px]">
+                      <a
+                        href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(fullUrl)}&text=Check%20out%20this%20blog%20on%20Agriculture%204.0!`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >                      <Image
+                          src="/images/case-studies/twitter.svg"
+                          alt="Twitter"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                          priority
+                        />
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
               </div>
             </div>
           </div>
@@ -201,7 +133,7 @@ export default function Page() {
 
               <p className="text-black pb-4 4xl:text-[20px]  2xl:text-[18px] text-[16px] xl:text-[17px]">Today’s customer interactions aren’t confined to a single channel. Whether it’s via phone, email, chat, or social media, customers expect seamless service across every touchpoint. Salesforce Agentforce’s advanced omnichannel routing isn’t just about directing inquiries—it intelligently prioritizes and assigns tickets based on agent expertise, current workload, and historical performance. This dynamic routing ensures that each query lands in the right hands, reducing wait times and increasing resolution efficiency.</p>
 
-            
+
               <ul className="list-disc text-black  marker:text-[#0092E0] pl-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium mt-3">
                 <li className="pb-2  "><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Configure Channel Priorities</h3>: Set up rules that prioritize high-value or urgent customer requests.</li>
                 <li className="pb-2  "><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Skill-Based Routing</h3>: Match incoming inquiries with agents who have the specialized skills to address them effectively.</li>
@@ -213,7 +145,7 @@ export default function Page() {
 
               <p className="text-black pb-4 4xl:text-[20px] text-[16px]  2xl:text-[18px]  xl:text-[17px]">We know that Artificial Intelligence isn’t just an overused term—when applied correctly, it can drastically reduce manual effort and enhance decision-making. Einstein’s AI capabilities within Agentforce offer proactive suggestions, automate routine tasks, and predict customer issues before they escalate. Imagine an agent dashboard that not only displays data but also recommends the next best actions in real time.</p>
 
-            
+
               <ul className="list-disc text-black  marker:text-[#0092E0] pl-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium mt-3">
                 <li className="pb-2  "><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Automate Routine Tasks</h3>: Let Einstein handle common inquiries or escalate issues automatically.</li>
                 <li className="pb-2  "><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Skill-Based Routing</h3>: Use AI-generated insights to tailor interactions based on customer history and behavior.</li>
@@ -226,7 +158,7 @@ export default function Page() {
 
               <p className="text-black pb-4 4xl:text-[20px] text-[16px]  2xl:text-[18px]  xl:text-[17px]">A one-size-fits-all approach rarely works when it comes to performance monitoring. Agents and managers need dashboards that reflect their unique workflows and KPIs. Agentforce allows highly customizable dashboards that provide real-time insights into agent performance, customer satisfaction, and overall operational efficiency. These dashboards are visually appealing and fully adaptable to the metrics that matter most to your team.</p>
 
-           
+
               <ul className="list-disc text-black  marker:text-[#0092E0] pl-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium mt-3">
                 <li className="pb-2  "><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Tailor Your Metrics</h3>: Focus on KPIs that align with your team’s objectives, whether it’s first-contact resolution or average handling time.</li>
                 <li className="pb-2  "><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Skill-Based Routing</h3>: Make informed decisions with dashboards that update in real-time.</li>
@@ -251,7 +183,7 @@ export default function Page() {
 
               <p className="text-black pb-4 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">Whether agents are working remotely or on the go, mobile access ensures that they’re always connected. The mobile capabilities of Agentforce mean that support teams aren’t confined to a desk. Agents can access customer data, manage tickets, and collaborate with teammates from anywhere, ensuring continuity and rapid response times even outside traditional office hours.</p>
 
-      
+
 
               <ul className="list-disc text-black  marker:text-[#0092E0] pl-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium mt-3">
                 <li className="pb-2  "><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Remote Support</h3>: Enable your team to provide uninterrupted service regardless of their location.</li>
@@ -265,7 +197,7 @@ export default function Page() {
 
               <p className="text-black pb-4 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">Data is only as good as the insights you can extract from it. Real-time analytics empower teams to make informed decisions on the fly. While many companies use standard reports, Agentforce’s real-time analytics provide a deeper, more dynamic look at customer interactions and agent performance. These insights help identify bottlenecks, forecast trends, and even uncover opportunities for further automation.</p>
 
-             
+
               <ul className="list-disc text-black  marker:text-[#0092E0] pl-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium mt-3">
                 <li className="pb-2  "><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Dynamic Reporting</h3>: Use customizable reports to track key performance metrics as they evolve.</li>
                 <li className="pb-2  "><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Real-Time Updates</h3>: Identify emerging trends and adjust strategies before minor issues become major problems.</li>
@@ -278,7 +210,7 @@ export default function Page() {
 
               <p className="text-black pb-4 4xl:text-[20px] text-[16px] 2xl:text-[18px]  xl:text-[17px]">No support ecosystem operates in isolation. Integrating your tools can create a more unified and efficient workflow. Agentforce is designed to work effortlessly with a wide array of third-party applications, from CRM systems to integrating collaboration tools like Slack for real-time communication. These integrations streamline processes and provide a more holistic view of your customer interactions across platforms.</p>
 
-                <ul className="list-disc text-black  marker:text-[#0092E0] pl-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium mt-3">
+              <ul className="list-disc text-black  marker:text-[#0092E0] pl-4 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px] font-medium mt-3">
                 <li className="pb-2  "><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Unified Data Sources</h3>: Connect Agentforce with your other business systems to centralize data and insights.</li>
                 <li className="pb-2  "><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Enhanced Collaboration</h3>: Integrate with team communication tools to improve internal collaboration and response times.</li>
                 <li className="pb-2 "><h3 className="font-bold inline 4xl:text-[20px]  2xl:text-[18px]  xl:text-[17px] text-[16px]">Custom Workflows</h3>: Build tailored workflows that span multiple platforms, reducing manual data entry and enhancing efficiency.</li>
@@ -298,14 +230,11 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Latest Blogs */}
-      <div
-        className="
-       custom-container lg:pr-0"
-      >
-        <BlogsCarousel slides={blogs} />
 
-      </div>
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
     </div>
   );
 }

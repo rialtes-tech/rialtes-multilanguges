@@ -180,9 +180,13 @@ export default function page({ url }) {
 
     // returning all blogs except current page url
     const filteredBlogs = latestBlogs.filter((elem) => {
-        const blogSlug = elem.url.split("/").pop();
-        return blogSlug !== url;
+
+        const blogSlug = elem.url.replace(/\/$/, "").split("/").pop();
+        const currentSlug = url.replace(/\/$/, "");
+
+        return blogSlug !== currentSlug;
     });
+
 
     const responsive = {
         desktop: {
