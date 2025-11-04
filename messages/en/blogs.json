@@ -393,6 +393,7 @@
         "improveData3": " Our pharma and tech experts guide you to simplify AI integration into your workflows, enhancing research, optimizing production, and driving data-backed strategies. Whether enhancing R&D, streamlining manufacturing, or improving customer engagement, they ensure a seamless transition to AI-powered operations."
     },
     "howDoesSapAribaStreamline": {
+        "bannerAlt":"Blue fiber optic cables with glowing data streams representing high-speed network connectivity and digital infrastructure",
         "seoTitle": "SAP Ariba Procurement for Direct & Indirect Efficiency | Rialtes",
         "seoDescription": "SAP Ariba streamlines direct and indirect procurement by digitizing every step—from sourcing to payment—boosting savings, speed, and control.",
         "blogTopic": "SAP",
@@ -470,6 +471,7 @@
         "integrateDesc3": "Rialtes offers a range of services, including consulting, implementation, and support. We help reinvent your procurement operations and enhance decision-making through SAP Ariba solutions."
     },
     "howSapSuccessFactorIntegration": {
+        "bannerAlt":"Abstract blue digital network architecture with transparent geometric cubes and data streams representing cloud computing infrastructure",
         "seoTitle": "SAP SuccessFactors Integration: Enhance HR and Payroll | Rialtes",
         "seoDescription": "SAP SuccessFactors integrations are a game-changer for HR and payroll operations—enhancing efficiency, accuracy, and compliance for global and local teams.",
         "blogTopic": "SAP SucessFactors",
@@ -630,6 +632,7 @@
         "overcomeLink": "SAP SuccessFactors integration solutions."
     },
     "redefiningBlog": {
+        "bannerAlt":"Glowing blue and cyan digital tree with flowing connected lines and light points on dark blue background showing data network",
         "seoTitle": "SAP Joule AI: Powering the Future of Enterprise | Rialtes",
         "seoDescription": "SAP Joule AI transforms business operations by enabling faster decision-making, giving users instant answers without navigating complex dashboards.",
         "blogTopic": "SAP",
@@ -743,7 +746,9 @@
         "shiftFromLink3": "SAP Ariba"
     },
     "sapDataCloud": {
-        "sapImage": "/images/blog/image (5).png",
+        "bannerAlt":"Blue ocean wave with digital wireframe grid overlay and glowing connection points representing data flow and digital transformation",
+        "sapImage": "/images/blog/sap-business-data-cloud-technical-architecture-diagram.png",
+        "sapAlt":"Diagram showing SAP Business Data Cloud central hub connected to six components including databases, analytics, and AI assistant",
         "seoTitle": "What Is BDC in SAP? Transform with SAP Business Data Cloud | Rialtes",
         "seoDescription": "SAP BDC simplifies data integration by enabling real-time access to trustworthy data, supporting AI-ready decision-making and business transformation.",
         "blogs": [
@@ -858,6 +863,7 @@
         "acceleratesDesc3": "to explore its potential impact on your organization."
     },
     "powerfulFeatures": {
+        "bannerAlt":"Cute blue AI chatbot robot with glowing eyes pointing upward representing artificial intelligence and customer service automation",
         "seoTitle": "Key Features That Make Agentforce a Game-Changer | Rialtes",
         "seoDescription": "Salesforce Agentforce features address CX gaps with intelligent routing, AI-led case resolution, and performance dashboards for better decisions.",
         "blogTopic": "Salesforce Agentforce",
@@ -1001,6 +1007,7 @@
         "transitionDesc2": "Rialtes enables businesses to integrate customized Agentforce agents into their ERP platforms, automating tasks and optimizing workflows. Using machine learning and natural language processing, we align agents with organizational goals for effective intelligent automation. Get in touch with us at "
     },
     "howSuccessFactorEnhances": {
+        "bannerAlt":"Professional typing on laptop with digital wave pattern representing remote work, productivity, and cloud-based technology",
         "seoTitle": "Your Guide to SAP SuccessFactors for Remote Teams | Rialtes",
         "seoDescription": "Facing challenges managing remote teams? SAP SuccessFactors offers tools to boost engagement, track performance, and ensure seamless collaboration.",
         "blogTopic": "SAP SuccessFactors",
@@ -1159,6 +1166,7 @@
         "manageDesc3": "for consultation on SAP SuccessFactors features, benefits, and deployment."
     },
     "agentForceAgents": {
+        "bannerAlt":"Glowing robotic hand hovering over laptop keyboard representing AI automation, machine learning, and digital transformation",
         "seoTitle": "Scale the Future of Enterprise Resource Planning with AI",
         "seoDescription": "With Salesforce AI, Agentforce automates ERP tasks, provides real-time insights, and ensures seamless collaboration, shaping the future of scalable systems.",
         "blogTopic": "Salesforce Agentforce",
@@ -1222,6 +1230,7 @@
         "futureDesc3": "Rialtes allows businesses to integrate customized Agentforce agents into their specific ERP platforms, automating repetitive tasks and optimizing workflows. Utilizing machine learning and natural language processing, we ensure these agents align with organizational goals. Enterprises can ensure their Agentforce deployments harness reliable data for intelligent automation. Contact us at"
     },
     "meetTeammate": {
+        "bannerAlt":"Digital AI agent interface glowing in blue with futuristic circuits and data patterns",
         "seoTitle": "How to Enhance Slack Collaboration with Agentforce | Rialtes",
         "seoDescription": "Agentforce turns Slack into a smarter collaboration hub, combining real-time messaging with AI agents to streamline IT requests and enhance teamwork.",
         "blogTopic": "Salesforce Agentforce",
@@ -4105,6 +4114,7 @@
         "faqTitle": "FAQs: Migrating from SAP PI PO to SAP CPI Migration"
     },
     "s4HanaSapALM": {
+        "bannerAlt":"Abstract digital mountain formed by flowing blue pink and purple light waves with particle dots on dark background showing data flow",
         "seoTitle": "How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation",
         "seoDescription": "Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution for successful S/4HANA transformation.",
         "mainData": [

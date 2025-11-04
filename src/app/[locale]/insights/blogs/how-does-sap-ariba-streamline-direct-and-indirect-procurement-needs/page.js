@@ -24,7 +24,7 @@ const schemaData = {
   headline: "SAP Ariba Procurement: Streamlining Direct and Indirect Needs",
   description:
     "SAP Ariba streamlines direct and indirect procurement by digitizing workflows, enhancing compliance, and driving cost efficiency.",
-  image: "https://www.rialtes.com/images/blog/sap-ariba-web-banner.webp",
+  image: "https://www.rialtes.com/images/blog/fiber-optic-network-data-connectivity.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -73,8 +73,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden xl:block">
           <Image
-            src="/images/blog/sap-ariba-web-banner.webp"
-            alt="SAP Ariba Streamline"
+            src="/images/blog/fiber-optic-network-data-connectivity.webp"
+            alt={t('bannerAlt')}
             fill
             priority
           />
@@ -83,8 +83,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block xl:hidden">
           <Image
-            src="/images/blog/sap-ariba-mobile-banner.webp"
-            alt="SAP Ariba Streamline"
+            src="/images/blog/fiber-optic-network-data-connectivity-mobile.webp"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}
