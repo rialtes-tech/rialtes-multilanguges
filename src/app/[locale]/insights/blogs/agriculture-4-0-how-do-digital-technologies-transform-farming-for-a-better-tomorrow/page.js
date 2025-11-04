@@ -27,7 +27,7 @@ const schemaData = {
   description:
     "Explore how Agriculture 4.0 and platforms like Salesforce are revolutionizing modern farming with AI, automation, and real-time data-driven insights.",
   image:
-    "https://www.rialtes.com/images/blog/agriculture-4.0-digital-farming.webp",
+    "https://www.rialtes.com/images/blog/professional-drone-camera-aerial-agriculture-monitoring.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -78,8 +78,8 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[350px] overflow-hidden">
         <div className="hidden lg:block">
           <Image
-            src="/images/blog/agriculture-4.0-digital-farming.webp "
-            alt="Drone hovering over agricultural crops, showcasing the future of farming with digital innovations"
+            src="/images/blog/professional-drone-camera-aerial-agriculture-monitoring.webp "
+            alt={t("bannerAlt")}
             fill
             style={{ objectFit: "cover", objectPosition: "70% 20%" }}
             priority
@@ -87,8 +87,8 @@ export default function Page() {
         </div>
         <div className="block lg:hidden">
           <Image
-            src="/images/blog/blog-6.webp "
-            alt="Drone hovering over agricultural crops, showcasing the future of farming with digital innovations"
+            src="/images/blog/professional-drone-camera-aerial-agriculture-monitoring-mobile.webp "
+            alt={t("bannerAlt")}
             fill
             style={{ objectFit: "cover", objectPosition: "70% 20%" }}
             priority

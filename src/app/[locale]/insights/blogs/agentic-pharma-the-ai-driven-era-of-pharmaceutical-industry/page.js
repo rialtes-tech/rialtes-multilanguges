@@ -23,7 +23,7 @@ const schemaData = {
   headline: "Agentic Pharma – The AI-driven era of the Pharmaceutical Industry",
   description:
     "Discover how Agentic AI is transforming the pharmaceutical industry—from drug discovery to patient support programs—by enhancing compliance, efficiency, and patient outcomes.",
-  image: "https://www.rialtes.com/images/blog/agentic-pharma-blog-banner.webp",
+  image: "https://www.rialtes.com/images/blog/fiber-optic-tree-network-connectivity-illustration.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

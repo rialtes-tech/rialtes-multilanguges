@@ -19,7 +19,7 @@ const schemaData = {
   headline: "How Agentforce AI Enables Zero Downtime Manufacturing",
   description:
     "Agentforce AI helps manufacturers prevent unplanned downtime with predictive intelligence, ensuring zero disruption and 24/7 operational efficiency.",
-  image: "https://www.rialtes.com/images/blog/industry4-desktop-banner.webp",
+  image: "https://www.rialtes.com/images/blog/industry-4-automation-technology.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

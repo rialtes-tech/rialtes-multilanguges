@@ -27,7 +27,7 @@ const schemaData = {
   description:
     "Scale with confidence. Agentforce for Manufacturing automates support, sales, and partner ops using AI copilots, predictive service, and self-service tools.",
   image:
-    "https://www.rialtes.com/images/blog/agentforce-ai-for-manufacturing.webp",
+    "https://www.rialtes.com/images/blog/business-technology-collaboration-office.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes Technologies",
