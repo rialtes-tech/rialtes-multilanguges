@@ -26,6 +26,15 @@ export default function page({ url }) {
             title: "CRM + ERP Convergence: How Real Estate Leaders Break System Silos and Cut Costs",
             description: "Here’s something every property leader already knows but rarely says out loud: the technology stack that was meant to simplify operations has ended up complicating it."
         },
+         { id: 45,
+            image: "/images/blog/digital-puzzle-technology-integration-thumb.webp",
+            category: "Exelona",
+            industry: "Real Estate",
+            date: "Oct. 31, 2025",
+            url: "insights/blogs/open-api-integrations-every-growing-real-estate/",
+            title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
+           description: "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. "
+         },
         {
             id: 49,
             image: "/images/blog/conversational-ai-in-real-estate-mobile.webp",
