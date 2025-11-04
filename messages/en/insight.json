@@ -226,6 +226,16 @@
         "description": "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity."
       },
       {
+        "id": 52,
+        "image": "/images/blog/exelona-cluster-feature-thumb.webp",
+        "category": "Exelona",
+        "industry": "Generic",
+        "date": "Nov. 04, 2025",
+        "url": "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
+        "title": "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
+        "description": "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
+      },
+      {
         "id": 47,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
         "category": "AI",

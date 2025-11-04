@@ -6617,5 +6617,146 @@
         "howSalesforceDesc3": "En última instancia, reducir el riesgo no se trata solo de evitar el fracaso, sino de garantizar que el proyecto entregue un valor comercial medible. La gestión del riesgo está directamente vinculada al ROI.",
         "buildTitle": "Cree Salesforce de la manera correcta, maximice el ROI con el socio adecuado",
         "faqTitle": "Preguntas frecuentes: implementación e integración de Salesforce"
-    }
+    },
+    "whatDoesASingle": {
+        "blogTitle":"¿Qué significa una “fuente única de la verdad” para el sector inmobiliario, desde el lead hasta el arrendamiento?",
+        "para1":"En la gestión de propiedades, rara vez son las grandes cosas las que ralentizan a los equipos. Son las innumerables pequeñas ineficiencias, los datos de arrendamiento que no coinciden, los registros duplicados o el tiempo perdido verificando hojas de cálculo. La mayoría de las empresas inmobiliarias utilizan de forma natural varios sistemas: un CRM para los clientes potenciales, un ERP para las finanzas, una aplicación de mantenimiento y más hojas de cálculo de las que a cualquiera le gustaría admitir.",
+        "para2":"Esta configuración fragmentada no solo hace perder tiempo. También oculta información valiosa, retrasa los informes y hace que la colaboración sea más difícil de lo necesario. Ahí es donde entra en juego la idea de una Fuente Única de la Verdad (SSOT): una vista unificada de los datos de arrendamiento, finanzas y operaciones que mantiene a todos en la misma página.",
+        "para3":"Analizaremos lo que esto realmente significa para las empresas inmobiliarias y cómo plataformas como Exelona están ayudando a los líderes a finalmente reunir todos sus datos y decisiones en un solo lugar.",
+        "para4":"Ahora, esto es lo que sucede cuando cambian a una plataforma SSOT unificada como Exelona:",
+        "faqTitle":"Preguntas frecuentes: Fuente única de la verdad en el sector inmobiliario",
+    "whatASingleSourceData": [
+        {
+            "title": "Qué significa realmente una Fuente Única de Verdad en el sector inmobiliario",
+            "desc": "En términos simples, una Fuente Única de Verdad es un sistema centralizado donde cada pieza de información operativa, financiera y de arrendamiento está sincronizada. En lugar de que ventas, contabilidad y gestión de instalaciones utilicen herramientas separadas y versiones distintas de la información, todos los equipos confían en los mismos datos verificados y en tiempo real.",
+            "desc2": "El trabajo no termina al conectar bases de datos. Se trata de generar confianza en los números que ves a diario, ya sean tasas de ocupación, ingresos por alquiler o acuerdos de nivel de servicio (SLA). Imagina que tu agente de arrendamiento actualiza un registro de inquilino: ese cambio se refleja automáticamente en finanzas para la facturación y en operaciones para la programación del servicio. Todos trabajan con el mismo registro, no con diez copias diferentes.",
+            "desc3": "Esa es, básicamente, la esencia de una SSOT: claridad, precisión y conexión a lo largo del ciclo de vida de la propiedad."
+        }
+    ],
+    "whyRealEstatedata": [
+        {
+            "title": "Por qué el sector inmobiliario todavía lucha con la fragmentación de datos",
+            "desc": "A pesar de los beneficios evidentes, la mayoría de las organizaciones inmobiliarias todavía operan en silos. Un estudio de Deloitte de 2024 encontró que más del 60% de las empresas de gestión de propiedades dependen de más de cinco sistemas desconectados para gestionar las operaciones diarias.",
+            "listTitle": "Aquí es donde suelen aparecer los problemas:",
+            "list": [
+                { "desc": "Sistemas heredados que no comparten datos" },
+                { "desc": "Múltiples soluciones de proveedores para arrendamiento, facturación y mantenimiento" },
+                { "desc": "Conciliación manual de pagos y contratos" },
+                { "desc": "Registros duplicados o desactualizados entre plataformas" }
+            ],
+            "desc2": "Debido a esto, los equipos pasan horas verificando datos en lugar de actuar sobre ellos. Finanzas y operaciones toman decisiones basadas en versiones diferentes de la realidad. Las renovaciones de arrendamiento se retrasan. Las auditorías de cumplimiento tardan semanas en lugar de horas.",
+            "desc3": "Y lo peor: los datos inexactos o inconsistentes pueden costar hasta un 20% de los ingresos potenciales debido a facturación omitida, cobros atrasados y mala experiencia del inquilino. El sector inmobiliario no tiene un problema de datos; tiene un problema de alineación de datos."
+        }
+    ],
+    "crmErpData": [
+        {
+            "title": "Convergencia CRM + ERP: La base de una Fuente Única de Verdad",
+            "desc": "¿Cómo se soluciona esto?",
+            "desc1": "La verdadera respuesta radica en la <a href='https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergencia de los sistemas CRM y ERP</a>, los dos mayores motores de datos de tus operaciones.",
+            "list": [
+                {
+                    "title": "CRM (Gestión de Relaciones con el Cliente)",
+                    "desc": "maneja todo, desde la generación de leads y la incorporación de inquilinos hasta las renovaciones y la comunicación."
+                },
+                {
+                    "title": "ERP (Planificación de Recursos Empresariales)",
+                    "desc": "gestiona finanzas, facturación, adquisiciones e informes."
+                }
+            ],
+            "desc2": "Cuando estos sistemas funcionan por separado, información crítica como términos de arrendamiento, cronogramas de pago y costos de mantenimiento se pierde o se duplica.",
+            "desc3": "Pero cuando están integrados, forman un flujo continuo de datos:"
+        },
+        {
+            "list": [
+                { "desc": "Un cliente potencial entra al CRM a través de una consulta en el sitio web" },
+                { "desc": "Una vez convertido, los detalles del arrendamiento se sincronizan automáticamente con el ERP para el procesamiento financiero." },
+                { "desc": "El equipo de operaciones obtiene visibilidad instantánea del estado de ocupación y los programas de servicio." },
+                { "desc": "Cuando se realizan pagos, las actualizaciones de datos se aplican en tiempo real en todos los sistemas." }
+            ],
+            "desc2": "Por ejemplo, un desarrollador inmobiliario europeo integró su CRM y ERP mediante una plataforma unificada y redujo los errores de datos en un 25%, además de lograr un cierre financiero un 30% más rápido.",
+            "desc3": "Ese es el poder de la convergencia: menos conciliaciones y más claridad."
+        }
+    ],
+    "theBusinessCase": [
+        {
+            "title": "El caso empresarial: por qué una Fuente Única de Verdad importa",
+            "list": [
+                {
+                    "title": "1. Visibilidad y toma de decisiones en tiempo real",
+                    "desc": "Con datos unificados, los paneles finalmente tienen sentido. Los gerentes de propiedades pueden ver el flujo de arrendamientos, las tendencias de ocupación y el flujo de efectivo en tiempo real. Los ejecutivos no tienen que esperar los informes de fin de mes. Pueden monitorear el rendimiento en vivo y tomar decisiones más rápidas y basadas en datos. Según Deloitte, el 70% de los líderes informan una mayor precisión en las previsiones después de implementar plataformas de datos integradas."
+                },
+                {
+                    "title": "2. Menos errores de conciliación y operaciones más rápidas",
+                    "desc": "Cuando arrendamiento, facturación y finanzas usan el mismo sistema, desaparece la verificación manual. Los pagos coinciden con las facturas instantáneamente y los datos de los inquilinos son consistentes. En lugar de conciliar pagos semanalmente, tu equipo financiero recibe actualizaciones automáticas en cuanto se procesan. Eso ahorra horas de trabajo administrativo y mejora la precisión y el cumplimiento."
+                },
+                {
+                    "title": "3. Cumplimiento más sólido y generación de informes más sencilla",
+                    "desc": "Las empresas inmobiliarias enfrentan regulaciones estrictas como RERA o GAAP. Tener una base de datos conectada significa que cada registro —cada arrendamiento, factura y pago— es rastreable. Las auditorías que antes tomaban días ahora se completan en horas, y los informes de cumplimiento se generan automáticamente."
+                },
+                {
+                    "title": "4. Colaboración que realmente funciona",
+                    "desc": "Pregúntale a cualquier equipo de gestión de propiedades qué los retrasa y te dirán lo mismo: no estamos viendo los mismos números. Una fuente única de verdad cambia eso. Los agentes, contadores y gerentes de instalaciones trabajan con el mismo conjunto de datos, las actualizaciones se reflejan instantáneamente, y ya no hay confusión sobre qué versión es la final."
+                }
+            ]
+        }
+    ],
+    "aDayInLife": [
+        {
+            "title": "Un día en la vida: del lead al arrendamiento en un sistema unificado",
+            "des": "Veamos un ejemplo real.",
+            "desc1": "Una empresa inmobiliaria comercial gestiona 80 edificios y usa sistemas separados para CRM, ERP y mantenimiento.",
+            "des2": "Así era su proceso anterior:"
+        }
+    ],
+    "theRoleOfAI": [
+        {
+            "title": "El papel de la IA y la automatización en el mantenimiento de una Fuente Única de Verdad",
+            "des": "Un sistema único es poderoso, pero si le agregas IA, se vuelve predictivo. La IA puede detectar inconsistencias entre datos de arrendamiento y registros de facturación antes de que generen errores. Puede pronosticar costos de mantenimiento o detectar duplicados.",
+            "desc1": "La automatización garantiza que los datos se mantengan sincronizados en todos los flujos de trabajo: desde aprobaciones de arrendamiento hasta cobros de renta. Por ejemplo, si un motor de IA detecta que el costo de mantenimiento de una propiedad supera lo esperado, alerta automáticamente a operaciones y finanzas.",
+            "des2": "En resumen, la IA no solo respalda una Fuente Única de Verdad, la protege."
+        }
+    ],
+    "steps": [
+        { "title": "Un lead completa un formulario", "subtitle": "Ingresa al CRM" },
+        { "title": "El arrendamiento es aprobado", "subtitle": "Los datos se reingresan manualmente en el ERP" },
+        { "title": "Los tickets de mantenimiento se registran por separado", "subtitle": "Se envían semanalmente a operaciones" },
+        { "title": "El equipo financiero pasa dos días conciliando facturas mensuales", "subtitle": "" }
+    ],
+    "steps2": [
+        { "title": "El lead ingresa al CRM", "subtitle": "Crea automáticamente un registro de prospecto vinculado al ERP" },
+        { "title": "Cuando se firma el arrendamiento", "subtitle": "La facturación y contabilidad se actualizan al instante" },
+        { "title": "", "subtitle": "Cualquier actividad de mantenimiento o incumplimiento de SLA se sincroniza directamente con los paneles de arrendamiento y finanzas" },
+        { "title": "", "subtitle": "Los informes y KPIs se actualizan en tiempo real" }
+    ],
+    "fromDataChaos": [
+        {
+            "title": "Del caos de datos a la confianza en los datos",
+            "des": "Lo que hemos descubierto es que los equipos inmobiliarios no fallan por falta de datos, sino porque sus datos están dispersos. Una Fuente Única de Verdad transforma cómo trabajas, planificas y creces.",
+            "desc1": "Con Exelona, los líderes inmobiliarios obtienen una vista unificada del proceso completo —del lead al arrendamiento al libro mayor—, una sola versión de la verdad que impulsa precisión, transparencia y rentabilidad. Es hora de dejar de gestionar sistemas y <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>empezar a gestionar resultados con Rialtes</a>."
+        }
+    ],
+    "yourPathTitle": [
+        {
+            "title": "Tu camino hacia un ecosistema inmobiliario unificado",
+            "des": "Nuestra solución, Exelona, es más que un software de gestión inmobiliaria; es una plataforma unificada CRM + ERP creada específicamente para eliminar los silos de datos.",
+            "desc1": "Así es como ayuda a construir una Fuente Única de Verdad en tus operaciones:"
+        }
+    ],
+    "keyElemData": [
+        { "title": "Datos centralizados de arrendamiento y finanzas", "desc": "Cada arrendamiento, inquilino y pago vive en un solo sistema. Sin duplicaciones, sin demoras." },
+        { "title": "Operaciones inmobiliarias impulsadas por IA", "desc": "Predice mantenimiento, pronostica presupuestos y sigue los SLA con precisión." },
+        { "title": "Integración escalable de plataformas inmobiliarias", "desc": "Se conecta fácilmente con tus sistemas existentes como Yardi, Oracle o ERP personalizados." },
+        { "title": "Experiencia móvil para residentes", "desc": "Brinda a tu personal e inquilinos visibilidad en tiempo real y opciones de autoservicio." },
+        { "title": "Informes automatizados", "desc": "Genera reportes financieros y operativos listos para auditoría en minutos." }
+    ],
+    "faqs": [
+        { "question": "¿Qué significa ‘fuente única de verdad’ en operaciones inmobiliarias?", "answer": "Significa usar un sistema centralizado que conecta todos los datos de arrendamiento, finanzas y operaciones para que todos los equipos trabajen con la misma información verificada." },
+        { "question": "¿Cómo mejora la convergencia CRM + ERP la eficiencia?", "answer": "Al integrar la gestión de leads, arrendamientos, facturación e informes en una sola plataforma, se eliminan duplicaciones y conciliaciones manuales." },
+        { "question": "¿Por qué los administradores de propiedades necesitan una fuente única de verdad?", "answer": "Los datos fragmentados generan decisiones lentas, errores y poca visibilidad. SSOT garantiza que todos los equipos trabajen con la misma información actualizada." },
+        { "question": "¿Puede la IA ayudar a mantener una fuente única de verdad en el sector inmobiliario?", "answer": "Sí. La IA puede detectar inconsistencias, automatizar validaciones y ofrecer información predictiva para mantener la precisión de los registros." },
+        { "question": "¿Cómo mejora la centralización de datos de arrendamiento y finanzas los informes?", "answer": "Los datos unificados permiten informes instantáneos y precisos sin consolidación manual, reduciendo el tiempo hasta en un 40%." },
+        { "question": "¿Qué hace diferente a Exelona de otras herramientas de gestión inmobiliaria?", "answer": "Exelona unifica CRM y ERP en un solo sistema impulsado por IA, diseñado para operaciones inmobiliarias inteligentes e integración escalable de plataformas." }
+    ]
+}
+
 }

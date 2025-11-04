@@ -225,6 +225,16 @@
         "description": "Esta es la verdad sobre las operaciones inmobiliarias: siempre han sido un equilibrio entre costo, confort y continuidad."
       },
       {
+  "id": 48,
+  "image": "/images/blog/exelona-cluster-feature-thumb.webp",
+  "category": "Exelona",
+  "industry": "Generic",
+  "date": "Nov. 04, 2025",
+  "url": "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
+  "title": "¿Qué significa una 'fuente única de la verdad' para el sector inmobiliario desde el cliente potencial hasta el arrendamiento?",
+  "description": "En la gestión inmobiliaria, rara vez son las cosas grandes las que ralentizan a los equipos. Son las innumerables pequeñas ineficiencias, los datos de arrendamiento que no coinciden, los registros duplicados o el tiempo perdido verificando hojas de cálculo."
+},
+      {
         "id": 47,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
         "category": "IA",
