@@ -14,14 +14,14 @@ import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 export default function Page() {
-    const t = useTranslations("exelonaPillar"); 
+    const t = useTranslations("aiRealEstate"); 
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, {
         en: enContent,
         es: esContent,
         fr: frContent,
     });
-    const { blogMainData, howAiData, howAiData2, keyTechData, predictionData, howAiImprovesData, optimizingData, fromMaintenanceData, exelonaEdgeData, preparingData, keyElemData, faqs } = blogsContent.exelonaPillar;
+    const { blogMainData, howAiData, howAiData2, keyTechData, predictionData, howAiImprovesData, optimizingData, fromMaintenanceData, exelonaEdgeData, preparingData, keyElemData, faqs } = blogsContent.aiRealEstate;
     const fullUrl = "https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/";
     const currUrl = useUrl()
 

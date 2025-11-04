@@ -21,7 +21,7 @@ const schemaData = {
     "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
   description:
     "SAP S/4HANA is the digital backbone for enterprises of the future. But to unlock its true potential, organizations need clarity, transparency, and AI-driven insights.",
-  image: "https://www.rialtes.com/images/blog/sap-signavio-s4hana.webp",
+  image: "https://www.rialtes.com/images/blog/digital-data-tunnel-technology-speed-concept.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

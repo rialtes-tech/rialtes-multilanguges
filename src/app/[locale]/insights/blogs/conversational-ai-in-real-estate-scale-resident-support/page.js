@@ -1,223 +1,18 @@
 "use client";
 import Image from "next/image";
-import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
-import useUrl from "@/app/components/useUrl";
-import Seo from "@/app/components/Seo";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/[locale]/components/useUrl";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import FAQAccordion from "@/app/components/faqAccordion";
-import BlogSocialIcons from '@/app/components/blogSocialIcons'
-import UnorderedList from "@/app/components/unorderedList";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from "../../../../../../messages/en/blogs.json";
+import esContent from "../../../../../../messages/es/blogs.json";
+import frContent from "../../../../../../messages/fr/blogs.json";
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
-const mainData = [
-    "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries, amenity bookings, and move-in/move-out coordination, teams often stretch themselves thin. The problem isn’t that property managers don’t care; resident expectations have changed.",
-    "They expect fast, friendly, 24/7 support.",
-    "And that’s exactly where we need Conversational AI.",
-    "Conversational AI refers to chatbots and virtual assistants that can manage client conversations. These AI tools can answer questions, schedule viewings, and even qualify leads around the clock—allowing agents to concentrate on more crucial tasks. In this blog, we’ll unpack how AI-driven chatbots and voice assistants are transforming property management, reducing support tickets, and keeping residents happy, without hiring extra staff.",
-]
-
-const traditionalData = [
-    {
-        "title": "Why Traditional Resident Support Doesn’t Scale",
-        "desc": "For years, property management teams have relied on email threads, call centers, and ticketing systems to handle resident queries. While functional, these channels share one fatal flaw: they don’t scale efficiently.",
-        "desc2": "Here’s what typically happens:",
-        "list": [
-            {
-                title: "High Volume, Low Complexity",
-                desc: "Roughly 60–70% of all resident tickets involve basic issues—like 'When is my rent due?' or 'How do I submit a maintenance request?'"
-            },
-            {
-                title: "Human Bottlenecks",
-                desc: "Even simple requests take time when each one requires manual review or follow-up."
-            },
-            {
-                title: "Inconsistent Experience",
-                desc: "Depending on staff workload, residents might wait minutes or days for a reply."
-            }
-        ],
-        "desc3": "This leads to frustration for residents and burnout for staff. Conversational AI changes this dynamic completely."
-    }
-]
-
-const whyConversationalData = [
-    "When we talk about Conversational AI, we’re not just referring to generic chatbots. Modern AI assistants in property management use Natural Language Processing (NLP) and Machine Learning (ML) to understand context, intent, and even tone.",
-    "Along with following the scripts, they can engage in natural back-and-forth conversations and take real actions across integrated systems like CRMs, ERP tools, and maintenance platforms.",
-    "Imagine this:",
-    "A resident messages the property portal saying, “My AC isn’t cooling properly.”",
-    "The AI assistant identifies it as a maintenance issue, creates a service ticket in the property management system, assigns it to the right technician, and sends the resident an acknowledgment, all within seconds.",
-    "It can even follow up with, “Would you like to schedule a visit between 10 AM–12 PM or 2 PM–4 PM tomorrow?” This isn’t a futuristic vision. Platforms like Exelona, an AI-enabled real estate management system, already make it possible."
-]
-
-const keyBenefitsData = [
-    {
-        "title": "Key Benefits of Conversational AI in Property Operations",
-        "desc": "Let’s break down what this shift means in practical terms.",
-        "list": [
-            {
-                "title": "24/7 Resident Support",
-                "desc": [
-                    "No team can be available round the clock, but AI can. Conversational AI assistants handle tenant queries day and night, ensuring immediate responses and reducing after-hours workload.",
-                    "For example, if a tenant messages at midnight asking, “How can I pay rent online?”, the assistant can instantly guide them through the payment process, without human intervention. That’s not just convenience; it’s retention. Studies show that response time is one of the top three factors influencing resident satisfaction."
-                ]
-            },
-            {
-                "title": "Lower Ticket Volume (Without Lowering Quality)",
-                "desc": [
-                    "By automatically resolving repetitive questions, it reduces the ticket load that human agents see every day.",
-                    "Some property teams report up to 40% reduction in ticket volume after deploying conversational AI. That frees up human agents to focus on complex issues that need a personal touch."
-                ]
-            },
-            {
-                "title": "Contextual Conversations Across Channels",
-                "desc": [
-                    "Today’s residents interact through multiple channels—web, mobile app, email, and even WhatsApp. Conversational AI keeps track of interactions across all of them, offering continuity.",
-                    "If a resident starts a chat on the property app and later sends a follow-up email, the AI can recognize it’s the same thread, not a new ticket. This ensures residents never repeat themselves, a small but powerful trust builder."
-                ]
-            },
-            {
-                "title": "Smarter Technician Assignments",
-                "desc": [
-                    "AI isn’t limited to chat—it can optimize operations behind the scenes. When integrated with property management platforms like Exelona, conversational AI can analyze maintenance requests, predict priority levels, and automatically assign technicians based on skill, proximity, and workload.",
-                    "The result? Faster service response times and fewer missed SLAs."
-                ]
-            },
-            {
-                "title": "Data-Driven Insights for Management",
-                "desc": [
-                    "Every conversation becomes a data point. AI aggregates resident sentiment, recurring issues, and satisfaction levels into dashboards that property managers can actually act on.",
-                    "For instance:",
-                    "25% of residents complained about late AC repairs in July.",
-                    "12% of tickets came from the same building.",
-                    "Most queries occurred after 6 PM.",
-                    "These insights can shape better resource planning and preventive maintenance strategies."
-                ]
-            }
-        ]
-    }
-]
-
-const conversationalAI = [
-    {
-        "title": "Conversational AI Adoption in Real Estate: Slow Start, Fast Potential",
-        "desc": [
-            "Across Europe and the US, conversational AI is gradually reshaping how property companies engage with residents—but adoption remains uneven. In Germany, for instance, fewer than 10% of housing associations have deployed conversational AI to handle tenant interactions or maintenance requests. In the US, adoption is slightly higher, driven by large property management firms experimenting with AI assistants to manage lease renewals, payments, and service tickets.",
-            "Early adopters are already seeing measurable gains, 15–25% faster response times, higher resident satisfaction scores, and notable reductions in support costs. Yet, many organizations still face the same bottlenecks: fragmented IT landscapes, limited process automation, and conversational systems that lack the functional depth to handle complex real estate workflows.",
-            "This maturity gap often forces companies to rebuild their AI stack on platforms that better align with business processes and scale across property portfolios.",
-            "Today, most property firms fall into one of three maturity stages in their automation journey:"
-        ],
-        "list": [
-            {
-                title: "Implement",
-                desc: "Introducing conversational AI to handle basic resident queries."
-            },
-            {
-                title: "Modernize",
-                desc: "Replacing first-generation chatbots with scalable, data-integrated AI solutions."
-            },
-            {
-                title: "Supplement",
-                desc: "Enhancing existing platforms with advanced automation and analytics."
-            }
-        ]
-    }
-]
-
-const howConversationalData = [
-    {
-        "title": "How Conversational AI Reduces Operational Costs",
-        "desc": "The link between AI and cost reduction is direct",
-        "list": [
-            {
-                "title": "Less manual workload",
-                "desc": "Automating 60–70% of queries reduces staffing needs or allows teams to handle growth without additional hires."
-            },
-            {
-                "title": "Faster turnaround",
-                "desc": "Quicker resolutions mean fewer escalations and lower SLA breach penalties."
-            },
-            {
-                "title": "Optimized resource allocation",
-                "desc": "Predictive analytics help property teams schedule staff efficiently, cutting overtime costs."
-            }
-        ],
-        "desc2": "Overall, studies from McKinsey suggest that AI-driven automation can reduce operational expenses (Opex) by 20–30% in property operations when properly integrated with maintenance and resident service workflows."
-    }
-]
-
-const implementationData = [
-    {
-        "title": "Implementation: Getting Conversational AI Right",
-        "desc": "Adding AI to your property management stack isn’t just about installing a chatbot widget—it’s about thoughtful integration.",
-        "desc2": "Here’s a proven framework:",
-        "list": [
-            {
-                "title": "Identify High-Volume Use Cases",
-                "desc": "Start small. Begin with the top 5 query types that take up the most staff time (e.g., rent reminders, payment confirmations, maintenance tracking)."
-            },
-            {
-                "title": "Integrate with Your Core Systems",
-                "desc": "Your AI assistant should talk to your property management system, CRM, and billing tools. That’s how it becomes action-oriented rather than informational."
-            },
-            {
-                "title": "Train the Model Continuously",
-                "desc": "AI improves with feedback. Use resident interactions to refine intent detection and natural language understanding."
-            },
-            {
-                "title": "Maintain a Human Escalation Loop",
-                "desc": "Even the best AI should hand off to a human when needed—especially for emotional or complex issues. The goal isn’t replacement, but augmentation."
-            },
-            {
-                "title": "Measure, Analyze, Improve",
-                "desc": "Track key metrics: ticket reduction, response time, resident satisfaction, and cost per interaction. Use this data to iterate and improve."
-            },
-        ]
-    }
-]
-
-const whatData = [
-    {
-        "title": "What This Means for the Future of Resident Experience",
-        "desc": [
-            "Conversational AI is redefining what “resident experience” means in modern real estate. It’s the difference between a tenant waiting hours for an update versus getting an instant response. Between reactive management and proactive care.",
-            "As more residents get accustomed to AI-powered interactions in banking, travel, and e-commerce, they’ll expect the same from property management. Companies that adapt now will lead the market; those that don’t risk being left behind.",
-            "Exelona was built for exactly this. It’s an <a href='https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AI-enabled property operations</a> platform that integrates CRM, maintenance, financials, and communication in one intelligent system.",
-            "Its Conversational AI layer helps property teams:"
-        ],
-        "list": [
-            "Handle thousands of resident interactions simultaneously",
-            "Automatically log and route requests to the right teams",
-            "Trigger maintenance, billing, and notification workflows",
-            "Analyze trends in resident sentiment and performance metrics",
-        ],
-        "desc2": "If you’re ready to scale support, cut response times, and reduce Opex, Exelona gives you the tools to make it happen, without adding staff. Let’s automate repetitive communication and connecting systems behind the scenes and free property managers to focus on building communities."
-    }
-]
-
-const faqs = [
-    {
-        question: "What is conversational AI in property management?",
-        answer: "Conversational AI in property management uses intelligent chatbots and virtual assistants to handle resident interactions like rent inquiries, maintenance requests, and lease renewals—through natural, human-like conversations. These systems understand context, automate workflows, and connect directly with backend systems such as CRMs or ERPs for faster, more accurate responses."
-    },
-    {
-        question: "Can chatbots really handle complex resident requests?",
-        answer: "Yes. Modern conversational AI platforms are far more advanced than rule-based chatbots. They can interpret intent, process multiple data sources, and even trigger work orders or billing updates automatically. For example, a resident asking about a delayed repair can get real-time updates pulled from the maintenance system."
-    },
-    {
-        question: "How does conversational AI reduce support tickets in real estate?",
-        answer: "AI reduces support tickets by resolving the most common queries instantly like payment status, maintenance scheduling, or amenity access, before they reach your human staff. Some property firms report a 30–40% reduction in repetitive tickets after deploying AI-enabled property operations with smart routing and escalation."
-    },
-    {
-        question: "What’s the ROI of using conversational AI for property management?",
-        answer: "The ROI typically comes from three areas: lower operational costs, faster issue resolution, and improved resident satisfaction. On average, property managers can save up to 25% in customer service costs while boosting tenant retention by providing round-the-clock support and quicker response times."
-    },
-    {
-        question: "Is conversational AI secure enough for resident communication?",
-        answer: "Absolutely. Enterprise-grade conversational AI platforms comply with data protection standards like GDPR and SOC 2. They encrypt resident data, anonymize sensitive information, and include built-in access controls, ensuring privacy across all communication channels."
-    },
-    {
-        question: "How can a property company get started with conversational AI?",
-        answer: "Start small by identifying high-volume, repetitive interactions—like rent payment confirmations or maintenance tracking. Then, choose a platform like Exelona, which offers AI-enabled property operations, CRM + ERP integration, and conversational AI capabilities purpose-built for real estate. From there, scale gradually across properties and service functions."
-    }
-];
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -301,12 +96,21 @@ const schemaData = {
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/";
     const currUrl = useUrl()
+    const t = useTranslations("conversationalAi");
+    const locale = useLocale();
+    const blogsContent = changeLocalization(locale, {
+        en: enContent,
+        es: esContent,
+        fr: frContent,
+    });
+
+    const { mainData, traditionalData, whyConversationalData, keyBenefitsData, conversationalAI, howConversationalData, implementationData, whatData, faqs } = blogsContent.conversationalAi
 
     return (
         <section className="min-h-screen">
             <Seo
-                title="Conversational AI in Real Estate: Scale Support Efficiently | Rialtes"
-                description="In real estate, conversational AI assistants handle tenant queries day and night, ensuring immediate responses and reducing after-hours workload."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="Partners, website, welcome"
                 canonical={
                     "https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support//"
@@ -324,7 +128,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/conversational-ai-in-real-estate.webp"
-                        alt="banner image"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
@@ -332,7 +136,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/conversational-ai-in-real-estate-mobile.webp"
-                        alt="banner image"
+                        alt={t('bannerAlt')}
                         priority
                         height={0}
                         width={0}
@@ -349,7 +153,7 @@ export default function Page() {
                         {/* date and icons */}
                         <div className="sm:flex justify-between">
                             <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Exelona</span>{" "}
+                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogCategory')}</span>{" "}
                                 <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>20 October 2025
                             </div>
 
@@ -362,7 +166,7 @@ export default function Page() {
 
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
-                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">Conversational AI in Real Estate: Scale Resident Support Without Adding Staff</h1>
+                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t('blogTitle')}</h1>
 
                             <div className="xl:mt-[38px] mt-[33px]">
                                 {
@@ -416,7 +220,7 @@ export default function Page() {
 
                             {/* why conversational section */}
                             <div className="md:mt-[50px] mt-[40px]">
-                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">What Conversational AI Really Means in Property Management</h2>
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('conversationalTitle')}</h2>
                                 {
                                     whyConversationalData.map((data, ind) => {
                                         return (
@@ -613,7 +417,7 @@ export default function Page() {
             </section>
             {/* faq section */}
             <section className="xl:mt-[80px] mt-[40px] custom-container">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">FAQs: Salesforce Implementation and Integration</h2>
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('faqTitle')}</h2>
                 <div className="mt-[29px] xl:mt-[30px]">
                     <FAQAccordion faqData={faqs} />
                 </div>

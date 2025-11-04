@@ -1,6 +1,6 @@
 {
     "agentforceForManufacturing": {
-        "bannerAlt" : "Business professionals collaborating on tablet reviewing digital data and strategies in modern corporate technology office",
+        "bannerAlt": "Business professionals collaborating on tablet reviewing digital data and strategies in modern corporate technology office",
         "seoTitle": "Agentforce for Manufacturing: AI Service Edge | Rialtes",
         "seoDescription": "Want to scale smarter? Agentforce for Manufacturing brings AI copilots, predictive service, and self-service tools to elevate your support and sales ops.",
         "faqData": [
@@ -120,7 +120,7 @@
         "faqTitle": "FAQs: Agentforce for AI-Powered Manufacturing Transformation"
     },
     "discoverAgentExchange": {
-        "bannerAlt" : "Purple and blue abstract digital waves with network connections representing global connectivity and data communication",
+        "bannerAlt": "Purple and blue abstract digital waves with network connections representing global connectivity and data communication",
         "seoTitle": "Why AgentExchange Is a Game-Changer | Rialtes",
         "seoDescription": "AgentExchange is a thriving ecosystem where businesses, partners, and Agentblazers collaborate, share best practices, and drive the future of agentic AI together.",
         "understandingDataList": [
@@ -216,9 +216,9 @@
         "availabilityData3": "streamlining operations and enhancing workflows. By leveraging machine learning and natural language processing, we align agents with the organization's objectives to achieve efficient intelligent automation. Contact us at"
     },
     "himachalBlog": {
-        "bannerAlt" : "Robotic arms handling pharmaceutical vials on automated production line in sterile life sciences manufacturing facility",
+        "bannerAlt": "Robotic arms handling pharmaceutical vials on automated production line in sterile life sciences manufacturing facility",
         "impactImage": "/images/blog/india-pharmaceutical-industry-global-impact-statistics.png",
-        "impactImgAlt" : "India pharmaceutical industry infographic showing 20% global exports, 40% US generic demand, 25% UK medicines supply",
+        "impactImgAlt": "India pharmaceutical industry infographic showing 20% global exports, 40% US generic demand, 25% UK medicines supply",
         "seoTitle": "The Rise of Himachal in India’s Pharma Industry | Rialtes",
         "seoDescription": "Explore how Himachal Pradesh became a pharma manufacturing leader with SEZs, tax breaks, global supply links, and 600+ certified production units.",
         "blogs": [
@@ -326,7 +326,7 @@
         "hmDesc2": "to contribute to India's thriving manufacturing landscape."
     },
     "agenticPharma": {
-        "bannerAlt" : "Colorful fiber optic tree illustration with glowing multicolor branches on dark teal tech-themed background",
+        "bannerAlt": "Colorful fiber optic tree illustration with glowing multicolor branches on dark teal tech-themed background",
         "seoTitle": "Agentic AI Pharma: Automating Complex Pharma Workflows | Rialtes",
         "seoDescription": "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention.",
         "blogTopic": "AI",
@@ -1321,6 +1321,7 @@
         "collaborateDesc3": "are driven by reliable, actionable data, maximizing the potential of intelligent automation. Get in touch with us at"
     },
     "integrateSapSuccessFactor": {
+        "bannerAlt" : "Abstract blue and orange halftone dot pattern creating wave design on navy background for tech graphics",
         "seoTitle": "How to Integrate SAP with Office 365 for Enhanced HR Collaboration",
         "seoDescription": "Discover how SAP Office 365 integration can simplify HR processes, automate workflows, and foster seamless collaboration across Office 365 apps.",
         "blogTopic": "SAP SuccessFactors",
@@ -1453,6 +1454,7 @@
         "completeDesc4": "to get started with one of our expert SAP SuccessFactors consultants!"
     },
     "enhancingCompliance": {
+        "bannerAlt" : "3D world map with illuminated connection lines showing global network connectivity and data flow visualization",
         "seoTitle": "How SAP GTS Sanctioned Party List Screening Ensures Compliance | Rialtes",
         "seoDescription": "Minimize risks with SAP Sanctioned Party List Screening by ensuring your business never deals with prohibited parties. Stay compliant and avoid legal penalties.",
         "blogTopic": "SAP GTS",
@@ -1550,6 +1552,7 @@
         "complyDesc3": "with deep expertise in global trade and risk management, we empower companies to navigate these processes efficiently, delivering maximum value and return on investment. Our seasoned SAP consultants possess the skills and experience to address your critical needs while equipping your internal teams for ongoing improvement and innovation."
     },
     "agentforceTesting": {
+        "bannerAlt" : "Blue digital wireframe gears and network nodes representing industrial automation and blockchain technology",
         "seoTitle": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
         "seoDescription": "Explore how the Agentforce Testing Center leverages synthetic data to enhance AI testing and monitoring.",
         "blogTopic": "Salesforce Agentforce",
@@ -1612,6 +1615,7 @@
         "whyDesc4": "or need help getting started? We’re here to assist. At Rialtes, we specialize in AI testing and  , and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to streamline their business processes."
     },
     "successfactorSupportsDiversity": {
+        "bannerAlt" : "Colorful puzzle pieces with diversity icons showing people and wheelchair symbols representing inclusion concept",
         "seoTitle": "How SuccessFactors Diversity and Inclusion Drives Workplace Equity | Rialtes",
         "seoDescription": "Discover how SAP SuccessFactors diversity and inclusion capabilities support unbiased hiring, inclusive performance, and engagement. Learn more with Rialtes.",
         "bloTopic": "Diversity & Inclusion",
@@ -1665,6 +1669,7 @@
         "hrSystemDesc3": " Contact us today at"
     },
     "automateCrucial": {
+        "bannerAlt" : "Female healthcare worker in blue scrubs and mask using tablet device in modern medical facility setting",
         "seoTitle": "Athenahealth Salesforce Integration: Elevate Patient Care | Rialtes",
         "seoDescription": "Integrating athenahealth with Salesforce is beneficial in many ways, providing a more comprehensive view of patient interactions and data across the healthcare journey.",
         "blogTopic": "Integration",
@@ -1751,6 +1756,7 @@
         "findDesc4": ", is dedicated to utilizing the complete potential of Salesforce by providing exceptional user experiences to our clients."
     },
     "successFactorPerformance": {
+        "bannerAlt" : "Hand drawing target circle with pen on light blue surface representing goal setting and precision concept",
         "seoTitle": "SuccessFactors Performance Management & Goal Management Tips | Rialtes",
         "seoDescription": "SuccessFactors performance management and goal management boost employee engagement and strategic alignment. Contact us today for expert guidance and support!",
         "blogTopic": "SAP SuccessFactors",
@@ -1851,9 +1857,9 @@
         "empowerLink": "expert SAP SuccessFactors consultants"
     },
     "agentCopilot": {
-        "chartAlt" : "Automation comparison chart with green foliage border showing bots, copilots, and AI agents features matrix",
-        "quotationAlt" : "Blue quotation marks icon on white background for testimonial or quote section design element",
-        "agentBannerAlt" : "Vibrant abstract data flow visualization with colorful waves and particles representing digital transformation analytics",
+        "chartAlt": "Automation comparison chart with green foliage border showing bots, copilots, and AI agents features matrix",
+        "quotationAlt": "Blue quotation marks icon on white background for testimonial or quote section design element",
+        "agentBannerAlt": "Vibrant abstract data flow visualization with colorful waves and particles representing digital transformation analytics",
         "agentChart": "/images/blog/automation-bots-copilots-ai-agents-comparison-chart.webp",
         "agentChartMobile": "/images/blog/automation-bots-copilots-ai-agents-comparison-chart-mobile.webp",
         "seoTitle": "Agents vs. Copilots vs. Bots: Key Differences Explained | Rialtes",
@@ -2121,6 +2127,7 @@
         ]
     },
     "brainBehind": {
+        "bannerAlt" : "Digital brain circuit illustration with glowing connections on dark blue tech background showing AI concept",
         "seoTitle": "How Does a Reasoning Engine Work in Agentforce? | Rialtes",
         "seoDescription": "Learn how Agentforce’s reasoning engine works to optimize customer support and enhance service quality for improved customer experiences and satisfaction.",
         "blogs": [
@@ -2238,6 +2245,7 @@
         "gameDesc2": "As businesses prioritize customer satisfaction, tools like Atlas will undoubtedly play a pivotal role in shaping the future of customer experience. We can expect further integration with other Salesforce products, more sophisticated AI capabilities, and even deeper predictive analytics features soon. Rialtes helps you develop, customize, and deploy autonomous AI agents for sales, marketing, service, and e-commerce related tasks with the Agentforce platform. Get in touch with our experts."
     },
     "howSalesforceAgentforceWorks": {
+        "bannerAlt" : "Futuristic white robot with glowing blue eyes and pink lighting displaying digital interface screens",
         "seoTitle": "How Does Salesforce Agentforce Work? | Rialtes",
         "seoDescription": "Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!",
         "blogTopic": "Salesforce Agentforce",
@@ -2299,6 +2307,7 @@
         "gettingDesc3": "and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance their business processes."
     },
     "agriculture": {
+        "bannerAlt" : "Professional drone with camera hovering over green agricultural field for aerial photography and monitoring",
         "blogTopic": "Green Technology",
         "seoTitle": "Salesforce for Agriculture: Digital Farming Revolution | Rialtes",
         "seoDescription": "Discover how Salesforce for agriculture powers digital farming, improving efficiency and driving innovation for a sustainable future in Agriculture 4.0.",
@@ -2347,7 +2356,7 @@
         "moveDesc2": " to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP."
     },
     "remagineEnterprise": {
-        "bannerAlt" : "Agentic AI microchip with colorful light beams and data streams representing artificial intelligence computing power",
+        "bannerAlt": "Agentic AI microchip with colorful light beams and data streams representing artificial intelligence computing power",
         "seoTitle": "Enterprise Agentic AI: Reimagine Workflows Smarter | Rialtes",
         "seoDescription": "Agentic AI is helping enterprises automate smarter. They act on intent, respond in real time, and learn as they go, turning tasks into intelligent workflows.",
         "faqs": [
@@ -2525,7 +2534,7 @@
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "factoryToFeedback": {
-        "bannerAlt" : "Diverse technology team collaborating on laptop with circuit boards in modern command center control room workspace",
+        "bannerAlt": "Diverse technology team collaborating on laptop with circuit boards in modern command center control room workspace",
         "seoTitle": "Agentforce for Manufacturers: Smart AI for CX | Rialtes",
         "seoDescription": "With AI-driven visibility and automation, Agentforce for manufacturers reimagines CX, creating smarter, proactive, and seamless customer journeys.",
         "faqs": [
@@ -2678,7 +2687,7 @@
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "firstAiAgent": {
-        "bannerAlt" : "Man interacting with glowing AI data visualization wave representing digital transformation and machine learning.",
+        "bannerAlt": "Man interacting with glowing AI data visualization wave representing digital transformation and machine learning.",
         "seoTitle": "How to Deploy AI Agents in Salesforce Agentforce | Rialtes",
         "seoDescription": "Ready to automate with AI? Use this step-by-step guide to build and deploy AI agents in Agentforce by Salesforce without coding or expensive systems.",
         "stepToGuideData": [
@@ -2924,8 +2933,8 @@
         "futureDesc2": "Rialtes helps businesses easily adopt AI agents using Agentforce. We provide customization and deployment to meet your needs, enhancing customer service and streamlining operations for a smooth transition into the AI-driven world."
     },
     "aiThatListens": {
-        "aithatlistensAlt" : "Dynamic digital waves and colorful data streams illustrating technology flow and network connectivity.",
-         "seoTitle": "How LLMs Transform Customer Experience with AI | Rialtes",
+        "aithatlistensAlt": "Dynamic digital waves and colorful data streams illustrating technology flow and network connectivity.",
+        "seoTitle": "How LLMs Transform Customer Experience with AI | Rialtes",
         "seoDescription": "LLMs, powered by generative AI, are redefining how businesses listen and respond. They go beyond automation, enabling real conversations and transforming CX.",
         "blogs": [
             {
@@ -3078,7 +3087,7 @@
         "readyDesc2": "We’ll help you build a strategy that’s scalable, secure, and aligned to your goals, whether that’s reducing support load, increasing NPS, or delivering 24/7 multilingual support. Let’s make your customer experience as intelligent as your customers expect it to be. Reach out to us at sales@rialtes.com to start the conversation."
     },
     "whySapSignavio": {
-        "bannerAlt" : "Blue digital tunnel with binary code and motion blur lights representing high-speed data transfer and technology",
+        "bannerAlt": "Blue digital tunnel with binary code and motion blur lights representing high-speed data transfer and technology",
         "seoTitle": "SAP Signavio: Simplifying S/4HANA Implementation Success",
         "seoDescription": "Ready for S/4HANA Implementation? Rialtes’ Voyager+ and SAP Signavio make the journey smooth, transparent, and built for scalable enterprise success.",
         "blogdescData": [
@@ -3271,7 +3280,7 @@
         "faqTitle": "FAQs: SAP Signavio S/4HANA Implementation"
     },
     "beyondRobotics": {
-        "bannerAlt" :"Professional reviewing industrial digital twin 3D model on tablet for factory layout planning and manufacturing optimization",
+        "bannerAlt": "Professional reviewing industrial digital twin 3D model on tablet for factory layout planning and manufacturing optimization",
         "seoTitle": "Beyond Automation: Why AI Agents Power Smart Manufacturing",
         "seoDescription": "Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems.",
         "blogMainData": [
@@ -3436,7 +3445,7 @@
         "faqTitle": "FAQs: Smart Manufacturing with AI Agents"
     },
     "howAgentforce": {
-        "bannerAlt" : "Manufacturing engineer in yellow safety gear using tablet for quality control in automated automotive assembly facility",
+        "bannerAlt": "Manufacturing engineer in yellow safety gear using tablet for quality control in automated automotive assembly facility",
         "seoTitle": "Agentforce 3.0 for Automotive Manufacturing Success | Rialtes",
         "seoDescription": "Agentforce for Automotive is transforming vehicle production with AI-powered agents that enhance workflows, compliance, and agility on the factory floor.",
         "agentforce": "Agentforce",
@@ -3610,37 +3619,37 @@
                 "icon": "/images/blog/real-time-monitoring-system-icon.webp",
                 "title": "Real-time operational visibility",
                 "description": "lets factory managers monitor performance metrics, machine statuses, and agent activity from a centralized Command Center, helping to prevent disruptions before they escalate.",
-                "alt" : "Real-time monitoring icon with computer screen displaying gear, magnifying glass, and eye symbol for system surveillance"
+                "alt": "Real-time monitoring icon with computer screen displaying gear, magnifying glass, and eye symbol for system surveillance"
             },
             {
                 "icon": "/images/blog/ai-powered-intelligence-network-icon.webp",
                 "title": "AI-powered agent collaboration across systems",
                 "description": "allows different parts of the manufacturing workflow—design, production, logistics, and services to work together seamlessly through intelligent agents that act as digital team members, not just taskbots.",
-                "alt" : "AI-powered intelligence icon with central AI chip connected to network nodes representing machine learning connectivity"
+                "alt": "AI-powered intelligence icon with central AI chip connected to network nodes representing machine learning connectivity"
             },
             {
                 "icon": "/images/blog/fast-fault-detection-alert-icon.webp",
                 "title": "Faster diagnostics and resolution of production issues",
                 "description": "are enabled by agents that can trace faults across systems, recommend fixes, and even initiate workflows to schedule maintenance or reroute tasks, thereby minimizing downtime.",
-                "alt" : "Fast fault detection icon with gear and warning alert symbol representing automated error identification and troubleshooting"
+                "alt": "Fast fault detection icon with gear and warning alert symbol representing automated error identification and troubleshooting"
             },
             {
                 "icon": "/images/blog/data-analysis-verification-quality-icon.webp",
                 "title": "Better quality control and compliance tracking",
                 "description": "are accomplished through smart agents that flag deviations, analyze defect patterns, and ensure every product meets regulatory and internal standards, with audit trails and AI-driven insights.",
-                "alt" : "Data analysis verification icon with documents, magnifying glass, and checkmark representing quality assurance validation"
+                "alt": "Data analysis verification icon with documents, magnifying glass, and checkmark representing quality assurance validation"
             },
             {
                 "icon": "/images/blog/deployment-support-technical-service-icon.webp",
                 "title": "Deeper integration with supply chain and customer systems",
                 "description": "lets automotive OEMs and suppliers connect the dots across procurement, warehousing, shipping, and even after-sales service, making operations more agile, transparent, and resilient.",
-                "alt" : "Deployment support icon with laptop, gear, and user symbols representing technical implementation and customer service"
+                "alt": "Deployment support icon with laptop, gear, and user symbols representing technical implementation and customer service"
             }
         ]
     },
     "aiPowerBlog": {
-        "flowchartAlt" : "AI-driven smart grid system flowchart showing renewable energy sources, predictive analytics, and data management integration",
-        "bannerAlt" : "Floating green sustainable city with wind turbines, solar panels, and urban buildings representing renewable energy future",
+        "flowchartAlt": "AI-driven smart grid system flowchart showing renewable energy sources, predictive analytics, and data management integration",
+        "bannerAlt": "Floating green sustainable city with wind turbines, solar panels, and urban buildings representing renewable energy future",
         "susContain": "/images/blog/ai-driven-smart-grid-system-flowchart.webp",
         "seoTitle": "How AI Can Enable a Sustainable Future for Our Planet | Rialtes",
         "seoDescription": "AI is helping protect the planet and make sustainability scalable, from tracking deforestation to predicting energy demand and preserving biodiversity.",
@@ -3861,7 +3870,7 @@
         ]
     },
     "sapPiPo": {
-        "bannerAlt" : "Glowing neon frame with white clouds and digital particles representing cloud computing and data transformation",
+        "bannerAlt": "Glowing neon frame with white clouds and digital particles representing cloud computing and data transformation",
         "seoTitle": "SAP PI PO to SAP CPI Migration: Everything You Need to Know",
         "seoDescription": "Migrating from SAP PI PO to SAP CPI is not a simple upgrade; it’s a transformation toward a cloud-native, intelligent integration backbone.",
         "steps": [
@@ -4243,7 +4252,7 @@
         "faqTitle": "FAQs: SAP Signavio + SAP Cloud ALM in S/4HANA"
     },
     "aiPatient": {
-        "bannerAlt" : "Digital medical innovation showing human anatomy and AI analysis through interactive 3D holographic interface.",
+        "bannerAlt": "Digital medical innovation showing human anatomy and AI analysis through interactive 3D holographic interface.",
         "seoTitle": "AI Patient Engagement: How Smart Agents Simplify Care | Rialtes",
         "seoDescription": "Discover how AI for patient engagement helps MedTech streamline monitoring, simplify workflows, and enhance patient-provider interactions with ease.",
         "rolesData": [
@@ -4384,7 +4393,7 @@
         "faqTitle": "FAQs: AI in Patient Engagement"
     },
     "agentforceIndustry4": {
-        "bannerAlt" : "Advanced Industry 4.0 automation with robotic arm, digital data overlay, and futuristic manufacturing interface.",
+        "bannerAlt": "Advanced Industry 4.0 automation with robotic arm, digital data overlay, and futuristic manufacturing interface.",
         "seoTitle": "Retrieving data. Wait a few seconds and try to cut or copy again.",
         "seoDescription": "Agentforce AI helps manufacturers prevent unplanned downtime with predictive intelligence, ensuring zero disruption and 24/7 operational efficiency.",
         "reactiveData": [
@@ -4392,25 +4401,25 @@
                 "image": "/images/blog/reactive-analytics-data-monitoring-icon.svg",
                 "title": "Reactive",
                 "desc": "Waiting for machines to fail",
-                "alt" : "Blue reactive analytics icon with clock, magnifying glass, person, and bar charts representing real-time data analysis"
+                "alt": "Blue reactive analytics icon with clock, magnifying glass, person, and bar charts representing real-time data analysis"
             },
             {
                 "image": "/images/blog/proactive-automation-workflow-icon.svg",
                 "title": "Proactive",
                 "desc": "Scheduling regular maintenance cycles",
-                "alt" : "Blue proactive automation icon with gear, cloud, and circular arrows representing intelligent workflow automation systems"
+                "alt": "Blue proactive automation icon with gear, cloud, and circular arrows representing intelligent workflow automation systems"
             },
             {
                 "image": "/images/blog/predictive-cycle-forecasting-icon.svg",
                 "title": "Predictive",
                 "desc": "Anticipating failures based on patterns and usage data",
-                "alt" : "Blue predictive cycle icon with circular arrow representing continuous forecasting and predictive analytics process"
+                "alt": "Blue predictive cycle icon with circular arrow representing continuous forecasting and predictive analytics process"
             },
             {
                 "image": "/images/blog/autonomous-scheduling-automation-icon.svg",
                 "title": "Autonomous",
                 "desc": "Allowing AI agents to trigger service workflows automatically",
-                "alt" : "Blue autonomous scheduling icon with calendar, clock, and gear representing automated time management and smart scheduling"
+                "alt": "Blue autonomous scheduling icon with calendar, clock, and gear representing automated time management and smart scheduling"
             }
         ],
         "agentforceEnablingData": [
@@ -5966,8 +5975,433 @@
         "strategiesDescription": "Maximizing ROI from Salesforce requires a well-planned strategy. Here are proven approaches:",
         "strategiesDesc2": "These strategies help enterprises not only reduce Salesforce project risk but also maximize ROI."
     },
-    "exelonaPillar": {
-        "bannerAlt": "Illustration of a commercial building with AI-powered maintenance sensors and analytics dashboard ",
+    "conversationalAi": {
+        "seoTitle": "Conversational AI in Real Estate: Scale Support Efficiently | Rialtes",
+        "seoDescription": "In real estate, conversational AI assistants handle tenant queries day and night, ensuring immediate responses and reducing after-hours workload.",
+        "bannerAlt": "Digital illustration of a person interacting with a virtual chatbot interface representing conversational AI in real estate customer support",
+        "mainData": [
+            "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries, amenity bookings, and move-in/move-out coordination, teams often stretch themselves thin. The problem isn’t that property managers don’t care; resident expectations have changed.",
+            "They expect fast, friendly, 24/7 support.",
+            "And that’s exactly where we need Conversational AI.",
+            "Conversational AI refers to chatbots and virtual assistants that can manage client conversations. These AI tools can answer questions, schedule viewings, and even qualify leads around the clock—allowing agents to concentrate on more crucial tasks. In this blog, we’ll unpack how AI-driven chatbots and voice assistants are transforming property management, reducing support tickets, and keeping residents happy, without hiring extra staff."
+        ],
+        "traditionalData": [
+            {
+                "title": "Why Traditional Resident Support Doesn’t Scale",
+                "desc": "For years, property management teams have relied on email threads, call centers, and ticketing systems to handle resident queries. While functional, these channels share one fatal flaw: they don’t scale efficiently.",
+                "desc2": "Here’s what typically happens:",
+                "list": [
+                    {
+                        "title": "High Volume, Low Complexity",
+                        "desc": "Roughly 60–70% of all resident tickets involve basic issues—like 'When is my rent due?' or 'How do I submit a maintenance request?'"
+                    },
+                    {
+                        "title": "Human Bottlenecks",
+                        "desc": "Even simple requests take time when each one requires manual review or follow-up."
+                    },
+                    {
+                        "title": "Inconsistent Experience",
+                        "desc": "Depending on staff workload, residents might wait minutes or days for a reply."
+                    }
+                ],
+                "desc3": "This leads to frustration for residents and burnout for staff. Conversational AI changes this dynamic completely."
+            }
+        ],
+        "whyConversationalData": [
+            "When we talk about Conversational AI, we’re not just referring to generic chatbots. Modern AI assistants in property management use Natural Language Processing (NLP) and Machine Learning (ML) to understand context, intent, and even tone.",
+            "Along with following the scripts, they can engage in natural back-and-forth conversations and take real actions across integrated systems like CRMs, ERP tools, and maintenance platforms.",
+            "Imagine this:",
+            "A resident messages the property portal saying, “My AC isn’t cooling properly.”",
+            "The AI assistant identifies it as a maintenance issue, creates a service ticket in the property management system, assigns it to the right technician, and sends the resident an acknowledgment, all within seconds.",
+            "It can even follow up with, “Would you like to schedule a visit between 10 AM–12 PM or 2 PM–4 PM tomorrow?” This isn’t a futuristic vision. Platforms like Exelona, an AI-enabled real estate management system, already make it possible."
+        ],
+        "keyBenefitsData": [
+            {
+                "title": "Key Benefits of Conversational AI in Property Operations",
+                "desc": "Let’s break down what this shift means in practical terms.",
+                "list": [
+                    {
+                        "title": "24/7 Resident Support",
+                        "desc": [
+                            "No team can be available round the clock, but AI can. Conversational AI assistants handle tenant queries day and night, ensuring immediate responses and reducing after-hours workload.",
+                            "For example, if a tenant messages at midnight asking, “How can I pay rent online?”, the assistant can instantly guide them through the payment process, without human intervention. That’s not just convenience; it’s retention. Studies show that response time is one of the top three factors influencing resident satisfaction."
+                        ]
+                    },
+                    {
+                        "title": "Lower Ticket Volume (Without Lowering Quality)",
+                        "desc": [
+                            "By automatically resolving repetitive questions, it reduces the ticket load that human agents see every day.",
+                            "Some property teams report up to 40% reduction in ticket volume after deploying conversational AI. That frees up human agents to focus on complex issues that need a personal touch."
+                        ]
+                    },
+                    {
+                        "title": "Contextual Conversations Across Channels",
+                        "desc": [
+                            "Today’s residents interact through multiple channels—web, mobile app, email, and even WhatsApp. Conversational AI keeps track of interactions across all of them, offering continuity.",
+                            "If a resident starts a chat on the property app and later sends a follow-up email, the AI can recognize it’s the same thread, not a new ticket. This ensures residents never repeat themselves, a small but powerful trust builder."
+                        ]
+                    },
+                    {
+                        "title": "Smarter Technician Assignments",
+                        "desc": [
+                            "AI isn’t limited to chat—it can optimize operations behind the scenes. When integrated with property management platforms like Exelona, conversational AI can analyze maintenance requests, predict priority levels, and automatically assign technicians based on skill, proximity, and workload.",
+                            "The result? Faster service response times and fewer missed SLAs."
+                        ]
+                    },
+                    {
+                        "title": "Data-Driven Insights for Management",
+                        "desc": [
+                            "Every conversation becomes a data point. AI aggregates resident sentiment, recurring issues, and satisfaction levels into dashboards that property managers can actually act on.",
+                            "For instance:",
+                            "25% of residents complained about late AC repairs in July.",
+                            "12% of tickets came from the same building.",
+                            "Most queries occurred after 6 PM.",
+                            "These insights can shape better resource planning and preventive maintenance strategies."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "conversationalAI": [
+            {
+                "title": "Conversational AI Adoption in Real Estate: Slow Start, Fast Potential",
+                "desc": [
+                    "Across Europe and the US, conversational AI is gradually reshaping how property companies engage with residents—but adoption remains uneven. In Germany, for instance, fewer than 10% of housing associations have deployed conversational AI to handle tenant interactions or maintenance requests. In the US, adoption is slightly higher, driven by large property management firms experimenting with AI assistants to manage lease renewals, payments, and service tickets.",
+                    "Early adopters are already seeing measurable gains, 15–25% faster response times, higher resident satisfaction scores, and notable reductions in support costs. Yet, many organizations still face the same bottlenecks: fragmented IT landscapes, limited process automation, and conversational systems that lack the functional depth to handle complex real estate workflows.",
+                    "This maturity gap often forces companies to rebuild their AI stack on platforms that better align with business processes and scale across property portfolios.",
+                    "Today, most property firms fall into one of three maturity stages in their automation journey:"
+                ],
+                "list": [
+                    {
+                        "title": "Implement",
+                        "desc": "Introducing conversational AI to handle basic resident queries."
+                    },
+                    {
+                        "title": "Modernize",
+                        "desc": "Replacing first-generation chatbots with scalable, data-integrated AI solutions."
+                    },
+                    {
+                        "title": "Supplement",
+                        "desc": "Enhancing existing platforms with advanced automation and analytics."
+                    }
+                ]
+            }
+        ],
+        "howConversationalData": [
+            {
+                "title": "How Conversational AI Reduces Operational Costs",
+                "desc": "The link between AI and cost reduction is direct",
+                "list": [
+                    {
+                        "title": "Less manual workload",
+                        "desc": "Automating 60–70% of queries reduces staffing needs or allows teams to handle growth without additional hires."
+                    },
+                    {
+                        "title": "Faster turnaround",
+                        "desc": "Quicker resolutions mean fewer escalations and lower SLA breach penalties."
+                    },
+                    {
+                        "title": "Optimized resource allocation",
+                        "desc": "Predictive analytics help property teams schedule staff efficiently, cutting overtime costs."
+                    }
+                ],
+                "desc2": "Overall, studies from McKinsey suggest that AI-driven automation can reduce operational expenses (Opex) by 20–30% in property operations when properly integrated with maintenance and resident service workflows."
+            }
+        ],
+        "implementationData": [
+            {
+                "title": "Implementation: Getting Conversational AI Right",
+                "desc": "Adding AI to your property management stack isn’t just about installing a chatbot widget—it’s about thoughtful integration.",
+                "desc2": "Here’s a proven framework:",
+                "list": [
+                    {
+                        "title": "Identify High-Volume Use Cases",
+                        "desc": "Start small. Begin with the top 5 query types that take up the most staff time (e.g., rent reminders, payment confirmations, maintenance tracking)."
+                    },
+                    {
+                        "title": "Integrate with Your Core Systems",
+                        "desc": "Your AI assistant should talk to your property management system, CRM, and billing tools. That’s how it becomes action-oriented rather than informational."
+                    },
+                    {
+                        "title": "Train the Model Continuously",
+                        "desc": "AI improves with feedback. Use resident interactions to refine intent detection and natural language understanding."
+                    },
+                    {
+                        "title": "Maintain a Human Escalation Loop",
+                        "desc": "Even the best AI should hand off to a human when needed—especially for emotional or complex issues. The goal isn’t replacement, but augmentation."
+                    },
+                    {
+                        "title": "Measure, Analyze, Improve",
+                        "desc": "Track key metrics: ticket reduction, response time, resident satisfaction, and cost per interaction. Use this data to iterate and improve."
+                    }
+                ]
+            }
+        ],
+        "whatData": [
+            {
+                "title": "What This Means for the Future of Resident Experience",
+                "desc": [
+                    "Conversational AI is redefining what “resident experience” means in modern real estate. It’s the difference between a tenant waiting hours for an update versus getting an instant response. Between reactive management and proactive care.",
+                    "As more residents get accustomed to AI-powered interactions in banking, travel, and e-commerce, they’ll expect the same from property management. Companies that adapt now will lead the market; those that don’t risk being left behind.",
+                    "Exelona was built for exactly this. It’s an <a href='https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AI-enabled property operations</a> platform that integrates CRM, maintenance, financials, and communication in one intelligent system.",
+                    "Its Conversational AI layer helps property teams:"
+                ],
+                "list": [
+                    "Handle thousands of resident interactions simultaneously",
+                    "Automatically log and route requests to the right teams",
+                    "Trigger maintenance, billing, and notification workflows",
+                    "Analyze trends in resident sentiment and performance metrics"
+                ],
+                "desc2": "If you’re ready to scale support, cut response times, and reduce Opex, Exelona gives you the tools to make it happen, without adding staff. Let’s automate repetitive communication and connecting systems behind the scenes and free property managers to focus on building communities."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is conversational AI in property management?",
+                "answer": "Conversational AI in property management uses intelligent chatbots and virtual assistants to handle resident interactions like rent inquiries, maintenance requests, and lease renewals—through natural, human-like conversations. These systems understand context, automate workflows, and connect directly with backend systems such as CRMs or ERPs for faster, more accurate responses."
+            },
+            {
+                "question": "Can chatbots really handle complex resident requests?",
+                "answer": "Yes. Modern conversational AI platforms are far more advanced than rule-based chatbots. They can interpret intent, process multiple data sources, and even trigger work orders or billing updates automatically. For example, a resident asking about a delayed repair can get real-time updates pulled from the maintenance system."
+            },
+            {
+                "question": "How does conversational AI reduce support tickets in real estate?",
+                "answer": "AI reduces support tickets by resolving the most common queries instantly like payment status, maintenance scheduling, or amenity access, before they reach your human staff. Some property firms report a 30–40% reduction in repetitive tickets after deploying AI-enabled property operations with smart routing and escalation."
+            },
+            {
+                "question": "What’s the ROI of using conversational AI for property management?",
+                "answer": "The ROI typically comes from three areas: lower operational costs, faster issue resolution, and improved resident satisfaction. On average, property managers can save up to 25% in customer service costs while boosting tenant retention by providing round-the-clock support and quicker response times."
+            },
+            {
+                "question": "Is conversational AI secure enough for resident communication?",
+                "answer": "Absolutely. Enterprise-grade conversational AI platforms comply with data protection standards like GDPR and SOC 2. They encrypt resident data, anonymize sensitive information, and include built-in access controls, ensuring privacy across all communication channels."
+            },
+            {
+                "question": "How can a property company get started with conversational AI?",
+                "answer": "Start small by identifying high-volume, repetitive interactions—like rent payment confirmations or maintenance tracking. Then, choose a platform like Exelona, which offers AI-enabled property operations, CRM + ERP integration, and conversational AI capabilities purpose-built for real estate. From there, scale gradually across properties and service functions."
+            }
+        ],
+        "blogCategory": "Exelona",
+        "blogTitle": "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
+        "conversationalTitle": "What Conversational AI Really Means in Property Management",
+        "faqTitle": "FAQs: Salesforce Implementation and Integration"
+    },
+    "erpCrm": {
+        "seoTitle": "Unified ERP & CRM for Real Estate: Cut Costs by 35% | Rialtes",
+        "seoDescription": "Unified ERP & CRM platforms help real estate enterprises cut system costs by up to 35% while improving cross-department visibility and efficiency.",
+        "bannerAlt": "3D illustration of a smart city with cloud icons representing AI and cloud infrastructure for real estate management and data connectivity",
+        "mainData": [
+            "Here’s something every property leader already knows but rarely says out loud: the technology stack that was meant to simplify operations has ended up complicating it.",
+            "Most real estate enterprises today run on a patchwork of systems: Yardi for property management, Oracle or SAP for finance, MRI for analytics, Salesforce for CRM, and Excel for everything else. Each system excels in its lane, but together, they form a fragmented ecosystem where data duplication, integration costs, and reporting chaos are the norm. It causes delayed decision-making, inflated Opex, and teams that spend more time reconciling spreadsheets than managing properties.",
+            "However, this fragmentation problem is solvable, and many forward-thinking real estate leaders are solving it through CRM + ERP convergence. By unifying customer, financial, and operational data in a single intelligent platform, enterprises are cutting system costs by up to 35%, improving visibility across departments, and freeing up teams to focus on growth instead of maintenance.",
+            "This blog discusses how convergence works, what’s driving its adoption, and why platforms like <a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Exelona unified CRM + ERP system</a> are redefining property operations for the AI-driven era."
+        ],
+        "hiddenData": [
+            {
+                "title": "The Hidden Cost of Fragmented Systems",
+                "data": [
+                    "Most property companies didn’t set out to build fragmented systems — it happened over time. As portfolios grew, new tools were added to solve specific problems: a leasing app here, a finance module there, an analytics dashboard on top. But soon, these isolated systems began to work against each other. Leasing data lived in one database, maintenance logs in another, and finance in a third.",
+                    "A KPMG study found that 7 in 10 real estate companies still rely on three or more legacy systems to run daily operations, leading to slow reporting cycles and frequent data mismatches.",
+                    "Teams waste hours pulling data from multiple systems to answer basic questions like:"
+                ],
+                "list": [
+                    "What’s our true occupancy rate this quarter?",
+                    "How many outstanding maintenance requests are still open?",
+                    "What’s the revenue leakage from delayed invoicing?"
+                ],
+                "desc": "When answers take days instead of minutes, agility suffers, and so does profitability."
+            }
+        ],
+        "commonData": [
+            {
+                "title": "How Fragmentation Impacts the Resident Experience",
+                "data": [
+                    "System silos don’t just frustrate operations teams; they ripple down to residents. Imagine a tenant who books a maintenance request on a mobile app, but it never syncs with the accounting system, delaying vendor payments. Or when lease renewals are processed in CRM, but billing still happens in a disconnected ERP.",
+                    "That’s where the <span>mobile-first resident experience</span> breaks. Communication gaps, billing errors, and slow response times quickly erode trust."
+                ]
+            },
+            {
+                "title": "The Shift Toward CRM and ERP Convergence",
+                "subTitle": "What Convergence Really Means",
+                "data": [
+                    "CRM + ERP convergence means having one platform where every function, like leasing, maintenance, accounting, vendor management, and resident communication, operates on the same data foundation.",
+                    "No more exporting CSVs, no more duplicate entries, no more blind spots between departments. A converged system provides <span>centralized leasing and finance data</span>, letting executives see the entire property lifecycle, from lease signing to payment collection, in one dashboard. When CRM (customer-focused workflows) meets ERP (financial and operational workflows), property enterprises finally achieve the holy grail of real-time insight and efficiency."
+                ]
+            }
+        ],
+        "whyData": [
+            {
+                "title": "Why It’s Happening Now",
+                "desc": "Here’s why:",
+                "data": [
+                    {
+                        "title": "Cloud maturity",
+                        "desc": "Real estate companies are moving away from on-prem systems like Yardi and Oracle toward modular cloud-based platforms."
+                    },
+                    {
+                        "title": "AI and data analytics",
+                        "desc": "The rise of AI-driven property operations allows predictive insights across systems, from cash flow forecasts to maintenance scheduling."
+                    },
+                    {
+                        "title": "Cost pressures",
+                        "desc": "Managing multiple licenses, vendors, and integrations is expensive. Consolidation directly reduces IT overhead."
+                    },
+                    {
+                        "title": "User expectations",
+                        "desc": "Both employees and residents expect seamless digital experiences and not systems that feel like they belong in 2008."
+                    }
+                ],
+                "desc2": "Across North America and Europe, some of the largest property groups are replacing 5–7 disconnected tools with one converged solution, simplifying reporting, compliance, and maintenance management."
+            }
+        ],
+        "painData": [
+            {
+                "title": "The Pain Points of Multi-System Architecture",
+                "desc": "Let’s get specific.",
+                "desc2": "Traditional property systems like Yardi, MRI, and Oracle all serve specific verticals, but rarely integrate deeply with each other.",
+                "list": [
+                    {
+                        "title": "Yardi",
+                        "desc": "Excellent for property and accounting data, but lacks CRM depth and tenant engagement tools."
+                    },
+                    {
+                        "title": "MRI",
+                        "desc": "Powerful reporting capabilities, but limited when it comes to automation or real-time synchronization."
+                    },
+                    {
+                        "title": "Oracle / SAP",
+                        "desc": "Enterprise-grade financial engines, but too rigid and expensive for dynamic property workflows."
+                    }
+                ],
+                "desc3": "This leads to a disconnected workflow where financial reconciliation drags on for weeks, maintenance tickets get buried in endless email threads, and leasing data never makes its way into financial forecasts. Each system functions on its own, but none of them work together."
+            }
+        ],
+        "unifiedData": [
+            {
+                "title": "How Unified Systems Solve These Challenges",
+                "desc": "A <span>scalable real estate platform integration</span> replaces all those moving parts with a single ecosystem.",
+                "desc2": "Imagine this workflow:",
+                "list": [
+                    "A lease is approved in CRM.",
+                    "The ERP instantly generates recurring invoices and syncs them to accounting.",
+                    "Maintenance requests from residents automatically update SLA and vendor payments.",
+                    "Management views live P&L reports tied to occupancy rates."
+                ],
+                "desc3": "That’s end-to-end visibility, and the reason real estate firms adopting convergence see:",
+                "numberList": [
+                    {
+                        "number": "40%",
+                        "desc": "faster month-end closing"
+                    },
+                    {
+                        "number": "30%",
+                        "desc": "lower IT overhead"
+                    },
+                    {
+                        "number": "25%",
+                        "desc": "improvement in SLA compliance"
+                    }
+                ],
+                "desc4": "It’s not just about integration. It’s about eliminating duplication and ensuring every department operates from a shared truth."
+            }
+        ],
+        "roleData": [
+            {
+                "title": "The Role of AI and Automation in Convergence",
+                "subtitle": "AI-Driven Property Operations",
+                "desc": "Convergence alone isn’t enough. Without intelligence layered on top, even unified systems can become static. That’s where <a href='https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AI-driven property operations</a> up the ante",
+                "desc2": "AI algorithms continuously scan data across CRM and ERP modules to:",
+                "list": [
+                    "Flag inconsistencies in billing or lease data.",
+                    "Predict cash flow dips or maintenance surges.",
+                    "Optimize maintenance scheduling based on usage and cost trends."
+                ],
+                "desc3": "One large US-based REIT saw its predictive maintenance accuracy improve by 25% after integrating AI insights into its ERP system , directly cutting downtime and repair costs."
+            }
+        ],
+        "payoffData": [
+            {
+                "title": "Operational Transparency and Decision Confidence",
+                "desc": "Executives finally get a unified dashboard that answers every critical question:",
+                "list": [
+                    "What’s our real-time occupancy rate?",
+                    "Which properties are underperforming on rent collection?",
+                    "Where are maintenance costs trending highest?"
+                ],
+                "desc2": "With centralized leasing and finance data, decision-makers no longer rely on week-old reports or manual reconciliations."
+            },
+            {
+                "title": "Cost Efficiency and IT Simplification",
+                "desc": "Maintaining multiple licenses and integrations costs both money and sanity.Unified systems mean fewer vendors, less middleware, and easier scalability.According to PwC, organizations that streamline core systems report 15–25% IT cost savings within the first year, not counting the efficiency gains from better workflows."
+            }
+        ],
+        "buildData": [
+            {
+                "title": "How to Build a Unified CRM + ERP Strategy",
+                "list": [
+                    {
+                        "title": "Map Your Current Systems",
+                        "desc": "Start by auditing your existing tech stack. Identify redundancies, integration gaps, and manual processes slowing down your teams."
+                    },
+                    {
+                        "title": "Prioritize Critical Integration Points",
+                        "desc": "Focus on areas with the most impact, leasing + finance, maintenance + billing, and resident support + CRM."
+                    },
+                    {
+                        "title": "Align Teams Around Data",
+                        "desc": "Ensure every department works from the same data definitions and metrics. Data alignment is the foundation of convergence success."
+                    },
+                    {
+                        "title": "Choose the Right Platform Partner",
+                        "desc": "Look for a solution that offers:",
+                        "lists": [
+                            "AI - driven automation",
+                            "Cloud scalability",
+                            "Integration with legacy tools",
+                            "A user - friendly mobile experience"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "oneUnifiedData": [
+            "When operations are unified, employees spend less time switching between tools and more time solving problems. Residents benefit from faster response times, unified portals, and transparent billing, all powered by a mobile-first resident experience.",
+            "A connected ecosystem doesn’t just optimize operations; it builds trust. And in property management, trust drives renewals. Exelona by Rialtes is property management tool, a connected ecosystem designed to eliminate silos, unify data, and accelerate decision-making.",
+            "This means lower costs, faster operations, and a more connected resident ecosystem. Exelona doesn’t just consolidate systems , it redefines how real estate enterprises think about integration, intelligence, and growth. Ready to take your real estate business to the next level? Let’s build smarter systems, automate what matters, and drive growth together with Rialtes, your trusted partner in real estate transformation."
+        ],
+        "faqs": [
+            {
+                "question": "What is CRM and ERP convergence in real estate?",
+                "answer": "It’s the integration of customer, financial, and operational workflows into one platform, allowing property teams to manage leasing, billing, and maintenance without juggling multiple tools."
+            },
+            {
+                "question": "How can I consolidate my systems like Yardi or MRI?",
+                "answer": "You can integrate or migrate them into a unified solution like Exelona, which connects data across legacy and modern systems through scalable APIs."
+            },
+            {
+                "question": "What are the biggest benefits of CRM + ERP convergence?",
+                "answer": "Convergence improves data accuracy, reduces costs, and provides real-time operational visibility. It also enhances tenant satisfaction through faster service and transparent billing."
+            },
+            {
+                "question": "How does AI help unify property management systems?",
+                "answer": "AI cleans, connects, and analyzes data across CRM and ERP modules, helping predict failures, automate billing, and forecast budgets with precision."
+            },
+            {
+                "question": "What is the ROI of consolidating property systems?",
+                "answer": "Most enterprises report 20–35% cost savings in IT and operations, plus measurable improvements in SLA compliance and decision-making speed."
+            },
+            {
+                "question": "Why is Exelona the right platform for convergence?",
+                "answer": "Because it’s purpose-built for real estate. Exelona unified CRM + ERP system merges automation, analytics, and scalability—everything property enterprises need to grow efficiently."
+            }
+        ],
+        "blogCategory": "Exelona",
+        "blogTitle": "CRM + ERP Convergence: How Real Estate Leaders Break System Silos and Cut Costs",
+        "payoffTitle": "The Payoff: What Converged Systems Deliver",
+        "unifiedTitle": "One Unified CRM + ERP System for Property Leaders"
+    },
+    "aiRealEstate": {
+        "bannerAlt": "Illustration of a commercial building with AI-powered maintenance sensors and analytics dashboard",
         "blogMainData": [
             "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity. The challenge is that most maintenance models are still reactive. Teams fix what breaks, scramble to respond to tenant complaints, and watch operating expenses climb year after year.",
             "In an industry where every minute of equipment downtime hits profitability and reputation, the need for a smarter approach is crystal clear. That’s where artificial intelligence (AI) steps in — transforming how buildings think, predict, and act.",
@@ -6104,7 +6538,7 @@
             {
                 "title": "The Exelona Edge – Smarter Property Operations Powered by AI",
                 "desc": "Let’s bring this closer to home.",
-                "desc2": "<a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Exelona</a>, Rialtes’ real estate management platform, unifies every step of the property lifecycle — from lead generation to financial closeout. Built for property managers, developers, and portfolio owners, Exelona delivers AI-driven automation, mobile-first experiences, and CRM + ERP convergence for property management, all from a single platform.",
+                "desc2": "<a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Exelona</a>, Rialtes’ real estate management platform, unifies every step of the property lifecycle — from lead generation to financial closeout. Built for property managers, developers, and portfolio owners, Exelona delivers AI-driven automation, mobile-first experiences, and CRM + ERP convergence for property management, all from a single platform.",
                 "listTitle": "What Makes Exelona Different",
                 "list": [
                     {

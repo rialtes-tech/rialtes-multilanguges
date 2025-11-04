@@ -21,7 +21,7 @@ const schemaData = {
   description:
     "Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems.",
   image:
-    "https://www.rialtes.com/images/blog/byond-robotics-desktop-baner.webp",
+    "https://www.rialtes.com/images/blog/industrial-digital-twin-factory-planning.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
