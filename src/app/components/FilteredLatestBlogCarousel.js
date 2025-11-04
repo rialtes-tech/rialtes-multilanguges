@@ -56,6 +56,16 @@ export default function page({ url }) {
             description: "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity."
         },
         {
+            "id": 45,
+            "image": "/images/blog/ai-sla-billing-efficiency-feature-carousel.webp",
+            "category": "Exelona",
+            "industry": "Real Estate",
+            "date": "Oct. 27, 2025",
+            "url": "insights/blogs/tracking-service-level-agreements-without-losing-mind/",
+            "title": "How Do You Track SLAs and Billing Without Losing Your Mind?",
+            "description": " A service-level agreement (SLA) outlines the expected level of service from a vendor. It specifies the metrics used to measure that service and the remedies available if the agreed-upon service levels are not met."
+        },
+        {
             id: 44,
             image: "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
             category: "Salesforce",

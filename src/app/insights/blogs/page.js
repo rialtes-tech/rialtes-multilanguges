@@ -29,18 +29,18 @@ const schemaData = {
 }
 
 const latestBlogs = [
-   {
-    id:45,
+  {
+    id: 52,
     image: "/images/blog/exelona-cluster-feature-thumb.webp",
-    category : "Exelona",
-    industry : "Generic",
-    date : "Nov. 04, 2025",
+    category: "Exelona",
+    industry: "Generic",
+    date: "Nov. 04, 2025",
     url: "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
-    title : "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
-    description : "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
+    title: "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
+    description: "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
   },
   {
-    id: 50,
+    id: 51,
     image: "/images/blog/crm-erp-convergence-for-real-estate-mobile.webp",
     category: "Exelona",
     industry: "Real Estate",
@@ -50,7 +50,7 @@ const latestBlogs = [
     description: "Here’s something every property leader already knows but rarely says out loud: the technology stack that was meant to simplify operations has ended up complicating it."
   },
   {
-    id: 45,
+    id: 50,
     image: "/images/blog/digital-puzzle-technology-integration-thumb.webp",
     category: "Exelona",
     industry: "Real Estate",
@@ -59,9 +59,21 @@ const latestBlogs = [
     title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
     description: "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. "
   },
-  
+
+ 
+
   {
-    id: 49,
+    "id": 49,
+    "image": "/images/blog/ai-sla-billing-efficiency-feature-carousel.webp",
+    "category": "Exelona",
+    "industry": "Real Estate",
+    "date": "Oct. 27, 2025",
+    "url": "/tracking-service-level-agreements-without-losing-mind/",
+    "title": "How Do You Track SLAs and Billing Without Losing Your Mind?",
+    "description": " A service-level agreement (SLA) outlines the expected level of service from a vendor. It specifies the metrics used to measure that service and the remedies available if the agreed-upon service levels are not met."
+  },
+   {
+    id: 48,
     image: "/images/blog/conversational-ai-in-real-estate-mobile.webp",
     category: "Exelona",
     industry: "Real Estate",
@@ -71,7 +83,7 @@ const latestBlogs = [
     description: "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries,"
   },
   {
-    id: 48,
+    id: 47,
     image: "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
     category: "AI",
     industry: "Generic",
@@ -81,7 +93,7 @@ const latestBlogs = [
     description: "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity."
   },
   {
-    id: 44,
+    id: 46,
     image: "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
     category: "Salesforce",
     industry: "Generic",
@@ -91,7 +103,7 @@ const latestBlogs = [
     description: "Salesforce has become the foundation for modern enterprise CRM solutions, helping organizations unify data, streamline processes, and deliver personalized customer experiences. "
   },
   {
-    id: 43,
+    id: 45,
     image: "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
     category: "MediAIna",
     industry: "Generic",
@@ -101,7 +113,7 @@ const latestBlogs = [
     description: "Providing healthcare has always been about more than just diagnosis. For patients, the real journey begins after they receive a diagnosis, navigating treatment options, managing chronic conditions, and learning how to live with ongoing care needs.",
   },
   {
-    id: 47,
+    id: 44,
     image: "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
     category: "Salesforce",
     industry: "Generic",
@@ -111,7 +123,7 @@ const latestBlogs = [
     description: "Customer Relationship Management (CRM) is the beating heart of modern enterprises. It drives how sales teams close deals, how service teams respond to customers, and how marketing delivers personalized campaigns.",
   },
   {
-    id: 42,
+    id: 43,
     image: "/images/blog/digital-patient-journeys-mobile.webp",
     category: "MediAIna",
     industry: "Generic",
@@ -121,7 +133,7 @@ const latestBlogs = [
     description: "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals.",
   },
   {
-    id: 45,
+    id: 42,
     image: "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
     category: "Salesforce",
     industry: "Generic",
