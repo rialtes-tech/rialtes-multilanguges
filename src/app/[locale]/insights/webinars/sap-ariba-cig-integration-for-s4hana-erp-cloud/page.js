@@ -65,8 +65,8 @@ export default function () {
                 webinarTitle={t('webinarTitle')}
                 speakerName="Sapna Chauhan"
                 speakerDesignation="Software Engineer - SAP"
-                speakerImg="/images/webinar/sapna-chauhan.webp"
-                speakerImgAlt="webinar speaker image"
+                speakerImg="/images/webinar/Sapna.webp"
+                speakerImgAlt="webinar speaker Sapna Chauhan"
                 webinarInfo={t('webinarInfo')}
                 webinarAdvantages={webinarAdvantagesData}
                 whoShouldAttend={whoShouldAttendData}

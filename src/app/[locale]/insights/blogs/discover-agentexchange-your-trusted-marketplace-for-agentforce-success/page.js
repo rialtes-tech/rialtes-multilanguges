@@ -66,8 +66,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/agentexchange-blog-banner.webp"
-            alt="banner"
+            src="/images/blog/digital-network-connectivity-waves-abstract.webp"
+            alt={t("bannerAlt")}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -78,8 +78,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
-            src="/images/blog/agentexchange-blog-banner-mobile.webp"
-            alt="banner"
+            src="/images/blog/digital-network-connectivity-waves-abstract-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

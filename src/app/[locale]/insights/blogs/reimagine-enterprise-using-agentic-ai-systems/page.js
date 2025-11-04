@@ -110,8 +110,8 @@ export default function Page() {
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
-                        src="/images/blog/reimagine-banner.webp"
-                        alt="banner"
+                        src="/images/blog/agentic-ai-technology-microchip-computing.webp"
+                        alt={t("bannerAlt")}
                         fill
                         style={{ objectFit: "cover" }}
                         priority
@@ -122,8 +122,8 @@ export default function Page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden h-full">
                     <Image
-                        src="/images/blog/reimagine-mobile-banner.webp"
-                        alt="banner"
+                        src="/images/blog/agentic-ai-technology-microchip-computing-mobile.webp"
+                        alt={t("bannerAlt")}
                         priority
                         height={0}
                         width={0}

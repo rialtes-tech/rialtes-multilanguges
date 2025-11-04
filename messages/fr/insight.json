@@ -1,5 +1,6 @@
 {
   "insights": {
+    "bannerAlt" : "Iceberg flottant dans océan bleu symbolisant profondeurs cachées et perspectives d'experts de l'industrie d'affaires",
     "insightTitle": "Restez en avance avec des analyses sectorielles d'experts",
     "seoTitle": "Blogs Rialtes | Insights sur Salesforce, SAP, IA et Cloud",
     "seoDescription": "Lisez nos blogs experts sur Salesforce, SAP, IA et Cloud. Suivez les dernières tendances et insights en innovation et transformation digitale.",
@@ -163,7 +164,7 @@
     "slides": [
       {
         "id": 1,
-        "image": "/images/blog/signavio-blog-feature-thumb.webp",
+        "image": "/images/blog/digital-data-tunnel-technology-speed-concept-feature-thumb.webp",
         "category": "SAP Signavio",
         "industry": "Générique",
         "date": "Jun. 16, 2025",
@@ -305,7 +306,7 @@
       },
       {
         "id": 36,
-        "image": "/images/blog/ai-that-listens-mob-banner.webp",
+        "image": "/images/blog/ai-that-listens-feature-thumb.webp",
         "category": "Intelligence Artificielle",
         "industry": "Générique",
         "date": "Sep. 11, 2025",
@@ -315,7 +316,7 @@
       },
       {
         "id": 35,
-        "image": "/images/blog/ai-in-patient-mobile-banner.webp",
+        "image": "/images/blog/futuristic-medical-technology-innovation-mobile.webp",
         "category": "Intelligence Artificielle",
         "industry": "Générique",
         "date": "Sep. 09, 2025",
@@ -325,7 +326,7 @@
       },
       {
         "id": 34,
-        "image": "/images/blog/industry4-mobile-banner.webp",
+        "image": "/images/blog/industry-4-automation-technology-mobile.webp",
         "category": "Agentforce",
         "industry": "Générique",
         "date": "Sep. 08, 2025",
@@ -335,7 +336,7 @@
       },
       {
         "id": 33,
-        "image": "/images/blog/first-ai-agent-mob-banner.webp",
+        "image": "/images/blog/artificial-intelligence-data-visualization-mobile.webp",
         "category": "Intelligence Artificielle",
         "industry": "Générique",
         "date": "Sep. 02, 2025",
@@ -345,7 +346,7 @@
       },
       {
         "id": 32,
-        "image": "/images/blog/byond-robotics-mobile-banner.webp",
+        "image": "/images/blog/industrial-digital-twin-factory-planning-mobile.webp",
         "category": "Intelligence Artificielle",
         "industry": "Générique",
         "date": "Sep. 01, 2025",
@@ -355,7 +356,7 @@
       },
       {
         "id": 30,
-        "image": "/images/blog/sap-cpi-feature-thumb.webp",
+        "image": "/images/blog/cloud-data-digital-transformation-mobile.webp",
         "category": "SAP",
         "industry": "Générique",
         "date": "Aug. 26, 2025",
@@ -365,7 +366,7 @@
       },
       {
         "id": 29,
-        "image": "/images/blog/big-reimage-slider.webp",
+        "image": "/images/blog/agentic-ai-technology-microchip-computing-mobile.webp",
         "category": "Intelligence Artificielle",
         "industry": "Générique",
         "date": "Aug. 25, 2025",
@@ -375,7 +376,7 @@
       },
       {
         "id": 27,
-        "image": "/images/blog/small-slider.webp",
+        "image": "/images/blog/technology-team-collaboration-command-center-mobile.webp",
         "category": "Agentforce",
         "industry": "Générique",
         "date": "Aug. 22, 2025",
@@ -385,7 +386,7 @@
       },
       {
         "id": 26,
-        "image": "/images/blog/sustain-slider.webp",
+        "image": "/images/blog/sustainable-green-energy-city-renewable-mobile.webp",
         "category": "Intelligence Artificielle",
         "industry": "Générique",
         "date": "Aug. 21, 2025",
@@ -395,7 +396,7 @@
       },
       {
         "id": 25,
-        "image": "/images/blog/Agentforce-featured-blog.webp",
+        "image": "/images/blog/automotive-manufacturing-engineer-quality-control-mobile.webp",
         "category": "Salesforce Agentforce",
         "industry": "Générique",
         "date": "Jul. 29, 2025",
@@ -405,7 +406,7 @@
       },
       {
         "id": 24,
-        "image": "/images/blog/blog-slider.webp",
+        "image": "/images/blog/abstract-data-flow-visualization-digital-mobile.webp",
         "category": "Salesforce Agentforce",
         "industry": "Générique",
         "date": "Jul. 25, 2025",
@@ -415,7 +416,7 @@
       },
       {
         "id": 23,
-        "image": "/images/blog/slider.webp",
+        "image": "/images/blog/business-technology-collaboration-office-mobile.webp",
         "category": "Agentforce",
         "industry": "Général",
         "date": "Jul. 21, 2025",
@@ -425,7 +426,7 @@
       },
       {
         "id": 22,
-        "image": "/images/blog/agentexchange-Blog-feature-thumb.webp",
+        "image": "/images/blog/digital-network-connectivity-waves-abstract-mobile.webp",
         "category": "Agentforce",
         "industry": "Général",
         "date": "Jul. 02, 2025",
@@ -435,7 +436,7 @@
       },
       {
         "id": 21,
-        "image": "/images/blog/Pharma Jewel of North India_Blog feature thumb.webp",
+        "image": "/images/blog/pharmaceutical-manufacturing-robotics-automation-mobile.webp",
         "category": "Général",
         "industry": "Fabrication",
         "date": "Jul. 01, 2025",
@@ -445,7 +446,7 @@
       },
       {
         "id": 20,
-        "image": "/images/blog/signavio-blog-feature-thumb.webp",
+        "image": "/images/blog/digital-data-tunnel-technology-speed-concept-mobile.webp",
         "category": "SAP Signavio",
         "industry": "Générique",
         "date": "Jun. 16, 2025",
@@ -455,7 +456,7 @@
       },
       {
         "id": 19,
-        "image": "/images/blog/Agentic Pharma_Blog feature thumb.webp",
+        "image": "/images/blog/fiber-optic-tree-network-connectivity-illustration-mobile.webp",
         "category": "IA",
         "industry": "Pharmaceutique",
         "date": "May. 30, 2025",
@@ -646,6 +647,7 @@
     ]
   },
   "webinars": {
+    "bannerAlt":"Personne tapant sur ordinateur portable pendant appel vidéo de conférence d'équipe virtuelle avec groupe de professionnels divers",
     "allWebinars": [
       {
         "id": 6,
@@ -654,7 +656,8 @@
         "time": "10h00 CST",
         "speaker": "Sapna Chauhan",
         "position": "Ingénieure Logiciel - SAP",
-        "image": "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
+        "altImage":"Bâtiment en verre futuriste reflétant le ciel bleu et les nuages, symbole d’innovation et de transformation numérique",
+        "image": "/images/webinar/futuristic-glass-building-reflection-carousal.webp",
         "url": "insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud/"
       },
       {
@@ -664,7 +667,8 @@
         "time": "10h00 CST",
         "speaker": "Anuraag Aggarwal",
         "position": "Vice-président des Ventes Globales",
-        "image": "/images/webinar/rise.webp",
+       "altImage":"Vague numérique composée de connexions lumineuses fusionnant avec l’océan, symbolisant le flux de données et l’innovation",
+        "image": "/images/webinar/digital-wave-data-network-carousal.webp",
         "url": "insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
       },
       {
@@ -674,7 +678,8 @@
         "time": "10h00 CST",
         "speaker": "Lokesh Adhikari",
         "position": "Ingénieur Logiciel - Salesforce",
-        "image": "/images/webinar/Webinar_15 May 25_webinar thumb.webp",
+        "altImage":"Profil de femme avec superposition données numériques représentant IA, apprentissage automatique et transformation digitale",
+        "image": "/images/webinar/ai-digital-transformation-data-overlay-carousal.webp",
         "url": "insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
       },
       {
@@ -684,7 +689,8 @@
         "time": "10h00 CST",
         "speaker": "Akshay Kale",
         "position": "Directeur Général Principal – Services SAP",
-        "image": "/images/webinar/Webinar_13 May 25_webinar thumb.webp",
+        "altImage":"Vague de données abstraite bleue et orange représentant transformation digitale, analytique big data et intelligence artificielle",
+        "image": "/images/webinar/digital-data-wave-visualization-abstract-carousal.webp",
         "url": "insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"
       },
       {
@@ -694,7 +700,8 @@
         "time": "10h00 CST",
         "speaker": "Divya Agarwal",
         "position": "Ingénieure Logiciel - Salesforce",
-        "image": "/images/webinar/webinar-thumb.webp",
+        "altImage":"Vue aérienne de parc automobile organisé avec centaines de véhicules en rangées pour gestion de flotte de concessionaire",
+        "image": "/images/webinar/automotive-fleet-inventory-aerial-view-carousal.webp",
         "url": "insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/"
       },
       {
@@ -704,7 +711,8 @@
         "time": "10h00 CST",
         "speaker": "Lokesh Adhikari",
         "position": "Ingénieur Logiciel - Salesforce",
-        "image": "/images/webinar/Webinar_6.webp",
+        "altImage":"Femme souriante aux cheveux bouclés regardant smartphone sur fond bleu dégradé avec superposition de motif géométrique",
+        "image": "/images/webinar/woman-smiling-smartphone-blue-background.webp",
         "url": "insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
       }
     ],

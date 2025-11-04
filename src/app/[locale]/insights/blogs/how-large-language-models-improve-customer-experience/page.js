@@ -146,16 +146,16 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
-            src="/images/blog/ai-that-listens-desktop-banner.webp"
-            alt="ai that listens"
+            src="/images/blog/abstract-digital-waves-and-data-flow.webp"
+            alt={t("aithatlistensAlt")}
             fill
             priority
           />
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/blog/ai-that-listens-mob-banner.webp"
-            alt="ai that listens"
+            src="/images/blog/abstract-digital-waves-and-data-flow-mobile.webp"
+            alt={t("aithatlistensAlt")}
             priority
             height={0}
             width={0}
