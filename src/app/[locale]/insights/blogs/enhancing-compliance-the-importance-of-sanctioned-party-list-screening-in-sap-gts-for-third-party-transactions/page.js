@@ -24,7 +24,7 @@ const schemaData = {
   description:
     "Learn how SAP GTS streamlines compliance with global trade laws using Sanctioned Party List (SPL) screening, ensuring secure and lawful third-party engagements.",
   image:
-    "https://www.rialtes.com/images/blog/sap-gts-sanctioned-party-screening.webp",
+    "https://www.rialtes.com/images/blog/global-network-connectivity-world-map-visualization.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -69,8 +69,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/sap-gts-sanctioned-party-screening2.webp"
-            alt="banner"
+            src="/images/blog/global-network-connectivity-world-map-visualization.webp"
+            alt={t("bannerAlt")}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -81,8 +81,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden h-full">
           <Image
-            src="/images/blog/enhancing-compliance-blog-mob-banner2.webp"
-            alt="banner"
+            src="/images/blog/global-network-connectivity-world-map-visualization-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

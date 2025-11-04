@@ -176,7 +176,6 @@ const Home = () => {
                     <div className='col-span-3'></div>
                 </div>
                 <div className='grid xl:grid-cols-4 md:grid-cols-2 mt-16 gap-10 xl:gap-0'>
-
                     {successStoryData.map((success, index) => {
                         // const isLight = success.theme === "light";
                         return (
@@ -207,9 +206,7 @@ const Home = () => {
                         );
                     })}
                 </div>
-
             </section>
-
 
             {/* industry experties and solutions */}
             <section className='xl:mt-[158px] mt-[87px]'>

@@ -21,7 +21,7 @@ const schemaData = {
   },
   "headline": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
   "description": "Explore how Agentforce Testing Center leverages synthetic data to revolutionize AI model testing, ensuring security, reliability, and scalability.",
-  "image": "https://www.rialtes.com/images/blog/agentforce-testing-center.webp",
+  "image": "https://www.rialtes.com/images/blog/digital-gears-network-automation-technology-concept.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes",
@@ -67,8 +67,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/agentforce-testing-center.webp"
-            alt="banner"
+            src="/images/blog/digital-gears-network-automation-technology-concept.webp"
+            alt={t("bannerAlt")}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -79,8 +79,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden h-full">
           <Image
-            src="/images/blog/blog-4-mob-banner.webp"
-            alt="banner"
+            src="/images/blog/digital-gears-network-automation-technology-concept-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

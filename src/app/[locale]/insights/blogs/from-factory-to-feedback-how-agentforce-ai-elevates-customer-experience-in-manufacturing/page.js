@@ -18,7 +18,7 @@ const schemaData = {
     "@type": "BlogPosting",
     "headline": "From Factory to Feedback: How Agentforce AI Elevates Customer Experience in Manufacturing",
     "description": "Agentforce for manufacturers reimagines Customer Experience with AI agents that predict disruptions, automate resolutions, and deliver smarter, seamless customer journeys.",
-    "image": " https://www.rialtes.com/images/blog/factory-banner.webp",
+    "image": " https://www.rialtes.com/images/blog/technology-team-collaboration-command-center.webp",
     "author": {
         "@type": "Organization",
         "name": "Rialtes"

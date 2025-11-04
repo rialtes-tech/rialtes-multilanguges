@@ -3,6 +3,9 @@ import { usePathname } from "next/navigation";
 
 export default function useUrl() {
     const pathname = usePathname();
-    const url = pathname.split("/").pop();
+
+    const cleanPath = pathname.replace(/\/$/, "");
+    const url = cleanPath.split("/").pop();
+
     return url;
 }

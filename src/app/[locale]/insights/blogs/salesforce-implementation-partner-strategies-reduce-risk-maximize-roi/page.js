@@ -28,7 +28,7 @@ export default function Page() {
         "@type": "BlogPosting",
         "headline": "Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI",
         "description": "From planning a Salesforce implementation roadmap to handling complex integrations, best partners ensure enterprises extract full value from the platform.",
-        "image": "https://www.rialtes.com/images/blogs/salesforce-implementation-partners-strategies.webp",
+        "image": "https://www.rialtes.com/images/blog/salesforce-implementation-partners-strategies.webp",
         "author": {
             "@type": "Organization",
             "name": "Rialtes"
