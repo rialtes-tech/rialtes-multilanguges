@@ -65,8 +65,8 @@ export default function () {
                 webinarTitle={t('webinarTitle')}
                 speakerName="Anuraag Aggarwal"
                 speakerDesignation="Vice President of Global Sales"
-                speakerImg="/images/webinar/anurag.webp"
-                speakerImgAlt="webinar speaker image"
+                speakerImg="/images/webinar/Anurag.webp"
+                speakerImgAlt="webinar speaker Anuraag Aggarwal"
                 webinarInfo={t('webinarInfo')}
                 webinarAdvantages={webinarAdvantagesData}
                 whoShouldAttend={whoShouldAttendData}

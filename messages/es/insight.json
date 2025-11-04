@@ -647,6 +647,7 @@
     ]
   },
   "webinars": {
+    "bannerAlt":"Persona escribiendo en laptop durante videollamada de conferencia con equipo virtual mostrando grupo diverso de profesionales",
     "allWebinars": [
       {
         "id": 6,
@@ -655,7 +656,8 @@
         "time": "10:00 AM CST",
         "speaker": "Sapna Chauhan",
         "position": "Ingeniera de Software - SAP",
-        "image": "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
+        "altImage":"Edificio de vidrio futurista que refleja el cielo azul y las nubes, símbolo de innovación y transformación digital",
+        "image": "/images/webinar/futuristic-glass-building-reflection-carousal.webp",
         "url": "insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud/"
       },
       {
@@ -665,7 +667,8 @@
         "time": "10:00 AM CST",
         "speaker": "Anuraag Aggarwal",
         "position": "Vicepresidente de Ventas Globales",
-        "image": "/images/webinar/rise.webp",
+        "altImage":"Ola digital formada por conexiones brillantes que se fusionan con el océano, simbolizando el flujo de datos y la innovación",
+        "image": "/images/webinar/digital-wave-data-network-carousal.webp",
         "url": "insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
       },
       {
@@ -675,7 +678,8 @@
         "time": "10:00 AM CST",
         "speaker": "Lokesh Adhikari",
         "position": "Ingeniero de Software - Salesforce",
-        "image": "/images/webinar/Webinar_15 May 25_webinar thumb.webp",
+        "altImage":"Perfil de mujer con superposición de datos digitales representando IA, aprendizaje automático y transformación digital",
+        "image": "/images/webinar/ai-digital-transformation-data-overlay-carousal.webp",
         "url": "insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
       },
       {
@@ -685,7 +689,8 @@
         "time": "10:00 AM CST",
         "speaker": "Akshay Kale",
         "position": "Director General Senior – Servicios SAP",
-        "image": "/images/webinar/Webinar_13 May 25_webinar thumb.webp",
+        "altImage":"Visualización abstracta de ola de datos azul y naranja representando transformación digital, big data e inteligencia artificial",
+        "image": "/images/webinar/digital-data-wave-visualization-abstract-carousal.webp",
         "url": "insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"
       },
       {
@@ -695,7 +700,8 @@
         "time": "10:00 AM CST",
         "speaker": "Divya Agarwal",
         "position": "Ingeniera de Software - Salesforce",
-        "image": "/images/webinar/webinar-thumb.webp",
+        "altImage":"Vista aérea de lote de inventario de autos organizado con cientos de vehículos en filas para gestión de flota automotriz",
+        "image": "/images/webinar/automotive-fleet-inventory-aerial-view-carousal.webp",
         "url": "insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/"
       },
       {
@@ -705,7 +711,8 @@
         "time": "10:00 AM CST",
         "speaker": "Lokesh Adhikari",
         "position": "Ingeniero de Software - Salesforce",
-        "image": "/images/webinar/Webinar_6.webp",
+        "altImage":"Mujer sonriente con cabello rizado mirando smartphone contra fondo azul degradado con superposición de patrón geométrico",
+        "image": "/images/webinar/woman-smiling-smartphone-blue-background.webp",
         "url": "insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
       }
     ],
