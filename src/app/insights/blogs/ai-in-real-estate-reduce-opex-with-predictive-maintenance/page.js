@@ -599,7 +599,7 @@ export default function Page() {
                                             <div
                                                 className={`md:flex mt-24 md:mt-10 py-[34px] px-[26px] 
                                                            md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative 
-                                                           md:ml-[90px] sm:w-[86%] md:w-auto lg:w-[80%] xl:w-full 4xl:w-[86%]  ${ind == 3 ? "md:py-8 lg:py-8 xl:py-8" : "md:py-[46px] lg:py-[46px]"}`}
+                                                           md:ml-[90px] sm:w-[86%] md:w-auto lg:w-[80%] xl:w-[110%] 4xl:w-[86%]  ${ind == 3 ? "md:py-8 lg:py-8 xl:py-[20px] 2xl:py-8" : "md:py-[46px] lg:py-[46px]"}`}
                                                 key={ind}>
                                                 <h3
                                                     className={`md:absolute md:flex items-center
@@ -615,7 +615,7 @@ export default function Page() {
                                                 <div
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
                                                                 font-medium my-auto max-md:mt-8
-                                                                md:ml-[250px] lg:ml-[250px] xl:ml-[270px] 4xl:ml-[320px]"
+                                                                md:ml-[250px] lg:ml-[250px] xl:ml-[250px] 2xl:ml-[270px] 4xl:ml-[320px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                             </div>
