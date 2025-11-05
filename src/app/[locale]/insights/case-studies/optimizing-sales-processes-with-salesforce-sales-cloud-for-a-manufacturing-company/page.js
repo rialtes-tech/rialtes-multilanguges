@@ -1,7 +1,5 @@
 "use client";
-// pages/case-study-detail.js
 import Image from "next/image";
-import RelatedTopicsCarousel from "../../../components/relatedTopicsCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/caseStudy.json";
@@ -79,16 +77,16 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[380px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
-            src="/images/case-studies/streamline-banner.webp"
-            alt="banner image"
+            src="/images/case-studies/quality-control-technician-inspecting-bottle-production-line.webp"
+            alt={t('bannerAlt')}
             fill
             priority
           />
         </div>
         <div className="xl:hidden block h-full">
           <Image
-            src="/images/case-studies/streamline-banner.webp"
-            alt="banner image"
+            src="/images/case-studies/quality-control-technician-inspecting-bottle-production-line.webp"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}

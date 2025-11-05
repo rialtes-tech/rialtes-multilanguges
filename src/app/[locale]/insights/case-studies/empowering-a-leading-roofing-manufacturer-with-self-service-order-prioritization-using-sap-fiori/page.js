@@ -69,8 +69,8 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[380px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
-            src="/images/case-studies/Sample and literature Request_Case study Mobile banner.webp"
-            alt="banner image"
+            src="/images/case-studies/roofing-shingle-samples-color-variety-display.webp"
+            alt={t('bannerAlt')}
             fill
             priority
             className="w-full h-full object-cover object-[90%_20%]"
@@ -78,8 +78,8 @@ export default function Page() {
         </div>
         <div className="xl:hidden block h-full">
           <Image
-            src="/images/case-studies/Sample and literature Request_Case study Mobile banner.webp"
-            alt="banner image"
+            src="/images/case-studies/roofing-shingle-samples-color-variety-display.webp"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}
