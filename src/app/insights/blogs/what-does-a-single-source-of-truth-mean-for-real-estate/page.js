@@ -216,43 +216,6 @@ export default function Page() {
 
     ]
 
-    const steps = [
-        {
-            title: "A lead fills out a form",
-            subtitle: "Enters CRM",
-        },
-        {
-            title: "Lease is approved",
-            subtitle: "Details re-entered manually into ERP",
-        },
-        {
-            title: "Maintenance tickets logged separately",
-            subtitle: "Emailed weekly to operations",
-        },
-        {
-            title: "Finance team spends two days reconciling monthly invoices",
-            subtitle: "",
-        },
-    ];
-    const steps2 = [
-        {
-            title: "The lead enters CRM",
-            subtitle: "Automatically creates a prospect record linked to ERP",
-        },
-        {
-            title: "When the lease is signed",
-            subtitle: "Billing and accounting update instantly",
-        },
-        {
-            title: "",
-            subtitle: "Any maintenance activity or SLA breach syncs directly to both leasing and finance dashboards",
-        },
-        {
-            title: "",
-            subtitle: "Reports and KPIs update in real time",
-        },
-    ];
-
     const fromDataChaos = [
         {
             "title": "From Data Chaos to Data Confidence",
@@ -518,14 +481,14 @@ export default function Page() {
                                             return (
                                                 <div key={ind} className="md:mt-[50px] mt-[40px]">
                                                     <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
-                                                    <ul className="list-disc pl-[36px] font-medium mt-4 space-y-4">
+                                                    <ul className="list-disc xl:pl-[36px] md:pl-[36px] font-medium mt-4 space-y-4">
                                                         {data.list.map((elem, id) => (
                                                             <li key={id} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-none">
                                                                 <h3 className="font-bold mb-1 block 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]">
                                                                     {elem.title}
                                                                 </h3>
 
-                                                                <p className="leading-relaxed text-gray-800 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                                                <p className="leading-relaxed xl:pl-8 md:pl-8 text-gray-800 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                                                                     {elem.desc}
 
                                                                 </p>
@@ -564,13 +527,14 @@ export default function Page() {
                                 <div class="flex flex-col md:flex-row justify-center  border-gray-300 border-2  overflow-hidden max-w-6xl mx-auto">
                                     <div class="relative flex flex-col items-center text-center w-full md:w-1/4 border-b md:border-b-0 md:border-r border-gray-300">
                                         <div class="h-[280px] flex flex-col items-center justify-start px-6 py-8">
-                                            <p class="mb-2 4xl:text-[20px] 2xl:text-[17px]  xl:text-[17px] md:text-[16px] text-[16px]">A lead fills out a form</p>
+                                            <p class="mb-2 4xl:text-[20px] 2xl:text-[17px]  xl:text-[17px] md:text-[16px] text-[16px]">A lead fills out </p>
+                                            <p className="mb-2 4xl:text-[20px] 2xl:text-[17px]  xl:text-[17px] md:text-[16px] text-[16px]"> a form</p>
                                             <div class="absolute 4xl:top-[110px] top-[100px] 2xl:top-[110px] xl:top-[110px] left-1/2 transform -translate-x-1/2">
                                                 <svg class="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                                 </svg>
                                             </div>
-                                            <p class="4xl:mt-[120px] 2xl:mt-[120px] md:mt-[100px] mt-[130px] xl:mt-[90px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Enters CRM</p>
+                                            <p class="4xl:mt-[120px] 2xl:mt-[90px] md:mt-[100px] mt-[130px] xl:mt-[90px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Enters CRM</p>
                                         </div>
                                         <div class="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div class="bg-[#C9C9C9] p-1 rounded-full">
@@ -591,7 +555,7 @@ export default function Page() {
                                     <div class="relative flex flex-col items-center text-center w-full md:w-1/4 border-b md:border-b-0 md:border-r border-gray-300">
                                         <div class="h-[280px] flex flex-col items-center justify-start px-6 py-8">
                                             <p class="mb-2 4xl:text-[20px]  2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Lease is approved</p>
-                                            <div class="absolute 4xl:top-[115px] top-[100px] 2xl:top-[112px] xl:top-[115px] left-1/2 transform -translate-x-1/2">
+                                            <div class="absolute 4xl:top-[115px] top-[100px] 2xl:top-[112px] xl:top-[110px] left-1/2 transform -translate-x-1/2">
                                                 <svg class="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                                 </svg>
@@ -660,7 +624,7 @@ export default function Page() {
                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                                 </svg>
                                             </div>
-                                            <p class="4xl:mt-[105px] xl:mt-[120px] md:mt-[80px] mt-[100px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Automatically creates a prospect record linked to ERP</p>
+                                            <p class="4xl:mt-[115px] xl:mt-[120px] md:mt-[80px] mt-[100px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Automatically creates a prospect record linked to ERP</p>
                                         </div>
                                         <div class="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div class="bg-[#C9C9C9] p-1 rounded-full">
@@ -681,12 +645,12 @@ export default function Page() {
                                     <div class="relative flex flex-col items-center text-center w-full md:w-1/4 border-b md:border-b-0 md:border-r border-[#6DC1FD]">
                                         <div class="h-[300px] flex flex-col items-center justify-start px-6 py-8">
                                             <h3 class="mb-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">When the lease is signed</h3>
-                                            <div class="absolute 4xl:top-[115px] top-[100px] md:mt-[10px] 2xl:top-[125px] xl:top-[120px] left-1/2 transform -translate-x-1/2">
+                                            <div class="absolute 4xl:top-[115px] top-[100px] md:mt-[10px] 2xl:top-[110px] xl:top-[115px] left-1/2 transform -translate-x-1/2">
                                                 <svg class="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                                 </svg>
                                             </div>
-                                            <p class="4xl:mt-[80px] 2xl:mt-[100px] mt-[100px] md:mt-[100px] xl:mt-[100px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Billing and accounting update instantly</p>
+                                            <p class="4xl:mt-[85px] 2xl:mt-[100px] mt-[100px] md:mt-[100px] xl:mt-[100px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Billing and accounting update instantly</p>
                                         </div>
                                         <div class="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div class="bg-[#C9C9C9] p-1 rounded-full">
