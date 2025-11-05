@@ -279,7 +279,7 @@ const buildData=[
         },
       ],
       desc4:
-        "If your current setup feels like a patchwork of disconnected apps and spreadsheets, it’s time to rethink integration and <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>talk to our experts</a> because Exelona is built to help you do exactly that.",
+        "If your current setup feels like a patchwork of disconnected apps and spreadsheets, it’s time to rethink integration and <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>talk to our experts</a> because Exelona is built to help you do exactly that.",
     },
 ]
 
