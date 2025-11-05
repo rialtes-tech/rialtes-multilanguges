@@ -126,7 +126,7 @@ export default function Page() {
                                 <div className="block lg:hidden order-2 mt-14">
                                     <Image
                                         src={challenge.imageMobile}
-                                        alt={challenge.title}
+                                        alt={challenge.alt}
                                         width={800}
                                         height={600}
                                         className="w-full object-cover max-sm:mx-auto sm:w-[80%]"
@@ -176,8 +176,8 @@ export default function Page() {
             <section className="relative h-[350px] md:h-[500px] 4xl:h-[650px]">
                 <div className="md:block hidden">
                     <Image
-                        src="/images/medical/Medical device banner.webp"
-                        alt="Transforming Medical Device img"
+                        src="/images/medical/advanced-mri-scanner-medical-facility.webp"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                         priority
@@ -186,8 +186,8 @@ export default function Page() {
                 </div>
                 <div className="md:hidden block">
                     <Image
-                        src="/images/medical/medical-header.webp"
-                        alt="Transforming Medical Device img"
+                        src="/images/medical/advanced-mri-scanner-medical-facility-mobile.webp"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                         className="transform transition-transform duration-500 group-hover:scale-110"
@@ -222,8 +222,8 @@ export default function Page() {
             <section className={`relative group overflow-hidden ${(frActive || esActive) ? "max-[385px]:h-[1100px] h-[900px] md:h-[700px] 4xl:h-[1060px]" : " h-[900px] md:h-[650px] "} 2xl:h-[960px] xl:h-[1000px] lg:h-[700px] sm:h-[850px] xl:mt-24 mt-16 text-white`}>
                 <div className="md:block hidden">
                     <Image
-                        src="/images/medical/TL Medical Device.webp"
-                        alt="medical device img"
+                        src="/images/medical/female-doctor-reviewing-medical-records.webp"
+                        alt={t('thoughtAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                         priority
@@ -233,8 +233,8 @@ export default function Page() {
                 {/* Mobile Image */}
                 <div className="md:hidden block">
                     <Image
-                        src="/images/medical/TL-(3).webp"
-                        alt="medical device img"
+                        src="/images/medical/female-doctor-reviewing-medical-records-mobile.webp"
+                        alt={t('thoughtAlt')}
                         fill
                         className="object-cover sm:object-[35%_0%] object-[20%_0]"
                         priority
@@ -259,8 +259,8 @@ export default function Page() {
             <section className={`relative ${(frActive || esActive) ? "h-[1350px] xl:h-[1200px]" : "h-[1200px] xl:h-[1000px]"}  lg:h-[1100px] md:h-[900px] sm:h-[1160px] `}>
                 <div className="lg:block hidden">
                     <Image
-                        src="/images/medical/why-rialtes.webp"
-                        alt="partner with rialtes img"
+                        src="/images/medical/robotic-surgical-system-operating-room.webp"
+                        alt={t('whyAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "65% 20%" }}
                         priority
@@ -268,8 +268,8 @@ export default function Page() {
                 </div>
                 <div className="lg:hidden block">
                     <Image
-                        src="/images/medical/why-rialtes-medical.webp"
-                        alt="partner with rialtes img"
+                        src="/images/medical/robotic-surgical-system-operating-room-mobile.webp"
+                        alt={t('whyAlt')}
                         priority
                         className="object-cover sm:object-[35%_50%] md:object-[35%_70%] object-[20%_50%]"
                         fill
@@ -303,8 +303,8 @@ export default function Page() {
             <section className="relative xl:mt-[147px] mt-[80px]">
                 <div className="lg:block hidden">
                     <Image
-                        src="/images/medical/Expertise in Salesforce.webp"
-                        alt="Expertise in Salesforce image"
+                        src="/images/medical/sustainable-data-center.webp"
+                        alt={t('endAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                         priority
@@ -313,8 +313,8 @@ export default function Page() {
                 </div>
                 <div className="lg:hidden block">
                     <Image
-                        src="/images/medical/Expertise in Salesforce (1).webp"
-                        alt="Expertise in Salesforce image"
+                        src="/images/medical/sustainable-data-center-mobile.webp"
+                        alt={t('endAlt')}
                         fill
                         priority
                     />
@@ -360,8 +360,8 @@ export default function Page() {
                 <div className="text-white group overflow-hidden relative">
                     <div className="lg:block hidden">
                         <Image
-                            src="/images/medical/AI Impact.webp"
-                            alt="AI Impact image"
+                            src="/images/medical/artificial-intelligence-healthcare-technology.webp"
+                            alt={t('keyAlt')}
                             fill
                             style={{ objectFit: "cover", objectPosition: "40% 20%" }}
                             priority
@@ -370,8 +370,8 @@ export default function Page() {
                     </div>
                     <div className="lg:hidden block">
                         <Image
-                            src="/images/medical/Key AI Impact (2).webp"
-                            alt="AI Impact image"
+                            src="/images/medical/artificial-intelligence-healthcare-technology-mobile.webp"
+                            alt={t('keyAlt')}
                             fill
                             style={{ objectFit: "cover" }}
                             priority
@@ -393,8 +393,8 @@ export default function Page() {
                 <div className=" text-white group overflow-hidden relative">
                     <div className="lg:block hidden">
                         <Image
-                            src="/images/medical/Benefits of AI (1).webp"
-                            alt="Benefits of AI image"
+                            src="/images/medical/wearable-health-technology.webp"
+                            alt={t('benefitsAlt')}
                             fill
                             style={{ objectFit: "cover", objectPosition: "70% 20%" }}
                             priority
@@ -403,8 +403,8 @@ export default function Page() {
                     </div>
                     <div className="lg:hidden block">
                         <Image
-                            src="/images/medical/Benefits of AI (2).webp"
-                            alt="Benefits of AI image"
+                            src="/images/medical/wearable-health-technology-mobile.webp"
+                            alt={t('benefitsAlt')}
                             fill
                             style={{ objectFit: "cover", objectPosition: "70% 10%" }}
                             priority
@@ -425,8 +425,8 @@ export default function Page() {
                     <div className="lg:col-span-5 2xl:col-span-6 col-span-12 order-1 lg:order-2">
                         <div className="lg:block hidden h-full">
                             <Image
-                                src="/images/medical/Outcome Management .webp"
-                                alt="Outcome Management"
+                                src="/images/medical/healthcare-professional-using-digital-tablet.webp"
+                                alt={t('patientAlt')}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -435,8 +435,8 @@ export default function Page() {
                         </div>
                         <div className="lg:hidden block">
                             <Image
-                                src="/images/medical/Patient Trial & Outcome Management .webp"
-                                alt="Outcome Management"
+                                src="/images/medical/healthcare-professional-using-digital-tablet-mobile.webp"
+                                alt={t('patientAlt')}
                                 className="w-full h-full object-cover"
                                 width={0}
                                 height={0}
@@ -465,8 +465,8 @@ export default function Page() {
                 <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px]">
                     <div className="lg:col-span-6 col-span-12">
                         <Image
-                            src="/images/medical/SAP & Oracle ERP.webp"
-                            alt="SAP & Oracle ERP image"
+                            src="/images/medical/medical-supply-inventory-management.webp"
+                            alt={t('integratedAlt')}
                             className="w-full h-full object-cover"
                             width={0}
                             height={0}
@@ -486,8 +486,8 @@ export default function Page() {
                     <div className="lg:col-span-6 col-span-12">
                         <div className="relative">
                             <Image
-                                src="/images/medical/Mobile Apps.webp"
-                                alt=" Mobile Apps img"
+                                src="/images/medical/doctor-assisting-elderly-patient-with-mobile-health-app.webp"
+                                alt={t('mobileAlt')}
                                 priority
                                 height={0}
                                 width={0}
@@ -502,8 +502,8 @@ export default function Page() {
                     <div className="lg:col-span-6 col-span-12 lg:mt-64 mt-16">
                         <div className="relative">
                             <Image
-                                src="/images/medical/Remote Device Monitoring.webp"
-                                alt="Remote Device img"
+                                src="/images/medical/mobile-health-tracking-app.webp"
+                                alt={t('remoteAlt')}
                                 priority
                                 height={0}
                                 width={0}
@@ -523,8 +523,8 @@ export default function Page() {
                     <div className="relative mt-[-200px]">
                         <div className="lg:block hidden">
                             <Image
-                                src="/images/medical/Agentforce.webp"
-                                alt="salesforce agentforce img"
+                                src="/images/medical/healthcare-team-discussion.webp"
+                                alt={t('agentforceAlt')}
                                 priority
                                 height={0}
                                 width={0}
@@ -533,8 +533,8 @@ export default function Page() {
                         </div>
                         <div className="lg:hidden block">
                             <Image
-                                src="/images/medical/Agentforce (2).webp"
-                                alt="salesforce agentforce img"
+                                src="/images/medical/healthcare-team-discussion-mobile.webp"
+                                alt={t('agentforceAlt')}
                                 priority
                                 height={0}
                                 width={0}
@@ -571,8 +571,8 @@ export default function Page() {
                     <div className="relative ">
                         <div className="lg:block hidden">
                             <Image
-                                src="/images/medical/AgentChat (2).webp"
-                                alt="real time communication img"
+                                src="/images/medical/ai-chatbot-customer-support.webp"
+                                alt={t('realAlt')}
                                 priority
                                 height={0}
                                 width={0}
@@ -581,8 +581,8 @@ export default function Page() {
                         </div>
                         <div className="lg:hidden block">
                             <Image
-                                src="/images/medical/AgentChat (4).webp"
-                                alt="real time communication img"
+                                src="/images/medical/ai-chatbot-customer-support-mobile.webp"
+                                alt={t('realAlt')}
                                 priority
                                 height={0}
                                 width={0}

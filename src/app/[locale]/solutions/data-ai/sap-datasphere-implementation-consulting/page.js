@@ -98,8 +98,8 @@ export default function () {
                 <div className="w-full xl:pt-[100px] z-[0]">
                     {/* Mobile Image */}
                     <Image
-                        src="/images/solutions/data-sphere/Mobile/why-rialtes-mob-img.webp"
-                        alt="why-rialtes-img-mobile"
+                        src="/images/solutions/data-sphere/Mobile/business-handshake-agreement.webp"
+                        alt={t('whyRialtesAlt')}
                         className="w-full block md:hidden"
                         priority
                         width={0}
@@ -108,8 +108,8 @@ export default function () {
                     {/* Desktop Image */}
                     <div className="md:h-[600px] lg:h-[830px] xl:h-[860px] 2xl:h-[960px] w-full">
                         <Image
-                            src="/images/solutions/data-sphere/why-rialtes-img.webp"
-                            alt="why-rialtes-img"
+                            src="/images/solutions/data-sphere/business-handshake-agreement.webp"
+                            alt={t('whyRialtesAlt')}
                             className="w-full hidden md:block h-full md:object-[75%_25%] xl:object-[45%_25%]"
                             priority
                             width={0}
@@ -163,8 +163,8 @@ export default function () {
                     <div>
                         {/* Mobile Image */}
                         <Image
-                            src="/images/solutions/data-sphere/Mobile/build-intelligent-mob-img.webp"
-                            alt="build-intelligent-mob-img"
+                            src="/images/solutions/data-sphere/Mobile/digital-data-visualization.webp"
+                            alt={t('buildInteAlt')}
                             className="w-full h-full block md:hidden"
                             priority
                             width={0}
@@ -172,8 +172,8 @@ export default function () {
                         />
                         {/* Desktop Image */}
                         <Image
-                            src="/images/solutions/data-sphere/build-intelligent-img.webp"
-                            alt="build-intelligent-desktop-img"
+                            src="/images/solutions/data-sphere/digital-data-visualization.webp"
+                            alt={t('buildInteAlt')}
                             className="w-full h-full hidden md:block"
                             priority
                             width={0}
@@ -233,8 +233,8 @@ export default function () {
                     <div className="w-full">
                         {/* Mobile Image */}
                         <Image
-                            src="/images/solutions/data-sphere/Mobile/industry-accelerators-mob-img.webp"
-                            alt="industry-accelerators-mob-img"
+                            src="/images/solutions/data-sphere/Mobile/speed-light-motion-effect.webp"
+                            alt={t('industryAlt')}
                             className="w-full h-full block md:hidden"
                             priority
                             width={0}
@@ -242,8 +242,8 @@ export default function () {
                         />
                         <div className="h-full w-full">
                             <Image
-                                src="/images/solutions/data-sphere/industry-accelerators-img.webp"
-                                alt="industry-accelerators-desktop-img"
+                                src="/images/solutions/data-sphere/speed-light-motion-effect.webp"
+                                alt={t('industryAlt')}
                                 className="w-full h-full hidden md:block object-cover"
                                 priority
                                 width={0}
@@ -277,8 +277,8 @@ export default function () {
         return (
             <section className="relative xl:mt-[66px] mt-[53px] custom-container max-md:px-0 md:!pr-0">
                 <Image
-                    src="/images/solutions/data-sphere/Mobile/intelligent-automative-mob-img.webp"
-                    alt="intelligent-automative-img"
+                    src="/images/solutions/data-sphere/Mobile/data-center-lakeside.webp"
+                    alt={t('intelligentAlt')}
                     className="block md:hidden w-full max-[442px]:h-[1200px] h-[1000px]"
                     priority
                     width={0}
@@ -295,8 +295,8 @@ export default function () {
 
                 >
                     <Image
-                        src="/images/solutions/data-sphere/intelligent-automative-img.webp"
-                        alt="intelligent-automative-img"
+                        src="/images/solutions/data-sphere/data-center-lakeside.webp"
+                        alt={t('intelligentAlt')}
                         className="hidden md:block w-full h-full object-cover"
                         style={{ objectPosition: "75% 20%" }}
                         priority
@@ -340,8 +340,8 @@ export default function () {
                 <div className="grid grid-cols-1 md:grid-cols-[6fr_4fr]">
                     <div className="order-1 md:order-2 w-full">
                         <Image
-                            src="/images/solutions/data-sphere/Mobile/ai-ready-mob-img.webp"
-                            alt="ai-ready-mob-img"
+                            src="/images/solutions/data-sphere/Mobile/robotic-arm-semiconductor.webp"
+                            alt={t('aiReadyAlt')}
                             className="w-full h-full block md:hidden"
                             priority
                             width={0}
@@ -349,8 +349,8 @@ export default function () {
                         />
                         {/* Desktop Image */}
                         <Image
-                            src="/images/solutions/data-sphere/ai-ready-img.webp"
-                            alt="ai-ready-img"
+                            src="/images/solutions/data-sphere/robotic-arm-semiconductor.webp"
+                            alt={t('aiReadyAlt')}
                             className="w-full h-full hidden md:block object-cover"
                             priority
                             width={0}
@@ -389,8 +389,8 @@ export default function () {
                     <div>
                         <div className="relative">
                             <Image
-                                src="/images/solutions/data-sphere/Mobile/omnichannel-mob-img.webp"
-                                alt="omnichannel-mob-img"
+                                src="/images/solutions/data-sphere/Mobile/fashion-designer-ecommerce.webp"
+                                alt={t('omniAlt')}
                                 className="block xl:hidden h-auto mx-auto -mb-[247px] relative z-10 w-[80%]"
                                 priority
                                 width={0}
@@ -399,8 +399,8 @@ export default function () {
                             {/* Desktop Image */}
                             <div className="hidden xl:block w-[80%] mx-auto relative z-10 xl:-mb-[46%]">
                                 <Image
-                                    src="/images/solutions/data-sphere/omnichannel-img.webp"
-                                    alt="omnichannel-img"
+                                    src="/images/solutions/data-sphere/fashion-designer-ecommerce.webp"
+                                    alt={t('omniAlt')}
                                     className="w-full"
                                     priority
                                     width={0}
@@ -426,8 +426,8 @@ export default function () {
                     <div className="xl:mt-[40%] mt-[80px]">
                         <div className="relative">
                             <Image
-                                src="/images/solutions/data-sphere/Mobile/smart-education-mob-img.webp"
-                                alt="smart-education-mob-img"
+                                src="/images/solutions/data-sphere/Mobile/virtual-reality-vr-experience.webp"
+                                alt={t('smartEdAlt')}
                                 className="block xl:hidden h-auto mx-auto -mb-[247px] relative z-10 w-[80%]"
                                 priority
                                 width={0}
@@ -436,8 +436,8 @@ export default function () {
                             {/* Desktop Image */}
                             <div className="hidden xl:block w-[80%] mx-auto relative z-10 xl:-mb-[46%]">
                                 <Image
-                                    src="/images/solutions/data-sphere/smart-education-img.webp"
-                                    alt="smart-education-img"
+                                    src="/images/solutions/data-sphere/virtual-reality-vr-experience.webp"
+                                    alt={t('smartEdAlt')}
                                     className="w-full"
                                     priority
                                     width={0}
@@ -473,8 +473,8 @@ export default function () {
                 <div className="grid grid-cols-1 xl:grid-cols-[7fr_5fr]">
                     <div>
                         <Image
-                            src="/images/solutions/data-sphere/Mobile/ai-powered-hr-analytics-mob-img.webp"
-                            alt="ai-powered-hr-analytics-mob-img"
+                            src="/images/solutions/data-sphere/Mobile/data-analyst-dashboard-mobile.webp"
+                            alt={t('aiPoweredAlt')}
                             className="block md:hidden h-full w-full mx-auto object-cover"
                             priority
                             width={0}
@@ -483,8 +483,8 @@ export default function () {
                         {/* Desktop Image */}
                         <div className="w-full h-full">
                             <Image
-                                src="/images/solutions/data-sphere/ai-powered-hr-analytics-img.webp"
-                                alt="ai-powered-hr-analytics-desktop-img"
+                                src="/images/solutions/data-sphere/data-analyst-dashboard.webp"
+                                alt={t('aiPoweredAlt')}
                                 className="hidden md:block w-full h-full object-cover"
                                 priority
                                 width={0}
@@ -525,8 +525,8 @@ export default function () {
                     </h2>
                     <div>
                         <Image
-                            src="/images/solutions/data-sphere/Mobile/sap-ariba-mob-img.webp"
-                            alt="sap-ariba-mob-img"
+                            src="/images/solutions/data-sphere/Mobile/business-reporting-dashboard-mobile.webp"
+                            alt={t('aribaAlt')}
                             className="w-full h-full block md:hidden mt-[60px]"
                             priority
                             width={0}
@@ -534,8 +534,8 @@ export default function () {
                         />
                         {/* Desktop Image */}
                         <Image
-                            src="/images/solutions/data-sphere/sap-ariba-img.webp"
-                            alt="sap-ariba-desktop-img"
+                            src="/images/solutions/data-sphere/business-reporting-dashboard.webp"
+                            alt={t('aribaAlt')}
                             className="w-full h-full hidden md:block md:mt-[84px]"
                             priority
                             width={0}
@@ -573,8 +573,8 @@ export default function () {
                     <div className="grid grid-cols-1 md:grid-cols-[6fr_5fr]">
                         <div>
                             <Image
-                                src="/images/solutions/data-sphere/Mobile/sap-hana-mob-img.webp"
-                                alt="sap-hana-mob-img"
+                                src="/images/solutions/data-sphere/Mobile/mobile-trading-platform-mobile.webp"
+                                alt={t('sapAlt')}
                                 className="w-full h-full block md:hidden"
                                 priority
                                 width={0}
@@ -582,8 +582,8 @@ export default function () {
                             />
                             {/* Desktop Image */}
                             <Image
-                                src="/images/solutions/data-sphere/sap-hana-img.webp"
-                                alt="sap-hana-desktop-img"
+                                src="/images/solutions/data-sphere/mobile-trading-platform.webp"
+                                alt={t('sapAlt')}
                                 className="w-full h-full hidden md:block object-cover"
                                 priority
                                 width={0}
@@ -614,8 +614,8 @@ export default function () {
                     <div className="grid grid-cols-1 md:grid-cols-[5fr_6fr]">
                         <div className="order-1 md:order-2">
                             <Image
-                                src="/images/solutions/data-sphere/Mobile/sap-success-factos-mob-img.webp"
-                                alt="sap-success-factors-mob-img"
+                                src="/images/solutions/data-sphere/Mobile/team-network-collaboration-mobile.webp"
+                                alt={t('successAlt')}
                                 className="w-full h-full block md:hidden"
                                 priority
                                 width={0}
@@ -623,8 +623,8 @@ export default function () {
                             />
                             {/* Desktop Image */}
                             <Image
-                                src="/images/solutions/data-sphere/sap-success-factos-img.webp"
-                                alt="sap-success-factors-desktop-img"
+                                src="/images/solutions/data-sphere/team-network-collaboration.webp"
+                                alt={t('successAlt')}
                                 className="w-full h-full hidden md:block object-cover"
                                 priority
                                 width={0}
@@ -655,8 +655,8 @@ export default function () {
                     <div className="grid grid-cols-1 md:grid-cols-[6fr_5fr]">
                         <div>
                             <Image
-                                src="/images/solutions/data-sphere/Mobile/salesforcesap-mob-img.webp"
-                                alt="salesforcesap-mob-img"
+                                src="/images/solutions/data-sphere/Mobile/digital-business-workforce-mobile.webp"
+                                alt={t('salesforceSapAlt')}
                                 className="w-full h-full block md:hidden"
                                 priority
                                 width={0}
@@ -664,8 +664,8 @@ export default function () {
                             />
                             {/* Desktop Image */}
                             <Image
-                                src="/images/solutions/data-sphere/salesforcesap-img.webp"
-                                alt="salesforcesap-desktop-img"
+                                src="/images/solutions/data-sphere/digital-business-workforce.webp"
+                                alt={t('salesforceSapAlt')}
                                 className="w-full h-full hidden md:block object-cover"
                                 priority
                                 width={0}
@@ -697,8 +697,8 @@ export default function () {
                         <div className="grid grid-cols-1 md:grid-cols-[5fr_6fr]">
                             <div className="order-1 md:order-2">
                                 <Image
-                                    src="/images/solutions/data-sphere/Mobile/advanced-data-mob-img.webp"
-                                    alt="advanced-data-mob-img"
+                                    src="/images/solutions/data-sphere/Mobile/smart-city-real-estate-mobile.webp"
+                                    alt={t('advancedAlt')}
                                     className="w-full h-full block md:hidden"
                                     priority
                                     width={0}
@@ -706,8 +706,8 @@ export default function () {
                                 />
                                 {/* Desktop Image */}
                                 <Image
-                                    src="/images/solutions/data-sphere/advanced-data-img.webp"
-                                    alt="advanced-data-desktop-img"
+                                    src="/images/solutions/data-sphere/smart-city-real-estate.webp"
+                                    alt={t('advancedAlt')}
                                     className="w-full h-full hidden md:block object-cover"
                                     priority
                                     width={0}
@@ -746,8 +746,8 @@ export default function () {
                 <section className="relative 2xl:mt-[141px] xl:mt-[200px] mt-[164px] w-full">
                     <div className="relative block md:hidden">
                         <Image
-                            src="/images/solutions/data-sphere/Mobile/ai-powered-use-mob-img.webp"
-                            alt="ai-powered-use-mob-img"
+                            src="/images/solutions/data-sphere/Mobile/digital-particle-flow-mobile.webp"
+                            alt={t('aiPoweredUseAlt')}
                             className="w-full h-[1000px] object-cover"
                             priority
                             width={0}
@@ -786,8 +786,8 @@ export default function () {
                     </div>
                     {/* Desktop View */}
                     <Image
-                        src="/images/solutions/data-sphere/ai-powered-use-img.webp"
-                        alt="ai-powered-use-img"
+                        src="/images/solutions/data-sphere/digital-particle-flow.webp"
+                        alt={t('aiPoweredUseAlt')}
                         className="hidden md:block w-full md:h-[700px] xl:h-[900px] object-cover"
                         priority
                         width={0}
@@ -835,8 +835,8 @@ export default function () {
                 <div className="relative">
                     <div>
                         <Image
-                            src="/images/solutions/data-sphere/Mobile/global-presence-mob-img.webp"
-                            alt="global-presence-mob-img"
+                            src="/images/solutions/data-sphere/Mobile/diverse-business-team-mobile.webp"
+                            alt={t('globalAlt')}
                             className="block lg:hidden h-full mx-auto w-full"
                             priority
                             width={0}
@@ -844,8 +844,8 @@ export default function () {
                         />
                         {/* Desktop Image */}
                         <Image
-                            src="/images/solutions/data-sphere/global-presence-img.webp"
-                            alt="global-presence-img"
+                            src="/images/solutions/data-sphere/diverse-business-team.webp"
+                            alt={t('globalAlt')}
                             className="hidden lg:block w-full h-full object-cover"
                             priority
                             width={0}
@@ -885,8 +885,8 @@ export default function () {
     return (
         <>
             <Seo
-               title={t('seoTitle')}
-               description={t('seoDescription')}
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 canonical="https://www.rialtes.com/solutions/data-ai/sap-datasphere-implementation-consulting/"
             />
             <Script
@@ -899,8 +899,8 @@ export default function () {
             <section className="relative group overflow-hidden h-[399px] lg:h-[600px] 4xl:h-[650px] ">
                 <div className="hidden md:block">
                     <Image
-                        src="/images/solutions/data-sphere/data-sphere-banner.webp"
-                        alt="desktop banner"
+                        src="/images/solutions/data-sphere/digital-wave-technology.webp"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "55% 20%" }}
                         priority
@@ -909,8 +909,8 @@ export default function () {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/solutions/data-sphere/Mobile/data-sphere-mob-banner.webp"
-                        alt="mobile banner"
+                        src="/images/solutions/data-sphere/Mobile/digital-wave-technology-mobile.webp"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                         priority />

@@ -1,0 +1,462 @@
+"use client";
+import Image from "next/image";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/[locale]/components/useUrl";
+import Seo from "@/app/[locale]/components/Seo";
+import Script from "next/script";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from "../../../../../../messages/en/blogs.json";
+import esContent from "../../../../../../messages/es/blogs.json";
+import frContent from "../../../../../../messages/fr/blogs.json";
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+
+export default function Page() {
+    const fullUrl = "https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support";
+    const currUrl = useUrl()
+    const t = useTranslations("erpCrm");
+    const locale = useLocale();
+    const blogsContent = changeLocalization(locale, {
+        en: enContent,
+        es: esContent,
+        fr: frContent,
+    });
+
+    const { mainData, hiddenData, commonData, whyData, painData, unifiedData, roleData, payoffData, buildData, oneUnifiedData, faqs } = blogsContent.erpCrm
+
+
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "CRM + ERP Convergence: How Real Estate Leaders Break System Silos and Cut Costs",
+        "description": "Discover how real estate leaders are breaking system silos and cutting costs through CRM + ERP convergence. Learn how unified systems improve visibility, reduce IT overhead, and transform property management with AI-driven operations.",
+        "image": "https://www.rialtes.com/images/blog/ai-real-estate-cloud-infrastructure.webp",
+        "author": {
+            "@type": "Organization",
+            "name": "Rialtes"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.rialtes.com/images/homepage/logo.svg"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/"
+        },
+        "datePublished": "2025-11-03",
+        "mainEntity": {
+            "@type": "FAQPage",
+            "name": "CRM + ERP Convergence in Real Estate FAQs",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What is CRM and ERP convergence in real estate?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "CRM and ERP convergence integrates customer, financial, and operational workflows into a single platform, enabling property teams to manage leasing, billing, and maintenance without juggling multiple systems."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How can I consolidate my systems like Yardi or MRI?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "You can integrate or migrate systems like Yardi, MRI, or Oracle into a unified solution such as Exelona, which connects data across legacy and modern tools using scalable APIs."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the biggest benefits of CRM + ERP convergence?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Convergence improves data accuracy, reduces operational costs, and provides real-time visibility. It enhances tenant satisfaction with faster service, unified billing, and transparent communication."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does AI help unify property management systems?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "AI cleans, connects, and analyzes data across CRM and ERP modules, enabling predictive maintenance, automated billing, and precise budgeting through real-time insights."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the ROI of consolidating property systems?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Enterprises typically achieve 20–35% savings in IT and operations costs, along with measurable gains in SLA compliance, faster reporting, and improved decision-making."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why is Exelona the right platform for convergence?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Exelona is purpose-built for real estate enterprises. It unifies CRM and ERP capabilities with automation, analytics, and scalability—helping property leaders eliminate silos and accelerate growth."
+                    }
+                }
+            ]
+        }
+    }
+
+    return (
+        <section className="min-h-screen">
+            <Seo
+                title={t('seoTitle')}
+                description={t('seoDescription')}
+                keywords="Partners, website, welcome"
+                canonical={
+                    "https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/"
+                }
+            />
+
+            <Script
+                id="schema-copilots"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+
+            <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
+                <div className="xl:block hidden">
+                    <Image
+                        src="/images/blog/ai-real-estate-cloud-infrastructure.webp"
+                        alt={t('bannerAlt')}
+                        fill
+                        priority
+                    />
+                </div>
+                <div className="xl:hidden block">
+                    <Image
+                        src="/images/blog/ai-real-estate-cloud-infrastructure-mobile.webp"
+                        alt={t('bannerAlt')}
+                        priority
+                        height={0}
+                        width={0}
+                        className="w-full h-auto object-cover"
+                    />
+                </div>
+            </section>
+
+
+            <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
+                <div className="grid lg:grid-cols-12">
+                    <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
+
+                        {/* date and icons */}
+                        <div className="sm:flex justify-between">
+                            <div>
+                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogCategory')}</span>{" "}
+                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>03 November 2025
+                            </div>
+
+                            <div>
+                                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
+                                    <BlogSocialIcons fullUrl={fullUrl} />
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* main blog */}
+                        <div className="xl:mt-[60px] mt-[42px]">
+                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t('blogTitle')}</h1>
+
+                            <div className="xl:mt-[38px] mt-[33px]">
+                                {
+                                    mainData.map((data, ind) => {
+                                        return (
+                                            <p
+                                                key={ind}
+                                                className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                dangerouslySetInnerHTML={{ __html: data }}
+                                            />
+                                        )
+                                    })
+                                }
+                            </div>
+
+
+                            <div className="md:mt-[50px] mt-[40px]">
+                                {
+                                    hiddenData.map((elem, ind) => {
+                                        return (
+                                            <div key={ind}>
+                                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{elem.title}</h2>
+                                                <UnorderedList arrName={elem.data} ulClassName="space-y-4 mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
+                                                <UnorderedList arrName={elem.list} ulClassName="pl-[36px] lg:pl-[56px] space-y-4 mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium" />
+
+                                                <p
+                                                    className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                    dangerouslySetInnerHTML={{ __html: elem.desc }}
+                                                />
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
+
+                            <>
+                                {
+                                    commonData.map((elem, ind) => {
+                                        return (
+                                            <div className="md:mt-[50px] mt-[40px]" key={ind}>
+                                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{elem.title}</h2>
+                                                {
+                                                    elem.subTitle &&
+                                                    <h3 className="pb-3 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold leading-tight mt-5"> {elem.subTitle}</h3>
+                                                }
+                                                <UnorderedList arrName={elem.data} ulClassName={`space-y-4  ${ind == 0 ? "mt-5" : "mt-2"} space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium`} />
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </>
+
+                            {/* why section */}
+                            {
+                                whyData.map((data, ind) => {
+                                    return (
+                                        <div className="md:mt-[50px] mt-[40px]" key={ind}>
+                                            <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+                                            <p
+                                                className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                dangerouslySetInnerHTML={{ __html: data.desc }}
+                                            />
+
+                                            {
+                                                data.data.map((data, ind) => {
+                                                    return (
+                                                        <div className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[36px] px-[26px] md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto xl:w-[1000px] 4xl:w-[1200px]" key={ind}>
+                                                            <h3 className="md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[350px] xl:w-[280px] md:w-[240px] w-fit md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] px-[40px] py-[22px] leading-tight">{data.title}</h3>
+                                                            <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[180px] xl:ml-[210px] 4xl:ml-[300px]" dangerouslySetInnerHTML={{ __html: data.desc }} />
+                                                        </div>
+
+                                                    )
+                                                })
+                                            }
+                                            <p
+                                                className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                dangerouslySetInnerHTML={{ __html: data.desc2 }}
+                                            />
+                                        </div>
+                                    )
+                                })
+                            }
+
+                            {/* pain points */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                {
+                                    painData.map((data, ind) => {
+                                        return (
+                                            <div key={ind}>
+                                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+                                                <p
+                                                    className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                    dangerouslySetInnerHTML={{ __html: data.desc }}
+                                                />
+                                                <p
+                                                    className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                    dangerouslySetInnerHTML={{ __html: data.desc2 }}
+                                                />
+
+                                                <div className="grid lg:grid-cols-3 lg:gap-y-[60px] md:grid-cols-2 grid-cols-1 mt-[28px] lg:mt-[48px] md:gap-x-[60px] lg:gap-0 sm:w-[80%] md:w-full 4xl:w-[1300px]">
+                                                    {
+                                                        data.list.map((data, ind) => {
+                                                            return (
+                                                                <div key={ind} className={`mt-5 ${(ind == 1 || ind == 2) ? "lg:px-[32px] border-[#707070] lg:border-l max-lg:border-b max-lg:pb-5 max-lg:last:border-0" : ""} ${ind == 0 ? "lg:pr-[40px] 4xl:pr-0 md:border-b lg:border-0 border-[#707070] max-md:border-b max-lg:pb-5" : ""} ${(ind == 1) ? "pb-4 md:border-b lg:border-0" : ""}`}>
+                                                                    <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold">{data.title}</h3>
+                                                                    <p className="md:mt-5 mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] 4xl:w-[84%]">{data.desc}</p>
+                                                                </div>
+                                                            )
+                                                        })
+                                                    }
+                                                </div>
+                                                <p
+                                                    className={`mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                    dangerouslySetInnerHTML={{ __html: data.desc3 }}
+                                                />
+
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
+
+                            {/* unified section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                {
+                                    unifiedData.map((data, ind) => {
+                                        return (
+                                            <div key={ind}>
+                                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+                                                <p
+                                                    className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                    dangerouslySetInnerHTML={{ __html: data.desc }}
+                                                />
+                                                <p
+                                                    className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                    dangerouslySetInnerHTML={{ __html: data.desc2 }}
+                                                />
+                                                <UnorderedList arrName={data.list} ulClassName="pl-[36px] lg:pl-[56px] space-y-4 mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium" />
+                                                <p
+                                                    className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                    dangerouslySetInnerHTML={{ __html: data.desc3 }}
+                                                />
+                                                <div className="grid md:grid-cols-3 gap-y-[40px] sm:grid-cols-2 grid-cols-1 mt-[28px] lg:mt-[48px] md:gap-x-[60px]">
+                                                    {
+                                                        data.numberList.map((elem, ind) => {
+                                                            return (
+                                                                <div key={ind}>
+                                                                    <h3 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight font-bold text-[#006FBE]">{elem.number}</h3>
+                                                                    <p
+                                                                        className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] 4xl:w-[65%] font-semibold`}
+                                                                        dangerouslySetInnerHTML={{ __html: elem.desc }}
+                                                                    />
+                                                                </div>
+                                                            )
+                                                        })
+                                                    }
+                                                </div>
+
+                                                <p
+                                                    className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                    dangerouslySetInnerHTML={{ __html: data.desc4 }}
+                                                />
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
+
+                            {/* role section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                {
+                                    roleData.map((data, ind) => {
+                                        return (
+                                            <div key={ind}>
+                                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+
+                                                <h3 className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight font-semibold mt-5">{data.subtitle}</h3>
+                                                <p
+                                                    className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                    dangerouslySetInnerHTML={{ __html: data.desc }}
+                                                />
+                                                <p
+                                                    className={`mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                    dangerouslySetInnerHTML={{ __html: data.desc2 }}
+                                                />
+                                                <UnorderedList arrName={data.list} ulClassName="pl-[36px] lg:pl-[56px] space-y-4 mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium" />
+                                                <p
+                                                    className={`mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                    dangerouslySetInnerHTML={{ __html: data.desc3 }}
+                                                />
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
+
+                            {/* payoff section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('payoffTitle')}</h2>
+                                {
+                                    payoffData.map((data, ind) => {
+                                        return (
+                                            <div className="mt-[22px] xl:mt-[30px]" key={ind}>
+                                                <h3 className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight font-bold mt-5">{data.title}</h3>
+                                                <p
+                                                    className={`mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                    dangerouslySetInnerHTML={{ __html: data.desc }}
+                                                />
+
+                                                {
+                                                    data.list && <UnorderedList arrName={data.list} ulClassName="pl-[36px] lg:pl-[56px] space-y-4 mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium" />
+                                                }
+                                                {
+                                                    data.desc2 && <p
+                                                        className={`mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                        dangerouslySetInnerHTML={{ __html: data.desc2 }}
+                                                    />
+                                                }
+
+                                            </div>
+                                        )
+                                    })
+                                }
+
+                            </div>
+
+                            {/* build section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                {
+                                    buildData.map((data, ind) => {
+                                        return (
+                                            <div key={ind}>
+                                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+                                                <div className="grid xl:grid-cols-4 lg:gap-y-[60px] md:grid-cols-2 grid-cols-1 mt-[28px] md:mt-[48px] gap-y-[40px] md:gap-x-[60px] lg:gap-[40px] sm:w-[80%] md:w-full xl:w-[1100px] 4xl:w-[1200px]">
+                                                    {
+                                                        data.list.map((elem, id) => {
+                                                            return (
+                                                                <div key={id}>
+                                                                    <span className="bg-[#0C8AED] w-12 h-12 flex items-center justify-center rounded-full text-white font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                                                        {id + 1}
+                                                                    </span>
+                                                                    <h3 className="mt-[30px] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold">{elem.title}</h3>
+                                                                    <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] 4xl:w-[90%]">{elem.desc}</p>
+                                                                    {
+                                                                        elem.lists && <UnorderedList arrName={elem.lists} ulClassName="pl-[26px] space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium" />
+
+                                                                    }
+                                                                </div>
+                                                            )
+                                                        })
+                                                    }
+                                                </div>
+                                            </div>
+                                        )
+                                    })
+                                }
+                            </div>
+
+                            {/* one unified section */}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('unifiedTitle')}</h2>
+                                {
+                                    oneUnifiedData.map((data, ind) => {
+                                        return (
+                                            <p
+                                                key={ind}
+                                                className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                dangerouslySetInnerHTML={{ __html: data }}
+                                            />
+                                        )
+                                    })
+                                }
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* faq section */}
+            <section className="xl:mt-[80px] mt-[40px] custom-container">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">FAQs: Build a Unified CRM + ERP Strategy</h2>
+                <div className="mt-[29px] xl:mt-[30px]">
+                    <FAQAccordion faqData={faqs} />
+                </div>
+            </section>
+
+            {/* blog carousel */}
+            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+                <FilteredBlogCarousel url={currUrl} />
+            </section>
+        </section>
+    )
+}

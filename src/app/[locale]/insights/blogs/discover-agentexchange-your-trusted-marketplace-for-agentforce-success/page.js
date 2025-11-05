@@ -23,7 +23,7 @@ const schemaData = {
   headline: "Discover AgentExchange by Salesforce",
   description:
     "AgentExchange simplifies the discovery and deployment of trusted AI solutions. Customers can explore offerings through the marketplace or within Salesforce’s Agent Builder tool, ensuring the right fit for their industry and use case.",
-  image: "https://www.rialtes.com/images/blog/agentexchange-banner.jpg",
+  image: "https://www.rialtes.com/images/blog/digital-network-connectivity-waves-abstract.jpg",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -66,8 +66,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/agentexchange-blog-banner.webp"
-            alt="banner"
+            src="/images/blog/digital-network-connectivity-waves-abstract.webp"
+            alt={t("bannerAlt")}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -78,8 +78,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
-            src="/images/blog/agentexchange-blog-banner-mobile.webp"
-            alt="banner"
+            src="/images/blog/digital-network-connectivity-waves-abstract-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

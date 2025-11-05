@@ -25,7 +25,7 @@ const schemaData = {
   description:
     "Discover how the Atlas Reasoning Engine powers Salesforce Agentforce, enabling AI agents to make smarter decisions and improve customer engagement.",
   image:
-    "https://www.rialtes.com/images/blog/atlas-reasoning-engine-agentforce.webp",
+    "https://www.rialtes.com/images/blog/digital-brain-ai-circuit-technology-illustration.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -78,16 +78,16 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
         <div className="hidden  xl:block">
           <Image
-            src="https://rialtes.com/images/blog/atlas-reasoning-engine-agentforce.jpg"
-            alt="The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
+            src="/images/blog/digital-brain-ai-circuit-technology-illustration.jpg"
+            alt={t("bannerAlt")}
             fill
             priority
           />
         </div>
         <div className="block xl:hidden">
           <Image
-            src="/images/blog/blog-2.webp"
-            alt="The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
+            src="/images/blog/digital-brain-ai-circuit-technology-illustration-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

@@ -135,8 +135,8 @@ export default function About() {
 
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]  overflow-hidden">-
         <Image
-          src="/images/webinar/webinar-header.webp"
-          alt="Webinar Header"
+          src="/images/webinar/virtual-team-meeting-video-conference.webp"
+          alt={t('bannerAlt')}
           fill
           style={{ objectFit: "cover", objectPosition: "70% 20%" }}
           priority
@@ -391,7 +391,7 @@ export default function About() {
                     >
                       <Image
                         src={webinar.image}
-                        alt={webinar.title}
+                        alt={webinar.altImage}
                         width={0}
                         height={0}
                         sizes="100vw"

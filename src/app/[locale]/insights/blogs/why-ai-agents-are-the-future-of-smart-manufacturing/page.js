@@ -21,7 +21,7 @@ const schemaData = {
   description:
     "Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems.",
   image:
-    "https://www.rialtes.com/images/blog/byond-robotics-desktop-baner.webp",
+    "https://www.rialtes.com/images/blog/industrial-digital-twin-factory-planning.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -131,16 +131,16 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
-            src="/images/blog/byond-robotics-desktop-baner.webp"
-            alt="ai that listens"
+            src="/images/blog/industrial-digital-twin-factory-planning.webp"
+            alt={t("bannerAlt")}
             fill
             priority
           />
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/blog/byond-robotics-mobile-banner.webp"
-            alt="ai that listens"
+            src="/images/blog/industrial-digital-twin-factory-planning-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

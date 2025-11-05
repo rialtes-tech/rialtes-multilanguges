@@ -33,6 +33,7 @@
         "captchaError2": "Réponse captcha incorrecte. Veuillez réessayer."
     },
     "CIGWebinar": {
+        "imageAlt":"Bâtiment en verre futuriste reflétant le ciel bleu et les nuages, symbole d’innovation et de transformation numérique",
         "seoTitle": "Webinar Intégration SAP Ariba CIG : Synchronisation Cloud S/4HANA | Rialtes",
         "seoDescription": "Découvrez comment l’intégration SAP Ariba CIG aide les utilisateurs ERP et S/4HANA à optimiser leurs achats avec automatisation cloud et insights.",
         "webinarTitle": "CIG, votre passerelle vers SAP Ariba",
@@ -108,6 +109,7 @@
         "webinarInfo": "Découvrez une manière plus efficace d'intégrer les employés. Rejoignez-nous pour un webinaire instructif illustrant les dernières améliorations d’Onboarding 2.0 de SAP SuccessFactors, visant à améliorer l'expérience des nouvelles recrues de la pré-intégration au jour 1, et mettant en évidence comment il transforme et simplifie le parcours d'intégration par rapport à son prédécesseur, SAP Onboarding 1.0."
     },
     "voyageWebinar": {
+        "imageAlt":"Vague numérique composée de connexions lumineuses fusionnant avec l’océan, symbolisant le flux de données et l’innovation",
         "seoTitle": "Webinar SAP RISE : Simplifiez votre parcours SAP avec Voyager+",
         "seoDescription": "Participez à notre webinar SAP RISE pour découvrir VoyagerPlus, un cadre puissant pour simplifier votre parcours SAP, accélérer l’adoption cloud et transformer l’entreprise.",
         "webinarAdvantagesData": [
@@ -144,6 +146,7 @@
         "webinarInfo": "Ne manquez pas cette occasion de découvrir comment Salesforce Automotive Cloud révolutionne l'engagement client dans l'industrie automobile. Découvrez comment vos équipes peuvent piloter chaque interaction client à l'aide des données, de l'IA et de l'automatisation — du lead à la fidélisation — le tout dans une plateforme connectée."
     },
     "discoverAgenticWebinar": {
+        "imageAlt":"Profil de femme avec superposition données numériques représentant IA, apprentissage automatique et transformation digitale",
         "seoTitle": "Webinar IA : Explorer les capacités agentiques avec Agentforce | Rialtes",
         "seoDescription": "Participez à notre webinar IA pour découvrir comment l’IA agentique d’Agentforce transforme les workflows avec agents autonomes et intégration intelligente.",
         "webinarAdvantagesData": [
@@ -180,6 +183,7 @@
         "webinarInfo": "Ne manquez pas cette occasion de découvrir comment Salesforce Automotive Cloud révolutionne l'engagement client dans l'industrie automobile. Découvrez comment vos équipes peuvent piloter chaque interaction client à l'aide des données, de l'IA et de l'automatisation — du lead à la fidélisation — le tout dans une plateforme connectée."
     },
     "databricksWebinar": {
+        "imageAlt":"Vague de données abstraite bleue et orange représentant transformation digitale, analytique big data et intelligence artificielle",
         "seoTitle": "Comment SAP Business Data Cloud, Databricks et Datasphere unifient les données",
         "seoDescription": "Participez à notre webinar du 13 mai pour apprendre comment SAP Business Data Cloud, Databricks et Datasphere simplifient l’unification des données et stimulent l’innovation.",
         "webinarInfo": "Ne manquez pas cette occasion de découvrir comment Salesforce Automotive Cloud révolutionne l'engagement client dans l'industrie automobile. Découvrez comment vos équipes peuvent piloter chaque interaction client à l'aide des données, de l'IA et de l'automatisation — du lead à la fidélisation — le tout dans une plateforme connectée.",
@@ -216,6 +220,7 @@
         ]
     },
     "deliverEndToEndWebinar": {
+        "imageAlt":"Vue aérienne de parc automobile organisé avec centaines de véhicules en rangées pour gestion de flotte de concessionnaire",
         "seoTitle": "Webinar Salesforce Automotive Cloud : Transformer l’engagement client",
         "seoDescription": "Participez à notre webinar pour découvrir comment Salesforce Automotive Cloud améliore les parcours clients avec données unifiées, IA et automatisation.",
         "webinarAdvantagesData": [
@@ -252,6 +257,7 @@
         "webinarInfo": "Ne manquez pas cette occasion de découvrir comment Salesforce Automotive Cloud révolutionne l'engagement client dans l'industrie automobile. Découvrez comment vos équipes peuvent piloter chaque interaction client à l'aide des données, de l'IA et de l'automatisation — du lead à la fidélisation — le tout dans une plateforme connectée."
     },
     "letsWhatsappWebinar": {
+        "imageAlt":"Femme souriante aux cheveux bouclés regardant smartphone sur fond bleu dégradé avec superposition de motif géométrique",
         "seoTitle": "Intégration Salesforce WhatsApp via AgentChat | Webinar Rialtes",
         "seoDescription": "Découvrez comment intégrer WhatsApp à Salesforce avec AgentChat et permettre aux équipes CX d’interagir en temps réel et en toute sécurité.",
         "webinarTitle": "Communiquez via WhatsApp dans Salesforce avec AgentChat",

@@ -21,7 +21,7 @@ const schemaData = {
   },
   "headline": "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
   "description": "Discover how SAP SuccessFactors helps organizations champion DEI through analytics, inclusive hiring, unbiased performance reviews, and culture-driven tools.",
-  "image": "https://www.rialtes.com/images/blog/successfactors-diversity-inclusion.webp",
+  "image": "https://www.rialtes.com/images/blog/diversity-inclusion-puzzle-accessibility-concept.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes",
@@ -66,8 +66,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/successfactors-diversity-inclusion.webp"
-            alt="banner"
+            src="/images/blog/diversity-inclusion-puzzle-accessibility-concept.webp"
+            alt={t("bannerAlt")}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -78,8 +78,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden h-full">
           <Image
-            src="/images/blog/successfactors-diversity-inclusion.webp"
-            alt="banner"
+            src="/images/blog/diversity-inclusion-puzzle-accessibility-concept-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

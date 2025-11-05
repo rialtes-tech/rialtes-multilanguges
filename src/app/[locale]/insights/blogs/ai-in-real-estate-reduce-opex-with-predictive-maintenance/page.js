@@ -14,14 +14,14 @@ import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 export default function Page() {
-    const t = useTranslations("exelonaPillar");
+    const t = useTranslations("aiRealEstate"); 
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, {
         en: enContent,
         es: esContent,
         fr: frContent,
     });
-    const { blogMainData, howAiData, howAiData2, keyTechData, predictionData, howAiImprovesData, optimizingData, fromMaintenanceData, exelonaEdgeData, preparingData, keyElemData, faqs } = blogsContent.exelonaPillar;
+    const { blogMainData, howAiData, howAiData2, keyTechData, predictionData, howAiImprovesData, optimizingData, fromMaintenanceData, exelonaEdgeData, preparingData, keyElemData, faqs } = blogsContent.aiRealEstate;
     const fullUrl = "https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/";
     const currUrl = useUrl()
 
@@ -125,7 +125,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/ai-property-operations-predictive-maintenance.webp"
-                        alt="banner image"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
@@ -133,7 +133,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/ai-property-operations-predictive-maintenance-mobile.webp"
-                        alt="banner image"
+                       alt={t('bannerAlt')}
                         priority
                         height={0}
                         width={0}

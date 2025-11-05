@@ -21,7 +21,7 @@ const schemaData = {
   headline: "How AI Powers The Sustainable Future of Our Planet",
   description:
     "AI is a powerful ally in building a sustainable future by enhancing energy efficiency, protecting forests, preserving biodiversity, and enabling smarter climate solutions.",
-  image: "https://www.rialtes.com/images/blog/sustainability-banner.webp",
+  image: "https://www.rialtes.com/images/blog/sustainable-green-energy-city-renewable.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -153,8 +153,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden xl:block">
           <Image
-            src="/images/blog/sustainability-banner.webp"
-            alt="Discover AgentExchange"
+            src="/images/blog/sustainable-green-energy-city-renewable.webp"
+            alt={t("bannerAlt")}
             fill
             priority
           />
@@ -163,8 +163,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block xl:hidden">
           <Image
-            src="/images/blog/sustain-small-slider.webp"
-            alt="Discover AgentExchange"
+            src="/images/blog/sustainable-green-energy-city-renewable-mobile.webp"
+            alt={t("bannerAlt")}
             height={0}
             width={0}
             className="w-full h-auto object-cover"
@@ -266,7 +266,7 @@ export default function Page() {
 
                 <Image
                   src={t('susContain')}
-                  alt="LinkedIn"
+                  alt={t("flowchartAlt")}
                   width={0}
                   height={0}
                   sizes="100vw"

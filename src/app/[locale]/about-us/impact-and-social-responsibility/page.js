@@ -46,8 +46,8 @@ export default function Page() {
       <section className="relative group overflow-hidden h-[350px] md:h-[500px] 4xl:h-[650px]">
         <div className="hidden md:block">
           <Image
-            src="/images/social-impact/Social impact header.webp"
-            alt="desktop banner"
+            src="/images/social-impact/hand-holding-digital-earth-globe-nature-sustainability.webp"
+            alt={t('bannerAlt')}
             fill
             priority
             className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
@@ -56,8 +56,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
-            src="/images/social-impact/Social impact header.webp"
-            alt="mobile banner"
+            src="/images/social-impact/hand-holding-digital-earth-globe-nature-sustainability.webp"
+            alt={t('bannerAlt')}
             fill
             className="object-cover"
             priority
@@ -92,8 +92,8 @@ export default function Page() {
       {/* we care we take actions section */}
       <section className="relative h-[500px] xl:h-[550px] overflow-hidden xl:block hidden">
         <Image
-          src="/images/social-impact/Rialtes Innovation Foundation.webp"
-          alt="Rialtes Innovation Foundation"
+          src="/images/social-impact/hands-holding-puzzle-brain-autism-awareness.webp"
+          alt={t('innovationAlt')}
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
@@ -117,8 +117,8 @@ export default function Page() {
       </section>
       <section className="relative h-[500px] xl:h-[550px] 4xl:h-[650px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
         <Image
-          src="/images/social-impact/ESG Efforts.webp"
-          alt="impact and social responsibility image"
+          src="/images/social-impact/scenic-winding-road-lake-green-mountains.webp"
+          alt={t('esgAlt')}
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
@@ -143,8 +143,8 @@ export default function Page() {
       </section>
       <section className="relative h-[500px] xl:h-[550px] 4xl:h-[650px] overflow-hidden mt-5 xl:mt-0 xl:block hidden">
         <Image
-          src="/images/social-impact/AI Impact for Future.webp"
-          alt="AI Impact for Future"
+          src="/images/social-impact/two-developers-collaborating-laptop-coding-project.webp"
+          alt={t('aiAlt')}
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
@@ -176,8 +176,8 @@ export default function Page() {
         {/* Image Section */}
         <div className="relative w-full h-[300px]">
           <Image
-            src="/images/social-impact/AdobeStock_559787853.webp"
-            alt="impact and social responsibility image"
+            src="/images/social-impact/hands-holding-puzzle-brain-autism-awareness-mobile.webp"
+            alt={t('innovationAlt')}
             fill
             className="object-cover"
             priority
@@ -203,8 +203,8 @@ export default function Page() {
       <section className="relative xl:hidden block">
         <div className="relative w-full h-[300px]">
           <Image
-            src="/images/social-impact/ESG Efforts.webp"
-            alt="ESG Efforts image"
+            src="/images/social-impact/scenic-winding-road-lake-green-mountains.webp"
+            alt={t('esgAlt')}
             fill
             className="object-cover object-[40%_20%]"
             priority
@@ -226,8 +226,8 @@ export default function Page() {
       <section className="relative xl:hidden block">
         <div className="relative w-full h-[386px]">
           <Image
-            src="/images/social-impact/social-impact-to.webp"
-            alt="social-impact image"
+            src="/images/social-impact/two-developers-collaborating-laptop-coding-project-mobile.webp"
+            alt={t('aiAlt')}
             fill
             className="object-cover object-[18%_20%]"
             priority
@@ -262,8 +262,8 @@ export default function Page() {
               </div>
               <Image
                 className="w-full object-cover"
-                src="/images/social-impact/revenue.webp"
-                alt="Revenue social impact"
+                src="/images/social-impact/diverse-hands-stacked-together-teamwork-unity.webp"
+                alt={t('revenueAlt')}
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -275,8 +275,8 @@ export default function Page() {
             <div className="relative flex flex-col">
               <Image
                 className="w-full object-cover"
-                src="/images/social-impact/planting.webp"
-                alt="Tree planting social impact"
+                src="/images/social-impact/growth-and-sustainability-planting.webp"
+                alt={t('plantAlt')}
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -304,8 +304,8 @@ export default function Page() {
               </div>
               <Image
                 className="w-full object-cover"
-                src="/images/social-impact/Certified professionals.webp"
-                alt="AI certified professionals"
+                src="/images/social-impact/data-analytics-presentation.webp"
+                alt={t('profesAlt')}
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -319,7 +319,7 @@ export default function Page() {
       <div className="custom-container text-black pb-20">
         <ContactForm
           title={t('contactUs')}
-          className={" leading-tight  4xl:text-[60px]  xl:text-[45px]  text-[26px] max-[400px]:text-[24px]"}
+          className={" leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px] max-[400px]:text-[24px]"}
         />
       </div>
     </div>

@@ -43,7 +43,7 @@ const Home = () => {
     const [refs, inViews] = useMultipleScrollAnimation(sectionCount);
     const [activeIndexInsights, setActiveIndexInsights] = useState(0);
     const [currentSlide, setCurrentSlide] = useState
-    (0);
+        (0);
 
 
 
@@ -176,7 +176,6 @@ const Home = () => {
                     <div className='col-span-3'></div>
                 </div>
                 <div className='grid xl:grid-cols-4 md:grid-cols-2 mt-16 gap-10 xl:gap-0'>
-
                     {successStoryData.map((success, index) => {
                         // const isLight = success.theme === "light";
                         return (
@@ -207,9 +206,7 @@ const Home = () => {
                         );
                     })}
                 </div>
-
             </section>
-
 
             {/* industry experties and solutions */}
             <section className='xl:mt-[158px] mt-[87px]'>
@@ -235,7 +232,7 @@ const Home = () => {
                         <div className="xl:block hidden h-full">
                             <Image
                                 src={carouselData[activeIndexInsights].image}
-                                alt={carouselData[activeIndexInsights].title}
+                                alt={carouselData[activeIndexInsights].alt}
                                 className="w-full h-full object-cover"
                                 priority
                                 fetchPriority='high'
@@ -247,7 +244,7 @@ const Home = () => {
                         <div className="xl:hidden block">
                             <Image
                                 src={carouselData[activeIndexInsights].image}
-                                alt={carouselData[activeIndexInsights].title}
+                                alt={carouselData[activeIndexInsights].alt}
                                 className="w-full md:h-[900px] sm:h-[500px] h-[435px] object-cover"
                                 style={{ objectPosition: "35% 20%" }}
                                 priority
@@ -258,7 +255,6 @@ const Home = () => {
                         </div>
                     </div>
 
-                    {/* desktop section */}
                     <div className="h-full flex flex-col justify-between pt-0">
                         <div
                             ref={refs[2]}
@@ -325,8 +321,8 @@ const Home = () => {
                 <div ref={refs[4]} className={`transition-all col-span-12 xl:col-span-7 duration-1000  ease-out transform ${inViews[4] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
                     <Image
                         className="w-full h-auto xl:mt-[140px]"
-                        src="/images/homepage/Group 508.webp"
-                        alt="life at rialtes"
+                        src="/images/homepage/corporate-conference-team-events.webp"
+                        alt={t('lifeAtAlt')}
                         width={0}
                         height={0}
                         sizes="100vw"

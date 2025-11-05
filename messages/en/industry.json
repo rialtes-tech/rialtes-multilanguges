@@ -1,5 +1,6 @@
 {
   "industry": {
+    "bannerAlt":"Dynamic light trails on highway representing digital transformation and client engagement for business industries innovation",
     "headerTitle": "Industries",
     "seoTitle": "Salesforce & SAP Solutions by Industry | Rialtes",
     "seoDescription": "Salesforce and SAP industry solutions that drive measurable outcomes, streamline operations, and unlock innovation in every sector we serve.",
@@ -13,98 +14,112 @@
     "growLatestServices": [
       {
         "id": 3,
-        "image": "/images/industry/real-estate.webp",
+        "image": "/images/industry/real-estate-urban-planning-model.webp",
+        "imageAlt":"Architect's hand placing building on white city model representing urban planning, real estate development, and smart city design",
         "title": "Real Estate",
         "description": "Expand your real estate portfolio with cloud-based property management software. Helping realtors, property owners, and brokers navigate through client details, properties, and rental agreements.",
         "knowMore": "/industry/real-estate-property-management"
       },
       {
         "id": 11,
-        "image": "/images/industry/lifescience.webp",
+        "image": "/images/industry/sustainable-technology-environmental-innovation.webp",
+        "imageAlt":"Digital hand with glowing network holding green plant representing sustainable technology, environmental innovation, and growth",
         "title": "Life Sciences",
         "description": "Unify research, clinical, and commercial operations on a connected digital foundation. With Salesforce Life Sciences Cloud and AI-driven analytics, Rialtes helps organizations enhance compliance, accelerate innovation, and improve patient outcomes.",
         "knowMore": "/industry/life-sciences-digital-transformation"
       },
       {
         "id": 1,
-        "image": "/images/industry/healthcare.webp",
+        "image": "/images/industry/healthcare-digital-medical-data-analysis.webp",
+        "imageAlt":"Healthcare professional analyzing digital medical data on futuristic touchscreen interface in modern hospital facility",
         "title": "Healthcare",
         "description": "Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software, harmonize patient data from various channels",
         "knowMore": "/industry/life-sciences/healthcare-medtech-patient-care"
       },
       {
         "id": 5,
-        "image": "/images/pharma/Header Pharma.webp",
+        "image": "/images/pharma/genetic-research-biotechnology-innovation.webp",
+        "imageAlt":"Hand reaching toward glowing blue DNA double helix on dark background representing genetic research innovation",
         "title": "Pharma & Biotech",
         "description": "Rialtes leverages certified expertise in Salesforce Life Sciences Cloud and SAP S/4HANA to help pharma and biotech leaders harness AI, machine learning, and automation for integrated clinical, medical, and commercial operations.",
         "knowMore": "/industry/life-sciences/pharma-biotech-digital-transformation"
       },
       {
         "id": 6,
-        "image": "/images/medical/medical-header.webp",
+        "image": "/images/medical/medical-imaging-mri-scanner-technology.webp",
+        "imageAlt":"Modern MRI scanner machine in blue-lit clinical room with digital display screens showing advanced medical imaging",
         "title": "Medical Devices",
         "description": "Helping medical device companies turn compliance into a competitive advantage by combining strategy, technology, and patient-centric design to ensure seamless patient journeys from device prescription to outcome tracking.",
         "knowMore": "/industry/life-sciences/medical-devices-it-solutions"
       },
       {
         "id": 12,
-        "image": "/images/industry/home-health.webp",
+        "image": "/images/industry/connected-healthcare-patient-engagement-mobile.webp",
+        "imageAlt":"Person in blue shirt holding smartphone with holographic healthcare icons including people, heart, and medical symbols above",
         "title": "Home Health",
         "description": "Empower caregivers, clinicians, and coordinators with digital tools that enhance care delivery. Rialtes brings automation, real-time scheduling, and patient engagement solutions that simplify operations and improve quality of care at home.",
         "knowMore": "/industry/life-sciences/home-health-ai-tech-solutions"
       },
       {
         "id": 4,
-        "image": "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
+        "image": "/images/industry/semi-conductor/Mobile/pharmaceutical-manufacturing-production-biotechnology.webp",
+        "imageAlt":"Close-up of purple and pink pharmaceutical vials or containers in rows with vibrant lighting in production facility",
         "title": "Semiconductor",
         "description": "Best-in-class tech services spanning supply chain integration, demand planning, and more. Meet your growing demands without compromising on performance with tailored hi-tech software solutions.",
         "knowMore": "/industry/hitech-semiconductor-ai-it-solutions"
       },
       {
         "id": 2,
-        "image": "/images/industry/manufacturing.webp",
+        "image": "/images/industry/manufacturing-cnc-machine-metalworking.webp",
+        "imageAlt":"Industrial CNC machine tool drilling with sparks flying during precision manufacturing metalworking process operation",
         "title": "Manufacturing",
         "description": "Manufacturing technology expertise at your fingertips. Streamline operations, sales processes, and supply chain management in manufacturing companies.",
         "knowMore": "/industry/manufacturing-cloud-erp"
       },
       {
         "id": 7,
-        "image": "/images/education/Group 483.webp",
+        "image": "/images/education/digital-education-graduate-future-learning-mobile.webp",
+        "imageAlt":"Business professional in glasses viewing digital data streams and code overlay with green and gold tech interface display",
         "title": "Education",
         "description": "We focus on addressing key challenges in education, like fragmented student engagement and inefficient recruitment. By leveraging strategic advisory along with SAP and Salesforce technology, we help institutions streamline operations and enhance the student experience",
         "knowMore": "/industry/education-cloud-it-solutions"
       },
       {
         "id": 8,
-        "image": "/images/industry/auto-industry/Mobile/auto-industry-banner-mob.webp",
+        "image": "/images/industry/auto-industry/Mobile/connected-automotive-smart-mobility-technology.webp",
+        "imageAlt":"Futuristic sports car with green digital overlay and connected network lines on urban road with modern skyscrapers background",
         "title": "Automotive",
         "description": "Address the complex challenges faced by the automotive sector, particularly the fragmentation across the customer lifecycle from prospecting to ownership. Leveraging SAP and Salesforce Industry Cloud solutions, we design tailored, scalable systems that streamline operations.",
         "knowMore": "/industry/digital-transformation-in-automotive-industry"
       },
       {
         "id": 10,
-        "image": "/images/industry/travel-transporation/TTH.webp",
+        "image": "/images/industry/travel-transporation/business-woman-airport-travel-luggage.webp",
+        "imageAlt":"Professional woman in business suit walking through modern airport terminal pulling black rolling suitcase luggage",
         "title": "Travel and Hospitality",
         "description": "Rialtes enables TTH companies to elevate every journey—from check-in to checkout, booking to delivery. With our expertise in AI, cloud, and enterprise platforms, we help you modernize operations, personalize experiences, and maximize business impact.",
         "knowMore": "/industry/travel-hospitality-it-solutions"
       },
       {
         "id": 9,
-        "image": "/images/industry/travel-transporation/retail+.webp",
+        "image": "/images/industry/travel-transporation/digital-shopping-holographic-interface-retail.webp",
+        "imageAlt":"Hand touching holographic shopping cart icon overlaying retail store aisle representing digital commerce and omnichannel shopping",
         "title": "Retail",
         "description": "Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.",
         "knowMore": "/industry/retail-industry-digital-transformation"
       },
       {
         "id": 13,
-        "image": "/images/industry/nonprofit.webp",
+        "image": "/images/industry/diversity-inclusion-puzzle-heart-hands.webp",
+        "imageAlt":"Multiple hands holding colorful rainbow puzzle pieces forming heart shape representing diversity inclusion and collaboration",
         "title": "Non-Profit",
         "description": "Drive greater mission impact through connected data and donor engagement. Our Salesforce Nonprofit Cloud expertise helps organizations streamline fundraising, volunteer management, and community programs with measurable transparency.",
         "knowMore": "/industry/nonprofit-digital-transformation-it-solutions"
       },
       {
         "id": 14,
-        "image": "/images/Finance/mobile/finance-mobile.webp",
+        "image": "/images/Finance/mobile/finance-digital-technology-network-visualization-mobile.webp",
+        "imageAlt":"Abstract digital data visualization with purple and blue light rays radiating from center in circular pattern on dark background",
         "title": "Finance",
         "description": "Modernize financial operations with AI-enabled insights and automation. From banking to insurance, Rialtes helps financial institutions simplify compliance, strengthen customer relationships, and deliver personalized financial experiences across every channel.",
         "knowMore": "/industry/finance-industry-digital-transformation-services-solutions"
@@ -115,6 +130,7 @@
   "realEstate": {
     "seoTitle": "Revolutionizing Property Management for Real Estate Industry | Rialtes",
     "seoDescription": "The future of property management for real estate industry is here. Automate leasing, reduce vacancies, and improve ROI with purpose-built software.",
+    "bannerAlt": "Architect's hand pointing at white miniature city model with skyscrapers representing urban planning and real estate development",
     "headerTitle": "Manage real estate processes with cloud-based property management software",
     "headerSubTitle": "REAL ESTATE ",
     "realTitle": "Affordable property management software for your real estate operations",
@@ -131,8 +147,9 @@
     "growLatestServices": [
       {
         "id": 1,
-        "image": "/images/industry/real-estate/AdobeStock_493889513 copy.webp",
+        "image": "/images/industry/real-estate/hands-typing-laptop-digital-files-data-management.webp",
         "title": "Centralized Operations: The One-Stop Solution",
+        "alt": "Hands typing on laptop with digital file icons overlay representing data management, document organization, and cloud storage",
         "description": "Imagine managing all your property data, from rental agreements to maintenance schedules in one place. RealForce provides centralized operations for a streamlined management experience via our online rental property management efficiencies.",
         "productsDetails": [
           "Automatic agreement generation",
@@ -142,8 +159,9 @@
       },
       {
         "id": 2,
-        "image": "/images/industry/real-estate/AdobeStock_519184506 copy.webp",
+        "image": "/images/industry/real-estate/hand-stylus-tablet-holographic-data-analytics.webp",
         "title": "Multi-Platform Accessibility: Manage On-The-Go",
+        "alt": "Hand using stylus on tablet with holographic data charts and world map overlay representing business analytics and digital technology",
         "description": "Our online property management system ensures you can access your management dashboard wherever you are, making us a leader among property management software companies in the USA.",
         "productsDetails": [
           "Mobile reports and dashboards",
@@ -153,7 +171,8 @@
       },
       {
         "id": 3,
-        "image": "/images/industry/real-estate/AdobeStock_921769044 copy.webp",
+        "image": "/images/industry/real-estate/hands-interacting-holographic-dashboard-data-visualization.webp",
+        "alt": "Hands interacting with holographic dashboard screens showing data charts and analytics over laptop representing business intelligence",
         "title": "Comprehensive Analytics: Make Informed Decisions",
         "description": "We stand out among top property management software companies by providing the #1 analytics platform to improve your numbers, from revenue to vacancies.",
         "productsDetails": [
@@ -164,7 +183,8 @@
       },
       {
         "id": 4,
-        "image": "/images/industry/real-estate/AdobeStock_1029847777 copy.webp",
+        "image": "/images/industry/real-estate/accountant-using-calculator-financial-reports-laptop.webp",
+        "alt": "Person using calculator with financial reports and laptop displaying colorful charts representing accounting and budget analysis work",
         "title": "Financial Clarity: Accounting Made Easy",
         "description": "Our software is the go-to accounting software for realtors looking for detailed financial reports and invoicing capabilities. Simplify your budgeting process with the world’s #1 cloud platform.",
         "productsDetails": [
@@ -210,7 +230,8 @@
     "slides": [
       {
         "id": 1,
-        "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
+        "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
+        "alt": "Three business professionals in modern office discussing plans while one points at wall representing workspace planning and collaboration",
         "title": "RealForce Banking Module - ACH",
         "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
         "url": "/insights/case-studies/realForce-banking-module-ach"
@@ -218,7 +239,8 @@
       {
         "id": 2,
         "url": "/insights/case-studies/yardi-managed-services",
-        "imgSrc": "/images/case-studies/case-study-6_thumb.webp",
+        "imgSrc": "/images/case-studies/abstract-colorful-city-skyline-data-visualization.webp",
+        "alt": "Abstract 3D cityscape with colorful gradient bars in pink, blue, and orange representing data visualization and urban analytics concept",
         "title": "Yardi Managed Services",
         "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
       }
@@ -230,6 +252,13 @@
     "knowMore": "Know More"
   },
   "lifeScience": {
+    "bannerAlt":"Digital hand holding plant with connected blue network overlay on dark background representing life sciences digital innovation",
+    "whyAlt":"Digital wireframe human body with highlighted organs and medical data interfaces on dark background showing health analytics",
+    "thoughtAlt":"Two doctors in white coats meeting with business professional discussing healthcare data charts and graphs on monitor screen",
+    "preAlt":"Medical professional in green scrubs interacting with holographic patient anatomy and colorful health data charts on tablet",
+    "seamlessAlt":"Two doctors in white coats with stethoscopes analyzing patient data on computer screen in modern hospital environment",
+
+
     "seoTitle": "Life Sciences Digital Transformation with AI | Rialtes",
     "seoDescription": "Empowering digital transformation in life sciences with connected data, AI insights, and cloud solutions for Pharma, MedTech, public health, and providers.",
     "whyRialtesData": [
@@ -282,8 +311,9 @@
           "Real-Time Payer-Provider Collaboration using Salesforce Health Cloud."
         ],
         "blueCard": "Deliver efficient, personalized care and manage cost with real-time analytics.",
-        "mobImg": "/images/industry/life-science/Mobile/payers-module-mob.webp",
-        "deskImg": "/images/industry/life-science/payers-module-desk.webp"
+        "imageAlt":"Tablet displaying real-time business analytics with multicolor bar graphs, line charts, and data grid in corporate office",
+        "mobImg": "/images/industry/life-science/Mobile/real-time-business-analytics-tablet-dashboard-mobile.webp",
+        "deskImg": "/images/industry/life-science/real-time-business-analytics-tablet-dashboard.webp"
       },
       {
         "title": "Provider Network Solutions",
@@ -295,8 +325,9 @@
           "Referral and Provider Collaboration Platforms integrated via Salesforce."
         ],
         "blueCard": "Enhancing patient experiences with connected, coordinated care.",
-        "mobImg": "/images/industry/life-science/Mobile/provider-mob.webp",
-        "deskImg": "/images/industry/life-science/provider-desk.webp"
+        "imageAlt":"Doctor using futuristic healthcare dashboard with patient data, appointment stats, and medical analytics on transparent screen",
+        "mobImg": "/images/industry/life-science/Mobile/doctor-healthcare-dashboard-medical-analytics-mobile.webp",
+        "deskImg": "/images/industry/life-science/doctor-healthcare-dashboard-medical-analytics.webp"
       },
       {
         "title": "Pharma Innovation",
@@ -308,8 +339,9 @@
           "Salesforce Health Cloud for patient-centric program orchestration."
         ],
         "blueCard": "Smarter, faster, and safer therapy launches.",
-        "mobImg": "/images/industry/life-science/Mobile/pharma-mob.webp",
-        "deskImg": "/images/industry/life-science/pharma-desk.webp"
+        "imageAlt":"Medical researcher wearing VR headset examining virtual data with blue gloves in modern laboratory for immersive analysis",
+        "mobImg": "/images/industry/life-science/Mobile/vr-medical-research-virtual-reality-lab-mobile.webp",
+        "deskImg": "/images/industry/life-science/vr-medical-research-virtual-reality-lab.webp"
       },
       {
         "title": "MedTech Revolution",
@@ -321,8 +353,9 @@
           "Integrated Remote Monitoring and Digital Health Platforms."
         ],
         "blueCard": "Deliver superior patient outcomes with connected MedTech solutions.",
-        "mobImg": "/images/industry/life-science/Mobile/medtech-mob.webp",
-        "deskImg": "/images/industry/life-science/medtech-desk.webp"
+        "imageAlt":"Patient having telemedicine video consultation with doctor on laptop while reviewing health data chart on tablet screen",
+        "mobImg": "/images/industry/life-science/Mobile/telemedicine-video-consultation-patient-doctor-mobile.webp",
+        "deskImg": "/images/industry/life-science/telemedicine-video-consultation-patient-doctor.webp"
       },
       {
         "title": "Public Health Excellence",
@@ -334,8 +367,9 @@
           "Public Health Community Outreach and Behavioral Health Programs."
         ],
         "blueCard": "Strengthening community health through data and AI insights.",
-        "mobImg": "/images/industry/life-science/Mobile/public-health-mob.webp",
-        "deskImg": "/images/industry/life-science/public-health-desk.webp"
+        "imageAlt":"Healthcare professional wearing mask checking elderly patient's blood pressure during home health visit with medical chart",
+        "mobImg": "/images/industry/life-science/Mobile/home-healthcare-blood-pressure-check-elderly-mobile.webp",
+        "deskImg": "/images/industry/life-science/home-healthcare-blood-pressure-check-elderly.webp"
       },
       {
         "title": "Hyper-Personalized Patient Engagement",
@@ -347,8 +381,9 @@
           "Compliance-Driven Patient Journeys."
         ],
         "blueCard": "Transforming patient engagement into meaningful outcomes.",
-        "mobImg": "/images/industry/life-science/Mobile/hyper-mob.webp",
-        "deskImg": "/images/industry/life-science/hyper-desk.webp"
+        "imageAlt":"Three healthcare professionals in medical attire consulting together over digital tablet in hospital environment",
+        "mobImg": "/images/industry/life-science/Mobile/medical-team-consulting-digital-tablet-mobile.webp",
+        "deskImg": "/images/industry/life-science/medical-team-consulting-digital-tablet.webp"
       },
       {
         "title": "Supply Chain & Inventory Excellence",
@@ -359,8 +394,9 @@
           "Integrated Logistics and Distribution Network."
         ],
         "blueCard": "Ensuring life-saving therapies and devices reach patients on time.",
-        "mobImg": "/images/industry/life-science/Mobile/supply-chain-mob.webp",
-        "deskImg": "/images/industry/life-science/supply-chain-desk.webp"
+        "imageAlt":"Male pharmacist in white coat and glasses using digital tablet while colleague stocks shelves in modern pharmacy drugstore",
+        "mobImg": "/images/industry/life-science/Mobile/spharmacist-using-tablet-pharmacy-inventory-mobile.webp",
+        "deskImg": "/images/industry/life-science/pharmacist-using-tablet-pharmacy-inventory.webp"
       }
     ],
     "commonSectionData1": [
@@ -374,8 +410,9 @@
           "Predictive Analytics for Care and Compliance."
         ],
         "blueCard": "Transform raw data into actionable intelligence.",
-        "mobImg": "/images/industry/life-science/Mobile/advanced-mob.webp",
-        "deskImg": "/images/industry/life-science/advanced-desk.webp"
+        "imageAlt":"Healthcare worker in surgical cap and blue scrubs viewing medical monitoring screens displaying patient data and vital signs",
+        "mobImg": "/images/industry/life-science/Mobile/medical-professional-monitoring-patient-data-mobile.webp",
+        "deskImg": "/images/industry/life-science/medical-professional-monitoring-patient-data.webp"
       },
       {
         "title": "AI-Driven Future",
@@ -387,8 +424,9 @@
           "AI-Driven Compliance Monitoring and Pharmacovigilance."
         ],
         "blueCard": "AI is revolutionizing patient care, therapy development, and safety.",
-        "mobImg": "/images/industry/life-science/Mobile/ai-driven-mob.webp",
-        "deskImg": "/images/industry/life-science/ai-driven-desk.webp"
+         "imageAlt":"Healthcare researcher in lab with digital data overlay examining test tubes and analyzing pharmaceutical research on computer screen",
+        "mobImg": "/images/industry/life-science/Mobile/healthcare-research-digital-lab-analysis-mobile.webp",
+        "deskImg": "/images/industry/life-science/healthcare-research-digital-lab-analysis.webp"
       },
       {
         "title": "Quick Commerce in Life Sciences",
@@ -399,8 +437,9 @@
           "AI-Powered Logistics and Supply Chain Optimization."
         ],
         "blueCard": "Deliver healthcare at the speed of need — powered by SAP & Salesforce.",
-        "mobImg": "/images/industry/life-science/Mobile/quick-mob.webp",
-        "deskImg": "/images/industry/life-science/quick-desk.webp"
+         "imageAlt":"A physiotherapist applies electrode pads on a woman’s back for electrical muscle stimulation therapy",
+        "mobImg": "/images/industry/life-science/Mobile/physiotherapy-electrical-muscle-stimulation-session-mobile.webp",
+        "deskImg": "/images/industry/life-science/physiotherapy-electrical-muscle-stimulation-session.webp"
       }
     ],
     "headerTitle": "Life Sciences Industry",
@@ -436,27 +475,31 @@
     "contactSubTitle2": "Contact us today to discover how Rialtes can drive growth and patient impact for your organization."
   },
   "healthCare": {
+    "bannerAlt":"Healthcare professional in lab coat and glasses analyzing holographic medical data display with DNA strand and patient imaging scans",
     "seoTitle": "MedTech Healthcare Consulting and Patient Care Solutions | Rialtes",
     "seoDescription": "Rialtes delivers AI-powered MedTech healthcare consulting and patient care solutions to enhance clinical outcomes and streamline healthcare operations.",
     "slidesCaseStudy": [
       {
         "id": 1,
         "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
-        "imgSrc": "/images/case-studies/case-study-7_thumb.webp",
+        "imgSrc": "/images/case-studies/doctor-patient-consultation-digital-tablet.webp",
+        "imageAlt":"Doctor with stethoscope consulting elderly patient while reviewing information together on digital tablet in medical office",
         "title": "Digitizing patient journey using Salesforce health cloud",
         "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects."
       },
       {
         "id": 2,
         "url": "/insights/case-studies/salesforce-health-cloud-prior-authorization",
-        "imgSrc": "/images/case-studies/case-study-8_thumb.webp",
+        "imgSrc": "/images/case-studies/digital-network-cloud-technology-tablet.webp",
+        "imageAlt":"Business professional holding tablet with glowing digital network connections representing cloud technology and data exchange",
         "title": "Salesforce Health Cloud, Prior Authorization",
         "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
       },
       {
         "id": 3,
         "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-        "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
+        "imgSrc": "/images/case-studies/nurse-patient-consultation-medical-records.webp",
+        "imageAlt":"Male nurse and female patient smiling while discussing medical records and treatment plan in bright healthcare facility",
         "title": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
         "description": "A global medical technology company that develops and manufactures innovative products."
       }
@@ -491,7 +534,8 @@
     "growLatestServices": [
       {
         "id": 1,
-        "image": "/images/healthcare/AdobeStock_572162228 copy.webp",
+        "image": "/images/healthcare/healthcare-worker-patient-digital-consultation.webp",
+        "imageAlt":"Healthcare worker in blue scrubs with stethoscope discussing digital medical records on tablet with masked patient in clinic setting",
         "title": "Patient Care with Salesforce Health Cloud",
         "description": "Implementing Salesforce Health Cloud can significantly upgrade the patient experience solutions by centralizing all healthcare data. This helps in smarter decision-making and offers an intuitive platform for healthcare professionals.",
         "productsDetails": [
@@ -503,7 +547,8 @@
       },
       {
         "id": 2,
-        "image": "/images/healthcare/AdobeStock_200878864 copy.webp",
+        "image": "/images/healthcare/couple-healthcare-consultation-meeting.webp",
+        "imageAlt":"Couple meeting with healthcare professional at desk with computer discussing medical information in consultation office",
         "title": "Urgent Care & Hospital Enhancements",
         "description": "Hospital solutions optimize every aspect of managing your bespoke healthcare delivery, from the administration of team members to boosting quality patient care and post-treatment follow-up appointments.",
         "productsDetails": [
@@ -514,7 +559,8 @@
       },
       {
         "id": 3,
-        "image": "/images/healthcare/AdobeStock_930210511 copy.webp",
+        "image": "/images/healthcare/woman-telehealth-video-consultation-home.webp",
+        "imageAlt":"Woman in purple shirt having virtual telehealth video consultation with doctor on laptop and tablet in bright home office",
         "title": "Tailored Patient Care Solutions",
         "description": "Our patient care solutions focus on creating an empathetic healthcare environment. By leveraging these solutions, medical facilities can enhance patient engagement and satisfaction.",
         "productsDetails": [
@@ -525,7 +571,8 @@
       },
       {
         "id": 4,
-        "image": "/images/healthcare/AdobeStock_184771424 copy.webp",
+        "image": "/images/healthcare/healthcare-professional-electronic-medical-records.webp",
+        "imageAlt":"Healthcare professional in blue scrubs holding tablet displaying electronic medical record system with patient data and X-ray imaging",
         "title": "Unmatched MedTech Services",
         "description": "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities.",
         "productsDetails": [
@@ -548,6 +595,18 @@
     "contactTitle": "Take the next step to operational excellence with us."
   },
   "pharmaBiotech": {
+    "agentForceAlt": "Visual representing Agentforce Salesforce solution for pharma sales and medical affairs teams",
+    "agentChatAlt": "Image showing AgentChat WhatsApp integration for secure patient and HCP communication.",
+    "remoteMonitoringAlt": "Visual representing remote monitoring tools for tracking patient safety and product usage.",
+    "patientCentricAlt": "Image showing mobile apps designed for patient engagement and outcome tracking.",
+    "benefitsAlt": "Visual listing benefits of AI in pharma including faster development and improved compliance.",
+    "deepExpertiesAlt": "Visual representing Rialtes' deep expertise in pharma and biotech digital platforms.",
+    "keyImpactAlt": "Graphic showing key AI impact areas in pharma including drug discovery and patient engagement.",
+    "lifeSciencesPlatformAlt": "Image showing integration of commercial, clinical, and medical operations in life sciences.",
+    "sapOperationsAlt": "Visual representing SAP-driven pharma operations including serialization and compliance.",
+    "bannerAlt": "Banner image for pharma and biotech digital transformation services.",
+    "thoughtLeadershipAlt": "Visual highlighting Rialtes' thought leadership in AI and digital transformation for pharma.",
+    "whyRialtesAlt": "Graphic explaining why pharma and biotech firms choose Rialtes for digital transformation.",
     "seoTitle": "Pharma & Biotech Digital Transformation with AI | Rialtes",
     "seoDescription": "Rialtes leverages certified expertise in Salesforce Life Sciences Cloud and",
     "thoughtData": [
@@ -623,8 +682,9 @@
           "Maintaining submission readiness, audit trails, and risk assessments.",
           "Lack of integrated platforms to manage quality events, safety reporting, and regulatory submissions."
         ],
-        "imgDesktop": "/images/pharma/Complex and Dynamic Regulatory Compliance.webp",
-        "imgMobile": "/images/pharma/Complex and Dynamic .webp"
+        "imgDesktop": "/images/pharma/pharma-regulatory-compliance.webp",
+        "imageAlt": "Image illustrating complex global regulatory compliance challenges in pharma.",
+        "imgMobile": "/images/pharma/pharma-regulatory-compliance-mobile.webp"
       },
       {
         "number": "2",
@@ -637,8 +697,9 @@
           "Fragmented systems for trial data and adverse event management.",
           "Challenges in ensuring data accuracy for regulatory submissions."
         ],
-        "imgDesktop": "/images/pharma/Accelerating Clinical Trials and R&D Innovation.webp",
-        "imgMobile": "/images/pharma/Accelerating Clinical.webp"
+        "imgDesktop": "/images/pharma/pharma-clinical-trials-innovation.webp",
+        "imageAlt": "Visual showing digital solutions for accelerating clinical trials and R&D in pharma.",
+        "imgMobile": "/images/pharma/pharma-clinical-trials-innovation-mobile.webp"
       },
       {
         "number": "3",
@@ -651,8 +712,9 @@
           "Lack of visibility into patient support and outcomes.",
           "Struggles with medical inquiry and adverse event tracking."
         ],
-        "imgDesktop": "/images/pharma/Commercial and Medical Affairs Engagement Gaps.webp",
-        "imgMobile": "/images/pharma/Commercial and Medical.webp"
+        "imgDesktop": "/images/pharma/pharma-medical-affairs-engagement.webp",
+        "imageAlt": "Image highlighting engagement gaps between medical affairs, HCPs, and patients.",
+        "imgMobile": "/images/pharma/pharma-medical-affairs-engagement-mobile.webp"
       },
       {
         "number": "4",
@@ -665,8 +727,9 @@
           "Lack of real-time visibility into inventory and shipments.",
           "Inefficiencies in recall, complaint, and adverse event responses."
         ],
-        "imgDesktop": "/images/pharma/Supply Chain, Manufacturing, and Serialization.webp",
-        "imgMobile": "/images/pharma/Supply Chain (1).webp"
+        "imgDesktop": "/images/pharma/pharma-supply-chain-serialization.webp",
+        "imageAlt": "Graphic showing pharma supply chain challenges including serialization and compliance.",
+        "imgMobile": "/images/pharma/pharma-supply-chain-serialization-mobile.webp"
       }
     ],
     "strategicTitle": "Top 4 Strategic Challenges Facing Pharma and Biotech Industry Today",
@@ -715,6 +778,18 @@
   "medicalDevices": {
     "seoTitle": "Medical Device Digital Transformation with AI | Rialtes",
     "seoDescription": "Rialtes drives digital transformation in medical devices with AI-powered insights",
+    "bannerAlt": "Modern MRI scanner with blue lighting in clinical imaging suite showcasing advanced diagnostic medical technology",
+    "thoughtAlt": "Professional female doctor in white coat reviewing patient records in modern healthcare facility with clinical background",
+    "whyAlt": "Advanced robotic surgical arms with precision instruments in sterile operating room for minimally invasive procedures",
+    "endAlt": "Modern data center corridor with green plants representing eco-friendly and energy-efficient server technology",
+    "keyAlt": "Medical professional using artificial intelligence technology with digital health icons and human anatomy visualization interface",
+    "benefitsAlt": "Woman using a smartphone to monitor health data from a wearable glucose sensor on her arm, representing connected healthcare technology",
+    "patientAlt": "Smiling healthcare professional wearing scrubs and a stethoscope using a digital tablet for patient management or medical data review",
+    "integratedAlt": "Healthcare worker in protective clothing managing medical supply inventory in a storage facility",
+    "mobileAlt": "Doctor assisting an elderly patient in using a mobile health monitoring app",
+    "remoteAlt": "Close-up of hands using a smartphone app to monitor health and fitness data",
+    "agentforceAlt": "Group of medical professionals discussing patient care while reviewing information on a digital tablet",
+    "realAlt": "Person using smartphone with AI chatbot interface for automated customer support communication",
     "thoughLeadershipData": [
       "Deliver compliant and seamless patient journeys from device prescription to outcome tracking.",
       "Integrate clinical, supply chain, and sales operations into a unified digital ecosystem.",
@@ -793,8 +868,9 @@
       {
         "id": 1,
         "title": "Regulatory Compliance & Quality Management",
-        "imageMobile": "/images/medical/Regulatory Compliance.webp",
-        "imageDesktop": "/images/medical/Regulatory Compliance & Quality Management.webp",
+        "alt": "Digital interface showing workplace safety and compliance icons with a person using a smartphone for monitoring",
+        "imageMobile": "/images/medical/workplace-safety-digital-monitoring-mobile.webp",
+        "imageDesktop": "/images/medical/workplace-safety-digital-monitoring.webp",
         "points": [
           "Navigating complex, evolving global regulations.",
           "Difficulty in managing documentation, traceability, and audits.",
@@ -803,9 +879,10 @@
       },
       {
         "id": 2,
-        "title": " Supply Chain Complexity & Order Fulfillment",
-        "imageMobile": "/images/medical/Supply Chain Complexity.webp",
-        "imageDesktop": "/images/medical/Supply Chain Complexity & Order Fulfillment.webp",
+        "title": "Supply Chain Complexity & Order Fulfillment",
+        "alt": "Pharmacist in a white coat using a digital tablet to check inventory in a pharmacy",
+        "imageMobile": "/images/medical/pharmacist-using-digital-tablet-mobile.webp",
+        "imageDesktop": "/images/medical/pharmacist-using-digital-tablet.webp",
         "points": [
           "Disconnected systems for inventory, manufacturing, and order management.",
           "Struggles with tracking serialized medical devices across geographies.",
@@ -815,8 +892,9 @@
       {
         "id": 3,
         "title": "Clinical Trial & Patient Outcome Tracking",
-        "imageMobile": "/images/medical/Clinical Trial & Patient.webp",
-        "imageDesktop": "/images/medical/Clinical Trial.webp",
+        "alt": "Laboratory technician in protective gear using a digital tablet to monitor pharmaceutical manufacturing equipment",
+        "imageMobile": "/images/medical/lab-technician-using-digital-tablet-mobile.webp",
+        "imageDesktop": "/images/medical/lab-technician-using-digital-tablet.webp",
         "points": [
           "Inadequate tools for end-to-end clinical trial management.",
           "Limited real-time data on device performance and patient outcomes.",
@@ -826,8 +904,9 @@
       {
         "id": 4,
         "title": "Remote Monitoring & AI-Powered Predictive Insights",
-        "imageMobile": "/images/medical/Remote Monitoring (3).webp",
-        "imageDesktop": "/images/medical/Remote Monitoring (1).webp",
+        "alt": "Female scientist in lab coat interacting with futuristic digital interface displaying medical data and analytics",
+        "imageMobile": "/images/medical/futuristic-medical-analytics-mobile.webp",
+        "imageDesktop": "/images/medical/futuristic-medical-analytics.webp",
         "points": [
           "Lack of real-time patient data from implanted or wearable devices.",
           "Missed opportunities to predict failures or adverse events.",
@@ -880,6 +959,10 @@
     "learnMoreBtn": "Learn More"
   },
   "homeHealth": {
+    "aiPoweredAlt": "Graphic illustrating AI-driven home health care including predictive insights and automation.",
+    "agentchatAlt": "Image showing AgentChat integration with WhatsApp for patient and caregiver communication.",
+    "globalDeleveryAlt": "Image showing global delivery of home health programs with regional compliance support.",
+    "bannerAlt": "Banner image promoting home health technology solutions for remote care and mobile access.",
     "seoTitle": "AI-Powered Home Healthcare Technology Solutions | Rialtes",
     "seoDescription": "Rialtes offers home healthcare technology solutions powered by AI to support virtual, remote, and personalized patient care—anytime, anywhere.",
     "addressingData": [
@@ -887,31 +970,36 @@
         "title": "Geographical Divide & Accessibility",
         "desc": "Patients in rural or remote areas face significant barriers to accessing timely medical care due to limited healthcare infrastructure and geographic isolation. Our team empowers home health providers with virtual care coordination tools, mobile-optimized apps, and real-time data access, so patients can receive continuous care without ever visiting a clinic.",
         "deskImg": "/images/home-health/geographical-desk.webp",
-        "mobImg": "/images/home-health/Mobile/geographical-mob.webp"
+        "mobImg": "/images/home-health/Mobile/geographical-mob.webp",
+        "alt": "Visual highlighting challenges in rural healthcare access and virtual care coordination tools."
       },
       {
         "title": "Pandemic & Infectious Disease Risk",
         "desc": "Physical consultations expose vulnerable patients to contagious diseases, especially during public health crises like COVID-19. We support the shift from clinic-based visits to remote consultations and monitoring, ensuring that patients receive care in a safe, controlled environment, at home. It is done by virtual appointments, remote diagnostics, and contactless care delivery via Salesforce.",
         "deskImg": "/images/home-health/pandemic-desk.webp",
-        "mobImg": "/images/home-health/Mobile/pandemic-mob.webp"
+        "mobImg": "/images/home-health/Mobile/pandemic-mob.webp",
+        "alt": "Image showing remote consultations and contactless care to reduce infectious disease exposure."
       },
       {
         "title": "Lack of Real-Time Health Tracking",
         "desc": "Without real-time visibility into patient health, early warning signs are often missed, leading to preventable complications. Rialtes enables Remote Patient Monitoring (RPM) by integrating smart medical devices and wearables with Salesforce Health Cloud, ensuring healthcare providers receive live updates and alerts for timely intervention.",
         "deskImg": "/images/home-health/lack-desk.webp",
-        "mobImg": "/images/home-health/Mobile/lack-mob.webp"
+        "mobImg": "/images/home-health/Mobile/lack-mob.webp",
+        "alt": "Graphic illustrating remote patient monitoring using wearables and smart medical devices."
       },
       {
         "title": "Long Waiting Times",
         "desc": "Overburdened clinics lead to delayed care, missed follow-ups, and frustrated patients. With automated appointment scheduling, intelligent routing tools, and virtual care options, we help reduce patient backlog and facilitate on-demand consultations for home-bound patients.",
         "deskImg": "/images/home-health/long-desk.webp",
-        "mobImg": "/images/home-health/Mobile/long-mob.webp"
+        "mobImg": "/images/home-health/Mobile/long-mob.webp",
+        "alt": "Image showing automated scheduling and virtual consultations to reduce patient backlog."
       },
       {
         "title": "Limited Access to Mental Health Support",
         "desc": "Access to mental health services remains a challenge due to stigma, limited availability, and logistical barriers. Rialtes offers discreet, virtual access to behavioral health professionals, counseling sessions, and mood-tracking tools, all integrated within a secure and patient-friendly digital platform.",
         "deskImg": "/images/home-health/limited-desk.webp",
-        "mobImg": "/images/home-health/Mobile/limited-mob.webp"
+        "mobImg": "/images/home-health/Mobile/limited-mob.webp",
+        "alt": "Visual representing virtual behavioral health services and mood tracking tools."
       }
     ],
     "aiRovolutionizingData": [
@@ -1059,6 +1147,15 @@
     "contactSubTitle": "Transform your patient care model with Rialtes’ Salesforce-powered home health solutions"
   },
   "semiconductor": {
+    "bannerAlt":"Macro view of semiconductor wafer with glowing pink and blue silicon chips on circuit board representing advanced microelectronics",
+    "dataAlt":"Futuristic microprocessor chip with glowing red and blue data streams flowing upward representing quantum computing and AI processing",
+    "semiALt":"Semiconductor technician in cleanroom suit holding colorful silicon wafer with microchip patterns in sterile manufacturing facility",
+    "deepAlt":"Gloved hands holding glowing microchip with bright orange sparks representing semiconductor innovation and nanotechnology research",
+    "aiAlt": "Robotic arm performing precision inspection on semiconductor wafer with microchips in advanced chip manufacturing facility",
+    "keyAlt": "Female worker in white hard hat and yellow safety vest monitoring production data dashboard with charts in industrial facility",
+    "endAlt": "Two robotic hands shaking in digital handshake with glowing orange circuit patterns on blue technology background showing partnership",
+    "whyAlt": "Semiconductor engineer in protective eyewear and gloves precisely handling illuminated microchip pins in advanced research laboratory",
+    "globalAlt":"Business professionals analyzing global data on digital world map in a modern analytics control room",
     "seoTitle": "AI in Semiconductor Industry: Scalable IT Solutions | Rialtes",
     "seoDescription": "Rialtes enables AI in semiconductor industry with SAP and Salesforce to boost fab productivity, partner collaboration, and intelligent forecasting.",
     "headerTitle": " Semiconductor Industry",
@@ -1193,8 +1290,9 @@
           "Costing, profitability, and revenue recognition linked directly to production yields, customer-specific agreements, and volume pricing models.",
           "Warranty, return, and service management for both B2B and B2C semiconductor products, including support for long lifecycle components."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/sap-s4hana-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/sap-s4hana-desk.webp"
+        "imageAlt":"Precision probe testing semiconductor wafer with microchips in advanced manufacturing lab for electronics quality control",
+        "mobImg": "/images/industry/semi-conductor/Mobile/semiconductor-wafer-testing-manufacturing-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/semiconductor-wafer-testing-manufacturing.webp"
       },
       {
         "title": "Salesforce Industry Cloud for Semiconductor Customer and Partner Engagement",
@@ -1206,8 +1304,9 @@
           "Customer support, RMA, and technical service case management, including escalation tracking and AI-based service analytics.",
           "Intelligent forecasting and demand planning driven by customer engagement insights and AI/ML analysis of sales pipelines and design pipelines."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/salesforce-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/salesforce-desk.webp"
+        "imageAlt":"Robotic arm touching glowing cloud icon on digital interface representing AI automation and cloud computing technology",
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-automation-cloud-computing-technology-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-automation-cloud-computing-technology.webp"
       },
       {
         "title": "Unified SAP and Salesforce Integration",
@@ -1220,8 +1319,9 @@
           "Streamlined compliance and audit readiness, covering everything from environmental certifications to export licenses.",
           "End-to-end visibility from customer spec to wafer production, assembly, and final shipment, ensuring responsiveness and risk mitigation."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/unified-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/unified-desk.webp"
+        "imageAlt":"Engineer with tablet reviewing circuit board schematic on monitor in modern electronics manufacturing facility for production",
+        "mobImg": "/images/industry/semi-conductor/Mobile/electronics-engineer-circuit-design-manufacturing-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/electronics-engineer-circuit-design-manufacturing.webp"
       }
     ],
     "keyTitle": " Key Business Outcomes from Integration:",
@@ -1239,8 +1339,9 @@
           "Automated layout and power optimization, reducing chip size and energy consumption.",
           "Detecting design rule violations early, minimizing costly redesigns."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-powered-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-powered-desk.webp"
+        "imageAlt": "AI microchip with glowing blue letters on circuit board with orange and blue illuminated pathways showing neural processing",
+        "mobImg": "/images/industry/semi-conductor/Mobile/ai-chip-artificial-intelligence-processor-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/ai-chip-artificial-intelligence-processor.webp"
       },
       {
         "title": "Predictive Yield Management & Fab Operations Optimization",
@@ -1250,8 +1351,9 @@
           "AI models predicting wafer yields based on real-time fab data, reducing production losses.",
           "Automated root cause analysis (RCA) for yield drops, shortening investigation time."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/predictive-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/predictive-desk.webp"
+        "imageAlt": "Technicians in white sterile suits working with automated manufacturing equipment in bright pharmaceutical cleanroom facility",
+        "mobImg": "/images/industry/semi-conductor/Mobile/pharmaceutical-cleanroom-manufacturing-sterile-production-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/pharmaceutical-cleanroom-manufacturing-sterile-production.webp"
       },
       {
         "title": "AI-Driven Supply Chain and Demand Forecasting",
@@ -1261,8 +1363,9 @@
           "Risk mitigation through AI-led supplier risk monitoring and dual sourcing strategies.",
           "Dynamic production scheduling and fab capacity planning based on AI demand forecasts."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-supply-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-supply-desk.webp"
+        "imageAlt": "Miniature tilt-shift view of modern industrial manufacturing facility with blue and orange lights at dusk showing smart factory",
+        "mobImg": "/images/industry/semi-conductor/Mobile/smart-factory-industrial-iot-manufacturing-facility-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/smart-factory-industrial-iot-manufacturing-facility.webp"
       },
       {
         "title": "AI for Test, Validation, and Post-Silicon Debug",
@@ -1272,8 +1375,9 @@
           "Early identification of systematic defects and design-for-test (DFT) optimization.",
           "Anomaly detection in silicon validation, speeding up debug cycles for first-silicon success."
         ],
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-test-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-test-desk.webp"
+        "imageAlt": "Gloved hand using soldering iron creating bright spark on circuit board with electronic components in precision assembly work",
+        "mobImg": "/images/industry/semi-conductor/Mobile/precision-electronics-manufacturing-circuit-board-assembly-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/precision-electronics-manufacturing-circuit-board-assembly.webp"
       }
     ],
     "worldTitle": "Real-World Impacts:",
@@ -1377,8 +1481,9 @@
       {
         "id": "1",
         "title": "20+ Years of Semiconductor Domain Experience — Industry-Aligned, Actionable Solutions",
-        "mobImg": "/images/industry/semi-conductor/Mobile/20yrssemiconductor-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/20yrssemiconductor-desk.webp",
+        "imageAlt":"Two software engineers in glasses collaborating at computer workstation analyzing code in modern blue-lit technology office environment",
+        "mobImg": "/images/industry/semi-conductor/Mobile/software-engineers-collaborating-computer-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/software-engineers-collaborating-computer.webp",
         "desc": "Rialtes has built a reputation working closely with some of the world’s largest semiconductor brands to modernize their business processes. We understand the unique complexity of semiconductor value chains — from wafer fabrication, IC design, and testing, to contract manufacturing, and IP licensing.",
         "dataList": [
           "Practical knowledge of fabless and foundry models",
@@ -1391,8 +1496,9 @@
       {
         "id": "2",
         "title": "Business Process Experts with Fortune 500 Project Expertise",
-        "mobImg": "/images/industry/semi-conductor/Mobile/business-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/business-desk.webp",
+        "imageAlt":"Business professionals in formal attire smiling while collaborating on laptop during office meeting with colleague at wooden conference table",
+        "mobImg": "/images/industry/semi-conductor/Mobile/business-professionals-collaborating-laptop-meeting-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/business-professionals-collaborating-laptop-meeting.webp",
         "desc": "Our consultants and architects are not just technologists — they are semiconductor business process experts with real-world expertise driving transformation projects in Fortune 500 semiconductor firms. We understand what it takes to make SAP & Salesforce work for complex, global, multi-stakeholder environments.",
         "dataList": [
           "End-to-end advisory on streamlining design-win processes, deal management, and supply chain",
@@ -1405,8 +1511,9 @@
       {
         "id": "3",
         "title": "Proven SAP S/4 HANA & Salesforce Integration for Semiconductor",
-        "mobImg": "/images/industry/semi-conductor/Mobile/proven-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/proven-desk.webp",
+        "imageAlt":"Close-up of colorful silicon wafer with rainbow reflections showing intricate microchip patterns in semiconductor fabrication",
+        "mobImg": "/images/industry/semi-conductor/Mobile/silicon-wafer-microchip-semiconductor-manufacturing-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/silicon-wafer-microchip-semiconductor-manufacturing.webp",
         "desc": "Rialtes delivers fully integrated SAP and Salesforce solutions tailored for semiconductor processes — enabling seamless information flow from the customer to the fab floor and back. Our approach ensures one version of truth across sales, engineering, and operations, reducing errors, improving collaboration, and driving faster time to market.",
         "dataList": [
           "Integrated deal registration and quoting directly linked to SAP order management",
@@ -1419,8 +1526,9 @@
       {
         "id": "4",
         "title": "AI-Driven Approach with Data at the Core",
-        "mobImg": "/images/industry/semi-conductor/Mobile/ai-approach-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/ai-approach-desk.webp",
+        "imageAlt":"Two engineers collaborating on a laptop in a modern industrial facility, discussing data-driven solutions",
+        "mobImg": "/images/industry/semi-conductor/Mobile/industrial-engineers-collaboration-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/industrial-engineers-collaboration.webp",
         "desc": "In today’s semiconductor landscape, data and AI play a pivotal role in everything from demand planning to engineering collaboration and partner management. Rialtes combines AI, analytics, and automation across Salesforce and SAP platforms to empower semiconductor companies with data-driven decision-making.",
         "dataList": [
           "Predictive deal scoring and partner performance insights",
@@ -1433,8 +1541,9 @@
       {
         "id": "5",
         "title": "Agile, End-to-End Delivery: Advisory to Post-Go-Live Success",
-        "mobImg": "/images/industry/semi-conductor/Mobile/agile-mob.webp",
-        "deskImg": "/images/industry/semi-conductor/agile-desk.webp",
+        "imageAlt":"Businesswoman giving a presentation with growth charts on a screen during a corporate meeting",
+        "mobImg": "/images/industry/semi-conductor/Mobile/business-presentation-growth-meeting-mobile.webp",
+        "deskImg": "/images/industry/semi-conductor/business-presentation-growth-meeting.webp",
         "desc": "What sets Rialtes apart is our commitment to end-to-end ownership — from initial advisory, process design, system implementation, to post-go-live support and continuous optimization. We work as a true partner, not just an implementer.",
         "dataList": [
           "Pre-built accelerators for semiconductor-specific SAP & Salesforce processes",
@@ -1460,6 +1569,20 @@
     "contactSubtitleOne": "Contact us today for a free consultation and explore how we can empower your connected enterprise!"
   },
   "manufacturing": {
+    "bannerAlt": "Industrial turbines and connected pipelines in blue-lit facility representing MuleSoft integration and data connectivity",
+    "thoughtAlt": "Engineer with tablet viewing holographic data dashboards and blue light streams in smart factory showing digital transformation",
+    "endAlt": "Female engineer in yellow hard hat and safety vest using tablet while inspecting industrial facility with metallic structures",
+    "preAlt": "Digital cityscape with glowing blue and orange light rays bursting from horizon over futuristic grid technology floor",
+    "enginerAlt": "Engineer in blue gloves operating precision machinery holding metal component over industrial parts in manufacturing facility",
+    "manAlt": "Automated pharmaceutical production line with precision dispensers filling vials with glowing orange liquid in modern facility",
+    "dataAlt": "Two female engineers in safety vests analyzing technical data and 3D models on computer screens in manufacturing control room",
+    "roboticAlt": "Orange robotic arms assembling electric vehicle battery chassis on automated production line in modern manufacturing facility",
+    "shopAlt": "Two quality control workers in protective gear inspecting metal containers with clipboard in sterile food processing facility",
+    "cloudAlt": "IT professional analyzing cybersecurity dashboard with data visualization charts and lock icons on digital screen at night",
+    "erpAlt": "Two renewable energy engineers in safety vests and helmets inspecting wind turbine with laptop at wind farm under blue sky",
+    "demandAlt": "Two warehouse workers in yellow safety vests and helmets walking through modern distribution center with tall storage racks",
+    "aiAlt": "Digital grid pathway with glowing data points leading to industrial facility and wind turbines in green sustainable landscape",
+    "powerAlt": "Glowing neon light bulb with electric blue and pink energy waves flowing upward showing innovation and creative power concept",
     "seoTitle": "IT and Cloud ERP Solutions for Manufacturing Industry | Rialtes",
     "seoDescription": "Rialtes delivers expert IT and cloud ERP solutions for manufacturing businesses, helping drive efficiency, innovation, and digital transformation at scale.",
     "headerTitle": "Manufacturing",
@@ -1524,6 +1647,22 @@
     "contactSubtitleOne": "Contact Us Today and start your journey toward intelligent, resilient, and customer-centric manufacturing!"
   },
   "education": {
+    "bannerAlt":"Graduate student in cap and gown with digital data overlay looking forward representing education technology and future learning",
+    "businessAlt":"Business professional in gray suit and blue tie using digital tablet in modern office with glass wall background",
+    "studentALt":"Smiling young woman in orange shirt with backpack using laptop outdoors leaning against wall on sunny city street",
+    "markeAlt":"Group of diverse students collaborating with tablet and notebooks in bright library study space with bookshelves behind",
+    "studentAlt":"Diverse group of young students engaged in animated discussion with laptop outdoors in casual collaborative learning session",
+    "teamAlt":"Three diverse business professionals in discussion around laptop reviewing documents in bright modern office meeting space",
+    "hanaAlt":"Professional woman in beige coat with glasses smiling while using smartphone and holding leather bag on urban city street",
+    "cloudAlt":"Excited woman in pink cardigan celebrating with fist pump while holding credit card and using laptop outdoors for online shopping",
+    "campusAlt":"Smiling male graduate in green cap and gown with red stole holding diploma standing outdoors at university campus",
+    "empowerAlt":"Hands holding holographic glowing brain surrounded by educational technology icons including books videos and search symbols",
+    "aiAlt":"Woman with headset holding smartphone displaying AI brain icon surrounded by educational and communication technology symbols",
+    "autoAlt":"White gear and circular arrows icon on blue background representing cloud automation and workflow",
+    "smartAlt":"White gear with microchip center and circular arrows on blue background representing continuous process automation",
+    "systemAlt":"White gear with connected nodes and three chat bubbles on blue background representing system integration and communication",
+    "leadAlt":"White chat bubbles with padlock icon on blue background representing secure messaging and data protection",
+    "solutionAlt":"Hands holding holographic graduation cap made of connected blue particles and light points representing digital education",
     "seoTitle": "Salesforce Cloud IT Solutions for Education Industry | Rialtes",
     "seoDescription": "IT solutions for education using AI and Salesforce Cloud empower K–12 to higher ed to transform learning. Explore smarter outcomes with Rialtes today.",
     "headerTitle": "Education Industry",
@@ -1685,6 +1824,20 @@
     ]
   },
   "finance": {
+    "exelonaBlendAlt" : "Modern glass skyscrapers reflecting blue sky and clouds viewed from below showcasing contemporary corporate architecture",
+    "financialSectionAlt" : "Male presenter holding holographic financial chart visualization presenting Salesforce solutions to audience with market graphs backdrop",
+    "supportAlt" : "Blue headset icon with 24/7 text representing round-the-clock financial customer support and always-available service assistance",
+    "globalDeliveryAlt" : "Blue line icon showing globe with connection points representing global financial services delivery and worldwide network coverage",
+    "certificationAlt" : "Blue line icon depicting document with certification seal representing 150+ financial industry certifications and credentials",
+    "certifiedAlt" : "Blue line icon showing person with certification badge ribbon representing certified financial experts and professional credentials",
+    "dataDrivenSectionAlt" : "Hand holding transparent card with financial charts over tablet displaying colorful interactive dashboard analytics visualization",
+    "agentchatAlt" : "Smiling businesswoman using mobile phone with coffee outdoors against modern corporate building skyline for digital banking",
+    "exelonaSectionAlt" : "Modern glass skyscrapers looking upward with blue sky showcasing Exelona real estate finance Salesforce FSC solution",
+    "revolutionizingAlt" : "Professional woman in yellow analyzing colorful financial data charts and graphs on transparent digital display wall",
+    "saphanaSectionAlt" : "Female financial professional working on laptop with transparent SAP HANA analytics overlays showing market data and charts",
+    "deepExpertiseAlt" : "Financial advisor team consulting with clients in modern glass office discussing Salesforce financial service solutions",
+    "thoughtLeadershipAlt" : "Professional woman with glasses analyzing financial data charts and graphs displayed on dark screen with golden lighting",
+    "bannerAlt" : "Dynamic purple and blue digital network visualization with radiating light streams representing intelligent financial technology",
     "financeTitle": "Finance Industry Solutions",
     "seoTitle": "Digital Finance Transformation Services and Solutions | Rialtes",
     "seoDescription": "Rialtes delivers expert-led digital finance transformation consulting with proven SAP and Salesforce solutions tailored to financial institutions, globally.",
@@ -1816,6 +1969,16 @@
     ]
   },
   "automativeIndustry": {
+    "partneringPowerAlt" : "Night highway with red orange light trails representing Rialtes SAP and Salesforce partnership power for automotive solutions",
+    "integrationSectionAlt" : "Man charging electric vehicle outdoors showcasing SAP CPI BTP integration for automotive stack and mobility services technology",
+    "unlockingSectionAlt" : "Commercial vehicle technician performing maintenance in workshop representing fleet service management and automotive repair operations",
+    "empoweringSectionAlt" : "Digital red car with cloud technology on highway with light trails representing connected automotive cloud and data integration",
+    "dealerSectionAlt" : "Professional sales team reviewing tablet together in modern car dealership for customer relationship management and deal closing",
+    "enablingSectionAlt" : "Car salesman consulting with customer at computer in bright showroom providing personalized automotive sales and finance solutions",
+    "revolutionizingAlt" : "Automotive technician using diagnostic tablet in modern service center revolutionizing vehicle maintenance and repair operations",
+    "comprehensiveSectionAlt" :"Smiling automotive manager with smartphone in vehicle fleet dealership representing comprehensive customer service journey",
+    "thoughtLeadershipAlt" : "Automotive professionals consulting with tablet in modern car dealership discussing industry solutions and leadership challenges",
+    "bannerAlt" : "Futuristic green digital car with network visualization on urban road representing automotive digital transformation technology",
     "seoTitle": "Digital Transformation in Automotive Industry | Rialtes",
     "seoDescription": "Ready for digital transformation in automotive? Partner with Rialtes to revolutionize your automotive industry journey and fuel future growth.",
     "keyIndustryChallenges": [
@@ -1849,9 +2012,10 @@
     ],
     "endtoendautomativesection": [
       {
-        "imgUrlMobile": "/images/industry/auto-industry/Mobile/lead-mgmt-mob-img.webp",
-        "imgUrlDesktop": "/images/industry/auto-industry/lead-mgmt-img.webp",
+        "imgUrlMobile": "/images/industry/auto-industry/Mobile/female-automotive-professional-tablet-showroom-mobile.webp",
+        "imgUrlDesktop": "/images/industry/auto-industry/female-automotive-professional-tablet-showroom.webp",
         "title": "Lead Management & Vehicle Discovery",
+        "alt" : "Confident female automotive professional with tablet in car showroom representing dealer management and digital solutions",
         "list": [
           "Omnichannel lead capture via Salesforce Automotive Cloud — web, mobile, showroom, and social.",
           "Dynamic lead scoring and nurturing using Marketing Cloud.",
@@ -1861,9 +2025,10 @@
         ]
       },
       {
-        "imgUrlMobile": "/images/industry/auto-industry/Mobile/deal-finance-mob-img.webp",
-        "imgUrlDesktop": "/images/industry/auto-industry/deal-finance-img.webp",
+        "imgUrlMobile": "/images/industry/auto-industry/Mobile/car-sales-team-consulting-blue-folder-showroom-mobile.webp",
+        "imgUrlDesktop": "/images/industry/auto-industry/car-sales-team-consulting-blue-folder-showroom.webp",
         "title": "Deal & Finance Management",
+        "alt" : "Professional car sales team reviewing blue folder in showroom for deal and finance management automotive solutions",
         "list": [
           "Quote and negotiation management using Salesforce Revenue Cloud (CPQ).",
           "Integrated credit application, leasing, and financing options.",
@@ -1990,6 +2155,17 @@
     "learnMoreBtn": "Learn More"
   },
   "travelIndustry": {
+    "smaterServiceAlt": "Graphic showing Agentforce AI bots and personalized agent interactions for travel support",
+    "quikCommerceAlt": "Mobile visual representing real-time booking, check-in, and service requests in travel and hospitality",
+    "aiPoweredAlt": "Mobile image showing AI-powered travel experiences including chatbots and predictive maintenance.",
+    "rightTechPartAlt": "Image emphasizing the importance of choosing the right technology partner for scalable travel solutions.",
+    "flawlessAlt": "Visual showing integration of front-end and back-end systems for seamless travel operations.",
+    "drivingReapeatAlt": "Image illustrating loyalty management and gamification strategies for repeat travel customers.",
+    "optimizeAlt": "Mobile visual showing real-time inventory and dynamic pricing for travel and hospitality services.",
+    "personalizeAlt": "Background image representing personalized travel experiences powered by AI and data insights.",
+    "industryFocusAlt": "Mobile-optimized image highlighting industry-specific IT solutions for travel and hospitality.",
+    "endtoendAlt": "Visual representing end-to-end digital solutions for the travel and hospitality industry.",
+    "bannerAlt": "Banner image promoting digital transformation in travel, transportation, and hospitality with SAP and Salesforce.",
     "seoTitle": "Travel and Hospitality IT Solutions | SAP and Salesforce | Rialtes",
     "seoDescription": "Reimagine travel and hospitality IT solutions with AI, SAP, and Salesforce to enable real-time booking, loyalty programs, personalization, and efficiency.",
     "endToEndData": [
@@ -2119,6 +2295,16 @@
     "learnMoreBtn": "Learn More"
   },
   "retailIndustry": {
+    "aiPoweredAlt" : "Smiling retail employee assisting customer with mobile payment scanning at modern store checkout counter with technology",
+    "rightSectionAlt" : "Retail store manager and employee discussing inventory on tablet in modern clothing boutique with display racks",
+    "actionableSectionAlt" : "Professional viewing dynamic data cloud analytics with motion blur effect showing retail business intelligence and insights",
+    "frictionlessSectionAlt" : "Hand interacting with transparent digital analytics dashboard displaying real-time data charts graphs and business metrics",
+    "loyaltySectionAlt" : "Wooden blocks showing loyalty program icons including discount card QR code gift box and shopping bags for customer rewards",
+    "realTimeAlt" : "Warehouse team in safety vests using tablet for cloud-powered real-time inventory tracking and management in storage facility",
+    "salesforceMarketingAlt" : "Person in yellow sweater browsing online shopping product catalog with clothing and home items displayed on tablet screen",
+    "fashionRetailAlt" : "Professional man with glasses interacting with blue touchscreen display showing digital avatars in modern office environment",
+    "newRealitySectionAlt" : "Smiling retail store employee with glasses holding tablet for inventory management in product aisle with shelves",
+    "bannerAlt" : "Customer using interactive digital shopping cart interface in modern retail store with touchscreen technology display",
     "seoTitle": "Digital Transformation in Retail Industry with SAP | Rialtes",
     "seoDescription": "Drive retail industry digital transformation with SAP and Salesforce. Rialtes fuels innovation and growth with agile, intelligent, customer-first solutions.",
     "newRealityData": [
@@ -2141,28 +2327,35 @@
     ],
     "chooseRialtesData": [
       {
-        "imgUrl": "/images/industry/retail-industry/img-1.svg",
-        "desc": "Strategic Retail Advisory and Business Architecture"
+        "imgUrl": "/images/industry/retail-industry/omnichannel-retail-network-connectivity-icon.svg",
+        "desc": "Strategic Retail Advisory and Business Architecture",
+        "alt" : "Blue line icon showing storefront connected to multiple devices representing omnichannel retail network integration"
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-2.svg",
-        "desc": "Customized Solution Design & Industry Blueprints"
+        "imgUrl": "/images/industry/retail-industry/retail-blueprint-planning-design-icon.svg",
+        "desc": "Customized Solution Design & Industry Blueprints",
+        "alt" : "Blue line icon depicting blueprint with pencil and design elements for retail store planning and layout optimization"
+
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-3.svg",
-        "desc": "Pre-Built Accelerators for Rapid Deployment"
+        "imgUrl": "/images/industry/retail-industry/retail-business-growth-launch-acceleration-icon.svg",
+        "desc": "Pre-Built Accelerators for Rapid Deployment",
+        "alt" : "Blue rocket icon with percentage symbol launching upward representing retail business growth and sales acceleration"
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-4.svg",
-        "desc": "Quality Assurance & Performance Engineering"
+        "imgUrl": "/images/industry/retail-industry/retail-security-compliance-protection-icon.svg",
+        "desc": "Quality Assurance & Performance Engineering",
+        "alt" : "Blue shield with checkmark and gear icon representing retail security compliance and operational protection systems"
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-5.svg",
-        "desc": "Integration of Front and Back Office (SAP, Salesforce, Oracle, MuleSoft)"
+        "imgUrl": "/images/industry/retail-industry/retail-data-integration-system-synchronization-icon.svg",
+        "desc": "Integration of Front and Back Office (SAP, Salesforce, Oracle, MuleSoft)",
+        "alt" : "Blue icon showing computer monitor with bidirectional arrows and folder representing retail data integration and synchronization"
       },
       {
-        "imgUrl": "/images/industry/retail-industry/img-6.svg",
-        "desc": "Post Go-Live Support, Optimization & Innovation"
+        "imgUrl": "/images/industry/retail-industry/retail-customer-support-service-icon.svg",
+        "desc": "Post Go-Live Support, Optimization & Innovation",
+        "alt" : "Blue headset with lightbulb icon representing retail customer support innovation and intelligent service solutions"
       }
     ],
     "fashionRetailData": [
@@ -2220,16 +2413,18 @@
     ],
     "aiPoweredCustomerData": [
       {
-        "mobImgUrl": "/images/industry/retail-industry/mobile/aiPowered-agentforce-mob-img.webp",
-        "deskImgUrl": "/images/industry/retail-industry/aiPowered-agentforce-desk-img.webp",
+        "mobImgUrl": "/images/industry/retail-industry/mobile/digital-hands-ai-technology-connection-concept-mobile.webp",
+        "deskImgUrl": "/images/industry/retail-industry/digital-hands-ai-technology-connection-concept.webp",
         "title": "Agentforce",
-        "desc": "AI-powered service cloud bots, virtual agents, and personalized support journeys."
+        "desc": "AI-powered service cloud bots, virtual agents, and personalized support journeys.",
+        "alt" : "Two hands reaching toward each other with glowing purple digital particles representing AI technology and human connection"
       },
       {
-        "mobImgUrl": "/images/industry/retail-industry/mobile/aiPowered-datacloud-mob-img.webp",
-        "deskImgUrl": "/images/industry/retail-industry/aiPowered-datacloud-desk-img.webp",
+        "mobImgUrl": "/images/industry/retail-industry/mobile/cloud-data-technology-infrastructure-computing-mobile.webp",
+        "deskImgUrl": "/images/industry/retail-industry/cloud-data-technology-infrastructure-computing.webp",
         "title": "Data Cloud",
-        "desc": "Unified 360° customer profiles for personalized offers, support, and upselling."
+        "desc": "Unified 360° customer profiles for personalized offers, support, and upselling.",
+        "alt" : "White cloud with blue digital circuit connections below representing cloud computing and data technology infrastructure"
       }
     ],
     "actionableData": [
@@ -2307,6 +2502,12 @@
     "contactSubTitle2": "Contact us today to unlock the future of retail."
   },
   "nonProfit": {
+    "whyChooseRialtesAlt" : "Hand touching nonprofit digital network interface with connected icons showing community collaboration innovation and organization ecosystem",
+    "dataCloudAlt" : "Volunteers working with transparent data analytics overlay showing pie charts graphs representing nonprofit impact measurement metrics",
+    "agentforceAlt" : "Smiling nonprofit professionals collaborating on laptop reviewing organizational strategy and program planning together at desk",
+    "donorSectionAlt" : "Professional reviewing data analytics charts and graphs on smartphone with laptop displaying nonprofit performance metrics reports",
+    "thoughtLeadershipAlt" : "Volunteer team members using tablet for coordinating food distribution and donation management at community food bank",
+    "bannerAlt" : "Hands assembling colorful rainbow heart puzzle representing nonprofit teamwork collaboration and purpose-driven unity",
     "seoTitle": "Nonprofit Digital Transformation and IT Solutions | Rialtes",
     "seoDescription": "Rialtes empowers nonprofits with smart IT solutions and digital transformation to streamline grants, donors, volunteers, and program operations seamlessly.",
     "whyChooseData": [
@@ -2367,8 +2568,9 @@
           "Provide transparency to donors on how their contributions are used through automated impact reporting."
         ],
         "bgColor": "#FCF0D9",
-        "deskImg": "/images/industry/non-profit-industry/fundraising-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/fundraising-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/team-circle-puzzle-pieces-unity-collaboration.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/team-circle-puzzle-pieces-unity-collaboration-mobile.webp",
+        "alt" : "Diverse team holding wooden puzzle pieces in circle from above representing nonprofit collaboration and collective impact"
       },
       {
         "title": "Family & Household Mapping",
@@ -2381,8 +2583,9 @@
           "Map relationships between donors, board members, and program participants for community building."
         ],
         "bgColor": "#E6E6A1",
-        "deskImg": "/images/industry/non-profit-industry/family-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/family-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/growing-plant-golden-coins-nonprofit-funding.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/growing-plant-golden-coins-nonprofit-funding-mobile.webp",
+        "alt" : "Green plant seedling growing from golden coins with miniature figures representing nonprofit funding and sustainable growth"
       },
       {
         "title": "Personalized Donor Outreach with Salesforce Marketing Cloud",
@@ -2395,8 +2598,9 @@
           "Dynamic donor journeys that adjust based on behavior and giving patterns."
         ],
         "bgColor": "#D8DBEF",
-        "deskImg": "/images/industry/non-profit-industry/personalized-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/personalized-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/foundation-presentation-whiteboard-nonprofit-meeting.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/foundation-presentation-whiteboard-nonprofit-meeting-mobile.webp",
+        "alt" : "Woman presenting foundation mission and volunteer programs on whiteboard during nonprofit organization strategy meeting"
       },
       {
         "title": "Donor Management",
@@ -2409,8 +2613,9 @@
           "Comprehensive acknowledgment and recognition processes to foster loyalty."
         ],
         "bgColor": "#E1E6C9",
-        "deskImg": "/images/industry/non-profit-industry/donor-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/donor-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/diverse-team-office-collaboration-nonprofit-meeting.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/diverse-team-office-collaboration-nonprofit-meeting-mobile.webp",
+        "alt" : "Diverse nonprofit team collaborating in modern office workspace discussing projects and organizational strategy together"
       },
       {
         "title": "Volunteer Management",
@@ -2423,8 +2628,9 @@
           "Real-time dashboards for volunteer engagement and contribution measurement."
         ],
         "bgColor": "#F2D8C2",
-        "deskImg": "/images/industry/non-profit-industry/volunteer-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/volunteer-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/volunteers-planting-tree-community-environmental-service.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/volunteers-planting-tree-community-environmental-service-mobile.webp",
+        "alt" : "Group of volunteers in green shirts planting tree together during environmental community service and sustainability project"
       },
       {
         "title": "Program & Outcome Management",
@@ -2437,8 +2643,9 @@
           "Transparent reporting for donors, boards, and grantors."
         ],
         "bgColor": "#E6E1F7",
-        "deskImg": "/images/industry/non-profit-industry/program-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/program-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/mobile-phone-donation-app-charity-interface.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/mobile-phone-donation-app-charity-interface-mobile.webp",
+        "alt" : "Person using smartphone donation app interface showing charity contribution and fundraising platform for nonprofit organizations"
       },
       {
         "title": "Grant Management",
@@ -2451,8 +2658,9 @@
           "Integrated reporting to demonstrate effective fund usage to grantors."
         ],
         "bgColor": "#F0E4ED",
-        "deskImg": "/images/industry/non-profit-industry/grant-desk.webp",
-        "mobImg": "/images/industry/non-profit-industry/Mobile/grant-mob.webp"
+        "deskImg": "/images/industry/non-profit-industry/financial-management-technology-icons-nonprofit-dashboard.webp",
+        "mobImg": "/images/industry/non-profit-industry/Mobile/financial-management-technology-icons-nonprofit-dashboard-mobile.webp",
+        "alt" : "Holographic financial icons including money bag charts and analytics displaying nonprofit financial management technology dashboard"
       }
     ],
     "headerTitle": "Non-Profit Industry",

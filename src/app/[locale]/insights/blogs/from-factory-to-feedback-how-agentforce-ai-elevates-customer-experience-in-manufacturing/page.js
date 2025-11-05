@@ -18,7 +18,7 @@ const schemaData = {
     "@type": "BlogPosting",
     "headline": "From Factory to Feedback: How Agentforce AI Elevates Customer Experience in Manufacturing",
     "description": "Agentforce for manufacturers reimagines Customer Experience with AI agents that predict disruptions, automate resolutions, and deliver smarter, seamless customer journeys.",
-    "image": " https://www.rialtes.com/images/blog/factory-banner.webp",
+    "image": " https://www.rialtes.com/images/blog/technology-team-collaboration-command-center.webp",
     "author": {
         "@type": "Organization",
         "name": "Rialtes"
@@ -123,8 +123,8 @@ export default function Page() {
                 {/* Desktop Image */}
                 <div className="hidden md:block">
                     <Image
-                        src="/images/blog/factory-banner.webp"
-                        alt="banner"
+                        src="/images/blog/technology-team-collaboration-command-center.webp"
+                        alt={t("bannerAlt")}
                         fill
                         style={{ objectFit: "cover" }}
                         priority
@@ -135,8 +135,8 @@ export default function Page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden h-full">
                     <Image
-                        src="/images/blog/small-mobile-banner.webp"
-                        alt="banner"
+                        src="/images/blog/technology-team-collaboration-command-center-mobile.webp"
+                        alt={t("bannerAlt")}
                         priority
                         height={0}
                         width={0}

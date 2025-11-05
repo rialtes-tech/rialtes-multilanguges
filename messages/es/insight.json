@@ -1,5 +1,6 @@
 {
   "insights": {
+    "bannerAlt": "Iceberg flotando en océano azul simbolizando profundidades ocultas y perspectivas expertas de la industria empresarial",
     "insightTitle": "Mantente a la Vanguardia con Información Experta de la Industria",
     "seoTitle": "Blogs Rialtes | Salesforce, SAP, IA y Nube",
     "seoDescription": "Lee blogs expertos sobre Salesforce, SAP, nube e IA. Mantente informado con las últimas tendencias e innovación digital de Rialtes.",
@@ -83,10 +84,12 @@
     "newsDesc": "Descubre cómo estamos dando forma al futuro de los negocios a nivel mundial. Tu fuente de referencia para las últimas actualizaciones, logros e innovaciones de Rialtes. Mantente informado con nuestras noticias más recientes, comunicados de prensa y perspectivas de la industria mientras seguimos superando los límites en consultoría de procesos, soluciones empresariales impulsadas por IA y transformación digital.",
     "readMore": "Leer Más",
     "loadMore": "Cargar Más",
-    "latestCaseStudy": [
+    "bannerAlt": "Persona usando una computadora portátil convertible en modo tableta para navegar por noticias en línea, representando los medios digitales modernos y el uso de la tecnología",
+    "latestNews": [
       {
         "id": 1,
-        "image": "/images/news/new-12-may.webp",
+        "image": "/images/news/salesforce-authorized-cloud-reseller.webp",
+        "alt": "Logotipo de Salesforce Authorized Cloud Reseller sobre un fondo digital futurista azul y púrpura, que representa una asociación oficial en la nube y servicios tecnológicos",
         "industry": "Noticias",
         "date": "May 12, 2025",
         "url": "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/",
@@ -94,7 +97,8 @@
       },
       {
         "id": 2,
-        "image": "/images/news/news2.webp",
+        "image": "/images/news/digital-handshake-technology.webp",
+        "alt": "Apretón de manos digital 3D con diseño de estructura alámbrica futurista sobre fondo tecnológico azul, que simboliza asociación tecnológica y colaboración digital",
         "industry": "Noticias",
         "date": "Apr. 18, 2025",
         "url": "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/",
@@ -102,7 +106,8 @@
       },
       {
         "id": 3,
-        "image": "/images/news/generic thumb.webp",
+        "image": "/images/news/ribbon-cutting-ceremony.webp",
+        "alt": "Tijeras doradas cortando una cinta roja sobre fondo azul, que simboliza inauguración, apertura o nuevos comienzos",
         "industry": "Noticias",
         "date": "Apr. 4, 2025",
         "url": "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/",
@@ -159,7 +164,7 @@
     "slides": [
       {
         "id": 1,
-        "image": "/images/blog/signavio-blog-feature-thumb.webp",
+        "image": "/images/blog/digital-data-tunnel-technology-speed-concept-feature-thumb.webp",
         "category": "SAP Signavio",
         "industry": "Genérico",
         "date": "Jun. 16, 2025",
@@ -190,7 +195,16 @@
     ],
     "latestBlogs": [
       {
-        "id": 48,
+        "id": 50,
+        "image": "/images/blog/ai-real-estate-cloud-infrastructure-mobile.webp",
+        "category": "Exelona",
+        "industry": "Bienes Raíces",
+        "date": "03 nov. 2025",
+        "url": "/erp-crm-convergence-real-estate-leaders-guide/",
+        "title": "Convergencia CRM + ERP: cómo los líderes inmobiliarios eliminan los silos de sistemas y reducen costos",
+        "description": "Esto es algo que todo líder inmobiliario ya sabe pero rara vez dice en voz alta: la pila tecnológica que debía simplificar las operaciones ha terminado por complicarlas."
+      },
+      {   "id": 48,
         "image": "/images/blog/Exelona Cluster 1.2_Blog feature thumb.webp",
         "category": "Salesforce",
         "industry": "Genérico",
@@ -198,6 +212,26 @@
         "url": "/how-do-you-track-slas-and-billing-without-losing-your-mind/",
         "title": "¿Cómo hacer seguimiento de los SLA y la facturación sin perder la cabeza?",
         "description": "Un acuerdo de nivel de servicio (SLA) define el nivel de servicio esperado de un proveedor. Especifica las métricas utilizadas para medir ese servicio y los recursos disponibles si no se cumplen los niveles de servicio acordados."
+},
+      {
+        "id": 49,
+        "image": "/images/blog/conversational-ai-in-real-estate-mobile.webp",
+        "category": "Exelona",
+        "industry": "Bienes Raíces",
+        "date": "20 oct. 2025",
+        "url": "/conversational-ai-in-real-estate-scale-resident-support/",
+        "title": "IA conversacional en bienes raíces: amplía el soporte a los residentes sin aumentar el personal",
+        "description": "El soporte a los residentes en la gestión de propiedades se está volviendo más difícil de escalar. Entre las solicitudes de mantenimiento y las consultas de alquiler,"
+      },
+      {
+        "id": 48,
+        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
+        "category": "IA",
+        "industry": "Genérico",
+        "date": "13 oct. 2025",
+        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
+        "title": "IA en operaciones inmobiliarias: reduce el tiempo de inactividad un 30 % y los costos operativos con mantenimiento predictivo",
+        "description": "Esta es la verdad sobre las operaciones inmobiliarias: siempre han sido un equilibrio entre costo, confort y continuidad."
       },
       {
         "id": 47,
@@ -311,7 +345,7 @@
       },
       {
         "id": 36,
-        "image": "/images/blog/ai-that-listens-mob-banner.webp",
+        "image": "/images/blog/ai-that-listens-feature-thumb.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "Sep. 11, 2025",
@@ -321,7 +355,7 @@
       },
       {
         "id": 35,
-        "image": "/images/blog/ai-in-patient-mobile-banner.webp",
+        "image": "/images/blog/futuristic-medical-technology-innovation-mobile.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "Sep. 09, 2025",
@@ -331,7 +365,7 @@
       },
       {
         "id": 34,
-        "image": "/images/blog/industry4-mobile-banner.webp",
+        "image": "/images/blog/industry-4-automation-technology-mobile.webp",
         "category": "Agentforce",
         "industry": "Genérico",
         "date": "Sep. 08, 2025",
@@ -341,7 +375,7 @@
       },
       {
         "id": 33,
-        "image": "/images/blog/first-ai-agent-mob-banner.webp",
+        "image": "/images/blog/artificial-intelligence-data-visualization-mobile.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "Sep. 02, 2025",
@@ -351,7 +385,7 @@
       },
       {
         "id": 32,
-        "image": "/images/blog/byond-robotics-mobile-banner.webp",
+        "image": "/images/blog/industrial-digital-twin-factory-planning-mobile.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "Sep. 01, 2025",
@@ -361,7 +395,7 @@
       },
       {
         "id": 30,
-        "image": "/images/blog/sap-cpi-feature-thumb.webp",
+        "image": "/images/blog/cloud-data-digital-transformation-mobile.webp",
         "category": "SAP",
         "industry": "Genérico",
         "date": "Aug. 26, 2025",
@@ -371,7 +405,7 @@
       },
       {
         "id": 29,
-        "image": "/images/blog/big-reimage-slider.webp",
+        "image": "/images/blog/agentic-ai-technology-microchip-computing-mobile.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "Aug. 25, 2025",
@@ -381,7 +415,7 @@
       },
       {
         "id": 27,
-        "image": "/images/blog/small-slider.webp",
+        "image": "/images/blog/technology-team-collaboration-command-center-mobile.webp",
         "category": "Agentforce",
         "industry": "Genérico",
         "date": "Aug. 22, 2025",
@@ -391,7 +425,7 @@
       },
       {
         "id": 26,
-        "image": "/images/blog/sustain-slider.webp",
+        "image": "/images/blog/sustainable-green-energy-city-renewable-mobile.webp",
         "category": "Inteligencia Artificial",
         "industry": "Genérico",
         "date": "Aug. 21, 2025",
@@ -401,7 +435,7 @@
       },
       {
         "id": 25,
-        "image": "/images/blog/Agentforce-featured-blog.webp",
+        "image": "/images/blog/automotive-manufacturing-engineer-quality-control-mobile.webp",
         "category": "Salesforce Agentforce",
         "industry": "Genérico",
         "date": "Jul. 29, 2025",
@@ -411,7 +445,7 @@
       },
       {
         "id": 24,
-        "image": "/images/blog/blog-slider.webp",
+        "image": "/images/blog/abstract-data-flow-visualization-digital-mobile.webp",
         "category": "Salesforce Agentforce",
         "industry": "Genérico",
         "date": "Jul. 25, 2025",
@@ -421,7 +455,7 @@
       },
       {
         "id": 23,
-        "image": "/images/blog/slider.webp",
+        "image": "/images/blog/business-technology-collaboration-office-mobile.webp",
         "category": "Agentforce",
         "industry": "General",
         "date": "Jul. 21, 2025",
@@ -431,7 +465,7 @@
       },
       {
         "id": 22,
-        "image": "/images/blog/agentexchange-Blog-feature-thumb.webp",
+        "image": "/images/blog/digital-network-connectivity-waves-abstract-mobile.webp",
         "category": "Agentforce",
         "industry": "General",
         "date": "Jul. 02, 2025",
@@ -441,7 +475,7 @@
       },
       {
         "id": 21,
-        "image": "/images/blog/Pharma Jewel of North India_Blog feature thumb.webp",
+        "image": "/images/blog/pharmaceutical-manufacturing-robotics-automation-mobile.webp",
         "category": "General",
         "industry": "Manufactura",
         "date": "Jul. 01, 2025",
@@ -451,7 +485,7 @@
       },
       {
         "id": 20,
-        "image": "/images/blog/signavio-blog-feature-thumb.webp",
+        "image": "/images/blog/digital-data-tunnel-technology-speed-concept-mobile.webp",
         "category": "SAP Signavio",
         "industry": "Genérico",
         "date": "Jun. 16, 2025",
@@ -461,7 +495,7 @@
       },
       {
         "id": 19,
-        "image": "/images/blog/Agentic Pharma_Blog feature thumb.webp",
+        "image": "/images/blog/fiber-optic-tree-network-connectivity-illustration-mobile.webp",
         "category": "IA",
         "industry": "Farmacéutica",
         "date": "May. 30, 2025",
@@ -561,7 +595,7 @@
       },
       {
         "id": 10,
-        "image": "/images/blog/blog-5.webp",
+        "image": "/images/blog/blue-orange-halftone-wave-pattern-abstract-mobile.webp",
         "category": "SAP SuccessFactors",
         "industry": "Recursos Humanos",
         "date": "Dec. 24, 2024",
@@ -571,7 +605,7 @@
       },
       {
         "id": 9,
-        "image": "/images/blog/blog-10-long-thumb.webp",
+        "image": "/images/blog/global-network-connectivity-world-map-visualization-mobile.webp",
         "category": "SAP GTS",
         "industry": "Genérico",
         "date": "Dec. 19, 2024",
@@ -581,7 +615,7 @@
       },
       {
         "id": 8,
-        "image": "/images/blog/blog-4.webp",
+        "image": "/images/blog/digital-gears-network-automation-technology-concept-feature-carousel.webp",
         "category": "Salesforce Agentforce",
         "industry": "Genérico",
         "date": "Nov. 25, 2024",
@@ -591,7 +625,7 @@
       },
       {
         "id": 7,
-        "image": "/images/blog/blog-9.webp",
+        "image": "/images/blog/diversity-inclusion-puzzle-accessibility-concept-mobile.webp",
         "category": "Diversidad e Inclusión",
         "industry": "Recursos Humanos",
         "date": "Nov. 12, 2024",
@@ -601,7 +635,7 @@
       },
       {
         "id": 6,
-        "image": "/images/blog/blog-88.webp",
+        "image": "/images/blog/healthcare-worker-digital-tablet-medical-technology-mobile.webp",
         "category": "Integración",
         "industry": "Salud",
         "date": "Nov. 11, 2024",
@@ -611,7 +645,7 @@
       },
       {
         "id": 5,
-        "image": "/images/blog/blog-7.webp",
+        "image": "/images/blog/target-goal-setting-precision-business-concept-mobile.webp",
         "category": "SAP SuccessFactors",
         "industry": "Recursos Humanos",
         "date": "Oct. 29, 2024",
@@ -621,7 +655,7 @@
       },
       {
         "id": 3,
-        "image": "/images/blog/blog-2.webp",
+        "image": "/images/blog/digital-brain-ai-circuit-technology-illustration-mobile.webp",
         "category": "Salesforce Agentforce",
         "industry": "Genérico",
         "date": "Oct. 21, 2024",
@@ -631,7 +665,7 @@
       },
       {
         "id": 2,
-        "image": "/images/blog/blog-1.webp",
+        "image": "/images/blog/futuristic-robot-ai-digital-interface-technology-mobile.webp",
         "category": "Salesforce Agentforce",
         "industry": "Genérico",
         "date": "Sep. 30, 2024",
@@ -641,7 +675,7 @@
       },
       {
         "id": 1,
-        "image": "/images/blog/blog-6.webp",
+        "image": "/images/blog/professional-drone-camera-aerial-agriculture-monitoring-mobile.webp",
         "category": "Tecnología Verde en la Nube",
         "industry": "Agricultura",
         "date": "Sep. 17, 2024",
@@ -652,6 +686,7 @@
     ]
   },
   "webinars": {
+    "bannerAlt": "Persona escribiendo en laptop durante videollamada de conferencia con equipo virtual mostrando grupo diverso de profesionales",
     "allWebinars": [
       {
         "id": 6,
@@ -660,7 +695,8 @@
         "time": "10:00 AM CST",
         "speaker": "Sapna Chauhan",
         "position": "Ingeniera de Software - SAP",
-        "image": "/images/webinar/Webinar_27 May 25_featured Carousal.webp",
+        "altImage": "Edificio de vidrio futurista que refleja el cielo azul y las nubes, símbolo de innovación y transformación digital",
+        "image": "/images/webinar/futuristic-glass-building-reflection-carousal.webp",
         "url": "insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud/"
       },
       {
@@ -670,7 +706,8 @@
         "time": "10:00 AM CST",
         "speaker": "Anuraag Aggarwal",
         "position": "Vicepresidente de Ventas Globales",
-        "image": "/images/webinar/rise.webp",
+        "altImage": "Ola digital formada por conexiones brillantes que se fusionan con el océano, simbolizando el flujo de datos y la innovación",
+        "image": "/images/webinar/digital-wave-data-network-carousal.webp",
         "url": "insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
       },
       {
@@ -680,7 +717,8 @@
         "time": "10:00 AM CST",
         "speaker": "Lokesh Adhikari",
         "position": "Ingeniero de Software - Salesforce",
-        "image": "/images/webinar/Webinar_15 May 25_webinar thumb.webp",
+        "altImage": "Perfil de mujer con superposición de datos digitales representando IA, aprendizaje automático y transformación digital",
+        "image": "/images/webinar/ai-digital-transformation-data-overlay-carousal.webp",
         "url": "insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
       },
       {
@@ -690,7 +728,8 @@
         "time": "10:00 AM CST",
         "speaker": "Akshay Kale",
         "position": "Director General Senior – Servicios SAP",
-        "image": "/images/webinar/Webinar_13 May 25_webinar thumb.webp",
+        "altImage": "Visualización abstracta de ola de datos azul y naranja representando transformación digital, big data e inteligencia artificial",
+        "image": "/images/webinar/digital-data-wave-visualization-abstract-carousal.webp",
         "url": "insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"
       },
       {
@@ -700,7 +739,8 @@
         "time": "10:00 AM CST",
         "speaker": "Divya Agarwal",
         "position": "Ingeniera de Software - Salesforce",
-        "image": "/images/webinar/webinar-thumb.webp",
+        "altImage": "Vista aérea de lote de inventario de autos organizado con cientos de vehículos en filas para gestión de flota automotriz",
+        "image": "/images/webinar/automotive-fleet-inventory-aerial-view-carousal.webp",
         "url": "insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/"
       },
       {
@@ -710,7 +750,8 @@
         "time": "10:00 AM CST",
         "speaker": "Lokesh Adhikari",
         "position": "Ingeniero de Software - Salesforce",
-        "image": "/images/webinar/Webinar_6.webp",
+        "altImage": "Mujer sonriente con cabello rizado mirando smartphone contra fondo azul degradado con superposición de patrón geométrico",
+        "image": "/images/webinar/woman-smiling-smartphone-blue-background.webp",
         "url": "insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
       }
     ],
@@ -726,6 +767,7 @@
     "openNow": "Abrir ahora"
   },
   "caseStudy": {
+    "bannerAlt": "Ondas de luz neón abstractas vibrantes con colores rosa azul y verde creando efecto de movimiento dinámico sobre fondo oscuro",
     "headerTitle": "estudioDeCaso",
     "seoTitle": "Éxitos Salesforce y SAP | Casos de Estudio Inspiradores | Rialtes",
     "seoDescription": "Descubre casos de estudio SAP y Salesforce de Rialtes: empresas globales logran innovación con IA, eficiencia y ROI mediante tecnología.",
@@ -1113,6 +1155,7 @@
     ]
   },
   "newsElite": {
+    "bannerAlt": "Servidores de centro de datos digital con insignia de revendedor cloud autorizado Salesforce mostrando certificación oficial",
     "seoTitle": "Rialtes se convierte en socio revendedor oficial de Salesforce",
     "seoDescription": "Rialtes ahora es socio revendedor oficial de Salesforce, ofreciendo licencias completas, implementación y servicios gestionados bajo un mismo techo.",
     "title": "Rialtes Logra el Estatus de Salesforce Reseller Partner, Ampliando Capacidades Integrales en la Nube",
@@ -1128,6 +1171,7 @@
     "visitTwo": "o contacte a "
   },
   "newsSales": {
+    "bannerAlt": "Tijeras doradas cortando cinta roja simbolizando inauguración de nueva oficina de ventas Rialtes en Himachal Pradesh India",
     "seoTitle": "Rialtes inaugura oficina de ventas en Baddi, HP",
     "seoDescription": "Rialtes abre una nueva oficina en Baddi, Himachal Pradesh, para mejorar el servicio al cliente y ofrecer soluciones Salesforce y SAP para la industria manufacturera.",
     "rialtesTitle": "Rialtes Abre Nueva Oficina de Ventas en Himachal Pradesh, India.",

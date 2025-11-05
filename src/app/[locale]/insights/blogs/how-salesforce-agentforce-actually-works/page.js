@@ -23,7 +23,7 @@ const schemaData = {
   description:
     "Explore how Salesforce Agentforce automates customer engagement using AI agents, enhancing decision-making and operational efficiency.",
   image:
-    "https://www.rialtes.com/images/blog/how-agentforce-works-blog-banner.webp",
+    "https://www.rialtes.com/images/blog/futuristic-robot-ai-digital-interface-technology.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -73,8 +73,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/how-agentforce-works-blog-banner.webp"
-            alt="banner"
+            src="/images/blog/futuristic-robot-ai-digital-interface-technology.webp"
+            alt={t("bannerAlt")}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -85,8 +85,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden h-full">
           <Image
-            src="/images/blog/how-agentforce-works-blog-banner.webp"
-            alt="banner"
+            src="/images/blog/futuristic-robot-ai-digital-interface-technology-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

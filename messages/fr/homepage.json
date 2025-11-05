@@ -14,41 +14,43 @@
         "lifeTitle": "VIE",
         "rialtesName": "RIALTES",
         "rialtesData": "Animée par l'innovation et alimentée par le potentiel humain, notre société de conseil en informatique relève les défis les plus complexes du monde numérique. Ensemble, simplifions les problèmes, enableons les solutions et autonomisons-nous mutuellement.",
+        "lifeAtAlt": "Professionnels des affaires à la conférence SAP Gold Partner, présentations, événements d'équipe et rassemblements de l'industrie Salesforce",
+        "logoAlt": "Logo de Rialtes avec une icône ovale blanche à rayures et le slogan « Simply Enable Empower » sur un fond épuré.",
         "carouselData": [
             {
-                "title": "Blogs",
-                "description": "Redéfinir l'avenir de l'IA d'entreprise avec SAP Joule",
-                "image": "/images/blog/jthumb.webp",
+                "alt": "Visualisation d’un réseau bleu lumineux avec des flux de données et des nœuds numériques",
+                "description": "Redéfinir l’avenir de l’IA d’entreprise avec SAP Joule",
+                "image": "/images/homepage/data-flow-network-art.webp",
                 "link": "/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule"
             },
             {
-                "title": "Blogs",
-                "description": "Automatisez votre organisation de santé avec l'intégration athenahealth et Salesforce",
-                "image": "/images/blog/blog-88.webp",
+                "alt": "Travailleuse de la santé en blouse bleue et masque tenant une tablette numérique",
+                "description": "Automatisez votre organisation de santé grâce à l’intégration d’athenahealth et Salesforce",
+                "image": "/images/homepage/medical-professional-with-tablet.webp",
                 "link": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
             },
             {
-                "title": "Blogs",
-                "description": "SAP Business Data Cloud : la base de données intelligente pour le succès commercial piloté par l'IA",
-                "image": "/images/blog/SAP Business cloud_Blog thumb.webp",
+                "alt": "Motif d’onde numérique bleue mélangeant des éclaboussures d’eau et une grille technologique",
+                "description": "SAP Business Data Cloud : la base de données intelligente pour un succès commercial piloté par l’IA",
+                "image": "/images/homepage/tech-wave-fusion-background.webp",
                 "link": "/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success"
             },
             {
-                "title": "Blogs",
-                "description": "Comment les agents Agentforce optimisent les systèmes ERP grâce à l'IA",
-                "image": "/images/blog/blog-12.webp",
+                "alt": "Main robotique bleue brillante avec des doigts LED illuminés sur un écran tactile",
+                "description": "Comment les agents Agentforce font évoluer les systèmes ERP avec l’IA",
+                "image": "/images/homepage/ai-robot-hand-technology.webp",
                 "link": "/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai"
             },
             {
-                "title": "Blogs",
-                "description": "Comment SAP SuccessFactors améliore la gestion du télétravail",
-                "image": "/images/blog/blog-13.webp",
+                "alt": "Vue de dessus d’une main utilisant un ordinateur portable argenté sur un fond bleu dégradé",
+                "description": "Comment SAP SuccessFactors améliore la gestion du travail à distance",
+                "image": "/images/homepage/modern-laptop-workstation.webp",
                 "link": "/insights/blogs/how-sap-successfactors-enhances-remote-work-management"
             },
             {
-                "title": "Blogs",
+                "alt": "Adorable robot IA blanc et bleu avec des éléments lumineux à côté d’une interface de chatbot sur smartphone",
                 "description": "Comment fonctionne réellement Salesforce Agentforce",
-                "image": "/images/blog/blog-1.webp",
+                "image": "/images/homepage/ai-chatbot-assistant-robot.webp",
                 "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
             }
         ],
@@ -361,22 +363,22 @@
             {
                 "id": 1,
                 "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-                "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
-                "title": "DevOps Rationalisé avec Copado et Salesforce",
+                "imgSrc": "/images/case-studies/industrial-workers-safety-collaboration.webp",
+                "title": "Travailleurs industriels en équipement de sécurité collaborant avec ordinateur portable dans l'usine.",
                 "description": "Un fabricant de premier plan spécialisé dans la création de matériaux innovants pour des projets de construction résidentiels et commerciaux."
             },
             {
                 "id": 2,
                 "url": "/insights/case-studies/realForce-banking-module-ach",
-                "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
-                "title": "Module Bancaire RealForce - ACH",
+                "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
+                "title": "Professionnels d'affaires dans un bureau moderne discutant de stratégie en pointant lors d'une collaboration",
                 "description": "Une entreprise immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l'investissement dans des propriétés multifamiliales."
             },
             {
                 "id": 3,
                 "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-                "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
-                "title": "Automatiser le traitement des commandes avec Mulesoft pour Salesforce Health Cloud et SAP",
+                "imgSrc": "/images/case-studies/healthcare-professionals-patient-care.webp",
+                "title": "Professionnels de santé en tenue médicale souriant en discutant des soins aux patients avec tablettes numériques",
                 "description": "Une entreprise mondiale de technologie médicale qui développe et fabrique des produits innovants."
             }
         ],
@@ -394,26 +396,30 @@
         "slides": [
             {
                 "id": 1,
-                "image": "/images/industry/manufacturing.webp",
-                "title": "Fabrication",
+                "image": "/images/industry/manufacturing-cnc-machine-metalworking.webp",
+                "title": "Outil machine CNC industriel perçant avec étincelles volant pendant opération de fabrication métallurgique",
+                "titleOne": "Fabrication",
                 "url": "/industry/manufacturing-cloud-erp"
             },
             {
                 "id": 2,
-                "image": "/images/industry/healthcare.webp",
-                "title": "Santé",
+                "image": "/images/industry/healthcare-digital-medical-data-analysis.webp",
+                "title": "Professionnel de santé analysant données médicales numériques sur écran tactile futuriste en hôpital moderne",
+                "titleOne": "Santé",
                 "url": "/industry/life-sciences/healthcare-medtech-patient-care"
             },
             {
                 "id": 3,
-                "image": "/images/industry/real-estate.webp",
-                "title": "Immobilier",
+                "image": "/images/industry/real-estate-urban-planning-model.webp",
+                "title": "Professionnel pointant modèle architectural 3D blanc de ville pendant présentation de planification urbaine",
+                "titleOne": "Immobilier",
                 "url": "/industry/real-estate-property-management"
             },
             {
                 "id": 4,
-                "image": "/images/industry/hi-tech.webp",
-                "title": "Haute technologie",
+                "image": "/images/industry/hi-tech-circuit-board-microchip.webp",
+                "title": "Gros plan de carte de circuit turquoise avec broches électroniques montrant technologie de micropuce hi-tech",
+                "titleOne": "Haute technologie",
                 "url": "/industry/hitech-semiconductor-ai-it-solutions"
             }
         ]

@@ -83,51 +83,51 @@ export default function Contact() {
         ]
     }
     const keyPartners = [
-        { src: "/images/partners/Salesforce.webp", alt: "Salesforce" },
-        { src: "/images/partners/SAP.png", alt: "SAP" },
-        { src: "/images/partners/adobe sign.webp", alt: "Adobe Sign" },
-        { src: "/images/partners/ama2.webp", alt: "AMA" },
-        { src: "/images/partners/Automation Anywhere.png", alt: "Automation Anywhere" },
-        { src: "/images/partners/azur22.png", alt: "Azure (v2)" },
-        { src: "/images/partners/Azure.webp", alt: "Azure" },
-        { src: "/images/partners/Conga.png", alt: "Conga" },
-        { src: "/images/partners/Callidus Cloud.png", alt: "Callidus Cloud" },
-        { src: "/images/partners/bitbu.png", alt: "Bitbucket" },
+        { src: "/images/partners/salesforce-logo.webp", alt: "salesforce logo" },
+        { src: "/images/partners/SAP-logo.webp", alt: "SAP logo" },
+        { src: "/images/partners/Adobe-Sign-logo.webp", alt: "Adobe Sign logo" },
+        { src: "/images/partners/amazon-logo.webp", alt: "amazon logo" },
+        { src: "/images/partners/Automation-Anywhere-logo.png", alt: "Automation Anywherelogo" },
+        { src: "/images/partners/Azure-Deveops-logo.png", alt: "Azure Deveops logo" },
+        { src: "/images/partners/Azure-logo.webp", alt: "Azure logo" },
+        { src: "/images/partners/congo-logo.png", alt: "congo logo" },
+        { src: "/images/partners/CallidusCloud-logo.png", alt: "CallidusCloud logo" },
+        { src: "/images/partners/Bitbucket-logo.png", alt: "Bitbucket logo" },
     ];
     const regionalPartners = [
-        { src: "/images/partners/GitHub_Logo.png", alt: "GitHub" },
-        { src: "/images/partners/Qlik.webp", alt: "Qlik" },
-        { src: "/images/partners/RapidMiner.png", alt: "RapidMiner" },
-        { src: "/images/partners/workato.webp", alt: "Workato" },
-        { src: "/images/partners/Confluence.webp", alt: "Confluence" },
-        { src: "/images/partners/boomi1.png", alt: "Boomi" },
-        { src: "/images/partners/Copado-logo-1.webp", alt: "Copado" },
-        { src: "/images/partners/DocuSign-Logo-New-1.png", alt: "DocuSign" },
-        { src: "/images/partners/Informatica.png", alt: "Informatica" },
-        { src: "/images/partners/SAP-Success-Factor-HCM-1.png", alt: "SAP SuccessFactors" },
+        { src: "/images/partners/GitHub-logo.webp", alt: "GitHub logo" },
+        { src: "/images/partners/Qlik-logo.webp", alt: "Qlik-logo" },
+        { src: "/images/partners/rapidminer-logo.png", alt: "rapidminer logo" },
+        { src: "/images/partners/workato-logo.webp", alt: "workato-logo" },
+        { src: "/images/partners/Confluence-logo.webp", alt: "Confluence logo" },
+        { src: "/images/partners/boomi-logo.png", alt: "boomi logo" },
+        { src: "/images/partners/COPADO-logo.webp", alt: "COPADO logo" },
+        { src: "/images/partners/docusign-logo.png", alt: "docusign logo" },
+        { src: "/images/partners/Informatica-logo.png", alt: "Informatica logo" },
+        { src: "/images/partners/SAP-SuccessFactors-logo.png", alt: "SAP SuccessFactors logo" },
     ];
     const allPartnerships = [
-        { src: "/images/partners/GitHub_Logo.png", alt: "GitHub" },
-        { src: "/images/partners/Qlik.webp", alt: "Quik" },
-        { src: "/images/partners/RapidMiner.png", alt: "Rapid" },
-        { src: "/images/partners/workato.webp", alt: "Worka" },
-        { src: "/images/partners/Confluence.webp", alt: "Conf" },
-        { src: "/images/partners/boomi1.png", alt: "Boomi" },
-        { src: "/images/partners/Copado-logo-1.webp", alt: "Copa" },
-        { src: "/images/partners/DocuSign-Logo-New-1.png", alt: "Docus" },
-        { src: "/images/partners/Informatica.png", alt: "Inform" },
-        { src: "/images/partners/SAP-Success-Factor-HCM-1.png", alt: "Successf" },
-        { src: "/images/partners/Dynamics 365.png", alt: "Dynam" },
-        { src: "/images/partners/power BI.webp", alt: "Successf" },
-        { src: "/images/partners/MuleSoft.png", alt: "Muls" },
-        { src: "/images/partners/SF pardot.png", alt: "Pardot" },
-        { src: "/images/partners/Callidus Cloud.png", alt: "Callc" },
-        { src: "/images/partners/sapa.png", alt: "Sapa" },
-        { src: "/images/partners/smartsheet-logo.png", alt: "Smarts" },
-        { src: "/images/partners/Tableau-Logo-2.png", alt: "Table" },
-        { src: "/images/partners/UiPath.png", alt: "Uipa" },
-        { src: "/images/partners/windo1.webp", alt: "Windo" },
-        { src: "/images/partners/vistex.webp", alt: "Vix" },
+        { src: "/images/partners/GitHub-logo.webp", alt: "GitHub logo" },
+        { src: "/images/partners/Qlik-logo.webp", alt: "Qlik-logo" },
+        { src: "/images/partners/rapidminer-logo.png", alt: "rapidminer logo" },
+        { src: "/images/partners/workato-logo.webp", alt: "workato-logo" },
+        { src: "/images/partners/Confluence-logo.webp", alt: "Confluence logo" },
+        { src: "/images/partners/boomi-logo.png", alt: "boomi logo" },
+        { src: "/images/partners/COPADO-logo.webp", alt: "COPADO logo" },
+        { src: "/images/partners/docusign-logo.png", alt: "docusign logo" },
+        { src: "/images/partners/Informatica-logo.png", alt: "Informatica logo" },
+        { src: "/images/partners/SAP-SuccessFactors-logo.png", alt: "SAP SuccessFactors logo" },
+        { src: "/images/partners/Ms-Dynamics-365-logo.png", alt: "Microsoft Dynamics 365 logo" },
+        { src: "/images/partners/Power-BI-logo.webp", alt: "Power BI logo" },
+        { src: "/images/partners/MuleSoft-logo.webp", alt: "MuleSoft logo" },
+        { src: "/images/partners/salesforce-pardot.png", alt: "salesforce pardot" },
+        { src: "/images/partners/CallidusCloud-logo.png", alt: "CallidusCloud logo" },
+        { src: "/images/partners/SAP-Ariba-logo.png", alt: "SAP Ariba logo" },
+        { src: "/images/partners/smartsheet-logo.png", alt: "smartsheet logo" },
+        { src: "/images/partners/tableau-logo.png", alt: "tableau logo" },
+        { src: "/images/partners/Ui-Path-logo.webp", alt: "Ui Path logo" },
+        { src: "/images/partners/Windows-logo.webp", alt: "Windows logo" },
+        { src: "/images/partners/Vistex-logo.webp", alt: "Vistex logo" },
     ];
     const renderImageSection = (images) => (
         <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 border-0 gap-10">
@@ -214,8 +214,8 @@ export default function Contact() {
             <section className="relative group overflow-hidden h-[399px] 4xl:h-[650px] xl:h-[550px]">
                 <div className="hidden md:block">
                     <Image
-                        src="/images/partners/Partners banner (1).webp"
-                        alt="desktop banner"
+                        src="/images/partners/digital-handshake-partnership-technology.webp"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                         className="transform transition-transform duration-500 group-hover:scale-110 "
@@ -226,8 +226,8 @@ export default function Contact() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/partners/partner 1.webp"
-                        alt="mobile banner"
+                        src="/images/partners/digital-handshake-partnership-technology-mobile.webp"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "70% 50%" }}
 

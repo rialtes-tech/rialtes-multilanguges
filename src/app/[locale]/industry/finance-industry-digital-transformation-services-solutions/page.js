@@ -13,88 +13,176 @@ import { changeLocalization } from "../../components/changeLocalization";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Financial Services Cloud Salesforce (FSC) and SAP Consulting",
-  "url": "https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions/",
-  "description": "Rialtes offers Salesforce Financial Services Cloud (FSC) and SAP consulting to help banks, wealth firms, insurers, and real estate companies drive AI-powered transformation, streamline compliance, and enhance customer experiences.",
-  "publisher": {
+  name: "Financial Services Cloud Salesforce (FSC) and SAP Consulting",
+  url: "https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions/",
+  description:
+    "Rialtes offers Salesforce Financial Services Cloud (FSC) and SAP consulting to help banks, wealth firms, insurers, and real estate companies drive AI-powered transformation, streamline compliance, and enhance customer experiences.",
+  publisher: {
     "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": {
+    name: "Rialtes",
+    url: "https://www.rialtes.com",
+    logo: {
       "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+      url: "https://www.rialtes.com/images/homepage/logo.svg",
     },
-    "sameAs": [
+    sameAs: [
       "https://www.linkedin.com/company/rialtes-technologies-llc/",
-      "https://www.youtube.com/@rialtes"
-    ]
-  },
-  "mainEntity": {
-    "@type": "Service",
-    "name": "Financial Services Cloud Salesforce (FSC) and SAP Consulting",
-    "description": "Salesforce FSC and SAP-powered digital transformation for banks, insurers, and real estate firms with AI, analytics, and personalized customer engagement.",
-    "areaServed": [
-      { "@type": "Country", "name": "United States" },
-      { "@type": "Country", "name": "Canada" },
-      { "@type": "Country", "name": "India" },
-      { "@type": "Country", "name": "Singapore" }
+      "https://www.youtube.com/@rialtes",
     ],
-    "hasOfferCatalog": {
+  },
+  mainEntity: {
+    "@type": "Service",
+    name: "Financial Services Cloud Salesforce (FSC) and SAP Consulting",
+    description:
+      "Salesforce FSC and SAP-powered digital transformation for banks, insurers, and real estate firms with AI, analytics, and personalized customer engagement.",
+    areaServed: [
+      { "@type": "Country", name: "United States" },
+      { "@type": "Country", name: "Canada" },
+      { "@type": "Country", name: "India" },
+      { "@type": "Country", name: "Singapore" },
+    ],
+    hasOfferCatalog: {
       "@type": "OfferCatalog",
-      "name": "Financial Services Digital Transformation Solutions",
-      "itemListElement": [
+      name: "Financial Services Digital Transformation Solutions",
+      itemListElement: [
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Salesforce Financial Services Cloud (FSC) Consulting",
-            "description": "Implement and optimize Salesforce FSC for personalized onboarding, AI workflows, and unified customer engagement across banking and wealth management."
-          }
+            name: "Salesforce Financial Services Cloud (FSC) Consulting",
+            description:
+              "Implement and optimize Salesforce FSC for personalized onboarding, AI workflows, and unified customer engagement across banking and wealth management.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "SAP S/4HANA for Financial Services",
-            "description": "Integrate SAP S/4HANA with Salesforce FSC for core banking operations, risk management, real-time finance analytics, and regulatory compliance."
-          }
+            name: "SAP S/4HANA for Financial Services",
+            description:
+              "Integrate SAP S/4HANA with Salesforce FSC for core banking operations, risk management, real-time finance analytics, and regulatory compliance.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "AI-Driven Financial Decisioning",
-            "description": "Leverage AI for risk scoring, fraud detection, and customer insights with Salesforce Einstein and SAP AI."
-          }
+            name: "AI-Driven Financial Decisioning",
+            description:
+              "Leverage AI for risk scoring, fraud detection, and customer insights with Salesforce Einstein and SAP AI.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "AgentChat — WhatsApp for Salesforce FSC",
-            "description": "Enable real-time, secure WhatsApp communication within Salesforce FSC for onboarding, alerts, and support."
-          }
+            name: "AgentChat — WhatsApp for Salesforce FSC",
+            description:
+              "Enable real-time, secure WhatsApp communication within Salesforce FSC for onboarding, alerts, and support.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Exelona — Real Estate Cloud for FSC",
-            "description": "Transform real estate asset management and finance with Exelona, Rialtes’ proprietary FSC-based solution."
-          }
+            name: "Exelona — Real Estate Cloud for FSC",
+            description:
+              "Transform real estate asset management and finance with Exelona, Rialtes’ proprietary FSC-based solution.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Zero Copy Data Integration",
-            "description": "Unify Salesforce and SAP data clouds for real-time analytics and AI without moving data — secure, compliant, and actionable."
-          }
-        }
-      ]
-    }
-  }
-}
+            name: "Zero Copy Data Integration",
+            description:
+              "Unify Salesforce and SAP data clouds for real-time analytics and AI without moving data — secure, compliant, and actionable.",
+          },
+        },
+      ],
+    },
+  },
+};
+const challenges = [
+  {
+    number: "1",
+    title: "Disconnected Customer Experiences & Legacy Systems",
+    points: [
+      "Inability to offer personalized, seamless banking experiences.",
+      "Fragmented data across multiple systems limits real-time insights.",
+    ],
+  },
+  {
+    number: "2",
+    title: "Regulatory and Risk Complexity",
+    points: [
+      "Struggling with fast-changing regulations (AML, KYC, ESG).",
+      "Lack of streamlined compliance and audit processes.",
+    ],
+  },
+  {
+    number: "3",
+    title: "Manual and Inefficient Lending, Wealth, and Advisory Operations",
+    points: [
+      "Delays in loan approvals, wealth management onboarding, and servicing.",
+      "High operational costs due to outdated workflows.",
+    ],
+  },
+  {
+    number: "4",
+    title: "Demand for AI-Driven, Real-Time Services",
+    points: [
+      "Customers expect instant decisions and service.",
+      "Need for AI-based risk and credit analysis, fraud detection, and personalization.",
+    ],
+  },
+];
+const thougthLeadershipData = [
+  "Omnichannel customer engagement powered by AI and real-time data.",
+  "End-to-end compliant and efficient financial operations.",
+  "Seamless integration between front office and core banking systems.",
+  "Intelligent, AI-driven decision-making for risk, lending, and customer personalization. ",
+];
+const salesforceData = [
+  "Customer onboarding, KYC, and AI-driven workflows.",
+  "Integrated service, marketing, and advisory processes.",
+  "Personalized experiences across retail, commercial, and wealth segments.",
+];
+const sapHanaData = [
+  "Integrated finance and risk management.",
+  "Real-time financial analytics and forecasting.",
+  "Payments, contract management, and regulatory compliance.",
+];
+const aiData = [
+  "Predictive credit and risk scoring.",
+  "AI-driven customer personalization and insights.",
+  "Fraud and compliance anomaly detection.",
+  "AI-powered service and onboarding automation.",
+];
+const exelonaData = [
+  "End-to-end asset and portfolio management.",
+  "Integrated leasing, marketing, and tenant engagement.",
+  "Revenue, expense, and performance optimization.",
+  "AI-driven risk and investment modeling.",
+];
+const agentchatData = [
+  "Instant customer onboarding and KYC verification via WhatsApp.",
+  "AI-enabled conversational banking and lending support.",
+  "Real-time alerts for fraud detection, transactions, and regulatory updates.",
+  "Seamless document and signature collection.",
+];
+const drivenData = [
+  "Unified client profile with data from SAP S/4 HANA and Salesforce FSC.",
+  "AI-powered analytics without moving data — secure and compliant.",
+  "Real-time insights for lending, wealth, and operations.",
+];
+const whyChooseData = [
+  "Comprehensive strategy to execution for Financial Services Cloud & SAP.",
+  "Proprietary tools like Exelona (Real Estate Cloud) and Agentchat (WhatsApp Integration).",
+  "Deep AI and Data Cloud integrations for predictive and real-time operations.",
+  "Unmatched understanding of compliance, risk, and customer experience.",
+  "Global footprint with local expertise to drive lasting transformation.",
+];
 export default function Page() {
   const t = useTranslations('finance')
       const locale = useLocale();
@@ -119,8 +207,8 @@ export default function Page() {
       <section className="relative h-[350px] md:h-[500px] 4xl:h-[650px]">
         <div className="xl:block hidden">
           <Image
-            src="/images/Finance/finance.webp"
-            alt="Finance desktop banner"
+            src="/images/Finance/finance-digital-technology-network-visualization.webp"
+            alt={t("bannerAlt")}
             fill
             priority
             sizes="100vw"
@@ -130,8 +218,8 @@ export default function Page() {
         {/* Mobile/Tablet Image */}
         <div className="xl:hidden block">
           <Image
-            src="/images/Finance/mobile/finance-mobile.webp"
-            alt="Finance mobile banner"
+            src="/images/Finance/mobile/finance-digital-technology-network-visualization-mobile.webp"
+            alt={t("bannerAlt")}
             fill
             priority
             sizes="100vw"
@@ -154,8 +242,14 @@ export default function Page() {
         <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] lg:w-[80%] xl:w-[80%] 4xl:w-[76%]">
          {t('digitalTitle')}
         </h2>
-        <p className="4xl:text-[22px] xl:text-[17px] text-[16px] 2xl:text-[20px] leading-tight lg:w-[80%] 4xl:w-[70%] w-[90%] font-normal mt-8">
-         {t('digitalDesc')} 
+        <p className="xl:text-[22px] text-[16px] leading-tight lg:w-[80%] 4xl:w-[70%] w-[95%] font-normal mt-8">
+          Rialtes empowers banks, insurers, wealth managers, and real estate
+          firms to drive innovation confidently. As a certified Salesforce and
+          SAP partner, we offer end-to-end services—from advisory to
+          post-go-live support—specialized in Financial Services Cloud, SAP
+          S/4HANA, and AI solutions. With a global presence and deep industry
+          expertise, we help financial institutions transform securely, stay
+          compliant, and deliver exceptional customer experiences.
         </p>
       </section>
       {/* Thought Leadership section */}
@@ -164,8 +258,8 @@ export default function Page() {
           {/* Desktop Image */}
           <div className="md:block hidden">
             <Image
-              src="/images/Finance/thought-leadership.webp"
-              alt="thought-leadership image"
+              src="/images/Finance/financial-analyst-data-charts-presentation.webp"
+              alt={t("thoughtLeadershipAlt")}
               width={0}
               height={0}
               className="h-full w-full"
@@ -176,8 +270,8 @@ export default function Page() {
           {/* Mobile Image */}
           <div className="md:hidden block relative w-full">
             <Image
-              src="/images/Finance/mobile/thought-leadership-mobile.webp"
-              alt="thought-leadership image"
+              src="/images/Finance/mobile/financial-analyst-data-charts-presentation-mobile.webp"
+              alt={t("thoughtLeadershipAlt")}
               width={0}
               height={0}
               className="h-full w-full"
@@ -200,9 +294,13 @@ export default function Page() {
               </p>
             </div>
             <div className="lg:col-span-6 col-span-12 md:col-span-1">
-              <UnorderedList arrName={thougthLeadershipData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pb-[40px]" liClassName="" />
-              <div className=" absolute bottom-0"> 
-               <LearnMore btnName={t('learnMoreBtn')} />
+              <UnorderedList
+                arrName={thougthLeadershipData}
+                ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pb-[40px]"
+                liClassName=""
+              />
+              <div className=" absolute bottom-0">
+                <LearnMore />
               </div>
             </div>
           </div>
@@ -226,7 +324,11 @@ export default function Page() {
                   <p className="mt-3 4xl:text-[40px] xl:text-[30px] text-[22px] leading-tight font-bold text-[#006FBE]">
                     {item.title}
                   </p>
-                  <UnorderedList arrName={item.points} ulClassName="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight pb-[7px] my-6" liClassName="" />
+                  <UnorderedList
+                    arrName={item.points}
+                    ulClassName="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight pb-[7px] my-6"
+                    liClassName=""
+                  />
                 </div>
               </div>
             ))}
@@ -238,10 +340,14 @@ export default function Page() {
         <div className="custom-container !pr-0 max-md:px-0 ">
           <div className="relative max-md:pl-[36px]">
             <div className="absolute z-20 mt-[-36px] md:mt-[-40px] xl:mt-[-50px]"></div>
-            <div className="custom-container md:!pl-0 xl:pt-[88px] pt-[58px] "
-              style={{ backgroundColor: "#EFEFEF" }}>
-              <div className="absolute top-0 left-0 md:left-[-20px] xl:left-[-40px] 4xl:left-[-100px] h-full md:w-[20px] xl:w-[40px] 4xl:w-[100px] z-0 "
-                style={{ backgroundColor: "#EFEFEF" }}></div>
+            <div
+              className="custom-container md:!pl-0 xl:pt-[88px] pt-[58px] "
+              style={{ backgroundColor: "#EFEFEF" }}
+            >
+              <div
+                className="absolute top-0 left-0 md:left-[-20px] xl:left-[-40px] 4xl:left-[-100px] h-full md:w-[20px] xl:w-[40px] 4xl:w-[100px] z-0 "
+                style={{ backgroundColor: "#EFEFEF" }}
+              ></div>
               <h2 className="leading-tight 4xl:text-[58px] xl:text-[40px] md:text-[26px] md:w-[65%] w-full">
               {t('deepTitle')}
               </h2>
@@ -252,8 +358,8 @@ export default function Page() {
                 <div className="md:col-span-5 col-span-12">
                   <div className="">
                     <Image
-                      src="/images/Finance/deep-expertise-web.webp"
-                      alt="Deep Expertise in Salesforce"
+                      src="/images/Finance/financial-advisors-client-consultation-meeting.webp"
+                      alt={t("deepExpertiseAlt")}
                       style={{
                         width: "100%",
                         height: "100%",
@@ -271,14 +377,18 @@ export default function Page() {
                   <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mt-9 mt-7">
                    {t('salesforceDesc')}
                   </p>
-                  <UnorderedList arrName={salesforceData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4" liClassName="" />
-                  <LearnMore btnName={t('learnMoreBtn')} />
+                  <UnorderedList
+                    arrName={salesforceData}
+                    ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4"
+                    liClassName=""
+                  />
+                  <LearnMore />
                 </div>
                 <div className="md:col-span-5 col-span-12 xl:mt-[100px] mt-0">
                   <div className="">
                     <Image
-                      src="/images/Finance/deep-expertise1-web.webp"
-                      alt="Deep Expertise in Salesforce"
+                      src="/images/Finance/financial-professional-sap-hana-analytics-work.webp"
+                      alt={t("saphanaSectionAlt")}
                       style={{
                         width: "100%",
                         height: "100%",
@@ -296,8 +406,12 @@ export default function Page() {
                   <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mt-9 mt-7">
                    {t('sapDesc')}
                   </p>
-                  <UnorderedList arrName={sapHanaData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4" liClassName="" />
-                 <LearnMore btnName={t('learnMoreBtn')} />
+                  <UnorderedList
+                    arrName={sapHanaData}
+                    ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4"
+                    liClassName=""
+                  />
+                  <LearnMore />
                 </div>
               </div>
               <div className="relative bottom-[-55px]">
@@ -315,8 +429,8 @@ export default function Page() {
           <>
             {/* Mobile Image */}
             <Image
-              src="/images/Finance/mobile/revolutionizing-mobile.webp"
-              alt="Revolutionizing the Future"
+              src="/images/Finance/mobile/business-woman-financial-data-wall-analysis-mobile.webp"
+              alt={t("revolutionizingAlt")}
               className="w-full h-full block md:hidden"
               priority
               width={0}
@@ -325,8 +439,8 @@ export default function Page() {
 
             {/* Desktop Image */}
             <Image
-              src="/images/Finance/revolutionizing-web.webp"
-              alt="Revolutionizing the Future"
+              src="/images/Finance/business-woman-financial-data-wall-analysis.webp"
+              alt={t("revolutionizingAlt")}
               className="w-full h-full hidden md:block"
               priority
               width={0}
@@ -344,7 +458,11 @@ export default function Page() {
             </p>
           </div>
           <div className="md:col-span-6 xl:ml-[70px] xl:my-9 my-5 ">
-            <UnorderedList arrName={aiData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="" />
+            <UnorderedList
+              arrName={aiData}
+              ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight"
+              liClassName=""
+            />
             <div className="mt-10">
              <LearnMore btnName={t('learnMoreBtn')} />
             </div>
@@ -360,8 +478,8 @@ export default function Page() {
           {/* Desktop */}
           <div className=" hidden md:block h-full w-full md:h-[900px] lg:h-[800px] 3xl:h-full">
             <Image
-              src="/images/Finance/exelona-web.webp"
-              alt="Exelona"
+              src="/images/Finance/exelona-real-estate-finance-salesforce-integration.webp"
+              alt={t("exelonaSectionAlt")}
               width={0}
               height={0}
               priority
@@ -372,8 +490,8 @@ export default function Page() {
           {/* Mobile */}
           <div className="block md:hidden">
             <Image
-              src="/images/Finance/mobile/exelona-mobile.webp"
-              alt="Exelona"
+              src="/images/Finance/mobile/exelona-real-estate-finance-salesforce-integration-mobile.webp"
+              alt={t("exelonaSectionAlt")}
               width={800}
               height={600}
               priority
@@ -389,8 +507,8 @@ export default function Page() {
               {/* Blend layer  */}
               <div className="hidden md:block absolute inset-0 z-0">
                 <Image
-                  src="/images/Finance/bg-1.jpg"
-                  alt="Exelona"
+                  src="/images/Finance/modern-glass-skyscrapers-upward-view-blue-sky.jpg"
+                  alt={t("exelonaBlendAlt")}
                   fill
                   priority
                   className="w-full h-full"
@@ -407,7 +525,11 @@ export default function Page() {
                 <p className="mb-4 leading-tight 4xl:text-[20px] xl:text-[18px] text-[16px]">
                  {t('exelonaDesc')}
                 </p>
-                <UnorderedList arrName={exelonaData} ulClassName="list-disc leading-tight p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] space-y-4" liClassName="pb-1" />
+                <UnorderedList
+                  arrName={exelonaData}
+                  ulClassName="list-disc leading-tight p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] space-y-4"
+                  liClassName="pb-1"
+                />
                 {/* Desktop  */}
                 <p className="4xl:text-[26px] xl:text-[22px] text-[18px]  bg-[#006FBE] p-[24px] text-white leading-tight block md:hidden">
                 {t('exelonaDescOne')}
@@ -440,8 +562,8 @@ export default function Page() {
           <>
             {/* Mobile Image */}
             <Image
-              src="/images/Finance/mobile/agentchat-mobile.webp"
-              alt="AgentChat"
+              src="/images/Finance/mobile/professional-woman-mobile-banking-outdoors-mobile.webp"
+              alt={t("agentchatAlt")}
               className="w-full h-full block md:hidden"
               priority
               width={0}
@@ -449,8 +571,8 @@ export default function Page() {
             />
             {/* Desktop Image */}
             <Image
-              src="/images/Finance/agentchat-web.webp"
-              alt="AgentChat"
+              src="/images/Finance/professional-woman-mobile-banking-outdoors.webp"
+              alt={t("agentchatAlt")}
               className="w-full h-full hidden md:block"
               priority
               width={0}
@@ -475,7 +597,11 @@ export default function Page() {
               <h3 className="leading-tight 4xl:text-[28px] xl:text-[20px] font-semibold text-[16px] pb-4">
              {t('agentChatSubtitle')}
               </h3>
-              <UnorderedList arrName={agentchatData} ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="" />
+              <UnorderedList
+                arrName={agentchatData}
+                ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight"
+                liClassName=""
+              />
               <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-9 mt-7 max-md:mb-7 lg:mb-0 leading-tight">
               {t('agentChatDescOne')}
               </p>
@@ -495,16 +621,16 @@ export default function Page() {
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 items-center ">
           <div className="order-1 xl:order-2 w-full h-full xl:col-span-7 ">
             <Image
-              src="/images/Finance/zero-copy-architecture-web.webp"
-              alt="Data-Driven-Insights-img"
+              src="/images/Finance/interactive-financial-dashboard-tablet-analytics.webp"
+              alt={t("dataDrivenSectionAlt")}
               width={0}
               height={0}
               className="w-full hidden md:block h-full"
               style={{ objectPosition: "75% 20%" }}
             />
             <Image
-              src="/images/Finance/mobile/zero-copy-architecture-mobile.webp"
-              alt="Data-Driven-Insights-img"
+              src="/images/Finance/mobile/interactive-financial-dashboard-tablet-analytics-mobile.webp"
+              alt={t("dataDrivenSectionAlt")}
               width={0}
               height={0}
               className="w-full block md:hidden h-auto"
@@ -522,7 +648,11 @@ export default function Page() {
               {t('dataDesc')}
             </p>
             <div>
-              <UnorderedList arrName={drivenData} ulClassName="list-disc pt-4 text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="pb-2" />
+              <UnorderedList
+                arrName={drivenData}
+                ulClassName="list-disc pt-4 text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight"
+                liClassName="pb-2"
+              />
               <p className="4xl:text-[26px] xl:text-[22px] text-[18px] xl:mt-[60px] mt-[26px] w-fit bg-[#0E3157] p-[24px] text-white leading-tight xl:w-[80%]">
                 {t('dataDescOne')}
               </p>
@@ -550,8 +680,8 @@ export default function Page() {
               <div className="flex flex-col xl:flex-row mb-8 mt-16 xl:gap-[80px] gap-10">
                 <div className="grid flex-start items-center">
                   <Image
-                    src="/images/Finance/certified-experts.svg"
-                    alt="Certified experts"
+                    src="/images/Finance/certified-financial-experts-icon.svg"
+                    alt={t("certifiedAlt")}
                     width={100}
                     height={100}
                     priority
@@ -566,8 +696,8 @@ export default function Page() {
                 </div>
                 <div className="grid flex-start items-center">
                   <Image
-                    src="/images/Finance/certifications.svg"
-                    alt="150+ certifications"
+                    src="/images/Finance/financial-certifications-document-icon.svg"
+                    alt={t("certificationAlt")}
                     width={100}
                     height={100}
                     priority
@@ -582,8 +712,8 @@ export default function Page() {
                 </div>
                 <div className="grid flex-start items-center">
                   <Image
-                    src="/images/Finance/global-delivery-from.svg"
-                    alt="Global delivery from"
+                    src="/images/Finance/global-financial-services-delivery-icon.svg"
+                    alt={t("globalDeliveryAlt")}
                     width={100}
                     height={100}
                     priority
@@ -598,8 +728,8 @@ export default function Page() {
                 </div>
                 <div className="grid flex-start items-center ">
                   <Image
-                    src="/images/Finance/support.svg"
-                    alt="support"
+                    src="/images/Finance/24-7-financial-customer-support-icon.svg"
+                    alt={t("supportAlt")}
                     width={100}
                     height={100}
                     priority
@@ -633,8 +763,8 @@ export default function Page() {
         <div className="grid grid-cols-1 xl:grid-cols-[6fr_6fr]">
           <div className="block md:hidden w-full h-auto">
             <Image
-              src="/images/Finance/mobile/financial-industry-mobile.webp"
-              alt="Financial-Industry-img"
+              src="/images/Finance/mobile/financial-presenter-holographic-data-visualization-mobile.webp"
+              alt={t("financialSectionAlt")}
               className="mx-auto w-full object-cover"
               priority
               width={0}
@@ -645,8 +775,8 @@ export default function Page() {
           {/* Desktop Image */}
           <div className="w-full h-full">
             <Image
-              src="/images/Finance/financial-industry-web.webp"
-              alt="Financial-Industry-img"
+              src="/images/Finance/financial-presenter-holographic-data-visualization.webp"
+              alt={t("financialSectionAlt")}
               className="hidden md:block  object-cover w-full mx-auto"
               priority
               width={0}
@@ -659,7 +789,11 @@ export default function Page() {
               <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light 4xl:w-[90%] 3xl:w-[75%] xl:w-[90%]">
                 {t('whyTitle')}
               </h2>
-              <UnorderedList arrName={whyChooseData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[48px] mt-[34px] 4xl:space-y-[24px] space-y-[19px] 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight" liClassName="" />
+              <UnorderedList
+                arrName={whyChooseData}
+                ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[48px] mt-[34px] 4xl:space-y-[24px] space-y-[19px] 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight"
+                liClassName=""
+              />
               <div className="absolute bottom-0">
               <LearnMore btnName={t('learnMoreBtn')} />
               </div>

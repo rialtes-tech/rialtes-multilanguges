@@ -138,8 +138,8 @@ export default function Page() {
       <section className="relative h-[350px] md:h-[500px] xl:h-[550px] 4xl:h-[700px] group overflow-hidden">
         <div className="xl:block hidden ">
           <Image
-            src="/images/services/rise-with-sap/header.webp"
-            alt="rise with sap banner"
+            src="/images/services/rise-with-sap/abstract-blue-radial-pattern.webp"
+            alt={t('bannerAlt')}
             className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
@@ -148,8 +148,8 @@ export default function Page() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/services/rise-with-sap/header.webp"
-            alt="rise with sap banner"
+            src="/images/services/rise-with-sap/abstract-blue-radial-pattern.webp"
+            alt={t('bannerAlt')}
             fill
             className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
@@ -218,8 +218,8 @@ export default function Page() {
             </div>
             <div className="w-full group xl:w-1/2 flex justify-center xl:justify-end">
               <Image
-                src="/images/services/rise-with-sap/why rialtes.webp"
-                alt="why rialtes"
+                src="/images/services/rise-with-sap/professional-working-network-visualization.webp"
+                alt={t('whyAlt')}
                 width={0}
                 height={0}
                 className=" transform transition-transform duration-500 group-hover:scale-110 w-[95%] md:w-[75%] lg:w-full xl:w-full mt-[-90px] h-full lg:mt-[-80px] xl:mt-[-70px] object-cover"
@@ -233,8 +233,8 @@ export default function Page() {
       {/* greenfield section */}
       <section className="relative group overflow-hidden xl:mt-0">
         <Image
-          src="/images/services/rise-with-sap/Greenfield+background (1).webp"
-          alt="Greenfield Implementation"
+          src="/images/services/rise-with-sap/high-speed-digital-highway-night.webp"
+          alt={t('greenAlt')}
           className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
@@ -358,8 +358,8 @@ export default function Page() {
             <div className="grid lg:grid-cols-12 grid-cols-1 bg-[#068EDA] lg:gap-8">
               <div className="xl:col-span-4 lg:col-span-4 col-span-12 lg:pl-10 md:px-4">
                 <Image
-                  src="/images/services/rise-with-sap/SAP Signavio.webp"
-                  alt="SAP Signavio Logo"
+                  src="/images/services/rise-with-sap/sap-signavio-logo.webp"
+                  alt="sap-signavio-logo"
                   width={0}
                   height={0}
                   className="lg:w-full md:w-[50%] w-full h-full object-scale-down"
@@ -403,8 +403,8 @@ export default function Page() {
       {/* connected sap solution */}
       <section className="relative xl:mt-0 mt-0 pb-[91px] xl:pb-[0px] xl:h-[600px]">
         <Image
-          src="/images/services/rise-with-sap/Connected SAP Solutions.webp"
-          alt="Connected SAP Solutions"
+          src="/images/services/rise-with-sap/data-stream-network-visualization.webp"
+          alt={t('connectedAlt')}
           fill
           style={{ objectFit: "cover", objectPosition: "35% 20%" }}
           priority
@@ -442,8 +442,8 @@ export default function Page() {
           <div className="relative xl:h-[665px] h-auto xl:mt-20">
             <div className="relative group overflow-hidden xl:absolute xl:inset-0 h-[300px] xl:h-full w-full">
               <Image
-                src="/images/services/rise-with-sap/Agentchat banner.webp"
-                alt="AgentChat Banner"
+                src="/images/services/rise-with-sap/professional-using-smartphone-outdoors.webp"
+                alt={t('agentAlt')}
                 fill
                 style={{ objectFit: "cover", objectPosition: "68%" }}
                 priority
@@ -492,8 +492,8 @@ export default function Page() {
           {/* Image Column */}
           <div className="col-span-12 group overflow-hidden lg:col-span-5 relative h-[450px] md:h-[600px] md:w-[700px] lg:w-full md:mx-auto lg:h-full">
             <Image
-              src="/images/services/rise-with-sap/AI and Data-Driven Innovation.webp"
-              alt="AI and Data-Driven Innovation"
+              src="/images/services/rise-with-sap/hand-holding-glowing-sphere-vision.webp"
+              alt={t('aiAlt')}
               fill
               style={{ objectFit: "cover", objectPosition: "35% 20%" }}
               priority

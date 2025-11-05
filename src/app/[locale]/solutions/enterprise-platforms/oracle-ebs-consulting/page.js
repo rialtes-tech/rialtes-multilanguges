@@ -152,8 +152,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="xl:block hidden">
           <Image
-            src="/images/oracle-ebs/oracle header.webp"
-            alt="Oracle EBS Services"
+            src="/images/oracle-ebs/oracle-ebs-services-banner.webp"
+            alt={t('bannerAlt')}
             fill
             priority
             sizes="100vw"
@@ -163,8 +163,8 @@ export default function Page() {
         {/* Mobile/Tablet Image */}
         <div className="xl:hidden block">
           <Image
-            src="/images/oracle-ebs/Header banner Oracle.webp"
-            alt="Oracle EBS Services"
+            src="/images/oracle-ebs/mobile-header-banner.webp"
+            alt={t('bannerAlt')}
             fill
             priority
             sizes="100vw"
@@ -199,8 +199,8 @@ export default function Page() {
               <div className="xl:col-span-1 col-span-12"></div>
               <div className="xl:col-span-3 col-span-12">
                 <Image
-                  src="/images/oracle-ebs/oracle EBS logo.webp"
-                  alt="Empower your enterprise with Rialtes"
+                  src="/images/oracle-ebs/oracle-ebusiness-suite-logo.webp"
+                  alt={t('ebsSuitelogoAlt')}
                   priority
                   className="w-[397px] h-[233] xl:mt-[-20px]"
                   width={0}
@@ -216,16 +216,16 @@ export default function Page() {
       <section className="relative pb-20 lg:pb-0">
         <div className="hidden xl:block">
           <Image
-            src="/images/oracle-ebs/EBSplus.webp"
-            alt="ebs plus section"
+            src="/images/oracle-ebs/oracle-ebsplus-overview.webp"
+            alt={t('ebsimageAlt')}
             fill
             priority
           />
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/oracle-ebs/Group 465.webp"
-            alt="ebs plus section"
+            src="/images/oracle-ebs/oracle-ebs-mobile.webp"
+            alt={t('ebsimageAlt')}
             fill
             priority
           />
@@ -275,8 +275,8 @@ export default function Page() {
       <section className="relative h-auto pb-20 xl:h-[1482px] z-0 xl:pb-20 xl:mt-[-60px]">
         <div className="xl:block hidden">
           <Image
-            src="/images/oracle-ebs/deep expertise.webp"
-            alt="Deep Expertise in Oracle EBS"
+            src="/images/oracle-ebs/oracle-ebs-deep-expertise.webp"
+            alt={t('deepexpertiseAlt')}
             fill
             priority
             sizes="100vw"
@@ -284,8 +284,8 @@ export default function Page() {
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/oracle-ebs/OCI.webp"
-            alt="Deep Expertise in Oracle EBS"
+            src="/images/oracle-ebs/oracle-deep-experties-mobile.webp"
+            alt={t('deepexpertiseAlt')}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -331,8 +331,8 @@ export default function Page() {
       <section className="relative pb-12 md:pb-[6rem] xl:pb-40 z-0 bg-[#F2F2F2] xl:mt-0 max-sm:px-0 custom-container">
         <div className="xl:block hidden">
           <Image
-            src="/images/oracle-ebs/thought leadership.webp"
-            alt="Thought Leadership"
+            src="/images/oracle-ebs/oracle-ebs-thought-leadership.webp"
+            alt={t('thoughtleadershipAlt')}
             fill
             priority
             sizes="100vw"
@@ -353,8 +353,8 @@ export default function Page() {
                 {/* Mobile Image */}
                 <div className="block xl:hidden relative w-full h-[400px] sm:px-0 custom-container md:h-[900px] mt-8">
                   <Image
-                    src="/images/oracle-ebs/TL (1).webp"
-                    alt="Thought Leadership"
+                    src="/images/oracle-ebs/thought-mobile.webp"
+                    alt={t('thoughtleadershipAlt')}
                     fill
                     className="object-cover"
                     priority
@@ -399,13 +399,13 @@ export default function Page() {
           <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20">
             <div className="xl:col-span-4 col-span-12">
               <Image
-                src="/images/oracle-ebs/supply chain.webp"
+                src="/images/oracle-ebs/oracle-ebs-kinaxis-supply-chain-planning.webp"
                 width={0}
                 height={0}
                 priority
                 sizes="100vw"
                 className="xl:h-[850px] h-[398px] md:h-[550px] w-full xl:w-[532px] xl:mt-[-80px] object-cover"
-                alt="Supply Chain Planning with Oracle EBS and Kinaxis image"
+                alt={t('supplyChainAlt')}
               />
             </div>
             <div className="xl:col-span-7 col-span-12">
@@ -441,8 +441,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="xl:block hidden">
           <Image
-            src="/images/oracle-ebs/sales planning.webp"
-            alt="Sales and Operations Planning"
+            src="/images/oracle-ebs/oracle-ebs-sales-operations-planning.webp"
+            alt={t('salesAndOperationsAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -452,8 +452,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="xl:hidden block relative w-full h-[415px]">
           <Image
-            src="/images/oracle-ebs/Sales and Operations Planning.webp"
-            alt="Sales and Operations Planning"
+            src="/images/oracle-ebs/oracle-ebs-sales-operations-planning-mobile.webp"
+            alt={t('salesAndOperationsAlt')}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -496,7 +496,7 @@ export default function Page() {
           <div className="flex xl:flex-row flex-col xl:gap-16">
             <Image
               src="/images/oracle-ebs/inventory.webp"
-              alt=" Inventory Optimization & Enterprise Scheduling image"
+              alt={t('inventoryAlt')}
               priority
               className="xl:w-[618px] xl:h-[640] h-[309] w-full object-cover"
               width={0}
@@ -539,21 +539,21 @@ export default function Page() {
             <div className="xl:col-span-7 col-span-12 order-1 xl:order-2">
               <div className="xl:block hidden">
                 <Image
-                  src="/images/oracle-ebs/scenario planining.webp"
+                  src="/images/oracle-ebs/oracle-ebs-scenario-planning.webp"
                   width={950}
                   height={600}
                   style={{ width: "100%", height: "auto", objectFit: "cover" }}
                   priority
                   sizes="100vw"
-                  alt="End-to-End Scenario Planning"
+                  alt={t('senarioplanningAlt')}
                 />
               </div>
               <div className="xl:hidden block">
                 <Image
-                  src="/images/oracle-ebs/Scenario-Planning-mobile.webp"
+                  src="/images/oracle-ebs/oracle-ebs-scenario-planning-mobile.webp"
                   width={950}
                   height={600}
-                  alt="End-to-End Scenario Planning "
+                  alt={t('senarioplanningAlt')}
                   className="w-full"
                   priority
                   sizes="100vw"
@@ -579,16 +579,16 @@ export default function Page() {
       <section className="relative pb-16 xl:py-20">
         <div className="lg:block hidden">
           <Image
-            src="/images/oracle-ebs/AI transformation.webp"
-            alt=" AI & Data-Driven image"
+            src="/images/oracle-ebs/oracle-ebs-ai-data-transformation.webp"
+            alt={t('aiDrivenAlt')}
             fill
             priority
           />
         </div>
         <div className="lg:hidden block">
           <Image
-            src="/images/oracle-ebs/AI & Data-Driven-mobile.webp"
-            alt=" AI & Data-Driven image"
+            src="/images/oracle-ebs/oracle-ebs-ai-data-transformation-mobile.webp"
+            alt={t('aiDrivenAlt')}
             priority
             style={{ objectFit: "cover", objectPosition: "35% 0%" }}
             width={0}
@@ -644,7 +644,7 @@ export default function Page() {
                   className={`flex xl:block items-start gap-6 ${index >= 3 ? "xl:mt-16" : ""}`}>
                   <Image
                     src={item.img}
-                    alt="Why Rialtes"
+                    alt={item.alt}
                     width={100}
                     height={100}
                     priority

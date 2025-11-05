@@ -1,6 +1,16 @@
 {
     "sapBuyPlus": {
         "headerTitle": "SAPBuy+",
+        "whyChooseAlt": "Banner image highlighting Rialtes' SAPBuy+ ARIBA implementation services with two professionals reviewing documents.",
+        "agentchatAlt": "Screenshot of RialChat WhatsApp app enabling real-time procurement approvals and collaboration.",
+        "seamlessIntegrationsAlt": "Diagram of SAP ARIBA integration with SAP S/4HANA, SuccessFactors, and third-party systems via SAP CPI.",
+        "suplierProfileAlt": "Visual showing SAP ARIBA’s supplier profile management for onboarding and compliance",
+        "sapbuyplusContractAlt": "Graphic illustrating SAP ARIBA Contract Management features including automated creation, collaboration, digital signatures, and compliance tracking.",
+        "buyingAlt": "Image illustrating SAP ARIBA Buying & Invoicing module for automated procure-to-pay workflows",
+        "sapAribaNetworkAlt": "Graphic representing SAP ARIBA Business Network for supplier collaboration and digital procurement.",
+        "sapAribaModuleAlt": "Visual overview of SAP ARIBA modules for direct and indirect procurement processes",
+        "unloackProcurementAlt": "Illustration showing SAP ARIBA integration with SAP S/4HANA and third-party apps to unlock procurement efficiency.",
+        "sapbuyplusBannerAlt": "Banner image showing SAP Ariba implementation with the text “SAPBuyPlus – Optimize Spend Management,” representing efficient procurement transformation",
         "seoTitle": "SAP Ariba Implementation Partner and Procurement Solutions | Rialtes",
         "seoDescription": "As a leading Ariba implementation partner, Rialtes powers procurement transformation with SAPBuy+ and expert Ariba services tailored to modern supply chain needs.",
         "headerSubTitle": "Transform Procurement Excellence with Rialtes SAPBuy+ Services for SAP ARIBA",
@@ -192,9 +202,12 @@
         "keyFeatureTitle": "Key Features of AgentChat for SAP ARIBA Users"
     },
     "successPlus": {
-        "keyServiceImg":"/images/services/success-plus/key-services-desk.webp",
-        "keyServiceImgMobile":"/images/services/success-plus/Mobile/key-services-mob.webp",
+        "keyServiceImg": "/images/services/success-plus/key-services-desk.webp",
+        "keyServiceImgMobile": "/images/services/success-plus/Mobile/key-services-mob.webp",
         "headerTitle": "Success+",
+        "bannerAlt": "Rialtes SuccessPlus – SAP SuccessFactors implementation partner helping organizations optimize HR transformation.",
+        "sapPartnerLogoAlt": "Official SAP Partner logo representing Rialtes’ certified expertise in SAP SuccessFactors implementation. ",
+        "sapSuccessAlt": "Official SAP SuccessFactors logo featuring blue text and a yellow heart icon, representing people-centric HR transformation. ",
         "seoTitle": "SAP SuccessFactors Consulting and Implementation Partners | Rialtes",
         "seoDescription": "Success+ by Rialtes delivers AI-powered SuccessFactors consulting and implementation to modernize HCM and accelerate your HR transformation. Let’s begin!",
         "headerSubTitlep1": "Transforming HR for",
@@ -250,7 +263,7 @@
         "contactTitle": "Partner with Rialtes for Your SAP SuccessFactors Journey",
         "contactSubTitle": "Whether you are starting fresh, migrating from Workday or ZOHO, or enhancing your current SuccessFactors environment, Rialtes’ SuccessPlus offers the expertise, tools, and methodology to drive real HR transformation.",
         "empoweringTitle": " Rialtes — Empowering Enterprises to Lead with SAP SuccessFactors Journey",
-        "knowMore":"Know More",
+        "knowMore": "Know More",
         "relatedData": [
             "SAP S/4HANA for Finance & Operations.",
             "SAP Ariba for Direct & Indirect Procurement",
@@ -288,20 +301,24 @@
         ],
         "migratingBenefitsData": [
             {
-                "img": "/images/services/success-plus/unified-img.svg",
-                "title": "Unified HR platform aligned with business goals."
+                "img": "/images/services/success-plus/unified-hr-platform-business-goals.svg",
+                "title": "Unified HR platform aligned with business goals.",
+                "alt": "Graphic showing a unified HR platform aligned with business goals through SAP SuccessFactors. "
             },
             {
-                "img": "/images/services/success-plus/future-img.svg",
-                "title": "Future-proofing HR with AI, automation, and advanced analytics."
+                "img": "/images/services/success-plus/future-proof-hr-ai-automation-analytics.svg",
+                "title": "Future-proofing HR with AI, automation, and advanced analytics.",
+                "alt": "Illustration of future-ready HR transformation using AI, automation, and analytics in SAP SuccessFactors. "
             },
             {
-                "img": "/images/services/success-plus/integration-img.svg",
-                "title": "Integration with core SAP and third-party systems for a connected enterprise."
+                "img": "/images/services/success-plus/sap-integration-connected-enterprise.svg",
+                "title": "Integration with core SAP and third-party systems for a connected enterprise.",
+                "alt": "Visualization of SAP SuccessFactors integration with core SAP and third-party systems for enterprise connectivity. "
             },
             {
-                "img": "/images/services/success-plus/global-hr-img.svg",
-                "title": "Global HR compliance and local adaptability."
+                "img": "/images/services/success-plus/global-hr-compliance-local-adaptability.svg",
+                "title": "Global HR compliance and local adaptability.",
+                "alt": "Image representing global HR compliance and local adaptability enabled by SAP SuccessFactors."
             }
         ],
         "sapActivateData": [
@@ -382,12 +399,25 @@
         "headerTitle": "DemandPlus",
         "seoTitle": "Kinaxis RapidResponse for Agile SCM with Rialtes DemandPlus",
         "seoDescription": "Reimagine resilient supply chains with Kinaxis RapidResponse and Rialtes’ DemandPlus—smart SCM solutions for agility, speed, and precision.",
-          "learnMoreBtn": "Learn More",
-          "knowMoreBtn": "Know More",
+        "learnMoreBtn": "Learn More",
+        "knowMoreBtn": "Know More",
         "headerSubTitle": "Transform Your Supply Chain with Rialtes ‘DemandPlus’ for Kinaxis RapidResponse",
         "pageDescTitle": "Agility, Accuracy, and Resilience in Supply Chain — Powered by Kinaxis and Rialtes",
         "pageDesc1": "In today’s volatile and complex supply chain landscape, businesses need real-time visibility, agile planning, and predictive insights to stay competitive. Rialtes’ DemandPlus Services, built around Kinaxis RapidResponse, deliver end-to-end supply chain transformation, enabling companies to plan, monitor, and respond to supply chain dynamics in real-time.",
         "pageDesc2": "As a certified Kinaxis and SAP partner with offices in United States, Canada, India, and Singapore, and a team of highly certified Kinaxis experts, Rialtes helps clients leverage RapidResponse to unlock connected, intelligent, and resilient supply chains — ready for tomorrow’s challenges.",
+        "bannerAlt": "Aerial view of cargo container ships with colorful stacked containers and yellow cranes at busy shipping port terminal",
+        "demandAlt": "Two logistics workers in safety gear inspecting shipping containers with forklift at industrial cargo yard terminal",
+        "whyAlt": "Two warehouse managers in business attire reviewing inventory data on tablet in distribution center with stacked boxes",
+        "supplyAlt": "Warehouse worker in yellow hard hat and safety vest reviewing documents while analyzing logistics data on large monitor",
+        "salesAlt": "Diverse business professionals collaborating at laptops in modern industrial-style office with exposed pipes and lighting ",
+        "inventoryAlt": "Aerial view of warehouse worker in yellow safety vest using tablet for inventory management among tall pallet storage racks ",
+        "scenarioAlt": "Three diverse professionals collaborating on project with tablet and documents in modern bright office workspace environment",
+        "seamlessAlt": "Smiling bearded man in glasses giving enthusiastic high-five to colleague in bright modern office celebrating team success",
+        "btpAlt": "Futuristic data center corridor with illuminated server racks displaying blue and orange lights representing cloud infrastructure",
+        "bringingAlt": "Blue wireframe cloud structure with digital grid pattern on white background representing cloud computing technology ",
+        "sapAlt": "Cardboard boxes moving on automated conveyor belt system in modern warehouse facility with shelving units in background ",
+        "enhanceAlt": "Smiling woman in orange shirt and glasses at office desk during team meeting with colleague in modern workplace setting",
+        "leadingAlt": "Warehouse worker with tablet viewing holographic digital inventory data displays in modern automated storage facility aisle ",
         "kinaxisServices": [
             {
                 "id": 1,
@@ -523,24 +553,29 @@
         "seoDescription": "Grow with SAP solutions that deliver measurable business success, powered by Rialtes—a trusted SAP partner driving enterprise-ready innovation and growth.",
         "services": [
             {
+                "alt": "Blue line icon of certificate document with ribbon medal and text lines representing achievement or qualification ",
                 "text": "SAP License Advisory",
-                "img": "/images/services/grow-with-sap/SAP License Advisory.svg"
+                "img": "/images/services/grow-with-sap/certificate-document-icon.svg"
             },
             {
+                "alt": " Blue outline shield icon with award ribbon and checkmark symbolizing security certification and verified protection",
                 "text": "Quality Assurance & User Training",
-                "img": "/images/services/grow-with-sap/Quality Assurance & User Training.svg"
+                "img": "/images/services/grow-with-sap/security-badge-shield-icon.svg"
             },
             {
+                "alt": "Blue line icon of customer service representative with headset and speech bubble symbolizing technical support assistance",
                 "text": "Post Go-Live Support & Continuous Optimization",
-                "img": "/images/services/grow-with-sap/Post Go-Live Support .svg"
+                "img": "/images/services/grow-with-sap/customer-support-service-icon.svg"
             },
             {
+                "alt": "Blue line icon with cloud, lightbulb, and gear symbolizing cloud computing innovation and integrated technology solutions ",
                 "text": "Solution Design & Implementation",
-                "img": "/images/services/grow-with-sap/Solution Design & Implementation.svg"
+                "img": "/images/services/grow-with-sap/cloud-innovation-technology-icon.svg"
             },
             {
+                "alt": "Blue line icon showing connected users around verified gear symbol representing team collaboration and approved workflow",
                 "text": "System Integration & Customization",
-                "img": "/images/services/grow-with-sap/System Integration & Customization.svg"
+                "img": "/images/services/grow-with-sap/network-collaboration-verified-icon.svg"
             }
         ],
         "cardsData": [
@@ -669,6 +704,13 @@
                 "desc": "Hypercare, continuous improvement, AI integration."
             }
         ],
+        "bannerAlt": " Abstract speed motion blur creating dynamic tunnel effect with flowing lines and warm light at horizon point",
+        "whyAlt": "Glowing neon arrow pointing upward with flowing digital lines representing business growth and success on dark background",
+        "sapAlt": "Ethereal blue and pink clouds with glowing cyan data streams flowing through dreamlike sky representing cloud computing concept",
+        "signavioAlt": "SAP Signavio logo with blue geometric brand mark and navy text on white background for business process management software",
+        "expandingAlt": "Hand touching luminous upward arrow with golden particles on dark blue background symbolizing digital growth and innovation",
+        "convAlt": "Smiling young man in green hoodie using smartphone at cafe table with coffee cup and teapot in cozy interior setting ",
+        "futureAlt": "Human profile composed of glowing red and cyan digital code and data streams against blurred cityscape representing AI technology",
         "headerTitle": "VoyagerNext",
         "headerSubTitle": "Grow Faster, Smarter with Rialtes' VoyagerNext",
         "headerSubTitle2": "Your Partner for SAP S/4HANA Cloud Transformation",
@@ -865,6 +907,12 @@
                 "desc": "Continuous optimization and support."
             }
         ],
+        "bannerAlt": "Abstract blue gradient background with radial curved lines creating dynamic circular pattern representing digital transformation",
+        "whyAlt": "Business professional working on laptop with glowing blue network visualization and bokeh lights representing data connectivity",
+        "greenAlt": " Highway at night with orange and blue light trails under starry sky symbolizing high-speed digital connectivity and data transfer ",
+        "connectedAlt": "Dynamic blue and purple data streams with connected particles on dark background representing high-speed network flow",
+        "agentAlt": "Smiling bearded man wearing glasses and green shirt using smartphone outdoors against brick wall in natural daylight",
+        "aiAlt": "Hand holding luminous golden sphere with clouds inside against bokeh background symbolizing innovation and future vision ",
         "headerTitle": "Voyager+",
         "headerSubTitle": "Accelerate Your Digital Transformation with Rialtes Voyager+ for RISE with SAP",
         "pageDescTitle": " Unlock the Future of Intelligent Enterprise with a Trusted SAP Partner",
@@ -912,9 +960,9 @@
         "seoDescription": "Salesforce automotive cloud by Rialtes AutoSense drives innovation and efficiency, helping automotive businesses deliver exceptional customer experiences.",
         "keyPillarsSectionData": [
             {
-                "imageUrl": "/images/industry/auto-sense/strategic-advisory-img.webp",
-                "imageAlt": "strategic advisory image",
-                "mobileImageUrl": "/images/industry/auto-sense/Mobile/strategic-advisory-mob-img.webp",
+                "imageUrl": "/images/industry/auto-sense/holographic-car-design-engineering.webp",
+                "imageAlt": "Holographic transparent car model with exposed green battery system on digital display for automotive engineering design",
+                "mobileImageUrl": "/images/industry/auto-sense/Mobile/holographic-car-design-engineering-mobile.webp",
                 "title": "Strategic Advisory & Roadmapping",
                 "listItems": [
                     "Future-ready IT and digital strategy aligned to electrification, AI, and CX goals.",
@@ -924,9 +972,9 @@
                 "bgColor": "#1FA274"
             },
             {
-                "imageUrl": "/images/industry/auto-sense/design-and-implementation-img.webp",
-                "imageAlt": "design and implementation image",
-                "mobileImageUrl": "/images/industry/auto-sense/Mobile/design-and-implementation-mob-img.webp",
+                "imageUrl": "/images/industry/auto-sense/automotive-software-development-laptop.webp",
+                "imageAlt": "Engineer analyzing 3D car model on laptop with technical diagrams for automotive software development and vehicle design",
+                "mobileImageUrl": "/images/industry/auto-sense/Mobile/automotive-software-development-laptop-mobile.webp",
                 "title": "Design & Implementation",
                 "listItems": [
                     "Rapid deployment of Salesforce Automotive Cloud, SAP S/4HANA Automotive, SAP Vehicle Management System (VMS), and SAP IBP for Supply Chain.",
@@ -936,9 +984,9 @@
                 "bgColor": "#0F90BF"
             },
             {
-                "imageUrl": "/images/industry/auto-sense/integration-quality-assurance-img.webp",
-                "imageAlt": "integration quality assurance image",
-                "mobileImageUrl": "/images/industry/auto-sense/Mobile/integration-quality-assurance-mob-img.webp",
+                "imageUrl": "/images/industry/auto-sense/mechanic-diagnosing-vehicle-computer.webp",
+                "imageAlt": "Automotive technician using diagnostic tablet to examine car computer system in professional repair shop setting",
+                "mobileImageUrl": "/images/industry/auto-sense/Mobile/mechanic-diagnosing-vehicle-computer-mobile.webp",
                 "title": "Integration & Quality Assurance",
                 "listItems": [
                     "Seamless integration across ERP, CRM, connected devices, and third-party platforms.",
@@ -948,9 +996,9 @@
                 "bgColor": "#006FBE"
             },
             {
-                "imageUrl": "/images/industry/auto-sense/post-go-live-img.webp",
-                "imageAlt": "post go live image",
-                "mobileImageUrl": "/images/industry/auto-sense/Mobile/post-go-live-mob-img.webp",
+                "imageUrl": "/images/industry/auto-sense/autonomous-driving-hands-free-technology.webp",
+                "imageAlt": "Driver with hands off steering wheel demonstrating autonomous self-driving technology on sunny road with motion blur",
+                "mobileImageUrl": "/images/industry/auto-sense/Mobile/autonomous-driving-hands-free-technology-mobile.webp",
                 "title": "Post Go-Live & Continuous Innovation",
                 "listItems": [
                     "Dedicated Center of Excellence (CoE) for AI, SAP, and Salesforce auto solutions.",
@@ -962,21 +1010,24 @@
         ],
         "chooseRialtesData": [
             {
-                "imageUrl": "/images/industry/auto-sense/automative-experties-img.svg",
+                "imageUrl": "/images/industry/auto-sense/vehicle-fleet-monitoring-icon.svg",
+                "alt": "Blue line icon of computer monitor displaying vehicle with connection points representing fleet management system ",
                 "title": "10+ Years of Automotive Expertise",
                 "listItems": [
                     "We bring over a decade of hands-on experience working with OEMs, suppliers, dealers, and EV startups across the automotive value chain. From manufacturing floors to customer showrooms, we understand the unique challenges and opportunities shaping the future of mobility."
                 ]
             },
             {
-                "imageUrl": "/images/industry/auto-sense/automative-cloud-experts-img.svg",
+                "imageUrl": "/images/industry/auto-sense/cloud-user-settings-integration-icon.svg",
+                "alt": "Blue line icon showing user figure with cloud storage and gear settings representing integrated cloud platform management",
                 "title": "Salesforce Automotive Cloud Experts",
                 "listItems": [
                     "As certified Salesforce Automotive Cloud specialists, we empower automotive companies to deliver connected, personalized customer experiences, improve dealer collaboration, and unlock the power of connected vehicle data."
                 ]
             },
             {
-                "imageUrl": "/images/industry/auto-sense/data-integration-img.svg",
+                "imageUrl": "/images/industry/auto-sense/cloud-connectivity-network-icon.svg",
+                "alt": " Blue line icon of cloud with gear and connected nodes below representing cloud infrastructure and distributed network",
                 "title": "Seamless ERP & Data Integration",
                 "listItems": [
                     "We specialize in integrating Salesforce Automotive Cloud with backend ERP platforms like SAP S/4HANA and Oracle, creating a unified data ecosystem that connects sales, service, supply chain, and finance."
@@ -987,8 +1038,9 @@
         "whyChooseTitle2": "Automotive Transformation?",
         "rialtesMakesWorkData": [
             {
-                "image": "/images/industry/auto-sense/backend-erp-img.webp",
-                "mobileImage": "/images/industry/auto-sense/Mobile/backend-erp-mob-img.webp",
+                "image": "/images/industry/auto-sense/automotive-port-shipping-logistics.webp",
+                "mobileImage": "/images/industry/auto-sense/Mobile/automotive-port-shipping-logistics-mobile.webp",
+                "alt": "Large cargo ship at port with rows of new vehicles ready for export representing automotive logistics and global distribution ",
                 "title": "Salesforce Automotive Cloud + Backend ERP Systems (SAP, Oracle, Others)",
                 "list": [
                     "Integrating Salesforce Automotive Cloud with ERP systems like SAP S/4HANA for Automotive, SAP IBP for Supply Chain, and Oracle Automotive solutions for real-time sync of inventory, production, warranty, and supply chain data.",
@@ -996,8 +1048,9 @@
                 ]
             },
             {
-                "image": "/images/industry/auto-sense/frontend-img.webp",
-                "mobileImage": "/images/industry/auto-sense/Mobile/frontend-mob-img.webp",
+                "image": "/images/industry/auto-sense/aerial-highway-interchange-light-trails.webp",
+                "mobileImage": "/images/industry/auto-sense/Mobile/aerial-highway-interchange-light-trails-mobile.webp",
+                "alt": "Aerial view of illuminated highway interchange with blue and white light trails showing traffic flow at night",
                 "title": "Salesforce Automotive Cloud + Front-End Data Visualization & AI Solutions",
                 "list": [
                     "Building interactive dashboards and customer portals using tools like Tableau, Power BI, and AI/ML-powered analytics.",
@@ -1005,8 +1058,9 @@
                 ]
             },
             {
-                "image": "/images/industry/auto-sense/end-to-end-process-img.webp",
-                "mobileImage": "/images/industry/auto-sense/Mobile/end-to-end-process-mob-img.webp",
+                "image": "/images/industry/auto-sense/engineers-monitoring-industrial-systems.webp",
+                "mobileImage": "/images/industry/auto-sense/Mobile/engineers-monitoring-industrial-systems-mobile.webp",
+                "alt": "Two engineers in safety gear analyzing data on multiple monitors in industrial control room for operations management",
                 "title": "End-to-End Process Automation & Quality Assurance",
                 "list": [
                     "Implementing process automation for sales, service, and marketing workflows.",
@@ -1038,6 +1092,8 @@
                 "description": "Aligning profitability with ESG goals through AI and intelligent platforms."
             }
         ],
+        "bannerAlt": "Blue motion blur light trails on highway at night with mountain silhouettes representing high-speed digital acceleration",
+        "partnerAlt": "Man using tablet while charging electric vehicle at home charging station in sunny residential driveway with greenery ",
         "thoughtLeadershipTitle": "Thought Leadership Themes for Automotive Clients ",
         "thoughtLeadershipDesc": " Here are 5 high impact thought leadership ideas Rialtes can drive to position as an industry leader:",
         "headerTitle": "AutoSense",
@@ -1053,6 +1109,14 @@
         "contactTitle": "Accelerate Your Automotive Transformation with Rialtes"
     },
     "salesforceAgent": {
+        "certifiedSectionAlt" : "Software developers coding on multiple screens in collaborative tech workspace with team members in background",
+        "migrateSectionAlt" : "Futuristic glass building with reflective clouds representing modern scalable cloud infrastructure and digital architecture",
+        "salesforceIndustryCloudSolutionsAlt" : "Salesforce Industry Cloud specializations including Healthcare, Manufacturing, Education, and Real Estate solutions grid",
+        "salesforceSectionAlt" : "Professional team collaborating on laptop reviewing business strategies and solutions in modern office workspace",
+        "rialchatAlt" : "Smiling professional woman using smartphone in modern bright office with dashboard displays on wall behind her",
+        "unlockAIAlt" : "Blue digital data waves with glowing particles representing unified Salesforce Financial Services Cloud synchronization",
+        "startAlAlt" : "Professional silhouette overlooking mountain valley with glowing digital network overlay symbolizing AI journey transformation",
+        "bannerAlt" : "Glowing golden portal with radiating light beams representing SalesforceAgent+ AI-ready managed services transformation",
         "headerTitle": " SalesforceAgent+",
         "seoTitle": "Salesforce Managed Services Provider | Rialtes SalesforceAgent+",
         "seoDescription": "Looking for a Salesforce managed services partner and provider? Rialtes drives innovation with SalesforceAgent+, making your platform smarter, faster, and AI-ready.",
@@ -1239,24 +1303,29 @@
         "whySubTitle": "Your Trusted Salesforce AI & Managed Services Partner",
         "whyChooseData": [
             {
-                "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (1).svg",
-                "data": "Salesforce Managed Services, AI enablement, and Data Cloud experts."
+                "img": "/images/services/salesforce-agentforce/Mobile/connected-network-communication-icon.svg",
+                "data": "Salesforce Managed Services, AI enablement, and Data Cloud experts.",
+                "alt" : "Interconnected network diagram with central user profile surrounded by communication nodes and connection points"
             },
             {
-                "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (2).svg",
-                "data": "Global delivery with a local touch."
+                "img": "/images/services/salesforce-agentforce/Mobile/hand-holding-globe-service-icon.svg",
+                "data": "Global delivery with a local touch.",
+                "alt" : "Hand supporting globe with motion lines representing global service delivery and worldwide support accessibility"
             },
             {
-                "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (3).svg",
-                "data": "24x7 support to keep you running — and growing."
+                "img": "/images/services/salesforce-agentforce/Mobile/customer-support-representative-icon.svg",
+                "data": "24x7 support to keep you running — and growing.",
+                "alt" : "Customer service representative with headset at computer displaying speech bubble for communication assistance"
             },
             {
-                "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (4).svg",
-                "data": "RialChat (WhatsApp Integration) included — Free."
+                "img": "/images/services/salesforce-agentforce/Mobile/automated-process-workflow-cycle-icon.svg",
+                "data": "RialChat (WhatsApp Integration) included — Free.",
+                "alt" : "Circular workflow with gear and chat bubble showing automated process cycle and continuous communication loop"
             },
             {
-                "img": "/images/services/salesforce-agentforce/Mobile/why-choose- (5).svg",
-                "data": "Deep focus on Agentforce and AI transformation journeys."
+                "img": "/images/services/salesforce-agentforce/Mobile/artificial-intelligence-brain-technology-icon.svg",
+                "data": "Deep focus on Agentforce and AI transformation journeys.",
+                "alt" : "Human head profile with circuit board pattern and gear symbolizing artificial intelligence and cognitive technology"
             }
         ],
         "knowMore": "Know More",
@@ -1266,6 +1335,22 @@
         "contactSubTitleOne": "Contact Rialtes to discover how SalesforceAgent+ can supercharge your Salesforce ecosystem."
     },
     "sapDigitalDesk": {
+        "whyPartnersAlt" : "Professional handshake with vibrant digital light effects symbolizing technology partnership and business collaboration ",
+        "migrateSectionAlt" : "Digital wave background displaying SAP SuccessFactors migration pathways from Workday and ZOHO HR with service details",
+        "btpSectionAlt" : "Smiling business professionals analyzing data visualization on interactive digital screen in modern collaborative workspace",
+        "superchargeSectionAlt" : "Hands assembling blue puzzle pieces with HR icons showing SAP Joule AI integration for automated employee management system",
+        "sapSignavioAlt" : "SAP Signavio and Activate implementation methodology showing six-step process from discovery to deployment and optimization",
+        "winnigSectionAlt" : "Overhead view of HR professionals conducting SAP SuccessFactors talent management meeting with documents and laptop",
+        "intelligentSectionAlt" : "Business professionals reviewing colorful analytics dashboard with charts and graphs on laptop for data-driven insights",
+        "codeFutureAlt" : "Software developer wearing glasses analyzing programming code with holographic display overlay showing data visualization",
+         "seamlessSectionAlt" : "Aerial view of multilevel highway intersection with traffic flow showing transportation infrastructure and connectivity",
+        "unleashSectionAlt" : "Business professionals reviewing digital data on tablet with transparent interface overlay in modern corporate office",
+        "sapFioriSectionAlt" : "Smiling professional woman in black attire working on laptop in modern office workspace with bright natural lighting",
+        "futureProofAlt" : "Industrial engineer in safety vest and hard hat analyzing real-time data on digital monitoring screens in factory",
+        "sapSectionAlt" : "SAP certification information page displaying over 150 certifications across major modules with expertise benefits listed",
+        "projectleadershipAlt" : "Futuristic warehouse with digital grid overlay and forklifts showing smart logistics and automated inventory management",
+        "rialtesSectionAlt" : "Abstract digital network visualization showing global SAP support infrastructure with blue waveforms and connectivity",
+        "bannerAlt" : "Professional analyzing SAP data analytics on tablet with financial graphs and charts overlay for maximizing investment",
         "seoTitle": "SAP Managed Services Provider Driving ROI and Agility | Rialtes",
         "seoDescription": "As a next-gen SAP Managed Services Provider, Rialtes future-proofs your SAP stack with AI, automation, cloud-native apps, and continuous innovation.",
         "sapCertificationData": [
@@ -1535,37 +1620,44 @@
         "retailVerticals": [
             {
                 "title": "Fashion & Apparel",
-                "icon": "/images/industry/retail/fashan.svg",
+                "alt": "Blue line icon showing folded t-shirt and handbag representing clothing and accessories shopping category on gray background",
+                "icon": "/images/industry/retail/clothing-accessories-shopping-bag-icon.svg",
                 "paddingClass": "xl:pr-20"
             },
             {
                 "title": "Consumer Electronics",
-                "icon": "/images/industry/retail/consumer.svg",
+                "alt": "Blue line icon depicting washing machine, blender, and microwave representing home appliances and electronics category",
+                "icon": "/images/industry/retail/home-appliances-electronics-category-icon.svg",
                 "paddingClass": "xl:pr-20"
             },
             {
                 "title": "Home & Furniture",
-                "icon": "/images/industry/retail/ferniture.svg",
+                "alt": "Blue line icon showing wardrobe, armchair, and side table representing furniture and home decor shopping category",
+                "icon": "/images/industry/retail/furniture-home-decor-category-icon.svg",
                 "paddingClass": "xl:pr-20"
             },
             {
                 "title": "Luxury Goods & Lifestyle",
-                "icon": "/images/industry/retail/lux.svg",
+                "alt": "Blue line icon featuring diamond in gift box with stars representing jewelry, luxury items, and gifts shopping category",
+                "icon": "/images/industry/retail/jewelry-luxury-gifts-category-icon.svg",
                 "paddingClass": "xl:pr-40"
             },
             {
                 "title": "Food & Beverage",
-                "icon": "/images/industry/retail/foods.svg",
+                "alt": "Blue line icon showing burger, coffee cup, and takeout bag representing food, beverage, and restaurant category",
+                "icon": "/images/industry/retail/food-beverage-restaurant-category-icon.svg",
                 "paddingClass": "xl:pr-24"
             },
             {
                 "title": "Health & Wellness",
-                "icon": "/images/industry/retail/health.svg",
+                "alt": "Blue line icon with plant leaves, heart, and dumbbell representing health, wellness, and fitness shopping category",
+                "icon": "/images/industry/retail/health-wellness-fitness-category-icon.svg",
                 "paddingClass": "xl:pr-20"
             },
             {
                 "title": "Travel Retail and Duty-Free",
-                "icon": "/images/industry/retail/travel.svg",
+                "alt": "Blue line icon displaying perfume bottle, shopping bag, and cosmetic jar representing beauty and cosmetics category",
+                "icon": "/images/industry/retail/beauty-cosmetics-perfume-category-icon.svg",
                 "paddingClass": "xl:pr-12"
             }
         ],
@@ -1596,8 +1688,15 @@
             "Supports delegation of cases, leads, work orders, service requests, and more by record type and business units.",
             "Fully integrated with Salesforce workflows and automation for real - time, intelligent conversations."
         ],
+        "headerAlt": "Woman using smartphone in grocery store aisle with digital network overlay representing connected shopping and smart retail technology",
+        "comprehensiveAlt": "Two women entrepreneurs working on laptop in pottery shop with ceramic products displayed on wooden shelves in background ",
+        "salesforceAlt": "Female warehouse worker in blue polo shirt checking inventory boxes with digital tablet in distribution center aisle ",
+        "exelonaAlt": "Smiling couple in matching blue aprons standing at entrance of their restaurant with arms crossed welcoming customers",
+        "aiAlt": "Shopping cart surrounded by dynamic blue and orange digital light trails representing fast online ecommerce and digital retail",
+        "realchatAlt": "Smiling woman in bright yellow sweater and pink earrings using smartphone while holding takeaway coffee cup on blue background",
+        "whyAlt": "Professional analyzing financial data charts and spreadsheets on dual computer monitors in modern office with plants nearby",
         "headerTitle": "Retail+",
-          "learnMoreBtn": " Learn More",
+        "learnMoreBtn": " Learn More",
         "headerSubTitle": "Intelligent, Connected, and Scalable Retail Transformation",
         "empoweringTitle": " Empowering Global Retailers with AI-Driven, Omnichannel Solutions",
         "empoweringDesc1": "In today’s dynamic and highly competitive retail landscape, customer expectations are evolving rapidly, driven by hyper-personalization, seamless omnichannel engagement, and intelligent operations. At Rialtes, we bring over a decade of global consulting experience to help B2B and B2C retailers successfully navigate these challenges and drive sustainable growth.",
@@ -1635,11 +1734,18 @@
         "headerTitle": "LifeAI+",
         "seoTitle": "Salesforce Life Sciences Cloud Consulting Services | Rialtes",
         "seoDescription": "LifeAI+ by Rialtes provides Salesforce Life Sciences cloud consulting to streamline healthcare operations, enhance compliance, and elevate patient care.",
-         "learnMoreBtn": " Learn More",
+        "learnMoreBtn": " Learn More",
         "headerSubTitle": "Transforming Life Sciences with Rialtes LifeAI+ Services",
         "pageDescTitle": "Salesforce Life Sciences Cloud Services for Smarter, Compliant Innovation with AI",
         "pageDesc1": "At Rialtes, we understand that the life sciences industry is rapidly evolving — with growing expectations from patients, providers, regulators, and partners. To meet these demands, organizations need intelligent, AI-driven solutions that integrate compliance, personalization, and automation at scale.",
         "pageDesc2": "Introducing Rialtes LifeAI+, our comprehensive consulting service tailored for life sciences enterprises, combining deep industry expertise with Salesforce Life Sciences Cloud, Health Cloud, and AI-powered solutions to help you drive innovation, ensure compliance, and enhance operational efficiency.",
+        "headerAlt": "Scientist holding glowing DNA helix sprouting leaves, symbolizing biotechnology and sustainable growth",
+        "whatAlt": "Close-up of glowing green microalgae cells under microscope, symbolizing bioenergy innovation and sustainable research",
+        "whyAlt": "Researchers using virtual reality headset and tablet to study brain simulation technology in modern lab environment",
+        "deepAlt": "Doctor holding tablet with glowing cloud representing healthcare cloud computing and secure digital medical data storage",
+        "rialtesAlt": "Scientist using digital tablet to analyze research data in modern laboratory with test tubes and computer equipment",
+        "priorAlt": "Diverse business team collaborating and discussing ideas around a laptop during a modern office meeting",
+        "aiAlt": "Abstract digital cloud network with glowing data streams and binary codes flowing through sky representing cloud computing",
         "featureBoxes": [
             {
                 "title": "Regulatory Compliance & Audit Readiness",
@@ -1714,7 +1820,6 @@
             "Proactive Intervention Triggers — powered by AI models using real-time Data Cloud signals."
         ],
         "whatIsLifeTitle": "What is LifeAI+?",
-
         "whatIsLifeDesc": "A 360° consulting service that unites Advisory, Design, Implementation, Quality Assurance, Integration, and Post-Go-Live Support — ensuring continuous value creation and innovation across your life sciences value chain.",
         "whatIsLifeSubTitle": "Our End-to-End Services Include:",
         "whyPartnerTitle": "Why Partner with Rialtes?",
@@ -1892,8 +1997,16 @@
             "Deep expertise in SAP, Salesforce, Oracle, Mulesoft, Tableau, Kinaxis integrations.",
             "End-to-end support from advisory to post-go-live optimization."
         ],
+        "bannerAlt": "3D rocket launching with flames from laptop keyboard on blue background representing startup growth and business success concept",
+        "deepAlt": "Professional team collaborating at laptops with digital network overlay representing connectivity and teamwork in modern office",
+        "drivingAlt": "Three smiling professionals reviewing content on digital tablets during collaborative office meeting in bright workspace",
+        "reimaginAlt": "Professional woman wearing glasses viewing illuminated cloud computing and data analytics dashboard with global network visualization",
+        "agentAlt": "Smiling businessman in dark suit and glasses adjusting eyewear while checking smartphone in modern office environment ",
+        "growthAlt": "Smiling businesswoman in black attire presenting ideas on whiteboard during office meeting with city view background",
+        "deepTitle": "Deep Salesforce Marketing Cloud Expertise",
+        "deepDesc": "At Rialtes, we bring years of hands-on experience in Salesforce Marketing Cloud, covering:",
         "headerTitle": "Advantage+",
-          "learnMoreBtn": "Learn More",
+        "learnMoreBtn": "Learn More",
         "headerSubTitle": "Fueling Growth Through Personalized Marketing",
         "headerSubTitle2": "Rialtes’ Salesforce Marketing Cloud Services",
         "pageDescTitle": "Deliver Hyper-Personalized, Data-Driven Experiences with Advantage+",
@@ -1920,6 +2033,14 @@
         "contactTitle": "Ready to Accelerate Your Marketing? Let’s Talk!"
     },
     "rialFinance": {
+        "whyRialtesAlt" : "Professional woman presenting Salesforce Financial Services Cloud analysis and digital strategies to client",
+        "howWeDeliverAlt" : "Three professionals collaborating happily while reviewing financial data on tablet in modern office environment",
+        "salesforceAlt" : "Hand using stylus on futuristic tablet displaying real-time financial analytics, charts, and AI-powered dashboards",
+        "aiAlt" : "Futuristic digital piggy bank with glowing circuits and glasses symbolizing AI-driven financial transformation",
+        "agentchatAlt" : "Professional woman smiling while using smartphone for WhatsApp communication through Salesforce AgentChat platform",
+        "exelonaAlt" : "Digital wireframe skyscraper representing Exelona Financial Services Cloud for asset and portfolio management solutions",
+        "agentforceAlt": "Professional analyzing financial data on laptop with holographic AI charts, graphs, and analytics overlays",
+        "bannerAlt": "RialFinance+ Salesforce solutions with blue growth arrow over rising bar charts showing financial transformation",
         "seoTitle": "Salesforce Financial Services Cloud Consulting | RialFinance+ ",
         "seoDescription": "Rialtes RialFinance+ delivers Salesforce Financial Services Cloud (FSC) consulting with AI-led design, strategic advisory, implementation, and 24/7 support.",
         "startWithData": [
@@ -1983,8 +2104,9 @@
                     "Integrated mobile banking journeys and self-service portals.",
                     "Branchless banking workflows for enhanced customer reach."
                 ],
-                "deskImg": "/images/services/rial-finance/retail-banking-desk.webp",
-                "mobImg": "/images/services/rial-finance/Mobile/retail-banking-mob.webp"
+                "alt": "Hand holding smartphone displaying online banking app interface with financial data and transaction overview",
+                "deskImg": "/images/services/rial-finance/retail-banking-mobile-app.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/retail-banking-mobile-app-mobile.webp"
             },
             {
                 "id": "2",
@@ -1997,8 +2119,9 @@
                     "Loan origination and approval workflows.",
                     "Seamless client onboarding and account servicing."
                 ],
-                "deskImg": "/images/services/rial-finance/commercial-banking-desk.webp",
-                "mobImg": "/images/services/rial-finance/Mobile/commercial-banking-mob.webp"
+                "alt": "Banking advisor and client in professional meeting discussing financial charts displayed on laptop computer",
+                "deskImg": "/images/services/rial-finance/commercial-banking-consultation.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/commercial-banking-consultation-mobile.webp"
             },
             {
                 "id": "3",
@@ -2011,8 +2134,9 @@
                     "Personalized rate offers and pre-qualification assessments.",
                     "Customer self-service for application tracking and management."
                 ],
-                "deskImg": "/images/services/rial-finance/mortgage-desk.webp",
-                "mobImg": "/images/services/rial-finance/Mobile/mortgage-mob.webp"
+                "alt": "Hands interacting with futuristic mortgage interface showing house icon, star ratings, charts, and interest rates",
+                "deskImg": "/images/services/rial-finance/digital-mortgage-technology-interface.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/digital-mortgage-technology-interface-mobile.webp"
             },
             {
                 "id": "4",
@@ -2025,8 +2149,9 @@
                     "Integrated financial planning and goal tracking.",
                     "Advisor collaboration portals and automated client reports."
                 ],
-                "deskImg": "/images/services/rial-finance/wealth-desk.webp",
-                "mobImg": "/images/services/rial-finance/Mobile/wealth-mob.webp"
+                "alt": "Business team analyzing financial dashboard with graphs and performance metrics on desktop computer monitor",
+                "deskImg": "/images/services/rial-finance/team-financial-analytics-dashboard.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/team-financial-analytics-dashboard-mobile.webp"
             },
             {
                 "id": "5",
@@ -2039,8 +2164,9 @@
                     "Integrated policy servicing and claims management.",
                     "Broker-dealer collaboration platforms."
                 ],
-                "deskImg": "/images/services/rial-finance/agencies-desk.webp",
-                "mobImg": "/images/services/rial-finance/Mobile/agencies-mob.webp"
+                "alt": "Professional presenting financial data analytics with charts and trend lines on large monitor to colleague",
+                "deskImg": "/images/services/rial-finance/financial-data-presentation.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/financial-data-presentation-mobile.webp"
             },
             {
                 "id": "6",
@@ -2053,8 +2179,9 @@
                     "Risk and compliance management dashboards.",
                     "Integration with ERP and Treasury platforms."
                 ],
-                "deskImg": "/images/services/rial-finance/corporate-desk.webp",
-                "mobImg": "/images/services/rial-finance/Mobile/corporate-mob.webp"
+                "alt": "Business professional in suit making phone call while reviewing financial documents in modern office setting",
+                "deskImg": "/images/services/rial-finance/business-professional-phone-call.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/business-professional-phone-call-mobile.webp"
             },
             {
                 "id": "7",
@@ -2067,8 +2194,9 @@
                     "Personalized investor communications and portals.",
                     "Risk and performance analytics dashboards."
                 ],
-                "deskImg": "/images/services/rial-finance/asset-desk.webp",
-                "mobImg": "/images/services/rial-finance/Mobile/asset-mob.webp"
+                "alt"  : "Confident businesswoman smiling in professional meeting with colleagues discussing strategy in conference room",
+                "deskImg": "/images/services/rial-finance/professional-business-meeting.webp",
+                "mobImg": "/images/services/rial-finance/Mobile/professional-business-meeting-mobile.webp"
             }
         ],
         "headerTitle": "RialFinance+",

@@ -67,13 +67,14 @@ export default function () {
                     />
                 }
                 schemaData={schemaData}
-                deskImg="/images/webinar/thumbc.webp"
-                mobImg="/images/webinar/thumbc.webp"
+                deskImg="/images/webinar/automotive-fleet-inventory-aerial-view.webp"
+                mobImg="/images/webinar/automotive-fleet-inventory-aerial-view.webp"
+                imageAlt={t('imageAlt')}
                 webinarTitle={t('webinarTitle')}
                 speakerName="Divya Agarwal"
                 speakerDesignation="Software Engineer - Salesforce"
                 speakerImg="/images/webinar/Divya.webp"
-                speakerImgAlt="webinar speaker image"
+                speakerImgAlt="webinar speaker Divya Agarwal"
                 webinarInfo={t('webinarInfo')}
                 webinarAdvantages={webinarAdvantagesData}
                 whoShouldAttend={whoShouldAttendData}

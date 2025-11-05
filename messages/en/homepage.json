@@ -14,41 +14,43 @@
     "lifeTitle": "LIFE",
     "rialtesName": "RIALTES",
     "rialtesData": "Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.",
+    "lifeAtAlt": "Business professionals at SAP Gold Partner conference, presentations, team events and Salesforce industry gatherings",
+    "logoAlt":"Rialtes logo with white striped oval icon and tagline Simply Enable Empower on clean background",
     "carouselData": [
       {
-        "title": "Blogs",
+        "alt": "Abstract blue glowing network visualization with flowing data streams and digital nodes",
         "description": "Redefining the Future of Enterprise AI with SAP Joule",
-        "image": "/images/blog/jthumb.webp",
+        "image": "/images/homepage/data-flow-network-art.webp",
         "link": "/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule"
       },
       {
-        "title": "Blogs",
+        "alt": "Female healthcare worker in blue scrubs wearing face mask holding digital tablet",
         "description": "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
-        "image": "/images/blog/blog-88.webp",
+        "image": "/images/homepage/medical-professional-with-tablet.webp",
         "link": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
       },
       {
-        "title": "Blogs",
+        "alt": "Blue digital wave pattern blending water splashes with mesh grid technology backdrop",
         "description": "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
-        "image": "/images/blog/SAP Business cloud_Blog thumb.webp",
+        "image": "/images/homepage/tech-wave-fusion-background.webp",
         "link": "/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success"
       },
       {
-        "title": "Blogs",
+        "alt": "Glowing blue robotic hand with illuminated LED fingers on touchscreen surface",
         "description": "How Agentforce Agents Scale ERP Systems with AI ",
-        "image": "/images/blog/blog-12.webp",
+        "image": "/images/homepage/ai-robot-hand-technology.webp",
         "link": "/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai"
       },
       {
-        "title": "Blogs",
+        "alt": "Overhead view of person's hand using silver laptop on blue gradient background",
         "description": "How SAP SuccessFactors Enhances Remote Work Management",
-        "image": "/images/blog/blog-13.webp",
+        "image": "/images/homepage/modern-laptop-workstation.webp",
         "link": "/insights/blogs/how-sap-successfactors-enhances-remote-work-management"
       },
       {
-        "title": "Blogs",
+        "alt": "Cute white and blue AI robot with glowing features next to smartphone chatbot interface",
         "description": "How Salesforce Agentforce Actually Works",
-        "image": "/images/blog/blog-1.webp",
+        "image": "/images/homepage/ai-chatbot-assistant-robot.webp",
         "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
       }
     ],
@@ -361,22 +363,22 @@
       {
         "id": 1,
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-        "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
-        "title": "Streamlined DevOps using Copado and Salesforce",
+        "imgSrc": "/images/case-studies/industrial-workers-safety-collaboration.webp",
+        "title": "Industrial workers in safety gear and hard hats collaborating with laptop in manufacturing facility warehouse",
         "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects."
       },
       {
         "id": 2,
         "url": "/insights/case-studies/realForce-banking-module-ach",
-        "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
-        "title": "RealForce Banking Module - ACH",
+        "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
+        "title": "Business professionals in modern office discussing strategy while pointing at vision board during team collaboration",
         "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
       },
       {
         "id": 3,
         "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-        "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
-        "title": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+        "imgSrc": "/images/case-studies/healthcare-professionals-patient-care.webp",
+        "title": "Healthcare professionals in medical scrubs smiling while discussing patient care with digital tablets in clinic",
         "description": "A global medical technology company that develops and manufactures innovative products"
       }
     ],
@@ -394,26 +396,30 @@
     "slides": [
       {
         "id": 1,
-        "image": "/images/industry/manufacturing.webp",
-        "title": "Manufacturing",
+        "image": "/images/industry/manufacturing-cnc-machine-metalworking.webp",
+        "title": "Industrial CNC machine tool drilling with sparks flying during precision manufacturing metalworking process operation",
+        "titleOne":"Manufacturing",
         "url": "/industry/manufacturing-cloud-erp"
       },
       {
         "id": 2,
-        "image": "/images/industry/healthcare.webp",
-        "title": "Healthcare",
+        "image": "/images/industry/healthcare-digital-medical-data-analysis.webp",
+        "title": "Healthcare professional analyzing digital medical data on futuristic touchscreen interface in modern hospital facility",
+        "titleOne": "Healthcare",
         "url": "/industry/life-sciences/healthcare-medtech-patient-care"
       },
       {
         "id": 3,
-        "image": "/images/industry/real-estate.webp",
-        "title": "Real Estate",
+        "image": "/images/industry/real-estate-urban-planning-model.webp",
+        "title": "Business professional pointing at white 3D architectural city model during real estate urban planning presentation",
+        "titleOne": "Real Estate",
         "url": "/industry/real-estate-property-management"
       },
       {
         "id": 4,
-        "image": "/images/industry/hi-tech.webp",
-        "title": "Hi-Tech",
+        "image": "/images/industry/hi-tech-circuit-board-microchip.webp",
+        "title": "Close-up of turquoise circuit board with electronic pins showing hi-tech microchip technology and hardware components",
+        "titleOne": "Hi-Tech",
         "url": "/industry/hitech-semiconductor-ai-it-solutions"
       }
     ]

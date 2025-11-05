@@ -21,7 +21,7 @@ const schemaData = {
     "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
   description:
     "SAP S/4HANA is the digital backbone for enterprises of the future. But to unlock its true potential, organizations need clarity, transparency, and AI-driven insights.",
-  image: "https://www.rialtes.com/images/blog/sap-signavio-s4hana.webp",
+  image: "https://www.rialtes.com/images/blog/digital-data-tunnel-technology-speed-concept.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -148,16 +148,16 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
-            src="/images/blog/sap-signavio-s4hana.webp"
-            alt="SAP Signavio"
+            src="/images/blog/digital-data-tunnel-technology-speed-concept.webp"
+            alt={t("bannerAlt")}
             fill
             priority
           />
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/blog/sap-signavio-s4hana-mobile-banner.webp"
-            alt="SAP Signavio"
+            src="/images/blog/digital-data-tunnel-technology-speed-concept-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

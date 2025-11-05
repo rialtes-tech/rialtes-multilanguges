@@ -1,5 +1,6 @@
 {
     "agentforceForManufacturing": {
+        "bannerAlt": "Professionnels collaborant sur tablette examinant données numériques et stratégies en bureau technologique moderne",
         "seoTitle": "Agentforce pour l’industrie : l’avantage du service IA | Rialtes",
         "seoDescription": "Agentforce apporte copilotes IA, services prédictifs et outils self-service pour améliorer support et ventes.",
         "faqData": [
@@ -119,6 +120,7 @@
         "faqTitle": "FAQs : Agentforce pour la transformation manufacturière alimentée par l’IA"
     },
     "discoverAgentExchange": {
+        "bannerAlt": "Vagues numériques abstraites violet et bleu avec connexions réseau représentant connectivité mondiale et communication",
         "seoTitle": "Pourquoi AgentExchange change la donne | Rialtes",
         "seoDescription": "AgentExchange est un écosystème où entreprises et partenaires collaborent, partagent leurs pratiques et façonnent l’avenir de l’IA agentique.",
         "understandingDataList": [
@@ -214,7 +216,9 @@
         "availabilityData3": "rationalisant les opérations et améliorant les flux de travail. En exploitant l’apprentissage automatique et le traitement du langage naturel, nous alignons les agents sur les objectifs de l’organisation afin d’atteindre une automatisation intelligente et efficace. Contactez-nous à"
     },
     "himachalBlog": {
-        "impactImage": "/images/blog/impact-image-french.webp",
+        "bannerAlt": "Bras robotiques manipulant flacons pharmaceutiques sur ligne de production automatisée en installation sciences de la vie",
+        "impactImage": "/images/blog/india-pharmaceutical-industry-global-impact-statistics-french.webp",
+        "impactImgAlt": "Infographie industrie pharmaceutique Inde montrant 20% exportations mondiales, 40% demande générique US, 25% UK",
         "seoTitle": "L’essor de l’Himachal dans l’industrie pharmaceutique indienne | Rialtes",
         "seoDescription": "Découvrez comment l’Himachal est devenu un leader de la production pharmaceutique grâce aux ZES, avantages fiscaux et réseaux mondiaux.",
         "blogTopic": "Général",
@@ -264,7 +268,680 @@
         "hmDesc": "La concentration de l’expertise manufacturière et le soutien du gouvernement positionnent l’État comme un tremplin pour les exportations pharmaceutiques mondiales et l’innovation. Rialtes Technologies vise à soutenir les fabricants locaux avec des solutions numériques de pointe, en s’alignant sur la vision de l’Inde de devenir un centre mondial de fabrication. Nous avons ouvert un nouveau bureau de vente à Baddi, Himachal Pradesh, dans le cadre de notre stratégie d’expansion. Contactez-nous à",
         "hmDesc2": "pour contribuer au paysage manufacturier florissant de l’Inde."
     },
+    "conversationalAi": {
+        "seoTitle": "IA conversationnelle dans l’immobilier : optimisez le support efficacement | Rialtes",
+        "seoDescription": "Dans l’immobilier, les assistants d’IA conversationnelle gèrent les demandes des locataires jour et nuit, garantissant des réponses immédiates et réduisant la charge de travail en dehors des heures de bureau.",
+        "bannerAlt": "Illustration numérique d'une personne interagissant avec une interface de chatbot virtuel représentant l'IA conversationnelle dans le support client immobilier",
+        "mainData": [
+            "Le support aux résidents dans la gestion immobilière devient de plus en plus difficile à étendre. Entre les demandes de maintenance, les questions sur les loyers, les réservations d’équipements et la coordination des emménagements/déménagements, les équipes sont souvent surchargées. Le problème n’est pas un manque d’attention des gestionnaires immobiliers ; ce sont les attentes des résidents qui ont évolué.",
+            "Ils s’attendent à un support rapide, amical et disponible 24 h/24, 7 j/7.",
+            "Et c’est exactement là qu’intervient l’IA conversationnelle.",
+            "L’IA conversationnelle désigne les chatbots et assistants virtuels capables de gérer les conversations clients. Ces outils d’IA peuvent répondre aux questions, planifier des visites et même qualifier des prospects en continu — permettant ainsi aux agents de se concentrer sur les tâches les plus importantes. Dans cet article, nous verrons comment les chatbots et assistants vocaux pilotés par l’IA transforment la gestion immobilière, réduisent les tickets de support et améliorent la satisfaction des résidents, sans recruter de personnel supplémentaire."
+        ],
+        "traditionalData": [
+            {
+                "title": "Pourquoi le support résident traditionnel ne se met pas à l’échelle",
+                "desc": "Depuis des années, les équipes de gestion immobilière s’appuient sur les e-mails, les centres d’appels et les systèmes de tickets pour traiter les demandes des résidents. Bien que fonctionnels, ces canaux présentent un défaut majeur : ils ne se mettent pas à l’échelle efficacement.",
+                "desc2": "Voici ce qui se passe généralement :",
+                "list": [
+                    {
+                        "title": "Volume élevé, faible complexité",
+                        "desc": "Environ 60 à 70 % de tous les tickets concernent des problèmes simples, comme « Quand mon loyer est-il dû ? » ou « Comment soumettre une demande de maintenance ? »"
+                    },
+                    {
+                        "title": "Goulets d’étranglement humains",
+                        "desc": "Même les demandes simples prennent du temps lorsqu’elles nécessitent un examen ou un suivi manuel."
+                    },
+                    {
+                        "title": "Expérience incohérente",
+                        "desc": "Selon la charge de travail du personnel, les résidents peuvent attendre quelques minutes ou plusieurs jours pour obtenir une réponse."
+                    }
+                ],
+                "desc3": "Cela provoque de la frustration chez les résidents et de l’épuisement chez le personnel. L’IA conversationnelle change complètement cette dynamique."
+            }
+        ],
+        "whyConversationalData": [
+            "Lorsque nous parlons d’IA conversationnelle, nous ne parlons pas de simples chatbots. Les assistants modernes en gestion immobilière utilisent le traitement du langage naturel (NLP) et l’apprentissage automatique (ML) pour comprendre le contexte, l’intention et même le ton.",
+            "En plus de suivre des scripts, ils peuvent mener des conversations naturelles et exécuter de vraies actions dans des systèmes intégrés tels que les CRM, les outils ERP et les plateformes de maintenance.",
+            "Imaginez ceci :",
+            "Un résident envoie un message sur le portail de la propriété disant : « Ma climatisation ne refroidit pas correctement. »",
+            "L’assistant IA l’identifie comme un problème de maintenance, crée un ticket de service dans le système de gestion immobilière, l’assigne au bon technicien et envoie un accusé de réception au résident — le tout en quelques secondes.",
+            "Il peut même proposer : « Souhaitez-vous planifier une visite entre 10 h et 12 h ou entre 14 h et 16 h demain ? » Ce n’est pas de la science-fiction. Des plateformes comme Exelona, un système de gestion immobilière assisté par IA, le rendent déjà possible."
+        ],
+        "keyBenefitsData": [
+            {
+                "title": "Principaux avantages de l’IA conversationnelle dans les opérations immobilières",
+                "desc": "Voyons concrètement ce que ce changement implique.",
+                "list": [
+                    {
+                        "title": "Support résident 24 h/24 et 7 j/7",
+                        "desc": [
+                            "Aucune équipe ne peut être disponible en permanence, mais l’IA le peut. Les assistants conversationnels gèrent les demandes des locataires jour et nuit, assurant des réponses immédiates et réduisant la charge de travail après les heures de bureau.",
+                            "Par exemple, si un locataire envoie un message à minuit demandant « Comment puis-je payer mon loyer en ligne ? », l’assistant peut le guider instantanément à travers le processus de paiement, sans intervention humaine. Ce n’est pas seulement pratique — c’est un facteur de fidélisation. Des études montrent que le temps de réponse est l’un des trois principaux éléments influençant la satisfaction des résidents."
+                        ]
+                    },
+                    {
+                        "title": "Réduction du volume de tickets (sans perte de qualité)",
+                        "desc": [
+                            "En résolvant automatiquement les questions répétitives, l’IA réduit la charge de travail que voient les agents humains chaque jour.",
+                            "Certaines équipes immobilières constatent jusqu’à 40 % de réduction du volume de tickets après le déploiement de l’IA conversationnelle. Cela libère les agents pour se concentrer sur les problèmes complexes nécessitant une approche humaine."
+                        ]
+                    },
+                    {
+                        "title": "Conversations contextuelles multicanal",
+                        "desc": [
+                            "Les résidents d’aujourd’hui communiquent via plusieurs canaux — web, application mobile, e-mail et même WhatsApp. L’IA conversationnelle suit les interactions sur tous ces canaux, offrant une continuité.",
+                            "Si un résident commence une discussion sur l’application et envoie ensuite un e-mail de suivi, l’IA reconnaît qu’il s’agit du même fil, et non d’un nouveau ticket. Les résidents ne se répètent jamais — un détail qui inspire confiance."
+                        ]
+                    },
+                    {
+                        "title": "Attribution intelligente des techniciens",
+                        "desc": [
+                            "L’IA ne se limite pas au chat — elle optimise les opérations en coulisse. Intégrée à des plateformes comme Exelona, l’IA conversationnelle peut analyser les demandes de maintenance, prédire les priorités et attribuer automatiquement les techniciens selon leurs compétences, leur proximité et leur charge de travail.",
+                            "Résultat : des interventions plus rapides et moins de retards dans les SLA."
+                        ]
+                    },
+                    {
+                        "title": "Analyses basées sur les données",
+                        "desc": [
+                            "Chaque conversation devient un point de données. L’IA regroupe le ressenti des résidents, les problèmes récurrents et les niveaux de satisfaction dans des tableaux de bord exploitables par les gestionnaires.",
+                            "Par exemple :",
+                            "25 % des résidents se sont plaints de réparations de climatisation tardives en juillet.",
+                            "12 % des tickets provenaient du même immeuble.",
+                            "La majorité des demandes ont été reçues après 18 h.",
+                            "Ces informations permettent une meilleure planification des ressources et une maintenance préventive plus efficace."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "conversationalAI": [
+            {
+                "title": "Adoption de l’IA conversationnelle dans l’immobilier : un démarrage lent, un potentiel rapide",
+                "desc": [
+                    "En Europe et aux États-Unis, l’IA conversationnelle transforme progressivement la manière dont les sociétés immobilières interagissent avec les résidents — mais l’adoption reste inégale. En Allemagne, par exemple, moins de 10 % des associations de logement utilisent l’IA conversationnelle pour gérer les interactions ou les demandes de maintenance. Aux États-Unis, l’adoption est légèrement plus élevée, portée par de grandes sociétés de gestion testant des assistants IA pour gérer les renouvellements de bail, les paiements et les tickets de service.",
+                    "Les premiers utilisateurs constatent déjà des gains mesurables : des temps de réponse 15 à 25 % plus rapides, une satisfaction des résidents accrue et une réduction notable des coûts de support. Pourtant, de nombreuses organisations sont freinées par les mêmes obstacles : systèmes informatiques fragmentés, automatisation limitée et chatbots manquant de profondeur fonctionnelle pour gérer les processus immobiliers complexes.",
+                    "Cet écart de maturité pousse souvent les entreprises à reconstruire leur pile IA sur des plateformes mieux alignées sur leurs processus métier et capables de se déployer à grande échelle.",
+                    "Aujourd’hui, la plupart des sociétés immobilières se situent à l’un des trois stades de maturité de leur parcours d’automatisation :"
+                ],
+                "list": [
+                    {
+                        "title": "Mettre en œuvre",
+                        "desc": "Introduction de l’IA conversationnelle pour gérer les questions de base des résidents."
+                    },
+                    {
+                        "title": "Moderniser",
+                        "desc": "Remplacement des premiers chatbots par des solutions IA évolutives et intégrées aux données."
+                    },
+                    {
+                        "title": "Compléter",
+                        "desc": "Amélioration des plateformes existantes grâce à l’automatisation et à l’analyse avancées."
+                    }
+                ]
+            }
+        ],
+        "howConversationalData": [
+            {
+                "title": "Comment l’IA conversationnelle réduit les coûts opérationnels",
+                "desc": "Le lien entre IA et réduction des coûts est direct.",
+                "list": [
+                    {
+                        "title": "Moins de charge manuelle",
+                        "desc": "L’automatisation de 60 à 70 % des demandes réduit les besoins en personnel ou permet aux équipes de croître sans embauches supplémentaires."
+                    },
+                    {
+                        "title": "Résolution plus rapide",
+                        "desc": "Des résolutions accélérées signifient moins d’escalades et moins de pénalités de SLA."
+                    },
+                    {
+                        "title": "Allocation optimisée des ressources",
+                        "desc": "L’analyse prédictive aide les équipes à planifier efficacement les horaires, réduisant ainsi les coûts d’heures supplémentaires."
+                    }
+                ],
+                "desc2": "Dans l’ensemble, selon McKinsey, l’automatisation pilotée par l’IA peut réduire les dépenses opérationnelles (Opex) de 20 à 30 % dans les opérations immobilières lorsqu’elle est bien intégrée aux flux de maintenance et de service."
+            }
+        ],
+        "implementationData": [
+            {
+                "title": "Mise en œuvre : réussir l’intégration de l’IA conversationnelle",
+                "desc": "Ajouter l’IA à votre stack de gestion immobilière ne consiste pas simplement à installer un widget de chatbot — il s’agit d’une intégration réfléchie.",
+                "desc2": "Voici un cadre éprouvé :",
+                "list": [
+                    {
+                        "title": "Identifier les cas d’usage à fort volume",
+                        "desc": "Commencez petit. Ciblez les 5 types de demandes les plus chronophages (par ex. rappels de loyer, confirmations de paiement, suivi de maintenance)."
+                    },
+                    {
+                        "title": "Intégrer vos systèmes principaux",
+                        "desc": "Votre assistant IA doit communiquer avec votre système de gestion immobilière, votre CRM et vos outils de facturation pour passer d’un rôle informatif à un rôle opérationnel."
+                    },
+                    {
+                        "title": "Former le modèle en continu",
+                        "desc": "L’IA s’améliore avec le retour d’expérience. Utilisez les interactions des résidents pour affiner la détection d’intention et la compréhension du langage naturel."
+                    },
+                    {
+                        "title": "Maintenir une boucle d’escalade humaine",
+                        "desc": "Même la meilleure IA doit transférer la main à un humain lorsque c’est nécessaire — notamment pour les cas émotionnels ou complexes. L’objectif n’est pas de remplacer, mais d’augmenter."
+                    },
+                    {
+                        "title": "Mesurer, analyser, améliorer",
+                        "desc": "Suivez les indicateurs clés : réduction des tickets, temps de réponse, satisfaction des résidents et coût par interaction. Utilisez ces données pour itérer et progresser."
+                    }
+                ]
+            }
+        ],
+        "whatData": [
+            {
+                "title": "Ce que cela signifie pour l’avenir de l’expérience résident",
+                "desc": [
+                    "L’IA conversationnelle redéfinit ce que signifie « expérience résident » dans l’immobilier moderne. C’est la différence entre un locataire qui attend des heures pour une réponse et un autre qui reçoit une réponse instantanée. Entre une gestion réactive et une attention proactive.",
+                    "À mesure que les résidents s’habituent aux interactions assistées par IA dans la banque, le voyage ou le commerce électronique, ils s’attendront au même niveau dans l’immobilier. Les entreprises qui s’adaptent dès maintenant prendront l’avantage ; celles qui tardent risquent d’être dépassées.",
+                    "Exelona a été conçu précisément pour cela. C’est une plateforme <a href='https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>d’opérations immobilières assistée par IA</a> intégrant CRM, maintenance, finances et communication dans un système intelligent unique.",
+                    "Sa couche d’IA conversationnelle aide les équipes immobilières à :"
+                ],
+                "list": [
+                    "Gérer simultanément des milliers d’interactions résidents",
+                    "Enregistrer et orienter automatiquement les demandes vers les bonnes équipes",
+                    "Déclencher les flux de maintenance, de facturation et de notification",
+                    "Analyser les tendances de satisfaction et les indicateurs de performance"
+                ],
+                "desc2": "Si vous souhaitez étendre votre support, réduire les temps de réponse et diminuer vos coûts d’exploitation, Exelona vous donne les outils pour y parvenir, sans embaucher davantage. Automatisez la communication répétitive et les connexions entre systèmes pour libérer les gestionnaires et leur permettre de se concentrer sur la création de communautés."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Qu’est-ce que l’IA conversationnelle dans la gestion immobilière ?",
+                "answer": "L’IA conversationnelle dans la gestion immobilière utilise des chatbots et assistants virtuels intelligents pour gérer les interactions avec les résidents : demandes de loyer, maintenance, renouvellements de bail — via des conversations naturelles et humaines. Ces systèmes comprennent le contexte, automatisent les flux de travail et se connectent directement aux systèmes backend (CRM, ERP) pour des réponses plus rapides et précises."
+            },
+            {
+                "question": "Les chatbots peuvent-ils vraiment gérer des demandes complexes ?",
+                "answer": "Oui. Les plateformes d’IA conversationnelle modernes sont bien plus avancées que les anciens chatbots à règles fixes. Elles interprètent l’intention, croisent plusieurs sources de données et peuvent même déclencher automatiquement des ordres de travail ou des mises à jour de facturation. Par exemple, un résident demandant la raison d’un retard de réparation peut obtenir une mise à jour en temps réel depuis le système de maintenance."
+            },
+            {
+                "question": "Comment l’IA conversationnelle réduit-elle les tickets de support dans l’immobilier ?",
+                "answer": "L’IA réduit les tickets en résolvant instantanément les questions les plus courantes — comme les paiements, la planification de maintenance ou l’accès aux services — avant qu’elles n’atteignent le personnel humain. Certaines sociétés immobilières constatent une réduction de 30 à 40 % des tickets répétitifs après le déploiement de solutions d’opérations immobilières assistées par IA."
+            },
+            {
+                "question": "Quel est le retour sur investissement (ROI) de l’IA conversationnelle dans la gestion immobilière ?",
+                "answer": "Le ROI provient principalement de trois leviers : la réduction des coûts opérationnels, la résolution plus rapide des problèmes et l’amélioration de la satisfaction des résidents. En moyenne, les gestionnaires peuvent économiser jusqu’à 25 % sur les coûts de service tout en augmentant la fidélité grâce à un support 24 h/24 et des réponses plus rapides."
+            },
+            {
+                "question": "L’IA conversationnelle est-elle suffisamment sécurisée pour la communication avec les résidents ?",
+                "answer": "Absolument. Les plateformes d’IA conversationnelle de niveau entreprise respectent les normes de protection des données telles que le RGPD et la norme SOC 2. Elles chiffrent les données des résidents, anonymisent les informations sensibles et incluent des contrôles d’accès intégrés pour garantir la confidentialité sur tous les canaux."
+            },
+            {
+                "question": "Comment une société immobilière peut-elle démarrer avec l’IA conversationnelle ?",
+                "answer": "Commencez petit, en identifiant les interactions répétitives à fort volume — comme les confirmations de paiement ou le suivi de maintenance. Choisissez ensuite une plateforme comme Exelona, qui offre des opérations immobilières pilotées par IA, une intégration CRM + ERP et des capacités conversationnelles conçues pour l’immobilier. À partir de là, développez progressivement la solution sur plusieurs propriétés et fonctions de service."
+            }
+        ],
+        "blogCategory": "Exelona",
+        "blogTitle": "IA conversationnelle dans l’immobilier : étendez le support résident sans ajouter de personnel",
+        "conversationalTitle": "Ce que signifie réellement l’IA conversationnelle dans la gestion immobilière",
+        "faqTitle": "FAQ : Implémentation et intégration Salesforce"
+    },
+    "erpCrm": {
+        "seoTitle": "ERP et CRM unifiés pour l’immobilier : réduisez les coûts de 35 % | Rialtes",
+        "seoDescription": "Les plateformes ERP et CRM unifiées aident les entreprises immobilières à réduire les coûts système jusqu’à 35 %, tout en améliorant la visibilité et l’efficacité interservices.",
+        "bannerAlt": "Illustration 3D d’une ville intelligente avec des icônes de cloud représentant l’IA et l’infrastructure cloud pour la gestion immobilière et la connectivité des données",
+        "mainData": [
+            "Voici quelque chose que tout dirigeant immobilier sait déjà mais dit rarement à voix haute : la pile technologique censée simplifier les opérations les a en réalité compliquées.",
+            "La plupart des entreprises immobilières fonctionnent aujourd’hui avec un ensemble disparate de systèmes : Yardi pour la gestion des biens, Oracle ou SAP pour la finance, MRI pour l’analyse, Salesforce pour le CRM et Excel pour tout le reste. Chaque système excelle dans son domaine, mais ensemble, ils forment un écosystème fragmenté où la duplication des données, les coûts d’intégration et le chaos des rapports sont la norme. Cela entraîne des décisions retardées, une hausse des dépenses d’exploitation et des équipes qui passent plus de temps à rapprocher des feuilles Excel qu’à gérer leurs biens.",
+            "Cependant, ce problème de fragmentation peut être résolu, et de nombreux dirigeants immobiliers visionnaires le résolvent grâce à la convergence CRM + ERP. En unifiant les données clients, financières et opérationnelles dans une plateforme intelligente unique, les entreprises réduisent les coûts système jusqu’à 35 %, améliorent la visibilité entre les services et libèrent leurs équipes pour se concentrer sur la croissance plutôt que sur la maintenance.",
+            "Cet article explique comment fonctionne cette convergence, pourquoi son adoption s’accélère et comment des plateformes comme <a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>le système CRM + ERP unifié Exelona</a> redéfinissent les opérations immobilières à l’ère de l’IA."
+        ],
+        "hiddenData": [
+            {
+                "title": "Le coût caché des systèmes fragmentés",
+                "data": [
+                    "La plupart des entreprises immobilières n’ont pas cherché à créer des systèmes fragmentés — cela s’est produit au fil du temps. À mesure que les portefeuilles grandissaient, de nouveaux outils ont été ajoutés pour résoudre des problèmes spécifiques : une application de location ici, un module financier là, un tableau de bord analytique au-dessus. Mais rapidement, ces systèmes isolés ont commencé à se contrarier. Les données de location vivaient dans une base, les journaux de maintenance dans une autre, et la finance dans une troisième.",
+                    "Une étude de KPMG a révélé que 7 entreprises immobilières sur 10 s’appuient encore sur trois systèmes hérités ou plus pour leurs opérations quotidiennes, entraînant des cycles de reporting lents et des écarts de données fréquents.",
+                    "Les équipes perdent des heures à extraire des données de plusieurs systèmes pour répondre à des questions basiques telles que :"
+                ],
+                "list": [
+                    "Quel est notre véritable taux d’occupation ce trimestre ?",
+                    "Combien de demandes de maintenance en attente sont toujours ouvertes ?",
+                    "Quelle est la perte de revenus liée à la facturation retardée ?"
+                ],
+                "desc": "Quand les réponses prennent des jours au lieu de minutes, l’agilité en souffre — et la rentabilité aussi."
+            }
+        ],
+        "commonData": [
+            {
+                "title": "Comment la fragmentation affecte l’expérience résidentielle",
+                "data": [
+                    "Les silos de systèmes ne frustrent pas seulement les équipes opérationnelles ; ils se répercutent aussi sur les résidents. Imaginez un locataire qui envoie une demande de maintenance via une application mobile, mais qui n’est jamais synchronisée avec le système comptable, retardant les paiements aux fournisseurs. Ou quand les renouvellements de bail sont traités dans le CRM, mais que la facturation reste dans un ERP déconnecté.",
+                    "C’est là que l’<span>expérience résidentielle mobile-first</span> se brise. Les écarts de communication, les erreurs de facturation et les retards de réponse sapent rapidement la confiance."
+                ]
+            },
+            {
+                "title": "La transition vers la convergence CRM et ERP",
+                "subTitle": "Ce que signifie réellement la convergence",
+                "data": [
+                    "La convergence CRM + ERP signifie disposer d’une seule plateforme où chaque fonction — location, maintenance, comptabilité, gestion des fournisseurs et communication avec les résidents — fonctionne sur une base de données commune.",
+                    "Fini les exports CSV, les doublons et les angles morts entre services. Un système convergent offre des <span>données centralisées de location et de finance</span>, permettant aux dirigeants de visualiser le cycle de vie complet d’un bien — de la signature du bail à l’encaissement — sur un seul tableau de bord. Lorsque le CRM (flux orientés client) rencontre l’ERP (flux financiers et opérationnels), les entreprises immobilières atteignent enfin le Graal : l’efficacité et la visibilité en temps réel."
+                ]
+            }
+        ],
+        "whyData": [
+            {
+                "title": "Pourquoi cela se produit maintenant",
+                "desc": "Voici pourquoi :",
+                "data": [
+                    {
+                        "title": "Maturité du cloud",
+                        "desc": "Les entreprises immobilières abandonnent les systèmes sur site comme Yardi et Oracle pour des plateformes cloud modulaires."
+                    },
+                    {
+                        "title": "IA et analyse des données",
+                        "desc": "L’essor des opérations immobilières pilotées par l’IA permet des analyses prédictives entre systèmes — des prévisions de trésorerie à la planification de la maintenance."
+                    },
+                    {
+                        "title": "Pressions sur les coûts",
+                        "desc": "La gestion de multiples licences, fournisseurs et intégrations coûte cher. La consolidation réduit directement les charges informatiques."
+                    },
+                    {
+                        "title": "Attentes des utilisateurs",
+                        "desc": "Employés et résidents attendent des expériences numériques fluides — pas des systèmes qui semblent dater de 2008."
+                    }
+                ],
+                "desc2": "En Amérique du Nord et en Europe, plusieurs grands groupes immobiliers remplacent 5 à 7 outils déconnectés par une solution convergée unique, simplifiant ainsi le reporting, la conformité et la gestion de la maintenance."
+            }
+        ],
+        "painData": [
+            {
+                "title": "Les points douloureux d’une architecture multi-système",
+                "desc": "Soyons précis.",
+                "desc2": "Les systèmes immobiliers traditionnels comme Yardi, MRI et Oracle servent chacun un domaine précis, mais s’intègrent rarement en profondeur.",
+                "list": [
+                    {
+                        "title": "Yardi",
+                        "desc": "Excellente gestion des données immobilières et comptables, mais manque de profondeur CRM et d’outils d’engagement des locataires."
+                    },
+                    {
+                        "title": "MRI",
+                        "desc": "Puissantes capacités de reporting, mais peu d’automatisation et de synchronisation en temps réel."
+                    },
+                    {
+                        "title": "Oracle / SAP",
+                        "desc": "Moteurs financiers de niveau entreprise, mais trop rigides et coûteux pour des flux immobiliers dynamiques."
+                    }
+                ],
+                "desc3": "Résultat : un flux de travail déconnecté où les rapprochements financiers prennent des semaines, les tickets de maintenance se perdent dans des fils d’e-mails, et les données de location n’alimentent jamais les prévisions financières."
+            }
+        ],
+        "unifiedData": [
+            {
+                "title": "Comment les systèmes unifiés résolvent ces défis",
+                "desc": "Une <span>plateforme immobilière intégrée et évolutive</span> remplace toutes ces pièces mobiles par un seul écosystème.",
+                "desc2": "Imaginez ce flux de travail :",
+                "list": [
+                    "Un bail est approuvé dans le CRM.",
+                    "L’ERP génère instantanément les factures récurrentes et les synchronise avec la comptabilité.",
+                    "Les demandes de maintenance des résidents mettent automatiquement à jour les SLA et les paiements fournisseurs.",
+                    "La direction visualise en direct les rapports P&L liés aux taux d’occupation."
+                ],
+                "desc3": "C’est une visibilité de bout en bout — la raison pour laquelle les entreprises immobilières adoptant la convergence constatent :",
+                "numberList": [
+                    {
+                        "number": "40%",
+                        "desc": "de clôture mensuelle plus rapide"
+                    },
+                    {
+                        "number": "30%",
+                        "desc": "de réduction des coûts informatiques"
+                    },
+                    {
+                        "number": "25%",
+                        "desc": "d’amélioration de la conformité SLA"
+                    }
+                ],
+                "desc4": "Ce n’est pas seulement une question d’intégration. Il s’agit d’éliminer la duplication et de garantir que chaque service travaille à partir d’une vérité partagée."
+            }
+        ],
+        "roleData": [
+            {
+                "title": "Le rôle de l’IA et de l’automatisation dans la convergence",
+                "subtitle": "Opérations immobilières pilotées par l’IA",
+                "desc": "La convergence seule ne suffit pas. Sans intelligence par-dessus, même les systèmes unifiés peuvent devenir statiques. C’est là que les <a href='https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>opérations immobilières pilotées par l’IA</a> changent la donne.",
+                "desc2": "Les algorithmes d’IA analysent en continu les données des modules CRM et ERP pour :",
+                "list": [
+                    "Signaler les incohérences dans les données de facturation ou de bail.",
+                    "Prédire les baisses de trésorerie ou les pics de maintenance.",
+                    "Optimiser la planification de maintenance selon l’usage et les coûts."
+                ],
+                "desc3": "Un grand REIT américain a vu la précision de sa maintenance prédictive s’améliorer de 25 % après avoir intégré des analyses d’IA à son système ERP, réduisant ainsi les temps d’arrêt et les coûts de réparation."
+            }
+        ],
+        "payoffData": [
+            {
+                "title": "Transparence opérationnelle et confiance décisionnelle",
+                "desc": "Les dirigeants disposent enfin d’un tableau de bord unifié répondant à toutes les questions critiques :",
+                "list": [
+                    "Quel est notre taux d’occupation en temps réel ?",
+                    "Quelles propriétés sous-performent sur la collecte des loyers ?",
+                    "Où les coûts de maintenance sont-ils les plus élevés ?"
+                ],
+                "desc2": "Avec des données centralisées sur la location et la finance, les décideurs n’ont plus besoin de rapports obsolètes ni de rapprochements manuels."
+            },
+            {
+                "title": "Efficacité des coûts et simplification IT",
+                "desc": "Gérer plusieurs licences et intégrations coûte à la fois de l’argent et de la sérénité. Les systèmes unifiés signifient moins de fournisseurs, moins d’intergiciels et une meilleure évolutivité. Selon PwC, les organisations qui rationalisent leurs systèmes centraux enregistrent une économie IT de 15 à 25 % dès la première année, sans compter les gains d’efficacité issus de processus améliorés."
+            }
+        ],
+        "buildData": [
+            {
+                "title": "Comment construire une stratégie CRM + ERP unifiée",
+                "list": [
+                    {
+                        "title": "Cartographiez vos systèmes actuels",
+                        "desc": "Commencez par auditer votre pile technologique existante. Identifiez les redondances, les lacunes d’intégration et les processus manuels qui ralentissent vos équipes."
+                    },
+                    {
+                        "title": "Priorisez les points d’intégration critiques",
+                        "desc": "Concentrez-vous sur les zones à plus fort impact : location + finance, maintenance + facturation et support résident + CRM."
+                    },
+                    {
+                        "title": "Alignez les équipes autour des données",
+                        "desc": "Assurez-vous que chaque service travaille à partir des mêmes définitions et indicateurs de données. L’alignement des données est la clé du succès de la convergence."
+                    },
+                    {
+                        "title": "Choisissez le bon partenaire technologique",
+                        "desc": "Recherchez une solution offrant :",
+                        "lists": [
+                            "Automatisation pilotée par l’IA",
+                            "Évolutivité cloud",
+                            "Intégration avec les outils hérités",
+                            "Une expérience mobile intuitive"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "oneUnifiedData": [
+            "Lorsque les opérations sont unifiées, les employés passent moins de temps à changer d’outils et plus de temps à résoudre des problèmes. Les résidents bénéficient de temps de réponse plus rapides, de portails unifiés et d’une facturation transparente, le tout via une expérience mobile-first.",
+            "Un écosystème connecté n’optimise pas seulement les opérations ; il construit la confiance. Et dans la gestion immobilière, la confiance alimente les renouvellements. Exelona de Rialtes est un outil de gestion immobilière — un écosystème connecté conçu pour éliminer les silos, unifier les données et accélérer la prise de décision.",
+            "Cela signifie des coûts plus bas, des opérations plus rapides et un écosystème résidentiel plus connecté. Exelona ne fait pas que consolider les systèmes ; il redéfinit la manière dont les entreprises immobilières envisagent l’intégration, l’intelligence et la croissance. Prêt à faire passer votre entreprise immobilière au niveau supérieur ? Construisons ensemble des systèmes plus intelligents, automatisons ce qui compte et stimulons la croissance avec Rialtes, votre partenaire de confiance en transformation immobilière."
+        ],
+        "faqs": [
+            {
+                "question": "Qu’est-ce que la convergence CRM et ERP dans l’immobilier ?",
+                "answer": "C’est l’intégration des flux clients, financiers et opérationnels dans une seule plateforme, permettant aux équipes immobilières de gérer la location, la facturation et la maintenance sans jongler entre plusieurs outils."
+            },
+            {
+                "question": "Comment puis-je consolider mes systèmes comme Yardi ou MRI ?",
+                "answer": "Vous pouvez les intégrer ou les migrer vers une solution unifiée comme Exelona, qui connecte les données entre systèmes anciens et modernes grâce à des API évolutives."
+            },
+            {
+                "question": "Quels sont les principaux avantages de la convergence CRM + ERP ?",
+                "answer": "La convergence améliore la précision des données, réduit les coûts et offre une visibilité opérationnelle en temps réel. Elle améliore également la satisfaction des locataires grâce à un service plus rapide et une facturation transparente."
+            },
+            {
+                "question": "Comment l’IA aide-t-elle à unifier les systèmes de gestion immobilière ?",
+                "answer": "L’IA nettoie, connecte et analyse les données des modules CRM et ERP, aidant à prédire les pannes, automatiser la facturation et prévoir les budgets avec précision."
+            },
+            {
+                "question": "Quel est le ROI de la consolidation des systèmes immobiliers ?",
+                "answer": "La plupart des entreprises constatent des économies de 20 à 35 % sur les coûts IT et opérationnels, ainsi qu’une amélioration mesurable de la conformité SLA et de la rapidité décisionnelle."
+            },
+            {
+                "question": "Pourquoi Exelona est-il la bonne plateforme pour la convergence ?",
+                "answer": "Parce qu’il est conçu spécifiquement pour l’immobilier. Le système CRM + ERP unifié Exelona combine automatisation, analytique et évolutivité — tout ce dont les entreprises immobilières ont besoin pour croître efficacement."
+            }
+        ],
+        "blogCategory": "Exelona",
+        "blogTitle": "Convergence CRM + ERP : comment les leaders immobiliers brisent les silos systèmes et réduisent les coûts",
+        "payoffTitle": "Le résultat : ce que livrent les systèmes convergés",
+        "unifiedTitle": "Un système CRM + ERP unifié pour les dirigeants immobiliers"
+    },
+    "aiRealEstate": {
+        "bannerAlt": "Illustration d’un bâtiment commercial avec des capteurs de maintenance alimentés par l’IA et un tableau de bord analytique",
+        "blogMainData": [
+            "Voici la vérité sur les opérations immobilières : elles ont toujours consisté à trouver un équilibre entre coût, confort et continuité. Le problème, c’est que la plupart des modèles de maintenance sont encore réactifs. Les équipes réparent ce qui tombe en panne, se précipitent pour répondre aux plaintes des locataires et voient les dépenses d’exploitation augmenter année après année.",
+            "Dans un secteur où chaque minute d’arrêt d’un équipement nuit à la rentabilité et à la réputation, le besoin d’une approche plus intelligente est évident. C’est là que l’intelligence artificielle (IA) entre en jeu — transformant la façon dont les bâtiments pensent, prédisent et agissent.",
+            "L’IA ne se contente pas d’automatiser les tâches ; elle redéfinit la gestion immobilière depuis ses fondations. Pour les propriétaires et exploitants, la maintenance prédictive alimentée par l’IA change la donne, réduisant les temps d’arrêt jusqu’à 30 % et diminuant les dépenses d’exploitation grâce à des interventions proactives.",
+            "Au lieu de réagir aux problèmes après leur apparition, les systèmes prédictifs alimentés par l’IA analysent en continu les données issues des capteurs, systèmes CVC, ascenseurs et compteurs pour détecter les anomalies avant qu’elles ne deviennent des pannes coûteuses. Cela se traduit par moins de surprises, des coûts réduits et une <span>expérience résidentielle nouvelle génération dans l’immobilier</span> plus fluide."
+        ],
+        "howAiData": [
+            "Les capteurs IoT collectent les données de performance des équipements (température, vibration, pression, fréquence d’utilisation).",
+            "Les modèles d’IA analysent en continu ces flux de données pour détecter les premiers signes d’usure ou d’inefficacité.",
+            "Lorsqu’une anomalie est détectée, le système déclenche automatiquement un ordre de travail ou une alerte de maintenance."
+        ],
+        "howAiData2": [
+            {
+                "title": "Avant l’IA",
+                "list": [
+                    "Les équipes de maintenance réagissaient aux plaintes des locataires.",
+                    "Les pannes imprévues perturbaient les opérations.",
+                    "Les réparations coûtaient plus cher à cause du travail d’urgence et des pièces supplémentaires."
+                ]
+            },
+            {
+                "title": "Après l’IA",
+                "list": [
+                    "Les alertes prédictives ont identifié des problèmes CVC deux jours avant la panne.",
+                    "Les techniciens ont reçu des notifications automatiques avec des plans d’action clairs.",
+                    "Les temps d’arrêt ont chuté et la maintenance est devenue proactive plutôt que réactive."
+                ]
+            }
+        ],
+        "keyTechData": [
+            {
+                "title": "IA et Apprentissage Automatique",
+                "desc": "Identifient les schémas de défaillance avant qu’ils ne se produisent."
+            },
+            {
+                "title": "Capteurs IoT",
+                "desc": "Collectent des données d’équipement en temps réel pour une surveillance constante."
+            },
+            {
+                "title": "Tableaux de Bord Analytiques",
+                "desc": "Transforment des données complexes en informations visuelles exploitables."
+            },
+            {
+                "title": "Intégration Cloud",
+                "desc": "Centralise les données des actifs à travers différents sites pour une supervision unifiée."
+            }
+        ],
+        "predictionData": [
+            {
+                "title": "Consommation d’Énergie",
+                "desc": "Détecte les baisses d’efficacité indiquant une défaillance potentielle."
+            },
+            {
+                "title": "Mesures de Température et de Vibration",
+                "desc": "Identifie des performances anormales dans les moteurs ou compresseurs."
+            },
+            {
+                "title": "Télémétrie CVC",
+                "desc": "Surveille le flux d’air et l’état des filtres."
+            },
+            {
+                "title": "Fréquence d’Utilisation",
+                "desc": "Suit l’usure dans les zones à fort trafic."
+            }
+        ],
+        "howAiImprovesData": [
+            {
+                "title": "Comment l’IA Améliore Tout le Cycle de Vie Immobilier",
+                "desc": "La maintenance prédictive n’est qu’une partie de ce que l’IA peut faire pour les opérations immobilières. Une fois que les données circulent entre les actifs, les systèmes et les locataires, elles ouvrent la voie à une intelligence complète du cycle de vie.",
+                "listDataTitle": "Optimisation Pilotée par l’IA à Travers les Opérations",
+                "list": [
+                    {
+                        "title": "Gestion de l’Énergie",
+                        "desc": "Prévoit les pics de charge et optimise les systèmes CVC et d’éclairage pour économiser l’énergie."
+                    },
+                    {
+                        "title": "Prévision Budgétaire",
+                        "desc": "Utilise des informations prédictives pour estimer les coûts de maintenance futurs et les besoins en CapEx."
+                    },
+                    {
+                        "title": "Suivi de la Durabilité",
+                        "desc": "Mesure en temps réel l’efficacité énergétique et la performance environnementale."
+                    },
+                    {
+                        "title": "Expérience Locataire",
+                        "desc": "Utilise des données de sentiment et une <span>IA conversationnelle pour le support résident</span> afin de personnaliser la communication et d’améliorer la satisfaction."
+                    }
+                ],
+                "desc2": "En résumé, l’IA transforme les opérations réactives en écosystèmes stratégiques basés sur les données. Elle donne aux gestionnaires d’actifs la visibilité nécessaire pour prendre des décisions éclairées sur la maintenance, la performance, l’investissement et la durabilité."
+            }
+        ],
+        "optimizingData": [
+            {
+                "title": "Optimiser l’Affectation des Techniciens avec l’IA et la Planification Intelligente",
+                "desc": "Même avec des alertes prédictives, l’exécution de la maintenance reste essentielle. Une fois un problème détecté, assigner rapidement le bon technicien permet de maintenir la continuité des opérations.",
+                "desc2": "L’IA apporte de l’intelligence non seulement au diagnostic mais aussi à la gestion du personnel.",
+                "commonData": [
+                    {
+                        "listTitle": "Voici à quoi cela ressemble :",
+                        "list": [
+                            "Le système évalue les compétences, la disponibilité et la localisation des techniciens.",
+                            "Il priorise et assigne automatiquement les ordres de travail, minimisant le temps d’inactivité et les déplacements.",
+                            "En cas de multiples incidents, l’IA planifie les tâches en fonction de l’urgence et de l’impact."
+                        ],
+                        "desc": "Cette optimisation peut réduire les temps de réponse jusqu’à 25 % et améliorer considérablement la conformité aux SLA."
+                    },
+                    {
+                        "listTitle": "Exemple de Flux de Travail : Dispatch Intelligent",
+                        "list": [
+                            "Un capteur CVC détecte une anomalie du flux d’air et envoie une alerte à la plateforme.",
+                            "L’IA identifie le technicien disponible le plus proche possédant les compétences requises.",
+                            "Un ordre de travail est automatiquement généré et synchronisé avec le mobile du technicien.",
+                            "Le technicien effectue la réparation, ajoute ses notes et clôture le ticket.",
+                            "Le système met à jour l’état en temps réel — offrant à la direction une visibilité complète et un <strong>suivi des SLA et automatisation de la facturation dans l’immobilier</strong>."
+                        ],
+                        "desc": "Ce niveau de coordination permet aux grands portefeuilles immobiliers d’économiser du temps, de réduire les coûts de déplacement et de garantir qu’aucune alerte n’est manquée."
+                    }
+                ]
+            }
+        ],
+        "fromMaintenanceData": [
+            {
+                "title": "Des Journaux de Maintenance aux Décisions Stratégiques",
+                "desc": "En analysant les tendances de maintenance à long terme, l’IA fournit des informations telles que :",
+                "list": [
+                    "Quel équipement doit être remplacé le trimestre prochain ?",
+                    "Où concentrer les investissements en efficacité énergétique.",
+                    "Comment prolonger la durée de vie des actifs grâce à une intervention précoce."
+                ],
+                "desc2": "Ce n’est pas de la simple gestion de maintenance — c’est de <strong>l’intelligence de portefeuille</strong>, redéfinissant la façon dont les entreprises immobilières évoluent efficacement."
+            }
+        ],
+        "exelonaEdgeData": [
+            {
+                "title": "L’Avantage Exelona – Des Opérations Immobilières Plus Intelligentes grâce à l’IA",
+                "desc": "Rendons cela concret.",
+                "desc2": "<a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Exelona</a>, la plateforme de gestion immobilière de Rialtes, unifie chaque étape du cycle de vie de la propriété — de la génération de leads à la clôture financière. Conçue pour les gestionnaires, développeurs et propriétaires, Exelona offre une automatisation alimentée par l’IA, une expérience mobile et une convergence CRM + ERP sur une seule plateforme.",
+                "listTitle": "Ce qui Rend Exelona Différente",
+                "list": [
+                    {
+                        "title": "100 % Compatible Mobile",
+                        "desc": "Gérez la location, la maintenance et la finance sur n’importe quel appareil."
+                    },
+                    {
+                        "title": "IA Agentique + Interfaces Conversationnelles",
+                        "desc": "Une IA qui automatise, hiérarchise et communique via l’IA conversationnelle pour le support résident."
+                    },
+                    {
+                        "title": "CRM + ERP Unifiés",
+                        "desc": "Un seul système pour le marketing, les opérations, la location et la comptabilité."
+                    },
+                    {
+                        "title": "Architecture OPENAPI",
+                        "desc": "S’intègre facilement avec SAP, Yardi, Oracle, Salesforce et d’autres systèmes."
+                    }
+                ],
+                "desc3": "Exelona ne se contente pas de numériser les opérations immobilières, elle redéfinit la manière dont les entreprises du secteur se développent, en combinant intelligence, automatisation et vision dans une expérience connectée."
+            }
+        ],
+        "preparingData": [
+            {
+                "title": "Commencez Petit, Pensez Grand",
+                "desc": "Commencez avec un bâtiment ou une catégorie d’actif pour valider le retour sur investissement."
+            },
+            {
+                "title": "Connectez vos Données",
+                "desc": "Intégrez des appareils IoT et des systèmes de bâtiment existants dans une plateforme unifiée comme Exelona."
+            },
+            {
+                "title": "Formez vos Équipes",
+                "desc": "Formez le personnel à interpréter les informations générées par l’IA et à agir en toute confiance."
+            },
+            {
+                "title": "Développez Progressivement",
+                "desc": "Étendez les capacités prédictives à l’ensemble de votre portefeuille à mesure que la maturité des données augmente."
+            }
+        ],
+        "keyElemData": [
+            {
+                "title": "Maintenance Prédictive = Efficacité Proactive",
+                "desc": "L’IA réduit les temps d’arrêt jusqu’à 30 % et diminue les coûts d’exploitation."
+            },
+            {
+                "title": "Prise de Décision Basée sur les Données",
+                "desc": "L’IA permet de meilleures prévisions, une meilleure budgétisation et une meilleure gestion des actifs."
+            },
+            {
+                "title": "Affectation Intelligente du Personnel",
+                "desc": "Le routage intelligent des techniciens améliore les temps de réponse et la satisfaction des locataires."
+            },
+            {
+                "title": "Avantage Exelona",
+                "desc": "La plateforme immobilière tout-en-un alimentée par l’IA, conçue pour réduire l’Opex et optimiser la performance grâce au <span>suivi des SLA et à l’automatisation de la facturation dans l’immobilier</span>."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Comment l’IA peut-elle réduire les temps d’arrêt de maintenance dans la gestion immobilière ?",
+                "answer": "L’IA analyse en continu les données des équipements pour prévoir les défaillances potentielles avant qu’elles ne se produisent. Cela permet aux équipes de maintenance d’agir de manière proactive, réduisant ainsi les interruptions et les réparations coûteuses."
+            },
+            {
+                "question": "Comment réduire le temps consacré à la maintenance corrective ?",
+                "answer": "Voici quelques stratégies pour réduire le temps de maintenance corrective et permettre à votre site de fonctionner à son efficacité maximale :\n\n1. Améliorer l’accessibilité.\n\n2. Améliorer l’interchangeabilité.\n\n3. Gérer les systèmes redondants.\n\n4. Tenir compte des limites humaines.\n\n5. Améliorer l’efficacité de la détection, de la localisation et de l’isolation des pannes."
+            },
+            {
+                "question": "Qu’est-ce que la maintenance prédictive pour les opérations immobilières ?",
+                "answer": "La maintenance prédictive utilise l’IA et les capteurs IoT pour surveiller la santé des équipements en temps réel. Elle prévoit quand les actifs doivent être entretenus, améliorant la disponibilité et prolongeant leur durée de vie."
+            },
+            {
+                "question": "Comment l’IA optimise-t-elle l’affectation des techniciens ?",
+                "answer": "L’IA évalue les compétences, la disponibilité et la proximité des techniciens pour assigner automatiquement la bonne personne à chaque tâche. Cela réduit les temps de réponse, minimise les déplacements et augmente l’efficacité."
+            },
+            {
+                "question": "Quels sont les avantages de l’utilisation de l’IA dans les opérations immobilières ?",
+                "answer": "Les entreprises constatent jusqu’à 30 % de réduction des temps d’arrêt, des coûts d’exploitation plus faibles, des interventions plus rapides et une satisfaction locataire accrue grâce à des informations en temps réel et à l’automatisation."
+            },
+            {
+                "question": "Comment Exelona aide-t-elle à la maintenance prédictive et à la réduction de l’Opex ?",
+                "answer": "Exelona intègre l’IA, l’IoT et l’automatisation des flux de travail pour surveiller les actifs, prévoir les problèmes et dépêcher les techniciens efficacement — aidant ainsi les gestionnaires immobiliers à réduire l’Opex, prolonger la durée de vie des actifs et améliorer la performance du portefeuille."
+            }
+        ],
+        "seoTitle": "Comment l’IA dans l’Immobilier Renforce la Maintenance Prédictive | Rialtes",
+        "seoDescription": "La maintenance prédictive alimentée par l’IA change la donne, réduisant les temps d’arrêt jusqu’à 30 % et diminuant l’Opex grâce à des interventions proactives. Découvrez comment dès aujourd’hui.",
+        "blogTopic": "Intelligence Artificielle",
+        "blogTitle": "IA dans les Opérations Immobilières : Réduisez les Temps d’Arrêt de 30 % et Diminuez l’Opex avec la Maintenance Prédictive",
+        "howAiTitle": "Comment l’IA Réduit les Temps d’Arrêt dans les Opérations Immobilières",
+        "howAiDesc": "L’une des utilisations les plus pratiques de l’IA dans la gestion immobilière est sa capacité à réduire les temps d’arrêt. Considérez-la comme un gestionnaire numérique surveillant chaque actif 24/7 — vous alertant avant qu’un problème ne survienne.",
+        "howAiDesc2": "Voici comment cela fonctionne en pratique :",
+        "howAiDesc3": "Ce processus élimine le besoin de surveillance manuelle et de suppositions. Vous obtenez une visibilité en temps réel sur la santé des actifs de tout votre portefeuille.",
+        "howAiDesc4": "Une entreprise immobilière commerciale ayant mis en œuvre la maintenance prédictive alimentée par l’IA sur 50 bâtiments a réduit les temps d’arrêt des CVC de 30 % en six mois, tandis que les coûts annuels de maintenance ont diminué d’environ 20 %. Ce n’est pas une théorie. C’est la puissance des opérations pilotées par les données en action.",
+        "predictiveTitle": "Maintenance Prédictive pour la Gestion Immobilière : à Quoi Cela Ressemble en Pratique",
+        "predictiveDesc": "La maintenance prédictive semble futuriste, mais elle est déjà un pilier des plateformes modernes de gestion immobilière.",
+        "predictiveDesc2": "Le système apprend à partir de multiples points de données — journaux de maintenance historiques, tendances de consommation d’énergie et télémétrie des capteurs — pour prévoir quand un actif risque de tomber en panne. Ces informations alimentent la planification de la maintenance, la budgétisation et la gestion du cycle de vie des actifs.",
+        "predictiveDesc3": "Technologies Clés à l’Origine de la Maintenance Prédictive",
+        "predictiveDesc4": "En combinant ces technologies, les gestionnaires peuvent surveiller des dizaines, voire des centaines d’actifs sans inspection manuelle — un élément fondamental de la",
+        "predictiveDesc4Link": "convergence CRM + ERP pour la gestion immobilière",
+        "dataPowerTitle": "Les Données qui Alimentent la Prédiction",
+        "predictionDesc": "Combinées, ces données créent une image prédictive de l’état des actifs, permettant d’agir avant que les systèmes ne tombent en panne.",
+        "preparingTitle": "Se Préparer à un Avenir Immobilier Piloté par l’IA",
+        "preparingDesc": "L’IA devient rapidement la norme pour les opérations immobilières, et non l’exception. Des immeubles multifamiliaux aux bâtiments commerciaux, les organisations qui intègrent l’analyse prédictive aujourd’hui se préparent à la résilience de demain.",
+        "preparingDesc2": "Voici comment commencer",
+        "preparingDesc3": "En suivant cette approche structurée, vous construirez non seulement des flux de travail de maintenance plus intelligents, mais aussi une stratégie immobilière qui apprend, s’adapte et s’améliore en continu.",
+        "keyTitle": "Points Clés à Retenir",
+        "keyDesc": "Que vous gériez 100 unit... (truncated for brevity)"
+    },
     "agenticPharma": {
+        "bannerAlt": "Illustration arbre fibre optique coloré avec branches lumineuses multicolores sur fond bleu-vert foncé tech",
         "seoTitle": "Agentic AI Pharma : automatiser les workflows complexes | Rialtes",
         "seoDescription": "Agentic AI Pharma gère les processus multi-étapes avec flexibilité et contexte, en réduisant au minimum l’intervention humaine.",
         "blogTopic": "IA",
@@ -1259,6 +1936,7 @@
         "collaborateDesc3": "sont basés sur des données fiables et exploitables, maximisant le potentiel de l’automatisation intelligente. Contactez-nous à"
     },
     "integrateSapSuccessFactor": {
+        "bannerAlt" : "Motif abstrait de points demi-teinte bleu et orange créant design d'onde sur fond bleu marine",
         "seoTitle": "Intégrer SAP à Office 365 pour une meilleure collaboration RH",
         "seoDescription": "Découvrez comment l’intégration SAP-Office 365 simplifie les processus RH, automatise les tâches et favorise la collaboration.",
         "blogTopic": "SAP SuccessFactors",
@@ -1391,6 +2069,7 @@
         "completeDesc4": "pour commencer avec l’un de nos consultants SAP SuccessFactors experts !"
     },
     "enhancingCompliance": {
+        "bannerAlt" : "Carte mondiale 3D avec lignes de connexion illuminées montrant connectivité réseau mondial et flux de données",
         "seoTitle": "SAP GTS : liste des parties sanctionnées et conformité | Rialtes",
         "seoDescription": "Réduisez les risques grâce au filtrage SAP et évitez les relations interdites. Restez conforme et évitez les sanctions légales.",
         "blogTopic": "SAP GTS",
@@ -1488,6 +2167,7 @@
         "complyDesc3": "doté d’une solide expertise en gestion du commerce mondial et des risques, nous aidons les entreprises à gérer ces processus efficacement, en offrant une valeur et un retour sur investissement optimaux. Nos consultants SAP expérimentés possèdent les compétences nécessaires pour répondre à vos besoins critiques tout en formant vos équipes internes pour une amélioration continue et une innovation durable."
     },
     "agentforceTesting": {
+        "bannerAlt" : "Engrenages numériques bleus et nœuds réseau représentant automatisation industrielle et technologie blockchain",
         "seoTitle": "Agentforce Testing Center : testez vos agents IA avant production",
         "seoDescription": "Testez vos agents IA grâce à la suite Agentforce avant leur déploiement en production et assurez leur efficacité.",
         "blogTopic": "Salesforce Agentforce",
@@ -1550,6 +2230,7 @@
         "whyDesc4": "ou besoin d’aide pour démarrer ? Nous sommes là pour vous aider. Chez Rialtes, nous sommes spécialisés dans les tests IA et , et nous avons aidé des clients à obtenir des gains de productivité significatifs en exploitant les outils IA pour rationaliser leurs processus métier."
     },
     "successfactorSupportsDiversity": {
+        "bannerAlt" : "Pièces de puzzle colorées avec icônes de diversité montrant personnes et symboles fauteuil roulant inclusion",
         "seoTitle": "Diversité et inclusion avec SuccessFactors : vers l’équité au travail | Rialtes",
         "seoDescription": "Découvrez comment SuccessFactors favorise le recrutement équitable, la performance inclusive et l’engagement des collaborateurs.",
         "bloTopic": "Diversité & Inclusion",
@@ -1603,6 +2284,7 @@
         "hrSystemDesc3": " Contactez-nous dès aujourd’hui à"
     },
     "automateCrucial": {
+        "bannerAlt" : "Travailleuse santé en blouse bleue et masque utilisant tablette dans établissement médical moderne",
         "seoTitle": "Intégration Athenahealth-Salesforce : améliorez les soins aux patients | Rialtes",
         "seoDescription": "L’intégration d’Athenahealth avec Salesforce offre une vision complète des données patients et optimise le parcours de soins.",
         "blogTopic": "Intégration",
@@ -1689,6 +2371,7 @@
         "findDesc4": ", est dédiée à exploiter tout le potentiel de Salesforce en offrant des expériences utilisateurs exceptionnelles à nos clients."
     },
     "successFactorPerformance": {
+        "bannerAlt" : "Main dessinant cercle cible avec stylo sur surface bleu clair représentant définition objectifs et précision",
         "seoTitle": "Conseils SuccessFactors : gestion des performances et des objectifs | Rialtes",
         "seoDescription": "Boostez l’engagement et l’alignement stratégique grâce à SuccessFactors. Contactez nos experts pour un accompagnement sur mesure.",
         "blogTopic": "SAP SuccessFactors",
@@ -1789,8 +2472,11 @@
         "empowerLink": "consultants experts SAP SuccessFactors"
     },
     "agentCopilot": {
-        "agentChart": "/images/blog/chart-french.webp",
-        "agentChartMobile": "/images/blog/chart-french-m.webp",
+        "chartAlt": "Graphique comparatif d'automatisation avec bordure de feuillage vert montrant matrice bots, copilotes et agents IA",
+        "quotationAlt": "Icône de guillemets bleus sur fond blanc pour élément de design de section témoignages ou citations",
+        "agentBannerAlt": "Visualisation abstraite vibrante flux de données avec vagues colorées et particules représentant analyse transformation",
+        "agentChart": "/images/blog/automation-bots-copilots-ai-agents-comparison-chart-french.webp",
+        "agentChartMobile": "/images/blog/automation-bots-copilots-ai-agents-comparison-chart-french-mobile.webp",
         "seoTitle": "Agents, copilotes ou bots : différences clés expliquées | Rialtes",
         "seoDescription": "Découvrez les différences entre bots, copilotes et agents IA. Choisissez l’outil idéal pour accroître la productivité et transformer vos processus.",
         "blogTopic": "Salesforce Agentforce",
@@ -2056,6 +2742,7 @@
         ]
     },
     "brainBehind": {
+        "bannerAlt" : "Illustration cerveau circuit numérique avec connexions lumineuses sur fond bleu foncé montrant concept IA",
         "seoTitle": "Comment fonctionne le moteur de raisonnement d’Agentforce ? | Rialtes",
         "seoDescription": "Découvrez comment le moteur de raisonnement optimise le support client et améliore la qualité de service pour une meilleure expérience.",
         "blogTopic": "Salesforce Agentforce",
@@ -2116,6 +2803,7 @@
         "gameDesc2": "Alors que les entreprises priorisent la satisfaction client, des outils comme Atlas joueront sans aucun doute un rôle clé dans l’avenir de l’expérience client. Nous pouvons nous attendre à une intégration plus poussée avec d’autres produits Salesforce, à des capacités d’IA plus sophistiquées et à des fonctionnalités d’analytique prédictive encore plus avancées prochainement. Rialtes vous aide à développer, personnaliser et déployer des agents IA autonomes pour les ventes, le marketing, le service et les tâches liées au e-commerce avec la plateforme Agentforce. Contactez nos experts."
     },
     "howSalesforceAgentforceWorks": {
+        "bannerAlt" : "Robot blanc futuriste avec yeux bleus lumineux et éclairage rose affichant écrans interface numérique",
         "seoTitle": "Comment fonctionne Salesforce Agentforce ? | Rialtes",
         "seoDescription": "Découvrez comment Agentforce améliore l’engagement client et simplifie les opérations. Contactez Rialtes pour démarrer votre parcours IA !",
         "blogTopic": "Salesforce Agentforce",
@@ -2177,6 +2865,7 @@
         "gettingDesc3": "et nous avons aidé nos clients à réaliser des gains de productivité significatifs grâce à l’utilisation d’outils basés sur l’IA pour améliorer leurs processus métier."
     },
     "agriculture": {
+        "bannerAlt" : "Drone professionnel avec caméra planant au-dessus champ agricole vert pour photographie aérienne et surveillance",
         "seoTitle": "Salesforce pour l’agriculture : la révolution numérique | Rialtes",
         "seoDescription": "Découvrez comment Salesforce transforme l’agriculture en améliorant l’efficacité et en innovant pour un futur durable avec l’Agriculture 4.0.",
         "blogTopic": "Technologie Verte",
@@ -2225,6 +2914,7 @@
         "moveDesc2": " pour mettre en place des processus agricoles intelligents basés sur les données, tout en gérant de manière cohérente les données agricoles dans l’ensemble de votre entreprise avec SAP BTP."
     },
     "remagineEnterprise": {
+        "bannerAlt": "Micropuce IA agentique avec rayons lumineux colorés représentant puissance de calcul intelligence artificielle",
         "seoTitle": "IA agentique en entreprise : des workflows plus intelligents | Rialtes",
         "seoDescription": "L’IA agentique automatise intelligemment, agit en temps réel et apprend en continu pour transformer les processus en workflows intelligents.",
         "faqs": [
@@ -2402,6 +3092,7 @@
         "faqTitle": "Foire Aux Questions (FAQ)"
     },
     "factoryToFeedback": {
+        "bannerAlt": "Équipe technologique diversifiée collaborant sur ordinateur avec circuits imprimés dans salle de contrôle moderne",
         "seoTitle": "Agentforce pour l’industrie : une IA intelligente pour le CX | Rialtes",
         "seoDescription": "Grâce à l’automatisation et la visibilité IA, Agentforce réinvente l’expérience client avec des parcours fluides et proactifs.",
         "faqs": [
@@ -2554,6 +3245,7 @@
         "faqTitle": "Foire aux questions (FAQ)"
     },
     "firstAiAgent": {
+        "bannerAlt": "Homme interagissant avec une onde lumineuse de visualisation de données IA représentant la transformation numérique et l’apprentissage automatique.",
         "seoTitle": "Déployer des agents IA dans Salesforce Agentforce | Rialtes",
         "seoDescription": "Suivez ce guide étape par étape pour créer et déployer vos agents IA dans Agentforce sans coder ni systèmes coûteux.",
         "stepToGuideData": [
@@ -2799,6 +3491,7 @@
         "futureDesc2": "Rialtes aide les entreprises à adopter facilement des agents IA grâce à Agentforce. Nous fournissons personnalisation et déploiement pour répondre à vos besoins, améliorer le service client et rationaliser les opérations pour une transition fluide vers le monde piloté par l’IA."
     },
     "howAgentforce": {
+        "bannerAlt": "Ingénieur de fabrication en équipement de sécurité jaune utilisant tablette pour contrôle qualité usine automobile",
         "seoTitle": "Agentforce 3.0 : réussir la production automobile | Rialtes",
         "seoDescription": "Agentforce transforme la production automobile grâce aux agents IA, renforçant workflows, conformité et agilité.",
         "agentforce": "Agentforce",
@@ -2969,34 +3662,41 @@
         ],
         "featuresData": [
             {
-                "icon": "/images/blog/realtime.webp",
+                "icon": "/images/blog/real-time-monitoring-system-icon.webp",
                 "title": "Visibilité opérationnelle en temps réel",
-                "description": "permet aux responsables d’usine de surveiller les indicateurs de performance, l’état des machines et l’activité des agents depuis un centre de commandement centralisé, aidant à prévenir les interruptions avant qu’elles n’escaladent."
+                "description": "permet aux responsables d’usine de surveiller les indicateurs de performance, l’état des machines et l’activité des agents depuis un centre de commandement centralisé, aidant à prévenir les interruptions avant qu’elles n’escaladent.",
+                "alt": "Icône de surveillance en temps réel avec écran d'ordinateur affichant engrenage, loupe et symbole œil pour surveillance"
             },
             {
-                "icon": "/images/blog/ai.webp",
+                "icon": "/images/blog/ai-powered-intelligence-network-icon.webp",
                 "title": "Collaboration entre agents pilotée par l’IA à travers les systèmes",
-                "description": "permet aux différentes parties du flux de fabrication—conception, production, logistique et services—de travailler ensemble de manière fluide grâce à des agents intelligents qui agissent comme des membres numériques de l’équipe, et non simplement comme des bots de tâches."
+                "description": "permet aux différentes parties du flux de fabrication—conception, production, logistique et services—de travailler ensemble de manière fluide grâce à des agents intelligents qui agissent comme des membres numériques de l’équipe, et non simplement comme des bots de tâches.",
+                "alt": "Icône d'intelligence pilotée par IA avec puce AI centrale connectée à nœuds réseau représentant apprentissage automatique"
             },
             {
-                "icon": "/images/blog/faster.webp",
+                "icon": "/images/blog/fast-fault-detection-alert-icon.webp",
                 "title": "Diagnostic plus rapide et résolution des problèmes de production",
-                "description": "sont rendus possibles grâce à des agents capables de suivre les pannes entre systèmes, recommander des solutions et même initier des flux de travail pour planifier la maintenance ou rediriger les tâches, réduisant ainsi les temps d’arrêt."
+                "description": "sont rendus possibles grâce à des agents capables de suivre les pannes entre systèmes, recommander des solutions et même initier des flux de travail pour planifier la maintenance ou rediriger les tâches, réduisant ainsi les temps d’arrêt.",
+                "alt": "Icône de détection rapide de défauts avec engrenage et symbole d'alerte représentant identification automatisée d'erreurs"
             },
             {
-                "icon": "/images/blog/better.webp",
+                "icon": "/images/blog/data-analysis-verification-quality-icon.webp",
                 "title": "Meilleur contrôle qualité et suivi de conformité",
-                "description": "sont obtenus grâce à des agents intelligents qui signalent les écarts, analysent les modèles de défauts et garantissent que chaque produit respecte les normes réglementaires et internes, avec traçabilité d’audit et perspectives alimentées par l’IA."
+                "description": "sont obtenus grâce à des agents intelligents qui signalent les écarts, analysent les modèles de défauts et garantissent que chaque produit respecte les normes réglementaires et internes, avec traçabilité d’audit et perspectives alimentées par l’IA.",
+                "alt": "Icône de vérification d'analyse de données avec documents, loupe et coche représentant validation d'assurance qualité"
             },
             {
-                "icon": "/images/blog/deeper.webp",
+                "icon": "/images/blog/deployment-support-technical-service-icon.webp",
                 "title": "Intégration accrue avec la chaîne d’approvisionnement et les systèmes clients",
-                "description": "permet aux constructeurs automobiles et aux fournisseurs de connecter les points de l’approvisionnement, du stockage, de l’expédition et même du service après-vente, rendant les opérations plus agiles, transparentes et résilientes."
+                "description": "permet aux constructeurs automobiles et aux fournisseurs de connecter les points de l’approvisionnement, du stockage, de l’expédition et même du service après-vente, rendant les opérations plus agiles, transparentes et résilientes.",
+                "alt": "Icône support déploiement avec ordinateur portable, engrenage et symboles utilisateur pour implémentation technique"
             }
         ]
     },
     "aiPowerBlog": {
-        "susContain": "/images/blog/sus-contain-diagram-french.webp",
+        "flowchartAlt": "Diagramme de système de réseau intelligent piloté par IA montrant sources d'énergie renouvelable et analyse prédictive",
+        "bannerAlt": "Ville verte durable flottante avec éoliennes, panneaux solaires et bâtiments représentant avenir d'énergie renouvelable",
+        "susContain": "/images/blog/ai-driven-smart-grid-system-flowchart-french.webp",
         "seoTitle": "Comment l’IA construit un avenir durable pour la planète | Rialtes",
         "seoDescription": "L’IA aide à protéger la planète : suivi de la déforestation, prévision énergétique et préservation de la biodiversité.",
         "artificial": "Intelligence Artificielle",
@@ -3216,6 +3916,7 @@
         ]
     },
     "aiThatListens": {
+        "aithatlistensAlt": "Ondes numériques dynamiques et flux de données colorés illustrant le flux technologique et la connectivité réseau.",
         "seoTitle": "Comment les LLM transforment l’expérience client avec l’IA | Rialtes",
         "seoDescription": "Les LLM redéfinissent l’écoute et la réponse client, allant au-delà de l’automatisation pour créer des conversations réelles et enrichir le CX.",
         "LLMarchData": [
@@ -3312,6 +4013,7 @@
         "readyDesc2": "Nous vous aiderons à élaborer une stratégie évolutive, sécurisée et alignée sur vos objectifs, qu’il s’agisse de réduire la charge du support, d’augmenter le NPS ou de fournir un support multilingue 24/7. Rendons votre expérience client aussi intelligente que vos clients s’y attendent. Contactez-nous à sales@rialtes.com pour commencer la conversation."
     },
     "whySapSignavio": {
+        "bannerAlt": "Tunnel numérique bleu avec code binaire et lumières floues représentant transfert de données haute vitesse",
         "seoTitle": "SAP Signavio : simplifier le succès des implémentations S/4HANA",
         "seoDescription": "Voyager+ et SAP Signavio assurent une transition S/4HANA fluide, transparente et évolutive pour la réussite des entreprises.",
         "blogdescData": [
@@ -3504,6 +4206,7 @@
         "faqTitle": "FAQs : Mise en œuvre de SAP Signavio S/4HANA"
     },
     "beyondRobotics": {
+        "bannerAlt": "Professionnel examinant modèle 3D jumeau numérique industriel sur tablette pour planification usine et optimisation",
         "seoTitle": "Au-delà de l’automatisation : agents IA et industrie intelligente",
         "seoDescription": "Agentforce déploie des agents autonomes pour combler le fossé entre production et expérience, avec moins de silos et des décisions rapides.",
         "blogMainData": [
@@ -3668,6 +4371,7 @@
         "faqTitle": "FAQ : Fabrication intelligente avec des agents IA"
     },
     "sapPiPo": {
+        "bannerAlt": "Cadre néon lumineux avec nuages blancs et particules numériques représentant cloud computing et transformation données",
         "seoTitle": "Migration SAP PI PO vers SAP CPI : l’essentiel à savoir",
         "seoDescription": "Passer de PI PO à SAP CPI est une transformation vers une intégration cloud-native et intelligente, pas une simple mise à jour.",
         "steps": [
@@ -4049,6 +4753,7 @@
         "faqTitle": "FAQs : SAP Signavio + SAP Cloud ALM dans S/4HANA"
     },
     "aiPatient": {
+        "bannerAlt": "Innovation médicale numérique affichant l’anatomie humaine et l’analyse IA via une interface holographique 3D interactive.",
         "seoTitle": "Engagement patient avec l’IA : simplifier les soins | Rialtes",
         "seoDescription": "Découvrez comment l’IA MedTech facilite le suivi, simplifie les processus et améliore la relation patient-professionnel de santé.",
         "rolesData": [
@@ -4189,28 +4894,33 @@
         "faqTitle": "FAQs : L’IA dans l’engagement des patients"
     },
     "agentforceIndustry4": {
+        "bannerAlt": "Automatisation avancée de l’industrie 4.0 avec bras robotisé, données numériques et interface de fabrication futuriste.",
         "seoTitle": "Agentforce AI : zéro interruption en production industrielle | Rialtes",
         "seoDescription": "L’IA d’Agentforce prédit les pannes, évite les interruptions et garantit une efficacité opérationnelle continue.",
         "reactiveData": [
             {
-                "image": "/images/blog/industr4Svg (1).svg",
+                "image": "/images/blog/reactive-analytics-data-monitoring-icon.svg",
                 "title": "Réactif",
-                "desc": "Attendre que les machines tombent en panne"
+                "desc": "Attendre que les machines tombent en panne",
+                "alt": "Icône bleue d'analyse réactive avec horloge, loupe, personne et graphiques représentant analyse de données en temps réel"
             },
             {
-                "image": "/images/blog/industr4Svg (2).svg",
+                "image": "/images/blog/proactive-automation-workflow-icon.svg",
                 "title": "Proactif",
-                "desc": "Planifier des cycles de maintenance réguliers"
+                "desc": "Planifier des cycles de maintenance réguliers",
+                "alt": "Icône bleue d'automation proactive avec engrenage, nuage et flèches circulaires représentant systèmes de flux de travail"
             },
             {
-                "image": "/images/blog/industr4Svg (3).svg",
+                "image": "/images/blog/predictive-cycle-forecasting-icon.svg",
                 "title": "Prédictif",
-                "desc": "Anticiper les pannes sur la base des modèles et des données d’utilisation"
+                "desc": "Anticiper les pannes sur la base des modèles et des données d’utilisation",
+                "alt": "Icône bleue de cycle prédictif avec flèche circulaire représentant prévision continue et processus d'analyse prédictive"
             },
             {
-                "image": "/images/blog/industr4Svg (4).svg",
+                "image": "/images/blog/autonomous-scheduling-automation-icon.svg",
                 "title": "Autonome",
-                "desc": "Permettre aux agents IA de déclencher automatiquement des flux de travail de service"
+                "desc": "Permettre aux agents IA de déclencher automatiquement des flux de travail de service",
+                "alt": "Icône bleue de planification autonome avec calendrier, horloge et engrenage représentant gestion automatique du temps"
             }
         ],
         "agentforceEnablingData": [
@@ -4354,6 +5064,7 @@
         "faqTitle": "FAQs : Agentforce dans la prédiction et la prévention des temps d'arrêt dans la fabrication Industrie 4.0"
     },
     "sapBuild": {
+        "bannerAlt": "Interface d'usine intelligente avec outils d'automatisation low-code SAP Build et machines connectées ",
         "seoTitle": "SAP Build : réduire de 30 % les arrêts dans l’industrie | Rialtes",
         "seoDescription": "SAP Build accélère l’innovation industrielle, réduit les temps d’arrêt et renforce les équipes avec applications low-code et automatisation.",
         "blogMainData": [
@@ -4744,6 +5455,7 @@
         "faqTitle": "FAQ : Questions fréquentes"
     },
     "fiveSigns": {
+        "bannerAlt": "Atelier de fabrication intelligent avec bras robotiques et interface IA pour automatisation prédictive ",
         "seoTitle": "Agents IA en industrie : 5 signes que vous êtes prêt | Rialtes",
         "seoDescription": "Les agents IA ne sont pas qu’un outil : ils redéfinissent le travail, les décisions et la résolution de problèmes pour les industriels.",
         "mainData": [
@@ -4826,6 +5538,7 @@
         "faqTitle": "FAQs : Mettre en œuvre des agents IA dans vos opérations de fabrication"
     },
     "connectedCore": {
+        "bannerAlt": "Réseau visuel de prestataires de soins, systèmes pharmaceutiques et dispositifs MedTech dans un modèle de soins connectés ",
         "seoTitle": "Écosystèmes de soins connectés : l’avenir de la santé | Rialtes",
         "seoDescription": "Découvrez comment un écosystème de soins connectés aide Pharma et MedTech grâce aux alertes prédictives et au suivi à distance.",
         "mainData": [
@@ -4987,6 +5700,7 @@
         "faqTitle": "FAQs : Importance des écosystèmes de soins connectés pour la pharmacie et les technologies médicales"
     },
     "digitalJourney": {
+        "bannerAlt": "Chronologie visuelle du parcours patient amélioré par l'IA, montrant diagnostic, traitement et suivi ",
         "digiTitle": "Redéfinir les soins de santé, un voyage à la fois",
         "seoTitle": "Parcours Numériques du Patient : L’Avenir des Soins de Santé avec l’IA | Rialtes",
         "seoDescription": "L’avenir des soins de santé repose sur les parcours numériques du patient — des itinéraires pilotés par l’IA, prédictifs et personnalisés qui responsabilisent à la fois les patients et les prestataires.",
@@ -5230,6 +5944,7 @@
         "faqTitle": "FAQ : L’Importance des Écosystèmes de Soins Connectés pour la Pharmaceutique et MedTech"
     },
     "patientExperience": {
+        "bannerAlt": "Patient consultant des données de santé sur une tablette, avec des icônes de diagnostic, traitement et soins à long terme ",
         "blogMainData": [
             "Fournir des soins de santé a toujours été bien plus qu'un simple diagnostic. Pour les patients, le véritable parcours commence après le diagnostic, en explorant les options de traitement, en gérant les maladies chroniques et en apprenant à vivre avec des besoins de soins continus. Malheureusement, les systèmes traditionnels ne soutiennent souvent pas les patients au-delà des murs de la clinique. C'est pourquoi une plateforme d'expérience patient devient essentielle, aidant les prestataires de soins à offrir continuité, coordination et soins personnalisés à grande échelle.",
             "<strong>MediAIna</strong>, la plateforme de parcours patient de prochaine génération de Rialtes, est conçue pour combler ces lacunes. L'intégration des points de contact cliniques, opérationnels et numériques réinvente le parcours de soins depuis le premier diagnostic jusqu'à la gestion à long terme. Voyons comment des plateformes comme MediAIna créent des <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>parcours patients numériques au-delà de la clinique</a> et établissent de nouvelles normes en matière de soins à long terme."
@@ -5370,6 +6085,7 @@
         "faqTitle": "FAQs : Transformer les soins avec une plateforme d'expérience patient"
     },
     "salesforcePartners": {
+        "bannerAlt": "Bannière abstraite illustrant la croissance des entreprises avec Salesforce et des icônes de transformation numérique ",
         "salesforceTitle": "Comment les meilleurs partenaires Salesforce aident les entreprises à prospérer et innover",
         "blogTopic": "Education Cloud",
         "salesforcePartnersHelp": [
@@ -5383,20 +6099,23 @@
         "partners": [
             {
                 "title": "Partenaires Summit (Platine)",
-                "image": "/images/blog/summit partner.webp",
+                "image": "/images/blog/summit-partner-logo.webp",
                 "badge": "PARTENAIRE SUMMIT",
-                "description": "Le niveau le plus élevé, indiquant une expertise de haut niveau et des capacités stratégiques pour des déploiements à grande échelle."
+                "description": "Le niveau le plus élevé, indiquant une expertise de haut niveau et des capacités stratégiques pour des déploiements à grande échelle.",
+                "alt": "Badge de partenaire Summit Salesforce représentant une expertise de conseil de haut niveau "
             },
             {
                 "title": "Partenaires Crest (Argent)",
-                "image": "/images/blog/Crest Partner.webp",
+                "image": "/images/blog/salesforce-crest-partner-logo.webp",
                 "badge": "PARTENAIRE CREST",
-                "description": "Reconnus pour leur succès avéré et leur grande expérience dans la création de valeur client."
+                "description": "Reconnus pour leur succès avéré et leur grande expérience dans la création de valeur client.",
+                "alt": "Badge de partenaire Crest Salesforce indiquant un succès certifié et une prestation stratégique "
             },
             {
                 "title": "Partenaires Ridge (Or)",
-                "image": "/images/blog/Ridge partner.webp",
+                "image": "/images/blog/salesforce-ridge-partner-logo.webp",
                 "badge": "PARTENAIRE RIDGE",
+                "alt": "Badge de partenaire Ridge Salesforce pour le support CRM intermédiaire et la réussite client ",
                 "description": "Fait preuve d’un engagement envers la réussite client et convient parfaitement aux entreprises de taille moyenne recherchant un soutien fiable."
             }
         ],
@@ -5568,6 +6287,7 @@
         "seoDescription": "Les meilleurs partenaires Salesforce stimulent la croissance et l’innovation en alignant la technologie avec les objectifs d’entreprise."
     },
     "salesforceDevelopment": {
+        "bannerAlt": "Interface de tableau CRM affichant les analyses Salesforce, les métriques d'engagement et l'automatisation des flux ",
         "blogMainData": [
             "La gestion de la relation client (CRM) est le cœur battant des entreprises modernes. Elle détermine comment les équipes commerciales concluent des affaires, comment les équipes de service répondent aux clients et comment le marketing propose des campagnes personnalisées. Parmi les nombreuses plateformes CRM disponibles, Salesforce se distingue comme le CRM le plus fiable. Mais voici le problème : déployer Salesforce seul ne suffit pas. Pour exploiter pleinement son potentiel, les entreprises ont besoin de services Salesforce personnalisés qui s’adaptent aux flux de travail, aux modèles de données et aux attentes des clients uniques.",
             "Dans ce blog, nous explorerons pourquoi le développement Salesforce personnalisé est important, comment il améliore l’efficacité du CRM et pourquoi choisir le bon partenaire, en particulier une entreprise de développement Salesforce de confiance aux États-Unis, fait toute la différence."
@@ -5757,6 +6477,7 @@
         "strategiesDesc2": "Ces stratégies aident les entreprises non seulement à réduire les risques des projets Salesforce, mais aussi à maximiser le ROI."
     },
     "salesforceImplementation": {
+        "bannerAlt": "Équipe métier examinant la feuille de route de mise en œuvre Salesforce avec visuels d'intégration cloud ",
         "blogMainData": [
             "Salesforce est la principale plateforme CRM au monde, permettant aux entreprises de tous les secteurs de mieux gérer leurs clients, leurs données et leurs processus. Mais voici le point clé : le succès avec Salesforce n’est pas garanti simplement en achetant des licences. L’implémentation est l’étape où de nombreux projets échouent. Les retards, l’élargissement du périmètre ou une adoption insuffisante peuvent transformer ce qui devrait être un moteur de croissance en un investissement perdu.",
             "C’est pourquoi les entreprises <a href='https://www.linkedin.com/pulse/unlock-growth-salesforce-consulting-understands-gm99f/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>s’associent à des consultants Salesforce experts</a>. Le bon partenaire apporte structure, expertise et cadres éprouvés pour réduire les risques et maximiser le retour sur investissement. De la planification d’une feuille de route d’implémentation Salesforce à la gestion d’intégrations complexes, les partenaires garantissent que les entreprises tirent une valeur maximale de la plateforme.",

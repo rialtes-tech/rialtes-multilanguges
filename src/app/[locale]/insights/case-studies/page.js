@@ -314,9 +314,9 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-      title={t('seoTitle')}
-      description={t('seoDescription')}
-      canonical="https://www.rialtes.com/insights/case-studies/" />
+        title={t('seoTitle')}
+        description={t('seoDescription')}
+        canonical="https://www.rialtes.com/insights/case-studies/" />
 
       <Script
         id="schema-case-study"
@@ -329,8 +329,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/case-studies/case-study-header.webp"
-            alt="desktop banner"
+            src="/images/case-studies/abstract-neon-light-waves-motion-blur.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -341,8 +341,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden">
           <Image
-            src="/images/case-studies/case-study-main-banner.webp"
-            alt="Case study banner"
+            src="/images/case-studies/abstract-neon-light-waves-motion-blur-mobile.webp"
+            alt={t('bannerAlt')}
             fill
             priority
             style={{ objectFit: "cover", objectPosition: "35% 60%" }}

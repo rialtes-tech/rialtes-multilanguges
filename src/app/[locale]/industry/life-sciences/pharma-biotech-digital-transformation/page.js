@@ -142,8 +142,8 @@ export default function Page() {
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
                 <div className="hidden md:block">
                     <Image
-                        src="/images/pharma/pharma header.webp"
-                        alt="desktop banner"
+                        src="/images/pharma/pharma-header-banner.webp"
+                        alt={t('bannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                         priority
@@ -153,8 +153,8 @@ export default function Page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/pharma/Header Pharma.webp"
-                        alt="mobile banner"
+                        src="/images/pharma/pharma-header-banner-mobile.webp"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
@@ -198,8 +198,8 @@ export default function Page() {
 
                 <div className="md:block hidden">
                     <Image
-                        src="/images/pharma/pharma TL.webp"
-                        alt="pharma thought leadership img"
+                        src="/images/pharma/pharma-thought-leadership.webp"
+                        alt={t('thoughtLeadershipAlt')}
                         fill
                         style={{ objectFit: "cover" }}
                         priority
@@ -208,8 +208,8 @@ export default function Page() {
                 </div>
                 <div className="md:hidden block">
                     <Image
-                        src="/images/pharma/TL (2).webp"
-                        alt="pharma thought leadership img"
+                        src="/images/pharma/pharma-thought-leadership-mobile.webp"
+                        alt={t('thoughtLeadershipAlt')}
                         style={{ objectFit: "cover", objectPosition: "35% 10%" }}
                         fill
                         priority
@@ -237,8 +237,8 @@ export default function Page() {
             <section className={`relative ${(frActive || esActive) ? "h-[1400px] sm:h-[1260px]  xl:h-[1200px]" : "h-[1300px] sm:h-[1260px] xl:h-[1000px]"}  mt-16 xl:mt-0`}>
                 <div className="lg:block hidden">
                     <Image
-                        src="/images/pharma/why Rialtes (1).webp"
-                        alt="why rialtes desktop image"
+                        src="/images/pharma/why-rialtes-pharma.webp"
+                        alt={t('whyRialtesAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "65% 20%" }}
                         priority
@@ -246,8 +246,8 @@ export default function Page() {
                 </div>
                 <div className="lg:hidden block">
                     <Image
-                        src="/images/pharma/why rialtes (3).webp"
-                        alt="why rialtes mobile image"
+                        src="/images/pharma/why-rialtes-pharma-mobile.webp"
+                        alt={t('whyRialtesAlt')}
                         style={{ objectFit: "cover", objectPosition: "20% 30%" }}
                         fill
                         priority
@@ -293,7 +293,7 @@ export default function Page() {
                                     <div className="lg:block hidden">
                                         <Image
                                             src={item.imgDesktop}
-                                            alt="pharma desktop img"
+                                            alt={item.imageAlt}
                                             fill
                                             priority
                                             className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
@@ -302,7 +302,7 @@ export default function Page() {
                                     <div className="lg:hidden block">
                                         <Image
                                             src={item.imgMobile}
-                                            alt="pharma mobile img"
+                                            alt={item.imageAlt}
                                             width={600}
                                             height={400}
                                             priority
@@ -341,8 +341,8 @@ export default function Page() {
             <section className="relative group overflow-hidden h-auto text-white xl:pt-[99px] xl:pb-[175px] pt-[39px] pb-[150px] mt-[32px] xl:mt-[160px]">
                 <div className="lg:block hidden">
                     <Image
-                        src="/images/pharma/Deep Expertise (1).webp"
-                        alt="deep expertise image"
+                        src="/images/pharma/pharma-deep-expertise.webp"
+                        alt={t('deepExpertiesAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                         priority
@@ -351,8 +351,8 @@ export default function Page() {
                 </div>
                 <div className="lg:hidden block">
                     <Image
-                        src="/images/pharma/Deep Expertise (2).webp"
-                        alt="deep expertise image"
+                        src="/images/pharma/pharma-deep-expertise-mobile.webp"
+                        alt={t('deepExpertiesAlt')}
                         fill
                         priority
                     />
@@ -365,8 +365,8 @@ export default function Page() {
                         <div className="4xl:w-[532px] 2xl:w-[510px]">
                             <div className="relative">
                                 <Image
-                                    src="/images/pharma/Life Sciences Cloud.webp"
-                                    alt="life science image"
+                                    src="/images/pharma/pharma-life-sciences-platform.webp"
+                                    alt={t('lifeSciencesPlatformAlt')}
                                     priority
                                     height={0}
                                     width={0}
@@ -381,8 +381,8 @@ export default function Page() {
                         <div>
                             <div className="relative mt-[70px] lg:mt-[180px]">
                                 <Image
-                                    src="/images/pharma/sap-con.webp"
-                                    alt="life science image"
+                                    src="/images/pharma/pharma-sap-operations.webp"
+                                    alt={t('sapOperationsAlt')}
                                     priority
                                     height={0}
                                     width={0}
@@ -424,8 +424,8 @@ export default function Page() {
                 <div className="text-white group overflow-hidden relative">
                     <div className="lg:block hidden">
                         <Image
-                            src="/images/pharma/Key AI Impact.webp"
-                            alt="key ai impact image"
+                            src="/images/pharma/pharma-key-ai-impact.webp"
+                            alt={t('keyImpactAlt')}
                             fill
                             style={{ objectFit: "cover", objectPosition: "70% 20%" }}
                             priority
@@ -434,8 +434,8 @@ export default function Page() {
                     </div>
                     <div className="lg:hidden block">
                         <Image
-                            src="/images/pharma/Key AI Impact (1).webp"
-                            alt="key ai impact image"
+                            src="/images/pharma/pharma-key-ai-impact-mobile.webp"
+                            alt={t('keyImpactAlt')}
                             fill
                             style={{ objectFit: "cover", objectPosition: "70% 10%" }}
                             priority
@@ -457,8 +457,8 @@ export default function Page() {
                 <div className=" text-white group overflow-hidden relative">
                     <div className="lg:block hidden">
                         <Image
-                            src="/images/pharma/Benefits of AI.webp"
-                            alt="benefits of ai image"
+                            src="/images/pharma/pharma-benefits-of-ai.webp"
+                            alt={t('benefitsAlt')}
                             fill
                             style={{ objectFit: "cover", objectPosition: "70% 20%" }}
                             priority
@@ -467,8 +467,8 @@ export default function Page() {
                     </div>
                     <div className="lg:hidden block">
                         <Image
-                            src="/images/pharma/Benefits of AI .webp"
-                            alt="benefits of ai image"
+                            src="/images/pharma/pharma-benefits-of-ai-mobile.webp"
+                            alt={t('benefitsAlt')}
                             fill
                             style={{ objectFit: "cover", objectPosition: "70% 10%" }}
                             priority
@@ -495,8 +495,8 @@ export default function Page() {
                         <div className="lg:col-span-6 col-span-12 mt-[-4rem] md:w-[80%] lg:w-full">
                             <div className="group overflow-hidden relative">
                                 <Image
-                                    src="/images/pharma/Patient-Centric Mobile Apps .webp"
-                                    alt="Patient-Centric image"
+                                    src="/images/pharma/pharma-patient-centric-apps.webp"
+                                    alt={t('patientCentricAlt')}
                                     priority
                                     height={0}
                                     width={0}
@@ -512,8 +512,8 @@ export default function Page() {
                         <div className="lg:col-span-6 col-span-12 lg:mt-64 mt-0 md:w-[80%] lg:w-full">
                             <div className="relative group overflow-hidden">
                                 <Image
-                                    src="/images/pharma/Remote Monitoring.webp"
-                                    alt="Remote Monitoring image"
+                                    src="/images/pharma/pharma-remote-monitoring.webp"
+                                    alt={t('remoteMonitoringAlt')}
                                     priority
                                     height={0}
                                     width={0}
@@ -534,8 +534,8 @@ export default function Page() {
                     <div className="xl:col-span-6 col-span-12">
                         <div className="group overflow-hidden relative h-full w-full">
                             <Image
-                                src="/images/pharma/AgentChat (1).webp"
-                                alt="agent chat image"
+                                src="/images/pharma/pharma-agentchat-whatsapp.webp"
+                                alt={t('agentChatAlt')}
                                 priority
                                 height={0}
                                 width={0}
@@ -564,8 +564,8 @@ export default function Page() {
                     <div className="group overflow-hidden relative mt-0 lg:mt-[230px] xl:mt-[194px]">
                         <div className="xl:block hidden">
                             <Image
-                                src="/images/pharma/Agentforce pharma.webp"
-                                alt="agentforce pharma image"
+                                src="/images/pharma/pharma-agentforce-salesforce.webp"
+                                alt={t('agentForceAlt')}
                                 priority
                                 height={0}
                                 width={0}
@@ -574,8 +574,8 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/pharma/Agentforce (1).webp"
-                                alt="agentforce pharma image"
+                                src="/images/pharma/pharma-agentforce-salesforce-mobile.webp"
+                                alt={t('agentForceAlt')}
                                 priority
                                 height={0}
                                 width={0}

@@ -97,7 +97,9 @@ export default function page() {
 
     const WhyChooseRialtes = () => {
         return (
-            <section className="lg:pt-[89px] lg:pb-[40px] pt-[37px] pb-[42px] text-[#FFFFFF] mt-[53px] lg:mt-[85px] lg:bg-[url('/images/sap-buy/why-choose-rialtes-img.webp')] bg-[url('/images/sap-buy/Mobile/why-choose-rialtes-mob-img.webp')] bg-cover bg-no-repeat lg:bg-[50%_20%] max-sm:bg-[20%_10%]">
+            <section className="lg:pt-[89px] lg:pb-[40px] pt-[37px] pb-[42px] text-[#FFFFFF] mt-[53px] lg:mt-[85px] lg:bg-[url('/images/sap-buy/why-choose-rialtes-img.webp')] bg-[url('/images/sap-buy/Mobile/why-choose-rialtes-mob-img.webp')] bg-cover bg-no-repeat lg:bg-[50%_20%] max-sm:bg-[20%_10%]"
+                alt={t('whyChooseAlt')}
+            >
                 <div className="custom-container px-[2rem] md:px-auto mt-[110%] md:mt-[110%] max-[450px]:mt-[150%] max-[390px]:mt-[170%] max-[355px]:mt-[210%]  lg:mt-0">
                     <div className="max-lg:pt-[37px]">
                         <h2 className="text-[26px] font-light 4xl:text-[60px] xl:text-[40px] leading-tight lg:w-[55%] xl:w-[50%] w-[86%]">
@@ -132,9 +134,9 @@ export default function page() {
         return (
             <section className="custom-container relative max-md:px-0">
                 {/* Desktop Image */}
-                <Image src="/images/sap-buy/unlock-procurement-img.webp" priority alt="unlock-procurement-img" width={600} height={100} className="hidden md:block w-full h-full object-cover" />
+                <Image src="/images/sap-buy/unlock-procurement-img.webp" priority alt={t('unloackProcurementAlt')} width={600} height={100} className="hidden md:block w-full h-full object-cover" />
                 {/* Mobile Image */}
-                <Image src="/images/sap-buy/unlock-procurement-img.webp" priority alt="unlock-procurement-img" width={600} height={100} className="block md:hidden w-full h-full object-cover" />
+                <Image src="/images/sap-buy/unlock-procurement-img.webp" priority alt={t('unloackProcurementAlt')} width={600} height={100} className="block md:hidden w-full h-full object-cover" />
                 <div className="z-20 lg:mt-[-50%] relative">
                     <div className=" bg-[#006FBE]/90 text-[#FFFFFF] xl:z-50 lg:mx-[80px] xl:py-[64px] xl:px-[60px] md:py-[48px] md:px-[2rem] pt-[40px] pb-[59px] px-[2rem]">
                         <div className="grid grid-cols-1 lg:grid-cols-12 gap-[10px]">
@@ -195,7 +197,7 @@ export default function page() {
                     <div className="order-1 lg:order-2 h-full w-full">
                         <Image
                             src="/images/sap-buy/sap-ariba-modules-img.webp"
-                            alt="sap-ariba-modules-img"
+                            alt={t('sapAribaModuleAlt')}
                             width={0}
                             height={0}
                             className="w-full hidden md:block h-full object-cover object-[25%_20%]"
@@ -204,7 +206,7 @@ export default function page() {
                         {/* mob and tablet img */}
                         <Image
                             src="/images/sap-buy/Mobile/sap-ariba-modules-mob-img.webp"
-                            alt="sap-ariba-modules-img"
+                            alt={t('sapAribaModuleAlt')}
                             width={800}
                             height={600}
                             className="w-full block md:hidden h-auto"
@@ -232,7 +234,7 @@ export default function page() {
                             <UnorderedList arrName={sapAribaIndirectData} ulClassName="list-disc pl-6 lg:mt-[26px] mt-[29px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]" />
                         </div>
                         <div className="lg:mt-[25px]">
-                            <LearnMore btnName={t('learnMore')}/>
+                            <LearnMore btnName={t('learnMore')} />
                         </div>
                     </div>
                 </div>
@@ -246,7 +248,7 @@ export default function page() {
                     <div className="order-1 lg:order-1 h-full w-full">
                         <Image
                             src="/images/sap-buy/ariba-business-network-img.webp"
-                            alt="ariba-business-network-img"
+                            alt={t('sapAribaNetworkAlt')}
                             width={800}
                             height={1000}
                             className="w-full hidden md:block h-full object-cover"
@@ -255,7 +257,7 @@ export default function page() {
                         {/* mob and tablet img */}
                         <Image
                             src="/images/sap-buy/Mobile/ariba-business-network-mob-img.webp"
-                            alt="ariba-business-network-img"
+                            alt={t('sapAribaNetworkAlt')}
                             width={800}
                             height={600}
                             className="w-full block md:hidden h-auto"
@@ -285,7 +287,7 @@ export default function page() {
                     <div className="order-1 xl:order-2 xl:col-span-7">
                         <Image
                             src="/images/sap-buy/supplier-profile-img.webp"
-                            alt="supplier-profile-img"
+                            alt={t('suplierProfileAlt')}
                             width={800}
                             height={1000}
                             className="w-full hidden md:block h-full"
@@ -293,7 +295,7 @@ export default function page() {
                         />
                         <Image
                             src="/images/sap-buy/Mobile/supplier-profile-mob-img.webp"
-                            alt="supplier-profile-mob-img"
+                            alt={t('suplierProfileAlt')}
                             width={800}
                             height={600}
                             className="w-full block md:hidden h-auto"
@@ -311,7 +313,7 @@ export default function page() {
                             <UnorderedList arrName={supplierAribaDirectData} ulClassName="list-disc pl-6 lg:mt-[26px] mt-[26px] w-[90%] sm:w-[80%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]" />
                         </div>
                         <div className="lg:mt-[76px]">
-                            <LearnMore btnName={t('learnMore')}/>
+                            <LearnMore btnName={t('learnMore')} />
                         </div>
                     </div>
                 </section>
@@ -321,10 +323,14 @@ export default function page() {
     const AribaContract = () => {
         return (
             <section
-                className="relative md:bg-[url('/images/sap-buy/ariba-contract-img.webp')] bg-no-repeat bg-cover bg-center lg:mt-[67px]">
+                className="relative md:bg-[url('/images/sap-buy/ariba-contract-img.webp')] bg-no-repeat bg-cover bg-center lg:mt-[67px]"
+                alt={t('sapbuyplusContractAlt')}
+            >
                 <div className="custom-container max-md:px-0">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[40%,60%] xl:grid-cols">
-                        <div className="md:hidden w-full h-[500px] bg-[url('/images/sap-buy/Mobile/ariba-contract-mob-img.webp')] bg-no-repeat bg-cover bg-center" />
+                        <div className="md:hidden w-full h-[500px] bg-[url('/images/sap-buy/Mobile/ariba-contract-mob-img.webp')] bg-no-repeat bg-cover bg-center"
+                            alt={t('sapbuyplusContractAlt')}
+                        />
                         <div className="hidden md:block" />
                         <div className="bg-[#363636] mx-[36px] md:mx-0 text-[#FFFFFF] lg:pt-[107px] lg:pb-[94px] lg:pl-[73px] lg:pr-[53px] pt-[46px] pb-[79px] px-[26px] mt-[-54%] md:mt-0 lg:ml-[32px]">
                             <h2 className="text-[26px] leading-tight font-light 4xl:text-[60px] xl:text-[40px]">
@@ -384,7 +390,7 @@ export default function page() {
             <section className="relative lg:mt-[102px] mt-[43px]">
                 <Image
                     src="/images/sap-buy/seamless-img.webp"
-                    alt="seamless-img"
+                    alt={t('seamlessIntegrationsAlt')}
                     width={600}
                     height={100}
                     className="hidden lg:block w-full h-full object-cover"
@@ -392,7 +398,7 @@ export default function page() {
                 />
                 <Image
                     src="/images/sap-buy/Mobile/seamless-mob-img.webp"
-                    alt="seamless-img"
+                    alt={t('seamlessIntegrationsAlt')}
                     width={600}
                     height={100}
                     className="block lg:hidden w-full h-[1200px] object-cover"
@@ -442,7 +448,7 @@ export default function page() {
                         {/* Desktop Image */}
                         <Image
                             src="/images/sap-buy/buying-img.webp"
-                            alt="buying-img"
+                            alt={t('buyingAlt')}
                             width={600}
                             height={100}
                             className="hidden lg:block w-full h-full object-cover"
@@ -451,7 +457,7 @@ export default function page() {
                         <div className="block lg:hidden absolute top-0 left-1/2 translate-x-[-50%] translate-y-[-20%] w-[84%] z-10">
                             <Image
                                 src="/images/sap-buy/Mobile/buying-mob-img.webp"
-                                alt="buying-img"
+                                alt={t('buyingAlt')}
                                 width={600}
                                 height={100}
                                 className="w-full h-auto object-cover"
@@ -470,7 +476,7 @@ export default function page() {
                     <div className="custom-container lg:pr-0">
                         <Image
                             src="/images/sap-buy/agent-chat-img.webp"
-                            alt="agent-chat-img"
+                            alt={t('agentchatAlt')}
                             width={600}
                             height={100}
                             className="hidden lg:block w-full h-full object-cover"
@@ -479,7 +485,7 @@ export default function page() {
                     </div>
                     <Image
                         src="/images/sap-buy/Mobile/agent-chat-mob-img.webp"
-                        alt="agent-chat-img"
+                        alt={t('agentchatAlt')}
                         width={600}
                         height={100}
                         className="block lg:hidden w-full h-full object-cover"
@@ -494,7 +500,7 @@ export default function page() {
                                 <h3 className="text-[26px] leading-tight font-semibold xl:mt-[6px] 4xl:text-[40px] xl:text-[30px]">{t('agentChatSubTitle')}</h3>
                                 <p className="mt-[24px] text-[18px] leading-[22px] font-light xl:mt-[53px] 4xl:text-[22px] xl:text-[18px] lg:w-[80%]">{t('agentChatDesc')}</p>
                                 <div className="mt-[30px] xl:block hidden">
-                                    <LearnMore href="/products/agentchat" bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMore')}/>
+                                    <LearnMore href="/products/agentchat" bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMore')} />
                                 </div>
                             </div>
                             <div>
@@ -511,7 +517,7 @@ export default function page() {
                                     </ul>
                                 </div>
                                 <div className="my-[46px] xl:hidden block">
-                                    <LearnMore href="/products/agentchat" bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMore')}/>
+                                    <LearnMore href="/products/agentchat" bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMore')} />
                                 </div>
                             </div>
                         </div>
@@ -523,8 +529,8 @@ export default function page() {
     return (
         <section>
             <Seo
-               title={t('seoTitle')}
-               description={t('seoDescription')}
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/"
             />
@@ -540,7 +546,7 @@ export default function page() {
                 <div className="hidden md:block">
                     <Image
                         src="/images/sap-buy/sap-buy-banner.webp"
-                        alt="desktop banner"
+                        alt={t('sapbuyplusBannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "55% 20%" }}
                         priority
@@ -551,7 +557,7 @@ export default function page() {
                 <div className="block md:hidden">
                     <Image
                         src="/images/sap-buy/Mobile/sap-buy-banner-mob.webp"
-                        alt="mobile banner"
+                        alt={t('sapbuyplusBannerAlt')}
                         fill
                         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                         priority

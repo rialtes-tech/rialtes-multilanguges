@@ -60,7 +60,6 @@ export default function servicesFeaturedCarousel({ slides }) {
           className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
           onClick={() => onClick()}
           aria-label="Custom Dots"
-
         />
       </li>
     );
@@ -101,7 +100,7 @@ export default function servicesFeaturedCarousel({ slides }) {
                 <Link href={slide?.url}>
                   <Image
                     src={slide.imgSrc}
-                    alt={slide.title}
+                    alt={slide.imageAlt}
                     width={0}
                     height={0}
                     sizes="100vw"

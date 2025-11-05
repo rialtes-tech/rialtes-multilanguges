@@ -27,7 +27,7 @@ const schemaData = {
   description:
     "Agentforce for automotive brings intelligent automation to factory floors—delivering real-time visibility, predictive quality, and scalable AI-driven operations across automotive manufacturing.",
   image:
-    "https://www.rialtes.com/images/blog/agentforce-3.0-desktop-banner.webp",
+    "https://www.rialtes.com/images/blog/automotive-manufacturing-engineer-quality-control.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -127,28 +127,28 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
-        {/* Desktop Image */}
-        <div className="hidden xl:block">
-          <Image
-            src="/images/blog/agentforce-3.0-desktop-banner.webp"
-            alt="Discover AgentExchange"
-            fill
-            priority
-          />
-        </div>
-
-        {/* Mobile Image */}
-        <div className="block xl:hidden">
-          <Image
-            src="/images/blog/agentforce-3.0-mobile.webp"
-            alt="Discover AgentExchange"
-            fill
-            style={{ objectFit: "cover" }}
-            priority
-          />
-        </div>
-      </section>
-
+           {/* Desktop Image */}
+           <div className="hidden xl:block">
+             <Image
+               src="/images/blog/automotive-manufacturing-engineer-quality-control.webp"
+               alt={t("bannerAlt")}
+               fill
+               priority
+             />
+           </div>
+   
+           {/* Mobile Image */}
+           <div className="block xl:hidden">
+             <Image
+               src="/images/blog/automotive-manufacturing-engineer-quality-control-mobile.webp"
+               alt={t("bannerAlt")}
+               height={0}
+               width={0}
+               className="w-full h-auto object-cover"
+               priority
+             />
+           </div>
+         </section>
       <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
@@ -209,7 +209,7 @@ export default function Page() {
                       <div className="min-w-[100px] sm:mt-1">
                         <Image
                           src={item.icon}
-                          alt={item.title}
+                          alt={item.alt}
                           width={200}
                           height={112}
                           className="xl:w-[212px] xl:h-[90px] w-[100px]"

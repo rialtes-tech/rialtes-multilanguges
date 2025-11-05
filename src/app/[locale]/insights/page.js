@@ -97,8 +97,8 @@ export default function InsightsPage() {
       <section className="relative group overflow-hidden h-[399px] 4xl:h-[650px] 2xl:h-[500px] xl:h-[500px]">
         <div className="hidden md:block">
           <Image
-            src="/images/insights/insight-header-banner-new.webp"
-            alt="desktop banner"
+            src="/images/insights/iceberg-industry-insights-expert-knowledge.webp"
+            alt={t("bannerAlt")}
             fill
             priority
             className="transform transition-transform duration-500 group-hover:scale-110 object-cover"
@@ -107,8 +107,8 @@ export default function InsightsPage() {
         {/* Mobile Image */}
         <div className="block lg:hidden">
           <Image
-            src="/images/insights/insight-header-banner-new.webp"
-            alt="mobile banner"
+            src="/images/insights/iceberg-industry-insights-expert-knowledge.webp"
+            alt={t("bannerAlt")}
             className="transform transition-transform duration-500 group-hover:scale-110 "
             fill
             style={{ objectFit: "cover", objectPosition: "75% 20%" }}
@@ -158,7 +158,7 @@ export default function InsightsPage() {
                   }}
                 >
                   <Image
-                    src="/images/blog/sap-cpi-mobile-banner.webp"
+                    src="/images/blog/cloud-data-digital-transformation-mobile.webp"
                     alt="Green computing illustration showing tree and circuit integration"
                     fill
                     className="object-cover h-full"
@@ -222,7 +222,7 @@ export default function InsightsPage() {
                         hoveredBlog === "blog2" ? "scale(1.05)" : "scale(1)",
                     }}>
                     <Image
-                      src="/images/blog/ai-in-patient-mobile-banner.webp"
+                      src="/images/blog/futuristic-medical-technology-innovation-mobile.webp"
                       alt="Diversity illustration"
                       fill
                       className="object-cover h-full w-full"
@@ -288,7 +288,7 @@ export default function InsightsPage() {
                         hoveredBlog === "blog3" ? "scale(1.05)" : "scale(1)",
                     }}>
                     <Image
-                      src="/images/blog/first-ai-agent-mob-banner.webp"
+                      src="/images/blog/artificial-intelligence-data-visualization-mobile.webp"
                       alt="Diversity illustration"
                       fill
                       className="object-cover h-full w-full"

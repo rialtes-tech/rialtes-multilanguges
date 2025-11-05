@@ -441,7 +441,7 @@ const Header = () => {
           <div>
             {/* solutions Card */}
             {activeCard === 1 && (
-              <div onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute" >
+              <div onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 mt-[18px] 4xl:mt-[32px] left-0 z-30 border-t-2 absolute" >
                 <div className="grid grid-cols-12 custom-container gap-10 md:mt-10 xl:mt-10 ">
                   <div className="col-span-3 bg-[#deebf8] p-3 relative">
                     {/* Data & AI Section */}
@@ -616,7 +616,7 @@ const Header = () => {
             )}
             {/* Products Card */}
             {activeCard === 2 && (
-              <div onMouseEnter={() => handleMouseEnterCard(2)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-8  left-0 z-20 border-t-2 absolute">
+              <div onMouseEnter={() => handleMouseEnterCard(2)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-8 mt-[18px] 4xl:mt-[32px] left-0 z-20 border-t-2 absolute">
                 <div className="grid grid-cols-12 gap-5 xl:w-full md:gap-5 lg:gap-10  md:mt-10 xl:justify-between md:justify-center xl:mt-10 custom-container">
                   <div className="col-span-3">
                     <div className="bg-[#deebf8] p-3">
@@ -684,7 +684,7 @@ const Header = () => {
             )}
             {/* Services Card */}
             {activeCard === 3 && (
-              <div onMouseEnter={() => handleMouseEnterCard(3)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-20  left-0 z-20 border-t-2 absolute">
+              <div onMouseEnter={() => handleMouseEnterCard(3)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-20 mt-[18px] 4xl:mt-[32px] left-0 z-20 border-t-2 absolute">
                 <div className="grid grid-cols-12 custom-container gap-5 xl:w-full  md:gap-5  lg:gap-10 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
                   <div className="col-span-3 bg-[#deebf8] p-3">
                     <div
@@ -878,7 +878,7 @@ const Header = () => {
             )}
             {/* Industries Card */}
             {activeCard === 4 && (
-              <div onMouseEnter={() => handleMouseEnterCard(4)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-20 left-0 z-20 border-t-2 absolute">
+              <div onMouseEnter={() => handleMouseEnterCard(4)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto mt-[18px] 4xl:mt-[32px] pb-20 left-0 z-20 border-t-2 absolute">
                 <div className="grid grid-cols-12 w-full lg:gap-10 xl:gap-[22px] md:gap-5 custom-container md:mt-10 xl:mt-10">
                   <div className="col-span-3 bg-[#deebf8] p-3">
                     <div
@@ -1070,7 +1070,7 @@ const Header = () => {
             )}
             {/* about us Card */}
             {activeCard === 5 && (
-              <div onMouseEnter={() => handleMouseEnterCard(5)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto left-0 z-20 border-t-2 absolute">
+              <div onMouseEnter={() => handleMouseEnterCard(5)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto mt-[18px] 4xl:mt-[32px] left-0 z-20 border-t-2 absolute">
                 <div className="grid grid-cols-12 gap-3 lg:gap-10 custom-container md:mt-10 xl:mt-10">
                   <div className="col-span-3">
                     <div className="bg-[#deebf8] p-3">
@@ -1109,7 +1109,7 @@ const Header = () => {
               </div>
             )}
             {activeCard === 6 && (
-              <div onMouseEnter={() => handleMouseEnterCard(6)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto left-0 z-20 border-t-2 absolute">
+              <div onMouseEnter={() => handleMouseEnterCard(6)} onMouseLeave={handleMouseLeaveCard} className="transition-all pb-20 duration-300 ease-in-out bg-white shadow-lg w-full h-auto mt-[18px] 4xl:mt-[32px] left-0 z-20 border-t-2 absolute">
                 <div className="grid grid-cols-12 gap-3 lg:gap-10 custom-container md:mt-10 xl:mt-10">
                   <div className="col-span-3">
                     <div className="bg-[#deebf8] p-3">

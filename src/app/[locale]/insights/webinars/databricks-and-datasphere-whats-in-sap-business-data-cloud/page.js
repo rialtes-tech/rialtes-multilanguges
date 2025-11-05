@@ -58,13 +58,14 @@ export default function () {
                     />
                 }
                 schemaData={schemaData}
-                deskImg="/images/webinar/Webinar_13 May 25_webinar Banner.webp"
-                mobImg="/images/webinar/Webinar_13 May 25_webinar Banner.webp"                       
+                deskImg="/images/webinar/digital-data-wave-visualization-abstract.webp"
+                mobImg="/images/webinar/digital-data-wave-visualization-abstract.webp"  
+                imageAlt={t('imageAlt')}                     
                 webinarTitle={t('webinarTitle')}
                 speakerName="Akshay Kale"
                 speakerDesignation="Sr. Managing Director – SAP Services"
-                speakerImg="/images/webinar/Akshay-Kale.webp"
-                speakerImgAlt="webinar speaker image"
+                speakerImg="/images/webinar/Akshay.webp"
+                speakerImgAlt="webinar speaker Akshay Kale"
                 webinarInfo={t('webinarInfo')}
                 webinarAdvantages={webinarAdvantagesData}     
                 whoShouldAttend={whoShouldAttendData}

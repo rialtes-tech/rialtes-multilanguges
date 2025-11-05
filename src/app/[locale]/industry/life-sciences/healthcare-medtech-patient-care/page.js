@@ -13,6 +13,7 @@ import esContent from '../../../../../../messages/es/industry.json';
 import frContent from '../../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../../components/changeLocalization";
 
+
 export default function Page() {
   const t = useTranslations('healthCare')
   const locale = useLocale();
@@ -124,7 +125,7 @@ export default function Page() {
         <Image
           className="w-full transition-transform duration-300 hover:scale-105"
           src={services.image}
-          alt={services.title}
+          alt={services.imageAlt}
           width={0}
           height={0}
           sizes="100vw"
@@ -166,8 +167,8 @@ export default function Page() {
       <section className="relative group overflow-hidden h-[400px] md:h-[500px] 4xl:h-[650px]">
         <div className="hidden lg:block">
           <Image
-            src="/images/healthcare/AdobeStock_752092287_Preview copy.webp"
-            alt="desktop banner"
+            src="/images/healthcare/healthcare-professional-holographic-medical-data.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -177,8 +178,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block lg:hidden">
           <Image
-            src="/images/healthcare/Healthcare-mobile.webp"
-            alt="mobile banner"
+            src="/images/healthcare/healthcare-professional-holographic-medical-data-mobile.webp"
+            alt={t('bannerAlt')}
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
 
             fill

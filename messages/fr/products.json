@@ -1,5 +1,21 @@
 {
   "agentChat": {
+    "bannerAlt": "Professionnel utilisant AgentChat pour intégration WhatsApp avec Salesforce sur smartphone affichant plateforme",
+    "svgAlt": "Logo AgentChat avec icône bulle de dialogue bleue et verte représentant plateforme de communication client",
+    "whyAlt": "Interface chat WhatsApp Business sur smartphone montrant conversation client et notifications sur écran vert",
+    "handAlt": "Icône main pointant doigt avec lignes d'emphase représentant interaction utilisateur ou geste d'appel à l'action",
+    "fastAlt": "Icône chronomètre avec lignes de vitesse représentant temps de réponse rapide et performance en affaires",
+    "supportAlt": "Bulles de dialogue avec astérisque représentant conversation support client et communication messagerie temps réel",
+    "taskAlt": "Trois membres d'équipe avec coches au-dessus représentant tâches terminées et collaboration réussie",
+    "stepOne": "Icône flèche étape un en orange représentant première phase d'installation et configuration AgentChat",
+    "stepTwo": "Icône flèche étape deux en orange représentant phase de connexion compte WhatsApp Business dans workflow",
+    "stepThree": "Icône flèche étape trois en orange représentant phase de mappage des enregistrements Salesforce et données",
+    "stepFour": "Icône flèche étape quatre en orange représentant phase de configuration des rôles et autorisations d'équipe",
+    "stepFive": "Icône flèche étape cinq en orange représentant phase finale pour commencer à discuter depuis Salesforce",
+    "trainAlt": "Icône développeur présentant code sur écran représentant formation technique, tutoriel programmation et développement",
+    "startAlt": "Icône de chaîne de liens blanche avec texte Commencer maintenant sur fond bleu représentant démarrage rapide et action",
+    "SupportAlt": "Icône de combiné téléphonique blanc avec texte Nous contacter sur fond bleu représentant support client et communication",
+    "demoAlt": "Icono de calendario blanco con marca de verificación y texto Programar demo en fondo azul representando reserva de demostración",
     "headerTitle": "Présentation de",
     "seoTitle": "AgentChat : Intégration WhatsApp avec Salesforce Simplifiée | Rialtes",
     "seoDescription": "AgentChat relie WhatsApp à Salesforce, brise les silos et améliore la collaboration pour un engagement client renforcé et un meilleur ROI.",
@@ -24,8 +40,8 @@
     "features": [
       {
         "title": "Messagerie WhatsApp bidirectionnelle en temps réel",
-        "image": "/images/industry/rialchat/Seamless Messaging.webp",
-        "alt": "Messagerie WhatsApp en temps réel",
+        "image": "/images/industry/rialchat/customer-chat-product-inquiry-ecommerce.webp",
+        "alt": "Interface chat client sur tablette et mobile montrant conversation demande produit avec partage d'image pour e-commerce",
         "points": [
           "Initiez et gérez des conversations WhatsApp directement depuis n’importe quel objet Salesforce.",
           "Suivi automatique des conversations liées aux enregistrements Salesforce.",
@@ -34,8 +50,8 @@
       },
       {
         "title": "Messagerie contextuelle",
-        "image": "/images/industry/rialchat/rich-media-support.webp",
-        "alt": "Messagerie contextuelle",
+        "image": "/images/industry/rialchat/desktop-customer-service-chat-ecommerce.webp",
+        "alt": "Ordinateur de bureau affichant interface chat service client avec partage d'image produit pour gestion demandes e-commerce",
         "points": [
           "Accédez au contexte client complet depuis Salesforce pendant la discussion.",
           "Partagez des fichiers, médias et réponses rapides pour des résolutions plus rapides."
@@ -43,8 +59,8 @@
       },
       {
         "title": "Compatible avec tous les Clouds Salesforce",
-        "image": "/images/industry/rialchat/Automated Conversation Logging.webp",
-        "alt": "Prend en charge tous les Clouds Salesforce",
+        "image": "/images/industry/rialchat/crm-dashboard-customer-data-management-laptop.webp",
+        "alt": "Ordinateur portable affichant tableau de bord CRM avec interface gestion données client et liste contacts organisée",
         "points": [
           "<strong>Sales Cloud :</strong> Convertissez les chats en Pistes et Opportunités.",
           "<strong>Service Cloud :</strong> Gérez les Cas et offrez un support instantané.",
@@ -55,8 +71,8 @@
       },
       {
         "title": "Intégration transparente à Salesforce",
-        "image": "/images/industry/rialchat/Seamless Messaging.webp",
-        "alt": "Intégration fluide à Salesforce",
+        "image": "/images/industry/rialchat/customer-chat-product-inquiry-ecommerce.webp",
+        "alt": "Interface chat client sur tablette et mobile montrant conversation demande produit avec partage d'image pour e-commerce",
         "points": [
           "Fonctionne immédiatement avec Cas, Pistes, Opportunités, Ordres de travail, et plus encore.",
           "Règles d’acheminement et de délégation par type d’enregistrement — aucun effort manuel requis."
@@ -64,8 +80,8 @@
       },
       {
         "title": "Support multi-rôles, multi-équipes",
-        "image": "/images/industry/rialchat/Multi-Agent Collaboration.webp",
-        "alt": "Support multi-équipes",
+        "image": "/images/industry/rialchat/sales-engagement-owner-portal-platform.webp",
+        "alt": "Ordinateur portable affichant plateforme engagement commercial avec portail propriétaire pour communication d'entreprise",
         "points": [
           "Servez les clients via des équipes dédiées (Ventes, Support, Agents de terrain, Conseillers).",
           "Définissez qui peut initier, voir ou répondre selon les rôles et unités commerciales."
@@ -73,8 +89,8 @@
       },
       {
         "title": "Sécurité et conformité natives Salesforce",
-        "image": "/images/industry/rialchat/Seamless Messaging.webp",
-        "alt": "Sécurité et conformité",
+        "image": "/images/industry/rialchat/customer-chat-product-inquiry-ecommerce.webp",
+        "alt": "Interface chat client sur tablette et mobile montrant conversation demande produit avec partage d'image pour e-commerce",
         "points": [
           "Exploite les hiérarchies de rôles, règles de partage et sécurité au niveau des objets de Salesforce.",
           "Compatible RGPD, HIPAA grâce à la plateforme sécurisée de Salesforce."
@@ -122,26 +138,26 @@
   "exelona": {
     "features": [
       {
-        "img": "/images/products/exelona/mobile-enable.svg",
-        "alt": "Compatible avec les appareils mobiles",
-        "title": "100% Compatible Mobile",
-        "desc": "Gérez la location, la maintenance et les finances sur n’importe quel appareil."
+        "img": "/images/products/exelona/mobile-payment-icon.svg",
+        "alt": "Icône vectorielle d’un smartphone avec une coche représentant l’approbation sécurisée des paiements mobiles",
+        "title": "100 % Compatible Mobile",
+        "desc": "Gérez la location, la maintenance et la finance sur tout appareil."
       },
       {
-        "img": "/images/products/exelona/web-chat.svg",
-        "alt": "Interfaces IA",
+        "img": "/images/products/exelona/chat-interface-icon.svg",
+        "alt": "Icône vectorielle montrant une fenêtre de chat et des bulles de message symbolisant une plateforme de communication en ligne",
         "title": "IA Agentique + Interfaces Conversationnelles",
-        "desc": "IA qui automatise, priorise et communique."
+        "desc": "Une IA qui automatise, hiérarchise et communique."
       },
       {
-        "img": "/images/products/exelona/crm.svg",
-        "alt": "CRM + ERP",
+        "img": "/images/products/exelona/network-integration-icon.svg",
+        "alt": "Icône vectorielle représentant des nœuds connectés et une ampoule centrale symbolisant l’intégration et l’innovation en réseau",
         "title": "CRM + ERP, Unifiés",
         "desc": "Un seul système pour le marketing, les opérations, la location et la comptabilité."
       },
       {
-        "img": "/images/products/exelona/open-api.svg",
-        "alt": "API Ouverte",
+        "img": "/images/products/exelona/cloud-development-icon.svg",
+        "alt": "Icône vectorielle portant l’inscription “API Ouverte” symbolisant une architecture logicielle flexible et extensible pour l’intégration cloud",
         "title": "Architecture OPENAPI",
         "desc": "S’intègre facilement avec SAP, Yardi, Oracle, Salesforce et plus encore."
       }
@@ -149,23 +165,25 @@
     "properties": [
       {
         "title": "Comptes Clients",
-        "img": "/images/products/exelona/desktop/account.webp",
+        "img": "/images/products/exelona/desktop/real-estate-agent-digital-tablet.webp",
+        "alt": "Professionnel souriant tenant une tablette numérique devant un immeuble moderne, représentant la gestion immobilière intelligente et la technologie de propriété",
         "points": [
-          "Facturation automatisée des locataires et application des frais de retard.",
-          "Flux de travail d’approbation des radiations et suivi historique.",
-          "Traitement des reçus et rapprochement des livres."
+          "Facturation automatique des locataires et application des pénalités de retard.",
+          "Flux d’approbation des radiations et suivi de l’historique.",
+          "Traitement des reçus et rapprochement du grand livre."
         ],
         "outcomes": [
-          "Amélioration de l’efficacité du recouvrement.",
-          "Visibilité en temps réel des comptes clients sur l’ensemble des propriétés."
+          "Efficacité accrue de la collecte.",
+          "Visibilité en temps réel des comptes clients sur toutes les propriétés."
         ]
       },
       {
-        "title": "Budgétisation, Prévisions et Rapports Financiers",
-        "img": "/images/products/exelona/desktop/budgeting.webp",
+        "title": "Budgétisation, Prévision et Rapports Financiers",
+        "img": "/images/products/exelona/desktop/real-estate-investment-finance.webp",
+        "alt": "Maquette de maison entourée de piles de pièces sur des documents financiers, symbolisant l’investissement immobilier et la finance de propriété",
         "points": [
-          "Budgets pluriannuels avec personnalisation par propriété.",
-          "Prévisions continues basées sur l’occupation et les données de bail.",
+          "Budgétisation pluriannuelle personnalisée au niveau des propriétés.",
+          "Prévisions continues basées sur les données d’occupation et de location.",
           "États financiers : Bilan, Balance de vérification, Compte de résultat."
         ],
         "outcomes": [
@@ -174,28 +192,30 @@
         ]
       },
       {
-        "title": "Comptes Fournisseurs et Achats",
-        "img": "/images/products/exelona/desktop/account-payble.webp",
+        "title": "Comptes Fournisseurs et Approvisionnement",
+        "img": "/images/products/exelona/desktop/digital-procurement-technology.webp",
+        "alt": "Professionnel utilisant un ordinateur portable avec des icônes numériques flottantes représentant le processus d’approvisionnement et la gestion des contrats",
         "points": [
           "Automatisation des factures fournisseurs et flux d’approbation.",
           "Création de bons de commande et rapprochement des réceptions.",
-          "Planification des paiements multicanaux et gestion des fournisseurs."
+          "Planification des paiements multi-modes et gestion des fournisseurs."
         ],
         "outcomes": [
           "Achats centralisés et conformité aux audits.",
-          "Contrôle transparent des dépenses à travers votre portefeuille."
+          "Contrôle transparent des dépenses à travers le portefeuille."
         ]
       },
       {
         "title": "Gestion des Stocks et des Actifs",
-        "img": "/images/products/exelona/desktop/inventory.webp",
+        "img": "/images/products/exelona/desktop/warehouse-inventory-management.webp",
+        "alt": "Femme d’affaires utilisant une tablette numérique pour inspecter les stocks dans un entrepôt, représentant la gestion moderne de la chaîne d’approvisionnement et de la logistique",
         "points": [
-          "Suivi des stocks au niveau de l’unité, du bâtiment et de l’entrepôt.",
-          "Gestion des immobilisations avec calendriers d’amortissement.",
-          "Prévisions de maintenance et de remplacement."
+          "Suivi des stocks au niveau des unités, bâtiments et entrepôts.",
+          "Gestion des actifs avec plans d’amortissement.",
+          "Prévision de la maintenance et du remplacement."
         ],
         "outcomes": [
-          "Amélioration de l’utilisation et de la précision des actifs.",
+          "Meilleure utilisation et précision des actifs.",
           "Alignement financier avec la stratégie CAPEX."
         ]
       }
@@ -345,6 +365,14 @@
         ]
       }
     ],
+    "bannerAlt": "Double exposition de mains tenant tablette avec paysage urbain moderne et connexions réseau représentant transformation numérique de ville intelligente",
+    "digitalAlt": "Paysage urbain abstrait filaire bleu avec gratte-ciel modernes et lignes de grille numériques représentant planification urbaine et architecture",
+    "assetAlt": "Bâtiments résidentiels intelligents miniatures avec aménagement paysager vert affichés sur tablette numérique représentant technologie propriété urbaine",
+    "aiAlt": "Paysage urbain futuriste avec graphiques de données et analyses lumineuses représentant une technologie urbaine axée sur les données",
+    "excelAlt": "Main interagissant avec une tablette numérique affichant un modèle architectural 3D de bâtiments modernes et de conception urbaine intelligente",
+    "paymentAlt": "Personne utilisant une tablette pour effectuer un paiement en ligne sécurisé avec confirmation numérique de transaction réussie",
+    "agentAlt": "Femme souriante utilisant un smartphone pour consulter des messages ou notifications dans un environnement de bureau moderne et lumineux",
+    "builtAlt": "Réseau numérique abstrait dans les nuages avec données binaires et motifs bleus lumineux symbolisant la technologie de l’informatique en nuage",
     "headerTitle": "Exelona",
     "seoTitle": "Exelona™ – Salesforce pour la Gestion Immobilière | Rialtes",
     "seoDescription": "Exelona utilise l’IA et Salesforce pour transformer la gestion immobilière grâce à l’automatisation, aux insights et à l’excellence opérationnelle.",
@@ -390,11 +418,14 @@
     "trustedTitle": "Infrastructure Fiable pour l’Entreprise Immobilière"
   },
   "mediaina": {
+    "mediainaLogoAlt": "Logo de MediAlna avec une silhouette humaine stylisée aux bras levés et le nom de la marque en police moderne bleu foncé.",
+    "lifeAIPlusAlt": "Illustration représentant la suite de conseil LifeAI+ pour une transformation intelligente et évolutive des soins de santé.",
     "rialtesBenefits": [
       "Accélérez les délais de mise sur le marché grâce à des modèles de livraison agiles.",
       "Permettez des essais cliniques plus intelligents, des soins connectés et des thérapies numériques.",
       "Exploitez Salesforce, l’IA et les plateformes cloud pour une innovation conforme."
     ],
+    "bannerAlt": "Gros plan sur un œil numérique aux détails lumineux bleus et violets, symbolisant l’intelligence artificielle, la technologie de vision et la perception des données",
     "headerTitle": "MediAIna",
     "seoTitle": "MediAIna – Redéfinir le Parcours Patient dans le Secteur de la Santé",
     "seoDescription": "MediAIna place le patient au centre en cartographiant chaque moment de soin avec Salesforce et LifeAI+ de Rialtes pour une santé connectée et humaine.",
@@ -423,7 +454,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/patient-desktop.webp",
         "mobImg": "/images/products/mediyana/desktop/patient-desktop.webp",
-        "imgAlt": "",
+        "imgAlt": "Visuel montrant l’identification et la segmentation des patients par IA pour des thérapies et essais ciblés.",
         "bgColor": "#CCF7F5"
       },
       {
@@ -441,7 +472,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/candidate.webp",
         "mobImg": "/images/products/mediyana/mobile/candidate.webp",
-        "imgAlt": "",
+        "imgAlt": "Image illustrant l’éducation numérique personnalisée des patients pour favoriser l’adoption des thérapies.",
         "bgColor": "#C6E7FF"
       },
       {
@@ -459,7 +490,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/digital.webp",
         "mobImg": "/images/products/mediyana/mobile/digital.webp",
-        "imgAlt": "",
+        "imgAlt": "Graphique montrant des workflows d’autorisation préalable automatisés pour réduire les délais de traitement.",
         "bgColor": "#EDEDED"
       },
       {
@@ -477,7 +508,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/clinical.webp",
         "mobImg": "/images/products/mediyana/mobile/clinical.webp",
-        "imgAlt": "",
+        "imgAlt": "Visuel représentant l’attribution des patients à des essais cliniques pertinents grâce à l’IA.",
         "bgColor": "#CCF7F5"
       },
       {
@@ -495,7 +526,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/long.webp",
         "mobImg": "/images/products/mediyana/mobile/long.webp",
-        "imgAlt": "",
+        "imgAlt": "Image représentant la gestion connectée des soins de longue durée pour un soutien continu du patient.",
         "bgColor": "#C6E7FF"
       },
       {
@@ -513,7 +544,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/body.webp",
         "mobImg": "/images/products/mediyana/mobile/body.webp",
-        "imgAlt": "",
+        "imgAlt": "Graphique illustrant la cartographie des parcours patients par IA à travers les points de contact et les étapes de soins.",
         "bgColor": "#EDEDED"
       },
       {
@@ -531,7 +562,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/conversational.webp",
         "mobImg": "/images/products/mediyana/mobile/conver.webp",
-        "imgAlt": "",
+        "imgAlt": "Visuel montrant des requêtes en langage naturel et des insights automatisés grâce à Agentforce.",
         "bgColor": "#CCF7F5"
       },
       {
@@ -549,7 +580,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/unified.webp",
         "mobImg": "/images/products/mediyana/mobile/unified.webp",
-        "imgAlt": "",
+        "imgAlt": "Graphique représentant une plateforme de données unifiée pour les prestataires, payeurs, essais et patients.",
         "bgColor": "#C6E7FF"
       },
       {
@@ -567,7 +598,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/seamless.webp",
         "mobImg": "/images/products/mediyana/mobile/seamless.webp",
-        "imgAlt": "",
+        "imgAlt": "Image montrant l’intégration pilotée par API entre les systèmes EHR, CRM et ERP avec conformité FHIR et HL7.",
         "bgColor": "#EDEDED"
       },
       {
@@ -585,7 +616,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/real.webp",
         "mobImg": "/images/products/mediyana/mobile/real.webp",
-        "imgAlt": "",
+        "imgAlt": "Visuel de chat intelligent conforme à la HIPAA pour la communication entre patients et personnel.",
         "bgColor": "#CCF7F5"
       },
       {
@@ -603,7 +634,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/order.webp",
         "mobImg": "/images/products/mediyana/mobile/order.webp",
-        "imgAlt": "",
+        "imgAlt": "Image montrant la visibilité des stocks en temps réel et l’intégration SAP pour la logistique hospitalière.",
         "bgColor": "#C6E7FF"
       },
       {
@@ -623,7 +654,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/trusted.webp",
         "mobImg": "/images/products/mediyana/mobile/trusted.webp",
-        "imgAlt": "",
+        "imgAlt": "Image montrant des outils numériques pour surveiller l’adhésion du patient aux thérapies prescrites.",
         "bgColor": "#EDEDED"
       }
     ],
