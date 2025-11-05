@@ -1009,6 +1009,7 @@
         "improveData3": "Nuestros expertos en tecnología y farmacia te guían para simplificar la integración de la IA en tus flujos de trabajo, mejorando la investigación, optimizando la producción y facilitando estrategias respaldadas por datos. Ya sea mejorando I+D, optimizando la manufactura o fortaleciendo el compromiso del cliente, aseguran una transición fluida hacia operaciones impulsadas por IA."
     },
     "howDoesSapAribaStreamline": {
+        "bannerAlt":"Cables de fibra óptica azules con flujos de datos brillantes representando conectividad de red de alta velocidad e infraestructura digital",
         "seoTitle": "SAP Ariba Compras: Eficiencia Directa e Indirecta",
         "seoDescription": "SAP Ariba digitaliza todo el proceso de compras, desde la selección al pago, mejorando ahorros, velocidad y control en adquisiciones.",
         "blogTopic": "SAP",
@@ -1086,6 +1087,7 @@
         "integrateDesc3": "Rialtes ofrece una variedad de servicios, incluyendo consultoría, implementación y soporte. Te ayudamos a reinventar tus operaciones de compras y mejorar la toma de decisiones a través de soluciones SAP Ariba."
     },
     "howSapSuccessFactorIntegration": {
+        "bannerAlt":"Arquitectura de red digital azul abstracta con cubos geométricos transparentes y flujos de datos representando infraestructura de nube",
         "seoTitle": "Integración de SAP SuccessFactors: Mejora RRHH y Nómina",
         "seoDescription": "Las integraciones de SAP SuccessFactors mejoran RRHH y nómina, aumentando eficiencia, precisión y cumplimiento global y local.",
         "blogTopic": "SAP SucessFactors",
@@ -1246,6 +1248,7 @@
         "overcomeLink": "soluciones de integración SAP SuccessFactors."
     },
     "redefiningBlog": {
+        "bannerAlt":"Árbol digital azul y cian brillante con líneas conectadas fluyentes y puntos de luz sobre fondo azul oscuro mostrando red de datos",
         "seoTitle": "SAP Joule AI: Impulsando el Futuro Empresarial",
         "seoDescription": "SAP Joule AI transforma operaciones, permitiendo decisiones rápidas y respuestas instantáneas sin navegar paneles complejos.",
         "blogTopic": "SAP",
@@ -1359,7 +1362,9 @@
         "shiftFromLink3": "SAP Ariba"
     },
     "sapDataCloud": {
-        "sapImage": "/images/blog/sap-spanish-diagram.webp",
+        "bannerAlt":"Ola oceánica azul con superposición de cuadrícula digital y puntos de conexión brillantes representando flujo de datos y transformación",
+        "sapImage": "/images/blog/sap-business-data-cloud-technical-architecture-diagram.png",
+        "sapAlt":"Diagrama mostrando SAP Business Data Cloud como centro conectado a seis componentes incluyendo bases de datos, analítica y asistente IA",
         "seoTitle": "¿Qué es BDC en SAP? Transforma con Business Data Cloud",
         "seoDescription": "SAP BDC simplifica la integración de datos con acceso en tiempo real y confiable, impulsando decisiones basadas en IA y transformación empresarial.",
         "blogs": [
@@ -1474,6 +1479,7 @@
         "acceleratesDesc3": "para explorar su impacto potencial en tu organización."
     },
     "powerfulFeatures": {
+        "bannerAlt":"Robot chatbot de IA azul con ojos brillantes apuntando hacia arriba representando inteligencia artificial y automatización",
         "seoTitle": "Funciones Clave que Hacen de Agentforce un Cambio Total",
         "seoDescription": "Las funciones de Agentforce resuelven brechas de CX con enrutamiento inteligente, casos con IA y tableros de rendimiento para mejores decisiones.",
         "blogTopic": "Salesforce Agentforce",
@@ -1617,6 +1623,7 @@
         "transitionDesc2": "Rialtes permite a las empresas integrar agentes personalizados de Agentforce en sus plataformas ERP, automatizando tareas y optimizando flujos de trabajo. Usando aprendizaje automático y procesamiento de lenguaje natural, alineamos los agentes con los objetivos organizacionales para una automatización inteligente efectiva. Ponte en contacto con nosotros en "
     },
     "howSuccessFactorEnhances": {
+        "bannerAlt":"Profesional escribiendo en portátil con patrón de ondas digitales representando trabajo remoto y productividad tecnológica",
         "seoTitle": "Guía de SAP SuccessFactors para Equipos Remotos",
         "seoDescription": "¿Dificultades con equipos remotos? SAP SuccessFactors ofrece herramientas para aumentar compromiso, seguimiento y colaboración fluida.",
         "blogTopic": "SAP SuccessFactors",
@@ -1775,6 +1782,7 @@
         "manageDesc3": "para una consulta sobre las funciones, beneficios e implementación de SAP SuccessFactors."
     },
     "agentForceAgents": {
+        "bannerAlt":"Mano robótica brillante sobre teclado de portátil representando automatización de IA y transformación digital",
         "blogTopic": "Salesforce Agentforce",
         "seoTitle": "Escala el Futuro del ERP con IA",
         "seoDescription": "Con Salesforce AI, Agentforce automatiza tareas de ERP, ofrece información en tiempo real y asegura colaboración fluida para sistemas escalables.",
@@ -1838,6 +1846,7 @@
         "futureDesc3": "Rialtes permite a las empresas integrar agentes personalizados de Agentforce en sus plataformas ERP específicas, automatizando tareas repetitivas y optimizando flujos de trabajo. Utilizando aprendizaje automático y procesamiento de lenguaje natural, garantizamos que estos agentes se alineen con los objetivos organizacionales. Las empresas pueden asegurarse de que sus implementaciones de Agentforce aprovechen datos confiables para una automatización inteligente. Contáctanos en"
     },
     "meetTeammate": {
+        "bannerAlt":"Interfaz digital de agente de IA iluminada en azul con circuitos futuristas y patrones de datos",
         "seoTitle": "Cómo Potenciar Slack con Agentforce",
         "seoDescription": "Agentforce convierte Slack en un centro más inteligente, combinando mensajería en tiempo real y agentes de IA para optimizar solicitudes y colaboración.",
         "blogTopic": "Salesforce Agentforce",
@@ -1937,6 +1946,7 @@
         "collaborateDesc3": "estén impulsadas por datos confiables y accionables, maximizando el potencial de la automatización inteligente. Contáctanos en"
     },
     "integrateSapSuccessFactor": {
+        "bannerAlt" : "Patrón abstracto de puntos semitono azul y naranja creando diseño de onda sobre fondo azul marino",
         "seoTitle": "Cómo Integrar SAP con Office 365 para Mejorar RRHH",
         "seoDescription": "La integración de SAP con Office 365 simplifica procesos de RRHH, automatiza flujos y fomenta la colaboración entre aplicaciones.",
         "blogTopic": "SAP SuccessFactors",
@@ -2069,6 +2079,7 @@
         "completeDesc4": "para comenzar con uno de nuestros consultores expertos en SAP SuccessFactors."
     },
     "enhancingCompliance": {
+        "bannerAlt" : "Mapa mundial 3D con líneas de conexión iluminadas mostrando conectividad de red global y flujo de datos",
         "seoTitle": "SAP GTS: Cumplimiento con Listas de Partes Sancionadas",
         "seoDescription": "Reduce riesgos con SAP GTS evitando tratos con partes prohibidas. Mantén el cumplimiento normativo y evita sanciones legales.",
         "blogTopic": "SAP GTS",
@@ -2166,6 +2177,7 @@
         "complyDesc3": "con amplia experiencia en comercio global y gestión de riesgos, ayudamos a las empresas a navegar estos procesos de forma eficiente, ofreciendo el máximo valor y retorno de la inversión. Nuestros consultores SAP cuentan con las habilidades y la experiencia para abordar sus necesidades críticas mientras capacitan a sus equipos internos para una mejora e innovación continuas."
     },
     "agentforceTesting": {
+        "bannerAlt" : "Engranajes digitales azules y nodos de red representando automatización industrial y tecnología blockchain",
         "seoTitle": "Centro de Pruebas Agentforce: Evalúa Agentes de IA",
         "seoDescription": "El Centro de Pruebas de Agentforce ayuda a las empresas a evaluar agentes de IA antes de su implementación en producción. Conoce más aquí.",
         "blogTopic": "Salesforce Agentforce",
@@ -2228,6 +2240,7 @@
         "whyDesc4": "o necesitas ayuda para comenzar? Estamos aquí para ayudarte. En Rialtes, nos especializamos en pruebas de IA y hemos ayudado a clientes a lograr mejoras significativas en productividad aprovechando herramientas de IA para optimizar sus procesos empresariales."
     },
     "successfactorSupportsDiversity": {
+        "bannerAlt" : "Piezas de rompecabezas coloridas con íconos de diversidad mostrando personas y símbolos de silla de ruedas",
         "seoTitle": "Diversidad e Inclusión con SuccessFactors: Equidad Laboral",
         "seoDescription": "Descubre cómo SAP SuccessFactors impulsa contrataciones justas, desempeño inclusivo y mayor compromiso. Aprende más con Rialtes.",
         "bloTopic": "Diversidad e Inclusión",
@@ -2281,6 +2294,7 @@
         "hrSystemDesc3": " Contáctanos hoy en"
     },
     "automateCrucial": {
+        "bannerAlt" : "Trabajadora de salud en uniforme azul y mascarilla usando tableta en instalación médica moderna",
         "seoTitle": "Integración Athenahealth y Salesforce: Mejor Atención",
         "seoDescription": "Integrar Athenahealth con Salesforce ofrece una visión integral de pacientes y datos, optimizando toda la experiencia en el sector salud.",
         "blogTopic": "Integración",
@@ -2367,6 +2381,7 @@
         "findDesc4": ", está dedicada a aprovechar todo el potencial de Salesforce proporcionando experiencias de usuario excepcionales a nuestros clientes."
     },
     "successFactorPerformance": {
+        "bannerAlt" : "Mano dibujando círculo objetivo con pluma sobre superficie azul claro representando establecimiento de metas",
         "seoTitle": "Consejos de SuccessFactors para Desempeño y Metas",
         "seoDescription": "La gestión de desempeño y metas en SuccessFactors impulsa el compromiso y la alineación. Contacta a Rialtes para asesoría experta.",
         "blogTopic": "SAP SuccessFactors",
@@ -2737,6 +2752,7 @@
         ]
     },
     "brainBehind": {
+        "bannerAlt" : "Ilustración cerebro circuito digital con conexiones brillantes sobre fondo azul oscuro mostrando concepto IA",
         "seoTitle": "¿Cómo Funciona el Motor de Razonamiento en Agentforce?",
         "seoDescription": "Conoce cómo el motor de razonamiento de Agentforce optimiza el soporte y mejora la calidad del servicio para experiencias más satisfactorias.",
         "blogTopic": "Salesforce Agentforce",
@@ -2797,6 +2813,7 @@
         "gameDesc2": "A medida que las empresas priorizan la satisfacción del cliente, herramientas como Atlas sin duda desempeñarán un papel fundamental en la configuración del futuro de la experiencia del cliente. Podemos esperar una mayor integración con otros productos de Salesforce, capacidades de IA más sofisticadas e incluso funciones de análisis predictivo más profundas en un futuro próximo. Rialtes te ayuda a desarrollar, personalizar y desplegar agentes de IA autónomos para tareas relacionadas con ventas, marketing, servicio y comercio electrónico con la plataforma Agentforce. Ponte en contacto con nuestros expertos."
     },
     "howSalesforceAgentforceWorks": {
+        "bannerAlt" : "Robot blanco futurista con ojos azules brillantes e iluminación rosa mostrando pantallas de interfaz digital",
         "seoTitle": "¿Cómo Funciona Salesforce Agentforce?",
         "seoDescription": "Descubre cómo Agentforce mejora la experiencia del cliente y optimiza operaciones. Contacta con Rialtes y comienza tu camino con la IA hoy.",
         "blogTopic": "Salesforce Agentforce",
@@ -2858,6 +2875,7 @@
         "gettingDesc3": "y hemos ayudado a los clientes a lograr importantes incrementos de productividad mediante el uso de herramientas basadas en IA para mejorar sus procesos empresariales."
     },
     "agriculture": {
+        "bannerAlt" : "Dron profesional con cámara flotando sobre campo agrícola verde para fotografía aérea y monitoreo",
         "seoTitle": "Salesforce para Agricultura: Revolución Digital",
         "seoDescription": "Descubre cómo Salesforce impulsa la agricultura digital, aumentando eficiencia e innovación hacia un futuro sostenible en la Agricultura 4.0.",
         "blogTopic": "Tecnología Verde",
@@ -4541,6 +4559,7 @@
         "faqTitle": "FAQs: Migración de SAP PI/PO a SAP CPI"
     },
     "s4HanaSapALM": {
+        "bannerAlt":"Montaña digital abstracta formada por ondas de luz azul rosa y púrpura fluyentes con puntos de partículas sobre fondo oscuro mostrando flujo datos",
         "seoTitle": "SAP Signavio y Cloud ALM: Nueva Transformación S/4HANA",
         "seoDescription": "Unir SAP Signavio con Cloud ALM crea gobierno, trazabilidad y ejecución basada en KPIs para transformar S/4HANA con éxito.",
         "mainData": [

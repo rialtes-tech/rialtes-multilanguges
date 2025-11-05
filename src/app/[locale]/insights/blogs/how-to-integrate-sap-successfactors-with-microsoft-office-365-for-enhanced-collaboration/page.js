@@ -22,7 +22,7 @@ const schemaData = {
   },
   "headline": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
   "description": "Learn how to streamline workflows and boost HR team productivity by integrating SAP SuccessFactors with Microsoft Office 365 tools like Outlook and Teams.",
-  "image": "https://www.rialtes.com/images/blog/successfactors-office365-integration.webp",
+  "image": "https://www.rialtes.com/images/blog/blue-orange-halftone-wave-pattern-abstract.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes",
@@ -66,8 +66,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/successfactors-office365-integration.webp"
-            alt="banner"
+            src="/images/blog/blue-orange-halftone-wave-pattern-abstract.webp"
+            alt={t("bannerAlt")}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -78,8 +78,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden h-full">
           <Image
-            src="/images/blog/successfactors-office365-integration.webp"
-            alt="banner"
+            src="/images/blog/blue-orange-halftone-wave-pattern-abstract-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

@@ -27,7 +27,7 @@ const schemaData = {
   description:
     "Agentforce for automotive brings intelligent automation to factory floors—delivering real-time visibility, predictive quality, and scalable AI-driven operations across automotive manufacturing.",
   image:
-    "https://www.rialtes.com/images/blog/agentforce-3.0-desktop-banner.webp",
+    "https://www.rialtes.com/images/blog/automotive-manufacturing-engineer-quality-control.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

@@ -25,7 +25,7 @@ const schemaData = {
   description:
     "See how integrating Athenahealth with Salesforce enhances healthcare operations—improving patient data access, workflows, and care coordination.",
   image:
-    "https://www.rialtes.com/images/blog/athenahealth-salesforce-integration.webp",
+    "https://www.rialtes.com/images/blog/healthcare-worker-digital-tablet-medical-technology.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -72,8 +72,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/athenahealth-salesforce-integration.webp"
-            alt="banner"
+            src="/images/blog/healthcare-worker-digital-tablet-medical-technology.webp"
+            alt={t("bannerAlt")}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -84,8 +84,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden h-full">
           <Image
-            src="/images/blog/athenahealth-salesforce-integration.webp"
-            alt="banner"
+            src="/images/blog/healthcare-worker-digital-tablet-medical-technology-mobile.webp"
+            alt={t("bannerAlt")}
             priority
             height={0}
             width={0}

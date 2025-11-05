@@ -22,7 +22,7 @@ const schemaData = {
   description:
     "AI for patient engagement simplifies remote care by delivering real-time insights, smart escalations, and personalized healthcare experiences.",
   image:
-    "https://www.rialtes.com/images/blog/ai-in-patient-desktop-banner.webp",
+    "https://www.rialtes.com/images/blog/futuristic-medical-technology-innovation.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
