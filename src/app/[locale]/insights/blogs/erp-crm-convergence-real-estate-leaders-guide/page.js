@@ -314,11 +314,12 @@ export default function Page() {
                                                         data.numberList.map((elem, ind) => {
                                                             return (
                                                                 <div key={ind}>
-                                                                    <h3 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight font-bold text-[#006FBE]">{elem.number}</h3>
-                                                                    <p
-                                                                        className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] 4xl:w-[65%] font-semibold`}
-                                                                        dangerouslySetInnerHTML={{ __html: elem.desc }}
-                                                                    />
+                                                                    <h3 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight font-bold text-[#006FBE]">{elem.number}{" "}
+                                                                        <p
+                                                                            className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] 4xl:w-[65%] font-semibold text-black`}
+                                                                            dangerouslySetInnerHTML={{ __html: elem.desc }}
+                                                                        />
+                                                                    </h3>
                                                                 </div>
                                                             )
                                                         })
