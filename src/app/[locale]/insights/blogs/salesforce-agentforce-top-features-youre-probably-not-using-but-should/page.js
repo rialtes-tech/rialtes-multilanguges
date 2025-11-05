@@ -21,7 +21,7 @@ const schemaData = {
   },
   "headline": "Salesforce Agentforce Top Features You’re Probably Not Using but Should",
   "description": "Uncover the hidden gems of Salesforce Agentforce, including AI-powered routing, custom dashboards, and real-time analytics to boost your support operations.",
-  "image": "https://www.rialtes.com/images/blog/salesforce-agentforce-features.webp",
+  "image": "https://www.rialtes.com/images/blog/ai-chatbot-robot-customer-service-automation.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes",
@@ -67,8 +67,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/salesforce-agentforce-features.webp"
-            alt="banner"
+            src="/images/blog/ai-chatbot-robot-customer-service-automation.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -79,8 +79,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden h-full">
           <Image
-            src="/images/blog/salesforce-agentforce-features.webp"
-            alt="banner"
+            src="/images/blog/ai-chatbot-robot-customer-service-automation.webp"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}

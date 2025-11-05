@@ -26,7 +26,7 @@ const schemaData = {
     "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
   description:
     "Explore how SAP Business Data Cloud provides a unified, intelligent data platform that accelerates AI initiatives and drives business transformation.",
-  image: "https://www.rialtes.com/images/blog/sap-business-data-cloud.webp",
+  image: "https://www.rialtes.com/images/blog/digital-wave-data-flow-transformation-visualization.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -78,8 +78,8 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
         <div className="hidden xl:block">
           <Image
-            src="/images/blog/sap-business-data-cloud.webp"
-            alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
+            src="/images/blog/digital-wave-data-flow-transformation-visualization.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "50% 20%" }}
             priority
@@ -87,8 +87,8 @@ export default function Page() {
         </div>
         <div className="block xl:hidden">
           <Image
-            src="/images/blog/SAP Business cloud_Carousal.webp"
-            alt="Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
+            src="/images/blog/digital-wave-data-flow-transformation-visualization-carousel.webp"
+            alt={t('bannerAlt')}
             height={0}
             width={0}
             className="w-full h-auto object-cover"
@@ -136,7 +136,7 @@ export default function Page() {
                 </p>
                 <Image
                   src={t('sapImage')}
-                  alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
+                  alt={t('sapAlt')}
                   fill
                   priority
                   className="!w-full !h-full !relative"

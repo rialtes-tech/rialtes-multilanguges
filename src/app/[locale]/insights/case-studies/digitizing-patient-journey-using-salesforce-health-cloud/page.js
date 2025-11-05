@@ -24,7 +24,7 @@ const schemaData = {
     "Case Study: Digitizing Patient Journey Using Salesforce Health Cloud",
   description:
     "Discover how Rialtes transformed patient engagement by digitizing the entire care journey using Salesforce Health Cloud—enhancing experience, coordination, and outcomes.",
-  image: "https://www.rialtes.com/images/case-studies/case-study-7.webp",
+  image: "https://www.rialtes.com/images/case-studies/doctor-patient-consultation.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -74,8 +74,7 @@ export default function Page() {
         </div>
         <div className="xl:hidden block h-full">
           <Image
-            src="/images/case-studies/doctor-patient-consultation-mobile
-            .webp"
+            src="/images/case-studies/doctor-patient-consultation-mobile.webp"
             alt={t('bannerAlt')}
             priority
             height={0}

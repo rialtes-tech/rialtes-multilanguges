@@ -22,7 +22,7 @@ const schemaData = {
   },
   "headline": "How SAP SuccessFactors Enhances Remote Work Management",
   "description": "Learn how SAP SuccessFactors supports remote workforce management with tools for engagement, performance tracking, and seamless collaboration.",
-  "image": "https://www.rialtes.com/images/blog/successfactors-remote-work.webp",
+  "image": "https://www.rialtes.com/images/blog/remote-work-laptop-productivity-technology.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes",
@@ -67,8 +67,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/successfactors-remote-work.webp"
-            alt="banner"
+            src="/images/blog/remote-work-laptop-productivity-technology.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -79,8 +79,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden h-full">
           <Image
-            src="/images/blog/successfactors-remote-work.webp"
-            alt="banner"
+            src="/images/blog/remote-work-laptop-productivity-technology.webp"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}
