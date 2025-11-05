@@ -108,7 +108,7 @@ export default function Page() {
     const unifiedData = [
         {
             "title": "How Unified Systems Solve These Challenges",
-            "desc": "A <span>scalable real estate platform integration</span> replaces all those moving parts with a single ecosystem.",
+            "desc": "A <a href='https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>scalable real estate platform integration</a> replaces all those moving parts with a single ecosystem.",
             "desc2": "Imagine this workflow:",
             "list": [
                 "A lease is approved in CRM.",
@@ -159,7 +159,7 @@ export default function Page() {
                 "Which properties are underperforming on rent collection?",
                 "Where are maintenance costs trending highest?",
             ],
-            "desc2": "With centralized leasing and finance data, decision-makers no longer rely on week-old reports or manual reconciliations."
+            "desc2": "With <a href='https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>centralized leasing and finance data</a>, decision-makers no longer rely on week-old reports or manual reconciliations."
         },
         {
             "title": "Cost Efficiency and IT Simplification",
@@ -514,11 +514,12 @@ export default function Page() {
                                                         data.numberList.map((elem, ind) => {
                                                             return (
                                                                 <div key={ind}>
-                                                                    <h3 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight font-bold text-[#006FBE]">{elem.number}</h3>
-                                                                    <p
-                                                                        className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] 4xl:w-[65%] font-semibold`}
-                                                                        dangerouslySetInnerHTML={{ __html: elem.desc }}
-                                                                    />
+                                                                    <h3 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight font-bold text-[#006FBE]">{elem.number}{" "}
+                                                                        <p
+                                                                            className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] 4xl:w-[65%] font-semibold text-black`}
+                                                                            dangerouslySetInnerHTML={{ __html: elem.desc }}
+                                                                        />
+                                                                    </h3>
                                                                 </div>
                                                             )
                                                         })
