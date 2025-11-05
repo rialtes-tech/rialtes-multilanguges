@@ -35,7 +35,7 @@ const latestBlogs = [
     category: "Exelona",
     industry: "Generic",
     date: "Nov. 04, 2025",
-    url: "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
+    url: "/what-does-a-single-source-of-truth-mean-for-real-estate/",
     title: "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
     description: "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
   },
@@ -55,12 +55,10 @@ const latestBlogs = [
     category: "Exelona",
     industry: "Real Estate",
     date: "Oct. 31, 2025",
-    url: "/open-api-integrations-every-growing-real-estate/",
-    title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
+    url: "/smart-api-integrations-for-real-estate-2026/",
+    title: "5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
     description: "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. "
   },
-
- 
 
   {
     "id": 49,
@@ -72,7 +70,7 @@ const latestBlogs = [
     "title": "How Do You Track SLAs and Billing Without Losing Your Mind?",
     "description": " A service-level agreement (SLA) outlines the expected level of service from a vendor. It specifies the metrics used to measure that service and the remedies available if the agreed-upon service levels are not met."
   },
-   {
+  {
     id: 48,
     image: "/images/blog/conversational-ai-in-real-estate-mobile.webp",
     category: "Exelona",

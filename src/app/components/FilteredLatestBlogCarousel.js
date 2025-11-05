@@ -12,7 +12,7 @@ export default function page({ url }) {
             category: "Exelona",
             industry: "Generic",
             date: "Nov. 04, 2025",
-            url: "insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
+            url: "insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/",
             title: "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
             description: "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
         },
@@ -32,7 +32,7 @@ export default function page({ url }) {
             category: "Exelona",
             industry: "Real Estate",
             date: "Oct. 31, 2025",
-            url: "insights/blogs/open-api-integrations-every-growing-real-estate/",
+            url: "insights/blogs/smart-api-integrations-for-real-estate-2026/",
             title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
             description: "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. "
         },
@@ -197,7 +197,7 @@ export default function page({ url }) {
                     renderDotsOutside={true}
                     customDot={<CustomDot />}
                 >
-                    {filteredBlogs.map((slide) => (
+                    {filteredBlogs.slice(0, 9).map((slide) => (
                         <div
                             key={slide.id}
                             className="flex flex-col sm:basis-1/4 border border-[#707070] sm:mr-6 mb-4 sm:h-[580px] md:h-full h-full lg:h-[600px] group"

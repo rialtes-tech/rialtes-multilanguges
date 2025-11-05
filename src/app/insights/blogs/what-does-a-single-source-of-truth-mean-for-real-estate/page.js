@@ -6,8 +6,6 @@ import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 import BlogSocialIcons from '@/app/components/blogSocialIcons'
-import Link from "next/link";
-import { ChevronDown, ChevronRight } from "lucide-react";
 
 
 export default function Page() {
@@ -16,9 +14,9 @@ export default function Page() {
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "Digital Patient Journeys: AI Reshaping Life Sciences | Rialtes",
-        "description": "Digital patient journeys, powered by AI in life sciences, are making this possible, ensuring patients feel heard, supported, and cared for every step.",
-        "image": "https://www.rialtes.com/images/blog/digital-patient-journeys.webp",
+        "headline": "From Lead to Lease: Why Real Estate Needs a Single Source of Truth | Rialtes",
+        "description": "Learn how a Single Source of Truth (SSOT) unifies CRM and ERP to eliminate data silos across leasing, finance, and operations—speeding reporting, improving compliance, and enabling AI-driven decisions for property management.",
+        "image": "https://www.rialtes.com/images/blog/single-source-of-truth-real-estate-lead-to-lease.webp",
         "author": {
             "@type": "Organization",
             "name": "Rialtes"
@@ -33,51 +31,59 @@ export default function Page() {
         },
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare -life-sciences/"
+            "@id": "https://rialtes.netlify.app/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/"
         },
-        "datePublished": "2025-09-30",
+        "datePublished": "2025-11-04",
         "mainEntity": {
             "@type": "FAQPage",
-            "name": "Digital Patient Journeys in Life Sciences FAQs",
+            "name": "Single Source of Truth (SSOT) in Real Estate — FAQs",
             "mainEntity": [
                 {
                     "@type": "Question",
-                    "name": "What is a digital patient journey in healthcare?",
+                    "name": "What does ‘single source of truth’ mean in real estate operations?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "A digital patient journey is the end-to-end experience a patient has with a healthcare provider, supported by digital platforms. It integrates scheduling, consultations, records, insurance, and follow-ups into a unified pathway."
+                        "text": "It means using one centralized system that connects leasing, finance, and operational data so every team works from the same verified, real-time information instead of multiple conflicting copies."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "How is AI reshaping patient journeys in life sciences?",
+                    "name": "How does CRM + ERP convergence improve efficiency?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "AI enables predictive healthcare, personalized care pathways, virtual assistants, and operational automation. In life sciences, it improves clinical trials, supports precision medicine, and enhances patient engagement at scale."
+                        "text": "By integrating lead management, leasing, billing, and reporting, convergence eliminates duplicate data entry and manual reconciliations. Lease details flow into billing automatically, operations see occupancy and service needs instantly, and finance receives real-time payment updates."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Why should healthcare providers and life sciences companies invest in digital patient journeys now?",
+                    "name": "Why do property managers need a single source of truth?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Because patient expectations are changing fast. Adopting digital platforms ensures better engagement, improved outcomes, compliance with regulations, and a competitive advantage in healthcare."
+                        "text": "Fragmented systems slow decisions, create errors, and hide insights. SSOT ensures consistent, traceable records across departments, improving tenant experience and reducing revenue leakage from missed billing or delays."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "How does MediAIna help with digital patient journeys?",
+                    "name": "Can AI help maintain a single source of truth in real estate?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "MediAIna is Rialtes’ AI-powered platform that connects patients and providers across every touchpoint. It offers end-to-end journeys, AI-powered care pathways, and compliance-first design—delivering smarter, patient-centric experiences."
+                        "text": "Yes. AI detects inconsistencies between lease and billing data, flags duplicates, forecasts maintenance costs, and automates validation—keeping records accurate and enabling proactive decision-making."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What role does Rialtes play in enabling healthcare transformation?",
+                    "name": "How does centralizing leasing and finance data improve reporting?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Rialtes is a technology provider and transformation partner. With expertise in AI, cloud, and healthcare platforms, Rialtes helps organizations implement MediAIna, integrate with existing systems, and scale digital patient journeys."
+                        "text": "Unified data enables instant, accurate, audit-ready reporting without manual consolidation, significantly reducing compliance and month-end reporting cycles."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What makes Exelona different from other property management tools?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Exelona unifies CRM and ERP for real estate, centralizing leases, tenants, and payments; embedding AI-driven operations and predictive maintenance; integrating with platforms like Yardi or Oracle; and providing mobile-first experiences and automated, audit-ready insights."
                     }
                 }
             ]
@@ -125,7 +131,7 @@ export default function Page() {
         {
             "title": "CRM + ERP Convergence: The Foundation of a Single Source of Truth",
             "desc": "So how do you fix it?",
-            "desc1": "The real answer lies in the <a href='https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergence of CRM and ERP systems</a> , the two biggest data engines in your operations.",
+            "desc1": "The real answer lies in the <a href='https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergence of CRM and ERP systems</a> , the two biggest data engines in your operations.",
             "list": [
                 {
                     "title": "CRM (Customer Relationship Management ",
@@ -140,7 +146,12 @@ export default function Page() {
             "desc2": "When these systems operate in silos, critical information like lease terms, payment schedules, and maintenance costs gets lost or duplicated.",
             "desc3": "But when they’re integrated, they form a continuous data flow:"
         },
+
+    ]
+    const crmDataList2 = [
         {
+
+
             "list": [
                 {
                     "desc": "A lead enters the CRM through a website inquiry",
@@ -204,43 +215,6 @@ export default function Page() {
         },
 
     ]
-
-    const steps = [
-        {
-            title: "A lead fills out a form",
-            subtitle: "Enters CRM",
-        },
-        {
-            title: "Lease is approved",
-            subtitle: "Details re-entered manually into ERP",
-        },
-        {
-            title: "Maintenance tickets logged separately",
-            subtitle: "Emailed weekly to operations",
-        },
-        {
-            title: "Finance team spends two days reconciling monthly invoices",
-            subtitle: "",
-        },
-    ];
-    const steps2 = [
-        {
-            title: "The lead enters CRM",
-            subtitle: "Automatically creates a prospect record linked to ERP",
-        },
-        {
-            title: "When the lease is signed",
-            subtitle: "Billing and accounting update instantly",
-        },
-        {
-            title: "",
-            subtitle: "Any maintenance activity or SLA breach syncs directly to both leasing and finance dashboards",
-        },
-        {
-            title: "",
-            subtitle: "Reports and KPIs update in real time",
-        },
-    ];
 
     const fromDataChaos = [
         {
@@ -314,10 +288,10 @@ export default function Page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Digital Patient Journeys: The Future of AI Healthcare | Rialtes"
-                description=" The future of healthcare is digital patient journeys—AI-driven, predictive, and personalized pathways that empower patients and providers alike."
+                title="End Data Chaos: Single Source of Truth for Real Estate | Rialtes"
+                description="A Single Source of Truth transforms how real estate teams work, plan, and grow. It connects CRM and ERP systems, breaks down silos, and gives you clarity."
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/"
+                    "https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/"
                 }
             />
 
@@ -331,7 +305,7 @@ export default function Page() {
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/blog/exelona-cluster-banner.webp"
+                        src="/images/blog/single-source-of-truth-real-estate-lead-to-lease.webp"
                         alt="banner image"
                         fill
                         priority
@@ -358,7 +332,7 @@ export default function Page() {
                         <div className="sm:flex justify-between">
                             <div>
                                 <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Exelona</span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>03 November 2025
+                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>04 November 2025
                             </div>
 
                             <div>
@@ -411,7 +385,7 @@ export default function Page() {
                                                 <div key={ind} className="md:mt-[50px] mt-[40px]">
                                                     <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                                     <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
-                                                    <h3 className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.listTitle}</h3>
+                                                    <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.listTitle}</p>
 
                                                     <ul className="list-disc pl-[36px] font-medium mt-4 space-y-2">
                                                         {
@@ -442,9 +416,9 @@ export default function Page() {
                                             return (
                                                 <div key={ind} className="md:mt-[50px] mt-[40px]">
                                                     <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
-                                                    <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
+                                                    <p className="mt-[22px] xl:mt-[10px] 2xl:mt-2 4xl:mt-[10px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
                                                     <p
-                                                        className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                        className="mt-[22px] xl:mt-[10px] 2xl:mt-2 4xl:mt-[10px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                         dangerouslySetInnerHTML={{ __html: data.desc1 }}
                                                     />
                                                     <ul className="list-disc pl-[36px] font-medium mt-4 space-y-2">
@@ -470,6 +444,36 @@ export default function Page() {
                                     }
 
                                 </>
+                                <>
+                                    {
+                                        crmDataList2.map((data, ind) => {
+                                            return (
+                                                <div key={ind}>
+                                                    <ul className="list-disc pl-[36px] font-medium mt-4 space-y-2">
+                                                        {
+                                                            data.list.map((elem, id) => {
+                                                                return (
+                                                                    <li key={id} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"><p className="inline font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" >{elem.title} {ind == 0}</p>{elem.desc}</li>
+                                                                )
+                                                            })
+                                                        }
+                                                    </ul>
+
+                                                    <p
+                                                        className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                        dangerouslySetInnerHTML={{ __html: data.desc2 }}
+                                                    />
+                                                    <p
+                                                        className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                        dangerouslySetInnerHTML={{ __html: data.desc3 }}
+                                                    />
+                                                </div>
+
+                                            )
+                                        })
+                                    }
+
+                                </>
 
                                 <>
                                     {
@@ -477,24 +481,16 @@ export default function Page() {
                                             return (
                                                 <div key={ind} className="md:mt-[50px] mt-[40px]">
                                                     <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
-                                                    <ul className="list-disc pl-[36px] font-medium mt-4 space-y-4">
+                                                    <ul className="list-disc xl:pl-[36px] md:pl-[36px] font-medium mt-4 space-y-4">
                                                         {data.list.map((elem, id) => (
-                                                            <li key={id} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                                                {/* Title in one line */}
-                                                                <h4 className="font-bold mb-1 block 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                                            <li key={id} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-none">
+                                                                <h3 className="font-bold mb-1 block 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]">
                                                                     {elem.title}
-                                                                </h4>
+                                                                </h3>
 
-                                                                {/* Description: each sentence on a new line */}
-                                                                <p className="leading-relaxed text-gray-800">
-                                                                    {elem.desc
-                                                                        .split('.')
-                                                                        .filter(sentence => sentence.trim() !== '')
-                                                                        .map((sentence, index) => (
-                                                                            <span key={index} className="block">
-                                                                                {sentence.trim()}.
-                                                                            </span>
-                                                                        ))}
+                                                                <p className="leading-relaxed xl:pl-8 md:pl-8 text-gray-800 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                                                    {elem.desc}
+
                                                                 </p>
                                                             </li>
                                                         ))}
@@ -528,87 +524,177 @@ export default function Page() {
                                 </>
 
 
-                                <div className="flex flex-col md:flex-row justify-center border border-gray-300 rounded-md overflow-hidden max-w-6xl mx-auto">
-                                    {steps.map((step, index) => (
-                                        <div
-                                            key={index}
-                                            className={`relative flex flex-col justify-center items-center text-center p-6 sm:p-8 w-full md:w-1/4 border-gray-300 
-          ${index !== steps.length - 1 ? "border-b md:border-b-0 md:border-r" : ""}`}
-                                        >
-                                            <h3 className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mb-2">
-                                                {step.title}
-                                            </h3>
-
-                                            {step.subtitle && (
-                                                <>
-                                                    <ChevronDown className="text-[#006FBE] mb-2 h-[60px] w-[50px]" size={20} />
-                                                    <p className="text-gray-700 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{step.subtitle}</p>
-                                                </>
-                                            )}
-
-                                            {/* Connector arrows */}
-                                            {index !== steps.length - 1 && (
-                                                <>
-                                                    {/* Desktop right arrow */}
-                                                    <div className="hidden md:flex absolute right-[-18px] top-1/2 -translate-y-1/2 bg-[#C9C9C9] p-1 rounded-full">
-                                                        <ChevronRight className="text-white" size={26} />
-                                                    </div>
-
-                                                    {/* Mobile down arrow */}
-                                                    <div className="flex md:hidden absolute bottom-[-18px] left-1/2 -translate-x-1/2 bg-[#C9C9C9] p-1 rounded-full">
-                                                        <ChevronDown className="text-white" size={20} />
-                                                    </div>
-                                                </>
-                                            )}
+                                <div class="flex flex-col md:flex-row justify-center  border-gray-300 border-2  overflow-hidden max-w-6xl mx-auto">
+                                    <div class="relative flex flex-col items-center text-center w-full md:w-1/4 border-b md:border-b-0 md:border-r border-gray-300">
+                                        <div class="h-[280px] flex flex-col items-center justify-start px-6 py-8">
+                                            <p class="mb-2 4xl:text-[20px] 2xl:text-[17px]  xl:text-[17px] md:text-[16px] text-[16px]">A lead fills out </p>
+                                            <p className="mb-2 4xl:text-[20px] 2xl:text-[17px]  xl:text-[17px] md:text-[16px] text-[16px]"> a form</p>
+                                            <div class="absolute 4xl:top-[110px] top-[100px] 2xl:top-[110px] xl:top-[110px] left-1/2 transform -translate-x-1/2">
+                                                <svg class="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </div>
+                                            <p class="4xl:mt-[120px] 2xl:mt-[90px] md:mt-[100px] mt-[130px] xl:mt-[90px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Enters CRM</p>
                                         </div>
-                                    ))}
-                                </div>
-                                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Now, here’s what happens when they switch to a unified SSOT platform like Exelona:</p>
-
-
-                                <div className="flex flex-col md:flex-row justify-center border border-[#6DC1FD] rounded-md overflow-hidden max-w-6xl mx-auto mt-10 bg-[#EFF8FF]">
-                                    {steps2.map((step, index) => (
-                                        <div
-                                            key={index}
-                                            className={`relative flex flex-col justify-center items-center text-center p-6 sm:p-8 w-full md:w-1/4 border-[#6DC1FD] 
-      ${index !== steps2.length - 1 ? "border-b md:border-b-0 md:border-r" : ""}`}
-                                        >
-                                            {/* Render title only if it exists */}
-                                            {step.title && (
-                                                <h3 className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mb-2">
-                                                    {step.title}
-                                                </h3>
-                                            )}
-
-                                            {/* Render ChevronDown only if title exists */}
-                                            {step.title && step.subtitle && (
-                                                <ChevronDown className="text-[#006FBE] mb-2 h-[60px] w-[50px]" size={20} />
-                                            )}
-
-                                            {/* Always show subtitle (if available) */}
-                                            {step.subtitle && (
-                                                <p className="text-gray-700 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                                    {step.subtitle}
-                                                </p>
-                                            )}
-
-                                            {/* Connector arrows */}
-                                            {index !== steps2.length - 1 && step.title && (
-                                                <>
-                                                    {/* Desktop right arrow */}
-                                                    <div className="hidden md:flex absolute right-[-18px] top-1/2 -translate-y-1/2 bg-[#C9C9C9] p-1 rounded-full">
-                                                        <ChevronRight className="text-white" size={26} />
-                                                    </div>
-
-                                                    {/* Mobile down arrow */}
-                                                    <div className="flex md:hidden absolute bottom-[-18px] left-1/2 -translate-x-1/2 bg-[#C9C9C9] p-1 rounded-full">
-                                                        <ChevronDown className="text-white" size={20} />
-                                                    </div>
-                                                </>
-                                            )}
+                                        <div class="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
+                                            <div class="bg-[#C9C9C9] p-1 rounded-full">
+                                                <svg class="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                </svg>
+                                            </div>
                                         </div>
-                                    ))}
+                                        <div class="xl:hidden block absolute md:hidden  bottom-[-35px] left-[145px] transform translate-x-1/2 -translate-y-1/2 z-10">
+                                            <div class="bg-[#C9C9C9] p-1 rounded-full">
+                                                <svg class="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="relative flex flex-col items-center text-center w-full md:w-1/4 border-b md:border-b-0 md:border-r border-gray-300">
+                                        <div class="h-[280px] flex flex-col items-center justify-start px-6 py-8">
+                                            <p class="mb-2 4xl:text-[20px]  2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Lease is approved</p>
+                                            <div class="absolute 4xl:top-[115px] top-[100px] 2xl:top-[112px] xl:top-[110px] left-1/2 transform -translate-x-1/2">
+                                                <svg class="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </div>
+                                            <p class="4xl:mt-[120px] 2xl:mt-[120px] md:mt-[100px] mt-[130px] xl:mt-[120px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Details re-entered manually into ERP</p>
+                                        </div>
+                                        <div class="md:block hidden absolute top-1/2 xl:right-0 transform translate-x-1/2 -translate-y-1/2 z-10 right-0">
+                                            <div class="bg-[#C9C9C9] p-1 rounded-full">
+                                                <svg class="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="xl:hidden block absolute md:hidden   bottom-[-35px] left-[145px] transform translate-x-1/2 -translate-y-1/2 z-10">
+                                            <div class="bg-[#C9C9C9] p-1 rounded-full">
+                                                <svg class="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="relative flex flex-col items-center text-center w-full md:w-1/4 border-b md:border-b-0 md:border-r border-gray-300">
+                                        <div class="h-[280px] flex flex-col items-center justify-start px-6 py-8">
+                                            <p class="mb-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Maintenance tickets logged separately</p>
+                                            <div class="absolute 4xl:top-[110px] top-[100px] 2xl:top-[110px] xl:top-[110px] left-1/2 transform -translate-x-1/2">
+                                                <svg class="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </div>
+                                            <p class="4xl:mt-[90px] 2xl:mt-[95px] mt-[130px] md:mt-[80px] xl:mt-[90px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Emailed weekly to operations</p>
+                                        </div>
+                                        <div class="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
+                                            <div class="bg-[#C9C9C9] p-1 rounded-full">
+                                                <svg class="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                </svg>
+                                            </div>
+
+                                        </div>
+                                        <div class="xl:hidden block absolute  md:hidden  bottom-[-35px] left-[145px] transform translate-x-1/2 -translate-y-1/2 z-10">
+                                            <div class="bg-[#C9C9C9] p-1 rounded-full">
+                                                <svg class="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="relative flex flex-col items-center text-center w-full md:w-1/4 border-gray-300">
+                                        <div class="h-[280px] flex flex-col items-center justify-center px-6 py-8">
+                                            <p class="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Finance team spends two days reconciling monthly invoices</p>
+                                        </div>
+                                    </div>
                                 </div>
+
+                                <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Now, here’s what happens when they switch to a unified SSOT platform like Exelona:</p>
+
+
+                                <div class="flex flex-col md:flex-row justify-center border border-[#6DC1FD]  overflow-hidden max-w-6xl mx-auto mt-5 bg-[#EFF8FF]">
+                                    <div class="relative flex flex-col items-center text-center w-full md:w-1/4 border-b md:border-b-0 md:border-r border-[#6DC1FD]">
+                                        <div class="h-[300px] flex flex-col items-center justify-start px-6 py-8">
+                                            <h3 class="mb-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">The lead enters CRM</h3>
+                                            <div class="absolute 4xl:top-[120px] top-[100px] md:top-[100px] 2xl:top-[120px] xl:top-[120px] left-1/2 transform -translate-x-1/2">
+                                                <svg class="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </div>
+                                            <p class="4xl:mt-[115px] xl:mt-[120px] md:mt-[80px] mt-[100px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Automatically creates a prospect record linked to ERP</p>
+                                        </div>
+                                        <div class="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
+                                            <div class="bg-[#C9C9C9] p-1 rounded-full">
+                                                <svg class="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="xl:hidden block absolute md:hidden   bottom-[-35px] left-[145px] transform translate-x-1/2 -translate-y-1/2 z-10">
+                                            <div class="bg-[#C9C9C9] p-1 rounded-full">
+                                                <svg class="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="relative flex flex-col items-center text-center w-full md:w-1/4 border-b md:border-b-0 md:border-r border-[#6DC1FD]">
+                                        <div class="h-[300px] flex flex-col items-center justify-start px-6 py-8">
+                                            <h3 class="mb-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">When the lease is signed</h3>
+                                            <div class="absolute 4xl:top-[115px] top-[100px] md:mt-[10px] 2xl:top-[110px] xl:top-[115px] left-1/2 transform -translate-x-1/2">
+                                                <svg class="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </div>
+                                            <p class="4xl:mt-[85px] 2xl:mt-[100px] mt-[100px] md:mt-[100px] xl:mt-[100px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Billing and accounting update instantly</p>
+                                        </div>
+                                        <div class="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
+                                            <div class="bg-[#C9C9C9] p-1 rounded-full">
+                                                <svg class="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="xl:hidden block absolute md:hidden   bottom-[-35px] left-[145px] transform translate-x-1/2 -translate-y-1/2 z-10">
+                                            <div class="bg-[#C9C9C9] p-1 rounded-full">
+                                                <svg class="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="relative flex flex-col items-center text-center w-full md:w-1/4 border-b md:border-b-0 md:border-r border-[#6DC1FD]">
+                                        <div class="h-[300px] flex flex-col items-center justify-center px-6 py-8">
+                                            <p class="mb-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Any maintenance activity or SLA breach Syncs directly to both leasing and finance dashboards</p>
+                                        </div>
+                                        <div class="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
+                                            <div class="bg-[#C9C9C9] p-1 rounded-full">
+                                                <svg class="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="xl:hidden block absolute md:hidden   bottom-[-35px] left-[145px] transform translate-x-1/2 -translate-y-1/2 z-10">
+                                            <div class="bg-[#C9C9C9] p-1 rounded-full">
+                                                <svg class="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="relative flex flex-col items-center text-center w-full md:w-1/4 border-[#6DC1FD]">
+                                        <div class="h-[300px] flex flex-col items-center justify-center px-6 py-8">
+                                            <h3 class="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Reports and KPIs update in real time</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
 
 
                                 <>
@@ -636,7 +722,7 @@ export default function Page() {
                                     {
                                         yourPathTitle.map((data, ind) => {
                                             return (
-                                                <div key={ind} className="md:mt-[15px] mt-[40px]">
+                                                <div key={ind} className="md:mt-[15px] mt-[10px]">
                                                     <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                                     <p
                                                         className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
@@ -655,35 +741,38 @@ export default function Page() {
 
 
                                 {
-                                    keyElemData.map((data, ind) => {
-                                        return (
+                                    <div className="">
+                                        {keyElemData.map((data, ind) => (
                                             <div
-                                                className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[46px] px-[26px] 
-                                                           md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative 
-                                                           md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto 4xl:w-[86%]"
-                                                key={ind}>
+                                                key={ind}
+                                                className="relative flex flex-col md:flex-row w-full md:w-auto flex-1 border border-[#707070] bg-white
+                 py-[34px] xl:py-[46px] px-[26px] md:pr-[54px] 4xl:pr-[30px] mt-24 md:mt-10 md:ml-[90px]
+                 sm:w-[80%] lg:w-[80%] xl:w-auto 4xl:w-[86%] min-h-[150px]"
+                                            >
+                                                {/* Title box */}
                                                 <h3
                                                     className="md:absolute md:flex items-center justify-center
-                                                                max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
-                                                                md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
-                                                                bg-[#006FBE] text-white font-semibold
-                                                                4xl:text-[24px] 2xl:text-[20px] xl:text-[20px] md:text-[20px] text-[20px]
-                                                                px-[30px] py-[22px] leading-tight
-                                                                4xl:w-[340px] xl:w-[280px] md:w-[240px] w-fit 4xl:h-[100px]">
+                   max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
+                   md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
+                   bg-[#006FBE] text-white font-semibold
+                   4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
+                   px-[30px] py-[22px] leading-tight
+                   4xl:w-[340px] xl:w-[280px] 2xl:w-[325px] md:w-[240px] w-fit 4xl:h-[100px]"
+                                                >
                                                     {data.title}
                                                 </h3>
 
+                                                {/* Description box */}
                                                 <div
-                                                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
-                                                                font-medium my-auto max-md:mt-8
-                                                                md:ml-[220px] xl:ml-[210px] 4xl:ml-[300px]"
+                                                    className="flex-grow flex items-center
+                   4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
+                   font-medium max-md:mt-8 md:ml-[220px] xl:ml-[210px] 4xl:ml-[300px] 2xl:ml-[250px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                             </div>
+                                        ))}
+                                    </div>
 
-
-                                        )
-                                    })
                                 }
 
                                 <>
