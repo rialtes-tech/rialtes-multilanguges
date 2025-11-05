@@ -24,7 +24,7 @@ const schemaData = {
     "Case Study: Driving Operational Efficiency with Yardi Managed Services",
   description:
     "Learn how Rialtes empowered a public housing authority to achieve operational excellence, ensure regulatory compliance, and streamline workflows through comprehensive Yardi managed services.",
-  image: "https://www.rialtes.com/images/case-studies/case-study-6.webp",
+  image: "https://www.rialtes.com/images/case-studies/abstract-3d-data-visualization.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

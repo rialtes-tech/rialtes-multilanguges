@@ -22,7 +22,7 @@ const schemaData = {
   },
   "headline": "Agentforce Agents Scale Enterprise Resource Planning Systems with AI",
   "description": "Explore how Agentforce empowers ERP systems with intelligent agents to automate business processes, drive efficiency, and scale operations through AI.",
-  "image": "https://www.rialtes.com/images/blog/agentforce-erp-scaling-ai.webp",
+  "image": "https://www.rialtes.com/images/blog/ai-automation-robotic-hand-laptop-technology.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes",
@@ -57,6 +57,7 @@ export default function Page() {
         canonical="https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/"
       />
 
+
       <Script
         id="schema-agentforce-agents"
         type="application/ld+json"
@@ -67,8 +68,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/agentforce-erp-scaling-ai.webp"
-            alt="banner"
+            src="/images/blog/ai-automation-robotic-hand-laptop-technology.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -79,8 +80,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden h-full">
           <Image
-            src="/images/blog/blog-12.webp"
-            alt="banner"
+            src="/images/blog/ai-automation-robotic-hand-laptop-technology-carousel.webp"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}
