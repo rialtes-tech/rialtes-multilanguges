@@ -176,7 +176,7 @@ export default function Page() {
                 },
                 {
                     "title": "Tenant Experience",
-                    "desc": "Use sentiment data and <span>conversational AI for resident support</span> to personalize communication and improve satisfaction."
+                    "desc": "Use sentiment data and <a href='https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>conversational AI for resident support</a> to personalize communication and improve satisfaction."
                 }
             ],
             "desc2": "In short, AI converts reactive property operations into strategic, data-driven ecosystems. It gives asset managers the visibility they need to make informed decisions about maintenance, performance, investment, and sustainability.",
@@ -204,7 +204,7 @@ export default function Page() {
                         "AI identifies the nearest available technician with the required expertise.",
                         "A work order is automatically generated and synced to the technician’s mobile device.",
                         "The technician completes the job, uploads notes, and closes the ticket.",
-                        "The system updates status in real time — giving management full visibility and <strong>SLA tracking and billing automation in real estate</strong>"
+                        "The system updates status in real time — giving management full visibility and <a href='https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SLA tracking and billing automation in real estate</a>"
                     ],
                     "desc": "This level of coordination helps large property portfolios save time, reduce fuel costs, and ensure that no alert is missed."
                 }
@@ -220,7 +220,7 @@ export default function Page() {
                 "Where to focus energy efficiency investments.",
                 "How to extend asset life through early intervention."
             ],
-            "desc2": "This isn’t maintenance management — it’s <strong>portfolio intelligence</strong>, and it’s redefining how property enterprises scale efficiently."
+            "desc2": "This isn’t maintenance management — it’s <span>portfolio intelligence</span>, and it’s redefining how property enterprises scale efficiently."
         }
     ]
     const exelonaEdgeData = [
@@ -449,7 +449,7 @@ export default function Page() {
                                     }
                                 </div>
 
-                                <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">By merging these technologies, property managers can monitor dozens or even hundreds of assets without needing manual inspection — a foundational part of <span>CRM + ERP convergence for property management</span>.</p>
+                                <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">By merging these technologies, property managers can monitor dozens or even hundreds of assets without needing manual inspection — a foundational part of <a href='https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>CRM + ERP convergence for property management</a>.</p>
 
                                 <h3 className="mt-10 lg:mt-[80px] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold">Data That Powers Prediction</h3>
                                 <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-[28px] lg:mt-[48px] md:gap-x-[60px] lg:gap-0 sm:w-[80%] md:w-full 4xl:w-[1200px]">
@@ -557,7 +557,7 @@ export default function Page() {
                                                         data.list.map((elem, id) => {
                                                             return (
                                                                 <li key={id} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"><h4 className="inline font-bold">{elem.title}</h4>
-                                                                    <p className="">{elem.desc}</p>
+                                                                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{elem.desc}</p>
                                                                 </li>
                                                             )
                                                         })
@@ -593,30 +593,29 @@ export default function Page() {
                             {/* key section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Key Takeaways</h2>
-
                                 {
                                     keyElemData.map((data, ind) => {
                                         return (
                                             <div
-                                                className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[46px] px-[26px] 
+                                                className={`md:flex mt-24 md:mt-10 py-[34px] px-[26px] 
                                                            md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative 
-                                                           md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto 4xl:w-[86%]"
+                                                           md:ml-[90px] sm:w-[86%] md:w-auto lg:w-[80%] xl:w-full 4xl:w-[86%]  ${ind == 3 ? "md:py-8 lg:py-8 xl:py-8" : "md:py-[46px] lg:py-[46px]"}`}
                                                 key={ind}>
                                                 <h3
-                                                    className="md:absolute md:flex items-center
+                                                    className={`md:absolute md:flex items-center
                                                                 max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
                                                                 md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
                                                                 bg-[#006FBE] text-white font-semibold
                                                                 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
                                                                 px-[30px] py-[22px] leading-tight
-                                                                4xl:w-[380px] xl:w-[320px] md:w-[340px] w-fit 4xl:h-[100px]">
+                                                                4xl:w-[380px] xl:w-[320px] md:w-[320px] w-fit md:h-[100px]`}>
                                                     {data.title}
                                                 </h3>
 
                                                 <div
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
                                                                 font-medium my-auto max-md:mt-8
-                                                                md:ml-[300px] xl:ml-[280px] 4xl:ml-[380px]"
+                                                                md:ml-[250px] lg:ml-[250px] xl:ml-[270px] 4xl:ml-[320px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                             </div>

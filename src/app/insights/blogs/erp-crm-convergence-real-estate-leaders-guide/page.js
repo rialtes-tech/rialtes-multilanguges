@@ -108,7 +108,7 @@ export default function Page() {
     const unifiedData = [
         {
             "title": "How Unified Systems Solve These Challenges",
-            "desc": "A <span>scalable real estate platform integration</span> replaces all those moving parts with a single ecosystem.",
+            "desc": "A <a href='https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>scalable real estate platform integration</a> replaces all those moving parts with a single ecosystem.",
             "desc2": "Imagine this workflow:",
             "list": [
                 "A lease is approved in CRM.",
@@ -159,7 +159,7 @@ export default function Page() {
                 "Which properties are underperforming on rent collection?",
                 "Where are maintenance costs trending highest?",
             ],
-            "desc2": "With centralized leasing and finance data, decision-makers no longer rely on week-old reports or manual reconciliations."
+            "desc2": "With <a href='https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>centralized leasing and finance data</a>, decision-makers no longer rely on week-old reports or manual reconciliations."
         },
         {
             "title": "Cost Efficiency and IT Simplification",
