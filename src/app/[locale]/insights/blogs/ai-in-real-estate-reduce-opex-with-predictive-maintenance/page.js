@@ -229,7 +229,7 @@ export default function Page() {
                                     }
                                 </div>
 
-                                <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('predictiveDesc4')} <span>{t('predictiveDesc4Link')}</span>.</p>
+                                <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('predictiveDesc4')} <a href='https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>{t('predictiveDesc4Link')}</a>.</p>
 
                                 <h3 className="mt-10 lg:mt-[80px] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold">{t('dataPowerTitle')}</h3>
                                 <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-[28px] lg:mt-[48px] md:gap-x-[60px] lg:gap-0 sm:w-[80%] md:w-full 4xl:w-[1200px]">

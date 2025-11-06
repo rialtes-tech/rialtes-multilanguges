@@ -572,7 +572,7 @@
         "unifiedData": [
             {
                 "title": "Comment les systèmes unifiés résolvent ces défis",
-                "desc": "Une <span>plateforme immobilière intégrée et évolutive</span> remplace toutes ces pièces mobiles par un seul écosystème.",
+                "desc": "Une <a href='https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>plateforme immobilière intégrée et évolutive</a> remplace toutes ces pièces mobiles par un seul écosystème.",
                 "desc2": "Imaginez ce flux de travail :",
                 "list": [
                     "Un bail est approuvé dans le CRM.",
@@ -621,7 +621,7 @@
                     "Quelles propriétés sous-performent sur la collecte des loyers ?",
                     "Où les coûts de maintenance sont-ils les plus élevés ?"
                 ],
-                "desc2": "Avec des données centralisées sur la location et la finance, les décideurs n’ont plus besoin de rapports obsolètes ni de rapprochements manuels."
+                "desc2": "Avec des <a href='https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>données centralisées sur la location et les finances</a>, les décideurs ne dépendent plus de rapports vieux d’une semaine ni de rapprochements manuels."
             },
             {
                 "title": "Efficacité des coûts et simplification IT",
@@ -780,7 +780,7 @@
                     },
                     {
                         "title": "Expérience Locataire",
-                        "desc": "Utilise des données de sentiment et une <span>IA conversationnelle pour le support résident</span> afin de personnaliser la communication et d’améliorer la satisfaction."
+                        "desc": "Utilise des données de sentiment et une <a href='https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>IA conversationnelle pour le support résident</a> afin de personnaliser la communication et d’améliorer la satisfaction."
                     }
                 ],
                 "desc2": "En résumé, l’IA transforme les opérations réactives en écosystèmes stratégiques basés sur les données. Elle donne aux gestionnaires d’actifs la visibilité nécessaire pour prendre des décisions éclairées sur la maintenance, la performance, l’investissement et la durabilité."
@@ -808,7 +808,7 @@
                             "L’IA identifie le technicien disponible le plus proche possédant les compétences requises.",
                             "Un ordre de travail est automatiquement généré et synchronisé avec le mobile du technicien.",
                             "Le technicien effectue la réparation, ajoute ses notes et clôture le ticket.",
-                            "Le système met à jour l’état en temps réel — offrant à la direction une visibilité complète et un <strong>suivi des SLA et automatisation de la facturation dans l’immobilier</strong>."
+                            "Le système met à jour l’état en temps réel — offrant à la direction une visibilité complète et un <a href='https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>suivi des SLA et automatisation de la facturation dans l’immobilier</a>."
                         ],
                         "desc": "Ce niveau de coordination permet aux grands portefeuilles immobiliers d’économiser du temps, de réduire les coûts de déplacement et de garantir qu’aucune alerte n’est manquée."
                     }
