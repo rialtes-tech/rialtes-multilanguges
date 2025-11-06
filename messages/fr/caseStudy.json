@@ -200,6 +200,7 @@
     },
     "automateCaseStudy": {
         "autoTitle": "Automatisation du traitement des commandes dans le secteur de la santé avec MuleSoft",
+        "bannerAlt": "Professionnel de santé et collègue discutant des soins aux patients avec tablette dans un couloir d'hôpital moderne",
         "seoTitle": "Étude MuleSoft : Automatisation des commandes Salesforce & SAP",
         "seoDescription": "Découvrez comment MuleSoft a automatisé les flux de commandes complexes avec Salesforce et SAP.",
         "healthcare": "Santé",
@@ -322,6 +323,7 @@
         ]
     },
     "empoweringCaseStudy": {
+        "bannerAlt": "Mur d'exposition présentant une variété d'échantillons de bardeaux de toiture dans différentes couleurs incluant brun beige gris et noir",
         "headerTitle": "150 commandes par jour, zéro travail manuel : la priorisation des commandes en libre-service grâce à Fiori",
         "seoTitle": "SAP Fiori pour priorisation des commandes en production",
         "seoDescription": "Découvrez comment un fabricant de toiture a utilisé SAP Fiori pour prioriser ses commandes, réduisant 150 ajustements manuels/jour et améliorant la précision.",
@@ -360,6 +362,7 @@
         ]
     },
     "leadingCaseStudy": {
+        "bannerAlt": "Bras robotiques industriels jaunes assemblant des châssis de carrosserie sur chaîne de production automatisée dans une usine automobile moderne",
         "leadingTitle": "Un leader de l'industrie automobile a atteint un score de satisfaction client supérieur de 35 % grâce à AutoSense",
         "seoTitle": "Gestion des garanties Salesforce : AutoSense en action | Rialtes",
         "seoDescription": "Cette étude montre comment AutoSense a automatisé les garanties, réduit les erreurs et amélioré l’efficacité opérationnelle.",
@@ -561,6 +564,7 @@
         ]
     },
     "optimizingCaseStudy": {
+        "bannerAlt": "Technicienne de contrôle qualité portant charlotte et lunettes de sécurité inspectant une bouteille transparente sur chaîne de production automatisée",
         "salesTitle": "Rationalisation des ventes avec Salesforce Sales Cloud pour l'industrie manufacturière",
         "seoTitle": "Étude Salesforce Sales Cloud : Optimisation des ventes",
         "seoDescription": "Découvrez comment l’optimisation des ventes avec Sales Cloud a accéléré conversions et clôtures de contrats.",
@@ -649,6 +653,7 @@
         ]
     },
     "realForceCaseStudy": {
+        "bannerAlt": "Professionnels d'affaires et architecte examinant des plans et pointant vers des projets de construction dans un bureau moderne",
         "autoTitle": "Automatisation des paiements ACH et des écritures comptables avec notre module bancaire Exelona",
         "seoTitle": "Étude Exelona : Préchargement ACH et journaux",
         "seoDescription": "Découvrez comment Rialtes a optimisé le préchargement des ACH et journaux pour fiabiliser la finance.",
@@ -711,6 +716,7 @@
         ]
     },
     "autoSenseCaseStudy": {
+        "bannerAlt": "Femme d'affaires souriante portant des lunettes et collègue masculin collaborant sur ordinateur portable dans un environnement de bureau contemporain",
         "dealerTitle": "Accélérer la Gestion des Concessionnaires avec AutoSense par Rialtes",
         "seoTitle": "Révolution gestion concession auto avec AutoSense | Rialtes",
         "seoDescription": "Découvrez comment Rialtes a transformé la gestion des concessions avec AutoSense : UX moderne, intégration SAP & Salesforce, opérations en temps réel.",
@@ -889,6 +895,7 @@
     },
     "devopsCaseStudy": {
         "devopsTitle": "Transformation DevOps avec Copado et Salesforce",
+        "bannerAlt": "Équipe de construction diversifiée portant casques de sécurité et gilets haute visibilité consultant des données de projet sur ordinateur portable dans entrepôt industriel",
         "seoTitle": "Étude Salesforce DevOps : Optimiser les livraisons",
         "seoDescription": "Découvrez comment le préchargement DevOps avec Copado et Salesforce a accéléré les livraisons et réduit les erreurs.",
         "manufacturing": "Fabrication",
@@ -949,6 +956,7 @@
         ]
     },
     "mobileCaseStudy": {
+        "bannerAlt": "Expert en assurance et propriétaire examinant les détails de réclamation sur tablette devant un toit endommagé par tempête nécessitant évaluation",
         "claimTitle": "Réclamation en 4 Minutes : Rialtes Développe un Portail Mobile-First pour Transformer l’Expérience des Réclamations",
         "seoTitle": "Étude Salesforce Experience Cloud : Portail mobile de garantie",
         "seoDescription": "Découvrez comment une marque de toiture a créé une expérience de garantie mobile conviviale avec Experience Cloud.",
@@ -972,6 +980,7 @@
         ]
     },
     "warrantyClaimCaseStudy": {
+        "bannerAlt": "Échantillons de bardeaux de toiture superposés présentant plusieurs options de couleurs incluant rouge brun bleu gris beige et tons cuivrés",
         "warrantyTitle": "Adoption Améliorée de 40 % de l’Application de Garantie grâce à Salesforce Experience Cloud",
         "seoTitle": "Étude : Experience Cloud pour fabricant de toiture | Rialtes",
         "seoDescription": "Découvrez comment Rialtes a optimisé les réclamations de garantie et la satisfaction client avec Experience Cloud.",
@@ -1048,6 +1057,7 @@
         ]
     },
     "eduplusCaseStudy": {
+        "bannerAlt": "Chapeau de graduation avec pompon doré flottant au-dessus de nuages blancs avec échelle en bois symbolisant la réussite éducative et l'avancement professionnel",
         "educationcloud": "Education",
         "seoTitle": "Étude Salesforce Education Cloud | Rialtes",
         "seoDescription": "Découvrez comment Edu+ sur Education Cloud a augmenté les inscriptions de 22% et amélioré le support étudiant grâce à l’IA et l’automatisation.",

@@ -355,7 +355,7 @@
                     },
                     {
                         "title": "Experiencia del Inquilino",
-                        "desc": "Usa datos de sentimiento y <span>IA conversacional para atención al residente</span> que personalizan la comunicación y mejoran la satisfacción."
+                        "desc": "Usa datos de sentimiento y <a href='https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>IA conversacional para atención al residente</a> que personalizan la comunicación y mejoran la satisfacción."
                     }
                 ],
                 "desc2": "En resumen, la IA convierte las operaciones reactivas en ecosistemas estratégicos basados en datos. Brinda a los administradores de activos la visibilidad que necesitan para tomar decisiones informadas sobre mantenimiento, rendimiento, inversión y sostenibilidad."
@@ -383,7 +383,7 @@
                             "La IA identifica al técnico disponible más cercano con la experiencia requerida.",
                             "Se genera automáticamente una orden de trabajo y se sincroniza con el dispositivo móvil del técnico.",
                             "El técnico completa el trabajo, sube notas y cierra el ticket.",
-                            "El sistema actualiza el estado en tiempo real, brindando a la gerencia visibilidad total y <strong>seguimiento de SLA y automatización de facturación en bienes raíces</strong>."
+                            "El sistema actualiza el estado en tiempo real, brindando a la gerencia visibilidad total y <a href='https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>seguimiento de SLA y automatización de facturación en bienes raíces</a>."
                         ],
                         "desc": "Este nivel de coordinación ayuda a las carteras inmobiliarias grandes a ahorrar tiempo, reducir costos de combustible y garantizar que ninguna alerta se pase por alto."
                     }
@@ -820,7 +820,7 @@
         "unifiedData": [
             {
                 "title": "Cómo los Sistemas Unificados Resuelven Estos Desafíos",
-                "desc": "Una <span>plataforma inmobiliaria escalable e integrada</span> reemplaza todas esas partes móviles con un solo ecosistema.",
+                "desc": "Una <a href='https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>plataforma inmobiliaria escalable e integrada</a> reemplaza todas esas partes móviles con un solo ecosistema.",
                 "desc2": "Imagina este flujo de trabajo:",
                 "list": [
                     "Un contrato se aprueba en el CRM.",
@@ -869,7 +869,7 @@
                     "¿Qué propiedades están rezagadas en la recaudación de rentas?",
                     "¿Dónde están aumentando más los costos de mantenimiento?"
                 ],
-                "desc2": "Con datos centralizados de arrendamiento y finanzas, los responsables de decisiones ya no dependen de informes antiguos ni conciliaciones manuales."
+                "desc2": "Con <a href='https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>datos centralizados de arrendamiento y finanzas</a>, los responsables de la toma de decisiones ya no dependen de informes con una semana de antigüedad ni de conciliaciones manuales."
             },
             {
                 "title": "Eficiencia de Costos y Simplificación de TI",
