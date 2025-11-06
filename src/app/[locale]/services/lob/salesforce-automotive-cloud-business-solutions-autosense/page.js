@@ -100,7 +100,7 @@ export default function page() {
                     title={t('seoTitle')}
                     description={t('seoDescription')}
                     keywords="home, website, welcome"
-                    canonical="https://www.rialtes.com/services/lob/salesforce-automotive-cloud-business-solutions-autosense/"
+                    canonical={`https://www.rialtes.com/${locale}/services/lob/salesforce-automotive-cloud-business-solutions-autosense/`}
                 />
                 <div className="custom-container">
                     <h2 className="text-[000000] 4xl:text-[30px] xl:text-[24px] text-[18px] leading-tight font-bold">

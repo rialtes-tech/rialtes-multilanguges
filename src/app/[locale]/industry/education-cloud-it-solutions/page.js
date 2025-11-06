@@ -143,7 +143,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical="https://www.rialtes.com/industry/education-cloud-it-solutions/"
+        canonical={`https://www.rialtes.com/${locale}/industry/education-cloud-it-solutions/`}
       />
       <Script
         id="schema-education"

@@ -517,7 +517,7 @@ export default function page() {
                             </h3>
                             <UnorderedList arrName={dealerData} ulClassName="list-disc pl-[22px] 2xl:w-[90%] xl:w-[90%] lg:w-[95%] xl:mt-[40px] mt-[28px]" liClassName="text-[#FFFFFF] mt-[19px] first:mt-0  xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] text-[16px] leading-tight xl:leading-[24px] font-light" />
                             <div className="mt-[20px] xl:mt-[48px] md:mb-[94px]">
-                                <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')}/>
+                                <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>
@@ -609,7 +609,7 @@ export default function page() {
                             </h3>
                             <UnorderedList arrName={unlockingData} ulClassName="list-disc pl-[22px] 2xl:w-[90%] xl:w-[90%] lg:w-[95%] mt-[23px] xl:mt-[38px]" liClassName="text-white mt-[19px] first:mt-0 xl:mt-[24px] 2xl:text-[20px] xl:text-[16px] lg:text-[16px] text-[16px] xl:leading-[24px] leading-[19px] font-light" />
                             <div className="mt-[20px] xl:mt-[48px] xl:mb-[94px] mb-0">
-                                <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')}/>
+                                <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} />
                             </div>
                         </div>
                     </div>
@@ -793,9 +793,9 @@ export default function page() {
                     <div className="xl:block hidden">
                         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[30px] lg:gap-0 mt-[-120px] 4xl:mt-[-90px]">
                             {relatedSolutionsData.map((item, index) => (
-                                <div  key={index} className={`w-fit ${index !== 0 ? "pl-[30px]" : ""}`}>
+                                <div key={index} className={`w-fit ${index !== 0 ? "pl-[30px]" : ""}`}>
                                     <LearnMore
-                                
+
                                         btnName={t('learnMoreBtn')}
                                         bgcolor="#006FBE"
                                         bordercolor="#006FBE"
@@ -813,7 +813,7 @@ export default function page() {
             <Seo
                 title={t("seoTitle")}
                 description={t("seoDescription")}
-                canonical="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/"
+                canonical={`https://www.rialtes.com/${locale}/industry/digital-transformation-in-automotive-industry/`}
             />
             <Script
                 id="schema-automotive"

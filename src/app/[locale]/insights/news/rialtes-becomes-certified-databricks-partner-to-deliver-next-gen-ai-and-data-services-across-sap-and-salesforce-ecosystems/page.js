@@ -3,11 +3,11 @@ import Seo from "@/app/[locale]/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
-import UnorderedList from "@/app/[locale]/components/unorderedList";
 import enContent from "../../../../../../messages/en/insight.json";
 import esContent from "../../../../../../messages/es/insight.json";
 import frContent from '../../../../../../messages/fr/insight.json';
 import { changeLocalization } from "../../../components/changeLocalization";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -51,8 +51,8 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-      title={t('seoTitle')}
-      description={t('seoDescription')}
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical="https://www.rialtes.com/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/"
       />
 
@@ -147,10 +147,10 @@ export default function Page() {
                 />
               ))}
               <UnorderedList
-  ulClassName="list-disc text-black pl-[36px] lg:pl-[56px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium mt-3"
-  liClassName="pb-4"
-  arrName={listItems}
-/>
+                ulClassName="list-disc text-black pl-[36px] lg:pl-[56px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium mt-3"
+                liClassName="pb-4"
+                arrName={listItems}
+              />
               {paragraphsEnd.map((para, idx) => (
                 <p
                   key={idx}

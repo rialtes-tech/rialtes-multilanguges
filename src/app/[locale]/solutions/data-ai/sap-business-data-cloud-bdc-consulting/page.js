@@ -74,10 +74,10 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-      title={t('seoTitle')}
-       description={t('seoDescription')}
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/solutions/data-ai/sap-business-data-cloud-bdc-consulting/"
+        canonical={`https://www.rialtes.com/${locale}/solutions/data-ai/sap-business-data-cloud-bdc-consulting/`}
       />
       <Script
         id="schema-sap-bdc"
@@ -176,7 +176,7 @@ export default function Page() {
                 {t('dataSubtitleTwo')}
               </p>
               <div className="xl:mt-[59px] mt-[22px]">
-                <LearnMore btnName={t('learnMore')}/>
+                <LearnMore btnName={t('learnMore')} />
               </div>
             </div>
           </div>
@@ -191,7 +191,7 @@ export default function Page() {
                 src="/images/sap-bdc-services/warehouse-manager-inventory.webp"
                 alt={t('sapDataAlt')}
                 width={0}
-                height={0} 
+                height={0}
                 priority
               />
             </div>
@@ -223,7 +223,7 @@ export default function Page() {
               liClassName=""
             />
             <div className="absolute bottom-[-24px]">
-              <LearnMore btnName={t('learnMore')}/>
+              <LearnMore btnName={t('learnMore')} />
             </div>
           </div>
         </section>
@@ -380,7 +380,7 @@ export default function Page() {
                       ))}
                     </ul>
                     <div className="absolute mt-0 xl:mt-[3px] max-lg:mt-[-10px]">
-                      <LearnMore bgcolor={"#006FBE"} btnName={t('learnMore')}/>
+                      <LearnMore bgcolor={"#006FBE"} btnName={t('learnMore')} />
                     </div>
                   </div>
                 </div>

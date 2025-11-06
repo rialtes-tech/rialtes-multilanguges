@@ -48,7 +48,7 @@ export default function DemandPlusSection() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/"
+                canonical={`https://www.rialtes.com/${locale}/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/`}
             />
             <Script
                 id="schema-demandplus"

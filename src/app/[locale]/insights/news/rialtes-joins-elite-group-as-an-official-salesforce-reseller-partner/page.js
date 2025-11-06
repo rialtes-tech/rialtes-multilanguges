@@ -48,9 +48,9 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-      title={t('seoTitle')}
-      description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/"
+        title={t('seoTitle')}
+        description={t('seoDescription')}
+        canonical={`https://www.rialtes.com/${locale}/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/`}
       />
 
       <Script
@@ -127,7 +127,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
-              {/* <BlogSocialIcons fullUrl={fullUrl} date="12 May 2025"/> */}
+            {/* <BlogSocialIcons fullUrl={fullUrl} date="12 May 2025"/> */}
           </div>
           <div className="py-3"></div>
           <div className="">

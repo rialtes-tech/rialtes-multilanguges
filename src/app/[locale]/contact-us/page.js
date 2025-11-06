@@ -237,7 +237,7 @@ const LocationPage = () => {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="Contact, website, welcome"
-        canonical={"https://www.rialtes.com/contact-us/"}
+        canonical={`https://www.rialtes.com/${locale}/contact-us/`}
       />
       <Script
         id="schema-contact-us"

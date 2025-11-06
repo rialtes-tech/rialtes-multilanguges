@@ -106,7 +106,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"
+        canonical={`https://www.rialtes.com/${locale}/services/hxm-transformation/successplus-successfactors-implementation-partner/`}
       />
       <Script
         id="schema-sucessfactor"

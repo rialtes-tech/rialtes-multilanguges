@@ -6,7 +6,7 @@ import Image from "next/image";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
-import enContent from '../../../../../../messages/en/solutions.json'; 
+import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
@@ -124,7 +124,7 @@ export default function DemandPlusSection() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/solutions/quality-engineering-assurance/tosca-software-automation-testing/"
+        canonical={`https://www.rialtes.com/${locale}/solutions/quality-engineering-assurance/tosca-software-automation-testing/`}
       />
       <Script
         id="schema-toska"
@@ -300,7 +300,7 @@ export default function DemandPlusSection() {
       >
         <div className="xl:col-span-2">
           <div className="4xl:mt-[44px]  xl:mt-[75px] 2xl:mt-[5rem]">
-            <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
+            <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
           </div>
         </div>
         <div className="xl:col-span-1"></div>
@@ -415,7 +415,7 @@ export default function DemandPlusSection() {
               liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] text-[16px]"
             />
             <div className="xl:hidden block mt-5">
-              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
+              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
             </div>
           </div>
         </div>
@@ -435,7 +435,7 @@ export default function DemandPlusSection() {
         </div>
         <div className="xl:col-span-1"></div>
         <div className="xl:col-span-2 xl:block hidden">
-          <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
+          <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
         </div>
       </div>
       {/* neo load section */}
@@ -498,7 +498,7 @@ export default function DemandPlusSection() {
                 liClassName=" 4xl:text-[20px] 2xl:text-[18px] text-[16px]"
               />
               <div className="xl:hidden block mt-10">
-                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
+                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
               </div>
               <div className="xl:hidden block bg-[#073259] p-8  mt-[40px]">
                 <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">
@@ -527,7 +527,7 @@ export default function DemandPlusSection() {
         </section>
         <div className="xl:col-span-1"></div>
         <div className="xl:col-span-2 4xl:mt-[42px] xl:block hidden">
-          <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
+          <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
         </div>
       </div>
       {/* rialtes certified section */}
@@ -644,7 +644,7 @@ export default function DemandPlusSection() {
         <div className="relative">
           <div className="xl:grid xl:grid-cols-12">
             <div className="order-1 xl:order-3 col-span-2 max-[405px]:mt-[-185px] max-[520px]:mt-[-172px] mt-[-156px] md:mt-[-146px] xl:mt-[-74px] 3xl:mt-[-74px] 4xl:mt-[-80px]">
-              <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
+              <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
             </div>
             <div className="order-2 xl:order-2 xl:col-span-1"></div>
             <div className="order-3 xl:order-1 xl:col-span-7 col-span-12 xl:mr-0 4xl:mr-0 mt-[26px]  xl:mt-[-70px] 3xl:mt-[-50px] 4xl:mt-[-80px]">

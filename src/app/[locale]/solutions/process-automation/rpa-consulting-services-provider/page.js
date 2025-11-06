@@ -100,7 +100,7 @@ const t = useTranslations("uiPath");
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/solutions/process-automation/rpa-consulting-services-provider/"
+                canonical={`https://www.rialtes.com/${locale}/solutions/process-automation/rpa-consulting-services-provider/`}
             />
             <Script
                 id="schema-rpa"
