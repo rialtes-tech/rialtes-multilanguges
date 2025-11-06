@@ -116,6 +116,7 @@
     ]
   },
   "blogs": {
+    "mainBlogbannerAlt": "Explorez des idées stratégiques sur l'IA, Salesforce et SAP ",
     "seoTitle": "Blogs Rialtes | Insights sur Salesforce, SAP, IA et Cloud",
     "seoDescription": "Lisez nos blogs experts sur Salesforce, SAP, IA et Cloud. Suivez les dernières tendances et insights en innovation et transformation digitale.",
     "searchTitle": "Résultat de recherche par",
@@ -170,6 +171,7 @@
         "date": "Jun. 16, 2025",
         "url": "/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/",
         "title": "Pourquoi SAP Signavio est essentiel pour une mise en œuvre réussie de S/4HANA",
+        "alt": "Pourquoi SAP Signavio est essentiel pour une mise en œuvre réussie de S/4HANA ",
         "description": "Les organisations en sont à un stade où elles doivent moderniser leurs systèmes ERP, rationaliser leurs opérations et exploiter les informations en temps réel. SAP S/4HANA est devenu le cœur numérique des entreprises visant cette transformation. Cependant, le véritable facteur différenciateur entre une simple migration et une transformation réussie réside dans l’efficacité avec laquelle une organisation aligne ses processus métier avec S/4HANA."
       },
       {
@@ -180,6 +182,7 @@
         "date": "Sept. 30, 2024",
         "url": "/how-salesforce-agentforce-actually-works/",
         "title": "Comment fonctionne réellement Salesforce Agentforce",
+        "alt": "Comment fonctionne réellement Salesforce Agentforce ",
         "description": "Salesforce Agentforce, bien qu’étant une addition plus récente à l’écosystème Salesforce, gagne en popularité, notamment au sein des organisations qui travaillent avec de grandes équipes d’agents, tels que les commerciaux, les représentants du service client et le personnel de service sur le terrain."
       },
       {
@@ -190,6 +193,7 @@
         "date": "Mar. 25, 2025",
         "url": "/s4hana-transformation-with-sap-signavio-cloud-alm/",
         "title": "Comment SAP Signavio et Cloud ALM redéfinissent la transformation S/4HANA",
+        "alt": "Comment SAP Signavio et Cloud ALM redéfinissent la transformation S/4HANA ",
         "description": "Les programmes de transformation numérique, tels que la mise en œuvre de SAP S/4HANA, ne sont pas de simples projets informatiques, mais des initiatives complexes de réinvention de l’entreprise qui touchent chaque processus, rôle et technologie. Pour de telles transformations à grande échelle, deux facteurs clés de réussite se démarquent."
       }
     ],
@@ -244,16 +248,18 @@
         "date": "Oct. 13, 2025",
         "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
         "title": "L’IA dans les opérations immobilières : réduisez les temps d’arrêt de 30 % et les coûts d’exploitation grâce à la maintenance prédictive",
-        "description": "La vérité sur les opérations immobilières est qu’elles ont toujours consisté à trouver un équilibre entre coût, confort et continuité."
+        "description": "La vérité sur les opérations immobilières est qu’elles ont toujours consisté à trouver un équilibre entre coût, confort et continuité.",
+        "alt": "Interface de bâtiment intelligent avec alertes de maintenance prédictive "
       },
       {
         "id": 48,
-        "image": "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
+        "image": "/images/blog/salesforce-consulting-cluster-thumb.webp",
         "category": "Salesforce",
         "industry": "Générique",
         "date": "Oct. 10, 2025",
         "url": "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/",
         "title": "Comment les meilleurs partenaires Salesforce aident les entreprises à prospérer et innover",
+        "alt": "Icônes Salesforce connectées aux systèmes d'entreprise ",
         "description": "Salesforce est devenu la base des solutions CRM modernes pour les entreprises, aidant les organisations à unifier les données, rationaliser les processus et offrir des expériences client personnalisées."
       },
       {
@@ -264,6 +270,7 @@
         "date": "Oct. 07, 2025",
         "url": "/patient-experience-platform-transforming-long-term-care/",
         "title": "Comment une plateforme d’expérience patient transforme les soins du diagnostic à la gestion à long terme",
+        "alt": "Patient utilisant un tableau de bord de santé numérique ",
         "description": "Fournir des soins de santé a toujours été bien plus qu’un simple diagnostic. Pour les patients, le véritable parcours commence après le diagnostic, en explorant les options de traitement, en gérant les maladies chroniques et en apprenant à vivre avec des besoins de soins continus."
       },
       {
@@ -274,6 +281,7 @@
         "date": "Oct. 06, 2025",
         "url": "/salesforce-development-services-to-boost-crm-efficiency/",
         "title": "Améliorez l’efficacité de votre CRM grâce à des services de développement Salesforce sur mesure",
+        "alt": "Tableau CRM avec graphiques de performance et profils utilisateur ",
         "description": "La gestion de la relation client (CRM) est le cœur battant des entreprises modernes. Elle détermine comment les équipes commerciales concluent des affaires, comment les équipes de service répondent aux clients et comment le marketing propose des campagnes personnalisées."
       },
       {
@@ -284,6 +292,7 @@
         "date": "Sep. 30, 2025",
         "url": "/digital-patient-journeys-ai-healthcare-life-sciences/",
         "title": "L’Avenir des Parcours Numériques du Patient : Comment l’IA Transforme les Sciences de la Vie",
+        "alt": "Schéma des étapes du parcours patient amélioré par l'IA ",
         "description": "L’industrie des soins de santé est à un tournant. Les patients ne veulent plus d’expériences fragmentées, d’attendre des semaines pour des rendez-vous, de répéter leur historique à chaque contact ou de gérer des portails déconnectés."
       },
       {
@@ -294,6 +303,7 @@
         "date": "Sep. 29, 2025",
         "url": "/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/",
         "title": "Mise en Œuvre Transparente de Salesforce : Stratégies Partenaires pour Réduire les Risques et Maximiser le ROI",
+        "alt": "Équipe planifiant le déploiement de Salesforce avec outils numériques",
         "description": "Salesforce est la principale plateforme CRM au monde, aidant les entreprises de tous les secteurs à mieux gérer leurs clients, leurs données et leurs processus."
       },
       {
@@ -304,6 +314,7 @@
         "date": "Sep. 18, 2025",
         "url": "/connected-care-ecosystem-pharma-medtech/",
         "title": "Pourquoi les écosystèmes de soins connectés sont le prochain grand pari pour la Pharma et le MedTech",
+        "alt": "Diagramme réseau des systèmes pharma et MedTech ",
         "description": "L’industrie des sciences de la vie est à un point d’inflexion. Les organisations Pharma et MedTech ne sont plus jugées uniquement sur leur capacité à innover dans les laboratoires ou à fabriquer des dispositifs médicaux."
       },
       {
@@ -314,6 +325,7 @@
         "date": "Sep. 17, 2025",
         "url": "/implementing-ai-agents-in-manufacturing-operations/",
         "title": "5 signes que vous êtes prêt à mettre en œuvre des agents IA dans vos opérations de fabrication",
+        "alt": "Usine avec bras robotiques et interface IA ",
         "description": "Aujourd’hui, les fabricants sont confrontés à un choix : continuer à ajouter de l’automatisation incrémentale aux systèmes existants ou faire un saut significatif vers des opérations pilotées par l’IA, capables d’apprendre, de s’adapter et d’agir."
       },
       {
@@ -324,6 +336,7 @@
         "date": "Sep. 16, 2025",
         "url": "/sap-build-for-manufacturing-4-0/",
         "title": "Accélérer l’Industrie 4.0 avec SAP Build : des outils low-code pour une fabrication plus intelligente",
+        "alt": "Tableau SAP avec outils d'automatisation ",
         "description": "L’Industrie 4.0 a transformé les usines en écosystèmes connectés où machines, personnes et processus travaillent en synergie."
       },
       {
@@ -334,6 +347,7 @@
         "date": "Sep. 15, 2025",
         "url": "/how-agentforce-ai-transforms-erp-systems/",
         "title": "Comment l’IA d’Agentforce Transforme les Systèmes ERP : Automatisation, Analyses Prédictives et Scalabilité",
+        "alt": "Écran ERP avec analyses prédictives ",
         "description": "Les systèmes de Planification des Ressources de l’Entreprise (ERP) sont l’épine dorsale de nombreuses organisations, gérant des fonctions critiques telles que la finance, les achats, la fabrication et les opérations de la chaîne d’approvisionnement."
       },
       {
@@ -344,6 +358,7 @@
         "date": "Sep. 12, 2025",
         "url": "/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty/",
         "title": "E-commerce prédictif dans Salesforce : comment Data Cloud façonne des expériences clients plus intelligentes",
+        "alt": "Carte du parcours client alimentée par Data Cloud ",
         "description": "L’analytique prédictive a toujours été essentielle pour aider les entreprises à offrir des expériences personnalisées. Salesforce Data Cloud permet aux entreprises d’exploiter l’analytique prédictive et les insights basés sur les données pour concevoir des stratégies de commerce électronique transformatrices."
       },
       {
@@ -354,6 +369,7 @@
         "date": "Sep. 11, 2025",
         "url": "/how-large-language-models-improve-customer-experience/",
         "title": "Une IA qui écoute, apprend et délivre : comment les grands modèles de langage transforment l’expérience client",
+        "alt": "Visage abstrait avec ondes sonores et motifs neuronaux ",
         "description": "Une excellente expérience client commence par une écoute de qualité. Mais il ne s’agit pas seulement d’entendre les mots ; il s’agit de comprendre l’intention, l’émotion, le contexte et l’historique."
       },
       {
@@ -364,6 +380,7 @@
         "date": "Sep. 09, 2025",
         "url": "/ai-patient-engagement-medtech-remote-care/",
         "title": "L’IA dans l’engagement des patients : comment les agents IA soutiennent MedTech dans la surveillance à distance",
+        "alt": "Tableau de surveillance à distance avec constantes vitales ",
         "description": "La détection précoce de la détérioration de la santé est essentielle pour les patients atteints de maladies chroniques ou en convalescence après une chirurgie."
       },
       {
@@ -374,6 +391,7 @@
         "date": "Sep. 08, 2025",
         "url": "/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing/",
         "title": "Comment l’IA d’Agentforce prédit et prévient les temps d’arrêt dans la fabrication de l’Industrie 4.0",
+        "alt": "Tableau de surveillance à distance avec constantes vitales ",
         "description": "La promesse de l’Industrie 4.0 est claire : des usines capables de penser, de s’adapter et de s’optimiser en temps réel."
       },
       {
@@ -384,6 +402,7 @@
         "date": "Sep. 02, 2025",
         "url": "/how-to-build-and-deploy-ai-agents-with-agentforce/",
         "title": "Créer et Déployer Votre Premier Agent IA avec Agentforce",
+        "alt": "Interface d'usine intelligente avec analyses en temps réel ",
         "description": "D'ici 2028, 33 % des applications logicielles d'entreprise utiliseront l'IA agentive. La transition de l'IA prédictive à l'IA générative s'est accélérée, permettant aux entreprises de dépasser la simple prévision pour définir des actions optimales. Malgré les préoccupations éthiques, la valeur de former l'IA pour la croissance est évidente. Enseigner à l'IA à comprendre le langage humain améliore sa capacité à répondre et à accomplir des tâches utiles."
       },
       {
@@ -394,6 +413,7 @@
         "date": "Sep. 01, 2025",
         "url": "/why-ai-agents-are-the-future-of-smart-manufacturing/",
         "title": "Au-Delà de l'Automatisation : Pourquoi les Agents IA Propulsent la Fabrication Intelligente",
+        "alt": "Agent IA numérique dans un espace de travail virtuel ",
         "description": "Agentforce introduit des agents autonomes qui comblent le fossé entre la production et l'expérience. Cela signifie moins de silos, des décisions plus rapides et des systèmes plus intelligents."
       },
       {
@@ -404,6 +424,7 @@
         "date": "Aug. 26, 2025",
         "url": "/sap-pi-po-to-cpi-migration-complete-guide/",
         "title": "Migration de SAP PI/PO vers SAP BTP Integration Suite (CPI)",
+        "alt": "Ligne d'assemblage robotique dans la fabrication intelligente ",
         "description": "Les entreprises ne peuvent plus se permettre des systèmes déconnectés ; l'intégration est la clé de la véritable transformation numérique. Pendant des années, SAP Process Integration (PI) et Process Orchestration (PO) ont rempli ce rôle, connectant les environnements SAP et non-SAP."
       },
       {
@@ -414,6 +435,7 @@
         "date": "Aug. 25, 2025",
         "url": "/reimagine-enterprise-using-agentic-ai-systems/",
         "title": "Réimaginer l'Entreprise grâce aux Systèmes d'IA Agentive",
+        "alt": "Flux d'intégration SAP entre cloud et local ",
         "description": "La manière dont les humains interagissent avec l'IA évolue. Des outils isolés qui font bien une seule tâche aux agents intelligents capables de planifier des voyages, surveiller la logistique, assister les personnes âgées ou gérer l'inventaire à travers des chaînes d'approvisionnement mondiales."
       },
       {
@@ -424,6 +446,7 @@
         "date": "Aug. 22, 2025",
         "url": "/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/",
         "title": "De l'Usine au Feedback : Comment l'IA Agentforce Améliore l'Expérience Client en Fabrication",
+        "alt": "Agents IA gérant les opérations sur un tableau de bord futuriste ",
         "description": "Les fabricants aujourd'hui évoluent dans un environnement sous pression. Vous devez gérer la demande fluctuante, la fragilité de la chaîne d'approvisionnement mondiale, l'augmentation des attentes clients et la réduction des marges. Il ne s'agit plus seulement de fabriquer des produits."
       },
       {
@@ -434,6 +457,7 @@
         "date": "Aug. 21, 2025",
         "url": "/how-ai-is-powering-the-sustainable-future-of-our-planet/",
         "title": "Comment l'IA Alimente l'Avenir Durable de Notre Planète",
+        "alt": "Boucle de retour client dans une usine intelligente ",
         "description": "Nous devons réduire les émissions de gaz à effet de serre et passer aux sources d'énergie renouvelables pour protéger notre planète et les générations futures. Cependant, l'espoir pour un avenir durable réside dans la conservation et l'innovation. Voici comment."
       },
       {
@@ -444,6 +468,7 @@
         "date": "Jul. 29, 2025",
         "url": "/how-agentforce-3-is-reshaping-automotive-manufacturing/",
         "title": "Comment Agentforce 3.0 Redéfinit la Fabrication Automobile",
+        "alt": "Terre entourée d'icônes IA et durabilité ",
         "description": "Salesforce a lancé Agentforce 3.0 — et c’est un pas en avant significatif. Agentforce a été un élément clé de la stratégie IA de Salesforce depuis son lancement en septembre 2024."
       },
       {
@@ -454,6 +479,7 @@
         "date": "Jul. 25, 2025",
         "url": "/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
         "title": "Agents vs. Copilotes vs. Bots : Une Comparaison Stratégique pour Adopter l'IA Correctement",
+        "alt": "Usine automobile avec systèmes alimentés par IA ",
         "description": "Des outils comme Agentforce redéfinissent notre perception des assistants numériques, en distinguant clairement Agents, Copilotes et Bots. Ces termes sont fréquemment utilisés dans l'automatisation pilotée par l'IA et les interfaces conversationnelles, chacun ayant un rôle spécifique."
       },
       {
@@ -464,6 +490,7 @@
         "date": "Jul. 21, 2025",
         "url": "/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/",
         "title": "Agentforce pour la Fabrication : Dépasser les Attentes Clients avec les Solutions Salesforce Propulsées par l'IA",
+        "alt": "Graphique comparatif des agents, copilotes et bots ",
         "description": "Nous savons que l'intelligence artificielle a transformé notre façon de travailler, augmentant considérablement la productivité en automatisant les tâches manuelles et permettant aux équipes de se concentrer sur des missions à forte valeur ajoutée. Avec des attentes clients en hausse, ils exigent des expériences fluides, personnalisées et un support instantané."
       },
       {
@@ -474,6 +501,7 @@
         "date": "Jul. 02, 2025",
         "url": "/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/",
         "title": "Découvrez AgentExchange : Votre Place de Marché Fiable pour le Succès avec Agentforce",
+        "alt": "Tableau de fabrication avec outils IA Salesforce ",
         "description": "Salesforce a encore une fois relevé le niveau des solutions d'entreprise pilotées par l'IA avec le lancement d'AgentExchange."
       },
       {
@@ -484,7 +512,8 @@
         "date": "Jul. 01, 2025",
         "url": "/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/",
         "title": "Himachal Pradesh : Le Joyau Pharmaceutique du Nord de l’Inde avec les Plus Grandes Installations de Fabrication",
-        "description": "L'ascension de l'Inde en tant que puissance pharmaceutique mondiale est remarquable."
+        "description": "L'ascension de l'Inde en tant que puissance pharmaceutique mondiale est remarquable.",
+        "alt": "Interface de marché pour solutions Agentforce "
       },
       {
         "id": 20,
@@ -494,6 +523,7 @@
         "date": "Jun. 16, 2025",
         "url": "/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/",
         "title": "Pourquoi SAP Signavio est Crucial pour une Implémentation Réussie de S/4HANA",
+        "alt": "Usine pharmaceutique à Himachal Pradesh ",
         "description": "Les organisations sont à un stade où elles doivent moderniser leurs systèmes ERP, rationaliser leurs opérations et exploiter les insights en temps réel. SAP S/4HANA est devenu le cœur numérique pour les entreprises cherchant à réaliser cette transformation."
       },
       {
@@ -504,6 +534,7 @@
         "date": "May. 30, 2025",
         "url": "/agentic-pharma-the-ai-driven-era-of-pharmaceutical-industry/",
         "title": "Agentic Pharma - L’Ère de l’Industrie Pharmaceutique Propulsée par l’IA",
+        "alt": "Logo SAP Signavio avec thème de transformation ",
         "description": "L'industrie pharmaceutique a longtemps été pionnière dans l'adoption de nouvelles technologies, allant d'équipements de laboratoire de pointe à des systèmes intelligents de gestion des données."
       },
       {
@@ -514,6 +545,7 @@
         "date": "May. 29, 2025",
         "url": "/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/",
         "title": "Comment SAP Ariba Optimise les Besoins en Achats Directs et Indirects",
+        "alt": "Icônes IA sur fond de laboratoire pharmaceutique ",
         "description": "Le terme Achats englobe l'ensemble du processus d'acquisition de biens ou services, depuis l'identification des besoins jusqu'à leur approvisionnement."
       },
       {
@@ -524,6 +556,7 @@
         "date": "May. 28, 2025",
         "url": "/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations/",
         "title": "Comment les Intégrations SAP SuccessFactors Améliorent les Opérations RH et Paie",
+        "alt": "Tableau d'approvisionnement avec modules SAP Ariba ",
         "description": "Les défis de la paie vous ralentissent-ils ? SAP SuccessFactors transforme la gestion de la paie d'une contrainte en un processus optimisé qui augmente la satisfaction des employés."
       },
       {
@@ -534,16 +567,18 @@
         "date": "Apr. 25, 2025",
         "url": "/redefining-the-future-of-enterprise-ai-with-sap-joule/",
         "title": "Redéfinir l'Avenir de l'IA d'Entreprise avec SAP Joule",
+        "alt": "Tableau RH avec données de paie et employés ",
         "description": "Le copilote d'IA générative de SAP, Joule, conçu pour améliorer l'efficacité, la collaboration et l'analyse organisationnelle, représente une avancée majeure dans l'automatisation intelligente des systèmes SAP."
       },
       {
         "id": 15,
-        "image": "/images/blog/SAP Business cloud_Carousal.webp",
+        "image": "/images/blog/sap-business-data-cloud-the-intelligent-data.webp",
         "category": "Général",
         "industry": "Générique",
         "date": "Apr. 22, 2025",
         "url": "/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/",
         "title": "SAP Business Data Cloud : La Fondation Intelligente de Données pour le Succès des Entreprises Piloté par l'IA",
+        "alt": "Interface SAP Joule avec fonctions d'assistant IA ",
         "description": "Les entreprises s'appuient de plus en plus sur les données en temps réel pour prendre des décisions, optimiser leurs opérations et exploiter les insights propulsés par l'IA."
       },
       {
@@ -554,36 +589,40 @@
         "date": "Mar. 25, 2025",
         "url": "/s4hana-transformation-with-sap-signavio-cloud-alm/",
         "title": "Comment SAP Signavio et Cloud ALM Redéfinissent la Transformation S/4HANA",
+        "alt": "Architecture cloud de données pour analyses d'entreprise ",
         "description": "Les programmes de transformation digitale, tels qu'une implémentation SAP S/4HANA, ne sont pas de simples projets informatiques mais des initiatives complexes de réinvention de l'entreprise qui impactent chaque processus, rôle et technologie. Pour de telles transformations à grande échelle, deux facteurs critiques de succès se distinguent :"
       },
       {
         "id": 14,
-        "image": "/images/blog/blog-14.webp",
+        "image": "/images/blog/salesforce-agentforce-top-features.webp",
         "category": "Salesforce Agentforce",
         "industry": "Générique",
         "date": "Feb. 03, 2025",
         "url": "/salesforce-agentforce-top-features-youre-probably-not-using-but-should/",
         "title": "Fonctionnalités Puissantes de Agentforce que Vous Devriez Utiliser",
+        "alt": "Interface SAP Signavio et Cloud ALM avec icônes de processus ",
         "description": "Les fonctionnalités de Salesforce Agentforce comblent les lacunes de l'expérience client avec un routage intelligent, la résolution de cas guidée par IA et des tableaux de bord de performance pour de meilleures décisions."
       },
       {
         "id": 13,
-        "image": "/images/blog/blog-13.webp",
+        "image": "/images/blog/how-sap-successfactors-enhances.webp",
         "category": "SAP SuccessFactors",
         "industry": "Ressources Humaines",
         "date": "Jan. 21, 2025",
         "url": "/how-sap-successfactors-enhances-remote-work-management/",
         "title": "Comment SAP SuccessFactors Améliore la Gestion du Travail à Distance",
+        "alt": "Tableau Agentforce avec indicateurs de performance ",
         "description": "Le travail à distance est rapidement passé d'une solution temporaire à un besoin pour de nombreuses entreprises dans le monde. Gérer une main-d'œuvre distante peut être un défi, en tenant compte des dynamiques locales et des exigences réglementaires."
       },
       {
         "id": 12,
-        "image": "/images/blog/blog-12.webp",
+        "image": "/images/blog/agentforce-agents-scales-enterprise-resource.webp",
         "category": "Salesforce Agentforce",
         "industry": "Générique",
         "date": "Jan. 13, 2025",
         "url": "/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/",
         "title": "Comment les Agents Agentforce Échelonnent les Systèmes ERP avec l'IA",
+        "alt": "Interface de télétravail avec outils RH ",
         "description": "Les systèmes de planification des ressources d'entreprise (ERP) sont l'épine dorsale de nombreuses organisations, gérant des fonctions critiques comme les finances, les achats, la fabrication et les opérations de la chaîne logistique. Cependant, ces systèmes fonctionnent souvent de manière isolée, limitant leur capacité à fournir des insights en temps réel et une collaboration fluide entre départements."
       },
       {
@@ -594,6 +633,7 @@
         "date": "Dec. 30, 2024",
         "url": "/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/",
         "title": "Découvrez Votre Nouveau Coéquipier : Agents IA sur Slack avec Agentforce 2.0",
+        "alt": "Tableau ERP avec planification des ressources IA ",
         "description": "Les agents Agentforce font plus que collecter des données et des insights : ils offrent des fonctionnalités d'IA entièrement personnalisables et indépendantes, pouvant se connecter à n'importe quelle donnée d'entreprise et agir en votre nom."
       },
       {
@@ -604,6 +644,7 @@
         "date": "Dec. 24, 2024",
         "url": "/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/",
         "title": "Comment Intégrer SAP SuccessFactors avec Microsoft Office 365 pour Améliorer la Collaboration",
+        "alt": "Interface Slack avec agent IA intégré ",
         "description": "Une intégration fluide entre les applications d'entreprise améliore la collaboration, l'efficacité et la productivité. Intégrer SAP SuccessFactors avec Microsoft Office 365 combine les forces d'une solution HXM de pointe et d'une suite robuste d'outils de productivité."
       },
       {
@@ -614,6 +655,7 @@
         "date": "Dec. 19, 2024",
         "url": "/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/",
         "title": "Renforcer la Conformité : L'Importance du Contrôle des Listes de Sanction dans SAP GTS pour les Transactions Tiers",
+        "alt": "Tableau de suivi des objectifs dans SAP SuccessFactors ",
         "description": "Respecter les réglementations commerciales internationales est impératif. Les entreprises impliquées dans le commerce transfrontalier doivent s'assurer que leurs transactions respectent les sanctions gouvernementales et les lois de contrôle des exportations."
       },
       {
@@ -624,6 +666,7 @@
         "date": "Nov. 25, 2024",
         "url": "/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/",
         "title": "Centre de Test Agentforce : Redéfinir les Tests d'IA avec des Données Synthétiques",
+        "alt": "Interface du moteur de raisonnement Atlas dans Agentforce ",
         "description": "Salesforce a introduit une nouvelle fonctionnalité appelée Centre de Test dans sa plateforme d'IA agentive, Agentforce. Cette addition permet aux utilisateurs d'entreprise de tester et de surveiller les agents IA avant leur déploiement en production."
       },
       {
@@ -634,6 +677,7 @@
         "date": "Nov. 12, 2024",
         "url": "/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/",
         "title": "Comment SAP SuccessFactors Soutient les Initiatives Diversité, Équité et Inclusion",
+        "alt": "Écran d'ensemble de la plateforme Salesforce Agentforce ",
         "description": "Diversité, Équité et Inclusion (DEI) ne sont plus des composants optionnels dans le milieu de travail moderne ; elles sont des piliers fondamentaux pour l'innovation, l'engagement des employés et le succès organisationnel à long terme."
       },
       {
@@ -644,6 +688,7 @@
         "date": "Nov. 11, 2024",
         "url": "/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/",
         "title": "Automatisez Votre Organisation de Santé avec l'Intégration athenahealth et Salesforce",
+        "alt": "Champ agricole avec capteurs numériques et tableau cloud ",
         "description": "Les preuves historiques indiquent fortement qu'une industrie de la santé fragmentée par des systèmes disparates entraîne des inefficacités opérationnelles, des travaux redondants, des problèmes de sécurité des patients et des coûts croissants pour gérer un marché de la santé de plus en plus complexe."
       },
       {
@@ -654,6 +699,7 @@
         "date": "Oct. 29, 2024",
         "url": "/sap-successfactors-performance-and-goal-management/",
         "title": "Gestion de la Performance et des Objectifs avec SAP SuccessFactors",
+        "alt": "Tableau de performance pour gestion des objectifs RH ",
         "description": "Atteindre les objectifs de votre organisation est une responsabilité clé partagée par toute votre équipe. Lorsque la stratégie de l'équipe s'aligne avec ses objectifs et ceux de l'organisation, faire ce qui est juste devient instinctif."
       },
       {
@@ -664,6 +710,7 @@
         "date": "Oct. 21, 2024",
         "url": "/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/",
         "title": "Le Cerveau Derrière les Agents : Dévoiler le Moteur de Raisonnement Atlas dans Agentforce",
+        "alt": "Intégration des systèmes de santé avec Salesforce et Athenahealth ",
         "description": "À mesure que les entreprises se développent, la complexité de la gestion des interactions client augmente, créant le besoin de systèmes de support plus intelligents et efficaces. Salesforce Agentforce offre une plateforme robuste pour l'automatisation du service client, désormais améliorée par le moteur de raisonnement révolutionnaire Atlas."
       },
       {
@@ -674,6 +721,7 @@
         "date": "Sep. 30, 2024",
         "url": "/how-salesforce-agentforce-actually-works/",
         "title": "Comment Salesforce Agentforce Fonctionne Réellement",
+        "alt": "Tableau diversité et inclusion dans plateforme RH",
         "description": "Salesforce Agentforce, bien qu'étant une nouvelle addition à l'écosystème Salesforce, gagne en popularité, notamment dans les organisations gérant de grandes équipes d'agents, tels que les agents commerciaux, représentants du service client et personnel sur le terrain."
       },
       {
@@ -684,6 +732,7 @@
         "date": "Sep. 17, 2024",
         "url": "/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/",
         "title": "Agriculture 4.0. Comment les Technologies Numériques Transforment l'Agriculture pour un Meilleur Demain ?",
+        "alt": "Interface de test IA avec simulation de données synthétiques ",
         "description": "L'agriculture joue un rôle significatif dans l'économie croissante de l'Inde et son avenir ne peut être assuré sans outils numériques et innovation technologique."
       }
     ]
