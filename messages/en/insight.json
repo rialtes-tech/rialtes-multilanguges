@@ -177,12 +177,12 @@
       },
       {
         "id": 2,
-        "image": "/images/blog/blog-1.webp",
+        "image": "/images/blog/how-salesforce-agentforce-actually-works.webp",
         "category": "Salesforce Agentforce",
         "industry": "Generic",
         "date": "Sept. 30, 2024",
         "url": "/how-salesforce-agentforce-actually-works/",
-        "title": "How Salesforce Agentforce Actually Works",
+        "title": "How Salesforce Agentforce Actually Works", 
         "alt": "How Salesforce Agentforce Actually Works ",
         "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
       },

@@ -176,7 +176,7 @@
       },
       {
         "id": 2,
-        "image": "/images/blog/blog-1.webp",
+        "image": "/images/blog/how-salesforce-agentforce-actually-works.webp",
         "category": "Salesforce Agentforce",
         "industry": "Genérico",
         "date": "Sept. 30, 2024",
@@ -219,7 +219,7 @@
         "description": "El soporte a los residentes en la gestión de propiedades se está volviendo más difícil de escalar. Entre las solicitudes de mantenimiento y las consultas de alquiler,"
       },
       {
-        "id": 48,
+        "id": 100,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
         "category": "IA",
         "industry": "Genérico",
@@ -537,7 +537,7 @@
       },
       {
         "id": 18,
-        "image": "/images/blog/sap-ariba-for-carousel.webp",
+        "image": "/images/blog/fiber-optic-network-data-connectivity-carousel.webp",
         "category": "SAP",
         "industry": "Manufactura",
         "date": "May. 29, 2025",
@@ -548,7 +548,7 @@
       },
       {
         "id": 17,
-        "image": "/images/blog/successfactor-for-carousel.webp",
+        "image": "/images/blog/abstract-cloud-computing-network-architecture-carousel.webp",
         "category": "SAP SuccessFactors",
         "industry": "Recursos Humanos",
         "date": "May. 28, 2025",
@@ -559,7 +559,7 @@
       },
       {
         "id": 16,
-        "image": "/images/blog/jcarosel.webp",
+        "image": "/images/blog/data-connectivity-network-visualization-digital-tree-carousel.webp",
         "category": "SAP",
         "industry": "SAP",
         "date": "Apr. 25, 2025",
@@ -581,7 +581,7 @@
       },
       {
         "id": 31,
-        "image": "/images/blog/sap-signavio-sap-cloud-mobile.webp",
+        "image": "/images/blog/abstract-data-visualization-digital-wave-technology-mobile.webp",
         "category": "SAP",
         "industry": "Genérico",
         "date": "Mar. 25, 2025",
@@ -625,7 +625,7 @@
       },
       {
         "id": 11,
-        "image": "/images/blog/agents-as-teammates-carousel-img.webp",
+        "image": "/images/blog/ai-agent-digital-interface-carousel.webp",
         "category": "Salesforce Agentforce",
         "industry": "Genérico",
         "date": "Dec. 30, 2024",
