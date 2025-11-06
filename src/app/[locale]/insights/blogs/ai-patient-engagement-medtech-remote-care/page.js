@@ -107,9 +107,7 @@ export default function Page() {
         title={t("seoTitle")}
         description={t("seoDescription")}
         keywords="Partners, website, welcome"
-        canonical={
-          "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/ai-patient-engagement-medtech-remote-care/`}
       />
 
       <Script
@@ -144,9 +142,9 @@ export default function Page() {
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-9 xl:col-span-10 lg:col-span-11">
             {/* date and icons */}
-        
-           <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="09 September 2025" />
-            
+
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="09 September 2025" />
+
 
             <div className="xl:mt-[60px] mt-[42px]">
               <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">

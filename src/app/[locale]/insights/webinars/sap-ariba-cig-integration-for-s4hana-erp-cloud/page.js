@@ -53,9 +53,9 @@ export default function () {
             <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud"
                 seoData={
                     <Seo
-                    title={t('seoTitle')}
-                    description={t('seoDescription')}
-                        canonical="https://www.rialtes.com/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud/"
+                        title={t('seoTitle')}
+                        description={t('seoDescription')}
+                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud/`}
                     />
                 }
                 schemaData={schemaData}

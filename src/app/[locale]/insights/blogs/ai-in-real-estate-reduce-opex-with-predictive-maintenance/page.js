@@ -14,7 +14,7 @@ import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 export default function Page() {
-    const t = useTranslations("aiRealEstate"); 
+    const t = useTranslations("aiRealEstate");
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, {
         en: enContent,
@@ -109,9 +109,7 @@ export default function Page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={
-                    "https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/"
-                }
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/`}
             />
 
             <Script
@@ -133,7 +131,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/ai-property-operations-predictive-maintenance-mobile.webp"
-                       alt={t('bannerAlt')}
+                        alt={t('bannerAlt')}
                         priority
                         height={0}
                         width={0}

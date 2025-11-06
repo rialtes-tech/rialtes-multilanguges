@@ -4,7 +4,6 @@ import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../../messages/en/webinars.json';
 import esContent from '../../../../../../messages/es/webinars.json';
 import frContent from '../../../../../../messages/fr/webinars.json';
-
 import WebinarComponent from "@/app/[locale]/components/webinarComponent";
 import { changeLocalization } from "../../../components/changeLocalization";
 
@@ -53,14 +52,14 @@ export default function () {
             <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/let-whatsapp-in-salesforce-with-agentchat"
                 seoData={
                     < Seo
-                    title={t('seoTitle')}
-                    description={t('seoDescription')}
-                        canonical="https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
+                        title={t('seoTitle')}
+                        description={t('seoDescription')}
+                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/let-whatsapp-in-salesforce-with-agentchat/`}
                     />
                 }
                 schemaData={schemaData}
                 deskImg="/images/webinar/woman-smiling-smartphone-blue-background.webp"
-                mobImg="/images/webinar/woman-smiling-smartphone-blue-background.webp" 
+                mobImg="/images/webinar/woman-smiling-smartphone-blue-background.webp"
                 imageAlt={t('imageAlt')}
                 webinarTitle={t('webinarTitle')}
                 speakerName="Lokesh Adhikari"

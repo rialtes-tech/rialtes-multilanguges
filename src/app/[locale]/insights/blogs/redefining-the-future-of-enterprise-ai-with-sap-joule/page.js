@@ -61,17 +61,14 @@ export default function Page() {
     quickGlimpseData1,
     responsiveData,
   } = content.redefiningBlog;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule";
 
   return (
     <div className="min-h-screen bg-white">
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={
-          "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/`}
       />
       <Script
         id="schema-redefining"

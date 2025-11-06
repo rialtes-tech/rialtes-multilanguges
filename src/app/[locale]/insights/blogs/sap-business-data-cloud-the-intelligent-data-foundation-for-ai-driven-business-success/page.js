@@ -53,9 +53,8 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { blogs, scenario1Data } = content.sapDataCloud;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success";
+  const { scenario1Data } = content.sapDataCloud;
+  const fullUrl = "https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success";
   const currUrl = useUrl();
 
   return (
@@ -63,9 +62,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={
-          "https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/`}
       />
 
       <Script
@@ -141,7 +138,7 @@ export default function Page() {
                   priority
                   className="!w-full !h-full !relative"
                 />
-              
+
               </div>
               {/* whats new section */}
               <div className="md:mt-[50px] mt-[40px]">

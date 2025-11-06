@@ -102,9 +102,7 @@ export default function Page() {
             <Seo
                 title="Digital Patient Journeys: The Future of AI Healthcare | Rialtes"
                 description=" The future of healthcare is digital patient journeys—AI-driven, predictive, and personalized pathways that empower patients and providers alike."
-                canonical={
-                    "https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/"
-                }
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/`}
             />
 
             <Script
@@ -117,7 +115,7 @@ export default function Page() {
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/blog/exelona-cluster-banner.webp"
+                        src="/images/blog/single-source-of-truth-real-estate-lead-to-lease.webp"
                         alt="banner image"
                         fill
                         priority

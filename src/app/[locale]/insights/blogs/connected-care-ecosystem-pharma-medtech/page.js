@@ -106,9 +106,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="Partners, website, welcome"
-                canonical={
-                    "https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/"
-                }
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/connected-care-ecosystem-pharma-medtech/`}
             />
 
             <Script
@@ -122,7 +120,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/connected-care-ecosystem.webp"
-                        alt={t('bannerAlt')} 
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
@@ -130,7 +128,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/connected-care-ecosystem-mobile.webp"
-                        alt={t('bannerAlt')} 
+                        alt={t('bannerAlt')}
                         priority
                         height={0}
                         width={0}

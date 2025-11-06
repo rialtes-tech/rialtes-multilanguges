@@ -51,7 +51,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={"https://www.rialtes.com/insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations/"}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations/`}
       />
 
       <Script

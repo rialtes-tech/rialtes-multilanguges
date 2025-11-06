@@ -35,13 +35,11 @@ const schemaData = {
 const webinars = [
 ];
 
-
 export default function About() {
   const t = useTranslations('webinars')
   const locale = useLocale();
   const webinarsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { allWebinars } = webinarsContent.webinars;
-
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
   const [isTablet, setIsTablet] = useState(false);
@@ -124,7 +122,7 @@ export default function About() {
       <Seo
         title="SAP and Salesforce Tech Webinars by a Trusted Partner | Rialtes"
         description="Salesforce tech webinars and SAP sessions by Rialtes. Learn from experts, explore innovations, and boost your digital transformation strategy."
-        canonical="https://www.rialtes.com/insights/webinars/"
+        canonical={`https://www.rialtes.com/${locale}/insights/webinars/`}
       />
       <Script
         id="webinar-schema"
@@ -145,7 +143,7 @@ export default function About() {
           className="custom-container h-full relative"
         >
           <div className="h-full flex flex-col justify-center">
-            <h1  className="
+            <h1 className="
           text-[#000000] 
           max-w-2xl leading-tight 
           text-[26px] md:text-[35px] xl:text-[40px] 4xl:text-[60px] 

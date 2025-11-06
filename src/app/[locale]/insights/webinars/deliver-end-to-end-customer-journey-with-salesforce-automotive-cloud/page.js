@@ -61,9 +61,9 @@ export default function () {
             <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud"
                 seoData={
                     < Seo
-                    title={t('seoTitle')}
-                   description={t('seoDescription')}
-                        canonical="https://www.rialtes.com/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/"
+                        title={t('seoTitle')}
+                        description={t('seoDescription')}
+                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/`}
                     />
                 }
                 schemaData={schemaData}
