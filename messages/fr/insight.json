@@ -176,7 +176,7 @@
       },
       {
         "id": 2,
-        "image": "/images/blog/blog-1.webp",
+        "image": "/images/blog/how-salesforce-agentforce-actually-works.webp",
         "category": "Salesforce Agentforce",
         "industry": "Générique",
         "date": "Sept. 30, 2024",
@@ -231,7 +231,7 @@
       {
 
       
-        "id": 48,
+        "id": 100,
         "image": "/images/blog/exelona-cluster-feature-thumb.webp",
         "category": "Exelona",
         "industry": "Generic",
@@ -539,7 +539,7 @@
       },
       {
         "id": 18,
-        "image": "/images/blog/sap-ariba-for-carousel.webp",
+        "image": "/images/blog/fiber-optic-network-data-connectivity-carousel.webp",
         "category": "SAP",
         "industry": "Fabrication",
         "date": "May. 29, 2025",
@@ -550,7 +550,7 @@
       },
       {
         "id": 17,
-        "image": "/images/blog/successfactor-for-carousel.webp",
+        "image": "/images/blog/abstract-cloud-computing-network-architecture-carousel.webp",
         "category": "SAP SuccessFactors",
         "industry": "Ressources Humaines",
         "date": "May. 28, 2025",
@@ -561,7 +561,7 @@
       },
       {
         "id": 16,
-        "image": "/images/blog/jcarosel.webp",
+        "image": "/images/blog/data-connectivity-network-visualization-digital-tree-carousel.webp",
         "category": "SAP",
         "industry": "SAP",
         "date": "Apr. 25, 2025",
@@ -583,7 +583,7 @@
       },
       {
         "id": 31,
-        "image": "/images/blog/sap-signavio-sap-cloud-mobile.webp",
+        "image": "/images/blog/abstract-data-visualization-digital-wave-technology-mobile.webp",
         "category": "SAP",
         "industry": "Générique",
         "date": "Mar. 25, 2025",
@@ -627,7 +627,7 @@
       },
       {
         "id": 11,
-        "image": "/images/blog/agents-as-teammates-carousel-img.webp",
+        "image": "/images/blog/ai-agent-digital-interface-carousel.webp",
         "category": "Salesforce Agentforce",
         "industry": "Générique",
         "date": "Dec. 30, 2024",
