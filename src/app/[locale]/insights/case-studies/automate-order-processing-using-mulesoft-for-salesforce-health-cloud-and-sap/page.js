@@ -1,7 +1,5 @@
 "use client";
-// pages/case-study-detail.js
 import Image from "next/image";
-import RelatedTopicsCarousel from "../../../components/relatedTopicsCarousel";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
@@ -68,16 +66,16 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[380px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
-            src="/images/case-studies/case study 1_n 1.webp"
-            alt="banner image"
+            src="/images/case-studies/healthcare-professional-colleague-hospital-discussion.webp"
+            alt={t('bannerAlt')}
             fill
             priority
           />
         </div>
         <div className="xl:hidden block h-full">
           <Image
-            src="/images/case-studies/case study 1_n 1.webp"
-            alt="banner image"
+            src="/images/case-studies/healthcare-professional-colleague-hospital-discussion.webp"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}

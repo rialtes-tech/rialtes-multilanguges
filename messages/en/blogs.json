@@ -6291,7 +6291,7 @@
         "unifiedData": [
             {
                 "title": "How Unified Systems Solve These Challenges",
-                "desc": "A <span>scalable real estate platform integration</span> replaces all those moving parts with a single ecosystem.",
+                "desc": "A <a href='https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>scalable real estate platform integration</a> replaces all those moving parts with a single ecosystem.",
                 "desc2": "Imagine this workflow:",
                 "list": [
                     "A lease is approved in CRM.",
@@ -6340,7 +6340,7 @@
                     "Which properties are underperforming on rent collection?",
                     "Where are maintenance costs trending highest?"
                 ],
-                "desc2": "With centralized leasing and finance data, decision-makers no longer rely on week-old reports or manual reconciliations."
+                "desc2": "With <a href='https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>centralized leasing and finance data</a>, decision-makers no longer rely on week-old reports or manual reconciliations."
             },
             {
                 "title": "Cost Efficiency and IT Simplification",
@@ -6499,7 +6499,7 @@
                     },
                     {
                         "title": "Tenant Experience",
-                        "desc": "Use sentiment data and <span>conversational AI for resident support</span> to personalize communication and improve satisfaction."
+                        "desc": "Use sentiment data and <a href='https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>conversational AI for resident support</a> to personalize communication and improve satisfaction."
                     }
                 ],
                 "desc2": "In short, AI converts reactive property operations into strategic, data-driven ecosystems. It gives asset managers the visibility they need to make informed decisions about maintenance, performance, investment, and sustainability."
@@ -6527,7 +6527,7 @@
                             "AI identifies the nearest available technician with the required expertise.",
                             "A work order is automatically generated and synced to the technician’s mobile device.",
                             "The technician completes the job, uploads notes, and closes the ticket.",
-                            "The system updates status in real time — giving management full visibility and <strong>SLA tracking and billing automation in real estate</strong>"
+                            "The system updates status in real time — giving management full visibility and <a href='https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SLA tracking and billing automation in real estate</a>"
                         ],
                         "desc": "This level of coordination helps large property portfolios save time, reduce fuel costs, and ensure that no alert is missed."
                     }
