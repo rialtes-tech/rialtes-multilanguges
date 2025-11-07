@@ -23,8 +23,7 @@ const schemaData = {
     "Case Study: Optimizing Sales Processes with Salesforce Sales Cloud for a Manufacturing Company",
   description:
     "Learn how a global manufacturing company streamlined lead management, improved sales productivity, and enhanced reporting using Salesforce Sales Cloud with Rialtes’ expertise.",
-  image:
-    "https://www.rialtes.com/images/case-studies/sales%20cloud%20case%20study.webp",
+  image: "https://www.rialtes.com/images/case-studies/quality-control-technician-inspecting-bottle-production-line.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -48,7 +47,6 @@ export default function Page() {
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const {
     problemList,
-    slides,
     maxiList,
     coustomerList,
     workflowList,
@@ -64,7 +62,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/`}
       />
 
       <Script

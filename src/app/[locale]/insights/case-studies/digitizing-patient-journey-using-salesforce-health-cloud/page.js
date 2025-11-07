@@ -56,7 +56,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/" />
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/`} />
       <Script
         id="schema-digitizing"
         type="application/ld+json"

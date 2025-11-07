@@ -37,7 +37,7 @@ const schemaData = {
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://www.rialtes.com/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation",
+      "https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation",
   },
   datePublished: "2025-06-16",
 
@@ -124,7 +124,7 @@ export default function Page() {
     riskPoints,
     faqData,
   } = blogsContent.whySapSignavio;
-  const fullUrl = "https://www.rialtes.com/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/";
 
   return (
     <div className="min-h-screen">
@@ -132,7 +132,7 @@ export default function Page() {
         title={t("seoTitle")}
         description={t("seoDescription")}
         keywords="Partners, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/`}
       />
 
       <Script
