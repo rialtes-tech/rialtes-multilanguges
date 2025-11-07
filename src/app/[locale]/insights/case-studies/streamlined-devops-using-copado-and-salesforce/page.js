@@ -23,8 +23,7 @@ const schemaData = {
   headline: "Case Study: Streamlined DevOps Using Copado and Salesforce",
   description:
     "Discover how Rialtes helped a company enhance release management, improve collaboration, and accelerate DevOps cycles using Copado integrated with Salesforce.",
-  image:
-    "https://www.rialtes.com/images/case-studies/case%20study%203_n%201.webp",
+  image: "https://www.rialtes.com/images/case-studies/construction-workers-safety-gear-laptop-warehouse.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -56,7 +55,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/case-studies/streamlined-devops-using-copado-and-salesforce/"
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/streamlined-devops-using-copado-and-salesforce/`}
       />
 
       <Script
