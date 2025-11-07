@@ -198,6 +198,16 @@
       }
     ],
     "latestBlogs": [
+       {
+        "id": 51,
+        "image": "/images/blog/exelona-cluster-feature-thumb.webp",
+        "category": "Exelona",
+        "industry": "Generic",
+        "date": "Nov. 04, 2025",
+        "url": "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
+        "title": "¿Qué significa una 'fuente única de la verdad' para el sector inmobiliario desde el cliente potencial hasta el arrendamiento?",
+        "description": "En la gestión inmobiliaria, rara vez son las cosas grandes las que ralentizan a los equipos. Son las innumerables pequeñas ineficiencias, los datos de arrendamiento que no coinciden, los registros duplicados o el tiempo perdido verificando hojas de cálculo."
+      },
       {
         "id": 50,
         "image": "/images/blog/ai-real-estate-cloud-infrastructure-mobile.webp",
@@ -208,17 +218,18 @@
         "title": "Convergencia CRM + ERP: cómo los líderes inmobiliarios eliminan los silos de sistemas y reducen costos",
         "description": "Esto es algo que todo líder inmobiliario ya sabe pero rara vez dice en voz alta: la pila tecnológica que debía simplificar las operaciones ha terminado por complicarlas."
       },
-      {   "id": 48,
-        "image": "/images/blog/ai-sla-billing-efficiency.webp",
+      {
+        "id": 49,
+        "image": "/images/blog/ai-sla-billing-efficiency-mobile.webp",
         "category": "Exelona",
         "industry": "Bienes Raíces",
         "date": "Oct. 27, 2025",
         "url": "/tracking-service-level-agreements-without-losing-mind/",
         "title": "¿Cómo hacer seguimiento de los SLA y la facturación sin perder la cabeza?",
         "description": "Un acuerdo de nivel de servicio (SLA) define el nivel de servicio esperado de un proveedor. Especifica las métricas utilizadas para medir ese servicio y los recursos disponibles si no se cumplen los niveles de servicio acordados."
-},
+      },
       {
-        "id": 49,
+        "id": 48,
         "image": "/images/blog/conversational-ai-in-real-estate-mobile.webp",
         "category": "Exelona",
         "industry": "Bienes Raíces",
@@ -227,26 +238,8 @@
         "title": "IA conversacional en bienes raíces: amplía el soporte a los residentes sin aumentar el personal",
         "description": "El soporte a los residentes en la gestión de propiedades se está volviendo más difícil de escalar. Entre las solicitudes de mantenimiento y las consultas de alquiler,"
       },
-      {
-        "id": 100,
-        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
-        "category": "IA",
-        "industry": "Genérico",
-        "date": "13 oct. 2025",
-        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
-        "title": "IA en operaciones inmobiliarias: reduce el tiempo de inactividad un 30 % y los costos operativos con mantenimiento predictivo",
-        "description": "Esta es la verdad sobre las operaciones inmobiliarias: siempre han sido un equilibrio entre costo, confort y continuidad."
-      },
-      {
-  "id": 48,
-  "image": "/images/blog/exelona-cluster-feature-thumb.webp",
-  "category": "Exelona",
-  "industry": "Generic",
-  "date": "Nov. 04, 2025",
-  "url": "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
-  "title": "¿Qué significa una 'fuente única de la verdad' para el sector inmobiliario desde el cliente potencial hasta el arrendamiento?",
-  "description": "En la gestión inmobiliaria, rara vez son las cosas grandes las que ralentizan a los equipos. Son las innumerables pequeñas ineficiencias, los datos de arrendamiento que no coinciden, los registros duplicados o el tiempo perdido verificando hojas de cálculo."
-},
+    
+     
       {
         "id": 47,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",

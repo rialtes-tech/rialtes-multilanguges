@@ -1,14 +1,25 @@
 "use client";
 import Image from "next/image";
-import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
-import useUrl from "@/app/[locale]/components/useUrl";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../../messages/en/blogs.json';
+import esContent from '../../../../../../messages/es/blogs.json';
+import frContent from '../../../../../../messages/fr/blogs.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import useUrl from "@/app/[locale]/components/useUrl";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
+
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind";
+     const fullUrl = "https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind";
     const currUrl = useUrl()
+    const t = useTranslations('slasBilling')
+    const locale = useLocale();
+    const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { dataDriven, propertyOpsSection, gutDriven, trackingDilemmaSection, smarterBilling, smartDashboardSection, dashboardStats, mostFirms, faqs } = blogsContent.slasBilling;
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",

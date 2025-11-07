@@ -199,6 +199,16 @@
       }
     ],
     "latestBlogs": [
+        {
+        "id": 52,
+        "image": "/images/blog/exelona-cluster-feature-thumb.webp",
+        "category": "Exelona",
+        "industry": "Generic",
+        "date": "Nov. 04, 2025",
+        "url": "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
+        "title": "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
+        "description": "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
+      },
       {
         "id": 51,
         "image": "/images/blog/ai-real-estate-cloud-infrastructure-mobile.webp",
@@ -211,7 +221,7 @@
       },
         {
         "id": 50,
-        "image": "/images/blog/ai-sla-billing-efficiency.webp",
+        "image": "/images/blog/ai-sla-billing-efficiency-mobile.webp",
         "category": "Exelona",
         "industry": "Real Estate",
         "date": "Oct. 27, 2025",
@@ -229,26 +239,7 @@
         "title": "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
         "description": "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries,"
       },
-      {
-        "id": 48,
-        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
-        "category": "AI",
-        "industry": "Generic",
-        "date": "Oct. 13, 2025",
-        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
-        "title": "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
-        "description": "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity."
-      },
-      {
-        "id": 52,
-        "image": "/images/blog/exelona-cluster-feature-thumb.webp",
-        "category": "Exelona",
-        "industry": "Generic",
-        "date": "Nov. 04, 2025",
-        "url": "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
-        "title": "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
-        "description": "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
-      },
+    
       {
         "id": 47,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",

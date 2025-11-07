@@ -198,6 +198,16 @@
       }
     ],
     "latestBlogs": [
+        {
+        "id": 51,
+        "image": "/images/blog/exelona-cluster-feature-thumb.webp",
+        "category": "Exelona",
+        "industry": "Generic",
+        "date": "Nov. 04, 2025",
+        "url": "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
+        "title": "Que signifie une 'source unique de vérité' pour l’immobilier, de la prospection à la location ?",
+        "description": "Dans la gestion immobilière, ce ne sont rarement les grandes choses qui ralentissent les équipes. Ce sont les innombrables petites inefficacités, les données de bail incohérentes, les enregistrements en double ou le temps perdu à vérifier les feuilles de calcul."
+      },
       {
         "id": 50,
         "image": "/images/blog/ai-real-estate-cloud-infrastructure-mobile.webp",
@@ -208,8 +218,8 @@
         "title": "Convergence CRM + ERP : comment les leaders immobiliers brisent les silos systèmes et réduisent les coûts",
         "description": "Voici quelque chose que tout dirigeant immobilier sait déjà mais dit rarement à voix haute : la pile technologique censée simplifier les opérations les a en réalité compliquées."
       },
-      { "id": 48,
-        "image": "/images/blog/ai-sla-billing-efficiency.webp",
+      { "id": 49,
+        "image": "/images/blog/ai-sla-billing-efficiency-mobile.webp",
         "category": "Exelona",
         "industry": "Immobilier",
         "date": "Oct. 27, 2025",
@@ -217,7 +227,7 @@
         "title": "Comment suivre les SLA et la facturation sans devenir fou ?",
         "description": "Un accord de niveau de service (SLA) définit le niveau de service attendu d’un fournisseur. Il précise les indicateurs utilisés pour mesurer ce service et les recours disponibles si les niveaux de service convenus ne sont pas respectés."},
       {
-        "id": 49,
+        "id": 48,
         "image": "/images/blog/conversational-ai-in-real-estate-mobile.webp",
         "category": "Exelona",
         "industry": "Immobilier",
@@ -226,28 +236,8 @@
         "title": "IA conversationnelle dans l’immobilier : étendez le support aux résidents sans ajouter de personnel",
         "description": "Le support aux résidents dans la gestion immobilière devient de plus en plus difficile à étendre. Entre les demandes de maintenance et les questions sur les loyers,"
       },
-      {
-        "id": 51,
-        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
-        "category": "IA",
-        "industry": "Générique",
-        "date": "13 oct. 2025",
-        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
-        "title": "IA dans les opérations immobilières : réduisez les temps d’arrêt de 30 % et les coûts opérationnels grâce à la maintenance prédictive",
-        "description": "Voici la vérité sur les opérations immobilières : elles ont toujours été un équilibre entre coût, confort et continuité."
-      },
-      {
-
-      
-        "id": 100,
-        "image": "/images/blog/exelona-cluster-feature-thumb.webp",
-        "category": "Exelona",
-        "industry": "Generic",
-        "date": "Nov. 04, 2025",
-        "url": "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
-        "title": "Que signifie une 'source unique de vérité' pour l’immobilier, de la prospection à la location ?",
-        "description": "Dans la gestion immobilière, ce ne sont rarement les grandes choses qui ralentissent les équipes. Ce sont les innombrables petites inefficacités, les données de bail incohérentes, les enregistrements en double ou le temps perdu à vérifier les feuilles de calcul."
-      },
+    
+    
       {
         "id": 47,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
@@ -260,7 +250,7 @@
         "alt": "Interface de bâtiment intelligent avec alertes de maintenance prédictive "
       },
       {
-        "id": 48,
+        "id": 46,
         "image": "/images/blog/salesforce-consulting-cluster-thumb.webp",
         "category": "Salesforce",
         "industry": "Générique",
