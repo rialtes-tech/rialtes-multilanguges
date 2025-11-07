@@ -139,7 +139,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting/"
+        canonical={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/oracle-ebs-consulting/`}
       />
       <Script
         id="schema-oracle"

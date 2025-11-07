@@ -3,7 +3,7 @@ import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import ContactForm from "../../components/contactform";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useActiveLocale } from "../../components/activeLanguages";
 
 const schemaData = {
@@ -25,6 +25,7 @@ const schemaData = {
 export default function Page() {
   const t = useTranslations('impact')
   const { frActive, esActive } = useActiveLocale();
+    const locale = useLocale();
 
   return (
     <div className="min-h-screen bg-white">
@@ -32,9 +33,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={
-          "https://www.rialtes.com/about-us/impact-and-social-responsibility/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/about-us/impact-and-social-responsibility/`}
       />
       <Script
         id="schema-impact"

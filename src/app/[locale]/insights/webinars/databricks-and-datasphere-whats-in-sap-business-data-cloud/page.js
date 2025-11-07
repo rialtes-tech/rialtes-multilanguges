@@ -52,22 +52,22 @@ export default function () {
             <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud"
                 seoData={
                     <Seo
-                    title={t('seoTitle')}
-                    description={t('seoDescription')}
-                        canonical="https://www.rialtes.com/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"
+                        title={t('seoTitle')}
+                        description={t('seoDescription')}
+                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/`}
                     />
                 }
                 schemaData={schemaData}
                 deskImg="/images/webinar/digital-data-wave-visualization-abstract.webp"
-                mobImg="/images/webinar/digital-data-wave-visualization-abstract.webp"  
-                imageAlt={t('imageAlt')}                     
+                mobImg="/images/webinar/digital-data-wave-visualization-abstract.webp"
+                imageAlt={t('imageAlt')}
                 webinarTitle={t('webinarTitle')}
                 speakerName="Akshay Kale"
                 speakerDesignation="Sr. Managing Director – SAP Services"
                 speakerImg="/images/webinar/Akshay.webp"
                 speakerImgAlt="webinar speaker Akshay Kale"
                 webinarInfo={t('webinarInfo')}
-                webinarAdvantages={webinarAdvantagesData}     
+                webinarAdvantages={webinarAdvantagesData}
                 whoShouldAttend={whoShouldAttendData}
                 dateNumber="13"
                 monthYear="May 2025"

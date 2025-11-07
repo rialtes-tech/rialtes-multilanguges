@@ -42,15 +42,14 @@ export default function Page() {
   const newsSalesContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { paragraphs } = newsSalesContent.newsSales;
 
-  const fullUrl =
-    "https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh";
+  const fullUrl = "https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh";
 
   return (
     <div className="min-h-screen bg-white">
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/"
+        canonical={`https://www.rialtes.com/${locale}/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/`}
       />
 
       <Script

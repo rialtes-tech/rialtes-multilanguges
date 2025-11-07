@@ -146,7 +146,7 @@ export default function Page() {
         <Image
           className="w-full transition-transform duration-300 hover:scale-105"
           src={services.image}
-          alt={services.title}
+          alt={services.alt}
           width={0}
           height={0}
           sizes="100vw"
@@ -166,7 +166,7 @@ export default function Page() {
   const GrowServices = () => {
     return (
       <div className="text-black lg:pr-20 md:pr-10 ">
-        <h2 className="pb-10 text-black 4xl:w-[100%] xl:w-[79%] w-fill leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">{t('growTitle')}</h2>
+        <h2 className="pb-10 text-red 4xl:w-[100%] xl:w-[79%] w-fill leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">{t('growTitle')}</h2>
         <p className="xl:w-full  text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('growDesc')}</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 2xl:gap-[140px] lg:gap-[110px] mt-20">
           {growLatestServices.map((services) => (
@@ -183,7 +183,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/industry/real-estate-property-management/"
+        canonical={`https://www.rialtes.com/${locale}/industry/real-estate-property-management/`}
       />
       <Script
         id="schema-real-estate"

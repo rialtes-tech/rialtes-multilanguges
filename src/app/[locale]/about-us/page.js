@@ -73,7 +73,7 @@ export default function About() {
               title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={"https://www.rialtes.com/about-us/"}
+                canonical={`https://www.rialtes.com/${locale}/about-us/`}
             />
             <Script
                 id="schema-about"

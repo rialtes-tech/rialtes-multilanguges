@@ -116,9 +116,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={
-          "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/`}
       />
 
       <Script
@@ -127,28 +125,28 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
-           {/* Desktop Image */}
-           <div className="hidden xl:block">
-             <Image
-               src="/images/blog/automotive-manufacturing-engineer-quality-control.webp"
-               alt={t("bannerAlt")}
-               fill
-               priority
-             />
-           </div>
-   
-           {/* Mobile Image */}
-           <div className="block xl:hidden">
-             <Image
-               src="/images/blog/automotive-manufacturing-engineer-quality-control-mobile.webp"
-               alt={t("bannerAlt")}
-               height={0}
-               width={0}
-               className="w-full h-auto object-cover"
-               priority
-             />
-           </div>
-         </section>
+        {/* Desktop Image */}
+        <div className="hidden xl:block">
+          <Image
+            src="/images/blog/automotive-manufacturing-engineer-quality-control.webp"
+            alt={t("bannerAlt")}
+            fill
+            priority
+          />
+        </div>
+
+        {/* Mobile Image */}
+        <div className="block xl:hidden">
+          <Image
+            src="/images/blog/automotive-manufacturing-engineer-quality-control-mobile.webp"
+            alt={t("bannerAlt")}
+            height={0}
+            width={0}
+            className="w-full h-auto object-cover"
+            priority
+          />
+        </div>
+      </section>
       <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">

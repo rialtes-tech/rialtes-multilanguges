@@ -40,8 +40,7 @@ const schemaData = {
   datePublished: "2025-05-29",
 };
 
-const fullUrl =
-  "https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs";
+const fullUrl = "https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs";
 
 export default function Page() {
   const t = useTranslations("howDoesSapAribaStreamline");
@@ -59,9 +58,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={
-          "https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/`}
       />
       <Script
         id="schema-how-does"
@@ -153,7 +150,7 @@ export default function Page() {
                     return (
                       <li className="mt-4 font-medium" key={ind}>
                         <span className="font-bold">{data.title} </span>
-                        {}
+                        { }
                         {data.desc}
                       </li>
                     );

@@ -108,7 +108,7 @@ export default function Agentforce() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
+                canonical={`https://www.rialtes.com/${locale}/solutions/artificial-intelligence/salesforce-agentforce-consulting/`}
             />
             <Script
                 id="schema-agentforce"

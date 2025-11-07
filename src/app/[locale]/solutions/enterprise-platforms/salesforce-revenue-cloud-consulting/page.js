@@ -121,10 +121,10 @@ export default function HealthCloud() {
   return (
     <section>
       <Seo
-       title={t('seoTitle')}
-       description={t('seoDescription')} 
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting/"
+        canonical={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting/`}
       />
       <Script
         id="schema-revenue-cloude"

@@ -113,7 +113,7 @@ export default function retailPage() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical="https://www.rialtes.com/industry/nonprofit-digital-transformation-it-solutions/"
+                canonical={`https://www.rialtes.com/${locale}/industry/nonprofit-digital-transformation-it-solutions/`}
             />
             <Script
                 id="schema-nonprofit"

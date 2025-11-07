@@ -10,8 +10,8 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
-import Link from "next/link";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -122,9 +122,7 @@ export default function Page() {
         title={t("seoTitle")}
         description={t("seoDescription")}
         keywords="Partners, website, welcome"
-        canonical={
-          "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/`}
       />
 
       <Script

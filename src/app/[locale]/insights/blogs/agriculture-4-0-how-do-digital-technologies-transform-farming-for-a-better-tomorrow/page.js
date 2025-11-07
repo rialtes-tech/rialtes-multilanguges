@@ -47,7 +47,7 @@ const schemaData = {
 };
 
 export default function Page() {
-  const t = useTranslations("agriculture"); 
+  const t = useTranslations("agriculture");
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, {
     en: enContent,
@@ -55,16 +55,15 @@ export default function Page() {
     fr: frContent,
   });
   const { adoptingData, commonData } = blogsContent.agriculture;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow";
   const currUrl = useUrl();
 
   return (
     <div className="min-h-screen bg-white">
       <Seo
-      title={t("seoTitle")}
-      description={t("seoDescription")}
-        canonical="https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
+        title={t("seoTitle")}
+        description={t("seoDescription")}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/`}
         image="https://www.rialtes.com/images/blog/agriculture-4.0-digital-farming.webp"
       />
 

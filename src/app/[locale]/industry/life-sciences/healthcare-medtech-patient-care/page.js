@@ -156,7 +156,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care/"
+        canonical={`https://www.rialtes.com/${locale}/industry/life-sciences/healthcare-medtech-patient-care/`}
       />
       <Script
         id="schema-healthcare"

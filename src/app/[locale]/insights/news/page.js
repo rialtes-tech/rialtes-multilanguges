@@ -62,11 +62,11 @@ export default function Page() {
             {casestudy.date}
           </div>
           <Link href={casestudy.url}>
-            <h4 className="mb-2 md:mb-4 md:font-semibold 4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight line-clamp-4">{casestudy.title}</h4>
+            <h4 className="mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight">{casestudy.title}</h4>
           </Link>
         </div>
         <Link href={casestudy.url}>
-          <p className="text-[#0092E0] font-bold mt-5 4xl:text-[30px] xl:text-[20px] text-[18px] leading-tight">{t('readMore')}</p>
+          <p className="text-[#0092E0] mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 leading-tight mt-5">{t('readMore')}</p>
         </Link>
       </div>
     </div>
@@ -114,7 +114,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="Rialtes news, Rialtes press releases, Rialtes media coverage, Rialtes events, Rialtes announcements, Salesforce news, SAP news, digital transformation news, AI in business news"
-        canonical="https://www.rialtes.com/insights/news/"
+        canonical={`https://www.rialtes.com/${locale}/insights/news/`}
       />
       <Script
         id="schema-news-main"
@@ -154,8 +154,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section
-        className="custom-container">
+      <section className="custom-container">
         <div className="md:py-10 py-6 bg-white">
           <p className="text-[#000000] py-6 max-w-4xl 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{t('newsDesc')}</p>
         </div>

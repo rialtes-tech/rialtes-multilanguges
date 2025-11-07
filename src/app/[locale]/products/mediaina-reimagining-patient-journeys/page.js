@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
-import Link from "next/link";
 import Script from "next/script";
 import ContactForm from "@/app/[locale]/components/contactform";
 import UnorderedList from "../../components/unorderedList";
@@ -135,7 +134,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/"
+                canonical={`https://www.rialtes.com/${locale}/products/mediaina-reimagining-patient-journeys/`}
             />
             <Script
                 id="schema-grow"

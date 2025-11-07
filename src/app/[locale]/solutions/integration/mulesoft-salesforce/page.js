@@ -123,10 +123,10 @@ const page = () => {
   return (
     <>
       <Seo
-          title={t('seoTitle')}
-          description={t('seoDescription')}
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/solutions/integration/mulesoft-salesforce/"
+        canonical={`https://www.rialtes.com/${locale}/solutions/integration/mulesoft-salesforce/`}
       />
       <Script
         id="schema-mulesoft"
@@ -239,7 +239,7 @@ const page = () => {
           </div>
         </div>
         <div className="mt-6 custom-container">
-          <LearnMore btnName={t('learnMore')}/>
+          <LearnMore btnName={t('learnMore')} />
         </div>
       </section>
       {/* serve section */}

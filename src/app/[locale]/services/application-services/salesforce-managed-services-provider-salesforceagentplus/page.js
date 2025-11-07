@@ -111,7 +111,7 @@ export default function page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical="https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/"
+                canonical={`https://www.rialtes.com/${locale}/services/application-services/salesforce-managed-services-provider-salesforceagentplus/`}
             />
             <Script
                 id="schema-salesforceplus"

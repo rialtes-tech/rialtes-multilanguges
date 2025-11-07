@@ -97,9 +97,7 @@ export default function Page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={
-                    "https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/"
-                }
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/`}
             />
 
             <Script
@@ -135,13 +133,13 @@ export default function Page() {
                 <div className="grid lg:grid-cols-12 grid-cols-12">
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 col-span-12">
 
-                       
- {/* date and icons */}
-            <BlogSocialIcons
-              fullUrl={fullUrl}
-              topic={t("blogTopic")}
-              date="30 September 2025"
-            />
+
+                        {/* date and icons */}
+                        <BlogSocialIcons
+                            fullUrl={fullUrl}
+                            topic={t("blogTopic")}
+                            date="30 September 2025"
+                        />
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
                             <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t('blogTitle')}</h1>

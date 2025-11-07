@@ -468,7 +468,7 @@ export default function Page() {
                                                         : "absolute 4xl:top-[110px] top-[100px] 2xl:top-[110px] xl:top-[110px] left-1/2 transform -translate-x-1/2"
                                                 }`}
 
-                                            
+
                                             >
                                                 <svg className="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -530,7 +530,7 @@ export default function Page() {
                                                         : "4xl:mt-[115px] xl:mt-[120px] md:mt-[80px] mt-[100px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                 }`}
 
-                                            
+
                                             >{t('automatically')}</p>
                                         </div>
                                         <div className="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
