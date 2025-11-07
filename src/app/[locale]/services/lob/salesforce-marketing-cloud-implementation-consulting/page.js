@@ -173,7 +173,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/lob/salesforce-marketing-cloud-implementation-consulting/"
+                canonical={`https://www.rialtes.com/${locale}/services/lob/salesforce-marketing-cloud-implementation-consulting/`}
             />
             <Script
                 id="schema-salesforce-marketing"

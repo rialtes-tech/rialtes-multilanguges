@@ -24,7 +24,7 @@ const schemaData = {
   headline: "SAP Ariba Procurement: Streamlining Direct and Indirect Needs",
   description:
     "SAP Ariba streamlines direct and indirect procurement by digitizing workflows, enhancing compliance, and driving cost efficiency.",
-  image: "https://www.rialtes.com/images/blog/sap-ariba-web-banner.webp",
+  image: "https://www.rialtes.com/images/blog/fiber-optic-network-data-connectivity.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -40,8 +40,7 @@ const schemaData = {
   datePublished: "2025-05-29",
 };
 
-const fullUrl =
-  "https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs";
+const fullUrl = "https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs";
 
 export default function Page() {
   const t = useTranslations("howDoesSapAribaStreamline");
@@ -59,9 +58,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={
-          "https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/`}
       />
       <Script
         id="schema-how-does"
@@ -73,8 +70,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden xl:block">
           <Image
-            src="/images/blog/sap-ariba-web-banner.webp"
-            alt="SAP Ariba Streamline"
+            src="/images/blog/fiber-optic-network-data-connectivity.webp"
+            alt={t('bannerAlt')}
             fill
             priority
           />
@@ -83,8 +80,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block xl:hidden">
           <Image
-            src="/images/blog/sap-ariba-mobile-banner.webp"
-            alt="SAP Ariba Streamline"
+            src="/images/blog/fiber-optic-network-data-connectivity-mobile.webp"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}
@@ -153,7 +150,7 @@ export default function Page() {
                     return (
                       <li className="mt-4 font-medium" key={ind}>
                         <span className="font-bold">{data.title} </span>
-                        {}
+                        { }
                         {data.desc}
                       </li>
                     );

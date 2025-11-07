@@ -144,13 +144,11 @@ export default function Page() {
 
   return (
     <section className="min-h-screen">
-      <Seo
+      <Seo 
         title={t("seoTitle")}
         description={t("seoDescription")}
         keywords="Partners, website, welcome"
-        canonical={
-          "https://www.rialtes.com/insights/blogs/how-agentforce-ai-transforms-erp-systems/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-agentforce-ai-transforms-erp-systems/`}
       />
 
       <Script
@@ -164,7 +162,7 @@ export default function Page() {
         <div className="xl:block hidden">
           <Image
             src="/images/blog/agentforce-ai-erp.webp"
-            alt="banner image"
+            alt={t('bannerAlt')}
             fill
             priority
           />
@@ -172,7 +170,7 @@ export default function Page() {
         <div className="xl:hidden block">
           <Image
             src="/images/blog/agentforce-ai-erp-mobile.webp"
-            alt="banner image"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}

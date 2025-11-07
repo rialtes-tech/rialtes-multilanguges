@@ -1,5 +1,18 @@
 {
   "sapBuyPlus": {
+    "sapJouleAlt":"Assistant RH alimenté par l’IA pour SuccessFactors — Exploitez l’IA avec SAP Joule : Donner les moyens au futur des ressources humaines",
+     "sapPartnerLogoAlt": "Logo officiel de partenaire SAP représentant la certification de Rialtes en implémentation SAP SuccessFactors. ",
+    "bannerAlt": "Rialtes SuccessPlus – partenaire d’implémentation SAP SuccessFactors aidant les organisations à optimiser leur transformation RH. ",
+    "sapSuccessAlt": "Logo officiel de SAP SuccessFactors avec texte bleu et icône de cœur jaune, représentant une transformation RH centrée sur les personnes. ",
+        "zohoAlt": "Infographie comparant les solutions de gestion RH SAP SuccessFactors et Zoho People. ",
+     "sapSuccessfacorAlt": "Logo officiel de SAP SuccessFactors avec texte bleu et icône de cœur jaune, représentant une transformation RH centrée sur les personnes. ",
+    "agentchatIconAlt": "Icône WhatsApp renvoyant vers l’assistance Rialtes pour les demandes liées à SAP SuccessFactors.",
+    "extendAlt": "Illustration des fonctionnalités étendues de SAP SuccessFactors grâce aux modules complémentaires SuccessPlus de Rialtes.",
+    "sapJuleAlt": "Tableau d’intégration SAP ERP et SuccessFactors pour des opérations RH fluides.",
+    "successFactorAlt": "Tableau de bord SAP SuccessFactors présentant la gestion unifiée des RH, de la paie et des talents.",
+    "sapCpiAlt": "Tableau SAP Cloud Platform Integration (CPI) illustrant les flux de travail RH connectés au sein de SuccessFactors.",
+    "keySerAlt": "Illustration présentant les principaux services d’implémentation et de support SAP SuccessFactors proposés par Rialtes. ",
+    "workDayAlt": "Graphique comparatif mettant en avant les avantages de SAP SuccessFactors par rapport à Workday dans la transformation RH. ",
     "headerTitle": "SAPBuy+",
     "whyChooseAlt": "Image de bannière mettant en avant les services d’implémentation SAPBuy+ ARIBA de Rialtes avec deux professionnels examinant des documents",
     "agentchatAlt": "Capture d’écran de l’application WhatsApp RialChat permettant des validations d’achats en temps réel.",

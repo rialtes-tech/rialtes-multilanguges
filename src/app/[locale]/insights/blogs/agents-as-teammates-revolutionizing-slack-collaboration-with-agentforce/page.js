@@ -24,7 +24,7 @@ const schemaData = {
   description:
     "Discover how Agentforce transforms Slack into a collaborative space with AI teammates that automate workflows, manage tasks, and enhance productivity.",
   image:
-    "https://www.rialtes.com/images/blog/agentforce-slack-integration.webp",
+    "https://www.rialtes.com/images/blog/ai-agent-digital-interface.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -60,7 +60,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/"
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/`}
       />
       <Script
         id="schema-agents-vs"
@@ -73,8 +73,8 @@ export default function Page() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
-            src="/images/blog/agents-as-teammates-desk-img.webp"
-            alt="banner"
+            src="/images/blog/ai-agent-digital-interface.webp"
+            alt={t('bannerAlt')}
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -85,8 +85,8 @@ export default function Page() {
         {/* Mobile Image */}
         <div className="block md:hidden h-full">
           <Image
-            src="/images/blog/agents-as-teammates-mob-img.webp"
-            alt="banner"
+            src="/images/blog/ai-agent-digital-interface-mobile.webp"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}

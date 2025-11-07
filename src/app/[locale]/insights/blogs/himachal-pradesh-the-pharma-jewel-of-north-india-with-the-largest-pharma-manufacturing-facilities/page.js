@@ -12,12 +12,10 @@ import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
-
 import useUrl from "@/app/[locale]/components/useUrl";
-const schemaData = {};
 
-const fullUrl =
-  "https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities";
+const schemaData = {};
+const fullUrl = "https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities";
 
 export default function Page() {
   const t = useTranslations("himachalBlog");
@@ -41,9 +39,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={
-          "https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/`}
       />
       <Script
         id="schema-himachal"
@@ -51,29 +47,29 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-     <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
-               {/* Desktop Image */}
-               <div className="hidden xl:block">
-                 <Image
-                   src="/images/blog/pharmaceutical-manufacturing-robotics-automation.webp"
-                   alt={t("bannerAlt")}
-                   fill
-                   priority
-                 />
-               </div>
-       
-               {/* Mobile Image */}
-               <div className="block xl:hidden">
-                 <Image
-                   src="/images/blog/pharmaceutical-manufacturing-robotics-automation-mobile.webp"
-                   alt={t("bannerAlt")}
-                   height={0}
-                   width={0}
-                   className="w-full h-auto object-cover"
-                   priority
-                 />
-               </div>
-             </section>
+      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
+        {/* Desktop Image */}
+        <div className="hidden xl:block">
+          <Image
+            src="/images/blog/pharmaceutical-manufacturing-robotics-automation.webp"
+            alt={t("bannerAlt")}
+            fill
+            priority
+          />
+        </div>
+
+        {/* Mobile Image */}
+        <div className="block xl:hidden">
+          <Image
+            src="/images/blog/pharmaceutical-manufacturing-robotics-automation-mobile.webp"
+            alt={t("bannerAlt")}
+            height={0}
+            width={0}
+            className="w-full h-auto object-cover"
+            priority
+          />
+        </div>
+      </section>
 
       <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
         <div className="grid lg:grid-cols-12">
@@ -192,7 +188,7 @@ export default function Page() {
                       <p
                         className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                         key={ind}
-                      >\     
+                      >\
                         {data}
                       </p>
                     );

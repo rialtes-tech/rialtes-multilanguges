@@ -22,7 +22,7 @@ const schemaData = {
   },
   "headline": "How SAP SuccessFactors Integrations Enhance HR and Payroll Operations",
   "description": "Explore how integrating SAP SuccessFactors with various enterprise systems streamlines HR and payroll processes, ensuring accuracy, compliance, and improved employee satisfaction.",
-  "image": "https://www.rialtes.com/images/blog/successfactor-web-banner.webp",
+  "image": "https://www.rialtes.com/images/blog/abstract-cloud-computing-network-architecture.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes"
@@ -51,7 +51,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={"https://www.rialtes.com/insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations/"}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations/`}
       />
 
       <Script
@@ -64,16 +64,16 @@ export default function Page() {
  <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/blog/successfactor-web-banner.webp"
-                        alt="banner image"
+                        src="/images/blog/abstract-cloud-computing-network-architecture.webp"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/blog/successfactor-mobile-banner.webp"
-                        alt="banner image"
+                        src="/images/blog/abstract-cloud-computing-network-architecture-mobile.webp"
+                        alt={t('bannerAlt')}
                         priority
                         height={0}
                         width={0}

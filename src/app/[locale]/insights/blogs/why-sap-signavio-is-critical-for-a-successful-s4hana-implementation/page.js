@@ -124,8 +124,7 @@ export default function Page() {
     riskPoints,
     faqData,
   } = blogsContent.whySapSignavio;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/";
+  const fullUrl = "https://www.rialtes.com/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/";
 
   return (
     <div className="min-h-screen">
@@ -133,9 +132,7 @@ export default function Page() {
         title={t("seoTitle")}
         description={t("seoDescription")}
         keywords="Partners, website, welcome"
-        canonical={
-          "https://www.rialtes.com/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blog/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/`}
       />
 
       <Script
@@ -237,7 +234,7 @@ export default function Page() {
                 <ol className="flex flex-col lg:flex-row relative lg:mt-[74px] mt-[60px] xl:w-[1100px]">
                   {voyagerPoints.map((step, index) => (
                     <li
-                      key={step.id}
+                      key={step.index}
                       className="relative flex-1 lg:mb-0 flex flex-col"
                     >
                       {/* Circle */}

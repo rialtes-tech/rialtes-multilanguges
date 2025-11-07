@@ -100,7 +100,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={"https://www.rialtes.com/about-us/our-values/"}
+                canonical={`https://www.rialtes.com/${locale}/about-us/our-values/`}
             />
             <Script
                 id="schema-our"

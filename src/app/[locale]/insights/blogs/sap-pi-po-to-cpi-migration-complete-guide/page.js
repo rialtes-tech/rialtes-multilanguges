@@ -125,8 +125,7 @@ export default function Page() {
     multilayerData,
   } = content.sapPiPo;
 
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide";
   const currUrl = useUrl();
 
   return (
@@ -135,9 +134,7 @@ export default function Page() {
         title={t("seoTitle")}
         description={t("seoDescription")}
         type="article"
-        canonical={
-          "https://www.rialtes.com/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide/`}
       />
 
       <Script

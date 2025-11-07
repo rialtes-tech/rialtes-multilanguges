@@ -99,9 +99,7 @@ export default function Page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={
-                    "https://www.rialtes.com/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/"
-                }
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/`}
             />
 
             <Script
@@ -115,7 +113,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/salesforce-implementation-partners-strategies.webp"
-                        alt={t('bannerAlt')} 
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
@@ -123,7 +121,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/salesforce-implementation-partners-strategies-mobile.webp"
-                        alt={t('bannerAlt')} 
+                        alt={t('bannerAlt')}
                         priority
                         height={0}
                         width={0}

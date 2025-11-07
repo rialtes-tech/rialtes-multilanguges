@@ -200,6 +200,7 @@
   },
   "automateCaseStudy": {
     "autoTitle": "Automatización del procesamiento de pedidos en el sector sanitario con MuleSoft",
+    "bannerAlt": "Profesional de salud y colega discutiendo atención al paciente con tableta digital en pasillo de hospital moderno",
     "seoTitle": "Estudio MuleSoft: Automatización de pedidos con Salesforce y SAP",
     "seoDescription": "Descubre cómo MuleSoft automatizó flujos de pedidos complejos con Salesforce y SAP.",
     "healthcare": "Salud",
@@ -322,6 +323,7 @@
     ]
   },
   "empoweringCaseStudy": {
+    "bannerAlt": "Muro de exhibición mostrando variedad de muestras de tejas para techos en diferentes colores incluyendo marrón beige gris y negro",
     "headerTitle": "150 pedidos al día, cero trabajo manual: Priorización de pedidos con autoservicio impulsada por Fiori",
     "manufacturing": "Manufactura",
     "seoTitle": "SAP Fiori para priorización de pedidos en manufactura",
@@ -360,6 +362,7 @@
     ]
   },
   "leadingCaseStudy": {
+    "bannerAlt": "Brazos robóticos industriales amarillos ensamblando estructuras de carrocería en línea de producción automatizada en planta automotriz moderna",
     "leadingTitle": "Fabricante de Automóviles Líder Logró un Aumento del 35% en la Satisfacción del Cliente con AutoSense",
     "seoTitle": "Gestión de garantías Salesforce: AutoSense en acción",
     "seoDescription": "Esta estudio muestra cómo AutoSense automatizó garantías, redujo errores y mejoró la eficiencia operativa.",
@@ -561,6 +564,7 @@
     ]
   },
   "optimizingCaseStudy": {
+    "bannerAlt": "Técnica de control de calidad con cofia y gafas de seguridad inspeccionando botella transparente en línea de producción automatizada",
     "salesTitle": "Optimización de Ventas con Salesforce Sales Cloud para la Manufactura",
     "manufacturing": "Manufactura",
     "seoTitle": "Estudio Salesforce Sales Cloud: Optimización de ventas",
@@ -649,6 +653,7 @@
     ]
   },
   "realForceCaseStudy": {
+    "bannerAlt": "Profesionales de negocios y arquitecto revisando planos y señalando planes de construcción en moderna oficina luminosa",
     "autoTitle": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
     "seoTitle": "Estudio Exelona: Carga anticipada de ACH y registros",
     "seoDescription": "Descubre cómo Rialtes optimizó la carga anticipada de ACH y registros para mejorar la precisión financiera.",
@@ -711,6 +716,7 @@
     ]
   },
   "autoSenseCaseStudy": {
+    "bannerAlt": "Mujer de negocios sonriente con gafas y colega masculino colaborando en computadora portátil en ambiente de oficina contemporánea",
     "dealerTitle": "Impulsando la Gestión de Concesionarios con AutoSense de Rialtes",
     "manufacturing": "Manufactura",
     "seoTitle": "Revolucionando la gestión de concesionarios con AutoSense",
@@ -889,6 +895,7 @@
   },
   "devopsCaseStudy": {
     "devopsTitle": "Transformación DevOps usando Copado y Salesforce",
+    "bannerAlt": "Equipo de construcción diverso usando cascos de seguridad y chalecos reflectantes revisando datos de proyecto en portátil en almacén industrial",
     "seoTitle": "Estudio Salesforce DevOps: Optimización de entregas",
     "seoDescription": "Descubre cómo optimizar DevOps con Copado y Salesforce aceleró entregas y redujo errores manuales.",
     "manufacturing": "Manufactura",
@@ -949,6 +956,7 @@
     ]
   },
   "mobileCaseStudy": {
+    "bannerAlt": "Ajustador de seguros y propietario revisando detalles de reclamo en tableta frente a techo dañado por tormenta requiriendo evaluación",
     "claimTitle": "Reclamo en 4 minutos: Rialtes crea un portal móvil para transformar la experiencia de reclamaciones",
     "manufacturing": "Manufactura",
     "seoTitle": "Estudio Salesforce Experience Cloud: Portal móvil de garantías",
@@ -972,6 +980,7 @@
     ]
   },
   "warrantyClaimCaseStudy": {
+    "bannerAlt": "Muestras de tejas para techos en capas mostrando múltiples opciones de color incluyendo rojo marrón azul gris beige y tonos cobre",
     "warrantyTitle": "40% de Aumento en la Adopción de la Aplicación de Garantías Usando la Funcionalidad de Salesforce Experience Cloud",
     "manufacturing": "Manufactura",
     "seoTitle": "Estudio: Experience Cloud para fabricante de techos",
@@ -1047,6 +1056,7 @@
     ]
   },
   "eduplusCaseStudy": {
+    "bannerAlt": "Birrete de graduación con borla dorada flotando sobre nubes blancas con escalera de madera simbolizando logro educativo y avance profesional",
     "educationcloud": "Educación",
     "seoTitle": "Estudio Salesforce Education Cloud | Rialtes",
     "seoDescription": "Descubre cómo Edu+ en Education Cloud aumentó inscripciones 22% y mejoró soporte estudiantil con IA y automatización.",

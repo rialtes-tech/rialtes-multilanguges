@@ -45,7 +45,8 @@ export default function Page() {
         <Link href={'/insights/blogs' + blog.url}>
           <Image
             src={blog.image}
-            alt={blog.title}
+            alt={blog.alt}
+            title={blog.title}
             width={0}
             height={0}
             sizes="100vw"
@@ -61,7 +62,7 @@ export default function Page() {
             <span className='text-[#ACACAC]'> | </span>
             {blog.date}
           </div>
-          <Link href={'/insights/blogs' + blog.url}><h4 className="mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 4xl:text-[25px] xl:text-[20px] text-[18px]  leading-tight">{blog.title}</h4></Link>
+          <Link href={'/insights/blogs' + blog.url}><h4 className="mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight">{blog.title}</h4></Link>
         </div>
         <div className="flex flex-col">
           <p className='line-clamp-4 md:mb-4 mb-2 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>{blog.description}</p>
@@ -305,7 +306,8 @@ export default function Page() {
                   <Link href={'/insights/blogs' + slide.url}>
                     <Image
                       src={slide.image}
-                      alt={slide.title}
+                      alt={slide.alt}
+                      title={slide.title}
                       width={0}
                       height={0}
                       sizes="100vw"
@@ -335,7 +337,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/blogs/"
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/`}
       />
       <Script
         id="schema-blogs"
@@ -349,7 +351,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/blog/blog-header-web.webp"
-            alt="desktop banner"
+            alt={t('mainBlogbannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -361,7 +363,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/blog/blog-header-mobile.webp"
-            alt="mobile banner"
+            alt={t('mainBlogbannerAlt')}
             fill
             priority
             style={{ objectFit: "cover", objectPosition: "35% 60%" }}

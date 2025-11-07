@@ -78,16 +78,16 @@ export default function page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[380px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
-            src="/images/case-studies/Transforming-student-success.webp"
-            alt="banner image"
+            src="/images/case-studies/graduation-cap-ladder-clouds-education-success-concept.webp"
+            alt={t('bannerAlt')}
             fill
             priority
           />
         </div>
         <div className="xl:hidden block h-full">
           <Image
-            src="/images/case-studies/Feature Thumb.webp"
-            alt="banner image"
+            src="/images/case-studies/graduation-cap-ladder-clouds-education-success-concept-mobile.webp"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}

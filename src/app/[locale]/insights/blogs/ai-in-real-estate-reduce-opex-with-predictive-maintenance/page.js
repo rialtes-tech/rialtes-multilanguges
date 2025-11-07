@@ -14,7 +14,7 @@ import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 export default function Page() {
-    const t = useTranslations("aiRealEstate"); 
+    const t = useTranslations("aiRealEstate");
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, {
         en: enContent,
@@ -109,9 +109,7 @@ export default function Page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={
-                    "https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/"
-                }
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/`}
             />
 
             <Script
@@ -133,7 +131,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/ai-property-operations-predictive-maintenance-mobile.webp"
-                       alt={t('bannerAlt')}
+                        alt={t('bannerAlt')}
                         priority
                         height={0}
                         width={0}
@@ -229,7 +227,7 @@ export default function Page() {
                                     }
                                 </div>
 
-                                <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('predictiveDesc4')} <span>{t('predictiveDesc4Link')}</span>.</p>
+                                <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('predictiveDesc4')} <a href='https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>{t('predictiveDesc4Link')}</a>.</p>
 
                                 <h3 className="mt-10 lg:mt-[80px] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold">{t('dataPowerTitle')}</h3>
                                 <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-[28px] lg:mt-[48px] md:gap-x-[60px] lg:gap-0 sm:w-[80%] md:w-full 4xl:w-[1200px]">
@@ -375,25 +373,25 @@ export default function Page() {
                                     keyElemData.map((data, ind) => {
                                         return (
                                             <div
-                                                className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[46px] px-[26px] 
+                                                className={`md:flex mt-24 md:mt-10 py-[34px] px-[26px] 
                                                            md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative 
-                                                           md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto 4xl:w-[86%]"
+                                                           md:ml-[90px] sm:w-[86%] md:w-auto lg:w-[80%] xl:w-[110%] 4xl:w-[90%]  ${ind == 3 ? "md:py-8 lg:py-8 xl:py-[20px] 2xl:py-8" : "md:py-[46px] lg:py-[46px]"}`}
                                                 key={ind}>
                                                 <h3
-                                                    className="md:absolute md:flex items-center
+                                                    className={`md:absolute md:flex items-center
                                                                 max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
                                                                 md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
                                                                 bg-[#006FBE] text-white font-semibold
                                                                 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
                                                                 px-[30px] py-[22px] leading-tight
-                                                                4xl:w-[380px] xl:w-[320px] md:w-[340px] w-fit 4xl:h-[110px]">
+                                                                4xl:w-[380px] xl:w-[320px] md:w-[320px] w-fit md:h-[100px]`}>
                                                     {data.title}
                                                 </h3>
 
                                                 <div
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
                                                                 font-medium my-auto max-md:mt-8
-                                                                md:ml-[300px] xl:ml-[280px] 4xl:ml-[380px]"
+                                                                md:ml-[250px] lg:ml-[250px] xl:ml-[250px] 2xl:ml-[270px] 4xl:ml-[320px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                             </div>

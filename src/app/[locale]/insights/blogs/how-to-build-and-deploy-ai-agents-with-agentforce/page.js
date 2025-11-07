@@ -118,19 +118,16 @@ export default function Page() {
     actionsData,
     typesOfAgents,
   } = blogsContent.firstAiAgent;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce";
   const currUrl = useUrl();
 
   return (
     <div className="min-h-screen">
       <Seo
-       title={t('seoTitle')}
-       description={t('seoDescription')}
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         keywords="Partners, website, welcome"
-        canonical={
-          "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/`}
       />
 
       <Script
@@ -165,7 +162,7 @@ export default function Page() {
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-9 xl:col-span-10 lg:col-span-11">
             {/* date and icons */}
-               <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="02 September 2025" />
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="02 September 2025" />
             {/* main blog */}
 
             <div className="xl:mt-[60px] mt-[42px]">

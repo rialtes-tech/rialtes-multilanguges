@@ -11,6 +11,7 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -56,7 +57,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/`}
       />
 
       <Script

@@ -393,6 +393,7 @@
         "improveData3": " Our pharma and tech experts guide you to simplify AI integration into your workflows, enhancing research, optimizing production, and driving data-backed strategies. Whether enhancing R&D, streamlining manufacturing, or improving customer engagement, they ensure a seamless transition to AI-powered operations."
     },
     "howDoesSapAribaStreamline": {
+        "bannerAlt": "Blue fiber optic cables with glowing data streams representing high-speed network connectivity and digital infrastructure",
         "seoTitle": "SAP Ariba Procurement for Direct & Indirect Efficiency | Rialtes",
         "seoDescription": "SAP Ariba streamlines direct and indirect procurement by digitizing every step—from sourcing to payment—boosting savings, speed, and control.",
         "blogTopic": "SAP",
@@ -470,6 +471,7 @@
         "integrateDesc3": "Rialtes offers a range of services, including consulting, implementation, and support. We help reinvent your procurement operations and enhance decision-making through SAP Ariba solutions."
     },
     "howSapSuccessFactorIntegration": {
+        "bannerAlt": "Abstract blue digital network architecture with transparent geometric cubes and data streams representing cloud computing infrastructure",
         "seoTitle": "SAP SuccessFactors Integration: Enhance HR and Payroll | Rialtes",
         "seoDescription": "SAP SuccessFactors integrations are a game-changer for HR and payroll operations—enhancing efficiency, accuracy, and compliance for global and local teams.",
         "blogTopic": "SAP SucessFactors",
@@ -630,6 +632,7 @@
         "overcomeLink": "SAP SuccessFactors integration solutions."
     },
     "redefiningBlog": {
+        "bannerAlt": "Glowing blue and cyan digital tree with flowing connected lines and light points on dark blue background showing data network",
         "seoTitle": "SAP Joule AI: Powering the Future of Enterprise | Rialtes",
         "seoDescription": "SAP Joule AI transforms business operations by enabling faster decision-making, giving users instant answers without navigating complex dashboards.",
         "blogTopic": "SAP",
@@ -743,7 +746,9 @@
         "shiftFromLink3": "SAP Ariba"
     },
     "sapDataCloud": {
-        "sapImage": "/images/blog/image (5).png",
+        "bannerAlt": "Blue ocean wave with digital wireframe grid overlay and glowing connection points representing data flow and digital transformation",
+        "sapImage": "/images/blog/sap-business-data-cloud-technical-architecture-diagram.png",
+        "sapAlt": "Diagram showing SAP Business Data Cloud central hub connected to six components including databases, analytics, and AI assistant",
         "seoTitle": "What Is BDC in SAP? Transform with SAP Business Data Cloud | Rialtes",
         "seoDescription": "SAP BDC simplifies data integration by enabling real-time access to trustworthy data, supporting AI-ready decision-making and business transformation.",
         "blogs": [
@@ -858,6 +863,7 @@
         "acceleratesDesc3": "to explore its potential impact on your organization."
     },
     "powerfulFeatures": {
+        "bannerAlt": "Cute blue AI chatbot robot with glowing eyes pointing upward representing artificial intelligence and customer service automation",
         "seoTitle": "Key Features That Make Agentforce a Game-Changer | Rialtes",
         "seoDescription": "Salesforce Agentforce features address CX gaps with intelligent routing, AI-led case resolution, and performance dashboards for better decisions.",
         "blogTopic": "Salesforce Agentforce",
@@ -1001,6 +1007,7 @@
         "transitionDesc2": "Rialtes enables businesses to integrate customized Agentforce agents into their ERP platforms, automating tasks and optimizing workflows. Using machine learning and natural language processing, we align agents with organizational goals for effective intelligent automation. Get in touch with us at "
     },
     "howSuccessFactorEnhances": {
+        "bannerAlt": "Professional typing on laptop with digital wave pattern representing remote work, productivity, and cloud-based technology",
         "seoTitle": "Your Guide to SAP SuccessFactors for Remote Teams | Rialtes",
         "seoDescription": "Facing challenges managing remote teams? SAP SuccessFactors offers tools to boost engagement, track performance, and ensure seamless collaboration.",
         "blogTopic": "SAP SuccessFactors",
@@ -1159,6 +1166,7 @@
         "manageDesc3": "for consultation on SAP SuccessFactors features, benefits, and deployment."
     },
     "agentForceAgents": {
+        "bannerAlt": "Glowing robotic hand hovering over laptop keyboard representing AI automation, machine learning, and digital transformation",
         "seoTitle": "Scale the Future of Enterprise Resource Planning with AI",
         "seoDescription": "With Salesforce AI, Agentforce automates ERP tasks, provides real-time insights, and ensures seamless collaboration, shaping the future of scalable systems.",
         "blogTopic": "Salesforce Agentforce",
@@ -1222,6 +1230,7 @@
         "futureDesc3": "Rialtes allows businesses to integrate customized Agentforce agents into their specific ERP platforms, automating repetitive tasks and optimizing workflows. Utilizing machine learning and natural language processing, we ensure these agents align with organizational goals. Enterprises can ensure their Agentforce deployments harness reliable data for intelligent automation. Contact us at"
     },
     "meetTeammate": {
+        "bannerAlt": "Digital AI agent interface glowing in blue with futuristic circuits and data patterns",
         "seoTitle": "How to Enhance Slack Collaboration with Agentforce | Rialtes",
         "seoDescription": "Agentforce turns Slack into a smarter collaboration hub, combining real-time messaging with AI agents to streamline IT requests and enhance teamwork.",
         "blogTopic": "Salesforce Agentforce",
@@ -1321,7 +1330,7 @@
         "collaborateDesc3": "are driven by reliable, actionable data, maximizing the potential of intelligent automation. Get in touch with us at"
     },
     "integrateSapSuccessFactor": {
-        "bannerAlt" : "Abstract blue and orange halftone dot pattern creating wave design on navy background for tech graphics",
+        "bannerAlt": "Abstract blue and orange halftone dot pattern creating wave design on navy background for tech graphics",
         "seoTitle": "How to Integrate SAP with Office 365 for Enhanced HR Collaboration",
         "seoDescription": "Discover how SAP Office 365 integration can simplify HR processes, automate workflows, and foster seamless collaboration across Office 365 apps.",
         "blogTopic": "SAP SuccessFactors",
@@ -1454,7 +1463,7 @@
         "completeDesc4": "to get started with one of our expert SAP SuccessFactors consultants!"
     },
     "enhancingCompliance": {
-        "bannerAlt" : "3D world map with illuminated connection lines showing global network connectivity and data flow visualization",
+        "bannerAlt": "3D world map with illuminated connection lines showing global network connectivity and data flow visualization",
         "seoTitle": "How SAP GTS Sanctioned Party List Screening Ensures Compliance | Rialtes",
         "seoDescription": "Minimize risks with SAP Sanctioned Party List Screening by ensuring your business never deals with prohibited parties. Stay compliant and avoid legal penalties.",
         "blogTopic": "SAP GTS",
@@ -1552,7 +1561,7 @@
         "complyDesc3": "with deep expertise in global trade and risk management, we empower companies to navigate these processes efficiently, delivering maximum value and return on investment. Our seasoned SAP consultants possess the skills and experience to address your critical needs while equipping your internal teams for ongoing improvement and innovation."
     },
     "agentforceTesting": {
-        "bannerAlt" : "Blue digital wireframe gears and network nodes representing industrial automation and blockchain technology",
+        "bannerAlt": "Blue digital wireframe gears and network nodes representing industrial automation and blockchain technology",
         "seoTitle": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
         "seoDescription": "Explore how the Agentforce Testing Center leverages synthetic data to enhance AI testing and monitoring.",
         "blogTopic": "Salesforce Agentforce",
@@ -1615,7 +1624,7 @@
         "whyDesc4": "or need help getting started? We’re here to assist. At Rialtes, we specialize in AI testing and  , and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to streamline their business processes."
     },
     "successfactorSupportsDiversity": {
-        "bannerAlt" : "Colorful puzzle pieces with diversity icons showing people and wheelchair symbols representing inclusion concept",
+        "bannerAlt": "Colorful puzzle pieces with diversity icons showing people and wheelchair symbols representing inclusion concept",
         "seoTitle": "How SuccessFactors Diversity and Inclusion Drives Workplace Equity | Rialtes",
         "seoDescription": "Discover how SAP SuccessFactors diversity and inclusion capabilities support unbiased hiring, inclusive performance, and engagement. Learn more with Rialtes.",
         "bloTopic": "Diversity & Inclusion",
@@ -1669,7 +1678,7 @@
         "hrSystemDesc3": " Contact us today at"
     },
     "automateCrucial": {
-        "bannerAlt" : "Female healthcare worker in blue scrubs and mask using tablet device in modern medical facility setting",
+        "bannerAlt": "Female healthcare worker in blue scrubs and mask using tablet device in modern medical facility setting",
         "seoTitle": "Athenahealth Salesforce Integration: Elevate Patient Care | Rialtes",
         "seoDescription": "Integrating athenahealth with Salesforce is beneficial in many ways, providing a more comprehensive view of patient interactions and data across the healthcare journey.",
         "blogTopic": "Integration",
@@ -1756,7 +1765,7 @@
         "findDesc4": ", is dedicated to utilizing the complete potential of Salesforce by providing exceptional user experiences to our clients."
     },
     "successFactorPerformance": {
-        "bannerAlt" : "Hand drawing target circle with pen on light blue surface representing goal setting and precision concept",
+        "bannerAlt": "Hand drawing target circle with pen on light blue surface representing goal setting and precision concept",
         "seoTitle": "SuccessFactors Performance Management & Goal Management Tips | Rialtes",
         "seoDescription": "SuccessFactors performance management and goal management boost employee engagement and strategic alignment. Contact us today for expert guidance and support!",
         "blogTopic": "SAP SuccessFactors",
@@ -2127,7 +2136,7 @@
         ]
     },
     "brainBehind": {
-        "bannerAlt" : "Digital brain circuit illustration with glowing connections on dark blue tech background showing AI concept",
+        "bannerAlt": "Digital brain circuit illustration with glowing connections on dark blue tech background showing AI concept",
         "seoTitle": "How Does a Reasoning Engine Work in Agentforce? | Rialtes",
         "seoDescription": "Learn how Agentforce’s reasoning engine works to optimize customer support and enhance service quality for improved customer experiences and satisfaction.",
         "blogs": [
@@ -2245,7 +2254,7 @@
         "gameDesc2": "As businesses prioritize customer satisfaction, tools like Atlas will undoubtedly play a pivotal role in shaping the future of customer experience. We can expect further integration with other Salesforce products, more sophisticated AI capabilities, and even deeper predictive analytics features soon. Rialtes helps you develop, customize, and deploy autonomous AI agents for sales, marketing, service, and e-commerce related tasks with the Agentforce platform. Get in touch with our experts."
     },
     "howSalesforceAgentforceWorks": {
-        "bannerAlt" : "Futuristic white robot with glowing blue eyes and pink lighting displaying digital interface screens",
+        "bannerAlt": "Futuristic white robot with glowing blue eyes and pink lighting displaying digital interface screens",
         "seoTitle": "How Does Salesforce Agentforce Work? | Rialtes",
         "seoDescription": "Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!",
         "blogTopic": "Salesforce Agentforce",
@@ -2307,7 +2316,7 @@
         "gettingDesc3": "and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance their business processes."
     },
     "agriculture": {
-        "bannerAlt" : "Professional drone with camera hovering over green agricultural field for aerial photography and monitoring",
+        "bannerAlt": "Professional drone with camera hovering over green agricultural field for aerial photography and monitoring",
         "blogTopic": "Green Technology",
         "seoTitle": "Salesforce for Agriculture: Digital Farming Revolution | Rialtes",
         "seoDescription": "Discover how Salesforce for agriculture powers digital farming, improving efficiency and driving innovation for a sustainable future in Agriculture 4.0.",
@@ -4105,6 +4114,7 @@
         "faqTitle": "FAQs: Migrating from SAP PI PO to SAP CPI Migration"
     },
     "s4HanaSapALM": {
+        "bannerAlt": "Abstract digital mountain formed by flowing blue pink and purple light waves with particle dots on dark background showing data flow",
         "seoTitle": "How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation",
         "seoDescription": "Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution for successful S/4HANA transformation.",
         "mainData": [
@@ -4700,6 +4710,7 @@
         "faqTitle": "FAQs: Frequently Asked Questions"
     },
     "ecommerceDataCloud": {
+        "bannerAlt": "Banner image showing Salesforce Data Cloud powering predictive e-commerce and customer loyalty",
         "seoTitle": "Ecommerce in Salesforce: Driving Loyalty with Data Cloud | Rialtes",
         "seoDescription": "Salesforce Data Cloud unifies customer data to power predictive insights, helping businesses drive ecommerce loyalty and real-time personalization.",
         "salesforceData": [
@@ -4849,6 +4860,7 @@
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "agentforceHitech": {
+        "bannerAlt": "Banner image illustrating Agentforce AI integration with ERP systems",
         "seoTitle": "How Agentforce AI Transforms ERP with Automation | Rialtes",
         "seoDescription": "By analyzing ERP and SCM data, Agentforce offers predictive insights that enhance decision-making and boost productivity across industries. Know more!",
         "agentfoceIntegrates": [
@@ -6279,7 +6291,7 @@
         "unifiedData": [
             {
                 "title": "How Unified Systems Solve These Challenges",
-                "desc": "A <span>scalable real estate platform integration</span> replaces all those moving parts with a single ecosystem.",
+                "desc": "A <a href='https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>scalable real estate platform integration</a> replaces all those moving parts with a single ecosystem.",
                 "desc2": "Imagine this workflow:",
                 "list": [
                     "A lease is approved in CRM.",
@@ -6328,7 +6340,7 @@
                     "Which properties are underperforming on rent collection?",
                     "Where are maintenance costs trending highest?"
                 ],
-                "desc2": "With centralized leasing and finance data, decision-makers no longer rely on week-old reports or manual reconciliations."
+                "desc2": "With <a href='https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>centralized leasing and finance data</a>, decision-makers no longer rely on week-old reports or manual reconciliations."
             },
             {
                 "title": "Cost Efficiency and IT Simplification",
@@ -6487,7 +6499,7 @@
                     },
                     {
                         "title": "Tenant Experience",
-                        "desc": "Use sentiment data and <span>conversational AI for resident support</span> to personalize communication and improve satisfaction."
+                        "desc": "Use sentiment data and <a href='https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>conversational AI for resident support</a> to personalize communication and improve satisfaction."
                     }
                 ],
                 "desc2": "In short, AI converts reactive property operations into strategic, data-driven ecosystems. It gives asset managers the visibility they need to make informed decisions about maintenance, performance, investment, and sustainability."
@@ -6515,7 +6527,7 @@
                             "AI identifies the nearest available technician with the required expertise.",
                             "A work order is automatically generated and synced to the technician’s mobile device.",
                             "The technician completes the job, uploads notes, and closes the ticket.",
-                            "The system updates status in real time — giving management full visibility and <strong>SLA tracking and billing automation in real estate</strong>"
+                            "The system updates status in real time — giving management full visibility and <a href='https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SLA tracking and billing automation in real estate</a>"
                         ],
                         "desc": "This level of coordination helps large property portfolios save time, reduce fuel costs, and ensure that no alert is missed."
                     }
@@ -6847,6 +6859,10 @@
         "faqTitle": "FAQs: Salesforce Implementation and Integration"
     },
     "slasBilling": {
+        "seoTitle" : "Service Level Agreement (SLA) Tracking: AI-Driven Guide | Rialtes",
+        "seoDescription" : "With AI-enabled dashboards, automated billing, and predictive insights, property managers monitor SLA compliance and maintenance costs in real time.",
+        "gutDrivenSection" : "  From Gut-Driven to Data-Driven: The Shift Is Already Underway",
+        "faqTitle" : "FAQs: Data-Driven Operational Efficiency in Real Estate",
         "slasTitle": "How Do You Track SLAs and Billing Without Losing Your Mind?",
         "blogTopic": "Salesforce",
         "slasPara1": "A service-level agreement (SLA) outlines the expected level of service from a vendor. It specifies the metrics used to measure that service and the remedies available if the agreed-upon service levels are not met. The SLA is a vital part of any contract with a technology vendor.",
@@ -6999,6 +7015,234 @@
             "question": "What features should I look for in an operational analytics platform?",
             "answer": "Look for real-time SLA tracking, billing automation, predictive alerts, and vendor performance insights. Platforms like Exelona offer all of these in one place."
         }
-    ]
+    ],
+    "whatDoesASingle": {
+        "aleadsfill":"A lead fills out",
+        "aform":"a form",
+        "entersCrm":"Enters CRM",
+        "leaseis": "Lease is approved",
+        "detailsreenter": "Details re-entered manually into ERP",
+        "maintainentce": "Maintenance tickets logged separately",
+        "emailed": "Emailed weekly to operations",
+        "finanace": "Finance team spends two days reconciling monthly invoice",
+        "theLead": "The lead enters CRM",
+        "automatically": "Automatically creates a prospect record linked to ERP",
+        "whenSign": "When the lease is signed",
+        "billing": "Billing and accounting update instantly",
+        "anyManatainance": "Any maintenance activity or SLA breach Syncs directly to both leasing and finance dashboards",
+        "reports": "Reports and KPIs update in real time",
+        "blogTitle": "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease?",
+        "para1": "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. Most real estate businesses naturally juggle multiple systems: a CRM for leads, an ERP for finance, a maintenance app, and more spreadsheets than anyone would like to admit.",
+        "para2": " This patchwork setup doesn’t just waste time. It hides insights, delays reporting, and makes collaboration harder than it needs to be. That’s where the idea of a Single Source of Truth (SSOT) act as one unified view of data across leasing, finance, and operations that keeps everyone on the same page.",
+        "para3": "We’ll break down what this really means for real estate businesses and how platforms like Exelona are helping leaders finally bring all their data and decisions together.",
+        "para4": "Now, here’s what happens when they switch to a unified SSOT platform like Exelona:",
+        "faqTitle": "FAQs: Single Source of Truth in Real Estate",
+        "whatASingleSourceData": [
+            {
+                "title": "What a Single Source of Truth Actually Means in Real Estate",
+                "desc": "In simple terms, a Single Source of Truth is one centralized system where every piece of operational, financial, and leasing data lives in sync. Instead of sales, accounting, and facilities management using separate tools and versions of the truth, all teams rely on the same verified, real-time data.",
+                "desc2": "The work doesn’t stop at connecting databases. It’s about building trust in the numbers you see daily, whether it’s occupancy rates, rental revenue, or maintenance SLAs. Imagine your leasing agent updates a tenant record. That change automatically reflects in finance for billing, and in operations for service scheduling. Everyone works from the same record, not ten different copies of it. ",
+                "desc3": "That’s pretty much the essence of SSOT: clarity, accuracy, and connectedness throughout the property lifecycle."
+            }
+        ],
+        "whyRealEstatedata": [
+            {
+                "title": "Why Real Estate Still Struggles with Data Fragmentation",
+                "desc": "Despite the clear benefits, most real estate organizations still operate in silos. A 2024 Deloitte study found that over 60% of property management firms rely on more than five disconnected systems to manage daily operations.",
+                "listTitle": "Here’s where the cracks usually appear:",
+                "list": [
+                    {
+                        "desc": "Legacy systems that don’t share data"
+                    },
+                    {
+                        "desc": "Multiple vendor solutions for leasing, billing, and maintenance"
+                    },
+                    {
+                        "desc": "Manual reconciliation of payments and contracts"
+                    },
+                    {
+                        "desc": "Duplicate or outdated records across platforms"
+                    }
+                ],
+                "desc2": "Due to this, teams spend hours verifying data rather than acting on it. Finance and operations make decisions on different versions of the truth. Lease renewals are delayed. Compliance checks take weeks instead of hours. ",
+                "desc3": "And the kicker, inaccurate or inconsistent data can cost property owners up to 20% of their potential revenue through missed billing, delayed collections, and poor tenant experience. Real estate doesn’t have a data problem; it has a data alignment problem."
+            }
+        ],
+        "crmErpData": [
+            {
+                "title": "CRM + ERP Convergence: The Foundation of a Single Source of Truth",
+                "desc": "So how do you fix it?",
+                "desc1": "The real answer lies in the <a href='https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergence of CRM and ERP systems</a> , the two biggest data engines in your operations.",
+                "list": [
+                    {
+                        "title": "CRM (Customer Relationship Management ",
+                        "desc": "handles everything from lead generation and tenant onboarding to renewals and communication."
+                    },
+                    {
+                        "title": "ERP (Enterprise Resource Planning)",
+                        "desc": "manages finance, billing, procurement, and reporting."
+                    }
+                ],
+                "desc2": "When these systems operate in silos, critical information like lease terms, payment schedules, and maintenance costs gets lost or duplicated.",
+                "desc3": "But when they’re integrated, they form a continuous data flow:"
+            }
+        ],
+        "crmDataList2": [
+            {
+                "list": [
+                    {
+                        "desc": "A lead enters the CRM through a website inquiry"
+                    },
+                    {
+                        "desc": "Once converted, the lease details automatically sync with ERP for financial processing."
+                    },
+                    {
+                        "desc": "The operations team gets instant visibility into occupancy status and service schedules."
+                    },
+                    {
+                        "desc": "When payments are made, data updates across systems are made in real time."
+                    }
+                ],
+                "desc2": "A leading European property developer, for instance, integrated their CRM and ERP through a unified platform and saw a 25% drop in data errors and 30% faster month-end financial closure.",
+                "desc3": "That’s the power of convergence, which means less reconciliation, more clarity."
+            }
+        ],
+        "theBusinessCase": [
+            {
+                "title": "The Business Case: Why a Single Source of Truth Matters",
+                "list": [
+                    {
+                        "title": "1. Real-Time Visibility and Decision Making",
+                        "desc": "With unified data, dashboards finally make sense. Property managers can see leasing pipelines, occupancy trends, and cash flow in real time. Executives don’t have to wait for end-of-month reports. They can monitor performance live and make faster, evidence-based decisions. According to Deloitte’s Real Estate Outlook, 70% of leaders report better forecasting accuracy after implementing integrated data platforms."
+                    },
+                    {
+                        "title": "2. Reduced Reconciliation Errors and Faster Operations",
+                        "desc": "When leasing, billing, and finance all use the same system, manual cross-checking disappears. Payments match invoices instantly, and tenant data is consistent across the board. For example, instead of reconciling rent payments weekly, your finance team gets automated payment updates from the moment they’re processed.That not only saves hours of administrative work but also improves accuracy and compliance. That not only saves hours of administrative work but also improves accuracy and compliance."
+                    },
+                    {
+                        "title": "3. Stronger Compliance and Easier Reporting",
+                        "desc": "Real estate firms deal with heavy regulation, whether it’s RERA, GAAP, or internal audit standards. Having a single, connected database means every record — every lease, invoice, and payment is traceable. Audits that used to take days can be completed in hours. Compliance reports that needed multiple teams can now be auto-generated. Companies that adopted unified data platforms report up to 40% faster compliance reporting cycles."
+                    },
+                    {
+                        "title": "4. Collaboration That Actually Works",
+                        "desc": "Ask any property management team what slows them down, and you’ll often hear the same thing: we’re not looking at the same numbers. A single source of truth changes that. Leasing agents, accountants, and facility managers all work from the same data set. Updates happen instantly across departments. No more “who updated this file?” or “which version is final?” confusion. That cultural shift from information hoarding to information sharing is often the biggest win of all."
+                    }
+                ]
+            }
+        ],
+        "aDayInLife": [
+            {
+                "title": "A Day in the Life: From Lead to Lease in a Unified System",
+                "des": "Let’s take a real-world example. ",
+                "desc1": "A commercial property firm manages 80 buildings and uses separate systems for CRM, ERP, and maintenance.",
+                "des2": "Here’s what their old process looks like:"
+            }
+        ],
+        "theRoleOfAI": [
+            {
+                "title": "The Role of AI and Automation in Maintaining a Single Source of Truth",
+                "des": "A single system is powerful, but add AI to the mix, and it becomes predictive. AI can now detect inconsistencies between lease data and billing entries before they cause downstream errors. It can forecast maintenance costs based on historical data or even flag duplicate entries.",
+                "desc1": "Automation ensures data stays synchronized across every workflow — from lease approvals to rent collection. For instance, if an AI engine detects that a property’s maintenance cost exceeds its expected range, it can alert both operations and finance automatically. This not only keeps data clean but also makes decision-making proactive rather than reactive.",
+                "des2": "In short, AI doesn’t just support a single source of truth; it protects it."
+            }
+        ],
+        "steps": [
+            {
+                "title": "A lead fills out a form",
+                "subtitle": "Enters CRM"
+            },
+            {
+                "title": "Lease is approved",
+                "subtitle": "Details re-entered manually into ERP"
+            },
+            {
+                "title": "Maintenance tickets logged separately",
+                "subtitle": "Emailed weekly to operations"
+            },
+            {
+                "title": "Finance team spends two days reconciling monthly invoices",
+                "subtitle": ""
+            }
+        ],
+        "steps2": [
+            {
+                "title": "The lead enters CRM",
+                "subtitle": "Automatically creates a prospect record linked to ERP"
+            },
+            {
+                "title": "When the lease is signed",
+                "subtitle": "Billing and accounting update instantly"
+            },
+            {
+                "title": "",
+                "subtitle": "Any maintenance activity or SLA breach syncs directly to both leasing and finance dashboards"
+            },
+            {
+                "title": "",
+                "subtitle": "Reports and KPIs update in real time"
+            }
+        ],
+        "fromDataChaos": [
+            {
+                "title": "From Data Chaos to Data Confidence",
+                "des": "Here’s what we have discovered: real estate teams don’t struggle because they lack data; they struggle because their data lives everywhere. A Single Source of Truth transforms how you work, how you plan, and how you grow. It connects CRM and ERP systems, breaks down silos, and gives you something every property business needs — data confidence.",
+                "desc1": "With Exelona, real estate leaders finally get a unified view from lead to lease to ledger, one version of the truth that drives accuracy, transparency, and long-term profitability. It’s time to stop managing systems and <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>start managing outcomes with Rialtes</a> ."
+            }
+        ],
+        "yourPathTitle": [
+            {
+                "title": "Your Path to a Unified Real Estate Ecosystem",
+                "des": "Our solution, Exelona, is more than just property management software; it’s a unified CRM + ERP platform built specifically for real estate organizations that want to eliminate data silos.",
+                "desc1": "Here’s how it helps build a Single Source of Truth across your operations:"
+            }
+        ],
+        "keyElemData": [
+            {
+                "title": "Centralized Leasing and Finance Data",
+                "desc": "Every lease, tenant, and payment record lives in one system. No duplication, no delays."
+            },
+            {
+                "title": "AI-Driven Property Operations",
+                "desc": "Predict maintenance, forecast budgets, and track SLAs with precision."
+            },
+            {
+                "title": "Scalable Real Estate Platform Integration",
+                "desc": "Connects seamlessly with your existing systems, whether it’s Yardi, Oracle, or custom ERP setups."
+            },
+            {
+                "title": "Mobile-First Resident Experience",
+                "desc": "Give your staff and tenants real-time visibility and self-service options on the go."
+            },
+            {
+                "title": "Automated Reporting Insights",
+                "desc": "Generate audit-ready financial and operational reports in minutes."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What does ‘single source of truth’ mean in real estate operations?",
+                "answer": "It means using one centralized system that connects all leasing, finance, and operational data so every team works from the same verified information."
+            },
+            {
+                "question": "How does CRM + ERP convergence improve efficiency?",
+                "answer": "By integrating lead management, leasing, billing, and reporting into one platform, convergence eliminates duplicate work and manual reconciliations."
+            },
+            {
+                "question": "Why do property managers need a single source of truth?",
+                "answer": "Fragmented data leads to slow decisions, errors, and poor visibility. SSOT ensures every team operates from the same up-to-date data."
+            },
+            {
+                "question": "Can AI help maintain a single source of truth in real estate?",
+                "answer": "Yes. AI can identify inconsistencies, automate data validation, and deliver predictive insights to keep records accurate and consistent."
+            },
+            {
+                "question": "How does centralizing leasing and finance data improve reporting?",
+                "answer": "Unified data allows instant, accurate reporting without manual consolidation — cutting reporting time by up to 40%."
+            },
+            {
+                "question": "What makes Exelona different from other property management tools?",
+                "answer": "Exelona unifies CRM and ERP into a single, AI-powered system designed to deliver AI-driven property operations and scalable real estate platform integration, making it the ultimate single source of truth for modern real estate firms."
+            }
+        ]
     }
-}
+} }

@@ -114,7 +114,7 @@ export default function retailPage() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical="https://www.rialtes.com/industry/retail-industry-digital-transformation/"
+                canonical={`https://www.rialtes.com/${locale}/industry/retail-industry-digital-transformation/`}
             />
             <Script
                 id="schema-retail"

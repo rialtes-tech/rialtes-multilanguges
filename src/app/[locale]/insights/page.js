@@ -84,7 +84,7 @@ export default function InsightsPage() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/"
+        canonical={`https://www.rialtes.com/${locale}/insights/`}
       />
       <Script
         id="schema-insights"
@@ -181,10 +181,10 @@ export default function InsightsPage() {
                   <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">Aug. 26, 2025</div>
                 </div>
                 <h3 className="mb-3 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
-                 {t('sapPi')}
+                  {t('sapPi')}
                 </h3>
                 <p className="mb-4 4xl:text-[20px] xl:text-[17px] text-[16px]">
-                {t('sapPiDesc')}</p>
+                  {t('sapPiDesc')}</p>
                 <Link
                   href="/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide"
                   className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group">
@@ -245,7 +245,7 @@ export default function InsightsPage() {
                     <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">Sep. 09, 2025</div>
                   </div>
                   <h3 className="mb-3 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
-                   {t('aiTitle')}
+                    {t('aiTitle')}
                   </h3>
                   <p className="mb-2 4xl:text-[20px] xl:text-[17px] text-[16px]">
                     {t('aiDesc')}
@@ -311,10 +311,10 @@ export default function InsightsPage() {
                     <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">Sep. 02, 2025</div>
                   </div>
                   <h3 className="mb-3 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
-                   {t('buildTitle')}
+                    {t('buildTitle')}
                   </h3>
                   <p className="mb-2 4xl:text-[20px] xl:text-[17px] text-[16px]">
-                     {t('buildDesc')}
+                    {t('buildDesc')}
                   </p>
                   <div>
                     <Link
@@ -408,7 +408,7 @@ export default function InsightsPage() {
                     <div className="text-gray-600 text-sm 2xl:pl-2 xl:pl-0 pl-2 max-[400px]:pl-0">Aug. 21, 2025</div>
                   </div>
                   <h3 className="mb-3 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
-                  {t('transforming')} 
+                    {t('transforming')}
                   </h3>
                   <p className="4xl:text-[20px] xl:text-[17px] text-[16px]">
                     {t('leadingblog')}

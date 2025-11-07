@@ -355,7 +355,7 @@
                     },
                     {
                         "title": "Experiencia del Inquilino",
-                        "desc": "Usa datos de sentimiento y <span>IA conversacional para atención al residente</span> que personalizan la comunicación y mejoran la satisfacción."
+                        "desc": "Usa datos de sentimiento y <a href='https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>IA conversacional para atención al residente</a> que personalizan la comunicación y mejoran la satisfacción."
                     }
                 ],
                 "desc2": "En resumen, la IA convierte las operaciones reactivas en ecosistemas estratégicos basados en datos. Brinda a los administradores de activos la visibilidad que necesitan para tomar decisiones informadas sobre mantenimiento, rendimiento, inversión y sostenibilidad."
@@ -383,7 +383,7 @@
                             "La IA identifica al técnico disponible más cercano con la experiencia requerida.",
                             "Se genera automáticamente una orden de trabajo y se sincroniza con el dispositivo móvil del técnico.",
                             "El técnico completa el trabajo, sube notas y cierra el ticket.",
-                            "El sistema actualiza el estado en tiempo real, brindando a la gerencia visibilidad total y <strong>seguimiento de SLA y automatización de facturación en bienes raíces</strong>."
+                            "El sistema actualiza el estado en tiempo real, brindando a la gerencia visibilidad total y <a href='https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>seguimiento de SLA y automatización de facturación en bienes raíces</a>."
                         ],
                         "desc": "Este nivel de coordinación ayuda a las carteras inmobiliarias grandes a ahorrar tiempo, reducir costos de combustible y garantizar que ninguna alerta se pase por alto."
                     }
@@ -820,7 +820,7 @@
         "unifiedData": [
             {
                 "title": "Cómo los Sistemas Unificados Resuelven Estos Desafíos",
-                "desc": "Una <span>plataforma inmobiliaria escalable e integrada</span> reemplaza todas esas partes móviles con un solo ecosistema.",
+                "desc": "Una <a href='https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>plataforma inmobiliaria escalable e integrada</a> reemplaza todas esas partes móviles con un solo ecosistema.",
                 "desc2": "Imagina este flujo de trabajo:",
                 "list": [
                     "Un contrato se aprueba en el CRM.",
@@ -869,7 +869,7 @@
                     "¿Qué propiedades están rezagadas en la recaudación de rentas?",
                     "¿Dónde están aumentando más los costos de mantenimiento?"
                 ],
-                "desc2": "Con datos centralizados de arrendamiento y finanzas, los responsables de decisiones ya no dependen de informes antiguos ni conciliaciones manuales."
+                "desc2": "Con <a href='https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>datos centralizados de arrendamiento y finanzas</a>, los responsables de la toma de decisiones ya no dependen de informes con una semana de antigüedad ni de conciliaciones manuales."
             },
             {
                 "title": "Eficiencia de Costos y Simplificación de TI",
@@ -1009,6 +1009,7 @@
         "improveData3": "Nuestros expertos en tecnología y farmacia te guían para simplificar la integración de la IA en tus flujos de trabajo, mejorando la investigación, optimizando la producción y facilitando estrategias respaldadas por datos. Ya sea mejorando I+D, optimizando la manufactura o fortaleciendo el compromiso del cliente, aseguran una transición fluida hacia operaciones impulsadas por IA."
     },
     "howDoesSapAribaStreamline": {
+        "bannerAlt": "Cables de fibra óptica azules con flujos de datos brillantes representando conectividad de red de alta velocidad e infraestructura digital",
         "seoTitle": "SAP Ariba Compras: Eficiencia Directa e Indirecta",
         "seoDescription": "SAP Ariba digitaliza todo el proceso de compras, desde la selección al pago, mejorando ahorros, velocidad y control en adquisiciones.",
         "blogTopic": "SAP",
@@ -1086,6 +1087,7 @@
         "integrateDesc3": "Rialtes ofrece una variedad de servicios, incluyendo consultoría, implementación y soporte. Te ayudamos a reinventar tus operaciones de compras y mejorar la toma de decisiones a través de soluciones SAP Ariba."
     },
     "howSapSuccessFactorIntegration": {
+        "bannerAlt": "Arquitectura de red digital azul abstracta con cubos geométricos transparentes y flujos de datos representando infraestructura de nube",
         "seoTitle": "Integración de SAP SuccessFactors: Mejora RRHH y Nómina",
         "seoDescription": "Las integraciones de SAP SuccessFactors mejoran RRHH y nómina, aumentando eficiencia, precisión y cumplimiento global y local.",
         "blogTopic": "SAP SucessFactors",
@@ -1246,6 +1248,7 @@
         "overcomeLink": "soluciones de integración SAP SuccessFactors."
     },
     "redefiningBlog": {
+        "bannerAlt": "Árbol digital azul y cian brillante con líneas conectadas fluyentes y puntos de luz sobre fondo azul oscuro mostrando red de datos",
         "seoTitle": "SAP Joule AI: Impulsando el Futuro Empresarial",
         "seoDescription": "SAP Joule AI transforma operaciones, permitiendo decisiones rápidas y respuestas instantáneas sin navegar paneles complejos.",
         "blogTopic": "SAP",
@@ -1359,7 +1362,9 @@
         "shiftFromLink3": "SAP Ariba"
     },
     "sapDataCloud": {
-        "sapImage": "/images/blog/sap-spanish-diagram.webp",
+        "bannerAlt": "Ola oceánica azul con superposición de cuadrícula digital y puntos de conexión brillantes representando flujo de datos y transformación",
+        "sapImage": "/images/blog/sap-business-data-cloud-technical-architecture-diagram.png",
+        "sapAlt": "Diagrama mostrando SAP Business Data Cloud como centro conectado a seis componentes incluyendo bases de datos, analítica y asistente IA",
         "seoTitle": "¿Qué es BDC en SAP? Transforma con Business Data Cloud",
         "seoDescription": "SAP BDC simplifica la integración de datos con acceso en tiempo real y confiable, impulsando decisiones basadas en IA y transformación empresarial.",
         "blogs": [
@@ -1474,6 +1479,7 @@
         "acceleratesDesc3": "para explorar su impacto potencial en tu organización."
     },
     "powerfulFeatures": {
+        "bannerAlt": "Robot chatbot de IA azul con ojos brillantes apuntando hacia arriba representando inteligencia artificial y automatización",
         "seoTitle": "Funciones Clave que Hacen de Agentforce un Cambio Total",
         "seoDescription": "Las funciones de Agentforce resuelven brechas de CX con enrutamiento inteligente, casos con IA y tableros de rendimiento para mejores decisiones.",
         "blogTopic": "Salesforce Agentforce",
@@ -1617,6 +1623,7 @@
         "transitionDesc2": "Rialtes permite a las empresas integrar agentes personalizados de Agentforce en sus plataformas ERP, automatizando tareas y optimizando flujos de trabajo. Usando aprendizaje automático y procesamiento de lenguaje natural, alineamos los agentes con los objetivos organizacionales para una automatización inteligente efectiva. Ponte en contacto con nosotros en "
     },
     "howSuccessFactorEnhances": {
+        "bannerAlt": "Profesional escribiendo en portátil con patrón de ondas digitales representando trabajo remoto y productividad tecnológica",
         "seoTitle": "Guía de SAP SuccessFactors para Equipos Remotos",
         "seoDescription": "¿Dificultades con equipos remotos? SAP SuccessFactors ofrece herramientas para aumentar compromiso, seguimiento y colaboración fluida.",
         "blogTopic": "SAP SuccessFactors",
@@ -1775,6 +1782,7 @@
         "manageDesc3": "para una consulta sobre las funciones, beneficios e implementación de SAP SuccessFactors."
     },
     "agentForceAgents": {
+        "bannerAlt": "Mano robótica brillante sobre teclado de portátil representando automatización de IA y transformación digital",
         "blogTopic": "Salesforce Agentforce",
         "seoTitle": "Escala el Futuro del ERP con IA",
         "seoDescription": "Con Salesforce AI, Agentforce automatiza tareas de ERP, ofrece información en tiempo real y asegura colaboración fluida para sistemas escalables.",
@@ -1838,6 +1846,7 @@
         "futureDesc3": "Rialtes permite a las empresas integrar agentes personalizados de Agentforce en sus plataformas ERP específicas, automatizando tareas repetitivas y optimizando flujos de trabajo. Utilizando aprendizaje automático y procesamiento de lenguaje natural, garantizamos que estos agentes se alineen con los objetivos organizacionales. Las empresas pueden asegurarse de que sus implementaciones de Agentforce aprovechen datos confiables para una automatización inteligente. Contáctanos en"
     },
     "meetTeammate": {
+        "bannerAlt": "Interfaz digital de agente de IA iluminada en azul con circuitos futuristas y patrones de datos",
         "seoTitle": "Cómo Potenciar Slack con Agentforce",
         "seoDescription": "Agentforce convierte Slack en un centro más inteligente, combinando mensajería en tiempo real y agentes de IA para optimizar solicitudes y colaboración.",
         "blogTopic": "Salesforce Agentforce",
@@ -1937,7 +1946,7 @@
         "collaborateDesc3": "estén impulsadas por datos confiables y accionables, maximizando el potencial de la automatización inteligente. Contáctanos en"
     },
     "integrateSapSuccessFactor": {
-        "bannerAlt" : "Patrón abstracto de puntos semitono azul y naranja creando diseño de onda sobre fondo azul marino",
+        "bannerAlt": "Patrón abstracto de puntos semitono azul y naranja creando diseño de onda sobre fondo azul marino",
         "seoTitle": "Cómo Integrar SAP con Office 365 para Mejorar RRHH",
         "seoDescription": "La integración de SAP con Office 365 simplifica procesos de RRHH, automatiza flujos y fomenta la colaboración entre aplicaciones.",
         "blogTopic": "SAP SuccessFactors",
@@ -2070,7 +2079,7 @@
         "completeDesc4": "para comenzar con uno de nuestros consultores expertos en SAP SuccessFactors."
     },
     "enhancingCompliance": {
-        "bannerAlt" : "Mapa mundial 3D con líneas de conexión iluminadas mostrando conectividad de red global y flujo de datos",
+        "bannerAlt": "Mapa mundial 3D con líneas de conexión iluminadas mostrando conectividad de red global y flujo de datos",
         "seoTitle": "SAP GTS: Cumplimiento con Listas de Partes Sancionadas",
         "seoDescription": "Reduce riesgos con SAP GTS evitando tratos con partes prohibidas. Mantén el cumplimiento normativo y evita sanciones legales.",
         "blogTopic": "SAP GTS",
@@ -2168,7 +2177,7 @@
         "complyDesc3": "con amplia experiencia en comercio global y gestión de riesgos, ayudamos a las empresas a navegar estos procesos de forma eficiente, ofreciendo el máximo valor y retorno de la inversión. Nuestros consultores SAP cuentan con las habilidades y la experiencia para abordar sus necesidades críticas mientras capacitan a sus equipos internos para una mejora e innovación continuas."
     },
     "agentforceTesting": {
-        "bannerAlt" : "Engranajes digitales azules y nodos de red representando automatización industrial y tecnología blockchain",
+        "bannerAlt": "Engranajes digitales azules y nodos de red representando automatización industrial y tecnología blockchain",
         "seoTitle": "Centro de Pruebas Agentforce: Evalúa Agentes de IA",
         "seoDescription": "El Centro de Pruebas de Agentforce ayuda a las empresas a evaluar agentes de IA antes de su implementación en producción. Conoce más aquí.",
         "blogTopic": "Salesforce Agentforce",
@@ -2231,7 +2240,7 @@
         "whyDesc4": "o necesitas ayuda para comenzar? Estamos aquí para ayudarte. En Rialtes, nos especializamos en pruebas de IA y hemos ayudado a clientes a lograr mejoras significativas en productividad aprovechando herramientas de IA para optimizar sus procesos empresariales."
     },
     "successfactorSupportsDiversity": {
-        "bannerAlt" : "Piezas de rompecabezas coloridas con íconos de diversidad mostrando personas y símbolos de silla de ruedas",
+        "bannerAlt": "Piezas de rompecabezas coloridas con íconos de diversidad mostrando personas y símbolos de silla de ruedas",
         "seoTitle": "Diversidad e Inclusión con SuccessFactors: Equidad Laboral",
         "seoDescription": "Descubre cómo SAP SuccessFactors impulsa contrataciones justas, desempeño inclusivo y mayor compromiso. Aprende más con Rialtes.",
         "bloTopic": "Diversidad e Inclusión",
@@ -2285,7 +2294,7 @@
         "hrSystemDesc3": " Contáctanos hoy en"
     },
     "automateCrucial": {
-        "bannerAlt" : "Trabajadora de salud en uniforme azul y mascarilla usando tableta en instalación médica moderna",
+        "bannerAlt": "Trabajadora de salud en uniforme azul y mascarilla usando tableta en instalación médica moderna",
         "seoTitle": "Integración Athenahealth y Salesforce: Mejor Atención",
         "seoDescription": "Integrar Athenahealth con Salesforce ofrece una visión integral de pacientes y datos, optimizando toda la experiencia en el sector salud.",
         "blogTopic": "Integración",
@@ -2372,7 +2381,7 @@
         "findDesc4": ", está dedicada a aprovechar todo el potencial de Salesforce proporcionando experiencias de usuario excepcionales a nuestros clientes."
     },
     "successFactorPerformance": {
-        "bannerAlt" : "Mano dibujando círculo objetivo con pluma sobre superficie azul claro representando establecimiento de metas",
+        "bannerAlt": "Mano dibujando círculo objetivo con pluma sobre superficie azul claro representando establecimiento de metas",
         "seoTitle": "Consejos de SuccessFactors para Desempeño y Metas",
         "seoDescription": "La gestión de desempeño y metas en SuccessFactors impulsa el compromiso y la alineación. Contacta a Rialtes para asesoría experta.",
         "blogTopic": "SAP SuccessFactors",
@@ -2743,7 +2752,7 @@
         ]
     },
     "brainBehind": {
-        "bannerAlt" : "Ilustración cerebro circuito digital con conexiones brillantes sobre fondo azul oscuro mostrando concepto IA",
+        "bannerAlt": "Ilustración cerebro circuito digital con conexiones brillantes sobre fondo azul oscuro mostrando concepto IA",
         "seoTitle": "¿Cómo Funciona el Motor de Razonamiento en Agentforce?",
         "seoDescription": "Conoce cómo el motor de razonamiento de Agentforce optimiza el soporte y mejora la calidad del servicio para experiencias más satisfactorias.",
         "blogTopic": "Salesforce Agentforce",
@@ -2804,7 +2813,7 @@
         "gameDesc2": "A medida que las empresas priorizan la satisfacción del cliente, herramientas como Atlas sin duda desempeñarán un papel fundamental en la configuración del futuro de la experiencia del cliente. Podemos esperar una mayor integración con otros productos de Salesforce, capacidades de IA más sofisticadas e incluso funciones de análisis predictivo más profundas en un futuro próximo. Rialtes te ayuda a desarrollar, personalizar y desplegar agentes de IA autónomos para tareas relacionadas con ventas, marketing, servicio y comercio electrónico con la plataforma Agentforce. Ponte en contacto con nuestros expertos."
     },
     "howSalesforceAgentforceWorks": {
-        "bannerAlt" : "Robot blanco futurista con ojos azules brillantes e iluminación rosa mostrando pantallas de interfaz digital",
+        "bannerAlt": "Robot blanco futurista con ojos azules brillantes e iluminación rosa mostrando pantallas de interfaz digital",
         "seoTitle": "¿Cómo Funciona Salesforce Agentforce?",
         "seoDescription": "Descubre cómo Agentforce mejora la experiencia del cliente y optimiza operaciones. Contacta con Rialtes y comienza tu camino con la IA hoy.",
         "blogTopic": "Salesforce Agentforce",
@@ -2866,7 +2875,7 @@
         "gettingDesc3": "y hemos ayudado a los clientes a lograr importantes incrementos de productividad mediante el uso de herramientas basadas en IA para mejorar sus procesos empresariales."
     },
     "agriculture": {
-        "bannerAlt" : "Dron profesional con cámara flotando sobre campo agrícola verde para fotografía aérea y monitoreo",
+        "bannerAlt": "Dron profesional con cámara flotando sobre campo agrícola verde para fotografía aérea y monitoreo",
         "seoTitle": "Salesforce para Agricultura: Revolución Digital",
         "seoDescription": "Descubre cómo Salesforce impulsa la agricultura digital, aumentando eficiencia e innovación hacia un futuro sostenible en la Agricultura 4.0.",
         "blogTopic": "Tecnología Verde",
@@ -4550,6 +4559,7 @@
         "faqTitle": "FAQs: Migración de SAP PI/PO a SAP CPI"
     },
     "s4HanaSapALM": {
+        "bannerAlt": "Montaña digital abstracta formada por ondas de luz azul rosa y púrpura fluyentes con puntos de partículas sobre fondo oscuro mostrando flujo datos",
         "seoTitle": "SAP Signavio y Cloud ALM: Nueva Transformación S/4HANA",
         "seoDescription": "Unir SAP Signavio con Cloud ALM crea gobierno, trazabilidad y ejecución basada en KPIs para transformar S/4HANA con éxito.",
         "mainData": [
@@ -5145,6 +5155,7 @@
         "faqTitle": "Preguntas Frecuentes"
     },
     "ecommerceDataCloud": {
+        "bannerAlt": "Imagen de banner que muestra Salesforce Data Cloud impulsando el comercio electrónico predictivo y la fidelidad del cliente",
         "seoTitle": "Ecommerce en Salesforce: Fidelización con Data Cloud",
         "seoDescription": "Salesforce Data Cloud unifica datos de clientes para generar predicciones, impulsar lealtad en ecommerce y personalización en tiempo real.",
         "salesforceData": [
@@ -5294,6 +5305,7 @@
         "faqTitle": "Preguntas frecuentes (FAQ)"
     },
     "agentforceHitech": {
+        "bannerAlt": "Imagen de banner que ilustra la integración de Agentforce AI con sistemas ERP",
         "seoTitle": "Cómo Agentforce IA Transforma ERP con Automatización",
         "seoDescription": "Agentforce analiza datos de ERP y SCM para ofrecer insights predictivos que mejoran decisiones y aumentan la productividad en industrias.",
         "agentfoceIntegrates": [
@@ -6619,6 +6631,10 @@
         "faqTitle": "Preguntas frecuentes: implementación e integración de Salesforce"
     },
     "slasBilling": {
+        "seoTitle" : "Seguimiento de Acuerdos de Nivel de Servicio (SLA): Guía impulsada por IA | Rialtes",
+        "seoDescription" : "Con paneles habilitados por IA, facturación automatizada e información predictiva, los administradores de propiedades supervisan el cumplimiento de los SLA y los costos de mantenimiento en tiempo real.",
+        "gutDrivenSection" : "De lo Intuitivo a lo Basado en Datos: El Cambio Ya Está en Marcha",
+        "faqTitle" : "Preguntas Frecuentes: Eficiencia Operativa Basada en Datos en el Sector Inmobiliario",
         "slasTitle": "¿Cómo hacer un seguimiento de los SLA y la facturación sin volverte loco?",
         "blogTopic": "Salesforce",
         "slasPara1": "Un acuerdo de nivel de servicio (SLA) define el nivel de servicio esperado de un proveedor. Especifica las métricas utilizadas para medir ese servicio y los recursos disponibles si no se cumplen los niveles de servicio acordados. El SLA es una parte vital de cualquier contrato con un proveedor de tecnología.",
@@ -6742,8 +6758,8 @@
                 "desc": "Pasar de procesos manuales se siente disruptivo, incluso si a largo plazo es lo mejor."
             }
         ],
-        "faqs": [
-            {
+        "faqs" : [
+             {
                 "question": "¿Cómo puedo monitorear el rendimiento de los SLA en operaciones inmobiliarias?",
                 "answer": "Puedes monitorear el rendimiento de los SLA utilizando paneles con IA que rastrean los tiempos de respuesta de los proveedores, las tasas de finalización de órdenes de trabajo y las métricas de cumplimiento en tiempo real. Plataformas como Exelona automatizan las alertas cuando los SLA están en riesgo de ser incumplidos."
             },
@@ -6768,5 +6784,234 @@
                 "answer": "Busca seguimiento de SLA en tiempo real, automatización de facturación, alertas predictivas y análisis del rendimiento de proveedores. Plataformas como Exelona ofrecen todo esto en un solo lugar."
             }
         ]
+    },
+    "whatDoesASingle": {
+         "aleadsfill": "Un cliente potencial completa",
+        "aform": "un formulario",
+        "entersCrm":"Entra en el CRM",
+        "leaseis": "El contrato de arrendamiento está aprobado",
+        "detailsreenter": "Los detalles se vuelven a ingresar manualmente en el ERP",
+        "maintainentce": "Los tickets de mantenimiento se registran por separado",
+        "emailed": "Enviado por correo electrónico semanalmente al departamento de operaciones",
+        "finanace": "El equipo financiero pasa dos días conciliando la factura mensual",
+        "theLead": "El cliente potencial ingresa en el CRM",
+        "automatically": "Crea automáticamente un registro de prospecto vinculado al ERP",
+        "whenSign": "Cuando se firma el contrato de arrendamiento",
+        "billing": "La facturación y la contabilidad se actualizan al instante",
+        "anyManatainance": "Cualquier actividad de mantenimiento o incumplimiento de SLA se sincroniza directamente con los paneles de arrendamiento y finanzas",
+        "reports": "Los informes y los KPI se actualizan en tiempo real",
+        "blogTitle": "¿Qué significa una “fuente única de la verdad” para el sector inmobiliario, desde el lead hasta el arrendamiento?",
+        "para1": "En la gestión de propiedades, rara vez son las grandes cosas las que ralentizan a los equipos. Son las innumerables pequeñas ineficiencias, los datos de arrendamiento que no coinciden, los registros duplicados o el tiempo perdido verificando hojas de cálculo. La mayoría de las empresas inmobiliarias utilizan de forma natural varios sistemas: un CRM para los clientes potenciales, un ERP para las finanzas, una aplicación de mantenimiento y más hojas de cálculo de las que a cualquiera le gustaría admitir.",
+        "para2": "Esta configuración fragmentada no solo hace perder tiempo. También oculta información valiosa, retrasa los informes y hace que la colaboración sea más difícil de lo necesario. Ahí es donde entra en juego la idea de una Fuente Única de la Verdad (SSOT): una vista unificada de los datos de arrendamiento, finanzas y operaciones que mantiene a todos en la misma página.",
+        "para3": "Analizaremos lo que esto realmente significa para las empresas inmobiliarias y cómo plataformas como Exelona están ayudando a los líderes a finalmente reunir todos sus datos y decisiones en un solo lugar.",
+        "para4": "Ahora, esto es lo que sucede cuando cambian a una plataforma SSOT unificada como Exelona:",
+        "faqTitle": "Preguntas frecuentes: Fuente única de la verdad en el sector inmobiliario",
+        "whatASingleSourceData": [
+            {
+                "title": "Qué significa realmente una Fuente Única de Verdad en el sector inmobiliario",
+                "desc": "En términos simples, una Fuente Única de Verdad es un sistema centralizado donde cada pieza de información operativa, financiera y de arrendamiento está sincronizada. En lugar de que ventas, contabilidad y gestión de instalaciones utilicen herramientas separadas y versiones distintas de la información, todos los equipos confían en los mismos datos verificados y en tiempo real.",
+                "desc2": "El trabajo no termina al conectar bases de datos. Se trata de generar confianza en los números que ves a diario, ya sean tasas de ocupación, ingresos por alquiler o acuerdos de nivel de servicio (SLA). Imagina que tu agente de arrendamiento actualiza un registro de inquilino: ese cambio se refleja automáticamente en finanzas para la facturación y en operaciones para la programación del servicio. Todos trabajan con el mismo registro, no con diez copias diferentes.",
+                "desc3": "Esa es, básicamente, la esencia de una SSOT: claridad, precisión y conexión a lo largo del ciclo de vida de la propiedad."
+            }
+        ],
+        "whyRealEstatedata": [
+            {
+                "title": "Por qué el sector inmobiliario todavía lucha con la fragmentación de datos",
+                "desc": "A pesar de los beneficios evidentes, la mayoría de las organizaciones inmobiliarias todavía operan en silos. Un estudio de Deloitte de 2024 encontró que más del 60% de las empresas de gestión de propiedades dependen de más de cinco sistemas desconectados para gestionar las operaciones diarias.",
+                "listTitle": "Aquí es donde suelen aparecer los problemas:",
+                "list": [
+                    {
+                        "desc": "Sistemas heredados que no comparten datos"
+                    },
+                    {
+                        "desc": "Múltiples soluciones de proveedores para arrendamiento, facturación y mantenimiento"
+                    },
+                    {
+                        "desc": "Conciliación manual de pagos y contratos"
+                    },
+                    {
+                        "desc": "Registros duplicados o desactualizados entre plataformas"
+                    }
+                ],
+                "desc2": "Debido a esto, los equipos pasan horas verificando datos en lugar de actuar sobre ellos. Finanzas y operaciones toman decisiones basadas en versiones diferentes de la realidad. Las renovaciones de arrendamiento se retrasan. Las auditorías de cumplimiento tardan semanas en lugar de horas.",
+                "desc3": "Y lo peor: los datos inexactos o inconsistentes pueden costar hasta un 20% de los ingresos potenciales debido a facturación omitida, cobros atrasados y mala experiencia del inquilino. El sector inmobiliario no tiene un problema de datos; tiene un problema de alineación de datos."
+            }
+        ],
+        "crmErpData": [
+            {
+                "title": "Convergencia CRM + ERP: La base de una Fuente Única de Verdad",
+                "desc": "¿Cómo se soluciona esto?",
+                "desc1": "La verdadera respuesta radica en la <a href='https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergencia de los sistemas CRM y ERP</a>, los dos mayores motores de datos de tus operaciones.",
+                "list": [
+                    {
+                        "title": "CRM (Gestión de Relaciones con el Cliente)",
+                        "desc": "maneja todo, desde la generación de leads y la incorporación de inquilinos hasta las renovaciones y la comunicación."
+                    },
+                    {
+                        "title": "ERP (Planificación de Recursos Empresariales)",
+                        "desc": "gestiona finanzas, facturación, adquisiciones e informes."
+                    }
+                ],
+                "desc2": "Cuando estos sistemas funcionan por separado, información crítica como términos de arrendamiento, cronogramas de pago y costos de mantenimiento se pierde o se duplica.",
+                "desc3": "Pero cuando están integrados, forman un flujo continuo de datos:"
+            }
+        ],
+         "crmDataList2": [
+    {
+      "list": [
+        {
+          "desc": "Un cliente potencial ingresa al CRM a través de una consulta en el sitio web"
+        },
+        {
+          "desc": "Una vez convertido, los detalles del contrato de arrendamiento se sincronizan automáticamente con el ERP para el procesamiento financiero."
+        },
+        {
+          "desc": "El equipo de operaciones obtiene visibilidad instantánea del estado de ocupación y los horarios de servicio."
+        },
+        {
+          "desc": "Cuando se realizan los pagos, las actualizaciones de datos entre los sistemas se hacen en tiempo real."
+        }
+      ],
+      "desc2": "Por ejemplo, un importante desarrollador inmobiliario europeo integró su CRM y ERP a través de una plataforma unificada y vio una reducción del 25% en los errores de datos y un cierre financiero de fin de mes un 30% más rápido.",
+      "desc3": "Ese es el poder de la convergencia, lo que significa menos conciliación y más claridad."
     }
-}
+  ],
+        "theBusinessCase": [
+            {
+                "title": "El caso empresarial: por qué una Fuente Única de Verdad importa",
+                "list": [
+                    {
+                        "title": "1. Visibilidad y toma de decisiones en tiempo real",
+                        "desc": "Con datos unificados, los paneles finalmente tienen sentido. Los gerentes de propiedades pueden ver el flujo de arrendamientos, las tendencias de ocupación y el flujo de efectivo en tiempo real. Los ejecutivos no tienen que esperar los informes de fin de mes. Pueden monitorear el rendimiento en vivo y tomar decisiones más rápidas y basadas en datos. Según Deloitte, el 70% de los líderes informan una mayor precisión en las previsiones después de implementar plataformas de datos integradas."
+                    },
+                    {
+                        "title": "2. Menos errores de conciliación y operaciones más rápidas",
+                        "desc": "Cuando arrendamiento, facturación y finanzas usan el mismo sistema, desaparece la verificación manual. Los pagos coinciden con las facturas instantáneamente y los datos de los inquilinos son consistentes. En lugar de conciliar pagos semanalmente, tu equipo financiero recibe actualizaciones automáticas en cuanto se procesan. Eso ahorra horas de trabajo administrativo y mejora la precisión y el cumplimiento."
+                    },
+                    {
+                        "title": "3. Cumplimiento más sólido y generación de informes más sencilla",
+                        "desc": "Las empresas inmobiliarias enfrentan regulaciones estrictas como RERA o GAAP. Tener una base de datos conectada significa que cada registro —cada arrendamiento, factura y pago— es rastreable. Las auditorías que antes tomaban días ahora se completan en horas, y los informes de cumplimiento se generan automáticamente."
+                    },
+                    {
+                        "title": "4. Colaboración que realmente funciona",
+                        "desc": "Pregúntale a cualquier equipo de gestión de propiedades qué los retrasa y te dirán lo mismo: no estamos viendo los mismos números. Una fuente única de verdad cambia eso. Los agentes, contadores y gerentes de instalaciones trabajan con el mismo conjunto de datos, las actualizaciones se reflejan instantáneamente, y ya no hay confusión sobre qué versión es la final."
+                    }
+                ]
+            }
+        ],
+        "aDayInLife": [
+            {
+                "title": "Un día en la vida: del lead al arrendamiento en un sistema unificado",
+                "des": "Veamos un ejemplo real.",
+                "desc1": "Una empresa inmobiliaria comercial gestiona 80 edificios y usa sistemas separados para CRM, ERP y mantenimiento.",
+                "des2": "Así era su proceso anterior:"
+            }
+        ],
+        "theRoleOfAI": [
+            {
+                "title": "El papel de la IA y la automatización en el mantenimiento de una Fuente Única de Verdad",
+                "des": "Un sistema único es poderoso, pero si le agregas IA, se vuelve predictivo. La IA puede detectar inconsistencias entre datos de arrendamiento y registros de facturación antes de que generen errores. Puede pronosticar costos de mantenimiento o detectar duplicados.",
+                "desc1": "La automatización garantiza que los datos se mantengan sincronizados en todos los flujos de trabajo: desde aprobaciones de arrendamiento hasta cobros de renta. Por ejemplo, si un motor de IA detecta que el costo de mantenimiento de una propiedad supera lo esperado, alerta automáticamente a operaciones y finanzas.",
+                "des2": "En resumen, la IA no solo respalda una Fuente Única de Verdad, la protege."
+            }
+        ],
+        "steps": [
+            {
+                "title": "Un lead completa un formulario",
+                "subtitle": "Ingresa al CRM"
+            },
+            {
+                "title": "El arrendamiento es aprobado",
+                "subtitle": "Los datos se reingresan manualmente en el ERP"
+            },
+            {
+                "title": "Los tickets de mantenimiento se registran por separado",
+                "subtitle": "Se envían semanalmente a operaciones"
+            },
+            {
+                "title": "El equipo financiero pasa dos días conciliando facturas mensuales",
+                "subtitle": ""
+            }
+        ],
+        "steps2": [
+            {
+                "title": "El lead ingresa al CRM",
+                "subtitle": "Crea automáticamente un registro de prospecto vinculado al ERP"
+            },
+            {
+                "title": "Cuando se firma el arrendamiento",
+                "subtitle": "La facturación y contabilidad se actualizan al instante"
+            },
+            {
+                "title": "",
+                "subtitle": "Cualquier actividad de mantenimiento o incumplimiento de SLA se sincroniza directamente con los paneles de arrendamiento y finanzas"
+            },
+            {
+                "title": "",
+                "subtitle": "Los informes y KPIs se actualizan en tiempo real"
+            }
+        ],
+        "fromDataChaos": [
+            {
+                "title": "Del caos de datos a la confianza en los datos",
+                "des": "Lo que hemos descubierto es que los equipos inmobiliarios no fallan por falta de datos, sino porque sus datos están dispersos. Una Fuente Única de Verdad transforma cómo trabajas, planificas y creces.",
+                "desc1": "Con Exelona, los líderes inmobiliarios obtienen una vista unificada del proceso completo —del lead al arrendamiento al libro mayor—, una sola versión de la verdad que impulsa precisión, transparencia y rentabilidad. Es hora de dejar de gestionar sistemas y <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>empezar a gestionar resultados con Rialtes</a>."
+            }
+        ],
+        "yourPathTitle": [
+            {
+                "title": "Tu camino hacia un ecosistema inmobiliario unificado",
+                "des": "Nuestra solución, Exelona, es más que un software de gestión inmobiliaria; es una plataforma unificada CRM + ERP creada específicamente para eliminar los silos de datos.",
+                "desc1": "Así es como ayuda a construir una Fuente Única de Verdad en tus operaciones:"
+            }
+        ],
+        "keyElemData": [
+            {
+                "title": "Datos centralizados de arrendamiento y finanzas",
+                "desc": "Cada arrendamiento, inquilino y pago vive en un solo sistema. Sin duplicaciones, sin demoras."
+            },
+            {
+                "title": "Operaciones inmobiliarias impulsadas por IA",
+                "desc": "Predice mantenimiento, pronostica presupuestos y sigue los SLA con precisión."
+            },
+            {
+                "title": "Integración escalable de plataformas inmobiliarias",
+                "desc": "Se conecta fácilmente con tus sistemas existentes como Yardi, Oracle o ERP personalizados."
+            },
+            {
+                "title": "Experiencia móvil para residentes",
+                "desc": "Brinda a tu personal e inquilinos visibilidad en tiempo real y opciones de autoservicio."
+            },
+            {
+                "title": "Informes automatizados",
+                "desc": "Genera reportes financieros y operativos listos para auditoría en minutos."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "¿Qué significa ‘fuente única de verdad’ en operaciones inmobiliarias?",
+                "answer": "Significa usar un sistema centralizado que conecta todos los datos de arrendamiento, finanzas y operaciones para que todos los equipos trabajen con la misma información verificada."
+            },
+            {
+                "question": "¿Cómo mejora la convergencia CRM + ERP la eficiencia?",
+                "answer": "Al integrar la gestión de leads, arrendamientos, facturación e informes en una sola plataforma, se eliminan duplicaciones y conciliaciones manuales."
+            },
+            {
+                "question": "¿Por qué los administradores de propiedades necesitan una fuente única de verdad?",
+                "answer": "Los datos fragmentados generan decisiones lentas, errores y poca visibilidad. SSOT garantiza que todos los equipos trabajen con la misma información actualizada."
+            },
+            {
+                "question": "¿Puede la IA ayudar a mantener una fuente única de verdad en el sector inmobiliario?",
+                "answer": "Sí. La IA puede detectar inconsistencias, automatizar validaciones y ofrecer información predictiva para mantener la precisión de los registros."
+            },
+            {
+                "question": "¿Cómo mejora la centralización de datos de arrendamiento y finanzas los informes?",
+                "answer": "Los datos unificados permiten informes instantáneos y precisos sin consolidación manual, reduciendo el tiempo hasta en un 40%."
+            },
+            {
+                "question": "¿Qué hace diferente a Exelona de otras herramientas de gestión inmobiliaria?",
+                "answer": "Exelona unifica CRM y ERP en un solo sistema impulsado por IA, diseñado para operaciones inmobiliarias inteligentes e integración escalable de plataformas."
+            }
+        ]
+    }
+} 

@@ -572,7 +572,7 @@
         "unifiedData": [
             {
                 "title": "Comment les systèmes unifiés résolvent ces défis",
-                "desc": "Une <span>plateforme immobilière intégrée et évolutive</span> remplace toutes ces pièces mobiles par un seul écosystème.",
+                "desc": "Une <a href='https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>plateforme immobilière intégrée et évolutive</a> remplace toutes ces pièces mobiles par un seul écosystème.",
                 "desc2": "Imaginez ce flux de travail :",
                 "list": [
                     "Un bail est approuvé dans le CRM.",
@@ -621,7 +621,7 @@
                     "Quelles propriétés sous-performent sur la collecte des loyers ?",
                     "Où les coûts de maintenance sont-ils les plus élevés ?"
                 ],
-                "desc2": "Avec des données centralisées sur la location et la finance, les décideurs n’ont plus besoin de rapports obsolètes ni de rapprochements manuels."
+                "desc2": "Avec des <a href='https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>données centralisées sur la location et les finances</a>, les décideurs ne dépendent plus de rapports vieux d’une semaine ni de rapprochements manuels."
             },
             {
                 "title": "Efficacité des coûts et simplification IT",
@@ -694,6 +694,7 @@
         "unifiedTitle": "Un système CRM + ERP unifié pour les dirigeants immobiliers"
     },
     "aiRealEstate": {
+        "faqTitle": "FAQ : Réduire les dépenses d’exploitation grâce à la maintenance prédictive",
         "bannerAlt": "Illustration d’un bâtiment commercial avec des capteurs de maintenance alimentés par l’IA et un tableau de bord analytique",
         "blogMainData": [
             "Voici la vérité sur les opérations immobilières : elles ont toujours consisté à trouver un équilibre entre coût, confort et continuité. Le problème, c’est que la plupart des modèles de maintenance sont encore réactifs. Les équipes réparent ce qui tombe en panne, se précipitent pour répondre aux plaintes des locataires et voient les dépenses d’exploitation augmenter année après année.",
@@ -780,7 +781,7 @@
                     },
                     {
                         "title": "Expérience Locataire",
-                        "desc": "Utilise des données de sentiment et une <span>IA conversationnelle pour le support résident</span> afin de personnaliser la communication et d’améliorer la satisfaction."
+                        "desc": "Utilise des données de sentiment et une <a href='https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>IA conversationnelle pour le support résident</a> afin de personnaliser la communication et d’améliorer la satisfaction."
                     }
                 ],
                 "desc2": "En résumé, l’IA transforme les opérations réactives en écosystèmes stratégiques basés sur les données. Elle donne aux gestionnaires d’actifs la visibilité nécessaire pour prendre des décisions éclairées sur la maintenance, la performance, l’investissement et la durabilité."
@@ -808,7 +809,7 @@
                             "L’IA identifie le technicien disponible le plus proche possédant les compétences requises.",
                             "Un ordre de travail est automatiquement généré et synchronisé avec le mobile du technicien.",
                             "Le technicien effectue la réparation, ajoute ses notes et clôture le ticket.",
-                            "Le système met à jour l’état en temps réel — offrant à la direction une visibilité complète et un <strong>suivi des SLA et automatisation de la facturation dans l’immobilier</strong>."
+                            "Le système met à jour l’état en temps réel — offrant à la direction une visibilité complète et un <a href='https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>suivi des SLA et automatisation de la facturation dans l’immobilier</a>."
                         ],
                         "desc": "Ce niveau de coordination permet aux grands portefeuilles immobiliers d’économiser du temps, de réduire les coûts de déplacement et de garantir qu’aucune alerte n’est manquée."
                     }
@@ -939,6 +940,7 @@
         "preparingDesc3": "En suivant cette approche structurée, vous construirez non seulement des flux de travail de maintenance plus intelligents, mais aussi une stratégie immobilière qui apprend, s’adapte et s’améliore en continu.",
         "keyTitle": "Points Clés à Retenir",
         "keyDesc": "Que vous gériez 100 unit... (truncated for brevity)"
+        
     },
     "agenticPharma": {
         "bannerAlt": "Illustration arbre fibre optique coloré avec branches lumineuses multicolores sur fond bleu-vert foncé tech",
@@ -1008,6 +1010,7 @@
         "improveData3": " Nos experts en pharma et en technologies vous accompagnent pour simplifier l’intégration de l’IA dans vos workflows, renforcer la recherche, optimiser la production et développer des stratégies basées sur les données. Qu’il s’agisse d’améliorer la R&D, de rationaliser la fabrication ou d’optimiser l’engagement client, ils garantissent une transition fluide vers des opérations pilotées par l’IA."
     },
     "howDoesSapAribaStreamline": {
+        "bannerAlt": "Câbles à fibre optique bleus avec flux de données lumineux représentant connectivité réseau haute vitesse et infrastructure numérique",
         "seoTitle": "SAP Ariba : achats directs et indirects plus efficaces | Rialtes",
         "seoDescription": "SAP Ariba digitalise les achats, de la sélection au paiement, pour accélérer les processus, économiser et renforcer le contrôle.",
         "blogTopic": "SAP",
@@ -1085,6 +1088,7 @@
         "integrateDesc3": "Rialtes propose une gamme de services, notamment le conseil, la mise en œuvre et le support. Nous aidons à réinventer vos opérations d’approvisionnement et à améliorer la prise de décision grâce aux solutions SAP Ariba."
     },
     "howSapSuccessFactorIntegration": {
+        "bannerAlt": "Architecture réseau numérique bleue abstraite avec cubes géométriques transparents et flux de données représentant infrastructure cloud",
         "seoTitle": "Intégration SuccessFactors : optimisez RH et paie | Rialtes",
         "seoDescription": "Les intégrations SuccessFactors transforment RH et paie avec plus d’efficacité, de précision et de conformité pour toutes les équipes.",
         "blogTopic": "SAP SucessFactors",
@@ -1245,6 +1249,7 @@
         "overcomeLink": "solutions d’intégration SAP SuccessFactors."
     },
     "redefiningBlog": {
+        "bannerAlt": "Arbre numérique bleu cyan lumineux avec lignes connectées fluides et points lumière sur fond bleu foncé montrant réseau données",
         "seoTitle": "SAP Joule AI : l’avenir de l’entreprise pilotée par l’IA | Rialtes",
         "seoDescription": "SAP Joule AI accélère les décisions et simplifie l’accès aux réponses sans passer par des tableaux de bord complexes.",
         "blogTopic": "SAP",
@@ -1358,7 +1363,9 @@
         "shiftFromLink3": "SAP Ariba"
     },
     "sapDataCloud": {
-        "sapImage": "/images/blog/sap-french-diagram.webp",
+        "bannerAlt": "Vague océan bleue avec superposition grille filaire numérique et points connexion lumineux représentant flux données transformation",
+        "sapImage": "/images/blog/sap-business-data-cloud-technical-architecture-diagram.png",
+        "sapAlt": "Diagramme montrant SAP Business Data Cloud hub central connecté à six composants incluant bases données, analytique et assistant IA",
         "seoTitle": "Qu’est-ce que le BDC dans SAP ? Transformez avec Business Data Cloud | Rialtes",
         "seoDescription": "SAP BDC simplifie l’intégration des données, donne un accès temps réel et soutient des décisions IA-ready pour transformer l’entreprise.",
         "blogs": [
@@ -1473,6 +1480,7 @@
         "acceleratesDesc3": "pour explorer son impact potentiel sur votre organisation."
     },
     "powerfulFeatures": {
+        "bannerAlt": "Professionnel tapant sur ordinateur portable avec motif d'ondes numériques représentant travail à distance et productivité",
         "seoTitle": "Les atouts d’Agentforce qui changent la donne | Rialtes",
         "seoDescription": "Agentforce comble les lacunes CX grâce au routage intelligent, à l’IA pour la résolution et aux tableaux de bord de performance.",
         "blogTopic": "Salesforce Agentforce",
@@ -1616,6 +1624,7 @@
         "transitionDesc2": "Rialtes permet aux entreprises d’intégrer des agents Agentforce personnalisés dans leurs plateformes ERP, automatisant les tâches et optimisant les workflows. Grâce à l’apprentissage automatique et au traitement du langage naturel, nous alignons les agents sur les objectifs organisationnels pour une automatisation intelligente et efficace. Contactez-nous à "
     },
     "howSuccessFactorEnhances": {
+        "bannerAlt": "Professionnel tapant sur ordinateur portable avec motif d'ondes numériques représentant travail à distance et productivité",
         "seoTitle": "Guide SuccessFactors pour gérer vos équipes à distance | Rialtes",
         "seoDescription": "Découvrez comment SuccessFactors aide à engager, suivre et collaborer efficacement avec vos équipes à distance.",
         "blogTopic": "SAP SuccessFactors",
@@ -1774,6 +1783,7 @@
         "manageDesc3": "pour une consultation sur les fonctionnalités, avantages et déploiement de SAP SuccessFactors."
     },
     "agentForceAgents": {
+        "bannerAlt": "Main robotique lumineuse au-dessus du clavier d'ordinateur représentant automatisation IA et transformation numérique",
         "blogTopic": "Salesforce Agentforce",
         "seoTitle": "L’avenir de la planification d’entreprise avec l’IA",
         "seoDescription": "Avec Salesforce AI, Agentforce automatise les tâches ERP, fournit des insights en temps réel et assure une collaboration fluide.",
@@ -1837,6 +1847,7 @@
         "futureDesc3": "Rialtes permet aux entreprises d’intégrer des agents Agentforce personnalisés dans leurs plateformes ERP spécifiques, en automatisant les tâches répétitives et en optimisant les flux de travail. En utilisant l’apprentissage automatique et le traitement du langage naturel, nous veillons à ce que ces agents s’alignent sur les objectifs organisationnels. Les entreprises peuvent ainsi garantir que leurs déploiements d’Agentforce exploitent des données fiables pour une automatisation intelligente. Contactez-nous à"
     },
     "meetTeammate": {
+        "bannerAlt": "Interface numérique d’agent IA lumineuse en bleu avec circuits futuristes et motifs de données",
         "seoTitle": "Optimiser Slack avec Agentforce pour mieux collaborer | Rialtes",
         "seoDescription": "Agentforce transforme Slack en hub intelligent avec agents IA pour simplifier les demandes IT et améliorer le travail d’équipe.",
         "blogTopic": "Salesforce Agentforce",
@@ -1936,7 +1947,7 @@
         "collaborateDesc3": "sont basés sur des données fiables et exploitables, maximisant le potentiel de l’automatisation intelligente. Contactez-nous à"
     },
     "integrateSapSuccessFactor": {
-        "bannerAlt" : "Motif abstrait de points demi-teinte bleu et orange créant design d'onde sur fond bleu marine",
+        "bannerAlt": "Motif abstrait de points demi-teinte bleu et orange créant design d'onde sur fond bleu marine",
         "seoTitle": "Intégrer SAP à Office 365 pour une meilleure collaboration RH",
         "seoDescription": "Découvrez comment l’intégration SAP-Office 365 simplifie les processus RH, automatise les tâches et favorise la collaboration.",
         "blogTopic": "SAP SuccessFactors",
@@ -2069,7 +2080,7 @@
         "completeDesc4": "pour commencer avec l’un de nos consultants SAP SuccessFactors experts !"
     },
     "enhancingCompliance": {
-        "bannerAlt" : "Carte mondiale 3D avec lignes de connexion illuminées montrant connectivité réseau mondial et flux de données",
+        "bannerAlt": "Carte mondiale 3D avec lignes de connexion illuminées montrant connectivité réseau mondial et flux de données",
         "seoTitle": "SAP GTS : liste des parties sanctionnées et conformité | Rialtes",
         "seoDescription": "Réduisez les risques grâce au filtrage SAP et évitez les relations interdites. Restez conforme et évitez les sanctions légales.",
         "blogTopic": "SAP GTS",
@@ -2167,7 +2178,7 @@
         "complyDesc3": "doté d’une solide expertise en gestion du commerce mondial et des risques, nous aidons les entreprises à gérer ces processus efficacement, en offrant une valeur et un retour sur investissement optimaux. Nos consultants SAP expérimentés possèdent les compétences nécessaires pour répondre à vos besoins critiques tout en formant vos équipes internes pour une amélioration continue et une innovation durable."
     },
     "agentforceTesting": {
-        "bannerAlt" : "Engrenages numériques bleus et nœuds réseau représentant automatisation industrielle et technologie blockchain",
+        "bannerAlt": "Engrenages numériques bleus et nœuds réseau représentant automatisation industrielle et technologie blockchain",
         "seoTitle": "Agentforce Testing Center : testez vos agents IA avant production",
         "seoDescription": "Testez vos agents IA grâce à la suite Agentforce avant leur déploiement en production et assurez leur efficacité.",
         "blogTopic": "Salesforce Agentforce",
@@ -2230,7 +2241,7 @@
         "whyDesc4": "ou besoin d’aide pour démarrer ? Nous sommes là pour vous aider. Chez Rialtes, nous sommes spécialisés dans les tests IA et , et nous avons aidé des clients à obtenir des gains de productivité significatifs en exploitant les outils IA pour rationaliser leurs processus métier."
     },
     "successfactorSupportsDiversity": {
-        "bannerAlt" : "Pièces de puzzle colorées avec icônes de diversité montrant personnes et symboles fauteuil roulant inclusion",
+        "bannerAlt": "Pièces de puzzle colorées avec icônes de diversité montrant personnes et symboles fauteuil roulant inclusion",
         "seoTitle": "Diversité et inclusion avec SuccessFactors : vers l’équité au travail | Rialtes",
         "seoDescription": "Découvrez comment SuccessFactors favorise le recrutement équitable, la performance inclusive et l’engagement des collaborateurs.",
         "bloTopic": "Diversité & Inclusion",
@@ -2284,7 +2295,7 @@
         "hrSystemDesc3": " Contactez-nous dès aujourd’hui à"
     },
     "automateCrucial": {
-        "bannerAlt" : "Travailleuse santé en blouse bleue et masque utilisant tablette dans établissement médical moderne",
+        "bannerAlt": "Travailleuse santé en blouse bleue et masque utilisant tablette dans établissement médical moderne",
         "seoTitle": "Intégration Athenahealth-Salesforce : améliorez les soins aux patients | Rialtes",
         "seoDescription": "L’intégration d’Athenahealth avec Salesforce offre une vision complète des données patients et optimise le parcours de soins.",
         "blogTopic": "Intégration",
@@ -2371,7 +2382,7 @@
         "findDesc4": ", est dédiée à exploiter tout le potentiel de Salesforce en offrant des expériences utilisateurs exceptionnelles à nos clients."
     },
     "successFactorPerformance": {
-        "bannerAlt" : "Main dessinant cercle cible avec stylo sur surface bleu clair représentant définition objectifs et précision",
+        "bannerAlt": "Main dessinant cercle cible avec stylo sur surface bleu clair représentant définition objectifs et précision",
         "seoTitle": "Conseils SuccessFactors : gestion des performances et des objectifs | Rialtes",
         "seoDescription": "Boostez l’engagement et l’alignement stratégique grâce à SuccessFactors. Contactez nos experts pour un accompagnement sur mesure.",
         "blogTopic": "SAP SuccessFactors",
@@ -2742,7 +2753,7 @@
         ]
     },
     "brainBehind": {
-        "bannerAlt" : "Illustration cerveau circuit numérique avec connexions lumineuses sur fond bleu foncé montrant concept IA",
+        "bannerAlt": "Illustration cerveau circuit numérique avec connexions lumineuses sur fond bleu foncé montrant concept IA",
         "seoTitle": "Comment fonctionne le moteur de raisonnement d’Agentforce ? | Rialtes",
         "seoDescription": "Découvrez comment le moteur de raisonnement optimise le support client et améliore la qualité de service pour une meilleure expérience.",
         "blogTopic": "Salesforce Agentforce",
@@ -2803,7 +2814,7 @@
         "gameDesc2": "Alors que les entreprises priorisent la satisfaction client, des outils comme Atlas joueront sans aucun doute un rôle clé dans l’avenir de l’expérience client. Nous pouvons nous attendre à une intégration plus poussée avec d’autres produits Salesforce, à des capacités d’IA plus sophistiquées et à des fonctionnalités d’analytique prédictive encore plus avancées prochainement. Rialtes vous aide à développer, personnaliser et déployer des agents IA autonomes pour les ventes, le marketing, le service et les tâches liées au e-commerce avec la plateforme Agentforce. Contactez nos experts."
     },
     "howSalesforceAgentforceWorks": {
-        "bannerAlt" : "Robot blanc futuriste avec yeux bleus lumineux et éclairage rose affichant écrans interface numérique",
+        "bannerAlt": "Robot blanc futuriste avec yeux bleus lumineux et éclairage rose affichant écrans interface numérique",
         "seoTitle": "Comment fonctionne Salesforce Agentforce ? | Rialtes",
         "seoDescription": "Découvrez comment Agentforce améliore l’engagement client et simplifie les opérations. Contactez Rialtes pour démarrer votre parcours IA !",
         "blogTopic": "Salesforce Agentforce",
@@ -2865,7 +2876,7 @@
         "gettingDesc3": "et nous avons aidé nos clients à réaliser des gains de productivité significatifs grâce à l’utilisation d’outils basés sur l’IA pour améliorer leurs processus métier."
     },
     "agriculture": {
-        "bannerAlt" : "Drone professionnel avec caméra planant au-dessus champ agricole vert pour photographie aérienne et surveillance",
+        "bannerAlt": "Drone professionnel avec caméra planant au-dessus champ agricole vert pour photographie aérienne et surveillance",
         "seoTitle": "Salesforce pour l’agriculture : la révolution numérique | Rialtes",
         "seoDescription": "Découvrez comment Salesforce transforme l’agriculture en améliorant l’efficacité et en innovant pour un futur durable avec l’Agriculture 4.0.",
         "blogTopic": "Technologie Verte",
@@ -4606,6 +4617,7 @@
         "faqTitle": "FAQs : Migration de SAP PI/PO vers SAP CPI"
     },
     "s4HanaSapALM": {
+        "bannerAlt": "Montagne numérique abstraite formée par ondes lumière bleue rose violet fluides avec points particules sur fond sombre montrant flux données",
         "seoTitle": "SAP Signavio et Cloud ALM : une nouvelle ère pour S/4HANA",
         "seoDescription": "Associez Signavio et Cloud ALM pour assurer gouvernance, traçabilité et exécution pilotée par KPI dans vos transformations S/4HANA.",
         "mainData": [
@@ -5201,6 +5213,7 @@
         "faqTitle": "FAQ : Foire aux Questions"
     },
     "ecommerceDataCloud": {
+        "bannerAlt": "Image de bannière montrant Salesforce Data Cloud stimulant le commerce électronique prédictif et la fidélisation client",
         "seoTitle": "E-commerce Salesforce : fidélité renforcée avec Data Cloud | Rialtes",
         "seoDescription": "Salesforce Data Cloud unifie les données clients pour générer des insights prédictifs et personnaliser l’e-commerce en temps réel.",
         "salesforceData": [
@@ -5350,6 +5363,7 @@
         "faqTitle": "Foire aux questions (FAQ)"
     },
     "agentforceHitech": {
+        "bannerAlt": "Image de bannière illustrant l'intégration d'Agentforce AI avec les systèmes ERP",
         "seoTitle": "Comment Agentforce IA transforme l’ERP avec l’automatisation | Rialtes",
         "seoDescription": "Agentforce analyse les données ERP et SCM pour fournir des insights prédictifs, améliorer les décisions et accroître la productivité.",
         "agentfoceIntegrates": [
@@ -6675,6 +6689,10 @@
         "faqTitle": "FAQ : Implémentation et intégration Salesforce"
     },
     "slasBilling": {
+        "seoTitle" : "Suivi des accords de niveau de service (SLA) : Guide basé sur l’IA | Rialtes",
+        "seoDescription" : "Grâce aux tableaux de bord alimentés par l’IA, à la facturation automatisée et aux analyses prédictives, les gestionnaires immobiliers surveillent la conformité des SLA et les coûts de maintenance en temps réel.",
+        "gutDrivenSection" : "De l’Instinct au Pilotage par les Données : La Transition est Déjà en Cours",
+        "faqTitle" : "Foire aux Questions : Efficacité Opérationnelle Axée sur les Données dans l’Immobilier",
         "slasTitle": "Comment suivre les SLA et la facturation sans devenir fou ?",
         "blogTopic": "Salesforce",
         "slasPara1": "Un accord de niveau de service (SLA) définit le niveau de service attendu d’un fournisseur. Il précise les indicateurs utilisés pour mesurer ce service ainsi que les recours possibles si les niveaux de service convenus ne sont pas respectés. Le SLA est une partie essentielle de tout contrat avec un fournisseur technologique.",
@@ -6798,8 +6816,9 @@
                 "desc": "Passer de processus manuels semble perturbateur — même si c’est mieux à long terme."
             }
         ],
-        "faqs": [
-            {
+
+        "faqs" : [
+              {
                 "question": "Comment puis-je surveiller la performance des SLA dans la gestion immobilière ?",
                 "answer": "Vous pouvez surveiller les SLA à l’aide de tableaux de bord IA qui suivent les temps de réponse des prestataires, les taux d’achèvement des ordres de travail et les indicateurs de conformité en temps réel. Des plateformes comme Exelona envoient automatiquement des alertes lorsqu’un SLA risque d’être violé."
             },
@@ -6822,6 +6841,236 @@
             {
                 "question": "Quelles fonctionnalités dois-je rechercher dans une plateforme d’analyse opérationnelle ?",
                 "answer": "Recherchez le suivi en temps réel des SLA, l’automatisation de la facturation, les alertes prédictives et les analyses de performance des prestataires. Des plateformes comme Exelona regroupent tout cela en un seul endroit."
+            }
+        ]
+    },
+    "whatDoesASingle": {
+        "aleadsfill": "Un prospect remplit",
+        "aform": "un formulaire",
+        "leaseis": "Le bail est approuvé",
+        "entersCrm": "Entre dans le CRM",
+        "detailsreenter": "Les détails sont ressaisis manuellement dans l'ERP",
+        "maintainentce": "Les tickets de maintenance sont enregistrés séparément",
+        "emailed": "Envoyé par e-mail chaque semaine aux opérations",
+        "finanace": "L'équipe financière passe deux jours à rapprocher la facture mensuelle",
+        "theLead": "Le prospect entre dans le CRM",
+        "automatically": "Crée automatiquement un enregistrement de prospect lié à l'ERP",
+        "whenSign": "Lorsque le bail est signé",
+        "billing": "La facturation et la comptabilité sont mises à jour instantanément",
+        "anyManatainance": "Toute activité de maintenance ou violation de SLA se synchronise directement avec les tableaux de bord de location et de finance",
+        "reports": "Les rapports et les KPI sont mis à jour en temps réel",
+        "blogTitle": "Que signifie une « source unique de vérité » pour l’immobilier, du lead à la location ?",
+        "para1": "Dans la gestion immobilière, ce ne sont rarement les grandes choses qui ralentissent les équipes. Ce sont plutôt les innombrables petites inefficacités, les données de bail incohérentes, les doublons d’enregistrements ou le temps perdu à vérifier des feuilles de calcul. La plupart des entreprises immobilières gèrent naturellement plusieurs systèmes : un CRM pour les prospects, un ERP pour la finance, une application de maintenance, et plus de feuilles Excel qu’on ne voudrait l’admettre.",
+        "para2": "Cette configuration fragmentée ne fait pas que faire perdre du temps. Elle masque les informations, retarde les rapports et rend la collaboration plus compliquée qu’elle ne devrait l’être. C’est là qu’intervient le concept de Source unique de vérité (SSOT) : une vue unifiée des données couvrant la location, la finance et les opérations, qui maintient tout le monde sur la même longueur d’onde.",
+        "para3": "Nous expliquerons ce que cela signifie réellement pour les entreprises immobilières et comment des plateformes comme Exelona aident les dirigeants à rassembler enfin toutes leurs données et leurs décisions.",
+        "para4": "Voici ce qui se passe lorsqu’ils passent à une plateforme SSOT unifiée comme Exelona :",
+        "faqTitle": "FAQ : Source unique de vérité dans l’immobilier",
+        "whatASingleSourceData": [
+            {
+                "title": "Ce que signifie réellement une Source Unique de Vérité dans l’immobilier",
+                "desc": "En termes simples, une Source Unique de Vérité est un système centralisé où chaque donnée opérationnelle, financière et locative est synchronisée. Au lieu que les ventes, la comptabilité et la gestion des installations utilisent des outils séparés et des versions différentes de la réalité, toutes les équipes s’appuient sur les mêmes données vérifiées en temps réel.",
+                "desc2": "Le travail ne s’arrête pas à la connexion des bases de données. Il s’agit d’instaurer la confiance dans les chiffres que vous consultez chaque jour — qu’il s’agisse des taux d’occupation, des revenus locatifs ou des SLA de maintenance. Imaginez que votre agent de location mette à jour le dossier d’un locataire : cette modification est automatiquement reflétée dans la comptabilité pour la facturation et dans les opérations pour la planification du service. Tout le monde travaille à partir du même enregistrement, et non de dix copies différentes.",
+                "desc3": "C’est essentiellement l’essence même de la SSOT : clarté, précision et interconnexion tout au long du cycle de vie de la propriété."
+            }
+        ],
+        "whyRealEstatedata": [
+            {
+                "title": "Pourquoi l’immobilier lutte encore contre la fragmentation des données",
+                "desc": "Malgré des avantages évidents, la plupart des organisations immobilières fonctionnent encore en silos. Une étude de Deloitte (2024) révèle que plus de 60 % des sociétés de gestion immobilière utilisent plus de cinq systèmes déconnectés pour leurs opérations quotidiennes.",
+                "listTitle": "Voici où les problèmes apparaissent généralement :",
+                "list": [
+                    {
+                        "desc": "Systèmes hérités qui ne partagent pas les données"
+                    },
+                    {
+                        "desc": "Solutions multiples de différents fournisseurs pour la location, la facturation et la maintenance"
+                    },
+                    {
+                        "desc": "Rapprochement manuel des paiements et des contrats"
+                    },
+                    {
+                        "desc": "Données dupliquées ou obsolètes entre plateformes"
+                    }
+                ],
+                "desc2": "En conséquence, les équipes passent des heures à vérifier les données au lieu d’agir. Les services financiers et opérationnels prennent des décisions basées sur des versions différentes de la réalité. Les renouvellements de baux prennent du retard. Les audits de conformité prennent des semaines au lieu de quelques heures.",
+                "desc3": "Et le pire : des données inexactes ou incohérentes peuvent coûter jusqu’à 20 % des revenus potentiels, à cause de factures manquées, de paiements retardés et d’une mauvaise expérience client. L’immobilier n’a pas un problème de données, mais un problème d’alignement des données."
+            }
+        ],
+        "crmErpData": [
+            {
+                "title": "Convergence CRM + ERP : la base d’une Source Unique de Vérité",
+                "desc": "Comment résoudre cela ?",
+                "desc1": "La véritable solution réside dans la <a href='https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergence entre les systèmes CRM et ERP</a> — les deux plus grands moteurs de données de vos opérations.",
+                "list": [
+                    {
+                        "title": "CRM (Gestion de la relation client)",
+                        "desc": "gère tout, de la génération de leads à la communication locataire en passant par les renouvellements de baux."
+                    },
+                    {
+                        "title": "ERP (Planification des ressources d’entreprise)",
+                        "desc": "s’occupe des finances, de la facturation, des achats et des rapports."
+                    }
+                ],
+                "desc2": "Lorsque ces systèmes fonctionnent séparément, des informations critiques comme les termes du bail, les calendriers de paiement ou les coûts de maintenance se perdent ou se dupliquent.",
+                "desc3": "Mais lorsqu’ils sont intégrés, ils créent un flux de données continu :"
+            }
+        ],
+        "crmDataList2": [
+            {
+                "list": [
+                    {
+                        "desc": "Un prospect entre dans le CRM via une demande sur le site web"
+                    },
+                    {
+                        "desc": "Une fois convertis, les détails du bail se synchronisent automatiquement avec l'ERP pour le traitement financier."
+                    },
+                    {
+                        "desc": "L'équipe des opérations obtient une visibilité instantanée sur le statut d'occupation et les calendriers de service."
+                    },
+                    {
+                        "desc": "Lorsque les paiements sont effectués, les mises à jour des données entre les systèmes se font en temps réel."
+                    }
+                ],
+                "desc2": "Par exemple, un important promoteur immobilier européen a intégré son CRM et son ERP via une plateforme unifiée et a constaté une réduction de 25 % des erreurs de données et une clôture financière de fin de mois 30 % plus rapide.",
+                "desc3": "C’est le pouvoir de la convergence : moins de rapprochements, plus de clarté."
+            }
+        ],
+        "theBusinessCase": [
+            {
+                "title": "Le cas métier : pourquoi une Source Unique de Vérité est essentielle",
+                "list": [
+                    {
+                        "title": "1. Visibilité et décisions en temps réel",
+                        "desc": "Avec des données unifiées, les tableaux de bord prennent enfin tout leur sens. Les gestionnaires peuvent suivre les flux de location, les tendances d’occupation et la trésorerie en temps réel. Les dirigeants n’ont plus besoin d’attendre les rapports de fin de mois : ils suivent la performance en direct et prennent des décisions basées sur des données fiables. Selon Deloitte, 70 % des dirigeants constatent une amélioration de la précision des prévisions après l’adoption de plateformes intégrées."
+                    },
+                    {
+                        "title": "2. Moins d’erreurs et opérations plus rapides",
+                        "desc": "Quand la location, la facturation et la comptabilité partagent un même système, les vérifications manuelles disparaissent. Les paiements sont automatiquement rapprochés des factures, et les données des locataires sont cohérentes. Au lieu de concilier chaque semaine, votre équipe financière reçoit des mises à jour automatiques dès qu’un paiement est traité — gagnant ainsi des heures de travail et en fiabilité."
+                    },
+                    {
+                        "title": "3. Conformité renforcée et rapports simplifiés",
+                        "desc": "Les entreprises immobilières doivent se conformer à des réglementations strictes telles que RERA ou GAAP. Une base de données connectée signifie que chaque bail, facture et paiement est traçable. Les audits qui prenaient des jours se font désormais en quelques heures, et les rapports de conformité sont générés automatiquement."
+                    },
+                    {
+                        "title": "4. Une collaboration réellement fluide",
+                        "desc": "Demandez à n’importe quelle équipe de gestion immobilière ce qui les ralentit, et la réponse est la même : nous ne voyons pas les mêmes chiffres. Une Source Unique de Vérité change tout : agents, comptables et gestionnaires travaillent sur le même ensemble de données, les mises à jour sont instantanées et il n’y a plus de confusion entre versions."
+                    }
+                ]
+            }
+        ],
+        "aDayInLife": [
+            {
+                "title": "Une journée type : du lead au bail dans un système unifié",
+                "des": "Prenons un exemple concret.",
+                "desc1": "Une entreprise immobilière commerciale gère 80 bâtiments à l’aide de systèmes séparés pour le CRM, l’ERP et la maintenance.",
+                "des2": "Voici comment fonctionnait son processus avant :"
+            }
+        ],
+        "theRoleOfAI": [
+            {
+                "title": "Le rôle de l’IA et de l’automatisation dans le maintien d’une Source Unique de Vérité",
+                "des": "Un système unifié est puissant, mais lorsqu’il est associé à l’intelligence artificielle, il devient prédictif. L’IA peut détecter les incohérences entre les données de bail et les factures avant qu’elles ne deviennent problématiques. Elle peut prévoir les coûts de maintenance ou repérer les doublons.",
+                "desc1": "L’automatisation garantit que les données restent synchronisées dans tous les flux de travail : des approbations de baux à la collecte des loyers. Par exemple, si un moteur d’IA détecte qu’un coût de maintenance dépasse le budget, il alerte automatiquement les services opérationnels et financiers.",
+                "des2": "En bref, l’IA ne se contente pas de soutenir une Source Unique de Vérité : elle la protège."
+            }
+        ],
+        "steps": [
+            {
+                "title": "Un prospect remplit un formulaire",
+                "subtitle": "Entre dans le CRM"
+            },
+            {
+                "title": "Le bail est approuvé",
+                "subtitle": "Les données sont ressaisies manuellement dans l’ERP"
+            },
+            {
+                "title": "Les tickets de maintenance sont enregistrés séparément",
+                "subtitle": "Envoyés chaque semaine aux opérations"
+            },
+            {
+                "title": "L’équipe financière passe deux jours à rapprocher les factures mensuelles",
+                "subtitle": ""
+            }
+        ],
+        "steps2": [
+            {
+                "title": "Le lead entre dans le CRM",
+                "subtitle": "Crée automatiquement un enregistrement prospect lié à l’ERP"
+            },
+            {
+                "title": "Quand le bail est signé",
+                "subtitle": "La facturation et la comptabilité sont mises à jour instantanément"
+            },
+            {
+                "title": "",
+                "subtitle": "Toute activité de maintenance ou tout manquement SLA est synchronisé directement avec les tableaux de bord de location et de finances"
+            },
+            {
+                "title": "",
+                "subtitle": "Les rapports et KPI sont mis à jour en temps réel"
+            }
+        ],
+        "fromDataChaos": [
+            {
+                "title": "Du chaos des données à la confiance dans les données",
+                "des": "Ce que nous avons constaté, c’est que les équipes immobilières ne manquent pas de données — elles manquent d’alignement. Une Source Unique de Vérité transforme votre façon de travailler, de planifier et de croître.",
+                "desc1": "Avec Exelona, les dirigeants immobiliers obtiennent une vue unifiée de bout en bout — du lead au bail jusqu’au grand livre —, une seule version de la vérité favorisant la précision, la transparence et la rentabilité. Il est temps d’arrêter de gérer des systèmes et de <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>commencer à gérer des résultats avec Rialtes</a>."
+            }
+        ],
+        "yourPathTitle": [
+            {
+                "title": "Votre chemin vers un écosystème immobilier unifié",
+                "des": "Notre solution, Exelona, est plus qu’un logiciel de gestion immobilière ; c’est une plateforme CRM + ERP unifiée, conçue pour éliminer les silos de données.",
+                "desc1": "Voici comment elle aide à créer une Source Unique de Vérité dans vos opérations :"
+            }
+        ],
+        "keyElemData": [
+            {
+                "title": "Données locatives et financières centralisées",
+                "desc": "Chaque bail, locataire et paiement vit dans un seul système. Pas de doublons, pas de délais."
+            },
+            {
+                "title": "Opérations immobilières pilotées par l’IA",
+                "desc": "Prévoyez la maintenance, anticipez les budgets et suivez les SLA avec précision."
+            },
+            {
+                "title": "Intégration évolutive avec les plateformes immobilières",
+                "desc": "Se connecte facilement à vos systèmes existants comme Yardi, Oracle ou vos ERP personnalisés."
+            },
+            {
+                "title": "Expérience mobile pour les résidents",
+                "desc": "Offrez à votre personnel et à vos locataires une visibilité en temps réel et des options libre-service."
+            },
+            {
+                "title": "Rapports automatisés",
+                "desc": "Générez des rapports financiers et opérationnels prêts pour audit en quelques minutes."
+            }
+        ],
+        "faqs": [
+          
+            {
+                "question": "Que signifie « Source Unique de Vérité » dans les opérations immobilières ?",
+                "answer": "Cela signifie utiliser un système centralisé reliant toutes les données de location, de finances et d’opérations afin que toutes les équipes travaillent avec les mêmes informations vérifiées."
+            },
+            {
+                "question": "Comment la convergence CRM + ERP améliore-t-elle l’efficacité ?",
+                "answer": "En intégrant la gestion des leads, des baux, de la facturation et des rapports dans une seule plateforme, on élimine les doublons et les rapprochements manuels."
+            },
+            {
+                "question": "Pourquoi les gestionnaires immobiliers ont-ils besoin d’une Source Unique de Vérité ?",
+                "answer": "Les données fragmentées entraînent lenteur, erreurs et manque de visibilité. La SSOT garantit que toutes les équipes travaillent avec des informations cohérentes et à jour."
+            },
+            {
+                "question": "L’IA peut-elle aider à maintenir une Source Unique de Vérité dans l’immobilier ?",
+                "answer": "Oui. L’IA peut détecter les incohérences, automatiser les validations et fournir des insights prédictifs pour assurer la fiabilité des données."
+            },
+            {
+                "question": "Comment la centralisation des données locatives et financières améliore-t-elle les rapports ?",
+                "answer": "Des données unifiées permettent des rapports instantanés et précis sans consolidation manuelle, réduisant les délais jusqu’à 40 %."
+            },
+            {
+                "question": "Qu’est-ce qui distingue Exelona des autres outils de gestion immobilière ?",
+                "answer": "Exelona unifie CRM et ERP dans un seul système piloté par l’IA, conçu pour des opérations immobilières intelligentes et une intégration évolutive."
             }
         ]
     }

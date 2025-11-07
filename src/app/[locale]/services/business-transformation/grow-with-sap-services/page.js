@@ -136,7 +136,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
+        canonical={`https://www.rialtes.com/${locale}/services/business-transformation/grow-with-sap-services/`}
       />
       <Script
         id="schema-grow"

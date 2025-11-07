@@ -10,7 +10,7 @@ import frContent from "../../../../../../messages/fr/caseStudy.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
-import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
+
 
 const schemaData = {
   "@context": "https://schema.org",

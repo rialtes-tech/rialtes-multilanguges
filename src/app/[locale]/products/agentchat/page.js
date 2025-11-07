@@ -74,7 +74,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="Contact, website, welcome"
-                canonical="https://www.rialtes.com/products/agentchat/"
+                canonical={`https://www.rialtes.com/${locale}/products/agentchat/`}
             />
             <Script
                 id="schema-agentchat"
@@ -271,7 +271,7 @@ export default function Page() {
                                     />
                                 ))}
                             </ul>
-                            <LearnMore btnName={t('learnMoreBtn')}/>
+                            <LearnMore btnName={t('learnMoreBtn')} />
                         </div>
                         <div className="mt-10 xl:mt-0">
                             <Image
@@ -317,13 +317,13 @@ export default function Page() {
             {/* quick setup section */}
             <div className={`bg-[url('/images/industry/rialchat/bg2.png')] bg-cover bg-right overflow-hidden
              ${locale === "es"
-                                    ? "xl:h-[400px] 4xl:h-[580px] 2xl:h-[510px]"
-                                    : locale === "fr"
-                                        ? "xl:h-[400px] 4xl:h-[580px] 2xl:h-[510px]"
-                                        : "xl:h-[400px] 4xl:h-[520px] 2xl:h-[480px]"
-                                }`}
-            
-            
+                    ? "xl:h-[400px] 4xl:h-[580px] 2xl:h-[510px]"
+                    : locale === "fr"
+                        ? "xl:h-[400px] 4xl:h-[580px] 2xl:h-[510px]"
+                        : "xl:h-[400px] 4xl:h-[520px] 2xl:h-[480px]"
+                }`}
+
+
             >
                 <div className="mt-16 text-white custom-container xl:!pr-[142px] pt-6">
                     <h2 className="text-[28px] md:text-[40px] max-lg:pb-6 lg:text-[40px] xl:pb-10 xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight">{t('setupTitle')}</h2>

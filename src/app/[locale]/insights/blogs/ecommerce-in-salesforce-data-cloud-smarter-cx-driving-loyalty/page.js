@@ -98,8 +98,7 @@ export default function Page() {
   });
   const { salesforceData, driveData, predectiveData, empowerData, faqs } =
     blogsContent.ecommerceDataCloud;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty";
   const currUrl = useUrl();
 
   return (
@@ -108,9 +107,7 @@ export default function Page() {
         title={t("seoTitle")}
         description={t("seoDescription")}
         keywords="Partners, website, welcome"
-        canonical={
-          "https://www.rialtes.com/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty/`}
       />
 
       <Script
@@ -124,7 +121,7 @@ export default function Page() {
         <div className="xl:block hidden">
           <Image
             src="/images/blog/data-cloud-ecom-desktop-banner.webp"
-            alt="banner image"
+            alt={t('bannerAlt')}
             fill
             priority
           />
@@ -132,7 +129,7 @@ export default function Page() {
         <div className="xl:hidden block">
           <Image
             src="/images/blog/data-cloud-ecom-mobile-banner.webp"
-            alt="banner image"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}
@@ -144,7 +141,7 @@ export default function Page() {
       <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
-            
+
             <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="12 September 2025" />
 
             <div className="xl:mt-[60px] mt-[42px]">

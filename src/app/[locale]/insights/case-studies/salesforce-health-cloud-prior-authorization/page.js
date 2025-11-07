@@ -24,7 +24,7 @@ const schemaData = {
     "Case Study: Enhancing Prior Authorization Workflow Using Salesforce Health Cloud",
   description:
     "Explore how Rialtes helped streamline and automate the prior authorization workflow using Salesforce Health Cloud, leading to faster approvals, reduced errors, and improved patient outcomes.",
-  image: "https://www.rialtes.com/images/case-studies/case-study-8.webp",
+  image: "https://www.rialtes.com/images/case-studies/digital-brain-network.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

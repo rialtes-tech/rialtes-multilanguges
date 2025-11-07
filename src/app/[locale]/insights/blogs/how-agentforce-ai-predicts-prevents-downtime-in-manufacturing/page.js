@@ -111,19 +111,16 @@ export default function Page() {
     faqs,
   } = blogsContent.agentforceIndustry4;
   const currUrl = useUrl();
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing";
 
   return (
     <div className="min-h-screen">
-     <Seo
-                title={t('seoTitle')}
-                description={t('seoDescription')}
-                keywords="Partners, website, welcome"
-                canonical={
-                    "https://www.rialtes.com/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing/"
-                }
-            />
+      <Seo
+        title={t('seoTitle')}
+        description={t('seoDescription')}
+        keywords="Partners, website, welcome"
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing/`}
+      />
 
       <Script
         id="schema-copilots"
@@ -198,7 +195,7 @@ export default function Page() {
                       <div key={ind}>
                         <img
                           src={data.image}
-                          alt = {`${data.alt}`}
+                          alt={`${data.alt}`}
                           className="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px]"
                         />
                         <p className="mt-10 lg:mt-5 4xl:pr-20 pr-8  4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">
@@ -247,19 +244,15 @@ export default function Page() {
                     return (
                       <div
                         key={ind}
-                        className={` ${
-                          ind == 0 &&
+                        className={` ${ind == 0 &&
                           "lg:border-r max-md:border-b max-md:pb-4 lg:pr-0 xl:pr-[39px] border-[#707070]"
-                        } ${
-                          ind == 3 &&
+                          } ${ind == 3 &&
                           "md:pl-10 md:border-l md:pr-2 max-sm:pt-6 border-[#707070]"
-                        } ${
-                          (ind == 2 || ind == 1) &&
+                          } ${(ind == 2 || ind == 1) &&
                           "lg:px-[39px] max-md:py-6 max-md:border-b border-[#707070]"
-                        } ${
-                          ind == 1 &&
+                          } ${ind == 1 &&
                           "lg:border-r md:border-l md:pl-10  border-[#707070]"
-                        }`}
+                          }`}
                       >
                         <span className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">
                           {data.title}{" "}

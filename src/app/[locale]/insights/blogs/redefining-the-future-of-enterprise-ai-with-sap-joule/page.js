@@ -24,7 +24,7 @@ const schemaData = {
   headline: "Redefining the Future of Enterprise AI with SAP Joule",
   description:
     "Discover how SAP Joule is shaping enterprise AI by enabling smarter automation, enhanced decision-making, and transformative business insights.",
-  image: "https://www.rialtes.com/images/blog/sap-joule-ai.webp",
+  image: "https://www.rialtes.com/images/blog/data-connectivity-network-visualization-digital-tree.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -61,17 +61,14 @@ export default function Page() {
     quickGlimpseData1,
     responsiveData,
   } = content.redefiningBlog;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule";
 
   return (
     <div className="min-h-screen bg-white">
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={
-          "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/`}
       />
       <Script
         id="schema-redefining"
@@ -82,16 +79,16 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
-            src="/images/blog/sap-joule-ai.webp "
-            alt="banner image"
+            src="/images/blog/data-connectivity-network-visualization-digital-tree.webp "
+            alt={t('bannerAlt')}
             fill
             priority
           />
         </div>
         <div className="xl:hidden block">
           <Image
-            src="/images/blog/jcarosel.webp"
-            alt="banner image"
+            src="/images/blog/data-connectivity-network-visualization-digital-tree-carousel.webp"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}

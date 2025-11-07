@@ -135,9 +135,7 @@ export default function SalesForceConsulting() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={
-          "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/`}
       />
       <Script
         id="schema-salesforce-consulting"

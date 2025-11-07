@@ -63,7 +63,7 @@ export default function () {
                     < Seo
                         title={t('seoTitle')}
                         description={t('seoDescription')}
-                        canonical="https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
+                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/discover-the-agentic-capabilities-of-agentforce/`}
                     />
                 }
                 schemaData={schemaData}

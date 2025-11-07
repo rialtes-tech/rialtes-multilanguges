@@ -42,7 +42,7 @@ const schemaData = {
 }
 export default function Page() {
   const currUrl = useUrl()
-  const t = useTranslations('agentforceTesting') 
+  const t = useTranslations('agentforceTesting')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { commonData } = blogsContent.agentforceTesting;
@@ -53,7 +53,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/`}
       />
 
       <Script

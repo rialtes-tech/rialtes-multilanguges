@@ -116,7 +116,7 @@ export default function DataCloud() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={"https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/"}
+        canonical={`https://www.rialtes.com/${locale}/solutions/data-ai/salesforce-data-cloud-consulting/`}
       />
       <Script
         id="schema-data-cloude"

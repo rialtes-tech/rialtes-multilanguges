@@ -182,7 +182,7 @@ export default function page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/"
+                canonical={`https://www.rialtes.com/${locale}/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/`}
             />
             <Script
                 id="schema-lifeaiplus"

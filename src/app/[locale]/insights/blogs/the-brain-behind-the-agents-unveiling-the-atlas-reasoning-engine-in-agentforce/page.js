@@ -62,9 +62,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={
-          "https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/`}
         image="https://rialtes.netlify.app/images/blog/atlas-reasoning-engine-agentforce.jpg"
       />
 
