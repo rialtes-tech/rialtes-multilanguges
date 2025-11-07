@@ -13,96 +13,92 @@ import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCa
 import useUrl from "@/app/[locale]/components/useUrl";
 import Link from "next/link";
 
-const schemaData = {
-  "@context": "https://schema.org",
+const schemaData =  {
+ "@context": "https://schema.org",
   "@type": "BlogPosting",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience/",
-  },
-  headline:
-    "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-  description:
-    "Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
-  image:
-    "https://www.rialtes.com/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp",
-  author: {
+  "headline": "How Large Language Models Are Transforming Customer Experience",
+  "description": "LLMs, powered by generative AI, are redefining how businesses listen and respond. They go beyond automation. They enable real conversation.",
+  "image": "https://www.rialtes.com/images/blog/abstract-digital-waves-and-data-flow.webp",
+  "author": {
     "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
+    "name": "Rialtes"
   },
-  publisher: {
+  "publisher": {
     "@type": "Organization",
-    name: "Rialtes",
-    logo: {
+    "name": "Rialtes",
+    "logo": {
       "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
   },
-  datePublished: "2024-10-28",
-  dateModified: "2025-07-25",
-  articleSection: "AI Automation",
-  url: "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "What’s the difference between bots, copilots, and agents?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Bots follow simple rules to perform tasks. Copilots offer contextual help and suggestions, often requiring user input. Agents act independently, make decisions, and can operate across systems autonomously. Think of bots as basic responders, copilots as smart assistants, and agents as decision-makers.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience/"
+  },
+  "datePublished": "2025-09-10",
+  "mainEntity": {
+    "@type": "FAQPage",
+    "name": "How Large Language Models Are Transforming Customer Experience FAQs",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a large language model and how does it work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Large Language Models (LLMs) are advanced agentic AI systems trained on massive amounts of text data to understand and generate natural language."
+        }
       },
-    },
-    {
-      "@type": "Question",
-      name: "What is an example of a bot?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "A chatbot that answers questions like 'What is your return policy?' on an e-commerce website is a good example of a bot. It follows scripted responses and doesn’t adapt to complex queries.",
+      {
+        "@type": "Question",
+        "name": "How are AI chatbots different from traditional bots?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Unlike rule-based bots, LLMs interpret context, tone, and sentiment, enabling more human-like, personalized, and effective conversations."
+        }
       },
-    },
-    {
-      "@type": "Question",
-      name: "What does an AI agent do?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "An AI agent can understand tasks, make decisions, and execute actions without constant human intervention. In manufacturing, for example, an agent can predict delays and reschedule workflows automatically.",
+      {
+        "@type": "Question",
+        "name": "Can AI personalize customer service?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, LLMs can analyze CRM data, order history, and past interactions to deliver tailored and proactive customer support."
+        }
       },
-    },
-    {
-      "@type": "Question",
-      name: "Is Copilot better than chatbot?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. A copilot provides intelligent suggestions based on context and user behavior, whereas a chatbot sticks to predefined scripts. Copilots are more dynamic and user-focused than basic bots.",
+      {
+        "@type": "Question",
+        "name": "How does generative AI help with multilingual support?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "LLMs with built-in translation capabilities break language barriers, enabling real-time multilingual customer service."
+        }
       },
-    },
-    {
-      "@type": "Question",
-      name: "Which AI tool is more powerful: agent or copilot?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Agents are more powerful. While copilots assist users by providing recommendations, AI agents go further—they make decisions, adapt, and act autonomously across processes.",
+      {
+        "@type": "Question",
+        "name": "What are the benefits of LLMs in customer experience?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "LLMs enable smarter conversations, personalized responses, 24/7 omnichannel presence, faster support, and real-time customer insights."
+        }
       },
-    },
-    {
-      "@type": "Question",
-      name: "Which AI should I use for customer support in manufacturing?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "AI agents are best for manufacturing customer service. They handle complex queries, integrate with enterprise systems, and resolve issues faster than traditional bots or copilots.",
+      {
+        "@type": "Question",
+        "name": "Why are LLMs better than rule-based bots?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "LLMs go beyond scripted responses, recognizing nuance, history, and emotion, making interactions more natural and customer-centric."
+        }
       },
-    },
-    {
-      "@type": "Question",
-      name: "Can AI agents fully replace humans in operations?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "No. AI agents are ideal for automating repetitive and data-driven tasks, but human-AI collaboration is still essential for strategic decisions, creativity, and empathy-driven customer service.",
-      },
-    },
-  ],
-};
+      {
+        "@type": "Question",
+        "name": "How can I use LLMs in my business for customer support?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Businesses can integrate LLMs into their customer service stack to enhance CX with scalable, multilingual, and intelligent support solutions."
+        }
+      }
+    ]
+  }
+}
 export default function Page() {
   const t = useTranslations("aiThatListens");
   const locale = useLocale();

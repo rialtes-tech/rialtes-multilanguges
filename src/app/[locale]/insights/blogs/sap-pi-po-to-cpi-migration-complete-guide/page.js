@@ -21,7 +21,7 @@ const schemaData = {
   description:
     "Migrating from SAP PI/PO to SAP BTP Integration Suite is not just limited to re-platforming interfaces; it involves adopting a modern, cloud-native integration backbone.",
   image:
-    "https://www.rialtes.com/images/industry/sap/cloud-data-digital-transformation.webp",
+    "https://www.rialtes.com/images/blog/cloud-data-digital-transformation.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

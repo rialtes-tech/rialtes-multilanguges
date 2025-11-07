@@ -23,7 +23,7 @@ const schemaData = {
   headline: "Discover AgentExchange by Salesforce",
   description:
     "AgentExchange simplifies the discovery and deployment of trusted AI solutions. Customers can explore offerings through the marketplace or within Salesforce’s Agent Builder tool, ensuring the right fit for their industry and use case.",
-  image: "https://www.rialtes.com/images/blog/digital-network-connectivity-waves-abstract.jpg",
+  image: "https://www.rialtes.com/images/blog/digital-network-connectivity-waves-abstract.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
