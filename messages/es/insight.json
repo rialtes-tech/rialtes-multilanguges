@@ -206,6 +206,7 @@
         "date": "03 nov. 2025",
         "url": "/erp-crm-convergence-real-estate-leaders-guide/",
         "title": "Convergencia CRM + ERP: cómo los líderes inmobiliarios eliminan los silos de sistemas y reducen costos",
+        "alt": "Infraestructura en la nube para bienes raíces con IA ",
         "description": "Esto es algo que todo líder inmobiliario ya sabe pero rara vez dice en voz alta: la pila tecnológica que debía simplificar las operaciones ha terminado por complicarlas."
       },
       {
@@ -215,6 +216,7 @@
         "industry": "Bienes Raíces",
         "date": "20 oct. 2025",
         "url": "/conversational-ai-in-real-estate-scale-resident-support/",
+        "alt": "IA conversacional en bienes raíces ",
         "title": "IA conversacional en bienes raíces: amplía el soporte a los residentes sin aumentar el personal",
         "description": "El soporte a los residentes en la gestión de propiedades se está volviendo más difícil de escalar. Entre las solicitudes de mantenimiento y las consultas de alquiler,"
       },
@@ -225,19 +227,21 @@
         "industry": "Genérico",
         "date": "13 oct. 2025",
         "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
+        "alt": "Mantenimiento predictivo en operaciones inmobiliarias con IA ",
         "title": "IA en operaciones inmobiliarias: reduce el tiempo de inactividad un 30 % y los costos operativos con mantenimiento predictivo",
         "description": "Esta es la verdad sobre las operaciones inmobiliarias: siempre han sido un equilibrio entre costo, confort y continuidad."
       },
       {
-  "id": 48,
-  "image": "/images/blog/exelona-cluster-feature-thumb.webp",
-  "category": "Exelona",
-  "industry": "Generic",
-  "date": "Nov. 04, 2025",
-  "url": "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
-  "title": "¿Qué significa una 'fuente única de la verdad' para el sector inmobiliario desde el cliente potencial hasta el arrendamiento?",
-  "description": "En la gestión inmobiliaria, rara vez son las cosas grandes las que ralentizan a los equipos. Son las innumerables pequeñas ineficiencias, los datos de arrendamiento que no coinciden, los registros duplicados o el tiempo perdido verificando hojas de cálculo."
-},
+        "id": 48,
+        "image": "/images/blog/exelona-cluster-feature-thumb.webp",
+        "category": "Exelona",
+        "industry": "Generic",
+        "date": "Nov. 04, 2025",
+        "url": "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
+        "alt": "Integración de datos inmobiliarios y fuente única de verdad ",
+        "title": "¿Qué significa una 'fuente única de la verdad' para el sector inmobiliario desde el cliente potencial hasta el arrendamiento?",
+        "description": "En la gestión inmobiliaria, rara vez son las cosas grandes las que ralentizan a los equipos. Son las innumerables pequeñas ineficiencias, los datos de arrendamiento que no coinciden, los registros duplicados o el tiempo perdido verificando hojas de cálculo."
+      },
       {
         "id": 47,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
@@ -841,7 +845,7 @@
     "slides": [
       {
         "id": 7,
-        "imgSrc": "/images/case-studies/Small thumb.webp",
+        "imgSrc": "/images/case-studies/graduation-cap-ladder-clouds-education-success-concept-mobile.webp",
         "category": "Education",
         "date": "Aug. 21, 2025",
         "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/",
@@ -859,7 +863,7 @@
       },
       {
         "id": 5,
-        "imgSrc": "/images/case-studies/Adaptis_featured CS.webp",
+        "imgSrc": "/images/case-studies/roofing-shingle-samples-color-variety-display-carousel.webp",
         "category": "Manufactura",
         "date": "Jun. 10, 2025",
         "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
@@ -868,7 +872,7 @@
       },
       {
         "id": 4,
-        "imgSrc": "/images/case-studies/revolutionizing-latest-carosel.webp",
+        "imgSrc": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
         "category": "Manufactura",
         "date": "Jun. 03, 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
@@ -884,6 +888,7 @@
         "date": "Aug. 21, 2025",
         "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/",
         "title": "Transformando el Éxito Estudiantil con Salesforce Education Cloud y Edu+",
+        "alt": "Transformando el éxito estudiantil con Salesforce Education Cloud y Edu+ ",
         "description": "Una universidad privada líder en Norteamérica con más de 25,000 estudiantes y múltiples programas académicos en divisiones de pregrado, posgrado y educación continua."
       },
       {
@@ -893,6 +898,7 @@
         "date": "Jun. 30, 2025",
         "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
         "title": "Fabricante Automotriz Líder Logra un 35% Más de Satisfacción del Cliente con AutoSense",
+        "alt": "Fabricante automotriz líder logró un 35% más de satisfacción del cliente con AutoSense ",
         "description": "Un fabricante de automóviles global destacado, conocido por su innovación y vehículos de alto rendimiento, enfrentaba desafíos con su sistema heredado de gestión de garantías."
       },
       {
@@ -902,6 +908,7 @@
         "date": "Jun. 10, 2025",
         "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
         "title": "40% de Mejora en la Adopción de Aplicación de Garantías con Salesforce Experience Cloud",
+        "alt": "40% de aumento en la adopción de la aplicación de garantía usando Salesforce Experience Cloud ",
         "description": "Descubra cómo Rialtes utilizó Salesforce Experience Cloud para optimizar los reclamos de garantía y mejorar la satisfacción del cliente para un fabricante de techos."
       },
       {
@@ -911,6 +918,7 @@
         "date": "Jun. 03, 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
         "title": "Revolucionando la Gestión de Concesionarios con AutoSense de Rialtes",
+        "alt": "Impulsando la gestión de concesionarios con AutoSense de Rialtes",
         "description": "Un reconocido fabricante automotriz global, famoso por sus vehículos de vanguardia, enfrentaba grandes desafíos con su portal de concesionarios obsoleto."
       },
       {
@@ -920,6 +928,7 @@
         "date": "May. 30, 2025",
         "url": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/",
         "title": "Reclamo en 4 Minutos: Rialtes Crea un Portal Móvil para Transformar la Experiencia de Reclamos",
+        "alt": "Reclamo en 4 minutos: Rialtes crea un portal móvil para transformar la experiencia de reclamaciones ",
         "description": "Un fabricante líder de soluciones de techado de alta calidad diseñadas para proteger lo que más importa. Especializado en productos duraderos e innovadores para uso residencial."
       },
       {
@@ -929,6 +938,7 @@
         "date": "May. 28, 2025",
         "url": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/",
         "title": "150 Pedidos al Día, Cero Trabajo Manual: Priorización de Pedidos con SAP Fiori",
+        "alt": "150 pedidos al día, sin trabajo manual: priorización de pedidos con autoservicio impulsado por Fiori ",
         "description": "A pesar de las significativas inversiones tecnológicas del cliente en manufactura, su proceso de gestión de pedidos dependía mucho de la intervención manual. Los clientes que querían priorizar ciertos pedidos tenían que llamar al equipo de ventas y compartir su lista."
       },
       {
@@ -938,6 +948,7 @@
         "date": "Mar. 26, 2025",
         "url": "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
         "title": "Optimización de Ventas con Salesforce Sales Cloud para Manufactura",
+        "alt": "Optimización de ventas con Salesforce Sales Cloud para manufactura ",
         "description": "La empresa es un fabricante líder especializado en equipos personalizados de tratamiento de agua. Cada producto está diseñado en función de los requisitos específicos del cliente, por lo que no hay dos productos iguales."
       },
       {
@@ -947,6 +958,7 @@
         "date": "Jan. 08, 2025",
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce/",
         "title": "Transformación DevOps con Copado y Salesforce",
+        "alt": "Transformación DevOps usando Copado y Salesforce ",
         "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales."
       },
       {
@@ -956,6 +968,7 @@
         "date": "Dec. 22, 2024",
         "url": "/insights/case-studies/realForce-banking-module-ach/",
         "title": "Automatización de ACH y Asientos Contables con el Módulo Bancario de Exelona",
+        "alt": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona ",
         "description": "Una firma inmobiliaria multifamiliar en EE.UU. especializada en la gestión e inversión en propiedades residenciales multifamiliares."
       },
       {
@@ -965,6 +978,7 @@
         "date": "Nov. 17, 2024",
         "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/",
         "title": "Automatización del Procesamiento de Pedidos en Salud con MuleSoft",
+        "alt": "Automatización del procesamiento de pedidos en el sector salud con MuleSoft ",
         "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores."
       },
       {
@@ -974,6 +988,7 @@
         "date": "Oct. 14, 2024",
         "url": "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/",
         "title": "Transformando la Gestión de Casos Omnicanal con Salesforce Service Cloud",
+        "alt": "Transformación de la gestión de casos omnicanal con Salesforce Service Cloud ",
         "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable."
       },
       {
@@ -983,6 +998,7 @@
         "date": "Sep. 27, 2024",
         "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/",
         "title": "Socio Confiable de YARDI para la PHA Más Grande de Norteamérica",
+        "alt": "Socio confiable de YARDI para la mayor autoridad de vivienda pública de América del Norte ",
         "description": "Una autoridad de vivienda pública responsable de gestionar programas de vivienda asequible en varios condados de su zona."
       },
       {
@@ -992,6 +1008,7 @@
         "date": "Sep. 4, 2024",
         "url": "/insights/case-studies/yardi-managed-services/",
         "title": "Menor Tiempo de Inactividad para una Firma Inmobiliaria con Servicios Gestionados de Yardi",
+        "alt": "Reducción del tiempo de inactividad para una firma inmobiliaria multifamiliar con YARDI Managed Services ",
         "description": "Una firma inmobiliaria multifamiliar en EE.UU. especializada en la gestión e inversión en propiedades residenciales multifamiliares."
       },
       {
@@ -1001,6 +1018,7 @@
         "date": "Aug. 16, 2024",
         "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/",
         "title": "Digitalizando el Viaje del Paciente con Salesforce Health Cloud",
+        "alt": "Digitalización del recorrido del paciente con Salesforce Health Cloud ",
         "description": "Un fabricante líder especializado en materiales innovadores para proyectos residenciales y comerciales."
       },
       {
@@ -1010,6 +1028,7 @@
         "date": "Aug. 02, 2024",
         "url": "/insights/case-studies/salesforce-health-cloud-prior-authorization/",
         "title": "Digitalización de la Autorización Previa para Mejores Resultados de Pacientes",
+        "alt": "Digitalización de la autorización previa para mejores resultados del paciente ",
         "description": "Una firma inmobiliaria multifamiliar en EE.UU. especializada en la gestión e inversión en propiedades residenciales multifamiliares."
       }
     ]
