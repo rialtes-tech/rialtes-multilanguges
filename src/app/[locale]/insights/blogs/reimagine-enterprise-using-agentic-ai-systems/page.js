@@ -12,75 +12,94 @@ import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCa
 import useUrl from "@/app/[locale]/components/useUrl";
 import { useLocale, useTranslations } from "next-intl";
 
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/"
-    },
-    "headline": "Discover How Salesforce Agentforce 3.0 is Reshaping Automotive Manufacturing in Real-time",
-    "description": "Agentforce for automotive brings intelligent automation to factory floors—delivering real-time visibility, predictive quality, and scalable AI-driven operations across automotive manufacturing.",
-    "image": "https://www.rialtes.com/images/blog/agentforce-3.0-desktop-banner.webp",
-    "author": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
-        }
-    },
-    "datePublished": "2025-07-29",
-    "articleSection": "AI Automation",
-    "url": "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/",
+const schemaData ={
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Enterprise Agentic AI Systems for Smarter Operations",
+  "description": "Agentic AI redefines what enterprise operational excellence looks like by combining real-time precision with enterprise-grade speed and scale.",
+  "image": " https://www.rialtes.com/images/blog/agentic-ai-technology-microchip-computing.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": " https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/"
+  },
+  "datePublished": "2025-08-25",
+ 
+  "mainEntity": {
+    "@type": "FAQPage",
+    "name": "Enterprise Agentic AI FAQs",
     "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Agentforce for Automotive?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agentforce for Automotive is Salesforce’s AI-powered solution tailored for automotive manufacturers. It automates and optimizes key workflows across production, supply chain, quality, and compliance using Agentforce 3.0."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What makes Agentforce 3.0 valuable for automotive manufacturers?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agentforce 3.0 brings intelligent automation to every part of the automotive factory floor, offering real-time visibility, predictive insights, smart agent coordination, and prebuilt industry workflows."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How does Agentforce integrate with existing automotive systems?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agentforce for automotive integrates with ERP, MES, PLM, and IoT systems using Model Context Protocol, MuleSoft APIs, and Heroku AppLink, ensuring seamless connectivity with legacy and custom tools."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What use cases exist for Agentforce in automotive?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Use cases include automated inspection summaries, predictive maintenance triggers, parts shortage alerts, service appointment agents, warranty claims validation, and AI-powered quality control agents."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What is the future of AI in automotive manufacturing?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AI is transforming the automotive industry through smart factory automation, autonomous operations, adaptive supply chains, in-vehicle intelligence, and AI-driven diagnostics. Agents will play a pivotal role in this future."
-            }
+      {
+        "@type": "Question",
+        "name": "What is Agentic AI, in simple terms?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Agentic AI refers to intelligent systems made up of autonomous agents that work together to achieve business goals. They don’t just follow instructions; they act on intent, make decisions, and adapt over time."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "How is Agentic AI different from traditional AI or automation?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Traditional AI handles single tasks. Automation follows set rules. Agentic AI does more; it can coordinate across systems, respond to changing conditions, and continuously learn from outcomes. It’s dynamic, proactive, and scalable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the business benefits of using Agentic AI?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Higher productivity through 24/7 automation, smarter decisions from real-time learning, faster response times to business disruptions, and lower operational costs by reducing manual work."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you give real examples of how Agentic AI works?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Supply chain: An agent reroutes shipments when delays or weather disruptions are detected. HR: A digital agent monitors engagement and flags early signs of burnout. Finance: An agent reconciles invoices, flags fraud risks, and prepares audit summaries."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Agentic AI only for large enterprises?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not at all. While the impact can be massive in large organizations, you can start small, automating a single process or department and scaling gradually. Agentic AI is modular and flexible."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are Agentic AI systems secure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "They can be, if built right. At Rialtes, we design agentic systems with built-in governance, compliance, and role-based access. Security is baked in, not bolted on."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will Agentic AI replace human workers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. It’s designed to handle repetitive, time-consuming tasks, freeing people up to focus on strategy, innovation, and high-value work. It’s about augmentation, not replacement."
+        }
+      }
     ]
-};
+  }
+}
+
 
 
 export default function Page() {
@@ -89,14 +108,14 @@ export default function Page() {
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { faqs, tableData, benefits, agenticData, aiThinksData, humansData, manufacturingDesc2 } = content.remagineEnterprise
-    const fullUrl = "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems";
 
     return (
         <section className="min-h-screen">
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/`}
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/`}
             />
 
             <Script
