@@ -9,7 +9,6 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
 import useUrl from "@/app/[locale]/components/useUrl";
-import RelatedCaseStudies from "@/app/[locale]/components/RelatedCaseStudies";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 
 const schemaData = {
@@ -66,7 +65,7 @@ export default function page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/"
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/`}
       />
       <Script
         id="schema-revolutionizing"

@@ -55,7 +55,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/case-studies/realForce-banking-module-ach/"
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/realForce-banking-module-ach/`}
       />
 
       <Script

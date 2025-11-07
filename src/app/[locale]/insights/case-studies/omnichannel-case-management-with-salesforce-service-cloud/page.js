@@ -55,7 +55,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/"
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/`}
       />
 
       <Script

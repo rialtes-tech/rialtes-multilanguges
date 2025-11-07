@@ -4,8 +4,8 @@ export const routing = defineRouting({
     // A list of all locales that are supported
     locales: ['en', 'es', 'fr'],
 
-    // Used when no locale matches
-    // defaultLocale: 'en'
+    defaultLocale: 'en',
+    localePrefix: 'always'
 
 
     // localePrefix: 'as-needed'   to remove en by default
