@@ -50,7 +50,7 @@ export default function Page() {
           <Image
             className="w-full transition-transform duration-300 hover:scale-84"
             src={casestudy.image}
-            alt={casestudy.title}
+            alt={casestudy.alt}
             width={0}
             height={0}
             sizes="100vw"
