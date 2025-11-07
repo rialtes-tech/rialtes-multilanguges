@@ -51,8 +51,7 @@ export default function Page() {
   });
   const { salesforceData, useCasesData } =
     blogsContent.howSalesforceAgentforceWorks;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works";
   const currUrl = useUrl();
 
   return (
@@ -60,7 +59,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical="https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-salesforce-agentforce-actually-works/`}
       />
 
       <Script

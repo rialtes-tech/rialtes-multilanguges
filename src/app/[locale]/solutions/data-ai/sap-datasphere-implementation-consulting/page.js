@@ -887,7 +887,7 @@ export default function () {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical="https://www.rialtes.com/solutions/data-ai/sap-datasphere-implementation-consulting/"
+                canonical={`https://www.rialtes.com/${locale}/solutions/data-ai/sap-datasphere-implementation-consulting/`}
             />
             <Script
                 id="schema-sap-datasphere"

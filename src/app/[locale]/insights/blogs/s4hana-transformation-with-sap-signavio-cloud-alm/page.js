@@ -113,7 +113,6 @@ export default function Page() {
     fr: frContent,
   });
   const {
-    blogs,
     mainData,
     whatDoesData,
     goverenanceData,
@@ -122,8 +121,7 @@ export default function Page() {
     lifecycleData,
     faqData,
   } = content.s4HanaSapALM;
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm";
   const currUrl = useUrl();
 
   return (
@@ -131,9 +129,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={
-          "https://www.rialtes.com/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm/`}
       />
 
       <Script

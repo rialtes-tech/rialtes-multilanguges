@@ -54,7 +54,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/"
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/`}
       />
 
 

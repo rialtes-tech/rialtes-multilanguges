@@ -109,9 +109,7 @@ export default function Page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={
-                    "https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/"
-                }
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/`}
             />
 
             <Script

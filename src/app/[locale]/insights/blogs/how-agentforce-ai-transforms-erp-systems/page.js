@@ -148,9 +148,7 @@ export default function Page() {
         title={t("seoTitle")}
         description={t("seoDescription")}
         keywords="Partners, website, welcome"
-        canonical={
-          "https://www.rialtes.com/insights/blogs/how-agentforce-ai-transforms-erp-systems/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-agentforce-ai-transforms-erp-systems/`}
       />
 
       <Script

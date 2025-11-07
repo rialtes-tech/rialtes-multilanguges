@@ -97,9 +97,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords=""
-                canonical={
-                    " https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/"
-                }
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/`}
             />
 
             <Script

@@ -19,7 +19,7 @@ const schemaData = {
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
+      "https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience/",
   },
   headline:
     "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
@@ -122,7 +122,7 @@ export default function Page() {
     readyData,
   } = blogsContent.aiThatListens;
 
-  const fullUrl = "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience";
   const currUrl = useUrl();
 
   return (
@@ -131,9 +131,7 @@ export default function Page() {
         title={t("seoTitle")}
         description={t("seoDescription")}
         keywords="Partners, website, welcome"
-        canonical={
-          "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-large-language-models-improve-customer-experience/`}
       />
 
       <Script

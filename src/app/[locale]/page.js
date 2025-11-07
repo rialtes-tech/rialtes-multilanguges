@@ -42,8 +42,7 @@ const Home = () => {
     const sectionCount = 10;
     const [refs, inViews] = useMultipleScrollAnimation(sectionCount);
     const [activeIndexInsights, setActiveIndexInsights] = useState(0);
-    const [currentSlide, setCurrentSlide] = useState
-        (0);
+    const [currentSlide, setCurrentSlide] = useState(0);
 
 
 
@@ -84,7 +83,7 @@ const Home = () => {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={"https://www.rialtes.com/"}
+                canonical={`https://www.rialtes.com/${locale}`}
             />
 
             <Script

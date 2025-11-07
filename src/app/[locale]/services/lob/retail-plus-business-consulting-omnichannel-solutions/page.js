@@ -102,7 +102,7 @@ export default function page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/services/lob/retail-plus-business-consulting-omnichannel-solutions/"
+        canonical={`https://www.rialtes.com/${locale}/services/lob/retail-plus-business-consulting-omnichannel-solutions/`}
       />
       <Script
         id="schema-retail-plus"

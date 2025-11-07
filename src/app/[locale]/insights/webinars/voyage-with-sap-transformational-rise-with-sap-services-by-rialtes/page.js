@@ -52,9 +52,9 @@ export default function () {
             <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes"
                 seoData={
                     < Seo
-                    title={t('seoTitle')}
-                    description={t('seoDescription')}
-                        canonical="https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/"
+                        title={t('seoTitle')}
+                        description={t('seoDescription')}
+                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/`}
                     />
 
                 }

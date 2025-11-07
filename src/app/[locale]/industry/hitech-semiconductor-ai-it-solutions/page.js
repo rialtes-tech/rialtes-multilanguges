@@ -138,7 +138,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical="https://www.rialtes.com/industry/hitech-semiconductor-ai-it-solutions/"
+        canonical={`https://www.rialtes.com/${locale}/industry/hitech-semiconductor-ai-it-solutions/`}
       />
       <Script
         id="schema-hitech"

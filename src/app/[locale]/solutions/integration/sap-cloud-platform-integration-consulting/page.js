@@ -9,8 +9,8 @@ import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -114,7 +114,7 @@ export default function page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical="https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting/"
+                canonical={`https://www.rialtes.com/${locale}/solutions/integration/sap-cloud-platform-integration-consulting/`}
             />
             <Script
                 id="schema-sap-cloud"

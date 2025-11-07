@@ -694,6 +694,7 @@
         "unifiedTitle": "Un système CRM + ERP unifié pour les dirigeants immobiliers"
     },
     "aiRealEstate": {
+        "faqTitle": "FAQ : Réduire les dépenses d’exploitation grâce à la maintenance prédictive",
         "bannerAlt": "Illustration d’un bâtiment commercial avec des capteurs de maintenance alimentés par l’IA et un tableau de bord analytique",
         "blogMainData": [
             "Voici la vérité sur les opérations immobilières : elles ont toujours consisté à trouver un équilibre entre coût, confort et continuité. Le problème, c’est que la plupart des modèles de maintenance sont encore réactifs. Les équipes réparent ce qui tombe en panne, se précipitent pour répondre aux plaintes des locataires et voient les dépenses d’exploitation augmenter année après année.",
@@ -6689,9 +6690,9 @@
     },
     "whatDoesASingle": {
         "aleadsfill": "Un prospect remplit",
-         "aform": "un formulaire",
+        "aform": "un formulaire",
         "leaseis": "Le bail est approuvé",
-        "entersCrm":"Entre dans le CRM",
+        "entersCrm": "Entre dans le CRM",
         "detailsreenter": "Les détails sont ressaisis manuellement dans l'ERP",
         "maintainentce": "Les tickets de maintenance sont enregistrés séparément",
         "emailed": "Envoyé par e-mail chaque semaine aux opérations",
@@ -6757,28 +6758,27 @@
                 "desc2": "Lorsque ces systèmes fonctionnent séparément, des informations critiques comme les termes du bail, les calendriers de paiement ou les coûts de maintenance se perdent ou se dupliquent.",
                 "desc3": "Mais lorsqu’ils sont intégrés, ils créent un flux de données continu :"
             }
-           
         ],
         "crmDataList2": [
-    {
-      "list": [
-        {
-          "desc": "Un prospect entre dans le CRM via une demande sur le site web"
-        },
-        {
-          "desc": "Une fois convertis, les détails du bail se synchronisent automatiquement avec l'ERP pour le traitement financier."
-        },
-        {
-          "desc": "L'équipe des opérations obtient une visibilité instantanée sur le statut d'occupation et les calendriers de service."
-        },
-        {
-          "desc": "Lorsque les paiements sont effectués, les mises à jour des données entre les systèmes se font en temps réel."
-        }
-      ],
-      "desc2": "Par exemple, un important promoteur immobilier européen a intégré son CRM et son ERP via une plateforme unifiée et a constaté une réduction de 25 % des erreurs de données et une clôture financière de fin de mois 30 % plus rapide.",
-      "desc3": "C’est le pouvoir de la convergence : moins de rapprochements, plus de clarté."
-    }
-  ],
+            {
+                "list": [
+                    {
+                        "desc": "Un prospect entre dans le CRM via une demande sur le site web"
+                    },
+                    {
+                        "desc": "Une fois convertis, les détails du bail se synchronisent automatiquement avec l'ERP pour le traitement financier."
+                    },
+                    {
+                        "desc": "L'équipe des opérations obtient une visibilité instantanée sur le statut d'occupation et les calendriers de service."
+                    },
+                    {
+                        "desc": "Lorsque les paiements sont effectués, les mises à jour des données entre les systèmes se font en temps réel."
+                    }
+                ],
+                "desc2": "Par exemple, un important promoteur immobilier européen a intégré son CRM et son ERP via une plateforme unifiée et a constaté une réduction de 25 % des erreurs de données et une clôture financière de fin de mois 30 % plus rapide.",
+                "desc3": "C’est le pouvoir de la convergence : moins de rapprochements, plus de clarté."
+            }
+        ],
         "theBusinessCase": [
             {
                 "title": "Le cas métier : pourquoi une Source Unique de Vérité est essentielle",
