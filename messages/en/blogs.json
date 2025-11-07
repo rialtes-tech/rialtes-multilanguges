@@ -1562,8 +1562,8 @@
     },
     "agentforceTesting": {
         "bannerAlt": "Blue digital wireframe gears and network nodes representing industrial automation and blockchain technology",
-        "seoTitle": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-        "seoDescription": "Explore how the Agentforce Testing Center leverages synthetic data to enhance AI testing and monitoring.",
+        "seoTitle": "Agentforce Testing Center: Test AI Agents Before Production",
+        "seoDescription": "The Agentforce Testing Center is a powerful suite of tools that helps enterprises evaluate AI agents before they are deployed in production. Know more.",
         "blogTopic": "Salesforce Agentforce",
         "blogTitle": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
         "blogMainData": "Salesforce has introduced a new feature called Testing Center within its agentic AI platform, Agentforce. This addition allows enterprise users to test and monitor AI agents before deploying them in production. Agentforce, launched for general availability in September, is a low-code suite designed to help enterprises create AI agents capable of autonomous reasoning for AI-powered solutions across sales, service, marketing, and commerce. The Agentforce Testing Center offers tools to help enterprise users test and evaluate agents before deploying them into production. These agents operate autonomously, a core aspect of agentic AI—a growing enterprise strategy to transform business processes by automating specific functions without human involvement.",
@@ -4574,7 +4574,7 @@
     },
     "sapBuild": {
         "bannerAlt": "Smart factory interface showing SAP Build low-code automation tools and connected machinery ",
-        "seoTitle": "Retrieving data. Wait a few seconds and try to cut or copy again.",
+        "seoTitle": "SAP Build for Manufacturing Sector: Cut Downtime 30% | Rialtes",
         "seoDescription": "Discover how SAP Build helps manufacturers accelerate innovation, reduce downtime, and empower teams with low-code apps and automation.",
         "blogMainData": [
             "Industry 4.0 has transformed factories into connected ecosystems where machines, people, and processes work in sync. It includes areas like maintenance, order-based production, networked factories, adaptive logistics, and intelligent product development.",
@@ -5455,6 +5455,8 @@
         "faqTitle": "FAQs: Importance of Connected Care Ecosystems for Pharma & MedTech"
     },
     "patientExperience": {
+        "seoTitle" : "Patient Experience Platform Transforming Long-Term Care | Rialtes",
+        "seoDescription" : "Discover how MediAIna, Rialtes’ patient experience platform, redefines healthcare journeys with digital engagement, AI insights, and chronic care support.",
         "bannerAlt": "A patient viewing health data on a tablet, with icons representing diagnosis, treatment, and long-term care ",
         "blogMainData": [
             "Providing healthcare has always been about more than just diagnosis. For patients, the real journey begins after they receive a diagnosis, navigating treatment options, managing chronic conditions, and learning how to live with ongoing care needs. Unfortunately, traditional systems often fail to support patients beyond the walls of the clinic. That is why a patient experience platform becomes essential, helping healthcare providers deliver continuity, coordination, and personalized care at scale.",
@@ -5798,6 +5800,8 @@
         "seoDescription": "Top Salesforce partners help enterprises thrive by aligning technology with business growth, accelerating innovation, and ensuring long-term value."
     },
     "salesforceDevelopment": {
+        "seoTitle" : "Salesforce Development Services for Enterprise Success | Rialtes",
+        "seoDescription" : "Explore why custom Salesforce development matters, how it boosts CRM efficiency, and why choosing the right partner makes all the difference.",
         "bannerAlt": "CRM dashboard interface displaying Salesforce analytics, user engagement metrics, and workflow automation ",
         "blogMainData": [
             "Customer Relationship Management (CRM) is the beating heart of modern enterprises. It drives how sales teams close deals, how service teams respond to customers, and how marketing delivers personalized campaigns. Among the many CRM platforms available, Salesforce stands out as the most trusted CRM out there. But here’s the catch: simply deploying Salesforce isn’t enough. To truly maximize its potential, businesses need tailored Salesforce services that adapt the platform to unique workflows, data models, and customer expectations.",

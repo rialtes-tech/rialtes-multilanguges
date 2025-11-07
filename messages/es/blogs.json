@@ -5900,6 +5900,8 @@
         "faqTitle": "Preguntas Frecuentes: La Importancia de los Ecosistemas de Atención Conectada para la Industria Farmacéutica y MedTech"
     },
     "patientExperience": {
+        "seoTitle" : "Plataforma de experiencia del paciente a largo plazo | Rialtes",
+        "seoDescription" : "Descubre cómo MediAIna redefine la experiencia del paciente con IA, participación digital y apoyo en cuidados crónicos.",
         "bannerAlt": "Paciente consultando datos de salud en una tableta, con íconos de diagnóstico, tratamiento y atención prolongada ",
         "blogMainData": [
             "Brindar atención médica siempre ha sido mucho más que un simple diagnóstico. Para los pacientes, el verdadero viaje comienza después de recibir un diagnóstico, al explorar opciones de tratamiento, manejar condiciones crónicas y aprender a vivir con necesidades de atención continua. Desafortunadamente, los sistemas tradicionales a menudo no apoyan a los pacientes más allá de las paredes de la clínica. Por eso, una plataforma de experiencia del paciente se vuelve esencial, ayudando a los proveedores de salud a ofrecer continuidad, coordinación y atención personalizada a gran escala.",
@@ -6243,6 +6245,8 @@
         "seoDescription": "Los mejores socios Salesforce impulsan la innovación y el crecimiento alineando la tecnología con los objetivos del negocio."
     },
     "salesforceDevelopment": {
+        "seoTitle" : "Servicios Salesforce para el éxito empresarial | Rialtes",
+        "seoDescription" : "Descubre cómo el desarrollo personalizado de Salesforce impulsa la eficiencia del CRM y por qué elegir al socio adecuado es clave.",
         "bannerAlt": "Interfaz de panel CRM mostrando análisis de Salesforce, métricas de participación y automatización de flujos ",
         "blogMainData": [
             "La Gestión de Relaciones con el Cliente (CRM) es el corazón palpitante de las empresas modernas. Impulsa cómo los equipos de ventas cierran acuerdos, cómo los equipos de servicio responden a los clientes y cómo el marketing ofrece campañas personalizadas. Entre las muchas plataformas CRM disponibles, Salesforce se destaca como la más confiable. Pero aquí está el detalle: simplemente implementar Salesforce no es suficiente. Para maximizar verdaderamente su potencial, las empresas necesitan servicios de Salesforce personalizados que adapten la plataforma a flujos de trabajo únicos, modelos de datos y expectativas del cliente.",
@@ -6619,8 +6623,8 @@
                 "answer": "Rialtes es un Socio Salesforce Crest con un historial comprobado en implementaciones sin problemas, integraciones complejas e innovación continua. Con Rialtes, las empresas reducen los riesgos del proyecto y maximizan el ROI de Salesforce."
             }
         ],
-        "seoTitle": "Socios de Salesforce que impulsan el crecimiento empresarial con IA",
-        "seoDescription": "Los mejores socios de implementación de Salesforce no se detienen en el despliegue; guían a las empresas con información impulsada por IA, automatización de Agentforce y soluciones Data Cloud.",
+        "seoTitle": "Socios Salesforce impulsando el crecimiento con IA | Rialtes",
+        "seoDescription": "Los socios Salesforce guían a las empresas con IA, automatización de Agentforce y soluciones de Data Cloud.",
         "blogTopic": "Salesforce",
         "blogTitle": "Implementación sin fisuras de Salesforce: estrategias de socios que reducen riesgos y maximizan el ROI",
         "howSalesforceTitle": "Cómo los socios de Salesforce reducen el riesgo del proyecto",

@@ -5716,8 +5716,8 @@
     "digitalJourney": {
         "bannerAlt": "Chronologie visuelle du parcours patient amélioré par l'IA, montrant diagnostic, traitement et suivi ",
         "digiTitle": "Redéfinir les soins de santé, un voyage à la fois",
-        "seoTitle": "Parcours Numériques du Patient : L’Avenir des Soins de Santé avec l’IA | Rialtes",
-        "seoDescription": "L’avenir des soins de santé repose sur les parcours numériques du patient — des itinéraires pilotés par l’IA, prédictifs et personnalisés qui responsabilisent à la fois les patients et les prestataires.",
+        "seoTitle": "Parcours patients numériques : l’avenir de la santé IA | Rialtes",
+        "seoDescription": "L’avenir de la santé passe par des parcours patients numériques, prédictifs et personnalisés grâce à l’IA.",
         "whyDigitalJourneyData": [
             "L’industrie des soins de santé est à un tournant. Les patients ne veulent plus d’expériences fragmentées, d’attendre des semaines pour un rendez-vous, de répéter leur historique à chaque point de contact ou de jongler avec plusieurs portails. Ils souhaitent une prise en charge fluide, personnalisée et continue — aussi pratique que dans d’autres secteurs. Ce changement alimente la demande croissante de parcours numériques du patient, où chaque étape — de la prise de rendez-vous au suivi — est connectée, intelligente et centrée sur le patient.",
             "<a href='https://fr.wikipedia.org/wiki/Intelligence_artificielle_dans_la_sant%C3%A9' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>L’IA dans les soins de santé</a> et les sciences de la vie est au cœur de cette transformation, apportant intelligence, automatisation et personnalisation à la prestation de soins. Des plateformes comme MediAIna démontrent que lorsque la technologie s’aligne avec l’empathie, nous pouvons redéfinir la manière dont les patients interagissent avec les prestataires, les assureurs et les chercheurs.",
@@ -5958,6 +5958,8 @@
         "faqTitle": "FAQ : L’Importance des Écosystèmes de Soins Connectés pour la Pharmaceutique et MedTech"
     },
     "patientExperience": {
+         "seoTitle" : "Plateforme patient transformant les soins durables | Rialtes",
+        "seoDescription" : "Découvrez comment MediAIna redéfinit l’expérience patient avec l’engagement numérique, l’IA et le soutien aux soins chroniques.",
         "bannerAlt": "Patient consultant des données de santé sur une tablette, avec des icônes de diagnostic, traitement et soins à long terme ",
         "blogMainData": [
             "Fournir des soins de santé a toujours été bien plus qu'un simple diagnostic. Pour les patients, le véritable parcours commence après le diagnostic, en explorant les options de traitement, en gérant les maladies chroniques et en apprenant à vivre avec des besoins de soins continus. Malheureusement, les systèmes traditionnels ne soutiennent souvent pas les patients au-delà des murs de la clinique. C'est pourquoi une plateforme d'expérience patient devient essentielle, aidant les prestataires de soins à offrir continuité, coordination et soins personnalisés à grande échelle.",
@@ -6301,6 +6303,8 @@
         "seoDescription": "Les meilleurs partenaires Salesforce stimulent la croissance et l’innovation en alignant la technologie avec les objectifs d’entreprise."
     },
     "salesforceDevelopment": {
+        "seoTitle" : "Services Salesforce pour le succès des entreprises | Rialtes",
+        "seoDescription" : "Découvrez comment le développement Salesforce sur mesure améliore l’efficacité CRM et pourquoi choisir le bon partenaire est crucial.",
         "bannerAlt": "Interface de tableau CRM affichant les analyses Salesforce, les métriques d'engagement et l'automatisation des flux ",
         "blogMainData": [
             "La gestion de la relation client (CRM) est le cœur battant des entreprises modernes. Elle détermine comment les équipes commerciales concluent des affaires, comment les équipes de service répondent aux clients et comment le marketing propose des campagnes personnalisées. Parmi les nombreuses plateformes CRM disponibles, Salesforce se distingue comme le CRM le plus fiable. Mais voici le problème : déployer Salesforce seul ne suffit pas. Pour exploiter pleinement son potentiel, les entreprises ont besoin de services Salesforce personnalisés qui s’adaptent aux flux de travail, aux modèles de données et aux attentes des clients uniques.",
@@ -6677,8 +6681,8 @@
                 "answer": "Rialtes est un Partenaire Salesforce Crest avec une expérience éprouvée dans les implémentations fluides, les intégrations complexes et l’innovation continue. Avec Rialtes, les entreprises réduisent les risques du projet et maximisent le ROI Salesforce."
             }
         ],
-        "seoTitle": "Partenaires Salesforce stimulant la croissance des entreprises grâce à l’IA",
-        "seoDescription": "Les meilleurs partenaires d’implémentation Salesforce ne s’arrêtent pas au déploiement ; ils guident les entreprises grâce à des insights basés sur l’IA, à l’automatisation Agentforce et aux solutions Data Cloud.",
+        "seoTitle": "Partenaires Salesforce propulsant la croissance IA | Rialtes",
+        "seoDescription": "Les partenaires Salesforce guident les entreprises avec l’IA, l’automatisation Agentforce et les solutions Data Cloud.",
         "blogTopic": "Salesforce",
         "blogTitle": "Implémentation Salesforce fluide : stratégies de partenaires pour réduire les risques et maximiser le ROI",
         "howSalesforceTitle": "Comment les partenaires Salesforce réduisent le risque du projet",
