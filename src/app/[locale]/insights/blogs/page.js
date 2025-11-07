@@ -45,7 +45,8 @@ export default function Page() {
         <Link href={'/insights/blogs' + blog.url}>
           <Image
             src={blog.image}
-            alt={blog.title}
+            alt={blog.alt}
+            title={blog.title}
             width={0}
             height={0}
             sizes="100vw"
@@ -305,7 +306,8 @@ export default function Page() {
                   <Link href={'/insights/blogs' + slide.url}>
                     <Image
                       src={slide.image}
-                      alt={slide.title}
+                      alt={slide.alt}
+                      title={slide.title}
                       width={0}
                       height={0}
                       sizes="100vw"
@@ -349,7 +351,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/blog/blog-header-web.webp"
-            alt="desktop banner"
+            alt={t('mainBlogbannerAlt')}
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
             priority
@@ -361,7 +363,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/blog/blog-header-mobile.webp"
-            alt="mobile banner"
+            alt={t('mainBlogbannerAlt')}
             fill
             priority
             style={{ objectFit: "cover", objectPosition: "35% 60%" }}

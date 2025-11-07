@@ -87,7 +87,7 @@ export default function page({ url }) {
         <section className="relative pb-8 lg:pb-4">
             <div className="mb-[36px] mx-auto">
                 <div className="flex flex-row justify-between md:mr-24 mr-0">
-                    <h2 className="mb-[43px] leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]">{t('latestBlogsTitle')}</h2>
+                    <p className="mb-[43px] leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] font-normal">{t('latestBlogsTitle')}</p>
                 </div>
                 <Carousel
                     swipeable={true}
@@ -136,7 +136,7 @@ export default function page({ url }) {
                             <div className="flex flex-col text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                                 <div className="flex flex-col">
                                     <div className=" leading-tight text-[16px] 4xl:text-[17px]"><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
-                                    <Link href={'/insights/blogs' + slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.title}</h5></Link>
+                                    <Link href={'/insights/blogs' + slide.url}><p className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.title}</p></Link>
                                 </div>
                                 <p className="line-clamp-4 leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.description}</p>
                             </div>

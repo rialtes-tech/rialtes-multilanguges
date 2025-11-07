@@ -202,6 +202,17 @@
         "keyFeatureTitle": "Características Clave de AgentChat para Usuarios SAP ARIBA"
     },
     "successPlus": {
+          "sapSuccessfacorAlt": " Logotipo oficial de SAP SuccessFactors con texto azul y un ícono de corazón amarillo, que representa una transformación de RRHH centrada en las personas.",
+        "agentchatIconAlt": "Icono de WhatsApp que enlaza con el soporte de Rialtes para consultas sobre SAP SuccessFactors.",
+        "agentchatAlt": "Interfaz de Rialtes AgentChat que permite soporte y comunicación automatizados en RR. HH. para usuarios de SAP SuccessFactors.",
+        "sapJuleAlt": "Panel de integración SAP ERP y SuccessFactors para operaciones de RR. HH. sin interrupciones.",
+        "extendAlt": "Ilustración que muestra las capacidades ampliadas de SAP SuccessFactors mediante los complementos SuccessPlus de Rialtes. ",
+        "successFactorAlt": "Panel de control de SAP SuccessFactors que muestra gestión unificada de RR. HH., nómina y talento. ",
+        "sapCpiAlt": "Panel de SAP Cloud Platform Integration (CPI) que muestra flujos de trabajo de RR. HH. conectados dentro de SuccessFactors. ",
+        "keySerAlt": "Ilustración que muestra los principales servicios de implementación y soporte de SAP SuccessFactors ofrecidos por Rialtes. ",
+        "workDayAlt": "Gráfico comparativo que destaca las ventajas de SAP SuccessFactors frente a Workday en la transformación de RR. HH. ",
+        "zohoAlt": "Infografía que compara las soluciones de gestión de RR. HH. de SAP SuccessFactors y Zoho People. ",
+        "sapJouleAlt":"Asistente de RR. HH. impulsado por IA para SuccessFactors — Aprovecha la IA con SAP Joule: Empoderando el futuro de los recursos humanos",
         "keyServiceImg": "/images/services/success-plus/key-service-spanish.webp",
         "keyServiceImgMobile": "/images/services/success-plus/Mobile/key-service-spanish-mobile.webp",
         "headerTitle": "Success+",

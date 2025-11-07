@@ -1,5 +1,4 @@
 "use client";
-// pages/case-study-detail.js
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
 import { useLocale, useTranslations } from "next-intl";
@@ -10,7 +9,6 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import Script from "next/script";
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
-import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -75,8 +73,8 @@ export default function Page() {
       <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] h-[380px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
-            src="/images/case-studies/AutoSense Warranty Management Modules_Case study banner.webp"
-            alt="banner image"
+            src="/images/case-studies/automotive-robotic-assembly-line-car-manufacturing.webp"
+            alt={t('bannerAlt')}
             fill
             priority
             className="w-full h-full object-cover"
@@ -84,8 +82,8 @@ export default function Page() {
         </div>
         <div className="xl:hidden block h-full">
           <Image
-            src="/images/case-studies/AutoSense Warranty Management Modules_Case study Mobile banner.webp"
-            alt="banner image"
+            src="/images/case-studies/automotive-robotic-assembly-line-car-manufacturing-mobile.webp"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}

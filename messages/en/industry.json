@@ -11,7 +11,7 @@
     "mindsetDesc": "We specialize in various industries, enabling us to offer comprehensive solutions tailored to meet your specific industry needs. With our expertise and support, clients can respond to evolving industry conditions and leverage emerging trends for their business.",
     "growTitle": " Industries we serve",
     "knowMore": "Know More",
-    "growLatestServices": [
+    "growLatestServices": [ 
       {
         "id": 3,
         "image": "/images/industry/real-estate-urban-planning-model.webp",
@@ -2155,6 +2155,7 @@
     "learnMoreBtn": "Learn More"
   },
   "travelIndustry": {
+    "personalizedAlt":"Background image representing personalized travel experiences powered by AI and data insights.",
     "smaterServiceAlt": "Graphic showing Agentforce AI bots and personalized agent interactions for travel support",
     "quikCommerceAlt": "Mobile visual representing real-time booking, check-in, and service requests in travel and hospitality",
     "aiPoweredAlt": "Mobile image showing AI-powered travel experiences including chatbots and predictive maintenance.",
