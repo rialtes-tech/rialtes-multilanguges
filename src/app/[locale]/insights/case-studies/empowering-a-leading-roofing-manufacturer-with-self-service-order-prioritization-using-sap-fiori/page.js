@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
-import { HeroSection } from "@/app/[locale]/components/herosection";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from "next-intl";
@@ -25,7 +24,7 @@ const schemaData = {
     "Case Study: Empowering Roofing Manufacturer with SAP Fiori for Self-Service Sales Order Prioritization",
   description:
     "Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy.",
-  image: "https://www.rialtes.com/images/case-studies/fiori-banner.webp",
+  image: "https://www.rialtes.com/images/case-studies/roofing-shingle-samples-color-variety-display.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -56,7 +55,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/"
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/`}
       />
 
       <Script

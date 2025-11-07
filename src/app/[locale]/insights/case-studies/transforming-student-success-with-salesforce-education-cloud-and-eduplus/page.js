@@ -9,7 +9,6 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
 import useUrl from "@/app/[locale]/components/useUrl";
-import RelatedCaseStudies from "@/app/[locale]/components/RelatedCaseStudies";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 
 const schemaData = {
@@ -24,8 +23,7 @@ const schemaData = {
     "Transforming Student Success with Salesforce Education Cloud and Edu+",
   description:
     "This case study explores how a leading North American university improved enrollment, student engagement, and case management with Rialtes Edu+ powered by Salesforce Education Cloud, Agentforce, and Data Cloud.",
-  image:
-    "https://www.rialtes.com/images/case-studies/Transforming-student-success.webp",
+  image: "https://www.rialtes.com/images/case-studies/Tgraduation-cap-ladder-clouds-education-success-concept.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -66,7 +64,7 @@ export default function page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/"
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/`}
       />
       <Script
         id="schema-revolutionizing"

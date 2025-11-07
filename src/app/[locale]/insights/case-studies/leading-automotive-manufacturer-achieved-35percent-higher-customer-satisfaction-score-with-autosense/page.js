@@ -23,7 +23,7 @@ const schemaData = {
   description:
     "This Salesforce warranty management case study highlights how AutoSense streamlined warranty claims, improved dealer engagement, and boosted customer satisfaction.",
   image:
-    "https://www.rialtes.com/images/case-studies/AutoSense%20Warranty%20Management%20Modules_Case%20study%20banner.webp",
+    "https://www.rialtes.com/images/case-studies/automotive-robotic-assembly-line-car-manufacturing.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
@@ -45,7 +45,6 @@ export default function Page() {
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const {
-    slides,
     keyList,
     solutionList,
     featureList,
@@ -60,7 +59,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/"
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/`}
       />
 
       <Script
