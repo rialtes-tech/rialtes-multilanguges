@@ -22,8 +22,7 @@ const schemaData = {
         "Case Study: Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
     description:
         "Discover how Rialtes transformed automotive dealer management with AutoSense—modern UX, SAP & Salesforce integration, and real-time operations.",
-    image:
-        "https://www.rialtes.com/images/case-studies/revolutionizing-dealer-management-for-a-eading-automotive-anufacturer-with-autosense-case-study-banner.webp",
+    image: "https://www.rialtes.com/images/case-studies/business-professionals-collaborating-laptop-modern-office.webp",
     author: {
         "@type": "Organization",
         name: "Rialtes",

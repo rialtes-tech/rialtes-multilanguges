@@ -24,7 +24,7 @@ const schemaData = {
     "Case Study: Omnichannel Case Management with Salesforce Service Cloud",
   description:
     "Discover how Rialtes implemented Salesforce Service Cloud to enable seamless omnichannel case management, reduce response time, and enhance customer satisfaction.",
-  image: "https://www.rialtes.com/images/case-studies/case-study-4.webp",
+  image: "https://www.rialtes.com/images/case-studies/advanced-microchip-manufacturing.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

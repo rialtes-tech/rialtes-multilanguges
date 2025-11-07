@@ -25,7 +25,7 @@ const schemaData = {
   description:
     "Learn how Rialtes leveraged MuleSoft to integrate Salesforce Health Cloud and SAP, enabling end-to-end order automation, faster turnaround, and improved patient experience.",
   image:
-    "https://www.rialtes.com/images/case-studies/case%20study%201_n%201.webp",
+    "https://www.rialtes.com/images/case-studies/healthcare-professional-colleague-hospital-discussion.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

@@ -23,7 +23,7 @@ const schemaData = {
   headline: "Case Study: Trusted YARDI Partner for North America’s Largest PHA",
   description:
     "Explore how Rialtes partnered with North America’s largest PHA for a full-scale Yardi implementation and provided 5 years of robust AMS support, ensuring operational excellence and compliance.",
-  image: "https://www.rialtes.com/images/case-studies/case-study-5.webp",
+  image: "https://www.rialtes.com/images/case-studies/urban-community-collaboration.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

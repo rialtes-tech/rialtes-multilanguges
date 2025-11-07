@@ -23,8 +23,7 @@ const schemaData = {
     "Case Study: Optimizing Sales Processes with Salesforce Sales Cloud for a Manufacturing Company",
   description:
     "Learn how a global manufacturing company streamlined lead management, improved sales productivity, and enhanced reporting using Salesforce Sales Cloud with Rialtes’ expertise.",
-  image:
-    "https://www.rialtes.com/images/case-studies/sales%20cloud%20case%20study.webp",
+  image: "https://www.rialtes.com/images/case-studies/quality-control-technician-inspecting-bottle-production-line.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

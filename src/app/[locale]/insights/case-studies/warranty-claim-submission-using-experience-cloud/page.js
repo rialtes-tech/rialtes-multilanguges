@@ -22,7 +22,7 @@ const schemaData =
   },
   "headline": "Case Study: Salesforce Experience Cloud Transforms Warranty Claims for a Roofing Manufacturer",
   "description": "Rialtes helped a roofing manufacturer in the building materials industry modernize warranty claims using Salesforce Experience Cloud, integrating LWC, address validation, automation, and ERP for better accuracy and efficiency.",
-  "image": "https://www.rialtes.com/images/homepage/logo.svg",
+  "image": "https://www.rialtes.com//images/case-studies/roof-shingle-color-samples-material-options.webp",
   "author": {
     "@type": "Organization",
     "name": "Rialtes"

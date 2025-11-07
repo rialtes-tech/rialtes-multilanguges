@@ -24,7 +24,7 @@ const schemaData = {
     "Case Study: Empowering Roofing Manufacturer with SAP Fiori for Self-Service Sales Order Prioritization",
   description:
     "Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy.",
-  image: "https://www.rialtes.com/images/case-studies/fiori-banner.webp",
+  image: "https://www.rialtes.com/images/case-studies/roofing-shingle-samples-color-variety-display.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

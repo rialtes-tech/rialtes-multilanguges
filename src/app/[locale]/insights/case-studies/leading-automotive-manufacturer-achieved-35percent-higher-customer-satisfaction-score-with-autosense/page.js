@@ -23,7 +23,7 @@ const schemaData = {
   description:
     "This Salesforce warranty management case study highlights how AutoSense streamlined warranty claims, improved dealer engagement, and boosted customer satisfaction.",
   image:
-    "https://www.rialtes.com/images/case-studies/AutoSense%20Warranty%20Management%20Modules_Case%20study%20banner.webp",
+    "https://www.rialtes.com/images/case-studies/automotive-robotic-assembly-line-car-manufacturing.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

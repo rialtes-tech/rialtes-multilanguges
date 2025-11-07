@@ -23,8 +23,7 @@ const schemaData = {
     "Transforming Student Success with Salesforce Education Cloud and Edu+",
   description:
     "This case study explores how a leading North American university improved enrollment, student engagement, and case management with Rialtes Edu+ powered by Salesforce Education Cloud, Agentforce, and Data Cloud.",
-  image:
-    "https://www.rialtes.com/images/case-studies/Transforming-student-success.webp",
+  image: "https://www.rialtes.com/images/case-studies/Tgraduation-cap-ladder-clouds-education-success-concept.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

@@ -23,8 +23,7 @@ const schemaData = {
   headline: "Salesforce Experience Cloud Case Study: Mobile Warranty Portal",
   description:
     "This case study details how Rialtes implemented a mobile-first Salesforce Experience Cloud solution for a leading roofing manufacturer, streamlining warranty submissions and enhancing customer experience through Lightning Web Components.",
-  image:
-    "https://www.rialtes.com/images/case-studies/Adaptis-for-web-casestudy-banner.webp",
+  image: "https://www.rialtes.com/images/case-studies/insurance-adjuster-homeowner-storm-damage-assessment.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",

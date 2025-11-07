@@ -23,7 +23,7 @@ const schemaData = {
   description:
     "Explore how Rialtes implemented the RealForce Banking Module to enable seamless ACH integration, reduce payment processing time, and enhance financial automation.",
   image:
-    "https://www.rialtes.com/images/case-studies/case%20study%202_n%201.webp",
+    "https://www.rialtes.com/images/case-studies/business-team-architect-blueprint-office-discussion.webp",
   author: {
     "@type": "Organization",
     name: "Rialtes",
