@@ -95,6 +95,102 @@ export default function Page() {
         }
     ]
 
+    const howSapData = [
+        {
+            "title": "Proven Methodologies that Minimize Project Risks",
+            "desc": [
+                "Top SAP implementation partners follow structured methodologies to reduce risks and control project complexity. SAP’s own Activate methodology combines agile principles with predefined best practices, helping teams go live faster without sacrificing quality. This approach shortens timelines by 20–30% and ensures each phase, from discovery to deployment, remains transparent and measurable."
+            ]
+        },
+        {
+            "title": "Aligning Technical Implementation with Business Strategy",
+            "desc": [
+                "Technology shouldn’t lead; strategy should. The best SAP partners make sure every module supports a business outcome.",
+                "Take a manufacturing enterprise integrating SAP PP (Production Planning) with its MES (Manufacturing Execution System). By aligning system logic with production KPIs, the company improved capacity utilization by 28% and reduced material wastage by 17%."
+            ]
+        },
+        {
+            "title": "Predictive and Proactive Maintenance with SAP S/4HANA",
+            "desc": [
+                "SAP S/4HANA’s AI and predictive analytics capabilities are game changers for modern enterprises. Predictive maintenance helps detect anomalies in real time, preventing equipment failures before they occur.",
+                "A European auto parts manufacturer used SAP’s predictive modeling tools to analyze machine data. The system forecasted potential breakdowns and automatically generated maintenance orders, resulting in 22% lower operational costs and 30% less downtime."
+            ]
+        }
+    ]
+
+    const commonData = [
+        {
+            "title": "Building a Value-Driven Partnership for Scalable SAP Success",
+            "desc": [
+                "A successful SAP ecosystem never stays static. Cloud transitions, new regulatory requirements, and AI-led analytics all demand constant evolution.",
+                "Value-driven SAP partnerships go beyond go-live support. They focus on long-term scalability, ensuring enterprises stay adaptable as business priorities shift. Regular health checks, performance reviews, and feature updates ensure your SAP environment continues to evolve with your business."
+            ]
+        },
+        {
+            "title": "The ROI Equation: Turning Implementation Costs into Measurable Gains",
+            "desc": [
+                "SAP’s true ROI isn’t just cost savings; it’s more about agility and foresight. A Deloitte report found that enterprises leveraging integrated SAP environments see up to 33% higher ROI within the first year compared to those that treat SAP as an isolated IT tool.",
+                "ROI drivers include:"
+            ],
+            "list": [
+                {
+                    "title": "Faster decision-making",
+                    "desc": "with unified data."
+                },
+                {
+                    "title": "Operational cost reduction",
+                    "desc": "through automation."
+                },
+                {
+                    "title": "Scalable innovation",
+                    "desc": "through continuous integration of new modules."
+                }
+            ],
+            "desc2": "When implementation partners align business goals with SAP capabilities, enterprises can continuously extract value, not just efficiency."
+        }, {
+            "title": "Why Rialtes is the SAP Implementation Partner Enterprises Trust",
+            "desc": [
+                "Every enterprise transformation begins with one decision: choosing the right partner. Rialtes isn’t just an SAP implementation vendor; it’s a team of innovators and strategists who understand the intersection of business and technology.",
+                "As one of the top SAP implementation partners, Rialtes brings:"
+            ],
+            "list": [
+                "Deep expertise across SAP S/4HANA, SuccessFactors, and Analytics Cloud.",
+                "A structured implementation roadmap aligned with your enterprise strategy.",
+                "Cross-industry experience, from manufacturing and logistics to healthcare and real estate.",
+                "Continuous post-go-live support for optimization and scalability."
+            ],
+            "desc2": "At Rialtes, we create value ecosystems where SAP becomes a driver of growth. Our mission is to help enterprises modernize, innovate, and thrive with seamless SAP implementation services designed for measurable outcomes."
+        }
+    ]
+
+    const faqs = [
+        {
+            "question": "What are the key steps in a successful SAP implementation process?",
+            "answer": "The process includes discovery, design, configuration, testing, go-live, and continuous optimization, all supported by experienced SAP consultants who align business goals with technology outcomes."
+        },
+        {
+            "question": "How do SAP implementation partners minimize project risk?",
+            "answer": "Top partners use proven frameworks like SAP Activate, agile methods, and data-driven governance to predict and mitigate risks while keeping projects on schedule and within budget."
+        },
+        {
+            "question": "What makes Rialtes a trusted SAP implementation partner for enterprises?",
+            "answer": "Rialtes combines custom SAP development and integration expertise with deep industry knowledge, ensuring that every implementation delivers measurable business results."
+        },
+        {
+            "question": "How long does an SAP implementation usually take?",
+            "answer": "Depending on project size and complexity, implementations typically take 6 to 18 months, including planning, migration, and training phases."
+        },
+        {
+            "question": "What are the biggest ROI drivers after SAP go-live?",
+            "answer": "Automation, real-time analytics, process efficiency, and strategic scalability are the main contributors to post-launch ROI."
+        },
+        {
+            "question": "How can working with expert SAP consultants improve business outcomes?",
+            "answer": "Working with expert SAP consultants ensures your implementation aligns with core business needs, maximizes adoption, and unlocks long-term value across all operations."
+        }
+    ]
+
+
     return (
         <section className="min-h-screen">
             <Seo
@@ -235,8 +331,7 @@ export default function Page() {
                                                 ))
                                             }
                                             {
-                                                data.list2 && <UnorderedList arrName={data.list2} ulClassName="pl-[36px] lg:pl-[60px] space-y-3 mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium" />
-
+                                                data.list2 && <UnorderedList arrName={data.list2} ulClassName="pl-[36px] lg:pl-[60px] space-y-1 mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium" />
                                             }
 
                                             {
@@ -256,9 +351,97 @@ export default function Page() {
 
                         </div>
 
+                        {/* how sap section */}
+                        <div className="md:mt-[50px] mt-[40px]">
+                            <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">How SAP Implementation Partners Reduce Risk and Ensure Long-Term Value</h2>
+                            {
+                                howSapData.map((data, ind) => {
+                                    return (
+                                        <div key={ind}>
+                                            <h3 className="mt-[22px] xl:mt-[30px] font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight">{data.title}</h3>
+                                            {
+                                                data.desc.map((elem, id) => {
+                                                    return (
+                                                        <p
+                                                            key={id}
+                                                            className={`mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                            dangerouslySetInnerHTML={{ __html: elem }}
+                                                        />
+                                                    )
+                                                })
+                                            }
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div>
+                        {/* common data */}
+                        {
+                            commonData.map((data, ind) => (
+                                <div className="md:mt-[50px] mt-[40px]" key={`common-${ind}`}>
+                                    <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                                        {data.title}
+                                    </h2>
+
+                                    {data.desc.map((elem, id) => (
+                                        <p
+                                            key={`desc-${ind}-${id}`}
+                                            className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                            dangerouslySetInnerHTML={{ __html: elem }}
+                                        />
+                                    ))}
+
+                                    {data.list && ind === 1 && (
+                                        <ul className="pl-[36px] lg:pl-[46px] space-y-3 mt-5">
+                                            {data.list.map((elems, idx) => (
+                                                <li
+                                                    key={`list1-${ind}-${idx}`}
+                                                    className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium"
+                                                >
+                                                    <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                                        {elems.title}
+                                                    </h3>{" "}
+                                                    {elems.desc}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    )}
+
+                                    {data.list && ind === 2 && (
+                                        <UnorderedList
+                                            key={`unordered-${ind}`}
+                                            arrName={data.list}
+                                            ulClassName="pl-[36px] lg:pl-[56px] space-y-3 mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium"
+                                        />
+                                    )}
+
+                                    {data.desc2 && (
+                                        <p
+                                            key={`desc2-${ind}`}
+                                            className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                            dangerouslySetInnerHTML={{ __html: data.desc2 }}
+                                        />
+                                    )}
+                                </div>
+                            ))
+                        }
+
                     </div>
                 </div>
             </section>
-        </section >
+
+            {/* faq section */}
+            <section className="xl:mt-[80px] mt-[40px] custom-container">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">FAQs: SAP Implementation Strategies to Minimize Risk</h2>
+                <div className="mt-[29px] xl:mt-[30px]">
+                    <FAQAccordion faqData={faqs} />
+                </div>
+            </section>
+
+            {/* blog carousel */}
+            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+                <FilteredBlogCarousel url={currUrl} />
+            </section>
+        </section>
     )
 }
