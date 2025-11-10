@@ -49,10 +49,10 @@ export default function Page() {
   const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization";
   return (
     <div className="min-h-screen bg-white">
-      <Seo 
+      <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization/"
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/salesforce-health-cloud-prior-authorization/`}
       />
       <Script
         id="schema-salesforce-health"

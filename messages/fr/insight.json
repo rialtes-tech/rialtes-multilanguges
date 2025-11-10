@@ -199,7 +199,7 @@
     ],
     "latestBlogs": [
         {
-        "id": 51,
+        "id": 100,
         "image": "/images/blog/exelona-cluster-feature-thumb.webp",
         "category": "Exelona",
         "industry": "Generic",
@@ -218,7 +218,7 @@
         "title": "Convergence CRM + ERP : comment les leaders immobiliers brisent les silos systèmes et réduisent les coûts",
         "description": "Voici quelque chose que tout dirigeant immobilier sait déjà mais dit rarement à voix haute : la pile technologique censée simplifier les opérations les a en réalité compliquées."
       },
-      { "id": 49,
+      { "id": 48,
         "image": "/images/blog/ai-sla-billing-efficiency-mobile.webp",
         "category": "Exelona",
         "industry": "Immobilier",
@@ -227,7 +227,8 @@
         "title": "Comment suivre les SLA et la facturation sans devenir fou ?",
         "description": "Un accord de niveau de service (SLA) définit le niveau de service attendu d’un fournisseur. Il précise les indicateurs utilisés pour mesurer ce service et les recours disponibles si les niveaux de service convenus ne sont pas respectés."},
       {
-        "id": 48,
+        
+        "id": 47,
         "image": "/images/blog/conversational-ai-in-real-estate-mobile.webp",
         "category": "Exelona",
         "industry": "Immobilier",

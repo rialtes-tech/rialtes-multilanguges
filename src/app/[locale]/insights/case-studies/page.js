@@ -50,7 +50,7 @@ export default function Page() {
           <Image
             className="w-full transition-transform duration-300 hover:scale-84"
             src={casestudy.image}
-            alt={casestudy.title}
+            alt={casestudy.alt}
             width={0}
             height={0}
             sizes="100vw"
@@ -316,7 +316,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/case-studies/" />
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/`} />
 
       <Script
         id="schema-case-study"

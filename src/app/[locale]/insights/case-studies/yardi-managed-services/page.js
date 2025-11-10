@@ -46,7 +46,7 @@ export default function Page() {
   const t = useTranslations("yardiManageCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const {  solutionList, businessList, benefitsList } = Content.yardiManageCaseStudy;
+  const { solutionList, businessList, benefitsList } = Content.yardiManageCaseStudy;
 
   const fullUrl = "https://www.rialtes.com/insights/case-studies/yardi-managed-services";
 
@@ -55,7 +55,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical="https://www.rialtes.com/insights/case-studies/yardi-managed-services/"
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/yardi-managed-services/`}
       />
 
       <Script
