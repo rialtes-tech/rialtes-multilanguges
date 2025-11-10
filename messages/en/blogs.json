@@ -7020,7 +7020,9 @@
             "question": "What features should I look for in an operational analytics platform?",
             "answer": "Look for real-time SLA tracking, billing automation, predictive alerts, and vendor performance insights. Platforms like Exelona offer all of these in one place."
         }
-    ],
+    ]
+},
+
     "whatDoesASingle": {
         "aleadsfill":"A lead fills out",
         "aform":"a form",
@@ -7479,4 +7481,4 @@
     }
   ]
     }
-} }
+} 
