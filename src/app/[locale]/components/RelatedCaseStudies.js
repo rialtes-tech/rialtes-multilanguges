@@ -23,8 +23,10 @@ export default function page({ url, currTopic }) {
 
     const filteredCases = latestCaseStudy.filter((elem) => {
         const caseIndustry = elem.industry;
-        const caseSlug = elem.url.split("/").pop();
-        return caseSlug !== url && caseIndustry == currTopic;
+        const caseSlug = elem.url.replace(/\/$/, "").split("/").pop();
+        const currentSlug = url.replace(/\/$/, "");
+
+        return caseSlug !== currentSlug && caseIndustry === currTopic;
     });
 
     const responsive = {
