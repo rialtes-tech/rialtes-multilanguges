@@ -220,18 +220,9 @@
         "alt": "Real Estate Cloud Infrastructure with AI ",
         "description": "Here’s something every property leader already knows but rarely says out loud: the technology stack that was meant to simplify operations has ended up complicating it."
       },
-        {
-        "id": 50,
-        "image": "/images/blog/ai-sla-billing-efficiency-mobile.webp",
-        "category": "Exelona",
-        "industry": "Real Estate",
-        "date": "Oct. 27, 2025",
-        "url": "/tracking-service-level-agreements-without-losing-mind/",
-        "title": "How Do You Track SLAs and Billing Without Losing Your Mind?",
-        "description": " A service-level agreement (SLA) outlines the expected level of service from a vendor. It specifies the metrics used to measure that service and the remedies available if the agreed-upon service levels are not met."
-      },
+      
        {
-    "id": 51,
+    "id": 50,
     "image": "/images/blog/digital-puzzle-technology-integration-thumb.webp",
     "category": "Exelona",
     "industry": "Real Estate",
@@ -240,8 +231,18 @@
     "title": "5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
     "description": "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. "
   },
-      {
+    {
         "id": 49,
+        "image": "/images/blog/ai-sla-billing-efficiency-mobile.webp",
+        "category": "Exelona",
+        "industry": "Real Estate",
+        "date": "Oct. 27, 2025",
+        "url": "/tracking-service-level-agreements-without-losing-mind/",
+        "title": "How Do You Track SLAs and Billing Without Losing Your Mind?",
+        "description": " A service-level agreement (SLA) outlines the expected level of service from a vendor. It specifies the metrics used to measure that service and the remedies available if the agreed-upon service levels are not met."
+      },
+      {
+        "id": 48,
         "image": "/images/blog/conversational-ai-in-real-estate-mobile.webp",
         "category": "Exelona",
         "industry": "Real Estate",

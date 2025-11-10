@@ -199,7 +199,7 @@
     ],
     "latestBlogs": [
        {
-        "id": 51,
+        "id": 52,
         "image": "/images/blog/exelona-cluster-feature-thumb.webp",
         "category": "Exelona",
         "industry": "Generic",
@@ -209,7 +209,7 @@
         "description": "En la gestión inmobiliaria, rara vez son las cosas grandes las que ralentizan a los equipos. Son las innumerables pequeñas ineficiencias, los datos de arrendamiento que no coinciden, los registros duplicados o el tiempo perdido verificando hojas de cálculo."
       },
       {
-        "id": 50,
+        "id": 51,
         "image": "/images/blog/ai-real-estate-cloud-infrastructure-mobile.webp",
         "category": "Exelona",
         "industry": "Bienes Raíces",
@@ -220,7 +220,7 @@
         "description": "Esto es algo que todo líder inmobiliario ya sabe pero rara vez dice en voz alta: la pila tecnológica que debía simplificar las operaciones ha terminado por complicarlas."
       },
         {
-  "id": 51,
+  "id": 50,
   "image": "/images/blog/digital-puzzle-technology-integration-thumb.webp",
   "category": "Exelona",
   "industry": "Bienes Raíces",

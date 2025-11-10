@@ -198,8 +198,8 @@
       }
     ],
     "latestBlogs": [
-        {
-        "id": 100,
+      {
+        "id": 52,
         "image": "/images/blog/exelona-cluster-feature-thumb.webp",
         "category": "Exelona",
         "industry": "Generic",
@@ -209,7 +209,7 @@
         "description": "Dans la gestion immobilière, ce ne sont rarement les grandes choses qui ralentissent les équipes. Ce sont les innombrables petites inefficacités, les données de bail incohérentes, les enregistrements en double ou le temps perdu à vérifier les feuilles de calcul."
       },
       {
-        "id": 50,
+        "id": 51,
         "image": "/images/blog/ai-real-estate-cloud-infrastructure-mobile.webp",
         "category": "Exelona",
         "industry": "Immobilier",
@@ -218,17 +218,28 @@
         "title": "Convergence CRM + ERP : comment les leaders immobiliers brisent les silos systèmes et réduisent les coûts",
         "description": "Voici quelque chose que tout dirigeant immobilier sait déjà mais dit rarement à voix haute : la pile technologique censée simplifier les opérations les a en réalité compliquées."
       },
-      { "id": 48,
+      {
+        "id": 50,
+        "image": "/images/blog/digital-puzzle-technology-integration-thumb.webp",
+        "category": "Exelona",
+        "industry": "Immobilier",
+        "date": "Oct. 31, 2025",
+        "url": "/smart-api-integrations-for-real-estate-2026/",
+        "title": "5 intégrations API essentielles pour aider les entreprises immobilières à accélérer leur croissance",
+        "description": "Chaque entreprise immobilière finit par atteindre un point de blocage, généralement lorsque ses systèmes cessent de communiquer entre eux. Vous avez un outil de gestion immobilière ici, un système financier là, et un CRM ailleurs qui retient vos données de prospects en otage."
+      },
+      {
+        "id": 49,
         "image": "/images/blog/ai-sla-billing-efficiency-mobile.webp",
         "category": "Exelona",
         "industry": "Immobilier",
         "date": "Oct. 27, 2025",
         "url": "/tracking-service-level-agreements-without-losing-mind/",
         "title": "Comment suivre les SLA et la facturation sans devenir fou ?",
-        "description": "Un accord de niveau de service (SLA) définit le niveau de service attendu d’un fournisseur. Il précise les indicateurs utilisés pour mesurer ce service et les recours disponibles si les niveaux de service convenus ne sont pas respectés."},
+        "description": "Un accord de niveau de service (SLA) définit le niveau de service attendu d’un fournisseur. Il précise les indicateurs utilisés pour mesurer ce service et les recours disponibles si les niveaux de service convenus ne sont pas respectés."
+      },
       {
-        
-        "id": 47,
+        "id": 48,
         "image": "/images/blog/conversational-ai-in-real-estate-mobile.webp",
         "category": "Exelona",
         "industry": "Immobilier",
@@ -237,8 +248,6 @@
         "title": "IA conversationnelle dans l’immobilier : étendez le support aux résidents sans ajouter de personnel",
         "description": "Le support aux résidents dans la gestion immobilière devient de plus en plus difficile à étendre. Entre les demandes de maintenance et les questions sur les loyers,"
       },
-    
-    
       {
         "id": 47,
         "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
