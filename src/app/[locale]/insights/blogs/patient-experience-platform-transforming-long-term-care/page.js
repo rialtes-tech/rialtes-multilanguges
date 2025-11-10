@@ -103,8 +103,8 @@ export default function Page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Patient Experience Platform Transforming Long-Term Care | Rialtes"
-                description="Discover how MediAIna, Rialtes’ patient experience platform, redefines healthcare journeys with digital engagement, AI insights, and chronic care support."
+                title={t("seoTitle")}
+                description={t("seoDescription")}
                 canonical={`https://www.rialtes.com/${locale}/insights/blogs/patient-experience-platform-transforming-long-term-care/`}
             />
 
