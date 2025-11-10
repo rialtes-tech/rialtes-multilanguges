@@ -1974,7 +1974,7 @@
                 "category": "Salesforce Agentforce",
                 "industry": "Generic",
                 "date": "30 Sept 2024",
-                "url": "how-salesforce-agentforce-actually-works",
+                "url": "how-salesforce-agentforce-actually-works", 
                 "title": "How Salesforce Agentforce Actually Works",
                 "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
             },
