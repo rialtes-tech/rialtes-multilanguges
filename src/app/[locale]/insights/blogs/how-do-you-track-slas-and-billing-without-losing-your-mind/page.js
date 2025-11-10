@@ -14,99 +14,24 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
 export default function Page() {
-     const fullUrl = "https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind";
+    const fullUrl = "";
     const currUrl = useUrl()
     const t = useTranslations('slasBilling')
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { dataDriven, propertyOpsSection, gutDriven, trackingDilemmaSection, smarterBilling, smartDashboardSection, dashboardStats, mostFirms, faqs } = blogsContent.slasBilling;
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "How Do You Track SLAs and Billing Without Losing Your Mind?",
-        "description": "Discover how AI dashboards are transforming real estate operations by automating SLA tracking, billing accuracy, and vendor performance monitoring. Learn how data-driven operational efficiency helps property teams improve visibility, prevent errors, and drive measurable ROI.",
-        "image": "https://www.rialtes.com/images/blog/ai-sla-billing-efficiency.webp",
-        "author": {
-            "@type": "Organization",
-            "name": "Rialtes"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-            }
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind/"
-        },
-        "datePublished": "2025-10-27",
-        "mainEntity": {
-            "@type": "FAQPage",
-            "name": "Data-Driven Operational Efficiency in Real Estate FAQs",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "How can I monitor SLA performance in property operations?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "You can monitor SLA performance using AI dashboards that track vendor response times, work order completion rates, and compliance metrics in real time. Platforms like Exelona automate alerts when SLAs are at risk of being breached."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What is data-driven operational efficiency in real estate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Data-driven operational efficiency means using AI and analytics to optimize property operations — from SLA tracking to billing and maintenance — based on real-time insights instead of manual monitoring."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Can AI dashboards help with billing and maintenance tracking?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes. AI dashboards automatically match invoices with work orders, flag anomalies, and display maintenance costs, making billing faster, more transparent, and accurate across multiple vendors."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How does predictive maintenance improve real estate operations?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Predictive maintenance helps property managers anticipate equipment failures and schedule timely service before issues occur, reducing downtime and unnecessary expenses."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What’s the ROI of adopting AI dashboards for property management?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Real estate firms typically report up to 40% fewer SLA violations, 25% lower maintenance costs, and faster billing cycles within the first year of implementing AI-powered operational dashboards."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What features should I look for in an operational analytics platform?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Look for real-time SLA tracking, billing automation, predictive alerts, and vendor performance insights. Platforms like Exelona bring all of these together in one cohesive dashboard."
-                    }
-                }
-            ]
-        }
-    }
+    const { dataDriven, propertyOpsSection, gutDriven,trackingDilemmaSection ,smarterBilling, smartDashboardSection,dashboardStats ,mostFirms,faqs} = blogsContent.slasBilling;
+
+    const schemaData = {}
+
 
     return (
         <section className="min-h-screen">
             <Seo
-                title={t("seoTitle")}
-                description={t("seoDescription")}
-                keywords="Partners, website, welcome"
+                title=""
+                description=""
+                keywords=""
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind/"
+                    ""
                 }
             />
 
@@ -120,16 +45,16 @@ export default function Page() {
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/blog/ai-sla-billing-efficiency.webp"
-                        alt={t("bannerAlt")}
+                        src="/images/blog/Exelona Cluster 1.2_Blog banner.webp"
+                        alt="banner image"
                         fill
                         priority
                     />
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/blog/ai-sla-billing-efficiency-mobile.webp"
-                        alt={t("bannerAlt")}
+                        src="/images/blog/Exelona Cluster 1.2_Blog mobile banner.webp"
+                        alt="banner image"
                         priority
                         height={0}
                         width={0}
@@ -144,14 +69,14 @@ export default function Page() {
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
                         {/* date and icons */}
-                        <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="27 October 2025" />
+                        <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="20 October 2025" />
 
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
                             <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t("slasTitle")}</h1>
 
                             <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                {t("slasPara1")}
+                               {t("slasPara1")}
                             </p>
 
                             <h2 className="font-semibold 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] mt-5 xl:mt-[20px] leading-tight">{t("slasTitle2")}</h2>
@@ -172,7 +97,7 @@ export default function Page() {
 
                             </div>
 
-                            {/**State Property Section */}
+                                {/**State Property Section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t("slasTitle3")}</h2>
 
@@ -193,10 +118,10 @@ export default function Page() {
                                 </div>
                             </div>
 
-                            {/**Gut-Driven to Data-Driven Section */}
+                             {/**Gut-Driven to Data-Driven Section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                                  {t("gutDrivenSection")}
+                                    From Gut-Driven to Data-Driven: The Shift Is Already Underway
                                 </h2>
 
                                 <div className="xl:mt-[38px] mt-[33px]">
@@ -218,7 +143,7 @@ export default function Page() {
 
                             </div>
 
-                            {/**SLA  Tracking Dilemma Section */}
+                              {/**SLA  Tracking Dilemma Section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t("slasTitle5")}</h2>
 
@@ -239,7 +164,7 @@ export default function Page() {
                                 </div>
                             </div>
 
-                            {/**Smart Billing Sectionv */}
+                           {/**Smart Billing Sectionv */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                     {t("slasTitle6")}
@@ -261,10 +186,10 @@ export default function Page() {
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("smarterBillingPara3")}</p>
                             </div>
 
-                            {/**Smart Dashboard Section */}
+                          {/**Smart Dashboard Section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                                    {t("smartDashboardTitle")}
+                                  {t("smartDashboardTitle")}
                                 </h2>
                                 <div className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                                     {smartDashboardSection.introParagraphs.map((para, i) => (
@@ -285,18 +210,18 @@ export default function Page() {
                                     <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" >{smartDashboardSection.closing}</p>
                                 </div>
                             </div>
-
+ 
                             {/**ROI Section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                                    {t("roiTitle")}
+                                 {t("roiTitle")}
                                 </h2>
 
                                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                                     {t("roiPara1")}
                                 </p>
                                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                    {t("roiPara2")}
+                                      {t("roiPara2")}
                                 </p>
 
                                 <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-16 mt-12 xl:pr-[10rem]">
@@ -316,20 +241,20 @@ export default function Page() {
 
 
                                 <p className="mt-12 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                    {t("roiPara3")}
+                                      {t("roiPara3")}
                                 </p>
 
 
                             </div>
-
+                            
                             {/**Data Driven Operations Section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                                    {t("dataDrivenTitle")}
+                                 {t("dataDrivenTitle")}
                                 </h2>
                                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> {t("dataDrivenPara1")}</p>
                                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                    {t("dataDrivenPara2")}
+                                     {t("dataDrivenPara2")}
                                 </p>
 
                                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-x-[60px] lg:gap-0 sm:w-[80%] md:w-full">
@@ -356,7 +281,7 @@ export default function Page() {
                 </div>
             </section>
             <section className="xl:mt-[80px] mt-[40px] custom-container">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t("faqTitle")}</h2>
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">FAQs Frequently Asked Questions</h2>
                 <div className="mt-[29px] xl:mt-[30px]">
                     <FAQAccordion faqData={faqs} />
                 </div>
@@ -368,3 +293,4 @@ export default function Page() {
         </section>
     )
 }
+

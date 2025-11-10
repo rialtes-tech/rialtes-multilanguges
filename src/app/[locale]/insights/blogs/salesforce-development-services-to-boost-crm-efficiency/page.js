@@ -95,8 +95,8 @@ export default function Page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Salesforce Development Services for Enterprise Success | Rialtes"
-                description="Explore why custom Salesforce development matters, how it boosts CRM efficiency, and why choosing the right partner makes all the difference"
+                title={t("seoTitle")}
+                description={t("seoDescription")}
                 canonical={`https://www.rialtes.com/${locale}/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/`}
             />
 
