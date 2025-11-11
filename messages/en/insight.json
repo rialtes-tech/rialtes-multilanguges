@@ -200,7 +200,18 @@
     ],
     "latestBlogs": [
       {
-        "id": 50,
+        "id": 52,
+        "image": "/images/blog/exelona-cluster-feature-thumb.webp",
+        "category": "Exelona",
+        "industry": "Generic",
+        "date": "Nov. 04, 2025",
+        "url": "/what-does-a-single-source-of-truth-mean-for-real-estate/",
+        "title": "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
+        "alt": "Real Estate Data Integration and Single Source of Truth ",
+        "description": "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
+      },
+      {
+        "id": 51,
         "image": "/images/blog/ai-real-estate-cloud-infrastructure-mobile.webp",
         "category": "Exelona",
         "industry": "Real Estate",
@@ -211,17 +222,29 @@
         "description": "Here’s something every property leader already knows but rarely says out loud: the technology stack that was meant to simplify operations has ended up complicating it."
       },
       {
-        "id": 51,
+        "id": 50,
         "image": "/images/blog/digital-puzzle-technology-integration-thumb.webp",
         "category": "Exelona",
         "industry": "Real Estate",
         "date": "Oct. 31, 2025",
         "url": "/smart-api-integrations-for-real-estate-2026/",
         "title": "5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
+        "alt": "5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
         "description": "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. "
       },
       {
         "id": 49,
+        "image": "/images/blog/ai-sla-billing-efficiency-mobile.webp",
+        "category": "Exelona",
+        "industry": "Real Estate",
+        "date": "Oct. 27, 2025",
+        "url": "/tracking-service-level-agreements-without-losing-mind/",
+        "title": "How Do You Track SLAs and Billing Without Losing Your Mind?",
+        "alt": "How Do You Track SLAs and Billing Without Losing Your Mind?",
+        "description": " A service-level agreement (SLA) outlines the expected level of service from a vendor. It specifies the metrics used to measure that service and the remedies available if the agreed-upon service levels are not met."
+      },
+      {
+        "id": 400,
         "image": "/images/blog/conversational-ai-in-real-estate-mobile.webp",
         "category": "Exelona",
         "industry": "Real Estate",
@@ -241,28 +264,6 @@
         "title": "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
         "alt": "Predictive Maintenance in Property Operations with AI ",
         "description": "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity."
-      },
-      {
-        "id": 52,
-        "image": "/images/blog/exelona-cluster-feature-thumb.webp",
-        "category": "Exelona",
-        "industry": "Generic",
-        "date": "Nov. 04, 2025",
-        "url": "/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/",
-        "title": "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
-        "alt": "Real Estate Data Integration and Single Source of Truth ",
-        "description": "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
-      },
-      {
-        "id": 47,
-        "image": "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
-        "category": "AI",
-        "industry": "Generic",
-        "date": "Oct. 13, 2025",
-        "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
-        "title": "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
-        "description": "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity.",
-        "alt": "Smart building interface showing predictive maintenance alerts "
       },
       {
         "id": 46,

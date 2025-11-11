@@ -24,7 +24,7 @@ export default function Page() {
         fr: frContent,
     });
     const { whatASingleSourceData, whyRealEstatedata, crmErpData, crmDataList2, theBusinessCase, aDayInLife, theRoleOfAI, steps, steps2, fromDataChaos, yourPathTitle, keyElemData, faqs } = blogsContent.whatDoesASingle;
-    const fullUrl = "https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate-from-lead-to-lease/";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/";
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
@@ -357,8 +357,8 @@ export default function Page() {
 
 
                                             >
-                                                <svg className="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                                <svg className="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                                                 </svg>
                                             </div>
                                             <p className={`
@@ -374,15 +374,15 @@ export default function Page() {
                                         </div>
                                         <div className="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div className="bg-[#C9C9C9] p-1 rounded-full">
-                                                <svg className="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                <svg className="text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                                 </svg>
                                             </div>
                                         </div>
                                         <div className="xl:hidden block absolute md:hidden  bottom-[-35px] left-[145px] transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div className="bg-[#C9C9C9] p-1 rounded-full">
-                                                <svg className="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                <svg className="text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                                 </svg>
                                             </div>
                                         </div>
@@ -409,8 +409,8 @@ export default function Page() {
                                                 }`}
 
                                             >
-                                                <svg className="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                                <svg className="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                                                 </svg>
                                             </div>
                                             <p className={`
@@ -425,15 +425,15 @@ export default function Page() {
                                         </div>
                                         <div className="md:block hidden absolute top-1/2 xl:right-0 transform translate-x-1/2 -translate-y-1/2 z-10 right-0">
                                             <div className="bg-[#C9C9C9] p-1 rounded-full">
-                                                <svg className="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                <svg className="text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                                 </svg>
                                             </div>
                                         </div>
                                         <div className="xl:hidden block absolute md:hidden   bottom-[-35px] left-[145px] transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div className="bg-[#C9C9C9] p-1 rounded-full">
-                                                <svg className="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                <svg className="text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                                 </svg>
                                             </div>
                                         </div>
@@ -470,8 +470,8 @@ export default function Page() {
 
 
                                             >
-                                                <svg className="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                                <svg className="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                                                 </svg>
                                             </div>
                                             <p className={`
@@ -487,16 +487,16 @@ export default function Page() {
                                         </div>
                                         <div className="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div className="bg-[#C9C9C9] p-1 rounded-full">
-                                                <svg className="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                <svg className="text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                                 </svg>
                                             </div>
 
                                         </div>
                                         <div className="xl:hidden block absolute  md:hidden  bottom-[-35px] left-[145px] transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div className="bg-[#C9C9C9] p-1 rounded-full">
-                                                <svg className="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                <svg className="text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                                 </svg>
                                             </div>
                                         </div>
@@ -517,8 +517,8 @@ export default function Page() {
                                         <div className="h-[300px] flex flex-col items-center justify-start px-6 py-8">
                                             <h3 className="mb-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('theLead')}</h3>
                                             <div className="absolute 4xl:top-[120px] top-[100px] md:top-[100px] 2xl:top-[120px] xl:top-[120px] left-1/2 transform -translate-x-1/2">
-                                                <svg className="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                                <svg className="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                                                 </svg>
                                             </div>
                                             <p className={`
@@ -535,15 +535,15 @@ export default function Page() {
                                         </div>
                                         <div className="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div className="bg-[#C9C9C9] p-1 rounded-full">
-                                                <svg className="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                <svg className="text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                                 </svg>
                                             </div>
                                         </div>
                                         <div className="xl:hidden block absolute md:hidden   bottom-[-35px] left-[145px] transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div className="bg-[#C9C9C9] p-1 rounded-full">
-                                                <svg className="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                <svg className="text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                                 </svg>
                                             </div>
                                         </div>
@@ -553,8 +553,8 @@ export default function Page() {
                                         <div className="h-[300px] flex flex-col items-center justify-start px-6 py-8">
                                             <h3 className="mb-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('whenSign')}</h3>
                                             <div className="absolute 4xl:top-[115px] top-[100px] md:mt-[10px] 2xl:top-[110px] xl:top-[115px] left-1/2 transform -translate-x-1/2">
-                                                <svg className="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                                <svg className="text-[#006FBE] h-[60px] w-[50px]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                                                 </svg>
                                             </div>
                                             <p className={`
@@ -569,15 +569,15 @@ export default function Page() {
                                         </div>
                                         <div className="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div className="bg-[#C9C9C9] p-1 rounded-full">
-                                                <svg className="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                <svg className="text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                                 </svg>
                                             </div>
                                         </div>
                                         <div className="xl:hidden block absolute md:hidden   bottom-[-35px] left-[145px] transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div className="bg-[#C9C9C9] p-1 rounded-full">
-                                                <svg className="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                <svg className="text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                                 </svg>
                                             </div>
                                         </div>
@@ -589,15 +589,15 @@ export default function Page() {
                                         </div>
                                         <div className="hidden md:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div className="bg-[#C9C9C9] p-1 rounded-full">
-                                                <svg className="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                <svg className="text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                                 </svg>
                                             </div>
                                         </div>
                                         <div className="xl:hidden block absolute md:hidden   bottom-[-35px] left-[145px] transform translate-x-1/2 -translate-y-1/2 z-10">
                                             <div className="bg-[#C9C9C9] p-1 rounded-full">
-                                                <svg className="text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="26" height="26">
-                                                    <path strokeLinecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                                <svg className="text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" width="26" height="26">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                                 </svg>
                                             </div>
                                         </div>

@@ -5715,8 +5715,8 @@
     "digitalJourney": {
         "bannerAlt": "Chronologie visuelle du parcours patient amélioré par l'IA, montrant diagnostic, traitement et suivi ",
         "digiTitle": "Redéfinir les soins de santé, un voyage à la fois",
-        "seoTitle": "Parcours Numériques du Patient : L’Avenir des Soins de Santé avec l’IA | Rialtes",
-        "seoDescription": "L’avenir des soins de santé repose sur les parcours numériques du patient — des itinéraires pilotés par l’IA, prédictifs et personnalisés qui responsabilisent à la fois les patients et les prestataires.",
+        "seoTitle": "Parcours patients numériques : l’avenir de la santé IA | Rialtes",
+        "seoDescription": "L’avenir de la santé passe par des parcours patients numériques, prédictifs et personnalisés grâce à l’IA.",
         "whyDigitalJourneyData": [
             "L’industrie des soins de santé est à un tournant. Les patients ne veulent plus d’expériences fragmentées, d’attendre des semaines pour un rendez-vous, de répéter leur historique à chaque point de contact ou de jongler avec plusieurs portails. Ils souhaitent une prise en charge fluide, personnalisée et continue — aussi pratique que dans d’autres secteurs. Ce changement alimente la demande croissante de parcours numériques du patient, où chaque étape — de la prise de rendez-vous au suivi — est connectée, intelligente et centrée sur le patient.",
             "<a href='https://fr.wikipedia.org/wiki/Intelligence_artificielle_dans_la_sant%C3%A9' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>L’IA dans les soins de santé</a> et les sciences de la vie est au cœur de cette transformation, apportant intelligence, automatisation et personnalisation à la prestation de soins. Des plateformes comme MediAIna démontrent que lorsque la technologie s’aligne avec l’empathie, nous pouvons redéfinir la manière dont les patients interagissent avec les prestataires, les assureurs et les chercheurs.",
@@ -5957,6 +5957,8 @@
         "faqTitle": "FAQ : L’Importance des Écosystèmes de Soins Connectés pour la Pharmaceutique et MedTech"
     },
     "patientExperience": {
+        "seoTitle": "Plateforme patient transformant les soins durables | Rialtes",
+        "seoDescription": "Découvrez comment MediAIna redéfinit l’expérience patient avec l’engagement numérique, l’IA et le soutien aux soins chroniques.",
         "bannerAlt": "Patient consultant des données de santé sur une tablette, avec des icônes de diagnostic, traitement et soins à long terme ",
         "blogMainData": [
             "Fournir des soins de santé a toujours été bien plus qu'un simple diagnostic. Pour les patients, le véritable parcours commence après le diagnostic, en explorant les options de traitement, en gérant les maladies chroniques et en apprenant à vivre avec des besoins de soins continus. Malheureusement, les systèmes traditionnels ne soutiennent souvent pas les patients au-delà des murs de la clinique. C'est pourquoi une plateforme d'expérience patient devient essentielle, aidant les prestataires de soins à offrir continuité, coordination et soins personnalisés à grande échelle.",
@@ -6300,6 +6302,8 @@
         "seoDescription": "Les meilleurs partenaires Salesforce stimulent la croissance et l’innovation en alignant la technologie avec les objectifs d’entreprise."
     },
     "salesforceDevelopment": {
+        "seoTitle": "Services Salesforce pour le succès des entreprises | Rialtes",
+        "seoDescription": "Découvrez comment le développement Salesforce sur mesure améliore l’efficacité CRM et pourquoi choisir le bon partenaire est crucial.",
         "bannerAlt": "Interface de tableau CRM affichant les analyses Salesforce, les métriques d'engagement et l'automatisation des flux ",
         "blogMainData": [
             "La gestion de la relation client (CRM) est le cœur battant des entreprises modernes. Elle détermine comment les équipes commerciales concluent des affaires, comment les équipes de service répondent aux clients et comment le marketing propose des campagnes personnalisées. Parmi les nombreuses plateformes CRM disponibles, Salesforce se distingue comme le CRM le plus fiable. Mais voici le problème : déployer Salesforce seul ne suffit pas. Pour exploiter pleinement son potentiel, les entreprises ont besoin de services Salesforce personnalisés qui s’adaptent aux flux de travail, aux modèles de données et aux attentes des clients uniques.",
@@ -6676,8 +6680,8 @@
                 "answer": "Rialtes est un Partenaire Salesforce Crest avec une expérience éprouvée dans les implémentations fluides, les intégrations complexes et l’innovation continue. Avec Rialtes, les entreprises réduisent les risques du projet et maximisent le ROI Salesforce."
             }
         ],
-        "seoTitle": "Partenaires Salesforce stimulant la croissance des entreprises grâce à l’IA",
-        "seoDescription": "Les meilleurs partenaires d’implémentation Salesforce ne s’arrêtent pas au déploiement ; ils guident les entreprises grâce à des insights basés sur l’IA, à l’automatisation Agentforce et aux solutions Data Cloud.",
+        "seoTitle": "Partenaires Salesforce propulsant la croissance IA | Rialtes",
+        "seoDescription": "Les partenaires Salesforce guident les entreprises avec l’IA, l’automatisation Agentforce et les solutions Data Cloud.",
         "blogTopic": "Salesforce",
         "blogTitle": "Implémentation Salesforce fluide : stratégies de partenaires pour réduire les risques et maximiser le ROI",
         "howSalesforceTitle": "Comment les partenaires Salesforce réduisent le risque du projet",
@@ -6686,6 +6690,162 @@
         "howSalesforceDesc3": "En fin de compte, réduire les risques ne consiste pas seulement à éviter l’échec, mais à garantir que le projet apporte une valeur commerciale mesurable. La gestion des risques est directement liée au ROI.",
         "buildTitle": "Construisez Salesforce de la bonne manière, maximisez le ROI avec le bon partenaire",
         "faqTitle": "FAQ : Implémentation et intégration Salesforce"
+    },
+    "slasBilling": {
+        "bannerAlt": "Hologramme 3D maison intelligente avec graphiques analytiques données sur tableau de bord interface numérique bleu",
+        "seoTitle": "Suivi des accords de niveau de service (SLA) : Guide basé sur l’IA | Rialtes",
+        "seoDescription": "Grâce aux tableaux de bord alimentés par l’IA, à la facturation automatisée et aux analyses prédictives, les gestionnaires immobiliers surveillent la conformité des SLA et les coûts de maintenance en temps réel.",
+        "gutDrivenSection": "De l’Instinct au Pilotage par les Données : La Transition est Déjà en Cours",
+        "faqTitle": "Foire aux Questions : Efficacité Opérationnelle Axée sur les Données dans l’Immobilier",
+        "slasTitle": "Comment suivre les SLA et la facturation sans devenir fou ?",
+        "blogTopic": "Salesforce",
+        "slasPara1": "Un accord de niveau de service (SLA) définit le niveau de service attendu d’un fournisseur. Il précise les indicateurs utilisés pour mesurer ce service ainsi que les recours possibles si les niveaux de service convenus ne sont pas respectés. Le SLA est une partie essentielle de tout contrat avec un fournisseur technologique.",
+        "slasTitle2": "Stimuler l'efficacité opérationnelle basée sur les données dans l'immobilier grâce aux tableaux de bord IA et aux insights prédictifs",
+        "dataDriven": [
+            "Assurer le bon fonctionnement des opérations immobilières n’est pas une mince affaire. Entre le suivi des accords de niveau de service (SLA), la gestion des paiements aux fournisseurs et le contrôle des factures de maintenance, les équipes opérationnelles se retrouvent souvent ensevelies sous des feuilles de calcul et des fils d’e-mails.",
+            "Voici le problème : à mesure que les portefeuilles s’agrandissent et que les attentes en matière de service augmentent, les méthodes de suivi traditionnelles ne suffisent plus. C’est là qu’intervient l’efficacité opérationnelle basée sur les données dans le secteur immobilier. Grâce à des tableaux de bord alimentés par l’IA, à la facturation automatisée et aux insights prédictifs, les gestionnaires immobiliers peuvent surveiller tout, de la conformité SLA aux coûts de maintenance, en temps réel. Voyons comment l’industrie change de vitesse et pourquoi cette transformation était plus que nécessaire."
+        ],
+        "slasTitle3": "L’état des opérations immobilières : trop de tâches, pas assez de temps",
+        "propertyOpsSection": {
+            "paragraph": "Commençons par l’évidence : les inefficacités opérationnelles sont omniprésentes dans la gestion immobilière.",
+            "paragraph2": "Selon une enquête menée par Deloitte en 2024 sur les opérations immobilières, près de 62 % des gestionnaires déclarent que le suivi manuel des SLA fait partie de leurs trois plus grands défis opérationnels. Ajoutez à cela les retards de facturation causés par des systèmes fournisseurs fragmentés, et il est facile de comprendre pourquoi même les équipes les plus compétentes sont débordées.",
+            "bulletIntro": "Ce que cela implique :",
+            "bulletPoints": [
+                "Les SLA ne sont pas respectés faute de tableau de bord centralisé de performance.",
+                "Les litiges de facturation s’éternisent à cause de journaux de maintenance incohérents.",
+                "Les équipes passent plus de temps à concilier les données qu’à améliorer la qualité du service."
+            ],
+            "closing": "Dans un environnement où les résidents attendent des résolutions immédiates et une facturation transparente, l’inefficacité devient frustrante et coûteuse. Alors, comment les grandes entreprises immobilières y remédient-elles ? La réponse réside dans l’utilisation des données comme colonne vertébrale opérationnelle."
+        },
+        "slasTitle4": "Des intuitions aux données : la transition est déjà en cours",
+        "gutDriven": [
+            "Aux États-Unis et en Europe, les entreprises immobilières se tournent de plus en plus vers des plateformes d’analyse alimentées par l’IA pour unifier leurs opérations.",
+            "Aux États-Unis, plus de 40 % des entreprises immobilières ont adopté des tableaux de bord IA pour le suivi des SLA et la maintenance prédictive, selon un rapport Statista de 2025.",
+            "En Europe, les solutions d’opérations intelligentes devraient croître à un taux annuel composé de 15 % jusqu’en 2028, portées par la demande de transparence et d’efficacité dans les grandes portefeuilles résidentiels et commerciaux. Ce qui change, ce n’est pas seulement la technologie, c’est aussi l’état d’esprit.",
+            "Au lieu de réagir après coup aux problèmes, les gestionnaires immobiliers adoptent la visibilité des données et les insights prédictifs pour éviter les retards, les surfacturations et les retards d’entretien avant qu’ils ne surviennent. Ce passage de décisions guidées par l’intuition à une exécution guidée par les données marque la nouvelle ère de l’excellence opérationnelle dans l’immobilier."
+        ],
+        "slasTitle5": "Le dilemme du suivi des SLA : pourquoi le contrôle manuel échoue",
+        "trackingDilemmaSection": {
+            "paragraph": "Suivre les SLA manuellement via des feuilles de calcul ou des disques partagés peut fonctionner lorsque vous gérez dix propriétés. Mais dès que vous passez à des centaines, cela devient chaotique.",
+            "paragraph2": "Le problème n’est pas seulement l’erreur humaine. C’est le manque de visibilité en temps réel. Lorsqu’un SLA manqué est enfin repéré, la fenêtre de service est déjà fermée, et le résident est frustré. Pire encore, les gestionnaires ont peu d’informations sur la cause. Était-ce la performance du prestataire ? Un retard dans l’approbation ? Ou un ordre de travail incomplet ?",
+            "bulletIntro": "C’est là que les tableaux de bord IA simplifient les choses :",
+            "bulletPoints": [
+                "Ils agrègent les données provenant de plusieurs systèmes (applications locataires, portails fournisseurs, plateformes de facturation).",
+                "Ils affichent les indicateurs de conformité SLA en temps réel.",
+                "Ils déclenchent des alertes en cas de risque de non-respect avant qu’il ne se produise."
+            ],
+            "closing": "Au lieu de vérifier manuellement les indicateurs de performance chaque semaine, vous pouvez désormais visualiser l’état des SLA en un coup d'œil, pour toutes les propriétés et tous les fournisseurs. Ce type d’automatisation ne remplace pas les équipes ; il les aide à se concentrer sur l’amélioration plutôt que sur l’inspection."
+        },
+        "slasTitle6": "Facturation intelligente : quand chaque euro doit être justifié",
+        "smarterBillingPara1": "Si le suivi des SLA est le cœur de la transparence opérationnelle, la facturation est la colonne vertébrale de la discipline financière. Pourtant, selon l’étude opérationnelle 2024 de CBRE, les inexactitudes de facturation représentent près de 8 % des coûts opérationnels annuels totaux dans les grands portefeuilles immobiliers.",
+        "smarterBillingPara2": "La cause principale s’est avérée être la fragmentation des données de facturation. Les équipes de maintenance utilisent un système. Les prestataires, un autre. La finance fonctionne avec des feuilles de calcul. Les tableaux de bord IA et les modules de facturation basés sur les données simplifient ce désordre en intégrant tout dans un seul système :",
+        "smarterBillingPara3": "En reliant chaque événement de facturation aux données opérationnelles, les entreprises immobilières peuvent enfin garantir l’exactitude sans surcharge administrative. Et ce n’est pas une théorie : un grand groupe immobilier basé au Royaume-Uni a récemment déclaré avoir économisé près de 25 % en trop-payés aux fournisseurs en seulement six mois après avoir adopté un système de facturation intelligent avec IA. Voilà la puissance de l'efficacité opérationnelle pilotée par les données.",
+        "smarterBilling": [
+            {
+                "title": "Appariement automatique des factures",
+                "desc": "Les factures des prestataires sont vérifiées en quelques secondes par rapport aux ordres de travail et aux journaux de SLA."
+            },
+            {
+                "title": "Alertes d’anomalies",
+                "desc": "Toute anomalie (doublons, heures incohérentes, écarts de coûts) déclenche des notifications instantanées."
+            },
+            {
+                "title": "Flux d’approbation",
+                "desc": "Les gestionnaires peuvent examiner, approuver ou rejeter les factures directement depuis le tableau de bord."
+            }
+        ],
+        "smartDashboardTitle": "Transformer les données en décisions : ce que font différemment les tableaux de bord intelligents",
+        "smartDashboardSection": {
+            "introParagraphs": [
+                "Tous les tableaux de bord ne se valent pas.",
+                "La plupart des systèmes de gestion immobilière offrent des rapports de base. Mais les tableaux de bord alimentés par l’IA vont plus loin : ils interprètent les données."
+            ],
+            "bulletIntro": "Fonctionnalités clés :",
+            "bulletPoints": [
+                {
+                    "bold": "Cartes thermiques SLA en temps réel ",
+                    "text": "pour visualiser les écarts de performance."
+                },
+                {
+                    "bold": "Fiches d’évaluation automatisées des fournisseurs ",
+                    "text": "qui classent les prestataires selon leur fiabilité et leur temps de réponse."
+                },
+                {
+                    "bold": "Analyse de facturation intégrée ",
+                    "text": "qui relie les dépenses financières aux activités opérationnelles."
+                },
+                {
+                    "bold": "Alertes prédictives ",
+                    "text": "qui aident à prévenir les violations de SLA ou les pannes d’équipement."
+                }
+            ],
+            "closing": "En traduisant les données opérationnelles en insights visuels clairs, les gestionnaires peuvent identifier les goulets d’étranglement, allouer les budgets de manière intelligente et garantir la responsabilité à tous les niveaux. Ce passage de la *collecte de données à l’intelligence des données* est ce qui distingue les organisations réactives des proactives."
+        },
+        "roiTitle": "Le retour sur investissement d’une approche pilotée par les données",
+        "roiPara1": "Mettons quelques chiffres derrière le discours.",
+        "roiPara2": "Les entreprises qui adoptent des tableaux de bord IA pour le suivi opérationnel rapportent généralement :",
+        "roiPara3": "Au-delà des chiffres, le plus grand retour sur investissement est la clarté. Les équipes savent ce qui fonctionne, ce qui ne fonctionne pas, et où elles peuvent intervenir à temps. Dans un marché où les marges se resserrent et les attentes augmentent, cette clarté fait toute la différence.",
+        "dashboardStats": [
+            {
+                "percentage": "30–40%",
+                "boldText": "de réduction des violations de SLA ",
+                "description": "au cours de la première année."
+            },
+            {
+                "percentage": "20%",
+                "boldText": "de rapidité en plus dans les cycles de paiement des fournisseurs ",
+                "description": "grâce à la vérification automatisée de la facturation."
+            },
+            {
+                "percentage": "25–35%",
+                "boldText": "d’amélioration de la planification de la maintenance ",
+                "description": "grâce aux insights prédictifs."
+            }
+        ],
+        "dataDrivenTitle": "Pourquoi la plupart des entreprises peinent encore à adopter des opérations pilotées par les données",
+        "dataDrivenPara1": "Si les opérations basées sur les données sont si efficaces, pourquoi toutes les entreprises immobilières ne les ont-elles pas encore adoptées ?",
+        "dataDrivenPara2": "Trois obstacles principaux se dressent sur leur chemin :",
+        "dataDrivenPara3": "Surmonter ces obstacles nécessite un bon équilibre entre technologie, formation et transformation. Chez Rialtes, nous avons créé Exelona pour rendre l’intelligence opérationnelle accessible, et non écrasante. Elle regroupe le suivi des SLA, l’automatisation de la facturation, la performance des fournisseurs et l’analyse de la maintenance dans un seul tableau de bord cohérent. Conçu pour les équipes immobilières qui recherchent de la clarté sans complexité. Au lieu de jongler entre dix systèmes et des dizaines de feuilles Excel, obtenons une seule source de vérité opérationnelle.",
+        "mostFirms": [
+            {
+                "title": "1. Fragmentation des données",
+                "desc": "Les anciens systèmes ne communiquent pas entre eux."
+            },
+            {
+                "title": "2. Manque de compétences",
+                "desc": "Les équipes ne sont pas formées à interpréter les analyses opérationnelles."
+            },
+            {
+                "title": "3. Résistance au changement",
+                "desc": "Passer de processus manuels semble perturbateur — même si c’est mieux à long terme."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Comment puis-je surveiller la performance des SLA dans la gestion immobilière ?",
+                "answer": "Vous pouvez surveiller les SLA à l’aide de tableaux de bord IA qui suivent les temps de réponse des prestataires, les taux d’achèvement des ordres de travail et les indicateurs de conformité en temps réel. Des plateformes comme Exelona envoient automatiquement des alertes lorsqu’un SLA risque d’être violé."
+            },
+            {
+                "question": "Qu’est-ce que l’efficacité opérationnelle basée sur les données dans l’immobilier ?",
+                "answer": "Cela consiste à utiliser l’IA et l’analyse de données pour optimiser les opérations immobilières — du suivi des SLA à la facturation et à la maintenance — en se basant sur des données en temps réel plutôt que sur des processus manuels."
+            },
+            {
+                "question": "Les tableaux de bord IA peuvent-ils aider à suivre la facturation et la maintenance ?",
+                "answer": "Oui. Les tableaux de bord IA associent automatiquement les factures aux ordres de travail, signalent les anomalies et affichent les coûts de maintenance, rendant la facturation plus rapide et plus précise."
+            },
+            {
+                "question": "Comment la maintenance prédictive améliore-t-elle les opérations immobilières ?",
+                "answer": "La maintenance prédictive permet aux gestionnaires de prévoir les pannes d’équipement et de planifier les interventions avant qu’un problème ne survienne, réduisant ainsi les temps d’arrêt et les coûts de réparation."
+            },
+            {
+                "question": "Quel est le ROI de l’adoption de tableaux de bord IA dans la gestion immobilière ?",
+                "answer": "La plupart des entreprises constatent jusqu’à 40 % de violations de SLA en moins, 25 % d’économies sur la maintenance, et des cycles de facturation plus rapides au cours de la première année."
+            },
+            {
+                "question": "Quelles fonctionnalités dois-je rechercher dans une plateforme d’analyse opérationnelle ?",
+                "answer": "Recherchez le suivi en temps réel des SLA, l’automatisation de la facturation, les alertes prédictives et les analyses de performance des prestataires. Des plateformes comme Exelona regroupent tout cela en un seul endroit."
+            }
+        ]
     },
     "whatDoesASingle": {
         "aleadsfill": "Un prospect remplit",
