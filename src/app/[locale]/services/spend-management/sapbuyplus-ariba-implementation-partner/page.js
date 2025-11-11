@@ -17,7 +17,7 @@ const schemaData = {
     "name": "SAP ARIBA Implementation Services",
     "alternateName": "SAPBuyPlus by Rialtes",
     "url": "https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/",
-    "image": "https://www.rialtes.com/assets/images/sapbuyplus-ariba.jpg",
+    "image": "https://www.rialtes.com/images/sap-buy/sap-buy-banner.webp",
     "description": "Rialtes SAPBuy+ helps enterprises transform procurement with SAP ARIBA through advisory, implementation, integration, and optimization services. Streamline procure-to-pay operations, enhance supplier collaboration, and maximize ROI with SAPBuy+.",
     "provider": {
         "@type": "Organization",
