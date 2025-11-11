@@ -14,7 +14,7 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "Exelona",
-    "image": "https://www.rialtes.com/images/products/exelona/desktop/banner-desk.webp",
+    "image": "https://www.rialtes.com/images/products/exelona/desktop/smart-city-digital-transformation-concept.webp",
     "description": "Exelona is an intelligent real estate cloud platform built on Salesforce. It unifies every step of the property lifecycle—from lead generation to financial closeout—with AI-driven automation, CRM + ERP convergence, and mobile-first experiences. Designed for property managers, developers, and portfolio owners, Exelona transforms marketing, operations, finance, and resident engagement in one secure platform.",
     "brand": {
         "@type": "Organization",
