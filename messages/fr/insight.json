@@ -199,6 +199,27 @@
     ],
     "latestBlogs": [
       {
+        "id": 54,
+        "image": "/images/blog/futuristic-data-analytics-visualization-mobile.webp",
+        "category": "SAP",
+        "industry": "Générique",
+        "date": "11 nov. 2025",
+        "url": "/strategies-de-mise-en-oeuvre-sap-pour-le-succes-en-2026/",
+        "title": "Stratégies éprouvées de mise en œuvre SAP qui minimisent les risques et accélèrent le ROI",
+        "description": "Nous savons que la mise en œuvre de SAP ne consiste pas seulement à mettre à jour un système. Il s’agit de transformer la manière dont une entreprise fonctionne, de la finance et la chaîne d’approvisionnement aux ressources humaines et à l’expérience client."
+      },
+      {
+        "id": 53,
+        "image": "/images/blog/digital-transformation-journey-ai-mobile.webp",
+        "category": "SAP",
+        "industry": "Générique",
+        "date": "10 nov. 2025",
+        "url": "/pourquoi-les-entreprises-leaders-choisissent-les-partenaires-de-conseil-sap/",
+        "alt": "Image abstraite d’une personne marchant sur un chemin numérique entourée de silhouettes faites de points de données, symbolisant la transformation numérique pilotée par l’IA et le parcours d’innovation",
+        "title": "Pourquoi les entreprises leaders choisissent les meilleurs partenaires de conseil SAP pour stimuler la croissance et l’innovation",
+        "description": "Les entreprises évoluent dans un paysage complexe avec des données dispersées, des systèmes hérités, des équipes en silos et des attentes clients de plus en plus élevées."
+      },
+      {
         "id": 52,
         "image": "/images/blog/exelona-cluster-feature-thumb.webp",
         "category": "Exelona",
