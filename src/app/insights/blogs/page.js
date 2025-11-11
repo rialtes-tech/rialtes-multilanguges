@@ -1,5 +1,4 @@
 "use client";
-// pages/blog.js
 import Image from "next/image";
 import { useState } from 'react';
 import 'react-multi-carousel/lib/styles.css';
@@ -29,6 +28,25 @@ const schemaData = {
 }
 
 const latestBlogs = [
+  {
+    id: 54,
+    image: "/images/blog/futuristic-data-analytics-visualization-mobile.webp",
+    category: "SAP",
+    industry: "Generic",
+    date: "Nov. 11, 2025",
+    url: "/sap-implementation-strategies-for-2026-success/",
+    title: "Proven SAP Implementation Strategies that Minimize Risk and Accelerate ROI",
+    description: "We know that implementing SAP isn’t just about upgrading a system. It’s about reshaping how an enterprise operates,from finance and supply chain to HR and customer experience."
+  }, {
+    id: 53,
+    image: "/images/blog/digital-transformation-journey-ai-mobile.webp",
+    category: "SAP",
+    industry: "Generic",
+    date: "Nov. 10, 2025",
+    url: "/why-enterprises-choose-sap-consulting-partners/",
+    title: "Why Leading Enterprises Choose Top SAP Consulting Partners for Growth and Innovation",
+    description: "Enterprises have been operating in a complex landscape with scattered data, legacy systems, siloed teams, and mounting customer expectations."
+  },
   {
     id: 52,
     image: "/images/blog/exelona-cluster-feature-thumb.webp",
