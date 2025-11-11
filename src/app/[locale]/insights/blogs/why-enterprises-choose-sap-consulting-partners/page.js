@@ -121,7 +121,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/insights/blogs/why-enterprises-choose-sap-consulting-partners/`}
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/why-enterprises-choose-sap-consulting-partners/`}
             />
 
             <Script
