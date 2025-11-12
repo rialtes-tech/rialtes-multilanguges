@@ -13,7 +13,7 @@ const schemaData = {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "AgentChat",
-    "image": "https://www.rialtes.com/images/industry/rialchat/AgentChat%20logo.svg",
+    "image": "https://www.rialtes.com/images/industry/real-estate/agentchat-whatsapp-salesforce-integration.webp",
     "description": "AgentChat is a bi-directional WhatsApp conversational app natively built on Salesforce, offering seamless Salesforce WhatsApp integration. It enables real-time messaging, supports all Salesforce Clouds, and allows teams to engage, support, and close deals through WhatsApp without leaving Salesforce.",
     "brand": {
         "@type": "Organization",

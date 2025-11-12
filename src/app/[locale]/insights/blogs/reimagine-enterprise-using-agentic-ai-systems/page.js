@@ -100,8 +100,6 @@ const schemaData ={
   }
 }
 
-
-
 export default function Page() {
     const currUrl = useUrl()
     const t = useTranslations("remagineEnterprise");

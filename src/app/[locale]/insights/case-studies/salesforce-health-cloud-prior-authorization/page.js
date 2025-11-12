@@ -17,8 +17,7 @@ const schemaData = {
   "@type": "Article",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization/",
+    "@id":"https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization/",
   },
   headline:
     "Case Study: Enhancing Prior Authorization Workflow Using Salesforce Health Cloud",
