@@ -9,112 +9,94 @@ export default function page({ url }) {
         {
             id: 54,
             image: "/images/blog/futuristic-data-analytics-visualization-mobile.webp",
-            category: "SAP",
+            category: "SAP Consulting",
             industry: "Generic",
             date: "Nov. 11, 2025",
-            url: "insights/blogs/sap-implementation-strategies-for-2026-success/",
+            url: "/sap-implementation-strategies-for-2026-success/",
             title: "Proven SAP Implementation Strategies that Minimize Risk and Accelerate ROI",
             description: "We know that implementing SAP isn’t just about upgrading a system. It’s about reshaping how an enterprise operates,from finance and supply chain to HR and customer experience."
-        }, {
+        },
+        {
             id: 53,
             image: "/images/blog/digital-transformation-journey-ai-mobile.webp",
-            category: "SAP",
+            category: "SAP Consulting",
             industry: "Generic",
             date: "Nov. 10, 2025",
-            url: "insights/blogs/why-enterprises-choose-sap-consulting-partners/",
+            url: "/why-enterprises-choose-sap-consulting-partners/",
             title: "Why Leading Enterprises Choose Top SAP Consulting Partners for Growth and Innovation",
             description: "Enterprises have been operating in a complex landscape with scattered data, legacy systems, siloed teams, and mounting customer expectations."
         },
         {
-            id: 45,
+            id: 52,
             image: "/images/blog/exelona-cluster-feature-thumb.webp",
             category: "Exelona",
-            industry: "Generic",
+            industry: "Real Estate",
             date: "Nov. 04, 2025",
-            url: "insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/",
+            url: "/what-does-a-single-source-of-truth-mean-for-real-estate/",
             title: "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
             description: "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
         },
         {
-            id: 50,
+            id: 51,
             image: "/images/blog/crm-erp-convergence-for-real-estate-mobile.webp",
             category: "Exelona",
             industry: "Real Estate",
             date: "Nov. 03, 2025",
-            url: "insights/blogs/erp-crm-convergence-real-estate-leaders-guide/",
+            url: "/erp-crm-convergence-real-estate-leaders-guide/",
             title: "CRM + ERP Convergence: How Real Estate Leaders Break System Silos and Cut Costs",
             description: "Here’s something every property leader already knows but rarely says out loud: the technology stack that was meant to simplify operations has ended up complicating it."
         },
         {
-            id: 45,
+            id: 50,
             image: "/images/blog/digital-puzzle-technology-integration-thumb.webp",
-            category: "Exelona",
+            category: "Integration",
             industry: "Real Estate",
             date: "Oct. 31, 2025",
-            url: "insights/blogs/smart-api-integrations-for-real-estate-2026/",
-            title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
+            url: "/smart-api-integrations-for-real-estate-2026/",
+            title: "5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
             description: "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. "
         },
+
         {
-            id: 49,
-            image: "/images/blog/conversational-ai-in-real-estate-mobile.webp",
-            category: "Exelona",
-            industry: "Real Estate",
-            date: "Oct. 20, 2025",
-            url: "insights/blogs/conversational-ai-in-real-estate-scale-resident-support/",
-            title: "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
-            description: "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries,"
-        },
-        {
-            id: 48,
-            image: "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
-            category: "AI",
-            industry: "Generic",
-            date: "Oct. 13, 2025",
-            url: "insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
-            title: "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
-            description: "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity."
-        },
-        {
-            "id": 45,
+            "id": 49,
             "image": "/images/blog/ai-sla-billing-efficiency-feature-carousel.webp",
             "category": "Exelona",
             "industry": "Real Estate",
             "date": "Oct. 27, 2025",
-            "url": "insights/blogs/tracking-service-level-agreements-without-losing-mind/",
+            "url": "/tracking-service-level-agreements-without-losing-mind/",
             "title": "How Do You Track SLAs and Billing Without Losing Your Mind?",
             "description": " A service-level agreement (SLA) outlines the expected level of service from a vendor. It specifies the metrics used to measure that service and the remedies available if the agreed-upon service levels are not met."
         },
         {
-            id: 44,
-            image: "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
-            category: "Salesforce",
-            industry: "Generic",
-            date: "Oct. 10, 2025",
-            url: "insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/",
-            title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
-            description: "Salesforce has become the foundation for modern enterprise CRM solutions, helping organizations unify data, streamline processes, and deliver personalized customer experiences. "
+            id: 48,
+            image: "/images/blog/conversational-ai-in-real-estate-mobile.webp",
+            category: "Exelona",
+            industry: "Real Estate",
+            date: "Oct. 20, 2025",
+            url: "/conversational-ai-in-real-estate-scale-resident-support/",
+            title: "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
+            description: "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries,"
         },
         {
-            id: 43,
-            image: "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
-            category: "MediAIna",
-            industry: "Generic",
-            date: "Oct. 07, 2025",
-            url: 'insights/blogs/patient-experience-platform-transforming-long-term-care/',
-            title: "How a Patient Experience Platform Transforms Care from Diagnosis to Long-Term Management",
-            description: "Providing healthcare has always been about more than just diagnosis. For patients, the real journey begins after they receive a diagnosis, navigating treatment options, managing chronic conditions, and learning how to live with ongoing care needs.",
+            id: 47,
+            image: "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
+            category: "Exelona",
+            industry: "Real Estate",
+            date: "Oct. 13, 2025",
+            url: "/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
+            title: "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
+            description: "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity."
         },
         {
             id: 46,
-            image: "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
-            category: "Salesforce",
+            image: "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
+            category: "Salesforce Consulting",
             industry: "Generic",
-            date: "Oct. 06, 2025",
-            url: 'insights/blogs/salesforce-development-services-to-boost-crm-efficiency/',
-            title: "Boost Your CRM Efficiency with Tailored Salesforce Development Services",
-            description: "Customer Relationship Management (CRM) is the beating heart of modern enterprises. It drives how sales teams close deals, how service teams respond to customers, and how marketing delivers personalized campaigns.",
-        },
+            date: "Oct. 10, 2025",
+            url: "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/",
+            title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
+            description: "Salesforce has become the foundation for modern enterprise CRM solutions, helping organizations unify data, streamline processes, and deliver personalized customer experiences. "
+        }
     ];
 
     // returning all blogs except current page url
@@ -217,13 +199,10 @@ export default function page({ url }) {
                     customDot={<CustomDot />}
                 >
                     {filteredBlogs.slice(0, 9).map((slide) => (
-                        <div
-                            key={slide.id}
-                            className="flex flex-col sm:basis-1/4 border border-[#707070] sm:mr-6 mb-4 sm:h-[580px] md:h-full h-full lg:h-[600px] group"
-                        >
+                        <div key={slide.id} className="flex flex-col sm:basis-1/4 border border-[#707070] sm:mr-6 mb-4 sm:h-[580px] md:h-full h-full lg:h-[600px] group">
 
                             <div className="max-h-[300px]">
-                                <Link href={'/' + slide.url}>
+                                <Link href={'/insights/blogs' + slide.url}>
                                     <Image
                                         src={slide.image}
                                         alt={slide.title}
@@ -240,7 +219,7 @@ export default function page({ url }) {
                             <div className="flex flex-col text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
                                 <div className="flex flex-col">
                                     <div className=" leading-tight text-[16px] 4xl:text-[17px]"><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
-                                    <Link href={'/' + slide.url}><p className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.title}</p></Link>
+                                    <Link href={'/insights/blogs' + slide.url}><p className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.title}</p></Link>
                                 </div>
                                 <p className="line-clamp-4 leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.description}</p>
                             </div>

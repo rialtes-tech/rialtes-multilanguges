@@ -1,8 +1,6 @@
 "use client";
-// pages/blog-detail.js
 import Image from "next/image";
 import Link from "next/link";
-import BlogsCarousel from "../../../components/latestBlogCarousel";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
@@ -10,7 +8,6 @@ import useUrl from "@/app/components/useUrl";
 import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
 
 const schemaData = {
-
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "mainEntityOfPage": {
@@ -227,15 +224,12 @@ export default function Page() {
                 </div>
             </section>
 
-            <section
-                className="
-       custom-container"
-            >
+            <section className="custom-container">
                 <div className="pt-10 bg-white">
                     <div className=" mx-auto">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
-                                <span className="text-[#0092E0]">Agentforce</span>
+                                <span className="text-[#0092E0]">Salesforce Agentforce</span>
                                 <span className="text-[#ACACAC]"> | </span>29 July 2025
                             </div>
                             <div className="flex flex-col">
@@ -396,7 +390,7 @@ export default function Page() {
 
                             <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">This means your agents can now trigger reorders, adjust supply forecasts, or analyze parts defects in real time, across platforms.</p>
 
-                            <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px] md:text-[23px] xl:text-[17px] text-[16px]">As automotive factories evolve beyond robotic task execution, intelligent agents are redefining how systems collaborate, learn, and respond. Explore how this shift is shaping <Link href={'https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/'}  className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>the Future of Smart Manufacturing</Link>.</p>
+                            <p className="text-black pb-4 mt-5 4xl:text-[20px] 2xl:text-[18px] md:text-[23px] xl:text-[17px] text-[16px]">As automotive factories evolve beyond robotic task execution, intelligent agents are redefining how systems collaborate, learn, and respond. Explore how this shift is shaping <Link href={'https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/'} className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>the Future of Smart Manufacturing</Link>.</p>
                             <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-10 leading-tight">
                                 Revolutionize Quality and Compliance
                             </h2>
@@ -444,7 +438,7 @@ export default function Page() {
                             </div>
 
                             <p className="text-black xl:mt-16 mt-5 4xl:text-[20px] 2xl:text-[18px]  xl:text-[17px] text-[16px]">
-                                This ecosystem-driven approach allows manufacturers to adopt proven agent workflows quickly without starting from scratch. It drastically reduces development time, accelerates deployment, and ensures that industry best practices and regulatory compliance are built into every agent from day one, giving automotive companies a smarter, faster, and more secure path to <Link href={'https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/'}  className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AI adoption with Agentforce</Link>  for automotive manufacturing.
+                                This ecosystem-driven approach allows manufacturers to adopt proven agent workflows quickly without starting from scratch. It drastically reduces development time, accelerates deployment, and ensures that industry best practices and regulatory compliance are built into every agent from day one, giving automotive companies a smarter, faster, and more secure path to <Link href={'https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/'} className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AI adoption with Agentforce</Link>  for automotive manufacturing.
                             </p>
 
                             <h2 className="pb-4 font-semibold text-[#0092E0] 4xl:text-[30px] md:text-[23px] 2xl:text-[24px] xl:text-[21px] text-[23px] mt-16 leading-tight">

@@ -8,7 +8,6 @@ import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
 import useUrl from "@/app/components/useUrl";
 
 const schemaData = {
-
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": "From Factory to Feedback: How Agentforce AI Elevates Customer Experience in Manufacturing",
@@ -144,7 +143,6 @@ export default function Page() {
         }
     ];
 
-
     const fullUrl = "https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/";
 
     return (
@@ -191,7 +189,7 @@ export default function Page() {
                     <div className=" mx-auto">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
-                                <span className="text-[#0092E0]">Agentforce</span>
+                                <span className="text-[#0092E0]">Salesforce Agentforce</span>
                                 <span className="text-[#ACACAC]"> | </span>22 August 2025
                             </div>
                             <div className="flex flex-col">

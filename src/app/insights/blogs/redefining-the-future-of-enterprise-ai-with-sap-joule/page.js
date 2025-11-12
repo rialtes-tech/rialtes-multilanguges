@@ -80,7 +80,7 @@ export default function Page() {
           <div className=" pl-0 ">
             <div className="flex flex-col md:flex-row justify-between text-black items-center ">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>SAP</span> <span className='text-[#ACACAC]'> | </span>25 April 2025
+                <span className='text-[#0092E0]'>SAP Joule</span> <span className='text-[#ACACAC]'> | </span>25 April 2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
@@ -89,7 +89,8 @@ export default function Page() {
                       href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(fullUrl)}&title=A%20public%20housing%20in%20US&summary=Summary%20of%20the%20case%20study&source=LinkedIn`}
                       target="_blank"
                       rel="noopener noreferrer"
-                    >                      <Image
+                    >
+                      <Image
                         src="/images/case-studies/linkedin.svg"
                         alt="LinkedIn"
                         width={0}

@@ -27,20 +27,52 @@ const schemaData = {
 
 }
 
+const allIndustries = [
+  "Agriculture",
+  "Generic",
+  "HRMS",
+  "Healthcare",
+  "Pharma & Biotech",
+  "Manufacturing",
+  "Automotive",
+  "Life Sciences",
+  "Retail",
+  "Real Estate"
+]
+const allCategories = [
+  "Others",
+  "Salesforce Agentforce",
+  "SAP SuccessFactors",
+  "Integration",
+  "SAP GTS",
+  "SAP BDC",
+  "SAP Joule",
+  "SAP Ariba",
+  "Agentic AI",
+  "SAP Signavio",
+  "SAP CPI",
+  "Salesforce Data Cloud",
+  "SAP Consulting",
+  "MediAIna",
+  "Salesforce Consulting",
+  "Exelona"
+]
+
 const latestBlogs = [
   {
     id: 54,
     image: "/images/blog/futuristic-data-analytics-visualization-mobile.webp",
-    category: "SAP",
+    category: "SAP Consulting",
     industry: "Generic",
     date: "Nov. 11, 2025",
     url: "/sap-implementation-strategies-for-2026-success/",
     title: "Proven SAP Implementation Strategies that Minimize Risk and Accelerate ROI",
     description: "We know that implementing SAP isn’t just about upgrading a system. It’s about reshaping how an enterprise operates,from finance and supply chain to HR and customer experience."
-  }, {
+  },
+  {
     id: 53,
     image: "/images/blog/digital-transformation-journey-ai-mobile.webp",
-    category: "SAP",
+    category: "SAP Consulting",
     industry: "Generic",
     date: "Nov. 10, 2025",
     url: "/why-enterprises-choose-sap-consulting-partners/",
@@ -51,7 +83,7 @@ const latestBlogs = [
     id: 52,
     image: "/images/blog/exelona-cluster-feature-thumb.webp",
     category: "Exelona",
-    industry: "Generic",
+    industry: "Real Estate",
     date: "Nov. 04, 2025",
     url: "/what-does-a-single-source-of-truth-mean-for-real-estate/",
     title: "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
@@ -70,7 +102,7 @@ const latestBlogs = [
   {
     id: 50,
     image: "/images/blog/digital-puzzle-technology-integration-thumb.webp",
-    category: "Exelona",
+    category: "Integration",
     industry: "Real Estate",
     date: "Oct. 31, 2025",
     url: "/smart-api-integrations-for-real-estate-2026/",
@@ -101,8 +133,8 @@ const latestBlogs = [
   {
     id: 47,
     image: "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
-    category: "AI",
-    industry: "Generic",
+    category: "Exelona",
+    industry: "Real Estate",
     date: "Oct. 13, 2025",
     url: "/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
     title: "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
@@ -111,7 +143,7 @@ const latestBlogs = [
   {
     id: 46,
     image: "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
-    category: "Salesforce",
+    category: "Salesforce Consulting",
     industry: "Generic",
     date: "Oct. 10, 2025",
     url: "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/",
@@ -122,7 +154,7 @@ const latestBlogs = [
     id: 45,
     image: "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
     category: "MediAIna",
-    industry: "Generic",
+    industry: "Life Sciences",
     date: "Oct. 07, 2025",
     url: '/patient-experience-platform-transforming-long-term-care/',
     title: "How a Patient Experience Platform Transforms Care from Diagnosis to Long-Term Management",
@@ -131,7 +163,7 @@ const latestBlogs = [
   {
     id: 44,
     image: "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
-    category: "Salesforce",
+    category: "Life Sciences",
     industry: "Generic",
     date: "Oct. 06, 2025",
     url: '/salesforce-development-services-to-boost-crm-efficiency/',
@@ -142,7 +174,7 @@ const latestBlogs = [
     id: 43,
     image: "/images/blog/digital-patient-journeys-mobile.webp",
     category: "MediAIna",
-    industry: "Generic",
+    industry: "Life Sciences",
     date: "Sep. 30, 2025",
     url: '/digital-patient-journeys-ai-healthcare-life-sciences/',
     title: "The Future of Digital Patient Journeys: How AI is Reshaping Life Sciences",
@@ -151,7 +183,7 @@ const latestBlogs = [
   {
     id: 42,
     image: "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
-    category: "Salesforce",
+    category: "Salesforce Consulting",
     industry: "Generic",
     date: "Sep. 29, 2025",
     url: '/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/',
@@ -162,7 +194,7 @@ const latestBlogs = [
     id: 41,
     image: "/images/blog/connected-care-ecosystem-feature.webp",
     category: "MediAIna",
-    industry: "Generic",
+    industry: "Life Sciences",
     date: "Sep. 18, 2025",
     url: '/connected-care-ecosystem-pharma-medtech/',
     title: "Why Connected Care Ecosystems Are the Next Big Bet for Pharma & MedTech",
@@ -171,8 +203,8 @@ const latestBlogs = [
   {
     id: 40,
     image: "/images/blog/ai-agents-in-manufacturing-mobile.webp",
-    category: "AI",
-    industry: "Generic",
+    category: "Agentic AI",
+    industry: "Manufacturing",
     date: "Sep. 17, 2025",
     url: '/implementing-ai-agents-in-manufacturing-operations/',
     title: "5 Signs You’re Ready to Implement AI Agents in Your Manufacturing Operations",
@@ -181,8 +213,8 @@ const latestBlogs = [
   {
     id: 39,
     image: "/images/blog/sap-industry-mobile-banner.webp",
-    category: "SAP",
-    industry: "Generic",
+    category: "SAP Consulting",
+    industry: "Manufacturing",
     date: "Sep. 16, 2025",
     url: '/sap-build-for-manufacturing-4-0/',
     title: "Accelerating Industry 4.0 with SAP Build: Low-Code Tools for Smarter Manufacturing",
@@ -191,7 +223,7 @@ const latestBlogs = [
   {
     id: 38,
     image: "/images/blog/agentforce-ai-erp-mobile.webp",
-    category: "Agentforce",
+    category: "Salesforce Agentforce",
     industry: "Generic",
     date: "Sep. 15, 2025",
     url: '/how-agentforce-ai-transforms-erp-systems/',
@@ -201,8 +233,8 @@ const latestBlogs = [
   {
     id: 37,
     image: "/images/blog/data-cloud-ecom-mobile-banner.webp",
-    category: "Artificial Intelligence",
-    industry: "Generic",
+    category: "Salesforce Data Cloud",
+    industry: "Retail",
     date: "Sep. 12, 2025",
     url: '/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty/',
     title: "Predictive Ecommerce in Salesforce: How Data Cloud Shapes Smarter Customer Experiences",
@@ -211,7 +243,7 @@ const latestBlogs = [
   {
     id: 36,
     image: "/images/blog/ai-that-listens-mob-banner.webp",
-    category: "Artificial Intelligence",
+    category: "Agentic AI",
     industry: "Generic",
     date: "Sep. 11, 2025",
     url: '/how-large-language-models-improve-customer-experience/',
@@ -221,8 +253,8 @@ const latestBlogs = [
   {
     id: 35,
     image: "/images/blog/ai-in-patient-mobile-banner.webp",
-    category: "Artificial Intelligence",
-    industry: "Generic",
+    category: "Salesforce Agentforce",
+    industry: "Healthcare",
     date: "Sep. 09, 2025",
     url: '/ai-patient-engagement-medtech-remote-care/',
     title: "AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring",
@@ -231,8 +263,8 @@ const latestBlogs = [
   {
     id: 34,
     image: "/images/blog/industry4-mobile-banner.webp",
-    category: "Agentforce",
-    industry: "Generic",
+    category: "Salesforce Agentforce",
+    industry: "Manufacturing",
     date: "Sep. 08, 2025",
     url: '/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing/',
     title: "How Agentforce AI Predicts and Prevents Downtime in Industry 4.0 Manufacturing",
@@ -241,18 +273,18 @@ const latestBlogs = [
   {
     id: 33,
     image: "/images/blog/first-ai-agent-mob-banner.webp",
-    category: "Artificial Intelligence",
+    category: "Salesforce Agentforce",
     industry: "Generic",
     date: "Sep. 02, 2025",
     url: '/how-to-build-and-deploy-ai-agents-with-agentforce/',
-    title: "Build and Deploy Your First AI Agent Using Agentforce",
+    title: "How to Build and Deploy Your First AI Agent with Agentforce (Step-by-Step Guide)",
     description: "By 2028, 33% of enterprise software apps will utilize agentic AI. The transition from Predictive to Generative AI has accelerated, allowing businesses to move beyond simple forecasting to defining optimal actions. Despite ethical concerns, the value of training AI for growth is clear. Teaching AI to understand human language enhances its ability to respond and perform useful tasks.",
   },
   {
     id: 32,
     image: "/images/blog/byond-robotics-mobile-banner.webp",
-    category: "Artificial Intelligence",
-    industry: "Generic",
+    category: "Agentic AI",
+    industry: "Manufacturing",
     date: "Sep. 01, 2025",
     url: '/why-ai-agents-are-the-future-of-smart-manufacturing/',
     title: "Beyond Automation: Why AI Agents Power Smart Manufacturing",
@@ -261,17 +293,17 @@ const latestBlogs = [
   {
     id: 30,
     image: "/images/blog/sap-cpi-feature-thumb.webp",
-    category: "SAP",
+    category: "SAP CPI",
     industry: "Generic",
     date: "Aug. 26, 2025",
     url: '/sap-pi-po-to-cpi-migration-complete-guide/',
-    title: "Migrating from SAP PI/PO to SAP BTP Integration Suite (CPI)",
+    title: "SAP PI PO to SAP CPI Migration: A Complete Guide",
     description: "Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation.For years, SAP Process Integration (PI) and Process Orchestration (PO) handled this role, connecting SAP and non-SAP landscapes.",
   },
   {
     id: 29,
     image: "/images/blog/big-reimage-slider.webp",
-    category: "Artificial Intelligence",
+    category: "Agentic AI",
     industry: "Generic",
     date: "Aug. 25, 2025",
     url: '/reimagine-enterprise-using-agentic-ai-systems/',
@@ -281,8 +313,8 @@ const latestBlogs = [
   {
     id: 27,
     image: "/images/blog/small-slider.webp",
-    category: "Agentforce",
-    industry: "Generic",
+    category: "Salesforce Agentforce",
+    industry: "Manufacturing",
     date: "Aug. 22, 2025",
     url: '/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/',
     title: "From Factory to Feedback: How Agentforce AI Elevates Customer Experience in Manufacturing",
@@ -292,7 +324,7 @@ const latestBlogs = [
   {
     id: 26,
     image: "/images/blog/sustain-small-slider.webp",
-    category: "Artificial Intelligence",
+    category: "Agentic AI",
     industry: "Generic",
     date: "Aug. 21, 2025",
     url: '/how-ai-is-powering-the-sustainable-future-of-our-planet/',
@@ -303,7 +335,7 @@ const latestBlogs = [
     id: 25,
     image: "/images/blog/Agentforce-featured-blog.webp",
     category: "Salesforce Agentforce",
-    industry: "Generic",
+    industry: "Automotive",
     date: "Jul. 29, 2025",
     url: '/how-agentforce-3-is-reshaping-automotive-manufacturing/',
     title: "How Agentforce 3.0 is Reshaping Automotive Manufacturing",
@@ -322,8 +354,8 @@ const latestBlogs = [
   {
     id: 23,
     image: "/images/blog/slider.webp",
-    category: "Agentforce",
-    industry: "General",
+    category: "Salesforce Agentforce",
+    industry: "Manufacturing",
     date: "Jul. 21, 2025",
     url: '/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/',
     title: "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
@@ -332,8 +364,8 @@ const latestBlogs = [
   {
     id: 22,
     image: "/images/blog/agentexchange-Blog-feature-thumb.webp",
-    category: "Agentforce",
-    industry: "General",
+    category: "Salesforce Agentforce",
+    industry: "Generic",
     date: "Jul. 02, 2025",
     url: '/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/',
     title: "Discover AgentExchange: Your Trusted Marketplace for Agentforce Success",
@@ -342,8 +374,8 @@ const latestBlogs = [
   {
     id: 21,
     image: "/images/blog/Pharma Jewel of North India_Blog feature thumb.webp",
-    category: "General",
-    industry: "Manufacturing",
+    category: "Others",
+    industry: "Pharma & Biotech",
     date: "Jul. 01, 2025",
     url: '/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/',
     title: "Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities",
@@ -362,8 +394,8 @@ const latestBlogs = [
   {
     id: 19,
     image: "/images/blog/Agentic Pharma_Blog feature thumb.webp",
-    category: "AI",
-    industry: "Pharma",
+    category: "Agentic AI",
+    industry: "Pharma & Biotech",
     date: "May 30, 2025",
     url: '/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry/',
     title: "Agentic Pharma - The AI-driven era of the Pharmaceutical Industry",
@@ -373,8 +405,8 @@ const latestBlogs = [
   {
     id: 18,
     image: "/images/blog/sap-ariba-for-carousel.webp",
-    category: "SAP",
-    industry: "Manufacturing",
+    category: "SAP Ariba",
+    industry: "Generic",
     date: "May 29, 2025",
     url: '/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/',
     title: "How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
@@ -383,8 +415,8 @@ const latestBlogs = [
   {
     id: 17,
     image: "/images/blog/successfactor-for-carousel.webp",
-    category: "SAP SuccessFactors",
-    industry: "Human Resources",
+    category: "Integration",
+    industry: "HRMS",
     date: "May 28, 2025",
     url: "/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations/",
     title: "How SAP SuccessFactors Integrations Enhance HR and Payroll Operations",
@@ -393,8 +425,8 @@ const latestBlogs = [
   {
     id: 16,
     image: "/images/blog/jcarosel.webp",
-    category: "SAP",
-    industry: "SAP",
+    category: "SAP Joule",
+    industry: "Generic",
     date: "Apr. 25, 2025",
     url: '/redefining-the-future-of-enterprise-ai-with-sap-joule/',
     title: "Redefining the Future of Enterprise AI with SAP Joule",
@@ -403,7 +435,7 @@ const latestBlogs = [
   {
     id: 15,
     image: "/images/blog/SAP Business cloud_Carousal.webp",
-    category: "General",
+    category: "SAP BDC",
     industry: "Generic",
     date: "Apr. 22, 2025",
     url: '/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/',
@@ -413,11 +445,11 @@ const latestBlogs = [
   {
     id: 31,
     image: "/images/blog/sap-signavio-sap-cloud-mobile.webp",
-    category: "SAP",
+    category: "SAP Signavio",
     industry: "Generic",
     date: "Mar. 25, 2025",
     url: '/s4hana-transformation-with-sap-signavio-cloud-alm/',
-    title: "How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation",
+    title: "SAP Signavio + SAP Cloud ALM: Driving Governance, Traceability, and KPI Tracking in S/4HANA Transformations",
     description: "Digital transformation programs such as an SAP S/4HANA implementation are not simply IT projects but complex business reinvention initiatives that touch every process, role, and technology in the enterprise. For such large-scale transformations, two critical success factors stand out:",
   },
   {
@@ -434,7 +466,7 @@ const latestBlogs = [
     id: 13,
     image: "/images/blog/blog-13.webp",
     category: "SAP SuccessFactors",
-    industry: "Human Resources",
+    industry: "HRMS",
     date: "Jan. 21, 2025",
     url: '/how-sap-successfactors-enhances-remote-work-management/',
     title: "How SAP SuccessFactors Enhances Remote Work Management",
@@ -464,7 +496,7 @@ const latestBlogs = [
     id: 10,
     image: "/images/blog/blog-5.webp",
     category: "SAP SuccessFactors",
-    industry: "Human Resources",
+    industry: "HRMS",
     date: "Dec. 24, 2024",
     url: '/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/',
     title: "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
@@ -493,8 +525,8 @@ const latestBlogs = [
   {
     id: 7,
     image: "/images/blog/blog-9.webp",
-    category: "Diversity & Inclusion",
-    industry: "Human Resources",
+    category: "SAP SuccessFactors",
+    industry: "HRMS",
     date: "Nov. 12, 2024",
     url: '/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/',
     title: "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
@@ -514,7 +546,7 @@ const latestBlogs = [
     id: 5,
     image: "/images/blog/blog-7.webp",
     category: "SAP SuccessFactors",
-    industry: "Human Resources",
+    industry: "HRMS",
     date: "Oct. 29, 2024",
     url: '/sap-successfactors-performance-and-goal-management/',
     title: "SAP SuccessFactors Performance and Goal Management",
@@ -544,7 +576,7 @@ const latestBlogs = [
   {
     id: 1,
     image: "/images/blog/blog-6.webp",
-    category: "Cloud Green Technology",
+    category: "Others",
     industry: "Agriculture",
     date: "Sept. 17, 2024",
     url: '/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/',
@@ -582,11 +614,12 @@ const FeaturedCarousel = () => {
       industry: "Generic",
       date: "March 25, 2025",
       url: '/s4hana-transformation-with-sap-signavio-cloud-alm/',
-      title: "How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation",
+      title: "SAP Signavio + SAP Cloud ALM: Driving Governance, Traceability, and KPI Tracking in S/4HANA Transformations",
       description: "Digital transformation programs such as an SAP S/4HANA implementation are not simply IT projects but complex business reinvention initiatives that touch every process, role, and technology in the enterprise. For such large-scale transformations, two critical success factors stand out.",
 
     },
   ];
+
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -800,23 +833,18 @@ const BlogList = () => {
             </button>
             {showOptionsIndustry && (
               <div className='absolute bg-white border border-[#707070] w-[165px] md:w-[250px] sm:mr-4 mr-0 sm:right-0 right-2 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
-                <ul>
-                  <li className='px-5 pt-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('All')}>All</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Agriculture')}>Agriculture</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Finance')}>Finance</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Generic')}>Generic</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Healthcare')}>Healthcare</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Hi-tech')}>Hi-tech</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Human Resources')}>Human Resources</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Manufacturing')}>Manufacturing</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Public Sector')}>Public Sector</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByIndustry('Retail & Ecommerce')}>Retail & Ecommerce</li>
+                <ul className="py-4">
+                  {
+                    allIndustries.map((data, ind) => (
+                      <li className='cursor-pointer p-3' key={ind} onClick={() => filterBlogsByIndustry(data)}>{data}</li>
+                    ))
+                  }
                 </ul>
               </div>
             )}
           </div>
           <div className="relative">
-            <button className='relative border border-[#707070] py-4 px-2 sm:w-40 w-36 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
+            <button className='relative border border-[#707070] py-4 px-6 w-fit text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
               <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{selectedCategory === 'All' ? 'Category' : selectedCategory}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
@@ -831,20 +859,11 @@ const BlogList = () => {
             {showOptionsCategory && (
               <div className='absolute bg-white border border-[#707070] w-[200px] md:w-[250px] right-0 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
                 <ul>
-                  <li className='px-5 pt-4 pb-2 cursor-pointer' onClick={() => filterBlogsByCategory('All')}>All</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Diversity & Inclusion')}>Diversity & Inclusion</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Green Technology')}>Green Technology</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Grow with SAP')}>Grow with SAP</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Integration')}>Integration</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Rise with SAP')}>Rise with SAP</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Salesforce Agentforce')}>Salesforce Agentforce</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Salesforce Data Cloud')}>Salesforce Data Cloud</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Salesforce Health Cloud')}>Salesforce Health Cloud</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('Salesforce MuleSoft')}>Salesforce MuleSoft</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('SAP BTP')}>SAP BTP</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('SAP GTS')}>SAP GTS</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('SAP S/4HANA')}>SAP S/4HANA</li>
-                  <li className='px-5 pb-4 py-2 cursor-pointer' onClick={() => filterBlogsByCategory('SAP SuccessFactors')}>SAP SuccessFactors</li>
+                  {
+                    allCategories.map((data, ind) => (
+                      <li className='px-5 pt-4 pb-2 cursor-pointer' key={ind} onClick={() => filterBlogsByCategory(data)}>{data}</li>
+                    ))
+                  }
                 </ul>
               </div>
             )}
