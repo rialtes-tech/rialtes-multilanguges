@@ -30,7 +30,7 @@ const schemaData = {
         "jobTitle": "Software Engineer - Salesforce",
         "url": "https://www.linkedin.com/in/lokeshadhikari/"
     },
-    "image": "https://www.rialtes.com/images/webinar/Webinar_6.webp",
+    "image": "https://www.rialtes.com/images/webinar/woman-smiling-smartphone-blue-background.webp",
     "audience": {
         "@type": "Audience",
         "audienceType": "Salesforce Admins & Developers, Sales & Service Team Leads, Customer Experience Managers, Field Operations Managers, CRM & Marketing Professionals"

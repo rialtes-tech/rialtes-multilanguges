@@ -30,7 +30,7 @@ const schemaData = {
         "jobTitle": "Sr. Managing Director – SAP Services",
         "url": "https://www.linkedin.com/in/sap-akshaykale/"
     },
-    "image": "https://www.rialtes.com/images/webinar/Webinar_13%20May%2025_webinar%20Banner.webp",
+    "image": "https://www.rialtes.com/images/webinar/digital-data-wave-visualization-abstract.webp",
     "audience": {
         "@type": "Audience",
         "audienceType": "Data Engineers, SAP Architects, Analytics Leaders, CIOs, CTOs, BI Professionals"

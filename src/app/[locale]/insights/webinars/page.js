@@ -120,8 +120,8 @@ export default function About() {
   return (
     <div className="min-h-screen">
       <Seo
-        title="SAP and Salesforce Tech Webinars by a Trusted Partner | Rialtes"
-        description="Salesforce tech webinars and SAP sessions by Rialtes. Learn from experts, explore innovations, and boost your digital transformation strategy."
+        title={t('seoTitle')}
+        description={t('seoDescription')}
         canonical={`https://www.rialtes.com/${locale}/insights/webinars/`}
       />
       <Script

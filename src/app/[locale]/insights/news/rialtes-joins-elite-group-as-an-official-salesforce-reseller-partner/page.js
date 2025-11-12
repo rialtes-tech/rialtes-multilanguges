@@ -17,7 +17,7 @@ const schemaData = {
   },
   "headline": "Rialtes Joins Elite Group as an Official Salesforce Reseller Partner",
   "description": "Rialtes earns the prestigious Salesforce Reseller Partner status, expanding its capacity to deliver end-to-end Salesforce solutions globally.",
-  "image": "https://www.rialtes.com/images/news/salesforce-reseller-partner-banner.webp",
+  "image": "https://www.rialtes.com/images/news/salesforce-authorized-cloud-reseller-partner.webp",
   "datePublished": "2025-05-12",
   "author": {
     "@type": "Organization",
