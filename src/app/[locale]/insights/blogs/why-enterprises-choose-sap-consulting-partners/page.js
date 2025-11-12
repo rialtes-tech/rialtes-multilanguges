@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import Link from "next/link";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 import { useLocale, useTranslations } from "next-intl";
@@ -160,7 +159,7 @@ export default function Page() {
                         <BlogSocialIcons
                             fullUrl={fullUrl}
                             topic={t("blogTopic")}
-                            date="November 2025"
+                            date="10 November 2025"
                         />
 
 
