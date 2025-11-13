@@ -199,7 +199,29 @@
     ],
     "latestBlogs": [
       {
-        "id": 400,
+        "id": 54,
+        "image": "/images/blog/futuristic-data-analytics-visualization-mobile.webp",
+        "category": "SAP",
+        "industry": "Genérico",
+        "alt": "Ilustración conceptual de una ciudad inteligente conectada mediante computación en la nube y redes de datos.",
+        "date": "11 nov. 2025",
+        "url": "/estrategias-de-implementacion-sap-para-el-exito-en-2026/",
+        "title": "Estrategias comprobadas de implementación SAP que minimizan el riesgo y aceleran el ROI",
+        "description": "Sabemos que implementar SAP no se trata solo de actualizar un sistema. Se trata de transformar cómo opera una empresa, desde finanzas y cadena de suministro hasta recursos humanos y experiencia del cliente."
+      },
+      {
+        "id": 53,
+        "image": "/images/blog/digital-transformation-journey-ai-mobile.webp",
+        "category": "SAP",
+        "industry": "Genérico",
+        "date": "10 nov. 2025",
+        "url": "/por-que-las-empresas-lideres-eligieron-socios-consultores-sap/",
+        "alt": "Imagen abstracta de una persona caminando por un camino digital rodeado de siluetas formadas por puntos de datos, simbolizando la transformación digital impulsada por IA y el viaje de innovación",
+        "title": "Por qué las empresas líderes eligen a los principales socios de consultoría SAP para impulsar el crecimiento y la innovación",
+        "description": "Las empresas han estado operando en un entorno complejo con datos dispersos, sistemas heredados, equipos aislados y crecientes expectativas de los clientes."
+      },
+      {
+        "id": 52,
         "image": "/images/blog/exelona-cluster-feature-thumb.webp",
         "category": "Exelona",
         "industry": "Generic",

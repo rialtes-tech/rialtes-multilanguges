@@ -199,6 +199,28 @@
     ],
     "latestBlogs": [
       {
+        "id": 54,
+        "image": "/images/blog/futuristic-data-analytics-visualization-mobile.webp",
+        "category": "SAP",
+        "industry": "Générique",
+        "date": "11 nov. 2025",
+        "alt": "Illustration conceptuelle d’une ville intelligente connectée grâce à l’informatique en nuage et aux réseaux de données.",
+        "url": "/strategies-de-mise-en-oeuvre-sap-pour-le-succes-en-2026/",
+        "title": "Stratégies éprouvées de mise en œuvre SAP qui minimisent les risques et accélèrent le ROI",
+        "description": "Nous savons que la mise en œuvre de SAP ne consiste pas seulement à mettre à jour un système. Il s’agit de transformer la manière dont une entreprise fonctionne, de la finance et la chaîne d’approvisionnement aux ressources humaines et à l’expérience client."
+      },
+      {
+        "id": 53,
+        "image": "/images/blog/digital-transformation-journey-ai-mobile.webp",
+        "category": "SAP",
+        "industry": "Générique",
+        "date": "10 nov. 2025",
+        "url": "/pourquoi-les-entreprises-leaders-choisissent-les-partenaires-de-conseil-sap/",
+        "alt": "Image abstraite d’une personne marchant sur un chemin numérique entourée de silhouettes faites de points de données, symbolisant la transformation numérique pilotée par l’IA et le parcours d’innovation",
+        "title": "Pourquoi les entreprises leaders choisissent les meilleurs partenaires de conseil SAP pour stimuler la croissance et l’innovation",
+        "description": "Les entreprises évoluent dans un paysage complexe avec des données dispersées, des systèmes hérités, des équipes en silos et des attentes clients de plus en plus élevées."
+      },
+      {
         "id": 52,
         "image": "/images/blog/exelona-cluster-feature-thumb.webp",
         "category": "Exelona",
@@ -913,7 +935,7 @@
       {
         "id": 13,
         "image": "/images/case-studies/roof-shingle-color-samples-material-options-mobile.webp",
-        "industry": "Fabrication",
+        "industry": "Manufacture",
         "date": "Jun. 10, 2025",
         "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
         "title": "Adoption accrue de 40% des demandes de garantie grâce à Salesforce Experience Cloud",
@@ -922,7 +944,7 @@
       {
         "id": 12,
         "image": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
-        "industry": "Fabrication",
+        "industry": "Manufacture",
         "date": "Jun. 03, 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
         "title": "Révolution de la gestion des concessionnaires avec AutoSense par Rialtes",
@@ -931,7 +953,7 @@
       {
         "id": 11,
         "image": "/images/case-studies/insurance-adjuster-homeowner-storm-damage-assessment-carousel.webp",
-        "industry": "Fabrication",
+        "industry": "Manufacture",
         "date": "May. 30, 2025",
         "url": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/",
         "title": "Réclamation en 4 minutes : Rialtes crée un portail mobile-first pour transformer l’expérience des réclamations",
@@ -940,7 +962,7 @@
       {
         "id": 1,
         "image": "/images/case-studies/roofing-shingle-samples-color-variety-display-carousel.webp",
-        "industry": "Fabrication",
+        "industry": "Manufacture",
         "date": "May. 28, 2025",
         "url": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/",
         "title": "150 commandes par jour, zéro travail manuel : Priorisation des commandes en libre-service avec Fiori",
@@ -949,7 +971,7 @@
       {
         "id": 2,
         "image": "/images/case-studies/quality-control-technician-inspecting-bottle-production-line-mobile.webp",
-        "industry": "Fabrication",
+        "industry": "Manufacture",
         "date": "Mar. 26, 2025",
         "url": "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
         "title": "Optimisation des ventes avec Salesforce Sales Cloud pour un fabricant",
@@ -958,7 +980,7 @@
       {
         "id": 3,
         "image": "/images/case-studies/industrial-workers-safety-collaboration.webp",
-        "industry": "Fabrication",
+        "industry": "Manufacture",
         "date": "Jan. 08, 2025",
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce/",
         "title": "Transformation DevOps avec Copado et Salesforce",
@@ -985,7 +1007,7 @@
       {
         "id": 6,
         "image": "/images/case-studies/advanced-microchip-manufacturing-mobile.webp",
-        "industry": "Fabrication",
+        "industry": "Manufacture",
         "date": "Oct. 14, 2024",
         "url": "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/",
         "title": "Transformation de la gestion omnicanale des cas avec Salesforce Service Cloud",
