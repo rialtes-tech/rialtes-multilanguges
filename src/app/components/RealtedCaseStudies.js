@@ -148,8 +148,6 @@ export default function page({ url, currTopic }) {
 
     const filteredCases = latestCaseStudy.filter((elem) => {
         const caseIndustry = elem.industry;
-
-
         const caseSlug = elem.url.replace(/\/$/, "").split("/").pop();
         const currentSlug = url.replace(/\/$/, "");
 

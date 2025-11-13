@@ -86,7 +86,6 @@ const schemaData = {
 };
 
 export default function Page() {
-
     const currUrl = useUrl()
     const faqData = [
         {
@@ -111,8 +110,7 @@ export default function Page() {
         },
     ];
 
-    const fullUrl =
-        "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
 
     return (
         <div className="min-h-screen bg-white">
@@ -152,15 +150,12 @@ export default function Page() {
                 </div>
             </section>
 
-            <section
-                className="
-       custom-container"
-            >
+            <section className="custom-container">
                 <div className="py-10 bg-white max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[750px]">
                     <div className=" ">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center ">
                             <div className="sm:mb-0 mb-6">
-                                <span className="text-[#0092E0]">Agentforce</span>
+                                <span className="text-[#0092E0]">Salesforce Agentforce</span>
                                 <span className="text-[#ACACAC]"> | </span>21 July 2025
                             </div>
                             <div className="flex flex-col">

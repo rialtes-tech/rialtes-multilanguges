@@ -75,15 +75,13 @@ export default function Page() {
           />
         </div>
       </section>
-      <section
-        className="custom-container "
-      >
+      <section className="custom-container">
 
         <div className="py-10 bg-white xl:max-w-[1084px] 4xl:w-[1084px] 2xl:w-[900px] xl:w-[800px] ">
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>Green Technology</span> <span className='text-[#ACACAC]'> | </span>17 Sept 2024
+                <span className='text-[#0092E0]'>Others</span> <span className='text-[#ACACAC]'> | </span>17 Sept 2024
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
