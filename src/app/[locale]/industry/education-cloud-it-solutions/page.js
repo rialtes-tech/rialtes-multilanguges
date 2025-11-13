@@ -177,12 +177,12 @@ export default function Page() {
         <div className="h-full relative custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-1  xl:mt-20  mt-[9rem]">
             <div className="xl:col-span-7 col-span-12">
-              <h1 className="text-white 2xl:text-[24px] xl:text-[22px] text-[18px] font-bold mb-2 mt-10">
+              <h2 className="text-white 2xl:text-[24px] xl:text-[22px] text-[18px] font-bold mb-2 mt-10">
                 {t('headerTitle')}
-              </h1>
-              <h2 className="text-white leading-tight xl:pr-[130px] xl:mt-10 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  text-[24px] ">
-                {t('headerSubTitle')}
               </h2>
+              <h1 className="text-white leading-tight xl:pr-[130px] xl:mt-10 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  text-[24px] ">
+                {t('headerSubTitle')}
+              </h1>
               <h3 className="4xl:text-[45px] 2xl:text-[40px] xl:text-[35px]  xl:mt-10 mt-5 text-white font-bold text-[18px] leading-tight">
                 {t('headerSubTitleOne')}
               </h3>

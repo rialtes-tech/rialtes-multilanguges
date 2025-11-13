@@ -119,7 +119,7 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
         <div className="xl:block hidden">
           <Image
             src="/images/blog/digital-puzzle-technology-integration.webp"
-            alt="Abstract puzzle pieces connected with digital circuit lines symbolizing technology integration and data connection"
+            alt={t('bannerAlt')}
             fill
             priority
           />
@@ -127,7 +127,7 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
         <div className="xl:hidden block">
           <Image
             src="/images/blog/digital-puzzle-technology-integration-mobile.webp"
-            alt="Abstract puzzle pieces connected with digital circuit lines symbolizing technology integration and data connection"
+            alt={t('bannerAlt')}
             priority
             height={0}
             width={0}

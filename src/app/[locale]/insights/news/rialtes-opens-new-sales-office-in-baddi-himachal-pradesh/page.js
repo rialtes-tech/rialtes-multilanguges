@@ -19,7 +19,7 @@ const schemaData = {
   headline: "Rialtes Opens New Sales Office in Baddi, Himachal Pradesh",
   description:
     "Rialtes expands its regional presence with a new sales office in Baddi, Himachal Pradesh, supporting digital transformation needs in North India.",
-  image: "https://www.rialtes.com/images/news/baddi-office-banner.webp",
+  image: "https://www.rialtes.com//images/homepage/rialtes-new-sales-office-opening-himachal-pradesh.webp",
   datePublished: "2025-04-04",
   author: {
     "@type": "Organization",
