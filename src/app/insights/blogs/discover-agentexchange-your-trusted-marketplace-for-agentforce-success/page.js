@@ -83,7 +83,7 @@ export default function Page() {
           <div className=" ">
             <div className="flex flex-col md:flex-row justify-between text-black items-center">
               <div className="sm:mb-0 mb-6">
-                <span className="text-[#0092E0]">Agentforce</span>
+                <span className="text-[#0092E0]">Salesforce Agentforce</span>
                 <span className="text-[#ACACAC] text-[16px] md:text-[20px] xl:text-[20px]"> | </span>02 July 2025
               </div>
               <div className="flex flex-col">

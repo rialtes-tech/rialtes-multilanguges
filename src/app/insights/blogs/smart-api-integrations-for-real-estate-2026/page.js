@@ -9,8 +9,7 @@ import BlogSocialIcons from "@/app/components/blogSocialIcons";
 import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
 export default function Page() {
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/";
   const currUrl = useUrl();
 
   const schemaData = {
@@ -359,7 +358,7 @@ export default function Page() {
             <div className="sm:flex justify-between">
               <div>
                 <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  Exelona
+                  Integration
                 </span>{" "}
                 <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {" "}

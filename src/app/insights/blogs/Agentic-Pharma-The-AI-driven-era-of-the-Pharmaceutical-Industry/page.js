@@ -91,7 +91,7 @@ export default function Page() {
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black items-center ]">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px] '>AI</span> <span className='text-[#ACACAC]'> | </span>30 May 2025
+                <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px]'>Agentic AI</span> <span className='text-[#ACACAC]'> | </span>30 May 2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">

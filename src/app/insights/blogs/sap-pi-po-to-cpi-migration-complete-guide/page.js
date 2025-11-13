@@ -145,63 +145,61 @@ const earlyWatchAlerts = [
     "Alerts instantly notify when SLA breaches or disruptions occur.",
     "AI/ML-driven enhancements (with Joule) will increasingly automate remediation."
 ];
+const faqs = [
+    {
+        question: "1. Why should we move from PI/PO to CPI?",
+        answer: [
+            "PI/PO was designed for an on-premise era and has limitations in cloud-first architectures. CPI is cloud-native, scalable, API-first, and continuously updated."
+        ]
+    },
+    {
+        question: "2. Is CPI just a technical upgrade?",
+        answer: [
+            "No. Moving to CPI is a strategic shift toward a cloud-enabled, intelligent enterprise. It allows you to optimize business processes, reduce risk, and leverage AI-driven monitoring.",
 
+        ]
+    },
+    {
+        question: "3. How does CPI support hybrid landscapes?",
+        answer: [
+            "CPI connects both SAP cloud solutions (S/4HANA Cloud, SuccessFactors, Ariba, Concur) and on-premise systems, enabling seamless integration across all enterprise applications.",
+        ]
+    },
+    {
+        question: "4. How does Agentforce improve case resolution in manufacturing service centers?",
+        answer: [
+            "Cloud-native flexibility with elastic scaling",
+            "Pre-built content and APIs for faster deployment",
+            "API-first architecture for secure, manageable integrations",
+            "AI-enabled monitoring and predictive alerts",
+            "Lower TCO by eliminating heavy infrastructure and upgrade cycles"
+        ]
+
+    },
+    {
+        question: "5. How can enterprises migrate without disrupting business processes?",
+        answer: [
+            "Parallel migration strategies allow PI/PO and CPI interfaces to run simultaneously. Iterative migration, testing, and monitoring ensure business continuity during the transition.",
+
+        ]
+    },
+    {
+        question: "6. What role do Early Watch Systems (EWS) and alerts play?",
+        answer: [
+            "EWS provides predictive diagnostics for bottlenecks, while multi-layered alerts notify teams of SLA breaches, system failures, or business-impacting disruptions, enabling proactive management instead of reactive firefighting.",
+
+        ]
+    },
+    {
+        question: "7. How does CPI support KPI tracking and business confidence?",
+        answer: [
+            "CPI dashboards track live performance against SLAs, process KPIs, and compliance metrics. Alerts tied to business outcomes ensure enterprises can act immediately when deviations occur.",
+
+        ]
+    }
+];
 export default function Page() {
     const currUrl = useUrl()
-
-    const faqs = [
-        {
-            question: "1. Why should we move from PI/PO to CPI?",
-            answer: [
-                "PI/PO was designed for an on-premise era and has limitations in cloud-first architectures. CPI is cloud-native, scalable, API-first, and continuously updated."
-            ]
-        },
-        {
-            question: "2. Is CPI just a technical upgrade?",
-            answer: [
-                "No. Moving to CPI is a strategic shift toward a cloud-enabled, intelligent enterprise. It allows you to optimize business processes, reduce risk, and leverage AI-driven monitoring.",
-
-            ]
-        },
-        {
-            question: "3. How does CPI support hybrid landscapes?",
-            answer: [
-                "CPI connects both SAP cloud solutions (S/4HANA Cloud, SuccessFactors, Ariba, Concur) and on-premise systems, enabling seamless integration across all enterprise applications.",
-            ]
-        },
-        {
-            question: "4. How does Agentforce improve case resolution in manufacturing service centers?",
-            answer: [
-                "Cloud-native flexibility with elastic scaling",
-                "Pre-built content and APIs for faster deployment",
-                "API-first architecture for secure, manageable integrations",
-                "AI-enabled monitoring and predictive alerts",
-                "Lower TCO by eliminating heavy infrastructure and upgrade cycles"
-            ]
-
-        },
-        {
-            question: "5. How can enterprises migrate without disrupting business processes?",
-            answer: [
-                "Parallel migration strategies allow PI/PO and CPI interfaces to run simultaneously. Iterative migration, testing, and monitoring ensure business continuity during the transition.",
-
-            ]
-        },
-        {
-            question: "6. What role do Early Watch Systems (EWS) and alerts play?",
-            answer: [
-                "EWS provides predictive diagnostics for bottlenecks, while multi-layered alerts notify teams of SLA breaches, system failures, or business-impacting disruptions, enabling proactive management instead of reactive firefighting.",
-
-            ]
-        },
-        {
-            question: "7. How does CPI support KPI tracking and business confidence?",
-            answer: [
-                "CPI dashboards track live performance against SLAs, process KPIs, and compliance metrics. Alerts tied to business outcomes ensure enterprises can act immediately when deviations occur.",
-
-            ]
-        }
-    ];
     const fullUrl = "https://www.rialtes.com/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide";
 
     return (
@@ -245,7 +243,7 @@ export default function Page() {
                     <div className=" mx-auto">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
-                                <span className="text-[#0092E0]">SAP</span>
+                                <span className="text-[#0092E0]">SAP CPI</span>
                                 <span className="text-[#ACACAC]"> | </span>26 August 2025
                             </div>
                             <div className="flex flex-col">
