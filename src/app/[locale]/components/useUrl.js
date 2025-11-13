@@ -6,6 +6,6 @@ export default function useUrl() {
 
     const cleanPath = pathname.replace(/\/$/, "");
     const url = cleanPath.split("/").pop();
-
+    
     return url;
 }

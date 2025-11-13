@@ -4,138 +4,153 @@
         "latestCaseStudy": [
             {
                 "id": 15,
-                "image": "/images/case-studies/Small thumb.webp",
-                "industry": "Éducation",
-                "date": "21 Aug 2025",
+                "image": "/images/case-studies/graduation-cap-ladder-clouds-education-success-concept-mobile.webp",
+                "industry": "Education",
+                "date": "Aug. 21, 2025",
                 "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/",
-                "title": "Transformer la réussite des étudiants avec Salesforce Education Cloud et Edu+",
-                "description": "Une université privée de premier plan en Amérique du Nord avec plus de 25 000 étudiants et de nombreux programmes académiques couvrant les cycles de licence, de master et d’éducation continue."
+                "title": "Transformer la Réussite Étudiante avec Salesforce Education Cloud et Edu+",
+                "alt": "Transformer la réussite des étudiants avec Salesforce Education Cloud et Edu+ ",
+                "description": "Une université privée de premier plan en Amérique du Nord avec plus de 25 000 étudiants et de multiples programmes académiques couvrant les divisions de premier cycle, de cycles supérieurs et d’éducation continue."
             },
             {
                 "id": 14,
-                "image": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
+                "image": "/images/case-studies/automotive-robotic-assembly-line-car-manufacturing-mobile.webp",
                 "industry": "Automobile",
-                "date": "30 Jun 2025",
+                "date": "Jun. 30, 2025",
                 "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
-                "title": "Un constructeur automobile leader a atteint 35 % de satisfaction client supplémentaire grâce à AutoSense",
-                "description": "Un grand constructeur automobile mondial, reconnu pour son innovation et ses véhicules haute performance, faisait face à des défis liés à son ancien système de gestion des garanties."
+                "title": "Un grand constructeur automobile obtient 35% de satisfaction client en plus grâce à AutoSense",
+                "alt": "Un fabricant automobile de premier plan a atteint un score de satisfaction client 35 % plus élevé avec AutoSense ",
+                "description": "Un constructeur automobile mondial de renom, reconnu pour son innovation et ses véhicules haute performance, faisait face à des difficultés avec son ancien système de gestion des garanties."
             },
             {
                 "id": 13,
-                "image": "/images/case-studies/Adaptis_featured CS.webp",
-                "industry": "Fabrication ",
-                "date": "10 Jun 2025",
+                "image": "/images/case-studies/roof-shingle-color-samples-material-options-mobile.webp",
+                "industry": "Manufacture",
+                "date": "Jun. 10, 2025",
                 "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
-                "title": "Adoption accrue de 40 % de l’application de garantie grâce à Salesforce Experience Cloud",
-                "description": "Découvrez comment Rialtes a utilisé Salesforce Experience Cloud pour rationaliser les réclamations de garantie et améliorer la satisfaction client d’un fabricant de toitures."
+                "title": "Adoption accrue de 40% des demandes de garantie grâce à Salesforce Experience Cloud",
+                "alt": "Adoption améliorée de 40 % de l'application de garantie grâce à Salesforce Experience Cloud ",
+                "description": "Découvrez comment Rialtes a utilisé Salesforce Experience Cloud pour simplifier la gestion des réclamations de garantie et améliorer la satisfaction des clients d’un fabricant de toitures."
             },
             {
                 "id": 12,
-                "image": "/images/case-studies/revolutionary-filter.webp",
-                "industry": "Fabrication",
-                "date": "03 Jun 2025",
+                "image": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
+                "industry": "Manufacture",
+                "date": "Jun. 03, 2025",
                 "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
-                "title": "Accélérer la gestion des concessionnaires avec AutoSense de Rialtes",
-                "description": "Un constructeur automobile mondial renommé, reconnu pour ses véhicules de pointe, faisait face à des défis majeurs avec son portail de concessionnaires obsolète."
+                "title": "Révolution de la gestion des concessionnaires avec AutoSense par Rialtes",
+                "alt": "Accélération de la gestion des concessionnaires avec AutoSense de Rialtes ",
+                "description": "Un constructeur automobile mondial reconnu pour ses véhicules de pointe rencontrait de grandes difficultés avec son portail concessionnaire obsolète."
             },
             {
                 "id": 11,
-                "image": "/images/case-studies/adaptis-for-carousel.webp",
-                "industry": "Fabrication",
-                "date": "30 May 2025",
+                "image": "/images/case-studies/insurance-adjuster-homeowner-storm-damage-assessment-carousel.webp",
+                "industry": "Manufacture",
+                "date": "May. 30, 2025",
                 "url": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/",
-                "title": "Réclamation en 4 minutes : Rialtes crée un portail mobile pour transformer l’expérience de réclamation",
-                "description": "Un fabricant leader de solutions de toiture de haute qualité conçues pour protéger ce qui compte le plus. Spécialisé dans des produits durables et innovants pour le résidentiel."
+                "title": "Réclamation en 4 minutes : Rialtes crée un portail mobile-first pour transformer l’expérience des réclamations",
+                "alt": "Réclamation en 4 minutes : Rialtes crée un portail mobile pour transformer l'expérience des réclamations ",
+                "description": "Un fabricant de toitures haut de gamme, spécialisé dans des solutions innovantes et durables, cherchait à améliorer l’efficacité de ses demandes de garantie."
             },
             {
                 "id": 1,
-                "image": "/images/case-studies/fiory-carosel.webp",
-                "industry": "Fabrication",
-                "date": "28 May 2025",
+                "image": "/images/case-studies/roofing-shingle-samples-color-variety-display-carousel.webp",
+                "industry": "Manufacture",
+                "date": "May. 28, 2025",
                 "url": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/",
-                "title": "150 commandes par jour, zéro travail manuel : priorisation des commandes en libre-service grâce à Fiori",
-                "description": "Malgré d’importants investissements technologiques dans la fabrication, le processus de gestion des commandes du client reposait fortement sur l’intervention manuelle. Les clients qui souhaitaient prioriser certaines commandes devaient appeler l’équipe commerciale et partager leur liste de commandes urgentes."
+                "title": "150 commandes par jour, zéro travail manuel : Priorisation des commandes en libre-service avec Fiori",
+                "alt": "150 commandes par jour, aucun travail manuel : priorisation des commandes en libre-service avec Fiori ",
+                "description": "Malgré d’importants investissements technologiques dans la fabrication, la gestion des commandes du client reposait fortement sur des interventions manuelles. Les clients devaient appeler l’équipe commerciale pour prioriser leurs commandes urgentes."
             },
             {
                 "id": 2,
-                "image": "/images/case-studies/carosel.webp",
-                "industry": "Fabrication",
-                "date": "26 Mar 2025",
+                "image": "/images/case-studies/quality-control-technician-inspecting-bottle-production-line-mobile.webp",
+                "industry": "Manufacture",
+                "date": "Mar. 26, 2025",
                 "url": "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
-                "title": "Optimiser les ventes avec Salesforce Sales Cloud pour la fabrication",
-                "description": "L’entreprise est un fabricant leader spécialisé dans les équipements de traitement de l’eau sur mesure. Chaque produit est conçu selon les besoins spécifiques du client, ce qui signifie qu’aucun produit n’est identique."
+                "title": "Optimisation des ventes avec Salesforce Sales Cloud pour un fabricant",
+                "alt": "Rationalisation des ventes avec Salesforce Sales Cloud pour la fabrication ",
+                "description": "L’entreprise est un fabricant leader spécialisé dans les équipements de traitement de l’eau sur mesure, chaque produit étant conçu selon les besoins spécifiques des clients."
             },
             {
                 "id": 3,
-                "image": "/images/case-studies/case study 3_thumb_n.webp",
-                "industry": "Fabrication",
-                "date": "08 Jan 2025",
+                "image": "/images/case-studies/industrial-workers-safety-collaboration.webp",
+                "industry": "Manufacture",
+                "date": "Jan. 08, 2025",
                 "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce/",
                 "title": "Transformation DevOps avec Copado et Salesforce",
-                "description": "Un fabricant leader spécialisé dans la création de matériaux innovants pour des projets de construction résidentiels et commerciaux."
+                "alt": "Transformation DevOps avec Copado et Salesforce ",
+                "description": "Un fabricant leader spécialisé dans les matériaux innovants pour la construction résidentielle et commerciale."
             },
             {
                 "id": 4,
-                "image": "/images/case-studies/case-study-2_thumb_n.webp",
+                "image": "/images/case-studies/business-team-strategy-collaboration.webp",
                 "industry": "Immobilier",
-                "date": "22 Dec 2024",
+                "date": "Dec. 22, 2024",
                 "url": "/insights/case-studies/realForce-banking-module-ach/",
-                "title": "Automatiser les ACH et les écritures comptables avec notre module bancaire Exelona",
-                "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l’investissement dans des biens multifamiliaux."
+                "title": "Automatisation des paiements ACH et écritures comptables avec notre module bancaire Exelona",
+                "alt": "Automatisation des virements ACH et des écritures comptables avec notre module bancaire Exelona ",
+                "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l’investissement dans l’immobilier résidentiel collectif."
             },
             {
                 "id": 5,
-                "image": "/images/case-studies/case study 1_thumb_n.webp",
+                "image": "/images/case-studies/nurse-patient-consultation-medical-records.webp",
                 "industry": "Santé",
-                "date": "17 Nov 2024",
+                "date": "Nov. 17, 2024",
                 "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/",
-                "title": "Automatiser le traitement des commandes en santé avec MuleSoft",
-                "description": "Une entreprise mondiale de technologie médicale qui développe et fabrique des produits innovants."
+                "title": "Automatisation du traitement des commandes dans la santé avec MuleSoft",
+                "alt": "Automatisation du traitement des commandes dans le secteur de la santé avec MuleSoft ",
+                "description": "Une entreprise mondiale de technologie médicale qui conçoit et fabrique des produits innovants."
             },
             {
                 "id": 6,
-                "image": "/images/case-studies/case-study-4_thumb.webp",
-                "industry": "Fabrication",
-                "date": "14 Oct 2024",
+                "image": "/images/case-studies/advanced-microchip-manufacturing-mobile.webp",
+                "industry": "Manufacture",
+                "date": "Oct. 14, 2024",
                 "url": "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/",
-                "title": "Transformer la gestion omnicanale des cas avec Salesforce Service Cloud",
-                "description": "Un fournisseur leader de semi-conducteurs analogiques haute performance pour la connectivité filaire et sans fil."
+                "title": "Transformation de la gestion omnicanale des cas avec Salesforce Service Cloud",
+                "alt": "Transformation de la gestion des cas omnicanal avec Salesforce Service Cloud ",
+                "description": "Un fournisseur de semi-conducteurs analogiques haute performance pour la connectivité filaire et sans fil."
             },
             {
                 "id": 7,
-                "image": "/images/case-studies/case-study-5_thumb.webp",
+                "image": "/images/case-studies/urban-community-collaboration-mobile.webp",
                 "industry": "Secteur public",
-                "date": "27 Sep 2024",
+                "date": "Sep. 27, 2024",
                 "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/",
-                "title": "Partenaire YARDI de confiance pour la plus grande PHA en Amérique du Nord",
-                "description": "Une autorité de logement public responsable de la gestion des programmes de logements abordables dans plusieurs comtés de sa zone."
+                "title": "Partenaire YARDI de confiance pour la plus grande PHA d’Amérique du Nord",
+                "alt": "Partenaire YARDI de confiance pour la plus grande autorité de logement public en Amérique du Nord ",
+                "description": "Une autorité de logement public responsable de la gestion de programmes de logements abordables dans plusieurs comtés."
             },
             {
                 "id": 8,
-                "image": "/images/case-studies/case-study-6_thumb.webp",
+                "image": "/images/case-studies/abstract-colorful-city-skyline-data-visualization.webp",
                 "industry": "Immobilier",
-                "date": "04 Sep 2024",
+                "date": "Sep. 4, 2024",
                 "url": "/insights/case-studies/yardi-managed-services/",
-                "title": "Réduction des temps d’arrêt pour une société immobilière multifamiliale grâce à Yardi Managed Services",
-                "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l’investissement dans des biens multifamiliaux."
+                "title": "Réduction des interruptions pour une société immobilière multifamiliale grâce aux services gérés Yardi",
+                "alt": "Réduction des interruptions pour une société immobilière multifamiliale grâce à YARDI Managed Services ",
+                "description": "Une société immobilière multifamiliale américaine spécialisée dans la gestion et l’investissement résidentiel collectif."
             },
             {
                 "id": 9,
-                "image": "/images/case-studies/case-study-7_thumb.webp",
+                "image": "/images/case-studies/doctor-patient-consultation-mobile.webp",
                 "industry": "Santé",
-                "date": "16 Aug 2024",
+                "date": "Aug. 16, 2024",
                 "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/",
-                "title": "Numériser le parcours patient avec Salesforce Health Cloud",
-                "description": "Un fabricant leader spécialisé dans la création de matériaux innovants pour des projets de construction résidentiels et commerciaux."
+                "title": "Digitalisation du parcours patient avec Salesforce Health Cloud",
+                "alt": "Numérisation du parcours patient avec Salesforce Health Cloud ",
+                "description": "Un fabricant leader spécialisé dans les matériaux innovants pour la construction résidentielle et commerciale."
             },
             {
                 "id": 10,
-                "image": "/images/case-studies/case-study-8_thumb.webp",
+                "image": "/images/case-studies/digital-brain-network-mobile.webp",
                 "industry": "Santé",
-                "date": "02 Aug 2024",
+                "date": "Aug. 02, 2024",
                 "url": "/insights/case-studies/salesforce-health-cloud-prior-authorization/",
-                "title": "Numériser les autorisations préalables pour de meilleurs résultats pour les patients",
-                "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l’investissement dans des biens multifamiliaux."
+                "title": "Digitalisation des autorisations préalables pour de meilleurs résultats patients",
+                "alt": "Numérisation de l'autorisation préalable pour de meilleurs résultats pour les patients ",
+                "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l’investissement résidentiel collectif."
             }
         ]
     },
