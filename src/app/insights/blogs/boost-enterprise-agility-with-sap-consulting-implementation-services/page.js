@@ -19,7 +19,7 @@ export default function Page() {
         "@type": "BlogPosting",
         "headline": "Boost Enterprise Agility with Tailored SAP Consulting and Implementation Services | Rialtes",
         "description": "Custom SAP consulting and implementation services enable businesses to go beyond configuration and achieve true operational transformation.",
-        "image": "https://www.rialtes.com/images/blogs/sap-consulting-and-implementation.webp",
+        "image": "https://www.rialtes.com/images/blogs/digital-network-touch-data-connection-visualization.webp",
         "author": {
             "@type": "Organization",
             "name": "Rialtes"
