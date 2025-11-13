@@ -21,7 +21,7 @@ const schemaData = {
         "logo": "https://www.rialtes.com/images/homepage/logo.svg",
         "sameAs": [
             "https://www.linkedin.com/company/rialtes-technologies-llc/",
-            "https://www.youtube.com/@rialtes"
+            "https://www.youtube.com/@rialtes" 
         ]
     },
     "areaServed": [

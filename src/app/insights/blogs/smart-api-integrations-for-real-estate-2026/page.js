@@ -94,7 +94,7 @@ export default function Page() {
   const blogMainData = [
     "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. Teams waste hours chasing updates, finance struggles to reconcile data, and executives get reports that are outdated by the time they’re printed.",
     "Here’s the fix: Open API integrations.",
-    "An open API ecosystem allows your CRM, ERP, finance, and property management systems to exchange data in real time. Instead of building expensive, custom bridges, open APIs make it possible to connect any system to another securely, enabling unified operations, faster decision-making, and, ultimately, more scalable growth.",
+    "An open API ecosystem allows your <a href='https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>CRM & ERP convergence</a>; this way, your property management systems exchange data in real time. Instead of building expensive, custom bridges, open APIs make it possible to connect any system to another securely, enabling unified operations, faster decision-making, and, ultimately, more scalable growth.",
     "Let’s break down what that means for real estate, which integrations you actually need, and how platforms like Exelona are helping leading firms move beyond disconnected tech stacks.",
   ];
 

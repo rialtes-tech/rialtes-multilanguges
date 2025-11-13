@@ -28,37 +28,49 @@ const schemaData = {
 }
 
 const allIndustries = [
+  "All",
   "Agriculture",
-  "Generic",
-  "HRMS",
-  "Healthcare",
-  "Pharma & Biotech",
-  "Manufacturing",
   "Automotive",
+  "Healthcare",
+  "HRMS",
   "Life Sciences",
+  "Manufacturing",
+  "Pharma & Biotech",
+  "Real Estate",
   "Retail",
-  "Real Estate"
-]
+  "Generic"
+];
 const allCategories = [
-  "Others",
-  "Salesforce Agentforce",
-  "SAP SuccessFactors",
-  "Integration",
-  "SAP GTS",
-  "SAP BDC",
-  "SAP Joule",
-  "SAP Ariba",
+  "All",
   "Agentic AI",
-  "SAP Signavio",
-  "SAP CPI",
-  "Salesforce Data Cloud",
-  "SAP Consulting",
+  "Exelona",
+  "Integration",
   "MediAIna",
+  "Salesforce Agentforce",
   "Salesforce Consulting",
-  "Exelona"
-]
+  "Salesforce Data Cloud",
+  "SAP Ariba",
+  "SAP BDC",
+  "SAP Consulting",
+  "SAP CPI",
+  "SAP GTS",
+  "SAP Joule",
+  "SAP Signavio",
+  "SAP SuccessFactors",
+  "Others"
+];
 
 const latestBlogs = [
+   {
+    id: 55,
+    image: "/images/blog/digital-network-touch-data-connection-visualization-mobile.webp",
+    category: "Integration",
+    industry: "Generic",
+    date: "Nov. 12, 2025",
+    url: "/boost-enterprise-agility-with-sap-consulting-implementation-services/",
+    title: "Boost Enterprise Agility with Tailored SAP Consulting and Implementation Services",
+    description: "Today, adaptability defines survival; custom SAP development has become a core driver of enterprise agility and growth. "
+  },
   {
     id: 54,
     image: "/images/blog/futuristic-data-analytics-visualization-mobile.webp",
@@ -833,10 +845,10 @@ const BlogList = () => {
             </button>
             {showOptionsIndustry && (
               <div className='absolute bg-white border border-[#707070] w-[165px] md:w-[250px] sm:mr-4 mr-0 sm:right-0 right-2 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
-                <ul className="py-4">
+                <ul className="py-3">
                   {
                     allIndustries.map((data, ind) => (
-                      <li className='cursor-pointer p-3' key={ind} onClick={() => filterBlogsByIndustry(data)}>{data}</li>
+                      <li className='cursor-pointer py-2 px-3' key={ind} onClick={() => filterBlogsByIndustry(data)}>{data}</li>
                     ))
                   }
                 </ul>
@@ -858,10 +870,10 @@ const BlogList = () => {
             </button>
             {showOptionsCategory && (
               <div className='absolute bg-white border border-[#707070] w-[200px] md:w-[250px] right-0 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
-                <ul>
+                <ul className="py-3">
                   {
                     allCategories.map((data, ind) => (
-                      <li className='px-5 pt-4 pb-2 cursor-pointer' key={ind} onClick={() => filterBlogsByCategory(data)}>{data}</li>
+                      <li className='py-2 px-3 cursor-pointer' key={ind} onClick={() => filterBlogsByCategory(data)}>{data}</li>
                     ))
                   }
                 </ul>

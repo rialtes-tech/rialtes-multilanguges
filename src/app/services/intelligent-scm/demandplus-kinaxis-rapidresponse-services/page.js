@@ -10,28 +10,138 @@ import Script from "next/script";
 export default function DemandPlusSection() {
     const schemaData = {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/"
-        },
-        "headline": "Case Study: Empowering Roofing Manufacturer with SAP Fiori for Self-Service Sales Order Prioritization",
-        "description": "Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy.",
-        "image": "https://rialtes.netlify.app/images/case-studies/fiori-banner.webp",
-        "author": {
-            "@type": "Organization",
-            "name": "Rialtes"
-        },
+        "@type": "WebPage",
+        "name": "Kinaxis RapidResponse: Transform with Rialtes DemandPlus",
+        "url": "https://www.rialtes.com/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/",
+        "description": "Kinaxis rapid response meets AI-driven planning. Rialtes DemandPlus delivers supply chain visibility, predictive agility, and smarter control.",
+        "inLanguage": "en",
         "publisher": {
             "@type": "Organization",
-            "name": "Rialtes",
+            "name": "Rialtes Technologies",
+            "url": "https://www.rialtes.com",
             "logo": {
                 "@type": "ImageObject",
                 "url": "https://www.rialtes.com/images/homepage/logo.svg"
             }
         },
-        "articleSection": "Case Studies",
-        "datePublished": "2025-05-29"
+        "mainEntity": {
+            "@type": "Service",
+            "name": "Rialtes DemandPlus for Kinaxis RapidResponse",
+            "serviceType": "Supply Chain Planning and Integration",
+            "provider": {
+                "@type": "Organization",
+                "name": "Rialtes Technologies",
+                "url": "https://www.rialtes.com"
+            },
+            "areaServed": [
+                { "@type": "Country", "name": "United States" },
+                { "@type": "Country", "name": "Canada" },
+                { "@type": "Country", "name": "India" },
+                { "@type": "Country", "name": "Singapore" }
+            ],
+            "audience": {
+                "@type": "Audience",
+                "audienceType": "Enterprise, C-Level Executives, Supply Chain Leaders"
+            },
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "DemandPlus Services",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Kinaxis License Advisory & Value Assessment"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Solution Architecture & Design"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Rapid Implementation & Process Configuration"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Quality Assurance, Testing & User Training"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Integration with SAP S/4HANA, Oracle EBS & Non-SAP Systems"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Post-Go-Live Support & Continuous Optimization"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Demand Planning & Forecasting"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Sales & Operations Planning (S&OP)"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Capacity & Production Planning"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Inventory Optimization & Enterprise Scheduling"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Scenario Planning & What-if Simulations"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Integration via SAP BTP and SAP CPI"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "RialChat – WhatsApp for Supply Chain Teams"
+                        }
+                    }
+                ]
+            }
+        }
+
     }
     const services = [
         {
