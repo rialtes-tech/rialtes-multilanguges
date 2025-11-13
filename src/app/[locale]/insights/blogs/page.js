@@ -131,14 +131,12 @@ export default function Page() {
               </button>
               {showOptionsIndustry && (
                 <div className='absolute bg-white border border-[#707070] w-[165px] md:w-[250px] sm:mr-4 mr-0 sm:right-0 right-2 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>
-                  <ul>
+                  <ul className="py-3">
                     {industries.map((industry, index) => (
                       <li
                         key={index}
-                        className={`px-5 py-2 cursor-pointer ${index === 0 ? 'pt-4' : index === industries.length - 1 ? 'pb-4' : ''
-                          }`}
-                        onClick={() => filterBlogsByIndustry(industry)}
-                      >
+                        className={`py-2 px-3 cursor-pointer`}
+                        onClick={() => filterBlogsByIndustry(industry)}>
                         {industry}
                       </li>
                     ))}
@@ -161,13 +159,12 @@ export default function Page() {
               </button>
               {showOptionsCategory && (
                 <div className='absolute bg-white border border-[#707070] w-[200px] md:w-[250px] right-0 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>
-                  <ul>
+                  <ul className="py-3">
                     {categories.map((category, index) => (
                       <li
                         key={category}
-                        className={`px-5 ${index === 0 ? 'pt-4' : 'py-2'} ${index === categories.length - 1 ? 'pb-4' : ''} cursor-pointer`}
-                        onClick={() => filterBlogsByCategory(category)}
-                      >
+                        className={`px-3 py-2 cursor-pointer`}
+                        onClick={() => filterBlogsByCategory(category)}>
                         {category}
                       </li>
                     ))}
