@@ -81,7 +81,7 @@ export default function Page() {
           <div>
             <div className="flex flex-col md:flex-row justify-between text-black items-center ">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>Diversity & Inclusion</span> <span className='text-[#ACACAC]'> | </span>12 Nov 2024
+                <span className='text-[#0092E0]'>SAP SuccessFactors</span> <span className='text-[#ACACAC]'> | </span>12 Nov 2024
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">

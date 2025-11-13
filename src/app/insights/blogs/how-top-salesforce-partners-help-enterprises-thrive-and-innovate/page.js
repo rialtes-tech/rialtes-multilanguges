@@ -6,7 +6,6 @@ import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 import BlogSocialIcons from '@/app/components/blogSocialIcons'
-import UnorderedList from "@/app/components/unorderedList";
 import Link from "next/link";
 
 export default function Page() {
@@ -334,7 +333,7 @@ export default function Page() {
                         {/* date and icons */}
                         <div className="sm:flex justify-between">
                             <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Salesforce</span>{" "}
+                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Salesforce Consulting</span>{" "}
                                 <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>10 October 2025
                             </div>
 

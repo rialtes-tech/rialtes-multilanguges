@@ -185,7 +185,6 @@ export default function Page() {
             agentAI: "Orchestrator of operations",
         },
     ];
-
     const benefits = [
         {
             title: "Higher Productivity",
@@ -224,7 +223,6 @@ export default function Page() {
         },
     ];
 
-
     const fullUrl = "https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems";
 
     return (
@@ -262,15 +260,12 @@ export default function Page() {
                 </div>
             </section>
 
-            <section
-                className="
-       custom-container"
-            >
+            <section className="custom-container"            >
                 <div className="pt-10 bg-white">
                     <div className=" mx-auto">
                         <div className="flex flex-col md:flex-row justify-between text-black items-center max-w-[1084px] xl:w-[1084px]">
                             <div className="sm:mb-0 mb-6">
-                                <span className="text-[#0092E0]">Artificial Intelligence</span>
+                                <span className="text-[#0092E0]">Agentic AI</span>
                                 <span className="text-[#ACACAC]"> | </span>25 August 2025
                             </div>
                             <div className="flex flex-col">

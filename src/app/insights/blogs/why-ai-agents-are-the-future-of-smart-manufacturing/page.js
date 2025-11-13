@@ -265,7 +265,7 @@ export default function page() {
                         {/* date and icons */}
                         <div className="sm:flex justify-between">
                             <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Artificial Intelligence</span>{" "}
+                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Agentic AI</span>{" "}
                                 <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>01 September 2025
                             </div>
 

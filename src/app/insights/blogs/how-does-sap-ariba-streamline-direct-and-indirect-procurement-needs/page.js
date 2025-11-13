@@ -39,8 +39,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="SAP Ariba Procurement for Direct & Indirect Efficiency | Rialtes
-"
+        title="SAP Ariba Procurement for Direct & Indirect Efficiency | Rialtes"
         description="SAP Ariba streamlines direct and indirect procurement by digitizing every step—from sourcing to payment—boosting savings, speed, and control."
         canonical={"https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"}
       />
@@ -84,7 +83,7 @@ export default function Page() {
           <div className="">
             <div className="flex flex-col md:flex-row justify-between text-black items-center ]">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px]'>SAP</span> <span className='text-[#ACACAC]'> | </span>29 May 2024
+                <span className='text-[#0092E0] text-[16px] md:text-[20px] xl:text-[20px]'>SAP Ariba</span> <span className='text-[#ACACAC]'> | </span>29 May 2024
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">

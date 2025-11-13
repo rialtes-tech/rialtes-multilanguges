@@ -82,7 +82,7 @@ export default function Page() {
           <div className=" pl-0 ">
             <div className="flex flex-col md:flex-row justify-between text-black items-center  ">
               <div className='sm:mb-0 mb-6'>
-                <span className='text-[#0092E0]'>General</span> <span className='text-[#ACACAC]'> | </span>22 April 2025
+                <span className='text-[#0092E0]'>SAP BDC</span> <span className='text-[#ACACAC]'> | </span>22 April 2025
               </div>
               <div className="flex flex-col">
                 <div className="flex flex-row gap-6">
