@@ -198,6 +198,17 @@
       }
     ],
     "latestBlogs": [
+        {
+        "id": 55,
+        "image": "/images/blog/digital-network-touch-data-connection-visualization-mobile.webp",
+        "category": "Intégration",
+        "industry": "Générique",
+        "date": "Nov. 12, 2025",
+        "url": "/boost-enterprise-agility-with-sap-consulting-implementation-services/",
+        "title": "Stimulez l’agilité de votre entreprise avec des services personnalisés de conseil et de mise en œuvre SAP",
+        "alt": "Main touchant réseau numérique lumineux pour agilité entreprise SAP et intégration",
+        "description": "Aujourd’hui, l’adaptabilité définit la survie ; le développement SAP personnalisé est devenu un moteur essentiel de l’agilité et de la croissance des entreprises."
+      },
       {
         "id": 54,
         "image": "/images/blog/futuristic-data-analytics-visualization-mobile.webp",
@@ -220,6 +231,7 @@
         "title": "Pourquoi les entreprises leaders choisissent les meilleurs partenaires de conseil SAP pour stimuler la croissance et l’innovation",
         "description": "Les entreprises évoluent dans un paysage complexe avec des données dispersées, des systèmes hérités, des équipes en silos et des attentes clients de plus en plus élevées."
       },
+    
       {
         "id": 52,
         "image": "/images/blog/exelona-cluster-feature-thumb.webp",
@@ -1219,10 +1231,11 @@
     ]
   },
   "newsDataBricks": {
-    "bannerImageMobile": "/images/homepage/databricks-partner-french-m.webp",
+    "bannerAlt" : "Annonce partenariat Rialtes et Databricks avec graphique cerveau polygone géométrique sur fond technologique bleu",
+    "bannerImageMobile": "/images/homepage/rialtes-databricks-certified-partnership-announcement-french-mobile.webp",
     "seoTitle": "Rialtes devient partenaire certifié Databricks",
     "seoDescription": "En tant que partenaire certifié Databricks, Rialtes permet aux entreprises de bénéficier de solutions de données basées sur l’IA dans les écosystèmes SAP et Salesforce.",
-    "bannerImage": "/images/homepage/databricks-partner-french.webp",
+    "bannerImage": "/images/homepage/rialtes-databricks-certified-partnership-announcement-french.webp",
     "title": "Rialtes renforce son jeu d’IA grâce à un partenariat avec Databricks pour alimenter une IA unifiée sur SAP et Salesforce",
     "paragraphs": [
       "<span class='font-bold'>Rialtes, </span>leader mondial du conseil et de la transformation digitale, annonce fièrement sa nouvelle désignation en tant que <span class='font-bold'>Partenaire Certifié Databricks</span>. Cette étape marque une avancée significative dans la mission de Rialtes visant à fournir des solutions de données et d’IA de pointe aux clients entreprises, en particulier ceux exploitant les plateformes <strong>SAP</strong> et <strong>Salesforce</strong>.",
