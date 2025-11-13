@@ -59,6 +59,16 @@ const allCategories = [
 ]
 
 const latestBlogs = [
+   {
+    id: 55,
+    image: "/images/blog/digital-network-touch-data-connection-visualization-mobile.webp",
+    category: "Integration",
+    industry: "Generic",
+    date: "Nov. 12, 2025",
+    url: "/boost-enterprise-agility-with-sap-consulting-implementation-services/",
+    title: "Boost Enterprise Agility with Tailored SAP Consulting and Implementation Services",
+    description: "Today, adaptability defines survival; custom SAP development has become a core driver of enterprise agility and growth. "
+  },
   {
     id: 54,
     image: "/images/blog/futuristic-data-analytics-visualization-mobile.webp",
