@@ -11,77 +11,35 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarouse from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "How to Build and Deploy Your First AI Agent with Agentforce",
-  "description": "This step-by-step guide shows how to build and deploy AI agents in Salesforce Agentforce without coding, using visual tools, templates, and workflows.",
-  "image": "https://www.rialtes.com/images/blog/artificial-intelligence-data-visualization.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes"
+
+const faqs = [
+  {
+    "question": "What is Agentforce, and how does it help build AI agents?",
+    "answer": "Agentforce is Salesforce’s agentic AI platform that lets you create intelligent agents without coding. Using tools like Agent Builder and Prompt Builder, you can automate workflows, integrate with CRM data, and deploy digital coworkers that reason, plan, and act on business tasks."
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
+  {
+    "question": "Can I build an AI agent in Agentforce without coding skills?",
+    "answer": "Yes. Agentforce provides a low-code, drag-and-drop interface. Business users, Salesforce admins, and product owners can build, train, and deploy agents using natural-language prompts and visual workflows—no advanced coding required."
   },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/"
+  {
+    "question": "What kinds of AI agents can I create with Agentforce?",
+    "answer": "You can build agents for customer support, sales assistance, HR onboarding, finance automation, IT helpdesks, marketing personalization, and compliance monitoring. Each agent is tailored to specific business processes and integrates with Salesforce data."
   },
-  "datePublished": "2025-09-02",
-  "mainEntity": {
-    "@type": "FAQPage",
-    "name": "Building and Deploying AI Agents in Agentforce FAQs",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is Agentic AI and why does it matter?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Agentic AI goes beyond simple automation. It enables agents to reason, plan, act, and adapt—essentially acting as digital coworkers rather than bots."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I build AI agents in Salesforce without coding?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Agentforce Agent Builder offers a drag-and-drop, low-code interface to build AI agents using templates, workflows, and prompt builder tools."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What are the steps to build and deploy an AI agent in Agentforce?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The process includes defining the agent’s purpose, setting up Agentforce, structuring logic with Agent Builder, training the agent, building conversations, integrating systems, testing, and deploying."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What kind of AI agents can be built with Agentforce?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You can build customer support agents, sales assistants, HR and recruitment bots, finance agents, IT helpdesk bots, marketing agents, and compliance monitors."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I keep my AI agent effective after deployment?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Ensure continuous learning with new data, run regular security reviews, add integrations as needs evolve, and monitor key performance metrics like resolution rates and user satisfaction."
-        }
-      }
-    ]
+  {
+    "question": "How do I ensure my AI agent stays accurate and secure over time?",
+    "answer": "Continuous training and monitoring are key. Feed your agent updated data, run regular audits with Salesforce’s Trust Layer, and track metrics like resolution rates and user satisfaction. This ensures accuracy, compliance, and long-term performance."
+  },
+  {
+    "question": "What systems can Agentforce agents connect with?",
+    "answer": "Agents integrate with Salesforce CRM objects, Data Cloud, external APIs, ERPs,knowledge bases, and service tools. This gives them real-time access to customer and business data, enabling smarter decisions and actions."
+  },
+  {
+    "question": "How do I deploy my first AI agent with Agentforce?",
+    "answer": "You’ll follow a clear process: define your agent’s purpose, use Agent Builder to design workflows, train the agent with data, build prompts, connect systems, run simulations, and finally deploy and monitor it in production."
   }
-}
+]
 
 export default function Page() {
   const t = useTranslations("firstAiAgent");
@@ -92,15 +50,88 @@ export default function Page() {
     fr: frContent,
   });
   const {
-    stepToGuideData,
-    agentBuilderData,
-    componentsData,
-    actionsData,
-    typesOfAgents,
+    mainData,
+    whatIsAgenticData,
+    meetData,
+    stepsData,
+    whatPowerData,
+    whatKindData,
+    keepYourData,
+    readyData
   } = blogsContent.firstAiAgent;
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce";
   const currUrl = useUrl();
 
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "How to Build and Deploy Your First AI Agent with Agentforce",
+    "description": "This step-by-step guide shows how to build and deploy AI agents in Salesforce Agentforce without coding, using visual tools, templates, and workflows.",
+    "image": "https://www.rialtes.com/images/blog/artificial-intelligence-data-visualization.webp",
+    "author": {
+      "@type": "Organization",
+      "name": "Rialtes"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Rialtes",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.rialtes.com/images/homepage/logo.svg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/"
+    },
+    "datePublished": "2025-09-02",
+    "mainEntity": {
+      "@type": "FAQPage",
+      "name": "Building and Deploying AI Agents in Agentforce FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Agentic AI and why does it matter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agentic AI goes beyond simple automation. It enables agents to reason, plan, act, and adapt—essentially acting as digital coworkers rather than bots."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I build AI agents in Salesforce without coding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Agentforce Agent Builder offers a drag-and-drop, low-code interface to build AI agents using templates, workflows, and prompt builder tools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the steps to build and deploy an AI agent in Agentforce?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The process includes defining the agent’s purpose, setting up Agentforce, structuring logic with Agent Builder, training the agent, building conversations, integrating systems, testing, and deploying."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What kind of AI agents can be built with Agentforce?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can build customer support agents, sales assistants, HR and recruitment bots, finance agents, IT helpdesk bots, marketing agents, and compliance monitors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I keep my AI agent effective after deployment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ensure continuous learning with new data, run regular security reviews, add integrations as needs evolve, and monitor key performance metrics like resolution rates and user satisfaction."
+          }
+        }
+      ]
+    }
+  }
   return (
     <div className="min-h-screen">
       <Seo
@@ -140,161 +171,205 @@ export default function Page() {
 
       <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
         <div className="grid lg:grid-cols-12">
-          <div className="4xl:col-span-9 xl:col-span-10 lg:col-span-11">
+          <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
             {/* date and icons */}
             <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="02 September 2025" />
-            {/* main blog */}
 
+            {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
-                {t("blogTitle")}
-              </h1>
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]">{t('blogTitle')}</h1>
 
               <div className="xl:mt-[38px] mt-[33px]">
-                {" "}
-                <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">
-                  {t("mainData")}
-                </p>
-                <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">
-                  {t("mainData2")}
-                </p>
-              </div>
-              <div className="md:mt-[50px] mt-[40px]">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                  {t("agentforceTitle")}
-                </h2>
-
-                <p className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] xl:text-[17px] text-[16px]">
-                  {t("agentforceDesc")}
-                </p>
-                <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">
-                  {t("agentforceDesc2")}
-                </p>
-                <ul className="list-disc marker:text-black marker:text-xl mt-2 space-y-3 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium pl-[36px] lg:pl-[56px]">
-                  {agentBuilderData.map((data, ind) => {
-                    return (
-                      <li key={ind}>
-                        <h4 className="inline 4xl:text-[22px] text-[18px] leading-tight">
-                          {data.title}
-                        </h4>
-                        {data.desc}
-                      </li>
-                    );
-                  })}
-                </ul>
-                <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">
-                  {t("agentforceDesc3")}
-                </p>
-              </div>
-              <div className="md:mt-[50px] mt-[40px]">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                  {t("stepsTitle")}
-                </h2>
-                <div className="mt-[29px] xl:mt-[34px]">
-                  {stepToGuideData.map((data, ind) => {
+                {
+                  mainData.map((data, ind) => {
                     return (
                       <div key={ind}>
-                        <h3 className="4xl:text-[22px] text-[18px] leading-tight mt-7 font-bold">
-                          {data.step}
-                        </h3>
-                        {data.desc && (
-                          <p className="mt-1  4xl:text-[20px] xl:text-[17px] text-[16px]">
-                            {data.desc}
-                          </p>
-                        )}
-                        <UnorderedList
-                          arrName={data.list}
-                          ulClassName="list-disc marker:text-black marker:text-xl text-black  mt-2 space-y-1 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium pl-[36px] lg:pl-[56px]"
-                          liClassName=""
+                        <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight">{data.title}</h3>
+
+                        <UnorderedList arrName={data.desc} ulClassName="mt-3 space-y-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
+                        <UnorderedList arrName={data.list} ulClassName="pl-[36px] lg:pl-[60px] space-y-1 mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium" />
+                        <p
+                          className="mt-8 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                          dangerouslySetInnerHTML={{ __html: data.desc2 }}
                         />
                       </div>
-                    );
-                  })}
-                </div>
+                    )
+                  })
+                }
               </div>
+
+              {/* what is agentic ai section */}
               <div className="md:mt-[50px] mt-[40px]">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                  {t("componentsTitle")}
-                </h2>
-                <div className="mt-[29px] xl:mt-[34px]">
-                  {componentsData.map((data, ind) => {
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('whatAgenticTitle')} </h2>
+                {
+                  whatIsAgenticData.map((data, ind) => {
+                    return (
+                      <p
+                        key={ind}
+                        className={`${ind == 0 ? "mt-[22px] xl:mt-[30px]" : "mt-5"} 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                        dangerouslySetInnerHTML={{ __html: data }}
+                      />
+                    )
+                  })
+                }
+              </div>
+
+
+              {/* meet section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('meetTitle')}</h2>
+                {
+                  meetData.map((data, ind) => {
                     return (
                       <div key={ind}>
-                        <h3 className="4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] mt-7 font-bold">
+                        <h3 className="mt-[22px] xl:mt-[30px] font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight">{data.title}</h3>
+
+                        <UnorderedList arrName={data.desc} ulClassName="mt-5 space-y-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
+                        <ul className="pl-[36px] lg:pl-[46px] space-y-3 mt-5">
+                          {data.list.map((elems, idx) => (
+                            <li
+                              key={idx}
+                              className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium"
+                            >
+                              <h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                {elems.title}
+                              </h4>{" "}
+                              {elems.desc}
+                            </li>
+                          ))}
+                        </ul>
+                        <p
+                          className="mt-8 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                          dangerouslySetInnerHTML={{ __html: data.desc2 }}
+                        />
+                      </div>
+                    )
+                  })
+                }
+              </div>
+
+              {/* steps section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t('stepTitle')}
+                </h2>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('stepDesc')}
+                </p>
+
+                {/* Steps Content */}
+                <div className="md:mt-[65px] mt-[40px] relative py-[30px] md:py-[60px]">
+                  <div className="absolute top-0 xl:left-[-40px] 3xl:left-[-80px] 4xl:left-[-120px] w-full 4xl:w-[1730px] lg:w-[1030px] xl:w-[1220px] 3xl:w-[1450px] h-full bg-[#F4F4F4] z-0" />
+                  {stepsData.map((data, ind) => (
+                    <div
+                      key={ind}
+                      className={`relative grid grid-cols-12 py-[32px] px-[30px] border-b border-[#D9D9D9] last:border-b-0`}>
+                      <div className="col-span-1">
+                        <p className="text-[#1486E6] font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight mb-3">
+                          STEP
+                        </p>
+                        <p className="inline 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] text-white bg-[#1486E6] py-2 px-6">
+                          {ind + 1}
+                        </p>
+                      </div>
+                      <div className="col-span-11 md:pl-[40px] pl-[60px]">
+                        <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight">
                           {data.title}
                         </h3>
-                        {data.desc && (
-                          <p className="mt-2 4xl:text-[20px] xl:text-[17px] text-[16px]">
-                            {data.desc}
-                          </p>
-                        )}
-                        <ul className="list-disc marker:text-black marker:text-xl text-black  mt-2 space-y-3 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium pl-[36px] lg:pl-[56px]">
-                          {data.list.map((elem, id) => {
-                            return (
-                              <li key={id}>
-                                <h4 className="inline 4xl:text-[22px] text-[18px] leading-tight">
-                                  {elem.title}:{" "}
-                                </h4>
-                                {elem.desc}
-                              </li>
-                            );
-                          })}
-                        </ul>
-                        {data.desc2 && (
-                          <p className="mt-3 4xl:text-[20px] xl:text-[17px] text-[16px]">
-                            {data.desc2}
-                          </p>
-                        )}
+                        <p
+                          key={`desc2-${ind}`}
+                          className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] text-[#333]"
+                          dangerouslySetInnerHTML={{ __html: data.desc }}
+                        />
                       </div>
-                    );
-                  })}
+                    </div>
+                  ))}
                 </div>
+              </div>
 
-                <h3 className="4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] mt-7 font-bold">
-                  {t("actionsTitle")}
-                </h3>
-                <p className="mt-1  4xl:text-[20px] xl:text-[17px] text-[16px]">
-                  {t("actionsDesc")}
-                </p>
-                <UnorderedList
-                  arrName={actionsData}
-                  ulClassName="mt-3 list-disc 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[36px] lg:pl-[56px] space-y-2"
-                  liClassName="text-black font-medium"
-                />
-              </div>
+              {/* what powers section */}
               <div className="md:mt-[50px] mt-[40px]">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                  {t("typeTitle")}
+                  {t('whatPowerTitle')}
                 </h2>
-                <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
-                  {t("typeDesc")}
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('whatPowerDesc')}
                 </p>
-                <ul className="list-decimal pl-[26px] lg:pl-[32px] marker:text-black marker:text-xl  mt-2 space-y-3 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium ">
-                  {typesOfAgents.map((data, ind) => {
+                <div>
+                  {whatPowerData.map((elem, id) => (
+                    <div className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[30px] px-[26px] md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative md:ml-[100px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto" key={id}>
+                      <p className="md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[320px] lg:w-[300px] md:w-[280px] w-fit md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] px-[40px] py-[22px] leading-tight">{elem.title}</p>
+                      <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[200px] lg:ml-[240px] 4xl:ml-[260px]" dangerouslySetInnerHTML={{ __html: elem.desc }} />
+                    </div>
+                  ))}
+                </div>
+                <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('whatPowerDesc2')}
+                </p>
+              </div>
+
+              {/* what kind section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  {t('whatKindTitle')}
+                </h2>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('whatKindDesc')}
+                </p>
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-[40px] mt-[40px] gap-[20px] sm:w-[90%] md:w-full 4xl:w-[1250px]">
+                  {whatKindData.map((elem, id) => (
+                    <div className="4xl:p-[36px] p-[22px] border border-[#707070]" key={id}>
+                      <h3 className="text-[#006FBE] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold">{elem.title}</h3>
+                      <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" dangerouslySetInnerHTML={{ __html: elem.desc }} />
+                    </div>
+                  ))}
+                </div>
+                <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                  {t('whatKindDesc2')}
+                </p>
+              </div>
+
+              {/* keep your section */}
+              <div className="md:mt-[50px] mt-[40px]">
+                {
+                  keepYourData.map((data, ind) => (
+                    <div key={ind}>
+                      <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+                      <p
+                        className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                        dangerouslySetInnerHTML={{ __html: data.desc }}
+                      />
+                      <UnorderedList arrName={data.list} ulClassName="pl-[36px] lg:pl-[56px] space-y-3 mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-decimal font-medium" />
+
+                    </div>
+                  ))
+                }
+              </div>
+
+              {/* ready data */}
+              <div className="md:mt-[50px] mt-[40px]">
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('readyTitle')} </h2>
+                {
+                  readyData.map((data, ind) => {
                     return (
-                      <li className="" key={ind}>
-                        <h4 className="inline 4xl:text-[22px] text-[18px] leading-tight ">
-                          {data.title}
-                        </h4>
-                        - {data.desc}
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-              <div className="md:mt-[50px] mt-[40px]">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                  {t("futureTitle")}
-                </h2>
-                <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
-                  {t("futureDesc")}
-                </p>
-                <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">
-                  {t("futureDesc2")}
-                </p>
+                      <p
+                        key={ind}
+                        className={`${ind == 0 ? "mt-[22px] xl:mt-[30px]" : "mt-5"} 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                        dangerouslySetInnerHTML={{ __html: data }}
+                      />
+                    )
+                  })
+                }
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      {/* faq section */}
+      <section className="xl:mt-[80px] mt-[40px] custom-container">
+        <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px]">{t('faqTitle')}</h2>
+        <div className="mt-[29px] xl:mt-[34px]">
+          <FAQAccordion faqData={faqs} />
         </div>
       </section>
       {/* blog carousel */}

@@ -200,6 +200,28 @@
     ],
     "latestBlogs": [
       {
+        "id": 54,
+        "image": "/images/blog/futuristic-data-analytics-visualization-mobile.webp",
+        "category": "SAP",
+        "industry": "Generic",
+        "date": "Nov. 11, 2025",
+        "alt": "Conceptual illustration of a smart city connected through cloud computing and data networks Conceptual illustration of a smart city connected through cloud computing and data networks",
+        "url": "/sap-implementation-strategies-for-2026-success/",
+        "title": "Proven SAP Implementation Strategies that Minimize Risk and Accelerate ROI",
+        "description": "We know that implementing SAP isn’t just about upgrading a system. It’s about reshaping how an enterprise operates,from finance and supply chain to HR and customer experience."
+      },
+      {
+        "id": 53,
+        "image": "/images/blog/digital-transformation-journey-ai-mobile.webp",
+        "category": "SAP",
+        "industry": "Generic",
+        "date": "Nov. 10, 2025",
+        "url": "/why-enterprises-choose-sap-consulting-partners/",
+        "alt": "Abstract image of a person walking on a digital path surrounded by silhouettes made of data points, symbolizing AI-driven digital transformation and innovation journey",
+        "title": "Why Leading Enterprises Choose Top SAP Consulting Partners for Growth and Innovation",
+        "description": "Enterprises have been operating in a complex landscape with scattered data, legacy systems, siloed teams, and mounting customer expectations."
+      },
+      {
         "id": 52,
         "image": "/images/blog/exelona-cluster-feature-thumb.webp",
         "category": "Exelona",
@@ -229,7 +251,7 @@
         "date": "Oct. 31, 2025",
         "url": "/smart-api-integrations-for-real-estate-2026/",
         "title": "5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
-        "alt":"5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
+        "alt": "5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
         "description": "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. "
       },
       {
@@ -240,7 +262,7 @@
         "date": "Oct. 27, 2025",
         "url": "/tracking-service-level-agreements-without-losing-mind/",
         "title": "How Do You Track SLAs and Billing Without Losing Your Mind?",
-        "alt":"How Do You Track SLAs and Billing Without Losing Your Mind?",
+        "alt": "How Do You Track SLAs and Billing Without Losing Your Mind?",
         "description": " A service-level agreement (SLA) outlines the expected level of service from a vendor. It specifies the metrics used to measure that service and the remedies available if the agreed-upon service levels are not met."
       },
       {

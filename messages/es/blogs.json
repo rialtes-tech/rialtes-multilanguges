@@ -3258,247 +3258,183 @@
         "bannerAlt": "Hombre interactuando con una ola luminosa de visualización de datos de IA que representa la transformación digital y el aprendizaje automático.",
         "seoTitle": "Cómo Implementar Agentes de IA en Salesforce Agentforce",
         "seoDescription": "¿Listo para automatizar con IA? Usa esta guía paso a paso para crear e implementar agentes de IA en Agentforce sin código ni altos costos.",
-        "stepToGuideData": [
+        "blogTopic": "Inteligencia Artificial",
+        "mainData": [
             {
-                "step": "Paso 1: Define el Propósito de tu Agente de IA",
-                "description": "Antes de comenzar a construir, determina qué hará tu agente de IA.",
+                "title": "¿Quieres crear un agente de IA sin programar? Empieza aquí.",
+                "desc": [
+                    "Para 2028, el 33 % de las aplicaciones de software empresarial utilizarán IA agente. La transición de la IA predictiva a la generativa se ha acelerado, permitiendo a las empresas ir más allá de la simple previsión para definir acciones óptimas. A pesar de las preocupaciones éticas, el valor de entrenar la IA para el crecimiento y su papel en <a href='https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>impulsar el futuro sostenible del planeta</a> es evidente.",
+                    "Si has estado pensando en automatizar tareas empresariales con IA pero no sabes por dónde empezar, este es el punto de partida. Agentforce de Salesforce te permite crear agentes de IA sin necesidad de escribir código complejo ni invertir en infraestructura costosa.",
+                    "Esta guía te explica todo:"
+                ],
                 "list": [
-                    "Automatizar respuestas de servicio al cliente",
-                    "Gestionar flujos de trabajo internos y aprobaciones",
-                    "Asistir a los equipos de ventas con la calificación de prospectos"
-                ]
-            },
-            {
-                "step": "Paso 2: Configura tu Entorno de Agentforce",
-                "list": [
-                    "Inicia sesión en Agentforce y navega al módulo de creación de agentes",
-                    "Selecciona las plantillas preconstruidas u opta por un agente de IA personalizado"
-                ]
-            },
-            {
-                "step": "Paso 3: Usa Agentforce Agent Builder",
-                "list": [
-                    "Abre el Agentforce Agent Builder para una experiencia de desarrollo intuitiva",
-                    "Elige entre varios componentes de IA preconfigurados para acelerar la configuración",
-                    "Utiliza herramientas de arrastrar y soltar para diseñar flujos de trabajo fácilmente"
-                ]
-            },
-            {
-                "step": "Paso 4: Configura las Capacidades de IA",
-                "list": [
-                    "Elige el modelo de IA que se alinee con el propósito de tu agente (p. ej., PLN para chatbots, analítica predictiva para pronósticos)",
-                    "Entrena el modelo usando datos históricos o intégralo con fuentes de datos externas"
-                ]
-            },
-            {
-                "step": "Paso 5: Define Flujos de Trabajo y Acciones",
-                "list": [
-                    "Usa el generador de flujos de trabajo para diseñar la lógica de toma de decisiones del agente",
-                    "Configura disparadores, respuestas y reglas de escalamiento para guiar las interacciones"
-                ]
-            },
-            {
-                "step": "Paso 6: Integra con Sistemas Empresariales",
-                "list": [
-                    "Conecta tu agente de IA a Salesforce, SAP o APIs de terceros para optimizar el intercambio de datos",
-                    "Asegura la autenticación segura y el cumplimiento con las políticas de datos"
-                ]
-            },
-            {
-                "step": "Paso 7: Prueba y Optimiza",
-                "list": [
-                    "Ejecuta simulaciones para validar las respuestas del agente",
-                    "Recoge retroalimentación y perfecciona su comportamiento usando capacidades de aprendizaje continuo"
-                ]
-            },
-            {
-                "step": "Paso 8: Despliega y Monitorea el Rendimiento",
-                "list": [
-                    "Despliega tu agente de IA en producción y monitorea KPIs como precisión en las respuestas, tiempo de resolución y satisfacción del usuario",
-                    "Usa el panel de análisis de Agentforce para seguir el rendimiento y realizar mejoras"
-                ]
+                    "Qué es la IA agente",
+                    "Cómo construir tu primer agente de IA",
+                    "Casos de uso reales",
+                    "Qué herramientas y datos necesitas",
+                    "Y cómo preparar tu implementación para el futuro"
+                ],
+                "desc2": "Lo haremos simple, visual y orientado a la acción, para que, seas propietario de producto, administrador de Salesforce o líder de innovación, sepas exactamente cómo comenzar hoy."
             }
         ],
-        "agentBuilderData": [
-            {
-                "title": "Recolección de Datos: ",
-                "desc": "Adquirir conjuntos de datos grandes y diversos para entrenar eficazmente los modelos de IA."
-            },
-            {
-                "title": "Entrenamiento de Modelos: ",
-                "desc": "Aprovechar métodos de aprendizaje supervisado, no supervisado y por refuerzo para desarrollar capacidades de IA."
-            },
-            {
-                "title": "Procesamiento de Lenguaje Natural (PLN): ",
-                "desc": "Permitir que la IA interprete, comprenda y se comunique usando lenguaje humano."
-            },
-            {
-                "title": "Aprendizaje por Refuerzo: ",
-                "desc": "Mejorar la capacidad del agente para refinar sus acciones mediante retroalimentación y recompensas."
-            },
-            {
-                "title": "Algoritmos de Toma de Decisiones: ",
-                "desc": "Implementar estrategias computacionales que analicen datos y determinen acciones óptimas."
-            },
-            {
-                "title": "Generación de Acciones: ",
-                "desc": "Diseñar mecanismos que permitan a los agentes de IA ejecutar decisiones en escenarios reales."
-            }
+        "whatIsAgenticData": [
+            "Vamos a desglosarlo:",
+            "La mayoría de las herramientas de IA actuales responden a instrucciones o automatizan tareas simples. La IA agente va más allá. Permite <a href='https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>agentes que pueden razonar, planificar, actuar y adaptarse</a>. Piénsalo como una IA con iniciativa.",
+            "En el contexto de Salesforce, Agentforce es la plataforma que da vida a la IA agente. Está diseñada para ayudarte a construir agentes inteligentes que trabajen entre sistemas, automaticen la toma de decisiones, interactúen de manera natural con los usuarios y aprendan y mejoren continuamente. Ya sea que estés integrando datos de CRM, optimizando flujos de trabajo o creando experiencias personalizadas, Agentforce equipa a tu empresa con las herramientas para hacer que la IA sea realmente adaptable y colaborativa.",
+            "No estás construyendo solo un bot. Estás desplegando un compañero digital que sabe qué hacer y cuándo escalar."
         ],
-        "componentsData": [
+        "meetData": [
             {
-                "title": "Metadatos",
-                "desc": "Los metadatos de Salesforce establecen reglas universales para el acceso a datos en aplicaciones y agentes, garantizando:",
+                "title": "Crea agentes de IA con herramientas visuales, no con código",
+                "desc": [
+                    "Aquí es donde ocurre la magia. Agentforce Agent Builder es tu lienzo de arrastrar y soltar para crear agentes inteligentes adaptados a tu negocio. Es una herramienta de bajo código dentro de Salesforce para personalizar agentes de IA en diversas funciones empresariales. Los usuarios pueden crear tareas para los agentes definiendo temas con instrucciones en lenguaje natural y estableciendo límites.",
+                    "Qué lo hace diferente:"
+                ],
                 "list": [
                     {
-                        "title": "Permisos",
-                        "desc": "Controla el acceso a los conjuntos de datos."
+                        "title": "Interfaz de bajo código",
+                        "desc": "Crea con clics, no con código"
                     },
                     {
-                        "title": "Modelos de Compartición",
-                        "desc": "Define reglas de compartición de datos."
+                        "title": "Plantillas reutilizables",
+                        "desc": "Comienza más rápido con flujos preconstruidos"
                     },
                     {
-                        "title": "Reglas de Validación",
-                        "desc": "Hace cumplir la integridad de los datos."
+                        "title": "Creador de Prompts",
+                        "desc": "Diseña conversaciones inteligentes usando IA generativa"
                     },
                     {
-                        "title": "Automatización de Flujos de Trabajo",
-                        "desc": "Mejora la eficiencia."
+                        "title": "Automatización de flujos de trabajo",
+                        "desc": "Define cómo debe actuar o escalar el agente"
+                    },
+                    {
+                        "title": "Herramientas de prueba y depuración",
+                        "desc": "Simula interacciones antes del lanzamiento"
                     }
                 ],
-                "desc2": "Los metadatos mejoran la precisión de la IA al proporcionar contexto, permitiendo que los LLM presenten datos de CRM en un formato procesable."
+                "desc2": "Ya sea que estés creando un asistente financiero, un agente de incorporación de RR. HH. o un bot de servicio en campo, el proceso de configuración es el mismo."
+            }
+        ],
+        "stepsData": [
+            {
+                "title": "Define el propósito de tu agente",
+                "desc": "Decide qué proceso empresarial deseas automatizar: atención al cliente, seguimiento de pedidos, gestión de pólizas, enrutamiento de leads, etc."
+            },
+            {
+                "title": "Configura tu entorno Agentforce",
+                "desc": "Inicia sesión en tu organización de Salesforce con Agentforce habilitado. Elige si comenzarás con un agente preconstruido o desde cero."
+            },
+            {
+                "title": "Usa Agent Builder para estructurar la lógica",
+                "desc": "Arrastra y suelta flujos de decisión. Agrega tareas como 'consultar CRM', 'enviar alerta' o 'actualizar caso'. Personaliza cómo tu agente maneja las consultas y cuándo debe escalar."
+            },
+            {
+                "title": "Entrena a tu agente",
+                "desc": "Utiliza datos históricos, transcripciones de chat o entradas estructuradas para perfeccionar cómo el agente interpreta la intención y responde."
+            },
+            {
+                "title": "Crea conversaciones con Prompt Builder",
+                "desc": "Diseña prompts dinámicos para guiar el lenguaje del agente. Ajusta el tono y el contexto según las características del usuario."
+            },
+            {
+                "title": "Integra con sistemas",
+                "desc": "Conéctate con objetos de Salesforce, API externas, bases de conocimiento o CRMs. Los agentes pueden recuperar datos, ejecutar acciones o actualizar registros en tiempo real."
+            },
+            {
+                "title": "Prueba y simula",
+                "desc": "Usa los entornos de prueba integrados para ejecutar simulaciones. Observa cómo el agente maneja casos límite, consultas ambiguas o entradas inesperadas."
+            },
+            {
+                "title": "Despliega y monitorea",
+                "desc": "Publica tu agente. Utiliza paneles para monitorear interacciones, transferencias, tiempos de resolución e información de rendimiento."
+            }
+        ],
+        "whatPowerData": [
+            {
+                "title": "Metadatos",
+                "desc": "La capa de configuración: lo que el agente sabe sobre objetos, flujos de trabajo, roles de usuario y reglas."
             },
             {
                 "title": "Data Cloud",
-                "desc": "Datos unificados y de alta calidad impulsan la IA. Salesforce Data Cloud consolida datos de Salesforce y externos, tanto estructurados como no estructurados.",
-                "list": [
-                    {
-                        "title": "200+ Conectores",
-                        "desc": "Integración fluida con diversas fuentes."
-                    },
-                    {
-                        "title": "Conectores Personalizados",
-                        "desc": "Conexiones de datos adaptadas."
-                    }
-                ],
-                "desc2": "Una vez unificados, Data Cloud activa los datos en agentes de IA, análisis y aplicaciones, eliminando silos y ofreciendo experiencias personalizadas."
+                "desc": "Unifica datos de distintas fuentes (CRM, ERP, herramientas de servicio) para ofrecer a tu agente un contexto en tiempo real y de 360°."
             },
             {
                 "title": "Modelos",
-                "desc": "La arquitectura flexible de modelos de Agentforce permite una integración sencilla de:",
-                "list": [
-                    {
-                        "title": "Modelos Base Hospedados",
-                        "desc": "Innovaciones de IA listas para usar."
-                    },
-                    {
-                        "title": "Modelos Ajustados",
-                        "desc": "Modelos de IA personalizados."
-                    },
-                    {
-                        "title": "Modelos Definidos por el Usuario",
-                        "desc": "Construidos con datos propios."
-                    }
-                ],
-                "desc2": ""
+                "desc": "Elige entre Einstein, tu propio modelo o LLMs ajustados para tareas como clasificación o conversación."
             },
             {
-                "title": "Herramientas",
-                "desc": "Agentforce proporciona herramientas de bajo código para el desarrollo de IA:",
-                "list": [
-                    {
-                        "title": "Generador de Prompts",
-                        "desc": "Crea plantillas de prompts reutilizables basadas en datos."
-                    },
-                    {
-                        "title": "Agent Builder",
-                        "desc": "Una herramienta visual para configurar y probar agentes de IA."
-                    }
-                ],
-                "desc2": "Con estos componentes clave en su lugar, ¡comencemos a construir tu primer Agente de IA con Agentforce!"
+                "title": "Creador de Prompts",
+                "desc": "Una herramienta sin código para crear prompts dinámicos usando lenguaje natural y lógica empresarial."
             },
             {
-                "title": "Capa de Confianza Einstein",
-                "desc": "Garantiza un uso seguro de la IA sin comprometer los datos a través de:",
-                "list": [
-                    {
-                        "title": "Puerta de Enlace Segura",
-                        "desc": "Hace cumplir las políticas de seguridad."
-                    },
-                    {
-                        "title": "Enmascaramiento de Datos",
-                        "desc": "Anonimiza la PII."
-                    },
-                    {
-                        "title": "Política de Retención Cero",
-                        "desc": "Impide que los proveedores de modelos almacenen datos."
-                    },
-                    {
-                        "title": "Posprocesamiento",
-                        "desc": "Detecta toxicidad y mantiene registros de auditoría."
-                    }
-                ],
-                "desc2": ""
+                "title": "Capa de Confianza",
+                "desc": "Protege la privacidad de los datos, gobierna el comportamiento del modelo y registra las decisiones del agente para auditorías."
+            },
+            {
+                "title": "Marco de Acción",
+                "desc": "Permite que los agentes actúen y no solo conversen. Enviar formularios, actualizar bases de datos, enviar correos electrónicos o activar flujos."
             }
         ],
-        "actionsData": [
-            "Código Personalizado",
-            "APIs",
-            "Flujos",
-            "Plantillas de Prompts"
-        ],
-        "typesOfAgents": [
+        "whatKindData": [
             {
-                "title": "Agentes de Soporte al Cliente",
-                "desc": "Automatizan respuestas, manejan preguntas frecuentes y escalan consultas complejas."
+                "title": "Agentes de Atención al Cliente",
+                "desc": "Gestionan consultas, clasifican tickets, extraen pedidos anteriores y escalan casos complejos."
             },
             {
                 "title": "Asistentes de Ventas",
-                "desc": "Califican prospectos, recomiendan productos y ayudan a cerrar tratos."
+                "desc": "Sugerir próximas acciones, calificar leads y registrar actualizaciones de CRM al instante."
             },
             {
                 "title": "Bots de RR. HH. y Reclutamiento",
-                "desc": "Filtran candidatos, programan entrevistas y gestionan la incorporación."
+                "desc": "Evalúan candidatos, responden preguntas sobre políticas o automatizan procesos de incorporación."
             },
             {
                 "title": "Agentes de Finanzas y Contabilidad",
-                "desc": "Automatizan el procesamiento de facturas, el seguimiento de gastos y la detección de fraudes."
+                "desc": "Conciliar facturas, rastrear pagos y detectar anomalías."
             },
             {
-                "title": "Bots de Mesa de Ayuda de TI",
-                "desc": "Resuelven problemas técnicos comunes, restablecen contraseñas y gestionan tickets de TI."
+                "title": "Bots de Soporte Técnico (IT Helpdesk)",
+                "desc": "Proporcionan pasos de resolución de problemas, registran tickets y supervisan la resolución de incidentes."
             },
             {
-                "title": "Asistentes de Marketing",
-                "desc": "Personalizan la interacción con el cliente, ejecutan campañas y analizan tendencias."
+                "title": "Agentes de Marketing",
+                "desc": "Analizan datos de campañas, personalizan contenido o responden preguntas sobre productos."
             },
             {
-                "title": "Optimizadores de la Cadena de Suministro",
-                "desc": "Rastrean envíos, gestionan inventario y predicen la demanda."
-            },
-            {
-                "title": "Agentes de Cumplimiento y Seguridad",
-                "desc": "Supervisan la adherencia a políticas, detectan anomalías y señalan riesgos."
+                "title": "Monitores de Cumplimiento",
+                "desc": "Detectan violaciones de políticas, documentan decisiones y ayudan a cumplir con regulaciones."
             }
         ],
-        "blogTopic": "Inteligencia Artificial",
-        "blogTitle": "Construye y Despliega tu Primer Agente de IA Usando Agentforce",
-        "mainData": "Para 2028, el 33% de las aplicaciones de software empresarial utilizarán IA agentiva. La transición de la IA Predictiva a la Generativa se ha acelerado, permitiendo a las empresas ir más allá de la simple previsión hacia la definición de acciones óptimas. A pesar de las preocupaciones éticas, el valor de entrenar IA para el crecimiento es claro. Enseñar a la IA a comprender el lenguaje humano mejora su capacidad para responder y realizar tareas útiles.",
-        "mainData2": "Con Salesforce introduciendo Agentes de IA a través de Agentforce, una nueva revolución está en marcha. Los Agentes de IA de Agentforce son tanto asistivos como autónomos, equipados con conocimiento bien procesado y experiencia a nivel humano. Estos agentes pueden recomendar acciones, razonar eficazmente y manejar múltiples consultas sin intervención humana en cada paso. Sin embargo, aunque ofrecen mayor autonomía que otros sistemas de IA, construir agentes de IA requiere preparación cuidadosa y planificación estratégica.",
-        "agentforceTitle": "Agentforce Agent Builder",
-        "agentforceDesc": "Agent Builder es una herramienta de bajo código en Salesforce para personalizar agentes de IA en diversas funciones empresariales. Los usuarios pueden crear tareas para los agentes definiendo temas con instrucciones en lenguaje natural y estableciendo límites. Cuenta con opciones de prueba, transferencia fluida a humanos y plantillas integradas para servicio al cliente, ventas o comercio electrónico. Esto permite a las empresas automatizar procesos fácilmente y personalizar agentes para cualquier industria usando herramientas existentes de Salesforce como Flows, Apex y APIs.",
-        "agentforceDesc2": "Construir agentes de IA implica múltiples técnicas, que pueden clasificarse en seis áreas clave:",
-        "agentforceDesc3": "Agent Builder simplifica el proceso, permitiendo a los usuarios empresariales crear agentes de IA sin necesidad de amplias habilidades de codificación.",
-        "stepsTitle": "Guía Paso a Paso para Construir un Agente de IA con Agentforce",
-        "componentsTitle": "Componentes que Construyen y Personalizan Agentes de IA",
-        "actionsTitle": "Acciones",
-        "actionsDesc": "Las acciones permiten a los agentes de IA ejecutar lógica e integrarse con sistemas externos. Se pueden crear acciones estándar y personalizadas usando:",
-        "typeTitle": "Tipos de Agentes de IA que Puedes Construir con Agentforce",
-        "typeDesc": "Los agentes de IA de Agentforce ayudan a escalar la fuerza laboral en varias industrias. Su personalización fácil de usar y de bajo código permite a los usuarios empresariales aprovechar eficazmente los sistemas multiagente. Aquí están sus principales roles y funciones en diferentes sectores:",
-        "futureTitle": "Prepara tu Agente de IA para el Futuro y Renueva la Experiencia del Cliente",
-        "futureDesc": "Vimos que construir un agente de IA con Agentforce es un proceso sencillo que permite a las empresas utilizar la automatización impulsada por IA. Con Agentforce Agent Builder, cualquier usuario puede crear agentes usando consultas en lenguaje natural. Para garantizar el éxito a largo plazo, actualiza continuamente tu agente de IA con nuevos conjuntos de datos para una mayor precisión, integraciones mejoradas con tecnologías emergentes y auditorías regulares para mantener el cumplimiento y la seguridad. Sin embargo, el despliegue exitoso también requiere una infraestructura tecnológica integrada para que los agentes accedan a datos actualizados y funcionen eficazmente.",
-        "futureDesc2": "Rialtes ayuda a las empresas a adoptar fácilmente agentes de IA usando Agentforce. Proporcionamos personalización y despliegue para satisfacer tus necesidades, mejorando el servicio al cliente y optimizando operaciones para una transición fluida hacia el mundo impulsado por la IA."
+        "keepYourData": [
+            {
+                "title": "Mantén el rendimiento de tu agente como un profesional",
+                "desc": "Crear un agente de IA no es un proyecto de una sola vez; es una inversión continua en autonomía a largo plazo. Para mantener su eficacia, debes planificar el crecimiento, el cambio y el aprendizaje.",
+                "list": [
+                    "Comienza con aprendizaje continuo alimentando a tu agente con nuevos datos para mejorar su relevancia y precisión.",
+                    "Realiza revisiones de seguridad periódicas utilizando la capa de confianza Einstein Trust Layer para auditar accesos, permisos y uso del modelo.",
+                    "A medida que evolucionen tus necesidades, tu agente de IA también debe hacerlo. Gracias a una arquitectura escalable, puedes añadir fácilmente integraciones, nuevos prompts o flujos de trabajo empresariales.",
+                    "Por último, mantente al tanto del monitoreo en tiempo real rastreando métricas clave como tasas de resolución, activadores de respaldo y satisfacción del usuario."
+                ]
+            }
+        ],
+        "readyData": [
+            "El éxito del despliegue requiere una infraestructura tecnológica integrada para que los agentes accedan a datos actualizados y operen eficazmente. Rialtes puede ayudarte a lanzar IA agente en Salesforce.",
+            "Si necesitas ayuda para crear un agente de IA, o incluso una red completa de compañeros digitales, Rialtes puede apoyarte en cada paso. Trabajamos con <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>plataformas Salesforce</a> para ofrecer agentes de IA adaptados a tus objetivos. Ya sea en manufactura, salud, sector público o servicios financieros, tenemos experiencia comprobada.",
+            "<a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Hablemos</a> sobre cómo Agentforce puede potenciar tu próxima iniciativa de IA."
+        ],
+        "blogTitle": "Cómo crear y desplegar tu primer agente de IA con Agentforce (Guía paso a paso)",
+        "whatAgenticTitle": "¿Qué es la IA agente y por qué debería importarte?",
+        "meetTitle": "Conoce el Agent Builder de Agentforce",
+        "stepTitle": "Paso a paso: cómo crear un agente de IA con Agentforce",
+        "stepDesc": "Ya estás listo. Así es como funciona en 8 pasos claros:",
+        "whatPowerTitle": "¿Qué impulsa a estos agentes?",
+        "whatPowerDesc": "Cada agente de IA creado en Agentforce funciona sobre una pila de componentes inteligentes. Esto es lo que lo hace posible:",
+        "whatPowerDesc2": "Esta arquitectura hace que tus agentes sean más inteligentes, seguros y conscientes del negocio desde el primer día.",
+        "whatKindTitle": "¿Qué tipo de agentes de IA puedes crear con Agentforce?",
+        "whatKindDesc": "Esto es lo que es posible:",
+        "whatKindDesc2": "Puedes crear un solo agente o una red completa de ellos, cada uno diseñado para un proceso o equipo específico.",
+        "readyTitle": "¿Listo para construir algo más inteligente?",
+        "faqTitle": "Preguntas frecuentes: creación y despliegue de agentes de IA con Agentforce"
     },
     "howAgentforce": {
         "bannerAlt": "Ingeniero de manufactura con equipo de seguridad amarillo usando tablet para control de calidad en planta automotriz",
@@ -5900,8 +5836,8 @@
         "faqTitle": "Preguntas Frecuentes: La Importancia de los Ecosistemas de Atención Conectada para la Industria Farmacéutica y MedTech"
     },
     "patientExperience": {
-        "seoTitle" : "Plataforma de experiencia del paciente a largo plazo | Rialtes",
-        "seoDescription" : "Descubre cómo MediAIna redefine la experiencia del paciente con IA, participación digital y apoyo en cuidados crónicos.",
+        "seoTitle": "Plataforma de experiencia del paciente a largo plazo | Rialtes",
+        "seoDescription": "Descubre cómo MediAIna redefine la experiencia del paciente con IA, participación digital y apoyo en cuidados crónicos.",
         "bannerAlt": "Paciente consultando datos de salud en una tableta, con íconos de diagnóstico, tratamiento y atención prolongada ",
         "blogMainData": [
             "Brindar atención médica siempre ha sido mucho más que un simple diagnóstico. Para los pacientes, el verdadero viaje comienza después de recibir un diagnóstico, al explorar opciones de tratamiento, manejar condiciones crónicas y aprender a vivir con necesidades de atención continua. Desafortunadamente, los sistemas tradicionales a menudo no apoyan a los pacientes más allá de las paredes de la clínica. Por eso, una plataforma de experiencia del paciente se vuelve esencial, ayudando a los proveedores de salud a ofrecer continuidad, coordinación y atención personalizada a gran escala.",
@@ -6245,8 +6181,8 @@
         "seoDescription": "Los mejores socios Salesforce impulsan la innovación y el crecimiento alineando la tecnología con los objetivos del negocio."
     },
     "salesforceDevelopment": {
-        "seoTitle" : "Servicios Salesforce para el éxito empresarial | Rialtes",
-        "seoDescription" : "Descubre cómo el desarrollo personalizado de Salesforce impulsa la eficiencia del CRM y por qué elegir al socio adecuado es clave.",
+        "seoTitle": "Servicios Salesforce para el éxito empresarial | Rialtes",
+        "seoDescription": "Descubre cómo el desarrollo personalizado de Salesforce impulsa la eficiencia del CRM y por qué elegir al socio adecuado es clave.",
         "bannerAlt": "Interfaz de panel CRM mostrando análisis de Salesforce, métricas de participación y automatización de flujos ",
         "blogMainData": [
             "La Gestión de Relaciones con el Cliente (CRM) es el corazón palpitante de las empresas modernas. Impulsa cómo los equipos de ventas cierran acuerdos, cómo los equipos de servicio responden a los clientes y cómo el marketing ofrece campañas personalizadas. Entre las muchas plataformas CRM disponibles, Salesforce se destaca como la más confiable. Pero aquí está el detalle: simplemente implementar Salesforce no es suficiente. Para maximizar verdaderamente su potencial, las empresas necesitan servicios de Salesforce personalizados que adapten la plataforma a flujos de trabajo únicos, modelos de datos y expectativas del cliente.",
@@ -6635,11 +6571,11 @@
         "faqTitle": "Preguntas frecuentes: implementación e integración de Salesforce"
     },
     "slasBilling": {
-        "bannerAlt" : "Holograma 3D casa inteligente con gráficos analíticos de datos en tablero interfaz digital futurista azul",
-        "seoTitle" : "Seguimiento de Acuerdos de Nivel de Servicio (SLA): Guía impulsada por IA | Rialtes",
-        "seoDescription" : "Con paneles habilitados por IA, facturación automatizada e información predictiva, los administradores de propiedades supervisan el cumplimiento de los SLA y los costos de mantenimiento en tiempo real.",
-        "gutDrivenSection" : "De lo Intuitivo a lo Basado en Datos: El Cambio Ya Está en Marcha",
-        "faqTitle" : "Preguntas Frecuentes: Eficiencia Operativa Basada en Datos en el Sector Inmobiliario",
+        "bannerAlt": "Holograma 3D casa inteligente con gráficos analíticos de datos en tablero interfaz digital futurista azul",
+        "seoTitle": "Seguimiento de Acuerdos de Nivel de Servicio (SLA): Guía impulsada por IA | Rialtes",
+        "seoDescription": "Con paneles habilitados por IA, facturación automatizada e información predictiva, los administradores de propiedades supervisan el cumplimiento de los SLA y los costos de mantenimiento en tiempo real.",
+        "gutDrivenSection": "De lo Intuitivo a lo Basado en Datos: El Cambio Ya Está en Marcha",
+        "faqTitle": "Preguntas Frecuentes: Eficiencia Operativa Basada en Datos en el Sector Inmobiliario",
         "slasTitle": "¿Cómo hacer un seguimiento de los SLA y la facturación sin volverte loco?",
         "blogTopic": "Salesforce",
         "slasPara1": "Un acuerdo de nivel de servicio (SLA) define el nivel de servicio esperado de un proveedor. Especifica las métricas utilizadas para medir ese servicio y los recursos disponibles si no se cumplen los niveles de servicio acordados. El SLA es una parte vital de cualquier contrato con un proveedor de tecnología.",
@@ -6763,8 +6699,8 @@
                 "desc": "Pasar de procesos manuales se siente disruptivo, incluso si a largo plazo es lo mejor."
             }
         ],
-        "faqs" : [
-             {
+        "faqs": [
+            {
                 "question": "¿Cómo puedo monitorear el rendimiento de los SLA en operaciones inmobiliarias?",
                 "answer": "Puedes monitorear el rendimiento de los SLA utilizando paneles con IA que rastrean los tiempos de respuesta de los proveedores, las tasas de finalización de órdenes de trabajo y las métricas de cumplimiento en tiempo real. Plataformas como Exelona automatizan las alertas cuando los SLA están en riesgo de ser incumplidos."
             },
@@ -6791,9 +6727,9 @@
         ]
     },
     "whatDoesASingle": {
-         "aleadsfill": "Un cliente potencial completa",
+        "aleadsfill": "Un cliente potencial completa",
         "aform": "un formulario",
-        "entersCrm":"Entra en el CRM",
+        "entersCrm": "Entra en el CRM",
         "leaseis": "El contrato de arrendamiento está aprobado",
         "detailsreenter": "Los detalles se vuelven a ingresar manualmente en el ERP",
         "maintainentce": "Los tickets de mantenimiento se registran por separado",
@@ -6861,26 +6797,26 @@
                 "desc3": "Pero cuando están integrados, forman un flujo continuo de datos:"
             }
         ],
-         "crmDataList2": [
-    {
-      "list": [
-        {
-          "desc": "Un cliente potencial ingresa al CRM a través de una consulta en el sitio web"
-        },
-        {
-          "desc": "Una vez convertido, los detalles del contrato de arrendamiento se sincronizan automáticamente con el ERP para el procesamiento financiero."
-        },
-        {
-          "desc": "El equipo de operaciones obtiene visibilidad instantánea del estado de ocupación y los horarios de servicio."
-        },
-        {
-          "desc": "Cuando se realizan los pagos, las actualizaciones de datos entre los sistemas se hacen en tiempo real."
-        }
-      ],
-      "desc2": "Por ejemplo, un importante desarrollador inmobiliario europeo integró su CRM y ERP a través de una plataforma unificada y vio una reducción del 25% en los errores de datos y un cierre financiero de fin de mes un 30% más rápido.",
-      "desc3": "Ese es el poder de la convergencia, lo que significa menos conciliación y más claridad."
-    }
-  ],
+        "crmDataList2": [
+            {
+                "list": [
+                    {
+                        "desc": "Un cliente potencial ingresa al CRM a través de una consulta en el sitio web"
+                    },
+                    {
+                        "desc": "Una vez convertido, los detalles del contrato de arrendamiento se sincronizan automáticamente con el ERP para el procesamiento financiero."
+                    },
+                    {
+                        "desc": "El equipo de operaciones obtiene visibilidad instantánea del estado de ocupación y los horarios de servicio."
+                    },
+                    {
+                        "desc": "Cuando se realizan los pagos, las actualizaciones de datos entre los sistemas se hacen en tiempo real."
+                    }
+                ],
+                "desc2": "Por ejemplo, un importante desarrollador inmobiliario europeo integró su CRM y ERP a través de una plataforma unificada y vio una reducción del 25% en los errores de datos y un cierre financiero de fin de mes un 30% más rápido.",
+                "desc3": "Ese es el poder de la convergencia, lo que significa menos conciliación y más claridad."
+            }
+        ],
         "theBusinessCase": [
             {
                 "title": "El caso empresarial: por qué una Fuente Única de Verdad importa",
@@ -7019,207 +6955,544 @@
             }
         ]
     },
-
-     "openApiBlog": {
+    "openApiBlog": {
         "seoTitle": "Integraciones API inteligentes para empresas inmobiliarias en 2026 | Rialtes",
         "seoDescription": "Las integraciones API ayudan a las empresas inmobiliarias a conectar los sistemas CRM, ERP y financieros, mejorando la automatización, la productividad del equipo y la toma de decisiones basada en datos.",
         "blogTopic": "Exelona",
         "mainTitle": "5 integraciones API esenciales para que las empresas inmobiliarias aceleren su crecimiento",
-    "enableTitle": "Lo que permiten las API abiertas:",
-    "faq": "Preguntas frecuentes: Integraciones de API abiertas que toda empresa inmobiliaria necesita",
-   
-
-    "blogMainData": [
-      "Toda empresa inmobiliaria alcanza un límite en algún momento, generalmente cuando sus sistemas dejan de comunicarse entre sí. Tienes una herramienta de gestión de propiedades por un lado, un sistema financiero por otro y un CRM en algún lugar reteniendo tus datos de clientes potenciales. Los equipos pierden horas persiguiendo actualizaciones, finanzas lucha por conciliar datos y los ejecutivos reciben informes que ya están desactualizados cuando se imprimen.",
-      "Aquí está la solución: integraciones de API abiertas.",
-      "Un ecosistema de API abiertas permite que tu CRM, ERP, finanzas y sistemas de gestión de propiedades intercambien datos en tiempo real. En lugar de construir puentes personalizados costosos, las API abiertas hacen posible conectar cualquier sistema con otro de forma segura, permitiendo operaciones unificadas, decisiones más rápidas y, en última instancia, un crecimiento más escalable.",
-      "Analicemos lo que esto significa para el sector inmobiliario, qué integraciones realmente necesitas y cómo plataformas como Exelona están ayudando a las principales empresas a ir más allá de pilas tecnológicas desconectadas."
-    ],
-
-    "realEstateData": [
-      {
-        "title": "El Caso de las API Abiertas en Bienes Raíces",
-        "desc": "La mayoría de las plataformas de gestión inmobiliaria nunca fueron diseñadas para integrarse fácilmente con otros sistemas. Sistemas como Yardi, MRI y CRMs heredados suelen almacenar datos de inquilinos, contratos y pagos en silos, lo que dificulta la colaboración entre funciones como arrendamiento, mantenimiento y finanzas.",
-        "desc2": "La industria inmobiliaria está cambiando rápidamente. Según el informe <a href='https://www.pwc.com/gx/en/investment-management-real-estate/assets/emerging-trends-report-2025.pdf' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Tendencias Emergentes en el Sector Inmobiliario 2025 de PwC</a>, más del 68 % de los ejecutivos inmobiliarios priorizan la consolidación de sistemas o la adopción de API abiertas como parte de su estrategia digital.",
-        "desc3": "¿Por qué? Porque la fragmentación de datos cuesta dinero. Ralentiza todo, desde los ciclos de facturación hasta el despacho de técnicos, haciendo imposible la generación de informes en tiempo real. Las API abiertas abordan esto mediante:",
-        "list": [
-          "Eliminación de transferencias manuales de datos entre sistemas",
-          "Automatización de la sincronización entre herramientas de CRM, ERP y operaciones",
-          "Reducción de los costos de integración frente al desarrollo personalizado tradicional",
-          "Habilitación del crecimiento escalable del ecosistema con nuevas aplicaciones y socios"
+        "enableTitle": "Lo que permiten las API abiertas:",
+        "faq": "Preguntas frecuentes: Integraciones de API abiertas que toda empresa inmobiliaria necesita",
+        "blogMainData": [
+            "Toda empresa inmobiliaria alcanza un límite en algún momento, generalmente cuando sus sistemas dejan de comunicarse entre sí. Tienes una herramienta de gestión de propiedades por un lado, un sistema financiero por otro y un CRM en algún lugar reteniendo tus datos de clientes potenciales. Los equipos pierden horas persiguiendo actualizaciones, finanzas lucha por conciliar datos y los ejecutivos reciben informes que ya están desactualizados cuando se imprimen.",
+            "Aquí está la solución: integraciones de API abiertas.",
+            "Un ecosistema de API abiertas permite que tu CRM, ERP, finanzas y sistemas de gestión de propiedades intercambien datos en tiempo real. En lugar de construir puentes personalizados costosos, las API abiertas hacen posible conectar cualquier sistema con otro de forma segura, permitiendo operaciones unificadas, decisiones más rápidas y, en última instancia, un crecimiento más escalable.",
+            "Analicemos lo que esto significa para el sector inmobiliario, qué integraciones realmente necesitas y cómo plataformas como Exelona están ayudando a las principales empresas a ir más allá de pilas tecnológicas desconectadas."
+        ],
+        "realEstateData": [
+            {
+                "title": "El Caso de las API Abiertas en Bienes Raíces",
+                "desc": "La mayoría de las plataformas de gestión inmobiliaria nunca fueron diseñadas para integrarse fácilmente con otros sistemas. Sistemas como Yardi, MRI y CRMs heredados suelen almacenar datos de inquilinos, contratos y pagos en silos, lo que dificulta la colaboración entre funciones como arrendamiento, mantenimiento y finanzas.",
+                "desc2": "La industria inmobiliaria está cambiando rápidamente. Según el informe <a href='https://www.pwc.com/gx/en/investment-management-real-estate/assets/emerging-trends-report-2025.pdf' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Tendencias Emergentes en el Sector Inmobiliario 2025 de PwC</a>, más del 68 % de los ejecutivos inmobiliarios priorizan la consolidación de sistemas o la adopción de API abiertas como parte de su estrategia digital.",
+                "desc3": "¿Por qué? Porque la fragmentación de datos cuesta dinero. Ralentiza todo, desde los ciclos de facturación hasta el despacho de técnicos, haciendo imposible la generación de informes en tiempo real. Las API abiertas abordan esto mediante:",
+                "list": [
+                    "Eliminación de transferencias manuales de datos entre sistemas",
+                    "Automatización de la sincronización entre herramientas de CRM, ERP y operaciones",
+                    "Reducción de los costos de integración frente al desarrollo personalizado tradicional",
+                    "Habilitación del crecimiento escalable del ecosistema con nuevas aplicaciones y socios"
+                ]
+            }
+        ],
+        "workData": [
+            {
+                "title": "Cómo Funcionan las API Abiertas en los Sistemas Inmobiliarios",
+                "desc": "Piensa en una API abierta como un traductor universal entre sistemas. Cuando tu software de arrendamiento, CRM y plataforma financiera hablan diferentes 'idiomas', una API define cómo intercambian datos, como cuando un pago de alquiler en un sistema actualiza automáticamente el saldo de una cuenta y activa un recordatorio de renovación en otro.",
+                "desc2": "Por ejemplo:",
+                "list": [
+                    "Una API de Salesforce CRM puede extraer datos de clientes potenciales directamente en tu plataforma de arrendamiento.",
+                    "Una API de SAP ERP puede enviar datos de gastos a tu herramienta contable.",
+                    "Una API de tu sistema de mantenimiento puede enviar actualizaciones de técnicos directamente al portal del inquilino."
+                ],
+                "desc3": "Este flujo de datos estructurados reduce duplicaciones, evita errores y crea un ciclo continuo de retroalimentación en tiempo real a través de todas las funciones empresariales, algo imprescindible para operaciones inmobiliarias a escala empresarial."
+            }
+        ],
+        "integrationData": [
+            {
+                "title": "1. Integración entre CRM y Gestión de Propiedades",
+                "why": "<strong>Por qué importa:</strong> Tu equipo de arrendamiento trabaja en el CRM. Tu equipo de gestión de propiedades trabaja en otro sistema. Sin integración, la información del inquilino se pierde entre departamentos.",
+                "list": [
+                    {
+                        "title": "Sincronización automática de clientes potenciales e inquilinos",
+                        "description": "Cuando un cliente potencial firma un contrato, el CRM actualiza automáticamente tu sistema de gestión de propiedades, creando un perfil de inquilino unificado."
+                    },
+                    {
+                        "title": "Incorporación más rápida",
+                        "description": "La firma digital del contrato activa flujos de trabajo automatizados, como la programación de mudanza o la facturación del alquiler."
+                    },
+                    {
+                        "title": "Visibilidad de extremo a extremo",
+                        "description": "Desde la consulta hasta la ocupación, tus equipos pueden ver todas las interacciones en un solo panel."
+                    }
+                ],
+                "example": "Un importante grupo de vivienda del Reino Unido integró Salesforce con su plataforma inmobiliaria MRI utilizando API abiertas. ¿El resultado? Una reducción del 35% en el tiempo de incorporación de inquilinos y un 20% menos de discrepancias de datos entre los sistemas de arrendamiento y propiedad."
+            },
+            {
+                "title": "2. Integración entre ERP y Sistemas Financieros",
+                "why": "<strong>Por qué importa:</strong> Los equipos financieros del sector inmobiliario suelen depender de SAP, Oracle o QuickBooks, pero estos sistemas no están conectados con los datos operativos, como cobros de alquiler o costos de mantenimiento.",
+                "list": [
+                    {
+                        "title": "Seguimiento financiero unificado",
+                        "description": "Sincroniza automáticamente alquileres, depósitos y facturas entre tu ERP y sistema de propiedades."
+                    },
+                    {
+                        "title": "Pronósticos precisos",
+                        "description": "Los datos en tiempo real de arrendamientos y operaciones ayudan a prever ingresos y gastos con precisión."
+                    },
+                    {
+                        "title": "Cumplimiento simplificado",
+                        "description": "Los registros financieros se actualizan automáticamente con cada transacción, reduciendo los riesgos de auditoría."
+                    }
+                ],
+                "example": "Una empresa alemana de inversión inmobiliaria integró su ERP de SAP con una base de datos Yardi usando API abiertas. Al hacerlo, redujo el tiempo de conciliación financiera mensual en un 40% y mejoró la visibilidad del flujo de caja en 120 propiedades."
+            },
+            {
+                "title": "3. Integración de IoT y Mantenimiento Predictivo",
+                "why": "<strong>Por qué importa:</strong> Los costos de mantenimiento son uno de los mayores drenajes operativos en bienes raíces. Las reparaciones retrasadas, averías inesperadas y mala asignación de técnicos pueden aumentar los gastos operativos en un 20–30%.",
+                "list": [
+                    {
+                        "title": "Integración de datos de sensores",
+                        "description": "Conecta dispositivos IoT (HVAC, ascensores, medidores) con herramientas de mantenimiento predictivo."
+                    },
+                    {
+                        "title": "Alertas automatizadas",
+                        "description": "Cuando un sensor detecta actividad anormal, activa una solicitud de mantenimiento en tu sistema."
+                    },
+                    {
+                        "title": "Planificación basada en datos",
+                        "description": "Las API alimentan los paneles de análisis con datos de mantenimiento en tiempo real para predecir fallos antes de que ocurran."
+                    }
+                ],
+                "example": "Un operador multifamiliar con sede en EE. UU. vinculó sus sistemas de monitoreo IoT con su software de gestión de propiedades mediante API abiertas. La integración permitió la detección de fallas en tiempo real y la programación automatizada de servicios, reduciendo el tiempo de inactividad en un 28% y ahorrando $120,000 anuales en costos de reparación."
+            },
+            {
+                "title": "4. Integración entre Portal de Inquilinos y Herramientas de Comunicación",
+                "why": "<strong>Por qué importa:</strong> Los residentes esperan comunicación 24/7, no bucles de correo electrónico ni respuestas tardías. Integrar chat, portales y sistemas de tickets es esencial para una experiencia moderna del residente.",
+                "list": [
+                    {
+                        "title": "Mensajería en tiempo real",
+                        "description": "Conecta WhatsApp, SMS o chatbots directamente a tu portal de inquilinos."
+                    },
+                    {
+                        "title": "Automatización de tickets",
+                        "description": "Cada solicitud de residente crea automáticamente un caso en tu CRM."
+                    },
+                    {
+                        "title": "Resolución más rápida",
+                        "description": "Los equipos de mantenimiento y atención al cliente obtienen visibilidad instantánea de los tickets abiertos."
+                    }
+                ],
+                "example": "Una gran asociación de vivienda en los Países Bajos integró su aplicación para inquilinos con Salesforce Service Cloud mediante API abiertas. El sistema enrutaba automáticamente las solicitudes de mantenimiento y proporcionaba actualizaciones a los residentes a través de WhatsApp, reduciendo el tiempo de resolución de tickets en un 45% y aumentando los puntajes de satisfacción."
+            },
+            {
+                "title": "5. Integración de Analítica e Inteligencia de Negocio",
+                "why": "<strong>Por qué importa:</strong> Las decisiones en bienes raíces solo son tan buenas como los datos que las respaldan. Pero cuando los datos de arrendamiento, finanzas y operaciones viven en silos, es casi imposible obtener información precisa.",
+                "list": [
+                    {
+                        "title": "Paneles unificados",
+                        "description": "Consolida los datos de todos los sistemas (CRM, ERP, IoT) en una sola herramienta de análisis como Tableau o Power BI."
+                    },
+                    {
+                        "title": "Seguimiento del rendimiento",
+                        "description": "Mide métricas clave como tasas de cobro de alquiler, cumplimiento de SLA y eficiencia del mantenimiento."
+                    },
+                    {
+                        "title": "Información predictiva",
+                        "description": "Usa modelos de aprendizaje automático para prever tendencias de ocupación o rotación de inquilinos."
+                    }
+                ],
+                "example": "Una empresa australiana de propiedades comerciales integró sus datos de SAP, Salesforce y IoT en un solo panel de Tableau mediante API abiertas. El movimiento proporcionó una vista de portafolio de 360° y redujo el tiempo de generación de informes mensuales en 60 horas por equipo."
+            }
+        ],
+        "buildData": [
+            {
+                "title": "La Perspectiva Global: Las API Abiertas Construyen Ecosistemas Escalables",
+                "desc": "Esto es lo que realmente ocurre tras bambalinas: las API abiertas se tratan de construir una base adaptable y escalable para el crecimiento futuro.",
+                "desc2": "A medida que surgen nuevas herramientas, ya sean bots de arrendamiento impulsados por IA o contratos basados en blockchain, un marco de API abierta garantiza que puedas integrarlas sin reconfigurar toda tu arquitectura tecnológica. Es lo opuesto al bloqueo de proveedores. Tú decides qué sistemas se ajustan a tu negocio y tus datos fluyen donde más se necesitan. Eso convierte a las integraciones de API abiertas en bienes raíces en un diferenciador estratégico. Transforman tu panorama tecnológico en un ecosistema flexible que crece con tu empresa.",
+                "desc3": "La mayoría de las empresas inmobiliarias necesitan una plataforma que integre todo lo que ya utilizan. <strong>Exelona</strong> está diseñada como una <a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>plataforma unificada de gestión inmobiliaria</a>. Combina CRM, ERP, finanzas y operaciones en un solo sistema, con una arquitectura de API abierta que se conecta perfectamente con herramientas como:",
+                "list": [
+                    {
+                        "title": "SAP",
+                        "description": "para la planificación de recursos empresariales"
+                    },
+                    {
+                        "title": "Salesforce",
+                        "description": "para la gestión de clientes potenciales y residentes"
+                    },
+                    {
+                        "title": "Yardi y MRI",
+                        "description": "para las operaciones de propiedad"
+                    },
+                    {
+                        "title": "Sistemas IoT",
+                        "description": "para mantenimiento predictivo"
+                    },
+                    {
+                        "title": "Herramientas de análisis",
+                        "description": "para obtener información del portafolio"
+                    }
+                ],
+                "desc4": "Si su configuración actual parece un conjunto de aplicaciones y hojas de cálculo desconectadas, es momento de replantear la integración y de <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>hablar con nuestros expertos</a>, porque Exelona está diseñado para ayudarle exactamente en eso."
+            }
+        ],
+        "faqData": [
+            {
+                "question": "¿Qué es una API abierta en la gestión inmobiliaria?",
+                "answer": "Una API abierta permite que diferentes sistemas inmobiliarios —como CRM, ERP y herramientas financieras— intercambien datos de forma segura, habilitando operaciones unificadas y actualizaciones en tiempo real."
+            },
+            {
+                "question": "¿Por qué es importante la integración de API para las empresas inmobiliarias?",
+                "answer": "Ayuda a eliminar silos de datos, automatizar procesos y mejorar la toma de decisiones al sincronizar información entre los equipos de arrendamiento, finanzas y mantenimiento."
+            },
+            {
+                "question": "¿Pueden las API abiertas integrar sistemas heredados como Yardi o MRI?",
+                "answer": "Sí. Las API abiertas pueden conectar plataformas heredadas con CRMs y ERPs modernos, permitiendo el intercambio de datos sin reemplazar los sistemas existentes."
+            },
+            {
+                "question": "¿Cuáles son algunos ejemplos de integraciones de API abiertas en bienes raíces?",
+                "answer": "Ejemplos comunes incluyen conectar Salesforce CRM con SAP ERP, integrar herramientas de mantenimiento IoT o vincular aplicaciones de inquilinos con plataformas de comunicación como WhatsApp."
+            },
+            {
+                "question": "¿Cómo reducen las API abiertas los costos operativos?",
+                "answer": "Eliminan la entrada manual de datos, reducen errores de conciliación y habilitan la automatización, ahorrando tiempo y recursos en todos los departamentos."
+            },
+            {
+                "question": "¿Cómo apoya Exelona las integraciones de API abiertas?",
+                "answer": "La arquitectura de API abierta de Exelona conecta sistemas de CRM, ERP, finanzas, IoT y análisis en una sola plataforma, proporcionando una base única y escalable para operaciones inmobiliarias unificadas."
+            }
         ]
-      }
-    ],
-
-    "workData": [
-      {
-        "title": "Cómo Funcionan las API Abiertas en los Sistemas Inmobiliarios",
-        "desc": "Piensa en una API abierta como un traductor universal entre sistemas. Cuando tu software de arrendamiento, CRM y plataforma financiera hablan diferentes 'idiomas', una API define cómo intercambian datos, como cuando un pago de alquiler en un sistema actualiza automáticamente el saldo de una cuenta y activa un recordatorio de renovación en otro.",
-        "desc2": "Por ejemplo:",
-        "list": [
-          "Una API de Salesforce CRM puede extraer datos de clientes potenciales directamente en tu plataforma de arrendamiento.",
-          "Una API de SAP ERP puede enviar datos de gastos a tu herramienta contable.",
-          "Una API de tu sistema de mantenimiento puede enviar actualizaciones de técnicos directamente al portal del inquilino."
+    },
+    "whyEnterprises": {
+        "faqs": [
+            {
+                "question": "¿Qué hacen los socios consultores de SAP para las grandes empresas?",
+                "answer": "Los socios consultores de SAP ayudan a las empresas a diseñar, implementar y optimizar soluciones SAP que se alinean con sus objetivos empresariales. Evalúan los sistemas actuales, crean una hoja de ruta de implementación sin interrupciones, integran módulos como SAP S/4HANA y brindan soporte continuo para garantizar un retorno de inversión (ROI) a largo plazo."
+            },
+            {
+                "question": "¿Cómo garantizan los principales socios de implementación de SAP el éxito del proyecto?",
+                "answer": "Los principales socios de implementación de SAP utilizan marcos comprobados, metodologías ágiles y planificación basada en KPI para gestionar implementaciones complejas. Se encargan de todo, desde la migración de datos y la capacitación de usuarios hasta la optimización posterior al lanzamiento, asegurando una transición fluida y resultados empresariales medibles."
+            },
+            {
+                "question": "¿Por qué las empresas deberían trabajar con socios consultores de SAP en lugar de gestionarlo internamente?",
+                "answer": "Asociarse con expertos certificados en SAP evita a las empresas costosos errores de prueba y error. Los consultores experimentados aportan experiencia en el dominio, conocimientos interindustriales y una estrategia de implementación clara, lo que permite una obtención de valor más rápida y una reducción de riesgos operativos en comparación con la ejecución interna."
+            },
+            {
+                "question": "¿Cuáles son los principales beneficios de las soluciones de desarrollo SAP personalizadas?",
+                "answer": "El desarrollo SAP personalizado permite a las empresas adaptar los módulos estándar de SAP a sus propios flujos de trabajo. Mejora la automatización, se integra con los sistemas existentes y crea funciones únicas como análisis impulsados por IA o seguimiento basado en IoT para mejorar la eficiencia y la innovación."
+            },
+            {
+                "question": "¿Cómo ayudan los socios consultores de SAP a maximizar el ROI después de la implementación?",
+                "answer": "Los principales socios no se detienen en el despliegue. Analizan continuamente los datos de rendimiento, optimizan los flujos de trabajo y actualizan los sistemas para alinearse con los cambios empresariales. Este enfoque ayuda a las empresas a <span>maximizar el ROI con las mejores prácticas de implementación</span> y mantener un entorno SAP preparado para el futuro."
+            },
+            {
+                "question": "¿Por qué elegir a Rialtes como su socio consultor de SAP?",
+                "answer": "Rialtes destaca entre los principales socios consultores de SAP para empresas porque combinamos un profundo conocimiento del sector con un enfoque centrado en las personas. Nuestros expertos crean estrategias escalables, ofrecen soluciones SAP específicas por industria y garantizan que cada inversión en SAP genere un crecimiento medible y sostenible a largo plazo."
+            }
         ],
-        "desc3": "Este flujo de datos estructurados reduce duplicaciones, evita errores y crea un ciclo continuo de retroalimentación en tiempo real a través de todas las funciones empresariales, algo imprescindible para operaciones inmobiliarias a escala empresarial."
-      }
-    ],
-
-    "integrationData": [
-      {
-        "title": "1. Integración entre CRM y Gestión de Propiedades",
-        "why": "<strong>Por qué importa:</strong> Tu equipo de arrendamiento trabaja en el CRM. Tu equipo de gestión de propiedades trabaja en otro sistema. Sin integración, la información del inquilino se pierde entre departamentos.",
-        "list": [
-          {
-            "title": "Sincronización automática de clientes potenciales e inquilinos",
-            "description": "Cuando un cliente potencial firma un contrato, el CRM actualiza automáticamente tu sistema de gestión de propiedades, creando un perfil de inquilino unificado."
-          },
-          {
-            "title": "Incorporación más rápida",
-            "description": "La firma digital del contrato activa flujos de trabajo automatizados, como la programación de mudanza o la facturación del alquiler."
-          },
-          {
-            "title": "Visibilidad de extremo a extremo",
-            "description": "Desde la consulta hasta la ocupación, tus equipos pueden ver todas las interacciones en un solo panel."
-          }
+        "mainData": [
+            "Las empresas han estado operando en un panorama complejo con datos dispersos, sistemas heredados, equipos aislados y crecientes expectativas de los clientes. El desafío no es solo adoptar herramientas digitales, sino conectarlas de una manera que impulse el rendimiento, la agilidad y el crecimiento. Aquí es donde los socios consultores de SAP marcan la diferencia. Ayudan a las organizaciones a pasar de sistemas aislados a empresas unificadas e inteligentes, donde cada proceso funciona con claridad y precisión, desde las finanzas hasta la cadena de suministro.",
+            "Analicemos cómo estos socios ayudan a las empresas a desbloquear valor, impulsar la innovación y construir una base preparada para el futuro con SAP."
         ],
-        "example": "Un importante grupo de vivienda del Reino Unido integró Salesforce con su plataforma inmobiliaria MRI utilizando API abiertas. ¿El resultado? Una reducción del 35% en el tiempo de incorporación de inquilinos y un 20% menos de discrepancias de datos entre los sistemas de arrendamiento y propiedad."
-      },
-      {
-        "title": "2. Integración entre ERP y Sistemas Financieros",
-        "why": "<strong>Por qué importa:</strong> Los equipos financieros del sector inmobiliario suelen depender de SAP, Oracle o QuickBooks, pero estos sistemas no están conectados con los datos operativos, como cobros de alquiler o costos de mantenimiento.",
-        "list": [
-          {
-            "title": "Seguimiento financiero unificado",
-            "description": "Sincroniza automáticamente alquileres, depósitos y facturas entre tu ERP y sistema de propiedades."
-          },
-          {
-            "title": "Pronósticos precisos",
-            "description": "Los datos en tiempo real de arrendamientos y operaciones ayudan a prever ingresos y gastos con precisión."
-          },
-          {
-            "title": "Cumplimiento simplificado",
-            "description": "Los registros financieros se actualizan automáticamente con cada transacción, reduciendo los riesgos de auditoría."
-          }
+        "commonData": [
+            {
+                "subTitle": "Transformar la complejidad empresarial en claridad estratégica",
+                "desc": [
+                    "Toda transformación empresarial comienza con una comprensión clara de los desafíos del negocio, no solo de las brechas tecnológicas. Los socios consultores de SAP aportan esa claridad. Evalúan los flujos de trabajo existentes, identifican ineficiencias y vinculan las soluciones SAP con los objetivos a largo plazo.",
+                    "Por ejemplo, una empresa manufacturera global que enfrenta retrasos en sus ciclos de producción puede aprovechar el análisis en tiempo real de SAP S/4HANA para pronosticar la demanda y optimizar la asignación de recursos. Pero implementar un cambio de este tipo requiere más que una instalación: exige consultoría experta que alinee la tecnología con la estrategia. Eso es exactamente lo que hacen los principales socios: cierran la brecha entre “dónde estás” y “dónde necesitas estar”."
+                ]
+            },
+            {
+                "subTitle": "Experiencia que impulsa la transformación SAP empresarial",
+                "desc": [
+                    "La implementación de SAP a escala empresarial no es un proceso automático. Es un viaje multifásico que implica descubrimiento, diseño, despliegue y optimización continua. Los principales socios de implementación de SAP cuentan con experiencia en la industria, consultores certificados y marcos comprobados para garantizar que cada fase entregue resultados medibles.",
+                    "Gestionan la integración con sistemas heredados, la migración de datos, las verificaciones de cumplimiento y la adopción de usuarios, para que las empresas puedan centrarse en la innovación en lugar de la interrupción. Esta experiencia impulsa la transformación SAP empresarial con expertos en consultoría que saben cómo hacer que la tecnología sirva a las personas, y no al revés."
+                ]
+            },
+            {
+                "title": "Construyendo innovación a través de SAP: El poder de la asociación",
+                "subTitle": "Alinear la estrategia SAP con los objetivos empresariales",
+                "desc": [
+                    "Los mejores socios consultores no solo configuran módulos SAP; diseñan transformaciones empresariales. Analizan objetivos, ya sea mejorar márgenes, reducir la rotación de clientes o acelerar los informes, y alinean el panorama SAP en consecuencia. Un equipo consultor de primer nivel suele utilizar hojas de ruta basadas en KPI que vinculan cada hito de implementación con un resultado empresarial. Esto significa que las empresas pueden rastrear el ROI directamente hasta las decisiones estratégicas, en lugar de las implementaciones técnicas.",
+                    "Según el Estudio de Transformación Digital 2024 de SAP, el 76% de las empresas que alinean sus inversiones en SAP con los KPI empresariales informan un ROI 2.5 veces más rápido que aquellas que tratan la implementación como un proyecto de TI."
+                ]
+            },
+            {
+                "subTitle": "Acelerando la innovación con soluciones SAP personalizadas",
+                "desc": [
+                    "Las empresas a menudo necesitan ampliar las capacidades de SAP más allá del estándar para satisfacer necesidades empresariales únicas.",
+                    "Ahí es donde las <span>soluciones de desarrollo SAP personalizadas</span> crean complementos específicos para cada industria, integran análisis impulsados por IA o permiten el acceso móvil para los equipos de campo. El socio consultor adecuado puede adaptar SAP para ajustarse perfectamente a sus operaciones.",
+                    "Por ejemplo:"
+                ],
+                "list": [
+                    "Una empresa minorista puede integrar SAP Customer Experience (CX) con datos de inventario en tiempo real para personalizar promociones.",
+                    "Una empresa de logística puede desarrollar un módulo SAP personalizado que rastree los envíos mediante sensores IoT."
+                ],
+                "desc2": "La personalización transforma SAP de una herramienta en un motor de crecimiento, uno que se adapta a su negocio, y no al revés."
+            },
+            {
+                "title": "Impulsando un ROI medible con las mejores prácticas de implementación SAP",
+                "subTitle": "Sentando las bases: estrategia antes que software",
+                "desc": [
+                    "Las empresas que apresuran la implementación sin un plan claro a menudo enfrentan sobrecostos, desajustes de datos o baja adopción. Los principales socios de implementación de SAP evitan esa trampa comenzando con la estrategia, definiendo el “por qué” antes del “cómo”.",
+                    "Comienzan con talleres para mapear los procesos comerciales actuales, crear flujos de valor e identificar oportunidades de automatización. A partir de ahí, diseñan una hoja de ruta de implementación SAP fluida que minimiza riesgos y maximiza el rendimiento."
+                ]
+            },
+            {
+                "subTitle": "Garantizando adopción y optimización del rendimiento",
+                "desc": [
+                    "Incluso el sistema SAP más sofisticado fracasa si los empleados no lo utilizan eficazmente. Por eso los principales socios integran la gestión del cambio y la capacitación de usuarios en el proceso de implementación.",
+                    "Después del despliegue, monitorean el rendimiento del sistema, ajustan los flujos de trabajo e integran paneles de análisis para medir KPI, ayudando a las empresas a maximizar el ROI con las mejores prácticas de implementación. Los datos muestran que las empresas con optimización estructurada posterior a la implementación logran hasta un 40% más de adopción de usuarios en el primer año, un factor crucial para lograr el ROI."
+                ]
+            },
+            {
+                "subTitle": "Mejora continua y agilidad impulsada por la nube",
+                "desc": [
+                    "SAP ya no es una configuración única. Con el auge de SAP S/4HANA Cloud, las empresas pueden adoptar un modelo de innovación continua, agregando funciones, automatizando procesos y ampliando capacidades a medida que evolucionan las necesidades del negocio.",
+                    "Los socios consultores facilitan esta agilidad mediante auditorías regulares, gestión de actualizaciones y análisis predictivos que destacan nuevas áreas de eficiencia. Esta optimización continua garantiza que el entorno SAP crezca al mismo ritmo que la empresa. En resumen, la transformación digital no es un destino. Es un ciclo de aprendizaje, evolución e innovación, y los principales socios de SAP son los copilotos que mantienen ese ciclo en movimiento."
+                ]
+            },
+            {
+                "title": "La ventaja empresarial: qué diferencia a los principales socios SAP",
+                "subTitle": "Profunda experiencia en la industria",
+                "desc": [
+                    "Cada sector enfrenta desafíos únicos, desde la atención médica con alto cumplimiento hasta la manufactura impulsada por la demanda o el comercio minorista basado en datos. Los mejores socios SAP aportan conocimiento del dominio, ofreciendo soluciones SAP específicas para cada industria diseñadas para esas realidades.",
+                    "Por ejemplo:"
+                ],
+                "list": [
+                    {
+                        "title": "Salud",
+                        "description": "Módulos SAP listos para el cumplimiento, enfocados en la seguridad de datos y alineación con HIPAA"
+                    },
+                    {
+                        "title": "Manufactura",
+                        "description": "Mantenimiento predictivo con integración SAP impulsada por IoT"
+                    },
+                    {
+                        "title": "Comercio minorista",
+                        "description": "Gestión de comercio omnicanal con SAP Commerce Cloud"
+                    },
+                    {
+                        "title": "Bienes raíces",
+                        "description": "Flujos de trabajo centralizados de arrendamiento y finanzas integrados en SAP S/4HANA"
+                    }
+                ],
+                "desc2": "Esta especialización garantiza que las inversiones en SAP generen valor más rápido y resultados empresariales más sólidos."
+            },
+            {
+                "subTitle": "Infraestructura escalable y preparada para el futuro",
+                "desc": [
+                    "Los principales socios consultores ayudan a las empresas a modernizar su infraestructura SAP para el futuro mediante la migración a la nube, la integración de IA y la automatización inteligente.",
+                    "Garantizan que las soluciones SAP sean lo suficientemente escalables para manejar el crecimiento de datos, nuevos modelos de negocio y operaciones globales en expansión. Al hacerlo, convierten SAP en un núcleo digital flexible que impulsa la innovación en lugar de limitarla. Según Gartner, las empresas que modernizan los sistemas SAP en la nube reducen los costos operativos en un 25% y aceleran los ciclos de innovación en un 35%."
+                ]
+            },
+            {
+                "subTitle": "Asociarse para una transformación a largo plazo",
+                "desc": [
+                    "Quizás el aspecto más subestimado al elegir un socio consultor es la continuidad. La relación evoluciona y no termina con la implementación.",
+                    "El socio adecuado actúa como asesor a largo plazo, proporcionando optimización continua, actualizaciones y conocimientos estratégicos que ayudan a la empresa a mantenerse por delante de la disrupción. Este modelo basado en la asociación crea una visión compartida: crecimiento continuo impulsado por innovación continua."
+                ]
+            }
         ],
-        "example": "Una empresa alemana de inversión inmobiliaria integró su ERP de SAP con una base de datos Yardi usando API abiertas. Al hacerlo, redujo el tiempo de conciliación financiera mensual en un 40% y mejoró la visibilidad del flujo de caja en 120 propiedades."
-      },
-      {
-        "title": "3. Integración de IoT y Mantenimiento Predictivo",
-        "why": "<strong>Por qué importa:</strong> Los costos de mantenimiento son uno de los mayores drenajes operativos en bienes raíces. Las reparaciones retrasadas, averías inesperadas y mala asignación de técnicos pueden aumentar los gastos operativos en un 20–30%.",
-        "list": [
-          {
-            "title": "Integración de datos de sensores",
-            "description": "Conecta dispositivos IoT (HVAC, ascensores, medidores) con herramientas de mantenimiento predictivo."
-          },
-          {
-            "title": "Alertas automatizadas",
-            "description": "Cuando un sensor detecta actividad anormal, activa una solicitud de mantenimiento en tu sistema."
-          },
-          {
-            "title": "Planificación basada en datos",
-            "description": "Las API alimentan los paneles de análisis con datos de mantenimiento en tiempo real para predecir fallos antes de que ocurran."
-          }
+        "rightSap": [
+            {
+                "title": "Elegir el socio SAP adecuado: qué buscar",
+                "desc": "Al seleccionar un socio consultor de SAP, las empresas deben mirar más allá de las certificaciones y los casos de estudio. Los verdaderos diferenciadores incluyen:",
+                "list": [
+                    "Alineación estratégica con sus objetivos empresariales",
+                    "Experiencia en su dominio específico",
+                    "Marcos comprobados para implementación y soporte",
+                    "Mentalidad de innovación que va más allá del cumplimiento",
+                    "Comunicación transparente y resultados medibles"
+                ],
+                "desc2": "Estos factores garantizan que su viaje de transformación sea no solo exitoso, sino también sostenible."
+            }
         ],
-        "example": "Un operador multifamiliar con sede en EE. UU. vinculó sus sistemas de monitoreo IoT con su software de gestión de propiedades mediante API abiertas. La integración permitió la detección de fallas en tiempo real y la programación automatizada de servicios, reduciendo el tiempo de inactividad en un 28% y ahorrando $120,000 anuales en costos de reparación."
-      },
-      {
-        "title": "4. Integración entre Portal de Inquilinos y Herramientas de Comunicación",
-        "why": "<strong>Por qué importa:</strong> Los residentes esperan comunicación 24/7, no bucles de correo electrónico ni respuestas tardías. Integrar chat, portales y sistemas de tickets es esencial para una experiencia moderna del residente.",
-        "list": [
-          {
-            "title": "Mensajería en tiempo real",
-            "description": "Conecta WhatsApp, SMS o chatbots directamente a tu portal de inquilinos."
-          },
-          {
-            "title": "Automatización de tickets",
-            "description": "Cada solicitud de residente crea automáticamente un caso en tu CRM."
-          },
-          {
-            "title": "Resolución más rápida",
-            "description": "Los equipos de mantenimiento y atención al cliente obtienen visibilidad instantánea de los tickets abiertos."
-          }
+        "partnerData": [
+            "En Rialtes, creemos que la transformación ocurre cuando la tecnología se une con la visión. Como uno de los <span>principales socios consultores de SAP para empresas</span>, combinamos una profunda experiencia en el dominio con metodologías ágiles para ofrecer resultados que importan.",
+            "Desde la planificación estratégica hasta el despliegue y más allá, nuestros servicios de consultoría SAP se basan en tres principios fundamentales: claridad, colaboración e innovación continua.",
+            "Ayudamos a las empresas a maximizar el ROI con las mejores prácticas de implementación, diseñamos soluciones SAP personalizadas para industrias específicas y aceleramos la <span>transformación SAP empresarial con expertos en consultoría</span> que comprenden su ecosistema de principio a fin. Con Rialtes, su empresa no solo adopta SAP, sino que desbloquea todo el potencial de la transformación."
         ],
-        "example": "Una gran asociación de vivienda en los Países Bajos integró su aplicación para inquilinos con Salesforce Service Cloud mediante API abiertas. El sistema enrutaba automáticamente las solicitudes de mantenimiento y proporcionaba actualizaciones a los residentes a través de WhatsApp, reduciendo el tiempo de resolución de tickets en un 45% y aumentando los puntajes de satisfacción."
-      },
-      {
-        "title": "5. Integración de Analítica e Inteligencia de Negocio",
-        "why": "<strong>Por qué importa:</strong> Las decisiones en bienes raíces solo son tan buenas como los datos que las respaldan. Pero cuando los datos de arrendamiento, finanzas y operaciones viven en silos, es casi imposible obtener información precisa.",
-        "list": [
-          {
-            "title": "Paneles unificados",
-            "description": "Consolida los datos de todos los sistemas (CRM, ERP, IoT) en una sola herramienta de análisis como Tableau o Power BI."
-          },
-          {
-            "title": "Seguimiento del rendimiento",
-            "description": "Mide métricas clave como tasas de cobro de alquiler, cumplimiento de SLA y eficiencia del mantenimiento."
-          },
-          {
-            "title": "Información predictiva",
-            "description": "Usa modelos de aprendizaje automático para prever tendencias de ocupación o rotación de inquilinos."
-          }
+        "seoTitle": "Por qué los socios consultores de SAP son clave para el éxito empresarial | Rialtes",
+        "seoDescription": "Los socios consultores de SAP ayudan a las organizaciones a pasar de sistemas aislados a empresas unificadas e inteligentes donde cada proceso funciona con claridad.",
+        "bannerAlt": "Imagen abstracta de una persona caminando por un camino digital rodeado de siluetas formadas por puntos de datos, simbolizando la transformación digital impulsada por IA y el viaje de innovación",
+        "blogTopic": "SAP",
+        "blogTitle": "Por qué las principales empresas eligen socios consultores SAP líderes para el crecimiento y la innovación",
+        "roleTitle": "El papel de los socios consultores de SAP en el éxito empresarial",
+        "choosingTitle": "Elegir el socio SAP adecuado: qué buscar",
+        "partnerTitle": "Socio destacado: impulsando la transformación empresarial con SAP",
+        "faqTitle": "Preguntas frecuentes: Elija socios SAP líderes para el crecimiento y la innovación"
+    },
+    "sap2026": {
+        "seoTitle": "Estrategias Expertas de Implementación SAP para el Éxito en 2026 | Rialtes",
+        "seoDescription": "La implementación de SAP no es un ejercicio de conectar y usar; requiere una hoja de ruta y una estrategia que equilibren la tecnología, los objetivos comerciales y las personas.",
+        "mainData": [
+            "Sabemos que implementar SAP no se trata solo de actualizar un sistema. Se trata de redefinir cómo opera una empresa, desde las finanzas y la cadena de suministro hasta los recursos humanos y la experiencia del cliente. Cuando se hace bien, puede reducir costos, aumentar la transparencia y acelerar el crecimiento. Cuando se hace mal, puede agotar presupuestos y frustrar a los equipos durante meses.",
+            "Según McKinsey, casi el 55% de las implementaciones ERP a gran escala superan los presupuestos o no logran el ROI esperado. ¿La causa? Falta de alineación estratégica y una gestión del cambio inadecuada. La implementación de SAP no es un ejercicio de conectar y usar; requiere una hoja de ruta que equilibre la tecnología, los objetivos comerciales y las personas.",
+            "Aquí es donde los consultores expertos en SAP y los socios de implementación orientados al valor desempeñan un papel fundamental. No solo configuran módulos; traducen la visión empresarial en una arquitectura escalable. Analicemos cómo construir una estrategia que minimice el riesgo y ofrezca valor medible."
         ],
-        "example": "Una empresa australiana de propiedades comerciales integró sus datos de SAP, Salesforce y IoT en un solo panel de Tableau mediante API abiertas. El movimiento proporcionó una vista de portafolio de 360° y redujo el tiempo de generación de informes mensuales en 60 horas por equipo."
-      }
-    ],
-
-    "buildData": [
-      {
-        "title": "La Perspectiva Global: Las API Abiertas Construyen Ecosistemas Escalables",
-        "desc": "Esto es lo que realmente ocurre tras bambalinas: las API abiertas se tratan de construir una base adaptable y escalable para el crecimiento futuro.",
-        "desc2": "A medida que surgen nuevas herramientas, ya sean bots de arrendamiento impulsados por IA o contratos basados en blockchain, un marco de API abierta garantiza que puedas integrarlas sin reconfigurar toda tu arquitectura tecnológica. Es lo opuesto al bloqueo de proveedores. Tú decides qué sistemas se ajustan a tu negocio y tus datos fluyen donde más se necesitan. Eso convierte a las integraciones de API abiertas en bienes raíces en un diferenciador estratégico. Transforman tu panorama tecnológico en un ecosistema flexible que crece con tu empresa.",
-        "desc3": "La mayoría de las empresas inmobiliarias necesitan una plataforma que integre todo lo que ya utilizan. <strong>Exelona</strong> está diseñada como una <a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>plataforma unificada de gestión inmobiliaria</a>. Combina CRM, ERP, finanzas y operaciones en un solo sistema, con una arquitectura de API abierta que se conecta perfectamente con herramientas como:",
-        "list": [
-          {
-            "title": "SAP",
-            "description": "para la planificación de recursos empresariales"
-          },
-          {
-            "title": "Salesforce",
-            "description": "para la gestión de clientes potenciales y residentes"
-          },
-          {
-            "title": "Yardi y MRI",
-            "description": "para las operaciones de propiedad"
-          },
-          {
-            "title": "Sistemas IoT",
-            "description": "para mantenimiento predictivo"
-          },
-          {
-            "title": "Herramientas de análisis",
-            "description": "para obtener información del portafolio"
-          }
+        "howAiImprovesData": [
+            {
+                "title": "Comprender los Verdaderos Desafíos en la Implementación de SAP",
+                "desc": "Incluso las organizaciones más avanzadas tropiezan durante los proyectos de SAP. Los errores comunes incluyen:",
+                "listDataTitle": "Por Qué Muchas Empresas Luchan con las Implementaciones de SAP",
+                "list": [
+                    {
+                        "title": "Mala definición de requisitos",
+                        "desc": "Implementar tecnología sin definir los objetivos comerciales."
+                    },
+                    {
+                        "title": "Sistemas fragmentados",
+                        "desc": "Herramientas desconectadas para finanzas, adquisiciones y operaciones."
+                    },
+                    {
+                        "title": "Baja adopción por parte de los usuarios",
+                        "desc": "Los equipos se resisten al cambio cuando los sistemas son demasiado complejos."
+                    },
+                    {
+                        "title": "Soporte insuficiente después del lanzamiento",
+                        "desc": "Lo que provoca problemas de datos y rendimiento sin resolver."
+                    }
+                ],
+                "desc2": "Un informe de Gartner 2024 destacó que más del 60% de los sobrecostos en proyectos ERP se deben a la falta de claridad entre los equipos de TI y los líderes empresariales. El mensaje es claro: la transformación SAP no es solo un proyecto tecnológico, es una iniciativa de reinvención empresarial."
+            }
         ],
-        "desc4": "Si su configuración actual parece un conjunto de aplicaciones y hojas de cálculo desconectadas, es momento de replantear la integración y de <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>hablar con nuestros expertos</a>, porque Exelona está diseñado para ayudarle exactamente en eso."
-      }
-    ],
-
-    "faqData": [
-      {
-        "question": "¿Qué es una API abierta en la gestión inmobiliaria?",
-        "answer": "Una API abierta permite que diferentes sistemas inmobiliarios —como CRM, ERP y herramientas financieras— intercambien datos de forma segura, habilitando operaciones unificadas y actualizaciones en tiempo real."
-      },
-      {
-        "question": "¿Por qué es importante la integración de API para las empresas inmobiliarias?",
-        "answer": "Ayuda a eliminar silos de datos, automatizar procesos y mejorar la toma de decisiones al sincronizar información entre los equipos de arrendamiento, finanzas y mantenimiento."
-      },
-      {
-        "question": "¿Pueden las API abiertas integrar sistemas heredados como Yardi o MRI?",
-        "answer": "Sí. Las API abiertas pueden conectar plataformas heredadas con CRMs y ERPs modernos, permitiendo el intercambio de datos sin reemplazar los sistemas existentes."
-      },
-      {
-        "question": "¿Cuáles son algunos ejemplos de integraciones de API abiertas en bienes raíces?",
-        "answer": "Ejemplos comunes incluyen conectar Salesforce CRM con SAP ERP, integrar herramientas de mantenimiento IoT o vincular aplicaciones de inquilinos con plataformas de comunicación como WhatsApp."
-      },
-      {
-        "question": "¿Cómo reducen las API abiertas los costos operativos?",
-        "answer": "Eliminan la entrada manual de datos, reducen errores de conciliación y habilitan la automatización, ahorrando tiempo y recursos en todos los departamentos."
-      },
-      {
-        "question": "¿Cómo apoya Exelona las integraciones de API abiertas?",
-        "answer": "La arquitectura de API abierta de Exelona conecta sistemas de CRM, ERP, finanzas, IoT y análisis en una sola plataforma, proporcionando una base única y escalable para operaciones inmobiliarias unificadas."
-      }
-    ]
-  }
+        "implementData": [
+            "La implementación de SAP afecta cada capa de una organización. Sin una gobernanza sólida, el aumento del alcance, la sobrepersonalización y las integraciones no probadas pueden convertirse en costos masivos.",
+            "Para proteger el ROI, las empresas necesitan una estrategia que conecte los resultados técnicos con los KPI del negocio, ya sea una mejor visibilidad del flujo de caja, ciclos de pedido más rápidos o una mejora en los informes de cumplimiento."
+        ],
+        "fivePillarsData": [
+            {
+                "title": "Definir un Caso de Negocio Claro y KPIs Desde el Primer Día",
+                "list": [
+                    "Antes de configurar un solo módulo, define por qué estás implementando SAP. ¿Estás optimizando adquisiciones? ¿Mejorando la transparencia financiera? ¿O escalando para un crecimiento internacional? Cada proyecto exitoso comienza con resultados medibles: reducir Opex un 20%, acelerar los ciclos de informes un 30% o aumentar la velocidad de cumplimiento de pedidos un 25%.",
+                    "Por ejemplo, una empresa manufacturera global implementó SAP S/4HANA para optimizar su proceso de consolidación financiera. ¿El resultado? El tiempo de generación de informes pasó de 15 días a 4, liberando a los equipos financieros para análisis estratégicos en lugar de conciliaciones manuales."
+                ]
+            },
+            {
+                "title": "Trabaja con Consultores Expertos en SAP que Conozcan tu Industria",
+                "list": [
+                    "SAP tiene una gran profundidad, pero solo cuando se configura según las particularidades de tu industria. Una implementación minorista difiere enormemente de la de salud, logística o manufactura. <span>Trabajar con consultores expertos en SAP</span> garantiza que la solución se adapte a tus flujos de trabajo, y no al revés. Estos consultores aportan experiencia funcional en dominios específicos, asegurando cumplimiento y alineación operativa.",
+                    "Por ejemplo, una empresa logística global se asoció con un equipo de consultoría SAP especializado en optimización de cadenas de suministro. Al mapear datos de seguimiento en tiempo real en el módulo de Ejecución Logística de SAP, redujeron los retrasos en las entregas un 40% y la entrada manual de datos un 50%."
+                ]
+            },
+            {
+                "title": "Enfócate en un Plan Fluido de Migración e Integración de Datos",
+                "list": [
+                    "La migración de datos es donde la mayoría de los proyectos fallan. Los sistemas heredados, los registros duplicados y los formatos inconsistentes generan informes inexactos y caos tras el lanzamiento.",
+                    "Una estrategia estructurada de migración de datos implica"
+                ],
+                "list2": [
+                    "Depurar y validar los datos antes de la migración.",
+                    "Mapear los datos maestros para asegurar uniformidad entre sistemas.",
+                    "Integrar SAP con las plataformas ERP, CRM y RRHH existentes."
+                ],
+                "list3": [
+                    "<span>El desarrollo e integración personalizada de SAP</span> garantiza un flujo de información fluido en toda la empresa, desde ventas hasta finanzas. Piensa en integrar SAP con Salesforce para obtener información de clientes en tiempo real o conectarlo con sistemas IoT para habilitar el mantenimiento predictivo.",
+                    "Cuando una empresa energética europea vinculó su ERP SAP con herramientas de servicio de campo mediante API abiertas, mejoró la precisión de las órdenes de trabajo un 35% y redujo el tiempo de inactividad operativo un 22%."
+                ]
+            },
+            {
+                "title": "Empodera a los Usuarios Desde el Inicio",
+                "list": [
+                    "El mejor sistema SAP del mundo fracasa si las personas no lo utilizan. La adopción por parte de los usuarios finales es la base de toda implementación. Las empresas líderes ahora integran la gestión del cambio y la capacitación en cada fase del proyecto, no como un paso posterior. La participación temprana ayuda a identificar brechas de usabilidad y genera confianza entre los equipos.",
+                    "Una empresa energética de América del Norte lanzó un centro interno de aprendizaje SAP seis meses antes del lanzamiento oficial. ¿El resultado? La adopción alcanzó el 92% en los primeros 30 días, mientras que los tickets de soporte se redujeron un 40% tras el lanzamiento."
+                ]
+            },
+            {
+                "title": "Mide el Valor Continuamente — No Solo en el Lanzamiento",
+                "list": [
+                    "El éxito evoluciona mediante la mejora continua. Las empresas que realizan auditorías postimplementación periódicas suelen encontrar oportunidades para optimizar flujos de trabajo, automatizar tareas redundantes y desbloquear nuevas eficiencias.",
+                    "Con asociaciones SAP orientadas al valor, las empresas se benefician de un ajuste de rendimiento continuo, actualizaciones del sistema y alineación con los objetivos comerciales. La realización continua del valor garantiza que la curva de ROI no se estanque después del primer año."
+                ]
+            }
+        ],
+        "howSapData": [
+            {
+                "title": "Metodologías Comprobadas que Minimizan los Riesgos del Proyecto",
+                "desc": [
+                    "Los principales socios de implementación de SAP siguen metodologías estructuradas para reducir riesgos y controlar la complejidad del proyecto. La metodología Activate de SAP combina principios ágiles con mejores prácticas predefinidas, ayudando a los equipos a implementar más rápido sin sacrificar la calidad. Este enfoque reduce los tiempos de implementación entre un 20 y un 30% y garantiza que cada fase, desde el descubrimiento hasta el despliegue, sea transparente y medible."
+                ]
+            },
+            {
+                "title": "Alinear la Implementación Técnica con la Estrategia del Negocio",
+                "desc": [
+                    "La tecnología no debe liderar; la estrategia sí. Los mejores socios SAP aseguran que cada módulo respalde un resultado empresarial.",
+                    "Por ejemplo, una empresa manufacturera que integró SAP PP (Planificación de Producción) con su MES (Sistema de Ejecución de Manufactura) logró alinear la lógica del sistema con los KPI de producción, mejorando la utilización de capacidad un 28% y reduciendo el desperdicio de materiales un 17%."
+                ]
+            },
+            {
+                "title": "Mantenimiento Predictivo y Proactivo con SAP S/4HANA",
+                "desc": [
+                    "Las capacidades de IA y análisis predictivo de SAP S/4HANA son revolucionarias para las empresas modernas. El mantenimiento predictivo ayuda a detectar anomalías en tiempo real, evitando fallos antes de que ocurran.",
+                    "Un fabricante europeo de autopartes utilizó las herramientas de modelado predictivo de SAP para analizar datos de máquinas. El sistema predijo posibles fallas y generó órdenes de mantenimiento automáticamente, lo que resultó en un 22% menos de costos operativos y un 30% menos de tiempo de inactividad."
+                ]
+            }
+        ],
+        "commonData": [
+            {
+                "title": "Construir una Asociación Basada en el Valor para un Éxito SAP Escalable",
+                "desc": [
+                    "Un ecosistema SAP exitoso nunca permanece estático. Las transiciones a la nube, los nuevos requisitos regulatorios y los análisis impulsados por IA exigen una evolución constante.",
+                    "<a href='https://www.rialtes.com/insights/blogs/why-enterprises-choose-sap-consulting-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Las asociaciones SAP orientadas al valor</a> van más allá del soporte postimplementación. Se centran en la escalabilidad a largo plazo, garantizando que las empresas sigan siendo adaptables a medida que cambian las prioridades comerciales. Las revisiones periódicas de salud, el seguimiento del rendimiento y las actualizaciones de funciones aseguran que tu entorno SAP evolucione con tu negocio."
+                ]
+            },
+            {
+                "title": "La Ecuación del ROI: Convertir los Costos de Implementación en Ganancias Medibles",
+                "desc": [
+                    "El verdadero ROI de SAP no se trata solo de ahorrar costos; se trata de agilidad y visión. Un informe de Deloitte reveló que las empresas que aprovechan entornos SAP integrados ven hasta un 33% más de ROI en el primer año en comparación con aquellas que tratan SAP como una herramienta de TI aislada.",
+                    "Los impulsores del ROI incluyen:"
+                ],
+                "list": [
+                    {
+                        "title": "Toma de decisiones más rápida",
+                        "desc": "con datos unificados."
+                    },
+                    {
+                        "title": "Reducción de costos operativos",
+                        "desc": "a través de la automatización."
+                    },
+                    {
+                        "title": "Innovación escalable",
+                        "desc": "mediante la integración continua de nuevos módulos."
+                    }
+                ],
+                "desc2": "Cuando los socios de implementación alinean los objetivos del negocio con las capacidades de SAP, las empresas pueden extraer valor continuo, no solo eficiencia."
+            },
+            {
+                "title": "Por Qué Rialtes es el Socio de Implementación SAP en Quien Confían las Empresas",
+                "desc": [
+                    "Toda transformación empresarial comienza con una decisión: elegir el socio adecuado. Rialtes no es solo un proveedor de implementación SAP; es un equipo de innovadores y estrategas que entienden la intersección entre negocios y tecnología.",
+                    "Como uno de los principales socios de implementación SAP, Rialtes ofrece:"
+                ],
+                "list": [
+                    "Profunda experiencia en SAP S/4HANA, SuccessFactors y Analytics Cloud.",
+                    "Una hoja de ruta de implementación estructurada y alineada con tu estrategia empresarial.",
+                    "Experiencia intersectorial, desde manufactura y logística hasta salud e inmobiliaria.",
+                    "Soporte continuo postimplementación para optimización y escalabilidad."
+                ],
+                "desc2": "En Rialtes, creamos ecosistemas de valor donde SAP se convierte en un motor de crecimiento. Nuestra misión es ayudar a las empresas a modernizarse, innovar y prosperar con <a href='https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting-implementation-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>servicios de implementación SAP</a> diseñados para obtener resultados medibles."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "¿Cuáles son los pasos clave en un proceso exitoso de implementación SAP?",
+                "answer": "El proceso incluye descubrimiento, diseño, configuración, pruebas, puesta en marcha y optimización continua, todo respaldado por consultores SAP experimentados que alinean los objetivos comerciales con los resultados tecnológicos."
+            },
+            {
+                "question": "¿Cómo minimizan los socios de implementación SAP el riesgo del proyecto?",
+                "answer": "Los principales socios utilizan marcos comprobados como SAP Activate, métodos ágiles y gobernanza basada en datos para predecir y mitigar riesgos, manteniendo los proyectos dentro del presupuesto y del cronograma."
+            },
+            {
+                "question": "¿Qué hace de Rialtes un socio de implementación SAP confiable para las empresas?",
+                "answer": "Rialtes combina experiencia en desarrollo e integración personalizada de SAP con un profundo conocimiento de la industria, garantizando que cada implementación ofrezca resultados comerciales medibles."
+            },
+            {
+                "question": "¿Cuánto tiempo suele durar una implementación SAP?",
+                "answer": "Dependiendo del tamaño y la complejidad del proyecto, las implementaciones suelen durar entre 6 y 18 meses, incluyendo las fases de planificación, migración y capacitación."
+            },
+            {
+                "question": "¿Cuáles son los principales impulsores del ROI después de la puesta en marcha de SAP?",
+                "answer": "La automatización, el análisis en tiempo real, la eficiencia de procesos y la escalabilidad estratégica son los principales impulsores del ROI posterior al lanzamiento."
+            },
+            {
+                "question": "¿Cómo puede el trabajo con consultores expertos en SAP mejorar los resultados empresariales?",
+                "answer": "Trabajar con consultores expertos en SAP garantiza que tu implementación se alinee con las necesidades comerciales fundamentales, maximice la adopción y desbloquee valor a largo plazo en todas las operaciones."
+            }
+        ],
+        "bannerAlt": "Ilustración conceptual de una ciudad inteligente conectada mediante computación en la nube y redes de datos.",
+        "blogTopic": "SAP",
+        "blogTitle": "Estrategias Comprobadas de Implementación SAP que Minimizarán el Riesgo y Aceleran el ROI",
+        "implementationTitle": "Cómo la Complejidad de la Implementación Impacta el ROI",
+        "pillarsTitle": "Los 5 Pilares de una Estrategia Exitosa de Implementación SAP",
+        "sapTitle": "Cómo los Socios de Implementación SAP Reducen el Riesgo y Garantizan Valor a Largo Plazo",
+        "faqTitle": "Preguntas Frecuentes: Estrategias de Implementación SAP para Minimizar el Riesgo"
+    }
 }
