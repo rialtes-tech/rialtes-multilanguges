@@ -133,9 +133,9 @@ export default function page() {
           <div className="grid md:grid-cols-12 grid-cols-1 4xl:mt-20 ">
             <div className="xl:col-span-7 col-span-12 mt-28  2xl:pr-[34px]">
               <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">{t('headerTitle')}</h3>
-              <h1 className="text-white leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] 2xl:text-[48px] mt-5 pr-32  4xl:pr-0 md:pr-64 xl:pr-[6rem] 2xl:pr-[6rem]">
+              <h2 className="text-white leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] 2xl:text-[48px] mt-5 pr-32  4xl:pr-0 md:pr-64 xl:pr-[6rem] 2xl:pr-[6rem]">
                 {t('headerSubTitle')}
-              </h1>
+              </h2>
             </div>
             <div className="xl:col-span-7 col-span-12">
             </div>
@@ -145,9 +145,9 @@ export default function page() {
       <section className="mt-16 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-10 col-span-12 ">
-            <h2 className="leading-tight text-[26px] xl:text-[45px] 4xl:text-[60px] 4xl:pr-10 xl:pr-24">
+            <h1 className="leading-tight text-[26px] xl:text-[45px] 4xl:text-[60px] 4xl:pr-10 xl:pr-24">
               {t('empoweringTitle')}
-            </h2>
+            </h1>
             <p className="4xl:text-[22px] xl:text-[18px]  mt-5 pr-8 xl:pr-0">
               {t('empoweringDesc1')}
             </p>
