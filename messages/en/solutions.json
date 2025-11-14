@@ -394,15 +394,15 @@
     "headerSubTitle2": "a better tomorrow.",
     "headerSubTitle3": "Leveraging SAP Consulting Services for reliable business operations.",
     "KnowMore": "Know More",
-    "learnMore": "Learn More",
-    "sapConsultingBannerAlt": "Banner image showing business professionals collaborating, representing SAP consulting and implementation services",
-    "sapPartnerLogoAlt": "Official SAP Partner badge representing certified implementation expertise",
+    "learnMore": "Learn More", 
+    "sapConsultingBannerAlt": "Business experts collaborating on SAP-driven transformation in a modern boardroom",
+    "sapPartnerLogoAlt": "Official SAP Partner emblem showcasing certified implementation expertise",
     "solutionSuccess": [
       {
         "id": 1,
         "imageUrl": "/images/sap-consulting/rise-with-sap-team.webp",
         "title": "RISE with SAP",
-        "imageAlt": "Consultants implementing RISE with SAP for enterprise cloud transformation",
+        "imageAlt": "Consultants planning enterprise cloud migration using RISE with SAP",
         "description": "RISE with SAP is the ultimate solution for every enterprise that needs to develop new business models to avoid operational disruptions and create a well-defined digital system.",
         "productsDetails": [
           "SAP S/4HANA Migration",
@@ -416,7 +416,7 @@
         "id": 2,
         "imageUrl": "/images/sap-consulting/grow-with-sap-team.webp",
         "title": "GROW with SAP",
-        "imageAlt": "SAP experts guiding businesses through GROW with SAP cloud ERP adoption services",
+        "imageAlt": "SAP advisors guiding teams through GROW with SAP ERP adoption",
         "description": "Grow with SAP services offers comprehensive solutions, community support, and resources to help you adopt Cloud ERP quickly and reliably",
         "productsDetails": [
           "Accelerate Your Digital Transformation",
@@ -431,7 +431,7 @@
         "id": 3,
         "imageUrl": "/images/sap-consulting/successfactor-hcm-transform-team.webp",
         "title": "SuccessFactors",
-        "imageAlt": "HR technology professionals optimizing workforce management using SAP SuccessFactors",
+        "imageAlt": "HR professionals enhancing workforce operations with SAP SuccessFactors",
         "description": "SuccessFactors provides end-to-end global HCM transformation, automating HR processes to keep employees engaged and aligned with organizational needs, all while easing the workload for HR leaders.",
         "productsDetails": [
           "Employee Central & Employee Central Payroll",
@@ -445,7 +445,7 @@
         "id": 4,
         "imageUrl": "/images/sap-consulting/sap-ariba-procurement-team.webp",
         "title": "SAP Ariba",
-        "imageAlt": "Procurement specialists managing digital sourcing and spend transformation with SAP Ariba",
+        "imageAlt": "Procurement specialists driving digital sourcing with SAP Ariba tools",
         "description": "Transform your procurement strategy to enhance innovation and value through spend management, strategic sourcing, and cost savings, while improving operations, decision-making, and contract management",
         "productsDetails": [
           "Procurement and supply chain metrics",
@@ -464,7 +464,7 @@
     "riseWithSapTitle": "RISE with SAP",
     "riseWithSapDesc": "Simplify the business of transformation through a customizable, subscription-based “as a service” model that empowers you to move to the cloud and S/4HANA at your own pace. As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE.",
     "contactTitle": "Take the next step to operational excellence with us.",
-    "riseWithSapNavigationAlt": "As an SAP Gold Partner, we bring deep SAP application, business process, and technology expertise to help you take full advantage of RISE. "
+    "riseWithSapNavigationAlt": "Navigation graphic highlighting SAP Gold Partner expertise in RISE solutions"
   },
   "agentForce": {
     "headerTitle": "Agentforce",
@@ -650,27 +650,27 @@
         "url": "insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should",
         "title": "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)"
       }
-    ],
+    ], 
     "contactTitle": "Take the next step to operational excellence with us."
   },
   "oracle": {
-    "bannerAlt": "Banner promoting Rialtes' Oracle EBS consulting services for enterprise modernization",
-    "ebsimageAlt": "Visual highlighting Rialtes' EBSPlus offering for Oracle EBS and Kinaxis integration.",
-    "deepexpertiseAlt": "Image representing Rialtes' certified expertise in Oracle EBS and Oracle Cloud Infrastructure.",
-    "thoughtleadershipAlt": "Graphic illustrating Rialtes' thought leadership in Oracle EBS transformation and AI integration",
-    "supplyChainAlt": "Image showing Oracle EBS and Kinaxis integration for agile supply chain planning.",
-    "salesAndOperationsAlt": "Visual representing collaborative sales and operations planning using Oracle EBS and Kinaxis.",
-    "inventoryAlt": "Image depicting inventory optimization and enterprise scheduling using Oracle EBS ASCP",
-    "senarioplanningAlt": "Graphic showing end-to-end scenario planning with Oracle EBS and Kinaxis for risk mitigation.",
-    "aiDrivenAlt": "Image representing AI-powered transformation in Oracle EBS workflows for forecasting and automation.",
+    "bannerAlt": "Banner showcasing Rialtes’ Oracle EBS consulting services for enterprise digital modernization",
+    "ebsimageAlt": "Visual highlighting Rialtes’ EBSPlus solution integrating Oracle EBS with Kinaxis for agility.",
+    "deepexpertiseAlt": "Image representing Rialtes’ certified Oracle EBS and OCI expertise driving enterprise efficiency",
+    "thoughtleadershipAlt": "Graphic showing Rialtes’ thought leadership in Oracle EBS transformation",
+    "supplyChainAlt": "Image showing Oracle EBS and Kinaxis integration for agile and predictive supply chain planning", 
+    "salesAndOperationsAlt": "Visual illustrating Oracle EBS and Kinaxis collaboration for unified sales and operations planning",
+    "inventoryAlt": "Image depicting enterprise inventory optimization and scheduling using Oracle EBS ASCP tools",
+    "senarioplanningAlt": "Graphic showing risk-aware scenario planning using Oracle EBS and Kinaxis integration", 
+    "aiDrivenAlt": "Image representing AI-powered Oracle EBS transformation for predictive automation and forecasting",
     "seoTitle": "Oracle EBS Consulting Services and Solutions | Rialtes",
-    "ebsSuitelogoAlt": "Logo for Oracle E-Business Suite, featuring the word ORACLE in red and E-BUSINESS SUITE in black uppercase letters.",
+    "ebsSuitelogoAlt": "Official Oracle E-Business Suite logo featuring red Oracle wordmark and black uppercase text.",
     "seoDescription": "OracleEBSPlus by Rialtes redefines Oracle EBS consulting, enabling forward-thinking enterprises to lead with greater agility, deeper insight, and innovation.",
     "data": [
       {
         "img": "/images/oracle-ebs/oracle-ebusiness-suite-logo.svg",
         "text": "20+ years of ERP expertise with Fortune 500 clients.",
-        "alt": "Logo for Oracle E-Business Suite, featuring the word ORACLE in red and E-BUSINESS SUITE in black uppercase letters."
+        "alt": "Icon showing over 20 years of ERP consulting experience with global Fortune 500 enterprises"
       },
       {
         "img": "/images/oracle-ebs/oracle-ebs-erp-expertise-icon.svg",
@@ -680,17 +680,17 @@
       {
         "img": "/images/oracle-ebs/oracle-ebs-global-delivery-icon.svg",
         "text": "Global delivery with localized expertise in India, US, Canada, and Singapore.",
-        "alt": "Icon representing global delivery with localized expertise in India, US, Canada, and Singapore."
+        "alt": "Icon representing Rialtes’ global delivery and local expertise across India, US, Canada, and Singapore"
       },
       {
         "img": "/images/oracle-ebs/oracle-ebs-transformation-track-record-icon.svg",
         "text": "Proven track record of end-to-end Oracle EBS transformations.",
-        "alt": "Icon highlighting a proven track record of end-to-end Oracle EBS transformations"
+        "alt": "Icon highlighting Rialtes’ proven record of successful end-to-end Oracle EBS transformations"
       },
       {
         "img": "/images/oracle-ebs/oracle-ebs-ai-data-first-icon.svg",
         "text": "AI and Data-first approach for future-ready operations.",
-        "alt": "Icon representing an AI and data-first approach for future-ready operations"
+        "alt": "Icon representing Rialtes’ AI and data-first strategy for intelligent enterprise operations"
       }
     ],
     "InventoryData": [
@@ -1524,11 +1524,11 @@
     ],
     "integrationTitle": "MuleSoft Integration Services Aligned with Your Business Needs",
     "integrationDesc": "Our experts provide an extensive array of MuleSoft services that share your vision and values."
-  },
+  }, 
   "salesForceConsulting": {
     "consultingTitle": "Salesforce Consulting Services",
-    "partnerLogoAltText": "Official Salesforce Partner logo representing Rialtes’ certification as a trusted Salesforce consulting and implementation partner. ",
-    "bannerAltText": "A futuristic digital landscape background with text “Transform how you engage with your clients,” representing Salesforce consulting and customer engagement services. ",
+    "partnerLogoAltText": "Official Salesforce Partner logo symbolizing certified consulting expertise",
+    "bannerAltText": "Digital banner showing Salesforce consulting focused on enhanced customer engagement",
     "seoTitle": "Salesforce Consulting, Implementation & Integration Partner | Rialtes",
     "seoDescription": "Trusted by enterprises across the US & India, Rialtes provides Salesforce consulting, implementation, and integration services—powered by AI-driven innovation.",
     "consultingDesc": "Transform how you engage with your clients",
@@ -1545,49 +1545,49 @@
     "agentforceDesc": "Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.",
     "learnMore": "Learn More",
     "contactUs": "Take the next step to operational excellence with Salesforce Consulting.",
-    "neuralNetworkAltText": "Symmetrical digital artwork resembling a neural network, paired with a description of Salesforce Agentforce's AI agent deployment across business functions.",
+    "neuralNetworkAltText": "Digital neural network artwork representing Agentforce AI powering business automation.",
     "salesForce": [
       {
         "id": 1,
         "imageUrl": "/images/salesforce-consulting-services/salesforce-lightning-services-icon.svg",
         "title": "Lightning Services",
         "description": "Dedicated app developers are at your disposal for the development of an app closely knit for enhanced customer experience.",
-        "altText": "Cloud and lightning bolt icon symbolizing Salesforce Lightning app development for enhanced customer experiences. "
+        "altText": "Icon with cloud and lightning bolt representing Salesforce Lightning development"
       },
       {
         "id": 2,
         "imageUrl": "/images/salesforce-consulting-services/salesforce-integration-services-icon.svg",
         "title": "Integration Services",
         "description": "Salesforce Integration services like never before to help you deliver a connected experience for seamless data flow – on the go",
-        "altText": "Gear and connection icon representing seamless Salesforce integration for smooth data flow across systems."
+        "altText": "Icon showing gears and connectors symbolizing seamless Salesforce system integration"
       },
       {
         "id": 3,
         "imageUrl": "/images/salesforce-consulting-services/salesforce-implementation-services-icon.svg",
         "title": "Implementation Services",
         "description": "We know how to move beyond Salesforce basics, customizing and extending its capabilities with our implementation solutions.",
-        "altText": "Gear and wrench icon illustrating Salesforce implementation solutions that customize and extend platform capabilities. "
+        "altText": "Gear and wrench icon representing tailored Salesforce implementation solutions"
       },
       {
         "id": 4,
         "imageUrl": "/images/salesforce-consulting-services/salesforce-migration-services-icon.svg",
         "title": "Migration Services",
         "description": "With a user-friendly UI, interact with your customers with sleek visuals, unleash next-gen analytics, and improve your user engagement.",
-        "altText": "Cloud with upward arrows icon depicting migration of data and applications to Salesforce with enhanced user experience."
+        "altText": "Icon with cloud and upward arrows showing seamless migration to Salesforce "
       },
       {
         "id": 5,
         "imageUrl": "/images/salesforce-consulting-services/salesforce-contact-support-icon.svg",
         "title": "Contact Support",
         "description": "End-to-end monitoring and user support to identify and resolve challenges faced in the implementation cycle.",
-        "altText": "Cloud and headset icon representing end-to-end Salesforce customer support and issue resolution assistance. "
+        "altText": "Cloud and headset icon symbolizing Salesforce customer support services"
       }
     ],
     "salesForceProduct": [
       {
         "id": 3,
         "imageUrl": "/images/salesforce-consulting-services/salesforce-agentforce-ai-support.png",
-        "altText": "Illustration of a humanoid robot interacting with a laptop, representing Salesforce Agentforce's autonomous AI agents designed to resolve customer inquiries 24/7.",
+        "altText": "Illustration of robot using laptop representing Agentforce AI handling customer inquiries",
         "title": "Salesforce Agentforce",
         "description": "Build and customize autonomous AI agents to help your employees and customers 24/7.",
         "productsDetails": [
@@ -1601,7 +1601,7 @@
       {
         "id": 4,
         "imageUrl": "/images/salesforce-consulting-services/salesforce-data-cloud-customer-360.webp",
-        "altText": "Photo of a person using a laptop with digital data visualizations, highlighting Salesforce Data Cloud's ability to unify and transform data for a complete Customer 360 view.",
+        "altText": "Person using laptop with data visuals showing Salesforce Data Cloud unifying customer data ",
         "title": "Salesforce Data Cloud",
         "description": "Turn raw data into insights by unifying and transforming it, unlocking a sea of opportunities for your business.",
         "productsDetails": [
@@ -1664,7 +1664,8 @@
         "industry": "Generic",
         "date": "21 Oct 2024",
         "url": "insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce",
-        "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce"
+        "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
+        "altText": "Graphic representing Atlas Reasoning Engine powering Agentforce AI"
       },
       {
         "id": 4,
@@ -1673,7 +1674,8 @@
         "industry": "Generic",
         "date": "25 Nov 2024",
         "url": "insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data",
-        "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data"
+        "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
+        "altText": "Visual showing AI testing center using synthetic data for model validation"
       },
       {
         "id": 6,
@@ -1682,7 +1684,8 @@
         "industry": "HealthCare",
         "date": "17 Sept 2024",
         "url": "insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration",
-        "title": "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration"
+        "title": "Automate Crucial Parts of your Healthcare Organization with athenahealth and Salesforce Integration",
+        "altText": "Graphic highlighting Salesforce and athenahealth integration for automation"
       },
       {
         "id": 11,
@@ -1691,7 +1694,8 @@
         "industry": "Generic",
         "date": "17 Sept 2024",
         "url": "insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai",
-        "title": "Agentforce Agents Scales Enterprise Resource Planning Systems with AI"
+        "title": "Agentforce Agents Scales Enterprise Resource Planning Systems with AI",
+        "altText": "Visual showing Agentforce AI scaling enterprise resource planning systems"
       }
     ],
     "previousSlide": "Previous slide",
@@ -1699,11 +1703,11 @@
     "insights": "Insights"
   },
   "revenueCloud": {
-    "infographicAlt": "Infographic illustrating the Salesforce Revenue Cloud process flow from quote to cash",
-    "sapPartnerLogoAlt": "Official SAP Partner badge representing certified implementation expertise",
-    "bannerAlt": "Banner promoting Salesforce Revenue Cloud consulting services for streamlined revenue lifecycle management",
+    "infographicAlt": "Infographic illustrating Salesforce Revenue Cloud steps from quoting to cash collection",
+    "sapPartnerLogoAlt": "Official Salesforce Partner badge symbolizing certified expertise and trusted consulting",
+    "bannerAlt": "Banner showing Salesforce Revenue Cloud tools supporting streamlined quote-to-cash operations",
     "revenueCloudImg": "/images/revenue-cloud/revenue-cloud-infographic.webp",
-    "seoTitle": "Salesforce Revenue Cloud Implementation Partner | Rialtes",
+    "seoTitle": "Salesforce Revenue Cloud Implementation Partner | Rialtes", 
     "seoDescription": "Rialtes, a trusted Salesforce Revenue Cloud implementation partner, offers tailored solutions to transform sales, billing, and revenue operations.",
     "revenueStats": [
       {
@@ -1727,31 +1731,31 @@
         "id": 1,
         "imageUrl": "/images/revenue-cloud/customer-insight.svg",
         "title": "Customer Insight",
-        "alt": "Icon of a pie chart and magnifying glass representing customer insight and data analysis."
+        "alt": "Icon showing pie chart and magnifying glass representing deep customer insights"
       },
       {
         "id": 2,
         "imageUrl": "/images/revenue-cloud/streamlined-revenue-efficiency.svg",
         "title": "Streamlined Revenue Efficiency",
-        "alt": "Icon of a bar chart and gear symbolizing streamlined revenue operations and process optimization."
+        "alt": "Icon showing bar chart and gear symbolizing optimized revenue operations"
       },
       {
         "id": 3,
         "imageUrl": "/images/revenue-cloud/enhanced-buyer-experience.svg",
         "title": "Enhanced Buyer Experience",
-        "alt": "Icon of a mobile device with user profile indicating improved buyer experience and personalization."
+        "alt": "Icon of mobile device with user profile representing personalized buyer experiences"
       },
       {
         "id": 4,
         "imageUrl": "/images/revenue-cloud/increased-conversion-rates.svg",
         "title": "Increased Conversion Rates",
-        "alt": "Icon of a rising graph and percentage symbol representing increased conversion rates and sales growth."
+        "alt": "Icon of upward graph showing improved conversion rates and sales performance"
       },
       {
         "id": 5,
         "imageUrl": "/images/revenue-cloud/optimized-product-delivery.svg",
         "title": "Optimized Product Delivery",
-        "alt": "Icon of a gear and delivery box representing optimized product delivery and logistics."
+        "alt": "Icon with gear and package representing streamlined product delivery processes"
       }
     ],
     "salesForce2": [

@@ -365,21 +365,24 @@
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
         "imgSrc": "/images/case-studies/industrial-workers-safety-collaboration.webp",
         "title": "Industrial workers in safety gear and hard hats collaborating with laptop in manufacturing facility warehouse",
-        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects."
+        "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+        "altText": "Workers in safety gear collaborating with laptop in manufacturing facility"
       },
-      {
+      {  
         "id": 2,
         "url": "/insights/case-studies/realForce-banking-module-ach",
         "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
         "title": "Business professionals in modern office discussing strategy while pointing at vision board during team collaboration",
-        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties."
+        "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+        "altText": "Team discussing business strategy around vision board in a modern office"
       },
       {
         "id": 3,
         "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
         "imgSrc": "/images/case-studies/healthcare-professionals-patient-care.webp",
         "title": "Healthcare professionals in medical scrubs smiling while discussing patient care with digital tablets in clinic",
-        "description": "A global medical technology company that develops and manufactures innovative products"
+        "description": "A global medical technology company that develops and manufactures innovative products",
+        "altText": "Medical staff reviewing patient care using digital tablets in a clinic"
       }
     ],
     "getInspiredTitle": "Get Inspired By Our Latest Customer Success Stories, Industry Insight, And More",
@@ -399,28 +402,32 @@
         "image": "/images/industry/manufacturing-cnc-machine-metalworking.webp",
         "title": "Industrial CNC machine tool drilling with sparks flying during precision manufacturing metalworking process operation",
         "titleOne":"Manufacturing",
-        "url": "/industry/manufacturing-cloud-erp"
+        "url": "/industry/manufacturing-cloud-erp",
+        "altText":"CNC machine cutting metal with sparks during precision manufacturing"
       },
       {
         "id": 2,
         "image": "/images/industry/healthcare-digital-medical-data-analysis.webp",
         "title": "Healthcare professional analyzing digital medical data on futuristic touchscreen interface in modern hospital facility",
         "titleOne": "Healthcare",
-        "url": "/industry/life-sciences/healthcare-medtech-patient-care"
+        "url": "/industry/life-sciences/healthcare-medtech-patient-care",
+        "altText":"Clinician analyzing digital medical data on futuristic touchscreen interface"
       },
       {
         "id": 3,
         "image": "/images/industry/real-estate-urban-planning-model.webp",
         "title": "Business professional pointing at white 3D architectural city model during real estate urban planning presentation",
         "titleOne": "Real Estate",
-        "url": "/industry/real-estate-property-management"
+        "url": "/industry/real-estate-property-management",
+        "altText":"Professional reviewing 3D architectural city model for real-estate planning"
       },
       {
         "id": 4,
         "image": "/images/industry/hi-tech-circuit-board-microchip.webp",
         "title": "Close-up of turquoise circuit board with electronic pins showing hi-tech microchip technology and hardware components",
         "titleOne": "Hi-Tech",
-        "url": "/industry/hitech-semiconductor-ai-it-solutions"
+        "url": "/industry/hitech-semiconductor-ai-it-solutions",
+        "altText":"Close-up of microchip circuit board highlighting electronic components"
       }
     ]
   },

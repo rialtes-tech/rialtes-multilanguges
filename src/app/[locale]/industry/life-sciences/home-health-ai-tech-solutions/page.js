@@ -10,7 +10,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../../../../messages/en/industry.json';
 import esContent from '../../../../../../messages/es/industry.json';
 import frContent from '../../../../../../messages/fr/industry.json';
-import { changeLocalization } from "../../../components/changeLocalization";
+import { changeLocalization } from "../../../components/changeLocalization"; 
 import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
 export default function Page() {
     const schemaData = {
@@ -105,7 +105,7 @@ export default function Page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title={t('seoTitle')}
+                title={t('seoTitle')} 
                 description={t('seoDescription')}
                 canonical={`https://www.rialtes.com/${locale}/industry/life-sciences/home-health-ai-tech-solutions/`}
             />

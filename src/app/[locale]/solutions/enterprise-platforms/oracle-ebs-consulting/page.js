@@ -127,14 +127,14 @@ const schemaData = {
       "https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting/",
   },
 };
-export default function Page() {
+export default function Page() { 
   const t = useTranslations('oracle')
   const locale = useLocale();
   const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { data, InventoryData, oracleFeatures, ebsListItems, keyCapabilitiesData, businessBenefitsData, howWeTransformData, outcomeData, endToEndData, realWorldData,
     aiDrivenData, ebsData
   } = homepageContent.oracle;
-  return (
+  return ( 
     <div className="min-h-screen bg-white">
       <Seo
         title={t('seoTitle')}
@@ -358,7 +358,7 @@ export default function Page() {
                     fill
                     className="object-cover"
                     priority
-                    sizes="100vw"
+                    sizes="100vw" 
                   />
                 </div>
                 <div className="max-sm:px-[36px]">
