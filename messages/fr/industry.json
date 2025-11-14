@@ -79,7 +79,7 @@
             {
                 "id": 7,
                 "image": "/images/education/digital-education-graduate-future-learning-mobile.webp",
-                "imageAlt":"Professionnel d'affaires à lunettes visualisant flux données numériques et code superposé avec interface technologique verte dorée",
+                "imageAlt":"Professionnel à lunettes visualisant flux données numériques et code superposé, interface technologique verte dorée",
                 "title": "Éducation",
                 "description": "Nous nous concentrons sur les principaux défis de l'éducation, tels que l'engagement fragmenté des étudiants et le recrutement inefficace. En tirant parti du conseil stratégique et des technologies SAP et Salesforce, nous aidons les établissements à rationaliser leurs opérations et à améliorer l'expérience étudiante.",
                 "knowMore": "/industry/education-cloud-it-solutions"
@@ -87,7 +87,7 @@
             {
                 "id": 8,
                 "image": "/images/industry/auto-industry/Mobile/connected-automotive-smart-mobility-technology.webp",
-                "imageAlt":"Voiture de sport futuriste avec superposition numérique verte et lignes réseau connectées sur route urbaine gratte-ciel modernes",
+                "imageAlt":"Voiture de sport futuriste avec superposition numérique verte et lignes réseau sur route urbaine gratte-ciel modernes",
                 "title": "Automobile",
                 "description": "Relevez les défis complexes du secteur automobile, en particulier la fragmentation tout au long du cycle de vie client, de la prospection à la propriété. En exploitant SAP et Salesforce Industry Cloud, nous concevons des systèmes évolutifs et personnalisés qui optimisent les opérations.",
                 "knowMore": "/industry/digital-transformation-in-automotive-industry"
@@ -103,7 +103,7 @@
             {
                 "id": 9,
                 "image": "/images/industry/travel-transporation/digital-shopping-holographic-interface-retail.webp",
-                "imageAlt":"Main touchant icône holographique de panier d'achat superposée à allée de magasin représentant commerce numérique et achats omnicanal",
+                "imageAlt":"Main touchant icône holographique de panier sur allée de magasin, commerce numérique et achats omnicanal",
                 "title": "Commerce de détail",
                 "description": "Naviguez avec confiance dans les défis du commerce de détail. Rialtes Retail+ combine vision stratégique et exécution robuste, permettant aux détaillants B2B et B2C de moderniser, personnaliser et se développer. De la planification au support post-lancement, nous conduisons la transformation à chaque étape.",
                 "knowMore": "/industry/retail-industry-digital-transformation"
@@ -118,8 +118,8 @@
             },
             {
                 "id": 14,
-                "image": "/images/Finance/mobile/finance-digital-technology-network-visualization-mobile.webp",
-                "imageAlt":"Visualisation abstraite de données numériques avec rayons lumineux violets et bleus rayonnant du centre en motif circulaire sur fond sombre",
+                "image": "/images/finance-img/mobile/finance-digital-technology-network-visualization-mobile.webp",
+                "imageAlt":"Visualisation abstraite de données avec rayons violets et bleus rayonnant du centre en motif circulaire sur fond sombre",
                 "title": "Finance",
                 "description": "Modernisez les opérations financières grâce à des informations et à l’automatisation basées sur l’IA. De la banque à l’assurance, Rialtes aide les institutions financières à simplifier la conformité, renforcer les relations clients et offrir des expériences financières personnalisées sur tous les canaux.",
                 "knowMore": "/industry/finance-industry-digital-transformation-services-solutions"
@@ -1648,16 +1648,16 @@
         "contactSubtitleOne": "Contactez-nous dès aujourd'hui et commencez votre parcours vers une fabrication intelligente, résiliente et centrée sur le client !"
     },
     "education": {
-        "bannerAlt":"Étudiant diplômé en toge et mortier avec superposition de données numériques regardant vers l'avenir de l'éducation technologique",
+        "bannerAlt":"Étudiant diplômé en toge et mortier avec données numériques regardant vers l'avenir de l'éducation technologique",
         "businessAlt":"Professionnel d'affaires en costume gris et cravate bleue utilisant tablette numérique dans bureau moderne avec mur vitré",
-        "studentALt":"Jeune femme souriante en chemise orange avec sac à dos utilisant ordinateur portable en extérieur adossée au mur dans rue ensoleillée",
+        "studentALt":"Jeune femme souriante en chemise orange avec sac à dos utilisant ordinateur portable adossée au mur dans rue ensoleillée",
         "markeAlt":"Groupe d'étudiants divers collaborant avec tablette et cahiers dans espace d'étude lumineux de bibliothèque avec étagères",
         "studentAlt":"Groupe diversifié de jeunes étudiants en discussion animée avec ordinateur portable en extérieur lors de session d'apprentissage",
-        "teamAlt":"Trois professionnels d'affaires divers en discussion autour d'ordinateur portable examinant documents dans salle de réunion moderne",
+        "teamAlt":"Trois professionnels divers en discussion autour d'ordinateur portable examinant documents dans salle de réunion moderne",
         "hanaAlt":"Femme professionnelle en manteau beige avec lunettes souriante utilisant smartphone et tenant sac en cuir dans rue urbaine",
-        "cloudAlt":"Femme enthousiaste en cardigan rose célébrant poing levé tenant carte de crédit utilisant ordinateur portable en extérieur shopping",
+        "cloudAlt":"Femme enthousiaste en cardigan rose célébrant poing levé tenant carte de crédit utilisant ordinateur portable pour shopping",
         "campusAlt":"Diplômé souriant en mortier vert et toge avec étole rouge tenant diplôme debout en extérieur sur campus universitaire",
-        "empowerAlt":"Mains tenant cerveau holographique lumineux entouré d'icônes de technologie éducative incluant livres vidéos et symboles recherche",
+        "empowerAlt":"Mains tenant cerveau holographique lumineux entouré d'icônes technologie éducative incluant livres vidéos et recherche",
         "aiAlt":"Femme avec casque tenant smartphone affichant icône cerveau IA entouré de symboles technologiques éducatifs et de communication",
         "autoAlt":"Icône d'engrenage blanc et flèches circulaires sur fond bleu représentant automatisation cloud",
         "smartAlt":"Engrenage blanc avec puce centrale et flèches circulaires sur fond bleu représentant automatisation continue des processus",

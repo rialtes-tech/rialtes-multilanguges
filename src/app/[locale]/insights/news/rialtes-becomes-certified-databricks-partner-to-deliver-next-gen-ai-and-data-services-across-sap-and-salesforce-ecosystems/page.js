@@ -21,7 +21,7 @@ const schemaData = {
     "Rialtes Becomes Certified Databricks Partner to Deliver Next-Gen AI and Data Services Across SAP and Salesforce Ecosystems",
   description:
     "Rialtes achieves Databricks partner certification, enabling advanced AI and data-driven solutions across Salesforce and SAP platforms.",
-  image: "https://www.rialtes.com/images/news/databricks-partner-banner.webp",
+  image: "https://www.rialtes.com/images/homepage/rialtes-databricks-certified-partnership-announcement.webp",
   datePublished: "2025-04-18",
   author: {
     "@type": "Organization",
@@ -68,7 +68,7 @@ export default function Page() {
           <div className="xl:block hidden">
             <Image
               src={t('bannerImage')}
-              alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
+              alt={t("bannerAlt")}
               fill
               priority
             />
@@ -76,7 +76,7 @@ export default function Page() {
           <div className="xl:hidden block">
             <Image
               src={t('bannerImageMobile')}
-              alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
+              alt={t("bannerAlt")}
               className="!w-full h-full"
               width={0}
               height={0}

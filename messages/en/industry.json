@@ -15,7 +15,7 @@
       {
         "id": 3,
         "image": "/images/industry/real-estate-urban-planning-model.webp",
-        "imageAlt":"Architect's hand placing building on white city model representing urban planning, real estate development, and smart city design",
+        "imageAlt":"Architect's hand placing building on white city model representing urban planning, real estate development, and smart city",
         "title": "Real Estate",
         "description": "Expand your real estate portfolio with cloud-based property management software. Helping realtors, property owners, and brokers navigate through client details, properties, and rental agreements.",
         "knowMore": "/industry/real-estate-property-management"
@@ -23,7 +23,7 @@
       {
         "id": 11,
         "image": "/images/industry/sustainable-technology-environmental-innovation.webp",
-        "imageAlt":"Digital hand with glowing network holding green plant representing sustainable technology, environmental innovation, and growth",
+        "imageAlt":"Digital hand with glowing network holding green plant representing sustainable technology, environmental innovation and growth",
         "title": "Life Sciences",
         "description": "Unify research, clinical, and commercial operations on a connected digital foundation. With Salesforce Life Sciences Cloud and AI-driven analytics, Rialtes helps organizations enhance compliance, accelerate innovation, and improve patient outcomes.",
         "knowMore": "/industry/life-sciences-digital-transformation"
@@ -103,7 +103,7 @@
       {
         "id": 9,
         "image": "/images/industry/travel-transporation/digital-shopping-holographic-interface-retail.webp",
-        "imageAlt":"Hand touching holographic shopping cart icon overlaying retail store aisle representing digital commerce and omnichannel shopping",
+        "imageAlt":"Hand touching holographic shopping cart icon over retail store aisle representing digital commerce and omnichannel shopping",
         "title": "Retail",
         "description": "Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.",
         "knowMore": "/industry/retail-industry-digital-transformation"
@@ -118,8 +118,8 @@
       },
       {
         "id": 14,
-        "image": "/images/Finance/mobile/finance-digital-technology-network-visualization-mobile.webp",
-        "imageAlt":"Abstract digital data visualization with purple and blue light rays radiating from center in circular pattern on dark background",
+        "image": "/images/finance-img/mobile/finance-digital-technology-network-visualization-mobile.webp",
+        "imageAlt":"Abstract digital data visualization with purple and blue light rays radiating from center in circular pattern on dark",
         "title": "Finance",
         "description": "Modernize financial operations with AI-enabled insights and automation. From banking to insurance, Rialtes helps financial institutions simplify compliance, strengthen customer relationships, and deliver personalized financial experiences across every channel.",
         "knowMore": "/industry/finance-industry-digital-transformation-services-solutions"
@@ -1647,14 +1647,14 @@
     "contactSubtitleOne": "Contact Us Today and start your journey toward intelligent, resilient, and customer-centric manufacturing!"
   },
   "education": {
-    "bannerAlt":"Graduate student in cap and gown with digital data overlay looking forward representing education technology and future learning",
+    "bannerAlt":"Graduate in cap and gown with digital data overlay looking forward representing education technology and future learning",
     "businessAlt":"Business professional in gray suit and blue tie using digital tablet in modern office with glass wall background",
     "studentALt":"Smiling young woman in orange shirt with backpack using laptop outdoors leaning against wall on sunny city street",
     "markeAlt":"Group of diverse students collaborating with tablet and notebooks in bright library study space with bookshelves behind",
     "studentAlt":"Diverse group of young students engaged in animated discussion with laptop outdoors in casual collaborative learning session",
     "teamAlt":"Three diverse business professionals in discussion around laptop reviewing documents in bright modern office meeting space",
     "hanaAlt":"Professional woman in beige coat with glasses smiling while using smartphone and holding leather bag on urban city street",
-    "cloudAlt":"Excited woman in pink cardigan celebrating with fist pump while holding credit card and using laptop outdoors for online shopping",
+    "cloudAlt":"Excited woman in pink cardigan celebrating with fist pump holding credit card and using laptop outdoors for online shopping",
     "campusAlt":"Smiling male graduate in green cap and gown with red stole holding diploma standing outdoors at university campus",
     "empowerAlt":"Hands holding holographic glowing brain surrounded by educational technology icons including books videos and search symbols",
     "aiAlt":"Woman with headset holding smartphone displaying AI brain icon surrounded by educational and communication technology symbols",
