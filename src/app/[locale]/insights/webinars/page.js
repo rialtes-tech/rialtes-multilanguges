@@ -367,7 +367,7 @@ export default function About() {
             {visibleWebinars.map((webinar) => (
               <Link href={'/' + webinar.url} key={webinar.id}>
                 <div
-                  className="border border-gray-200 overflow-hidden shadow-sm transition-shadow flex flex-col h-full"
+                  className="border border-gray-300 overflow-hidden shadow-sm transition-shadow flex flex-col h-full"
                   onMouseEnter={handleMouseEnter(webinar.id)}
                   onMouseLeave={handleMouseLeave(webinar.id)}
                   style={{
@@ -376,8 +376,7 @@ export default function About() {
                       hoveredBlog === webinar.id ? "#f1f1f1" : "transparent",
                     border: hoveredBlog === webinar.id ? "1px solid #f1f1f1" : "",
                     cursor: "pointer",
-                  }}
-                >
+                  }}>
                   <div className="w-full overflow-hidden">
                     <div
                       className="h-full w-full"
@@ -385,8 +384,7 @@ export default function About() {
                         transition: "transform 0.3s ease",
                         transform:
                           hoveredBlog === webinar.id ? "scale(1.05)" : "scale(1)",
-                      }}
-                    >
+                      }}>
                       <Image
                         src={webinar.image}
                         alt={webinar.altImage}
@@ -396,7 +394,7 @@ export default function About() {
                         style={{
                           width: "100%",
                           height: "auto",
-                          aspectRatio: "16 / 9", // Ensures consistent image ratio
+                          aspectRatio: "16 / 12", 
                           objectFit: "cover",
                         }}
                         priority

@@ -136,7 +136,7 @@ export default function Page() {
                         {/* date and icons */}
                         <div className="sm:flex justify-between">
                             <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Salesforce</span>{" "}
+                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Salesforce Agentforce</span>{" "}
                                 <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>06 October 2025
                             </div>
 

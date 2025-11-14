@@ -66,7 +66,7 @@ export default function Page() {
       />
 
       <Script
-        id="schema-nonprofit"
+        id="schema-datasphere"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
@@ -100,7 +100,7 @@ export default function Page() {
             {/* date and icons */}
             <BlogSocialIcons
               fullUrl={fullUrl}
-              topic={t("blogTopic")}
+              topic="SAP BDC"
               date="22 April 2025"
             />
 
