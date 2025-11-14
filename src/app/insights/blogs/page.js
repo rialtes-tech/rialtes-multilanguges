@@ -722,8 +722,8 @@ const FeaturedCarousel = () => {
           customDot={<CustomDot />}
         >
           {slides.map((slide) => (
-            <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full">
-              <div className="basis-full h-full ">
+            <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full border border-gra-300">
+              <div className="basis-full h-auto">
                 <Link href={'/insights/blogs' + slide.url}>
                   <Image
                     src={slide.image}
@@ -753,7 +753,7 @@ const FeaturedCarousel = () => {
 }
 
 const BlogCard = ({ blog }) => (
-  <div className="border border-[#707070] w-full h-full flex flex-col group">
+  <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
     <div className="max-h-[300px]">
       <Link href={'/insights/blogs' + blog.url}>
         <Image
