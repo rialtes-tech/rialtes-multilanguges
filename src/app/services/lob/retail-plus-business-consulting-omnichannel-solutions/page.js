@@ -220,9 +220,9 @@ export default function page() {
           <div className="grid md:grid-cols-12 grid-cols-1 4xl:mt-20 ">
             <div className="lg:col-span-5 2xl:col-span-5 4xl:col-span-7 col-span-12 mt-28  2xl:pr-[34px]">
               <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">Retail+</h3>
-              <h1 className="text-white leading-tight text-[26px] xl:text-[40px] lg:text-[36px] 4xl:text-[60px] md:text-[35px] mt-5 pr-10 xl:pr-0 4xl:pr-0 md:pr-80">
+              <h2 className="text-white leading-tight text-[26px] xl:text-[40px] lg:text-[36px] 4xl:text-[60px] md:text-[35px] mt-5 pr-10 xl:pr-0 4xl:pr-0 md:pr-80">
                 Intelligent, Connected, and Scalable Retail Transformation
-              </h1>
+              </h2>
             </div>
             <div className="xl:col-span-7 col-span-12">
             </div>
@@ -232,9 +232,9 @@ export default function page() {
       <section className="mt-16 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-10 col-span-12 ">
-            <h2 className="leading-tight text-[26px] xl:text-[45px] 4xl:text-[60px] 4xl:pr-10 xl:pr-24">
+            <h1 className="leading-tight text-[26px] xl:text-[45px] 4xl:text-[60px] 4xl:pr-10 xl:pr-24">
               Empowering Global Retailers with AI-Driven, Omnichannel Solutions
-            </h2>
+            </h1>
             <p className="4xl:text-[22px] xl:text-[18px]  mt-5  xl:pr-0">
               In today’s dynamic and highly competitive retail landscape,
               customer expectations are evolving rapidly, driven by

@@ -150,9 +150,9 @@ const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const slides = useMemo(() => [
-        { link: "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/", title: "Life Science", image: '/images/homepage/lifeaiplus-banner.webp', imageMobile: '/images/homepage/lifeaiplus-banner-mobile.webp' },
-        { link: "/industry/manufacturing-cloud-erp/", image: '/images/homepage/manufacturing-banner.webp', title: "Manufacturing", imageMobile: '/images/homepage/manufacturing-banner-mobile.webp' },
-        { link: "/products/mediaina-reimagining-patient-journeys/", image: '/images/homepage/mediaina-banner.webp', title: "MediAIna", imageMobile: '/images/homepage/mediaina-banner-mobile.webp' },
+        { link: "/solutions/data-ai/sap-business-data-cloud-bdc-consulting/", title: "SAP Business Data Cloud", image: '/images/homepage/sap-business-datacloude-desktop.webp', imageMobile: '/images/homepage/sap-business-data-cloude-mobile.webp' },
+        { link: "/industry/real-estate-property-management/", image: '/images/homepage/real-estate-desktop-banner.webp', title: "Real Estate", imageMobile: '/images/homepage/real-estate-mobile-banner.webp' },
+        { link: "/industry/hitech-semiconductor-ai-it-solutions", image: '/images/homepage/semiconducter-desktop-banner.webp', title: "Semiconductor Industry", imageMobile: '/images/homepage/semiconductor-mobile-banner.webp' },
 
     ], [])
     const handlePrevInsights = () => {

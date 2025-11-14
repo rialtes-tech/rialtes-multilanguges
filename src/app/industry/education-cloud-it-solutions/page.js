@@ -277,12 +277,12 @@ export default function Page() {
         <div className="h-full relative custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-1  xl:mt-20  mt-[9rem]">
             <div className="xl:col-span-7 col-span-12">
-              <h1 className="text-white 2xl:text-[24px] xl:text-[22px] text-[18px] font-bold mb-2 mt-10">
+              <h2 className="text-white 2xl:text-[24px] xl:text-[22px] text-[18px] font-bold mb-2 mt-10">
                 Education Industry
-              </h1>
-              <h2 className="text-white leading-tight xl:pr-[130px] xl:mt-10 4xl:text-[60px] 2xl:text-[50px] xl:text-[40px] lg:text-[45px] text-[24px] ">
-                Empowering the Future of Education
               </h2>
+              <h1 className="text-white leading-tight xl:pr-[130px] xl:mt-10 4xl:text-[60px] 2xl:text-[50px] xl:text-[40px] lg:text-[45px] text-[24px] ">
+                Empowering the Future of Education
+              </h1>
               <h3 className="4xl:text-[45px] 2xl:text-[38px] xl:text-[32px] lg:text-[38px] xl:mt-10 mt-5 text-white font-bold text-[18px] leading-tight">
                 Rialtes’ End-to-End Solutions for Student Success
               </h3>
