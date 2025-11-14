@@ -203,6 +203,17 @@
       }
     ],
     "latestBlogs": [
+       {
+         "id": 55,
+        "image": "/images/blog/digital-network-touch-data-connection-visualization-mobile.webp",
+        "category": "Integration",
+        "industry": "Generic",
+        "date": "Nov. 12, 2025",
+        "url": "/boost-enterprise-agility-with-sap-consulting-implementation-services/",
+        "title": "Boost Enterprise Agility with Tailored SAP Consulting and Implementation Services",
+        "alt": "Hand touching digital network light burst for SAP enterprise agility integration services ",
+        "description": "Today,  adaptability defines survival; custom SAP development has become a core driver of enterprise agility and growth. "
+      },
       {
         "id": 54,
         "image": "/images/blog/futuristic-data-analytics-visualization-mobile.webp",
@@ -225,6 +236,7 @@
         "title": "Why Leading Enterprises Choose Top SAP Consulting Partners for Growth and Innovation",
         "description": "Enterprises have been operating in a complex landscape with scattered data, legacy systems, siloed teams, and mounting customer expectations."
       },
+     
       {
         "id": 52,
         "image": "/images/blog/exelona-cluster-feature-thumb.webp",
@@ -1239,8 +1251,9 @@
     ]
   },
   "newsDataBricks": {
-    "bannerImage": "/images/homepage/baner.webp",
-    "bannerImageMobile": "/images/homepage/banner.webp",
+    "bannerAlt" : "Rialtes and Databricks partnership announcement with geometric polygon brain graphic on blue tech background",
+    "bannerImage": "/images/homepage/rialtes-databricks-certified-partnership-announcement.webp",
+    "bannerImageMobile": "/images/homepage/rialtes-databricks-certified-partnership-announcement-mobile.webp",
     "seoTitle": "Rialtes Now a Certified Databricks Partner",
     "seoDescription": "As a certified Databricks partner, Rialtes empowers businesses with AI-driven data solutions across SAP and Salesforce ecosystems.",
     "title": "Rialtes Levels Up AI Game with Databricks Partnership to Power Unified AI Across SAP and Salesforce",
