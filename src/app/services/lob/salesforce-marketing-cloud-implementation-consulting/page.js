@@ -10,7 +10,7 @@ const schemaData = {
     "@type": "Service",
     "name": "Salesforce Marketing Cloud Consulting & Implementation Services",
     "alternateName": "Advantage+ Salesforce Marketing Cloud Services",
-    "url": "https://www.rialtes.com/solutions/salesforce-marketing-cloud",
+    "url": "https://www.rialtes.com/services/lob/salesforce-marketing-cloud-implementation-consulting/",
     "description": "Salesforce Marketing Cloud Consulting & Implementation Services by Rialtes’ Advantage+ deliver AI-powered, personalized journeys across channels—driving real ROI.",
     "provider": {
         "@type": "Organization",

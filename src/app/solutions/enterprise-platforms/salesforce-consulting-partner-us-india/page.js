@@ -14,7 +14,7 @@ export default function SalesForceConsulting() {
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Salesforce Consulting Services",
-        "url": "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting/",
+        "url": "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/",
         "description": "Rialtes provides comprehensive Salesforce consulting services including implementation, integration, migration, and support to help businesses scale, automate processes, and enhance customer engagement.",
         "inLanguage": "en",
         "publisher": {
