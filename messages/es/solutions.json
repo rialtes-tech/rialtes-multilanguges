@@ -582,13 +582,13 @@
     "headerSubTitle3": "Aprovechando los servicios de consultoría SAP para operaciones comerciales confiables.",
     "KnowMore": "Saber más",
     "learnMore": "Aprender más",
-    "sapConsultingBannerAlt": "Equipo profesional colaborando en la transformación digital con soluciones SAP",
-    "sapPartnerLogoAlt": "Insignia oficial de Socio SAP que representa experiencia certificada en implementación",
+    "sapConsultingBannerAlt": "Expertos colaborando en una transformación impulsada por SAP en una sala moderna",
+    "sapPartnerLogoAlt": "Emblema oficial de SAP Partner que muestra experiencia certificada en implementación",
     "solutionSuccess": [
       {
         "id": 1,
         "imageUrl": "/images/sap-consulting/rise-with-sap-team.webp",
-        "imageAlt": "Consultores implementando RISE con SAP para la transformación en la nube de empresas",
+        "imageAlt": "Consultores planificando migración empresarial a la nube con RISE with SAP",
         "title": "RISE con SAP",
         "description": "RISE con SAP es la solución definitiva para toda empresa que necesita desarrollar nuevos modelos de negocio, evitar interrupciones operativas y crear un sistema digital bien definido.",
         "productsDetails": [
@@ -603,7 +603,7 @@
         "id": 2,
         "imageUrl": "/images/sap-consulting/grow-with-sap-team.webp",
         "title": "GROW con SAP",
-        "imageAlt": "Expertos SAP guiando a empresas en la adopción de GROW con SAP Cloud ERP.",
+        "imageAlt": "Asesores SAP guiando equipos en la adopción del ERP GROW with SAP",
         "description": "Los servicios GROW con SAP ofrecen soluciones integrales, apoyo comunitario y recursos para ayudarte a adoptar Cloud ERP de forma rápida y confiable.",
         "productsDetails": [
           "Acelera tu transformación digital",
@@ -618,7 +618,7 @@
         "id": 3,
         "imageUrl": "/images/sap-consulting/successfactor-hcm-transform-team.webp",
         "title": "SuccessFactors",
-        "imageAlt": "Profesionales de tecnología de RR.HH. optimizando la gestión de personal con SAP SuccessFactors",
+        "imageAlt": "Profesionales de RR. HH. mejorando operaciones laborales con SAP SuccessFactors",
         "description": "SuccessFactors ofrece una transformación HCM global de extremo a extremo, automatizando los procesos de RRHH para mantener a los empleados comprometidos y alineados con las necesidades de la organización, al tiempo que alivia la carga de los líderes de RRHH.",
         "productsDetails": [
           "Employee Central y Nómina de Employee Central",
@@ -632,7 +632,7 @@
         "id": 4,
         "imageUrl": "/images/sap-consulting/sap-ariba-procurement-team.webp",
         "title": "SAP Ariba",
-        "imageAlt": "Especialistas en compras gestionando transformación digital de aprovisionamiento y gastos con SAP Ariba.",
+        "imageAlt": "Especialistas en compras impulsando abastecimiento digital con SAP Ariba",
         "description": "Transforma tu estrategia de adquisiciones para mejorar la innovación y el valor mediante la gestión del gasto, el abastecimiento estratégico y el ahorro de costos, al tiempo que optimizas las operaciones, la toma de decisiones y la gestión de contratos.",
         "productsDetails": [
           "Métricas de adquisiciones y cadena de suministro",
@@ -651,21 +651,21 @@
     "riseWithSapTitle": "RISE con SAP",
     "riseWithSapDesc": "Simplifica la transformación empresarial mediante un modelo personalizable de suscripción \"como servicio\" que te permite migrar a la nube y a S/4HANA a tu propio ritmo. Como Socio Gold de SAP, aportamos una profunda experiencia en aplicaciones SAP, procesos de negocio y tecnología para ayudarte a aprovechar al máximo RISE.",
     "contactTitle": "Da el siguiente paso hacia la excelencia operativa con nosotros.",
-    "riseWithSapNavigationAlt": "Como Socio Gold de SAP, aportamos una profunda experiencia en aplicaciones SAP, procesos empresariales y tecnología para ayudarle a aprovechar al máximo RISE."
+    "riseWithSapNavigationAlt": "Gráfico de navegación que destaca experiencia Gold Partner en soluciones RISE"
   },
   "oracle": {
-    "bannerAlt": "Banner que promociona los servicios de consultoría Oracle EBS de Rialtes para la modernización empresarial.",
-    "ebsimageAlt": "Visual que destaca la oferta EBSPlus de Rialtes para la integración de Oracle EBS y Kinaxis.",
-    "deepexpertiseAlt": "Imagen que representa la experiencia certificada de Rialtes en Oracle EBS y Oracle Cloud Infrastructure.",
-    "thoughtleadershipAlt": "Gráfico que ilustra el liderazgo intelectual de Rialtes en la transformación de Oracle EBS y la integración de IA.",
-    "supplyChainAlt": "Imagen que muestra la integración de Oracle EBS y Kinaxis para la planificación ágil de la cadena de suministro.",
-    "salesAndOperationsAlt": "Visual que representa la planificación colaborativa de ventas y operaciones con Oracle EBS y Kinaxis",
-    "inventoryAlt ": "Imagen que muestra la optimización de inventario y la programación empresarial con Oracle EBS ASCP.",
-    "senarioplanningAlt": "Gráfico que muestra la planificación de escenarios de extremo a extremo con Oracle EBS y Kinaxis para mitigar riesgos.",
-    "aiDrivenAlt": "Imagen que representa la transformación impulsada por IA en los flujos de trabajo de Oracle EBS para pronósticos y automatización.",
-    "ebsSuitelogoAlt": "Logotipo de Oracle E-Business Suite, con la palabra ORACLE en rojo y E-BUSINESS SUITE en letras mayúsculas negras.",
+    "bannerAlt": "Banner que muestra los servicios de consultoría Oracle EBS de Rialtes para la modernización empresarial",
+    "ebsimageAlt": "Visual que destaca la solución EBSPlus de Rialtes que integra Oracle EBS con Kinaxis para mayor agilidad",
+    "deepexpertiseAlt": "Imagen que representa la experiencia certificada de Rialtes en Oracle EBS y OCI para eficiencia empresarial",
+    "thoughtleadershipAlt": "Gráfico que muestra el liderazgo de Rialtes en transformación Oracle EBS e innovación impulsada por IA",
+    "supplyChainAlt": "Imagen que muestra integración Oracle EBS y Kinaxis para una planificación ágil y predictiva de la cadena",
+    "salesAndOperationsAlt": "Visual que ilustra la colaboración Oracle EBS y Kinaxis para una planificación unificada de ventas y operaciones",
+    "inventoryAlt": "Imagen que muestra optimización de inventario empresarial y programación con herramientas Oracle EBS ASCP",
+    "senarioplanningAlt": "Gráfico que muestra planificación de escenarios con Oracle EBS y Kinaxis para mitigar riesgos",
+    "aiDrivenAlt": "Imagen que representa transformación Oracle EBS impulsada por IA para automatización y pronósticos predictivos",
+    "ebsSuitelogoAlt": "Logotipo oficial de Oracle E-Business Suite con la palabra Oracle en rojo y texto negro en mayúsculas",
     "data": [
-      {
+      { 
         "img": "/images/oracle-ebs/oracle-ebusiness-suite-logo.svg",
         "text": "Más de 20 años de experiencia en ERP con clientes Fortune 500.",
         "alt": "ogotipo de Oracle E-Business Suite, con la palabra ORACLE en rojo y E-BUSINESS SUITE en letras mayúsculas negras"
@@ -673,22 +673,22 @@
       {
         "img": "/images/oracle-ebs/oracle-ebs-erp-expertise-icon.svg",
         "text": "Socio certificado de Oracle y Kinaxis con conocimiento profundo del sector.",
-        "alt": "Icono que representa más de 20 años de experiencia en ERP con clientes Fortune 500."
+        "alt": "Icono que muestra más de 20 años de experiencia en ERP con empresas Fortune 500 globales"
       },
       {
         "img": "/images/oracle-ebs/oracle-ebs-global-delivery-icon.svg",
         "text": "Entrega global con experiencia local en India, EE. UU., Canadá y Singapur.",
-        "alt": "Icono que representa entrega global con experiencia localizada en India, EE. UU., Canadá y Singapur."
+        "alt": "Icono que representa la entrega global y experiencia local de Rialtes en India, EE. UU., Canadá y Singapur"
       },
       {
         "img": "/images/oracle-ebs/oracle-ebs-transformation-track-record-icon.svg",
         "text": "Hoja de ruta demostrada en transformaciones completas de Oracle EBS.",
-        "alt": "Icono que destaca un historial comprobado de transformaciones completas de Oracle EBS."
+        "alt": "Icono que destaca el historial comprobado de Rialtes en transformaciones completas de Oracle EBS"
       },
       {
         "img": "/images/oracle-ebs/oracle-ebs-ai-data-first-icon.svg",
         "text": "Enfoque basado en IA y datos para operaciones preparadas para el futuro.",
-        "alt": "Icono que representa un enfoque basado en IA y datos para operaciones preparadas para el futuro."
+        "alt": "Icono que representa la estrategia de Rialtes centrada en IA y datos para operaciones inteligentes"
       }
     ],
     "InventoryData": [
@@ -1664,7 +1664,8 @@
         "industry": "Genérico",
         "date": "21 Oct 2024",
         "url": "insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce",
-        "title": "El cerebro detrás de los agentes: Revelando el motor de razonamiento Atlas en Agentforce"
+        "title": "El cerebro detrás de los agentes: Revelando el motor de razonamiento Atlas en Agentforce",
+        "altText": "Gráfico que representa Atlas Reasoning Engine impulsando la IA de Agentforce"
       },
       {
         "id": 4,
@@ -1673,7 +1674,8 @@
         "industry": "Genérico",
         "date": "25 Nov 2024",
         "url": "insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data",
-        "title": "Centro de pruebas de Agentforce: Redefiniendo las pruebas de IA con datos sintéticos"
+        "title": "Centro de pruebas de Agentforce: Redefiniendo las pruebas de IA con datos sintéticos",
+        "altText": "Visual que muestra centro de pruebas de IA usando datos sintéticos"
       },
       {
         "id": 6,
@@ -1682,7 +1684,8 @@
         "industry": "Cuidado de la salud",
         "date": "17 Sept 2024",
         "url": "insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration",
-        "title": "Automatiza partes cruciales de tu organización de salud con la integración de Athenahealth y Salesforce"
+        "title": "Automatiza partes cruciales de tu organización de salud con la integración de Athenahealth y Salesforce",
+        "altText": "Gráfico que destaca integración de Salesforce y athenahealth para automatización"
       },
       {
         "id": 11,
@@ -1691,7 +1694,8 @@
         "industry": "Genérico",
         "date": "17 Sept 2024",
         "url": "insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai",
-        "title": "Los agentes de Agentforce escalan los sistemas de planificación de recursos empresariales con IA"
+        "title": "Los agentes de Agentforce escalan los sistemas de planificación de recursos empresariales con IA",
+        "altText": "Visual que muestra IA de Agentforce ampliando sistemas ERP"
       }
     ],
     "previousSlide": "Diapositiva anterior",

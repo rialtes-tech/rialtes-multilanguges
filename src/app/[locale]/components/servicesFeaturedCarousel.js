@@ -19,7 +19,7 @@ export default function servicesFeaturedCarousel() {
       breakpoint: { max: 3000, min: 1024 },
       items: 1,
       partialVisibilityGutter: 250,
-      slidesToSlide: 1,
+      slidesToSlide: 1, 
     },
     tablet: {
       breakpoint: { max: 1024, min: 575 },
@@ -145,7 +145,7 @@ export default function servicesFeaturedCarousel() {
                     <Link href={slide.url} tabIndex={-1}>
                       <Image
                         src={slide.imgSrc}
-                        alt={slide.title}
+                        alt={slide.altText}
                         width={0}
                         height={0}
                         sizes="100vw"

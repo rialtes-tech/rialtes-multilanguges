@@ -114,11 +114,11 @@ const schemaData = {
             "Growing Businesses",
             "Enterprise IT Teams",
             "SAP Business One Customers",
-            "Digital Transformation Leaders"
+            "Digital Transformation Leaders" 
         ]
     },
     "mainEntityOfPage": {
-        "@type": "WebPage",
+        "@type": "WebPage", 
         "@id": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
     }
 }

@@ -595,18 +595,18 @@
         "contactTitle": "Faites le prochain pas vers l’excellence opérationnelle avec nous."
     },
     "pharmaBiotech": {
-        "agentForceAlt": "Visuel représentant la solution Agentforce de Salesforce pour les équipes de vente et affaires médicales en pharmacie",
-        "agentChatAlt": "Image montrant l’intégration AgentChat avec WhatsApp pour une communication sécurisée entre patients et professionnels de santé.",
-        "remoteMonitoringAlt": "Visuel représentant des outils de surveillance à distance pour suivre la sécurité des patients et l’utilisation des produits.",
-        "patientCentricAlt": "Image montrant des applications mobiles conçues pour l’engagement des patients et le suivi des résultats.",
-        "benefitsAlt": "Visuel listant les avantages de l’IA dans la pharmacie, y compris un développement plus rapide et une meilleure conformité.",
-        "deepExpertiesAlt": "Visuel représentant l’expertise approfondie de Rialtes dans les plateformes numériques pharmaceutiques et biotechnologiques.",
-        "keyImpactAlt": "Graphique montrant les domaines clés d’impact de l’IA dans la pharmacie, y compris la découverte de médicaments et l’engagement des patients.",
-        "sapOperationsAlt": "Visuel représentant les opérations pharmaceutiques pilotées par SAP, y compris la sérialisation et la conformité.",
-        "lifeSciencesPlatformAlt": "Image montrant l’intégration des opérations commerciales, cliniques et médicales dans les sciences de la vie.",
-        "bannerAlt": "Image de bannière pour les services de transformation numérique en pharmacie et biotechnologie.",
-        "thoughtLeadershipAlt": "Visuel mettant en avant le leadership intellectuel de Rialtes en IA et transformation numérique pour la pharmacie.",
-        "whyRialtesAlt": "Graphique expliquant pourquoi les entreprises pharmaceutiques et biotechnologiques choisissent Rialtes pour la transformation numérique.",
+        "agentForceAlt": "Visuel représentant les outils Salesforce d’Agentforce pour la vente et la collaboration médicale en pharmacie",
+        "agentChatAlt": "Image montrant l’intégration d’AgentChat avec WhatsApp pour communication sécurisée entre HCP et patients",
+        "remoteMonitoringAlt": "Visuel représentant des outils de surveillance à distance pour suivre la sécurité et l’usage réel des produits.",
+        "patientCentricAlt": "Image montrant des applications mobiles pour l’engagement, le suivi et la gestion des thérapies des patients",
+        "benefitsAlt": "Visuel soulignant les avantages de l’IA en pharmacie : développement rapide, conformité et innovation",
+        "deepExpertiesAlt": "Visuel représentant la vaste expertise de Rialtes en plateformes numériques pour la pharmacie et la biotechnologie.",
+        "keyImpactAlt": "Graphique montrant les domaines clés de l’impact de l’IA en pharmacie, notamment la recherche et l’engagement patient",
+        "sapOperationsAlt": "Visuel représentant les opérations pharmaceutiques pilotées par SAP avec traçabilité et conformité.",
+        "lifeSciencesPlatformAlt": "Image montrant l’intégration des opérations commerciales, cliniques et médicales dans les sciences de la vie",
+        "bannerAlt": "Bannière présentant les services de transformation numérique et d’innovation IA pour l’industrie pharmaceutique",
+        "thoughtLeadershipAlt": "Visuel mettant en avant le leadership de Rialtes dans l’innovation IA et la transformation numérique pharmaceutique",
+        "whyRialtesAlt": "Visuel mobile montrant pourquoi le secteur pharma choisit Rialtes",
         "thoughtData": [
             "Accélérer le développement de produits, les soumissions réglementaires et la commercialisation.",
             "Construire des plateformes intégrées pour les opérations cliniques, médicales et commerciales.",
@@ -697,7 +697,7 @@
                 ],
                 "imgDesktop": "/images/pharma/pharma-clinical-trials-innovation.webp",
                 "imgMobile": "/images/pharma/pharma-clinical-trials-innovation-mobile.webp",
-                "imageAlt": "Visuel montrant des solutions numériques pour accélérer les essais cliniques et la R&D pharmaceutique."
+                "imageAlt": "Visuel illustrant l’accélération numérique des essais cliniques et de la R&D grâce à l’IA dans la pharmacie"
             },
             {
                 "number": "3",
@@ -712,7 +712,7 @@
                 ],
                 "imgDesktop": "/images/pharma/pharma-medical-affairs-engagement.webp",
                 "imgMobile": "/images/pharma/pharma-medical-affairs-engagement-mobile.webp",
-                "imageAlt": "Image mettant en évidence les lacunes d’engagement entre les affaires médicales, les professionnels de santé et les patients."
+                "imageAlt": "Image montrant les défis de collaboration entre affaires médicales, professionnels de santé et patients."
             },
             {
                 "number": "4",
@@ -727,7 +727,7 @@
                 ],
                 "imgDesktop": "/images/pharma/pharma-supply-chain-serialization.webp",
                 "imgMobile": "/images/pharma/pharma-supply-chain-serialization-mobile.webp",
-                "imageAlt": "Graphique montrant les défis de la chaîne d’approvisionnement pharmaceutique, y compris la sérialisation et la conformité."
+                "imageAlt": "Graphique montrant défis de la chaîne d’approvisionnement pharma dont sérialisation"
             }
         ],
         "strategicTitle": "Les 4 Principaux Défis Stratégiques auxquels l’Industrie Pharmaceutique et Biotechnologique est Confrontée Aujourd’hui",
@@ -961,43 +961,43 @@
     "homeHealth": {
         "aiPoweredAlt": "Graphique illustrant les soins à domicile pilotés par IA avec des insights prédictifs et de l’automatisation.",
         "agentchatAlt": "Image montrant l’intégration d’AgentChat avec WhatsApp pour la communication entre patients et soignants.",
-        "globalDeleveryAlt": "Image montrant la prestation mondiale de programmes de santé à domicile avec conformité régionale.",
-        "bannerAlt": "Image de bannière promouvant les solutions technologiques de santé à domicile pour les soins à distance et l’accès mobile.",
+        "globalDeleveryAlt": "Programmes mondiaux de santé à domicile assurant conformité et soins dans plusieurs régions",
+        "bannerAlt": "Intégration d’AgentChat avec WhatsApp pour une communication instantanée entre patient et soignant.",
         "addressingData": [
             {
                 "title": "Divisions géographiques et accessibilité",
                 "desc": "Les patients vivant dans des zones rurales ou éloignées font face à des obstacles importants pour accéder à des soins médicaux en temps opportun en raison d’une infrastructure limitée et de l’isolement géographique. Notre équipe fournit aux prestataires de soins à domicile des outils de coordination de soins virtuels, des applications optimisées pour mobile et un accès aux données en temps réel, afin que les patients puissent recevoir des soins continus sans jamais se rendre dans une clinique.",
                 "deskImg": "/images/home-health/geographical-desk.webp",
                 "mobImg": "/images/home-health/Mobile/geographical-mob.webp",
-                "alt": "Visuel mettant en évidence les défis d’accès aux soins en zones rurales et les outils de coordination virtuelle."
+                "alt": "Outils de santé numériques reliant les zones rurales grâce à la coordination et à la connectivité virtuelle."
             },
             {
                 "title": "Pandémie et risque de maladies infectieuses",
                 "desc": "Les consultations physiques exposent les patients vulnérables aux maladies contagieuses, notamment lors de crises sanitaires comme la COVID-19. Nous soutenons le passage des visites en clinique aux consultations et suivis à distance, garantissant que les patients reçoivent des soins dans un environnement sûr et contrôlé, à domicile, via des rendez-vous virtuels, des diagnostics à distance et la prestation de soins sans contact grâce à Salesforce.",
                 "deskImg": "/images/home-health/pandemic-desk.webp",
                 "mobImg": "/images/home-health/Mobile/pandemic-mob.webp",
-                "alt": "Image montrant des consultations à distance et des soins sans contact pour réduire l’exposition aux maladies infectieuses."
+                "alt": "Consultations à distance offrant des soins sans contact et réduisant les risques d’exposition"
             },
             {
                 "title": "Manque de suivi de santé en temps réel",
                 "desc": "Sans visibilité en temps réel sur l’état de santé des patients, les signes avant-coureurs sont souvent manqués, entraînant des complications évitables. Rialtes permet la surveillance à distance des patients (RPM) en intégrant des dispositifs médicaux intelligents et des objets connectés avec Salesforce Health Cloud, assurant aux prestataires de soins des mises à jour et alertes en temps réel pour des interventions rapides.",
                 "deskImg": "/images/home-health/lack-desk.webp",
                 "mobImg": "/images/home-health/Mobile/lack-mob.webp",
-                "alt": "Graphique illustrant la surveillance à distance des patients avec des dispositifs médicaux intelligents et des objets connectés."
+                "alt": "Suivi des patients en temps réel grâce à des dispositifs de santé connectés et intelligents"
             },
             {
                 "title": "Longs temps d’attente",
                 "desc": "Les cliniques surchargées entraînent des soins retardés, des suivis manqués et des patients frustrés. Grâce à la planification automatisée des rendez-vous, des outils d’orientation intelligents et des options de soins virtuels, nous aidons à réduire le retard des patients et à faciliter les consultations à la demande pour les patients confinés à domicile.",
                 "deskImg": "/images/home-health/long-desk.webp",
                 "mobImg": "/images/home-health/Mobile/long-mob.webp",
-                "alt": "Image montrant la planification automatisée et les consultations virtuelles pour réduire le retard des patients."
+                "alt": "Outils de planification IA optimisant les consultations virtuelles et l’expérience patient."
             },
             {
                 "title": "Accès limité au soutien en santé mentale",
                 "desc": "L’accès aux services de santé mentale reste un défi en raison de la stigmatisation, de la disponibilité limitée et des obstacles logistiques. Rialtes propose un accès virtuel discret à des professionnels de la santé comportementale, des séances de conseil et des outils de suivi de l’humeur, le tout intégré dans une plateforme numérique sécurisée et conviviale pour les patients.",
                 "deskImg": "/images/home-health/limited-desk.webp",
                 "mobImg": "/images/home-health/Mobile/limited-mob.webp",
-                "alt": "isuel représentant les services de santé mentale virtuels et les outils de suivi de l’humeur."
+                "alt": "Thérapie comportementale en ligne et suivi de l’humeur pour améliorer la santé mentale"
             }
         ],
         "aiRovolutionizingData": [

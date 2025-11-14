@@ -114,7 +114,7 @@ export default function servicesExploreMoreCarousel() {
                   <Image
                     className="transition-transform duration-300 group-hover:scale-105"
                     src={slide.image}
-                    alt={slide.title}
+                    alt={slide.altText}
                     width={0}
                     height={0}
                     sizes="100vw"

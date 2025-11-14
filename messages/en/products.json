@@ -418,8 +418,8 @@
         "trustedTitle": "Trusted Infrastructure for the Real Estate Enterprise"
     },
     "mediaina": {
-        "mediainaLogoAlt": "Logo for MediAlna featuring a stylized human figure with raised arms and the brand name in modern dark blue font.",
-        "lifeAIPlusAlt": "Illustration representing LifeAI+ consulting suite for intelligent, scalable healthcare transformation.",
+        "mediainaLogoAlt": "MediAlna logo with stylized human figure and modern blue typography symbolizing healthcare innovation",
+        "lifeAIPlusAlt": "Illustration depicting LifeAI+ suite for scalable, intelligent healthcare transformation.",
         "seoTitle": "MediAIna - Redefining Patient Journey Mapping in Healthcare",
         "seoDescription": "MediAIna puts patients at the center by mapping every care moment with Salesforce Cloud and Rialtes' LifeAI+ to enable truly connected, human-first healthcare.",
         "rialtesBenefits": [
@@ -427,7 +427,7 @@
             "Enable smarter clinical trials, connected care, and digital therapeutics.",
             "Leverage Salesforce, AI, and cloud platforms for compliant innovation."
         ],
-        "bannerAlt": "Close-up of a digital eye with glowing blue and purple details, symbolizing artificial intelligence, vision technology, and data perception",
+        "bannerAlt": "Close-up of digital eye symbolizing AI vision, advanced data perception, and intelligent analytics",
         "": "",
         "": "",
         "": "",
@@ -464,7 +464,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/patient-desktop.webp",
                 "mobImg": "/images/products/mediyana/desktop/patient-desktop.webp",
-                "imgAlt": "Visual showing AI-powered patient identification and segmentation for targeted therapies and trials.",
+                "imgAlt": "Visual showing AI-driven patient identification and segmentation for precision healthcare",
                 "bgColor": "#CCF7F5"
             },
             {
@@ -482,7 +482,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/candidate.webp",
                 "mobImg": "/images/products/mediyana/mobile/candidate.webp",
-                "imgAlt": "Image illustrating personalized digital education for patients to support therapy adoption.",
+                "imgAlt": "Illustration of personalized patient education using digital tools to support therapy adoption.",
                 "bgColor": "#C6E7FF"
             },
             {
@@ -500,7 +500,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/digital.webp",
                 "mobImg": "/images/products/mediyana/mobile/digital.webp",
-                "imgAlt": "Graphic showing automated prior authorization workflows to reduce treatment delays.",
+                "imgAlt": "Graphic showing AI automation of prior authorization to reduce delays in treatment approval",
                 "bgColor": "#EDEDED"
             },
             {
@@ -518,7 +518,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/clinical.webp",
                 "mobImg": "/images/products/mediyana/mobile/clinical.webp",
-                "imgAlt": "Visual representing AI-powered matching of patients to relevant clinical trials.",
+                "imgAlt": "Visual showing AI-powered patient matching to clinical trials for faster research outcomes",
                 "bgColor": "#CCF7F5"
             },
             {
@@ -536,7 +536,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/long.webp",
                 "mobImg": "/images/products/mediyana/mobile/long.webp",
-                "imgAlt": "Image representing connected long-term care management for ongoing patient support.",
+                "imgAlt": "Image showing AI-supported long-term care coordination for continuous patient engagement",
                 "bgColor": "#C6E7FF"
             },
             {
@@ -554,7 +554,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/body.webp",
                 "mobImg": "/images/products/mediyana/mobile/body.webp",
-                "imgAlt": "Graphic illustrating AI-driven mapping of patient journeys across touchpoints and care stages.",
+                "imgAlt": "Graphic illustrating AI-driven mapping of patient journeys across healthcare touchpoints",
                 "bgColor": "#EDEDED"
             },
             {
@@ -572,7 +572,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/conversational.webp",
                 "mobImg": "/images/products/mediyana/mobile/conver.webp",
-                "imgAlt": "Visual showing natural language queries and automated insights powered by Agentforce.",
+                "imgAlt": "Visual showing Agentforce AI answering natural language queries with automated insights",
                 "bgColor": "#CCF7F5"
             },
             {
@@ -590,7 +590,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/unified.webp",
                 "mobImg": "/images/products/mediyana/mobile/unified.webp",
-                "imgAlt": "Graphic representing a unified data platform for providers, payers, trials, and patients.",
+                "imgAlt": "Graphic representing unified data system connecting providers, payers, and patients",
                 "bgColor": "#C6E7FF"
             },
             {
@@ -608,7 +608,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/seamless.webp",
                 "mobImg": "/images/products/mediyana/mobile/seamless.webp",
-                "imgAlt": "Image showing API-led integration across EHR, CRM, and ERP systems with FHIR and HL7 compliance.",
+                "imgAlt": "Image showing API-led integration across EHR, CRM, and ERP systems with FHIR compliance",
                 "bgColor": "#EDEDED"
             },
             {
@@ -626,7 +626,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/real.webp",
                 "mobImg": "/images/products/mediyana/mobile/real.webp",
-                "imgAlt": "Visual of HIPAA-compliant intelligent chat for patient and staff communication.",
+                "imgAlt": "Visual showing HIPAA-compliant AI chat enabling secure communication for patients and staff",
                 "bgColor": "#CCF7F5"
             },
             {
@@ -644,7 +644,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/order.webp",
                 "mobImg": "/images/products/mediyana/mobile/order.webp",
-                "imgAlt": "Image showing real-time inventory visibility and SAP integration for hospital logistics.",
+                "imgAlt": "Image showing real-time inventory visibility and SAP integration optimizing hospital logistics",
                 "bgColor": "#C6E7FF"
             },
             {
@@ -664,7 +664,7 @@
                 ],
                 "deskImg": "/images/products/mediyana/desktop/trusted.webp",
                 "mobImg": "/images/products/mediyana/mobile/trusted.webp",
-                "imgAlt": "Image showing digital tools for monitoring patient adherence to prescribed therapies.",
+                "imgAlt": "Image showing digital tools tracking patient adherence to therapy for better treatment outcomes",
                 "bgColor": "#EDEDED"
             }
         ],
