@@ -278,7 +278,7 @@
                 "description": "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive."
             }
         ],
-        "blogTopic": "General",
+        "blogTopic": "Others",
         "blogDate": "01 July 2025",
         "blogTitle": "Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities",
         "blogMainData": [
@@ -329,7 +329,7 @@
         "bannerAlt": "Colorful fiber optic tree illustration with glowing multicolor branches on dark teal tech-themed background",
         "seoTitle": "Agentic AI Pharma: Automating Complex Pharma Workflows | Rialtes",
         "seoDescription": "Agentic AI pharma simplifies complexity. Goal-driven, adaptive, and context-aware, it manages complex, multi-step workflows with minimal human intervention.",
-        "blogTopic": "AI",
+        "blogTopic": "Agentic AI",
         "blogDate": "30 May 2025",
         "blogTitle": "Agentic Pharma - The AI-Driven Era of the Pharmaceutical Industry",
         "blogMainData": [
@@ -396,7 +396,7 @@
         "bannerAlt": "Blue fiber optic cables with glowing data streams representing high-speed network connectivity and digital infrastructure",
         "seoTitle": "SAP Ariba Procurement for Direct & Indirect Efficiency | Rialtes",
         "seoDescription": "SAP Ariba streamlines direct and indirect procurement by digitizing every step—from sourcing to payment—boosting savings, speed, and control.",
-        "blogTopic": "SAP",
+        "blogTopic": "SAP Ariba",
         "blogDate": "29 May 2024",
         "blogTitle": "How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
         "blogMainData": "The term 'Procurement' encompasses the entire process of acquiring goods or services, from identifying needs to supplying them. Solutions like Guided Sourcing enable companies to conduct market research, find qualified suppliers, and negotiate better contracts. It is about purchasing goods and services and optimizing costs, enhancing supplier relationships, and ensuring supply chain resilience.",
@@ -474,7 +474,7 @@
         "bannerAlt": "Abstract blue digital network architecture with transparent geometric cubes and data streams representing cloud computing infrastructure",
         "seoTitle": "SAP SuccessFactors Integration: Enhance HR and Payroll | Rialtes",
         "seoDescription": "SAP SuccessFactors integrations are a game-changer for HR and payroll operations—enhancing efficiency, accuracy, and compliance for global and local teams.",
-        "blogTopic": "SAP SucessFactors",
+        "blogTopic": "Integration",
         "blogDate": "28 May 2024",
         "blogTitle": "How SAP SuccessFactors Integrations Enhance HR and Payroll Operations",
         "blogMainData": [
@@ -2317,7 +2317,7 @@
     },
     "agriculture": {
         "bannerAlt": "Professional drone with camera hovering over green agricultural field for aerial photography and monitoring",
-        "blogTopic": "Green Technology",
+        "blogTopic": "Others",
         "seoTitle": "Salesforce for Agriculture: Digital Farming Revolution | Rialtes",
         "seoDescription": "Discover how Salesforce for agriculture powers digital farming, improving efficiency and driving innovation for a sustainable future in Agriculture 4.0.",
         "blogTitle": "Agriculture 4.0. How Do Digital Technologies Transform Farming For a Better Tomorrow?",
@@ -2478,7 +2478,7 @@
                 "description": "These systems evolve with every interaction, making them sharper. So over time, your agents not only maintain processes but improve them, adapting to changing priorities and business goals."
             }
         ],
-        "blogTopic": "Artificial Intelligence",
+        "blogTopic": "Agentic AI",
         "blogTitle": "Reimagine Enterprise Using Agentic AI Systems",
         "manufacturingTitle": "Manufacturing Has a Customer Experience Problem",
         "manufacturingDesc": "The way humans interact with AI is evolving. From isolated tools that do one thing well to intelligent agents that can plan trips, monitor logistics, assist the elderly, or manage inventory across global supply chains. That’s the world of agentic AI.",
@@ -3006,7 +3006,7 @@
             "At Rialtes, we work with companies to integrate LLMs directly into their customer service stack, bringing smarter conversations, faster resolution, and more human interactions across every channel.",
             "With our <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce consulting expertise</span> </a>, we’ll help you build a strategy that’s scalable, secure, and aligned to your goals, whether that’s reducing support load, increasing NPS, or delivering 24/7 multilingual support. Let’s make your  <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> customer experience as intelligent as your customers</span></a> expect it to be. Reach out to us at <a href='mailto:sales@rialtes.com'><span class='transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com</span> </a> to start the conversation."
         ],
-        "blogTopic": "Artificial Intelligence",
+        "blogTopic": "Agentic AI",
         "blogTitle": "AI That Listens, Learns, and Delivers: How Large Language Models Are Transforming Customer Experience",
         "blogMainData": [
             "Great customer experience begins with great listening. But we are not just talking about hearing the words; it’s about understanding intent, emotion, context, and history. That’s where traditional models fall short, and where Large Language Models (LLMs) step in.",
@@ -3362,7 +3362,7 @@
                 ]
             }
         ],
-        "blogTopic": "Artificial Intelligence",
+        "blogTopic": "Agentic AI",
         "blogTitle": "Beyond Robotic Automation: Why Agents Are the Future of Smart Manufacturing",
         "roboticTitle": "Robotic Automation Solves Tasks. AI Agents Solve Problems.",
         "whyNeedTitle": "Why You Need to Shift from Static Automation to Agentic Intelligence?",
@@ -3598,7 +3598,7 @@
         "susContain": "/images/blog/ai-driven-smart-grid-system-flowchart.webp",
         "seoTitle": "How AI Can Enable a Sustainable Future for Our Planet | Rialtes",
         "seoDescription": "AI is helping protect the planet and make sustainability scalable, from tracking deforestation to predicting energy demand and preserving biodiversity.",
-        "artificial": "Artificial Intelligence",
+        "artificial": "Agentic AI",
         "date": "21 August 2025",
         "aiTitle": "How AI Is Powering the Sustainable Future of Our Planet",
         "aiDesc": "Artificial Intelligence isn’t just powering smart cities or automating industries. It’s quietly becoming one of the most effective tools in the fight against climate change. From tracking deforestation to predicting energy demand and preserving biodiversity, AI is helping protect the planet and make sustainability scalable. We must reduce greenhouse gas emissions and transition to renewable energy sources to protect our planet and future generations. However, the hope for a sustainable future lies in conservation and innovation. Here’s how.",
@@ -3971,7 +3971,7 @@
                 ]
             }
         ],
-        "blogTopic": "SAP",
+        "blogTopic": "SAP CPI",
         "piPoServedData": [
             {
                 "title": "Cloud-Native Flexibility:",
@@ -4631,7 +4631,7 @@
             "As a  <a href='https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>trusted SAP partner</span></a>, we help manufacturers design and deploy SAP Build solutions that fit seamlessly into your Industry 4.0 journey. From app development to process automation and integrated workspaces, we ensure your teams have the tools to accelerate digital transformation.",
             "<a href='https://www.rialtes.com/contact-us/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Let’s talk</span> </a> about how SAP Build can unlock innovation on your shop floor."
         ],
-        "blogTopic": "SAP",
+        "blogTopic": "SAP Consulting",
         "blogTitle": "Accelerating Industry 4.0 with SAP Build: Low-Code Tools for Smarter Manufacturing",
         "whySapTitle": "Why SAP Build is a Big Deal for Industry 4.0",
         "whySapDesc": "Manufacturing in the Industry 4.0 era runs on three pillars: connected machines, integrated data, and agile processes. SAP Build helps strengthen all three. With these three pillars strengthened, SAP Build enables manufacturers to shorten innovation cycles, reduce downtime, and unlock new levels of operational resilience.",
@@ -4783,7 +4783,7 @@
                 "answer": "Real-time insights enable instant adjustments to pricing, promotions, and recommendations, keeping customers engaged and reducing churn."
             }
         ],
-        "blogTopic": "Salesforce",
+        "blogTopic": "Salesforce Data Cloud",
         "blogTitle": "Predictive Ecommerce in Salesforce: How Data Cloud Shapes Smarter Customer Experiences",
         "blogMainData": "Predictive analytics has always been crucial in helping businesses deliver personalized experiences. Salesforce Data Cloud empowers companies to leverage predictive analytics and data-driven insights to craft transformative e-commerce strategies. It centralizes customer data, providing a unified platform for real-time insights.",
         "blogMainData2": "However, the true pioneer is its AI and machine learning capabilities, which fuel advanced predictive analytics. Analyzing historical customer data uncovers patterns, trends, and correlations to build predictive models. Businesses can redefine customer engagement, tailor marketing campaigns, and enhance sales strategies by tracking customer behavior across email and social media channels. They can anticipate customer needs, optimize inventory, personalize journeys, and create agile marketing strategies—all while improving satisfaction and loyalty",
@@ -4979,7 +4979,7 @@
                 "answer": "Key considerations include data quality, integration complexity, and setting clear boundaries for autonomous actions to avoid unintended outcomes."
             }
         ],
-        "blogTopic": "Artificial Intelligence",
+        "blogTopic": "Agentic AI",
         "blogTitle": "5 Signs You’re Ready to Implement AI Agents in Your Manufacturing Operations",
         "payoffTitle": "The Payoff of Readiness",
         "faqTitle": "FAQs: Implement AI Agents in Your Manufacturing Operations"
@@ -5536,7 +5536,7 @@
     "salesforcePartners": {
         "bannerAlt": "Abstract banner showing enterprise growth with Salesforce cloud and digital transformation icons ",
         "salesforceTitle": "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
-        "blogTopic": "Education Cloud",
+        "blogTopic": "Salesforce Agentforce",
         "salesforcePartnersHelp": [
             "Salesforce has become the foundation for modern enterprise CRM solutions, helping organizations unify data, streamline processes, and deliver personalized customer experiences. But here’s the reality: buying Salesforce licenses alone doesn’t guarantee business success. Enterprises need the right expertise to unlock Salesforce’s full potential.",
             "That’s where we need the Salesforce partners. These consulting and implementation experts don’t just configure CRM tools; they help enterprises reimagine operations, innovate with AI, and scale with confidence. For companies wondering, “Who are the top Salesforce partners for enterprises?” the answer often lies in evaluating which partner can align technology with long-term business goals.",
@@ -6577,7 +6577,7 @@
         ],
         "seoTitle": "How AI in Real Estate Powers Predictive Maintenance | Rialtes",
         "seoDescription": "AI-driven predictive maintenance is a game-changer, cutting downtime by as much as 30% and reducing Opex through proactive interventions. Discover how today.",
-        "blogTopic": "Artificial Intelligence",
+        "blogTopic": "Exelona",
         "blogTitle": "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
         "howAiTitle": "How AI Reduces Maintenance Downtime in Property Operations",
         "howAiDesc": "One of the most practical uses of AI in property management is its ability to reduce downtime. Think of it as having a digital operations manager watching every asset 24/7 — alerting you before something goes wrong.",
@@ -6802,10 +6802,10 @@
         "bannerAlt": "3D smart home hologram with data analytics charts and graphs on futuristic blue digital interface dashboard",
         "seoTitle": "Service Level Agreement (SLA) Tracking: AI-Driven Guide | Rialtes",
         "seoDescription": "With AI-enabled dashboards, automated billing, and predictive insights, property managers monitor SLA compliance and maintenance costs in real time.",
-        "gutDrivenSection": "  From Gut-Driven to Data-Driven: The Shift Is Already Underway",
+        "gutDrivenSection": "From Gut-Driven to Data-Driven: The Shift Is Already Underway",
         "faqTitle": "FAQs: Data-Driven Operational Efficiency in Real Estate",
         "slasTitle": "How Do You Track SLAs and Billing Without Losing Your Mind?",
-        "blogTopic": "Salesforce",
+        "blogTopic": "Exelona",
         "slasPara1": "A service-level agreement (SLA) outlines the expected level of service from a vendor. It specifies the metrics used to measure that service and the remedies available if the agreed-upon service levels are not met. The SLA is a vital part of any contract with a technology vendor.",
         "slasTitle2": "Driving Data-Driven Operational Efficiency in Real Estate with AI Dashboards and Predictive Insights",
         "dataDriven": [
@@ -7187,7 +7187,7 @@
         "seoTitle": "Smart API Integrations for Real Estate Firms in 2026 | Rialtes",
         "seoDescription": "API integrations help real estate firms connect CRM, ERP, and finance systems, boosting automation, team productivity, and data-driven decision-making.",
         "bannerAlt": "Abstract puzzle pieces connected with digital circuit lines symbolizing technology integration and data connection",
-        "blogTopic": "Exelona",
+        "blogTopic": "Integration",
         "mainTitle": "5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
         "enableTitle": "What open APIs enable:",
         "faq": "FAQs: Open API Integrations for Every Real Estate Firm Needs",
@@ -7532,7 +7532,7 @@
         "seoTitle": "Why SAP Consulting Partners Matter for Enterprise Success | Rialtes",
         "seoDescription": "SAP consulting partners help organizations move from isolated systems to unified, intelligent enterprises where every process runs with clarity.",
         "bannerAlt": "Abstract image of a person walking on a digital path surrounded by silhouettes made of data points, symbolizing AI-driven digital transformation and innovation journey",
-        "blogTopic": "SAP",
+        "blogTopic": "SAP Consulting",
         "blogTitle": "Why Leading Enterprises Choose Top SAP Consulting Partners for Growth and Innovation",
         "roleTitle": "The Role of SAP Consulting Partners in Enterprise Success",
         "choosingTitle": "Choosing the Right SAP Partner: What to Look For",
@@ -7716,7 +7716,7 @@
                 "answer": "Working with expert SAP consultants ensures your implementation aligns with core business needs, maximizes adoption, and unlocks long-term value across all operations."
             }
         ],
-        "blogTopic": "SAP",
+        "blogTopic": "SAP Consulting",
         "bannerAlt": "Conceptual illustration of a smart city connected through cloud computing and data networks",
         "blogTitle": "Proven SAP Implementation Strategies that Minimize Risk and Accelerate ROI",
         "implementationTitle": "How Implementation Complexity Impacts ROI",

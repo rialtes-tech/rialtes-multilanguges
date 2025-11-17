@@ -181,7 +181,7 @@ export default function Page() {
       <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px] ">
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 max-[365px]:pr-[38px]">
-            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="15 September 2025" />
+            <BlogSocialIcons fullUrl={fullUrl} topic="Salesforce Agentforce" date="15 September 2025" />
 
 
             <div className="xl:mt-[60px] mt-[42px]">

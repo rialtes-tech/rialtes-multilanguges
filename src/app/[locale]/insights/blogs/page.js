@@ -40,8 +40,8 @@ export default function Page() {
   const { latestBlogs, industries, categories, slides } = blogsContent.blogs;
 
   const BlogCard = ({ blog }) => (
-    <div className="border border-[#707070] w-full h-full flex flex-col group">
-      <div className="max-h-[300px]">
+    <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
+      <div className="max-h-[360px]">
         <Link href={'/insights/blogs' + blog.url}>
           <Image
             src={blog.image}
@@ -119,7 +119,7 @@ export default function Page() {
           <div className="relative flex flex-row max-[320px]:flex-col md:ml-auto h-[60px] mt-4 max-[320px]:mb-12 max-[320px]:gap-2">
             <div className="relative">
               <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 sm:mr-6 mr-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
-                <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{selectedIndustry === t('all') ? t('industryTitle') : selectedIndustry}</span>
+                <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">{selectedIndustry === t('all') ? t('industryTitle') : selectedIndustry}</span>
                 <svg
                   className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
                   fill='none'
@@ -131,14 +131,12 @@ export default function Page() {
               </button>
               {showOptionsIndustry && (
                 <div className='absolute bg-white border border-[#707070] w-[165px] md:w-[250px] sm:mr-4 mr-0 sm:right-0 right-2 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>
-                  <ul>
+                  <ul className="py-3">
                     {industries.map((industry, index) => (
                       <li
                         key={index}
-                        className={`px-5 py-2 cursor-pointer ${index === 0 ? 'pt-4' : index === industries.length - 1 ? 'pb-4' : ''
-                          }`}
-                        onClick={() => filterBlogsByIndustry(industry)}
-                      >
+                        className={`py-2 px-3 cursor-pointer`}
+                        onClick={() => filterBlogsByIndustry(industry)}>
                         {industry}
                       </li>
                     ))}
@@ -161,13 +159,12 @@ export default function Page() {
               </button>
               {showOptionsCategory && (
                 <div className='absolute bg-white border border-[#707070] w-[200px] md:w-[250px] right-0 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>
-                  <ul>
+                  <ul className="py-3">
                     {categories.map((category, index) => (
                       <li
                         key={category}
-                        className={`px-5 ${index === 0 ? 'pt-4' : 'py-2'} ${index === categories.length - 1 ? 'pb-4' : ''} cursor-pointer`}
-                        onClick={() => filterBlogsByCategory(category)}
-                      >
+                        className={`px-3 py-2 cursor-pointer`}
+                        onClick={() => filterBlogsByCategory(category)}>
                         {category}
                       </li>
                     ))}
@@ -178,7 +175,7 @@ export default function Page() {
           </div>
         </div>
         <div className='w-full'>
-          <p className='text-xl py-4 4xl:text-[30px] xl:text-[22px] text-[20px]  leading-tight'>{t('searchTitle')} {selectedIndustry} {t('industry')} / {selectedCategory} {t('category')}</p>
+          <p className='text-xl pt-2 pb-10 4xl:text-[30px] xl:text-[22px] text-[20px]  leading-tight'>{t('searchTitle')} {selectedIndustry} {t('industry')} / {selectedCategory} {t('category')}</p>
         </div>
 
         {filteredBlogsByCategory.length === 0 ? (
@@ -194,7 +191,7 @@ export default function Page() {
           <div className='flex justify-center text-center md:py-20 py-10'>
             <button
               type='button'
-              className={`border border-[#707070]  font-medium w-[160px] h-[50px] relative group hover:bg-[#EDEDED] ${visibleBlogs >= filteredBlogsByCategory.length ? 'opacity-50 cursor-not-allowed pointer-events-none' : 'cursor-pointer'}`}
+              className={`border border-[#707070]  font-medium w-fit px-4 h-[50px] relative group hover:bg-[#EDEDED] ${visibleBlogs >= filteredBlogsByCategory.length ? 'opacity-50 cursor-not-allowed pointer-events-none' : 'cursor-pointer'}`}
               onClick={loadMoreBlogs}
               disabled={visibleBlogs >= filteredBlogsByCategory.length}
             >
@@ -317,7 +314,7 @@ export default function Page() {
                     />
                   </Link>
                 </div>
-                <div className="flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0] h-full">
+                <div className="border-gray-300 border flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0] h-full">
                   <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px] 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>
                     <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
                   </div>
@@ -388,7 +385,7 @@ export default function Page() {
 
       <section className="custom-container">
         <div className="md:py-10 py-6 bg-white">
-          <div className="">
+          <div>
             <p className="text-[#000000] py-6 sm:max-w-2xl 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight"> {t('blogDesc')}</p>
           </div>
         </div>
