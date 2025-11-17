@@ -172,7 +172,7 @@ const latestCaseStudy = [
 ];
 
 const CaseStudyCard = ({ casestudy }) => (
-  <div className="border border-[#707070] w-full h-full flex flex-col group">
+  <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
     <div className="relative overflow-hidden">
       <Link href={casestudy.url}>
         <Image
@@ -472,7 +472,7 @@ const FeaturedCarousel = () => {
           customDot={<CustomDot />}
         >
           {slides.map((slide) => (
-            <div key={slide.id} className="flex md:flex-row flex-col md:basis-[95%] basis-[100%] border border-[#707070] xl:mr-12 mr-3 group max-sm:h-[700px] md:h-[600px] lg:h-full mb-[26px]">
+            <div key={slide.id} className="flex md:flex-row flex-col md:basis-[95%] basis-[100%] border border-gray-300 hover:border-white xl:mr-12 mr-3 group max-sm:h-[700px] md:h-[600px] lg:h-full mb-[26px]">
               <div className="basis-full md:basis-2/3 lg:basis-4/3">
                 <Link href={slide.url}>
                   <Image
