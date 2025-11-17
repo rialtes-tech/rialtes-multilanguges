@@ -6,115 +6,196 @@ import Script from "next/script";
 import ContactForm from "@/app/components/contactform";
 const schemaData = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Grow with SAP - Cloud ERP Implementation Services",
-    "alternateName": "VoyagerNext by Rialtes",
-    "url": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/",
-    "description": "Rialtes provides end-to-end Grow with SAP transformation services, including SAP Cloud ERP implementation leveraging SAP S/4HANA Cloud, SAP Activate methodology, SAP Signavio, and SAP BTP. Services include implementation, migration from SAP B1, integration with Salesforce, and support for AI, automation, and digital procurement.",
-    "provider": {
+
+    "@type": "Product",
+
+    "name": "MediAIna",
+
+    "image": "https://www.rialtes.com/images/products/mediaina/desktop/logo-1.svg",
+
+    "description": "MediAIna is Rialtes' next-generation digital patient journey platform for life sciences and healthcare. Built on Salesforce and powered by LifeAI+, MediAIna unifies clinical, operational and digital touchpoints to accelerate therapy adoption, optimize trials, automate prior authorization, and deliver connected long-term care with intelligent automation and compliant integrations.",
+
+    "brand": {
+
         "@type": "Organization",
+
         "name": "Rialtes",
+
         "url": "https://www.rialtes.com",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
-        },
-        "sameAs": [
-            "https://www.linkedin.com/company/rialtes-technologies-llc/",
-            "https://www.youtube.com/@rialtes"
-        ]
+
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
+
     },
-    "areaServed": [
-        {
-            "@type": "Country",
-            "name": "United States"
-        },
-        {
-            "@type": "Country",
-            "name": "Canada"
-        },
-        {
-            "@type": "Country",
-            "name": "India"
-        },
-        {
-            "@type": "Country",
-            "name": "Singapore"
-        }
-    ],
-    "serviceType": [
-        "Grow with SAP Services",
-        "SAP S/4HANA Cloud Public Edition Implementation",
-        "SAP B1 to S/4HANA Migration",
-        "SAP Activate & SAP Signavio Enablement",
-        "SAP SuccessFactors Integration",
-        "SAP Ariba and Procurement Solutions",
-        "SAP BTP Customization and Automation",
-        "SAP CPI Integration",
-        "Salesforce and SAP Integration",
-        "Conversational AI for ERP (AgentChat)",
-        "AI and Data Cloud Enablement"
-    ],
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "VoyagerNext Offerings",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "SAP License Advisory",
-                    "description": "Guidance on SAP licensing for cost-effectiveness and scalability."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Solution Design & Implementation",
-                    "description": "Design and implement SAP S/4HANA Cloud aligned with industry best practices."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "System Integration & Customization",
-                    "description": "Integrate SAP with legacy systems and customize using SAP BTP and CPI."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Post Go-Live Support & Optimization",
-                    "description": "Hypercare, continuous improvement, and performance monitoring post go-live."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Quality Assurance & User Training",
-                    "description": "Ensure system readiness with testing and user enablement services."
-                }
-            }
-        ]
+
+    "url": "https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/",
+
+    "category": "Patient Journey Platform",
+
+    "isRelatedTo": {
+
+        "@type": "SoftwareApplication",
+
+        "applicationCategory": "MedicalApplication",
+
+        "operatingSystem": "Cloud"
+
     },
-    "audience": {
-        "@type": "Audience",
-        "audienceType": [
-            "Mid-market Enterprises",
-            "Growing Businesses",
-            "Enterprise IT Teams",
-            "SAP Business One Customers",
-            "Digital Transformation Leaders"
-        ]
-    },
+
     "mainEntityOfPage": {
+
         "@type": "WebPage",
-        "@id": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
-    }
+
+        "@id": " https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/"
+
+    },
+
+    "additionalProperty": [
+
+        {
+
+            "@type": "PropertyValue",
+
+            "name": "Patient Identification",
+
+            "value": "AI-driven segmentation and candidate detection using clinical, claims, and wearable data for trial & therapy eligibility."
+
+        },
+
+        {
+
+            "@type": "PropertyValue",
+
+            "name": "Candidate Education",
+
+            "value": "Multilingual interactive education journeys, adaptive learning, and integrated chat support to improve adherence."
+
+        },
+
+        {
+
+            "@type": "PropertyValue",
+
+            "name": "Digital Prior Authorization (PA)",
+
+            "value": "End-to-end PA automation with real-time payer integrations, preconfigured rules, routing, and tracking dashboards."
+
+        },
+
+        {
+
+            "@type": "PropertyValue",
+
+            "name": "Clinical Trial Management",
+
+            "value": "360° patient view for trials with eligibility verification, digital diaries, adverse event capture, and retention workflows."
+
+        },
+
+        {
+
+            "@type": "PropertyValue",
+
+            "name": "Long-Term Care Management",
+
+            "value": "Personalized care pathways, remote monitoring, real-time risk alerts, and multi-provider collaboration tools."
+
+        },
+
+        {
+
+            "@type": "PropertyValue",
+
+            "name": "Body MAP App",
+
+            "value": "Visual-first 3D body mapping for pain tracking and longitudinal therapy progress monitoring."
+
+        },
+
+        {
+
+            "@type": "PropertyValue",
+
+            "name": "Conversational Insights (Agentforce)",
+
+            "value": "Natural language queries across MediAIna data with role-based, HIPAA-compliant guardrails for instant insights."
+
+        },
+
+        {
+
+            "@type": "PropertyValue",
+
+            "name": "AgentChat",
+
+            "value": "Secure omnichannel patient and staff chat with AI + live agent handoffs integrated into care workflows."
+
+        },
+
+        {
+
+            "@type": "PropertyValue",
+
+            "name": "Salesforce Data Cloud",
+
+            "value": "Harmonized patient, trial, provider and payer data with predictive models and cohort analytics."
+
+        },
+
+        {
+
+            "@type": "PropertyValue",
+
+            "name": "Integrations",
+
+            "value": "API-led connectivity with MuleSoft and connectors for Athenahealth, Epic, Cerner, SAP, and other EHR/ERP systems (FHIR/HL7)."
+
+        },
+
+        {
+
+            "@type": "PropertyValue",
+
+            "name": "Order & Inventory",
+
+            "value": "Device and supply traceability with ERP (SAP) integration for procurement, fulfillment and billing workflows."
+
+        },
+
+        {
+
+            "@type": "PropertyValue",
+
+            "name": "Security & Compliance",
+
+            "value": "Designed for HIPAA, GDPR; Rialtes maintains SOC 2 Type II controls and supports FedRAMP-ready deployments."
+
+        },
+
+        {
+
+            "@type": "PropertyValue",
+
+            "name": "Audience",
+
+            "value": "Providers, Payers, CROs, MedTech, Pharmaceutical and Life Sciences enterprises."
+
+        }
+
+    ],
+
+    "manufacturer": {
+
+        "@type": "Organization",
+
+        "name": "Rialtes",
+
+        "url": "https://www.rialtes.com"
+
+    },
+
+    "keywords": "patient journey platform, healthcare CRM, patient experience management, patient relationship management, clinical trials, prior authorization, claims authorization, ePA, remote monitoring, healthcare AI"
+
+
 }
 
 
@@ -215,7 +296,7 @@ export default function Page() {
 
                         <Link href="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/">
                             <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] bottom-0 absolute hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
-                                Learn More
+                                Know More
                             </button>
                         </Link>
                     </div>
@@ -947,16 +1028,11 @@ export default function Page() {
                         </div>
                         <div className="xl:flex grid flex-wrap gap-4 xl:gap-8 mt-10 xl:mt-16 xl:absolute bottom-0">
 
-                            <Link href="/contact-us">
+                            <Link href="https://www.rialtes.com/products/agentchat/">
                                 <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
-                                    Learn More
+                                    Know More
                                 </button>
                             </Link>
-                            {/* <Link href="/contact-us">
-                                <button className="bg-[#0A6BB8] text-left text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[solid] border-[#134874]  text-white py-3 px-8 transition duration-300">
-                                    Engage with AgentChat today
-                                </button>
-                            </Link> */}
 
                         </div>
                     </div>
