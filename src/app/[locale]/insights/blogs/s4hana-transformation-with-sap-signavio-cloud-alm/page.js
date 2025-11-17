@@ -133,7 +133,7 @@ export default function Page() {
       />
 
       <Script
-        id="schema-copilots"
+        id="schema-s4hana"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -169,7 +169,7 @@ export default function Page() {
             {/* date and icons */}
             <BlogSocialIcons
               fullUrl={fullUrl}
-              topic={t("blogTopic")}
+              topic="SAP Signavio"
               date="25 March 2025"
             />
             {/* main blog */}

@@ -103,7 +103,7 @@ export default function Page() {
             {/* date and icons */}
             <BlogSocialIcons
               fullUrl={fullUrl}
-              topic={t("blogTopic")}
+              topic="SAP Joule"
               date="25 April 2025"
             />
             {/* main blog */}

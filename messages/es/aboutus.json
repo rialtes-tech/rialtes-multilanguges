@@ -1,6 +1,6 @@
 {
   "aboutUs": {
-     "welcomeAlt" : "Mujer profesional sonriente con tableta al aire libre representando futuro empresarial inteligente y estrategias de transformación IA",
+     "welcomeAlt" : "Mujer profesional sonriente con tableta al aire libre representando futuro empresarial inteligente e IA",
      "bannerAlt" : "Rostros digitales futuristas con iluminación neón rosa azul y gafas AR representando tecnología IA e innovación basada en datos",
     "aboutusTitle": "Sobre nosotros",
     "seoTitle": "Impulsando la Transformación Empresarial | Sobre Rialtes",
@@ -45,12 +45,12 @@
       },
       {
         "image": "/images/about-us/singapore-marina-bay-business-architecture-twilight.webp",
-        "alt": "Arquitectura icónica de Marina Bay Sands al atardecer con ventanas iluminadas empoderando operaciones del mayor empleador de Singapur",
+        "alt": "Arquitectura Marina Bay Sands al atardecer con ventanas iluminadas empoderando operaciones del mayor empleador",
         "description": "Capacitando al empleador más grande de Singapur para gestionar su negocio cada día"
       },
       {
         "image": "/images/about-us/highway-light-trails-automotive-expansion-speed.webp",
-        "alt": "Senderos de luz dinámicos en carretera con rayas naranjas azules representando expansión y aceleración de fabricante automotriz indio",
+        "alt": "Senderos de luz dinámicos en carretera con rayas naranjas azules representando expansión de fabricante automotriz",
         "description": "Impulsando al mayor fabricante de automóviles de la India para expandirse en Norteamérica"
       }
     ],
@@ -58,7 +58,7 @@
       {
         "image": "/images/about-us/trust-shield-badge-certification-icon.svg",
         "label": "Confianza",
-        "alt": "Ícono de línea azul mostrando escudo con marca de verificación e insignia de cinta representando certificación de confianza y estándares",
+        "alt": "Ícono azul mostrando escudo con marca de verificación representando certificación de confianza y estándares",
         "width": {
           "base": 135,
           "xl": 177
@@ -71,7 +71,7 @@
       {
         "image": "/images/about-us/transparency-document-magnifying-glass-icon.svg",
         "label": "Transparencia",
-        "alt": "Ícono de línea azul representando documento con lupa representando transparencia responsabilidad y revisión de información detallada",
+        "alt": "Ícono azul de documento con lupa representando transparencia, responsabilidad y revisión de información detallada",
         "width": {
           "base": 150,
           "xl": 192
@@ -84,7 +84,7 @@
       {
         "image": "/images/about-us/commitment-handshake-partnership-agreement-icon.svg",
         "label": "Compromiso",
-        "alt": "Ícono de línea azul mostrando apretón de manos representando compromiso empresarial colaboración de asociación y relaciones de acuerdo",
+        "alt": "Ícono azul mostrando apretón de manos representando compromiso empresarial, colaboración y relaciones de acuerdo",
         "width": {
           "base": 150,
           "xl": 192
@@ -117,13 +117,13 @@
     ]
   },
   "ourValue": {
-     "commitmentAlt" : "Atleta femenina saltando con pértiga contra cielo azul representando confianza transparencia empresarial y compromiso con excelencia",
-    "bannerAlt" : "Excursionista con mochila Rialtes frente a picos de montañas nevadas representando valores culturales y mentalidad de crecimiento diario",
+     "commitmentAlt" : "Atleta femenina saltando con pértiga contra cielo azul representando confianza, transparencia y compromiso",
+    "bannerAlt" : "Excursionista con mochila frente a picos nevados representando valores culturales y mentalidad de crecimiento diario",
     "growLatestServices": [
       {
         "id": 1,
         "image": "/images/culture/diversity-inclusion-colorful-figures-accessibility.webp",
-        "alt" : "Figuras de papel coloridas incluyendo símbolos de silla de ruedas en fondo oscuro representando igualdad de oportunidades y diversidad",
+        "alt" : "Figuras de papel coloridas con símbolos de silla de ruedas representando igualdad de oportunidades y diversidad",
         "title": "Igualdad de oportunidades",
         "description1": "Nos enorgullece ser un empleador que ofrece igualdad de oportunidades, comprometido a fomentar un entorno laboral diverso, inclusivo y respetuoso.",
         "description2": "Nuestra cultura se basa en la equidad, la inclusión y la meritocracia, empoderando a cada miembro del equipo para prosperar. En Rialtes, la diversidad impulsa la innovación y la excelencia."
@@ -131,7 +131,7 @@
       {
         "id": 2,
         "image": "/images/culture/lgbtq-pride-rainbow-flags-workplace-celebration.webp",
-        "alt" : "Equipo diverso celebrando con banderas de orgullo arcoíris en oficina moderna representando inclusión LGBTQ+ y valores de diversidad",
+        "alt" : "Equipo diverso celebrando con banderas arcoíris en oficina moderna representando inclusión LGBTQ+ y diversidad",
         "title": "Bienvenida a la comunidad LGBTQ+",
         "description1": "Estamos comprometidos a crear un entorno seguro, inclusivo y de apoyo para las personas LGBTQ+. Promovemos activamente la diversidad, la inclusión y la alianza, fomentando una cultura donde todos se sientan valorados y empoderados para ser auténticos.",
         "description2": "En Rialtes, defendemos la igualdad, la aceptación y el sentido de pertenencia."
@@ -139,7 +139,7 @@
       {
         "id": 3,
         "image": "/images/culture/veterans-professional-handshake-office-meeting.webp",
-        "alt" : "Mujer y hombre profesionales dándose la mano en oficina moderna representando honor a veteranos y relaciones profesionales laborales",
+        "alt" : "Mujer y hombre profesionales dándose la mano en oficina moderna representando honor a veteranos y relaciones",
         "title": "Honrar a los veteranos",
         "description1": "Nuestro entorno de trabajo inclusivo garantiza que los veteranos se sientan bienvenidos, valorados y empoderados para prosperar en sus trayectorias profesionales.",
         "description2": "En Rialtes, reconocemos los sacrificios de nuestros veteranos y estamos dedicados a ayudarlos a construir futuros exitosos."
@@ -147,7 +147,7 @@
       {
         "id": 4,
         "image": "/images/culture/women-in-tech-diverse-team-collaboration.webp",
-        "alt" : "Tres mujeres diversas sonriendo juntas trabajando en computadoras representando mujeres en tecnología y cultura laboral colaborativa",
+        "alt" : "Tres mujeres diversas sonriendo trabajando en computadoras representando mujeres en tecnología y colaboración",
         "title": "Mujeres en tecnología",
         "description1": "A través de la mentoría, la igualdad de oportunidades y el desarrollo del liderazgo, nos aseguramos de que las mujeres en tecnología prosperen e impulsen la innovación.",
         "description2": "En Rialtes, creemos que la diversidad en tecnología genera soluciones más sólidas e inteligentes para el futuro."
@@ -156,19 +156,19 @@
     "principleItems": [
       {
         "image": "/images/about-us/trust-shield-badge-certification-icon.svg",
-        "alt": "Ícono de línea azul mostrando escudo con marca de verificación e insignia de cinta representando certificación de confianza y estándares",
+        "alt": "Ícono azul mostrando escudo con marca de verificación representando certificación de confianza y estándares",
         "label": "Confianza",
         "className": "xl:w-[132px] w-[119px]"
       },
       {
         "image": "/images/about-us/transparency-document-magnifying-glass-icon.svg",
-        "alt": "Ícono de línea azul representando documento con lupa representando transparencia responsabilidad y revisión de información detallada",
+        "alt": "Ícono azul de documento con lupa representando transparencia, responsabilidad y revisión de información detallada",
         "label": "Transparencia",
         "className": "xl:w-[150px] w-[119px]"
       },
       {
         "image": "/images/about-us/commitment-handshake-partnership-agreement-icon.svg",
-        "alt": "Ícono de línea azul mostrando apretón de manos representando compromiso empresarial colaboración de asociación y relaciones de acuerdo",
+        "alt": "Ícono azul mostrando apretón de manos representando compromiso empresarial, colaboración y relaciones de acuerdo",
         "label": "Compromiso",
         "className": "xl:w-[150px] w-[124px]"
       }

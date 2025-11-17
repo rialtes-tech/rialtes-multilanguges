@@ -136,7 +136,7 @@ export default function Page() {
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 col-span-12">
 
                         {/* date and icons */}
-                        <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="29 September 2025" />
+                        <BlogSocialIcons fullUrl={fullUrl} topic="Salesforce Agentforce" date="29 September 2025" />
 
 
                         {/* main blog */}

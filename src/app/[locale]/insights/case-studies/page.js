@@ -44,7 +44,7 @@ export default function Page() {
   const { latestCaseStudy, slides, industries } = caseStudyContent.caseStudy;
 
   const CaseStudyCard = ({ casestudy }) => (
-    <div className="border border-[#707070] w-full h-full flex flex-col group">
+    <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
       <div className="relative overflow-hidden">
         <Link href={casestudy.url}>
           <Image
@@ -282,8 +282,8 @@ export default function Page() {
             customDot={<CustomDot />}
           >
             {slides.map((slide) => (
-              <div key={slide.id} className="flex md:flex-row flex-col md:basis-[95%] basis-[100%] border border-[#707070] xl:mr-12 mr-3 group max-sm:h-[700px] md:h-[600px] lg:h-full mb-[26px]">
-                <div className="basis-full md:basis-2/3 lg:basis-4/3">
+              <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full">
+                <div className="basis-full lg:h-[320px] xl:h-[420px] 2xl:h-[500px]">
                   <Link href={slide.url}>
                     <Image
                       src={slide.imgSrc}
@@ -296,7 +296,7 @@ export default function Page() {
                     />
                   </Link>
                 </div>
-                <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] md:basis-2/3  md:py-4 lg:py-10 md:px-10 lg:px-16 p-6 ">
+                <div className="border-gray-300 border flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0] h-full">
                   <div className='pb-[10px] md:pb-[15px] lg:pb-[20px] 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
                     <span className='text-[#0092E0] '>{slide.category}</span> <span className='text-[#ACACAC] '>|</span> {slide.date}
                   </div>
