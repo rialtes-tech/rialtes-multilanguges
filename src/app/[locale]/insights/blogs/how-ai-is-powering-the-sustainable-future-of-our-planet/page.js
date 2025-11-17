@@ -115,7 +115,6 @@ export default function Page() {
     fr: frContent,
   });
   const {
-    blogs,
     goalDesc1,
     energyContent,
     smartList,

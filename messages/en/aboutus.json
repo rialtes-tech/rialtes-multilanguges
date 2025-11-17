@@ -1,6 +1,6 @@
 {
   "aboutUs": {
-    "welcomeAlt" : "Smiling professional woman with tablet outdoors representing intelligent business future and AI-driven transformation strategies",
+    "welcomeAlt" : "Smiling professional woman with tablet outdoors representing intelligent business and AI transformation",
     "bannerAlt" : "Futuristic digital faces with neon pink blue lighting and AR glasses representing AI technology and data-driven innovation",
     "aboutusTitle": "About Us",
     "seoTitle": "Empowering Enterprise Transformation Journey | About Rialtes",
@@ -71,7 +71,7 @@
       {
         "image": "/images/about-us/transparency-document-magnifying-glass-icon.svg",
         "label": "Transparency",
-        "alt": "Blue line icon depicting document with magnifying glass representing transparency accountability and detailed information review",
+        "alt": "Blue line icon of document with magnifying glass representing transparency, accountability and information review",
         "width": {
           "base": 150,
           "xl": 192
@@ -84,7 +84,7 @@
       {
         "image": "/images/about-us/commitment-handshake-partnership-agreement-icon.svg",
         "label": "Commitment",
-        "alt": "Blue line icon showing handshake representing business commitment partnership collaboration and professional agreement relationships",
+        "alt": "Blue line icon showing handshake representing business commitment, partnership and professional agreements",
         "width": {
           "base": 150,
           "xl": 192
@@ -133,7 +133,7 @@
       {
         "id": 2,
         "image": "/images/culture/lgbtq-pride-rainbow-flags-workplace-celebration.webp",
-        "alt" : "Diverse team celebrating with rainbow pride flags in modern office representing LGBTQ+ inclusion and workplace diversity values",
+        "alt" : "Diverse team celebrating with rainbow pride flags in modern office representing LGBTQ+ inclusion and diversity",
         "title": "Welcome LGBTQ+",
         "description1": "We are committed to creating a safe, inclusive, and supportive environment for LGBTQ+ individuals. We actively promote diversity, inclusion, and allyship, fostering a culture where everyone feels valued and empowered to be their authentic selves.",
         "description2": "At Rialtes, we stand for equality, acceptance, and belonging."
@@ -141,7 +141,7 @@
       {
         "id": 3,
         "image": "/images/culture/veterans-professional-handshake-office-meeting.webp",
-        "alt" : "Professional woman and man shaking hands in modern office representing honoring veterans and professional workplace relationships",
+        "alt" : "Professional woman and man shaking hands in modern office representing honoring veterans and workplace relations",
         "title": "Honor Veterans",
         "description1": "Our inclusive workplace ensures that veterans feel welcomed, valued, and empowered to thrive in their professional journeys.",
         "description2": "At Rialtes, we recognize the sacrifices of our veterans and are dedicated to helping them build successful futures."
