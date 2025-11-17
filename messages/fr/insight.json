@@ -202,7 +202,7 @@
       }
     ],
     "latestBlogs": [
-        {
+      {
         "id": 55,
         "image": "/images/blog/digital-network-touch-data-connection-visualization-mobile.webp",
         "category": "Intégration",
@@ -210,7 +210,7 @@
         "date": "Nov. 12, 2025",
         "url": "/boost-enterprise-agility-with-sap-consulting-implementation-services/",
         "title": "Stimulez l’agilité de votre entreprise avec des services personnalisés de conseil et de mise en œuvre SAP",
-        "alt": "Main touchant réseau numérique lumineux pour agilité entreprise SAP et intégration",
+        "alt": "Main touchant un réseau numérique illustrant l’agilité d’entreprise optimisée par SAP.",
         "description": "Aujourd’hui, l’adaptabilité définit la survie ; le développement SAP personnalisé est devenu un moteur essentiel de l’agilité et de la croissance des entreprises."
       },
       {
@@ -219,7 +219,7 @@
         "category": "Conseil SAP",
         "industry": "Générique",
         "date": "Nov. 11, 2025",
-        "alt": "Illustration conceptuelle d'une ville intelligente connectée via l'informatique en nuage et les réseaux de données",
+        "alt": "Ville intelligente connectée via des systèmes cloud et une architecture de données unifiée SAP",
         "url": "/sap-implementation-strategies-for-2026-success/",
         "title": "Stratégies éprouvées de mise en œuvre SAP pour minimiser les risques et accélérer le ROI",
         "description": "Nous savons que la mise en œuvre de SAP ne consiste pas seulement à mettre à niveau un système. Il s'agit de remodeler le fonctionnement de l'entreprise, de la finance et de la chaîne d'approvisionnement aux RH et à l'expérience client."
@@ -231,11 +231,10 @@
         "industry": "Générique",
         "date": "Nov. 10, 2025",
         "url": "/why-enterprises-choose-sap-consulting-partners/",
-        "alt": "Image abstraite d'une personne marchant sur un chemin numérique entouré de silhouettes faites de points de données, symbolisant la transformation numérique et l'innovation pilotées par l'IA",
+        "alt": "Personne avançant sur un chemin numérique symbolisant une transformation guidée par l’IA",
         "title": "Pourquoi les entreprises leaders choisissent les meilleurs partenaires de conseil SAP pour la croissance et l'innovation",
         "description": "Les entreprises évoluent dans un paysage complexe avec des données dispersées, des systèmes hérités, des équipes cloisonnées et des attentes croissantes des clients."
       },
-    
       {
         "id": 52,
         "image": "/images/blog/exelona-cluster-feature-thumb.webp",
@@ -244,7 +243,7 @@
         "date": "Nov. 04, 2025",
         "url": "/what-does-a-single-source-of-truth-mean-for-real-estate/",
         "title": "Que signifie une « source unique de vérité » pour l'immobilier, du lead au bail",
-        "alt": "Intégration des données immobilières et source unique de vérité",
+        "alt": "Interface immobilière illustrant des données intégrées pour une source unique de vérité.",
         "description": "Dans la gestion immobilière, ce ne sont rarement les grandes choses qui ralentissent les équipes. Ce sont les innombrables petites inefficacités, les données de bail mal assorties, les enregistrements en double ou le temps perdu à vérifier les feuilles de calcul."
       },
       {
@@ -255,7 +254,7 @@
         "date": "Nov. 03, 2025",
         "url": "/erp-crm-convergence-real-estate-leaders-guide/",
         "title": "Convergence CRM + ERP : comment les leaders de l'immobilier brisent les silos systèmes et réduisent les coûts",
-        "alt": "Infrastructure cloud immobilier avec IA",
+        "alt": "Tableau cloud présentant des opérations immobilières optimisées par IA et des systèmes intégrés.",
         "description": "Voici quelque chose que tout leader immobilier sait déjà mais dit rarement à voix haute : la pile technologique censée simplifier les opérations a fini par les compliquer."
       },
       {
@@ -266,7 +265,7 @@
         "date": "Oct. 31, 2025",
         "url": "/smart-api-integrations-for-real-estate-2026/",
         "title": "5 intégrations API essentielles pour les entreprises immobilières afin d'accélérer la croissance",
-        "alt": "5 intégrations API essentielles pour les entreprises immobilières afin d'accélérer la croissance",
+        "alt": "Puzzle technologique illustrant les intégrations API essentielles pour la croissance numérique immobilière.",
         "description": "Toute entreprise immobilière se heurte à un mur à un moment donné, généralement lorsque ses systèmes cessent de communiquer entre eux. Vous avez un outil de gestion immobilière ici, un système financier là, et un CRM ailleurs qui retient vos données de leads en otage."
       },
       {
@@ -277,7 +276,7 @@
         "date": "Oct. 27, 2025",
         "url": "/tracking-service-level-agreements-without-losing-mind/",
         "title": "Comment suivre les SLA et la facturation sans perdre la tête ?",
-        "alt": "Comment suivre les SLA et la facturation sans perdre la tête ?",
+        "alt": "Tableau IA suivant les SLA et la facturation automatique pour améliorer la précision et l’efficacité.",
         "description": "Un accord de niveau de service (SLA) décrit le niveau de service attendu d'un fournisseur. Il spécifie les métriques utilisées pour mesurer ce service et les recours disponibles si les niveaux de service convenus ne sont pas respectés."
       },
       {
@@ -288,7 +287,7 @@
         "date": "Oct. 20, 2025",
         "url": "/conversational-ai-in-real-estate-scale-resident-support/",
         "title": "IA conversationnelle dans l'immobilier : augmenter le support aux résidents sans ajouter de personnel",
-        "alt": "IA conversationnelle dans l'immobilier",
+        "alt": "Interface de chatbot IA aidant les équipes immobilières avec des réponses automatiques et un support locataire.",
         "description": "Le support aux résidents dans la gestion immobilière devient difficile à mettre à l'échelle. Entre les demandes de maintenance, les questions sur le loyer,"
       },
       {
@@ -299,7 +298,7 @@
         "date": "Oct. 13, 2025",
         "url": "/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
         "title": "IA dans les opérations immobilières : réduire les temps d'arrêt de 30 % et réduire les OPEX avec la maintenance prédictive",
-        "alt": "Maintenance prédictive dans les opérations immobilières avec IA",
+        "alt": "Tableau IA prévoyant les pannes pour réduire les interruptions dans les opérations immobilières.",
         "description": "Voici la vérité sur les opérations immobilières : elles ont toujours été un exercice d'équilibre entre coût, confort et continuité."
       },
       {
@@ -310,7 +309,7 @@
         "date": "Oct. 10, 2025",
         "url": "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/",
         "title": "Comment les meilleurs partenaires Salesforce aident les entreprises à prospérer et innover",
-        "alt": "Icônes cloud Salesforce connectées aux systèmes d'entreprise",
+        "alt": "Icônes Salesforce montrant les connexions d’entreprise pour optimiser le CRM. ",
         "description": "Salesforce est devenu la base des solutions CRM modernes pour les entreprises, aidant les organisations à unifier les données, rationaliser les processus et offrir des expériences client personnalisées."
       },
       {
@@ -321,7 +320,7 @@
         "date": "Oct. 07, 2025",
         "url": "/patient-experience-platform-transforming-long-term-care/",
         "title": "Comment une plateforme d'expérience patient transforme les soins, du diagnostic à la gestion à long terme",
-        "alt": "Patient interagissant avec un tableau de bord santé numérique",
+        "alt": "Patient utilisant un tableau de santé numérique pour gérer diagnostic, traitement et soins prolongés.",
         "description": "Fournir des soins de santé a toujours été plus qu'un simple diagnostic. Pour les patients, le véritable parcours commence après le diagnostic, en naviguant dans les options de traitement, en gérant les maladies chroniques et en apprenant à vivre avec les besoins de soins continus."
       },
       {
@@ -332,7 +331,7 @@
         "date": "Oct. 06, 2025",
         "url": "/salesforce-development-services-to-boost-crm-efficiency/",
         "title": "Boostez l'efficacité de votre CRM avec des services de développement Salesforce sur mesure",
-        "alt": "Tableau de bord CRM avec graphiques de performance et profils utilisateur",
+        "alt": "Tableau CRM avec analyses et métriques illustrant le développement Salesforce avancé",
         "description": "La gestion de la relation client (CRM) est le cœur battant des entreprises modernes. Elle détermine comment les équipes commerciales concluent des affaires, comment les équipes de service répondent aux clients et comment le marketing délivre des campagnes personnalisées."
       },
       {
@@ -343,7 +342,7 @@
         "date": "Sep. 30, 2025",
         "url": "/digital-patient-journeys-ai-healthcare-life-sciences/",
         "title": "L'avenir des parcours patients numériques : comment l'IA transforme les sciences de la vie",
-        "alt": "Organigramme des étapes du parcours patient amélioré par l'IA",
+        "alt": "Parcours patient optimisé par IA montrant diagnostic, traitement et suivi.",
         "description": "L'industrie de la santé est à un tournant. Les patients ne veulent plus d'expériences fragmentées, attendre des semaines pour un rendez-vous, répéter leur historique à chaque point de contact ou gérer des portails déconnectés."
       },
       {
@@ -354,7 +353,7 @@
         "date": "Sep. 29, 2025",
         "url": "/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/",
         "title": "Mise en œuvre Salesforce fluide : stratégies partenaires pour réduire les risques et maximiser le ROI",
-        "alt": "Équipe planifiant le déploiement Salesforce avec des outils numériques",
+        "alt": "Équipe planifiant le déploiement Salesforce avec outils numériques et schémas d’intégration",
         "description": "Salesforce est la plateforme CRM leader mondiale, permettant aux entreprises de mieux gérer leurs clients, leurs données et leurs processus."
       },
       {
@@ -365,7 +364,7 @@
         "date": "Sep. 18, 2025",
         "url": "/connected-care-ecosystem-pharma-medtech/",
         "title": "Pourquoi les écosystèmes de soins connectés sont le prochain pari majeur pour la pharma et la MedTech",
-        "alt": "Diagramme réseau des systèmes pharma et MedTech",
+        "alt": "Réseau reliant prestataires, pharma et systèmes MedTech dans un modèle de soins connectés",
         "description": "L'industrie des sciences de la vie est à un point d'inflexion. Les organisations pharma et MedTech ne sont plus jugées uniquement sur leur capacité à innover en laboratoire ou à créer des dispositifs médicaux."
       },
       {
@@ -376,7 +375,7 @@
         "date": "Sep. 17, 2025",
         "url": "/implementing-ai-agents-in-manufacturing-operations/",
         "title": "5 signes que vous êtes prêt à implémenter des agents IA dans vos opérations de fabrication",
-        "alt": "Atelier avec bras robotiques et interface IA",
+        "alt": "Usine intelligente avec bras robotiques pilotés par des systèmes d’automatisation IA",
         "description": "Aujourd'hui, les fabricants font face à un choix : continuer à ajouter des automatismes incrémentaux aux systèmes existants ou effectuer un saut significatif vers des opérations pilotées par l'IA capables d'apprendre, de s'adapter et d'agir."
       },
       {
@@ -387,7 +386,7 @@
         "date": "Sep. 16, 2025",
         "url": "/sap-build-for-manufacturing-4-0/",
         "title": "Accélérer l'industrie 4.0 avec SAP Build : outils low-code pour une fabrication plus intelligente",
-        "alt": "Tableau de bord SAP avec outils d'automatisation pour la fabrication",
+        "alt": "Tableau SAP montrant des outils low-code pour automatiser les flux industriels modernes",
         "description": "L'industrie 4.0 a transformé les usines en écosystèmes connectés où machines, personnes et processus travaillent en synchronisation."
       },
       {
@@ -409,7 +408,7 @@
         "date": "Sep. 12, 2025",
         "url": "/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty/",
         "title": "E-commerce prédictif dans Salesforce : comment Data Cloud façonne des expériences clients plus intelligentes",
-        "alt": "Carte du parcours client propulsée par Data Cloud",
+        "alt": "Vue mobile du parcours client alimenté par Data Cloud avec des informations unifiées pour l’e-commerce",
         "description": "L'analyse prédictive a toujours été cruciale pour aider les entreprises à offrir des expériences personnalisées. Salesforce Data Cloud permet aux entreprises d'exploiter l'analyse prédictive et les insights basés sur les données pour concevoir des stratégies e-commerce transformantes."
       },
       {
@@ -420,7 +419,7 @@
         "date": "Sep. 11, 2025",
         "url": "/how-large-language-models-improve-customer-experience/",
         "title": "IA qui écoute, apprend et agit : comment les grands modèles de langage transforment l'expérience client",
-        "alt": "Visage abstrait avec ondes sonores et motifs neuronaux",
+        "alt": "Visage IA avec ondes sonores et motifs neuronaux illustrant des capacités d’écoute intelligentes",
         "description": "Une excellente expérience client commence par une excellente écoute. Mais il ne s'agit pas seulement d'entendre les mots ; il s'agit de comprendre l'intention, l'émotion, le contexte et l'historique."
       },
       {
@@ -431,7 +430,7 @@
         "date": "Sep. 09, 2025",
         "url": "/ai-patient-engagement-medtech-remote-care/",
         "title": "IA dans l'engagement patient : comment les agents IA soutiennent la MedTech pour le suivi à distance",
-        "alt": "Tableau de bord de suivi à distance avec constantes vitales du patient",
+        "alt": "Tableau de santé distant montrant les constantes du patient avec surveillance IA continue",
         "description": "La détection précoce de la détérioration de la santé est vitale pour les patients atteints de maladies chroniques ou en convalescence après une chirurgie."
       },
       {
@@ -1235,7 +1234,7 @@
     ]
   },
   "newsDataBricks": {
-    "bannerAlt" : "Annonce partenariat Rialtes et Databricks avec graphique cerveau polygone géométrique sur fond technologique bleu",
+    "bannerAlt": "Annonce partenariat Rialtes et Databricks avec graphique cerveau polygone géométrique sur fond technologique bleu",
     "bannerImageMobile": "/images/homepage/rialtes-databricks-certified-partnership-announcement-french-mobile.webp",
     "seoTitle": "Rialtes devient partenaire certifié Databricks",
     "seoDescription": "En tant que partenaire certifié Databricks, Rialtes permet aux entreprises de bénéficier de solutions de données basées sur l’IA dans les écosystèmes SAP et Salesforce.",

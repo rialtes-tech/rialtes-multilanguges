@@ -202,8 +202,7 @@
       }
     ],
     "latestBlogs": [
-       {
-      
+      {
         "id": 55,
         "image": "/images/blog/digital-network-touch-data-connection-visualization-mobile.webp",
         "category": "Integración",
@@ -211,7 +210,7 @@
         "date": "Nov. 12, 2025",
         "url": "/boost-enterprise-agility-with-sap-consulting-implementation-services/",
         "title": "Impulsa la agilidad empresarial con servicios personalizados de consultoría e implementación de SAP",
-        "alt": "Mano tocando red digital con luz representando agilidad empresarial SAP e integración",
+        "alt": "Mano interactuando con nodos digitales que representan la agilidad empresarial impulsada por SAP.",
         "description": "Hoy en día, la adaptabilidad define la supervivencia; el desarrollo personalizado de SAP se ha convertido en un impulsor clave de la agilidad y el crecimiento empresarial."
       },
       {
@@ -1250,7 +1249,7 @@
     ]
   },
   "newsDataBricks": {
-    "bannerAlt" : "Anuncio asociación Rialtes y Databricks con gráfico cerebro polígono geométrico sobre fondo tecnológico azul",
+    "bannerAlt": "Anuncio asociación Rialtes y Databricks con gráfico cerebro polígono geométrico sobre fondo tecnológico azul",
     "bannerImageMobile": "/images/homepage/rialtes-databricks-certified-partnership-announcement-spanish-mobile.webp",
     "seoTitle": "Rialtes ahora es socio certificado de Databricks",
     "seoDescription": "Como socio certificado de Databricks, Rialtes potencia a las empresas con soluciones de datos impulsadas por IA en los ecosistemas SAP y Salesforce.",

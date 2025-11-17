@@ -52,7 +52,7 @@ export default function Page() {
             sizes="100vw"
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             priority
-          />
+          /> 
         </Link>
       </div>
       <div className="p-6 flex-grow flex flex-col transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">

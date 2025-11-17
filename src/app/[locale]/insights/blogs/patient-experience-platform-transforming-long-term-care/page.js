@@ -101,7 +101,7 @@ export default function Page() {
     }
 
     return (
-        <section className="min-h-screen">
+        <section className="min-h-screen"> 
             <Seo
                 title={t("seoTitle")}
                 description={t("seoDescription")}
