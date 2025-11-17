@@ -256,7 +256,7 @@
         "whyAlt":"Corps humain numérique filaire avec organes mis en évidence et interfaces données médicales sur fond sombre montrant analytique",
         "thoughtAlt":"Deux médecins en blouses blanches réunis avec professionnel d'affaires discutant graphiques données santé sur écran",
         "preAlt":"Professionnel médical en tenue verte interagissant avec anatomie holographique patient et graphiques données santé sur tablette",
-        "seamlessAlt":"Deux médecins en blouses blanches avec stéthoscopes analysant données patients sur écran d'ordinateur en environnement hospitalier",
+        "seamlessAlt":"Deux médecins en blouses avec stéthoscopes analysant données patients sur écran d'ordinateur en hôpital",
 
         "whyRialtesData": [
             {
@@ -421,7 +421,7 @@
                     "Surveillance de la conformité et pharmacovigilance pilotées par IA."
                 ],
                 "blueCard": "L'IA révolutionne les soins aux patients, le développement des thérapies et la sécurité.",
-                 "imageAlt":"Chercheur en santé en laboratoire avec superposition de données numériques examinant tubes à essai et analysant recherche pharmaceutique",
+                 "imageAlt":"Chercheur en santé en labo avec données numériques examinant tubes à essai et analysant recherche pharmaceutique",
                  "mobImg": "/images/industry/life-science/Mobile/healthcare-research-digital-lab-analysis-mobile.webp",
                  "deskImg": "/images/industry/life-science/healthcare-research-digital-lab-analysis.webp"
             },
@@ -1581,8 +1581,8 @@
         "shopAlt": "Deux contrôleurs qualité en équipement de protection inspectant contenants métalliques avec presse-papiers en usine stérile",
         "cloudAlt": "Professionnel informatique analysant tableau de bord cybersécurité avec graphiques de données et icônes cadenas sur écran",
         "erpAlt": "Deux ingénieurs en énergie renouvelable avec gilets de sécurité et casques inspectant éolienne avec ordinateur portable en parc",
-        "demandAlt": "Deux employés d'entrepôt en gilets jaunes de sécurité et casques marchant dans centre de distribution moderne avec hauts rayonnages",
-        "aiAlt": "Chemin de réseau numérique avec points de données lumineux menant à installation industrielle et éoliennes en paysage vert durable",
+        "demandAlt": "Deux employés en gilets jaunes et casques marchant dans centre de distribution moderne avec hauts rayonnages",
+        "aiAlt": "Réseau numérique avec points lumineux menant à installation industrielle et éoliennes en paysage vert durable",
         "powerAlt": "Ampoule néon lumineuse avec ondes d'énergie bleu électrique et rose montant illustrant concept d'innovation et pouvoir créatif",
         "headerTitle": "Fabrication",
         "seoTitle": "Solutions IT et ERP Cloud pour l’Industrie Manufacturière | Rialtes",

@@ -252,7 +252,7 @@
     "knowMore": "Know More"
   },
   "lifeScience": {
-    "bannerAlt":"Digital hand holding plant with connected blue network overlay on dark background representing life sciences digital innovation",
+    "bannerAlt":"Digital hand holding plant with blue network overlay on dark background representing life sciences digital innovation",
     "whyAlt":"Digital wireframe human body with highlighted organs and medical data interfaces on dark background showing health analytics",
     "thoughtAlt":"Two doctors in white coats meeting with business professional discussing healthcare data charts and graphs on monitor screen",
     "preAlt":"Medical professional in green scrubs interacting with holographic patient anatomy and colorful health data charts on tablet",
@@ -424,7 +424,7 @@
           "AI-Driven Compliance Monitoring and Pharmacovigilance."
         ],
         "blueCard": "AI is revolutionizing patient care, therapy development, and safety.",
-         "imageAlt":"Healthcare researcher in lab with digital data overlay examining test tubes and analyzing pharmaceutical research on computer screen",
+         "imageAlt":"Healthcare researcher in lab with digital overlay examining test tubes and analyzing pharmaceutical research on screen",
         "mobImg": "/images/industry/life-science/Mobile/healthcare-research-digital-lab-analysis-mobile.webp",
         "deskImg": "/images/industry/life-science/healthcare-research-digital-lab-analysis.webp"
       },
@@ -1570,7 +1570,7 @@
   },
   "manufacturing": {
     "bannerAlt": "Industrial turbines and connected pipelines in blue-lit facility representing MuleSoft integration and data connectivity",
-    "thoughtAlt": "Engineer with tablet viewing holographic data dashboards and blue light streams in smart factory showing digital transformation",
+    "thoughtAlt": "Engineer with tablet viewing holographic dashboards and blue light streams in smart factory showing digital transformation",
     "endAlt": "Female engineer in yellow hard hat and safety vest using tablet while inspecting industrial facility with metallic structures",
     "preAlt": "Digital cityscape with glowing blue and orange light rays bursting from horizon over futuristic grid technology floor",
     "enginerAlt": "Engineer in blue gloves operating precision machinery holding metal component over industrial parts in manufacturing facility",
