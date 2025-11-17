@@ -207,7 +207,7 @@ export default function Page() {
       <section className="relative h-[350px] md:h-[500px] 4xl:h-[650px]">
         <div className="xl:block hidden">
           <Image
-            src="/images/Finance/finance-digital-technology-network-visualization.webp"
+            src="/images/finance-img/finance-digital-technology-network-visualization.webp"
             alt={t("bannerAlt")}
             fill
             priority
@@ -218,7 +218,7 @@ export default function Page() {
         {/* Mobile/Tablet Image */}
         <div className="xl:hidden block">
           <Image
-            src="/images/Finance/mobile/finance-digital-technology-network-visualization-mobile.webp"
+            src="/images/finance-img/mobile/finance-digital-technology-network-visualization-mobile.webp"
             alt={t("bannerAlt")}
             fill
             priority
@@ -258,7 +258,7 @@ export default function Page() {
           {/* Desktop Image */}
           <div className="md:block hidden">
             <Image
-              src="/images/Finance/financial-analyst-data-charts-presentation.webp"
+              src="/images/finance-img/financial-analyst-data-charts-presentation.webp"
               alt={t("thoughtLeadershipAlt")}
               width={0}
               height={0}
@@ -270,7 +270,7 @@ export default function Page() {
           {/* Mobile Image */}
           <div className="md:hidden block relative w-full">
             <Image
-              src="/images/Finance/mobile/financial-analyst-data-charts-presentation-mobile.webp"
+              src="/images/finance-img/mobile/financial-analyst-data-charts-presentation-mobile.webp"
               alt={t("thoughtLeadershipAlt")}
               width={0}
               height={0}
@@ -358,7 +358,7 @@ export default function Page() {
                 <div className="md:col-span-5 col-span-12">
                   <div className="">
                     <Image
-                      src="/images/Finance/financial-advisors-client-consultation-meeting.webp"
+                      src="/images/finance-img/financial-advisors-client-consultation-meeting.webp"
                       alt={t("deepExpertiseAlt")}
                       style={{
                         width: "100%",
@@ -387,7 +387,7 @@ export default function Page() {
                 <div className="md:col-span-5 col-span-12 xl:mt-[100px] mt-0">
                   <div className="">
                     <Image
-                      src="/images/Finance/financial-professional-sap-hana-analytics-work.webp"
+                      src="/images/finance-img/financial-professional-sap-hana-analytics-work.webp"
                       alt={t("saphanaSectionAlt")}
                       style={{
                         width: "100%",
@@ -429,7 +429,7 @@ export default function Page() {
           <>
             {/* Mobile Image */}
             <Image
-              src="/images/Finance/mobile/business-woman-financial-data-wall-analysis-mobile.webp"
+              src="/images/finance-img/mobile/business-woman-financial-data-wall-analysis-mobile.webp"
               alt={t("revolutionizingAlt")}
               className="w-full h-full block md:hidden"
               priority
@@ -439,7 +439,7 @@ export default function Page() {
 
             {/* Desktop Image */}
             <Image
-              src="/images/Finance/business-woman-financial-data-wall-analysis.webp"
+              src="/images/finance-img/business-woman-financial-data-wall-analysis.webp"
               alt={t("revolutionizingAlt")}
               className="w-full h-full hidden md:block"
               priority
@@ -478,7 +478,7 @@ export default function Page() {
           {/* Desktop */}
           <div className=" hidden md:block h-full w-full md:h-[900px] lg:h-[800px] 3xl:h-full">
             <Image
-              src="/images/Finance/exelona-real-estate-finance-salesforce-integration.webp"
+              src="/images/finance-img/exelona-real-estate-finance-salesforce-integration.webp"
               alt={t("exelonaSectionAlt")}
               width={0}
               height={0}
@@ -490,7 +490,7 @@ export default function Page() {
           {/* Mobile */}
           <div className="block md:hidden">
             <Image
-              src="/images/Finance/mobile/exelona-real-estate-finance-salesforce-integration-mobile.webp"
+              src="/images/finance-img/mobile/exelona-real-estate-finance-salesforce-integration-mobile.webp"
               alt={t("exelonaSectionAlt")}
               width={800}
               height={600}
@@ -507,7 +507,7 @@ export default function Page() {
               {/* Blend layer  */}
               <div className="hidden md:block absolute inset-0 z-0">
                 <Image
-                  src="/images/Finance/modern-glass-skyscrapers-upward-view-blue-sky.jpg"
+                  src="/images/finance-img/modern-glass-skyscrapers-upward-view-blue-sky.jpg"
                   alt={t("exelonaBlendAlt")}
                   fill
                   priority
@@ -562,7 +562,7 @@ export default function Page() {
           <>
             {/* Mobile Image */}
             <Image
-              src="/images/Finance/mobile/professional-woman-mobile-banking-outdoors-mobile.webp"
+              src="/images/finance-img/mobile/professional-woman-mobile-banking-outdoors-mobile.webp"
               alt={t("agentchatAlt")}
               className="w-full h-full block md:hidden"
               priority
@@ -571,7 +571,7 @@ export default function Page() {
             />
             {/* Desktop Image */}
             <Image
-              src="/images/Finance/professional-woman-mobile-banking-outdoors.webp"
+              src="/images/finance-img/professional-woman-mobile-banking-outdoors.webp"
               alt={t("agentchatAlt")}
               className="w-full h-full hidden md:block"
               priority
@@ -621,7 +621,7 @@ export default function Page() {
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 items-center ">
           <div className="order-1 xl:order-2 w-full h-full xl:col-span-7 ">
             <Image
-              src="/images/Finance/interactive-financial-dashboard-tablet-analytics.webp"
+              src="/images/finance-img/interactive-financial-dashboard-tablet-analytics.webp"
               alt={t("dataDrivenSectionAlt")}
               width={0}
               height={0}
@@ -629,7 +629,7 @@ export default function Page() {
               style={{ objectPosition: "75% 20%" }}
             />
             <Image
-              src="/images/Finance/mobile/interactive-financial-dashboard-tablet-analytics-mobile.webp"
+              src="/images/finance-img/mobile/interactive-financial-dashboard-tablet-analytics-mobile.webp"
               alt={t("dataDrivenSectionAlt")}
               width={0}
               height={0}
@@ -680,7 +680,7 @@ export default function Page() {
               <div className="flex flex-col xl:flex-row mb-8 mt-16 xl:gap-[80px] gap-10">
                 <div className="grid flex-start items-center">
                   <Image
-                    src="/images/Finance/certified-financial-experts-icon.svg"
+                    src="/images/finance-img/certified-financial-experts-icon.svg"
                     alt={t("certifiedAlt")}
                     width={100}
                     height={100}
@@ -696,7 +696,7 @@ export default function Page() {
                 </div>
                 <div className="grid flex-start items-center">
                   <Image
-                    src="/images/Finance/financial-certifications-document-icon.svg"
+                    src="/images/finance-img/financial-certifications-document-icon.svg"
                     alt={t("certificationAlt")}
                     width={100}
                     height={100}
@@ -712,7 +712,7 @@ export default function Page() {
                 </div>
                 <div className="grid flex-start items-center">
                   <Image
-                    src="/images/Finance/global-financial-services-delivery-icon.svg"
+                    src="/images/finance-img/global-financial-services-delivery-icon.svg"
                     alt={t("globalDeliveryAlt")}
                     width={100}
                     height={100}
@@ -728,7 +728,7 @@ export default function Page() {
                 </div>
                 <div className="grid flex-start items-center ">
                   <Image
-                    src="/images/Finance/24-7-financial-customer-support-icon.svg"
+                    src="/images/finance-img/24-7-financial-customer-support-icon.svg"
                     alt={t("supportAlt")}
                     width={100}
                     height={100}
@@ -763,7 +763,7 @@ export default function Page() {
         <div className="grid grid-cols-1 xl:grid-cols-[6fr_6fr]">
           <div className="block md:hidden w-full h-auto">
             <Image
-              src="/images/Finance/mobile/financial-presenter-holographic-data-visualization-mobile.webp"
+              src="/images/finance-img/mobile/financial-presenter-holographic-data-visualization-mobile.webp"
               alt={t("financialSectionAlt")}
               className="mx-auto w-full object-cover"
               priority
@@ -775,7 +775,7 @@ export default function Page() {
           {/* Desktop Image */}
           <div className="w-full h-full">
             <Image
-              src="/images/Finance/financial-presenter-holographic-data-visualization.webp"
+              src="/images/finance-img/financial-presenter-holographic-data-visualization.webp"
               alt={t("financialSectionAlt")}
               className="hidden md:block  object-cover w-full mx-auto"
               priority

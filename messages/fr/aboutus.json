@@ -1,6 +1,6 @@
 {
     "aboutUs": {
-         "welcomeAlt" : "Femme professionnelle souriante avec tablette extérieur représentant avenir commercial intelligent et stratégies transformation IA",
+         "welcomeAlt" : "Femme professionnelle souriante avec tablette en extérieur représentant avenir commercial intelligent et IA",
          "bannerAlt" : "Visages numériques futuristes avec éclairage néon rose bleu et lunettes RA représentant technologie IA et innovation données",
         "aboutusTitle": "À propos de nous",
         "seoTitle": "Accompagner la Transformation des Entreprises | À propos de Rialtes",
@@ -45,12 +45,12 @@
             },
             {
                 "image": "/images/about-us/singapore-marina-bay-business-architecture-twilight.webp",
-                "alt": "Architecture iconique Marina Bay Sands au crépuscule avec fenêtres illuminées donnant pouvoir opérations plus grand employeur Singapour",
+                "alt": "Architecture Marina Bay Sands au crépuscule avec fenêtres illuminées donnant pouvoir aux opérations de Singapour",
                 "description": "Donner les moyens au plus grand employeur de Singapour de gérer son activité au quotidien."
             },
             {
                 "image": "/images/about-us/highway-light-trails-automotive-expansion-speed.webp",
-                "alt": "Traînées lumière dynamiques autoroute avec stries orange bleues représentant expansion et accélération constructeur automobile indien",
+                "alt": "Traînées lumière dynamiques autoroute avec stries orange bleues représentant expansion constructeur automobile",
                 "description": "Accélérer l’expansion du plus grand constructeur automobile indien en Amérique du Nord."
             }
         ],
@@ -84,7 +84,7 @@
             {
                 "image": "/images/about-us/commitment-handshake-partnership-agreement-icon.svg",
                 "label": "Engagement",
-                "alt": "Icône ligne bleue montrant poignée main représentant engagement commercial collaboration partenariat et relations accord professionnel",
+                "alt": "Icône bleue montrant poignée de main représentant engagement commercial, collaboration et relations d'accord",
                 "width": {
                     "base": 150,
                     "xl": 192
@@ -118,12 +118,12 @@
     },
     "ourValue": {
          "commitmentAlt" : "Athlète féminine saut perche contre ciel bleu représentant confiance transparence entreprise et engagement fournir excellence",
-        "bannerAlt" : "Randonneur avec sac dos Rialtes face pics montagne enneigés représentant valeurs culture entreprise et mentalité croissance quotidienne",
+        "bannerAlt" : "Randonneur avec sac à dos face aux pics enneigés représentant valeurs culturelles et mentalité de croissance",
         "growLatestServices": [
             {
                 "id": 1,
                 "image": "/images/culture/diversity-inclusion-colorful-figures-accessibility.webp",
-                "alt" : "Figurines papier colorées incluant symboles fauteuil roulant sur fond sombre représentant égalité chances diversité et inclusion",
+                "alt" : "Figurines papier colorées avec symboles fauteuil roulant représentant égalité des chances et diversité",
                 "title": "Égalité des chances",
                 "description1": "Nous sommes fiers d’être un employeur garantissant l’égalité des chances, engagé à promouvoir un environnement de travail diversifié, inclusif et respectueux.",
                 "description2": "Notre culture repose sur l’équité, l’inclusion et la méritocratie, permettant à chaque membre de l’équipe de s’épanouir. Chez Rialtes, la diversité stimule l’innovation et l’excellence."
@@ -131,7 +131,7 @@
             {
                 "id": 2,
                 "image": "/images/culture/lgbtq-pride-rainbow-flags-workplace-celebration.webp",
-                "alt" : "Équipe diverse célébrant avec drapeaux fierté arc-en-ciel dans bureau moderne représentant inclusion LGBTQ+ et valeurs diversité lieu travail",
+                "alt" : "Équipe diverse célébrant avec drapeaux arc-en-ciel au bureau représentant inclusion LGBTQ+ et diversité",
                 "title": "Bienvenue aux LGBTQ+",
                 "description1": "Nous nous engageons à créer un environnement sûr, inclusif et favorable pour les personnes LGBTQ+. Nous promouvons activement la diversité, l’inclusion et l’alliance, en favorisant une culture où chacun se sent valorisé et libre d’être soi-même.",
                 "description2": "Chez Rialtes, nous défendons l’égalité, l’acceptation et l’appartenance."
@@ -139,7 +139,7 @@
             {
                 "id": 3,
                 "image": "/images/culture/veterans-professional-handshake-office-meeting.webp",
-                "alt" : "Femme et homme professionnels se serrant main dans bureau moderne représentant honneur anciens combattants et relations professionnelles",
+                "alt" : "Femme et homme professionnels se serrant la main au bureau moderne représentant honneur aux anciens combattants",
                 "title": "Honneur aux vétérans",
                 "description1": "Notre lieu de travail inclusif garantit que les vétérans se sentent accueillis, valorisés et encouragés à s’épanouir dans leur parcours professionnel.",
                 "description2": "Chez Rialtes, nous reconnaissons les sacrifices de nos vétérans et nous nous engageons à les aider à construire un avenir prospère."
@@ -147,7 +147,7 @@
             {
                 "id": 4,
                 "image": "/images/culture/women-in-tech-diverse-team-collaboration.webp",
-                "alt" : "Trois femmes diverses souriantes ensemble travaillant sur ordinateurs représentant femmes technologie et culture travail collaboratif",
+                "alt" : "Trois femmes diverses souriantes travaillant sur ordinateurs représentant femmes en technologie et collaboration",
                 "title": "Les femmes dans la tech",
                 "description1": "Grâce au mentorat, à l’égalité des chances et au développement du leadership, nous veillons à ce que les femmes dans la tech prospèrent et stimulent l’innovation.",
                 "description2": "Chez Rialtes, nous croyons que la diversité dans la technologie conduit à des solutions plus fortes et plus intelligentes pour l’avenir."
@@ -168,7 +168,7 @@
             },
             {
                 "image": "/images/about-us/commitment-handshake-partnership-agreement-icon.svg",
-                "alt": "Icône ligne bleue montrant poignée main représentant engagement commercial collaboration partenariat et relations accord professionnel",
+                "alt": "Icône bleue montrant poignée de main représentant engagement commercial, collaboration et relations d'accord",
                 "label": "Engagement",
                 "className": "xl:w-[150px] w-[124px]"
             }
