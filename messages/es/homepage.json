@@ -365,21 +365,24 @@
                 "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
                 "imgSrc": "/images/case-studies/industrial-workers-safety-collaboration.webp",
                 "title": "Trabajadores industriales con equipo de seguridad colaborando con laptop en instalación de fabricación.",
-                "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales."
+                "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales.",
+                "altText": "Trabajadores con equipo de seguridad colaborando con un portátil en planta industrial"
             },
             {
                 "id": 2,
                 "url": "/insights/case-studies/realForce-banking-module-ach",
                 "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
                 "title": "Profesionales de negocios en oficina moderna discutiendo estrategia señalando durante colaboración en equipo.",
-                "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares."
+                "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares.",
+                "altText": "Equipo analizando estrategia empresarial frente a un panel en una oficina moderna"
             },
             {
                 "id": 3,
                 "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
                 "imgSrc": "/images/case-studies/healthcare-professionals-patient-care.webp",
                 "title": "Profesionales de salud en uniformes médicos sonriendo mientras discuten atención al paciente con tablets",
-                "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores."
+                "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores.",
+                "altText": "Personal médico revisando la atención del paciente usando tabletas digitales en la clínica"
             }
         ],
         "getInspiredTitle": "Inspírate con nuestras últimas historias de éxito de clientes, perspectivas del sector y más",
@@ -399,28 +402,32 @@
                 "image": "/images/industry/manufacturing-cnc-machine-metalworking.webp",
                 "title": "Herramienta máquina CNC industrial perforando con chispas volando durante operación de fabricación metalúrgica",
                 "titleOne": "Manufactura",
-                "url": "/industry/manufacturing-cloud-erp"
+                "url": "/industry/manufacturing-cloud-erp",
+                "altText": "Máquina CNC cortando metal con chispas durante fabricación de precisión"
             },
             {
                 "id": 2,
                 "image": "/images/industry/healthcare-digital-medical-data-analysis.webp",
                 "title": "Profesional de salud analizando datos médicos digitales en pantalla táctil futurista en hospital moderno",
                 "titleOne": "Salud",
-                "url": "/industry/life-sciences/healthcare-medtech-patient-care"
+                "url": "/industry/life-sciences/healthcare-medtech-patient-care",
+                "altText": "Clínico analizando datos médicos digitales en una interfaz táctil futurista "
             },
             {
                 "id": 3,
                 "image": "/images/industry/real-estate-urban-planning-model.webp",
                 "title": "Profesional señalando modelo arquitectónico 3D blanco de ciudad durante presentación de planificación urbana",
                 "titleOne": "Bienes Raíces",
-                "url": "/industry/real-estate-property-management"
+                "url": "/industry/real-estate-property-management",
+                "altText": "Profesional revisando modelo arquitectónico 3D para planificación inmobiliaria"
             },
             {
                 "id": 4,
                 "image": "/images/industry/hi-tech-circuit-board-microchip.webp",
                 "title": "Primer plano de placa de circuito turquesa con pines electrónicos mostrando tecnología de microchip hi-tech",
                 "titleOne": "Alta Tecnología",
-                "url": "/industry/hitech-semiconductor-ai-it-solutions"
+                "url": "/industry/hitech-semiconductor-ai-it-solutions",
+                "altText": "Primer plano de placa de microchip destacando componentes electrónicos"
             }
         ]
     },

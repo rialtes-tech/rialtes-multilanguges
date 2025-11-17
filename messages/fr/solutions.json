@@ -395,14 +395,14 @@
     "headerSubTitle3": "Tirer parti des services de conseil SAP pour des opérations commerciales fiables.",
     "KnowMore": "En savoir plus",
     "learnMore": "En savoir plus",
-    "sapConsultingBannerAlt": "Équipe professionnelle collaborant sur la transformation digitale avec les solutions SAP",
-    "sapPartnerLogoAlt": "Badge officiel de Partenaire SAP représentant l’expertise certifiée en implémentation.",
+    "sapConsultingBannerAlt": "Experts collaborant sur une transformation pilotée par SAP dans une salle moderne ",
+    "sapPartnerLogoAlt": "Emblème officiel SAP Partner présentant l’expertise certifiée en mise en œuvre.",
     "solutionSuccess": [
       {
         "id": 1,
         "imageUrl": "/images/sap-consulting/rise-with-sap-team.webp",
         "title": "RISE with SAP",
-        "imageAlt": "Consultants mettant en œuvre RISE avec SAP pour la transformation cloud des entreprises.",
+        "imageAlt": "Consultants planifiant la migration cloud d’entreprises avec RISE with SAP",
         "description": "RISE with SAP est la solution ultime pour toute entreprise qui doit développer de nouveaux modèles commerciaux afin d’éviter les perturbations opérationnelles et de créer un système numérique bien défini.",
         "productsDetails": [
           "Migration SAP S/4HANA",
@@ -416,7 +416,7 @@
         "id": 2,
         "imageUrl": "/images/sap-consulting/grow-with-sap-team.webp",
         "title": "GROW with SAP",
-        "imageAlt": "Experts SAP guidant les entreprises dans l’adoption de GROW avec SAP Cloud ERP.",
+        "imageAlt": "Conseillers SAP guidant les équipes dans l’adoption de l’ERP GROW with SAP ",
         "description": "Les services GROW with SAP offrent des solutions complètes, un soutien communautaire et des ressources pour vous aider à adopter le Cloud ERP rapidement et de manière fiable.",
         "productsDetails": [
           "Accélérez votre transformation numérique",
@@ -431,7 +431,7 @@
         "id": 3,
         "imageUrl": "/images/sap-consulting/successfactor-hcm-transform-team.webp",
         "title": "SuccessFactors",
-        "imageAlt": "Professionnels RH et technologies optimisant la gestion des effectifs avec SAP SuccessFactors.",
+        "imageAlt": "Professionnels RH améliorant les opérations grâce à SAP SuccessFactors ",
         "description": "SuccessFactors propose une transformation HCM mondiale de bout en bout, en automatisant les processus RH pour maintenir l’engagement des employés et les aligner sur les besoins organisationnels, tout en allégeant la charge de travail des responsables RH.",
         "productsDetails": [
           "Employee Central & Employee Central Payroll",
@@ -445,7 +445,7 @@
         "id": 4,
         "imageUrl": "/images/sap-consulting/sap-ariba-procurement-team.webp",
         "title": "SAP Ariba",
-        "imageAlt": "Spécialistes en achats gérant la transformation numérique des approvisionnements et dépenses avec SAP Ariba.",
+        "imageAlt": "Spécialistes achats pilotant les approvisionnements numériques via SAP Ariba",
         "description": "Transformez votre stratégie d’approvisionnement pour renforcer l’innovation et la valeur grâce à la gestion des dépenses, à l’approvisionnement stratégique et aux économies de coûts, tout en améliorant les opérations, la prise de décision et la gestion des contrats.",
         "productsDetails": [
           "Indicateurs d’approvisionnement et de chaîne d’approvisionnement",
@@ -464,7 +464,7 @@
     "riseWithSapTitle": "RISE with SAP",
     "riseWithSapDesc": "Simplifiez la transformation de votre entreprise grâce à un modèle personnalisable par abonnement, « as a service », qui vous permet de migrer vers le cloud et S/4HANA à votre propre rythme. En tant que partenaire SAP Gold, nous apportons une expertise approfondie en matière d’applications SAP, de processus métier et de technologie pour vous aider à tirer pleinement parti de RISE.",
     "contactTitle": "Faites le prochain pas vers l’excellence opérationnelle avec nous.",
-    "riseWithSapNavigationAlt": "En tant que Partenaire Gold SAP, nous apportons une expertise approfondie en applications SAP, processus métier et technologie pour vous aider à tirer pleinement parti de RISE"
+    "riseWithSapNavigationAlt": "Graphique de navigation présentant l’expertise Gold Partner pour solutions RISE"
   },
   "agentForce": {
     "headerTitle": "Agentforce",
@@ -659,7 +659,7 @@
     "deepexpertiseAlt": "Image représentant l’expertise certifiée de Rialtes en Oracle EBS et Oracle Cloud Infrastructure",
     "thoughtleadershipAlt": "Graphique illustrant le leadership intellectuel de Rialtes dans la transformation Oracle EBS et l’intégration de l’IA.",
     "supplyChainAlt": "Image montrant l’intégration d’Oracle EBS et Kinaxis pour une planification agile de la chaîne d’approvisionnement.",
-    "salesAndOperationsAlt ": "Visuel représentant la planification collaborative des ventes et opérations avec Oracle EBS et Kinaxis.",
+    "salesAndOperationsAlt": "Visuel représentant la planification collaborative des ventes et opérations avec Oracle EBS et Kinaxis.",
     "inventoryAlt": "Image illustrant l’optimisation des stocks et la planification d’entreprise avec Oracle EBS ASCP.",
     "senarioplanningAlt": "raphique montrant la planification de scénarios de bout en bout avec Oracle EBS et Kinaxis pour atténuer les risques.",
     "aiDrivenAlt": "Image représentant la transformation par IA dans les workflows Oracle EBS pour la prévision et l’automatisation.",
@@ -1664,7 +1664,8 @@
         "industry": "Générique",
         "date": "21 Oct 2024",
         "url": "insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce",
-        "title": "Le cerveau derrière les agents : révéler l’Atlas Reasoning Engine dans Agentforce"
+        "title": "Le cerveau derrière les agents : révéler l’Atlas Reasoning Engine dans Agentforce",
+        "altText":"Graphique représentant Atlas Reasoning Engine alimentant l’IA Agentforce "
       },
       {
         "id": 4,
@@ -1673,7 +1674,8 @@
         "industry": "Générique",
         "date": "25 Nov 2024",
         "url": "insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data",
-        "title": "Centre de test Agentforce : redéfinir les tests IA avec des données synthétiques"
+        "title": "Centre de test Agentforce : redéfinir les tests IA avec des données synthétiques",
+        "altText":"Visuel montrant centre de test IA utilisant des données synthétiques "
       },
       {
         "id": 6,
@@ -1682,7 +1684,8 @@
         "industry": "Santé",
         "date": "17 Sept 2024",
         "url": "insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration",
-        "title": "Automatisez les parties cruciales de votre organisation de santé avec l’intégration Athenahealth et Salesforce"
+        "title": "Automatisez les parties cruciales de votre organisation de santé avec l’intégration Athenahealth et Salesforce",
+        "altText":"Graphique montrant l’intégration de Salesforce et athenahealth pour automatisation "
       },
       {
         "id": 11,
@@ -1691,7 +1694,8 @@
         "industry": "Générique",
         "date": "17 Sept 2024",
         "url": "insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai",
-        "title": "Les agents Agentforce font évoluer les systèmes ERP avec l’IA"
+        "title": "Les agents Agentforce font évoluer les systèmes ERP avec l’IA",
+        "altText":"Visuel montrant l’IA Agentforce renforçant les systèmes ERP "
       }
     ],
     "previousSlide": "Diapositive précédente",

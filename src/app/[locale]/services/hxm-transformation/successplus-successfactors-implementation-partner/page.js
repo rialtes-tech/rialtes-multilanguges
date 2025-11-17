@@ -103,7 +103,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title={t('seoTitle')}
+        title={t('seoTitle')} 
         description={t('seoDescription')}
         keywords="home, website, welcome"
         canonical={`https://www.rialtes.com/${locale}/services/hxm-transformation/successplus-successfactors-implementation-partner/`}

@@ -595,18 +595,18 @@
     "contactTitle": "Take the next step to operational excellence with us."
   },
   "pharmaBiotech": {
-    "agentForceAlt": "Visual representing Agentforce Salesforce solution for pharma sales and medical affairs teams",
-    "agentChatAlt": "Image showing AgentChat WhatsApp integration for secure patient and HCP communication.",
-    "remoteMonitoringAlt": "Visual representing remote monitoring tools for tracking patient safety and product usage.",
-    "patientCentricAlt": "Image showing mobile apps designed for patient engagement and outcome tracking.",
+    "agentForceAlt": "Visual representing Agentforce Salesforce tools for pharma sales and medical affairs collaboration",
+    "agentChatAlt": "Image showing AgentChat integration with WhatsApp for secure pharma communication with HCPs and patients",
+    "remoteMonitoringAlt": "Visual representing remote monitoring tools that track patient safety and real-world product use",
+    "patientCentricAlt": "Image showing mobile apps for patient engagement, adherence tracking, and therapy management.",
     "benefitsAlt": "Visual listing benefits of AI in pharma including faster development and improved compliance.",
-    "deepExpertiesAlt": "Visual representing Rialtes' deep expertise in pharma and biotech digital platforms.",
+    "deepExpertiesAlt": "Visual representing Rialtes’ deep expertise in pharma and biotech digital transformation platforms",
     "keyImpactAlt": "Graphic showing key AI impact areas in pharma including drug discovery and patient engagement.",
-    "lifeSciencesPlatformAlt": "Image showing integration of commercial, clinical, and medical operations in life sciences.",
+    "lifeSciencesPlatformAlt": "Image showing integration of commercial, clinical, and medical operations in life sciences workflows",
     "sapOperationsAlt": "Visual representing SAP-driven pharma operations including serialization and compliance.",
-    "bannerAlt": "Banner image for pharma and biotech digital transformation services.",
-    "thoughtLeadershipAlt": "Visual highlighting Rialtes' thought leadership in AI and digital transformation for pharma.",
-    "whyRialtesAlt": "Graphic explaining why pharma and biotech firms choose Rialtes for digital transformation.",
+    "bannerAlt": "Banner showcasing digital transformation and AI innovation services for pharma and biotech enterprises",
+    "thoughtLeadershipAlt": "Visual highlighting Rialtes’ thought leadership in pharma AI innovation and digital transformation",
+    "whyRialtesAlt": "Graphic explaining why leading pharma and biotech firms trust Rialtes for digital transformation success",
     "seoTitle": "Digital Transformation in Pharma and Life Sciences Industry | Rialtes",
     "seoDescription": "Rialtes enables Digital Transformation in Pharma and Life Sciences Industry with SAP and Salesforce, delivering innovative and compliant solutions globally.",
     "thoughtData": [
@@ -683,7 +683,7 @@
           "Lack of integrated platforms to manage quality events, safety reporting, and regulatory submissions."
         ],
         "imgDesktop": "/images/pharma/pharma-regulatory-compliance.webp",
-        "imageAlt": "Image illustrating complex global regulatory compliance challenges in pharma.",
+        "imageAlt": "Image illustrating complex global pharma compliance and evolving regulatory requirements",
         "imgMobile": "/images/pharma/pharma-regulatory-compliance-mobile.webp"
       },
       {
@@ -698,7 +698,7 @@
           "Challenges in ensuring data accuracy for regulatory submissions."
         ],
         "imgDesktop": "/images/pharma/pharma-clinical-trials-innovation.webp",
-        "imageAlt": "Visual showing digital solutions for accelerating clinical trials and R&D in pharma.",
+        "imageAlt": "Visual showing digital acceleration of clinical trials and R&D with AI in pharma innovation",
         "imgMobile": "/images/pharma/pharma-clinical-trials-innovation-mobile.webp"
       },
       {
@@ -713,7 +713,7 @@
           "Struggles with medical inquiry and adverse event tracking."
         ],
         "imgDesktop": "/images/pharma/pharma-medical-affairs-engagement.webp",
-        "imageAlt": "Image highlighting engagement gaps between medical affairs, HCPs, and patients.",
+        "imageAlt": "Image showing collaboration challenges between medical affairs, HCPs, and patients in pharma",
         "imgMobile": "/images/pharma/pharma-medical-affairs-engagement-mobile.webp"
       },
       {
@@ -728,7 +728,7 @@
           "Inefficiencies in recall, complaint, and adverse event responses."
         ],
         "imgDesktop": "/images/pharma/pharma-supply-chain-serialization.webp",
-        "imageAlt": "Graphic showing pharma supply chain challenges including serialization and compliance.",
+        "imageAlt": "Graphic showing serialization and compliance processes improving pharma supply chain integrity",
         "imgMobile": "/images/pharma/pharma-supply-chain-serialization-mobile.webp"
       }
     ],
@@ -783,7 +783,7 @@
     "whyAlt": "Advanced robotic surgical arms with precision instruments in sterile operating room for minimally invasive procedures",
     "endAlt": "Modern data center corridor with green plants representing eco-friendly and energy-efficient server technology",
     "keyAlt": "Medical professional using artificial intelligence technology with digital health icons and human anatomy visualization interface",
-    "benefitsAlt": "Woman using a smartphone to monitor health data from a wearable glucose sensor on her arm, representing connected healthcare technology",
+    "benefitsAlt": "Visual highlighting AI benefits in pharma such as faster development, better compliance, and innovation",
     "patientAlt": "Smiling healthcare professional wearing scrubs and a stethoscope using a digital tablet for patient management or medical data review",
     "integratedAlt": "Healthcare worker in protective clothing managing medical supply inventory in a storage facility",
     "mobileAlt": "Doctor assisting an elderly patient in using a mobile health monitoring app",
@@ -958,11 +958,11 @@
     "contactSubTitle": "Ready to elevate your medical device operations? Contact Rialtes today to lead the way in patient-centric innovation and compliance.",
     "learnMoreBtn": "Learn More"
   },
-  "homeHealth": {
+  "homeHealth": { 
     "aiPoweredAlt": "Graphic illustrating AI-driven home health care including predictive insights and automation.",
-    "agentchatAlt": "Image showing AgentChat integration with WhatsApp for patient and caregiver communication.",
-    "globalDeleveryAlt": "Image showing global delivery of home health programs with regional compliance support.",
-    "bannerAlt": "Banner image promoting home health technology solutions for remote care and mobile access.",
+    "agentchatAlt": "AgentChat integration with WhatsApp for instant patient and caregiver communication",
+    "globalDeleveryAlt": "Global home health programs ensuring compliance and care across multiple regions",
+    "bannerAlt": "Remote care technology enabling home health access through mobile and virtual platforms",
     "seoTitle": "AI-Powered Home Healthcare Technology Solutions | Rialtes",
     "seoDescription": "Rialtes offers home healthcare technology solutions powered by AI to support virtual, remote, and personalized patient care—anytime, anywhere.",
     "addressingData": [
@@ -970,36 +970,36 @@
         "title": "Geographical Divide & Accessibility",
         "desc": "Patients in rural or remote areas face significant barriers to accessing timely medical care due to limited healthcare infrastructure and geographic isolation. Our team empowers home health providers with virtual care coordination tools, mobile-optimized apps, and real-time data access, so patients can receive continuous care without ever visiting a clinic.",
         "deskImg": "/images/home-health/geographical-desk.webp",
-        "mobImg": "/images/home-health/Mobile/geographical-mob.webp",
-        "alt": "Visual highlighting challenges in rural healthcare access and virtual care coordination tools."
+        "mobImg": "/images/home-health/Mobile/geographical-mob.webp", 
+        "alt": "Digital healthcare tools bridging rural care gaps through virtual coordination and connectivity"
       },
       {
         "title": "Pandemic & Infectious Disease Risk",
         "desc": "Physical consultations expose vulnerable patients to contagious diseases, especially during public health crises like COVID-19. We support the shift from clinic-based visits to remote consultations and monitoring, ensuring that patients receive care in a safe, controlled environment, at home. It is done by virtual appointments, remote diagnostics, and contactless care delivery via Salesforce.",
         "deskImg": "/images/home-health/pandemic-desk.webp",
         "mobImg": "/images/home-health/Mobile/pandemic-mob.webp",
-        "alt": "Image showing remote consultations and contactless care to reduce infectious disease exposure."
+        "alt": "Remote consultations providing safe, contactless care and reducing infectious exposure risks"
       },
       {
         "title": "Lack of Real-Time Health Tracking",
         "desc": "Without real-time visibility into patient health, early warning signs are often missed, leading to preventable complications. Rialtes enables Remote Patient Monitoring (RPM) by integrating smart medical devices and wearables with Salesforce Health Cloud, ensuring healthcare providers receive live updates and alerts for timely intervention.",
         "deskImg": "/images/home-health/lack-desk.webp",
         "mobImg": "/images/home-health/Mobile/lack-mob.webp",
-        "alt": "Graphic illustrating remote patient monitoring using wearables and smart medical devices."
+        "alt": "Real-time patient monitoring with smart wearables and connected health devices"
       },
       {
         "title": "Long Waiting Times",
         "desc": "Overburdened clinics lead to delayed care, missed follow-ups, and frustrated patients. With automated appointment scheduling, intelligent routing tools, and virtual care options, we help reduce patient backlog and facilitate on-demand consultations for home-bound patients.",
         "deskImg": "/images/home-health/long-desk.webp",
         "mobImg": "/images/home-health/Mobile/long-mob.webp",
-        "alt": "Image showing automated scheduling and virtual consultations to reduce patient backlog."
+        "alt": "AI-powered scheduling tools enhancing virtual consultations and patient experience"
       },
       {
         "title": "Limited Access to Mental Health Support",
         "desc": "Access to mental health services remains a challenge due to stigma, limited availability, and logistical barriers. Rialtes offers discreet, virtual access to behavioral health professionals, counseling sessions, and mood-tracking tools, all integrated within a secure and patient-friendly digital platform.",
         "deskImg": "/images/home-health/limited-desk.webp",
         "mobImg": "/images/home-health/Mobile/limited-mob.webp",
-        "alt": "Visual representing virtual behavioral health services and mood tracking tools."
+        "alt": "Digital behavioral therapy and mood tracking improving mental health accessibility"
       }
     ],
     "aiRovolutionizingData": [

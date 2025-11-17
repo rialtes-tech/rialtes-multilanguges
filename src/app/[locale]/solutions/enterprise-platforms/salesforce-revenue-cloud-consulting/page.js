@@ -225,7 +225,7 @@ export default function HealthCloud() {
                     src={sales.imageUrl}
                     alt={sales.alt}
                     className="w-20 h-20"
-                    width={0}
+                    width={0} 
                     height={0}
                     sizes="100vw"
                     style={{

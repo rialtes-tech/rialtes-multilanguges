@@ -418,14 +418,14 @@
     "trustedTitle": "Infrastructure Fiable pour l’Entreprise Immobilière"
   },
   "mediaina": {
-    "mediainaLogoAlt": "Logo de MediAlna avec une silhouette humaine stylisée aux bras levés et le nom de la marque en police moderne bleu foncé.",
-    "lifeAIPlusAlt": "Illustration représentant la suite de conseil LifeAI+ pour une transformation intelligente et évolutive des soins de santé.",
+    "mediainaLogoAlt": "Logo MediAlna avec silhouette humaine stylisée et typographie bleue moderne symbolisant l’innovation médicale",
+    "lifeAIPlusAlt": "Illustration représentant LifeAI+, une suite pour la transformation intelligente et évolutive des soins.",
     "rialtesBenefits": [
       "Accélérez les délais de mise sur le marché grâce à des modèles de livraison agiles.",
       "Permettez des essais cliniques plus intelligents, des soins connectés et des thérapies numériques.",
       "Exploitez Salesforce, l’IA et les plateformes cloud pour une innovation conforme."
     ],
-    "bannerAlt": "Gros plan sur un œil numérique aux détails lumineux bleus et violets, symbolisant l’intelligence artificielle, la technologie de vision et la perception des données",
+    "bannerAlt": "Gros plan d’un œil numérique symbolisant la vision IA, la perception des données et l’analyse intelligente.",
     "headerTitle": "MediAIna",
     "seoTitle": "MediAIna – Redéfinir le Parcours Patient dans le Secteur de la Santé",
     "seoDescription": "MediAIna place le patient au centre en cartographiant chaque moment de soin avec Salesforce et LifeAI+ de Rialtes pour une santé connectée et humaine.",
@@ -454,7 +454,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/patient-desktop.webp",
         "mobImg": "/images/products/mediyana/desktop/patient-desktop.webp",
-        "imgAlt": "Visuel montrant l’identification et la segmentation des patients par IA pour des thérapies et essais ciblés.",
+        "imgAlt": "Visuel montrant l’identification et la segmentation des patients par IA pour des soins de précision.",
         "bgColor": "#CCF7F5"
       },
       {
@@ -472,7 +472,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/candidate.webp",
         "mobImg": "/images/products/mediyana/mobile/candidate.webp",
-        "imgAlt": "Image illustrant l’éducation numérique personnalisée des patients pour favoriser l’adoption des thérapies.",
+        "imgAlt": "Illustration d’éducation personnalisée du patient via outils numériques pour soutenir l’adoption thérapeutique.",
         "bgColor": "#C6E7FF"
       },
       {
@@ -490,7 +490,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/digital.webp",
         "mobImg": "/images/products/mediyana/mobile/digital.webp",
-        "imgAlt": "Graphique montrant des workflows d’autorisation préalable automatisés pour réduire les délais de traitement.",
+        "imgAlt": "Graphique illustrant l’automatisation IA des autorisations préalables pour réduire les retards de traitement",
         "bgColor": "#EDEDED"
       },
       {
@@ -508,7 +508,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/clinical.webp",
         "mobImg": "/images/products/mediyana/mobile/clinical.webp",
-        "imgAlt": "Visuel représentant l’attribution des patients à des essais cliniques pertinents grâce à l’IA.",
+        "imgAlt": "Visuel illustrant le rapprochement des patients avec des essais cliniques grâce à l’IA.",
         "bgColor": "#CCF7F5"
       },
       {
@@ -526,7 +526,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/long.webp",
         "mobImg": "/images/products/mediyana/mobile/long.webp",
-        "imgAlt": "Image représentant la gestion connectée des soins de longue durée pour un soutien continu du patient.",
+        "imgAlt": "Image montrant la coordination des soins de longue durée assistée par IA pour un suivi patient continu.",
         "bgColor": "#C6E7FF"
       },
       {
@@ -544,7 +544,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/body.webp",
         "mobImg": "/images/products/mediyana/mobile/body.webp",
-        "imgAlt": "Graphique illustrant la cartographie des parcours patients par IA à travers les points de contact et les étapes de soins.",
+        "imgAlt": "Graphique illustrant la cartographie IA du parcours patient à travers les étapes de soins. ",
         "bgColor": "#EDEDED"
       },
       {
@@ -562,7 +562,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/conversational.webp",
         "mobImg": "/images/products/mediyana/mobile/conver.webp",
-        "imgAlt": "Visuel montrant des requêtes en langage naturel et des insights automatisés grâce à Agentforce.",
+        "imgAlt": "Visuel montrant l’IA d’Agentforce répondant à des requêtes en langage naturel avec des analyses automatisées.",
         "bgColor": "#CCF7F5"
       },
       {
@@ -580,7 +580,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/unified.webp",
         "mobImg": "/images/products/mediyana/mobile/unified.webp",
-        "imgAlt": "Graphique représentant une plateforme de données unifiée pour les prestataires, payeurs, essais et patients.",
+        "imgAlt": "Graphique représentant un système de données unifié reliant prestataires, assureurs et patients.",
         "bgColor": "#C6E7FF"
       },
       {
@@ -598,7 +598,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/seamless.webp",
         "mobImg": "/images/products/mediyana/mobile/seamless.webp",
-        "imgAlt": "Image montrant l’intégration pilotée par API entre les systèmes EHR, CRM et ERP avec conformité FHIR et HL7.",
+        "imgAlt": "Image montrant intégration basée sur API entre EHR, CRM et ERP conforme aux normes FHIR.",
         "bgColor": "#EDEDED"
       },
       {
@@ -616,7 +616,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/real.webp",
         "mobImg": "/images/products/mediyana/mobile/real.webp",
-        "imgAlt": "Visuel de chat intelligent conforme à la HIPAA pour la communication entre patients et personnel.",
+        "imgAlt": "Visuel montrant un chat IA conforme à HIPAA pour communication sécurisée entre patients et personnel.",
         "bgColor": "#CCF7F5"
       },
       {
@@ -634,7 +634,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/order.webp",
         "mobImg": "/images/products/mediyana/mobile/order.webp",
-        "imgAlt": "Image montrant la visibilité des stocks en temps réel et l’intégration SAP pour la logistique hospitalière.",
+        "imgAlt": "Image montrant visibilité en temps réel des stocks et intégration SAP pour la logistique hospitalière",
         "bgColor": "#C6E7FF"
       },
       {
@@ -654,7 +654,7 @@
         ],
         "deskImg": "/images/products/mediyana/desktop/trusted.webp",
         "mobImg": "/images/products/mediyana/mobile/trusted.webp",
-        "imgAlt": "Image montrant des outils numériques pour surveiller l’adhésion du patient aux thérapies prescrites.",
+        "imgAlt": "Image montrant des outils numériques suivant l’adhérence du patient au traitement pour de meilleurs résultats.",
         "bgColor": "#EDEDED"
       }
     ],

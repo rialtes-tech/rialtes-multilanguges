@@ -1,16 +1,16 @@
 {
     "sapBuyPlus": {
         "headerTitle": "SAPBuy+",
-        "whyChooseAlt": "Banner image highlighting Rialtes' SAPBuy+ ARIBA implementation services with two professionals reviewing documents.",
-        "agentchatAlt": "Screenshot of RialChat WhatsApp app enabling real-time procurement approvals and collaboration.",
-        "seamlessIntegrationsAlt": "Diagram of SAP ARIBA integration with SAP S/4HANA, SuccessFactors, and third-party systems via SAP CPI.",
-        "suplierProfileAlt": "Visual showing SAP ARIBA’s supplier profile management for onboarding and compliance",
-        "sapbuyplusContractAlt": "Graphic illustrating SAP ARIBA Contract Management features including automated creation, collaboration, digital signatures, and compliance tracking.",
-        "buyingAlt": "Image illustrating SAP ARIBA Buying & Invoicing module for automated procure-to-pay workflows",
-        "sapAribaNetworkAlt": "Graphic representing SAP ARIBA Business Network for supplier collaboration and digital procurement.",
-        "sapAribaModuleAlt": "Visual overview of SAP ARIBA modules for direct and indirect procurement processes",
-        "unloackProcurementAlt": "Illustration showing SAP ARIBA integration with SAP S/4HANA and third-party apps to unlock procurement efficiency.",
-        "sapbuyplusBannerAlt": "Banner image showing SAP Ariba implementation with the text “SAPBuyPlus – Optimize Spend Management,” representing efficient procurement transformation",
+        "whyChooseAlt": "highlighting Rialtes' SAPBuy+ ARIBA implementation services with two professionals reviewing documents.",
+        "agentchatAlt": "RialChat WhatsApp tool enabling fast procurement approvals",
+        "seamlessIntegrationsAlt": "Diagram showing SAP Ariba connected to SAP systems via SAP CPI for unified workflows",
+        "suplierProfileAlt": "Illustration of SAP Ariba supplier profile system supporting onboarding and checks",
+        "sapbuyplusContractAlt": "SAP Ariba Contract Management with automation, collaboration, e-signatures and compliance tracking",
+        "buyingAlt": "Image illustrating SAP Ariba Buying & Invoicing for automated procure-to-pay",
+        "sapAribaNetworkAlt": "Graphic of SAP Ariba Business Network enabling global supplier collaboration",
+        "sapAribaModuleAlt": "Mobile visual outlining SAP Ariba modules for direct and indirect procurement",
+        "unloackProcurementAlt": "llustration showing SAP Ariba linked with S/4HANA and apps to boost procurement efficiency",
+        "sapbuyplusBannerAlt": "Banner showing SAP Ariba spend management theme with SAPBuyPlus for smarter procurement",
         "seoTitle": "SAP Ariba Implementation Partner and Procurement Solutions | Rialtes",
         "seoDescription": "As a leading Ariba implementation partner, Rialtes powers procurement transformation with SAPBuy+ and expert Ariba services tailored to modern supply chain needs.",
         "headerSubTitle": "Transform Procurement Excellence with Rialtes SAPBuy+ Services for SAP ARIBA",
@@ -200,24 +200,23 @@
         "agentChatSubTitle": "AI-Powered Supplier Engagement",
         "agentChatDesc": "Rialtes RialChat is a bi-directional WhatsApp conversational app, designed for seamless procurement collaboration.",
         "keyFeatureTitle": "Key Features of AgentChat for SAP ARIBA Users"
-    }, 
+    },
     "successPlus": {
-        "sapJouleAlt":"AI-Powered HR Assistant for SuccessFactors Leverage AI with SAP Joule - Empowering the Future of HR",
+        "sapJouleAlt": "AI-powered HR assistant for SuccessFactors using SAP Joule for intelligent HR automation",
         "keyServiceImg": "/images/services/success-plus/key-services-desk.webp",
-         "zohoAlt": "Infographic comparing SAP SuccessFactors and Zoho People HR management solutions. ",
-        "workDayAlt": "Comparison chart highlighting SAP SuccessFactors advantages over Workday in HR transformation.",
+        "zohoAlt": "Infographic comparing SAP SuccessFactors with Zoho People for HR process optimization ",
+        "workDayAlt": "Comparison chart showing SAP SuccessFactors advantages over Workday for HR modernization",
         "keyServiceImgMobile": "/images/services/success-plus/Mobile/key-services-mob.webp",
-    "sapSuccessfacorAlt": "Official SAP SuccessFactors logo featuring blue text and a yellow heart icon, representing people-centric HR transformation.",
-    "agentchatIconAlt": "WhatsApp icon linking to Rialtes support for SAP SuccessFactors inquiries.",
-        "agentchatAlt": "Rialtes AgentChat interface enabling automated HR support and communication for SAP SuccessFactors users.",
-        "sapCpiAlt": "SAP Cloud Platform Integration (CPI) dashboard illustrating connected HR workflows within SuccessFactors. ",
-        "extendAlt": "Illustration showing extended SAP SuccessFactors capabilities through Rialtes SuccessPlus add-ons. ",
+        "sapSuccessfacorAlt": "SAP SuccessFactors logo with blue text and yellow heart symbolizing people-centric HR",
+        "agentchatAlt": "Interface of AgentChat enabling automated HR support and employee communication",
+        "sapCpiAlt": "SAP CPI dashboard illustrating connected HR workflows within SuccessFactors ",
+        "extendAlt": "Illustration showing extended SuccessFactors capabilities using SuccessPlus add-ons",
         "sapJuleAlt": "SAP ERP and SuccessFactors integration dashboard for seamless HR operations.",
-        "successFactorAlt": "SAP SuccessFactors dashboard showcasing unified HR, payroll, and talent management features.",
+        "successFactorAlt": "Dashboard view of SAP SuccessFactors with unified HR, payroll, and talent features.",
         "keySerAlt": "Illustration showing key SAP SuccessFactors implementation and support services offered by Rialtes. ",
         "headerTitle": "Success+",
-        "bannerAlt": "Rialtes SuccessPlus – SAP SuccessFactors implementation partner helping organizations optimize HR transformation.",
-        "sapPartnerLogoAlt": "Official SAP Partner logo representing Rialtes’ certified expertise in SAP SuccessFactors implementation. ",
+        "bannerAlt": "Banner highlighting SuccessPlus as SAP SuccessFactors partner driving efficient HR transformation",
+        "sapPartnerLogoAlt": "Official SAP Partner badge showcasing certified SAP SuccessFactors implementation expertise ",
         "sapSuccessAlt": "Official SAP SuccessFactors logo featuring blue text and a yellow heart icon, representing people-centric HR transformation. ",
         "seoTitle": "SAP SuccessFactors Consulting and Implementation Partners | Rialtes",
         "seoDescription": "Success+ by Rialtes delivers AI-powered SuccessFactors consulting and implementation to modernize HCM and accelerate your HR transformation. Let’s begin!",
@@ -314,22 +313,22 @@
             {
                 "img": "/images/services/success-plus/unified-hr-platform-business-goals.svg",
                 "title": "Unified HR platform aligned with business goals.",
-                "alt": "Graphic showing a unified HR platform aligned with business goals through SAP SuccessFactors. "
+                "alt": "Graphic showing a unified SAP SuccessFactors HR platform aligned with business goals "
             },
             {
                 "img": "/images/services/success-plus/future-proof-hr-ai-automation-analytics.svg",
                 "title": "Future-proofing HR with AI, automation, and advanced analytics.",
-                "alt": "Illustration of future-ready HR transformation using AI, automation, and analytics in SAP SuccessFactors. "
+                "alt": "Illustration of future-ready HR using SAP SuccessFactors with AI, automation, and analytics "
             },
             {
                 "img": "/images/services/success-plus/sap-integration-connected-enterprise.svg",
                 "title": "Integration with core SAP and third-party systems for a connected enterprise.",
-                "alt": "Visualization of SAP SuccessFactors integration with core SAP and third-party systems for enterprise connectivity. "
+                "alt": "Visual showing SuccessFactors integrated with SAP and third-party systems for enterprise connectivity "
             },
             {
                 "img": "/images/services/success-plus/global-hr-compliance-local-adaptability.svg",
                 "title": "Global HR compliance and local adaptability.",
-                "alt": "Image representing global HR compliance and local adaptability enabled by SAP SuccessFactors."
+                "alt": "Icon showing global HR compliance and local adaptability enabled by SuccessFactors"
             }
         ],
         "sapActivateData": [
@@ -1120,14 +1119,14 @@
         "contactTitle": "Accelerate Your Automotive Transformation with Rialtes"
     },
     "salesforceAgent": {
-        "certifiedSectionAlt" : "Software developers coding on multiple screens in collaborative tech workspace with team members in background",
-        "migrateSectionAlt" : "Futuristic glass building with reflective clouds representing modern scalable cloud infrastructure and digital architecture",
-        "salesforceIndustryCloudSolutionsAlt" : "Salesforce Industry Cloud specializations including Healthcare, Manufacturing, Education, and Real Estate solutions grid",
-        "salesforceSectionAlt" : "Professional team collaborating on laptop reviewing business strategies and solutions in modern office workspace",
-        "rialchatAlt" : "Smiling professional woman using smartphone in modern bright office with dashboard displays on wall behind her",
-        "unlockAIAlt" : "Blue digital data waves with glowing particles representing unified Salesforce Financial Services Cloud synchronization",
-        "startAlAlt" : "Professional silhouette overlooking mountain valley with glowing digital network overlay symbolizing AI journey transformation",
-        "bannerAlt" : "Glowing golden portal with radiating light beams representing SalesforceAgent+ AI-ready managed services transformation",
+        "certifiedSectionAlt": "Software developers coding on multiple screens in collaborative tech workspace with team members in background",
+        "migrateSectionAlt": "Futuristic glass building with reflective clouds representing modern scalable cloud infrastructure and digital architecture",
+        "salesforceIndustryCloudSolutionsAlt": "Salesforce Industry Cloud specializations including Healthcare, Manufacturing, Education, and Real Estate solutions grid",
+        "salesforceSectionAlt": "Professional team collaborating on laptop reviewing business strategies and solutions in modern office workspace",
+        "rialchatAlt": "Smiling professional woman using smartphone in modern bright office with dashboard displays on wall behind her",
+        "unlockAIAlt": "Blue digital data waves with glowing particles representing unified Salesforce Financial Services Cloud synchronization",
+        "startAlAlt": "Professional silhouette overlooking mountain valley with glowing digital network overlay symbolizing AI journey transformation",
+        "bannerAlt": "Glowing golden portal with radiating light beams representing SalesforceAgent+ AI-ready managed services transformation",
         "headerTitle": " SalesforceAgent+",
         "seoTitle": "Salesforce Managed Services Provider | Rialtes SalesforceAgent+",
         "seoDescription": "Looking for a Salesforce managed services partner and provider? Rialtes drives innovation with SalesforceAgent+, making your platform smarter, faster, and AI-ready.",
@@ -1316,27 +1315,27 @@
             {
                 "img": "/images/services/salesforce-agentforce/Mobile/connected-network-communication-icon.svg",
                 "data": "Salesforce Managed Services, AI enablement, and Data Cloud experts.",
-                "alt" : "Interconnected network diagram with central user profile surrounded by communication nodes and connection points"
+                "alt": "Interconnected network diagram with central user profile surrounded by communication nodes and connection points"
             },
             {
                 "img": "/images/services/salesforce-agentforce/Mobile/hand-holding-globe-service-icon.svg",
                 "data": "Global delivery with a local touch.",
-                "alt" : "Hand supporting globe with motion lines representing global service delivery and worldwide support accessibility"
+                "alt": "Hand supporting globe with motion lines representing global service delivery and worldwide support accessibility"
             },
             {
                 "img": "/images/services/salesforce-agentforce/Mobile/customer-support-representative-icon.svg",
                 "data": "24x7 support to keep you running — and growing.",
-                "alt" : "Customer service representative with headset at computer displaying speech bubble for communication assistance"
+                "alt": "Customer service representative with headset at computer displaying speech bubble for communication assistance"
             },
             {
                 "img": "/images/services/salesforce-agentforce/Mobile/automated-process-workflow-cycle-icon.svg",
                 "data": "RialChat (WhatsApp Integration) included — Free.",
-                "alt" : "Circular workflow with gear and chat bubble showing automated process cycle and continuous communication loop"
+                "alt": "Circular workflow with gear and chat bubble showing automated process cycle and continuous communication loop"
             },
             {
                 "img": "/images/services/salesforce-agentforce/Mobile/artificial-intelligence-brain-technology-icon.svg",
                 "data": "Deep focus on Agentforce and AI transformation journeys.",
-                "alt" : "Human head profile with circuit board pattern and gear symbolizing artificial intelligence and cognitive technology"
+                "alt": "Human head profile with circuit board pattern and gear symbolizing artificial intelligence and cognitive technology"
             }
         ],
         "knowMore": "Know More",
@@ -1346,22 +1345,22 @@
         "contactSubTitleOne": "Contact Rialtes to discover how SalesforceAgent+ can supercharge your Salesforce ecosystem."
     },
     "sapDigitalDesk": {
-        "whyPartnersAlt" : "Professional handshake with vibrant digital light effects symbolizing technology partnership and business collaboration ",
-        "migrateSectionAlt" : "Digital wave background displaying SAP SuccessFactors migration pathways from Workday and ZOHO HR with service details",
-        "btpSectionAlt" : "Smiling business professionals analyzing data visualization on interactive digital screen in modern collaborative workspace",
-        "superchargeSectionAlt" : "Hands assembling blue puzzle pieces with HR icons showing SAP Joule AI integration for automated employee management system",
-        "sapSignavioAlt" : "SAP Signavio and Activate implementation methodology showing six-step process from discovery to deployment and optimization",
-        "winnigSectionAlt" : "Overhead view of HR professionals conducting SAP SuccessFactors talent management meeting with documents and laptop",
-        "intelligentSectionAlt" : "Business professionals reviewing colorful analytics dashboard with charts and graphs on laptop for data-driven insights",
-        "codeFutureAlt" : "Software developer wearing glasses analyzing programming code with holographic display overlay showing data visualization",
-         "seamlessSectionAlt" : "Aerial view of multilevel highway intersection with traffic flow showing transportation infrastructure and connectivity",
-        "unleashSectionAlt" : "Business professionals reviewing digital data on tablet with transparent interface overlay in modern corporate office",
-        "sapFioriSectionAlt" : "Smiling professional woman in black attire working on laptop in modern office workspace with bright natural lighting",
-        "futureProofAlt" : "Industrial engineer in safety vest and hard hat analyzing real-time data on digital monitoring screens in factory",
-        "sapSectionAlt" : "SAP certification information page displaying over 150 certifications across major modules with expertise benefits listed",
-        "projectleadershipAlt" : "Futuristic warehouse with digital grid overlay and forklifts showing smart logistics and automated inventory management",
-        "rialtesSectionAlt" : "Abstract digital network visualization showing global SAP support infrastructure with blue waveforms and connectivity",
-        "bannerAlt" : "Professional analyzing SAP data analytics on tablet with financial graphs and charts overlay for maximizing investment",
+        "whyPartnersAlt": "Professional handshake with vibrant digital light effects symbolizing technology partnership and business collaboration ",
+        "migrateSectionAlt": "Digital wave background displaying SAP SuccessFactors migration pathways from Workday and ZOHO HR with service details",
+        "btpSectionAlt": "Smiling business professionals analyzing data visualization on interactive digital screen in modern collaborative workspace",
+        "superchargeSectionAlt": "Hands assembling blue puzzle pieces with HR icons showing SAP Joule AI integration for automated employee management system",
+        "sapSignavioAlt": "SAP Signavio and Activate implementation methodology showing six-step process from discovery to deployment and optimization",
+        "winnigSectionAlt": "Overhead view of HR professionals conducting SAP SuccessFactors talent management meeting with documents and laptop",
+        "intelligentSectionAlt": "Business professionals reviewing colorful analytics dashboard with charts and graphs on laptop for data-driven insights",
+        "codeFutureAlt": "Software developer wearing glasses analyzing programming code with holographic display overlay showing data visualization",
+        "seamlessSectionAlt": "Aerial view of multilevel highway intersection with traffic flow showing transportation infrastructure and connectivity",
+        "unleashSectionAlt": "Business professionals reviewing digital data on tablet with transparent interface overlay in modern corporate office",
+        "sapFioriSectionAlt": "Smiling professional woman in black attire working on laptop in modern office workspace with bright natural lighting",
+        "futureProofAlt": "Industrial engineer in safety vest and hard hat analyzing real-time data on digital monitoring screens in factory",
+        "sapSectionAlt": "SAP certification information page displaying over 150 certifications across major modules with expertise benefits listed",
+        "projectleadershipAlt": "Futuristic warehouse with digital grid overlay and forklifts showing smart logistics and automated inventory management",
+        "rialtesSectionAlt": "Abstract digital network visualization showing global SAP support infrastructure with blue waveforms and connectivity",
+        "bannerAlt": "Professional analyzing SAP data analytics on tablet with financial graphs and charts overlay for maximizing investment",
         "seoTitle": "SAP Managed Services Provider Driving ROI and Agility | Rialtes",
         "seoDescription": "As a next-gen SAP Managed Services Provider, Rialtes future-proofs your SAP stack with AI, automation, cloud-native apps, and continuous innovation.",
         "sapCertificationData": [
@@ -2044,12 +2043,12 @@
         "contactTitle": "Ready to Accelerate Your Marketing? Let’s Talk!"
     },
     "rialFinance": {
-        "whyRialtesAlt" : "Professional woman presenting Salesforce Financial Services Cloud analysis and digital strategies to client",
-        "howWeDeliverAlt" : "Three professionals collaborating happily while reviewing financial data on tablet in modern office environment",
-        "salesforceAlt" : "Hand using stylus on futuristic tablet displaying real-time financial analytics, charts, and AI-powered dashboards",
-        "aiAlt" : "Futuristic digital piggy bank with glowing circuits and glasses symbolizing AI-driven financial transformation",
-        "agentchatAlt" : "Professional woman smiling while using smartphone for WhatsApp communication through Salesforce AgentChat platform",
-        "exelonaAlt" : "Digital wireframe skyscraper representing Exelona Financial Services Cloud for asset and portfolio management solutions",
+        "whyRialtesAlt": "Professional woman presenting Salesforce Financial Services Cloud analysis and digital strategies to client",
+        "howWeDeliverAlt": "Three professionals collaborating happily while reviewing financial data on tablet in modern office environment",
+        "salesforceAlt": "Hand using stylus on futuristic tablet displaying real-time financial analytics, charts, and AI-powered dashboards",
+        "aiAlt": "Futuristic digital piggy bank with glowing circuits and glasses symbolizing AI-driven financial transformation",
+        "agentchatAlt": "Professional woman smiling while using smartphone for WhatsApp communication through Salesforce AgentChat platform",
+        "exelonaAlt": "Digital wireframe skyscraper representing Exelona Financial Services Cloud for asset and portfolio management solutions",
         "agentforceAlt": "Professional analyzing financial data on laptop with holographic AI charts, graphs, and analytics overlays",
         "bannerAlt": "RialFinance+ Salesforce solutions with blue growth arrow over rising bar charts showing financial transformation",
         "seoTitle": "Salesforce Financial Services Cloud Consulting | RialFinance+ ",
@@ -2205,7 +2204,7 @@
                     "Personalized investor communications and portals.",
                     "Risk and performance analytics dashboards."
                 ],
-                "alt"  : "Confident businesswoman smiling in professional meeting with colleagues discussing strategy in conference room",
+                "alt": "Confident businesswoman smiling in professional meeting with colleagues discussing strategy in conference room",
                 "deskImg": "/images/services/rial-finance/professional-business-meeting.webp",
                 "mobImg": "/images/services/rial-finance/Mobile/professional-business-meeting-mobile.webp"
             }

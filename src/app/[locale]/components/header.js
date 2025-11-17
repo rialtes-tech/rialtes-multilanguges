@@ -348,7 +348,7 @@ const Header = () => {
               <Link rel='preload' href="/" aria-label="Homepage"  >
                 <Image
                   className="cursor-pointer w-[120px] md:w-[130px] lg:w-[100px] 2xl:w-[145px] h-auto"
-                  alt="Company logo"
+                  alt="Rialtes Logo"
                   width={165}
                   height={50}
                   sizes="100vw"
@@ -1157,7 +1157,7 @@ const Header = () => {
             <Image
               loading="lazy"
               className="cursor-pointer"
-              alt="Company Logo"
+              alt="Rialtes Logo"
               height='140'
               width='80'
               src='/images/homepage/logo.svg'
@@ -1229,7 +1229,7 @@ const Header = () => {
                     loading="lazy"
                     className="cursor-pointer"
                     href='/'
-                    alt="Company Logo"
+                    alt="Rialtes Logo White"
                     height='150'
                     width='100'
                     src='/images/homepage/logo.svg'

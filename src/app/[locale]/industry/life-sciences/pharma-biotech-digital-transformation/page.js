@@ -8,7 +8,7 @@ import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../../../../messages/en/industry.json';
-import esContent from '../../../../../../messages/es/industry.json';
+import esContent from '../../../../../../messages/es/industry.json'; 
 import frContent from '../../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../../components/changeLocalization";
 import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";

@@ -108,7 +108,7 @@ const schemaData = {
 export default function Page() {
     const t = useTranslations('sapConsulting')
     const locale = useLocale();
-    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent }); 
     const { solutionSuccess } = content.sapConsulting;
     return (
         <div className="min-h-screen bg-white">
