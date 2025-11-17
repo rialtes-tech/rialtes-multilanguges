@@ -155,7 +155,7 @@ const Home = () => {
         { link: "/industry/hitech-semiconductor-ai-it-solutions", image: '/images/homepage/semiconducter-desktop-banner.webp', title: "Semiconductor Industry", imageMobile: '/images/homepage/semiconductor-mobile-banner.webp' },
 
     ], [])
-    const handlePrevInsights = () => {
+    const handlePrevInsights = () => { 
         setActiveIndexInsights((prevIndex) =>
             prevIndex === 0 ? carouselData.length - 1 : prevIndex - 1
         );
