@@ -4509,7 +4509,7 @@
         "faqTitle": "FAQs: Agentforce in Predicting and Preventing Downtime in Industry 4.0 Manufacturing"
     },
     "sapBuild": {
-        "bannerAlt": "Smart factory interface showing SAP Build low-code automation tools and connected machinery ",
+        "bannerAlt": "Smart factory dashboard showing SAP Build low-code automation with connected machines and real-time operations",
         "seoTitle": "SAP Build for Manufacturing Sector: Cut Downtime 30% | Rialtes",
         "seoDescription": "Discover how SAP Build helps manufacturers accelerate innovation, reduce downtime, and empower teams with low-code apps and automation.",
         "blogMainData": [
@@ -4646,7 +4646,7 @@
         "faqTitle": "FAQs: Frequently Asked Questions"
     },
     "ecommerceDataCloud": {
-        "bannerAlt": "Banner image showing Salesforce Data Cloud powering predictive e-commerce and customer loyalty",
+        "bannerAlt": "Banner showing Salesforce Data Cloud enabling predictive e-commerce and boosting customer loyalty. ",
         "seoTitle": "Ecommerce in Salesforce: Driving Loyalty with Data Cloud | Rialtes",
         "seoDescription": "Salesforce Data Cloud unifies customer data to power predictive insights, helping businesses drive ecommerce loyalty and real-time personalization.",
         "salesforceData": [
@@ -4796,7 +4796,7 @@
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "agentforceHitech": {
-        "bannerAlt": "Banner image illustrating Agentforce AI integration with ERP systems",
+        "bannerAlt": "Agentforce AI integrating with ERP to automate tasks and improve operational efficiency.",
         "seoTitle": "How Agentforce AI Transforms ERP with Automation | Rialtes",
         "seoDescription": "By analyzing ERP and SCM data, Agentforce offers predictive insights that enhance decision-making and boost productivity across industries. Know more!",
         "agentfoceIntegrates": [
@@ -4902,7 +4902,7 @@
         "faqTitle": "FAQ: Frequently Asked Questions"
     },
     "fiveSigns": {
-        "bannerAlt": "Smart manufacturing floor with robotic arms and AI interface for predictive automation ",
+        "bannerAlt": "Smart factory floor with robotic arms and an AI interface enabling predictive automation and efficient production. ",
         "seoTitle": "AI Agents in Manufacturing: 5 Signs You’re Ready | Rialtes",
         "seoDescription": "AI agents represent not just a new tool, but a fundamental shift in how work is performed, decisions are made, and problems are solved for manufacturers today.",
         "mainData": [
@@ -4985,7 +4985,7 @@
         "faqTitle": "FAQs: Implement AI Agents in Your Manufacturing Operations"
     },
     "connectedCore": {
-        "bannerAlt": "Visual network of healthcare providers, pharma systems, and MedTech devices in a connected care model ",
+        "bannerAlt": "Network showing connected healthcare providers, pharma systems, and MedTech devices enabling unified patient care. ",
         "seoTitle": "Connected Care Ecosystems: Future for Pharma and MedTech | Rialtes",
         "seoDescription": "Discover how a connected care ecosystem helps Pharma and MedTech with predictive alerts, chronic care, and remote monitoring for better outcomes.",
         "mainData": [
@@ -5147,7 +5147,7 @@
         "faqTitle": "FAQs : Importance of Connected Care Ecosystems for Pharma & MedTech"
     },
     "digitalJourney": {
-        "bannerAlt": "Visual timeline of a patient journey enhanced by AI, showing diagnosis, treatment, and follow-up stages ",
+        "bannerAlt": "AI-enhanced patient journey timeline showing diagnosis, treatment steps, and continuous medical follow-up",
         "digiTitle": "Reshaping Healthcare, One Journey at a Time",
         "seoTitle": "Digital Patient Journeys: The Future of AI Healthcare | Rialtes",
         "seoDescription": "The future of healthcare is digital patient journeys—AI-driven, predictive, and personalized pathways that empower patients and providers alike.",
@@ -5393,7 +5393,7 @@
     "patientExperience": {
         "seoTitle": "Patient Experience Platform Transforming Long-Term Care | Rialtes",
         "seoDescription": "Discover how MediAIna, Rialtes’ patient experience platform, redefines healthcare journeys with digital engagement, AI insights, and chronic care support.",
-        "bannerAlt": "A patient viewing health data on a tablet, with icons representing diagnosis, treatment, and long-term care ",
+        "bannerAlt": "Patient viewing digital health data on a tablet with icons for diagnosis, treatment, and long-term care",
         "blogMainData": [
             "Providing healthcare has always been about more than just diagnosis. For patients, the real journey begins after they receive a diagnosis, navigating treatment options, managing chronic conditions, and learning how to live with ongoing care needs. Unfortunately, traditional systems often fail to support patients beyond the walls of the clinic. That is why a patient experience platform becomes essential, helping healthcare providers deliver continuity, coordination, and personalized care at scale.",
             "<strong>MediAIna</strong>, Rialtes’ next-generation patient journey platform, is designed to close these gaps. Integrating clinical, operational, and digital touchpoints reimagines the healthcare journey from first diagnosis to long-term management. Let’s break down how platforms like MediAIna create  <a href='https://www.linkedin.com/pulse/transforming-care-beyond-clinic-digital-health-o7ybf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient journeys beyond the clinic</a> and set new standards in long-term care. "
@@ -5534,7 +5534,7 @@
         "faqTitle": "FAQs: Transforms Care with Patient Experience Platform"
     },
     "salesforcePartners": {
-        "bannerAlt": "Abstract banner showing enterprise growth with Salesforce cloud and digital transformation icons ",
+        "bannerAlt": "Abstract banner showing enterprise growth and digital transformation powered by Salesforce solutions",
         "salesforceTitle": "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
         "blogTopic": "Education Cloud",
         "salesforcePartnersHelp": [
@@ -5738,7 +5738,7 @@
     "salesforceDevelopment": {
         "seoTitle": "Salesforce Development Services for Enterprise Success | Rialtes",
         "seoDescription": "Explore why custom Salesforce development matters, how it boosts CRM efficiency, and why choosing the right partner makes all the difference.",
-        "bannerAlt": "CRM dashboard interface displaying Salesforce analytics, user engagement metrics, and workflow automation ",
+        "bannerAlt": "Salesforce CRM dashboard showing analytics, user activity metrics, and automated workflow insights",
         "blogMainData": [
             "Customer Relationship Management (CRM) is the beating heart of modern enterprises. It drives how sales teams close deals, how service teams respond to customers, and how marketing delivers personalized campaigns. Among the many CRM platforms available, Salesforce stands out as the most trusted CRM out there. But here’s the catch: simply deploying Salesforce isn’t enough. To truly maximize its potential, businesses need tailored Salesforce services that adapt the platform to unique workflows, data models, and customer expectations.",
             "In this blog, we’ll explore why custom Salesforce development matters, how it boosts CRM efficiency, and why choosing the right partner, especially a trusted Salesforce development company in the USA, makes all the difference."
@@ -6353,7 +6353,7 @@
         "unifiedTitle": "One Unified CRM + ERP System for Property Leaders"
     },
     "aiRealEstate": {
-        "bannerAlt": "Illustration of a commercial building with AI-powered maintenance sensors and analytics dashboard",
+        "bannerAlt": "Building illustration showing AI sensors predicting maintenance needs with real-time analytics.",
         "blogMainData": [
             "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity. The challenge is that most maintenance models are still reactive. Teams fix what breaks, scramble to respond to tenant complaints, and watch operating expenses climb year after year.",
             "In an industry where every minute of equipment downtime hits profitability and reputation, the need for a smarter approach is crystal clear. That’s where artificial intelligence (AI) steps in — transforming how buildings think, predict, and act.",
@@ -6601,7 +6601,7 @@
         "faqTitle": "FAQs: Reduce Opex with Predictive Maintenance"
     },
     "salesforceImplementation": {
-        "bannerAlt": "Business team reviewing Salesforce implementation roadmap with cloud integration visuals ",
+        "bannerAlt": "Team reviewing Salesforce implementation roadmap with cloud integration and workflow optimization visuals. ",
         "blogMainData": [
             "Salesforce is the world’s leading CRM platform, powering enterprises across industries to better manage customers, data, and processes. But here’s the catch: Salesforce success isn’t guaranteed by simply purchasing licenses. Implementation is where many projects falter. Delays, scope creep, or poor adoption can turn what should be a growth driver into a sunk investment.",
             "This is why enterprises <a href='https://www.linkedin.com/pulse/unlock-growth-salesforce-consulting-understands-gm99f/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>partner with expert Salesforce consultants</a>. The right partner brings structure, expertise, and proven frameworks to reduce risk and maximize return on investment. From planning a Salesforce implementation roadmap to handling complex integrations, partners ensure enterprises extract full value from the platform.",

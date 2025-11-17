@@ -307,7 +307,7 @@ export default function Page() {
                             <div className="hidden lg:block relative w-full h-full top-[-52px] right-0 z-0">
                                 <Image
                                     src="/images/industry/travel-transporation/elavate-travel-desk-img.webp"
-                                    alt="elavate-travel desktop image"
+                                    alt={t('elevateTravelAlt')}
                                     className="w-full h-full"
                                     width={0}
                                     height={0}
@@ -319,7 +319,7 @@ export default function Page() {
                             <div className="block lg:hidden w-full h-[500px] sm:h-[700px] md:h-[750px] relative">
                                 <Image
                                     src="/images/industry/travel-transporation/Mobile/elavate-travel-mob-img.webp"
-                                    alt="elavate-travel mobile image"
+                                    alt={t('elevateTravelAlt')}
                                     width={0}
                                     height={0}
                                     style={{ objectFit: "cover", objectPosition: "20% 20%" }}
