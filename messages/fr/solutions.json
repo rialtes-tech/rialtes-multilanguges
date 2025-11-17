@@ -25,15 +25,15 @@
       "Assurer une gouvernance et une traçabilité fiables des données dans toutes les fonctions métier",
       "Accélérer l’IA, la planification et l’analytique avec des données propres et riches en contexte"
     ],
-    "migrateAlt": "Deux développeurs de logiciels analysant du code de programmation sur grand écran tout en tenant un ordinateur portable dans un espace technologique",
+    "migrateAlt": "Deux développeurs analysant du code sur un grand écran tout en tenant un portable dans un espace tech",
     "headerAlt": "Réseau numérique bleu abstrait avec nœuds interconnectés et points de connexion lumineux dans un fond technologique",
-    "unifiedAlt": "Trois professionnels commerciaux discutant d'une stratégie avec tablette et graphiques de données dans une salle de conférence moderne",
-    "sapDataAlt": "Responsable d'entrepôt en gilet de sécurité jaune et casque tenant un ordinateur portable inspectant l'inventaire dans un centre de distribution",
-    "sapBdcAlt": "Ondes de réseau numérique abstraites et fluides avec nœuds connectés et particules lumineuses sur fond technologique bleu profond",
+    "unifiedAlt": "Trois professionnels discutant stratégie avec une tablette et des graphiques dans une salle de réunion moderne",
+    "sapDataAlt": "Responsable d’entrepôt en gilet jaune et casque inspectant l’inventaire avec un portable au centre de distributionn",
+    "sapBdcAlt": "Vagues de réseau numérique fluides avec nœuds connectés et particules lumineuses sur fond technologique bleu",
     "trustedAlt": "Femme d'affaires professionnelle en chemise orange écrivant sur tableau blanc avec graphiques dans un espace de bureau moderne",
-    "connectAlt": "Main tenant un nuage blanc duveteux contre un ciel bleu clair représentant le concept de cloud computing et de stockage numérique",
-    "businessAlt": "Éolienne avec réseau de particules numériques fluide contre ciel crépusculaire étoilé représentant la technologie d'énergie renouvelableRetry",
-    "clientsAlt": "Développeur de logiciels souriant portant des lunettes tenant une tablette au bureau avec du code de programmation sur les moniteurs derrière",
+    "connectAlt": "Main tenant un nuage blanc sous ciel bleu, symbolisant l’informatique en nuage et le stockage numérique",
+    "businessAlt": "Éolienne avec réseau de particules numériques sous ciel crépusculaire étoilé, symbolisant la tech d’énergie renouvelable",
+    "clientsAlt": "Développeur souriant avec lunettes tenant une tablette à son bureau, avec du code affiché sur les écrans derrière",
     "sapTitle": "Pourquoi choisir SAP Business Data Cloud ?",
     "learnMore": "En savoir plus",
     "dataItems": [
@@ -206,7 +206,7 @@
       {
         "id": 2,
         "image": "/images/data-cloud/cloud-network-connection.webp",
-        "alt": "Main sélectionnant une icône de nuage bleue parmi des nœuds de réseau interconnectés et des icônes de sécurité sur un fond sombre",
+        "alt": "Main sélectionnant une icône de nuage bleue parmi des nœuds réseau interconnectés et des icônes de sécurité sur fond sombre",
         "description": "Découvrez le parfait équilibre entre la flexibilité du cloud, la conformité maximale des données et la sécurité d’une infrastructure privée, vous offrant une isolation des charges de travail du cloud public."
       },
       {
@@ -224,7 +224,7 @@
       {
         "id": 5,
         "image": "/images/data-cloud/developer-programming-code.webp",
-        "alt": "Développeur travaillant sur un ordinateur avec une interface de code transparente et des superpositions de visualisation de données numériques",
+        "alt": "Développeur travaillant sur ordinateur avec interface de code transparente et superpositions de données numériques",
         "description": "Mettez en place l’infrastructure nécessaire, configurez les sources de données et assurez-vous que votre organisation puisse pleinement tirer parti de Salesforce Data Cloud."
       }
     ]
@@ -245,17 +245,17 @@
     "buildInteAlt": " Cubes en verre 3D abstraits avec particules numériques brillantes violettes et bleues, visualisation de données en onde",
     "industryAlt": "Traînées de lumière néon haute vitesse avec rayons bleus et roses convergeant vers un point central brillant",
     "intelligentAlt": "Installation moderne de centre de données avec enseigne 'data' illuminée reflétée dans l'eau calme du lac, montagnes brumeuses",
-    "aiReadyAlt": "Bras robotique industriel assemblant des puces microélectroniques LED colorées de semiconducteurs dans un environnement d'usine haute technologie",
-    "smartEdAlt": " Personne portant un casque de réalité virtuelle avec des particules de réseau numérique et des points de connexion brillants superposés sur le corps",
-    "omniAlt": "Créateur de mode travaillant sur ordinateur portable avec design de vêtements numérique, boîtes d'emballage et accessoires de studio sur le bureau",
-    "aiPoweredAlt": "Analyste de données souriante à son bureau avec tableau de bord d'analyse affichant des graphiques colorés et des métriques de performance",
-    "aribaAlt": "Homme examinant une plateforme complète d'analyse commerciale avec des graphiques de visualisation de données et des rapports de performance",
+    "aiReadyAlt": "Bras robotique industriel assemblant des microchips LED colorés dans une usine haute technologie",
+    "smartEdAlt": "Personne portant un casque VR avec particules réseau numériques et points lumineux sur le corps",
+    "omniAlt": "Créatrice de mode travaillant sur un laptop avec design vestimentaire numérique, boîtes d’emballage et accessoires de studio",
+    "aiPoweredAlt": "Analyste de données souriant à son bureau avec un tableau de bord affichant graphiques et métriques colorés",
+    "aribaAlt": "Homme examinant une plateforme d’analytique métier avec graphiques de visualisation et rapports de performance à l’écran",
     "sapAlt": "Main tenant une tablette affichant des graphiques de trading financier et des données de marché avec arrière-plan de gratte-ciel moderne",
-    "successAlt": " Équipe commerciale collaborant à table avec visualisation de réseau numérique montrant des nœuds interconnectés et des points de données brillants",
-    "salesforceSapAlt": " Silhouettes de professionnels commerciaux diversifiés avec superposition de données numériques et points de réseau brillants dans un paysage urbain",
-    "advancedAlt": "Bâtiments 3D luminescent au néon sur hologramme numérique avec réseau de circuit rose et bleu et visualisation du flux de données",
+    "successAlt": "Équipe collaborant à une table avec réseau numérique montrant nœuds reliés et points de données lumineux",
+    "salesforceSapAlt": "Silhouettes de professionnels avec données numériques superposées et points réseau lumineux en ville",
+    "advancedAlt": "Bâtiments 3D néon sur hologramme avec réseau de circuits rose et bleu et visualisation de flux de données",
     "aiPoweredUseAlt": "Particules numériques abstraites et points lumineux créant des motifs d'ondes courbes avec des tons or chauds et bleus froids",
-    "globalAlt": "Groupe diversifié de professionnels commerciaux souriants debout ensemble dans un bureau moderne avec arrière-plan de fenêtre lumineuse",
+    "globalAlt": "Groupe divers de professionnels souriants posant ensemble dans un bureau moderne avec une arrière-plan lumineux",
     "whyrialtessectiondata": [
       "Services couvrant l’ensemble du cycle de vie : Conseil, Conception, Mise en œuvre, Intégration et Optimisation IA post-déploiement.",
       "Modèles et accélérateurs de données IA/ML inédits pour une création de valeur rapide.",
