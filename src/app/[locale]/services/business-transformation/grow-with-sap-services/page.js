@@ -383,7 +383,7 @@ export default function Page() {
           <div className="xl:col-span-3 col-span-12 flex justify-center xl:justify-start pl-0 xl:pl-10">
             <Image
               src="/images/services/grow-with-sap/sap-signavio-logo.webp"
-              alt={t('signavioAlt')}
+              alt="SAP-Signavio-Logo"
               width={0}
               height={0}
               priority

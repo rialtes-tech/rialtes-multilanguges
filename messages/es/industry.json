@@ -1148,13 +1148,13 @@
   },
   "semiconductor": {
     "bannerAlt":"Vista macro de oblea de semiconductores con chips de silicio brillantes rosa y azul en placa de circuito representando microelectrónica",
-    "dataAlt":"Chip microprocesador futurista con flujos de datos brillantes rojos y azules fluyendo hacia arriba representando computación cuántica e IA",
-    "semiALt":"Técnico de semiconductores con traje de sala limpia sosteniendo oblea de silicio colorida con patrones de microchip en instalación estéril",
-    "deepAlt":"Manos enguantadas sosteniendo microchip brillante con chispas naranjas brillantes representando innovación en semiconductores y nanotecnología",
+    "dataAlt":"Chip microprocesador futurista con flujos de datos rojos y azules fluyendo hacia arriba mostrando computación cuántica e IA",
+    "semiALt":"Técnico de semiconductores con traje de sala limpia sosteniendo oblea de silicio colorida con patrones de microchip",
+    "deepAlt":"Manos enguantadas sosteniendo microchip con chispas naranjas representando innovación en semiconductores y nanotecnología",
     "aiAlt": "Brazo robótico realizando inspección de precisión en oblea de semiconductores con microchips en fábrica avanzada",
-    "keyAlt": "Trabajadora con casco blanco y chaleco amarillo de seguridad monitoreando panel de datos de producción con gráficos en instalación industrial",
-    "endAlt": "Dos manos robóticas estrechándose en apretón digital con patrones de circuitos naranjas brillantes sobre fondo azul tecnológico mostrando asociación",
-    "whyAlt": "Ingeniero de semiconductores con gafas protectoras y guantes manipulando con precisión pines de microchip iluminados en laboratorio avanzado",
+    "keyAlt": "Trabajadora con casco blanco y chaleco amarillo monitoreando panel de datos de producción con gráficos en instalación industrial",
+    "endAlt": "Manos robóticas estrechándose con patrones de circuitos naranjas brillantes sobre fondo azul tecnológico mostrando asociación",
+    "whyAlt": "Ingeniero de semiconductores con gafas protectoras y guantes manipulando con precisión pines de microchip iluminados",
     "globalAlt":"Profesionales analizando datos globales en un mapa digital dentro de una sala de control moderna",
     "headerTitle": "Industria de Semiconductores",
     "seoTitle": "IA en Industria de Semiconductores: Soluciones IT Escalables | Rialtes",
@@ -1339,7 +1339,7 @@
           "Distribución automática y optimización energética, reduciendo el tamaño del chip y el consumo de energía.",
           "Detección temprana de violaciones de reglas de diseño, minimizando rediseños costosos."
         ],
-         "imageAlt": "Microchip de IA con letras azules brillantes en placa de circuito con caminos iluminados naranjas y azules mostrando procesamiento",
+         "imageAlt": "Microchip de IA con letras azules brillantes en placa circuito con caminos naranjas y azules mostrando procesamiento neural",
         "mobImg": "/images/industry/semi-conductor/Mobile/ai-chip-artificial-intelligence-processor-mobile.webp",
         "deskImg": "/images/industry/semi-conductor/ai-chip-artificial-intelligence-processor.webp"
       },
@@ -1351,7 +1351,7 @@
           "Modelos de IA que predicen el rendimiento de las obleas en tiempo real, reduciendo pérdidas de producción.",
           "Análisis automatizado de causa raíz (RCA) para caídas en el rendimiento, reduciendo el tiempo de investigación."
         ],
-        "imageAlt": "Técnicos con trajes estériles blancos trabajando con equipo de fabricación automatizado en instalación de sala limpia farmacéutica",
+        "imageAlt": "Técnicos con trajes estériles blancos trabajando con equipo automatizado en sala limpia farmacéutica de fabricación",
         "mobImg": "/images/industry/semi-conductor/Mobile/pharmaceutical-cleanroom-manufacturing-sterile-production-mobile.webp",
         "deskImg": "/images/industry/semi-conductor/pharmaceutical-cleanroom-manufacturing-sterile-production.webp"
       },
@@ -1363,7 +1363,7 @@
           "Mitigación de riesgos a través del monitoreo de riesgos de proveedores impulsado por IA y estrategias de doble abastecimiento.",
           "Programación de producción dinámica y planificación de capacidad fabril basada en pronósticos de demanda con IA."
         ],
-        "imageAlt": "Vista miniatura tilt-shift de instalación de fabricación industrial moderna con luces azules y naranjas al anochecer mostrando fábrica inteligente",
+        "imageAlt": "Vista tilt-shift de instalación industrial moderna con luces azules y naranjas al anochecer mostrando fábrica inteligente",
         "mobImg": "/images/industry/semi-conductor/Mobile/smart-factory-industrial-iot-manufacturing-facility-mobile.webp",
         "deskImg": "/images/industry/semi-conductor/smart-factory-industrial-iot-manufacturing-facility.webp"
       },
@@ -1375,7 +1375,7 @@
           "Identificación temprana de defectos sistemáticos y optimización para diseño para prueba (DFT).",
           "Detección de anomalías en la validación de silicio, acelerando los ciclos de depuración para lograr éxito en el primer silicio."
         ],
-      "imageAlt": "Mano enguantada usando soldador creando chispa brillante en placa de circuito con componentes electrónicos en trabajo de ensamblaje precisión",
+      "imageAlt": "Mano enguantada usando soldador creando chispa brillante en placa de circuito con componentes en ensamblaje de precisión",
         "mobImg": "/images/industry/semi-conductor/Mobile/precision-electronics-manufacturing-circuit-board-assembly-mobile.webp",
         "deskImg": "/images/industry/semi-conductor/precision-electronics-manufacturing-circuit-board-assembly.webp"
       }
@@ -1481,7 +1481,7 @@
       {
         "id": "1",
         "title": "Más de 20 Años de Experiencia en Semiconductores — Soluciones Prácticas y Alineadas a la Industria",
-         "imageAlt":"Dos ingenieros de software con gafas colaborando en estación de trabajo de computadora analizando código en oficina tecnológica moderna",
+         "imageAlt":"Dos ingenieros con gafas colaborando en computadora analizando código en oficina tecnológica moderna de desarrollo software",
         "mobImg": "/images/industry/semi-conductor/Mobile/software-engineers-collaborating-computer-mobile.webp",
         "deskImg": "/images/industry/semi-conductor/software-engineers-collaborating-computer.webp",
         "desc": "Rialtes ha trabajado estrechamente con algunas de las marcas más grandes del mundo para modernizar sus procesos empresariales. Entendemos la complejidad única de la cadena de valor del semiconductor — desde la fabricación de obleas, diseño de CI y pruebas, hasta manufactura por contrato y licencias de propiedad intelectual.",
@@ -1496,7 +1496,7 @@
       {
         "id": "2",
         "title": "Expertos en Procesos Empresariales con Proyectos en Empresas Fortune 500",
-        "imageAlt":"Profesionales de negocios con ropa formal sonriendo mientras colaboran en laptop durante reunión de oficina con colega en mesa de conferencias",
+        "imageAlt":"Profesionales de negocios con ropa formal sonriendo colaborando en laptop durante reunión de oficina en mesa de conferencias",
         "mobImg": "/images/industry/semi-conductor/Mobile/business-professionals-collaborating-laptop-meeting-mobile.webp",
         "deskImg": "/images/industry/semi-conductor/business-professionals-collaborating-laptop-meeting.webp",
         "desc": "Nuestros consultores y arquitectos no son solo tecnólogos — son expertos en procesos empresariales de semiconductores con experiencia real en proyectos de transformación en empresas Fortune 500. Sabemos lo que se necesita para que SAP y Salesforce funcionen en entornos complejos, globales y con múltiples partes interesadas.",
@@ -1511,7 +1511,7 @@
       {
         "id": "3",
         "title": "Integración Comprobada de SAP S/4 HANA y Salesforce para Semiconductores",
-        "imageAlt":"Primer plano de oblea de silicio colorida con reflejos arcoíris mostrando intrincados patrones de microchips en fabricación de semiconductores",
+        "imageAlt":"Primer plano de oblea de silicio colorida con reflejos arcoíris mostrando patrones de microchips en fabricación semiconductores",
         "mobImg": "/images/industry/semi-conductor/Mobile/silicon-wafer-microchip-semiconductor-manufacturing-mobile.webp",
         "deskImg": "/images/industry/semi-conductor/silicon-wafer-microchip-semiconductor-manufacturing.webp",
         "desc": "Rialtes ofrece soluciones SAP y Salesforce totalmente integradas y adaptadas a los procesos del sector, permitiendo un flujo de información sin interrupciones desde el cliente hasta la fábrica y viceversa. Nuestro enfoque garantiza una única versión de la verdad entre ventas, ingeniería y operaciones, reduciendo errores y mejorando la colaboración.",

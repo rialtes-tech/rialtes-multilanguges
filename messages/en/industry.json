@@ -1147,14 +1147,14 @@
     "contactSubTitle": "Transform your patient care model with Rialtes’ Salesforce-powered home health solutions"
   },
   "semiconductor": {
-    "bannerAlt":"Macro view of semiconductor wafer with glowing pink and blue silicon chips on circuit board representing advanced microelectronics",
-    "dataAlt":"Futuristic microprocessor chip with glowing red and blue data streams flowing upward representing quantum computing and AI processing",
-    "semiALt":"Semiconductor technician in cleanroom suit holding colorful silicon wafer with microchip patterns in sterile manufacturing facility",
-    "deepAlt":"Gloved hands holding glowing microchip with bright orange sparks representing semiconductor innovation and nanotechnology research",
+    "bannerAlt":"Macro view of semiconductor wafer with glowing pink blue silicon chips on circuit board showing advanced microelectronics",
+    "dataAlt":"Futuristic microprocessor with glowing red and blue data streams flowing upward representing quantum computing and AI",
+    "semiALt":"Semiconductor technician in cleanroom suit holding colorful silicon wafer with microchip patterns in sterile facility",
+    "deepAlt":"Gloved hands holding glowing microchip with bright orange sparks representing semiconductor innovation and nanotech research",
     "aiAlt": "Robotic arm performing precision inspection on semiconductor wafer with microchips in advanced chip manufacturing facility",
     "keyAlt": "Female worker in white hard hat and yellow safety vest monitoring production data dashboard with charts in industrial facility",
-    "endAlt": "Two robotic hands shaking in digital handshake with glowing orange circuit patterns on blue technology background showing partnership",
-    "whyAlt": "Semiconductor engineer in protective eyewear and gloves precisely handling illuminated microchip pins in advanced research laboratory",
+    "endAlt": "Two robotic hands shaking with glowing orange circuit patterns on blue technology background showing partnership",
+    "whyAlt": "Semiconductor engineer in protective eyewear and gloves handling illuminated microchip pins in advanced research lab",
     "globalAlt":"Business professionals analyzing global data on digital world map in a modern analytics control room",
     "seoTitle": "AI in Semiconductor Industry: Scalable IT Solutions | Rialtes",
     "seoDescription": "Rialtes enables AI in semiconductor industry with SAP and Salesforce to boost fab productivity, partner collaboration, and intelligent forecasting.",
@@ -1481,7 +1481,7 @@
       {
         "id": "1",
         "title": "20+ Years of Semiconductor Domain Experience — Industry-Aligned, Actionable Solutions",
-        "imageAlt":"Two software engineers in glasses collaborating at computer workstation analyzing code in modern blue-lit technology office environment",
+        "imageAlt":"Two software engineers in glasses collaborating at computer workstation analyzing code in modern blue-lit tech office",
         "mobImg": "/images/industry/semi-conductor/Mobile/software-engineers-collaborating-computer-mobile.webp",
         "deskImg": "/images/industry/semi-conductor/software-engineers-collaborating-computer.webp",
         "desc": "Rialtes has built a reputation working closely with some of the world’s largest semiconductor brands to modernize their business processes. We understand the unique complexity of semiconductor value chains — from wafer fabrication, IC design, and testing, to contract manufacturing, and IP licensing.",
@@ -1496,7 +1496,7 @@
       {
         "id": "2",
         "title": "Business Process Experts with Fortune 500 Project Expertise",
-        "imageAlt":"Business professionals in formal attire smiling while collaborating on laptop during office meeting with colleague at wooden conference table",
+        "imageAlt":"Business professionals in formal attire smiling while collaborating on laptop during office meeting at wooden table",
         "mobImg": "/images/industry/semi-conductor/Mobile/business-professionals-collaborating-laptop-meeting-mobile.webp",
         "deskImg": "/images/industry/semi-conductor/business-professionals-collaborating-laptop-meeting.webp",
         "desc": "Our consultants and architects are not just technologists — they are semiconductor business process experts with real-world expertise driving transformation projects in Fortune 500 semiconductor firms. We understand what it takes to make SAP & Salesforce work for complex, global, multi-stakeholder environments.",

@@ -565,12 +565,12 @@
                 "img": "/images/services/grow-with-sap/certificate-document-icon.svg"
             },
             {
-                "alt": "Ícono de contorno azul de escudo con cinta de premio y marca de verificación que simboliza certificación de seguridad y protección verificada",
+                "alt": "Icono de escudo azul con cinta y marca que simboliza la certificación de seguridad y la protección verificada",
                 "text": "Quality Assurance & User Training",
                 "img": "/images/services/grow-with-sap/security-badge-shield-icon.svg"
             },
             {
-                "alt": "Ícono de línea azul de representante de servicio al cliente con auriculares y burbuja de diálogo que simboliza asistencia técnica",
+                "alt": "Ícono azul de un representante de servicio al cliente con auriculares y bocadillo, simbolizando asistencia técnica",
                 "text": "Post Go-Live Support & Continuous Optimization",
                 "img": "/images/services/grow-with-sap/customer-support-service-icon.svg"
             },
@@ -580,7 +580,7 @@
                 "img": "/images/services/grow-with-sap/cloud-innovation-technology-icon.svg"
             },
             {
-                "alt": "Ícono de línea azul que muestra usuarios conectados alrededor de un engranaje verificado, representando colaboración en equipo y flujo de trabajo aprobado",
+                "alt": "Ícono azul con usuarios conectados alrededor de un engranaje verificado, simbolizando colaboración y flujo aprobado",
                 "text": "System Integration & Customization",
                 "img": "/images/services/grow-with-sap/network-collaboration-verified-icon.svg"
             }
@@ -711,13 +711,13 @@
                 "desc": "Soporte post implementación, mejora continua, integración de IA."
             }
         ],
-        "bannerAlt": "Desenfoque de movimiento de velocidad abstracto creando efecto de túnel dinámico con líneas fluidas y luz cálida en punto de horizonte",
-        "whyAlt": "Flecha de neón brillante apuntando hacia arriba con líneas digitales fluyendo representando crecimiento empresarial y éxito sobre fondo oscuro",
-        "sapAlt": "Nubes etéreas azules y rosas con flujos de datos cian brillantes atravesando cielo onírico representando concepto de computación en nube",
+        "bannerAlt": "Desenfoque de velocidad creando túnel dinámico con líneas fluidas y luz cálida en el horizonte",
+        "whyAlt": "Flecha neón brillante hacia arriba con líneas digitales fluidas que simbolizan crecimiento y éxito",
+        "sapAlt": "Nubes azules y rosas con flujos de datos cian brillantes en un cielo onírico, simbolizando la computación en la nube",
         "signavioAlt": "Logotipo de SAP Signavio con marca geométrica azul y texto azul marino sobre fondo blanco para software de gestión de procesos empresariales",
-        "expandingAlt": "Mano tocando flecha luminosa hacia arriba con partículas doradas sobre fondo azul oscuro simbolizando crecimiento digital e innovación",
-        "convAlt": "Joven sonriente con sudadera verde usando teléfono inteligente en mesa de cafetería con taza de café y tetera en ambiente acogedor",
-        "futureAlt": "Perfil humano compuesto de código digital brillante rojo y cian y flujos de datos contra paisaje urbano borroso representando tecnología de IA",
+        "expandingAlt": "Mano tocando una flecha luminosa ascendente con partículas doradas sobre fondo azul, simbolizando crecimiento e innovación",
+        "convAlt": "Joven sonriente con sudadera verde usando su móvil en una mesa de café con taza y tetera",
+        "futureAlt": "Perfil humano en código rojo y cian brillante con flujos de datos sobre ciudad difusa, representando tecnología de IA",
         "headerTitle": "VoyagerNext",
         "seoTitle": "Crece con Soluciones SAP de un Socio de Confianza | Rialtes",
         "seoDescription": "Crece con soluciones SAP que impulsan el éxito empresarial medible, con Rialtes—un socio SAP confiable que lidera la innovación y el crecimiento empresarial.",
