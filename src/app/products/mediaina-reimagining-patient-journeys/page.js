@@ -137,7 +137,7 @@ export default function Page() {
             <section className="relative group overflow-hidden pb-20 md:pb-48 xl:pb-20 4xl:pb-20">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/products/mediyana/mediyana-banner.webp"
+                        src="/images/products/mediaina/mediaina-banner.webp"
                         alt="grow with sap banner"
                         fill
                         priority
@@ -145,7 +145,7 @@ export default function Page() {
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/products/mediyana/mediyana-mobile-banner.webp"
+                        src="/images/products/mediaina/mediaina-mobile-banner.webp"
                         alt="grow with sap banner"
                         fill
                         priority
@@ -178,7 +178,7 @@ export default function Page() {
                             </div>
                             <div className="xl:col-span-4 col-span-12">
                                 <Image
-                                    src="/images/products/mediyana/desktop/logo-1.svg"
+                                    src="/images/products/mediaina/desktop/logo-1.svg"
                                     alt="Empower your enterprise with Rialtes"
                                     priority
                                     className="xl:w-[500px]  xl:h-[233] h-[150px] w-[225px] md:h-[200px] md:w-[300px] xl:mt-[-20px]"
@@ -212,19 +212,19 @@ export default function Page() {
                             </ul>
                         </div>
 
-                      
-                          <Link href="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/">
-                                <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] bottom-0 absolute hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
-                                    Learn More
-                                </button>
-                            </Link>
+
+                        <Link href="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/">
+                            <button className="bg-[#073259] text-[16px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] bottom-0 absolute hover:text-[#134874] border-[solid] border-[#134874] 4xl:font-semibold font-normal text-white py-3 px-8 transition duration-300">
+                                Learn More
+                            </button>
+                        </Link>
                     </div>
 
                     {/* Right Side - Image */}
                     <div className="w-full h-full relative  order-1 xl:order-2">
                         <div className="xl:block hidden 4xl:ml-[-200px] 4xl:mt-[9rem] 2xl:ml-[-100px] xl:mt-[12rem] xl:ml-[-100px] 2xl:mt-[12rem]">
                             <Image
-                                src="/images/products/mediyana/desktop/lifeai.webp"
+                                src="/images/products/mediaina/desktop/lifeai.webp"
                                 alt="LifeAI Illustration"
                                 className="object-cover w-full h-full 4xl:h-[814px] 2xl:h-[800px] xl:h-[815px]"
                                 priority
@@ -234,7 +234,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/lifeai.webp"
+                                src="/images/products/mediaina/mobile/lifeai.webp"
                                 alt="LifeAI Illustration"
                                 className="object-cover w-full h-full"
                                 priority
@@ -295,7 +295,7 @@ export default function Page() {
                     <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2 max-md:px-[34px]">
                         <div className="xl:block hidden pt-20 4xl:ml-[-150px] 4xl:h-[300px] xl:h-[500px] 2xl:ml-[-150px] xl:ml-[-150px]">
                             <Image
-                                src="/images/products/mediyana/desktop/patient-desktop.webp"
+                                src="/images/products/mediaina/desktop/patient-desktop.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[551px] xl:h-[550px] 2xl:h-[500px] 4xl:w-[600px] w-full object-cover"
                                 width={0}
@@ -305,7 +305,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/paitient-mobile.webp"
+                                src="/images/products/mediaina/mobile/paitient-mobile.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative"
                                 width={0}
@@ -327,7 +327,7 @@ export default function Page() {
                     <div className="xl:col-span-4 4xl:ml-[143px]">
                         <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] xl:mt-[-100px] 2xl:pl-[60px] xl:pl-0 4xl:pl-0">
                             <Image
-                                src="/images/products/mediyana/desktop/candidate.webp"
+                                src="/images/products/mediaina/desktop/candidate.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[615px] 4xl:w-[600px] 2xl:h-[550px] w-full object-cover relative"
                                 width={0}
@@ -337,7 +337,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/candidate.webp"
+                                src="/images/products/mediaina/mobile/candidate.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover max-md:px-[35px] relative"
                                 width={0}
@@ -440,7 +440,7 @@ export default function Page() {
                     <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2">
                         <div className="xl:block hidden pt-20 4xl:ml-[-150px] xl:ml-[-100px] 4xl:h-[300px] 2xl:h-[200px] xl:h-[300px] 2xl:pr-[60px] xl:pr-0 4xl:pr-0">
                             <Image
-                                src="/images/products/mediyana/desktop/digital.webp"
+                                src="/images/products/mediaina/desktop/digital.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[651px] 2xl:h-[590px] xl:h-[600px] w-full object-cover"
                                 width={0}
@@ -450,7 +450,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/digital.webp"
+                                src="/images/products/mediaina/mobile/digital.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
                                 width={0}
@@ -470,7 +470,7 @@ export default function Page() {
                     <div className="xl:col-span-3 4xl:ml-[143px]">
                         <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] 2xl:mr-[-100px] xl:mt-[-100px] 2xl:pl-[60px] 4xl:pl-0 xl:pl-0">
                             <Image
-                                src="/images/products/mediyana/desktop/clinical.webp"
+                                src="/images/products/mediaina/desktop/clinical.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[580px] xl:h-[600px] 2xl:h-[500px] w-full object-cover relative"
                                 width={0}
@@ -480,7 +480,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/clinical.webp"
+                                src="/images/products/mediaina/mobile/clinical.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
                                 width={0}
@@ -584,7 +584,7 @@ export default function Page() {
                     <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2">
                         <div className="xl:block hidden pt-[6rem] 4xl:ml-[-130px] 4xl:h-[300px] xl:ml-[-100px] xl:h-[545px] 2xl:h-[500px]">
                             <Image
-                                src="/images/products/mediyana/desktop/long.webp"
+                                src="/images/products/mediaina/desktop/long.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[630px] w-full object-cover 2xl:h-[550px]"
                                 width={0}
@@ -594,7 +594,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/long.webp"
+                                src="/images/products/mediaina/mobile/long.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
                                 width={0}
@@ -613,7 +613,7 @@ export default function Page() {
                     <div className="xl:col-span-3 4xl:ml-[143px]">
                         <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px]">
                             <Image
-                                src="/images/products/mediyana/desktop/body.webp"
+                                src="/images/products/mediaina/desktop/body.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[580px] w-full object-cover relative"
                                 width={0}
@@ -623,7 +623,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/body.webp"
+                                src="/images/products/mediaina/mobile/body.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
                                 width={0}
@@ -725,7 +725,7 @@ export default function Page() {
                     <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2">
                         <div className="xl:block hidden pt-20 4xl:ml-[-150px] xl:ml-[-100px] 2xl:ml-[-100px] 4xl:h-[300px] xl:h-[500px] 2xl:h-[600px]">
                             <Image
-                                src="/images/products/mediyana/desktop/conversational.webp"
+                                src="/images/products/mediaina/desktop/conversational.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[650px] 2xl:h-[600px] w-full object-cover"
                                 width={0}
@@ -735,7 +735,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/conver.webp"
+                                src="/images/products/mediaina/mobile/conver.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
                                 width={0}
@@ -755,7 +755,7 @@ export default function Page() {
                     <div className="xl:col-span-3 4xl:ml-[143px]">
                         <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] 2xl:mr-[-100px]">
                             <Image
-                                src="/images/products/mediyana/desktop/unified.webp"
+                                src="/images/products/mediaina/desktop/unified.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[650px]  w-full object-cover relative"
                                 width={0}
@@ -765,7 +765,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/unified.webp"
+                                src="/images/products/mediaina/mobile/unified.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
                                 width={0}
@@ -869,7 +869,7 @@ export default function Page() {
                     <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2">
                         <div className="xl:block hidden pt-20 4xl:ml-[-150px] xl:ml-[-100px] 4xl:h-[300px] xl:h-[500px]">
                             <Image
-                                src="/images/products/mediyana/desktop/seamless.webp"
+                                src="/images/products/mediaina/desktop/seamless.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[680px] 2xl:h-[550px] w-full object-cover"
                                 width={0}
@@ -879,7 +879,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/seamless.webp"
+                                src="/images/products/mediaina/mobile/seamless.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
                                 width={0}
@@ -898,7 +898,7 @@ export default function Page() {
                     <div className="xl:col-span-3 4xl:ml-[143px]">
                         <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px] 2xl:h-[600px]">
                             <Image
-                                src="/images/products/mediyana/desktop/real.webp"
+                                src="/images/products/mediaina/desktop/real.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[650px] w-full object-cover relative"
                                 width={0}
@@ -908,7 +908,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/real.webp"
+                                src="/images/products/mediaina/mobile/real.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
                                 width={0}
@@ -1011,7 +1011,7 @@ export default function Page() {
                     <div className="xl:col-span-4 4xl:mr-[142px] order-1 xl:order-2">
                         <div className="xl:block hidden pt-20 4xl:ml-[-150px] xl:ml-[-100px] 4xl:h-[300px] xl:h-[600px]">
                             <Image
-                                src="/images/products/mediyana/desktop/order.webp"
+                                src="/images/products/mediaina/desktop/order.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[580px] 2xl:h-[600px] xl:h-[600px] w-full object-cover"
                                 width={0}
@@ -1021,7 +1021,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/order.webp"
+                                src="/images/products/mediaina/mobile/order.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
                                 width={0}
@@ -1040,7 +1040,7 @@ export default function Page() {
                     <div className="xl:col-span-3 4xl:ml-[143px]">
                         <div className="xl:block hidden pt-10 4xl:mr-[-200px] xl:mr-[-100px]">
                             <Image
-                                src="/images/products/mediyana/desktop/trusted.webp"
+                                src="/images/products/mediaina/desktop/trusted.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[630px] w-full object-cover relative"
                                 width={0}
@@ -1050,7 +1050,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/trusted.webp"
+                                src="/images/products/mediaina/mobile/trusted.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
                                 width={0}
