@@ -415,18 +415,18 @@
         "pageDesc1": "En el volátil y complejo panorama actual de la cadena de suministro, las empresas necesitan visibilidad en tiempo real, planificación ágil e insights predictivos para mantenerse competitivas. Los servicios DemandPlus de Rialtes, basados en Kinaxis RapidResponse, ofrecen transformación integral de la cadena de suministro, permitiendo planificar, monitorear y responder en tiempo real.",
         "pageDesc2": "Como socio certificado de Kinaxis y SAP con oficinas en EE. UU., Canadá, India y Singapur y un equipo de expertos certificados en Kinaxis, Rialtes ayuda a los clientes a aprovechar RapidResponse para crear cadenas de suministro conectadas, inteligentes y resilientes — preparadas para los desafíos de mañana.",
         "bannerAlt": "Vista aérea de buques portacontenedores con contenedores apilados coloridos y grúas amarillas en terminal portuaria ocupada",
-        "demandAlt": "Dos trabajadores de logística con equipo de seguridad inspeccionando contenedores de envío con montacargas en terminal de carga industrial",
-        "whyAlt": "Dos gerentes de almacén con vestimenta de negocios revisando datos de inventario en tableta en centro de distribución con cajas apiladas",
-        "supplyAlt": "Trabajador de almacén con casco amarillo y chaleco de seguridad revisando documentos mientras analiza datos logísticos en monitor grande",
-        "salesAlt": "Profesionales de negocios diversos colaborando en portátiles en oficina moderna de estilo industrial con tuberías expuestas e iluminación",
-        "inventoryAlt": "Vista aérea de trabajador de almacén con chaleco amarillo de seguridad usando tableta para gestión de inventario entre estanterías altas de almacenamiento de paletas",
-        "scenarioAlt": "Tres profesionales diversos colaborando en proyecto con tableta y documentos en ambiente de espacio de trabajo de oficina moderna y luminosa",
-        "seamlessAlt": "Hombre sonriente con barba y gafas dando choque de manos entusiasta a colega en oficina moderna y luminosa celebrando éxito del equipo",
-        "btpAlt": "Pasillo futurista de centro de datos con bastidores de servidores iluminados mostrando luces azules y naranjas representando infraestructura en nube",
-        "bringingAlt": "Estructura de nube en wireframe azul con patrón de cuadrícula digital sobre fondo blanco representando tecnología de computación en nube",
+        "demandAlt": "Dos trabajadores logísticos con equipo de seguridad inspeccionando contenedores con montacargas en un patio de carga",
+        "whyAlt": "Dos gerentes de almacén revisando datos de inventario en una tablet en un centro de distribución con cajas apiladas",
+        "supplyAlt": "Trabajador de almacén con casco amarillo y chaleco de seguridad revisando documentos y datos logísticos en una pantalla grande",
+        "salesAlt": "Profesionales diversos colaborando en laptops en oficina moderna de estilo industrial con tuberías y luces expuestas",
+        "inventoryAlt": "Vista aérea de un trabajador con chaleco amarillo usando una tablet para gestionar inventario entre estantes altos",
+        "scenarioAlt": "Tres profesionales diversos colaborando en un proyecto con tablet y documentos en una oficina moderna y luminosa",
+        "seamlessAlt": "Hombre barbudo sonriente con gafas dando un enérgico high-five a un colega en una oficina moderna y luminosa",
+        "btpAlt": "Pasillo futurista de centro de datos con servidores iluminados en azul y naranja, representando infraestructura cloud",
+        "bringingAlt": "Nube en wireframe azul con cuadrícula digital sobre fondo blanco, representando tecnología de computación en la nube",
         "sapAlt": "Cajas de cartón moviéndose en sistema de cinta transportadora automatizada en almacén moderno con estanterías al fondo",
-        "enhanceAlt": "Mujer sonriente con camisa naranja y gafas en escritorio de oficina durante reunión de equipo con colega en entorno laboral moderno",
-        "leadingAlt": "Trabajador de almacén con tableta viendo pantallas holográficas de datos de inventario digital en pasillo de instalación de almacenamiento automatizado moderno",
+        "enhanceAlt": "Mujer sonriente con camisa naranja y gafas en un escritorio durante reunión con un colega en un entorno laboral moderno",
+        "leadingAlt": "Trabajador de almacén con tablet viendo datos holográficos de inventario en un pasillo de almacenamiento automatizado moderno",
         "kinaxisServices": [
             {
                 "id": 1,
@@ -914,11 +914,11 @@
                 "desc": "Optimización continua y soporte."
             }
         ],
-        "bannerAlt": "Fondo degradado azul abstracto con líneas curvas radiales creando patrón circular dinámico representando transformación digital",
-        "whyAlt": "Profesional de negocios trabajando en portátil con visualización de red azul brillante y luces bokeh representando conectividad de datos",
-        "greenAlt": " Carretera nocturna con estelas de luz naranja y azul bajo cielo estrellado simbolizando conectividad digital de alta velocidad y transferencia de datos",
-        "connectedAlt": " Flujos de datos dinámicos azules y morados con partículas conectadas sobre fondo oscuro representando flujo de red de alta velocidad",
-        "agentAlt": "Hombre sonriente con barba usando gafas y camisa verde utilizando teléfono inteligente al aire libre contra pared de ladrillo con luz natural",
+        "bannerAlt": "Fondo degradado azul con líneas curvas radiales creando un patrón circular dinámico que representa la transformación digital",
+        "whyAlt": "Profesional usando un portátil con red azul luminosa y luces bokeh que simbolizan la conectividad de datos",
+        "greenAlt": "Autopista nocturna con luces naranja y azul bajo cielo estrellado, simbolizando conexión digital rápida",
+        "connectedAlt": "Flujos de datos azules y morados con partículas conectadas sobre fondo oscuro, representando red de alta velocidad",
+        "agentAlt": "Hombre sonriente, con barba, gafas y camisa verde, usando su móvil al aire libre frente a un muro de ladrillo",
         "aiAlt": "Mano sosteniendo esfera dorada luminosa con nubes en el interior contra fondo bokeh simbolizando innovación y visión de futuro",
         "headerTitle": "Voyager+",
         "seoTitle": "Servicios Rise with SAP de un Socio de Implementación Confiable | Rialtes",
@@ -970,7 +970,7 @@
         "keyPillarsSectionData": [
             {
                 "imageUrl": "/images/industry/auto-sense/holographic-car-design-engineering.webp",
-                "imageAlt": "Modelo de coche holográfico transparente con sistema de batería verde expuesto en una pantalla digital para diseño de ingeniería automotriz",
+                "imageAlt": "Modelo holográfico transparente de coche con batería verde visible en pantalla digital para diseño automotriz",
                 "mobileImageUrl": "/images/industry/auto-sense/Mobile/holographic-car-design-engineering-mobile.webp",
                 "title": "Asesoría Estratégica y Planificación",
                 "listItems": [
@@ -982,7 +982,7 @@
             },
             {
                 "imageUrl": "/images/industry/auto-sense/automotive-software-development-laptop.webp",
-                "imageAlt": "Ingeniero analizando modelo 3D de coche en un portátil con diagramas técnicos para el desarrollo de software automotriz y diseño de vehículos",
+                "imageAlt": "Ingénieur analysant un modèle 3D de voiture sur laptop avec diagrammes techniques pour développement logiciel et design",
                 "mobileImageUrl": "/images/industry/auto-sense/Mobile/automotive-software-development-laptop-mobile.webp",
                 "title": "Diseño e Implementación",
                 "listItems": [
@@ -994,7 +994,7 @@
             },
             {
                 "imageUrl": "/images/industry/auto-sense/mechanic-diagnosing-vehicle-computer.webp",
-                "imageAlt": "Técnico automotriz utilizando una tableta de diagnóstico para examinar el sistema informático del coche en un taller profesional",
+                "imageAlt": "Técnico automotriz usando tablet de diagnóstico para revisar el sistema informático de un coche en taller profesional",
                 "mobileImageUrl": "/images/industry/auto-sense/Mobile/mechanic-diagnosing-vehicle-computer-mobile.webp",
                 "title": "Integración y Aseguramiento de la Calidad",
                 "listItems": [
@@ -1006,7 +1006,7 @@
             },
             {
                 "imageUrl": "/images/industry/auto-sense/autonomous-driving-hands-free-technology.webp",
-                "imageAlt": "Conductor con las manos fuera del volante demostrando tecnología de conducción autónoma en carretera soleada con efecto de movimiento",
+                "imageAlt": "Conductor con manos fuera del volante demostrando tecnología de conducción autónoma en carretera soleada con desenfoque",
                 "mobileImageUrl": "/images/industry/auto-sense/Mobile/autonomous-driving-hands-free-technology-mobile.webp",
                 "title": "Post Go-Live e Innovación Continua",
                 "listItems": [
@@ -1020,7 +1020,7 @@
         "chooseRialtesData": [
             {
                 "imageUrl": "/images/industry/auto-sense/vehicle-fleet-monitoring-icon.svg",
-                "alt": "Icono de línea azul de monitor de computadora mostrando vehículo con puntos de conexión representando sistema de gestión de flotas",
+                "alt": "Icono azul de monitor mostrando vehículo con puntos de conexión, simbolizando sistema de gestión de flotas",
                 "title": "Más de 10 años de experiencia en la industria automotriz",
                 "listItems": [
                     "Contamos con más de una década de experiencia directa trabajando con OEM, proveedores, concesionarios y startups de vehículos eléctricos. Desde las plantas de fabricación hasta las salas de exhibición, entendemos los desafíos y oportunidades que moldean el futuro de la movilidad."
@@ -1028,7 +1028,7 @@
             },
             {
                 "imageUrl": "/images/industry/auto-sense/cloud-user-settings-integration-icon.svg",
-                "alt": "Icono de línea azul mostrando figura de usuario con almacenamiento en nube y configuración de engranaje representando gestión de plataforma en nube integrada",
+                "alt": "Icono azul mostrando usuario con almacenamiento en la nube y engranaje, simbolizando gestión de plataforma cloud integrada",
                 "title": "Expertos en Salesforce Automotive Cloud",
                 "listItems": [
                     "Como especialistas certificados en Salesforce Automotive Cloud, ayudamos a las empresas automotrices a ofrecer experiencias personalizadas, mejorar la colaboración con concesionarios y aprovechar el valor de los datos de vehículos conectados."
@@ -1049,7 +1049,7 @@
             {
                 "image": "/images/industry/auto-sense/automotive-port-shipping-logistics.webp",
                 "mobileImage": "/images/industry/auto-sense/Mobile/automotive-port-shipping-logistics-mobile.webp",
-                "alt": "Gran barco de carga en el puerto con filas de vehículos nuevos listos para exportación que representan la logística automotriz y la distribución global",
+                "alt": "Carguero en puerto con vehículos nuevos listos para exportación, simbolizando logística y distribución automotriz",
                 "title": "Salesforce Automotive Cloud + Sistemas ERP de Backend (SAP, Oracle, Otros)",
                 "list": [
                     "Integración de Salesforce Automotive Cloud con sistemas ERP como SAP S/4HANA for Automotive, SAP IBP for Supply Chain y soluciones automotrices de Oracle para la sincronización en tiempo real de datos de inventario, producción, garantía y cadena de suministro.",
@@ -1059,7 +1059,7 @@
             {
                 "image": "/images/industry/auto-sense/aerial-highway-interchange-light-trails.webp",
                 "mobileImage": "/images/industry/auto-sense/Mobile/aerial-highway-interchange-light-trails-mobile.webp",
-                "alt": "Vista aérea de un intercambio de autopistas iluminado con estelas de luz azul y blanca que muestran el flujo de tráfico nocturno",
+                "alt": "Vista aérea de intercambiador iluminado con estelas azules y blancas mostrando el flujo de tráfico nocturno",
                 "title": "Salesforce Automotive Cloud + Visualización de Datos y Soluciones de IA Front-End",
                 "list": [
                     "Creación de paneles interactivos y portales de clientes utilizando herramientas como Tableau, Power BI y análisis impulsados por IA/ML.",
@@ -1069,7 +1069,7 @@
             {
                 "image": "/images/industry/auto-sense/engineers-monitoring-industrial-systems.webp",
                 "mobileImage": "/images/industry/auto-sense/Mobile/engineers-monitoring-industrial-systems-mobile.webp",
-                "alt": "Dos ingenieros con equipo de seguridad analizando datos en varios monitores en una sala de control industrial para la gestión de operaciones",
+                "alt": "Dos ingenieros con equipo de seguridad analizando datos en múltiples monitores en sala de control industrial",
                 "title": "Automatización de Procesos de Extremo a Extremo y Aseguramiento de la Calidad",
                 "list": [
                     "Implementación de automatización de procesos para flujos de trabajo de ventas, servicio y marketing.",
@@ -1101,8 +1101,8 @@
                 "description": "Alineando rentabilidad con objetivos ESG mediante IA y plataformas inteligentes."
             }
         ],
-        "bannerAlt": "Estelas de luz azul con efecto de movimiento en carretera nocturna con siluetas de montañas representando aceleración digital de alta velocidad",
-        "partnerAlt": "Hombre usando tableta mientras carga vehículo eléctrico en estación de carga doméstica en entrada residencial soleada con vegetación",
+        "bannerAlt": "Estelas de luz azul en autopista nocturna con siluetas de montañas, representando aceleración digital rápida",
+        "partnerAlt": "Hombre usando una tablet mientras carga un vehículo eléctrico en casa, en entrada soleada con vegetación",
         "thoughtLeadershipTitle": "Temas de liderazgo intelectual para clientes automotrices",
         "thoughtLeadershipDesc": "Aquí tienes 5 ideas de alto impacto que Rialtes puede liderar para posicionarse como referente en la industria:",
         "headerTitle": "AutoSense",
@@ -2004,12 +2004,12 @@
             "Amplia experiencia en integraciones de SAP, Salesforce, Oracle, Mulesoft, Tableau, Kinaxis.",
             "Soporte de extremo a extremo desde la asesoría hasta la optimización posterior al lanzamiento."
         ],
-        "bannerAlt": "Cohete 3D despegando con llamas desde teclado de laptop sobre fondo azul representando concepto de crecimiento de startup y éxito empresarial",
-        "deepAlt": " Equipo profesional colaborando en laptops con superposición de red digital representando conectividad y trabajo en equipo en oficina moderna",
-        "drivingAlt": "Tres profesionales sonrientes revisando contenido en tabletas digitales durante reunión colaborativa de oficina en espacio de trabajo luminoso",
-        "reimaginAlt": "Mujer profesional con gafas viendo panel iluminado de computación en nube y análisis de datos con visualización de red global",
-        "agentAlt": "Hombre de negocios sonriente con traje oscuro y gafas ajustándose las gafas mientras revisa smartphone en entorno de oficina moderna",
-        "growthAlt": "Mujer de negocios sonriente con vestimenta negra presentando ideas en pizarra durante reunión de oficina con vista de ciudad al fondo",
+        "bannerAlt": "Cohete 3D despegando desde un portátil sobre fondo azul, simbolizando el crecimiento y éxito de una startup",
+        "deepAlt": "Equipo profesional colaborando en portátiles con superposición digital de red que simboliza conectividad y trabajo en equipo",
+        "drivingAlt": "Tres profesionales sonrientes revisando contenido en tabletas digitales durante reunión colaborativa en espacio luminoso",
+        "reimaginAlt": "Profesional con gafas viendo panel de computación en la nube y analítica de datos con visualización de red global",
+        "agentAlt": "Empresario sonriente con traje oscuro y gafas ajustando sus lentes mientras revisa su smartphone en oficina moderna",
+        "growthAlt": "Empresaria sonriente de negro presentando ideas en una pizarra durante reunión de oficina con vista a la ciudad",
         "headerTitle": "Advantage+",
         "deepTitle": "Amplia experiencia en Salesforce Marketing Cloud",
         "deepDesc": "En Rialtes, aportamos años de experiencia práctica en Salesforce Marketing Cloud, que abarca:",
