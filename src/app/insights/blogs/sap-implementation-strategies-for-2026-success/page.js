@@ -22,7 +22,7 @@ export default function Page() {
         "author": {
             "@type": "Organization",
             "name": "Rialtes"
-        },
+        }, 
         "publisher": {
             "@type": "Organization",
             "name": "Rialtes",
@@ -137,7 +137,7 @@ export default function Page() {
         {
             "title": "Work with Expert SAP Consultants Who Know Your Industry",
             "list": [
-                "SAP has immense depth, but only when configured for your industry’s nuances. A retail implementation differs vastly from healthcare, logistics, or manufacturing. <span>Working with expert SAP consultants</span> ensures your solution fits your workflows, not the other way around. These consultants bring functional experience in specific domains, ensuring compliance and operational alignment.",
+                "SAP has immense depth, but only when configured for your industry’s nuances. A retail implementation differs vastly from healthcare, logistics, or manufacturing. <a href='https://www.linkedin.com/pulse/reimagine-enterprise-efficiency-sap-consulting-4pm1f/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Working with expert SAP consultants</a> ensures your solution fits your workflows, not the other way around. These consultants bring functional experience in specific domains, ensuring compliance and operational alignment.",
                 "For instance, a global logistics enterprise partnered with an SAP consulting team specializing in supply chain optimization. By mapping real-time tracking data into SAP’s Logistics Execution module, they cut delivery delays by 40% and reduced manual data entry by 50%."
             ]
         },
@@ -153,7 +153,7 @@ export default function Page() {
                 "Integrating SAP with existing ERP, CRM, and HR platforms.",
             ],
             "list3": [
-                "<span>Custom SAP development and integration</span> ensure smooth information flow across the enterprise, from sales to finance. Think about integrating SAP with Salesforce for real-time customer insights or connecting it with IoT systems to enable predictive maintenance.",
+                "<a href='https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Custom SAP development and integration</a> ensure smooth information flow across the enterprise, from sales to finance. Think about integrating SAP with Salesforce for real-time customer insights or connecting it with IoT systems to enable predictive maintenance.",
                 "When a European energy firm linked its SAP ERP with field service tools via open APIs, it improved work order accuracy by 35% and reduced downtime across operations by 22%."
             ]
         },

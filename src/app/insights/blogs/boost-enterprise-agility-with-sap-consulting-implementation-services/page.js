@@ -318,7 +318,7 @@ export default function Page() {
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
                             <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">Boost Enterprise Agility with Tailored SAP Consulting and Implementation Services</h1>
-                            
+
 
                             <div className="xl:mt-[38px] mt-[33px]">
                                 {
@@ -395,7 +395,7 @@ export default function Page() {
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                     The Role of SAP Consulting Strategy for Enterprises
                                 </h2>
-                                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Before diving into custom development, a clear <a href='/'  className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> SAP consulting strategy for enterprises</a> is essential. This strategy defines not just what to build, but why it’s being built, and how it ties to business outcomes.</p>
+                                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Before diving into custom development, a clear <a href='https://www.linkedin.com/pulse/reimagine-enterprise-efficiency-sap-consulting-4pm1f/' className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> SAP consulting strategy for enterprises</a> is essential. This strategy defines not just what to build, but why it’s being built, and how it ties to business outcomes.</p>
                                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">An effective consulting approach usually involves:</p>
 
                                 <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-x-[60px] lg:gap-0 sm:w-[80%] md:w-full">
@@ -419,7 +419,7 @@ export default function Page() {
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                     From Blueprint to Build: SAP Implementation Strategies that Work
                                 </h2>
-                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Many SAP initiatives fail not because the technology lacks capability, but because execution falters. Leading <a href='https://www.rialtes.com/insights/blogs/sap-implementation-strategies-for-2026-success/'  className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> SAP implementation strategies</a> focus on three pillars:</p>
+                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Many SAP initiatives fail not because the technology lacks capability, but because execution falters. Leading <a href='https://www.rialtes.com/insights/blogs/sap-implementation-strategies-for-2026-success/' className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> SAP implementation strategies</a> focus on three pillars:</p>
                                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-[40px] mt-[40px] gap-[20px] 4xl:w-[1200px] sm:w-[80%] md:w-full">
                                     {
                                         blueprintBuild.map((elem, id) => {
@@ -480,7 +480,7 @@ export default function Page() {
                             {/**Top SAP Partners Section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Value of Working with Top SAP Partners</h2>
-                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> Here’s where going for the <a href='https://www.rialtes.com/insights/blogs/why-enterprises-choose-sap-consulting-partners/'  className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> top SAP partners</a> changes everything. The right partner doesn’t just implement; they co-create. They understand your business goals; design tailored solutions and stay with you through the entire lifecycle, from consulting to deployment to optimization.
+                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> Here’s where going for the <a href='https://www.rialtes.com/insights/blogs/why-enterprises-choose-sap-consulting-partners/' className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> top SAP partners</a> changes everything. The right partner doesn’t just implement; they co-create. They understand your business goals; design tailored solutions and stay with you through the entire lifecycle, from consulting to deployment to optimization.
                                 </p>
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                                     A leading SAP partner brings:</p>

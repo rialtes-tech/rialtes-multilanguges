@@ -161,7 +161,7 @@ export default function Page() {
             "subTitle": "Accelerating Innovation with Customized SAP Development Solutions",
             "desc": [
                 "Enterprises often need to extend SAP capabilities beyond the standard to meet unique business needs.",
-                "That’s where <span>customized SAP development solutions</span> build industry-specific add-ons, integrate AI-driven analytics, or enable mobile access for field teams. The right consulting partner can tailor SAP to fit your operations perfectly.",
+                "That’s where <a href='https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>customized SAP development solutions</a> build industry-specific add-ons, integrate AI-driven analytics, or enable mobile access for field teams. The right consulting partner can tailor SAP to fit your operations perfectly.",
                 "For example:"
             ],
             "list": [
@@ -182,7 +182,7 @@ export default function Page() {
             "subTitle": "Ensuring Adoption and Performance Optimization",
             "desc": [
                 "Even the most sophisticated SAP system fails if employees don’t use it effectively. That’s why top partners embed change management and user training into the implementation process.",
-                "Post-deployment, they monitor system performance, fine-tune workflows, and integrate analytics dashboards to measure KPIs, helping enterprises maximize ROI with implementation best practices. Data shows that companies with structured post-implementation optimization see up to 40% higher user adoption rates within the first year, a crucial factor for realizing ROI."
+                "Post-deployment, they monitor system performance, fine-tune workflows, and integrate analytics dashboards to measure KPIs, helping  <a href='https://www.rialtes.com/insights/blogs/sap-implementation-strategies-for-2026-success/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>maximize ROI with implementation best practices</a>. Data shows that companies with structured post-implementation optimization see up to 40% higher user adoption rates within the first year, a crucial factor for realizing ROI."
             ]
         },
         {
@@ -249,9 +249,9 @@ export default function Page() {
         }
     ]
     const partnerData = [
-        "At Rialtes, we believe transformation happens when technology meets vision. As one of the <span>top SAP consulting partners for enterprises</span>, we combine deep domain expertise with agile methodologies to deliver results that matter.",
+        "At Rialtes, we believe transformation happens when technology meets vision. As one of the <a href='https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting-implementation-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>top SAP consulting partners for enterprises</a>, we combine deep domain expertise with agile methodologies to deliver results that matter.",
         "From strategic planning to deployment and beyond, our SAP consulting services are built around three core principles: clarity, collaboration, and continuous innovation.",
-        "We help businesses maximize ROI with implementation best practices, design customized SAP development solutions for specific industries, and accelerate <span>enterprise SAP transformation with consulting experts</span> who understand your ecosystem inside out. With Rialtes, your enterprise isn’t just adopting SAP. It’s unlocking the full potential of transformation."
+        "We help businesses maximize ROI with implementation best practices, design customized SAP development solutions for specific industries, and accelerate <a href='https://www.linkedin.com/pulse/reimagine-enterprise-efficiency-sap-consulting-4pm1f/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>enterprise SAP transformation with consulting experts</a> who understand your ecosystem inside out. With Rialtes, your enterprise isn’t just adopting SAP. It’s unlocking the full potential of transformation."
     ]
     return (
         <section className="min-h-screen">
