@@ -869,7 +869,7 @@
     "openNow": "Abrir ahora"
   },
   "caseStudy": {
-    "bannerAlt": "Ondas de luz neón abstractas vibrantes con colores rosa azul y verde creando efecto de movimiento dinámico sobre fondo oscuro",
+    "bannerAlt": "Ondas de neón en rosa, azul y verde fluyendo sobre fondo oscuro con efecto de desenfoque de movimiento ",
     "headerTitle": "Estudios de Caso",
     "seoTitle": "Éxitos Salesforce y SAP | Casos de Estudio Inspiradores | Rialtes",
     "seoDescription": "Descubre casos de estudio SAP y Salesforce de Rialtes: empresas globales logran innovación con IA, eficiencia y ROI mediante tecnología.",
@@ -898,6 +898,7 @@
         "date": "Aug. 21, 2025",
         "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/",
         "title": "Transformando el Éxito Estudiantil con Salesforce Education Cloud y Edu+",
+        "alt": "Birrete con escalera que sube a las nubes simbolizando éxito y crecimiento educativo",
         "description": "Una destacada universidad privada en América del Norte con más de 25,000 estudiantes y múltiples programas académicos en las divisiones de pregrado, posgrado y educación continua."
       },
       {
@@ -907,6 +908,7 @@
         "date": "Jun. 30, 2025",
         "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
         "title": "Fabricante Automotriz Líder Logra un 35% Más de Satisfacción del Cliente con AutoSense",
+        "alt": "Ilustración de los módulos de gestión de garantía AutoSense para operaciones automotrices",
         "description": "Un fabricante de automóviles global destacado, conocido por su innovación y vehículos de alto rendimiento, enfrentaba desafíos con su sistema heredado de gestión de garantías."
       },
       {
@@ -916,6 +918,7 @@
         "date": "Jun. 10, 2025",
         "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
         "title": "40% de Mejora en la Adopción de Aplicación de Garantías con Salesforce Experience Cloud",
+        "alt": "Muestra de tejas para techos en varios colores organizadas para comparación de productos ",
         "description": "Descubra cómo Rialtes utilizó Salesforce Experience Cloud para optimizar los reclamos de garantía y mejorar la satisfacción del cliente para un fabricante de techos."
       },
       {
@@ -925,6 +928,7 @@
         "date": "Jun. 03, 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
         "title": "Revolucionando la Gestión de Concesionarios con AutoSense de Rialtes",
+        "alt": "Profesionales colaborando alrededor de un portátil en una oficina moderna",
         "description": "Un reconocido fabricante automotriz global, famoso por sus vehículos de vanguardia, enfrentaba grandes desafíos con su portal de concesionarios obsoleto."
       }
     ],
@@ -936,7 +940,7 @@
         "date": "Aug. 21, 2025",
         "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/",
         "title": "Transformando el Éxito Estudiantil con Salesforce Education Cloud y Edu+",
-        "alt": "Transformando el éxito estudiantil con Salesforce Education Cloud y Edu+ ",
+        "alt": "Birrete con escalera que sube a las nubes simbolizando éxito y crecimiento educativo",
         "description": "Una universidad privada líder en Norteamérica con más de 25,000 estudiantes y múltiples programas académicos en divisiones de pregrado, posgrado y educación continua."
       },
       {
@@ -946,7 +950,7 @@
         "date": "Jun. 30, 2025",
         "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
         "title": "Fabricante Automotriz Líder Logra un 35% Más de Satisfacción del Cliente con AutoSense",
-        "alt": "Fabricante automotriz líder logró un 35% más de satisfacción del cliente con AutoSense ",
+        "alt": "Ilustración de los módulos de gestión de garantía AutoSense para operaciones automotrices",
         "description": "Un fabricante de automóviles global destacado, conocido por su innovación y vehículos de alto rendimiento, enfrentaba desafíos con su sistema heredado de gestión de garantías."
       },
       {
@@ -956,7 +960,7 @@
         "date": "Jun. 10, 2025",
         "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
         "title": "40% de Mejora en la Adopción de Aplicación de Garantías con Salesforce Experience Cloud",
-        "alt": "40% de aumento en la adopción de la aplicación de garantía usando Salesforce Experience Cloud ",
+        "alt": "Muestra de tejas para techos en varios colores organizadas para comparación de productos",
         "description": "Descubra cómo Rialtes utilizó Salesforce Experience Cloud para optimizar los reclamos de garantía y mejorar la satisfacción del cliente para un fabricante de techos."
       },
       {
@@ -966,7 +970,7 @@
         "date": "Jun. 03, 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
         "title": "Revolucionando la Gestión de Concesionarios con AutoSense de Rialtes",
-        "alt": "Impulsando la gestión de concesionarios con AutoSense de Rialtes",
+        "alt": "Profesionales colaborando alrededor de un portátil en una oficina moderna",
         "description": "Un reconocido fabricante automotriz global, famoso por sus vehículos de vanguardia, enfrentaba grandes desafíos con su portal de concesionarios obsoleto."
       },
       {
@@ -976,7 +980,7 @@
         "date": "May. 30, 2025",
         "url": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/",
         "title": "Reclamo en 4 Minutos: Rialtes Crea un Portal Móvil para Transformar la Experiencia de Reclamos",
-        "alt": "Reclamo en 4 minutos: Rialtes crea un portal móvil para transformar la experiencia de reclamaciones ",
+        "alt": "Ajustador de seguros revisando daños por tormenta en una vivienda junto al propietario",
         "description": "Un fabricante líder de soluciones de techado de alta calidad diseñadas para proteger lo que más importa. Especializado en productos duraderos e innovadores para uso residencial."
       },
       {
@@ -986,7 +990,7 @@
         "date": "May. 28, 2025",
         "url": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/",
         "title": "150 Pedidos al Día, Cero Trabajo Manual: Priorización de Pedidos con SAP Fiori",
-        "alt": "150 pedidos al día, sin trabajo manual: priorización de pedidos con autoservicio impulsado por Fiori ",
+        "alt": "Muestra de tejas para techos en varios colores organizadas para comparación de productos",
         "description": "A pesar de las significativas inversiones tecnológicas del cliente en manufactura, su proceso de gestión de pedidos dependía mucho de la intervención manual. Los clientes que querían priorizar ciertos pedidos tenían que llamar al equipo de ventas y compartir su lista."
       },
       {
@@ -996,7 +1000,7 @@
         "date": "Mar. 26, 2025",
         "url": "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
         "title": "Optimización de Ventas con Salesforce Sales Cloud para Manufactura",
-        "alt": "Optimización de ventas con Salesforce Sales Cloud para manufactura ",
+        "alt": "Técnico inspeccionando botellas en una línea de producción para control de calidad",
         "description": "La empresa es un fabricante líder especializado en equipos personalizados de tratamiento de agua. Cada producto está diseñado en función de los requisitos específicos del cliente, por lo que no hay dos productos iguales."
       },
       {
@@ -1006,7 +1010,7 @@
         "date": "Jan. 08, 2025",
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce/",
         "title": "Transformación DevOps con Copado y Salesforce",
-        "alt": "Transformación DevOps usando Copado y Salesforce ",
+        "alt": "Trabajadores industriales revisando procedimientos de seguridad y colaborando en sitio",
         "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales."
       },
       {
@@ -1016,7 +1020,7 @@
         "date": "Dec. 22, 2024",
         "url": "/insights/case-studies/realForce-banking-module-ach/",
         "title": "Automatización de ACH y Asientos Contables con el Módulo Bancario de Exelona",
-        "alt": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona ",
+        "alt": "Equipo empresarial colabora en planificación estratégica con paneles y reportes digitales",
         "description": "Una firma inmobiliaria multifamiliar en EE.UU. especializada en la gestión e inversión en propiedades residenciales multifamiliares."
       },
       {
@@ -1026,7 +1030,7 @@
         "date": "Nov. 17, 2024",
         "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/",
         "title": "Automatización del Procesamiento de Pedidos en Salud con MuleSoft",
-        "alt": "Automatización del procesamiento de pedidos en el sector salud con MuleSoft ",
+        "alt": "Paciente y enfermera revisan registros digitales para atención precisa y coordinada",
         "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores."
       },
       {
@@ -1036,7 +1040,7 @@
         "date": "Oct. 14, 2024",
         "url": "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/",
         "title": "Transformando la Gestión de Casos Omnicanal con Salesforce Service Cloud",
-        "alt": "Transformación de la gestión de casos omnicanal con Salesforce Service Cloud ",
+        "alt": "Línea avanzada de fabricación de microchips con tecnología precisa y flujos automatizados",
         "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable."
       },
       {
@@ -1046,7 +1050,7 @@
         "date": "Sep. 27, 2024",
         "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/",
         "title": "Socio Confiable de YARDI para la PHA Más Grande de Norteamérica",
-        "alt": "Socio confiable de YARDI para la mayor autoridad de vivienda pública de América del Norte ",
+        "alt": "Comunidad urbana colaborando con herramientas digitales que apoyan participación y servicios",
         "description": "Una autoridad de vivienda pública responsable de gestionar programas de vivienda asequible en varios condados de su zona."
       },
       {
@@ -1056,7 +1060,7 @@
         "date": "Sep. 4, 2024",
         "url": "/insights/case-studies/yardi-managed-services/",
         "title": "Menor Tiempo de Inactividad para una Firma Inmobiliaria con Servicios Gestionados de Yardi",
-        "alt": "Reducción del tiempo de inactividad para una firma inmobiliaria multifamiliar con YARDI Managed Services ",
+        "alt": "Horizonte urbano abstracto y colorido que representa análisis de datos y transformación digital",
         "description": "Una firma inmobiliaria multifamiliar en EE.UU. especializada en la gestión e inversión en propiedades residenciales multifamiliares."
       },
       {
@@ -1066,7 +1070,7 @@
         "date": "Aug. 16, 2024",
         "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/",
         "title": "Digitalizando el Viaje del Paciente con Salesforce Health Cloud",
-        "alt": "Digitalización del recorrido del paciente con Salesforce Health Cloud ",
+        "alt": "Médico revisa registros del paciente durante una consulta usando una interfaz móvil",
         "description": "Un fabricante líder especializado en materiales innovadores para proyectos residenciales y comerciales."
       },
       {
@@ -1076,7 +1080,7 @@
         "date": "Aug. 02, 2024",
         "url": "/insights/case-studies/salesforce-health-cloud-prior-authorization/",
         "title": "Digitalización de la Autorización Previa para Mejores Resultados de Pacientes",
-        "alt": "Digitalización de la autorización previa para mejores resultados del paciente ",
+        "alt": "Red cerebral digital que muestra información médica con IA para flujos móviles de salud",
         "description": "Una firma inmobiliaria multifamiliar en EE.UU. especializada en la gestión e inversión en propiedades residenciales multifamiliares."
       }
     ]

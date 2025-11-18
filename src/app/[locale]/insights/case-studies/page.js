@@ -287,7 +287,7 @@ export default function Page() {
                   <Link href={slide.url}>
                     <Image
                       src={slide.imgSrc}
-                      alt={slide.title}
+                      alt={slide.alt}
                       width={0}
                       height={0}
                       sizes="100vw"

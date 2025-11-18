@@ -122,7 +122,7 @@ export default function page({ url }) {
                                 <Link href={'/insights/blogs' + slide.url}>
                                     <Image
                                         src={slide.image}
-                                        alt={slide.title}
+                                        alt={slide.alt}
                                         width={0}
                                         height={0}
                                         sizes="100vw"
