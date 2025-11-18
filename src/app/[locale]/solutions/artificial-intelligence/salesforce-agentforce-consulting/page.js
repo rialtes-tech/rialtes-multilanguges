@@ -1,10 +1,15 @@
 "use client";
 import Image from "next/image";
-import Seo from "@/app/components/Seo";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import HealthcareStats from "@/app/components/HealthcareStats";
-import LearnMoreButton from "@/app/components/learnMore";
-import ContactForm from "@/app/components/contactform";
+import HealthcareStats from "@/app/[locale]/components/HealthcareStats";
+import LearnMoreButton from "@/app/[locale]/components/learnMore";
+import ContactForm from "@/app/[locale]/components/contactform";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from '../../../../../../messages/en/solutions.json';
+import esContent from '../../../../../../messages/es/solutions.json';
+import frContent from '../../../../../../messages/fr/solutions.json';
+import { changeLocalization } from "../../../components/changeLocalization.js";
 const schemaData = {
     "@context": "https://schema.org",
   "@type": "Service",
@@ -107,6 +112,7 @@ const schemaData = {
   }
 }
 const AIBusinessBanner = () => {
+      
     return (
         <section className="relative text-white">
             <div className="flex flex-col xl:flex-row">
@@ -562,6 +568,10 @@ const AgentforceHero = () => {
 
 
 export default function page() {
+    const t = useTranslations("agentForce");
+    const locale = useLocale();
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { salesForce, salesForce2, agentBlocks, industryBenifite, slides } = content.agentForce;
     return (
         <section>
             <Seo

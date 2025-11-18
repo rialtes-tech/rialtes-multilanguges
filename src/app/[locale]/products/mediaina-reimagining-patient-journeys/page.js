@@ -146,7 +146,7 @@ export default function Page() {
             <section className="relative group overflow-hidden pb-20 md:pb-48 xl:pb-20 4xl:pb-20">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/products/mediyana/digital-eye-technology.webp"
+                        src="/images/products/mediaina/digital-eye-technology.webp"
                         alt={t('bannerAlt')}
                         fill
                         priority
@@ -154,7 +154,7 @@ export default function Page() {
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/products/mediyana/digital-eye-technology-mobile.webp"
+                        src="/images/products/mediaina/mediaina-mobile-banner.webp"
                         alt={t('bannerAlt')}
                         fill
                         priority
@@ -188,7 +188,7 @@ export default function Page() {
                             </div>
                             <div className="xl:col-span-4 col-span-12">
                                 <Image
-                                    src="/images/products/mediyana/desktop/logo-1medialna-logo-primary.svg"
+                                    src="/images/products/mediaina/desktop/logo-1.svg"
                                     alt={t('mediainaLogoAlt')}
                                     priority
                                     className="xl:w-[500px]  xl:h-[233] h-[150px] w-[225px] md:h-[200px] md:w-[300px] xl:mt-[-20px]"
@@ -227,7 +227,7 @@ export default function Page() {
                     <div className="w-full h-full relative  order-1 xl:order-2">
                         <div className="xl:block hidden 4xl:ml-[-200px] 4xl:mt-[9rem] 2xl:ml-[-100px] xl:mt-[12rem] xl:ml-[-100px] 2xl:mt-[12rem]">
                             <Image
-                                src="/images/products/mediyana/desktop/mediaina-lifeai-illustration.webp"
+                                src="/images/products/mediaina/desktop/mediaina-lifeai-illustration.webp"
                                 alt={t('lifeAIPlusAlt')}
                                 className="object-cover w-full h-full 4xl:h-[814px] 2xl:h-[800px] xl:h-[900px]"
                                 priority
@@ -237,7 +237,7 @@ export default function Page() {
                         </div>
                         <div className="xl:hidden block">
                             <Image
-                                src="/images/products/mediyana/mobile/mediaina-lifeai-illustration-mobile.webp"
+                                src="/images/products/mediaina/mobile/mediaina-lifeai-illustration-mobile.webp"
                                 alt={t('lifeAIPlusAlt')}
                                 className="object-cover w-full h-full"
                                 priority
