@@ -131,7 +131,7 @@ export default function Page() {
         {
             "title": "CRM + ERP Convergence: The Foundation of a Single Source of Truth",
             "desc": "So how do you fix it?",
-            "desc1": "The real answer lies in the <a href='https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' className='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergence of CRM and ERP systems</a> , the two biggest data engines in your operations.",
+            "desc1": "The real answer lies in the <a href='https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergence of CRM and ERP systems</a> , the two biggest data engines in your operations.",
             "list": [
                 {
                     "title": "CRM (Customer Relationship Management ",
