@@ -362,8 +362,9 @@ export default function About() {
       </div>
       <div className="custom-container xl:!pr-[142px]">
         <section className="py-8 lg:max-w-[800px] xl:max-w-[1600px] mb-10">
-          <h2 className="mb-6 text-[26px] xl:text-[40px] md:text-[35px] 4xl:text-[60px]">{t('PastWebinars')}</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+          <h2 className="mb-6 text-[26px] xl:text-[40px] md:text-[35px] 4xl:text-[60px]">Past Webinars</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
             {visibleWebinars.map((webinar) => (
               <Link href={'/' + webinar.url} key={webinar.id}>
                 <div
@@ -403,7 +404,7 @@ export default function About() {
                   </div>
 
                   <div className="p-8 flex flex-col flex-grow items-start gap-2 ">
-                    <h3 className="text-[#134874] mb-2  xl:text-[20px] 4xl:text-[30px]">{webinar.title}</h3>
+                    <h3 className="text-[#134874] mb-2 pr-8 text-[20px] 4xl:text-[30px]">{webinar.title}</h3>
 
                     <div className="text-sm text-gray-600 mb-3">
                       <p>{webinar.date}</p>

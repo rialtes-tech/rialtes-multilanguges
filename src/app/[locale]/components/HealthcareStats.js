@@ -1,0 +1,28 @@
+export default function HealthcareStats() {
+  return (
+    <section className="mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-y-10 md:gap-y-0  items-start">
+        <StatBox percentage="27%" description="Greater patient adherence*" />
+        <StatBox percentage="91%" description="Achieved positive ROI*" />
+        <StatBox percentage="29%" description="Faster case resolution*" />
+         <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] text-gray-500">
+        *Source: Salesforce
+      </p>
+      </div>
+     
+    </section>
+  );
+}
+
+function StatBox({ percentage, description }) {
+  return (
+    <div className="flex flex-col items-start text-left">
+      <span className="text-[#006FBE] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight md:text-[28px] text-[48px] font-bold">
+        {percentage}
+      </span>
+      <span className="4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] text-[22px] xl:w-[60%] w-[55%] mt-2 font-semibold  leading-tight">
+        {description}
+      </span>
+    </div>
+  );
+}
