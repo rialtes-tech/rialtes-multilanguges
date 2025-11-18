@@ -475,7 +475,7 @@
     "contactSubTitle2": "Contact us today to discover how Rialtes can drive growth and patient impact for your organization."
   },
   "healthCare": {
-    "bannerAlt":"Healthcare professional in lab coat and glasses analyzing holographic medical data display with DNA strand and patient imaging scans",
+    "bannerAlt":"Healthcare professional in lab coat and glasses analyzing holographic medical data display with DNA strand and patient imaging",
     "seoTitle": "MedTech Healthcare Consulting and Patient Care Solutions | Rialtes",
     "seoDescription": "Rialtes delivers AI-powered MedTech healthcare consulting and patient care solutions to enhance clinical outcomes and streamline healthcare operations.",
     "slidesCaseStudy": [
@@ -535,7 +535,7 @@
       {
         "id": 1,
         "image": "/images/healthcare/healthcare-worker-patient-digital-consultation.webp",
-        "imageAlt":"Healthcare worker in blue scrubs with stethoscope discussing digital medical records on tablet with masked patient in clinic setting",
+        "imageAlt":"Healthcare worker in blue scrubs with stethoscope discussing digital medical records on tablet with masked patient in clinic",
         "title": "Patient Care with Salesforce Health Cloud",
         "description": "Implementing Salesforce Health Cloud can significantly upgrade the patient experience solutions by centralizing all healthcare data. This helps in smarter decision-making and offers an intuitive platform for healthcare professionals.",
         "productsDetails": [
@@ -572,7 +572,7 @@
       {
         "id": 4,
         "image": "/images/healthcare/healthcare-professional-electronic-medical-records.webp",
-        "imageAlt":"Healthcare professional in blue scrubs holding tablet displaying electronic medical record system with patient data and X-ray imaging",
+        "imageAlt":"Healthcare professional in blue scrubs holding tablet displaying electronic medical record system with patient data and X-ray",
         "title": "Unmatched MedTech Services",
         "description": "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities.",
         "productsDetails": [
