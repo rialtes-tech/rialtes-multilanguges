@@ -560,12 +560,12 @@
   "growWithSap": {
     "services": [
       {
-        "alt": "Icône en ligne bleue d’un document de certificat avec ruban de médaille et lignes de texte représentant un accomplissement ou une qualification",
+        "alt": "Icône bleue d’un certificat avec médaille et lignes de texte représentant un accomplissement ou une qualification",
         "text": "SAP License Advisory",
         "img": "/images/services/grow-with-sap/certificate-document-icon.svg"
       },
       {
-        "alt": "Icône de contour bleu d’un bouclier avec ruban de récompense et coche symbolisant la certification de sécurité et la protection vérifiée",
+        "alt": "Icône de bouclier bleu avec ruban et coche symbolisant la certification de sécurité et la protection vérifiée",
         "text": "Quality Assurance & User Training",
         "img": "/images/services/grow-with-sap/security-badge-shield-icon.svg"
       },
@@ -580,7 +580,7 @@
         "img": "/images/services/grow-with-sap/cloud-innovation-technology-icon.svg"
       },
       {
-        "alt": "Icône en ligne bleue montrant des utilisateurs connectés autour d’un engrenage vérifié représentant la collaboration d’équipe et le flux de travail approuvé",
+        "alt": "Icône bleue montrant des utilisateurs connectés autour d’un engrenage vérifié, symbolisant collaboration et workflow validé",
         "text": "System Integration & Customization",
         "img": "/images/services/grow-with-sap/network-collaboration-verified-icon.svg"
       }
@@ -711,13 +711,13 @@
         "desc": "Support renforcé, amélioration continue, intégration de l’IA."
       }
     ],
-    "bannerAlt": "Flou de mouvement de vitesse abstrait créant un effet de tunnel dynamique avec des lignes fluides et une lumière chaude au point d'horizon",
-    "whyAlt": "Flèche néon brillante pointant vers le haut avec des lignes numériques fluides représentant la croissance commerciale et le succès sur fond sombre",
-    "sapAlt": "Nuages éthérés bleus et roses avec flux de données cyan lumineux traversant un ciel onirique représentant le concept de cloud computing",
+    "bannerAlt": "Flou de vitesse créant un tunnel dynamique avec lignes fluides et lumière chaude à l’horizon",
+    "whyAlt": "Flèche néon lumineuse vers le haut avec lignes numériques fluides symbolisant la croissance et le succès",
+    "sapAlt": "Nuages bleus et roses avec flux de données cyan lumineux dans un ciel onirique, symbolisant le cloud computing",
     "signavioAlt": "Logo SAP Signavio avec marque géométrique bleue et texte bleu marine sur fond blanc pour logiciel de gestion des processus métiers",
-    "expandingAlt": "Main touchant flèche lumineuse vers le haut avec particules dorées sur fond bleu foncé symbolisant croissance numérique et innovation",
-    "convAlt": "Jeune homme souriant en sweat à capuche vert utilisant un smartphone à table de café avec tasse de café et théière dans un cadre confortable",
-    "futureAlt": " Profil humain composé de code numérique lumineux rouge et cyan et flux de données sur paysage urbain flou représentant la technologie IA",
+    "expandingAlt": "Main touchant une flèche lumineuse vers le haut avec particules dorées sur fond bleu, symbolisant croissance et innovation",
+    "convAlt": "Jeune homme souriant en hoodie vert utilisant son smartphone à une table de café avec tasse et théière",
+    "futureAlt": "Profil humain en code rouge et cyan lumineux avec flux de données sur ville floue, représentant la technologie IA",
     "headerTitle": "VoyagerNext",
     "seoTitle": "Développez-vous avec les Solutions SAP d’un Partenaire de Confiance | Rialtes",
     "seoDescription": "Croissez avec les solutions SAP de Rialtes, partenaire de confiance qui stimule l’innovation et la croissance avec des résultats mesurables.",
@@ -1344,20 +1344,20 @@
     "contactSubTitleOne": "Contactez Rialtes pour découvrir comment SalesforceAgent+ peut dynamiser votre écosystème Salesforce."
   },
   "sapDigitalDesk": {
-    "whyPartnersAlt": "Poignée main professionnelle avec effets lumière numérique vibrants symbolisant partenariat technologique et collaboration affaires ",
+    "whyPartnersAlt": "Poignée de main professionnelle avec effets lumière numérique vibrants symbolisant partenariat technologique ",
     "migrateSectionAlt": "Arrière-plan onde numérique affichant chemins migration SAP SuccessFactors depuis Workday et ZOHO HR avec détails services",
-    "btpSectionAlt": "Professionnels affaires souriants analysant visualisation données sur écran numérique interactif dans espace travail collaboratif",
+    "btpSectionAlt": "Professionnels affaires souriants analysant visualisation données sur écran numérique dans espace collaboratif",
     "superchargeSectionAlt": "Mains assemblant pièces puzzle bleues avec icônes RH montrant intégration IA SAP Joule pour système gestion employés automatisé",
     "sapSignavioAlt": "Méthodologie implémentation SAP Signavio et Activate montrant processus six étapes depuis découverte jusqu'au déploiement",
     "winnigSectionAlt": "Vue aérienne professionnels RH menant réunion gestion talents SAP SuccessFactors avec documents et ordinateur portable",
-    "intelligentSectionAlt": "Professionnels affaires examinant tableau bord analytique coloré avec graphiques sur ordinateur portable pour informations données",
+    "intelligentSectionAlt": "Professionnels affaires examinant tableau bord analytique coloré avec graphiques sur ordinateur pour données",
     "codeFutureAlt": "Développeur logiciel portant lunettes analysant code programmation avec superposition affichage holographique montrant visualisation",
     "seamlessSectionAlt": "Vue aérienne intersection autoroute multiniveau avec flux trafic montrant infrastructure transport et connectivité réseau",
-    "unleashSectionAlt": "Professionnels affaires examinant données numériques sur tablette avec superposition interface transparente dans bureau corporatif moderne",
-    "sapFioriSectionAlt": "Femme professionnelle souriante en tenue noire travaillant sur ordinateur portable dans espace bureau moderne avec lumière naturelle",
+    "unleashSectionAlt": "Professionnels affaires examinant données numériques sur tablette avec interface transparente dans bureau moderne",
+    "sapFioriSectionAlt": "Femme professionnelle souriante en tenue noire travaillant sur ordinateur portable dans bureau moderne avec lumière",
     "futureProofAlt": "Ingénieur industriel avec gilet sécurité et casque analysant données temps réel sur écrans numériques surveillance en usine",
     "sapSectionAlt": "Page informations certifications SAP affichant plus de 150 certifications sur modules principaux avec avantages expertise listés",
-    "projectleadershipAlt": "Entrepôt futuriste avec superposition grille numérique et chariots élévateurs montrant logistique intelligente et gestion automatisée",
+    "projectleadershipAlt": "Entrepôt futuriste avec superposition grille numérique et chariots élévateurs montrant logistique intelligente",
     "rialtesSectionAlt": "Visualisation réseau numérique abstrait montrant infrastructure support SAP mondiale avec formes ondes bleues et connectivité",
     "bannerAlt": "Professionnel analysant données analytiques SAP sur tablette avec graphiques financiers superposés pour maximiser investissement",
     "sapCertificationData": [

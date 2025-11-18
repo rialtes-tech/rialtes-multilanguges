@@ -1147,14 +1147,14 @@
         "contactSubTitle": "Transformez votre modèle de soins avec les solutions de soins à domicile propulsées par Salesforce de Rialtes"
     },
     "semiconductor": {
-        "bannerAlt":"Vue macro de plaque de semi-conducteurs avec puces de silicium lumineuses roses et bleues sur carte de circuit représentant microélectronique",
-        "dataAlt":"Puce microprocesseur futuriste avec flux de données lumineux rouges et bleus montant représentant informatique quantique et traitement IA",
-        "semiALt":"Technicien semi-conducteurs en combinaison de salle blanche tenant plaquette de silicium colorée avec motifs de micropuces en installation stérile",
-        "deepAlt":"Mains gantées tenant micropuce lumineuse avec étincelles orange brillantes représentant innovation semi-conducteurs et recherche nanotechnologie",
+        "bannerAlt":"Vue macro d’une plaque de semi-conducteurs avec puces de silicium roses et bleues sur une carte de circuit microélectronique",
+        "dataAlt":"Puce microprocesseur futuriste avec flux de données rouges et bleus représentant informatique quantique et traitement IA",
+        "semiALt":"Technicien semi-conducteurs en combinaison salle blanche tenant plaquette silicium colorée avec motifs micropuces",
+        "deepAlt":"Mains gantées tenant micropuce lumineuse avec étincelles orange représentant innovation semi-conducteurs et nanotech",
         "aiAlt": "Bras robotique effectuant inspection précise sur plaquette semi-conducteur avec micropuces en usine fabrication avancée",
-        "keyAlt": "Travailleuse avec casque blanc et gilet jaune sécurité surveillant tableau bord données production avec graphiques installation industrielle",
-        "endAlt": "Deux mains robotiques se serrant dans poignée main numérique avec motifs circuits orange lumineux sur fond technologique bleu montrant partenariat",
-        "whyAlt": "Ingénieur semi-conducteurs en lunettes de protection et gants manipulant avec précision broches de micropuce illuminées en laboratoire avancé",
+        "keyAlt": "Travailleuse avec casque blanc et gilet jaune surveillant tableau données production avec graphiques installation industrielle",
+        "endAlt": "Deux mains robotiques se serrant avec motifs circuits orange lumineux sur fond technologique bleu montrant partenariat",
+        "whyAlt": "Ingénieur en semi-conducteurs avec lunettes et gants manipulant des broches de micropuce illuminées dans un laboratoire avancé",
         "globalAlt":"Professionnels analysant des données mondiales sur une carte numérique dans une salle d’analyse moderne",
         "headerTitle": "Industrie des semi-conducteurs",
         "seoTitle": "IA dans l’Industrie des Semi-conducteurs : Solutions IT Évolutives | Rialtes",
@@ -1351,7 +1351,7 @@
                     "Modèles IA prédisant le rendement des wafers à partir des données Fab en temps réel, réduisant les pertes de production.",
                     "Analyse automatisée des causes racines (RCA) pour les baisses de rendement, raccourcissant le temps d'investigation."
                 ],
-               "imageAlt": "Techniciens en combinaisons stériles blanches travaillant avec équipement fabrication automatisé dans salle blanche pharmaceutique",
+               "imageAlt": "Techniciens en combinaisons stériles travaillant avec équipement fabrication automatisé dans salle blanche pharmaceutique",
                "mobImg": "/images/industry/semi-conductor/Mobile/pharmaceutical-cleanroom-manufacturing-sterile-production-mobile.webp",
                "deskImg": "/images/industry/semi-conductor/pharmaceutical-cleanroom-manufacturing-sterile-production.webp"
             },
@@ -1363,7 +1363,7 @@
                     "Atténuation des risques via la surveillance IA des fournisseurs et des stratégies de double sourcing.",
                     "Planification dynamique de la production et des capacités Fab basée sur les prévisions de demande IA."
                 ],
-                "imageAlt": "Vue miniature tilt-shift d'installation fabrication industrielle moderne avec lumières bleues oranges au crépuscule montrant usine intelligente",
+                "imageAlt": "Vue tilt-shift d’une installation industrielle moderne au crépuscule avec lumières bleues et orange, usine intelligente",
                 "mobImg": "/images/industry/semi-conductor/Mobile/smart-factory-industrial-iot-manufacturing-facility-mobile.webp",
                 "deskImg": "/images/industry/semi-conductor/smart-factory-industrial-iot-manufacturing-facility.webp"
             },
@@ -1375,7 +1375,7 @@
                     "Identification précoce des défauts systématiques et optimisation DFT (Design-for-Test).",
                     "Détection d'anomalies lors de la validation silicium, accélérant le cycle de débogage pour un succès dès le premier silicium."
                 ],
-              "imageAlt": "Main gantée utilisant fer à souder créant étincelle brillante sur carte circuit avec composants électroniques en travail assemblage précis",
+              "imageAlt": "Main gantée utilisant fer à souder créant étincelle brillante sur carte circuit avec composants en travail assemblage précis",
               "mobImg": "/images/industry/semi-conductor/Mobile/precision-electronics-manufacturing-circuit-board-assembly-mobile.webp",
               "deskImg": "/images/industry/semi-conductor/precision-electronics-manufacturing-circuit-board-assembly.webp"
             }
@@ -1481,7 +1481,7 @@
             {
                 "id": "1",
                 "title": "20+ ans d'expérience dans le domaine des semi-conducteurs — Solutions pratiques et alignées sur l'industrie",
-                 "imageAlt":"Deux ingénieurs logiciels à lunettes collaborant au poste de travail informatique analysant code dans environnement de bureau technologique moderne",
+                 "imageAlt":"Deux ingénieurs logiciels à lunettes collaborant au poste informatique analysant code dans bureau technologique moderne",
                  "mobImg": "/images/industry/semi-conductor/Mobile/software-engineers-collaborating-computer-mobile.webp",
                  "deskImg": "/images/industry/semi-conductor/software-engineers-collaborating-computer.webp",
                 "desc": "Rialtes s'est bâti une réputation en travaillant en étroite collaboration avec certaines des plus grandes marques de semi-conducteurs pour moderniser leurs processus métier. Nous comprenons la complexité unique des chaînes de valeur des semi-conducteurs — de la fabrication de wafers, conception de CI et tests, à la fabrication sous contrat et licences IP.",
@@ -1496,7 +1496,7 @@
             {
                 "id": "2",
                 "title": "Experts en processus métier avec expérience sur projets Fortune 500",
-                 "imageAlt":"Professionnels d'affaires en tenue formelle souriant en collaborant sur ordinateur portable lors de réunion de bureau avec collègue à table de conférence",
+                 "imageAlt":"Professionnels en tenue formelle souriant en collaborant sur ordinateur portable lors de réunion de bureau à table",
                  "mobImg": "/images/industry/semi-conductor/Mobile/business-professionals-collaborating-laptop-meeting-mobile.webp",
                  "deskImg": "/images/industry/semi-conductor/business-professionals-collaborating-laptop-meeting.webp",
                 "desc": "Nos consultants et architectes ne sont pas seulement des techniciens — ce sont des experts en processus métier semi-conducteurs ayant une expérience réelle dans la conduite de projets de transformation chez des entreprises du Fortune 500. Nous savons comment faire fonctionner SAP & Salesforce dans des environnements globaux complexes et multi-parties prenantes.",
@@ -1511,7 +1511,7 @@
             {
                 "id": "3",
                 "title": "Intégration SAP S/4 HANA & Salesforce éprouvée pour les semi-conducteurs",
-                "imageAlt":"Gros plan de plaquette de silicium colorée avec reflets arc-en-ciel montrant motifs complexes de micropuces en fabrication de semi-conducteurs",
+                "imageAlt":"Gros plan d’une plaquette de silicium colorée aux reflets arc-en-ciel montrant les motifs complexes de micropuces en fabrication",
                 "mobImg": "/images/industry/semi-conductor/Mobile/silicon-wafer-microchip-semiconductor-manufacturing-mobile.webp",
                 "deskImg": "/images/industry/semi-conductor/silicon-wafer-microchip-semiconductor-manufacturing.webp",
                 "desc": "Rialtes fournit des solutions SAP et Salesforce entièrement intégrées adaptées aux processus semi-conducteurs — permettant un flux d'information fluide du client jusqu'à la fab et retour. Notre approche assure une version unique de la vérité entre ventes, ingénierie et opérations, réduisant les erreurs, améliorant la collaboration et accélérant le time-to-market.",
