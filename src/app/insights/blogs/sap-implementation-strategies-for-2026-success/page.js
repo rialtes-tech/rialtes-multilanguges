@@ -428,7 +428,7 @@ export default function Page() {
                         <div className="xl:block hidden mt-14">
                             <Image
                                 src="/images/blog/5-pillars-of-SAP-implementation-strategy.svg"
-                                alt="5 Pillars of SAP Implementation Strategy and 5 Pillars of SAP Implementation Strategy-mobile"
+                                alt="5 Pillars of SAP Implementation Strategy"
                                 priority
                                 width={0}
                                 height={0}
@@ -438,7 +438,7 @@ export default function Page() {
                         <div className="xl:hidden block">
                             <Image
                                 src="/images/blog/5-pillars-of-SAP-implementation-strategy-mobile.svg"
-                                alt="5 Pillars of SAP Implementation Strategy and 5 Pillars of SAP Implementation Strategy-mobile"
+                                alt="5 Pillars of SAP Implementation Strategy Mobile"
                                 priority
                                 width={1200}
                                 height={800}
