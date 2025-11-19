@@ -181,7 +181,6 @@ export default function Page() {
             src="/images/healthcare/healthcare-professional-holographic-medical-data-mobile.webp"
             alt={t('bannerAlt')}
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-
             fill
             priority
           />

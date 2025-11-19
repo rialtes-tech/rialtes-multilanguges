@@ -474,13 +474,13 @@
         "contactSubTitle2": "Contactez-nous dès aujourd'hui pour découvrir comment Rialtes peut stimuler la croissance et l'impact patient de votre organisation."
     },
     "healthCare": {
-         "bannerAlt":"Professionnel de santé en blouse de laboratoire et lunettes analysant affichage holographique de données médicales avec ADN et imagerie",
+         "bannerAlt":"Professionnel de santé en blouse et lunettes analysant affichage holographique de données médicales avec ADN et imagerie",
         "slidesCaseStudy": [
             {
                 "id": 1,
                 "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
                 "imgSrc": "/images/case-studies/doctor-patient-consultation-digital-tablet.webp",
-                "imageAlt":"Médecin avec stéthoscope consultant patiente âgée tout en examinant ensemble informations sur tablette numérique au cabinet médical",
+                "imageAlt":"Médecin avec stéthoscope consultant patiente âgée examinant ensemble informations sur tablette numérique au cabinet médical",
                 "title": "Numérisation du parcours patient avec Salesforce Health Cloud",
                 "description": "Un fabricant de premier plan spécialisé dans la création de matériaux innovants pour des projets de construction résidentielle et commerciale."
             },
@@ -532,7 +532,7 @@
             {
                 "id": 1,
                 "image": "/images/healthcare/healthcare-worker-patient-digital-consultation.webp",
-                "imageAlt":"Professionnel de santé en blouse bleue avec stéthoscope consultant dossiers médicaux numériques sur tablette avec patiente masquée",
+                "imageAlt":"Professionnel de santé en blouse bleue avec stéthoscope consultant dossiers médicaux numériques sur tablette avec patiente",
                 "title": "Soins aux patients avec Salesforce Health Cloud",
                 "description": "La mise en œuvre de Salesforce Health Cloud peut améliorer considérablement les solutions d’expérience patient en centralisant toutes les données de santé. Cela permet une prise de décision plus intelligente et offre une plateforme intuitive aux professionnels de santé.",
                 "productsDetails": [
@@ -558,7 +558,7 @@
             {
                 "id": 3,
                 "image": "/images/healthcare/woman-telehealth-video-consultation-home.webp",
-                "imageAlt":"Femme en chemise violette en consultation vidéo de télésanté avec médecin sur ordinateur portable et tablette dans bureau lumineux",
+                "imageAlt":"Femme en chemise violette en consultation vidéo de télésanté avec médecin sur ordinateur portable et tablette dans bureau",
                 "title": "Solutions de soins patients personnalisées",
                 "description": "Nos solutions de soins aux patients visent à créer un environnement de santé empathique. Grâce à ces solutions, les établissements médicaux peuvent améliorer l’engagement et la satisfaction des patients.",
                 "productsDetails": [
@@ -570,7 +570,7 @@
             {
                 "id": 4,
                 "image": "/images/healthcare/healthcare-professional-electronic-medical-records.webp",
-                "imageAlt":"Professionnel de santé en blouse bleue tenant tablette affichant système de dossier médical électronique avec données patient et radiographie",
+                "imageAlt":"Professionnel de santé en blouse bleue tenant tablette affichant système de dossier médical électronique avec données patient",
                 "title": "Services MedTech incomparables",
                 "description": "Nous comprenons la dynamique de l’industrie de la santé. Nos services MedTech assurent le bon fonctionnement des systèmes techniques et mécaniques au sein des établissements de santé.",
                 "productsDetails": [
