@@ -425,7 +425,7 @@ export default function Page() {
                             }
 
                         </div>
-                        <div className="xl:block hidden mt-10">
+                        <div className="xl:block hidden mt-14">
                             <Image
                                 src="/images/blog/5-pillars-of-SAP-implementation-strategy.svg"
                                 alt="5 Pillars of SAP Implementation Strategy and 5 Pillars of SAP Implementation Strategy-mobile"
