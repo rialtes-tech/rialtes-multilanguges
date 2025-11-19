@@ -306,7 +306,7 @@ export default function Page() {
 
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12">
-                    <div className="4xl:col-span-11 xl:col-span-10 lg:col-span-11">
+                    <div className="4xl:col-span-12 xl:col-span-10 lg:col-span-11">
 
                         {/* date and icons */}
                         <div className="sm:flex justify-between">
@@ -425,7 +425,7 @@ export default function Page() {
                             }
 
                         </div>
-                        <div className="xl:block hidden">
+                        <div className="xl:block hidden mt-10">
                             <Image
                                 src="/images/blog/5-pillars-of-SAP-implementation-strategy.svg"
                                 alt="5 Pillars of SAP Implementation Strategy and 5 Pillars of SAP Implementation Strategy-mobile"
