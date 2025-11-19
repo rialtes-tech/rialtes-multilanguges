@@ -526,7 +526,7 @@ export default function InsightsPage() {
             <div className="hidden sm:block">
               <Link
                 href="/insights/webinars"
-                className="group bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-5 px-8 transition duration-300 relative overflow-hidden"
+                className="group bg-[#134874] hover:text-[#134874] font-semibold border-[1px] border-[solid] border-[#134874] text-white py-5 px-8 transition duration-300 relative overflow-hidden"
               >
                 <span className="inline-flex items-center">
                   See All Webinars
@@ -536,17 +536,16 @@ export default function InsightsPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-            {/* webinar 3 */}
             <div
               className="border border-gray-200 overflow-hidden bg-white"
-              onMouseEnter={handleMouseEnter("webinar-2")}
-              onMouseLeave={handleMouseLeave("webinar-2")}
+              onMouseEnter={handleMouseEnter("webinar-1")}
+              onMouseLeave={handleMouseLeave("webinar-1")}
               onClick={handleClick("/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes")}
               style={{
                 cursor: "pointer",
                 transition: "background-color 0.3s ease",
                 backgroundColor:
-                  hoveredBlog === "webinar-2" ? "#f1f1f1" : "transparent",
+                  hoveredBlog === "webinar-1" ? "#f1f1f1" : "transparent",
               }}
             >
               <div className="">
@@ -556,7 +555,7 @@ export default function InsightsPage() {
                     style={{
                       transition: "transform 0.3s ease",
                       transform:
-                        hoveredBlog === "webinar-2"
+                        hoveredBlog === "webinar-1"
                           ? "scale(1.05)"
                           : "scale(1)",
                     }}
@@ -694,14 +693,14 @@ export default function InsightsPage() {
             </div>
             <div
               className="border border-gray-200 overflow-hidden bg-white"
-              onMouseEnter={handleMouseEnter("webinar-2")}
-              onMouseLeave={handleMouseLeave("webinar-2")}
+              onMouseEnter={handleMouseEnter("webinar-3")}
+              onMouseLeave={handleMouseLeave("webinar-3")}
               onClick={handleClick("/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud")}
               style={{
                 cursor: "pointer",
                 transition: "background-color 0.3s ease",
                 backgroundColor:
-                  hoveredBlog === "webinar-2" ? "#f1f1f1" : "transparent",
+                  hoveredBlog === "webinar-3" ? "#f1f1f1" : "transparent",
               }}
             >
               <div className="">
@@ -711,7 +710,7 @@ export default function InsightsPage() {
                     style={{
                       transition: "transform 0.3s ease",
                       transform:
-                        hoveredBlog === "webinar-2"
+                        hoveredBlog === "webinar-3"
                           ? "scale(1.05)"
                           : "scale(1)",
                     }}
@@ -769,90 +768,8 @@ export default function InsightsPage() {
                 </Link>
               </div>
             </div>
-            {/* webinar 2 */}
 
 
-            {/* webinar 1 */}
-
-
-
-            {/* <div
-              className="border border-gray-200 overflow-hidden bg-white"
-              onMouseEnter={handleMouseEnter("webinar-3")}
-              onMouseLeave={handleMouseLeave("webinar-3")}
-              onClick={handleClick("/about-us")}
-              style={{
-                cursor: "pointer",
-                transition: "background-color 0.3s ease",
-                backgroundColor:
-                  hoveredBlog === "webinar-3" ? "#f1f1f1" : "transparent",
-              }}
-            >
-              <div className="">
-                <div className="w-full overflow-hidden">
-                  <div
-                    className="t w-full h-full"
-                    style={{
-                      transition: "transform 0.3s ease",
-                      transform:
-                        hoveredBlog === "webinar-3"
-                          ? "scale(1.05)"
-                          : "scale(1)",
-                    }}
-                  >
-                    <Image
-                      src="/images/insights/sap-business-webinar-3.webp"
-                      alt="Leadership Team"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                      priority
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-[#134874] mb-4 min-h-[4rem]">
-                  SAP Business AI: Setting Up Joule for SAP S/4 HANA Cloud
-                </h3>
-                <div className="space-y-3 mb-6">
-                  <div className="flex items-center">
-                    <span className="font-medium">November 5, 2024</span>
-                    <span className="mx-2">|</span>
-                    <span>10:00 AM CST</span>
-                  </div>
-                  <div className="space-y-1">
-                    <div className="font-bold">Kushagra Shah</div>
-                    <div className="">Senior Principal Consultant, SAP</div>
-                  </div>
-                </div>
-                <Link
-                  href="/blog/diversity"
-                  className="inline-flex items-center text-[#0092E0] hover:text-[#007bbf] font-medium transition-colors duration-300 group"
-                >
-                  <span>Register Now</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform duration-300"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </Link>
-              </div>
-            </div> */}
           </div>
           <div className="block sm:hidden mt-12">
             {" "}

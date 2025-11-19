@@ -462,48 +462,50 @@ const Header = () => {
           {/* solutions Card */}
           {activeCard === 1 && (
             <div onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute" >
-              <div className="grid grid-cols-12 custom-container gap-10 md:mt-10 xl:mt-10 ">
-                <div className="col-span-3 bg-[#deebf8] p-3 relative">
-                  {/* Data & AI Section */}
-                  <div
-                    className={`cursor-pointer font-bold mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "dataAI" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("dataAI")}
-                  >
-                    Data & AI
-                  </div>
+              <div className="grid grid-cols-12 gap-5 xl:w-full md:gap-5 lg:gap-10  md:mt-10 xl:justify-between md:justify-center xl:mt-10 custom-container ">
+                <div className="col-span-3">
+                  <div className="bg-[#deebf8] p-3">
+                    <div
+                      className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "dataAI" ? "bg-white" : "bg-transparent"
+                        }`}
+                      onClick={() => handleSubMenuClickSolution("dataAI")}
+                    >
+                      Data & AI
+                    </div>
 
-                  <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "enterprise" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("enterprise")}
-                  >
-                    Enterprise Platforms
-                  </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "enterprise" ? "bg-white " : "p-2"}`}
+                      onClick={() => handleSubMenuClickSolution("enterprise")}
+                    >
+                      Enterprise Platforms
+                    </div>
 
-                  <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "integration" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("integration")}
-                  >
-                    Integration
-                  </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "integration" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClickSolution("integration")}
+                    >
+                      Integration
+                    </div>
 
-                  <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "artificialIntelligence" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("artificialIntelligence")}
-                  >
-                    Artificial Intelligence
-                  </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "artificialIntelligence" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClickSolution("artificialIntelligence")}
+                    >
+                      Artificial Intelligence
+                    </div>
 
-                  <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "aiAutomation" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("aiAutomation")}
-                  >
-                    Process Automation
-                  </div>
-                  <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "quality-engi" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("quality-engi")}
-                  >
-                    Quality Engineering & Assurance
+                    <div
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "aiAutomation" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClickSolution("aiAutomation")}
+                    >
+                      Process Automation
+                    </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "quality-engi" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClickSolution("quality-engi")}
+                    >
+                      Quality Engineering & Assurance
+                    </div>
                   </div>
                 </div>
 
@@ -663,19 +665,19 @@ const Header = () => {
                 <div className="col-span-3">
                   <div className="bg-[#deebf8] p-3">
                     <div
-                      className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionProduct === "rialchat" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionProduct === "rialchat" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickProduct("rialchat")}
                     >
                       AgentChat
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionProduct === "mediaina" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionProduct === "mediaina" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickProduct("mediaina")}
                     >
                       MediAIna
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionProduct === "exelona" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionProduct === "exelona" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickProduct("exelona")}
                     >
                       Exelona
@@ -734,43 +736,43 @@ const Header = () => {
               <div className="grid grid-cols-12 custom-container gap-5 xl:w-full  md:gap-5  lg:gap-10 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
                 <div className="col-span-3 bg-[#deebf8] p-3">
                   <div
-                    className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "businessTransform" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "businessTransform" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("businessTransform")}
                   >
                     Business Transformation
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "intelligentScm" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "intelligentScm" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("intelligentScm")}
                   >
                     LOB Services
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "spentMangemnet" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "spentMangemnet" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("spentMangemnet")}
                   >
                     Spend Management
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "hxmTransformation" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "hxmTransformation" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("hxmTransformation")}
                   >
                     HXM Transformation
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "data-ai" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "data-ai" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("data-ai")}
                   >
                     Data and AI
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "intelligent" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "intelligent" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("intelligent")}
                   >
                     Intelligent SCM
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "applicationServices" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "applicationServices" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("applicationServices")}
                   >
                     Application Services
@@ -965,62 +967,62 @@ const Header = () => {
               <div className="grid grid-cols-12 w-full lg:gap-10 xl:gap-[22px] md:gap-5 custom-container md:mt-10 xl:mt-10">
                 <div className="col-span-3 bg-[#deebf8] p-3">
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "automotive" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[15px] text-[14px] 4xl:p-3 2xl:p-2 xl:p-2   ${openSection === "automotive" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("automotive")}
                   >
                     Real Estate
                   </div>
 
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "lifeSciences" ? "bg-white pl-3 pt-3 pb-3 " : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2  font-bold 4xl:text-[18px] xl:text-[15px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "lifeSciences" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("lifeSciences")}
                   >
                     Life Sciences
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "hiTech" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] xl:text-[15px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "hiTech" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("hiTech")}
                   >
                     Semiconductor
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "manufacturing" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] xl:text-[15px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "manufacturing" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("manufacturing")}
                   >
                     Manufacturing
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "education" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] xl:text-[15px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "education" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("education")}
                   >
                     Education
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "autoinstry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] xl:text-[15px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "autoinstry" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("autoinstry")}
                   >
                     Automotive
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "travelHospitality" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] xl:text-[15px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "travelHospitality" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("travelHospitality")}
                   >
                     Travel and Hospitality
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "retailIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] xl:text-[15px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "retailIndustry" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("retailIndustry")}
                   >
                     Retail
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "nonProfitIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "nonProfitIndustry" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("nonProfitIndustry")}
                   >
                     Non-Profit
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "financeIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "financeIndustry" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("financeIndustry")}
                   >
                     Finance
