@@ -788,7 +788,7 @@
     ]
   },
   "webinars": {
-    "bannerAlt": "Personne tapant sur ordinateur portable pendant appel vidéo de conférence d'équipe virtuelle avec groupe de professionnels divers",
+    "bannerAlt": "Personne tapant sur ordinateur portable pendant appel vidéo de conférence d'équipe virtuelle avec groupe professionnels divers",
     "allWebinars": [
       {
         "id": 6,
@@ -830,7 +830,7 @@
         "time": "10h00 CST",
         "speaker": "Akshay Kale",
         "position": "Directeur Général Principal – Services SAP",
-        "altImage": "Vague de données abstraite bleue et orange représentant transformation digitale, analytique big data et intelligence artificielle",
+        "altImage": "Vague données abstraite bleue et orange représentant transformation digitale, analytique big data et intelligence artificielle",
         "image": "/images/webinar/digital-data-wave-visualization-abstract-carousal.webp",
         "url": "insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/"
       },

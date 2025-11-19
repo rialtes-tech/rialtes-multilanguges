@@ -338,7 +338,7 @@
         ]
     },
     "empoweringCaseStudy": {
-        "bannerAlt": "Mur d'exposition présentant une variété d'échantillons de bardeaux de toiture dans différentes couleurs incluant brun beige gris et noir",
+        "bannerAlt": "Mur exposition présentant variété échantillons bardeaux toiture dans différentes couleurs incluant brun beige gris et noir",
         "headerTitle": "150 commandes par jour, zéro travail manuel : la priorisation des commandes en libre-service grâce à Fiori",
         "seoTitle": "SAP Fiori pour priorisation des commandes en production",
         "seoDescription": "Découvrez comment un fabricant de toiture a utilisé SAP Fiori pour prioriser ses commandes, réduisant 150 ajustements manuels/jour et améliorant la précision.",
@@ -512,7 +512,7 @@
         ]
     },
     "omnichannelCaseStudy": {
-        "bannerAlt": "Gros plan d’une machine de précision travaillant sur une puce électronique lumineuse représentant la fabrication avancée de semi-conducteurs",
+        "bannerAlt": "Gros plan machine de précision travaillant sur puce électronique lumineuse représentant fabrication avancée semi-conducteurs",
         "serviceTitle": "Transformation de la gestion des cas omnicanal avec Salesforce Service Cloud",
         "seoTitle": "Étude Salesforce Service Cloud : Gestion de cas omnicanal",
         "seoDescription": "Découvrez comment Service Cloud a transformé la gestion des cas avec automatisation, service rapide et support client amélioré.",
@@ -579,7 +579,7 @@
         ]
     },
     "optimizingCaseStudy": {
-        "bannerAlt": "Technicienne de contrôle qualité portant charlotte et lunettes de sécurité inspectant une bouteille transparente sur chaîne de production automatisée",
+        "bannerAlt": "Technicienne contrôle qualité portant charlotte et lunettes sécurité inspectant bouteille transparente sur chaîne production",
         "salesTitle": "Rationalisation des ventes avec Salesforce Sales Cloud pour l'industrie manufacturière",
         "seoTitle": "Étude Salesforce Sales Cloud : Optimisation des ventes",
         "seoDescription": "Découvrez comment l’optimisation des ventes avec Sales Cloud a accéléré conversions et clôtures de contrats.",
@@ -731,7 +731,7 @@
         ]
     },
     "autoSenseCaseStudy": {
-        "bannerAlt": "Femme d'affaires souriante portant des lunettes et collègue masculin collaborant sur ordinateur portable dans un environnement de bureau contemporain",
+        "bannerAlt": "Femme d'affaires souriante à lunettes et collègue collaborant sur ordinateur portable dans bureau contemporain",
         "dealerTitle": "Accélérer la Gestion des Concessionnaires avec AutoSense par Rialtes",
         "seoTitle": "Révolution gestion concession auto avec AutoSense | Rialtes",
         "seoDescription": "Découvrez comment Rialtes a transformé la gestion des concessions avec AutoSense : UX moderne, intégration SAP & Salesforce, opérations en temps réel.",
@@ -860,7 +860,7 @@
         ]
     },
     "salesForceCaseStudy": {
-        "bannerAlt": "Visualisation numérique d’un réseau neuronal ou d’une structure cérébrale au-dessus d’une tablette, symbolisant l’intelligence artificielle et la connectivité des données",
+        "bannerAlt": "Visualisation numérique réseau neuronal ou structure cérébrale sur tablette symbolisant intelligence artificielle connectivité",
         "salesforceTitle": "Numérisation de l’Autorisation Préalable pour de Meilleurs Résultats pour les Patients",
         "seoTitle": "Étude Salesforce Health Cloud : Autorisations simplifiées",
         "seoDescription": "Découvrez comment Salesforce Health Cloud a accéléré les autorisations, simplifiant les flux de travail pour des soins plus rapides.",
@@ -910,7 +910,7 @@
     },
     "devopsCaseStudy": {
         "devopsTitle": "Transformation DevOps avec Copado et Salesforce",
-        "bannerAlt": "Équipe de construction diversifiée portant casques de sécurité et gilets haute visibilité consultant des données de projet sur ordinateur portable dans entrepôt industriel",
+        "bannerAlt": "Équipe construction diversifiée portant casques sécurité et gilets haute visibilité consultant données projet sur ordinateur",
         "seoTitle": "Étude Salesforce DevOps : Optimiser les livraisons",
         "seoDescription": "Découvrez comment le préchargement DevOps avec Copado et Salesforce a accéléré les livraisons et réduit les erreurs.",
         "manufacturing": "Fabrication",
@@ -971,7 +971,7 @@
         ]
     },
     "mobileCaseStudy": {
-        "bannerAlt": "Expert en assurance et propriétaire examinant les détails de réclamation sur tablette devant un toit endommagé par tempête nécessitant évaluation",
+        "bannerAlt": "Expert assurance et propriétaire examinant détails réclamation sur tablette devant toit endommagé par tempête",
         "claimTitle": "Réclamation en 4 Minutes : Rialtes Développe un Portail Mobile-First pour Transformer l’Expérience des Réclamations",
         "seoTitle": "Étude Salesforce Experience Cloud : Portail mobile de garantie",
         "seoDescription": "Découvrez comment une marque de toiture a créé une expérience de garantie mobile conviviale avec Experience Cloud.",
@@ -995,7 +995,7 @@
         ]
     },
     "warrantyClaimCaseStudy": {
-        "bannerAlt": "Échantillons de bardeaux de toiture superposés présentant plusieurs options de couleurs incluant rouge brun bleu gris beige et tons cuivrés",
+        "bannerAlt": "Échantillons de bardeaux superposés présentant options de couleurs: rouge brun bleu gris beige et tons cuivrés",
         "warrantyTitle": "Adoption Améliorée de 40 % de l’Application de Garantie grâce à Salesforce Experience Cloud",
         "seoTitle": "Étude : Experience Cloud pour fabricant de toiture | Rialtes",
         "seoDescription": "Découvrez comment Rialtes a optimisé les réclamations de garantie et la satisfaction client avec Experience Cloud.",
@@ -1072,7 +1072,7 @@
         ]
     },
     "eduplusCaseStudy": {
-        "bannerAlt": "Chapeau de graduation avec pompon doré flottant au-dessus de nuages blancs avec échelle en bois symbolisant la réussite éducative et l'avancement professionnel",
+        "bannerAlt": "Chapeau de graduation avec pompon doré flottant sur nuages blancs avec échelle symbolisant réussite éducative",
         "educationcloud": "Education",
         "seoTitle": "Étude Salesforce Education Cloud | Rialtes",
         "seoDescription": "Découvrez comment Edu+ sur Education Cloud a augmenté les inscriptions de 22% et amélioré le support étudiant grâce à l’IA et l’automatisation.",
