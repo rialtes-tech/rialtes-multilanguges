@@ -569,7 +569,7 @@ export default function InsightsPage() {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </Link>
+                </Link> 
               </div>
             </div>
 
