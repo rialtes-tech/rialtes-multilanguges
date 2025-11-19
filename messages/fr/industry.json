@@ -2299,12 +2299,12 @@
     "retailIndustry": {
           "aiPoweredAlt" : "Employé magasin détail souriant assistant client avec scan paiement mobile au comptoir caisse moderne avec technologie",
          "rightSectionAlt" : "Gérant magasin détail et employé discutant inventaire sur tablette dans boutique vêtements moderne avec présentoirs",
-         "actionableSectionAlt" : "Professionnel visualisant analyse cloud données dynamique avec effet flou mouvement montrant intelligence commerciale vente détail",
-         "frictionlessSectionAlt" : "Main interagissant avec tableau bord analytique numérique transparent affichant graphiques données temps réel et métriques commerciales",
-        "loyaltySectionAlt" : "Blocs bois montrant icônes programme fidélité incluant carte réduction code QR boîte cadeau et sacs achats pour récompenses clients",
-         "realTimeAlt" : "Équipe entrepôt en gilets sécurité utilisant tablette pour suivi inventaire temps réel alimenté par cloud dans installation stockage",
-        "salesforceMarketingAlt" : "Personne en pull jaune parcourant catalogue produits achats en ligne avec vêtements et articles maison affichés sur écran tablette",
-         "fashionRetailAlt" : "Homme professionnel avec lunettes interagissant avec écran tactile bleu montrant avatars numériques dans environnement bureau moderne",
+         "actionableSectionAlt" : "Professionnel visualisant analyse cloud données dynamique avec effet flou mouvement montrant intelligence commerciale",
+         "frictionlessSectionAlt" : "Main interagissant avec tableau bord analytique numérique transparent affichant graphiques données temps réel et métriques",
+        "loyaltySectionAlt" : "Blocs bois montrant icônes programme fidélité incluant carte réduction code QR boîte cadeau et sacs achats pour clients",
+         "realTimeAlt" : "Équipe entrepôt en gilets sécurité utilisant tablette pour suivi inventaire temps réel alimenté par cloud dans stockage",
+        "salesforceMarketingAlt" : "Personne en pull jaune parcourant catalogue produits achats en ligne avec vêtements et articles sur écran tablette",
+         "fashionRetailAlt" : "Homme professionnel avec lunettes interagissant avec écran tactile bleu montrant avatars numériques dans bureau moderne",
          "newRealitySectionAlt" : "Employée magasin détail souriante avec lunettes tenant tablette pour gestion inventaire dans allée produits avec étagères",
          "bannerAlt" : "Client utilisant interface panier achat numérique interactif dans magasin détail moderne avec affichage technologie tactile",
         "newRealityData": [
@@ -2339,7 +2339,7 @@
             {
                 "imgUrl": "/images/industry/retail-industry/retail-business-growth-launch-acceleration-icon.svg",
                 "desc": "Accélérateurs préconstruits pour un déploiement rapide",
-                "alt" : "Icône fusée bleue avec symbole pourcentage se lançant vers haut représentant croissance commerciale détail et accélération ventes"
+                "alt" : "Icône fusée bleue avec symbole pourcentage se lançant vers haut représentant croissance commerciale détail et ventes"
             },
             {
                 "imgUrl": "/images/industry/retail-industry/retail-security-compliance-protection-icon.svg",
@@ -2416,14 +2416,14 @@
                 "deskImgUrl": "/images/industry/retail-industry/digital-hands-ai-technology-connection-concept.webp",
                 "title": "Agentforce",
                 "desc": "Bots Service Cloud alimentés par IA, agents virtuels et parcours de support personnalisés.",
-                "alt" : "Deux mains se tendant mutuellement avec particules numériques violettes lumineuses représentant technologie IA et connexion humaine"
+                "alt" : "Deux mains se tendant mutuellement avec particules numériques violettes lumineuses représentant technologie IA et connexion"
             },
             {
                 "mobImgUrl": "/images/industry/retail-industry/mobile/cloud-data-technology-infrastructure-computing-mobile.webp",
                 "deskImgUrl": "/images/industry/retail-industry/cloud-data-technology-infrastructure-computing.webp",
                 "title": "Data Cloud",
                 "desc": "Profils clients unifiés à 360° pour offres personnalisées, support et upselling.",
-                "alt" : "Nuage blanc avec connexions circuits numériques bleus dessous représentant informatique cloud et infrastructure technologie données"
+                "alt" : "Nuage blanc avec connexions circuits numériques bleus dessous représentant informatique cloud et infrastructure technologie"
             }
         ],
         "actionableData": [
@@ -2503,11 +2503,11 @@
         "contactSubTitle2": "Contactez-nous dès aujourd’hui pour libérer l’avenir du retail."
     },
     "nonProfit": {
-         "whyChooseRialtesAlt" : "Main touchant interface réseau numérique organisme but non lucratif avec icônes connectées montrant collaboration communautaire innovation",
-        "dataCloudAlt" : "Bénévoles travaillant avec superposition analyses données transparente montrant graphiques circulaires représentant métriques impact organisme",
-          "agentforceAlt" : "Professionnels souriants organisme but non lucratif collaborant sur ordinateur portable révisant stratégie organisationnelle et planification",
-          "donorSectionAlt" : "Professionnel examinant graphiques analyses données sur smartphone avec ordinateur portable affichant rapports métriques performance organisme",
-        "thoughtLeadershipAlt" : "Membres équipe bénévoles utilisant tablette pour coordonner distribution alimentaire et gestion dons à banque alimentaire communautaire",
+         "whyChooseRialtesAlt" : "Main touchant interface réseau numérique organisme but non lucratif avec icônes connectées montrant collaboration",
+        "dataCloudAlt" : "Bénévoles travaillant avec superposition analyses données transparente montrant graphiques circulaires métriques impact",
+          "agentforceAlt" : "Professionnels souriants organisme but non lucratif collaborant sur ordinateur révisant stratégie organisationnelle",
+          "donorSectionAlt" : "Professionnel examinant graphiques analyses données sur smartphone avec ordinateur affichant métriques performance",
+        "thoughtLeadershipAlt" : "Membres équipe bénévoles utilisant tablette pour coordonner distribution alimentaire et gestion dons à banque alimentaire",
          "bannerAlt" : "Mains assemblant puzzle cœur arc-en-ciel coloré représentant travail équipe organisme but non lucratif et unité orientée mission",
         "whyChooseData": [
             "Expertise approfondie dans le domaine des organisations à but non lucratif.",
@@ -2569,7 +2569,7 @@
                 "bgColor": "#FCF0D9",
                 "deskImg": "/images/industry/non-profit-industry/team-circle-puzzle-pieces-unity-collaboration.webp",
                 "mobImg": "/images/industry/non-profit-industry/Mobile/team-circle-puzzle-pieces-unity-collaboration-mobile.webp",
-                "alt" : "Équipe diverse tenant pièces puzzle bois en cercle vue dessus représentant collaboration organisme but non lucratif et impact collectif"
+                "alt" : "Équipe diverse tenant pièces puzzle bois en cercle vue dessus représentant collaboration organisme but non lucratif"
             },
             {
                 "title": "Cartographie Familles & Ménages",
@@ -2584,7 +2584,7 @@
                 "bgColor": "#E6E6A1",
                 "deskImg": "/images/industry/non-profit-industry/growing-plant-golden-coins-nonprofit-funding.webp",
                 "mobImg": "/images/industry/non-profit-industry/Mobile/growing-plant-golden-coins-nonprofit-funding-mobile.webp",
-                "alt" : "Jeune plante verte poussant pièces monnaie dorées avec figurines miniatures représentant financement organisme but non lucratif croissance"
+                "alt" : "Jeune plante verte poussant de pièces monnaie dorées avec figurines représentant financement organisme but non lucratif"
             },
             {
                 "title": "Communication personnalisée avec Salesforce Marketing Cloud",
@@ -2614,7 +2614,7 @@
                 "bgColor": "#E1E6C9",
                 "deskImg": "/images/industry/non-profit-industry/diverse-team-office-collaboration-nonprofit-meeting.webp",
                 "mobImg": "/images/industry/non-profit-industry/Mobile/diverse-team-office-collaboration-nonprofit-meeting-mobile.webp",
-                "alt" : "Équipe diverse organisme but non lucratif collaborant dans espace bureau moderne discutant projets et stratégie organisationnelle ensemble"
+                "alt" : "Équipe diverse organisme but non lucratif collaborant dans bureau moderne discutant projets et stratégie organisationnelle"
             },
             {
                 "title": "Gestion des bénévoles",
@@ -2629,7 +2629,7 @@
                 "bgColor": "#F2D8C2",
                 "deskImg": "/images/industry/non-profit-industry/volunteers-planting-tree-community-environmental-service.webp",
                 "mobImg": "/images/industry/non-profit-industry/Mobile/volunteers-planting-tree-community-environmental-service-mobile.webp",
-                "alt" : "Groupe bénévoles en chemises vertes plantant arbre ensemble lors service communautaire environnemental et projet développement durable"
+                "alt" : "Groupe bénévoles en chemises vertes plantant arbre ensemble lors service communautaire environnemental et durabilité"
             },
             {
                 "title": "Gestion des Programmes & Résultats",
@@ -2644,7 +2644,7 @@
                 "bgColor": "#E6E1F7",
                 "deskImg": "/images/industry/non-profit-industry/mobile-phone-donation-app-charity-interface.webp",
                 "mobImg": "/images/industry/non-profit-industry/Mobile/mobile-phone-donation-app-charity-interface-mobile.webp",
-                "alt" : "Personne utilisant interface application don sur smartphone montrant contribution caritative et plateforme collecte fonds organismes but non lucratif"
+                "alt" : "Personne utilisant interface application don sur smartphone montrant contribution caritative et plateforme collecte fonds"
             },
             {
                 "title": "Gestion des Subventions",
@@ -2659,7 +2659,7 @@
                 "bgColor": "#F0E4ED",
                 "deskImg": "/images/industry/non-profit-industry/financial-management-technology-icons-nonprofit-dashboard.webp",
                 "mobImg": "/images/industry/non-profit-industry/Mobile/financial-management-technology-icons-nonprofit-dashboard-mobile.webp",
-                "alt" : "Icônes financières holographiques incluant sac argent graphiques et analyses affichant tableau bord gestion financière organisme but non lucratif"
+                "alt" : "Icônes financières holographiques incluant sac argent graphiques affichant tableau bord gestion financière organisme"
             }
         ],
         "headerTitle": "Secteur Non-Profit",
