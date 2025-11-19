@@ -6,13 +6,10 @@ import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 import BlogSocialIcons from '@/app/components/blogSocialIcons'
-import UnorderedList from "@/app/components/unorderedList";
-import Link from "next/link";
 
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services";
     const currUrl = useUrl()
-    console.log(currUrl);
 
     const schemaData = {
         "@context": "https://schema.org",
@@ -99,12 +96,8 @@ export default function Page() {
 
     const sapConsulting = [
         "At Rialtes, we’re innovators who believe enterprise technology should evolve as fast as your business does. Our <a href='https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting-implementation-partners/'  class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> SAP consulting and implementation services</a> are designed to help you reimagine operations, enhance agility, and unlock new growth potential.",
-
         "We partner with enterprises to build scalable, secure, and intelligent SAP systems—from consulting strategy and implementation to custom development and integration. Whether it’s modernizing your legacy infrastructure or designing future-ready architectures, Rialtes ensures your transformation is seamless, value-driven, and built for tomorrow. With a global team of certified SAP experts, proven methodologies, and a passion for innovation, Rialtes helps you go beyond technology, toward real business impact."
     ]
-
-
-
 
     const customSAP = [
         {
@@ -126,14 +119,12 @@ export default function Page() {
         },
     ]
 
-
     const integrationBackbone = [
         "Sync SAP with CRMs like Salesforce for unified customer insights.",
         "Connect SAP with third-party logistics platforms for automated inventory updates.",
         "Integrate SAP with HR and payroll systems for consistent data flow.",
         "Enable real-time analytics by linking SAP data with BI platforms."
     ];
-
 
     const tailoringSAP = [
         {
@@ -228,7 +219,6 @@ export default function Page() {
         "Enterprises today face a common challenge: balancing complexity with speed. While SAP systems offer powerful, standardized tools, no two organizations operate exactly alike. Business models evolve, customer expectations shift, and regulatory frameworks differ by geography and sector.",
         "Custom SAP development ensures your enterprise platform aligns with your exact business logic, rather than forcing your teams to adapt to rigid workflows. With tailored configurations, extensions, and integrations, organizations can:"
     ]
-
 
     const faqs = [
         {
