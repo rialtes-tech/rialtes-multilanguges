@@ -1362,9 +1362,9 @@
         "shiftFromLink3": "SAP Ariba"
     },
     "sapDataCloud": {
-        "bannerAlt": "Vague océan bleue avec superposition grille filaire numérique et points connexion lumineux représentant flux données transformation",
+        "bannerAlt": "Vague océan bleue avec grille filaire numérique et points connexion lumineux représentant flux données transformation",
         "sapImage": "/images/blog/sap-business-data-cloud-technical-architecture-diagram.png",
-        "sapAlt": "Diagramme montrant SAP Business Data Cloud hub central connecté à six composants incluant bases données, analytique et assistant IA",
+        "sapAlt": "Diagramme montrant SAP Business Data Cloud hub central connecté à six composants incluant bases données, analytique et IA",
         "seoTitle": "Qu’est-ce que le BDC dans SAP ? Transformez avec Business Data Cloud | Rialtes",
         "seoDescription": "SAP BDC simplifie l’intégration des données, donne un accès temps réel et soutient des décisions IA-ready pour transformer l’entreprise.",
         "blogs": [
@@ -4552,7 +4552,7 @@
         "faqTitle": "FAQs : Migration de SAP PI/PO vers SAP CPI"
     },
     "s4HanaSapALM": {
-        "bannerAlt": "Montagne numérique abstraite formée par ondes lumière bleue rose violet fluides avec points particules sur fond sombre montrant flux données",
+        "bannerAlt": "Montagne numérique abstraite formée par ondes lumière bleue rose violet avec points particules sur fond sombre",
         "seoTitle": "SAP Signavio et Cloud ALM : une nouvelle ère pour S/4HANA",
         "seoDescription": "Associez Signavio et Cloud ALM pour assurer gouvernance, traçabilité et exécution pilotée par KPI dans vos transformations S/4HANA.",
         "mainData": [

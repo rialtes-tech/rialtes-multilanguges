@@ -452,8 +452,8 @@
                     "Reduced outreach cost and better ROI.",
                     "Improved access to targeted care and therapies."
                 ],
-                "deskImg": "/images/products/mediyana/desktop/patient-desktop.webp",
-                "mobImg": "/images/products/mediyana/desktop/patient-desktop.webp",
+                "deskImg": "/images/products/mediaina/desktop/patient-desktop.webp",
+                "mobImg": "/images/products/mediaina/desktop/patient-desktop.webp",
                 "imgAlt": "Visual showing AI-driven patient identification and segmentation for precision healthcare",
                 "bgColor": "#CCF7F5"
             },
@@ -470,8 +470,8 @@
                     "Reduced device misuse and support calls.",
                     "Higher candidate engagement with digital tools."
                 ],
-                "deskImg": "/images/products/mediyana/desktop/candidate.webp",
-                "mobImg": "/images/products/mediyana/mobile/candidate.webp",
+                "deskImg": "/images/products/mediaina/desktop/candidate.webp",
+                "mobImg": "/images/products/mediaina/mobile/candidate.webp",
                 "imgAlt": "Illustration of personalized patient education using digital tools to support therapy adoption.",
                 "bgColor": "#C6E7FF"
             },
@@ -488,8 +488,8 @@
                     "Reduced manual errors and rework.",
                     "Faster time-to-care with lower administrative overhead."
                 ],
-                "deskImg": "/images/products/mediyana/desktop/digital.webp",
-                "mobImg": "/images/products/mediyana/mobile/digital.webp",
+                "deskImg": "/images/products/mediaina/desktop/digital.webp",
+                "mobImg": "/images/products/mediaina/mobile/digital.webp",
                 "imgAlt": "Graphic showing AI automation of prior authorization to reduce delays in treatment approval",
                 "bgColor": "#EDEDED"
             },
@@ -506,8 +506,8 @@
                     "Enhanced trial efficiency and reduced dropouts.",
                     "Actionable insights for sponsors and CROs."
                 ],
-                "deskImg": "/images/products/mediyana/desktop/clinical.webp",
-                "mobImg": "/images/products/mediyana/mobile/clinical.webp",
+                "deskImg": "/images/products/mediaina/desktop/clinical.webp",
+                "mobImg": "/images/products/mediaina/mobile/clinical.webp",
                 "imgAlt": "Visual showing AI-powered patient matching to clinical trials for faster research outcomes",
                 "bgColor": "#CCF7F5"
             },
@@ -524,8 +524,8 @@
                     "Reduced readmissions and avoidable ER visits.",
                     "End-to-end visibility across the care continuum."
                 ],
-                "deskImg": "/images/products/mediyana/desktop/long.webp",
-                "mobImg": "/images/products/mediyana/mobile/long.webp",
+                "deskImg": "/images/products/mediaina/desktop/long.webp",
+                "mobImg": "/images/products/mediaina/mobile/long.webp",
                 "imgAlt": "Image showing AI-supported long-term care coordination for continuous patient engagement",
                 "bgColor": "#C6E7FF"
             },
@@ -542,8 +542,8 @@
                     "Enhanced patient-provider communication.",
                     "Objective outcome measurement for chronic care."
                 ],
-                "deskImg": "/images/products/mediyana/desktop/body.webp",
-                "mobImg": "/images/products/mediyana/mobile/body.webp",
+                "deskImg": "/images/products/mediaina/desktop/body.webp",
+                "mobImg": "/images/products/mediaina/mobile/body.webp",
                 "imgAlt": "Graphic illustrating AI-driven mapping of patient journeys across healthcare touchpoints",
                 "bgColor": "#EDEDED"
             },
@@ -560,8 +560,8 @@
                     "Data democratization across departments.",
                     "Empowered, insight-driven decision-making."
                 ],
-                "deskImg": "/images/products/mediyana/desktop/conversational.webp",
-                "mobImg": "/images/products/mediyana/mobile/conver.webp",
+                "deskImg": "/images/products/mediaina/desktop/conversational.webp",
+                "mobImg": "/images/products/mediaina/mobile/conver.webp",
                 "imgAlt": "Visual showing Agentforce AI answering natural language queries with automated insights",
                 "bgColor": "#CCF7F5"
             },
@@ -578,8 +578,8 @@
                     "Holistic decision-making for patient outcomes.",
                     "Improved population health management."
                 ],
-                "deskImg": "/images/products/mediyana/desktop/unified.webp",
-                "mobImg": "/images/products/mediyana/mobile/unified.webp",
+                "deskImg": "/images/products/mediaina/desktop/unified.webp",
+                "mobImg": "/images/products/mediaina/mobile/unified.webp",
                 "imgAlt": "Graphic representing unified data system connecting providers, payers, and patients",
                 "bgColor": "#C6E7FF"
             },
@@ -596,8 +596,8 @@
                     "Reduced duplication and data silos.",
                     "Faster implementation and interoperability at scale."
                 ],
-                "deskImg": "/images/products/mediyana/desktop/seamless.webp",
-                "mobImg": "/images/products/mediyana/mobile/seamless.webp",
+                "deskImg": "/images/products/mediaina/desktop/seamless.webp",
+                "mobImg": "/images/products/mediaina/mobile/seamless.webp",
                 "imgAlt": "Image showing API-led integration across EHR, CRM, and ERP systems with FHIR compliance",
                 "bgColor": "#EDEDED"
             },
@@ -614,8 +614,8 @@
                     " Reduced call volume and improved service metrics. ",
                     "Consistent experience across every touchpoint."
                 ],
-                "deskImg": "/images/products/mediyana/desktop/real.webp",
-                "mobImg": "/images/products/mediyana/mobile/real.webp",
+                "deskImg": "/images/products/mediaina/desktop/real.webp",
+                "mobImg": "/images/products/mediaina/mobile/real.webp",
                 "imgAlt": "Visual showing HIPAA-compliant AI chat enabling secure communication for patients and staff",
                 "bgColor": "#CCF7F5"
             },
@@ -632,8 +632,8 @@
                     "Improved device availability and logistics efficiency.",
                     "  Better compliance and cost control. "
                 ],
-                "deskImg": "/images/products/mediyana/desktop/order.webp",
-                "mobImg": "/images/products/mediyana/mobile/order.webp",
+                "deskImg": "/images/products/mediaina/desktop/order.webp",
+                "mobImg": "/images/products/mediaina/mobile/order.webp",
                 "imgAlt": "Image showing real-time inventory visibility and SAP integration optimizing hospital logistics",
                 "bgColor": "#C6E7FF"
             },
@@ -652,8 +652,8 @@
                     " Accelerated deployment in highly regulated environments. ",
                     "Total peace of mind for your stakeholders and patients."
                 ],
-                "deskImg": "/images/products/mediyana/desktop/trusted.webp",
-                "mobImg": "/images/products/mediyana/mobile/trusted.webp",
+                "deskImg": "/images/products/mediaina/desktop/trusted.webp",
+                "mobImg": "/images/products/mediaina/mobile/trusted.webp",
                 "imgAlt": "Image showing digital tools tracking patient adherence to therapy for better treatment outcomes",
                 "bgColor": "#EDEDED"
             }

@@ -146,7 +146,18 @@ export default function Page() {
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 col-span-12">
 
                         {/* date and icons */}
-                        <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="13 October 2025" />
+                        <div className="sm:flex justify-between">
+                            <div>
+                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Exelona</span>{" "}
+                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>13 October 2025
+                            </div>
+
+                            <div>
+                                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
+                                    <BlogSocialIcons fullUrl={fullUrl} />
+                                </div>
+                            </div>
+                        </div>
 
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
@@ -333,7 +344,7 @@ export default function Page() {
                                                         data.list.map((elem, id) => {
                                                             return (
                                                                 <li key={id} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"><h4 className="inline font-bold">{elem.title}</h4>
-                                                                    <p className="">{elem.desc}</p>
+                                                                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{elem.desc}</p>
                                                                 </li>
                                                             )
                                                         })

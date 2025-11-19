@@ -334,7 +334,7 @@ export default function Page() {
                                                         className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                         dangerouslySetInnerHTML={{ __html: data.desc1 }}
                                                     />
-                                                    <h3 className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-bold pb-6">{data.des2}</h3>
+                                                    <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-bold pb-6">{data.des2}</p>
 
                                                 </div>
                                             )

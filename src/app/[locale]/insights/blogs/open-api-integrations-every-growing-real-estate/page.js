@@ -9,97 +9,92 @@ import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import Link from "next/link";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 export default function Page() {
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/";
   const currUrl = useUrl();
 
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    headline:
-      "Patient Experience Platform Transforming Long-Term Care | MediAIna by Rialtes",
-    description:
-      "A patient experience platform becomes essential, helping healthcare providers deliver continuity, coordination, and personalized care at scale.",
-    image:
-      "https://www.rialtes.com/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care.webp",
-    author: {
+    "headline": "5 Essential API Integrations for Real Estate Firms to Accelerate Growth | Rialtes",
+    "description": "Discover how open API integrations eliminate data silos and connect CRM, ERP, finance, and property management systems to enable unified operations, real-time reporting, and scalable growth for real estate firms.",
+    "image": "https://www.rialtes.com/images/blog/digital-puzzle-technology-integration.webp",
+    "author": {
       "@type": "Organization",
-      name: "Rialtes",
+      "name": "Rialtes"
     },
-    publisher: {
+    "publisher": {
       "@type": "Organization",
-      name: "Rialtes",
-      logo: {
+      "name": "Rialtes",
+      "logo": {
         "@type": "ImageObject",
-        url: "https://www.rialtes.com/images/homepage/logo.svg",
-      },
+        "url": "https://www.rialtes.com/images/homepage/logo.svg"
+      }
     },
-    mainEntityOfPage: {
+    "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id":
-        "https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/",
+      "@id": "https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/"
     },
-    datePublished: "2025-10-07",
-    mainEntity: {
+    "datePublished": "2025-10-31",
+    "mainEntity": {
       "@type": "FAQPage",
-      name: "Patient Experience Platform in Healthcare FAQs",
-      mainEntity: [
+      "name": "Open API Integrations for Real Estate — FAQs",
+      "mainEntity": [
         {
           "@type": "Question",
-          name: "What is a patient experience platform in healthcare?",
-          acceptedAnswer: {
+          "name": "What is an open API in real estate management?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text: "A patient experience platform is a digital solution that connects clinical, operational, and engagement touchpoints into one seamless journey. It ensures patients receive coordinated care, clear communication, and continuous support from diagnosis through long-term management.",
-          },
+            "text": "An open API allows different property systems — like CRM, ERP, and finance tools — to securely exchange data, enabling unified operations and real-time updates."
+          }
         },
         {
           "@type": "Question",
-          name: "How does a patient experience platform improve long-term patient care?",
-          acceptedAnswer: {
+          "name": "Why is API integration important for real estate companies?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text: "By integrating chronic care management, digital engagement, and monitoring tools, platforms like MediAIna provide care continuity. This reduces readmissions, strengthens adherence, and empowers patients to actively manage their health.",
-          },
+            "text": "It helps eliminate data silos, automate processes, and improve decision-making by synchronizing information across leasing, finance, and maintenance teams."
+          }
         },
         {
           "@type": "Question",
-          name: "Why is digital patient engagement important in chronic care management?",
-          acceptedAnswer: {
+          "name": "Can open APIs integrate legacy systems like Yardi or MRI?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text: "Digital patient engagement helps patients stay connected to providers through reminders, two-way communication, remote monitoring, and access to personalized resources. It turns long-term care into a proactive, patient-driven journey.",
-          },
+            "text": "Yes. Open APIs can bridge legacy platforms with modern CRMs and ERPs, allowing seamless data sharing without replacing existing systems."
+          }
         },
         {
           "@type": "Question",
-          name: "How does MediAIna support the integrated healthcare journey?",
-          acceptedAnswer: {
+          "name": "What are examples of open API integrations in real estate?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text: "The MediAIna patient journey platform unifies data, communication, and care pathways across providers, payers, MedTech, and life sciences enterprises. It delivers chronic care management solutions, predictive insights, and compliant innovation for better outcomes.",
-          },
+            "text": "Common examples include connecting Salesforce CRM with SAP ERP, integrating IoT maintenance tools, or linking tenant apps to communication platforms like WhatsApp."
+          }
         },
         {
           "@type": "Question",
-          name: "What makes MediAIna healthcare different from other platforms?",
-          acceptedAnswer: {
+          "name": "How do open APIs reduce operational costs?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text: "Unlike point solutions, MediAIna healthcare is designed as a comprehensive ecosystem. Backed by Rialtes’ LifeAI+ consulting suite, it offers scalability, AI-driven intelligence, and compliance—making it ideal for complex, long-term patient care.",
-          },
+            "text": "They eliminate manual data entry, reduce reconciliation errors, and enable automation, saving both time and resources across departments."
+          }
         },
         {
           "@type": "Question",
-          name: "How do digital tools support the diagnosis-to-care management journey?",
-          acceptedAnswer: {
+          "name": "How does Exelona support open API integrations?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text: "Digital tools for long-term patient care simplify transitions by offering personalized care pathways, educational resources, and continuous check-ins. They ensure patients don’t get lost between diagnosis, treatment, and follow-up stages.",
-          },
-        },
-      ],
-    },
-  };
+            "text": "Exelona's open API architecture connects CRM, ERP, finance, IoT, and analytics systems into one platform, providing a single, scalable foundation for unified real estate operations."
+          }
+        }
+      ]
+    }
+  }
 
   const blogMainData = [
     "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. Teams waste hours chasing updates, finance struggles to reconcile data, and executives get reports that are outdated by the time they’re printed.",
     "Here’s the fix: Open API integrations.",
-    "An open API ecosystem allows your CRM, ERP, finance, and property management systems to exchange data in real time. Instead of building expensive, custom bridges, open APIs make it possible to connect any system to another securely, enabling unified operations, faster decision-making, and, ultimately, more scalable growth.",
+    "An open API ecosystem allows your <a href='https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>CRM & ERP convergence</a>; this way, your property management systems exchange data in real time. Instead of building expensive, custom bridges, open APIs make it possible to connect any system to another securely, enabling unified operations, faster decision-making, and, ultimately, more scalable growth.",
     "Let’s break down what that means for real estate, which integrations you actually need, and how platforms like Exelona are helping leading firms move beyond disconnected tech stacks.",
   ];
 
@@ -108,7 +103,7 @@ export default function Page() {
       title: "The Case for Open API in Real Estate",
       desc: "Most property management platforms were never designed to play nicely with others. Systems like Yardi, MRI, and legacy CRMs often store tenant, lease, and payment data in silos, making it hard for teams to collaborate across functions like leasing, maintenance, and finance.",
       desc2:
-        "But the real estate industry is shifting fast. According to PwC’s Emerging Trends in Real Estate 2025, more than 68% of real estate executives prioritize system consolidation or open API adoption as part of their digital strategy.",
+        "But the real estate industry is shifting fast. According to <a href='https://www.pwc.com/gx/en/investment-management-real-estate/assets/emerging-trends-report-2025.pdf' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>PwC’s Emerging Trends in Real Estate 2025</a>, more than 68% of real estate executives prioritize system consolidation or open API adoption as part of their digital strategy.",
       desc3:
         "Why? Because data fragmentation costs money. It slows everything from billing cycles to technician dispatch, making real-time reporting impossible. Open APIs address this by:",
       list: [
@@ -160,7 +155,7 @@ export default function Page() {
     {
       title: "2. ERP and Financial Systems Integration",
       why: "<strong>Why it matters:</strong> Real estate finance teams often rely on SAP, Oracle, or QuickBooks, but these systems are disconnected from operations data like rent collections or maintenance costs.",
-       list: [
+      list: [
         {
           title: "Unified financial tracking",
           description:
@@ -183,7 +178,7 @@ export default function Page() {
     {
       title: "3. IoT and Predictive Maintenance Integration",
       why: "<strong>Why it matters:</strong> Maintenance costs are among the biggest operational drains in real estate. Delayed repairs, unexpected breakdowns, and poor technician allocation can drive Opex up by 20–30%.",
-       list: [
+      list: [
         {
           title: "Sensor data integration",
           description:
@@ -229,7 +224,7 @@ export default function Page() {
     {
       title: "5. Analytics and Business Intelligence Integration",
       why: "<strong>Why it matters:</strong> Decisions in real estate are only as good as the data behind them. But when your leasing, finance, and operations data live in silos, it’s nearly impossible to get accurate insights.",
-       list: [
+      list: [
         {
           title: "Unified dashboards",
           description:
@@ -250,13 +245,13 @@ export default function Page() {
         "An Australian commercial property firm integrated its SAP, Salesforce, and IoT data into a single Tableau dashboard via open APIs. The move provided a 360° portfolio view and reduced monthly reporting time by 60 hours per team.",
     },
   ];
-const buildData=[
-  {
+  const buildData = [
+    {
       title: "The Bigger Picture: Open APIs Build Scalable Ecosystems",
       desc: "Here’s what’s really happening behind the scenes: open APIs are about building an adaptable, scalable foundation for future growth.",
       desc2: "As new tools emerge, whether AI-driven leasing bots or blockchain-based contracts, an open API framework ensures you can plug them in without re-engineering your tech stack. It’s the opposite of vendor lock-in. You decide which systems fit your business, and your data flows where it’s needed most.That makes open API integrations for real estate such a calculated differentiator. They turn your IT landscape into a flexible ecosystem that grows with your business.",
-      desc3: "Most real estate firms need a platform that integrates everything they already use. <strong>Exelona</strong>  is designed as a unified real estate management platform. It combines CRM, ERP, finance, and operations into one system, powered by an open API architecture that connects seamlessly with tools like:",
-       list: [
+      desc3: "Most real estate firms need a platform that integrates everything they already use. <strong>Exelona</strong>  is designed as a <a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>unified real estate management platform</a>. It combines CRM, ERP, finance, and operations into one system, powered by an open API architecture that connects seamlessly with tools like:",
+      list: [
         {
           title: "SAP",
           description:
@@ -276,16 +271,16 @@ const buildData=[
           title: "IoT systems ",
           description:
             "for predictive maintenance",
-        },{
+        }, {
           title: "Analytics tools",
           description:
             "for portfolio insights",
         },
       ],
       desc4:
-        "If your current setup feels like a patchwork of disconnected apps and spreadsheets, it’s time to rethink integration and talk to our experts because Exelona is built to help you do exactly that.",
+        "If your current setup feels like a patchwork of disconnected apps and spreadsheets, it’s time to rethink integration and <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>talk to our experts</a> because Exelona is built to help you do exactly that.",
     },
-]
+  ]
 
   const faqData = [
     {
@@ -322,11 +317,10 @@ const buildData=[
   return (
     <section className="min-h-screen">
       <Seo
-        title="Patient Experience Platform Transforming Long-Term Care | Rialtes"
-        description="Discover how MediAIna, Rialtes’ patient experience platform, redefines healthcare journeys with digital engagement, AI insights, and chronic care support."
+        title="Smart API Integrations for Real Estate Firms in 2026 | Rialtes"
+        description="API integrations help real estate firms connect CRM, ERP, and finance systems, boosting automation, team productivity, and data-driven decision-making."
         canonical={
-          "https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/"
-        }
+          "https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/"}
       />
 
       <Script
@@ -364,7 +358,7 @@ const buildData=[
             <div className="sm:flex justify-between">
               <div>
                 <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  Exelona
+                  Integration
                 </span>{" "}
                 <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {" "}
@@ -383,7 +377,7 @@ const buildData=[
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
               <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
-                5 Open API Integrations Every Growing Real Estate Firm Needs
+                5 Essential API Integrations for Real Estate Firms to Accelerate Growth
               </h1>
               <div className="xl:mt-[38px] mt-[33px]">
                 {blogMainData.map((data, ind) => {
@@ -455,7 +449,7 @@ const buildData=[
                   );
                 })}
               </div>
-           {/*Integration section */}
+              {/*Integration section */}
               <div className="md:mt-[50px] mt-[40px]">
                 {integrationData.map((data, ind) => {
                   return (
@@ -463,11 +457,11 @@ const buildData=[
                       <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                         {data.title}
                       </h2>
-                       <p
+                      <p
                         className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                         dangerouslySetInnerHTML={{ __html: data.why }}
                       />
-                      
+
                       <h3 className="font-bold 4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[17px] text-[17px] mt-[25px]">
                         What open APIs enable:
                       </h3>
@@ -479,16 +473,14 @@ const buildData=[
                               className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium"
                             >
                               <h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                {enable.title}:{" "}
+                                {enable.title}{" "}
                               </h4>
                               {enable.description}
                             </li>
                           );
                         })}
                       </ul>
-                       <h3 className="font-bold 4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[17px] text-[17px] mt-[25px]">
-                        Example:
-                      </h3>
+
                       <p className="mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                         {data.example}
                       </p>
@@ -496,8 +488,8 @@ const buildData=[
                   );
                 })}
               </div>
-               {/*The Bigger Picture: Open APIs Build Scalable Ecosystems section */}
-                <div className="md:mt-[50px] mt-[40px]">
+              {/*The Bigger Picture: Open APIs Build Scalable Ecosystems section */}
+              <div className="md:mt-[50px] mt-[40px]">
                 {buildData.map((data, ind) => {
                   return (
                     <div key={ind}>
@@ -516,22 +508,22 @@ const buildData=[
                         className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                         dangerouslySetInnerHTML={{ __html: data.desc3 }}
                       />
-                    <ul className="pl-[36px] lg:pl-[56px] space-y-2 mt-5">
+                      <ul className="pl-[36px] lg:pl-[56px] space-y-2 mt-5">
                         {data.list.map((enable, id) => {
                           return (
                             <li
                               key={id}
                               className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium"
                             >
-                              <h4 className="font-semibold inline 4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[17px] text-[17px]">
+                              <p className="font-semibold inline 4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[17px] text-[17px]">
                                 {enable.title}{" "}
-                              </h4>
+                              </p>
                               {enable.description}
                             </li>
                           );
                         })}
                       </ul>
-                       <p
+                      <p
                         className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                         dangerouslySetInnerHTML={{ __html: data.desc4 }}
                       />

@@ -44,9 +44,13 @@ const Home = () => {
     const [activeIndexInsights, setActiveIndexInsights] = useState(0);
     const [currentSlide, setCurrentSlide] = useState(0);
 
+    const slides = useMemo(() => [
+        { link: "/solutions/data-ai/sap-business-data-cloud-bdc-consulting/", title: "SAP Business Data Cloud", image: '/images/homepage/sap-business-datacloude-desktop.webp', imageMobile: '/images/homepage/sap-business-data-cloude-mobile.webp' },
+        { link: "/industry/real-estate-property-management/", image: '/images/homepage/real-estate-desktop-banner.webp', title: "Real Estate", imageMobile: '/images/homepage/real-estate-mobile-banner.webp' },
+        { link: "/industry/hitech-semiconductor-ai-it-solutions", image: '/images/homepage/semiconducter-desktop-banner.webp', title: "Semiconductor Industry", imageMobile: '/images/homepage/semiconductor-mobile-banner.webp' },
 
-
-    const handlePrevInsights = () => {
+    ], [])
+    const handlePrevInsights = () => { 
         setActiveIndexInsights((prevIndex) =>
             prevIndex === 0 ? carouselData.length - 1 : prevIndex - 1
         );
