@@ -791,7 +791,7 @@ export default function retailPage() {
                                     <div className="block md:hidden w-[calc(100%-60px)] h-[360px] absolute top-[-50px] left-0">
                                         <Image
                                             src={data.mobImgUrl}
-                                            alt="AI-Powered mobile image"
+                                            alt={`${data.alt}`}
                                             className="w-full h-full object-cover"
                                             width={0}
                                             height={0}
@@ -803,7 +803,7 @@ export default function retailPage() {
                                     <div className="hidden md:block md:w-[calc(100%-60px)] lg:h-[420px] md:h-[360px] absolute top-[-50px] left-0">
                                         <Image
                                             src={data.deskImgUrl}
-                                            alt="AI-Powered desktop image"
+                                            alt={`${data.alt}`}
                                             className="w-full h-full object-cover"
                                             width={0}
                                             height={0}

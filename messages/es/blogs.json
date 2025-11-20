@@ -1248,7 +1248,7 @@
         "overcomeLink": "soluciones de integración SAP SuccessFactors."
     },
     "redefiningBlog": {
-        "bannerAlt": "Árbol digital azul y cian brillante con líneas conectadas fluyentes y puntos de luz sobre fondo azul oscuro mostrando red de datos",
+        "bannerAlt": "Árbol digital azul y cian brillante con líneas conectadas y puntos de luz sobre fondo azul oscuro mostrando red de datos",
         "seoTitle": "SAP Joule AI: Impulsando el Futuro Empresarial",
         "seoDescription": "SAP Joule AI transforma operaciones, permitiendo decisiones rápidas y respuestas instantáneas sin navegar paneles complejos.",
         "blogTopic": "SAP",
@@ -1362,9 +1362,9 @@
         "shiftFromLink3": "SAP Ariba"
     },
     "sapDataCloud": {
-        "bannerAlt": "Ola oceánica azul con superposición de cuadrícula digital y puntos de conexión brillantes representando flujo de datos y transformación",
+        "bannerAlt": "Ola oceánica azul con cuadrícula digital y puntos de conexión brillantes representando flujo de datos y transformación",
         "sapImage": "/images/blog/sap-business-data-cloud-technical-architecture-diagram.png",
-        "sapAlt": "Diagrama mostrando SAP Business Data Cloud como centro conectado a seis componentes incluyendo bases de datos, analítica y asistente IA",
+        "sapAlt": "Diagrama mostrando SAP Business Data Cloud como centro conectado a seis componentes incluyendo bases datos, analítica y IA",
         "seoTitle": "¿Qué es BDC en SAP? Transforma con Business Data Cloud",
         "seoDescription": "SAP BDC simplifica la integración de datos con acceso en tiempo real y confiable, impulsando decisiones basadas en IA y transformación empresarial.",
         "blogs": [
@@ -3255,7 +3255,7 @@
         "faqTitle": "Preguntas frecuentes (FAQs)"
     },
     "firstAiAgent": {
-        "bannerAlt": "Hombre interactuando con una ola luminosa de visualización de datos de IA que representa la transformación digital y el aprendizaje automático.",
+        "bannerAlt": "Hombre interactuando con ola luminosa de visualización de datos de IA representando transformación digital y aprendizaje",
         "seoTitle": "Cómo Implementar Agentes de IA en Salesforce Agentforce",
         "seoDescription": "¿Listo para automatizar con IA? Usa esta guía paso a paso para crear e implementar agentes de IA en Agentforce sin código ni altos costos.",
         "blogTopic": "Inteligencia Artificial",
@@ -4495,7 +4495,7 @@
         "faqTitle": "FAQs: Migración de SAP PI/PO a SAP CPI"
     },
     "s4HanaSapALM": {
-        "bannerAlt": "Montaña digital abstracta formada por ondas de luz azul rosa y púrpura fluyentes con puntos de partículas sobre fondo oscuro mostrando flujo datos",
+        "bannerAlt": "Montaña digital abstracta formada por ondas de luz azul rosa y púrpura con puntos de partículas sobre fondo oscuro",
         "seoTitle": "SAP Signavio y Cloud ALM: Nueva Transformación S/4HANA",
         "seoDescription": "Unir SAP Signavio con Cloud ALM crea gobierno, trazabilidad y ejecución basada en KPIs para transformar S/4HANA con éxito.",
         "mainData": [

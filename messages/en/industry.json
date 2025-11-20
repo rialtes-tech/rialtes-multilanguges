@@ -475,7 +475,7 @@
     "contactSubTitle2": "Contact us today to discover how Rialtes can drive growth and patient impact for your organization."
   },
   "healthCare": {
-    "bannerAlt":"Healthcare professional in lab coat and glasses analyzing holographic medical data display with DNA strand and patient imaging scans",
+    "bannerAlt":"Healthcare professional in lab coat and glasses analyzing holographic medical data display with DNA strand and patient imaging",
     "seoTitle": "MedTech Healthcare Consulting and Patient Care Solutions | Rialtes",
     "seoDescription": "Rialtes delivers AI-powered MedTech healthcare consulting and patient care solutions to enhance clinical outcomes and streamline healthcare operations.",
     "slidesCaseStudy": [
@@ -535,7 +535,7 @@
       {
         "id": 1,
         "image": "/images/healthcare/healthcare-worker-patient-digital-consultation.webp",
-        "imageAlt":"Healthcare worker in blue scrubs with stethoscope discussing digital medical records on tablet with masked patient in clinic setting",
+        "imageAlt":"Healthcare worker in blue scrubs with stethoscope discussing digital medical records on tablet with masked patient in clinic",
         "title": "Patient Care with Salesforce Health Cloud",
         "description": "Implementing Salesforce Health Cloud can significantly upgrade the patient experience solutions by centralizing all healthcare data. This helps in smarter decision-making and offers an intuitive platform for healthcare professionals.",
         "productsDetails": [
@@ -572,7 +572,7 @@
       {
         "id": 4,
         "image": "/images/healthcare/healthcare-professional-electronic-medical-records.webp",
-        "imageAlt":"Healthcare professional in blue scrubs holding tablet displaying electronic medical record system with patient data and X-ray imaging",
+        "imageAlt":"Healthcare professional in blue scrubs holding tablet displaying electronic medical record system with patient data and X-ray",
         "title": "Unmatched MedTech Services",
         "description": "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities.",
         "productsDetails": [
@@ -2351,7 +2351,7 @@
       {
         "imgUrl": "/images/industry/retail-industry/retail-data-integration-system-synchronization-icon.svg",
         "desc": "Integration of Front and Back Office (SAP, Salesforce, Oracle, MuleSoft)",
-        "alt" : "Blue icon showing computer monitor with bidirectional arrows and folder representing retail data integration and synchronization"
+        "alt" : "Blue icon showing computer monitor with bidirectional arrows and folder representing retail data integration and sync"
       },
       {
         "imgUrl": "/images/industry/retail-industry/retail-customer-support-service-icon.svg",
@@ -2503,10 +2503,10 @@
     "contactSubTitle2": "Contact us today to unlock the future of retail."
   },
   "nonProfit": {
-    "whyChooseRialtesAlt" : "Hand touching nonprofit digital network interface with connected icons showing community collaboration innovation and organization ecosystem",
-    "dataCloudAlt" : "Volunteers working with transparent data analytics overlay showing pie charts graphs representing nonprofit impact measurement metrics",
-    "agentforceAlt" : "Smiling nonprofit professionals collaborating on laptop reviewing organizational strategy and program planning together at desk",
-    "donorSectionAlt" : "Professional reviewing data analytics charts and graphs on smartphone with laptop displaying nonprofit performance metrics reports",
+    "whyChooseRialtesAlt" : "Hand touching nonprofit digital network interface with connected icons showing community collaboration and organization",
+    "dataCloudAlt" : "Volunteers working with transparent data analytics overlay showing pie charts graphs representing nonprofit impact metrics",
+    "agentforceAlt" : "Smiling nonprofit professionals collaborating on laptop reviewing organizational strategy and program planning at desk",
+    "donorSectionAlt" : "Professional reviewing data analytics charts and graphs on smartphone with laptop displaying nonprofit performance metrics",
     "thoughtLeadershipAlt" : "Volunteer team members using tablet for coordinating food distribution and donation management at community food bank",
     "bannerAlt" : "Hands assembling colorful rainbow heart puzzle representing nonprofit teamwork collaboration and purpose-driven unity",
     "seoTitle": "Nonprofit Digital Transformation and IT Solutions | Rialtes",
@@ -2646,7 +2646,7 @@
         "bgColor": "#E6E1F7",
         "deskImg": "/images/industry/non-profit-industry/mobile-phone-donation-app-charity-interface.webp",
         "mobImg": "/images/industry/non-profit-industry/Mobile/mobile-phone-donation-app-charity-interface-mobile.webp",
-        "alt" : "Person using smartphone donation app interface showing charity contribution and fundraising platform for nonprofit organizations"
+        "alt" : "Person using smartphone donation app interface showing charity contribution and fundraising platform for nonprofits"
       },
       {
         "title": "Grant Management",
@@ -2661,7 +2661,7 @@
         "bgColor": "#F0E4ED",
         "deskImg": "/images/industry/non-profit-industry/financial-management-technology-icons-nonprofit-dashboard.webp",
         "mobImg": "/images/industry/non-profit-industry/Mobile/financial-management-technology-icons-nonprofit-dashboard-mobile.webp",
-        "alt" : "Holographic financial icons including money bag charts and analytics displaying nonprofit financial management technology dashboard"
+        "alt" : "Holographic financial icons including money bag charts and analytics displaying nonprofit financial management dashboard"
       }
     ],
     "headerTitle": "Non-Profit Industry",

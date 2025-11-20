@@ -260,7 +260,7 @@ const LocationPage = () => {
         <div className="xl:pr-[200px]">
           <Image
             src="/images/contact-us/global-office-locations-map.webp"
-            alt="World map highlighting global office locations"
+            alt={t('bannerAlt')}
             className="pt-10 relative"
             width={0}
             height={0}
