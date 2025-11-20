@@ -86,7 +86,7 @@ export default function Page() {
           <div className="">
             <div className="flex flex-col md:flex-row justify-between gap-4 items-center text-black ">
               <div className=''>
-                <span className='text-[#0092E0]'>Manufacturing </span> <span className='text-[#ACACAC]'> | </span>14 October 2024
+                <span className='text-[#0092E0]'>Semiconductor </span> <span className='text-[#ACACAC]'> | </span>14 October 2024
               </div>
               <div className="flex flex-row gap-6 ml-[-8px] ">
                 <div className="max-w-[40px]">
@@ -209,7 +209,7 @@ export default function Page() {
       </section>
       {/* case study carousel */}
       <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
-        <RelatedCaseStudies url={currUrl} currTopic="Manufacturing" />
+        <RelatedCaseStudies url={currUrl} currTopic="Semiconductor" />
       </section>
 
     </div>
