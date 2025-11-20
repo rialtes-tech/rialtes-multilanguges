@@ -338,7 +338,7 @@
     ]
   },
   "empoweringCaseStudy": {
-    "bannerAlt": "Muro de exhibición mostrando variedad de muestras de tejas para techos en diferentes colores incluyendo marrón beige gris y negro",
+    "bannerAlt": "Muro de exhibición mostrando variedad muestras de tejas para techos en diferentes colores incluyendo marrón beige gris y negro",
     "headerTitle": "150 pedidos al día, cero trabajo manual: Priorización de pedidos con autoservicio impulsada por Fiori",
     "manufacturing": "Manufactura",
     "seoTitle": "SAP Fiori para priorización de pedidos en manufactura",
@@ -512,7 +512,7 @@
     ]
   },
   "omnichannelCaseStudy": {
-    "bannerAlt": "Primer plano de una máquina de precisión trabajando en un microchip brillante que representa la fabricación avanzada de semiconductores",
+    "bannerAlt": "Primer plano de máquina de precisión trabajando en microchip brillante representando fabricación avanzada de semiconductores",
     "serviceTitle": "Transformación de la Gestión de Casos Omnicanal con Salesforce Service Cloud",
     "manufacturing": "Manufactura",
     "seoTitle": "Estudio Salesforce Service Cloud: Gestión omnicanal de casos",
@@ -579,7 +579,7 @@
     ]
   },
   "optimizingCaseStudy": {
-    "bannerAlt": "Técnica de control de calidad con cofia y gafas de seguridad inspeccionando botella transparente en línea de producción automatizada",
+    "bannerAlt": "Técnica de control calidad con cofia y gafas de seguridad inspeccionando botella transparente en línea producción automatizada",
     "salesTitle": "Optimización de Ventas con Salesforce Sales Cloud para la Manufactura",
     "manufacturing": "Manufactura",
     "seoTitle": "Estudio Salesforce Sales Cloud: Optimización de ventas",
@@ -731,7 +731,7 @@
     ]
   },
   "autoSenseCaseStudy": {
-    "bannerAlt": "Mujer de negocios sonriente con gafas y colega masculino colaborando en computadora portátil en ambiente de oficina contemporánea",
+    "bannerAlt": "Mujer de negocios sonriente con gafas y colega colaborando en computadora portátil en oficina contemporánea",
     "dealerTitle": "Impulsando la Gestión de Concesionarios con AutoSense de Rialtes",
     "manufacturing": "Manufactura",
     "seoTitle": "Revolucionando la gestión de concesionarios con AutoSense",
@@ -860,7 +860,7 @@
     ]
   },
   "salesForceCaseStudy": {
-    "bannerAlt": "Visualización digital de una red neuronal o estructura cerebral sobre una tableta, que simboliza la inteligencia artificial y la conectividad de datos",
+    "bannerAlt": "Visualización digital de red neuronal o estructura cerebral sobre tableta simbolizando inteligencia artificial y conectividad",
     "salesforceTitle": "Digitalización de la Autorización Previa para Mejores Resultados en Pacientes",
     "seoTitle": "Estudio Salesforce Health Cloud: Autorizaciones simplificadas",
     "seoDescription": "Descubre cómo Salesforce Health Cloud aceleró las autorizaciones, simplificando los procesos para un cuidado más rápido.",
@@ -910,7 +910,7 @@
   },
   "devopsCaseStudy": {
     "devopsTitle": "Transformación DevOps usando Copado y Salesforce",
-    "bannerAlt": "Equipo de construcción diverso usando cascos de seguridad y chalecos reflectantes revisando datos de proyecto en portátil en almacén industrial",
+    "bannerAlt": "Equipo de construcción diverso usando cascos de seguridad y chalecos reflectantes revisando datos de proyecto en portátil",
     "seoTitle": "Estudio Salesforce DevOps: Optimización de entregas",
     "seoDescription": "Descubre cómo optimizar DevOps con Copado y Salesforce aceleró entregas y redujo errores manuales.",
     "manufacturing": "Manufactura",
@@ -971,7 +971,7 @@
     ]
   },
   "mobileCaseStudy": {
-    "bannerAlt": "Ajustador de seguros y propietario revisando detalles de reclamo en tableta frente a techo dañado por tormenta requiriendo evaluación",
+    "bannerAlt": "Ajustador de seguros y propietario revisando detalles de reclamo en tableta frente a techo dañado por tormenta",
     "claimTitle": "Reclamo en 4 minutos: Rialtes crea un portal móvil para transformar la experiencia de reclamaciones",
     "manufacturing": "Manufactura",
     "seoTitle": "Estudio Salesforce Experience Cloud: Portal móvil de garantías",
@@ -995,7 +995,7 @@
     ]
   },
   "warrantyClaimCaseStudy": {
-    "bannerAlt": "Muestras de tejas para techos en capas mostrando múltiples opciones de color incluyendo rojo marrón azul gris beige y tonos cobre",
+    "bannerAlt": "Muestras de tejas en capas mostrando opciones de color: rojo marrón azul gris beige y tonos cobre",
     "warrantyTitle": "40% de Aumento en la Adopción de la Aplicación de Garantías Usando la Funcionalidad de Salesforce Experience Cloud",
     "manufacturing": "Manufactura",
     "seoTitle": "Estudio: Experience Cloud para fabricante de techos",
@@ -1071,7 +1071,7 @@
     ]
   },
   "eduplusCaseStudy": {
-    "bannerAlt": "Birrete de graduación con borla dorada flotando sobre nubes blancas con escalera de madera simbolizando logro educativo y avance profesional",
+    "bannerAlt": "Birrete de graduación con borla dorada flotando sobre nubes blancas con escalera simbolizando logro educativo",
     "educationcloud": "Educación",
     "seoTitle": "Estudio Salesforce Education Cloud | Rialtes",
     "seoDescription": "Descubre cómo Edu+ en Education Cloud aumentó inscripciones 22% y mejoró soporte estudiantil con IA y automatización.",
