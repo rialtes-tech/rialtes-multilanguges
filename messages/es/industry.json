@@ -131,7 +131,7 @@
     "headerTitle": "Gestiona procesos inmobiliarios con software de gestión de propiedades en la nube",
     "seoTitle": "Revolucionando la Gestión Inmobiliaria para el Sector Real Estate | Rialtes",
     "seoDescription": "El futuro de la gestión inmobiliaria ha llegado. Automatiza arrendamientos, reduce vacantes y mejora el ROI con software especializado.",
-    "bannerAlt": "Mano de arquitecto señalando maqueta de ciudad en miniatura blanca con rascacielos representando planificación urbana y desarrollo inmobiliario",
+    "bannerAlt": "Mano de arquitecto señalando maqueta de ciudad en miniatura blanca con rascacielos representando planificación urbana",
     "headerSubTitle": "BIENES RAÍCES",
     "realTitle": "Software de gestión de propiedades asequible para tus operaciones inmobiliarias",
     "realDescOne": "El mercado inmobiliario es dinámico e impredecible, pero tu negocio no tiene por qué serlo. Con las herramientas y estrategias adecuadas, las empresas inmobiliarias pueden lograr un crecimiento constante año tras año mientras superan las expectativas de los clientes.",
@@ -148,7 +148,7 @@
       {
         "id": 1,
         "image": "/images/industry/real-estate/hands-typing-laptop-digital-files-data-management.webp",
-        "alt": "Manos escribiendo en laptop con superposición de íconos de archivos digitales representando gestión de datos y almacenamiento en nube",
+        "alt": "Manos escribiendo en laptop con superposición de íconos de archivos digitales representando gestión de datos y nube",
         "title": "Operaciones Centralizadas: Una Solución Integral",
         "description": "Imagina gestionar todos tus datos de propiedad, desde contratos de alquiler hasta cronogramas de mantenimiento, en un solo lugar. RealForce ofrece operaciones centralizadas para una experiencia de gestión optimizada a través de nuestra eficiente plataforma en línea.",
         "productsDetails": [
@@ -160,7 +160,7 @@
       {
         "id": 2,
         "image": "/images/industry/real-estate/hand-stylus-tablet-holographic-data-analytics.webp",
-        "alt": "Mano usando stylus en tablet con gráficos de datos holográficos y mapa mundial representando análisis empresarial y tecnología digital",
+        "alt": "Mano usando stylus en tablet con gráficos de datos holográficos y mapa mundial representando análisis empresarial",
         "title": "Accesibilidad Multiplataforma: Gestiona Sobre la Marcha",
         "description": "Nuestro sistema de gestión de propiedades en línea te permite acceder al panel de control donde sea que estés, convirtiéndonos en líderes entre los proveedores de software de gestión inmobiliaria en EE. UU.",
         "productsDetails": [
@@ -172,7 +172,7 @@
       {
         "id": 3,
         "image": "/images/industry/real-estate/hands-interacting-holographic-dashboard-data-visualization.webp",
-        "alt": "Manos interactuando con pantallas holográficas de panel mostrando gráficos de datos y análisis sobre laptop representando inteligencia empresarial",
+        "alt": "Manos interactuando con pantallas holográficas de panel mostrando gráficos de datos sobre laptop representando inteligencia",
         "title": "Analítica Integral: Toma Decisiones Informadas",
         "description": "Nos destacamos entre los mejores softwares de gestión inmobiliaria al ofrecer la plataforma de analítica número uno para mejorar tus indicadores, desde ingresos hasta vacantes.",
         "productsDetails": [
@@ -184,7 +184,7 @@
       {
         "id": 4,
         "image": "/images/industry/real-estate/accountant-using-calculator-financial-reports-laptop.webp",
-        "alt": "Persona usando calculadora con informes financieros y laptop mostrando gráficos coloridos representando trabajo de contabilidad y análisis presupuestario",
+        "alt": "Persona usando calculadora con informes financieros y laptop mostrando gráficos coloridos representando contabilidad",
         "title": "Claridad Financiera: Contabilidad Simplificada",
         "description": "Nuestro software es la solución contable preferida por agentes inmobiliarios que buscan informes financieros detallados y capacidades de facturación. Simplifica tu proceso de presupuesto con la plataforma en la nube número uno del mundo.",
         "productsDetails": [
@@ -231,7 +231,7 @@
       {
         "id": 1,
         "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
-        "alt": "Tres profesionales de negocios en oficina moderna discutiendo planes mientras uno señala pared representando planificación de espacio laboral y colaboración",
+        "imageAlt": "Tres profesionales de negocios en oficina moderna discutiendo planes mientras uno señala pared representando planificación",
         "title": "Módulo Bancario RealForce - ACH",
         "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión de propiedades multifamiliares.",
         "url": "/insights/case-studies/realForce-banking-module-ach"
@@ -240,7 +240,7 @@
         "id": 2,
         "url": "/insights/case-studies/yardi-managed-services",
         "imgSrc": "/images/case-studies/abstract-colorful-city-skyline-data-visualization.webp",
-        "alt": "Paisaje urbano abstracto 3D con barras de gradiente colorido en rosa, azul y naranja representando visualización de datos y análisis urbano",
+        "imageAlt": "Paisaje urbano abstracto 3D con barras de gradiente colorido en rosa, azul y naranja representando visualización de datos",
         "title": "Servicios Gestionados de Yardi",
         "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU. especializada en la gestión e inversión de propiedades multifamiliares."
       }
