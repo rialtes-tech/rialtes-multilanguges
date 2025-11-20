@@ -114,7 +114,7 @@ export default function page() {
                   {t("clientTitle")}
                 </h2>
 
-                <p className="mt-[16px] xl:mt-[22px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                <p className="mt-[16px] xl:mt-[22px] 4xl:text-[20px] 2xl:text-[17px] text-[16px]">
                   {t("cliendDesc")}
                 </p>
               </div>{" "}
@@ -124,19 +124,19 @@ export default function page() {
                   {t("challengesTitle")}
                 </h2>
 
-                <h3 className="4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight font-bold  mt-5 ">
+                <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] leading-tight font-bold  mt-5 ">
                   {t("challengesDesc")}
                 </h3>
-                <p className="4xl:text-[20px] xl:text-[17px] text-[16px] mt-5 ">
+                <p className="4xl:text-[20px] 2xl:text-[17px] text-[16px] mt-5 ">
                   {t("challengesOne")}
                 </p>
 
                 <UnorderedList
-                  ulClassName="4xl:text-[20px] xl:text-[17px] text-[16px] marker:text-black list-disc text-black font-medium mt-5  pl-[36px] lg:pl-[56px] "
+                  ulClassName="4xl:text-[20px] 2xl:text-[17px] text-[16px] marker:text-black list-disc text-black font-medium mt-5  pl-[36px] lg:pl-[56px] "
                   liClassName="mt-4 text-black last:pb-0"
                   arrName={studentChallenges}
                 />
-                <p className="4xl:text-[20px] xl:text-[17px] text-[16px] mt-5 ">
+                <p className="4xl:text-[20px] 2xl:text-[17px] text-[16px] mt-5 ">
                   {t("challengesTwo")}
                 </p>
               </div>
@@ -151,7 +151,7 @@ export default function page() {
                   {t("solutionDesc")}
                 </h3>
 
-                <p className="4xl:text-[20px]  xl:text-[17px] text-[16px] mt-5">
+                <p className="4xl:text-[20px]  2xl:text-[17px] text-[16px] mt-5">
                   {t("solutionOne")}
                 </p>
 
@@ -159,7 +159,7 @@ export default function page() {
                   {t("highlights")}:
                 </h3>
                 <UnorderedList
-                  ulClassName="4xl:text-[20px] xl:text-[17px] text-[16px] marker:text-black list-disc text-black font-medium mt-4 pl-[36px] lg:pl-[56px] "
+                  ulClassName="4xl:text-[20px] 2xl:text-[17px] text-[16px] marker:text-black list-disc text-black font-medium mt-4 pl-[36px] lg:pl-[56px] "
                   liClassName="mt-5 text-black last:pb-0"
                   arrName={eduSolutions}
                 />
@@ -184,7 +184,7 @@ export default function page() {
                         <h3 className="font-bold text-black 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight mt-5">
                           {feature.title}
                         </h3>
-                        <p className="text-black 4xl:text-[20px] xl:text-[17px] text-[16px] mt-5">
+                        <p className="text-black 4xl:text-[20px] 2xl:text-[17px] text-[16px] mt-5">
                           {feature.description}
                         </p>
                       </div>
@@ -196,7 +196,7 @@ export default function page() {
                   {t("impactTitle")}
                 </h3>
 
-                <p className="4xl:text-[20px]  xl:text-[17px] text-[16px] mt-5">
+                <p className="4xl:text-[20px]  2xl:text-[17px] text-[16px] mt-5">
                   {t("impactDesc")}
                 </p>
                 <section className="w-full flex justify-center">
@@ -212,7 +212,7 @@ export default function page() {
                             <span className="4xl:text-[40px] 2xl:text-[34px] xl:text-[30px] text-[30px] font-bold text-[#0C8AED]">
                               {item.value}
                             </span>
-                            <p className="text-black 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                            <p className="text-black 4xl:text-[20px] 2xl:text-[17px] text-[16px]">
                               {item.description}
                             </p>
                           </div>
@@ -225,7 +225,7 @@ export default function page() {
                         {t("benefits")}
                       </h3>
                       <UnorderedList
-                        ulClassName="list-disc text-black 4xl:text-[20px] xl:text-[17px] text-[16px] space-y-4 font-medium pl-[36px] lg:pl-[56px] "
+                        ulClassName="list-disc text-black 4xl:text-[20px] 2xl:text-[17px] text-[16px] space-y-4 font-medium pl-[36px] lg:pl-[56px] "
                         liClassName="text-black"
                         arrName={eduBenefits}
                       />
@@ -238,11 +238,11 @@ export default function page() {
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                   {t("about")}
                 </h2>
-                <p className="4xl:text-[20px] xl:text-[17px] text-[16px] mt-[16px] xl:mt-[22px]">
+                <p className="4xl:text-[20px] 2xl:text-[17px] text-[16px] mt-[16px] xl:mt-[22px]">
                   {t("aboutDesc")}
                 </p>
                 <UnorderedList
-                  ulClassName="list-disc pl-[36px] lg:pl-[56px] text-black 4xl:text-[20px] xl:text-[17px] text-[16px] space-y-3 font-medium mt-5"
+                  ulClassName="list-disc pl-[36px] lg:pl-[56px] text-black 4xl:text-[20px] 2xl:text-[17px] text-[16px] space-y-3 font-medium mt-5"
                   liClassName="text-black "
                   arrName={aboutList}
                 />
