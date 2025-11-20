@@ -1,9 +1,10 @@
 "use client";
-// pages/case-study-detail.js
 import Image from "next/image";
-import RelatedTopicsCarousel from '../../../components/relatedTopicsCarousel';
+import RealtedCaseStudies from '../../../components/RealtedCaseStudies';
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
+import useUrl from "@/app/components/useUrl";
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -32,6 +33,7 @@ const schemaData = {
 }
 
 export default function Page() {
+  const currUrl = useUrl()
   const fullUrl = "https://www.rialtes.com/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense";
 
   return (
@@ -240,6 +242,10 @@ export default function Page() {
         </div>
       </section>
 
+      {/* case study carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <RealtedCaseStudies url={currUrl} currTopic="Automotive" />
+      </section>
     </div>
   );
 }

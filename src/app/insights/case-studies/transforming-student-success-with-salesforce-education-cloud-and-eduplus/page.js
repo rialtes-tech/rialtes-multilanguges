@@ -127,8 +127,7 @@ export default function page() {
 
 
             <section
-                className="custom-container"
-            >
+                className="custom-container">
 
                 <div className="py-10 bg-white  4xl:w-[1130px] 2xl:w-[900px] xl:w-[800px]">
                     <div className="pt-4"></div>
