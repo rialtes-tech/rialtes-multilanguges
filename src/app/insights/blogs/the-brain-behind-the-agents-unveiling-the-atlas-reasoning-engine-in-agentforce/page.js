@@ -21,7 +21,6 @@ export default function Page() {
     {
       "title": "Quick Answer: What Is the Atlas Reasoning Engine in Agentforce and Why Does It Matter?",
       "desc": [
-        "If you want the short version, here it is.",
         "The Atlas Reasoning Engine is the decision-making core inside Salesforce Agentforce. It helps AI agents understand user goals, build plans, evaluate those plans, look for missing details, and choose the right action, without depending on rigid workflows or manual guidance.",
         "Instead of reacting to a question and following a predefined path, Atlas agents pause, think, and adapt. They weigh options. They fill context gaps. They adjust course when something doesn’t fit. And they do it instantly.",
         "This turns customer service into something faster, sharper, and far more autonomous. It frees support teams from micromanaging every request. It brings consistency across channels. And it makes every customer interaction feel more human and much more deliberate."
@@ -30,7 +29,6 @@ export default function Page() {
     {
       "title": "What the Atlas Reasoning Engine Is (Simple Definition)",
       "desc": [
-        "Let’s define it plainly.",
         "The Salesforce Agentforce Atlas Reasoning Engine is an AI system built into Agentforce that helps agents analyze complex situations, reason through them, and choose their next step. It’s designed to support fully autonomous behavior, where agents decide how to handle a situation instead of just following steps someone configured months ago.",
         "In old systems, automation was like giving instructions to a robot. In Atlas-enabled systems, it’s like giving those robots a brain. Atlas replaces rigid, pre-scripted flows with goal-driven reasoning. When something unexpected comes up, the agent doesn’t break. It recalculates."
       ]
@@ -176,8 +174,8 @@ export default function Page() {
     {
       "title": "How Rialtes Helps You Build Atlas-Powered AI Agents",
       "desc": [
-        "Atlas pushes Salesforce Agentforce into a new era. It turns agents from scripted automations into intelligent systems that can reason, plan, and act—without constant human supervision. As customer expectations rise and interactions spread across channels, this kind of adaptive intelligence will define the next generation of customer experience.",
-        "Building autonomous agents doesn’t always mean turning on a feature. It requires careful design, like choosing the right data, defining goals, setting guardrails, and validating agent behavior.",
+        "Atlas pushes Salesforce Agentforce into a new era. It turns agents from scripted automations into intelligent systems that can reason, plan, and act—without constant human supervision. As customer expectations rise and interactions spread across channels, this kind of adaptive intelligence will define the <a href='https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>next generation of customer experience</a>.",
+        "<a href='https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Building autonomous agents</a> doesn’t always mean turning on a feature. It requires careful design, like choosing the right data, defining goals, setting guardrails, and validating agent behavior.",
         "Rialtes helps businesses:"
       ],
       "list": [

@@ -314,7 +314,7 @@ export default function Page() {
             />
 
             <Script
-                id="schema-provenWays"
+                id="schema-clinical"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
