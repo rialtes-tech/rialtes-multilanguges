@@ -1,91 +1,73 @@
-
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
 
 export default function ThankYou() {
-  const [isOpen, setIsOpen] = useState(true);
-  const closeModal = () => {
-    setIsOpen(false);
-  };
   return (
-    <div className="
-    custom-container h-full relative
- 
-    thank-you-bg bg-right-bottom bg-cover py-20
-    "
-    >
-      {/* {isOpen && (
-        <div 
-          className="fixed inset-0 bg-gray-400 bg-opacity-50 flex items-center justify-center z-50 transition-opacity duration-300 ease-in-out"
-          style={{ animation: "fadeIn 0.3s ease-out" }}
+    <div className="grid grid-cols-12 custom-container relative 4xl:pr-0">
+
+      {/* LEFT CONTENT */}
+      <div className="col-span-12 lg:col-span-6 flex flex-col justify-center">
+        <h2
+          className="text-[#134874] font-medium leading-tight
+          4xl:text-[45px] 2xl:text-[40px] xl:text-[35px] md:text-[30px] text-[26px] mt-16"
         >
-          <div className="bg-white rounded-lg shadow-lg p-6 w-96 transform transition-transform duration-300 ease-in-out"
-            style={{ animation: "slideIn 0.3s ease-out" }}
-          >
-            <div className="relative">
-              <h2 className="text-xl font-semibold text-center">Thank You</h2>
-              <button 
-                onClick={closeModal} 
-                className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 text-xl"
-              >
-                &times;
-              </button>
-            </div>
-            <p className="mt-10 text-green-900 text-center">Thank you for choosing <span className="font-bold">Rialtes</span> We truly appreciate your interest and trust in our services. Our sales team will be in touch with you shortly !</p>
-          </div>
-        </div>
-      )} */}
-      <Image
-        className="z-[999] cursor-pointer lg:w-[165px] md:w-[130px] w-[120px]"
-        alt="Company logo"
-        width={0}
-        height={0}
-        sizes="100vw"
-        src="/images/homepage/logo.svg"
-        style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-        priority
-      />
-      <h2 className="text-[#134874] xl:font-bold xl:mt-32 mt-2 4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[40px] md:text-[30px] text-[26px]"><span className="xl:border-b-[3px] border-gray-500 inline pb-5">Thank </span>you for contacting Rialtes! </h2>
-      <h3 className="xl:font-bold xl:mt-20 4xl:text-[30px] 2xl:text-[28px] xl:text-[24px] md:text-[24px] text-[20px] xl:w-[55%] w-full mt-2">Our expert will respond to you shortly via your phone or email address.</h3>
-      <h3 className="xl:font-bold text-[#134874] 4xl:text-[30px] 2xl:text-[28px] xl:text-[24px] md:text-[24px] text-[20px] xl:mt-20 mt-5">For more updates follow us on:</h3>
+          Thank you for contacting Rialtes!
+        </h2>
 
-      <div className="flex flex-col xl:flex-row  xl:mt-10 xl:gap-32">
-        <div className="flex">
-          <div className="mt-3">
-            <Link href="https://www.linkedin.com/company/rialtes-technologies-llc/" title="Visit our LinkedIn">
-              <Image className="h-20 w-20" alt="linkedin" src="/images/homepage/Asset5.svg" height={100} width={100} />
-            </Link>
-          </div>
-          {/* <div className="mt-3">
-            <Link href="/facebook" title="Follow us on Facebook">
-              <Image className="h-20 w-20" alt="facebook" src="/images/homepage/Asset1.svg" height={100} width={100} />
-            </Link>
-          </div> */}
-          {/* <div className="mt-3">
-            <Link href="https://x.com/Rialtestech" title="Follow us on Twitter">
-              <Image className="h-20 w-20" alt="twitter" src="/images/homepage/Asset2.svg" height={100} width={100} />
-            </Link>
-          </div> */}
-          {/* <div className="mt-3">
-            <Link href="https://www.instagram.com/rialtes_technologies/" title="Follow us on Instagram">
-              <Image className="h-20 w-20" alt="instagram" src="/images/homepage/Asset3.svg" height={100} width={100} />
-            </Link>
-          </div> */}
-          <div className="mt-4">
-            <Link href="https://www.youtube.com/@rialtes" title="Follow us on YouTube">
-              <Image className="h-20 w-20" alt="youtube" src="/images/homepage/Asset4.svg" height={100} width={100} />
-            </Link>
-          </div>
-        </div>
-        <div>
-          <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4 mt-8">
-            <Link href='/'>Close</Link>
-          </button>
-        </div>
+        {/* Divider */}
+        <div className="w-24 h-[3px] bg-gray-300 mt-4 mb-6"></div>
 
+        {/* Text */}
+        <p className="xl:w-[55%] text-[18px] md:text-[20px] xl:text-[22px] text-black leading-tight mt-10">
+          Our expert will respond to you shortly via your phone or email address.
+        </p>
+
+        {/* Follow Us */}
+        <p className="text-[#134874] mt-12 text-[20px] md:text-[22px] xl:text-[24px] font-medium">
+          For more updates follow us on:
+        </p>
+
+        {/* SOCIAL ICONS (LEFT) */}
+        <div className="flex items-center gap-8 ml-[-20px] mt-8">
+          <Link href="https://www.instagram.com/rialtes_technologies/" title="Instagram">
+            <Image className="h-12 w-16" src="/images/homepage/Asset3.svg" alt="instagram" height={100} width={100} />
+          </Link>
+
+          <Link href="https://www.youtube.com/@rialtes" title="YouTube">
+            <Image className="h-12 w-16" src="/images/homepage/Asset4.svg" alt="youtube" height={100} width={100} />
+          </Link>
+
+          <Link href="https://www.linkedin.com/company/rialtes-technologies-llc/" title="LinkedIn">
+            <Image className="h-12 w-16" src="/images/homepage/Asset5.svg" alt="linkedin" height={100} width={100} />
+          </Link>
+        </div>
       </div>
+
+      {/* RIGHT SIDE IMAGE + CLOSE BUTTON */}
+      <div className="col-span-12 lg:col-span-6 relative 4xl:h-[540px]">
+
+        {/* Background Image */}
+        <Image
+          src="/images/homepage/logoback.webp"
+          alt="Background Pattern"
+          width={800}
+          height={800}
+          className="w-full h-full object-cover"
+        />
+
+        {/* Close Button INSIDE IMAGE */}
+        <Link href="/" className="absolute bottom-[4rem] left-10">
+          <button
+            className="bg-[#134874] text-white font-medium py-3 px-10 rounded-sm
+            hover:bg-white hover:text-[#134874] border border-[#134874]
+            transition duration-300"
+          >
+            Close
+          </button>
+        </Link>
+      </div>
+
     </div>
   );
 }

@@ -3,10 +3,13 @@ import Image from "next/image";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 
 export default function page({ url }) {
+    const carouselRef = useRef(null);
+    const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
-          {
+        {
             id: 55,
             image: "/images/blog/digital-network-touch-data-connection-visualization-mobile.webp",
             category: "Integration",
@@ -107,9 +110,8 @@ export default function page({ url }) {
             title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
             description: "Salesforce has become the foundation for modern enterprise CRM solutions, helping organizations unify data, streamline processes, and deliver personalized customer experiences. "
         }
-    ];
 
-    // returning all blogs except current page url
+    ];
     const filteredBlogs = latestBlogs.filter((elem) => {
 
         const blogSlug = elem.url.replace(/\/$/, "").split("/").pop();
@@ -179,6 +181,24 @@ export default function page({ url }) {
         );
     };
 
+    const handleBeforeChange = (nextSlide, state) => {
+        const totalItems = state.totalItems;
+        const slidesToShow = state.slidesToShow;
+
+        const maxValidSlide = totalItems - slidesToShow;
+
+        setIsLastSlide(nextSlide >= maxValidSlide);
+    };
+    useEffect(() => {
+        if (isLastSlide) {
+            const timer = setTimeout(() => {
+                carouselRef.current.goToSlide(0);
+                setIsLastSlide(false);  // reset
+            }, 2000); // wait before restarting
+
+            return () => clearTimeout(timer);
+        }
+    }, [isLastSlide]);
     return (
         <section className="relative pb-8 lg:pb-4">
             <div className="mb-[36px] mx-auto">
@@ -186,12 +206,14 @@ export default function page({ url }) {
                     <p className="mb-[43px] leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] font-normal"> Latest Blogs</p>
                 </div>
                 <Carousel
+                    ref={carouselRef}
                     swipeable={true}
                     draggable={true}
                     showDots={true}
                     responsive={responsive}
+                    partialVisible={!isLastSlide}
                     ssr={true}
-                    infinite={true}
+                    infinite={false}
                     autoPlay={true}
                     autoPlaySpeed={3000}
                     keyBoardControl={true}
@@ -201,14 +223,14 @@ export default function page({ url }) {
                     removeArrowOnDeviceType={["tablet", "mobile"]}
                     dotListClass="custom-dot-list-style !justify-start flex-wrap"
                     itemClass="carousel-item-padding-40-px"
-                    partialVisible={true}
+                    beforeChange={handleBeforeChange}
                     arrows={false}
                     renderButtonGroupOutside={true}
                     customButtonGroup={<ButtonGroup />}
                     renderDotsOutside={true}
                     customDot={<CustomDot />}
                 >
-                    {filteredBlogs.slice(0, 9).map((slide) => (
+                    {filteredBlogs.map((slide) => (
                         <div key={slide.id} className="flex flex-col sm:basis-1/4 border border-[#707070] sm:mr-6 mb-4 sm:h-[580px] md:h-full h-full lg:h-[600px] group">
 
                             <div className="max-h-[300px]">
