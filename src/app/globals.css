@@ -142,6 +142,11 @@ body {
   }
 }
 
+.react-multi-carousel-item:last-child {
+  margin-right: 0 !important;
+}
+
+
 @media only screen and (max-width: 768px) {
 
   .react-multi-carousel-dot-list>button {
@@ -191,6 +196,7 @@ body {
   background: #FFFFFF 0% 0% no-repeat padding-box;
 }
 
+
 @keyframes zoom {
   from {
     transform: scale(1.1);
@@ -234,12 +240,13 @@ body {
 
 
 @media (min-width: 1020px) and (max-width: 1366px) {
-  .height-min{
- height: 300px;
+  .height-min {
+    height: 300px;
   }
-   
-  
+
+
 }
+
 @media only screen and (min-width: 1024px) {
 
   .carousel .control-dots {

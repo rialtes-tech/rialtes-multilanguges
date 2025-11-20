@@ -32,6 +32,15 @@ const schemaData = {
 }
 const latestCaseStudy = [
   {
+    id: 16,
+    image: "/images/case-studies/automotive-tire-factory-production-line-feature-thumb.webp",
+    industry: "Automotive",
+    date: "19 November 2025",
+    url: "/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study/",
+    title: "Transforming O2C and P2P Processes with SAP ERP Cloud Solutions",
+    description: "Our client is a leading tire manufacturer, ranked among the top 25 globally and recognized as a flagship company in the automotive sector."
+  },
+  {
     id: 15,
     image: "/images/case-studies/Small thumb.webp",
     industry: "Education",
@@ -63,7 +72,7 @@ const latestCaseStudy = [
   {
     id: 12,
     image: "/images/case-studies/revolutionary-filter.webp",
-    industry: "Manufacturing",
+    industry: "Automotive",
     date: "03 June 2025",
     url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
     title: "Revving Up Dealer Management with AutoSense by Rialtes",
@@ -127,7 +136,7 @@ const latestCaseStudy = [
   {
     id: 6,
     image: "/images/case-studies/case-study-4_thumb.webp",
-    industry: "Manufacturing",
+    industry: "Semiconductor",
     date: "14 Oct 2024",
     url: "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/",
     title: "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
@@ -251,8 +260,8 @@ const CaseStudy = () => {
         </div>
         <div className="relative flex sm:flex-row sm:ml-auto h-[60px]">
           <div className="relative">
-            <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
-              <span className="pr-5 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">{selectedIndustry === 'All' ? 'Industry' : selectedIndustry}</span>
+            <button className='relative border border-[#707070] sm:w-fit w-36 py-4 px-4 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
+              <span className="pr-6 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">{selectedIndustry === 'All' ? 'Industry' : selectedIndustry}</span>
               <svg
                 className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
                 fill='none'
@@ -270,8 +279,9 @@ const CaseStudy = () => {
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Healthcare')}>Healthcare</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Manufacturing')}>Manufacturing</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Real Estate')}>Real Estate</li>
-                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Hi tech')}>Hi tech</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Semiconductor')}>Semiconductor</li>
                   <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Public Sector')}>Public Sector</li>
+                  <li className='px-5 py-2 cursor-pointer' onClick={() => filterCaseStudyByIndustry('Automotive')}>Automotive</li>
                 </ul>
               </div>
             )}
