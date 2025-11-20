@@ -394,7 +394,7 @@
     "headerSubTitle2": "a better tomorrow.",
     "headerSubTitle3": "Leveraging SAP Consulting Services for reliable business operations.",
     "KnowMore": "Know More",
-    "learnMore": "Learn More", 
+    "learnMore": "Learn More",
     "sapConsultingBannerAlt": "Business experts collaborating on SAP-driven transformation in a modern boardroom",
     "sapPartnerLogoAlt": "Official SAP Partner emblem showcasing certified implementation expertise",
     "solutionSuccess": [
@@ -467,125 +467,155 @@
     "riseWithSapNavigationAlt": "Navigation graphic highlighting SAP Gold Partner expertise in RISE solutions"
   },
   "agentForce": {
+    "bannerAlt": "Desktop banner showing Agentforce AI platform with modern digital interface",
+    "manageCustomerAlt": "AI dashboard visual showing intelligent customer management insights",
+    "leaverageCuttingAlt": "Desktop view of Agentforce technology enabling automated digital workflows",
+    "prebuiltAlt": "Smiling professional using laptop to access prebuilt AI business solutions",
+    "industrySpecificAlt": "Smiling man using laptop to explore industry-focused AI solutions",
+    "agentPlusAlt": "Hand interacting with digital interface showcasing AgentPlus features",
+    "agentChatDesktopAlt": "User working on laptop with phone displaying AgentChat AI tools",
+    "yourStrategicPartnerAlt": "Abstract digital waveforms symbolizing strategic AI partnership",
+    "bannerTitle": "Agentforce Consulting",
+    "bannerSubtitle": "Humans + Agents Automate Routine Tasks to Drive Customer Success",
+    "whatYouNeedToKnow": "Salesforce Agentforce: What You Need to Know",
+    "whatYouNeedToKnowDes1": "Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.",
+    "whatYouNeedToKnowDes2": "Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.",
+    "buildAhealthierBusiness": "Build a Healthier Network with Agentforce",
+    "greaterPatientAdherence": "Greater patient adherence*",
+    "archivePostionROI": "Achieved positive ROI*",
+    "faterCaseResolution": "Faster case resolution*",
+    "manageCustomerInquiries": "Manage Customer Inquiries and Streamline Employee Tasks Around the Clock",
+    "managecustomerList": [
+      "Autonomous operation within customized guardrails",
+      "Real-time data adaptation",
+      "Seamless integration with employees",
+      "Low-code tools for customization and deployment"
+    ],
+    "leaveragecuttingTitle": "Leverage cutting-edge technologies to deliver innovative solutions with Agentforce",
+    "agentforcedataCloude": "Agentforce Data Cloud",
+    "unifiysublist": "Unify and harmonize customer data across systems in real time.",
+    "agentbuilder": "Agent Builder",
+    "agentbuilderdesc": "Low-code builder for Agentforce, including Prompt Builder and Model Builder.",
+    "atlasReasoningEngine": "Atlas Reasoning Engine",
+    "atlasReasoningEnginedesc": "The brain of Agentforce agents automates agents’ actions to respond naturally and adapt to situations.",
+    "partnerNetwork": "Partner Network",
+    "partnerNetworkDesc": "A group of leading partners extends Agentforce with new agent actions through the Salesforce AppExchange.",
+    "theNextleap": "Agentforce 3.0: The Next Leap in Salesforce AI",
+    "agentforceEvolution": "Agentforce 3.0 marks the newest evolution of Salesforce’s digital labor platform.",
+    "agentforceDebut": "Since its debut in 2024, Agentforce has become central to Salesforce’s AI strategy. With 3.0, the platform now delivers:",
+    "features": [
+      {
+        "title": "Deeper Monitoring",
+        "description": "Track and optimize every AI agent’s activity and outcomes in real time."
+      },
+      {
+        "title": "Advanced Governance",
+        "description": "Control data access, workflows, and compliance with enterprise-grade security."
+      },
+      {
+        "title": "Performance Intelligence",
+        "description": "Benchmark, tune, and enhance agent efficiency using live insights."
+      }
+    ],
+    "prebuildTitle": "200+ Pre-Built Industry Actions",
+    "prebuildDesc": "Faster Time to Value for Sales, Service & More",
+    "exampleOfActionTitle": "Examples of Actions:",
+    "exampleOfActionList": [
+      "Patient scheduling (Healthcare)",
+      "Proposal generation (Media & HiTech)",
+      "Claims processing (Insurance)",
+      "Vehicle servicing (Automotive)",
+      "Revenue tracking (Finance)"
+    ],
+    "flexiblePricingTitle": "Flexible Pricing to Scale Confidently:",
+    "flexiblePricingList": [
+      "Per-user pricing for employee-facing agents.",
+      "Unlimited usage of pre-built actions.",
+      "New SKUs for Sales, Service, and Industry Cloud."
+    ],
+    "industrySpecificTitle": "Industry-specific Benefits That We Bring to Our Clients",
+    "items": [
+      {
+        "title": "Sales",
+        "desc": "Automate lead qualification, booking appointments, and nurturing leads."
+      },
+      {
+        "title": "Customer Service",
+        "desc": "Manage tickets, resolve inquiries, and provide 24/7 support."
+      },
+      {
+        "title": "Marketing",
+        "desc": "Run automated campaigns that adapt based on performance metrics."
+      },
+      {
+        "title": "Insurance and financial services",
+        "desc": "Utilize Agentforce to access crucial client data on the go."
+      },
+      {
+        "title": "Healthcare and life sciences",
+        "desc": "Engage with patients, providers, and payers to act across multiple channels."
+      },
+      {
+        "title": "Retail",
+        "desc": "Personalize shopping experiences, automate order tracking, and enable proactive service on messaging channels."
+      },
+      {
+        "title": "Automotive",
+        "desc": "Streamline dealer management, service scheduling, and parts inventory with intelligent, connected AI agents."
+      }
+    ],
+    "ourspecificparagraph": "Our Agentforce consultants work closely with your teams to align technology with outcomes, making AI adoption practical, measurable, and future-ready.",
+    "agentplusTitle": "SalesforceAgent+",
+    "agentplusDesc": " Agentforce Consulting Services with Rialtes",
+    "agentplusParagraph1": "Agentforce is transforming how businesses interact with customers and automate operations — and Rialtes’ Agentforce consulting services help you accelerate that transformation effectively.",
+    "agentplusParagraph2": "Our certified Agentforce consultants bring deep expertise across industries to ensure your AI agents deliver real impact from day one.",
+    "agentplusParagraph3": "We make adoption simple and result-oriented with:",
+    "salesforceAgentplusList": [
+      "Rapid AI-readiness assessments tailored to your industry.",
+      "Conversational AI deployment for Sales, Service, and Field teams.",
+      "Einstein GPT and AI automation for proactive customer support.",
+      "Agentforce enables workshops to train and onboard teams.",
+      "Pre-built AI bots for case management, lead nurturing, and knowledge sharing."
+    ],
+    "agentchatHeading": "AgentChat",
+    "agentchatSubheading": "Transforming WhatsApp Conversations for Salesforce Users",
+    "agentchatMoment": "Turn Every Chat into a Customer Moment.",
+    "agentchatList": [
+      "Instant WhatsApp messaging embedded inside Salesforce.",
+      "Auto-responses, case creation, and service cloud integration.",
+      "Pre-built AI chatbots for Agentforce and Service Cloud.",
+      "Personalized notifications and marketing campaigns."
+    ],
+    "agentchatParagraph": "AgentChat is the ideal solution for managing customer service, sales inquiries, order updates, and marketing outreach, all securely within Salesforce.",
+    "yourStrategiy": "Your Strategic Partner for Salesforce Agentforce Success",
+    "yourStrategiyParagraph1": "As a Salesforce Crest Partner with deep industry expertise, we turn.",
+    "yourStrategiyParagraph2": "the promise of intelligent automation into measurable results.",
+    "hereWhat": "Here’s what sets us apart:",
+    "provenExpert": "Proven Salesforce Expertise",
+    "decedsOfExperience": "Decades of experience across Sales, Service, and Industry Clouds",
+    "meansWeCant": "means we align services and speed around real business impact, not",
+    "experimentation": "experimentation",
+    "endToEndConsulting": "End-to-End Consulting",
+    "fromStrategyToSupport": "From strategy and design to implementation and optimization, we.",
+    "guideYouThrough": "guide you through every phase of your Agentforce journey.",
+    "acceleratedAdoption": "Accelerated Adoption",
+    "ourRobustMethodology": "Our robust user enablement, automation templates, and enablement",
+    "programsShortenTimeToValue": "Our robust user enablement, automation templates, and enablement",
+    "ensureYourTeamsAdopt": "programs shorten time-to-value and ensure your teams adopt",
+    "agentforceConfidently": "Agentforce confidently.",
+    "globalPresence": "Global Presence",
+    "unitedStates": "United States, Canada, Singapore, India",
+    "connectedEcosystem": "Connected Ecosystem",
+    "withRinse": "With Rinse Managed Services, you get ongoing performance",
+    "monitoringAnalyticsUpdates": "monitoring, analytics, and updates as Salesforce evolves.",
+    "whethereYouStarting": "Whether you are starting or optimizing your current solution,",
+    "ourAgentforceConsulting": "our Agentforce consulting services provide the strategy, tools,",
+    "andSupportNeeded": "and support needed to scale AI confidently.",
+    "learnMoreButton": "Learn More",
+    "knowMoreButton": "Know More",
     "headerTitle": "Agentforce",
     "seoTitle": "Agentforce Consulting | Automate Smarter with Rialtes",
     "seoDescription": "Ready to scale smarter? Agentforce Consulting by Rialtes delivers Salesforce agents that automate, adapt, and drive success faster than ever.",
-    "headerDesc": "Humans + Agents Automate Routine Tasks to Drive Customer Success",
-    "headerOne": "Salesforce Agentforce:",
-    "desktopBannerAlt": "Professional team collaborating on Salesforce Agentforce AI solutions for enterprise efficiency.",
-    "agentforceLogoAlt": "Agentforce AI Dashboard English Alt Text: Screenshot of Salesforce Agentforce dashboard displaying AI agent performance metrics. ",
-    "headerTwo": "What You Need To Know",
-    "headerParaOne": "Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.",
-    "headerParaTwo": "Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.",
-    "manageTitle": "Manage Customer Inquiries and Streamline Employee Tasks Around the Clock",
-    "salesForce": [
-      {
-        "id": 1,
-        "imageUrl": "/images/salesforce-consulting-services/autonomous_operation_guardrails.svg",
-        "title": "Autonomous operation within customized guardrails",
-        "altText": "Cloud icon with gears and shield representing secure, automated operations."
-      },
-      {
-        "id": 2,
-        "imageUrl": "/images/salesforce-consulting-services/real_time_data_adaptation.svg",
-        "title": "Real-time data adaptation",
-        "altText": "Icon of three people with stars symbolizing dynamic, responsive data handling. "
-      },
-      {
-        "id": 3,
-        "imageUrl": "/images/salesforce-consulting-services/employee_integration.svg",
-        "title": "Seamless integration with employees",
-        "altText": "Stopwatch and person icon indicating efficient employee workflow integration"
-      },
-      {
-        "id": 4,
-        "imageUrl": "/images/salesforce-consulting-services/low_code_customization_tools.svg",
-        "title": "Low-code tools for customization and deployment",
-        "altText": "Interconnected nodes and gears icon representing flexible development tools."
-      }
-    ],
-    "leverageTitle": "Leverage cutting-edge technologies to deliver innovative solutions with Agentforce",
-    "salesForce2": [
-      {
-        "id": 1,
-        "title": "Agentforce Data Cloud",
-        "description": "Unify and harmonize customer data across systems in real time."
-      },
-      {
-        "id": 2,
-        "title": "Agent Builder",
-        "description": "Low-code builder for Agentforce, which includes Prompt Builder and Model Builder."
-      },
-      {
-        "id": 3,
-        "title": "Atlas Reasoning Engine",
-        "description": "The brain of Agentforce agents automates agents’ actions to respond naturally and adapt to situations."
-      },
-      {
-        "id": 4,
-        "title": "Partner Network",
-        "description": "A group of leading partners extends Agentforce with new agent actions through the Salesforce AppExchange."
-      }
-    ],
-    "blocksTitle": "The Building Blocks to Configure Your Agentforce Agent",
-    "agentBlocks": [
-      {
-        "title": "Agent Builder",
-        "description": "Create and customize your own agents with low-code",
-        "image": "/images/salesforce-consulting-services/agent_builder_salesforce.svg",
-        "altText": "Icon representing low-code creation and customization of AI agents."
-      },
-      {
-        "title": "Prompt Builder",
-        "description": "Supercharge every workflow with trusted AI prompts",
-        "image": "/images/salesforce-consulting-services/autonomous_operation_guardrails.svg",
-        "altText": "Icon symbolizing AI-enhanced workflows using trusted prompts."
-      },
-      {
-        "title": "Model Builder",
-        "description": "Build, train, and deploy custom AI models externally using data in Salesforce.",
-        "image": "/images/salesforce-consulting-services/model_builder_salesforce.svg",
-        "altText": "Icon for building, training, and deploying external AI models using Salesforce data."
-      }
-    ],
-    "industryTitle": "Industry-specific Benefits That We Bring to Our Clients",
-    "industryBenifite": [
-      {
-        "id": 1,
-        "imageUrl": "/images/salesforce-consulting-services/sales_automation.webp",
-        "title": "Sales",
-        "description": "Automate lead qualification, booking appointments, and nurturing leads.",
-        "altText": "Person using laptop to automate lead qualification and appointment booking. "
-      },
-      {
-        "id": 2,
-        "imageUrl": "/images/salesforce-consulting-services/customer_service_automation.webp",
-        "title": "Customer Service",
-        "description": "Manage tickets, resolve inquiries, and provide 24/7 support.",
-        "altText": "Person interacting with digital interface to manage tickets and provide 24/7 support. "
-      },
-      {
-        "id": 3,
-        "imageUrl": "/images/salesforce-consulting-services/marketing_automation.webp",
-        "title": "Marketing",
-        "description": "Run automated campaigns that adapt based on performance metrics.",
-        "altText": "Person holding smartphone to run adaptive campaigns based on performance metrics. "
-      },
-      {
-        "id": 4,
-        "imageUrl": "/images/salesforce-consulting-services/insurance_financial_services.webp",
-        "title": "Insurance and financial services",
-        "description": "Utilize Agentforce to access crucial client data on the go.",
-        "altText": "Futuristic robot on platform representing digital transformation in finance. "
-      },
-      {
-        "id": 5,
-        "imageUrl": "/images/salesforce-consulting-services/healthcare_life_sciences.webp",
-        "title": "Healthcare and life sciences",
-        "description": "Engage with patients, providers, and payers to act across multiple channels.",
-        "altText": "Smartphone displaying medical interface, symbolizing tech-enabled healthcare solutions. "
-      }
-    ],
     "slides": [
       {
         "id": 1,
@@ -650,7 +680,7 @@
         "url": "insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should",
         "title": "Salesforce Agentforce: Top Features You’re Probably Not Using (But should!)"
       }
-    ], 
+    ],
     "contactTitle": "Take the next step to operational excellence with us."
   },
   "oracle": {
@@ -658,10 +688,10 @@
     "ebsimageAlt": "Visual highlighting Rialtes’ EBSPlus solution integrating Oracle EBS with Kinaxis for agility.",
     "deepexpertiseAlt": "Image representing Rialtes’ certified Oracle EBS and OCI expertise driving enterprise efficiency",
     "thoughtleadershipAlt": "Graphic showing Rialtes’ thought leadership in Oracle EBS transformation",
-    "supplyChainAlt": "Image showing Oracle EBS and Kinaxis integration for agile and predictive supply chain planning", 
+    "supplyChainAlt": "Image showing Oracle EBS and Kinaxis integration for agile and predictive supply chain planning",
     "salesAndOperationsAlt": "Visual illustrating Oracle EBS and Kinaxis collaboration for unified sales and operations planning",
     "inventoryAlt": "Image depicting enterprise inventory optimization and scheduling using Oracle EBS ASCP tools",
-    "senarioplanningAlt": "Graphic showing risk-aware scenario planning using Oracle EBS and Kinaxis integration", 
+    "senarioplanningAlt": "Graphic showing risk-aware scenario planning using Oracle EBS and Kinaxis integration",
     "aiDrivenAlt": "Image representing AI-powered Oracle EBS transformation for predictive automation and forecasting",
     "seoTitle": "Oracle EBS Consulting Services and Solutions | Rialtes",
     "ebsSuitelogoAlt": "Official Oracle E-Business Suite logo featuring red Oracle wordmark and black uppercase text.",
@@ -1524,7 +1554,7 @@
     ],
     "integrationTitle": "MuleSoft Integration Services Aligned with Your Business Needs",
     "integrationDesc": "Our experts provide an extensive array of MuleSoft services that share your vision and values."
-  }, 
+  },
   "salesForceConsulting": {
     "consultingTitle": "Salesforce Consulting Services",
     "partnerLogoAltText": "Official Salesforce Partner logo symbolizing certified consulting expertise",
@@ -1707,7 +1737,7 @@
     "sapPartnerLogoAlt": "Official Salesforce Partner badge symbolizing certified expertise and trusted consulting",
     "bannerAlt": "Banner showing Salesforce Revenue Cloud tools supporting streamlined quote-to-cash operations",
     "revenueCloudImg": "/images/revenue-cloud/revenue-cloud-infographic.webp",
-    "seoTitle": "Salesforce Revenue Cloud Implementation Partner | Rialtes", 
+    "seoTitle": "Salesforce Revenue Cloud Implementation Partner | Rialtes",
     "seoDescription": "Rialtes, a trusted Salesforce Revenue Cloud implementation partner, offers tailored solutions to transform sales, billing, and revenue operations.",
     "revenueStats": [
       {

@@ -1,10 +1,13 @@
+import { useTranslations } from "next-intl";
+
 export default function HealthcareStats() {
+   const t = useTranslations("agentForce");
   return (
     <section className="mt-10">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-y-10 md:gap-y-0  items-start">
-        <StatBox percentage="27%" description="Greater patient adherence*" />
-        <StatBox percentage="91%" description="Achieved positive ROI*" />
-        <StatBox percentage="29%" description="Faster case resolution*" />
+        <StatBox percentage="27%" description={t('greaterPatientAdherence')} />
+        <StatBox percentage="91%" description={t('archivePostionROI')} />
+        <StatBox percentage="29%" description={t('faterCaseResolution')} />
          <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] text-gray-500">
         *Source: Salesforce
       </p>

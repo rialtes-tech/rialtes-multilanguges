@@ -467,6 +467,152 @@
     "riseWithSapNavigationAlt": "Graphique de navigation présentant l’expertise Gold Partner pour solutions RISE"
   },
   "agentForce": {
+    "bannerAlt": "Bannière de bureau présentant la plateforme Agentforce AI avec interface numérique moderne",
+    "manageCustomerAlt": "Tableau IA affichant des insights intelligents pour la gestion client",
+    "leaverageCuttingAlt": "Vue bureau d’Agentforce facilitant des flux numériques automatisés",
+    "prebuiltAlt": "Professionnel souriant utilisant un ordinateur pour accéder à des solutions IA",
+    "industrySpecificAlt": "Homme souriant utilisant son ordinateur pour explorer des solutions IA sectorielles",
+    "agentPlusAlt": "Main interagissant avec interface numérique présentant les fonctions AgentPlus",
+    "agentChatDesktopAlt": "Utilisateur sur ordinateur et mobile affichant outils IA AgentChat",
+    "yourStrategicPartnerAlt": "Ondas digitales abstractas que simbolizan una asociación estratégica con IA",
+    "bannerTitle": "Consulting Agentforce",
+    "bannerSubtitle": "Humains + Agents automatisent les tâches routinières pour favoriser la réussite client",
+    "whatYouNeedToKnow": "Salesforce Agentforce : Ce que vous devez savoir",
+    "whatYouNeedToKnowDes1": "Salesforce Agentforce est une plateforme robuste qui permet aux organisations de créer, personnaliser et déployer des agents IA autonomes dans diverses fonctions métier, notamment les ventes, le marketing, le service client et le e-commerce.",
+    "whatYouNeedToKnowDes2": "Agentforce AI est conçu pour gérer les tâches de manière proactive, en fonctionnant de manière indépendante en collectant des données, en formulant des plans d'action et en exécutant des tâches sans intervention humaine. Cela permet aux entreprises de rationaliser leurs opérations grâce à des interactions pilotées par IA. En intégrant les capacités CRM de Salesforce avec des outils spécialisés, Agentforce fournit aux agents des données client en temps réel, de puissantes fonctionnalités de collaboration et des informations générées par IA.",
+    "buildAhealthierBusiness": "Construisez un réseau plus performant avec Agentforce",
+    "greaterPatientAdherence": "Meilleure adhésion des patients*",
+    "archivePostionROI": "ROI positif atteint*",
+    "faterCaseResolution": "Résolution des cas plus rapide*",
+    "manageCustomerInquiries": "Gérez les demandes clients et rationalisez les tâches des employés 24h/24",
+    "managecustomerList": [
+      "Fonctionnement autonome dans des limites personnalisées",
+      "Adaptation des données en temps réel",
+      "Intégration fluide avec les employés",
+      "Outils low-code pour la personnalisation et le déploiement"
+    ],
+    "leaveragecuttingTitle": "Exploitez des technologies de pointe pour proposer des solutions innovantes avec Agentforce",
+    "agentforcedataCloude": "Agentforce Data Cloud",
+    "unifiysublist": "Unifiez et harmonisez les données clients entre les systèmes en temps réel.",
+    "agentbuilder": "Agent Builder",
+    "agentbuilderdesc": "Outil low-code pour Agentforce, incluant Prompt Builder et Model Builder.",
+    "atlasReasoningEngine": "Atlas Reasoning Engine",
+    "atlasReasoningEnginedesc": "Le cerveau des agents Agentforce automatise leurs actions pour répondre naturellement et s’adapter aux situations.",
+    "partnerNetwork": "Réseau de Partenaires",
+    "partnerNetworkDesc": "Un groupe de partenaires leaders étend Agentforce avec de nouvelles actions via Salesforce AppExchange.",
+    "theNextleap": "Agentforce 3.0 : Le prochain bond en avant de l’IA Salesforce",
+    "agentforceEvolution": "Agentforce 3.0 marque la plus récente évolution de la plateforme de main-d'œuvre numérique de Salesforce.",
+    "agentforceDebut": "Depuis son lancement en 2024, Agentforce est devenu central dans la stratégie IA de Salesforce. Avec la version 3.0, la plateforme offre désormais :",
+    "features": [
+      {
+        "title": "Surveillance renforcée",
+        "description": "Suivez et optimisez l’activité et les résultats de chaque agent IA en temps réel."
+      },
+      {
+        "title": "Gouvernance avancée",
+        "description": "Contrôlez l’accès aux données, les workflows et la conformité avec une sécurité de niveau entreprise."
+      },
+      {
+        "title": "Intelligence de performance",
+        "description": "Évaluez, ajustez et améliorez l’efficacité des agents grâce à des informations en direct."
+      }
+    ],
+    "prebuildTitle": "Plus de 200 actions préconstruites par industrie",
+    "prebuildDesc": "Un délai de valeur plus rapide pour les ventes, le service et plus encore",
+    "exampleOfActionTitle": "Exemples d'actions :",
+    "exampleOfActionList": [
+      "Planification des patients (Santé)",
+      "Génération de propositions (Médias & HiTech)",
+      "Traitement des sinistres (Assurance)",
+      "Service de véhicules (Automobile)",
+      "Suivi des revenus (Finance)"
+    ],
+    "flexiblePricingTitle": "Tarification flexible pour évoluer en toute confiance :",
+    "flexiblePricingList": [
+      "Tarification par utilisateur pour les agents orientés employés.",
+      "Utilisation illimitée des actions préconstruites.",
+      "Nouveaux SKU pour Sales, Service et Industry Cloud."
+    ],
+    "industrySpecificTitle": "Avantages sectoriels que nous apportons à nos clients",
+    "items": [
+      {
+        "title": "Ventes",
+        "desc": "Automatisez la qualification des leads, la prise de rendez-vous et le nurturing."
+      },
+      {
+        "title": "Service client",
+        "desc": "Gérez les tickets, résolvez les demandes et offrez un support 24/7."
+      },
+      {
+        "title": "Marketing",
+        "desc": "Lancez des campagnes automatisées qui s'adaptent selon les performances."
+      },
+      {
+        "title": "Assurance et services financiers",
+        "desc": "Utilisez Agentforce pour accéder à des données clients essentielles où que vous soyez."
+      },
+      {
+        "title": "Santé et sciences de la vie",
+        "desc": "Interagissez avec patients, prestataires et assureurs sur plusieurs canaux."
+      },
+      {
+        "title": "Commerce de détail",
+        "desc": "Personnalisez les expériences d'achat, automatisez le suivi des commandes et offrez un service proactif."
+      },
+      {
+        "title": "Automobile",
+        "desc": "Optimisez la gestion des concessionnaires, la planification des services et l’inventaire des pièces grâce à des agents IA connectés."
+      }
+    ],
+    "ourspecificparagraph": "Nos consultants Agentforce travaillent en étroite collaboration avec vos équipes pour aligner la technologie sur les résultats, rendant l'adoption de l'IA pratique, mesurable et prête pour l'avenir.",
+    "agentplusTitle": "SalesforceAgent+",
+    "agentplusDesc": " Services de conseil Agentforce avec Rialtes",
+    "agentplusParagraph1": "Agentforce transforme la manière dont les entreprises interagissent avec leurs clients et automatisent leurs opérations — et les services de conseil Agentforce de Rialtes vous aident à accélérer cette transformation efficacement.",
+    "agentplusParagraph2": "Nos consultants certifiés Agentforce apportent une expertise approfondie pour garantir que vos agents IA génèrent un impact réel dès le premier jour.",
+    "agentplusParagraph3": "Nous rendons l'adoption simple et axée sur les résultats grâce à :",
+    "salesforceAgentplusList": [
+      "Évaluations rapides de préparation à l'IA adaptées à votre secteur.",
+      "Déploiement d’IA conversationnelle pour les équipes de vente, de service et sur le terrain.",
+      "Einstein GPT et automatisation IA pour un support client proactif.",
+      "Ateliers Agentforce pour former et intégrer les équipes.",
+      "Bots IA préconstruits pour la gestion des cas, du lead nurturing et du partage des connaissances."
+    ],
+    "agentchatHeading": "AgentChat",
+    "agentchatSubheading": "Transformer les conversations WhatsApp pour les utilisateurs Salesforce",
+    "agentchatMoment": "Transformez chaque chat en opportunité client.",
+    "agentchatList": [
+      "Messagerie WhatsApp instantanée intégrée à Salesforce.",
+      "Réponses automatiques, création de cas et intégration Service Cloud.",
+      "Chatbots IA préconstruits pour Agentforce et Service Cloud.",
+      "Notifications personnalisées et campagnes marketing."
+    ],
+    "agentchatParagraph": "AgentChat est la solution idéale pour gérer le service client, les demandes de vente, les mises à jour de commandes et les campagnes marketing — le tout en toute sécurité dans Salesforce.",
+    "yourStrategiy": "Votre partenaire stratégique pour réussir avec Salesforce Agentforce",
+    "yourStrategiyParagraph1": "En tant que partenaire Crest de Salesforce avec une expertise sectorielle approfondie, nous transformons",
+    "yourStrategiyParagraph2": "la promesse de l'automatisation intelligente en résultats mesurables.",
+    "hereWhat": "Voici ce qui nous distingue :",
+    "provenExpert": "Expertise Salesforce reconnue",
+    "decedsOfExperience": "Des décennies d'expérience dans Sales, Service et Industry Clouds",
+    "meansWeCant": "signifie que nous alignons les services et la rapidité autour d’un impact réel, et non de",
+    "experimentation": "l’expérimentation",
+    "endToEndConsulting": "Conseil de bout en bout",
+    "fromStrategyToSupport": "De la stratégie et du design à la mise en œuvre et l’optimisation, nous vous",
+    "guideYouThrough": "accompagnons à chaque étape de votre parcours Agentforce.",
+    "acceleratedAdoption": "Adoption accélérée",
+    "ourRobustMethodology": "Notre solide habilitation des utilisateurs, nos modèles d'automatisation et nos programmes",
+    "programsShortenTimeToValue": "réduisent le délai de valeur et assurent que vos équipes adoptent",
+    "ensureYourTeamsAdopt": "Agentforce en toute confiance",
+    "agentforceConfidently": ".",
+    "globalPresence": "Présence mondiale",
+    "unitedStates": "États-Unis, Canada, Singapour, Inde",
+    "connectedEcosystem": "Écosystème connecté",
+    "withRinse": "Avec Rinse Managed Services, vous bénéficiez d’un suivi continu, d’analyses",
+    "monitoringAnalyticsUpdates": "et de mises à jour au fur et à mesure que Salesforce évolue.",
+    "whethereYouStarting": "Que vous commenciez ou optimisiez votre solution actuelle,",
+    "ourAgentforceConsulting": "nos services de conseil Agentforce vous offrent la stratégie, les outils",
+    "andSupportNeeded": "et le support nécessaires pour développer l’IA en toute confiance.",
+    "learnMoreButton": "En savoir plus",
+    "knowMoreButton": "Découvrir",
     "headerTitle": "Agentforce",
     "seoTitle": "Conseil Agentforce | Automatisez Plus Intelligemment avec Rialtes",
     "seoDescription": "Prêt à évoluer plus vite ? Avec Agentforce Consulting, Rialtes déploie des agents Salesforce qui automatisent, s’adaptent et accélèrent votre succès.",
@@ -478,114 +624,6 @@
     "headerParaOne": "Salesforce Agentforce est une plateforme robuste qui permet aux organisations de créer, personnaliser et déployer des agents d’IA autonomes dans diverses fonctions métiers, notamment les ventes, le marketing, le service client et le e-commerce.",
     "headerParaTwo": "Agentforce AI est conçu pour gérer de manière proactive les tâches, en fonctionnant de manière autonome : collecte de données, élaboration de plans d’action et exécution sans intervention humaine. Cela permet aux entreprises de rationaliser leurs opérations grâce à des interactions pilotées par l’IA. En intégrant les capacités CRM de Salesforce avec des outils spécialisés pour agents, Agentforce dans Salesforce fournit aux agents des données client en temps réel, de puissantes fonctionnalités de collaboration et des analyses basées sur l’IA.",
     "manageTitle": "Gérez les demandes clients et rationalisez les tâches des employés 24h/24 et 7j/7",
-    "salesForce": [
-      {
-        "id": 1,
-        "imageUrl": "/images/salesforce-consulting-services/autonomous_operation_guardrails.svg",
-        "title": "Fonctionnement autonome dans des garde-fous personnalisés",
-        "altText": "Icône de nuage avec engrenages et bouclier représentant une automatisation sécurisée. "
-      },
-      {
-        "id": 2,
-        "imageUrl": "/images/salesforce-consulting-services/real_time_data_adaptation.svg",
-        "title": "Adaptation en temps réel aux données",
-        "altText": "Icône de trois personnes avec des étoiles représentant une adaptation dynamique aux données."
-      },
-      {
-        "id": 3,
-        "imageUrl": "/images/salesforce-consulting-services/employee_integration.svg",
-        "title": "Intégration fluide avec les employés",
-        "altText": "Icône de chronomètre et de personne indiquant une intégration efficace dans les flux de travail."
-      },
-      {
-        "id": 4,
-        "imageUrl": "/images/salesforce-consulting-services/low_code_customization_tools.svg",
-        "title": "Outils low-code pour la personnalisation et le déploiement",
-        "altText": "Icône de nœuds interconnectés et d'engrenages représentant des outils de développement flexibles. "
-      }
-    ],
-    "leverageTitle": "Exploitez les technologies de pointe pour offrir des solutions innovantes avec Agentforce",
-    "salesForce2": [
-      {
-        "id": 1,
-        "title": "Agentforce Data Cloud",
-        "description": "Unifiez et harmonisez les données clients à travers les systèmes en temps réel."
-      },
-      {
-        "id": 2,
-        "title": "Agent Builder",
-        "description": "Constructeur low-code pour Agentforce, incluant Prompt Builder et Model Builder."
-      },
-      {
-        "id": 3,
-        "title": "Atlas Reasoning Engine",
-        "description": "Le cerveau des agents Agentforce automatise leurs actions afin de répondre naturellement et de s’adapter aux situations."
-      },
-      {
-        "id": 4,
-        "title": "Partner Network",
-        "description": "Un réseau de partenaires leaders enrichit Agentforce avec de nouvelles actions via Salesforce AppExchange."
-      }
-    ],
-    "blocksTitle": "Les blocs essentiels pour configurer votre agent Agentforce",
-    "agentBlocks": [
-      {
-        "title": "Agent Builder",
-        "description": "Créez et personnalisez vos propres agents avec du low-code",
-        "image": "/images/salesforce-consulting-services/agent_builder_salesforce.svg",
-        "altText": "Icône représentant la création et la personnalisation d'agents IA avec peu de code. "
-      },
-      {
-        "title": "Prompt Builder",
-        "description": "Dynamisez chaque flux de travail avec des prompts IA fiables",
-        "image": "/images/salesforce-consulting-services/autonomous_operation_guardrails.svg",
-        "altText": "Icône symbolisant l'amélioration des flux de travail grâce à des invites IA fiables. "
-      },
-      {
-        "title": "Model Builder",
-        "description": "Concevez, entraînez et déployez des modèles d’IA personnalisés en externe à partir des données dans Salesforce.",
-        "image": "/images/salesforce-consulting-services/model_builder_salesforce.svg",
-        "altText": "Icône pour créer, entraîner et déployer des modèles IA externes à l'aide des données Salesforce. "
-      }
-    ],
-    "industryTitle": "Des avantages sectoriels spécifiques que nous apportons à nos clients",
-    "industryBenifite": [
-      {
-        "id": 1,
-        "imageUrl": "/images/salesforce-consulting-services/sales_automation.webp",
-        "title": "Ventes",
-        "description": "Automatisez la qualification des prospects, la prise de rendez-vous et la maturation des leads.",
-        "altText": "Personne utilisant un ordinateur portable pour qualifier des prospects et planifier des rendez-vous. "
-      },
-      {
-        "id": 2,
-        "imageUrl": "/images/salesforce-consulting-services/customer_service_automation.webp",
-        "title": "Service client",
-        "description": "Gérez les tickets, résolvez les demandes et offrez une assistance 24/7.",
-        "altText": "Personne interagissant avec une interface numérique pour gérer les tickets et offrir un support 24h/24. "
-      },
-      {
-        "id": 3,
-        "imageUrl": "/images/salesforce-consulting-services/marketing_automation.webp",
-        "title": "Marketing",
-        "description": "Lancez des campagnes automatisées qui s’adaptent en fonction des indicateurs de performance.",
-        "altText": "Personne tenant un smartphone pour exécuter des campagnes adaptatives basées sur les performances. "
-      },
-      {
-        "id": 4,
-        "imageUrl": "/images/salesforce-consulting-services/insurance_financial_services.webp",
-        "title": "Assurances et services financiers",
-        "description": "Exploitez Agentforce pour accéder aux données essentielles des clients en mobilité.",
-        "altText": "Robot futuriste sur une plateforme représentant la transformation numérique dans la finance. "
-      },
-      {
-        "id": 5,
-        "imageUrl": "/images/salesforce-consulting-services/healthcare_life_sciences.webp",
-        "title": "Santé et sciences de la vie",
-        "description": "Interagissez avec les patients, prestataires et payeurs sur plusieurs canaux.",
-        "altText": "Smartphone affichant une interface médicale numérique, symbolisant les solutions technologiques en santé. "
-      }
-    ],
     "slides": [
       {
         "id": 1,
@@ -1665,7 +1703,7 @@
         "date": "21 Oct 2024",
         "url": "insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce",
         "title": "Le cerveau derrière les agents : révéler l’Atlas Reasoning Engine dans Agentforce",
-        "altText":"Graphique représentant Atlas Reasoning Engine alimentant l’IA Agentforce "
+        "altText": "Graphique représentant Atlas Reasoning Engine alimentant l’IA Agentforce "
       },
       {
         "id": 4,
@@ -1675,7 +1713,7 @@
         "date": "25 Nov 2024",
         "url": "insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data",
         "title": "Centre de test Agentforce : redéfinir les tests IA avec des données synthétiques",
-        "altText":"Visuel montrant centre de test IA utilisant des données synthétiques "
+        "altText": "Visuel montrant centre de test IA utilisant des données synthétiques "
       },
       {
         "id": 6,
@@ -1685,7 +1723,7 @@
         "date": "17 Sept 2024",
         "url": "insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration",
         "title": "Automatisez les parties cruciales de votre organisation de santé avec l’intégration Athenahealth et Salesforce",
-        "altText":"Graphique montrant l’intégration de Salesforce et athenahealth pour automatisation "
+        "altText": "Graphique montrant l’intégration de Salesforce et athenahealth pour automatisation "
       },
       {
         "id": 11,
@@ -1695,7 +1733,7 @@
         "date": "17 Sept 2024",
         "url": "insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai",
         "title": "Les agents Agentforce font évoluer les systèmes ERP avec l’IA",
-        "altText":"Visuel montrant l’IA Agentforce renforçant les systèmes ERP "
+        "altText": "Visuel montrant l’IA Agentforce renforçant les systèmes ERP "
       }
     ],
     "previousSlide": "Diapositive précédente",
