@@ -3,8 +3,11 @@ import Image from "next/image";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 
 export default function page({ url, currTopic }) {
+    const carouselRef = useRef(null);
+        const [isLastSlide, setIsLastSlide] = useState(false);
     const latestCaseStudy = [
         {
             id: 15,
@@ -213,6 +216,24 @@ export default function page({ url, currTopic }) {
         );
     };
 
+    const handleBeforeChange = (nextSlide, state) => {
+            const totalItems = state.totalItems;
+            const slidesToShow = state.slidesToShow;
+    
+            const maxValidSlide = totalItems - slidesToShow;
+    
+            setIsLastSlide(nextSlide >= maxValidSlide);
+        };
+        useEffect(() => {
+            if (isLastSlide) {
+                const timer = setTimeout(() => {
+                    carouselRef.current.goToSlide(0);
+                    setIsLastSlide(false);  // reset
+                }, 2000); // wait before restarting
+    
+                return () => clearTimeout(timer);
+            }
+        }, [isLastSlide]);
     return (
         <section className="relative pb-8 lg:pb-4">
             <div className="mb-[36px] mx-auto">
@@ -220,29 +241,31 @@ export default function page({ url, currTopic }) {
                     <h2 className="mb-[43px] leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]"> Related Case Studies</h2>
                 </div>
                 <Carousel
+                 ref={carouselRef}
                     swipeable={true}
                     draggable={true}
                     showDots={true}
                     responsive={responsive}
                     ssr={true}
-                    infinite={true}
-                    autoPlay={true}
+                    infinite={false}
+                    autoPlay={true} 
                     autoPlaySpeed={3000}
                     keyBoardControl={true}
                     customTransition="all .5s"
                     transitionDuration={500}
+                     beforeChange={handleBeforeChange}
                     containerClass="carousel-container max-[415px]:pt-[40px]"
                     removeArrowOnDeviceType={["tablet", "mobile"]}
                     dotListClass="custom-dot-list-style !justify-start flex-wrap"
                     itemClass="carousel-item-padding-40-px"
-                    partialVisible={true}
+                     partialVisible={!isLastSlide}
                     arrows={false}
                     renderButtonGroupOutside={true}
-                    customButtonGroup={filteredCases.length > 3 && <ButtonGroup />}
+                    customButtonGroup={ <ButtonGroup />}
                     renderDotsOutside={true}
                     customDot={<CustomDot />}
                 >
-                    {filteredCases.slice(0, 7).map((slide) => (
+                    {filteredCases.map((slide) => (
                         <div
                             key={slide.id}
                             className="flex flex-col sm:basis-1/4 border border-[#707070] sm:mr-6 mb-4 max-[415px]:h-[460px] h-[520px] sm:h-[500px] md:h-[520px] lg:h-[520px] xl:h-[500px] 3xl:h-[550px] 4xl:h-[600px] group">
