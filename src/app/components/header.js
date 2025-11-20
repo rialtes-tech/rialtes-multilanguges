@@ -1,4 +1,3 @@
-//new header
 "use client";
 import Image from "next/image"
 import Link from "next/link"
@@ -463,7 +462,7 @@ const Header = () => {
           {activeCard === 1 && (
             <div onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute" >
               <div className="grid grid-cols-12 custom-container gap-10 md:mt-10 xl:mt-10 ">
-                <div className="col-span-3 bg-[#deebf8] p-3 relative">
+                <div className="col-span-3 bg-[#deebf8] overflow-y-auto p-3 lg:pb-10 2xl:pb-auto max-h-[80vh] relative">
                   {/* Data & AI Section */}
                   <div
                     className={`cursor-pointer font-bold mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "dataAI" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
@@ -732,7 +731,7 @@ const Header = () => {
           {activeCard === 3 && (
             <div onMouseEnter={() => handleMouseEnterCard(3)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-20  left-0 z-20 border-t-2 absolute">
               <div className="grid grid-cols-12 custom-container gap-5 xl:w-full  md:gap-5  lg:gap-10 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
-                <div className="col-span-3 bg-[#deebf8] p-3">
+                <div className="col-span-3 bg-[#deebf8] overflow-y-auto p-3 lg:pb-10 2xl:pb-auto max-h-[80vh]">
                   <div
                     className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "businessTransform" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
                     onClick={() => handleSubMenuClickBusiness("businessTransform")}
@@ -963,11 +962,10 @@ const Header = () => {
           {activeCard === 4 && (
             <div onMouseEnter={() => handleMouseEnterCard(4)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-20 left-0 z-20 border-t-2 absolute">
               <div className="grid grid-cols-12 w-full lg:gap-10 xl:gap-[22px] md:gap-5 custom-container md:mt-10 xl:mt-10">
-                <div className="col-span-3 bg-[#deebf8] p-3">
+                <div className="col-span-3 bg-[#deebf8] overflow-y-auto p-3 lg:pb-10 2xl:pb-auto max-h-[80vh]">
                   <div
                     className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "automotive" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClick("automotive")}
-                  >
+                    onClick={() => handleSubMenuClick("automotive")}>
                     Real Estate
                   </div>
 
