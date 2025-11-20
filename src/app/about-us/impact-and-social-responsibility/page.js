@@ -11,7 +11,7 @@ const schemaData = {
     "@type": "Organization",
     name: "Rialtes",
     url: "https://www.rialtes.com",
-    logo: "https://www.rialtes.com/logo.png",
+    logo: "https://www.rialtes.com/images/homepage/logo.svg",
     description:
       "Rialtes supports sustainability, diversity, and social impact through AI and community engagement.",
   },

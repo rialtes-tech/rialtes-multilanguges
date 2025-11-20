@@ -213,7 +213,7 @@ const Header = () => {
         {
           label: 'Application Services', href: '/',
           subLinks: [
-            { label: 'Salesforce Agent+', href: '/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' },
+            { label: 'SalesforceAgent+', href: '/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' },
           ],
         },
       ],
@@ -964,73 +964,75 @@ const Header = () => {
           {/* Industries Card */}
           {activeCard === 4 && (
             <div onMouseEnter={() => handleMouseEnterCard(4)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-20 left-0 z-20 border-t-2 absolute">
-              <div className="grid grid-cols-12 w-full lg:gap-10 xl:gap-[22px] md:gap-5 custom-container md:mt-10 xl:mt-10">
-                <div className="col-span-3 bg-[#deebf8] p-3">
-                  <div
-                    className={`cursor-pointer font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px]  text-[14px] 4xl:p-3 2xl:p-2 xl:p-2   ${openSection === "automotive" ? "bg-white" : "bg-transparent"}`}
-                    onClick={() => handleSubMenuClick("automotive")}
-                  >
-                    Real Estate
-                  </div>
+              <div className="grid grid-cols-12 custom-container gap-5 xl:w-full  md:gap-5  lg:gap-10 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
+                <div className="col-span-3">
+                  <div className="bg-[#deebf8] p-3">
+                    <div
+                      className={`cursor-pointer font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px]  text-[14px] 4xl:p-3 2xl:p-2 xl:p-2   ${openSection === "automotive" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClick("automotive")}
+                    >
+                      Real Estate
+                    </div>
 
-                  <div
-                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2  font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "lifeSciences" ? "bg-white" : "bg-transparent"}`}
-                    onClick={() => handleSubMenuClick("lifeSciences")}
-                  >
-                    Life Sciences
-                  </div>
-                  <div
-                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "hiTech" ? "bg-white" : "bg-transparent"}`}
-                    onClick={() => handleSubMenuClick("hiTech")}
-                  >
-                    Semiconductor
-                  </div>
-                  <div
-                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "manufacturing" ? "bg-white" : "bg-transparent"}`}
-                    onClick={() => handleSubMenuClick("manufacturing")}
-                  >
-                    Manufacturing
-                  </div>
-                  <div
-                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "education" ? "bg-white" : "bg-transparent"}`}
-                    onClick={() => handleSubMenuClick("education")}
-                  >
-                    Education
-                  </div>
-                  <div
-                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "autoinstry" ? "bg-white" : "bg-transparent"}`}
-                    onClick={() => handleSubMenuClick("autoinstry")}
-                  >
-                    Automotive
-                  </div>
-                  <div
-                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "travelHospitality" ? "bg-white" : "bg-transparent"}`}
-                    onClick={() => handleSubMenuClick("travelHospitality")}
-                  >
-                    Travel and Hospitality
-                  </div>
-                  <div
-                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "retailIndustry" ? "bg-white" : "bg-transparent"}`}
-                    onClick={() => handleSubMenuClick("retailIndustry")}
-                  >
-                    Retail
-                  </div>
-                  <div
-                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "nonProfitIndustry" ? "bg-white" : "bg-transparent"}`}
-                    onClick={() => handleSubMenuClick("nonProfitIndustry")}
-                  >
-                    Non-Profit
-                  </div>
-                  <div
-                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "financeIndustry" ? "bg-white" : "bg-transparent"}`}
-                    onClick={() => handleSubMenuClick("financeIndustry")}
-                  >
-                    Finance
+                    <div
+                      className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2  font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "lifeSciences" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClick("lifeSciences")}
+                    >
+                      Life Sciences
+                    </div>
+                    <div
+                      className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "hiTech" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClick("hiTech")}
+                    >
+                      Semiconductor
+                    </div>
+                    <div
+                      className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "manufacturing" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClick("manufacturing")}
+                    >
+                      Manufacturing
+                    </div>
+                    <div
+                      className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "education" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClick("education")}
+                    >
+                      Education
+                    </div>
+                    <div
+                      className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "autoinstry" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClick("autoinstry")}
+                    >
+                      Automotive
+                    </div>
+                    <div
+                      className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "travelHospitality" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClick("travelHospitality")}
+                    >
+                      Travel and Hospitality
+                    </div>
+                    <div
+                      className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "retailIndustry" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClick("retailIndustry")}
+                    >
+                      Retail
+                    </div>
+                    <div
+                      className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "nonProfitIndustry" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClick("nonProfitIndustry")}
+                    >
+                      Non-Profit
+                    </div>
+                    <div
+                      className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "financeIndustry" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClick("financeIndustry")}
+                    >
+                      Finance
+                    </div>
                   </div>
                 </div>
                 {openSection === "automotive" && (
                   <div className="col-span-8 flex space-x-5"  >
-                    <div className="flex-1">
+                    <div>
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]"> From the Factory Floor to the Driver's Seat — Smarter Automotive Solutions</div>
                         <div className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Transforming production, sales, and service experiences through AI, IoT, and data-driven strategies</div>
@@ -1043,7 +1045,7 @@ const Header = () => {
 
                 {openSection === "lifeSciences" && (
                   <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
+                    <div>
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]"> Shaping the Future of Healthcare and Life Sciences with Digital Innovation</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Empowering life sciences companies to improve patient outcomes and operationalexcellence through next-gen technology</p>
@@ -1081,7 +1083,7 @@ const Header = () => {
 
                 {openSection === "hiTech" && (
                   <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
+                    <div>
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Semiconductor Industry 4.0 — Powering Next-Gen Chips with Next-Gen Solutions</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Reimagining semiconductor operations with intelligent automation, data-driven insights,and global supply chain resilience for large enterprises</p>
@@ -1093,7 +1095,7 @@ const Header = () => {
                 )}
                 {openSection === "autoinstry" && (
                   <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
+                    <div>
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Breakdowns to Breakthroughs: We're There for Your Automotive Service Journeys</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">We empower OEMs and dealerships with efficient case management and smart warranty administration to resolve issues quickly, manage complex vehicle lifecycles, and build customer trust.</p>
@@ -1105,7 +1107,7 @@ const Header = () => {
                 )}
                 {openSection === "travelHospitality" && (
                   <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
+                    <div>
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">AI-Driven Innovation for Travel, Transportation & Hospitality</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Our solutions streamline operations, boost agility, and drive revenue across airlines, hotels, logistics, and more</p>
@@ -1118,7 +1120,7 @@ const Header = () => {
 
                 {openSection === "retailIndustry" && (
                   <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
+                    <div>
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Smart Retail Solutions to Build Intelligent, Scalable Retail Ecosystems</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Bringing 10+ years of global expertise to help B2B and B2C retailers modernize operations and exceed customer expectations.</p>
@@ -1133,7 +1135,7 @@ const Header = () => {
 
                 {openSection === "nonProfitIndustry" && (
                   <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
+                    <div>
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Partnering with Nonprofits to Scale Mission-Driven Outcomes</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">We understand the heart of nonprofit work lies in its mission. Rialtes supports that mission with integrated solutions, strategic consulting, and continuous innovation.</p>
@@ -1146,7 +1148,7 @@ const Header = () => {
 
                 {openSection === "financeIndustry" && (
                   <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
+                    <div>
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Bringing Digital Transformation to Financial Services</div>
                         <p className="mt-3  4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Transforming retail banking, commercial banking, credit unions, and mortgages through analytics and AI-driven predictions</p>
@@ -1159,7 +1161,7 @@ const Header = () => {
                 )}
                 {openSection === "manufacturing" && (
                   <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
+                    <div>
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Powering Smart, Seamless Manufacturing with Mobility and Efficiency</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Making Manufacturing Smarter — AI, Automation, and Actionable Insights</p>
@@ -1171,7 +1173,7 @@ const Header = () => {
                 )}
                 {openSection === "education" && (
                   <div className="col-span-8 flex space-x-5">
-                    <div className="flex-1">
+                    <div>
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Driving Education with Student-Centric Solutions</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Igniting the future of learning, unlocking potential, powering progress—technology for tomorrow’s education.</p>
