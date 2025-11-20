@@ -461,48 +461,50 @@ const Header = () => {
           {/* solutions Card */}
           {activeCard === 1 && (
             <div onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute" >
-              <div className="grid grid-cols-12 custom-container gap-10 md:mt-10 xl:mt-10 ">
-                <div className="col-span-3 bg-[#deebf8] overflow-y-auto p-3 lg:pb-10 2xl:pb-auto max-h-[80vh] relative">
-                  {/* Data & AI Section */}
-                  <div
-                    className={`cursor-pointer font-bold mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "dataAI" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("dataAI")}
-                  >
-                    Data & AI
-                  </div>
+              <div className="grid grid-cols-12 gap-5 xl:w-full md:gap-5 lg:gap-10  md:mt-10 xl:justify-between md:justify-center xl:mt-10 custom-container ">
+                <div className="col-span-3">
+                  <div className="bg-[#deebf8] overflow-y-auto p-3 lg:pb-10 2xl:pb-3 max-h-[80vh]">
+                    <div
+                      className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "dataAI" ? "bg-white" : "bg-transparent"
+                        }`}
+                      onClick={() => handleSubMenuClickSolution("dataAI")}
+                    >
+                      Data & AI
+                    </div>
 
-                  <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "enterprise" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("enterprise")}
-                  >
-                    Enterprise Platforms
-                  </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "enterprise" ? "bg-white " : "p-2"}`}
+                      onClick={() => handleSubMenuClickSolution("enterprise")}
+                    >
+                      Enterprise Platforms
+                    </div>
 
-                  <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "integration" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("integration")}
-                  >
-                    Integration
-                  </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "integration" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClickSolution("integration")}
+                    >
+                      Integration
+                    </div>
 
-                  <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "artificialIntelligence" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("artificialIntelligence")}
-                  >
-                    Artificial Intelligence
-                  </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "artificialIntelligence" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClickSolution("artificialIntelligence")}
+                    >
+                      Artificial Intelligence
+                    </div>
 
-                  <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "aiAutomation" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("aiAutomation")}
-                  >
-                    Process Automation
-                  </div>
-                  <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionSolution === "quality-engi" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClickSolution("quality-engi")}
-                  >
-                    Quality Engineering & Assurance
+                    <div
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "aiAutomation" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClickSolution("aiAutomation")}
+                    >
+                      Process Automation
+                    </div>
+                    <div
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "quality-engi" ? "bg-white" : "bg-transparent"}`}
+                      onClick={() => handleSubMenuClickSolution("quality-engi")}
+                    >
+                      Quality Engineering & Assurance
+                    </div>
                   </div>
                 </div>
 
@@ -662,19 +664,19 @@ const Header = () => {
                 <div className="col-span-3">
                   <div className="bg-[#deebf8] p-3">
                     <div
-                      className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionProduct === "rialchat" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionProduct === "rialchat" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickProduct("rialchat")}
                     >
                       AgentChat
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionProduct === "mediaina" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionProduct === "mediaina" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickProduct("mediaina")}
                     >
                       MediAIna
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionProduct === "exelona" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionProduct === "exelona" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickProduct("exelona")}
                     >
                       Exelona
@@ -688,7 +690,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Engage, Support, and Close Deals — All Through WhatsApp. All Inside Salesforce.</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Connect and respond to customers over WhatsApp from any Salesforce record — Leads, Cases, Opportunities, Work Orders, or Custom Objects.</p>
-                        <Link href='/products/agentchat/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/agentchat/")}
+                        <Link href='/products/agentchat/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4 xl:text-[18px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/agentchat/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -702,7 +704,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Transform Patient Care—From Discovery to Recovery</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Powered by LifeAI+, Rialtes' consulting service dedicated to life sciences, MediAIana delivers intelligent, scalable, and compliant healthcare innovation at every stage of the patient journey.</p>
-                        <Link href='/products/mediaina-reimagining-patient-journeys/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/mediaina-reimagining-patient-journeys/")}
+                        <Link href='/products/mediaina-reimagining-patient-journeys/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] xl:text-[18px] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/mediaina-reimagining-patient-journeys/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -715,7 +717,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Exelona™ – Your End-to-End Real Estate Command Center</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Unites every stage of your property business—sales, operations, and finance into one AI-powered, mobile-ready platform, merging CRM and ERP for faster, smarter decisions.</p>
-                        <Link href='/products/exelona-salesforce-for-real-estate-management/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/exelona-salesforce-for-real-estate-management/")}
+                        <Link href='/products/exelona-salesforce-for-real-estate-management/' className="text-[#134874] border-[1px] xl:text-[18px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/exelona-salesforce-for-real-estate-management/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -731,45 +733,45 @@ const Header = () => {
           {activeCard === 3 && (
             <div onMouseEnter={() => handleMouseEnterCard(3)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-20  left-0 z-20 border-t-2 absolute">
               <div className="grid grid-cols-12 custom-container gap-5 xl:w-full  md:gap-5  lg:gap-10 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
-                <div className="col-span-3 bg-[#deebf8] overflow-y-auto p-3 lg:pb-10 2xl:pb-auto max-h-[80vh]">
+                <div className="col-span-3 bg-[#deebf8] overflow-y-auto p-3 lg:pb-10 2xl:pb-3 max-h-[80vh]">
                   <div
-                    className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "businessTransform" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "businessTransform" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("businessTransform")}
                   >
                     Business Transformation
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "intelligentScm" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "intelligentScm" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("intelligentScm")}
                   >
                     LOB Services
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "spentMangemnet" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "spentMangemnet" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("spentMangemnet")}
                   >
                     Spend Management
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "hxmTransformation" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "hxmTransformation" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("hxmTransformation")}
                   >
                     HXM Transformation
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "data-ai" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "data-ai" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("data-ai")}
                   >
                     Data and AI
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "intelligent" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "intelligent" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("intelligent")}
                   >
                     Intelligent SCM
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSectionbusiness === "applicationServices" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "applicationServices" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("applicationServices")}
                   >
                     Application Services
@@ -962,63 +964,64 @@ const Header = () => {
           {activeCard === 4 && (
             <div onMouseEnter={() => handleMouseEnterCard(4)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-20 left-0 z-20 border-t-2 absolute">
               <div className="grid grid-cols-12 w-full lg:gap-10 xl:gap-[22px] md:gap-5 custom-container md:mt-10 xl:mt-10">
-                <div className="col-span-3 bg-[#deebf8] overflow-y-auto p-3 lg:pb-10 2xl:pb-auto max-h-[80vh]">
+                <div className="col-span-3 bg-[#deebf8] overflow-y-auto p-3 lg:pb-10 2xl:pb-3 max-h-[80vh]">
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "automotive" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
-                    onClick={() => handleSubMenuClick("automotive")}>
+                    className={`cursor-pointer font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px]  text-[14px] 4xl:p-3 2xl:p-2 xl:p-2   ${openSection === "automotive" ? "bg-white" : "bg-transparent"}`}
+                    onClick={() => handleSubMenuClick("automotive")}
+                  >
                     Real Estate
                   </div>
 
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "lifeSciences" ? "bg-white pl-3 pt-3 pb-3 " : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2  font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "lifeSciences" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("lifeSciences")}
                   >
                     Life Sciences
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "hiTech" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "hiTech" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("hiTech")}
                   >
                     Semiconductor
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "manufacturing" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "manufacturing" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("manufacturing")}
                   >
                     Manufacturing
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "education" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "education" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("education")}
                   >
                     Education
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "autoinstry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "autoinstry" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("autoinstry")}
                   >
                     Automotive
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "travelHospitality" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "travelHospitality" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("travelHospitality")}
                   >
                     Travel and Hospitality
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "retailIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "retailIndustry" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("retailIndustry")}
                   >
                     Retail
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "nonProfitIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "nonProfitIndustry" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("nonProfitIndustry")}
                   >
                     Non-Profit
                   </div>
                   <div
-                    className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] ${openSection === "financeIndustry" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                    className={`cursor-pointer 4xl:mt-3 2xl:mt-3 xl:mt-2 font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] text-[14px] 4xl:p-3 2xl:p-3 xl:p-2  ${openSection === "financeIndustry" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClick("financeIndustry")}
                   >
                     Finance
@@ -1030,7 +1033,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]"> From the Factory Floor to the Driver's Seat — Smarter Automotive Solutions</div>
                         <div className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Transforming production, sales, and service experiences through AI, IoT, and data-driven strategies</div>
-                        <Link href='/industry/real-estate-property-management/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/real-estate-property-management/")}
+                        <Link href='/industry/real-estate-property-management/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/real-estate-property-management/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1044,7 +1047,7 @@ const Header = () => {
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]"> Shaping the Future of Healthcare and Life Sciences with Digital Innovation</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Empowering life sciences companies to improve patient outcomes and operationalexcellence through next-gen technology</p>
 
-                        <Link href='/industry/life-sciences-digital-transformation/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-10" onClick={(e) => handleLinkClick(e, "/industry/life-sciences-digital-transformation/")}
+                        <Link href='/industry/life-sciences-digital-transformation/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-10" onClick={(e) => handleLinkClick(e, "/industry/life-sciences-digital-transformation/")}
                         >Let's Begin</Link>
                       </div>
                       <div className="mt-5">
@@ -1081,7 +1084,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Semiconductor Industry 4.0 — Powering Next-Gen Chips with Next-Gen Solutions</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Reimagining semiconductor operations with intelligent automation, data-driven insights,and global supply chain resilience for large enterprises</p>
-                        <Link href='/industry/hitech-semiconductor-ai-it-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/hitech-semiconductor-ai-it-solutions/")}
+                        <Link href='/industry/hitech-semiconductor-ai-it-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/hitech-semiconductor-ai-it-solutions/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1093,7 +1096,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Breakdowns to Breakthroughs: We're There for Your Automotive Service Journeys</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">We empower OEMs and dealerships with efficient case management and smart warranty administration to resolve issues quickly, manage complex vehicle lifecycles, and build customer trust.</p>
-                        <Link className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" href='/industry/digital-transformation-in-automotive-industry/' onClick={(e) => handleLinkClick(e, "/industry/digital-transformation-in-automotive-industry/")}
+                        <Link className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4 xl:text-[18px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" href='/industry/digital-transformation-in-automotive-industry/' onClick={(e) => handleLinkClick(e, "/industry/digital-transformation-in-automotive-industry/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1105,7 +1108,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">AI-Driven Innovation for Travel, Transportation & Hospitality</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Our solutions streamline operations, boost agility, and drive revenue across airlines, hotels, logistics, and more</p>
-                        <Link href='/industry/travel-hospitality-it-solutions/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/industry/travel-hospitality-it-solutions/")}
+                        <Link href='/industry/travel-hospitality-it-solutions/' className="text-[#134874] border-[1px] xl:text-[18px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/industry/travel-hospitality-it-solutions/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1118,7 +1121,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Smart Retail Solutions to Build Intelligent, Scalable Retail Ecosystems</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Bringing 10+ years of global expertise to help B2B and B2C retailers modernize operations and exceed customer expectations.</p>
-                        <Link href='/industry/retail-industry-digital-transformation/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/industry/retail-industry-digital-transformation/")}
+                        <Link href='/industry/retail-industry-digital-transformation/' className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/industry/retail-industry-digital-transformation/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1133,7 +1136,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Partnering with Nonprofits to Scale Mission-Driven Outcomes</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">We understand the heart of nonprofit work lies in its mission. Rialtes supports that mission with integrated solutions, strategic consulting, and continuous innovation.</p>
-                        <Link href='/industry/nonprofit-digital-transformation-it-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/nonprofit-digital-transformation-it-solutions/")}
+                        <Link href='/industry/nonprofit-digital-transformation-it-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/nonprofit-digital-transformation-it-solutions/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1147,7 +1150,7 @@ const Header = () => {
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Bringing Digital Transformation to Financial Services</div>
                         <p className="mt-3  4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Transforming retail banking, commercial banking, credit unions, and mortgages through analytics and AI-driven predictions</p>
 
-                        <Link href='/industry/finance-industry-digital-transformation-services-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/finance-industry-digital-transformation-services-solutions/")}
+                        <Link href='/industry/finance-industry-digital-transformation-services-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/finance-industry-digital-transformation-services-solutions/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1159,7 +1162,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Powering Smart, Seamless Manufacturing with Mobility and Efficiency</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Making Manufacturing Smarter — AI, Automation, and Actionable Insights</p>
-                        <Link href='/industry/manufacturing-cloud-erp/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/manufacturing-cloud-erp/")}
+                        <Link href='/industry/manufacturing-cloud-erp/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/manufacturing-cloud-erp/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1171,7 +1174,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Driving Education with Student-Centric Solutions</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Igniting the future of learning, unlocking potential, powering progress—technology for tomorrow’s education.</p>
-                        <Link href='/industry/education-cloud-it-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/education-cloud-it-solutions/")}
+                        <Link href='/industry/education-cloud-it-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/education-cloud-it-solutions/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1243,7 +1246,7 @@ const Header = () => {
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Explore Our Insights: Blogs, Case Studies, and Thought Leadership</div>
                       <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.</p>
-                      <Link href='/insights/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/insights/")}
+                      <Link href='/insights/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] xl:text-[18px] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/insights/")}
                       >Let's Begin</Link>
                     </div>
                     <div className="mt-5">

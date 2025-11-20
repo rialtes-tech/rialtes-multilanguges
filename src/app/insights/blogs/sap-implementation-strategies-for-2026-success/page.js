@@ -22,7 +22,7 @@ export default function Page() {
         "author": {
             "@type": "Organization",
             "name": "Rialtes"
-        }, 
+        },
         "publisher": {
             "@type": "Organization",
             "name": "Rialtes",
@@ -306,7 +306,7 @@ export default function Page() {
 
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12">
-                    <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
+                    <div className="4xl:col-span-12 xl:col-span-10 lg:col-span-11">
 
                         {/* date and icons */}
                         <div className="sm:flex justify-between">
@@ -425,6 +425,26 @@ export default function Page() {
                             }
 
                         </div>
+                        <div className="xl:block hidden mt-14">
+                            <Image
+                                src="/images/blog/5-pillars-of-SAP-implementation-strategy.svg"
+                                alt="5 Pillars of SAP Implementation Strategy"
+                                priority
+                                width={0}
+                                height={0}
+                                className="w-full h-auto"
+                            />
+                        </div>
+                        <div className="xl:hidden block">
+                            <Image
+                                src="/images/blog/5-pillars-of-SAP-implementation-strategy-mobile.svg"
+                                alt="5 Pillars of SAP Implementation Strategy Mobile"
+                                priority
+                                width={1200}
+                                height={800}
+                            />
+                        </div>
+
 
                         {/* how sap section */}
                         <div className="md:mt-[50px] mt-[40px]">
