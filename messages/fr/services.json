@@ -1749,11 +1749,11 @@
     "pageDesc1": "Chez Rialtes, nous comprenons que l’industrie des sciences de la vie évolue rapidement — avec des attentes croissantes de la part des patients, des prestataires, des régulateurs et des partenaires. Pour répondre à ces exigences, les organisations ont besoin de solutions intelligentes basées sur l’IA, intégrant conformité, personnalisation et automatisation à grande échelle.",
     "pageDesc2": "Nous vous présentons Rialtes LifeAI+, notre service de conseil complet conçu pour les entreprises de sciences de la vie, alliant une expertise sectorielle approfondie à Salesforce Life Sciences Cloud, Health Cloud et à des solutions pilotées par l’IA pour favoriser l’innovation, assurer la conformité et améliorer l’efficacité opérationnelle.",
     "headerAlt": "Scientifique tenant une hélice d’ADN lumineuse avec feuilles, symbolisant biotechnologie et croissance durable",
-    "whatAlt": "Gros plan sur des cellules vertes de microalgues lumineuses sous microscope, symbolisant innovation bioénergétique et recherche durable",
-    "whyAlt": "Chercheurs utilisant casque de réalité virtuelle et tablette pour étudier la technologie de simulation cérébrale dans un laboratoire moderne",
-    "deepAlt": "Médecin tenant une tablette avec un nuage lumineux représentant l’informatique en nuage et le stockage sécurisé des données médicales numériques",
-    "rialtesAlt": "Scientifique utilisant une tablette numérique pour analyser des données de recherche dans un laboratoire moderne avec éprouvettes et ordinateurs",
-    "priorAlt": "Équipe d’affaires diversifiée collaborant et discutant d’idées autour d’un ordinateur portable lors d’une réunion de bureau moderne",
+    "whatAlt": "Gros plan de microalgues vertes lumineuses sous microscope, symbolisant l’innovation bioénergétique et la recherche durable",
+    "whyAlt": "Chercheurs utilisant un casque VR et une tablette pour étudier la simulation cérébrale dans un laboratoire moderne",
+    "deepAlt": "Médecin avec tablette et nuage lumineux symbolisant le cloud et le stockage sécurisé des données médicales",
+    "rialtesAlt": "Scientifique analysant des données sur tablette dans un laboratoire moderne avec éprouvettes",
+    "priorAlt": "Équipe diversifiée collaborant autour d'un ordinateur portable lors d'une réunion de bureau",
     "aiAlt": "Nuage numérique abstrait avec flux de données lumineux et codes binaires dans le ciel représentant l’informatique en nuage",
     "featureBoxes": [
       {

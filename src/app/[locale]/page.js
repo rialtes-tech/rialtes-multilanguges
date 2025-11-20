@@ -145,9 +145,9 @@ const Home = () => {
                     priority
                     height='100'
                     width='280'
-                    alt='Success Stories'
+                    alt={t('innovatingAlt')}
                     className='object-contain w-full h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500'
-                    src='/images/homepage/innovative2.webp'
+                    src='/images/homepage/innovating-text-technology-banner.webp'
                     fetchPriority='high'
                 />
                 <div

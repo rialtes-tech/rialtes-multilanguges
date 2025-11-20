@@ -146,7 +146,7 @@ export default function Page() {
                             <div className="relative lg:col-span-5 col-span-12 z-10 hidden lg:block order-5">
                                 <Image
                                     src={challenge.imageDesktop}
-                                    alt={challenge.title}
+                                    alt={challenge.alt}
                                     width={800}
                                     height={600}
                                     className="h-full w-full object-cover"
