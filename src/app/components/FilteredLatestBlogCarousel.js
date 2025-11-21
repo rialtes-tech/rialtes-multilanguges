@@ -10,6 +10,26 @@ export default function page({ url }) {
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
         {
+            "id": 56,
+            "image": "/images/blog/digital-touchscreen-technology-mobile.webp",
+            "category": "MediAIna",
+            "industry": "Life Sciences",
+            "date": "Nov. 20, 2025",
+            "url": "/ai-in-clinical-trials-rare-disease-enrolment/",
+            "title": "5 Proven Ways AI Accelerates Patient Enrolment in Rare Disease Clinical Trials",
+            "description": "Clinical trials are the lifeblood of medical innovation, especially when it comes to rare diseases. Yet, one of the biggest hurdles in developing new therapies isn’t the science"
+        },
+        {
+            id: 3,
+            image: "/images/blog/digital-brain-ai-circuit-technology-illustration-mobile.webp",
+            category: "Salesforce Agentforce",
+            industry: "Generic",
+            date: "Nov. 19, 2024",
+            url: '/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/',
+            title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
+            description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
+        },
+        {
             id: 55,
             image: "/images/blog/digital-network-touch-data-connection-visualization-mobile.webp",
             category: "Integration",

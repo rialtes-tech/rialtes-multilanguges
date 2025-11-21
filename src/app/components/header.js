@@ -1,4 +1,3 @@
-//new header
 "use client";
 import Image from "next/image"
 import Link from "next/link"
@@ -464,7 +463,7 @@ const Header = () => {
             <div onMouseEnter={() => handleMouseEnterCard(1)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white w-full h-auto pb-8 left-0 z-30 border-t-2 absolute" >
               <div className="grid grid-cols-12 gap-5 xl:w-full md:gap-5 lg:gap-10  md:mt-10 xl:justify-between md:justify-center xl:mt-10 custom-container ">
                 <div className="col-span-3">
-                  <div className="bg-[#deebf8] p-3">
+                  <div className="bg-[#deebf8] overflow-y-auto p-3 lg:pb-10 2xl:pb-3 max-h-[80vh]">
                     <div
                       className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "dataAI" ? "bg-white" : "bg-transparent"
                         }`}
@@ -734,7 +733,7 @@ const Header = () => {
           {activeCard === 3 && (
             <div onMouseEnter={() => handleMouseEnterCard(3)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto pb-20  left-0 z-20 border-t-2 absolute">
               <div className="grid grid-cols-12 custom-container gap-5 xl:w-full  md:gap-5  lg:gap-10 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
-                <div className="col-span-3 bg-[#deebf8] p-3">
+                <div className="col-span-3 bg-[#deebf8] overflow-y-auto p-3 lg:pb-10 2xl:pb-3 max-h-[80vh]">
                   <div
                     className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "businessTransform" ? "bg-white" : "bg-transparent"}`}
                     onClick={() => handleSubMenuClickBusiness("businessTransform")}
@@ -966,7 +965,7 @@ const Header = () => {
             <div onMouseEnter={() => handleMouseEnterCard(4)} onMouseLeave={handleMouseLeaveCard} className="transition-all duration-300 ease-in-out bg-white shadow-lg w-full h-auto  pb-20 left-0 z-20 border-t-2 absolute">
               <div className="grid grid-cols-12 custom-container gap-5 xl:w-full  md:gap-5  lg:gap-10 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
                 <div className="col-span-3">
-                  <div className="bg-[#deebf8] p-3">
+                  <div className="bg-[#deebf8] overflow-y-auto p-3 lg:pb-10 2xl:pb-3 max-h-[80vh]">
                     <div
                       className={`cursor-pointer font-bold 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px]  text-[14px] 4xl:p-3 2xl:p-2 xl:p-2   ${openSection === "automotive" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClick("automotive")}
