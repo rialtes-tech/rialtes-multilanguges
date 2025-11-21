@@ -157,7 +157,7 @@
       },
       {
         "img": "/images/products/exelona/cloud-development-icon.svg",
-        "alt": "Icône vectorielle portant l’inscription “API Ouverte” symbolisant une architecture logicielle flexible et extensible pour l’intégration cloud",
+        "alt": "Icône de nuage blanc avec crochets de code connecté aux nœuds réseau sur fond numérique bleu avec motif de circuit",
         "title": "Architecture OPENAPI",
         "desc": "S’intègre facilement avec SAP, Yardi, Oracle, Salesforce et plus encore."
       }
@@ -166,7 +166,7 @@
       {
         "title": "Comptes Clients",
         "img": "/images/products/exelona/desktop/real-estate-agent-digital-tablet.webp",
-        "alt": "Professionnel souriant tenant une tablette numérique devant un immeuble moderne, représentant la gestion immobilière intelligente et la technologie de propriété",
+        "alt": "Professionnel souriant tenant une tablette devant un bâtiment représentant gestion immobilière et proptech",
         "points": [
           "Facturation automatique des locataires et application des pénalités de retard.",
           "Flux d’approbation des radiations et suivi de l’historique.",
@@ -180,7 +180,7 @@
       {
         "title": "Budgétisation, Prévision et Rapports Financiers",
         "img": "/images/products/exelona/desktop/real-estate-investment-finance.webp",
-        "alt": "Maquette de maison entourée de piles de pièces sur des documents financiers, symbolisant l’investissement immobilier et la finance de propriété",
+        "alt": "Maquette de maison avec piles de pièces sur documents financiers symbolisant investissement immobilier et finance",
         "points": [
           "Budgétisation pluriannuelle personnalisée au niveau des propriétés.",
           "Prévisions continues basées sur les données d’occupation et de location.",
@@ -194,7 +194,7 @@
       {
         "title": "Comptes Fournisseurs et Approvisionnement",
         "img": "/images/products/exelona/desktop/digital-procurement-technology.webp",
-        "alt": "Professionnel utilisant un ordinateur portable avec des icônes numériques flottantes représentant le processus d’approvisionnement et la gestion des contrats",
+        "alt": "Professionnel sur ordinateur avec icônes numériques représentant processus d’achats et gestion des contrats",
         "points": [
           "Automatisation des factures fournisseurs et flux d’approbation.",
           "Création de bons de commande et rapprochement des réceptions.",
@@ -208,7 +208,7 @@
       {
         "title": "Gestion des Stocks et des Actifs",
         "img": "/images/products/exelona/desktop/warehouse-inventory-management.webp",
-        "alt": "Femme d’affaires utilisant une tablette numérique pour inspecter les stocks dans un entrepôt, représentant la gestion moderne de la chaîne d’approvisionnement et de la logistique",
+        "alt": "Femme d’affaires utilisant une tablette pour inspecter des stocks en entrepôt, illustrant la gestion logistique moderne",
         "points": [
           "Suivi des stocks au niveau des unités, bâtiments et entrepôts.",
           "Gestion des actifs avec plans d’amortissement.",
@@ -365,14 +365,14 @@
         ]
       }
     ],
-    "bannerAlt": "Double exposition de mains tenant tablette avec paysage urbain moderne et connexions réseau représentant transformation numérique de ville intelligente",
-    "digitalAlt": "Paysage urbain abstrait filaire bleu avec gratte-ciel modernes et lignes de grille numériques représentant planification urbaine et architecture",
-    "assetAlt": "Bâtiments résidentiels intelligents miniatures avec aménagement paysager vert affichés sur tablette numérique représentant technologie propriété urbaine",
-    "aiAlt": "Paysage urbain futuriste avec graphiques de données et analyses lumineuses représentant une technologie urbaine axée sur les données",
-    "excelAlt": "Main interagissant avec une tablette numérique affichant un modèle architectural 3D de bâtiments modernes et de conception urbaine intelligente",
+    "bannerAlt": "Double exposition mains tenant tablette avec ville moderne et connexions réseau représentant transformation numérique urbaine ",
+    "digitalAlt": "Paysage urbain abstrait filaire bleu avec gratte-ciel modernes et grille numérique représentant planification urbaine",
+    "assetAlt": "Miniatures de bâtiments résidentiels intelligents avec paysage vert sur une tablette numérique représentant la technologie",
+    "aiAlt": "Paysage urbain futuriste avec graphiques de données et analyses lumineuses représentant technologie urbaine axée données",
+    "excelAlt": "Main interagissant avec tablette numérique affichant modèle architectural 3D de bâtiments modernes et conception urbaine",
     "paymentAlt": "Personne utilisant une tablette pour effectuer un paiement en ligne sécurisé avec confirmation numérique de transaction réussie",
-    "agentAlt": "Femme souriante utilisant un smartphone pour consulter des messages ou notifications dans un environnement de bureau moderne et lumineux",
-    "builtAlt": "Réseau numérique abstrait dans les nuages avec données binaires et motifs bleus lumineux symbolisant la technologie de l’informatique en nuage",
+    "agentAlt": "Femme souriante utilisant smartphone pour consulter messages ou notifications dans bureau moderne et lumineux",
+    "builtAlt": "Réseau numérique abstrait dans nuages avec données binaires et motifs bleus lumineux symbolisant cloud computing",
     "headerTitle": "Exelona",
     "seoTitle": "Exelona™ – Salesforce pour la Gestion Immobilière | Rialtes",
     "seoDescription": "Exelona utilise l’IA et Salesforce pour transformer la gestion immobilière grâce à l’automatisation, aux insights et à l’excellence opérationnelle.",

@@ -222,8 +222,9 @@
     "contactUs": "Ready to take the next step? Let’s kick off your journey to operational excellence"
   },
   "globalAlliance": {
+
     "headerTitle": "Our Partners",
-    "bannerAlt": "Digital handshake with glowing blue particles and network connections symbolizing business partnership and technology innovation ",
+    "bannerAlt": "Digital handshake with glowing particles and network links showing business partnership and tech innovation.",
     "seoTitle": "Our Strategic Partners – Empowering Success with Rialtes",
     "seoDescription": "Rialtes partners with top IT and SaaS companies to deliver innovative solutions. Explore our trusted network of collaborators driving business success.",
     "headerSubTitle": "Global Alliances",
@@ -236,7 +237,7 @@
     "approachData": [
       {
         "src": "/images/partners/team-management-gear-icon.png",
-        "alt": "Three people figures with gear icon representing team management, workforce collaboration, and organizational structure concept",
+        "alt": "Three people with a gear icon representing team management, workforce collaboration, and organization.",
         "texts": [
           "Strategic",
           "orchestration"
@@ -244,7 +245,7 @@
       },
       {
         "src": "/images/partners/user-profile-settings-gear.png",
-        "alt": "User profile icon surrounded by gear symbols representing account settings, user configuration, and system customization features",
+        "alt": "User profile icon with surrounding gears representing account settings, user configuration, and customization.",
         "texts": [
           "Client-first",
           "customization"
@@ -260,7 +261,7 @@
       },
       {
         "src": "/images/partners/global-handshake-partnership-icon.png",
-        "alt": "Handshake with globe icon representing global business partnership, international collaboration, and worldwide network connection",
+        "alt": "Handshake with a globe icon symbolizing global business partnership, international collaboration, and networks.",
         "texts": [
           "Vendor-agnostic",
           "partnerships"

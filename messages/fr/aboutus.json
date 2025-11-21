@@ -223,7 +223,7 @@
     },
     "globalAlliance": {
         "headerTitle": "Nos partenaires",
-        "bannerAlt": "Poignée de main numérique avec particules bleues lumineuses et connexions réseau symbolisant partenariat commercial et technologie",
+        "bannerAlt": "Poignée de main numérique avec particules bleues symbolisant partenariat commercial et technologie.",
         "seoTitle": "Nos Partenaires Stratégiques – Construire le Succès avec Rialtes",
         "seoDescription": "Rialtes collabore avec des leaders IT et SaaS pour offrir des solutions innovantes. Découvrez notre réseau de partenaires de confiance.",
         "headerSubTitle": "Alliances mondiales",
@@ -236,7 +236,7 @@
         "approachData": [
             {
                 "src": "/images/partners/team-management-gear-icon.png",
-                "alt": "Trois silhouettes de personnes avec icône d'engrenage représentant gestion d'équipe, collaboration et structure organisationnelle",
+                "alt": "Trois silhouettes avec un engrenage représentant gestion d’équipe, collaboration et structure",
                 "texts": [
                     "Orchestration",
                     "stratégique"
@@ -252,7 +252,7 @@
             },
             {
                 "src": "/images/partners/hand-holding-location-pin.png",
-                "alt": "Main tenant marqueur de localisation représentant services de géolocalisation, support commercial local et solutions localisées",
+                "alt": "Main tenant un marqueur de localisation représentant géolocalisation, support local et solutions dédiées.",
                 "texts": [
                     "Solutions",
                     "spécifiques aux secteurs"
