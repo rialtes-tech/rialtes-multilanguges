@@ -691,7 +691,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Engage, Support, and Close Deals — All Through WhatsApp. All Inside Salesforce.</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Connect and respond to customers over WhatsApp from any Salesforce record — Leads, Cases, Opportunities, Work Orders, or Custom Objects.</p>
-                        <Link href='/products/agentchat/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4 xl:text-[18px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/agentchat/")}
+                        <Link href='/products/agentchat/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/agentchat/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -705,7 +705,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Transform Patient Care—From Discovery to Recovery</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Powered by LifeAI+, Rialtes' consulting service dedicated to life sciences, MediAIana delivers intelligent, scalable, and compliant healthcare innovation at every stage of the patient journey.</p>
-                        <Link href='/products/mediaina-reimagining-patient-journeys/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] xl:text-[18px] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/mediaina-reimagining-patient-journeys/")}
+                        <Link href='/products/mediaina-reimagining-patient-journeys/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/mediaina-reimagining-patient-journeys/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -718,7 +718,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Exelona™ – Your End-to-End Real Estate Command Center</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Unites every stage of your property business—sales, operations, and finance into one AI-powered, mobile-ready platform, merging CRM and ERP for faster, smarter decisions.</p>
-                        <Link href='/products/exelona-salesforce-for-real-estate-management/' className="text-[#134874] border-[1px] xl:text-[18px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/exelona-salesforce-for-real-estate-management/")}
+                        <Link href='/products/exelona-salesforce-for-real-estate-management/' className="text-[#134874] border-[1px] 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/exelona-salesforce-for-real-estate-management/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1036,7 +1036,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]"> From the Factory Floor to the Driver's Seat — Smarter Automotive Solutions</div>
                         <div className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Transforming production, sales, and service experiences through AI, IoT, and data-driven strategies</div>
-                        <Link href='/industry/real-estate-property-management/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/real-estate-property-management/")}
+                        <Link href='/industry/real-estate-property-management/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px]  border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/real-estate-property-management/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1050,7 +1050,7 @@ const Header = () => {
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]"> Shaping the Future of Healthcare and Life Sciences with Digital Innovation</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Empowering life sciences companies to improve patient outcomes and operationalexcellence through next-gen technology</p>
 
-                        <Link href='/industry/life-sciences-digital-transformation/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-10" onClick={(e) => handleLinkClick(e, "/industry/life-sciences-digital-transformation/")}
+                        <Link href='/industry/life-sciences-digital-transformation/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-10" onClick={(e) => handleLinkClick(e, "/industry/life-sciences-digital-transformation/")}
                         >Let's Begin</Link>
                       </div>
                       <div className="mt-5">
@@ -1087,7 +1087,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Semiconductor Industry 4.0 — Powering Next-Gen Chips with Next-Gen Solutions</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Reimagining semiconductor operations with intelligent automation, data-driven insights,and global supply chain resilience for large enterprises</p>
-                        <Link href='/industry/hitech-semiconductor-ai-it-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/hitech-semiconductor-ai-it-solutions/")}
+                        <Link href='/industry/hitech-semiconductor-ai-it-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/hitech-semiconductor-ai-it-solutions/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1099,7 +1099,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Breakdowns to Breakthroughs: We're There for Your Automotive Service Journeys</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">We empower OEMs and dealerships with efficient case management and smart warranty administration to resolve issues quickly, manage complex vehicle lifecycles, and build customer trust.</p>
-                        <Link className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4 xl:text-[18px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" href='/industry/digital-transformation-in-automotive-industry/' onClick={(e) => handleLinkClick(e, "/industry/digital-transformation-in-automotive-industry/")}
+                        <Link className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" href='/industry/digital-transformation-in-automotive-industry/' onClick={(e) => handleLinkClick(e, "/industry/digital-transformation-in-automotive-industry/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1111,7 +1111,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">AI-Driven Innovation for Travel, Transportation & Hospitality</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Our solutions streamline operations, boost agility, and drive revenue across airlines, hotels, logistics, and more</p>
-                        <Link href='/industry/travel-hospitality-it-solutions/' className="text-[#134874] border-[1px] xl:text-[18px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/industry/travel-hospitality-it-solutions/")}
+                        <Link href='/industry/travel-hospitality-it-solutions/' className="text-[#134874] border-[1px] 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/industry/travel-hospitality-it-solutions/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1124,7 +1124,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Smart Retail Solutions to Build Intelligent, Scalable Retail Ecosystems</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Bringing 10+ years of global expertise to help B2B and B2C retailers modernize operations and exceed customer expectations.</p>
-                        <Link href='/industry/retail-industry-digital-transformation/' className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/industry/retail-industry-digital-transformation/")}
+                        <Link href='/industry/retail-industry-digital-transformation/' className="text-[#134874] 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/industry/retail-industry-digital-transformation/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1139,7 +1139,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Partnering with Nonprofits to Scale Mission-Driven Outcomes</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">We understand the heart of nonprofit work lies in its mission. Rialtes supports that mission with integrated solutions, strategic consulting, and continuous innovation.</p>
-                        <Link href='/industry/nonprofit-digital-transformation-it-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/nonprofit-digital-transformation-it-solutions/")}
+                        <Link href='/industry/nonprofit-digital-transformation-it-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/nonprofit-digital-transformation-it-solutions/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1153,7 +1153,7 @@ const Header = () => {
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Bringing Digital Transformation to Financial Services</div>
                         <p className="mt-3  4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Transforming retail banking, commercial banking, credit unions, and mortgages through analytics and AI-driven predictions</p>
 
-                        <Link href='/industry/finance-industry-digital-transformation-services-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/finance-industry-digital-transformation-services-solutions/")}
+                        <Link href='/industry/finance-industry-digital-transformation-services-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/finance-industry-digital-transformation-services-solutions/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1165,7 +1165,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Powering Smart, Seamless Manufacturing with Mobility and Efficiency</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Making Manufacturing Smarter — AI, Automation, and Actionable Insights</p>
-                        <Link href='/industry/manufacturing-cloud-erp/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/manufacturing-cloud-erp/")}
+                        <Link href='/industry/manufacturing-cloud-erp/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/manufacturing-cloud-erp/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1177,7 +1177,7 @@ const Header = () => {
                       <div className="border-b pb-5">
                         <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Driving Education with Student-Centric Solutions</div>
                         <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Igniting the future of learning, unlocking potential, powering progress—technology for tomorrow’s education.</p>
-                        <Link href='/industry/education-cloud-it-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] xl:text-[18px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/education-cloud-it-solutions/")}
+                        <Link href='/industry/education-cloud-it-solutions/' aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" className="text-[#134874] 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" onClick={(e) => handleLinkClick(e, "/industry/education-cloud-it-solutions/")}
                         >Let's Begin</Link>
                       </div>
                     </div>
@@ -1207,7 +1207,7 @@ const Header = () => {
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Beyond Business: A Commitment to Change</div>
                       <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
-                      <Link href='/about-us/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/about-us/")}>Let's Begin</Link>
+                      <Link href='/about-us/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/about-us/")}>Let's Begin</Link>
                     </div>
                     <div className="mt-5">
                       <div className="grid grid-cols-2 gap-32">
@@ -1249,7 +1249,7 @@ const Header = () => {
                     <div className="border-b pb-5">
                       <div className="font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">Explore Our Insights: Blogs, Case Studies, and Thought Leadership</div>
                       <p className="mt-3 4xl:text-[18px] xl:text-[16px] text-[14px] pb-8">Stay ahead of the curve with expert perspectives, success stories, and the latest innovations in AI.</p>
-                      <Link href='/insights/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] xl:text-[18px] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/insights/")}
+                      <Link href='/insights/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] 4xl:text-[18px] 2xl:text-[16px] xl:text-[16px] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/insights/")}
                       >Let's Begin</Link>
                     </div>
                     <div className="mt-5">
@@ -1277,8 +1277,6 @@ const Header = () => {
           )}
         </div>
       </div>
-
-      {/* ///mobile menu */}
       <div>
         <div className="lg:hidden flex justify-between items-center px-[35px] py-3 bg-white w-full z-50 fixed top-0" id="mobile-menu">
 

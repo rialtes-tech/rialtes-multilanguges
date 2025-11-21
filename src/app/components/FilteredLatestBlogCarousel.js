@@ -193,8 +193,8 @@ export default function page({ url }) {
         if (isLastSlide) {
             const timer = setTimeout(() => {
                 carouselRef.current.goToSlide(0);
-                setIsLastSlide(false);  // reset
-            }, 2000); // wait before restarting
+                setIsLastSlide(false); 
+            }, 2000); 
 
             return () => clearTimeout(timer);
         }
