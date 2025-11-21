@@ -61,7 +61,27 @@ const allCategories = [
 ];
 
 const latestBlogs = [
-   {
+  {
+    "id": 56,
+    "image": "/images/blog/digital-touchscreen-technology-mobile.webp",
+    "category": "MediAIna",
+    "industry": "Life Sciences",
+    "date": "Nov. 20, 2025",
+    "url": "/ai-in-clinical-trials-rare-disease-enrolment/",
+    "title": "5 Proven Ways AI Accelerates Patient Enrolment in Rare Disease Clinical Trials",
+    "description": "Clinical trials are the lifeblood of medical innovation, especially when it comes to rare diseases. Yet, one of the biggest hurdles in developing new therapies isn’t the science"
+  },
+  {
+    id: 3,
+    image: "/images/blog/digital-brain-ai-circuit-technology-illustration-mobile.webp",
+    category: "Salesforce Agentforce",
+    industry: "Generic",
+    date: "Nov. 19, 2024",
+    url: '/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/',
+    title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
+    description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
+  },
+  {
     id: 55,
     image: "/images/blog/digital-network-touch-data-connection-visualization-mobile.webp",
     category: "Integration",
@@ -121,7 +141,6 @@ const latestBlogs = [
     title: "5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
     description: "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. "
   },
-
   {
     "id": 49,
     "image": "/images/blog/ai-sla-billing-efficiency-feature-carousel.webp",
@@ -563,17 +582,6 @@ const latestBlogs = [
     url: '/sap-successfactors-performance-and-goal-management/',
     title: "SAP SuccessFactors Performance and Goal Management",
     description: "Achieving your organization’s goals is a key responsibility your entire team shares. When your team’s strategy aligns with its goals and the broader organizational objectives, doing the right thing becomes instinctive.",
-  },
-
-  {
-    id: 3,
-    image: "/images/blog/blog-2.webp",
-    category: "Salesforce Agentforce",
-    industry: "Generic",
-    date: "Oct. 21, 2024",
-    url: '/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/',
-    title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-    description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
   },
   {
     id: 2,
