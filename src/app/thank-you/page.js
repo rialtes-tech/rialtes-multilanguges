@@ -4,13 +4,14 @@ import Link from "next/link";
 
 export default function ThankYou() {
   return (
-    <div className="grid grid-cols-12 custom-container relative 4xl:pr-0">
+    <div className="grid xl:grid-cols-12 grid-cols-1 w-full gap-0 px-0 pt-10 4xl:pt-20 custom-container xl:pr-0">
 
       {/* LEFT CONTENT */}
-      <div className="col-span-12 lg:col-span-6 flex flex-col justify-center">
+      <div className="xl:col-span-6 flex flex-col">
+
         <h2
           className="text-[#134874] font-medium leading-tight
-          4xl:text-[45px] 2xl:text-[40px] xl:text-[35px] md:text-[30px] text-[26px] mt-16"
+          4xl:text-[45px] 2xl:text-[40px] xl:text-[32px] md:text-[30px] text-[26px]"
         >
           Thank you for contacting Rialtes!
         </h2>
@@ -19,7 +20,7 @@ export default function ThankYou() {
         <div className="w-24 h-[3px] bg-gray-300 mt-4 mb-6"></div>
 
         {/* Text */}
-        <p className="xl:w-[55%] text-[18px] md:text-[20px] xl:text-[22px] text-black leading-tight mt-10">
+        <p className="text-[18px] md:text-[20px] xl:text-[22px] text-black leading-tight mt-10 max-w-[500px]">
           Our expert will respond to you shortly via your phone or email address.
         </p>
 
@@ -28,7 +29,7 @@ export default function ThankYou() {
           For more updates follow us on:
         </p>
 
-        {/* SOCIAL ICONS (LEFT) */}
+        {/* SOCIAL ICONS */}
         <div className="flex items-center gap-8 ml-[-20px] mt-8">
           <Link href="https://www.instagram.com/rialtes_technologies/" title="Instagram">
             <Image className="h-12 w-16" src="/images/homepage/Asset3.svg" alt="instagram" height={100} width={100} />
@@ -44,28 +45,33 @@ export default function ThankYou() {
         </div>
       </div>
 
-      {/* RIGHT SIDE IMAGE + CLOSE BUTTON */}
-      <div className="col-span-12 lg:col-span-6 relative 4xl:h-[540px]">
+      {/* RIGHT IMAGE + CLOSE BUTTON */}
+      <div className="xl:col-span-6 flex justify-end relative">
 
-        {/* Background Image */}
-        <Image
-          src="/images/homepage/logoback.webp"
-          alt="Background Pattern"
-          width={800}
-          height={800}
-          className="w-full h-full object-cover"
-        />
+        <div className="w-full max-w-[600px] relative h-[500px]">
 
-        {/* Close Button INSIDE IMAGE */}
-        <Link href="/" className="absolute bottom-[4rem] left-10">
-          <button
-            className="bg-[#134874] text-white font-medium py-3 px-10 rounded-sm
-            hover:bg-white hover:text-[#134874] border border-[#134874]
-            transition duration-300"
-          >
-            Close
-          </button>
-        </Link>
+          {/* Background Image */}
+          <Image
+            src="/images/homepage/logoback.webp"
+            alt="Background Pattern"
+            width={800}
+            height={800}
+            className="w-full h-auto object-contain"
+          />
+
+          {/* Close Button */}
+          <Link href="/" className="absolute bottom-[3rem] xl:left-10">
+            <button
+              className="bg-[#134874] text-white font-medium py-3 px-10 rounded-sm
+              hover:bg-white hover:text-[#134874] border border-[#134874]
+              transition duration-300"
+            >
+              Close
+            </button>
+          </Link>
+
+        </div>
+
       </div>
 
     </div>
