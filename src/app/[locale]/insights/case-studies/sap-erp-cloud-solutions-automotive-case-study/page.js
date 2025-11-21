@@ -1,11 +1,11 @@
 "use client";
 import Image from "next/image";
-import Seo from "@/app/components/Seo";
-import UnorderedList from "@/app/components/unorderedList";
+import Seo from "@/app/[locale]/components/Seo";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
-import BlogSocialIcons from "@/app/components/blogSocialIcons";
-import RealtedCaseStudies from "@/app/components/RealtedCaseStudies"
-import useUrl from "@/app/components/useUrl";
+import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
+import RealtedCaseStudies from "@/app/[locale]/components/RealtedCaseStudies"
+import useUrl from "@/app/[locale]/components/useUrl";
 
 const schemaData = {
     "@context": "https://schema.org",
