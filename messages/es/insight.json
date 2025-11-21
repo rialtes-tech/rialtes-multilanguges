@@ -1,6 +1,13 @@
 {
   "insights": {
-    "bannerAlt": "Iceberg flotando en océano azul simbolizando profundidades ocultas y perspectivas expertas de la industria empresarial",
+    "bannerAlt": "Banner móvil de información para actualizaciones empresariales",
+    "dataCloudeDigitalAlt": "Ilustración de computación verde con árbol y circuito digital",
+    "futuristicMedTechAlt": "Ilustración de diversidad para IA en atención al paciente",
+    "dataVisualizationAlt": "Ilustración de diversidad que muestra el concepto del primer agente IA",
+    "transformingAlt": "Transformando el éxito estudiantil con aprendizaje digital ",
+    "voyageAlt": "Banner del equipo de liderazgo con principales líderes empresariales",
+    "agenticAlt": "Miniatura del webinar del equipo de liderazgo para sesión del 15 de mayo",
+    "databricksAlt": "Miniatura del webinar del equipo de liderazgo para sesión del 13 de mayo",
     "insightTitle": "Mantente a la Vanguardia con Información Experta de la Industria",
     "seoTitle": "Centro de Insights Rialtes | Salesforce y SAP | Rialtes",
     "seoDescription": "Mantente a la vanguardia con Rialtes: accede a blogs, casos de estudio reales y webinars sobre Salesforce, SAP e innovación digital.",
@@ -47,8 +54,8 @@
     "caseStudies": [
       {
         "id": "case-study-2",
-        "image": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
-        "alt": "Ilustración de diversidad",
+        "image": "/images/case-studies/automotive-robotic-assembly-line-car-manufacturing-mobile.webp",
+        "alt": "Ilustración de diversidad para caso de gestión de garantías",
         "category": "Automotriz",
         "date": "Jun. 30, 2025",
         "title": "Fabricante Automotriz Líder Logró un 35% Más en el Índice de Satisfacción del Cliente con AutoSense",
@@ -57,8 +64,8 @@
       },
       {
         "id": "case-study-3",
-        "image": "/images/case-studies/revolutionary-filter.webp",
-        "alt": "Transformación de gestión de concesionarios",
+        "image": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
+        "alt": "Transformación del concesionario con sistema de filtro avanzado",
         "category": "Manufactura",
         "date": "Jun. 03, 2025",
         "title": "Impulsando la Gestión de Concesionarios con AutoSense de Rialtes",
@@ -67,8 +74,8 @@
       },
       {
         "id": "case-study-4",
-        "image": "/images/case-studies/adaptis-for-carousel.webp",
-        "alt": "Experiencia de reclamo de garantía",
+        "image": "/images/case-studies/insurance-adjuster-homeowner-storm-damage-assessment-carousel.webp",
+        "alt": "Experiencia mejorada de reclamos de garantía con plataforma Adaptis",
         "category": "Manufactura",
         "date": "May 30, 2025",
         "title": "Reclamos en 4 Minutos: Rialtes Crea un Portal Móvil para Transformar la Experiencia de Reclamaciones",

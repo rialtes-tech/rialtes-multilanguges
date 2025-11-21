@@ -1,6 +1,13 @@
 {
   "insights": {
-    "bannerAlt": "Iceberg floating in blue ocean symbolizing hidden depths and expert industry insights for business strategy",
+    "bannerAlt": "Mobile insights banner for business updates",
+    "dataCloudeDigitalAlt": "Green computing illustration with tree and digital circuit",
+    "futuristicMedTechAlt": "Diversity illustration for AI in patient care",
+    "dataVisualizationAlt": "Diversity illustration showing first AI agent concept",
+    "transformingAlt": "Transforming student success through digital learning ",
+    "voyageAlt": "Leadership team banner showcasing key business leaders",
+    "agenticAlt": "Leadership team webinar thumbnail for May 15 session",
+    "databricksAlt": "Leadership team webinar thumbnail for May 13 session",
     "seoTitle": "Rialtes Insights Hub | Salesforce and SAP | Rialtes",
     "seoDescription": "Stay ahead with Rialtes insights: access blogs, real-world case studies, and webinars on Salesforce, SAP, and digital innovation.",
     "insightTitle": "Stay Ahead with Expert Industry Insights",
@@ -48,8 +55,8 @@
     "caseStudies": [
       {
         "id": "case-study-2",
-        "image": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
-        "alt": "Diversity illustration",
+        "image": "/images/case-studies/automotive-robotic-assembly-line-car-manufacturing-mobile.webp",
+        "alt": "Diversity illustration for warranty management case study ",
         "category": "Automotive",
         "date": "Jun. 30, 2025",
         "title": "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
@@ -58,8 +65,8 @@
       },
       {
         "id": "case-study-3",
-        "image": "/images/case-studies/revolutionary-filter.webp",
-        "alt": "Dealer management transformation",
+        "image": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
+        "alt": "Dealer management transformation with advanced filter system",
         "category": "Manufacturing",
         "date": "Jun. 03, 2025",
         "title": "Revving Up Dealer Management with AutoSense by Rialtes",
@@ -68,8 +75,8 @@
       },
       {
         "id": "case-study-4",
-        "image": "/images/case-studies/adaptis-for-carousel.webp",
-        "alt": "Warranty claim experience",
+        "image": "/images/case-studies/insurance-adjuster-homeowner-storm-damage-assessment-carousel.webp",
+        "alt": "Enhanced warranty claim experience with Adaptis platform",
         "category": "Manufacturing",
         "date": "May 30, 2025",
         "title": "Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience",
