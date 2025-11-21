@@ -131,7 +131,7 @@
         "headerTitle": "Gérez vos processus immobiliers avec un logiciel de gestion de biens basé sur le cloud",
         "seoTitle": "Révolutionner la Gestion Immobilière pour le Secteur de l’Immobilier | Rialtes",
         "seoDescription": "L’avenir de la gestion immobilière est là : automatisez vos locations, réduisez les vacances et améliorez le ROI avec un logiciel dédié.",
-        "bannerAlt": "Main d'architecte pointant maquette de ville miniature blanche avec gratte-ciels représentant planification urbaine et développement immobilier",
+        "bannerAlt": "Main d'architecte pointant maquette de ville miniature blanche avec gratte-ciels représentant planification urbaine",
         "headerSubTitle": "IMMOBILIER",
         "realTitle": "Logiciel de gestion immobilière abordable pour vos opérations",
         "realDescOne": "Le marché immobilier est dynamique et imprévisible – mais votre entreprise ne doit pas l'être. Avec les bons outils et stratégies, les entreprises immobilières peuvent connaître une croissance constante d'année en année tout en dépassant les attentes des clients.",
@@ -149,7 +149,7 @@
                 "id": 1,
                 "image": "/images/industry/real-estate/hands-typing-laptop-digital-files-data-management.webp",
                 "title": "Opérations centralisées : la solution tout-en-un",
-                "alt": "Mains tapant sur ordinateur portable avec superposition d'icônes de fichiers numériques représentant gestion de données et stockage cloud",
+                "alt": "Mains tapant sur ordinateur portable avec superposition d'icônes de fichiers numériques représentant gestion de données",
                 "description": "Imaginez gérer toutes vos données immobilières, des contrats de location aux plannings de maintenance, en un seul endroit. RealForce offre des opérations centralisées pour une expérience de gestion simplifiée grâce à nos solutions en ligne.",
                 "productsDetails": [
                     "Génération automatique des contrats",
@@ -160,7 +160,7 @@
             {
                 "id": 2,
                 "image": "/images/industry/real-estate/hand-stylus-tablet-holographic-data-analytics.webp",
-                "alt": "Main utilisant stylet sur tablette avec graphiques de données holographiques et carte mondiale représentant analytique commerciale et technologie numérique",
+                "alt": "Main utilisant stylet sur tablette avec graphiques de données holographiques et carte mondiale représentant analytique",
                 "title": "Accessibilité multi-plateformes : gérez en déplacement",
                 "description": "Notre système de gestion immobilière en ligne vous permet d'accéder à votre tableau de bord de gestion où que vous soyez, faisant de nous un leader parmi les logiciels de gestion immobilière aux États-Unis.",
                 "productsDetails": [
@@ -172,7 +172,7 @@
             {
                 "id": 3,
                 "image": "/images/industry/real-estate/hands-interacting-holographic-dashboard-data-visualization.webp",
-                "alt": "Mains interagissant avec écrans holographiques de tableau de bord montrant graphiques de données et analytique sur ordinateur portable représentant intelligence d'affaires",
+                "alt": "Mains interagissant avec écrans holographiques de tableau de bord montrant graphiques de données représentant intelligence",
                 "title": "Analyse complète : prenez des décisions éclairées",
                 "description": "Nous nous distinguons parmi les meilleurs logiciels de gestion immobilière en offrant la plateforme d'analyse n°1 pour améliorer vos performances, des revenus aux taux de vacance.",
                 "productsDetails": [
@@ -184,7 +184,7 @@
             {
                 "id": 4,
                 "image": "/images/industry/real-estate/accountant-using-calculator-financial-reports-laptop.webp",
-                "alt": "Personne utilisant calculatrice avec rapports financiers et ordinateur portable affichant graphiques colorés représentant travail de comptabilité et analyse budgétaire",
+                "alt": "Personne utilisant calculatrice avec rapports financiers et ordinateur portable affichant graphiques colorés représentant",
                 "title": "Clarté financière : comptabilité simplifiée",
                 "description": "Notre logiciel est le choix incontournable pour les agents immobiliers recherchant des rapports financiers détaillés et des fonctionnalités de facturation. Simplifiez votre processus budgétaire avec la plateforme cloud n°1 au monde.",
                 "productsDetails": [
@@ -231,7 +231,7 @@
             {
                 "id": 1,
                 "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
-                "alt": "Trois professionnels d'affaires dans bureau moderne discutant plans pendant qu'un pointe mur représentant planification d'espace de travail et collaboration",
+                "imageAlt": "Trois professionnels d'affaires dans bureau moderne discutant plans pendant qu'un pointe mur représentant planification",
                 "title": "Module bancaire RealForce - ACH",
                 "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l'investissement dans des propriétés multifamiliales.",
                 "url": "/insights/case-studies/realForce-banking-module-ach"
@@ -239,7 +239,7 @@
             {
                 "id": 2,
                 "url": "/insights/case-studies/yardi-managed-services",
-                "alt": "Paysage urbain abstrait 3D avec barres dégradées colorées en rose, bleu et orange représentant visualisation de données et analytique urbaine",
+                "imageAlt": "Paysage urbain abstrait 3D avec barres dégradées colorées en rose, bleu et orange représentant visualisation de données",
                 "imgSrc": "/images/case-studies/abstract-colorful-city-skyline-data-visualization.webp",
                 "title": "Services gérés Yardi",
                 "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l'investissement dans des propriétés multifamiliales."
