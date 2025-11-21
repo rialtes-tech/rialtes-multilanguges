@@ -373,7 +373,8 @@ export default function Page() {
                     </h2>
 
                     {item.data.map((paragraph, i) => (
-                      <p
+                      <p  
+                        key={i}
                         className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                         dangerouslySetInnerHTML={{ __html: paragraph }}
                       />
