@@ -159,7 +159,7 @@ export default function InsightsPage() {
                 >
                   <Image
                     src="/images/blog/cloud-data-digital-transformation-mobile.webp"
-                    alt="Green computing illustration showing tree and circuit integration"
+                    alt={t('dataCloudeDigitalAlt')}
                     fill
                     className="object-cover h-full"
                     style={{ objectPosition: "65% 70%" }}
@@ -223,10 +223,10 @@ export default function InsightsPage() {
                     }}>
                     <Image
                       src="/images/blog/futuristic-medical-technology-innovation-mobile.webp"
-                      alt="Diversity illustration"
+                      alt= {t('futuristicMedTechAlt')}
                       fill
                       className="object-cover h-full w-full"
-                      style={{ objectPosition: "15% 60%" }}
+                      style={{ objectPosition: "15% 60%" }} 
                       priority
                     />
                   </div>
@@ -289,7 +289,7 @@ export default function InsightsPage() {
                     }}>
                     <Image
                       src="/images/blog/artificial-intelligence-data-visualization-mobile.webp"
-                      alt="Diversity illustration"
+                      alt={t('dataVisualizationAlt')}
                       fill
                       className="object-cover h-full w-full"
                       style={{ objectPosition: "10% 30%" }}
@@ -387,11 +387,11 @@ export default function InsightsPage() {
                     transform:
                       hoveredBlog === "case-study-1"
                         ? "scale(1.05)"
-                        : "scale(1)",
+                        : "scale(1)", 
                   }}>
                   <Image
-                    src="/images/case-studies/Small thumb.webp"
-                    alt="Transforming Student Success"
+                    src="/images/case-studies/graduation-cap-ladder-clouds-education-success-concept-mobile.webp"
+                    alt={t('transformingAlt')}
                     fill
                     sizes=""
                     className="object-cover h-full"
@@ -521,7 +521,7 @@ export default function InsightsPage() {
                   >
                     <Image
                       src="/images/webinar/slider-rise.webp"
-                      alt="Leadership Team"
+                      alt= {t('voyageAlt')}
                       width={0}
                       height={0}
                       sizes="100vw"
@@ -598,8 +598,8 @@ export default function InsightsPage() {
                     }}
                   >
                     <Image
-                      src="/images/webinar/Webinar_15 May 25_webinar thumb.webp"
-                      alt="Leadership Team"
+                      src="/images/webinar/ai-digital-transformation-data-overlay-carousal.webp"
+                      alt={t('agenticAlt')}
                       width={0}
                       height={0}
                       sizes="100vw"
@@ -675,8 +675,8 @@ export default function InsightsPage() {
                     }}
                   >
                     <Image
-                      src="/images/webinar/Webinar_13 May 25_webinar thumb.webp"
-                      alt="Leadership Team"
+                      src="/images/webinar/digital-data-wave-visualization-abstract-carousal.webp"
+                      alt={t('databricksAlt')}
                       width={0}
                       height={0}
                       sizes="100vw"
