@@ -446,36 +446,36 @@ const Header = () => {
                   <div className="col-span-3 bg-[#deebf8] p-3 relative">
                     {/* Data & AI Section */}
                     <div
-                      className={`cursor-pointer font-bold mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionSolution === "dataAI" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                      className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "dataAI" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickSolution("dataAI")}>
                       {t('dataAiLabel')}
                     </div>
 
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionSolution === "enterprise" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "enterprise" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickSolution("enterprise")}>
                       {t('enterpriseLabel')}
                     </div>
 
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionSolution === "integration" ? "bg-white pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "integration" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickSolution("integration")}>
                       {t('integrationLabel')}
                     </div>
 
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionSolution === "artificialIntelligence" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "artificialIntelligence" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickSolution("artificialIntelligence")}>
                       {t('artificialLabel')}
                     </div>
 
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionSolution === "aiAutomation" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "aiAutomation" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickSolution("aiAutomation")}>
                       {t('processAutoLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionSolution === "quality-engi" ? "bg-white  pl-3 pt-3 pb-3 pr-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionSolution === "quality-engi" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickSolution("quality-engi")}>
                       {t('qualityEngLabel')}
                     </div>
@@ -621,18 +621,18 @@ const Header = () => {
                   <div className="col-span-3">
                     <div className="bg-[#deebf8] p-3">
                       <div
-                        className={`cursor-pointer font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionProduct === "rialchat" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                        className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionProduct === "rialchat" ? "bg-white" : "bg-transparent"}`}
                         onClick={() => handleSubMenuClickProduct("rialchat")}>
                         {t('agentchatLabel')}
                       </div>
                       <div
-                        className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionProduct === "mediaina" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                        className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionProduct === "mediaina" ? "bg-white" : "bg-transparent"}`}
                         onClick={() => handleSubMenuClickProduct("mediaina")}
                       >
                         MediAIna
                       </div>
                       <div
-                        className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionProduct === "exelona" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                        className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionProduct === "exelona" ? "bg-white" : "bg-transparent"}`}
                         onClick={() => handleSubMenuClickProduct("exelona")}
                       >
                         Exelona
@@ -688,37 +688,37 @@ const Header = () => {
                 <div className="grid grid-cols-12 custom-container gap-5 xl:w-full  md:gap-5  lg:gap-10 md:mt-10 xl:justify-between md:justify-center xl:mt-10">
                   <div className="col-span-3 bg-[#deebf8] p-3">
                     <div
-                      className={`cursor-pointer font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "businessTransform" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "businessTransform" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickBusiness("businessTransform")}>
                       {t('businessTransformationLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "intelligentScm" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "intelligentScm" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickBusiness("intelligentScm")}>
                       {t('LobLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "spentMangemnet" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "spentMangemnet" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickBusiness("spentMangemnet")}>
                       {t('spendMgmtLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "hxmTransformation" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "hxmTransformation" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickBusiness("hxmTransformation")}>
                       {t('hxmLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]  2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "data-ai" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "data-ai" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickBusiness("data-ai")}>
                       {t('dataAiLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "intelligent" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "intelligent" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickBusiness("intelligent")}>
                       {t('intelligentLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] 2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSectionbusiness === "applicationServices" ? "bg-white pl-3 pt-3 pb-3" : "p-2"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSectionbusiness === "applicationServices" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClickBusiness("applicationServices")}>
                       {t('appServicesLabel')}
                     </div>
@@ -882,52 +882,52 @@ const Header = () => {
                 <div className="grid grid-cols-12 w-full lg:gap-10 xl:gap-[22px] md:gap-5 custom-container md:mt-10 xl:mt-10">
                   <div className="col-span-3 bg-[#deebf8] p-3">
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "automotive" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
+                      className={`cursor-pointer font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSection === "automotive" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClick("automotive")}>
                       {t('realEstateLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "lifeSciences" ? "bg-white pl-3 pt-3 pb-3 " : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSection === "lifeSciences" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClick("lifeSciences")}>
                       {t('lifeScienceLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "hiTech" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSection === "hiTech" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClick("hiTech")}>
                       {t('semiconductorLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "manufacturing" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSection === "manufacturing" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClick("manufacturing")}>
                       {t('manufacturingLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "education" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSection === "education" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClick("education")}>
                       {t('educationLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "autoinstry" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSection === "autoinstry" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClick("autoinstry")}>
                       {t('automativeLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "travelHospitality" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSection === "travelHospitality" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClick("travelHospitality")}>
                       {t('TTHLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "retailIndustry" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSection === "retailIndustry" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClick("retailIndustry")}>
                       {t('retailLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "nonProfitIndustry" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSection === "nonProfitIndustry" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClick("nonProfitIndustry")}>
                       {t('nonProfitLabel')}
                     </div>
                     <div
-                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] ${openSection === "financeIndustry" ? "bg-white pl-3 pt-3 pb-3" : "4xl:p-2 2xl:p-2 p-2 xl:p-1"}`}
+                      className={`cursor-pointer mt-3 font-bold 4xl:text-[18px] xl:text-[16px] text-[14px] p-3 ${openSection === "financeIndustry" ? "bg-white" : "bg-transparent"}`}
                       onClick={() => handleSubMenuClick("financeIndustry")}>
                       {t('financeLabel')}
                     </div>
