@@ -780,9 +780,9 @@
     "thoughtAlt": "Doctora profesional con bata blanca revisando registros médicos en un moderno centro de atención sanitaria",
     "whyAlt": "Brazos robóticos quirúrgicos avanzados con instrumentos de precisión en quirófano estéril para cirugía mínimamente invasiva",
     "endAlt": "Pasillo de centro de datos moderno con plantas verdes que representan tecnología de servidores ecológica y eficiente en energía",
-    "keyAlt": "Profesional médico usando tecnología de inteligencia artificial con iconos de salud digital e interfaz de visualización anatómica",
-    "benefitsAlt": "Mujer usando un teléfono inteligente para monitorear datos de salud desde un sensor de glucosa portátil en su brazo, representando tecnología sanitaria conectada",
-    "patientAlt": "Profesional de la salud sonriente con bata y estetoscopio usando una tableta digital para la gestión de pacientes o revisión de datos médicos",
+    "keyAlt": "Profesional médico usando tecnología de IA con iconos de salud digital e interfaz de visualización anatómica",
+    "benefitsAlt": "Mujer usando smartphone para monitorear datos de salud desde sensor de glucosa en su brazo, tecnología sanitaria conectada",
+    "patientAlt": "Profesional de la salud sonriente con bata usando tableta para gestión de pacientes o revisión de datos médicos",
     "integratedAlt": "Trabajador sanitario con ropa protectora gestionando el inventario de suministros médicos en un almacén",
     "mobileAlt": "Médico ayudando a un paciente mayor a usar una aplicación móvil de seguimiento de salud",
     "remoteAlt": "Primer plano de manos usando una aplicación móvil para monitorear datos de salud y estado físico",
@@ -866,7 +866,7 @@
       {
         "id": 1,
         "title": "Cumplimiento Normativo y Gestión de Calidad",
-        "alt": "Interfaz digital que muestra íconos de seguridad laboral y cumplimiento, con una persona usando un teléfono inteligente para el monitoreo",
+        "alt": "Interfaz digital con íconos de seguridad laboral y cumplimiento, persona usando smartphone para monitoreo",
         "imageMobile": "/images/medical/workplace-safety-digital-monitoring-mobile.webp",
         "imageDesktop": "/images/medical/workplace-safety-digital-monitoring.webp",
         "points": [

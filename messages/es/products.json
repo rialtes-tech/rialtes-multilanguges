@@ -157,7 +157,7 @@
       },
       {
         "img": "/images/products/exelona/cloud-development-icon.svg",
-        "alt": "API Abierta",
+        "alt": "Ícono de nube blanca con corchetes de código conectado a nodos de red sobre fondo digital azul con patrón de circuito",
         "title": "Arquitectura OPENAPI",
         "desc": "Se integra fácilmente con SAP, Yardi, Oracle, Salesforce y más."
       }
@@ -166,7 +166,7 @@
       {
         "title": "Cuentas por Cobrar",
         "img": "/images/products/exelona/desktop/real-estate-agent-digital-tablet.webp",
-        "alt": "Profesional sonriente sosteniendo una tableta digital frente a un edificio moderno, representando la gestión inmobiliaria inteligente y la tecnología de propiedad",
+        "alt": "Profesional sonriente con tableta digital frente a edificio moderno representando gestión inmobiliaria inteligente",
         "points": [
           "Facturación automática de inquilinos y aplicación de cargos por demora.",
           "Flujos de aprobación de cancelaciones y seguimiento del historial.",
@@ -180,7 +180,7 @@
       {
         "title": "Presupuestación, Pronóstico y Reportes Financieros",
         "img": "/images/products/exelona/desktop/real-estate-investment-finance.webp",
-        "alt": "Modelo de casa en miniatura rodeado de pilas de monedas sobre documentos financieros, simbolizando la inversión inmobiliaria y las finanzas de propiedad",
+        "alt": "Modelo de casa en miniatura con pilas de monedas sobre documentos financieros simbolizando inversión inmobiliaria",
         "points": [
           "Presupuestos multianuales con personalización a nivel de propiedad.",
           "Pronósticos continuos basados en datos de ocupación y arrendamiento.",
@@ -194,7 +194,7 @@
       {
         "title": "Cuentas por Pagar y Adquisiciones",
         "img": "/images/products/exelona/desktop/digital-procurement-technology.webp",
-        "alt": "Profesional de negocios utilizando una computadora portátil con íconos digitales flotantes que representan el proceso de adquisiciones y la gestión de contratos",
+        "alt": "Profesional de negocios con computadora portátil e íconos digitales flotantes representando adquisiciones y contratos",
         "points": [
           "Automatización de facturas por pagar y flujos de aprobación.",
           "Creación de órdenes de compra y conciliación de recibos.",
@@ -208,7 +208,7 @@
       {
         "title": "Gestión de Inventario y Activos",
         "img": "/images/products/exelona/desktop/warehouse-inventory-management.webp",
-        "alt": "Empresaria utilizando una tableta digital para inspeccionar inventario en un almacén, representando la gestión moderna de cadena de suministro y logística",
+        "alt": "Empresaria con tableta digital inspeccionando inventario en almacén representando gestión de cadena de suministro",
         "points": [
           "Seguimiento del inventario a nivel de unidad, edificio y almacén.",
           "Gestión de activos de capital con cronogramas de depreciación.",
@@ -365,14 +365,14 @@
         ]
       }
     ],
-    "bannerAlt": "Doble exposición de manos sosteniendo tableta con paisaje urbano moderno y conexiones de red representando transformación digital de ciudad inteligente",
-    "digitalAlt": "Paisaje urbano abstracto en wireframe azul con rascacielos modernos y líneas de cuadrícula digital representando planificación urbana y arquitectura",
-    "assetAlt": "Edificios residenciales inteligentes en miniatura con paisajismo verde mostrados en tableta digital representando tecnología de propiedad urbana",
+    "bannerAlt": "Doble exposición de manos con tableta, paisaje urbano moderno y conexiones de red representando ciudad inteligente",
+    "digitalAlt": "Paisaje urbano abstracto en wireframe azul con rascacielos modernos y cuadrícula digital representando planificación urbana",
+    "assetAlt": "Edificios residenciales inteligentes en miniatura con paisajismo verde en tableta digital representando proptech urbana",
     "aiAlt": "Paisaje urbano futurista con gráficos de datos y análisis brillantes que representan tecnología urbana impulsada por datos",
     "excelAlt": "Mano interactuando con tableta digital que muestra modelo arquitectónico 3D de edificios modernos y diseño urbano inteligente",
     "paymentAlt": "Persona usa tableta para completar pago en línea seguro con confirmación digital que muestra transacción exitosa",
     "agentAlt": "Mujer sonriente usa teléfono inteligente para revisar mensajes o notificaciones en un entorno de oficina moderno y luminoso",
-    "builtAlt": "Red digital abstracta en la nube con datos binarios y patrones azules brillantes que simbolizan la tecnología de computación en la nube",
+    "builtAlt": "Red digital abstracta en la nube con datos binarios y patrones azules brillantes simbolizando computación en la nube",
     "headerTitle": "Exelona",
     "seoTitle": "Exelona™ – Salesforce para Gestión Inmobiliaria | Rialtes",
     "seoDescription": "Exelona combina IA y Salesforce para gestión inmobiliaria inteligente, con automatización, insights y excelencia operativa.",
