@@ -203,6 +203,28 @@
     ],
     "latestBlogs": [
       {
+        "id": 56,
+        "image": "/images/blog/digital-touchscreen-technology-mobile.webp",
+        "category": "MediAIna",
+        "industry": "Ciencias de la Vida",
+        "date": "Nov. 20, 2025",
+        "alt": "Persona interactuando con una interfaz táctil digital que muestra elementos de IA y tecnología futurista",
+        "url": "/ai-in-clinical-trials-rare-disease-enrolment/",
+        "title": "5 formas comprobadas en que la IA acelera la inscripción de pacientes en ensayos clínicos de enfermedades raras",
+        "description": "Los ensayos clínicos son el motor de la innovación médica, especialmente en el caso de las enfermedades raras. Sin embargo, uno de los mayores desafíos en el desarrollo de nuevas terapias no es la ciencia."
+      },
+      {
+        "id": 3,
+        "image": "/images/blog/digital-brain-ai-circuit-technology-illustration-mobile.webp",
+        "category": "Salesforce Agentforce",
+        "industry": "Genérico",
+        "alt": "Ilustración de un circuito cerebral digital con conexiones luminosas sobre un fondo tecnológico azul oscuro que representa el concepto de IA",
+        "date": "Nov. 19, 2025",
+        "url": "/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/",
+        "title": "El cerebro detrás de los agentes: Revelando el motor de razonamiento Atlas en Agentforce",
+        "description": "A medida que las empresas crecen, aumenta la complejidad de gestionar las interacciones con los clientes, lo que impulsa la necesidad de sistemas de soporte más inteligentes y eficientes. Salesforce Agentforce ofrece una plataforma sólida para la automatización del servicio al cliente, ahora mejorada por el innovador motor de razonamiento Atlas."
+      },
+      {
         "id": 55,
         "image": "/images/blog/digital-network-touch-data-connection-visualization-mobile.webp",
         "category": "Integración",
@@ -751,17 +773,6 @@
         "title": "Gestión de Desempeño y Objetivos con SAP SuccessFactors",
         "alt": "Panel de desempeño para gestión de objetivos en RRHH",
         "description": "Alcanzar los objetivos de tu organización es una responsabilidad clave compartida por todo el equipo. Cuando la estrategia del equipo se alinea con sus metas y con los objetivos más amplios de la organización, hacer lo correcto se vuelve instintivo."
-      },
-      {
-        "id": 3,
-        "image": "/images/blog/digital-brain-ai-circuit-technology-illustration-mobile.webp",
-        "category": "Salesforce Agentforce",
-        "industry": "Genérico",
-        "date": "Oct. 21, 2024",
-        "url": "/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/",
-        "title": "El Cerebro Detrás de los Agentes: Revelando el Motor de Razonamiento Atlas en Agentforce",
-        "alt": "Interfaz del Motor de Razonamiento Atlas en Agentforce",
-        "description": "A medida que las empresas crecen, la complejidad de gestionar interacciones con clientes se multiplica, aumentando la necesidad de sistemas de soporte más inteligentes y eficientes. Salesforce Agentforce proporciona una plataforma robusta para automatización del servicio al cliente, ahora mejorada por el innovador Motor de Razonamiento Atlas."
       },
       {
         "id": 2,
