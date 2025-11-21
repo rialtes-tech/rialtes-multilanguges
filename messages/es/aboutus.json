@@ -236,7 +236,7 @@
     "approachData": [
       {
         "src": "/images/partners/team-management-gear-icon.png",
-        "alt": "Tres figuras de personas con ícono de engranaje representando gestión de equipo, colaboración laboral y estructura organizacional",
+        "alt": "Tres figuras con un engranaje, simbolizando gestión de equipo, colaboración y estructura laboral.",
         "texts": [
           "Orquestación",
           "estratégica"
@@ -244,7 +244,7 @@
       },
       {
         "src": "/images/partners/user-profile-settings-gear.png",
-        "alt": "Ícono de perfil de usuario rodeado de símbolos de engranaje representando configuración de cuenta y personalización del sistema",
+        "alt": "Ícono de perfil rodeado de engranajes que representan configuración de cuenta y personalización del sistema.",
         "texts": [
           "Personalización",
           "centrada en el cliente"
@@ -252,7 +252,7 @@
       },
       {
         "src": "/images/partners/hand-holding-location-pin.png",
-        "alt": "Mano sosteniendo marcador de ubicación representando servicios de geolocalización, soporte empresarial local y soluciones locales",
+        "alt": "Mano con marcador de ubicación representando geolocalización, soporte local y soluciones para negocios.",
         "texts": [
           "Soluciones",
           "específicas de la industria"

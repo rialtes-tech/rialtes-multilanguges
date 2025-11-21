@@ -153,13 +153,13 @@
             },
             {
                 "img": "/images/products/exelona/network-integration-icon.svg",
-                "alt": "CVector icon depicting connected nodes and central light bulb symbolizing network integration and innovation",
+                "alt": "Vector icon depicting connected nodes and central light bulb symbolizing network integration and innovation",
                 "title": "CRM + ERP, Unified",
                 "desc": "One system for marketing, operations, leasing, and accounting."
             },
             {
                 "img": "/images/products/exelona/cloud-development-icon.svg",
-                "alt": "Open API",
+                "alt": "White cloud icon with coding brackets connected to network nodes on blue digital background circuit pattern",
                 "title": "OPENAPI Architecture",
                 "desc": "Easily integrates with SAP, Yardi, Oracle, Salesforce, and more."
             }
@@ -168,7 +168,7 @@
             {
                 "title": "Accounts Receivable",
                 "img": "/images/products/exelona/desktop/real-estate-agent-digital-tablet.webp",
-                "alt": "Smiling professional holding a digital tablet outside a modern apartment building, representing smart real estate management and property technology",
+                "alt": "Smiling professional holding digital tablet outside modern apartment building representing smart real estate and proptech",
                 "points": [
                     "Automated tenant billing and late fee application.",
                     "Write-off approval workflows and history tracking.",
@@ -182,7 +182,7 @@
             {
                 "title": "Budgeting, Forecasting & Financial Reporting",
                 "img": "/images/products/exelona/desktop/real-estate-investment-finance.webp",
-                "alt": "Miniature house model surrounded by stacks of coins on financial documents, symbolizing real estate investment and property finance",
+                "alt": "Miniature house model with coin stacks on financial documents symbolizing real estate investment and property finance",
                 "points": [
                     "Multi-year budgeting with property-level customization.",
                     "Rolling forecasts based on occupancy and lease data.",
@@ -196,7 +196,7 @@
             {
                 "title": "Accounts Payable & Procurement",
                 "img": "/images/products/exelona/desktop/digital-procurement-technology.webp",
-                "alt": "Business professional using a laptop with floating digital icons representing procurement process and contract management technology",
+                "alt": "Business professional using laptop with floating digital icons representing procurement process and contract management",
                 "points": [
                     "Payable invoice automation and approval workflows.",
                     "Purchase order creation and receipt matching.",
@@ -210,7 +210,7 @@
             {
                 "title": "Inventory & Asset Management",
                 "img": "/images/products/exelona/desktop/warehouse-inventory-management.webp",
-                "alt": "Businesswoman using a digital tablet to inspect inventory in a warehouse, representing modern supply chain and logistics management",
+                "alt": "Businesswoman using digital tablet to inspect inventory in warehouse representing modern supply chain and logistics",
                 "points": [
                     "Track inventory at unit, building, and warehouse level.",
                     "Manage capital assets with depreciation schedules.",
@@ -367,9 +367,9 @@
                 ]
             }
         ],
-        "bannerAlt": "Double exposure of hands holding tablet with modern cityscape and network connections representing smart city digital transformation",
+        "bannerAlt": "Double exposure of hands holding tablet with modern cityscape and network connections representing smart city transformation",
         "digitalAlt": "Abstract blue wireframe cityscape with modern skyscrapers and digital grid lines representing urban planning and architecture",
-        "assetAlt": "Miniature smart residential buildings with green landscaping displayed on digital tablet representing urban property technology ",
+        "assetAlt": "Miniature smart residential buildings with green landscaping on digital tablet representing urban property technology",
         "aiAlt": "Futuristic cityscape integrated with glowing data charts and analytics graphs representing smart data-driven urban technology",
         "excelAlt": "Hand interacting with digital tablet displaying 3D architectural model of modern buildings and smart urban design",
         "paymentAlt": "Person using tablet to complete secure online payment with digital confirmation showing successful transaction",

@@ -84,7 +84,7 @@
     "newsDesc": "Descubre cómo estamos dando forma al futuro de los negocios a nivel mundial. Tu fuente de referencia para las últimas actualizaciones, logros e innovaciones de Rialtes. Mantente informado con nuestras noticias más recientes, comunicados de prensa y perspectivas de la industria mientras seguimos superando los límites en consultoría de procesos, soluciones empresariales impulsadas por IA y transformación digital.",
     "readMore": "Leer Más",
     "loadMore": "Cargar Más",
-    "bannerAlt": "Persona usando una computadora portátil convertible en modo tableta para navegar por noticias en línea, representando los medios digitales modernos y el uso de la tecnología",
+    "bannerAlt": "Persona usando computadora portátil convertible en modo tableta para navegar noticias representando medios digitales modernos",
     "latestNews": [
       {
         "id": 1,
@@ -102,7 +102,7 @@
         "industry": "Noticias",
         "date": "Apr. 18, 2025",
         "url": "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/",
-        "title": "Rialtes se Convierte en Socio Certificado de Databricks para Ofrecer Servicios de IA y Datos de Nueva Generación en los Ecosistemas de SAP y Salesforce"
+        "title": "Rialtes se convierte en socio certificado de Databricks para ofrecer servicios de IA y datos en ecosistemas SAP y Salesforce"
       },
       {
         "id": 3,

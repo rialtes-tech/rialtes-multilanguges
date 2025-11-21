@@ -131,7 +131,7 @@
         "headerTitle": "Gérez vos processus immobiliers avec un logiciel de gestion de biens basé sur le cloud",
         "seoTitle": "Révolutionner la Gestion Immobilière pour le Secteur de l’Immobilier | Rialtes",
         "seoDescription": "L’avenir de la gestion immobilière est là : automatisez vos locations, réduisez les vacances et améliorez le ROI avec un logiciel dédié.",
-        "bannerAlt": "Main d'architecte pointant maquette de ville miniature blanche avec gratte-ciels représentant planification urbaine et développement immobilier",
+        "bannerAlt": "Main d'architecte pointant maquette de ville miniature blanche avec gratte-ciels représentant planification urbaine",
         "headerSubTitle": "IMMOBILIER",
         "realTitle": "Logiciel de gestion immobilière abordable pour vos opérations",
         "realDescOne": "Le marché immobilier est dynamique et imprévisible – mais votre entreprise ne doit pas l'être. Avec les bons outils et stratégies, les entreprises immobilières peuvent connaître une croissance constante d'année en année tout en dépassant les attentes des clients.",
@@ -149,7 +149,7 @@
                 "id": 1,
                 "image": "/images/industry/real-estate/hands-typing-laptop-digital-files-data-management.webp",
                 "title": "Opérations centralisées : la solution tout-en-un",
-                "alt": "Mains tapant sur ordinateur portable avec superposition d'icônes de fichiers numériques représentant gestion de données et stockage cloud",
+                "alt": "Mains tapant sur ordinateur portable avec superposition d'icônes de fichiers numériques représentant gestion de données",
                 "description": "Imaginez gérer toutes vos données immobilières, des contrats de location aux plannings de maintenance, en un seul endroit. RealForce offre des opérations centralisées pour une expérience de gestion simplifiée grâce à nos solutions en ligne.",
                 "productsDetails": [
                     "Génération automatique des contrats",
@@ -160,7 +160,7 @@
             {
                 "id": 2,
                 "image": "/images/industry/real-estate/hand-stylus-tablet-holographic-data-analytics.webp",
-                "alt": "Main utilisant stylet sur tablette avec graphiques de données holographiques et carte mondiale représentant analytique commerciale et technologie numérique",
+                "alt": "Main utilisant stylet sur tablette avec graphiques de données holographiques et carte mondiale représentant analytique",
                 "title": "Accessibilité multi-plateformes : gérez en déplacement",
                 "description": "Notre système de gestion immobilière en ligne vous permet d'accéder à votre tableau de bord de gestion où que vous soyez, faisant de nous un leader parmi les logiciels de gestion immobilière aux États-Unis.",
                 "productsDetails": [
@@ -172,7 +172,7 @@
             {
                 "id": 3,
                 "image": "/images/industry/real-estate/hands-interacting-holographic-dashboard-data-visualization.webp",
-                "alt": "Mains interagissant avec écrans holographiques de tableau de bord montrant graphiques de données et analytique sur ordinateur portable représentant intelligence d'affaires",
+                "alt": "Mains interagissant avec écrans holographiques de tableau de bord montrant graphiques de données représentant intelligence",
                 "title": "Analyse complète : prenez des décisions éclairées",
                 "description": "Nous nous distinguons parmi les meilleurs logiciels de gestion immobilière en offrant la plateforme d'analyse n°1 pour améliorer vos performances, des revenus aux taux de vacance.",
                 "productsDetails": [
@@ -184,7 +184,7 @@
             {
                 "id": 4,
                 "image": "/images/industry/real-estate/accountant-using-calculator-financial-reports-laptop.webp",
-                "alt": "Personne utilisant calculatrice avec rapports financiers et ordinateur portable affichant graphiques colorés représentant travail de comptabilité et analyse budgétaire",
+                "alt": "Personne utilisant calculatrice avec rapports financiers et ordinateur portable affichant graphiques colorés représentant",
                 "title": "Clarté financière : comptabilité simplifiée",
                 "description": "Notre logiciel est le choix incontournable pour les agents immobiliers recherchant des rapports financiers détaillés et des fonctionnalités de facturation. Simplifiez votre processus budgétaire avec la plateforme cloud n°1 au monde.",
                 "productsDetails": [
@@ -231,7 +231,7 @@
             {
                 "id": 1,
                 "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
-                "alt": "Trois professionnels d'affaires dans bureau moderne discutant plans pendant qu'un pointe mur représentant planification d'espace de travail et collaboration",
+                "imageAlt": "Trois professionnels d'affaires dans bureau moderne discutant plans pendant qu'un pointe mur représentant planification",
                 "title": "Module bancaire RealForce - ACH",
                 "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l'investissement dans des propriétés multifamiliales.",
                 "url": "/insights/case-studies/realForce-banking-module-ach"
@@ -239,7 +239,7 @@
             {
                 "id": 2,
                 "url": "/insights/case-studies/yardi-managed-services",
-                "alt": "Paysage urbain abstrait 3D avec barres dégradées colorées en rose, bleu et orange représentant visualisation de données et analytique urbaine",
+                "imageAlt": "Paysage urbain abstrait 3D avec barres dégradées colorées en rose, bleu et orange représentant visualisation de données",
                 "imgSrc": "/images/case-studies/abstract-colorful-city-skyline-data-visualization.webp",
                 "title": "Services gérés Yardi",
                 "description": "Une société immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l'investissement dans des propriétés multifamiliales."
@@ -779,14 +779,14 @@
         "bannerAlt": "Scanner IRM moderne avec éclairage bleu dans une suite d'imagerie clinique présentant une technologie de diagnostic",
         "thoughtAlt": "Femme médecin professionnelle en blouse blanche examinant des dossiers médicaux dans un établissement de santé moderne",
         "whyAlt": "Bras chirurgicaux robotiques avancés avec instruments de précision dans une salle d'opération stérile et moderne",
-        "endAlt": "Couloir de centre de données moderne avec des plantes vertes représentant une technologie de serveurs écologique et écoénergétique",
-        "keyAlt": " Professionnel médical utilisant la technologie d'intelligence artificielle avec icônes santé et interface de visualisation anatomique",
-        "benefitsAlt": "Femme utilisant un smartphone pour surveiller les données de santé à partir d’un capteur de glucose portable sur son bras, représentant la technologie de santé connectée",
-        "patientAlt": "Professionnel de santé souriant portant une blouse et un stéthoscope utilisant une tablette numérique pour la gestion des patients ou la révision des données médicales",
+        "endAlt": "Couloir de centre de données moderne avec plantes vertes représentant technologie de serveurs écologique et écoénergétique",
+        "keyAlt": "Professionnel médical utilisant technologie IA avec icônes santé et interface de visualisation anatomique",
+        "benefitsAlt": "Femme utilisant smartphone pour surveiller données de santé via capteur de glucose portable représentant santé connectée",
+        "patientAlt": "Professionnel de santé souriant en blouse avec stéthoscope utilisant tablette pour gestion patients ou données médicales",
         "integratedAlt": "Agent de santé en tenue de protection gérant les stocks de fournitures médicales dans un entrepôt",
         "mobileAlt": "Médecin aidant un patient âgé à utiliser une application mobile de suivi de santé",
         "remoteAlt": "Gros plan sur des mains utilisant une application mobile pour suivre les données de santé et de forme physique",
-        "agentforceAlt": "Groupe de professionnels de la santé discutant des soins aux patients tout en consultant des informations sur une tablette numérique",
+        "agentforceAlt": "Groupe de professionnels de santé discutant soins aux patients en consultant informations sur tablette numérique",
         "realAlt": "Personne utilisant un smartphone avec une interface de chatbot IA pour la communication automatisée du service client",
         "thoughLeadershipData": [
             "Offrir des parcours patients conformes et fluides, de la prescription de l’appareil au suivi des résultats.",
@@ -866,7 +866,7 @@
             {
                 "id": 1,
                 "title": "Conformité Réglementaire et Gestion de la Qualité",
-                "alt": "Interface numérique affichant des icônes de sécurité au travail et de conformité, avec une personne utilisant un smartphone pour la surveillance",
+                "alt": "Interface numérique avec icônes de sécurité au travail et conformité, personne utilisant smartphone pour surveillance",
                 "imageMobile": "/images/medical/workplace-safety-digital-monitoring-mobile.webp",
                 "imageDesktop": "/images/medical/workplace-safety-digital-monitoring.webp",
                 "points": [
@@ -890,7 +890,7 @@
             {
                 "id": 3,
                 "title": "Essais Cliniques et Suivi des Résultats des Patients",
-                "alt": "Technicien de laboratoire en tenue de protection utilisant une tablette numérique pour surveiller les équipements de fabrication pharmaceutique",
+                "alt": "Technicien de laboratoire en tenue de protection avec tablette numérique surveillant équipements pharmaceutiques",
                 "imageMobile": "/images/medical/lab-technician-using-digital-tablet-mobile.webp",
                 "imageDesktop": "/images/medical/lab-technician-using-digital-tablet.webp",
                 "points": [
@@ -902,7 +902,7 @@
             {
                 "id": 4,
                 "title": "Surveillance à Distance et Analyses Prédictives Alimentées par l’IA",
-                "alt": "Scientifique en blouse de laboratoire interagissant avec une interface numérique futuriste affichant des données et analyses médicales",
+                "alt": "Scientifique en blouse de laboratoire interagissant avec interface numérique futuriste affichant données médicales",
                 "imageMobile": "/images/medical/futuristic-medical-analytics-mobile.webp",
                 "imageDesktop": "/images/medical/futuristic-medical-analytics.webp",
                 "points": [
