@@ -7,17 +7,17 @@ export default function ThankYou() {
     <div className="grid xl:grid-cols-12 grid-cols-1 w-full gap-0 px-0 pt-10 4xl:pt-20 custom-container xl:pr-0">
 
       {/* LEFT CONTENT */}
-      <div className="xl:col-span-6 flex flex-col">
+      <div className="xl:col-span-6 flex flex-col 4xl:mt-[90px] 2xl:mt-[100px] xl:mt-[80px] md:mt-20 mt-10">
 
         <h2
           className="text-[#134874] font-medium leading-tight
-          4xl:text-[45px] 2xl:text-[40px] xl:text-[32px] md:text-[30px] text-[26px]"
+          4xl:text-[36px] 2xl:text-[36px] xl:text-[32px] md:text-[32px] text-[20px]"
         >
           Thank you for contacting Rialtes!
         </h2>
 
         {/* Divider */}
-        <div className="w-24 h-[3px] bg-gray-300 mt-4 mb-6"></div>
+        <div className="w-24 h-[3px] bg-gray-300 mt-6 mb-6"></div>
 
         {/* Text */}
         <p className="text-[18px] md:text-[20px] xl:text-[22px] text-black leading-tight mt-10 max-w-[500px]">
@@ -25,7 +25,7 @@ export default function ThankYou() {
         </p>
 
         {/* Follow Us */}
-        <p className="text-[#134874] mt-12 text-[20px] md:text-[22px] xl:text-[24px] font-medium">
+        <p className="text-[#134874] mt-12 text-[20px] md:text-[20px] xl:text-[20px] font-medium">
           For more updates follow us on:
         </p>
 
