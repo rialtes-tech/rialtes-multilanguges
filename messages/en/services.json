@@ -1599,6 +1599,7 @@
         "contactSubTitle": "Contact us today to explore how SAP Digital Desk can transform your SAP operations."
     },
     "retailPlus": {
+
         "seoTitle": "Retail Business Consulting Services and Omnichannel Solutions | Rialtes",
         "seoDescription": "Retail+ by Rialtes offers expert-led Retail Business Consulting Services and AI-powered Omnichannel Solutions. Start your retail transformation now.",
         "retailServices": [
@@ -1698,12 +1699,12 @@
             "Supports delegation of cases, leads, work orders, service requests, and more by record type and business units.",
             "Fully integrated with Salesforce workflows and automation for real - time, intelligent conversations."
         ],
-        "headerAlt": "Woman using smartphone in grocery store aisle with digital network overlay representing connected shopping and smart retail technology",
+        "headerAlt": "Woman using smartphone in grocery store aisle with digital network overlay representing connected shopping and smart retail",
         "comprehensiveAlt": "Two women entrepreneurs working on laptop in pottery shop with ceramic products displayed on wooden shelves in background ",
         "salesforceAlt": "Female warehouse worker in blue polo shirt checking inventory boxes with digital tablet in distribution center aisle ",
         "exelonaAlt": "Smiling couple in matching blue aprons standing at entrance of their restaurant with arms crossed welcoming customers",
-        "aiAlt": "Shopping cart surrounded by dynamic blue and orange digital light trails representing fast online ecommerce and digital retail",
-        "realchatAlt": "Smiling woman in bright yellow sweater and pink earrings using smartphone while holding takeaway coffee cup on blue background",
+        "aiAlt": "Shopping cart surrounded by dynamic blue and orange digital light trails representing fast online ecommerce and retail",
+        "realchatAlt": "Smiling woman in bright yellow sweater and pink earrings using smartphone while holding takeaway coffee cup on blue backdrop",
         "whyAlt": "Professional analyzing financial data charts and spreadsheets on dual computer monitors in modern office with plants nearby",
         "headerTitle": "Retail+",
         "learnMoreBtn": " Learn More",

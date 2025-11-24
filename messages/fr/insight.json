@@ -210,6 +210,28 @@
     ],
     "latestBlogs": [
       {
+        "id": 56,
+        "image": "/images/blog/digital-touchscreen-technology-mobile.webp",
+        "category": "MediAIna",
+        "industry": "Sciences de la vie",
+        "date": "Nov. 20, 2025",
+        "alt": "Persona interactuando con una interfaz táctil digital que muestra elementos de IA y tecnología futurista",
+        "url": "/ai-in-clinical-trials-rare-disease-enrolment/",
+        "title": "5 méthodes éprouvées par lesquelles l’IA accélère l'inscription des patients aux essais cliniques sur les maladies rares",
+        "description": "Les essais cliniques sont le moteur de l’innovation médicale, en particulier lorsqu’il s’agit de maladies rares. Pourtant, l’un des plus grands obstacles au développement de nouvelles thérapies n’est pas la science."
+      },
+      {
+        "id": 3,
+        "image": "/images/blog/digital-brain-ai-circuit-technology-illustration-mobile.webp",
+        "category": "Salesforce Agentforce",
+        "industry": "Générique",
+        "date": "Nov. 19, 2025",
+        "alt": "Illustration d’un circuit cérébral numérique avec des connexions lumineuses sur un fond technologique bleu foncé représentant le concept d’IA",
+        "url": "/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/",
+        "title": "Le cerveau derrière les agents : dévoiler le moteur de raisonnement Atlas dans Agentforce",
+        "description": "À mesure que les entreprises se développent, la complexité de la gestion des interactions client augmente, créant un besoin de systèmes d’assistance plus intelligents et rationalisés. Salesforce Agentforce offre une plateforme robuste d’automatisation du service client, désormais améliorée grâce au moteur de raisonnement révolutionnaire Atlas."
+      },
+      {
         "id": 55,
         "image": "/images/blog/digital-network-touch-data-connection-visualization-mobile.webp",
         "category": "Intégration",
@@ -568,9 +590,9 @@
         "industry": "Pharmaceutique et biotechnologie",
         "date": "Jul. 01, 2025",
         "url": "/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/",
-        "title": "Himachal Pradesh : le joyau pharmaceutique du nord de l'Inde avec les plus grandes installations de fabrication pharmaceutique",
+        "title": "Himachal Pradesh : Le joyau pharmaceutique du Nord de l’Inde avec la plus grande base de fabrication pharmaceutique",
         "alt": "Usine pharmaceutique dans l'Himachal Pradesh",
-        "description": "L'ascension de l'Inde en tant que puissance pharmaceutique sur la scène mondiale est remarquable."
+        "description": "L’Inde est devenue une force mondiale dans le secteur pharmaceutique. Elle fournit 20 % des médicaments génériques au monde, répond à 40 % de la demande américaine en génériques et contribue à 25 % de l’ensemble des médicaments utilisés au Royaume-Uni."
       },
       {
         "id": 20,
@@ -758,17 +780,6 @@
         "title": "SAP SuccessFactors : Gestion de la performance et des objectifs",
         "alt": "Tableau de performance pour la gestion des objectifs RH",
         "description": "Atteindre les objectifs de votre organisation est une responsabilité clé partagée par toute votre équipe. Lorsque la stratégie de votre équipe est alignée sur ses objectifs et les objectifs organisationnels globaux, faire ce qui est juste devient instinctif."
-      },
-      {
-        "id": 3,
-        "image": "/images/blog/digital-brain-ai-circuit-technology-illustration-mobile.webp",
-        "category": "Salesforce Agentforce",
-        "industry": "Générique",
-        "date": "Oct. 21, 2024",
-        "url": "/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/",
-        "title": "Le cerveau derrière les agents : découverte du moteur de raisonnement Atlas dans Agentforce",
-        "alt": "Interface du moteur de raisonnement Atlas dans Agentforce",
-        "description": "À mesure que les entreprises se développent, la complexité de la gestion des interactions clients se multiplie, augmentant le besoin de systèmes de support plus intelligents et rationalisés. Salesforce Agentforce fournit une plateforme robuste pour l’automatisation du service client, désormais améliorée par le moteur de raisonnement innovant Atlas."
       },
       {
         "id": 2,
@@ -1154,8 +1165,8 @@
         "industry": "Fabrication",
         "date": "01 Juillet 2025",
         "url": "insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/",
-        "title": "Himachal Pradesh : le joyau pharmaceutique du nord de l’Inde avec les plus grandes installations de fabrication pharmaceutique",
-        "description": "L’ascension de l’Inde comme puissance pharmaceutique mondiale est remarquable."
+        "title": "Himachal Pradesh : Le joyau pharmaceutique du Nord de l’Inde avec la plus grande base de fabrication pharmaceutique",
+        "description": "L’Inde est devenue une force mondiale dans le secteur pharmaceutique. Elle fournit 20 % des médicaments génériques au monde, répond à 40 % de la demande américaine en génériques et contribue à 25 % de l’ensemble des médicaments utilisés au Royaume-Uni."
       },
       {
         "id": 10,

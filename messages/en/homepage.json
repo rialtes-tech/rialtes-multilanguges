@@ -84,21 +84,24 @@
         "imageUrl": "/images/homepage/stremline_with_bgc.webp",
         "title": "Manufacturing",
         "description": "Streamlined DevOps using Copado and Salesforce",
-        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+        "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce",
+        "imgAlt" : "Abstract black curved design for streamlined DevOps using Copado and Salesforce manufacturing"
       },
       {
         "id": 2,
         "imageUrl": "/images/homepage/salesforce_with_bgc.webp",
         "title": "Healthcare",
         "description": "Salesforce Health Cloud, Prior Authorization",
-        "url": "insights/case-studies/salesforce-health-cloud-prior-authorization"
+        "url": "insights/case-studies/salesforce-health-cloud-prior-authorization",
+        "imgAlt" : "Serene sky background for Salesforce Health Cloud prior authorization healthcare solution"
       },
       {
         "id": 3,
         "imageUrl": "/images/homepage/mfg-2_with_bgc.webp",
         "title": "Manufacturing",
         "description": "Omnichannel case management with Salesforce Service Cloud",
-        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+        "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud",
+        "imgAlt" : "Blue wave pattern for omnichannel case management with Salesforce Service Cloud manufacturing"
       },
       {
         "id": 4,
@@ -106,21 +109,24 @@
         "title": "Public Sector",
         "description": "YARDI Transformation Journey with North America's Largest PHA",
         "theme": "light",
-        "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america"
+        "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america",
+        "imgAlt" : "Blue geometric pattern for YARDI transformation journey with North America's largest PHA"
       },
       {
         "id": 5,
         "imageUrl": "/images/homepage/healthcare-22.webp",
         "title": "Healthcare",
         "description": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
-        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+        "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+        "imgAlt" : "Digital cloud network over city for automated order processing Mulesoft Salesforce Health SAP"
       },
       {
         "id": 6,
         "imageUrl": "/images/homepage/mfg-3_with_bgc.webp",
         "title": "Manufacturing",
         "description": "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
-        "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
+        "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
+        "imgAlt" : "Blue flowing lines for streamlining sales with Salesforce Sales Cloud manufacturing"
       },
       {
         "id": 7,
@@ -128,7 +134,8 @@
         "title": "Real Estate",
         "description": "Automating ACH and Journal Entries with Our Exelona Banking Module",
         "url": "insights/case-studies/realForce-banking-module-ach",
-        "theme": "light"
+        "theme": "light",
+        "imgAlt" : "Red and blue bar graph for automating ACH journal entries with Exelona banking real estate"
       },
       {
         "id": 8,
@@ -136,7 +143,8 @@
         "title": "Healthcare",
         "description": "Digitizing patient journey using Salesforce health cloud",
         "url": "insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
-        "theme": "light"
+        "theme": "light",
+        "imgAlt" : "Healthcare professional using tablet for digitizing patient journey Salesforce Health Cloud"
       }
     ],
     "contactUsTitle": "Ready to take the next step? Let’s kick off your journey to operational excellence",

@@ -158,7 +158,14 @@ export default function page() {
                     <img
                         src="/images/salesforce-consulting-services/leaverage-cutting-desktop.webp" // Replace with your actual image path
                         alt={t('leaverageCuttingAlt')}
-                        className="absolute inset-0  z-0 w-full 4xl:h-[1029px] 2xl:h-[913px] xl:h-[933px]"
+                        className={`}
+                                  ${locale === "es"
+                                ? "absolute inset-0  z-0 w-full 4xl:h-[1104px] 2xl:h-[972px] xl:h-[1011px]"
+                                : locale === "fr"
+                                    ? "absolute inset-0  z-0 w-full 4xl:h-[1134px] 2xl:h-[998px] xl:h-[985px]"
+                                    : "absolute inset-0  z-0 w-full 4xl:h-[1029px] 2xl:h-[913px] xl:h-[933px]"
+                            }`}
+
                     />
                 </div>
                 <div className="block xl:hidden">
@@ -262,7 +269,7 @@ export default function page() {
                             {t('prebuildTitle')}
                         </h2>
 
-                        <p className="4xl:text-[40px] 2xl:text-[36px] xl:text-[25px] text-[24px] font-semibold mb-8 leading-tight xl:pr-28">
+                        <p className="4xl:text-[40px] 2xl:text-[36px] xl:text-[25px] text-[24px] font-semibold mb-8 leading-tight xl:pr-28 mt-5">
                             {t('prebuildDesc')}
                         </p>
                         <div className="flex gap-10 xl:flex-row md:flex-row flex-col">
@@ -519,7 +526,7 @@ export default function page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
+                canonical={`https://www.rialtes.com/${locale}/solutions/artificial-intelligence/salesforce-agentforce-consulting/`}
             />            <Script
                 id="schema-sap-buy-plus"
                 type="application/ld+json"
