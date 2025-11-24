@@ -7,11 +7,23 @@ import Script from "next/script";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import UnorderedList from "@/app/[locale]/components/unorderedList";
-
+import { useLocale, useTranslations } from "next-intl";
+import enContent from "../../../../../../messages/en/blogs.json";
+import esContent from "../../../../../../messages/es/blogs.json";
+import frContent from "../../../../../../messages/fr/blogs.json";
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/";
     const currUrl = useUrl()
+    const t = useTranslations("aiClinical");
+    const locale = useLocale();
+    const blogsContent = changeLocalization(locale, {
+        en: enContent,
+        es: esContent,
+        fr: frContent,
+    });
+    const { mainData, challenges, faqData, fromData, futureData, mediainaData, commonData } = blogsContent.aiClinical
 
     const schemaData = {
         "@context": "https://schema.org",
@@ -108,205 +120,12 @@ export default function Page() {
         }
     }
 
-    const mainData = [
-        "Clinical trials are the lifeblood of medical innovation, especially when it comes to rare diseases. Yet, one of the biggest hurdles in developing new therapies isn’t the science; it’s finding, enrolling, and retaining the right patients. This challenge becomes even more daunting for rare diseases, where eligible participants may number in the hundreds worldwide.",
-        "This is where AI in clinical trials is proving to be a game-changer. By automating recruitment, improving digital enrolment, and personalizing engagement, AI is helping Pharma and MedTech organizations cut through bottlenecks that have stalled progress for decades.As digital tools evolve, they’re also becoming central to <span>preventing clinical trial dropouts with digital tools</span>, ensuring patient retention matches patient acquisition.",
-        "Let’s break down the challenges of rare disease patient recruitment and explore five proven ways AI accelerates enrolment—while also showing how platforms like MediAIna are redefining digital journeys in clinical research."
-    ]
-    const challenges = [
-        {
-            "title": "The Challenge of Rare Disease Patient Recruitment",
-            "desc": "Recruiting patients for common conditions like diabetes or hypertension is challenging enough. For rare diseases, it’s exponentially harder. Here’s why:",
-            "data": [
-                {
-                    "title": "Limited patient populations",
-                    "desc": "Rare diseases, by definition, affect small numbers of people scattered across regions."
-                },
-                {
-                    "title": "Strict eligibility criteria",
-                    "desc": "Genetic markers, age brackets, and comorbidities can further narrow the pool."
-                },
-                {
-                    "title": "Geographic barriers",
-                    "desc": "Patients may live far from trial sites, making participation burdensome."
-                },
-                {
-                    "title": "Delayed diagnoses",
-                    "desc": "Many rare diseases go undiagnosed or misdiagnosed for years."
-                }
-            ],
-            "desc2": [
-                "The result? Trials often struggle to meet recruitment targets, timelines stretch out, and costs soar. That’s why rare disease patient recruitment is considered one of the biggest obstacles in clinical development.",
-                "But AI is changing that story."
-            ]
-        }
-    ]
-    const faqData = [
-        {
-            question: "How does AI improve patient enrolment in rare disease clinical trials?",
-            answer: "AI makes it easier to identify and match eligible patients by analyzing large datasets from electronic health records, genetic information, and patient registries. This speeds up rare disease patient recruitment and reduces trial delays."
-        },
-        {
-            question: "What role does AI play in digital trial enrolment?",
-            answer: "With digital trial enrolment, AI streamlines onboarding through automated eligibility screening, remote consent, and virtual touchpoints. This reduces paperwork and makes participation easier for patients, especially those in remote or underserved regions."
-        },
-        {
-            question: "Why is patient recruitment for rare disease studies so challenging?",
-            answer: "Rare diseases affect small, dispersed populations, making it hard to locate eligible participants. Strict criteria and geographic limitations add complexity, which is why AI-driven patient recruitment strategies are critical for improving efficiency."
-        },
-        {
-            question: "How does AI ensure trial efficiency and reduce costs?",
-            answer: "AI-powered clinical trial automation accelerates enrolment, monitors patient data in real time, and predicts potential dropouts. This lowers administrative costs while improving trial outcomes."
-        },
-        {
-            question: "Can AI help with long-term patient engagement in rare disease trials?",
-            answer: "Yes. Beyond enrolment, AI healthcare solutions keep patients engaged through personalized communication, reminders, and remote monitoring, ensuring they remain active participants throughout the trial."
-        },
-        {
-            question: "What is the role of machine learning in trials?",
-            answer: "Machine learning in trials enables predictive analytics, identifying patients who are most likely to qualify and remain compliant. It also helps researchers adapt protocols in real time to maximize trial success."
-        },
-        {
-            question: "How does MediAIna support digital enrolment for rare disease studies?",
-            answer: "MediAIna, Rialtes’ patient journey platform, simplifies digital enrolment for rare disease studies by integrating AI, automation, and compliance features. It enables smarter recruitment, continuous engagement, and human-centered digital patient journeys for life sciences organizations."
-        }
-    ];
-    const fromData = [
-        "Patient enrolment has long been the Achilles’ heel of clinical trials, especially for rare diseases. But with AI, the tide is turning. From automated recruitment and digital enrolment to personalized engagement and retention, AI is delivering measurable improvements in speed, accuracy, and efficiency.",
-        "MediAIna is at the forefront of this transformation. By combining AI in clinical trials with <a href='https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>patient-first digital journeys</a>, it empowers Pharma, MedTech, and life sciences organizations to accelerate rare disease studies without compromising on quality or compliance.",
-        "The message is clear: the future of clinical trials lies in how AI accelerates rare disease clinical trials, and with MediAIna, that future has already caught up."
-    ]
-    const futureData = [
-        {
-            "title": "The Future of Digital Enrolment for Rare Disease Studies",
-            "desc": "Looking ahead, the combination of AI, digital-first healthcare, and precision medicine will reshape how trials are conducted. Some emerging trends include:",
-            "list": [
-                {
-                    "title": "Fully virtual trials",
-                    "desc": "with remote monitoring and decentralized operations."
-                },
-                {
-                    "title": "Real-world data integration",
-                    "desc": "from wearables and patient apps."
-                },
-                {
-                    "title": "Predictive recruitment models",
-                    "desc": "that anticipate enrolment bottlenecks before they occur."
-                }
-            ],
-            "desc2": "For rare disease studies, these innovations are essential to ensure therapies reach patients faster."
-        }
-    ]
-    const mediainaData = [
-        {
-            "title": "How MediAIna Redefines AI in Clinical Trials",
-            "desc": [
-                "So, where does MediAIna fit into this landscape?",
-                "MediAIna is Rialtes’ next-generation <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient journey platform</a>, designed specifically for life sciences and healthcare enterprises. Backed by LifeAI+, Rialtes’ healthcare consulting suite, MediAIna leverages AI in clinical trials to accelerate recruitment and improve engagement at scale.",
-                "Here’s how:"
-            ],
-            "list": [
-                {
-                    "title": "Automated recruitment and screening",
-                    "desc": "MediAIna integrates with EHRs and real-world datasets to identify eligible patients faster."
-                },
-                {
-                    "title": "Patient enrolment technology",
-                    "desc": "Its digital-first workflows enable global digital trial enrolment for rare disease studies."
-                },
-                {
-                    "title": "AI-driven personalization",
-                    "desc": "MediAIna tailors communication, reminders, and engagement pathways for each patient."
-                },
-                {
-                    "title": "Compliance and scalability",
-                    "desc": "Built on secure, cloud-based infrastructure, it ensures trials meet regulatory standards worldwide."
-                },
-            ],
-            "desc2": [
-                "By weaving clinical, operational, and digital touchpoints into one platform, MediAIna helps organizations overcome the toughest recruitment barriers in rare disease trials.",
-                "In short, it’s not just a tool—it’s the backbone for the next era of AI-driven patient recruitment strategies."
-            ],
-        }
-    ]
-    const commonData = [
-        {
-            "title": "AI-Driven Patient Recruitment Strategies",
-            "desc": [
-                "Traditional recruitment depends heavily on physician referrals and manual chart reviews. Both are slow and prone to missing potential candidates.",
-                "AI flips this process on its head. By analyzing electronic health records (EHRs), genomic databases, claims data, and even patient-reported outcomes, AI can rapidly identify individuals who match trial criteria.",
-                "For rare diseases, where every eligible patient matters, this is transformative. With AI-driven patient recruitment strategies, sponsors can:"
-            ],
-            "list": [
-                "Discover patients earlier in their diagnostic journey.",
-                "Match participants to trials with unprecedented accuracy.",
-                "Expand recruitment beyond traditional sites."
-            ],
-            "desc2": "This approach not only accelerates enrolment but also reduces costs and improves the likelihood of successful trials."
-        },
-        {
-            "title": "Clinical Trial Automation for Faster Screening",
-            "desc": [
-                "Screening patients for eligibility is another time-consuming step. Manually reviewing lab results, medical histories, and eligibility checklists can take weeks—or even months.",
-                "Here’s where clinical trial automation comes in. Using machine learning algorithms, AI can rapidly scan large datasets and flag potential candidates based on predefined criteria. Automated tools also reduce errors and bias, ensuring a more accurate match.",
-                "For example:"
-            ],
-            "list": [
-                "A genetic screening tool can instantly identify patients carrying a rare mutation.",
-                "AI-powered platforms can auto-check trial eligibility against EHR data.",
-                "Chatbots and virtual assistants can pre-screen participants with guided questionnaires."
-            ],
-            "desc2": "This level of automation not only accelerates enrolment but also frees up clinical staff to focus on high-value activities, boosting trial efficiency."
-        },
-        {
-            "title": "Digital Trial Enrolment for Global Reach",
-            "desc": [
-                "One of the biggest barriers to rare disease trials is geography. Patients are often scattered across the world, making travel to trial sites difficult or impossible.",
-                "Digital trial enrolment is solving this challenge. By enabling virtual sign-ups, remote assessments, and telehealth consultations, trials can reach patients wherever they are.",
-                "This has several advantages:"
-            ],
-            "list": [
-                "Expands recruitment pools globally.",
-                "Improves trial diversity by including patients from different regions.",
-                "Reduces the patient burden of travel and logistics."
-            ],
-            "desc2": "For rare diseases, digital enrolment for rare disease studies isn’t just convenient—it’s essential. It ensures that trials don’t exclude eligible patients simply because of where they live.",
-            "desc3": "And when paired with <span>intelligent healthcare ecosystems for trials</span>, sponsors can unify enrollment, consent, patient communication, and data collection across countries and care networks."
-        },
-        {
-            "title": "Personalized Matching with Precision Medicine",
-            "desc": [
-                "No two patients are the same, especially in the world of rare diseases where conditions often present in unique ways. That’s why precision medicine—care tailored to the individual is critical.",
-                "AI supports this by analyzing genomic data, lifestyle factors, and health records to create personalized patient care pathways. In trials, this translates into more precise matching between patients and studies.",
-                "With machine learning in trials, AI can"
-            ],
-            "list": [
-                "Identify biomarkers that predict treatment response.",
-                "Segment patients based on genetic profiles.",
-                "Reduce dropouts by enrolling those most likely to benefit."
-            ],
-            "desc2": "This is a direct contributor to <span>digital innovation in clinical trial management</span>, ensuring decisions are data-driven rather than assumption-driven."
-        },
-        {
-            "title": "AI Healthcare Solutions for Engagement and Retention",
-            "desc": [
-                "Recruiting patients is only half the battle. Retaining them through the duration of a study is equally critical. Dropouts can derail a trial, wasting resources and skewing data.",
-                "AI helps here, too. AI healthcare solutions can deliver continuous support through:"
-            ],
-            "list": [
-                "Automated reminders for medication and appointments.",
-                "Virtual assistants that answer questions in real time.",
-                "Predictive analytics that flag disengagement risks early."
-            ],
-            "desc2": "This creates a smoother patient experience, strengthens trust, and significantly improves retention rates. For rare disease studies, where every participant counts, this is a game-changer."
-        }
-    ]
 
     return (
         <section className="min-h-screen">
             <Seo
-                title="AI in Clinical Trials: Solving Rare Disease Enrolment | Rialtes"
-                description="AI in clinical trials transforms rare disease enrolment through automated recruitment, digital-first workflows, and personalized patient engagement at scale."
+                title={t('seoTitle')}
+                description={t('seoDescription')}
                 keywords="Partners, website, welcome"
                 canonical={
                     "https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/"
@@ -324,7 +143,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/digital-touchscreen-technology.webp"
-                        alt="Person interacting with digital touchscreen interface displaying AI and futuristic technology elements"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
@@ -332,7 +151,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/digital-touchscreen-technology-mobile.webp"
-                        alt="Person interacting with digital touchscreen interface displaying AI and futuristic technology elements"
+                        alt={t('bannerAlt')}
                         priority
                         height={0}
                         width={0}
@@ -362,7 +181,7 @@ export default function Page() {
 
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
-                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">5 Proven Ways AI Accelerates Patient Enrolment in Rare Disease Clinical Trials</h1>
+                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t('blogTitle')}</h1>
 
                             <div className="xl:mt-[38px] mt-[33px]">
                                 {
@@ -476,7 +295,7 @@ export default function Page() {
 
                             {/* from section */}
                             <div className="md:mt-[50px] mt-[40px]">
-                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">From Bottlenecks to Breakthroughs</h2>
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('fromTitle')}</h2>
                                 {
                                     fromData.map((data, ind) => {
                                         return (
@@ -495,7 +314,7 @@ export default function Page() {
             </section>
             {/* faq section */}
             <section className="xl:mt-[80px] mt-[40px] custom-container">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">FAQs: Improve Patient Enrolment in Rare Disease Clinical Trials using AI</h2>
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('faqTitle')}</h2>
                 <div className="mt-[29px] xl:mt-[30px]">
                     <FAQAccordion faqData={faqData} />
                 </div>
