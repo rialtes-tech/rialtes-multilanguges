@@ -409,8 +409,8 @@ const latestBlogs = [
     industry: "Pharma & Biotech",
     date: "Jul. 01, 2025",
     url: '/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/',
-    title: "Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Facilities",
-    description: "India’s rise as a pharmaceutical powerhouse on the global stage is remarkable.",
+    title: "Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Base",
+    description: "India has become a global force in pharmaceuticals. It delivers 20 percent of the world’s generic supplies, meets 40 percent of the US generic demand, and contributes 25 percent of all medicines used in the UK.",
   },
   {
     id: 20,
