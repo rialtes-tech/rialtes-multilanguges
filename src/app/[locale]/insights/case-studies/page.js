@@ -123,7 +123,7 @@ export default function Page() {
           </div>
           <div className="relative flex sm:flex-row sm:ml-auto h-[60px]">
             <div className="relative">
-              <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
+              <button className='relative border border-[#707070] w-fit py-4 px-6 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
                 <span className="pr-5 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">{selectedIndustry === t('all') ? t('industry') : selectedIndustry}</span>
                 <svg
                   className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
@@ -296,7 +296,7 @@ export default function Page() {
                     />
                   </Link>
                 </div>
-                <div className="border-gray-300 border flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0] h-full">
+                <div className="border-gray-300 border hover:border-white flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0] h-full">
                   <div className='pb-[10px] md:pb-[15px] lg:pb-[20px] 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
                     <span className='text-[#0092E0] '>{slide.category}</span> <span className='text-[#ACACAC] '>|</span> {slide.date}
                   </div>

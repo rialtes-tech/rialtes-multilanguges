@@ -6093,10 +6093,11 @@
         "strategiesDescription": "Maximizing ROI from Salesforce requires a well-planned strategy. Here are proven approaches:",
         "strategiesDesc2": "These strategies help enterprises not only reduce Salesforce project risk but also maximize ROI."
     },
+
     "conversationalAi": {
         "seoTitle": "Conversational AI in Real Estate: Scale Support Efficiently | Rialtes",
         "seoDescription": "In real estate, conversational AI assistants handle tenant queries day and night, ensuring immediate responses and reducing after-hours workload.",
-        "bannerAlt": "Digital illustration of a person interacting with a virtual chatbot interface representing conversational AI in real estate customer support",
+        "bannerAlt": "Digital illustration of person interacting with virtual chatbot interface representing conversational AI in real estate",
         "mainData": [
             "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries, amenity bookings, and move-in/move-out coordination, teams often stretch themselves thin. The problem isn’t that property managers don’t care; resident expectations have changed.",
             "They expect fast, friendly, 24/7 support.",
@@ -6307,7 +6308,7 @@
     "erpCrm": {
         "seoTitle": "Unified ERP & CRM for Real Estate: Cut Costs by 35% | Rialtes",
         "seoDescription": "Unified ERP & CRM platforms help real estate enterprises cut system costs by up to 35% while improving cross-department visibility and efficiency.",
-        "bannerAlt": "3D illustration of a smart city with cloud icons representing AI and cloud infrastructure for real estate management and data connectivity",
+        "bannerAlt": "Miniature city model with cloud icons and lights showing smart city cloud computing infrastructure and digital connectivity",
         "mainData": [
             "Here’s something every property leader already knows but rarely says out loud: the technology stack that was meant to simplify operations has ended up complicating it.",
             "Most real estate enterprises today run on a patchwork of systems: Yardi for property management, Oracle or SAP for finance, MRI for analytics, Salesforce for CRM, and Excel for everything else. Each system excels in its lane, but together, they form a fragmented ecosystem where data duplication, integration costs, and reporting chaos are the norm. It causes delayed decision-making, inflated Opex, and teams that spend more time reconciling spreadsheets than managing properties.",
@@ -7121,6 +7122,7 @@
         ]
     },
     "whatDoesASingle": {
+        "bannerAlt" : "Futuristic glass cityscape with pink and blue transparent buildings on reflective surface representing digital innovation",
         "aleadsfill": "A lead fills out",
         "aform": "a form",
         "entersCrm": "Enters CRM",
@@ -7697,7 +7699,7 @@
         ],
         "seoTitle": "Why SAP Consulting Partners Matter for Enterprise Success | Rialtes",
         "seoDescription": "SAP consulting partners help organizations move from isolated systems to unified, intelligent enterprises where every process runs with clarity.",
-        "bannerAlt": "Abstract image of a person walking on a digital path surrounded by silhouettes made of data points, symbolizing AI-driven digital transformation and innovation journey",
+        "bannerAlt": "Abstract image of person walking on digital path surrounded by data point silhouettes symbolizing AI-driven transformation",
         "blogTopic": "SAP Consulting",
         "blogTitle": "Why Leading Enterprises Choose Top SAP Consulting Partners for Growth and Innovation",
         "roleTitle": "The Role of SAP Consulting Partners in Enterprise Success",

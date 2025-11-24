@@ -78,7 +78,7 @@ export default function LanguageSwitcher({ arrowImg }) {
             </div>
 
             {showFlags && (
-                <ul className='absolute lg:top-[81px] xl:top-[103px] top-[62px] bg-white py-4 px-4 space-y-4 border z-30'>
+                <ul className='absolute lg:top-[71px] 2xl:top-[103px] top-[62px] bg-white py-4 px-4 space-y-4 border z-30'>
                     {locales.map((data) => (
                         <li
                             key={data.code}

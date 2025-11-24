@@ -607,7 +607,7 @@
     "conversationalAi": {
         "seoTitle": "IA Conversacional en el Sector Inmobiliario: Escala el Soporte Eficientemente | Rialtes",
         "seoDescription": "En el sector inmobiliario, los asistentes de IA conversacional atienden consultas de inquilinos día y noche, garantizando respuestas inmediatas y reduciendo la carga laboral fuera del horario laboral.",
-        "bannerAlt": "Ilustración digital de una persona interactuando con una interfaz de chatbot virtual que representa la IA conversacional en la atención al cliente inmobiliaria",
+        "bannerAlt": "Ilustración digital de persona interactuando con interfaz de chatbot virtual representando IA conversacional inmobiliaria",
         "mainData": [
             "El soporte a los residentes en la gestión de propiedades se está volviendo más difícil de escalar. Entre solicitudes de mantenimiento, consultas de renta, reservas de servicios y coordinación de mudanzas, los equipos suelen verse sobrecargados. El problema no es que los administradores de propiedades no se preocupen; es que las expectativas de los residentes han cambiado.",
             "Esperan un soporte rápido, amable y disponible las 24 horas, los 7 días de la semana.",
@@ -818,7 +818,7 @@
     "erpCrm": {
         "seoTitle": "ERP y CRM Unificados para Bienes Raíces: Reduce Costos en un 35% | Rialtes",
         "seoDescription": "Las plataformas ERP y CRM unificadas ayudan a las empresas inmobiliarias a reducir los costos del sistema hasta en un 35%, mejorando la visibilidad y eficiencia entre departamentos.",
-        "bannerAlt": "Ilustración 3D de una ciudad inteligente con íconos de nube que representan IA e infraestructura en la nube para la gestión y conectividad de datos inmobiliarios",
+        "bannerAlt": "Modelo ciudad miniatura con íconos nube y luces mostrando infraestructura computación nube ciudad inteligente conectividad",
         "mainData": [
             "Aquí hay algo que todo líder inmobiliario ya sabe pero rara vez dice en voz alta: la pila tecnológica que se suponía debía simplificar las operaciones, terminó complicándolas.",
             "La mayoría de las empresas inmobiliarias hoy operan con una combinación de sistemas: Yardi para la gestión de propiedades, Oracle o SAP para finanzas, MRI para analítica, Salesforce para CRM y Excel para todo lo demás. Cada sistema es excelente en su área, pero juntos forman un ecosistema fragmentado donde la duplicación de datos, los costos de integración y el caos en los informes son la norma. Esto causa decisiones tardías, Opex inflado y equipos que pasan más tiempo conciliando hojas de cálculo que administrando propiedades.",
@@ -6937,6 +6937,7 @@
         ]
     },
     "whatDoesASingle": {
+        "bannerAlt" : "Paisaje urbano futurista vidrio con edificios transparentes rosa y azul sobre superficie reflectante innovación digital",
         "aleadsfill": "Un cliente potencial completa",
         "aform": "un formulario",
         "entersCrm": "Entra en el CRM",
@@ -7513,7 +7514,7 @@
         ],
         "seoTitle": "Por qué los socios consultores de SAP son clave para el éxito empresarial | Rialtes",
         "seoDescription": "Los socios consultores de SAP ayudan a las organizaciones a pasar de sistemas aislados a empresas unificadas e inteligentes donde cada proceso funciona con claridad.",
-        "bannerAlt": "Imagen abstracta de una persona caminando por un camino digital rodeado de siluetas formadas por puntos de datos, simbolizando la transformación digital impulsada por IA y el viaje de innovación",
+        "bannerAlt": "Persona en un camino digital con siluetas de datos, simbolizando la transformación digital con IA y el viaje de innovación",
         "blogTopic": "Consultoría SAP",
         "blogTitle": "Por qué las principales empresas eligen socios consultores SAP líderes para el crecimiento y la innovación",
         "roleTitle": "El papel de los socios consultores de SAP en el éxito empresarial",

@@ -14,93 +14,91 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
 export default function Page() {
-   const fullUrl = "https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services";
-       const currUrl = useUrl()
-       const t = useTranslations('sapIntegrationServices')
-       const locale = useLocale();
-       const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-       const { sapDevelopmentIntegration,modernEnterprise ,customSAP,roleofSAP,blueprintBuild ,tailoringSAP,integrationBackbone ,topSAPPartners,realBusiness,sapConsulting,faqs ,roleofSAPPara,blueprintPara1,topSAPPartnersPara} = blogsContent.sapIntegrationServices;
+    const fullUrl = "https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services";
+    const currUrl = useUrl()
+    const t = useTranslations('sapIntegrationServices')
+    const locale = useLocale();
+    const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { sapDevelopmentIntegration, modernEnterprise, customSAP, roleofSAP, blueprintBuild, tailoringSAP, integrationBackbone, topSAPPartners, realBusiness, sapConsulting, faqs, roleofSAPPara, blueprintPara1, topSAPPartnersPara } = blogsContent.sapIntegrationServices;
 
     const schemaData = {
-      "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Boost Enterprise Agility with Tailored SAP Consulting and Implementation Services | Rialtes",
-  "description": "Custom SAP consulting and implementation services enable businesses to go beyond configuration and achieve true operational transformation.",
-  "image": "https://www.rialtes.com/images/blogs/digital-network-touch-data-connection-visualization.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Boost Enterprise Agility with Tailored SAP Consulting and Implementation Services | Rialtes",
+        "description": "Custom SAP consulting and implementation services enable businesses to go beyond configuration and achieve true operational transformation.",
+        "image": "https://www.rialtes.com/images/blogs/digital-network-touch-data-connection-visualization.webp",
+        "author": {
+            "@type": "Organization",
+            "name": "Rialtes"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.rialtes.com/images/homepage/logo.svg"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/"
+        },
+        "datePublished": "2025-11-12",
+        "mainEntity": {
+            "@type": "FAQPage",
+            "name": "Tailored SAP Development and Integration Services FAQs",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What are custom SAP development services?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Custom SAP development services involve designing and building tailored solutions within the SAP ecosystem to address unique enterprise needs. This includes workflow customization, module extensions, and integrations for improved efficiency."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why is SAP consulting important for large enterprises?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "SAP consulting helps enterprises align technology investments with business goals. It ensures optimized implementation, process efficiency, and scalability while reducing risks and costs."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do SAP implementation strategies impact ROI?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Effective SAP implementation strategies, like agile rollouts and integration-led models, shorten deployment timelines, reduce rework, and deliver measurable ROI faster."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What’s the difference between standard and custom SAP solutions?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Standard SAP solutions offer preconfigured capabilities, while custom solutions are adapted to fit specific workflows, industry needs, and business objectives for greater agility."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How can working with top SAP partners benefit my business?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Top SAP partners bring deep domain expertise, proven methodologies, and technology insight to help you achieve enterprise transformation with lower risk and faster returns."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why choose Rialtes for SAP consulting and implementation?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Rialtes combines innovation, experience, and strategic vision to deliver SAP solutions that are scalable, industry-focused, and built for sustainable enterprise growth."
+                    }
+                }
+            ]
+        }
     }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/"
-  },
-  "datePublished": "2025-11-12",
-  "mainEntity": {
-    "@type": "FAQPage",
-    "name": "Tailored SAP Development and Integration Services FAQs",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What are custom SAP development services?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Custom SAP development services involve designing and building tailored solutions within the SAP ecosystem to address unique enterprise needs. This includes workflow customization, module extensions, and integrations for improved efficiency."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Why is SAP consulting important for large enterprises?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "SAP consulting helps enterprises align technology investments with business goals. It ensures optimized implementation, process efficiency, and scalability while reducing risks and costs."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do SAP implementation strategies impact ROI?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Effective SAP implementation strategies, like agile rollouts and integration-led models, shorten deployment timelines, reduce rework, and deliver measurable ROI faster."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What’s the difference between standard and custom SAP solutions?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Standard SAP solutions offer preconfigured capabilities, while custom solutions are adapted to fit specific workflows, industry needs, and business objectives for greater agility."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How can working with top SAP partners benefit my business?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Top SAP partners bring deep domain expertise, proven methodologies, and technology insight to help you achieve enterprise transformation with lower risk and faster returns."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Why choose Rialtes for SAP consulting and implementation?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Rialtes combines innovation, experience, and strategic vision to deliver SAP solutions that are scalable, industry-focused, and built for sustainable enterprise growth."
-        }
-      }
-    ]
-  }
-    }
-  
-
 
     return (
         <section className="min-h-screen">
@@ -109,7 +107,7 @@ export default function Page() {
                 description={t("seoDescription")}
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/"
+                    `https://www.rialtes.com/${locale}/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/`
                 }
             />
 
@@ -149,8 +147,8 @@ export default function Page() {
                         {/* date and icons */}
                         <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="12 November 2025" />
 
-                           
-                               
+
+
 
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
@@ -179,21 +177,21 @@ export default function Page() {
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                     {t("sapDevelopmentTitle")}
                                 </h2>
-                                  <div className="xl:mt-[38px] mt-[33px]">
-                                {
-                                    modernEnterprise.map((data, ind) => {
-                                        return (
-                                            <p
-                                                key={ind}
-                                                className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
-                                                dangerouslySetInnerHTML={{ __html: data }}
-                                            />
-                                        )
-                                    })
+                                <div className="xl:mt-[38px] mt-[33px]">
+                                    {
+                                        modernEnterprise.map((data, ind) => {
+                                            return (
+                                                <p
+                                                    key={ind}
+                                                    className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                    dangerouslySetInnerHTML={{ __html: data }}
+                                                />
+                                            )
+                                        })
 
-                                }
+                                    }
 
-                            </div>
+                                </div>
                                 {
                                     customSAP.map((data, ind) => {
                                         return (
@@ -225,7 +223,7 @@ export default function Page() {
                                         )
                                     })
                                 }
-                                <p className="mt-[34px] xl:mt-[49px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> 
+                                <p className="mt-[34px] xl:mt-[49px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                                     {t("sapDevelopmentPara")}
                                 </p>
                             </div>
@@ -233,12 +231,12 @@ export default function Page() {
                             {/*Role of SAP Section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                                 {t("roleofSAPTitle")}
+                                    {t("roleofSAPTitle")}
                                 </h2>
-                               
-                                     <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+
+                                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                     dangerouslySetInnerHTML={{ __html: roleofSAPPara }} />
-                             
+
                                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                                     {t("roleofSAPPara2")}
                                 </p>
@@ -264,10 +262,10 @@ export default function Page() {
                             {/**Blueprint to Build Section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                                   {t("blueprintTitle")}
+                                    {t("blueprintTitle")}
                                 </h2>
 
-                                    <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                     dangerouslySetInnerHTML={{ __html: blueprintPara1 }} />
                                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-[40px] mt-[40px] gap-[20px] 4xl:w-[1200px] sm:w-[80%] md:w-full">
                                     {
@@ -334,17 +332,17 @@ export default function Page() {
                                 </p>
                             </div>
 
-                             {/**Top SAP Partners Section */}
+                            {/**Top SAP Partners Section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                     {t("topSAPPartnersTitle")}
                                 </h2>
-                                
-                                     <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+
+                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                     dangerouslySetInnerHTML={{ __html: topSAPPartnersPara }} />
-                                
+
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                  {t("topSAPPartnersPara2")} </p>
+                                    {t("topSAPPartnersPara2")} </p>
 
                                 <ul className="list-disc pl-[36px] font-medium mt-4 space-y-2">
                                     {topSAPPartners.map((item, index) => (
@@ -362,14 +360,14 @@ export default function Page() {
 
                             </div>
 
-                                {/**Real Business Outcomes Section */}
-                             <div className="md:mt-[50px] mt-[40px]">
+                            {/**Real Business Outcomes Section */}
+                            <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                     {t("realBusinessTitle")}
                                 </h2>
-                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> {t("realBusinessPara")} 
+                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> {t("realBusinessPara")}
                                 </p>
-                    
+
 
                                 <ul className="list-disc pl-[36px] font-medium mt-4 space-y-2">
                                     {realBusiness.map((item, index) => (
