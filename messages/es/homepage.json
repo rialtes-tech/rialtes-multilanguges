@@ -14,7 +14,7 @@
         "lifeTitle": "VIDA",
         "rialtesName": "RIALTES",
         "rialtesData": "Impulsados por la innovación y motivados por el potencial humano, nuestra empresa de consultoría de TI enfrenta los problemas más difíciles del mundo digital. Juntos, simplifiquemos los problemas, habilitemos soluciones y empoderémonos unos a otros.",
-        "lifeAtAlt": "Profesionales de negocios en conferencia SAP Gold Partner, presentaciones, eventos de equipo y reuniones de la industria Salesforce",
+        "lifeAtAlt": "Profesionales de negocios en conferencia SAP Gold Partner, presentaciones, eventos de equipo y reuniones de Salesforce",
         "logoAlt": "Logotipo de Rialtes con ícono ovalado blanco a rayas y el lema “Simply Enable Empower” sobre un fondo limpio.",
         "innovatingAlt":"Texto azul marino en negrita que dice INNOVATING con textura de patrón de placa de circuito sobre fondo blanco",
         "carouselData": [
@@ -59,7 +59,7 @@
             {
                 "link": "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/",
                 "title": "Life Science",
-                "alt": "Profesional sanitario con superposición de interfaz digital mostrando datos del paciente y sistemas de atención sanitaria conectada.",
+                "alt": "Profesional sanitario con superposición de interfaz digital mostrando datos del paciente y sistemas de atención conectada",
                 "image": "/images/homepage/ai-compliance-in-life-sciences-banner-es.webp",
                 "imageMobile": "/images/homepage/ai-compliance-in-life-sciences-banner-es-mobile.webp"
             },
@@ -72,7 +72,7 @@
             },
             {
                 "link": "/products/mediaina-reimagining-patient-journeys/",
-                "alt": "Ondas digitales azules abstractas y fluidas con patrones de malla que representan tecnología de IA para cumplimiento en ciencias de la vida.",
+                "alt": "Ondas digitales azules abstractas y fluidas con patrones de malla representando tecnología de IA para cumplimiento",
                 "title": "MediAIna",
                 "image": "/images/homepage/connected-healthcare-technology-banner-es.webp",
                 "imageMobile": "/images/homepage/connected-healthcare-technology-banner-es-mobile.webp"
@@ -84,21 +84,24 @@
                 "imageUrl": "/images/homepage/stremline_with_bgc.webp",
                 "title": "Manufactura",
                 "description": "DevOps optimizado usando Copado y Salesforce",
-                "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+                "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce",
+                "imgAlt" : "Diseño curvo negro abstracto para DevOps optimizado usando Copado y Salesforce manufactura"
             },
             {
                 "id": 2,
                 "imageUrl": "/images/homepage/salesforce_with_bgc.webp",
                 "title": "Salud",
                 "description": "Salesforce Health Cloud, Autorización Previa",
-                "url": "insights/case-studies/salesforce-health-cloud-prior-authorization"
+                "url": "insights/case-studies/salesforce-health-cloud-prior-authorization",
+                "imgAlt" : "Cielo sereno de fondo para solución autorización previa Salesforce Health Cloud healthcare"
             },
             {
                 "id": 3,
                 "imageUrl": "/images/homepage/mfg-2_with_bgc.webp",
                 "title": "Manufactura",
                 "description": "Gestión de casos omnicanal con Salesforce Service Cloud",
-                "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+                "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud",
+                "imgAlt" : "Patrón olas azul para gestión casos omnicanal con Salesforce Service Cloud manufactura"
             },
             {
                 "id": 4,
@@ -106,21 +109,24 @@
                 "title": "Sector Público",
                 "description": "Viaje de Transformación con YARDI junto a la Mayor Autoridad de Vivienda Pública de América del Norte",
                 "theme": "light",
-                "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america"
+                "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america",
+                "imgAlt" : "Patrón geométrico azul para viaje transformación YARDI con la PHA más grande de Norteamérica"
             },
             {
                 "id": 5,
                 "imageUrl": "/images/homepage/healthcare-22.webp",
                 "title": "Salud",
                 "description": "Automatización del Procesamiento de Pedidos usando Mulesoft para Salesforce Health Cloud y SAP",
-                "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+                "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+                "imgAlt" : "Red nube digital sobre ciudad para procesamiento pedidos automatizado Mulesoft Salesforce SAP"
             },
             {
                 "id": 6,
                 "imageUrl": "/images/homepage/mfg-3_with_bgc.webp",
                 "title": "Manufactura",
                 "description": "Optimización de Ventas con Salesforce Sales Cloud para Manufactura",
-                "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
+                "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
+                "imgAlt" : "Líneas fluidas azules para optimizar ventas con Salesforce Sales Cloud manufactura"
             },
             {
                 "id": 7,
@@ -128,7 +134,8 @@
                 "title": "Bienes Raíces",
                 "description": "Automatización de ACH y Asientos Contables con Nuestro Módulo Bancario Exelona",
                 "url": "insights/case-studies/realForce-banking-module-ach",
-                "theme": "light"
+                "theme": "light",
+                "imgAlt" : "Gráfico barras rojo azul para automatizar entradas diario ACH con Exelona banking inmobiliario"
             },
             {
                 "id": 8,
@@ -136,7 +143,8 @@
                 "title": "Salud",
                 "description": "Digitalización del recorrido del paciente usando Salesforce Health Cloud",
                 "url": "insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
-                "theme": "light"
+                "theme": "light",
+                "imgAlt" : "Profesional salud usando tablet para digitalizar viaje paciente Salesforce Health Cloud"
             }
         ],
         "contactUsTitle": "¿Listo para dar el siguiente paso? Comencemos tu camino hacia la excelencia operativa.",

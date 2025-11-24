@@ -14,7 +14,7 @@
         "lifeTitle": "VIE",
         "rialtesName": "RIALTES",
         "rialtesData": "Animée par l'innovation et alimentée par le potentiel humain, notre société de conseil en informatique relève les défis les plus complexes du monde numérique. Ensemble, simplifions les problèmes, enableons les solutions et autonomisons-nous mutuellement.",
-        "lifeAtAlt": "Professionnels des affaires à la conférence SAP Gold Partner, présentations, événements d'équipe et rassemblements de l'industrie Salesforce",
+        "lifeAtAlt": "Professionnels des affaires à la conférence SAP Gold Partner, présentations, événements d'équipe et rassemblements",
         "logoAlt": "Logo de Rialtes avec une icône ovale blanche à rayures et le slogan « Simply Enable Empower » sur un fond épuré.",
         "innovatingAlt":"Texte bleu marine en gras indiquant INNOVATING avec texture de motif de carte de circuit sur fond blanc",
         "carouselData": [
@@ -58,21 +58,21 @@
         "slidesData": [
             {
                 "link": "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/",
-                "alt": "Des ondes numériques bleues abstraites et fluides avec des motifs de maille représentant la technologie de l'IA pour la conformité en sciences de la vie.",
+                "alt": "Ondes numériques bleues abstraites et fluides avec motifs de maille représentant technologie de l'IA pour conformité",
                 "title": "Life Science",
                 "image": "/images/homepage/ai-compliance-in-life-sciences-banner-fr.webp",
                 "imageMobile": "/images/homepage/ai-compliance-in-life-sciences-banner-fr-mobile.webp"
             },
             {
                 "link": "/industry/manufacturing-cloud-erp/",
-                "alt": "Des rayons de lumière bleu et vert brillants convergeant vers le haut symbolisant l'innovation numérique dans l'industrie manufacturière.",
+                "alt": "Rayons de lumière bleu et vert brillants convergeant vers le haut symbolisant innovation numérique dans manufacture",
                 "title": "Manufacturing",
                 "image": "/images/homepage/digital-manufacturing-transformation-banner-fr.webp",
                 "imageMobile": "/images/homepage/digital-manufacturing-transformation-banner-fr-mobile.webp"
             },
             {
                 "link": "/products/mediaina-reimagining-patient-journeys/",
-                "alt": "Professionnel de la santé avec superposition d'interface numérique affichant les données des patients et les systèmes de soins de santé connectés.",
+                "alt": "Professionnel de la santé avec superposition d'interface numérique affichant les données des patients et systèmes connectés",
                 "title": "MediAIna",
                 "image": "/images/homepage/connected-healthcare-technology-banner-fr.webp",
                 "imageMobile": "/images/homepage/connected-healthcare-technology-banner-fr-mobile.webp"
@@ -84,21 +84,24 @@
                 "imageUrl": "/images/homepage/stremline_with_bgc.webp",
                 "title": "Fabrication",
                 "description": "DevOps rationalisé avec Copado et Salesforce",
-                "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce"
+                "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce",
+                "imgAlt" : "Design courbe noir abstrait pour DevOps rationalisé avec Copado et Salesforce manufacturing"
             },
             {
                 "id": 2,
                 "imageUrl": "/images/homepage/salesforce_with_bgc.webp",
                 "title": "Santé",
                 "description": "Salesforce Health Cloud, autorisation préalable",
-                "url": "insights/case-studies/salesforce-health-cloud-prior-authorization"
+                "url": "insights/case-studies/salesforce-health-cloud-prior-authorization",
+                "imgAlt" : "Ciel serein arrière-plan pour solution autorisation préalable Salesforce Health Cloud santé"
             },
             {
                 "id": 3,
                 "imageUrl": "/images/homepage/mfg-2_with_bgc.webp",
                 "title": "Fabrication",
                 "description": "Gestion omnicanale des cas avec Salesforce Service Cloud",
-                "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
+                "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud",
+                "imgAlt" : "Motif vagues bleues pour gestion cas omnicanal avec Salesforce Service Cloud manufacturing"
             },
             {
                 "id": 4,
@@ -106,21 +109,24 @@
                 "title": "Secteur public",
                 "description": "Parcours de transformation YARDI avec le plus grand PHA d'Amérique du Nord",
                 "theme": "light",
-                "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america"
+                "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america",
+                "imgAlt" : "Motif géométrique bleu pour parcours transformation YARDI avec plus grande PHA Amérique Nord"
             },
             {
                 "id": 5,
                 "imageUrl": "/images/homepage/healthcare-22.webp",
                 "title": "Santé",
                 "description": "Automatisation du traitement des commandes avec Mulesoft pour Salesforce Health Cloud et SAP",
-                "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
+                "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
+                "imgAlt" : "Réseau cloud numérique sur ville pour traitement commandes automatisé Mulesoft Salesforce SAP"
             },
             {
                 "id": 6,
                 "imageUrl": "/images/homepage/mfg-3_with_bgc.webp",
                 "title": "Fabrication",
                 "description": "Optimisation des ventes avec Salesforce Sales Cloud pour l'industrie manufacturière",
-                "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
+                "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
+                "imgAlt" : "Lignes fluides bleues pour rationaliser ventes avec Salesforce Sales Cloud manufacturing"
             },
             {
                 "id": 7,
@@ -128,7 +134,8 @@
                 "title": "Immobilier",
                 "description": "Automatisation des ACH et écritures comptables avec notre module bancaire Exelona",
                 "url": "insights/case-studies/realForce-banking-module-ach",
-                "theme": "light"
+                "theme": "light",
+                "imgAlt" : "Graphique barres rouge bleu pour automatiser écritures journal ACH avec Exelona banking immobilier"
             },
             {
                 "id": 8,
@@ -136,7 +143,8 @@
                 "title": "Santé",
                 "description": "Numérisation du parcours patient avec Salesforce Health Cloud",
                 "url": "insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
-                "theme": "light"
+                "theme": "light",
+                "imgAlt" : "Professionnel santé utilisant tablette pour digitaliser parcours patient Salesforce Health Cloud"
             }
         ],
         "contactUsTitle": "Prêt à passer à l'étape suivante ? Commencez votre parcours vers l'excellence opérationnelle",

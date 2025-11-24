@@ -186,6 +186,8 @@ const Home = () => {
                                 <Link href={success.url}>
                                     <div className="relative xl:h-[486px] h-[391px] w-[97%] overflow-hidden group shadow-lg">
                                         <div
+                                            role="img"
+                                            aria-label={success.imgAlt}
                                             className="absolute inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]"
                                             style={{
                                                 backgroundImage: `url(${success.imageUrl})`,
