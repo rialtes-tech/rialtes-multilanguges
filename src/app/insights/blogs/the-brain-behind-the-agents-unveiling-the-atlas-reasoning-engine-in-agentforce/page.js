@@ -404,9 +404,9 @@ export default function Page() {
                       data.list.map((elem, id) => (
                         <div className="mt-10 grid md:grid-cols-12 grid-cols-1 md:gap-y-[26px] border border-[#707070] sm:w-[90%] md:w-auto xl:w-[1000px] 4xl:w-[1200px]" key={id}>
                           <div className="bg-[#F0F0F0] p-[32px] col-span-4 flex items-center">
-                            <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-bold">
+                            <h3 className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[16px] text-[16px] font-bold 4xl:w-[90%]">
                               {elem.title}
-                            </p>
+                            </h3>
                           </div>
                           <div className="p-[32px] col-span-8">
                             <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
