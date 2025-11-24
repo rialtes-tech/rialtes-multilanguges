@@ -14,7 +14,7 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
 export default function Page() {
-     const fullUrl = "https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind";
     const currUrl = useUrl()
     const t = useTranslations('slasBilling')
     const locale = useLocale();
@@ -105,13 +105,11 @@ export default function Page() {
                 title={t("seoTitle")}
                 description={t("seoDescription")}
                 keywords="Partners, website, welcome"
-                canonical={
-                    "https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind/"
-                }
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/tracking-service-level-agreements-without-losing-mind/`}
             />
 
             <Script
-                id="schema-copilots"
+                id="schema-trackingService"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
@@ -196,7 +194,7 @@ export default function Page() {
                             {/**Gut-Driven to Data-Driven Section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                                  {t("gutDrivenSection")}
+                                    {t("gutDrivenSection")}
                                 </h2>
 
                                 <div className="xl:mt-[38px] mt-[33px]">

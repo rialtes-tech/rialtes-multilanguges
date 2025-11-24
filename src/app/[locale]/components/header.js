@@ -51,8 +51,13 @@ const Header = () => {
   };
   const cardRef = useRef(null);
   const handleMouseEnterCard = (cardId) => {
+    scrollToTop()
     setActiveCard(cardId);
   };
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   const handleMouseLeaveCard = () => {
     setActiveCard(null);
   };
@@ -341,7 +346,7 @@ const Header = () => {
   };
   return (
     <section className="relative">
-      <div className="fixed top-0 left-0 right-0 w-full max-w-[1920px] mx-auto z-50">
+      <div className={`${activeCard ? " " : "fixed"} top-0 left-0 right-0 w-full max-w-[1920px] mx-auto z-50`}>
         <div className="hidden lg:block bg-white shadow-md custom-container 2xl:pt-[37px] 2xl:pb-[36px] py-[18px]">
           <div className="flex justify-between">
             <div className="">

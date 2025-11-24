@@ -1,159 +1,4 @@
 {
-  "relatedCaseStudies": {
-    "latestCaseStudyTitle": "Estudios de caso relacionados",
-    "latestCaseStudy": [
-      {
-        "id": 15,
-        "image": "/images/case-studies/graduation-cap-ladder-clouds-education-success-concept-mobile.webp",
-        "industry": "Education",
-        "date": "Aug. 21, 2025",
-        "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/",
-        "title": "Transformando el Éxito Estudiantil con Salesforce Education Cloud y Edu+",
-        "alt": "Transformando el éxito estudiantil con Salesforce Education Cloud y Edu+ ",
-        "description": "Una universidad privada líder en Norteamérica con más de 25,000 estudiantes y múltiples programas académicos en divisiones de pregrado, posgrado y educación continua."
-      },
-      {
-        "id": 14,
-        "image": "/images/case-studies/automotive-robotic-assembly-line-car-manufacturing-mobile.webp",
-        "industry": "Automotriz",
-        "date": "Jun. 30, 2025",
-        "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
-        "title": "Fabricante Automotriz Líder Logra un 35% Más de Satisfacción del Cliente con AutoSense",
-        "alt": "Fabricante automotriz líder logró un 35% más de satisfacción del cliente con AutoSense ",
-        "description": "Un fabricante de automóviles global destacado, conocido por su innovación y vehículos de alto rendimiento, enfrentaba desafíos con su sistema heredado de gestión de garantías."
-      },
-      {
-        "id": 13,
-        "image": "/images/case-studies/roof-shingle-color-samples-material-options-mobile.webp",
-        "industry": "Manufactura",
-        "date": "Jun. 10, 2025",
-        "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
-        "title": "40% de Mejora en la Adopción de Aplicación de Garantías con Salesforce Experience Cloud",
-        "alt": "40% de aumento en la adopción de la aplicación de garantía usando Salesforce Experience Cloud ",
-        "description": "Descubra cómo Rialtes utilizó Salesforce Experience Cloud para optimizar los reclamos de garantía y mejorar la satisfacción del cliente para un fabricante de techos."
-      },
-      {
-        "id": 12,
-        "image": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
-        "industry": "Manufactura",
-        "date": "Jun. 03, 2025",
-        "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
-        "title": "Revolucionando la Gestión de Concesionarios con AutoSense de Rialtes",
-        "alt": "Impulsando la gestión de concesionarios con AutoSense de Rialtes",
-        "description": "Un reconocido fabricante automotriz global, famoso por sus vehículos de vanguardia, enfrentaba grandes desafíos con su portal de concesionarios obsoleto."
-      },
-      {
-        "id": 11,
-        "image": "/images/case-studies/insurance-adjuster-homeowner-storm-damage-assessment-carousel.webp",
-        "industry": "Manufactura",
-        "date": "May. 30, 2025",
-        "url": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/",
-        "title": "Reclamo en 4 Minutos: Rialtes Crea un Portal Móvil para Transformar la Experiencia de Reclamos",
-        "alt": "Reclamo en 4 minutos: Rialtes crea un portal móvil para transformar la experiencia de reclamaciones ",
-        "description": "Un fabricante líder de soluciones de techado de alta calidad diseñadas para proteger lo que más importa. Especializado en productos duraderos e innovadores para uso residencial."
-      },
-      {
-        "id": 1,
-        "image": "/images/case-studies/roofing-shingle-samples-color-variety-display-carousel.webp",
-        "industry": "Manufactura",
-        "date": "May. 28, 2025",
-        "url": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/",
-        "title": "150 Pedidos al Día, Cero Trabajo Manual: Priorización de Pedidos con SAP Fiori",
-        "alt": "150 pedidos al día, sin trabajo manual: priorización de pedidos con autoservicio impulsado por Fiori ",
-        "description": "A pesar de las significativas inversiones tecnológicas del cliente en manufactura, su proceso de gestión de pedidos dependía mucho de la intervención manual. Los clientes que querían priorizar ciertos pedidos tenían que llamar al equipo de ventas y compartir su lista."
-      },
-      {
-        "id": 2,
-        "image": "/images/case-studies/quality-control-technician-inspecting-bottle-production-line-mobile.webp",
-        "industry": "Manufactura",
-        "date": "Mar. 26, 2025",
-        "url": "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
-        "title": "Optimización de Ventas con Salesforce Sales Cloud para Manufactura",
-        "alt": "Optimización de ventas con Salesforce Sales Cloud para manufactura ",
-        "description": "La empresa es un fabricante líder especializado en equipos personalizados de tratamiento de agua. Cada producto está diseñado en función de los requisitos específicos del cliente, por lo que no hay dos productos iguales."
-      },
-      {
-        "id": 3,
-        "image": "/images/case-studies/industrial-workers-safety-collaboration.webp",
-        "industry": "Manufactura",
-        "date": "Jan. 08, 2025",
-        "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce/",
-        "title": "Transformación DevOps con Copado y Salesforce",
-        "alt": "Transformación DevOps usando Copado y Salesforce ",
-        "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales."
-      },
-      {
-        "id": 4,
-        "image": "/images/case-studies/business-team-strategy-collaboration.webp",
-        "industry": "Bienes Raíces",
-        "date": "Dec. 22, 2024",
-        "url": "/insights/case-studies/realForce-banking-module-ach/",
-        "title": "Automatización de ACH y Asientos Contables con el Módulo Bancario de Exelona",
-        "alt": "Automatización de ACH y asientos contables con nuestro módulo bancario Exelona ",
-        "description": "Una firma inmobiliaria multifamiliar en EE.UU. especializada en la gestión e inversión en propiedades residenciales multifamiliares."
-      },
-      {
-        "id": 5,
-        "image": "/images/case-studies/nurse-patient-consultation-medical-records.webp",
-        "industry": "Salud",
-        "date": "Nov. 17, 2024",
-        "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/",
-        "title": "Automatización del Procesamiento de Pedidos en Salud con MuleSoft",
-        "alt": "Automatización del procesamiento de pedidos en el sector salud con MuleSoft ",
-        "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores."
-      },
-      {
-        "id": 6,
-        "image": "/images/case-studies/advanced-microchip-manufacturing-mobile.webp",
-        "industry": "Manufactura",
-        "date": "Oct. 14, 2024",
-        "url": "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/",
-        "title": "Transformando la Gestión de Casos Omnicanal con Salesforce Service Cloud",
-        "alt": "Transformación de la gestión de casos omnicanal con Salesforce Service Cloud ",
-        "description": "Un proveedor líder de semiconductores analógicos de alto rendimiento para conectividad inalámbrica y por cable."
-      },
-      {
-        "id": 7,
-        "image": "/images/case-studies/urban-community-collaboration-mobile.webp",
-        "industry": "Sector Público",
-        "date": "Sep. 27, 2024",
-        "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/",
-        "title": "Socio Confiable de YARDI para la PHA Más Grande de Norteamérica",
-        "alt": "Socio confiable de YARDI para la mayor autoridad de vivienda pública de América del Norte ",
-        "description": "Una autoridad de vivienda pública responsable de gestionar programas de vivienda asequible en varios condados de su zona."
-      },
-      {
-        "id": 8,
-        "image": "/images/case-studies/abstract-colorful-city-skyline-data-visualization.webp",
-        "industry": "Bienes Raíces",
-        "date": "Sep. 4, 2024",
-        "url": "/insights/case-studies/yardi-managed-services/",
-        "title": "Menor Tiempo de Inactividad para una Firma Inmobiliaria con Servicios Gestionados de Yardi",
-        "alt": "Reducción del tiempo de inactividad para una firma inmobiliaria multifamiliar con YARDI Managed Services ",
-        "description": "Una firma inmobiliaria multifamiliar en EE.UU. especializada en la gestión e inversión en propiedades residenciales multifamiliares."
-      },
-      {
-        "id": 9,
-        "image": "/images/case-studies/doctor-patient-consultation-mobile.webp",
-        "industry": "Salud",
-        "date": "Aug. 16, 2024",
-        "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/",
-        "title": "Digitalizando el Viaje del Paciente con Salesforce Health Cloud",
-        "alt": "Digitalización del recorrido del paciente con Salesforce Health Cloud ",
-        "description": "Un fabricante líder especializado en materiales innovadores para proyectos residenciales y comerciales."
-      },
-      {
-        "id": 10,
-        "image": "/images/case-studies/digital-brain-network-mobile.webp",
-        "industry": "Salud",
-        "date": "Aug. 02, 2024",
-        "url": "/insights/case-studies/salesforce-health-cloud-prior-authorization/",
-        "title": "Digitalización de la Autorización Previa para Mejores Resultados de Pacientes",
-        "alt": "Digitalización de la autorización previa para mejores resultados del paciente ",
-        "description": "Una firma inmobiliaria multifamiliar en EE.UU. especializada en la gestión e inversión en propiedades residenciales multifamiliares."
-      }
-    ]
-  },
   "yardiCaseStudy": {
     "bannerAlt": "Ilustración conceptual de una comunidad urbana diversa colaborando dentro de un modelo de ciudad circular",
     "headerTitle": "Socio confiable de YARDI para la PHA más grande de América del Norte",
@@ -514,7 +359,7 @@
   "omnichannelCaseStudy": {
     "bannerAlt": "Primer plano de máquina de precisión trabajando en microchip brillante representando fabricación avanzada de semiconductores",
     "serviceTitle": "Transformación de la Gestión de Casos Omnicanal con Salesforce Service Cloud",
-    "manufacturing": "Manufactura",
+    "caseTopic": "Semiconductor",
     "seoTitle": "Estudio Salesforce Service Cloud: Gestión omnicanal de casos",
     "seoDescription": "Descubre cómo Service Cloud transformó la gestión de casos con automatización, servicio más rápido y soporte mejorado.",
     "clientTitle": "Perfil del Cliente",
@@ -733,7 +578,7 @@
   "autoSenseCaseStudy": {
     "bannerAlt": "Mujer de negocios sonriente con gafas y colega colaborando en computadora portátil en oficina contemporánea",
     "dealerTitle": "Impulsando la Gestión de Concesionarios con AutoSense de Rialtes",
-    "manufacturing": "Manufactura",
+    "caseTopic": "Automotriz",
     "seoTitle": "Revolucionando la gestión de concesionarios con AutoSense",
     "seoDescription": "Descubre cómo Rialtes transformó la gestión de concesionarios con AutoSense: UX moderno, integración SAP y Salesforce y operaciones en tiempo real.",
     "cliendTitle": "Descripción del Cliente:",
@@ -1171,5 +1016,143 @@
         "description": "Visibilidad de los recorridos estudiantiles a lo largo del ciclo académico"
       }
     ]
+  },
+  "sapErp": {
+    "challenges": [
+      {
+        "title": "Order-to-Cash (O2C)",
+        "desc": [
+          "El procesamiento manual de pedidos generaba errores frecuentes y retrasos en el cumplimiento.",
+          "La mala gestión del inventario causaba agotamientos recurrentes de tallas de alta demanda, generando pérdida de ingresos.",
+          "La facturación tardía ralentizaba los flujos de caja y debilitaba las relaciones con los clientes."
+        ]
+      },
+      {
+        "title": "Procure-to-Pay (P2P)",
+        "desc": [
+          "La falta de visibilidad del proceso causaba ineficiencias, mayores costos de adquisición y posibles interrupciones en la cadena de suministro.",
+          "La ausencia de datos en tiempo real de proveedores e inventario dificultaba la toma de decisiones.",
+          "El procesamiento manual de facturas generaba cuellos de botella en la conciliación y los pagos."
+        ]
+      }
+    ],
+    "solutions": [
+      {
+        "title": "Integración con SAP ERP",
+        "desc": [
+          "Módulos integrados: SD (Ventas y Distribución), MM (Gestión de Materiales), FI (Contabilidad Financiera) y Ariba para adquisiciones.",
+          "Se utilizó SAP PI/PO (Integración/Orquestación de Procesos) para un intercambio de datos fluido con sistemas heredados."
+        ]
+      },
+      {
+        "title": "Gestión Automática de Pedidos",
+        "desc": [
+          "Se configuró SAP SD para la automatización de pedidos de venta con verificaciones ATP (Available-to-Promise).",
+          "Integrado con EDI (Intercambio Electrónico de Datos) para la captura de pedidos en tiempo real desde distribuidores."
+        ]
+      },
+      {
+        "title": "Gestión de Inventario en Tiempo Real",
+        "desc": [
+          "Se habilitó SAP Extended Warehouse Management (EWM) para un seguimiento detallado del inventario.",
+          "Integración de sensores IoT para visibilidad del stock en tiempo real en almacenes y líneas de producción."
+        ]
+      },
+      {
+        "title": "Automatización del Procesamiento de Facturas",
+        "desc": [
+          "Se implementó SAP VIM (Vendor Invoice Management) de OpenText para la captura de facturas con OCR y automatización del flujo de trabajo.",
+          "Integrado con SAP FI para contabilización y conciliación automática."
+        ]
+      },
+      {
+        "title": "Gestión de Relaciones con Proveedores",
+        "desc": [
+          "Se utilizó SAP Ariba Network para la incorporación de proveedores, gestión de catálogos y seguimiento del rendimiento.",
+          "Se implementaron tarjetas de puntuación y KPIs mediante SAP Analytics Cloud para la evaluación de proveedores."
+        ]
+      }
+    ],
+    "fioriData": [
+      {
+        "title": "Aspectos Destacados de la Implementación de Fiori",
+        "desc": [
+          "Paneles basados en roles: Se diseñaron mosaicos intuitivos en Fiori Launchpad para equipos de Ventas, Compras, Inventario y Finanzas, permitiendo un acceso más rápido a tareas críticas.",
+          "Diseño responsivo: Se habilitó acceso móvil y en tabletas para equipos de ventas de campo y almacén, mejorando la toma de decisiones en tiempo real y reduciendo retrasos."
+        ]
+      },
+      {
+        "title": "Aplicaciones Fiori Personalizadas",
+        "desc": [
+          "App de Gestión de Pedidos: Permitía a los equipos de ventas crear, rastrear y modificar pedidos con verificaciones ATP en tiempo real e información del cliente.",
+          "App de Información de Inventario: Proporcionaba a los gerentes de almacén niveles de stock en vivo, alertas de reposición e historial de movimientos.",
+          "App de Seguimiento de Facturas: Permitía a los equipos financieros monitorear el estado de facturas, aprobaciones y ciclos de pago con análisis detallados."
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Precisión de Pedidos Mejorada en un 40%",
+        "desc": "La automatización redujo los errores de ingreso manual."
+      },
+      {
+        "title": "Velocidad de Cumplimiento de Pedidos Aumentó en un 35%",
+        "desc": "La visibilidad en tiempo real permitió un procesamiento y entrega más rápidos."
+      },
+      {
+        "title": "Costos de Inventario Reducidos en un 25%",
+        "desc": "Un mejor pronóstico de demanda minimizó el exceso de stock."
+      },
+      {
+        "title": "Reducción del 30% en Agotamientos de Stock",
+        "desc": "Las tallas populares estuvieron consistentemente disponibles, aumentando la satisfacción del cliente."
+      },
+      {
+        "title": "Tiempo de Procesamiento de Facturas Reducido en un 50%",
+        "desc": "Los pagos se procesaron más rápidamente, reduciendo los ciclos."
+      },
+      {
+        "title": "Costos de Adquisición Reducidos en un 15%",
+        "desc": "Las decisiones de compra basadas en datos mejoraron las condiciones con proveedores y la eficiencia."
+      },
+      {
+        "title": "Puntuación de Rendimiento de Proveedores Aumentó en un 25%",
+        "desc": "La colaboración más fuerte y la transparencia mejoraron las relaciones."
+      }
+    ],
+    "businessData": [
+      {
+        "title": "Adopción de Usuarios Aumentó en",
+        "perc": "60%",
+        "desc": "Las interfaces simplificadas y el acceso móvil incrementaron la participación en todos los departamentos."
+      },
+      {
+        "title": "Tiempo de Finalización de Tareas Reducido en",
+        "perc": "40%",
+        "desc": "Las apps basadas en roles minimizaron la navegación y el ingreso manual de datos."
+      },
+      {
+        "title": "Tasas de Error Disminuyeron en",
+        "perc": "35%",
+        "desc": "Los flujos de trabajo guiados y validaciones redujeron las desviaciones del proceso."
+      },
+      {
+        "title": "Productividad Móvil Mejoró en",
+        "perc": "50%",
+        "desc": "Los equipos de campo accedieron a datos en tiempo real mientras se desplazaban, acelerando ciclos de pedidos y entregas."
+      }
+    ],
+    "bannerAlt": "Neumáticos automotrices moviéndose en una línea de producción en una instalación de fabricación moderna",
+    "seoTitle": "Soluciones SAP ERP Cloud para Automotriz | Caso de Estudio",
+    "seoDescription": "Este caso de estudio automotriz muestra cómo las soluciones SAP ERP Cloud han impulsado la innovación en O2C y P2P, mejorando la precisión, el control de inventario y la velocidad.",
+    "caseTopic": "Automotriz",
+    "caseTitle": "Transformación de Procesos O2C y P2P con Soluciones SAP ERP Cloud",
+    "clientTitle": "Perfil del Cliente",
+    "clientDesc": "Nuestro cliente es un fabricante líder de neumáticos, clasificado entre los 25 mejores a nivel mundial y reconocido como una empresa emblemática en el sector automotriz. Conocido por su innovación en tecnología radial, ofrece un amplio portafolio que abarca neumáticos para camiones/autobuses, vehículos comerciales ligeros, autos de pasajeros, maquinaria pesada, vehículos agrícolas y de dos y tres ruedas. También son pioneros en neumáticos de competición y Smart Tyres con avanzados sistemas de monitoreo de presión (TPMS).",
+    "challengeTitle": "Desafío",
+    "solutionTitle": "Solución",
+    "fioriTitle": "Soluciones Fiori: Mejorando la Usabilidad y la Eficiencia del Proceso",
+    "benefitsTitle": "Beneficios",
+    "businessTitle": "Impacto Empresarial de la Implementación de Fiori"
   }
 }
