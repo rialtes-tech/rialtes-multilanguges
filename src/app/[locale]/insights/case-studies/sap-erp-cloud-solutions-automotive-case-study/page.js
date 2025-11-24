@@ -4,8 +4,13 @@ import Seo from "@/app/[locale]/components/Seo";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
-import RealtedCaseStudies from "@/app/[locale]/components/RealtedCaseStudies"
+import RelatedCaseStudies from "@/app/[locale]/components/RelatedCaseStudies"
 import useUrl from "@/app/[locale]/components/useUrl";
+import { useLocale, useTranslations } from "next-intl";
+import enContent from "../../../../../../messages/en/caseStudy.json";
+import esContent from "../../../../../../messages/es/caseStudy.json";
+import frContent from "../../../../../../messages/fr/caseStudy.json";
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -34,143 +39,23 @@ const schemaData = {
     "keywords": "sap erp cloud solutions, automotive case study",
     "datePublished": "2025-11-19"
 };
-const challenges = [
-    {
-        "title": "Order-to-Cash (O2C)",
-        "desc": [
-            "Manual order processing led to frequent errors and delayed fulfillment.",
-            "Inventory mismanagement caused recurring stockouts of high - demand sizes, resulting in lost revenue.",
-            "Delayed invoicing slowed cash inflows and weakened customer relationships."
-        ]
-    },
-    {
-        "title": "Procure-to-Pay (P2P)",
-        "desc": [
-            "Lack of process visibility caused inefficiencies, higher procurement costs, and potential supply chain disruptions.",
-            "Absence of real-time supplier and inventory data hampered decision-making.",
-            "Manual invoice processing created bottlenecks in reconciliation and payments."
-        ]
-    }
-]
-const solutions = [
-    {
-        "title": "SAP ERP Integration",
-        "desc": [
-            "Integrated modules: SD(Sales and Distribution), MM(Materials Management), FI(Financial Accounting), and Ariba for procurement.",
-            "Used SAP PI / PO(Process Integration / Orchestration) for seamless data exchange with legacy systems."
-        ]
-    },
-    {
-        "title": "Automated Order Management",
-        "desc": [
-            "Configured SAP SD for sales order automation with ATP (Available-to-Promise) checks.",
-            "Integrated with EDI (Electronic Data Interchange) for real-time order capture from distributors."
-        ]
-    },
-    {
-        "title": "Real-time Inventory Management",
-        "desc": [
-            "Enabled SAP Extended Warehouse Management (EWM) for granular inventory tracking.",
-            "Integrated IoT sensors for real-time stock visibility in warehouses and production lines."
-        ]
-    },
-    {
-        "title": "Automated Invoice Processing",
-        "desc": [
-            "Deployed SAP VIM (Vendor Invoice Management) by OpenText for OCR-based invoice capture and workflow automation.",
-            "Integrated with SAP FI for automatic posting and reconciliation.",
-        ]
-    },
-    {
-        "title": "Supplier Relationship Management",
-        "desc": [
-            "Leveraged SAP Ariba Network for supplier onboarding, catalog management, and performance tracking.",
-            "Implemented scorecards and KPIs using SAP Analytics Cloud for supplier evaluation"
-        ]
-    }
-]
-const fioriData = [
-    {
-        "title": "Fiori Implementation Highlights",
-        "desc": [
-            "Role-Based Dashboards: Designed intuitive Fiori Launchpad tiles tailored for Sales, Procurement, Inventory, and Finance teams, enabling faster access to critical tasks.",
-            "Responsive Design: Enabled mobile and tablet access for field sales and warehouse teams, improving real-time decision-making and reducing delays."
-        ]
-    },
-    {
-        "title": "Custom Fiori Apps",
-        "desc": [
-            "Order Management App: Allowed sales teams to create, track, and modify orders with real-time ATP checks and customer insights.",
-            "Inventory Insights App: Provided warehouse managers with live stock levels, reorder alerts, and movement history.",
-            "Invoice Tracker App: Empowered finance teams to monitor invoice status, approvals, and payment cycles with drill-down analytics."
-        ]
-    }
-]
-const benefits = [
-    {
-        "title": "Order Accuracy Improved by 40%",
-        "desc": "Automation reduced manual entry errors."
-    },
-    {
-        "title": "Order Fulfillment Speed Increased by 35%",
-        "desc": "Real-time visibility allowed faster processing and delivery."
-    },
-    {
-        "title": "Inventory Holding Costs Reduced by 25%",
-        "desc": "Better demand forecasting minimized excess stock."
-    },
-    {
-        "title": "Stockouts Decreased by 30%",
-        "desc": "Popular tire sizes consistently available, boosting customer satisfaction."
-    },
-    {
-        "title": "Invoice Processing Time Reduced by 50%",
-        "desc": "Payments processed faster, reducing cycle times."
-    },
-    {
-        "title": "Procurement Costs Lowered by 15%",
-        "desc": "Data-driven purchasing decisions improved supplier terms and efficiency."
-    },
-    {
-        "title": "Supplier Performance Scores Increased by 25%",
-        "desc": "Stronger collaboration and transparency improved relationships."
-    }
-]
-const businessData = [
-    {
-        "title": "User Adoption Increased by",
-        "perc": "60%",
-        "desc": "Simplified interfaces and mobile access boosted engagement across departments."
-    },
-    {
-        "title": "Task Completion Time Reduced by",
-        "perc": "40%",
-        "desc": "Role-based apps minimized navigation and manual data entry."
-    },
-    {
-        "title": "Error Rates Dropped by",
-        "perc": "35%",
-        "desc": "Guided workflows and validations reduced process deviations."
-    },
-    {
-        "title": "Mobile Productivity Improved by",
-        "perc": "50%",
-        "desc": "Field teams accessed real-time data on the go, accelerating order and delivery cycles."
-    }
-]
 
 export default function page() {
     const currUrl = useUrl()
     const fullUrl = "https://www.rialtes.com/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study";
+    const t = useTranslations("sapErp");
+    const locale = useLocale();
+    const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { challenges, solutions, fioriData, benefits, businessData } = Content.sapErp;
     return (
         <section className="min-h-screen bg-white">
             <Seo
-                title="SAP ERP Cloud Solutions for Automotive | A Case Study"
-                description="This automotive case study showcases how SAP ERP Cloud solutions have brought innovation to O2C and P2P, enhancing accuracy, inventory control, and speed."
-                canonical={`https://www.rialtes.com/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study/`}
+                title={t('seoTitle')}
+                description={t('seoDescription')}
+                canonical={`https://www.rialtes.com/${locale}/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study/`}
             />
             <Script
-                id="schema-revolutionizing"
+                id="schema-sapErp"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
@@ -180,7 +65,7 @@ export default function page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/case-studies/automotive-tire-factory-production-line.webp"
-                        alt="Automotive tires moving on a production line in a modern manufacturing facility"
+                        alt={t('bannerAlt')}
                         fill
                         priority
                     />
@@ -188,7 +73,7 @@ export default function page() {
                 <div className="xl:hidden block h-full">
                     <Image
                         src="/images/case-studies/automotive-tire-factory-production-line-mobile.webp"
-                        alt="Automotive tires moving on a production line in a modern manufacturing facility"
+                        alt={t('bannerAlt')}
                         priority
                         height={0}
                         width={0}
@@ -200,41 +85,31 @@ export default function page() {
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12">
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
-                        {/* date and icons */}
-                        <div className="sm:flex justify-between">
-                            <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Automotive</span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>19 November 2025
-                            </div>
 
-                            <div>
-                                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                                    <BlogSocialIcons fullUrl={fullUrl} />
-                                </div>
-                            </div>
-                        </div>
+                        {/* date and icons */}
+                        <BlogSocialIcons fullUrl={fullUrl} topic={t('caseTopic')} date="19 November 2025" />
 
 
                         <div className="xl:mt-[60px] mt-[42px]">
                             <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
-                                Transforming O2C and P2P Processes with SAP ERP Cloud Solutions
+                                {t('caseTitle')}
                             </h1>
 
                             {/* client section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                                    Client Profile
+                                    {t('clientTitle')}
                                 </h2>
 
                                 <p className="mt-[16px] xl:mt-[22px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                    Our client is a leading tire manufacturer, ranked among the top 25 globally and recognized as a flagship company in the automotive sector. Known for its innovation in radial technology, the company offers an extensive portfolio spanning Truck/Bus Radials, Light Commercial Vehicles, Passenger Car Radials, Off-the-Road, Farm Vehicles, and two- and three-wheelers. They are also pioneers in motorsport tire technology and Smart Tyres with advanced Tyre Pressure Monitoring Systems (TPMS).
+                                    {t('clientDesc')}
                                 </p>
                             </div>{" "}
 
                             {/* challenges section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                                    Challenge
+                                    {t('challengeTitle')}
                                 </h2>
                                 {
                                     challenges.map((data, ind) => {
@@ -257,7 +132,7 @@ export default function page() {
                             {/* challenges section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                                    Solution
+                                    {t('solutionTitle')}
                                 </h2>
                                 <p className="mt-[29px] font-medium xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Rialtes implemented comprehensive SAP ERP cloud solutions to digitize and automate O2C and P2P processes.</p>
                                 <div className="grid md:grid-cols-2 grid-cols-1 mt-5 gap-x-[80px] md:gap-y-[50px] gap-y-[40px]">
@@ -285,7 +160,7 @@ export default function page() {
                             {/* fiori section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                                    Fiori Solutioning: Enhancing Usability and Process Efficiency
+                                    {t('fioriTitle')}
                                 </h2>
                                 <p className="mt-[29px] font-medium xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">As part of the SAP ERP transformation, Rialtes implemented SAP Fiori to modernize the user interface and improve operational agility across departments.</p>
                                 {
@@ -308,7 +183,7 @@ export default function page() {
                             {/* benefits section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                                    Benefits
+                                    {t('benefitsTitle')}
                                 </h2>
                                 <p className="mt-[29px] font-medium xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">The transformation delivered measurable outcomes across operations:</p>
                                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-[20px] md:gap-[40px]">
@@ -329,7 +204,7 @@ export default function page() {
 
                                 {/* business section */}
                                 <h3 className="mt-10 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight font-bold">
-                                    Business Impact of Fiori Enablement
+                                    {t('businessTitle')}
                                 </h3>
                                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-[20px] md:gap-[46px] sm:w-[80%] md:w-full">
                                     {
@@ -357,7 +232,7 @@ export default function page() {
 
             {/* case study carousel */}
             <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
-                <RealtedCaseStudies url={currUrl} currTopic="Automotive" />
+                <RelatedCaseStudies url={currUrl} currTopic={t('caseTopic')} />
             </section>
         </section>
     );

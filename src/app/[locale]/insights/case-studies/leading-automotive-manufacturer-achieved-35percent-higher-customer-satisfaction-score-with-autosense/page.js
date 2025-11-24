@@ -9,6 +9,7 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import Script from "next/script";
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import RelatedCaseStudies from "@/app/[locale]/components/RelatedCaseStudies"
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -207,9 +208,9 @@ export default function Page() {
       </section>
 
       {/* case study carousel */}
-      {/* <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
-        <RelatedCaseStudies url={currUrl} currTopic={t("Automotive")} />
-      </section> */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <RelatedCaseStudies url={currUrl} currTopic={t('Automotive')} />
+      </section>
     </div>
   );
 }

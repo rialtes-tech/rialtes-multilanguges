@@ -114,7 +114,7 @@ export default function Page() {
         description={t('seoDescription')}
         keywords="Partners, website, welcome"
         canonical={
-          "https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"
+          `https://www.rialtes.com/${locale}/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/`
         }
       />
 
