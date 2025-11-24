@@ -52,7 +52,7 @@ export default function Page() {
             sizes="100vw"
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             priority
-          /> 
+          />
         </Link>
       </div>
       <div className="p-6 flex-grow flex flex-col transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
@@ -118,7 +118,7 @@ export default function Page() {
           </div>
           <div className="relative flex flex-row max-[320px]:flex-col md:ml-auto h-[60px] mt-4 max-[320px]:mb-12 max-[320px]:gap-2">
             <div className="relative">
-              <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 sm:mr-6 mr-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
+              <button className='relative border border-[#707070] w-fit py-4 px-6 sm:mr-6 mr-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
                 <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">{selectedIndustry === t('all') ? t('industryTitle') : selectedIndustry}</span>
                 <svg
                   className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
@@ -145,7 +145,7 @@ export default function Page() {
               )}
             </div>
             <div className="relative">
-              <button className='relative border border-[#707070] py-4 px-2 sm:w-40 w-36 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
+              <button className='relative border border-[#707070] py-4 px-6 w-fit text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
                 <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{selectedCategory === t('all') ? t('categoryTitle') : selectedCategory}</span>
                 <svg
                   className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
@@ -175,7 +175,7 @@ export default function Page() {
           </div>
         </div>
         <div className='w-full'>
-          <p className='text-xl pt-2 pb-10 4xl:text-[30px] xl:text-[22px] text-[20px]  leading-tight'>{t('searchTitle')} {selectedIndustry} {t('industry')} / {selectedCategory} {t('category')}</p>
+          <p className='text-xl pt-4 pb-14 4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight'>{t('searchTitle')} {selectedIndustry} {t('industry')} / {selectedCategory} {t('category')}</p>
         </div>
 
         {filteredBlogsByCategory.length === 0 ? (

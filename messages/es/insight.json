@@ -950,7 +950,18 @@
         "description": "Un reconocido fabricante automotriz global, famoso por sus vehículos de vanguardia, enfrentaba grandes desafíos con su portal de concesionarios obsoleto."
       }
     ],
+    "latestCaseStudyTitle": "Estudios de caso relacionados",
     "latestCaseStudy": [
+      {
+        "id": 16,
+        "image": "/images/case-studies/automotive-tire-factory-production-line-feature-thumb.webp",
+        "industry": "Automotriz",
+        "date": "Nov. 19, 2025",
+        "url": "/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study/",
+        "title": "Transformación de Procesos O2C y P2P con Soluciones SAP ERP Cloud",
+        "alt": "Neumáticos automotrices moviéndose en una línea de producción en una instalación de fabricación moderna",
+        "description": "Nuestro cliente es un fabricante líder de neumáticos, clasificado entre los 25 mejores a nivel mundial y reconocido como una empresa emblemática en el sector automotriz."
+      },
       {
         "id": 15,
         "image": "/images/case-studies/graduation-cap-ladder-clouds-education-success-concept-mobile.webp",

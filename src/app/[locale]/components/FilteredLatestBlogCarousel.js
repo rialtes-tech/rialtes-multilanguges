@@ -19,11 +19,15 @@ export default function page({ url }) {
     });
 
     const { latestBlogs } = blogsContent.blogs
+
     // returning all blogs except current page url
     const filteredBlogsData = latestBlogs.filter((elem) => {
-        const blogSlug = elem.url.split("/").pop();
-        return blogSlug !== url;
+        const blogSlug = elem.url.replace(/\/$/, "").split("/").pop();
+        const currentSlug = url.replace(/\/$/, "");
+
+        return blogSlug !== currentSlug;
     });
+
 
     const responsive = {
         desktop: {

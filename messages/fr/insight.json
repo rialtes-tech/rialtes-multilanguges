@@ -950,7 +950,18 @@
         "description": "Un constructeur automobile mondial reconnu pour ses véhicules de pointe rencontrait de grandes difficultés avec son portail concessionnaire obsolète."
       }
     ],
+    "latestCaseStudyTitle": "Études de cas liées",
     "latestCaseStudy": [
+      {
+        "id": 16,
+        "image": "/images/case-studies/automotive-tire-factory-production-line-mobile.webp",
+        "industry": "Automobile",
+        "date": "Nov. 19, 2025",
+        "url": "/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study/",
+        "title": "Transformation des Processus O2C et P2P avec les Solutions SAP ERP Cloud",
+        "alt": "Pneus automobiles avançant sur une ligne de production dans une usine de fabrication moderne",
+        "description": "Notre client est un fabricant de pneus de premier plan, classé parmi les 25 meilleurs au niveau mondial et reconnu comme une entreprise phare dans le secteur automobile."
+      },
       {
         "id": 15,
         "image": "/images/case-studies/graduation-cap-ladder-clouds-education-success-concept-mobile.webp",

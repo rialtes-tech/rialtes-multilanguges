@@ -4,21 +4,21 @@ import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
-import enContent from "../../../../messages/en/caseStudy.json";
-import esContent from "../../../../messages/es/caseStudy.json";
-import frContent from "../../../../messages/fr/caseStudy.json";
+import enContent from '../../../../messages/en/insight.json';
+import esContent from '../../../../messages/es/insight.json';
+import frContent from '../../../../messages/fr/insight.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import { useMediaQuery } from "react-responsive";
 
 export default function page({ url, currTopic }) {
-    const t = useTranslations("relatedCaseStudies");
+    const t = useTranslations("caseStudy");
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, {
         en: enContent,
         es: esContent,
         fr: frContent,
     });
-    const { latestCaseStudy } = blogsContent.relatedCaseStudies
+    const { latestCaseStudy } = blogsContent.caseStudy
     const isMobile = useMediaQuery({ maxWidth: 650 });
 
     const filteredCases = latestCaseStudy.filter((elem) => {
@@ -86,6 +86,9 @@ export default function page({ url, currTopic }) {
             </li>
         );
     };
+
+    console.log(filteredCases);
+
 
     return (
         <section className="relative pb-8 lg:pb-4">

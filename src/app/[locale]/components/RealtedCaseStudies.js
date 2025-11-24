@@ -157,6 +157,9 @@ export default function page({ url, currTopic }) {
         return caseSlug !== currentSlug && caseIndustry === currTopic;
     });
 
+    console.log(filteredCases);
+    
+
     const responsive = {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },

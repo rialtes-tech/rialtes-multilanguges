@@ -296,7 +296,7 @@ export default function Page() {
                     />
                   </Link>
                 </div>
-                <div className="border-gray-300 border flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0] h-full">
+                <div className="border-gray-300 border hover:border-white flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0] h-full">
                   <div className='pb-[10px] md:pb-[15px] lg:pb-[20px] 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
                     <span className='text-[#0092E0] '>{slide.category}</span> <span className='text-[#ACACAC] '>|</span> {slide.date}
                   </div>
