@@ -359,7 +359,7 @@
     "conversationalAi": {
         "seoTitle": "IA conversationnelle dans l’immobilier : optimisez le support efficacement | Rialtes",
         "seoDescription": "Dans l’immobilier, les assistants d’IA conversationnelle gèrent les demandes des locataires jour et nuit, garantissant des réponses immédiates et réduisant la charge de travail en dehors des heures de bureau.",
-        "bannerAlt": "Illustration numérique d'une personne interagissant avec une interface de chatbot virtuel représentant l'IA conversationnelle dans le support client immobilier",
+        "bannerAlt": "Illustration numérique de personne interagissant avec interface de chatbot virtuel représentant IA conversationnelle",
         "mainData": [
             "Le support aux résidents dans la gestion immobilière devient de plus en plus difficile à étendre. Entre les demandes de maintenance, les questions sur les loyers, les réservations d’équipements et la coordination des emménagements/déménagements, les équipes sont souvent surchargées. Le problème n’est pas un manque d’attention des gestionnaires immobiliers ; ce sont les attentes des résidents qui ont évolué.",
             "Ils s’attendent à un support rapide, amical et disponible 24 h/24, 7 j/7.",
@@ -570,7 +570,7 @@
     "erpCrm": {
         "seoTitle": "ERP et CRM unifiés pour l’immobilier : réduisez les coûts de 35 % | Rialtes",
         "seoDescription": "Les plateformes ERP et CRM unifiées aident les entreprises immobilières à réduire les coûts système jusqu’à 35 %, tout en améliorant la visibilité et l’efficacité interservices.",
-        "bannerAlt": "Illustration 3D d’une ville intelligente avec des icônes de cloud représentant l’IA et l’infrastructure cloud pour la gestion immobilière et la connectivité des données",
+        "bannerAlt": "Modèle ville miniature avec icônes nuage et lumières montrant infrastructure cloud computing ville intelligente connexion",
         "mainData": [
             "Voici quelque chose que tout dirigeant immobilier sait déjà mais dit rarement à voix haute : la pile technologique censée simplifier les opérations les a en réalité compliquées.",
             "La plupart des entreprises immobilières fonctionnent aujourd’hui avec un ensemble disparate de systèmes : Yardi pour la gestion des biens, Oracle ou SAP pour la finance, MRI pour l’analyse, Salesforce pour le CRM et Excel pour tout le reste. Chaque système excelle dans son domaine, mais ensemble, ils forment un écosystème fragmenté où la duplication des données, les coûts d’intégration et le chaos des rapports sont la norme. Cela entraîne des décisions retardées, une hausse des dépenses d’exploitation et des équipes qui passent plus de temps à rapprocher des feuilles Excel qu’à gérer leurs biens.",
@@ -6994,6 +6994,7 @@
         ]
     },
     "whatDoesASingle": {
+        "bannerAlt" : "Paysage urbain futuriste verre avec bâtiments transparents rose et bleu sur surface réfléchissante innovation numérique",
         "aleadsfill": "Un prospect remplit",
         "aform": "un formulaire",
         "leaseis": "Le bail est approuvé",
@@ -7570,7 +7571,7 @@
         ],
         "seoTitle": "Pourquoi les partenaires de conseil SAP sont essentiels au succès des entreprises | Rialtes",
         "seoDescription": "Les partenaires de conseil SAP aident les organisations à passer de systèmes isolés à des entreprises intelligentes et unifiées où chaque processus fonctionne avec clarté.",
-        "bannerAlt": "Image abstraite d’une personne marchant sur un chemin numérique entourée de silhouettes faites de points de données, symbolisant la transformation numérique pilotée par l’IA et le parcours d’innovation",
+        "bannerAlt": "Personne sur un chemin numérique avec des silhouettes de points de données, symbolisant la transformation numérique par l’IA",
         "blogTopic": "Conseil SAP",
         "blogTitle": "Pourquoi les grandes entreprises choisissent les meilleurs partenaires de conseil SAP pour la croissance et l’innovation",
         "roleTitle": "Le rôle des partenaires de conseil SAP dans le succès des entreprises",

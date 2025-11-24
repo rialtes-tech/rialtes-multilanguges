@@ -124,15 +124,15 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/single-source-of-truth-real-estate-lead-to-lease.webp"
-                        alt="banner image"
+                        alt={t("bannerAlt")}
                         fill
                         priority
                     />
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/blog/exelona-cluster-mobile-banner.webp"
-                        alt="banner image"
+                        src="/images/blog/single-source-of-truth-real-estate-lead-to-lease-mobile.webp"
+                        alt={t("bannerAlt")}
                         priority
                         height={0}
                         width={0}
@@ -150,7 +150,7 @@ export default function Page() {
                         <div className="sm:flex justify-between">
                             <div>
                                 <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Exelona</span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>03 November 2025
+                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>04 November 2025
                             </div>
 
                             <div>

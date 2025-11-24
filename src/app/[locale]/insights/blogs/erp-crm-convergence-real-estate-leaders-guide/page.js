@@ -32,7 +32,7 @@ export default function Page() {
         "@type": "BlogPosting",
         "headline": "CRM + ERP Convergence: How Real Estate Leaders Break System Silos and Cut Costs",
         "description": "Discover how real estate leaders are breaking system silos and cutting costs through CRM + ERP convergence. Learn how unified systems improve visibility, reduce IT overhead, and transform property management with AI-driven operations.",
-        "image": "https://www.rialtes.com/images/blog/ai-real-estate-cloud-infrastructure.webp",
+        "image": "https://www.rialtes.com/images/blog/crm-erp-convergence-for-real-estate.webp",
         "author": {
             "@type": "Organization",
             "name": "Rialtes"
@@ -125,16 +125,16 @@ export default function Page() {
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/blog/atlas-reasoning-engine-agentforce.webp"
-                        alt="Conceptual illustration of a smart city connected through cloud computing and data networks"
+                        src="/images/blog/crm-erp-convergence-for-real-estate.webp"
+                        alt={t("bannerAlt")}
                         fill
                         priority
                     />
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/blog/atlas-reasoning-engine-agentforce-mobile.webp"
-                        alt="Conceptual illustration of a smart city connected through cloud computing and data networks"
+                        src="/images/blog/crm-erp-convergence-for-real-estate-mobile.webp"
+                        alt={t("bannerAlt")}
                         priority
                         height={0}
                         width={0}
