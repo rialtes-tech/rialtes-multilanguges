@@ -67,7 +67,7 @@
         "id": "case-study-3",
         "image": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
         "alt": "Dealer management transformation with advanced filter system",
-        "category": "Manufacturing",
+        "category": "Automotive",
         "date": "Jun. 03, 2025",
         "title": "Revving Up Dealer Management with AutoSense by Rialtes",
         "description": "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal.",
@@ -906,8 +906,9 @@
       "Healthcare",
       "Manufacturing",
       "Real Estate",
-      "Hi tech",
-      "Public Sector"
+      "Semiconductor",
+      "Public Sector",
+      "Automotive"
     ],
     "slides": [
       {
@@ -943,7 +944,7 @@
       {
         "id": 4,
         "imgSrc": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
-        "category": "Manufacturing",
+        "category": "Automotive",
         "date": "Jun. 03, 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
         "title": "Revving Up Dealer Management with AutoSense by Rialtes",
@@ -996,7 +997,7 @@
       {
         "id": 12,
         "image": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
-        "industry": "Manufacturing",
+        "industry": "Automotive",
         "date": "Jun. 03, 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
         "title": "Revving Up Dealer Management with AutoSense by Rialtes",
@@ -1066,7 +1067,7 @@
       {
         "id": 6,
         "image": "/images/case-studies/advanced-microchip-manufacturing-mobile.webp",
-        "industry": "Manufacturing",
+        "industry": "Semiconductor",
         "date": "Oct. 14, 2024",
         "url": "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/",
         "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",

@@ -93,7 +93,7 @@ export default function Page() {
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
                         {/* date and icons */}
-                        <BlogSocialIcons fullUrl={fullUrl} topic={t('manufacturing')} date="03 June 2025" />
+                        <BlogSocialIcons fullUrl={fullUrl} topic={t('caseTopic')} date="03 June 2025" />
 
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
@@ -202,7 +202,7 @@ export default function Page() {
 
             {/* case study carousel */}
             <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
-                <RelatedCaseStudies url={currUrl} currTopic={t("manufacturing")} />
+                <RelatedCaseStudies url={currUrl} currTopic={t("caseTopic")} />
             </section>
         </div>
     );

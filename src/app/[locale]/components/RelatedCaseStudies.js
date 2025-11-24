@@ -87,74 +87,74 @@ export default function page({ url, currTopic }) {
         );
     };
 
-    console.log(filteredCases);
-
-
     return (
         <section className="relative pb-8 lg:pb-4">
-            <div className="mb-[36px] mx-auto">
-                <div className="flex flex-col justify-between">
-                    <h2 className="mb-[43px] leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]">{t('latestCaseStudyTitle')}</h2>
-                </div>
-                <Carousel
-                    swipeable={true}
-                    draggable={true}
-                    showDots={true}
-                    responsive={responsive}
-                    ssr={true}
-                    infinite={filteredCases.length > 1}
-                    autoPlay={filteredCases.length > 1}
-                    autoPlaySpeed={3000}
-                    keyBoardControl={true}
-                    customTransition="all .5s"
-                    transitionDuration={500}
-                    containerClass="carousel-container max-[415px]:pt-[40px]"
-                    removeArrowOnDeviceType={["tablet", "mobile"]}
-                    dotListClass="custom-dot-list-style !justify-start flex-wrap"
-                    itemClass="carousel-item-padding-40-px"
-                    partialVisible={true}
-                    arrows={false}
-                    renderButtonGroupOutside={true}
-                    customButtonGroup={
-                        (isMobile && filteredCases.length > 1) || (!isMobile && filteredCases.length > 3)
-                            ? <ButtonGroup />
-                            : null
-                    }
-                    renderDotsOutside={true}
-                    customDot={<CustomDot />}
-                >
-                    {filteredCases.slice(0, 7).map((slide) => (
-                        <div
-                            key={slide.id}
-                            className="flex flex-col sm:basis-1/4 border border-gray-300 hover:border-white sm:mr-6 mb-4 max-[415px]:h-[460px] h-[520px] sm:h-[500px] md:h-[520px] lg:h-[520px] xl:h-[500px] 3xl:h-[550px] 4xl:h-[600px] group">
+            {
+                filteredCases.length > 0 &&
+                <div className="mb-[36px] mx-auto">
+                    <div className="flex flex-col justify-between">
+                        <h2 className="mb-[43px] leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]">{t('latestCaseStudyTitle')}</h2>
+                    </div>
+                    <Carousel
+                        swipeable={true}
+                        draggable={true}
+                        showDots={true}
+                        responsive={responsive}
+                        ssr={true}
+                        infinite={filteredCases.length > 1}
+                        autoPlay={filteredCases.length > 1}
+                        autoPlaySpeed={3000}
+                        keyBoardControl={true}
+                        customTransition="all .5s"
+                        transitionDuration={500}
+                        containerClass="carousel-container max-[415px]:pt-[40px]"
+                        removeArrowOnDeviceType={["tablet", "mobile"]}
+                        dotListClass="custom-dot-list-style !justify-start flex-wrap"
+                        itemClass="carousel-item-padding-40-px"
+                        partialVisible={true}
+                        arrows={false}
+                        renderButtonGroupOutside={true}
+                        customButtonGroup={
+                            (isMobile && filteredCases.length > 1) || (!isMobile && filteredCases.length > 3)
+                                ? <ButtonGroup />
+                                : null
+                        }
+                        renderDotsOutside={true}
+                        customDot={<CustomDot />}
+                    >
+                        {filteredCases.slice(0, 7).map((slide) => (
+                            <div
+                                key={slide.id}
+                                className="flex flex-col sm:basis-1/4 border border-gray-300 hover:border-white sm:mr-6 mb-4 max-[415px]:h-[460px] h-[520px] sm:h-[500px] md:h-[520px] lg:h-[520px] xl:h-[500px] 3xl:h-[550px] 4xl:h-[600px] group">
 
-                            <div className="max-h-[300px]">
-                                <Link href={slide.url}>
-                                    <Image
-                                        src={slide.image}
-                                        alt={slide.title}
-                                        width={0}
-                                        height={0}
-                                        sizes="100vw"
-                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                        priority
-                                        className="cursor-pointer"
-                                    />
-                                </Link>
-                                <div className="inset-0 bg-[#0092E053] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
-                            <div className="flex flex-col text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
-                                <div className="flex flex-col">
-                                    <div className=" leading-tight text-[16px] 4xl:text-[17px]"><span className="text-[#0092E0]">{slide.industry}</span> | {slide.date}</div>
-                                    <Link href={slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.title}</h5></Link>
+                                <div className="max-h-[300px]">
+                                    <Link href={slide.url}>
+                                        <Image
+                                            src={slide.image}
+                                            alt={slide.title}
+                                            width={0}
+                                            height={0}
+                                            sizes="100vw"
+                                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                            priority
+                                            className="cursor-pointer"
+                                        />
+                                    </Link>
+                                    <div className="inset-0 bg-[#0092E053] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                                 </div>
-                                <p className="line-clamp-4 leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.description}</p>
-                            </div>
+                                <div className="flex flex-col text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+                                    <div className="flex flex-col">
+                                        <div className=" leading-tight text-[16px] 4xl:text-[17px]"><span className="text-[#0092E0]">{slide.industry}</span> | {slide.date}</div>
+                                        <Link href={slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.title}</h5></Link>
+                                    </div>
+                                    <p className="line-clamp-4 leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.description}</p>
+                                </div>
 
-                        </div>
-                    ))}
-                </Carousel>
-            </div>
+                            </div>
+                        ))}
+                    </Carousel>
+                </div>
+            }
         </section>
     )
 }

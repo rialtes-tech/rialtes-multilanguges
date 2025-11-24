@@ -359,7 +359,7 @@
   "omnichannelCaseStudy": {
     "bannerAlt": "Primer plano de máquina de precisión trabajando en microchip brillante representando fabricación avanzada de semiconductores",
     "serviceTitle": "Transformación de la Gestión de Casos Omnicanal con Salesforce Service Cloud",
-    "manufacturing": "Manufactura",
+    "caseTopic": "Semiconductor",
     "seoTitle": "Estudio Salesforce Service Cloud: Gestión omnicanal de casos",
     "seoDescription": "Descubre cómo Service Cloud transformó la gestión de casos con automatización, servicio más rápido y soporte mejorado.",
     "clientTitle": "Perfil del Cliente",
@@ -578,7 +578,7 @@
   "autoSenseCaseStudy": {
     "bannerAlt": "Mujer de negocios sonriente con gafas y colega colaborando en computadora portátil en oficina contemporánea",
     "dealerTitle": "Impulsando la Gestión de Concesionarios con AutoSense de Rialtes",
-    "manufacturing": "Manufactura",
+    "caseTopic": "Automotriz",
     "seoTitle": "Revolucionando la gestión de concesionarios con AutoSense",
     "seoDescription": "Descubre cómo Rialtes transformó la gestión de concesionarios con AutoSense: UX moderno, integración SAP y Salesforce y operaciones en tiempo real.",
     "cliendTitle": "Descripción del Cliente:",
@@ -1143,9 +1143,9 @@
       }
     ],
     "bannerAlt": "Neumáticos automotrices moviéndose en una línea de producción en una instalación de fabricación moderna",
-    "seoTitle": "Soluciones SAP ERP Cloud para Automoción | Caso de Estudio",
+    "seoTitle": "Soluciones SAP ERP Cloud para Automotriz | Caso de Estudio",
     "seoDescription": "Este caso de estudio automotriz muestra cómo las soluciones SAP ERP Cloud han impulsado la innovación en O2C y P2P, mejorando la precisión, el control de inventario y la velocidad.",
-    "caseTopic": "Automoción",
+    "caseTopic": "Automotriz",
     "caseTitle": "Transformación de Procesos O2C y P2P con Soluciones SAP ERP Cloud",
     "clientTitle": "Perfil del Cliente",
     "clientDesc": "Nuestro cliente es un fabricante líder de neumáticos, clasificado entre los 25 mejores a nivel mundial y reconocido como una empresa emblemática en el sector automotriz. Conocido por su innovación en tecnología radial, ofrece un amplio portafolio que abarca neumáticos para camiones/autobuses, vehículos comerciales ligeros, autos de pasajeros, maquinaria pesada, vehículos agrícolas y de dos y tres ruedas. También son pioneros en neumáticos de competición y Smart Tyres con avanzados sistemas de monitoreo de presión (TPMS).",

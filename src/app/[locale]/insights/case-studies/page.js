@@ -123,7 +123,7 @@ export default function Page() {
           </div>
           <div className="relative flex sm:flex-row sm:ml-auto h-[60px]">
             <div className="relative">
-              <button className='relative border border-[#707070] sm:w-40 w-36 py-4 px-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
+              <button className='relative border border-[#707070] w-fit py-4 px-6 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
                 <span className="pr-5 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">{selectedIndustry === t('all') ? t('industry') : selectedIndustry}</span>
                 <svg
                   className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'

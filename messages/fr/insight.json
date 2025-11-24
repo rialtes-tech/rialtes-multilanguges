@@ -66,7 +66,7 @@
         "id": "case-study-3",
         "image": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
         "alt": "Transformation des concessionnaires avec système de filtre avancé",
-        "category": "Fabrication",
+        "category": "Automobile",
         "date": "Jun. 03, 2025",
         "title": "Accélérer la gestion des concessionnaires avec AutoSense par Rialtes",
         "description": "Un constructeur automobile mondial renommé, reconnu pour ses véhicules de pointe, a rencontré des défis majeurs avec son ancien portail concessionnaire.",
@@ -905,8 +905,9 @@
       "Santé",
       "Fabrication",
       "Immobilier",
-      "Haute technologie",
-      "Secteur public"
+      "Semi-conducteur",
+      "Secteur public",
+      "Automobile"
     ],
     "slides": [
       {
@@ -942,7 +943,7 @@
       {
         "id": 4,
         "imgSrc": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
-        "category": "Fabrication",
+        "category": "Automobile",
         "date": "Jun. 03, 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
         "title": "Révolution de la gestion des concessionnaires avec AutoSense par Rialtes",
@@ -954,7 +955,7 @@
     "latestCaseStudy": [
       {
         "id": 16,
-        "image": "/images/case-studies/automotive-tire-factory-production-line-mobile.webp",
+        "image": "/images/case-studies/automotive-tire-factory-production-line-feature-thumb.webp",
         "industry": "Automobile",
         "date": "Nov. 19, 2025",
         "url": "/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study/",
@@ -995,7 +996,7 @@
       {
         "id": 12,
         "image": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
-        "industry": "Manufacture",
+        "industry": "Automobile",
         "date": "Jun. 03, 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
         "title": "Révolution de la gestion des concessionnaires avec AutoSense par Rialtes",
@@ -1065,7 +1066,7 @@
       {
         "id": 6,
         "image": "/images/case-studies/advanced-microchip-manufacturing-mobile.webp",
-        "industry": "Manufacture",
+        "industry": "Semi-conducteur",
         "date": "Oct. 14, 2024",
         "url": "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/",
         "title": "Transformation de la gestion omnicanale des cas avec Salesforce Service Cloud",
