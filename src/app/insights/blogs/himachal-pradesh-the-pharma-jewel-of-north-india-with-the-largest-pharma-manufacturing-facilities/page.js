@@ -9,7 +9,83 @@ import BlogSocialIcons from "@/app/components/blogSocialIcons";
 import UnorderedList from "@/app/components/unorderedList";
 import FAQAccordion from "@/app/components/faqAccordion";
 
-const schemaData = {};
+const schemaData = {
+   "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Rise of Himachal in India’s Pharma Industry | Rialtes",
+  "description": "Explore how Himachal Pradesh became a pharma manufacturing leader with SEZs, tax breaks, global supply links, and 600+ certified production units.",
+  "image": "https://www.rialtes.com/images/blog/Pharma%20Jewel%20of%20North%20India_Blog%20banner.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/"
+  },
+  "datePublished": "2025-07-01",
+  "dateModified": "2025-11-21",
+  "keywords": "Himachal Pradesh pharma industry, pharma manufacturing, contract manufacturing, pharmaceuticals India",
+  "articleSection": [
+    "Pharmaceutical Manufacturing",
+    "Industrial Policy",
+    "Regional Clusters",
+    "Export & Supply Chain"
+  ],
+  "wordCount": 940,
+  "articleBody": "This article explains how Himachal Pradesh transformed into a major pharmaceutical manufacturing hub in North India through policy incentives, industrial clusters (Baddi, Nalagarh, Paonta Sahib), SEZ support, competitive infrastructure, and a skilled workforce. It covers market size and growth, government schemes (Special Industrial Package 2003, Industrial Development Scheme 2018), CETPs and corridors, proximity to research institutes (IIT Mandi, IIM Sirmaur), and the state's role in domestic and global pharma supply chains.",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many pharma manufacturing units are there in Himachal Pradesh?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "More than 600 units operate across the state, spanning formulations, APIs, and contract manufacturing facilities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is Baddi called the pharma hub of India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Baddi hosts the highest concentration of pharma units in the region, benefits from SEZ and export-friendly policies, strong logistics and ancillary services, and a steady supply of skilled workers — making it a preferred third-party manufacturing hub."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Himachal Pradesh offer tax benefits for pharma companies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The state has offered incentives including income-tax holidays, excise duty exemptions, capital subsidies, and targeted incentives under state industrial schemes and SEZ benefits that reduce upfront and operating costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What percentage of India’s pharma output comes from Himachal Pradesh?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The article reports that approximately 35 percent of India's total pharmaceutical production originates from Himachal Pradesh, driven by its high concentration of manufacturing units and contract manufacturers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do multinational companies invest in Himachal Pradesh?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Multinationals invest for predictable governance, low operational costs, export-capable SEZs, reliable utilities and CETPs, faster approvals, and a skilled workforce — all of which support high-quality, GMP-compliant manufacturing at scale."
+      }
+    }
+  ]
+
+};
 const blogMainData = [
   "India has become a global force in pharmaceuticals. It delivers 20 percent of the world’s generic supplies, meets 40 percent of the US generic demand, and contributes 25 percent of all medicines used in the UK. Behind this rise sits a network of fast-growing manufacturing hubs, and one of the strongest in North India is Himachal Pradesh.",
   "It has long been a significant contributor to tourism and economic development in India. The state is known for its investor-friendly environment and is emerging as a preferred investment destination in Northern India due to its supportive policies, strong industrial infrastructure, and high Ease of Doing Business ranking. We want to break down why this mountainous state has quietly turned into one of the biggest pharma manufacturing powerhouses in Asia.",
