@@ -136,6 +136,7 @@
     "SubTitle": "Habla con nuestros expertos en SAP Data Cloud hoy y comienza tu viaje con Rialtes."
   },
   "salesforceDataCloud": {
+    "schemaData":{},
     "headerTitle": "Nube de Datos",
     "seoTitle": "Implementación y Consultoría de Salesforce Data Cloud | Rialtes",
     "seoDescription": "Rialtes impulsa tu negocio con consultoría experta en Salesforce Data Cloud para crecer, mejorar decisiones, innovar y lograr resultados sólidos.",
@@ -230,6 +231,7 @@
     ]
   },
   "datasphere": {
+    "schemaData":{},
     "headerTitle": "SAP Datasphere",
     "bannerAlt": "Onda digital abstracta con red de malla fluida y partículas brillantes sobre fondo tecnológico azul",
     "seoTitle": "Implementación de SAP Datasphere con Servicios de Consultoría en IA | Rialtes",
@@ -615,6 +617,7 @@
     "contactTitle": "Da el siguiente paso hacia la excelencia operativa con nosotros."
   },
   "sapConsulting": {
+    "schemaData":{},
     "headerTitle": "Consultoría SAP",
     "seoTitle": "Servicios de Consultoría SAP y Socio de Implementación | Rialtes",
     "seoDescription": "Rialtes, socio SAP de confianza para implementaciones con IA, integraciones más inteligentes y éxito SAP a largo plazo.",
@@ -695,6 +698,7 @@
     "riseWithSapNavigationAlt": "Gráfico de navegación que destaca experiencia Gold Partner en soluciones RISE"
   },
   "oracle": {
+    "schemaData":{},
     "bannerAlt": "Banner que muestra los servicios de consultoría Oracle EBS de Rialtes para la modernización empresarial",
     "ebsimageAlt": "Visual que destaca la solución EBSPlus de Rialtes que integra Oracle EBS con Kinaxis para mayor agilidad",
     "deepexpertiseAlt": "Imagen que representa la experiencia certificada de Rialtes en Oracle EBS y OCI para eficiencia empresarial",
@@ -896,6 +900,7 @@
     "contactTitle": "¿Listo para modernizar Oracle EBS en tu negocio?"
   },
   "sapCpi": {
+    "schemaData":{},
     "bannerAlt": "Formación de nubes digitales sobre paisaje urbano iluminado mostrando servicios de integración cloud SAP conectados",
     "leaderAlt": "Túnel digital futurista con rastros de luz ilustrando integración como columna vertebral de transformación digital",
     "connectAlt": "Mano sosteniendo una bombilla con una red de iconos conectados, simbolizando innovación, flujo de datos y transformación digital",
@@ -1140,6 +1145,7 @@
     "contactSubTitle2": "Contáctanos hoy para una consulta gratuita y descubre cómo podemos potenciar tu empresa conectada."
   },
   "uiPath": {
+    "schemaData":{},
     "bannerAlt": "Placa de circuito digital abstracta con caminos azules brillantes y nodos de datos coloridos representando servicios UiPath",
     "uiAlt": "Logo UiPath Agentic Automation con texto negro y acento naranja representando plataforma de automatización robótica inteligente",
     "rpaAlt": "Mano sosteniendo red digital brillante con nodos conectados cian y rojos representando innovación de IA y datos digitales",
@@ -1468,6 +1474,7 @@
     "ContactSubTitleOne": "Programa una consulta gratuita de Tosca, reserva una demostración o contacta con nuestros expertos. Por favor, completa el siguiente formulario."
   },
   "mulesoft": {
+    "schemaData":{},
     "bannerAlt": "Ciudad digital con líneas de red que muestran la integración de MuleSoft como socio de Salesforce.",
     "partnerAlt": "Logo insignia Salesforce Partner mostrado contra horizonte urbano iluminado demostrando asociación tecnológica",
     "robustAlt": "Horizonte urbano al atardecer con luces que muestran la transformación digital y soluciones de integración.",
@@ -1567,6 +1574,7 @@
     "integrationDesc": "Nuestros expertos ofrecen una amplia gama de servicios de MuleSoft que comparten su visión y valores."
   },
   "salesForceConsulting": {
+    "schemaData":{},
     "consultingTitle": "Servicios de Consultoría de Salesforce",
     "bannerAltText": "Un paisaje digital futurista de fondo con el texto “Transforma cómo interactúas con tus clientes”, representando los servicios de consultoría de Salesforce y compromiso con el cliente. ",
     "seoTitle": "Consultoría, Implementación e Integración Salesforce | Rialtes",
@@ -1744,6 +1752,7 @@
     "insights": "Perspectivas"
   },
   "revenueCloud": {
+    "schemaData":{},
     "infographicAlt": "Infografía que ilustra el flujo de procesos de Salesforce Revenue Cloud desde la cotización hasta el cobro",
     "sapPartnerLogoAlt": "Insignia oficial de Socio SAP que representa experiencia certificada en implementación",
     "revenueCloudImg": "/images/revenue-cloud/revenue-cloud-infographic-spanish.webp",

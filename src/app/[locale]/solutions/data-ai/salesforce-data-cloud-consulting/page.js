@@ -11,94 +11,11 @@ import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Salesforce Data Cloud Consulting Services",
-  "url": "https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/",
-  "description": "Rialtes provides Salesforce Data Cloud Consulting services to help businesses unify data, drive real-time personalization, and activate AI-powered insights across marketing, commerce, and operations.",
-  "inLanguage": "en",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "mainEntity": {
-    "@type": "Service",
-    "name": "Salesforce Data Cloud Consulting",
-    "serviceType": "Customer 360 Integration, AI Activation, Real-Time Personalization",
-    "provider": {
-      "@type": "Organization",
-      "name": "Rialtes",
-      "url": "https://www.rialtes.com"
-    },
-    "areaServed": [
-      { "@type": "Country", "name": "United States" },
-      { "@type": "Country", "name": "Canada" },
-      { "@type": "Country", "name": "India" },
-      { "@type": "Country", "name": "Singapore" }
-    ],
-    "audience": {
-      "@type": "Audience",
-      "audienceType": "CMOs, CIOs, Marketing Leaders, CRM Architects, Data Platform Owners"
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Salesforce Data Cloud Services by Rialtes",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Salesforce Data Cloud Implementation",
-            "description": "Infrastructure setup, source configuration, and activation of real-time data orchestration features in Salesforce Data Cloud."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Data Cloud Consulting",
-            "description": "Tailored advisory services to help organizations architect personalized, privacy-compliant, and AI-powered data ecosystems."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Salesforce Data Cloud Migration",
-            "description": "Seamless and secure migration from legacy data platforms to Salesforce Data Cloud with minimal disruption."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Managed Cloud Services",
-            "description": "Ongoing performance monitoring, governance, and optimization of public, private, and hybrid Salesforce Cloud environments."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Private Cloud Services",
-            "description": "Deploy isolated private cloud infrastructure for enhanced compliance, control, and security of sensitive data workloads."
-          }
-        }
-      ]
-    }
-  }
-}
 export default function DataCloud() {
   const t = useTranslations('salesforceDataCloud')
   const locale = useLocale();
   const cloudContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { featureBoxes, stats, services } = cloudContent.salesforceDataCloud;
+  const { featureBoxes, stats, services,schemaData } = cloudContent.salesforceDataCloud;
   const [hoveredBlog, setHoveredBlog] = useState(null);
   const handleMouseEnter = (blogName) => {
     return () => {

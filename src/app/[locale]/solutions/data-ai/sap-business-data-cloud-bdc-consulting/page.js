@@ -12,64 +12,12 @@ import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  name: "SAP Business Data Cloud: End Data Chaos Today",
-  url: "https://www.rialtes.com/solutions/data-ai/sap-business-data-cloud-bdc-consulting",
-  headline: "SAP Business Data Cloud: End Data Chaos Today",
-  description:
-    "SAP Business Data Cloud turns chaos into clarity with a single source of truth. Make smarter decisions with Rialtes. Start your data journey today.",
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  mainEntity: {
-    "@type": "Product",
-    name: "SAP Business Data Cloud Services",
-    brand: {
-      "@type": "Brand",
-      name: "SAP",
-    },
-    description:
-      "Rialtes helps you implement SAP Business Data Cloud for unified data management, migration from BW/Datasphere, Databricks integration, and intelligent data fabric design.",
-    offers: {
-      "@type": "Offer",
-      price: "Contact for pricing",
-      priceCurrency: "USD",
-      url: "https://www.rialtes.com/contact-us",
-    },
-  },
-  about: [
-    {
-      "@type": "Thing",
-      name: "Data Fabric",
-    },
-    {
-      "@type": "Thing",
-      name: "SAP Integration",
-    },
-    {
-      "@type": "Thing",
-      name: "Enterprise Data Management",
-    },
-    {
-      "@type": "Thing",
-      name: "Cloud Data Strategy",
-    },
-  ],
-};
 
 export default function Page() {
   const t = useTranslations("sapBdc");
   const locale = useLocale();
   const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { listItems, fabricList, dataItems, partnerList, exploreData, migrateData, connectSapData, ourSapData, whyClientsData } = homepageContent.sapBdc;
+  const { listItems, fabricList, dataItems,schemaData, partnerList, exploreData, migrateData, connectSapData, ourSapData, whyClientsData } = homepageContent.sapBdc;
 
   return (
     <div className="min-h-screen bg-white">

@@ -11,88 +11,12 @@ import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import Script from "next/script";
 
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "SAP ARIBA Implementation Services",
-    "alternateName": "SAPBuyPlus by Rialtes",
-    "url": "https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/",
-    "image": "https://www.rialtes.com/images/sap-buy/sap-buy-banner.webp",
-    "description": "Rialtes SAPBuy+ helps enterprises transform procurement with SAP ARIBA through advisory, implementation, integration, and optimization services. Streamline procure-to-pay operations, enhance supplier collaboration, and maximize ROI with SAPBuy+.",
-    "provider": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com",
-        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
-        "sameAs": [
-            "https://www.linkedin.com/company/rialtes-technologies-llc/",
-            "https://www.youtube.com/@rialtes"
-        ]
-    },
-    "areaServed": [
-        { "@type": "Country", "name": "United States" },
-        { "@type": "Country", "name": "Canada" },
-        { "@type": "Country", "name": "India" },
-        { "@type": "Country", "name": "Singapore" }
-    ],
-    "serviceType": "SAP ARIBA Implementation, Integration & Migration",
-    "audience": {
-        "@type": "Audience",
-        "audienceType": [
-            "CIOs",
-            "Procurement Heads",
-            "IT Directors",
-            "Operations Managers"
-        ]
-    },
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "SAPBuy+ Service Suite",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "SAP ARIBA License Advisory"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Implementation & Design with SAP Signavio and Activate"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Quality Assurance & Governance"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "System Integration with SAP S/4HANA, SuccessFactors, and Non-SAP Tools"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Post Go-Live Support and Supplier Onboarding"
-                }
-            }
-        ]
-    }
-}
 export default function page() {
     const t = useTranslations('sapBuyPlus')
     const locale = useLocale();
     const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { whyChooseData, benefitsData, migrationData, sapAribaIndirectData, sapAribaDirectData, sapAribaData, supplierAribaDirectData, contractData,
-        exploreData, seamlessData, buyingData, agentData
+        exploreData, seamlessData, buyingData, agentData,schemaData
     } = homepageContent.sapBuyPlus;
 
     const WhyChooseRialtes = () => {
