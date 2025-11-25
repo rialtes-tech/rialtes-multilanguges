@@ -248,8 +248,7 @@ export default function page({ url }) {
                     renderButtonGroupOutside={true}
                     customButtonGroup={<ButtonGroup />}
                     renderDotsOutside={true}
-                    customDot={<CustomDot />}
-                >
+                    customDot={<CustomDot />}>
                     {filteredBlogs.map((slide) => (
                         <div key={slide.id} className="flex flex-col sm:basis-1/4 border border-gray-300 hover:border-white sm:mr-6 mb-4 sm:h-[580px] md:h-full h-full lg:h-[580px] xl:h-[550px] 4xl:h-[600px] group">
 
