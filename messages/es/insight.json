@@ -210,6 +210,16 @@
     ],
     "latestBlogs": [
       {
+  "id": 58,
+  "image": "/images/blog/digital-medical-hologram-feature-thumb.webp",
+  "category": "MediAIna",
+  "industry": "Ciencias de la vida",
+  "date": "25 Nov. 2025",
+  "url": "/how-digital-innovation-transforms-clinical-trial-management/",
+  "title": "Cómo la innovación digital está transformando la gestión de los ensayos clínicos",
+  "description": "Los ensayos clínicos siempre han sido el núcleo del progreso médico. Pero aquí está la verdad: los ensayos tradicionales suelen ser lentos, costosos y desconectados del mundo digital en el que ahora viven los pacientes."
+},
+      {
         "id": 56,
         "image": "/images/blog/digital-touchscreen-technology-mobile.webp",
         "category": "MediAIna",
