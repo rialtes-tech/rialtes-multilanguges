@@ -210,9 +210,9 @@ export default function Page() {
                                         {
                                             data.data.map((data, ind) => {
                                                 return (
-                                                    <div className="md:flex mt-24 md:mt-10 py-[34px] md:py-[60px] 4xl:py-[50px] px-[26px] md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto xl:w-[1000px] 4xl:w-[1150px]" key={ind}>
-                                                        <h3 className={`md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[250px] xl:w-[240px] md:w-[240px] w-fit md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] px-[30px] py-[22px] leading-tight lg:h-[100px]`}><span className={`${(ind == 3 || ind == 2) ? "xl:w-[90%] xl:block" : ""}`}>{data.title}</span></h3>
-                                                        <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[180px] xl:ml-[180px] 4xl:ml-[190px]" dangerouslySetInnerHTML={{ __html: data.desc }} />
+                                                    <div className="md:flex mt-24 md:mt-[26px] py-[34px] md:py-[45px] 4xl:py-[50px] px-[26px] md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto xl:w-[1000px] 4xl:w-[1150px]" key={ind}>
+                                                        <h3 className={`md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[250px] xl:w-[240px] md:w-[240px] w-fit md:left-[-60px] bg-[#006FBE] text-white font-semibold 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[20px] text-[20px] px-[30px] py-[22px] leading-tight xl:h-[90px] 4xl:h-[100px]`}><span className={`${(ind == 3 || ind == 2) ? "xl:w-[90%] xl:block" : ""}`}>{data.title}</span></h3>
+                                                        <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[180px] xl:ml-[180px] 4xl:ml-[200px]" dangerouslySetInnerHTML={{ __html: data.desc }} />
                                                     </div>
 
                                                 )
@@ -256,7 +256,7 @@ export default function Page() {
                                                 data.list.map((data, ind) => {
                                                     return (
                                                         <div key={ind} className={`mt-5 ${(ind == 1 || ind == 2 || ind == 3) ? "lg:px-[30px] border-[#707070] lg:border-l max-lg:border-b max-lg:pb-5 max-lg:last:border-0" : ""} ${ind == 0 ? "lg:pr-[40px] 4xl:pr-0 md:border-b lg:border-0 border-[#707070] max-md:border-b max-lg:pb-5" : ""} ${(ind == 1) ? "pb-4 md:border-b lg:border-0" : ""} ${(ind == 2) ? "md:border-b-0" : ""}`}>
-                                                            <h3 className={`4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold ${ind == 0 && "w-[90%]"}`}>{data.title}</h3>
+                                                            <h3 className={`4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[20px] text-[20px] font-bold ${ind == 0 && "w-[90%]"}`}>{data.title}</h3>
                                                             <p className="md:mt-5 mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] 4xl:w-[84%]">{data.desc}</p>
                                                         </div>
                                                     )
