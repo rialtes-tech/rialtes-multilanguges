@@ -270,7 +270,7 @@ export default function page({ url, currTopic }) {
                             key={slide.id}
                             className="flex flex-col sm:basis-1/4 border border-[#707070] sm:mr-6 mb-4 max-[415px]:h-[460px] h-[520px] sm:h-[500px] md:h-[520px] lg:h-[520px] xl:h-[500px] 3xl:h-[550px] 4xl:h-[600px] group">
 
-                            <div className="max-h-[300px]">
+                            <div className="max-md:h-[220px] max-h-[300px]">
                                 <Link href={slide.url}>
                                     <Image
                                         src={slide.image}
