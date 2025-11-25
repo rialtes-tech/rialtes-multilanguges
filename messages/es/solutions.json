@@ -387,6 +387,9 @@
     "globalPresenceTitle": "Presencia global, experiencia certificada, excelencia ágil"
   },
   "agentForce": {
+    "schemaData":{
+
+    },
     "bannerAlt": "Banner de escritorio que muestra la plataforma Agentforce AI con interfaz digital moderna",
     "manageCustomerAlt": "Panel de IA que muestra información inteligente para gestión de clientes",
     "leaverageCuttingAlt": "Vista de escritorio de Agentforce que impulsa flujos digitales automatizados",
