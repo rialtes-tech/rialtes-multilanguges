@@ -224,24 +224,26 @@ export default function Page() {
                             }
 
                             {/* common data */}
-                            {
-                                commonData.map((data, ind) => (
-                                    <div className="md:mt-[50px] mt-[40px]" key={ind}>
-                                        <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{ind + 1}. {data.title}</h2>
-                                        <UnorderedList arrName={data.desc} ulClassName="mt-[29px] xl:mt-[30px] space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
-                                        <UnorderedList arrName={data.desc} ulClassName="mt-5 space-y-3 pl-[26px] lg:pl-[36px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-disc" />
-                                        <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
-                                            dangerouslySetInnerHTML={{ __html: data.desc2 }}
-                                        />
-                                        {
-                                            data.desc3 && <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
-                                                dangerouslySetInnerHTML={{ __html: data.desc3 }}
+                            <div className="md:mt-[50px] mt-[40px]">
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">How AI Solves the Patient Enrolment Challenge in Rare Disease Clinical Trials</h2>
+                                {
+                                    commonData.map((data, ind) => (
+                                        <div key={ind}>
+                                            <h3 className="mt-10 font-semibold text-[#0092E0] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight">{ind + 1}. {data.title}</h3>
+                                            <UnorderedList arrName={data.desc} ulClassName="mt-[29px] xl:mt-[30px] md:pl-[20px] space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
+                                            <UnorderedList arrName={data.list} ulClassName="mt-5 space-y-2 pl-[26px] lg:pl-[46px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-disc" />
+                                            <p className="mt-[29px] xl:mt-[30px]  md:pl-[20px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                dangerouslySetInnerHTML={{ __html: data.desc2 }}
                                             />
-                                        }
-                                    </div>
-                                ))
-                            }
-
+                                            {
+                                                data.desc3 && <p className="mt-[29px] xl:mt-[30px]  md:pl-[20px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                    dangerouslySetInnerHTML={{ __html: data.desc3 }}
+                                                />
+                                            }
+                                        </div>
+                                    ))
+                                }
+                            </div>
 
                             {/* mediaina section */}
                             {
@@ -249,7 +251,7 @@ export default function Page() {
                                     <div className="md:mt-[50px] mt-[40px]" key={ind}>
                                         <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                         <UnorderedList arrName={data.desc} ulClassName="mt-[29px] xl:mt-[30px] space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
-                                        <div className="grid lg:grid-cols-4 lg:gap-y-[60px] md:grid-cols-2 grid-cols-1 mt-[28px] md:gap-x-[60px] lg:gap-0 sm:w-[80%] md:w-full 4xl:w-[1300px]">
+                                        <div className="grid lg:grid-cols-4 lg:gap-y-[60px] md:grid-cols-2 grid-cols-1 mt-[28px] md:gap-x-[60px] lg:gap-0 sm:w-[80%] md:w-full xl:w-[1000px] 4xl:w-[1300px]">
                                             {
                                                 data.list.map((data, ind) => {
                                                     return (
@@ -324,6 +326,6 @@ export default function Page() {
             <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
                 <FilteredBlogCarousel url={currUrl} />
             </section>
-        </section>
+        </section >
     )
 }

@@ -12,114 +12,12 @@ import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "../../../components/changeLocalization.js";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Salesforce Agentforce Consulting",
-    "name": "Agentforce Consulting Services | Rialtes",
-    "url": "https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
-    },
-    "provider": {
-        "@type": "Organization",
-        "name": "Rialtes Technologies",
-        "url": "https://www.rialtes.com",
-        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
-        "sameAs": [
-            "https://www.linkedin.com/company/rialtes-technologies-llc",
-            "https://x.com/rialtestech",
-            "https://www.instagram.com/rialtes_technologies/"
-        ]
-    },
-    "areaServed": [
-        { "@type": "Country", "name": "United States" },
-        { "@type": "Country", "name": "Canada" },
-        { "@type": "Country", "name": "Singapore" },
-        { "@type": "Country", "name": "India" }
-    ],
-    "description": "Rialtes' Agentforce Consulting services accelerate adoption of Salesforce Agentforce and conversational AI across Sales, Service, Marketing and Industry Clouds. We deliver rapid AI-readiness assessments, low-code Agent Builder implementations, Einstein GPT automation, AgentChat (WhatsApp + Salesforce) integrations, governance and monitoring, pre-built industry actions, and managed services to drive measurable customer success.",
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Agentforce Consulting Offerings",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "AI-Readiness Assessment",
-                    "description": "Rapid, industry-tailored assessments to define Agentforce use cases, data readiness, guardrails and ROI targets."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Agentforce Implementation & Agent Builder",
-                    "description": "Low-code Agent Builder implementations including Prompt Builder, Model Builder and Atlas reasoning-engine integration."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Conversational AI & Einstein GPT Automation",
-                    "description": "Deploy conversational agents and Einstein GPT automations for sales, service and field teams to automate routine tasks."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "AgentChat — WhatsApp for Salesforce",
-                    "description": "WhatsApp messaging embedded inside Salesforce with auto-responses, case creation, AI chatbots and marketing notifications."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Governance, Monitoring & Performance Intelligence",
-                    "description": "Enterprise-grade governance, real-time agent monitoring, performance benchmarking and compliance controls for Agentforce 3.0."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Industry Actions & Pre-built Bots",
-                    "description": "Pre-built industry actions (patient scheduling, claims processing, proposal generation, service scheduling) for accelerated time-to-value."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Managed Services & Ongoing Enablement",
-                    "description": "End-to-end managed services including onboarding workshops, user enablement, monitoring and continuous optimization."
-                }
-            }
-        ]
-    },
-    "audience": {
-        "@type": "Audience",
-        "audienceType": [
-            "CIO",
-            "CTO",
-            "CMO",
-            "Head of Customer Experience",
-            "IT Head"
-        ]
-    }
-}
-
 
 export default function page() {
     const t = useTranslations("agentForce");
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { managecustomerList, features, exampleOfActionList, flexiblePricingList, items, salesforceAgentplusList, agentchatList, slides } = content.agentForce;
+    const { managecustomerList, features, exampleOfActionList,schemaData, flexiblePricingList, items, salesforceAgentplusList, agentchatList, slides } = content.agentForce;
 
     const AIBusinessBanner = () => {
 
@@ -158,7 +56,14 @@ export default function page() {
                     <img
                         src="/images/salesforce-consulting-services/leaverage-cutting-desktop.webp" // Replace with your actual image path
                         alt={t('leaverageCuttingAlt')}
-                        className="absolute inset-0  z-0 w-full 4xl:h-[1029px] 2xl:h-[913px] xl:h-[933px]"
+                        className={`}
+                                  ${locale === "es"
+                                ? "absolute inset-0  z-0 w-full 4xl:h-[1104px] 2xl:h-[972px] xl:h-[1011px]"
+                                : locale === "fr"
+                                    ? "absolute inset-0  z-0 w-full 4xl:h-[1134px] 2xl:h-[998px] xl:h-[985px]"
+                                    : "absolute inset-0  z-0 w-full 4xl:h-[1029px] 2xl:h-[913px] xl:h-[933px]"
+                            }`}
+
                     />
                 </div>
                 <div className="block xl:hidden">
@@ -262,7 +167,7 @@ export default function page() {
                             {t('prebuildTitle')}
                         </h2>
 
-                        <p className="4xl:text-[40px] 2xl:text-[36px] xl:text-[25px] text-[24px] font-semibold mb-8 leading-tight xl:pr-28">
+                        <p className="4xl:text-[40px] 2xl:text-[36px] xl:text-[25px] text-[24px] font-semibold mb-8 leading-tight xl:pr-28 mt-5">
                             {t('prebuildDesc')}
                         </p>
                         <div className="flex gap-10 xl:flex-row md:flex-row flex-col">
@@ -519,8 +424,9 @@ export default function page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
-            />            <Script
+                canonical={`https://www.rialtes.com/${locale}/solutions/artificial-intelligence/salesforce-agentforce-consulting/`}
+            />
+            <Script
                 id="schema-sap-buy-plus"
                 type="application/ld+json"
                 strategy="afterInteractive"

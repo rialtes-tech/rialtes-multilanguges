@@ -1,5 +1,6 @@
 {
     "sapBuyPlus": {
+        "schemaData":{},
         "headerTitle": "SAPBuy+",
         "whyChooseAlt": "que destaca los servicios de implementación SAPBuy+ ARIBA de Rialtes con dos profesionales revisando documentos",
         "agentchatAlt": "Captura de RialChat en WhatsApp que permite aprobaciones rápidas de compras ",
@@ -202,6 +203,7 @@
         "keyFeatureTitle": "Características Clave de AgentChat para Usuarios SAP ARIBA"
     },
     "successPlus": {
+        "schemaData":{},
         "sapSuccessfacorAlt": "Logo de SAP SuccessFactors con texto azul y corazón amarillo que simboliza HR centrado en personas",
         "agentchatAlt": "Interfaz de AgentChat que ofrece soporte HR automatizado y comunicación con empleados",
         "extendAlt": "Ilustración mostrando capacidades ampliadas de SuccessFactors con complementos SuccessPlus",
@@ -405,6 +407,7 @@
         ]
     },
     "kinaxis": {
+        "schemaData":{},
         "headerTitle": "DemandPlus",
         "seoTitle": "Kinaxis RapidResponse para SCM Ágil con Rialtes DemandPlus",
         "seoDescription": "Reimagina cadenas de suministro resilientes con Kinaxis RapidResponse y DemandPlus de Rialtes—soluciones SCM inteligentes para agilidad, velocidad y precisión.",
@@ -1627,31 +1630,31 @@
         "retailVerticals": [
             {
                 "title": "Fashion & Apparel",
-                "alt": "Ícono de línea azul que muestra una camiseta doblada y un bolso de mano que representan la categoría de ropa y accesorios sobre fondo gris",
+                "alt": "Ícono de línea azul que muestra una camiseta doblada y un bolso representando la categoría de ropa y accesorios",
                 "icon": "/images/industry/retail/clothing-accessories-shopping-bag-icon.svg",
                 "paddingClass": "xl:pr-20"
             },
             {
                 "title": "Consumer Electronics",
-                "alt": "Ícono de línea azul que representa una lavadora, una licuadora y un microondas que simbolizan la categoría de electrodomésticos y electrónica",
+                "alt": "Ícono de línea azul representando una lavadora, una licuadora y un microondas simbolizando electrodomésticos",
                 "icon": "/images/industry/retail/home-appliances-electronics-category-icon.svg",
                 "paddingClass": "xl:pr-20"
             },
             {
                 "title": "Home & Furniture",
-                "alt": "Ícono de línea azul que muestra un armario, un sillón y una mesa auxiliar que representan la categoría de muebles y decoración del hogar",
+                "alt": "Ícono de línea azul mostrando un armario, un sillón y una mesa auxiliar representando la categoría de muebles",
                 "icon": "/images/industry/retail/furniture-home-decor-category-icon.svg",
                 "paddingClass": "xl:pr-20"
             },
             {
                 "title": "Luxury Goods & Lifestyle",
-                "alt": "Ícono de línea azul que muestra un diamante en una caja de regalo con estrellas que representa la categoría de joyería, artículos de lujo y regalos",
+                "alt": "Ícono de línea azul mostrando un diamante en una caja de regalo con estrellas representando joyería y artículos de lujo",
                 "icon": "/images/industry/retail/jewelry-luxury-gifts-category-icon.svg",
                 "paddingClass": "xl:pr-40"
             },
             {
                 "title": "Food & Beverage",
-                "alt": "Ícono de línea azul que muestra una hamburguesa, una taza de café y una bolsa para llevar que representan la categoría de alimentos, bebidas y restaurantes",
+                "alt": "Ícono de línea azul mostrando una hamburguesa, una taza de café y una bolsa representando alimentos, bebidas y restaurantes",
                 "icon": "/images/industry/retail/food-beverage-restaurant-category-icon.svg",
                 "paddingClass": "xl:pr-24"
             },
@@ -1663,7 +1666,7 @@
             },
             {
                 "title": "Travel Retail and Duty-Free",
-                "alt": "Ícono de línea azul que muestra un frasco de perfume, una bolsa de compras y un frasco cosmético que representan la categoría de belleza y cosméticos",
+                "alt": "Ícono de línea azul mostrando un frasco de perfume, una bolsa de compras y un frasco cosmético representando belleza",
                 "icon": "/images/industry/retail/beauty-cosmetics-perfume-category-icon.svg",
                 "paddingClass": "xl:pr-12"
             }
@@ -1695,13 +1698,13 @@
             "Soporta delegación de casos, leads, órdenes de trabajo, solicitudes de servicio y más por tipo de registro y unidad de negocio.",
             "Totalmente integrado con flujos de trabajo y automatización de Salesforce para conversaciones inteligentes en tiempo real."
         ],
-        "whyAlt": "Profesional analizando gráficos de datos financieros y hojas de cálculo en monitores duales de computadora en oficina moderna con plantas cerca",
-        "realchatAlt": "Mujer sonriente con suéter amarillo brillante y aretes rosas usando smartphone mientras sostiene taza de café para llevar sobre fondo azul",
-        "aiAlt": "Carrito de compras rodeado de estelas de luz digital azul y naranja dinámicas representando comercio electrónico rápido y retail digital",
-        "exelonaAlt": "Pareja sonriente con delantales azules a juego parada en la entrada de su restaurante con brazos cruzados dando la bienvenida a clientes",
+        "whyAlt": "Profesional analizando gráficos de datos financieros y hojas de cálculo en monitores duales de computadora en oficina moderna",
+        "realchatAlt": "Mujer sonriente con suéter amarillo brillante y aretes rosas usando smartphone mientras sostiene taza de café para llevar",
+        "aiAlt": "Carrito de compras rodeado de estelas de luz digital azul y naranja dinámicas representando comercio electrónico rápido",
+        "exelonaAlt": "Pareja sonriente con delantales azules a juego parada en la entrada de su restaurante con brazos cruzados dando bienvenida",
         "salesforceAlt": "Trabajadora de almacén con polo azul revisando cajas de inventario con tableta digital en pasillo de centro de distribución",
-        "comprehensiveAlt": "Dos mujeres emprendedoras trabajando en portátil en tienda de cerámica con productos cerámicos exhibidos en estantes de madera al fondo",
-        "headerAlt": "Mujer usando smartphone en pasillo de supermercado con superposición de red digital representando compras conectadas y tecnología de retail inteligente",
+        "comprehensiveAlt": "Dos mujeres emprendedoras trabajando en portátil en tienda de cerámica con productos cerámicos exhibidos en estantes",
+        "headerAlt": "Mujer usando smartphone en pasillo de supermercado con superposición de red digital representando compras conectadas",
         "headerTitle": "Retail+",
         "seoTitle": "Servicios de Consultoría de Negocios Retail y Soluciones Omnicanal | Rialtes",
         "seoDescription": "Retail+ de Rialtes ofrece consultoría experta en negocios retail y soluciones omnicanal con IA. Comienza tu transformación retail hoy.",

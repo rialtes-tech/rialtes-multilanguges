@@ -12,103 +12,10 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 
 export default function page() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "SAP Cloud Platform Integration Services",
-        "url": "https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting",
-        "description": "Smarter cloud integration with SAP CPI. Empower enterprise agility, drive innovation, and unlock speed with AI-powered automation and real-time insights.",
-        "provider": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "url": "https://www.rialtes.com",
-            "logo": "https://www.rialtes.com/images/homepage/logo.svg",
-            "sameAs": [
-                "https://www.linkedin.com/company/rialtes-technologies-llc",
-                "https://x.com/Rialtestech",
-                "https://www.youtube.com/@rialtes"
-            ]
-        },
-        "areaServed": [
-            { "@type": "Country", "name": "United States" },
-            { "@type": "Country", "name": "Canada" },
-            { "@type": "Country", "name": "Singapore" },
-            { "@type": "Country", "name": "India" },
-            { "@type": "Continent", "name": "Europe" }
-        ],
-        "serviceType": "SAP CPI Integration, Cloud Integration, SAP to Non-SAP Integration",
-        "category": "SAP Cloud Integration",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "SAP CPI Services Catalog",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Integration Strategy, Advisory & Architecture" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "SAP CPI Implementation & Deployment" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Pre-built Accelerators & Industry Connectors" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Quality Assurance & Compliance Testing" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Post-Go-Live Support & Monitoring" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "SAP Ariba Cloud Integration" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "SAP S/4HANA Cloud Integration" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "SAP SuccessFactors Cloud Integration" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Salesforce SAP CPI Integration" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Oracle & Workday Integrations via SAP CPI" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Data Visualization & Insights with Tableau" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Production & Demand Planning with Mulesoft + SAP CPI" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Kinaxis RapidResponse Integration with SAP" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "AI-Powered SAP CPI Workflows & Automation" }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": { "@type": "Service", "name": "Agile Delivery with SCRUM-Certified Project Managers" }
-                }
-            ]
-        }
-    }
     const t = useTranslations('sapCpi')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { thoughtLeadershipData, endToEndData, specializedData, integrationData, commonSectionsData, whyRialtesData, } = content.sapCpi;
+    const { thoughtLeadershipData, endToEndData, specializedData, integrationData, commonSectionsData, whyRialtesData,schemaData } = content.sapCpi;
     return (
         <section className="min-h-screen">
             <Seo

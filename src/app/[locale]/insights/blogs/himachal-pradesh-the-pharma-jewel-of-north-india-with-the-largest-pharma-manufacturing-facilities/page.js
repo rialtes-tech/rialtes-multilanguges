@@ -12,6 +12,7 @@ import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 import useUrl from "@/app/[locale]/components/useUrl";
 
 const schemaData = {};
@@ -27,12 +28,14 @@ export default function Page() {
     fr: frContent,
   });
   const {
-    blogMainData,
-    pharmaData,
-    economicData,
-    economicData2,
-    economicData3,
-    hmData,
+  blogMainData,
+   faqData,
+   supplyData,
+   manufacturersData,
+   incentivesData,
+   marketSizeData,
+   riseData,
+   quickAnswer
   } = content.himachalBlog;
   return (
     <div className="min-h-screen bg-white">
@@ -105,108 +108,162 @@ export default function Page() {
                   className="xl:w-full h-full w-full relative xl:right-[64px] lg:right-[55px]  md:w-[80%]"
                 />
               </div>
+               {/* Quick Answer */}
               <div className="md:mt-[50px] mt-[40px]">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                  {t("northernTitle")}
-                </h2>
-                <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("northerData")}
-                </p>
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("northerData2")}
-                </p>
+                {quickAnswer.map((data, id) => {
+                  return (
+                    <div key={id}>
+                      <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                        {data.title}
+                      </h2>
+                      <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        {data.desc}{" "}
+                      </p>
+                      <UnorderedList
+                        arrName={data.list}
+                        ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[36px] lg:pl-[56px] font-medium space-y-2"
+                      />
+                      <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        {data.desc1}{" "}
+                      </p>
+                    </div>
+                  );
+                })}
               </div>
+              {/* The Rise of Pharma  */}
               <div className="md:mt-[50px] mt-[40px]">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                  {t("pharmaTitle")}
-                </h2>
-                <div className="mt-[29px] xl:mt-[34px]">
-                  {pharmaData.map((data, ind) => {
-                    return (
+                {riseData.map((item, index) => (
+                  <div key={index}>
+                    <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                      {item.title}
+                    </h2>
+
+                    {item.data.map((paragraph, i) => (
                       <p
-                        className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]]"
-                        key={ind}
+                        key={i}
+                        className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                       >
-                        {data}
+                        {paragraph}
                       </p>
-                    );
-                  })}
-                </div>
+                    ))}
+                  </div>
+                ))}
               </div>
+              {/* Market Size and Growth*/}
               <div className="md:mt-[50px] mt-[40px]">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                  {t("economicTitle")}{" "}
-                </h2>
-
-                <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("economicDesc")}
-                </p>
-
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("economicDesc2")}
-                </p>
-                <div className="pl-[36px] lg:pl-[56px] space-y-4 mt-5">
-                  <UnorderedList
-                    arrName={economicData}
-                    ulClassName="list-disc mt-5 marker:text-[#0092E0] marker:text-xl text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium"
-                  />
-                </div>
-
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("economicDesc3")}
-                </p>
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("economicDesc4")}
-                </p>
-                <div className="pl-[36px] lg:pl-[56px] space-y-4 mt-5">
-                  <UnorderedList
-                    arrName={economicData2}
-                    ulClassName="list-disc mt-5 marker:text-[#0092E0] marker:text-xl text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium"
-                  />
-                </div>
-                <p className="text-black mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("economicDesc5")}
-                </p>
-                <div className="pl-[36px] lg:pl-[56px] space-y-4 mt-5">
-                  <UnorderedList
-                    arrName={economicData3}
-                    ulClassName="list-disc mt-5 marker:text-[#0092E0] marker:text-xl text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium"
-                  />
-                </div>
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
-                  {t("economicDesc6")}
-                </p>
-              </div>
-              <div className="md:mt-[50px] mt-[40px]">
-                {/* himachal pradeshs section */}
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                  {t("hmRoleTitle")}
-                </h2>
-                <div className="mt-[29px] xl:mt-[34px]">
-                  {hmData.map((data, ind) => {
-                    return (
-                      <p
-                        className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
-                        key={ind}
-                      >\
-                        {data}
+                {marketSizeData.map((data, id) => {
+                  return (
+                    <div key={id}>
+                      <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                        {data.title}
+                      </h2>
+                      <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        {data.desc}{" "}
                       </p>
-                    );
-                  })}
-                </div>
+                      <UnorderedList
+                        arrName={data.list}
+                        ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[36px] lg:pl-[56px] font-medium space-y-2"
+                      />
+                      <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        {data.desc1}{" "}
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
+              {/* How Government Incentives Built Himachal’s Pharma Landscape */}
+              <div className="md:mt-[50px] mt-[40px]">
+                {incentivesData.map((block, i) => (
+                  <div key={i} className="mt-[40px] md:mt-[50px]">
+                    <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                      {block.title}
+                    </h2>
+                    <p
+                      key={i}
+                      className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                    >
+                      {block.description}
+                    </p>
 
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  {t("hmDesc")}{" "}
-                  <Link className="underline" href={"mailto:sales@rialtes.com"}>
-                    <span>sales@rialtes.com</span>
-                  </Link>{" "}
-                  {t("hmDesc2")}
-                </p>
+                    {block.sections.map((sec, j) => (
+                      <div key={j} className="mt-5">
+                        <h3 className="font-semibold 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px]">
+                          {sec.subtitle}
+                        </h3>
+
+                        <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                          {sec.desc}
+                        </p>
+
+                        <UnorderedList
+                          arrName={sec.list}
+                          ulClassName="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[36px] lg:pl-[56px] font-medium space-y-2"
+                        />
+
+                        {sec.footer && (
+                          <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                            {sec.footer}
+                          </p>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                ))}
+              </div>
+              {/* Why Manufacturers Prefer Baddi, Solan, and Nalagarh */}
+              <div className="md:mt-[50px] mt-[40px]">
+                {manufacturersData.map((data, id) => {
+                  return (
+                    <div key={id}>
+                      <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                        {data.title}
+                      </h2>
+                      <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        {data.desc}{" "}
+                      </p>
+                      <UnorderedList
+                        arrName={data.list}
+                        ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[36px] lg:pl-[56px] font-medium space-y-2"
+                      />
+                      <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        {data.desc1}{" "}
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
+
+              {/* Himachal Pradesh’s Growing Role in Asia’s Pharma Supply Chain */}
+              <div className="md:mt-[50px] mt-[40px]">
+                {supplyData.map((item, index) => (
+                  <div key={index}>
+                    <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                      {item.title}
+                    </h2>
+
+                    {item.data.map((paragraph, i) => (
+                      <p  key={i}
+                        className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                        dangerouslySetInnerHTML={{ __html: paragraph }}
+                      />
+                    ))}
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </section>
+        {/* faq section */}
+             <section className="xl:mt-[80px] mt-[40px] custom-container">
+               <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                 {t('faq')}
+               </h2>
+               <div className="mt-[29px] xl:mt-[30px]">
+                 <FAQAccordion faqData={faqData} />
+               </div>
+             </section>
+       
       {/* blog carousel */}
       <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
         <FilteredBlogCarousel url={currUrl} />

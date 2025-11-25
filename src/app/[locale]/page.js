@@ -50,7 +50,7 @@ const Home = () => {
         { link: "/industry/hitech-semiconductor-ai-it-solutions", image: '/images/homepage/semiconducter-desktop-banner.webp', title: "Semiconductor Industry", imageMobile: '/images/homepage/semiconductor-mobile-banner.webp' },
 
     ], [])
-    const handlePrevInsights = () => { 
+    const handlePrevInsights = () => {
         setActiveIndexInsights((prevIndex) =>
             prevIndex === 0 ? carouselData.length - 1 : prevIndex - 1
         );
@@ -186,6 +186,8 @@ const Home = () => {
                                 <Link href={success.url}>
                                     <div className="relative xl:h-[486px] h-[391px] w-[97%] overflow-hidden group shadow-lg">
                                         <div
+                                            role="img"
+                                            aria-label={success.imgAlt}
                                             className="absolute inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]"
                                             style={{
                                                 backgroundImage: `url(${success.imageUrl})`,

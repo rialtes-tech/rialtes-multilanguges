@@ -1,5 +1,6 @@
 {
   "sapBuyPlus": {
+    "schemaData":{},
     "headerTitle": "SAPBuy+",
     "whyChooseAlt": "Services d’implémentation SAPBuy+ Ariba de Rialtes avec deux professionnels examinant des documents",
     "agentchatAlt": "Capture de RialChat sur WhatsApp facilitant les validations rapides d’achats ",
@@ -202,6 +203,7 @@
     "keyFeatureTitle": "Fonctionnalités clés d’AgentChat pour les utilisateurs SAP ARIBA"
   },
   "successPlus": {
+    "schemaData":{},
     "keySerAlt": "Illustration présentant les services clés d’implémentation et support SuccessFactors",
     "agentchatAlt": "Interface AgentChat offrant support HR automatisé et communication employés",
     "extendAlt": "Illustration montrant capacités étendues de SuccessFactors via extensions SuccessPlus ",
@@ -405,6 +407,7 @@
     ]
   },
   "kinaxis": {
+    "schemaData":{},
     "headerTitle": "DemandPlus",
     "seoTitle": "Kinaxis RapidResponse pour une Supply Chain Agile avec Rialtes DemandPlus",
     "seoDescription": "Réinventez vos chaînes logistiques avec Kinaxis RapidResponse et DemandPlus de Rialtes pour plus d’agilité, de rapidité et de précision.",
@@ -1627,31 +1630,31 @@
     "retailVerticals": [
       {
         "title": "Fashion & Apparel",
-        "alt": "Icône de ligne bleue montrant un t-shirt plié et un sac à main représentant la catégorie vêtements et accessoires sur fond gris",
+        "alt": "Icône de ligne bleue montrant un t-shirt plié et un sac à main représentant la catégorie vêtements et accessoires",
         "icon": "/images/industry/retail/clothing-accessories-shopping-bag-icon.svg",
         "paddingClass": "xl:pr-20"
       },
       {
         "title": "Consumer Electronics",
-        "alt": "Icône de ligne bleue représentant un lave-linge, un mixeur et un micro-ondes symbolisant la catégorie électroménager et électronique",
+        "alt": "Icône de ligne bleue représentant un lave-linge, un mixeur et un micro-ondes symbolisant la catégorie électroménager",
         "icon": "/images/industry/retail/home-appliances-electronics-category-icon.svg",
         "paddingClass": "xl:pr-20"
       },
       {
         "title": "Home & Furniture",
-        "alt": "Icône de ligne bleue montrant une armoire, un fauteuil et une table d’appoint représentant la catégorie meubles et décoration intérieure",
+        "alt": "Icône de ligne bleue montrant une armoire, un fauteuil et une table d'appoint représentant la catégorie meubles",
         "icon": "/images/industry/retail/furniture-home-decor-category-icon.svg",
         "paddingClass": "xl:pr-20"
       },
       {
         "title": "Luxury Goods & Lifestyle",
-        "alt": "Icône de ligne bleue représentant un diamant dans une boîte cadeau avec des étoiles symbolisant la catégorie bijoux, articles de luxe et cadeaux",
+        "alt": "Icône de ligne bleue représentant un diamant dans une boîte cadeau avec des étoiles symbolisant bijoux et articles de luxe",
         "icon": "/images/industry/retail/jewelry-luxury-gifts-category-icon.svg",
         "paddingClass": "xl:pr-40"
       },
       {
         "title": "Food & Beverage",
-        "alt": "Icône de ligne bleue montrant un burger, une tasse de café et un sac à emporter représentant la catégorie alimentation, boissons et restauration",
+        "alt": "Icône de ligne bleue montrant un burger, une tasse de café et un sac à emporter représentant alimentation et boissons",
         "icon": "/images/industry/retail/food-beverage-restaurant-category-icon.svg",
         "paddingClass": "xl:pr-24"
       },
@@ -1663,7 +1666,7 @@
       },
       {
         "title": "Travel Retail and Duty-Free",
-        "alt": "Icône de ligne bleue affichant un flacon de parfum, un sac de shopping et un pot cosmétique représentant la catégorie beauté et cosmétiques",
+        "alt": "Icône de ligne bleue affichant un flacon de parfum, un sac de shopping et un pot cosmétique représentant beauté",
         "icon": "/images/industry/retail/beauty-cosmetics-perfume-category-icon.svg",
         "paddingClass": "xl:pr-12"
       }
@@ -1695,13 +1698,13 @@
       "Prend en charge la délégation de cas, prospects, ordres de travail, demandes de service, et plus encore selon le type d’enregistrement et les unités commerciales.",
       "Entièrement intégré aux workflows et à l’automatisation Salesforce pour des conversations intelligentes en temps réel."
     ],
-    "whyAlt": "Professionnel analysant graphiques de données financières et feuilles de calcul sur doubles moniteurs d'ordinateur dans bureau moderne avec plantes à proximité",
-    "realchatAlt": "Femme souriante en pull jaune vif et boucles d'oreilles roses utilisant smartphone tout en tenant tasse de café à emporter sur fond bleu",
-    "aiAlt": "Chariot d'achat entouré de traînées de lumière numérique bleue et orange dynamiques représentant commerce électronique rapide et vente au détail numérique",
+    "whyAlt": "Professionnel analysant graphiques de données financières et feuilles de calcul sur doubles moniteurs d'ordinateur en bureau",
+    "realchatAlt": "Femme souriante en pull jaune vif et boucles d'oreilles roses utilisant smartphone tout en tenant tasse de café à emporter",
+    "aiAlt": "Chariot d'achat entouré de traînées de lumière numérique bleue et orange dynamiques représentant commerce électronique",
     "exelonaAlt": "Couple souriant en tabliers bleus assortis debout à l'entrée de leur restaurant avec bras croisés accueillant les clients",
-    "salesforceAlt": "Travailleuse d'entrepôt en polo bleu vérifiant boîtes d'inventaire avec tablette numérique dans allée de centre de distribution",
-    "comprehensiveAlt": "Deux femmes entrepreneures travaillant sur ordinateur portable dans boutique de poterie avec produits céramiques exposés sur étagères en bois en arrière-plan",
-    "headerAlt": "Femme utilisant smartphone dans allée de supermarché avec superposition de réseau numérique représentant achats connectés et technologie de vente au détail intelligente",
+    "salesforceAlt": "Travailleuse d'entrepôt en polo bleu vérifiant boîtes d'inventaire avec tablette numérique dans allée de distribution",
+    "comprehensiveAlt": "Deux femmes entrepreneures travaillant sur ordinateur portable dans boutique de poterie avec produits céramiques exposés",
+    "headerAlt": "Femme utilisant smartphone dans allée de supermarché avec superposition de réseau numérique représentant achats connectés",
     "headerTitle": "Retail+",
     "seoTitle": "Services de Conseil pour le Commerce de Détail et Solutions Omnicanal | Rialtes",
     "seoDescription": "Retail+ de Rialtes offre conseil retail et solutions omnicanal pilotées par l’IA. Lancez dès maintenant votre transformation commerciale.",

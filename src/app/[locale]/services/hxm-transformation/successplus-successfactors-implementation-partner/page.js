@@ -10,96 +10,12 @@ import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { useLocale, useTranslations } from "next-intl";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Success+ – SAP SuccessFactors Consulting & Implementation Services",
-  "url": "https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/",
-  "description": "Success+ by Rialtes offers AI-powered SAP SuccessFactors consulting and implementation services to modernize human capital management and accelerate HR transformation across industries.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    },
-    "sameAs": [
-      "https://www.linkedin.com/company/rialtes-technologies-llc",
-      "https://x.com/Rialtestech",
-      "https://www.youtube.com/@rialtes"
-    ]
-  },
-  "mainEntity": {
-    "@type": "Service",
-    "name": "SAP SuccessFactors Consulting, Migration, and Implementation",
-    "serviceType": "HCM Digital Transformation Services",
-    "category": "Human Capital Management & HR Automation",
-    "provider": {
-      "@type": "Organization",
-      "name": "Rialtes"
-    },
-    "areaServed": [
-      { "@type": "Country", "name": "United States" },
-      { "@type": "Country", "name": "Canada" },
-      { "@type": "Country", "name": "Singapore" },
-      { "@type": "Country", "name": "India" }
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Success+ SAP SuccessFactors Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "SAP SuccessFactors Consulting & Advisory" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "SuccessFactors Implementation & Configuration (Core HR, Talent, Learning, Compensation)" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "Workday to SAP SuccessFactors Migration" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "ZOHO HR to SAP SuccessFactors Migration" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "Integration with SAP S/4HANA, Finance, and Payroll" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "SAP Joule AI Implementation & Customization" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "SAP BTP Extensions for SAP SuccessFactors" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "SuccessFactors Integration via SAP CPI" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "HR Process Optimization using SAP Signavio & Activate Methodology" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "AgentChat Integration with SAP SuccessFactors (WhatsApp-based HR automation)" }
-        }
-      ]
-    }
-  }
-}
 export default function Page() {
   const t = useTranslations('successPlus')
   const locale = useLocale();
   const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { relatedData, agentData, ourWorkdayData, keyBenefitsData, ourZohoData, zohoBenefitsData, migratingBenefitsData, sapActivateData,
-    sapSuccessFactorData, sapCpiData, extendData, sapJouleData } = homepageContent.successPlus;
+    sapSuccessFactorData, sapCpiData, extendData, sapJouleData,schemaData } = homepageContent.successPlus;
   return (
     <div className="min-h-screen bg-white">
       <Seo

@@ -1,5 +1,93 @@
 {
     "sapBuyPlus": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "SAP ARIBA Implementation Services",
+            "alternateName": "SAPBuyPlus by Rialtes",
+            "url": "https://www.rialtes.com/en/services/spend-management/sapbuyplus-ariba-implementation-partner/",
+            "image": "https://www.rialtes.com/images/sap-buy/sap-buy-banner.webp",
+            "description": "Rialtes SAPBuy+ helps enterprises transform procurement with SAP ARIBA through advisory, implementation, integration, and optimization services. Streamline procure-to-pay operations, enhance supplier collaboration, and maximize ROI with SAPBuy+.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com",
+                "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+                "sameAs": [
+                    "https://www.linkedin.com/company/rialtes-technologies-llc/",
+                    "https://www.youtube.com/@rialtes"
+                ]
+            },
+            "areaServed": [
+                {
+                    "@type": "Country",
+                    "name": "United States"
+                },
+                {
+                    "@type": "Country",
+                    "name": "Canada"
+                },
+                {
+                    "@type": "Country",
+                    "name": "India"
+                },
+                {
+                    "@type": "Country",
+                    "name": "Singapore"
+                }
+            ],
+            "serviceType": "SAP ARIBA Implementation, Integration & Migration",
+            "audience": {
+                "@type": "Audience",
+                "audienceType": [
+                    "CIOs",
+                    "Procurement Heads",
+                    "IT Directors",
+                    "Operations Managers"
+                ]
+            },
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "SAPBuy+ Service Suite",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "SAP ARIBA License Advisory"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Implementation & Design with SAP Signavio and Activate"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Quality Assurance & Governance"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "System Integration with SAP S/4HANA, SuccessFactors, and Non-SAP Tools"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Post Go-Live Support and Supplier Onboarding"
+                        }
+                    }
+                ]
+            }
+        },
         "headerTitle": "SAPBuy+",
         "whyChooseAlt": "highlighting Rialtes' SAPBuy+ ARIBA implementation services with two professionals reviewing documents.",
         "agentchatAlt": "RialChat WhatsApp tool enabling fast procurement approvals",
@@ -202,6 +290,131 @@
         "keyFeatureTitle": "Key Features of AgentChat for SAP ARIBA Users"
     },
     "successPlus": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Success+ – SAP SuccessFactors Consulting & Implementation Services",
+            "url": "https://www.rialtes.com/en/services/hxm-transformation/successplus-successfactors-implementation-partner/",
+            "description": "Success+ by Rialtes offers AI-powered SAP SuccessFactors consulting and implementation services to modernize human capital management and accelerate HR transformation across industries.",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                },
+                "sameAs": [
+                    "https://www.linkedin.com/company/rialtes-technologies-llc",
+                    "https://x.com/Rialtestech",
+                    "https://www.youtube.com/@rialtes"
+                ]
+            },
+            "mainEntity": {
+                "@type": "Service",
+                "name": "SAP SuccessFactors Consulting, Migration, and Implementation",
+                "serviceType": "HCM Digital Transformation Services",
+                "category": "Human Capital Management & HR Automation",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Rialtes"
+                },
+                "areaServed": [
+                    {
+                        "@type": "Country",
+                        "name": "United States"
+                    },
+                    {
+                        "@type": "Country",
+                        "name": "Canada"
+                    },
+                    {
+                        "@type": "Country",
+                        "name": "Singapore"
+                    },
+                    {
+                        "@type": "Country",
+                        "name": "India"
+                    }
+                ],
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Success+ SAP SuccessFactors Services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "SAP SuccessFactors Consulting & Advisory"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "SuccessFactors Implementation & Configuration (Core HR, Talent, Learning, Compensation)"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Workday to SAP SuccessFactors Migration"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "ZOHO HR to SAP SuccessFactors Migration"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Integration with SAP S/4HANA, Finance, and Payroll"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "SAP Joule AI Implementation & Customization"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "SAP BTP Extensions for SAP SuccessFactors"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "SuccessFactors Integration via SAP CPI"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "HR Process Optimization using SAP Signavio & Activate Methodology"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "AgentChat Integration with SAP SuccessFactors (WhatsApp-based HR automation)"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
         "sapJouleAlt": "AI-powered HR assistant for SuccessFactors using SAP Joule for intelligent HR automation",
         "keyServiceImg": "/images/services/success-plus/key-services-desk.webp",
         "zohoAlt": "Infographic comparing SAP SuccessFactors with Zoho People for HR process optimization ",
@@ -406,6 +619,152 @@
         ]
     },
     "kinaxis": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Kinaxis RapidResponse: Transform with Rialtes DemandPlus",
+            "url": "https://www.rialtes.com/en/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/",
+            "description": "Kinaxis rapid response meets AI-driven planning. Rialtes DemandPlus delivers supply chain visibility, predictive agility, and smarter control.",
+            "inLanguage": "en",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes Technologies",
+                "url": "https://www.rialtes.com",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntity": {
+                "@type": "Service",
+                "name": "Rialtes DemandPlus for Kinaxis RapidResponse",
+                "serviceType": "Supply Chain Planning and Integration",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Rialtes Technologies",
+                    "url": "https://www.rialtes.com"
+                },
+                "areaServed": [
+                    {
+                        "@type": "Country",
+                        "name": "United States"
+                    },
+                    {
+                        "@type": "Country",
+                        "name": "Canada"
+                    },
+                    {
+                        "@type": "Country",
+                        "name": "India"
+                    },
+                    {
+                        "@type": "Country",
+                        "name": "Singapore"
+                    }
+                ],
+                "audience": {
+                    "@type": "Audience",
+                    "audienceType": "Enterprise, C-Level Executives, Supply Chain Leaders"
+                },
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "DemandPlus Services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Kinaxis License Advisory & Value Assessment"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Solution Architecture & Design"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Rapid Implementation & Process Configuration"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Quality Assurance, Testing & User Training"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Integration with SAP S/4HANA, Oracle EBS & Non-SAP Systems"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Post-Go-Live Support & Continuous Optimization"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Demand Planning & Forecasting"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Sales & Operations Planning (S&OP)"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Capacity & Production Planning"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Inventory Optimization & Enterprise Scheduling"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Scenario Planning & What-if Simulations"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Integration via SAP BTP and SAP CPI"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "RialChat – WhatsApp for Supply Chain Teams"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
         "headerTitle": "DemandPlus",
         "seoTitle": "Kinaxis RapidResponse for Agile SCM with Rialtes DemandPlus",
         "seoDescription": "Reimagine resilient supply chains with Kinaxis RapidResponse and Rialtes’ DemandPlus—smart SCM solutions for agility, speed, and precision.",
@@ -1698,12 +2057,12 @@
             "Supports delegation of cases, leads, work orders, service requests, and more by record type and business units.",
             "Fully integrated with Salesforce workflows and automation for real - time, intelligent conversations."
         ],
-        "headerAlt": "Woman using smartphone in grocery store aisle with digital network overlay representing connected shopping and smart retail technology",
+        "headerAlt": "Woman using smartphone in grocery store aisle with digital network overlay representing connected shopping and smart retail",
         "comprehensiveAlt": "Two women entrepreneurs working on laptop in pottery shop with ceramic products displayed on wooden shelves in background ",
         "salesforceAlt": "Female warehouse worker in blue polo shirt checking inventory boxes with digital tablet in distribution center aisle ",
         "exelonaAlt": "Smiling couple in matching blue aprons standing at entrance of their restaurant with arms crossed welcoming customers",
-        "aiAlt": "Shopping cart surrounded by dynamic blue and orange digital light trails representing fast online ecommerce and digital retail",
-        "realchatAlt": "Smiling woman in bright yellow sweater and pink earrings using smartphone while holding takeaway coffee cup on blue background",
+        "aiAlt": "Shopping cart surrounded by dynamic blue and orange digital light trails representing fast online ecommerce and retail",
+        "realchatAlt": "Smiling woman in bright yellow sweater and pink earrings using smartphone while holding takeaway coffee cup on blue backdrop",
         "whyAlt": "Professional analyzing financial data charts and spreadsheets on dual computer monitors in modern office with plants nearby",
         "headerTitle": "Retail+",
         "learnMoreBtn": " Learn More",
