@@ -12,111 +12,11 @@ import esContent from "../../../../../../messages/es/solutions.json";
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  name: "Salesforce Revenue Cloud Consulting Services",
-  url: "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting/",
-  description:
-    "Rialtes provides Salesforce Revenue Cloud Consulting services to streamline quote-to-cash, automate pricing, improve billing, and integrate revenue operations for business growth.",
-  inLanguage: "en",
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  mainEntity: {
-    "@type": "Service",
-    name: "Salesforce Revenue Cloud Consulting",
-    serviceType:
-      "Revenue Operations Optimization, CPQ Implementation, Billing Integration",
-    provider: {
-      "@type": "Organization",
-      name: "Rialtes",
-      url: "https://www.rialtes.com",
-    },
-    areaServed: [
-      { "@type": "Country", name: "United States" },
-      { "@type": "Country", name: "Canada" },
-      { "@type": "Country", name: "India" },
-      { "@type": "Country", name: "Singapore" },
-    ],
-    audience: {
-      "@type": "Audience",
-      audienceType:
-        "Revenue Operations Leaders, Sales Directors, Finance Teams, CPQ Admins, CRM Managers",
-    },
-    hasOfferCatalog: {
-      "@type": "OfferCatalog",
-      name: "Salesforce Revenue Cloud Services by Rialtes",
-      itemListElement: [
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Revenue Cloud Consulting",
-            description:
-              "Tailored Revenue Cloud solutions for pricing, quoting, billing, and revenue recognition optimization.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "System Audit and Health Check",
-            description:
-              "Review and optimize your existing Revenue Cloud configuration for better performance and stability.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Setup and Configuration",
-            description:
-              "Streamline CPQ and billing processes through efficient platform setup and customization.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Data Migration",
-            description:
-              "Seamless transition from legacy systems to Revenue Cloud with secure CPQ and billing data migration.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Integration and Upgrades",
-            description:
-              "Integrate Revenue Cloud with Sales Cloud, ERPs, and CRMs for unified revenue management.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Support and Maintenance",
-            description:
-              "Post-implementation support, upgrades, admin help, and issue resolution for Salesforce Revenue Cloud.",
-          },
-        },
-      ],
-    },
-  },
-};
 export default function HealthCloud() {
   const t = useTranslations("revenueCloud");
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { revenueStats, salesForce, salesForce2 } = content.revenueCloud;
+  const { revenueStats, salesForce, salesForce2,schemaData } = content.revenueCloud;
 
   return (
     <section>

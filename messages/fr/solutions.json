@@ -136,6 +136,8 @@
     "SubTitle": "Parlez dès aujourd’hui à nos experts SAP Data Cloud et commencez votre parcours avec Rialtes."
   },
   "salesforceDataCloud": {
+    "schemaData": {
+    },
     "seoTitle": "Services de Conseil et de Mise en Œuvre de Salesforce Data Cloud | Rialtes",
     "seoDescription": "Conseil et mise en œuvre Salesforce Data Cloud par Rialtes pour stimuler la croissance, accélérer l’innovation et améliorer la prise de décision.",
     "headerTitle": "Data Cloud",
@@ -230,6 +232,8 @@
     ]
   },
   "datasphere": {
+    "schemaData": {
+    },
     "headerTitle": "SAP Datasphere",
     "bannerAlt": "Onde numérique abstraite avec réseau maillé fluide et particules brillantes sur fond technologique bleu",
     "seoTitle": "Mise en Œuvre de SAP Datasphere avec Services de Conseil en IA | Rialtes",
@@ -387,6 +391,8 @@
     "globalPresenceTitle": "Présence mondiale, expertise certifiée, excellence agile"
   },
   "sapConsulting": {
+    "schemaData": {
+    },
     "headerTitle": "Conseil SAP",
     "seoTitle": "Société de Conseil et d’Implémentation SAP | Rialtes",
     "seoDescription": "Rialtes, partenaire SAP de confiance pour des implémentations IA, des intégrations plus intelligentes et un succès SAP durable.",
@@ -467,9 +473,7 @@
     "riseWithSapNavigationAlt": "Graphique de navigation présentant l’expertise Gold Partner pour solutions RISE"
   },
   "agentForce": {
-    "schemaData":{
-
-    },
+    "schemaData":{},
     "bannerAlt": "Bannière de bureau présentant la plateforme Agentforce AI avec interface numérique moderne",
     "manageCustomerAlt": "Tableau IA affichant des insights intelligents pour la gestion client",
     "leaverageCuttingAlt": "Vue bureau d’Agentforce facilitant des flux numériques automatisés",
@@ -695,6 +699,7 @@
     "contactTitle": "Faites le prochain pas vers l’excellence opérationnelle avec nous."
   },
   "oracle": {
+    "schemaData":{},
     "bannerAlt": "Bannière promouvant les services de conseil Oracle EBS de Rialtes pour la modernisation des entreprises.",
     "ebsimageAlt": "Visuel mettant en avant l’offre EBSPlus de Rialtes pour l’intégration d’Oracle EBS et Kinaxis.",
     "deepexpertiseAlt": "Image représentant l’expertise certifiée de Rialtes en Oracle EBS et Oracle Cloud Infrastructure",
@@ -896,6 +901,7 @@
     "contactTitle": "Prêt à moderniser Oracle EBS pour votre entreprise ?"
   },
   "sapCpi": {
+    "schemaData":{},
     "bannerAlt": "Formation de nuages numériques sur paysage urbain illuminé montrant services d'intégration cloud SAP connectés",
     "leaderAlt": "Tunnel numérique futuriste avec traînées lumineuses illustrant l'intégration comme colonne de transformation digitale",
     "connectAlt": "Main tenant ampoule avec réseau d'icônes connectées symbolisant innovation, flux de données et transformation numérique",
@@ -1140,6 +1146,7 @@
     "contactSubTitle2": "Contactez-nous dès aujourd’hui pour une consultation gratuite et découvrez comment nous pouvons renforcer votre entreprise connectée !"
   },
   "uiPath": {
+    "schemaData":{},
     "bannerAlt": "Circuit imprimé numérique abstrait avec chemins bleus lumineux et nœuds de données colorés représentant services UiPath RPA",
     "uiAlt": "Logo UiPath Agentic Automation avec texte noir et accent orange représentant plateforme d'automatisation robotique intelligente",
     "rpaAlt": "Main tenant réseau numérique lumineux avec nœuds connectés cyan et rouges représentant innovation IA et données numériques",
@@ -1468,6 +1475,7 @@
     "ContactSubTitleOne": "Planifiez une consultation gratuite Tosca, réservez une démo ou contactez nos experts en remplissant le formulaire ci-dessous."
   },
   "mulesoft": {
+    "schemaData": {},
     "bannerAlt": "Paysage urbain numérique avec lignes réseau illustrant l’intégration MuleSoft de Salesforce partenaire.",
     "partnerAlt": "Logo badge Partenaire Salesforce affiché sur fond de skyline urbain illuminé montrant le partenariat technologique",
     "robustAlt": "Horizon urbain au coucher du soleil avec des lumières illustrant la transformation numérique et l’intégration.",
@@ -1567,6 +1575,7 @@
     "integrationDesc": "Nos experts offrent une vaste gamme de services MuleSoft en phase avec votre vision et vos valeurs."
   },
   "salesForceConsulting": {
+    "schemaData":{},
     "consultingTitle": "Services de Conseil Salesforce",
     "partnerLogoAltText": "Logo officiel de partenaire Salesforce représentant la certification de Rialtes en tant que partenaire de confiance pour le conseil et la mise en œuvre Salesforce.",
     "bannerAltText": "Un paysage numérique futuriste en arrière-plan avec le texte « Transformez la manière dont vous engagez vos clients », représentant les services de conseil Salesforce et l’engagement client.",
@@ -1744,6 +1753,7 @@
     "insights": "Perspectives"
   },
   "revenueCloud": {
+    "schemaData":{},
     "infographicAlt": "Infographie illustrant le flux de processus Salesforce Revenue Cloud du devis à l’encaissement.",
     "sapPartnerLogoAlt": "Badge officiel de Partenaire SAP représentant l’expertise certifiée en implémentation.",
     "revenueCloudImg": "/images/revenue-cloud/revenue-cloud-infographic-french.webp",

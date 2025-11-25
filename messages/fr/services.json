@@ -1,5 +1,6 @@
 {
   "sapBuyPlus": {
+    "schemaData":{},
     "headerTitle": "SAPBuy+",
     "whyChooseAlt": "Services d’implémentation SAPBuy+ Ariba de Rialtes avec deux professionnels examinant des documents",
     "agentchatAlt": "Capture de RialChat sur WhatsApp facilitant les validations rapides d’achats ",
@@ -202,6 +203,7 @@
     "keyFeatureTitle": "Fonctionnalités clés d’AgentChat pour les utilisateurs SAP ARIBA"
   },
   "successPlus": {
+    "schemaData":{},
     "keySerAlt": "Illustration présentant les services clés d’implémentation et support SuccessFactors",
     "agentchatAlt": "Interface AgentChat offrant support HR automatisé et communication employés",
     "extendAlt": "Illustration montrant capacités étendues de SuccessFactors via extensions SuccessPlus ",
@@ -405,6 +407,7 @@
     ]
   },
   "kinaxis": {
+    "schemaData":{},
     "headerTitle": "DemandPlus",
     "seoTitle": "Kinaxis RapidResponse pour une Supply Chain Agile avec Rialtes DemandPlus",
     "seoDescription": "Réinventez vos chaînes logistiques avec Kinaxis RapidResponse et DemandPlus de Rialtes pour plus d’agilité, de rapidité et de précision.",

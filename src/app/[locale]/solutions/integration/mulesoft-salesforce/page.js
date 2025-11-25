@@ -13,112 +13,11 @@ import enContent from "../../../../../../messages/en/solutions.json";
 import esContent from "../../../../../../messages/es/solutions.json";
 import frContent from "../../../../../../messages/fr/solutions.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  name: "MuleSoft Salesforce Integration Services",
-  url: "https://www.rialtes.com/solutions/integration/mulesoft-salesforce/",
-  description:
-    "Rialtes offers expert MuleSoft Salesforce Integration Services to unify your applications, data, and systems across cloud and on-premise environments—enabling real-time visibility, agility, and digital transformation.",
-  inLanguage: "en",
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  mainEntity: {
-    "@type": "Service",
-    name: "MuleSoft Integration Consulting Services",
-    serviceType:
-      "MuleSoft API Integration, Development, Migration, Enablement, Support",
-    provider: {
-      "@type": "Organization",
-      name: "Rialtes",
-      url: "https://www.rialtes.com",
-    },
-    areaServed: [
-      { "@type": "Country", name: "United States" },
-      { "@type": "Country", name: "Canada" },
-      { "@type": "Country", name: "India" },
-      { "@type": "Country", name: "Singapore" },
-    ],
-    audience: {
-      "@type": "Audience",
-      audienceType:
-        "Integration Architects, CIOs, API Managers, Digital Transformation Leaders",
-    },
-    hasOfferCatalog: {
-      "@type": "OfferCatalog",
-      name: "MuleSoft Integration Services by Rialtes",
-      itemListElement: [
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "MuleSoft Consulting",
-            description:
-              "Strategic guidance and license assessment to help you unlock the full potential of MuleSoft and turn your business data into valuable digital assets.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "MuleSoft Implementation",
-            description:
-              "End-to-end MuleSoft deployment aligned with your business needs to enable reusable APIs and rapid project delivery.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "MuleSoft Development",
-            description:
-              "Custom API development to accelerate innovation, support agile business processes, and enhance team productivity.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "MuleSoft Enablement & Training",
-            description:
-              "Empower your teams through certification guidance, use-case tailored training, and delivery acceleration.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "MuleSoft Support Services",
-            description:
-              "Ensure peak performance of business-critical APIs with 24/7 monitoring, platform tuning, and ongoing support.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Mule 3 to Mule 4 Migration",
-            description:
-              "Seamlessly transition to Mule 4 with minimal downtime, unlocking advanced features and performance improvements.",
-          },
-        },
-      ],
-    },
-  },
-};
 const page = () => {
   const t = useTranslations("mulesoft");
   const locale = useLocale();
   const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { pointsData, serveData, driveData } = homepageContent.mulesoft;
+  const { pointsData, serveData, driveData ,schemaData} = homepageContent.mulesoft;
 
   return (
     <>

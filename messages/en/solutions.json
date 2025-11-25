@@ -1,5 +1,55 @@
 {
   "sapBdc": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "SAP Business Data Cloud: End Data Chaos Today",
+      "url": "https://www.rialtes.com/en/solutions/data-ai/sap-business-data-cloud-bdc-consulting/",
+      "headline": "SAP Business Data Cloud: End Data Chaos Today",
+      "description": "SAP Business Data Cloud turns chaos into clarity with a single source of truth. Make smarter decisions with Rialtes. Start your data journey today.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "mainEntity": {
+        "@type": "Product",
+        "name": "SAP Business Data Cloud Services",
+        "brand": {
+          "@type": "Brand",
+          "name": "SAP"
+        },
+        "description": "Rialtes helps you implement SAP Business Data Cloud for unified data management, migration from BW/Datasphere, Databricks integration, and intelligent data fabric design.",
+        "offers": {
+          "@type": "Offer",
+          "price": "Contact for pricing",
+          "priceCurrency": "USD",
+          "url": "https://www.rialtes.com/contact-us"
+        }
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Data Fabric"
+        },
+        {
+          "@type": "Thing",
+          "name": "SAP Integration"
+        },
+        {
+          "@type": "Thing",
+          "name": "Enterprise Data Management"
+        },
+        {
+          "@type": "Thing",
+          "name": "Cloud Data Strategy"
+        }
+      ]
+    },
     "headerTitle": "SAP Business Data Cloud",
     "seoTitle": "SAP Business Data Cloud: End Data Chaos Today | Rialtes",
     "seoDescription": "SAP Business Data Cloud turns chaos into clarity with a single source of truth. Make smarter decisions with Rialtes. Start your data journey today.",
@@ -136,6 +186,101 @@
     "SubTitle": "Talk to our SAP Data Cloud experts today and begin your journey with Rialtes."
   },
   "salesforceDataCloud": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Salesforce Data Cloud Consulting Services",
+      "url": "https://www.rialtes.com/en/solutions/data-ai/salesforce-data-cloud-consulting/",
+      "description": "Rialtes provides Salesforce Data Cloud Consulting services to help businesses unify data, drive real-time personalization, and activate AI-powered insights across marketing, commerce, and operations.",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Salesforce Data Cloud Consulting",
+        "serviceType": "Customer 360 Integration, AI Activation, Real-Time Personalization",
+        "provider": {
+          "@type": "Organization",
+          "name": "Rialtes",
+          "url": "https://www.rialtes.com"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "CMOs, CIOs, Marketing Leaders, CRM Architects, Data Platform Owners"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Salesforce Data Cloud Services by Rialtes",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Data Cloud Implementation",
+                "description": "Infrastructure setup, source configuration, and activation of real-time data orchestration features in Salesforce Data Cloud."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Data Cloud Consulting",
+                "description": "Tailored advisory services to help organizations architect personalized, privacy-compliant, and AI-powered data ecosystems."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Data Cloud Migration",
+                "description": "Seamless and secure migration from legacy data platforms to Salesforce Data Cloud with minimal disruption."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Managed Cloud Services",
+                "description": "Ongoing performance monitoring, governance, and optimization of public, private, and hybrid Salesforce Cloud environments."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Private Cloud Services",
+                "description": "Deploy isolated private cloud infrastructure for enhanced compliance, control, and security of sensitive data workloads."
+              }
+            }
+          ]
+        }
+      }
+    },
     "headerTitle": "Data Cloud",
     "bannerAlt": "Rock climber wearing safety harness with carabiners and ropes against snowy mountain peaks and cloudy sky",
     "salesforceLogoAlt": "Salesforce Partner badge with blue cloud logo and white text on dark blue background",
@@ -230,6 +375,124 @@
     ]
   },
   "datasphere": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "SAP Datasphere Consulting & Implementation Services",
+      "url": "https://www.rialtes.com/en/solutions/data-ai/sap-datasphere-implementation-consulting/",
+      "description": "Looking to unify and harness enterprise data using SAP Datasphere? Rialtes offers consulting, implementation, integration, and AI optimization services to turn data into actionable insights.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc",
+          "https://x.com/Rialtestech",
+          "https://www.youtube.com/@rialtes"
+        ]
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "Canada"
+        },
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "Continent",
+          "name": "Europe"
+        }
+      ],
+      "serviceType": "SAP Datasphere Consulting and AI-Driven Data Lake Implementation",
+      "category": "Enterprise Data Management & Analytics",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "End-to-End SAP Datasphere Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SAP Datasphere Consulting & Architecture Advisory"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SAP Datasphere Implementation & Configuration"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SAP Datasphere Integration with SAP & Non-SAP Systems"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Industry-Specific AI Data Lake Accelerators"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Real-Time Data Governance & Compliance Setup"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI-Powered Data Visualization with SAP Analytics Cloud & Tableau"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Post-Go-Live AI Optimization and KPI Dashboards"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Integration with SAP S/4HANA, Ariba, and SuccessFactors"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Salesforce + SAP Datasphere Integration for Customer 360"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Use Cases for Manufacturing, Automotive, Retail, Education & HR"
+            }
+          }
+        ]
+      }
+    },
     "headerTitle": "SAP Datasphere",
     "bannerAlt": "Abstract digital wave with flowing mesh network and glowing particles on blue tech background",
     "seoTitle": "SAP Datasphere Implementation with AI Consulting Services | Rialtes",
@@ -387,6 +650,109 @@
     "globalPresenceTitle": "Global Presence, Certified Expertise, Agile Excellence"
   },
   "sapConsulting": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "SAP Consulting Services",
+      "url": "https://www.rialtes.com/en/solutions/enterprise-platforms/sap-consulting-implementation-partners/",
+      "description": "Rialtes provides SAP Consulting Services including RISE with SAP, GROW with SAP, SuccessFactors, S/4HANA Migration, and Ariba implementation to help organizations enhance operations, automate workflows, and scale efficiently.",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "SAP Consulting",
+        "serviceType": "SAP ERP, S/4HANA Migration, SAP SuccessFactors, SAP Ariba, RISE with SAP, GROW with SAP",
+        "provider": {
+          "@type": "Organization",
+          "name": "Rialtes",
+          "url": "https://www.rialtes.com"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "CIOs, IT Leaders, HR Directors, Procurement Heads, SAP Architects, ERP Managers"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "SAP Consulting Services by Rialtes",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "RISE with SAP",
+                "description": "Support for SAP’s cloud transformation strategy, helping organizations adopt S/4HANA through a subscription-based as-a-service model."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "GROW with SAP",
+                "description": "Cloud ERP solutions for mid-size businesses to enable scalable growth, flexible deployment, and accelerated digital transformation."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "SuccessFactors Consulting",
+                "description": "End-to-end HCM transformation including payroll, talent acquisition, learning management, and HR analytics."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "SAP Ariba Implementation",
+                "description": "Procurement transformation and spend management, offering increased visibility, compliance, and automation."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "SAP S/4HANA Migration",
+                "description": "Seamless migration from legacy ERP systems to SAP S/4HANA for improved process efficiency and business intelligence."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Custom Application Development & Automation",
+                "description": "Develop industry-specific SAP solutions including bots, chat automation, and RPA to drive digital transformation."
+              }
+            }
+          ]
+        }
+      }
+    },
     "headerTitle": "SAP Consulting",
     "seoTitle": "SAP Consulting Services and Implementation Partners | Rialtes",
     "seoDescription": "Rialtes, a trusted SAP Consulting and Implementation Partner you can rely on for AI-powered implementations, smarter integrations, and long-term SAP success.",
@@ -472,7 +838,7 @@
       "@type": "Service",
       "serviceType": "Salesforce Agentforce Consulting",
       "name": "Agentforce Consulting Services | Rialtes",
-      "url": "https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/",
+      "url": "https://www.rialtes.com/en/solutions/artificial-intelligence/salesforce-agentforce-consulting/",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://www.rialtes.com/en/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
@@ -797,6 +1163,117 @@
     "contactTitle": "Take the next step to operational excellence with us."
   },
   "oracle": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Oracle EBS Services",
+      "alternateName": "OracleEBSPlus by Rialtes",
+      "description": "Rialtes offers comprehensive Oracle EBS services through its EBSPlus framework, integrating Kinaxis RapidResponse for supply chain optimization, S&OP, and AI-driven transformation. Services include Oracle EBS implementation, advisory, integration, support, and OCI cloud enablement.",
+      "url": "https://www.rialtes.com/en/solutions/enterprise-platforms/oracle-ebs-consulting/",
+      "provider": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc/",
+          "https://www.youtube.com/@rialtes"
+        ]
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "Canada"
+        },
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        }
+      ],
+      "serviceType": [
+        "Oracle EBS Consulting",
+        "Oracle EBS Implementation",
+        "Kinaxis RapidResponse Integration",
+        "Oracle Cloud Infrastructure (OCI) Migration",
+        "Oracle Supply Chain Planning",
+        "Sales and Operations Planning (S&OP)",
+        "Inventory Optimization",
+        "Enterprise Scheduling",
+        "Scenario Planning",
+        "AI & Data-Driven ERP Transformation"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Oracle EBSPlus Offerings",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "License & Advisory Services",
+              "description": "Optimize Oracle EBS and Kinaxis licensing with cost-effective strategies."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Implementation & Design",
+              "description": "End-to-end Oracle EBS implementation using agile and industry best practices."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Quality Assurance & Testing",
+              "description": "Business-aligned QA and testing for smooth, disruption-free go-lives."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Integration & Data Strategy",
+              "description": "Seamlessly connect Oracle EBS, Kinaxis, and third-party platforms."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Post Go-Live Support & Optimization",
+              "description": "Managed services and continuous improvements for Oracle EBS systems."
+            }
+          }
+        ]
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": [
+          "Manufacturing",
+          "Healthcare",
+          "Retail",
+          "Semiconductor",
+          "Enterprise IT"
+        ]
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting/"
+      }
+    },
     "bannerAlt": "Banner showcasing Rialtes’ Oracle EBS consulting services for enterprise digital modernization",
     "ebsimageAlt": "Visual highlighting Rialtes’ EBSPlus solution integrating Oracle EBS with Kinaxis for agility.",
     "deepexpertiseAlt": "Image representing Rialtes’ certified Oracle EBS and OCI expertise driving enterprise efficiency",
@@ -998,6 +1475,159 @@
     "contactTitle": "Ready to Modernize Oracle EBS for Your Business?"
   },
   "sapCpi": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "SAP Cloud Platform Integration Services",
+      "url": "https://www.rialtes.com/en/solutions/integration/sap-cloud-platform-integration-consulting/",
+      "description": "Smarter cloud integration with SAP CPI. Empower enterprise agility, drive innovation, and unlock speed with AI-powered automation and real-time insights.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc",
+          "https://x.com/Rialtestech",
+          "https://www.youtube.com/@rialtes"
+        ]
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "Canada"
+        },
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "Continent",
+          "name": "Europe"
+        }
+      ],
+      "serviceType": "SAP CPI Integration, Cloud Integration, SAP to Non-SAP Integration",
+      "category": "SAP Cloud Integration",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "SAP CPI Services Catalog",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Integration Strategy, Advisory & Architecture"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SAP CPI Implementation & Deployment"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pre-built Accelerators & Industry Connectors"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Quality Assurance & Compliance Testing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Post-Go-Live Support & Monitoring"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SAP Ariba Cloud Integration"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SAP S/4HANA Cloud Integration"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SAP SuccessFactors Cloud Integration"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Salesforce SAP CPI Integration"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Oracle & Workday Integrations via SAP CPI"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Data Visualization & Insights with Tableau"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Production & Demand Planning with Mulesoft + SAP CPI"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Kinaxis RapidResponse Integration with SAP"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI-Powered SAP CPI Workflows & Automation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Agile Delivery with SCRUM-Certified Project Managers"
+            }
+          }
+        ]
+      }
+    },
     "bannerAlt": "Digital cloud formation over illuminated cityscape showcasing SAP Cloud Integration Services for connected enterprises",
     "leaderAlt": "Futuristic digital tunnel with flowing light trails illustrating integration as backbone of digital transformation journey",
     "connectAlt": "Hand holding a lightbulb with a network of connected icons, symbolizing innovation, data flow, and digital transformation",
@@ -1242,6 +1872,131 @@
     "contactSubTitle2": "Contact us today for a free consultation and explore how we can empower your connected enterprise!"
   },
   "uiPath": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "RPA Consulting Services and Solutions",
+      "url": "https://www.rialtes.com/en/solutions/process-automation/rpa-consulting-services-provider/",
+      "description": "Looking for RPA consulting services providers? We help automate SAP and Salesforce workflows, cut costs, and boost efficiency using UiPath. Start today.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc",
+          "https://x.com/Rialtestech",
+          "https://www.youtube.com/@rialtes"
+        ]
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "Canada"
+        },
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "Continent",
+          "name": "Europe"
+        }
+      ],
+      "serviceType": "UiPath RPA Consulting Services",
+      "category": "Robotic Process Automation",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "End-to-End RPA Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Automation Strategy & License Advisory"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Bot Design, Development & Implementation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pre-built Industry Accelerators"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Quality Assurance & Compliance"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Post-Go-Live Bot Monitoring and Support"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "RPA Automation with SAP Ariba"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "RPA Automation with SAP S/4HANA"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "RPA Automation with SAP SuccessFactors"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "RPA Automation with Salesforce"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI-Enhanced RPA with IDP, NLP, and Predictive Analytics"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Data Visualization & RPA Analytics with Tableau/Qlik"
+            }
+          }
+        ]
+      }
+    },
     "bannerAlt": "Abstract digital circuit board with glowing blue pathways and colorful data nodes representing UiPath RPA automation services",
     "uiAlt": "UiPath Agentic Automation logo with black text and orange accent representing intelligent robotic process automation platform",
     "rpaAlt": "Hand holding glowing digital network with cyan and red connected nodes representing AI and data innovation on dark background",
@@ -1447,6 +2202,99 @@
     "contactSubtitleOne": "Contact us today for a free automation assessment!"
   },
   "tosca": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Tosca Automation Testing Services",
+      "alternateName": "Tricentis Tosca Test Automation by Rialtes",
+      "description": "Rialtes offers end-to-end Tosca automation testing services, including implementation, test management, risk-based testing, and integration with SAP, Salesforce, Oracle, and DevOps pipelines.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc",
+          "https://x.com/Rialtestech"
+        ]
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "Canada"
+        },
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        },
+        {
+          "@type": "Continent",
+          "name": "Europe"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Enterprises in Manufacturing, Healthcare, Retail, Semiconductor, Automotive, and Financial Services"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tosca Automation Testing Offerings",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Thing",
+              "name": "Tosca Implementation & Advisory",
+              "description": "End-to-end Tosca installation, configuration, API/UI/mobile/data testing, DevOps pipeline integration, and AI-powered self-healing automation."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Thing",
+              "name": "qTest Test Management Services",
+              "description": "Centralized test lifecycle management with qTest, including integration with Jira and Tosca, real-time dashboards, and risk-based workflows."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Thing",
+              "name": "LiveCompare Implementation",
+              "description": "AI-based SAP change impact analysis, integration with Tosca/qTest, and continuous testing optimization for SAP updates."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Thing",
+              "name": "NeoLoad Performance Testing",
+              "description": "End-to-end performance, scalability, and endurance testing integrated into CI/CD for SAP, Oracle, Salesforce, and custom apps."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Thing",
+              "name": "Certified Tosca Experts",
+              "description": "Tricentis-certified experts with experience in SAP, Oracle, Salesforce, Agile, DevOps, and enterprise test automation."
+            }
+          }
+        ]
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/solutions/quality-engineering-assurance/tosca-software-automation-testing/"
+      }
+    },
     "bannerAlt": "Software engineer smiling at desk with coding screens showcasing Tricentis TOSCA automation testing services and quality work",
     "trustAlt": "Software developers collaborating with tablet reviewing code on multiple monitors in modern tech office workspace environment",
     "serviceAlt": "Professional analyzing financial charts and data analytics on multiple laptop screens in warm-lit modern workspace environment",
@@ -1570,6 +2418,109 @@
     "ContactSubTitleOne": "Schedule a Free Tosca Consultation, Book a Demo or Contact Our Experts Please fill the below form."
   },
   "mulesoft": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "MuleSoft Salesforce Integration Services",
+      "url": "https://www.rialtes.com/en/solutions/integration/mulesoft-salesforce/",
+      "description": "Rialtes offers expert MuleSoft Salesforce Integration Services to unify your applications, data, and systems across cloud and on-premise environments—enabling real-time visibility, agility, and digital transformation.",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "MuleSoft Integration Consulting Services",
+        "serviceType": "MuleSoft API Integration, Development, Migration, Enablement, Support",
+        "provider": {
+          "@type": "Organization",
+          "name": "Rialtes",
+          "url": "https://www.rialtes.com"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Integration Architects, CIOs, API Managers, Digital Transformation Leaders"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "MuleSoft Integration Services by Rialtes",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "MuleSoft Consulting",
+                "description": "Strategic guidance and license assessment to help you unlock the full potential of MuleSoft and turn your business data into valuable digital assets."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "MuleSoft Implementation",
+                "description": "End-to-end MuleSoft deployment aligned with your business needs to enable reusable APIs and rapid project delivery."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "MuleSoft Development",
+                "description": "Custom API development to accelerate innovation, support agile business processes, and enhance team productivity."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "MuleSoft Enablement & Training",
+                "description": "Empower your teams through certification guidance, use-case tailored training, and delivery acceleration."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "MuleSoft Support Services",
+                "description": "Ensure peak performance of business-critical APIs with 24/7 monitoring, platform tuning, and ongoing support."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Mule 3 to Mule 4 Migration",
+                "description": "Seamlessly transition to Mule 4 with minimal downtime, unlocking advanced features and performance improvements."
+              }
+            }
+          ]
+        }
+      }
+    },
     "bannerAlt": "Digital cityscape with glowing network lines showing MuleSoft integration connecting businesses as Salesforce partner",
     "partnerAlt": "Salesforce Partner badge logo displayed against illuminated city skyline background showcasing technology partnership",
     "robustAlt": "City skyline at sunset with colorful light trails showing digital transformation through robust integration solutions",
@@ -1669,6 +2620,117 @@
     "integrationDesc": "Our experts provide an extensive array of MuleSoft services that share your vision and values."
   },
   "salesForceConsulting": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Salesforce Consulting Services",
+      "url": "https://www.rialtes.com/en/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/",
+      "description": "Rialtes provides comprehensive Salesforce consulting services including implementation, integration, migration, and support to help businesses scale, automate processes, and enhance customer engagement.",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Salesforce Consulting Services",
+        "serviceType": "Salesforce Implementation, Integration, Migration, Support, Agentforce & Data Cloud Solutions",
+        "provider": {
+          "@type": "Organization",
+          "name": "Rialtes",
+          "url": "https://www.rialtes.com"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Enterprise Leaders, CIOs, IT Heads, CRM Managers, Customer Experience Teams"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Salesforce Consulting Services by Rialtes",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Implementation Services",
+                "description": "Customized Salesforce implementations to align CRM functionality with business needs."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Integration Services",
+                "description": "Connect Salesforce with ERP, third-party apps, and APIs for seamless data flow."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Migration Services",
+                "description": "Smooth data migration from legacy CRMs or other platforms to Salesforce with zero data loss."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Support Services",
+                "description": "Ongoing CRM support, maintenance, and optimization for peak system performance."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Agentforce Solutions",
+                "description": "Create and deploy autonomous AI agents for 24/7 support and service automation."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Data Cloud Implementation",
+                "description": "Unify customer data for actionable insights and 360° engagement with Data Cloud."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Lightning App Development",
+                "description": "Custom apps using Lightning framework for enhanced UX and faster workflows."
+              }
+            }
+          ]
+        }
+      }
+    },
     "consultingTitle": "Salesforce Consulting Services",
     "partnerLogoAltText": "Official Salesforce Partner logo symbolizing certified consulting expertise",
     "bannerAltText": "Digital banner showing Salesforce consulting focused on enhanced customer engagement",
@@ -1846,6 +2908,109 @@
     "insights": "Insights"
   },
   "revenueCloud": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Salesforce Revenue Cloud Consulting Services",
+      "url": "https://www.rialtes.com/en/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting/",
+      "description": "Rialtes provides Salesforce Revenue Cloud Consulting services to streamline quote-to-cash, automate pricing, improve billing, and integrate revenue operations for business growth.",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Salesforce Revenue Cloud Consulting",
+        "serviceType": "Revenue Operations Optimization, CPQ Implementation, Billing Integration",
+        "provider": {
+          "@type": "Organization",
+          "name": "Rialtes",
+          "url": "https://www.rialtes.com"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Revenue Operations Leaders, Sales Directors, Finance Teams, CPQ Admins, CRM Managers"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Salesforce Revenue Cloud Services by Rialtes",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Revenue Cloud Consulting",
+                "description": "Tailored Revenue Cloud solutions for pricing, quoting, billing, and revenue recognition optimization."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "System Audit and Health Check",
+                "description": "Review and optimize your existing Revenue Cloud configuration for better performance and stability."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Setup and Configuration",
+                "description": "Streamline CPQ and billing processes through efficient platform setup and customization."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Data Migration",
+                "description": "Seamless transition from legacy systems to Revenue Cloud with secure CPQ and billing data migration."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Integration and Upgrades",
+                "description": "Integrate Revenue Cloud with Sales Cloud, ERPs, and CRMs for unified revenue management."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Support and Maintenance",
+                "description": "Post-implementation support, upgrades, admin help, and issue resolution for Salesforce Revenue Cloud."
+              }
+            }
+          ]
+        }
+      }
+    },
     "infographicAlt": "Infographic illustrating Salesforce Revenue Cloud steps from quoting to cash collection",
     "sapPartnerLogoAlt": "Official Salesforce Partner badge symbolizing certified expertise and trusted consulting",
     "bannerAlt": "Banner showing Salesforce Revenue Cloud tools supporting streamlined quote-to-cash operations",
