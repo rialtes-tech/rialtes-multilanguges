@@ -119,10 +119,9 @@ export default function page({ url }) {
                     {filteredBlogsData.slice(0, 9).map((slide) => (
                         <div
                             key={slide.id}
-                            className="flex flex-col sm:basis-1/4 border border-gray-300 hover:border-white sm:mr-6 mb-4 sm:h-[580px] md:h-full h-full lg:h-[600px] group"
-                        >
+                            className="flex flex-col sm:basis-1/4 border border-gray-300 hover:border-white sm:mr-6 mb-4 sm:h-[580px] md:h-full h-full lg:h-[600px] group">
 
-                            <div className="max-h-[300px]">
+                            <div className="h-[260px] 4xl:h-[300px] max-h-[300px]">
                                 <Link href={'/insights/blogs' + slide.url}>
                                     <Image
                                         src={slide.image}
