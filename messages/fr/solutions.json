@@ -467,6 +467,9 @@
     "riseWithSapNavigationAlt": "Graphique de navigation présentant l’expertise Gold Partner pour solutions RISE"
   },
   "agentForce": {
+    "schemaData":{
+
+    },
     "bannerAlt": "Bannière de bureau présentant la plateforme Agentforce AI avec interface numérique moderne",
     "manageCustomerAlt": "Tableau IA affichant des insights intelligents pour la gestion client",
     "leaverageCuttingAlt": "Vue bureau d’Agentforce facilitant des flux numériques automatisés",
