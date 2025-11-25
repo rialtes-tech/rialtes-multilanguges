@@ -10,89 +10,12 @@ import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import Script from "next/script";
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Digital Transformation Automotive Services",
-    "name": "Accelerate digital transformation in the automotive industry​ with Rialtes AutoSense",
-    "provider": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com",
-        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
-        "sameAs": [
-            "https://www.linkedin.com/company/rialtes-technologies-llc/",
-            "https://www.youtube.com/@rialtes"
-        ]
-    },
-    "url": "https://www.rialtes.com/services/lob/salesforce-automotive-cloud-business-solutions-autosense/",
-    "description": "Rialtes AutoSense offers end-to-end automotive digital transformation services for OEMs, suppliers, dealerships, and mobility providers. From Salesforce Automotive Cloud and SAP S/4HANA implementation to ERP integration and connected vehicle ecosystems, we drive innovation in EV strategy, intelligent operations, and data monetization.",
-    "areaServed": [
-        { "@type": "Country", "name": "United States" },
-        { "@type": "Country", "name": "Canada" },
-        { "@type": "Country", "name": "India" },
-        { "@type": "Country", "name": "Singapore" },
-        { "@type": "Country", "name": "Europe" }
-    ],
-    "audience": {
-        "@type": "BusinessAudience",
-        "audienceType": [
-            "OEMs",
-            "Automotive Suppliers",
-            "EV Startups",
-            "Dealerships",
-            "Mobility Providers"
-        ]
-    },
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Rialtes AutoSense Offerings",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Strategic Advisory & Roadmapping",
-                    "description": "Future-ready digital strategy, EV compliance, and CX innovation powered by SAP Signavio and Salesforce advisory."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Design & Implementation",
-                    "description": "Deployment of Salesforce Automotive Cloud, SAP VMS, and connected car ecosystems with AI and IoT integration."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Integration & Quality Assurance",
-                    "description": "End-to-end ERP, CRM, and IoT platform integration, AI-driven testing, and cybersecurity compliance."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Post Go-Live & Continuous Innovation",
-                    "description": "24/7 managed services, AI CoE, and connected data monetization strategies for long-term growth."
-                }
-            }
-        ]
-    },
-    "category": "Automotive Consulting, Digital Transformation, Salesforce Automotive Cloud, SAP S/4HANA for Automotive",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/services/lob/salesforce-automotive-cloud-business-solutions-autosense/"
-    }
-}
+
 export default function page() {
     const t = useTranslations('autoSense')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { keyPillarsSectionData, chooseRialtesData, rialtesMakesWorkData, thoughtLeadershipData } = content.autoSense;
+    const { keyPillarsSectionData, chooseRialtesData, rialtesMakesWorkData, thoughtLeadershipData ,schemaData} = content.autoSense;
     const KeyPillarsSectionDesign = () => {
         return (
             <section className="xl:mt-[95px] mt-[79px]">

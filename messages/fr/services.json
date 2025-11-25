@@ -1,6 +1,6 @@
 {
   "sapBuyPlus": {
-    "schemaData":{},
+    "schemaData": {},
     "headerTitle": "SAPBuy+",
     "whyChooseAlt": "Services d’implémentation SAPBuy+ Ariba de Rialtes avec deux professionnels examinant des documents",
     "agentchatAlt": "Capture de RialChat sur WhatsApp facilitant les validations rapides d’achats ",
@@ -203,7 +203,7 @@
     "keyFeatureTitle": "Fonctionnalités clés d’AgentChat pour les utilisateurs SAP ARIBA"
   },
   "successPlus": {
-    "schemaData":{},
+    "schemaData": {},
     "keySerAlt": "Illustration présentant les services clés d’implémentation et support SuccessFactors",
     "agentchatAlt": "Interface AgentChat offrant support HR automatisé et communication employés",
     "extendAlt": "Illustration montrant capacités étendues de SuccessFactors via extensions SuccessPlus ",
@@ -214,7 +214,7 @@
     "workDayAlt": "Tableau comparatif montrant les avantages de SuccessFactors face à Workday pour la HR ",
     "sapSuccessfacorAlt": "Logo SAP SuccessFactors avec texte bleu et cœur jaune représentant une HR centrée sur l’humain",
     "keyServiceImg": "/images/services/success-plus/key-service-french.webp",
-    "keyServiceImgMobile": "/images/services/success-plus/Mobile/key-service-french-mobile.webp", 
+    "keyServiceImgMobile": "/images/services/success-plus/Mobile/key-service-french-mobile.webp",
     "headerTitle": "Success+",
     "sapPartnerLogoAlt": "Badge officiel SAP Partner montrant l’expertise certifiée en SuccessFactors ",
     "bannerAlt": "Bannière présentant SuccessPlus comme partenaire SAP SuccessFactors pour optimiser la HR",
@@ -407,7 +407,7 @@
     ]
   },
   "kinaxis": {
-    "schemaData":{},
+    "schemaData": {},
     "headerTitle": "DemandPlus",
     "seoTitle": "Kinaxis RapidResponse pour une Supply Chain Agile avec Rialtes DemandPlus",
     "seoDescription": "Réinventez vos chaînes logistiques avec Kinaxis RapidResponse et DemandPlus de Rialtes pour plus d’agilité, de rapidité et de précision.",
@@ -561,6 +561,7 @@
     "contactSubTitle": "Prêt à transformer la planification et la résilience de votre chaîne d’approvisionnement avec Kinaxis RapidResponse ? Laissez Rialtes DemandPlus vous guider à chaque étape — de la stratégie à l’exécution."
   },
   "growWithSap": {
+    "schemaData": {},
     "services": [
       {
         "alt": "Icône bleue d’un certificat avec médaille et lignes de texte représentant un accomplissement ou une qualification",
@@ -765,6 +766,7 @@
     "contactSubTitle": "Renforcez votre parcours de croissance avec VoyagerNext — la méthode Rialtes pour libérer le potentiel de S/4HANA Cloud."
   },
   "riseWithSap": {
+    "schemaData": {},
     "greenfieldItemsLeft": [
       {
         "title": "Alignement Vision et Stratégie",
@@ -967,6 +969,7 @@
     "contactTitle": "Associez-vous à Rialtes pour transformer votre paysage SAP !"
   },
   "autoSense": {
+      "schemaData": {},
     "keyPillarsTitle": "Piliers clés d’AutoSense",
     "seoTitle": "Solutions et Services Salesforce Automotive Cloud | Rialtes AutoSense",
     "seoDescription": "Avec AutoSense, Rialtes booste Salesforce Automotive Cloud pour innover, optimiser et offrir une expérience client exceptionnelle.",
@@ -1121,6 +1124,7 @@
     "contactTitle": "Accélérez votre transformation automobile avec Rialtes"
   },
   "salesforceAgent": {
+       "schemaData": {},
     "certifiedSectionAlt": "Développeurs de logiciels codant sur plusieurs écrans dans espace de travail technologique collaboratif avec équipe",
     "migrateSectionAlt": "Bâtiment futuriste en verre avec nuages reflétés représentant infrastructure cloud moderne évolutive et architecture",
     "salesforceIndustryCloudSolutionsAlt": "Spécialisations Salesforce Industry Cloud incluant solutions Healthcare, Manufacturing, Education et Real Estate",
@@ -1601,6 +1605,7 @@
     "contactSubTitle": "Contactez-nous dès aujourd’hui pour découvrir comment SAP Digital Desk peut transformer vos opérations SAP."
   },
   "retailPlus": {
+   "schemaData": {},
     "retailServices": [
       {
         "title": "Conseil en stratégie :",
@@ -1743,6 +1748,7 @@
     "contactTitle": "Contactez Rialtes dès aujourd’hui pour découvrir comment Retail+ peut préparer votre entreprise de distribution à l’avenir."
   },
   "lifeAiPlus": {
+     "schemaData": {},
     "headerTitle": "LifeAI+",
     "seoTitle": "Services de Conseil Salesforce Life Sciences Cloud | Rialtes",
     "seoDescription": "LifeAI+ de Rialtes optimise Salesforce Life Sciences pour améliorer la conformité, fluidifier les soins et renforcer la qualité des services.",
@@ -1872,6 +1878,7 @@
     "contactSubTitle2": "Contactez-nous dès aujourd’hui pour planifier une session stratégique personnalisée et une démonstration."
   },
   "advantagePlus": {
+     "schemaData": {},
     "latestServices": [
       {
         "id": 1,
@@ -2045,6 +2052,7 @@
     "contactTitle": "Prêt à accélérer votre marketing ? Parlons-en !"
   },
   "rialFinance": {
+     "schemaData": {},
     "whyRialtesAlt": "Femme professionnelle présentant analyse Salesforce Financial Services Cloud et stratégies numériques au client",
     "howWeDeliverAlt": "Trois professionnels collaborant joyeusement en examinant données financières sur tablette en bureau moderne",
     "salesforceAlt": "Main utilisant stylet sur tablette futuriste affichant analyses financières temps réel, graphiques et tableaux IA",

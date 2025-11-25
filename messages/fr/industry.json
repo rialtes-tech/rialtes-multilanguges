@@ -128,6 +128,7 @@
         "contactUs": "Prêt à passer à l'étape suivante ? Commencez votre parcours"
     },
     "realEstate": {
+          "schemaData": {},
         "headerTitle": "Gérez vos processus immobiliers avec un logiciel de gestion de biens basé sur le cloud",
         "seoTitle": "Révolutionner la Gestion Immobilière pour le Secteur de l’Immobilier | Rialtes",
         "seoDescription": "L’avenir de la gestion immobilière est là : automatisez vos locations, réduisez les vacances et améliorez le ROI avec un logiciel dédié.",
@@ -252,6 +253,7 @@
         "knowMore": "En savoir plus"
     },
     "lifeScience": {
+          "schemaData": {},
         "bannerAlt":"Main numérique tenant plante avec réseau bleu connecté sur fond sombre représentant innovation numérique sciences de vie",
         "whyAlt":"Corps humain numérique filaire avec organes mis en évidence et interfaces données médicales sur fond sombre montrant analytique",
         "thoughtAlt":"Deux médecins en blouses blanches réunis avec professionnel d'affaires discutant graphiques données santé sur écran",
@@ -474,6 +476,7 @@
         "contactSubTitle2": "Contactez-nous dès aujourd'hui pour découvrir comment Rialtes peut stimuler la croissance et l'impact patient de votre organisation."
     },
     "healthCare": {
+          "schemaData": {},
          "bannerAlt":"Professionnel de santé en blouse et lunettes analysant affichage holographique de données médicales avec ADN et imagerie",
         "slidesCaseStudy": [
             {
@@ -595,6 +598,7 @@
         "contactTitle": "Faites le prochain pas vers l’excellence opérationnelle avec nous."
     },
     "pharmaBiotech": {
+          "schemaData": {},
         "agentForceAlt": "Visuel représentant les outils Salesforce d’Agentforce pour la vente et la collaboration médicale en pharmacie",
         "agentChatAlt": "Image montrant l’intégration d’AgentChat avec WhatsApp pour communication sécurisée entre HCP et patients",
         "remoteMonitoringAlt": "Visuel représentant des outils de surveillance à distance pour suivre la sécurité et l’usage réel des produits.",
@@ -776,6 +780,7 @@
         "contactTitle": "Collaborez avec Rialtes — pour l’excellence Pharma et Biotech de nouvelle génération !"
     },
     "medicalDevices": {
+         "schemaData": {},
         "bannerAlt": "Scanner IRM moderne avec éclairage bleu dans une suite d'imagerie clinique présentant une technologie de diagnostic",
         "thoughtAlt": "Femme médecin professionnelle en blouse blanche examinant des dossiers médicaux dans un établissement de santé moderne",
         "whyAlt": "Bras chirurgicaux robotiques avancés avec instruments de précision dans une salle d'opération stérile et moderne",
@@ -959,6 +964,7 @@
         "learnMoreBtn": "En savoir plus"
     },
     "homeHealth": {
+         "schemaData": {},
         "aiPoweredAlt": "Graphique illustrant les soins à domicile pilotés par IA avec des insights prédictifs et de l’automatisation.",
         "agentchatAlt": "Image montrant l’intégration d’AgentChat avec WhatsApp pour la communication entre patients et soignants.",
         "globalDeleveryAlt": "Programmes mondiaux de santé à domicile assurant conformité et soins dans plusieurs régions",

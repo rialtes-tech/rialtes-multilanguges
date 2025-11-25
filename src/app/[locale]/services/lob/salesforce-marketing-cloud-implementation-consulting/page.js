@@ -10,111 +10,13 @@ import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Salesforce Marketing Cloud Consulting & Implementation Services",
-    "alternateName": "Advantage+ Salesforce Marketing Cloud Services",
-    "url": "https://www.rialtes.com/services/lob/salesforce-marketing-cloud-implementation-consulting/",
-    "description": "Salesforce Marketing Cloud Consulting & Implementation Services by Rialtes’ Advantage+ deliver AI-powered, personalized journeys across channels—driving real ROI.",
-    "provider": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com",
-        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
-        "sameAs": [
-            "https://www.linkedin.com/company/rialtes-technologies-llc",
-            "https://x.com/Rialtestech",
-            "https://www.youtube.com/@rialtes"
-        ]
-    },
-    "areaServed": [
-        { "@type": "Country", "name": "United States" },
-        { "@type": "Country", "name": "Canada" },
-        { "@type": "Country", "name": "Singapore" },
-        { "@type": "Country", "name": "India" },
-        { "@type": "Continent", "name": "Europe" }
-    ],
-    "serviceType": "Salesforce Marketing Cloud Strategy, Setup, Personalization, Integration, and Support",
-    "category": "Salesforce Marketing Cloud Services",
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Advantage+ Marketing Cloud Services Catalog",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Advisory & Strategy Development",
-                    "description": "Align marketing goals with Salesforce Marketing Cloud capabilities using a tailored roadmap, industry insights, and future-ready strategies."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Implementation & Configuration",
-                    "description": "Deploy Salesforce Marketing Cloud rapidly with custom configurations that match your audience engagement needs, campaign goals, and data models."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Creative & Design Services",
-                    "description": "Design responsive email templates, landing pages, and personalized customer journeys that elevate brand experience across digital channels."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Quality Assurance & Optimization",
-                    "description": "Perform multi-channel testing, validate automations, and optimize journey performance with QA checkpoints across the entire marketing funnel."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Integration & Data Readiness",
-                    "description": "Enable seamless integration with Salesforce Clouds, CRMs, ERPs, and third-party platforms while preparing data for real-time personalization."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Post Go-Live Support & Analytics",
-                    "description": "Get continuous support, campaign monitoring, training, and advanced analytics to measure ROI, improve engagement, and enhance scalability."
-                }
-            }
-        ]
-    },
-    "additionalProperty": [
-        {
-            "@type": "PropertyValue",
-            "name": "Deep Salesforce Marketing Cloud Expertise",
-            "value": "Hands-on experience across Journey Builder, Email Studio, Mobile Studio, Datorama, and more."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Driving Business Growth with Salesforce Marketing Cloud",
-            "value": "Support for scalable B2B/B2C marketing, segmentation, and ROI-focused campaigns."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Reimagine B2B & B2C Marketing with AI and Data Cloud",
-            "value": "Deliver real-time personalization, predictive insights, and AI-optimized journeys at scale."
-        }
-    ]
-}
+
 
 export default function Page() {
     const t = useTranslations('advantagePlus')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { latestServices, moreSalesforce, deepData1, deepData2, marketingFeatures, aiMarketingData, agentChatData, yourGrowthData } = content.advantagePlus;
+    const { latestServices, moreSalesforce, deepData1, deepData2, marketingFeatures, aiMarketingData, agentChatData, yourGrowthData,schemaData } = content.advantagePlus;
     const ServicesCard = ({ services }) => (
         <div className="flex flex-col border border-[#707070] p-6 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
             <div className="flex-grow flex flex-col">

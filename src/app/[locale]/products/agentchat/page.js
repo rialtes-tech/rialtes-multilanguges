@@ -9,63 +9,12 @@ import esContent from '../../../../../messages/es/products.json';
 import frContent from '../../../../../messages/fr/products.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import Script from "next/script";
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "AgentChat",
-    "image": "https://www.rialtes.com/images/industry/real-estate/agentchat-whatsapp-salesforce-integration.webp",
-    "description": "AgentChat is a bi-directional WhatsApp conversational app natively built on Salesforce, offering seamless Salesforce WhatsApp integration. It enables real-time messaging, supports all Salesforce Clouds, and allows teams to engage, support, and close deals through WhatsApp without leaving Salesforce.",
-    "brand": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com",
-        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
-    },
-    "url": "https://www.rialtes.com/products/agentchat/",
-    "category": "Salesforce WhatsApp Messaging App",
-    "isRelatedTo": {
-        "@type": "SoftwareApplication",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "Cloud",
-        "softwareRequirements": "Salesforce platform"
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/products/agentchat/"
-    },
-    "additionalProperty": [
-        {
-            "@type": "PropertyValue",
-            "name": "Salesforce Integration",
-            "value": "Works with Leads, Cases, Opportunities, Work Orders, and Custom Objects."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Real-Time Bi-Directional Messaging",
-            "value": "Synchronizes messages in real time between WhatsApp and Salesforce."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Multi-Team Support",
-            "value": "Supports Sales, Service, Field, Education, and Nonprofit teams."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Role-Based Access Control",
-            "value": "Advanced permissions using Salesforce’s native security model."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "GDPR & HIPAA Ready",
-            "value": "Built on Salesforce’s secure and compliant platform."
-        }
-    ]
-}
+
 export default function Page() {
     const t = useTranslations("agentChat");
     const locale = useLocale();
     const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { features, tableData } = homepageContent.agentChat;
+    const { features, tableData,schemaData } = homepageContent.agentChat;
 
 
     return (
