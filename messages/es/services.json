@@ -561,6 +561,7 @@
         "contactSubTitle": "Listo para transformar tu planificación y resiliencia en la cadena de suministro con Kinaxis RapidResponse? Deja que Rialtes DemandPlus te guíe en cada paso — de la estrategia a la ejecución."
     },
     "growWithSap": {
+        "schemaData": {},
         "services": [
             {
                 "alt": "Ícono de línea azul de documento de certificado con cinta de medalla y líneas de texto que representan logro o cualificación",
@@ -765,6 +766,7 @@
         "contactSubTitle": "Impulsa tu camino de crecimiento con VoyagerNext — la forma de Rialtes de liberar el potencial de S/4HANA Cloud."
     },
     "riseWithSap": {
+         "schemaData": {},
         "greenfieldItemsLeft": [
             {
                 "title": "Alineación de Visión y Estrategia",
@@ -967,6 +969,7 @@
         "contactTitle": "¡Asóciate con Rialtes para Transformar tu Ecosistema SAP!"
     },
     "autoSense": {
+          "schemaData": {},
         "keyPillarsTitle": "Pilares Clave de AutoSense",
         "seoTitle": "Soluciones Salesforce Automotive Cloud y Servicios | Rialtes AutoSense",
         "seoDescription": "AutoSense de Rialtes impulsa Salesforce Automotive Cloud para lograr eficiencia e innovación, mejorando experiencias del cliente automotriz.",
@@ -1121,6 +1124,7 @@
         "contactTitle": "Acelera tu transformación automotriz con Rialtes"
     },
     "salesforceAgent": {
+           "schemaData": {},
         "certifiedSectionAlt": "Desarrolladores de software programando en múltiples pantallas en espacio tecnológico colaborativo con equipo de fondo",
         "migrateSectionAlt": "Edificio futurista de vidrio con nubes reflejadas representando infraestructura cloud moderna escalable y arquitectura digital",
         "salesforceIndustryCloudSolutionsAlt": "Especializaciones Salesforce Industry Cloud incluyendo soluciones Healthcare, Manufacturing, Education y Real Estate",
@@ -1601,6 +1605,7 @@
         "contactSubTitle": "Contáctenos hoy para descubrir cómo SAP Digital Desk puede transformar sus operaciones SAP."
     },
     "retailPlus": {
+    "schemaData": {},
         "retailServices": [
             {
                 "title": "Consultoría Estratégica y Asesoría:",
@@ -1743,6 +1748,7 @@
         "contactTitle": "Contáctenos hoy para descubrir cómo Retail+ puede preparar su empresa minorista para el futuro."
     },
     "lifeAiPlus": {
+         "schemaData": {},
         "headerTitle": "LifeAI+",
         "seoTitle": "Servicios de Consultoría Salesforce Life Sciences Cloud",
         "seoDescription": "LifeAI+ de Rialtes ofrece consultoría Salesforce Life Sciences para optimizar operaciones, cumplir normativas y mejorar la atención médica.",
@@ -1872,6 +1878,7 @@
         "contactSubTitle2": "Contáctanos hoy para programar una sesión estratégica personalizada y una demostración."
     },
     "advantagePlus": {
+         "schemaData": {},
         "latestServices": [
             {
                 "id": 1,
@@ -2045,6 +2052,7 @@
         "contactTitle": "¿Listo para Acelerar tu Marketing? ¡Hablemos!"
     },
     "rialFinance": {
+         "schemaData": {},
         "whyRialtesAlt": "Mujer profesional presentando análisis de Salesforce Financial Services Cloud y estrategias digitales a cliente",
         "howWeDeliverAlt": "Tres profesionales colaborando felizmente mientras revisan datos financieros en tablet en oficina moderna",
         "salesforceAlt": "Mano usando stylus en tablet futurista mostrando análisis financieros en tiempo real, gráficos y dashboards con IA",

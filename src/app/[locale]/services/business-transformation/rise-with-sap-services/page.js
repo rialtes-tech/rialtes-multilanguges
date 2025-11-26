@@ -13,96 +13,7 @@ import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Rise with SAP Services",
-  "alternateName": "VoyagerPlus by Rialtes",
-  "url": "https://www.rialtes.com/services/business-transformation/rise-with-sap-services/",
-  "description": "Accelerate your digital transformation with Rialtes Voyager+ for RISE with SAP. Our services include SAP S/4HANA Cloud implementation, Greenfield and Brownfield deployments, SAP BTP integrations, SAP Signavio process intelligence, and post-go-live support — tailored for future-ready enterprises.",
-  "provider": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": "https://www.rialtes.com/images/homepage/logo.svg",
-    "sameAs": [
-      "https://www.linkedin.com/company/rialtes-technologies-llc/",
-      "https://www.youtube.com/@rialtes"
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressCountry": "US"
-    }
-  },
-  "areaServed": [
-    {
-      "@type": "Country",
-      "name": "United States"
-    },
-    {
-      "@type": "Country",
-      "name": "Canada"
-    },
-    {
-      "@type": "Country",
-      "name": "India"
-    },
-    {
-      "@type": "Country",
-      "name": "Singapore"
-    }
-  ],
-  "audience": {
-    "@type": "Audience",
-    "audienceType": "Enterprises, CIOs, CTOs, ERP Leaders"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "RISE with SAP Services",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "SAP Cloud ERP Implementation",
-          "description": "End-to-end implementation of SAP S/4HANA Cloud using SAP Activate and Rialtes Voyager+ methodology."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Greenfield SAP Implementation",
-          "description": "Reimagine your ERP from scratch using SAP best practices, SAP Signavio, and data strategy frameworks."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Brownfield SAP System Conversion",
-          "description": "Seamlessly migrate from ECC to SAP S/4HANA while retaining data and business processes."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "SAP Business Technology Platform Integration",
-          "description": "Custom app development, automation, analytics, and integrations with SAP BTP and CPI."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Connected SAP Solutions",
-          "description": "Integrate SAP SuccessFactors, SAP Ariba, and Salesforce with SAP S/4HANA for business synergy."
-        }
-      }
-    ]
-  }
-}
+
 const BulletList = ({ items }) => (
   <ul className="list-disc space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] lg:text-[14px] text-[16px]">
     {items.map(({ title, description }, idx) => (
@@ -119,7 +30,7 @@ export default function Page() {
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { frActive, esActive } = useActiveLocale();
-  const { greenfieldItemsLeft, greenfieldItemsRight, brownfieldItemsLeft, brownfieldItemsRight, sapTransformations, btpData, sapIntegrations, communicationBenefits, aiData, ourActivateData, } = content.riseWithSap;
+  const { greenfieldItemsLeft, greenfieldItemsRight, brownfieldItemsLeft, brownfieldItemsRight, sapTransformations, btpData, sapIntegrations, communicationBenefits, aiData, ourActivateData,schemaData } = content.riseWithSap;
   return (
     <div className="min-h-screen bg-white">
       <Seo

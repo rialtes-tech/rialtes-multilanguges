@@ -13,111 +13,12 @@ import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Cloud-Based Property Management and Real Estate IT Solutions",
-  "url": "https://www.rialtes.com/industry/real-estate-property-management/",
-  "description": "Rialtes delivers cloud-based property management software and digital transformation services for real estate brokerages, property managers, and investors. Our Exelona platform and RealForce CRM, built on Salesforce, streamline operations, accounting, leasing, maintenance, and AI-powered decision-making.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    },
-    "sameAs": [
-      "https://www.linkedin.com/company/rialtes-technologies-llc/",
-      "https://www.youtube.com/@rialtes"
-    ]
-  },
-  "mainEntity": {
-    "@type": "Service",
-    "name": "Cloud-Based Property Management & Real Estate IT Solutions",
-    "areaServed": [
-      { "@type": "Country", "name": "United States" },
-      { "@type": "Country", "name": "Canada" },
-      { "@type": "Country", "name": "India" },
-      { "@type": "Country", "name": "Singapore" }
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Real Estate IT Solutions",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "RealForce Property Management Platform",
-            "description": "Built on Salesforce, RealForce offers ERP and CRM capabilities for residential and commercial property management with mobile access, automation, and reporting."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "RealPay Payment Gateway",
-            "description": "A multi-currency, bank-integrated payment solution supporting over 135 currencies and offering digital rent collection for tenants and property managers."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "AI Leasing Assistant",
-            "description": "AI-powered leasing assistant software for faster lead handling, automated communication, and cost savings in residential and commercial leasing operations."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "AI Maintenance Management",
-            "description": "Intelligent triaging and routing of maintenance requests, enabling real-time work order management, task tracking, and SLA compliance."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Property Accounting & Financial Reporting",
-            "description": "End-to-end property accounting tools with electronic invoicing, AI abstraction, digital payments, and financial dashboards tailored for real estate firms."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "CRM & Real Estate Marketing Automation",
-            "description": "Salesforce-based CRM solutions for real estate including listing conversion, lead nurturing, campaign automation, and syndication tools."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Custom Integrations",
-            "description": "System integration services to connect RealForce and Exelona with existing ERP, accounting, CRM, or leasing platforms for unified operations."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Real Estate Outsourcing Services",
-            "description": "Flexible on-site, offsite, or hybrid outsourcing for property management, accounting, tenant onboarding, and lease operations."
-          }
-        }
-      ]
-    }
-  }
-}
+
 export default function Page() {
   const t = useTranslations("realEstate");
   const locale = useLocale();
   const realContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { growLatestServices, latestServices, slides } = realContent.realEstate;
+  const { growLatestServices, latestServices, slides,schemaData } = realContent.realEstate;
 
 
   const ServicesCard = ({ services }) => (
