@@ -97,9 +97,8 @@ const Home = () => {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             <div className="relative custom-container overflow-hidden">
-                <div className="w-full max-[400px]:h-[340px] h-[480px] min-[500px]:h-[600px] sm:h-[780px] md:h-[700px] lg:h-[540px] xl:h-[630px] 4xl:h-[700px] relative">
-
-                    {slidesData.map((s, i) => (
+                <div className="w-full max-[400px]:h-[340px] h-[480px] min-[500px]:h-[600px] sm:h-[780px] md:h-[700px] lg:h-[540px] xl:h-[550px] 2xl:h-[625px] 4xl:h-[700px] relative">
+                    {slides.map((s, i) => (
                         <Link key={i} href={s.link}>
                             <div
                                 className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${i === currentSlide ? "opacity-100 z-30" : "opacity-0 z-20"
