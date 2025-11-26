@@ -10,98 +10,12 @@ import enContent from '../../../../../messages/en/products.json';
 import esContent from '../../../../../messages/es/products.json';
 import frContent from '../../../../../messages/fr/products.json';
 import { changeLocalization } from "../../components/changeLocalization";
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Exelona",
-    "image": "https://www.rialtes.com/images/products/exelona/desktop/smart-city-digital-transformation-concept.webp",
-    "description": "Exelona is an intelligent real estate cloud platform built on Salesforce. It unifies every step of the property lifecycle—from lead generation to financial closeout—with AI-driven automation, CRM + ERP convergence, and mobile-first experiences. Designed for property managers, developers, and portfolio owners, Exelona transforms marketing, operations, finance, and resident engagement in one secure platform.",
-    "brand": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com",
-        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
-    },
-    "url": "https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/",
-    "category": "Real Estate Cloud Platform",
-    "isRelatedTo": {
-        "@type": "SoftwareApplication",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "Cloud",
-        "softwareRequirements": "Salesforce platform"
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/"
-    },
-    "additionalProperty": [
-        {
-            "@type": "PropertyValue",
-            "name": "Mobile-Enabled",
-            "value": "100% mobile-first experience for leasing, maintenance, and finance."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "AI + Conversational Interfaces",
-            "value": "Agentic AI for automation, prioritization, and resident/agent communication."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "CRM + ERP Unified",
-            "value": "One system for marketing, leasing, operations, accounting, and reporting."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Open API Integrations",
-            "value": "Easily integrates with SAP, Oracle, Yardi, Salesforce, and other platforms."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Asset Marketing",
-            "value": "Lead and campaign management, digital asset management, and analytics to maximize leasing velocity."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Property Operations",
-            "value": "AI-enabled operations, automated billing, work order management, SLA tracking, and technician assignment."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Financial Suite",
-            "value": "Accounts receivable, budgeting & forecasting, accounts payable, procurement, and asset management."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Resident Experience",
-            "value": "ExelPersona™ branded portals with multilingual support, self-service, and AI chatbot."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Payments",
-            "value": "ExelPay™ integrated payments supporting ACH, checks, credit/debit cards with reconciliation."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "AI Assistant",
-            "value": "AgentChat conversational AI for residents, applicants, and property teams."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Security & Compliance",
-            "value": "Built on Salesforce with SOC2, HIPAA, GDPR, and FedRAMP compliance."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Scalability",
-            "value": "Supports residential, commercial, and mixed-use portfolios from 100 to 100,000+ units."
-        }
-    ]
-}
+
 export default function Page() {
     const t = useTranslations("exelona");
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { features, properties, assetMarketingData, aiEnabledData, excelPersonaData, excelPayData, agentChatData, builtData, buildSalesforceData } = content.exelona;
+    const { features, properties, assetMarketingData, aiEnabledData, excelPersonaData, excelPayData, agentChatData, builtData, buildSalesforceData , schemaData} = content.exelona;
     return (
         <div className="min-h-screen bg-white">
             <Seo
