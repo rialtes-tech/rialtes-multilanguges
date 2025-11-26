@@ -12,40 +12,12 @@ import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 import Seo from "@/app/[locale]/components/Seo";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
-  },
-  "headline": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-  "description": "Explore how Agentforce Testing Center leverages synthetic data to revolutionize AI model testing, ensuring security, reliability, and scalability.",
-  "image": "https://www.rialtes.com/images/blog/digital-gears-network-automation-technology-concept.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-11-25",
-  "articleSection": "AI Testing",
-  "url": "https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
-
-}
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations('agentforceTesting')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { commonData } = blogsContent.agentforceTesting;
+  const { commonData,schemaData} = blogsContent.agentforceTesting;
   const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data";
 
   return (

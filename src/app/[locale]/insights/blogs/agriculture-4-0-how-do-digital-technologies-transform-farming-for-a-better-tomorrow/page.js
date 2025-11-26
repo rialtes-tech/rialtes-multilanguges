@@ -14,38 +14,6 @@ import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/",
-  },
-  headline:
-    "Agriculture 4.0: How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-  description:
-    "Explore how Agriculture 4.0 and platforms like Salesforce are revolutionizing modern farming with AI, automation, and real-time data-driven insights.",
-  image:
-    "https://www.rialtes.com/images/blog/professional-drone-camera-aerial-agriculture-monitoring.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  datePublished: "2024-09-17",
-  articleSection: "Salesforce for Agriculture",
-  url: "https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/",
-};
-
 export default function Page() {
   const t = useTranslations("agriculture");
   const locale = useLocale();
@@ -54,7 +22,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { adoptingData, commonData } = blogsContent.agriculture;
+  const { adoptingData, commonData,schemaData } = blogsContent.agriculture;
   const fullUrl = "https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow";
   const currUrl = useUrl();
 

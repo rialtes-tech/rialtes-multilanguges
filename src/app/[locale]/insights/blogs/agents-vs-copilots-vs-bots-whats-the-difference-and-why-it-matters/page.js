@@ -12,97 +12,6 @@ import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCa
 import useUrl from "@/app/[locale]/components/useUrl";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
-  },
-  headline:
-    "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-  description:
-    "Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
-  image:
-    "https://www.rialtes.com/images/blog/abstract-data-flow-visualization-digital.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  datePublished: "2024-10-28",
-  dateModified: "2025-07-25",
-  articleSection: "AI Automation",
-  url: "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "What’s the difference between bots, copilots, and agents?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Bots follow simple rules to perform tasks. Copilots offer contextual help and suggestions, often requiring user input. Agents act independently, make decisions, and can operate across systems autonomously. Think of bots as basic responders, copilots as smart assistants, and agents as decision-makers.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is an example of a bot?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "A chatbot that answers questions like 'What is your return policy?' on an e-commerce website is a good example of a bot. It follows scripted responses and doesn’t adapt to complex queries.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What does an AI agent do?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "An AI agent can understand tasks, make decisions, and execute actions without constant human intervention. In manufacturing, for example, an agent can predict delays and reschedule workflows automatically.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Is Copilot better than chatbot?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. A copilot provides intelligent suggestions based on context and user behavior, whereas a chatbot sticks to predefined scripts. Copilots are more dynamic and user-focused than basic bots.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Which AI tool is more powerful: agent or copilot?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Agents are more powerful. While copilots assist users by providing recommendations, AI agents go further—they make decisions, adapt, and act autonomously across processes.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Which AI should I use for customer support in manufacturing?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "AI agents are best for manufacturing customer service. They handle complex queries, integrate with enterprise systems, and resolve issues faster than traditional bots or copilots.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Can AI agents fully replace humans in operations?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "No. AI agents are ideal for automating repetitive and data-driven tasks, but human-AI collaboration is still essential for strategic decisions, creativity, and empathy-driven customer service.",
-      },
-    },
-  ],
-};
-
 export default function Page() {
   const t = useTranslations("agentCopilot");
   const locale = useLocale();
@@ -111,7 +20,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { faqData, list, caseStudies, agentUseCases, copilotList, whyData, toolData } =
+  const { faqData, list, caseStudies, agentUseCases, copilotList, whyData, toolData,schemaData } =
     blogsContent.agentCopilot;
   const fullUrl = "https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters";
   const currUrl = useUrl();

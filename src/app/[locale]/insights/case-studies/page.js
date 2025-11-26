@@ -14,34 +14,13 @@ import { changeLocalization } from "../../components/changeLocalization";
 import useUrl from "@/app/[locale]/components/useUrl";
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/case-studies/"
-  },
-  "name": "Rialtes Case Studies | Proven Salesforce and SAP Implementations",
-  "headline": "Real Results with Salesforce and SAP – Customer Success Stories",
-  "description": "Explore how Rialtes empowers organizations across industries with Salesforce, SAP, Yardi, and MuleSoft solutions. Discover real-world case studies that showcase innovation, efficiency, and digital transformation.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  }
-
-
-}
 
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations('caseStudy')
   const locale = useLocale();
   const caseStudyContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { latestCaseStudy, slides, industries } = caseStudyContent.caseStudy;
+  const { latestCaseStudy, slides, industries ,schemaData} = caseStudyContent.caseStudy;
 
   const CaseStudyCard = ({ casestudy }) => (
     <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
