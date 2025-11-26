@@ -11,43 +11,13 @@ import Script from "next/script";
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/case-studies/realForce-banking-module-ach/",
-  },
-  headline: "Case Study: RealForce Banking Module for ACH Integration",
-  description:
-    "Explore how Rialtes implemented the RealForce Banking Module to enable seamless ACH integration, reduce payment processing time, and enhance financial automation.",
-  image:
-    "https://www.rialtes.com/images/case-studies/business-team-architect-blueprint-office-discussion.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  articleSection: "Case Studies",
-  datePublished: "2024-12-22",
-};
 
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations("realForceCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { problemList, solutionList, benefitsList } =
-    Content.realForceCaseStudy;
-
+  const { problemList, solutionList, benefitsList, schemaData } = Content.realForceCaseStudy;
   const fullUrl = "https://www.rialtes.com/insights/case-studies/realForce-banking-module-ach";
 
   return (

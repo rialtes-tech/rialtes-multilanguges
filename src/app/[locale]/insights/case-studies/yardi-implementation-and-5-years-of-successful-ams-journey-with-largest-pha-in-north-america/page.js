@@ -11,41 +11,12 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 
-
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/",
-  },
-  headline: "Case Study: Trusted YARDI Partner for North America’s Largest PHA",
-  description:
-    "Explore how Rialtes partnered with North America’s largest PHA for a full-scale Yardi implementation and provided 5 years of robust AMS support, ensuring operational excellence and compliance.",
-  image: "https://www.rialtes.com/images/case-studies/urban-community-collaboration.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  articleSection: "Case Studies",
-  datePublished: "2024-09-27",
-};
-
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations("yardiCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { challengesList, solutionStepsList, benefitsList } =
+  const { challengesList, solutionStepsList, benefitsList, schemaData } =
     Content.yardiCaseStudy;
 
   const fullUrl = "https://www.rialtes.com/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america";

@@ -12,33 +12,6 @@ import esContent from "../../../../../../messages/es/caseStudy.json";
 import frContent from "../../../../../../messages/fr/caseStudy.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study/"
-    },
-    "headline": "SAP ERP Cloud Solutions | Automotive Case Study",
-    "description": "This case study shows how Rialtes implemented SAP ERP Cloud solutions for a leading global tire manufacturer to automate O2C and P2P using SD, MM, FI, Ariba, EWM, VIM, and Fiori—improving order accuracy, fulfillment speed, inventory efficiency, and supplier performance.",
-    "image": "https://www.rialtes.com/images/case-studies/automotive-tire-factory-production-line.webp",
-    "author": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
-        }
-    },
-    "articleSection": "Case Studies",
-    "keywords": "sap erp cloud solutions, automotive case study",
-    "datePublished": "2025-11-19"
-};
 
 export default function page() {
     const currUrl = useUrl()
@@ -46,7 +19,7 @@ export default function page() {
     const t = useTranslations("sapErp");
     const locale = useLocale();
     const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { challenges, solutions, fioriData, benefits, businessData } = Content.sapErp;
+    const { challenges, solutions, fioriData, benefits, businessData,schemaData } = Content.sapErp;
     return (
         <section className="min-h-screen bg-white">
             <Seo
