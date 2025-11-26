@@ -762,7 +762,7 @@ const FeaturedCarousel = () => {
 
 const BlogCard = ({ blog }) => (
   <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
-    <div className="max-h-[300px]">
+    <div className="h-[260px] 4xl:h-[300px] max-h-[300px]">
       <Link href={'/insights/blogs' + blog.url}>
         <Image
           src={blog.image}
