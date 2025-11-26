@@ -12,42 +12,6 @@ import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCa
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry",
-  },
-  headline: "Agentic Pharma – The AI-driven era of the Pharmaceutical Industry",
-  description:
-    "Discover how Agentic AI is transforming the pharmaceutical industry—from drug discovery to patient support programs—by enhancing compliance, efficiency, and patient outcomes.",
-  image: "https://www.rialtes.com/images/blog/fiber-optic-tree-network-connectivity-illustration.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  datePublished: "2025-05-30",
-  keywords: [
-    "Agentic AI in pharma",
-    "AI in the pharmaceutical industry",
-    "Pharma AI applications",
-    "Pharma supply chain AI",
-  ],
-  articleSection: "AI in Pharma",
-  url: "https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry",
-};
-
 const fullUrl = "https://www.rialtes.com/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry";
 
 export default function Page() {
@@ -59,7 +23,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { blogMainData, whyPharmaData, agenticAppData } = content.agenticPharma;
+  const { blogMainData, whyPharmaData, agenticAppData,schemaData } = content.agenticPharma;
   return (
     <div className="min-h-screen bg-white">
       <Seo

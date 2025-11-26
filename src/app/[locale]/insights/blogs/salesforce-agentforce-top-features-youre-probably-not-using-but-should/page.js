@@ -12,40 +12,12 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/"
-  },
-  "headline": "Salesforce Agentforce Top Features You’re Probably Not Using but Should",
-  "description": "Uncover the hidden gems of Salesforce Agentforce, including AI-powered routing, custom dashboards, and real-time analytics to boost your support operations.",
-  "image": "https://www.rialtes.com/images/blog/ai-chatbot-robot-customer-service-automation.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2025-02-03",
-  "articleSection": "Salesforce Agentforce",
-  "url": "https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/"
-}
-
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations('powerfulFeatures')
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { blogMainData, commonData } = content.powerfulFeatures;
+  const { blogMainData, commonData,schemaData } = content.powerfulFeatures;
   const fullUrl = "https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should";
 
   return (

@@ -11,37 +11,7 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/",
-  },
-  headline:
-    "Agents as Teammates: Revolutionizing Slack Collaboration with Agentforce",
-  description:
-    "Discover how Agentforce transforms Slack into a collaborative space with AI teammates that automate workflows, manage tasks, and enhance productivity.",
-  image:
-    "https://www.rialtes.com/images/blog/ai-agent-digital-interface.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  datePublished: "2024-12-30",
-  articleSection: "Agentforce",
-  url: "https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/",
-};
+
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations("meetTeammate");
@@ -49,9 +19,9 @@ export default function Page() {
   const blogsContent = changeLocalization(locale, {
     en: enContent,
     es: esContent,
-    fr: frContent,
+    fr: frContent, 
   });
-  const { featuresData, whatAgentData, integrateData, bringData } =
+  const { featuresData, whatAgentData, integrateData, bringData,schemaData } =
     blogsContent.meetTeammate;
   const fullUrl = "https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce";
 

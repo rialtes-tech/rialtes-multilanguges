@@ -1757,6 +1757,7 @@
     "infographicAlt": "Infographie illustrant le flux de processus Salesforce Revenue Cloud du devis à l’encaissement.",
     "sapPartnerLogoAlt": "Badge officiel de Partenaire SAP représentant l’expertise certifiée en implémentation.",
     "revenueCloudImg": "/images/revenue-cloud/revenue-cloud-infographic-french.webp",
+    "bannerAlt": "Image numérique futuriste avec le texte « Optimisez votre gestion des revenus avec Salesforce Revenue Cloud.",
     "revenueStats": [
       {
         "value": "40%",

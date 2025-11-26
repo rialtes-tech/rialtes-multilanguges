@@ -13,40 +13,12 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/"
-  },
-  "headline": "Agentforce Agents Scale Enterprise Resource Planning Systems with AI",
-  "description": "Explore how Agentforce empowers ERP systems with intelligent agents to automate business processes, drive efficiency, and scale operations through AI.",
-  "image": "https://www.rialtes.com/images/blog/ai-automation-robotic-hand-laptop-technology.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2025-01-13",
-  "articleSection": "Agentforce AI",
-  "url": "https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/"
-}
-
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations('agentForceAgents')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { benefitsData, applicationData } = blogsContent.agentForceAgents;
+  const { benefitsData, applicationData,schemaData } = blogsContent.agentForceAgents;
   const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai";
 
   return (

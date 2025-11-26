@@ -14,48 +14,11 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/",
-  },
-  headline:
-    "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
-  description:
-    "Scale with confidence. Agentforce for Manufacturing automates support, sales, and partner ops using AI copilots, predictive service, and self-service tools.",
-  image:
-    "https://www.rialtes.com/images/blog/business-technology-collaboration-office.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes Technologies",
-    url: "https://www.rialtes.com",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes Technologies",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  datePublished: "2025-07-21",
-  keywords: [
-    "Agentforce for Manufacturing",
-    "AI for Manufacturing",
-    "AI in Manufacturing",
-    "AI Agents Automation Solutions Manufacturing",
-    "Smart Manufacturing Support",
-  ],
-};
-
 export default function Page() {
   const t = useTranslations("agentforceForManufacturing");
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { empowerData, faqData, agentforceData, copilotData, intelligenceData, useCases, simplifyingData, giverPartnersData, realTimeData, dontDeliverData,
+  const { empowerData, faqData, agentforceData, copilotData, intelligenceData, useCases, simplifyingData,schemaData, giverPartnersData, realTimeData, dontDeliverData,
     realTimeVisibilityData
   } = content.agentforceForManufacturing
 
