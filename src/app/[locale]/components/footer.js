@@ -65,7 +65,8 @@ const Footer = () => {
   return (
     <footer
       className={`text-[#ffffff] bg-cover max-md:absolute bg-center bg-no-repeat flex flex-col custom-container lg:pt-[66px] pb-[40px] bg-[url("/images/homepage/footer-Bg.webp")]`}>
-      <div className="flex flex-col md:flex-row border-b border-gray-300 justify-start md:justify-between gap-[41px] md:gap-10 pb-10 mt-4 w-full mx-auto">
+      <div className={`flex flex-col md:flex-row border-b border-gray-300 justify-start md:justify-between gap-[41px] md:gap-10 pb-10 mt-4 w-full mx-auto`}>
+
         {/* Logo and Tagline */}
         <div className="flex lg:gap-[60px] gap-[26px] flex-col lg:flex-row  lg:items-start">
           <Image
