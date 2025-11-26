@@ -629,13 +629,13 @@ const FeaturedCarousel = () => {
     },
     {
       id: 2,
-      image: "/images/blog/blog-1.webp",
-      category: "Salesforce Agentforce",
-      industry: "Generic",
-      date: "Sept. 30, 2024",
-      url: '/how-salesforce-agentforce-actually-works/',
-      title: "How Salesforce Agentforce Actually Works",
-      description: "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel.",
+      image: "/images/blog/digital-patient-journeys-mobile.webp",
+      category: "MediAIna",
+      industry: "Life Sciences",
+      date: "Sep. 30, 2025",
+      url: '/digital-patient-journeys-ai-healthcare-life-sciences/',
+      title: "The Future of Digital Patient Journeys: How AI is Reshaping Life Sciences",
+      description: "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals.",
     },
     {
       id: 3,
@@ -646,7 +646,16 @@ const FeaturedCarousel = () => {
       url: '/s4hana-transformation-with-sap-signavio-cloud-alm/',
       title: "SAP Signavio + SAP Cloud ALM: Driving Governance, Traceability, and KPI Tracking in S/4HANA Transformations",
       description: "Digital transformation programs such as an SAP S/4HANA implementation are not simply IT projects but complex business reinvention initiatives that touch every process, role, and technology in the enterprise. For such large-scale transformations, two critical success factors stand out.",
-
+    },
+    {
+      id: 4,
+      image: "/images/blog/conversational-ai-in-real-estate-mobile.webp",
+      category: "Exelona",
+      industry: "Real Estate",
+      date: "Oct. 20, 2025",
+      url: "/conversational-ai-in-real-estate-scale-resident-support/",
+      title: "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
+      description: "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries,"
     },
   ];
 
@@ -711,10 +720,10 @@ const FeaturedCarousel = () => {
   };
 
   return (
-    <section className="relative pb-10 bg-white">
+    <section className="relative pb-6 md:pb-10 bg-white">
       <div className="mb-[36px]">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-black mb-[36px] text-[26px] xl:text-[40px]  4xl:text-[60px] leading-tight ">Featured Blogs</h2>
+          <h2 className="text-black mb-[36px] text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight ">Featured Blogs</h2>
         </div>
         <Carousel
           swipeable={true}
@@ -740,12 +749,13 @@ const FeaturedCarousel = () => {
           customDot={<CustomDot />}
         >
           {slides.map((slide) => (
-            <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full border border-gra-300">
-              <div className="basis-full h-auto">
+            <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full">
+              <div className="basis-full lg:h-[320px] xl:h-[420px] 2xl:h-[550px]">
                 <Link href={'/insights/blogs' + slide.url}>
                   <Image
                     src={slide.image}
-                    alt={slide.title}
+                    alt={slide.alt}
+                    title={slide.title}
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -755,7 +765,7 @@ const FeaturedCarousel = () => {
                   />
                 </Link>
               </div>
-              <div className="flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0] h-full">
+              <div className="border-gray-300 border flex flex-col basis-full py-4 sm:py-4 md:py-6 xl:py-10 sm:px-10 md:px-12 xl:px-16 px-4 transition duration-300 ease-in-out group-hover:bg-[#F0F0F0] h-full">
                 <div className='pb-[10px] sm:pb-[15px] lg:pb-[20px] 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>
                   <span className='text-[#0092E0]'>{slide.category}</span> <span className='text-[#ACACAC]'>|</span> {slide.date}
                 </div>
