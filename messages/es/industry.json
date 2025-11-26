@@ -128,6 +128,7 @@
     "contactUs": "¿Está listo para dar el siguiente paso? Iniciemos su viaje"
   },
   "realEstate": {
+    "schemaData": {},
     "headerTitle": "Gestiona procesos inmobiliarios con software de gestión de propiedades en la nube",
     "seoTitle": "Revolucionando la Gestión Inmobiliaria para el Sector Real Estate | Rialtes",
     "seoDescription": "El futuro de la gestión inmobiliaria ha llegado. Automatiza arrendamientos, reduce vacantes y mejora el ROI con software especializado.",
@@ -252,6 +253,7 @@
     "knowMore": "Saber más"
   },
   "lifeScience": {
+    "schemaData": {},
     "bannerAlt": "Mano digital sosteniendo planta con red azul conectada sobre fondo oscuro representando innovación digital en ciencias de vida",
     "whyAlt": "Cuerpo humano digital con órganos resaltados e interfaces de datos médicos sobre fondo oscuro mostrando analítica de salud",
     "thoughtAlt": "Dos médicos con batas blancas reunidos con profesional empresarial discutiendo gráficos de datos de salud en pantalla monitor",
@@ -473,6 +475,7 @@
     "contactSubTitle2": "Contáctanos hoy para descubrir cómo Rialtes puede impulsar el crecimiento y el impacto en pacientes en tu organización."
   },
   "healthCare": {
+    "schemaData": {},
     "bannerAlt": "Profesional de salud con bata de laboratorio y gafas analizando pantalla holográfica de datos médicos con cadena ADN e imágenes",
     "slidesCaseStudy": [
       {
@@ -593,6 +596,7 @@
     "contactTitle": "Da el siguiente paso hacia la excelencia operativa con nosotros."
   },
   "pharmaBiotech": {
+     "schemaData": {},
     "agentForceAlt": "Visual que representa herramientas Salesforce de Agentforce para ventas y colaboración médica en farmacéuticas",
     "agentChatAlt": "Imagen que muestra integración de AgentChat con WhatsApp para comunicación segura entre HCP y pacientes",
     "remoteMonitoringAlt": "Visual que representa herramientas de monitoreo remoto para rastrear seguridad y uso de productos en pacientes",
@@ -774,6 +778,7 @@
     "contactTitle": "¡Asóciate con Rialtes — Habilitando la Excelencia de Próxima Generación en Farmacéutica y Biotecnología!"
   },
   "medicalDevices": {
+     "schemaData": {},
     "bannerAlt": "Escáner de resonancia magnética moderno con iluminación azul en una sala clínica de diagnóstico por imágenes",
     "thoughtAlt": "Doctora profesional con bata blanca revisando registros médicos en un moderno centro de atención sanitaria",
     "whyAlt": "Brazos robóticos quirúrgicos avanzados con instrumentos de precisión en quirófano estéril para cirugía mínimamente invasiva",
@@ -957,6 +962,7 @@
     "learnMoreBtn": "Saber más"
   },
   "homeHealth": {
+     "schemaData": {},
     "aiPoweredAlt": "Gráfico que ilustra la atención médica domiciliaria impulsada por IA con información predictiva y automatización.",
     "agentchatAlt": "Integración de AgentChat con WhatsApp para comunicación instantánea entre paciente y cuidador",
     "globalDeleveryAlt": "Programas globales de salud en el hogar que garantizan cumplimiento y atención en varias regiones",

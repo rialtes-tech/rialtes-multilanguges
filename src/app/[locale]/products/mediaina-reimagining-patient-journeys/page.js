@@ -10,124 +10,13 @@ import esContent from '../../../../../messages/es/products.json';
 import frContent from '../../../../../messages/fr/products.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import LearnMore from "../../components/learnMore";
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Grow with SAP - Cloud ERP Implementation Services",
-    "alternateName": "VoyagerNext by Rialtes",
-    "url": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/",
-    "description": "Rialtes provides end-to-end Grow with SAP transformation services, including SAP Cloud ERP implementation leveraging SAP S/4HANA Cloud, SAP Activate methodology, SAP Signavio, and SAP BTP. Services include implementation, migration from SAP B1, integration with Salesforce, and support for AI, automation, and digital procurement.",
-    "provider": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
-        },
-        "sameAs": [
-            "https://www.linkedin.com/company/rialtes-technologies-llc/",
-            "https://www.youtube.com/@rialtes"
-        ]
-    },
-    "areaServed": [
-        {
-            "@type": "Country",
-            "name": "United States"
-        },
-        {
-            "@type": "Country",
-            "name": "Canada"
-        },
-        {
-            "@type": "Country",
-            "name": "India"
-        },
-        {
-            "@type": "Country",
-            "name": "Singapore"
-        }
-    ],
-    "serviceType": [
-        "Grow with SAP Services",
-        "SAP S/4HANA Cloud Public Edition Implementation",
-        "SAP B1 to S/4HANA Migration",
-        "SAP Activate & SAP Signavio Enablement",
-        "SAP SuccessFactors Integration",
-        "SAP Ariba and Procurement Solutions",
-        "SAP BTP Customization and Automation",
-        "SAP CPI Integration",
-        "Salesforce and SAP Integration",
-        "Conversational AI for ERP (AgentChat)",
-        "AI and Data Cloud Enablement"
-    ],
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "VoyagerNext Offerings",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "SAP License Advisory",
-                    "description": "Guidance on SAP licensing for cost-effectiveness and scalability."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Solution Design & Implementation",
-                    "description": "Design and implement SAP S/4HANA Cloud aligned with industry best practices."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "System Integration & Customization",
-                    "description": "Integrate SAP with legacy systems and customize using SAP BTP and CPI."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Post Go-Live Support & Optimization",
-                    "description": "Hypercare, continuous improvement, and performance monitoring post go-live."
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "Quality Assurance & User Training",
-                    "description": "Ensure system readiness with testing and user enablement services."
-                }
-            }
-        ]
-    },
-    "audience": {
-        "@type": "Audience",
-        "audienceType": [
-            "Mid-market Enterprises",
-            "Growing Businesses",
-            "Enterprise IT Teams",
-            "SAP Business One Customers",
-            "Digital Transformation Leaders" 
-        ]
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage", 
-        "@id": "https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
-    }
-}
+
 
 export default function Page() {
     const t = useTranslations("mediaina");
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { rialtesBenefits, commonData } = content.mediaina
+    const { rialtesBenefits, commonData,schemaData } = content.mediaina
     return (
         <div className="min-h-screen bg-white">
             <Seo

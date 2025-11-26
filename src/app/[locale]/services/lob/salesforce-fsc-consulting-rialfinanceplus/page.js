@@ -12,110 +12,12 @@ import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
 export default function page() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Salesforce Financial Services Cloud Consulting & Implementation Services",
-        "alternateName": "RialFinance+ Salesforce FSC Services",
-        "url": "https://www.rialtes.com/services/lob/salesforce-fsc-consulting-rialfinanceplus/",
-        "description": "Salesforce Financial Services Cloud Consulting by Rialtes’ RialFinance+ offers AI-led advisory, implementation, and post-go-live support for FSC success.",
-        "provider": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "url": "https://www.rialtes.com",
-            "logo": "https://www.rialtes.com/images/homepage/logo.svg",
-            "sameAs": [
-                "https://www.linkedin.com/company/rialtes-technologies-llc",
-                "https://x.com/Rialtestech",
-                "https://www.youtube.com/@rialtes"
-            ]
-        },
-        "areaServed": [
-            { "@type": "Country", "name": "United States" },
-            { "@type": "Country", "name": "Canada" },
-            { "@type": "Country", "name": "Singapore" },
-            { "@type": "Country", "name": "India" },
-            { "@type": "Continent", "name": "Europe" }
-        ],
-        "serviceType": "Salesforce FSC Strategy, AI Advisory, Custom Implementation, and Support",
-        "category": "Salesforce Financial Services Cloud Consulting",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "RialFinance+ FSC Services Catalog",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Advisory & AI-Led Strategy",
-                        "description": "Financial services strategy aligned to FSC features, AI use cases, and regulatory needs across retail, commercial, and corporate banking."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Implementation & Configuration",
-                        "description": "Certified Salesforce FSC implementation tailored to banking, lending, insurance, and asset management workflows with full compliance."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Agentforce & AI Integration",
-                        "description": "Pre-built bots and AI modules for onboarding, fraud detection, lending, and wealth — seamlessly embedded into FSC via Agentforce."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Quality Assurance & Compliance",
-                        "description": "Risk and compliance validations, sandbox testing, UAT, and security checks aligned with global financial regulations."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Integration with SAP & Data Cloud",
-                        "description": "Zero Copy Data integration with Salesforce and SAP ecosystems for a unified client profile and real-time financial insights."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Post Go-Live Support & Enhancements",
-                        "description": "Global 24/7 support, training, enhancement sprints, FSC optimizations, and AI performance monitoring via RialFinance+."
-                    }
-                }
-            ]
-        },
-        "additionalProperty": [
-            {
-                "@type": "PropertyValue",
-                "name": "Certified Salesforce Financial Cloud Expertise",
-                "value": "Experts in FSC, Data Cloud, Agentforce, and industry modules like lending, insurance, and wealth management."
-            },
-            {
-                "@type": "PropertyValue",
-                "name": "AI-Driven FSC Transformation with Agentforce",
-                "value": "Conversational AI, compliance automation, and customer intelligence powered by Salesforce Agentforce."
-            },
-            {
-                "@type": "PropertyValue",
-                "name": "Integrated Real Estate & Finance with Exelona",
-                "value": "Extend FSC to manage real estate portfolios, leasing, investor services, and revenue — all in one platform."
-            }
-        ]
-    }
+  
     const t = useTranslations('rialFinance')
     const locale = useLocale();
     const { frActive, esActive, enActive } = useActiveLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { startWithData, exelonaData, agentChat, agentforceData, salesforceData, howWeDeliverData, whyRialtesData, deepDiveData } = content.rialFinance
+    const { startWithData, exelonaData, agentChat, agentforceData, salesforceData, howWeDeliverData, whyRialtesData, deepDiveData,schemaData } = content.rialFinance
     return (
         <div className="min-h-screen bg-white">
             <Seo

@@ -10,92 +10,13 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Retail Business Consulting Services",
-  "alternateName": "RetailPlus by Rialtes",
-  "url": "https://www.rialtes.com/services/lob/retail-plus-business-consulting-omnichannel-solutions/",
-  "description": "Retail+ by Rialtes offers intelligent, scalable, and AI-powered retail transformation services for B2B and B2C enterprises across industries such as fashion, electronics, furniture, luxury, food, wellness, and more. Services include advisory, solution design, implementation, integration, quality assurance, and ongoing support using Salesforce and SAP platforms.",
-  "provider": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "areaServed": [
-    {
-      "@type": "Country",
-      "name": "United States"
-    },
-    {
-      "@type": "Country",
-      "name": "Canada"
-    },
-    {
-      "@type": "Country",
-      "name": "India"
-    },
-    {
-      "@type": "Country",
-      "name": "Singapore"
-    }
-  ],
-  "serviceType": "Retail Business Consulting",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Retail+ Key Offerings",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Advisory & Strategy Consulting"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Solution Design & Architecture"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Implementation & Rollout"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Quality Assurance & Testing"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Systems Integration & Automation"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Post Go-Live Optimization & Support"
-        }
-      }
-    ]
-  }
-}
+
 
 export default function page() {
   const t = useTranslations('retailPlus')
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { retailServices, retailVerticals, salesforceSolutions, whyChooseData, rialChat } = content.retailPlus;
+  const { retailServices, retailVerticals, salesforceSolutions, whyChooseData, rialChat,schemaData } = content.retailPlus;
   return (
     <div className="min-h-screen bg-white">
       <Seo

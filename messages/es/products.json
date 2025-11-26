@@ -1,5 +1,6 @@
 {
   "agentChat": {
+    "schemaData": {},
     "bannerAlt": "Profesional usando AgentChat para integración de WhatsApp con Salesforce en smartphone mostrando plataforma",
     "svgAlt": "Logo AgentChat con icono de burbuja de diálogo azul y verde representando plataforma de comunicación cliente",
     "whyAlt": "Interfaz de chat WhatsApp Business en smartphone mostrando conversación con cliente y notificaciones en pantalla",
@@ -136,6 +137,7 @@
     "contactTitle": "¡Avísame si necesitas un diseño visual, variaciones de llamada a la acción o versiones más cortas del texto publicitario!"
   },
   "exelona": {
+    "schemaData": {},
     "features": [
       {
         "img": "/images/products/exelona/mobile-payment-icon.svg",
@@ -418,6 +420,7 @@
     "trustedTitle": "Infraestructura Confiable para la Empresa Inmobiliaria"
   },
   "mediaina": {
+    "schemaData": {},
     "mediainaLogoAlt": "Logotipo de MediAlna con figura humana estilizada y tipografía azul moderna que simboliza innovación médica",
     "lifeAIPlusAlt": "Ilustración que muestra LifeAI+, una suite para la transformación sanitaria inteligente y escalable",
     "rialtesBenefits": [
