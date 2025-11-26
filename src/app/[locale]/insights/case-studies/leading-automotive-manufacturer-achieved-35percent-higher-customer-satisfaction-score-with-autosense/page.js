@@ -11,35 +11,7 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import RelatedCaseStudies from "@/app/[locale]/components/RelatedCaseStudies"
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
-  },
-  headline:
-    "Salesforce Warranty Management Case Study: AutoSense Boosts Customer Satisfaction by 35%",
-  description:
-    "This Salesforce warranty management case study highlights how AutoSense streamlined warranty claims, improved dealer engagement, and boosted customer satisfaction.",
-  image:
-    "https://www.rialtes.com/images/case-studies/automotive-robotic-assembly-line-car-manufacturing.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  articleSection: "Case Studies",
-  datePublished: "2025-06-30",
-};
+
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations("leadingCaseStudy");
@@ -51,6 +23,7 @@ export default function Page() {
     featureList,
     benefitsList,
     serviceList,
+    schemaData
   } = Content.leadingCaseStudy;
 
   const fullUrl = "https://www.rialtes.com/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/";

@@ -1793,6 +1793,33 @@
         "collaborateDesc3": "are driven by reliable, actionable data, maximizing the potential of intelligent automation. Get in touch with us at"
     },
     "integrateSapSuccessFactor": {
+        "schemaData" : {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/en/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
+  },
+  "headline": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
+  "description": "Learn how to streamline workflows and boost HR team productivity by integrating SAP SuccessFactors with Microsoft Office 365 tools like Outlook and Teams.",
+  "image": "https://www.rialtes.com/images/blog/blue-orange-halftone-wave-pattern-abstract.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-12-24",
+  "articleSection": "SAP Integration",
+  "url": "https://www.rialtes.com/en/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
+},
         "bannerAlt": "Abstract blue and orange halftone dot pattern creating wave design on navy background for tech graphics",
         "seoTitle": "How to Integrate SAP with Office 365 for Enhanced HR Collaboration",
         "seoDescription": "Discover how SAP Office 365 integration can simplify HR processes, automate workflows, and foster seamless collaboration across Office 365 apps.",
@@ -1926,6 +1953,38 @@
         "completeDesc4": "to get started with one of our expert SAP SuccessFactors consultants!"
     },
     "enhancingCompliance": {
+  "schemaData" : {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id":
+      "https://www.rialtes.com/en/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
+  },
+  "headline":
+    "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
+  "description":
+    "Learn how SAP GTS streamlines compliance with global trade laws using Sanctioned Party List (SPL) screening, ensuring secure and lawful third-party engagements.",
+  "image":
+    "https://www.rialtes.com/images/blog/global-network-connectivity-world-map-visualization.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-12-19",
+  "articleSection": "SAP GTS",
+  "url": "https://www.rialtes.com/en/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
+},
+
         "bannerAlt": "3D world map with illuminated connection lines showing global network connectivity and data flow visualization",
         "seoTitle": "How SAP GTS Sanctioned Party List Screening Ensures Compliance | Rialtes",
         "seoDescription": "Minimize risks with SAP Sanctioned Party List Screening by ensuring your business never deals with prohibited parties. Stay compliant and avoid legal penalties.",
@@ -2024,6 +2083,33 @@
         "complyDesc3": "with deep expertise in global trade and risk management, we empower companies to navigate these processes efficiently, delivering maximum value and return on investment. Our seasoned SAP consultants possess the skills and experience to address your critical needs while equipping your internal teams for ongoing improvement and innovation."
     },
     "agentforceTesting": {
+        "schemaData" :{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/en/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
+  },
+  "headline": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
+  "description": "Explore how Agentforce Testing Center leverages synthetic data to revolutionize AI model testing, ensuring security, reliability, and scalability.",
+  "image": "https://www.rialtes.com/images/blog/digital-gears-network-automation-technology-concept.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-11-25",
+  "articleSection": "AI Testing",
+  "url": "https://www.rialtes.com/en/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
+},
         "bannerAlt": "Blue digital wireframe gears and network nodes representing industrial automation and blockchain technology",
         "seoTitle": "Agentforce Testing Center: Test AI Agents Before Production",
         "seoDescription": "The Agentforce Testing Center is a powerful suite of tools that helps enterprises evaluate AI agents before they are deployed in production. Know more.",
@@ -2087,6 +2173,33 @@
         "whyDesc4": "or need help getting started? We’re here to assist. At Rialtes, we specialize in AI testing and  , and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to streamline their business processes."
     },
     "successfactorSupportsDiversity": {
+        "schemaData" : {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/en/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/"
+  },
+  "headline": "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
+  "description": "Discover how SAP SuccessFactors helps organizations champion DEI through analytics, inclusive hiring, unbiased performance reviews, and culture-driven tools.",
+  "image": "https://www.rialtes.com/images/blog/diversity-inclusion-puzzle-accessibility-concept.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-11-12",
+  "articleSection": "SAP HXM",
+  "url": "https://www.rialtes.com/en/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/"
+},
         "bannerAlt": "Colorful puzzle pieces with diversity icons showing people and wheelchair symbols representing inclusion concept",
         "seoTitle": "How SuccessFactors Diversity and Inclusion Drives Workplace Equity | Rialtes",
         "seoDescription": "Discover how SAP SuccessFactors diversity and inclusion capabilities support unbiased hiring, inclusive performance, and engagement. Learn more with Rialtes.",
@@ -2141,6 +2254,37 @@
         "hrSystemDesc3": " Contact us today at"
     },
     "automateCrucial": {
+        "schemaData" : {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id":
+      "https://www.rialtes.com/en/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
+  },
+  "headline":
+    "Automate Crucial Parts of Your Healthcare Organization with Athenahealth and Salesforce Integration",
+  "description":
+    "See how integrating Athenahealth with Salesforce enhances healthcare operations—improving patient data access, workflows, and care coordination.",
+  "image":
+    "https://www.rialtes.com/images/blog/healthcare-worker-digital-tablet-medical-technology.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-11-11",
+  "articleSection": "Healthcare Integration",
+  "url": "https://www.rialtes.com/en/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
+},
         "bannerAlt": "Female healthcare worker in blue scrubs and mask using tablet device in modern medical facility setting",
         "seoTitle": "Athenahealth Salesforce Integration: Elevate Patient Care | Rialtes",
         "seoDescription": "Integrating athenahealth with Salesforce is beneficial in many ways, providing a more comprehensive view of patient interactions and data across the healthcare journey.",
@@ -2228,6 +2372,33 @@
         "findDesc4": ", is dedicated to utilizing the complete potential of Salesforce by providing exceptional user experiences to our clients."
     },
     "successFactorPerformance": {
+        "schemaData" : {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/en/insights/blogs/sap-successfactors-performance-and-goal-management/"
+  },
+  "headline": "SAP SuccessFactors Performance and Goal Management",
+  "description": "Learn how SAP SuccessFactors empowers organizations to streamline performance reviews, align individual goals, and boost workforce productivity.",
+  "image": "https://www.rialtes.com/images/blog/target-goal-setting-precision-business-concept.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-10-29",
+  "articleSection": "SAP HCM",
+  "url": "https://www.rialtes.com/en/insights/blogs/sap-successfactors-performance-and-goal-management/"
+},
         "bannerAlt": "Hand drawing target circle with pen on light blue surface representing goal setting and precision concept",
         "seoTitle": "SuccessFactors Performance Management & Goal Management Tips | Rialtes",
         "seoDescription": "SuccessFactors performance management and goal management boost employee engagement and strategic alignment. Contact us today for expert guidance and support!",
@@ -2329,6 +2500,96 @@
         "empowerLink": "expert SAP SuccessFactors consultants"
     },
     "agentCopilot": {
+         "schemaData" : {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id":
+      "https://www.rialtes.com/en/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
+  },
+  "headline":
+    "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
+  "description":
+    "Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
+  "image":
+    "https://www.rialtes.com/images/blog/abstract-data-flow-visualization-digital.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-10-28",
+  "dateModified": "2025-07-25",
+  "articleSection": "AI Automation",
+  "url": "https://www.rialtes.com/en/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What’s the difference between bots, copilots, and agents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bots follow simple rules to perform tasks. Copilots offer contextual help and suggestions, often requiring user input. Agents act independently, make decisions, and can operate across systems autonomously. Think of bots as basic responders, copilots as smart assistants, and agents as decision-makers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an example of a bot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A chatbot that answers questions like 'What is your return policy?' on an e-commerce website is a good example of a bot. It follows scripted responses and doesn’t adapt to complex queries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does an AI agent do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An AI agent can understand tasks, make decisions, and execute actions without constant human intervention. In manufacturing, for example, an agent can predict delays and reschedule workflows automatically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Copilot better than chatbot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A copilot provides intelligent suggestions based on context and user behavior, whereas a chatbot sticks to predefined scripts. Copilots are more dynamic and user-focused than basic bots."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which AI tool is more powerful: agent or copilot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agents are more powerful. While copilots assist users by providing recommendations, AI agents go further—they make decisions, adapt, and act autonomously across processes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which AI should I use for customer support in manufacturing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI agents are best for manufacturing customer service. They handle complex queries, integrate with enterprise systems, and resolve issues faster than traditional bots or copilots."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can AI agents fully replace humans in operations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. AI agents are ideal for automating repetitive and data-driven tasks, but human-AI collaboration is still essential for strategic decisions, creativity, and empathy-driven customer service."
+      }
+    }
+  ]
+},
         "chartAlt": "Automation comparison chart with green foliage border showing bots, copilots, and AI agents features matrix",
         "quotationAlt": "Blue quotation marks icon on white background for testimonial or quote section design element",
         "agentBannerAlt": "Vibrant abstract data flow visualization with colorful waves and particles representing digital transformation analytics",
@@ -2599,6 +2860,86 @@
         ]
     },
     "brainBehind": {
+    "schemaData" : {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Why Is the Atlas Reasoning Engine the Brain of Agentforce? | Rialtes",
+    "description": "The Atlas Reasoning Engine acts as the intelligent brain of Agentforce, enabling agents to understand goals, reason through decisions, and deliver smarter support.",
+    "image": "https://www.rialtes.com/images/blogs/digital-brain-ai-circuit-technology-illustration.webp",
+    "author": {
+      "@type": "Organization",
+      "name": "Rialtes"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Rialtes",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.rialtes.com/images/homepage/logo.svg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.rialtes.com/en/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"
+    },
+    "datePublished": "2024-10-21",
+    "dateModified": "2025-11-19",
+    "mainEntity": {
+      "@type": "FAQPage",
+      "name": "Atlas Reasoning Engine in Agentforce FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Atlas Reasoning Engine in Agentforce?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Atlas Reasoning Engine is the decision-making core inside Salesforce Agentforce that helps AI agents understand user goals, reason through complex situations, and choose the right next action autonomously."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the Atlas Reasoning Engine work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It follows a reasoning cycle that includes goal understanding, plan formulation, context gathering loops, action selection, and execution across channels—allowing agents to think and adapt dynamically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is the Atlas Reasoning Engine the ‘brain’ of Agentforce?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Atlas acts as the intelligence layer that interprets context, evaluates options, learns from history, and drives autonomous decisions, making it function like the brain behind Salesforce Agentforce."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Atlas different from traditional Salesforce automation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Unlike rigid workflows, Atlas uses goal-driven reasoning. When new information appears or situations change, it adapts instantly instead of breaking or escalating unnecessarily."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Atlas work across multiple Salesforce clouds?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Atlas works across Sales Cloud, Service Cloud, and even external platforms to help agents take consistent and context-aware actions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Atlas improve customer service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "By helping agents reason, analyze context, fill in gaps, and execute decisions rapidly, Atlas enables faster resolution times, more accurate actions, and highly personalized support experiences."
+          }
+        }
+      ]
+    }
+  },
+
         "bannerAlt": "Digital brain circuit illustration with glowing connections on dark blue tech background showing AI concept",
         "seoTitle": "Why Is the Atlas Reasoning Engine the Brain of Agentforce?",
         "seoDescription": "The Atlas Reasoning Engine is an AI system built into Agentforce that helps agents analyze complex situations, reason through them, and choose their next step.",
@@ -2782,6 +3123,36 @@
         ]
     },
     "howSalesforceAgentforceWorks": {
+        "schemaData" : {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id":
+      "https://www.rialtes.com/en/insights/blogs/how-salesforce-agentforce-actually-works/"
+  },
+  "headline": "How Salesforce Agentforce Actually Works",
+  "description":
+    "Explore how Salesforce Agentforce automates customer engagement using AI agents, enhancing decision-making and operational efficiency.",
+  "image":
+    "https://www.rialtes.com/images/blog/futuristic-robot-ai-digital-interface-technology.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-09-30",
+  "articleSection": "Salesforce",
+  "url": "https://www.rialtes.com/en/insights/blogs/how-salesforce-agentforce-actually-works/"
+},
         "bannerAlt": "Futuristic white robot with glowing blue eyes and pink lighting displaying digital interface screens",
         "seoTitle": "How Does Salesforce Agentforce Work? | Rialtes",
         "seoDescription": "Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!",
@@ -2844,6 +3215,37 @@
         "gettingDesc3": "and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance their business processes."
     },
     "agriculture": {
+        "schemaData" : {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id":
+      "https://www.rialtes.com/en/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
+  },
+  "headline":
+    "Agriculture 4.0: How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+  "description":
+    "Explore how Agriculture 4.0 and platforms like Salesforce are revolutionizing modern farming with AI, automation, and real-time data-driven insights.",
+  "image":
+    "https://www.rialtes.com/images/blog/professional-drone-camera-aerial-agriculture-monitoring.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "url": "https://www.rialtes.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "datePublished": "2024-09-17",
+  "articleSection": "Salesforce for Agriculture",
+  "url": "https://www.rialtes.com/en/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
+},
         "bannerAlt": "Professional drone with camera hovering over green agricultural field for aerial photography and monitoring",
         "blogTopic": "Others",
         "seoTitle": "Salesforce for Agriculture: Digital Farming Revolution | Rialtes",

@@ -12,40 +12,12 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud",
-  },
-  headline: "Salesforce Experience Cloud Case Study: Mobile Warranty Portal",
-  description:
-    "This case study details how Rialtes implemented a mobile-first Salesforce Experience Cloud solution for a leading roofing manufacturer, streamlining warranty submissions and enhancing customer experience through Lightning Web Components.",
-  image: "https://www.rialtes.com/images/case-studies/insurance-adjuster-homeowner-storm-damage-assessment.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  proficiencyLevel: "Expert",
-  articleSection: "Case Studies",
-  datePublished: "2025-05-30",
-};
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations("mobileCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { benifitList } = Content.mobileCaseStudy;
+  const { benifitList, schemaData } = Content.mobileCaseStudy;
 
   const fullUrl = "https://www.rialtes.com/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud";
 

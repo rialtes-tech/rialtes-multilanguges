@@ -1,7 +1,31 @@
 {
   "aboutUs": {
-    "welcomeAlt" : "Smiling professional woman with tablet outdoors representing intelligent business and AI transformation",
-    "bannerAlt" : "Futuristic digital faces with neon pink blue lighting and AR glasses representing AI technology and data-driven innovation",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "url": "https://www.rialtes.com/en/about-us/",
+      "name": "Empowering Enterprise Transformation Journey | About Rialtes",
+      "description": "Your enterprise transformation journey starts here—Rialtes simplifies change, enables AI adoption, and empowers growth with trusted partnership and boosted ROI.",
+      "mainEntityOfPage": "https://www.rialtes.com/en/about-us/",
+      "headline": "World’s largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.",
+      "about": {
+        "@type": "Thing",
+        "name": "Enterprise Transformation by Rialtes",
+        "description": "At the intersection of technology and business, Rialtes delivers solutions that fuel innovation, agility, and growth. From process automation to enterprise transformation, we partner with organizations to create lasting impact. Our approach includes:\n\n1. Simplify Businesses – We help businesses simplify their processes using intelligent, scalable solutions that enhance efficiency and drive productivity.\n\n2. Enable Solutions – Rialtes empowers enterprises with solutions that enable innovation, accelerate transformation, and create measurable growth.\n\n3. Empower Customers – We deliver customer-centric solutions that drive business forward, ensuring you build stronger relationships with your clients.\n\n4. Our Culture & Values – Trust, transparency, and commitment are at the core of Rialtes' culture. We strive for excellence and believe in nurturing relationships with our partners, clients, and employees."
+      },
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com/",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg/",
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc",
+          "https://www.youtube.com/@rialtes"
+        ]
+      }
+    },
+    "welcomeAlt": "Smiling professional woman with tablet outdoors representing intelligent business and AI transformation",
+    "bannerAlt": "Futuristic digital faces with neon pink blue lighting and AR glasses representing AI technology and data-driven innovation",
     "aboutusTitle": "About Us",
     "seoTitle": "Empowering Enterprise Transformation Journey | About Rialtes",
     "seoDescription": "Your enterprise transformation journey starts here—Rialtes simplifies change, enables AI adoption, and empowers growth with trusted partnership and boosted ROI.",
@@ -117,15 +141,60 @@
     ]
   },
   "ourValue": {
-    "commitmentAlt" : "Female athlete pole vaulting against blue sky representing business trust transparency and commitment to deliver excellence",
-    "bannerAlt" : "Hiker with Rialtes backpack facing snowy mountain peaks representing company culture values and daily growth mindset journey",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "Our Values - Empowering People with Trust & Inclusion | Rialtes",
+      "url": "https://www.rialtes.com/en/about-us/our-values/",
+      "description": "At Rialtes, we celebrate people. From women in tech to LGBTQ+ and veterans, we drive impact through equal opportunity and unwavering commitment.",
+      "headline": "Our Value System",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Equal Opportunity",
+          "description": "We foster a culture of fairness, inclusion, and growth where everyone has an equal chance to thrive."
+        },
+        {
+          "@type": "Thing",
+          "name": "LGBTQ+ Inclusion",
+          "description": "Creating a safe and empowering workplace where LGBTQ+ individuals are valued and supported."
+        },
+        {
+          "@type": "Thing",
+          "name": "Veteran Support",
+          "description": "Honoring the contributions of veterans by supporting their growth and inclusion in our workforce."
+        },
+        {
+          "@type": "Thing",
+          "name": "Women in Tech",
+          "description": "Driving impact through mentorship, leadership development, and equal opportunities for women in technology."
+        },
+        {
+          "@type": "Thing",
+          "name": "Trust & Transparency",
+          "description": "Building lasting relationships through open communication, integrity, and accountability."
+        },
+        {
+          "@type": "Thing",
+          "name": "Growth Mindset",
+          "description": "Encouraging continuous learning, innovation, and personal development across the organization."
+        }
+      ]
+    },
+    "commitmentAlt": "Female athlete pole vaulting against blue sky representing business trust transparency and commitment to deliver excellence",
+    "bannerAlt": "Hiker with Rialtes backpack facing snowy mountain peaks representing company culture values and daily growth mindset journey",
     "seoTitle": "Our Values - Empowering People with Trust & Inclusion | Rialtes",
     "seoDescription": "At Rialtes, we celebrate people. From women in tech to LGBTQ+ and veterans, we drive impact through equal opportunity and unwavering commitment.",
     "growLatestServices": [
       {
         "id": 1,
         "image": "/images/culture/diversity-inclusion-colorful-figures-accessibility.webp",
-        "alt" :"Colorful paper figures including wheelchair symbols on dark background representing equal opportunity diversity and inclusion",
+        "alt": "Colorful paper figures including wheelchair symbols on dark background representing equal opportunity diversity and inclusion",
         "title": "Equal Opportunity",
         "description1": "We are proud to be an equal opportunity employer, committed to fostering a diverse, inclusive, and respectful workplace.",
         "description2": "Our culture is built on fairness, inclusion, and meritocracy, empowering every team member to thrive. At Rialtes, diversity drives innovation and excellence."
@@ -133,7 +202,7 @@
       {
         "id": 2,
         "image": "/images/culture/lgbtq-pride-rainbow-flags-workplace-celebration.webp",
-        "alt" : "Diverse team celebrating with rainbow pride flags in modern office representing LGBTQ+ inclusion and diversity",
+        "alt": "Diverse team celebrating with rainbow pride flags in modern office representing LGBTQ+ inclusion and diversity",
         "title": "Welcome LGBTQ+",
         "description1": "We are committed to creating a safe, inclusive, and supportive environment for LGBTQ+ individuals. We actively promote diversity, inclusion, and allyship, fostering a culture where everyone feels valued and empowered to be their authentic selves.",
         "description2": "At Rialtes, we stand for equality, acceptance, and belonging."
@@ -141,7 +210,7 @@
       {
         "id": 3,
         "image": "/images/culture/veterans-professional-handshake-office-meeting.webp",
-        "alt" : "Professional woman and man shaking hands in modern office representing honoring veterans and workplace relations",
+        "alt": "Professional woman and man shaking hands in modern office representing honoring veterans and workplace relations",
         "title": "Honor Veterans",
         "description1": "Our inclusive workplace ensures that veterans feel welcomed, valued, and empowered to thrive in their professional journeys.",
         "description2": "At Rialtes, we recognize the sacrifices of our veterans and are dedicated to helping them build successful futures."
@@ -149,7 +218,7 @@
       {
         "id": 4,
         "image": "/images/culture/women-in-tech-diverse-team-collaboration.webp",
-        "alt" : "Three diverse women smiling together working on computers representing women in technology and collaborative workplace culture",
+        "alt": "Three diverse women smiling together working on computers representing women in technology and collaborative workplace culture",
         "title": "Women in Tech",
         "description1": "Through mentorship, equal opportunities, and leadership development, we ensure that women in tech thrive and drive innovation.",
         "description2": "At Rialtes, we believe diversity in technology leads to stronger, smarter solutions for the future."
@@ -187,6 +256,19 @@
     "contactUs": "Ready to take the next step? Let’s kick off your journey to operational excellence"
   },
   "impact": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "SocialResponsibility",
+      "organization": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+        "description": "Rialtes supports sustainability, diversity, and social impact through AI and community engagement."
+      },
+      "socialImpact": "Sustainability initiatives, AI workforce training, charity programs, and promoting responsible AI.",
+      "action": "Responsible AI adoption, net-zero carbon footprint, community empowerment, and upskilling youth."
+    },
     "impactTitle": "Social Impact",
     "seoTitle": "Driving Sustainability with Responsible AI | Rialtes",
     "seoDescription": "Rialtes redefines corporate citizenship with sustainable AI, ESG innovation, talent upskilling, and social impact to build a smarter, inclusive future.",
@@ -222,7 +304,75 @@
     "contactUs": "Ready to take the next step? Let’s kick off your journey to operational excellence"
   },
   "globalAlliance": {
-
+  "schemaData" : {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "description": "Rialtes collaborates with leading technology providers to offer seamless digital transformation solutions.",
+        "knowsAbout": [
+            {
+                "@type": "Organization",
+                "name": "Adobe Sign",
+                "url": "https://www.adobe.com/sign",
+                "description": "Partnering for secure digital document signing solutions."
+            },
+            {
+                "@type": "Organization",
+                "name": "Amazon Web Services",
+                "url": "https://aws.amazon.com",
+                "description": "Cloud computing and infrastructure partner."
+            },
+            {
+                "@type": "Organization",
+                "name": "Automation Anywhere",
+                "url": "https://www.automationanywhere.com",
+                "description": "Providing intelligent automation and RPA solutions."
+            },
+            {
+                "@type": "Organization",
+                "name": "Salesforce",
+                "url": "https://www.salesforce.com",
+                "description": "Strategic partner for CRM and digital transformation solutions."
+            },
+            {
+                "@type": "Organization",
+                "name": "SAP",
+                "url": "https://www.sap.com",
+                "description": "Enterprise resource planning and business software partner."
+            },
+            {
+                "@type": "Organization",
+                "name": "Microsoft Azure",
+                "url": "https://azure.microsoft.com",
+                "description": "Cloud platform partner for scalable business solutions."
+            },
+            {
+                "@type": "Organization",
+                "name": "Azure DevOps",
+                "url": "https://azure.microsoft.com/en-us/products/devops/",
+                "description": "Supporting DevOps automation and CI/CD pipelines."
+            },
+            {
+                "@type": "Organization",
+                "name": "Conga",
+                "url": "https://www.conga.com",
+                "description": "Partnering for document generation and contract lifecycle management."
+            },
+            {
+                "@type": "Organization",
+                "name": "CallidusCloud",
+                "url": "https://www.sap.com/products/calliduscloud.html",
+                "description": "Sales performance management and CPQ solutions partner."
+            },
+            {
+                "@type": "Organization",
+                "name": "Bitbucket",
+                "url": "https://bitbucket.org",
+                "description": "Version control and software collaboration platform partner."
+            }
+        ]
+    },
     "headerTitle": "Our Partners",
     "bannerAlt": "Digital handshake with glowing particles and network links showing business partnership and tech innovation.",
     "seoTitle": "Our Strategic Partners – Empowering Success with Rialtes",

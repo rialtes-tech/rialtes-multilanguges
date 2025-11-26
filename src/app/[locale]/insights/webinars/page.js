@@ -11,27 +11,6 @@ import esContent from '../../../../../messages/es/insight.json';
 import frContent from '../../../../../messages/fr/insight.json';
 import { changeLocalization } from "../../components/changeLocalization";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/webinars/"
-  },
-  "name": "Rialtes Webinars | Learn from Industry Experts",
-  "headline": "Expert Webinars on Salesforce, SAP & Digital Innovation",
-  "description": "Discover Rialtes' on-demand and upcoming webinars covering Salesforce, SAP, MuleSoft, Yardi, and more. Gain practical insights from real-world implementations and expert discussions.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  }
-
-}
-
 const webinars = [
 ];
 
@@ -39,7 +18,7 @@ export default function About() {
   const t = useTranslations('webinars')
   const locale = useLocale();
   const webinarsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { allWebinars } = webinarsContent.webinars;
+  const { allWebinars,schemaData } = webinarsContent.webinars;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
   const [isTablet, setIsTablet] = useState(false);

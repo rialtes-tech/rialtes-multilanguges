@@ -12,40 +12,12 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management/"
-  },
-  "headline": "SAP SuccessFactors Performance and Goal Management",
-  "description": "Learn how SAP SuccessFactors empowers organizations to streamline performance reviews, align individual goals, and boost workforce productivity.",
-  "image": "https://www.rialtes.com/images/blog/target-goal-setting-precision-business-concept.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-10-29",
-  "articleSection": "SAP HCM",
-  "url": "https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management/"
-}
-
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations('successFactorPerformance')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { keyFeaturesData, howSapData, implementData } = blogsContent.successFactorPerformance;
+  const { keyFeaturesData, howSapData, implementData ,schemaData} = blogsContent.successFactorPerformance;
   const fullUrl = "https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management";
 
   return (

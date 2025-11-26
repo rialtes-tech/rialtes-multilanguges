@@ -13,39 +13,11 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
-  },
-  "headline": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-  "description": "Learn how to streamline workflows and boost HR team productivity by integrating SAP SuccessFactors with Microsoft Office 365 tools like Outlook and Teams.",
-  "image": "https://www.rialtes.com/images/blog/blue-orange-halftone-wave-pattern-abstract.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-12-24",
-  "articleSection": "SAP Integration",
-  "url": "https://www.rialtes.com/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
-}
-
 export default function Page() {
   const t = useTranslations('integrateSapSuccessFactor')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { prerequisitesList, prerequisitesData, benefitsData, steps, whatDoesData } = blogsContent.integrateSapSuccessFactor;
+  const { prerequisitesList, prerequisitesData, benefitsData, steps, whatDoesData, schemaData } = blogsContent.integrateSapSuccessFactor;
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration";
   const currUrl = useUrl()
   return (

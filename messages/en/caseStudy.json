@@ -12,6 +12,31 @@
     "solutionsTitle": "Solutions",
     "solutionsDesc": "Rialtes, a trusted Yardi Managed Services provider, delivered a structured and scalable solution to address these gaps:",
     "benefits": "Benefits",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/"
+      },
+      "headline": "Case Study: Trusted YARDI Partner for North America’s Largest PHA",
+      "description": "Explore how Rialtes partnered with North America’s largest PHA for a full-scale Yardi implementation and provided 5 years of robust AMS support, ensuring operational excellence and compliance.",
+      "image": "https://www.rialtes.com/images/case-studies/urban-community-collaboration.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2024-09-27"
+    },
     "challengesList": [
       {
         "title": "Skill Silos",
@@ -72,6 +97,31 @@
     "solutionsDesc": "Rialtes implemented an integrated Salesforce-SAP solution using MuleSoft, bridging the gap between systems and automating the entire order lifecycle. Key components of the solution:",
     "benefitsTitle": "Benefits",
     "benefitsDesc": "The integration delivered measurable improvements across departments:",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/"
+      },
+      "headline": "Case Study: Automate Order Processing Using MuleSoft for Salesforce Health Cloud and SAP",
+      "description": "Learn how Rialtes leveraged MuleSoft to integrate Salesforce Health Cloud and SAP, enabling end-to-end order automation, faster turnaround, and improved patient experience.",
+      "image": "https://www.rialtes.com/images/case-studies/healthcare-professional-colleague-hospital-discussion.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2024-11-17"
+    },
     "problemList": [
       {
         "title": "Manual data entry",
@@ -133,6 +183,31 @@
       "Enhanced patient satisfaction with personalized, on-the-go access to therapy information and education.",
       "Scalable architecture, ready for future enhancements like AI-driven insights and broader wearable device integration."
     ],
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/"
+      },
+      "headline": "Case Study: Digitizing Patient Journey Using Salesforce Health Cloud",
+      "description": "Discover how Rialtes transformed patient engagement by digitizing the entire care journey using Salesforce Health Cloud—enhancing experience, coordination, and outcomes.",
+      "image": "https://www.rialtes.com/images/case-studies/doctor-patient-consultation.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2024-08-16"
+    },
     "challengesList": [
       {
         "title": "Limited digital engagement",
@@ -194,6 +269,31 @@
     "challengesDesc": "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders. This required the sales team to manually adjust loading dates for approximately 150 orders daily—an inefficient and error-prone process that consumed valuable time and resources.",
     "solutionsTitle": "Solutions",
     "solutionsDesc": "Rialtes partnered with the client to streamline and digitize their order prioritization process. We developed a custom SAP Fiori app that enabled customers to independently access their open orders and select which orders needed prioritization. Key features of the solution contained: ",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/"
+      },
+      "headline": "Case Study: Empowering Roofing Manufacturer with SAP Fiori for Self-Service Sales Order Prioritization",
+      "description": "Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy.",
+      "image": "https://www.rialtes.com/images/case-studies/roofing-shingle-samples-color-variety-display.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2025-05-28"
+    },
     "solutionsList": [
       "A user-friendly interface for customers to view and select open orders",
       "Planning logic integrated with manufacturing capacity to ensure realistic timelines",
@@ -241,6 +341,31 @@
     "conclusion": "Conclusion",
     "conclusionDesc": "Rialtes successfully delivered a transformative warranty management system for the automotive manufacturer, shifting from the outdated Java/J2EE-based portal to a powerful, integrated solution powered by Salesforce Automotive Cloud and integrated with  SAP S/4 HANA. The result was a more efficient, scalable, and user-friendly warranty management process that significantly enhanced dealer performance, reduced claim resolution times, and improved customer satisfaction.",
     "conclusionDescOne": "With the AutoSense service, Rialtes empowered the client to streamline its warranty claims management, optimize workflows, and gain real-time insights into warranty data, positioning the manufacturer for continued growth in a competitive automotive market.",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/"
+      },
+      "headline": "Salesforce Warranty Management Case Study: AutoSense Boosts Customer Satisfaction by 35%",
+      "description": "This Salesforce warranty management case study highlights how AutoSense streamlined warranty claims, improved dealer engagement, and boosted customer satisfaction.",
+      "image": "https://www.rialtes.com/images/case-studies/automotive-robotic-assembly-line-car-manufacturing.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2025-06-30"
+    },
     "benefitsList": [
       {
         "title": "Improved Warranty Claims Efficiency",
@@ -369,6 +494,31 @@
     "solutionsTitle": "Solutions",
     "solutionsDesc": "Rialtes implemented Salesforce Service Cloud and Experience Cloud to centralize customer support and create a scalable, future-ready solution. Key elements of the implementation:",
     "benefitsTitle": "Benefits",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/"
+      },
+      "headline": "Case Study: Omnichannel Case Management with Salesforce Service Cloud",
+      "description": "Discover how Rialtes implemented Salesforce Service Cloud to enable seamless omnichannel case management, reduce response time, and enhance customer satisfaction.",
+      "image": "https://www.rialtes.com/images/case-studies/advanced-microchip-manufacturing.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2025-10-14"
+    },
     "problemList": [
       "Disjointed customer interaction data across platforms, making it hard to track service history.",
       "Lack of visibility into historical case data and customer behavior.",
@@ -439,6 +589,31 @@
     "managingTitle": "Managing Budgets, Order History, and Invoices",
     "unifiedTitle": "Unified  Platform for All Subsidiaries",
     "globalTitle": "Globalization",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
+      },
+      "headline": "Case Study: Optimizing Sales Processes with Salesforce Sales Cloud for a Manufacturing Company",
+      "description": "Learn how a global manufacturing company streamlined lead management, improved sales productivity, and enhanced reporting using Salesforce Sales Cloud with Rialtes’ expertise.",
+      "image": "https://www.rialtes.com/images/case-studies/quality-control-technician-inspecting-bottle-production-line.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2025-03-26"
+    },
     "maxiList": [
       "Implemented Salesforce Sales Cloud to automate lead qualification and opportunity management.",
       "Implementing automated lead tracking and AI-driven recommendations boosted sales team productivity, reducing the average sales cycle from 46 days to 28 days and enabling faster deal closures.",
@@ -525,6 +700,31 @@
     "solutionTitle": "Solutions",
     "solutionDesc": "Rialtes modernized the client’s ACH and journal entry operations by implementing a custom Exelona Banking Module built on Salesforce Einstein 1 Platform. Key components of the solution included:",
     "benefitsTitle": "Benefits",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/realForce-banking-module-ach/"
+      },
+      "headline": "Case Study: RealForce Banking Module for ACH Integration",
+      "description": "Explore how Rialtes implemented the RealForce Banking Module to enable seamless ACH integration, reduce payment processing time, and enhance financial automation.",
+      "image": "https://www.rialtes.com/images/case-studies/business-team-architect-blueprint-office-discussion.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2024-12-22"
+    },
     "problemList": [
       {
         "title": "Manual Processes",
@@ -593,6 +793,31 @@
     "deliverablesTitle": "Key Deliverables from Rialtes Under AutoSense:",
     "conclusionTitle": "Conclusion:",
     "conclusionDesc": "By leveraging AutoSense, Rialtes successfully transformed the automotive manufacturer’s outdated legacy dealer portal into a modern, scalable, and efficient solution that empowered their dealers and streamlined internal operations. With Salesforce Experience Cloud and SAP S/4 HANA integrations, AutoSense delivered a superior dealer management experience, providing real-time data, operational efficiencies, and a seamless user interface. This transformation not only enhanced the client’s dealer engagement but also positioned them for continued growth in an increasingly competitive automotive market.",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/"
+      },
+      "headline": "Case Study: Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
+      "description": "Discover how Rialtes transformed automotive dealer management with AutoSense—modern UX, SAP & Salesforce integration, and real-time operations.",
+      "image": "https://www.rialtes.com/images/case-studies/business-professionals-collaborating-laptop-modern-office.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2025-06-03"
+    },
     "approachList": [
       {
         "title": "Collaborative Design Workshops",
@@ -751,7 +976,32 @@
       "Transitioning from paper to digital submissions cuts prior authorization approval times by up to 50%, improving overall care delivery speed.",
       "Greater transparency reduced surprise billing and enabled more confident treatment planning.",
       "Hospital administrative workload for prior authorization processing decreased by 35%, freeing up staff to focus on patient care."
-    ]
+    ],
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/salesforce-health-cloud-prior-authorization/"
+      },
+      "headline": "Case Study: Enhancing Prior Authorization Workflow Using Salesforce Health Cloud",
+      "description": "Explore how Rialtes helped streamline and automate the prior authorization workflow using Salesforce Health Cloud, leading to faster approvals, reduced errors, and improved patient outcomes.",
+      "image": "https://www.rialtes.com/images/case-studies/digital-brain-network.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2024-08-02"
+    }
   },
   "devopsCaseStudy": {
     "bannerAlt": "Diverse construction team wearing safety helmets and high visibility vests reviewing project data on laptop in warehouse",
@@ -768,6 +1018,31 @@
     "approachTitle": "Approach",
     "technologyTitle": "Technology Implementation",
     "benefitsTitle": "Benefits",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/streamlined-devops-using-copado-and-salesforce/"
+      },
+      "headline": "Case Study: Streamlined DevOps Using Copado and Salesforce",
+      "description": "Discover how Rialtes helped a company enhance release management, improve collaboration, and accelerate DevOps cycles using Copado integrated with Salesforce.",
+      "image": "https://www.rialtes.com/images/case-studies/construction-workers-safety-gear-laptop-warehouse.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2025-01-08"
+    },
     "problemList": [
       "Multiple sandboxes across development, QA, pre-production, and production stages.",
       "Monthly release cycles supplemented with ad-hoc deployments, leading to delays in delivering new features and fixes.",
@@ -830,6 +1105,32 @@
     "solutionsDescOne": "We built the portal using Lightning Web Components (LWC) to ensure smooth navigation, fast performance, and a simple, touch-friendly design. This improved experience allows customers to complete warranty claims quickly and effortlessly.",
     "solutionsDescTwo": "Our solution enhances customer satisfaction, streamlines operations, and ensures a modern, efficient claims experience across all mobile devices.",
     "benefitsTitle": "Benefits",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud"
+      },
+      "headline": "Salesforce Experience Cloud Case Study: Mobile Warranty Portal",
+      "description": "This case study details how Rialtes implemented a mobile-first Salesforce Experience Cloud solution for a leading roofing manufacturer, streamlining warranty submissions and enhancing customer experience through Lightning Web Components.",
+      "image": "https://www.rialtes.com/images/case-studies/insurance-adjuster-homeowner-storm-damage-assessment.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "proficiencyLevel": "Expert",
+      "articleSection": "Case Studies",
+      "datePublished": "2025-05-30"
+    },
     "benifitList": [
       "Enabled complete mobile compatibility, allowing customers to submit claims from smartphones and tablets without needing desktop access.",
       "Simplified user experience led to a 40% drop in support tickets related to warranty submissions.",
@@ -854,6 +1155,31 @@
     "solutionsDescOne": "Carried out automated workflows that eliminated manual intervention, enabling seamless claim handling. Real-time email and SMS notifications kept customers informed about their claim status, enhancing transparency. ",
     "solutionsDescTwo": "Additionally, we established SAP and ERP integrations for smooth data exchange, reducing manual effort and significantly improving claim processing efficiency.",
     "benefitsTitle": "Benefits",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/warranty-claim-submission-using-experience-cloud"
+      },
+      "headline": "Case Study: Salesforce Experience Cloud Transforms Warranty Claims for a Roofing Manufacturer",
+      "description": "Rialtes helped a roofing manufacturer in the building materials industry modernize warranty claims using Salesforce Experience Cloud, integrating LWC, address validation, automation, and ERP for better accuracy and efficiency.",
+      "image": "https://www.rialtes.com//images/case-studies/roof-shingle-color-samples-material-options.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2025-06-10"
+    },
     "benefitsList": [
       "Reduced claim submission time by 60%, allowing customers to complete requests in under 5 minutes through the intuitive web portal.",
       "Address validation via Google API reduced incorrect or incomplete address entries by over 85%, eliminating delays caused by manual corrections.",
@@ -875,6 +1201,31 @@
     "solutionsTitle": "Solutions",
     "solutionsDesc": "Rialtes, a trusted Yardi Managed Services provider, delivered a structured and scalable solution to address these gaps:",
     "benefitsTitle": "Benefits",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/yardi-managed-services/"
+      },
+      "headline": "Case Study: Driving Operational Efficiency with Yardi Managed Services",
+      "description": "Learn how Rialtes empowered a public housing authority to achieve operational excellence, ensure regulatory compliance, and streamline workflows through comprehensive Yardi managed services.",
+      "image": "https://www.rialtes.com/images/case-studies/abstract-3d-data-visualization.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2024-09-04"
+    },
     "businessList": [
       {
         "title": "Skill Silos",
@@ -938,6 +1289,31 @@
     "benefits": "Qualitative Benefits",
     "about": "About Edu+ by Rialtes",
     "aboutDesc": "Edu+ is Rialtes’ dedicated consulting and implementation framework tailored for educational institutions. It brings together Salesforce Education Cloud, AI/automation (Agentforce), and data integration (Data Cloud) to deliver:",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/"
+      },
+      "headline": "Transforming Student Success with Salesforce Education Cloud and Edu+",
+      "description": "This case study explores how a leading North American university improved enrollment, student engagement, and case management with Rialtes Edu+ powered by Salesforce Education Cloud, Agentforce, and Data Cloud.",
+      "image": "https://www.rialtes.com/images/case-studies/Tgraduation-cap-ladder-clouds-education-success-concept.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "datePublished": "2025-08-21"
+    },
     "aboutList": [
       "Faster time to value",
       "Industry-aligned object models and workflows",
@@ -1142,6 +1518,33 @@
         "desc": "Field teams accessed real-time data on the go, accelerating order and delivery cycles."
       }
     ],
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study/"
+      },
+      "headline": "SAP ERP Cloud Solutions | Automotive Case Study",
+      "description": "This case study shows how Rialtes implemented SAP ERP Cloud solutions for a leading global tire manufacturer to automate O2C and P2P using SD, MM, FI, Ariba, EWM, VIM, and Fiori—improving order accuracy, fulfillment speed, inventory efficiency, and supplier performance.",
+      "image": "https://www.rialtes.com/images/case-studies/automotive-tire-factory-production-line.webp",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "Case Studies",
+      "keywords": "sap erp cloud solutions, automotive case study",
+      "datePublished": "2025-11-19"
+    },
     "bannerAlt": "Automotive tires moving on a production line in a modern manufacturing facility",
     "seoTitle": "SAP ERP Cloud Solutions for Automotive | A Case Study",
     "seoDescription": "This automotive case study showcases how SAP ERP Cloud solutions have brought innovation to O2C and P2P, enhancing accuracy, inventory control, and speed.",

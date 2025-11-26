@@ -12,6 +12,7 @@
     "solutionsTitle": "Soluciones",
     "solutionsDesc": "Rialtes, un proveedor confiable de Servicios Gestionados de Yardi, entregó una solución estructurada y escalable para abordar estas brechas:",
     "benefits": "Beneficios",
+    "schemaData": {},
     "challengesList": [
       {
         "title": "Silencios de habilidades",
@@ -72,6 +73,7 @@
     "solutionsDesc": "Rialtes implementó una solución integrada Salesforce-SAP utilizando MuleSoft, cerrando la brecha entre los sistemas y automatizando todo el ciclo de vida de los pedidos. Componentes clave de la solución:",
     "benefitsTitle": "Beneficios",
     "benefitsDesc": "La integración proporcionó mejoras medibles en todos los departamentos:",
+    "schemaData": {},
     "problemList": [
       {
         "title": "Entrada de datos manual",
@@ -126,6 +128,7 @@
     "solutionsTitle": "Soluciones",
     "solutionsDesc": "El cliente se asoció con Rialtes para modernizar la experiencia del paciente mediante la creación de una solución totalmente integrada y digital.",
     "benefitsTitle": "Beneficios",
+    "schemaData": {},
     "benefitsList": [
       "Aumento del 30% en la adherencia a la terapia gracias a la participación gamificada y los recordatorios automatizados.",
       "Mejora del 40% en las tasas de envío de datos, lo que permite una atención más proactiva.",
@@ -194,6 +197,7 @@
     "challengesDesc": "A pesar de las importantes inversiones tecnológicas del cliente en fabricación, su proceso de gestión de pedidos dependía en gran medida de la intervención manual. Los clientes que deseaban priorizar ciertos pedidos debían llamar al equipo de ventas y compartir su lista de pedidos urgentes. Esto requería que el equipo de ventas ajustara manualmente las fechas de carga para aproximadamente 150 pedidos diarios, un proceso ineficiente y propenso a errores que consumía tiempo y recursos valiosos.",
     "solutionsTitle": "Soluciones",
     "solutionsDesc": "Rialtes se asoció con el cliente para optimizar y digitalizar su proceso de priorización de pedidos. Desarrollamos una aplicación personalizada de SAP Fiori que permitió a los clientes acceder de forma independiente a sus pedidos abiertos y seleccionar cuáles necesitaban ser priorizados. Las características clave de la solución incluían:",
+    "schemaData": {},
     "solutionsList": [
       "Una interfaz fácil de usar para que los clientes puedan ver y seleccionar pedidos abiertos",
       "Lógica de planificación integrada con la capacidad de fabricación para garantizar cronogramas realistas",
@@ -241,6 +245,7 @@
     "conclusion": "Conclusión",
     "conclusionDesc": "Rialtes entregó con éxito un sistema transformador de gestión de garantías para el fabricante de automóviles, pasando del antiguo portal basado en Java/J2EE a una solución potente e integrada impulsada por Salesforce Automotive Cloud e integrada con SAP S/4 HANA. El resultado fue un proceso de gestión de garantías más eficiente, escalable y fácil de usar, que mejoró significativamente el rendimiento de los distribuidores, redujo los tiempos de resolución de reclamaciones y aumentó la satisfacción del cliente.",
     "conclusionDescOne": "Con el servicio AutoSense, Rialtes permitió al cliente optimizar la gestión de reclamaciones de garantía, mejorar los flujos de trabajo y obtener información en tiempo real sobre los datos de garantía, posicionando al fabricante para un crecimiento continuo en un mercado automotriz competitivo.",
+    "schemaData": {},
     "benefitsList": [
       {
         "title": "Mayor Eficiencia en Reclamaciones de Garantía",
@@ -369,6 +374,7 @@
     "solutionsTitle": "Soluciones",
     "solutionsDesc": "Rialtes implementó Salesforce Service Cloud y Experience Cloud para centralizar el soporte al cliente y crear una solución escalable y preparada para el futuro. Elementos clave de la implementación:",
     "benefitsTitle": "Beneficios",
+    "schemaData": {},
     "problemList": [
       "Datos de interacción con el cliente desarticulados entre plataformas, lo que dificultaba el seguimiento del historial de servicio.",
       "Falta de visibilidad en los datos históricos de casos y el comportamiento del cliente.",
@@ -439,6 +445,7 @@
     "managingTitle": "Gestión de Presupuestos, Historial de Pedidos y Facturas",
     "unifiedTitle": "Plataforma Unificada para Todas las Filiales",
     "globalTitle": "Globalización",
+    "schemaData": {},
     "maxiList": [
       "Implementamos Salesforce Sales Cloud para automatizar la calificación de prospectos y la gestión de oportunidades.",
       "La implementación del seguimiento automatizado de prospectos y las recomendaciones impulsadas por IA aumentó la productividad del equipo de ventas, reduciendo el ciclo de ventas promedio de 46 días a 28 días y permitiendo cerrar acuerdos más rápido.",
@@ -525,6 +532,7 @@
     "solutionTitle": "Soluciones",
     "solutionDesc": "Rialtes modernizó las operaciones ACH y de asientos contables del cliente implementando un Módulo Bancario Exelona personalizado, construido sobre la Plataforma Salesforce Einstein 1. Los componentes clave de la solución incluyeron:",
     "benefitsTitle": "Beneficios",
+    "schemaData": {},
     "problemList": [
       {
         "title": "Procesos Manuales",
@@ -593,6 +601,7 @@
     "deliverablesTitle": "Entregables Clave de Rialtes bajo AutoSense:",
     "conclusionTitle": "Conclusión:",
     "conclusionDesc": "Aprovechando AutoSense, Rialtes transformó con éxito el portal de concesionarios heredado y obsoleto del fabricante automotriz en una solución moderna, escalable y eficiente que empoderó a sus concesionarios y agilizó las operaciones internas. Con integraciones de Salesforce Experience Cloud y SAP S/4 HANA, AutoSense entregó una experiencia superior en gestión de concesionarios, proporcionando datos en tiempo real, eficiencias operativas y una interfaz de usuario fluida. Esta transformación no solo mejoró el compromiso con los concesionarios del cliente, sino que también los posicionó para un crecimiento continuo en un mercado automotriz cada vez más competitivo.",
+    "schemaData": {},
     "approachList": [
       {
         "title": "Talleres de Diseño Colaborativo",
@@ -717,6 +726,7 @@
     "solutionsTitle": "Soluciones",
     "solutionsDesc": "Para optimizar y digitalizar el proceso de autorización previa, Rialtes desarrolló una solución basada en Salesforce utilizando Salesforce Health Cloud que conectó hospitales, proveedores de atención médica, pacientes y aseguradoras dentro de un flujo de trabajo digital unificado.",
     "benefitsTitle": "Beneficios",
+    "schemaData": {},
     "problemList": [
       "Los pacientes a menudo tenían múltiples pólizas con reglas de cobertura variables, lo que causaba confusión y aprobaciones demoradas.",
       "Frecuentemente, los pacientes desconocían tratamientos no cubiertos hasta recibir notificaciones de denegación post-tratamiento, resultando en costos inesperados.",
@@ -768,6 +778,7 @@
     "approachTitle": "Enfoque",
     "technologyTitle": "Implementación Tecnológica",
     "benefitsTitle": "Beneficios",
+    "schemaData": {},
     "problemList": [
       "Múltiples entornos sandbox en las etapas de desarrollo, QA, preproducción y producción.",
       "Ciclos de lanzamiento mensuales complementados con implementaciones ad-hoc, lo que provocaba retrasos en la entrega de nuevas funciones y correcciones.",
@@ -830,6 +841,7 @@
     "solutionsDescOne": "Construimos el portal utilizando Lightning Web Components (LWC) para garantizar una navegación fluida, un rendimiento rápido y un diseño sencillo y optimizado para pantallas táctiles. Esta experiencia mejorada permite a los clientes completar reclamaciones de garantía de forma rápida y sencilla.",
     "solutionsDescTwo": "Nuestra solución mejora la satisfacción del cliente, optimiza las operaciones y garantiza una experiencia moderna y eficiente de reclamaciones en todos los dispositivos móviles.",
     "benefitsTitle": "Beneficios",
+    "schemaData": {},
     "benifitList": [
       "Compatibilidad total con dispositivos móviles, permitiendo a los clientes presentar reclamaciones desde teléfonos inteligentes y tabletas sin necesidad de una computadora de escritorio.",
       "La experiencia de usuario simplificada provocó una reducción del 40% en los tickets de soporte relacionados con presentaciones de garantía.",
@@ -854,6 +866,7 @@
     "solutionsDescOne": "Se llevaron a cabo flujos de trabajo automatizados que eliminaron la intervención manual, permitiendo un manejo fluido de las reclamaciones. Las notificaciones en tiempo real por correo electrónico y SMS mantuvieron a los clientes informados sobre el estado de su reclamación, mejorando la transparencia.",
     "solutionsDescTwo": "Además, establecimos integraciones con SAP y ERP para un intercambio de datos fluido, reduciendo el esfuerzo manual y mejorando significativamente la eficiencia en el procesamiento de reclamaciones.",
     "benefitsTitle": "Beneficios",
+    "schemaData": {},
     "benefitsList": [
       "Redujo el tiempo de presentación de reclamaciones en un 60%, permitiendo a los clientes completar solicitudes en menos de 5 minutos a través del portal web intuitivo.",
       "La validación de direcciones mediante Google API redujo las entradas incorrectas o incompletas en más del 85%, eliminando retrasos causados por correcciones manuales.",
@@ -875,6 +888,7 @@
     "solutionsTitle": "Soluciones",
     "solutionsDesc": "Rialtes, un proveedor de confianza de servicios gestionados de Yardi, entregó una solución estructurada y escalable para abordar estas brechas:",
     "benefitsTitle": "Beneficios",
+    "schemaData": {},
     "businessList": [
       {
         "title": "Silos de habilidades",
@@ -938,6 +952,7 @@
     "benefits": "Beneficios Cualitativos",
     "about": "Acerca de Edu+ de Rialtes",
     "aboutDesc": "Edu+ es el marco de consultoría e implementación dedicado de Rialtes, diseñado para instituciones educativas. Reúne Salesforce Education Cloud, IA/automatización (Agentforce) e integración de datos (Data Cloud) para ofrecer:",
+    "schemaData": {},
     "aboutList": [
       "Tiempo de obtención de valor más rápido",
       "Modelos de objetos y flujos de trabajo alineados con la industria",
@@ -1142,6 +1157,7 @@
         "desc": "Los equipos de campo accedieron a datos en tiempo real mientras se desplazaban, acelerando ciclos de pedidos y entregas."
       }
     ],
+    "schemaData": {},
     "bannerAlt": "Neumáticos automotrices moviéndose en una línea de producción en una instalación de fabricación moderna",
     "seoTitle": "Soluciones SAP ERP Cloud para Automotriz | Caso de Estudio",
     "seoDescription": "Este caso de estudio automotriz muestra cómo las soluciones SAP ERP Cloud han impulsado la innovación en O2C y P2P, mejorando la precisión, el control de inventario y la velocidad.",

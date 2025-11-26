@@ -11,77 +11,9 @@ export default function Contact() {
     const t = useTranslations('globalAlliance')
     const locale = useLocale();
     const globalAllianceContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { approachData } = globalAllianceContent.globalAlliance;
+    const { approachData,schemaData } = globalAllianceContent.globalAlliance;
 
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com",
-        "description": "Rialtes collaborates with leading technology providers to offer seamless digital transformation solutions.",
-        "knowsAbout": [
-            {
-                "@type": "Organization",
-                "name": "Adobe Sign",
-                "url": "https://www.adobe.com/sign",
-                "description": "Partnering for secure digital document signing solutions."
-            },
-            {
-                "@type": "Organization",
-                "name": "Amazon Web Services",
-                "url": "https://aws.amazon.com",
-                "description": "Cloud computing and infrastructure partner."
-            },
-            {
-                "@type": "Organization",
-                "name": "Automation Anywhere",
-                "url": "https://www.automationanywhere.com",
-                "description": "Providing intelligent automation and RPA solutions."
-            },
-            {
-                "@type": "Organization",
-                "name": "Salesforce",
-                "url": "https://www.salesforce.com",
-                "description": "Strategic partner for CRM and digital transformation solutions."
-            },
-            {
-                "@type": "Organization",
-                "name": "SAP",
-                "url": "https://www.sap.com",
-                "description": "Enterprise resource planning and business software partner."
-            },
-            {
-                "@type": "Organization",
-                "name": "Microsoft Azure",
-                "url": "https://azure.microsoft.com",
-                "description": "Cloud platform partner for scalable business solutions."
-            },
-            {
-                "@type": "Organization",
-                "name": "Azure DevOps",
-                "url": "https://azure.microsoft.com/en-us/products/devops/",
-                "description": "Supporting DevOps automation and CI/CD pipelines."
-            },
-            {
-                "@type": "Organization",
-                "name": "Conga",
-                "url": "https://www.conga.com",
-                "description": "Partnering for document generation and contract lifecycle management."
-            },
-            {
-                "@type": "Organization",
-                "name": "CallidusCloud",
-                "url": "https://www.sap.com/products/calliduscloud.html",
-                "description": "Sales performance management and CPQ solutions partner."
-            },
-            {
-                "@type": "Organization",
-                "name": "Bitbucket",
-                "url": "https://bitbucket.org",
-                "description": "Version control and software collaboration platform partner."
-            }
-        ]
-    }
+   
     const keyPartners = [
         { src: "/images/partners/salesforce-logo.webp", alt: "salesforce logo" },
         { src: "/images/partners/SAP-logo.webp", alt: "SAP logo" },

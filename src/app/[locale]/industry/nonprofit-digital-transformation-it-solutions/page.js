@@ -11,103 +11,11 @@ import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
 export default function retailPage() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Nonprofit Digital Transformation and IT Solutions",
-        "url": "https://www.rialtes.com/industry/nonprofit-digital-transformation-it-solutions/",
-        "description": "Smart IT solutions and digital transformation by Rialtes empower nonprofits to streamline grants, donors, volunteers, and mission-critical operations.",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "url": "https://www.rialtes.com",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-            },
-            "sameAs": [
-                "https://www.linkedin.com/company/rialtes-technologies-llc/",
-                "https://www.youtube.com/@rialtes"
-            ]
-        },
-        "mainEntity": {
-            "@type": "Service",
-            "name": "Nonprofit Digital Transformation and IT Solutions",
-            "description": "Salesforce and SAP-powered IT transformation for nonprofits. Streamline donor journeys, grants, volunteers, and outcomes with AI and automation.",
-            "areaServed": [
-                { "@type": "Country", "name": "United States" },
-                { "@type": "Country", "name": "Canada" },
-                { "@type": "Country", "name": "India" },
-                { "@type": "Country", "name": "Singapore" }
-            ],
-            "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Nonprofit Digital Transformation Services",
-                "itemListElement": [
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Fundraising & Campaign Management",
-                            "description": "Create personalized, multichannel donor campaigns with real-time engagement tracking and automated impact reporting."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Family & Household Donor Mapping",
-                            "description": "Visualize household giving patterns, uncover networks, and manage legacy or collective donor relationships."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Salesforce Marketing Cloud for Nonprofits",
-                            "description": "Run AI-powered donor journeys, trigger-based outreach, and personalized communications for increased retention."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Donor Relationship Management",
-                            "description": "Manage 360-degree donor profiles, major gift planning, and loyalty programs with transparency and insight."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Volunteer Engagement Solutions",
-                            "description": "Optimize volunteer recruitment, scheduling, and retention with personalized communication and self-service portals."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Program & Outcome Management",
-                            "description": "Track real-time program impact, outcome metrics, and performance dashboards for stakeholders and funders."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Grant Lifecycle Automation",
-                            "description": "Automate grant applications, approvals, fund allocation, compliance, and reporting with integrated workflows."
-                        }
-                    }
-                ]
-            }
-        }
-    }
+  
     const t = useTranslations('nonProfit')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { whyChooseData, thoughtLeadershipData, preDeliveredData, commonSectionData, } = content.nonProfit
+    const { whyChooseData, thoughtLeadershipData, preDeliveredData, commonSectionData,schemaData } = content.nonProfit
     return (
         <section className="min-h-screen">
             <Seo

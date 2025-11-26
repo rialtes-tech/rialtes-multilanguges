@@ -12,42 +12,13 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/",
-  },
-  headline:
-    "Case Study: Automate Order Processing Using MuleSoft for Salesforce Health Cloud and SAP",
-  description:
-    "Learn how Rialtes leveraged MuleSoft to integrate Salesforce Health Cloud and SAP, enabling end-to-end order automation, faster turnaround, and improved patient experience.",
-  image:
-    "https://www.rialtes.com/images/case-studies/healthcare-professional-colleague-hospital-discussion.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  articleSection: "Case Studies",
-  datePublished: "2024-11-17",
-};
+
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations("automateCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { problemList, solutionsList, benefitsList } =
-    Content.automateCaseStudy;
+  const { problemList, solutionsList, benefitsList, schemaData } = Content.automateCaseStudy;
 
   const fullUrl = "https://www.rialtes.com/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap";
   return (

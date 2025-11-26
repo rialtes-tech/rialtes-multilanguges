@@ -12,106 +12,6 @@ import esContent from "../../../../../messages/es/industry.json";
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import { useActiveLocale } from "../../components/activeLanguages";
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  name: "Semiconductor Industry Digital Transformation and IT Solutions",
-  url: "https://www.rialtes.com/industry/hitech-semiconductor-ai-it-solutions/",
-  description:
-    "Semiconductor industry IT solutions powered by SAP, Salesforce, and AI to optimize chip design, fab operations, compliance, and customer collaboration.",
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-    sameAs: [
-      "https://www.linkedin.com/company/rialtes-technologies-llc/",
-      "https://www.youtube.com/@rialtes",
-    ],
-  },
-  mainEntity: {
-    "@type": "Service",
-    name: "Semiconductor Industry Digital Transformation and IT Solutions",
-    areaServed: [
-      { "@type": "Country", name: "United States" },
-      { "@type": "Country", name: "Canada" },
-      { "@type": "Country", name: "India" },
-      { "@type": "Country", name: "Singapore" },
-    ],
-    hasOfferCatalog: {
-      "@type": "OfferCatalog",
-      name: "Semiconductor Digital Transformation Services",
-      itemListElement: [
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "SAP S/4HANA for Semiconductor",
-            description:
-              "Streamline fab operations, yield management, and supply chain compliance with SAP S/4HANA.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Salesforce Industry Cloud for Semiconductor",
-            description:
-              "Enable deal registration, partner collaboration, and customer support with Salesforce Industry Cloud.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "AI-Powered Chip Design & Testing",
-            description:
-              "Leverage AI for RTL verification, defect prediction, yield optimization, and post-silicon validation.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Semiconductor Supply Chain Visibility",
-            description:
-              "Improve demand forecasting and logistics efficiency with real-time supply chain insights and AI models.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Compliance and Certification Automation",
-            description:
-              "Automate RoHS, REACH, ITAR, and Conflict Minerals compliance across global operations.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Partner Relationship Management (PRM)",
-            description:
-              "Enhance semiconductor partner ecosystems with deal tracking, pricing, and co-design portals.",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Integrated SAP & Salesforce Platforms",
-            description:
-              "Enable unified data visibility and faster decision-making with integrated SAP and Salesforce workflows.",
-          },
-        },
-      ],
-    },
-  },
-};
 
 export default function Page() {
   const t = useTranslations("semiconductor");
@@ -131,6 +31,7 @@ export default function Page() {
     endSemiconductorData,
     keyReasonsData,
     rialtesData,
+    schemaData
   } = homepageContent.semiconductor;
 
   return (

@@ -11,34 +11,6 @@ import Script from "next/script";
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
-  },
-  headline:
-    "Case Study: Optimizing Sales Processes with Salesforce Sales Cloud for a Manufacturing Company",
-  description:
-    "Learn how a global manufacturing company streamlined lead management, improved sales productivity, and enhanced reporting using Salesforce Sales Cloud with Rialtes’ expertise.",
-  image: "https://www.rialtes.com/images/case-studies/quality-control-technician-inspecting-bottle-production-line.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  articleSection: "Case Studies",
-  datePublished: "2025-03-26",
-};
 
 export default function Page() {
   const currUrl = useUrl()
@@ -53,6 +25,7 @@ export default function Page() {
     managingList,
     unifiedList,
     globaList,
+    schemaData
   } = Content.optimizingCaseStudy;
 
   const fullUrl = "https://www.rialtes.com/insights/blogs/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company";

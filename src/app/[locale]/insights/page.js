@@ -12,49 +12,12 @@ import esContent from '../../../../messages/es/insight.json';
 import frContent from '../../../../messages/fr/insight.json';
 import { changeLocalization } from "../components/changeLocalization";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/"
-  },
-  "name": "Rialtes Insights | Salesforce, SAP, and Technology Trends",
-  "headline": "Explore Insights That Power Digital Transformation",
-  "description": "Discover Rialtes Insights: A knowledge hub featuring thought leadership blogs, real-world case studies, and expert-led webinars focused on Salesforce, SAP, and enterprise tech innovation.",
-  "hasPart": [
-    {
-      "@type": "CollectionPage",
-      "name": "Rialtes Blogs | Expert Insights on Digital Transformation",
-      "url": "https://www.rialtes.com/insights/blogs/"
-    },
-    {
-      "@type": "CollectionPage",
-      "name": "Rialtes Case Studies | Proven Salesforce and SAP Implementations",
-      "url": "https://www.rialtes.com/insights/case-studies/"
-    },
-    {
-      "@type": "CollectionPage",
-      "name": "Rialtes Webinars | Learn from Salesforce & SAP Experts",
-      "url": "https://www.rialtes.com/insights/webinars/"
-    }
-  ],
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  }
-
-}
 
 export default function InsightsPage() {
   const t = useTranslations('insights')
   const locale = useLocale();
   const insightsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { caseStudies } = insightsContent.insights;
+  const { caseStudies,schemaData } = insightsContent.insights;
 
   const [hoveredBlog, setHoveredBlog] = useState(null);
   const [isRouterReady, setIsRouterReady] = useState(false);

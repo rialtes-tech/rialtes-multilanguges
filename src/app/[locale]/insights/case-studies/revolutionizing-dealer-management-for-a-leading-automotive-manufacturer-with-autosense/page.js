@@ -10,34 +10,7 @@ import Script from "next/script";
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id":
-            "https://www.rialtes.com/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
-    },
-    headline:
-        "Case Study: Revolutionizing Dealer Management for a Leading Automotive Manufacturer with AutoSense",
-    description:
-        "Discover how Rialtes transformed automotive dealer management with AutoSense—modern UX, SAP & Salesforce integration, and real-time operations.",
-    image: "https://www.rialtes.com/images/case-studies/business-professionals-collaborating-laptop-modern-office.webp",
-    author: {
-        "@type": "Organization",
-        name: "Rialtes",
-    },
-    publisher: {
-        "@type": "Organization",
-        name: "Rialtes",
-        logo: {
-            "@type": "ImageObject",
-            url: "https://www.rialtes.com/images/homepage/logo.svg",
-        },
-    },
-    articleSection: "Case Studies",
-    datePublished: "2025-06-03",
-};
+
 export default function Page() {
     const currUrl = useUrl()
     const t = useTranslations("autoSenseCaseStudy");
@@ -49,6 +22,7 @@ export default function Page() {
         featuresList,
         benefitsList,
         deliverablesList,
+        schemaData
     } = Content.autoSenseCaseStudy;
 
     const fullUrl = "https://www.rialtes.com/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense";

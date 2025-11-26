@@ -1151,6 +1151,7 @@
     "contactSubTitle": "Transforma tu modelo de atención con las soluciones de salud en el hogar de Rialtes impulsadas por Salesforce"
   },
   "semiconductor": {
+     "schemaData": {},
     "bannerAlt": "Vista macro de oblea de semiconductores con chips de silicio brillantes rosa y azul en placa de circuito representando microelectrónica",
     "dataAlt": "Chip microprocesador futurista con flujos de datos rojos y azules fluyendo hacia arriba mostrando computación cuántica e IA",
     "semiALt": "Técnico de semiconductores con traje de sala limpia sosteniendo oblea de silicio colorida con patrones de microchip",
@@ -1573,6 +1574,7 @@
     "contactSubtitleOne": "¡Contáctenos hoy para una consulta gratuita y descubra cómo podemos potenciar su empresa conectada!"
   },
   "manufacturing": {
+    "schemaData": {},
     "bannerAlt": "Turbinas industriales y tuberías conectadas en instalación azul representando integración MuleSoft y conectividad de datos",
     "thoughtAlt": "Ingeniero con tableta viendo paneles de datos holográficos y flujos de luz azul en fábrica inteligente de transformación",
     "endAlt": "Ingeniera con casco amarillo y chaleco de seguridad usando tableta mientras inspecciona instalación industrial con estructuras",
@@ -1651,6 +1653,7 @@
     "contactSubtitleOne": "¡Contáctanos hoy y comienza tu camino hacia una manufactura inteligente, resiliente y centrada en el cliente!"
   },
   "education": {
+     "schemaData": {},
     "bannerAlt": "Estudiante graduado con birrete y toga con datos digitales mirando adelante representando educación tecnológica",
     "businessAlt": "Profesional de negocios con traje gris y corbata azul usando tableta digital en oficina moderna con pared de vidrio",
     "studentALt": "Joven mujer sonriente con camisa naranja y mochila usando laptop al aire libre apoyada en pared en calle soleada de ciudad",
@@ -1828,6 +1831,7 @@
     ]
   },
   "finance": {
+    "schemaData": {},
     "exelonaBlendAlt": "Rascacielos de vidrio modernos reflejando cielo azul y nubes vistos desde abajo mostrando arquitectura corporativa contemporánea",
     "financialSectionAlt": "Presentador masculino sosteniendo visualización holográfica financiera presentando soluciones Salesforce a audiencia",
     "supportAlt": "Ícono de auriculares azul con texto 24/7 representando soporte al cliente financiero las 24 horas siempre disponible",
@@ -1973,6 +1977,7 @@
     ]
   },
   "automativeIndustry": {
+    "schemaData": {},
     "partneringPowerAlt": "Carretera nocturna con senderos de luz naranja representando poder de asociación SAP y Salesforce de Rialtes",
     "integrationSectionAlt": "Hombre cargando vehículo eléctrico mostrando integración SAP CPI BTP para pila automotriz y servicios movilidad",
     "unlockingSectionAlt": "Técnico de vehículos comerciales realizando mantenimiento en taller representando gestión de servicio de flotas ",
@@ -2159,6 +2164,7 @@
     "learnMoreBtn": "Saber más"
   },
   "travelIndustry": {
+    "schemaData": {},
     "smaterServiceAlt": "Gráfico que muestra bots de IA ayudando a agentes a brindar soporte de viaje más ágil",
     "quikCommerceAlt": "Imagen que representa reservas instantáneas, check-in y solicitudes de servicio",
     "aiPoweredAlt": "Gráfico que muestra chatbots y sistemas predictivos con IA mejorando el viaje",
@@ -2300,6 +2306,7 @@
     "learnMoreBtn": "Saber más"
   },
   "retailIndustry": {
+    "schemaData": {},
     "aiPoweredAlt": "Empleado de tienda minorista sonriente asistiendo cliente con escaneo de pago móvil en mostrador moderno con tecnología",
     "rightSectionAlt": "Gerente de tienda minorista y empleado discutiendo inventario en tableta en boutique de ropa moderna con estantes de exhibición",
     "actionableSectionAlt": "Profesional viendo análisis dinámico de nube de datos con efecto de desenfoque mostrando inteligencia comercial minorista",
@@ -2506,6 +2513,7 @@
     "contactSubTitle2": "Contacta hoy para desbloquear el futuro del retail."
   },
   "nonProfit": {
+    "schemaData": {},
     "whyChooseRialtesAlt": "Mano tocando interfaz de red digital sin fines de lucro con íconos conectados mostrando colaboración comunitaria e innovación",
     "dataCloudAlt": "Voluntarios trabajando con superposición de análisis de datos transparente mostrando gráficos de impacto sin lucro",
     "agentforceAlt": "Profesionales sonrientes sin fines de lucro colaborando en portátil revisando estrategia organizacional y programas",

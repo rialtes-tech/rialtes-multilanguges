@@ -5,27 +5,16 @@ import Script from "next/script";
 import ContactForm from "../../components/contactform";
 import { useLocale, useTranslations } from "next-intl";
 import { useActiveLocale } from "../../components/activeLanguages";
+import enContent from '../../../../../messages/en/industry.json';
+import esContent from '../../../../../messages/es/industry.json';
+import frContent from '../../../../../messages/fr/industry.json';
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "SocialResponsibility",
-  organization: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-    logo: "https://www.rialtes.com/images/homepage/logo.svg",
-    description:
-      "Rialtes supports sustainability, diversity, and social impact through AI and community engagement.",
-  },
-  socialImpact:
-    "Sustainability initiatives, AI workforce training, charity programs, and promoting responsible AI.",
-  action:
-    "Responsible AI adoption, net-zero carbon footprint, community empowerment, and upskilling youth.",
-};
 export default function Page() {
   const t = useTranslations('impact')
   const { frActive, esActive } = useActiveLocale();
     const locale = useLocale();
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+     const { schemaData} = content.impact;
 
   return (
     <div className="min-h-screen bg-white">

@@ -12,41 +12,13 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/case-studies/yardi-managed-services/",
-  },
-  headline:
-    "Case Study: Driving Operational Efficiency with Yardi Managed Services",
-  description:
-    "Learn how Rialtes empowered a public housing authority to achieve operational excellence, ensure regulatory compliance, and streamline workflows through comprehensive Yardi managed services.",
-  image: "https://www.rialtes.com/images/case-studies/abstract-3d-data-visualization.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  articleSection: "Case Studies",
-  datePublished: "2024-09-04",
-};
 
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations("yardiManageCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { solutionList, businessList, benefitsList } = Content.yardiManageCaseStudy;
+  const { solutionList, businessList, benefitsList, schemaData } = Content.yardiManageCaseStudy;
 
   const fullUrl = "https://www.rialtes.com/insights/case-studies/yardi-managed-services";
 

@@ -11,32 +11,12 @@ import esContent from '../../../../../messages/es/insight.json';
 import frContent from '../../../../../messages/fr/insight.json';
 import { changeLocalization } from "../../components/changeLocalization";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/news/"
-  },
-  "name": "Rialtes News | Product Launches, Events & Media Mentions",
-  "headline": "Rialtes in the News – Announcements & Industry Coverage",
-  "description": "Stay up to date with the latest news from Rialtes. Discover product launches, partnership announcements, media coverage, and event highlights.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  }
-
-}
 
 export default function Page() {
   const t = useTranslations('news')
   const locale = useLocale();
   const newsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { latestNews } = newsContent.news;
+  const { latestNews ,schemaData} = newsContent.news;
 
   const CaseStudyCard = ({ casestudy }) => (
     <div className="border border-[#707070] w-full h-full flex flex-col group">

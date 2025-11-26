@@ -12,39 +12,12 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
 
-const schemaData =
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/case-studies/warranty-claim-submission-using-experience-cloud"
-  },
-  "headline": "Case Study: Salesforce Experience Cloud Transforms Warranty Claims for a Roofing Manufacturer",
-  "description": "Rialtes helped a roofing manufacturer in the building materials industry modernize warranty claims using Salesforce Experience Cloud, integrating LWC, address validation, automation, and ERP for better accuracy and efficiency.",
-  "image": "https://www.rialtes.com//images/case-studies/roof-shingle-color-samples-material-options.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "articleSection": "Case Studies",
-  "datePublished": "2025-06-10"
-}
-
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations("warrantyClaimCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { benefitsList } = Content.warrantyClaimCaseStudy;
+  const { benefitsList,schemaData } = Content.warrantyClaimCaseStudy;
 
   const fullUrl = "https://www.rialtes.com/insights/case-studies/warranty-claim-submission-using-experience-cloud";
 

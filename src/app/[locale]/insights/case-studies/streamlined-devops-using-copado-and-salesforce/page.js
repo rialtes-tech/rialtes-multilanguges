@@ -12,40 +12,13 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/case-studies/streamlined-devops-using-copado-and-salesforce/",
-  },
-  headline: "Case Study: Streamlined DevOps Using Copado and Salesforce",
-  description:
-    "Discover how Rialtes helped a company enhance release management, improve collaboration, and accelerate DevOps cycles using Copado integrated with Salesforce.",
-  image: "https://www.rialtes.com/images/case-studies/construction-workers-safety-gear-laptop-warehouse.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  articleSection: "Case Studies",
-  datePublished: "2025-01-08",
-};
 
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations("devopsCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { problemList, approachList, benefitsList, technologyList } =
+  const { problemList, approachList, benefitsList, technologyList, schemaData } =
     Content.devopsCaseStudy;
 
   const fullUrl = "https://www.rialtes.com/insights/case-studies/streamlined-devops-using-copado-and-salesforce";
