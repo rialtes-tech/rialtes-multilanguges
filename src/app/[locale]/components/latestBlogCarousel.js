@@ -10,10 +10,10 @@ import frContent from '../../../../messages/fr/insight.json';
 import { changeLocalization } from "./changeLocalization";
 
 export default function BlogsCarousel() {
-const t = useTranslations('latestBlog')
-    const locale = useLocale();
-    const latestBlogContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const {slides} = latestBlogContent.latestBlog;
+  const t = useTranslations('latestBlog')
+  const locale = useLocale();
+  const latestBlogContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { slides } = latestBlogContent.latestBlog;
 
   const responsive = {
     desktop: {
@@ -45,8 +45,8 @@ const t = useTranslations('latestBlog')
             <path d="M3 7.5L11 0V15L3 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3] hover:fill-[#C3C3C3]" />
           </svg>
         </button>
-        <button   aria-label="Next slide" className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
-           <span className="sr-only">{t('nextSlide')}</span>
+        <button aria-label="Next slide" className="bg-white p-2 group transition-all duration-300" onClick={() => next()}>
+          <span className="sr-only">{t('nextSlide')}</span>
           <svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#707070" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="group-hover:stroke-[#C3C3C3]">
             <path d="M12 7.5L4 0V15L12 7.5Z" fill="none" className="transition-all duration-300 group-hover:fill-[#C3C3C3]" />
           </svg>
@@ -64,12 +64,12 @@ const t = useTranslations('latestBlog')
     } = rest;
     return (
       <li>
-      <span
-      role="button"
-        className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
-        onClick={() => onClick()}
-        aria-label="Custom Dots"
-      />
+        <span
+          role="button"
+          className={`w-3 h-1 md:px-8 px-4 mr-3 mb-4 ${active ? "bg-[#134874]" : "bg-[#D1D1D1]"}`}
+          onClick={() => onClick()}
+          aria-label="Custom Dots"
+        />
       </li>
     );
   };
