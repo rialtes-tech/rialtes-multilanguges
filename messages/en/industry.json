@@ -689,98 +689,110 @@
     "contactSubTitle2": "Contact us today to discover how Rialtes can drive growth and patient impact for your organization."
   },
   "healthCare": {
-    "schemaData" : {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Healthcare & MedTech IT Solutions",
-    "url": "https://www.rialtes.com/en/industry/life-sciences/healthcare-medtech-patient-care/",
-    "description": "Rialtes delivers Salesforce Health Cloud-powered solutions that transform patient care, provider operations, and MedTech services. From virtual care to hospital enhancements, we empower payers, providers, pharma, biotech, and MedTech organizations with connected, secure, and scalable healthcare IT solutions.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Rialtes",
-      "url": "https://www.rialtes.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.rialtes.com/images/homepage/logo.svg"
-      },
-      "sameAs": [
-        "https://www.linkedin.com/company/rialtes-technologies-llc/",
-        "https://www.youtube.com/@rialtes"
-      ]
-    },
-    "mainEntity": {
-      "@type": "Service",
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
       "name": "Healthcare & MedTech IT Solutions",
-      "areaServed": [
-        { "@type": "Country", "name": "United States" },
-        { "@type": "Country", "name": "Canada" },
-        { "@type": "Country", "name": "India" },
-        { "@type": "Country", "name": "Singapore" }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Patient Care, MedTech & Health Cloud Solutions",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Salesforce Health Cloud Implementation",
-              "description": "Centralize patient records, enable remote monitoring, automate scheduling, and elevate decision-making with Health Cloud-driven care systems."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Urgent Care & Hospital Enhancements",
-              "description": "Digitize admissions, discharge processes, emergency response systems, and resource allocation with real-time hospital software solutions."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Tailored Patient Engagement Tools",
-              "description": "Deploy virtual waiting rooms, e-prescriptions, and real-time health monitoring to improve patient satisfaction and care quality."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "MedTech IT Services",
-              "description": "Ensure smooth tech operations across medical devices with EMR integrations, cybersecurity audits, and 24/7 MedTech support."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Payer Solutions",
-              "description": "Streamline claim processing, provider communication, patient onboarding, and compliance for private and commercial payers."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Provider Solutions",
-              "description": "Enable centralized EHR access, automate care coordination, simplify admin workflows, and ensure HIPAA-compliant operations."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Pharma & Biotech Solutions",
-              "description": "Accelerate R&D, ensure data security, and improve cross-system communication between pharmacies, patients, and providers using AI-powered digital tools."
-            }
-          }
+      "url": "https://www.rialtes.com/en/industry/life-sciences/healthcare-medtech-patient-care/",
+      "description": "Rialtes delivers Salesforce Health Cloud-powered solutions that transform patient care, provider operations, and MedTech services. From virtual care to hospital enhancements, we empower payers, providers, pharma, biotech, and MedTech organizations with connected, secure, and scalable healthcare IT solutions.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc/",
+          "https://www.youtube.com/@rialtes"
         ]
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Healthcare & MedTech IT Solutions",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Patient Care, MedTech & Health Cloud Solutions",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Health Cloud Implementation",
+                "description": "Centralize patient records, enable remote monitoring, automate scheduling, and elevate decision-making with Health Cloud-driven care systems."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Urgent Care & Hospital Enhancements",
+                "description": "Digitize admissions, discharge processes, emergency response systems, and resource allocation with real-time hospital software solutions."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Tailored Patient Engagement Tools",
+                "description": "Deploy virtual waiting rooms, e-prescriptions, and real-time health monitoring to improve patient satisfaction and care quality."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "MedTech IT Services",
+                "description": "Ensure smooth tech operations across medical devices with EMR integrations, cybersecurity audits, and 24/7 MedTech support."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Payer Solutions",
+                "description": "Streamline claim processing, provider communication, patient onboarding, and compliance for private and commercial payers."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Provider Solutions",
+                "description": "Enable centralized EHR access, automate care coordination, simplify admin workflows, and ensure HIPAA-compliant operations."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Pharma & Biotech Solutions",
+                "description": "Accelerate R&D, ensure data security, and improve cross-system communication between pharmacies, patients, and providers using AI-powered digital tools."
+              }
+            }
+          ]
+        }
       }
-    }
-  },
+    },
     "bannerAlt": "Healthcare professional in lab coat and glasses analyzing holographic medical data display with DNA strand and patient imaging",
     "seoTitle": "MedTech Healthcare Consulting and Patient Care Solutions | Rialtes",
     "seoDescription": "Rialtes delivers AI-powered MedTech healthcare consulting and patient care solutions to enhance clinical outcomes and streamline healthcare operations.",
@@ -901,7 +913,7 @@
     "contactTitle": "Take the next step to operational excellence with us."
   },
   "pharmaBiotech": {
-     "schemaData": {
+    "schemaData": {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Pharma & Biotech Digital Transformation Solutions",
@@ -1200,90 +1212,102 @@
     "contactTitle": "Partner with Rialtes — Enabling Next-Gen Pharma and Biotech Excellence!"
   },
   "medicalDevices": {
-  "schemaData" : {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Medical Devices IT Solutions",
-    "url": "https://www.rialtes.com/en/industry/life-sciences/medical-devices-it-solutions/",
-    "description": "Rialtes delivers customized IT solutions for the medical device industry powered by Salesforce, SAP, and cloud technologies. Our services support R&D, Quality Management Systems (QMS), compliance, sales automation, and supply chain optimization for MedTech organizations.",
-    "publisher": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Medical Devices IT Solutions",
+      "url": "https://www.rialtes.com/en/industry/life-sciences/medical-devices-it-solutions/",
+      "description": "Rialtes delivers customized IT solutions for the medical device industry powered by Salesforce, SAP, and cloud technologies. Our services support R&D, Quality Management Systems (QMS), compliance, sales automation, and supply chain optimization for MedTech organizations.",
+      "publisher": {
         "@type": "Organization",
         "name": "Rialtes",
         "url": "https://www.rialtes.com",
         "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
         },
         "sameAs": [
-            "https://www.linkedin.com/company/rialtes-technologies-llc/",
-            "https://www.youtube.com/@rialtes"
+          "https://www.linkedin.com/company/rialtes-technologies-llc/",
+          "https://www.youtube.com/@rialtes"
         ]
-    },
-    "mainEntity": {
+      },
+      "mainEntity": {
         "@type": "Service",
         "name": "Medical Devices IT Solutions",
         "areaServed": [
-            { "@type": "Country", "name": "United States" },
-            { "@type": "Country", "name": "Canada" },
-            { "@type": "Country", "name": "India" },
-            { "@type": "Country", "name": "Singapore" }
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
         ],
         "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Medical Devices Solutions",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Regulatory Compliance & Quality Management",
-                        "description": "Ensure FDA and ISO compliance with advanced QMS and audit trail capabilities using SAP S/4HANA and Salesforce Health Cloud."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Salesforce CRM for MedTech",
-                        "description": "Empower field sales and service agents with real-time insights, mobile access, and automated lead-to-quote processes."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Supply Chain and Inventory Management",
-                        "description": "Enhance visibility and agility across procurement, production, and distribution using SAP Digital Supply Chain solutions."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Product Lifecycle Management",
-                        "description": "Streamline R&D, testing, and market launch cycles with integrated SAP PLM and collaboration tools."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Field Service & Asset Management",
-                        "description": "Optimize medical equipment servicing with predictive maintenance, IoT integration, and mobile workflows via Salesforce Field Service."
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Advanced Analytics & Data Cloud",
-                        "description": "Drive decision-making with real-time analytics, clinical performance dashboards, and data harmonization using Tableau and Salesforce Data Cloud."
-                    }
-                }
-            ]
+          "@type": "OfferCatalog",
+          "name": "Medical Devices Solutions",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Regulatory Compliance & Quality Management",
+                "description": "Ensure FDA and ISO compliance with advanced QMS and audit trail capabilities using SAP S/4HANA and Salesforce Health Cloud."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce CRM for MedTech",
+                "description": "Empower field sales and service agents with real-time insights, mobile access, and automated lead-to-quote processes."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Supply Chain and Inventory Management",
+                "description": "Enhance visibility and agility across procurement, production, and distribution using SAP Digital Supply Chain solutions."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Product Lifecycle Management",
+                "description": "Streamline R&D, testing, and market launch cycles with integrated SAP PLM and collaboration tools."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Field Service & Asset Management",
+                "description": "Optimize medical equipment servicing with predictive maintenance, IoT integration, and mobile workflows via Salesforce Field Service."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Advanced Analytics & Data Cloud",
+                "description": "Drive decision-making with real-time analytics, clinical performance dashboards, and data harmonization using Tableau and Salesforce Data Cloud."
+              }
+            }
+          ]
         }
-    }
-},
+      }
+    },
     "seoTitle": "Salesforce-Powered IT Solutions for Medical Device Companies | Rialtes",
     "seoDescription": "Salesforce-based IT solutions for medical device companies simplify compliance, improve traceability, and accelerate sales. Discover the Rialtes advantage.",
     "bannerAlt": "Modern MRI scanner with blue lighting in clinical imaging suite showcasing advanced diagnostic medical technology",
@@ -1467,89 +1491,101 @@
     "learnMoreBtn": "Learn More"
   },
   "homeHealth": {
-    "schemaData" : {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Home Health Care Technology Solutions",
-        "url": "https://www.rialtes.com/en/industry/life-sciences/home-health-ai-tech-solutions/",
-        "description": "Rialtes provides AI-powered Home Health Care Technology Solutions built on Salesforce to support remote monitoring, virtual consultations, personalized care, and digital transformation in home-based healthcare delivery.",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "url": "https://www.rialtes.com",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-            },
-            "sameAs": [
-                "https://www.linkedin.com/company/rialtes-technologies-llc/",
-                "https://www.youtube.com/@rialtes"
-            ]
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Home Health Care Technology Solutions",
+      "url": "https://www.rialtes.com/en/industry/life-sciences/home-health-ai-tech-solutions/",
+      "description": "Rialtes provides AI-powered Home Health Care Technology Solutions built on Salesforce to support remote monitoring, virtual consultations, personalized care, and digital transformation in home-based healthcare delivery.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
         },
-        "mainEntity": {
-            "@type": "Service",
-            "name": "Home Health Care Technology Solutions",
-            "areaServed": [
-                { "@type": "Country", "name": "United States" },
-                { "@type": "Country", "name": "Canada" },
-                { "@type": "Country", "name": "India" },
-                { "@type": "Country", "name": "Singapore" }
-            ],
-            "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Home Health Solutions",
-                "itemListElement": [
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Remote Patient Monitoring (RPM)",
-                            "description": "Track vitals and symptoms via wearables integrated with Salesforce Health Cloud to enable real-time alerts and chronic care management."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Virtual Care Coordination",
-                            "description": "Automated care plans, mobile dashboards, and real-time task tracking for clinicians and caregivers."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "AI-Driven Health Insights",
-                            "description": "Predictive health monitoring, smart care planning, and AI diagnostics for proactive home care delivery."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Salesforce Health Cloud Integration",
-                            "description": "Unified health records, appointment scheduling, care plan automation, and real-time patient engagement via Salesforce."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "WhatsApp-Based Patient Communication (AgentChat)",
-                            "description": "Real-time, HIPAA-compliant messaging between care teams and patients using Salesforce-integrated WhatsApp communication."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Mental Health & Behavioral Support",
-                            "description": "Discreet access to mental health professionals via virtual counseling, mood-tracking tools, and wellness check-ins."
-                        }
-                    }
-                ]
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc/",
+          "https://www.youtube.com/@rialtes"
+        ]
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Home Health Care Technology Solutions",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Home Health Solutions",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Remote Patient Monitoring (RPM)",
+                "description": "Track vitals and symptoms via wearables integrated with Salesforce Health Cloud to enable real-time alerts and chronic care management."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Virtual Care Coordination",
+                "description": "Automated care plans, mobile dashboards, and real-time task tracking for clinicians and caregivers."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "AI-Driven Health Insights",
+                "description": "Predictive health monitoring, smart care planning, and AI diagnostics for proactive home care delivery."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Health Cloud Integration",
+                "description": "Unified health records, appointment scheduling, care plan automation, and real-time patient engagement via Salesforce."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "WhatsApp-Based Patient Communication (AgentChat)",
+                "description": "Real-time, HIPAA-compliant messaging between care teams and patients using Salesforce-integrated WhatsApp communication."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Mental Health & Behavioral Support",
+                "description": "Discreet access to mental health professionals via virtual counseling, mood-tracking tools, and wellness check-ins."
+              }
             }
+          ]
         }
+      }
     },
     "aiPoweredAlt": "Graphic illustrating AI-driven home health care including predictive insights and automation.",
     "agentchatAlt": "AgentChat integration with WhatsApp for instant patient and caregiver communication",
@@ -1739,6 +1775,106 @@
     "contactSubTitle": "Transform your patient care model with Rialtes’ Salesforce-powered home health solutions"
   },
   "semiconductor": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Semiconductor Industry Digital Transformation and IT Solutions",
+      "url": "https://www.rialtes.com/en/industry/hitech-semiconductor-ai-it-solutions/",
+      "description": "Semiconductor industry IT solutions powered by SAP, Salesforce, and AI to optimize chip design, fab operations, compliance, and customer collaboration.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc/",
+          "https://www.youtube.com/@rialtes"
+        ]
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Semiconductor Industry Digital Transformation and IT Solutions",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Semiconductor Digital Transformation Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "SAP S/4HANA for Semiconductor",
+                "description": "Streamline fab operations, yield management, and supply chain compliance with SAP S/4HANA."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Industry Cloud for Semiconductor",
+                "description": "Enable deal registration, partner collaboration, and customer support with Salesforce Industry Cloud."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "AI-Powered Chip Design & Testing",
+                "description": "Leverage AI for RTL verification, defect prediction, yield optimization, and post-silicon validation."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Semiconductor Supply Chain Visibility",
+                "description": "Improve demand forecasting and logistics efficiency with real-time supply chain insights and AI models."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Compliance and Certification Automation",
+                "description": "Automate RoHS, REACH, ITAR, and Conflict Minerals compliance across global operations."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Partner Relationship Management (PRM)",
+                "description": "Enhance semiconductor partner ecosystems with deal tracking, pricing, and co-design portals."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Integrated SAP & Salesforce Platforms",
+                "description": "Enable unified data visibility and faster decision-making with integrated SAP and Salesforce workflows."
+              }
+            }
+          ]
+        }
+      }
+    },
     "bannerAlt": "Macro view of semiconductor wafer with glowing pink blue silicon chips on circuit board showing advanced microelectronics",
     "dataAlt": "Futuristic microprocessor with glowing red and blue data streams flowing upward representing quantum computing and AI",
     "semiALt": "Semiconductor technician in cleanroom suit holding colorful silicon wafer with microchip patterns in sterile facility",
@@ -2161,6 +2297,134 @@
     "contactSubtitleOne": "Contact us today for a free consultation and explore how we can empower your connected enterprise!"
   },
   "manufacturing": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Manufacturing IT Solutions & Industry Transformation",
+      "url": "https://www.rialtes.com/en/industry/manufacturing-cloud-erp/",
+      "description": "Rialtes delivers intelligent manufacturing transformation with SAP, Salesforce, AI, and advanced automation tools. We support discrete, process, repetitive, and job shop manufacturers with real-time data visibility, predictive analytics, digital twins, and ERP integration for future-ready operations.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc/",
+          "https://www.youtube.com/@rialtes"
+        ]
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Manufacturing IT Solutions & Industry Transformation",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Manufacturing Transformation Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Discrete Manufacturing Solutions",
+                "description": "Manage complex product configurations, supply chains, and engineering processes with integrated quoting, order management, and AI-powered maintenance prediction."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Process Manufacturing Solutions",
+                "description": "Optimize batch production, compliance (FDA, GMP), and real-time quality tracking. Enable traceability and yield management through AI-enabled platforms."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Repetitive Manufacturing Solutions",
+                "description": "Enhance mass production with capacity planning, real-time monitoring, and AI-driven anomaly detection to improve throughput and reduce cycle time."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Job Shop Manufacturing Solutions",
+                "description": "Engineer-to-order (ETO) and make-to-order (MTO) solutions with real-time dashboards for costing, planning, and execution of high-variety, low-volume production."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "AI & Robotic Smart Factory Enablement",
+                "description": "Implement predictive maintenance, robotic process automation, and digital twin capabilities for autonomous, zero-defect manufacturing environments."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "SAP & Salesforce Integration for Manufacturing",
+                "description": "Combine SAP Digital Manufacturing Cloud and Salesforce Manufacturing Cloud to connect customer feedback, factory workflows, and dealer networks into one system."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "ERP Integration with MuleSoft",
+                "description": "Integrate SAP and Oracle ERP with production and procurement systems using MuleSoft for unified, real-time business operations and reduced costs."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Demand Planning with Kinaxis",
+                "description": "Use Kinaxis RapidResponse for dynamic forecasting, inventory optimization, and supply chain agility in response to market volatility and disruptions."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Pre-Built Accelerators for Manufacturing",
+                "description": "Deploy industry-specific solutions such as smart factory templates and AI-driven workflows to reduce setup time and ensure faster ROI."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Data Cloud & Tableau for Manufacturing Analytics",
+                "description": "Enable real-time visibility into OEE, downtime, supply chain risks, and demand forecasting using AI-enhanced dashboards and analytics."
+              }
+            }
+          ]
+        }
+      }
+    },
     "bannerAlt": "Industrial turbines and connected pipelines in blue-lit facility representing MuleSoft integration and data connectivity",
     "thoughtAlt": "Engineer with tablet viewing holographic dashboards and blue light streams in smart factory showing digital transformation",
     "endAlt": "Female engineer in yellow hard hat and safety vest using tablet while inspecting industrial facility with metallic structures",
@@ -2239,6 +2503,103 @@
     "contactSubtitleOne": "Contact Us Today and start your journey toward intelligent, resilient, and customer-centric manufacturing!"
   },
   "education": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Education & EdTech IT Solutions",
+      "url": "https://www.rialtes.com/en/industry/education-cloud-it-solutions/",
+      "description": "Rialtes provides smart, scalable IT solutions for the education sector, empowering K-12 schools, higher education institutions, and EdTech firms with Salesforce Education Cloud, SAP, and AI-driven technologies. Our offerings enhance student lifecycle management, digital learning, and data-driven engagement.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc/",
+          "https://www.youtube.com/@rialtes"
+        ]
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Education & EdTech IT Solutions",
+        "description": "Smart IT solutions for K-12, universities, and EdTech firms, leveraging Salesforce Education Cloud, SAP, and AI to transform the student journey.",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Education Cloud & EdTech IT Solutions",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Education Cloud Implementation",
+                "description": "Enable personalized student experiences, unified communication, and lifecycle automation across admissions, enrollment, and alumni engagement."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "SAP for Higher Education",
+                "description": "Modernize academic administration, financial aid, and resource planning with scalable SAP S/4HANA and Student Lifecycle Management (SLcM)."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Digital Learning & Engagement Platforms",
+                "description": "Build and scale intuitive EdTech platforms with real-time analytics, mobile accessibility, and integrated content delivery."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "AI-Driven Student Analytics & Insights",
+                "description": "Use AI and data visualization tools to monitor student success, retention, and engagement with predictive dashboards."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Admissions & Outreach Automation",
+                "description": "Streamline marketing, lead nurturing, and applicant tracking with Salesforce CRM and Experience Cloud."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "System Integration & Data Management",
+                "description": "Connect learning management systems (LMS), ERPs, and CRMs using MuleSoft, SAP BTP, and secure data pipelines."
+              }
+            }
+          ]
+        }
+      }
+    },
     "bannerAlt": "Graduate in cap and gown with digital data overlay looking forward representing education technology and future learning",
     "businessAlt": "Business professional in gray suit and blue tie using digital tablet in modern office with glass wall background",
     "studentALt": "Smiling young woman in orange shirt with backpack using laptop outdoors leaning against wall on sunny city street",
@@ -2416,6 +2777,103 @@
     ]
   },
   "finance": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Financial Services Cloud Salesforce (FSC) and SAP Consulting",
+      "url": "https://www.rialtes.com/en/industry/finance-industry-digital-transformation-services-solutions/",
+      "description": "Rialtes offers Salesforce Financial Services Cloud (FSC) and SAP consulting to help banks, wealth firms, insurers, and real estate companies drive AI-powered transformation, streamline compliance, and enhance customer experiences.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc/",
+          "https://www.youtube.com/@rialtes"
+        ]
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Financial Services Cloud Salesforce (FSC) and SAP Consulting",
+        "description": "Salesforce FSC and SAP-powered digital transformation for banks, insurers, and real estate firms with AI, analytics, and personalized customer engagement.",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Financial Services Digital Transformation Solutions",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Financial Services Cloud (FSC) Consulting",
+                "description": "Implement and optimize Salesforce FSC for personalized onboarding, AI workflows, and unified customer engagement across banking and wealth management."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "SAP S/4HANA for Financial Services",
+                "description": "Integrate SAP S/4HANA with Salesforce FSC for core banking operations, risk management, real-time finance analytics, and regulatory compliance."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "AI-Driven Financial Decisioning",
+                "description": "Leverage AI for risk scoring, fraud detection, and customer insights with Salesforce Einstein and SAP AI."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "AgentChat — WhatsApp for Salesforce FSC",
+                "description": "Enable real-time, secure WhatsApp communication within Salesforce FSC for onboarding, alerts, and support."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Exelona — Real Estate Cloud for FSC",
+                "description": "Transform real estate asset management and finance with Exelona, Rialtes’ proprietary FSC-based solution."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Zero Copy Data Integration",
+                "description": "Unify Salesforce and SAP data clouds for real-time analytics and AI without moving data — secure, compliant, and actionable."
+              }
+            }
+          ]
+        }
+      }
+    },
     "exelonaBlendAlt": "Modern glass skyscrapers reflecting blue sky and clouds viewed from below showcasing contemporary corporate architecture",
     "financialSectionAlt": "Male presenter holding holographic financial chart visualization presenting Salesforce solutions to audience with graphs",
     "supportAlt": "Blue headset icon with 24/7 text representing round-the-clock financial customer support and always-available service",
@@ -2561,6 +3019,127 @@
     ]
   },
   "automativeIndustry": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Digital Transformation in Automotive Industry",
+      "url": "https://www.rialtes.com/en/industry/digital-transformation-in-automotive-industry/",
+      "description": "Rialtes delivers end-to-end digital transformation for the automotive industry using Salesforce Automotive Cloud, SAP S/4HANA, Revenue Cloud, and Data Cloud. Our AI-powered solutions streamline lead management, dealer operations, vehicle lifecycle, warranty management, and customer engagement across OEMs, dealers, and mobility service providers.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc/",
+          "https://www.youtube.com/@rialtes"
+        ]
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Digital Transformation in Automotive Industry",
+        "description": "AI-powered Salesforce and SAP automotive solutions for OEMs, dealers, and mobility providers focused on lifecycle, engagement, and compliance.",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Automotive Digital Transformation Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Lead Management & Vehicle Discovery",
+                "description": "Capture omnichannel leads with Salesforce Automotive Cloud, enable vehicle configuration, test drive scheduling, and AI-powered recommendations for upselling and personalization."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Deal & Finance Management",
+                "description": "Configure quotes, manage trade-ins, financing, and dealer incentives using Salesforce Revenue Cloud and CPQ, integrated with SAP for pricing and inventory data."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Warranty & Service Lifecycle Management",
+                "description": "Automate warranty registration, claims, recalls, and maintenance reminders. Integrate with SAP and DMS for parts inventory, repair orders, and connected vehicle data."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Dealer & Buyer Portals",
+                "description": "Deploy self-service portals with Salesforce Experience Cloud for vehicle deals, financing, inventory tracking, document management, and secure communication."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Marketing & Personalization",
+                "description": "Use Salesforce Marketing Cloud and Data Cloud to create personalized journeys, AI-powered next-best-actions, behavioral triggers, and co-branded dealer campaigns."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Agentforce for Automotive CRM",
+                "description": "Equip sales and service agents with a unified view of buyer history, preferences, warranties, and omnichannel engagement for improved upsell and retention strategies."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Automotive Data Cloud & Analytics",
+                "description": "Unify customer and vehicle data from OEMs, dealers, and connected vehicles to power real-time insights, predictive maintenance, and personalized service campaigns."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Integration with SAP S/4HANA & CPI",
+                "description": "Ensure seamless integration of SAP S/4HANA with Salesforce Automotive Cloud, DMS, and telematics platforms for synchronized operations, mobility services, and compliance."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Rialtes Automotive Accelerators",
+                "description": "Deploy pre-built accelerators for dealer operations, vehicle lifecycle management, buyer graphs, and warranty administration to reduce time-to-value and ensure compliance."
+              }
+            }
+          ]
+        }
+      }
+    },
     "partneringPowerAlt": "Night highway with red orange light trails representing Rialtes SAP and Salesforce partnership power for automotive solutions",
     "integrationSectionAlt": "Man charging electric vehicle outdoors showcasing SAP CPI BTP integration for automotive stack and mobility services",
     "unlockingSectionAlt": "Commercial vehicle technician performing maintenance in workshop representing fleet service management and repair",
@@ -2747,6 +3326,103 @@
     "learnMoreBtn": "Learn More"
   },
   "travelIndustry": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Travel and Hospitality IT Solutions",
+      "url": "https://www.rialtes.com/en/industry/travel-hospitality-it-solutions/",
+      "description": "Rialtes delivers advanced travel and hospitality IT solutions powered by SAP, Salesforce, Oracle, and MuleSoft. Our services include AI-driven booking, loyalty management, guest personalization, real-time inventory and capacity management, and seamless back-end integration for the travel, transportation, and hospitality sectors.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc/",
+          "https://www.youtube.com/@rialtes"
+        ]
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Travel and Hospitality IT Solutions",
+        "description": "Travel and hospitality solutions built on SAP, Salesforce, and AI to enable smart booking, personalization, loyalty, and operational efficiency.",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Travel and Hospitality Solutions",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "AI-Powered Booking and Itinerary Management",
+                "description": "Automated, real-time travel booking and personalized itinerary suggestions based on traveler behavior and preferences."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Dynamic Pricing & Yield Management",
+                "description": "AI-driven pricing optimization based on demand forecasting and real-time data."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Guest Experience & Loyalty Management",
+                "description": "Integrated loyalty platforms, gamification, and personalized engagement using Salesforce and SAP solutions."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Real-Time Inventory & Capacity Management",
+                "description": "Optimize rooms, flights, transport assets using SAP Data Cloud and AI-based forecasting tools."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "MuleSoft, Oracle & SAP Integration",
+                "description": "Seamless back-end integration of ERP, HCM, and CRM systems for unified workflows and data accuracy."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Data Cloud & Tableau Analytics",
+                "description": "Actionable insights via unified dashboards, real-time analytics, and predictive forecasting."
+              }
+            }
+          ]
+        }
+      }
+    },
     "personalizedAlt": "Background image showing AI-driven personalization for smarter travel experiences",
     "smaterServiceAlt": "Graphic showing AI bots assisting agents to deliver faster, smarter travel support.",
     "quikCommerceAlt": "Image representing instant booking, check-in, and service requests in travel.",
@@ -2888,6 +3564,111 @@
     "learnMoreBtn": "Learn More"
   },
   "retailIndustry": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Retail Industry Digital Transformation Solutions",
+      "url": "https://www.rialtes.com/en/industry/retail-industry-digital-transformation/",
+      "description": "Rialtes empowers retail industry digital transformation through SAP and Salesforce. We offer AI-powered personalization, inventory intelligence, omnichannel engagement, and seamless backend integration tailored for retailers.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc/",
+          "https://www.youtube.com/@rialtes"
+        ]
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Retail Industry Digital Transformation Solutions",
+        "description": "SAP and Salesforce-powered digital solutions for the retail industry, enabling AI personalization, inventory intelligence, and omnichannel success.",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Retail Industry Solutions",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Fashion Retail Accelerators",
+                "description": "Fashion-specific SAP and Salesforce solutions including trend forecasting, real-time inventory, loyalty, and omnichannel experiences."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Marketing Cloud for Retail",
+                "description": "Hyper-personalized marketing campaigns, automated customer journeys, segmentation, and engagement analytics."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Data Cloud Inventory Management",
+                "description": "AI-powered real-time inventory management, demand forecasting, and smart replenishment across all retail locations."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Retail Loyalty Program Design",
+                "description": "Multi-tier loyalty programs, AI-driven customer insights, gamification, and personalized retention strategies."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "SAP, Oracle, and MuleSoft Integration",
+                "description": "Unified backend integration across SAP S/4HANA, Oracle ERP, Salesforce, and MuleSoft for smooth retail operations."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Retail Analytics with Data Cloud & Tableau",
+                "description": "Executive-level dashboards and AI-driven insights for customer behavior, sales forecasting, and marketing performance."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Quick Commerce Enablement",
+                "description": "Accelerated delivery, real-time updates, optimized routing, and integrated SAP/Salesforce mobile commerce."
+              }
+            }
+          ]
+        }
+      }
+    },
     "aiPoweredAlt": "Smiling retail employee assisting customer with mobile payment scanning at modern store checkout counter with technology",
     "rightSectionAlt": "Retail store manager and employee discussing inventory on tablet in modern clothing boutique with display racks",
     "actionableSectionAlt": "Professional viewing dynamic data cloud analytics with motion blur effect showing retail business intelligence and insights",
@@ -3094,6 +3875,111 @@
     "contactSubTitle2": "Contact us today to unlock the future of retail."
   },
   "nonProfit": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Nonprofit Digital Transformation and IT Solutions",
+      "url": "https://www.rialtes.com/en/industry/nonprofit-digital-transformation-it-solutions/",
+      "description": "Smart IT solutions and digital transformation by Rialtes empower nonprofits to streamline grants, donors, volunteers, and mission-critical operations.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/rialtes-technologies-llc/",
+          "https://www.youtube.com/@rialtes"
+        ]
+      },
+      "mainEntity": {
+        "@type": "Service",
+        "name": "Nonprofit Digital Transformation and IT Solutions",
+        "description": "Salesforce and SAP-powered IT transformation for nonprofits. Streamline donor journeys, grants, volunteers, and outcomes with AI and automation.",
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          },
+          {
+            "@type": "Country",
+            "name": "Singapore"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Nonprofit Digital Transformation Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Fundraising & Campaign Management",
+                "description": "Create personalized, multichannel donor campaigns with real-time engagement tracking and automated impact reporting."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Family & Household Donor Mapping",
+                "description": "Visualize household giving patterns, uncover networks, and manage legacy or collective donor relationships."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Salesforce Marketing Cloud for Nonprofits",
+                "description": "Run AI-powered donor journeys, trigger-based outreach, and personalized communications for increased retention."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Donor Relationship Management",
+                "description": "Manage 360-degree donor profiles, major gift planning, and loyalty programs with transparency and insight."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Volunteer Engagement Solutions",
+                "description": "Optimize volunteer recruitment, scheduling, and retention with personalized communication and self-service portals."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Program & Outcome Management",
+                "description": "Track real-time program impact, outcome metrics, and performance dashboards for stakeholders and funders."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Grant Lifecycle Automation",
+                "description": "Automate grant applications, approvals, fund allocation, compliance, and reporting with integrated workflows."
+              }
+            }
+          ]
+        }
+      }
+    },
     "whyChooseRialtesAlt": "Hand touching nonprofit digital network interface with connected icons showing community collaboration and organization",
     "dataCloudAlt": "Volunteers working with transparent data analytics overlay showing pie charts graphs representing nonprofit impact metrics",
     "agentforceAlt": "Smiling nonprofit professionals collaborating on laptop reviewing organizational strategy and program planning at desk",

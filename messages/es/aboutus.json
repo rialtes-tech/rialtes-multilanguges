@@ -1,5 +1,6 @@
 {
   "aboutUs": {
+    "schemaData": {},
      "welcomeAlt" : "Mujer profesional sonriente con tableta al aire libre representando futuro empresarial inteligente e IA",
      "bannerAlt" : "Rostros digitales futuristas con iluminación neón rosa azul y gafas AR representando tecnología IA e innovación basada en datos",
     "aboutusTitle": "Sobre nosotros",
@@ -117,6 +118,7 @@
     ]
   },
   "ourValue": {
+    "schemaData": {},
      "commitmentAlt" : "Atleta femenina saltando con pértiga contra cielo azul representando confianza, transparencia y compromiso",
     "bannerAlt" : "Excursionista con mochila frente a picos nevados representando valores culturales y mentalidad de crecimiento diario",
     "growLatestServices": [
@@ -187,6 +189,7 @@
     "contactUs": "¿Listo para dar el siguiente paso? Comencemos tu camino hacia la excelencia operativa"
   },
   "impact": {
+      "schemaData": {},
     "impactTitle": "Impacto social",
     "seoTitle": "Impulsando la Sostenibilidad con IA Responsable | Rialtes",
     "seoDescription": "Rialtes redefine la responsabilidad corporativa con IA sostenible, innovación ESG, talento capacitado e impacto social para un futuro inclusivo.",
@@ -222,6 +225,7 @@
     "contactUs": "¿Listo para dar el siguiente paso? Comencemos tu camino hacia la excelencia operativa"
   },
   "globalAlliance": {
+     "schemaData": {},
     "headerTitle": "Nuestros Socios",
     "bannerAlt": "Apretón de manos digital con partículas azules brillantes y conexiones de red simbolizando asociación empresarial y tecnología",
     "seoTitle": "Nuestros Socios Estratégicos – Impulsando el Éxito con Rialtes",

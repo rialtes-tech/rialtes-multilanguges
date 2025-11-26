@@ -9,100 +9,7 @@ import enContent from "../../../../messages/en/homepage.json";
 import esContent from "../../../../messages/es/homepage.json";
 import frContent from "../../../../messages/fr/homepage.json";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "ContactPage",
-  name: "Contact Us",
-  url: "https://www.rialtes.com/contact-us/",
-  about: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-    logo: "https://www.rialtes.com/images/homepage/logo.svg",
-    contactPoint: [
-      {
-        "@type": "ContactPoint",
-        contactType: "Sales",
-        email: "sales@rialtes.com",
-        availableLanguage: ["English"],
-      },
-    ],
-    address: [
-      {
-        "@type": "PostalAddress",
-        streetAddress: "501 Congress Avenue, Suite 150",
-        addressLocality: "Austin",
-        addressRegion: "TX",
-        postalCode: "78701",
-        addressCountry: "US",
-      },
-      {
-        "@type": "PostalAddress",
-        streetAddress: "5251 California Ave, Suite 110",
-        addressLocality: "Irvine",
-        addressRegion: "CA",
-        postalCode: "92617",
-        addressCountry: "US",
-      },
-      {
-        "@type": "PostalAddress",
-        streetAddress: "World Trade Center, 119, Tower-2, 1st Floor, Kharadi",
-        addressLocality: "Pune",
-        addressRegion: "MH",
-        postalCode: "411014",
-        addressCountry: "IN",
-      },
-      {
-        "@type": "PostalAddress",
-        streetAddress:
-          "Berger Delhi One, Sector 16B, C-001/A2, Gautam Buddha Nagar",
-        addressLocality: "Noida",
-        addressRegion: "UP",
-        postalCode: "201301",
-        addressCountry: "IN",
-      },
-      {
-        "@type": "PostalAddress",
-        streetAddress:
-          "Dehradun IT Park, Weblan Unit A, Second Floor, Sahastradhara Road",
-        addressLocality: "Dehradun",
-        addressRegion: "UK",
-        postalCode: "248001",
-        addressCountry: "IN",
-      },
-      {
-        "@type": "PostalAddress",
-        streetAddress: "Unit #255, Block - B, 2nd Floor, Motia Plaza",
-        addressLocality: "Baddi",
-        addressRegion: "HP",
-        postalCode: "173205",
-        addressCountry: "IN",
-      },
-      {
-        "@type": "PostalAddress",
-        streetAddress: "Suite 500, 1000 Innovation Dr",
-        addressLocality: "Kanata",
-        addressRegion: "ON",
-        postalCode: "K2K 3E7",
-        addressCountry: "CA",
-      },
-      {
-        "@type": "PostalAddress",
-        streetAddress: "30 Cecil Street, #19-08 Prudential Tower",
-        addressLocality: "Singapore",
-        addressRegion: "SG",
-        postalCode: "049712",
-        addressCountry: "SG",
-      },
-    ],
-  },
-  sameAs: [
-    "https://www.linkedin.com/company/rialtes-technologies-llc/",
-    "https://www.youtube.com/@rialtes",
-    "https://x.com/Rialtestech",
-    "https://www.instagram.com/rialtes_technologies/",
-  ],
-};
+
 const LocationPage = () => {
   const t = useTranslations("contactUs");
   const locale = useLocale();
@@ -111,7 +18,7 @@ const LocationPage = () => {
     es: esContent,
     fr: frContent,
   });
-  const { } = contactUsContent.contactUs;
+  const {schemaData } = contactUsContent.contactUs;
 
   const locations = [
     {

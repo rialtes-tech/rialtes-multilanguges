@@ -12,96 +12,12 @@ import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Education & EdTech IT Solutions",
-  "url": "https://www.rialtes.com/industry/education-cloud-it-solutions/",
-  "description": "Rialtes provides smart, scalable IT solutions for the education sector, empowering K-12 schools, higher education institutions, and EdTech firms with Salesforce Education Cloud, SAP, and AI-driven technologies. Our offerings enhance student lifecycle management, digital learning, and data-driven engagement.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    },
-    "sameAs": [
-      "https://www.linkedin.com/company/rialtes-technologies-llc/",
-      "https://www.youtube.com/@rialtes"
-    ]
-  },
-  "mainEntity": {
-    "@type": "Service",
-    "name": "Education & EdTech IT Solutions",
-    "description": "Smart IT solutions for K-12, universities, and EdTech firms, leveraging Salesforce Education Cloud, SAP, and AI to transform the student journey.",
-    "areaServed": [
-      { "@type": "Country", "name": "United States" },
-      { "@type": "Country", "name": "Canada" },
-      { "@type": "Country", "name": "India" },
-      { "@type": "Country", "name": "Singapore" }
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Education Cloud & EdTech IT Solutions",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Salesforce Education Cloud Implementation",
-            "description": "Enable personalized student experiences, unified communication, and lifecycle automation across admissions, enrollment, and alumni engagement."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "SAP for Higher Education",
-            "description": "Modernize academic administration, financial aid, and resource planning with scalable SAP S/4HANA and Student Lifecycle Management (SLcM)."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Digital Learning & Engagement Platforms",
-            "description": "Build and scale intuitive EdTech platforms with real-time analytics, mobile accessibility, and integrated content delivery."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "AI-Driven Student Analytics & Insights",
-            "description": "Use AI and data visualization tools to monitor student success, retention, and engagement with predictive dashboards."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Admissions & Outreach Automation",
-            "description": "Streamline marketing, lead nurturing, and applicant tracking with Salesforce CRM and Experience Cloud."
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "System Integration & Data Management",
-            "description": "Connect learning management systems (LMS), ERPs, and CRMs using MuleSoft, SAP BTP, and secure data pipelines."
-          }
-        }
-      ]
-    }
-  }
-}
+
 export default function Page() {
   const t = useTranslations("education");
   const locale = useLocale();
   const realContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { latestServices2, keyIndustryData, approachData, studentLeadData, selectionData, studentData, hyperData, lifelongData, selfData, s4HanaData, dynamicData, unifiedData, empoweringData, educationSolutions } = realContent.education;
+  const { latestServices2, keyIndustryData, approachData, studentLeadData, selectionData, studentData, hyperData, lifelongData, selfData, s4HanaData, dynamicData, unifiedData, empoweringData, educationSolutions,schemaData } = realContent.education;
 
   const Services2 = () => {
     return (

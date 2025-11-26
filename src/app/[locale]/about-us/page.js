@@ -9,35 +9,12 @@ import esContent from '../../../../messages/es/aboutus.json';
 import frContent from '../../../../messages/fr/aboutus.json'
 import { changeLocalization } from "../components/changeLocalization";
 
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "url": "https://www.rialtes.com/about-us/",
-    "name": "Empowering Enterprise Transformation Journey | About Rialtes",
-    "description": "Your enterprise transformation journey starts here—Rialtes simplifies change, enables AI adoption, and empowers growth with trusted partnership and boosted ROI.",
-    "mainEntityOfPage": "https://www.rialtes.com/about-us/",
-    "headline": "World’s largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.",
-    "about": {
-        "@type": "Thing",
-        "name": "Enterprise Transformation by Rialtes",
-        "description": "At the intersection of technology and business, Rialtes delivers solutions that fuel innovation, agility, and growth. From process automation to enterprise transformation, we partner with organizations to create lasting impact. Our approach includes:\n\n1. Simplify Businesses – We help businesses simplify their processes using intelligent, scalable solutions that enhance efficiency and drive productivity.\n\n2. Enable Solutions – Rialtes empowers enterprises with solutions that enable innovation, accelerate transformation, and create measurable growth.\n\n3. Empower Customers – We deliver customer-centric solutions that drive business forward, ensuring you build stronger relationships with your clients.\n\n4. Our Culture & Values – Trust, transparency, and commitment are at the core of Rialtes' culture. We strive for excellence and believe in nurturing relationships with our partners, clients, and employees."
-    },
-    "mainEntity": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com/",
-        "logo": "https://www.rialtes.com/images/homepage/logo.svg/",
-        "sameAs": [
-            "https://www.linkedin.com/company/rialtes-technologies-llc",
-            "https://www.youtube.com/@rialtes"
-        ]
-    }
-}
+
 export default function About() {
     const t = useTranslations('aboutUs')
     const locale = useLocale();
     const aboutUsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { latestServices, brandStories, corePrinciples, missionCards } = aboutUsContent.aboutUs;
+    const { latestServices, brandStories, corePrinciples, missionCards ,schemaData} = aboutUsContent.aboutUs;
 
     const ServicesCard = ({ services }) => (
         <div className="border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF] flex flex-col min-h-[400px]">
