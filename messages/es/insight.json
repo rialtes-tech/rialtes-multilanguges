@@ -187,14 +187,14 @@
       },
       {
         "id": 2,
-        "image": "/images/blog/how-salesforce-agentforce-actually-works.webp",
-        "category": "Salesforce Agentforce",
-        "industry": "Genérico",
-        "date": "Sept. 30, 2024",
-        "url": "/how-salesforce-agentforce-actually-works/",
-        "title": "Cómo Funciona Realmente Salesforce Agentforce",
-        "alt": "Cómo Funciona Realmente Salesforce Agentforce",
-        "description": "Salesforce Agentforce, aunque es una adición reciente al ecosistema Salesforce, está ganando popularidad, particularmente en organizaciones que manejan grandes equipos de agentes, como representantes de ventas, atención al cliente y personal de servicio de campo."
+        "image": "/images/blog/digital-patient-journeys-mobile.webp",
+        "category": "MediAIna",
+        "industry": "Ciencias de la vida",
+        "date": "Sep. 30, 2025",
+        "url": "/digital-patient-journeys-ai-healthcare-life-sciences/",
+        "title": "El futuro de los recorridos digitales del paciente: cómo la IA está transformando las ciencias de la vida",
+        "alt": "Diagrama de flujo de las etapas del recorrido del paciente mejoradas con IA",
+        "description": "La industria de la salud se encuentra en un punto de inflexión. Los pacientes ya no quieren experiencias fragmentadas, esperar semanas para citas o repetir su historial en cada punto de contacto."
       },
       {
         "id": 3,
@@ -206,6 +206,17 @@
         "title": "SAP Signavio + SAP Cloud ALM: Impulsando Gobernanza, Trazabilidad y Seguimiento de KPIs en Transformaciones S/4HANA",
         "alt": "Cómo SAP Signavio y Cloud ALM Redefinen la Transformación de S/4HANA",
         "description": "Los programas de transformación digital, como una implementación de SAP S/4HANA, no son simplemente proyectos de TI, sino iniciativas complejas de reinvención empresarial que abarcan cada proceso, rol y tecnología en la empresa. Para transformaciones de esta escala, destacan dos factores críticos de éxito."
+      },
+      {
+        "id": 4,
+        "image": "/images/blog/conversational-ai-in-real-estate-mobile.webp",
+        "category": "Exelona",
+        "industry": "Bienes raíces",
+        "date": "Oct. 20, 2025",
+        "url": "/conversational-ai-in-real-estate-scale-resident-support/",
+        "title": "IA conversacional en bienes raíces: escala el soporte a residentes sin aumentar personal",
+        "alt": "IA conversacional en bienes raíces",
+        "description": "El soporte a residentes en la gestión de propiedades se está volviendo más difícil de escalar. Entre solicitudes de mantenimiento, consultas de alquiler,"
       }
     ],
     "latestBlogs": [
