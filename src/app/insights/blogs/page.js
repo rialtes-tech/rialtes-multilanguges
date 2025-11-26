@@ -62,6 +62,16 @@ const allCategories = [
 
 const latestBlogs = [
   {
+    id: 58,
+    image: "/images/blog/digital-medical-hologram-feature-thumb.webp",
+    category: "MediAIna",
+    industry: "Life Sciences",
+    date: "25 Nov. 2025",
+    url: '/how-digital-innovation-transforms-clinical-trial-management/',
+    title: "How Digital Innovation is Transforming Clinical Trial Management",
+    description: "Clinical trials have always been the core of medical progress. But here’s the bitter truth: usual trials are often slow, expensive, and feel disconnected from the digital-first world in which patients now live",
+  },
+  {
     "id": 56,
     "image": "/images/blog/digital-touchscreen-technology-mobile.webp",
     "category": "MediAIna",
@@ -762,7 +772,7 @@ const FeaturedCarousel = () => {
 
 const BlogCard = ({ blog }) => (
   <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
-    <div className="max-h-[300px]">
+    <div className="h-[260px] 4xl:h-[300px] max-h-[300px]">
       <Link href={'/insights/blogs' + blog.url}>
         <Image
           src={blog.image}
