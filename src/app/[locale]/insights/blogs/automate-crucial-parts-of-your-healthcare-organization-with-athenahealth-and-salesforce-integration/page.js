@@ -12,44 +12,12 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/",
-  },
-  headline:
-    "Automate Crucial Parts of Your Healthcare Organization with Athenahealth and Salesforce Integration",
-  description:
-    "See how integrating Athenahealth with Salesforce enhances healthcare operations—improving patient data access, workflows, and care coordination.",
-  image:
-    "https://www.rialtes.com/images/blog/healthcare-worker-digital-tablet-medical-technology.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  datePublished: "2024-11-11",
-  articleSection: "Healthcare Integration",
-  url: "https://www.rialtes.com/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/",
-};
-
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations('automateCrucial')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { commonData, useCasesData } = blogsContent.automateCrucial;
+  const { commonData, useCasesData,schemaData } = blogsContent.automateCrucial;
   const fullUrl = "https://www.rialtes.com/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration";
 
   return (

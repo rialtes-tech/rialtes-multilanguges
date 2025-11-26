@@ -12,32 +12,11 @@ import esContent from '../../../../../messages/es/insight.json';
 import frContent from '../../../../../messages/fr/insight.json';
 import { changeLocalization } from "../../components/changeLocalization";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/"
-  },
-  "name": "Rialtes Blogs | Expert Insights on Digital Transformation",
-  "headline": "Insights That Drive Innovation – Salesforce & SAP Blogs",
-  "description": "Stay updated with expert blogs from Rialtes on Salesforce, SAP, Yardi, MuleSoft, and more. Learn how technology trends are shaping industries and driving business success.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  }
-
-}
-
 export default function Page() {
   const t = useTranslations('blogs')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { latestBlogs, industries, categories, slides } = blogsContent.blogs;
+  const { latestBlogs, industries, categories, slides,schemaData } = blogsContent.blogs;
 
   const BlogCard = ({ blog }) => (
     <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">

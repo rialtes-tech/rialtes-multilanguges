@@ -1,5 +1,6 @@
 {
   "insights": {
+    "schemaData" :{},
     "bannerAlt": "Banner móvil de información para actualizaciones empresariales",
     "dataCloudeDigitalAlt": "Ilustración de computación verde con árbol y circuito digital",
     "futuristicMedTechAlt": "Ilustración de diversidad para IA en atención al paciente",
@@ -85,6 +86,7 @@
     ]
   },
   "news": {
+    "schemaData" :{},
     "newsTitle": "Noticias",
     "seoTitle": "Noticias Rialtes | PR y Colaboraciones Industriales",
     "seoDescription": "Desde PR destacado hasta colaboraciones poderosas: descubre cómo Rialtes lidera cambios industriales con innovación, tecnología y alianzas estratégicas.",
@@ -123,6 +125,7 @@
     ]
   },
   "blogs": {
+    "schemaData" :{},
     "mainBlogbannerAlt": "Explore ideas estratégicas sobre IA, Salesforce y SAP ",
     "seoTitle": "Blogs Rialtes | Salesforce, SAP, IA y Nube",
     "seoDescription": "Lee blogs expertos sobre Salesforce, SAP, nube e IA. Mantente informado con las últimas tendencias e innovación digital de Rialtes.",
@@ -908,6 +911,7 @@
     "openNow": "Abrir ahora"
   },
   "caseStudy": {
+    "schemaData" :{},
     "bannerAlt": "Ondas de neón en rosa, azul y verde fluyendo sobre fondo oscuro con efecto de desenfoque de movimiento ",
     "headerTitle": "Estudios de Caso",
     "seoTitle": "Éxitos Salesforce y SAP | Casos de Estudio Inspiradores | Rialtes",

@@ -11,36 +11,7 @@ import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/",
-  },
-  headline: "How Salesforce Agentforce Actually Works",
-  description:
-    "Explore how Salesforce Agentforce automates customer engagement using AI agents, enhancing decision-making and operational efficiency.",
-  image:
-    "https://www.rialtes.com/images/blog/futuristic-robot-ai-digital-interface-technology.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  datePublished: "2024-09-30",
-  articleSection: "Salesforce",
-  url: "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/",
-};
+
 export default function Page() {
   const t = useTranslations("howSalesforceAgentforceWorks");
   const locale = useLocale();
@@ -49,7 +20,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { salesforceData, useCasesData } =
+  const { salesforceData, useCasesData,schemaData } =
     blogsContent.howSalesforceAgentforceWorks;
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works";
   const currUrl = useUrl();
