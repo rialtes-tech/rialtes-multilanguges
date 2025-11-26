@@ -16,7 +16,7 @@
         "rialtesData": "Animée par l'innovation et alimentée par le potentiel humain, notre société de conseil en informatique relève les défis les plus complexes du monde numérique. Ensemble, simplifions les problèmes, enableons les solutions et autonomisons-nous mutuellement.",
         "lifeAtAlt": "Professionnels des affaires à la conférence SAP Gold Partner, présentations, événements d'équipe et rassemblements",
         "logoAlt": "Logo de Rialtes avec une icône ovale blanche à rayures et le slogan « Simply Enable Empower » sur un fond épuré.",
-        "innovatingAlt":"Texte bleu marine en gras indiquant INNOVATING avec texture de motif de carte de circuit sur fond blanc",
+        "innovatingAlt": "Texte bleu marine en gras indiquant INNOVATING avec texture de motif de carte de circuit sur fond blanc",
         "carouselData": [
             {
                 "alt": "Visualisation d’un réseau bleu lumineux avec des flux de données et des nœuds numériques",
@@ -85,7 +85,7 @@
                 "title": "Fabrication",
                 "description": "DevOps rationalisé avec Copado et Salesforce",
                 "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-                "imgAlt" : "Design courbe noir abstrait pour DevOps rationalisé avec Copado et Salesforce manufacturing"
+                "imgAlt": "Design courbe noir abstrait pour DevOps rationalisé avec Copado et Salesforce manufacturing"
             },
             {
                 "id": 2,
@@ -93,7 +93,7 @@
                 "title": "Santé",
                 "description": "Salesforce Health Cloud, autorisation préalable",
                 "url": "insights/case-studies/salesforce-health-cloud-prior-authorization",
-                "imgAlt" : "Ciel serein arrière-plan pour solution autorisation préalable Salesforce Health Cloud santé"
+                "imgAlt": "Ciel serein arrière-plan pour solution autorisation préalable Salesforce Health Cloud santé"
             },
             {
                 "id": 3,
@@ -101,7 +101,7 @@
                 "title": "Fabrication",
                 "description": "Gestion omnicanale des cas avec Salesforce Service Cloud",
                 "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud",
-                "imgAlt" : "Motif vagues bleues pour gestion cas omnicanal avec Salesforce Service Cloud manufacturing"
+                "imgAlt": "Motif vagues bleues pour gestion cas omnicanal avec Salesforce Service Cloud manufacturing"
             },
             {
                 "id": 4,
@@ -110,7 +110,7 @@
                 "description": "Parcours de transformation YARDI avec le plus grand PHA d'Amérique du Nord",
                 "theme": "light",
                 "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america",
-                "imgAlt" : "Motif géométrique bleu pour parcours transformation YARDI avec plus grande PHA Amérique Nord"
+                "imgAlt": "Motif géométrique bleu pour parcours transformation YARDI avec plus grande PHA Amérique Nord"
             },
             {
                 "id": 5,
@@ -118,7 +118,7 @@
                 "title": "Santé",
                 "description": "Automatisation du traitement des commandes avec Mulesoft pour Salesforce Health Cloud et SAP",
                 "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-                "imgAlt" : "Réseau cloud numérique sur ville pour traitement commandes automatisé Mulesoft Salesforce SAP"
+                "imgAlt": "Réseau cloud numérique sur ville pour traitement commandes automatisé Mulesoft Salesforce SAP"
             },
             {
                 "id": 6,
@@ -126,7 +126,7 @@
                 "title": "Fabrication",
                 "description": "Optimisation des ventes avec Salesforce Sales Cloud pour l'industrie manufacturière",
                 "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
-                "imgAlt" : "Lignes fluides bleues pour rationaliser ventes avec Salesforce Sales Cloud manufacturing"
+                "imgAlt": "Lignes fluides bleues pour rationaliser ventes avec Salesforce Sales Cloud manufacturing"
             },
             {
                 "id": 7,
@@ -135,7 +135,7 @@
                 "description": "Automatisation des ACH et écritures comptables avec notre module bancaire Exelona",
                 "url": "insights/case-studies/realForce-banking-module-ach",
                 "theme": "light",
-                "imgAlt" : "Graphique barres rouge bleu pour automatiser écritures journal ACH avec Exelona banking immobilier"
+                "imgAlt": "Graphique barres rouge bleu pour automatiser écritures journal ACH avec Exelona banking immobilier"
             },
             {
                 "id": 8,
@@ -144,7 +144,7 @@
                 "description": "Numérisation du parcours patient avec Salesforce Health Cloud",
                 "url": "insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
                 "theme": "light",
-                "imgAlt" : "Professionnel santé utilisant tablette pour digitaliser parcours patient Salesforce Health Cloud"
+                "imgAlt": "Professionnel santé utilisant tablette pour digitaliser parcours patient Salesforce Health Cloud"
             }
         ],
         "contactUsTitle": "Prêt à passer à l'étape suivante ? Commencez votre parcours vers l'excellence opérationnelle",
@@ -441,13 +441,14 @@
         ]
     },
     "contactUs": {
+        "schemaData": {},
         "headerTitle": "Notre présence à travers le monde",
         "headerSubtitle": "Comment pouvons-nous vous aider ?",
         "headerDesc": "Contactez-nous, nous serions ravis d'avoir de vos nouvelles",
         "contactUsTitle": "Prêt à passer à l'étape suivante ? Commençons votre parcours vers l'excellence opérationnelle",
         "seoTitle": "Contactez-nous – Conseil IT Expert pour la Croissance de Votre Entreprise | Rialtes",
         "seoDescription": "Besoin de conseil IT ? Contactez Rialtes pour des solutions SaaS et des stratégies numériques qui accélèrent la réussite de votre entreprise.",
-        "bannerAlt":"Carte mondiale avec bureaux de l’entreprise en Californie, Austin, Ottawa, Noida, Pune, Dehradun, Himachal Pradesh et Singapour"
+        "bannerAlt": "Carte mondiale avec bureaux de l’entreprise en Californie, Austin, Ottawa, Noida, Pune, Dehradun, Himachal Pradesh et Singapour"
     },
     "thankYou": {
         "thankYouTitle": "Merci",
@@ -508,6 +509,7 @@
         ]
     },
     "privacyPolicy": {
+        "schemaData": {},
         "headerTitle": "Politique de Confidentialité",
         "seoTitle": "Politique de Confidentialité | Rialtes",
         "seoDescription": "Lisez la Politique de Confidentialité de Rialtes pour savoir comment vos données sont collectées, utilisées et protégées avec nos services IT.",

@@ -19,15 +19,10 @@ export default function Page() {
     userRightsList,
     californiaRightsList,
     euRightsList,
+    schemaData
   } = privacyPolicycontent.privacyPolicy;
 
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: "Privacy Policy",
-    description:
-      "This page explains Rialtes' policies on data privacy and user information protection.",
-  };
+  
   return (
     <section className="min-h-screen">
       <Seo

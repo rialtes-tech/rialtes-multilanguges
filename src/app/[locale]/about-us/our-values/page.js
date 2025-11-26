@@ -9,57 +9,13 @@ import enContent from '../../../../../messages/en/aboutus.json';
 import esContent from '../../../../../messages/es/aboutus.json'
 import frContent from '../../../../../messages/fr/aboutus.json'
 
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "AboutPage",
-    "name": "Our Values - Empowering People with Trust & Inclusion | Rialtes",
-    "url": "https://www.rialtes.com/about-us/our-values/",
-    "description": "At Rialtes, we celebrate people. From women in tech to LGBTQ+ and veterans, we drive impact through equal opportunity and unwavering commitment.",
-    "headline": "Our Value System",
-    "mainEntity": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com"
-    },
-    "about": [
-        {
-            "@type": "Thing",
-            "name": "Equal Opportunity",
-            "description": "We foster a culture of fairness, inclusion, and growth where everyone has an equal chance to thrive."
-        },
-        {
-            "@type": "Thing",
-            "name": "LGBTQ+ Inclusion",
-            "description": "Creating a safe and empowering workplace where LGBTQ+ individuals are valued and supported."
-        },
-        {
-            "@type": "Thing",
-            "name": "Veteran Support",
-            "description": "Honoring the contributions of veterans by supporting their growth and inclusion in our workforce."
-        },
-        {
-            "@type": "Thing",
-            "name": "Women in Tech",
-            "description": "Driving impact through mentorship, leadership development, and equal opportunities for women in technology."
-        },
-        {
-            "@type": "Thing",
-            "name": "Trust & Transparency",
-            "description": "Building lasting relationships through open communication, integrity, and accountability."
-        },
-        {
-            "@type": "Thing",
-            "name": "Growth Mindset",
-            "description": "Encouraging continuous learning, innovation, and personal development across the organization."
-        }
-    ]
-}
+
 
 export default function Page() {
     const t = useTranslations('ourValue')
     const locale = useLocale();
     const ourValueContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { growLatestServices, principleItems } = ourValueContent.ourValue;
+    const { growLatestServices, principleItems,schemaData } = ourValueContent.ourValue;
 
     const GrowServicesCard = ({ services }) => (
         <div className="w-full h-full">

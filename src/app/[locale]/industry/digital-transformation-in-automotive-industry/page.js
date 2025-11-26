@@ -12,120 +12,12 @@ import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import { useActiveLocale } from "../../components/activeLanguages";
 export default function page() {
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Digital Transformation in Automotive Industry",
-        "url": "https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/",
-        "description": "Rialtes delivers end-to-end digital transformation for the automotive industry using Salesforce Automotive Cloud, SAP S/4HANA, Revenue Cloud, and Data Cloud. Our AI-powered solutions streamline lead management, dealer operations, vehicle lifecycle, warranty management, and customer engagement across OEMs, dealers, and mobility service providers.",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "url": "https://www.rialtes.com",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-            },
-            "sameAs": [
-                "https://www.linkedin.com/company/rialtes-technologies-llc/",
-                "https://www.youtube.com/@rialtes"
-            ]
-        },
-        "mainEntity": {
-            "@type": "Service",
-            "name": "Digital Transformation in Automotive Industry",
-            "description": "AI-powered Salesforce and SAP automotive solutions for OEMs, dealers, and mobility providers focused on lifecycle, engagement, and compliance.",
-            "areaServed": [
-                { "@type": "Country", "name": "United States" },
-                { "@type": "Country", "name": "Canada" },
-                { "@type": "Country", "name": "India" },
-                { "@type": "Country", "name": "Singapore" }
-            ],
-            "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Automotive Digital Transformation Services",
-                "itemListElement": [
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Lead Management & Vehicle Discovery",
-                            "description": "Capture omnichannel leads with Salesforce Automotive Cloud, enable vehicle configuration, test drive scheduling, and AI-powered recommendations for upselling and personalization."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Deal & Finance Management",
-                            "description": "Configure quotes, manage trade-ins, financing, and dealer incentives using Salesforce Revenue Cloud and CPQ, integrated with SAP for pricing and inventory data."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Warranty & Service Lifecycle Management",
-                            "description": "Automate warranty registration, claims, recalls, and maintenance reminders. Integrate with SAP and DMS for parts inventory, repair orders, and connected vehicle data."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Dealer & Buyer Portals",
-                            "description": "Deploy self-service portals with Salesforce Experience Cloud for vehicle deals, financing, inventory tracking, document management, and secure communication."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Marketing & Personalization",
-                            "description": "Use Salesforce Marketing Cloud and Data Cloud to create personalized journeys, AI-powered next-best-actions, behavioral triggers, and co-branded dealer campaigns."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Agentforce for Automotive CRM",
-                            "description": "Equip sales and service agents with a unified view of buyer history, preferences, warranties, and omnichannel engagement for improved upsell and retention strategies."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Automotive Data Cloud & Analytics",
-                            "description": "Unify customer and vehicle data from OEMs, dealers, and connected vehicles to power real-time insights, predictive maintenance, and personalized service campaigns."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Integration with SAP S/4HANA & CPI",
-                            "description": "Ensure seamless integration of SAP S/4HANA with Salesforce Automotive Cloud, DMS, and telematics platforms for synchronized operations, mobility services, and compliance."
-                        }
-                    },
-                    {
-                        "@type": "Offer",
-                        "itemOffered": {
-                            "@type": "Service",
-                            "name": "Rialtes Automotive Accelerators",
-                            "description": "Deploy pre-built accelerators for dealer operations, vehicle lifecycle management, buyer graphs, and warranty administration to reduce time-to-value and ensure compliance."
-                        }
-                    }
-                ]
-            }
-        }
-    }
+   
     const t = useTranslations('automativeIndustry')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { keyIndustryChallenges, rialtesSolutions, predeliveredCardData, endtoendautomativesection, comprehensiveCustomerData, personalizedData,
-        revolutionizingData, enablingDynamicData, dealerData, empoweringData, unlockingData, integratingAutomativeData, partenringPowerData, relatedSolutionsData } = content.automativeIndustry;
+        revolutionizingData, enablingDynamicData, dealerData, empoweringData, unlockingData, integratingAutomativeData, partenringPowerData, relatedSolutionsData,schemaData } = content.automativeIndustry;
 
     const { frActive, esActive } = useActiveLocale();
 
