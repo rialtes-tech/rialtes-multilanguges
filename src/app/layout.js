@@ -87,7 +87,7 @@ export default function RootLayout({ children }) {
             {children}
              <CookieConsentWrapper />
           </main>
-          <footer className="text-white bottom-0 left-0 w-full z-10 shadow-md">
+          <footer className="text-white bottom-0 left-0 w-full z-10 shadow-md relative">
             <Footer />
           </footer>
         </div>
