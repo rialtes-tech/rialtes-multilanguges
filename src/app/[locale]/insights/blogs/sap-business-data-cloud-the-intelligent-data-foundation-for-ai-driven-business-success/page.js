@@ -14,36 +14,6 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/",
-  },
-  headline:
-    "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
-  description:
-    "Explore how SAP Business Data Cloud provides a unified, intelligent data platform that accelerates AI initiatives and drives business transformation.",
-  image: "https://www.rialtes.com/images/blog/digital-wave-data-flow-transformation-visualization.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  datePublished: "2025-04-22",
-  articleSection: "SAP Data Cloud",
-  url: "https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/",
-};
 
 export default function Page() {
   const t = useTranslations("sapDataCloud");
@@ -53,7 +23,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { scenario1Data } = content.sapDataCloud;
+  const { scenario1Data ,schemaData} = content.sapDataCloud;
   const fullUrl = "https://www.rialtes.com/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success";
   const currUrl = useUrl();
 

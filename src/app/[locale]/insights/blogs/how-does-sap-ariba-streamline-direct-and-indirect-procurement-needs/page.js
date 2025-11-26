@@ -13,33 +13,6 @@ import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCa
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/",
-  },
-  headline: "SAP Ariba Procurement: Streamlining Direct and Indirect Needs",
-  description:
-    "SAP Ariba streamlines direct and indirect procurement by digitizing workflows, enhancing compliance, and driving cost efficiency.",
-  image: "https://www.rialtes.com/images/blog/fiber-optic-network-data-connectivity.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  datePublished: "2025-05-29",
-};
-
 const fullUrl = "https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs";
 
 export default function Page() {
@@ -51,7 +24,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { procurementData, mainActivityData, aribaOptimizesData } =
+  const { procurementData, mainActivityData, aribaOptimizesData,schemaData } =
     content.howDoesSapAribaStreamline;
   return (
     <div className="min-h-screen bg-white">

@@ -14,79 +14,6 @@ import OrderedList from "@/app/[locale]/components/orderedList";
 import FilteredBlogCarouse from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/",
-  },
-  headline:
-    "Discover How Salesforce Agentforce 3.0 is Reshaping Automotive Manufacturing in Real-time",
-  description:
-    "Agentforce for automotive brings intelligent automation to factory floors—delivering real-time visibility, predictive quality, and scalable AI-driven operations across automotive manufacturing.",
-  image:
-    "https://www.rialtes.com/images/blog/automotive-manufacturing-engineer-quality-control.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  datePublished: "2025-07-29",
-  articleSection: "AI Automation",
-  url: "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "What is Agentforce for Automotive?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Agentforce for Automotive is Salesforce’s AI-powered solution tailored for automotive manufacturers. It automates and optimizes key workflows across production, supply chain, quality, and compliance using Agentforce 3.0.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What makes Agentforce 3.0 valuable for automotive manufacturers?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Agentforce 3.0 brings intelligent automation to every part of the automotive factory floor, offering real-time visibility, predictive insights, smart agent coordination, and prebuilt industry workflows.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How does Agentforce integrate with existing automotive systems?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Agentforce for automotive integrates with ERP, MES, PLM, and IoT systems using Model Context Protocol, MuleSoft APIs, and Heroku AppLink, ensuring seamless connectivity with legacy and custom tools.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What use cases exist for Agentforce in automotive?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Use cases include automated inspection summaries, predictive maintenance triggers, parts shortage alerts, service appointment agents, warranty claims validation, and AI-powered quality control agents.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is the future of AI in automotive manufacturing?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "AI is transforming the automotive industry through smart factory automation, autonomous operations, adaptive supply chains, in-vehicle intelligence, and AI-driven diagnostics. Agents will play a pivotal role in this future.",
-      },
-    },
-  ],
-};
 export default function Page() {
   const t = useTranslations("howAgentforce");
   const locale = useLocale();
@@ -106,7 +33,8 @@ export default function Page() {
     aiList,
     useCaseList,
     useDesc,
-    modelDesc1
+    modelDesc1,
+    schemaData
   } = blogsContent.howAgentforce;
 
   const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";

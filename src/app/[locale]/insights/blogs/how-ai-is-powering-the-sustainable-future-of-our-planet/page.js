@@ -15,97 +15,6 @@ import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "How AI Powers The Sustainable Future of Our Planet",
-  description:
-    "AI is a powerful ally in building a sustainable future by enhancing energy efficiency, protecting forests, preserving biodiversity, and enabling smarter climate solutions.",
-  image: "https://www.rialtes.com/images/blog/sustainable-green-energy-city-renewable.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-
-      url: " https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet/",
-  },
-  datePublished: "2025-08-21",
-  mainEntity: {
-    "@type": "FAQPage",
-    name: "AI and Sustainability FAQs",
-    acceptedAnswer: [],
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "How is AI transforming energy management?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "AI improves how we generate, store, and use energy. It predicts demand, manages smart grids, and helps optimize performance in real time. Think solar panels that adjust based on weather forecasts or buildings that auto-regulate power consumption.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What are smart grids, and how does AI support them?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Smart grids are energy systems that adjust dynamically based on usage and supply. AI enables them to forecast demand, balance load, detect faults, and reduce outages. The result? Cleaner energy, fewer blackouts, and better integration of renewables like wind and solar.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can AI help fight deforestation?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. AI analyzes satellite imagery to detect illegal logging, predicts wildfire risks using weather data, and even listens for chainsaws in remote forests. These tools enable conservationists to act more quickly and protect more land more effectively.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Is AI being used to protect biodiversity, too?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Absolutely. AI-powered camera traps can identify species, track migrations, and monitor endangered populations without disturbing them. It’s helping researchers protect wildlife with minimal human intrusion.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What role does AI play in ocean conservation?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "AI-guided underwater drones collect data on temperature, pH, and marine life. Algorithms track illegal fishing by flagging suspicious vessel behavior. It’s all about turning raw ocean data into insight—and action.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can AI predict natural disasters and climate shifts?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. AI-enhanced models predict floods, hurricanes, and rising sea levels faster and more accurately than traditional systems. That gives governments and communities the time to plan, adapt, and reduce damage.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What are the risks of using AI for environmental goals?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "There are ethical concerns, bias in data, lack of transparency, or using AI in ways that harm local communities or ecosystems. That’s why responsible design, community involvement, and clear accountability are essential.",
-        },
-      },
-    ],
-  },
-};
-
 export default function Page() {
   const t = useTranslations("aiPowerBlog");
   const locale = useLocale();
@@ -127,6 +36,7 @@ export default function Page() {
     oceanUseCases,
     forestUseCases,
     farmingContent,
+    schemaData
   } = blogsContent.aiPowerBlog;
 
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet";

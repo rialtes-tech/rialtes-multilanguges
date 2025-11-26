@@ -1,5 +1,6 @@
 {
     "agentforceForManufacturing": {
+        "schemaData": {},
         "bannerAlt": "Profesionales de negocios colaborando en tablet revisando datos digitales y estrategias en oficina tecnológica corporativa",
         "seoTitle": "Agentforce para Manufactura: Ventaja en Servicios con IA",
         "seoDescription": "¿Quieres escalar con inteligencia? Agentforce para manufactura ofrece copilotos de IA, servicio predictivo y autoservicio para soporte y ventas.",
@@ -120,6 +121,7 @@
         "faqTitle": "Preguntas frecuentes: Agentforce para la transformación de manufactura impulsada por IA"
     },
     "discoverAgentExchange": {
+        "schemaData": {},
         "bannerAlt": "Ondas digitales abstractas púrpura y azul con conexiones de red representando conectividad global y comunicación de datos",
         "seoTitle": "Por Qué AgentExchange es un Cambio de Juego",
         "seoDescription": "AgentExchange es un ecosistema donde empresas, socios y expertos colaboran, comparten mejores prácticas y lideran el futuro de la IA agéntica.",
@@ -216,6 +218,7 @@
         "availabilityData3": "optimizando las operaciones y mejorando los flujos de trabajo. Al aprovechar el aprendizaje automático y el procesamiento del lenguaje natural, alineamos los agentes con los objetivos de la organización para lograr una automatización inteligente y eficiente. Contáctanos en"
     },
     "himachalBlog": {
+        "schemaData": {},
         "bannerAlt": "Brazos robóticos manipulando viales farmacéuticos en línea de producción automatizada en instalación de ciencias de la vida",
         "impactImage": "/images/blog/india-pharmaceutical-industry-global-impact-statistics-spanish.webp",
         "impactImgAlt": "Infografía industria farmacéutica India mostrando 20% exportaciones globales, 40% demanda genéricos EE.UU., 25% UK",
@@ -223,138 +226,137 @@
         "seoDescription": "Descubre cómo Himachal Pradesh se convirtió en líder en manufactura farmacéutica con ZEE, incentivos fiscales y más de 600 plantas certificadas.",
         "blogTopic": "Otros",
         "blogDate": "01 julio 2025",
-
-      "faq": "Preguntas frecuentes: Himachal, un estado montañoso con un impacto global",
-  "blogTitle": "Himachal Pradesh: La joya farmacéutica del norte de la India con la mayor base de fabricación farmacéutica",
-  "blogMainData": [
-    "India se ha convertido en una potencia global en el sector farmacéutico. Proporciona el 20 % del suministro mundial de genéricos, cubre el 40 % de la demanda de genéricos de EE. UU. y contribuye con el 25 % de todos los medicamentos utilizados en el Reino Unido. Detrás de este ascenso existe una red de centros manufactureros de rápido crecimiento, y uno de los más fuertes del norte de la India es Himachal Pradesh.",
-    "Durante mucho tiempo ha sido un contribuyente importante al turismo y al desarrollo económico de la India. El estado es conocido por su entorno favorable para los inversionistas y se está posicionando como un destino de inversión preferido en el norte del país debido a sus políticas de apoyo, sólida infraestructura industrial y alta calificación en Facilidad para Hacer Negocios. Queremos explicar por qué este estado montañoso se ha convertido silenciosamente en una de las mayores potencias farmacéuticas de Asia."
-  ],
-  "quickAnswer": [
-    {
-      "title": "Respuesta rápida: ¿Por qué Himachal Pradesh es un importante centro farmacéutico?",
-      "desc": "Si quieres la versión corta, aquí va:",
-      "list": [
-        "Más de 600 unidades de fabricación",
-        "El mayor número de instalaciones de fabricación por contrato en el norte de la India",
-        "Costos de energía competitivos e infraestructura confiable",
-        "Fuertes incentivos, beneficios fiscales y apoyo de zonas económicas especiales",
-        "Mano de obra capacitada y proximidad a institutos de investigación",
-        "Alta calificación en Facilidad para Hacer Negocios y gobernanza proactiva"
-      ],
-      "desc1": "Esta combinación convierte a Himachal Pradesh en uno de los destinos más rentables y escalables para la fabricación farmacéutica en India."
-    }
-  ],
-  "riseData": [
-    {
-      "title": "El ascenso de la fabricación farmacéutica en Himachal Pradesh",
-      "data": [
-        "La transformación fue impulsada por decisiones estratégicas de política, el creciente nivel de confianza de los inversores y la ventaja natural de un estado reconocido por su estabilidad y fuerte base industrial.",
-        "Himachal Pradesh ahora alberga 25 instalaciones de fabricación por contrato, más que cualquier otro estado del norte. En comparación, Uttarakhand tiene 10 y Madhya Pradesh tiene 23. Durante la última década, las empresas se han expandido agresivamente en regiones como Baddi, Nalagarh y Paonta Sahib.",
-        "La energía asequible, la estricta aplicación de la ley y una fuerza laboral capacitada hicieron que el estado fuera aún más atractivo. Además, el primer Parque de Dispositivos Médicos del norte de la India, con 265 acres en Nalagarh y respaldado por infraestructura nacional, estableció la base para un crecimiento industrial a largo plazo."
-      ]
-    }
-  ],
-  "marketSizeData": [
-    {
-      "title": "Tamaño y crecimiento del mercado: ¿Qué tan grande es el sector farmacéutico en Himachal Pradesh?",
-      "desc": "Así es como se ve el mercado hoy:",
-      "list": [
-        "Más de 600 unidades farmacéuticas en el estado",
-        "35 % de la producción farmacéutica total de India",
-        "Industria valorada en INR 30,000 crore",
-        "Crecimiento anual del 8–10 %",
-        "Fuerte presencia de empresas nacionales y multinacionales",
-        "Baddi es uno de los centros más activos de fabricación farmacéutica de terceros en India"
-      ],
-      "desc1": "El crecimiento es constante y está impulsado por nuevas inversiones y la adopción de tecnologías avanzadas de fabricación. Las empresas operan bajo estrictos marcos GMP, lo que hace que la región sea un proveedor confiable para los mercados globales."
-    }
-  ],
-  "incentivesData": [
-    {
-      "title": "Cómo los incentivos gubernamentales moldearon el panorama farmacéutico de Himachal",
-      "description": "Si te preguntas por qué tantas empresas eligieron Himachal Pradesh, la respuesta es simple: los incentivos eran difíciles de ignorar.",
-      "sections": [
-        {
-          "subtitle": "Paquete Industrial Especial, 2003",
-          "desc": "Este fue el punto de inflexión. Incluía:",
-          "list": [
-            "100 % de exención de impuesto sobre la renta durante los primeros 5 años",
-            "30–50 % de exención de impuesto sobre la renta durante los siguientes 5 años",
-            "Exenciones de derechos de consumo",
-            "Subvenciones para inversiones de capital",
-            "Aprobaciones y permisos ambientales más rápidos"
-          ],
-          "footer": "Esto redujo el riesgo para los fabricantes farmacéuticos que querían escalar rápidamente sus operaciones."
-        },
-        {
-          "subtitle": "Zonas Económicas Especiales en Baddi y otras áreas",
-          "desc": "Las unidades SEZ recibieron:",
-          "list": [
-            "Exenciones de derechos aduaneros",
-            "Mayor flexibilidad laboral",
-            "Logística de exportación más rápida"
-          ],
-          "footer": "Esto convirtió a Himachal Pradesh en un destino preparado para la exportación."
-        },
-        {
-          "subtitle": "Esquema de Desarrollo Industrial, 2018",
-          "desc": "Un nuevo impulso trajo:",
-          "list": [
-            "Incentivos a la inversión de capital de hasta el 30 %",
-            "Subvenciones de intereses sobre capital de trabajo durante 5 años",
-            "Subsidios de transporte para compensar los costos logísticos del terreno montañoso"
-          ]
-        }
-      ]
-    }
-  ],
-  "manufacturersData": [
-    {
-      "title": "Por qué los fabricantes prefieren Baddi, Solan y Nalagarh",
-      "desc": "Estos clústeres ofrecen una combinación práctica de ventajas:",
-      "list": [
-        "Acceso fácil a materias primas",
-        "Redes viales bien conectadas con los principales mercados",
-        "Cercanía a institutos de I+D como IIT Mandi e IIM Sirmaur",
-        "Corredores industriales dedicados, instalaciones CETP y centros de formación",
-        "Una fuerza laboral capacitada familiarizada con los estándares farmacéuticos"
-      ],
-      "desc1": "Esta combinación hace que la región sea ideal tanto para la formulación como para la fabricación por contrato. Estas políticas han creado un ecosistema industrial estable con fábricas, empleo, industrias auxiliares, redes logísticas y apoyo en I+D."
-    }
-  ],
-  "supplyData": [
-    {
-      "title": "El papel creciente de Himachal Pradesh en la cadena de suministro farmacéutica de Asia",
-      "data": [
-        "Según el Ministro de Industrias del Estado, Himachal Pradesh ahora satisface el 35 % de la demanda farmacéutica actual de Asia. Ese número por sí solo demuestra el crecimiento significativo de la región en la última década. A pesar de su terreno montañoso, el estado construyó zonas industriales sólidas, servicios públicos confiables e infraestructura apta para la exportación.",
-        "Himachal Pradesh ha convertido su combinación de apoyo político, disciplina industrial y costos competitivos en un motor de fabricación farmacéutica de clase mundial. Con infraestructura en expansión y mayor preparación para la exportación, su papel en el crecimiento de India seguirá fortaleciéndose.",
-        "La concentración de experiencia en fabricación y el apoyo gubernamental posicionan al estado como una plataforma de lanzamiento para exportaciones farmacéuticas globales e innovación. Rialtes Technologies ayuda a los fabricantes a modernizar sus operaciones mediante sistemas impulsados por IA, flujos de trabajo automatizados y plataformas conectadas diseñadas para entornos regulados. Si desea modernizar su ecosistema de fabricación, contáctenos en <a href='mailto:sales@rialtes.com'><span class='underline'>sales@rialtes.com</span></a>."
-      ]
-    }
-  ],
-  "faqData": [
-    {
-      "question": "1. ¿Cuántas unidades de fabricación farmacéutica hay en Himachal Pradesh?",
-      "answer": "Más de 600 unidades operan en el estado, cubriendo formulaciones, fabricación de API y fabricación por contrato."
-    },
-    {
-      "question": "2. ¿Por qué Baddi es conocida como el centro farmacéutico de India?",
-      "answer": "Baddi tiene la mayor concentración de unidades farmacéuticas en la región, logística fuerte, beneficios de SEZ y mano de obra calificada."
-    },
-    {
-      "question": "3. ¿Himachal Pradesh ofrece beneficios fiscales a las empresas farmacéuticas?",
-      "answer": "Sí. El estado ha ofrecido históricamente exenciones de impuesto sobre la renta, exenciones de derechos de consumo, subsidios de capital e incentivos bajo esquemas centrales."
-    },
-    {
-      "question": "4. ¿Qué porcentaje de la producción farmacéutica de India proviene de Himachal Pradesh?",
-      "answer": "Alrededor del 35 % de la producción farmacéutica total de India proviene del estado."
-    },
-    {
-      "question": "5. ¿Por qué las empresas multinacionales invierten en Himachal Pradesh?",
-      "answer": "Los bajos costos operativos, el estatus SEZ, las aprobaciones rápidas, los altos estándares de fabricación y la infraestructura confiable lo convierten en un lugar ideal para la producción a gran escala."
-    }
-  ]
+        "faq": "Preguntas frecuentes: Himachal, un estado montañoso con un impacto global",
+        "blogTitle": "Himachal Pradesh: La joya farmacéutica del norte de la India con la mayor base de fabricación farmacéutica",
+        "blogMainData": [
+            "India se ha convertido en una potencia global en el sector farmacéutico. Proporciona el 20 % del suministro mundial de genéricos, cubre el 40 % de la demanda de genéricos de EE. UU. y contribuye con el 25 % de todos los medicamentos utilizados en el Reino Unido. Detrás de este ascenso existe una red de centros manufactureros de rápido crecimiento, y uno de los más fuertes del norte de la India es Himachal Pradesh.",
+            "Durante mucho tiempo ha sido un contribuyente importante al turismo y al desarrollo económico de la India. El estado es conocido por su entorno favorable para los inversionistas y se está posicionando como un destino de inversión preferido en el norte del país debido a sus políticas de apoyo, sólida infraestructura industrial y alta calificación en Facilidad para Hacer Negocios. Queremos explicar por qué este estado montañoso se ha convertido silenciosamente en una de las mayores potencias farmacéuticas de Asia."
+        ],
+        "quickAnswer": [
+            {
+                "title": "Respuesta rápida: ¿Por qué Himachal Pradesh es un importante centro farmacéutico?",
+                "desc": "Si quieres la versión corta, aquí va:",
+                "list": [
+                    "Más de 600 unidades de fabricación",
+                    "El mayor número de instalaciones de fabricación por contrato en el norte de la India",
+                    "Costos de energía competitivos e infraestructura confiable",
+                    "Fuertes incentivos, beneficios fiscales y apoyo de zonas económicas especiales",
+                    "Mano de obra capacitada y proximidad a institutos de investigación",
+                    "Alta calificación en Facilidad para Hacer Negocios y gobernanza proactiva"
+                ],
+                "desc1": "Esta combinación convierte a Himachal Pradesh en uno de los destinos más rentables y escalables para la fabricación farmacéutica en India."
+            }
+        ],
+        "riseData": [
+            {
+                "title": "El ascenso de la fabricación farmacéutica en Himachal Pradesh",
+                "data": [
+                    "La transformación fue impulsada por decisiones estratégicas de política, el creciente nivel de confianza de los inversores y la ventaja natural de un estado reconocido por su estabilidad y fuerte base industrial.",
+                    "Himachal Pradesh ahora alberga 25 instalaciones de fabricación por contrato, más que cualquier otro estado del norte. En comparación, Uttarakhand tiene 10 y Madhya Pradesh tiene 23. Durante la última década, las empresas se han expandido agresivamente en regiones como Baddi, Nalagarh y Paonta Sahib.",
+                    "La energía asequible, la estricta aplicación de la ley y una fuerza laboral capacitada hicieron que el estado fuera aún más atractivo. Además, el primer Parque de Dispositivos Médicos del norte de la India, con 265 acres en Nalagarh y respaldado por infraestructura nacional, estableció la base para un crecimiento industrial a largo plazo."
+                ]
+            }
+        ],
+        "marketSizeData": [
+            {
+                "title": "Tamaño y crecimiento del mercado: ¿Qué tan grande es el sector farmacéutico en Himachal Pradesh?",
+                "desc": "Así es como se ve el mercado hoy:",
+                "list": [
+                    "Más de 600 unidades farmacéuticas en el estado",
+                    "35 % de la producción farmacéutica total de India",
+                    "Industria valorada en INR 30,000 crore",
+                    "Crecimiento anual del 8–10 %",
+                    "Fuerte presencia de empresas nacionales y multinacionales",
+                    "Baddi es uno de los centros más activos de fabricación farmacéutica de terceros en India"
+                ],
+                "desc1": "El crecimiento es constante y está impulsado por nuevas inversiones y la adopción de tecnologías avanzadas de fabricación. Las empresas operan bajo estrictos marcos GMP, lo que hace que la región sea un proveedor confiable para los mercados globales."
+            }
+        ],
+        "incentivesData": [
+            {
+                "title": "Cómo los incentivos gubernamentales moldearon el panorama farmacéutico de Himachal",
+                "description": "Si te preguntas por qué tantas empresas eligieron Himachal Pradesh, la respuesta es simple: los incentivos eran difíciles de ignorar.",
+                "sections": [
+                    {
+                        "subtitle": "Paquete Industrial Especial, 2003",
+                        "desc": "Este fue el punto de inflexión. Incluía:",
+                        "list": [
+                            "100 % de exención de impuesto sobre la renta durante los primeros 5 años",
+                            "30–50 % de exención de impuesto sobre la renta durante los siguientes 5 años",
+                            "Exenciones de derechos de consumo",
+                            "Subvenciones para inversiones de capital",
+                            "Aprobaciones y permisos ambientales más rápidos"
+                        ],
+                        "footer": "Esto redujo el riesgo para los fabricantes farmacéuticos que querían escalar rápidamente sus operaciones."
+                    },
+                    {
+                        "subtitle": "Zonas Económicas Especiales en Baddi y otras áreas",
+                        "desc": "Las unidades SEZ recibieron:",
+                        "list": [
+                            "Exenciones de derechos aduaneros",
+                            "Mayor flexibilidad laboral",
+                            "Logística de exportación más rápida"
+                        ],
+                        "footer": "Esto convirtió a Himachal Pradesh en un destino preparado para la exportación."
+                    },
+                    {
+                        "subtitle": "Esquema de Desarrollo Industrial, 2018",
+                        "desc": "Un nuevo impulso trajo:",
+                        "list": [
+                            "Incentivos a la inversión de capital de hasta el 30 %",
+                            "Subvenciones de intereses sobre capital de trabajo durante 5 años",
+                            "Subsidios de transporte para compensar los costos logísticos del terreno montañoso"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "manufacturersData": [
+            {
+                "title": "Por qué los fabricantes prefieren Baddi, Solan y Nalagarh",
+                "desc": "Estos clústeres ofrecen una combinación práctica de ventajas:",
+                "list": [
+                    "Acceso fácil a materias primas",
+                    "Redes viales bien conectadas con los principales mercados",
+                    "Cercanía a institutos de I+D como IIT Mandi e IIM Sirmaur",
+                    "Corredores industriales dedicados, instalaciones CETP y centros de formación",
+                    "Una fuerza laboral capacitada familiarizada con los estándares farmacéuticos"
+                ],
+                "desc1": "Esta combinación hace que la región sea ideal tanto para la formulación como para la fabricación por contrato. Estas políticas han creado un ecosistema industrial estable con fábricas, empleo, industrias auxiliares, redes logísticas y apoyo en I+D."
+            }
+        ],
+        "supplyData": [
+            {
+                "title": "El papel creciente de Himachal Pradesh en la cadena de suministro farmacéutica de Asia",
+                "data": [
+                    "Según el Ministro de Industrias del Estado, Himachal Pradesh ahora satisface el 35 % de la demanda farmacéutica actual de Asia. Ese número por sí solo demuestra el crecimiento significativo de la región en la última década. A pesar de su terreno montañoso, el estado construyó zonas industriales sólidas, servicios públicos confiables e infraestructura apta para la exportación.",
+                    "Himachal Pradesh ha convertido su combinación de apoyo político, disciplina industrial y costos competitivos en un motor de fabricación farmacéutica de clase mundial. Con infraestructura en expansión y mayor preparación para la exportación, su papel en el crecimiento de India seguirá fortaleciéndose.",
+                    "La concentración de experiencia en fabricación y el apoyo gubernamental posicionan al estado como una plataforma de lanzamiento para exportaciones farmacéuticas globales e innovación. Rialtes Technologies ayuda a los fabricantes a modernizar sus operaciones mediante sistemas impulsados por IA, flujos de trabajo automatizados y plataformas conectadas diseñadas para entornos regulados. Si desea modernizar su ecosistema de fabricación, contáctenos en <a href='mailto:sales@rialtes.com'><span class='underline'>sales@rialtes.com</span></a>."
+                ]
+            }
+        ],
+        "faqData": [
+            {
+                "question": "1. ¿Cuántas unidades de fabricación farmacéutica hay en Himachal Pradesh?",
+                "answer": "Más de 600 unidades operan en el estado, cubriendo formulaciones, fabricación de API y fabricación por contrato."
+            },
+            {
+                "question": "2. ¿Por qué Baddi es conocida como el centro farmacéutico de India?",
+                "answer": "Baddi tiene la mayor concentración de unidades farmacéuticas en la región, logística fuerte, beneficios de SEZ y mano de obra calificada."
+            },
+            {
+                "question": "3. ¿Himachal Pradesh ofrece beneficios fiscales a las empresas farmacéuticas?",
+                "answer": "Sí. El estado ha ofrecido históricamente exenciones de impuesto sobre la renta, exenciones de derechos de consumo, subsidios de capital e incentivos bajo esquemas centrales."
+            },
+            {
+                "question": "4. ¿Qué porcentaje de la producción farmacéutica de India proviene de Himachal Pradesh?",
+                "answer": "Alrededor del 35 % de la producción farmacéutica total de India proviene del estado."
+            },
+            {
+                "question": "5. ¿Por qué las empresas multinacionales invierten en Himachal Pradesh?",
+                "answer": "Los bajos costos operativos, el estatus SEZ, las aprobaciones rápidas, los altos estándares de fabricación y la infraestructura confiable lo convierten en un lugar ideal para la producción a gran escala."
+            }
+        ]
     },
     "aiRealEstate": {
         "bannerAlt": "Ilustración de edificio con sensores de IA que predicen necesidades de mantenimiento mediante análisis en tiempo real. ",
@@ -1030,6 +1032,7 @@
         "unifiedTitle": "Un Sistema CRM + ERP Unificado para Líderes Inmobiliarios"
     },
     "agenticPharma": {
+        "schemaData": {},
         "bannerAlt": "Ilustración árbol fibra óptica colorido con ramas brillantes multicolores sobre fondo verde azulado oscuro",
         "seoTitle": "IA Agéntica en Pharma: Automatización Compleja",
         "seoDescription": "La IA agéntica simplifica la complejidad en pharma: adaptable, orientada a objetivos y consciente del contexto con mínima intervención humana.",
@@ -1097,6 +1100,7 @@
         "improveData3": "Nuestros expertos en tecnología y farmacia te guían para simplificar la integración de la IA en tus flujos de trabajo, mejorando la investigación, optimizando la producción y facilitando estrategias respaldadas por datos. Ya sea mejorando I+D, optimizando la manufactura o fortaleciendo el compromiso del cliente, aseguran una transición fluida hacia operaciones impulsadas por IA."
     },
     "howDoesSapAribaStreamline": {
+        "schemaData": {},
         "bannerAlt": "Cables de fibra óptica azules con flujos de datos brillantes representando conectividad de red veloz e infraestructura digital",
         "seoTitle": "SAP Ariba Compras: Eficiencia Directa e Indirecta",
         "seoDescription": "SAP Ariba digitaliza todo el proceso de compras, desde la selección al pago, mejorando ahorros, velocidad y control en adquisiciones.",
@@ -1175,6 +1179,7 @@
         "integrateDesc3": "Rialtes ofrece una variedad de servicios, incluyendo consultoría, implementación y soporte. Te ayudamos a reinventar tus operaciones de compras y mejorar la toma de decisiones a través de soluciones SAP Ariba."
     },
     "howSapSuccessFactorIntegration": {
+        "schemaData": {},
         "bannerAlt": "Arquitectura de red azul con cubos transparentes y flujos de datos que representan infraestructura de nube",
         "seoTitle": "Integración de SAP SuccessFactors: Mejora RRHH y Nómina",
         "seoDescription": "Las integraciones de SAP SuccessFactors mejoran RRHH y nómina, aumentando eficiencia, precisión y cumplimiento global y local.",
@@ -1336,6 +1341,7 @@
         "overcomeLink": "soluciones de integración SAP SuccessFactors."
     },
     "redefiningBlog": {
+        "schemaData": {},
         "bannerAlt": "Árbol digital azul y cian brillante con líneas conectadas y puntos de luz sobre fondo azul oscuro mostrando red de datos",
         "seoTitle": "SAP Joule AI: Impulsando el Futuro Empresarial",
         "seoDescription": "SAP Joule AI transforma operaciones, permitiendo decisiones rápidas y respuestas instantáneas sin navegar paneles complejos.",
@@ -1450,6 +1456,7 @@
         "shiftFromLink3": "SAP Ariba"
     },
     "sapDataCloud": {
+        "schemaData": {},
         "bannerAlt": "Ola oceánica azul con cuadrícula digital y puntos de conexión brillantes representando flujo de datos y transformación",
         "sapImage": "/images/blog/sap-business-data-cloud-technical-architecture-diagram.png",
         "sapAlt": "Diagrama mostrando SAP Business Data Cloud como centro conectado a seis componentes incluyendo bases datos, analítica y IA",
@@ -1567,6 +1574,7 @@
         "acceleratesDesc3": "para explorar su impacto potencial en tu organización."
     },
     "powerfulFeatures": {
+        "schemaData": {},
         "bannerAlt": "Robot chatbot de IA azul con ojos brillantes apuntando hacia arriba representando inteligencia artificial y automatización",
         "seoTitle": "Funciones Clave que Hacen de Agentforce un Cambio Total",
         "seoDescription": "Las funciones de Agentforce resuelven brechas de CX con enrutamiento inteligente, casos con IA y tableros de rendimiento para mejores decisiones.",
@@ -1711,6 +1719,7 @@
         "transitionDesc2": "Rialtes permite a las empresas integrar agentes personalizados de Agentforce en sus plataformas ERP, automatizando tareas y optimizando flujos de trabajo. Usando aprendizaje automático y procesamiento de lenguaje natural, alineamos los agentes con los objetivos organizacionales para una automatización inteligente efectiva. Ponte en contacto con nosotros en "
     },
     "howSuccessFactorEnhances": {
+        "schemaData": {},
         "bannerAlt": "Profesional escribiendo en portátil con patrón de ondas digitales representando trabajo remoto y productividad tecnológica",
         "seoTitle": "Guía de SAP SuccessFactors para Equipos Remotos",
         "seoDescription": "¿Dificultades con equipos remotos? SAP SuccessFactors ofrece herramientas para aumentar compromiso, seguimiento y colaboración fluida.",
@@ -1870,6 +1879,7 @@
         "manageDesc3": "para una consulta sobre las funciones, beneficios e implementación de SAP SuccessFactors."
     },
     "agentForceAgents": {
+        "schemaData": {},
         "bannerAlt": "Mano robótica brillante sobre teclado de portátil representando automatización de IA y transformación digital",
         "blogTopic": "Salesforce Agentforce",
         "seoTitle": "Escala el Futuro del ERP con IA",
@@ -1934,6 +1944,7 @@
         "futureDesc3": "Rialtes permite a las empresas integrar agentes personalizados de Agentforce en sus plataformas ERP específicas, automatizando tareas repetitivas y optimizando flujos de trabajo. Utilizando aprendizaje automático y procesamiento de lenguaje natural, garantizamos que estos agentes se alineen con los objetivos organizacionales. Las empresas pueden asegurarse de que sus implementaciones de Agentforce aprovechen datos confiables para una automatización inteligente. Contáctanos en"
     },
     "meetTeammate": {
+        "schemaData": {},
         "bannerAlt": "Interfaz digital de agente de IA iluminada en azul con circuitos futuristas y patrones de datos",
         "seoTitle": "Cómo Potenciar Slack con Agentforce",
         "seoDescription": "Agentforce convierte Slack en un centro más inteligente, combinando mensajería en tiempo real y agentes de IA para optimizar solicitudes y colaboración.",
@@ -3647,6 +3658,7 @@
         "faqTitle": "Preguntas frecuentes: creación y despliegue de agentes de IA con Agentforce"
     },
     "howAgentforce": {
+        "schemaData": {},
         "bannerAlt": "Ingeniero de manufactura con equipo de seguridad amarillo usando tablet para control de calidad en planta automotriz",
         "seoTitle": "Agentforce 3.0 para Éxito en Automotriz",
         "seoDescription": "Agentforce para automotriz transforma la producción con agentes de IA que mejoran flujos, cumplimiento y agilidad en planta.",
@@ -3850,6 +3862,7 @@
         ]
     },
     "aiPowerBlog": {
+        "schemaData": {},
         "flowchartAlt": "Diagrama de flujo de sistema de red inteligente impulsado por IA mostrando fuentes de energía renovable y análisis predictivo",
         "bannerAlt": "Ciudad verde sostenible flotante con turbinas eólicas, paneles solares representando futuro de energía renovable",
         "susContain": "/images/blog/ai-driven-smart-grid-system-flowchart-spanish.webp",
@@ -6937,7 +6950,7 @@
         ]
     },
     "whatDoesASingle": {
-        "bannerAlt" : "Paisaje urbano futurista vidrio con edificios transparentes rosa y azul sobre superficie reflectante innovación digital",
+        "bannerAlt": "Paisaje urbano futurista vidrio con edificios transparentes rosa y azul sobre superficie reflectante innovación digital",
         "aleadsfill": "Un cliente potencial completa",
         "aform": "un formulario",
         "entersCrm": "Entra en el CRM",
@@ -8083,121 +8096,133 @@
         "fromTitle": "De los obstáculos a los avances",
         "faqTitle": "Preguntas frecuentes: Cómo mejorar la inscripción de pacientes en ensayos clínicos de enfermedades raras usando IA"
     },
-     "digitalInnovationBlog": {
-    "bannerAlt": "Doctor interactuando con datos médicos holográficos y visuales de salud 3D en laboratorio digital futurista",
-    "seoTitle": "Innovación digital para una gestión más inteligente de los ensayos clínicos",
-    "seoDescription": "La innovación digital está transformando la investigación clínica, ya que la IA, la automatización y los ecosistemas conectados redefinen la ejecución de los ensayos clínicos digitales.",
-    "blogTopic": "MediAIna",
-    "headerText": "Cómo la innovación digital está transformando la gestión de los ensayos clínicos",
-    "shiftTitle": "La transición de los ensayos tradicionales a los ensayos clínicos digitales",
-    "shiftDesc": "En los ensayos clínicos tradicionales, la recopilación de datos está dispersa, implicando múltiples sistemas y entradas manuales. Esto ralentiza el análisis y aumenta el riesgo de error humano. Por el contrario, los ensayos clínicos digitales aprovechan plataformas en la nube, algoritmos de IA y herramientas de monitoreo remoto para gestionar todas las fases de un ensayo, desde el diseño hasta el seguimiento del paciente. Estas innovaciones han permitido:",
-    "shiftDescOne": "Según un informe reciente de Deloitte, las soluciones digitales pueden reducir los tiempos de los ensayos hasta en un 30 % y disminuir los costos operativos en casi un 25 %. Para los equipos de investigación y los patrocinadores, esto es la diferencia entre un avance y un cuello de botella.",
-    "faq": "Preguntas frecuentes: Transformación de la gestión de ensayos clínicos",
-    "blogMainData": [
-      "Los ensayos clínicos siempre han sido el núcleo del progreso médico. Pero aquí está la verdad: los ensayos tradicionales suelen ser lentos, costosos y desconectados del mundo digital en el que ahora viven los pacientes. Los silos de datos, los procesos manuales y la baja retención de pacientes siguen afectando los resultados de la investigación.",
-      "La innovación digital está transformando el panorama de la investigación clínica. Tecnologías como la IA, la automatización y los <a href='https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>ecosistemas conectados</a> están redefiniendo el diseño, la supervisión y la ejecución de los ensayos clínicos digitales. Estos avances mejoran la precisión, aceleran los plazos y mejoran la experiencia del paciente. Exploremos cómo la transformación digital está revolucionando la gestión de los ensayos clínicos, reduciendo las tasas de abandono y allanando el camino hacia una investigación más inteligente y centrada en el paciente."
-    ],
-    "analyticsData": [
-      {
-        "title": "Reclutamiento de pacientes más inteligente con IA y análisis predictivos",
-        "data": [
-          "Uno de los mayores desafíos en los ensayos clínicos siempre ha sido la inscripción de pacientes, especialmente en enfermedades raras, donde los candidatos adecuados son pocos y están geográficamente dispersos.",
-          "Aquí es donde la <a href='https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>inscripción impulsada por IA en ensayos de enfermedades raras</a> cambia las reglas del juego. Los algoritmos avanzados analizan historiales médicos, datos genómicos y registros electrónicos de salud (EHR) para identificar participantes elegibles con gran precisión. Esto no solo acelera el reclutamiento, sino que garantiza diversidad y cumplimiento de los criterios de inclusión. Las herramientas de análisis predictivo refinan aún más este proceso al prever patrones de inscripción y detectar posibles abandonos antes de que ocurran. Según un análisis de McKinsey, las herramientas de reclutamiento basadas en IA pueden reducir los tiempos de inscripción en un 50 %."
+    "digitalInnovationBlog": {
+        "bannerAlt": "Doctor interactuando con datos médicos holográficos y visuales de salud 3D en laboratorio digital futurista",
+        "seoTitle": "Innovación digital para una gestión más inteligente de los ensayos clínicos",
+        "seoDescription": "La innovación digital está transformando la investigación clínica, ya que la IA, la automatización y los ecosistemas conectados redefinen la ejecución de los ensayos clínicos digitales.",
+        "blogTopic": "MediAIna",
+        "headerText": "Cómo la innovación digital está transformando la gestión de los ensayos clínicos",
+        "shiftTitle": "La transición de los ensayos tradicionales a los ensayos clínicos digitales",
+        "shiftDesc": "En los ensayos clínicos tradicionales, la recopilación de datos está dispersa, implicando múltiples sistemas y entradas manuales. Esto ralentiza el análisis y aumenta el riesgo de error humano. Por el contrario, los ensayos clínicos digitales aprovechan plataformas en la nube, algoritmos de IA y herramientas de monitoreo remoto para gestionar todas las fases de un ensayo, desde el diseño hasta el seguimiento del paciente. Estas innovaciones han permitido:",
+        "shiftDescOne": "Según un informe reciente de Deloitte, las soluciones digitales pueden reducir los tiempos de los ensayos hasta en un 30 % y disminuir los costos operativos en casi un 25 %. Para los equipos de investigación y los patrocinadores, esto es la diferencia entre un avance y un cuello de botella.",
+        "faq": "Preguntas frecuentes: Transformación de la gestión de ensayos clínicos",
+        "blogMainData": [
+            "Los ensayos clínicos siempre han sido el núcleo del progreso médico. Pero aquí está la verdad: los ensayos tradicionales suelen ser lentos, costosos y desconectados del mundo digital en el que ahora viven los pacientes. Los silos de datos, los procesos manuales y la baja retención de pacientes siguen afectando los resultados de la investigación.",
+            "La innovación digital está transformando el panorama de la investigación clínica. Tecnologías como la IA, la automatización y los <a href='https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>ecosistemas conectados</a> están redefiniendo el diseño, la supervisión y la ejecución de los ensayos clínicos digitales. Estos avances mejoran la precisión, aceleran los plazos y mejoran la experiencia del paciente. Exploremos cómo la transformación digital está revolucionando la gestión de los ensayos clínicos, reduciendo las tasas de abandono y allanando el camino hacia una investigación más inteligente y centrada en el paciente."
+        ],
+        "analyticsData": [
+            {
+                "title": "Reclutamiento de pacientes más inteligente con IA y análisis predictivos",
+                "data": [
+                    "Uno de los mayores desafíos en los ensayos clínicos siempre ha sido la inscripción de pacientes, especialmente en enfermedades raras, donde los candidatos adecuados son pocos y están geográficamente dispersos.",
+                    "Aquí es donde la <a href='https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>inscripción impulsada por IA en ensayos de enfermedades raras</a> cambia las reglas del juego. Los algoritmos avanzados analizan historiales médicos, datos genómicos y registros electrónicos de salud (EHR) para identificar participantes elegibles con gran precisión. Esto no solo acelera el reclutamiento, sino que garantiza diversidad y cumplimiento de los criterios de inclusión. Las herramientas de análisis predictivo refinan aún más este proceso al prever patrones de inscripción y detectar posibles abandonos antes de que ocurran. Según un análisis de McKinsey, las herramientas de reclutamiento basadas en IA pueden reducir los tiempos de inscripción en un 50 %."
+                ]
+            }
+        ],
+        "trialsData": [
+            {
+                "title": "Participación descentralizada,",
+                "desc": "permitiendo que los pacientes contribuyan desde cualquier lugar."
+            },
+            {
+                "title": "Recopilación automatizada de datos,",
+                "desc": "reduciendo la dependencia de la entrada manual."
+            },
+            {
+                "title": "Análisis en tiempo real,",
+                "desc": "garantizando decisiones más rápidas."
+            },
+            {
+                "title": "Mejora del cumplimiento,",
+                "desc": "ya que los datos se rastrean y monitorean de forma segura de extremo a extremo."
+            }
+        ],
+        "buildData": [
+            {
+                "title": "Construcción de ecosistemas de salud inteligentes para ensayos",
+                "desc": "La investigación clínica ya no ocurre de forma aislada. Para obtener resultados significativos, los datos deben fluir sin fricción entre proveedores de salud, aseguradoras, plataformas MedTech y organismos reguladores.",
+                "desc1": "Esto crea la necesidad de ecosistemas de salud inteligentes para ensayos, infraestructuras digitales conectadas que unifican datos, automatizan informes y garantizan el cumplimiento regulatorio.",
+                "desc2": "Estos ecosistemas reúnen:",
+                "gridLeft": [
+                    "Sistemas de Captura Electrónica de Datos (EDC) y Archivo Maestro de Ensayos Electrónico (eTMF).",
+                    "Validación de datos impulsada por IA para controles de calidad en tiempo real."
+                ],
+                "gridRight": [
+                    "Herramientas de monitoreo remoto de pacientes (RPM) e interfaces de telemedicina.",
+                    "Marcos de interoperabilidad para integrar con EMR o sistemas hospitalarios existentes."
+                ],
+                "desc3": "La Organización Mundial de la Salud señala que los ecosistemas digitales pueden reducir las discrepancias de datos en más de un 70 %, creando resultados clínicos más confiables, compatibles y transparentes."
+            }
+        ],
+        "toolsData": [
+            {
+                "title": "Reducir las tasas de abandono de los ensayos clínicos con herramientas digitales",
+                "desc": "La participación del paciente es la base del éxito de los ensayos. Sin embargo, muchos estudios informan tasas de abandono de hasta el 40 %, a menudo debido a la falta de comunicación, problemas de accesibilidad o una mala experiencia del participante.",
+                "desc1": "Al reducir las tasas de abandono mediante herramientas digitales, las organizaciones pueden ahora crear recorridos de ensayo más conectados y atractivos. Las aplicaciones móviles, los wearables y las plataformas de telesalud permiten a los participantes:",
+                "list": [
+                    "Seguir fácilmente su progreso y horarios de medicación",
+                    "Comunicarse en tiempo real con los coordinadores del estudio.",
+                    "Recibir recordatorios y seguimientos automáticos.",
+                    "Registrar efectos secundarios o comentarios desde casa."
+                ],
+                "desc2": "Estas intervenciones digitales fomentan confianza, comodidad y continuidad. ¿El resultado? Mejor adherencia, mayor integridad de los datos y finalización más rápida de los ensayos. Un estudio publicado en Nature Digital Medicine encontró que las plataformas de participación de pacientes mejoraron la retención hasta en un 60 %, especialmente en estudios crónicos a largo plazo."
+            }
+        ],
+        "innovationData": [
+            {
+                "title": "El papel de los datos y la IA en la innovación en investigación clínica",
+                "desc": "Con análisis avanzados y aprendizaje automático, las organizaciones pueden ahora extraer conocimientos profundos de los datos de los ensayos, predecir resultados, optimizar el diseño de estudios e incluso identificar reacciones adversas antes de que escalen.",
+                "desc1": "Así es como la innovación en investigación clínica impulsada por IA está acelerando el progreso:",
+                "list": [
+                    "Detección automatizada de anomalías para conjuntos de datos más limpios.",
+                    "Modelos predictivos para optimización de dosis.",
+                    "Procesamiento de lenguaje natural (NLP) para una documentación regulatoria más rápida.",
+                    "Gemelos digitales para simular resultados antes del despliegue."
+                ],
+                "desc2": "Según Accenture, las empresas de ciencias de la vida que adoptan IA en investigación ven mejoras del 40–50 % en precisión de datos y un 25 % de aceleración en presentaciones regulatorias."
+            }
+        ],
+        "quickAnswer": [
+            {
+                "title": "Un futuro fluido con MediAIna para la gestión digital de ensayos clínicos",
+                "desc": "En el centro de esta transformación se encuentran plataformas que unifican cada punto de contacto digital y operativo. <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a> es una de esas soluciones de nueva generación.",
+                "desc1": "Desarrollada por <a href='https://www.rialtes.com/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Rialtes</a>, MediAIna redefine cómo las organizaciones de salud y ciencias de la vida llevan a cabo y supervisan los ensayos. Al integrar datos clínicos, operativos y de participación del paciente, crea una vista de 360° del rendimiento del ensayo, desde el reclutamiento hasta el análisis posterior.",
+                "desc2": "Sus capacidades clave incluyen:",
+                "features": [
+                    "Herramientas de inscripción y retención basadas en IA.",
+                    "Recopilación automatizada de datos con paneles analíticos avanzados.",
+                    "Integración fluida con EHR, dispositivos MedTech y sistemas de laboratorio.",
+                    "Flujos de trabajo conformes con estándares globales como HIPAA y GxP."
+                ],
+                "desc3": "MediAIna es la base de un ecosistema de salud más inteligente y conectado. Ayuda a las organizaciones de ciencias de la vida a reducir costos, acortar tiempos y mejorar resultados clínicos, manteniéndose plenamente preparadas y en cumplimiento.",
+                "desc4": "La visión de Rialtes con MediAIna es simple pero poderosa: <a href='https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>transformar el recorrido del paciente</a> fusionando inteligencia clínica con innovación digital."
+            }
+        ],
+        "faqData": [
+            {
+                "question": "1. ¿Qué son los ensayos clínicos digitales?",
+                "answer": "Los ensayos clínicos digitales utilizan tecnologías como IA, plataformas en la nube y dispositivos portátiles para recopilar, gestionar y analizar datos de manera más eficiente que los ensayos tradicionales."
+            },
+            {
+                "question": "2. ¿Cómo mejora la IA la inscripción de pacientes en ensayos clínicos?",
+                "answer": "Los sistemas impulsados por IA analizan historiales médicos y datos demográficos para identificar participantes de manera rápida y precisa, especialmente en estudios de enfermedades raras."
+            },
+            {
+                "question": "3. ¿Qué herramientas ayudan a reducir el abandono en los ensayos clínicos?",
+                "answer": "Aplicaciones móviles, plataformas de telesalud y recordatorios digitales mejoran la comunicación, el compromiso y la adherencia, ayudando a reducir las tasas de abandono."
+            },
+            {
+                "question": "4. ¿Por qué son importantes los ecosistemas inteligentes de salud en los ensayos?",
+                "answer": "Conectan proveedores, aseguradoras y sistemas de investigación, garantizando un intercambio fluido de datos, cumplimiento regulatorio y monitoreo en tiempo real."
+            },
+            {
+                "question": "5. ¿Cómo apoya MediAIna la gestión digital de ensayos clínicos?",
+                "answer": "MediAIna integra datos clínicos, operativos y de pacientes de múltiples sistemas, automatizando la gestión del ensayo y mejorando la toma de decisiones."
+            },
+            {
+                "question": "6. ¿Cuál es el futuro de la innovación digital en investigación clínica?",
+                "answer": "El futuro se basa en ecosistemas conectados, centrados en el paciente y potenciados por IA, que aceleran los plazos, reducen los costos y mejoran los resultados clínicos."
+            }
         ]
-      }
-    ],
-    "trialsData": [
-      { "title": "Participación descentralizada,", "desc": "permitiendo que los pacientes contribuyan desde cualquier lugar." },
-      { "title": "Recopilación automatizada de datos,", "desc": "reduciendo la dependencia de la entrada manual." },
-      { "title": "Análisis en tiempo real,", "desc": "garantizando decisiones más rápidas." },
-      { "title": "Mejora del cumplimiento,", "desc": "ya que los datos se rastrean y monitorean de forma segura de extremo a extremo." }
-    ],
-    "buildData": [
-      {
-        "title": "Construcción de ecosistemas de salud inteligentes para ensayos",
-        "desc": "La investigación clínica ya no ocurre de forma aislada. Para obtener resultados significativos, los datos deben fluir sin fricción entre proveedores de salud, aseguradoras, plataformas MedTech y organismos reguladores.",
-        "desc1": "Esto crea la necesidad de ecosistemas de salud inteligentes para ensayos, infraestructuras digitales conectadas que unifican datos, automatizan informes y garantizan el cumplimiento regulatorio.",
-        "desc2": "Estos ecosistemas reúnen:",
-        "gridLeft": [
-          "Sistemas de Captura Electrónica de Datos (EDC) y Archivo Maestro de Ensayos Electrónico (eTMF).",
-          "Validación de datos impulsada por IA para controles de calidad en tiempo real."
-        ],
-        "gridRight": [
-          "Herramientas de monitoreo remoto de pacientes (RPM) e interfaces de telemedicina.",
-          "Marcos de interoperabilidad para integrar con EMR o sistemas hospitalarios existentes."
-        ],
-        "desc3": "La Organización Mundial de la Salud señala que los ecosistemas digitales pueden reducir las discrepancias de datos en más de un 70 %, creando resultados clínicos más confiables, compatibles y transparentes."
-      }
-    ],
-    "toolsData": [
-      {
-        "title": "Reducir las tasas de abandono de los ensayos clínicos con herramientas digitales",
-        "desc": "La participación del paciente es la base del éxito de los ensayos. Sin embargo, muchos estudios informan tasas de abandono de hasta el 40 %, a menudo debido a la falta de comunicación, problemas de accesibilidad o una mala experiencia del participante.",
-        "desc1": "Al reducir las tasas de abandono mediante herramientas digitales, las organizaciones pueden ahora crear recorridos de ensayo más conectados y atractivos. Las aplicaciones móviles, los wearables y las plataformas de telesalud permiten a los participantes:",
-        "list": [
-          "Seguir fácilmente su progreso y horarios de medicación",
-          "Comunicarse en tiempo real con los coordinadores del estudio.",
-          "Recibir recordatorios y seguimientos automáticos.",
-          "Registrar efectos secundarios o comentarios desde casa."
-        ],
-        "desc2": "Estas intervenciones digitales fomentan confianza, comodidad y continuidad. ¿El resultado? Mejor adherencia, mayor integridad de los datos y finalización más rápida de los ensayos. Un estudio publicado en Nature Digital Medicine encontró que las plataformas de participación de pacientes mejoraron la retención hasta en un 60 %, especialmente en estudios crónicos a largo plazo."
-      }
-    ],
-    "innovationData": [
-      {
-        "title": "El papel de los datos y la IA en la innovación en investigación clínica",
-        "desc": "Con análisis avanzados y aprendizaje automático, las organizaciones pueden ahora extraer conocimientos profundos de los datos de los ensayos, predecir resultados, optimizar el diseño de estudios e incluso identificar reacciones adversas antes de que escalen.",
-        "desc1": "Así es como la innovación en investigación clínica impulsada por IA está acelerando el progreso:",
-        "list": [
-          "Detección automatizada de anomalías para conjuntos de datos más limpios.",
-          "Modelos predictivos para optimización de dosis.",
-          "Procesamiento de lenguaje natural (NLP) para una documentación regulatoria más rápida.",
-          "Gemelos digitales para simular resultados antes del despliegue."
-        ],
-        "desc2": "Según Accenture, las empresas de ciencias de la vida que adoptan IA en investigación ven mejoras del 40–50 % en precisión de datos y un 25 % de aceleración en presentaciones regulatorias."
-      }
-    ],
-    "quickAnswer": [
-      {
-        "title": "Un futuro fluido con MediAIna para la gestión digital de ensayos clínicos",
-        "desc": "En el centro de esta transformación se encuentran plataformas que unifican cada punto de contacto digital y operativo. <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a> es una de esas soluciones de nueva generación.",
-        "desc1": "Desarrollada por <a href='https://www.rialtes.com/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Rialtes</a>, MediAIna redefine cómo las organizaciones de salud y ciencias de la vida llevan a cabo y supervisan los ensayos. Al integrar datos clínicos, operativos y de participación del paciente, crea una vista de 360° del rendimiento del ensayo, desde el reclutamiento hasta el análisis posterior.",
-        "desc2": "Sus capacidades clave incluyen:",
-        "features": [
-          "Herramientas de inscripción y retención basadas en IA.",
-          "Recopilación automatizada de datos con paneles analíticos avanzados.",
-          "Integración fluida con EHR, dispositivos MedTech y sistemas de laboratorio.",
-          "Flujos de trabajo conformes con estándares globales como HIPAA y GxP."
-        ],
-        "desc3": "MediAIna es la base de un ecosistema de salud más inteligente y conectado. Ayuda a las organizaciones de ciencias de la vida a reducir costos, acortar tiempos y mejorar resultados clínicos, manteniéndose plenamente preparadas y en cumplimiento.",
-        "desc4": "La visión de Rialtes con MediAIna es simple pero poderosa: <a href='https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>transformar el recorrido del paciente</a> fusionando inteligencia clínica con innovación digital."
-      }
-    ],
-    "faqData": [
-      {
-        "question": "1. ¿Qué son los ensayos clínicos digitales?",
-        "answer": "Los ensayos clínicos digitales utilizan tecnologías como IA, plataformas en la nube y dispositivos portátiles para recopilar, gestionar y analizar datos de manera más eficiente que los ensayos tradicionales."
-      },
-      {
-        "question": "2. ¿Cómo mejora la IA la inscripción de pacientes en ensayos clínicos?",
-        "answer": "Los sistemas impulsados por IA analizan historiales médicos y datos demográficos para identificar participantes de manera rápida y precisa, especialmente en estudios de enfermedades raras."
-      },
-      {
-        "question": "3. ¿Qué herramientas ayudan a reducir el abandono en los ensayos clínicos?",
-        "answer": "Aplicaciones móviles, plataformas de telesalud y recordatorios digitales mejoran la comunicación, el compromiso y la adherencia, ayudando a reducir las tasas de abandono."
-      },
-      {
-        "question": "4. ¿Por qué son importantes los ecosistemas inteligentes de salud en los ensayos?",
-        "answer": "Conectan proveedores, aseguradoras y sistemas de investigación, garantizando un intercambio fluido de datos, cumplimiento regulatorio y monitoreo en tiempo real."
-      },
-      {
-        "question": "5. ¿Cómo apoya MediAIna la gestión digital de ensayos clínicos?",
-        "answer": "MediAIna integra datos clínicos, operativos y de pacientes de múltiples sistemas, automatizando la gestión del ensayo y mejorando la toma de decisiones."
-      },
-      {
-        "question": "6. ¿Cuál es el futuro de la innovación digital en investigación clínica?",
-        "answer": "El futuro se basa en ecosistemas conectados, centrados en el paciente y potenciados por IA, que aceleran los plazos, reducen los costos y mejoran los resultados clínicos."
-      }
-    ]
-  }
+    }
 }

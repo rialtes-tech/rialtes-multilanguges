@@ -13,36 +13,6 @@ import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCa
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/",
-  },
-  headline: "Redefining the Future of Enterprise AI with SAP Joule",
-  description:
-    "Discover how SAP Joule is shaping enterprise AI by enabling smarter automation, enhanced decision-making, and transformative business insights.",
-  image: "https://www.rialtes.com/images/blog/data-connectivity-network-visualization-digital-tree.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-    url: "https://www.rialtes.com",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  datePublished: "2025-04-22",
-  articleSection: "SAP AI",
-  url: "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/",
-};
-
 export default function Page() {
   const t = useTranslations("redefiningBlog");
   const locale = useLocale();
@@ -60,6 +30,7 @@ export default function Page() {
     sapJouleData,
     quickGlimpseData1,
     responsiveData,
+    schemaData
   } = content.redefiningBlog;
   const fullUrl = "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule";
 

@@ -13,37 +13,12 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel';
 import useUrl from "@/app/[locale]/components/useUrl";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations"
-  },
-  "headline": "How SAP SuccessFactors Integrations Enhance HR and Payroll Operations",
-  "description": "Explore how integrating SAP SuccessFactors with various enterprise systems streamlines HR and payroll processes, ensuring accuracy, compliance, and improved employee satisfaction.",
-  "image": "https://www.rialtes.com/images/blog/abstract-cloud-computing-network-architecture.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-05-28",
-}
-
 export default function Page() {
   const t = useTranslations("howSapSuccessFactorIntegration");
   const locale = useLocale();
   const currUrl = useUrl()
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { blogMainData, hrmgmtData, roleIntegrationData, successFactorIntegration, empData } = content.howSapSuccessFactorIntegration
+  const { blogMainData, hrmgmtData, roleIntegrationData, successFactorIntegration, empData,schemaData } = content.howSapSuccessFactorIntegration
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations";
 
   return (

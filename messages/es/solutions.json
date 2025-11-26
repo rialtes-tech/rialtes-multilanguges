@@ -1756,6 +1756,7 @@
     "infographicAlt": "Infografía que ilustra el flujo de procesos de Salesforce Revenue Cloud desde la cotización hasta el cobro",
     "sapPartnerLogoAlt": "Insignia oficial de Socio SAP que representa experiencia certificada en implementación",
     "revenueCloudImg": "/images/revenue-cloud/revenue-cloud-infographic-spanish.webp",
+    "bannerAlt": "Banner de Salesforce Revenue Cloud que muestra la automatización de procesos de ingresos",
     "revenueStats": [
       {
         "value": "40%",
