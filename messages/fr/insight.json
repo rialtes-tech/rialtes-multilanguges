@@ -187,14 +187,14 @@
       },
       {
         "id": 2,
-        "image": "/images/blog/how-salesforce-agentforce-actually-works.webp",
-        "category": "Salesforce Agentforce",
-        "industry": "Générique",
-        "date": "Sept. 30, 2024",
-        "url": "/how-salesforce-agentforce-actually-works/",
-        "title": "Comment Salesforce Agentforce fonctionne réellement",
-        "alt": "Comment Salesforce Agentforce fonctionne réellement",
-        "description": "Salesforce Agentforce, bien qu’étant un ajout récent à l’écosystème Salesforce, suscite un grand intérêt, notamment dans les organisations disposant de grandes équipes d’agents, comme les commerciaux, les représentants du service client et le personnel de terrain."
+        "image": "/images/blog/digital-patient-journeys-mobile.webp",
+        "category": "MediAIna",
+        "industry": "Sciences de la vie",
+        "date": "Sep. 30, 2025",
+        "url": "/digital-patient-journeys-ai-healthcare-life-sciences/",
+        "title": "L'avenir des parcours patients numériques : comment l'IA transforme les sciences de la vie",
+        "alt": "Parcours patient optimisé par IA montrant diagnostic, traitement et suivi.",
+        "description": "L'industrie de la santé est à un tournant. Les patients ne veulent plus d'expériences fragmentées, attendre des semaines pour un rendez-vous, répéter leur historique à chaque point de contact ou gérer des portails déconnectés."
       },
       {
         "id": 3,
@@ -206,6 +206,17 @@
         "title": "SAP Signavio + SAP Cloud ALM : Gouvernance, traçabilité et suivi des KPI dans les transformations S/4HANA",
         "alt": "Comment SAP Signavio et Cloud ALM redéfinissent la transformation S/4HANA",
         "description": "Les programmes de transformation numérique, tels qu’une implémentation SAP S/4HANA, ne sont pas simplement des projets informatiques mais des initiatives complexes de réinvention des processus touchant chaque rôle et technologie de l’entreprise. Pour ces transformations à grande échelle, deux facteurs critiques de succès se démarquent."
+      },
+      {
+        "id": 4,
+        "image": "/images/blog/conversational-ai-in-real-estate-mobile.webp",
+        "category": "Exelona",
+        "industry": "Immobilier",
+        "date": "Oct. 20, 2025",
+        "url": "/conversational-ai-in-real-estate-scale-resident-support/",
+        "title": "IA conversationnelle dans l'immobilier : augmenter le support aux résidents sans ajouter de personnel",
+        "alt": "Interface de chatbot IA aidant les équipes immobilières avec des réponses automatiques et un support locataire.",
+        "description": "Le support aux résidents dans la gestion immobilière devient difficile à mettre à l'échelle. Entre les demandes de maintenance, les questions sur le loyer,"
       }
     ],
     "latestBlogs": [

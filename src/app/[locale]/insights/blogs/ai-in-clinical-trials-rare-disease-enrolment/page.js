@@ -225,7 +225,7 @@ export default function Page() {
 
                             {/* common data */}
                             <div className="md:mt-[50px] mt-[40px]">
-                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">How AI Solves the Patient Enrolment Challenge in Rare Disease Clinical Trials</h2>
+                                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('howAiTitle')}</h2>
                                 {
                                     commonData.map((data, ind) => (
                                         <div key={ind}>

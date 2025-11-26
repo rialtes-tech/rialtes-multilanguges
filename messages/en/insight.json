@@ -188,14 +188,14 @@
       },
       {
         "id": 2,
-        "image": "/images/blog/how-salesforce-agentforce-actually-works.webp",
-        "category": "Salesforce Agentforce",
-        "industry": "Generic",
-        "date": "Sept. 30, 2024",
-        "url": "/how-salesforce-agentforce-actually-works/",
-        "title": "How Salesforce Agentforce Actually Works",
-        "alt": "AI-powered Salesforce workflow showing how Agentforce automates tasks and improves operations.",
-        "description": "Salesforce Agentforce, although a newer addition to the Salesforce ecosystem, is making rounds, particularly in organizations that deal with large teams of agents, such as sales agents, customer service representatives, and field service personnel."
+        "image": "/images/blog/digital-patient-journeys-mobile.webp",
+        "category": "MediAIna",
+        "industry": "Life Sciences",
+        "date": "Sep. 30, 2025",
+        "url": "/digital-patient-journeys-ai-healthcare-life-sciences/",
+        "title": "The Future of Digital Patient Journeys: How AI is Reshaping Life Sciences",
+        "alt": "AI-enhanced patient journey flowchart showing diagnosis, therapy steps, and follow-up",
+        "description": "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals. "
       },
       {
         "id": 3,
@@ -207,6 +207,17 @@
         "title": "SAP Signavio + SAP Cloud ALM: Driving Governance, Traceability, and KPI Tracking in S/4HANA Transformations",
         "alt": "ashboard showing SAP Signavio and Cloud ALM tools for guided S/4HANA transformation",
         "description": "Digital transformation programs such as an SAP S/4HANA implementation are not simply IT projects but complex business reinvention initiatives that touch every process, role, and technology in the enterprise. For such large-scale transformations, two critical success factors stand out."
+      },
+      {
+        "id": 4,
+        "image": "/images/blog/conversational-ai-in-real-estate-mobile.webp",
+        "category": "Exelona",
+        "industry": "Real Estate",
+        "date": "Oct. 20, 2025",
+        "url": "/conversational-ai-in-real-estate-scale-resident-support/",
+        "title": "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
+        "alt": "AI chatbot interface supporting real estate teams with automated responses and tenant assistance",
+        "description": "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries,"
       }
     ],
     "latestBlogs": [
@@ -940,16 +951,6 @@
         "title": "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
         "alt": " Display of roofing shingle samples in multiple colors arranged for product comparison",
         "description": "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer."
-      },
-      {
-        "id": 4,
-        "imgSrc": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
-        "category": "Automotive",
-        "date": "Jun. 03, 2025",
-        "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
-        "title": "Revving Up Dealer Management with AutoSense by Rialtes",
-        "alt": "Professionals collaborating around a laptop in a modern office setting",
-        "description": "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal."
       }
     ],
     "latestCaseStudyTitle": "Related Case Studies",
