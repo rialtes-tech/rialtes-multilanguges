@@ -12,39 +12,14 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization/",
-  },
-  headline:
-    "Case Study: Enhancing Prior Authorization Workflow Using Salesforce Health Cloud",
-  description:
-    "Explore how Rialtes helped streamline and automate the prior authorization workflow using Salesforce Health Cloud, leading to faster approvals, reduced errors, and improved patient outcomes.",
-  image: "https://www.rialtes.com/images/case-studies/digital-brain-network.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  articleSection: "Case Studies",
-  datePublished: "2024-08-02",
-};
+
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations("salesForceCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { problemList, solutionsList, benefitsList } = Content.salesForceCaseStudy;
+  const { problemList, solutionsList, benefitsList, schemaData } = Content.salesForceCaseStudy;
+ 
   const fullUrl = "https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization";
   return (
     <div className="min-h-screen bg-white">

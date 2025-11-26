@@ -12,41 +12,12 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/",
-  },
-  headline:
-    "Case Study: Omnichannel Case Management with Salesforce Service Cloud",
-  description:
-    "Discover how Rialtes implemented Salesforce Service Cloud to enable seamless omnichannel case management, reduce response time, and enhance customer satisfaction.",
-  image: "https://www.rialtes.com/images/case-studies/advanced-microchip-manufacturing.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  articleSection: "Case Studies",
-  datePublished: "2025-10-14",
-};
-
 export default function Page() {
   const currUrl = useUrl()
   const t = useTranslations("omnichannelCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { problemList, featureList, benifitList } = Content.omnichannelCaseStudy;
+  const { problemList, featureList, benifitList, schemaData } = Content.omnichannelCaseStudy;
 
   const fullUrl = "https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud";
 
