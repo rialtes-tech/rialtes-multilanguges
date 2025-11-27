@@ -106,19 +106,19 @@ export default function Page() {
   ];
   const trialsData = [
     {
-      title: "Decentralized participation,",
+      title: "Decentralized participation",
       desc: "allowing patients to contribute from anywhere.",
     },
     {
-      title: "Automated data collection,",
+      title: "Automated data collection",
       desc: "reducing reliance on manual input.",
     },
     {
-      title: "Real-time analytics,",
+      title: "Real-time analytics",
       desc: "ensuring quicker decision-making.",
     },
     {
-      title: "Improved compliance,",
+      title: "Improved compliance",
       desc: "as data is securely tracked and monitored end-to-end.",
     },
   ];
@@ -280,7 +280,7 @@ export default function Page() {
                   {" "}
                   |{" "}
                 </span>
-                25 Nov 2025
+                25 November 2025
               </div>
 
               <div>
@@ -323,11 +323,11 @@ export default function Page() {
                   </p>
                   <div className="grid xl:gap-[38px] md:gap-[25px] gap-4 sm:grid-cols-2 lg:grid-cols-4  xl:mt-[40px] mt-4 mb-5">
                     {trialsData.map((item, index) => (
-                      <div key={index}>
-                        <h3 className="font-bold 4xl:text-[22px] 2xl:text-[19px] text-[18px] leading-tight text-black lg:mt-0 mt-4">
+                      <div key={index} >
+                       <span> <h3 className=" inline font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight text-black lg:mt-0 mt-4">
                           {item.title}
-                        </h3>
-                        <p className="4xl:text-[22px] 2xl:text-[19px] text-[18px] leading-tight">
+                        </h3>,</span>
+                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight mt-1">
                           {item.desc}
                         </p>
                       </div>
@@ -424,9 +424,9 @@ export default function Page() {
                         </div>
 
                         <div className="relative flex flex-col md:pl-14">
-                          <p className="text-[#006FBE] font-bold 4xl:text-[24px] 2xl:text-[21px] text-[20px]">
+                          <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] 2xl:text-[19px] text-[18px]">
                             {data.gridRight[1]}
-                          </p>
+                          </h3>
                         </div>
                       </div>
 
@@ -477,7 +477,7 @@ export default function Page() {
                       <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-bold ">
                         {data.desc2}
                       </p>
-                      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 4xl:mr-28 xl:mr-20">
+                      <div className="xl:mt-[30px] mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 4xl:mr-28 xl:mr-20">
                         {data.features.map((item, i) => (
                           <div
                             key={i}
@@ -490,7 +490,7 @@ export default function Page() {
                         ))}
                       </div>
 
-                      <p className="xl:mt-[60px] mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                      <p className="xl:mt-[30px] mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                         {data.desc3}
                       </p>
                       <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
