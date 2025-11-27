@@ -1,42 +1,41 @@
 {
   "insights": {
-  "schemaData" :{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/en/insights/"
-  },
-  "name": "Rialtes Insights | Salesforce, SAP, and Technology Trends",
-  "headline": "Explore Insights That Power Digital Transformation",
-  "description": "Discover Rialtes Insights: A knowledge hub featuring thought leadership blogs, real-world case studies, and expert-led webinars focused on Salesforce, SAP, and enterprise tech innovation.",
-  "hasPart": [
-    {
+    "schemaData": {
+      "@context": "https://schema.org",
       "@type": "CollectionPage",
-      "name": "Rialtes Blogs | Expert Insights on Digital Transformation",
-      "url": "https://www.rialtes.com/en/insights/blogs/"
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/"
+      },
+      "name": "Rialtes Insights | Salesforce, SAP, and Technology Trends",
+      "headline": "Explore Insights That Power Digital Transformation",
+      "description": "Discover Rialtes Insights: A knowledge hub featuring thought leadership blogs, real-world case studies, and expert-led webinars focused on Salesforce, SAP, and enterprise tech innovation.",
+      "hasPart": [
+        {
+          "@type": "CollectionPage",
+          "name": "Rialtes Blogs | Expert Insights on Digital Transformation",
+          "url": "https://www.rialtes.com/en/insights/blogs/"
+        },
+        {
+          "@type": "CollectionPage",
+          "name": "Rialtes Case Studies | Proven Salesforce and SAP Implementations",
+          "url": "https://www.rialtes.com/en/insights/case-studies/"
+        },
+        {
+          "@type": "CollectionPage",
+          "name": "Rialtes Webinars | Learn from Salesforce & SAP Experts",
+          "url": "https://www.rialtes.com/en/insights/webinars/"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      }
     },
-    {
-      "@type": "CollectionPage",
-      "name": "Rialtes Case Studies | Proven Salesforce and SAP Implementations",
-      "url": "https://www.rialtes.com/en/insights/case-studies/"
-    },
-    {
-      "@type": "CollectionPage",
-      "name": "Rialtes Webinars | Learn from Salesforce & SAP Experts",
-      "url": "https://www.rialtes.com/en/insights/webinars/"
-    }
-  ],
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  }
-
-},
     "bannerAlt": "Mobile insights banner for business updates",
     "dataCloudeDigitalAlt": "Green computing illustration with tree and digital circuit",
     "futuristicMedTechAlt": "Diversity illustration for AI in patient care",
@@ -123,25 +122,25 @@
     ]
   },
   "news": {
-    "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/en/insights/news/"
-  },
-  "name": "Rialtes News | Product Launches, Events & Media Mentions",
-  "headline": "Rialtes in the News – Announcements & Industry Coverage",
-  "description": "Stay up to date with the latest news from Rialtes. Discover product launches, partnership announcements, media coverage, and event highlights.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  }
-},
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/news/"
+      },
+      "name": "Rialtes News | Product Launches, Events & Media Mentions",
+      "headline": "Rialtes in the News – Announcements & Industry Coverage",
+      "description": "Stay up to date with the latest news from Rialtes. Discover product launches, partnership announcements, media coverage, and event highlights.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      }
+    },
     "newsTitle": "News",
     "seoTitle": "Rialtes News | PR Highlights and Industry Collaborations",
     "seoDescription": "From headline PR to powerful partnerships—explore how Rialtes leads industry change with innovation, tech moves, and smart collaborations.",
@@ -180,25 +179,25 @@
     ]
   },
   "blogs": {
-    "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/en/insights/blogs/"
-  },
-  "name": "Rialtes Blogs | Expert Insights on Digital Transformation",
-  "headline": "Insights That Drive Innovation – Salesforce & SAP Blogs",
-  "description": "Stay updated with expert blogs from Rialtes on Salesforce, SAP, Yardi, MuleSoft, and more. Learn how technology trends are shaping industries and driving business success.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  }
-},
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/blogs/"
+      },
+      "name": "Rialtes Blogs | Expert Insights on Digital Transformation",
+      "headline": "Insights That Drive Innovation – Salesforce & SAP Blogs",
+      "description": "Stay updated with expert blogs from Rialtes on Salesforce, SAP, Yardi, MuleSoft, and more. Learn how technology trends are shaping industries and driving business success.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      }
+    },
     "seoTitle": "Rialtes Blogs | Salesforce, SAP, AI, and Cloud Insights",
     "mainBlogbannerAlt": "Explore Strategic Insights Across AI, Salesforce, and SAP ",
     "seoDescription": "Read expert blogs on Salesforce, SAP, cloud, and AI. Stay ahead with the latest innovation and digital transformation insights from Rialtes.",
@@ -270,7 +269,7 @@
         "url": "/digital-patient-journeys-ai-healthcare-life-sciences/",
         "title": "The Future of Digital Patient Journeys: How AI is Reshaping Life Sciences",
         "alt": "AI-enhanced patient journey flowchart showing diagnosis, therapy steps, and follow-up",
-        "description": "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals. "
+        "description": "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals.They want personalized, continuous care that mirrors the convenience of other industries."
       },
       {
         "id": 3,
@@ -292,20 +291,31 @@
         "url": "/conversational-ai-in-real-estate-scale-resident-support/",
         "title": "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
         "alt": "AI chatbot interface supporting real estate teams with automated responses and tenant assistance",
-        "description": "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries,"
+        "description": "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries, amenity bookings, and move-in/move-out coordination, teams often stretch themselves thin. The problem isn’t that property managers don’t care; resident expectations have changed."
       }
     ],
     "latestBlogs": [
       {
-    "id": 58,
-    "image": "/images/blog/digital-medical-hologram-feature-thumb.webp",
-    "category": "MediAIna",
-    "industry": "Life Sciences",
-    "date": "25 Nov. 2025",
-    "url": "/how-digital-innovation-transforms-clinical-trial-management/",
-    "title": "How Digital Innovation is Transforming Clinical Trial Management",
-    "description": "Clinical trials have always been the core of medical progress. But here’s the bitter truth: usual trials are often slow, expensive, and feel disconnected from the digital-first world in which patients now live"
-  },
+        "id": 58,
+        "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
+        "category": "SAP SuccessFactors",
+        "industry": "HRMS",
+        "date": "Nov. 27, 2025",
+        "alt": "A futuristic digital interface showing data panels and a virtual hand touching a glowing point on a tech surface",
+        "url": "/sap-successfactors-services-hr-transformation/",
+        "title": "How SAP SuccessFactors Services Leverage Data & AI to Transform Modern HR",
+        "description": "In 2025, a quiet revolution is transforming the way HR operates. The field of HR is evolving continuously. Expectations have changed, not in the sensational ways that make headlines each week, but through a more subtle, systemic shift."
+      },
+      {
+        "id": 57,
+        "image": "/images/blog/digital-medical-hologram-feature-thumb.webp",
+        "category": "MediAIna",
+        "industry": "Life Sciences",
+        "date": "25 Nov. 2025",
+        "url": "/how-digital-innovation-transforms-clinical-trial-management/",
+        "title": "How Digital Innovation is Transforming Clinical Trial Management",
+        "description": "Clinical trials have always been the core of medical progress. But here’s the bitter truth: usual trials are often slow, expensive, and feel disconnected from the digital-first world in which patients now live"
+      },
       {
         "id": 56,
         "image": "/images/blog/digital-touchscreen-technology-mobile.webp",
@@ -903,26 +913,25 @@
     ]
   },
   "webinars": {
-    "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/en/insights/webinars/"
-  },
-  "name": "Rialtes Webinars | Learn from Industry Experts",
-  "headline": "Expert Webinars on Salesforce, SAP & Digital Innovation",
-  "description": "Discover Rialtes' on-demand and upcoming webinars covering Salesforce, SAP, MuleSoft, Yardi, and more. Gain practical insights from real-world implementations and expert discussions.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  }
-},
-
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/webinars/"
+      },
+      "name": "Rialtes Webinars | Learn from Industry Experts",
+      "headline": "Expert Webinars on Salesforce, SAP & Digital Innovation",
+      "description": "Discover Rialtes' on-demand and upcoming webinars covering Salesforce, SAP, MuleSoft, Yardi, and more. Gain practical insights from real-world implementations and expert discussions.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      }
+    },
     "bannerAlt": "Person typing on laptop during virtual team video conference call with diverse group of professionals in grid view",
     "seoTitle": "SAP and Salesforce Tech Webinars by a Trusted Partner | Rialtes",
     "seoDescription": "Salesforce tech webinars and SAP sessions by Rialtes. Learn from experts, explore innovations, and boost your digital transformation strategy.",
@@ -1004,25 +1013,25 @@
     "openNow": " Open Now"
   },
   "caseStudy": {
-    "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/en/insights/case-studies/"
-  },
-  "name": "Rialtes Case Studies | Proven Salesforce and SAP Implementations",
-  "headline": "Real Results with Salesforce and SAP – Customer Success Stories",
-  "description": "Explore how Rialtes empowers organizations across industries with Salesforce, SAP, Yardi, and MuleSoft solutions. Discover real-world case studies that showcase innovation, efficiency, and digital transformation.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  }
-},
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/case-studies/"
+      },
+      "name": "Rialtes Case Studies | Proven Salesforce and SAP Implementations",
+      "headline": "Real Results with Salesforce and SAP – Customer Success Stories",
+      "description": "Explore how Rialtes empowers organizations across industries with Salesforce, SAP, Yardi, and MuleSoft solutions. Discover real-world case studies that showcase innovation, efficiency, and digital transformation.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      }
+    },
     "bannerAlt": "Abstract neon waves in pink, blue, and green flowing across a dark background with smooth motion blur effects",
     "seoTitle": "Salesforce and SAP Wins | Case Studies That Inspire | Rialtes",
     "seoDescription": "Explore SAP and Salesforce case studies from Rialtes. See how global businesses drive AI-powered innovation, efficiency, and ROI through smart tech solutions.",

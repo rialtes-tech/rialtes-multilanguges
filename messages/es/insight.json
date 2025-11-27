@@ -1,6 +1,6 @@
 {
   "insights": {
-    "schemaData" :{},
+    "schemaData": {},
     "bannerAlt": "Banner móvil de información para actualizaciones empresariales",
     "dataCloudeDigitalAlt": "Ilustración de computación verde con árbol y circuito digital",
     "futuristicMedTechAlt": "Ilustración de diversidad para IA en atención al paciente",
@@ -86,7 +86,7 @@
     ]
   },
   "news": {
-    "schemaData" :{},
+    "schemaData": {},
     "newsTitle": "Noticias",
     "seoTitle": "Noticias Rialtes | PR y Colaboraciones Industriales",
     "seoDescription": "Desde PR destacado hasta colaboraciones poderosas: descubre cómo Rialtes lidera cambios industriales con innovación, tecnología y alianzas estratégicas.",
@@ -125,7 +125,7 @@
     ]
   },
   "blogs": {
-    "schemaData" :{},
+    "schemaData": {},
     "mainBlogbannerAlt": "Explore ideas estratégicas sobre IA, Salesforce y SAP ",
     "seoTitle": "Blogs Rialtes | Salesforce, SAP, IA y Nube",
     "seoDescription": "Lee blogs expertos sobre Salesforce, SAP, nube e IA. Mantente informado con las últimas tendencias e innovación digital de Rialtes.",
@@ -197,7 +197,7 @@
         "url": "/digital-patient-journeys-ai-healthcare-life-sciences/",
         "title": "El futuro de los recorridos digitales del paciente: cómo la IA está transformando las ciencias de la vida",
         "alt": "Diagrama de flujo de las etapas del recorrido del paciente mejoradas con IA",
-        "description": "La industria de la salud se encuentra en un punto de inflexión. Los pacientes ya no quieren experiencias fragmentadas, esperar semanas para citas o repetir su historial en cada punto de contacto."
+        "description": "La industria de la salud se encuentra en un punto de inflexión. Los pacientes ya no quieren experiencias fragmentadas, esperar semanas para una cita, repetir su historial en cada punto de contacto o lidiar con portales desconectados."
       },
       {
         "id": 3,
@@ -219,20 +219,31 @@
         "url": "/conversational-ai-in-real-estate-scale-resident-support/",
         "title": "IA conversacional en bienes raíces: escala el soporte a residentes sin aumentar personal",
         "alt": "IA conversacional en bienes raíces",
-        "description": "El soporte a residentes en la gestión de propiedades se está volviendo más difícil de escalar. Entre solicitudes de mantenimiento, consultas de alquiler,"
+        "description": "El soporte a los residentes en la gestión de propiedades se está volviendo más difícil de escalar. Entre solicitudes de mantenimiento, consultas de renta, reservas de servicios y coordinación de mudanzas, los equipos suelen verse sobrecargados. El problema no es que los administradores de propiedades no se preocupen; es que las expectativas de los residentes han cambiado."
       }
     ],
     "latestBlogs": [
       {
-  "id": 58,
-  "image": "/images/blog/digital-medical-hologram-feature-thumb.webp",
-  "category": "MediAIna",
-  "industry": "Ciencias de la vida",
-  "date": "25 Nov. 2025",
-  "url": "/how-digital-innovation-transforms-clinical-trial-management/",
-  "title": "Cómo la innovación digital está transformando la gestión de los ensayos clínicos",
-  "description": "Los ensayos clínicos siempre han sido el núcleo del progreso médico. Pero aquí está la verdad: los ensayos tradicionales suelen ser lentos, costosos y desconectados del mundo digital en el que ahora viven los pacientes."
-},
+        "id": 58,
+        "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
+        "category": "SAP SuccessFactors",
+        "industry": "RRHH",
+        "alt": "Una interfaz digital futurista que muestra paneles de datos y una mano virtual tocando un punto luminoso en una superficie tecnológica",
+        "date": "Nov. 27, 2025",
+        "url": "/sap-successfactors-services-hr-transformation/",
+        "title": "Cómo los servicios de SAP SuccessFactors aprovechan los datos y la IA para transformar el RR. HH. moderno",
+        "description": "En 2025, una revolución silenciosa está transformando la forma en que opera RR. HH. El campo de los recursos humanos evoluciona continuamente. Las expectativas han cambiado, no de manera sensacionalista como las que aparecen en los titulares cada semana, sino mediante un cambio más sutil y sistémico."
+      },
+      {
+        "id": 57,
+        "image": "/images/blog/digital-medical-hologram-feature-thumb.webp",
+        "category": "MediAIna",
+        "industry": "Ciencias de la vida",
+        "date": "Nov. 25, 2025",
+        "url": "/how-digital-innovation-transforms-clinical-trial-management/",
+        "title": "Cómo la innovación digital está transformando la gestión de los ensayos clínicos",
+        "description": "Los ensayos clínicos siempre han sido el núcleo del progreso médico. Pero aquí está la verdad: los ensayos tradicionales suelen ser lentos, costosos y desconectados del mundo digital en el que ahora viven los pacientes."
+      },
       {
         "id": 56,
         "image": "/images/blog/digital-touchscreen-technology-mobile.webp",
@@ -911,7 +922,7 @@
     "openNow": "Abrir ahora"
   },
   "caseStudy": {
-    "schemaData" :{},
+    "schemaData": {},
     "bannerAlt": "Ondas de neón en rosa, azul y verde fluyendo sobre fondo oscuro con efecto de desenfoque de movimiento ",
     "headerTitle": "Estudios de Caso",
     "seoTitle": "Éxitos Salesforce y SAP | Casos de Estudio Inspiradores | Rialtes",
