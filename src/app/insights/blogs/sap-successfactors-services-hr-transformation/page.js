@@ -405,8 +405,8 @@ export default function Page() {
                                         <UnorderedList arrName={data.desc} ulClassName="mt-[29px] xl:mt-[30px] space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
                                         <div>
                                             <Image
-                                                src="/images/blog/six-step-process-flow-diagram-with-arrows.webp"
-                                                alt="A six-step process flow diagram with curved arrows showing sequential stages in gradient blue and purple colors"
+                                                src="/images/blog/SAP-SuccessFactors-Consultant-Responsibilities.webp"
+                                                alt="What Does a SAP SuccessFactors Consultant Do"
                                                 width={0}
                                                 height={0}
                                                 className="h-full w-full"
