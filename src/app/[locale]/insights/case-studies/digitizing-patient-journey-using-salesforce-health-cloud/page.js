@@ -17,8 +17,7 @@ export default function Page() {
   const t = useTranslations("digitizingCaseStudy");
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { challengesList, solutionsList, benefitsList, schemaData } =
-    Content.digitizingCaseStudy;
+  const { challengesList, solutionsList, benefitsList, schemaData } = Content.digitizingCaseStudy;
 
   const fullUrl = "https://www.rialtes.com/insights/blogs/digitizing-patient-journey-using-salesforce-health-cloud";
 

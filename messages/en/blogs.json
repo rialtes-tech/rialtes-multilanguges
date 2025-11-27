@@ -1793,33 +1793,33 @@
         "collaborateDesc3": "are driven by reliable, actionable data, maximizing the potential of intelligent automation. Get in touch with us at"
     },
     "integrateSapSuccessFactor": {
-        "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/en/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
-  },
-  "headline": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-  "description": "Learn how to streamline workflows and boost HR team productivity by integrating SAP SuccessFactors with Microsoft Office 365 tools like Outlook and Teams.",
-  "image": "https://www.rialtes.com/images/blog/blue-orange-halftone-wave-pattern-abstract.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-12-24",
-  "articleSection": "SAP Integration",
-  "url": "https://www.rialtes.com/en/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
+            },
+            "headline": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
+            "description": "Learn how to streamline workflows and boost HR team productivity by integrating SAP SuccessFactors with Microsoft Office 365 tools like Outlook and Teams.",
+            "image": "https://www.rialtes.com/images/blog/blue-orange-halftone-wave-pattern-abstract.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-12-24",
+            "articleSection": "SAP Integration",
+            "url": "https://www.rialtes.com/en/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
+        },
         "bannerAlt": "Abstract blue and orange halftone dot pattern creating wave design on navy background for tech graphics",
         "seoTitle": "How to Integrate SAP with Office 365 for Enhanced HR Collaboration",
         "seoDescription": "Discover how SAP Office 365 integration can simplify HR processes, automate workflows, and foster seamless collaboration across Office 365 apps.",
@@ -1953,38 +1953,33 @@
         "completeDesc4": "to get started with one of our expert SAP SuccessFactors consultants!"
     },
     "enhancingCompliance": {
-  "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/en/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
-  },
-  "headline":
-    "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
-  "description":
-    "Learn how SAP GTS streamlines compliance with global trade laws using Sanctioned Party List (SPL) screening, ensuring secure and lawful third-party engagements.",
-  "image":
-    "https://www.rialtes.com/images/blog/global-network-connectivity-world-map-visualization.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-12-19",
-  "articleSection": "SAP GTS",
-  "url": "https://www.rialtes.com/en/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
-},
-
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
+            },
+            "headline": "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
+            "description": "Learn how SAP GTS streamlines compliance with global trade laws using Sanctioned Party List (SPL) screening, ensuring secure and lawful third-party engagements.",
+            "image": "https://www.rialtes.com/images/blog/global-network-connectivity-world-map-visualization.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-12-19",
+            "articleSection": "SAP GTS",
+            "url": "https://www.rialtes.com/en/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
+        },
         "bannerAlt": "3D world map with illuminated connection lines showing global network connectivity and data flow visualization",
         "seoTitle": "How SAP GTS Sanctioned Party List Screening Ensures Compliance | Rialtes",
         "seoDescription": "Minimize risks with SAP Sanctioned Party List Screening by ensuring your business never deals with prohibited parties. Stay compliant and avoid legal penalties.",
@@ -2083,33 +2078,33 @@
         "complyDesc3": "with deep expertise in global trade and risk management, we empower companies to navigate these processes efficiently, delivering maximum value and return on investment. Our seasoned SAP consultants possess the skills and experience to address your critical needs while equipping your internal teams for ongoing improvement and innovation."
     },
     "agentforceTesting": {
-        "schemaData" :{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/en/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
-  },
-  "headline": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-  "description": "Explore how Agentforce Testing Center leverages synthetic data to revolutionize AI model testing, ensuring security, reliability, and scalability.",
-  "image": "https://www.rialtes.com/images/blog/digital-gears-network-automation-technology-concept.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-11-25",
-  "articleSection": "AI Testing",
-  "url": "https://www.rialtes.com/en/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
+            },
+            "headline": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
+            "description": "Explore how Agentforce Testing Center leverages synthetic data to revolutionize AI model testing, ensuring security, reliability, and scalability.",
+            "image": "https://www.rialtes.com/images/blog/digital-gears-network-automation-technology-concept.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-11-25",
+            "articleSection": "AI Testing",
+            "url": "https://www.rialtes.com/en/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
+        },
         "bannerAlt": "Blue digital wireframe gears and network nodes representing industrial automation and blockchain technology",
         "seoTitle": "Agentforce Testing Center: Test AI Agents Before Production",
         "seoDescription": "The Agentforce Testing Center is a powerful suite of tools that helps enterprises evaluate AI agents before they are deployed in production. Know more.",
@@ -2173,33 +2168,33 @@
         "whyDesc4": "or need help getting started? We’re here to assist. At Rialtes, we specialize in AI testing and  , and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to streamline their business processes."
     },
     "successfactorSupportsDiversity": {
-        "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/en/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/"
-  },
-  "headline": "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
-  "description": "Discover how SAP SuccessFactors helps organizations champion DEI through analytics, inclusive hiring, unbiased performance reviews, and culture-driven tools.",
-  "image": "https://www.rialtes.com/images/blog/diversity-inclusion-puzzle-accessibility-concept.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-11-12",
-  "articleSection": "SAP HXM",
-  "url": "https://www.rialtes.com/en/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/"
+            },
+            "headline": "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
+            "description": "Discover how SAP SuccessFactors helps organizations champion DEI through analytics, inclusive hiring, unbiased performance reviews, and culture-driven tools.",
+            "image": "https://www.rialtes.com/images/blog/diversity-inclusion-puzzle-accessibility-concept.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-11-12",
+            "articleSection": "SAP HXM",
+            "url": "https://www.rialtes.com/en/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/"
+        },
         "bannerAlt": "Colorful puzzle pieces with diversity icons showing people and wheelchair symbols representing inclusion concept",
         "seoTitle": "How SuccessFactors Diversity and Inclusion Drives Workplace Equity | Rialtes",
         "seoDescription": "Discover how SAP SuccessFactors diversity and inclusion capabilities support unbiased hiring, inclusive performance, and engagement. Learn more with Rialtes.",
@@ -2254,37 +2249,33 @@
         "hrSystemDesc3": " Contact us today at"
     },
     "automateCrucial": {
-        "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/en/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
-  },
-  "headline":
-    "Automate Crucial Parts of Your Healthcare Organization with Athenahealth and Salesforce Integration",
-  "description":
-    "See how integrating Athenahealth with Salesforce enhances healthcare operations—improving patient data access, workflows, and care coordination.",
-  "image":
-    "https://www.rialtes.com/images/blog/healthcare-worker-digital-tablet-medical-technology.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-11-11",
-  "articleSection": "Healthcare Integration",
-  "url": "https://www.rialtes.com/en/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
+            },
+            "headline": "Automate Crucial Parts of Your Healthcare Organization with Athenahealth and Salesforce Integration",
+            "description": "See how integrating Athenahealth with Salesforce enhances healthcare operations—improving patient data access, workflows, and care coordination.",
+            "image": "https://www.rialtes.com/images/blog/healthcare-worker-digital-tablet-medical-technology.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-11-11",
+            "articleSection": "Healthcare Integration",
+            "url": "https://www.rialtes.com/en/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
+        },
         "bannerAlt": "Female healthcare worker in blue scrubs and mask using tablet device in modern medical facility setting",
         "seoTitle": "Athenahealth Salesforce Integration: Elevate Patient Care | Rialtes",
         "seoDescription": "Integrating athenahealth with Salesforce is beneficial in many ways, providing a more comprehensive view of patient interactions and data across the healthcare journey.",
@@ -2372,33 +2363,33 @@
         "findDesc4": ", is dedicated to utilizing the complete potential of Salesforce by providing exceptional user experiences to our clients."
     },
     "successFactorPerformance": {
-        "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/en/insights/blogs/sap-successfactors-performance-and-goal-management/"
-  },
-  "headline": "SAP SuccessFactors Performance and Goal Management",
-  "description": "Learn how SAP SuccessFactors empowers organizations to streamline performance reviews, align individual goals, and boost workforce productivity.",
-  "image": "https://www.rialtes.com/images/blog/target-goal-setting-precision-business-concept.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-10-29",
-  "articleSection": "SAP HCM",
-  "url": "https://www.rialtes.com/en/insights/blogs/sap-successfactors-performance-and-goal-management/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/sap-successfactors-performance-and-goal-management/"
+            },
+            "headline": "SAP SuccessFactors Performance and Goal Management",
+            "description": "Learn how SAP SuccessFactors empowers organizations to streamline performance reviews, align individual goals, and boost workforce productivity.",
+            "image": "https://www.rialtes.com/images/blog/target-goal-setting-precision-business-concept.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-10-29",
+            "articleSection": "SAP HCM",
+            "url": "https://www.rialtes.com/en/insights/blogs/sap-successfactors-performance-and-goal-management/"
+        },
         "bannerAlt": "Hand drawing target circle with pen on light blue surface representing goal setting and precision concept",
         "seoTitle": "SuccessFactors Performance Management & Goal Management Tips | Rialtes",
         "seoDescription": "SuccessFactors performance management and goal management boost employee engagement and strategic alignment. Contact us today for expert guidance and support!",
@@ -2500,96 +2491,92 @@
         "empowerLink": "expert SAP SuccessFactors consultants"
     },
     "agentCopilot": {
-         "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/en/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
-  },
-  "headline":
-    "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-  "description":
-    "Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
-  "image":
-    "https://www.rialtes.com/images/blog/abstract-data-flow-visualization-digital.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-10-28",
-  "dateModified": "2025-07-25",
-  "articleSection": "AI Automation",
-  "url": "https://www.rialtes.com/en/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What’s the difference between bots, copilots, and agents?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Bots follow simple rules to perform tasks. Copilots offer contextual help and suggestions, often requiring user input. Agents act independently, make decisions, and can operate across systems autonomously. Think of bots as basic responders, copilots as smart assistants, and agents as decision-makers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is an example of a bot?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A chatbot that answers questions like 'What is your return policy?' on an e-commerce website is a good example of a bot. It follows scripted responses and doesn’t adapt to complex queries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does an AI agent do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An AI agent can understand tasks, make decisions, and execute actions without constant human intervention. In manufacturing, for example, an agent can predict delays and reschedule workflows automatically."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Copilot better than chatbot?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. A copilot provides intelligent suggestions based on context and user behavior, whereas a chatbot sticks to predefined scripts. Copilots are more dynamic and user-focused than basic bots."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which AI tool is more powerful: agent or copilot?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Agents are more powerful. While copilots assist users by providing recommendations, AI agents go further—they make decisions, adapt, and act autonomously across processes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which AI should I use for customer support in manufacturing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI agents are best for manufacturing customer service. They handle complex queries, integrate with enterprise systems, and resolve issues faster than traditional bots or copilots."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can AI agents fully replace humans in operations?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. AI agents are ideal for automating repetitive and data-driven tasks, but human-AI collaboration is still essential for strategic decisions, creativity, and empathy-driven customer service."
-      }
-    }
-  ]
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
+            },
+            "headline": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
+            "description": "Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
+            "image": "https://www.rialtes.com/images/blog/abstract-data-flow-visualization-digital.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-10-28",
+            "dateModified": "2025-07-25",
+            "articleSection": "AI Automation",
+            "url": "https://www.rialtes.com/en/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What’s the difference between bots, copilots, and agents?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Bots follow simple rules to perform tasks. Copilots offer contextual help and suggestions, often requiring user input. Agents act independently, make decisions, and can operate across systems autonomously. Think of bots as basic responders, copilots as smart assistants, and agents as decision-makers."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is an example of a bot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "A chatbot that answers questions like 'What is your return policy?' on an e-commerce website is a good example of a bot. It follows scripted responses and doesn’t adapt to complex queries."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What does an AI agent do?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "An AI agent can understand tasks, make decisions, and execute actions without constant human intervention. In manufacturing, for example, an agent can predict delays and reschedule workflows automatically."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is Copilot better than chatbot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. A copilot provides intelligent suggestions based on context and user behavior, whereas a chatbot sticks to predefined scripts. Copilots are more dynamic and user-focused than basic bots."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which AI tool is more powerful: agent or copilot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Agents are more powerful. While copilots assist users by providing recommendations, AI agents go further—they make decisions, adapt, and act autonomously across processes."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which AI should I use for customer support in manufacturing?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "AI agents are best for manufacturing customer service. They handle complex queries, integrate with enterprise systems, and resolve issues faster than traditional bots or copilots."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can AI agents fully replace humans in operations?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "No. AI agents are ideal for automating repetitive and data-driven tasks, but human-AI collaboration is still essential for strategic decisions, creativity, and empathy-driven customer service."
+                    }
+                }
+            ]
+        },
         "chartAlt": "Automation comparison chart with green foliage border showing bots, copilots, and AI agents features matrix",
         "quotationAlt": "Blue quotation marks icon on white background for testimonial or quote section design element",
         "agentBannerAlt": "Vibrant abstract data flow visualization with colorful waves and particles representing digital transformation analytics",
@@ -2860,86 +2847,85 @@
         ]
     },
     "brainBehind": {
-    "schemaData" : {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "Why Is the Atlas Reasoning Engine the Brain of Agentforce? | Rialtes",
-    "description": "The Atlas Reasoning Engine acts as the intelligent brain of Agentforce, enabling agents to understand goals, reason through decisions, and deliver smarter support.",
-    "image": "https://www.rialtes.com/images/blogs/digital-brain-ai-circuit-technology-illustration.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "Rialtes"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Rialtes",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.rialtes.com/images/homepage/logo.svg"
-      }
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.rialtes.com/en/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"
-    },
-    "datePublished": "2024-10-21",
-    "dateModified": "2025-11-19",
-    "mainEntity": {
-      "@type": "FAQPage",
-      "name": "Atlas Reasoning Engine in Agentforce FAQs",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the Atlas Reasoning Engine in Agentforce?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Atlas Reasoning Engine is the decision-making core inside Salesforce Agentforce that helps AI agents understand user goals, reason through complex situations, and choose the right next action autonomously."
-          }
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Why Is the Atlas Reasoning Engine the Brain of Agentforce? | Rialtes",
+            "description": "The Atlas Reasoning Engine acts as the intelligent brain of Agentforce, enabling agents to understand goals, reason through decisions, and deliver smarter support.",
+            "image": "https://www.rialtes.com/images/blogs/digital-brain-ai-circuit-technology-illustration.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"
+            },
+            "datePublished": "2024-10-21",
+            "dateModified": "2025-11-19",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Atlas Reasoning Engine in Agentforce FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is the Atlas Reasoning Engine in Agentforce?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The Atlas Reasoning Engine is the decision-making core inside Salesforce Agentforce that helps AI agents understand user goals, reason through complex situations, and choose the right next action autonomously."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does the Atlas Reasoning Engine work?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "It follows a reasoning cycle that includes goal understanding, plan formulation, context gathering loops, action selection, and execution across channels—allowing agents to think and adapt dynamically."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why is the Atlas Reasoning Engine the ‘brain’ of Agentforce?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Atlas acts as the intelligence layer that interprets context, evaluates options, learns from history, and drives autonomous decisions, making it function like the brain behind Salesforce Agentforce."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How is Atlas different from traditional Salesforce automation?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Unlike rigid workflows, Atlas uses goal-driven reasoning. When new information appears or situations change, it adapts instantly instead of breaking or escalating unnecessarily."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can Atlas work across multiple Salesforce clouds?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, Atlas works across Sales Cloud, Service Cloud, and even external platforms to help agents take consistent and context-aware actions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does Atlas improve customer service?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "By helping agents reason, analyze context, fill in gaps, and execute decisions rapidly, Atlas enables faster resolution times, more accurate actions, and highly personalized support experiences."
+                        }
+                    }
+                ]
+            }
         },
-        {
-          "@type": "Question",
-          "name": "How does the Atlas Reasoning Engine work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It follows a reasoning cycle that includes goal understanding, plan formulation, context gathering loops, action selection, and execution across channels—allowing agents to think and adapt dynamically."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is the Atlas Reasoning Engine the ‘brain’ of Agentforce?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Atlas acts as the intelligence layer that interprets context, evaluates options, learns from history, and drives autonomous decisions, making it function like the brain behind Salesforce Agentforce."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Atlas different from traditional Salesforce automation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Unlike rigid workflows, Atlas uses goal-driven reasoning. When new information appears or situations change, it adapts instantly instead of breaking or escalating unnecessarily."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Atlas work across multiple Salesforce clouds?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, Atlas works across Sales Cloud, Service Cloud, and even external platforms to help agents take consistent and context-aware actions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Atlas improve customer service?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "By helping agents reason, analyze context, fill in gaps, and execute decisions rapidly, Atlas enables faster resolution times, more accurate actions, and highly personalized support experiences."
-          }
-        }
-      ]
-    }
-  },
-
         "bannerAlt": "Digital brain circuit illustration with glowing connections on dark blue tech background showing AI concept",
         "seoTitle": "Why Is the Atlas Reasoning Engine the Brain of Agentforce?",
         "seoDescription": "The Atlas Reasoning Engine is an AI system built into Agentforce that helps agents analyze complex situations, reason through them, and choose their next step.",
@@ -3123,36 +3109,33 @@
         ]
     },
     "howSalesforceAgentforceWorks": {
-        "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/en/insights/blogs/how-salesforce-agentforce-actually-works/"
-  },
-  "headline": "How Salesforce Agentforce Actually Works",
-  "description":
-    "Explore how Salesforce Agentforce automates customer engagement using AI agents, enhancing decision-making and operational efficiency.",
-  "image":
-    "https://www.rialtes.com/images/blog/futuristic-robot-ai-digital-interface-technology.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-09-30",
-  "articleSection": "Salesforce",
-  "url": "https://www.rialtes.com/en/insights/blogs/how-salesforce-agentforce-actually-works/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/how-salesforce-agentforce-actually-works/"
+            },
+            "headline": "How Salesforce Agentforce Actually Works",
+            "description": "Explore how Salesforce Agentforce automates customer engagement using AI agents, enhancing decision-making and operational efficiency.",
+            "image": "https://www.rialtes.com/images/blog/futuristic-robot-ai-digital-interface-technology.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-09-30",
+            "articleSection": "Salesforce",
+            "url": "https://www.rialtes.com/en/insights/blogs/how-salesforce-agentforce-actually-works/"
+        },
         "bannerAlt": "Futuristic white robot with glowing blue eyes and pink lighting displaying digital interface screens",
         "seoTitle": "How Does Salesforce Agentforce Work? | Rialtes",
         "seoDescription": "Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!",
@@ -3215,37 +3198,33 @@
         "gettingDesc3": "and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance their business processes."
     },
     "agriculture": {
-        "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/en/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
-  },
-  "headline":
-    "Agriculture 4.0: How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-  "description":
-    "Explore how Agriculture 4.0 and platforms like Salesforce are revolutionizing modern farming with AI, automation, and real-time data-driven insights.",
-  "image":
-    "https://www.rialtes.com/images/blog/professional-drone-camera-aerial-agriculture-monitoring.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-09-17",
-  "articleSection": "Salesforce for Agriculture",
-  "url": "https://www.rialtes.com/en/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
+            },
+            "headline": "Agriculture 4.0: How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+            "description": "Explore how Agriculture 4.0 and platforms like Salesforce are revolutionizing modern farming with AI, automation, and real-time data-driven insights.",
+            "image": "https://www.rialtes.com/images/blog/professional-drone-camera-aerial-agriculture-monitoring.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-09-17",
+            "articleSection": "Salesforce for Agriculture",
+            "url": "https://www.rialtes.com/en/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
+        },
         "bannerAlt": "Professional drone with camera hovering over green agricultural field for aerial photography and monitoring",
         "blogTopic": "Others",
         "seoTitle": "Salesforce for Agriculture: Digital Farming Revolution | Rialtes",
@@ -7017,6 +6996,84 @@
         "seoTitle": "Conversational AI in Real Estate: Scale Support Efficiently | Rialtes",
         "seoDescription": "In real estate, conversational AI assistants handle tenant queries day and night, ensuring immediate responses and reducing after-hours workload.",
         "bannerAlt": "Digital illustration of person interacting with virtual chatbot interface representing conversational AI in real estate",
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
+            "description": "Discover how conversational AI helps property management teams scale resident support without adding staff. Learn how AI chatbots and voice assistants handle tenant interactions, reduce tickets, and improve satisfaction in real estate operations.",
+            "image": "https://www.rialtes.com/images/blog/conversational-ai-in-real-estate.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": " https://www.rialtes.com/en/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/"
+            },
+            "datePublished": "2025-10-20",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Conversational AI in Real Estate FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is conversational AI in property management?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Conversational AI in property management uses intelligent chatbots and virtual assistants to manage resident interactions like rent inquiries, maintenance requests, and lease renewals through natural, human-like conversations integrated with backend systems."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can chatbots really handle complex resident requests?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. Modern conversational AI platforms go beyond simple rule-based bots. They use NLP and ML to interpret intent, access multiple data sources, and trigger workflows like maintenance updates or billing notifications automatically."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does conversational AI reduce support tickets in real estate?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "AI reduces repetitive support tickets by instantly resolving common queries such as rent payments, maintenance scheduling, or amenity access. Many property firms see a 30–40% drop in ticket volume after implementing AI-driven automation."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What’s the ROI of using conversational AI for property management?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Conversational AI delivers ROI through lower operational costs, faster issue resolution, and improved resident satisfaction. Property managers typically save up to 25% in customer service costs while increasing tenant retention."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is conversational AI secure enough for resident communication?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. Enterprise-grade conversational AI systems comply with standards like GDPR and SOC 2, encrypt data, anonymize sensitive information, and enforce access controls to ensure secure and private resident communication."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How can a property company get started with conversational AI?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Start by identifying high-volume repetitive interactions like rent confirmations or maintenance tracking. Then implement a platform such as Exelona, which offers AI-enabled property operations, CRM + ERP integration, and conversational AI capabilities built for real estate."
+                        }
+                    }
+                ]
+            }
+        },
         "mainData": [
             "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries, amenity bookings, and move-in/move-out coordination, teams often stretch themselves thin. The problem isn’t that property managers don’t care; resident expectations have changed.",
             "They expect fast, friendly, 24/7 support.",
@@ -7228,6 +7285,84 @@
         "seoTitle": "Unified ERP & CRM for Real Estate: Cut Costs by 35% | Rialtes",
         "seoDescription": "Unified ERP & CRM platforms help real estate enterprises cut system costs by up to 35% while improving cross-department visibility and efficiency.",
         "bannerAlt": "Miniature city model with cloud icons and lights showing smart city cloud computing infrastructure and digital connectivity",
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "CRM + ERP Convergence: How Real Estate Leaders Break System Silos and Cut Costs",
+            "description": "Discover how real estate leaders are breaking system silos and cutting costs through CRM + ERP convergence. Learn how unified systems improve visibility, reduce IT overhead, and transform property management with AI-driven operations.",
+            "image": "https://www.rialtes.com/images/blog/crm-erp-convergence-for-real-estate.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/"
+            },
+            "datePublished": "2025-11-03",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "CRM + ERP Convergence in Real Estate FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is CRM and ERP convergence in real estate?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "CRM and ERP convergence integrates customer, financial, and operational workflows into a single platform, enabling property teams to manage leasing, billing, and maintenance without juggling multiple systems."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How can I consolidate my systems like Yardi or MRI?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "You can integrate or migrate systems like Yardi, MRI, or Oracle into a unified solution such as Exelona, which connects data across legacy and modern tools using scalable APIs."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the biggest benefits of CRM + ERP convergence?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Convergence improves data accuracy, reduces operational costs, and provides real-time visibility. It enhances tenant satisfaction with faster service, unified billing, and transparent communication."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does AI help unify property management systems?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "AI cleans, connects, and analyzes data across CRM and ERP modules, enabling predictive maintenance, automated billing, and precise budgeting through real-time insights."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What is the ROI of consolidating property systems?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Enterprises typically achieve 20–35% savings in IT and operations costs, along with measurable gains in SLA compliance, faster reporting, and improved decision-making."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why is Exelona the right platform for convergence?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Exelona is purpose-built for real estate enterprises. It unifies CRM and ERP capabilities with automation, analytics, and scalability—helping property leaders eliminate silos and accelerate growth."
+                        }
+                    }
+                ]
+            }
+        },
         "mainData": [
             "Here’s something every property leader already knows but rarely says out loud: the technology stack that was meant to simplify operations has ended up complicating it.",
             "Most real estate enterprises today run on a patchwork of systems: Yardi for property management, Oracle or SAP for finance, MRI for analytics, Salesforce for CRM, and Excel for everything else. Each system excels in its lane, but together, they form a fragmented ecosystem where data duplication, integration costs, and reporting chaos are the norm. It causes delayed decision-making, inflated Opex, and teams that spend more time reconciling spreadsheets than managing properties.",
@@ -7894,6 +8029,84 @@
         "blogTopic": "Exelona",
         "slasPara1": "A service-level agreement (SLA) outlines the expected level of service from a vendor. It specifies the metrics used to measure that service and the remedies available if the agreed-upon service levels are not met. The SLA is a vital part of any contract with a technology vendor.",
         "slasTitle2": "Driving Data-Driven Operational Efficiency in Real Estate with AI Dashboards and Predictive Insights",
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "How Do You Track SLAs and Billing Without Losing Your Mind?",
+            "description": "Discover how AI dashboards are transforming real estate operations by automating SLA tracking, billing accuracy, and vendor performance monitoring. Learn how data-driven operational efficiency helps property teams improve visibility, prevent errors, and drive measurable ROI.",
+            "image": "https://www.rialtes.com/images/blog/ai-sla-billing-efficiency.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/tracking-service-level-agreements-without-losing-mind/"
+            },
+            "datePublished": "2025-10-27",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Data-Driven Operational Efficiency in Real Estate FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "How can I monitor SLA performance in property operations?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "You can monitor SLA performance using AI dashboards that track vendor response times, work order completion rates, and compliance metrics in real time. Platforms like Exelona automate alerts when SLAs are at risk of being breached."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What is data-driven operational efficiency in real estate?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Data-driven operational efficiency means using AI and analytics to optimize property operations — from SLA tracking to billing and maintenance — based on real-time insights instead of manual monitoring."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can AI dashboards help with billing and maintenance tracking?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. AI dashboards automatically match invoices with work orders, flag anomalies, and display maintenance costs, making billing faster, more transparent, and accurate across multiple vendors."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does predictive maintenance improve real estate operations?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Predictive maintenance helps property managers anticipate equipment failures and schedule timely service before issues occur, reducing downtime and unnecessary expenses."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What’s the ROI of adopting AI dashboards for property management?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Real estate firms typically report up to 40% fewer SLA violations, 25% lower maintenance costs, and faster billing cycles within the first year of implementing AI-powered operational dashboards."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What features should I look for in an operational analytics platform?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Look for real-time SLA tracking, billing automation, predictive alerts, and vendor performance insights. Platforms like Exelona bring all of these together in one cohesive dashboard."
+                        }
+                    }
+                ]
+            }
+        },
         "dataDriven": [
             "Keeping property operations smooth is no small feat. Between tracking service-level agreements (SLAs), managing vendor payments, and keeping maintenance bills in check, operations teams often find themselves buried in spreadsheets and email threads.",
             "Here’s the thing: as portfolios grow and service expectations rise, traditional tracking methods can’t keep up. That’s where you need data-driven operational efficiency in real estate. With AI-enabled dashboards, automated billing, and predictive insights, property managers can monitor everything from SLA compliance to maintenance costs, all in real time. Let’s unpack how the industry is shifting gears and why this transformation is long overdue."
@@ -8062,6 +8275,84 @@
         "para3": "We’ll break down what this really means for real estate businesses and how platforms like Exelona are helping leaders finally bring all their data and decisions together.",
         "para4": "Now, here’s what happens when they switch to a unified SSOT platform like Exelona:",
         "faqTitle": "FAQs: Single Source of Truth in Real Estate",
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "From Lead to Lease: Why Real Estate Needs a Single Source of Truth | Rialtes",
+            "description": "Learn how a Single Source of Truth (SSOT) unifies CRM and ERP to eliminate data silos across leasing, finance, and operations—speeding reporting, improving compliance, and enabling AI-driven decisions for property management.",
+            "image": "https://www.rialtes.com/images/blog/single-source-of-truth-real-estate-lead-to-lease.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://rialtes.netlify.app/en/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/"
+            },
+            "datePublished": "2025-11-04",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Single Source of Truth (SSOT) in Real Estate — FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What does ‘single source of truth’ mean in real estate operations?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "It means using one centralized system that connects leasing, finance, and operational data so every team works from the same verified, real-time information instead of multiple conflicting copies."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does CRM + ERP convergence improve efficiency?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "By integrating lead management, leasing, billing, and reporting, convergence eliminates duplicate data entry and manual reconciliations. Lease details flow into billing automatically, operations see occupancy and service needs instantly, and finance receives real-time payment updates."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why do property managers need a single source of truth?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Fragmented systems slow decisions, create errors, and hide insights. SSOT ensures consistent, traceable records across departments, improving tenant experience and reducing revenue leakage from missed billing or delays."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can AI help maintain a single source of truth in real estate?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. AI detects inconsistencies between lease and billing data, flags duplicates, forecasts maintenance costs, and automates validation—keeping records accurate and enabling proactive decision-making."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does centralizing leasing and finance data improve reporting?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Unified data enables instant, accurate, audit-ready reporting without manual consolidation, significantly reducing compliance and month-end reporting cycles."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What makes Exelona different from other property management tools?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Exelona unifies CRM and ERP for real estate, centralizing leases, tenants, and payments; embedding AI-driven operations and predictive maintenance; integrating with platforms like Yardi or Oracle; and providing mobile-first experiences and automated, audit-ready insights."
+                        }
+                    }
+                ]
+            }
+        },
         "whatASingleSourceData": [
             {
                 "title": "What a Single Source of Truth Actually Means in Real Estate",
@@ -8278,6 +8569,84 @@
         "mainTitle": "5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
         "enableTitle": "What open APIs enable:",
         "faq": "FAQs: Open API Integrations for Every Real Estate Firm Needs",
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "5 Essential API Integrations for Real Estate Firms to Accelerate Growth | Rialtes",
+            "description": "Discover how open API integrations eliminate data silos and connect CRM, ERP, finance, and property management systems to enable unified operations, real-time reporting, and scalable growth for real estate firms.",
+            "image": "https://www.rialtes.com/images/blog/digital-puzzle-technology-integration.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/smart-api-integrations-for-real-estate-2026/"
+            },
+            "datePublished": "2025-10-31",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Open API Integrations for Real Estate — FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is an open API in real estate management?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "An open API allows different property systems — like CRM, ERP, and finance tools — to securely exchange data, enabling unified operations and real-time updates."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why is API integration important for real estate companies?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "It helps eliminate data silos, automate processes, and improve decision-making by synchronizing information across leasing, finance, and maintenance teams."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can open APIs integrate legacy systems like Yardi or MRI?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. Open APIs can bridge legacy platforms with modern CRMs and ERPs, allowing seamless data sharing without replacing existing systems."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are examples of open API integrations in real estate?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Common examples include connecting Salesforce CRM with SAP ERP, integrating IoT maintenance tools, or linking tenant apps to communication platforms like WhatsApp."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do open APIs reduce operational costs?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "They eliminate manual data entry, reduce reconciliation errors, and enable automation, saving both time and resources across departments."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does Exelona support open API integrations?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Exelona's open API architecture connects CRM, ERP, finance, IoT, and analytics systems into one platform, providing a single, scalable foundation for unified real estate operations."
+                        }
+                    }
+                ]
+            }
+        },
         "blogMainData": [
             "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. Teams waste hours chasing updates, finance struggles to reconcile data, and executives get reports that are outdated by the time they’re printed.",
             "Here’s the fix: Open API integrations.",
@@ -8467,6 +8836,94 @@
         ]
     },
     "whyEnterprises": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Why Leading Enterprises Choose Top SAP Consulting Partners for Growth and Innovation | Rialtes",
+            "description": "Discover how top SAP consulting partners turn complexity into clarity, align SAP strategy with business goals, deliver customized development, and drive measurable ROI through best-practice implementations and continuous optimization.",
+            "image": "https://www.rialtes.com/images/blog/digital-transformation-journey-ai.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/why-enterprises-choose-sap-consulting-partners/"
+            },
+            "datePublished": "2025-11-10",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Choose Top SAP Consulting Partners for Growth and Innovation — FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What do SAP consulting partners do for large enterprises?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "SAP consulting partners help design, implement, and optimize SAP solutions mapped to business goals. They assess current systems, build an implementation roadmap, integrate platforms like SAP S/4HANA, and provide ongoing support to ensure long-term ROI."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do top SAP implementation partners ensure project success?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "They use proven frameworks and agile delivery with KPI-based planning. This covers discovery, data migration, integrations, compliance, change management, user training, and post–go-live optimization to ensure measurable outcomes."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why should enterprises work with SAP consulting partners instead of managing in-house?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Certified partners bring deep product expertise and cross-industry experience, reducing risk and time-to-value. Their structured methodologies and accelerators help avoid costly trial-and-error common with purely in-house approaches."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the key benefits of customized SAP development solutions?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Customization tailors SAP to unique workflows, improves automation, and enables capabilities like AI-driven analytics, mobile access, and IoT integrations—turning SAP into a growth engine aligned to your operating model."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do SAP consulting partners help maximize ROI after implementation?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "They provide continuous improvement—monitoring performance, fine-tuning processes, upgrading features, and aligning dashboards and KPIs with evolving goals—so adoption stays high and ROI compounds over time."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose Rialtes as your SAP consulting partner?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Rialtes combines deep domain expertise with an innovation-first, people-centric approach. We align SAP strategy to business outcomes, deliver industry-specific solutions, and support continuous optimization to drive measurable, long-term growth."
+                        }
+                    }
+                ]
+            },
+            "keywords": [
+                "SAP consulting partners",
+                "SAP implementation partners",
+                "SAP S/4HANA",
+                "enterprise digital transformation",
+                "custom SAP development",
+                "SAP ROI",
+                "Rialtes"
+            ],
+            "articleSection": "Enterprise Transformation"
+        },
         "faqs": [
             {
                 "question": "What do SAP consulting partners do for large enterprises?",
@@ -8634,6 +9091,84 @@
             "According to McKinsey, nearly 55% of large ERP implementations either exceed budgets or fail to deliver expected ROI. The culprit? A lack of strategic alignment and inadequate change management. SAP implementation isn’t a plug-and-play exercise; it demands a roadmap that balances technology, business goals, and people.",
             "This is where expert SAP consultants and value-driven implementation partners play a defining role. They don’t just configure modules; they translate enterprise vision into scalable architecture. Let’s break down how you can build a strategy that minimizes risk and delivers measurable value."
         ],
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Proven SAP Implementation Strategies that Minimize Risk and Accelerate ROI | Rialtes",
+            "description": "Discover proven SAP implementation strategies that reduce risk, ensure faster ROI, and align technology with business goals. Learn how expert SAP consultants and value-driven partnerships enable seamless integration, user adoption, and measurable business outcomes.",
+            "image": "https://www.rialtes.com/images/blogs/futuristic-data-analytics-visualization.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/sap-implementation-strategies-for-2026-success/"
+            },
+            "datePublished": "2025-11-11",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "SAP Implementation Strategies to Minimize Risk FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What are the key steps in a successful SAP implementation process?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "A successful SAP implementation includes discovery, design, configuration, testing, go-live, and continuous optimization. Each step should align with business goals and be guided by experienced SAP consultants to ensure smooth execution and maximum ROI."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do SAP implementation partners minimize project risk?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Top SAP partners use proven methodologies such as SAP Activate, agile frameworks, and structured governance models. These approaches enable early risk identification, clear milestones, and controlled delivery within time and budget."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What makes Rialtes a trusted SAP implementation partner for enterprises?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Rialtes combines deep SAP expertise with industry-specific knowledge to deliver value-driven implementations. With experience across S/4HANA, SuccessFactors, and Analytics Cloud, Rialtes ensures every project aligns with strategic enterprise outcomes."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How long does an SAP implementation usually take?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The typical SAP implementation takes between 6 and 18 months, depending on project scope, data complexity, and the level of customization required. This timeline includes discovery, migration, testing, and training phases."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the biggest ROI drivers after SAP go-live?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Post-launch ROI is driven by automation, real-time analytics, process efficiency, and continuous system optimization. Enterprises that align SAP with strategic KPIs often achieve faster decision-making and long-term scalability."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How can working with expert SAP consultants improve business outcomes?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Expert SAP consultants ensure that every module is tailored to your business processes. Their industry experience helps achieve compliance, increase user adoption, and drive measurable improvements across finance, operations, and supply chain."
+                        }
+                    }
+                ]
+            }
+        },
         "howAiImprovesData": [
             {
                 "title": "Understanding the Real Challenges in SAP Implementation",
@@ -8816,6 +9351,84 @@
         "seoDescription": "Our SAP consulting and implementation services are designed to help you reimagine operations, enhance agility, and unlock new growth potential.",
         "blogTopic": "Integration",
         "sapIntegrationTitle": "Boost Enterprise Agility with Tailored SAP Consulting and Implementation Services",
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Boost Enterprise Agility with Tailored SAP Consulting and Implementation Services | Rialtes",
+            "description": "Custom SAP consulting and implementation services enable businesses to go beyond configuration and achieve true operational transformation.",
+            "image": "https://www.rialtes.com/images/blogs/digital-network-touch-data-connection-visualization.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/"
+            },
+            "datePublished": "2025-11-12",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Tailored SAP Development and Integration Services FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What are custom SAP development services?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Custom SAP development services involve designing and building tailored solutions within the SAP ecosystem to address unique enterprise needs. This includes workflow customization, module extensions, and integrations for improved efficiency."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why is SAP consulting important for large enterprises?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "SAP consulting helps enterprises align technology investments with business goals. It ensures optimized implementation, process efficiency, and scalability while reducing risks and costs."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do SAP implementation strategies impact ROI?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Effective SAP implementation strategies, like agile rollouts and integration-led models, shorten deployment timelines, reduce rework, and deliver measurable ROI faster."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What’s the difference between standard and custom SAP solutions?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Standard SAP solutions offer preconfigured capabilities, while custom solutions are adapted to fit specific workflows, industry needs, and business objectives for greater agility."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How can working with top SAP partners benefit my business?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Top SAP partners bring deep domain expertise, proven methodologies, and technology insight to help you achieve enterprise transformation with lower risk and faster returns."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose Rialtes for SAP consulting and implementation?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Rialtes combines innovation, experience, and strategic vision to deliver SAP solutions that are scalable, industry-focused, and built for sustainable enterprise growth."
+                        }
+                    }
+                ]
+            }
+        },
         "sapDevelopmentIntegration": [
             "Today,  adaptability defines survival; custom SAP development has become a core driver of enterprise agility and growth. Off-the-shelf solutions often meet immediate needs, but fall short when scaling, integrating with legacy systems, or optimizing for unique business models. That’s where custom SAP consulting and implementation services are needed, enabling businesses to go beyond configuration and achieve true operational transformation.",
             "Let’s see how custom SAP development reshapes enterprise operations, supports strategic agility, and drives measurable efficiency across industries."
@@ -8987,6 +9600,100 @@
         "bannerAlt": "Business hand touching glowing digital network with radiating light beams and data particles on dark background"
     },
     "aiClinical": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "5 Proven Ways AI Accelerates Patient Enrolment in Rare Disease Clinical Trials",
+            "description": "This post explains five proven ways AI accelerates patient enrolment in rare disease clinical trials — from automated recruitment and clinical automation to digital enrolment, precision matching, and AI-driven engagement. It also highlights how MediAIna, Rialtes’ digital patient journey platform, is redefining clinical research.",
+            "image": "https://www.rialtes.com/images/blogs/digital-touchscreen-technology.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/"
+            },
+            "datePublished": "2025-11-20",
+            "articleSection": [
+                "Clinical Trials",
+                "AI in Healthcare",
+                "Rare Disease",
+                "Digital Patient Journeys"
+            ],
+            "keywords": "AI in clinical trials, rare disease enrolment, patient recruitment, digital enrolment, MediAIna, clinical trial automation",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Improve Patient Enrolment in Rare Disease Clinical Trials using AI - FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "How does AI improve patient enrolment in rare disease clinical trials?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "AI makes it easier to identify and match eligible patients by analyzing large datasets from electronic health records, genetic information, and patient registries. This speeds up rare disease patient recruitment and reduces trial delays."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What role does AI play in digital trial enrolment?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "With digital trial enrolment, AI streamlines onboarding through automated eligibility screening, remote consent, and virtual touchpoints. This reduces paperwork and makes participation easier for patients, especially those in remote or underserved regions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why is patient recruitment for rare disease studies so challenging?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Rare diseases affect small, dispersed populations, making it hard to locate eligible participants. Strict criteria and geographic limitations add complexity, which is why AI-driven patient recruitment strategies are critical for improving efficiency."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does AI ensure trial efficiency and reduce costs?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "AI-powered clinical trial automation accelerates enrolment, monitors patient data in real time, and predicts potential dropouts. This lowers administrative costs while improving trial outcomes."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can AI help with long-term patient engagement in rare disease trials?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. Beyond enrolment, AI healthcare solutions keep patients engaged through personalized communication, reminders, and remote monitoring, ensuring they remain active participants throughout the trial."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What is the role of machine learning in trials?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Machine learning in trials enables predictive analytics, identifying patients who are most likely to qualify and remain compliant. It also helps researchers adapt protocols in real time to maximize trial success."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does MediAIna support digital enrolment for rare disease studies?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "MediAIna, Rialtes’ patient journey platform, simplifies digital enrolment for rare disease studies by integrating AI, automation, and compliance features. It enables smarter recruitment, continuous engagement, and human-centered digital patient journeys for life sciences organizations."
+                        }
+                    }
+                ]
+            }
+        },
         "mainData": [
             "Clinical trials are the lifeblood of medical innovation, especially when it comes to rare diseases. Yet, one of the biggest hurdles in developing new therapies isn’t the science; it’s finding, enrolling, and retaining the right patients. This challenge becomes even more daunting for rare diseases, where eligible participants may number in the hundreds worldwide.",
             "This is where AI in clinical trials is proving to be a game-changer. By automating recruitment, improving digital enrolment, and personalizing engagement, AI is helping Pharma and MedTech organizations cut through bottlenecks that have stalled progress for decades.As digital tools evolve, they’re also becoming central to <span>preventing clinical trial dropouts with digital tools</span>, ensuring patient retention matches patient acquisition.",

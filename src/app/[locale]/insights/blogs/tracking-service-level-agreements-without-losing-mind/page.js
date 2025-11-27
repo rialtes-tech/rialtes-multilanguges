@@ -19,85 +19,8 @@ export default function Page() {
     const t = useTranslations('slasBilling')
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { dataDriven, propertyOpsSection, gutDriven, trackingDilemmaSection, smarterBilling, smartDashboardSection, dashboardStats, mostFirms, faqs } = blogsContent.slasBilling;
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "How Do You Track SLAs and Billing Without Losing Your Mind?",
-        "description": "Discover how AI dashboards are transforming real estate operations by automating SLA tracking, billing accuracy, and vendor performance monitoring. Learn how data-driven operational efficiency helps property teams improve visibility, prevent errors, and drive measurable ROI.",
-        "image": "https://www.rialtes.com/images/blog/ai-sla-billing-efficiency.webp",
-        "author": {
-            "@type": "Organization",
-            "name": "Rialtes"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-            }
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind/"
-        },
-        "datePublished": "2025-10-27",
-        "mainEntity": {
-            "@type": "FAQPage",
-            "name": "Data-Driven Operational Efficiency in Real Estate FAQs",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "How can I monitor SLA performance in property operations?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "You can monitor SLA performance using AI dashboards that track vendor response times, work order completion rates, and compliance metrics in real time. Platforms like Exelona automate alerts when SLAs are at risk of being breached."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What is data-driven operational efficiency in real estate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Data-driven operational efficiency means using AI and analytics to optimize property operations — from SLA tracking to billing and maintenance — based on real-time insights instead of manual monitoring."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Can AI dashboards help with billing and maintenance tracking?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes. AI dashboards automatically match invoices with work orders, flag anomalies, and display maintenance costs, making billing faster, more transparent, and accurate across multiple vendors."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How does predictive maintenance improve real estate operations?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Predictive maintenance helps property managers anticipate equipment failures and schedule timely service before issues occur, reducing downtime and unnecessary expenses."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What’s the ROI of adopting AI dashboards for property management?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Real estate firms typically report up to 40% fewer SLA violations, 25% lower maintenance costs, and faster billing cycles within the first year of implementing AI-powered operational dashboards."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What features should I look for in an operational analytics platform?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Look for real-time SLA tracking, billing automation, predictive alerts, and vendor performance insights. Platforms like Exelona bring all of these together in one cohesive dashboard."
-                    }
-                }
-            ]
-        }
-    }
+    const { dataDriven, propertyOpsSection, gutDriven, trackingDilemmaSection, smarterBilling, smartDashboardSection, dashboardStats, mostFirms, faqs, schemaData } = blogsContent.slasBilling;
+
 
     return (
         <section className="min-h-screen">

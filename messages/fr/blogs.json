@@ -362,6 +362,7 @@
         "seoTitle": "IA conversationnelle dans l’immobilier : optimisez le support efficacement | Rialtes",
         "seoDescription": "Dans l’immobilier, les assistants d’IA conversationnelle gèrent les demandes des locataires jour et nuit, garantissant des réponses immédiates et réduisant la charge de travail en dehors des heures de bureau.",
         "bannerAlt": "Illustration numérique de personne interagissant avec interface de chatbot virtuel représentant IA conversationnelle",
+        "schemaData": {},
         "mainData": [
             "Le support aux résidents dans la gestion immobilière devient de plus en plus difficile à étendre. Entre les demandes de maintenance, les questions sur les loyers, les réservations d’équipements et la coordination des emménagements/déménagements, les équipes sont souvent surchargées. Le problème n’est pas un manque d’attention des gestionnaires immobiliers ; ce sont les attentes des résidents qui ont évolué.",
             "Ils s’attendent à un support rapide, amical et disponible 24 h/24, 7 j/7.",
@@ -573,6 +574,7 @@
         "seoTitle": "ERP et CRM unifiés pour l’immobilier : réduisez les coûts de 35 % | Rialtes",
         "seoDescription": "Les plateformes ERP et CRM unifiées aident les entreprises immobilières à réduire les coûts système jusqu’à 35 %, tout en améliorant la visibilité et l’efficacité interservices.",
         "bannerAlt": "Modèle ville miniature avec icônes nuage et lumières montrant infrastructure cloud computing ville intelligente connexion",
+        "schemaData": {},
         "mainData": [
             "Voici quelque chose que tout dirigeant immobilier sait déjà mais dit rarement à voix haute : la pile technologique censée simplifier les opérations les a en réalité compliquées.",
             "La plupart des entreprises immobilières fonctionnent aujourd’hui avec un ensemble disparate de systèmes : Yardi pour la gestion des biens, Oracle ou SAP pour la finance, MRI pour l’analyse, Salesforce pour le CRM et Excel pour tout le reste. Chaque système excelle dans son domaine, mais ensemble, ils forment un écosystème fragmenté où la duplication des données, les coûts d’intégration et le chaos des rapports sont la norme. Cela entraîne des décisions retardées, une hausse des dépenses d’exploitation et des équipes qui passent plus de temps à rapprocher des feuilles Excel qu’à gérer leurs biens.",
@@ -2045,7 +2047,7 @@
         "collaborateDesc3": "sont basés sur des données fiables et exploitables, maximisant le potentiel de l’automatisation intelligente. Contactez-nous à"
     },
     "integrateSapSuccessFactor": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Motif abstrait de points demi-teinte bleu et orange créant design d'onde sur fond bleu marine",
         "seoTitle": "Intégrer SAP à Office 365 pour une meilleure collaboration RH",
         "seoDescription": "Découvrez comment l’intégration SAP-Office 365 simplifie les processus RH, automatise les tâches et favorise la collaboration.",
@@ -2179,7 +2181,7 @@
         "completeDesc4": "pour commencer avec l’un de nos consultants SAP SuccessFactors experts !"
     },
     "enhancingCompliance": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Carte mondiale 3D avec lignes de connexion illuminées montrant connectivité réseau mondial et flux de données",
         "seoTitle": "SAP GTS : liste des parties sanctionnées et conformité | Rialtes",
         "seoDescription": "Réduisez les risques grâce au filtrage SAP et évitez les relations interdites. Restez conforme et évitez les sanctions légales.",
@@ -2278,7 +2280,7 @@
         "complyDesc3": "doté d’une solide expertise en gestion du commerce mondial et des risques, nous aidons les entreprises à gérer ces processus efficacement, en offrant une valeur et un retour sur investissement optimaux. Nos consultants SAP expérimentés possèdent les compétences nécessaires pour répondre à vos besoins critiques tout en formant vos équipes internes pour une amélioration continue et une innovation durable."
     },
     "agentforceTesting": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Engrenages numériques bleus et nœuds réseau représentant automatisation industrielle et technologie blockchain",
         "seoTitle": "Agentforce Testing Center : testez vos agents IA avant production",
         "seoDescription": "Testez vos agents IA grâce à la suite Agentforce avant leur déploiement en production et assurez leur efficacité.",
@@ -2342,7 +2344,7 @@
         "whyDesc4": "ou besoin d’aide pour démarrer ? Nous sommes là pour vous aider. Chez Rialtes, nous sommes spécialisés dans les tests IA et , et nous avons aidé des clients à obtenir des gains de productivité significatifs en exploitant les outils IA pour rationaliser leurs processus métier."
     },
     "successfactorSupportsDiversity": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Pièces de puzzle colorées avec icônes de diversité montrant personnes et symboles fauteuil roulant inclusion",
         "seoTitle": "Diversité et inclusion avec SuccessFactors : vers l’équité au travail | Rialtes",
         "seoDescription": "Découvrez comment SuccessFactors favorise le recrutement équitable, la performance inclusive et l’engagement des collaborateurs.",
@@ -2397,7 +2399,7 @@
         "hrSystemDesc3": " Contactez-nous dès aujourd’hui à"
     },
     "automateCrucial": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Travailleuse santé en blouse bleue et masque utilisant tablette dans établissement médical moderne",
         "seoTitle": "Intégration Athenahealth-Salesforce : améliorez les soins aux patients | Rialtes",
         "seoDescription": "L’intégration d’Athenahealth avec Salesforce offre une vision complète des données patients et optimise le parcours de soins.",
@@ -2485,7 +2487,7 @@
         "findDesc4": ", est dédiée à exploiter tout le potentiel de Salesforce en offrant des expériences utilisateurs exceptionnelles à nos clients."
     },
     "successFactorPerformance": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Main dessinant cercle cible avec stylo sur surface bleu clair représentant définition objectifs et précision",
         "seoTitle": "Conseils SuccessFactors : gestion des performances et des objectifs | Rialtes",
         "seoDescription": "Boostez l’engagement et l’alignement stratégique grâce à SuccessFactors. Contactez nos experts pour un accompagnement sur mesure.",
@@ -2587,7 +2589,7 @@
         "empowerLink": "consultants experts SAP SuccessFactors"
     },
     "agentCopilot": {
-        "schemaData" :{},
+        "schemaData": {},
         "chartAlt": "Graphique comparatif d'automatisation avec bordure de feuillage vert montrant matrice bots, copilotes et agents IA",
         "quotationAlt": "Icône de guillemets bleus sur fond blanc pour élément de design de section témoignages ou citations",
         "agentBannerAlt": "Visualisation abstraite vibrante flux de données avec vagues colorées et particules représentant analyse transformation",
@@ -2858,7 +2860,7 @@
         ]
     },
     "brainBehind": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Illustration d’un circuit cérébral numérique avec des connexions lumineuses sur un fond technologique bleu foncé représentant le concept d’IA",
         "seoTitle": "Pourquoi le Moteur de Raisonnement Atlas est-il le Cerveau d’Agentforce ?",
         "seoDescription": "Le Atlas Reasoning Engine est un système d’IA intégré à Agentforce qui aide les agents à analyser des situations complexes, à raisonner et à choisir leur prochaine action.",
@@ -3042,7 +3044,7 @@
         ]
     },
     "howSalesforceAgentforceWorks": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Robot blanc futuriste avec yeux bleus lumineux et éclairage rose affichant écrans interface numérique",
         "seoTitle": "Comment fonctionne Salesforce Agentforce ? | Rialtes",
         "seoDescription": "Découvrez comment Agentforce améliore l’engagement client et simplifie les opérations. Contactez Rialtes pour démarrer votre parcours IA !",
@@ -3105,7 +3107,7 @@
         "gettingDesc3": "et nous avons aidé nos clients à réaliser des gains de productivité significatifs grâce à l’utilisation d’outils basés sur l’IA pour améliorer leurs processus métier."
     },
     "agriculture": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Drone professionnel avec caméra planant au-dessus champ agricole vert pour photographie aérienne et surveillance",
         "seoTitle": "Salesforce pour l’agriculture : la révolution numérique | Rialtes",
         "seoDescription": "Découvrez comment Salesforce transforme l’agriculture en améliorant l’efficacité et en innovant pour un futur durable avec l’Agriculture 4.0.",
@@ -6870,6 +6872,7 @@
         "blogTopic": "Exelona",
         "slasPara1": "Un accord de niveau de service (SLA) définit le niveau de service attendu d’un fournisseur. Il précise les indicateurs utilisés pour mesurer ce service ainsi que les recours possibles si les niveaux de service convenus ne sont pas respectés. Le SLA est une partie essentielle de tout contrat avec un fournisseur technologique.",
         "slasTitle2": "Stimuler l'efficacité opérationnelle basée sur les données dans l'immobilier grâce aux tableaux de bord IA et aux insights prédictifs",
+        "schemaData": {},
         "dataDriven": [
             "Assurer le bon fonctionnement des opérations immobilières n’est pas une mince affaire. Entre le suivi des accords de niveau de service (SLA), la gestion des paiements aux fournisseurs et le contrôle des factures de maintenance, les équipes opérationnelles se retrouvent souvent ensevelies sous des feuilles de calcul et des fils d’e-mails.",
             "Voici le problème : à mesure que les portefeuilles s’agrandissent et que les attentes en matière de service augmentent, les méthodes de suivi traditionnelles ne suffisent plus. C’est là qu’intervient l’efficacité opérationnelle basée sur les données dans le secteur immobilier. Grâce à des tableaux de bord alimentés par l’IA, à la facturation automatisée et aux insights prédictifs, les gestionnaires immobiliers peuvent surveiller tout, de la conformité SLA aux coûts de maintenance, en temps réel. Voyons comment l’industrie change de vitesse et pourquoi cette transformation était plus que nécessaire."
@@ -7038,6 +7041,7 @@
         "para3": "Nous expliquerons ce que cela signifie réellement pour les entreprises immobilières et comment des plateformes comme Exelona aident les dirigeants à rassembler enfin toutes leurs données et leurs décisions.",
         "para4": "Voici ce qui se passe lorsqu’ils passent à une plateforme SSOT unifiée comme Exelona :",
         "faqTitle": "FAQ : Source unique de vérité dans l’immobilier",
+        "schemaData": {},
         "whatASingleSourceData": [
             {
                 "title": "Ce que signifie réellement une Source Unique de Vérité dans l’immobilier",
@@ -7254,6 +7258,7 @@
         "mainTitle": "5 intégrations API essentielles pour aider les entreprises immobilières à accélérer leur croissance",
         "enableTitle": "Ce que permettent les API ouvertes :",
         "faq": "FAQ : Intégrations d’API ouvertes dont chaque entreprise immobilière a besoin",
+        "schemaData": {},
         "blogMainData": [
             "Chaque entreprise immobilière atteint un mur à un moment donné, généralement lorsque ses systèmes cessent de communiquer entre eux. Vous avez un outil de gestion immobilière ici, un système financier là, et un CRM ailleurs retenant vos données de prospects. Les équipes perdent des heures à courir après les mises à jour, les services financiers peinent à concilier les données et les dirigeants reçoivent des rapports déjà obsolètes au moment où ils sont imprimés.",
             "Voici la solution : les intégrations d’API ouvertes.",
@@ -7443,6 +7448,7 @@
         ]
     },
     "whyEnterprises": {
+        "schemaData": {},
         "faqs": [
             {
                 "question": "Que font les partenaires de conseil SAP pour les grandes entreprises ?",
@@ -7610,6 +7616,7 @@
             "Selon McKinsey, près de 55 % des grandes implémentations ERP dépassent le budget ou n’atteignent pas le retour sur investissement attendu. Le coupable ? Un manque d’alignement stratégique et une gestion du changement insuffisante. L’implémentation SAP n’est pas un simple exercice technique ; elle exige une feuille de route équilibrant technologie, objectifs commerciaux et ressources humaines.",
             "C’est ici que les consultants SAP experts et les partenaires d’implémentation axés sur la valeur jouent un rôle déterminant. Ils ne se contentent pas de configurer des modules ; ils traduisent la vision de l’entreprise en une architecture évolutive. Voyons comment construire une stratégie qui minimise les risques et crée de la valeur mesurable."
         ],
+        "schemaData": {},
         "howAiImprovesData": [
             {
                 "title": "Comprendre les véritables défis de l’implémentation SAP",
@@ -7792,6 +7799,7 @@
         "seoDescription": "Nos services de conseil et de mise en œuvre SAP sont conçus pour vous aider à réinventer les opérations, renforcer l’agilité et libérer un nouveau potentiel de croissance.",
         "blogTopic": "Intégration",
         "sapIntegrationTitle": "Stimulez l’agilité de votre entreprise avec des services personnalisés de conseil et de mise en œuvre SAP",
+        "schemaData": {},
         "sapDevelopmentIntegration": [
             "Aujourd’hui, l’adaptabilité définit la survie ; le développement SAP sur mesure est devenu un moteur essentiel de l’agilité et de la croissance des entreprises. Les solutions prêtes à l’emploi répondent souvent aux besoins immédiats, mais échouent lorsqu’il s’agit d’évoluer, de s’intégrer aux systèmes existants ou d’optimiser des modèles commerciaux uniques. C’est là qu’interviennent les services personnalisés de conseil et de mise en œuvre SAP, permettant aux entreprises d’aller au-delà de la simple configuration pour atteindre une véritable transformation opérationnelle.",
             "Voyons comment le développement SAP personnalisé transforme les opérations des entreprises, soutient l’agilité stratégique et favorise une efficacité mesurable dans tous les secteurs."
@@ -7963,6 +7971,7 @@
         "bannerAlt": "Main professionnelle touchant réseau numérique lumineux avec rayons de lumière radiants et particules données fond sombre"
     },
     "aiClinical": {
+        "schemaData": {},
         "mainData": [
             "Los ensayos clínicos son la base fundamental de la innovación médica, especialmente en el caso de las enfermedades raras. Sin embargo, uno de los mayores obstáculos en el desarrollo de nuevas terapias no es la ciencia; es encontrar, inscribir y retener a los pacientes adecuados. Este desafío se vuelve aún más complejo para las enfermedades raras, donde los participantes elegibles pueden contarse apenas por cientos en todo el mundo.",
             "Aquí es donde la IA en los ensayos clínicos está demostrando ser un punto de inflexión. Al automatizar la captación, mejorar la inscripción digital y personalizar el compromiso, la IA está ayudando a las organizaciones farmacéuticas y de tecnología médica a superar cuellos de botella que han frenado el progreso durante décadas. A medida que las herramientas digitales evolucionan, también se vuelven esenciales para <span>prevenir las deserciones en los ensayos clínicos con herramientas digitales</span>, garantizando que la retención de pacientes coincida con la adquisición.",
