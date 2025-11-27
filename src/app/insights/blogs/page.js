@@ -61,6 +61,16 @@ const allCategories = [
 
 const latestBlogs = [
   {
+    "id": 57,
+    "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
+    "category": "SAP SuccessFactor",
+    "industry": "HRMS",
+    "date": "Nov. 27, 2025",
+    "url": "/sap-successfactors-services-hr-transformation/",
+    "title": "How SAP SuccessFactors Services Leverage Data & AI to Transform Modern HR",
+    "description": "In 2025, a quiet revolution is transforming the way HR operates. The field of HR is evolving continuously. Expectations have changed, not in the sensational ways that make headlines each week, but through a more subtle, systemic shift."
+  },
+  {
     id: 58,
     image: "/images/blog/digital-medical-hologram-feature-thumb.webp",
     category: "MediAIna",
@@ -625,7 +635,7 @@ const FeaturedCarousel = () => {
       date: "Jun. 16, 2025",
       url: '/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/',
       title: "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
-      description: "Ready for S/4HANA Implementation? Rialtes’ Voyager+ and SAP Signavio make the journey smooth, transparent, and built for scalable enterprise success.",
+      description: "Organizations are at a stage where they must modernize their ERP systems, streamline operations, and harness real-time insights. SAP S/4HANA has become the digital core for businesses aiming to achieve this transformation.",
     },
     {
       id: 2,
@@ -635,7 +645,7 @@ const FeaturedCarousel = () => {
       date: "Sep. 30, 2025",
       url: '/digital-patient-journeys-ai-healthcare-life-sciences/',
       title: "The Future of Digital Patient Journeys: How AI is Reshaping Life Sciences",
-      description: "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals.",
+      description: "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals. They want personalized, continuous care that mirrors the convenience of other industries.",
     },
     {
       id: 3,
@@ -655,7 +665,7 @@ const FeaturedCarousel = () => {
       date: "Oct. 20, 2025",
       url: "/conversational-ai-in-real-estate-scale-resident-support/",
       title: "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
-      description: "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries,"
+      description: "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries, amenity bookings, and move-in/move-out coordination, teams often stretch themselves thin. The problem isn’t that property managers don’t care; resident expectations have changed."
     },
   ];
 
