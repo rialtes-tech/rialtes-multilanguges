@@ -3157,6 +3157,7 @@
         "moveDesc2": " pour mettre en place des processus agricoles intelligents basés sur les données, tout en gérant de manière cohérente les données agricoles dans l’ensemble de votre entreprise avec SAP BTP."
     },
     "remagineEnterprise": {
+        "schemaData": {},
         "bannerAlt": "Micropuce IA agentique avec rayons lumineux colorés représentant puissance de calcul intelligence artificielle",
         "seoTitle": "IA agentique en entreprise : des workflows plus intelligents | Rialtes",
         "seoDescription": "L’IA agentique automatise intelligemment, agit en temps réel et apprend en continu pour transformer les processus en workflows intelligents.",
@@ -3335,6 +3336,7 @@
         "faqTitle": "Foire Aux Questions (FAQ)"
     },
     "factoryToFeedback": {
+        "schemaData": {},
         "bannerAlt": "Équipe technologique diversifiée collaborant sur ordinateur avec circuits imprimés dans salle de contrôle moderne",
         "seoTitle": "Agentforce pour l’industrie : une IA intelligente pour le CX | Rialtes",
         "seoDescription": "Grâce à l’automatisation et la visibilité IA, Agentforce réinvente l’expérience client avec des parcours fluides et proactifs.",
@@ -3488,6 +3490,7 @@
         "faqTitle": "Foire aux questions (FAQ)"
     },
     "firstAiAgent": {
+        "schemaData": {},
         "bannerAlt": "Homme interagissant avec onde lumineuse de visualisation de données IA représentant transformation numérique et apprentissage",
         "seoTitle": "Déployer des agents IA dans Salesforce Agentforce | Rialtes",
         "seoDescription": "Suivez ce guide étape par étape pour créer et déployer vos agents IA dans Agentforce sans coder ni systèmes coûteux.",
@@ -4097,6 +4100,7 @@
         ]
     },
     "aiThatListens": {
+        "schemaData": {},
         "aithatlistensAlt": "Ondes numériques dynamiques et flux de données colorés illustrant le flux technologique et la connectivité réseau.",
         "seoTitle": "Comment les LLM transforment l’expérience client avec l’IA | Rialtes",
         "seoDescription": "Les LLM redéfinissent l’écoute et la réponse client, allant au-delà de l’automatisation pour créer des conversations réelles et enrichir le CX.",
@@ -4194,6 +4198,7 @@
         "readyDesc2": "Nous vous aiderons à élaborer une stratégie évolutive, sécurisée et alignée sur vos objectifs, qu’il s’agisse de réduire la charge du support, d’augmenter le NPS ou de fournir un support multilingue 24/7. Rendons votre expérience client aussi intelligente que vos clients s’y attendent. Contactez-nous à sales@rialtes.com pour commencer la conversation."
     },
     "whySapSignavio": {
+        "schemaData": {},
         "bannerAlt": "Tunnel numérique bleu avec code binaire et lumières floues représentant transfert de données haute vitesse",
         "seoTitle": "SAP Signavio : simplifier le succès des implémentations S/4HANA",
         "seoDescription": "Voyager+ et SAP Signavio assurent une transition S/4HANA fluide, transparente et évolutive pour la réussite des entreprises.",
@@ -4387,6 +4392,7 @@
         "faqTitle": "FAQs : Mise en œuvre de SAP Signavio S/4HANA"
     },
     "beyondRobotics": {
+        "schemaData": {},
         "bannerAlt": "Professionnel examinant modèle 3D jumeau numérique industriel sur tablette pour planification usine et optimisation",
         "seoTitle": "Au-delà de l’automatisation : agents IA et industrie intelligente",
         "seoDescription": "Agentforce déploie des agents autonomes pour combler le fossé entre production et expérience, avec moins de silos et des décisions rapides.",
@@ -4552,6 +4558,7 @@
         "faqTitle": "FAQ : Fabrication intelligente avec des agents IA"
     },
     "sapPiPo": {
+        "schemaData": {},
         "bannerAlt": "Cadre néon lumineux avec nuages blancs et particules numériques représentant cloud computing et transformation données",
         "seoTitle": "Migration SAP PI PO vers SAP CPI : l’essentiel à savoir",
         "seoDescription": "Passer de PI PO à SAP CPI est une transformation vers une intégration cloud-native et intelligente, pas une simple mise à jour.",
@@ -4787,6 +4794,7 @@
         "faqTitle": "FAQs : Migration de SAP PI/PO vers SAP CPI"
     },
     "s4HanaSapALM": {
+        "schemaData": {},
         "bannerAlt": "Montagne numérique abstraite formée par ondes lumière bleue rose violet avec points particules sur fond sombre",
         "seoTitle": "SAP Signavio et Cloud ALM : une nouvelle ère pour S/4HANA",
         "seoDescription": "Associez Signavio et Cloud ALM pour assurer gouvernance, traçabilité et exécution pilotée par KPI dans vos transformations S/4HANA.",
@@ -4935,6 +4943,7 @@
         "faqTitle": "FAQs : SAP Signavio + SAP Cloud ALM dans S/4HANA"
     },
     "aiPatient": {
+        "schemaData": {},
         "bannerAlt": "Innovation médicale numérique affichant l’anatomie humaine et l’analyse IA via une interface holographique 3D interactive.",
         "seoTitle": "Engagement patient avec l’IA : simplifier les soins | Rialtes",
         "seoDescription": "Découvrez comment l’IA MedTech facilite le suivi, simplifie les processus et améliore la relation patient-professionnel de santé.",
@@ -5076,6 +5085,7 @@
         "faqTitle": "FAQs : L’IA dans l’engagement des patients"
     },
     "agentforceIndustry4": {
+        "schemaData": {},
         "bannerAlt": "Automatisation avancée de l’industrie 4.0 avec bras robotisé, données numériques et interface de fabrication futuriste.",
         "seoTitle": "Agentforce AI : zéro interruption en production industrielle | Rialtes",
         "seoDescription": "L’IA d’Agentforce prédit les pannes, évite les interruptions et garantit une efficacité opérationnelle continue.",
@@ -5383,6 +5393,7 @@
         "faqTitle": "FAQ : Foire aux Questions"
     },
     "ecommerceDataCloud": {
+        "schemaData": {},
         "bannerAlt": "Image de bannière montrant Salesforce Data Cloud stimulant le commerce électronique prédictif et la fidélisation client",
         "seoTitle": "E-commerce Salesforce : fidélité renforcée avec Data Cloud | Rialtes",
         "seoDescription": "Salesforce Data Cloud unifie les données clients pour générer des insights prédictifs et personnaliser l’e-commerce en temps réel.",

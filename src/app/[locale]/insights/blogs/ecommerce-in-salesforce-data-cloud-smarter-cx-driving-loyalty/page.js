@@ -12,82 +12,6 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
-
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline:
-    "Ecommerce in Salesforce: Driving Loyalty with Data Cloud | Rialtes",
-  description:
-    "Salesforce Data Cloud centralizes customer data, enabling businesses to predict behaviors, personalize experiences, and make real-time decisions.",
-  image:
-    "https://www.rialtes.com/images/blog/data-cloud-ecom-desktop-banner.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty/",
-  },
-  datePublished: "2025-09-12",
-  mainEntity: {
-    "@type": "FAQPage",
-    name: "Ecommerce in Salesforce with Data Cloud FAQs",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is Salesforce Data Cloud used for in e-commerce?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Salesforce Data Cloud centralizes customer data, enabling businesses to predict behaviors, personalize experiences, and make real-time decisions. It is particularly powerful for ecommerce in Salesforce, where unified data leads to smarter personalization.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does predictive analytics improve customer experience in e-commerce?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Predictive analytics anticipates needs, recommends relevant products, and provides real-time insights that make interactions feel more personal and proactive.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can Salesforce Data Cloud help reduce cart abandonment?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. By detecting abandoned carts in real time, Salesforce Data Cloud can trigger personalized emails, discounts, or alerts that encourage customers to complete their purchases.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does Einstein AI fit into Salesforce Data Cloud?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Einstein AI powers predictive models, NLP sentiment analysis, and automated decision-making within Salesforce Data Cloud to enhance personalization and efficiency.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Why is real-time data important for predictive e-commerce?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Real-time insights enable instant adjustments to pricing, promotions, and recommendations, keeping customers engaged and reducing churn.",
-        },
-      },
-    ],
-  },
-};
-
 export default function Page() {
   const t = useTranslations("ecommerceDataCloud");
   const locale = useLocale();
@@ -96,7 +20,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { salesforceData, driveData, predectiveData, empowerData, faqs } =
+  const { salesforceData, driveData, predectiveData, empowerData, faqs,schemaData } =
     blogsContent.ecommerceDataCloud;
   const fullUrl = "https://www.rialtes.com/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty";
   const currUrl = useUrl();

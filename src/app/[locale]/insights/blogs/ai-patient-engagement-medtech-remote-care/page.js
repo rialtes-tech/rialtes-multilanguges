@@ -14,81 +14,6 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
-
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "AI Patient Engagement: How Smart Agents Simplify Care",
-  description:
-    "AI for patient engagement simplifies remote care by delivering real-time insights, smart escalations, and personalized healthcare experiences.",
-  image:
-    "https://www.rialtes.com/images/blog/futuristic-medical-technology-innovation.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care/",
-  },
-  datePublished: "2025-09-09",
-  mainEntity: {
-    "@type": "FAQPage",
-    name: "AI for Patient Engagement with Smart Agents FAQs",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is AI for patient engagement?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "AI for patient engagement uses intelligent agents to provide personalized care, automate monitoring, and support real-time communication between patients and providers.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do smart agents simplify patient care?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Smart agents simplify care by automating routine tasks, providing real-time insights, escalating urgent issues, and ensuring continuous patient support.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Why is AI important for MedTech and remote healthcare?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "AI enhances MedTech by improving remote monitoring, reducing provider workload, enabling predictive insights, and personalizing patient care journeys.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can AI improve patient-provider communication?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes, AI-powered agents enable two-way communication with reminders, symptom tracking, and instant escalations, leading to stronger patient engagement.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What are the benefits of AI for patient engagement?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The benefits include simplified care delivery, proactive interventions, reduced errors, enhanced personalization, and improved patient satisfaction.",
-        },
-      },
-    ],
-  },
-};
-
 export default function Page() {
   const t = useTranslations("aiPatient");
   const locale = useLocale();
@@ -97,7 +22,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { rolesData, commonData, benefitsData, faqs } = blogsContent.aiPatient;
+  const { rolesData, commonData, benefitsData, faqs,schemaData } = blogsContent.aiPatient;
   const fullUrl = "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care";
   const currUrl = useUrl();
 
