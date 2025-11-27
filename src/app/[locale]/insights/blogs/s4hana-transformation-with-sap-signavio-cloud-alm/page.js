@@ -14,95 +14,6 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "SAP Signavio and Cloud ALM in S/4HANA Transformation",
-  description:
-    "Pairing SAP Signavio with SAP Cloud ALM ensures control across every phase of the transformation. The closed-loop lifecycle ensures ongoing business value.",
-  image:
-    "https://www.rialtes.com/images/blog/abstract-data-visualization-digital-wave-technology.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm",
-  },
-  datePublished: "2025-03-25",
-  mainEntity: {
-    "@type": "FAQPage",
-    name: "SAP Signavio and Cloud ALM in S/4HANA Transformation FAQs",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "Why do I need both SAP Signavio and SAP Cloud ALM?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Signavio ensures clarity and standardization at the process design level, while Cloud ALM enforces governance and traceability during execution. Together, they connect strategy to delivery—something neither tool achieves alone.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does this pairing strengthen governance?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Signavio defines standardized processes and aligns stakeholders around them. Cloud ALM ensures those processes are executed as designed by governing requirements, changes, and testing. Governance moves from theory to practice.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What does traceability mean in an S/4HANA program, and how do these tools enable it?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Traceability is the ability to connect every business requirement and process decision to a corresponding system configuration and test case. Signavio documents the blueprint, while Cloud ALM links it to execution—creating a golden thread across the program.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can these tools help us avoid scope creep and budget overruns?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. By aligning business and IT around “to-be” processes (Signavio) and managing every change through controlled workflows (Cloud ALM), the pairing reduces undocumented deviations, rework, and missed deadlines.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How do Signavio and Cloud ALM support KPI tracking?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Signavio defines baseline and target KPIs through process mining and modeling. Cloud ALM then validates those KPIs during testing and monitors them post go-live through live dashboards—closing the loop between design and business outcomes.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What happens if we implement S/4HANA without Signavio and Cloud ALM?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "You risk migrating inefficiencies, losing control over scope, inflating costs due to rework, and lacking measurable proof of ROI. In short, you may go live, but the transformation won’t deliver its full value.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Where does Rialtes add value in this journey?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Rialtes uses its Voyager+ methodology to embed Signavio and Cloud ALM into every stage of SAP Activate. This ensures process clarity, execution governance, and KPI measurement are not just set up, but sustained.",
-        },
-      },
-    ],
-  },
-};
 
 export default function Page() {
   const t = useTranslations("s4HanaSapALM");
@@ -120,6 +31,7 @@ export default function Page() {
     traceabilityData2,
     lifecycleData,
     faqData,
+    schemaData
   } = content.s4HanaSapALM;
   const fullUrl = "https://www.rialtes.com/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm";
   const currUrl = useUrl();

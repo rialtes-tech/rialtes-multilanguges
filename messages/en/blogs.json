@@ -1793,33 +1793,33 @@
         "collaborateDesc3": "are driven by reliable, actionable data, maximizing the potential of intelligent automation. Get in touch with us at"
     },
     "integrateSapSuccessFactor": {
-        "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/en/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
-  },
-  "headline": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
-  "description": "Learn how to streamline workflows and boost HR team productivity by integrating SAP SuccessFactors with Microsoft Office 365 tools like Outlook and Teams.",
-  "image": "https://www.rialtes.com/images/blog/blue-orange-halftone-wave-pattern-abstract.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-12-24",
-  "articleSection": "SAP Integration",
-  "url": "https://www.rialtes.com/en/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
+            },
+            "headline": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
+            "description": "Learn how to streamline workflows and boost HR team productivity by integrating SAP SuccessFactors with Microsoft Office 365 tools like Outlook and Teams.",
+            "image": "https://www.rialtes.com/images/blog/blue-orange-halftone-wave-pattern-abstract.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-12-24",
+            "articleSection": "SAP Integration",
+            "url": "https://www.rialtes.com/en/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/"
+        },
         "bannerAlt": "Abstract blue and orange halftone dot pattern creating wave design on navy background for tech graphics",
         "seoTitle": "How to Integrate SAP with Office 365 for Enhanced HR Collaboration",
         "seoDescription": "Discover how SAP Office 365 integration can simplify HR processes, automate workflows, and foster seamless collaboration across Office 365 apps.",
@@ -1953,38 +1953,33 @@
         "completeDesc4": "to get started with one of our expert SAP SuccessFactors consultants!"
     },
     "enhancingCompliance": {
-  "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/en/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
-  },
-  "headline":
-    "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
-  "description":
-    "Learn how SAP GTS streamlines compliance with global trade laws using Sanctioned Party List (SPL) screening, ensuring secure and lawful third-party engagements.",
-  "image":
-    "https://www.rialtes.com/images/blog/global-network-connectivity-world-map-visualization.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-12-19",
-  "articleSection": "SAP GTS",
-  "url": "https://www.rialtes.com/en/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
-},
-
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
+            },
+            "headline": "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
+            "description": "Learn how SAP GTS streamlines compliance with global trade laws using Sanctioned Party List (SPL) screening, ensuring secure and lawful third-party engagements.",
+            "image": "https://www.rialtes.com/images/blog/global-network-connectivity-world-map-visualization.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-12-19",
+            "articleSection": "SAP GTS",
+            "url": "https://www.rialtes.com/en/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
+        },
         "bannerAlt": "3D world map with illuminated connection lines showing global network connectivity and data flow visualization",
         "seoTitle": "How SAP GTS Sanctioned Party List Screening Ensures Compliance | Rialtes",
         "seoDescription": "Minimize risks with SAP Sanctioned Party List Screening by ensuring your business never deals with prohibited parties. Stay compliant and avoid legal penalties.",
@@ -2083,33 +2078,33 @@
         "complyDesc3": "with deep expertise in global trade and risk management, we empower companies to navigate these processes efficiently, delivering maximum value and return on investment. Our seasoned SAP consultants possess the skills and experience to address your critical needs while equipping your internal teams for ongoing improvement and innovation."
     },
     "agentforceTesting": {
-        "schemaData" :{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/en/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
-  },
-  "headline": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
-  "description": "Explore how Agentforce Testing Center leverages synthetic data to revolutionize AI model testing, ensuring security, reliability, and scalability.",
-  "image": "https://www.rialtes.com/images/blog/digital-gears-network-automation-technology-concept.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-11-25",
-  "articleSection": "AI Testing",
-  "url": "https://www.rialtes.com/en/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
+            },
+            "headline": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
+            "description": "Explore how Agentforce Testing Center leverages synthetic data to revolutionize AI model testing, ensuring security, reliability, and scalability.",
+            "image": "https://www.rialtes.com/images/blog/digital-gears-network-automation-technology-concept.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-11-25",
+            "articleSection": "AI Testing",
+            "url": "https://www.rialtes.com/en/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
+        },
         "bannerAlt": "Blue digital wireframe gears and network nodes representing industrial automation and blockchain technology",
         "seoTitle": "Agentforce Testing Center: Test AI Agents Before Production",
         "seoDescription": "The Agentforce Testing Center is a powerful suite of tools that helps enterprises evaluate AI agents before they are deployed in production. Know more.",
@@ -2173,33 +2168,33 @@
         "whyDesc4": "or need help getting started? We’re here to assist. At Rialtes, we specialize in AI testing and  , and we’ve helped clients achieve significant productivity improvements by leveraging AI tools to streamline their business processes."
     },
     "successfactorSupportsDiversity": {
-        "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/en/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/"
-  },
-  "headline": "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
-  "description": "Discover how SAP SuccessFactors helps organizations champion DEI through analytics, inclusive hiring, unbiased performance reviews, and culture-driven tools.",
-  "image": "https://www.rialtes.com/images/blog/diversity-inclusion-puzzle-accessibility-concept.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-11-12",
-  "articleSection": "SAP HXM",
-  "url": "https://www.rialtes.com/en/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/"
+            },
+            "headline": "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
+            "description": "Discover how SAP SuccessFactors helps organizations champion DEI through analytics, inclusive hiring, unbiased performance reviews, and culture-driven tools.",
+            "image": "https://www.rialtes.com/images/blog/diversity-inclusion-puzzle-accessibility-concept.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-11-12",
+            "articleSection": "SAP HXM",
+            "url": "https://www.rialtes.com/en/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/"
+        },
         "bannerAlt": "Colorful puzzle pieces with diversity icons showing people and wheelchair symbols representing inclusion concept",
         "seoTitle": "How SuccessFactors Diversity and Inclusion Drives Workplace Equity | Rialtes",
         "seoDescription": "Discover how SAP SuccessFactors diversity and inclusion capabilities support unbiased hiring, inclusive performance, and engagement. Learn more with Rialtes.",
@@ -2254,37 +2249,33 @@
         "hrSystemDesc3": " Contact us today at"
     },
     "automateCrucial": {
-        "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/en/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
-  },
-  "headline":
-    "Automate Crucial Parts of Your Healthcare Organization with Athenahealth and Salesforce Integration",
-  "description":
-    "See how integrating Athenahealth with Salesforce enhances healthcare operations—improving patient data access, workflows, and care coordination.",
-  "image":
-    "https://www.rialtes.com/images/blog/healthcare-worker-digital-tablet-medical-technology.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-11-11",
-  "articleSection": "Healthcare Integration",
-  "url": "https://www.rialtes.com/en/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
+            },
+            "headline": "Automate Crucial Parts of Your Healthcare Organization with Athenahealth and Salesforce Integration",
+            "description": "See how integrating Athenahealth with Salesforce enhances healthcare operations—improving patient data access, workflows, and care coordination.",
+            "image": "https://www.rialtes.com/images/blog/healthcare-worker-digital-tablet-medical-technology.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-11-11",
+            "articleSection": "Healthcare Integration",
+            "url": "https://www.rialtes.com/en/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
+        },
         "bannerAlt": "Female healthcare worker in blue scrubs and mask using tablet device in modern medical facility setting",
         "seoTitle": "Athenahealth Salesforce Integration: Elevate Patient Care | Rialtes",
         "seoDescription": "Integrating athenahealth with Salesforce is beneficial in many ways, providing a more comprehensive view of patient interactions and data across the healthcare journey.",
@@ -2372,33 +2363,33 @@
         "findDesc4": ", is dedicated to utilizing the complete potential of Salesforce by providing exceptional user experiences to our clients."
     },
     "successFactorPerformance": {
-        "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/en/insights/blogs/sap-successfactors-performance-and-goal-management/"
-  },
-  "headline": "SAP SuccessFactors Performance and Goal Management",
-  "description": "Learn how SAP SuccessFactors empowers organizations to streamline performance reviews, align individual goals, and boost workforce productivity.",
-  "image": "https://www.rialtes.com/images/blog/target-goal-setting-precision-business-concept.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-10-29",
-  "articleSection": "SAP HCM",
-  "url": "https://www.rialtes.com/en/insights/blogs/sap-successfactors-performance-and-goal-management/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/sap-successfactors-performance-and-goal-management/"
+            },
+            "headline": "SAP SuccessFactors Performance and Goal Management",
+            "description": "Learn how SAP SuccessFactors empowers organizations to streamline performance reviews, align individual goals, and boost workforce productivity.",
+            "image": "https://www.rialtes.com/images/blog/target-goal-setting-precision-business-concept.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-10-29",
+            "articleSection": "SAP HCM",
+            "url": "https://www.rialtes.com/en/insights/blogs/sap-successfactors-performance-and-goal-management/"
+        },
         "bannerAlt": "Hand drawing target circle with pen on light blue surface representing goal setting and precision concept",
         "seoTitle": "SuccessFactors Performance Management & Goal Management Tips | Rialtes",
         "seoDescription": "SuccessFactors performance management and goal management boost employee engagement and strategic alignment. Contact us today for expert guidance and support!",
@@ -2500,96 +2491,92 @@
         "empowerLink": "expert SAP SuccessFactors consultants"
     },
     "agentCopilot": {
-         "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/en/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
-  },
-  "headline":
-    "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
-  "description":
-    "Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
-  "image":
-    "https://www.rialtes.com/images/blog/abstract-data-flow-visualization-digital.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-10-28",
-  "dateModified": "2025-07-25",
-  "articleSection": "AI Automation",
-  "url": "https://www.rialtes.com/en/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What’s the difference between bots, copilots, and agents?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Bots follow simple rules to perform tasks. Copilots offer contextual help and suggestions, often requiring user input. Agents act independently, make decisions, and can operate across systems autonomously. Think of bots as basic responders, copilots as smart assistants, and agents as decision-makers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is an example of a bot?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A chatbot that answers questions like 'What is your return policy?' on an e-commerce website is a good example of a bot. It follows scripted responses and doesn’t adapt to complex queries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does an AI agent do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An AI agent can understand tasks, make decisions, and execute actions without constant human intervention. In manufacturing, for example, an agent can predict delays and reschedule workflows automatically."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Copilot better than chatbot?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. A copilot provides intelligent suggestions based on context and user behavior, whereas a chatbot sticks to predefined scripts. Copilots are more dynamic and user-focused than basic bots."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which AI tool is more powerful: agent or copilot?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Agents are more powerful. While copilots assist users by providing recommendations, AI agents go further—they make decisions, adapt, and act autonomously across processes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which AI should I use for customer support in manufacturing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI agents are best for manufacturing customer service. They handle complex queries, integrate with enterprise systems, and resolve issues faster than traditional bots or copilots."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can AI agents fully replace humans in operations?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. AI agents are ideal for automating repetitive and data-driven tasks, but human-AI collaboration is still essential for strategic decisions, creativity, and empathy-driven customer service."
-      }
-    }
-  ]
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
+            },
+            "headline": "Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters",
+            "description": "Discover how AI Agents, Copilots, and Bots differ in intelligence, autonomy, and use cases—and why choosing the right one is key to scaling enterprise automation, improving operational efficiency, and future-proofing your digital transformation strategy.",
+            "image": "https://www.rialtes.com/images/blog/abstract-data-flow-visualization-digital.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-10-28",
+            "dateModified": "2025-07-25",
+            "articleSection": "AI Automation",
+            "url": "https://www.rialtes.com/en/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What’s the difference between bots, copilots, and agents?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Bots follow simple rules to perform tasks. Copilots offer contextual help and suggestions, often requiring user input. Agents act independently, make decisions, and can operate across systems autonomously. Think of bots as basic responders, copilots as smart assistants, and agents as decision-makers."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is an example of a bot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "A chatbot that answers questions like 'What is your return policy?' on an e-commerce website is a good example of a bot. It follows scripted responses and doesn’t adapt to complex queries."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What does an AI agent do?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "An AI agent can understand tasks, make decisions, and execute actions without constant human intervention. In manufacturing, for example, an agent can predict delays and reschedule workflows automatically."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is Copilot better than chatbot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. A copilot provides intelligent suggestions based on context and user behavior, whereas a chatbot sticks to predefined scripts. Copilots are more dynamic and user-focused than basic bots."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which AI tool is more powerful: agent or copilot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Agents are more powerful. While copilots assist users by providing recommendations, AI agents go further—they make decisions, adapt, and act autonomously across processes."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which AI should I use for customer support in manufacturing?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "AI agents are best for manufacturing customer service. They handle complex queries, integrate with enterprise systems, and resolve issues faster than traditional bots or copilots."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can AI agents fully replace humans in operations?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "No. AI agents are ideal for automating repetitive and data-driven tasks, but human-AI collaboration is still essential for strategic decisions, creativity, and empathy-driven customer service."
+                    }
+                }
+            ]
+        },
         "chartAlt": "Automation comparison chart with green foliage border showing bots, copilots, and AI agents features matrix",
         "quotationAlt": "Blue quotation marks icon on white background for testimonial or quote section design element",
         "agentBannerAlt": "Vibrant abstract data flow visualization with colorful waves and particles representing digital transformation analytics",
@@ -2860,86 +2847,85 @@
         ]
     },
     "brainBehind": {
-    "schemaData" : {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "Why Is the Atlas Reasoning Engine the Brain of Agentforce? | Rialtes",
-    "description": "The Atlas Reasoning Engine acts as the intelligent brain of Agentforce, enabling agents to understand goals, reason through decisions, and deliver smarter support.",
-    "image": "https://www.rialtes.com/images/blogs/digital-brain-ai-circuit-technology-illustration.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "Rialtes"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Rialtes",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.rialtes.com/images/homepage/logo.svg"
-      }
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.rialtes.com/en/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"
-    },
-    "datePublished": "2024-10-21",
-    "dateModified": "2025-11-19",
-    "mainEntity": {
-      "@type": "FAQPage",
-      "name": "Atlas Reasoning Engine in Agentforce FAQs",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the Atlas Reasoning Engine in Agentforce?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Atlas Reasoning Engine is the decision-making core inside Salesforce Agentforce that helps AI agents understand user goals, reason through complex situations, and choose the right next action autonomously."
-          }
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Why Is the Atlas Reasoning Engine the Brain of Agentforce? | Rialtes",
+            "description": "The Atlas Reasoning Engine acts as the intelligent brain of Agentforce, enabling agents to understand goals, reason through decisions, and deliver smarter support.",
+            "image": "https://www.rialtes.com/images/blogs/digital-brain-ai-circuit-technology-illustration.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"
+            },
+            "datePublished": "2024-10-21",
+            "dateModified": "2025-11-19",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Atlas Reasoning Engine in Agentforce FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is the Atlas Reasoning Engine in Agentforce?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The Atlas Reasoning Engine is the decision-making core inside Salesforce Agentforce that helps AI agents understand user goals, reason through complex situations, and choose the right next action autonomously."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does the Atlas Reasoning Engine work?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "It follows a reasoning cycle that includes goal understanding, plan formulation, context gathering loops, action selection, and execution across channels—allowing agents to think and adapt dynamically."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why is the Atlas Reasoning Engine the ‘brain’ of Agentforce?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Atlas acts as the intelligence layer that interprets context, evaluates options, learns from history, and drives autonomous decisions, making it function like the brain behind Salesforce Agentforce."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How is Atlas different from traditional Salesforce automation?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Unlike rigid workflows, Atlas uses goal-driven reasoning. When new information appears or situations change, it adapts instantly instead of breaking or escalating unnecessarily."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can Atlas work across multiple Salesforce clouds?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, Atlas works across Sales Cloud, Service Cloud, and even external platforms to help agents take consistent and context-aware actions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does Atlas improve customer service?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "By helping agents reason, analyze context, fill in gaps, and execute decisions rapidly, Atlas enables faster resolution times, more accurate actions, and highly personalized support experiences."
+                        }
+                    }
+                ]
+            }
         },
-        {
-          "@type": "Question",
-          "name": "How does the Atlas Reasoning Engine work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It follows a reasoning cycle that includes goal understanding, plan formulation, context gathering loops, action selection, and execution across channels—allowing agents to think and adapt dynamically."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is the Atlas Reasoning Engine the ‘brain’ of Agentforce?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Atlas acts as the intelligence layer that interprets context, evaluates options, learns from history, and drives autonomous decisions, making it function like the brain behind Salesforce Agentforce."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is Atlas different from traditional Salesforce automation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Unlike rigid workflows, Atlas uses goal-driven reasoning. When new information appears or situations change, it adapts instantly instead of breaking or escalating unnecessarily."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can Atlas work across multiple Salesforce clouds?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, Atlas works across Sales Cloud, Service Cloud, and even external platforms to help agents take consistent and context-aware actions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Atlas improve customer service?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "By helping agents reason, analyze context, fill in gaps, and execute decisions rapidly, Atlas enables faster resolution times, more accurate actions, and highly personalized support experiences."
-          }
-        }
-      ]
-    }
-  },
-
         "bannerAlt": "Digital brain circuit illustration with glowing connections on dark blue tech background showing AI concept",
         "seoTitle": "Why Is the Atlas Reasoning Engine the Brain of Agentforce?",
         "seoDescription": "The Atlas Reasoning Engine is an AI system built into Agentforce that helps agents analyze complex situations, reason through them, and choose their next step.",
@@ -3123,36 +3109,33 @@
         ]
     },
     "howSalesforceAgentforceWorks": {
-        "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/en/insights/blogs/how-salesforce-agentforce-actually-works/"
-  },
-  "headline": "How Salesforce Agentforce Actually Works",
-  "description":
-    "Explore how Salesforce Agentforce automates customer engagement using AI agents, enhancing decision-making and operational efficiency.",
-  "image":
-    "https://www.rialtes.com/images/blog/futuristic-robot-ai-digital-interface-technology.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-09-30",
-  "articleSection": "Salesforce",
-  "url": "https://www.rialtes.com/en/insights/blogs/how-salesforce-agentforce-actually-works/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/how-salesforce-agentforce-actually-works/"
+            },
+            "headline": "How Salesforce Agentforce Actually Works",
+            "description": "Explore how Salesforce Agentforce automates customer engagement using AI agents, enhancing decision-making and operational efficiency.",
+            "image": "https://www.rialtes.com/images/blog/futuristic-robot-ai-digital-interface-technology.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-09-30",
+            "articleSection": "Salesforce",
+            "url": "https://www.rialtes.com/en/insights/blogs/how-salesforce-agentforce-actually-works/"
+        },
         "bannerAlt": "Futuristic white robot with glowing blue eyes and pink lighting displaying digital interface screens",
         "seoTitle": "How Does Salesforce Agentforce Work? | Rialtes",
         "seoDescription": "Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!",
@@ -3215,37 +3198,33 @@
         "gettingDesc3": "and we have assisted customers in achieving significant productivity gains by using AI-based tools to enhance their business processes."
     },
     "agriculture": {
-        "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/en/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
-  },
-  "headline":
-    "Agriculture 4.0: How Do Digital Technologies Transform Farming for a Better Tomorrow?",
-  "description":
-    "Explore how Agriculture 4.0 and platforms like Salesforce are revolutionizing modern farming with AI, automation, and real-time data-driven insights.",
-  "image":
-    "https://www.rialtes.com/images/blog/professional-drone-camera-aerial-agriculture-monitoring.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "datePublished": "2024-09-17",
-  "articleSection": "Salesforce for Agriculture",
-  "url": "https://www.rialtes.com/en/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
-},
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
+            },
+            "headline": "Agriculture 4.0: How Do Digital Technologies Transform Farming for a Better Tomorrow?",
+            "description": "Explore how Agriculture 4.0 and platforms like Salesforce are revolutionizing modern farming with AI, automation, and real-time data-driven insights.",
+            "image": "https://www.rialtes.com/images/blog/professional-drone-camera-aerial-agriculture-monitoring.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "url": "https://www.rialtes.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "datePublished": "2024-09-17",
+            "articleSection": "Salesforce for Agriculture",
+            "url": "https://www.rialtes.com/en/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
+        },
         "bannerAlt": "Professional drone with camera hovering over green agricultural field for aerial photography and monitoring",
         "blogTopic": "Others",
         "seoTitle": "Salesforce for Agriculture: Digital Farming Revolution | Rialtes",
@@ -3295,6 +3274,92 @@
         "moveDesc2": " to implement data-driven intelligent farming processes while managing agricultural data consistently across your business with SAP BTP."
     },
     "remagineEnterprise": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Enterprise Agentic AI Systems for Smarter Operations",
+            "description": "Agentic AI redefines what enterprise operational excellence looks like by combining real-time precision with enterprise-grade speed and scale.",
+            "image": " https://www.rialtes.com/images/blog/agentic-ai-technology-microchip-computing.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": " https://www.rialtes.com/en/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/"
+            },
+            "datePublished": "2025-08-25",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Enterprise Agentic AI FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Agentic AI, in simple terms?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Agentic AI refers to intelligent systems made up of autonomous agents that work together to achieve business goals. They don’t just follow instructions; they act on intent, make decisions, and adapt over time."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How is Agentic AI different from traditional AI or automation?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Traditional AI handles single tasks. Automation follows set rules. Agentic AI does more; it can coordinate across systems, respond to changing conditions, and continuously learn from outcomes. It’s dynamic, proactive, and scalable."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the business benefits of using Agentic AI?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Higher productivity through 24/7 automation, smarter decisions from real-time learning, faster response times to business disruptions, and lower operational costs by reducing manual work."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can you give real examples of how Agentic AI works?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Supply chain: An agent reroutes shipments when delays or weather disruptions are detected. HR: A digital agent monitors engagement and flags early signs of burnout. Finance: An agent reconciles invoices, flags fraud risks, and prepares audit summaries."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is Agentic AI only for large enterprises?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Not at all. While the impact can be massive in large organizations, you can start small, automating a single process or department and scaling gradually. Agentic AI is modular and flexible."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Are Agentic AI systems secure?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "They can be, if built right. At Rialtes, we design agentic systems with built-in governance, compliance, and role-based access. Security is baked in, not bolted on."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Will Agentic AI replace human workers?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "No. It’s designed to handle repetitive, time-consuming tasks, freeing people up to focus on strategy, innovation, and high-value work. It’s about augmentation, not replacement."
+                        }
+                    }
+                ]
+            }
+        },
         "bannerAlt": "Agentic AI microchip with colorful light beams and data streams representing artificial intelligence computing power",
         "seoTitle": "Enterprise Agentic AI: Reimagine Workflows Smarter | Rialtes",
         "seoDescription": "Agentic AI is helping enterprises automate smarter. They act on intent, respond in real time, and learn as they go, turning tasks into intelligent workflows.",
@@ -3473,6 +3538,88 @@
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "factoryToFeedback": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "From Factory to Feedback: How Agentforce AI Elevates Customer Experience in Manufacturing",
+            "description": "Agentforce for manufacturers reimagines Customer Experience with AI agents that predict disruptions, automate resolutions, and deliver smarter, seamless customer journeys.",
+            "image": " https://www.rialtes.com/images/blog/technology-team-collaboration-command-center.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/"
+            },
+            "datePublished": "2025-08-22",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What is Agentforce, and how does it help manufacturers improve customer experience?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Agentforce is an AI-powered platform built on Salesforce that enables manufacturers to deploy intelligent agents across sales, service, and operations. These agents monitor real-time data, predict customer-impacting issues, automate responses, and personalize engagement."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does Agentforce detect and respond to problems before customers complain?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Agentforce connects to ERP, CRM, and IoT systems to monitor operational signals like machine downtime, delivery delays, or part shortages. When a risk is detected, AI agents automatically notify account managers, trigger alerts, and in some cases, inform customers before the issue escalates."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can Agentforce be integrated with existing systems like Salesforce CPQ or Manufacturing Cloud?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Agentforce is natively built for Salesforce and integrates seamlessly with tools like Salesforce CPQ, Service Cloud, Manufacturing Cloud, and even third-party systems. It enhances existing workflows without requiring a complete system overhaul."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does Agentforce improve case resolution in manufacturing service centers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Agentforce uses AI agents to triage, route, and auto-fill service tickets based on priority, product history, and customer profile. It reduces resolution time by directing cases to the right reps or resolving simple issues autonomously."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is Agentforce suitable for small and mid-sized manufacturing businesses, or just enterprises?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Agentforce scales easily across businesses of all sizes. For mid-sized manufacturers looking to modernize without large IT investments, it offers modular deployment, so you can start small and expand as you grow."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What kind of ROI can manufacturers expect from using Agentforce?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "While ROI varies by use case, manufacturers typically see measurable gains in first-response times, reduced service costs, and improved Net Promoter Scores (NPS). More importantly, Agentforce boosts customer loyalty by making every interaction faster, more informed, and more human."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is Agentforce secure and compliant for regulated industries?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Agentforce adheres to Salesforce’s enterprise-grade security protocols and can be deployed in compliance with industry regulations like ISO, SOC 2, and HIPAA, making it suitable for manufacturers in aerospace, medical devices, automotive, and more."
+                    }
+                }
+            ]
+        },
         "bannerAlt": "Diverse technology team collaborating on laptop with circuit boards in modern command center control room workspace",
         "seoTitle": "Agentforce for Manufacturers: Smart AI for CX | Rialtes",
         "seoDescription": "With AI-driven visibility and automation, Agentforce for manufacturers reimagines CX, creating smarter, proactive, and seamless customer journeys.",
@@ -3626,6 +3773,76 @@
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "firstAiAgent": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "How to Build and Deploy Your First AI Agent with Agentforce",
+            "description": "This step-by-step guide shows how to build and deploy AI agents in Salesforce Agentforce without coding, using visual tools, templates, and workflows.",
+            "image": "https://www.rialtes.com/images/blog/artificial-intelligence-data-visualization.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/"
+            },
+            "datePublished": "2025-09-02",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Building and Deploying AI Agents in Agentforce FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Agentic AI and why does it matter?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Agentic AI goes beyond simple automation. It enables agents to reason, plan, act, and adapt—essentially acting as digital coworkers rather than bots."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can I build AI agents in Salesforce without coding?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. Agentforce Agent Builder offers a drag-and-drop, low-code interface to build AI agents using templates, workflows, and prompt builder tools."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the steps to build and deploy an AI agent in Agentforce?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The process includes defining the agent’s purpose, setting up Agentforce, structuring logic with Agent Builder, training the agent, building conversations, integrating systems, testing, and deploying."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What kind of AI agents can be built with Agentforce?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "You can build customer support agents, sales assistants, HR and recruitment bots, finance agents, IT helpdesk bots, marketing agents, and compliance monitors."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do I keep my AI agent effective after deployment?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ensure continuous learning with new data, run regular security reviews, add integrations as needs evolve, and monitor key performance metrics like resolution rates and user satisfaction."
+                        }
+                    }
+                ]
+            }
+        },
         "bannerAlt": "Man interacting with glowing AI data visualization wave representing digital transformation and machine learning.",
         "seoTitle": "How to Deploy AI Agents in Salesforce Agentforce | Rialtes",
         "seoDescription": "Ready to automate with AI? Use this step-by-step guide to build and deploy AI agents in Agentforce by Salesforce without coding or expensive systems.",
@@ -3808,6 +4025,92 @@
         "faqTitle": "FAQs: Building and Deploying AI Agents with Agentforce"
     },
     "aiThatListens": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "How Large Language Models Are Transforming Customer Experience",
+            "description": "LLMs, powered by generative AI, are redefining how businesses listen and respond. They go beyond automation. They enable real conversation.",
+            "image": "https://www.rialtes.com/images/blog/abstract-digital-waves-and-data-flow.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/how-large-language-models-improve-customer-experience/"
+            },
+            "datePublished": "2025-09-10",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "How Large Language Models Are Transforming Customer Experience FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is a large language model and how does it work?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Large Language Models (LLMs) are advanced agentic AI systems trained on massive amounts of text data to understand and generate natural language."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How are AI chatbots different from traditional bots?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Unlike rule-based bots, LLMs interpret context, tone, and sentiment, enabling more human-like, personalized, and effective conversations."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can AI personalize customer service?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, LLMs can analyze CRM data, order history, and past interactions to deliver tailored and proactive customer support."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does generative AI help with multilingual support?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "LLMs with built-in translation capabilities break language barriers, enabling real-time multilingual customer service."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the benefits of LLMs in customer experience?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "LLMs enable smarter conversations, personalized responses, 24/7 omnichannel presence, faster support, and real-time customer insights."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why are LLMs better than rule-based bots?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "LLMs go beyond scripted responses, recognizing nuance, history, and emotion, making interactions more natural and customer-centric."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How can I use LLMs in my business for customer support?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Businesses can integrate LLMs into their customer service stack to enhance CX with scalable, multilingual, and intelligent support solutions."
+                        }
+                    }
+                ]
+            }
+        },
         "aithatlistensAlt": "Dynamic digital waves and colorful data streams illustrating technology flow and network connectivity.",
         "seoTitle": "How LLMs Transform Customer Experience with AI | Rialtes",
         "seoDescription": "LLMs, powered by generative AI, are redefining how businesses listen and respond. They go beyond automation, enabling real conversations and transforming CX.",
@@ -3962,6 +4265,92 @@
         "readyDesc2": "We’ll help you build a strategy that’s scalable, secure, and aligned to your goals, whether that’s reducing support load, increasing NPS, or delivering 24/7 multilingual support. Let’s make your customer experience as intelligent as your customers expect it to be. Reach out to us at sales@rialtes.com to start the conversation."
     },
     "whySapSignavio": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
+            "description": "SAP S/4HANA is the digital backbone for enterprises of the future. But to unlock its true potential, organizations need clarity, transparency, and AI-driven insights.",
+            "image": "https://www.rialtes.com/images/blog/digital-data-tunnel-technology-speed-concept.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation"
+            },
+            "datePublished": "2025-06-16",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "S/4HANA Implementation and SAP Signavio FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Isn’t S/4HANA powerful enough on its own? Why do I need Signavio?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "S/4HANA provides the digital core, but without process clarity you risk migrating inefficiencies. Signavio ensures your processes are optimized, standardized, and aligned with SAP best practices before and after the move."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does Signavio reduce risk in an S/4HANA program?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "By providing visibility into “as-is” and “to-be” processes, Signavio prevents scope creep, reduces rework, and enforces governance throughout the transformation."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can Signavio help with faster adoption of S/4HANA?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. With role-based documentation, visual process models, and AI-driven insights from Joule, Signavio simplifies training and empowers business users to adapt quickly."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What specific areas of the business benefit most from Signavio during S/4HANA migration?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Finance, Procurement, Supply Chain, Manufacturing, Sales & Distribution, and HR all benefit through standardized, harmonized processes that drive efficiency and better experiences."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does Signavio work with SAP Cloud ALM?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The integration ensures traceability, KPI tracking, and compliance across the entire program lifecycle—making it easier to manage large-scale transformations."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What happens if we implement S/4HANA without using Signavio?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "You risk carrying over legacy inefficiencies, extending timelines, inflating costs due to rework, and facing poor user adoption."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does Rialtes’ Voyager+ methodology enhance Signavio’s impact?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Voyager+ leverages Signavio at every stage of SAP Activate—from advisory and design to implementation and hypercare—ensuring business outcomes remain front and center."
+                        }
+                    }
+                ]
+            }
+        },
         "bannerAlt": "Blue digital tunnel with binary code and motion blur lights representing high-speed data transfer and technology",
         "seoTitle": "SAP Signavio: Simplifying S/4HANA Implementation Success",
         "seoDescription": "Ready for S/4HANA Implementation? Rialtes’ Voyager+ and SAP Signavio make the journey smooth, transparent, and built for scalable enterprise success.",
@@ -4155,6 +4544,76 @@
         "faqTitle": "FAQs: SAP Signavio S/4HANA Implementation"
     },
     "beyondRobotics": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Beyond Robotic Automation: Why Agents Are the Future of Smart Manufacturing",
+            "description": "Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems.",
+            "image": "https://www.rialtes.com/images/blog/industrial-digital-twin-factory-planning.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": " https://www.rialtes.com/en/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/"
+            },
+            "datePublished": "2025-09-01",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Smart Manufacturing with AI Agents FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What makes AI agents better than RPA in manufacturing?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "RPA handles repetitive tasks based on rules. AI agents understand context, learn from data, and act across systems like ERP, CRM, and IoT—making them better suited for dynamic manufacturing challenges."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can I keep my existing automation setup and add Agentforce?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. Agentforce enhances what you already use by layering intelligence over existing systems. You don’t need to rip and replace."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What kinds of manufacturing processes benefit most from AI agents?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "When augmented by agents, customer service, production scheduling, maintenance, order fulfillment, quality control, and supply chain monitoring all see major gains."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How long does deploying Agentforce in a real-world factory take?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Timelines vary, but most manufacturers start seeing value within weeks by starting with one or two focused use cases—like service case automation or supply chain alerts."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is Agentforce secure for regulated industries like aerospace or pharma?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. Built on Salesforce, Agentforce adheres to enterprise-grade security standards and can be configured to comply with industry-specific regulations."
+                        }
+                    }
+                ]
+            }
+        },
         "bannerAlt": "Professional reviewing industrial digital twin 3D model on tablet for factory layout planning and manufacturing optimization",
         "seoTitle": "Beyond Automation: Why AI Agents Power Smart Manufacturing",
         "seoDescription": "Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems.",
@@ -4901,6 +5360,92 @@
         ]
     },
     "sapPiPo": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "SAP PI PO to CPI Migration: A Complete Guide",
+            "description": "Migrating from SAP PI/PO to SAP BTP Integration Suite is not just limited to re-platforming interfaces; it involves adopting a modern, cloud-native integration backbone.",
+            "image": "https://www.rialtes.com/images/blog/cloud-data-digital-transformation.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide/"
+            },
+            "datePublished": "2025-08-26",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "SAP PI PO to CPI Migration FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Why should we move from PI/PO to CPI?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "PI/PO was designed for an on-premise era and has limitations in cloud-first architectures. CPI is cloud-native, scalable, API-first, and continuously updated."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is CPI just a technical upgrade?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "No. Moving to CPI is a strategic shift toward a cloud-enabled, intelligent enterprise. It allows you to optimize business processes, reduce risk, and leverage AI-driven monitoring."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does CPI support hybrid landscapes?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "CPI connects both SAP cloud solutions (S/4HANA Cloud, SuccessFactors, Ariba, Concur) and on-premise systems, enabling seamless integration across all enterprise applications."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the key benefits of CPI over PI/PO?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "CPI offers cloud-native flexibility, pre-built content, API-first architecture, AI-enabled monitoring, predictive alerts, and lower TCO compared to PI/PO."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How can enterprises migrate without disrupting business processes?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Parallel migration strategies allow PI/PO and CPI interfaces to run simultaneously. Iterative migration, testing, and monitoring ensure business continuity during the transition."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What role do Early Watch Systems (EWS) and alerts play?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "EWS provides predictive diagnostics for bottlenecks, while multi-layered alerts notify teams of SLA breaches, system failures, or business-impacting disruptions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does CPI support KPI tracking and business confidence?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "CPI dashboards track live performance against SLAs, process KPIs, and compliance metrics. Alerts tied to business outcomes ensure enterprises can act immediately when deviations occur."
+                        }
+                    }
+                ]
+            }
+        },
         "bannerAlt": "Glowing neon frame with white clouds and digital particles representing cloud computing and data transformation",
         "seoTitle": "SAP PI PO to SAP CPI Migration: Everything You Need to Know",
         "seoDescription": "Migrating from SAP PI PO to SAP CPI is not a simple upgrade; it’s a transformation toward a cloud-native, intelligent integration backbone.",
@@ -5136,6 +5681,92 @@
         "faqTitle": "FAQs: Migrating from SAP PI PO to SAP CPI Migration"
     },
     "s4HanaSapALM": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "SAP Signavio and Cloud ALM in S/4HANA Transformation",
+            "description": "Pairing SAP Signavio with SAP Cloud ALM ensures control across every phase of the transformation. The closed-loop lifecycle ensures ongoing business value.",
+            "image": "https://www.rialtes.com/images/blog/abstract-data-visualization-digital-wave-technology.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm"
+            },
+            "datePublished": "2025-03-25",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "SAP Signavio and Cloud ALM in S/4HANA Transformation FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Why do I need both SAP Signavio and SAP Cloud ALM?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Signavio ensures clarity and standardization at the process design level, while Cloud ALM enforces governance and traceability during execution. Together, they connect strategy to delivery—something neither tool achieves alone."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does this pairing strengthen governance?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Signavio defines standardized processes and aligns stakeholders around them. Cloud ALM ensures those processes are executed as designed by governing requirements, changes, and testing. Governance moves from theory to practice."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What does traceability mean in an S/4HANA program, and how do these tools enable it?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Traceability is the ability to connect every business requirement and process decision to a corresponding system configuration and test case. Signavio documents the blueprint, while Cloud ALM links it to execution—creating a golden thread across the program."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can these tools help us avoid scope creep and budget overruns?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. By aligning business and IT around “to-be” processes (Signavio) and managing every change through controlled workflows (Cloud ALM), the pairing reduces undocumented deviations, rework, and missed deadlines."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do Signavio and Cloud ALM support KPI tracking?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Signavio defines baseline and target KPIs through process mining and modeling. Cloud ALM then validates those KPIs during testing and monitors them post go-live through live dashboards—closing the loop between design and business outcomes."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What happens if we implement S/4HANA without Signavio and Cloud ALM?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "You risk migrating inefficiencies, losing control over scope, inflating costs due to rework, and lacking measurable proof of ROI. In short, you may go live, but the transformation won’t deliver its full value."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Where does Rialtes add value in this journey?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Rialtes uses its Voyager+ methodology to embed Signavio and Cloud ALM into every stage of SAP Activate. This ensures process clarity, execution governance, and KPI measurement are not just set up, but sustained."
+                        }
+                    }
+                ]
+            }
+        },
         "bannerAlt": "Abstract digital mountain formed by flowing blue pink and purple light waves with particle dots on dark background",
         "seoTitle": "How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation",
         "seoDescription": "Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution for successful S/4HANA transformation.",
@@ -5284,6 +5915,76 @@
         "faqTitle": "FAQs: SAP Signavio + SAP Cloud ALM in S/4HANA"
     },
     "aiPatient": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "AI Patient Engagement: How Smart Agents Simplify Care",
+            "description": "AI for patient engagement simplifies remote care by delivering real-time insights, smart escalations, and personalized healthcare experiences.",
+            "image": "https://www.rialtes.com/images/blog/futuristic-medical-technology-innovation.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/ai-patient-engagement-medtech-remote-care/"
+            },
+            "datePublished": "2025-09-09",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "AI for Patient Engagement with Smart Agents FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is AI for patient engagement?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "AI for patient engagement uses intelligent agents to provide personalized care, automate monitoring, and support real-time communication between patients and providers."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do smart agents simplify patient care?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Smart agents simplify care by automating routine tasks, providing real-time insights, escalating urgent issues, and ensuring continuous patient support."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why is AI important for MedTech and remote healthcare?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "AI enhances MedTech by improving remote monitoring, reducing provider workload, enabling predictive insights, and personalizing patient care journeys."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can AI improve patient-provider communication?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, AI-powered agents enable two-way communication with reminders, symptom tracking, and instant escalations, leading to stronger patient engagement."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the benefits of AI for patient engagement?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The benefits include simplified care delivery, proactive interventions, reduced errors, enhanced personalization, and improved patient satisfaction."
+                        }
+                    }
+                ]
+            }
+        },
         "bannerAlt": "Digital medical innovation showing human anatomy and AI analysis through interactive 3D holographic interface.",
         "seoTitle": "AI Patient Engagement: How Smart Agents Simplify Care | Rialtes",
         "seoDescription": "Discover how AI for patient engagement helps MedTech streamline monitoring, simplify workflows, and enhance patient-provider interactions with ease.",
@@ -5425,6 +6126,84 @@
         "faqTitle": "FAQs: AI in Patient Engagement"
     },
     "agentforceIndustry4": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "How Agentforce AI Enables Zero Downtime Manufacturing",
+            "description": "Agentforce AI helps manufacturers prevent unplanned downtime with predictive intelligence, ensuring zero disruption and 24/7 operational efficiency.",
+            "image": "https://www.rialtes.com/images/blog/industry-4-automation-technology.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing/"
+            },
+            "datePublished": "2025-09-08",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "How Agentforce AI Enables Zero Downtime Manufacturing FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What makes Agentforce different from traditional predictive maintenance solutions?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Agentforce combines IoT insights with service histories, warranty claims, and Salesforce Field Service workflows to predict failures and act automatically."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can Agentforce work with existing IoT and ERP systems?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, Agentforce integrates with existing IoT platforms, MES, and ERP systems without requiring a rip-and-replace approach."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does Agentforce reduce unplanned downtime?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "It detects early failure signals, forecasts parts demand, and dispatches the right technician before issues escalate, reducing downtime by up to 30–40%."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is Agentforce scalable for mid-sized manufacturers?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, mid-sized manufacturers can start small and expand to multi-site predictive intelligence as their operations grow."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does Agentforce improve customer experience?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "It keeps customers informed with proactive updates, ensures parts and technicians are ready in advance, and minimizes service interruptions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can Agentforce support new business models like Equipment-as-a-Service?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, predictive capabilities allow uptime guarantees, subscription-based maintenance, or outcome-driven service contracts, turning service into a revenue stream."
+                        }
+                    }
+                ]
+            }
+        },
         "bannerAlt": "Advanced Industry 4.0 automation with robotic arm, digital data overlay, and futuristic manufacturing interface.",
         "seoTitle": "How Agentforce AI Enables Zero Downtime Manufacturing | Rialtes",
         "seoDescription": "Agentforce AI helps manufacturers prevent unplanned downtime with predictive intelligence, ensuring zero disruption and 24/7 operational efficiency.",
@@ -5732,6 +6511,76 @@
         "faqTitle": "FAQs: Frequently Asked Questions"
     },
     "ecommerceDataCloud": {
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Ecommerce in Salesforce: Driving Loyalty with Data Cloud | Rialtes",
+            "description": "Salesforce Data Cloud centralizes customer data, enabling businesses to predict behaviors, personalize experiences, and make real-time decisions.",
+            "image": "https://www.rialtes.com/images/blog/data-cloud-ecom-desktop-banner.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty/"
+            },
+            "datePublished": "2025-09-12",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Ecommerce in Salesforce with Data Cloud FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Salesforce Data Cloud used for in e-commerce?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Salesforce Data Cloud centralizes customer data, enabling businesses to predict behaviors, personalize experiences, and make real-time decisions. It is particularly powerful for ecommerce in Salesforce, where unified data leads to smarter personalization."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does predictive analytics improve customer experience in e-commerce?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Predictive analytics anticipates needs, recommends relevant products, and provides real-time insights that make interactions feel more personal and proactive."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can Salesforce Data Cloud help reduce cart abandonment?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. By detecting abandoned carts in real time, Salesforce Data Cloud can trigger personalized emails, discounts, or alerts that encourage customers to complete their purchases."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does Einstein AI fit into Salesforce Data Cloud?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Einstein AI powers predictive models, NLP sentiment analysis, and automated decision-making within Salesforce Data Cloud to enhance personalization and efficiency."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why is real-time data important for predictive e-commerce?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Real-time insights enable instant adjustments to pricing, promotions, and recommendations, keeping customers engaged and reducing churn."
+                        }
+                    }
+                ]
+            }
+        },
         "bannerAlt": "Banner showing Salesforce Data Cloud enabling predictive e-commerce and boosting customer loyalty. ",
         "seoTitle": "Ecommerce in Salesforce: Driving Loyalty with Data Cloud | Rialtes",
         "seoDescription": "Salesforce Data Cloud unifies customer data to power predictive insights, helping businesses drive ecommerce loyalty and real-time personalization.",

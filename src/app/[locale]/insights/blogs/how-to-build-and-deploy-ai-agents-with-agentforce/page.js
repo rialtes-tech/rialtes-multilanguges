@@ -57,81 +57,11 @@ export default function Page() {
     whatPowerData,
     whatKindData,
     keepYourData,
-    readyData
+    readyData,
+    schemaData
   } = blogsContent.firstAiAgent;
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce";
   const currUrl = useUrl();
-
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "How to Build and Deploy Your First AI Agent with Agentforce",
-    "description": "This step-by-step guide shows how to build and deploy AI agents in Salesforce Agentforce without coding, using visual tools, templates, and workflows.",
-    "image": "https://www.rialtes.com/images/blog/artificial-intelligence-data-visualization.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "Rialtes"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Rialtes",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.rialtes.com/images/homepage/logo.svg"
-      }
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/"
-    },
-    "datePublished": "2025-09-02",
-    "mainEntity": {
-      "@type": "FAQPage",
-      "name": "Building and Deploying AI Agents in Agentforce FAQs",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Agentic AI and why does it matter?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Agentic AI goes beyond simple automation. It enables agents to reason, plan, act, and adapt—essentially acting as digital coworkers rather than bots."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I build AI agents in Salesforce without coding?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Agentforce Agent Builder offers a drag-and-drop, low-code interface to build AI agents using templates, workflows, and prompt builder tools."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the steps to build and deploy an AI agent in Agentforce?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The process includes defining the agent’s purpose, setting up Agentforce, structuring logic with Agent Builder, training the agent, building conversations, integrating systems, testing, and deploying."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What kind of AI agents can be built with Agentforce?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can build customer support agents, sales assistants, HR and recruitment bots, finance agents, IT helpdesk bots, marketing agents, and compliance monitors."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I keep my AI agent effective after deployment?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ensure continuous learning with new data, run regular security reviews, add integrations as needs evolve, and monitor key performance metrics like resolution rates and user satisfaction."
-          }
-        }
-      ]
-    }
-  }
   return (
     <div className="min-h-screen">
       <Seo

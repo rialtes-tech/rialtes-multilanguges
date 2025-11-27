@@ -13,81 +13,6 @@ import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline:
-    "Beyond Robotic Automation: Why Agents Are the Future of Smart Manufacturing",
-  description:
-    "Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems.",
-  image:
-    "https://www.rialtes.com/images/blog/industrial-digital-twin-factory-planning.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      " https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/",
-  },
-  datePublished: "2025-09-01",
-  mainEntity: {
-    "@type": "FAQPage",
-    name: "Smart Manufacturing with AI Agents FAQs",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What makes AI agents better than RPA in manufacturing?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "RPA handles repetitive tasks based on rules. AI agents understand context, learn from data, and act across systems like ERP, CRM, and IoT—making them better suited for dynamic manufacturing challenges.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can I keep my existing automation setup and add Agentforce?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. Agentforce enhances what you already use by layering intelligence over existing systems. You don’t need to rip and replace.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What kinds of manufacturing processes benefit most from AI agents?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "When augmented by agents, customer service, production scheduling, maintenance, order fulfillment, quality control, and supply chain monitoring all see major gains.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How long does deploying Agentforce in a real-world factory take?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Timelines vary, but most manufacturers start seeing value within weeks by starting with one or two focused use cases—like service case automation or supply chain alerts.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Is Agentforce secure for regulated industries like aerospace or pharma?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. Built on Salesforce, Agentforce adheres to enterprise-grade security standards and can be configured to comply with industry-specific regulations.",
-        },
-      },
-    ],
-  },
-};
-
 export default function Page() {
   const t = useTranslations("beyondRobotics");
   const locale = useLocale();
@@ -105,7 +30,9 @@ export default function Page() {
     agenticData,
     readyToUpgradeData,
     faqData,
-    readyDesc
+    readyDesc,
+    schemaData
+
   } = blogsContent.beyondRobotics;
   const fullUrl = "https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/";
   const currUrl = useUrl();
