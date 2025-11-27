@@ -13,80 +13,6 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 
 export default function Page() {
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline:
-      "5 Signs You’re Ready to Implement AI Agents in Manufacturing Operations | Rialtes",
-    description:
-      "AI agents represent not just a new tool, but a fundamental shift in how work is performed, decisions are made, and problems are solved.",
-    image:
-      "https://www.rialtes.com/images/blog/ai-agents-in-manufacturing.webp",
-    author: {
-      "@type": "Organization",
-      name: "Rialtes",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Rialtes",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.rialtes.com/images/homepage/logo.svg",
-      },
-    },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id":
-        "https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/",
-    },
-    datePublished: "2025-09-17",
-    mainEntity: {
-      "@type": "FAQPage",
-      name: "AI Agents in Manufacturing FAQs",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "How are AI agents different from regular automation?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Regular automation follows set rules and scripts. AI agents adapt based on context, learn from outcomes, and can make decisions autonomously within defined parameters.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Do I need a complete system overhaul to use AI agents?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Not necessarily. Modern AI agents can integrate with your existing ERP, MES, and CRM systems, allowing gradual adoption.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Are AI agents only for large-scale manufacturers?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "No. Mid-sized manufacturers often see the fastest ROI because AI agents reduce the need for additional headcount and infrastructure.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How long before AI agents start showing results?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "For well-scoped implementations, you can see measurable improvements in lead times, uptime, and service response within 3–6 months.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What risks should I consider before adopting AI agents?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Key considerations include data quality, integration complexity, and setting clear boundaries for autonomous actions to avoid unintended outcomes.",
-          },
-        },
-      ],
-    },
-  };
   const t = useTranslations("fiveSigns");
   const locale = useLocale();
   const Content = changeLocalization(locale, {
@@ -94,7 +20,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { mainData, payoffData, commonData, faqs } = Content.fiveSigns;
+  const { mainData, payoffData, commonData, faqs, schemaData } = Content.fiveSigns;
   const fullUrl = "https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations";
   const currUrl = useUrl();
 
