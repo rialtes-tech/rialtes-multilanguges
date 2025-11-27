@@ -10,6 +10,16 @@ export default function page({ url }) {
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
         {
+            "id": 57,
+            "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
+            "category": "SAP SuccessFactor",
+            "industry": "HRMS",
+            "date": "Nov. 27, 2025",
+            "url": "/sap-successfactors-services-hr-transformation/",
+            "title": "How SAP SuccessFactors Services Leverage Data & AI to Transform Modern HR",
+            "description": "In 2025, a quiet revolution is transforming the way HR operates. The field of HR is evolving continuously. Expectations have changed, not in the sensational ways that make headlines each week, but through a more subtle, systemic shift."
+        },
+        {
             "id": 56,
             "image": "/images/blog/digital-touchscreen-technology-mobile.webp",
             "category": "MediAIna",
