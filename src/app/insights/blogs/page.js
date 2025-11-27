@@ -24,7 +24,6 @@ const schemaData = {
       "url": "https://www.rialtes.com/images/homepage/logo.svg"
     }
   }
-
 }
 
 const allIndustries = [
@@ -66,7 +65,8 @@ const latestBlogs = [
     image: "/images/blog/digital-medical-hologram-feature-thumb.webp",
     category: "MediAIna",
     industry: "Life Sciences",
-    date: "25 Nov. 2025",
+    date: "Nov. 25, 2025",
+    alt:"Doctor interacting with holographic medical data and 3D health visuals in a futuristic digital lab",
     url: '/how-digital-innovation-transforms-clinical-trial-management/',
     title: "How Digital Innovation is Transforming Clinical Trial Management",
     description: "Clinical trials have always been the core of medical progress. But here’s the bitter truth: usual trials are often slow, expensive, and feel disconnected from the digital-first world in which patients now live",
