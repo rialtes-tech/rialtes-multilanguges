@@ -10,17 +10,26 @@ export default function page({ url }) {
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
         {
-    id: 58,
-    image: "/images/blog/digital-medical-hologram-feature-thumb.webp",
-    category: "MediAIna",
-    industry: "Life Sciences",
-    date: "Nov. 25, 2025",
-    alt:"Doctor interacting with holographic medical data and 3D health visuals in a futuristic digital lab",
-    url: '/how-digital-innovation-transforms-clinical-trial-management/',
-    title: "How Digital Innovation is Transforming Clinical Trial Management",
-    alt:"Digital medical hologram representing modern clinical trial technologies and innovations in life sciences research.",
-    description: "Clinical trials have always been the core of medical progress. But here’s the bitter truth: usual trials are often slow, expensive, and feel disconnected from the digital-first world in which patients now live",
-  },
+            "id": 57,
+            "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
+            "category": "SAP SuccessFactor",
+            "industry": "HRMS",
+            "date": "Nov. 27, 2025",
+            "url": "/sap-successfactors-services-hr-transformation/",
+            "title": "How SAP SuccessFactors Services Leverage Data & AI to Transform Modern HR",
+            "description": "In 2025, a quiet revolution is transforming the way HR operates. The field of HR is evolving continuously. Expectations have changed, not in the sensational ways that make headlines each week, but through a more subtle, systemic shift."
+        },
+        {
+            id: 58,
+            image: "/images/blog/digital-medical-hologram-feature-thumb.webp",
+            category: "MediAIna",
+            industry: "Life Sciences",
+            date: "25 Nov. 2025",
+            url: '/how-digital-innovation-transforms-clinical-trial-management/',
+            title: "How Digital Innovation is Transforming Clinical Trial Management",
+            alt: "Digital medical hologram representing modern clinical trial technologies and innovations in life sciences research.",
+            description: "Clinical trials have always been the core of medical progress. But here’s the bitter truth: usual trials are often slow, expensive, and feel disconnected from the digital-first world in which patients now live",
+        },
         {
             "id": 56,
             "image": "/images/blog/digital-touchscreen-technology-mobile.webp",
@@ -29,7 +38,7 @@ export default function page({ url }) {
             "date": "Nov. 20, 2025",
             "url": "/ai-in-clinical-trials-rare-disease-enrolment/",
             "title": "5 Proven Ways AI Accelerates Patient Enrolment in Rare Disease Clinical Trials",
-            "alt":"Person interacting with digital touchscreen interface displaying AI and futuristic technology elements",
+            "alt": "Person interacting with digital touchscreen interface displaying AI and futuristic technology elements",
             "description": "Clinical trials are the lifeblood of medical innovation, especially when it comes to rare diseases. Yet, one of the biggest hurdles in developing new therapies isn’t the science"
         },
         {
@@ -40,7 +49,7 @@ export default function page({ url }) {
             date: "Nov. 19, 2024",
             url: '/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/',
             title: "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
-            alt:"Digital brain circuit illustration with glowing connections on dark blue tech background showing AI concept",
+            alt: "Digital brain circuit illustration with glowing connections on dark blue tech background showing AI concept",
             description: "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems.  Salesforce Agentforce provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
         },
         {
@@ -51,7 +60,7 @@ export default function page({ url }) {
             date: "Nov. 12, 2025",
             url: "/boost-enterprise-agility-with-sap-consulting-implementation-services/",
             title: "Boost Enterprise Agility with Tailored SAP Consulting and Implementation Services",
-            alt:"Hand interacting with digital network nodes representing SAP-powered enterprise agility.",
+            alt: "Hand interacting with digital network nodes representing SAP-powered enterprise agility.",
             description: "Today, adaptability defines survival; custom SAP development has become a core driver of enterprise agility and growth. "
         },
         {
@@ -62,7 +71,7 @@ export default function page({ url }) {
             date: "Nov. 11, 2025",
             url: "/sap-implementation-strategies-for-2026-success/",
             title: "Proven SAP Implementation Strategies that Minimize Risk and Accelerate ROI",
-            alt:"Smart city illustration connected through cloud systems and unified SAP data architecture.",
+            alt: "Smart city illustration connected through cloud systems and unified SAP data architecture.",
             description: "We know that implementing SAP isn’t just about upgrading a system. It’s about reshaping how an enterprise operates,from finance and supply chain to HR and customer experience."
         },
         {
@@ -73,7 +82,7 @@ export default function page({ url }) {
             date: "Nov. 10, 2025",
             url: "/why-enterprises-choose-sap-consulting-partners/",
             title: "Why Leading Enterprises Choose Top SAP Consulting Partners for Growth and Innovation",
-            alt:"Person walking through a digital pathway symbolizing an AI-driven transformation journey.",
+            alt: "Person walking through a digital pathway symbolizing an AI-driven transformation journey.",
             description: "Enterprises have been operating in a complex landscape with scattered data, legacy systems, siloed teams, and mounting customer expectations."
         },
         {
@@ -84,7 +93,7 @@ export default function page({ url }) {
             date: "Nov. 04, 2025",
             url: "/what-does-a-single-source-of-truth-mean-for-real-estate/",
             title: "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
-            alt:"Real estate analytics interface illustrating integrated data for a single source of truth",
+            alt: "Real estate analytics interface illustrating integrated data for a single source of truth",
             description: "In property management, it’s rarely the big things that slow teams down. It’s the countless small inefficiencies, mismatched lease data, duplicate records, or time wasted verifying spreadsheets. "
         },
         {
@@ -95,7 +104,7 @@ export default function page({ url }) {
             date: "Nov. 03, 2025",
             url: "/erp-crm-convergence-real-estate-leaders-guide/",
             title: "CRM + ERP Convergence: How Real Estate Leaders Break System Silos and Cut Costs",
-            alt:"Cloud dashboard showing AI-enabled real estate operations and integrated property systems",
+            alt: "Cloud dashboard showing AI-enabled real estate operations and integrated property systems",
             description: "Here’s something every property leader already knows but rarely says out loud: the technology stack that was meant to simplify operations has ended up complicating it."
         },
         {
@@ -106,7 +115,7 @@ export default function page({ url }) {
             date: "Oct. 31, 2025",
             url: "/smart-api-integrations-for-real-estate-2026/",
             title: "5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
-            alt:"Tech puzzle graphic showing key API integrations that support real estate digital growth.",
+            alt: "Tech puzzle graphic showing key API integrations that support real estate digital growth.",
             description: "Every real estate business hits a wall at some point, usually when its systems stop talking to each other. You’ve got a property management tool here, a finance system there, and a CRM somewhere else holding your lead data hostage. "
         },
 
@@ -118,7 +127,7 @@ export default function page({ url }) {
             "date": "Oct. 27, 2025",
             "url": "/tracking-service-level-agreements-without-losing-mind/",
             "title": "How Do You Track SLAs and Billing Without Losing Your Mind?",
-            "alt":"AI dashboard tracking SLAs and automated billing to improve service accuracy and efficiency.",
+            "alt": "AI dashboard tracking SLAs and automated billing to improve service accuracy and efficiency.",
             "description": " A service-level agreement (SLA) outlines the expected level of service from a vendor. It specifies the metrics used to measure that service and the remedies available if the agreed-upon service levels are not met."
         },
         {
@@ -129,7 +138,7 @@ export default function page({ url }) {
             date: "Oct. 20, 2025",
             url: "/conversational-ai-in-real-estate-scale-resident-support/",
             title: "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
-            alt:"AI chatbot interface supporting real estate teams with automated responses and tenant assistance",
+            alt: "AI chatbot interface supporting real estate teams with automated responses and tenant assistance",
             description: "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries,"
         },
         {
@@ -140,7 +149,7 @@ export default function page({ url }) {
             date: "Oct. 13, 2025",
             url: "/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
             title: "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
-            alt:"AI dashboard predicting equipment issues to reduce downtime in property operations",
+            alt: "AI dashboard predicting equipment issues to reduce downtime in property operations",
             description: "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity."
         },
         {
@@ -151,7 +160,7 @@ export default function page({ url }) {
             date: "Oct. 10, 2025",
             url: "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/",
             title: "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
-            alt:"Salesforce cloud icons showing enterprise system connections for CRM optimization.",
+            alt: "Salesforce cloud icons showing enterprise system connections for CRM optimization.",
             description: "Salesforce has become the foundation for modern enterprise CRM solutions, helping organizations unify data, streamline processes, and deliver personalized customer experiences. "
         }
 
