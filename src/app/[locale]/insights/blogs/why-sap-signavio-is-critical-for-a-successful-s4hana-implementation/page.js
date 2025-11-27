@@ -14,96 +14,6 @@ import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCa
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline:
-    "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
-  description:
-    "SAP S/4HANA is the digital backbone for enterprises of the future. But to unlock its true potential, organizations need clarity, transparency, and AI-driven insights.",
-  image: "https://www.rialtes.com/images/blog/digital-data-tunnel-technology-speed-concept.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation",
-  },
-  datePublished: "2025-06-16",
-
-  mainEntity: {
-    "@type": "FAQPage",
-    name: "S/4HANA Implementation and SAP Signavio FAQs",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "Isn’t S/4HANA powerful enough on its own? Why do I need Signavio?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "S/4HANA provides the digital core, but without process clarity you risk migrating inefficiencies. Signavio ensures your processes are optimized, standardized, and aligned with SAP best practices before and after the move.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does Signavio reduce risk in an S/4HANA program?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "By providing visibility into “as-is” and “to-be” processes, Signavio prevents scope creep, reduces rework, and enforces governance throughout the transformation.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can Signavio help with faster adoption of S/4HANA?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. With role-based documentation, visual process models, and AI-driven insights from Joule, Signavio simplifies training and empowers business users to adapt quickly.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What specific areas of the business benefit most from Signavio during S/4HANA migration?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Finance, Procurement, Supply Chain, Manufacturing, Sales & Distribution, and HR all benefit through standardized, harmonized processes that drive efficiency and better experiences.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does Signavio work with SAP Cloud ALM?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The integration ensures traceability, KPI tracking, and compliance across the entire program lifecycle—making it easier to manage large-scale transformations.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What happens if we implement S/4HANA without using Signavio?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "You risk carrying over legacy inefficiencies, extending timelines, inflating costs due to rework, and facing poor user adoption.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does Rialtes’ Voyager+ methodology enhance Signavio’s impact?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Voyager+ leverages Signavio at every stage of SAP Activate—from advisory and design to implementation and hypercare—ensuring business outcomes remain front and center.",
-        },
-      },
-    ],
-  },
-};
 
 export default function Page() {
   const t = useTranslations("whySapSignavio");
@@ -123,6 +33,7 @@ export default function Page() {
     domainsPoints,
     riskPoints,
     faqData,
+    schemaData
   } = blogsContent.whySapSignavio;
   const fullUrl = "https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/";
 

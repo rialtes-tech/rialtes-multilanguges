@@ -13,97 +13,14 @@ import UnorderedList from "@/app/[locale]/components/unorderedList";
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "From Factory to Feedback: How Agentforce AI Elevates Customer Experience in Manufacturing",
-    "description": "Agentforce for manufacturers reimagines Customer Experience with AI agents that predict disruptions, automate resolutions, and deliver smarter, seamless customer journeys.",
-    "image": " https://www.rialtes.com/images/blog/technology-team-collaboration-command-center.webp",
-    "author": {
-        "@type": "Organization",
-        "name": "Rialtes"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
-        }
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/"
-    },
-    "datePublished": "2025-08-22",
 
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Agentforce, and how does it help manufacturers improve customer experience?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agentforce is an AI-powered platform built on Salesforce that enables manufacturers to deploy intelligent agents across sales, service, and operations. These agents monitor real-time data, predict customer-impacting issues, automate responses, and personalize engagement."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How does Agentforce detect and respond to problems before customers complain?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agentforce connects to ERP, CRM, and IoT systems to monitor operational signals like machine downtime, delivery delays, or part shortages. When a risk is detected, AI agents automatically notify account managers, trigger alerts, and in some cases, inform customers before the issue escalates."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can Agentforce be integrated with existing systems like Salesforce CPQ or Manufacturing Cloud?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Agentforce is natively built for Salesforce and integrates seamlessly with tools like Salesforce CPQ, Service Cloud, Manufacturing Cloud, and even third-party systems. It enhances existing workflows without requiring a complete system overhaul."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How does Agentforce improve case resolution in manufacturing service centers?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agentforce uses AI agents to triage, route, and auto-fill service tickets based on priority, product history, and customer profile. It reduces resolution time by directing cases to the right reps or resolving simple issues autonomously."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Is Agentforce suitable for small and mid-sized manufacturing businesses, or just enterprises?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Agentforce scales easily across businesses of all sizes. For mid-sized manufacturers looking to modernize without large IT investments, it offers modular deployment, so you can start small and expand as you grow."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What kind of ROI can manufacturers expect from using Agentforce?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "While ROI varies by use case, manufacturers typically see measurable gains in first-response times, reduced service costs, and improved Net Promoter Scores (NPS). More importantly, Agentforce boosts customer loyalty by making every interaction faster, more informed, and more human."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Is Agentforce secure and compliant for regulated industries?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Agentforce adheres to Salesforce’s enterprise-grade security protocols and can be deployed in compliance with industry regulations like ISO, SOC 2, and HIPAA, making it suitable for manufacturers in aerospace, medical devices, automotive, and more."
-            }
-        }
-    ]
-
-}
 
 export default function Page() {
     const t = useTranslations('factoryToFeedback')
     const currUrl = useUrl()
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { faqs, mainData, bestAiToolsDesc, bestAiToolsData, intelligentDesc, intelligentData, businessData, postSaleData, postSaleData2, rialtesTalkData, consistencyData, readyData } = blogsContent.factoryToFeedback;
+    const { faqs, mainData, bestAiToolsDesc, bestAiToolsData, intelligentDesc, intelligentData,schemaData, businessData, postSaleData, postSaleData2, rialtesTalkData, consistencyData, readyData } = blogsContent.factoryToFeedback;
     const fullUrl = "https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/";
 
     return (

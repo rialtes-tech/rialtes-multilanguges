@@ -12,93 +12,6 @@ import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
 import Link from "next/link";
-
-const schemaData =  {
- "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "How Large Language Models Are Transforming Customer Experience",
-  "description": "LLMs, powered by generative AI, are redefining how businesses listen and respond. They go beyond automation. They enable real conversation.",
-  "image": "https://www.rialtes.com/images/blog/abstract-digital-waves-and-data-flow.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience/"
-  },
-  "datePublished": "2025-09-10",
-  "mainEntity": {
-    "@type": "FAQPage",
-    "name": "How Large Language Models Are Transforming Customer Experience FAQs",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is a large language model and how does it work?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Large Language Models (LLMs) are advanced agentic AI systems trained on massive amounts of text data to understand and generate natural language."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How are AI chatbots different from traditional bots?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Unlike rule-based bots, LLMs interpret context, tone, and sentiment, enabling more human-like, personalized, and effective conversations."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can AI personalize customer service?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, LLMs can analyze CRM data, order history, and past interactions to deliver tailored and proactive customer support."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How does generative AI help with multilingual support?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "LLMs with built-in translation capabilities break language barriers, enabling real-time multilingual customer service."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What are the benefits of LLMs in customer experience?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "LLMs enable smarter conversations, personalized responses, 24/7 omnichannel presence, faster support, and real-time customer insights."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Why are LLMs better than rule-based bots?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "LLMs go beyond scripted responses, recognizing nuance, history, and emotion, making interactions more natural and customer-centric."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How can I use LLMs in my business for customer support?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Businesses can integrate LLMs into their customer service stack to enhance CX with scalable, multilingual, and intelligent support solutions."
-        }
-      }
-    ]
-  }
-}
 export default function Page() {
   const t = useTranslations("aiThatListens");
   const locale = useLocale();
@@ -116,6 +29,7 @@ export default function Page() {
     voiceSearchData,
     fromChatbotsData,
     readyData,
+    schemaData
   } = blogsContent.aiThatListens;
 
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience";

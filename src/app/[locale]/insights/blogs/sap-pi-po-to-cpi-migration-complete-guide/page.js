@@ -14,97 +14,6 @@ import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import useUrl from "@/app/[locale]/components/useUrl";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "SAP PI PO to CPI Migration: A Complete Guide",
-  description:
-    "Migrating from SAP PI/PO to SAP BTP Integration Suite is not just limited to re-platforming interfaces; it involves adopting a modern, cloud-native integration backbone.",
-  image:
-    "https://www.rialtes.com/images/blog/cloud-data-digital-transformation.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide/",
-  },
-  datePublished: "2025-08-26",
-
-  mainEntity: {
-    "@type": "FAQPage",
-    name: "SAP PI PO to CPI Migration FAQs",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "Why should we move from PI/PO to CPI?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "PI/PO was designed for an on-premise era and has limitations in cloud-first architectures. CPI is cloud-native, scalable, API-first, and continuously updated.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Is CPI just a technical upgrade?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "No. Moving to CPI is a strategic shift toward a cloud-enabled, intelligent enterprise. It allows you to optimize business processes, reduce risk, and leverage AI-driven monitoring.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does CPI support hybrid landscapes?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "CPI connects both SAP cloud solutions (S/4HANA Cloud, SuccessFactors, Ariba, Concur) and on-premise systems, enabling seamless integration across all enterprise applications.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What are the key benefits of CPI over PI/PO?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "CPI offers cloud-native flexibility, pre-built content, API-first architecture, AI-enabled monitoring, predictive alerts, and lower TCO compared to PI/PO.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How can enterprises migrate without disrupting business processes?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Parallel migration strategies allow PI/PO and CPI interfaces to run simultaneously. Iterative migration, testing, and monitoring ensure business continuity during the transition.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What role do Early Watch Systems (EWS) and alerts play?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "EWS provides predictive diagnostics for bottlenecks, while multi-layered alerts notify teams of SLA breaches, system failures, or business-impacting disruptions.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does CPI support KPI tracking and business confidence?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "CPI dashboards track live performance against SLAs, process KPIs, and compliance metrics. Alerts tied to business outcomes ensure enterprises can act immediately when deviations occur.",
-        },
-      },
-    ],
-  },
-};
-
 export default function Page() {
   const t = useTranslations("sapPiPo");
   const locale = useLocale();
@@ -123,6 +32,7 @@ export default function Page() {
     faqs,
     piPoServedData,
     multilayerData,
+    schemaData
   } = content.sapPiPo;
 
   const fullUrl = "https://www.rialtes.com/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide";

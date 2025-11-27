@@ -13,87 +13,6 @@ import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "How Agentforce AI Enables Zero Downtime Manufacturing",
-  description:
-    "Agentforce AI helps manufacturers prevent unplanned downtime with predictive intelligence, ensuring zero disruption and 24/7 operational efficiency.",
-  image: "https://www.rialtes.com/images/blog/industry-4-automation-technology.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing/",
-  },
-  datePublished: "2025-09-08",
-  mainEntity: {
-    "@type": "FAQPage",
-    name: "How Agentforce AI Enables Zero Downtime Manufacturing FAQs",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What makes Agentforce different from traditional predictive maintenance solutions?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Agentforce combines IoT insights with service histories, warranty claims, and Salesforce Field Service workflows to predict failures and act automatically.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can Agentforce work with existing IoT and ERP systems?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes, Agentforce integrates with existing IoT platforms, MES, and ERP systems without requiring a rip-and-replace approach.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does Agentforce reduce unplanned downtime?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "It detects early failure signals, forecasts parts demand, and dispatches the right technician before issues escalate, reducing downtime by up to 30–40%.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Is Agentforce scalable for mid-sized manufacturers?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes, mid-sized manufacturers can start small and expand to multi-site predictive intelligence as their operations grow.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does Agentforce improve customer experience?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "It keeps customers informed with proactive updates, ensures parts and technicians are ready in advance, and minimizes service interruptions.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can Agentforce support new business models like Equipment-as-a-Service?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes, predictive capabilities allow uptime guarantees, subscription-based maintenance, or outcome-driven service contracts, turning service into a revenue stream.",
-        },
-      },
-    ],
-  },
-};
-
 export default function Page() {
   const t = useTranslations("agentforceIndustry4");
   const locale = useLocale();
@@ -109,6 +28,7 @@ export default function Page() {
     readyData,
     impactData2,
     faqs,
+    schemaData
   } = blogsContent.agentforceIndustry4;
   const currUrl = useUrl();
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing";
