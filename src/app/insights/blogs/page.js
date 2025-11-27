@@ -72,6 +72,16 @@ const latestBlogs = [
     "description": "In 2025, a quiet revolution is transforming the way HR operates. The field of HR is evolving continuously. Expectations have changed, not in the sensational ways that make headlines each week, but through a more subtle, systemic shift."
   },
   {
+    id: 58,
+    image: "/images/blog/digital-medical-hologram-feature-thumb.webp",
+    category: "MediAIna",
+    industry: "Life Sciences",
+    date: "25 Nov. 2025",
+    url: '/how-digital-innovation-transforms-clinical-trial-management/',
+    title: "How Digital Innovation is Transforming Clinical Trial Management",
+    description: "Clinical trials have always been the core of medical progress. But here’s the bitter truth: usual trials are often slow, expensive, and feel disconnected from the digital-first world in which patients now live",
+  },
+  {
     "id": 56,
     "image": "/images/blog/digital-touchscreen-technology-mobile.webp",
     "category": "MediAIna",
