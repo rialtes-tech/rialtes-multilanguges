@@ -302,7 +302,7 @@ export default function Page() {
               <div className="xl:mt-[38px] mt-[33px]">
                 {blogMainData.map((data, ind) => {
                   return (
-                    <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                    <p key={data} className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                       {data}{" "}
                     </p>
                   );
@@ -312,7 +312,7 @@ export default function Page() {
                   alt="Infographic showing India supplies 20% global generic exports, 40% US generic demand, 25% UK medicines"
                   width={0}
                   height={0}
-                  className="xl:w-full h-full w-full relative xl:right-[64px] lg:right-[55px]  md:w-[80%]"
+                  className="4xl:w-[80%] 2xl:w-[70%] xl:w-[72%] h-full w-full relative 4xl:right-[64px] 2xl:right-[42px] xl:right-[38px] lg:right-[55px]  md:w-[80%]"
                 />
               </div>
               {/* Quick Answer */}
