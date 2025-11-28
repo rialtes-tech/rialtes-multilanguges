@@ -12,6 +12,7 @@ import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
 
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/sap-successfactors-services-hr-transformation";
@@ -20,7 +21,13 @@ export default function Page() {
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { mainData, whatThisData, powerData, whatDoesData, coreData, whereSuccessData, faqData, schemaData } = blogsContent.successFactorHR;
+    const { frActive, esActive, enActive } = useActiveLocale();
 
+    const getImage = () => {
+        if (esActive) return "/images/blog/SAP-SuccessFactors-Consultant-Responsibilities-Spanish.webp";
+        if (frActive) return "/images/blog/SAP-SuccessFactors-Consultant-Responsibilities-French.webp";
+        return "/images/blog/SAP-SuccessFactors-Consultant-Responsibilities.webp"; // default EN
+    };
     return (
         <section className="min-h-screen">
             <Seo
@@ -143,7 +150,7 @@ export default function Page() {
                                         <UnorderedList arrName={data.desc} ulClassName="mt-[29px] xl:mt-[30px] space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
                                         <div>
                                             <Image
-                                                src="/images/blog/six-step-process-flow-diagram-with-arrows.webp"
+                                                src={getImage()}
                                                 alt="A six-step process flow diagram with curved arrows showing sequential stages in gradient blue and purple colors"
                                                 width={0}
                                                 height={0}
