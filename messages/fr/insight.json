@@ -228,7 +228,8 @@
   "image": "/images/blog/digital-medical-hologram-feature-thumb.webp",
   "category": "MediAIna",
   "industry": "Sciences de la vie",
-  "date": "25 Nov. 2025",
+  "date": "Nov. 25, 2025",
+  "alt": "Médecin interagissant avec données médicales holographiques et visuels de santé 3D dans laboratoire numérique futuriste",
   "url": "/how-digital-innovation-transforms-clinical-trial-management/",
   "title": "Comment l’innovation numérique transforme la gestion des essais cliniques",
   "description": "Les essais cliniques ont toujours été au cœur des avancées médicales. Mais voici la réalité : les essais habituels sont souvent lents, coûteux et déconnectés du monde numérique dans lequel vivent aujourd’hui les patients."
@@ -1308,6 +1309,7 @@
     ]
   },
   "newsDataBricks": {
+    "schemaData" : {},
     "bannerAlt": "Annonce partenariat Rialtes et Databricks avec graphique cerveau polygone géométrique sur fond technologique bleu",
     "bannerImageMobile": "/images/homepage/rialtes-databricks-certified-partnership-announcement-french-mobile.webp",
     "seoTitle": "Rialtes devient partenaire certifié Databricks",
@@ -1332,6 +1334,7 @@
     ]
   },
   "newsElite": {
+    "schemaData" : {},
     "bannerAlt": "Serveurs de centre de données numériques avec badge revendeur cloud autorisé Salesforce affichant certification officielle",
     "seoTitle": "Rialtes devient partenaire revendeur officiel Salesforce",
     "seoDescription": "Rialtes est désormais partenaire revendeur officiel Salesforce, offrant licences, implémentation et services gérés Salesforce sous un même toit.",
@@ -1348,6 +1351,7 @@
     "visitTwo": "ou contactez "
   },
   "newsSales": {
+    "schemaData" : {},
     "bannerAlt": "Ciseaux dorés coupant ruban rouge symbolisant inauguration nouveau bureau des ventes Rialtes à Himachal Pradesh Inde",
     "seoTitle": "Rialtes ouvre un bureau commercial à Baddi, HP",
     "seoDescription": "Rialtes ouvre un nouveau bureau à Baddi, Himachal Pradesh, pour améliorer le service client et fournir des solutions Salesforce et SAP pour l’industrie manufacturière.",

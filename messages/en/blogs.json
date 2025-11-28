@@ -49,6 +49,7 @@
                 "answer": "Agentforce connects to Field Service, IoT signals, and service histories to proactively identify and flag potential issues before they result in downtime. It automates key workflows such as dispatch scheduling, parts ordering, and claim initiation, significantly reducing breakdowns and manual overhead."
             },
             {
+                
                 "question": "4. How does Agentforce help improve customer satisfaction?",
                 "answer": "Agentforce delivers fast, accurate answers to customers and channel partners through 24/7 AI agents—eliminating the need for hold times and chase-ups. Whether it's tracking an order, scheduling service, or retrieving product manuals, Agentforce provides a consistent, seamless self-service experience across web, mobile, WhatsApp, and SMS."
             },
@@ -6374,6 +6375,86 @@
         "faqTitle": "FAQs: Agentforce in Predicting and Preventing Downtime in Industry 4.0 Manufacturing"
     },
     "sapBuild": {
+        "schemaData" : {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "SAP Build for Smart Manufacturing Industry 4.0",
+  "description":
+    "SAP Build helps manufacturers strengthen connected machines, integrated data, and agile processes—shortening innovation cycles and boosting resilience.",
+  "image": "https://www.rialtes.com/images/blog/sap-industry-desktop-banner.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id":
+      "https://www.rialtes.com/en/insights/blogs/sap-build-for-manufacturing-4-0/"
+  },
+  "datePublished": "2025-09-16",
+  "mainEntity": {
+    "@type": "FAQPage",
+    "name": "SAP Build for Smart Manufacturing FAQs",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What makes SAP Build different from other low-code platforms for manufacturing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SAP Build is natively integrated with SAP ERP, MES, and Manufacturing Cloud. This means apps, workflows, and dashboards connect directly to core manufacturing data without heavy customization."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can non-technical staff in manufacturing plants really use SAP Build?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. SAP Build is designed for citizen developers. With drag-and-drop interfaces and prebuilt templates, process engineers, supervisors, and managers can design apps or workflows without writing code."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does SAP Build improve factory-floor operations?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SAP Build enables faster decision-making and fewer delays. IoT alerts can trigger automated maintenance requests, defect photos can be routed instantly to quality teams, and operators can access digital SOPs through Work Zone portals."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does SAP Build support sustainability goals?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Manufacturers can create apps that capture energy, waste, and emissions data directly from production systems. Automated workflows then generate reports or trigger alerts when usage exceeds thresholds."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can SAP Build integrate with non-SAP systems?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. While its native integration with SAP solutions is unmatched, SAP Build also connects to third-party systems, IoT platforms, and cloud apps via APIs and connectors."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What kind of ROI can manufacturers expect from SAP Build?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Companies typically see faster app deployment (up to 70% quicker), reduced IT costs (20–40%), and lower downtime (20–30%). These benefits compound into significant savings and higher productivity within the first year."
+        }
+      }
+    ]
+  }
+},
         "bannerAlt": "Smart factory dashboard showing SAP Build low-code automation with connected machines and real-time operations",
         "seoTitle": "SAP Build for Manufacturing Sector: Cut Downtime 30% | Rialtes",
         "seoDescription": "Discover how SAP Build helps manufacturers accelerate innovation, reduce downtime, and empower teams with low-code apps and automation.",
@@ -6731,6 +6812,117 @@
         "faqTitle": "Frequently Asked Questions (FAQs)"
     },
     "agentforceHitech": {
+   "schemaData" : {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How Agentforce AI Transforms ERP Systems | Rialtes",
+  "description":
+    "Agentforce is Salesforce’s AI-powered platform that integrates with ERP and SCM systems to unify data, automate processes, and provide predictive insights.",
+  "image": "https://www.rialtes.com/images/blog/agentforce-ai-erp.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id":"https://www.rialtes.com/en/insights/blogs/how-agentforce-ai-transforms-erp-systems/"
+  },
+  "datePublished": "2025-09-15",
+  "mainEntity": {
+    "@type": "FAQPage",
+    "name": "Agentforce AI ERP Systems FAQs",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Agentforce, and how does it enhance ERP systems?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Agentforce is Salesforce’s AI-powered platform that integrates with ERP and SCM systems to unify data, automate processes, and provide predictive insights. It turns ERP into an intelligent ecosystem, enabling faster decisions and greater operational efficiency."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Agentforce integrate with existing ERP platforms like SAP, Oracle, or Microsoft Dynamics?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Agentforce connects through Salesforce’s Data Cloud and MuleSoft’s pre-built connectors. This allows real-time synchronization of ERP and SCM data—such as orders, finances, and inventory—without heavy custom integration."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What types of tasks can Agentforce agents automate within ERP systems?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "They handle routine processes like inventory monitoring, order processing, financial reporting, HR workflows, and customer query responses. This reduces manual effort and errors while freeing up employees for more strategic work."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can Agentforce provide predictive insights for supply chain and operations?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. By analyzing ERP and SCM data alongside external factors like weather or market demand, Agentforce predicts supply chain disruptions, demand fluctuations, and inventory needs. This proactive approach helps organizations stay ahead of risks."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Agentforce improve collaboration across teams?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Because it’s part of Salesforce’s ecosystem, Agentforce connects ERP data with tools like Slack and Salesforce Customer 360. This gives teams shared visibility into real-time data and enables faster, more coordinated decision-making."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What industries can benefit most from integrating Agentforce with ERP?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Manufacturing, logistics, agriculture, healthcare, retail, and financial services all benefit. For example, it helps manufacturers optimize production, retailers reduce stockouts, and logistics companies manage seasonal shipment spikes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Agentforce scalable for growing businesses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Agentforce is designed to handle increased ERP and SCM workloads without needing proportional increases in staff. AI agents dynamically manage higher data volumes, ensuring the system grows with your business."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Agentforce replace human decision-making?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Agentforce is built to complement human expertise, not replace it. By automating repetitive tasks and surfacing reliable insights, it frees people to focus on complex, strategic decisions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How secure is Agentforce when working with ERP data?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Agentforce leverages Salesforce’s enterprise-grade security, compliance, and governance standards. Data is handled securely, ensuring organizations can adopt automation without compromising trust."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can my business start integrating Agentforce with ERP?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rialtes specializes in customizing Agentforce agents for ERP systems. We align the agents with your business goals, optimize workflows, and ensure reliable automation."
+        }
+      }
+    ]
+  }
+},
         "bannerAlt": "Agentforce AI integrating with ERP to automate tasks and improve operational efficiency.",
         "seoTitle": "How Agentforce AI Transforms ERP with Automation | Rialtes",
         "seoDescription": "By analyzing ERP and SCM data, Agentforce offers predictive insights that enhance decision-making and boost productivity across industries. Know more!",
@@ -6837,6 +7029,79 @@
         "faqTitle": "FAQ: Frequently Asked Questions"
     },
     "fiveSigns": {
+    "schemaData" : {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline":
+      "5 Signs You’re Ready to Implement AI Agents in Manufacturing Operations | Rialtes",
+    "description":
+      "AI agents represent not just a new tool, but a fundamental shift in how work is performed, decisions are made, and problems are solved.",
+    "image":
+      "https://www.rialtes.com/images/blog/ai-agents-in-manufacturing.webp",
+    "author": {
+      "@type": "Organization",
+      "name": "Rialtes"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Rialtes",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.rialtes.com/images/homepage/logo.svg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.rialtes.com/en/insights/blogs/implementing-ai-agents-in-manufacturing-operations/"
+    },
+    "datePublished": "2025-09-17",
+    "mainEntity": {
+      "@type": "FAQPage",
+      "name": "AI Agents in Manufacturing FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How are AI agents different from regular automation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Regular automation follows set rules and scripts. AI agents adapt based on context, learn from outcomes, and can make decisions autonomously within defined parameters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a complete system overhaul to use AI agents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. Modern AI agents can integrate with your existing ERP, MES, and CRM systems, allowing gradual adoption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are AI agents only for large-scale manufacturers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Mid-sized manufacturers often see the fastest ROI because AI agents reduce the need for additional headcount and infrastructure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long before AI agents start showing results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For well-scoped implementations, you can see measurable improvements in lead times, uptime, and service response within 3–6 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What risks should I consider before adopting AI agents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Key considerations include data quality, integration complexity, and setting clear boundaries for autonomous actions to avoid unintended outcomes."
+          }
+        }
+      ]
+    }
+  },
         "bannerAlt": "Smart factory floor with robotic arms and an AI interface enabling predictive automation and efficient production. ",
         "seoTitle": "AI Agents in Manufacturing: 5 Signs You’re Ready | Rialtes",
         "seoDescription": "AI agents represent not just a new tool, but a fundamental shift in how work is performed, decisions are made, and problems are solved for manufacturers today.",
@@ -6920,6 +7185,84 @@
         "faqTitle": "FAQs: Implement AI Agents in Your Manufacturing Operations"
     },
     "connectedCore": {
+    "schemaData" : {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Connected Care Ecosystems: Pharma & MedTech’s Digital Future | Rialtes",
+    "description": "A connected care ecosystem empowers Pharma & MedTech with predictive alerts, chronic disease management, and remote monitoring for better healthcare outcomes.",
+    "image": "https://www.rialtes.com/images/blogs/connected-care-ecosystem.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/blogs/connected-care-ecosystem-pharma-medtech/"
+    },
+    "datePublished": "2025-09-18",
+    "mainEntity": {
+        "@type": "FAQPage",
+        "name": "Connected Care Ecosystems in Pharma & MedTech FAQs",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a connected care ecosystem in healthcare?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A connected care ecosystem links patients, providers, payers, Pharma, and MedTech companies into one integrated digital framework. It ensures real-time data sharing, continuity of care, and better patient outcomes across the entire healthcare journey."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why are connected care ecosystems important for Pharma and MedTech?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "They help organizations move beyond siloed systems. Pharma and MedTech companies gain real-time insights, accelerate clinical trials, and improve compliance while delivering patient-first digital healthcare experiences."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do connected care ecosystems improve patient engagement?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "By enabling digital patient engagement in daily healthcare, ecosystems give patients access to personalized apps, remote monitoring, virtual consultations, and timely reminders, all of which boost adherence and trust."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What role do connected ecosystems play in long-term patient care?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "They power long-term patient care management strategies such as chronic disease monitoring, remote care, and predictive alerts. This prevents complications and reduces costs while ensuring continuous care outside hospital walls."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is MediAIana different from other digital health platforms?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MediAIana goes beyond digital patient portals. It integrates clinical, operational, and digital touchpoints across the healthcare ecosystem, powered by Rialtes’ LifeAI+. It’s built for compliance, scalability, and innovation in life sciences and MedTech."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do connected ecosystems support digital transformation in life sciences?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "They enable reimagining digital patient journeys in life sciences by creating seamless experiences across clinical trials, therapies, and care delivery, empowering organizations to innovate faster and deliver human-centered healthcare."
+                }
+            }
+        ]
+    }
+},
         "bannerAlt": "Network showing connected healthcare providers, pharma systems, and MedTech devices enabling unified patient care. ",
         "seoTitle": "Connected Care Ecosystems: Future for Pharma and MedTech | Rialtes",
         "seoDescription": "Discover how a connected care ecosystem helps Pharma and MedTech with predictive alerts, chronic care, and remote monitoring for better outcomes.",
@@ -7082,6 +7425,76 @@
         "faqTitle": "FAQs : Importance of Connected Care Ecosystems for Pharma & MedTech"
     },
     "digitalJourney": {
+        "schemaData" : {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Digital Patient Journeys: AI Reshaping Life Sciences | Rialtes",
+    "description": "Digital patient journeys, powered by AI in life sciences, are making this possible, ensuring patients feel heard, supported, and cared for every step.",
+    "image": "https://www.rialtes.com/images/blog/digital-patient-journeys.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/"
+    },
+    "datePublished": "2025-09-30",
+    "mainEntity": {
+        "@type": "FAQPage",
+        "name": "Digital Patient Journeys in Life Sciences FAQs",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a digital patient journey in healthcare?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A digital patient journey is the end-to-end experience a patient has with a healthcare provider, supported by digital platforms. It integrates scheduling, consultations, records, insurance, and follow-ups into a unified pathway."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is AI reshaping patient journeys in life sciences?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AI enables predictive healthcare, personalized care pathways, virtual assistants, and operational automation. In life sciences, it improves clinical trials, supports precision medicine, and enhances patient engagement at scale."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why should healthcare providers and life sciences companies invest in digital patient journeys now?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Because patient expectations are changing fast. Adopting digital platforms ensures better engagement, improved outcomes, compliance with regulations, and a competitive advantage in healthcare."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does MediAIna help with digital patient journeys?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MediAIna is Rialtes’ AI-powered platform that connects patients and providers across every touchpoint. It offers end-to-end journeys, AI-powered care pathways, and compliance-first design—delivering smarter, patient-centric experiences."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What role does Rialtes play in enabling healthcare transformation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rialtes is a technology provider and transformation partner. With expertise in AI, cloud, and healthcare platforms, Rialtes helps organizations implement MediAIna, integrate with existing systems, and scale digital patient journeys."
+                }
+            }
+        ]
+    }
+},
         "bannerAlt": "AI-enhanced patient journey timeline showing diagnosis, treatment steps, and continuous medical follow-up",
         "digiTitle": "Reshaping Healthcare, One Journey at a Time",
         "seoTitle": "Digital Patient Journeys: The Future of AI Healthcare | Rialtes",
@@ -7326,6 +7739,84 @@
         "faqTitle": "FAQs: Importance of Connected Care Ecosystems for Pharma & MedTech"
     },
     "patientExperience": {
+        "schemaData" : {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Patient Experience Platform Transforming Long-Term Care | MediAIna by Rialtes",
+        "description": "A patient experience platform becomes essential, helping healthcare providers deliver continuity, coordination, and personalized care at scale.",
+        "image": "https://www.rialtes.com/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care.webp",
+        "author": {
+            "@type": "Organization",
+            "name": "Rialtes"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.rialtes.com/images/homepage/logo.svg"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.rialtes.com/en/insights/blogs/patient-experience-platform-transforming-long-term-care/"
+        },
+        "datePublished": "2025-10-07",
+        "mainEntity": {
+            "@type": "FAQPage",
+            "name": "Patient Experience Platform in Healthcare FAQs",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What is a patient experience platform in healthcare?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "A patient experience platform is a digital solution that connects clinical, operational, and engagement touchpoints into one seamless journey. It ensures patients receive coordinated care, clear communication, and continuous support from diagnosis through long-term management."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does a patient experience platform improve long-term patient care?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "By integrating chronic care management, digital engagement, and monitoring tools, platforms like MediAIna provide care continuity. This reduces readmissions, strengthens adherence, and empowers patients to actively manage their health."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why is digital patient engagement important in chronic care management?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Digital patient engagement helps patients stay connected to providers through reminders, two-way communication, remote monitoring, and access to personalized resources. It turns long-term care into a proactive, patient-driven journey."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does MediAIna support the integrated healthcare journey?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The MediAIna patient journey platform unifies data, communication, and care pathways across providers, payers, MedTech, and life sciences enterprises. It delivers chronic care management solutions, predictive insights, and compliant innovation for better outcomes."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What makes MediAIna healthcare different from other platforms?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Unlike point solutions, MediAIna healthcare is designed as a comprehensive ecosystem. Backed by Rialtes’ LifeAI+ consulting suite, it offers scalability, AI-driven intelligence, and compliance—making it ideal for complex, long-term patient care."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do digital tools support the diagnosis-to-care management journey?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Digital tools for long-term patient care simplify transitions by offering personalized care pathways, educational resources, and continuous check-ins. They ensure patients don’t get lost between diagnosis, treatment, and follow-up stages."
+                    }
+                }
+            ]
+        }
+    },
         "seoTitle": "Patient Experience Platform Transforming Long-Term Care | Rialtes",
         "seoDescription": "Discover how MediAIna, Rialtes’ patient experience platform, redefines healthcare journeys with digital engagement, AI insights, and chronic care support.",
         "bannerAlt": "Patient viewing digital health data on a tablet with icons for diagnosis, treatment, and long-term care",
@@ -7469,6 +7960,76 @@
         "faqTitle": "FAQs: Transforms Care with Patient Experience Platform"
     },
     "salesforcePartners": {
+        "schemaData" : {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "How Top Salesforce Partners Help Enterprises Thrive and Innovate | Rialtes",
+        "description": "Top Salesforce partners help enterprises thrive by aligning technology with business growth, accelerating innovation, and ensuring long-term value.",
+        "image": "https://www.rialtes.com/images/blog/top-salesforce-partners-help-enterprises-thrive.webp",
+        "author": {
+            "@type": "Organization",
+            "name": "Rialtes"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.rialtes.com/images/homepage/logo.svg"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.rialtes.com/en/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/"
+        },
+        "datePublished": "2025-10-10",
+        "mainEntity": {
+            "@type": "FAQPage",
+            "name": "Top Salesforce Partners and Enterprise Growth FAQs",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Who are the top Salesforce partners for enterprises?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Top Salesforce partners are Crest or Summit-level consulting firms recognized for proven expertise, successful implementations, and innovation. Rialtes, as a Salesforce Crest Partner, is one of them."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do Salesforce partners help business growth?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Salesforce partners customize CRM solutions, enable AI-driven insights, automate workflows, and provide ongoing optimization, helping enterprises improve efficiency, reduce costs, and unlock new revenue opportunities."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are enterprise CRM solutions, and why are they important?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Enterprise CRM solutions connect sales, marketing, service, and data into one unified platform. They help businesses manage customer relationships at scale, improve decision-making, and deliver personalized experiences."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why should an enterprise choose a Salesforce Crest Partner?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Crest Partners are recognized for advanced certifications, high customer satisfaction scores, and proven industry expertise. They deliver complex, large-scale Salesforce solutions with lower risk and faster ROI."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why is Rialtes considered one of the best Salesforce consulting partners?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Rialtes combines Salesforce expertise with industry-specific knowledge and a co-innovation approach. As a Crest Partner, Rialtes has delivered enterprise CRM solutions across multiple industries, helping clients thrive and innovate."
+                    }
+                }
+            ]
+        }
+    },
         "bannerAlt": "Abstract banner showing enterprise growth and digital transformation powered by Salesforce solutions",
         "salesforceTitle": "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
         "blogTopic": "Salesforce Agentforce",
@@ -7671,6 +8232,76 @@
         "seoDescription": "Top Salesforce partners help enterprises thrive by aligning technology with business growth, accelerating innovation, and ensuring long-term value."
     },
     "salesforceDevelopment": {
+        "schemaData" :{
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Salesforce Development Services to Boost CRM Efficiency | Rialtes",
+        "description": "Explore why custom Salesforce development matters, how it boosts CRM efficiency, and why choosing the right partner makes all the difference.",
+        "image": "https://www.rialtes.com/images/blog/salesforce-development-services-to-boost-efficiency.webp",
+        "author": {
+            "@type": "Organization",
+            "name": "Rialtes"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.rialtes.com/images/homepage/logo.svg"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.rialtes.com/en/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/"
+        },
+        "datePublished": "2025-10-06",
+        "mainEntity": {
+            "@type": "FAQPage",
+            "name": "Boosting CRM Efficiency with Salesforce Development Services FAQs",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How can custom Salesforce development improve CRM efficiency?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Custom development automates repetitive tasks, integrates siloed systems, and tailors workflows to match business needs. This reduces errors, speeds up processes, and improves user adoption."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the benefits of hiring a Salesforce development company in the USA?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "US-based partners often have industry-specific expertise, strong compliance knowledge, and access to a highly skilled Salesforce-certified workforce, making them ideal for enterprise projects."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do tailored Salesforce services reduce costs and improve ROI?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Tightened development reduces operational costs and helps enterprises achieve faster ROI by cutting redundant processes, automating workflows, and enhancing reporting."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What should enterprises look for in Salesforce development partners?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Look for certified expertise, proven experience in CRM optimization, integration capabilities, and a partner who prioritizes scalability and user adoption."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does Rialtes help businesses with Salesforce CRM optimization and custom solutions?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Rialtes combines deep Salesforce expertise with industry knowledge. From integrations to AI-powered apps, we deliver tailored solutions that help enterprises maximize CRM efficiency and stay future-ready."
+                    }
+                }
+            ]
+        }
+    },
         "seoTitle": "Salesforce Development Services for Enterprise Success | Rialtes",
         "seoDescription": "Explore why custom Salesforce development matters, how it boosts CRM efficiency, and why choosing the right partner makes all the difference.",
         "bannerAlt": "Salesforce CRM dashboard showing analytics, user activity metrics, and automated workflow insights",
@@ -8288,6 +8919,84 @@
         "unifiedTitle": "One Unified CRM + ERP System for Property Leaders"
     },
     "aiRealEstate": {
+        "schemaData" : {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
+        "description": "AI-driven predictive maintenance transforms property operations, cutting downtime by 30% and reducing Opex through proactive interventions.",
+        "image": "https://www.rialtes.com/images/blogs/ai-property-operations-predictive-maintenance.webp",
+        "author": {
+            "@type": "Organization",
+            "name": "Rialtes"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.rialtes.com/images/homepage/logo.svg"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.rialtes.com/en/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/"
+        },
+        "datePublished": "2025-10-13",
+        "mainEntity": {
+            "@type": "FAQPage",
+            "name": "AI in Property Operations FAQs",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How can AI reduce maintenance downtime in property management?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "AI continuously analyzes equipment data to predict potential failures before they occur. Maintenance teams can act proactively, reducing downtime and avoiding costly emergency repairs."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How to reduce time spent on corrective maintenance?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Strategies include improving accessibility, interchangeability, managing redundant systems, accounting for human limitations, and enhancing fault recognition and isolation efficiency."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is predictive maintenance for property operations?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Predictive maintenance uses AI and IoT sensors to monitor equipment health in real time, forecasting when assets need servicing to improve uptime and extend asset lifespan."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does AI optimize technician assignment?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "AI evaluates technician skills, availability, and location to automatically assign the best person for each job, reducing response times and enhancing efficiency."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the benefits of using AI in property operations?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Benefits include up to 30% less downtime, lower operational costs, faster service responses, and improved tenant satisfaction through real-time insights and automation."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How does Exelona help with predictive maintenance and Opex reduction?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Exelona integrates AI, IoT, and workflow automation to monitor assets, predict issues, and dispatch technicians efficiently, helping property managers reduce Opex, extend asset life, and improve portfolio performance."
+                    }
+                }
+            ]
+        }
+    },
         "bannerAlt": "Building illustration showing AI sensors predicting maintenance needs with real-time analytics.",
         "blogMainData": [
             "Here’s the truth about property operations: they have always been a balancing act between cost, comfort, and continuity. The challenge is that most maintenance models are still reactive. Teams fix what breaks, scramble to respond to tenant complaints, and watch operating expenses climb year after year.",
@@ -8536,6 +9245,76 @@
         "faqTitle": "FAQs: Reduce Opex with Predictive Maintenance"
     },
     "salesforceImplementation": {
+        "schemaData" : {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI",
+        "description": "From planning a Salesforce implementation roadmap to handling complex integrations, best partners ensure enterprises extract full value from the platform.",
+        "image": "https://www.rialtes.com/images/blog/salesforce-implementation-partners-strategies.webp",
+        "author": {
+            "@type": "Organization",
+            "name": "Rialtes"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.rialtes.com/images/homepage/logo.svg"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.rialtes.com/en/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/"
+        },
+        "datePublished": "2025-09-29",
+        "mainEntity": {
+            "@type": "FAQPage",
+            "name": "Salesforce Implementation FAQs",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How to ensure a successful Salesforce implementation?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Start with a clear roadmap, engage stakeholders early, and work with certified Salesforce implementation partners who align the system with your business goals."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the best practices for Salesforce integration?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Best practices include mapping an integration roadmap, prioritizing critical systems, leveraging certified partners, and building scalability and compliance into the design."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why do enterprises need Salesforce integration partners?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Integration partners bring frameworks, accelerators, and industry expertise that reduce risk and speed time-to-value, ensuring Salesforce is optimized for business outcomes."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How can Salesforce integration partners reduce project risk?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Certified partners prevent common issues like data duplication, scope creep, and compliance failures, designing secure, scalable connections to future-proof the Salesforce ecosystem."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why choose Rialtes as a Salesforce implementation partner?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Rialtes, a Salesforce Crest Partner, delivers seamless implementations, complex integrations, and ongoing innovation, reducing project risks and maximizing Salesforce ROI."
+                    }
+                }
+            ]
+        }
+    },
         "bannerAlt": "Team reviewing Salesforce implementation roadmap with cloud integration and workflow optimization visuals. ",
         "blogMainData": [
             "Salesforce is the world’s leading CRM platform, powering enterprises across industries to better manage customers, data, and processes. But here’s the catch: Salesforce success isn’t guaranteed by simply purchasing licenses. Implementation is where many projects falter. Delays, scope creep, or poor adoption can turn what should be a growth driver into a sunk investment.",
@@ -10038,6 +10817,84 @@
         "faqTitle": "FAQs: Improve Patient Enrolment in Rare Disease Clinical Trials using AI"
     },
     "digitalInnovationBlog": {
+        "schemaData" : {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How Digital Innovation Is Transforming Clinical Trial Management | Rialtes",
+  "description": "Digital innovation is transforming the clinical research landscape as AI, automation, and connected ecosystems redefine execution of digital clinical trials.",
+  "image": "https://www.rialtes.com/images/blog/digital-medical-hologram-banner.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/en/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/"
+  },
+  "datePublished": "2025-11-25",
+    "mainEntity": {
+    "@type": "FAQPage",
+    "name": " FAQs: Transforming Clinical Trial Management",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What are digital clinical trials?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Digital clinical trials utilize technologies such as AI, cloud platforms, and wearable devices to collect, manage, and analyze data more efficiently than traditional trials."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does AI improve patient enrollment in clinical trials?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "AI-powered systems analyze patient records and demographics to match participants quickly and accurately, especially for rare disease studies."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What tools help reduce clinical trial dropout rates?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mobile apps, telehealth platforms, and digital reminders improve engagement, communication, and adherence, helping lower trial dropout rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why are intelligent healthcare ecosystems important for trials?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "They connect providers, payers, and research systems, ensuring smoother data exchange, regulatory compliance, and real-time monitoring."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does MediAIna support digital clinical trial management?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MediAIna integrates clinical, operational, and patient data across multiple systems, automating trial management and improving decision-making."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the future of digital innovation in clinical research?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The future lies in AI-driven, patient-centric, and connected ecosystems that accelerate trial timelines, reduce costs, and enhance patient outcomes."
+        }
+      }
+    ]
+  }
+},
         "bannerAlt": "Doctor interacting with holographic medical data and 3D health visuals in a futuristic digital lab",
         "seoTitle": "Digital Innovation Unlocking Smarter Clinical Trial Management",
         "seoDescription": "Digital innovation is transforming the clinical research landscape as AI, automation, and connected ecosystems redefine execution of digital clinical trials.",
@@ -10062,19 +10919,19 @@
         ],
         "trialsData": [
             {
-                "title": "Decentralized participation,",
+                "title": "Decentralized participation",
                 "desc": "allowing patients to contribute from anywhere."
             },
             {
-                "title": "Automated data collection,",
+                "title": "Automated data collection",
                 "desc": "reducing reliance on manual input."
             },
             {
-                "title": "Real-time analytics,",
+                "title": "Real-time analytics",
                 "desc": "ensuring quicker decision-making."
             },
             {
-                "title": "Improved compliance,",
+                "title": "Improved compliance",
                 "desc": "as data is securely tracked and monitored end-to-end."
             }
         ],

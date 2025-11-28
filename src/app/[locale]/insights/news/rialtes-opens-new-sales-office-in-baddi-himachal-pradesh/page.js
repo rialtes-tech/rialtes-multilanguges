@@ -8,39 +8,13 @@ import esContent from "../../../../../../messages/es/insight.json";
 import frContent from '../../../../../../messages/fr/insight.json';
 import { changeLocalization } from "../../../components/changeLocalization";
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/",
-  },
-  headline: "Rialtes Opens New Sales Office in Baddi, Himachal Pradesh",
-  description:
-    "Rialtes expands its regional presence with a new sales office in Baddi, Himachal Pradesh, supporting digital transformation needs in North India.",
-  image: "https://www.rialtes.com//images/homepage/rialtes-new-sales-office-opening-himachal-pradesh.webp",
-  datePublished: "2025-04-04",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  articleSection: "News",
-};
+
 
 export default function Page() {
   const t = useTranslations("newsSales");
   const locale = useLocale();
   const newsSalesContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { paragraphs } = newsSalesContent.newsSales;
+  const { paragraphs,schemaData } = newsSalesContent.newsSales;
 
   const fullUrl = "https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh";
 

@@ -784,6 +784,7 @@
         "unifiedTitle": "Un système CRM + ERP unifié pour les dirigeants immobiliers"
     },
     "aiRealEstate": {
+        "schemaData" :{},
         "faqTitle": "FAQ : Réduire les dépenses d’exploitation grâce à la maintenance prédictive",
         "bannerAlt": "Illustration d’un bâtiment avec capteurs IA prévoyant les besoins de maintenance grâce à des analyses en temps réel.",
         "blogMainData": [
@@ -5254,6 +5255,7 @@
         "faqTitle": "FAQs : Agentforce dans la prédiction et la prévention des temps d'arrêt dans la fabrication Industrie 4.0"
     },
     "sapBuild": {
+        "schemaData" :{},
         "bannerAlt": "Tableau d’usine intelligente avec SAP Build et outils low-code pour automatisation et machines connectées.",
         "seoTitle": "SAP Build : réduire de 30 % les arrêts dans l’industrie | Rialtes",
         "seoDescription": "SAP Build accélère l’innovation industrielle, réduit les temps d’arrêt et renforce les équipes avec applications low-code et automatisation.",
@@ -5542,6 +5544,7 @@
         "faqTitle": "Foire aux questions (FAQ)"
     },
     "agentforceHitech": {
+        "schemaData" :{},
         "bannerAlt": "Bannière illustrant Salesforce Data Cloud offrant un e-commerce prédictif et renforçant la fidélité client.",
         "seoTitle": "Comment Agentforce IA transforme l’ERP avec l’automatisation | Rialtes",
         "seoDescription": "Agentforce analyse les données ERP et SCM pour fournir des insights prédictifs, améliorer les décisions et accroître la productivité.",
@@ -5648,6 +5651,7 @@
         "faqTitle": "FAQ : Questions fréquentes"
     },
     "fiveSigns": {
+        "schemaData" :{},
         "bannerAlt": "Atelier intelligent avec bras robotiques et interface IA offrant automatisation prédictive et production efficace.",
         "seoTitle": "Agents IA en industrie : 5 signes que vous êtes prêt | Rialtes",
         "seoDescription": "Les agents IA ne sont pas qu’un outil : ils redéfinissent le travail, les décisions et la résolution de problèmes pour les industriels.",
@@ -5731,6 +5735,7 @@
         "faqTitle": "FAQs : Mettre en œuvre des agents IA dans vos opérations de fabrication"
     },
     "connectedCore": {
+        "schemaData" :{},
         "bannerAlt": "Réseau reliant prestataires de santé, systèmes pharmaceutiques et dispositifs MedTech pour un soin unifié.",
         "seoTitle": "Écosystèmes de soins connectés : l’avenir de la santé | Rialtes",
         "seoDescription": "Découvrez comment un écosystème de soins connectés aide Pharma et MedTech grâce aux alertes prédictives et au suivi à distance.",
@@ -5893,6 +5898,7 @@
         "faqTitle": "FAQs : Importance des écosystèmes de soins connectés pour la pharmacie et les technologies médicales"
     },
     "digitalJourney": {
+        "schemaData" :{},
         "bannerAlt": "Frise du parcours patient optimisé par l’IA montrant diagnostic, étapes de traitement et suivi continu.",
         "digiTitle": "Redéfinir les soins de santé, un voyage à la fois",
         "seoTitle": "Parcours patients numériques : l’avenir de la santé IA | Rialtes",
@@ -6137,6 +6143,7 @@
         "faqTitle": "FAQ : L’Importance des Écosystèmes de Soins Connectés pour la Pharmaceutique et MedTech"
     },
     "patientExperience": {
+        "schemaData" :{},
         "seoTitle": "Plateforme patient transformant les soins durables | Rialtes",
         "seoDescription": "Découvrez comment MediAIna redéfinit l’expérience patient avec l’engagement numérique, l’IA et le soutien aux soins chroniques.",
         "bannerAlt": "Patient consultant des données de santé sur une tablette avec des icônes de diagnostic, traitement et soins prolongés",
@@ -6280,6 +6287,7 @@
         "faqTitle": "FAQs : Transformer les soins avec une plateforme d'expérience patient"
     },
     "salesforcePartners": {
+        "schemaData" :{},
         "bannerAlt": "Bannière abstraite illustrant la croissance des entreprises et la transformation numérique grâce à Salesforce",
         "salesforceTitle": "Comment les meilleurs partenaires Salesforce aident les entreprises à prospérer et innover",
         "blogTopic": "Salesforce Agentforce",
@@ -6482,6 +6490,7 @@
         "seoDescription": "Les meilleurs partenaires Salesforce stimulent la croissance et l’innovation en alignant la technologie avec les objectifs d’entreprise."
     },
     "salesforceDevelopment": {
+        "schemaData" :{},
         "seoTitle": "Services Salesforce pour le succès des entreprises | Rialtes",
         "seoDescription": "Découvrez comment le développement Salesforce sur mesure améliore l’efficacité CRM et pourquoi choisir le bon partenaire est crucial.",
         "bannerAlt": "Tableau Salesforce CRM affichant analyses, métriques d’activité utilisateur et workflows automatisés",
@@ -6674,6 +6683,7 @@
         "strategiesDesc2": "Ces stratégies aident les entreprises non seulement à réduire les risques des projets Salesforce, mais aussi à maximiser le ROI."
     },
     "salesforceImplementation": {
+        "schemaData" :{},
         "bannerAlt": "Équipe analysant la feuille de route Salesforce avec visuels d’intégration cloud et optimisation des flux",
         "blogMainData": [
             "Salesforce est la principale plateforme CRM au monde, permettant aux entreprises de tous les secteurs de mieux gérer leurs clients, leurs données et leurs processus. Mais voici le point clé : le succès avec Salesforce n’est pas garanti simplement en achetant des licences. L’implémentation est l’étape où de nombreux projets échouent. Les retards, l’élargissement du périmètre ou une adoption insuffisante peuvent transformer ce qui devrait être un moteur de croissance en un investissement perdu.",
@@ -8176,6 +8186,7 @@
         "faqTitle": "Preguntas frecuentes: Cómo mejorar la inscripción de pacientes en ensayos clínicos de enfermedades raras usando IA"
     },
     "digitalInnovationBlog": {
+        "schemaData" :{},
         "bannerAlt": "Médecin interagissant avec données médicales holographiques et visuels de santé 3D dans laboratoire numérique futuriste",
         "seoTitle": "Innovation numérique : vers une gestion plus intelligente des essais cliniques",
         "seoDescription": "L'innovation numérique transforme le paysage de la recherche clinique, alors que l'IA, l'automatisation et les écosystèmes connectés redéfinissent l'exécution des essais cliniques numériques.",
@@ -8200,19 +8211,19 @@
         ],
         "trialsData": [
             {
-                "title": "Participation décentralisée,",
+                "title": "Participation décentralisée",
                 "desc": "permettant aux patients de contribuer depuis n'importe où."
             },
             {
-                "title": "Collecte de données automatisée,",
+                "title": "Collecte de données automatisée",
                 "desc": "réduisant la dépendance aux saisies manuelles."
             },
             {
-                "title": "Analyse en temps réel,",
+                "title": "Analyse en temps réel",
                 "desc": "assurant une prise de décision plus rapide."
             },
             {
-                "title": "Conformité améliorée,",
+                "title": "Conformité améliorée",
                 "desc": "grâce au suivi et à la surveillance sécurisés des données de bout en bout."
             }
         ],

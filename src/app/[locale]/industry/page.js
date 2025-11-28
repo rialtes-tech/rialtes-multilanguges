@@ -13,102 +13,11 @@ import { changeLocalization } from "../components/changeLocalization";
 
 export default function Industry() {
   const t = useTranslations("industry");
-    const locale = useLocale();
-    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const {growLatestServices} = content.industry;
-   
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Industries We Serve | Rialtes",
-    "url": "https://www.rialtes.com/industry",
-    "description": "Explore how Rialtes delivers industry-specific digital transformation solutions across Life Sciences, Manufacturing, Automotive, Hi-Tech, Real Estate, Non-Profit, Finance, Retail, Travel & Hospitality, and Education.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Rialtes Technologies LLC",
-      "url": "https://www.rialtes.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.rialtes.com/images/homepage/logo.svg"
-      }
-    },
-    "mainEntity": {
-      "@type": "ItemList",
-      "name": "Industries Served",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Life Sciences",
-          "url": "https://www.rialtes.com/industry/life-sciences",
-          "description": "Empowering Healthcare, Pharma & Biotech, and Medical Device companies with AI, cloud, and compliance-focused digital solutions."
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Manufacturing",
-          "url": "https://www.rialtes.com/industry/manufacturing-cloud-erp",
-          "description": "Driving smart factory transformation with digital twins, predictive analytics, and integrated ERP systems."
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Automotive",
-          "url": "https://www.rialtes.com/industry/automotive-industry-cloud-solutions",
-          "description": "Delivering cloud-based dealer management, warranty automation, and connected vehicle solutions."
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Hi-Tech & Semiconductor",
-          "url": "https://www.rialtes.com/industry/hitech-semiconductor",
-          "description": "Enabling innovation in semiconductor and high-tech sectors with PLM, IoT, and smart manufacturing systems."
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Real Estate / Property Management",
-          "url": "https://www.rialtes.com/industry/real-estate-property-management",
-          "description": "Modernizing property operations with scalable leasing, accounting, payments, and mobile tenant portals."
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Non-Profit",
-          "url": "https://www.rialtes.com/industry/nonprofit-digital-transformation-it-solutions",
-          "description": "Transforming donor management, fundraising, and mission delivery through Salesforce Nonprofit Cloud."
-        },
-        {
-          "@type": "ListItem",
-          "position": 7,
-          "name": "Finance",
-          "url": "https://www.rialtes.com/industry/finance",
-          "description": "Driving agility and compliance for banks, insurers, and wealth firms through SAP and Salesforce solutions."
-        },
-        {
-          "@type": "ListItem",
-          "position": 8,
-          "name": "Retail",
-          "url": "https://www.rialtes.com/industry/retail",
-          "description": "Enabling omnichannel retail, personalized experiences, and intelligent inventory using digital platforms."
-        },
-        {
-          "@type": "ListItem",
-          "position": 9,
-          "name": "Travel & Hospitality",
-          "url": "https://www.rialtes.com/industry/travel-hospitality",
-          "description": "Enhancing guest experiences and operational efficiency with connected travel and hospitality solutions."
-        },
-        {
-          "@type": "ListItem",
-          "position": 10,
-          "name": "Education",
-          "url": "https://www.rialtes.com/industry/education",
-          "description": "Transforming learning environments and administrative workflows for academic institutions through cloud technology."
-        }
-      ]
-    }
-  }
+  const locale = useLocale();
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { growLatestServices,schemaData } = content.industry;
+
+
   const GrowServicesCard = ({ services }) => (
     <div className="w-full h-full flex flex-col">
       <div className="relative overflow-hidden">
@@ -162,7 +71,7 @@ export default function Industry() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-     {/* herosection */}
+      {/* herosection */}
       <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px] ">
         <div className="hidden md:block">
           <Image
@@ -203,24 +112,24 @@ export default function Industry() {
         <div className="grid lg:grid-cols-12 grid-cols-1  gap-y-[20px]">
           <div className="xl:col-span-6 col-span-12">
             <h1 className="text-[#000000] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] leading-tight">
-             {t('mindsetTitle')}
+              {t('mindsetTitle')}
             </h1>
           </div>
           <div className="2xl:col-span-6 xl:col-span-5 col-span-12 xl:ml-5">
-            <p className="4xl:text-[22px]  xl:text-[18px]  text-[16px] leading-tight">        
-            {t('mindsetDesc')}
+            <p className="4xl:text-[22px]  xl:text-[18px]  text-[16px] leading-tight">
+              {t('mindsetDesc')}
             </p>
           </div>
         </div>
       </section>
-     <div className="custom-container lg:mt-[103px] mt-[60px]">
+      <div className="custom-container lg:mt-[103px] mt-[60px]">
         <section className=" bg-white">
           <GrowServices />
         </section>
       </div>
       {/* Contact Form Section */}
       <div className="custom-container xl:py-[84px] py-[60px]">
-        <ContactForm title= {t('contactUs')} className={'max-w-4xl '} />
+        <ContactForm title={t('contactUs')} className={'max-w-4xl '} />
       </div>
     </div>
   );

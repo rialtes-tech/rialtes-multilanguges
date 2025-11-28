@@ -7,47 +7,13 @@ import frContent from '../../../../../../messages/fr/webinars.json';
 import WebinarComponent from "@/app/[locale]/components/webinarComponent";
 import { changeLocalization } from "../../../components/changeLocalization";
 
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    "name": "SAP Ariba CIG Integration Webinar: ERP Flows, Simplified",
-    "description": "Discover how SAP Ariba Cloud Integration Gateway (CIG) connects your SAP ERP (S/4HANA) to the Ariba Network—streamlining integration, improving efficiency, and simplifying procurement transactions. A must-attend online webinar for ERP and SAP professionals.",
-    "url": "https://www.rialtes.com/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud",
-    "startDate": "2025-06-10T20:30:00+05:30",
-    "endDate": "2025-06-10T21:00:00+05:30",
-    "duration": "PT30M",
-    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-    "eventStatus": "https://schema.org/EventScheduled",
-    "organizer": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com",
-        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
-    },
-    "performer": {
-        "@type": "Person",
-        "name": "Sapna Chauhan",
-        "jobTitle": "Software Engineer",
-        "url": "https://www.linkedin.com/in/sapna-chauhan-a85b32219/"
-    },
-    "image": "https://www.rialtes.com/images/webinar/Webinar_27%20May%2025_webinar%20Banner.webp",
-    "audience": {
-        "@type": "Audience",
-        "audienceType": "Procurement Leaders, Sourcing Managers, IT Decision-Makers, SAP Consultants, ERP Professionals"
-    },
-    "location": {
-        "@type": "VirtualLocation",
-        "url": "https://www.rialtes.com/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud"
-    },
-    "keywords": "sap ariba cig integration, S4HANA erp cloud, sap procurement webinar"
 
-}
 
 export default function () {
     const t = useTranslations("CIGWebinar");
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { webinarAdvantagesData, whoShouldAttendData } = content.CIGWebinar
+    const { webinarAdvantagesData, whoShouldAttendData,schemaData } = content.CIGWebinar
     return (
         <>
             <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud"

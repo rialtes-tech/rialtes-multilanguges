@@ -13,76 +13,6 @@ import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "Digital Patient Journeys: AI Reshaping Life Sciences | Rialtes",
-    "description": "Digital patient journeys, powered by AI in life sciences, are making this possible, ensuring patients feel heard, supported, and cared for every step.",
-    "image": "https://www.rialtes.com/images/blog/digital-patient-journeys.webp",
-    "author": {
-        "@type": "Organization",
-        "name": "Rialtes"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
-        }
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare -life-sciences/"
-    },
-    "datePublished": "2025-09-30",
-    "mainEntity": {
-        "@type": "FAQPage",
-        "name": "Digital Patient Journeys in Life Sciences FAQs",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is a digital patient journey in healthcare?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A digital patient journey is the end-to-end experience a patient has with a healthcare provider, supported by digital platforms. It integrates scheduling, consultations, records, insurance, and follow-ups into a unified pathway."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How is AI reshaping patient journeys in life sciences?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "AI enables predictive healthcare, personalized care pathways, virtual assistants, and operational automation. In life sciences, it improves clinical trials, supports precision medicine, and enhances patient engagement at scale."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Why should healthcare providers and life sciences companies invest in digital patient journeys now?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Because patient expectations are changing fast. Adopting digital platforms ensures better engagement, improved outcomes, compliance with regulations, and a competitive advantage in healthcare."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does MediAIna help with digital patient journeys?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "MediAIna is Rialtes’ AI-powered platform that connects patients and providers across every touchpoint. It offers end-to-end journeys, AI-powered care pathways, and compliance-first design—delivering smarter, patient-centric experiences."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What role does Rialtes play in enabling healthcare transformation?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Rialtes is a technology provider and transformation partner. With expertise in AI, cloud, and healthcare platforms, Rialtes helps organizations implement MediAIna, integrate with existing systems, and scale digital patient journeys."
-                }
-            }
-        ]
-    }
-}
 
 export default function Page() {
     const t = useTranslations('digitalJourney')
@@ -90,7 +20,7 @@ export default function Page() {
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const fullUrl = "https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/";
     const currUrl = useUrl()
-    const { whyDigitalJourneyData, keyElemData, roleData, commonData, digitalData, futureData, medianaData, reshapingData, faqs } = blogsContent.digitalJourney
+    const { whyDigitalJourneyData, keyElemData, roleData, commonData, digitalData, futureData, medianaData, reshapingData, faqs, schemaData } = blogsContent.digitalJourney
 
     return (
         <section className="min-h-screen">
