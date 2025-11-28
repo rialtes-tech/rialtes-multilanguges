@@ -306,7 +306,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/single-source-of-truth-real-estate-lead-to-lease.webp"
-                        alt="banner image"
+                        alt="Futuristic glass cityscape with pink and blue transparent buildings on reflective surface representing digital innovation"
                         fill
                         priority
                     />
@@ -314,7 +314,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/exelona-cluster-mobile-banner.webp"
-                        alt="banner image"
+                        alt="Futuristic glass cityscape with pink and blue transparent buildings on reflective surface representing digital innovation"
                         priority
                         height={0}
                         width={0}

@@ -66,7 +66,7 @@ export default function Page() {
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]  overflow-hidden">
         <Image
           src="/images/blog/agentic-pharma-blog-banner.webp"
-          alt="Agentic Pharma"
+          alt="Colorful fiber optic tree illustration with glowing multicolor branches on dark teal tech-themed background"
           fill
           style={{ objectFit: "cover", objectPosition: "20% 60%" }}
           priority
@@ -74,7 +74,7 @@ export default function Page() {
         />
         <Image
           src="/images/blog/agentic-pharma-mobile-banner.webp"
-          alt="Agentic Pharma"
+          alt="Colorful fiber optic tree illustration with glowing multicolor branches on dark teal tech-themed background"
           fill
           priority
           className="lg:hidden block"

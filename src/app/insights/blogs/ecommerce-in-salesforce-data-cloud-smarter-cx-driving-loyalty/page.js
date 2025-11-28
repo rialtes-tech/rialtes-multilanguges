@@ -241,7 +241,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/data-cloud-ecom-desktop-banner.webp"
-                        alt="banner image"
+                        alt="Banner showing Salesforce Data Cloud enabling predictive e-commerce and boosting customer loyalty."
                         fill
                         priority
                     />
@@ -249,7 +249,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/data-cloud-ecom-mobile-banner.webp"
-                        alt="banner image"
+                        alt="Banner showing Salesforce Data Cloud enabling predictive e-commerce and boosting customer loyalty."
                         priority
                         height={0}
                         width={0}

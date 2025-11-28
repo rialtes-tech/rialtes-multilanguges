@@ -262,7 +262,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/connected-care-ecosystem.webp"
-                        alt="banner image"
+                        alt="Network showing connected healthcare providers, pharma systems, and MedTech devices enabling unified patient care."
                         fill
                         priority
                     />
@@ -270,7 +270,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/connected-care-ecosystem-mobile.webp"
-                        alt="banner image"
+                        alt="Network showing connected healthcare providers, pharma systems, and MedTech devices enabling unified patient care."
                         priority
                         height={0}
                         width={0}

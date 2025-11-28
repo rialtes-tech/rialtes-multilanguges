@@ -230,7 +230,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/sap-industry-desktop-banner.webp"
-                        alt="banner image"
+                        alt="Smart factory dashboard showing SAP Build low-code automation with connected machines and real-time operations"
                         fill
                         priority
                     />
@@ -238,7 +238,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/sap-industry-mobile-banner.webp"
-                        alt="banner image"
+                        alt="Smart factory dashboard showing SAP Build low-code automation with connected machines and real-time operations"
                         priority
                         height={0}
                         width={0}

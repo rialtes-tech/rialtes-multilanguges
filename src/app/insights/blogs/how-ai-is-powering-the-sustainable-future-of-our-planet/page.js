@@ -168,7 +168,7 @@ export default function Page() {
                 <div className="hidden md:block">
                     <Image
                         src="/images/blog/sustainability-banner.webp"
-                        alt="Discover AgentExchange"
+                        alt="Floating green sustainable city with wind turbines, solar panels, and urban buildings representing renewable energy future"
                         fill
                         priority
                     />
@@ -178,7 +178,7 @@ export default function Page() {
                 <div className="block md:hidden">
                     <Image
                         src="/images/blog/sustain-mobile.webp"
-                        alt="Discover AgentExchange"
+                        alt="Floating green sustainable city with wind turbines, solar panels, and urban buildings representing renewable energy future"
                         fill
                         style={{ objectFit: "cover" }}
                         priority

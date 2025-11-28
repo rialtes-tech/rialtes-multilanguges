@@ -206,7 +206,7 @@ export default function Page() {
                 <div className="hidden md:block">
                     <Image
                         src="/images/blog/agentforce-3.0-desktop-banner.webp"
-                        alt="Discover AgentExchange"
+                        alt="Manufacturing engineer in yellow safety gear using tablet for quality control in automated automotive assembly facility"
                         fill
                         priority
                     />
@@ -216,7 +216,7 @@ export default function Page() {
                 <div className="block md:hidden">
                     <Image
                         src="/images/blog/agentforce-3.0-mobile.webp"
-                        alt="Discover AgentExchange"
+                        alt="Manufacturing engineer in yellow safety gear using tablet for quality control in automated automotive assembly facility"
                         fill
                         style={{ objectFit: "cover" }}
                         priority

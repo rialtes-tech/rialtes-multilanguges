@@ -324,7 +324,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/conversational-ai-in-real-estate.webp"
-                        alt="banner image"
+                        alt="Digital illustration of person interacting with virtual chatbot interface representing conversational AI in real estate"
                         fill
                         priority
                     />
@@ -332,7 +332,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/conversational-ai-in-real-estate-mobile.webp"
-                        alt="banner image"
+                        alt="Digital illustration of person interacting with virtual chatbot interface representing conversational AI in real estate"
                         priority
                         height={0}
                         width={0}

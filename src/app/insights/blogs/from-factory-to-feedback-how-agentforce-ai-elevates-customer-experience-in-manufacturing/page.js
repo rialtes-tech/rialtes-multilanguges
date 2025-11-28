@@ -163,7 +163,7 @@ export default function Page() {
                 <div className="hidden md:block">
                     <Image
                         src="/images/blog/factory-banner.webp"
-                        alt="Discover AgentExchange"
+                        alt="Diverse technology team collaborating on laptop with circuit boards in modern command center control room workspace"
                         fill
                         priority
                     />
@@ -173,7 +173,7 @@ export default function Page() {
                 <div className="block md:hidden">
                     <Image
                         src="/images/blog/small-mobile-banner.webp"
-                        alt="Discover AgentExchange"
+                        alt="Diverse technology team collaborating on laptop with circuit boards in modern command center control room workspace"
                         fill
                         style={{ objectFit: "cover" }}
                         priority

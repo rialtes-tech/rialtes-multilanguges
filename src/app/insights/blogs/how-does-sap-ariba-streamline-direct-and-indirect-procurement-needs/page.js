@@ -55,7 +55,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/blog/sap-ariba-web-banner.webp"
-            alt="SAP Ariba Streamline"
+            alt="Blue fiber optic cables with glowing data streams representing high-speed network connectivity and digital infrastructure"
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -67,7 +67,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/blog/sap-ariba-mobile-banner.webp"
-            alt="SAP Ariba Streamline"
+            alt="Blue fiber optic cables with glowing data streams representing high-speed network connectivity and digital infrastructure"
             fill
             style={{ objectFit: "cover" }}
             priority

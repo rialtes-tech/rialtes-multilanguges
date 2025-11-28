@@ -106,7 +106,7 @@ export default function page() {
                 <div className="hidden lg:block">
                     <Image
                         src="/images/case-studies/Transforming-student-success.webp"
-                        alt=""
+                        alt="Graduation cap with gold tassel floating above white clouds with wooden ladder symbolizing educational achievement"
                         fill
                         style={{ objectFit: "cover", objectPosition: "50% 20%" }}
                         priority
@@ -116,7 +116,7 @@ export default function page() {
                 <div className="block lg:hidden">
                     <Image
                         src="/images/case-studies/Feature Thumb.webp"
-                        alt=""
+                        alt="Graduation cap with gold tassel floating above white clouds with wooden ladder symbolizing educational achievement Mobile"
                         fill
                         style={{ objectFit: "cover", objectPosition: "50% 20%" }}
                         priority

@@ -55,7 +55,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/blog/agentexchange-blog-banner.webp"
-            alt="Discover AgentExchange"
+            alt="Purple and blue abstract digital waves with network connections representing global connectivity and data communication"
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -67,7 +67,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/blog/agentexchange-blog-banner-mobile.webp"
-            alt="Discover AgentExchange"
+            alt="Purple and blue abstract digital waves with network connections representing global connectivity and data communication"
             fill
             style={{ objectFit: "cover" }}
             priority

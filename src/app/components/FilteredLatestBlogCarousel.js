@@ -17,6 +17,7 @@ export default function page({ url }) {
             "date": "Nov. 27, 2025",
             "url": "/sap-successfactors-services-hr-transformation/",
             "title": "How SAP SuccessFactors Services Leverage Data & AI to Transform Modern HR",
+            "alt":"",
             "description": "In 2025, a quiet revolution is transforming the way HR operates. The field of HR is evolving continuously. Expectations have changed, not in the sensational ways that make headlines each week, but through a more subtle, systemic shift."
         },
         {
@@ -289,7 +290,7 @@ export default function page({ url }) {
                                 <Link href={'/insights/blogs' + slide.url}>
                                     <Image
                                         src={slide.image}
-                                        alt={slide.title}
+                                        alt={slide.alt}
                                         width={0}
                                         height={0}
                                         sizes="100vw"

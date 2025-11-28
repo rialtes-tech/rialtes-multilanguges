@@ -191,7 +191,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/ai-that-listens-desktop-banner.webp "
-                        alt="ai that listens"
+                        alt="Blue digital tunnel with binary code and motion blur lights representing high-speed data transfer and technology"
                         fill
                         priority
                     />
@@ -199,7 +199,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/ai-that-listens-mob-banner.webp"
-                        alt="ai that listens"
+                        alt="Blue digital tunnel with binary code and motion blur lights representing high-speed data transfer and technology"
                         priority
                         height={0}
                         width={0}

@@ -237,7 +237,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/sap-signavio-sap-cloud-desktop.webp"
-                        alt="ai that listens"
+                        alt="Abstract digital mountain formed by flowing blue pink and purple light waves with particle dots on dark background"
                         fill
                         priority
                     />
@@ -245,7 +245,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/sap-signavio-sap-cloud-mobile.webp"
-                        alt="ai that listens"
+                        alt="Abstract digital mountain formed by flowing blue pink and purple light waves with particle dots on dark background"
                         priority
                         height={0}
                         width={0}

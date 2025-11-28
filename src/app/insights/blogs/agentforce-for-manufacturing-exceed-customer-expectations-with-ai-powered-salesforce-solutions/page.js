@@ -1,3 +1,5 @@
+
+
 "use client";
 import Image from "next/image";
 import Link from "next/link";
@@ -130,7 +132,7 @@ export default function Page() {
                 <div className="hidden md:block">
                     <Image
                         src="/images/blog/Agentforce-AI-For-Manufacturing-updated_banner.webp"
-                        alt="Discover AgentExchange"
+                        alt="Business professionals collaborating on tablet reviewing digital data and strategies in modern corporate technology office"
                         fill
                         style={{ objectFit: "cover" }}
                         priority
@@ -142,7 +144,7 @@ export default function Page() {
                 <div className="block md:hidden">
                     <Image
                         src="/images/blog/agentforce-mobile-banner.webp"
-                        alt="Discover AgentExchange"
+                        alt="Business professionals collaborating on tablet reviewing digital data and strategies in modern corporate technology office"
                         fill
                         style={{ objectFit: "cover" }}
                         priority

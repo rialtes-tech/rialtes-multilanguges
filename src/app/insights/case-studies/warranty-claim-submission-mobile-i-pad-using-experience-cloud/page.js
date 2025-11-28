@@ -57,7 +57,7 @@ export default function Page() {
                 <div className="hidden md:block">
                     <Image
                         src="/images/case-studies/Adaptis-for-web-casestudy-banner.webp"
-                        alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
+                        alt="Insurance adjuster and homeowner reviewing claim details on tablet in front of storm damaged roof requiring repair assessment"
                         fill
                         style={{ objectFit: "cover", }}
                         priority
@@ -66,7 +66,7 @@ export default function Page() {
                 <div className="block md:hidden">
                     <Image
                         src="/images/case-studies/Adaptis-for-mobile-banner.webp"
-                        alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
+                        alt="Insurance adjuster and homeowner reviewing claim details on tablet in front of storm damaged roof requiring repair assessment"
                         fill
                         style={{ objectFit: "cover", objectPosition: "90% 20%" }}
                         priority

@@ -53,7 +53,7 @@ export default function Page() {
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]  overflow-hidden">
         <Image
           src="/images/case-studies/case-study-6.webp "
-          alt="Yardi Managed Services"
+          alt="Abstract 3D visualization of colorful data bars representing analytics and digital growth"
           fill
           style={{ objectFit: "cover", objectPosition: "40% 20%" }}
           priority

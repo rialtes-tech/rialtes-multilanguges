@@ -273,7 +273,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/digital-transformation-journey-ai.webp"
-                        alt="Abstract image of a person walking on a digital path surrounded by silhouettes made of data points, symbolizing AI-driven digital transformation and innovation journey"
+                        alt="Abstract image of a person walking on a digital path surrounded by silhouettes made of data points"
                         fill
                         priority
                     />
@@ -281,7 +281,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/digital-transformation-journey-ai-mobile.webp"
-                        alt="Abstract image of a person walking on a digital path surrounded by silhouettes made of data points, symbolizing AI-driven digital transformation and innovation journey"
+                        alt="Abstract image of a person walking on a digital path surrounded by silhouettes made of data points"
                         priority
                         height={0}
                         width={0}

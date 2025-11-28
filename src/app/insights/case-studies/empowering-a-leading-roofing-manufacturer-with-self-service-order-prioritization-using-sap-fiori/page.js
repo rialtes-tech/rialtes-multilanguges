@@ -55,16 +55,16 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/case-studies/fiori-banner.webp"
-            alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
+            alt="Display wall showing variety of roofing shingle samples in different colors including brown tan gray and black textures"
             fill
-            style={{ objectFit: "cover", }}
+            style={{ objectFit: "cover", }} 
             priority
           />
         </div>
         <div className="block md:hidden">
           <Image
             src="/images/case-studies/Sample and literature Request_Case study Mobile banner.webp"
-            alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
+            alt="Display wall showing variety of roofing shingle samples in different colors including brown tan gray and black textures Mobile"
             fill
             style={{ objectFit: "cover", objectPosition: "90% 20%" }}
             priority

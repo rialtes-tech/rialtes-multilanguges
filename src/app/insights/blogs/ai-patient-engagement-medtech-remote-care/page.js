@@ -220,7 +220,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/ai-in-patient-desktop-banner.webp"
-                        alt="ai that listens"
+                        alt="Digital medical innovation showing human anatomy and AI analysis through interactive 3D holographic interface."
                         fill
                         priority
                     />
@@ -228,7 +228,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/ai-in-patient-mobile-banner.webp"
-                        alt="ai that listens"
+                        alt="Digital medical innovation showing human anatomy and AI analysis through interactive 3D holographic interface."
                         priority
                         height={0}
                         width={0}

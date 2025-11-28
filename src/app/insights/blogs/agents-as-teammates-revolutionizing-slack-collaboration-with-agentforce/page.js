@@ -62,7 +62,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/blog/agents-as-teammates-desk-img.webp"
-            alt="desktop banner"
+            alt="Digital AI agent interface glowing in blue with futuristic circuits and data patterns"
             fill
             style={{ objectFit: "cover", objectPosition: "55% 10%" }}
             priority
@@ -74,7 +74,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/blog/agents-as-teammates-mob-img.webp"
-            alt="mobile banner"
+            alt="Digital AI agent interface glowing in blue with futuristic circuits and data patterns"
             fill
             style={{ objectFit: "cover", objectPosition: "60% 20%" }}
             priority

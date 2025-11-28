@@ -274,7 +274,7 @@ export default function Page() {
         <div className="xl:block hidden">
           <Image
             src="/images/blog/sap-signavio-s4hana.webp"
-            alt="SAP Signavio"
+            alt="Blue digital tunnel with binary code and motion blur lights representing high-speed data transfer and technology"
             fill
             priority
           />
@@ -282,7 +282,7 @@ export default function Page() {
         <div className="xl:hidden block">
           <Image
             src="/images/blog/sap-signavio-s4hana-mobile-banner.webp"
-            alt="SAP Signavio"
+            alt="Blue digital tunnel with binary code and motion blur lights representing high-speed data transfer and technology"
             priority
             height={0}
             width={0}
