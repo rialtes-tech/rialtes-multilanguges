@@ -9,97 +9,92 @@ export default function Industry() {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Industries We Serve | Rialtes",
-    "url": "https://www.rialtes.com/industry",
-    "description": "Explore how Rialtes delivers industry-specific digital transformation solutions across Life Sciences, Manufacturing, Automotive, Hi-Tech, Real Estate, Non-Profit, Finance, Retail, Travel & Hospitality, and Education.",
+    "url": "https://www.rialtes.com/industry/",
+    "name": "Industries — Rialtes",
+    "description": "Industries we serve — Rialtes provides Salesforce, SAP and AI-driven solutions tailored for multiple industries including Real Estate, Life Sciences, Healthcare, Manufacturing, Retail, Finance and more.",
     "publisher": {
       "@type": "Organization",
-      "name": "Rialtes Technologies LLC",
-      "url": "https://www.rialtes.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.rialtes.com/images/homepage/logo.svg"
-      }
+      "name": "Rialtes",
+      "url": "https://www.rialtes.com"
     },
     "mainEntity": {
       "@type": "ItemList",
-      "name": "Industries Served",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Life Sciences",
-          "url": "https://www.rialtes.com/industry/life-sciences",
-          "description": "Empowering Healthcare, Pharma & Biotech, and Medical Device companies with AI, cloud, and compliance-focused digital solutions."
+          "item": { "@type": "WebPage", "name": "Real Estate", "url": "https://www.rialtes.com/industry/real-estate-property-management/" }
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Manufacturing",
-          "url": "https://www.rialtes.com/industry/manufacturing-cloud-erp",
-          "description": "Driving smart factory transformation with digital twins, predictive analytics, and integrated ERP systems."
+          "item": { "@type": "WebPage", "name": "Life Sciences", "url": "https://www.rialtes.com/industry/life-sciences-digital-transformation/" }
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Automotive",
-          "url": "https://www.rialtes.com/industry/automotive-industry-cloud-solutions",
-          "description": "Delivering cloud-based dealer management, warranty automation, and connected vehicle solutions."
+          "item": { "@type": "WebPage", "name": "Healthcare / MedTech", "url": "https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care" }
         },
         {
           "@type": "ListItem",
           "position": 4,
-          "name": "Hi-Tech & Semiconductor",
-          "url": "https://www.rialtes.com/industry/hitech-semiconductor",
-          "description": "Enabling innovation in semiconductor and high-tech sectors with PLM, IoT, and smart manufacturing systems."
+          "item": { "@type": "WebPage", "name": "Pharma & Biotech", "url": "https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/" }
         },
         {
           "@type": "ListItem",
           "position": 5,
-          "name": "Real Estate / Property Management",
-          "url": "https://www.rialtes.com/industry/real-estate-property-management",
-          "description": "Modernizing property operations with scalable leasing, accounting, payments, and mobile tenant portals."
+          "item": { "@type": "WebPage", "name": "Medical Devices", "url": "https://www.rialtes.com/industry/life-sciences/medical-devices-it-solutions/" }
         },
         {
           "@type": "ListItem",
           "position": 6,
-          "name": "Non-Profit",
-          "url": "https://www.rialtes.com/industry/nonprofit-digital-transformation-it-solutions",
-          "description": "Transforming donor management, fundraising, and mission delivery through Salesforce Nonprofit Cloud."
+          "item": { "@type": "WebPage", "name": "Home Health", "url": "https://www.rialtes.com/industry/life-sciences/home-health-ai-tech-solutions" }
         },
         {
           "@type": "ListItem",
           "position": 7,
-          "name": "Finance",
-          "url": "https://www.rialtes.com/industry/finance",
-          "description": "Driving agility and compliance for banks, insurers, and wealth firms through SAP and Salesforce solutions."
+          "item": { "@type": "WebPage", "name": "Semiconductor", "url": "https://www.rialtes.com/industry/hitech-semiconductor-ai-it-solutions" }
         },
         {
           "@type": "ListItem",
           "position": 8,
-          "name": "Retail",
-          "url": "https://www.rialtes.com/industry/retail",
-          "description": "Enabling omnichannel retail, personalized experiences, and intelligent inventory using digital platforms."
+          "item": { "@type": "WebPage", "name": "Manufacturing", "url": "https://www.rialtes.com/industry/manufacturing-cloud-erp" }
         },
         {
           "@type": "ListItem",
           "position": 9,
-          "name": "Travel & Hospitality",
-          "url": "https://www.rialtes.com/industry/travel-hospitality",
-          "description": "Enhancing guest experiences and operational efficiency with connected travel and hospitality solutions."
+          "item": { "@type": "WebPage", "name": "Education", "url": "https://www.rialtes.com/industry/education-cloud-it-solutions" }
         },
         {
           "@type": "ListItem",
           "position": 10,
-          "name": "Education",
-          "url": "https://www.rialtes.com/industry/education",
-          "description": "Transforming learning environments and administrative workflows for academic institutions through cloud technology."
+          "item": { "@type": "WebPage", "name": "Automotive", "url": "https://www.rialtes.com/industry/digital-transformation-in-automotive-industry" }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": { "@type": "WebPage", "name": "Travel & Hospitality", "url": "https://www.rialtes.com/industry/travel-hospitality-it-solutions" }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": { "@type": "WebPage", "name": "Retail", "url": "https://www.rialtes.com/industry/retail-industry-digital-transformation" }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": { "@type": "WebPage", "name": "Non-Profit", "url": "https://www.rialtes.com/industry/nonprofit-digital-transformation-it-solutions" }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": { "@type": "WebPage", "name": "Finance", "url": "https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions" }
         }
       ]
     }
   }
   const growLatestServices = [
-     {
+    {
       id: 3,
       image: "/images/industry/real-estate.webp",
       title: "Real Estate",
@@ -107,7 +102,7 @@ export default function Industry() {
       knowMore: '/industry/real-estate-property-management'
 
     },
-     {
+    {
       id: 11,
       image: "/images/industry/lifescience.webp",
       title: "Life Sciences",
@@ -124,7 +119,7 @@ export default function Industry() {
       knowMore: '/industry/life-sciences/healthcare-medtech-patient-care'
 
     },
-     {
+    {
       id: 5,
       image: "/images/pharma/Header Pharma.webp",
       title: "Pharma & Biotech",
@@ -148,7 +143,7 @@ export default function Industry() {
       knowMore: '/industry/life-sciences/home-health-ai-tech-solutions'
 
     },
-     {
+    {
       id: 4,
       image: "/images/industry/semi-conductor/Mobile/hero-banner-mob.webp",
       title: "Semiconductor",
@@ -156,7 +151,7 @@ export default function Industry() {
       knowMore: '/industry/hitech-semiconductor-ai-it-solutions'
 
     },
-   
+
     {
       id: 2,
       image: "/images/industry/manufacturing.webp",
@@ -165,7 +160,7 @@ export default function Industry() {
       knowMore: '/industry/manufacturing-cloud-erp'
 
     },
-    
+
     {
       id: 7,
       image: "/images/education/Group 483.webp",
@@ -182,7 +177,7 @@ export default function Industry() {
       knowMore: '/industry/digital-transformation-in-automotive-industry'
 
     },
-     {
+    {
       id: 10,
       image: "/images/industry/travel-transporation/TTH.webp",
       title: "Travel and Hospitality",
@@ -198,7 +193,7 @@ export default function Industry() {
       knowMore: '/industry/retail-industry-digital-transformation'
 
     },
-     {
+    {
       id: 13,
       image: "/images/industry/nonprofit.webp",
       title: "Non-Profit",
@@ -208,13 +203,13 @@ export default function Industry() {
     },
     {
       id: 14,
-      image: "/images/finance-img/mobile/finance-mobile.webp", 
+      image: "/images/finance-img/mobile/finance-mobile.webp",
       title: "Finance",
       description: "Modernize financial operations with AI-enabled insights and automation. From banking to insurance, Rialtes helps financial institutions simplify compliance, strengthen customer relationships, and deliver personalized financial experiences across every channel.",
       knowMore: '/industry/finance-industry-digital-transformation-services-solutions'
 
     },
-   
+
   ];
   const GrowServicesCard = ({ services }) => (
     <div className="w-full h-full flex flex-col">
@@ -268,7 +263,7 @@ export default function Industry() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-     {/* herosection */}
+      {/* herosection */}
       <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px] ">
         <div className="hidden md:block">
           <Image
@@ -319,7 +314,7 @@ export default function Industry() {
           </div>
         </div>
       </section>
-     <div className="custom-container lg:mt-[103px] mt-[60px]">
+      <div className="custom-container lg:mt-[103px] mt-[60px]">
         <section className=" bg-white">
           <GrowServices />
         </section>
