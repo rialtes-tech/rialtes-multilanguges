@@ -49,18 +49,18 @@ const latestCaseStudy = [
     date: "21 August 2025",
     url: "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/",
     title: "Transforming Student Success with Salesforce Education Cloud and Edu+",
-    alt:"Graduation cap with ladder rising into clouds symbolizing education success and growth",
+    alt: "Graduation cap with ladder rising into clouds symbolizing education success and growth",
     description: "A leading private university in North America with over 25,000 students and multiple academic programs across undergraduate, graduate, and continuing education divisions."
 
   },
-  { 
+  {
     id: 14,
     image: "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
     industry: "Automotive",
     date: "30 June 2025",
     url: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
     title: "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
-    alt:"Illustration showing AutoSense warranty management modules for automotive operations",
+    alt: "Illustration showing AutoSense warranty management modules for automotive operations",
     description: "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
   },
   {
@@ -70,7 +70,7 @@ const latestCaseStudy = [
     date: "10 June 2025",
     url: "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
     title: "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
-    alt:"Display of roofing shingle samples in multiple colors arranged for product comparison",
+    alt: "Display of roofing shingle samples in multiple colors arranged for product comparison",
     description: "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
 
   },
@@ -81,7 +81,7 @@ const latestCaseStudy = [
     date: "03 June 2025",
     url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
     title: "Revving Up Dealer Management with AutoSense by Rialtes",
-    alt:"Professionals collaborating around a laptop in a modern office setting",
+    alt: "Professionals collaborating around a laptop in a modern office setting",
     description: "A renowned global automotive manufacturer, recognized for its cutting-edge vehicles, faced significant challenges with their outdated dealer portal."
   },
   {
@@ -91,7 +91,7 @@ const latestCaseStudy = [
     date: "30 May 2025",
     url: "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/",
     title: "Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience",
-    alt:"Insurance adjuster inspecting storm-damaged home exterior with homeowner",
+    alt: "Insurance adjuster inspecting storm-damaged home exterior with homeowner",
     description: "A leading manufacturer of high-quality roofing solutions designed to protect what matters most.Specializing in durable and innovative products for residential"
   },
   {
@@ -101,7 +101,7 @@ const latestCaseStudy = [
     date: "28 May 2025",
     url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/",
     title: "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
-    alt:"Display of roofing shingle samples in multiple colors arranged for product comparison",
+    alt: "Display of roofing shingle samples in multiple colors arranged for product comparison",
     description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
   },
   {
@@ -111,7 +111,7 @@ const latestCaseStudy = [
     date: "26 Mar 2025",
     url: "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
     title: "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
-    alt:"Technician inspecting bottles on a production line for quality control",
+    alt: "Technician inspecting bottles on a production line for quality control",
     description: "The company is a leading manufacturer specializing in customized water treatment equipment. Each product is uniquely designed based on specific customer requirements, meaning no two products are alike. ",
   },
   {
@@ -122,7 +122,7 @@ const latestCaseStudy = [
     date: "08 Jan 2025",
     url: "/insights/case-studies/streamlined-devops-using-copado-and-salesforce/",
     title: "DevOps Transformation using Copado and Salesforce",
-    alt:"Industrial workers reviewing safety procedures and collaborating on site",
+    alt: "Industrial workers reviewing safety procedures and collaborating on site",
     description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
   },
   {
@@ -132,7 +132,7 @@ const latestCaseStudy = [
     date: "22 Dec 2024",
     url: "/insights/case-studies/realForce-banking-module-ach/",
     title: "Automating ACH and Journal Entries with Our Exelona Banking Module",
-    alt:"Business team collaborating on strategy planning using digital dashboards and reports",
+    alt: "Business team collaborating on strategy planning using digital dashboards and reports",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {
@@ -142,7 +142,7 @@ const latestCaseStudy = [
     date: "17 Nov 2024",
     url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/",
     title: "Automating Order Processing in Healthcare using MuleSoft",
-    alt:"Patient and nurse reviewing digital health records for accurate and coordinated care",
+    alt: "Patient and nurse reviewing digital health records for accurate and coordinated care",
     description: "A global medical technology company that develops and manufactures innovative products",
   },
   {
@@ -152,7 +152,7 @@ const latestCaseStudy = [
     date: "14 Oct 2024",
     url: "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/",
     title: "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
-    alt:"Advanced microchip manufacturing line showing precision technology and automated workflows",
+    alt: "Advanced microchip manufacturing line showing precision technology and automated workflows",
     description: "A leading provider of high-performance analog semiconductors for wireless and wired connectivity.",
   },
   {
@@ -162,7 +162,7 @@ const latestCaseStudy = [
     date: "27 Sept 2024",
     url: "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/",
     title: "Trusted YARDI Partner for North America’s Largest PHA",
-    alt:"Urban community working together with digital tools supporting engagement and services",
+    alt: "Urban community working together with digital tools supporting engagement and services",
     description: "A Public housing authority responsible for managing affordable housing programs across multiple counties in their zone.",
   },
   {
@@ -172,7 +172,7 @@ const latestCaseStudy = [
     date: "04 Sept 2024",
     url: "/insights/case-studies/yardi-managed-services/",
     title: "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
-    alt:"Colorful abstract city skyline illustrating data analytics and digital transformation",
+    alt: "Colorful abstract city skyline illustrating data analytics and digital transformation",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {
@@ -182,7 +182,7 @@ const latestCaseStudy = [
     date: "16 Aug 2024",
     url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/",
     title: "Digitizing the Patient Journey Using Salesforce Health Cloud",
-    alt:"Doctor reviewing patient records during a clinical consultation on mobile-friendly interface",
+    alt: "Doctor reviewing patient records during a clinical consultation on mobile-friendly interface",
     description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
   },
   {
@@ -192,7 +192,7 @@ const latestCaseStudy = [
     date: "02 Aug 2024",
     url: "/insights/case-studies/salesforce-health-cloud-prior-authorization/",
     title: "Digitizing Prior Authorization for Better Patient Outcomes",
-    alt:"Digitizing Prior Authorization for Better Patient Outcomes",
+    alt: "Digitizing Prior Authorization for Better Patient Outcomes",
     description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
 ];
@@ -346,38 +346,38 @@ const CaseStudy = () => {
 
 const FeaturedCarousel = () => {
   const slides = [
-     {
-    id: 9,
-    image: "/images/case-studies/case-study-7_thumb.webp",
-    industry: "Healthcare",
-    date: "16 Aug 2024",
-    url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/",
-    title: "Digitizing the Patient Journey Using Salesforce Health Cloud",
-    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
-    alt: "Doctor reviewing patient records during a clinical consultation on mobile-friendly interface",
+    {
+      id: 9,
+      image: "/images/case-studies/case-study-7_thumb.webp",
+      industry: "Healthcare",
+      date: "16 Aug 2024",
+      url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/",
+      title: "Digitizing the Patient Journey Using Salesforce Health Cloud",
+      description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+      alt: "Doctor reviewing patient records during a clinical consultation on mobile-friendly interface",
 
-  },
-     {
-    id: 1,
-    image: "/images/case-studies/fiory-carosel.webp",
-    industry: "Manufacturing",
-    date: "28 May 2025",
-    url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/",
-    title: "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
-    alt: "Display of roofing shingle samples in multiple colors arranged for product comparison",
-    description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
-  },
-    { 
-    id: 14,
-    image: "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
-    industry: "Automotive",
-    date: "30 June 2025",
-    url: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
-    title: "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
-    alt: "Illustration showing AutoSense warranty management modules for automotive operations",
-    description: "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
-  },
-   
+    },
+    {
+      id: 1,
+      image: "/images/case-studies/fiory-carosel.webp",
+      industry: "Manufacturing",
+      date: "28 May 2025",
+      url: "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/",
+      title: "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
+      alt: "Display of roofing shingle samples in multiple colors arranged for product comparison",
+      description: "Despite the client's significant technological investments in manufacturing, their order management process relied heavily on manual intervention. Customers who wanted to prioritize certain sales orders had to call the sales team and share their list of urgent orders.",
+    },
+    {
+      id: 14,
+      image: "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
+      industry: "Automotive",
+      date: "30 June 2025",
+      url: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
+      title: "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
+      alt: "Illustration showing AutoSense warranty management modules for automotive operations",
+      description: "A prominent global automotive car manufacturer, known for its innovation and high-performance vehicles, was facing challenges with its legacy warranty management system."
+    },
+
   ];
   const responsive = {
     desktop: {
