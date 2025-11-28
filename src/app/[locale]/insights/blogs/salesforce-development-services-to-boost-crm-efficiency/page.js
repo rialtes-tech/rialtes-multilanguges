@@ -17,80 +17,9 @@ export default function Page() {
     const t = useTranslations('salesforceDevelopment')
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { blogMainData, salesforceFeature, choosingRightData, whyCrmDAta, workFlowExample, rialtesYourTrustData, whatToLook, theCaseOfCustom, salesforceFeatureList, strategiesList, keyBenifitesSalesforce, keyBenifiteList, faqData } = blogsContent.salesforceDevelopment;
+    const {schemaData , blogMainData, salesforceFeature, choosingRightData, whyCrmDAta, workFlowExample, rialtesYourTrustData, whatToLook, theCaseOfCustom, salesforceFeatureList, strategiesList, keyBenifitesSalesforce, keyBenifiteList, faqData } = blogsContent.salesforceDevelopment;
     const fullUrl = "https://www.rialtes.com/insights/blogs/boost-your-crm-efficiency-with-tailored-salesforce-development-services/";
     const currUrl = useUrl()
-
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Salesforce Development Services to Boost CRM Efficiency | Rialtes",
-        "description": "Explore why custom Salesforce development matters, how it boosts CRM efficiency, and why choosing the right partner makes all the difference.",
-        "image": "https://www.rialtes.com/images/blog/salesforce-development-services-to-boost-efficiency.webp",
-        "author": {
-            "@type": "Organization",
-            "name": "Rialtes"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-            }
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.rialtes.com/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/"
-        },
-        "datePublished": "2025-10-06",
-        "mainEntity": {
-            "@type": "FAQPage",
-            "name": "Boosting CRM Efficiency with Salesforce Development Services FAQs",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "How can custom Salesforce development improve CRM efficiency?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Custom development automates repetitive tasks, integrates siloed systems, and tailors workflows to match business needs. This reduces errors, speeds up processes, and improves user adoption."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What are the benefits of hiring a Salesforce development company in the USA?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "US-based partners often have industry-specific expertise, strong compliance knowledge, and access to a highly skilled Salesforce-certified workforce, making them ideal for enterprise projects."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How do tailored Salesforce services reduce costs and improve ROI?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Tightened development reduces operational costs and helps enterprises achieve faster ROI by cutting redundant processes, automating workflows, and enhancing reporting."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What should enterprises look for in Salesforce development partners?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Look for certified expertise, proven experience in CRM optimization, integration capabilities, and a partner who prioritizes scalability and user adoption."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How does Rialtes help businesses with Salesforce CRM optimization and custom solutions?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Rialtes combines deep Salesforce expertise with industry knowledge. From integrations to AI-powered apps, we deliver tailored solutions that help enterprises maximize CRM efficiency and stay future-ready."
-                    }
-                }
-            ]
-        }
-    }
 
     return (
         <section className="min-h-screen">

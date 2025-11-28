@@ -11,85 +11,13 @@ import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import useUrl from "@/app/[locale]/components/useUrl";
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
-
-
 export default function Page() {
     const t = useTranslations('salesforcePartners')
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { salesforcePartnersHelp, partners, whatQualifies, businessGrowth, keyBenefits, partnerQualities, enterpriseCRM, partneringtomorrow, faqs, salesforcePara3 } = blogsContent.salesforcePartners;
+    const { schemaData , salesforcePartnersHelp, partners, whatQualifies, businessGrowth, keyBenefits, partnerQualities, enterpriseCRM, partneringtomorrow, faqs, salesforcePara3 } = blogsContent.salesforcePartners;
     const fullUrl = "https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate";
     const currUrl = useUrl();
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "How Top Salesforce Partners Help Enterprises Thrive and Innovate | Rialtes",
-        "description": "Top Salesforce partners help enterprises thrive by aligning technology with business growth, accelerating innovation, and ensuring long-term value.",
-        "image": "https://www.rialtes.com/images/blog/top-salesforce-partners-help-enterprises-thrive.webp",
-        "author": {
-            "@type": "Organization",
-            "name": "Rialtes"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-            }
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/"
-        },
-        "datePublished": "2025-10-10",
-        "mainEntity": {
-            "@type": "FAQPage",
-            "name": "Top Salesforce Partners and Enterprise Growth FAQs",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "Who are the top Salesforce partners for enterprises?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Top Salesforce partners are Crest or Summit-level consulting firms recognized for proven expertise, successful implementations, and innovation. Rialtes, as a Salesforce Crest Partner, is one of them."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How do Salesforce partners help business growth?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Salesforce partners customize CRM solutions, enable AI-driven insights, automate workflows, and provide ongoing optimization, helping enterprises improve efficiency, reduce costs, and unlock new revenue opportunities."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What are enterprise CRM solutions, and why are they important?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Enterprise CRM solutions connect sales, marketing, service, and data into one unified platform. They help businesses manage customer relationships at scale, improve decision-making, and deliver personalized experiences."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Why should an enterprise choose a Salesforce Crest Partner?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Crest Partners are recognized for advanced certifications, high customer satisfaction scores, and proven industry expertise. They deliver complex, large-scale Salesforce solutions with lower risk and faster ROI."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Why is Rialtes considered one of the best Salesforce consulting partners?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Rialtes combines Salesforce expertise with industry-specific knowledge and a co-innovation approach. As a Crest Partner, Rialtes has delivered enterprise CRM solutions across multiple industries, helping clients thrive and innovate."
-                    }
-                }
-            ]
-        }
-    }
 
     return (
         <section className="min-h-screen">

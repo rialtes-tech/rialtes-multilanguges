@@ -14,84 +14,6 @@ import frContent from "../../../../../../messages/fr/blogs.json";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
-  const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "How Digital Innovation Is Transforming Clinical Trial Management | Rialtes",
-  "description": "Digital innovation is transforming the clinical research landscape as AI, automation, and connected ecosystems redefine execution of digital clinical trials.",
-  "image": "https://www.rialtes.com/images/blog/digital-medical-hologram-banner.webp",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/"
-  },
-  "datePublished": "2025-11-25",
-    "mainEntity": {
-    "@type": "FAQPage",
-    "name": " FAQs: Transforming Clinical Trial Management",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What are digital clinical trials?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Digital clinical trials utilize technologies such as AI, cloud platforms, and wearable devices to collect, manage, and analyze data more efficiently than traditional trials."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How does AI improve patient enrollment in clinical trials?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "AI-powered systems analyze patient records and demographics to match participants quickly and accurately, especially for rare disease studies."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What tools help reduce clinical trial dropout rates?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Mobile apps, telehealth platforms, and digital reminders improve engagement, communication, and adherence, helping lower trial dropout rates."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Why are intelligent healthcare ecosystems important for trials?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "They connect providers, payers, and research systems, ensuring smoother data exchange, regulatory compliance, and real-time monitoring."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How does MediAIna support digital clinical trial management?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "MediAIna integrates clinical, operational, and patient data across multiple systems, automating trial management and improving decision-making."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the future of digital innovation in clinical research?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The future lies in AI-driven, patient-centric, and connected ecosystems that accelerate trial timelines, reduce costs, and enhance patient outcomes."
-        }
-      }
-    ]
-  }
-};
     const fullUrl =
     "https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management";
 
@@ -112,7 +34,8 @@ export default function Page() {
        toolsData,
        innovationData,
        quickAnswer,
-       faqData
+       faqData,
+       schemaData
       } = content.digitalInnovationBlog; 
   return (
     <section className="min-h-screen">
@@ -157,7 +80,7 @@ export default function Page() {
            <BlogSocialIcons
                         fullUrl={fullUrl}
                         topic={t("blogTopic")}
-                        date="25 Nov 2025"
+                        date="25 November 2025"
                       />
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
@@ -186,11 +109,11 @@ export default function Page() {
                   </p>
                   <div className="grid xl:gap-[38px] md:gap-[25px] gap-4 sm:grid-cols-2 lg:grid-cols-4  xl:mt-[40px] mt-4 mb-5">
                     {trialsData.map((item, index) => (
-                      <div key={index}>
-                        <h3 className="font-bold 4xl:text-[22px] 2xl:text-[19px] text-[18px] leading-tight text-black lg:mt-0 mt-4">
+                       <div key={index} >
+                       <span> <h3 className="inline font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight text-black lg:mt-0 mt-4">
                           {item.title}
-                        </h3>
-                        <p className="4xl:text-[22px] 2xl:text-[19px] text-[18px] leading-tight">
+                        </h3>,</span>
+                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight mt-1">
                           {item.desc}
                         </p>
                       </div>
@@ -284,7 +207,7 @@ export default function Page() {
                         </div>
 
                         <div className="relative flex flex-col md:pl-14">
-                          <p className="text-[#006FBE] font-bold 4xl:text-[24px] 2xl:text-[21px] text-[20px]">
+                          <p className="text-[#006FBE] font-bold 4xl:text-[22px] 2xl:text-[19px] text-[18px]">
                             {data.gridRight[1]}
                           </p>
                         </div>
@@ -337,7 +260,7 @@ export default function Page() {
                       <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-bold ">
                         {data.desc2}
                       </p>
-                      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 4xl:mr-28 xl:mr-20">
+                      <div className="xl:mt-[30px] mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 4xl:mr-28 xl:mr-20">
                         {data.features.map((item, i) => (
                           <div
                             key={i}
@@ -350,7 +273,7 @@ export default function Page() {
                         ))}
                       </div>
 
-                      <p className="xl:mt-[60px] mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                      <p className="xl:mt-[30px] mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                         {data.desc3}
                       </p>
                       <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
