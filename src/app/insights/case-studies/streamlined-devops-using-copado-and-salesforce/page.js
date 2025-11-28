@@ -54,7 +54,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/case-studies/case study 3_n 1.webp "
-            alt="Streamlined DevOps using Copado and Salesforce"
+            alt="Diverse construction team wearing safety helmets and high visibility vests reviewing project data on laptop in warehouse"
             fill
             style={{ objectFit: "cover", objectPosition: "80% 20%" }}
             priority
@@ -63,7 +63,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/case-studies/case study 3_thumb_n.webp"
-            alt="Streamlined DevOps using Copado and Salesforce"
+            alt="Diverse construction team wearing safety helmets and high visibility vests reviewing project data on laptop in warehouse Mobile"
             fill
             style={{ objectFit: "cover", objectPosition: "90% 20%" }}
             priority

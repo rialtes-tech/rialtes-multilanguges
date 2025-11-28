@@ -258,7 +258,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/industry4-desktop-banner.webp"
-                        alt="ai that listens"
+                        alt="Advanced Industry 4.0 automation with robotic arm, digital data overlay, and futuristic manufacturing interface"
                         fill
                         priority
                     />
@@ -266,7 +266,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/industry4-mobile-banner.webp"
-                        alt="ai that listens"
+                        alt="Advanced Industry 4.0 automation with robotic arm, digital data overlay, and futuristic manufacturing interface"
                         priority
                         height={0}
                         width={0}

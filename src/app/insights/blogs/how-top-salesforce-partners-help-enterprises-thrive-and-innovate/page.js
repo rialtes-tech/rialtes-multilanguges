@@ -308,7 +308,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/top-salesforce-partners-help-enterprises-thrive.webp"
-                        alt="banner image"
+                        alt="Abstract banner showing enterprise growth and digital transformation powered by Salesforce solutions"
                         fill
                         priority
                     />
@@ -316,7 +316,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/salesforce-consulting-mobile-banner.webp"
-                        alt="banner image"
+                        alt="Abstract banner showing enterprise growth and digital transformation powered by Salesforce solutions"
                         priority
                         height={0}
                         width={0}

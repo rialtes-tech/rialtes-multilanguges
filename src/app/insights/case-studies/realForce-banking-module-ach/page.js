@@ -57,7 +57,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/case-studies/case study 2_n 1.webp "
-            alt="RealForce Banking Module - ACH"
+            alt="Business professionals and architect reviewing blueprints and pointing at construction plans in bright modern office space"
             fill
             style={{ objectFit: "cover", objectPosition: "30% 90%" }}
             priority
@@ -66,7 +66,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/case-studies/case-study-2_thumb_n.webp"
-            alt="RealForce Banking Module - ACH"
+            alt="Business professionals and architect reviewing blueprints and pointing at construction plans in bright modern office space Mobile"
             fill
             style={{ objectFit: "cover", objectPosition: "30% 90%" }}
             priority

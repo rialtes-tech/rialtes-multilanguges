@@ -188,7 +188,7 @@ export default function page() {
                 <div className="xl:hidden block h-full">
                     <Image
                         src="/images/case-studies/automotive-tire-factory-production-line-mobile.webp"
-                        alt="Automotive tires moving on a production line in a modern manufacturing facility"
+                        alt="Automotive tires moving on a production line in a modern manufacturing facility Mobile"
                         priority
                         height={0}
                         width={0}

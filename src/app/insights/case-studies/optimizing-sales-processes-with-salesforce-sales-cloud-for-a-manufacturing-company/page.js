@@ -56,7 +56,7 @@ export default function Page() {
                 <div className="md:block hidden">
                     <Image
                         src="/images/case-studies/streamline-banner.webp"
-                        alt="Streamlined DevOps using Copado and Salesforce"
+                        alt="Female quality control technician in hairnet and safety glasses inspecting clear bottle on automated manufacturing line"
                         priority
 
                         fill
@@ -69,7 +69,7 @@ export default function Page() {
 
                     <Image
                         src="/images/case-studies/streamline-mobile-banner.webp"
-                        alt="Streamlined DevOps using Copado and Salesforce"
+                        alt="Female quality control technician in hairnet and safety glasses inspecting clear bottle on automated manufacturing line Mobile"
                         priority
                         fill
                         style={{ objectFit: "cover", objectPosition: "90% 20%" }}

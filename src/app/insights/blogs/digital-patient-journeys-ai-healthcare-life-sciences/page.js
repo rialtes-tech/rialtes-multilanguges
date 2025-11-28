@@ -329,7 +329,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/digital-patient-journeys.webp"
-                        alt="banner image"
+                        alt="AI-enhanced patient journey timeline showing diagnosis, treatment steps, and continuous medical follow-up"
                         fill
                         priority
                     />
@@ -337,7 +337,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/digital-patient-journeys-mobile.webp"
-                        alt="banner image"
+                        alt="AI-enhanced patient journey timeline showing diagnosis, treatment steps, and continuous medical follow-up"
                         priority
                         height={0}
                         width={0}

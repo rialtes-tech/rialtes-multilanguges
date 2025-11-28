@@ -49,7 +49,7 @@ export default function Page() {
        <div>
          <Image
           src="/images/case-studies/yardi-casestudy.webp "
-          alt="A public housing in US"
+          alt="Conceptual illustration of a diverse urban community collaborating within a circular city model"
           fill
           style={{ objectFit: "cover", objectPosition: "40% 20%" }}
           priority

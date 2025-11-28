@@ -54,7 +54,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/case-studies/case study 1_n 1.webp "
-            alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
+            alt="Healthcare professional and business colleague discussing patient care with digital tablet in modern hospital corridor"
             fill
             style={{ objectFit: "cover", objectPosition: "70% 30%" }}
             priority
@@ -63,7 +63,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/case-studies/case study 1_thumb_n.webp"
-            alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
+            alt="Healthcare professional and business colleague discussing patient care with digital tablet in modern hospital corridor Mobile"
             fill
             style={{ objectFit: "cover", objectPosition: "70% 30%" }}
             priority

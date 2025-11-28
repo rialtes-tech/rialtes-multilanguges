@@ -53,7 +53,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/case-studies/case-study-8.webp "
-            alt="Salesforce Health Cloud, Prior Authorization"
+            alt="Digital visualization of neural network or brain structure above tablet symbolizing artificial intelligence and connectivity"
             fill
             style={{ objectFit: "cover", objectPosition: "40% 20%" }}
             priority
@@ -62,7 +62,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/case-studies/case-study-8_thumb.webp "
-            alt="Salesforce Health Cloud, Prior Authorization"
+            alt="Digital visualization of neural network or brain structure above tablet symbolizing artificial intelligence and connectivity"
             fill
             style={{ objectFit: "cover", objectPosition: "40% 20%" }}
             priority

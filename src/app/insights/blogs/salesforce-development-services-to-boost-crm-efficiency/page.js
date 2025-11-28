@@ -303,7 +303,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/salesforce-development-services-to-boost-efficiency.webp"
-                        alt="banner image"
+                        alt="Salesforce CRM dashboard showing analytics, user activity metrics, and automated workflow insights"
                         fill
                         priority
                     />
@@ -311,7 +311,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/salesforce-consulting-cluster-feature-thumb.webp"
-                        alt="banner image"
+                        alt="Salesforce CRM dashboard showing analytics, user activity metrics, and automated workflow insights"
                         priority
                         height={0}
                         width={0}

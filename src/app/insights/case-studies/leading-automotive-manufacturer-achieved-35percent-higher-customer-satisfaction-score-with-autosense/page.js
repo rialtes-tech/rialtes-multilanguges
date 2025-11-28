@@ -55,7 +55,7 @@ export default function Page() {
         <Image
           className="md:block hidden overflow-hidden "
           src="/images/case-studies/AutoSense Warranty Management Modules_Case study banner.webp "
-          alt="AutoSense Warranty managment case study"
+          alt="Robotic arms assembling car body frames on an automated production line inside a modern automotive facility"
           fill
           style={{ objectFit: "cover", objectPosition: "40% 20%" }}
           priority
@@ -64,7 +64,7 @@ export default function Page() {
         <Image
           className="block md:hidden overflow-hidden "
           src="/images/case-studies/AutoSense Warranty Management Modules_Case study Mobile banner.webp "
-          alt="AutoSense Warranty managment case study"
+          alt="Robotic arms assembling car body frames on an automated production line inside a modern automotive facility"
           fill
           style={{ objectFit: "cover", objectPosition: "40% 20%" }}
           priority

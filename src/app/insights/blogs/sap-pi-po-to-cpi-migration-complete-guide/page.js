@@ -220,7 +220,7 @@ export default function Page() {
                 <div className="hidden md:block">
                     <Image
                         src="/images/blog/sap-pi-po-cpi-migration-banner.webp"
-                        alt="Discover AgentExchange"
+                        alt="Glowing neon frame with white clouds and digital particles representing cloud computing and data transformation"
                         fill
                         priority
                     />
@@ -230,7 +230,7 @@ export default function Page() {
                 <div className="block md:hidden">
                     <Image
                         src="/images/blog/sap-cpi-mobile-banner.webp"
-                        alt="Discover AgentExchange"
+                        alt="Glowing neon frame with white clouds and digital particles representing cloud computing and data transformation"
                         fill
                         style={{ objectFit: "cover" }}
                         priority

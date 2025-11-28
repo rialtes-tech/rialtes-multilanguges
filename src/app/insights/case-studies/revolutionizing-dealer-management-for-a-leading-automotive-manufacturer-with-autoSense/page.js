@@ -53,7 +53,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/case-studies/revolutionizing-dealer-management-for-a-eading-automotive-anufacturer-with-autosense-case-study-banner.webp"
-            alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
+            alt="Smiling business woman wearing glasses and male colleague collaborating on laptop computer in contemporary office workspace environment"
             fill
             style={{ objectFit: "cover", objectPosition: "90% 20%" }}
             priority
@@ -62,7 +62,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/case-studies/revolutionary-filter.webp"
-            alt="Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP"
+            alt="Smiling business woman wearing glasses and male colleague collaborating on laptop computer in contemporary office workspace environment Mobile"
             fill
             style={{ objectFit: "cover", objectPosition: "90% 20%" }}
             priority

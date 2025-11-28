@@ -265,7 +265,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/ai-sla-billing-efficiency.webp"
-                        alt="banner image"
+                        alt="3D smart home hologram with data analytics charts and graphs on futuristic blue digital interface dashboard"
                         fill
                         priority
                     />
@@ -273,7 +273,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/ai-sla-billing-efficiency-mobile.webp"
-                        alt="banner image"
+                        alt="3D smart home hologram with data analytics charts and graphs on futuristic blue digital interface dashboard"
                         priority
                         height={0}
                         width={0}

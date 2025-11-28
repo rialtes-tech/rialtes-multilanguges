@@ -237,7 +237,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/agentforce-ai-erp.webp"
-                        alt="banner image"
+                        alt="Agentforce AI integrating with ERP to automate tasks and improve operational efficiency"
                         fill
                         priority
                     />
@@ -245,7 +245,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/agentforce-ai-erp-mobile.webp"
-                        alt="banner image"
+                        alt="Agentforce AI integrating with ERP to automate tasks and improve operational efficiency"
                         priority
                         height={0}
                         width={0}

@@ -243,7 +243,7 @@ export default function Page() {
                 <div className="hidden md:block">
                     <Image
                         src="/images/blog/reimagine-banner.webp"
-                        alt="Discover AgentExchange"
+                        alt="Agentic AI microchip with colorful light beams and data streams representing artificial intelligence computing power"
                         fill
                         priority
                     />
@@ -253,7 +253,7 @@ export default function Page() {
                 <div className="block md:hidden">
                     <Image
                         src="/images/blog/reimagine-mobile-banner.webp"
-                        alt="Discover AgentExchange"
+                        alt="Agentic AI microchip with colorful light beams and data streams representing artificial intelligence computing power"
                         fill
                         priority
                     />

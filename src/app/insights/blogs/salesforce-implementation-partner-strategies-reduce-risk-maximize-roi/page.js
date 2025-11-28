@@ -288,7 +288,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/salesforce-implementation-partners-strategies.webp"
-                        alt="banner image"
+                        alt="Team reviewing Salesforce implementation roadmap with cloud integration and workflow optimization visuals"
                         fill
                         priority
                     />
@@ -296,7 +296,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/salesforce-implementation-partners-strategies-mobile.webp"
-                        alt="banner image"
+                        alt="Team reviewing Salesforce implementation roadmap with cloud integration and workflow optimization visuals"
                         priority
                         height={0}
                         width={0}

@@ -245,7 +245,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care.webp"
-                        alt="banner image"
+                        alt="Patient viewing digital health data on a tablet with icons for diagnosis, treatment, and long-term care"
                         fill
                         priority
                     />
@@ -253,7 +253,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp"
-                        alt="banner image"
+                        alt="Patient viewing digital health data on a tablet with icons for diagnosis, treatment, and long-term care"
                         priority
                         height={0}
                         width={0}

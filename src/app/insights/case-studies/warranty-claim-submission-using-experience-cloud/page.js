@@ -53,7 +53,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/case-studies/adaptis_web-banner.webp"
-            alt=""
+            alt="Layered roofing shingle samples displaying multiple color options including red brown blue gray beige and copper tones"
             fill
             style={{ objectFit: "cover", objectPosition: "90% 20%" }}
             priority
@@ -62,7 +62,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/case-studies/Adaptis_featured CS.webp"
-            alt=""
+            alt="Layered roofing shingle samples displaying multiple color options including red brown blue gray beige and copper tones"
             fill
             style={{ objectFit: "cover", objectPosition: "90% 20%" }}
             priority

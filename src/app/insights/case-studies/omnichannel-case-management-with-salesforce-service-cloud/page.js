@@ -55,7 +55,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/case-studies/case-study-4.webp "
-            alt="Omnichannel case management with Salesforce Service Cloud"
+            alt="Close-up of a precision machine working on a glowing microchip representing advanced semiconductor manufacturing"
             fill
             style={{ objectFit: "cover", objectPosition: "40% 20%" }}
             priority
@@ -64,7 +64,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/case-studies/case-study-4_thumb.webp "
-            alt="Omnichannel case management with Salesforce Service Cloud"
+            alt="Close-up of a precision machine working on a glowing microchip representing advanced semiconductor manufacturing Mobile"
             fill
             style={{ objectFit: "cover", objectPosition: "40% 20%" }}
             priority

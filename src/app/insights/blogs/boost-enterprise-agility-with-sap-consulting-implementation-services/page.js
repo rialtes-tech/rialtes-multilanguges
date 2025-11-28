@@ -269,7 +269,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/digital-network-touch-data-connection-visualization.webp"
-                        alt="banner image"
+                        alt="Business hand touching glowing digital network with radiating light beams and data particles on dark background"
                         fill
                         priority
                     />
@@ -277,7 +277,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/digital-network-touch-data-connection-visualization-mobile.webp"
-                        alt="banner image"
+                        alt="Business hand touching glowing digital network with radiating light beams and data particles on dark background"
                         priority
                         height={0}
                         width={0}

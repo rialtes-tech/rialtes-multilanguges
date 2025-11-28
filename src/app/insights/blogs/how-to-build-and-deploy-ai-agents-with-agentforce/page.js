@@ -297,7 +297,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/first-ai-agent-desktop-banner.webp"
-                        alt="banner image"
+                        alt="Man interacting with glowing AI data visualization wave representing digital transformation and machine learning."
                         fill
                         priority
                         className="object-cover"
@@ -306,7 +306,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/first-ai-agent-mob-banner.webp"
-                        alt="banner image"
+                        alt="Man interacting with glowing AI data visualization wave representing digital transformation and machine learning."
                         priority
                         height={0}
                         width={0}

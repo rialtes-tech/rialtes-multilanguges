@@ -177,7 +177,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/ai-agents-in-manufacturing.webp "
-                        alt="ai that listens"
+                        alt="Smart factory floor with robotic arms and an AI interface enabling predictive automation and efficient production."
                         fill
                         priority
                     />
@@ -185,7 +185,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/ai-agents-in-manufacturing-mobile.webp"
-                        alt="ai that listens"
+                        alt="Smart factory floor with robotic arms and an AI interface enabling predictive automation and efficient production."
                         priority
                         height={0}
                         width={0}

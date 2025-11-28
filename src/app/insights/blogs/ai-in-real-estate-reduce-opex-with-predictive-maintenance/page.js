@@ -334,7 +334,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/ai-property-operations-predictive-maintenance.webp"
-                        alt="banner image"
+                        alt="Building illustration showing AI sensors predicting maintenance needs with real-time analytics."
                         fill
                         priority
                     />
@@ -342,7 +342,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/ai-property-operations-predictive-maintenance-mobile.webp"
-                        alt="banner image"
+                        alt="Building illustration showing AI sensors predicting maintenance needs with real-time analytics."
                         priority
                         height={0}
                         width={0}

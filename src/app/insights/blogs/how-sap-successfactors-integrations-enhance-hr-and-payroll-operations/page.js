@@ -55,7 +55,7 @@ export default function Page() {
         <div className="hidden md:block">
           <Image
             src="/images/blog/successfactor-web-banner.webp"
-            alt="SAP SuccessFactors Integrations"
+            alt="Abstract blue network with transparent geometric cubes and data streams representing cloud computing infrastructure"
             fill
             style={{ objectFit: "cover" }}
             priority
@@ -67,7 +67,7 @@ export default function Page() {
         <div className="block md:hidden">
           <Image
             src="/images/blog/successfactor-mobile-banner.webp"
-            alt="SAP SuccessFactors Integrations"
+            alt="Abstract blue network with transparent geometric cubes and data streams representing cloud computing infrastructure"
             fill
             style={{ objectFit: "cover" }}
             priority

@@ -57,7 +57,7 @@ export default function Page() {
         <div className="hidden lg:block">
           <Image
             src="/images/case-studies/case-study-7.webp"
-            alt="Digitizing patient journey using Salesforce health cloud"
+            alt="Doctor showing medical information on a digital tablet to a senior patient during a consultation"
             fill
             style={{ objectFit: "cover", objectPosition: "40% 20%" }}
             priority
@@ -66,7 +66,7 @@ export default function Page() {
         <div className="block lg:hidden">
           <Image
             src="/images/case-studies/case-study-7_thumb.webp"
-            alt="Digitizing patient journey using Salesforce health cloud"
+            alt="Doctor showing medical information on a digital tablet to a senior patient during a consultation Mobile"
             fill
             style={{ objectFit: "cover", objectPosition: "40% 20%" }}
             priority

@@ -240,7 +240,7 @@ export default function page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/byond-robotics-desktop-baner.webp"
-                        alt="banner image"
+                        alt="Professional reviewing industrial digital twin 3D model on tablet for factory layout planning and manufacturing optimization"
                         fill
                         priority
                     />
@@ -248,7 +248,7 @@ export default function page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/byond-robotics-mobile-banner.webp"
-                        alt="banner image"
+                        alt="Professional reviewing industrial digital twin 3D model on tablet for factory layout planning and manufacturing optimization"
                         priority
                         height={0}
                         width={0}
