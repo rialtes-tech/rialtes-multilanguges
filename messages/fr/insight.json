@@ -145,7 +145,7 @@
     "industryTitle": "Industrie",
     "categoryTitle": "Catégorie",
     "industries": [
-      "Tout",
+      "Tous",
       "Agriculture",
       "Automobile",
       "Santé",
@@ -158,7 +158,7 @@
       "Générique"
     ],
     "categories": [
-      "Tout",
+      "Tous",
       "IA Agentique",
       "Exelona",
       "Intégration",
@@ -358,7 +358,7 @@
       {
         "id": 46,
         "image": "/images/blog/salesforce-consulting-cluster-thumb.webp",
-        "category": "Salesforce Agentforce",
+        "category": "Conseil Salesforce",
         "industry": "Générique",
         "date": "Oct. 10, 2025",
         "url": "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/",
@@ -380,7 +380,7 @@
       {
         "id": 44,
         "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
-        "category": "Salesforce Agentforce",
+        "category": "Conseil Salesforce",
         "industry": "Générique",
         "date": "Oct. 06, 2025",
         "url": "/salesforce-development-services-to-boost-crm-efficiency/",
@@ -402,7 +402,7 @@
       {
         "id": 42,
         "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
-        "category": "Salesforce Agentforce",
+        "category": "Conseil Salesforce",
         "industry": "Générique",
         "date": "Sep. 29, 2025",
         "url": "/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/",
