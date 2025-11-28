@@ -17,88 +17,9 @@ export default function Page() {
     const t = useTranslations('patientExperience')
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { blogMainData, whyPatientData, faqData, fromDiagnosisSection, chronicData, medianaRedData, digitalPatientData, buildingData, howMedianaData } = blogsContent.patientExperience;
+    const { schemaData ,blogMainData, whyPatientData, faqData, fromDiagnosisSection, chronicData, medianaRedData, digitalPatientData, buildingData, howMedianaData } = blogsContent.patientExperience;
     const fullUrl = "https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/";
     const currUrl = useUrl()
-
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Patient Experience Platform Transforming Long-Term Care | MediAIna by Rialtes",
-        "description": "A patient experience platform becomes essential, helping healthcare providers deliver continuity, coordination, and personalized care at scale.",
-        "image": "https://www.rialtes.com/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care.webp",
-        "author": {
-            "@type": "Organization",
-            "name": "Rialtes"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-            }
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/"
-        },
-        "datePublished": "2025-10-07",
-        "mainEntity": {
-            "@type": "FAQPage",
-            "name": "Patient Experience Platform in Healthcare FAQs",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "What is a patient experience platform in healthcare?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "A patient experience platform is a digital solution that connects clinical, operational, and engagement touchpoints into one seamless journey. It ensures patients receive coordinated care, clear communication, and continuous support from diagnosis through long-term management."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How does a patient experience platform improve long-term patient care?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "By integrating chronic care management, digital engagement, and monitoring tools, platforms like MediAIna provide care continuity. This reduces readmissions, strengthens adherence, and empowers patients to actively manage their health."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Why is digital patient engagement important in chronic care management?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Digital patient engagement helps patients stay connected to providers through reminders, two-way communication, remote monitoring, and access to personalized resources. It turns long-term care into a proactive, patient-driven journey."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How does MediAIna support the integrated healthcare journey?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "The MediAIna patient journey platform unifies data, communication, and care pathways across providers, payers, MedTech, and life sciences enterprises. It delivers chronic care management solutions, predictive insights, and compliant innovation for better outcomes."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What makes MediAIna healthcare different from other platforms?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Unlike point solutions, MediAIna healthcare is designed as a comprehensive ecosystem. Backed by Rialtes’ LifeAI+ consulting suite, it offers scalability, AI-driven intelligence, and compliance—making it ideal for complex, long-term patient care."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How do digital tools support the diagnosis-to-care management journey?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Digital tools for long-term patient care simplify transitions by offering personalized care pathways, educational resources, and continuous check-ins. They ensure patients don’t get lost between diagnosis, treatment, and follow-up stages."
-                    }
-                }
-            ]
-        }
-    }
 
     return (
         <section className="min-h-screen"> 

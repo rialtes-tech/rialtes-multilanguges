@@ -21,88 +21,10 @@ export default function Page() {
         es: esContent,
         fr: frContent,
     });
-    const { blogMainData, howAiData, howAiData2, keyTechData, predictionData, howAiImprovesData, optimizingData, fromMaintenanceData, exelonaEdgeData, preparingData, keyElemData, faqs } = blogsContent.aiRealEstate;
+    const { schemaData, blogMainData, howAiData, howAiData2, keyTechData, predictionData, howAiImprovesData, optimizingData, fromMaintenanceData, exelonaEdgeData, preparingData, keyElemData, faqs } = blogsContent.aiRealEstate;
     const fullUrl = "https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/";
     const currUrl = useUrl()
 
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
-        "description": "AI-driven predictive maintenance transforms property operations, cutting downtime by 30% and reducing Opex through proactive interventions.",
-        "image": "https://www.rialtes.com/images/blogs/ai-property-operations-predictive-maintenance.webp",
-        "author": {
-            "@type": "Organization",
-            "name": "Rialtes"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-            }
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/"
-        },
-        "datePublished": "2025-10-13",
-        "mainEntity": {
-            "@type": "FAQPage",
-            "name": "AI in Property Operations FAQs",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "How can AI reduce maintenance downtime in property management?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "AI continuously analyzes equipment data to predict potential failures before they occur. Maintenance teams can act proactively, reducing downtime and avoiding costly emergency repairs."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How to reduce time spent on corrective maintenance?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Strategies include improving accessibility, interchangeability, managing redundant systems, accounting for human limitations, and enhancing fault recognition and isolation efficiency."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What is predictive maintenance for property operations?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Predictive maintenance uses AI and IoT sensors to monitor equipment health in real time, forecasting when assets need servicing to improve uptime and extend asset lifespan."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How does AI optimize technician assignment?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "AI evaluates technician skills, availability, and location to automatically assign the best person for each job, reducing response times and enhancing efficiency."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What are the benefits of using AI in property operations?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Benefits include up to 30% less downtime, lower operational costs, faster service responses, and improved tenant satisfaction through real-time insights and automation."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How does Exelona help with predictive maintenance and Opex reduction?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Exelona integrates AI, IoT, and workflow automation to monitor assets, predict issues, and dispatch technicians efficiently, helping property managers reduce Opex, extend asset life, and improve portfolio performance."
-                    }
-                }
-            ]
-        }
-    }
 
     return (
         <section className="min-h-screen">
