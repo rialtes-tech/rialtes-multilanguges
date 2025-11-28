@@ -14,31 +14,13 @@ import frContent from '../../../messages/fr/homepage.json';
 import dynamic from 'next/dynamic';
 import { changeLocalization } from './components/changeLocalization';
 import Seo from './components/Seo';
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Rialtes Technologies",
-    "description": "Global expert in IT services and IT consulting, Rialtes delivers AI-powered Salesforce and SAP solutions across industries.",
-    "url": "https://www.rialtes.com",
-    "logo": "https://www.rialtes.com/images/homepage/logo.svg",
-    "contactPoint": {
-        "@type": "ContactPoint",
-        "email": "sales@rialtes.com",
-        "contactType": "Sales",
-        "areaServed": "US, CA, IN, SG"
-    },
-    "sameAs": [
-        "https://www.linkedin.com/company/rialtes-technologies-llc",
-        "https://www.instagram.com/rialtes_technologies",
-        "https://www.youtube.com/@rialtes",
-        "https://x.com/Rialtestech"
-    ]
-}
+
 const Home = () => {
     const t = useTranslations('homePage')
     const locale = useLocale();
     const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { carouselData, successStoryData, slidesData } = homepageContent.homePage;
+    const { carouselData, successStoryData, slidesData,schemaData } = homepageContent.homePage;
+    
     const sectionCount = 10;
     const [refs, inViews] = useMultipleScrollAnimation(sectionCount);
     const [activeIndexInsights, setActiveIndexInsights] = useState(0);
