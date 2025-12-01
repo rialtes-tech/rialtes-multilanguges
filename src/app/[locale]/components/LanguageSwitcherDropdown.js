@@ -46,7 +46,7 @@ export default function LanguageSwitcher({ arrowImg }) {
     }, [showFlags]);
 
     return (
-        <div ref={dropdownRef}>
+        <div ref={dropdownRef}  onMouseEnter={() => setShowFlags(true)} >
             <div
                 className="md:font-bold font-normal flex gap-2 4xl:text-[17px] 2xl:text-[15px] xl:text-[13px] text-[13px] cursor-pointer mt-2"
                 onClick={() => setShowFlags((prev) => !prev)}>
@@ -78,7 +78,7 @@ export default function LanguageSwitcher({ arrowImg }) {
             </div>
 
             {showFlags && (
-                <ul className='absolute lg:top-[71px] 2xl:top-[103px] top-[62px] bg-white py-4 px-4 space-y-4 border z-50'>
+                <ul className='absolute lg:top-[71px] 2xl:top-[103px] top-[62px] bg-white py-4 px-4 space-y-4 border z-50' onMouseLeave={()=> setShowFlags(false)}>
                     {locales.map((data) => (
                         <li
                             key={data.code}
