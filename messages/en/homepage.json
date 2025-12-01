@@ -1,5 +1,25 @@
 {
   "homePage": {
+   "schemaData" : {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Rialtes Technologies",
+    "description": "Global expert in IT services and IT consulting, Rialtes delivers AI-powered Salesforce and SAP solutions across industries.",
+    "url": "https://www.rialtes.com/en",
+    "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "sales@rialtes.com",
+        "contactType": "Sales",
+        "areaServed": "US, CA, IN, SG"
+    },
+    "sameAs": [
+        "https://www.linkedin.com/company/rialtes-technologies-llc",
+        "https://www.instagram.com/rialtes_technologies",
+        "https://www.youtube.com/@rialtes",
+        "https://x.com/Rialtestech"
+    ]
+},
     "withImpactTitle": "with Impact",
     "seoTitle": "IT Services and IT Consulting Company | Rialtes",
     "seoDescription": "Unlock success with Rialtes’ IT services and IT consulting. Powered by AI innovation, we drive efficiency, elevate performance, and fuel sustainable growth.",

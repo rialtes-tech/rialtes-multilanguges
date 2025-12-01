@@ -296,7 +296,7 @@
     ],
     "latestBlogs": [
       {
-        "id": 58,
+        "id": 59,
         "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
         "category": "SAP SuccessFactors",
         "industry": "HRMS",
@@ -307,11 +307,12 @@
         "description": "In 2025, a quiet revolution is transforming the way HR operates. The field of HR is evolving continuously. Expectations have changed, not in the sensational ways that make headlines each week, but through a more subtle, systemic shift."
       },
       {
-        "id": 57,
+        "id": 58,
         "image": "/images/blog/digital-medical-hologram-feature-thumb.webp",
         "category": "MediAIna",
         "industry": "Life Sciences",
-        "date": "25 Nov. 2025",
+        "date": "Nov. 25, 2025",
+        "alt": "Doctor interacting with holographic medical data and 3D health visuals in a futuristic digital lab",
         "url": "/how-digital-innovation-transforms-clinical-trial-management/",
         "title": "How Digital Innovation is Transforming Clinical Trial Management",
         "description": "Clinical trials have always been the core of medical progress. But here’s the bitter truth: usual trials are often slow, expensive, and feel disconnected from the digital-first world in which patients now live"
@@ -1418,6 +1419,32 @@
     ]
   },
   "newsDataBricks": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/"
+      },
+      "headline": "Rialtes Becomes Certified Databricks Partner to Deliver Next-Gen AI and Data Services Across SAP and Salesforce Ecosystems",
+      "description": "Rialtes achieves Databricks partner certification, enabling advanced AI and data-driven solutions across Salesforce and SAP platforms.",
+      "image": "https://www.rialtes.com/images/homepage/rialtes-databricks-certified-partnership-announcement.webp",
+      "datePublished": "2025-04-18",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "News",
+      "keywords": "Databricks partner, Databricks certified partner, Salesforce AI integration partner, SAP data services, Rialtes news"
+    },
     "bannerAlt": "Rialtes and Databricks partnership announcement with geometric polygon brain graphic on blue tech background",
     "bannerImage": "/images/homepage/rialtes-databricks-certified-partnership-announcement.webp",
     "bannerImageMobile": "/images/homepage/rialtes-databricks-certified-partnership-announcement-mobile.webp",
@@ -1442,6 +1469,32 @@
     ]
   },
   "newsElite": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/"
+      },
+      "headline": "Rialtes Joins Elite Group as an Official Salesforce Reseller Partner",
+      "description": "Rialtes earns the prestigious Salesforce Reseller Partner status, expanding its capacity to deliver end-to-end Salesforce solutions globally.",
+      "image": "https://www.rialtes.com/images/news/salesforce-authorized-cloud-reseller-partner.webp",
+      "datePublished": "2025-05-12",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "News",
+      "keywords": "Salesforce reseller, Rialtes Salesforce partnership, official Salesforce partner, Rialtes news"
+    },
     "bannerAlt": "Digital data center servers with Salesforce authorized cloud reseller badge displaying official partnership certification",
     "seoTitle": "Rialtes Becomes Official Salesforce Reseller Partner",
     "seoDescription": "Rialtes is now an official Salesforce Reseller Partner, offering complete Salesforce licensing, implementation, and managed services under one roof.",
@@ -1458,6 +1511,31 @@
     "visitTwo": "or contact "
   },
   "newsSales": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/"
+      },
+      "headline": "Rialtes Opens New Sales Office in Baddi, Himachal Pradesh",
+      "description": "Rialtes expands its regional presence with a new sales office in Baddi, Himachal Pradesh, supporting digital transformation needs in North India.",
+      "image": "https://www.rialtes.com//images/homepage/rialtes-new-sales-office-opening-himachal-pradesh.webp",
+      "datePublished": "2025-04-04",
+      "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+      },
+      "articleSection": "News"
+    },
     "bannerAlt": "Golden scissors cutting red ribbon symbolizing Rialtes new sales office grand opening in Himachal Pradesh India",
     "seoTitle": "Rialtes Opens Sales Office in Baddi, HP",
     "seoDescription": "Rialtes opens a new office in Baddi, Himachal Pradesh, to enhance client service and deliver Salesforce and SAP solutions for the manufacturing industry.",

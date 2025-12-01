@@ -11,86 +11,6 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "SAP Build for Smart Manufacturing Industry 4.0",
-  description:
-    "SAP Build helps manufacturers strengthen connected machines, integrated data, and agile processes—shortening innovation cycles and boosting resilience.",
-  image: "https://www.rialtes.com/images/blog/sap-industry-desktop-banner.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0/ ",
-  },
-  datePublished: "2025-09-16",
-  mainEntity: {
-    "@type": "FAQPage",
-    name: "SAP Build for Smart Manufacturing FAQs",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What makes SAP Build different from other low-code platforms for manufacturing?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "SAP Build is natively integrated with SAP ERP, MES, and Manufacturing Cloud. This means apps, workflows, and dashboards connect directly to core manufacturing data without heavy customization.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can non-technical staff in manufacturing plants really use SAP Build?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. SAP Build is designed for citizen developers. With drag-and-drop interfaces and prebuilt templates, process engineers, supervisors, and managers can design apps or workflows without writing code.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does SAP Build improve factory-floor operations?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "SAP Build enables faster decision-making and fewer delays. IoT alerts can trigger automated maintenance requests, defect photos can be routed instantly to quality teams, and operators can access digital SOPs through Work Zone portals.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does SAP Build support sustainability goals?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Manufacturers can create apps that capture energy, waste, and emissions data directly from production systems. Automated workflows then generate reports or trigger alerts when usage exceeds thresholds.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can SAP Build integrate with non-SAP systems?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. While its native integration with SAP solutions is unmatched, SAP Build also connects to third-party systems, IoT platforms, and cloud apps via APIs and connectors.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What kind of ROI can manufacturers expect from SAP Build?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Companies typically see faster app deployment (up to 70% quicker), reduced IT costs (20–40%), and lower downtime (20–30%). These benefits compound into significant savings and higher productivity within the first year.",
-        },
-      },
-    ],
-  },
-};
 
 export default function Page() {
   const t = useTranslations("sapBuild");
@@ -108,6 +28,7 @@ export default function Page() {
     businessImpactData,
     readyData,
     faqData,
+    schemaData
   } = blogsContent.sapBuild;
   const fullUrl = "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0";
   const currUrl = useUrl();
