@@ -21,78 +21,8 @@ export default function Page() {
     const t = useTranslations('salesforceImplementation')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { blogMainData, commonData, salesforceData, salesforceStratergies, maximizeData, trustedData, buildData, faqs } = content.salesforceImplementation;
+    const { blogMainData, commonData, salesforceData, salesforceStratergies, maximizeData, trustedData, buildData, faqs , schemaData} = content.salesforceImplementation;
     const { enActive } = useActiveLocale()
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI",
-        "description": "From planning a Salesforce implementation roadmap to handling complex integrations, best partners ensure enterprises extract full value from the platform.",
-        "image": "https://www.rialtes.com/images/blog/salesforce-implementation-partners-strategies.webp",
-        "author": {
-            "@type": "Organization",
-            "name": "Rialtes"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-            }
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.rialtes.com/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/"
-        },
-        "datePublished": "2025-09-29",
-        "mainEntity": {
-            "@type": "FAQPage",
-            "name": "Salesforce Implementation FAQs",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "How to ensure a successful Salesforce implementation?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Start with a clear roadmap, engage stakeholders early, and work with certified Salesforce implementation partners who align the system with your business goals."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What are the best practices for Salesforce integration?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Best practices include mapping an integration roadmap, prioritizing critical systems, leveraging certified partners, and building scalability and compliance into the design."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Why do enterprises need Salesforce integration partners?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Integration partners bring frameworks, accelerators, and industry expertise that reduce risk and speed time-to-value, ensuring Salesforce is optimized for business outcomes."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How can Salesforce integration partners reduce project risk?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Certified partners prevent common issues like data duplication, scope creep, and compliance failures, designing secure, scalable connections to future-proof the Salesforce ecosystem."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Why choose Rialtes as a Salesforce implementation partner?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Rialtes, a Salesforce Crest Partner, delivers seamless implementations, complex integrations, and ongoing innovation, reducing project risks and maximizing Salesforce ROI."
-                    }
-                }
-            ]
-        }
-    }
 
     return (
         <section className="min-h-screen">

@@ -11,118 +11,6 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: "How Agentforce AI Transforms ERP Systems | Rialtes",
-  description:
-    "Agentforce is Salesforce’s AI-powered platform that integrates with ERP and SCM systems to unify data, automate processes, and provide predictive insights.",
-  image: "https://www.rialtes.com/images/blog/agentforce-ai-erp.webp",
-  author: {
-    "@type": "Organization",
-    name: "Rialtes",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Rialtes",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.rialtes.com/images/homepage/logo.svg",
-    },
-  },
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id":
-      "https://www.rialtes.com/insights/blogs/how-agentforce-ai-transforms-erp-systems/",
-  },
-  datePublished: "2025-09-15",
-  mainEntity: {
-    "@type": "FAQPage",
-    name: "Agentforce AI ERP Systems FAQs",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is Agentforce, and how does it enhance ERP systems?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Agentforce is Salesforce’s AI-powered platform that integrates with ERP and SCM systems to unify data, automate processes, and provide predictive insights. It turns ERP into an intelligent ecosystem, enabling faster decisions and greater operational efficiency.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does Agentforce integrate with existing ERP platforms like SAP, Oracle, or Microsoft Dynamics?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Agentforce connects through Salesforce’s Data Cloud and MuleSoft’s pre-built connectors. This allows real-time synchronization of ERP and SCM data—such as orders, finances, and inventory—without heavy custom integration.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What types of tasks can Agentforce agents automate within ERP systems?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "They handle routine processes like inventory monitoring, order processing, financial reporting, HR workflows, and customer query responses. This reduces manual effort and errors while freeing up employees for more strategic work.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can Agentforce provide predictive insights for supply chain and operations?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. By analyzing ERP and SCM data alongside external factors like weather or market demand, Agentforce predicts supply chain disruptions, demand fluctuations, and inventory needs. This proactive approach helps organizations stay ahead of risks.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does Agentforce improve collaboration across teams?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Because it’s part of Salesforce’s ecosystem, Agentforce connects ERP data with tools like Slack and Salesforce Customer 360. This gives teams shared visibility into real-time data and enables faster, more coordinated decision-making.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What industries can benefit most from integrating Agentforce with ERP?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Manufacturing, logistics, agriculture, healthcare, retail, and financial services all benefit. For example, it helps manufacturers optimize production, retailers reduce stockouts, and logistics companies manage seasonal shipment spikes.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Is Agentforce scalable for growing businesses?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes. Agentforce is designed to handle increased ERP and SCM workloads without needing proportional increases in staff. AI agents dynamically manage higher data volumes, ensuring the system grows with your business.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Does Agentforce replace human decision-making?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "No. Agentforce is built to complement human expertise, not replace it. By automating repetitive tasks and surfacing reliable insights, it frees people to focus on complex, strategic decisions.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How secure is Agentforce when working with ERP data?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Agentforce leverages Salesforce’s enterprise-grade security, compliance, and governance standards. Data is handled securely, ensuring organizations can adopt automation without compromising trust.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How can my business start integrating Agentforce with ERP?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Rialtes specializes in customizing Agentforce agents for ERP systems. We align the agents with your business goals, optimize workflows, and ensure reliable automation.",
-        },
-      },
-    ],
-  },
-};
 
 export default function Page() {
   const currUrl = useUrl();
@@ -139,6 +27,7 @@ export default function Page() {
     applicationData,
     buildingData,
     faqs,
+    schemaData
   } = blogsContent.agentforceHitech;
   const fullUrl = "https://www.rialtes.com/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty";
 

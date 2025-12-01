@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useState } from 'react';
+import { useState, useRef, useEffect } from "react";
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Link from "next/link";
@@ -89,6 +89,27 @@ export default function Page() {
 
     const isLoadMoreVisible = visibleBlogs < filteredBlogsByCategory.length;
 
+  const industryRef = useRef(null);
+  const categoryRef = useRef(null);
+  useEffect(() => {
+  const handleClickOutside = (event) => {
+    if (industryRef.current && !industryRef.current.contains(event.target)) {
+      setShowOptionsIndustry(false);
+    }
+
+    if (categoryRef.current && !categoryRef.current.contains(event.target)) {
+      setShowOptionsCategory(false);
+    }
+  };
+
+  document.addEventListener("mousedown", handleClickOutside);
+
+  return () => {
+    document.removeEventListener("mousedown", handleClickOutside);
+  };
+}, []);
+
+
     return (
       <div>
         <div className="flex md:flex-row flex-col pb-4">
@@ -96,7 +117,7 @@ export default function Page() {
             <h2 className="text-black 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight ">{t('latestBlogsTitle')}</h2>
           </div>
           <div className="relative flex flex-row max-[320px]:flex-col md:ml-auto h-[60px] mt-4 max-[320px]:mb-12 max-[320px]:gap-2">
-            <div className="relative">
+            <div className="relative" ref={industryRef}>
               <button className='relative border border-[#707070] w-fit py-4 px-6 sm:mr-6 mr-2 text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsIndustry}>
                 <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">{selectedIndustry === t('all') ? t('industryTitle') : selectedIndustry}</span>
                 <svg
@@ -123,7 +144,7 @@ export default function Page() {
                 </div>
               )}
             </div>
-            <div className="relative">
+            <div className="relative" ref={categoryRef}>
               <button className='relative border border-[#707070] py-4 px-6 w-fit text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
                 <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{selectedCategory === t('all') ? t('categoryTitle') : selectedCategory}</span>
                 <svg
@@ -154,7 +175,7 @@ export default function Page() {
           </div>
         </div>
         <div className='w-full'>
-          <p className='text-xl pt-4 pb-14 4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight'>{t('searchTitle')} {selectedIndustry} {t('industry')} / {selectedCategory} {t('category')}</p>
+          <p className='text-xl pt-4 4xl:pb-14  xl:pb-10 pb-8 4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight'>{t('searchTitle')} {selectedIndustry} {t('industry')} / {selectedCategory} {t('category')}</p>
         </div>
 
         {filteredBlogsByCategory.length === 0 ? (

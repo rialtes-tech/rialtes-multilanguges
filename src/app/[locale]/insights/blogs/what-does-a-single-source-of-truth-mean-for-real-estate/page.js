@@ -23,87 +23,8 @@ export default function Page() {
         es: esContent,
         fr: frContent,
     });
-    const { whatASingleSourceData, whyRealEstatedata, crmErpData, crmDataList2, theBusinessCase, aDayInLife, theRoleOfAI, steps, steps2, fromDataChaos, yourPathTitle, keyElemData, faqs } = blogsContent.whatDoesASingle;
+    const { whatASingleSourceData, whyRealEstatedata, crmErpData, crmDataList2, theBusinessCase, aDayInLife, theRoleOfAI, steps, steps2, fromDataChaos, yourPathTitle, keyElemData, faqs, schemaData } = blogsContent.whatDoesASingle;
     const fullUrl = "https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/";
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "From Lead to Lease: Why Real Estate Needs a Single Source of Truth | Rialtes",
-        "description": "Learn how a Single Source of Truth (SSOT) unifies CRM and ERP to eliminate data silos across leasing, finance, and operations—speeding reporting, improving compliance, and enabling AI-driven decisions for property management.",
-        "image": "https://www.rialtes.com/images/blog/single-source-of-truth-real-estate-lead-to-lease.webp",
-        "author": {
-            "@type": "Organization",
-            "name": "Rialtes"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-            }
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://rialtes.netlify.app/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/"
-        },
-        "datePublished": "2025-11-04",
-        "mainEntity": {
-            "@type": "FAQPage",
-            "name": "Single Source of Truth (SSOT) in Real Estate — FAQs",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "What does ‘single source of truth’ mean in real estate operations?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "It means using one centralized system that connects leasing, finance, and operational data so every team works from the same verified, real-time information instead of multiple conflicting copies."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How does CRM + ERP convergence improve efficiency?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "By integrating lead management, leasing, billing, and reporting, convergence eliminates duplicate data entry and manual reconciliations. Lease details flow into billing automatically, operations see occupancy and service needs instantly, and finance receives real-time payment updates."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Why do property managers need a single source of truth?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Fragmented systems slow decisions, create errors, and hide insights. SSOT ensures consistent, traceable records across departments, improving tenant experience and reducing revenue leakage from missed billing or delays."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Can AI help maintain a single source of truth in real estate?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes. AI detects inconsistencies between lease and billing data, flags duplicates, forecasts maintenance costs, and automates validation—keeping records accurate and enabling proactive decision-making."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How does centralizing leasing and finance data improve reporting?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Unified data enables instant, accurate, audit-ready reporting without manual consolidation, significantly reducing compliance and month-end reporting cycles."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What makes Exelona different from other property management tools?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Exelona unifies CRM and ERP for real estate, centralizing leases, tenants, and payments; embedding AI-driven operations and predictive maintenance; integrating with platforms like Yardi or Oracle; and providing mobile-first experiences and automated, audit-ready insights."
-                    }
-                }
-            ]
-        }
-    }
-
 
     return (
         <section className="min-h-screen">

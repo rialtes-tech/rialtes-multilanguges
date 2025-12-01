@@ -359,6 +359,7 @@
         ]
     },
     "aiRealEstate": {
+        "schemaData" :{},
         "bannerAlt": "Ilustración de edificio con sensores de IA que predicen necesidades de mantenimiento mediante análisis en tiempo real. ",
         "blogMainData": [
             "Aquí está la verdad sobre las operaciones inmobiliarias: siempre han sido un acto de equilibrio entre costo, comodidad y continuidad. El desafío es que la mayoría de los modelos de mantenimiento aún son reactivos. Los equipos reparan lo que se rompe, se apresuran a responder a las quejas de los inquilinos y observan cómo los gastos operativos aumentan año tras año.",
@@ -610,6 +611,7 @@
         "seoTitle": "IA Conversacional en el Sector Inmobiliario: Escala el Soporte Eficientemente | Rialtes",
         "seoDescription": "En el sector inmobiliario, los asistentes de IA conversacional atienden consultas de inquilinos día y noche, garantizando respuestas inmediatas y reduciendo la carga laboral fuera del horario laboral.",
         "bannerAlt": "Ilustración digital de persona interactuando con interfaz de chatbot virtual representando IA conversacional inmobiliaria",
+        "schemaData": {},
         "mainData": [
             "El soporte a los residentes en la gestión de propiedades se está volviendo más difícil de escalar. Entre solicitudes de mantenimiento, consultas de renta, reservas de servicios y coordinación de mudanzas, los equipos suelen verse sobrecargados. El problema no es que los administradores de propiedades no se preocupen; es que las expectativas de los residentes han cambiado.",
             "Esperan un soporte rápido, amable y disponible las 24 horas, los 7 días de la semana.",
@@ -821,6 +823,7 @@
         "seoTitle": "ERP y CRM Unificados para Bienes Raíces: Reduce Costos en un 35% | Rialtes",
         "seoDescription": "Las plataformas ERP y CRM unificadas ayudan a las empresas inmobiliarias a reducir los costos del sistema hasta en un 35%, mejorando la visibilidad y eficiencia entre departamentos.",
         "bannerAlt": "Modelo ciudad miniatura con íconos nube y luces mostrando infraestructura computación nube ciudad inteligente conectividad",
+        "schemaData": {},
         "mainData": [
             "Aquí hay algo que todo líder inmobiliario ya sabe pero rara vez dice en voz alta: la pila tecnológica que se suponía debía simplificar las operaciones, terminó complicándolas.",
             "La mayoría de las empresas inmobiliarias hoy operan con una combinación de sistemas: Yardi para la gestión de propiedades, Oracle o SAP para finanzas, MRI para analítica, Salesforce para CRM y Excel para todo lo demás. Cada sistema es excelente en su área, pero juntos forman un ecosistema fragmentado donde la duplicación de datos, los costos de integración y el caos en los informes son la norma. Esto causa decisiones tardías, Opex inflado y equipos que pasan más tiempo conciliando hojas de cálculo que administrando propiedades.",
@@ -5197,6 +5200,7 @@
         "faqTitle": "FAQs: Agentforce en la predicción y prevención de tiempos de inactividad en la fabricación Industria 4.0"
     },
     "sapBuild": {
+        "schemaData" :{},
         "bannerAlt": "Interfaz de fábrica inteligente con herramientas de automatización low-code de y maquinaria conectada ",
         "seoTitle": "SAP Build para Manufactura: Reduce Paros un 30%",
         "seoDescription": "SAP Build acelera la innovación, reduce tiempos muertos y empodera equipos con apps de bajo código y automatización.",
@@ -5485,6 +5489,7 @@
         "faqTitle": "Preguntas frecuentes (FAQ)"
     },
     "agentforceHitech": {
+        "schemaData" :{},
         "bannerAlt": "Agentforce AI integrado con ERP para automatizar tareas y mejorar la eficiencia operativa",
         "seoTitle": "Cómo Agentforce IA Transforma ERP con Automatización",
         "seoDescription": "Agentforce analiza datos de ERP y SCM para ofrecer insights predictivos que mejoran decisiones y aumentan la productividad en industrias.",
@@ -5591,6 +5596,7 @@
         "faqTitle": "FAQ: Preguntas frecuentes"
     },
     "fiveSigns": {
+        "schemaData" :{},
         "bannerAlt": "Planta inteligente con brazos robóticos e interfaz de IA que impulsa automatización predictiva y producción eficiente. ",
         "seoTitle": "Agentes de IA en Manufactura: 5 Señales de que Estás Listo",
         "seoDescription": "Los agentes de IA no son solo una herramienta: transforman cómo se trabaja, deciden y resuelven problemas en la manufactura actual.",
@@ -5674,6 +5680,7 @@
         "faqTitle": "FAQs: Implementar agentes de IA en sus operaciones de fabricación"
     },
     "connectedCore": {
+        "schemaData" :{},
         "bannerAlt": "Red que conecta proveedores de salud, sistemas farmacéuticos y dispositivos MedTech para una atención unificada. ",
         "seoTitle": "Ecosistemas de Atención Conectada: Futuro en Pharma y MedTech",
         "seoDescription": "Descubre cómo un ecosistema conectado ayuda a Pharma y MedTech con alertas predictivas, atención crónica y monitoreo remoto.",
@@ -5836,6 +5843,7 @@
         "faqTitle": "FAQs : Importancia de los ecosistemas de atención conectada para la industria farmacéutica y la tecnología médica"
     },
     "digitalJourney": {
+        "schemaData" :{},
         "bannerAlt": "Línea de tiempo del recorrido del paciente con IA que muestra diagnóstico, etapas de tratamiento y seguimiento médico. ",
         "digiTitle": "Transformando la atención sanitaria, un viaje a la vez",
         "seoTitle": "Viajes Digitales del Paciente: Futuro de la IA en Salud",
@@ -6080,6 +6088,7 @@
         "faqTitle": "Preguntas Frecuentes: La Importancia de los Ecosistemas de Atención Conectada para la Industria Farmacéutica y MedTech"
     },
     "patientExperience": {
+        "schemaData" :{},
         "seoTitle": "Plataforma de experiencia del paciente a largo plazo | Rialtes",
         "seoDescription": "Descubre cómo MediAIna redefine la experiencia del paciente con IA, participación digital y apoyo en cuidados crónicos.",
         "bannerAlt": "Paciente consultando datos de salud en una tableta con iconos de diagnóstico, tratamiento y atención a largo plazo",
@@ -6223,6 +6232,7 @@
         "faqTitle": "FAQs: Transforma la Atención con la Plataforma de Experiencia del Paciente"
     },
     "salesforcePartners": {
+        "schemaData" :{},
         "bannerAlt": "Banner abstracto que muestra el crecimiento empresarial y la transformación digital impulsada por Salesforce",
         "salesforceTitle": "Cómo los principales socios de Salesforce ayudan a las empresas a prosperar e innovar",
         "blogTopic": "Salesforce Agentforce",
@@ -6425,6 +6435,7 @@
         "seoDescription": "Los mejores socios Salesforce impulsan la innovación y el crecimiento alineando la tecnología con los objetivos del negocio."
     },
     "salesforceDevelopment": {
+        "schemaData" :{},
         "seoTitle": "Servicios Salesforce para el éxito empresarial | Rialtes",
         "seoDescription": "Descubre cómo el desarrollo personalizado de Salesforce impulsa la eficiencia del CRM y por qué elegir al socio adecuado es clave.",
         "bannerAlt": "Panel de Salesforce CRM con análisis, métricas de actividad del usuario y flujos de trabajo automatizados.",
@@ -6617,6 +6628,7 @@
         "strategiesDesc2": "Estas estrategias ayudan a las empresas no solo a reducir el riesgo del proyecto de Salesforce, sino también a maximizar el ROI."
     },
     "salesforceImplementation": {
+        "schemaData" :{},
         "bannerAlt": "Equipo revisando la hoja de ruta de implementación de Salesforce con visuales de integración en la nube",
         "blogMainData": [
             "Salesforce es la plataforma CRM líder en el mundo, que impulsa a las empresas de todos los sectores a gestionar mejor a los clientes, los datos y los procesos. Pero aquí está el detalle: el éxito con Salesforce no está garantizado simplemente con comprar licencias. La implementación es donde muchos proyectos fallan. Los retrasos, la ampliación del alcance o la baja adopción pueden convertir lo que debería ser un motor de crecimiento en una inversión perdida.",
@@ -6824,6 +6836,7 @@
         "blogTopic": "Exelona",
         "slasPara1": "Un acuerdo de nivel de servicio (SLA) define el nivel de servicio esperado de un proveedor. Especifica las métricas utilizadas para medir ese servicio y los recursos disponibles si no se cumplen los niveles de servicio acordados. El SLA es una parte vital de cualquier contrato con un proveedor de tecnología.",
         "slasTitle2": "Impulsando la eficiencia operativa basada en datos en bienes raíces con paneles de IA e información predictiva",
+        "schemaData": {},
         "dataDriven": [
             "Mantener las operaciones inmobiliarias funcionando sin problemas no es tarea fácil. Entre hacer seguimiento de los acuerdos de nivel de servicio (SLA), gestionar pagos a proveedores y controlar los gastos de mantenimiento, los equipos de operaciones suelen encontrarse enterrados entre hojas de cálculo y cadenas de correos electrónicos.",
             "Aquí está el asunto: a medida que las carteras crecen y aumentan las expectativas de servicio, los métodos de seguimiento tradicionales ya no son suficientes. Ahí es donde entra la eficiencia operativa basada en datos en bienes raíces. Con paneles impulsados por IA, facturación automatizada e información predictiva, los administradores de propiedades pueden monitorear todo, desde el cumplimiento de SLA hasta los costos de mantenimiento, todo en tiempo real. Veamos cómo está cambiando la industria y por qué esta transformación ya era necesaria desde hace tiempo."
@@ -6992,6 +7005,7 @@
         "para3": "Analizaremos lo que esto realmente significa para las empresas inmobiliarias y cómo plataformas como Exelona están ayudando a los líderes a finalmente reunir todos sus datos y decisiones en un solo lugar.",
         "para4": "Ahora, esto es lo que sucede cuando cambian a una plataforma SSOT unificada como Exelona:",
         "faqTitle": "Preguntas frecuentes: Fuente única de la verdad en el sector inmobiliario",
+        "schemaData": {},
         "whatASingleSourceData": [
             {
                 "title": "Qué significa realmente una Fuente Única de Verdad en el sector inmobiliario",
@@ -7208,6 +7222,7 @@
         "mainTitle": "5 integraciones API esenciales para que las empresas inmobiliarias aceleren su crecimiento",
         "enableTitle": "Lo que permiten las API abiertas:",
         "faq": "Preguntas frecuentes: Integraciones de API abiertas que toda empresa inmobiliaria necesita",
+        "schemaData": {},
         "blogMainData": [
             "Toda empresa inmobiliaria alcanza un límite en algún momento, generalmente cuando sus sistemas dejan de comunicarse entre sí. Tienes una herramienta de gestión de propiedades por un lado, un sistema financiero por otro y un CRM en algún lugar reteniendo tus datos de clientes potenciales. Los equipos pierden horas persiguiendo actualizaciones, finanzas lucha por conciliar datos y los ejecutivos reciben informes que ya están desactualizados cuando se imprimen.",
             "Aquí está la solución: integraciones de API abiertas.",
@@ -7397,6 +7412,7 @@
         ]
     },
     "whyEnterprises": {
+        "schemaData": {},
         "faqs": [
             {
                 "question": "¿Qué hacen los socios consultores de SAP para las grandes empresas?",
@@ -7564,6 +7580,7 @@
             "Según McKinsey, casi el 55% de las implementaciones ERP a gran escala superan los presupuestos o no logran el ROI esperado. ¿La causa? Falta de alineación estratégica y una gestión del cambio inadecuada. La implementación de SAP no es un ejercicio de conectar y usar; requiere una hoja de ruta que equilibre la tecnología, los objetivos comerciales y las personas.",
             "Aquí es donde los consultores expertos en SAP y los socios de implementación orientados al valor desempeñan un papel fundamental. No solo configuran módulos; traducen la visión empresarial en una arquitectura escalable. Analicemos cómo construir una estrategia que minimice el riesgo y ofrezca valor medible."
         ],
+        "schemaData": {},
         "howAiImprovesData": [
             {
                 "title": "Comprender los Verdaderos Desafíos en la Implementación de SAP",
@@ -7746,6 +7763,7 @@
         "seoDescription": "Nuestros servicios de consultoría e implementación de SAP están diseñados para ayudarte a reinventar las operaciones, mejorar la agilidad y desbloquear un nuevo potencial de crecimiento.",
         "blogTopic": "Integración",
         "sapIntegrationTitle": "Impulsa la agilidad empresarial con servicios personalizados de consultoría e implementación de SAP",
+        "schemaData": {},
         "sapDevelopmentIntegration": [
             "Hoy en día, la adaptabilidad define la supervivencia; el desarrollo personalizado de SAP se ha convertido en un motor clave de la agilidad y el crecimiento empresarial. Las soluciones estándar suelen cubrir necesidades inmediatas, pero no son suficientes al momento de escalar, integrarse con sistemas heredados o adaptarse a modelos de negocio únicos. Ahí es donde entran en juego los servicios personalizados de consultoría e implementación de SAP, que permiten a las empresas ir más allá de la simple configuración y lograr una verdadera transformación operativa.",
             "Veamos cómo el desarrollo personalizado de SAP redefine las operaciones empresariales, apoya la agilidad estratégica y genera una eficiencia medible en todos los sectores."
@@ -7917,6 +7935,7 @@
         "bannerAlt": "Mano empresarial tocando red digital brillante con rayos de luz radiantes y partículas de datos sobre fondo oscuro"
     },
     "aiClinical": {
+        "schemaData": {},
         "mainData": [
             "Los ensayos clínicos son la base fundamental de la innovación médica, especialmente en el caso de las enfermedades raras. Sin embargo, uno de los mayores obstáculos en el desarrollo de nuevas terapias no es la ciencia; es encontrar, inscribir y retener a los pacientes adecuados. Este desafío se vuelve aún más complejo para las enfermedades raras, donde los participantes elegibles pueden contarse apenas por cientos en todo el mundo.",
             "Aquí es donde la IA en los ensayos clínicos está demostrando ser un punto de inflexión. Al automatizar la captación, mejorar la inscripción digital y personalizar el compromiso, la IA está ayudando a las organizaciones farmacéuticas y de tecnología médica a superar cuellos de botella que han frenado el progreso durante décadas. A medida que las herramientas digitales evolucionan, también se vuelven esenciales para <span>prevenir las deserciones en los ensayos clínicos con herramientas digitales</span>, garantizando que la retención de pacientes coincida con la adquisición.",
@@ -8119,6 +8138,7 @@
         "faqTitle": "Preguntas frecuentes: Cómo mejorar la inscripción de pacientes en ensayos clínicos de enfermedades raras usando IA"
     },
     "digitalInnovationBlog": {
+        "schemaData" :{},
         "bannerAlt": "Doctor interactuando con datos médicos holográficos y visuales de salud 3D en laboratorio digital futurista",
         "seoTitle": "Innovación digital para una gestión más inteligente de los ensayos clínicos",
         "seoDescription": "La innovación digital está transformando la investigación clínica, ya que la IA, la automatización y los ecosistemas conectados redefinen la ejecución de los ensayos clínicos digitales.",
@@ -8143,19 +8163,19 @@
         ],
         "trialsData": [
             {
-                "title": "Participación descentralizada,",
+                "title": "Participación descentralizada",
                 "desc": "permitiendo que los pacientes contribuyan desde cualquier lugar."
             },
             {
-                "title": "Recopilación automatizada de datos,",
+                "title": "Recopilación automatizada de datos",
                 "desc": "reduciendo la dependencia de la entrada manual."
             },
             {
-                "title": "Análisis en tiempo real,",
+                "title": "Análisis en tiempo real",
                 "desc": "garantizando decisiones más rápidas."
             },
             {
-                "title": "Mejora del cumplimiento,",
+                "title": "Mejora del cumplimiento",
                 "desc": "ya que los datos se rastrean y monitorean de forma segura de extremo a extremo."
             }
         ],
@@ -8246,5 +8266,187 @@
                 "answer": "El futuro se basa en ecosistemas conectados, centrados en el paciente y potenciados por IA, que aceleran los plazos, reducen los costos y mejoran los resultados clínicos."
             }
         ]
+    },
+    "successFactorHR": {
+        "schemaData": {},
+        "faqData": [
+            {
+                "question": "¿Para qué se utiliza SAP SuccessFactors en RR. HH.?",
+                "answer": "SAP SuccessFactors es una suite en la nube de Human Experience Management (HXM) que respalda todo el ciclo de vida del empleado, incluido el reclutamiento, la incorporación, el aprendizaje, el desempeño, el desarrollo profesional, la compensación y la planificación de la fuerza laboral. Ayuda a los equipos de RR. HH. a automatizar procesos, mejorar la experiencia del empleado y usar datos para una mejor toma de decisiones."
+            },
+            {
+                "question": "¿Cómo mejoran los datos y la IA SAP SuccessFactors?",
+                "answer": "Los datos y la IA dentro de SuccessFactors revelan patrones en el comportamiento de la fuerza laboral, predicen riesgos como la rotación, recomiendan rutas de aprendizaje, automatizan flujos de trabajo y respaldan decisiones de liderazgo con información en tiempo real. Esto transforma a RR. HH. de un enfoque reactivo a una estrategia proactiva."
+            },
+            {
+                "question": "¿Cuánto tiempo lleva implementar SAP SuccessFactors?",
+                "answer": "Los plazos de implementación varían según los módulos y la complejidad organizacional. Los módulos individuales pueden tardar entre 6 y 12 semanas, mientras que los despliegues globales de la suite completa pueden demorar varios meses. El enfoque más común es un despliegue por fases alineado a las prioridades del negocio."
+            },
+            {
+                "question": "¿Puede SAP SuccessFactors integrarse con SAP S/4HANA y sistemas de nómina?",
+                "answer": "Sí. SuccessFactors ofrece integración nativa con SAP S/4HANA, SAP Payroll, SAP Analytics Cloud y sistemas no SAP mediante middleware de integración. Esto crea un ecosistema unificado de RR. HH. y finanzas para informes y planificación en tiempo real."
+            },
+            {
+                "question": "¿SuccessFactors admite la toma de decisiones basada en IA?",
+                "answer": "Sí. SuccessFactors incluye insights impulsados por IA para contratación, desempeño, compensación, planificación de la fuerza laboral y experiencia del empleado. Ofrece recomendaciones basadas en patrones históricos, tendencias de habilidades y analítica predictiva."
+            },
+            {
+                "question": "¿Qué son los servicios gestionados de SAP SuccessFactors?",
+                "answer": "Los servicios gestionados incluyen soporte continuo, mejoras del sistema, insights de IA, gestión de actualizaciones de versión, solicitudes de cambio y optimización de procesos después de la implementación. Garantizan que la plataforma evolucione con las necesidades del negocio en lugar de estancarse después del go-live."
+            },
+            {
+                "question": "¿En qué se diferencia Success+ de Rialtes de los servicios estándar de SAP SuccessFactors?",
+                "answer": "Success+ reúne consultoría, implementación, analítica de IA, innovación del sistema y soporte continuo bajo un marco estructurado. Acelera el despliegue, mejora la adopción y mantiene SuccessFactors preparado para el futuro con optimización continua, no solo éxito el día del lanzamiento."
+            }
+        ],
+        "mainData": [
+            "En 2025, una revolución silenciosa está transformando la forma en que opera RR. HH. El campo de los recursos humanos evoluciona continuamente. Las expectativas han cambiado, no de las maneras sensacionalistas que aparecen en los titulares cada semana, sino mediante un cambio más sutil y sistémico. Este cambio ocurre cuando el liderazgo de una organización enfrenta problemas como el aumento de la rotación o procesos de nómina complicados y reconoce que es momento de un nuevo enfoque.",
+            "Los empleados desean rutas de crecimiento personalizadas, trabajo significativo y un servicio rápido. Los líderes quieren insights predictivos, no informes históricos. Y las empresas necesitan escalar sin agotar a su personal ni sus presupuestos. La forma antigua de gestionar RR. HH. con hojas de cálculo, herramientas desconectadas y aprobaciones manuales simplemente ya no funciona.",
+            "Ese es el contexto en el que utilizar SAP SuccessFactors se convierte en una ventaja estratégica. No es solo otro sistema de RR. HH. Es una plataforma unificada e impulsada por IA que conecta cada parte del ciclo de vida del empleado —desde la contratación y la incorporación hasta el aprendizaje, el desempeño y la planificación de la fuerza laboral— impulsada por datos que ayudan a RR. HH. a liderar con mayor inteligencia.",
+            "Desglosamos cómo SuccessFactors, combinado con los servicios de consultoría adecuados, transforma el RR. HH. moderno."
+        ],
+        "whatThisData": [
+            {
+                "title": "Lo que esto realmente significa para el mundo de RR. HH.",
+                "desc": [
+                    "RR. HH. ya no se mide por completar procesos. Se mide por resultados: tasas de retención, productividad, preparación de liderazgo, tiempo de contratación, costo por empleado y agilidad de habilidades.",
+                    "La presión es real. Los equipos de RR. HH. necesitan:"
+                ],
+                "list": [
+                    "Claridad predictiva en lugar de informes reactivos",
+                    "Automatización que elimine el trabajo administrativo repetitivo",
+                    "Trayectorias personalizadas que apoyen a cada empleado individualmente",
+                    "Una vista única y confiable del talento, habilidades y necesidades laborales",
+                    "Herramientas que conecten las decisiones de RR. HH. directamente con el desempeño del negocio"
+                ],
+                "desc2": "SAP SuccessFactors permite exactamente eso. Convierte acciones desconectadas en inteligencia conectada, transformando RR. HH. de una función de soporte en un impulsor estratégico."
+            }
+        ],
+        "powerData": [
+            {
+                "title": "El poder de los datos y la IA dentro de SAP SuccessFactors",
+                "subData": [
+                    {
+                        "title": "Convertir datos de la fuerza laboral en decisiones que importan",
+                        "desc": [
+                            "Las organizaciones están sentadas sobre una gran cantidad de datos de talento, desempeño, nómina y habilidades, pero sin la capacidad de analizarlos profundamente, es potencial desperdiciado. SuccessFactors centraliza esta información y utiliza IA para revelar patrones y recomendaciones que los líderes no pueden identificar manualmente.",
+                            "Ejemplos de lo que las empresas pueden lograr:"
+                        ],
+                        "list": [
+                            "Predecir qué empleados tienen mayor probabilidad de irse y por qué",
+                            "Pronosticar necesidades de contratación basadas en el crecimiento del negocio y la demanda del mercado",
+                            "Identificar brechas ocultas de habilidades y crear planes inteligentes de aprendizaje",
+                            "Comparar el desempeño entre ubicaciones o roles laborales",
+                            "Optimizar decisiones de compensación con insights basados en datos"
+                        ],
+                        "desc2": "Esto cambia a RR. HH. de reaccionar a los problemas a prevenirlos con anticipación."
+                    },
+                    {
+                        "title": "Automatización inteligente que redefine la experiencia del empleado",
+                        "desc2": "La automatización con IA dentro de SuccessFactors se encarga del trabajo repetitivo como la revisión de candidatos, tareas de onboarding, solicitudes de feedback, programación de evaluaciones de desempeño y respuestas del centro de ayuda de RR. HH. Los empleados reciben soporte más rápido. Los gerentes recuperan horas cada semana. RR. HH. gana tiempo para innovar estratégicamente. Esto significa menos retrasos, mayor satisfacción y una cultura más sólida."
+                    },
+                    {
+                        "title": "Datos conectados más allá de los sistemas de RR. HH.",
+                        "desc": [
+                            "SuccessFactors se vuelve aún más impactante cuando se integra con sistemas empresariales clave como SAP S/4HANA, SAP Analytics Cloud, motores de nómina y plataformas de IA de terceros. Con una arquitectura conectada, las decisiones de RR. HH. influyen directamente en finanzas, planificación de la fuerza laboral y estrategias de crecimiento.",
+                            "Eso significa:"
+                        ],
+                        "list": [
+                            "La planificación de personal deja de ser una suposición.",
+                            "El presupuesto se vuelve impulsado por datos.",
+                            "El liderazgo obtiene visibilidad en tiempo real en lugar de sorpresas de fin de mes."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "whatDoesData": [
+            {
+                "title": "¿Qué hace un consultor de SAP SuccessFactors?",
+                "desc": [
+                    "Un consultor de SuccessFactors desempeña un papel crucial para garantizar que las organizaciones no solo implementen tecnología, sino que también transformen la forma en que se realiza el trabajo.",
+                    "Sus responsabilidades incluyen:"
+                ],
+                "desc2": [
+                    "El verdadero valor reside en la perspectiva. Los mejores consultores comprenden tanto la tecnología como a las personas, ayudando a las empresas a construir sistemas de RR. HH. intuitivos, escalables y alineados con el negocio. No entregan software. Entregan resultados.",
+                    "Si alguna vez te has preguntado, ¿qué hace un consultor de SAP SuccessFactors? Ayudan a transformar RR. HH. en una función predictiva impulsada por IA que apoya a las personas y al desempeño, en lugar de solo al papeleo."
+                ]
+            }
+        ],
+        "coreData": [
+            {
+                "title": "Servicios principales de SAP SuccessFactors para un RR. HH. impulsado por datos e IA",
+                "subData": [
+                    {
+                        "title": "Servicios de consultoría de SAP SuccessFactors",
+                        "desc": "Asesoría estratégica que alinea la transformación de RR. HH. con metas de crecimiento, oportunidades de IA y prioridades de la fuerza laboral. Talleres, evaluaciones de madurez, planificación de roadmaps y rediseño de procesos garantizan que las organizaciones construyan sobre bases sólidas en lugar de forzar tecnología en flujos de trabajo obsoletos."
+                    },
+                    {
+                        "title": "Servicios de implementación de SAP SuccessFactors",
+                        "desc": "Implementación de extremo a extremo de módulos como:",
+                        "list": [
+                            "Employee Central",
+                            "Reclutamiento y Onboarding",
+                            "Aprendizaje y Desarrollo",
+                            "Desempeño y Objetivos",
+                            "Compensación y Sucesión",
+                            "Planificación de la Fuerza Laboral y People Analytics"
+                        ],
+                        "desc2": "Si se realiza correctamente, la implementación es rápida, estructurada y enfocada en resultados."
+                    },
+                    {
+                        "title": "Integración, pruebas y soporte gestionado",
+                        "desc": "El RR. HH. moderno opera en múltiples sistemas. La integración perfecta evita silos de datos y mejora la visibilidad. Los marcos de aseguramiento de calidad impulsados por IA reducen errores, fortalecen la seguridad y garantizan go-lives sin defectos. Los servicios posteriores al go-live aseguran que las organizaciones continúen evolucionando."
+                    },
+                    {
+                        "title": "Inteligencia laboral e insights de IA",
+                        "desc": "SuccessFactors aporta analítica avanzada y storytelling visual mediante SAP Analytics Cloud, permitiendo a los líderes:",
+                        "list": [
+                            "Predecir necesidades de la fuerza laboral",
+                            "Rastrear el compromiso a lo largo del tiempo",
+                            "Planificar compensaciones según impacto",
+                            "Monitorear habilidades, productividad y tendencias de desempeño"
+                        ]
+                    },
+                    {
+                        "title": "Por qué SuccessFactors impulsado por IA es importante ahora mismo",
+                        "desc": "Las organizaciones que utilizan plataformas de RR. HH. habilitadas con IA superan a otras en:",
+                        "list": [
+                            "Retención de empleados",
+                            "Calidad de contratación",
+                            "Movilidad interna y desarrollo de habilidades",
+                            "Velocidad en la toma de decisiones",
+                            "Productividad y compromiso"
+                        ],
+                        "desc2": "Lo que esto realmente significa es que las empresas que modernizan RR. HH. ganan. Las que dudan, quedan atrás. La IA no reemplazará pronto a los humanos en RR. HH., pero los equipos de RR. HH. que usan IA reemplazarán a los equipos que no lo hacen."
+                    }
+                ]
+            }
+        ],
+        "whereSuccessData": [
+            {
+                "title": "Dónde Success+ te ayuda a ganar",
+                "desc": [
+                    "Success+ es el <a href='https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>marco especializado de servicios SAP SuccessFactors</a> de Rialtes diseñado para ayudar a las organizaciones a desbloquear cada dimensión de la transformación de RR. HH.: estrategia, implementación, analítica de IA y mejora continua. Garantiza que SuccessFactors no solo entre en producción, sino que genere un rendimiento empresarial medible.",
+                    "Con Success+, las organizaciones obtienen:"
+                ],
+                "list": [
+                    "Profunda experiencia en consultoría respaldada por conocimiento industrial",
+                    "Implementaciones aceleradas de módulos de SuccessFactors",
+                    "Integraciones perfectas con ERP, nómina y otros sistemas",
+                    "Aseguramiento de calidad impulsado por IA y analítica predictiva",
+                    "Innovación y optimización dedicadas después del go-live"
+                ],
+                "desc2": [
+                    "Ya sea que estés consolidando sistemas globales de RR. HH., escalando una fuerza laboral en rápido crecimiento o preparándote para un RR. HH. impulsado por IA, Success+ convierte SuccessFactors en un motor de alto rendimiento para el éxito de las personas y el impacto empresarial.",
+                    "Si estás listo para construir una organización de RR. HH. inteligente que tome mejores decisiones, avance más rápido y apoye a las personas con verdadera intención, <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>hablemos</a> sobre lo que Success+ puede desbloquear para ti."
+                ]
+            }
+        ],
+        "seoTitle": "Cómo los servicios de SAP SuccessFactors transforman el RR. HH. moderno con IA | Rialtes",
+        "seoDescription": "SAP SuccessFactors es más que un sistema de RR. HH.; es una plataforma unificada y basada en IA que conecta cada parte del ciclo de vida del empleado.",
+        "bannerAlt": "Una interfaz digital futurista que muestra paneles de datos y una mano virtual tocando un punto luminoso en una superficie tecnológica",
+        "blogTitle": "Cómo los servicios de SAP SuccessFactors aprovechan los datos y la IA para transformar el RR. HH. moderno",
+        "faqTitle": "Preguntas frecuentes: Aprovecha los datos y la IA para mejorar el RR. HH. moderno con SAP SuccessFactors"
     }
 }
