@@ -12,12 +12,12 @@ import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import { useActiveLocale } from "../../components/activeLanguages";
 export default function Page() {
-   
+
     const t = useTranslations('travelIndustry')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { endToEndData, industryData, optimizeData, personalizedData, rightTechData, aiPoweredData, quickCommereceData,
-        smarterServiceData, elavateTravelData, flawlessData, futureReadyData, turnSectionData,schemaData
+        smarterServiceData, elavateTravelData, flawlessData, futureReadyData, turnSectionData, schemaData
     } = content.travelIndustry
     const { frActive, esActive } = useActiveLocale();
 

@@ -14,85 +14,6 @@ import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
-    "description": "Discover how conversational AI helps property management teams scale resident support without adding staff. Learn how AI chatbots and voice assistants handle tenant interactions, reduce tickets, and improve satisfaction in real estate operations.",
-    "image": "https://www.rialtes.com/images/blog/conversational-ai-in-real-estate.webp",
-    "author": {
-        "@type": "Organization",
-        "name": "Rialtes"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
-        }
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": " https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/"
-    },
-    "datePublished": "2025-10-20",
-    "mainEntity": {
-        "@type": "FAQPage",
-        "name": "Conversational AI in Real Estate FAQs",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is conversational AI in property management?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Conversational AI in property management uses intelligent chatbots and virtual assistants to manage resident interactions like rent inquiries, maintenance requests, and lease renewals through natural, human-like conversations integrated with backend systems."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can chatbots really handle complex resident requests?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Modern conversational AI platforms go beyond simple rule-based bots. They use NLP and ML to interpret intent, access multiple data sources, and trigger workflows like maintenance updates or billing notifications automatically."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does conversational AI reduce support tickets in real estate?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "AI reduces repetitive support tickets by instantly resolving common queries such as rent payments, maintenance scheduling, or amenity access. Many property firms see a 30–40% drop in ticket volume after implementing AI-driven automation."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What’s the ROI of using conversational AI for property management?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Conversational AI delivers ROI through lower operational costs, faster issue resolution, and improved resident satisfaction. Property managers typically save up to 25% in customer service costs while increasing tenant retention."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is conversational AI secure enough for resident communication?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Enterprise-grade conversational AI systems comply with standards like GDPR and SOC 2, encrypt data, anonymize sensitive information, and enforce access controls to ensure secure and private resident communication."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How can a property company get started with conversational AI?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Start by identifying high-volume repetitive interactions like rent confirmations or maintenance tracking. Then implement a platform such as Exelona, which offers AI-enabled property operations, CRM + ERP integration, and conversational AI capabilities built for real estate."
-                }
-            }
-        ]
-    }
-}
-
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/";
     const currUrl = useUrl()
@@ -104,7 +25,7 @@ export default function Page() {
         fr: frContent,
     });
 
-    const { mainData, traditionalData, whyConversationalData, keyBenefitsData, conversationalAI, howConversationalData, implementationData, whatData, faqs } = blogsContent.conversationalAi
+    const { mainData, traditionalData, whyConversationalData, keyBenefitsData, conversationalAI, howConversationalData, implementationData, whatData, faqs, schemaData } = blogsContent.conversationalAi
 
     return (
         <section className="min-h-screen">

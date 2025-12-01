@@ -1,6 +1,6 @@
 {
   "insights": {
-    "schemaData" :{},
+    "schemaData": {},
     "bannerAlt": "Bannière mobile d’informations pour mises à jour métier",
     "dataCloudeDigitalAlt": "Illustration d’informatique verte avec arbre et circuit numérique",
     "futuristicMedTechAlt": "Illustration de diversité pour l’IA dans les soins aux patients",
@@ -86,7 +86,7 @@
     ]
   },
   "news": {
-    "schemaData" :{},
+    "schemaData": {},
     "newsTitle": "Actualités",
     "seoTitle": "Actualités Rialtes | Points Forts RP et Collaborations Sectorielles",
     "seoDescription": "De la presse aux partenariats stratégiques, découvrez comment Rialtes transforme l’industrie avec innovation et collaborations intelligentes.",
@@ -125,7 +125,7 @@
     ]
   },
   "blogs": {
-    "schemaData" :{},
+    "schemaData": {},
     "mainBlogbannerAlt": "Explorez des idées stratégiques sur l'IA, Salesforce et SAP ",
     "seoTitle": "Blogs Rialtes | Insights sur Salesforce, SAP, IA et Cloud",
     "seoDescription": "Lisez nos blogs experts sur Salesforce, SAP, IA et Cloud. Suivez les dernières tendances et insights en innovation et transformation digitale.",
@@ -145,7 +145,7 @@
     "industryTitle": "Industrie",
     "categoryTitle": "Catégorie",
     "industries": [
-      "Tout",
+      "Tous",
       "Agriculture",
       "Automobile",
       "Santé",
@@ -158,7 +158,7 @@
       "Générique"
     ],
     "categories": [
-      "Tout",
+      "Tous",
       "IA Agentique",
       "Exelona",
       "Intégration",
@@ -197,7 +197,7 @@
         "url": "/digital-patient-journeys-ai-healthcare-life-sciences/",
         "title": "L'avenir des parcours patients numériques : comment l'IA transforme les sciences de la vie",
         "alt": "Parcours patient optimisé par IA montrant diagnostic, traitement et suivi.",
-        "description": "L'industrie de la santé est à un tournant. Les patients ne veulent plus d'expériences fragmentées, attendre des semaines pour un rendez-vous, répéter leur historique à chaque point de contact ou gérer des portails déconnectés."
+        "description": "L’industrie des soins de santé est à un tournant. Les patients ne veulent plus d’expériences fragmentées, d’attendre des semaines pour un rendez-vous, de répéter leur historique à chaque point de contact ou de jongler avec plusieurs portails."
       },
       {
         "id": 3,
@@ -219,21 +219,32 @@
         "url": "/conversational-ai-in-real-estate-scale-resident-support/",
         "title": "IA conversationnelle dans l'immobilier : augmenter le support aux résidents sans ajouter de personnel",
         "alt": "Interface de chatbot IA aidant les équipes immobilières avec des réponses automatiques et un support locataire.",
-        "description": "Le support aux résidents dans la gestion immobilière devient difficile à mettre à l'échelle. Entre les demandes de maintenance, les questions sur le loyer,"
+        "description": "Le support aux résidents dans la gestion immobilière devient de plus en plus difficile à étendre. Entre les demandes de maintenance, les questions sur les loyers, les réservations d’équipements et la coordination des emménagements/déménagements, les équipes sont souvent surchargées. Le problème n’est pas un manque d’attention des gestionnaires immobiliers ; ce sont les attentes des résidents qui ont évolué."
       }
     ],
     "latestBlogs": [
       {
-  "id": 58,
-  "image": "/images/blog/digital-medical-hologram-feature-thumb.webp",
-  "category": "MediAIna",
-  "industry": "Sciences de la vie",
-  "date": "Nov. 25, 2025",
-  "alt": "Médecin interagissant avec données médicales holographiques et visuels de santé 3D dans laboratoire numérique futuriste",
-  "url": "/how-digital-innovation-transforms-clinical-trial-management/",
-  "title": "Comment l’innovation numérique transforme la gestion des essais cliniques",
-  "description": "Les essais cliniques ont toujours été au cœur des avancées médicales. Mais voici la réalité : les essais habituels sont souvent lents, coûteux et déconnectés du monde numérique dans lequel vivent aujourd’hui les patients."
-},
+        "id": 59,
+        "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
+        "category": "SAP SuccessFactors",
+        "industry": "GRH",
+        "alt": "Une interface numérique futuriste affichant des panneaux de données et une main virtuelle touchant un point lumineux",
+        "date": "Nov. 27, 2025",
+        "url": "/sap-successfactors-services-hr-transformation/",
+        "title": "Comment les services SAP SuccessFactors exploitent les données et l’IA pour transformer les RH modernes",
+        "description": "En 2025, une révolution silencieuse transforme la manière dont les RH fonctionnent. Le domaine des ressources humaines évolue constamment. Les attentes ont changé, non pas de façon sensationnelle comme celles qui font la une chaque semaine, mais à travers un changement plus subtil et systémique."
+      },
+      {
+        "id": 58,
+        "image": "/images/blog/digital-medical-hologram-feature-thumb.webp",
+        "category": "MediAIna",
+        "industry": "Sciences de la vie",
+        "date": "Nov. 25, 2025",
+        "alt": "Médecin interagissant avec données médicales holographiques et visuels de santé 3D dans laboratoire numérique futuriste",
+        "url": "/how-digital-innovation-transforms-clinical-trial-management/",
+        "title": "Comment l’innovation numérique transforme la gestion des essais cliniques",
+        "description": "Les essais cliniques ont toujours été au cœur des avancées médicales. Mais voici la réalité : les essais habituels sont souvent lents, coûteux et déconnectés du monde numérique dans lequel vivent aujourd’hui les patients."
+      },
       {
         "id": 56,
         "image": "/images/blog/digital-touchscreen-technology-mobile.webp",
@@ -358,7 +369,7 @@
       {
         "id": 46,
         "image": "/images/blog/salesforce-consulting-cluster-thumb.webp",
-        "category": "Salesforce Agentforce",
+        "category": "Conseil Salesforce",
         "industry": "Générique",
         "date": "Oct. 10, 2025",
         "url": "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/",
@@ -380,7 +391,7 @@
       {
         "id": 44,
         "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
-        "category": "Salesforce Agentforce",
+        "category": "Conseil Salesforce",
         "industry": "Générique",
         "date": "Oct. 06, 2025",
         "url": "/salesforce-development-services-to-boost-crm-efficiency/",
@@ -402,7 +413,7 @@
       {
         "id": 42,
         "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
-        "category": "Salesforce Agentforce",
+        "category": "Conseil Salesforce",
         "industry": "Générique",
         "date": "Sep. 29, 2025",
         "url": "/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/",
@@ -912,7 +923,7 @@
     "openNow": "Ouvrir maintenant"
   },
   "caseStudy": {
-    "schemaData" :{},
+    "schemaData": {},
     "bannerAlt": "Ondes néon roses, bleues et vertes traversant un fond sombre avec effet de flou en mouvement",
     "headerTitle": "Études de cas",
     "seoTitle": "Succès Salesforce et SAP | Études de Cas Inspirantes | Rialtes",
@@ -1309,7 +1320,7 @@
     ]
   },
   "newsDataBricks": {
-    "schemaData" : {},
+    "schemaData": {},
     "bannerAlt": "Annonce partenariat Rialtes et Databricks avec graphique cerveau polygone géométrique sur fond technologique bleu",
     "bannerImageMobile": "/images/homepage/rialtes-databricks-certified-partnership-announcement-french-mobile.webp",
     "seoTitle": "Rialtes devient partenaire certifié Databricks",
@@ -1334,7 +1345,7 @@
     ]
   },
   "newsElite": {
-    "schemaData" : {},
+    "schemaData": {},
     "bannerAlt": "Serveurs de centre de données numériques avec badge revendeur cloud autorisé Salesforce affichant certification officielle",
     "seoTitle": "Rialtes devient partenaire revendeur officiel Salesforce",
     "seoDescription": "Rialtes est désormais partenaire revendeur officiel Salesforce, offrant licences, implémentation et services gérés Salesforce sous un même toit.",
@@ -1351,7 +1362,7 @@
     "visitTwo": "ou contactez "
   },
   "newsSales": {
-    "schemaData" : {},
+    "schemaData": {},
     "bannerAlt": "Ciseaux dorés coupant ruban rouge symbolisant inauguration nouveau bureau des ventes Rialtes à Himachal Pradesh Inde",
     "seoTitle": "Rialtes ouvre un bureau commercial à Baddi, HP",
     "seoDescription": "Rialtes ouvre un nouveau bureau à Baddi, Himachal Pradesh, pour améliorer le service client et fournir des solutions Salesforce et SAP pour l’industrie manufacturière.",

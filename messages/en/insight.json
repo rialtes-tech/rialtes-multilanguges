@@ -269,7 +269,7 @@
         "url": "/digital-patient-journeys-ai-healthcare-life-sciences/",
         "title": "The Future of Digital Patient Journeys: How AI is Reshaping Life Sciences",
         "alt": "AI-enhanced patient journey flowchart showing diagnosis, therapy steps, and follow-up",
-        "description": "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals. "
+        "description": "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals.They want personalized, continuous care that mirrors the convenience of other industries."
       },
       {
         "id": 3,
@@ -291,10 +291,21 @@
         "url": "/conversational-ai-in-real-estate-scale-resident-support/",
         "title": "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
         "alt": "AI chatbot interface supporting real estate teams with automated responses and tenant assistance",
-        "description": "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries,"
+        "description": "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries, amenity bookings, and move-in/move-out coordination, teams often stretch themselves thin. The problem isn’t that property managers don’t care; resident expectations have changed."
       }
     ],
     "latestBlogs": [
+      {
+        "id": 59,
+        "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
+        "category": "SAP SuccessFactors",
+        "industry": "HRMS",
+        "date": "Nov. 27, 2025",
+        "alt": "A futuristic digital interface showing data panels and a virtual hand touching a glowing point on a tech surface",
+        "url": "/sap-successfactors-services-hr-transformation/",
+        "title": "How SAP SuccessFactors Services Leverage Data & AI to Transform Modern HR",
+        "description": "In 2025, a quiet revolution is transforming the way HR operates. The field of HR is evolving continuously. Expectations have changed, not in the sensational ways that make headlines each week, but through a more subtle, systemic shift."
+      },
       {
         "id": 58,
         "image": "/images/blog/digital-medical-hologram-feature-thumb.webp",
