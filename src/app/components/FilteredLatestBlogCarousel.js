@@ -9,7 +9,28 @@ export default function page({ url }) {
     const carouselRef = useRef(null);
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
-       
+        {
+            id: 59,
+            image: "/images/blog/salesforce-managed-services-salesforceagent-plus-feature-thumb.webp",
+            category: "Managed Services ",
+            industry: "Generic",
+            date: "02 Dec. 2025",
+            url: '/scale-with-salesforce-managed-services-salesforceagentplus/',
+            title: "Salesforce Managed Services: The Secret to Scaling Revenue, Not Just Maintaining CRM",
+            alt: "Colorful fiber optic waves representing Salesforce managed services scaling revenue beyond CRM maintenance",
+            description: "Most companies invest heavily in Salesforce, yet only a fraction unlock its real business value.",
+        },
+         {
+            "id": 57,
+            "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
+            "category": "SAP SuccessFactor",
+            "industry": "HRMS",
+            "date": "Nov. 27, 2025",
+            "url": "/sap-successfactors-services-hr-transformation/",
+            "title": "How SAP SuccessFactors Services Leverage Data & AI to Transform Modern HR",
+            "alt" : "Futuristic holographic data screens with code representing SAP SuccessFactors AI and data transforming modern HR",
+            "description": "In 2025, a quiet revolution is transforming the way HR operates. The field of HR is evolving continuously. Expectations have changed, not in the sensational ways that make headlines each week, but through a more subtle, systemic shift."
+        },
         {
             id: 58,
             image: "/images/blog/digital-medical-hologram-feature-thumb.webp",
