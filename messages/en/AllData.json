@@ -4,67 +4,89 @@
             "id": 1,
             "title": "Data Cloud Harness the Potential of Salesforce Data Cloud",
             "description": "Businesses are flooded with vast amounts of data from an increasing array of systems, sources, and platforms. The sheer scale and diversity of this data can be overwhelming, leaving organizations to manage and navigate through countless records daily",
-            "url": "/solutions/data-ai/salesforce-data-cloud-consulting"
+            "url": "/solutions/data-ai/salesforce-data-cloud-consulting",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 2,
             "title": "Unleash the Power of AI-Driven Data Lakes with Rialtes & SAP Datasphere",
             "description": "n today’s competitive landscape, data is the new currency. Yet, most organizations struggle with fragmented data spread across multiple systems like SAP, Salesforce, Oracle, and more.",
-            "url": "/solutions/data-ai/sap-datasphere-implementation-consulting"
+            "url": "/solutions/data-ai/sap-datasphere-implementation-consulting",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 3,
             "title": "Unlock the Future of Data with SAP Business Data Cloud",
             "description": "Whether you’re optimizing profitability, driving operational efficiency, or delivering personalized customer experiences, SAP Business Data Cloud, implemented by Rialtes, gives you a unified and contextualized view of your enterprise landscape.",
-            "url": "/solutions/data-ai/sap-business-data-cloud-bdc-consulting"
+            "url": "/solutions/data-ai/sap-business-data-cloud-bdc-consulting",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 4,
             "title": "Leaning towards a better tomorrow.",
             "description": "What matters the most is – effort. SAP Implementation Consulting with us helps you grow your business exponentially and limit your struggles tangentially. We understand your requirements and offer you just the right amount of it.",
-            "url": "/solutions/enterprise-platforms/sap-consulting-implementation-partners"
+            "url": "/solutions/enterprise-platforms/sap-consulting-implementation-partners",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 5,
             "title": "Humans + Agents Automate Routine Tasks to Drive Customer Success",
             "description": "Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.",
-            "url": "/solutions/artificial-intelligence/salesforce-agentforce-consulting"
+            "url": "/solutions/artificial-intelligence/salesforce-agentforce-consulting",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 6,
             "title": "Manage Revenue Streams and Customer Relationships in One Place",
             "description": "Leverage the expertise of our Salesforce professionals to implement a highly effective revenue management solution. The comprehensive suite of cloud-based software solutions is designed to help businesses optimize and streamline their entire revenue lifecycle.",
-            "url": "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting"
+            "url": "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 7,
             "title": "Modernizing Your Enterprise, End-to-End",
             "description": "As a certified Oracle and Kinaxis partner, Rialtes offers a powerful combination of Oracle E-Business Suite (EBS) and Kinaxis RapidResponse® services through our flagship 'EBSPlus' offering. With global offices across India, United States, Canada, and Singapore, Rialtes is uniquely positioned to drive global Oracle EBS transformations for enterprises in manufacturing, retail, healthcare, semiconductor, and beyond.",
-            "url": "/solutions/enterprise-platforms/oracle-ebs-consulting"
+            "url": "/solutions/enterprise-platforms/oracle-ebs-consulting",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 8,
             "title": "Connecting Digital Businesses using the MuleSoft Platform",
             "description": "An integration solution should help businesses establish connectivity and address integration challenges. MuleSoft offers a future-proof, low-friction, unified connectivity platform for this purpose. ",
-            "url": "/solutions/integration/mulesoft-salesforce"
+            "url": "/solutions/integration/mulesoft-salesforce",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 9,
             "title": "Empowering Intelligent,Connected Enterprises",
             "description": "At Rialtes, we specialize in leveraging the SAP Cloud Platform Integration (CPI) to deliver end-to-end, enterprise-grade integrations that connect SAP and non-SAP applications — transforming disconnected systems into streamlined, automated processes.",
-            "url": "/solutions/integration/sap-cloud-platform-integration-consulting"
+            "url": "/solutions/integration/sap-cloud-platform-integration-consulting",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 10,
             "title": "At Rialtes, we help businesses harness the full power of UiPath’s Robotic Process Automation (RPA) platform to automate end-to-end processes, reduce manual effort, improve accuracy, and drive scalable growth.",
             "description": "Driving Next-Gen Automation for a Smarter Enterprise",
-            "url": "/solutions/process-automation/rpa-consulting-services-provider"
+            "url": "/solutions/process-automation/rpa-consulting-services-provider",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 11,
             "title": "Elevate Quality Engineering with Rialtes’ Tosca Automation Testing Services",
             "description": "At Rialtes, we help organizations transform their testing lifecycle with Tricentis Tosca — the industry’s leading continuous testing platform. With deep expertise and a team of highly certified Tosca experts, Rialtes delivers scalable, intelligent, and resilient testing solutions that dramatically improve quality, speed, and efficiency.",
-            "url": "/solutions/quality-engineering-assurance/tosca-software-automation-testing"
+            "url": "/solutions/quality-engineering-assurance/tosca-software-automation-testing",
+            "source": "Page",
+            "date": null
         }
     ],
     "servicesPages": [
@@ -72,61 +94,81 @@
             "id": 1,
             "title": "Grow Faster, Smarter with Rialtes' VoyagerNext",
             "description": "At Rialtes, we help organizations embrace SAP's next-generation S/4HANA Cloud ERP using Grow with SAP — delivering enterprise-grade solutions built for scalability, agility, and future-proof growth",
-            "url": "/services/business-transformation/grow-with-sap-services"
+            "url": "/services/business-transformation/grow-with-sap-services",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 2,
             "title": "Accelerate Your Digital Transformation with Rialtes Voyager+ for RISE with SAP",
             "description": "At Rialtes, we help organizations future-proof their business with RISE with SAP — combining deep industry expertise, a certified SAP team, and proven methodologies. As a certified SAP partner with global presence in the United States, Canada, India, and Singapore, Rialtes is uniquely positioned to deliver end-to-end SAP S/4HANA transformations that go beyond technology and drive real business outcomes.",
-            "url": "/services/business-transformation/rise-with-sap-services"
+            "url": "/services/business-transformation/rise-with-sap-services",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 3,
             "title": "Maximize Your SAP Investment with Always-On Expertise",
             "description": "At Rialtes, we empower organizations to run their SAP landscapes more efficiently, securely, and effectively. SAP Digital Desk, our next-gen managed services platform, brings together end-to-end SAP expertise, from stabilization and innovation to continuous optimization, ensuring your SAP systems become a strategic driver for business growth, not just an operational tool.",
-            "url": "/services/business-transformation/sap-managed-services-provider"
+            "url": "/services/business-transformation/sap-managed-services-provider",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 4,
             "title": "Intelligent, Connected, and Scalable Retail Transformation",
             "description": "In today’s dynamic and highly competitive retail landscape, customer expectations are evolving rapidly, driven by hyper-personalization, seamless omnichannel engagement, and intelligent operations. At Rialtes, we bring over a decade of global consulting experience to help B2B and B2C retailers successfully navigate these challenges and drive sustainable growth.",
-            "url": "/services/lob/retail-plus-business-consulting-omnichannel-solutions"
+            "url": "/services/lob/retail-plus-business-consulting-omnichannel-solutions",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 5,
             "title": "Accelerate Your Automotive Business with Rialtes AutoSense",
             "description": "For over a decade, Rialtes has been a trusted partner for global automotive leaders, helping them navigate rapid industry transformation — from electrification and connected vehicles to customer experience innovation and supply chain resilience.",
-            "url": "/services/lob/salesforce-automotive-cloud-business-solutions-autosense"
+            "url": "/services/lob/salesforce-automotive-cloud-business-solutions-autosense",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 6,
             "title": "Transform Procurement Excellence with Rialtes SAPBuy+ Services for SAP ARIBA",
             "description": "At Rialtes, we help organizations redefine procurement efficiency with SAP ARIBA, the industry’s leading cloud-based solution for strategic sourcing, contract management, supplier collaboration, and procure-to-pay automation.",
-            "url": "/services/spend-management/sapbuyplus-ariba-implementation-partner"
+            "url": "/services/spend-management/sapbuyplus-ariba-implementation-partner",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 7,
             "title": "Transforming Life Sciences with Rialtes LifeAI+ Services",
             "description": "At Rialtes, we understand that the life sciences industry is rapidly evolving — with growing expectations from patients, providers, regulators, and partners. To meet these demands, organizations need intelligent, AI-driven solutions that integrate compliance, personalization, and automation at scale.",
-            "url": "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting"
+            "url": "/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 8,
             "title": "Fueling Growth Through Personalized Marketing",
             "description": "We help organizations harness the power of Salesforce Marketing Cloud with our Advantage+ Services, a comprehensive suite of advisory, implementation, and support services for rapid adoption.",
-            "url": "/services/lob/salesforce-marketing-cloud-implementation-consulting"
+            "url": "/services/lob/salesforce-marketing-cloud-implementation-consulting",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 9,
             "title": "Empowering Financial Services with RialFinance+",
             "description": "At Rialtes, we enable financial institutions to lead with innovation and trust. Our RialFinance+ Managed Services deliver advisory, implementation, customization, AI integration, and post-go-live support, all unified to transform your Salesforce Financial Services Cloud (FSC) experience.",
-            "url": "/services/lob/salesforce-fsc-consulting-rialfinanceplus"
+            "url": "/services/lob/salesforce-fsc-consulting-rialfinanceplus",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 10,
             "title": "Unleash the Power of Salesforce with SalesforceAgent+",
             "description": "At Rialtes, we go beyond traditional Salesforce support. SalesforceAgent+ is our next-gen Managed Services offering, designed to keep your Salesforce platform future-ready, AI-enabled, and continuously optimized — with 24x7 global support, AI-driven solutions like Agentforce, and seamless integration across your enterprise.",
-            "url": "/services/application-services/salesforce-managed-services-provider-salesforceagentplus"
+            "url": "/services/application-services/salesforce-managed-services-provider-salesforceagentplus",
+            "source": "Page",
+            "date": null
         }
     ],
     "productsPages": [
@@ -134,19 +176,25 @@
             "id": 1,
             "title": "Engage, Support, and Close Deals - All Through WhatsApp. All Inside Salesforce.",
             "description": "AgentChat is a bi-directional WhatsApp cionversational app natively built on Salesforce, enabling your teams to connect with customers instantly, manage conversatons efficiently, and automate workflows — all without leaving Salesforce.",
-            "url": "/products/agentchat"
+            "url": "/products/agentchat",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 2,
             "title": "Redefining the Digital Patient Journey for the Life Sciences Industry",
             "description": "MediAIna is Rialtes’ next-generation patient journey software designed to transform the healthcare patient journey. It integrates clinical, operational, and digital touchpoints across providers, payers, MedTech, and life sciences enterprises.",
-            "url": "/products/mediaina-reimagining-patient-journeys"
+            "url": "/products/mediaina-reimagining-patient-journeys",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 3,
             "title": "Powering the Modern Real Estate Enterprise",
             "description": "Exelona, the intelligent real estate cloud platform that unifies every step of the property lifecycle—from lead generation to financial closeout. Built for property managers, developers, and portfolio owners, Exelona delivers AI-driven automation, mobile-first experiences, and CRM + ERP convergence, all from a single platform.",
-            "url": "/products/exelona-salesforce-for-real-estate-management"
+            "url": "/products/exelona-salesforce-for-real-estate-management",
+            "source": "Page",
+            "date": null
         }
     ],
     "industryPages": [
@@ -154,91 +202,113 @@
             "id": 1,
             "title": "Manage real estate processes with cloud-based property management software",
             "description": "The real estate market is dynamic and unpredictable – but your business doesn’t have to be. With the right tools and strategies, real estate companies can see consistent growth year over year while exceeding client expectations.",
-            "url": "/industry/real-estate-property-management"
+            "url": "/industry/real-estate-property-management",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 2,
             "title": "Powering the Next Era of Life Sciences",
             "description": "In a world where patient-centricity, compliance, and innovation are critical, life sciences organizations must move fast, stay compliant, and deliver exceptional value. Rialtes partners with global life sciences leaders to redefine their business models, connect ecosystems, and unlock the potential of AI and cloud technologies.",
-            "url": "/industry/life-sciences-digital-transformation"
+            "url": "/industry/life-sciences-digital-transformation",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 3,
             "title": "Redefining healthcare by keeping patients at the center",
             "description": "The healthcare industry is undergoing a major digital transformation. From the doctor’s office to home, patients have access to more care options than ever before, thanks to advancements not only in medical technology but the way healthcare IT solutions.",
-            "url": "/industry/life-sciences/healthcare-medtech-patient-care"
+            "url": "/industry/life-sciences/healthcare-medtech-patient-care",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 4,
             "title": "Accelerating Pharma Innovation & Compliance",
             "description": "The pharmaceutical and biotech industries are at the forefront of global healthcare, yet they face increasing pressure to innovate faster, remain compliant, and stay patient-centric. Amidst growing competition, changing regulations, and the need for accelerated R&D, technology and AI-driven solutions are becoming pivotal to success.",
-            "url": "/industry/life-sciences/pharma-biotech-digital-transformation"
+            "url": "/industry/life-sciences/pharma-biotech-digital-transformation",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 5,
             "title": "Transforming Medical Device Innovation & Compliance",
             "description": "In today’s fast-evolving Medical Device industry, companies are under immense pressure to innovate faster, improve patient outcomes, ensure regulatory compliance, and manage complex global supply chains. At Rialtes, ",
-            "url": "/industry/life-sciences/medical-devices-it-solutions"
+            "url": "/industry/life-sciences/medical-devices-it-solutions",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 6,
             "title": "Technology Solutions to Connect Patients with Their Providers",
             "description": "The need for efficient and patient-centric care is greater than ever. Our home health services provide healthcare organizations with cutting-edge mobile and home health technology solutions for remote patient monitoring, virtual consultations, and personalized healthcare management.",
-            "url": "/industry/life-sciences/home-health-ai-tech-solutions"
-        },
-        {
-            "id": 7,
-            "title": "",
-            "description": "",
-            "url": "/industry/hitech-semiconductor-ai-it-solutions"
+            "url": "/industry/life-sciences/home-health-ai-tech-solutions",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 8,
             "title": "Empowering Semiconductor Innovation with End-to-End Digital Transformation",
             "description": "The semiconductor industry is evolving fast, driven by AI, IoT, and global supply chain demands. Rialtes helps semiconductor companies stay ahead with SAP and Salesforce-powered solutions that streamline design, production, compliance, and customer collaboration",
-            "url": "/industry/hitech-semiconductor-ai-it-solutions"
+            "url": "/industry/hitech-semiconductor-ai-it-solutions",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 9,
             "title": "Powering the Future of Manufacturing",
             "description": "Driving end-to-end digital transformation for manufacturers with AI, Cloud, and Smart Automation. Rialtes empowers manufacturing companies to evolve beyond traditional operations and embrace next-gen manufacturing ecosystems that are agile, data-driven, and customer-centric.",
-            "url": "/industry/manufacturing-cloud-erp"
+            "url": "/industry/manufacturing-cloud-erp",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 10,
             "title": "Empowering the Future of Education",
             "description": "Education today is evolving at a rapid pace. Institutions must engage digitally native students, streamline enrollment and academic processes, and foster lifelong relationships with learners. From K-12 to higher education, organizations face challenges in managing fragmented student journeys, disjointed academic operations, and evolving stakeholder expectations.",
-            "url": "/industry/education-cloud-it-solutions"
+            "url": "/industry/education-cloud-it-solutions",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 11,
             "title": "Driving Digital Transformation from Showroom to Service Bay",
             "description": "The automotive industry is in the midst of a seismic shift — from traditional dealer-centric models to a connected, customer-first mobility ecosystem. OEMs, dealers, and suppliers are challenged to deliver seamless omnichannel experiences, manage complex vehicle lifecycles, and foster brand loyalty in a hyper-competitive market.",
-            "url": "/industry/digital-transformation-in-automotive-industry"
+            "url": "/industry/digital-transformation-in-automotive-industry",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 12,
             "title": "Powering the Next-Gen Travel, Transportation & Hospitality Experience",
             "description": "At Rialtes, we specialize in transforming the Travel, Transportation, and Hospitality (TTH) industry through future-ready solutions built on SAP, Salesforce, MuleSoft, and Oracle.",
-            "url": "/industry/travel-hospitality-it-solutions"
+            "url": "/industry/travel-hospitality-it-solutions",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 13,
             "title": "Rialtes: Your Trusted Partner for Retail Industry Innovation",
             "description": "In the retail world, success lies in creating seamless, personalized experiences across every channel while managing operational complexity behind the scenes. At Rialtes, we empower retailers to embrace the future of commerce by unifying business processes, customer engagement, and intelligent analytics through strategic partnerships with SAP, Salesforce, MuleSoft, and Oracle.",
-            "url": "/industry/retail-industry-digital-transformation"
+            "url": "/industry/retail-industry-digital-transformation",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 14,
             "title": "Transforming Non-Profit Impact with Rialtes",
             "description": "Rialtes empowers non-profits to overcome operational challenges and amplify their mission using Salesforce and SAP-based solutions. From donor and volunteer management to fundraising, grant tracking, and outcome measurement, our end-to-end services",
-            "url": "/industry/nonprofit-digital-transformation-it-solutions"
+            "url": "/industry/nonprofit-digital-transformation-it-solutions",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 15,
             "title": "Shaping the Future of Intelligent Financial Experiences",
             "description": "Rialtes empowers banks, insurers, wealth managers, and real estate firms to drive innovation confidently. As a certified Salesforce and SAP partner, we offer end-to-end services—from advisory to post-go-live support—specialized in Financial Services Cloud, SAP S/4HANA, and AI solutions.",
-            "url": "/industry/finance-industry-digital-transformation-services-solutions"
+            "url": "/industry/finance-industry-digital-transformation-services-solutions",
+            "source": "Page",
+            "date": null
         }
     ],
     "aboutUsPages": [
@@ -246,25 +316,33 @@
             "id": 1,
             "title": "Crafting the true purpose of technology in everyday lives.",
             "description": "Imagining how the most complex task can be made simple with AI, data, and technology.",
-            "url": "/about-us"
+            "url": "/about-us",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 2,
             "title": "Building a growth mindset. Each day.",
             "description": "Every day, every one of us work with our core values.",
-            "url": "/about-us/our-values"
+            "url": "/about-us/our-values",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 3,
             "title": "Global Alliances",
             "description": "Rialtes partnered with the most innovative enterprise software companies to provide you with tailored, data-driven IT consulting solutions that simplify, enable, and empower you to solve your biggest business challenges.",
-            "url": "/about-us/impact-and-social-responsibility"
+            "url": "/about-us/impact-and-social-responsibility",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 4,
             "title": "Sustainability with Responsible AI",
             "description": "Rialtes has been empowering customers across the world to trust AI and strengthen the philosophy of responsible AI.",
-            "url": "/about-us/global-alliances"
+            "url": "/about-us/global-alliances",
+            "source": "Page",
+            "date": null
         }
     ],
     "otherPages": [
@@ -272,31 +350,41 @@
             "id": 1,
             "title": "News",
             "description": "Explore how we’re shaping the future of businesses worldwide. Your go-to source for the latest updates, achievements, and innovations from Rialtes. Stay informed with our latest news, press releases, and industry insights as we continue to push boundaries in process consulting, AI-driven enterprise solutions, and digital transformation.",
-            "url": "/insights/news"
+            "url": "/insights/news",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 2,
             "title": "Stay Ahead with Expert Industry Insights",
             "description": "Take a tour of our insights section to see our latest blogs, press releases, case studies, news coverage, updates and upcoming events.",
-            "url": "/insights"
+            "url": "/insights",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 3,
             "title": "Your Guide to Intelligent Enterprise Transformation",
             "description": "Stay ahead in the digital transformation journey with expert insights from Rialtes. Our blog covers the latest trends, best practices, and innovations in SAP, Salesforce, AI, and enterprise technology.",
-            "url": "/insights/blogs"
+            "url": "/insights/blogs",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 4,
             "title": "Success Stories That Inspire",
             "description": "Discover how Rialtes empowers businesses with transformative SAP and Salesforce solutions. Our case studies highlight real-world success stories, showcasing how organizations across industries have leveraged our expertise to optimize operations, enhance customer experiences, and drive growth.",
-            "url": "/insights/case-studies"
+            "url": "/insights/case-studies",
+            "source": "Page",
+            "date": null
         },
         {
             "id": 5,
             "title": "A symphony of expert voices",
             "description": "Join industry leaders and technology experts in Rialtes' exclusive webinars. Explore cutting-edge solutions in SAP, Salesforce, AI, digital transformation, and beyond through live discussions, expert panels, and interactive Q&A sessions.",
-            "url": "/insights/webinars"
+            "url": "/insights/webinars",
+            "source": "Page",
+            "date": null
         }
     ],
     "latestBlogs": [
@@ -309,7 +397,8 @@
             "alt": "Doctor interacting with holographic medical data and 3D health visuals in a futuristic digital lab",
             "url": "/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/",
             "title": "How Digital Innovation is Transforming Clinical Trial Management",
-            "description": "Clinical trials have always been the core of medical progress. But here’s the bitter truth: usual trials are often slow, expensive, and feel disconnected from the digital-first world in which patients now live"
+            "description": "Clinical trials have always been the core of medical progress. But here’s the bitter truth: usual trials are often slow, expensive, and feel disconnected from the digital-first world in which patients now live",
+            "source":"Blog"
         },
         {
             "id": 56,
@@ -320,7 +409,8 @@
             "alt": "Person interacting with digital touchscreen interface displaying AI and futuristic technology elements",
             "url": "/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/",
             "title": "5 Proven Ways AI Accelerates Patient Enrolment in Rare Disease Clinical Trials",
-            "description": "Clinical trials are the lifeblood of medical innovation, especially when it comes to rare diseases. Yet, one of the biggest hurdles in developing new therapies isn’t the science"
+            "description": "Clinical trials are the lifeblood of medical innovation, especially when it comes to rare diseases. Yet, one of the biggest hurdles in developing new therapies isn’t the science",
+            "source":"Blog"
         },
         {
             "id": 3,
@@ -328,6 +418,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Generic",
             "date": "Nov. 19, 2024",
+            "source":"Blog",
             "alt": "Digital brain circuit illustration with glowing connections on dark blue tech background showing AI concept",
             "url": "/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/",
             "title": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
@@ -339,6 +430,7 @@
             "category": "Integration",
             "industry": "Generic",
             "date": "Nov. 12, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/",
             "title": "Boost Enterprise Agility with Tailored SAP Consulting and Implementation Services",
             "alt": "Hand interacting with digital network nodes representing SAP-powered enterprise agility.",
@@ -350,6 +442,7 @@
             "category": "SAP Consulting",
             "industry": "Generic",
             "date": "Nov. 11, 2025",
+            "source":"Blog",
             "alt": "Smart city illustration connected through cloud systems and unified SAP data architecture.",
             "url": "/insights/blogs/sap-implementation-strategies-for-2026-success/",
             "title": "Proven SAP Implementation Strategies that Minimize Risk and Accelerate ROI",
@@ -361,6 +454,7 @@
             "category": "SAP Consulting",
             "industry": "Generic",
             "date": "Nov. 10, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/why-enterprises-choose-sap-consulting-partners/",
             "alt": "Person walking through a digital pathway symbolizing an AI-driven transformation journey.",
             "title": "Why Leading Enterprises Choose Top SAP Consulting Partners for Growth and Innovation",
@@ -372,6 +466,7 @@
             "category": "Exelona",
             "industry": "Real Estate",
             "date": "Nov. 04, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/",
             "title": "What Does a 'Single Source of Truth' Mean for Real Estate From Lead to Lease",
             "alt": "Real estate analytics interface illustrating integrated data for a single source of truth",
@@ -383,6 +478,7 @@
             "category": "Exelona",
             "industry": "Real Estate",
             "date": "Nov. 03, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/",
             "title": "CRM + ERP Convergence: How Real Estate Leaders Break System Silos and Cut Costs",
             "alt": "Cloud dashboard showing AI-enabled real estate operations and integrated property systems",
@@ -394,6 +490,7 @@
             "category": "Integration",
             "industry": "Real Estate",
             "date": "Oct. 31, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/smart-api-integrations-for-real-estate-2026/",
             "title": "5 Essential API Integrations for Real Estate Firms to Accelerate Growth",
             "alt": "Tech puzzle graphic showing key API integrations that support real estate digital growth.",
@@ -405,6 +502,7 @@
             "category": "Exelona",
             "industry": "Real Estate",
             "date": "Oct. 27, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/tracking-service-level-agreements-without-losing-mind/",
             "title": "How Do You Track SLAs and Billing Without Losing Your Mind?",
             "alt": "AI dashboard tracking SLAs and automated billing to improve service accuracy and efficiency.",
@@ -416,6 +514,7 @@
             "category": "Exelona",
             "industry": "Real Estate",
             "date": "Oct. 20, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/",
             "title": "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
             "alt": "AI chatbot interface supporting real estate teams with automated responses and tenant assistance",
@@ -427,6 +526,7 @@
             "category": "Exelona",
             "industry": "Real Estate",
             "date": "Oct. 13, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/",
             "title": "AI in Property Operations: Cut Downtime 30% and Reduce Opex with Predictive Maintenance",
             "alt": "AI dashboard predicting equipment issues to reduce downtime in property operations",
@@ -438,6 +538,7 @@
             "category": "Salesforce Consulting",
             "industry": "Generic",
             "date": "Oct. 10, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/",
             "title": "How Top Salesforce Partners Help Enterprises Thrive and Innovate",
             "alt": "Salesforce cloud icons showing enterprise system connections for CRM optimization.",
@@ -449,6 +550,7 @@
             "category": "MediAIna",
             "industry": "Life Sciences",
             "date": "Oct. 07, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/patient-experience-platform-transforming-long-term-care/",
             "title": "How a Patient Experience Platform Transforms Care from Diagnosis to Long-Term Management",
             "alt": "Patient using digital health dashboard to manage diagnosis, treatment, and long-term care",
@@ -460,6 +562,7 @@
             "category": "Salesforce Consulting",
             "industry": "Generic",
             "date": "Oct. 06, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/",
             "title": "Boost Your CRM Efficiency with Tailored Salesforce Development Services",
             "alt": "CRM dashboard with analytics and user metrics showcasing advanced Salesforce development.",
@@ -471,6 +574,7 @@
             "category": "MediAIna",
             "industry": "Life Sciences",
             "date": "Sep. 30, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/",
             "title": "The Future of Digital Patient Journeys: How AI is Reshaping Life Sciences",
             "alt": "AI-enhanced patient journey flowchart showing diagnosis, therapy steps, and follow-up",
@@ -482,6 +586,7 @@
             "category": "Salesforce Consulting",
             "industry": "Generic",
             "date": "Sep. 29, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/",
             "title": "Seamless Salesforce Implementation: Partner Strategies That Reduce Risk & Maximize ROI",
             "alt": "Team planning Salesforce rollout using digital tools and integration diagrams.",
@@ -493,6 +598,7 @@
             "category": "MediAIna",
             "industry": "Life Sciences",
             "date": "Sep. 18, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/connected-care-ecosystem-pharma-medtech/",
             "title": "Why Connected Care Ecosystems Are the Next Big Bet for Pharma & MedTech",
             "alt": "Network graphic linking providers, pharma, and MedTech systems in a connected care model",
@@ -504,6 +610,7 @@
             "category": "Agentic AI",
             "industry": "Manufacturing",
             "date": "Sep. 17, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/implementing-ai-agents-in-manufacturing-operations/",
             "title": "5 Signs You’re Ready to Implement AI Agents in Your Manufacturing Operations",
             "alt": "Smart factory floor with robotic arms controlled by AI-driven automation systems",
@@ -515,6 +622,7 @@
             "category": "SAP Consulting",
             "industry": "Manufacturing",
             "date": "Sep. 16, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/sap-build-for-manufacturing-4-0/",
             "title": "Accelerating Industry 4.0 with SAP Build: Low-Code Tools for Smarter Manufacturing",
             "alt": "SAP dashboard showing low-code automation tools for modern manufacturing workflows",
@@ -526,6 +634,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Generic",
             "date": "Sep. 15, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/how-agentforce-ai-transforms-erp-systems/",
             "title": "How Agentforce AI Transforms ERP Systems: Automation, Predictive Insights, and Scalability",
             "alt": "Abstract AI face with sound waves and neural patterns showing intelligent listening capabilities",
@@ -537,6 +646,7 @@
             "category": "Salesforce Data Cloud",
             "industry": "Retail",
             "date": "Sep. 12, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty/",
             "title": "Predictive Ecommerce in Salesforce: How Data Cloud Shapes Smarter Customer Experiences",
             "alt": "Mobile view of a customer journey powered by Data Cloud with unified insights for smarter e-commerce",
@@ -548,6 +658,7 @@
             "category": "Agentic AI",
             "industry": "Generic",
             "date": "Sep. 11, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/how-large-language-models-improve-customer-experience/",
             "title": "AI That Listens, Learns, and Delivers: How Large Language Models Are Transforming Customer Experience",
             "alt": "Abstract AI face with sound waves and neural patterns showing intelligent listening capabilities",
@@ -559,6 +670,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Healthcare",
             "date": "Sep. 09, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/ai-patient-engagement-medtech-remote-care/",
             "title": "AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring",
             "alt": "Remote health dashboard displaying patient vitals supported by AI for continuous monitoring",
@@ -570,6 +682,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Manufacturing",
             "date": "Sep. 08, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/how-agentforce-ai-predicts-prevents-downtime-in-manufacturing/",
             "title": "How Agentforce AI Predicts and Prevents Downtime in Industry 4.0 Manufacturing",
             "alt": "mart factory screen showing AI-driven analytics predicting equipment issues",
@@ -581,6 +694,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Generic",
             "date": "Sep. 02, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/",
             "title": "How to Build and Deploy Your First AI Agent with Agentforce (Step-by-Step Guide)",
             "alt": "Virtual workspace with digital AI agent managing tasks and workflow",
@@ -592,6 +706,7 @@
             "category": "Agentic AI",
             "industry": "Manufacturing",
             "date": "Sep. 01, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/",
             "title": "Beyond Robotic Automation: Why Agents Are the Future of Smart Manufacturing",
             "alt": "Smart factory line with robotic systems powered by digital twin technology",
@@ -603,6 +718,7 @@
             "category": "SAP CPI",
             "industry": "Generic",
             "date": "Aug. 26, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide/",
             "title": "SAP PI PO to SAP CPI Migration: A Complete Guide",
             "alt": "SAP cloud integration flow connecting on-premise and cloud systems",
@@ -614,6 +730,7 @@
             "category": "Agentic AI",
             "industry": "Generic",
             "date": "Aug. 25, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/",
             "title": "Reimagine Enterprise Using Agentic AI Systems",
             "alt": "Futuristic dashboard showing AI agents managing enterprise operations",
@@ -625,6 +742,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Manufacturing",
             "date": "Aug. 22, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/",
             "title": "From Factory to Feedback: How Agentforce AI Elevates Customer Experience in Manufacturing",
             "alt": "Customer feedback loop displayed on smart factory command dashboard",
@@ -636,6 +754,7 @@
             "category": "Agentic AI",
             "industry": "Generic",
             "date": "Aug. 21, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet/",
             "title": "How AI Is Powering the Sustainable Future of Our Planet",
             "alt": "Globe surrounded by AI and sustainability icons representing green innovation",
@@ -647,6 +766,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Automotive",
             "date": "Jul. 29, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/",
             "title": "How Agentforce 3.0 is Reshaping Automotive Manufacturing",
             "alt": "Automotive factory using AI tools to enhance production and quality control",
@@ -658,6 +778,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Generic",
             "date": "Jul. 25, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/",
             "title": "Agents vs. Copilots vs. Bots: A Strategic Comparison That Drives AI Adoption Right",
             "alt": "Comparison graphic showing differences between agents, copilots, and bots",
@@ -669,6 +790,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Manufacturing",
             "date": "Jul. 21, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/",
             "title": "Agentforce for Manufacturing: Exceed Customer Expectations with AI-Powered Salesforce Solutions",
             "alt": "Manufacturing dashboard showing Salesforce AI tools improving customer experience",
@@ -680,6 +802,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Generic",
             "date": "Jul. 02, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/",
             "title": "Discover AgentExchange: Your Trusted Marketplace for Agentforce Success",
             "alt": "Interface showing marketplace for Agentforce solutions and digital tools",
@@ -691,6 +814,7 @@
             "category": "Others",
             "industry": "Pharma & Biotech",
             "date": "Jul. 01, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/",
             "title": "Himachal Pradesh: The Pharma Jewel of North India with the Largest Pharma Manufacturing Base",
             "alt": "Pharmaceutical plant in Himachal Pradesh with large-scale automated facilities",
@@ -702,6 +826,7 @@
             "category": "SAP Signavio",
             "industry": "Generic",
             "date": "Jun. 16, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/",
             "title": "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
             "alt": "SAP Signavio graphic representing digital transformation and process visibility",
@@ -713,6 +838,7 @@
             "category": "Agentic AI",
             "industry": "Pharma & Biotech",
             "date": "May. 30, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/agentic-pharma-the-ai-driven-era-of-pharmaceutical-industry/",
             "title": "Agentic Pharma - The AI-driven era of the Pharmaceutical Industry",
             "alt": "AI icons over pharmaceutical lab background showing digital transformation",
@@ -724,6 +850,7 @@
             "category": "SAP Ariba",
             "industry": "Generic",
             "date": "May. 29, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/",
             "title": "How does SAP Ariba Streamline Direct and Indirect Procurement Needs?",
             "alt": "AProcurement dashboard displaying SAP Ariba modules for sourcing and spend",
@@ -735,6 +862,7 @@
             "category": "Integration",
             "industry": "HRMS",
             "date": "May. 28, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations/",
             "title": "How SAP SuccessFactors Integrations Enhance HR and Payroll Operations",
             "alt": "HR dashboard showing payroll data and employee metrics powered by SAP tools",
@@ -746,6 +874,7 @@
             "category": "SAP Joule",
             "industry": "Generic",
             "date": "Apr. 25, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/",
             "title": "Redefining the Future of Enterprise AI with SAP Joule",
             "alt": "SAP Joule interface displaying AI assistant features for enterprise workflows",
@@ -757,6 +886,7 @@
             "category": "SAP BDC",
             "industry": "Generic",
             "date": "Apr. 22, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/",
             "title": "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
             "alt": "Enterprise data cloud architecture enabling AI-driven analytics",
@@ -768,6 +898,7 @@
             "category": "SAP Signavio",
             "industry": "Generic",
             "date": "Mar. 25, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm/",
             "title": "SAP Signavio + SAP Cloud ALM: Driving Governance, Traceability, and KPI Tracking in S/4HANA Transformations",
             "alt": "SAP Signavio and Cloud ALM interface showing process tools for transformation",
@@ -779,6 +910,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Generic",
             "date": "Feb. 03, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/",
             "title": "Powerful Features of Agentforce You Should Be Using",
             "alt": "Agentforce dashboard showing AI performance metrics for customer service",
@@ -790,6 +922,7 @@
             "category": "SAP SuccessFactors",
             "industry": "HRMS",
             "date": "Jan. 21, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/how-sap-successfactors-enhances-remote-work-management/",
             "title": "How SAP SuccessFactors Enhances Remote Work Management",
             "alt": "Remote work interface displaying HR tools for productivity and collaboration",
@@ -801,6 +934,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Generic",
             "date": "Jan. 13, 2025",
+            "source":"Blog",
             "url": "/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/",
             "title": "How Agentforce Agents Scale ERP Systems with AI",
             "alt": "ERP dashboard enhanced with AI tools for resource planning and automation",
@@ -812,6 +946,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Generic",
             "date": "Dec. 30, 2024",
+            "source":"Blog",
             "url": "/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/",
             "title": "Meet Your New Teammate: AI Agents in Slack with Agentforce 2.0",
             "alt": "Slack interface with embedded AI agent assisting team workflows",
@@ -823,6 +958,7 @@
             "category": "SAP SuccessFactors",
             "industry": "HRMS",
             "date": "Dec. 24, 2024",
+            "source":"Blog",
             "url": "/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/",
             "title": "How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration",
             "alt": "Goal tracking dashboard from SAP SuccessFactors",
@@ -834,6 +970,7 @@
             "category": "SAP GTS",
             "industry": "Generic",
             "date": "Dec. 19, 2024",
+            "source":"Blog",
             "url": "/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/",
             "title": "Enhancing Compliance: The Importance of Sanctioned Party List Screening in SAP GTS for Third-Party Transactions",
             "alt": "Compliance dashboard showing SAP GTS screening for global trade",
@@ -845,6 +982,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Generic",
             "date": "Nov. 25, 2024",
+            "source":"Blog",
             "url": "/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/",
             "title": "Agentforce Testing Center: Redefining AI Testing with Synthetic Data",
             "alt": "AI testing interface with synthetic data and automation tools",
@@ -856,6 +994,7 @@
             "category": "SAP SuccessFactors",
             "industry": "HRMS",
             "date": "Nov. 12, 2024",
+            "source":"Blog",
             "url": "/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives/",
             "title": "How SAP SuccessFactors Supports Diversity, Equity, and Inclusion Initiatives",
             "alt": "HR dashboard showing diversity, equity, and inclusion insights",
@@ -867,6 +1006,7 @@
             "category": "Integration",
             "industry": "Healthcare",
             "date": "Nov. 11, 2024",
+            "source":"Blog",
             "url": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/",
             "title": "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
             "alt": "Healthcare interface showing Salesforce and Athenahealth integration",
@@ -878,6 +1018,7 @@
             "category": "SAP SuccessFactors",
             "industry": "HRMS",
             "date": "Oct. 29, 2024",
+            "source":"Blog",
             "url": "/insights/blogs/sap-successfactors-performance-and-goal-management/",
             "title": "SAP SuccessFactors Performance and Goal Management",
             "alt": "HR dashboard for performance tracking and goal management",
@@ -889,6 +1030,7 @@
             "category": "Salesforce Agentforce",
             "industry": "Generic",
             "date": "Sep. 30, 2024",
+            "source":"Blog",
             "url": "/insights/blogs/how-salesforce-agentforce-actually-works/",
             "title": "How Salesforce Agentforce Actually Works",
             "alt": "Overview screen of Salesforce Agentforce platform ",
@@ -900,6 +1042,7 @@
             "category": "Others",
             "industry": "Agriculture",
             "date": "Sep. 17, 2024",
+            "source":"Blog",
             "url": "/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/",
             "title": "Agriculture 4.0. How Do Digital Technologies Transform Farming for a Better Tomorrow?",
             "alt": "Agricultural field with digital sensors and cloud dashboard ",
@@ -912,6 +1055,7 @@
             "image": "/images/case-studies/automotive-tire-factory-production-line-feature-thumb.webp",
             "industry": "Automotive",
             "date": "Nov. 19, 2025",
+            "source":"Case Study",
             "url": "/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study/",
             "title": "Transforming O2C and P2P Processes with SAP ERP Cloud Solutions",
             "alt": "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense ",
@@ -922,6 +1066,7 @@
             "image": "/images/case-studies/graduation-cap-ladder-clouds-education-success-concept-mobile.webp",
             "industry": "Education",
             "date": "Aug. 21, 2025",
+            "source":"Case Study",
             "url": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/",
             "title": "Transforming Student Success with Salesforce Education Cloud and Edu+",
             "alt": "Graduation cap with ladder rising into clouds symbolizing education success and growth",
@@ -932,6 +1077,7 @@
             "image": "/images/case-studies/automotive-robotic-assembly-line-car-manufacturing-mobile.webp",
             "industry": "Automotive",
             "date": "Jun. 30, 2025",
+            "source":"Case Study",
             "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
             "title": "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
             "alt": "Illustration showing AutoSense warranty management modules for automotive operations",
@@ -942,6 +1088,7 @@
             "image": "/images/case-studies/roof-shingle-color-samples-material-options-mobile.webp",
             "industry": "Manufacturing",
             "date": "Jun. 10, 2025",
+            "source":"Case Study",
             "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
             "title": "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
             "alt": "Display of roofing shingle samples in multiple colors arranged for product comparison",
@@ -952,6 +1099,7 @@
             "image": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
             "industry": "Automotive",
             "date": "Jun. 03, 2025",
+            "source":"Case Study",
             "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
             "title": "Revving Up Dealer Management with AutoSense by Rialtes",
             "alt": "Professionals collaborating around a laptop in a modern office setting",
@@ -962,6 +1110,7 @@
             "image": "/images/case-studies/insurance-adjuster-homeowner-storm-damage-assessment-carousel.webp",
             "industry": "Manufacturing",
             "date": "May. 30, 2025",
+            "source":"Case Study",
             "url": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/",
             "title": "Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience",
             "alt": "Insurance adjuster inspecting storm-damaged home exterior with homeowner",
@@ -972,6 +1121,7 @@
             "image": "/images/case-studies/roofing-shingle-samples-color-variety-display-carousel.webp",
             "industry": "Manufacturing",
             "date": "May. 28, 2025",
+            "source":"Case Study",
             "url": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/",
             "title": "150 Orders a Day, Zero Manual Work: The Fiori-Powered Self-Service Order Prioritization",
             "alt": "Display of roofing shingle samples in multiple colors arranged for product comparison",
@@ -982,6 +1132,7 @@
             "image": "/images/case-studies/quality-control-technician-inspecting-bottle-production-line-mobile.webp",
             "industry": "Manufacturing",
             "date": "Mar. 26, 2025",
+            "source":"Case Study",
             "url": "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
             "title": "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
             "alt": "Technician inspecting bottles on a production line for quality control",
@@ -992,6 +1143,7 @@
             "image": "/images/case-studies/industrial-workers-safety-collaboration.webp",
             "industry": "Manufacturing",
             "date": "Jan. 08, 2025",
+            "source":"Case Study",
             "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce/",
             "title": "DevOps Transformation using Copado and Salesforce",
             "alt": "Industrial workers reviewing safety procedures and collaborating on site",
@@ -1002,6 +1154,7 @@
             "image": "/images/case-studies/business-team-strategy-collaboration.webp",
             "industry": "Real Estate",
             "date": "Dec. 22, 2024",
+            "source":"Case Study",
             "url": "/insights/case-studies/realForce-banking-module-ach/",
             "title": "Automating ACH and Journal Entries with Our Exelona Banking Module",
             "alt": "Business team collaborating on strategy planning using digital dashboards and reports",
@@ -1012,6 +1165,7 @@
             "image": "/images/case-studies/nurse-patient-consultation-medical-records.webp",
             "industry": "Healthcare",
             "date": "Nov. 17, 2024",
+            "source":"Case Study",
             "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/",
             "title": "Automating Order Processing in Healthcare using MuleSoft",
             "alt": "Patient and nurse reviewing digital health records for accurate and coordinated care",
@@ -1022,6 +1176,7 @@
             "image": "/images/case-studies/advanced-microchip-manufacturing-mobile.webp",
             "industry": "Semiconductor",
             "date": "Oct. 14, 2024",
+            "source":"Case Study",
             "url": "/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/",
             "title": "Transforming Omnichannel Case Management Using Salesforce Service Cloud",
             "alt": "Advanced microchip manufacturing line showing precision technology and automated workflows",
@@ -1032,6 +1187,7 @@
             "image": "/images/case-studies/urban-community-collaboration-mobile.webp",
             "industry": "Public Sector",
             "date": "Sep. 27, 2024",
+            "source":"Case Study",
             "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america/",
             "title": "Trusted YARDI Partner for North America’s Largest PHA",
             "alt": "Urban community working together with digital tools supporting engagement and services",
@@ -1042,6 +1198,7 @@
             "image": "/images/case-studies/abstract-colorful-city-skyline-data-visualization.webp",
             "industry": "Real Estate",
             "date": "Sep. 4, 2024",
+            "source":"Case Study",
             "url": "/insights/case-studies/yardi-managed-services/",
             "title": "Reduced Downtime for a Multifamily Real Estate Firm Using Yardi Managed Services",
             "alt": "Colorful abstract city skyline illustrating data analytics and digital transformation",
@@ -1052,6 +1209,7 @@
             "image": "/images/case-studies/doctor-patient-consultation-mobile.webp",
             "industry": "Healthcare",
             "date": "Aug. 16, 2024",
+            "source":"Case Study",
             "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/",
             "title": "Digitizing the Patient Journey Using Salesforce Health Cloud",
             "alt": "Doctor reviewing patient records during a clinical consultation on mobile-friendly interface",
@@ -1062,6 +1220,7 @@
             "image": "/images/case-studies/digital-brain-network-mobile.webp",
             "industry": "Healthcare",
             "date": "Aug. 02, 2024",
+            "source":"Case Study",
             "url": "/insights/case-studies/salesforce-health-cloud-prior-authorization/",
             "alt": "Digitizing Prior Authorization for Better Patient Outcomes ",
             "title": "Digital brain network visualizing AI-powered medical insights for mobile health workflows",
@@ -1073,6 +1232,7 @@
             "id": 6,
             "title": "CIG, Your Gateway to SAP Ariba",
             "date": "Jun. 10, 2025",
+            "source":"Webinar",
             "time": "10:00 AM CST",
             "speaker": "Sapna Chauhan",
             "position": "Software Engineer - SAP",
@@ -1085,6 +1245,7 @@
             "id": 5,
             "title": "Voyage with SAP – Transformational RISE with SAP Services by Rialtes",
             "date": "Jun. 3, 2025",
+            "source":"Webinar",
             "time": "10:00 AM CST",
             "speaker": "Anuraag Aggarwal",
             "position": "Vice President of Global Sales",
@@ -1097,6 +1258,7 @@
             "id": 1,
             "title": "Discover the Agentic Capabilities of Agentforce",
             "date": "May. 15, 2025",
+            "source":"Webinar",
             "time": "10:00 AM CST",
             "speaker": "Lokesh Adhikari",
             "position": "Software Engineer - Salesforce",
@@ -1109,6 +1271,7 @@
             "id": 2,
             "title": "Databricks and Datasphere — What’s in SAP Business Data Cloud?",
             "date": "May. 13, 2025",
+            "source":"Webinar",
             "time": "10:00 AM CST",
             "speaker": "Akshay Kale",
             "position": "Sr. Managing Director – SAP Services",
@@ -1121,6 +1284,7 @@
             "id": 3,
             "title": "Deliver End-to-End Customer Journey with Salesforce Automotive Cloud",
             "date": "May. 08, 2025",
+            "source":"Webinar",
             "time": "10:00 AM CST",
             "speaker": "Divya Agarwal",
             "position": "Software Engineer - Salesforce",
@@ -1133,6 +1297,7 @@
             "id": 4,
             "title": "Let’s WhatsApp in Salesforce with AgentChat",
             "date": "May. 06, 2025",
+            "source":"Webinar",
             "time": "10:00 AM CST",
             "speaker": "Lokesh Adhikari",
             "position": "Software Engineer - Salesforce",
@@ -1149,6 +1314,7 @@
             "alt": "Golden scissors cutting a red ribbon on a blue background, symbolizing inauguration, grand opening, or new beginnings",
             "industry": "News",
             "date": "Apr. 4, 2025",
+            "source":"News",
             "url": "/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/",
             "title": "Rialtes Technologies Opens New Sales Office in Baddi, Himachal Pradesh.",
             "description": "Baddi, Himachal Pradesh – April 3, 2025 – Rialtes Technologies, a leading global consulting firm, has announced the grand opening of its new Sales Office in Baddi, Himachal Pradesh, marking a significant step in the company’s expansion strategy. The new office aims to strengthen its presence in the northern part of India, while exploring the immense potential of the region's manufacturing sector."
@@ -1158,6 +1324,7 @@
             "image": "/images/news/salesforce-authorized-cloud-reseller.webp",
             "alt": "salesforce-authorized-cloud-reseller",
             "industry": "News",
+            "source":"News",
             "date": "May 12, 2025",
             "url": "/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/",
             "title": "Rialtes Joins Elite Group as an Official Salesforce Reseller Partner",
@@ -1168,6 +1335,7 @@
             "image": "/images/news/digital-handshake-technology.webp",
             "alt": "3D polygonal digital handshake with futuristic wireframe design on a blue tech background, symbolizing technology partnership and digital collaboration",
             "industry": "News",
+            "source":"News",
             "date": "Apr. 18, 2025",
             "url": "/insights/news/rialtes-becomes-certified-databricks-partner-to-deliver-next-gen-ai-and-data-services-across-sap-and-salesforce-ecosystems/",
             "title": "Rialtes Becomes Certified Databricks Partner to Deliver Next-Gen AI and Data Services Across SAP and Salesforce Ecosystems",

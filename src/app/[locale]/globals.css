@@ -17,6 +17,18 @@
   /* rounded sans look */
 }
 
+.searchInput {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.searchInput:focus,
+.searchInput:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+
 body {
   color: var(--foreground);
   background: var(--background);

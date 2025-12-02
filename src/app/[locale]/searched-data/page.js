@@ -17,16 +17,16 @@ export default function page() {
     const [currentPage, setCurrentPage] = useState(1);
 
     const allData = [
-        ...latestBlogs,
-        ...latestCaseStudy,
-        ...allWebinars,
-        ...latestNews,
-        ...solutionsPages,
-        ...servicesPages,
-        ...productsPages,
-        ...industryPages,
-        ...aboutUsPages,
-        ...otherPages
+        servicesPages,
+        latestBlogs,
+        solutionsPages,
+        latestCaseStudy,
+        productsPages,
+        latestNews,
+        industryPages,
+        allWebinars,
+        aboutUsPages,
+        otherPages
     ];
 
     useEffect(() => {
@@ -47,18 +47,61 @@ export default function page() {
         };
     }, [open]);
 
-    let filtered = allData.filter((item) =>
-        item.url.toLowerCase().includes(query?.toLowerCase() || "") ||
-        item.title.toLowerCase().includes(query?.toLowerCase() || "") ||
-        item.description?.toLowerCase().includes(query?.toLowerCase() || "")
-    );
+    useEffect(() => {
+        if (currentPage > 1) {
+            setCurrentPage(1)
+        }
+    }, [selectedOption])
 
-    if (selectedOption === "Date") {
-        filtered = filtered.sort(
-            (a, b) => new Date(b.date) - new Date(a.date)
-        );
+    //  to mix all the results
+    const mixed = [];
+    let pointer = 0;
+
+    while (true) {
+        let added = false;
+
+        for (let list of allData) {
+            const slice = list.slice(pointer, pointer + 1);
+            if (slice.length > 0) {
+                mixed.push(...slice);
+                added = true;
+            }
+        }
+
+        if (!added) break;
+        pointer += 1;
     }
 
+    let filtered = mixed.filter((item) =>
+        item.url.toLowerCase().includes(query?.toLowerCase() || "") ||
+        item.title.toLowerCase().includes(query?.toLowerCase() || "")
+        // item.description?.toLowerCase().includes(query?.toLowerCase() || "")
+    );
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
+
+    // sort by date
+    if (selectedOption === "Date") {
+        filtered = filtered.sort((a, b) => {
+            const dateA = a.date ? new Date(a.date) : null;
+            const dateB = b.date ? new Date(b.date) : null;
+
+            if (!dateA && !dateB) return 0;
+
+            if (!dateA) return 1;
+
+            if (!dateB) return -1;
+
+            return dateB - dateA;
+        });
+    }
+
+// pagination
     const itemsPerPage = 10
     const totalPages = Math.ceil(filtered.length / itemsPerPage)
     let startIndex = (currentPage - 1) * itemsPerPage
@@ -69,10 +112,10 @@ export default function page() {
         <section className="mb-20">
             <div className="custom-container">
                 <h2 className="font-semibold pt-10 text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                    Search results for : <span className="ml-2 text-black">{query}</span>
+                    Search results for : <span className="ml-2 text-black font-normal">{query}</span>
                 </h2>
                 <div className="sm:flex justify-between md:w-[74%]">
-                    <p className="mt-5 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold leading-tight">Yielded {filtered.length} results</p>
+                    <p className="mt-5 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-normal leading-tight">Yielded {filtered.length} results</p>
                     <div className="max-sm:mt-8 relative sm:mt-2 flex gap-3 items-center" ref={dropdownRef}>
                         Sort By :
                         <button
@@ -112,11 +155,11 @@ export default function page() {
                 {filtered.length > 0 ? (
                     <div className="md:w-[80%]">
                         {slicedData.map((data, i) => (
-                            <div className="pt-[30px] lg:pt-[60px]" key={i}>
+                            <div className="pt-[26px] lg:pt-[60px]" key={i}>
                                 <Link key={i} href={data.url}>
-                                    <h3 className="mt-5 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold leading-tight text-[#0092E0] hover:text-black">{data.title}</h3>
-                                    <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] text-gray-600">https://www.rialtes.com{data.url}</p>
-                                    <p className="mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] line-clamp-2">{data.description}</p>
+                                    <h3 className="mt-5 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] font-medium leading-tight text-[#0092E0]">{data?.source}</h3>
+                                    <p className="mt-5 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] font-bold">{data.title}</p>
+                                    <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] text-gray-600 line-clamp-2">{data.description}</p>
                                 </Link>
                             </div>
                         ))}
@@ -126,22 +169,27 @@ export default function page() {
                 )}
 
                 {filtered.length > 10 &&
-                    <div className="flex gap-10 mt-10">
+                    <div className="sm:flex gap-14 mt-16">
                         <div className="mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-semibold"> Showing {Math.min(currentPage * itemsPerPage, filtered.length)} / {filtered.length}</div>
-                        <div className="flex gap-5 items-center pt-1 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-semibold">
+                        <div className="flex gap-5 items-center max-sm:mt-8 pt-1 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-semibold">
                             <Image
                                 src={leftArrow}
                                 alt="left"
                                 className={`w-[24px] h-[24px] lg:w-[20px] lg:h-[20px] object-cover mr-4  ${currentPage === 1 ? "opacity-40 cursor-not-allowed" : "cursor-pointer"}`}
                                 onClick={() => {
                                     if (currentPage > 1) setCurrentPage(currentPage - 1);
+                                    scrollToTop();
                                 }}
                             />
                             {Array.from({ length: totalPages }).map((_, id) => (
                                 <div
                                     key={id}
                                     className={`cursor-pointer ${currentPage === id + 1 ? "text-[#0092E0]" : ""}`}
-                                    onClick={() => setCurrentPage(id + 1)}>
+                                    onClick={() => {
+                                        setCurrentPage(id + 1);
+                                        scrollToTop();
+                                    }}
+                                >
                                     {id + 1}
                                 </div>
                             ))}
@@ -151,7 +199,8 @@ export default function page() {
                                 alt="right"
                                 className={`w-[24px] h-[24px] lg:w-[20px] lg:h-[20px] object-cover ml-4 ${currentPage === totalPages ? "opacity-40 cursor-not-allowed" : "cursor-pointer"}`}
                                 onClick={() => {
-                                    if (currentPage < totalPages) setCurrentPage(currentPage + 1);
+                                    if (currentPage < totalPages) setCurrentPage(currentPage + 1)
+                                    scrollToTop();
                                 }}
                             />
                         </div>

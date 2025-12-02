@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Search, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 
@@ -8,6 +8,7 @@ export default function SearchBar() {
     const [isOpen, setIsOpen] = useState(false);
     const [query, setQuery] = useState("");
     const router = useRouter();
+    const inputRef = useRef()
 
     const handleSearch = () => {
         if (!query.trim()) return;
@@ -20,12 +21,20 @@ export default function SearchBar() {
         }
     };
 
+    useEffect(() => {
+        if (isOpen && inputRef.current) {
+            inputRef.current.focus();
+        }
+    }, [isOpen]);
+
     return (
         <>
             <div className="flex items-center">
                 {!isOpen ? (
                     <button
-                        onClick={() => setIsOpen(true)}
+                        onClick={() => {
+                            setIsOpen(true);
+                        }}
                         className="p-2 hover:bg-gray-100 rounded-full transition"
                     >
                         <Search className="w-5 h-5 text-gray-600" />
@@ -43,9 +52,11 @@ export default function SearchBar() {
                             value={query}
                             onChange={(e) => setQuery(e.target.value)}
                             onKeyDown={handleKeyDown}
-                            className="
-          flex-1 bg-transparent text-gray-800 placeholder-gray-500
-          focus:outline-none transition-all duration-300"/>
+                            ref={inputRef}
+                            className="flex-1 bg-transparent text-gray-800 placeholder-gray-500
+                                        border-0 focus:border-0 focus:outline-none focus:ring-0
+                                        transition-all duration-300 searchInput"
+                        />
 
                         <button
                             onClick={handleSearch}
