@@ -224,6 +224,17 @@
     ],
     "latestBlogs": [
       {
+        "id": 60,
+        "image": "/images/blog/salesforce-managed-services-salesforceagent-plus-mobile.webp",
+        "category": "Servicios Gestionados",
+        "industry": "Genérico",
+        "date": "Dec. 02, 2025",
+        "alt": "Ondas fibra óptica coloridas representando servicios gestionados Salesforce escalando ingresos más allá de CRM",
+        "url": "/scale-with-salesforce-managed-services-salesforceagentplus/",
+        "title": "Servicios Gestionados de Salesforce: El secreto para escalar los ingresos, no solo mantener el CRM",
+        "description": "La mayoría de las empresas invierten fuertemente en Salesforce, pero solo una fracción aprovecha su verdadero valor comercial. "
+      },
+      {
         "id": 59,
         "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
         "category": "SAP SuccessFactors",
