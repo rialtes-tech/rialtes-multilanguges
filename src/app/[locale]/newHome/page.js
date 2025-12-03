@@ -42,8 +42,8 @@ const AutoTimerSlider = () => {
                     <div className="item"
                         style={{ backgroundImage: `url("/images/homepage/industry5_with_bgc.webp")` }}>
                         <div className="content">
-                            <div className="title font-semibold">{t('automotiveTitle')}</div>
-                            <div className="des pr-5 xl:mt-8 mt-5">{t('automotiveDesc')}</div>
+                            <div className="title font-semibold">AUTOMOTIVE</div>
+                            <div className="des pr-5 xl:mt-8 mt-5">Salesforce healthcare CRM to help medical service providers seamlessly integrate hospital software.</div>
                             <Link href="/industry/digital-transformation-in-automotive-industry" aria-label='Semiconductor'>
 
                                 <button className='!border-[1px] know-more  !border-white p-4 xl:text-[20px] text-[16px] mt-10'>{t('knowMoreBtn')} → </button>
