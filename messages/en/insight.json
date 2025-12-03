@@ -295,6 +295,17 @@
       }
     ],
     "latestBlogs": [
+       {
+        "id": 60,
+        "image": "/images/blog/salesforce-managed-services-salesforceagent-plus-mobile.webp",
+        "category": "Managed Services",
+        "industry": "Generic",
+        "date": "Dec. 02, 2025",
+        "alt": "Colorful fiber optic waves representing Salesforce managed services scaling revenue beyond CRM maintenance",
+        "url": "/scale-with-salesforce-managed-services-salesforceagentplus/",
+        "title": "Salesforce Managed Services: The Secret to Scaling Revenue, Not Just Maintaining CRM",
+        "description": "Most companies invest heavily in Salesforce, yet only a fraction unlock its real business value. "
+      },
       {
         "id": 59,
         "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
