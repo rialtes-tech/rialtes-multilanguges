@@ -43,7 +43,7 @@ export default function Page() {
         />
       </div>
       <div className="flex flex-col pt-4 flex-grow 3xl:pr-[80px] xl:pr-[50px]">
-        <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[60px] 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">
+        <h3 className="mb-[10px] md:mb-[15px] font-semibold h3-bold line-clamp-2 min-h-[30px] 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">
           {services.title}
         </h3>
         <p className="text-[16px] xl:text-[18px]  4xl:text-[20px] leading-tight">
