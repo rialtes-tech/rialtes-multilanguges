@@ -197,7 +197,7 @@ const Home = () => {
             <section className='xl:mt-[158px] mt-[87px]'>
                 <div ref={refs[1]} className={`custom-container transition-all duration-1000 ease-out transform items-center grid xl:grid-cols-12 grid-cols-1 ${inViews[1] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
                     <div className='col-span-6'>
-                        <h2 className='4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] text-[26px] leading-tight'>{t('industryExpertiesTitle')}</h2>
+                        <h2 className='4xl:text-[60px] 2xl:text-[48px] md:text-[32px] xl:text-[40px] text-[26px] leading-tight'>{t('industryExpertiesTitle')}</h2>
                     </div>
                     <div className='col-span-6'>
                         <p className='mt-5 xl:mt-0 sm:mt-5 lg:mt-mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]'>{t('industryExpertiesDesc')}</p>
