@@ -150,9 +150,9 @@ const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const slides = useMemo(() => [
-        { link: "/solutions/data-ai/sap-business-data-cloud-bdc-consulting/", title: "SAP Business Data Cloud", image: '/images/homepage/sap-business-datacloude-desktop.webp', imageMobile: '/images/homepage/sap-business-data-cloude-mobile.webp' },
-        { link: "/products/exelona-salesforce-for-real-estate-management", image: '/images/homepage/real-estate-desktop-banner.webp', title: "Exelona", imageMobile: '/images/homepage/real-estate-mobile-banner.webp' },
-        { link: "/industry/hitech-semiconductor-ai-it-solutions", image: '/images/homepage/semiconducter-desktop-banner.webp', title: "Semiconductor Industry", imageMobile: '/images/homepage/semiconductor-mobile-banner.webp' },
+        { link: "/solutions/data-ai/sap-business-data-cloud-bdc-consulting/",alt:"SAP Business Data Cloud consulting banner showing enterprise data and AI solutions", title: "SAP Business Data Cloud", image: '/images/homepage/sap-business-datacloude-desktop.webp', imageMobile: '/images/homepage/sap-business-data-cloude-mobile.webp' },
+        { link: "/products/exelona-salesforce-for-real-estate-management",alt:"Exelona Salesforce real estate management platform banner for property automation", image: '/images/homepage/real-estate-desktop-banner.webp', title: "Exelona", imageMobile: '/images/homepage/real-estate-mobile-banner.webp' },
+        { link: "/industry/hitech-semiconductor-ai-it-solutions",alt:"AI and IT solutions for semiconductor industry banner showing high-tech innovation", image: '/images/homepage/semiconducter-desktop-banner.webp', title: "Semiconductor Industry", imageMobile: '/images/homepage/semiconductor-mobile-banner.webp' },
 
     ], [])
     const handlePrevInsights = () => {
@@ -281,7 +281,7 @@ const Home = () => {
                     ref={refs[0]}
                     className={`col-span-4 transition-all duration-1000 ease-out transform items-center grid xl:grid-cols-12 grid-cols-1 ${inViews[0] ? "opacity-100 translate-y-0" : "translate-y-12"}`} >
                     <div className='col-span-5'>
-                        <h2>Success Stories</h2>
+                        <h2 className='4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] text-[26px]'>Success Stories</h2>
                     </div>
                     <div className='col-span-7'>
                         <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5 pr-8 xl:pr-0 lg:w-[80%]'>Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.</p>
@@ -327,7 +327,7 @@ const Home = () => {
                     ref={refs[1]}
                     className={`custom-container transition-all duration-1000 ease-out transform items-center grid xl:grid-cols-12 grid-cols-1 ${inViews[1] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`} >
                     <div className='col-span-6'>
-                        <h2 className='4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] leading-tight'>Industry Expertise & Solutions</h2>
+                        <h2 className='4xl:text-[60px] 2xl:text-[48px] md:text-[32px] xl:text-[40px] text-[26px] leading-tight'>Industry Expertise & Solutions</h2>
                     </div>
                     <div className='col-span-6'>
                         <p className='mt-5 xl:mt-0 sm:mt-5 lg:mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]'>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
