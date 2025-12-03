@@ -41,7 +41,7 @@ export default function SalesForceConsulting() {
           className="transform transition-transform duration-500 group-hover:scale-110 xl:h-full h-[250px] md:h-[350px] lg:h-[450px]"
           width={0}
           height={0}
-          sizes="100vw"
+          sizes="100vw" 
           style={{
             width: "100%",
             objectFit: "cover",

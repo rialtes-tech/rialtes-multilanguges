@@ -21,7 +21,7 @@ export default function DataCloud() {
     return () => {
       setHoveredBlog(blogName);
     };
-  };
+  }; 
   const handleMouseLeave = () => {
     return () => {
       setHoveredBlog(null);
@@ -134,7 +134,7 @@ export default function DataCloud() {
                       />
                     </div>
                   </div>
-                  <h3 className="text-[#1F3F69] mt-2 4xl:text-[30px] xl:text-[24px] text-[20px]">{feature.title}</h3>
+                  <h3 className="text-[#1F3F69] mt-2 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">{feature.title}</h3>
                 </div>
                 <p className="text-[#000000] mt-2 4xl:text-[22px] xl:text-[18px] text-[16px]">{feature.description}</p>
               </div>
@@ -147,7 +147,7 @@ export default function DataCloud() {
       <section className="bg-[#EDEDED] xl:pt-[83px] xl:pb-[76px] py-[40px]">
         <div className="custom-container">
           <div className="">
-            <h3 className="text-left 4xl:text-[36px] xl:text-[30px] text-[26px] mb-6 font-[300] max-w-[900px]">
+            <h3 className="text-left 4xl:text-[36px] xl:text-[30px] text-[26px] mb-6 font-[300] max-w-[900px] leading-tight">
               {t('unitedTitle')}
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 xl:mt-[64px] mt-[46px]">

@@ -18,7 +18,7 @@ const AutoTimerSlider = () => {
                                 <button className='!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>{t('knowMoreBtn')} → </button>
                             </Link>
                         </div>
-                    </div>
+                    </div> 
                     <div className="item"
                         style={{ backgroundImage: `url("/images/homepage/industry3.webp")` }}>
                         <div className="content">
@@ -42,7 +42,7 @@ const AutoTimerSlider = () => {
                     <div className="item"
                         style={{ backgroundImage: `url("/images/homepage/industry5_with_bgc.webp")` }}>
                         <div className="content">
-                            <div className="title">{t('automotiveTitle')}</div>
+                            <div className="title font-semibold">{t('automotiveTitle')}</div>
                             <div className="des pr-5 xl:mt-8 mt-5">{t('automotiveDesc')}</div>
                             <Link href="/industry/digital-transformation-in-automotive-industry" aria-label='Semiconductor'>
 
@@ -62,7 +62,7 @@ const AutoTimerSlider = () => {
                     </div>
 
                     <div className="item"
-                        style={{ backgroundImage: `url("/images/industry/travel-transporation/retail+.webp")` }}>
+                        style={{ backgroundImage: `url("/images/industry/travel-transporation/digital-shopping-holographic-interface-retail.webp")` }}>
                         <div className="content">
                             <div className="title font-semibold">{t('retailTitle')}</div>
                             <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">{t('retailDesc')}</div>

@@ -31,7 +31,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] h-[400px] md:h-[600px] overflow-hidden">
+      <section className="relative 4xl:h-[638px] xl:h-[500px] 2xl:h-[600px] h-[400px] md:h-[600px] overflow-hidden">
         <div className="md:block hidden">
           <Image
             src="/images/services/success-plus/successplus-successfactors-implementation-partner.webp"
@@ -53,7 +53,7 @@ export default function Page() {
         <div
           className="custom-container h-full relative">
           <div className="h-full flex flex-col justify-center mt-[40px] lg:mt-0">
-            <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">{t('headerTitle')}</h3>
+            <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2 leading-tight">{t('headerTitle')}</h3>
             <h2 className="text-white 2xl:text-[56px] xl:text-[40px] 4xl:text-[60px] lg:text-[38px] leading-tight text-[24px] md:text-[32px] mt-[20.5px]">
               {t('headerSubTitlep1')}  <div className="" /> {t('headerSubTitlep2')}
               <div className="lg:mt-[20px] mt-[10px]" /><span className="text-[16px] font-bold lg:text-[36px] 4xl:text-[45px]"> {t('headerSubTitle2')} </span> <div className="2xl:mt-[-20px] lg:mt-[-5px] xl:mt-0 mt-[-10px]" /><span className="text-[16px] lg:text-[36px] 4xl:text-[45px]"> {t('headerSubTitle3')}</span>

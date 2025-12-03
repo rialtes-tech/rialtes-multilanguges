@@ -186,7 +186,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="custom-container py-20 bg-[#F5F5F5]">
+      <div className="custom-container py-20 bg-[#F5F5F5] xl:pr-0">
         <FeaturedCarousel />
       </div>
       <div className="mt-[120px] py-20 bg-[#808080]">

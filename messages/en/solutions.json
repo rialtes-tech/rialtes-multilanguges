@@ -299,31 +299,37 @@
       {
         "icon": "/images/data-cloud/user-growth-icon.svg",
         "alt": "User growth icon with figure and expanding arrows ",
+        "title":"Customer 360 View",
         "description": "Integrate customer data across business units to build, for both real-time, omni-channel marketing, transactional personalization, content, subscription, and e-commerce."
       },
       {
         "icon": "/images/data-cloud/process-integration-icon.svg",
         "alt": "Process integration icon with clipboard and workflow arrows ",
+        "title":"Zero Copy Integration",
         "description": "Connect your databases, applications with zero copying delays and share data among multiple data sources on demand. No ETL, eliminate ingestion costs and keeping down operational costs."
       },
       {
         "icon": "/images/data-cloud/cloud-storage-icon.svg",
         "alt": "Cloud storage icon with data protection shield ",
+        "title":"Real-time Data Processing",
         "description": "Processes in real-time and drives data-driven decision-making, optimize inventory management, influence services, improve customer satisfaction, add trusted promotions and recommendations in real-time."
       },
       {
         "icon": "/images/data-cloud/network-connection-icon.svg",
         "alt": "Network connection icon with central node and linked points ",
+        "title":"Omnichannel Engagement",
         "description": "Build brand loyalty and trust by ensuring consistent experiences by managing data and service channels."
       },
       {
         "icon": "/images/data-cloud/document-checklist-icon.svg",
         "alt": "Document checklist icon with clipboard and checkmarks ",
+        "title":"Privacy and Compliance",
         "description": "Monitor transactions, protect third-party relationships and data usage, adhering to GDPR and CCPA."
       },
       {
         "icon": "/images/data-cloud/personalized-marketing-campaigns.svg",
         "alt": "Personalized Marketing Campaigns",
+        "title":"Personalized Marketing Campaigns",
         "description": "Leverage unified customer profiles to deliver tailored and timely 1:1 targeted campaigns, seamless and secure omnichannel interactions that drive conversion rates."
       }
     ],

@@ -532,7 +532,7 @@ export default function page() {
             {/* agent chat */}
             <AgentChat />
             {/* Contact Form */}
-            <div className="custom-container pb-10 xl:mt-[109px] xl:mb-[166px] mt-[50px] mb-[45px]">
+            <div className="custom-container pb-10 xl:mt-[109px]  mt-[50px] mb-[45px]">
                 <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubTitle2')} className={"xl:w-[70%] xl:font-light 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"} />
             </div >
         </section>
