@@ -1,8 +1,15 @@
 {
+    "searchForTitle": "Resultados de búsqueda para",
+    "sortBy": "Ordenar por",
+    "sortByRel": "Relevancia",
+    "sortByDate": "Fecha",
+    "yieldedTitle": "Arrojó",
+    "resultsTitle": "resultados",
+    "noResults": "No se encontraron resultados.",
     "solutionsPages": [
         {
             "id": 1,
-            "title": "Data Cloud: Aprovecha el Potencial de Salesforce Data Cloud",
+            "title": "Aprovecha el Potencial de Salesforce Data Cloud",
             "description": "Las empresas están inundadas de enormes volúmenes de datos provenientes de una creciente variedad de sistemas, fuentes y plataformas. La magnitud y diversidad de estos datos puede resultar abrumadora, obligando a las organizaciones a gestionar y navegar a través de innumerables registros a diario.",
             "url": "/solutions/data-ai/salesforce-data-cloud-consulting",
             "source": "Page",
@@ -26,8 +33,8 @@
         },
         {
             "id": 4,
-            "title": "Inclinándose hacia un mañana mejor.",
-            "description": "Lo que más importa es el esfuerzo. La consultoría de implementación de SAP con nosotros te ayuda a hacer crecer tu negocio exponencialmente y a limitar tus desafíos de forma tangencial. Entendemos tus requisitos y te ofrecemos justo lo que necesitas.",
+            "title": "Avanzando hacia un mejor mañana.",
+            "description": "Lo que más importa es el esfuerzo. La consultoría de implementación de SAP con nosotros te ayuda a hacer crecer tu negocio exponencialmente y reducir tus dificultades significativamente. Entendemos tus necesidades y te ofrecemos exactamente lo que necesitas.",
             "url": "/solutions/enterprise-platforms/sap-consulting-implementation-partners",
             "source": "Page",
             "date": null
@@ -74,8 +81,8 @@
         },
         {
             "id": 10,
-            "title": "En Rialtes, ayudamos a las empresas a aprovechar todo el poder de la plataforma UiPath de Automatización Robótica de Procesos (RPA) para automatizar procesos de extremo a extremo, reducir el esfuerzo manual, mejorar la precisión e impulsar un crecimiento escalable.",
-            "description": "Impulsando la Automatización de Próxima Generación para una Empresa Más Inteligente",
+            "title": "Impulsando la Automatización de Próxima Generación para una Empresa Más Inteligente",
+            "description": "En Rialtes, ayudamos a las empresas a aprovechar todo el poder de la plataforma UiPath de Automatización Robótica de Procesos (RPA) para automatizar procesos de extremo a extremo, reducir el esfuerzo manual, mejorar la precisión e impulsar un crecimiento escalable.",
             "url": "/solutions/process-automation/rpa-consulting-services-provider",
             "source": "Page",
             "date": null
@@ -85,6 +92,14 @@
             "title": "Eleva la Ingeniería de Calidad con los Servicios de Automatización de Pruebas Tosca de Rialtes",
             "description": "En Rialtes, ayudamos a las organizaciones a transformar su ciclo de pruebas con Tricentis Tosca, la principal plataforma de pruebas continuas de la industria. Con amplia experiencia y un equipo altamente certificado de expertos en Tosca, Rialtes ofrece soluciones de prueba inteligentes, escalables y resilientes que mejoran drásticamente la calidad, la velocidad y la eficiencia.",
             "url": "/solutions/quality-engineering-assurance/tosca-software-automation-testing",
+            "source": "Page",
+            "date": null
+        },
+        {
+            "id": 12,
+            "title": "Transforma la forma en que interactúas con tus clientes",
+            "description": "Rialtes es un socio de confianza en la comunidad de Salesforce. Sabemos cómo ir más allá de lo básico de Salesforce, personalizando y ampliando sus capacidades con nuestras soluciones de Salesforce. Contamos con un sistema dinámico basado en recursos para configurar la arquitectura en la nube sin inconvenientes y automatizar tus procesos empresariales.",
+            "url": "/solutions/quality-engineering-assurance/salesforce-consulting-partner-us-india",
             "source": "Page",
             "date": null
         }
@@ -167,6 +182,22 @@
             "title": "Desata el Poder de Salesforce con SalesforceAgent+",
             "description": "En Rialtes, vamos más allá del soporte tradicional de Salesforce. SalesforceAgent+ es nuestra oferta de Servicios Gestionados de próxima generación, diseñada para mantener tu plataforma Salesforce lista para el futuro, habilitada con IA y continuamente optimizada, con soporte global 24/7.",
             "url": "/services/application-services/salesforce-managed-services-provider-salesforceagentplus",
+            "source": "Page",
+            "date": null
+        },
+        {
+            "id": 11,
+            "title": "Transformando RRHH para la Empresa Moderna",
+            "description": "En Rialtes, creemos que RRHH está en el centro del éxito de toda organización. Nuestra suite ‘SuccessPlus’ de servicios SAP SuccessFactors está diseñada para ayudar a las organizaciones a transformar sus estrategias de gestión del capital humano (HCM), optimizar procesos de RRHH y brindar una experiencia excepcional al empleado.",
+            "url": "/services/hxm-transformation/successplus-successfactors-implementation-partner",
+            "source": "Page",
+            "date": null
+        },
+        {
+            "id": 12,
+            "title": "Transforma tu cadena de suministro con DemandPlus de Rialtes para Kinaxis RapidResponse",
+            "description": "En el volátil y complejo panorama actual de la cadena de suministro, las empresas necesitan visibilidad en tiempo real, planificación ágil e insights predictivos para mantenerse competitivas. Los servicios DemandPlus de Rialtes, basados en Kinaxis RapidResponse, ofrecen transformación integral de la cadena de suministro, permitiendo planificar, monitorear y responder en tiempo real.",
+            "url": "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services",
             "source": "Page",
             "date": null
         }

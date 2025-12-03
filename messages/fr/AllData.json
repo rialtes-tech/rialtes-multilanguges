@@ -1,8 +1,15 @@
 {
+    "searchForTitle": "Résultats de recherche pour",
+    "sortBy": "Trier par",
+    "sortByRel": "Pertinence",
+    "sortByDate": "Date",
+    "yieldedTitle": "A donné",
+    "resultsTitle": "résultats",
+    "noResults": "Aucun résultat trouvé.",
     "solutionsPages": [
         {
             "id": 1,
-            "title": "Data Cloud Exploitez le potentiel de Salesforce Data Cloud",
+            "title": "Exploitez le potentiel de Salesforce Data Cloud",
             "description": "Les entreprises sont inondées d'une quantité énorme de données provenant d'un nombre croissant de systèmes, sources et plateformes. L'ampleur et la diversité de ces données peuvent être écrasantes, laissant les organisations gérer et naviguer à travers d'innombrables enregistrements chaque jour.",
             "url": "/solutions/data-ai/salesforce-data-cloud-consulting",
             "source": "Page",
@@ -26,8 +33,8 @@
         },
         {
             "id": 4,
-            "title": "Vers un avenir meilleur",
-            "description": "Ce qui compte le plus, c'est l'effort. La consultation en mise en œuvre SAP avec nous vous aide à développer votre entreprise de manière exponentielle et à limiter vos difficultés. Nous comprenons vos besoins et vous offrons juste la bonne quantité de soutien.",
+            "title": "S’orienter vers un avenir meilleur.",
+            "description": "Ce qui compte le plus – c’est l’effort. Le conseil en mise en œuvre SAP avec nous vous aide à développer votre entreprise de manière exponentielle et à limiter vos difficultés de façon tangentielle. Nous comprenons vos besoins et vous offrons exactement ce dont vous avez besoin.",
             "url": "/solutions/enterprise-platforms/sap-consulting-implementation-partners",
             "source": "Page",
             "date": null
@@ -74,8 +81,8 @@
         },
         {
             "id": 10,
-            "title": "Chez Rialtes, nous aidons les entreprises à exploiter pleinement la plateforme Robotic Process Automation (RPA) de UiPath pour automatiser les processus, réduire l'effort manuel, améliorer la précision et stimuler la croissance évolutive.",
-            "description": "Conduire l'automatisation de nouvelle génération pour une entreprise plus intelligente",
+            "title": "Conduire l'automatisation de nouvelle génération pour une entreprise plus intelligente",
+            "description": "Chez Rialtes, nous aidons les entreprises à exploiter pleinement la plateforme Robotic Process Automation (RPA) de UiPath pour automatiser les processus, réduire l'effort manuel, améliorer la précision et stimuler la croissance évolutive.",
             "url": "/solutions/process-automation/rpa-consulting-services-provider",
             "source": "Page",
             "date": null
@@ -85,6 +92,14 @@
             "title": "Améliorez l'ingénierie de qualité avec les services d'automatisation Tosca de Rialtes",
             "description": "Chez Rialtes, nous aidons les organisations à transformer leur cycle de test avec Tricentis Tosca — la principale plateforme de test continu de l'industrie. Avec une expertise approfondie et une équipe d'experts Tosca hautement certifiés, Rialtes fournit des solutions de test évolutives, intelligentes et résilientes qui améliorent considérablement la qualité, la rapidité et l'efficacité.",
             "url": "/solutions/quality-engineering-assurance/tosca-software-automation-testing",
+            "source": "Page",
+            "date": null
+        },
+        {
+            "id": 12,
+            "title": "Transformez la manière dont vous interagissez avec vos clients",
+            "description": "Rialtes est un partenaire de confiance dans la communauté Salesforce. Nous savons aller au-delà des bases de Salesforce, en personnalisant et en étendant ses capacités avec nos solutions Salesforce. Nous disposons d’un système dynamique basé sur les ressources pour mettre en place une architecture cloud de manière fluide et automatiser vos processus métier.",
+            "url": "/solutions/quality-engineering-assurance/salesforce-consulting-partner-us-india",
             "source": "Page",
             "date": null
         }
@@ -167,6 +182,22 @@
             "title": "Libérez la puissance de Salesforce avec SalesforceAgent+",
             "description": "Chez Rialtes, nous allons au-delà du support Salesforce traditionnel. SalesforceAgent+ est notre offre de services gérés de nouvelle génération, conçue pour maintenir votre plateforme Salesforce prête pour l'avenir, activée par l'IA et continuellement optimisée — avec un support mondial 24/7, des solutions pilotées par l'IA comme Agentforce et une intégration transparente dans votre entreprise.",
             "url": "/services/application-services/salesforce-managed-services-provider-salesforceagentplus",
+            "source": "Page",
+            "date": null
+        },
+        {
+            "id": 11,
+            "title": "Transformer les RH pour l’entreprise moderne",
+            "description": "Chez Rialtes, nous croyons que les RH sont au cœur du succès de chaque organisation. Notre suite « SuccessPlus » de services SAP SuccessFactors est conçue pour aider les organisations à transformer leurs stratégies de gestion du capital humain (HCM), rationaliser les processus RH et offrir une expérience employé exceptionnelle.",
+            "url": "/services/hxm-transformation/successplus-successfactors-implementation-partner",
+            "source": "Page",
+            "date": null
+        },
+        {
+            "id": 12,
+            "title": "Transformez votre chaîne d'approvisionnement avec « DemandPlus » de Rialtes pour Kinaxis RapidResponse",
+            "description": "Dans le paysage actuel des chaînes d'approvisionnement, volatil et complexe, les entreprises ont besoin de visibilité en temps réel, de planification agile et d’analyses prédictives pour rester compétitives. Les services DemandPlus de Rialtes, construits autour de Kinaxis RapidResponse, offrent une transformation complète de la chaîne d'approvisionnement, permettant aux entreprises de planifier, surveiller et réagir aux dynamiques de la chaîne en temps réel.",
+            "url": "/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services",
             "source": "Page",
             "date": null
         }

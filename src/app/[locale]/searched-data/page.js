@@ -119,7 +119,7 @@ export default function page() {
         <section className="mb-20">
             <div className="custom-container">
                 <h2 className="font-semibold pt-10 text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
-                    Search results for : <span className="ml-2 text-black font-normal">{query}</span>
+                    Search results for: <span className="ml-2 text-black font-normal">{query}</span>
                 </h2>
                 <div className="sm:flex justify-between md:w-[74%]">
                     <p className="mt-5 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-normal leading-tight">Yielded {filtered.length} results</p>
@@ -166,6 +166,7 @@ export default function page() {
                                 <Link key={i} href={data.url}>
                                     <h3 className="mt-5 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] font-medium leading-tight text-[#0092E0]">{data?.source}</h3>
                                     <p className="mt-5 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] font-bold">{data.title}</p>
+                                    <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] text-gray-600 line-clamp-2">{data.url}</p>
                                     <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] text-gray-600 line-clamp-2">{data.description}</p>
                                 </Link>
                             </div>
