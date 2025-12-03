@@ -5,17 +5,17 @@ import Script from "next/script";
 import ContactForm from "../../components/contactform";
 import { useLocale, useTranslations } from "next-intl";
 import { useActiveLocale } from "../../components/activeLanguages";
-import enContent from '../../../../../messages/en/industry.json';
-import esContent from '../../../../../messages/es/industry.json';
-import frContent from '../../../../../messages/fr/industry.json';
+import enContent from '../../../../../messages/en/aboutus.json';
+import esContent from '../../../../../messages/es/aboutus.json'
+import frContent from '../../../../../messages/fr/aboutus.json'
 import { changeLocalization } from "../../components/changeLocalization";
 
 export default function Page() {
   const t = useTranslations('impact')
   const { frActive, esActive } = useActiveLocale();
-  const locale = useLocale();
-  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { schemaData } = content.impact;
+    const locale = useLocale();
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+     const {schemaData} = content.impact;
 
   return (
     <div className="min-h-screen bg-white">
