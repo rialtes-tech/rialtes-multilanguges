@@ -6,7 +6,11 @@ import arrowImg from "../../../../public/images/flags/arrow.png"
 import Image from "next/image";
 import leftArrow from '../../../../public/images/common-img/left-arrow.png'
 import rightArrow from '../../../../public/images/common-img/right-arrow.png'
-import { latestBlogs, latestCaseStudy, allWebinars, latestNews, solutionsPages, servicesPages, productsPages, industryPages, aboutUsPages, otherPages } from '../../../../messages/en/AllData.json'
+import { useLocale } from "next-intl";
+import enContent from '../../../../messages/en/AllData.json';
+import esContent from '../../../../messages/es/AllData.json';
+import frContent from '../../../../messages/fr/AllData.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 export default function page() {
     const searchParams = useSearchParams();
@@ -15,6 +19,9 @@ export default function page() {
     const [selectedOption, setSelectedOption] = useState("Relevance");
     const dropdownRef = useRef(null);
     const [currentPage, setCurrentPage] = useState(1);
+    const locale = useLocale();
+    const allDataJson = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { latestBlogs, latestCaseStudy, allWebinars, latestNews, solutionsPages, servicesPages, productsPages, industryPages, aboutUsPages, otherPages } = allDataJson;
 
     const allData = [
         servicesPages,
@@ -61,7 +68,7 @@ export default function page() {
         let added = false;
 
         for (let list of allData) {
-            const slice = list.slice(pointer, pointer + 1);
+            const slice = list?.slice(pointer, pointer + 1);
             if (slice.length > 0) {
                 mixed.push(...slice);
                 added = true;
@@ -73,8 +80,8 @@ export default function page() {
     }
 
     let filtered = mixed.filter((item) =>
-        item.url.toLowerCase().includes(query?.toLowerCase() || "") ||
-        item.title.toLowerCase().includes(query?.toLowerCase() || "")
+        item?.url?.toLowerCase().includes(query?.toLowerCase() || "") ||
+        item?.title?.toLowerCase().includes(query?.toLowerCase() || "")
         // item.description?.toLowerCase().includes(query?.toLowerCase() || "")
     );
 
@@ -101,7 +108,7 @@ export default function page() {
         });
     }
 
-// pagination
+    // pagination
     const itemsPerPage = 10
     const totalPages = Math.ceil(filtered.length / itemsPerPage)
     let startIndex = (currentPage - 1) * itemsPerPage

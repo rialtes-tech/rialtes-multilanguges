@@ -171,6 +171,32 @@
             "date": null
         }
     ],
+    "productsPages": [
+        {
+            "id": 1,
+            "title": "Engagez, assistez et concluez des transactions — tout via WhatsApp. Tout dans Salesforce.",
+            "description": "AgentChat est une application WhatsApp conversationnelle bidirectionnelle, intégrée nativement à Salesforce. Elle permet à vos équipes de se connecter instantanément avec les clients, de gérer les conversations efficacement et d’automatiser les flux de travail — le tout sans quitter Salesforce.",
+            "url": "/products/agentchat",
+            "source": "Page",
+            "date": null
+        },
+        {
+            "id": 2,
+            "title": "Redéfinir le parcours numérique du patient pour l’industrie des sciences de la vie",
+            "description": "MediAIna est le logiciel de parcours patient nouvelle génération de Rialtes, conçu pour transformer l’expérience de soins. Il unifie les points de contact cliniques, opérationnels et numériques entre prestataires, payeurs, MedTech et entreprises des sciences de la vie.",
+            "url": "/products/mediaina-reimagining-patient-journeys",
+            "source": "Page",
+            "date": null
+        },
+        {
+            "id": 3,
+            "title": "Propulser l’entreprise immobilière moderne",
+            "description": "Exelona, la plateforme cloud intelligente dédiée à l’immobilier, unifie chaque étape du cycle de vie des propriétés — de la génération de leads à la clôture financière. Conçue pour les gestionnaires immobiliers, promoteurs et propriétaires de portefeuilles, Exelona offre automatisation pilotée par l’IA, expériences mobile-first et convergence CRM + ERP sur une seule plateforme.",
+            "url": "/products/exelona-salesforce-for-real-estate-management",
+            "source": "Page",
+            "date": null
+        }
+    ],
     "industryPages": [
         {
             "id": 1,
