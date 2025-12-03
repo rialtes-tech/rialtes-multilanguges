@@ -533,7 +533,7 @@ const SapAribaSection = () => {
     return (
         <>
             <section className="custom-container max-md:px-0 md:!pr-0 xl:mt-[240px] mt-[94px]">
-                <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] text-[26px] font-light px-[36px] md:px-0">
+                <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] text-[26px] font-light px-[36px] md:px-0 leading-tight">
                     End-to-End Integration — <div className="sm:block hidden" /> Real-Time Data Unification
                 </h2>
                 <div>
@@ -1017,7 +1017,7 @@ export default function () {
             <GlobalPresenceSection />
             {/* Contact Form */}
             <div className="custom-container text-[#000000] pb-10  max-[460px]:mt-[540px] mt-[400px] sm:mt-[460px] md:mt-[400px] lg:mt-[80px] xl:mt-[90px]">
-                <ContactForm title={'Ready to Transform Your Data Landscape?'} subtitle={"Rialtes is here to guide you on every step of your AI and data consolidation journey — from strategy to execution to AI insights that create real business value. "} subtitle1={"Contact us today for a personalized consultation and see how SAP Datasphere can redefine your enterprise!"} className={"xl:w-[70%] xl:font-normal 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight mt-[52px] xl:mt-[89px]"} />
+                <ContactForm title={'Ready to Transform Your Data Landscape?'} subtitle={"Rialtes is here to guide you on every step of your AI and data consolidation journey — from strategy to execution to AI insights that create real business value. "} subtitle1={"Contact us today for a personalized consultation and see how SAP Datasphere can redefine your enterprise!"} className={"xl:w-[70%] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight mt-[52px] xl:mt-[89px]"} />
             </div >
         </>
     )

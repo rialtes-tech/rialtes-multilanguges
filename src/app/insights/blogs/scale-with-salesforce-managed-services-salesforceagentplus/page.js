@@ -6,9 +6,6 @@ import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 import BlogSocialIcons from '@/app/components/blogSocialIcons'
-import UnorderedList from "@/app/components/unorderedList";
-import Link from "next/link";
-
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/scale-with-salesforce-managed-services-salesforceagentplus";
     const currUrl = useUrl()
