@@ -56,11 +56,23 @@ const allCategories = [
   "SAP Joule",
   "SAP Signavio",
   "SAP SuccessFactors",
+  "Managed Services",
   "Others"
 ];
 
 const latestBlogs = [
-   {
+  {
+    "id": 60,
+    "image": "/images/blog/patient-consultation-genomics-mobile.webp",
+    "category": "MediAina",
+    "industry": "Life Sciences",
+    "date": "Dec. 03, 2025",
+    "url": "/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/",
+    "title": "Why Clinical Trial Dropouts Happen — And How Digital Engagement Prevents Them",
+    "alt": "Nurse showing medical information to a patient with a headscarf beside a digital DNA graphic.",
+    "description": "Every clinical trial begins with optimism. Researchers design protocols with precision, investigators prepare sites, and patients sign up with real hope for better outcomes. But somewhere along the journey, many participants quietly step away."
+  },
+  {
     id: 59,
     image: "/images/blog/salesforce-managed-services-salesforceagent-plus-feature-thumb.webp",
     category: "Managed Services ",
@@ -71,7 +83,7 @@ const latestBlogs = [
     title: "Salesforce Managed Services: The Secret to Scaling Revenue, Not Just Maintaining CRM",
     description: "Most companies invest heavily in Salesforce, yet only a fraction unlock its real business value.",
   },
-   {
+  {
     "id": 57,
     "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
     "category": "SAP SuccessFactor",
@@ -79,7 +91,7 @@ const latestBlogs = [
     "date": "Nov. 27, 2025",
     "url": "/sap-successfactors-services-hr-transformation/",
     "title": "How SAP SuccessFactors Services Leverage Data & AI to Transform Modern HR",
-    "alt" : "Futuristic holographic data screens with code representing SAP SuccessFactors AI and data transforming modern HR",
+    "alt": "Futuristic holographic data screens with code representing SAP SuccessFactors AI and data transforming modern HR",
     "description": "In 2025, a quiet revolution is transforming the way HR operates. The field of HR is evolving continuously. Expectations have changed, not in the sensational ways that make headlines each week, but through a more subtle, systemic shift."
   },
   {
@@ -701,7 +713,7 @@ const FeaturedCarousel = () => {
       date: "Jun. 16, 2025",
       url: '/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/',
       title: "Why SAP Signavio is Critical for a Successful S/4HANA Implementation",
-      alt:"SAP Signavio graphic representing digital transformation and process visibility",
+      alt: "SAP Signavio graphic representing digital transformation and process visibility",
       description: "Organizations are at a stage where they must modernize their ERP systems, streamline operations, and harness real-time insights. SAP S/4HANA has become the digital core for businesses aiming to achieve this transformation.",
     },
     {
@@ -712,7 +724,7 @@ const FeaturedCarousel = () => {
       date: "Sep. 30, 2025",
       url: '/digital-patient-journeys-ai-healthcare-life-sciences/',
       title: "The Future of Digital Patient Journeys: How AI is Reshaping Life Sciences",
-      alt:"AI-enhanced patient journey flowchart showing diagnosis, therapy steps, and follow-up",
+      alt: "AI-enhanced patient journey flowchart showing diagnosis, therapy steps, and follow-up",
       description: "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals. They want personalized, continuous care that mirrors the convenience of other industries.",
     },
     {
@@ -723,7 +735,7 @@ const FeaturedCarousel = () => {
       date: "March 25, 2025",
       url: '/s4hana-transformation-with-sap-signavio-cloud-alm/',
       title: "SAP Signavio + SAP Cloud ALM: Driving Governance, Traceability, and KPI Tracking in S/4HANA Transformations",
-      alt:"SAP Signavio and Cloud ALM interface showing process tools for transformation",
+      alt: "SAP Signavio and Cloud ALM interface showing process tools for transformation",
       description: "Digital transformation programs such as an SAP S/4HANA implementation are not simply IT projects but complex business reinvention initiatives that touch every process, role, and technology in the enterprise. For such large-scale transformations, two critical success factors stand out.",
     },
     {
@@ -734,7 +746,7 @@ const FeaturedCarousel = () => {
       date: "Oct. 20, 2025",
       url: "/conversational-ai-in-real-estate-scale-resident-support/",
       title: "Conversational AI in Real Estate: Scale Resident Support Without Adding Staff",
-      alt:"AI chatbot interface supporting real estate teams with automated responses and tenant assistance",
+      alt: "AI chatbot interface supporting real estate teams with automated responses and tenant assistance",
       description: "Resident support in property management is getting harder to scale. Between maintenance requests, rent inquiries, amenity bookings, and move-in/move-out coordination, teams often stretch themselves thin. The problem isn’t that property managers don’t care; resident expectations have changed."
     },
   ];
@@ -930,26 +942,26 @@ const BlogList = () => {
   const filteredBlogsByCategory = selectedCategory === 'All' ? filteredBlogs : filteredBlogs.filter(blog => blog.category === selectedCategory);
 
   const isLoadMoreVisible = visibleBlogs < filteredBlogsByCategory.length;
- 
+
   const industryRef = useRef(null);
   const categoryRef = useRef(null);
   useEffect(() => {
-  const handleClickOutside = (event) => {
-    if (industryRef.current && !industryRef.current.contains(event.target)) {
-      setShowOptionsIndustry(false);
-    }
+    const handleClickOutside = (event) => {
+      if (industryRef.current && !industryRef.current.contains(event.target)) {
+        setShowOptionsIndustry(false);
+      }
 
-    if (categoryRef.current && !categoryRef.current.contains(event.target)) {
-      setShowOptionsCategory(false);
-    }
-  };
+      if (categoryRef.current && !categoryRef.current.contains(event.target)) {
+        setShowOptionsCategory(false);
+      }
+    };
 
-  document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
 
-  return () => {
-    document.removeEventListener("mousedown", handleClickOutside);
-  };
-}, []);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className=" ">

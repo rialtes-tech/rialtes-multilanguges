@@ -10,6 +10,17 @@ export default function page({ url }) {
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
         {
+            "id": 60,
+            "image": "/images/blog/patient-consultation-genomics-mobile.webp",
+            "category": "MediAina",
+            "industry": "Life Sciences",
+            "date": "Dec. 03, 2025",
+            "url": "/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/",
+            "title": "Why Clinical Trial Dropouts Happen — And How Digital Engagement Prevents Them",
+            "alt": "Nurse showing medical information to a patient with a headscarf beside a digital DNA graphic.",
+            "description": "Every clinical trial begins with optimism. Researchers design protocols with precision, investigators prepare sites, and patients sign up with real hope for better outcomes. But somewhere along the journey, many participants quietly step away."
+        },
+        {
             id: 59,
             image: "/images/blog/salesforce-managed-services-salesforceagent-plus-feature-thumb.webp",
             category: "Managed Services ",
@@ -20,7 +31,7 @@ export default function page({ url }) {
             alt: "Colorful fiber optic waves representing Salesforce managed services scaling revenue beyond CRM maintenance",
             description: "Most companies invest heavily in Salesforce, yet only a fraction unlock its real business value.",
         },
-         {
+        {
             "id": 57,
             "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
             "category": "SAP SuccessFactor",
@@ -28,7 +39,7 @@ export default function page({ url }) {
             "date": "Nov. 27, 2025",
             "url": "/sap-successfactors-services-hr-transformation/",
             "title": "How SAP SuccessFactors Services Leverage Data & AI to Transform Modern HR",
-            "alt" : "Futuristic holographic data screens with code representing SAP SuccessFactors AI and data transforming modern HR",
+            "alt": "Futuristic holographic data screens with code representing SAP SuccessFactors AI and data transforming modern HR",
             "description": "In 2025, a quiet revolution is transforming the way HR operates. The field of HR is evolving continuously. Expectations have changed, not in the sensational ways that make headlines each week, but through a more subtle, systemic shift."
         },
         {
