@@ -296,7 +296,7 @@ export default function DataCloud() {
                       />
                     </div>
                   </div>
-                  <h3 className="text-[#1F3F69] mt-2 4xl:text-[30px] xl:text-[24px] text-[20px]">{feature.title}</h3>
+                  <h3 className="text-[#1F3F69] mt-2 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">{feature.title}</h3>
                 </div>
                 <p className="text-[#000000] mt-2 4xl:text-[22px] xl:text-[18px] text-[16px]">{feature.description}</p>
               </div>

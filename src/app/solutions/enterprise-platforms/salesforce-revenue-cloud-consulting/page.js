@@ -332,7 +332,7 @@ export default function HealthCloud() {
                 </div>
             </section>
             <section className="bg-[#F5F5F5] py-20 ">
-                <div className="custom-container">
+                <div className="custom-container xl:pr-0">
                     <FeaturedCarousel />
                 </div>
             </section>
