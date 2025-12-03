@@ -224,6 +224,17 @@
     ],
     "latestBlogs": [
       {
+         "id": 60,
+        "image": "/images/blog/salesforce-managed-services-salesforceagent-plus-mobile.webp",
+        "category": "Services Gérés",
+        "industry": "Générique",
+        "date": "Dec. 02, 2025",
+        "alt": "Vagues fibre optique colorées représentant services gérés Salesforce augmentant revenus au-delà maintenance CRM",
+        "url": "/scale-with-salesforce-managed-services-salesforceagentplus/",
+        "title": "Services Gérés Salesforce : Le secret pour augmenter les revenus, et pas seulement maintenir le CRM",
+        "description": "La plupart des entreprises investissent massivement dans Salesforce, mais seules quelques-unes exploitent réellement sa vraie valeur commerciale."
+      },
+      {
         "id": 59,
         "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
         "category": "SAP SuccessFactors",

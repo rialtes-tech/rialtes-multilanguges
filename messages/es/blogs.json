@@ -359,7 +359,7 @@
         ]
     },
     "aiRealEstate": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Ilustración de edificio con sensores de IA que predicen necesidades de mantenimiento mediante análisis en tiempo real. ",
         "blogMainData": [
             "Aquí está la verdad sobre las operaciones inmobiliarias: siempre han sido un acto de equilibrio entre costo, comodidad y continuidad. El desafío es que la mayoría de los modelos de mantenimiento aún son reactivos. Los equipos reparan lo que se rompe, se apresuran a responder a las quejas de los inquilinos y observan cómo los gastos operativos aumentan año tras año.",
@@ -5200,7 +5200,7 @@
         "faqTitle": "FAQs: Agentforce en la predicción y prevención de tiempos de inactividad en la fabricación Industria 4.0"
     },
     "sapBuild": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Interfaz de fábrica inteligente con herramientas de automatización low-code de y maquinaria conectada ",
         "seoTitle": "SAP Build para Manufactura: Reduce Paros un 30%",
         "seoDescription": "SAP Build acelera la innovación, reduce tiempos muertos y empodera equipos con apps de bajo código y automatización.",
@@ -5489,7 +5489,7 @@
         "faqTitle": "Preguntas frecuentes (FAQ)"
     },
     "agentforceHitech": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Agentforce AI integrado con ERP para automatizar tareas y mejorar la eficiencia operativa",
         "seoTitle": "Cómo Agentforce IA Transforma ERP con Automatización",
         "seoDescription": "Agentforce analiza datos de ERP y SCM para ofrecer insights predictivos que mejoran decisiones y aumentan la productividad en industrias.",
@@ -5596,7 +5596,7 @@
         "faqTitle": "FAQ: Preguntas frecuentes"
     },
     "fiveSigns": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Planta inteligente con brazos robóticos e interfaz de IA que impulsa automatización predictiva y producción eficiente. ",
         "seoTitle": "Agentes de IA en Manufactura: 5 Señales de que Estás Listo",
         "seoDescription": "Los agentes de IA no son solo una herramienta: transforman cómo se trabaja, deciden y resuelven problemas en la manufactura actual.",
@@ -5680,7 +5680,7 @@
         "faqTitle": "FAQs: Implementar agentes de IA en sus operaciones de fabricación"
     },
     "connectedCore": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Red que conecta proveedores de salud, sistemas farmacéuticos y dispositivos MedTech para una atención unificada. ",
         "seoTitle": "Ecosistemas de Atención Conectada: Futuro en Pharma y MedTech",
         "seoDescription": "Descubre cómo un ecosistema conectado ayuda a Pharma y MedTech con alertas predictivas, atención crónica y monitoreo remoto.",
@@ -5843,7 +5843,7 @@
         "faqTitle": "FAQs : Importancia de los ecosistemas de atención conectada para la industria farmacéutica y la tecnología médica"
     },
     "digitalJourney": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Línea de tiempo del recorrido del paciente con IA que muestra diagnóstico, etapas de tratamiento y seguimiento médico. ",
         "digiTitle": "Transformando la atención sanitaria, un viaje a la vez",
         "seoTitle": "Viajes Digitales del Paciente: Futuro de la IA en Salud",
@@ -6088,7 +6088,7 @@
         "faqTitle": "Preguntas Frecuentes: La Importancia de los Ecosistemas de Atención Conectada para la Industria Farmacéutica y MedTech"
     },
     "patientExperience": {
-        "schemaData" :{},
+        "schemaData": {},
         "seoTitle": "Plataforma de experiencia del paciente a largo plazo | Rialtes",
         "seoDescription": "Descubre cómo MediAIna redefine la experiencia del paciente con IA, participación digital y apoyo en cuidados crónicos.",
         "bannerAlt": "Paciente consultando datos de salud en una tableta con iconos de diagnóstico, tratamiento y atención a largo plazo",
@@ -6232,7 +6232,7 @@
         "faqTitle": "FAQs: Transforma la Atención con la Plataforma de Experiencia del Paciente"
     },
     "salesforcePartners": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Banner abstracto que muestra el crecimiento empresarial y la transformación digital impulsada por Salesforce",
         "salesforceTitle": "Cómo los principales socios de Salesforce ayudan a las empresas a prosperar e innovar",
         "blogTopic": "Salesforce Agentforce",
@@ -6435,7 +6435,7 @@
         "seoDescription": "Los mejores socios Salesforce impulsan la innovación y el crecimiento alineando la tecnología con los objetivos del negocio."
     },
     "salesforceDevelopment": {
-        "schemaData" :{},
+        "schemaData": {},
         "seoTitle": "Servicios Salesforce para el éxito empresarial | Rialtes",
         "seoDescription": "Descubre cómo el desarrollo personalizado de Salesforce impulsa la eficiencia del CRM y por qué elegir al socio adecuado es clave.",
         "bannerAlt": "Panel de Salesforce CRM con análisis, métricas de actividad del usuario y flujos de trabajo automatizados.",
@@ -6628,7 +6628,7 @@
         "strategiesDesc2": "Estas estrategias ayudan a las empresas no solo a reducir el riesgo del proyecto de Salesforce, sino también a maximizar el ROI."
     },
     "salesforceImplementation": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Equipo revisando la hoja de ruta de implementación de Salesforce con visuales de integración en la nube",
         "blogMainData": [
             "Salesforce es la plataforma CRM líder en el mundo, que impulsa a las empresas de todos los sectores a gestionar mejor a los clientes, los datos y los procesos. Pero aquí está el detalle: el éxito con Salesforce no está garantizado simplemente con comprar licencias. La implementación es donde muchos proyectos fallan. Los retrasos, la ampliación del alcance o la baja adopción pueden convertir lo que debería ser un motor de crecimiento en una inversión perdida.",
@@ -8138,7 +8138,7 @@
         "faqTitle": "Preguntas frecuentes: Cómo mejorar la inscripción de pacientes en ensayos clínicos de enfermedades raras usando IA"
     },
     "digitalInnovationBlog": {
-        "schemaData" :{},
+        "schemaData": {},
         "bannerAlt": "Doctor interactuando con datos médicos holográficos y visuales de salud 3D en laboratorio digital futurista",
         "seoTitle": "Innovación digital para una gestión más inteligente de los ensayos clínicos",
         "seoDescription": "La innovación digital está transformando la investigación clínica, ya que la IA, la automatización y los ecosistemas conectados redefinen la ejecución de los ensayos clínicos digitales.",
@@ -8448,5 +8448,219 @@
         "bannerAlt": "Una interfaz digital futurista que muestra paneles de datos y una mano virtual tocando un punto luminoso en una superficie tecnológica",
         "blogTitle": "Cómo los servicios de SAP SuccessFactors aprovechan los datos y la IA para transformar el RR. HH. moderno",
         "faqTitle": "Preguntas frecuentes: Aprovecha los datos y la IA para mejorar el RR. HH. moderno con SAP SuccessFactors"
+    },
+    "salesforceManaged": {
+        "salesforceManagedTitle": "Servicios Gestionados de Salesforce: El secreto para escalar los ingresos, no solo mantener el CRM",
+        "salesforceManaged": [
+            "La mayoría de las empresas invierten fuertemente en Salesforce, pero solo una fracción aprovecha su verdadero valor comercial. La plataforma es poderosa, pero sin una optimización continua, automatización, mejora de datos y conocimientos impulsados por IA, se convierte silenciosamente en un CRM subutilizado en lugar de un motor de ingresos.",
+            "Aquí es donde los Servicios Gestionados de Salesforce marcan una verdadera diferencia, no como un “soporte externo”, sino como un catalizador del crecimiento de los ingresos. Lo que realmente significa es simple. Salesforce no transforma el negocio el primer día. Transforma el negocio cada día que se mejora."
+        ],
+        "blogTopic": "Servicios Gestionados",
+        "managedServicesTitle": "Por qué los Servicios Gestionados de Salesforce importan más que nunca",
+        "salesforceBusinessTitle": "Salesforce está cambiando rápidamente y las empresas deben mantenerse al día",
+        "salesforceBusiness": [
+            "Salesforce evoluciona constantemente con nuevos lanzamientos de IA, funciones, modelos de seguridad, API actualizadas, opciones de automatización y modelos de datos reinventados. Sin embargo, los equipos internos a menudo se sienten abrumados, gestionando operaciones diarias, manejando solicitudes de mejoras, solucionando errores y lanzando nuevas funciones. Como resultado, la innovación suele quedar en segundo plano.",
+            "Los Servicios Gestionados pueden cerrar esta brecha asegurando que Salesforce se mantenga alineado con las necesidades del negocio sin los retrasos asociados a los 'ciclos de presupuesto' o a los 'grandes proyectos de actualización'."
+        ],
+        "revenueGrowthTitle": "El crecimiento de los ingresos depende de la mejora continua del CRM",
+        "revenueMetrics": "Cada métrica de ingresos está vinculada al rendimiento del CRM:",
+        "salesforceFuel": "Los Servicios Gestionados de Salesforce alimentan ese sistema todos los días.",
+        "revenueGrowth": [
+            "La conversión de leads depende de flujos de trabajo más rápidos y datos relevantes",
+            "La velocidad de ventas depende de la automatización y la priorización basada en IA",
+            "La probabilidad de renovación depende de una sólida visibilidad del cliente",
+            "El éxito de ventas adicionales depende de la segmentación y los insights"
+        ],
+        "statePropertyTitle": "El estado de las operaciones inmobiliarias: demasiadas tareas, muy poco tiempo",
+        "statePropertyPara1": "Los Servicios Gestionados de Salesforce son una asociación continua que proporciona experiencia dedicada para optimizar Salesforce de forma constante, implementar nuevas capacidades, gestionar integraciones, automatizar procesos y capturar oportunidades de ingresos sin ampliar los equipos internos de TI.",
+        "statePropertyPara2": "En otras palabras:",
+        "statePropertyPara3": "En lugar de usar Salesforce “tal como está”, los Servicios Gestionados lo mejoran mes tras mes según los objetivos del negocio.",
+        "salesforceIncludeTitle": "Lo que realmente incluyen los Servicios Gestionados de Salesforce",
+        "salesforceManagedSections": [
+            {
+                "number": "1",
+                "title": "Operaciones diarias sin cuellos de botella",
+                "items": [
+                    {
+                        "heading": "Procure-to-Pay (P2P)",
+                        "description": "Nuevos campos personalizados, diseños de página, roles de usuario, flujos de trabajo, reglas de validación, paneles y jerarquías de aprobación — gestionados sin esperar meses."
+                    },
+                    {
+                        "heading": "Productividad basada en IA y automatización",
+                        "description": "Diseño y despliegue de automatizaciones, flujos y recomendaciones de Einstein para mejorar la velocidad de venta y reducir el trabajo manual."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "title": "Optimización de Salesforce centrada en los ingresos",
+                "items": [
+                    {
+                        "heading": "Optimización de Sales Cloud y CPQ",
+                        "description": "Mejores ciclos de cotización, reglas de precios, estrategias de descuento, configuración de productos y automatización de renovaciones."
+                    },
+                    {
+                        "heading": "Eficiencia en Service Cloud",
+                        "description": "Enrutamiento inteligente, resolución de casos, gestión del conocimiento, disparadores basados en SLA y previsión de la fuerza laboral."
+                    },
+                    {
+                        "heading": "Alineación de Data Cloud y Marketing Cloud",
+                        "description": "Perfiles unificados de clientes, segmentación en tiempo real, campañas dirigidas y flujos de activación en múltiples canales."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "title": "Datos, Integración y Gobernanza para información confiable",
+                "items": [
+                    {
+                        "heading": "Gestión de Integración de Extremo a Extremo",
+                        "description": "Salesforce con ERP, sistemas de facturación, soporte y aplicaciones externas — implementado y monitoreado continuamente."
+                    },
+                    {
+                        "heading": "Calidad y Seguridad de Datos",
+                        "description": "Acceso basado en roles, limpieza de datos, desduplicación, gobernanza lista para cumplimiento y auditorías periódicas."
+                    },
+                    {
+                        "heading": "Analítica para decisiones que importan",
+                        "description": "Paneles de Tableau y CRM Analytics para pronósticos, salud del pipeline, factores de ganancia/pérdida y resultados de éxito del cliente."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "title": "Innovación impulsada por IA",
+                "text": "La IA ahora es central en Salesforce, no opcional. Los Servicios Gestionados garantizan que no te quedes atrás.",
+                "items": [
+                    {
+                        "heading": "Einstein AI para Ventas y Servicio",
+                        "description": "Puntuación predictiva de leads, insights de oportunidades, probabilidad de abandono, análisis de sentimiento y recomendaciones automáticas de próximos pasos."
+                    },
+                    {
+                        "heading": "Agentforce y Agentes Autónomos",
+                        "description": "Implementación de agentes impulsados por IA para automatizar operaciones de servicio al cliente, flujos de resolución de casos, entrada de datos y triaje."
+                    },
+                    {
+                        "heading": "Inteligencia Proactiva de Oportunidades",
+                        "description": "La IA detecta oportunidades de ingresos que tu equipo podría pasar por alto y prioriza acciones de alto impacto."
+                    }
+                ]
+            }
+        ],
+        "internalSalesforceTitle": "Servicios Gestionados vs Contratación Interna de Salesforce: La Realidad",
+        "internalSalesforceheading1": "Requisito",
+        "internalSalesforceheading2": "Contratación Interna",
+        "internalSalesforceheading3": "Servicios Gestionados",
+        "tableData": [
+            {
+                "requirement": "Administrador + BA + Arquitecto + Desarrollador + Especialista en IA",
+                "internal": "Costoso",
+                "managed": "Incluido"
+            },
+            {
+                "requirement": "Tiempo para incorporar a todo el equipo",
+                "internal": "3–9 meses",
+                "managed": "Cero"
+            },
+            {
+                "requirement": "Experiencia en múltiples nubes y IA",
+                "internal": "Limitada",
+                "managed": "De amplio espectro"
+            },
+            {
+                "requirement": "Escalabilidad",
+                "internal": "Difícil",
+                "managed": "Flexible"
+            },
+            {
+                "requirement": "Eficiencia de costos",
+                "internal": "Baja",
+                "managed": "Alta"
+            }
+        ],
+        "businessImpactTitle": "Cuándo las empresas ven el mayor impacto",
+        "businessImpactPara": "Verás que los servicios gestionados transforman Salesforce más rápido cuando:",
+        "businessImpactPara2": "Para muchas organizaciones, Salesforce no es un caso perdido, solo está rindiendo por debajo en este momento.",
+        "businessBiggestImpact": [
+            "Los ciclos de ventas son lentos o impredecibles",
+            "El trabajo manual bloquea la escalabilidad",
+            "Los informes existen pero no impulsan decisiones",
+            "Las escalaciones de servicio al cliente están aumentando",
+            "Las integraciones fallan durante picos de volumen",
+            "El CRM es técnicamente estable, pero el valor comercial está estancado"
+        ],
+        "salesforceProjectTitle": "Salesforce no es un proyecto de una sola vez; es un motor de ingresos",
+        "salesforceProjectPara1": "Las empresas que escalan más rápido no tratan Salesforce como software. Lo tratan como el núcleo operativo de los ingresos: en mejora constante, continuamente automatizado y siempre alineado con la estrategia.",
+        "salesforceProjectPara2": "Y ahí es donde SalesforceAgent+ hace su magia.",
+        "discoverAgenticTitle": " Descubre las capacidades agenticas de Agentforce",
+        "discoverAgenticPara": "Descubre cómo tus equipos pueden dirigir cada interacción con el cliente usando datos, IA y automatización — desde el lead hasta la fidelidad, todo dentro de una plataforma conectada.",
+        "watchButton": " Ver el seminario web",
+        "discoverAgenticPara2": "SalesforceAgent+ ofrece Servicios Gestionados impulsados por IA diseñados específicamente para acelerar los resultados comerciales, no solo el mantenimiento del CRM. Desde automatización e integraciones hasta analítica, activación de Data Cloud y agentes de IA — el modelo garantiza que Salesforce se vuelva más inteligente mes tras mes.",
+        "discoverAgenticPara3": "En lugar de planificar “grandes renovaciones de CRM” cada dos años, obtienes crecimiento continuo, mejor adopción, ventas más rápidas y mayor valor de vida del cliente — sin aumentar la carga de trabajo interna.",
+        "discoverAgenticPara4": "Si Salesforce ya es central para tu negocio, SalesforceAgent+ asegura que también se vuelva central para tu éxito.",
+        "faqTitle": "Preguntas frecuentes: Escala los ingresos de tu empresa con los Servicios Gestionados de Salesforce",
+        "faqs": [
+            {
+                "question": "¿Qué son los servicios gestionados en Salesforce? (¿Qué son exactamente los servicios gestionados?)",
+                "answer": "Los servicios gestionados en Salesforce se refieren a un soporte experto continuo que ayuda a las empresas a optimizar su CRM de forma constante en lugar de solo mantenerlo. En lugar de gestionar todo internamente, las compañías se asocian con especialistas certificados en Salesforce que mejoran proactivamente los flujos de trabajo, solucionan problemas, introducen nuevas funciones, analizan datos y alinean Salesforce con los objetivos empresariales en evolución. No es un soporte de tipo break-fix — es un habilitador de crecimiento continuo."
+            },
+            {
+                "question": "¿Cuáles son los beneficios de los servicios gestionados de Salesforce?",
+                "answer": [
+                    "Los servicios gestionados de Salesforce ayudan a las empresas a obtener más valor de su inversión en CRM mediante:",
+                    [
+                        "Mejorar la adopción del usuario y la productividad",
+                        "Automatizar los flujos de trabajo de ventas, marketing y servicio",
+                        "Reducir la dependencia de los equipos técnicos internos",
+                        "Disminuir el costo de los roles internos de administradores y desarrolladores a tiempo completo",
+                        "Acelerar la innovación con IA, analítica y automatización",
+                        "Garantizar seguridad, cumplimiento y datos limpios. Con el tiempo, esto conduce a mayores ingresos, decisiones más rápidas y un CRM que evoluciona a medida que la empresa escala."
+                    ]
+                ]
+            },
+            {
+                "question": "¿Cuáles son ejemplos de servicios gestionados?",
+                "answer": [
+                    "Ejemplos incluyen:",
+                    [
+                        "Administración y mejoras de Salesforce",
+                        "Automatización de procesos de leads, oportunidades y servicio",
+                        "Integración con ERPs y aplicaciones de terceros",
+                        "Habilitación de IA y analítica utilizando Data Cloud y Tableau",
+                        "Gestión de versiones y habilitación de nuevas funciones",
+                        "Calidad y gobernanza de datos",
+                        "Consultoría y planificación de roadmap basada en objetivos empresariales"
+                    ]
+                ]
+            },
+            {
+                "question": "¿Cuál es la diferencia entre SaaS y los servicios gestionados?",
+                "answer": [
+                    "SaaS (Software como Servicio) brinda acceso a software — como Salesforce mediante suscripción. Los servicios gestionados, en cambio, proporcionan la experiencia necesaria para optimizar continuamente ese software.",
+                    "En resumen:",
+                    [
+                        "SaaS = la plataforma",
+                        "Servicios gestionados = el equipo que garantiza que la plataforma funcione a su máximo potencial. Porque el software por sí solo no impulsa la transformación; lo que importa es qué tan eficazmente está configurado, adoptado y optimizado."
+                    ]
+                ]
+            },
+            {
+                "question": "¿Cómo elegir un proveedor de servicios gestionados de Salesforce para tu industria?",
+                "answer": [
+                    "Busca un proveedor que cumpla con todos estos puntos:",
+                    [
+                        "Experiencia comprobada en tu industria y en la nube de Salesforce relevante para tu negocio",
+                        "Capacidad para soportar tanto el CRM principal como capacidades avanzadas impulsadas por IA",
+                        "Acceso a consultores certificados en lugar de equipos de soporte genéricos",
+                        "Modelos de compromiso flexibles que se adapten a las necesidades del negocio",
+                        "Un enfoque de innovación continua en lugar de un servicio basado en tickets",
+                        "Prácticas sólidas de gobernanza y seguridad, no solo habilidades de desarrollo"
+                    ]
+                ]
+            }
+        ],
+        "seoTitle": "Servicios Gestionados de Salesforce: Cómo SalesforceAgent+ Impulsa el Crecimiento",
+        "seoDescription": "SalesforceAgent+ ofrece Servicios Gestionados impulsados por IA para Salesforce diseñados para acelerar los resultados empresariales, no solo el mantenimiento del CRM.",
+        "bannerAlt" : "Líneas fibra óptica fluidas coloridas con puntos brillantes representando flujo de datos conectividad red tecnología digital"
     }
 }
