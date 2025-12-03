@@ -223,7 +223,7 @@ export default function Page() {
               <h3 className="4xl:text-[30px] xl:text-[24px] text-[22px] leading-tight font-bold">{t('rialtesSapMigratingTitle')}</h3>
               <UnorderedList arrName={rialtesSapData} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight " />
               <div className="xl:mt-3">
-                <LearnMore btnName={t('learnMoreBtn')} />
+                <LearnMore btnName={t('learnMoreBtn')} textColor="#134874" bgcolor="#ffffff" />
               </div>
             </div>
           </div>

@@ -22,6 +22,7 @@
     "seoDescription": "AgentChat relie WhatsApp à Salesforce, brise les silos et améliore la collaboration pour un engagement client renforcé et un meilleur ROI.",
     "headerSubTitle": "AgentChat :",
     "learnMoreBtn": "En savoir plus",
+    "khownMoreBtn": "En savoir plus",
     "headerOne": " Conversations WhatsApp fluides dans Salesforce",
     "engageHeader": "Engagez, soutenez et concluez des affaires — tout via WhatsApp. Tout dans Salesforce.",
     "engageDescOne": "AgentChat est une application conversationnelle WhatsApp bidirectionnelle, développée nativement sur Salesforce, permettant à vos équipes de se connecter instantanément avec les clients, de gérer efficacement les conversations et d’automatiser les flux de travail — sans jamais quitter Salesforce.",
@@ -455,8 +456,8 @@
           "Réduction des coûts de contact et meilleur retour sur investissement.",
           "Meilleur accès aux soins et aux thérapies ciblées."
         ],
-        "deskImg": "/images/products/mediyana/desktop/patient-desktop.webp",
-        "mobImg": "/images/products/mediyana/desktop/patient-desktop.webp",
+        "deskImg": "/images/products/mediaina/desktop/patient-desktop.webp",
+        "mobImg": "/images/products/mediaina/desktop/patient-desktop.webp",
         "imgAlt": "Visuel montrant l’identification et la segmentation des patients par IA pour des soins de précision.",
         "bgColor": "#CCF7F5"
       },
@@ -473,8 +474,8 @@
           "Réduction des erreurs d’utilisation des dispositifs et des appels au support.",
           "Engagement accru des candidats avec les outils numériques."
         ],
-        "deskImg": "/images/products/mediyana/desktop/candidate.webp",
-        "mobImg": "/images/products/mediyana/mobile/candidate.webp",
+        "deskImg": "/images/products/mediaina/desktop/candidate.webp",
+        "mobImg": "/images/products/mediaina/mobile/candidate.webp",
         "imgAlt": "Illustration d’éducation personnalisée du patient via outils numériques pour soutenir l’adoption thérapeutique.",
         "bgColor": "#C6E7FF"
       },
@@ -491,8 +492,8 @@
           "Moins d’erreurs manuelles et de retouches.",
           "Délai de soins plus rapide avec moins de charges administratives."
         ],
-        "deskImg": "/images/products/mediyana/desktop/digital.webp",
-        "mobImg": "/images/products/mediyana/mobile/digital.webp",
+        "deskImg": "/images/products/mediaina/desktop/digital.webp",
+        "mobImg": "/images/products/mediaina/mobile/digital.webp",
         "imgAlt": "Graphique illustrant l’automatisation IA des autorisations préalables pour réduire les retards de traitement",
         "bgColor": "#EDEDED"
       },
@@ -509,8 +510,8 @@
           "Efficacité accrue et réduction des abandons.",
           "Informations exploitables pour sponsors et CROs."
         ],
-        "deskImg": "/images/products/mediyana/desktop/clinical.webp",
-        "mobImg": "/images/products/mediyana/mobile/clinical.webp",
+        "deskImg": "/images/products/mediaina/desktop/clinical.webp",
+        "mobImg": "/images/products/mediaina/mobile/clinical.webp",
         "imgAlt": "Visuel illustrant le rapprochement des patients avec des essais cliniques grâce à l’IA.",
         "bgColor": "#CCF7F5"
       },
@@ -527,8 +528,8 @@
           "Réduction des réadmissions et visites inutiles aux urgences.",
           "Visibilité complète sur l’ensemble du continuum de soins."
         ],
-        "deskImg": "/images/products/mediyana/desktop/long.webp",
-        "mobImg": "/images/products/mediyana/mobile/long.webp",
+        "deskImg": "/images/products/mediaina/desktop/long.webp",
+        "mobImg": "/images/products/mediaina/mobile/long.webp",
         "imgAlt": "Image montrant la coordination des soins de longue durée assistée par IA pour un suivi patient continu.",
         "bgColor": "#C6E7FF"
       },
@@ -545,8 +546,8 @@
           "Meilleure communication patient-prestataire.",
           "Mesure objective des résultats pour les soins chroniques."
         ],
-        "deskImg": "/images/products/mediyana/desktop/body.webp",
-        "mobImg": "/images/products/mediyana/mobile/body.webp",
+        "deskImg": "/images/products/mediaina/desktop/body.webp",
+        "mobImg": "/images/products/mediaina/mobile/body.webp",
         "imgAlt": "Graphique illustrant la cartographie IA du parcours patient à travers les étapes de soins. ",
         "bgColor": "#EDEDED"
       },
@@ -563,8 +564,8 @@
           "Démocratisation des données entre les départements.",
           "Prise de décision basée sur les insights, renforcée."
         ],
-        "deskImg": "/images/products/mediyana/desktop/conversational.webp",
-        "mobImg": "/images/products/mediyana/mobile/conver.webp",
+        "deskImg": "/images/products/mediaina/desktop/conversational.webp",
+        "mobImg": "/images/products/mediaina/mobile/conver.webp",
         "imgAlt": "Visuel montrant l’IA d’Agentforce répondant à des requêtes en langage naturel avec des analyses automatisées.",
         "bgColor": "#CCF7F5"
       },
@@ -581,8 +582,8 @@
           "Prise de décision globale pour les résultats des patients.",
           "Amélioration de la gestion de la santé de la population."
         ],
-        "deskImg": "/images/products/mediyana/desktop/unified.webp",
-        "mobImg": "/images/products/mediyana/mobile/unified.webp",
+        "deskImg": "/images/products/mediaina/desktop/unified.webp",
+        "mobImg": "/images/products/mediaina/mobile/unified.webp",
         "imgAlt": "Graphique représentant un système de données unifié reliant prestataires, assureurs et patients.",
         "bgColor": "#C6E7FF"
       },
@@ -599,8 +600,8 @@
           "Réduction des duplications et des silos de données.",
           "Mise en œuvre plus rapide et interopérabilité à grande échelle."
         ],
-        "deskImg": "/images/products/mediyana/desktop/seamless.webp",
-        "mobImg": "/images/products/mediyana/mobile/seamless.webp",
+        "deskImg": "/images/products/mediaina/desktop/seamless.webp",
+        "mobImg": "/images/products/mediaina/mobile/seamless.webp",
         "imgAlt": "Image montrant intégration basée sur API entre EHR, CRM et ERP conforme aux normes FHIR.",
         "bgColor": "#EDEDED"
       },
@@ -617,8 +618,8 @@
           "Réduction du volume d’appels et amélioration des indicateurs de service.",
           "Expérience cohérente à chaque point de contact."
         ],
-        "deskImg": "/images/products/mediyana/desktop/real.webp",
-        "mobImg": "/images/products/mediyana/mobile/real.webp",
+        "deskImg": "/images/products/mediaina/desktop/real.webp",
+        "mobImg": "/images/products/mediaina/mobile/real.webp",
         "imgAlt": "Visuel montrant un chat IA conforme à HIPAA pour communication sécurisée entre patients et personnel.",
         "bgColor": "#CCF7F5"
       },
@@ -635,8 +636,8 @@
           "Meilleure disponibilité des dispositifs et efficacité logistique.",
           "Meilleure conformité et contrôle des coûts."
         ],
-        "deskImg": "/images/products/mediyana/desktop/order.webp",
-        "mobImg": "/images/products/mediyana/mobile/order.webp",
+        "deskImg": "/images/products/mediaina/desktop/order.webp",
+        "mobImg": "/images/products/mediaina/mobile/order.webp",
         "imgAlt": "Image montrant visibilité en temps réel des stocks et intégration SAP pour la logistique hospitalière",
         "bgColor": "#C6E7FF"
       },
@@ -655,8 +656,8 @@
           "Déploiement accéléré dans des environnements hautement réglementés.",
           "Tranquillité totale pour vos parties prenantes et patients."
         ],
-        "deskImg": "/images/products/mediyana/desktop/trusted.webp",
-        "mobImg": "/images/products/mediyana/mobile/trusted.webp",
+        "deskImg": "/images/products/mediaina/desktop/trusted.webp",
+        "mobImg": "/images/products/mediaina/mobile/trusted.webp",
         "imgAlt": "Image montrant des outils numériques suivant l’adhérence du patient au traitement pour de meilleurs résultats.",
         "bgColor": "#EDEDED"
       }
