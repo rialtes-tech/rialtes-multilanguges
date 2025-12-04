@@ -674,7 +674,7 @@ const Header = () => {
                           <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('mediainaDescrip')}</div>
                           <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('mediainaDes2')}</p>
                           <Link href='/products/mediaina-reimagining-patient-journeys/' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/mediaina-reimagining-patient-journeys/")}
-                          >Let's Begin</Link>
+                          >{t('letsBeginBtn')}</Link>
                         </div>
                       </div>
 
@@ -687,7 +687,7 @@ const Header = () => {
                           <div className="font-bold mt-5 4xl:text-[20px]   2xl:text-[15px]  xl:text-[13px] text-[16px]">{t('exelonaDescription')}</div>
                           <p className="mt-3 4xl:text-[18px]   2xl:text-[15px]  xl:text-[13px] text-[14px] pb-8">{t('exelonaDescription2')}</p>
                           <Link href='/products/exelona-salesforce-for-real-estate-management' className="text-[#134874] border-[1px] border-[solid] border-[#134874] py-3 px-6 mt-4" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" onClick={(e) => handleLinkClick(e, "/products/exelona-salesforce-for-real-estate-management")}
-                          >Let's Begin</Link>
+                          >{t('letsBeginBtn')}</Link>
                         </div>
                       </div>
 
