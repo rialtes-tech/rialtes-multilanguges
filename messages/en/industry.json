@@ -328,6 +328,7 @@
         }
       }
     },
+    "learnMoreBtn" : "LearnMore",
     "seoTitle": "Revolutionizing Property Management for Real Estate Industry | Rialtes",
     "seoDescription": "The future of property management for real estate industry is here. Automate leasing, reduce vacancies, and improve ROI with purpose-built software.",
     "bannerAlt": "Architect's hand pointing at white miniature city model with skyscrapers representing urban planning and real estate",
@@ -336,7 +337,7 @@
     "realTitle": "Affordable property management software for your real estate operations",
     "realDescOne": "The real estate market is dynamic and unpredictable – but your business doesn’t have to be. With the right tools and strategies, real estate companies can see consistent growth year over year while exceeding client expectations.",
     "realDescTwo": " At Rialtes, we provide top property management software designed to streamline your daily operations. Exelona offers an all-in-one solution with features tailored for real estate professionals, investors, property managers, and more. Whether you’re managing multiple residential rentals or balancing the demands of commercial investment spaces, Rialtes has the tools to support you every step of the way.",
-    "estateTitle": "The #1 CRM for real estate busines",
+    "estateTitle": "The #1 CRM for real estate business",
     "estateDesc": "Built on Salesforce, the world’s #1 CRM platform, RealForce centralizes your property management functions and transforms the way you serve your clients. Whether you’re a small brokerage firm or a national property management group, your business deserves the best property management software on the market.",
     "estateTitleOne": "RealForce Platform",
     "estateTitleOneDesc": "Our flagship property management platform, built on Salesforce and designed for your real ERP (Property Cloud) and CRM(Experience Cloud) functions.",
@@ -697,7 +698,7 @@
         ],
         "blueCard": "Ensuring life-saving therapies and devices reach patients on time.",
         "imageAlt": "Male pharmacist in white coat and glasses using digital tablet while colleague stocks shelves in modern pharmacy drugstore",
-        "mobImg": "/images/industry/life-science/Mobile/spharmacist-using-tablet-pharmacy-inventory-mobile.webp",
+        "mobImg": "/images/industry/life-science/Mobile/pharmacist-using-tablet-pharmacy-inventory-mobile.webp",
         "deskImg": "/images/industry/life-science/pharmacist-using-tablet-pharmacy-inventory.webp"
       }
     ],
