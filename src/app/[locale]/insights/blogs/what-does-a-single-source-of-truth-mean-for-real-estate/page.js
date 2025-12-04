@@ -54,10 +54,6 @@ export default function Page() {
                     <Image
                         src="/images/blog/single-source-of-truth-real-estate-lead-to-lease-mobile.webp"
                         alt={t("bannerAlt")}
-                        priority
-                        height={0}
-                        width={0}
-                        className="w-full h-auto object-cover"
                     />
                 </div>
             </section>

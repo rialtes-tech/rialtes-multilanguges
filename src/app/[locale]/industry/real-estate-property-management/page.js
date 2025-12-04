@@ -60,7 +60,7 @@ export default function Page() {
       </div>
       <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight mt-2">{services.description}</p>
       <UnorderedList arrName={services?.productsDetails} ulClassName="mt-6 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]" />
-      <div className="mt-6"><LearnMore /></div>
+      <div className="mt-6"><LearnMore btnName={t('learnMoreBtn')} /></div>
     </div>
   );
 
@@ -179,7 +179,7 @@ export default function Page() {
       <div className="custom-container">
         <section className="pb-16 bg-white">
           <Services />
-          <LearnMore />
+         <LearnMore btnName={t('learnMoreBtn')} />
         </section>
       </div>
       <div className="bg-[#F5F5F5] py-6">

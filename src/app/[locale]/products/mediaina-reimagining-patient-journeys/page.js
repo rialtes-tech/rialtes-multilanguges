@@ -107,7 +107,7 @@ export default function Page() {
                             <UnorderedList arrName={rialtesBenefits} ulClassName="list-disc pl-6 space-y-8 4xl:text-[20px] leading-tight 4xl:pr-8" liClassName="" />
                         </div>
                         <div className="absolute bottom-0">
-                            <LearnMore href="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/" btnName={t('learnMoreBtn')} />
+                            <LearnMore href="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/" btnName={t('khownMoreBtn')} />
 
                         </div>
                     </div>

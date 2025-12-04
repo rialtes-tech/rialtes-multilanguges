@@ -145,7 +145,7 @@
     "industryTitle": "Industrie",
     "categoryTitle": "Catégorie",
     "industries": [
-      "Tout",
+      "Tous",
       "Agriculture",
       "Automobile",
       "Santé",
@@ -158,7 +158,7 @@
       "Générique"
     ],
     "categories": [
-      "Tout",
+      "Tous",
       "IA Agentique",
       "Exelona",
       "Intégration",
@@ -223,6 +223,17 @@
       }
     ],
     "latestBlogs": [
+      {
+         "id": 60,
+        "image": "/images/blog/salesforce-managed-services-salesforceagent-plus-mobile.webp",
+        "category": "Services Gérés",
+        "industry": "Générique",
+        "date": "Dec. 02, 2025",
+        "alt": "Vagues fibre optique colorées représentant services gérés Salesforce augmentant revenus au-delà maintenance CRM",
+        "url": "/scale-with-salesforce-managed-services-salesforceagentplus/",
+        "title": "Services Gérés Salesforce : Le secret pour augmenter les revenus, et pas seulement maintenir le CRM",
+        "description": "La plupart des entreprises investissent massivement dans Salesforce, mais seules quelques-unes exploitent réellement sa vraie valeur commerciale."
+      },
       {
         "id": 59,
         "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
@@ -369,7 +380,7 @@
       {
         "id": 46,
         "image": "/images/blog/salesforce-consulting-cluster-thumb.webp",
-        "category": "Salesforce Agentforce",
+        "category": "Conseil Salesforce",
         "industry": "Générique",
         "date": "Oct. 10, 2025",
         "url": "/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/",
@@ -391,7 +402,7 @@
       {
         "id": 44,
         "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
-        "category": "Salesforce Agentforce",
+        "category": "Conseil Salesforce",
         "industry": "Générique",
         "date": "Oct. 06, 2025",
         "url": "/salesforce-development-services-to-boost-crm-efficiency/",
@@ -413,7 +424,7 @@
       {
         "id": 42,
         "image": "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
-        "category": "Salesforce Agentforce",
+        "category": "Conseil Salesforce",
         "industry": "Générique",
         "date": "Sep. 29, 2025",
         "url": "/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/",

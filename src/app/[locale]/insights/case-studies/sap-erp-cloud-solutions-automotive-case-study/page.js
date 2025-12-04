@@ -87,7 +87,7 @@ export default function page() {
                                 {
                                     challenges.map((data, ind) => {
                                         return (
-                                            <div key={ind} className="mt-10">
+                                            <div key={ind} className="md:mt-10">
                                                 <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight font-bold  mt-5">
                                                     {data.title}
                                                 </h3>
@@ -102,13 +102,13 @@ export default function page() {
                                 }
                             </div>
 
-                            {/* challenges section */}
+                            {/* solutions section */}
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                     {t('solutionTitle')}
                                 </h2>
                                 <p className="mt-[29px] font-medium xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Rialtes implemented comprehensive SAP ERP cloud solutions to digitize and automate O2C and P2P processes.</p>
-                                <div className="grid md:grid-cols-2 grid-cols-1 mt-5 gap-x-[80px] md:gap-y-[50px] gap-y-[40px]">
+                                <div className="grid md:grid-cols-2 grid-cols-1 mt-5 gap-x-[80px] md:gap-y-[30px] gap-y-[20px]">
                                     {
                                         solutions.map((data, ind) => (
                                             <div key={ind} >
@@ -116,7 +116,7 @@ export default function page() {
                                                     {ind + 1}. {data.title}
                                                 </h3>
                                                 <ol
-                                                    className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] space-y-3">
+                                                    className="mt-[16px] xl:mt-[20px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] space-y-3">
                                                     {data.desc.map((elem, id) => (
                                                         <li key={id}>
                                                             {elem}
@@ -139,7 +139,7 @@ export default function page() {
                                 {
                                     fioriData.map((data, ind) => (
                                         <div key={ind}>
-                                            <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight font-bold mt-5">
+                                            <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight font-bold mt-10 xl:mt-[50px]">
                                                 {data.title}
                                             </h3>
                                             <UnorderedList
@@ -159,15 +159,15 @@ export default function page() {
                                     {t('benefitsTitle')}
                                 </h2>
                                 <p className="mt-[29px] font-medium xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">The transformation delivered measurable outcomes across operations:</p>
-                                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-[20px] md:gap-[40px]">
+                                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-[10px] md:gap-[40px]">
                                     {
                                         benefits.map((data, ind) => (
-                                            <div key={ind} className="mt-5">
-                                                <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight font-bold mt-5">
+                                            <div key={ind} className="mt-[15px]">
+                                                <h3 className="4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] leading-tight font-bold">
                                                     {data.title}
                                                 </h3>
                                                 <p
-                                                    className={`mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
+                                                    className={`mt-[18px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]`}
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                             </div>
@@ -183,7 +183,7 @@ export default function page() {
                                     {
                                         businessData.map((data, ind) => (
                                             <div key={ind} className="mt-10">
-                                                <div className="w-11 h-11 mb-5 flex items-center justify-center rounded-full bg-[#0C8AED] text-white 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold">
+                                                <div className="w-11 h-11 mb-5 flex items-center justify-center rounded-full bg-[#0C8AED] text-white 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] font-bold">
                                                     {ind + 1}
                                                 </div>
                                                 <h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.title}
@@ -204,8 +204,8 @@ export default function page() {
             </section>
 
             {/* case study carousel */}
-            <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
-                <RelatedCaseStudies url={currUrl} currTopic={t('caseTopic')} />
+            <section className="custom-container lg:pr-0 xl:my-[120px] md:my-[60px] my-[60px]">
+                <RealtedCaseStudies url={currUrl} currTopic="Automotive" />
             </section>
         </section>
     );
