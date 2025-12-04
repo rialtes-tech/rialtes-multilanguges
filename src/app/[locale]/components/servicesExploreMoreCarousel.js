@@ -77,7 +77,7 @@ export default function servicesExploreMoreCarousel() {
     <section className="relative sm:pb-10 pb-16">
       <div className=" mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0 max-[400px]:mb-10">
-          <h2 className="text-white mb-14 mr-20 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">{t('headerTitle')}</h2>
+          <h2 className="text-white mb-14 mt-6 xl:mt-0 mr-20 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">{t('headerTitle')}</h2>
         </div>
         <Carousel
           swipeable={true}

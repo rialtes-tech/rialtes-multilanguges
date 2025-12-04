@@ -202,7 +202,7 @@ export default function page() {
                                     <h3 className="text-[20px] xl:text-[25px] 4xl:text-[30px] leading-tight font-semibold text-[#FFFFFF] ">
                                         {item.title}
                                     </h3>
-                                    <p className="text-[16px] xl:text-[18px] 4xl:text-[30px] leading-tight mt-[15px] xl:mt-[29px] text-[#FFFFFF] w-[90%] font-light">
+                                    <p className="text-[16px] xl:text-[18px] 4xl:text-[24px] leading-tight mt-[15px] xl:mt-[29px] text-[#FFFFFF] w-[90%] font-light">
                                         {item.description}
                                     </p>
                                     <div className="mt-[38px] xl:mt-[56px] xl:w-[81px] w-[34px] h-[4px] bg-white"></div>
