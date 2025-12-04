@@ -177,7 +177,7 @@ export default function Page() {
           />
         </div>
         <div className="xl:col-span-4 col-span-12">
-          <div className="xl:col-span-4 col-span-12 bg-[#C17B57] text-white xl:pl-14 pr-14 pt-14 p-10 pb-0 w-full">
+          <div className="xl:col-span-4 col-span-12 bg-[#C17B57] text-white xl:pl-14 pt-14 p-10 pb-0 w-full">
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('preTitle')}</h2>
             <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">{t('preSubtitle')}</h3>
             <p className="mt-5 xl:mb-10 mb-5 font-normal 4xl:pr-20 pr-5 leading-tight">{t('preDesc')}</p>

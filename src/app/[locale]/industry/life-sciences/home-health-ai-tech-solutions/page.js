@@ -125,7 +125,7 @@ export default function Page() {
                 <div className="grid lg:grid-cols-12 grid-cols-1">
                     <div className="lg:col-span-5 col-span-12 lg:my-[40px] max-md:mx-[36px] lg:mr-[-90px] max-md:mt-[-120px] relative z-20 lg:order-1 order-2">
                         <div className="bg-[#006FBE] text-[#ffffff] xl:pt-[69px] xl:pb-[96px] lg:pl-[63px] xl:pr-[20px] pt-[39px] pb-[70px] px-[26px]">
-                            <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[90%] lg:w-[60%] xl:w-full">{t('globalTitle')}</h2>
+                            <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[95%] lg:w-[60%] xl:w-full">{t('globalTitle')}</h2>
                             <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[65px] mt-[25px] w-[94%] lg:w-[90%]">{t('globalSubTitle')}</p>
                             <div className="absolute xl:mt-[40px] mt-[20px]">
                                 <LearnMore btnName={t('learnMoreBtn')} />
@@ -225,7 +225,7 @@ export default function Page() {
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight lg:mt-[46px]">
                             {t('agentChatTitle')}
                         </h2>
-                        <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] leading-tight xl:mt-[35px] mt-[17px] font-semibold w-[80%] md:w-full">
+                        <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] leading-tight xl:mt-[35px] mt-[17px] font-semibold w-[85%] md:w-full">
                             {t('agentChatSubTitle')}
                         </h3>
                         <p className="text-[16px] 4xl:text-[20px] xl:text-[18px] font-normal w-[90%] lg:w-full xl:mt-[35px] mt-[24px]">
