@@ -166,7 +166,6 @@ export default function page() {
                                 <Link key={i} href={data.url}>
                                     <h3 className="mt-5 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] font-medium leading-tight text-[#0092E0]">{data?.source}</h3>
                                     <p className="mt-5 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] font-bold">{data.title}</p>
-                                    <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] text-gray-600 line-clamp-2">{data.url}</p>
                                     <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] text-gray-600 line-clamp-2">{data.description}</p>
                                 </Link>
                             </div>
