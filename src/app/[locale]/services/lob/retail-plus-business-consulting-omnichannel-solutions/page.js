@@ -69,10 +69,10 @@ export default function page() {
             <h1 className="leading-tight text-[26px] xl:text-[45px] 4xl:text-[60px] 4xl:pr-10 xl:pr-24">
               {t('empoweringTitle')}
             </h1>
-            <p className="4xl:text-[22px] xl:text-[18px]  mt-5 pr-8 xl:pr-0">
+            <p className="4xl:text-[22px] xl:text-[18px]  mt-5 ">
               {t('empoweringDesc1')}
             </p>
-            <p className="4xl:text-[22px] xl:text-[18px] mt-5 pr-8 xl:pr-0">
+            <p className="4xl:text-[22px] xl:text-[18px] mt-5 ">
               {t('empoweringDesc2')}
             </p>
           </div>
@@ -124,7 +124,7 @@ export default function page() {
               {t("keyTitle")}
             </h3>
 
-            <ul className="list-disc pl-5 mt-4 space-y-5 md:space-y-5 xl:space-y-4 text-[16px] md:text-[18px] xl:text-[20px] leading-relaxed">
+            <ul className="list-disc leading-tight 4xl:space-y-5 2xl:space-y-5 md:space-y-8 xl:space-y-3 space-y-2 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] md:text-[20px] xl:text-[16px] text-[16px] 4xl:mt-10 mt-3 4xl:pr-16">
               {retailServices.map((service, index) => (
                 <li key={index}>
                   <span className="font-bold">{service.title} </span>
@@ -246,10 +246,10 @@ export default function page() {
               <h3 className="xl:text-[42px] text-[22px] mt-5 xl:mt-10">
                 {t('specializedSubTitle')}
               </h3>
-              <p className="mt-5 font-normal xl:pr-16 4xl:text-[20px] text-[16px] leading-tight">
+              <p className="mt-5 mb-2 font-normal xl:pr-16 4xl:text-[20px] text-[16px] leading-tight">
                 {t('specializedDesc')}
               </p>
-              <div className="bottom-0  absolute">
+              <div className="md:bottom-0  absolute bottom-[-25px]">
                 <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
