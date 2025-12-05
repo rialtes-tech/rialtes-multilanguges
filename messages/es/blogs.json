@@ -8661,6 +8661,166 @@
         ],
         "seoTitle": "Servicios Gestionados de Salesforce: Cómo SalesforceAgent+ Impulsa el Crecimiento",
         "seoDescription": "SalesforceAgent+ ofrece Servicios Gestionados impulsados por IA para Salesforce diseñados para acelerar los resultados empresariales, no solo el mantenimiento del CRM.",
-        "bannerAlt" : "Líneas fibra óptica fluidas coloridas con puntos brillantes representando flujo de datos conectividad red tecnología digital"
+        "bannerAlt": "Líneas fibra óptica fluidas coloridas con puntos brillantes representando flujo de datos conectividad red tecnología digital"
+    },
+    "whyPatient": {
+        "mainData": [
+            "Cada ensayo clínico comienza con optimismo. Los investigadores diseñan protocolos con precisión, los investigadores preparan los sitios y los pacientes se inscriben con la esperanza real de obtener mejores resultados. Pero en algún punto del camino, muchos participantes se retiran silenciosamente. La industria rara vez lo menciona abiertamente, pero las tasas de abandono pueden llegar hasta el 30% en los ensayos de Fase III, lo que cuesta millones y retrasa terapias que salvan vidas.",
+            "La realidad es simple: los pacientes no abandonan porque no les importe. Abandonan porque mantenerse comprometidos se vuelve demasiado exigente, demasiado aislante o demasiado confuso. Si tu equipo de investigación aún se pregunta por qué los pacientes abandonan los ensayos clínicos, la respuesta casi siempre se relaciona con brechas en la experiencia, la comunicación o el soporte.",
+            "La introducción de la innovación digital está reescribiendo esa historia. Brinda claridad, confianza, personalización y autonomía, cualidades que los flujos de trabajo tradicionales rara vez fomentan. Una vez que mejoras la experiencia, la retención sigue."
+        ],
+        "realData": [
+            {
+                "title": "Las Verdaderas Razones del Abandono de Pacientes",
+                "desc": "Analicemos los factores más comunes:",
+                "data": [
+                    {
+                        "title": "Protocolos complicados sin explicaciones claras",
+                        "desc": "Cuando los participantes no entienden completamente qué esperar, aumenta la ansiedad. Un ensayo confuso al inicio se vuelve abrumador más adelante."
+                    },
+                    {
+                        "title": "Carga de viajes y programación",
+                        "desc": "Las visitas frecuentes al sitio son difíciles para personas que equilibran trabajo, familia, largas distancias o movilidad limitada. La conveniencia importa más de lo que muchos equipos creen."
+                    },
+                    {
+                        "title": "Soporte limitado cuando aparecen efectos secundarios",
+                        "desc": "Si alguien experimenta molestias en casa sin orientación inmediata, retirarse parece el camino más seguro."
+                    },
+                    {
+                        "title": "Distancia emocional",
+                        "desc": "Los pacientes tienen emociones y quieren sentirse personas, no fuentes anónimas de datos. Sin empatía y compromiso constante, la motivación se desvanece."
+                    },
+                    {
+                        "title": "Sobrecarga administrativa",
+                        "desc": "Diarios en papel, portales independientes y recordatorios dispersos crean obstáculos frustrantes. Para reducir significativamente los abandonos mediante la participación digital, debemos simplificar el proceso para los pacientes: eliminar barreras, aumentar la relevancia de la información y asegurar una comunicación continua. Esta combinación marca una diferencia real."
+                    }
+                ]
+            }
+        ],
+        "digitalData": [
+            {
+                "title": "Cómo la Participación Digital Mejora la Retención — Enfoques que Funcionan",
+                "desc": "La innovación actual no busca reemplazar la experiencia clínica. Busca ampliarla con tecnología que apoye el comportamiento humano real.",
+                "list": [
+                    {
+                        "title": "Orientación personalizada durante todo el recorrido",
+                        "desc": "Los participantes deben saber siempre qué viene después — no mediante un paquete de documentos el primer día, sino mediante puntos de contacto digitales oportunos que evolucionen junto al ensayo."
+                    },
+                    {
+                        "title": "Un solo canal conversacional para la comunicación clínica",
+                        "desc": "Los pacientes no deberían preguntarse a quién llamar. Un chat seguro para reportar síntomas, hacer preguntas y recibir respuestas genera sensación de seguridad."
+                    },
+                    {
+                        "title": "Participación híbrida y remota para reducir la carga",
+                        "desc": "Telemedicina, ePROs, monitoreo por wearables y recolección de muestras en casa reducen viajes e interrupciones. Cuando la participación se ajusta a la vida diaria, el compromiso mejora."
+                    },
+                    {
+                        "title": "Motivación mediante visibilidad del progreso",
+                        "desc": "El compromiso no es solo logístico; es emocional. Ver hitos completados y contribuciones reflejadas en tiempo real refuerza el propósito."
+                    },
+                    {
+                        "title": "IA predictiva para identificar y apoyar a participantes en riesgo",
+                        "desc": "Si un paciente reduce reportes o deja de interactuar, los sistemas digitales pueden activar intervención humana antes de que se retire."
+                    }
+                ],
+                "desc2": "Estas no son ventajas teóricas. Son la base de las estrategias más efectivas para mejorar la retención en ensayos clínicos en todas las áreas terapéuticas y regiones."
+            }
+        ],
+        "retentionData": [
+            {
+                "title": "La Retención se Está Convirtiendo en la Nueva Prioridad Operativa",
+                "desc": "Los ensayos clínicos solían centrarse principalmente en la <a href='https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>inscripción de pacientes</a>. Hoy, los estudios de alto rendimiento priorizan la retención con la misma fuerza — porque un cohorte completo ofrece:",
+                "list": [
+                    "Tiempos de investigación más cortos",
+                    "Costos reducidos de modificaciones del protocolo",
+                    "Mayor poder estadístico",
+                    "Ideas más realistas del mundo real",
+                    "Éxito regulatorio más rápido"
+                ],
+                "desc2": "Por ello, más patrocinadores y CROs adoptan herramientas de adherencia y plataformas de participación del paciente. Cuando la tecnología apoya de forma continua, la retención se vuelve escalable."
+            }
+        ],
+        "howMediainaData": [
+            {
+                "title": "Cómo MediAIna Previene Abandonos y Redefine la Participación del Paciente",
+                "desc": [
+                    "MediAIna es la plataforma digital de próxima generación de Rialtes diseñada para <a href='https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>transformar el recorrido del paciente en ensayos clínicos<a/> desde la inscripción hasta el informe final. En lugar de sistemas fragmentados para recordatorios, comunicación, reportes y monitoreo, MediAIna unifica todos los puntos de contacto entre equipos de atención, equipos de ensayo y participantes.",
+                    "Con capacidades para:"
+                ],
+                "list": [
+                    {
+                        "img": "/images/blog/user-profile-download-icon.svg",
+                        "alt": "Icono delineado de un perfil de usuario sobre una laptop con una flecha de descarga.",
+                        "desc": "Soluciones de inscripción de pacientes basadas en IA"
+                    },
+                    {
+                        "img": "/images/blog/location-tracking-map-monitoring-icon.svg",
+                        "alt": "Icono delineado de una pantalla con un pin de mapa, ruta y radar.",
+                        "desc": "Monitoreo remoto y seguimiento digital de síntomas"
+                    },
+                    {
+                        "img": "/images/blog/notification-bell-task-reminder-icon.svg",
+                        "alt": "Icono delineado de una campana de notificación con lista de tareas.",
+                        "desc": "Recordatorios automatizados según horarios individuales"
+                    },
+                    {
+                        "img": "/images/blog/global-language-translation-icon.svg",
+                        "alt": "Icono delineado de un globo con burbujas de traducción.",
+                        "desc": "Comunicación multilingüe para ensayos clínicos"
+                    },
+                    {
+                        "img": "/images/blog/customer-feedback-performance-rating-icon.svg",
+                        "alt": "Icono delineado con analíticas, estrellas y pulgar arriba.",
+                        "desc": "Visualización gamificada del progreso y retroalimentación motivacional"
+                    },
+                    {
+                        "img": "/images/blog/error-warning-troubleshooting-icon.svg",
+                        "alt": "Icono delineado con un triángulo de advertencia y símbolo de error.",
+                        "desc": "Alertas predictivas de riesgo de abandono"
+                    },
+                    {
+                        "img": "/images/blog/user-network-connection-icon.svg",
+                        "alt": "Icono delineado de un usuario con nodos conectados.",
+                        "desc": "Diseño de experiencia centrado en el paciente"
+                    }
+                ],
+                "desc2": [
+                    "MediAIna ayuda a <span>reimaginar los recorridos del paciente en los ensayos clínicos</span> con un objetivo claro: hacer que la participación sea más fácil, segura y significativa.",
+                    "Los ensayos que utilizan MediAIna enfrentan menos barreras, menos frustración y una participación más sostenida, no porque los pacientes estén obligados, sino porque se sienten apoyados, informados, conectados y valorados. Cuando la industria pasa de la obediencia a la experiencia, la retención deja de ser un desafío y se convierte en un resultado natural. Rialtes ha estado modernizando la gestión de ensayos clínicos con MediAIna. Si estás listo, hablemos de lo que MediAIna puede desbloquear para ti."
+                ]
+            }
+        ],
+        "faqData": [
+            {
+                "question": "¿Por qué los pacientes abandonan los ensayos clínicos?",
+                "answer": "La mayoría de los abandonos ocurren debido a expectativas poco claras, carga de viajes, soporte limitado ante efectos secundarios, fatiga emocional o tareas administrativas abrumadoras."
+            },
+            {
+                "question": "¿Cómo reduce la participación digital los abandonos?",
+                "answer": "Las herramientas digitales ofrecen orientación en tiempo real, participación remota, soporte a síntomas, visibilidad de progreso y comunicación proactiva."
+            },
+            {
+                "question": "¿Qué herramientas digitales mejoran la retención en ensayos?",
+                "answer": "Plataformas para recordatorios, telemedicina, ePROs, wearables, chat en tiempo real y paneles de progreso mejoran significativamente la adherencia."
+            },
+            {
+                "question": "¿Puede la tecnología realmente prevenir el abandono?",
+                "answer": "Sí. Los ensayos que adoptan estrategias digitales muestran mejor adherencia, menos visitas perdidas y mayor completitud de datos."
+            },
+            {
+                "question": "¿Cuál es la mejor estrategia para mejorar la retención?",
+                "answer": "Una plataforma unificada que combine comunicación, reporte de síntomas, recordatorios y orientación para hacer la participación simple y predecible."
+            },
+            {
+                "question": "¿Cómo apoya MediAIna la retención de pacientes?",
+                "answer": "MediAIna proporciona un ecosistema digital totalmente conectado que apoya a los pacientes durante todo el recorrido del ensayo."
+            }
+        ],
+        "schemaData": {},
+        "blogTitle": "Por Qué Ocurren los Abandonos en Ensayos Clínicos — Y Cómo la Participación Digital los Previene",
+        "faqTitle": "Preguntas Frecuentes: Aprovecha Datos e IA para Modernizar RR. HH. con SAP SuccessFactors",
+        "bannerAlt": "Enfermera mostrando información médica a una paciente con pañuelo junto a un gráfico de ADN digital.",
+        "seoTitle": "Cómo el Cuidado Digital Reduce el Abandono en Ensayos Clínicos | Rialtes",
+        "seoDescription": "Si tu equipo de investigación se pregunta por qué los pacientes abandonan los ensayos clínicos, la causa suele ser brechas en experiencia, comunicación o soporte."
     }
 }

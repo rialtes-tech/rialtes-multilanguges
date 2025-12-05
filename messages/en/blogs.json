@@ -12038,194 +12038,429 @@
         "statePropertyPara2": "In other words:",
         "statePropertyPara3": "Instead of using Salesforce “as is,” Managed Services keep improving it month after month based on business goals.",
         "salesforceIncludeTitle": "What Salesforce Managed Services Actually Include",
-        "salesforceManagedSections" : [
+        "salesforceManagedSections": [
             {
-            "number": "1",
-            "title": "Daily Operations Without the Bottlenecks",
-            "items": [
+                "number": "1",
+                "title": "Daily Operations Without the Bottlenecks",
+                "items": [
                     {
-                    "heading": "Procure-to-Pay (P2P)",
-                    "description": "New custom fields, page layouts, user roles, workflows, validation rules, dashboards, and approval hierarchies — handled without waiting months."
+                        "heading": "Procure-to-Pay (P2P)",
+                        "description": "New custom fields, page layouts, user roles, workflows, validation rules, dashboards, and approval hierarchies — handled without waiting months."
                     },
                     {
-                    "heading": "AI- and Automation-Based Productivity",
-                    "description": "Designing and deploying automations, flows, and Einstein recommendations to improve the speed of selling and reduce manual work."
+                        "heading": "AI- and Automation-Based Productivity",
+                        "description": "Designing and deploying automations, flows, and Einstein recommendations to improve the speed of selling and reduce manual work."
                     }
                 ]
             },
             {
-            "number": "2",
-            "title": "Revenue-Focused Salesforce Optimization",
-            "items": [
+                "number": "2",
+                "title": "Revenue-Focused Salesforce Optimization",
+                "items": [
                     {
-                    "heading": "Sales Cloud & CPQ Optimization",
-                    "description": "Better quoting cycles, pricing rules, discount strategies, product configuration, and renewal automation."
+                        "heading": "Sales Cloud & CPQ Optimization",
+                        "description": "Better quoting cycles, pricing rules, discount strategies, product configuration, and renewal automation."
                     },
                     {
-                    "heading": "Service Cloud Efficiency",
-                    "description": "Smarter assignment routing, case resolutions, knowledge management, SLA-based triggers, and workforce forecasting."
+                        "heading": "Service Cloud Efficiency",
+                        "description": "Smarter assignment routing, case resolutions, knowledge management, SLA-based triggers, and workforce forecasting."
                     },
                     {
-                    "heading": "Data Cloud & Marketing Cloud Alignment",
-                    "description": "Unified customer profiles, real-time segmentation, targeted campaigns, and activation workflows across channels."
+                        "heading": "Data Cloud & Marketing Cloud Alignment",
+                        "description": "Unified customer profiles, real-time segmentation, targeted campaigns, and activation workflows across channels."
                     }
                 ]
             },
             {
-            "number": "3",
-            "title": "Data, Integration & Governance for Reliable Insights",
-            "items": [
+                "number": "3",
+                "title": "Data, Integration & Governance for Reliable Insights",
+                "items": [
                     {
-                    "heading": "End-to-End Integration Management",
-                    "description": "Salesforce with ERP, billing, support systems, and external apps — built and continuously monitored."
+                        "heading": "End-to-End Integration Management",
+                        "description": "Salesforce with ERP, billing, support systems, and external apps — built and continuously monitored."
                     },
                     {
-                    "heading": "Data Quality & Security",
-                    "description": "Role-based access, data cleansing, deduplication, compliance-ready governance, and periodic audits."
+                        "heading": "Data Quality & Security",
+                        "description": "Role-based access, data cleansing, deduplication, compliance-ready governance, and periodic audits."
                     },
                     {
-                    "heading": "Analytics for Decisions That Matter",
-                    "description": "Tableau and CRM Analytics dashboards for forecasting, pipeline health, win/loss drivers, and customer success outcomes."
+                        "heading": "Analytics for Decisions That Matter",
+                        "description": "Tableau and CRM Analytics dashboards for forecasting, pipeline health, win/loss drivers, and customer success outcomes."
                     }
                 ]
             },
             {
-            "number": "4",
-            "title": "AI-Driven Innovation",
-            "text": "AI is now central to Salesforce, not optional. Managed Services ensures you don’t fall behind.",
-            "items": [
+                "number": "4",
+                "title": "AI-Driven Innovation",
+                "text": "AI is now central to Salesforce, not optional. Managed Services ensures you don’t fall behind.",
+                "items": [
                     {
-                    "heading": "Einstein AI for Sales and Service",
-                    "description": "Predictive lead scoring, opportunity insights, churn probability, sentiment analysis, and automated next-step recommendations."
+                        "heading": "Einstein AI for Sales and Service",
+                        "description": "Predictive lead scoring, opportunity insights, churn probability, sentiment analysis, and automated next-step recommendations."
                     },
                     {
-                    "heading": "Agentforce & Autonomous Agents",
-                    "description": "Deploying AI-powered agents to automate customer service operations, case resolution workflows, data entry, and triage."
+                        "heading": "Agentforce & Autonomous Agents",
+                        "description": "Deploying AI-powered agents to automate customer service operations, case resolution workflows, data entry, and triage."
                     },
                     {
-                    "heading": "Proactive Opportunity Intelligence",
-                    "description": "AI flags revenue opportunities your team might otherwise miss, and prioritizes high-impact actions."
+                        "heading": "Proactive Opportunity Intelligence",
+                        "description": "AI flags revenue opportunities your team might otherwise miss, and prioritizes high-impact actions."
                     }
                 ]
             }
         ],
-        "internalSalesforceTitle" : " Managed Services vs Internal Salesforce Hiring: The Reality",
-        "internalSalesforceheading1" : "Requirement",
-        "internalSalesforceheading2" : "Internal Hiring",
-        "internalSalesforceheading3" : " Managed Services",
-        "tableData" : [
-        {
-            "requirement": "Admin + BA + Architect + Developer + AI Specialist",
-            "internal": "Expensive",
-            "managed": "Included"
-        },
-        {
-            "requirement": "Time to onboard the full team",
-            "internal": "3–9 months",
-            "managed": "Zero"
-        },
-        {
-            "requirement": "Expertise across clouds & AI",
-            "internal": "Limited",
-            "managed": "Full-spectrum"
-        },
-        {
-            "requirement": "Scalability",
-            "internal": "Difficult",
-            "managed": "Flexible"
-        },
-        {
-            "requirement": "Cost efficiency",
-            "internal": "Low",
-            "managed": "High"
-        }
-    ],
-    "businessImpactTitle" : "When Businesses See the Biggest Impact",
-    "businessImpactPara" : "You’ll see managed services transform Salesforce fastest when:",
-    "businessImpactPara2" : "For many organizations, Salesforce isn’t a lost cause, it’s just underperforming at the mment.",
-    "businessBiggestImpact" : [
-        "Sales cycles are slow or unpredictable",
-        "Manual work blocks scale",
-        "Reports exist but don’t drive decisions",
-        "Customer service escalations are rising",
-        "Integrations break during volume peaks",
-        "The CRM is technically stable, but business value is stagnant"
-    ],
-    "salesforceProjectTitle" : "Salesforce Isn’t a One-Time Project; It’s a Revenue Engine",
-    "salesforceProjectPara1" : "The companies that scale fastest don’t treat Salesforce as software.They treat it as the operational core of revenue, constantly improving, continuously automated, always aligned to strategy.",
-    "salesforceProjectPara2" : "And that’s where SalesforceAgent+ does its magic.",
-    "discoverAgenticTitle" : "  Discover the Agentic Capabilities of Agentforce",
-    "discoverAgenticPara" : "See how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform",
-    "watchButton" : " Watch the Webinar",
-    "discoverAgenticPara2" : "<a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> SalesforceAgent+</a> delivers AI-driven Managed Services designed specifically to accelerate business outcomes, not just CRM maintenance. From automation and integrations to analytics, Data Cloud activation, and AI agents — the model ensures Salesforce keeps getting smarter month after month.",
-    "discoverAgenticPara3" : "Instead of planning “big CRM overhauls” every two years, you get ongoing growth, better adoption, faster selling, and higher customer lifetime value — without increasing internal workload.",
-    "discoverAgenticPara4" : "If Salesforce is already central to your business, SalesforceAgent+ makes sure it becomes central to your success.",
-    "faqTitle" : "FAQs: Scale Your Company’s Revenue with Salesforce Managed Services",
-    "faqs" : [
-        {
-            "question": "What are managed services in Salesforce? (What exactly are managed services?)",
-            "answer": "Managed services in Salesforce refer to ongoing expert support that helps businesses continuously optimize their CRM rather than just maintain it. Instead of handling everything internally, companies partner with certified Salesforce specialists who proactively improve workflows, fix issues, introduce new features, analyze data, and align Salesforce with evolving business goals. It's not break-fix support — it's continuous growth enablement."
-        },
-        {
-            "question": "What are the benefits of Salesforce managed services?",
-            "answer": [
-                "Salesforce managed services help businesses unlock more value from their CRM investment by:",
-                [
-                    "Improving user adoption and productivity",
-                    "Automating sales, marketing, and service workflows",
-                    "Reducing dependency on internal tech teams",
-                    "Lowering the cost of full-time in-house admin and developer roles",
-                    "Accelerating innovation with AI, analytics, and automation",
-                    "Ensuring security, compliance, and clean data.Over time, this leads to increased revenue, faster decision-making, and a CRM that evolves as the business scales. "
+        "internalSalesforceTitle": " Managed Services vs Internal Salesforce Hiring: The Reality",
+        "internalSalesforceheading1": "Requirement",
+        "internalSalesforceheading2": "Internal Hiring",
+        "internalSalesforceheading3": " Managed Services",
+        "tableData": [
+            {
+                "requirement": "Admin + BA + Architect + Developer + AI Specialist",
+                "internal": "Expensive",
+                "managed": "Included"
+            },
+            {
+                "requirement": "Time to onboard the full team",
+                "internal": "3–9 months",
+                "managed": "Zero"
+            },
+            {
+                "requirement": "Expertise across clouds & AI",
+                "internal": "Limited",
+                "managed": "Full-spectrum"
+            },
+            {
+                "requirement": "Scalability",
+                "internal": "Difficult",
+                "managed": "Flexible"
+            },
+            {
+                "requirement": "Cost efficiency",
+                "internal": "Low",
+                "managed": "High"
+            }
+        ],
+        "businessImpactTitle": "When Businesses See the Biggest Impact",
+        "businessImpactPara": "You’ll see managed services transform Salesforce fastest when:",
+        "businessImpactPara2": "For many organizations, Salesforce isn’t a lost cause, it’s just underperforming at the mment.",
+        "businessBiggestImpact": [
+            "Sales cycles are slow or unpredictable",
+            "Manual work blocks scale",
+            "Reports exist but don’t drive decisions",
+            "Customer service escalations are rising",
+            "Integrations break during volume peaks",
+            "The CRM is technically stable, but business value is stagnant"
+        ],
+        "salesforceProjectTitle": "Salesforce Isn’t a One-Time Project; It’s a Revenue Engine",
+        "salesforceProjectPara1": "The companies that scale fastest don’t treat Salesforce as software.They treat it as the operational core of revenue, constantly improving, continuously automated, always aligned to strategy.",
+        "salesforceProjectPara2": "And that’s where SalesforceAgent+ does its magic.",
+        "discoverAgenticTitle": "  Discover the Agentic Capabilities of Agentforce",
+        "discoverAgenticPara": "See how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform",
+        "watchButton": " Watch the Webinar",
+        "discoverAgenticPara2": "<a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> SalesforceAgent+</a> delivers AI-driven Managed Services designed specifically to accelerate business outcomes, not just CRM maintenance. From automation and integrations to analytics, Data Cloud activation, and AI agents — the model ensures Salesforce keeps getting smarter month after month.",
+        "discoverAgenticPara3": "Instead of planning “big CRM overhauls” every two years, you get ongoing growth, better adoption, faster selling, and higher customer lifetime value — without increasing internal workload.",
+        "discoverAgenticPara4": "If Salesforce is already central to your business, SalesforceAgent+ makes sure it becomes central to your success.",
+        "faqTitle": "FAQs: Scale Your Company’s Revenue with Salesforce Managed Services",
+        "faqs": [
+            {
+                "question": "What are managed services in Salesforce? (What exactly are managed services?)",
+                "answer": "Managed services in Salesforce refer to ongoing expert support that helps businesses continuously optimize their CRM rather than just maintain it. Instead of handling everything internally, companies partner with certified Salesforce specialists who proactively improve workflows, fix issues, introduce new features, analyze data, and align Salesforce with evolving business goals. It's not break-fix support — it's continuous growth enablement."
+            },
+            {
+                "question": "What are the benefits of Salesforce managed services?",
+                "answer": [
+                    "Salesforce managed services help businesses unlock more value from their CRM investment by:",
+                    [
+                        "Improving user adoption and productivity",
+                        "Automating sales, marketing, and service workflows",
+                        "Reducing dependency on internal tech teams",
+                        "Lowering the cost of full-time in-house admin and developer roles",
+                        "Accelerating innovation with AI, analytics, and automation",
+                        "Ensuring security, compliance, and clean data.Over time, this leads to increased revenue, faster decision-making, and a CRM that evolves as the business scales. "
+                    ]
                 ]
-               
-            ]
-        },
-        {
-            "question": "What are examples of managed services?",
-            "answer": [
-                "Examples include:",
-                [
-                    "Salesforce administration and enhancements",
-                    "Automation of lead, opportunity, and service processes",
-                    "Integration with ERPs and third-party applications",
-                    "AI and analytics enablement using Data Cloud and Tableau",
-                    "Release management and new feature enablement",
-                    "Data quality and governance",
-                    "Consulting and roadmap planning based on business goals"
+            },
+            {
+                "question": "What are examples of managed services?",
+                "answer": [
+                    "Examples include:",
+                    [
+                        "Salesforce administration and enhancements",
+                        "Automation of lead, opportunity, and service processes",
+                        "Integration with ERPs and third-party applications",
+                        "AI and analytics enablement using Data Cloud and Tableau",
+                        "Release management and new feature enablement",
+                        "Data quality and governance",
+                        "Consulting and roadmap planning based on business goals"
+                    ]
                 ]
-            ]
-        },
-        {
-            "question": "What is the difference between SaaS and managed services?",
-            "answer": [
-                "SaaS (Software as a Service) provides access to software — such as Salesforce on a subscription basis. Managed services, on the other hand, provide the expertise to continually optimize that software.",
-                "In short:",
-                [
-                    "SaaS = the platform",
-                    "Managed services = the team ensuring the platform performs at its fullest potential.Because software alone doesn’t drive transformation; what matters is how effectively it’s configured, adopted, and optimized."
+            },
+            {
+                "question": "What is the difference between SaaS and managed services?",
+                "answer": [
+                    "SaaS (Software as a Service) provides access to software — such as Salesforce on a subscription basis. Managed services, on the other hand, provide the expertise to continually optimize that software.",
+                    "In short:",
+                    [
+                        "SaaS = the platform",
+                        "Managed services = the team ensuring the platform performs at its fullest potential.Because software alone doesn’t drive transformation; what matters is how effectively it’s configured, adopted, and optimized."
+                    ]
                 ]
-               
-            ]
-        },
-        {
-            "question": "How to choose a Salesforce managed services provider for your industry?",
-            "answer": [
-                "Look for a provider that checks all these boxes:",
-                [
-                    "Proven experience in your industry and Salesforce Cloud relevant to your business",
-                    "Ability to support both core CRM and advanced AI-driven capabilities",
-                    "Access to certified consultants rather than generic support teams",
-                    "Flexible engagement models that scale with business needs",
-                    "A continuous innovation approach instead of ticket-based servicing",
-                    "Strong governance and security practices, not just development skills"
+            },
+            {
+                "question": "How to choose a Salesforce managed services provider for your industry?",
+                "answer": [
+                    "Look for a provider that checks all these boxes:",
+                    [
+                        "Proven experience in your industry and Salesforce Cloud relevant to your business",
+                        "Ability to support both core CRM and advanced AI-driven capabilities",
+                        "Access to certified consultants rather than generic support teams",
+                        "Flexible engagement models that scale with business needs",
+                        "A continuous innovation approach instead of ticket-based servicing",
+                        "Strong governance and security practices, not just development skills"
+                    ]
                 ]
-            ]
-        }
-
-    ],
-    "seoTitle" : "Salesforce Managed Services: How SalesforceAgent+ Drives Growth",
-    "seoDescription" : "SalesforceAgent+ delivers AI-driven Managed Services for Salesforce designed to accelerate business outcomes, not just CRM maintenance.",
-    "bannerAlt" : "Colorful flowing fiber optic lines with glowing dots representing data flow network connectivity and digital technology"
+            }
+        ],
+        "seoTitle": "Salesforce Managed Services: How SalesforceAgent+ Drives Growth",
+        "seoDescription": "SalesforceAgent+ delivers AI-driven Managed Services for Salesforce designed to accelerate business outcomes, not just CRM maintenance.",
+        "bannerAlt": "Colorful flowing fiber optic lines with glowing dots representing data flow network connectivity and digital technology"
+    },
+    "whyPatient": {
+        "mainData": [
+            "Every clinical trial begins with optimism. Researchers design protocols with precision, investigators prepare sites, and patients sign up with real hope for better outcomes. But somewhere along the journey, many participants quietly step away. The industry rarely talks about it openly, yet dropout rates can reach up to 30% in Phase III trials, costing millions and delaying life-saving therapies.",
+            "The fact behind is simple: patients don’t leave because they don’t care. They leave because staying engaged becomes too demanding, too isolating, or too confusing. If your research team is still wondering why patients drop out of clinical trials, the answer almost always traces back to gaps in experience, communication, or support.",
+            "Introduction of digital innovation is rewriting that story. It gives patients clarity, confidence, personalization, and agency, qualities that traditional trial workflows rarely nurture. Once you improve the experience, retention follows."
+        ],
+        "realData": [
+            {
+                "title": "The Real Reasons Behind Patient Dropouts",
+                "desc": "Let’s break down the most common drivers:",
+                "data": [
+                    {
+                        "title": "Complicated protocols without clear explanations",
+                        "desc": "When participants don’t fully understand what to expect, anxiety rises. A trial that’s confusing at the start becomes overwhelming later."
+                    },
+                    {
+                        "title": "Travel and scheduling burden",
+                        "desc": "Frequent on-site visits are hard for people balancing jobs, family, long distances, or limited mobility. Convenience matters more than most teams realize."
+                    },
+                    {
+                        "title": "Limited support when side effects appear",
+                        "desc": "If someone experiences discomfort at home without immediate guidance, withdrawing feels like the safer path."
+                    },
+                    {
+                        "title": "Emotional distance",
+                        "desc": "Patients have emotions, and they want to feel like people, not anonymous data sources. Without empathy and consistent engagement, motivation fades."
+                    },
+                    {
+                        "title": "Administrative overload",
+                        "desc": "Paper diaries, independent portals, and scattered reminders create obstacles that can be frustrating for patients. To address the significant challenge of reducing trial dropouts through digital engagement, we need to simplify the process for patients. This means removing barriers, increasing the relevance of information, and ensuring that communication is continuous. By implementing this combination, we can make a meaningful difference."
+                    }
+                ]
+            }
+        ],
+        "digitalData": [
+            {
+                "title": "How Digital Engagement Improves Retention — The Approaches That Work",
+                "desc": "Today’s innovation isn’t about replacing clinical expertise. It’s about amplifying it with technology that supports real human behavior.",
+                "list": [
+                    {
+                        "title": "Personalized guidance throughout the entire journey",
+                        "desc": "Participants should always know what’s coming next — not in a packet of paperwork on day one, but through timely digital touchpoints that evolve with the trial."
+                    },
+                    {
+                        "title": "One conversational channel for clinical communication",
+                        "desc": "Patients should never have to wonder who to call. A single secure chat space for reporting symptoms, asking questions, and receiving feedback brings a sense of safety."
+                    },
+                    {
+                        "title": "Hybrid and remote participation to reduce the burden",
+                        "desc": "Telehealth, ePROs, wearable monitoring, and home sample collection minimize travel and disruption. When participation fits into daily life, commitment improves."
+                    },
+                    {
+                        "title": "Motivation through progress visibility",
+                        "desc": "Engagement isn’t only logistical; it’s emotional. Seeing milestones completed, contributions measured, and study value reflected in real time reinforces purpose."
+                    },
+                    {
+                        "title": "Predictive AI to identify and support at-risk participants early",
+                        "desc": "If a patient slows down reporting or stops engaging, digital systems can trigger human intervention before withdrawal happens."
+                    }
+                ],
+                "desc2": "These aren’t theoretical advantages. They form the foundation of the most effective strategies for improving trial retention across therapeutic areas and geographic populations."
+            }
+        ],
+        "retentionData": [
+            {
+                "title": "Retention Is Becoming the New Operational Priority",
+                "desc": "Clinical trials used to focus primarily on <a href='https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>patient enrollment</a>. Today, high-performing studies prioritize retention just as strongly — because a full cohort delivers:",
+                "list": [
+                    "Shorter research timelines",
+                    "Reduced cost of protocol amendments",
+                    "Higher statistical power ",
+                    "More realistic real-world insights ",
+                    "Faster regulatory success"
+                ],
+                "desc2": "This is why more sponsors and CROs are adopting patient adherence tools and trial engagement platform models. When technology supports patients continuously rather than sporadically, retention becomes scalable."
+            }
+        ],
+        "howMediainaData": [
+            {
+                "title": "How MediAIna Prevents Dropouts and Redefines Patient Engagement",
+                "desc": [
+                    "MediAIna is Rialtes’ next-generation digital platform built to <a href='https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>transform the clinical trial patient journey<a/> from enrollment to final reporting. Instead of fragmented systems for reminders, communication, reporting, and monitoring, MediAIna unifies every touchpoint across care teams, trial teams, and participants.",
+                    "With capabilities for:"
+                ],
+                "list": [
+                    {
+                        "img": "/images/blog/user-profile-download-icon.svg",
+                        "alt": "Outlined icon of a user profile above a laptop with a download arrow.",
+                        "desc": "AI-based patient enrollment solutions"
+                    },
+                    {
+                        "img": "/images/blog/location-tracking-map-monitoring-icon.svg",
+                        "alt": "Outlined icon of a computer screen displaying a map pin, route line, and radar for location tracking.",
+                        "desc": "Remote monitoring and digital symptom tracking"
+                    },
+                    {
+                        "img": "/images/blog/notification-bell-task-reminder-icon.svg",
+                        "alt": "Outlined icon of a notification bell with a task or reminder checklist.",
+                        "desc": "Automated reminders based on individual schedules"
+                    },
+                    {
+                        "img": "/images/blog/global-language-translation-icon.svg",
+                        "alt": "Outlined icon of a globe with speech bubbles showing language translation symbols.",
+                        "desc": "Multilingual clinical trial communication"
+                    },
+                    {
+                        "img": "/images/blog/customer-feedback-performance-rating-icon.svg",
+                        "alt": "Outlined icon showing analytics with a rising chart, star ratings, and a thumbs-up for feedback or performance review.",
+                        "desc": "Gamified progress visualization and motivational feedback"
+                    },
+                    {
+                        "img": "/images/blog/error-warning-troubleshooting-icon.svg",
+                        "alt": "Outlined icon showing a warning triangle with an error symbol indicating an issue or alert.",
+                        "desc": "Predictive dropout risk alerts"
+                    },
+                    {
+                        "img": "/images/blog/user-network-connection-icon.svg",
+                        "alt": "Outlined icon of a user surrounded by connected network nodes.",
+                        "desc": "Patient-centric experience design, not protocol-centric workflows"
+                    }
+                ],
+                "desc2": [
+                    "MediAIna supports <span>reimagining patient journeys in clinical trials</span> with one clear goal: to make participation easier, safer, and more meaningful.",
+                    "Trials using MediAIna see fewer barriers, less frustration, and more sustained involvement, not because patients are obligated, but because they feel supported, informed, connected, and valued. When the industry shifts from compliance to experience, retention stops being a challenge and becomes a natural outcome. Rialtes has been modernizing clinical trial management with MediAIna. If you’re ready, let’s talk about what MediAIna can unlock for you."
+                ]
+            }
+        ],
+        "faqData": [
+            {
+                "question": "Why do patients drop out of clinical trials?",
+                "answer": "Most dropouts occur due to unclear expectations, travel burden, limited support during side effects, emotional fatigue, or overwhelming administrative tasks."
+            },
+            {
+                "question": "How does digital engagement reduce clinical trial dropouts?",
+                "answer": "Digital tools offer real-time guidance, remote participation, symptom support, progress visibility, and proactive communication, making trials easier and more motivating for patients."
+            },
+            {
+                "question": "What digital tools help improve patient retention in trials?",
+                "answer": "Platforms for reminders, telehealth, ePROs, wearable monitoring, real-time chat, and progress dashboards significantly boost adherence and retention."
+            },
+            {
+                "question": "Can technology really prevent clinical trial dropout?",
+                "answer": "Yes. Trials adopting digital engagement strategies report better adherence, fewer missed visits, and higher dataset completeness compared to traditional workflows."
+            },
+            {
+                "question": "What is the best strategy for improving trial retention?",
+                "answer": "A unified platform that combines communication, symptom reporting, reminders, and guidance, so participation becomes simple and predictable."
+            },
+            {
+                "question": "How does MediAIna support patient retention in clinical trials?",
+                "answer": "MediAIna provides a fully connected digital engagement ecosystem that supports patients throughout the trial journey, reducing burden and strengthening motivation to stay involved."
+            }
+        ],
+        "schemaData": {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Why Clinical Trial Dropouts Happen — And How Digital Engagement Prevents Them | Rialtes",
+            "description": "If your research team is still wondering why patients drop out of clinical trials, the answer almost always traces back to gaps in experience, communication, or support.",
+            "image": "https://www.rialtes.com/images/blog/patient-consultation-genomics.webp",
+            "author": {
+                "@type": "Organization",
+                "name": "Rialtes"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Rialtes",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.rialtes.com/images/homepage/logo.svg"
+                }
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.rialtes.com/en/insights/blogs/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/"
+            },
+            "datePublished": "2025-12-03",
+            "keywords": "patient drop out clinical trials, clinical trial retention, MediAIna",
+            "mainEntity": {
+                "@type": "FAQPage",
+                "name": "Clinical Trial Dropouts FAQs",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Why do patients drop out of clinical trials?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Most dropouts occur due to unclear expectations, travel burden, limited support during side effects, emotional fatigue, or overwhelming administrative tasks."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does digital engagement reduce clinical trial dropouts?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Digital tools offer real-time guidance, remote participation, symptom support, progress visibility, and proactive communication, making trials easier and more motivating for patients."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What digital tools help improve patient retention in trials?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Platforms for reminders, telehealth, ePROs, wearable monitoring, real-time chat, and progress dashboards significantly boost adherence and retention."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can technology really prevent clinical trial dropout?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. Trials adopting digital engagement strategies report better adherence, fewer missed visits, and higher dataset completeness compared to traditional workflows."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What is the best strategy for improving trial retention?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "A unified platform that combines communication, symptom reporting, reminders, and guidance, so participation becomes simple and predictable."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does MediAIna support patient retention in clinical trials?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "MediAIna provides a fully connected digital engagement ecosystem that supports patients throughout the trial journey, reducing burden and strengthening motivation to stay involved."
+                        }
+                    }
+                ]
+            }
+        },
+        "blogTitle": "Why Clinical Trial Dropouts Happen — And How Digital Engagement Prevents Them",
+        "faqTitle": "FAQs: Leverage Data and AI to enhance Modern HR with SAP SuccessFactors",
+        "bannerAlt": "Nurse showing medical information to a patient with a headscarf beside a digital DNA graphic.",
+        "seoTitle": "How Digital Care Reduces Patient Drop Out in Clinical Trials | Rialtes",
+        "seoDescription": "If your research team is still wondering why patients drop out of clinical trials, the reason often lies in gaps in experience, communication, or support."
     }
 }
