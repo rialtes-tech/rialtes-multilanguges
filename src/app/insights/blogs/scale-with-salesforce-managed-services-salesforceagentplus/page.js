@@ -6,6 +6,7 @@ import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 import BlogSocialIcons from '@/app/components/blogSocialIcons'
+import Link from "next/link";
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/scale-with-salesforce-managed-services-salesforceagentplus";
     const currUrl = useUrl()
@@ -616,9 +617,13 @@ export default function Page() {
                                             and automation—from lead to loyalty, all inside one connected platform
                                         </p>
 
-                                        <button className="4xl:mt-6 2xl:mt-9 xl:mt-5 md:mt-3 bottom-0 bg-[#006FBE] text-white px-6 py-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[14px] font-semibold">
-                                            Watch the Webinar
-                                        </button>
+                                        <Link
+                                            href="https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
+                                        >
+                                            <button className="4xl:mt-6 2xl:mt-9 xl:mt-5 md:mt-3 bottom-0 bg-[#006FBE] text-white px-6 py-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[14px] font-semibold">
+                                                Watch the Webinar
+                                            </button>
+                                        </Link>
                                     </div>
                                 </div>
 
