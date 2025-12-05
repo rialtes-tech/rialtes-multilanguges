@@ -116,7 +116,7 @@ export default function SalesForceConsulting() {
             title: 'Lightning Services',
             description: 'Dedicated app developers are at your disposal for the development of an app closely knit for enhanced customer experience.'
         },
-        {
+        { 
             id: 2,
             imageUrl: '/images/salesforce-consulting-services/inte.svg',
             title: 'Integration Services',
