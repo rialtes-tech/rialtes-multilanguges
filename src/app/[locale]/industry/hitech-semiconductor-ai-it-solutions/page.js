@@ -75,7 +75,7 @@ export default function Page() {
               <h1 className="text-[#FFFFFF] text-[18px] md:text-[24px] font-bold lg:w-full">
                 {t("headerTitle")}
               </h1>
-              <h2 className="text-[#FFFFFF] text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px] w-[71%] sm:w-full">
+              <h2 className="text-[#FFFFFF] text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]  sm:w-full">
                 {t("subTitleOne")} <div className="sm:block hidden" />{" "}
                 {t("subTitleTwo")}
                 <div className="sm:block hidden" /> {t("subTitleThree")}
@@ -159,7 +159,7 @@ export default function Page() {
         <p className="xl:text-[30px] 4xl:text-[36px] text-[22px] font-semibold xl:mt-[27px] mt-[17px]">
           {t("endDesc")}
         </p>
-        <div className="relative grid lg:grid-cols-2 grid-cols-1 xl:mt-[66px] mt-[46.5px] md:w-[80%] lg:w-full xl:w-[98%]">
+        <div className="relative grid lg:grid-cols-2 grid-cols-1 md:w-[80%] lg:w-full xl:w-[98%]">
           {endToEndData.map((data, ind) => {
             return (
               <div
