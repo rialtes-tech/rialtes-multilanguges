@@ -4,13 +4,14 @@ import Seo from "@/app/[locale]/components/Seo";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Script from "next/script";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
-import RelatedCaseStudies from "@/app/[locale]/components/RelatedCaseStudies"
 import useUrl from "@/app/[locale]/components/useUrl";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/caseStudy.json";
 import esContent from "../../../../../../messages/es/caseStudy.json";
 import frContent from "../../../../../../messages/fr/caseStudy.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import RelatedCaseStudies from "@/app/[locale]/components/RelatedCaseStudies"
+
 
 
 export default function page() {
@@ -205,7 +206,7 @@ export default function page() {
 
             {/* case study carousel */}
             <section className="custom-container lg:pr-0 xl:my-[120px] md:my-[60px] my-[60px]">
-                <RealtedCaseStudies url={currUrl} currTopic="Automotive" />
+                <RelatedCaseStudies url={currUrl} currTopic="Automotive" />
             </section>
         </section>
     );

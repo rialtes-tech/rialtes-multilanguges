@@ -388,7 +388,7 @@ export default function page() {
                 </div>
             </section>
             {/* migrate salesforce section */}
-            <section className="custom-container xl:mt-[197px] mt-[72px]">
+            <section className="custom-container 4xl:mt-[150px]  xl:mt-[110px] mt-[72px]">
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-y-[36px] md:gap-[20px]">
                     <div className="my-auto md:order-1 order-2">
                         <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
