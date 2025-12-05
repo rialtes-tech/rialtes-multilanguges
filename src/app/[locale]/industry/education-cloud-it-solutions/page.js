@@ -22,10 +22,10 @@ export default function Page() {
   const Services2 = () => {
     return (
       <div className="mx-auto text-black">
-        <h2 className="text-black mb-6 4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[45px] md:text-[35px] text-[26px] max-[350px]:text-[22px] leading-tight">
+        <h2 className="text-black mb-6 4xl:text-[60px]  xl:text-[46px] lg:text-[45px] md:text-[35px] text-[26px] max-[350px]:text-[22px] leading-tight">
           {t('rialtesTitle')}
         </h2>
-        <h3 className="4xl:text-[42px] 2xl:text-[40px] xl:text-[36px] lg:text-[36px] md:text-[26px] max-[390px]:text-[20px] xl:font-bold  font-medium mt-5 text-[22px] pr-10 xl:pr-0">
+        <h3 className="4xl:text-[42px]  xl:text-[36px] lg:text-[36px] md:text-[26px] max-[390px]:text-[20px] xl:font-bold  font-medium mt-5 text-[22px] pr-10 xl:pr-0">
           {t('rialtesSubtitle')}
         </h3>
         <p className="mt-5 4xl:text-[22px] 2xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] w-full pr-4 xl:pr-0 font-light leading-tight">
@@ -68,7 +68,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative group overflow-hidden xl:pb-40 2xl:pb-20 pb-10 h-[400px] md:h-[530px]  4xl:h-[650px] 2xl:h-[550px] xl:h-[600px]">
+      <section className="relative group overflow-hidden xl:pb-40 2xl:pb-20 pb-10 h-[400px] md:h-[530px]  4xl:h-[650px] 2xl:h-[500px] xl:h-[550px]">
         <div className="md:block hidden">
           <Image
             src="/images/education/digital-education-graduate-future-learning.webp"
@@ -99,7 +99,7 @@ export default function Page() {
               <h1 className="text-white leading-tight xl:pr-[130px] xl:mt-10 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px]  text-[24px] ">
                 {t('headerSubTitle')}
               </h1>
-              <h3 className="4xl:text-[45px] 2xl:text-[40px] xl:text-[35px]  xl:mt-10 mt-5 text-white font-bold text-[18px] leading-tight">
+              <h3 className="4xl:text-[45px] 2xl:text-[38px] xl:text-[35px]  xl:mt-10 mt-5 text-white font-bold text-[18px] leading-tight">
                 {t('headerSubTitleOne')}
               </h3>
             </div>
@@ -187,7 +187,7 @@ export default function Page() {
           ? "xl:mt-40 4xl:mt-[14rem] 2xl:mt-[13rem]"
           : locale === "fr"
             ? "xl:mt-40 4xl:mt-[14rem] 2xl:mt-[13rem]"
-            : "xl:mt-40"
+            : "xl:mt-[13rem]"
         }`}>
         <div className="pb-16 bg-white">
           <Services2 />
@@ -292,7 +292,7 @@ export default function Page() {
               </div>
             </div>
             <div className="bg-[#C4EBEA] custom-container w-full xl:pr-20 xl:pb-20 pb-10 pt-[8rem] xl:pt-[5rem]">
-              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px] font-medium leading-tight max-[400px]:text-[25px] max-[350px]:text-[20px] ">
+              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[40px] xl:text-[36px] lg:text-[40px] md:text-[30px] font-medium leading-tight max-[400px]:text-[25px] max-[350px]:text-[20px] ">
                 {t('hyperTitle')}
               </h2>
               <UnorderedList
@@ -320,7 +320,7 @@ export default function Page() {
               </div>
             </div>
             <div className="bg-[#F7E2D4] w-full xl:pb-20 pb-10 pt-[6rem] xl:!pl-12 mt-[-3rem]  custom-container">
-              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px] font-medium leading-tight 4xl:w-[608px] 2xl:w-[590px] xl:w-[550px] max-[400px]:text-[25px] max-[350px]:text-[22px]">
+              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[40px] xl:text-[36px] lg:text-[40px] md:text-[30px] font-medium leading-tight 4xl:w-[608px] 2xl:w-[590px] xl:w-[550px] max-[400px]:text-[25px] max-[350px]:text-[22px]">
                 {t('lifelongTitle')}
               </h2>
               <UnorderedList
@@ -353,10 +353,10 @@ export default function Page() {
               </div>
             </div>
             <div className="bg-[#D6CFCF] custom-container w-full xl:pr-12 xl:pb-20 pb-10 pt-[5rem] -mt-14">
-              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px] font-medium leading-tight max-[400px]:text-[25px] max-[350px]:text-[20px]">
+              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[40px] xl:text-[36px] lg:text-[40px] md:text-[30px] font-medium leading-tight max-[400px]:text-[25px] max-[350px]:text-[20px]">
                 {t('serviceTitle')}
               </h2>
-              <h3 className="mt-10 font-bold 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] text-[22px] max-[400px]:text-[21px] pr-10 xl:pr-0">
+              <h3 className="mt-10 font-bold 4xl:text-[40px] 2xl:text-[34px] leading-tight xl:text-[30px] text-[22px] max-[400px]:text-[21px] pr-10 xl:pr-0">
                 {t('serviceSubtitle')}
               </h3>
               <UnorderedList
@@ -384,10 +384,10 @@ export default function Page() {
               </div>
             </div>
             <div className="bg-[#E8DFC7] w-full xl:pb-20 pb-10 pt-[6rem] xl:!pl-16 mt-[-3rem] custom-container">
-              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px] font-medium leading-tight max-[400px]:text-[25px] max-[350px]:text-[20px]  ">
+              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[40px] xl:text-[36px] lg:text-[40px] md:text-[30px] font-medium leading-tight max-[400px]:text-[25px] max-[350px]:text-[20px]  ">
                 {t('seamlessTitle')}
               </h2>
-              <h3 className="mt-10 font-bold 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] text-[22px]  max-[400px]:text-[21px] max-[350px]:text-[18px]">
+              <h3 className="mt-10 font-bold 4xl:text-[40px] 2xl:text-[34px] leading-tight xl:text-[30px] text-[22px]  max-[400px]:text-[21px] max-[350px]:text-[18px]">
                 {t('seamlessSubtitle')}
               </h3>
               <UnorderedList
@@ -420,10 +420,10 @@ export default function Page() {
               </div>
             </div>
             <div className="bg-[#F1D8D9] custom-container w-full xl:pr-20 xl:pb-20 pb-10 pt-[6rem] xl:pt-[6rem] -mt-16">
-              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px]  max-[400px]:text-[25px] max-[350px]:text-[20px] font-medium leading-tight pr-10">
+              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[40px] xl:text-[36px] lg:text-[40px] md:text-[30px]  max-[400px]:text-[25px] max-[350px]:text-[20px] font-medium leading-tight pr-10">
                 {t('dynamicTitle')}
               </h2>
-              <h3 className="xl:mt-10 mt-5 font-bold 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] text-[22px] max-[350px]:text-[18px] max-[400px]:text-[21px]">
+              <h3 className="xl:mt-10 mt-5 font-bold 4xl:text-[40px] leading-tight 2xl:text-[34px] xl:text-[30px] text-[22px] max-[350px]:text-[18px] max-[400px]:text-[21px]">
                 {t('dynamicSubtitle')}
               </h3>
               <UnorderedList
@@ -451,10 +451,10 @@ export default function Page() {
               </div>
             </div>
             <div className="bg-[#C7E8E9] w-full xl:pb-20 pb-10 pt-[6rem] xl:!pl-16 mt-[-3rem] custom-container">
-              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px]   max-[350px]:text-[20px]  font-medium  leading-tight">
+              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[40px] xl:text-[36px] lg:text-[40px] md:text-[30px]   max-[350px]:text-[20px]  font-medium  leading-tight">
                 {t('unifiedTitle')}
               </h2>
-              <h3 className="xl:mt-10 mt-5 font-bold 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] text-[22px]  max-[400px]:text-[21px] max-[350px]:text-[18px]">
+              <h3 className="xl:mt-10 mt-5 font-bold 4xl:text-[40px] 2xl:text-[34px] leading-tight xl:text-[30px] text-[22px]  max-[400px]:text-[21px] max-[350px]:text-[18px]">
                 {t('unifiedSubtitle')}
               </h3>
               <UnorderedList
@@ -488,10 +488,10 @@ export default function Page() {
             </div>
 
             <div className="bg-[#C4E2FF] custom-container w-full xl:pr-20 xl:pb-20 pb-10 pt-[7rem] xl:pt-[6rem] -mt-16">
-              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[42px] xl:text-[38px] lg:text-[40px] md:text-[30px]  max-[400px]:text-[25px] max-[350px]:text-[20px]  font-medium leading-tight  xl:pr-0">
+              <h2 className="text-[28px] 4xl:text-[47px] 2xl:text-[40px] xl:text-[36px] lg:text-[40px] md:text-[30px]  max-[400px]:text-[25px] max-[350px]:text-[20px]  font-medium leading-tight  xl:pr-0">
                 {t('empoweringTitle')}
               </h2>
-              <h3 className="mt-5 font-bold 4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] text-[22px]  max-[400px]:text-[21px] max-[350px]:text-[18px]">
+              <h3 className="mt-5 font-bold 4xl:text-[40px] 2xl:text-[34px] xl:text-[30px] text-[22px] leading-tight  max-[400px]:text-[21px] max-[350px]:text-[18px]">
                 {t('empoweringSubtitle')}
               </h3>
               <UnorderedList
@@ -535,7 +535,7 @@ export default function Page() {
           <div className="text-white h-full relative custom-container">
             <div className="grid md:grid-cols-12 grid-cols-1 text-white">
               <div className="md:col-span-8 col-span-12 md:pr-20">
-                <h2 className="text-[30px] 4xl:text-[50px] 2xl:text-[46px] xl:text-[40px] md:text-[35]  text-white leading-tight md:pr-10 font-medium max-[400px]:text-[26px] max-[350px]:text-[24px]">
+                <h2 className="text-[30px] 4xl:text-[50px]  xl:text-[40px] md:text-[35]  text-white leading-tight md:pr-10 font-medium max-[400px]:text-[26px] max-[350px]:text-[24px]">
                   <span className="font-bold 4xl:text-[70px] 2xl:text-[65px] xl:text-[62px] md:text-[50] text-[40px] max-[400px]:text-[36px] max-[350px]:text-[34px]">
                     {t('agentchatTitle')}
                   </span>

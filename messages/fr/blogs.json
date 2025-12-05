@@ -8528,8 +8528,8 @@
             "La probabilité de renouvellement dépend d’une forte visibilité client",
             "La réussite de l’upsell dépend de la segmentation et des insights"
         ],
-        "statePropertyTitle": "L’état des opérations immobilières : trop de tâches, trop peu de temps",
-        "statePropertyPara1": "Les Services Gérés Salesforce sont un partenariat continu qui fournit une expertise dédiée pour optimiser Salesforce en continu, mettre en œuvre de nouvelles capacités, gérer les intégrations, automatiser les processus et saisir les opportunités de revenus sans augmenter les équipes informatiques internes.",
+        "statePropertyTitle": "Que sont les Services Gérés dans Salesforce ?",
+        "statePropertyPara1": "<a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce Managed Services</a> est un partenariat continu qui offre une expertise dédiée pour optimiser Salesforce en continu, mettre en œuvre de nouvelles capacités, gérer les intégrations, automatiser les processus et saisir des opportunités de revenus sans élargir les équipes informatiques internes.",
         "statePropertyPara2": "En d’autres termes :",
         "statePropertyPara3": "Au lieu d’utiliser Salesforce « tel quel », les Services Gérés l’améliorent mois après mois en fonction des objectifs de l’entreprise.",
         "salesforceIncludeTitle": "Ce que les Services Gérés Salesforce incluent réellement",
@@ -8652,7 +8652,7 @@
         "discoverAgenticTitle": " Découvrez les capacités agentiques d’Agentforce",
         "discoverAgenticPara": "Découvrez comment vos équipes peuvent orienter chaque interaction client grâce aux données, à l’IA et à l’automatisation — du lead à la fidélisation, le tout dans une plateforme connectée.",
         "watchButton": " Regarder le webinaire",
-        "discoverAgenticPara2": "SalesforceAgent+ propose des Services Gérés pilotés par l’IA, conçus spécifiquement pour accélérer les résultats commerciaux, et pas seulement la maintenance du CRM. De l’automatisation et des intégrations à l’analytique, l’activation de Data Cloud et les agents IA — le modèle garantit que Salesforce devienne plus intelligent mois après mois.",
+         "discoverAgenticPara2" : "<a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> SalesforceAgent+</a> propose des Services Gérés basés sur l’IA conçus spécifiquement pour accélérer les résultats commerciaux, et pas seulement la maintenance du CRM. De l’automatisation et des intégrations à l’analytique, à l’activation de Data Cloud et aux agents IA — le modèle garantit que Salesforce devienne de plus en plus intelligent mois après mois.",
         "discoverAgenticPara3": "Au lieu de planifier de “grandes refontes CRM” tous les deux ans, vous obtenez une croissance continue, une meilleure adoption, une vente plus rapide et une valeur client à vie plus élevée — sans augmenter la charge de travail interne.",
         "discoverAgenticPara4": "Si Salesforce est déjà au cœur de votre entreprise, SalesforceAgent+ s’assure qu’il devienne également au cœur de votre succès.",
         "faqTitle": "FAQ : Faites évoluer les revenus de votre entreprise avec les Services Managés Salesforce",
@@ -8718,6 +8718,7 @@
         ],
         "seoTitle": "Services Managés Salesforce : Comment SalesforceAgent+ Stimule la Croissance",
         "seoDescription": "SalesforceAgent+ fournit des Services Managés alimentés par l’IA pour Salesforce, conçus pour accélérer les résultats commerciaux, et non simplement la maintenance du CRM.",
-        "bannerAlt" : "Lignes fibre optique fluides colorées avec points lumineux représentant flux données connectivité réseau technologie numérique"
+        "bannerAlt": "Lignes fibre optique fluides colorées avec points lumineux représentant flux données connectivité réseau technologie numérique",
+        "webinarImgAlt" : "Professionnel avec lunettes superposé visualisation données numériques représentant plateforme capacités IA agentique Agentforce"
     }
 }

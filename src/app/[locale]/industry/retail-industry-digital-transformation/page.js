@@ -58,7 +58,7 @@ export default function retailPage() {
                             <h3 className="text-[#FFFFFF] text-[18px] md:text-[24px]  font-bold lg:w-full">
                                 {t('headerTitle')}  
                             </h3>
-                            <h1 className="text-[#FFFFFF] md:pr-32 xl:pr-0 text-[26px] leading-[34px] md:text-[36px] md:leading-[50px] lg:text-[40px]  2xl:text-[60px] xl:text-[50px] 2xl:leading-[73px] xl:leading-[65px] lg:leading-[50px] mt-[11.5px] md:mt-[28.5px] max-[350px]:text-[22px] max-[350px]:leading-[30px]">
+                            <h1 className="text-[#FFFFFF] md:pr-32 xl:pr-0 text-[26px] leading-[34px] md:text-[36px] md:leading-[50px] lg:text-[40px]  4xl:text-[60px] 2xl:text-[48px] xl:text-[50px] 2xl:leading-[73px] xl:leading-[65px] lg:leading-[50px] mt-[11.5px] md:mt-[28.5px] max-[350px]:text-[22px] max-[350px]:leading-[30px]">
                                 {t('headerSubTitle')}  
                             </h1>
                         </div>
@@ -349,7 +349,7 @@ export default function retailPage() {
                                     ? "pt-[27px]"
                                     : locale === "fr"
                                         ? "pt-[40px]"
-                                        : "pt-[25px]"
+                                        : "4xl:pt-[125px] 2xl:pt-[105px] xl:pt-[150px] pt-[25px] "
                                 }`}
 
                             >
