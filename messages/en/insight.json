@@ -295,6 +295,17 @@
       }
     ],
     "latestBlogs": [
+     {
+    "id": 61,
+    "image": "/images/blog/patient-consultation-genomics-mobile.webp",
+    "category": "MediAina",
+    "industry": "Life Sciences",
+    "date": "Dec. 03, 2025",
+    "url": "/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/",
+    "title": "Why Clinical Trial Dropouts Happen — And How Digital Engagement Prevents Them",
+    "alt": "Nurse showing medical information to a patient with a headscarf beside a digital DNA graphic.",
+    "description": "Every clinical trial begins with optimism. Researchers design protocols with precision, investigators prepare sites, and patients sign up with real hope for better outcomes. But somewhere along the journey, many participants quietly step away."
+  },
        {
         "id": 60,
         "image": "/images/blog/salesforce-managed-services-salesforceagent-plus-mobile.webp",

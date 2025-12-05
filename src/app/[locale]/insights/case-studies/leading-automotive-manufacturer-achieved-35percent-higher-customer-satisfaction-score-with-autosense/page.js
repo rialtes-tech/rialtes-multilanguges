@@ -29,7 +29,7 @@ export default function Page() {
   const fullUrl = "https://www.rialtes.com/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/";
 
   return (
-    <div className="min-h-screen xl:mb-[120px] mb-[80px]">
+    <div className="min-h-screen  xl:mb-0 mb-[80px]">
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
@@ -181,7 +181,7 @@ export default function Page() {
       </section>
 
       {/* case study carousel */}
-      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+      <section className="custom-container lg:pr-0 xl:mt-[80px] md:mt-[60px] my-[40px]">
         <RelatedCaseStudies url={currUrl} currTopic={t('Automotive')} />
       </section>
     </div>
