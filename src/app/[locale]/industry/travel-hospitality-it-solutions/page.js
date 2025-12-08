@@ -64,7 +64,7 @@ export default function Page() {
                                 <h3 className="text-[#000000] text-[18px] md:text-[24px] font-bold max-lg:w-[80%] md:w-[50%] lg:w-full">
                                     {t('headerTitle')}
                                 </h3>
-                                <h1 className="text-[#00000] text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px] max-md:w-[69%] max-[380px]:w-[85%] md:w-[60%] xl:w-[70%]">
+                                <h1 className="text-[#00000] text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px] max-md:w-[69%] max-[380px]:w-[85%] md:w-[60%] 4xl:w-[65%] xl:w-[60%]">
                                     {t('headerSubTitle')}
                                 </h1>
                             </div>
@@ -561,7 +561,7 @@ export default function Page() {
                                 {t('quickCommerceDesc')}
                             </p>
                             <UnorderedList arrName={quickCommereceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]" liClassName="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal" />
-                            <div className="xl:mt-[50px] mt-[36px]">
+                            <div className="xl:mt-[120px] mt-[36px]">
                                 <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
                         </div>

@@ -10,6 +10,7 @@ import enContent from '../../../../../../messages/en/blogs.json';
 import esContent from '../../../../../../messages/es/blogs.json';
 import frContent from '../../../../../../messages/fr/blogs.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import Link from "next/link";
 import useUrl from "@/app/[locale]/components/useUrl";
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
 
@@ -19,8 +20,8 @@ export default function Page() {
     const t = useTranslations('salesforceManaged')
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const {salesforceManaged,salesforceBusiness , revenueGrowth,salesforceManagedSections,tableData,businessBiggestImpact,faqs,statePropertyPara1,discoverAgenticPara2 } = blogsContent.salesforceManaged;
-     const schemaData = {
+    const { salesforceManaged, salesforceBusiness, revenueGrowth, salesforceManagedSections, tableData, businessBiggestImpact, faqs, statePropertyPara1, discoverAgenticPara2 } = blogsContent.salesforceManaged;
+    const schemaData = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "headline": "Salesforce Managed Services & SalesforceAgent+: Scale Revenue",
@@ -141,7 +142,7 @@ export default function Page() {
                 }
             ]
         }
- 
+
     }
 
     return (
@@ -187,8 +188,8 @@ export default function Page() {
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12">
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
-                        <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="01 December 2025" />
-                     
+                        <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="02 December 2025" />
+
 
 
 
@@ -259,9 +260,9 @@ export default function Page() {
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                     {t("statePropertyTitle")}
                                 </h2>
-                                
+
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
-                                    dangerouslySetInnerHTML={{ __html:statePropertyPara1  }} />
+                                    dangerouslySetInnerHTML={{ __html: statePropertyPara1 }} />
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                                     {t("statePropertyPara2")}
                                 </p>
@@ -342,17 +343,17 @@ export default function Page() {
                                     <table className="w-full table-fixed border-collapse">
 
                                         <thead>
-                                            <tr className="bg-[#E3E3E3] text-black font-medium 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[16px] text-[14px]">
+                                            <tr className="bg-[#E3E3E3] text-black font-medium 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[16px] text-[12px]">
 
-                                                <th className="xl:w-[50%] md:w-[45%] w-[40%] text-left py-3 pl-4">
+                                                <th className="xl:w-[50%] md:w-[45%] w-[40%] text-left py-3 pl-4 ">
                                                     {t("internalSalesforceheading1")}
                                                 </th>
                                                 <th className="xl:w-[25%] md:w-[25%] w-[30%] text-left py-3 pl-6">
                                                     {t("internalSalesforceheading2")}
                                                 </th>
                                                 <th className="xl:w-[25%]  md:w-[30%] w-[30%] text-left py-3 pl-4">
-                                                   {t("internalSalesforceheading3")}
-                                                   </th>
+                                                    {t("internalSalesforceheading3")}
+                                                </th>
                                             </tr>
                                         </thead>
 
@@ -360,15 +361,15 @@ export default function Page() {
                                             {tableData.map((row, idx) => (
                                                 <tr key={idx} className="border-b border-black ">
 
-                                                    <td className="py-3 font-medium align-top 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[14px] xl:pr-[220px] md:pr-[40px]">
+                                                    <td className="py-3 font-medium align-top 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[12px] xl:pr-[220px] md:pr-[40px]">
                                                         {row.requirement}
                                                     </td>
 
-                                                    <td className="py-3 font-medium pl-6 align-top 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[14px]">
+                                                    <td className="py-3 font-medium pl-6 align-top 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[12px]">
                                                         {row.internal}
                                                     </td>
 
-                                                    <td className="py-3 font-medium pl-4 align-top 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[14px]">
+                                                    <td className="py-3 font-medium pl-4 align-top 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[12px]">
                                                         {row.managed}
                                                     </td>
                                                 </tr>
@@ -412,7 +413,7 @@ export default function Page() {
                                 </h2>
 
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                   {t("salesforceProjectPara1")}
+                                    {t("salesforceProjectPara1")}
                                 </p>
 
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
@@ -420,27 +421,37 @@ export default function Page() {
                                 </p>
 
 
-                                <div className="relative w-full mt-[45px]">
+                                <div className="relative w-full mt-[45px] ">
                                     <img
-                                        src="/images/blog/ad-webinar-banner.webp"
-                                        alt="Agentforce"
-                                        className="w-full h-auto object-cover "
+                                        src="/images/blog/agentforce-agentic-ai-capabilities-platform-visualization.webp"
+                                        alt={t("webinarImgAlt")}
+                                        className={`
+                                        ${locale === "es"
+                                                ? "w-full 4xl:h-[380px] 2xl:h-[358px] xl:h-[320px] md:h-[315px] object-cover "
+                                                : locale === "fr"
+                                                    ? "w-full 4xl:h-[380px] 2xl:h-[358px] xl:h-[320px] md:h-[330px] object-cover "
+                                                    : "w-full 4xl:h-[340px] 2xl:h-[320px] xl:h-[285px] md:h-[290px] object-cover "
+                                            }`}
                                     />
 
 
                                     <div className="absolute top-[14%] left-[5%] w-[40%] hidden md:block">
 
-                                        <h2 className="text-black font-bold 4xl:text-[30px] 2xl:text-[26px] xl:text-[22px] md:text-[18px] leading-tight">
-                                          {t("discoverAgenticTitle")}
+                                        <h2 className="text-black font-bold 4xl:text-[28px] 2xl:text-[26px] xl:text-[20px] md:text-[18px] leading-tight">
+                                            {t("discoverAgenticTitle")}
                                         </h2>
 
-                                        <p className="text-black mt-4 4xl:text-[22px] 2xl:text-[19px] xl:text-[18px] md:text-[16px] leading-relaxed">
+                                        <p className="text-black mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] leading-relaxed">
                                             {t("discoverAgenticPara")}
                                         </p>
 
-                                        <button className="4xl:mt-6 2xl:mt-9 xl:mt-5 bg-[#006FBE] text-white px-6 py-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[14px] font-semibold">
-                                           {t("watchButton")}
-                                        </button>
+                                        <Link
+                                            href="https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
+                                        >
+                                            <button
+                                                className="4xl:mt-6 2xl:mt-9 xl:mt-5 mt-3 bg-[#006FBE] text-white px-6 py-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[14px] font-semibold">
+                                                {t("watchButton")}
+                                            </button></Link>
                                     </div>
                                 </div>
 
@@ -452,12 +463,16 @@ export default function Page() {
                                     </h2>
 
                                     <p className="text-black mt-2 text-[16px] leading-relaxed">
-                                       {t("discoverAgenticPara")}
+                                        {t("discoverAgenticPara")}
                                     </p>
 
-                                    <button className="mt-4 bg-[#006FBE] text-white px-4 py-2 text-[14px] font-semibold">
-                                         {t("watchButton")}
-                                    </button>
+                                    <Link
+                                        href="https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
+                                    >
+                                        <button
+                                            className="mt-4 bg-[#006FBE] text-white px-4 py-2 text-[14px] font-semibold">
+                                            {t("watchButton")}
+                                        </button></Link>
                                 </div>
 
                                 <p className="mt-[40px] xl:mt-[45px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
