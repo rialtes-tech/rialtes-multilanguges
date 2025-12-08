@@ -345,7 +345,7 @@ export default function Page() {
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">Key Benefits of Partnering With an SAP Managed Services Provider</h2>
                                 {keyData.map((data, ind) => (
-                                    <div className="grid md:grid-cols-12 gap-x-5 max-md:pb-10 max-md:pt-5 md:py-5 border-b border-[#b0aeae] last:border-0" key={ind} >
+                                    <div className="grid md:grid-cols-12 gap-x-5 max-md:pb-10 max-md:last:pb-0 max-md:pt-5 md:py-5 border-b border-[#b0aeae] last:border-0" key={ind} >
 
                                         <div className="md:col-span-2 max-md:flex gap-10">
                                             <div className="text-[#1A82E0] 4xl:text-[150px] 2xl:text-[130px] xl:text-[120px] md:text-[100px] text-[80px]">
@@ -353,9 +353,9 @@ export default function Page() {
                                             </div>
 
                                             <div className="max-md:flex justify-center items-center">
-                                                <h3 className="md:hidden block 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[16px] text-[16px] font-bold">
+                                                <p className="md:hidden block 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[16px] text-[16px] font-bold">
                                                     {data.title}
-                                                </h3>
+                                                </p>
                                             </div>
                                         </div>
 
@@ -428,9 +428,9 @@ export default function Page() {
                                         {
                                             data.list.map((data, ind) => {
                                                 return (
-                                                    <div className="md:flex mt-24 md:mt-[26px] py-[34px] md:py-[40px] lg:py-[60px] 4xl:py-[50px] px-[26px] md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto xl:w-[1000px] 4xl:w-[1100px]" key={ind}>
-                                                        <h3 className={`md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[420px] xl:w-[340px] md:w-[380px] w-fit md:left-[-60px] bg-[#006FBE] text-white font-semibold 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[20px] text-[20px] px-[20px] py-[18px] md:px-[30px] md:py-[22px] leading-tight xl:h-[90px] 4xl:h-[100px] ${(ind == 4) ? "xl:pt-[36px]" : ""} ${(ind == 2) ? "4xl:pt-[36px]" : ""}`}><span>{data.title}</span></h3>
-                                                        <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[340px] xl:ml-[300px] 4xl:ml-[390px]" dangerouslySetInnerHTML={{ __html: data.desc }} />
+                                                    <div className="md:flex mt-24 md:mt-[26px] py-[34px] md:py-[40px] lg:py-[40px] 4xl:py-[40px] px-[26px] md:pr-[50px] 4xl:pr-[30px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto xl:w-[950px] 4xl:w-[1100px]" key={ind}>
+                                                        <h3 className={`md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[400px] xl:w-[340px] md:w-[380px] w-fit md:left-[-60px] bg-[#006FBE] text-white font-semibold 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[20px] text-[20px] px-[20px] py-[18px] md:px-[30px] md:py-[22px] leading-tight xl:h-[90px] 4xl:h-[100px] ${(ind == 4) ? "xl:pt-[36px]" : ""} ${(ind == 2) ? "4xl:pt-[36px]" : ""}`}><span>{data.title}</span></h3>
+                                                        <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[340px] xl:ml-[300px] 4xl:ml-[380px]" dangerouslySetInnerHTML={{ __html: data.desc }} />
                                                     </div>
 
                                                 )
@@ -482,9 +482,9 @@ export default function Page() {
                                 <div className="bg-[#073259] flex flex-col justify-between px-10 pt-10 text-white">
 
                                     <div>
-                                        <h2 className="font-bold 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                                        <p className="font-bold 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                             Voyage with SAP – Transformational RISE with SAP Services by Rialtes
-                                        </h2>
+                                        </p>
 
                                         <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mb-5">
                                             Discover how your teams can steer every customer interaction using data, AI,
