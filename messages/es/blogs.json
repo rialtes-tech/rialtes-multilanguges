@@ -8824,5 +8824,327 @@
         "bannerAlt": "Enfermera mostrando información médica a una paciente con pañuelo junto a un gráfico de ADN digital.",
         "seoTitle": "Cómo el Cuidado Digital Reduce el Abandono en Ensayos Clínicos | Rialtes",
         "seoDescription": "Si tu equipo de investigación se pregunta por qué los pacientes abandonan los ensayos clínicos, la causa suele ser brechas en experiencia, comunicación o soporte."
+    },
+    "sapManaged": {
+        "schemaData": {},
+        "faqData": [
+            {
+                "question": "¿Qué son los servicios gestionados de SAP?",
+                "answer": "Son servicios continuos que respaldan, optimizan e innovan tu entorno SAP, incluyendo monitoreo, gestión del cambio, mejoras, migración a la nube y transformación impulsada por IA."
+            },
+            {
+                "question": "¿Cuáles son ejemplos de servicios gestionados?",
+                "answer": "Actualizaciones del sistema, resolución de errores, automatización de flujos de trabajo, desarrollo de integraciones, habilitación analítica, optimización del rendimiento y mejoras con IA impulsadas por Joule."
+            },
+            {
+                "question": "¿Cuál es la diferencia entre ITSM y los servicios gestionados?",
+                "answer": "ITSM gestiona la entrega de servicios en todos los sistemas de TI. Los servicios gestionados se enfocan específicamente en mejorar, modernizar y escalar estratégicamente SAP."
+            },
+            {
+                "question": "¿Qué es un proveedor de servicios gestionados?",
+                "answer": "Es una organización que asume la responsabilidad de mantener y optimizar los sistemas SAP mediante servicios basados en SLA, soporte de innovación y programas de mejora alineados con el negocio."
+            }
+        ],
+        "mainData": [
+            "La mayoría de las organizaciones dependen de SAP para gestionar finanzas, cadena de suministro, RR. HH., manufactura, adquisiciones y operaciones con clientes. Pero la verdad es simple: implementar SAP es solo la línea de partida. El verdadero valor está en mantener los sistemas optimizados, innovar continuamente y alinear las capacidades de SAP con las prioridades cambiantes del negocio.",
+            "Ahí es exactamente donde los servicios gestionados de SAP demuestran su valor. Van más allá de “mantener los sistemas en funcionamiento”. Convierten a SAP en un motor digital vivo que aprende, se adapta, escala y potencia la transformación empresarial mediante IA, automatización y flujos de trabajo inteligentes.",
+            "Desglosemos cómo los servicios gestionados de SAP transforman los resultados del negocio y por qué más empresas ahora los consideran una estrategia a largo plazo, en lugar de un soporte de emergencia."
+        ],
+        "whatSapData": [
+            {
+                "title": "¿Qué son los servicios gestionados de SAP?",
+                "desc": [
+                    "Los servicios gestionados de SAP brindan soporte a largo plazo en todo el entorno SAP de una empresa: nube, local, híbrido y soluciones específicas de la industria. En lugar de depender únicamente de equipos internos, las compañías trabajan con un <a href='https://www.rialtes.com/services/business-transformation/sap-managed-services-provider/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>proveedor experto en servicios gestionados de SAP</a> para operar, estabilizar, modernizar y evolucionar su plataforma SAP.",
+                    "Incluye todo lo necesario para garantizar que SAP siempre avance hacia los objetivos empresariales, incluyendo:"
+                ],
+                "subTitle": "Pilares fundamentales de los servicios gestionados de SAP",
+                "list": [
+                    "Monitoreo del sistema 24x7, seguridad y gestión de incidentes basada en SLA",
+                    "Mejoras continuas, parches y actualizaciones de versión",
+                    "Desarrollo bajo demanda de nuevas funciones e integraciones",
+                    "Optimización proactiva del rendimiento y de los procesos",
+                    "Migración a la nube, modernización y gestión de hyperscalers",
+                    "Mantenimiento predictivo mediante IA y herramientas de observabilidad",
+                    "Gobernanza, información analítica y orientación estratégica de la hoja de ruta"
+                ],
+                "desc2": "Lo que esto realmente significa: SAP deja de ser una plataforma “difícil de mantener” y se convierte en un sistema que evoluciona a medida que evoluciona tu empresa."
+            }
+        ],
+        "whyManagedData": [
+            {
+                "title": "Por qué los servicios gestionados de SAP son esenciales en la era de la IA empresarial",
+                "desc": [
+                    "Los entornos SAP actuales se encuentran en el centro de un ecosistema digital mucho más amplio: nube, plataformas de datos, agentes de IA, automatización, MES, CRM, redes de cadena de suministro y sistemas industriales.",
+                    "La IA ha cambiado las expectativas del negocio. La dirección ya no quiere solo disponibilidad de SAP. Quieren:"
+                ],
+                "list": [
+                    "Informes en tiempo real sin esfuerzo manual",
+                    "Flujos de trabajo autónomos que sustituyan tareas repetitivas",
+                    "Decisiones predictivas en la cadena de suministro en lugar de soluciones reactivas",
+                    "Experiencias personalizadas para empleados y clientes",
+                    "Datos que fluyan libremente entre sistemas en lugar de estar aislados"
+                ],
+                "desc2": [
+                    "Estas aspiraciones requieren un entorno SAP que mejore continuamente.",
+                    "Los servicios gestionados de SAP lo hacen posible al combinar fiabilidad del sistema con innovación impulsada por IA. Mantienes una base sólida mientras aceleras capacidades como:"
+                ],
+                "list2": [
+                    "Experiencias de IA generativa impulsadas por Joule en aplicaciones SAP",
+                    "Planificación predictiva y analítica inteligente",
+                    "Hiperautomatización en finanzas, RR. HH. y adquisiciones",
+                    "Aceleradores de IA específicos por industria y extensiones en la nube"
+                ]
+            }
+        ],
+        "keyData": [
+            {
+                "title": "Reducir el costo operativo sin sobrecargar al equipo interno de TI",
+                "desc": "En lugar de crear un gran equipo de soporte interno, accedes a un espectro completo de habilidades SAP bajo demanda: funcionales, técnicas, en la nube, seguridad, integración y analítica. Obtienes un grupo de talento más amplio a una fracción del costo."
+            },
+            {
+                "title": "Acelerar la adopción de innovaciones en SAP Cloud",
+                "desc": "Las nuevas versiones, mejoras y actualizaciones dejan de ser proyectos postergados. Se integran en tu hoja de ruta con resultados de negocio claros, ayudándote a desbloquear funciones de automatización e IA más rápido."
+            },
+            {
+                "title": "Fortalecer la seguridad y el cumplimiento en todo el entorno SAP",
+                "desc": "El monitoreo, los parches, la gestión de vulnerabilidades y la preparación para auditorías se convierten en un ciclo continuo, no en tareas impulsadas por crisis. Los riesgos potenciales se neutralizan antes de que afecten las operaciones."
+            },
+            {
+                "title": "Mantener el máximo rendimiento del sistema y operaciones sin interrupciones",
+                "desc": "La optimización del rendimiento, el monitoreo predictivo y la prevención de incidentes mantienen SAP funcionando sin problemas durante ciclos de alto volumen como cierre financiero, nómina, adquisiciones y producción. La disponibilidad operativa se convierte en la norma."
+            },
+            {
+                "title": "Impulsar la transformación continua en lugar de mejoras aisladas",
+                "desc": "Las mejoras no se detienen después del go-live. La innovación de procesos, la automatización y la analítica permanecen alineadas con la estrategia del negocio, garantizando que SAP evolucione junto con las expectativas del cliente, las condiciones del mercado y las metas de crecimiento."
+            }
+        ],
+        "whatDoData": [
+            {
+                "title": "¿Cómo se ven en acción los servicios gestionados de SAP?",
+                "desc": "A continuación, se muestran ejemplos comunes de servicios gestionados, alineados con prioridades reales de las empresas:",
+                "list": [
+                    {
+                        "business": "Mejorar la precisión de FP&A",
+                        "managed": "Pronósticos impulsados por IA, automatización de analítica en tiempo real"
+                    },
+                    {
+                        "business": "Optimizar la cadena de suministro",
+                        "managed": "Planificación integrada, detección de demanda, inventario predictivo"
+                    },
+                    {
+                        "business": "Escalar operaciones de RR. HH.",
+                        "managed": "Mejoras en SuccessFactors, automatización de LMS, mejoras en flujos de trabajo"
+                    },
+                    {
+                        "business": "Reducir el tiempo de inactividad en manufactura",
+                        "managed": "Optimización del mantenimiento de planta, insights de IoT para activos"
+                    },
+                    {
+                        "business": "Expansión de nube híbrida",
+                        "managed": "Migración RISE with SAP y gestión de hyperscalers"
+                    },
+                    {
+                        "business": "Fortalecer la gobernanza de datos",
+                        "managed": "Calidad de datos a nivel empresarial y gestión de datos maestros"
+                    }
+                ],
+                "desc2": "Cuando SAP deja de ser un conjunto de módulos y se convierte en un ecosistema de inteligencia conectado, la agilidad empresarial aumenta rápidamente."
+            }
+        ],
+        "whatEnterpriseData": [
+            "Las empresas no necesitan más tickets de soporte ni ciclos de mantenimiento reactivos. Necesitan entornos SAP que evolucionen automáticamente, escalen con confianza y <a href='https://www.rialtes.com/insights/blogs/sap-implementation-strategies-for-2026-success/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>aceleren la transformación digital</a>.",
+            "Y ahí es exactamente donde SAP Digital Desk ofrece un impacto de próxima generación.",
+            "Unifica la estabilización, modernización e innovación en todo el entorno SAP. Desde el rendimiento de la plataforma y la evolución en la nube hasta la automatización habilitada por IA y las mejoras alineadas con el negocio, SAP Digital Desk convierte a SAP en un motor estratégico de crecimiento, no solo una herramienta operativa. ¿Listo para desbloquear el valor máximo de SAP? ¡Hablemos!",
+            "Contáctanos en <a href='mailto:sales@rialtes.com' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>sales@rialtes.com<a/> para descubrir cómo SAP Digital Desk puede transformar tus operaciones SAP."
+        ],
+        "howToChooseData": [
+            {
+                "title": "Cómo elegir el proveedor adecuado de servicios gestionados de SAP",
+                "desc": "Si estás evaluando socios, no te enfoques solo en certificaciones o velocidad de resolución de tickets. En su lugar, busca:",
+                "list": [
+                    {
+                        "title": "Alineación con la estrategia empresarial",
+                        "desc": "Deben ofrecer hojas de ruta de transformación, no solo soporte de producción."
+                    },
+                    {
+                        "title": "Experiencia en adopción de SAP Cloud e industrias",
+                        "desc": "Cada industria opera SAP de manera diferente — la experiencia profunda en el dominio es crucial."
+                    },
+                    {
+                        "title": "Capacidad en IA y automatización",
+                        "desc": "Joule, ML, analítica y automatización de procesos deben ser competencias principales."
+                    },
+                    {
+                        "title": "Gobernanza y observabilidad basadas en plataforma",
+                        "desc": "Tu entorno SAP debe monitorearse continuamente, no de forma reactiva."
+                    },
+                    {
+                        "title": "Mentalidad de co-innovación",
+                        "desc": "El proveedor debe ayudar a que tu SAP evolucione conforme evoluciona tu negocio."
+                    }
+                ]
+            }
+        ],
+        "seoTitle": "Cómo la IA eleva los servicios gestionados de SAP para las empresas modernas | Rialtes",
+        "seoDescription": "Descubre cómo las innovaciones impulsadas por IA elevan los servicios gestionados de SAP, permitiendo a las empresas optimizar el rendimiento, automatizar tareas y fomentar una transformación continua.",
+        "bannerAlt": "Líneas digitales coloridas y trazos de luz formando un rápido flujo de datos futurista.",
+        "blogTopic": "Servicios Gestionados",
+        "blogTitle": "Servicios Gestionados de SAP: La Estrategia de IA Empresarial Detrás del Éxito SAP Always-On",
+        "keyTitle": "Principales Beneficios de Asociarse con un Proveedor de Servicios Gestionados de SAP",
+        "tableTitle1": "Prioridad Empresarial",
+        "tableTitle2": "Servicio Gestionado de SAP Entregado",
+        "webinarImgAlt": "Gran ola oceánica combinada con líneas de red digital brillantes que simbolizan datos y tecnología.",
+        "webinarTitle": "Viaje con SAP – RISE Transformacional con Servicios SAP de Rialtes",
+        "webinarDesc": "Descubre cómo tus equipos pueden dirigir cada interacción con clientes mediante datos, IA y automatización, desde la captación hasta la fidelidad, todo dentro de una plataforma conectada.",
+        "watchBtn": "Ver el Webinar",
+        "whyTitle": "Por qué las Empresas Están Eligiendo los Servicios Gestionados de SAP como Estrategia a Largo Plazo",
+        "faqTitle": "Preguntas Frecuentes: Servicios Gestionados de SAP"
+    },
+    "reimaginingClinical": {
+        "schemaData": {},
+        "mainData": [
+            "Los ensayos clínicos están diseñados para medir el impacto de un tratamiento, pero para muchos participantes, la experiencia se siente como una maratón logística. Múltiples portales, equipos desconectados, formularios repetitivos, pasos poco claros y una visibilidad limitada hacen que la participación se sienta como trabajo en lugar de atención.",
+            "Lo que ocurre dentro del diseño del estudio a menudo difiere de lo que los pacientes viven en la realidad. Aunque los equipos clínicos gestionan flujos de trabajo altamente coordinados, los pacientes suelen percibir estas interacciones como desconectadas y dispersas. Esta brecha puede provocar problemas <a href='https://www.rialtes.com/insights/blogs/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>como abandonos</a>, informes perdidos, visitas omitidas y conjuntos de datos incompletos, no por falta de interés, sino porque el recorrido del paciente no prioriza sus necesidades.",
+            "La innovación digital está transformando la atención sanitaria al crear ecosistemas inteligentes que integran diferentes puntos de interacción en experiencias fluidas. Cuando los sistemas de datos, equipos, dispositivos, canales y herramientas de participación trabajan juntos, los ensayos clínicos se vuelven más rápidos y centrados en las necesidades del paciente."
+        ],
+        "fragmentationData": [
+            {
+                "title": "Por Qué la Fragmentación Sigue Siendo la Mayor Barrera para el Éxito del Ensayo",
+                "desc": "Incluso los estudios bien diseñados enfrentan dificultades cuando el recorrido del paciente carece de continuidad. La mayoría de los desafíos provienen de un mismo conjunto de desconexiones:",
+                "list": [
+                    {
+                        "title": "Equipos de atención y comunicación desarticulados",
+                        "desc": "Los pacientes interactúan con patrocinadores, sitios, CRO, investigadores, telemedicina, laboratorios y grupos de apoyo, pero rara vez a través de un canal unificado."
+                    },
+                    {
+                        "title": "Herramientas digitales aisladas que no se comunican entre sí",
+                        "desc": "Wearables, aplicaciones ePRO, EHR, plataformas de telemedicina y sistemas de reclutamiento suelen operar de forma independiente, complicando la experiencia."
+                    },
+                    {
+                        "title": "Falta de visibilidad del recorrido",
+                        "desc": "Los participantes normalmente no ven su progreso, hitos o el panorama general, lo que genera distancia emocional."
+                    },
+                    {
+                        "title": "Poca interoperabilidad en el ecosistema",
+                        "desc": "Incluso cuando los datos se recogen digitalmente, la falta de interoperabilidad ralentiza la toma de decisiones, verificaciones de elegibilidad, evaluaciones de seguridad y seguimiento."
+                    }
+                ],
+                "desc2": "Esto crea confusión, fricción, retrasos y, en última instancia, desinterés. Por eso construir ecosistemas de salud inteligentes se ha convertido en una prioridad operativa clave para patrocinadores y CRO."
+            }
+        ],
+        "intelligentData": [
+            {
+                "title": "Cómo Debe Ser un Ecosistema Inteligente de Ensayos",
+                "desc": "Este cambio exige una transformación fundamental en cómo interactúan los sistemas de investigación clínica. En lugar de operaciones aisladas, el ecosistema se alinea sobre un principio simple:",
+                "subTitle": "Todo lo que el equipo clínico deba coordinar, el paciente debe experimentarlo sin esfuerzo.",
+                "desc2": "Un ecosistema inteligente de ensayos se basa en tres pilares esenciales:",
+                "list": [
+                    {
+                        "title": "Gestión Digital Conectada del Ensayo",
+                        "desc": "Los sistemas clínicos, operativos y orientados al paciente funcionan como uno solo. Programación, recordatorios, telemedicina, reportes ePRO, reclutamiento, monitoreo y consentimiento fluyen dentro del mismo entorno digital."
+                    },
+                    {
+                        "title": "Orquestación del Recorrido del Paciente",
+                        "desc": "La interacción se adapta a cada participante —su condición, ubicación, estilo de vida, etapa del tratamiento y progreso—. No es solo comunicación; es la orquestación de cada interacción según el contexto."
+                    },
+                    {
+                        "title": "Soluciones de Salud Interoperables",
+                        "desc": "Wearables, dispositivos, laboratorios, EHR y sistemas del ensayo intercambian datos sin obligar a los pacientes a repetir tareas o usar múltiples aplicaciones."
+                    }
+                ],
+                "desc3": "Cuando estos tres elementos se unen, los pacientes no sienten que navegan el ensayo; el ensayo los guía."
+            }
+        ],
+        "howIntelligentData": [
+            {
+                "title": "Cómo los Ecosistemas Inteligentes Transforman el Recorrido del Paciente",
+                "list": [
+                    {
+                        "title": "Menos carga, más claridad",
+                        "desc": "Líneas de tiempo claras, reportes simplificados y un camino digital de apoyo reducen la carga cognitiva y emocional."
+                    },
+                    {
+                        "title": "Soporte continuo en lugar de resolución reactiva",
+                        "desc": "En vez de esperar que surja un problema, las alertas predictivas identifican participantes con dificultades antes de que ocurran abandonos, reforzando la retención."
+                    },
+                    {
+                        "title": "Participación global sin barreras geográficas",
+                        "desc": "La incorporación remota y operaciones descentralizadas facilitan ampliar el alcance y la diversidad, la base del avance de la <a href='https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>IA en el reclutamiento de enfermedades raras</a>."
+                    },
+                    {
+                        "title": "Una experiencia centrada en la persona",
+                        "desc": "Paneles de progreso, mensajería bidireccional, soporte multilingüe y personalización hacen que los pacientes se sientan valorados y en control."
+                    }
+                ],
+                "desc": "Esta es la base de la orquestación digital del recorrido del paciente y está redefiniendo cómo operan los ensayos."
+            }
+        ],
+        "whyIntelligentData": [
+            {
+                "title": "Por Qué los Ecosistemas Inteligentes Definirán el Futuro de la Gestión de Ensayos",
+                "desc": "La industria avanza hacia un panorama donde la orquestación centrada en el paciente determina el éxito del ensayo. Algunos de los indicadores más claros incluyen:",
+                "list": [
+                    "Plataformas integradas reemplazando aplicaciones aisladas",
+                    "Datos del mundo real impulsando decisiones dinámicas",
+                    "Modelos de participación digital para mantener la adherencia",
+                    "Reportes automatizados que reducen la carga operativa",
+                    "Flujos coordinados entre pagadores, proveedores, patrocinadores y CRO"
+                ],
+                "desc2": "En otras palabras, el <a href='https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>futuro de la gestión de ensayos</a> no estará impulsado solo por herramientas digitales, sino por sistemas conectados que funcionan como ecosistemas."
+            }
+        ],
+        "howMediainaData": [
+            {
+                "title": "Cómo MediAIna Cierra la Brecha Entre Ensayos Fragmentados e Inteligentes",
+                "desc": [
+                    "Diseñada para innovadores en ciencias de la vida y salud, MediAIna transforma los ensayos clínicos eliminando la fragmentación y reemplazándola con un ecosistema inteligente y orquestado.",
+                    "MediAIna ofrece:"
+                ],
+                "list": [
+                    "Gestión digital del ensayo en todas las fases y poblaciones",
+                    "Orquestación del recorrido del paciente con participación adaptativa y automatizada",
+                    "Consentimiento, ePRO, telemedicina, recordatorios y reportes en un solo entorno",
+                    "Interoperabilidad con dispositivos y EHR para un intercambio fluido de datos",
+                    "Comunicación multilingüe y multimodal para participación global",
+                    "Analítica predictiva para identificar riesgo de desinterés",
+                    "Un ecosistema unificado que conecta a todos los actores del ensayo"
+                ],
+                "desc2": [
+                    "En lugar de añadir más herramientas a flujos ya complejos, MediAIna crea una experiencia clínica completamente integrada que funciona igual para cada participante, ya sea remoto, híbrido o presencial.",
+                    "Para patrocinadores, CRO, MedTech y farmacéuticas que buscan pasar de ensayos fragmentados a conectados, MediAIna no solo digitaliza el ensayo; transforma el recorrido del paciente. Construyamos juntos la nueva era del cuidado. Contacta a nuestro equipo en <a href='mailto:sales@rialtes.com' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>sales@rialtes.com</a>."
+                ]
+            }
+        ],
+        "faqData": [
+            {
+                "question": "¿Qué es un ecosistema inteligente de salud en ensayos clínicos?",
+                "answer": "Es un entorno digital unificado que conecta todos los sistemas del ensayo, la comunicación y los puntos de contacto con el paciente para crear una experiencia fluida y coordinada."
+            },
+            {
+                "question": "¿Por qué suele estar fragmentado el recorrido del paciente en los ensayos clínicos?",
+                "answer": "Los sistemas de programación, reportes, telemedicina, recordatorios y reclutamiento suelen estar desconectados, lo que obliga a los pacientes a usar múltiples interfaces."
+            },
+            {
+                "question": "¿Cómo mejora la orquestación del recorrido del paciente la retención?",
+                "answer": "Al ofrecer orientación personalizada, recordatorios y soporte en el momento y canal adecuados, evitando que el paciente gestione la complejidad del ensayo por sí solo."
+            },
+            {
+                "question": "¿Qué papel juega la interoperabilidad de datos en el éxito del ensayo?",
+                "answer": "Elimina tareas manuales, reduce errores y acelera decisiones al asegurar que todos los equipos y sistemas reciban datos conectados en tiempo real."
+            },
+            {
+                "question": "¿Puede la gestión digital del ensayo ayudar a reducir abandonos?",
+                "answer": "Sí. Los ensayos que unifican interacciones remotas, comunicación, monitoreo y soporte en una sola plataforma digital muestran una adherencia y retención significativamente mayores."
+            },
+            {
+                "question": "¿Cómo simplifica MediAIna el recorrido del paciente?",
+                "answer": "MediAIna conecta cada interacción clínica y digital dentro de un solo ecosistema, facilitando la participación, mejorando la seguridad y reforzando la retención y la calidad de los datos."
+            }
+        ],
+        "seoTitle": "Por Qué el Recorrido del Paciente Necesita Ecosistemas Inteligentes",
+        "seoDescription": "Descubre cómo los ecosistemas inteligentes mejoran el recorrido del paciente en ensayos clínicos mediante herramientas conectadas, mejor participación y mayor retención.",
+        "bannerAlt": "Personas caminando en un paisaje digital con una cápsula futurista flotando arriba.",
+        "blogTitle": "De la Atención Fragmentada a los Ecosistemas Inteligentes: Reimaginar el Recorrido del Paciente",
+        "faqTitle": "FAQs: Reimaginar el Recorrido del Paciente en Ensayos Clínicos"
     }
 }
