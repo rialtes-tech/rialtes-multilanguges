@@ -103,7 +103,7 @@ export default function servicesInsightsCarousel({ padding }) {
           renderDotsOutside={true}
           customDot={<CustomDot />}
         >
-          {slides?.map((slide) => (
+          {slides?.map((slide) => ( 
             <div
               key={slide.id}
               className={`flex md:flex-row flex-col sm:mr-4 mr-6 mb-4 relative group md:min-h-[450px] min-h-[350px] text-white`}>

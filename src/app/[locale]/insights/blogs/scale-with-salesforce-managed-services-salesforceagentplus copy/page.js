@@ -616,9 +616,13 @@ export default function Page() {
                                             and automation—from lead to loyalty, all inside one connected platform
                                         </p>
 
-                                        <button className="4xl:mt-6 2xl:mt-9 xl:mt-5 md:mt-3 bottom-0 bg-[#006FBE] text-white px-6 py-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[14px] font-semibold">
-                                            Watch the Webinar
-                                        </button>
+                                        <Link
+                                            href="https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
+                                        >
+                                            <button className="4xl:mt-6 2xl:mt-9 xl:mt-5 md:mt-3 bottom-0 bg-[#006FBE] text-white px-6 py-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[14px] font-semibold">
+                                                Watch the Webinar
+                                            </button>
+                                        </Link>
                                     </div>
                                 </div>
 
