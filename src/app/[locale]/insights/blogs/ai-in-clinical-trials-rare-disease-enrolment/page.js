@@ -68,20 +68,8 @@ export default function Page() {
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12">
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
-
-                        {/* date and icons */}
-                        <div className="sm:flex justify-between">
-                            <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">MediAIna</span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>20 November 2025
-                            </div>
-
-                            <div>
-                                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                                    <BlogSocialIcons fullUrl={fullUrl} />
-                                </div>
-                            </div>
-                        </div>
+                           {/* date and icons */}
+                        <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="20 November 2025" />
 
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">

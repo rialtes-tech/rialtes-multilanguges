@@ -121,7 +121,7 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="relative z-20 max-[400px]:mt-[-230%] mt-[-140%] sm:mt-[-100%] md:mt-[-62%] lg:mt-[-45%] xl:mt-[-30%] 2xl:mt-[-35%] 3xl:mt-[-25%] custom-container">
+                <div className="relative z-20 max-[400px]:mt-[-230%] mt-[-140%] sm:mt-[-100%] md:mt-[-83%] lg:mt-[-45%] xl:mt-[-30%] 2xl:mt-[-35%] 3xl:mt-[-25%] custom-container">
                     <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 lg:gap-12">
                         {predeliveredCardData.map((card, index) => (
                             <div
