@@ -11,7 +11,7 @@ import React from "react";
 
 const mainData = [
     "Clinical trials are supposed to measure the impact of medicine, yet for many participants, the experience feels more like a marathon of logistics. There are multiple portals, disconnected care teams, repetitive forms, unclear next steps, and little visibility into progress, which makes participation feel like work instead of care.",
-    "What occurs within the trial design often differs significantly from what patients experience in reality. While clinical teams work tirelessly to manage highly coordinated workflows, patients often perceive these interactions as disconnected and scattered. This disconnect can lead to issues such as dropouts, missed reports, missed visits, and incomplete datasets, not because participants lose interest, but because the patient journey fails to prioritize their needs.",
+    "What occurs within the trial design often differs significantly from what patients experience in reality. While clinical teams work tirelessly to manage highly coordinated workflows, patients often perceive these interactions as disconnected and scattered. This disconnect can lead to issues <a href='https://www.rialtes.com/insights/blogs/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>such as dropouts</a>, missed reports, missed visits, and incomplete datasets, not because participants lose interest, but because the patient journey fails to prioritize their needs.",
     "Digital innovation is transforming the healthcare industry by creating intelligent ecosystems that integrate various touchpoints into seamless experiences. When data systems, teams, devices, channels, and engagement tools collaborate effectively, clinical trials become faster and focused on the needs of patients."
 ]
 const fragmentationData = [
@@ -62,29 +62,6 @@ const intelligentData = [
         "desc3": "When these three elements come together, patients don’t feel like they’re navigating the trial; the trial guides them."
     }
 ]
-const whatIntelligentData = [
-    {
-        "title": "What an Intelligent Trial Ecosystem Should Look Like",
-        "desc": "This shift requires a fundamental change in how clinical research systems interact. Instead of isolated operations, the ecosystem aligns around a simple principle:",
-        "subTitle": "Everything the clinical team must coordinate, the patient should experience seamlessly.",
-        "desc2": "An intelligent trial ecosystem is built on three essential pillars:",
-        "list": [
-            {
-                "title": "Connected Digital Trial Management",
-                "desc": "All clinical, operational, and patient-facing systems function as one. Scheduling, reminders, telehealth, ePRO reporting, recruitment, monitoring, and consent flow within the same digital environment."
-            },
-            {
-                "title": "Patient Journey Orchestration",
-                "desc": "Engagement adapts to each participant — their condition, geography, lifestyle, treatment stage, and progress. It’s not just communication; it’s orchestration of every interaction based on context."
-            },
-            {
-                "title": "Interoperable Health Solutions",
-                "desc": "Wearables, devices, labs, EHRs, and trial systems exchange data without forcing participants to repeat tasks or navigate multiple apps"
-            }
-        ],
-        "desc3": "When these three elements come together, patients don’t feel like they’re navigating the trial; the trial guides them",
-    }
-]
 const howIntelligentData = [
     {
         "title": "How Intelligent Ecosystems Transform Clinical Trial Patient Journeys",
@@ -99,7 +76,7 @@ const howIntelligentData = [
             },
             {
                 "title": "Global participation without geographic barriers",
-                "desc": "Remote onboarding and decentralized operations make it easier to expand reach and diversity in cohorts, the blueprint behind AI accelerating rare disease enrolment in earlier MediAIna discussions."
+                "desc": "Remote onboarding and decentralized operations make it easier to expand reach and diversity in cohorts, the blueprint behind <a href='https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AI accelerating rare disease enrolment</a> in earlier MediAIna discussions."
             },
             {
                 "title": "A human-centered experience",
@@ -120,7 +97,7 @@ const whyIntelligentData = [
             "Automated reporting that reduces operational load",
             "Coordinated workflows across payers, providers, sponsors, and CROs"
         ],
-        "desc2": "In other words, the future of clinical trial management will not be powered only by digital tools, but by connected systems that think and respond like ecosystems."
+        "desc2": "In other words, the <a href='https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>future of clinical trial management</a> will not be powered only by digital tools, but by connected systems that think and respond like ecosystems."
     }
 ]
 const howMediainaData = [
@@ -171,28 +148,107 @@ const faqData = [
         "answer": "MediAIna connects every clinical and digital interaction into a single ecosystem, making participation easier, safer, and more engaging while improving retention and data quality."
     }
 ]
+const schemaData =
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "From Fragmented Care to Intelligent Ecosystems: Reimagining the Patient Journey in Clinical Trials | Rialtes",
+    "description": "Clinical trial success depends not just on study design, but on the patient journey. Intelligent ecosystems connect data, teams, and digital touchpoints to reduce fragmentation, improve engagement, and transform participation from logistical burden to human-centered care.",
+    "image": "https://www.rialtes.com/images/blog/future-of-digital-healthcare.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/insights/blogs/reimagining-clinical-trial-patient-journey/"
+    },
+    "datePublished": "2025-12-04",
+    "mainEntity": {
+        "@type": "FAQPage",
+        "name": "FAQs: Reimagine the Patient Journey in Clinical Trials",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is an intelligent healthcare ecosystem in clinical trials?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It’s a unified digital environment that connects all trial systems, communication, and patient touchpoints to create a seamless and coordinated study experience."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why is the clinical trial patient journey often fragmented?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Systems for scheduling, reporting, telehealth, reminders, and recruitment are often disconnected, requiring patients to navigate multiple interfaces."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does patient journey orchestration improve retention?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "By delivering personalized guidance, reminders, and support at the right time through the right channel, instead of expecting patients to manage trial complexity on their own."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What role does data interoperability play in clinical trial success?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It eliminates manual tasks, reduces errors, and accelerates decision-making by ensuring every team and system receives real-time, connected data."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can digital trial management help reduce dropouts?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Trials that unify remote interactions, communication, monitoring, and support within a single digital platform consistently show higher adherence and retention."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does MediAIna simplify the patient journey in clinical trials?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MediAIna connects every clinical and digital interaction into a single ecosystem, making participation easier, safer, and more engaging while improving retention and data quality."
+                }
+            }
+        ]
+    }
+}
 
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/why-patient-drop-out-clinical-trials-and-how-to-prevent-it";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/reimagining-clinical-trial-patient-journey";
     const currUrl = useUrl()
 
     return (
         <section className="min-h-screen">
             <Seo
-                title="How Digital Care Reduces Patient Drop Out in Clinical Trials | Rialtes"
-                description=" If your research team is still wondering why patients drop out of clinical trials, the reason often lies in gaps in experience, communication, or support."
+                title="Why Clinical Trial Patient Journey Needs Intelligent Ecosystems"
+                description="See how intelligent ecosystems enhance the clinical trial patient journey through connected tools, better engagement, and higher retention."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/"
+                    "https://www.rialtes.com/insights/blogs/reimagining-clinical-trial-patient-journey/"
                 }
             />
 
-            {/* <Script
-                id="schema-provenWays"
+            <Script
+                id="schema-reimagine"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            /> */}
+            />
 
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
                 <div className="xl:block hidden">
@@ -223,7 +279,7 @@ export default function Page() {
                         <div className="sm:flex justify-between">
                             <div>
                                 <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">MediAina </span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>03 December 2025
+                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>04 December 2025
                             </div>
 
                             <div>
@@ -235,9 +291,9 @@ export default function Page() {
 
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
-                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">From Fragmented Care to Intelligent Ecosystems: Reimagining the Patient Journey in Trials</h1>
+                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">From Fragmented Care to Intelligent Ecosystems: Reimagining the Patient Journey in Clinical  Trials</h1>
 
-                            <div className="xl:mt-[38px] mt-[33px]">
+                            <div className="md:mt-[50px] mt-[40px]">
                                 {
                                     mainData.map((data, ind) => {
                                         return (
