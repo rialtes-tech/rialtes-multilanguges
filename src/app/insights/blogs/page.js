@@ -62,6 +62,28 @@ const allCategories = [
 
 const latestBlogs = [
   {
+    "id": 62,
+    "image": "/images/blog/digital-data-stream-mobile.webp",
+    "category": "Managed Services",
+    "industry": "Generic",
+    "date": "Dec. 05, 2025",
+    "url": "/sap-managed-services-enterprise-ai-strategy/",
+    "title": "SAP Managed Services: The Enterprise AI Strategy Behind Always-On SAP Success",
+    "alt": "Colorful digital lines and light trails forming a fast-moving futuristic data stream.",
+    "description": "The majority of organizations rely on SAP to run finance, supply chain, HR, manufacturing, procurement, and customer operations. But the truth is simple — implementing SAP is only the starting line. The real value lies in keeping systems optimized, innovating continuously, and aligning SAP capabilities with evolving business priorities."
+  },
+  {
+    "id": 61,
+    "image": "/images/blog/future-of-digital-healthcare-mobile.webp",
+    "category": "MediAina",
+    "industry": "Life Sciences",
+    "date": "Dec. 04, 2025",
+    "url": "/reimagining-clinical-trial-patient-journey/",
+    "title": "From Fragmented Care to Intelligent Ecosystems: Reimagining the Patient Journey in Clinical Trials",
+    "alt": "People walking in a digital network landscape with a futuristic smart capsule floating above.",
+    "description": "Clinical trials are supposed to measure the impact of medicine, yet for many participants, the experience feels more like a marathon of logistics. There are multiple portals, disconnected care teams, repetitive forms, unclear next steps, and little visibility into progress, which makes participation feel like work instead of care."
+  },
+  {
     "id": 60,
     "image": "/images/blog/patient-consultation-genomics-mobile.webp",
     "category": "MediAina",
