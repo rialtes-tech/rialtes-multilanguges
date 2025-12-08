@@ -918,7 +918,7 @@
                     "Où concentrer les investissements en efficacité énergétique.",
                     "Comment prolonger la durée de vie des actifs grâce à une intervention précoce."
                 ],
-                "desc2": "Ce n’est pas de la simple gestion de maintenance — c’est de <strong>l’intelligence de portefeuille</strong>, redéfinissant la façon dont les entreprises immobilières évoluent efficacement."
+                "desc2": "Ce n’est pas de la simple gestion de maintenance — c’est de l’intelligence de portefeuille, redéfinissant la façon dont les entreprises immobilières évoluent efficacement."
             }
         ],
         "exelonaEdgeData": [
@@ -6292,7 +6292,7 @@
         "schemaData": {},
         "bannerAlt": "Bannière abstraite illustrant la croissance des entreprises et la transformation numérique grâce à Salesforce",
         "salesforceTitle": "Comment les meilleurs partenaires Salesforce aident les entreprises à prospérer et innover",
-        "blogTopic": "Salesforce Agentforce",
+        "blogTopic": "Salesforce Consulting ",
         "salesforcePartnersHelp": [
             "Salesforce est devenu la base des solutions CRM modernes pour les entreprises, aidant les organisations à unifier les données, rationaliser les processus et offrir des expériences client personnalisées. Mais voici la réalité : acheter des licences Salesforce ne garantit pas à lui seul le succès commercial. Les entreprises ont besoin de l'expertise adéquate pour exploiter tout le potentiel de Salesforce.",
             "C’est là qu’interviennent les partenaires Salesforce. Ces experts en conseil et en mise en œuvre ne se contentent pas de configurer des outils CRM ; ils aident les entreprises à repenser leurs opérations, innover avec l’IA et se développer en toute confiance. Pour les entreprises qui se demandent : « Qui sont les meilleurs partenaires Salesforce pour les grandes entreprises ? », la réponse réside souvent dans l’évaluation de celui qui saura aligner la technologie sur les objectifs commerciaux à long terme.",
@@ -7041,6 +7041,7 @@
         ]
     },
     "whatDoesASingle": {
+        "blogTopic":"Exelona",
         "bannerAlt": "Paysage urbain futuriste verre avec bâtiments transparents rose et bleu sur surface réfléchissante innovation numérique",
         "aleadsfill": "Un prospect remplit",
         "aform": "un formulaire",
@@ -7283,7 +7284,7 @@
         "blogMainData": [
             "Chaque entreprise immobilière atteint un mur à un moment donné, généralement lorsque ses systèmes cessent de communiquer entre eux. Vous avez un outil de gestion immobilière ici, un système financier là, et un CRM ailleurs retenant vos données de prospects. Les équipes perdent des heures à courir après les mises à jour, les services financiers peinent à concilier les données et les dirigeants reçoivent des rapports déjà obsolètes au moment où ils sont imprimés.",
             "Voici la solution : les intégrations d’API ouvertes.",
-            "Un écosystème d’API ouvertes permet à votre CRM, ERP, système financier et de gestion immobilière d’échanger des données en temps réel. Au lieu de construire des passerelles personnalisées coûteuses, les API ouvertes rendent possible la connexion sécurisée entre tous les systèmes, permettant des opérations unifiées, une prise de décision plus rapide et, en fin de compte, une croissance plus évolutive.",
+            "Un écosystème d’API ouverte permet la <a href='https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergence CRM et ERP</a> ; ainsi, vos systèmes de gestion immobilière échangent des données en temps réel. Au lieu de créer des passerelles personnalisées coûteuses, les API ouvertes permettent de connecter n’importe quel système à un autre de manière sécurisée, favorisant des opérations unifiées, une prise de décision plus rapide et, au final, une croissance plus évolutive.",
             "Voyons ce que cela signifie pour l’immobilier, quelles intégrations sont réellement nécessaires et comment des plateformes comme Exelona aident les grandes entreprises à dépasser les architectures technologiques fragmentées."
         ],
         "realEstateData": [
