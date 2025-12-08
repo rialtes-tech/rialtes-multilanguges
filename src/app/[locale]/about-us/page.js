@@ -105,7 +105,7 @@ export default function About() {
             <section className="xl:py-14 py-10 bg-gray-100 mt-20">
                 <div className="custom-container">
                     <div className="mx-auto">
-                        <h3 className="text-[#000000] mb-8 font-semibold w-full 4xl:text-[43px] 2xl:text-[36px] xl:text-[32px] text-[23px]">
+                        <h3 className="text-[#000000] mb-8 font-semibold w-full 4xl:text-[43px] 2xl:text-[36px] xl:text-[32px] text-[23px] leading-tight">
                             {t('overTitle')}</h3>
                         <div className="grid xl:grid-cols-4 md:grid-cols-2 mb-8 mt-16 lg:gap-40 gap-10 ">
                             {corePrinciples.map((item, index) => (

@@ -54,7 +54,7 @@ export default function Page() {
             <div className="text-black 2xl:pr-70 xl:pr-10 md:pr-8">
                 <div className="grid 4xl:grid-cols-12">
                     <div className="4xl:col-span-12">
-                        <h2 className="text-black mb-6  xl:text-[40px] 4xl:pr-[2rem] xl:pr-80 4xl:text-[60px]  text-[26px]  leading-tight mt-16 xl:mt-0 4xl:mt-0 pr-[4rem]">{t('ourAdvantageTitle')}</h2>
+                        <h2 className="text-black mb-6  xl:text-[40px] 4xl:pr-[2rem] xl:pr-80 4xl:text-[60px]  text-[26px]  leading-tight mt-16 xl:mt-0 4xl:mt-0 ">{t('ourAdvantageTitle')}</h2>
                         <p className="4xl:text-[22px] text-[16px] my-12">{t('ourAdvantageDesc')}</p>
                     </div>
                 </div>
@@ -126,7 +126,7 @@ export default function Page() {
             {/* page description */}
             <section className="mt-16 custom-container">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
-                    <div className="4xl:col-span-10 xl:col-span-8 col-span-12">
+                      <div className="4xl:col-span-10 xl:col-span-8 col-span-12">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-8 pr-[2rem] xl:pr-0 4xl:pr-0">
                             {t('pageDescTitle')}
                         </h2>
@@ -291,7 +291,7 @@ export default function Page() {
                         </div>
 
 
-                        <div className="xl:hidden col-span-full flex justify-start mt-10">
+                        <div className="xl:hidden col-span-full flex justify-start xl:mt-10">
                             <LearnMore btnName={t('learnMoreBtn')} />
                         </div>
                     </div>
@@ -326,11 +326,11 @@ export default function Page() {
                     <div className="xl:col-span-6 col-span-12"></div>
                     <div className="xl:col-span-5 col-span-12 bg-[#184671] text-white 4xl:pt-16 xl:pt-8 4xl:px-14 xl:px-10 px-10 pt-10">
                         <h2 className="4xl:text-[50px] text-[26px] xl:text-[38px] leading-tight font-light">{t('introducingAgentChatTitle')}</h2>
-                        <h3 className="4xl:text-[35px] text-[24px] xl:text-[25px] mt-8 leading-tight pr-12 xl:pr-0 4xl:pr-0">{t('introducingAgentChatSubTitle')}</h3>
-                        <h3 className="mt-8 leading-tight 4xl:text-[30px] text-[20px] pr-14 xl:pr-0 4xl:pr-0">{t('introducingAgentChatSubTitle2')}</h3>
-                        <p className="mt-8 leading-tight font-light 4xl:text-[22px] text-[16px] pr-12 xl:pr-0 4xl:pr-0">{t('introducingAgentChatDesc')}</p>
+                        <h3 className="4xl:text-[35px] text-[24px] xl:text-[25px] mt-8 leading-tight xl:pr-0 4xl:pr-0">{t('introducingAgentChatSubTitle')}</h3>
+                        <h3 className="mt-8 leading-tight 4xl:text-[30px] text-[20px] xl:pr-0 4xl:pr-0">{t('introducingAgentChatSubTitle2')}</h3>
+                        <p className="mt-8 leading-tight font-light 4xl:text-[22px] text-[16px] xl:pr-0 4xl:pr-0">{t('introducingAgentChatDesc')}</p>
                         <h3 className="mt-5 4xl:text-[30px] text-[20px]">{t('keyFeatures')}</h3>
-                        <ul className="list-disc marker:text-white marker:font-bold pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:space-y-8 xl:space-y-4 space-y-4 mt-5 pr-8 xl:pr-0 4xl:pr-16">
+                        <ul className="list-disc marker:text-white marker:font-bold pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:space-y-8 xl:space-y-4 space-y-4 mt-5 xl:pr-0 4xl:pr-16">
                             {agentChatData.map((feature, index) => (
                                 <li key={index}>
                                     <strong>{feature.title}</strong> {feature.description}
@@ -349,8 +349,8 @@ export default function Page() {
              ${locale === "es"
                     ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[100rem] xs:mt-[1333px] sm:mt-[58rem] md:mt-[52rem] lg:mt-[80rem] xl:mt-[30rem]"
                     : locale === "fr"
-                        ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[104rem] xs:mt-[1413px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[32rem] max-md:px-0"
-                        : "4xl:mt-[14rem] 2xl:mt-[10rem] mt-[98rem] xs:mt-[1200px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[20rem] max-md:px-0"
+                        ? "4xl:mt-[24rem] 2xl:mt-[10rem]  mt-[104rem] xs:mt-[1413px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[32rem] max-md:px-0"
+                        : "4xl:mt-[14rem] 2xl:mt-[10rem]  mt-[83rem] xs:mt-[1200px] sm:mt-[58rem] md:mt-[50rem] lg:mt-[30rem] xl:mt-[20rem] max-md:px-0 "
                 }`}
             >
                 <div className="grid grid-cols-1 xl:grid-cols-2 items-stretch relative">
