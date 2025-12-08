@@ -327,7 +327,7 @@ export default function Page() {
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/blog/atlas-reasoning-engine-agentforce.webp"
+                        src="/images/blog/crm-erp-convergence-for-real-estate.webp"
                         alt="Conceptual illustration of a smart city connected through cloud computing and data networks"
                         fill
                         priority
@@ -335,7 +335,7 @@ export default function Page() {
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/blog/atlas-reasoning-engine-agentforce-mobile.webp"
+                        src="/images/blog/crm-erp-convergence-for-real-estate-mobile.webp"
                         alt="Conceptual illustration of a smart city connected through cloud computing and data networks"
                         priority
                         height={0}
