@@ -57,25 +57,11 @@ export default function Page() {
                 </div>
             </section>
 
-
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12 grid-cols-12">
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 col-span-12">
-
-                        {/* date and icons */}
-                        <div className="sm:flex justify-between">
-                            <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Salesforce Agentforce</span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>06 October 2025
-                            </div>
-
-                            <div>
-                                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                                    <BlogSocialIcons fullUrl={fullUrl} />
-                                </div>
-                            </div>
-                        </div>
-
+                       {/* date and icons */}
+                            <BlogSocialIcons fullUrl={fullUrl} topic="Life Sciences" date="06 October 2025" />
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
                             <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t('blogTitle')}</h1>
@@ -139,8 +125,17 @@ export default function Page() {
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.hereAre }}
                                                 />
-                                                <UnorderedList arrName={data.list2} ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2" />
-                                                <p
+                                            <ul className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2">
+                                               {data.list2.map((item, i) => (
+                                                  <li key={i}>
+                                                         <h4 className="inline-block font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                                          {item.title}
+                                                        </h4>:{" "}
+                                                        {item.description}
+                                                            </li>
+                                                              ))}
+                                                    </ul>
+                                                   <p
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-8"
                                                     dangerouslySetInnerHTML={{ __html: data.thisisWhere }}
                                                 />
@@ -164,7 +159,6 @@ export default function Page() {
                                         )
                                     })
                                 }
-
                                 <div >
                                     {
                                         keyBenifiteList.map((data, ind) => {
@@ -193,8 +187,6 @@ export default function Page() {
                                                     />
 
                                                 </div>
-
-
                                             )
                                         })
                                     }
@@ -225,8 +217,16 @@ export default function Page() {
                                                     className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
-                                                <UnorderedList arrName={data.list2} ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2" />
-
+ <ul className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2">
+          {data.list2.map((item, i) => (
+            <li key={i}>
+              <h4 className="inline-block font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]">
+                {item.title}
+              </h4>:{" "}
+             {item.description}
+            </li>
+          ))}
+        </ul>
                                             </div>
                                         )
                                     })
@@ -256,14 +256,6 @@ export default function Page() {
                                     })
                                 }
                             </div>
-
-
-
-
-
-
-
-
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('strategiesTitle')}</h2>
                                 <p className="mt-[22px] xl:mt-[10px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('strategiesDescription')}</p>
@@ -283,7 +275,6 @@ export default function Page() {
                                 <p className="mt-[60px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('strategiesDesc2')}</p>
 
                             </div>
-
 
                             <div className="md:mt-[70px] mt-[40px]">
                                 {
@@ -313,17 +304,8 @@ export default function Page() {
                                         })
                                     }
                                 </div>
-                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-10">Enterprises that invest in tailored Salesforce development today are better positioned to harness AI-powered care pathways, predictive sales models, and advanced automation tomorrow.</p>
+                                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-10">{t('desc2')}</p>
                             </div>
-
-
-
-
-
-
-
-
-
 
                             <div className="md:mt-[50px] mt-[40px]">
                                 {
@@ -347,17 +329,11 @@ export default function Page() {
 
                                                     <UnorderedList arrName={data.list2} ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2" />
                                                 </div>
-
-
-
                                             </div>
                                         )
                                     })
                                 }
                             </div>
-
-
-
                             <div className="md:mt-[50px] mt-[40px]">
                                 {
                                     rialtesYourTrustData.map((data, id) => {
@@ -377,10 +353,7 @@ export default function Page() {
                                             </div>
                                         )
                                     })
-
-
                                 }
-
                                 {
                                     rialtesYourTrustData.map((data, id) => {
                                         return (
@@ -396,17 +369,12 @@ export default function Page() {
                                             </div>
                                         )
                                     })
-
-
                                 }
-
-
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
             {/* faq section */}
             <section className="xl:mt-[80px] mt-[40px] custom-container">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('faqTitle')}</h2>

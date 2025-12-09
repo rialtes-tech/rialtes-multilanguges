@@ -116,26 +116,24 @@ export default function Page() {
                                 {
                                     salesforceData.map((data, ind) => {
                                         return (
-                                            <div
-                                                className="md:flex mt-24 md:mt-[40px] py-[34px] xl:py-[46px] px-[26px] 
+                                           <div
+                                                className="md:flex mt-24 md:mt-[35px] py-[34px] xl:py-[46px] px-[26px] 
                                                            md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative 
-                                                           md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto 4xl:w-[80%]"
+                                                           md:ml-[90px] sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[75%] 4xl:w-[75%]"
                                                 key={ind}>
-                                                <p
-                                                    className={`md:absolute md:flex items-center
+                                                <p className="md:absolute md:flex items-center
                                                                 max-md:mt-[-65px] sm:mt-[-70px] md:mt-0
                                                                 md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
                                                                 bg-[#006FBE] text-white font-semibold
                                                                 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
                                                                 px-[20px] py-[15px] leading-tight
-                                                                 xl:w-[270px] md:w-[340px] ${enActive ? "4xl:w-[300px]" : "md:h-[80px] xl:h-[95px] 4xl:w-[350px]"} w-fit`}>
+                                                                4xl:w-[290px] xl:w-[240px] md:w-[250px] w-fit">
                                                     {data.title}
                                                 </p>
 
-                                                <div
-                                                    className={`4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
+                                                <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]
                                                                 font-medium my-auto max-md:mt-8
-                                                                md:ml-[300px] xl:ml-[240px]  ${enActive ? "4xl:ml-[260px]" : "4xl:ml-[300px]"}`}
+                                                                md:ml-[200px] xl:ml-[180px] 4xl:ml-[240px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
                                             </div>
