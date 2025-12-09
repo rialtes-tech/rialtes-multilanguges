@@ -66,7 +66,7 @@ export default function Page() {
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
-            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="17 Sept 2024" />
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="17 September 2024" />
 
             <div className="xl:mt-[60px] mt-[42px]">
               <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">

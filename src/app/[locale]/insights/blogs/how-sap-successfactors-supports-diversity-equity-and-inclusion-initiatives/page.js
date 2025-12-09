@@ -66,7 +66,7 @@ export default function Page() {
 
             {/* date and icons */}
 
-            <BlogSocialIcons fullUrl={fullUrl} topic="SAP SuccessFactors" date="12 Nov 2024" />
+            <BlogSocialIcons fullUrl={fullUrl} topic="SAP SuccessFactors" date="12 November 2024" />
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">

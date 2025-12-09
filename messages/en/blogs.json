@@ -10623,7 +10623,7 @@
                 "subTitle": "Accelerating Innovation with Customized SAP Development Solutions",
                 "desc": [
                     "Enterprises often need to extend SAP capabilities beyond the standard to meet unique business needs.",
-                     "That’s where <a href='https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>customized SAP development solutions</a> build industry-specific add-ons, integrate AI-driven analytics, or enable mobile access for field teams. The right consulting partner can tailor SAP to fit your operations perfectly.",
+                    "That’s where <a href='https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>customized SAP development solutions</a> build industry-specific add-ons, integrate AI-driven analytics, or enable mobile access for field teams. The right consulting partner can tailor SAP to fit your operations perfectly.",
                     "For example:"
                 ],
                 "list": [
@@ -10713,7 +10713,7 @@
         "partnerData": [
             "At Rialtes, we believe transformation happens when technology meets vision. As one of the <a href='https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting-implementation-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>top SAP consulting partners for enterprises</a>, we combine deep domain expertise with agile methodologies to deliver results that matter.",
             "From strategic planning to deployment and beyond, our SAP consulting services are built around three core principles: clarity, collaboration, and continuous innovation.",
-        "We help businesses maximize ROI with implementation best practices, design customized SAP development solutions for specific industries, and accelerate <a href='https://www.linkedin.com/pulse/reimagine-enterprise-efficiency-sap-consulting-4pm1f/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>enterprise SAP transformation with consulting experts</a> who understand your ecosystem inside out. With Rialtes, your enterprise isn’t just adopting SAP. It’s unlocking the full potential of transformation."
+            "We help businesses maximize ROI with implementation best practices, design customized SAP development solutions for specific industries, and accelerate <a href='https://www.linkedin.com/pulse/reimagine-enterprise-efficiency-sap-consulting-4pm1f/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>enterprise SAP transformation with consulting experts</a> who understand your ecosystem inside out. With Rialtes, your enterprise isn’t just adopting SAP. It’s unlocking the full potential of transformation."
         ],
         "seoTitle": "Why SAP Consulting Partners Matter for Enterprise Success | Rialtes",
         "seoDescription": "SAP consulting partners help organizations move from isolated systems to unified, intelligent enterprises where every process runs with clarity.",
@@ -11536,7 +11536,7 @@
         "blogTitle": "5 Proven Ways AI Accelerates Patient Enrolment in Rare Disease Clinical Trials",
         "fromTitle": "From Bottlenecks to Breakthroughs",
         "faqTitle": "FAQs: Improve Patient Enrolment in Rare Disease Clinical Trials using AI",
-        "blogTopic":"MediAIna"
+        "blogTopic": "MediAIna"
     },
     "digitalInnovationBlog": {
         "schemaData": {
@@ -12039,195 +12039,192 @@
         "statePropertyPara2": "In other words:",
         "statePropertyPara3": "Instead of using Salesforce “as is,” Managed Services keep improving it month after month based on business goals.",
         "salesforceIncludeTitle": "What Salesforce Managed Services Actually Include",
-        "salesforceManagedSections" : [
+        "salesforceManagedSections": [
             {
-            "number": "1",
-            "title": "Daily Operations Without the Bottlenecks",
-            "items": [
+                "number": "1",
+                "title": "Daily Operations Without the Bottlenecks",
+                "items": [
                     {
-                    "heading": "Procure-to-Pay (P2P)",
-                    "description": "New custom fields, page layouts, user roles, workflows, validation rules, dashboards, and approval hierarchies — handled without waiting months."
+                        "heading": "Procure-to-Pay (P2P)",
+                        "description": "New custom fields, page layouts, user roles, workflows, validation rules, dashboards, and approval hierarchies — handled without waiting months."
                     },
                     {
-                    "heading": "AI- and Automation-Based Productivity",
-                    "description": "Designing and deploying automations, flows, and Einstein recommendations to improve the speed of selling and reduce manual work."
+                        "heading": "AI- and Automation-Based Productivity",
+                        "description": "Designing and deploying automations, flows, and Einstein recommendations to improve the speed of selling and reduce manual work."
                     }
                 ]
             },
             {
-            "number": "2",
-            "title": "Revenue-Focused Salesforce Optimization",
-            "items": [
+                "number": "2",
+                "title": "Revenue-Focused Salesforce Optimization",
+                "items": [
                     {
-                    "heading": "Sales Cloud & CPQ Optimization",
-                    "description": "Better quoting cycles, pricing rules, discount strategies, product configuration, and renewal automation."
+                        "heading": "Sales Cloud & CPQ Optimization",
+                        "description": "Better quoting cycles, pricing rules, discount strategies, product configuration, and renewal automation."
                     },
                     {
-                    "heading": "Service Cloud Efficiency",
-                    "description": "Smarter assignment routing, case resolutions, knowledge management, SLA-based triggers, and workforce forecasting."
+                        "heading": "Service Cloud Efficiency",
+                        "description": "Smarter assignment routing, case resolutions, knowledge management, SLA-based triggers, and workforce forecasting."
                     },
                     {
-                    "heading": "Data Cloud & Marketing Cloud Alignment",
-                    "description": "Unified customer profiles, real-time segmentation, targeted campaigns, and activation workflows across channels."
+                        "heading": "Data Cloud & Marketing Cloud Alignment",
+                        "description": "Unified customer profiles, real-time segmentation, targeted campaigns, and activation workflows across channels."
                     }
                 ]
             },
             {
-            "number": "3",
-            "title": "Data, Integration & Governance for Reliable Insights",
-            "items": [
+                "number": "3",
+                "title": "Data, Integration & Governance for Reliable Insights",
+                "items": [
                     {
-                    "heading": "End-to-End Integration Management",
-                    "description": "Salesforce with ERP, billing, support systems, and external apps — built and continuously monitored."
+                        "heading": "End-to-End Integration Management",
+                        "description": "Salesforce with ERP, billing, support systems, and external apps — built and continuously monitored."
                     },
                     {
-                    "heading": "Data Quality & Security",
-                    "description": "Role-based access, data cleansing, deduplication, compliance-ready governance, and periodic audits."
+                        "heading": "Data Quality & Security",
+                        "description": "Role-based access, data cleansing, deduplication, compliance-ready governance, and periodic audits."
                     },
                     {
-                    "heading": "Analytics for Decisions That Matter",
-                    "description": "Tableau and CRM Analytics dashboards for forecasting, pipeline health, win/loss drivers, and customer success outcomes."
+                        "heading": "Analytics for Decisions That Matter",
+                        "description": "Tableau and CRM Analytics dashboards for forecasting, pipeline health, win/loss drivers, and customer success outcomes."
                     }
                 ]
             },
             {
-            "number": "4",
-            "title": "AI-Driven Innovation",
-            "text": "AI is now central to Salesforce, not optional. Managed Services ensures you don’t fall behind.",
-            "items": [
+                "number": "4",
+                "title": "AI-Driven Innovation",
+                "text": "AI is now central to Salesforce, not optional. Managed Services ensures you don’t fall behind.",
+                "items": [
                     {
-                    "heading": "Einstein AI for Sales and Service",
-                    "description": "Predictive lead scoring, opportunity insights, churn probability, sentiment analysis, and automated next-step recommendations."
+                        "heading": "Einstein AI for Sales and Service",
+                        "description": "Predictive lead scoring, opportunity insights, churn probability, sentiment analysis, and automated next-step recommendations."
                     },
                     {
-                    "heading": "Agentforce & Autonomous Agents",
-                    "description": "Deploying AI-powered agents to automate customer service operations, case resolution workflows, data entry, and triage."
+                        "heading": "Agentforce & Autonomous Agents",
+                        "description": "Deploying AI-powered agents to automate customer service operations, case resolution workflows, data entry, and triage."
                     },
                     {
-                    "heading": "Proactive Opportunity Intelligence",
-                    "description": "AI flags revenue opportunities your team might otherwise miss, and prioritizes high-impact actions."
+                        "heading": "Proactive Opportunity Intelligence",
+                        "description": "AI flags revenue opportunities your team might otherwise miss, and prioritizes high-impact actions."
                     }
                 ]
             }
         ],
-        "internalSalesforceTitle" : " Managed Services vs Internal Salesforce Hiring: The Reality",
-        "internalSalesforceheading1" : "Requirement",
-        "internalSalesforceheading2" : "Internal Hiring",
-        "internalSalesforceheading3" : " Managed Services",
-        "tableData" : [
-        {
-            "requirement": "Admin + BA + Architect + Developer + AI Specialist",
-            "internal": "Expensive",
-            "managed": "Included"
-        },
-        {
-            "requirement": "Time to onboard the full team",
-            "internal": "3–9 months",
-            "managed": "Zero"
-        },
-        {
-            "requirement": "Expertise across clouds & AI",
-            "internal": "Limited",
-            "managed": "Full-spectrum"
-        },
-        {
-            "requirement": "Scalability",
-            "internal": "Difficult",
-            "managed": "Flexible"
-        },
-        {
-            "requirement": "Cost efficiency",
-            "internal": "Low",
-            "managed": "High"
-        }
-    ],
-    "businessImpactTitle" : "When Businesses See the Biggest Impact",
-    "businessImpactPara" : "You’ll see managed services transform Salesforce fastest when:",
-    "businessImpactPara2" : "For many organizations, Salesforce isn’t a lost cause, it’s just underperforming at the mment.",
-    "businessBiggestImpact" : [
-        "Sales cycles are slow or unpredictable",
-        "Manual work blocks scale",
-        "Reports exist but don’t drive decisions",
-        "Customer service escalations are rising",
-        "Integrations break during volume peaks",
-        "The CRM is technically stable, but business value is stagnant"
-    ],
-    "salesforceProjectTitle" : "Salesforce Isn’t a One-Time Project; It’s a Revenue Engine",
-    "salesforceProjectPara1" : "The companies that scale fastest don’t treat Salesforce as software.They treat it as the operational core of revenue, constantly improving, continuously automated, always aligned to strategy.",
-    "salesforceProjectPara2" : "And that’s where SalesforceAgent+ does its magic.",
-    "discoverAgenticTitle" : "  Discover the Agentic Capabilities of Agentforce",
-    "discoverAgenticPara" : "See how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform",
-    "watchButton" : " Watch the Webinar",
-    "discoverAgenticPara2" : "<a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> SalesforceAgent+</a> delivers AI-driven Managed Services designed specifically to accelerate business outcomes, not just CRM maintenance. From automation and integrations to analytics, Data Cloud activation, and AI agents — the model ensures Salesforce keeps getting smarter month after month.",
-    "discoverAgenticPara3" : "Instead of planning “big CRM overhauls” every two years, you get ongoing growth, better adoption, faster selling, and higher customer lifetime value — without increasing internal workload.",
-    "discoverAgenticPara4" : "If Salesforce is already central to your business, SalesforceAgent+ makes sure it becomes central to your success.",
-    "faqTitle" : "FAQs: Scale Your Company’s Revenue with Salesforce Managed Services",
-    "faqs" : [
-        {
-            "question": "What are managed services in Salesforce? (What exactly are managed services?)",
-            "answer": "Managed services in Salesforce refer to ongoing expert support that helps businesses continuously optimize their CRM rather than just maintain it. Instead of handling everything internally, companies partner with certified Salesforce specialists who proactively improve workflows, fix issues, introduce new features, analyze data, and align Salesforce with evolving business goals. It's not break-fix support — it's continuous growth enablement."
-        },
-        {
-            "question": "What are the benefits of Salesforce managed services?",
-            "answer": [
-                "Salesforce managed services help businesses unlock more value from their CRM investment by:",
-                [
-                    "Improving user adoption and productivity",
-                    "Automating sales, marketing, and service workflows",
-                    "Reducing dependency on internal tech teams",
-                    "Lowering the cost of full-time in-house admin and developer roles",
-                    "Accelerating innovation with AI, analytics, and automation",
-                    "Ensuring security, compliance, and clean data.Over time, this leads to increased revenue, faster decision-making, and a CRM that evolves as the business scales. "
+        "internalSalesforceTitle": " Managed Services vs Internal Salesforce Hiring: The Reality",
+        "internalSalesforceheading1": "Requirement",
+        "internalSalesforceheading2": "Internal Hiring",
+        "internalSalesforceheading3": " Managed Services",
+        "tableData": [
+            {
+                "requirement": "Admin + BA + Architect + Developer + AI Specialist",
+                "internal": "Expensive",
+                "managed": "Included"
+            },
+            {
+                "requirement": "Time to onboard the full team",
+                "internal": "3–9 months",
+                "managed": "Zero"
+            },
+            {
+                "requirement": "Expertise across clouds & AI",
+                "internal": "Limited",
+                "managed": "Full-spectrum"
+            },
+            {
+                "requirement": "Scalability",
+                "internal": "Difficult",
+                "managed": "Flexible"
+            },
+            {
+                "requirement": "Cost efficiency",
+                "internal": "Low",
+                "managed": "High"
+            }
+        ],
+        "businessImpactTitle": "When Businesses See the Biggest Impact",
+        "businessImpactPara": "You’ll see managed services transform Salesforce fastest when:",
+        "businessImpactPara2": "For many organizations, Salesforce isn’t a lost cause, it’s just underperforming at the mment.",
+        "businessBiggestImpact": [
+            "Sales cycles are slow or unpredictable",
+            "Manual work blocks scale",
+            "Reports exist but don’t drive decisions",
+            "Customer service escalations are rising",
+            "Integrations break during volume peaks",
+            "The CRM is technically stable, but business value is stagnant"
+        ],
+        "salesforceProjectTitle": "Salesforce Isn’t a One-Time Project; It’s a Revenue Engine",
+        "salesforceProjectPara1": "The companies that scale fastest don’t treat Salesforce as software.They treat it as the operational core of revenue, constantly improving, continuously automated, always aligned to strategy.",
+        "salesforceProjectPara2": "And that’s where SalesforceAgent+ does its magic.",
+        "discoverAgenticTitle": "  Discover the Agentic Capabilities of Agentforce",
+        "discoverAgenticPara": "See how your teams can steer every customer interaction using data, AI, and automation—from lead to loyalty, all inside one connected platform",
+        "watchButton": " Watch the Webinar",
+        "discoverAgenticPara2": "<a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> SalesforceAgent+</a> delivers AI-driven Managed Services designed specifically to accelerate business outcomes, not just CRM maintenance. From automation and integrations to analytics, Data Cloud activation, and AI agents — the model ensures Salesforce keeps getting smarter month after month.",
+        "discoverAgenticPara3": "Instead of planning “big CRM overhauls” every two years, you get ongoing growth, better adoption, faster selling, and higher customer lifetime value — without increasing internal workload.",
+        "discoverAgenticPara4": "If Salesforce is already central to your business, SalesforceAgent+ makes sure it becomes central to your success.",
+        "faqTitle": "FAQs: Scale Your Company’s Revenue with Salesforce Managed Services",
+        "faqs": [
+            {
+                "question": "What are managed services in Salesforce? (What exactly are managed services?)",
+                "answer": "Managed services in Salesforce refer to ongoing expert support that helps businesses continuously optimize their CRM rather than just maintain it. Instead of handling everything internally, companies partner with certified Salesforce specialists who proactively improve workflows, fix issues, introduce new features, analyze data, and align Salesforce with evolving business goals. It's not break-fix support — it's continuous growth enablement."
+            },
+            {
+                "question": "What are the benefits of Salesforce managed services?",
+                "answer": [
+                    "Salesforce managed services help businesses unlock more value from their CRM investment by:",
+                    [
+                        "Improving user adoption and productivity",
+                        "Automating sales, marketing, and service workflows",
+                        "Reducing dependency on internal tech teams",
+                        "Lowering the cost of full-time in-house admin and developer roles",
+                        "Accelerating innovation with AI, analytics, and automation",
+                        "Ensuring security, compliance, and clean data.Over time, this leads to increased revenue, faster decision-making, and a CRM that evolves as the business scales. "
+                    ]
                 ]
-               
-            ]
-        },
-        {
-            "question": "What are examples of managed services?",
-            "answer": [
-                "Examples include:",
-                [
-                    "Salesforce administration and enhancements",
-                    "Automation of lead, opportunity, and service processes",
-                    "Integration with ERPs and third-party applications",
-                    "AI and analytics enablement using Data Cloud and Tableau",
-                    "Release management and new feature enablement",
-                    "Data quality and governance",
-                    "Consulting and roadmap planning based on business goals"
+            },
+            {
+                "question": "What are examples of managed services?",
+                "answer": [
+                    "Examples include:",
+                    [
+                        "Salesforce administration and enhancements",
+                        "Automation of lead, opportunity, and service processes",
+                        "Integration with ERPs and third-party applications",
+                        "AI and analytics enablement using Data Cloud and Tableau",
+                        "Release management and new feature enablement",
+                        "Data quality and governance",
+                        "Consulting and roadmap planning based on business goals"
+                    ]
                 ]
-            ]
-        },
-        {
-            "question": "What is the difference between SaaS and managed services?",
-            "answer": [
-                "SaaS (Software as a Service) provides access to software — such as Salesforce on a subscription basis. Managed services, on the other hand, provide the expertise to continually optimize that software.",
-                "In short:",
-                [
-                    "SaaS = the platform",
-                    "Managed services = the team ensuring the platform performs at its fullest potential.Because software alone doesn’t drive transformation; what matters is how effectively it’s configured, adopted, and optimized."
+            },
+            {
+                "question": "What is the difference between SaaS and managed services?",
+                "answer": [
+                    "SaaS (Software as a Service) provides access to software — such as Salesforce on a subscription basis. Managed services, on the other hand, provide the expertise to continually optimize that software.",
+                    "In short:",
+                    [
+                        "SaaS = the platform",
+                        "Managed services = the team ensuring the platform performs at its fullest potential.Because software alone doesn’t drive transformation; what matters is how effectively it’s configured, adopted, and optimized."
+                    ]
                 ]
-               
-            ]
-        },
-        {
-            "question": "How to choose a Salesforce managed services provider for your industry?",
-            "answer": [
-                "Look for a provider that checks all these boxes:",
-                [
-                    "Proven experience in your industry and Salesforce Cloud relevant to your business",
-                    "Ability to support both core CRM and advanced AI-driven capabilities",
-                    "Access to certified consultants rather than generic support teams",
-                    "Flexible engagement models that scale with business needs",
-                    "A continuous innovation approach instead of ticket-based servicing",
-                    "Strong governance and security practices, not just development skills"
+            },
+            {
+                "question": "How to choose a Salesforce managed services provider for your industry?",
+                "answer": [
+                    "Look for a provider that checks all these boxes:",
+                    [
+                        "Proven experience in your industry and Salesforce Cloud relevant to your business",
+                        "Ability to support both core CRM and advanced AI-driven capabilities",
+                        "Access to certified consultants rather than generic support teams",
+                        "Flexible engagement models that scale with business needs",
+                        "A continuous innovation approach instead of ticket-based servicing",
+                        "Strong governance and security practices, not just development skills"
+                    ]
                 ]
-            ]
-        }
-
-    ],
-    "seoTitle" : "Salesforce Managed Services: How SalesforceAgent+ Drives Growth",
-    "seoDescription" : "SalesforceAgent+ delivers AI-driven Managed Services for Salesforce designed to accelerate business outcomes, not just CRM maintenance.",
-    "bannerAlt" : "Colorful flowing fiber optic lines with glowing dots representing data flow network connectivity and digital technology",
-    "webinarImgAlt" : "Professional with glasses overlaid with digital data visualization representing Agentforce agentic AI capabilities platform"
+            }
+        ],
+        "seoTitle": "Salesforce Managed Services: How SalesforceAgent+ Drives Growth",
+        "seoDescription": "SalesforceAgent+ delivers AI-driven Managed Services for Salesforce designed to accelerate business outcomes, not just CRM maintenance.",
+        "bannerAlt": "Colorful flowing fiber optic lines with glowing dots representing data flow network connectivity and digital technology",
+        "webinarImgAlt": "Professional with glasses overlaid with digital data visualization representing Agentforce agentic AI capabilities platform"
     }
 }
