@@ -42,6 +42,7 @@ export default function Page() {
             />
 
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
+                  
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/single-source-of-truth-real-estate-lead-to-lease.webp"
@@ -54,43 +55,26 @@ export default function Page() {
                     <Image
                         src="/images/blog/single-source-of-truth-real-estate-lead-to-lease-mobile.webp"
                         alt={t("bannerAlt")}
+                         priority
+                         height={0}
+                         width={0}
+                         className="w-full h-auto object-cover"
                     />
                 </div>
             </section>
-
-
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12 grid-cols-12">
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 col-span-12">
-
-                        {/* date and icons */}
-                        <div className="sm:flex justify-between">
-                            <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Exelona</span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>04 November 2025
-                            </div>
-
-                            <div>
-                                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                                    <BlogSocialIcons fullUrl={fullUrl} />
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* main blog */}
+                     {/* date and icons */}
+                     <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="04 November 2025" />    
+                     {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
                             <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t("blogTitle")}</h1>
-
-
-
                             <div className="md:mt-[50px] mt-[40px]">
                                 {/* <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">What Are Digital Patient Journeys?</h2> */}
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> {t("para1")}</p>
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("para2")}</p>
-                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("para3")} </p>
-
-
-                                <>
+                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("para3")} </p><>
                                     {
                                         whatASingleSourceData.map((data, ind) => {
                                             return (
@@ -111,7 +95,6 @@ export default function Page() {
                                             )
                                         })
                                     }
-
                                 </>
                                 <>
                                     {

@@ -174,6 +174,7 @@
       "SAP Joule",
       "SAP Signavio",
       "SAP SuccessFactors",
+      "Servicios Gestionados",
       "Otros"
     ],
     "slides": [
@@ -223,6 +224,28 @@
       }
     ],
     "latestBlogs": [
+      {
+        "id": 63,
+        "image": "/images/blog/digital-data-stream-mobile.webp",
+        "category": "Servicios Gestionados",
+        "industry": "Genérico",
+        "date": "Dec. 05, 2025",
+        "url": "/sap-managed-services-enterprise-ai-strategy/",
+        "title": "Servicios Gestionados de SAP: La estrategia de IA empresarial detrás de un éxito SAP siempre activo",
+        "alt": "Líneas y rastros de luz coloridos que forman un flujo de datos futurista y de alta velocidad.",
+        "description": "La mayoría de las organizaciones dependen de SAP para gestionar finanzas, cadena de suministro, RRHH, manufactura, compras y operaciones con clientes. Pero la verdad es simple: implementar SAP es solo la línea de partida. El verdadero valor está en mantener los sistemas optimizados, innovar continuamente y alinear las capacidades de SAP con las prioridades empresariales en evolución."
+      },
+      {
+        "id": 62,
+        "image": "/images/blog/future-of-digital-healthcare-mobile.webp",
+        "category": "MediAina",
+        "industry": "Ciencias de la Vida",
+        "date": "Dec. 04, 2025",
+        "url": "/reimagining-clinical-trial-patient-journey/",
+        "title": "De una atención fragmentada a ecosistemas inteligentes: reimaginar el recorrido del paciente en ensayos clínicos",
+        "alt": "Personas caminando en un paisaje de red digital con una cápsula inteligente futurista flotando arriba.",
+        "description": "Los ensayos clínicos están destinados a medir el impacto de un tratamiento, pero para muchos participantes, la experiencia se siente más como un maratón logístico. Múltiples portales, equipos de atención desconectados, formularios repetitivos, pasos siguientes poco claros y una visibilidad limitada del progreso hacen que la participación se sienta más como trabajo que como atención."
+      },
       {
         "id": 60,
         "image": "/images/blog/salesforce-managed-services-salesforceagent-plus-mobile.webp",
