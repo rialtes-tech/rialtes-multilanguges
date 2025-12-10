@@ -66,7 +66,7 @@ export default function Page() {
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
             {/* date and icons */}
-            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="03 Feb 2025" />
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="03 February 2025" />
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
