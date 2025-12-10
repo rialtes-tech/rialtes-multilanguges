@@ -918,7 +918,7 @@
                     "Où concentrer les investissements en efficacité énergétique.",
                     "Comment prolonger la durée de vie des actifs grâce à une intervention précoce."
                 ],
-                "desc2": "Ce n’est pas de la simple gestion de maintenance — c’est de <strong>l’intelligence de portefeuille</strong>, redéfinissant la façon dont les entreprises immobilières évoluent efficacement."
+                "desc2": "Ce n’est pas de la simple gestion de maintenance — c’est de l’intelligence de portefeuille, redéfinissant la façon dont les entreprises immobilières évoluent efficacement."
             }
         ],
         "exelonaEdgeData": [
@@ -6292,7 +6292,7 @@
         "schemaData": {},
         "bannerAlt": "Bannière abstraite illustrant la croissance des entreprises et la transformation numérique grâce à Salesforce",
         "salesforceTitle": "Comment les meilleurs partenaires Salesforce aident les entreprises à prospérer et innover",
-        "blogTopic": "Salesforce Agentforce",
+        "blogTopic": "Salesforce Consulting ",
         "salesforcePartnersHelp": [
             "Salesforce est devenu la base des solutions CRM modernes pour les entreprises, aidant les organisations à unifier les données, rationaliser les processus et offrir des expériences client personnalisées. Mais voici la réalité : acheter des licences Salesforce ne garantit pas à lui seul le succès commercial. Les entreprises ont besoin de l'expertise adéquate pour exploiter tout le potentiel de Salesforce.",
             "C’est là qu’interviennent les partenaires Salesforce. Ces experts en conseil et en mise en œuvre ne se contentent pas de configurer des outils CRM ; ils aident les entreprises à repenser leurs opérations, innover avec l’IA et se développer en toute confiance. Pour les entreprises qui se demandent : « Qui sont les meilleurs partenaires Salesforce pour les grandes entreprises ? », la réponse réside souvent dans l’évaluation de celui qui saura aligner la technologie sur les objectifs commerciaux à long terme.",
@@ -7041,6 +7041,7 @@
         ]
     },
     "whatDoesASingle": {
+        "blogTopic":"Exelona",
         "bannerAlt": "Paysage urbain futuriste verre avec bâtiments transparents rose et bleu sur surface réfléchissante innovation numérique",
         "aleadsfill": "Un prospect remplit",
         "aform": "un formulaire",
@@ -7283,7 +7284,7 @@
         "blogMainData": [
             "Chaque entreprise immobilière atteint un mur à un moment donné, généralement lorsque ses systèmes cessent de communiquer entre eux. Vous avez un outil de gestion immobilière ici, un système financier là, et un CRM ailleurs retenant vos données de prospects. Les équipes perdent des heures à courir après les mises à jour, les services financiers peinent à concilier les données et les dirigeants reçoivent des rapports déjà obsolètes au moment où ils sont imprimés.",
             "Voici la solution : les intégrations d’API ouvertes.",
-            "Un écosystème d’API ouvertes permet à votre CRM, ERP, système financier et de gestion immobilière d’échanger des données en temps réel. Au lieu de construire des passerelles personnalisées coûteuses, les API ouvertes rendent possible la connexion sécurisée entre tous les systèmes, permettant des opérations unifiées, une prise de décision plus rapide et, en fin de compte, une croissance plus évolutive.",
+            "Un écosystème d’API ouverte permet la <a href='https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergence CRM et ERP</a> ; ainsi, vos systèmes de gestion immobilière échangent des données en temps réel. Au lieu de créer des passerelles personnalisées coûteuses, les API ouvertes permettent de connecter n’importe quel système à un autre de manière sécurisée, favorisant des opérations unifiées, une prise de décision plus rapide et, au final, une croissance plus évolutive.",
             "Voyons ce que cela signifie pour l’immobilier, quelles intégrations sont réellement nécessaires et comment des plateformes comme Exelona aident les grandes entreprises à dépasser les architectures technologiques fragmentées."
         ],
         "realEstateData": [
@@ -7548,7 +7549,8 @@
                 "subTitle": "Assurer l’adoption et l’optimisation des performances",
                 "desc": [
                     "Même le système SAP le plus sophistiqué échoue si les employés ne l’utilisent pas efficacement. C’est pourquoi les meilleurs partenaires intègrent la gestion du changement et la formation des utilisateurs dès le processus d’implémentation.",
-                    "Après le déploiement, ils surveillent les performances du système, affinent les workflows et intègrent des tableaux de bord analytiques pour mesurer les KPI, aidant à <a href='https://www.rialtes.com/insights/blogs/sap-implementation-strategies-for-2026-success/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>maximiser le ROI grâce aux meilleures pratiques de mise en œuvre</a>. Les données montrent que les entreprises disposant d’une optimisation structurée post-implémentation constatent jusqu’à 40 % d’augmentation des taux d’adoption des utilisateurs au cours de la première année, un facteur crucial pour réaliser le ROI."                ]
+                    "Après le déploiement, ils surveillent les performances du système, affinent les workflows et intègrent des tableaux de bord analytiques pour mesurer les KPI, aidant à <a href='https://www.rialtes.com/insights/blogs/sap-implementation-strategies-for-2026-success/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>maximiser le ROI grâce aux meilleures pratiques de mise en œuvre</a>. Les données montrent que les entreprises disposant d’une optimisation structurée post-implémentation constatent jusqu’à 40 % d’augmentation des taux d’adoption des utilisateurs au cours de la première année, un facteur crucial pour réaliser le ROI."
+                ]
             },
             {
                 "subTitle": "Amélioration continue et agilité pilotée par le cloud",
@@ -7991,7 +7993,7 @@
         "bannerAlt": "Main professionnelle touchant réseau numérique lumineux avec rayons de lumière radiants et particules données fond sombre"
     },
     "aiClinical": {
-         "blogTopic":"MediAIna",
+        "blogTopic": "MediAIna",
         "schemaData": {},
         "mainData": [
             "Los ensayos clínicos son la base fundamental de la innovación médica, especialmente en el caso de las enfermedades raras. Sin embargo, uno de los mayores obstáculos en el desarrollo de nuevas terapias no es la ciencia; es encontrar, inscribir y retener a los pacientes adecuados. Este desafío se vuelve aún más complejo para las enfermedades raras, donde los participantes elegibles pueden contarse apenas por cientos en todo el mundo.",
@@ -8652,7 +8654,7 @@
         "discoverAgenticTitle": " Découvrez les capacités agentiques d’Agentforce",
         "discoverAgenticPara": "Découvrez comment vos équipes peuvent orienter chaque interaction client grâce aux données, à l’IA et à l’automatisation — du lead à la fidélisation, le tout dans une plateforme connectée.",
         "watchButton": " Regarder le webinaire",
-         "discoverAgenticPara2" : "<a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> SalesforceAgent+</a> propose des Services Gérés basés sur l’IA conçus spécifiquement pour accélérer les résultats commerciaux, et pas seulement la maintenance du CRM. De l’automatisation et des intégrations à l’analytique, à l’activation de Data Cloud et aux agents IA — le modèle garantit que Salesforce devienne de plus en plus intelligent mois après mois.",
+        "discoverAgenticPara2": "<a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> SalesforceAgent+</a> propose des Services Gérés basés sur l’IA conçus spécifiquement pour accélérer les résultats commerciaux, et pas seulement la maintenance du CRM. De l’automatisation et des intégrations à l’analytique, à l’activation de Data Cloud et aux agents IA — le modèle garantit que Salesforce devienne de plus en plus intelligent mois après mois.",
         "discoverAgenticPara3": "Au lieu de planifier de “grandes refontes CRM” tous les deux ans, vous obtenez une croissance continue, une meilleure adoption, une vente plus rapide et une valeur client à vie plus élevée — sans augmenter la charge de travail interne.",
         "discoverAgenticPara4": "Si Salesforce est déjà au cœur de votre entreprise, SalesforceAgent+ s’assure qu’il devienne également au cœur de votre succès.",
         "faqTitle": "FAQ : Faites évoluer les revenus de votre entreprise avec les Services Managés Salesforce",
@@ -8719,6 +8721,487 @@
         "seoTitle": "Services Managés Salesforce : Comment SalesforceAgent+ Stimule la Croissance",
         "seoDescription": "SalesforceAgent+ fournit des Services Managés alimentés par l’IA pour Salesforce, conçus pour accélérer les résultats commerciaux, et non simplement la maintenance du CRM.",
         "bannerAlt": "Lignes fibre optique fluides colorées avec points lumineux représentant flux données connectivité réseau technologie numérique",
-        "webinarImgAlt" : "Professionnel avec lunettes superposé visualisation données numériques représentant plateforme capacités IA agentique Agentforce"
+        "webinarImgAlt": "Professionnel avec lunettes superposé visualisation données numériques représentant plateforme capacités IA agentique Agentforce"
+    },
+    "whyPatient": {
+        "mainData": [
+            "Chaque essai clinique commence avec optimisme. Les chercheurs conçoivent des protocoles avec précision, les investigateurs préparent les sites, et les patients s’inscrivent avec un réel espoir de meilleurs résultats. Mais quelque part au cours du processus, de nombreux participants se retirent discrètement. L’industrie en parle rarement ouvertement, pourtant les taux d’abandon peuvent atteindre jusqu’à 30 % dans les essais de Phase III, entraînant des millions de pertes et retardant des thérapies vitales.",
+            "La réalité est simple : les patients ne partent pas parce qu’ils ne se soucient pas. Ils partent parce que rester engagés devient trop exigeant, trop isolant ou trop déroutant. Si votre équipe de recherche se demande encore pourquoi les patients quittent les essais cliniques, la réponse se trouve presque toujours dans des lacunes d’expérience, de communication ou de soutien.",
+            "L'introduction de l’innovation digitale réécrit cette réalité. Elle apporte aux patients clarté, confiance, personnalisation et autonomie — des qualités que les workflows traditionnels d’essais cliniques favorisent rarement. Une fois que l’expérience s’améliore, la rétention suit naturellement."
+        ],
+        "realData": [
+            {
+                "title": "Les vraies raisons derrière les abandons de patients",
+                "desc": "Voici les facteurs les plus courants :",
+                "data": [
+                    {
+                        "title": "Des protocoles compliqués sans explications claires",
+                        "desc": "Quand les participants ne comprennent pas pleinement à quoi s’attendre, l’anxiété augmente. Un essai confus au début devient accablant ensuite."
+                    },
+                    {
+                        "title": "Charge de déplacement et de planification",
+                        "desc": "Des visites fréquentes sur site sont difficiles pour les personnes jonglant avec un emploi, une famille, de longues distances ou une mobilité réduite. La commodité compte plus que ce que la plupart des équipes réalisent."
+                    },
+                    {
+                        "title": "Soutien limité en cas d’effets secondaires",
+                        "desc": "Si quelqu’un ressent un inconfort à domicile sans orientation immédiate, se retirer semble être l’option la plus sûre."
+                    },
+                    {
+                        "title": "Distance émotionnelle",
+                        "desc": "Les patients ont des émotions et veulent se sentir comme des êtres humains, pas comme des sources de données anonymes. Sans empathie et engagement constant, la motivation s’éteint."
+                    },
+                    {
+                        "title": "Surcharge administrative",
+                        "desc": "Les journaux papier, portails indépendants et rappels dispersés créent des obstacles frustrants. Pour relever ce défi majeur, l'engagement digital doit simplifier l’expérience, supprimer les barrières, renforcer la pertinence des informations et assurer une communication continue."
+                    }
+                ]
+            }
+        ],
+        "digitalData": [
+            {
+                "title": "Comment l’engagement digital améliore la rétention — Les approches qui fonctionnent",
+                "desc": "L’innovation actuelle ne vise pas à remplacer l’expertise clinique. Elle vise à l’amplifier grâce à une technologie qui soutient les comportements humains réels.",
+                "list": [
+                    {
+                        "title": "Guidance personnalisée tout au long du parcours",
+                        "desc": "Les participants doivent toujours savoir ce qui les attend — non pas via un dossier de paperasse le premier jour, mais à travers des points de contact digitaux opportuns qui évoluent avec l’essai."
+                    },
+                    {
+                        "title": "Un seul canal conversationnel pour la communication clinique",
+                        "desc": "Les patients ne devraient jamais se demander qui contacter. Un espace de chat sécurisé unique pour signaler les symptômes, poser des questions et recevoir des retours crée un sentiment de sécurité."
+                    },
+                    {
+                        "title": "Participation hybride et à distance pour réduire la charge",
+                        "desc": "La télésanté, les ePRO, les dispositifs portables et la collecte d’échantillons à domicile minimisent les déplacements et les interruptions. Quand la participation s’intègre à la vie quotidienne, l’engagement s’améliore."
+                    },
+                    {
+                        "title": "Motivation grâce à la visibilité des progrès",
+                        "desc": "L’engagement n’est pas seulement logistique ; il est émotionnel. Voir les étapes franchies, les contributions mesurées et la valeur de l’étude en temps réel renforce le sentiment de but."
+                    },
+                    {
+                        "title": "IA prédictive pour identifier et soutenir les patients à risque",
+                        "desc": "Si un patient ralentit dans ses rapports ou cesse d’interagir, les systèmes digitaux peuvent déclencher une intervention humaine avant qu’un abandon ne survienne."
+                    }
+                ],
+                "desc2": "Ce ne sont pas des avantages théoriques. Ils constituent les fondations des stratégies les plus efficaces pour améliorer la rétention dans divers domaines thérapeutiques et régions géographiques."
+            }
+        ],
+        "retentionData": [
+            {
+                "title": "La rétention devient une priorité opérationnelle",
+                "desc": "Les essais cliniques se concentraient autrefois principalement sur l’<a href='https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>inscription des patients</a>. Aujourd’hui, les études performantes privilégient tout autant la rétention — car un cohort complet permet :",
+                "list": [
+                    "Des délais de recherche plus courts",
+                    "Moins de coûts de modifications du protocole",
+                    "Une puissance statistique plus élevée",
+                    "Des insights réalistes en conditions réelles",
+                    "Un succès réglementaire plus rapide"
+                ],
+                "desc2": "C’est pourquoi de plus en plus de promoteurs et CRO adoptent des outils d’adhésion et des plateformes d’engagement. Quand la technologie soutient les patients en continu plutôt que par intermittence, la rétention devient évolutive."
+            }
+        ],
+        "howMediainaData": [
+            {
+                "title": "Comment MediAIna prévient les abandons et redéfinit l’engagement patient",
+                "desc": [
+                    "MediAIna est la plateforme digitale nouvelle génération de Rialtes conçue pour <a href='https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>transformer le parcours patient en essai clinique<a/> de l’inscription au rapport final. Au lieu de systèmes fragmentés pour les rappels, la communication, le reporting et le suivi, MediAIna unifie chaque point de contact entre équipes de soins, équipes d’essai et participants.",
+                    "Avec des capacités pour :"
+                ],
+                "list": [
+                    {
+                        "img": "/images/blog/user-profile-download-icon.svg",
+                        "alt": "Icône d’un profil utilisateur au-dessus d’un ordinateur portable avec une flèche de téléchargement.",
+                        "desc": "Solutions d'inscription basées sur l’IA"
+                    },
+                    {
+                        "img": "/images/blog/location-tracking-map-monitoring-icon.svg",
+                        "alt": "Icône d’un écran affichant une carte avec un repère et un trajet.",
+                        "desc": "Suivi à distance et monitoring digital des symptômes"
+                    },
+                    {
+                        "img": "/images/blog/notification-bell-task-reminder-icon.svg",
+                        "alt": "Icône d’une cloche de notification avec liste de tâches.",
+                        "desc": "Rappels automatisés basés sur les plannings individuels"
+                    },
+                    {
+                        "img": "/images/blog/global-language-translation-icon.svg",
+                        "alt": "Icône d’un globe avec bulles de traduction.",
+                        "desc": "Communication multilingue pour essais cliniques"
+                    },
+                    {
+                        "img": "/images/blog/customer-feedback-performance-rating-icon.svg",
+                        "alt": "Icône avec graphique ascendant, étoiles et pouce levé.",
+                        "desc": "Visualisation gamifiée des progrès et retours motivants"
+                    },
+                    {
+                        "img": "/images/blog/error-warning-troubleshooting-icon.svg",
+                        "alt": "Icône d’un triangle d’avertissement indiquant une erreur.",
+                        "desc": "Alertes prédictives de risque d’abandon"
+                    },
+                    {
+                        "img": "/images/blog/user-network-connection-icon.svg",
+                        "alt": "Icône d’un utilisateur entouré de nœuds connectés.",
+                        "desc": "Conception d’expérience centrée patient, pas centrée protocole"
+                    }
+                ],
+                "desc2": [
+                    "MediAIna soutient <span>la réinvention des parcours patients dans les essais cliniques</span> avec un objectif clair : rendre la participation plus simple, plus sûre et plus enrichissante.",
+                    "Les essais utilisant MediAIna rencontrent moins de barrières, moins de frustration et un engagement plus durable — non pas parce que les patients y sont obligés, mais parce qu’ils se sentent soutenus, informés, connectés et valorisés."
+                ]
+            }
+        ],
+        "faqData": [
+            {
+                "question": "Pourquoi les patients abandonnent-ils les essais cliniques ?",
+                "answer": "La plupart des abandons surviennent à cause d’attentes floues, de contraintes de déplacement, d’un soutien limité face aux effets secondaires, de fatigue émotionnelle ou d’une surcharge administrative."
+            },
+            {
+                "question": "Comment l’engagement digital réduit-il les abandons ?",
+                "answer": "Les outils digitaux offrent une guidance en temps réel, une participation à distance, un soutien aux symptômes, une visibilité des progrès et une communication proactive."
+            },
+            {
+                "question": "Quels outils digitaux améliorent la rétention des patients ?",
+                "answer": "Les plateformes de rappels, télésanté, ePRO, dispositifs connectés, chat en temps réel et tableaux de bord améliorent fortement l’adhésion."
+            },
+            {
+                "question": "La technologie peut-elle vraiment prévenir les abandons ?",
+                "answer": "Oui. Les essais adoptant des stratégies digitales de suivi montrent une meilleure adhésion, moins de visites manquées et une complétude de données plus élevée."
+            },
+            {
+                "question": "Quelle est la meilleure stratégie pour améliorer la rétention ?",
+                "answer": "Une plateforme unifiée combinant communication, rapport de symptômes, rappels et guidance pour rendre la participation simple et prévisible."
+            },
+            {
+                "question": "Comment MediAIna soutient-elle la rétention ?",
+                "answer": "MediAIna fournit un écosystème digital entièrement connecté qui accompagne les patients tout au long du parcours, réduisant la charge et renforçant leur motivation."
+            }
+        ],
+        "schemaData": {},
+        "blogTitle": "Pourquoi les abandons en essais cliniques surviennent — et comment l’engagement digital les prévient",
+        "faqTitle": "FAQs : Exploiter les données et l’IA pour moderniser les RH avec SAP SuccessFactors",
+        "bannerAlt": "Infirmière montrant des informations médicales à une patiente portant un foulard, près d’un visuel ADN numérique.",
+        "seoTitle": "Comment le digital réduit les abandons en essais cliniques | Rialtes",
+        "seoDescription": "Si votre équipe se demande pourquoi les patients abandonnent les essais, la cause repose souvent sur des lacunes d’expérience, de communication ou de soutien."
+    },
+    "sapManaged": {
+        "schemaData": {},
+        "faqData": [
+            {
+                "question": "Qu’est-ce que les services gérés SAP ?",
+                "answer": "Ce sont des services continus qui soutiennent, optimisent et innovent votre environnement SAP — y compris la surveillance, la gestion des changements, les améliorations, la migration vers le cloud et la transformation pilotée par l’IA."
+            },
+            {
+                "question": "Quels sont des exemples de services gérés ?",
+                "answer": "Mises à niveau du système, résolution des bugs, automatisation des workflows, création d’intégrations, activation analytique, optimisation des performances et améliorations IA alimentées par Joule."
+            },
+            {
+                "question": "Quelle est la différence entre ITSM et les services gérés ?",
+                "answer": "L’ITSM gère la prestation de services à travers l’ensemble des systèmes IT. Les services gérés se concentrent spécifiquement sur l’amélioration, la modernisation et l’évolution stratégique de SAP."
+            },
+            {
+                "question": "Qu’est-ce qu’un fournisseur de services gérés ?",
+                "answer": "C’est une organisation responsable de la maintenance et de l’optimisation des systèmes SAP via des services basés sur des SLA, un support d’innovation et des programmes d’amélioration alignés sur l’entreprise."
+            }
+        ],
+        "mainData": [
+            "La majorité des organisations s’appuient sur SAP pour gérer la finance, la chaîne d’approvisionnement, les RH, la production, les achats et les opérations clients. Mais la vérité est simple : mettre en œuvre SAP n’est que la ligne de départ. La vraie valeur réside dans la capacité à garder les systèmes optimisés, innover continuellement et aligner les capacités SAP sur les priorités commerciales évolutives.",
+            "C’est exactement là que les services gérés SAP démontrent leur valeur. Ils vont au-delà du simple “maintien en fonctionnement”. Ils transforment SAP en un moteur numérique vivant qui apprend, s’adapte, évolue et stimule la transformation de l’entreprise grâce à l’IA, l’automatisation et les workflows intelligents.",
+            "Voyons comment les services gérés SAP transforment les résultats métiers et pourquoi de plus en plus d’entreprises les considèrent comme une stratégie long terme plutôt qu’un support d’urgence."
+        ],
+        "whatSapData": [
+            {
+                "title": "Que sont les services gérés SAP ?",
+                "desc": [
+                    "Les services gérés SAP offrent aux entreprises un support long terme sur l’ensemble de leur paysage SAP — cloud, on-premise, hybride et solutions spécifiques à l’industrie. Au lieu de s’appuyer uniquement sur des équipes internes, les entreprises travaillent avec un <a href='https://www.rialtes.com/services/business-transformation/sap-managed-services-provider/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>fournisseur expert de services gérés SAP</a> pour exploiter, stabiliser, moderniser et faire évoluer leur environnement SAP.",
+                    "Cela couvre tout ce dont vous avez besoin pour garantir que SAP progresse constamment vers les objectifs commerciaux, notamment :"
+                ],
+                "subTitle": "Piliers principaux des services gérés SAP",
+                "list": [
+                    "Surveillance 24/7, sécurité et gestion des incidents basées sur SLA",
+                    "Améliorations continues, correctifs et mises à niveau de version",
+                    "Développement à la demande de nouvelles fonctionnalités et intégrations",
+                    "Optimisation proactive des performances et des processus",
+                    "Migration cloud, modernisation et gestion des hyperscalers",
+                    "Maintenance prédictive basée sur l’IA et outils d’observabilité",
+                    "Gouvernance, insights analytiques et orientation stratégique"
+                ],
+                "desc2": "Ce que cela signifie réellement : SAP cesse d’être “lourd en maintenance” et devient une plateforme qui évolue en même temps que votre entreprise."
+            }
+        ],
+        "whyManagedData": [
+            {
+                "title": "Pourquoi les services gérés SAP sont essentiels à l’ère de l’IA d’entreprise",
+                "desc": [
+                    "Les environnements SAP actuels se situent au centre d’un écosystème numérique bien plus large : cloud, plateformes de données, agents IA, automatisation, MES, CRM, réseaux supply chain et systèmes industriels.",
+                    "L’IA a transformé les attentes. Les dirigeants ne veulent plus seulement la disponibilité SAP. Ils veulent :"
+                ],
+                "list": [
+                    "Des rapports en temps réel sans effort manuel",
+                    "Des workflows autonomes remplaçant les tâches répétitives",
+                    "Des décisions supply chain prédictives plutôt que réactives",
+                    "Des expériences personnalisées pour employés et clients",
+                    "Une circulation fluide des données entre systèmes au lieu de silos"
+                ],
+                "desc2": [
+                    "Ces ambitions exigent un environnement SAP en amélioration constante.",
+                    "Les services gérés SAP rendent cela possible en combinant fiabilité du système et innovation pilotée par l’IA. Vous gardez une base solide tout en accélérant les capacités telles que :"
+                ],
+                "list2": [
+                    "Expériences d’IA générative alimentées par Joule dans les applications SAP",
+                    "Planification prédictive et analytique intelligente",
+                    "Hyperautomatisation dans la finance, les RH et les achats",
+                    "Accélérateurs IA spécifiques à l’industrie et extensions cloud"
+                ]
+            }
+        ],
+        "keyData": [
+            {
+                "title": "Réduire les coûts opérationnels sans surcharger l’équipe IT interne",
+                "desc": "Au lieu de constituer une grande équipe interne de support, vous accédez à un large éventail de compétences SAP à la demande — fonctionnelles, techniques, cloud, sécurité, intégration et analytique — à une fraction du coût."
+            },
+            {
+                "title": "Accélérer l’adoption des innovations cloud SAP",
+                "desc": "Les nouveaux correctifs, améliorations et mises à jour cessent d’être repoussés. Ils sont intégrés à votre feuille de route avec des résultats métier clairs, vous permettant de débloquer plus rapidement l’automatisation et les fonctionnalités IA."
+            },
+            {
+                "title": "Renforcer la sécurité et la conformité dans tout le paysage SAP",
+                "desc": "La surveillance, les correctifs, la gestion des vulnérabilités et la préparation aux audits deviennent un cycle continu, non des tâches réactives. Les risques potentiels sont neutralisés avant d’impacter les opérations."
+            },
+            {
+                "title": "Maintenir des performances optimales et une continuité métier",
+                "desc": "L’optimisation des performances, la surveillance prédictive et la prévention des incidents permettent à SAP de fonctionner sans interruption lors de cycles à fort volume comme les clôtures financières, la paie, les achats ou la production."
+            },
+            {
+                "title": "Favoriser la transformation continue plutôt que des améliorations isolées",
+                "desc": "Les améliorations ne s’arrêtent pas après le go-live. L’innovation des processus, l’automatisation et l’analytique restent alignées sur la stratégie d’entreprise pour garantir que SAP évolue avec les attentes clients et les conditions du marché."
+            }
+        ],
+        "whatDoData": [
+            {
+                "title": "À quoi ressemblent les services gérés SAP en pratique ?",
+                "desc": "Voici des exemples courants de services gérés alignés sur les priorités réelles des entreprises :",
+                "list": [
+                    {
+                        "business": "Améliorer la précision FP&A",
+                        "managed": "Prévisions pilotées par IA, automatisation analytique en temps réel"
+                    },
+                    {
+                        "business": "Optimiser la chaîne d’approvisionnement",
+                        "managed": "Planification intégrée, détection de la demande, inventaire prédictif"
+                    },
+                    {
+                        "business": "Faire évoluer les opérations RH",
+                        "managed": "Améliorations SuccessFactors, automatisation LMS, optimisation des workflows"
+                    },
+                    {
+                        "business": "Réduire les temps d’arrêt en production",
+                        "managed": "Optimisation de la maintenance des usines, insights IoT des actifs"
+                    },
+                    {
+                        "business": "Étendre le cloud hybride",
+                        "managed": "Migration RISE with SAP et gestion des hyperscalers"
+                    },
+                    {
+                        "business": "Renforcer la gouvernance des données",
+                        "managed": "Qualité des données à l’échelle de l’entreprise et gestion des données maîtres"
+                    }
+                ],
+                "desc2": "Quand SAP cesse d’être un ensemble de modules pour devenir un écosystème d’intelligence connecté, l’agilité de l’entreprise augmente rapidement."
+            }
+        ],
+        "whatEnterpriseData": [
+            "Les entreprises n’ont pas besoin de plus de tickets ou de cycles de maintenance réactifs. Elles ont besoin d’environnements SAP qui évoluent automatiquement, montent en charge avec confiance et <a href='https://www.rialtes.com/insights/blogs/sap-implementation-strategies-for-2026-success/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>accélèrent la transformation numérique</a>.",
+            "Et c’est exactement ce que SAP Digital Desk apporte comme impact nouvelle génération.",
+            "Il unifie la stabilisation, la modernisation et l’innovation de tout le paysage SAP. Des performances de plateforme à l’évolution cloud, en passant par l’automatisation IA et les améliorations alignées au business, SAP Digital Desk transforme SAP en moteur stratégique de croissance, et non en simple outil opérationnel. Prêt à débloquer toute la valeur de SAP ? Parlons-en !",
+            "Contactez-nous à <a href='mailto:sales@rialtes.com' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>sales@rialtes.com<a/> pour découvrir comment SAP Digital Desk peut transformer vos opérations SAP."
+        ],
+        "howToChooseData": [
+            {
+                "title": "Comment choisir le bon fournisseur de services gérés SAP",
+                "desc": "Si vous évaluez des partenaires, ne vous concentrez pas uniquement sur les certifications ou la vitesse de résolution des tickets. Recherchez plutôt :",
+                "list": [
+                    {
+                        "title": "Alignement avec la stratégie d’entreprise",
+                        "desc": "Ils doivent proposer des feuilles de route de transformation, pas seulement du support de production."
+                    },
+                    {
+                        "title": "Expérience dans le cloud SAP et l’adoption sectorielle",
+                        "desc": "Chaque industrie utilise SAP différemment — la profondeur d’expertise est essentielle."
+                    },
+                    {
+                        "title": "Capacité IA et automatisation",
+                        "desc": "Joule, ML, analytique et automatisation doivent être des compétences clés."
+                    },
+                    {
+                        "title": "Gouvernance et observabilité basées plateforme",
+                        "desc": "Votre environnement SAP doit être surveillé en continu, pas de façon réactive."
+                    },
+                    {
+                        "title": "Esprit de co-innovation",
+                        "desc": "Le fournisseur doit aider votre SAP à évoluer au rythme de votre entreprise."
+                    }
+                ]
+            }
+        ],
+        "seoTitle": "Comment l’IA améliore les services gérés SAP pour les entreprises modernes | Rialtes",
+        "seoDescription": "Découvrez comment les innovations pilotées par l’IA renforcent les services gérés SAP pour optimiser les performances, automatiser les tâches et soutenir la transformation continue.",
+        "bannerAlt": "Lignes numériques colorées et traînées lumineuses formant un flux de données futuriste et rapide.",
+        "blogTopic": "Services Gérés",
+        "blogTitle": "SAP Services Gérés : La stratégie d’IA d’entreprise derrière un SAP toujours opérationnel",
+        "keyTitle": "Avantages clés de collaborer avec un fournisseur de services gérés SAP",
+        "tableTitle1": "Priorité métier",
+        "tableTitle2": "Livrable du service géré SAP",
+        "webinarImgAlt": "Grande vague océanique fusionnée avec des lignes réseau numériques lumineuses symbolisant données et technologie.",
+        "webinarTitle": "Voyage avec SAP – Services transformationnels RISE with SAP par Rialtes",
+        "webinarDesc": "Découvrez comment vos équipes peuvent gérer chaque interaction client grâce aux données, à l’IA et à l’automatisation, du lead à la fidélité, dans une plateforme unifiée.",
+        "watchBtn": "Regarder le webinar",
+        "whyTitle": "Pourquoi les entreprises choisissent les services gérés SAP comme stratégie long terme",
+        "faqTitle": "FAQ : Services gérés SAP"
+    },
+    "reimaginingClinical": {
+        "mainData": [
+            "Les essais cliniques sont censés mesurer l’impact des traitements, mais pour de nombreux participants, l’expérience ressemble davantage à un marathon logistique. Multiples portails, équipes de soins déconnectées, formulaires répétitifs, étapes floues et faible visibilité créent une participation vécue comme une charge plutôt qu’un parcours de soins.",
+            "Ce qui est prévu dans la conception d’un essai diffère souvent de ce que les patients vivent réellement. Alors que les équipes cliniques travaillent sans relâche à coordonner des flux complexes, les patients perçoivent souvent ces interactions comme déconnectées et fragmentées. Cette incohérence peut entraîner des problèmes <a href='https://www.rialtes.com/insights/blogs/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>tels que des abandons</a>, des rapports manqués, des visites oubliées et des données incomplètes, non pas parce que les participants perdent intérêt, mais parce que leur parcours n’est pas conçu autour de leurs besoins.",
+            "L’innovation numérique transforme le secteur de la santé en créant des écosystèmes intelligents qui intègrent divers points de contact en une expérience fluide. Lorsque les systèmes de données, équipes, appareils, canaux et outils d’engagement collaborent efficacement, les essais deviennent plus rapides et centrés sur les besoins des patients."
+        ],
+        "fragmentationData": [
+            {
+                "title": "Pourquoi la fragmentation reste le principal obstacle à la réussite des essais",
+                "desc": "Même les études les mieux conçues échouent lorsque le parcours patient manque de continuité. La plupart des problèmes proviennent des mêmes déconnexions :",
+                "list": [
+                    {
+                        "title": "Équipes de soins et communications disjointes",
+                        "desc": "Les patients peuvent interagir avec les sponsors, sites, CRO, investigateurs, cliniciens en télésanté, laboratoires et groupes de soutien, mais rarement via un canal unifié."
+                    },
+                    {
+                        "title": "Outils numériques isolés qui ne communiquent pas",
+                        "desc": "Wearables, applications ePRO, DSE, plateformes de télésanté et systèmes de recrutement fonctionnent souvent en silos, rendant l’expérience complexe et incohérente."
+                    },
+                    {
+                        "title": "Manque de visibilité sur le parcours",
+                        "desc": "Les participants ne voient généralement pas leur progression, leurs étapes clés ou le contexte global, ce qui crée une distance émotionnelle."
+                    },
+                    {
+                        "title": "Faible interopérabilité dans l’écosystème",
+                        "desc": "Même si les données sont collectées numériquement, l’absence d’interopérabilité ralentit les décisions, les vérifications d’éligibilité, les évaluations de sécurité et le suivi."
+                    }
+                ],
+                "desc2": "Cela crée confusion, friction, retards et désengagement. C’est pourquoi la construction d’écosystèmes intelligents dans les essais est devenue une priorité clé pour les sponsors et CRO."
+            }
+        ],
+        "intelligentData": [
+            {
+                "title": "À quoi devrait ressembler un écosystème d’essai intelligent",
+                "desc": "Cette évolution nécessite un changement fondamental dans la manière dont les systèmes de recherche clinique interagissent. Au lieu d’opérations isolées, l’écosystème s’aligne sur un principe simple :",
+                "subTitle": "Tout ce que l’équipe clinique doit coordonner, le patient doit le vivre de manière fluide.",
+                "desc2": "Un écosystème intelligent repose sur trois piliers essentiels :",
+                "list": [
+                    {
+                        "title": "Gestion numérique connectée des essais",
+                        "desc": "Tous les systèmes cliniques, opérationnels et orientés patients fonctionnent ensemble. Planification, rappels, télésanté, rapports ePRO, recrutement, monitoring et consentement circulent dans un même environnement numérique."
+                    },
+                    {
+                        "title": "Orchestration du parcours patient",
+                        "desc": "L’engagement s’adapte à chaque participant — son état, sa localisation, son mode de vie, son stade thérapeutique et sa progression. Ce n’est pas seulement de la communication ; c’est l’orchestration de chaque interaction selon le contexte."
+                    },
+                    {
+                        "title": "Solutions de santé interopérables",
+                        "desc": "Wearables, appareils, laboratoires, DSE et systèmes d’essais échangent des données sans obliger les participants à répéter des tâches ou naviguer entre plusieurs applications."
+                    }
+                ],
+                "desc3": "Lorsque ces trois éléments se rejoignent, les patients ne sentent plus qu’ils traversent l’essai ; c’est l’essai qui les guide."
+            }
+        ],
+        "howIntelligentData": [
+            {
+                "title": "Comment les écosystèmes intelligents transforment le parcours patient",
+                "list": [
+                    {
+                        "title": "Moins de charge, plus de clarté",
+                        "desc": "Des échéanciers clairs, des rapports simplifiés et un parcours numérique intuitif réduisent la charge cognitive et émotionnelle."
+                    },
+                    {
+                        "title": "Un soutien continu plutôt qu’un dépannage réactif",
+                        "desc": "Au lieu d’attendre qu’un problème s’aggrave, des alertes prédictives signalent les participants en difficulté avant les abandons, renforçant l’engagement."
+                    },
+                    {
+                        "title": "Participation mondiale sans barrières géographiques",
+                        "desc": "L’onboarding à distance et les opérations décentralisées facilitent l’élargissement de la diversité des cohortes — base du <a href='https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>rôle de l’IA dans les maladies rares</a>."
+                    },
+                    {
+                        "title": "Une expérience centrée sur l’humain",
+                        "desc": "Tableaux de progression, messagerie bidirectionnelle, support multilingue et personnalisation permettent aux patients de se sentir valorisés et en contrôle."
+                    }
+                ],
+                "desc": "Ceci constitue la base de l’orchestration numérique du parcours patient, redéfinissant le fonctionnement des essais."
+            }
+        ],
+        "whyIntelligentData": [
+            {
+                "title": "Pourquoi les écosystèmes intelligents façonneront l’avenir des essais",
+                "desc": "Le secteur évolue vers un modèle où l’orchestration centrée sur le patient détermine le succès. Les signes clés incluent :",
+                "list": [
+                    "Plateformes intégrées remplaçant les applications isolées",
+                    "Intégration de données en vie réelle pour des décisions plus dynamiques",
+                    "Modèles d’engagement numérique pour maintenir l’adhésion",
+                    "Rapports automatisés réduisant la charge opérationnelle",
+                    "Flux coordonnés entre payeurs, prestataires, sponsors et CRO"
+                ],
+                "desc2": "Autrement dit, l’<a href='https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>avenir des essais cliniques</a> ne sera pas seulement numérique, mais piloté par des systèmes interconnectés fonctionnant comme un véritable écosystème."
+            }
+        ],
+        "howMediainaData": [
+            {
+                "title": "Comment MediAIna comble l’écart entre essais fragmentés et intelligents",
+                "desc": [
+                    "Conçue pour les innovateurs en sciences de la vie et en santé, MediAIna transforme les essais en éliminant la fragmentation au profit d’un écosystème patient orchestré et intelligent.",
+                    "MediAIna prend en charge :"
+                ],
+                "list": [
+                    "Gestion numérique des essais pour toutes les phases et populations",
+                    "Orchestration du parcours patient avec un engagement adaptatif automatisé",
+                    "Consentement unifié, ePRO, télésanté, rappels et rapports dans un seul environnement",
+                    "Interopérabilité des appareils et DSE pour un échange fluide de données",
+                    "Communication multilingue et multimodale pour une participation mondiale",
+                    "Analytique prédictive pour identifier tôt les risques de désengagement",
+                    "Une plateforme d’écosystème reliant tous les acteurs de l’essai"
+                ],
+                "desc2": [
+                    "Au lieu d’ajouter encore plus d’outils à des workflows déjà complexes, MediAIna crée une expérience clinique intégrée qui fonctionne de la même manière pour tous les participants — à distance, en hybride ou sur site.",
+                    "Pour les sponsors, CRO, MedTech et organismes pharmaceutiques souhaitant passer d’un modèle fragmenté à un modèle connecté, MediAIna ne se contente pas de numériser l’essai ; elle transforme le parcours patient. Construisons ensemble l’avenir du soin. Contactez notre équipe : <a href='mailto:sales@rialtes.com' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>sales@rialtes.com</a>."
+                ]
+            }
+        ],
+        "faqData": [
+            {
+                "question": "Qu’est-ce qu’un écosystème intelligent dans les essais cliniques ?",
+                "answer": "C’est un environnement numérique unifié qui connecte les systèmes, communications et points de contact pour offrir une expérience coordonnée et fluide."
+            },
+            {
+                "question": "Pourquoi le parcours patient est-il souvent fragmenté ?",
+                "answer": "Les systèmes de planification, rapports, télésanté, rappels et recrutement sont souvent déconnectés, obligeant les patients à gérer plusieurs interfaces."
+            },
+            {
+                "question": "Comment l’orchestration du parcours améliore-t-elle la rétention ?",
+                "answer": "En fournissant des rappels, un accompagnement et une communication personnalisés au bon moment, plutôt que d’attendre des patients qu’ils gèrent seuls la complexité."
+            },
+            {
+                "question": "Quel rôle joue l’interopérabilité dans la réussite des essais ?",
+                "answer": "Elle élimine les tâches manuelles, réduit les erreurs et accélère les décisions grâce à un flux de données connecté et en temps réel."
+            },
+            {
+                "question": "La gestion numérique peut-elle réduire les abandons ?",
+                "answer": "Oui. Les essais qui unifient interactions, communication, monitoring et soutien dans une seule plateforme montrent une meilleure adhésion."
+            },
+            {
+                "question": "Comment MediAIna simplifie-t-il le parcours patient ?",
+                "answer": "MediAIna connecte chaque interaction clinique et numérique dans un écosystème unique, rendant la participation plus simple, plus sûre et plus engageante."
+            }
+        ],
+        "seoTitle": "Pourquoi le parcours patient nécessite des écosystèmes intelligents",
+        "seoDescription": "Découvrez comment les écosystèmes intelligents améliorent le parcours patient grâce à des outils connectés, un meilleur engagement et une rétention accrue.",
+        "bannerAlt": "Personnes marchant dans un paysage numérique avec une capsule futuriste flottante",
+        "blogTitle": "Des soins fragmentés aux écosystèmes intelligents : réimaginer le parcours patient",
+        "faqTitle": "FAQ : Réimaginer le parcours patient dans les essais cliniques"
     }
 }
