@@ -7666,23 +7666,23 @@
                 "listTitle": "What sets MediAIna apart:",
                 "list": [
                     {
-                        "title": "End-to-end digital journey: From ",
+                        "title": "End-to-end digital journey ",
                         "desc": "From onboarding to follow-up, everything is connected."
                     },
                     {
-                        "title": "AI-powered care pathways: ",
+                        "title": "AI-powered care pathways ",
                         "desc": "Personalized engagement for each patient type."
                     },
                     {
-                        "title": "Provider-patient collaboration: ",
+                        "title": "Provider-patient collaboration ",
                         "desc": "Easy communication channels that reduce friction."
                     },
                     {
-                        "title": "Compliance-first design: ",
+                        "title": "Compliance-first design ",
                         "desc": "Built to meet HIPAA, GDPR, and global healthcare regulations."
                     },
                     {
-                        "title": "Scalable architecture: ",
+                        "title": "Scalable architecture ",
                         "desc": "Designed for hospitals, clinics, and life sciences enterprises."
                     }
                 ],
@@ -8298,6 +8298,7 @@
         "seoTitle": "Salesforce Development Services for Enterprise Success | Rialtes",
         "seoDescription": "Explore why custom Salesforce development matters, how it boosts CRM efficiency, and why choosing the right partner makes all the difference.",
         "bannerAlt": "Salesforce CRM dashboard showing analytics, user activity metrics, and automated workflow insights",
+       "desc2": "Enterprises that invest in tailored Salesforce development today are better positioned to harness AI-powered care pathways, predictive sales models, and advanced automation tomorrow.",
         "blogMainData": [
             "Customer Relationship Management (CRM) is the beating heart of modern enterprises. It drives how sales teams close deals, how service teams respond to customers, and how marketing delivers personalized campaigns. Among the many CRM platforms available, Salesforce stands out as the most trusted CRM out there. But here’s the catch: simply deploying Salesforce isn’t enough. To truly maximize its potential, businesses need tailored Salesforce services that adapt the platform to unique workflows, data models, and customer expectations.",
             "In this blog, we’ll explore why custom Salesforce development matters, how it boosts CRM efficiency, and why choosing the right partner, especially a trusted Salesforce development company in the USA, makes all the difference."
@@ -8348,8 +8349,7 @@
         "salesforceFeature": [
             {
                 "title": "The Future with Salesforce CRM: From Development to AI-Powered Innovation",
-                "desc": "Salesforce comes with intelligence. Custom development today sets the foundation for AI-driven innovation tomorrow.",
-                "desc2": "Enterprises that invest in tailored Salesforce development today are better positioned to harness AI-powered care pathways, predictive sales models, and advanced automation tomorrow."
+                "desc": "Salesforce comes with intelligence. Custom development today sets the foundation for AI-driven innovation tomorrow."
             }
         ],
         "salesforceFeatureList": [
@@ -8392,10 +8392,20 @@
                 "hereAre": "Here are some real-world improvements enterprises see through custom development:",
                 "thisisWhere": "This is where tailored Salesforce development services unlock true CRM efficiency.",
                 "list2": [
-                    "<strong><h4 class='inline text-[20px]'>Automating manual workflow</h4></strong>: Instead of sales reps manually updating deal stages, automation moves opportunities through the pipeline.",
-                    "<strong> <h4 class='inline text-[20px]'>User-friendly dashboards</h4></strong>: Leaders no longer wade through irrelevant data—they see exactly what matters",
-                    "<strong> <h4 class='inline text-[20px]'>Seamless integrations</h4></strong/>: Finance, marketing, and ERP systems share data automatically, eliminating double entry"
-                ]
+  {
+    "title": "Automating manual workflow",
+    "description": "Instead of sales reps manually updating deal stages, automation moves opportunities through the pipeline."
+  },
+  {
+    "title": "User-friendly dashboards",
+    "description": "Leaders no longer wade through irrelevant data—they see exactly what matters."
+  },
+  {
+    "title": "Seamless integrations",
+    "description": "Finance, marketing, and ERP systems share data automatically, eliminating double entry."
+  }
+]
+
             }
         ],
         "choosingRightData": [
@@ -8403,10 +8413,18 @@
                 "title": "Choosing the Right Salesforce Development Partner",
                 "desc": "While Salesforce partners are global, <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>working with a leading Salesforce partner</a> comes with unique advantages:",
                 "list2": [
-                    "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Proximity to enterprise markets</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> Teams understand local industry regulations and customer expectations </span>",
-                    "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Compliance and security</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards </span>",
-                    "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Certified expertise</h3></strong/>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> A deeper talent pool of Salesforce-certified developers and consultants </span>"
-                ]
+                     {
+    "title": "Proximity to enterprise markets",
+    "description": "Teams understand local industry regulations and customer expectations"
+  },
+  {
+    "title": "Compliance and security",
+    "description": "US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards"
+  },
+  {
+    "title": "Certified expertise",
+    "description": "A deeper talent pool of Salesforce-certified developers and consultants"
+  }                ]
             }
         ],
         "whatToLook": [
@@ -8416,10 +8434,10 @@
                     "Not all partners are created equal. The right partner won’t just configure Salesforce; they’ll future-proof your enterprise. Here are key qualities to look for:"
                 ],
                 "list": [
-                    "<h3 class='text-[20px]'>Proven track record in Salesforce CRM optimization</h3>",
-                    "<h3 class='text-[20px]'>Experience with Salesforce integrations, app development, and automation</h3>",
-                    "<h3 class='text-[20px]'>Ability to deliver scalable, AI-ready solutions</h3>",
-                    "<h3 class='text-[20px]'>Commitment to training and change management for smooth adoption</h3>"
+                    "Proven track record in Salesforce CRM optimization",
+                    "Experience with Salesforce integrations, app development, and automation",
+                    "Ability to deliver scalable, AI-ready solutions",
+                    "Commitment to training and change management for smooth adoption"
                 ]
             }
         ],

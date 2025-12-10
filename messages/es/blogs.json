@@ -6439,6 +6439,7 @@
         "seoTitle": "Servicios Salesforce para el éxito empresarial | Rialtes",
         "seoDescription": "Descubre cómo el desarrollo personalizado de Salesforce impulsa la eficiencia del CRM y por qué elegir al socio adecuado es clave.",
         "bannerAlt": "Panel de Salesforce CRM con análisis, métricas de actividad del usuario y flujos de trabajo automatizados.",
+        "desc2": "Las empresas que invierten en el desarrollo personalizado de Salesforce hoy están mejor posicionadas para aprovechar rutas de atención impulsadas por IA, modelos de ventas predictivos y automatización avanzada en el futuro.",
         "blogMainData": [
             "La Gestión de Relaciones con el Cliente (CRM) es el corazón palpitante de las empresas modernas. Impulsa cómo los equipos de ventas cierran acuerdos, cómo los equipos de servicio responden a los clientes y cómo el marketing ofrece campañas personalizadas. Entre las muchas plataformas CRM disponibles, Salesforce se destaca como la más confiable. Pero aquí está el detalle: simplemente implementar Salesforce no es suficiente. Para maximizar verdaderamente su potencial, las empresas necesitan servicios de Salesforce personalizados que adapten la plataforma a flujos de trabajo únicos, modelos de datos y expectativas del cliente.",
             "En este blog, exploraremos por qué el desarrollo personalizado de Salesforce es importante, cómo mejora la eficiencia del CRM y por qué elegir el socio adecuado, especialmente una empresa de desarrollo de Salesforce de confianza en los EE. UU., marca toda la diferencia."
@@ -6489,8 +6490,7 @@
         "salesforceFeature": [
             {
                 "title": "El futuro con Salesforce CRM: del desarrollo a la innovación impulsada por IA",
-                "desc": "Salesforce viene con inteligencia. El desarrollo personalizado de hoy sienta las bases para la innovación impulsada por IA del mañana.",
-                "desc2": "Las empresas que invierten en el desarrollo personalizado de Salesforce hoy están mejor posicionadas para aprovechar rutas de atención impulsadas por IA, modelos de ventas predictivos y automatización avanzada en el futuro."
+                "desc": "Salesforce viene con inteligencia. El desarrollo personalizado de hoy sienta las bases para la innovación impulsada por IA del mañana."
             }
         ],
         "salesforceFeatureList": [
@@ -6533,21 +6533,41 @@
                 "hereAre": "Aquí hay algunas mejoras reales que las empresas ven a través del desarrollo personalizado:",
                 "thisisWhere": "Aquí es donde los servicios personalizados de desarrollo de Salesforce desbloquean la verdadera eficiencia del CRM.",
                 "list2": [
-                    "<strong><h4 class='inline text-[20px]'>Automatización del flujo de trabajo manual</h4></strong> En lugar de que los representantes de ventas actualicen manualmente las etapas de los acuerdos, la automatización mueve las oportunidades a través del pipeline.",
-                    "<strong><h4 class='inline text-[20px]'>Paneles fáciles de usar</h4></strong> Los líderes ya no tienen que revisar datos irrelevantes: ven exactamente lo que importa.",
-                    "<strong><h4 class='inline text-[20px]'>Integraciones perfectas</h4></strong/> Finanzas, marketing y sistemas ERP comparten datos automáticamente, eliminando la doble entrada."
-                ]
+  {
+    "title": "Automatización del flujo de trabajo manual",
+    "description": "En lugar de que los representantes de ventas actualicen manualmente las etapas de los acuerdos, la automatización mueve las oportunidades a través del pipeline."
+  },
+  {
+    "title": "Paneles fáciles de usar",
+    "description": "Los líderes ya no tienen que revisar datos irrelevantes: ven exactamente lo que importa."
+  },
+  {
+    "title": "Integraciones perfectas",
+    "description": "Finanzas, marketing y sistemas ERP comparten datos automáticamente, eliminando la doble entrada."
+  }
+]
+             
             }
         ],
         "choosingRightData": [
             {
                 "title": "Elegir el socio adecuado para el desarrollo de Salesforce",
                 "desc": "Si bien los socios de Salesforce son globales, <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>trabajar con un socio líder de Salesforce</a> ofrece ventajas únicas:",
-                "list2": [
-                    "<strong>Proximidad a los mercados empresariales</strong> Los equipos comprenden las regulaciones locales de la industria y las expectativas del cliente.",
-                    "<strong>Cumplimiento y seguridad</strong> Los socios estadounidenses dominan los estándares HIPAA, SOC 2 y otras normas críticas de cumplimiento.",
-                    "<strong>Experiencia certificada</strong/> Una reserva de talento más profunda de desarrolladores y consultores certificados en Salesforce."
-                ]
+                "list2":[
+  {
+    "title": "Proximidad a los mercados empresariales",
+    "description": "Los equipos comprenden las regulaciones locales de la industria y las expectativas del cliente."
+  },
+  {
+    "title": "Cumplimiento y seguridad",
+    "description": "Los socios estadounidenses dominan los estándares HIPAA, SOC 2 y otras normas críticas de cumplimiento."
+  },
+  {
+    "title": "Experiencia certificada",
+    "description": "Una reserva de talento más profunda de desarrolladores y consultores certificados en Salesforce."
+  }
+]
+
             }
         ],
         "whatToLook": [
@@ -6557,10 +6577,10 @@
                     "No todos los socios son iguales. El socio adecuado no solo configurará Salesforce; preparará tu empresa para el futuro. Aquí hay cualidades clave que debes buscar:"
                 ],
                 "list": [
-                    "<h3 class='text-[20px]'>Historial comprobado en optimización de Salesforce CRM</h3>",
-                    "<h3 class='text-[20px]'>Experiencia en integraciones, desarrollo de aplicaciones y automatización de Salesforce</h3>",
-                    "<h3 class='text-[20px]'>Capacidad para ofrecer soluciones escalables y preparadas para IA</h3>",
-                    "<h3 class='text-[20px]'>Compromiso con la formación y la gestión del cambio para una adopción fluida</h3>"
+                    "Historial comprobado en optimización de Salesforce CRM",
+                    "Experiencia en integraciones, desarrollo de aplicaciones y automatización de Salesforce",
+                    "Capacidad para ofrecer soluciones escalables y preparadas para IA",
+                    "Compromiso con la formación y la gestión del cambio para una adopción fluida"
                 ]
             }
         ],
