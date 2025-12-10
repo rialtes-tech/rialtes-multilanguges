@@ -8,9 +8,12 @@ import enContent from '../../../../messages/en/insight.json';
 import esContent from '../../../../messages/es/insight.json';
 import frContent from '../../../../messages/fr/insight.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import { useEffect, useRef, useState } from "react";
 
 export default function page({ url }) {
     const t = useTranslations("blogs");
+     const carouselRef = useRef(null);
+    const [isLastSlide, setIsLastSlide] = useState(false);
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, {
         en: enContent,
@@ -86,6 +89,24 @@ export default function page({ url }) {
             </li>
         );
     };
+     const handleBeforeChange = (nextSlide, state) => {
+        const totalItems = state.totalItems;
+        const slidesToShow = state.slidesToShow;
+
+        const maxValidSlide = totalItems - slidesToShow;
+
+        setIsLastSlide(nextSlide >= maxValidSlide);
+    };
+    useEffect(() => {
+        if (isLastSlide) {
+            const timer = setTimeout(() => {
+                carouselRef.current.goToSlide(0);
+                setIsLastSlide(false);
+            }, 2000);
+
+            return () => clearTimeout(timer);
+        }
+    }, [isLastSlide]);
 
     return (
         <section className="relative pb-8 lg:pb-4">
@@ -94,12 +115,14 @@ export default function page({ url }) {
                     <p className="mb-[43px] leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] font-normal">{t('latestBlogsTitle')}</p>
                 </div>
                 <Carousel
+                 ref={carouselRef}
                     swipeable={true}
                     draggable={true}
                     showDots={true}
                     responsive={responsive}
+                      partialVisible={!isLastSlide}
                     ssr={true}
-                    infinite={true}
+                    infinite={false}
                     autoPlay={true}
                     autoPlaySpeed={3000}
                     keyBoardControl={true}
@@ -109,8 +132,8 @@ export default function page({ url }) {
                     removeArrowOnDeviceType={["tablet", "mobile"]}
                     dotListClass="custom-dot-list-style !justify-start flex-wrap"
                     itemClass="carousel-item-padding-40-px"
-                    partialVisible={true}
                     arrows={false}
+                      beforeChange={handleBeforeChange}
                     renderButtonGroupOutside={true}
                     customButtonGroup={<ButtonGroup />}
                     renderDotsOutside={true}

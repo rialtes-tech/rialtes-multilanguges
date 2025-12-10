@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 const generateCaptcha = () => {
     const operators = ['+', '-', '*', '/'];
     const operator = operators[Math.floor(Math.random() * operators.length)];
-    let num1 = Math.floor(Math.random() * 10) + 1; // Ensure non-zero for division
+    let num1 = Math.floor(Math.random() * 10) + 1; 
     let num2 = Math.floor(Math.random() * 10) + 1;
     let question = '';
     let answer = 0;
@@ -34,12 +34,33 @@ const generateCaptcha = () => {
 
     return { question, answer };
 };
+
 const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
     const t = useTranslations("webinarForm");
-    const [captcha, setCaptcha] = useState(generateCaptcha());
+
+    // --- HYDRATION FIX ---
+    const [isMounted, setIsMounted] = useState(false);
+    const [captcha, setCaptcha] = useState({ question: "", answer: null });
+
     const [userAnswer, setUserAnswer] = useState('');
     const [error, setError] = useState('');
     const [formErrors, setFormErrors] = useState({});
+
+    const formRef = useRef();
+
+    // Ensure client-side rendering
+    useEffect(() => {
+        setIsMounted(true);
+    }, []);
+
+    // Generate captcha only on client
+    useEffect(() => {
+        if (isMounted) {
+            setCaptcha(generateCaptcha());
+        }
+    }, [isMounted]);
+
+    if (!isMounted) return null; // Prevent SSR render → avoids hydration mismatch
 
     const refreshCaptcha = () => {
         setCaptcha(generateCaptcha());
@@ -52,6 +73,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
         const firstName = form.first_name.value.trim();
         const lastName = form.surname.value.trim();
         const email = form.email.value.trim();
+
         if (!firstName) {
             errors.first_name = t('fnameError1');
         } else if (!/^[A-Za-z\s'-]+$/.test(firstName)) {
@@ -79,31 +101,24 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
         } else if (parseInt(userAnswer) !== captcha.answer) {
             errors.captcha = t('captchaError2');
         }
+
         return errors;
     };
 
-    useEffect(() => {
-        if (formRef.current) {
-            formRef.current.reset();
-        }
-        setUserAnswer('');
-        setCaptcha(generateCaptcha());
-        setError('');
-        setFormErrors({});
-    }, []);
-
-    const formRef = useRef();
     const handleSubmit = async (e) => {
         e.preventDefault();
         const form = e.currentTarget;
         const errors = validateForm(form);
+
         if (Object.keys(errors).length > 0) {
             setFormErrors(errors);
             setError(errors.captcha || '');
             return;
         }
+
         setError('');
         setFormErrors({});
+
         try {
             await emailjs.sendForm(
                 'service_uvlqqwr',
@@ -128,6 +143,8 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
             <div className="grid grid-cols-6">
                 <div className="col-span-8 xl:col-span-4 md:col-span-6">
                     <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
+
+                        {/* FIRST + LAST NAME */}
                         <div className="grid grid-cols-2 gap-4">
                             <div>
                                 <input
@@ -135,9 +152,12 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                     placeholder={t('fname')}
                                     type="text"
                                     className="w-full p-2 border rounded"
-                                    id="first_name"
                                 />
-                                {formErrors.first_name && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.first_name}</motion.p>}
+                                {formErrors.first_name && (
+                                    <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">
+                                        {formErrors.first_name}
+                                    </motion.p>
+                                )}
                             </div>
 
                             <div>
@@ -147,12 +167,15 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                     type="text"
                                     className="w-full p-2 border rounded"
                                 />
-                                {formErrors.surname && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.surname}</motion.p>}
+                                {formErrors.surname && (
+                                    <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">
+                                        {formErrors.surname}
+                                    </motion.p>
+                                )}
                             </div>
-
-
                         </div>
 
+                        {/* EMAIL + PHONE */}
                         <div className="grid grid-cols-2 gap-4">
                             <div>
                                 <input
@@ -161,7 +184,11 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                     type="email"
                                     className="w-full p-2 border rounded"
                                 />
-                                {formErrors.email && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.email}</motion.p>}
+                                {formErrors.email && (
+                                    <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">
+                                        {formErrors.email}
+                                    </motion.p>
+                                )}
                             </div>
 
                             <div>
@@ -172,9 +199,9 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                     className="w-full p-2 border rounded"
                                 />
                             </div>
-
                         </div>
 
+                        {/* COMPANY + JOB TITLE */}
                         <div className="grid grid-cols-2 gap-4">
                             <input
                                 name="company"
@@ -185,39 +212,51 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                             />
                             <input
                                 name="job_title"
-                                placeholder={t('role')} 
+                                placeholder={t('role')}
                                 type="text"
                                 required
                                 className="w-full p-2 border rounded"
                             />
                         </div>
 
+                        {/* CAPTCHA + BUTTON */}
                         <div className='flex xl:flex-row flex-col xl:gap-20 gap-5 !mt-10'>
                             <div className='mt-5 flex flex-col items-center xl:flex-row md:flex-row gap-6'>
-                                <div className="flex  space-x-4">
-                                    <span className="font-semibold text-lg text-gray-800"> {captcha.question} = ?</span>
-                                    <button type="button" onClick={refreshCaptcha} title="Refresh Captcha" className="text-blue-600 hover:text-blue-800 text-xl font-bold">
+                                <div className="flex space-x-4">
+                                    <span className="font-semibold text-lg text-gray-800">
+                                        {captcha.question} = ?
+                                    </span>
+
+                                    <button
+                                        type="button"
+                                        onClick={refreshCaptcha}
+                                        title="Refresh Captcha"
+                                        className="text-blue-600 hover:text-blue-800 text-xl font-bold"
+                                    >
                                         ↻
                                     </button>
                                 </div>
+
                                 <input
                                     type="number"
                                     value={userAnswer}
                                     onChange={(e) => setUserAnswer(e.target.value)}
-                                    placeholder={t('enterCaptcha')} 
+                                    placeholder={t('enterCaptcha')}
                                     className="border border-gray-400 px-3 py-2 rounded shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
                                 />
+
                                 <button
                                     type="submit"
                                     name="submit"
                                     value="Submit"
-                                    className="bg-[#134874] border border-[#134874] font-semibold py-3 px-8 transition duration-300 text-white hover:bg-[#ffffff] hover:text-[#134874]">
+                                    className="bg-[#134874] border border-[#134874] font-semibold py-3 px-8 transition duration-300 text-white hover:bg-[#ffffff] hover:text-[#134874]"
+                                >
                                     {t('watchWebinar')}
                                 </button>
                             </div>
-
-
                         </div>
+
+                        {/* ERROR MSG */}
                         <div>
                             <AnimatePresence>
                                 {error && (
@@ -232,13 +271,17 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                 )}
                             </AnimatePresence>
                         </div>
-                        <div className='mt-5'> {t('captchaMsg')} (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
+
+                        <div className='mt-5'>
+                            {t('captchaMsg')} (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2 = 2)
+                        </div>
+
                         <input type="hidden" name="webinar_link" value={emailWebinarLink} />
                     </form>
                 </div>
+
                 <div className="hidden md:block md:col-span-3"></div>
             </div>
-
         </div>
     );
 }
