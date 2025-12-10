@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Seo from "@/app/[locale]/components/Seo";
@@ -16,6 +16,7 @@ import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCa
 
 
 export default function Page() {
+ 
   const currUrl = useUrl()
   const t = useTranslations('caseStudy')
   const locale = useLocale();
@@ -175,10 +176,12 @@ export default function Page() {
   };
 
   const FeaturedCarousel = () => {
+      const carouselRef = useRef(null);
+    const [isLastSlide, setIsLastSlide] = useState(false);
     const responsive = {
       desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 1,
+        items: 1, 
         partialVisibilityGutter: 200,
         slidesToSlide: 1,
       },
@@ -230,6 +233,24 @@ export default function Page() {
         </li>
       );
     };
+     const handleBeforeChange = (nextSlide, state) => {
+        const totalItems = state.totalItems;
+        const slidesToShow = state.slidesToShow;
+
+        const maxValidSlide = totalItems - slidesToShow;
+
+        setIsLastSlide(nextSlide >= maxValidSlide);
+    };
+    useEffect(() => {
+        if (isLastSlide) {
+            const timer = setTimeout(() => {
+                carouselRef.current.goToSlide(0);
+                setIsLastSlide(false);
+            }, 2000);
+
+            return () => clearTimeout(timer);
+        }
+    }, [isLastSlide]);
 
     return (
       <section className="relative pb-10 bg-white">
@@ -238,13 +259,16 @@ export default function Page() {
             <h2 className="text-black xl:mb-[82px] mb-[40px] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight ">{t('latestTitle')}</h2>
           </div>
           <Carousel
+            ref={carouselRef}
             swipeable={true}
             draggable={true}
             showDots={true}
             responsive={responsive}
             ssr={true}
-            infinite={true}
+             partialVisible={!isLastSlide}
+            infinite={false}
             autoPlay={true}
+             beforeChange={handleBeforeChange}
             autoPlaySpeed={3000}
             keyBoardControl={true}
             customTransition="all .5s"
@@ -253,7 +277,6 @@ export default function Page() {
             removeArrowOnDeviceType={["tablet", "mobile"]}
             dotListClass="custom-dot-list-style !justify-start flex-wrap"
             itemClass="carousel-item-padding-40-px"
-            partialVisible={true}
             arrows={false}
             renderButtonGroupOutside={true}
             customButtonGroup={<ButtonGroup />}
