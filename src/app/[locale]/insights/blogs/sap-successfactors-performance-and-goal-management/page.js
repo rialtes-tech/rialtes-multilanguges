@@ -17,7 +17,7 @@ export default function Page() {
   const t = useTranslations('successFactorPerformance')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { keyFeaturesData, howSapData, implementData ,schemaData} = blogsContent.successFactorPerformance;
+  const { keyFeaturesData, howSapData, implementData, schemaData } = blogsContent.successFactorPerformance;
   const fullUrl = "https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management";
 
   return (
@@ -66,7 +66,7 @@ export default function Page() {
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
             {/* date and icons */}
-            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="29 Oct 2024" />
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="29 October 2024" />
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
@@ -104,7 +104,7 @@ export default function Page() {
                   {
                     howSapData.map((data, ind) => {
                       return (
-                        <li key={ind}><h3 className="inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.title}{" "}</h3>{data.desc}</li>
+                        <li key={ind}><h3 className="inline font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.title}{" "}</h3>{data.desc}</li>
                       )
                     })
                   }
@@ -115,7 +115,7 @@ export default function Page() {
               <div className="md:mt-[50px] mt-[40px]">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('implementTitle')}</h2>
                 <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('implementDesc')}</p>
-                <ul className="list-none font-medium mt-5 pl-[24px] space-y-5">
+                <ul className="list-none font-medium mt-5 space-y-5">
                   {
                     implementData.map((data, ind) => {
                       return (

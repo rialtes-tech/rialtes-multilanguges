@@ -65,7 +65,7 @@ export default function Page() {
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
             {/* date and icons */}
-            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="24 Dec 2024" />
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="24 December 2024" />
 
 
             {/* main blog */}
@@ -77,7 +77,7 @@ export default function Page() {
               {/* benefits section */}
               <div className="md:mt-[50px] mt-[40px]">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('benefitsTitle')}</h2>
-                <ul className="list-none mt-[29px] xl:mt-[30px] pl-[24px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-4">
+                <ul className="list-none mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-4">
                   {
                     benefitsData.map((data, ind) => {
                       return (
@@ -93,11 +93,11 @@ export default function Page() {
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('prerequisitesTitle')}</h2>
                 <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('prerequisitesMainData')}</p>
 
-                <UnorderedList arrName={prerequisitesList} ulClassName="list-disc mt-5 space-y-3 marker:text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium" />
+                <UnorderedList arrName={prerequisitesList} ulClassName="list-disc mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium" />
 
                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-8">{t('prerequisitesDesc')}</p>
 
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium">
+                <ul className="list-disc marker:text-xl mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium">
                   {
                     prerequisitesData.map((data, ind) => {
                       return (
@@ -117,7 +117,7 @@ export default function Page() {
                       <div key={id}>
                         <h3 className="mt-[29px] xl:mt-[30px] text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] font-bold leading-tight">{data.title}</h3>
                         <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">{data.desc}</p>
-                        <ul className="list-disc marker:text-[#0092E0] marker:text-xl 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 pl-[34px] font-medium space-y-3">
+                        <ul className="list-disc marker:text-xl 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5 pl-[34px] font-medium space-y-3">
                           {data.list.map((item, ind) => (
                             <li
                               key={ind}
@@ -135,7 +135,7 @@ export default function Page() {
               {/* what does section */}
               <div className="md:mt-[50px] mt-[40px]">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('whatDoesTitle')}</h2>
-                <ul className="list-disc marker:text-[#0092E0] marker:text-xl mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] space-y-3 font-medium">
+                <ul className="list-disc marker:text-xl mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] space-y-3 font-medium">
                   {
                     whatDoesData.map((data, ind) => {
                       return (
