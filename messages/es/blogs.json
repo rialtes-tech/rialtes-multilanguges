@@ -5486,7 +5486,7 @@
         "driveDesc": "Aprovecha el poder de la analítica casi en tiempo real con Data Cloud para comercio. Los paneles inteligentes para productos, compradores e inventario transforman los datos en bruto en insights claros, brindando a las empresas los KPIs necesarios para mejorar la eficiencia, optimizar estrategias de ventas e incrementar los ingresos.",
         "predictiveTitle": "Analítica predictiva en acción: 5 formas en que Salesforce Data Cloud potencia el comercio electrónico",
         "empowerTitle": "Potenciar el comercio electrónico con predicción y colaboración",
-        "faqTitle": "Preguntas frecuentes (FAQ)"
+        "faqTitle": "FAQs: Salesforce Data Cloud para mejorar la experiencia del cliente en el comercio electrónico"
     },
     "agentforceHitech": {
         "schemaData": {},
@@ -5593,7 +5593,8 @@
         "applicationTitle": "¿Cuáles son algunas aplicaciones de los agentes impulsados por IA para ERP?",
         "applicationDesc": "La integración de los agentes de IA de Agentforce con los sistemas ERP transforma las operaciones empresariales al mejorar la eficiencia, la precisión y la funcionalidad. Estos agentes automatizan procesos, ofrecen información procesable y facilitan flujos de trabajo sin problemas en los módulos clave de ERP.",
         "buildingTitle": "Construyendo ERP inteligente y escalable con Agentforce",
-        "faqTitle": "FAQ: Preguntas frecuentes"
+        "faqTitle": "FAQs: Transformación de los sistemas ERP con Agentforce AI"
+
     },
     "fiveSigns": {
         "schemaData": {},

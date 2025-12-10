@@ -154,7 +154,7 @@ export default function Page() {
                                     longTermData.map((data, ind) => {
                                         return (
                                             <div className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[46px] px-[26px] md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto" key={ind}>
-                                                <h3 className="md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[300px] xl:w-[280px] md:w-[240px] w-fit md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] px-[40px] py-[22px] leading-tight">{data.title}</h3>
+                                                <h3 className="md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[300px] xl:w-[280px] md:w-[240px] w-fit md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] px-[40px] py-[22px] leading-tight">{data.title}</h3>
                                                 <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[180px] xl:ml-[210px] 4xl:ml-[240px]" dangerouslySetInnerHTML={{ __html: data.desc }} />
                                             </div>
 
@@ -211,13 +211,13 @@ export default function Page() {
                                                     className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
-                                                <h3 className="mt-5 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]"> {data.desc2}</h3>
+                                                <h3 className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> {data.desc2}</h3>
                                                 <div className="mt-[30px] lg:mt-[49px] grid lg:grid-cols-3 md:grid-cols2 grid-cols-1 lg:gap-[60px] gap-y-[40px] sm:w-[80%] md:w-[90%] lg:w-[950px] xl:w-[1100px] 4xl:w-[1200px]">
                                                     {
                                                         data.list.map((elem, id) => {
                                                             return (
                                                                 <div key={id} className="4xl:w-[85%]">
-                                                                    <h4 className="font-semibold text-[#0092E0] 4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[18px] text-[18px] pb-3 border-b border-[#707070]">{elem.title}</h4>
+                                                                    <h4 className="font-semibold text-[#0092E0] 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] pb-3 border-b border-[#707070]">{elem.title}</h4>
 
                                                                     <p className={`mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium`}>{elem.description}
                                                                     </p>
@@ -243,7 +243,7 @@ export default function Page() {
                                         benefitsData.map((data, ind) => {
                                             return (
                                                 <div key={ind} className={`${ind == 0 ? "lg:pr-[24px]" : "lg:px-[34px]"} ${ind == 3 ? "lg:pr-0 max-lg:border-b-0 max-lg:pb-0" : ""} ${ind == 2 && "md:border-b-0"} max-lg:pb-3 max-lg:border-b lg:first:border-0 lg:border-l border-[#707070]`}>
-                                                    <h3 className="pb-3 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold"> {data.title}</h3>
+                                                    <h3 className="pb-3 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] font-bold"> {data.title}</h3>
                                                     <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] lg:w-[80%]"> {data.desc}</p>
                                                 </div>
                                             )

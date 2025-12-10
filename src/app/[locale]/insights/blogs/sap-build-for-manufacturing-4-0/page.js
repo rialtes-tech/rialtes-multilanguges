@@ -124,7 +124,7 @@ export default function Page() {
                       <div
                         key={ind}
                         className="border border-[#707070] p-[26px] relative md:px-10 lg:px-[26px] pb-[62px]" >
-                        <p className="absolute top-[-24px] md:top-[-40px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] text-[#0092E0] font-bold w-[80%] sm:w-[70%] lg:w-[80%] xl:w-[70%] 4xl:w-[80%] pb-4 px-3 bg-white border-b border-[#0092E0]">
+                        <p className="absolute top-[-24px] md:top-[-40px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[17px] text-[#0092E0] font-bold w-[80%] sm:w-[70%] lg:w-[80%] xl:w-[70%] 4xl:w-[80%] pb-4 px-3 bg-white border-b border-[#0092E0]">
                           {data.title}
                         </p>
                         <p className="4xl:mt-20 lg:mt-16 md:mt-16 sm:mt-12 mt-14 max-[352px]:mt-20 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
@@ -158,9 +158,9 @@ export default function Page() {
                       <div
                         className="md:flex mt-24 md:mt-10 py-[34px] xl:py-[46px] px-[26px] md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto lg:w-[80%] xl:w-auto"
                         key={ind}>
-                        <div className="md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[300px] xl:w-[280px] md:w-[240px] w-fit md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] px-[40px] py-[22px]">
+                        <h3 className="md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[300px] xl:w-[280px] md:w-[240px] w-fit md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] px-[40px] py-[22px]">
                           {data.title}
-                        </div>
+                        </h3>
                         <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[180px] xl:ml-[210px] 4xl:ml-[240px]">
                           {data.desc}
                         </div>
@@ -171,7 +171,7 @@ export default function Page() {
 
                 {/* impact section */}
                 <div className="md:mt-[80px] mt-[60px]">
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('impactTitle')}</h2>
+                  <h2 className="font-semibold  4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('impactTitle')}</h2>
                   <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                     {t("impactDesc")}
                   </p>
@@ -180,7 +180,7 @@ export default function Page() {
                     {businessImpactData.map((data, ind) => {
                       return (
                         <div key={ind} className="border border-[#707070] p-[28px] md:px-[34px] md:pt-[26px] md:pb-[40px]">
-                          <h3 className="mt-2 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight text-[#0092E0] font-bold pb-4 border-b border-[#707070]">
+                          <h3 className="mt-2 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] leading-tight text-[#0092E0] font-bold pb-4 border-b border-[#707070]">
                             {data.title}
                           </h3>
                           <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
