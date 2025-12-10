@@ -169,7 +169,7 @@ export default function Page() {
                                                     {
                                                         data.list.map((elem, id) => {
                                                             return (
-                                                                <li key={id} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"><h4 className="inline font-bold">{elem.title} {ind == 0 && "- "}</h4>{elem.desc}</li>
+                                                                <li key={id} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"><h4 className="inline font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{elem.title} {ind == 0 && "- "}</h4>{elem.desc}</li>
                                                             )
                                                         })
                                                     }
@@ -203,7 +203,7 @@ export default function Page() {
                                                                     {
                                                                         elem.listData.map((content, i) => {
                                                                             return (
-                                                                                <li key={i} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"><h4 className="inline font-bold">{content.title} </h4>{content.desc}</li>
+                                                                                <li key={i} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"><h4 className="inline font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{content.title} </h4>{content.desc}</li>
                                                                             )
                                                                         })
                                                                     }
@@ -266,7 +266,7 @@ export default function Page() {
                                                     {
                                                         data.list.map((elem, id) => {
                                                             return (
-                                                                <li key={id} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"><h4 className="inline font-bold">{elem.title} {ind == 0 && "- "}</h4>{elem.desc}</li>
+                                                                <li key={id} className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"><h4 className="inline font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{elem.title} {ind == 0 && "- "}</h4>{elem.desc}</li>
                                                             )
                                                         })
                                                     }

@@ -238,7 +238,7 @@ export default function Page() {
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
 
-                                                <div className="grid md:grid-cols-2 grid-cols-1 gap-[80px]">
+                                                <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-[80px]">
                                                     {
                                                         data.listData.map((elem, id) => {
                                                             return (
