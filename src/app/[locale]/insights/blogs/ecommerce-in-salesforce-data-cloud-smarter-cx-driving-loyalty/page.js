@@ -95,7 +95,7 @@ export default function Page() {
                           key={ind}
                           className="border border-[#707070] p-[28px] md:px-[34px] md:pt-[26px] md:pb-[40px]"
                         >
-                          <h3 className="mt-2  4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight text-[#0092E0] font-bold pb-4 border-b border-[#707070]">
+                          <h3 className="mt-2  4xl:text-[22px] xl:text-[19px] text-[18px] leading-tight text-[#0092E0] font-bold pb-4 border-b border-[#707070]">
                             {data.title}
                           </h3>
                           <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]">
@@ -122,7 +122,7 @@ export default function Page() {
                   {driveData.map((data, ind) => {
                     return (
                       <div key={ind}>
-                        <h3 className="mt-10 4xl:pr-20 4xl:text-[22px] xl:text-[20px] text-[18px] font-bold leading-tight">
+                        <h3 className="mt-10 4xl:pr-20 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] font-bold leading-tight">
                           {data.title}
                         </h3>
                         <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]">
@@ -158,7 +158,7 @@ export default function Page() {
                                 {ind + 1}
                               </span>{" "}
                             </p>
-                            <h3 className="mt-3 lg:mt-5 4xl:text-[22px] xl:text-[20px] text-[18px] font-bold 4xl:w-[74%] leading-tight">
+                            <h3 className="mt-3 lg:mt-5 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] font-bold 4xl:w-[74%] leading-tight">
                               {data.title}
                             </h3>
                           </div>
