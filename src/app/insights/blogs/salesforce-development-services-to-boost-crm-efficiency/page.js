@@ -126,12 +126,12 @@ export default function Page() {
             "desc": [
                 "Not all partners are created equal. The right partner won’t just configure Salesforce; they’ll future-proof your enterprise. Here are key qualities to look for:",
             ],
-            "list": [
-                "<h3 class='4xl:text-[20px] 2xl:text-[17px]] xl:text-[17px]'>Proven track record in Salesforce CRM optimization</h3>",
-                "<h3 class='4xl:text-[20px] 2xl:text-[17px]] xl:text-[17px]'>Experience with Salesforce integrations, app development, and automation</h3>",
-                "<h3 class='4xl:text-[20px] 2xl:text-[17px]] xl:text-[17px]'>Ability to deliver scalable, AI-ready solutions</h3>",
-                "<h3 class='4xl:text-[20px] 2xl:text-[17px]] xl:text-[17px]'>Commitment to training and change management for smooth adoption</h3>"
-            ],
+              "list": [
+                    "Proven track record in Salesforce CRM optimization",
+                    "Experience with Salesforce integrations, app development, and automation",
+                    "Ability to deliver scalable, AI-ready solutions",
+                    "Commitment to training and change management for smooth adoption"
+                ]
         }
     ]
 
@@ -188,11 +188,20 @@ export default function Page() {
             "hereAre": "Here are some real-world improvements enterprises see through custom development:",
             "thisisWhere": "This is where tailored Salesforce development services unlock true CRM efficiency.",
 
-            "list2": [
-                "<strong><h4 class='inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'>Automating manual workflow</h4></strong>: Instead of sales reps manually updating deal stages, automation moves opportunities through the pipeline.",
-                "<strong> <h4 class='inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'>User-friendly dashboards</h4></strong> : Leaders no longer wade through irrelevant data—they see exactly what matters",
-                "<strong> <h4 class='inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'>Seamless integrations</h4></strong/>: Finance, marketing, and ERP systems share data automatically, eliminating double entry",
-            ]
+             "list2": [
+  {
+    "title": "Automating manual workflow",
+    "description": "Instead of sales reps manually updating deal stages, automation moves opportunities through the pipeline."
+  },
+  {
+    "title": "User-friendly dashboards",
+    "description": "Leaders no longer wade through irrelevant data—they see exactly what matters."
+  },
+  {
+    "title": "Seamless integrations",
+    "description": "Finance, marketing, and ERP systems share data automatically, eliminating double entry."
+  }
+]
         }
     ]
 
@@ -274,11 +283,19 @@ export default function Page() {
         {
             "title": "Choosing the Right Salesforce Development Partner",
             "desc": "While Salesforce partners are global, <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>working with a leading Salesforce partner</a> comes with unique advantages:",
-            "list2": [
-                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Proximity to enterprise markets</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> Teams understand local industry regulations and customer expectations</span>",
-                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Compliance and security</h3></strong>: <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'> US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards</span>",
-                "<strong><h3 class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] font-bold inline-block'>Certified expertise</h3></strong/>:  <span class='4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]'>A deeper talent pool of Salesforce-certified developers and consultants </span/>",
-            ]
+             "list2": [
+                     {
+    "title": "Proximity to enterprise markets",
+    "description": "Teams understand local industry regulations and customer expectations"
+  },
+  {
+    "title": "Compliance and security",
+    "description": "US partners are well-versed in HIPAA, SOC 2, and other critical compliance standards"
+  },
+  {
+    "title": "Certified expertise",
+    "description": "A deeper talent pool of Salesforce-certified developers and consultants"
+  }                ]
         }
     ]
 
@@ -402,8 +419,16 @@ export default function Page() {
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.hereAre }}
                                                 />
-                                                <UnorderedList arrName={data.list2} ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2" />
-                                                <p
+                                          <ul className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2">
+                                               {data.list2.map((item, i) => (
+                                                  <li key={i}>
+                                                         <h4 className="inline-block font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                                          {item.title}
+                                                        </h4>:{" "}
+                                                        {item.description}
+                                                            </li>
+                                                              ))}
+                                                    </ul>                                                <p
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-8"
                                                     dangerouslySetInnerHTML={{ __html: data.thisisWhere }}
                                                 />
@@ -490,8 +515,16 @@ export default function Page() {
                                                     className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
-                                                <UnorderedList arrName={data.list2} ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2" />
-
+                                                 <ul className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2">
+          {data.list2.map((item, i) => (
+            <li key={i}>
+              <h4 className="inline-block font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]">
+                {item.title}
+              </h4>:{" "}
+             {item.description}
+            </li>
+          ))}
+        </ul>
                                             </div>
                                         )
                                     })
