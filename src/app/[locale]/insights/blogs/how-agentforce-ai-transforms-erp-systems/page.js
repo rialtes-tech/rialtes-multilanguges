@@ -145,7 +145,7 @@ export default function Page() {
                       <div
                         key={ind}
                         className="md:pr-[34px] md:pt-[26px] md:pb-[40px]">
-                        <h3 className="mt-2 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 border-b border-[#006FBE]">
+                        <h3 className="mt-2 4xl:text-[22px] xl:text-[19px] text-[18px] font-bold pb-4 border-b border-[#006FBE]">
                           {data.title}
                         </h3>
                         <p

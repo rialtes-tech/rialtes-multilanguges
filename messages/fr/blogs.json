@@ -5543,7 +5543,7 @@
         "driveDesc": "Exploitez la puissance de l’analytique quasi en temps réel avec Data Cloud pour le commerce. Des tableaux de bord intelligents pour les produits, les acheteurs et les stocks transforment les données brutes en insights clairs, offrant aux entreprises les indicateurs clés (KPI) nécessaires pour améliorer l’efficacité, optimiser les stratégies de vente et accroître les revenus.",
         "predictiveTitle": "Analytique prédictive en action : 5 façons dont Salesforce Data Cloud dynamise l’e-commerce",
         "empowerTitle": "Dynamiser l’e-commerce grâce à la prédiction et au partenariat",
-        "faqTitle": "Foire aux questions (FAQ)"
+        "faqTitle": "FAQ : Salesforce Data Cloud pour améliorer l’expérience client dans le e-commerce"
     },
     "agentforceHitech": {
         "schemaData": {},
@@ -5650,7 +5650,7 @@
         "applicationTitle": "Quelles sont quelques applications des agents IA pour ERP ?",
         "applicationDesc": "L'intégration des agents IA d'Agentforce avec les systèmes ERP transforme les opérations des entreprises en améliorant l'efficacité, la précision et la fonctionnalité. Ces agents automatisent les processus, fournissent des informations exploitables et facilitent des flux de travail fluides dans les modules clés d'ERP.",
         "buildingTitle": "Construire un ERP intelligent et évolutif avec Agentforce",
-        "faqTitle": "FAQ : Questions fréquentes"
+       "faqTitle": "FAQ : Transformation des systèmes ERP avec Agentforce AI"
     },
     "fiveSigns": {
         "schemaData": {},

@@ -66,7 +66,7 @@ export default function Page() {
         <div className="grid lg:grid-cols-12">
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
             {/* date and icons */}
-            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="11 September 2025" />
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="17 September 2025" />
 
 
             <div className="xl:mt-[60px] mt-[42px]">
@@ -95,11 +95,11 @@ export default function Page() {
                     </h2>
 
                     <p
-                      className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] xl:text-[17px] text-[16px] pl-8"
+                      className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] xl:text-[17px] text-[16px] lg:pl-4 pl-5"
                       dangerouslySetInnerHTML={{ __html: data.desc }}
                     />
                     {data.list && (
-                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:my-10 pl-8 lg:gap-[20px] sm:w-[70%] md:w-[100%] lg:w-[900px] xl:w-[1090px] 3xl:w-[1240px]">
+                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:my-10 lg:pl-4 pl-5 lg:gap-[20px] sm:w-[70%] md:w-[100%] lg:w-[900px] xl:w-[1090px] 3xl:w-[1240px]">
                         {data.list.map((elem, id) => (
                           <div
                             key={id}
@@ -124,14 +124,14 @@ export default function Page() {
 
                     {data.desc2 && (
                       <p
-                        className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] pl-8"
+                        className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] lg:pl-4 pl-5"
                         dangerouslySetInnerHTML={{ __html: data.desc2 }}
                       />
                     )}
 
                     {data.desc3 && (
                       <p
-                        className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] pl-8"
+                        className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] lg:pl-4 pl-5"
                         dangerouslySetInnerHTML={{ __html: data.desc3 }}
                       />
                     )}
