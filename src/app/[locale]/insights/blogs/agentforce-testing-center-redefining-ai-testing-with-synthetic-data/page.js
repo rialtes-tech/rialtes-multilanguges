@@ -17,7 +17,7 @@ export default function Page() {
   const t = useTranslations('agentforceTesting')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { commonData,schemaData} = blogsContent.agentforceTesting;
+  const { commonData, schemaData } = blogsContent.agentforceTesting;
   const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data";
 
   return (
@@ -66,18 +66,8 @@ export default function Page() {
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11">
 
             {/* date and icons */}
-            <div className="sm:flex justify-between">
-              <div>
-                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('blogTopic')}</span>{" "}
-                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>25 Nov 2024
-              </div>
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="25 November 2024" />
 
-              <div>
-                <div className="flex flex-row max-sm:mt-3 mt-[-10px] max-sm:ml-[-10px]">
-                  <BlogSocialIcons fullUrl={fullUrl} />
-                </div>
-              </div>
-            </div>
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
@@ -99,7 +89,7 @@ export default function Page() {
                         <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                         <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.para}</p>
                         {data.appTitle && <h3 className="text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] mt-5">{data.appTitle}</h3>}
-                        <ul className="list-disc marker:text-[#0092E0] marker:text-xl mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium">
+                        <ul className="list-disc marker:text-xl mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-[34px] font-medium">
                           {data.list.map((elem, id) => {
                             return (
                               <li className="pb-2" key={id}><h4 className="font-bold inline">{elem.title}</h4>{" "}{elem.desc}</li>
@@ -126,7 +116,6 @@ export default function Page() {
                 <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('whyDesc')}</p>
                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('whyDesc2')}</p>
                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('whyDesc3')}{" "}<Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"}><span className="font-normal">{t('whyLink')}</span></Link>{" "}{t('whyDesc4')} </p>
-
               </div>
             </div>
           </div>
