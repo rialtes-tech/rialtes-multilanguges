@@ -56,13 +56,9 @@ export default function Page() {
                     />
                 </div>
             </section>
-
-
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12 grid-cols-12">
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 col-span-12">
-
-
                         {/* date and icons */}
                         <BlogSocialIcons
                             fullUrl={fullUrl}

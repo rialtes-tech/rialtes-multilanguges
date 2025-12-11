@@ -3488,9 +3488,35 @@
         "rialtesTalkData": [
             "Habla con Rialtes. Ayudamos a los fabricantes a desplegar sistemas Agentforce que transforman tanto el taller como el recorrido del cliente. Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Socio Crest de Salesforce mejor valorado</a>, nos destacamos en implementar Salesforce Agentforce para mejorar la eficiencia en todas las industrias. Nuestros <a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Servicios Gestionados</a> y Consultoría pueden ayudar a tu empresa a integrar agentes de IA en Ventas, Servicio, Marketing y Comercio."
         ],
-        "faqTitle": "Preguntas frecuentes (FAQs)"
+         "faqTitle": "Preguntas frecuentes: Agentforce para ayudar a los fabricantes a mejorar la experiencia del cliente"
     },
     "firstAiAgent": {
+        "faqs": [
+    {
+      "question": "¿Qué es Agentforce y cómo ayuda a crear agentes de IA?",
+      "answer": "Agentforce es la plataforma de IA agente de Salesforce que permite crear agentes inteligentes sin necesidad de programar. Con herramientas como Agent Builder y Prompt Builder, puedes automatizar flujos de trabajo, integrarte con datos CRM y desplegar colaboradores digitales capaces de razonar, planificar y actuar en tareas empresariales."
+    },
+    {
+      "question": "¿Puedo crear un agente de IA en Agentforce sin habilidades de programación?",
+      "answer": "Sí. Agentforce ofrece una interfaz low-code con arrastrar y soltar. Los usuarios de negocio, administradores de Salesforce y product owners pueden crear, entrenar y desplegar agentes usando instrucciones en lenguaje natural y flujos visuales — sin necesidad de programación avanzada."
+    },
+    {
+      "question": "¿Qué tipos de agentes de IA puedo crear con Agentforce?",
+      "answer": "Puedes crear agentes para soporte al cliente, asistencia en ventas, incorporación de RRHH, automatización financiera, mesas de ayuda de TI, personalización de marketing y monitoreo de cumplimiento. Cada agente se adapta a procesos empresariales específicos e integra datos de Salesforce."
+    },
+    {
+      "question": "¿Cómo aseguro que mi agente de IA se mantenga preciso y seguro con el tiempo?",
+      "answer": "El entrenamiento continuo y el monitoreo son clave. Proporciona datos actualizados a tu agente, realiza auditorías regulares con Trust Layer de Salesforce y sigue métricas como tasas de resolución y satisfacción del usuario. Esto garantiza precisión, cumplimiento y desempeño a largo plazo."
+    },
+    {
+      "question": "¿Con qué sistemas pueden conectarse los agentes de Agentforce?",
+      "answer": "Los agentes se integran con objetos CRM de Salesforce, Data Cloud, APIs externas, ERPs, bases de conocimiento y herramientas de servicio. Esto les permite acceder a datos en tiempo real para tomar decisiones y acciones más inteligentes."
+    },
+    {
+      "question": "¿Cómo despliego mi primer agente de IA con Agentforce?",
+      "answer": "Seguirás un proceso claro: definir el propósito del agente, usar Agent Builder para diseñar los workflows, entrenar al agente con datos, crear prompts, conectar sistemas, ejecutar simulaciones y finalmente desplegarlo y monitorearlo en producción."
+    }
+  ],
         "schemaData": {},
         "bannerAlt": "Hombre interactuando con ola luminosa de visualización de datos de IA representando transformación digital y aprendizaje",
         "seoTitle": "Cómo Implementar Agentes de IA en Salesforce Agentforce",

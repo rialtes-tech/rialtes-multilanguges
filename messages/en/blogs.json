@@ -3770,7 +3770,7 @@
         "rialtesTalkData": [
             "Talk to Rialtes. We help manufacturers deploy Agentforce systems that transform both the shop floor and the customer journey. As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>top-rated Salesforce Crest Partner</a> we excel in deploying Salesforce Agentforce to enhance efficiency across industries. Our <a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Managed Services</a> and Consulting can help your business integrate AI agents into Sales, Service, Marketing, and Commerce"
         ],
-        "faqTitle": "Frequently Asked Questions (FAQs)"
+        "faqTitle": "FAQs: Agentforce to Help Manufacturers Improve Customer Experience"
     },
     "firstAiAgent": {
         "schemaData": {
@@ -3847,6 +3847,32 @@
         "seoTitle": "How to Deploy AI Agents in Salesforce Agentforce | Rialtes",
         "seoDescription": "Ready to automate with AI? Use this step-by-step guide to build and deploy AI agents in Agentforce by Salesforce without coding or expensive systems.",
         "blogTopic": "Artificial Intelligence",
+        "faqs" :[
+  {
+    "question": "What is Agentforce, and how does it help build AI agents?",
+    "answer": "Agentforce is Salesforce’s agentic AI platform that lets you create intelligent agents without coding. Using tools like Agent Builder and Prompt Builder, you can automate workflows, integrate with CRM data, and deploy digital coworkers that reason, plan, and act on business tasks."
+  },
+  {
+    "question": "Can I build an AI agent in Agentforce without coding skills?",
+    "answer": "Yes. Agentforce provides a low-code, drag-and-drop interface. Business users, Salesforce admins, and product owners can build, train, and deploy agents using natural-language prompts and visual workflows—no advanced coding required."
+  },
+  {
+    "question": "What kinds of AI agents can I create with Agentforce?",
+    "answer": "You can build agents for customer support, sales assistance, HR onboarding, finance automation, IT helpdesks, marketing personalization, and compliance monitoring. Each agent is tailored to specific business processes and integrates with Salesforce data."
+  },
+  {
+    "question": "How do I ensure my AI agent stays accurate and secure over time?",
+    "answer": "Continuous training and monitoring are key. Feed your agent updated data, run regular audits with Salesforce’s Trust Layer, and track metrics like resolution rates and user satisfaction. This ensures accuracy, compliance, and long-term performance."
+  },
+  {
+    "question": "What systems can Agentforce agents connect with?",
+    "answer": "Agents integrate with Salesforce CRM objects, Data Cloud, external APIs, ERPs,knowledge bases, and service tools. This gives them real-time access to customer and business data, enabling smarter decisions and actions."
+  },
+  {
+    "question": "How do I deploy my first AI agent with Agentforce?",
+    "answer": "You’ll follow a clear process: define your agent’s purpose, use Agent Builder to design workflows, train the agent with data, build prompts, connect systems, run simulations, and finally deploy and monitor it in production."
+  }
+],
         "mainData": [
             {
                 "title": "Want to Build an AI Agent Without Coding? Start Here.",

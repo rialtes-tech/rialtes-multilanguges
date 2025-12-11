@@ -156,7 +156,7 @@ export default function Page() {
                     <li key={i}>
                       <h3
                         className={
-                          "font-bold mt-5 inline 4xl:text-[22px] text-[18px] leading-tight "
+                          "font-bold mt-5 inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] leading-tight "
                         }
                       >
                         {item.title}{" "}
@@ -201,7 +201,7 @@ export default function Page() {
                     <li key={i}>
                       <h3
                         className={
-                          "font-bold inline 4xl:text-[22px] text-[18px] leading-tight"
+                          "font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] leading-tight"
                         }
                       >
                         {item.title}{" "}
@@ -250,7 +250,7 @@ export default function Page() {
                     <li key={i}>
                       <h3
                         className={
-                          "font-bold inline 4xl:text-[22px] text-[18px] leading-tight"
+                          "font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] leading-tight"
                         }
                       >
                         {item.title}{" "}
@@ -362,7 +362,6 @@ export default function Page() {
           <FAQAccordion faqData={faqs} />
         </div>
       </section>
-
       <section className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">
         <FilteredBlogCarousel url={currUrl} />
       </section>
