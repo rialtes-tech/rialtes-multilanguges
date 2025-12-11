@@ -10,6 +10,17 @@ export default function page({ url }) {
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
         {
+            "id": 63,
+            "image": "/images/blog/electric-vehicle-charging-energy-mobile.webp",
+            "category": "Salesforce Automotive Cloud",
+            "industry": "Automotive",
+            "date": "Dec. 11, 2025",
+            "url": "/digital-twin-in-automotive-industry-salesforce-cloud/",
+            "title": "Automotive Digital Twin: How OEMs, Dealers, and EV Brands Achieve Success with Salesforce Automotive Cloud",
+            "alt": "Electric vehicle charging port with glowing energy streams representing power and clean technology",
+            "description": "The automotive industry is undergoing its biggest shift in decades. As vehicles become more connected and software-driven, a company’s success is not dependent only on engineering and manufacturing. The real advantage now lies in how effectively OEMs, suppliers, and mobility providers utilize data."
+        },
+        {
             "id": 62,
             "image": "/images/blog/digital-data-stream-mobile.webp",
             "category": "Managed Services",
