@@ -16,7 +16,7 @@ export default function Page() {
   const t = useTranslations('blogs')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { latestBlogs, industries, categories, slides,schemaData } = blogsContent.blogs;
+  const { latestBlogs, industries, categories, slides, schemaData } = blogsContent.blogs;
 
   const BlogCard = ({ blog }) => (
     <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
@@ -89,25 +89,25 @@ export default function Page() {
 
     const isLoadMoreVisible = visibleBlogs < filteredBlogsByCategory.length;
 
-  const industryRef = useRef(null);
-  const categoryRef = useRef(null);
-  useEffect(() => {
-  const handleClickOutside = (event) => {
-    if (industryRef.current && !industryRef.current.contains(event.target)) {
-      setShowOptionsIndustry(false);
-    }
+    const industryRef = useRef(null);
+    const categoryRef = useRef(null);
+    useEffect(() => {
+      const handleClickOutside = (event) => {
+        if (industryRef.current && !industryRef.current.contains(event.target)) {
+          setShowOptionsIndustry(false);
+        }
 
-    if (categoryRef.current && !categoryRef.current.contains(event.target)) {
-      setShowOptionsCategory(false);
-    }
-  };
+        if (categoryRef.current && !categoryRef.current.contains(event.target)) {
+          setShowOptionsCategory(false);
+        }
+      };
 
-  document.addEventListener("mousedown", handleClickOutside);
+      document.addEventListener("mousedown", handleClickOutside);
 
-  return () => {
-    document.removeEventListener("mousedown", handleClickOutside);
-  };
-}, []);
+      return () => {
+        document.removeEventListener("mousedown", handleClickOutside);
+      };
+    }, []);
 
 
     return (

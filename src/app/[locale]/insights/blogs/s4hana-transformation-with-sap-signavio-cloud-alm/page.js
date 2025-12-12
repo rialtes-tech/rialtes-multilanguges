@@ -107,16 +107,15 @@ export default function Page() {
               <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                 {t("whatDoesTitle")}
               </h2>
-              <div className="mt-[29px] xl:mt-[34px]">
+              <>
                 <ul className="list-disc marker:text-black marker:text-xl text-black 4xl:pr-0 xl:pr-0 mt-2 space-y-3 font-medium pl-[36px] lg:pl-[56px]">
                   {whatDoesData.map((data, ind) => (
-                    <li key={ind}>
-                      <h3 className="inline 4xl:text-[22px]   text-[18px] leading-tight">
+                    <li key={ind} className="mt-5">
+                      <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight mt-8">
                         {data.title}
                       </h3>
-                      <br />
                       <p
-                        className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] "
+                        className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                         dangerouslySetInnerHTML={{
                           __html: data.desc,
                         }}
@@ -124,8 +123,8 @@ export default function Page() {
                     </li>
                   ))}
                 </ul>
-              </div>
-              <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] ">
+              </>
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("whatDoesDesc")}
               </p>
             </div>
@@ -134,26 +133,26 @@ export default function Page() {
               <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                 {t("governanceTitle")}
               </h2>
-              <p className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] xl:text-[17px] text-[16px]">
+              <p className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("governanceDesc")}
               </p>
               <ul className="list-disc marker:text-black marker:text-xl mt-5 space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium pl-[36px] lg:pl-[56px]">
                 {goverenanceData.map((data, ind) => {
                   return (
                     <li key={ind}>
-                      <h3 className="inline 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">
+                      <h3 className="inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight">
                         {data.title}
                       </h3>
                       <UnorderedList
                         arrName={data.list}
                         ulClassName="list-[circle] pl-[34px] mt-5 space-y-3"
-                        liClassName="4xl:text-[20px] xl:text-[17px] text-[16px]"
+                        liClassName="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                       />
                     </li>
                   );
                 })}
               </ul>
-              <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]  font-semibold">
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]  font-semibold">
                 {t("governanceDesc2")}
               </p>
             </div>
@@ -162,7 +161,7 @@ export default function Page() {
               <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                 {t("traceabilityTitle")}
               </h2>
-              <p className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] xl:text-[17px] text-[16px] ">
+              <p className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("traceabilityDesc")}
               </p>
 
@@ -170,7 +169,7 @@ export default function Page() {
                 {traceabilityData.map((data, ind) => {
                   return (
                     <li key={ind}>
-                      <h3 className="inline 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight">
+                      <h3 className="inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight">
                         {data.title}
                       </h3>{" "}
                       {data.desc}
@@ -179,7 +178,7 @@ export default function Page() {
                 })}
               </ul>
 
-              <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] ">
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("traceabilityDesc2")}
               </p>
 
@@ -188,7 +187,7 @@ export default function Page() {
                 ulClassName="list-disc marker:text-black marker:text-xl mt-5 space-y-3 text-[16px] xl:text-[17px] 4xl:text-[20px] font-medium pl-[36px] lg:pl-[56px]"
                 liClassName=""
               />
-              <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">
+              <p className="mt-5  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("traceabilityDesc3")}
               </p>
             </div>
@@ -197,10 +196,10 @@ export default function Page() {
               <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                 {t("kpiTitle")}
               </h2>
-              <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] xl:text-[17px] text-[16px] ">
+              <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("kpiDesc")}
               </p>
-              <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]">
+              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("kpiDesc2")}
               </p>
             </div>
@@ -209,7 +208,7 @@ export default function Page() {
               <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                 {t("lifecycleTitle")}
               </h2>
-              <p className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] xl:text-[17px] text-[16px] ">
+              <p className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                 {t("lifecycleDesc")}
               </p>
               <div className="text-[16px] xl:text-[18px] 4xl:text-[20px] font-medium grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[24px] mt-[49px]">
@@ -219,14 +218,14 @@ export default function Page() {
                       key={ind}
                       className="border border-[#707070] 3xl:p-[48px] 3xl:pl-[28 px] 3xl:pr-[26px] p-[30px] sm:w-[75%] md:w-full"
                     >
-                      <h3 className="inline 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight text-[#006FBE] font-bold">
+                      <h3 className="inline 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight text-[#006FBE] font-bold">
                         {data.title}
                       </h3>
 
                       {data.list.map((elem, id) => {
                         return (
                           <div key={id}>
-                            <p className="4xl:text-[20px] xl:text-[17px] text-[16px] mt-[29px]">
+                            <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-[29px]">
                               {elem}
                             </p>
                             {id == 0 && (
@@ -245,10 +244,10 @@ export default function Page() {
               <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                 {t("whyMatterTitle")}
               </h2>
-              <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
+              <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("whyMatterDesc")}
               </p>
-              <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">
+              <p className="mt-5  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("whyMatterDesc2")}
               </p>
             </div>
@@ -257,7 +256,7 @@ export default function Page() {
               <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                 {t("governedTitle")}
               </h2>
-              <p className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] xl:text-[17px] text-[16px]">
+              <p className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 <Link href="https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/">
                   {" "}
                   <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">
@@ -266,7 +265,7 @@ export default function Page() {
                 </Link>{" "}
                 {t("governedDesc")}
               </p>
-              <p className="mt-5   4xl:text-[20px] xl:text-[17px] text-[16px]">
+              <p className="mt-5   4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("governedAt")} <strong>{t("rialtes")}</strong> ,
                 {t("governedDesc2")}{" "}
                 <Link href="https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting">
@@ -281,7 +280,7 @@ export default function Page() {
             <div>
               {/* faq section */}
 
-              <section className="xl:mt-[80px] mt-[40px] ">
+              <section className="xl:mt-[80px] mt-[40px]">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                   {t("faqTitle")}
                 </h2>

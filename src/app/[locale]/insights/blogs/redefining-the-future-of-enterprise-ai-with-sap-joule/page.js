@@ -111,7 +111,7 @@ export default function Page() {
                 </p>
                 <UnorderedList
                   arrName={quickGlimpseData1}
-                  ulClassName="list-disc pl-[36px] lg:pl-[56px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium my-4 space-y-4 marker:text-[#0092E0]"
+                  ulClassName="list-disc pl-[36px] lg:pl-[56px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium my-4 space-y-4"
                 />
 
                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
@@ -131,18 +131,16 @@ export default function Page() {
                 </p>
                 <UnorderedList
                   arrName={sapGenerativeData}
-                  ulClassName="list-disc pl-[36px] lg:pl-[56px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium mt-5 space-y-4 marker:text-[#0092E0]"
+                  ulClassName="list-disc pl-[36px] lg:pl-[56px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium mt-5 space-y-2"
                 />
 
-                <h3
-                  className="h3-bold mt-5  4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight"
-                >
+                <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-5 font-bold leading-tight">
                   {t("resposibleTitle")}
                 </h3>
                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                   {t("responsiveDesc")}
                 </p>
-                <ul className="list-disc text-black  4xl:text-[20px] pl-[36px] lg:pl-[56px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium mt-5 space-y-4 marker:text-[#0092E0]">
+                <ul className="list-disc   4xl:text-[20px] pl-[36px] lg:pl-[56px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium mt-5 space-y-4">
                   {responsiveData.map((data, ind) => {
                     return (
                       <li key={ind}>
@@ -164,11 +162,11 @@ export default function Page() {
 
                 {jouleData.map((data, ind) => {
                   return (
-                    <div className="" key={ind}>
-                      <h3 className="h3-bold pb-4 mt-5">
+                    <div key={ind}>
+                      <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-5 font-bold">
                         {ind + 1}. {data.title}{" "}
                       </h3>
-                      <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                      <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:pl-[24px]">
                         {data.desc}
                       </p>
                     </div>
@@ -185,7 +183,7 @@ export default function Page() {
                 </p>
                 <UnorderedList
                   arrName={howAiWorkData}
-                  ulClassName="list-disc pl-[36px] lg:pl-[56px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium mt-5 space-y-4 marker:text-[#0092E0]"
+                  ulClassName="list-disc pl-[36px] lg:pl-[56px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium mt-5 space-y-4"
                 />
               </div>
               <div className="md:mt-[50px] mt-[40px]">
@@ -215,11 +213,11 @@ export default function Page() {
                 {/* sap joule data */}
                 {sapJouleData.map((data, ind) => {
                   return (
-                    <div key={ind} className="">
-                      <h3 className="h3-bold pb-4 mt-5  4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
+                    <div key={ind}>
+                      <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-5 font-bold leading-tight">
                         {data.title}
                       </h3>
-                      <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                      <p className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                         {data.desc}
                       </p>
                     </div>

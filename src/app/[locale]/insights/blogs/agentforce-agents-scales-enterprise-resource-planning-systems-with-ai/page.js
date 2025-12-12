@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from 'next/link';
-import BlogsCarousel from '../../../components/latestBlogCarousel';
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import { useLocale, useTranslations } from "next-intl";
@@ -28,7 +27,6 @@ export default function Page() {
         description={t('seoDescription')}
         canonical={`https://www.rialtes.com/${locale}/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/`}
       />
-
 
       <Script
         id="schema-agentforce-agents"

@@ -91,16 +91,16 @@ export default function Page() {
                   {" "}
                   {t("procurementTitle")}{" "}
                 </h2>
-                <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-[29px] xl:mt-[34px]">
+                <p className=" 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-[29px] xl:mt-[34px]">
                   {t("procurementDesc")}
                 </p>
                 {procurementData.map((data, ind) => {
                   return (
                     <div key={ind}>
-                      <h3 className="h3-bold mt-5 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">
+                      <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold mt-5">
                         {data.title}
                       </h3>
-                      <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                      <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                         {data.desc}
                       </p>
                     </div>
@@ -114,11 +114,11 @@ export default function Page() {
                   {t("mainActivityTitle")}
                 </h2>
 
-                <p className="text-black mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                <p className=" mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                   {t("mainActivityDesc")}
                 </p>
 
-                <ul className="list-disc text-black pl-[36px] lg:pl-[56px] mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] marker:text-[#0092E0]">
+                <ul className="list-disc  pl-[36px] lg:pl-[56px] mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {mainActivityData.map((data, ind) => {
                     return (
                       <li className="mt-4 font-medium" key={ind}>
@@ -139,11 +139,11 @@ export default function Page() {
                 <div className="mt-[29px] xl:mt-[34px]">
                   {aribaOptimizesData.map((data, ind) => {
                     return (
-                      <div key={ind} className="">
-                        <h3 className="text-black mt-5 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">
+                      <div key={ind}>
+                        <h3 className="mt-5 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold">
                           {ind + 1}. {data.title}{" "}
                         </h3>
-                        <p className="text-black mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                        <p className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] md:pl-[24px]">
                           {data.desc}
                         </p>
                       </div>
@@ -157,10 +157,10 @@ export default function Page() {
                   {t("integrateTitle")}
                 </h2>
 
-                <p className="text-blackmt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                   {t("integrateDesc")}
                 </p>
-                <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
+                <p className=" 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">
                   {t("integrateDesc2")}{" "}
                   <Link
                     className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"

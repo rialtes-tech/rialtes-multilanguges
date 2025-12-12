@@ -119,7 +119,7 @@ export default function Page() {
                   {piPoServedData.map((data, ind) => {
                     return (
                       <li key={ind}>
-                        <h3 className="font-bold inline 4xl:text-[22px] text-[18px] leading-tight">
+                        <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight">
                           {data.title}{" "}
                         </h3>{" "}
                         {data.desc}
@@ -169,11 +169,11 @@ export default function Page() {
                         key={index}
                         className="border border-gray-800 bg-white shadow-sm p-6 flex flex-col"
                       >
-                        <h3 className="text-[#006FBE] font-semibold leading-tight 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px]">
+                        <h3 className="text-[#006FBE] font-semibold leading-tight 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px]">
                           {step.title}
                         </h3>
                         <div className="border-t border-[1px] border-gray-400 my-5" />
-                        <ul className="space-y-5 list-none font-medium 4xl:text-[20px]  xl:text-[17px] text-[16px] list-inside">
+                        <ul className="space-y-5 list-none font-medium 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-inside">
                           {step.description.map((line, i) => (
                             <li key={i}>{line}</li>
                           ))}
@@ -191,7 +191,7 @@ export default function Page() {
                 <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {t("earlyWatchDesc")}
                 </p>
-                <h3 className="font-semibold 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight mt-10">
+                <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight mt-10">
                   {t("proactiveTitle")}
                 </h3>
 
@@ -200,7 +200,7 @@ export default function Page() {
                   ulClassName="list-disc pl-[36px] lg:pl-[56px] marker:text-xl space-y-4 mt-5 text-black 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium"
                   liClassName=""
                 />
-                <h3 className=" font-semibold 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight mt-10">
+                <h3 className=" font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight mt-10">
                   {t("multilayerTitle")}
                 </h3>
 
@@ -216,10 +216,10 @@ export default function Page() {
                     );
                   })}
                 </ol>
-                <h3 className="font-semibold  4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight mt-10">
+                <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight mt-10">
                   {t("intelligentTitle")}
                 </h3>
-                <p className="4xl:text-[20px]  xl:text-[17px] text-[16px] mt-5">
+                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
                   {t("intelligentDesc")}
                 </p>
 
@@ -248,7 +248,7 @@ export default function Page() {
                             <span className="absolute left-0 top-0 h-full md:border-l border-b border-gray-300"></span>
                           )}
 
-                          <h3 className="font-semibold  4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
+                          <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight">
                             {feature.title}
                           </h3>
                           <div className="w-8 h-0.5 bg-sky-600 my-6"></div>
@@ -266,7 +266,7 @@ export default function Page() {
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                   {t("upcomingTitle")}
                 </h2>
-                <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px]  xl:text-[17px] text-[16px]">
+                <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {t("upcomingDesc")}
                 </p>
                 <section className="w-full py-12 bg-white">

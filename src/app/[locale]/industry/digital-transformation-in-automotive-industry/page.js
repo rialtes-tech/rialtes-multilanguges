@@ -12,12 +12,12 @@ import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import { useActiveLocale } from "../../components/activeLanguages";
 export default function page() {
-   
+
     const t = useTranslations('automativeIndustry')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { keyIndustryChallenges, rialtesSolutions, predeliveredCardData, endtoendautomativesection, comprehensiveCustomerData, personalizedData,
-        revolutionizingData, enablingDynamicData, dealerData, empoweringData, unlockingData, integratingAutomativeData, partenringPowerData, relatedSolutionsData,schemaData } = content.automativeIndustry;
+        revolutionizingData, enablingDynamicData, dealerData, empoweringData, unlockingData, integratingAutomativeData, partenringPowerData, relatedSolutionsData, schemaData } = content.automativeIndustry;
 
     const { frActive, esActive } = useActiveLocale();
 
