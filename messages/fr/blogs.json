@@ -4517,14 +4517,16 @@
                 "desc": "Laissez un agent de routage trier les cas de service plus rapidement en fonction du contexte réel."
             }
         ],
-        "readyToUpgradeData": [
-            "Agentforce intègre des agents autonomes qui comblent l’écart entre la production et l’expérience. Cela signifie moins de silos, des décisions plus rapides et des systèmes plus intelligents qui comprennent les besoins des clients, même lorsqu’ils ne les ont pas exprimés.",
-            "En bref ?",
-            "Les robots suivent les instructions.",
-            "Les agents suivent l’intention.",
-            "Et c’est le saut dont les fabricants ont besoin pour prospérer dans la prochaine décennie.",
-            "Rialtes aide les fabricants à implémenter Agentforce dans les opérations, les ventes et le service. En tant que <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>partenaire Salesforce Crest</a>, nous apportons la stratégie, les systèmes et le support pour rendre les agents IA réels et rapides."
-        ],
+        "readyToUpgradeData": {
+    "desc1": "Agentforce introduit des agents autonomes qui comblent l’écart entre la production et l’expérience. Cela signifie moins de silos, des décisions plus rapides et des systèmes plus intelligents qui comprennent les besoins du client — même lorsque le client ne les a pas encore exprimés.",
+    "list": [
+      "En bref ?",
+      "Les bots suivent des instructions.",
+      "Les agents suivent une intention."
+    ],
+    "desc2": "Et c’est ce saut que les fabricants doivent accomplir pour prospérer dans la prochaine décennie.",
+    "desc3": "Rialtes aide les fabricants à mettre en œuvre Agentforce dans les opérations, les ventes et le service. En tant que <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>partenaire Salesforce Crest</a>, nous apportons la stratégie, les systèmes et le support nécessaires pour rendre les agents IA réels et rapides."
+  },
         "faqData": [
             {
                 "question": "1. Qu’est-ce qui rend les agents IA meilleurs que la RPA dans la fabrication ?",

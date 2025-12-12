@@ -4460,14 +4460,19 @@
                 "desc": "Permite que un agente de enrutamiento realice triage de casos de servicio más rápido basándose en contexto real."
             }
         ],
-        "readyToUpgradeData": [
-            "Agentforce trae agentes autónomos que cierran la brecha entre producción y experiencia. Eso significa menos silos, decisiones más rápidas y sistemas más inteligentes que entienden lo que el cliente necesita, incluso cuando el cliente aún no lo ha dicho.",
-            "En resumen?",
-            "Los bots siguen instrucciones.",
-            "Los agentes siguen la intención.",
-            "Y ese es el salto que los fabricantes necesitan para prosperar en la próxima década.",
-            "Rialtes ayuda a los fabricantes a implementar Agentforce en operaciones, ventas y servicio. Como socio <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Crest de Salesforce</a>, traemos la estrategia, los sistemas y el soporte para hacer que los agentes de IA sean reales y rápidos."
-        ],
+        "readyToUpgradeData": {
+    "desc1": "Agentforce incorpora agentes autónomos que cierran la brecha entre producción y experiencia. Esto significa menos silos, decisiones más rápidas y sistemas más inteligentes que entienden lo que el cliente necesita, incluso cuando el cliente aún no lo ha dicho.",
+    
+    "list": [
+      "En resumen:",
+      "Los bots siguen instrucciones.",
+      "Los agentes siguen la intención."
+    ],
+    
+    "desc2": "Y ese es el salto que los fabricantes necesitan para prosperar en la próxima década.",
+    
+    "desc3": "Rialtes ayuda a los fabricantes a implementar Agentforce en operaciones, ventas y servicio. Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce Crest Partner</a>, aportamos la estrategia, los sistemas y el soporte necesarios para hacer que los agentes de IA sean reales y rápidos."
+  },
         "faqData": [
             {
                 "question": "1. ¿Qué hace que los agentes de IA sean mejores que la RPA en la manufactura?",
@@ -4522,9 +4527,9 @@
         "agenticDesc": "No necesitas renovar todo el primer día. Empieza donde importa:",
         "agenticDesc2": "Estos agentes se conectan directamente a tu stack de Salesforce—CPQ, Service Cloud, Manufacturing Cloud—y escalan a medida que creces.",
         "readyTitle": "¿Listo para pasar de la automatización a la inteligencia?",
-        "rialtesTalkData": [
-            "Construyamos <a href='https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>fábricas más inteligentes con agentes pensantes</a>."
-        ],
+        "readyDesc": [
+  "Construyamos <a href='https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>fábricas más inteligentes con agentes que piensan</a>."
+],
         "faqTitle": "Preguntas frecuentes: Manufactura inteligente con agentes de IA"
     },
     "sapPiPo": {

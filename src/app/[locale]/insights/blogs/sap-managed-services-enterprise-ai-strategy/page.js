@@ -4,7 +4,7 @@ import FilteredBlogCarousel from '@/app/[locale]//components/FilteredLatestBlogC
 import useUrl from "@/app/[locale]//components/useUrl";
 import Seo from "@/app/[locale]//components/Seo";
 import Script from "next/script";
-import FAQAccordion from "@/app/[locale]//components/faqAccordion";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 import BlogSocialIcons from '@/app/[locale]//components/blogSocialIcons'
 import UnorderedList from "@/app/[locale]//components/unorderedList";
 import React from "react";
@@ -99,7 +99,7 @@ export default function Page() {
                                     <div className="md:mt-[50px] mt-[40px]" key={ind}>
                                         <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                         <UnorderedList arrName={data.desc} ulClassName="space-y-2 mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
-                                        <h3 className="mt-10 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[16px] text-[16px] font-bold">
+                                        <h3 className="mt-10 4xl:text-[24px] 2xl:text-[21px] text-[20px] font-bold">
                                             {data.subTitle}
                                         </h3>
                                         <UnorderedList arrName={data.list} ulClassName="pl-[30px] lg:pl-[40px] space-y-1 mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium" />
@@ -210,7 +210,7 @@ export default function Page() {
                                             data.list.map((data, ind) => {
                                                 return (
                                                     <div className="md:flex mt-24 md:mt-[26px] py-[34px] md:py-[40px] lg:py-[60px] 4xl:py-[50px] px-[26px] md:pr-[54px] 4xl:pr-[30px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto xl:w-[1000px] 4xl:w-[1100px]" key={ind}>
-                                                        <h3 className={`md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[420px] xl:w-[340px] md:w-[380px] w-fit md:left-[-60px] bg-[#006FBE] text-white font-semibold 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[20px] text-[20px] px-[20px] py-[18px] md:px-[30px] md:py-[22px] leading-tight xl:h-[90px] 4xl:h-[100px] ${(ind == 4) ? "xl:pt-[36px]" : ""} ${(ind == 2) ? "4xl:pt-[36px]" : ""}`}><span>{data.title}</span></h3>
+                                                        <h3 className={`md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[420px] xl:w-[340px] md:w-[380px] w-fit md:left-[-60px] bg-[#006FBE] text-white font-semibold 4xl:text-[22px] xl:text-[19px] text-[18px] px-[20px] py-[18px] md:px-[30px] md:py-[22px] leading-tight xl:h-[90px] 4xl:h-[100px] ${(ind == 4) ? "xl:pt-[36px]" : ""} ${(ind == 2) ? "4xl:pt-[36px]" : ""}`}><span>{data.title}</span></h3>
                                                         <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[340px] xl:ml-[300px] 4xl:ml-[390px]" dangerouslySetInnerHTML={{ __html: data.desc }} />
                                                     </div>
 

@@ -105,7 +105,7 @@ export default function Page() {
                                         {
                                             data.data.map((elem, id) => (
                                                 <React.Fragment key={id}>
-                                                    <h3 className="mt-10 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[16px] text-[16px] font-bold 4xl:w-[90%]">
+                                                    <h3 className="mt-10 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold 4xl:w-[90%]">
                                                         {elem.title}
                                                     </h3>
                                                     <p
@@ -137,7 +137,7 @@ export default function Page() {
                                                 data.list.map((elem, id) => {
                                                     return (
                                                         <div className="4xl:p-[46px] p-[32px] border border-[#707070]" key={id}>
-                                                            <h3 className="text-[#006FBE] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 border-b border-[#707070]">{elem.title}</h3>
+                                                            <h3 className="text-[#006FBE] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[16px] text-[16px] font-bold pb-4 border-b border-[#707070]">{elem.title}</h3>
                                                             <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" dangerouslySetInnerHTML={{ __html: elem.desc }} />
                                                         </div>
                                                     )
@@ -181,15 +181,15 @@ export default function Page() {
                                         <UnorderedList arrName={data.desc} ulClassName="space-y-1 mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
                                         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:mt-[80px] mt-[40px] gap-[40px] 4xl:w-[1200px] md:w-full">
                                             {
-                                                data.list.map((elem, id) => (
+                                                data.list.map((elem, id) => (           
                                                     <div key={id}>
-                                                        <Image
-                                                            src={elem.img}
-                                                            alt={elem.alt}
-                                                            width={0}
-                                                            height={0}
-                                                            className="w-[100px] h-[100px]"
-                                                            priority
+                                                       <Image
+                                                        src={elem.img}
+                                                        alt={elem.alt}
+                                                        width={100}
+                                                        height={100}
+                                                        className="w-[100px] h-[100px]"
+                                                        priority
                                                         />
                                                         <p
                                                             className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-bold"
@@ -211,6 +211,7 @@ export default function Page() {
             < section className="xl:mt-[80px] mt-[40px] custom-container" >
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('faqTitle')}</h2>
                 <div className="mt-[29px] xl:mt-[30px]">
+                      <FAQAccordion faqData={faqData} />
                 </div>
             </section >
 

@@ -4737,14 +4737,16 @@
                 "desc": "Let a routing agent triage service cases faster based on real context."
             }
         ],
-        "readyToUpgradeData": [
-            "Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems that understand what the customer needs—even when the customer hasn’t said it yet.",
-            "In short?",
-            "Bots follow instructions.",
-            "Agents follow intent.",
-            "And that’s the leap manufacturers need to thrive in the next decade.",
-            "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce Crest Partner</a>, we bring the strategy, systems, and support to make AI agents real and fast."
+         "readyToUpgradeData": {
+         "desc1": "Agentforce brings in autonomous agents that close the gap between production and experience. That means fewer silos, faster decisions, and smarter systems that understand what the customer needs—even when the customer hasn’t said it yet.",
+          "list": [
+          "In short?",
+          "Bots follow instructions.",
+          "Agents follow intent."
         ],
+         "desc2": "And that’s the leap manufacturers need to thrive in the next decade.",
+         "desc3": "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce Crest Partner</a>, we bring the strategy, systems, and support to make AI agents real and fast."
+  },
         "faqData": [
             {
                 "question": "1. What makes AI agents better than RPA in manufacturing?",
@@ -12353,7 +12355,7 @@
             {
                 "title": "How MediAIna Prevents Dropouts and Redefines Patient Engagement",
                 "desc": [
-                    "MediAIna is Rialtes’ next-generation digital platform built to <a href='https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>transform the clinical trial patient journey<a/> from enrollment to final reporting. Instead of fragmented systems for reminders, communication, reporting, and monitoring, MediAIna unifies every touchpoint across care teams, trial teams, and participants.",
+                    "MediAIna is Rialtes’ next-generation digital platform built to <a href='https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>transform the clinical trial patient journey</a> from enrollment to final reporting. Instead of fragmented systems for reminders, communication, reporting, and monitoring, MediAIna unifies every touchpoint across care teams, trial teams, and participants.",
                     "With capabilities for:"
                 ],
                 "list": [
