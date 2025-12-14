@@ -72,13 +72,7 @@ export default function Page() {
          {t('digitalTitle')}
         </h2>
         <p className="xl:text-[22px] text-[16px] leading-tight lg:w-[80%] 4xl:w-[70%] w-[95%] font-normal mt-8">
-          Rialtes empowers banks, insurers, wealth managers, and real estate
-          firms to drive innovation confidently. As a certified Salesforce and
-          SAP partner, we offer end-to-end services—from advisory to
-          post-go-live support—specialized in Financial Services Cloud, SAP
-          S/4HANA, and AI solutions. With a global presence and deep industry
-          expertise, we help financial institutions transform securely, stay
-          compliant, and deliver exceptional customer experiences.
+         {t('digitalDesc')}
         </p>
       </section>
       {/* Thought Leadership section */}
@@ -129,7 +123,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className=" absolute bottom-0">
-                <LearnMore />
+                <LearnMore btnName={t('learnMoreBtn')} />
               </div>
             </div>
           </div>
@@ -211,7 +205,7 @@ export default function Page() {
                     ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4"
                     liClassName=""
                   />
-                  <LearnMore />
+                  <LearnMore btnName={t('learnMoreBtn')}/>
                 </div>
                 <div className="md:col-span-5 col-span-12 xl:mt-[100px] mt-0">
                   <div className="">
@@ -240,7 +234,7 @@ export default function Page() {
                     ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4"
                     liClassName=""
                   />
-                  <LearnMore />
+                  <LearnMore btnName={t('learnMoreBtn')} />
                 </div>
               </div>
               <div className="relative bottom-[-55px]">

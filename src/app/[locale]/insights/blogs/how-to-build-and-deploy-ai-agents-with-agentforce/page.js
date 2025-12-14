@@ -13,34 +13,6 @@ import FilteredBlogCarouse from "@/app/[locale]/components/FilteredLatestBlogCar
 import useUrl from "@/app/[locale]/components/useUrl";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 
-
-const faqs = [
-  {
-    "question": "What is Agentforce, and how does it help build AI agents?",
-    "answer": "Agentforce is Salesforce’s agentic AI platform that lets you create intelligent agents without coding. Using tools like Agent Builder and Prompt Builder, you can automate workflows, integrate with CRM data, and deploy digital coworkers that reason, plan, and act on business tasks."
-  },
-  {
-    "question": "Can I build an AI agent in Agentforce without coding skills?",
-    "answer": "Yes. Agentforce provides a low-code, drag-and-drop interface. Business users, Salesforce admins, and product owners can build, train, and deploy agents using natural-language prompts and visual workflows—no advanced coding required."
-  },
-  {
-    "question": "What kinds of AI agents can I create with Agentforce?",
-    "answer": "You can build agents for customer support, sales assistance, HR onboarding, finance automation, IT helpdesks, marketing personalization, and compliance monitoring. Each agent is tailored to specific business processes and integrates with Salesforce data."
-  },
-  {
-    "question": "How do I ensure my AI agent stays accurate and secure over time?",
-    "answer": "Continuous training and monitoring are key. Feed your agent updated data, run regular audits with Salesforce’s Trust Layer, and track metrics like resolution rates and user satisfaction. This ensures accuracy, compliance, and long-term performance."
-  },
-  {
-    "question": "What systems can Agentforce agents connect with?",
-    "answer": "Agents integrate with Salesforce CRM objects, Data Cloud, external APIs, ERPs,knowledge bases, and service tools. This gives them real-time access to customer and business data, enabling smarter decisions and actions."
-  },
-  {
-    "question": "How do I deploy my first AI agent with Agentforce?",
-    "answer": "You’ll follow a clear process: define your agent’s purpose, use Agent Builder to design workflows, train the agent with data, build prompts, connect systems, run simulations, and finally deploy and monitor it in production."
-  }
-]
-
 export default function Page() {
   const t = useTranslations("firstAiAgent");
   const locale = useLocale();
@@ -58,7 +30,8 @@ export default function Page() {
     whatKindData,
     keepYourData,
     readyData,
-    schemaData
+    schemaData,
+    faqs
   } = blogsContent.firstAiAgent;
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce";
   const currUrl = useUrl();

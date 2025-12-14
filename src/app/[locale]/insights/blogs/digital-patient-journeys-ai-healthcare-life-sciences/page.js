@@ -56,13 +56,9 @@ export default function Page() {
                     />
                 </div>
             </section>
-
-
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">
                 <div className="grid lg:grid-cols-12 grid-cols-12">
                     <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 col-span-12">
-
-
                         {/* date and icons */}
                         <BlogSocialIcons
                             fullUrl={fullUrl}
@@ -107,7 +103,7 @@ export default function Page() {
                                                                 max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
                                                                 md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
                                                                 bg-[#006FBE] text-white font-semibold
-                                                                4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
+                                                                4xl:text-[22px] xl:text-[19px] text-[18px] 
                                                                 px-[30px] py-[22px] leading-tight
                                                                 4xl:w-[340px] xl:w-[280px] md:w-[240px] w-fit 4xl:h-[100px]">
                                                     {data.title}
@@ -160,8 +156,6 @@ export default function Page() {
                                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }} />
-
-
                                                 <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-5 font-bold">{data.listTitle}</h3>
 
                                                 <ul className="list-disc pl-[36px] font-medium mt-4 space-y-2">
@@ -192,7 +186,6 @@ export default function Page() {
                                             <div className="md:mt-[50px] mt-[40px]" key={ind}>
                                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
-
                                                 {
                                                     data.list.map((elem, id) => {
                                                         return (
@@ -233,7 +226,7 @@ export default function Page() {
                                                         data.list.map((elem, id) => {
                                                             return (
                                                                 <div className="4xl:p-[50px] p-[32px] border border-[#707070]" key={id}>
-                                                                    <h3 className="text-[#006FBE] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold">{elem.listTitle}</h3>
+                                                                    <h3 className="text-[#006FBE] 4xl:text-[22px] xl:text-[19px] text-[18px]  font-bold">{elem.listTitle}</h3>
                                                                     <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{elem.listDesc}</p>
                                                                 </div>
                                                             )
@@ -257,10 +250,7 @@ export default function Page() {
                                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }} />
-
-
                                                 <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-6 font-bold">{data.listTitle}</h3>
-
                                                 <ul className="list-disc pl-[36px] font-medium mt-4 space-y-2">
                                                     {
                                                         data.list.map((elem, id) => {

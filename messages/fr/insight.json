@@ -225,6 +225,17 @@
     ],
     "latestBlogs": [
       {
+        "id": 64,
+        "image": "/images/blog/electric-vehicle-charging-energy-mobile.webp",
+        "category": "Salesforce Automotive Cloud",
+        "industry": "Automobile",
+        "date": "Dec. 11, 2025",
+        "url": "/digital-twin-in-automotive-industry-salesforce-cloud/",
+        "title": "Digital Twin Automobile : Comment les OEM, Concessionnaires et Marques Électriques Réussissent avec Salesforce Automotive Cloud",
+        "alt": "Port de charge de véhicule électrique avec des flux d’énergie lumineux représentant la puissance et la technologie propre",
+        "description": "L’industrie automobile connaît sa plus grande transformation depuis des décennies. À mesure que les véhicules deviennent plus connectés et pilotés par les logiciels, le succès d’une entreprise ne dépend plus seulement de l’ingénierie et de la fabrication. L’avantage réel réside désormais dans la manière dont les OEM, fournisseurs et acteurs de mobilité exploitent les données."
+      },
+      {
         "id": 63,
         "image": "/images/blog/digital-data-stream-mobile.webp",
         "category": "Services Gérés",

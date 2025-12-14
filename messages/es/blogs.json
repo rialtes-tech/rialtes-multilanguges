@@ -3488,9 +3488,35 @@
         "rialtesTalkData": [
             "Habla con Rialtes. Ayudamos a los fabricantes a desplegar sistemas Agentforce que transforman tanto el taller como el recorrido del cliente. Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Socio Crest de Salesforce mejor valorado</a>, nos destacamos en implementar Salesforce Agentforce para mejorar la eficiencia en todas las industrias. Nuestros <a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Servicios Gestionados</a> y Consultoría pueden ayudar a tu empresa a integrar agentes de IA en Ventas, Servicio, Marketing y Comercio."
         ],
-        "faqTitle": "Preguntas frecuentes (FAQs)"
+         "faqTitle": "Preguntas frecuentes: Agentforce para ayudar a los fabricantes a mejorar la experiencia del cliente"
     },
     "firstAiAgent": {
+        "faqs": [
+    {
+      "question": "¿Qué es Agentforce y cómo ayuda a crear agentes de IA?",
+      "answer": "Agentforce es la plataforma de IA agente de Salesforce que permite crear agentes inteligentes sin necesidad de programar. Con herramientas como Agent Builder y Prompt Builder, puedes automatizar flujos de trabajo, integrarte con datos CRM y desplegar colaboradores digitales capaces de razonar, planificar y actuar en tareas empresariales."
+    },
+    {
+      "question": "¿Puedo crear un agente de IA en Agentforce sin habilidades de programación?",
+      "answer": "Sí. Agentforce ofrece una interfaz low-code con arrastrar y soltar. Los usuarios de negocio, administradores de Salesforce y product owners pueden crear, entrenar y desplegar agentes usando instrucciones en lenguaje natural y flujos visuales — sin necesidad de programación avanzada."
+    },
+    {
+      "question": "¿Qué tipos de agentes de IA puedo crear con Agentforce?",
+      "answer": "Puedes crear agentes para soporte al cliente, asistencia en ventas, incorporación de RRHH, automatización financiera, mesas de ayuda de TI, personalización de marketing y monitoreo de cumplimiento. Cada agente se adapta a procesos empresariales específicos e integra datos de Salesforce."
+    },
+    {
+      "question": "¿Cómo aseguro que mi agente de IA se mantenga preciso y seguro con el tiempo?",
+      "answer": "El entrenamiento continuo y el monitoreo son clave. Proporciona datos actualizados a tu agente, realiza auditorías regulares con Trust Layer de Salesforce y sigue métricas como tasas de resolución y satisfacción del usuario. Esto garantiza precisión, cumplimiento y desempeño a largo plazo."
+    },
+    {
+      "question": "¿Con qué sistemas pueden conectarse los agentes de Agentforce?",
+      "answer": "Los agentes se integran con objetos CRM de Salesforce, Data Cloud, APIs externas, ERPs, bases de conocimiento y herramientas de servicio. Esto les permite acceder a datos en tiempo real para tomar decisiones y acciones más inteligentes."
+    },
+    {
+      "question": "¿Cómo despliego mi primer agente de IA con Agentforce?",
+      "answer": "Seguirás un proceso claro: definir el propósito del agente, usar Agent Builder para diseñar los workflows, entrenar al agente con datos, crear prompts, conectar sistemas, ejecutar simulaciones y finalmente desplegarlo y monitorearlo en producción."
+    }
+  ],
         "schemaData": {},
         "bannerAlt": "Hombre interactuando con ola luminosa de visualización de datos de IA representando transformación digital y aprendizaje",
         "seoTitle": "Cómo Implementar Agentes de IA en Salesforce Agentforce",
@@ -4434,14 +4460,19 @@
                 "desc": "Permite que un agente de enrutamiento realice triage de casos de servicio más rápido basándose en contexto real."
             }
         ],
-        "readyToUpgradeData": [
-            "Agentforce trae agentes autónomos que cierran la brecha entre producción y experiencia. Eso significa menos silos, decisiones más rápidas y sistemas más inteligentes que entienden lo que el cliente necesita, incluso cuando el cliente aún no lo ha dicho.",
-            "En resumen?",
-            "Los bots siguen instrucciones.",
-            "Los agentes siguen la intención.",
-            "Y ese es el salto que los fabricantes necesitan para prosperar en la próxima década.",
-            "Rialtes ayuda a los fabricantes a implementar Agentforce en operaciones, ventas y servicio. Como socio <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Crest de Salesforce</a>, traemos la estrategia, los sistemas y el soporte para hacer que los agentes de IA sean reales y rápidos."
-        ],
+        "readyToUpgradeData": {
+    "desc1": "Agentforce incorpora agentes autónomos que cierran la brecha entre producción y experiencia. Esto significa menos silos, decisiones más rápidas y sistemas más inteligentes que entienden lo que el cliente necesita, incluso cuando el cliente aún no lo ha dicho.",
+    
+    "list": [
+      "En resumen:",
+      "Los bots siguen instrucciones.",
+      "Los agentes siguen la intención."
+    ],
+    
+    "desc2": "Y ese es el salto que los fabricantes necesitan para prosperar en la próxima década.",
+    
+    "desc3": "Rialtes ayuda a los fabricantes a implementar Agentforce en operaciones, ventas y servicio. Como <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce Crest Partner</a>, aportamos la estrategia, los sistemas y el soporte necesarios para hacer que los agentes de IA sean reales y rápidos."
+  },
         "faqData": [
             {
                 "question": "1. ¿Qué hace que los agentes de IA sean mejores que la RPA en la manufactura?",
@@ -4496,9 +4527,9 @@
         "agenticDesc": "No necesitas renovar todo el primer día. Empieza donde importa:",
         "agenticDesc2": "Estos agentes se conectan directamente a tu stack de Salesforce—CPQ, Service Cloud, Manufacturing Cloud—y escalan a medida que creces.",
         "readyTitle": "¿Listo para pasar de la automatización a la inteligencia?",
-        "rialtesTalkData": [
-            "Construyamos <a href='https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>fábricas más inteligentes con agentes pensantes</a>."
-        ],
+        "readyDesc": [
+  "Construyamos <a href='https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>fábricas más inteligentes con agentes que piensan</a>."
+],
         "faqTitle": "Preguntas frecuentes: Manufactura inteligente con agentes de IA"
     },
     "sapPiPo": {
@@ -9168,5 +9199,168 @@
         "bannerAlt": "Personas caminando en un paisaje digital con una cápsula futurista flotando arriba.",
         "blogTitle": "De la Atención Fragmentada a los Ecosistemas Inteligentes: Reimaginar el Recorrido del Paciente",
         "faqTitle": "FAQs: Reimaginar el Recorrido del Paciente en Ensayos Clínicos"
+    },
+    "digitalTwin": {
+        "mainData": [
+            "La industria automotriz está experimentando su mayor transformación en décadas. A medida que los vehículos se vuelven más conectados y basados en software, el éxito de una empresa ya no depende solo de la ingeniería y la fabricación. La verdadera ventaja ahora reside en qué tan eficazmente los OEM, proveedores y empresas de movilidad utilizan los datos.",
+            "La tecnología de Digital Twin y el Mantenimiento Predictivo resultan útiles en estas situaciones. Y cuando se combinan con Salesforce Automotive Cloud, permiten un cambio completo de operaciones reactivas a modelos de negocio automotrices proactivos y <a href='https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>impulsados por la inteligencia</a>."
+        ],
+        "digitalData": [
+            {
+                "title": "¿Qué es un Digital Twin en la industria automotriz?",
+                "desc": "Un digital twin en automoción es una réplica virtual de un vehículo físico que refleja continuamente el rendimiento real utilizando datos de sensores IoT, computadoras a bordo, telemática e historial de servicio.",
+                "list": [
+                    "Evoluciona a lo largo del ciclo de vida del vehículo:",
+                    "I+D y validación de prototipos",
+                    "Fabricación y orquestación de la cadena de suministro",
+                    "Servicio postventa, garantía y experiencia del cliente"
+                ],
+                "desc2": "El resultado es una capa de inteligencia viva de 360 grados que conecta ingeniería, cadena de suministro y operaciones con el cliente."
+            }
+        ],
+        "faqData": [
+            {
+                "question": "¿Cómo funciona un digital twin en automoción?",
+                "answer": "Crea una representación virtual de cada vehículo utilizando datos de sensores, telemática e historial de servicio. Este twin se actualiza en tiempo real y refleja el rendimiento y desgaste reales del vehículo."
+            },
+            {
+                "question": "¿Cómo mejora un digital twin el mantenimiento automotriz?",
+                "answer": "Los conocimientos predictivos identifican fallos antes de que ocurran, permitiendo una programación proactiva del servicio, disponibilidad optimizada de piezas y menos averías."
+            },
+            {
+                "question": "¿Qué industrias se benefician más del digital twin?",
+                "answer": "OEM, fabricantes de vehículos eléctricos, proveedores de nivel 1, redes de concesionarios, operadores de flotas y empresas de movilidad."
+            },
+            {
+                "question": "¿Salesforce Automotive Cloud admite integraciones con digital twin?",
+                "answer": "Sí. Se conecta con plataformas IoT, sistemas ERP y motores analíticos para operacionalizar las ideas del digital twin en experiencia del cliente, mantenimiento, garantías y operaciones de concesionarios."
+            }
+        ],
+        "howSalesforce": [
+            {
+                "title": "Cómo Salesforce Automotive Cloud desbloquea el poder del Digital Twin",
+                "desc": [
+                    "Salesforce Automotive Cloud se convierte en el centro de mando donde convergen todas las señales de datos del vehículo, el cliente y el concesionario. En lugar de dispersar información en herramientas de ingeniería, portales de servicio, sistemas de concesionarios y plataformas telemáticas, los unifica en un perfil vivo y continuamente actualizado de cada vehículo y su propietario.",
+                    "A lo largo del ciclo de vida del cliente y del vehículo, Automotive Cloud reúne:"
+                ],
+                "list": [
+                    {
+                        "title": "Rendimiento del vehículo y telemetría en tiempo real",
+                        "desc": "para comprender el estado de los componentes, patrones de conducción, intensidad de uso y próximas necesidades de mantenimiento."
+                    },
+                    {
+                        "title": "Alertas de servicio predictivas",
+                        "desc": "generadas mediante modelos de IA que detectan anomalías antes de que se conviertan en fallos."
+                    },
+                    {
+                        "title": "Reclamaciones de garantía, historial de reparación y elegibilidad para recalls",
+                        "desc": "presentados en contexto en lugar de estar enterrados en sistemas heredados."
+                    },
+                    {
+                        "title": "Registros y comunicaciones del servicio del concesionario",
+                        "desc": "para que el OEM siempre sepa cómo ha sido atendido cada cliente."
+                    },
+                    {
+                        "title": "Interacciones, preferencias y sentimiento del cliente",
+                        "desc": "a través de WhatsApp, aplicaciones móviles, puntos de contacto en concesionarios y aplicaciones de vehículos conectados."
+                    },
+                    {
+                        "title": "Servicios conectados y modelos de suscripción",
+                        "desc": "incluyendo compras anteriores, estado de renovación y oportunidades de upselling."
+                    }
+                ],
+                "desc2": [
+                    "Lo que esto realmente significa",
+                    "Los OEM, proveedores y concesionarios dejan de operar en un ciclo reactivo. Ya no esperan una avería, una queja o una reclamación de garantía para actuar. Ya saben lo que el vehículo necesita, cuán urgente es el problema y el mejor momento para intervenir."
+                ]
+            }
+        ],
+        "predectiveData": [
+            {
+                "title": "Mantenimiento Predictivo: El cambio de la reparación a la prevención",
+                "desc": "El mantenimiento tradicional depende de averías o calendarios manuales. El Mantenimiento Predictivo impulsado por datos del Digital Twin lo cambia todo.",
+                "subtitle": "Cómo el Digital Twin mejora el mantenimiento automotriz",
+                "desc2": "Los modelos predictivos analizan patrones de:",
+                "list": [
+                    "Rendimiento de batería y motor en vehículos eléctricos",
+                    "Desgaste de frenos y suspensión",
+                    "Eficiencia de combustible y energía",
+                    "Comportamiento de conducción y condiciones ambientales"
+                ],
+                "desc3": "A partir de ello, Salesforce Automotive Cloud puede automatizar:",
+                "list2": [
+                    "Recordatorios de servicio y contacto proactivo",
+                    "Programación con el concesionario y disponibilidad de piezas",
+                    "Elegibilidad y procesamiento de garantías",
+                    "Recomendaciones de servicio personalizadas"
+                ],
+                "desc4": "Esto reduce visitas de servicio innecesarias mientras evita reparaciones costosas y averías, mejorando tanto la satisfacción del cliente como el valor de vida del vehículo."
+            }
+        ],
+        "endData": [
+            {
+                "title": "Para OEM",
+                "desc": [
+                    "Menores costos de garantía y recalls",
+                    "Mejor desarrollo de productos basado en datos reales de uso",
+                    "Aumento del ingreso postventa gracias a servicios conectados"
+                ]
+            },
+            {
+                "title": "Para Proveedores",
+                "desc": [
+                    "Pronóstico preciso de demanda de repuestos",
+                    "Mejor planificación de producción y logística"
+                ]
+            },
+            {
+                "title": "Para Concesionarios",
+                "desc": [
+                    "Mayor utilización del taller sin ventas agresivas",
+                    "Recomendaciones de servicio personalizadas en las que los clientes confían"
+                ]
+            },
+            {
+                "title": "Para Proveedores de Movilidad",
+                "desc": [
+                    "Mayor tiempo de actividad y rentabilidad de la flota con programación predictiva"
+                ]
+            }
+        ],
+        "digitalTwinData": [
+            "La <a href='https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>industria automotriz</a> está pasando de operaciones centradas en el vehículo a operaciones centradas en los datos. Los digital twins y el mantenimiento predictivo no solo mejoran la ingeniería y la fiabilidad, sino que también redefinen el posventa, la lealtad y los ingresos recurrentes.",
+            "Y aquí es donde <a href='https://www.rialtes.com/services/lob/salesforce-automotive-cloud-business-solutions-autosense/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AutoSense</a> marca la verdadera diferencia.",
+            "AutoSense es la suite de servicios integral de Rialtes creada exclusivamente para el ecosistema automotriz — desde OEM y proveedores hasta concesionarios y empresas de movilidad. Combina estrategia industrial, implementación, aseguramiento de calidad y soporte post-go-live — totalmente integrada con socios tecnológicos como SAP y Salesforce. Ya sea que tu objetivo sea habilitar Digital Twin Automotriz, mantenimiento predictivo, CX conectada o nuevos modelos de negocio, AutoSense convierte la innovación en impacto empresarial medible."
+        ],
+        "buildingData": [
+            {
+                "title": "Construyendo inteligencia automotriz conectada con Salesforce",
+                "desc": "La ventaja crece cuando el Digital Twin y el Mantenimiento Predictivo se extienden más allá de los vehículos hacia los ecosistemas empresariales. Salesforce Automotive Cloud actúa como la columna vertebral de integración conectando:",
+                "list": [
+                    "Sistemas ERP centrales (SAP, Oracle)",
+                    "Sistemas de ejecución de manufactura",
+                    "Plataformas IoT para telemetría de vehículos",
+                    "Plataformas analíticas como Tableau y Power BI",
+                    "Motores de IA para información predictiva y generativa"
+                ],
+                "subtitle": "Esto crea un ciclo continuo:",
+                "steps": [
+                    "Datos del vehículo",
+                    "Información predictiva",
+                    "Experiencia del concesionario y del cliente",
+                    "Pronóstico de piezas y producción",
+                    "Mejora continua"
+                ]
+            }
+        ],
+        "schemaData": {},
+        "seoTitle": "Salesforce Cloud para Digital Twin en la Industria Automotriz | Rialtes",
+        "seoDescription": "Salesforce impulsa la innovación automotriz con el digital twin automotriz y el mantenimiento predictivo, avanzando hacia operaciones centradas en datos y creación de valor.",
+        "bannerAlt": "Puerto de carga de vehículo eléctrico con flujos de energía brillantes que representan energía y tecnología limpia",
+        "blogTopic": "Salesforce Automotive Cloud",
+        "blogTitle": "Digital Twin Automotriz: Cómo los OEM, Concesionarios y Marcas EV Logran Éxito con Salesforce Automotive Cloud",
+        "endTitle": "Impacto empresarial de extremo a extremo para OEM, Proveedores y Concesionarios",
+        "digitalTitle": "Digital Twin + Mantenimiento Predictivo es el Futuro de la Automoción",
+        "faqTitle": "FAQs: Cómo la IA y los datos del Digital Twin están reescribiendo los modelos automotrices de servicio y garantía"
     }
 }

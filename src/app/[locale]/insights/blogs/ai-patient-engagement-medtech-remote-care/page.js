@@ -179,7 +179,7 @@ export default function Page() {
                         key={ind}
                         className="border border-[#707070] p-[28px] md:p-[34px]"
                       >
-                        <h3 className="mt-5 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight text-[#0092E0] font-bold pb-4 border-b border-[#707070]">
+                        <h3 className="mt-5 4xl:text-[22px] xl:text-[19px] text-[18px] leading-tight text-[#0092E0] font-bold pb-4 border-b border-[#707070]">
                           {data.title}
                         </h3>
                         <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]">
