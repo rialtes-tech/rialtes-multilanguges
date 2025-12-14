@@ -23,7 +23,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { blogMainData, whyPharmaData, agenticAppData,schemaData } = content.agenticPharma;
+  const { blogMainData, whyPharmaData, agenticAppData, schemaData } = content.agenticPharma;
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -119,11 +119,11 @@ export default function Page() {
                 <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {t("whyPharmaDesc")}
                 </p>
-                <ul className="list-disc mt-5 text-black space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium pl-[36px] lg:pl-[56px]">
+                <ul className="list-disc mt-5 space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] font-medium pl-[36px] lg:pl-[46px]">
                   {whyPharmaData.map((data, ind) => {
                     return (
                       <li key={ind}>
-                        <h3 className="h3-bold inline 4xl:text-[22px] text-[18px] leading-tight mt-5">
+                        <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight mt-5">
                           {data.title} :{" "}
                         </h3>
                         {data.desc}
@@ -141,11 +141,11 @@ export default function Page() {
                 <div className="mt-[29px] xl:mt-[34px] ">
                   {agenticAppData.map((data, ind) => {
                     return (
-                      <div key={ind} className="pl-[36px] lg:pl-[56px]">
-                        <h3 className="text-black mt-5 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">
+                      <div key={ind}>
+                        <h3 className="mt-8 font-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]">
                           {ind + 1} .&nbsp;{data.title}{" "}
                         </h3>
-                        <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        <p className="md:pl-[26px] lg:pl-[36px] mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                           {data.desc}
                         </p>
                       </div>

@@ -13,7 +13,6 @@ import useUrl from "@/app/[locale]/components/useUrl";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 
-
 export default function Page() {
   const t = useTranslations("sapDataCloud");
   const locale = useLocale();
@@ -122,7 +121,7 @@ export default function Page() {
                 </p>
 
                 {/* sap bdc section */}
-                <h3 className="h3-bold  mt-5 4xl:text-[24px]  2xl:text-[21px] leading-tight  text-[20px]">
+                <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-5 font-bold">
                   {t("sapBdcTitle")}
                 </h3>
 
@@ -134,7 +133,7 @@ export default function Page() {
                 </p>
 
                 {/* creating unified place section */}
-                <h3 className="h3-bold mt-5 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
+                <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-5 font-bold">
                   {t("creatingTitle")}
                 </h3>
 
@@ -143,7 +142,7 @@ export default function Page() {
                 </p>
 
                 {/* delivering section */}
-                <h3 className="h3-bold mt-5 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
+                <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-5 font-bold">
                   {t("deliveringTitle")}
                 </h3>
                 <p className="mt-4 4xl:text-[20px] xl:text-[17px] text-[16px]">
@@ -160,7 +159,7 @@ export default function Page() {
                   </p>
 
                   {/* scenario 1 */}
-                  <h3 className="h3-bold mt-5 4xl:text-[24px]  2xl:text-[21px]  leading-tight text-[20px]">
+                  <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-5 font-bold">
                     {t("scenario1Title")}
                   </h3>
                   <p className="mt-4 4xl:text-[20px] xl:text-[17px] text-[16px]">
@@ -169,7 +168,7 @@ export default function Page() {
 
                   <UnorderedList
                     arrName={scenario1Data}
-                    ulClassName="pl-[36px] lg:pl-[56px] space-y-3 list-disc marker:text-[#0092E0]  4xl:text-[20px] text-[16px] xl:text-[17px] font-medium mt-4"
+                    ulClassName="pl-[36px] lg:pl-[56px] space-y-3 list-disc  4xl:text-[20px] text-[16px] xl:text-[17px] font-medium mt-4"
                   />
 
                   <p className="4xl:text-[20px] xl:text-[17px] text-[16px] pt-4">
@@ -177,7 +176,7 @@ export default function Page() {
                   </p>
 
                   {/* scenario 2 */}
-                  <h3 className="h3-bold  mt-5 4xl:text-[24px] 2xl:text-[21px] leading-tight text-[20px]">
+                  <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-5 font-bold">
                     {t("scenario2Title")}
                   </h3>
 

@@ -18,7 +18,7 @@ export default function Page() {
   const locale = useLocale();
   const currUrl = useUrl()
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { blogMainData, hrmgmtData, roleIntegrationData, successFactorIntegration, empData,schemaData } = content.howSapSuccessFactorIntegration
+  const { blogMainData, hrmgmtData, roleIntegrationData, successFactorIntegration, empData, schemaData } = content.howSapSuccessFactorIntegration
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations";
 
   return (
@@ -72,7 +72,7 @@ export default function Page() {
                 {
                   blogMainData.map((data, ind) => {
                     return (
-                      <p className="text-black pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]" key={ind}>
+                      <p className="pb-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]" key={ind}>
                         {data}
                       </p>
                     )
@@ -81,7 +81,7 @@ export default function Page() {
                 <div className="md:mt-[50px] mt-[40px]">
                   {/* what should enterprises section */}
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight"> {t('enterpriseTitle')}</h2>
-                  <p className="text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-[29px] xl:mt-[34px]">{t('enterpriseDesc')}</p>
+                  <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-[29px] xl:mt-[34px]">{t('enterpriseDesc')}</p>
                 </div>
 
                 {/* hr mgmt section */}
@@ -89,7 +89,7 @@ export default function Page() {
 
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('hrmgmtTitle')}</h2>
                   <div className="pl-[36px] lg:pl-[56px] mt-[29px] xl:mt-[34px]">
-                    <UnorderedList arrName={hrmgmtData} ulClassName="list-disc font-medium marker:text-[#0092E0] marker:text-xl text-black text-[16px] xl:text-[17px] 4xl:text-[20px] space-y-3" liClassName="" />
+                    <UnorderedList arrName={hrmgmtData} ulClassName="list-disc font-medium marker:text-xl text-[16px] xl:text-[17px] 4xl:text-[20px] space-y-2" liClassName="" />
                   </div>
                 </div>
 
@@ -100,11 +100,11 @@ export default function Page() {
                   <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('roleIntegrationDesc')}</p>
 
                   <div className="pl-[36px] lg:pl-[56px] mt-5">
-                    <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black  text-[16px] xl:text-[17px] 2xl:text-[17px] 4xl:text-[20px] font-medium">
+                    <ul className="list-disc marker:text-xl  text-[16px] xl:text-[17px] 2xl:text-[17px] 4xl:text-[20px] font-medium">
                       {
                         roleIntegrationData.map((data, ind) => {
                           return (
-                            <li className="pb-2" key={ind}><h3 className="h3-bold inline text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.title}</h3>{data.desc}</li>
+                            <li className="pb-2" key={ind}><h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.title}</h3>{data.desc}</li>
                           )
                         })
                       }
@@ -112,7 +112,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                {/* sap success facotrs integration section */}
+                {/* sap success factors integration section */}
                 <div className="md:mt-[50px] mt-[40px]">
 
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('successFactorIntegrationTitle')}</h2>
@@ -121,14 +121,14 @@ export default function Page() {
                     successFactorIntegration.map((data, ind) => {
                       return (
                         <div key={ind} className="mt-[29px] xl:mt-[34px]">
-                          <h3 className=" mt-6 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{ind + 1}. {data.title} </h3>
-                          <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
-                          <div className="pl-[36px] lg:pl-[56px]">
-                            <ul className="list-disc marker:text-[#0092E0] marker:text-xl text-black  text-[16px]  xl:text-[17px] 4xl:text-[20px] font-medium">
+                          <h3 className="mt-6 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold">{ind + 1}. {data.title} </h3>
+                          <p className="mt-5 md:pl-[24px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
+                          <div className="pl-[20px] md:pl-[46px] lg:pl-[64px]">
+                            <ul className="list-disc marker:text-xl text-[16px] xl:text-[17px] 4xl:text-[20px] font-medium">
                               {
                                 data.list.map((elem, ind) => {
                                   return (
-                                    <li className="mt-3" key={ind}><div className="inline text-black font-bold">{elem.title} </div>{elem.desc}</li>
+                                    <li className="mt-3" key={ind}><div className="inline font-bold">{elem.title} </div>{elem.desc}</li>
                                   )
                                 })
                               }
@@ -142,16 +142,14 @@ export default function Page() {
                 </div>
                 {/* employee section */}
                 <div className="md:mt-[50px] mt-[40px]">
-
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('empTitle')} </h2>
-
-                  <p className="text-black mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('empDesc')} </p>
+                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{t('empDesc')} </p>
                   {
                     empData.map((data, ind) => {
                       return (
                         <div key={ind}>
-                          <h3 className="mt-5 h3-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">{data.title}</h3>
-                          <p className="text-black mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
+                          <h3 className="mt-5 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold">{data.title}</h3>
+                          <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]">{data.desc}</p>
                         </div>
                       )
                     })
@@ -160,12 +158,14 @@ export default function Page() {
 
                 {/* overcome section */}
                 <div className="md:mt-[50px] mt-[40px]">
-
                   <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight"> {t('overcomeTitle')}</h2>
-                  <p className="text-black mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"> {t('overcomeDesc')}</p>
-                  <p className="text-black mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"> {t('overcomeDesc2')} <Link href={" https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=internal&utm_medium=blog"} className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> <span> {t('overcomeLink')} </span></Link></p>
-                </div>  </div>
-            </div>  </div>  </div>
+                  <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"> {t('overcomeDesc')}</p>
+                  <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px]"> {t('overcomeDesc2')} <Link href={" https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=internal&utm_medium=blog"} className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline"> <span> {t('overcomeLink')} </span></Link></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       {/* Latest Blogs */}
       <div className="custom-container lg:pr-0 xl:my-[80px] my-[60px]">

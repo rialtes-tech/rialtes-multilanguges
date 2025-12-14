@@ -175,6 +175,7 @@
       "SAP Signavio",
       "SAP SuccessFactors",
       "Servicios Gestionados",
+      "Salesforce Automotive Cloud",
       "Otros"
     ],
     "slides": [
@@ -224,6 +225,17 @@
       }
     ],
     "latestBlogs": [
+      {
+        "id": 64,
+        "image": "/images/blog/electric-vehicle-charging-energy-mobile.webp",
+        "category": "Salesforce Automotive Cloud",
+        "industry": "Automoción",
+        "date": "Dec. 11, 2025",
+        "url": "/digital-twin-in-automotive-industry-salesforce-cloud/",
+        "title": "Digital Twin Automotriz: Cómo los OEM, Concesionarios y Marcas de Vehículos Eléctricos Logran Éxito con Salesforce Automotive Cloud",
+        "alt": "Puerto de carga de vehículo eléctrico con flujos de energía brillantes que representan potencia y tecnología limpia",
+        "description": "La industria automotriz está experimentando su mayor transformación en décadas. A medida que los vehículos se vuelven más conectados y basados en software, el éxito de una empresa ya no depende solo de la ingeniería y la fabricación. La verdadera ventaja ahora reside en cómo los OEM, proveedores y operadores de movilidad aprovechan los datos."
+      },
       {
         "id": 63,
         "image": "/images/blog/digital-data-stream-mobile.webp",

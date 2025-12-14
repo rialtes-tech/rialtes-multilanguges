@@ -47,7 +47,7 @@ export default function Page() {
       />
 
       <Script
-        id="schema-copilots"
+        id="schema-sapSignavio"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
@@ -112,10 +112,10 @@ export default function Page() {
                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {t("keyReasonTitle")}
                 </p>
-                <ul className="list-disc mt-5 space-y-4 font-medium  4xl:text-[20px]  text-[16px] pl-[36px] lg:pl-[56px] ">
+                <ul className="list-disc mt-5 space-y-4 font-medium  4xl:text-[20px]  text-[16px] pl-[36px] lg:pl-[46px]">
                   {transformationPoints.map((point, index) => (
                     <li key={index}>
-                      <h3 className="font-bold inline mt-5 4xl:text-[22px] text-[18px] leading-tight">
+                      <h3 className="font-bold inline mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight">
                         {point.title}:
                       </h3>{" "}
                       {point.desc}
@@ -145,7 +145,7 @@ export default function Page() {
                 <ol className="flex flex-col lg:flex-row relative lg:mt-[74px] mt-[60px] xl:w-[1100px]">
                   {voyagerPoints.map((step, index) => (
                     <li
-                      key={step.index}
+                      key={index}
                       className="relative flex-1 lg:mb-0 flex flex-col"
                     >
                       {/* Circle */}
@@ -168,14 +168,7 @@ export default function Page() {
                         className="lg:mt-[44px] max-lg:ml-[40px] max-lg:mt-[-20px]"
                       >
                         <h3
-                          className={`font-bold inline"
-                                              ${locale === "es"
-                              ? "lg:pr-8 xl:pr-2  4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight "
-                              : locale === "fr"
-                                ? "lg:pr-8 xl:pr-2 4xl:text-[24px] 2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight"
-                                : "lg:pr-8 xl:pr-2 4xl:text-[24px] 2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight"
-                            }`}
-                        >
+                          className={`font-bold inline 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] lg:pr-8 xl:pr-2}`}>
                           {step.title}
                         </h3>
                         <p className="4xl:text-[20px] xl:text-[17px] text-[16px] lg:mt-[34px] mt-[8px] lg:pr-12 4xl:pr-10 max-lg:mb-12">
@@ -206,7 +199,7 @@ export default function Page() {
                       key={index}
                       className="border border-[#707070] lg:p-[40px] p-[26px]"
                     >
-                      <h3 className="font-bold inline 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight text-[#006FBE]">
+                      <h3 className="font-bold inline 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] leading-tight text-[#006FBE]">
                         {point.title}
                       </h3>{" "}
                       <p className="mt-[16px]  4xl:text-[20px] xl:text-[17px] text-[16px]">
@@ -256,10 +249,10 @@ export default function Page() {
                 <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {t("useCasesDesc")}
                 </p>
-                <ul className="list-disc space-y-3 font-medium 4xl:text-[20px] xl:text-[18px] text-[16px] pl-[36px] lg:pl-[56px] pt-4">
+                <ul className="list-disc space-y-3 font-medium 4xl:text-[20px] xl:text-[18px] text-[16px] pl-[36px] lg:pl-[46px] pt-4">
                   {domainsPoints.map((point, index) => (
                     <li key={index}>
-                      <h3 className="font-bold inline 4xl:text-[22px] text-[18px] leading-tight">
+                      <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight">
                         {point.title}:
                       </h3>{" "}
                       {point.desc}
@@ -276,7 +269,7 @@ export default function Page() {
                 </p>
                 <UnorderedList
                   arrName={riskPoints}
-                  ulClassName="mt-3 font-medium list-disc 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[36px] lg:pl-[56px]  space-y-3"
+                  ulClassName="mt-3 font-medium list-disc 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[36px] lg:pl-[46px]  space-y-3"
                   liClassName=""
                 />
                 <p className="mt-3 4xl:text-[20px] xl:text-[17px] text-[16px]">

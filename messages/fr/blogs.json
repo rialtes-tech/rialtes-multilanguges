@@ -7060,7 +7060,7 @@
         ]
     },
     "whatDoesASingle": {
-        "blogTopic":"Exelona",
+        "blogTopic": "Exelona",
         "bannerAlt": "Paysage urbain futuriste verre avec bâtiments transparents rose et bleu sur surface réfléchissante innovation numérique",
         "aleadsfill": "Un prospect remplit",
         "aform": "un formulaire",
@@ -9222,5 +9222,168 @@
         "bannerAlt": "Personnes marchant dans un paysage numérique avec une capsule futuriste flottante",
         "blogTitle": "Des soins fragmentés aux écosystèmes intelligents : réimaginer le parcours patient",
         "faqTitle": "FAQ : Réimaginer le parcours patient dans les essais cliniques"
+    },
+    "digitalTwin": {
+        "mainData": [
+            "L’industrie automobile connaît sa plus grande transformation depuis des décennies. À mesure que les véhicules deviennent plus connectés et pilotés par les logiciels, le succès d’une entreprise ne dépend plus uniquement de l’ingénierie et de la fabrication. L’avantage réel réside désormais dans la manière dont les OEM, fournisseurs et acteurs de mobilité exploitent les données.",
+            "La technologie du Digital Twin et la Maintenance Prédictive sont particulièrement utiles dans ces situations. Et lorsqu’elles sont associées à Salesforce Automotive Cloud, elles permettent une transition complète d’opérations réactives vers des modèles commerciaux automobiles proactifs et <a href='https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>pilotés par l’intelligence</a>."
+        ],
+        "digitalData": [
+            {
+                "title": "Qu’est-ce qu’un Digital Twin dans l’industrie automobile ?",
+                "desc": "Un digital twin dans l’automobile est une réplique virtuelle d’un véhicule physique qui reflète en continu les performances réelles à l’aide de données provenant de capteurs IoT, ordinateurs de bord, plateformes télématiques et historique de service.",
+                "list": [
+                    "Il évolue tout au long du cycle de vie du véhicule :",
+                    "R&D et validation de prototypes",
+                    "Fabrication et orchestration de la chaîne d'approvisionnement",
+                    "Service après-vente, garantie et expérience client"
+                ],
+                "desc2": "Le résultat est une couche d’intelligence vivante à 360 degrés qui connecte l’ingénierie, la chaîne d’approvisionnement et les opérations clients."
+            }
+        ],
+        "faqData": [
+            {
+                "question": "Comment fonctionne un digital twin dans l’automobile ?",
+                "answer": "Il crée une représentation virtuelle de chaque véhicule à partir de données de capteurs, de télématique et de l’historique de service. Ce twin se met à jour en temps réel et reflète les performances et l’usure réelles du véhicule."
+            },
+            {
+                "question": "Comment un digital twin améliore-t-il la maintenance automobile ?",
+                "answer": "Les analyses prédictives identifient les défauts avant qu’ils ne surviennent, permettant une planification proactive du service, une meilleure disponibilité des pièces et une réduction des pannes."
+            },
+            {
+                "question": "Quels secteurs bénéficient le plus de la technologie du digital twin ?",
+                "answer": "Les OEM, fabricants de véhicules électriques, fournisseurs de niveau 1, réseaux de concessionnaires, opérateurs de flotte et entreprises de mobilité."
+            },
+            {
+                "question": "Salesforce Automotive Cloud prend-il en charge les intégrations digital twin ?",
+                "answer": "Oui. Il se connecte aux plateformes IoT, systèmes ERP et moteurs analytiques pour opérationnaliser les insights du digital twin pour l’expérience client, la maintenance, les garanties et les opérations des concessionnaires."
+            }
+        ],
+        "howSalesforce": [
+            {
+                "title": "Comment Salesforce Automotive Cloud libère la puissance du Digital Twin",
+                "desc": [
+                    "Salesforce Automotive Cloud devient le centre de commandement où convergent tous les signaux de données provenant du véhicule, du client et du concessionnaire. Au lieu d’éparpiller les insights dans des outils d’ingénierie, portails de service, systèmes de concession et plateformes télématiques, il les unifie dans un profil vivant et continuellement mis à jour de chaque véhicule et de son propriétaire.",
+                    "Tout au long du cycle de vie du client et du véhicule, Automotive Cloud rassemble :"
+                ],
+                "list": [
+                    {
+                        "title": "Performances du véhicule et télémétrie en temps réel",
+                        "desc": "pour comprendre l’état des composants, les habitudes de conduite, l’intensité d’utilisation et les besoins de maintenance à venir."
+                    },
+                    {
+                        "title": "Alertes de service prédictives",
+                        "desc": "générées via des modèles d’IA détectant les anomalies avant qu’elles ne deviennent des pannes."
+                    },
+                    {
+                        "title": "Requêtes de garantie, historique de réparations et éligibilité aux rappels",
+                        "desc": "présentés dans leur contexte plutôt que noyés dans des systèmes hérités."
+                    },
+                    {
+                        "title": "Journaux et communications du service concessionnaire",
+                        "desc": "afin que l’OEM sache toujours comment chaque client a été servi."
+                    },
+                    {
+                        "title": "Interactions, préférences et sentiment du client",
+                        "desc": "via WhatsApp, applications mobiles, points de contact en concession et applications de véhicules connectés."
+                    },
+                    {
+                        "title": "Services connectés et modèles d’abonnement",
+                        "desc": "incluant les achats passés, le statut de renouvellement et les opportunités d’upsell."
+                    }
+                ],
+                "desc2": [
+                    "Ce que cela signifie réellement",
+                    "Les OEM, fournisseurs et concessionnaires cessent de fonctionner en mode réaction. Ils n’attendent plus une panne, une plainte ou une réclamation de garantie pour intervenir. Ils savent déjà ce dont le véhicule a besoin, le niveau d’urgence et le meilleur moment pour agir."
+                ]
+            }
+        ],
+        "predectiveData": [
+            {
+                "title": "Maintenance Prédictive : Le passage de la réparation à la prévention",
+                "desc": "La maintenance traditionnelle repose sur les pannes ou les calendriers manuels. La Maintenance Prédictive alimentée par les données du Digital Twin change complètement cette logique.",
+                "subtitle": "Comment le Digital Twin améliore la maintenance automobile",
+                "desc2": "Les modèles prédictifs analysent des tendances liées à :",
+                "list": [
+                    "La performance des batteries et moteurs des véhicules électriques",
+                    "L’usure des freins et de la suspension",
+                    "L’efficacité énergétique et la consommation de carburant",
+                    "Le comportement de conduite et les conditions environnementales"
+                ],
+                "desc3": "À partir de là, Salesforce Automotive Cloud peut automatiser :",
+                "list2": [
+                    "Les rappels de service et les contacts proactifs",
+                    "La planification avec le concessionnaire et la disponibilité des pièces",
+                    "L’éligibilité et le traitement des garanties",
+                    "Les recommandations de service personnalisées"
+                ],
+                "desc4": "Cela réduit les visites de service inutiles tout en évitant des réparations coûteuses et des pannes, améliorant ainsi la satisfaction client et la valeur à vie du véhicule."
+            }
+        ],
+        "endData": [
+            {
+                "title": "Pour les OEM",
+                "desc": [
+                    "Coûts de garantie et de rappel réduits",
+                    "Meilleur développement produit basé sur les données réelles d’utilisation",
+                    "Augmentation des revenus post-vente grâce aux services connectés"
+                ]
+            },
+            {
+                "title": "Pour les Fournisseurs",
+                "desc": [
+                    "Prévisions précises de la demande de pièces détachées",
+                    "Meilleure planification de la production et de la logistique"
+                ]
+            },
+            {
+                "title": "Pour les Concessionnaires",
+                "desc": [
+                    "Meilleure utilisation des ateliers sans survente agressive",
+                    "Recommandations de service personnalisées dignes de confiance"
+                ]
+            },
+            {
+                "title": "Pour les Fournisseurs de Mobilité",
+                "desc": [
+                    "Disponibilité et rentabilité accrues de la flotte grâce à la planification prédictive"
+                ]
+            }
+        ],
+        "digitalTwinData": [
+            "L’<a href='https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>industrie automobile</a> passe d’opérations centrées sur le véhicule à des opérations centrées sur les données. Les digital twins et la maintenance prédictive améliorent non seulement l’ingénierie et la fiabilité, mais redéfinissent aussi l’après-vente, la fidélisation et les revenus récurrents.",
+            "Et c’est là que <a href='https://www.rialtes.com/services/lob/salesforce-automotive-cloud-business-solutions-autosense/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AutoSense</a> fait toute la différence.",
+            "AutoSense est la suite complète de services de Rialtes, conçue exclusivement pour l’écosystème automobile — des OEM et fournisseurs aux concessionnaires et entreprises de mobilité. Elle combine stratégie sectorielle, mise en œuvre, assurance qualité et support post-déploiement — entièrement intégrée avec des partenaires technologiques tels que SAP et Salesforce. Qu’il s’agisse d’activer le Digital Twin automobile, la maintenance prédictive, le CX connecté ou de nouveaux modèles de revenus, AutoSense transforme l’innovation en impact commercial mesurable."
+        ],
+        "buildingData": [
+            {
+                "title": "Créer une intelligence automobile connectée avec Salesforce",
+                "desc": "L’avantage grandit lorsque le Digital Twin et la Maintenance Prédictive vont au-delà du véhicule pour se déployer dans tout l’écosystème d’entreprise. Salesforce Automotive Cloud devient la colonne vertébrale d’intégration connectant :",
+                "list": [
+                    "Systèmes ERP principaux (SAP, Oracle)",
+                    "Systèmes d’exécution de fabrication",
+                    "Plateformes IoT pour la télémétrie des véhicules",
+                    "Plateformes analytiques comme Tableau et Power BI",
+                    "Moteurs d’IA pour insights prédictifs et génératifs"
+                ],
+                "subtitle": "Cela crée une boucle continue :",
+                "steps": [
+                    "Données du véhicule",
+                    "Insights prédictifs",
+                    "Expérience client et concessionnaire",
+                    "Prévision des pièces et de la production",
+                    "Amélioration continue"
+                ]
+            }
+        ],
+        "schemaData": {},
+        "seoTitle": "Salesforce Cloud pour le Digital Twin dans l’Industrie Automobile | Rialtes",
+        "seoDescription": "Salesforce stimule l’innovation automobile grâce au digital twin et à la maintenance prédictive, faisant progresser les opérations centrées sur les données et la création de valeur.",
+        "bannerAlt": "Port de charge de véhicule électrique avec flux d’énergie lumineux représentant la puissance et la technologie propre",
+        "blogTopic": "Salesforce Automotive Cloud",
+        "blogTitle": "Digital Twin Automobile : Comment les OEM, Concessionnaires et Marques Électriques réussissent avec Salesforce Automotive Cloud",
+        "endTitle": "Impact commercial de bout en bout pour les OEM, fournisseurs et concessionnaires",
+        "digitalTitle": "Digital Twin + Maintenance Prédictive sont l’avenir de l’automobile",
+        "faqTitle": "FAQs : Comment l’IA et les données du Digital Twin réinventent les modèles de service et de garantie automobile"
     }
 }
