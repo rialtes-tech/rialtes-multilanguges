@@ -107,7 +107,7 @@ export default function Page() {
                                         )
                                     })
                                 }
-                                <UnorderedList arrName={bestAiToolsData} ulClassName="list-disc mt-3 space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-8 lg:pl-[56px]" />
+                                <UnorderedList arrName={bestAiToolsData} ulClassName="list-disc mt-3 space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-[36px] lg:pl-[56px] " />
                                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-8 pl-2 lg:pl-[24px]">
                                     {t('bestAiToolsDesc2')}
                                 </p>
@@ -144,7 +144,7 @@ export default function Page() {
                                         })
                                     }
                                 </div>
-                                <ul className="list-disc mt-3 pl-8 lg:pl-[56px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-4">
+                                <ul className="list-disc mt-3  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-4 pl-[36px] lg:pl-[56px] ">
                                     {
                                         intelligentData.map((data, ind) => {
                                             return (
@@ -160,7 +160,7 @@ export default function Page() {
                                 <h3 className="font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]">
                                     {t('businessTitle')}
                                 </h3>
-                                <UnorderedList arrName={businessData} ulClassName="list-disc mt-5 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-8 lg:pl-[34px]" />
+                                <UnorderedList arrName={businessData} ulClassName="list-disc mt-5 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-[36px] lg:pl-[56px]" />
                             </div>
 
                             {/* post sale section */}
@@ -174,11 +174,11 @@ export default function Page() {
                                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-5">
                                     {t('postSaleDesc2')}
                                 </p>
-                                <UnorderedList arrName={postSaleData} ulClassName="list-disc mt-3 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-8 lg:pl-[56px]" />
+                                <UnorderedList arrName={postSaleData} ulClassName="list-disc mt-3 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-[36px] lg:pl-[56px]" />
                                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-8">
                                     {t('postSaleDesc3')}
                                 </p>
-                                <UnorderedList arrName={postSaleData2} ulClassName="list-disc mt-3 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-8 lg:pl-[56px]" />
+                                <UnorderedList arrName={postSaleData2} ulClassName="list-disc mt-3 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-[36px] lg:pl-[56px]" />
                                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-8">
                                     {t('postSaleDesc4')}
                                 </p>
@@ -195,7 +195,7 @@ export default function Page() {
                                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-3">
                                     {t('consistencyDesc2')}
                                 </p>
-                                <UnorderedList arrName={consistencyData} ulClassName="list-disc mt-3 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium lg:pl-[56px] pl-8" />
+                                <UnorderedList arrName={consistencyData} ulClassName="list-disc mt-3 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-[36px] lg:pl-[56px] " />
                                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] pl-2 lg:pl-[24px] mt-5">
                                     {t('consistencyDesc3')}
                                 </p>
@@ -222,7 +222,7 @@ export default function Page() {
                                 <h3 className="mt-[29px] xl:mt-[34px] font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]">
                                     {t('readySubTitle')}
                                 </h3>
-                                <UnorderedList arrName={readyData} ulClassName="list-disc mt-5 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium lg:pl-[56px] pl-8" />
+                                <UnorderedList arrName={readyData} ulClassName="list-disc mt-5 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium pl-[36px] lg:pl-[56px] " />
 
                                 {
                                     rialtesTalkData.map((data, ind) => {

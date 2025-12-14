@@ -3488,9 +3488,35 @@
         "rialtesTalkData": [
             "Parlez à Rialtes. Nous aidons les fabricants à déployer des systèmes Agentforce qui transforment à la fois l’atelier et le parcours client. En tant que <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>partenaire Salesforce Crest le mieux noté</a>, nous excellons dans le déploiement de Salesforce Agentforce pour améliorer l’efficacité dans tous les secteurs. Nos <a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>services gérés</a> et notre conseil peuvent aider votre entreprise à intégrer des agents d’IA dans les ventes, le service, le marketing et le commerce."
         ],
-        "faqTitle": "Foire aux questions (FAQ)"
+       "faqTitle": "FAQ : Agentforce pour aider les fabricants à améliorer l’expérience client"
     },
     "firstAiAgent": {
+        "faqs": [
+    {
+      "question": "Qu’est-ce qu’Agentforce et comment aide-t-il à créer des agents IA ?",
+      "answer": "Agentforce est la plateforme d’IA agentique de Salesforce qui permet de créer des agents intelligents sans coder. Grâce à des outils comme Agent Builder et Prompt Builder, vous pouvez automatiser des workflows, intégrer les données CRM et déployer des collaborateurs numériques capables de raisonner, planifier et exécuter des tâches métier."
+    },
+    {
+      "question": "Puis-je créer un agent IA dans Agentforce sans compétences en codage ?",
+      "answer": "Oui. Agentforce offre une interface low-code avec glisser-déposer. Les utilisateurs métier, administrateurs Salesforce et product owners peuvent créer, entraîner et déployer des agents grâce à des invites en langage naturel et des workflows visuels — sans compétences avancées en programmation."
+    },
+    {
+      "question": "Quels types d’agents IA puis-je créer avec Agentforce ?",
+      "answer": "Vous pouvez créer des agents pour le support client, l’assistance commerciale, l’onboarding RH, l’automatisation financière, les helpdesks IT, la personnalisation marketing et le suivi de conformité. Chaque agent est adapté à des processus métier spécifiques et s’intègre aux données Salesforce."
+    },
+    {
+      "question": "Comment garantir que mon agent IA reste précis et sécurisé dans le temps ?",
+      "answer": "La formation continue et le monitoring sont essentiels. Fournissez à votre agent des données mises à jour, réalisez des audits réguliers avec le Trust Layer de Salesforce et suivez des métriques comme les taux de résolution et la satisfaction utilisateur. Cela garantit précision, conformité et performance durable."
+    },
+    {
+      "question": "Avec quels systèmes les agents Agentforce peuvent-ils se connecter ?",
+      "answer": "Les agents s’intègrent aux objets CRM Salesforce, à Data Cloud, aux API externes, aux ERP, aux bases de connaissances et aux outils de service. Ils accèdent ainsi en temps réel aux données client et métier, leur permettant de prendre des décisions plus intelligentes."
+    },
+    {
+      "question": "Comment déployer mon premier agent IA avec Agentforce ?",
+      "answer": "Vous suivrez un processus clair : définir l’objectif de l’agent, utiliser Agent Builder pour concevoir les workflows, entraîner l’agent avec des données, créer des prompts, connecter les systèmes, exécuter des simulations puis le déployer et le surveiller en production."
+    }
+  ],
         "schemaData": {},
         "bannerAlt": "Homme interagissant avec onde lumineuse de visualisation de données IA représentant transformation numérique et apprentissage",
         "seoTitle": "Déployer des agents IA dans Salesforce Agentforce | Rialtes",
@@ -4491,14 +4517,16 @@
                 "desc": "Laissez un agent de routage trier les cas de service plus rapidement en fonction du contexte réel."
             }
         ],
-        "readyToUpgradeData": [
-            "Agentforce intègre des agents autonomes qui comblent l’écart entre la production et l’expérience. Cela signifie moins de silos, des décisions plus rapides et des systèmes plus intelligents qui comprennent les besoins des clients, même lorsqu’ils ne les ont pas exprimés.",
-            "En bref ?",
-            "Les robots suivent les instructions.",
-            "Les agents suivent l’intention.",
-            "Et c’est le saut dont les fabricants ont besoin pour prospérer dans la prochaine décennie.",
-            "Rialtes aide les fabricants à implémenter Agentforce dans les opérations, les ventes et le service. En tant que <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>partenaire Salesforce Crest</a>, nous apportons la stratégie, les systèmes et le support pour rendre les agents IA réels et rapides."
-        ],
+        "readyToUpgradeData": {
+    "desc1": "Agentforce introduit des agents autonomes qui comblent l’écart entre la production et l’expérience. Cela signifie moins de silos, des décisions plus rapides et des systèmes plus intelligents qui comprennent les besoins du client — même lorsque le client ne les a pas encore exprimés.",
+    "list": [
+      "En bref ?",
+      "Les bots suivent des instructions.",
+      "Les agents suivent une intention."
+    ],
+    "desc2": "Et c’est ce saut que les fabricants doivent accomplir pour prospérer dans la prochaine décennie.",
+    "desc3": "Rialtes aide les fabricants à mettre en œuvre Agentforce dans les opérations, les ventes et le service. En tant que <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>partenaire Salesforce Crest</a>, nous apportons la stratégie, les systèmes et le support nécessaires pour rendre les agents IA réels et rapides."
+  },
         "faqData": [
             {
                 "question": "1. Qu’est-ce qui rend les agents IA meilleurs que la RPA dans la fabrication ?",

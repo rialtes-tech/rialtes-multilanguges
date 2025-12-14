@@ -119,10 +119,10 @@ export default function Page() {
                     {LLMarchData.map((data, ind) => {
                       return (
                         <div
-                          className="border border-[#707070] p-[26px] font-medium  2xl:text-[18px] 4xl:text-[22px]"
+                          className="border border-[#707070] p-[26px] font-medium  4xl:text-[20px] xl:text-[17px] text-[16px]"
                           key={ind}
                         >
-                          <h4 className="inline">{data.title}</h4>
+                          <h4 className="inline 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.title}</h4>
                           {data.desc}
                         </div>
                       );
@@ -145,11 +145,11 @@ export default function Page() {
                             }`}
                           key={ind}
                         >
-                          <div
-                            className={`md:absolute max-md:mt-[-80px] md:top-[50%] md:translate-y-[-50%] 4xl:w-[360px] xl:w-[320px] md:w-[280px]  md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[24px] xl:text-[20px] text-[17px] px-[40px] py-[22px]`}
+                          <h3
+                            className={`md:absolute max-md:mt-[-80px] md:top-[50%] md:translate-y-[-50%] 4xl:w-[360px] xl:w-[320px] md:w-[280px]  md:left-[-80px] bg-[#006FBE] text-white font-semibold 4xl:text-[22px] xl:text-[19px] text-[18px] px-[40px] py-[22px]`}
                           >
                             {data.title}
-                          </div>
+                          </h3>
                           <div className="4xl:text-[20px] xl:text-[17px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[220px] xl:ml-[260px] 4xl:ml-[300px]">
                             {data.desc}
                           </div>

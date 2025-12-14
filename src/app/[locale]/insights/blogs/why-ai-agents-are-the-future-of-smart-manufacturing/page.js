@@ -31,17 +31,17 @@ export default function Page() {
     readyToUpgradeData,
     faqData,
     readyDesc,
-    schemaData
-
+    schemaData,
   } = blogsContent.beyondRobotics;
-  const fullUrl = "https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/";
+  const fullUrl =
+    "https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/";
   const currUrl = useUrl();
 
   return (
     <div className="min-h-screen">
       <Seo
-        title={t('seoTitle')}
-        description={t('seoDescription')}
+        title={t("seoTitle")}
+        description={t("seoDescription")}
         keywords="Partners, website, welcome"
         canonical={`https://www.rialtes.com/${locale}/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/`}
       />
@@ -129,12 +129,12 @@ export default function Page() {
                   {t("agentforceDesc")}
                 </p>
                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                  <strong>{t("agentforceDesc2")}, </strong>
+                  {t("agentforceDesc2")}, 
                   {t("agentforceDesc3")}
                 </p>
                 <UnorderedList
                   arrName={agentforceData}
-                  ulClassName="mt-3 list-disc 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[36px] lg:pl-[56px]  space-y-2 font-medium max-[335px]:mr-[30px] "
+                  ulClassName="mt-3 list-disc 4xl:text-[20px] xl:text-[17px] text-[16px] pl-[36px] lg:pl-[56px] space-y-2 font-medium max-[335px]:mr-[30px]"
                   liClassName=""
                 />
                 <p className="mt-4  4xl:text-[20px] xl:text-[17px] text-[16px]">
@@ -143,14 +143,14 @@ export default function Page() {
                 {manufacturingAreasData.map((data, ind) => {
                   return (
                     <div className="xl:pl-[15px]" key={ind}>
-                      <h3 className="4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight mt-8 font-bold max-[335px]:mr-[30px]">
+                      <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] leading-tight mt-8 font-bold max-[335px]:mr-[30px]">
                         {ind + 1}. {data.title}
                       </h3>
-                      <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]  ">
+                      <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]">
                         {data.desc}
                       </p>
                       {data.desc3 && (
-                        <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] ">
+                        <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]">
                           {data.desc3}
                         </p>
                       )}
@@ -162,7 +162,10 @@ export default function Page() {
                         />
                       )}
                       {data.desc2 && (
-                        <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]" dangerouslySetInnerHTML={{ __html: data.desc2 }} />
+                        <p
+                          className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]"
+                          dangerouslySetInnerHTML={{ __html: data.desc2 }}
+                        />
                       )}
                     </div>
                   );
@@ -242,15 +245,34 @@ export default function Page() {
                   {t("readyTitle")}
                 </h2>
                 <div className="mt-[29px] xl:mt-[34px]">
-                  {readyToUpgradeData.map((data, ind) => {
-                    return (
-                      <p
-                        className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]"
-                        key={ind} dangerouslySetInnerHTML={{ __html: data }} />
-                    );
-                  })}
+                  <p
+                    className="mt-5 mb-4 4xl:text-[20px] xl:text-[17px] text-[16px]"
+                    dangerouslySetInnerHTML={{
+                      __html: readyToUpgradeData.desc1,
+                    }}
+                  />
+                  {readyToUpgradeData.list.map((item, i) => (
+                    <p
+                      key={i}
+                      className="mt-1 4xl:text-[20px] xl:text-[17px] text-[16px]"
+                    >
+                      {item}
+                    </p>
+                  ))}
+                  <p className="mt-2 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                    {readyToUpgradeData.desc2}
+                  </p>
+                  <p
+                    className="mt-3 4xl:text-[20px] xl:text-[17px] text-[16px]"
+                    dangerouslySetInnerHTML={{
+                      __html: readyToUpgradeData.desc3,
+                    }}
+                  />
                 </div>
-                <p className="mt-5 4xl:text-[22px] text-[18px] leading-tight font-bold" dangerouslySetInnerHTML={{ __html: readyDesc }} />
+                <p
+                  className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight font-bold"
+                  dangerouslySetInnerHTML={{ __html: readyDesc }}
+                />
               </div>
               <section className="xl:mt-[80px] mt-[40px]">
                 <div className="mt-[29px] xl:mt-[34px]">

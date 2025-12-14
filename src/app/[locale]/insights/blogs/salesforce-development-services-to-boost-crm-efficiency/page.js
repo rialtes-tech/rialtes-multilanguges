@@ -83,7 +83,7 @@ export default function Page() {
                                     whyCrmDAta.map((data, ind) => {
                                         return (
                                             <div key={ind}>
-                                                <h2 className="mb-[22px] xl:mb-[10px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+                                                <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                                 {
                                                     data.desc.map((elem, id) => {
                                                         return (
@@ -110,8 +110,8 @@ export default function Page() {
                                     theCaseOfCustom.map((data, id) => {
                                         return (
                                             <div key={id}>
-                                                <h2 className="mb-[22px] xl:mb-[18px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
-                                                <h3 className="mb-[22px] xl:mb-[10px] font-semibold  4xl:text-[22px] 2xl:text-[19px] xl:text-[18px] md:text-[18px] text-[18px] leading-tight">{data.whatMakes}</h3>
+                                                <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+                                                <h3 className="mb-[22px] xl:mb-[10px] font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight">{data.whatMakes}</h3>
                                                 <p
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
@@ -120,7 +120,7 @@ export default function Page() {
                                                     className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc2 }}
                                                 />
-                                                <h3 className="mb-[22px] xl:mb-[10px] font-semibold  4xl:text-[22px] 2xl:text-[19px] xl:text-[18px] md:text-[18px] text-[18px] leading-tight mt-5">{data.howCanCus}</h3>
+                                                <h3 className="mb-[22px] xl:mb-[10px] font-semibold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] leading-tight mt-5">{data.howCanCus}</h3>
                                                 <p
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.hereAre }}
@@ -149,7 +149,7 @@ export default function Page() {
                                     keyBenifitesSalesforce.map((data, ind) => {
                                         return (
                                             <div key={ind}>
-                                                <h2 className="mb-[22px] xl:mb-[15px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+                                                <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
 
                                                 <p
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
@@ -173,7 +173,7 @@ export default function Page() {
                                                                 max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
                                                                 md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
                                                                 bg-[#006FBE] text-white font-semibold
-                                                                4xl:text-[20px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
+                                                                4xl:text-[22px] xl:text-[19px] text-[18px] 
                                                                 px-[30px] py-[22px] leading-tight
                                                                 4xl:w-[390px] xl:w-[280px] md:w-[240px] w-fit 4xl:h-[100px]">
                                                         {data.title}
@@ -220,7 +220,7 @@ export default function Page() {
  <ul className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2">
           {data.list2.map((item, i) => (
             <li key={i}>
-              <h4 className="inline-block font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]">
+              <h4 className="inline-block font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {item.title}
               </h4>:{" "}
              {item.description}
@@ -238,7 +238,7 @@ export default function Page() {
                                     whatToLook.map((data, ind) => {
                                         return (
                                             <div key={ind}>
-                                                <h2 className="mt-2  4xl:text-[24px] xl:text-[20px] text-[18px]  font-bold pb-2 ">{data.title}</h2>                                                {
+                                                <h2 className="mt-2 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-2 ">{data.title}</h2> {
                                                     data.desc.map((elem, id) => {
                                                         return (
                                                             <p
@@ -258,7 +258,7 @@ export default function Page() {
                             </div>
                             <div className="md:mt-[50px] mt-[40px]">
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('strategiesTitle')}</h2>
-                                <p className="mt-[22px] xl:mt-[10px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('strategiesDescription')}</p>
+                                <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('strategiesDescription')}</p>
 
                                 <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-x-[60px] lg:gap-0 sm:w-[80%] md:w-full">
                                     {
@@ -272,7 +272,7 @@ export default function Page() {
                                         })
                                     }
                                 </div>
-                                <p className="mt-[60px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('strategiesDesc2')}</p>
+                                <p className="mt-[30px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('strategiesDesc2')}</p>
 
                             </div>
 
@@ -281,7 +281,7 @@ export default function Page() {
                                     salesforceFeature.map((data, ind) => {
                                         return (
                                             <div key={ind}>
-                                                <h2 className="mb-[22px] xl:mb-[15px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+                                                <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
 
                                                 <p
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
@@ -297,7 +297,7 @@ export default function Page() {
                                         salesforceFeatureList.map((data, ind) => {
                                             return (
                                                 <div key={ind} className="border border-[#707070] p-[28px] md:px-[34px] md:pt-[26px] md:pb-[40px]">
-                                                    <h3 className="mt-2  4xl:text-[24px] xl:text-[20px] text-[18px] text-[#0092E0] font-bold pb-4 border-b border-[#707070]">{data.title}</h3>
+                                                    <h3 className="mt-2  4xl:text-[22px] xl:text-[19px] text-[18px]  text-[#0092E0] font-bold pb-4 border-b border-[#707070]">{data.title}</h3>
                                                     <p className="mt-5  4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
                                                 </div>
                                             )
@@ -312,7 +312,7 @@ export default function Page() {
                                     workFlowExample.map((data, ind) => {
                                         return (
                                             <div key={ind}>
-                                                <h2 className="mt-2  4xl:text-[24px] xl:text-[20px] text-[18px]  font-bold pb-4 ">{data.title}</h2>
+                                                <h2 className="mt-2  4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]  font-bold pb-4 ">{data.title}</h2>
 
                                                 <div>
                                                     <h3
@@ -339,7 +339,7 @@ export default function Page() {
                                     rialtesYourTrustData.map((data, id) => {
                                         return (
                                             <div key={id}>
-                                                <h2 className="mb-[22px] xl:mb-[10px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
+                                                <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                                 <p
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc1 }}
