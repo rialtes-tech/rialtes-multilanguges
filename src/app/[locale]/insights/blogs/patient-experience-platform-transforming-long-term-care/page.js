@@ -205,7 +205,7 @@ export default function Page() {
                                                                 max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
                                                                 md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
                                                                 bg-[#006FBE] text-white font-semibold
-                                                                4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
+                                                                4xl:text-[22px] xl:text-[19px] text-[18px]
                                                                 px-[30px] py-[22px] leading-tight
                                                                 4xl:w-[340px] xl:w-[280px] md:w-[240px] w-fit 4xl:h-[100px]">
                                                     {data.title}

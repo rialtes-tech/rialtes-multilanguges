@@ -67,10 +67,6 @@ export default function Page() {
 
                         {/* date and icons */}
                         <BlogSocialIcons fullUrl={fullUrl} topic={t('blogTopic')} date="12 November 2025" />
-
-
-
-
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
                             <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t("sapIntegrationTitle")}</h1>
@@ -126,7 +122,7 @@ export default function Page() {
                                                                 max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
                                                                 md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
                                                                 bg-[#006FBE] text-white font-semibold
-                                                                4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
+                                                                4xl:text-[22px] xl:text-[19px] text-[18px]
                                                                 px-[30px] py-[22px] leading-tight
                                                                 4xl:w-[340px] 2xl:w-[320px] xl:w-[300px] md:w-[300px] w-fit 4xl:h-[100px] 2xl:h-[100px] xl:h-[90px]">
                                                     {data.title}
@@ -167,7 +163,7 @@ export default function Page() {
                                         roleofSAP.map((data, ind) => {
                                             return (
                                                 <div key={ind} className={`mt-[48px] ${(ind == 1 || ind == 2) ? "lg:px-[32px] border-[#707070] lg:border-l max-md:border-b max-md:pb-5" : ""} ${ind == 3 ? "lg:pl-[32px] border-[#707070] lg:border-l" : ""} ${ind == 0 ? "lg:pr-[20px] md:border-b lg:border-0 border-[#707070] max-md:border-b max-md:pb-5" : ""} ${(ind == 1) ? "pb-4 md:border-b lg:border-0" : ""}`}>
-                                                    <h3 className="4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold  ">{data.title}</h3   >
+                                                    <h3 className="4xl:text-[22px] xl:text-[19px] text-[18px] font-bold  ">{data.title}</h3   >
                                                     <p className="md:mt-4 mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] md:mb-4">{data.desc}</p>
                                                 </div>
                                             )
@@ -193,7 +189,7 @@ export default function Page() {
                                         blueprintBuild.map((elem, id) => {
                                             return (
                                                 <div className="4xl:p-[30px] p-[22px] border border-[#707070]" key={id}>
-                                                    <h3 className="text-[#006FBE] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 border-b border-[#707070]">{elem.title}</h3>
+                                                    <h3 className="text-[#006FBE] 4xl:text-[22px] xl:text-[19px] text-[18px] font-bold pb-4 border-b border-[#707070]">{elem.title}</h3>
                                                     <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{elem.desc}</p>
                                                 </div>
                                             )
