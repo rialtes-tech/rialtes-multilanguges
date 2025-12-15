@@ -152,30 +152,30 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
 
                 <div className='flex mt-5 gap-3 lg:flex-row flex-col'>
                     <div className="lg:w-1/4">
-                        <input id="first_name" maxLength="40" name="first_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="First Name*" />
+                        <input id="first_name" maxLength="40" name="first_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="First Name*" />
                         {formErrors.first_name && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.first_name}</motion.p>}
                     </div>
                     <div className="lg:w-1/4">
-                        <input id="last_name" maxLength="80" name="last_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Last Name*" />
+                        <input id="last_name" maxLength="80" name="last_name" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Last Name*" />
                         {formErrors.last_name && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.last_name}</motion.p>}
                     </div>
                 </div>
 
                 <div className='flex gap-3 lg:flex-row flex-col'>
                     <div className="lg:w-1/4">
-                        <input id="email" maxLength="80" name="email" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email*" />
+                        <input id="email" maxLength="80" name="email" type="text" className="mt-1 block w-full px-3 py-2 border placeholder-slate-800 border-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email*" />
                         {formErrors.email && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">{formErrors.email}</motion.p>}
                     </div>
-                    <input id="company" maxLength="40" name="company" type="text" required className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Company*" />
+                    <input id="company" maxLength="40" name="company" type="text" required className="mt-1 block px-3 py-2 border lg:w-1/4 placeholder-slate-800 border-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Company*" />
                 </div>
 
                 <div className='flex gap-3 lg:flex-row flex-col'>
-                    <input id="title" maxLength="40" name="title" type="text" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Role*" />
-                    <input id="phone" maxLength="10" name="phone" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Phone" />
+                    <input id="title" maxLength="40" name="title" type="text" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Role*" />
+                    <input id="phone" maxLength="10" name="phone" className="mt-1 block px-3 py-2 lg:w-1/4 border placeholder-slate-800 border-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Phone" />
                 </div>
 
                 <div className="pb-5">
-                    <textarea id="00NQh0000041tRZ" name="00NQh0000041tRZ" rows="3" wrap="soft" className="mt-1 block px-3 py-2 border lg:w-[51%] w-full placeholder-slate-800 border-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Message*" required />
+                    <textarea id="00NQh0000041tRZ" name="00NQh0000041tRZ" rows="3" wrap="soft" className="mt-1 block px-3 py-2 border lg:w-[51%] w-full placeholder-slate-800 border-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Message*" required />
                 </div>
                 {formErrors.message && (
                     <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">
@@ -197,7 +197,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                         value={userAnswer}
                         onChange={(e) => setUserAnswer(e.target.value)}
                         placeholder="Enter Captcha"
-                        className="border border-gray-40 w-fit 0 px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        className="border border-gray-400 placeholder-slate-800 w-fit 0 px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         required
                     />
                     <p className="md:hidden 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[14px] text-gray-700 mt-[-5px]">Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</p>
