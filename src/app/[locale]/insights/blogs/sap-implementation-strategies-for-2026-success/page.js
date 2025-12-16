@@ -107,7 +107,7 @@ export default function Page() {
                                                     data.list.map((elem, id) => {
                                                         return (
                                                             <div className="4xl:p-[30px] p-[22px] border border-[#707070]" key={id}>
-                                                                <h3 className="text-[#006FBE] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 border-b border-[#707070]">{elem.title}</h3>
+                                                                <h3 className="text-[#006FBE] 4xl:text-[22px] xl:text-[19px] text-[18px] font-bold pb-4 border-b border-[#707070]">{elem.title}</h3>
                                                                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" dangerouslySetInnerHTML={{ __html: elem.desc }} />
                                                             </div>
                                                         )

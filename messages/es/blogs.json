@@ -820,6 +820,7 @@
         "faqTitle": "Preguntas Frecuentes: Implementación e Integración de Salesforce"
     },
     "erpCrm": {
+        "faqTitle": "Preguntas frecuentes: Crear una estrategia unificada de CRM + ERP",
         "seoTitle": "ERP y CRM Unificados para Bienes Raíces: Reduce Costos en un 35% | Rialtes",
         "seoDescription": "Las plataformas ERP y CRM unificadas ayudan a las empresas inmobiliarias a reducir los costos del sistema hasta en un 35%, mejorando la visibilidad y eficiencia entre departamentos.",
         "bannerAlt": "Modelo ciudad miniatura con íconos nube y luces mostrando infraestructura computación nube ciudad inteligente conectividad",
@@ -3747,7 +3748,7 @@
         "link2": " Deja que nuestros expertos te ayuden a integrar, escalar y tener éxito con ",
         "link3": "IA en la fabricación automotriz",
         "link4": ". Rialtes ayuda a las empresas a incorporar agentes personalizados de Agentforce en sus plataformas ERP, automatizando tareas y optimizando flujos de trabajo.",
-        "faq": "Preguntas Frecuentes: Agentforce para la Transformación de la Manufactura Impulsada por IA",
+        "faq": "Preguntas frecuentes: Agentforce 3.0 para la fabricación automotriz",
         "aiList": [
             "Impulsar la resiliencia operativa",
             "Acelerar los ciclos de innovación",
@@ -8880,7 +8881,7 @@
     },
     "sapManaged": {
         "schemaData": {},
-        "faqData": [
+        "faq": [
             {
                 "question": "¿Qué son los servicios gestionados de SAP?",
                 "answer": "Son servicios continuos que respaldan, optimizan e innovan tu entorno SAP, incluyendo monitoreo, gestión del cambio, mejoras, migración a la nube y transformación impulsada por IA."
