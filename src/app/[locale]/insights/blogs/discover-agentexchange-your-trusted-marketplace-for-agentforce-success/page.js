@@ -86,13 +86,13 @@ export default function Page() {
 
                 {
                   understandingData.map((data, ind) => (
-                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" key={ind}>
+                    <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]" key={ind}>
                       {data}
                     </p>
                   ))
                 }
 
-                <ol className="list-decimal marker:text-xl pl-[34px] mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3">
+                <ol className="list-decimal marker:text-xl pl-[34px] mt-6 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3">
                   {
                     understandingDataList.map((data, ind) => {
                       return (
@@ -116,7 +116,7 @@ export default function Page() {
                   {t('whatLedDesc')}
                 </p>
 
-                <ol className="mt-5 pl-[24px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3 list-none">
+                <ol className="mt-5  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3 list-none">
                   {
                     whatLedData.map((data, ind) => {
                       return (

@@ -3489,35 +3489,35 @@
         "rialtesTalkData": [
             "Parlez à Rialtes. Nous aidons les fabricants à déployer des systèmes Agentforce qui transforment à la fois l’atelier et le parcours client. En tant que <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>partenaire Salesforce Crest le mieux noté</a>, nous excellons dans le déploiement de Salesforce Agentforce pour améliorer l’efficacité dans tous les secteurs. Nos <a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>services gérés</a> et notre conseil peuvent aider votre entreprise à intégrer des agents d’IA dans les ventes, le service, le marketing et le commerce."
         ],
-       "faqTitle": "FAQ : Agentforce pour aider les fabricants à améliorer l’expérience client"
+        "faqTitle": "FAQ : Agentforce pour aider les fabricants à améliorer l’expérience client"
     },
     "firstAiAgent": {
         "faqs": [
-    {
-      "question": "Qu’est-ce qu’Agentforce et comment aide-t-il à créer des agents IA ?",
-      "answer": "Agentforce est la plateforme d’IA agentique de Salesforce qui permet de créer des agents intelligents sans coder. Grâce à des outils comme Agent Builder et Prompt Builder, vous pouvez automatiser des workflows, intégrer les données CRM et déployer des collaborateurs numériques capables de raisonner, planifier et exécuter des tâches métier."
-    },
-    {
-      "question": "Puis-je créer un agent IA dans Agentforce sans compétences en codage ?",
-      "answer": "Oui. Agentforce offre une interface low-code avec glisser-déposer. Les utilisateurs métier, administrateurs Salesforce et product owners peuvent créer, entraîner et déployer des agents grâce à des invites en langage naturel et des workflows visuels — sans compétences avancées en programmation."
-    },
-    {
-      "question": "Quels types d’agents IA puis-je créer avec Agentforce ?",
-      "answer": "Vous pouvez créer des agents pour le support client, l’assistance commerciale, l’onboarding RH, l’automatisation financière, les helpdesks IT, la personnalisation marketing et le suivi de conformité. Chaque agent est adapté à des processus métier spécifiques et s’intègre aux données Salesforce."
-    },
-    {
-      "question": "Comment garantir que mon agent IA reste précis et sécurisé dans le temps ?",
-      "answer": "La formation continue et le monitoring sont essentiels. Fournissez à votre agent des données mises à jour, réalisez des audits réguliers avec le Trust Layer de Salesforce et suivez des métriques comme les taux de résolution et la satisfaction utilisateur. Cela garantit précision, conformité et performance durable."
-    },
-    {
-      "question": "Avec quels systèmes les agents Agentforce peuvent-ils se connecter ?",
-      "answer": "Les agents s’intègrent aux objets CRM Salesforce, à Data Cloud, aux API externes, aux ERP, aux bases de connaissances et aux outils de service. Ils accèdent ainsi en temps réel aux données client et métier, leur permettant de prendre des décisions plus intelligentes."
-    },
-    {
-      "question": "Comment déployer mon premier agent IA avec Agentforce ?",
-      "answer": "Vous suivrez un processus clair : définir l’objectif de l’agent, utiliser Agent Builder pour concevoir les workflows, entraîner l’agent avec des données, créer des prompts, connecter les systèmes, exécuter des simulations puis le déployer et le surveiller en production."
-    }
-  ],
+            {
+                "question": "Qu’est-ce qu’Agentforce et comment aide-t-il à créer des agents IA ?",
+                "answer": "Agentforce est la plateforme d’IA agentique de Salesforce qui permet de créer des agents intelligents sans coder. Grâce à des outils comme Agent Builder et Prompt Builder, vous pouvez automatiser des workflows, intégrer les données CRM et déployer des collaborateurs numériques capables de raisonner, planifier et exécuter des tâches métier."
+            },
+            {
+                "question": "Puis-je créer un agent IA dans Agentforce sans compétences en codage ?",
+                "answer": "Oui. Agentforce offre une interface low-code avec glisser-déposer. Les utilisateurs métier, administrateurs Salesforce et product owners peuvent créer, entraîner et déployer des agents grâce à des invites en langage naturel et des workflows visuels — sans compétences avancées en programmation."
+            },
+            {
+                "question": "Quels types d’agents IA puis-je créer avec Agentforce ?",
+                "answer": "Vous pouvez créer des agents pour le support client, l’assistance commerciale, l’onboarding RH, l’automatisation financière, les helpdesks IT, la personnalisation marketing et le suivi de conformité. Chaque agent est adapté à des processus métier spécifiques et s’intègre aux données Salesforce."
+            },
+            {
+                "question": "Comment garantir que mon agent IA reste précis et sécurisé dans le temps ?",
+                "answer": "La formation continue et le monitoring sont essentiels. Fournissez à votre agent des données mises à jour, réalisez des audits réguliers avec le Trust Layer de Salesforce et suivez des métriques comme les taux de résolution et la satisfaction utilisateur. Cela garantit précision, conformité et performance durable."
+            },
+            {
+                "question": "Avec quels systèmes les agents Agentforce peuvent-ils se connecter ?",
+                "answer": "Les agents s’intègrent aux objets CRM Salesforce, à Data Cloud, aux API externes, aux ERP, aux bases de connaissances et aux outils de service. Ils accèdent ainsi en temps réel aux données client et métier, leur permettant de prendre des décisions plus intelligentes."
+            },
+            {
+                "question": "Comment déployer mon premier agent IA avec Agentforce ?",
+                "answer": "Vous suivrez un processus clair : définir l’objectif de l’agent, utiliser Agent Builder pour concevoir les workflows, entraîner l’agent avec des données, créer des prompts, connecter les systèmes, exécuter des simulations puis le déployer et le surveiller en production."
+            }
+        ],
         "schemaData": {},
         "bannerAlt": "Homme interagissant avec onde lumineuse de visualisation de données IA représentant transformation numérique et apprentissage",
         "seoTitle": "Déployer des agents IA dans Salesforce Agentforce | Rialtes",
@@ -4519,15 +4519,15 @@
             }
         ],
         "readyToUpgradeData": {
-    "desc1": "Agentforce introduit des agents autonomes qui comblent l’écart entre la production et l’expérience. Cela signifie moins de silos, des décisions plus rapides et des systèmes plus intelligents qui comprennent les besoins du client — même lorsque le client ne les a pas encore exprimés.",
-    "list": [
-      "En bref ?",
-      "Les bots suivent des instructions.",
-      "Les agents suivent une intention."
-    ],
-    "desc2": "Et c’est ce saut que les fabricants doivent accomplir pour prospérer dans la prochaine décennie.",
-    "desc3": "Rialtes aide les fabricants à mettre en œuvre Agentforce dans les opérations, les ventes et le service. En tant que <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>partenaire Salesforce Crest</a>, nous apportons la stratégie, les systèmes et le support nécessaires pour rendre les agents IA réels et rapides."
-  },
+            "desc1": "Agentforce introduit des agents autonomes qui comblent l’écart entre la production et l’expérience. Cela signifie moins de silos, des décisions plus rapides et des systèmes plus intelligents qui comprennent les besoins du client — même lorsque le client ne les a pas encore exprimés.",
+            "list": [
+                "En bref ?",
+                "Les bots suivent des instructions.",
+                "Les agents suivent une intention."
+            ],
+            "desc2": "Et c’est ce saut que les fabricants doivent accomplir pour prospérer dans la prochaine décennie.",
+            "desc3": "Rialtes aide les fabricants à mettre en œuvre Agentforce dans les opérations, les ventes et le service. En tant que <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>partenaire Salesforce Crest</a>, nous apportons la stratégie, les systèmes et le support nécessaires pour rendre les agents IA réels et rapides."
+        },
         "faqData": [
             {
                 "question": "1. Qu’est-ce qui rend les agents IA meilleurs que la RPA dans la fabrication ?",
@@ -5679,7 +5679,7 @@
         "applicationTitle": "Quelles sont quelques applications des agents IA pour ERP ?",
         "applicationDesc": "L'intégration des agents IA d'Agentforce avec les systèmes ERP transforme les opérations des entreprises en améliorant l'efficacité, la précision et la fonctionnalité. Ces agents automatisent les processus, fournissent des informations exploitables et facilitent des flux de travail fluides dans les modules clés d'ERP.",
         "buildingTitle": "Construire un ERP intelligent et évolutif avec Agentforce",
-       "faqTitle": "FAQ : Transformation des systèmes ERP avec Agentforce AI"
+        "faqTitle": "FAQ : Transformation des systèmes ERP avec Agentforce AI"
     },
     "fiveSigns": {
         "schemaData": {},
@@ -6618,20 +6618,20 @@
                 "howCanCus": "Comment le développement Salesforce personnalisé peut-il améliorer l’efficacité du CRM ?",
                 "hereAre": "Voici quelques améliorations réelles que les entreprises constatent grâce au développement personnalisé :",
                 "thisisWhere": "C’est là que les services de développement Salesforce personnalisés libèrent une véritable efficacité CRM.",
-                   "list2": [
-  {
-    "title": "Automatisation des flux de travail manuels",
-    "description": "Au lieu que les commerciaux mettent manuellement à jour les étapes des affaires, l’automatisation fait avancer les opportunités dans le pipeline."
-  },
-  {
-    "title": "Tableaux de bord conviviaux",
-    "description": "Les dirigeants ne se perdent plus dans des données non pertinentes — ils voient exactement ce qui compte."
-  },
-  {
-    "title": "Intégrations transparentes",
-    "description": "Les systèmes financiers, marketing et ERP partagent automatiquement les données, éliminant les doubles saisies."
-  }
-]            
+                "list2": [
+                    {
+                        "title": "Automatisation des flux de travail manuels",
+                        "description": "Au lieu que les commerciaux mettent manuellement à jour les étapes des affaires, l’automatisation fait avancer les opportunités dans le pipeline."
+                    },
+                    {
+                        "title": "Tableaux de bord conviviaux",
+                        "description": "Les dirigeants ne se perdent plus dans des données non pertinentes — ils voient exactement ce qui compte."
+                    },
+                    {
+                        "title": "Intégrations transparentes",
+                        "description": "Les systèmes financiers, marketing et ERP partagent automatiquement les données, éliminant les doubles saisies."
+                    }
+                ]
             }
         ],
         "choosingRightData": [
@@ -6639,20 +6639,19 @@
                 "title": "Choisir le bon partenaire de développement Salesforce",
                 "desc": "Bien que les partenaires Salesforce soient mondiaux, <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>travailler avec un partenaire Salesforce de premier plan</a> présente des avantages uniques :",
                 "list2": [
-  {
-    "title": "Proximité des marchés d’entreprise",
-    "description": "Les équipes comprennent les réglementations locales et les attentes des clients."
-  },
-  {
-    "title": "Conformité et sécurité",
-    "description": "Les partenaires américains maîtrisent HIPAA, SOC 2 et d’autres normes de conformité critiques."
-  },
-  {
-    "title": "Expertise certifiée",
-    "description": "Un vivier de talents plus important de développeurs et consultants certifiés Salesforce."
-  }
-]
-
+                    {
+                        "title": "Proximité des marchés d’entreprise",
+                        "description": "Les équipes comprennent les réglementations locales et les attentes des clients."
+                    },
+                    {
+                        "title": "Conformité et sécurité",
+                        "description": "Les partenaires américains maîtrisent HIPAA, SOC 2 et d’autres normes de conformité critiques."
+                    },
+                    {
+                        "title": "Expertise certifiée",
+                        "description": "Un vivier de talents plus important de développeurs et consultants certifiés Salesforce."
+                    }
+                ]
             }
         ],
         "whatToLook": [
@@ -8492,12 +8491,12 @@
                         "title": "Services d’implémentation SAP SuccessFactors",
                         "desc": "Déploiement complet des modules suivants :",
                         "list": [
-                            "Employee Central",
-                            "Recruiting & Onboarding",
-                            "Learning & Development",
-                            "Performance & Goals",
-                            "Compensation & Succession",
-                            "Workforce Planning & People Analytics"
+                            "Gestion du personnel",
+                            "Recrutement et intégration",
+                            "Apprentissage et développement",
+                            "Performance et objectifs",
+                            "Rémunération et planification de la succession",
+                            "Planification des effectifs et analytique des talents"
                         ],
                         "desc2": "Si elle est réalisée correctement, l’implémentation est rapide, structurée et axée sur les résultats."
                     },
