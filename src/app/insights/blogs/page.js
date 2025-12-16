@@ -1074,11 +1074,11 @@ const BlogList = () => {
         <div className='flex justify-center text-center md:py-20 py-10'>
           <button
             type='button'
-            className={`border border-[#707070]  font-medium w-[160px] h-[50px] relative group hover:bg-[#EDEDED] ${visibleBlogs >= filteredBlogsByCategory.length ? 'opacity-50 cursor-not-allowed pointer-events-none' : 'cursor-pointer'}`}
+            className={`border border-[#707070] font-medium w-[180px] h-[50px] relative group hover:bg-[#EDEDED] ${visibleBlogs >= filteredBlogsByCategory.length ? 'opacity-50 cursor-not-allowed pointer-events-none' : 'cursor-pointer'}`}
             onClick={loadMoreBlogs}
             disabled={visibleBlogs >= filteredBlogsByCategory.length}
           >
-            <span className='group-hover:pr-7 transition-all duration-300 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>Load more</span>
+            <span className='group-hover:pr-8 transition-all duration-300 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>Load more</span>
             <svg
               className='w-6 h-6 absolute right-4 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'
               fill='none'
