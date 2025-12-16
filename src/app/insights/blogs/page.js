@@ -926,9 +926,9 @@ const BlogCard = ({ blog }) => (
         <div className='pb-2 md:pb-4 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
           <span className='text-[#0092E0]'>{blog.category}</span>
           <span className='text-[#ACACAC]'> | </span>
-          {blog.date}
+          <span className={`${blog.category.length > 21 && "block mt-1"}`}>{blog.date}</span>
         </div>
-        <Link href={'/insights/blogs' + blog.url}><h4 className="mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 4xl:text-[25px] xl:text-[20px] text-[18px]  leading-tight">{blog.title}</h4></Link>
+        <Link href={'/insights/blogs' + blog.url}><h4 className="mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight">{blog.title}</h4></Link>
       </div>
       <div className="flex flex-col">
         <p className='line-clamp-4 md:mb-4 mb-2 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>{blog.description}</p>

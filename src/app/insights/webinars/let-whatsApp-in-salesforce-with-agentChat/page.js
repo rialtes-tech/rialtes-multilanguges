@@ -43,25 +43,25 @@ const schemaData = {
 export default function About() {
     const sectionRef = useRef(null);
 
-   const handleScroll = () => {
-    if (!sectionRef.current) return;
+    const handleScroll = () => {
+        if (!sectionRef.current) return;
 
-    const getOffset = () => {
-        const width = window.innerWidth;
-        if (width > 1536) return 160; // 2xl+
-        if (width > 1280) return 120; // xl
-        if (width > 768) return 100;  // md
-        return 80; // sm and below
+        const getOffset = () => {
+            const width = window.innerWidth;
+            if (width > 1536) return 160; // 2xl+
+            if (width > 1280) return 120; // xl
+            if (width > 768) return 100;  // md
+            return 80; // sm and below
+        };
+
+        const offset = getOffset();
+        const elementPosition = sectionRef.current.getBoundingClientRect().top + window.pageYOffset;
+
+        window.scrollTo({
+            top: elementPosition - offset,
+            behavior: 'smooth',
+        });
     };
-
-    const offset = getOffset();
-    const elementPosition = sectionRef.current.getBoundingClientRect().top + window.pageYOffset;
-
-    window.scrollTo({
-        top: elementPosition - offset,
-        behavior: 'smooth',
-    });
-};
     const calculateTimeLeft = () => {
         const targetDate = new Date("2025-05-06T15:00:00Z"); // 10:00 AM CST = 15:00 UTC
         const now = new Date();
@@ -103,12 +103,12 @@ export default function About() {
                 canonical="https://www.rialtes.com/insights/webinars/let-whatsapp-in-salesforce-with-agentchat/"
             />
 
-           <Script
-        id="webinar-schema-let"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
+            <Script
+                id="webinar-schema-let"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
             <section className="relative custom-container xl:!pr-0">
                 <Image
                     src="/images/webinar/Webinar_6.webp"
