@@ -198,11 +198,15 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                         type="number"
                         value={userAnswer}
                         onChange={(e) => setUserAnswer(e.target.value)}
-                        placeholder={t('enterCaptcha')}
-                        className="border border-gray-400 px-3 py-2 rounded shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        placeholder="Enter Captcha"
+                        className="border border-gray-400 w-fit px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none
+             [appearance:textfield]
+             [&::-webkit-outer-spin-button]:appearance-none
+             [&::-webkit-inner-spin-button]:appearance-none"
                         required
                     />
-                    <p className="md:hidden hidden 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[14px] text-gray-700 mt-[-5px]">Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</p>
+
+                    <p className="md:hidden 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[14px] text-gray-700 mt-[-5px]">Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</p>
 
                     <input type="hidden" name="form_submit" value="Submit" />
                     <button

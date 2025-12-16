@@ -374,7 +374,7 @@ export default function About() {
                         style={{
                           width: "100%",
                           height: "auto",
-                          aspectRatio: "16 / 12", 
+                          aspectRatio: "16 / 12",
                           objectFit: "cover",
                         }}
                         priority
@@ -406,12 +406,22 @@ export default function About() {
             ))}
           </div>
           {hasMore && (
-            <div className="flex justify-center mt-8">
+            <div className='w-full mx-auto text-center md:py-20 py-10'>
               <button
+                type='button'
+                className={`border border-[#707070] font-medium w-[180px] h-[50px] relative group hover:bg-[#EDEDED] `}
                 onClick={handleLoadMore}
-                className="border border-gray-300 text-[#000000] py-2 px-6  hover:bg-gray-50 transition-colors"
               >
-                {t('loadMore')}
+                <span className='group-hover:pr-8 transition-all duration-300 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]'>Load more</span>
+                <svg
+                  className='w-6 h-6 absolute right-4 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'
+                  fill='none'
+                  stroke='currentColor'
+                  viewBox='0 0 24 24'
+                  xmlns='http://www.w3.org/2000/svg'
+                >
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
               </button>
             </div>
           )}
