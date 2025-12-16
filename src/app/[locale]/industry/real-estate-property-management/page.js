@@ -18,7 +18,7 @@ export default function Page() {
   const t = useTranslations("realEstate");
   const locale = useLocale();
   const realContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { growLatestServices, latestServices, slides,schemaData } = realContent.realEstate;
+  const { growLatestServices, latestServices, slides, schemaData } = realContent.realEstate;
 
 
   const ServicesCard = ({ services }) => (
@@ -60,7 +60,7 @@ export default function Page() {
       </div>
       <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight mt-2">{services.description}</p>
       <UnorderedList arrName={services?.productsDetails} ulClassName="mt-6 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]" />
-      <div className="mt-6"><LearnMore btnName={t('learnMoreBtn')} /></div>
+      <div className="mt-6"><LearnMore btnName={t('learnMoreBtn')} locale={locale} /></div>
     </div>
   );
 
@@ -148,7 +148,7 @@ export default function Page() {
         </div>
       </section>
       {/* We Help You Grow and Thrive */}
-      <div className="custom-container">
+      <div className="custom-container mt-6">
         <section className="pb-16 xl:pt-0 bg-white">
           <GrowServices />
         </section>
@@ -179,7 +179,7 @@ export default function Page() {
       <div className="custom-container">
         <section className="pb-16 bg-white">
           <Services />
-         <LearnMore btnName={t('learnMoreBtn')} />
+          <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
         </section>
       </div>
       <div className="bg-[#F5F5F5] py-6">

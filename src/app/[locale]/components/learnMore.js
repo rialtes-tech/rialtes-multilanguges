@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function LearnMoreButton({
   href = "/contact-us",
+  locale = "en",
   arialabel = "Learn more about Salesforce implementation services",
   btnName = "Learn More",
   bgcolor = "#134874",
@@ -15,7 +16,7 @@ export default function LearnMoreButton({
 
   return (
     <Link
-      href={href}
+       href={`/${locale}${href}`}
       aria-label={arialabel}
       onMouseEnter={() => {
         if (bgcolor !== "#ffffff") setIsHovered(true);

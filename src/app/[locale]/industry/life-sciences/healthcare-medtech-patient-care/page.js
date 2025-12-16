@@ -52,7 +52,7 @@ export default function Page() {
         <UnorderedList arrName={services?.productsDetails} ulClassName="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]" />
       </div>
       <div className="mt-auto pt-5">
-       <LearnMore btnName={t('learnMoreBtn')} />
+       <LearnMore btnName={t('learnMoreBtn')}  locale={locale}/>
       </div>
     </div>
 
@@ -130,7 +130,7 @@ export default function Page() {
         className="custom-container">
         <section className="bg-white">
           <div className="text-black xl:pt-[50px]">
-            <h2 className="pb-10 text-black leading-tight xl:w-[60%] 2xl:w-[52%] 4xl:w-[70%] w-fill 4xl:text-[60px] xl:text-[40px] md:text-[26px]">{t('growServicesTitle')}</h2>
+            <h2 className="pb-10 text-black leading-tight xl:w-[60%] 2xl:w-[52%] 4xl:w-[75%] w-fill 4xl:text-[60px] xl:text-[40px] md:text-[26px]">{t('growServicesTitle')}</h2>
             <p className="xl:w-[65%] 4xl:w-[70%]  w-full text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('growServicesDesc')}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20  ">
               {growLatestServices.map((services, index) => (
@@ -146,7 +146,7 @@ export default function Page() {
       <div>
         <section className="pb-8 bg-white">
           <div className="custom-container mx-auto text-black mt-14 md:mt-20 xl:mt-[120px]">
-            <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 2xl:w-[60%] 4xl:w-[85%]">{t('servicesTitle')}</h2>
+            <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[75%] 2xl:w-[70%] 4xl:w-[85%]">{t('servicesTitle')}</h2>
             <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight lg:w-[80%]">{t('servicesDesc')}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
               {latestServices.map((services) => (
@@ -154,7 +154,7 @@ export default function Page() {
               ))}
             </div>
             <div className="mt-10">
-             <LearnMore btnName={t('learnMoreBtn')} />
+             <LearnMore btnName={t('learnMoreBtn')}  locale={locale}/>
             </div>
           </div> 
         </section>
