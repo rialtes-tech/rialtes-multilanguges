@@ -107,22 +107,31 @@ export default function About() {
                     <div className="mx-auto">
                         <h3 className="text-[#000000] mb-8 font-semibold w-full 4xl:text-[43px] 2xl:text-[36px] xl:text-[32px] text-[23px] leading-tight">
                             {t('overTitle')}</h3>
-                        <div className="grid xl:grid-cols-4 md:grid-cols-2 mb-8 mt-16 lg:gap-40 gap-10 ">
+                       <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-16 mb-8 place-items-baseline">
                             {corePrinciples.map((item, index) => (
-                                <div key={index} className="grid">
+                                <div
+                                    key={index}
+                                    className="flex-col"
+                                >
                                     <Image
                                         src={item.image}
                                         alt={item.alt}
-                                        width={100}
-                                        height={100}
+                                        width={120}
+                                        height={120}
                                         priority
+                                        style={{
+                                            width: item.width.base,
+                                            height: item.height.base,
+                                        }}
                                     />
-                                    <p className="mt-5  4xl:text-[35px] xl:text-[30px] text-[22px]">
+
+                                    <p className="mt-5 4xl:text-[35px] xl:text-[30px] text-[22px]">
                                         {item.label}
                                     </p>
                                 </div>
                             ))}
                         </div>
+
                     </div>
                 </div>
             </section>

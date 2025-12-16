@@ -2590,7 +2590,7 @@
         "blogMainData": "A Strategic Comparison That Drives AI Adoption Right",
         "why": "Why Understanding Bots, Copilots, and AI Agents Matters for Your Business",
         "whyData": [
-            "AI tools are shaping <a href='https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>how industries like manufacturing<a/>, automotive, and customer service operate at scale. The right AI assistant can completely change how teams work, from automating repetitive tasks to delivering real-time insights.",
+            "AI tools are shaping <a href='https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>how industries like manufacturing</a>, automotive, and customer service operate at scale. The right AI assistant can completely change how teams work, from automating repetitive tasks to delivering real-time insights.",
             "But here's the problem: bots, copilots, and AI agents are often used interchangeably, even though they mean very different things. That confusion can lead to the wrong tech choices and underwhelming results.",
             "This breakdown aims to clear the air. We'll look at the differences between these types of AI assistants, how each one works, and what kind of use cases they’re best suited for. So you can match the right solution to your business goals, whether it's <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>agent-based automation in manufacturing</a> or deploying smart copilots for field teams."
         ],
@@ -4922,7 +4922,7 @@
         "link2": " Let our experts assist you in integrating, scaling, and succeeding with ",
         "link3": "AI in automotive manufacturing",
         "link4": " . Rialtes helps businesses incorporate customized Agentforce agents into their ERP platforms, automating tasks and optimizing workflows.",
-        "faq": "FAQs: Agentforce for AI-Powered Manufacturing Transformation",
+        "faq": "FAQs: Agentforce 3.0 for Automotive Manufacturing",
         "aiList": [
             "Boost operational resilience",
             "Speed up innovation cycles",
@@ -8822,6 +8822,7 @@
         "faqTitle": "FAQs: Salesforce Implementation and Integration"
     },
     "erpCrm": {
+        "faqTitle":"FAQs: Build a Unified CRM + ERP Strategy",
         "seoTitle": "Unified ERP & CRM for Real Estate: Cut Costs by 35% | Rialtes",
         "seoDescription": "Unified ERP & CRM platforms help real estate enterprises cut system costs by up to 35% while improving cross-department visibility and efficiency.",
         "bannerAlt": "Miniature city model with cloud icons and lights showing smart city cloud computing infrastructure and digital connectivity",
@@ -12575,7 +12576,7 @@
                 ]
             }
         },
-        "faqData": [
+        "faq": [
             {
                 "question": "What are SAP managed services?",
                 "answer": "They are ongoing services that support, optimize, and innovate your SAP environment — including monitoring, change management, enhancements, cloud migration, and AI-driven transformation."

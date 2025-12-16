@@ -1,14 +1,14 @@
 "use client";
 import Image from "next/image";
-import FilteredBlogCarousel from '@/app/[locale]//components/FilteredLatestBlogCarousel'
-import useUrl from "@/app/[locale]//components/useUrl";
-import Seo from "@/app/[locale]//components/Seo";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/[locale]/components/useUrl";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
-import BlogSocialIcons from '@/app/[locale]//components/blogSocialIcons'
-import UnorderedList from "@/app/[locale]//components/unorderedList";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import UnorderedList from "@/app/[locale]/components/unorderedList";
 import React from "react";
-import LearnMoreButton from "@/app/[locale]//components/learnMore";
+import LearnMoreButton from "@/app/[locale]/components/learnMore";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/blogs.json";
 import esContent from "../../../../../../messages/es/blogs.json";
@@ -25,7 +25,7 @@ export default function Page() {
         es: esContent,
         fr: frContent,
     });
-    const { schemaData, faqData, mainData, whatSapData, whyManagedData, keyData, whatDoData, whatEnterpriseData, howToChooseData } = content.sapManaged;
+    const { schemaData, faq, mainData, whatSapData, whyManagedData, keyData, whatDoData, whatEnterpriseData, howToChooseData } = content.sapManaged;
 
     return (
         <section className="min-h-screen">
@@ -300,7 +300,7 @@ export default function Page() {
             <section className="xl:mt-[80px] mt-[40px] custom-container">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('faqTitle')}</h2>
                 <div className="mt-[29px] xl:mt-[30px]">
-                    <FAQAccordion faqData={faqData} />
+                    <FAQAccordion faqData={faq} />
                 </div>
             </section>
 

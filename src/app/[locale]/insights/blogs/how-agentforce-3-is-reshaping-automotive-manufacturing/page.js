@@ -122,7 +122,7 @@ export default function Page() {
                 <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                   {t("sinceTitle")}
                 </p>
-                <h3 className="mt-[29px] xl:mt-[30px]  font-bold  4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight">
+                <h3 className="mt-[29px] xl:mt-[30px]  font-bold  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px]  leading-tight">
                   {t("keyTitle")}
                 </h3>
                 <div className="grid gap-10 mt-10">
@@ -168,7 +168,7 @@ export default function Page() {
                 <ol className="list-decimal mt-3 pl-[36px] lg:pl-[56px]  text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]  font-medium space-y-3">
                   {commandList.map((item, i) => (
                     <li key={i}>
-                      <span className="font-bold">{item.title}:</span>{" "}
+                      <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{item.title}:</h3>{" "}
                       {item.desc}
                     </li>
                   ))}
@@ -190,7 +190,7 @@ export default function Page() {
                 <ol className="list-disc mt-5 marker:text-xl pl-[36px] lg:pl-[56px]  text-black 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]  font-medium space-y-4">
                   {integrationPoints.map((item, i) => (
                     <li key={i}>
-                      <span className="font-bold">{item.title}:</span>{" "}
+                      <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{item.title}:</h3>{" "}
                       {item.desc}
                     </li>
                   ))}

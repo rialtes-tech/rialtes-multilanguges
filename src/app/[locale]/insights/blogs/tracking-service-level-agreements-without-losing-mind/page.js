@@ -172,7 +172,7 @@ export default function Page() {
                                         smarterBilling.map((elem, id) => {
                                             return (
                                                 <div className="4xl:p-[30px] p-[22px] border border-[#707070]" key={id}>
-                                                    <h3 className="text-[#006FBE] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 border-b border-[#707070]">{elem.title}</h3>
+                                                    <h3 className="text-[#006FBE] 4xl:text-[22px] xl:text-[19px] text-[18px] font-bold pb-4 border-b border-[#707070]">{elem.title}</h3>
                                                     <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{elem.desc}</p>
                                                 </div>
                                             )
@@ -258,7 +258,7 @@ export default function Page() {
                                         mostFirms.map((data, ind) => {
                                             return (
                                                 <div key={ind} className={`mt-[48px] ${(ind == 1 || ind == 2) ? "lg:px-[32px] border-[#707070] lg:border-l max-md:border-b max-md:pb-5" : ""} ${ind == 3 ? "lg:pl-[32px] border-[#707070] lg:border-l" : ""} ${ind == 0 ? "lg:pr-[40px] md:border-b lg:border-0 border-[#707070] max-md:border-b max-md:pb-5" : ""} ${(ind == 1) ? "pb-4 md:border-b lg:border-0" : ""}`}>
-                                                    <h3 className="4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold  ">{data.title}</h3   >
+                                                    <h3 className="4xl:text-[22px] xl:text-[19px] text-[18px] font-bold  ">{data.title}</h3   >
                                                     <p className="md:mt-4 mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] md:mb-4">{data.desc}</p>
                                                 </div>
                                             )

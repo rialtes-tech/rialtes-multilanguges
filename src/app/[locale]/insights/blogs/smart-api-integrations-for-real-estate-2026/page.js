@@ -151,7 +151,7 @@ export default function Page() {
                         dangerouslySetInnerHTML={{ __html: data.why }}
                       />
 
-                      <h3 className="font-bold 4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[17px] text-[17px] mt-[25px]">
+                      <h3 className="font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-[25px]">
                         {t('enableTitle')}
                       </h3>
                       <ul className="pl-[36px] lg:pl-[56px] space-y-2 mt-5">
@@ -204,7 +204,7 @@ export default function Page() {
                               key={id}
                               className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc font-medium"
                             >
-                              <p className="font-semibold inline 4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[17px] text-[17px]">
+                              <p className="font-semibold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                                 {enable.title}{" "}
                               </p>
                               {enable.description}

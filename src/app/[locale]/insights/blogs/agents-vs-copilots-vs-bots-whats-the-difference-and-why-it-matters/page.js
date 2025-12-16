@@ -134,13 +134,13 @@ export default function Page() {
                   <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                     {t("aiDesc3")}
                   </p>
-                  <h3 className="4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight mt-[30px] lg:mt-[49px] font-bold ">
+                  <h3 className="4xl:text-[22px] xl:text-[19px] text-[18px] leading-tight mt-[30px] lg:mt-[49px] font-bold ">
                     {t("application")}
                   </h3>
                   <ul className="list-none marker:text-black marker:text-xl  mt-5 space-y-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[16px] font-medium">
                     {list.map((useCase, index) => (
                       <li key={index} className="pb-2">
-                        <h4 className="inline 4xl:text-[22px] text-[18px] leading-tight font-bold">
+                        <h4 className="inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight font-bold">
                           {useCase.title}
                         </h4>{" "}
                         : {useCase.desc}
@@ -156,13 +156,13 @@ export default function Page() {
                   <p className="mt-4 4xl:pr-5 pr-10 xl:pr-0 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]">
                     {t("smartDesc1")}
                   </p>
-                  <h3 className="4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight mt-[30px] lg:mt-[49px] font-bold">
+                  <h3 className="4xl:text-[22px] xl:text-[19px] text-[18px] leading-tight mt-[30px] lg:mt-[49px] font-bold">
                     {t("application")}
                   </h3>
                   <ul className="list-none marker:text-black marker:text-xl mt-5 text-black space-y-5 4xl:text-[20px]  xl:text-[17px] text-[16px] font-medium">
                     {copilotList.map((useCase, index) => (
                       <li key={index} className="">
-                        <h4 className="inline font-bold 4xl:text-[22px] text-[18px] leading-tight">
+                        <h4 className="inline font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight">
                           {useCase.title}
                         </h4>
                         : {useCase.desc}
@@ -181,13 +181,13 @@ export default function Page() {
                   <p className="4xl:text-[20px] xl:text-[17px] text-[16px] mt-5">
                     {t("agentDescTwo")}
                   </p>
-                  <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px] mt-[30px] lg:mt-[49px] font-bold leading-tight">
+                  <h3 className="4xl:text-[22px] xl:text-[19px] text-[18px] mt-[30px] lg:mt-[49px] font-bold leading-tight">
                     {t("application")}
                   </h3>
                   <ul className="list-none marker:text-black marker:text-xl mt-5 space-y-5 text-black 4xl:text-[20px] xl:text-[17px] text-[16px] leading-tight font-medium">
                     {agentUseCases.map((useCase, index) => (
                       <li key={index} className="">
-                        <h4 className="inline font-bold 4xl:text-[22px] text-[18px] leading-tight">
+                        <h4 className="inline font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight">
                           {useCase.title}
                         </h4>
                         : {useCase.desc}
