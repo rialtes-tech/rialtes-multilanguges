@@ -313,7 +313,7 @@ const AITable = () => {
           </thead>
           <tbody>
             {data.map((row, idx) => (
-              <tr key={idx} className={`${row.color} border-t border-gray-200`}>
+              <tr key={idx} style={{ backgroundColor: row.color }} className="border-t border-gray-200">
                 <td className="p-3 pl-10 4xl:text-[20px] xl:text-[18px] text-[14px]">
                   {row.scenario}
                 </td>

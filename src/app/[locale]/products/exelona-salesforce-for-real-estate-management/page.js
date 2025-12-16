@@ -98,8 +98,8 @@ export default function Page() {
             {/* second section */}
             <section>
                 <div className="grid grid-cols-12 bg-[#134874] custom-container 4xl:pr-0 2xl:pr-0 xl:pr-0">
-                    <div className="xl:col-span-7 4xl:col-span-6 col-span-12 mt-10 4xl:pb-20 xl:pb-20 pb-10 4xl:pr-24 xl:pr-0 2xl:pr-0 pr-10">
-                        <p className="text-white font-light leading-tight">
+                    <div className="xl:col-span-7 4xl:col-span-6 col-span-12 mt-10 4xl:pb-20 xl:pb-20 pb-10 4xl:pr-24 xl:pr-0 2xl:pr-0 pr-0">
+                        <p className="text-white font-light leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">
                             {t('pageDesc')}
                         </p>
                     </div>
@@ -141,7 +141,7 @@ export default function Page() {
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 4xl:mt-32 xl:mt-20 mx-auto mt-20">
                         <div className="xl:col-span-12 col-span-12">
                             <h2 className="4xl:text-[60px] 2xl:text-[48px] text-[26px] xl:text-[40px] leading-tight">{t('yourDigitalTitle')}</h2>
-                            <p className="leading-tight mt-[17px] xl:mt-[28px] xl:w-[80%] 2xl:w-full">{t('yourDigitalDesc')}</p>
+                            <p className="leading-tight mt-[17px] xl:mt-[28px] xl:w-[80%] 2xl:w-full text-[16px] xl:text-[18px] 4xl:text-[20px]">{t('yourDigitalDesc')}</p>
                             <h3 className="4xl:text-[36px] xl:text-[30px] text-[18px] mt-[32px] xl:mt-[60px]">{t('yourDigitalSubTitle')}</h3>
                         </div>
                     </div>
@@ -159,7 +159,7 @@ export default function Page() {
                                 <h3 className="font-bold 4xl:text-[23px] mt-5 text-[18px] leading-tight">
                                     {feature.title}
                                 </h3>
-                                <p className="text-gray-200 leading-tight mt-6 lg:mt-8 4xl:w-[90%] min-[400px]:w-[80%] sm:w-full">{feature.desc}</p>
+                                <p className="text-gray-200 leading-tight mt-6 lg:mt-8 4xl:w-[90%] min-[400px]:w-[80%] sm:w-full text-[18px] 4xl:text-[23px]">{feature.desc}</p>
                             </div>
                         ))}
                     </div>
@@ -177,10 +177,10 @@ export default function Page() {
                         <h2 className="min-[400px]:w-[80%] sm:w-full 4xl:text-[60px] 2x:text-[40px] xl:text-[40px] md:text-[30px] font-light leading-tight text-white mt-20">
                             {t('assetMarketingTitle')}
                         </h2>
-                        <h3 className="mt-8 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] font-semibold text-white">
+                        <h3 className="mt-8 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px]  text-[22px] font-semibold text-white">
                             {t('assetMarketingSubTitle')}
                         </h3>
-                        <p className="mt-4 text-gray-200 leading-tight 4xl:w-[90%] min-[400px]:w-[90%] sm:w-full">
+                        <p className="mt-4 text-gray-200 leading-tight 4xl:w-[90%] min-[400px]:w-[90%] sm:w-full text-[16px] xl:text-[18px] 4xl:text-[20px]">
                             {t('assetMarketingDesc')}
                         </p>
                     </div>
@@ -216,7 +216,7 @@ export default function Page() {
                             <LearnMore btnName={t('learnMoreBtn')} bgcolor="#0A6BB8" bordercolor="#0A6BB8" hoverTextColor="black" />
                         </div>
                         <div>
-                            <p className={`bg-[#0A6BB8] text-white  md:py-[12px] md:px-[32px] py-[14px] px-[20px] md:mt-[23px] min-[400px]:w-[90%] sm:w-fit"
+                            <p className={`bg-[#0A6BB8] text-white  md:py-[12px] md:px-[32px] py-[14px] px-[20px] md:mt-[23px] min-[400px]:w-[90%] sm:w-fit text-[16px] xl:text-[18px] 4xl:text-[20px]"
                               ${locale === "es"
                                     ? "4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[18px]"
                                     : locale === "fr"
@@ -253,7 +253,7 @@ export default function Page() {
                         <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] text-black mb-2 leading-tight">
                             {t('aiEnabledDesc')}
                         </p>
-                        <p className="text-gray-700 mb-6 max-w-2xl mt-6">
+                        <p className="text-gray-700 mb-6 max-w-2xl mt-6 text-[16px] xl:text-[18px] 4xl:text-[20px]">
                             {t('aiEnabledDesc2')}
                         </p>
 
@@ -300,7 +300,7 @@ export default function Page() {
                 <section className="lg:pt-[170px] pt-[53px] lg:mt-[-80px] custom-container">
                     <>
                         <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] font-light leading-tight">{t('propertyTitle')}</h2>
-                        <h3 className="xl:mt-[36px] mt-[14px] 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] font-semibold leading-tight">{t('propertySubTitle')}</h3>
+                        <h3 className="xl:mt-[36px] mt-[14px] 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] text-[18px] font-semibold leading-tight">{t('propertySubTitle')}</h3>
                         <p className="xl:mt-[39px] mt-[16px]">{t('propertyDesc')}</p>
                     </>
                     <div className="grid lg:grid-cols-2 4xl:gap-[140px] xl:gap-[60px] gap-10 xl:mt-[68px] lg:mt-[30px]">
@@ -374,7 +374,7 @@ export default function Page() {
                         <h3 className="mt-8 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] text-[18px] font-semibold leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32 min-[400px]:w-[90%] sm:w-full">
                             {t('excelPersonaSubTitle')}
                         </h3>
-                        <p className="mt-8 4xl:text-[20px] text-base 4xl:pr-[28rem] 2xl:pr-[20rem] xl:pr-[13rem] pr-10">
+                        <p className="mt-8 text-base 4xl:pr-[28rem] 2xl:pr-[20rem] xl:pr-[13rem] pr-10 text-[16px] xl:text-[18px] 4xl:text-[20px]">
                             {t('excelPersonaDesc')}
                         </p>
 
@@ -435,10 +435,10 @@ export default function Page() {
                                 </span> <br /> {t('excelPayTitle2')}
                             </h2>
 
-                            <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] text-black mb-2 leading-tight 4xl:pr-[12rem]">
+                            <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] text-black mb-2 leading-tight 4xl:pr-[12rem] ">
                                 {t('excelPayDesc')}
                             </p>
-                            <p className="text-gray-700 mb-6 max-w-2xl mt-6">
+                            <p className="text-gray-700 mb-6 max-w-2xl mt-6 text-[16px] xl:text-[18px] 4xl:text-[20px]">
                                 {t('excelPayDesc2')}
                             </p>
 
@@ -509,7 +509,7 @@ export default function Page() {
                         <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] mb-2 leading-tight">
                             {t('agentChatDesc')}
                         </p>
-                        <p className="mb-6 mt-6 leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32">
+                        <p className="mb-6 mt-6 leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32 text-[16px] xl:text-[18px] 4xl:text-[20px]">
                             {t('agentChatDesc2')}
                         </p>
 
@@ -519,7 +519,7 @@ export default function Page() {
                                     return (
                                         <div key={ind}>
                                             <h3 className="font-bold mb-3 4xl:text-[22px] text-[18px]">{data.title}</h3>
-                                            <UnorderedList arrName={data.list} ulClassName="4xl:space-y-5 space-y-3 xl:space-y-3 4xl:text-[20px] text-[16px] list-outside list-disc xl:pb-16 2xl:pb-14 4xl:pb-0 pr-10 4xl:pl-[20px] 2xl:pl-[20px] xl:pl-[20px] pl-[15px]" liClassName="" />
+                                            <UnorderedList arrName={data.list} ulClassName="4xl:space-y-5 space-y-3 xl:space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] list-outside list-disc xl:pb-16 2xl:pb-14 4xl:pb-0 pr-10 4xl:pl-[20px] 2xl:pl-[20px] xl:pl-[20px] pl-[15px]" liClassName="" />
                                         </div>
                                     )
                                 })
@@ -559,7 +559,7 @@ export default function Page() {
                         </div>
 
                         <div className="xl:col-span-5 col-span-12 max-lg:mt-[23px]">
-                            <p className="text-lg leading-relaxed text-gray-200 4xl:w-[86%]">
+                            <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-relaxed text-gray-200 4xl:w-[86%]">
                                 {t('builtDesc')}
                             </p>
                         </div>
