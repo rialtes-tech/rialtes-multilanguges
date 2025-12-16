@@ -236,15 +236,18 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                         ↻
                                     </button>
                                 </div>
-
-                                <input
-                                    type="number"
-                                    value={userAnswer}
-                                    onChange={(e) => setUserAnswer(e.target.value)}
-                                    placeholder={t('enterCaptcha')}
-                                    className="border border-gray-400 px-3 py-2 rounded shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
-                                />
-
+                                
+                                 <input
+                        type="number"
+                        value={userAnswer}
+                        onChange={(e) => setUserAnswer(e.target.value)}
+                        placeholder="Enter Captcha"
+                        className="border border-gray-400 w-fit px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none
+             [appearance:textfield]
+             [&::-webkit-outer-spin-button]:appearance-none
+             [&::-webkit-inner-spin-button]:appearance-none"
+                        required
+                    />
                                 <button
                                     type="submit"
                                     name="submit"
