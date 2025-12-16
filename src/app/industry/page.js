@@ -229,9 +229,9 @@ export default function Industry() {
         <h3 className="lg:text-[30px] text-[20px] font-semibold leading-tight">{services.title}</h3>
       </div>
       <p className='lg:text-[20px] lg:leading-[30px] mt-[25px] mb-[33px]'>{services.description}</p>
-      <h5 className="text-[#0092E0] font-bold cursor-pointer mt-auto text-[20px]">
+      <p className="text-[#0092E0] font-bold cursor-pointer mt-auto 4xl:text-[20px] xl:text-[18px] text-[16px]">
         <Link href={services?.knowMore} aria-label={services.title}>Know More</Link>
-      </h5>
+      </p>
     </div>
   );
   const GrowServices = () => {

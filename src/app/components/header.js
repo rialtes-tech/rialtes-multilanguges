@@ -6,7 +6,7 @@ import { useRef, useState, useEffect } from "react";
 
 const MenuItem = ({ label, link, onHover, className, onClick, isActive }) => {
   return (
-    <Link href={link}>
+    <Link href={link ? link : ""}>
       <div
         onClick={onClick}
         onMouseEnter={onHover}
@@ -407,7 +407,6 @@ const Header = () => {
           <div className="col-span-9 md:col-span-10 lg:col-span-10 xl:col-span-10 overflow-x-auto whitespace-nowrap flex items-center justify-end gap-2 md:gap-3 lg:gap-5 xl:gap-6 2xl:gap-8">
             <MenuItem
               label="Solutions"
-              link="/"
               onHover={() => handleMouseEnterCard(1)}
               onClick={() => handleMenuClick(1)}
               className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}
@@ -416,7 +415,6 @@ const Header = () => {
             />
             <MenuItem
               label="Products"
-              link="/"
               onHover={() => handleMouseEnterCard(2)}
               onClick={() => handleMenuClick(2)}
               isActive={activeCard === 2}
@@ -426,7 +424,6 @@ const Header = () => {
             />
             <MenuItem
               label="Services"
-              link="/"
               onHover={() => handleMouseEnterCard(3)}
               onClick={() => handleMenuClick(3)}
               isActive={activeCard === 3}

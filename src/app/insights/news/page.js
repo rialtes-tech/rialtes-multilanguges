@@ -79,7 +79,7 @@ const CaseStudyCard = ({ casestudy }) => (
         </Link>
       </div>
       <Link href={casestudy.url}>
-        <p className="text-[#0092E0] font-bold mt-5 4xl:text-[30px] xl:text-[20px] text-[18px] leading-tight">Read More</p>
+        <p className="text-[#0092E0] font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">Read More</p>
       </Link>
     </div>
   </div>
