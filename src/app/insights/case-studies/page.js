@@ -33,7 +33,7 @@ const schemaData = {
 const latestCaseStudy = [
   {
     id: 16,
-    image: "/images/case-studies/automotive-tire-factory-production-line-feature-thumb.webp",
+    image: "/images/case-studies/automotive-tire-factory-production-line-thumbnail.webp",
     industry: "Automotive",
     date: "19 November 2025",
     url: "/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study/",
@@ -55,7 +55,7 @@ const latestCaseStudy = [
   },
   {
     id: 14,
-    image: "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
+    image: "/images/case-studies/AutoSense Warranty Management Modules_Case study thumb.webp",
     industry: "Automotive",
     date: "30 June 2025",
     url: "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
@@ -65,18 +65,17 @@ const latestCaseStudy = [
   },
   {
     id: 13,
-    image: "/images/case-studies/Adaptis_featured CS.webp",
+    image: "/images/case-studies/Adaptis_thumbnail.webp",
     industry: "Manufacturing",
     date: "10 June 2025",
     url: "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
     title: "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
     alt: "Display of roofing shingle samples in multiple colors arranged for product comparison",
     description: "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
-
   },
   {
     id: 12,
-    image: "/images/case-studies/revolutionary-filter.webp",
+    image: "/images/case-studies/revolutionary-thumbnail.webp",
     industry: "Automotive",
     date: "03 June 2025",
     url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
@@ -86,7 +85,7 @@ const latestCaseStudy = [
   },
   {
     id: 11,
-    image: "/images/case-studies/adaptis-for-carousel.webp",
+    image: "/images/case-studies/adaptis-for-web-thumbnail.webp",
     industry: "Manufacturing",
     date: "30 May 2025",
     url: "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/",
@@ -106,7 +105,7 @@ const latestCaseStudy = [
   },
   {
     id: 2,
-    image: "/images/case-studies/carosel.webp",
+    image: "/images/case-studies/streamline-sales-thumbnail.webp",
     industry: "Manufacturing",
     date: "26 Mar 2025",
     url: "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
@@ -483,7 +482,7 @@ const FeaturedCarousel = () => {
               </div>
               <div className="flex flex-col text-black basis-full group-hover:bg-[#F0F0F0] md:basis-2/3  md:py-4 lg:py-10 md:px-10 lg:px-16 p-6 ">
                 <div className='pb-[10px] md:pb-[15px] lg:pb-[20px] 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
-                  <span className='text-[#0092E0] '>{slide.category}</span> <span className='text-[#ACACAC] '>|</span> {slide.date}
+                  <span className='text-[#0092E0]'>{slide.industry}</span> <span className='text-[#ACACAC] '>|</span> {slide.date}
                 </div>
                 <Link href={slide.url}><h3 className="pb-[10px] md:pb-[15px] lg:pb-[20px] font-semibold leading-tight 4xl:text-[30px] xl:text-[25px] text-[20px] ">{slide.title}</h3></Link>
                 <p className="4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{slide.description}</p>
