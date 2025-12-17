@@ -75,7 +75,7 @@ const CaseStudyCard = ({ casestudy }) => (
           {casestudy.date}
         </div>
         <Link href={casestudy.url}>
-          <h4 className="mb-2 md:mb-4 md:font-semibold 4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight line-clamp-4">{casestudy.title}</h4>
+          <h4 className="mb-2 md:mb-4 md:font-semibold 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight line-clamp-4">{casestudy.title}</h4>
         </Link>
       </div>
       <Link href={casestudy.url}>

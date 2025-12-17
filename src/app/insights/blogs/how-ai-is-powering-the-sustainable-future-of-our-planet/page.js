@@ -177,7 +177,7 @@ export default function Page() {
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
-                        src="/images/blog/sustain-mobile.webp"
+                        src="/images/blog/sustain-thumb.webp"
                         alt="Floating green sustainable city with wind turbines, solar panels, and urban buildings representing renewable energy future"
                         fill
                         style={{ objectFit: "cover" }}

@@ -166,7 +166,7 @@ export default function Page() {
 
       {/* case study carousel */}
       <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
-        <RelatedCaseStudies url={currUrl}  currTopic="Manufacturing"/>
+        <RelatedCaseStudies url={currUrl} currTopic="Manufacturing" />
       </section>
 
     </div>

@@ -222,10 +222,8 @@ export default function page({ url }) {
 
     ];
     const filteredBlogs = latestBlogs.filter((elem) => {
-
         const blogSlug = elem.url.replace(/\/$/, "").split("/").pop();
         const currentSlug = url.replace(/\/$/, "");
-
         return blogSlug !== currentSlug;
     });
 
@@ -338,32 +336,35 @@ export default function page({ url }) {
                     customButtonGroup={<ButtonGroup />}
                     renderDotsOutside={true}
                     customDot={<CustomDot />}>
-                    {filteredBlogs.map((slide) => (
-                        <div key={slide.id} className="flex flex-col sm:basis-1/4 border border-gray-300 hover:border-white sm:mr-6 mb-4 sm:h-[580px] md:h-full h-full lg:h-[580px] xl:h-[550px] 4xl:h-[600px] group">
-
+                    {filteredBlogs.map((blog) => (
+                        <div key={blog.id} className="flex flex-col sm:basis-1/4 border border-gray-300 hover:border-white sm:mr-6 mb-4 sm:h-[580px] md:h-full h-full lg:h-[580px] xl:h-[580px] 4xl:h-[650px] group">
                             <div className="h-[260px] 4xl:h-[300px] max-h-[300px]">
-                                <Link href={'/insights/blogs' + slide.url}>
+                                <Link href={'/insights/blogs' + blog.url}>
                                     <Image
-                                        src={slide.image}
-                                        alt={slide.alt}
+                                        src={blog.image}
+                                        alt={blog.alt}
                                         width={0}
                                         height={0}
                                         sizes="100vw"
                                         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                                         priority
-                                        className="cursor-pointer"
                                     />
                                 </Link>
-                                <div className="inset-0 bg-[#0092E053] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
-                            <div className="flex flex-col text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
-                                <div className="flex flex-col">
-                                    <div className=" leading-tight text-[16px] 4xl:text-[17px]"><span className="text-[#0092E0]">{slide.category}</span> | {slide.date}</div>
-                                    <Link href={'/insights/blogs' + slide.url}><p className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.title}</p></Link>
+                            <div className="p-6 flex-grow flex flex-col transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+                                <div>
+                                    <div className='pb-2 md:pb-4 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>
+                                        <span className='text-[#0092E0]'>{blog.category}
+                                        </span>
+                                        <span className='text-[#ACACAC]'> | </span>
+                                        <span className={`${blog.category.length > 21 && "block mt-1"}`}>{blog.date}</span>
+                                    </div>
+                                    <Link href={'/insights/blogs' + blog.url}><h4 className="mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight">{blog.title}</h4></Link>
                                 </div>
-                                <p className="line-clamp-4 leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.description}</p>
+                                <div className="flex flex-col">
+                                    <p className='line-clamp-4 md:mb-4 mb-2 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>{blog.description}</p>
+                                </div>
                             </div>
-
                         </div>
                     ))}
                 </Carousel>
