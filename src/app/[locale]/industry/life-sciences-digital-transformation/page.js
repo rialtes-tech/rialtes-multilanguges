@@ -199,7 +199,7 @@ export default function page() {
                             </div>
                         </div>
                         <div className="absolute bottom-[-20px]">
-                            <LearnMore btnName={t('learnMoreBtn')} />
+                            <LearnMore btnName={t('learnMoreBtn')}   locale={locale}/>
                         </div>
                     </div>
                     {/* white extension for right side */}
@@ -237,7 +237,7 @@ export default function page() {
                                     {t('prebuiltTitle')}
                                 </h2>
                                 <div className="xl:mt-[77px] mt-[29px] md:block hidden">
-                                    <LearnMore btnName={t('learnMoreBtn')} />
+                                    <LearnMore btnName={t('learnMoreBtn')}  locale={locale}/>
                                 </div>
                             </div>
                             <div>
@@ -246,7 +246,7 @@ export default function page() {
                                 </h3>
                                 <UnorderedList arrName={prebuiltData} ulClassName="list-disc xl:mt-[37px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="xl:mt-[77px] mt-[29px] md:hidden block">
-                                    <LearnMore btnName={t('learnMoreBtn')} />
+                                    <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
                                 </div>
                             </div>
                         </div>
@@ -274,7 +274,7 @@ export default function page() {
                                         </h3>
                                         <UnorderedList arrName={data.dataList} ulClassName={`list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]`} liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                         <div className={`mt-[22px] xl:mt-[59px] ${(frActive || esActive) && ind === 0 ? "xl:mb-[40px]" : ""}`}>
-                                            <LearnMore btnName={t('learnMoreBtn')} />
+                                            <LearnMore btnName={t('learnMoreBtn')}  locale={locale}/>
                                         </div>
                                         <div className={`absolute z-20 max-md:w-full max-md:left-0 max-md:top-[100%] md:bottom-[-50px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px] max-[320px]:pb-[15px] ${(frActive || esActive) && ind === 0 ? "md:w-[90%]" : "md:w-[90%] lg:w-auto"}`}>
                                             <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight sm:w-full font-normal">
@@ -347,7 +347,7 @@ export default function page() {
                                         </h3>
                                         <UnorderedList arrName={data.dataList} ulClassName={`list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]`} liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                         <div className="mt-[22px] xl:mt-[59px]">
-                                            <LearnMore btnName={t('learnMoreBtn')} />
+                                            <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
                                         </div>
                                     </div>
                                 </div>
@@ -399,7 +399,7 @@ export default function page() {
                         </h3>
                         <UnorderedList arrName={seamlessData} ulClassName="list-disc xl:mt-[46px] mt-[28px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                         <div className="mt-[41px] xl:mt-[55px] xl:mb-[167px] lg:mb-[97px]">
-                            <LearnMore btnName={t('learnMoreBtn')} />
+                            <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
                         </div>
                     </div>
                 </div>
@@ -420,7 +420,7 @@ export default function page() {
                                         </h3>
                                         <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[32px] mt-[28px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                         <div className="mt-[22px] xl:mt-[59px]">
-                                            <LearnMore btnName={t('learnMoreBtn')} />
+                                            <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
                                         </div>
                                         <div className="absolute max-md:left-0 max-md:top-[100%] md:bottom-[-50px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
                                             <p className="xl:text-[22px] 4xl:text-[26px] text-[18px] leading-tight w-[90%] sm:w-full font-normal">
@@ -493,7 +493,7 @@ export default function page() {
                                         </h3>
                                         <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[82%]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
                                         <div className="mt-[22px] xl:mt-[59px]">
-                                            <LearnMore btnName={t('learnMoreBtn')} />
+                                            <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
                                         </div>
                                     </div>
                                 </div>
@@ -502,7 +502,7 @@ export default function page() {
                 }
             </section>
             {/* Contact Form */}
-            < div className="custom-container xl:mt-[167px] xl:mb-[104px] mt-[164px] mb-[45px]">
+            < div className="custom-container xl:mt-[167px] xl:mb-[104px] mt-[184px] mb-[45px]">
                 <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubTitle2')} className="sm:w-[66%] 2xl:w-[60%] 4xl:w-[80%] 4xl:text-[60px] xl:text-[40px] text-[26px]" />
             </div >
         </section >
