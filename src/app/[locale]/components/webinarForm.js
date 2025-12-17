@@ -151,7 +151,8 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                     name="first_name"
                                     placeholder={t('fname')}
                                     type="text"
-                                    className="w-full p-2 border rounded"
+                                    className="w-full p-2 border border-gray-400 placeholder-slate-800"
+                                    id="first_name"
                                 />
                                 {formErrors.first_name && (
                                     <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">
@@ -165,7 +166,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                     name="surname"
                                     placeholder={t('lname')}
                                     type="text"
-                                    className="w-full p-2 border rounded"
+                                    className="w-full p-2 border border-gray-400 placeholder-slate-800"
                                 />
                                 {formErrors.surname && (
                                     <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">
@@ -182,7 +183,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                     name="email"
                                     placeholder={t('email')}
                                     type="email"
-                                    className="w-full p-2 border rounded"
+                                    className="w-full p-2 border border-gray-400 placeholder-slate-800"
                                 />
                                 {formErrors.email && (
                                     <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-red-600 text-sm mt-1">
@@ -196,7 +197,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                     name="phone"
                                     placeholder={t('phone')}
                                     type="tel"
-                                    className="w-full p-2 border rounded"
+                                    className="w-full p-2 border border-gray-400 placeholder-slate-800"
                                 />
                             </div>
                         </div>
@@ -208,14 +209,14 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                                 placeholder={t('company')}
                                 type="text"
                                 required
-                                className="w-full p-2 border rounded"
+                                className="w-full p-2 border border-gray-400 placeholder-slate-800"
                             />
                             <input
                                 name="job_title"
                                 placeholder={t('role')}
                                 type="text"
                                 required
-                                className="w-full p-2 border rounded"
+                                className="w-full p-2 border border-gray-400 placeholder-slate-800"
                             />
                         </div>
 
@@ -245,7 +246,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
                         className="border border-gray-400 w-fit px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none
              [appearance:textfield]
              [&::-webkit-outer-spin-button]:appearance-none
-             [&::-webkit-inner-spin-button]:appearance-none"
+             [&::-webkit-inner-spin-button]:appearance-none placeholder-slate-800"
                         required
                     />
                                 <button
