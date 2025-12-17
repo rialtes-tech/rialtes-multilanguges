@@ -64,7 +64,7 @@ const allCategories = [
 const latestBlogs = [
   {
     "id": 63,
-    "image": "/images/blog/electric-vehicle-charging-energy-mobile.webp",
+    "image": "/images/blog/electric-vehicle-charging-energy-thumb.webp",
     "category": "Salesforce Automotive Cloud",
     "industry": "Automotive",
     "date": "Dec. 11, 2025",
@@ -75,7 +75,7 @@ const latestBlogs = [
   },
   {
     "id": 62,
-    "image": "/images/blog/digital-data-stream-mobile.webp",
+    "image": "/images/blog/digital-data-stream-thumb.webp", 
     "category": "Managed Services",
     "industry": "Generic",
     "date": "Dec. 05, 2025",
@@ -86,7 +86,7 @@ const latestBlogs = [
   },
   {
     "id": 61,
-    "image": "/images/blog/future-of-digital-healthcare-mobile.webp",
+    "image": "/images/blog/future-of-digital-healthcare-thumb.webp",
     "category": "MediAina",
     "industry": "Life Sciences",
     "date": "Dec. 04, 2025",
@@ -97,9 +97,9 @@ const latestBlogs = [
   },
   {
     "id": 60,
-    "image": "/images/blog/patient-consultation-genomics-mobile.webp",
+    "image": "/images/blog/patient-consultation-genomics-thumb.webp",
     "category": "MediAina",
-    "industry": "Life Sciences",
+    "industry": "Life Sciences", 
     "date": "Dec. 03, 2025",
     "url": "/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/",
     "title": "Why Clinical Trial Dropouts Happen — And How Digital Engagement Prevents Them",
@@ -119,7 +119,7 @@ const latestBlogs = [
   },
   {
     "id": 57,
-    "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp",
+    "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-thumb.webp",
     "category": "SAP SuccessFactor",
     "industry": "HRMS",
     "date": "Nov. 27, 2025",
@@ -130,7 +130,7 @@ const latestBlogs = [
   },
   {
     id: 58,
-    image: "/images/blog/digital-medical-hologram-feature-thumb.webp",
+    image: "/images/blog/digital-medical-hologram-thumb.webp",
     category: "MediAIna",
     industry: "Life Sciences",
     date: "Nov. 25, 2025",
@@ -141,10 +141,10 @@ const latestBlogs = [
   },
   {
     "id": 56,
-    "image": "/images/blog/digital-touchscreen-technology-mobile.webp",
+    "image": "/images/blog/digital-touchscreen-technology-thumb.webp",
     "category": "MediAIna",
     "industry": "Life Sciences",
-    "date": "Nov. 20, 2025",
+    "date": "Nov. 20, 2025", 
     "url": "/ai-in-clinical-trials-rare-disease-enrolment/",
     "alt": "Person interacting with digital touchscreen interface displaying AI and futuristic technology elements",
     "title": "5 Proven Ways AI Accelerates Patient Enrolment in Rare Disease Clinical Trials",
@@ -152,7 +152,7 @@ const latestBlogs = [
   },
   {
     id: 3,
-    image: "/images/blog/digital-brain-ai-circuit-technology-illustration-mobile.webp",
+    image: "/images/blog/digital-brain-ai-circuit-technology-illustration-thumb.webp",
     category: "Salesforce Agentforce",
     industry: "Generic",
     date: "Nov. 19, 2024",
@@ -163,7 +163,7 @@ const latestBlogs = [
   },
   {
     id: 55,
-    image: "/images/blog/digital-network-touch-data-connection-visualization-mobile.webp",
+    image: "/images/blog/digital-network-touch-data-connection-visualization-thumb.webp",
     category: "Integration",
     industry: "Generic",
     date: "Nov. 12, 2025",
@@ -174,7 +174,7 @@ const latestBlogs = [
   },
   {
     id: 54,
-    image: "/images/blog/futuristic-data-analytics-visualization-mobile.webp",
+    image: "/images/blog/futuristic-data-analytics-visualization-thumb.webp",
     category: "SAP Consulting",
     industry: "Generic",
     date: "Nov. 11, 2025",
@@ -185,7 +185,7 @@ const latestBlogs = [
   },
   {
     id: 53,
-    image: "/images/blog/digital-transformation-journey-ai-mobile.webp",
+    image: "/images/blog/digital-transformation-journey-ai-thumb.webp",
     category: "SAP Consulting",
     industry: "Generic",
     date: "Nov. 10, 2025",
@@ -196,7 +196,7 @@ const latestBlogs = [
   },
   {
     id: 52,
-    image: "/images/blog/exelona-cluster-feature-thumb.webp",
+    image: "/images/blog/exelona-cluster-blog-thumb.webp",
     category: "Exelona",
     industry: "Real Estate",
     date: "Nov. 04, 2025",
@@ -207,7 +207,7 @@ const latestBlogs = [
   },
   {
     id: 51,
-    image: "/images/blog/crm-erp-convergence-for-real-estate-mobile.webp",
+    image: "/images/blog/crm-erp-convergence-for-real-estate-thumb.webp",
     category: "Exelona",
     industry: "Real Estate",
     date: "Nov. 03, 2025",
@@ -218,7 +218,7 @@ const latestBlogs = [
   },
   {
     id: 50,
-    image: "/images/blog/digital-puzzle-technology-integration-thumb.webp",
+    image: "/images/blog/Exelona Cluster 2.2_blog thumb.webp",
     category: "Integration",
     industry: "Real Estate",
     date: "Oct. 31, 2025",
@@ -229,7 +229,7 @@ const latestBlogs = [
   },
   {
     "id": 49,
-    "image": "/images/blog/ai-sla-billing-efficiency-feature-carousel.webp",
+    "image": "/images/blog/Exelona Cluster 1.2_blog thumb.webp",
     "category": "Exelona",
     "industry": "Real Estate",
     "date": "Oct. 27, 2025",
@@ -240,7 +240,7 @@ const latestBlogs = [
   },
   {
     id: 48,
-    image: "/images/blog/conversational-ai-in-real-estate-mobile.webp",
+    image: "/images/blog/conversational-ai-in-real-estate-thumb.webp",
     category: "Exelona",
     industry: "Real Estate",
     date: "Oct. 20, 2025",
@@ -251,7 +251,7 @@ const latestBlogs = [
   },
   {
     id: 47,
-    image: "/images/blog/ai-property-operations-predictive-maintenance-mobile.webp",
+    image: "/images/blog/ai-property-operations-predictive-maintenance-thumb.webp",
     category: "Exelona",
     industry: "Real Estate",
     date: "Oct. 13, 2025",
@@ -262,7 +262,7 @@ const latestBlogs = [
   },
   {
     id: 46,
-    image: "/images/blog/Salesforce Consulting Cluster 1.1_Blog feature thumb.webp",
+    image: "/images/blog/Salesforce Consulting Cluster 1.1_blog thumb.webp",
     category: "Salesforce Consulting",
     industry: "Generic",
     date: "Oct. 10, 2025",
@@ -273,7 +273,7 @@ const latestBlogs = [
   },
   {
     id: 45,
-    image: "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp",
+    image: "/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-thumb.webp",
     category: "MediAIna",
     industry: "Life Sciences",
     date: "Oct. 07, 2025",
@@ -284,7 +284,7 @@ const latestBlogs = [
   },
   {
     id: 44,
-    image: "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
+    image: "/images/blog/salesforce-consulting-cluster-thumb.webp",
     category: "Life Sciences",
     industry: "Generic",
     date: "Oct. 06, 2025",
@@ -295,7 +295,7 @@ const latestBlogs = [
   },
   {
     id: 43,
-    image: "/images/blog/digital-patient-journeys-mobile.webp",
+    image: "/images/blog/digital-patient-journeys-thumb.webp",
     category: "MediAIna",
     industry: "Life Sciences",
     date: "Sep. 30, 2025",
@@ -306,7 +306,7 @@ const latestBlogs = [
   },
   {
     id: 42,
-    image: "/images/blog/salesforce-implementation-partners-strategies-mobile.webp",
+    image: "/images/blog/salesforce-implementation-partners-strategies-thumb.webp",
     category: "Salesforce Consulting",
     industry: "Generic",
     date: "Sep. 29, 2025",
@@ -317,7 +317,7 @@ const latestBlogs = [
   },
   {
     id: 41,
-    image: "/images/blog/connected-care-ecosystem-feature.webp",
+    image: "/images/blog/connected-care-ecosystem-thumb.webp",
     category: "MediAIna",
     industry: "Life Sciences",
     date: "Sep. 18, 2025",
@@ -328,7 +328,7 @@ const latestBlogs = [
   },
   {
     id: 40,
-    image: "/images/blog/ai-agents-in-manufacturing-mobile.webp",
+    image: "/images/blog/ai-agents-in-manufacturing-thumb.webp",
     category: "Agentic AI",
     industry: "Manufacturing",
     date: "Sep. 17, 2025",
@@ -339,7 +339,7 @@ const latestBlogs = [
   },
   {
     id: 39,
-    image: "/images/blog/sap-industry-mobile-banner.webp",
+    image: "/images/blog/sap-industry-thumb.webp",
     category: "SAP Consulting",
     industry: "Manufacturing",
     date: "Sep. 16, 2025",
@@ -350,7 +350,7 @@ const latestBlogs = [
   },
   {
     id: 38,
-    image: "/images/blog/agentforce-ai-erp-mobile.webp",
+    image: "/images/blog/agentforce-ai-erp-thumb.webp",
     category: "Salesforce Agentforce",
     industry: "Generic",
     date: "Sep. 15, 2025",
@@ -361,7 +361,7 @@ const latestBlogs = [
   },
   {
     id: 37,
-    image: "/images/blog/data-cloud-ecom-mobile-banner.webp",
+    image: "/images/blog/data-cloud-ecom-thumb.webp",
     category: "Salesforce Data Cloud",
     industry: "Retail",
     date: "Sep. 12, 2025",
@@ -372,7 +372,7 @@ const latestBlogs = [
   },
   {
     id: 36,
-    image: "/images/blog/ai-that-listens-mob-banner.webp",
+    image: "/images/blog/ai-that-listens-thumbnail.webp",
     category: "Agentic AI",
     industry: "Generic",
     date: "Sep. 11, 2025",
@@ -383,7 +383,7 @@ const latestBlogs = [
   },
   {
     id: 35,
-    image: "/images/blog/ai-in-patient-mobile-banner.webp",
+    image: "/images/blog/ai-in-patient-thumb.webp",
     category: "Salesforce Agentforce",
     industry: "Healthcare",
     date: "Sep. 09, 2025",
@@ -394,7 +394,7 @@ const latestBlogs = [
   },
   {
     id: 34,
-    image: "/images/blog/industry4-mobile-banner.webp",
+    image: "/images/blog/how-agentforce-ai-predicts-thumb.webp",
     category: "Salesforce Agentforce",
     industry: "Manufacturing",
     date: "Sep. 08, 2025",
@@ -405,7 +405,7 @@ const latestBlogs = [
   },
   {
     id: 33,
-    image: "/images/blog/first-ai-agent-mob-banner.webp",
+    image: "/images/blog/first-ai-agent-thumbnail.webp",
     category: "Salesforce Agentforce",
     industry: "Generic",
     date: "Sep. 02, 2025",
@@ -416,7 +416,7 @@ const latestBlogs = [
   },
   {
     id: 32,
-    image: "/images/blog/byond-robotics-mobile-banner.webp",
+    image: "/images/blog/byond-robotics-thumb.webp",
     category: "Agentic AI",
     industry: "Manufacturing",
     date: "Sep. 01, 2025",
@@ -427,7 +427,7 @@ const latestBlogs = [
   },
   {
     id: 30,
-    image: "/images/blog/sap-cpi-feature-thumb.webp",
+    image: "/images/blog/sap-cpi-thumb.webp",
     category: "SAP CPI",
     industry: "Generic",
     date: "Aug. 26, 2025",
@@ -461,7 +461,7 @@ const latestBlogs = [
 
   {
     id: 26,
-    image: "/images/blog/sustain-small-slider.webp",
+    image: "/images/blog/sustain-thumb.webp",
     category: "Agentic AI",
     industry: "Generic",
     date: "Aug. 21, 2025",
@@ -505,7 +505,7 @@ const latestBlogs = [
   },
   {
     id: 22,
-    image: "/images/blog/agentexchange-Blog-feature-thumb.webp",
+    image: "/images/blog/agentexchange-Blog-thumb.webp",
     category: "Salesforce Agentforce",
     industry: "Generic",
     date: "Jul. 02, 2025",
@@ -516,7 +516,7 @@ const latestBlogs = [
   },
   {
     id: 21,
-    image: "/images/blog/Pharma Jewel of North India_Blog feature thumb.webp",
+    image: "/images/blog/Pharma Jewel of North India_blog thumb.webp",
     category: "Others",
     industry: "Pharma & Biotech",
     date: "Jul. 01, 2025",
@@ -527,7 +527,7 @@ const latestBlogs = [
   },
   {
     id: 20,
-    image: "/images/blog/signavio-blog-feature-thumb.webp",
+    image: "/images/blog/SAP Signavio_blog thumb.webp",
     category: "SAP Signavio",
     industry: "Generic",
     date: "Jun. 16, 2025",
@@ -538,7 +538,7 @@ const latestBlogs = [
   },
   {
     id: 19,
-    image: "/images/blog/Agentic Pharma_Blog feature thumb.webp",
+    image: "/images/blog/agentic-pharma-thumb.webp",
     category: "Agentic AI",
     industry: "Pharma & Biotech",
     date: "May 30, 2025",
@@ -550,7 +550,7 @@ const latestBlogs = [
 
   {
     id: 18,
-    image: "/images/blog/sap-ariba-for-carousel.webp",
+    image: "/images/blog/sap-ariba-thumb.webp",
     category: "SAP Ariba",
     industry: "Generic",
     date: "May 29, 2025",
@@ -561,7 +561,7 @@ const latestBlogs = [
   },
   {
     id: 17,
-    image: "/images/blog/successfactor-for-carousel.webp",
+    image: "/images/blog/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations-thumb.webp",
     category: "Integration",
     industry: "HRMS",
     date: "May 28, 2025",
@@ -572,7 +572,7 @@ const latestBlogs = [
   },
   {
     id: 16,
-    image: "/images/blog/jcarosel.webp",
+    image: "/images/blog/jthumb.webp",
     category: "SAP Joule",
     industry: "Generic",
     date: "Apr. 25, 2025",
@@ -583,7 +583,7 @@ const latestBlogs = [
   },
   {
     id: 15,
-    image: "/images/blog/SAP Business cloud_Carousal.webp",
+    image: "/images/blog/SAP Business cloud_Blog thumb.webp",
     category: "SAP BDC",
     industry: "Generic",
     date: "Apr. 22, 2025",
@@ -594,7 +594,7 @@ const latestBlogs = [
   },
   {
     id: 31,
-    image: "/images/blog/sap-signavio-sap-cloud-mobile.webp",
+    image: "/images/blog/sap-signavio-sap-cloud-thumb.webp",
     category: "SAP Signavio",
     industry: "Generic",
     date: "Mar. 25, 2025",
@@ -627,7 +627,7 @@ const latestBlogs = [
   },
   {
     id: 12,
-    image: "/images/blog/blog-12.webp",
+    image: "/images/blog/how-agentforce-agents-scale-erp-systems-thumb.webp",
     category: "Salesforce Agentforce",
     industry: "Generic",
     date: "Jan. 13, 2025",
@@ -649,8 +649,8 @@ const latestBlogs = [
   },
   {
     id: 10,
-    image: "/images/blog/blog-5.webp",
-    category: "SAP SuccessFactors",
+    image: "/images/blog/sap-successfactors-office-365-thumb.webp",
+    category: "SAP SuccessFactors", 
     industry: "HRMS",
     date: "Dec. 24, 2024",
     url: '/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/',
