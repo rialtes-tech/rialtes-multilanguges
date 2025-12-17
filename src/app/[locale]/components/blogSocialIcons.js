@@ -8,7 +8,7 @@ export default function page({ fullUrl, topic, date }) {
                 <div>
                     <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{topic}</span>{" "}
                     <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>
-                    <span className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{date}</span>
+                    <span className={`4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ${topic.length > 17 && "max-sm:block max-sm:mt-2"}`}>{date}</span>
                 </div>
 
                 <div>
