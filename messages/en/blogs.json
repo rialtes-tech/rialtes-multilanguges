@@ -2778,7 +2778,7 @@
                 "criticality": "Low",
                 "tool": "Bot",
                 "justification": "Follows clear rules. No decision-making needed—just fast, repeatable actions.",
-                "color": "bg-[#E8F7FF]"
+                "color": "#E8F7FF"
             },
             {
                 "scenario": "Sales Proposal Generation",
@@ -2786,7 +2786,7 @@
                 "criticality": "Medium",
                 "tool": "Copilot",
                 "justification": "Assists humans by pulling data, suggesting content, and reducing manual effort.",
-                "color": "bg-[#EBE3FF]"
+                "color": "#EBE3FF"
             },
             {
                 "scenario": "Demand Forecasting",
@@ -2794,7 +2794,7 @@
                 "criticality": "High",
                 "tool": "AI Agent",
                 "justification": "Needs predictive modeling and autonomous logic across systems.",
-                "color": "bg-[#FFF1E5]"
+                "color": "#FFF1E5"
             },
             {
                 "scenario": "Customer FAQ Handling",
@@ -2802,7 +2802,7 @@
                 "criticality": "Low",
                 "tool": "Bot",
                 "justification": "Standard questions and responses. Scripted conversations work well here.",
-                "color": "bg-[#E8F7FF]"
+                "color": "#E8F7FF"
             },
             {
                 "scenario": "Product Quote Configuration",
@@ -2810,7 +2810,7 @@
                 "criticality": "Medium",
                 "tool": "Copilot",
                 "justification": "Navigates pricing logic and product rules. Supports human-led decision-making.",
-                "color": "bg-[#ECE3FF]"
+                "color": "#ECE3FF"
             },
             {
                 "scenario": "Support Ticket Resolution",
@@ -2818,7 +2818,7 @@
                 "criticality": "High",
                 "tool": "AI Agent",
                 "justification": "Prioritizes issues, acts across systems, and learns from resolution history.",
-                "color": "bg-[#FFF1E5]"
+                "color": "#FFF1E5"
             },
             {
                 "scenario": "Production Planning",
@@ -2826,7 +2826,7 @@
                 "criticality": "High",
                 "tool": "AI Agent",
                 "justification": "Balances constraints, adapts plans, and automates complex workflows.",
-                "color": "bg-[#E8F7FF]"
+                "color": "#E8F7FF"
             },
             {
                 "scenario": "Document Upload Help",
@@ -2834,7 +2834,7 @@
                 "criticality": "Low",
                 "tool": "Bot",
                 "justification": "Minimal logic. Task is straightforward and doesn’t require user context.",
-                "color": "bg-[#ECE3FF]"
+                "color": "#ECE3FF"
             },
             {
                 "scenario": "Sales Training Guidance",
@@ -2842,7 +2842,7 @@
                 "criticality": "Low",
                 "tool": "Copilot",
                 "justification": "Offers real-time nudges, links to documentation, and suggestions while selling.",
-                "color": "bg-[#FFF1E5]"
+                "color": "#FFF1E5"
             }
         ]
     },

@@ -171,13 +171,13 @@ export default function Page() {
                                         <div className="grid xl:grid-cols-2 grid-cols-1 mt-[31px] xl:mt-[63px] xl:gap-[40px] xl:pr-[110px] 4xl:pr-[160px] gap-y-[36px] max-xl:mb-[36px] 4xl:w-[96%]">
                                             <div>
                                                 <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">
-                                                    Benefits
+                                                    {t('benefitsTitle')}
                                                 </h3>
                                                 <UnorderedList arrName={data.benefitList} ulClassName="list-disc pl-5 space-y-[14px] xl:space-y-[18px] 4xl:text-[20px] xl:text-[18px] text-[16px] mt-[12px] xl:mt-[19px]" liClassName="" />
                                             </div>
                                             <div>
                                                 <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">
-                                                    Outcomes
+                                                    {t('OutcomesTitle')}
                                                 </h3>
                                                 <UnorderedList arrName={data.outcomeList} ulClassName="list-disc pl-5 space-y-[14px] xl:space-y-[18px] 4xl:text-[20px] xl:text-[18px] text-[16px] mt-[12px] xl:mt-[19px]" liClassName="" />
                                             </div>
@@ -263,7 +263,7 @@ xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px]
                                         <div className="grid xl:grid-cols-2 grid-cols-1 mt-[31px] xl:mt-[63px] xl:gap-[40px] gap-y-[36px] max-xl:mb-[36px] 4xl:w-[90%]">
                                             <div>
                                                 <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">
-                                                    Benefits
+                                                   {t('benefitsTitle')}
                                                 </h3>
                                                 <UnorderedList
                                                     arrName={data.benefitList}
@@ -273,7 +273,7 @@ xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px]
                                             </div>
                                             <div>
                                                 <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">
-                                                    Outcomes
+                                                    {t('OutcomesTitle')}
                                                 </h3>
                                                 <UnorderedList
                                                     arrName={data.outcomeList}
@@ -296,7 +296,7 @@ xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px]
             }
 
 
-            <section className="custom-container text-black py-16 mt-10 max-md:mt-0">
+            <section className="custom-container text-black py-10 mt-10 max-md:mt-0">
                 <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={"leading-tight max-w-[76%] 4xl:text-[60px] xl:text-[40px]"} />
             </section>
         </div >
