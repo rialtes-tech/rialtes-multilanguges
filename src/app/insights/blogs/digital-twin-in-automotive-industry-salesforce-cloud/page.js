@@ -275,7 +275,7 @@ export default function Page() {
                             <div>
                                 <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Salesforce Automotive Cloud</span>{" "}
                                 <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>
-                                <span className="max-sm:block mt-2">11 December 2025</span>
+                                <span className="max-sm:block max-sm:mt-2">11 December 2025</span>
                             </div>
 
                             <div>

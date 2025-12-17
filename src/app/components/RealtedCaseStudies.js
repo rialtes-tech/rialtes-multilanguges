@@ -93,7 +93,6 @@ export default function page({ url, currTopic }) {
             description: "The company is a leading manufacturer specializing in customized water treatment equipment. Each product is uniquely designed based on specific customer requirements, meaning no two products are alike. ",
         },
         {
-
             id: 3,
             image: "/images/case-studies/case study 3_thumb_n.webp",
             industry: "Manufacturing",
