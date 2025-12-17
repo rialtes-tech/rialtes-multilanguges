@@ -65,18 +65,17 @@ const latestCaseStudy = [
   },
   {
     id: 13,
-    image: "/images/case-studies/Adaptis_featured CS.webp",
+    image: "/images/case-studies/Adaptis_thumbnail.webp",
     industry: "Manufacturing",
     date: "10 June 2025",
     url: "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
     title: "40% Enhanced Adoption of Warranty Application Using Salesforce Experience Cloud Capability",
     alt: "Display of roofing shingle samples in multiple colors arranged for product comparison",
     description: "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer.",
-
   },
   {
     id: 12,
-    image: "/images/case-studies/revolutionary-filter.webp",
+    image: "/images/case-studies/revolutionary-thumbnail.webp",
     industry: "Automotive",
     date: "03 June 2025",
     url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
@@ -86,7 +85,7 @@ const latestCaseStudy = [
   },
   {
     id: 11,
-    image: "/images/case-studies/adaptis-for-carousel.webp",
+    image: "/images/case-studies/adaptis-for-web-thumbnail.webp",
     industry: "Manufacturing",
     date: "30 May 2025",
     url: "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/",
@@ -106,7 +105,7 @@ const latestCaseStudy = [
   },
   {
     id: 2,
-    image: "/images/case-studies/carosel.webp",
+    image: "/images/case-studies/streamline-sales-thumbnail.webp",
     industry: "Manufacturing",
     date: "26 Mar 2025",
     url: "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
