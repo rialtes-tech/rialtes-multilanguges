@@ -10,9 +10,86 @@ import UnorderedList from "@/app/components/unorderedList";
 
 
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/partner-salesforce-right-way-for-growth";
     const currUrl = useUrl()
-
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Why Choosing the Right Salesforce Partner Matters | Rialtes",
+        "description": "This blog breaks down what makes Salesforce partnerships successful, how they drive enterprise growth, and how the best partners deliver measurable value.",
+        "image": "https://www.rialtes.com/images/blogs/cloud-computing-digital-storage.webp",
+        "author": {
+            "@type": "Organization",
+            "name": "Rialtes"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Rialtes",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.rialtes.com/images/homepage/logo.svg"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.rialtes.com/insights/blogs/partner-salesforce-right-way-for-growth/"
+        },
+        "datePublished": "2025-12-18",
+        "mainEntity": {
+            "@type": "FAQPage",
+            "name": "FAQs: Choose the Right Salesforce Partner",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What does it mean to partner with Salesforce consulting companies?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "It means working with certified experts who help you design, implement, integrate, and optimize Salesforce based on your enterprise goals."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Who are the leading Salesforce partner companies today?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The leading partners are those with strong certifications, proven industry experience, multi-cloud capabilities, and a clear track record of delivering enterprise outcomes."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do Salesforce partners deliver long-term value?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "They align CRM with strategy, build scalable architectures, manage integrations, drive adoption, and offer ongoing optimization for continuous growth."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the benefits of collaborating with a trusted Salesforce partner?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "You gain a reliable team that improves processes, enhances customer experience, streamlines workflows, and ensures your Salesforce environment evolves as your business grows."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How can a Salesforce integration partner improve enterprise ROI?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "By unifying systems, eliminating data silos, increasing automation, and enabling real-time insights, all of which reduce costs and improve performance."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Why should enterprises choose Rialtes as their Salesforce partner?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Because Rialtes blends strategy, technical strength, integration expertise, and long-term commitment to help enterprises unlock the full value of Salesforce."
+                    }
+                }
+            ]
+        }
+    }
     const mainData = [
         "When an enterprise chooses to partner with Salesforce, the goal isn’t just implementation. It’s a long-term transformation. Strong partnerships with the right Salesforce partner companies can simplify complex processes, integrate disconnected systems, and unlock the true potential of the platform across every team.",
         "But here’s the thing: value doesn’t come from the platform alone. It comes from the collaboration between your business and the partner you choose. The right relationship turns Salesforce into a strategic engine — not another software license you’re trying to make sense of.",
@@ -57,7 +134,7 @@ export default function Page() {
             ],
             "desc2": [
                 "Your success depends on how well they understand your business model, challenges, workflows, and goals.",
-                "This is where trusted Salesforce partners is important. They bring clarity to complex transformation projects and make sure your CRM strategy actually delivers business outcomes"
+                "This is where trusted Salesforce consulting strategies are important. They bring clarity to complex transformation projects and make sure your CRM strategy actually delivers business outcomes"
             ]
         }
     ]
@@ -83,7 +160,7 @@ export default function Page() {
                 },
                 {
                     "title": "Strategic Thinking",
-                    "desc": "This is the core of an ideal Salesforce consulting company for enterprises — a partner who understands growth levers, not just configurations."
+                    "desc": "This is the core of an <span>ideal Salesforce consulting company</span> for enterprises — a partner who understands growth levers, not just configurations."
                 }
             ]
         }
@@ -120,7 +197,7 @@ export default function Page() {
                         "Future-ready integrations ",
                         "Cloud expansion readiness"
                     ],
-                    "desc2": "These are the foundations of enterprise ROI with Salesforce integration partners"
+                    "desc2": "These are the foundations of <span>enterprise ROI with Salesforce integration partners</span>"
                 },
                 {
                     "title": "They make integrations work smoothly",
@@ -238,22 +315,38 @@ export default function Page() {
         {
             "title": "The True Benefit of Partnering with Salesforce: Shared Vision and Trusted Execution",
             "desc": [
-                "When you choose the right partner, Salesforce stops being a tool and starts becoming a competitive advantage. The relationship becomes more than technical support — it becomes a driver of alignment, innovation, and acceleration.",
+                "When you choose the right Salesforce partner, Salesforce stops being just a platform and starts becoming a competitive advantage. The relationship moves beyond technical delivery into a strategic partnership built on shared goals, measurable outcomes, and long-term business impact.",
+                "A true Salesforce partnership begins with a shared vision that aligns business objectives, KPIs, and transformation priorities upfront and succeeds through trusted execution, driven by accountability, governance, and continuous optimization. This combination is what turns strategy into results.We break this down clearly in our <span>Salesforce consulting playbook</span>.",
                 "A trusted Salesforce partner brings:"
             ],
             "list": [
-                "Confidence in your digital roadmap ",
-                "Efficiency across workflows ",
-                "Intelligence across decision-making ",
-                "Integration across systems ",
-                "Growth across every function"
+                {
+                    "title": "Confidence in your digital roadmap ",
+                    "desc": "Clear alignment between business goals and Salesforce capabilities ensures every initiative supports long-term growth."
+                },
+                {
+                    "title": "Efficiency across workflows ",
+                    "desc": "Streamlined processes that reduce friction, eliminate manual work, and improve cross-team productivity."
+                },
+                {
+                    "title": "Intelligence across decision-making ",
+                    "desc": "Unified, reliable data that enables faster, smarter, and more confident business decisions."
+                },
+                {
+                    "title": "Integration across systems",
+                    "desc": "Seamless connectivity between Salesforce, ERP, legacy platforms, and third-party tools, creating a single source of truth."
+                },
+                {
+                    "title": "Growth across every function ",
+                    "desc": "Sales, service, marketing, operations, and leadership all benefit from scalable, outcome-driven execution."
+                }
             ],
             "desc2": "This is the difference between “using Salesforce” and getting value from Salesforce"
         }
     ]
     const whyRialtesData = [
         {
-            "title": "Why Rialtes Is the Partner Enterprises Trust",
+            "title": "Why Rialtes Is a Trusted Salesforce Partner Company",
             "desc": [
                 "Rialtes combines strategic clarity and deep Salesforce expertise with industry-specific insights across manufacturing, retail, real estate, healthcare, education, and financial services.",
                 "Enterprises trust us because we deliver:"
@@ -275,26 +368,26 @@ export default function Page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="AI in Clinical Trials: Solving Rare Disease Enrolment | Rialtes"
-                description="AI in clinical trials transforms rare disease enrolment through automated recruitment, digital-first workflows, and personalized patient engagement at scale."
+                title=" Why Choosing the Right Salesforce Partner Matters | Rialtes"
+                description="This blog breaks down what makes Salesforce partnerships successful, how they drive enterprise growth, and how the best partners deliver measurable value."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/"
+                    "https://www.rialtes.com/insights/blogs/partner-salesforce-right-way-for-growth/"
                 }
             />
 
-            {/* <Script
-                id="schema-clinical"
+            <Script
+                id="schema-cluster"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-            /> */}
+            />
 
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/cloud-computing-digital-storage.webp"
-                        alt="Hand holding a smartphone with a glowing cloud icon representing cloud computing and data storage."
+                        alt="Hand holding a smartphone with a glowing cloud icon representing cloud computing and data storage"
                         fill
                         priority
                     />
@@ -302,7 +395,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/cloud-computing-digital-storage-mobile.webp"
-                        alt="Hand holding a smartphone with a glowing cloud icon representing cloud computing and data storage."
+                        alt="Hand holding a smartphone with a glowing cloud icon representing cloud computing and data storage"
                         priority
                         height={0}
                         width={0}
@@ -318,8 +411,8 @@ export default function Page() {
                         {/* date and icons */}
                         <div className="sm:flex justify-between">
                             <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">MediAIna</span>{" "}
-                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>20 November 2025
+                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Salesforce Consulting</span>{" "}
+                                <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>18 December 2025
                             </div>
 
                             <div>
@@ -431,7 +524,7 @@ export default function Page() {
                                                             </div>
 
                                                             <div>
-                                                                <p className={`font-bold text-[16px] md:text-[18px] xl:text-[20px]`} dangerouslySetInnerHTML={{ __html: elem.title }} />
+                                                                <h3 className={`font-bold text-[18px] md:text-[19px] xl:text-[19px] 4xl:text-[22px]`} dangerouslySetInnerHTML={{ __html: elem.title }} />
                                                             </div>
 
                                                             <div className="flex-1 border-t border-[#707070] md:block hidden"></div>
@@ -445,7 +538,12 @@ export default function Page() {
                                                             className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                             dangerouslySetInnerHTML={{ __html: elem.desc2 }}
                                                         />
-                                                        <UnorderedList arrName={elem.listData} ulClassName="mt-5 space-y-1 pl-[26px] lg:pl-[46px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-disc" />
+
+                                                        <ul className={`mt-5 space-y-1 pl-[26px] lg:pl-[46px] list-disc`}>
+                                                            {elem.listData.map((data, idx) => (
+                                                                <li key={idx}><h4 className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium">{data}</h4></li>
+                                                            ))}
+                                                        </ul>
                                                         <p
                                                             className="mt-8 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                             dangerouslySetInnerHTML={{ __html: elem.desc3 }}
@@ -462,7 +560,17 @@ export default function Page() {
                                         <div className="md:mt-[50px] mt-[40px]" key={ind}>
                                             <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                             <UnorderedList arrName={data.desc} ulClassName="mt-5 space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
-                                            <UnorderedList arrName={data.list} ulClassName="mt-5 space-y-1 pl-[26px] lg:pl-[46px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-disc" />
+
+                                            <ul className={`mt-5 space-y-8 pl-[26px] lg:pl-[36px] list-disc`}>
+                                                {data.list.map((elem, idx) => (
+                                                    <div key={idx}>
+                                                        <li><h3 className="4xl:text-[24px] 2xl:text-[21px] text-[20px] font-bold">{elem.title}</h3></li>
+                                                        <p className="mt-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                            dangerouslySetInnerHTML={{ __html: elem.desc }}
+                                                        />
+                                                    </div>
+                                                ))}
+                                            </ul>
                                             <p className="mt-8 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                 dangerouslySetInnerHTML={{ __html: data.desc2 }}
                                             />
@@ -476,7 +584,11 @@ export default function Page() {
                                         <div className="md:mt-[50px] mt-[40px]" key={ind}>
                                             <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                             <UnorderedList arrName={data.desc} ulClassName="mt-5 space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
-                                            <UnorderedList arrName={data.list} ulClassName="mt-5 space-y-1 pl-[26px] lg:pl-[46px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-disc" />
+                                            <ul className={`mt-5 space-y-1 pl-[26px] lg:pl-[46px] list-disc`}>
+                                                {data.list.map((data, idx) => (
+                                                    <li key={idx}><h3 className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium">{data}</h3></li>
+                                                ))}
+                                            </ul>
                                             <UnorderedList arrName={data.desc2} ulClassName="mt-5 space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
                                         </div>
                                     ))
