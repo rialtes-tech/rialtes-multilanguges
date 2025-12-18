@@ -17,7 +17,7 @@ export default function Page() {
   const t = useTranslations('successfactorSupportsDiversity')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { overcomingData,schemaData } = blogsContent.successfactorSupportsDiversity;
+  const { overcomingData, schemaData } = blogsContent.successfactorSupportsDiversity;
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-sap-successfactors-supports-diversity-equity-and-inclusion-initiatives";
 
   return (
@@ -83,7 +83,7 @@ export default function Page() {
                       <div key={ind}>
                         <h3 className="mt-[29px] xl:mt-[30px] text-[20px] md:text-[20px] 2xl:text-[21px] xl:text-[20px] 4xl:text-[24px] leading-tight font-bold">{data.title}</h3>
                         <p className="mt-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc && data.desc}</p>
-                        <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc2}{" "}{data.link && <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.sap.com/products/hcm/corporate-lms/what-is-lms.html"}><span>{data.link}</span></Link>}{" "}{data.desc3 && data.desc3}</p>
+                        <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc2}{" "}{data.link && <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={`https://www.sap.com/products/hcm/corporate-lms/what-is-lms.html`}><span>{data.link}</span></Link>}{" "}{data.desc3 && data.desc3}</p>
                         {data.desc4 && <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc4}</p>}
                       </div>
                     )
@@ -95,7 +95,7 @@ export default function Page() {
               <div className="md:mt-[50px] mt-[40px]">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('hrSystemTitle')}</h2>
                 <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('hrSystemDesc')}</p>
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('hrSystemDesc2')}{" "}<Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=organic"}><span>{t('hrSystemLink')}</span></Link>{" "} {t('hrSystemDesc3')} <Link className="underline" href={"mailto:sales@rialtes.com"}><span>sales@rialtes.com</span></Link>.</p>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('hrSystemDesc2')}{" "}<Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={`https://www.rialtes.com/${locale}/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=organic`}><span>{t('hrSystemLink')}</span></Link>{" "} {t('hrSystemDesc3')} <Link className="underline" href={"mailto:sales@rialtes.com"}><span>sales@rialtes.com</span></Link>.</p>
               </div>
             </div>
           </div>

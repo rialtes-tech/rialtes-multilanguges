@@ -132,7 +132,7 @@ export default function Page() {
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('empowerTitle')}</h2>
                 <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('empowerDesc')}</p>
                 <p className=" 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">{t('empowerDesc2')}{" "}
-                  <Link className="underline" href={"mailto:sales@rialtes.com"}><span>sales@rialtes.com</span></Link> {t('empowerDesc3')} {" "} <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"}><span>
+                  <Link className="underline" href={"mailto:sales@rialtes.com"}><span>sales@rialtes.com</span></Link> {t('empowerDesc3')} {" "} <Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={`https://www.rialtes.com/${locale}/services/hxm-transformation/successplus-successfactors-implementation-partner/`}><span>
                     {t('empowerLink')}  </span></Link>
                 </p>
               </div>
