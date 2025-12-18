@@ -226,6 +226,17 @@
     ],
     "latestBlogs": [
       {
+        "id": 65,
+        "image": "/images/blog/cloud-computing-digital-storage-thumbnail.webp",
+        "category": "Salesforce Consulting",
+        "industry": "Genérico",
+        "date": "Dec. 18, 2025",
+        "url": "/partner-salesforce-right-way-for-growth/",
+        "title": "Asociarse con Salesforce de la manera correcta: crear relaciones estratégicas que impulsen un crecimiento medible",
+        "alt": "Mano sosteniendo un smartphone con un ícono de nube brillante que representa la computación en la nube y el almacenamiento de datos",
+        "description": "Cuando una empresa decide asociarse con Salesforce, el objetivo no es solo la implementación. Es una transformación a largo plazo. Las alianzas sólidas con las empresas asociadas adecuadas de Salesforce pueden simplificar procesos complejos, integrar sistemas desconectados y liberar el verdadero potencial de la plataforma en todos los equipos."
+      },
+      {
         "id": 64,
         "image": "/images/blog/electric-vehicle-charging-energy-mobile.webp",
         "category": "Salesforce Automotive Cloud",

@@ -225,6 +225,17 @@
     ],
     "latestBlogs": [
       {
+        "id": 65,
+        "image": "/images/blog/cloud-computing-digital-storage-thumbnail.webp",
+        "category": "Salesforce Consulting",
+        "industry": "Générique",
+        "date": "Dec. 18, 2025",
+        "url": "/partner-salesforce-right-way-for-growth/",
+        "title": "S’associer à Salesforce de la bonne manière : créer des relations stratégiques génératrices d’une croissance mesurable",
+        "alt": "Main tenant un smartphone avec une icône de nuage lumineux représentant le cloud et le stockage de données",
+        "description": "Lorsqu’une entreprise choisit de s’associer à Salesforce, l’objectif ne se limite pas à l’implémentation. Il s’agit d’une transformation à long terme. Des partenariats solides avec les bonnes entreprises partenaires Salesforce permettent de simplifier des processus complexes, d’intégrer des systèmes déconnectés et de libérer tout le potentiel de la plateforme au sein de chaque équipe."
+      },
+      {
         "id": 64,
         "image": "/images/blog/electric-vehicle-charging-energy-mobile.webp",
         "category": "Salesforce Automotive Cloud",
