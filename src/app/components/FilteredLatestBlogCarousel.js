@@ -10,6 +10,17 @@ export default function page({ url }) {
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
         {
+            "id": 64,
+            "image": "/images/blog/cloud-computing-digital-storage-thumbnail.webp",
+            "category": "Salesforce Consulting",
+            "industry": "Generic",
+            "date": "Dec. 18, 2025",
+            "url": "/partner-salesforce-right-way-for-growth/",
+            "title": "Partner Salesforce the Right Way: Creating Strategic Relationships That Deliver Measurable Growth",
+            "alt": "Hand holding a smartphone with a glowing cloud icon representing cloud computing and data storage",
+            "description": "When an enterprise chooses to partner with Salesforce, the goal isn’t just implementation. It’s a long-term transformation. Strong partnerships with the right Salesforce partner companies can simplify complex processes, integrate disconnected systems, and unlock the true potential of the platform across every team."
+        },
+        {
             "id": 63,
             "image": "/images/blog/electric-vehicle-charging-energy-mobile.webp",
             "category": "Salesforce Automotive Cloud",
