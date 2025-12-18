@@ -225,6 +225,17 @@
     ],
     "latestBlogs": [
       {
+        "id": 65,
+        "image": "/images/blog/cloud-computing-digital-storage-thumbnail.webp",
+        "category": "Salesforce Consulting",
+        "industry": "Générique",
+        "date": "Dec. 18, 2025",
+        "url": "/partner-salesforce-right-way-for-growth/",
+        "title": "S’associer à Salesforce de la bonne manière : créer des relations stratégiques génératrices d’une croissance mesurable",
+        "alt": "Main tenant un smartphone avec une icône de nuage lumineux représentant le cloud et le stockage de données",
+        "description": "Lorsqu’une entreprise choisit de s’associer à Salesforce, l’objectif ne se limite pas à l’implémentation. Il s’agit d’une transformation à long terme. Des partenariats solides avec les bonnes entreprises partenaires Salesforce permettent de simplifier des processus complexes, d’intégrer des systèmes déconnectés et de libérer tout le potentiel de la plateforme au sein de chaque équipe."
+      },
+      {
         "id": 64,
         "image": "/images/blog/electric-vehicle-charging-energy-thumb.webp",
         "category": "Salesforce Automotive Cloud",
@@ -1057,7 +1068,7 @@
       },
       {
         "id": 14,
-        "image": "/images/case-studies/automotive-robotic-assembly-line-car-manufacturing-mobile.webp",
+        "image": "/images/case-studies/automotive-robotic-assembly-line-car-manufacturing-thumbnail.webp",
         "industry": "Automobile",
         "date": "Jun. 30, 2025",
         "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
@@ -1067,7 +1078,7 @@
       },
       {
         "id": 13,
-        "image": "/images/case-studies/roof-shingle-color-samples-material-options-mobile.webp",
+        "image": "/images/case-studies/roof-shingle-color-samples-material-options-thumbnail.webp",
         "industry": "Manufacture",
         "date": "Jun. 10, 2025",
         "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
@@ -1077,7 +1088,7 @@
       },
       {
         "id": 12,
-        "image": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
+        "image": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-thumbnail.webp",
         "industry": "Automobile",
         "date": "Jun. 03, 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
@@ -1087,7 +1098,7 @@
       },
       {
         "id": 11,
-        "image": "/images/case-studies/insurance-adjuster-homeowner-storm-damage-assessment-carousel.webp",
+        "image": "/images/case-studies/insurance-adjuster-homeowner-storm-damage-assessment-thumbnail.webp",
         "industry": "Manufacture",
         "date": "May. 30, 2025",
         "url": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/",
@@ -1107,7 +1118,7 @@
       },
       {
         "id": 2,
-        "image": "/images/case-studies/quality-control-technician-inspecting-bottle-production-line-mobile.webp",
+        "image": "/images/case-studies/quality-control-technician-inspecting-bottle-production-line-thumbnail.webp",
         "industry": "Manufacture",
         "date": "Mar. 26, 2025",
         "url": "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
@@ -1117,7 +1128,7 @@
       },
       {
         "id": 3,
-        "image": "/images/case-studies/industrial-workers-safety-collaboration.webp",
+        "image": "/images/case-studies/industrial-workers-safety-collaboration-thumbnail.webp",
         "industry": "Manufacture",
         "date": "Jan. 08, 2025",
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce/",
@@ -1127,7 +1138,7 @@
       },
       {
         "id": 4,
-        "image": "/images/case-studies/business-team-strategy-collaboration.webp",
+        "image": "/images/case-studies/business-team-strategy-collaboration-thumbnail.webp",
         "industry": "Immobilier",
         "date": "Dec. 22, 2024",
         "url": "/insights/case-studies/realForce-banking-module-ach/",
@@ -1177,7 +1188,7 @@
       },
       {
         "id": 9,
-        "image": "/images/case-studies/doctor-patient-consultation-mobile.webp",
+        "image": "/images/case-studies/doctor-patient-consultation-digital-tablet.webp",
         "industry": "Santé",
         "date": "Aug. 16, 2024",
         "url": "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/",

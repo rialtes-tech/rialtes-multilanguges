@@ -122,12 +122,9 @@ export default function page({ url, currTopic }) {
                         renderDotsOutside={true}
                         customDot={<CustomDot />}
                     >
-                        {filteredCases.slice(0, 7).map((slide) => (
-                            <div
-                                key={slide.id}
-                                className="flex flex-col sm:basis-1/4 border border-gray-300 hover:border-white sm:mr-6 mb-4 max-[415px]:h-[460px] h-[520px] sm:h-[500px] md:h-[520px] lg:h-[520px] xl:h-[500px] 3xl:h-[550px] 4xl:h-[600px] group">
-
-                                <div className="max-h-[300px]">
+                        {filteredCases.map((slide) => (
+                            <div key={slide.id} className="flex flex-col sm:basis-1/4 border border-gray-300 hover:border-white sm:mr-6 mb-4 sm:h-[580px] md:h-full h-full lg:h-[580px] xl:h-[580px] 4xl:h-[650px] group">
+                                <div className="h-[260px] 4xl:h-[300px] max-h-[300px]">
                                     <Link href={slide.url}>
                                         <Image
                                             src={slide.image}
@@ -137,19 +134,23 @@ export default function page({ url, currTopic }) {
                                             sizes="100vw"
                                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                                             priority
-                                            className="cursor-pointer"
                                         />
                                     </Link>
-                                    <div className="inset-0 bg-[#0092E053] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                                 </div>
-                                <div className="flex flex-col text-black py-4 px-6 flex-grow transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
-                                    <div className="flex flex-col">
-                                        <div className=" leading-tight text-[16px] 4xl:text-[17px]"><span className="text-[#0092E0]">{slide.industry}</span> | {slide.date}</div>
-                                        <Link href={slide.url}><h5 className="my-3 sm:line-clamp-4 line-clamp-3 font-semibold leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.title}</h5></Link>
-                                    </div>
-                                    <p className="line-clamp-4 leading-tight 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{slide.description}</p>
-                                </div>
+                                <div className="p-6 flex-grow flex flex-col transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
+                                    <div>
+                                        <div className='pb-2 md:pb-4 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
+                                            <span className='text-[#0092E0]'>{slide.industry}</span>
+                                            <span className='text-[#ACACAC]'> | </span>
+                                            <span className={`${slide.industry.length > 21 && "block mt-1"}`}>{slide.date}</span>
 
+                                        </div>
+                                        <Link href={slide.url}><h4 className="mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight">{slide.title}</h4></Link>
+                                    </div>
+                                    <div className="flex flex-col">
+                                        <p className='line-clamp-4 md:mb-4 mb-2 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>{slide.description}</p>
+                                    </div>
+                                </div>
                             </div>
                         ))}
                     </Carousel>

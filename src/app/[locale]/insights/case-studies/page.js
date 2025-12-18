@@ -21,7 +21,7 @@ export default function Page() {
   const t = useTranslations('caseStudy')
   const locale = useLocale();
   const caseStudyContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { latestCaseStudy, slides, industries ,schemaData} = caseStudyContent.caseStudy;
+  const { latestCaseStudy, slides, industries, schemaData } = caseStudyContent.caseStudy;
 
   const CaseStudyCard = ({ casestudy }) => (
     <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">

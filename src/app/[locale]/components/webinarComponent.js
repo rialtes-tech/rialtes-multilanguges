@@ -6,7 +6,7 @@ import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-export default function ({ fullUrl, seoData, schemaData, deskImg, mobImg, webinarTitle, speakerName, speakerDesignation, speakerImg, speakerImgAlt, webinarInfo, webinarAdvantages, whoShouldAttend, dateNumber, monthYear, CstIstTime, estPstTime, redirectUrl, emailWebinarLink ,imageAlt}) {
+export default function ({ fullUrl, seoData, schemaData, deskImg, mobImg, webinarTitle, speakerName, speakerDesignation, speakerImg, speakerImgAlt, webinarInfo, webinarAdvantages, whoShouldAttend, dateNumber, monthYear, CstIstTime, estPstTime, redirectUrl, emailWebinarLink, imageAlt }) {
     const t = useTranslations("webinarComponent");
     const sectionRef = useRef(null);
     const handleScroll = () => {
