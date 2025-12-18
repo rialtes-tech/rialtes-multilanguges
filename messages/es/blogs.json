@@ -2793,7 +2793,7 @@
                 "criticality": "Bajo",
                 "tool": "Bot",
                 "justification": "Sigue reglas claras. No se necesita toma de decisiones—solo acciones rápidas y repetibles.",
-                "color": "bg-[#E8F7FF]"
+                "color": "#E8F7FF"
             },
             {
                 "scenario": "Generación de Propuestas de Ventas",
@@ -2801,7 +2801,7 @@
                 "criticality": "Medio",
                 "tool": "Copiloto",
                 "justification": "Asiste a los humanos extrayendo datos, sugiriendo contenido y reduciendo el esfuerzo manual.",
-                "color": "bg-[#EBE3FF]"
+                "color": "#EBE3FF"
             },
             {
                 "scenario": "Pronóstico de la Demanda",
@@ -2809,7 +2809,7 @@
                 "criticality": "Alto",
                 "tool": "Agente de IA",
                 "justification": "Requiere modelado predictivo y lógica autónoma entre sistemas.",
-                "color": "bg-[#FFF1E5]"
+                "color": "#FFF1E5"
             },
             {
                 "scenario": "Gestión de Preguntas Frecuentes de Clientes",
@@ -2817,7 +2817,7 @@
                 "criticality": "Bajo",
                 "tool": "Bot",
                 "justification": "Preguntas y respuestas estándar. Las conversaciones guiadas funcionan bien aquí.",
-                "color": "bg-[#E8F7FF]"
+                "color": "#E8F7FF"
             },
             {
                 "scenario": "Configuración de Cotizaciones de Productos",
@@ -2825,7 +2825,7 @@
                 "criticality": "Medio",
                 "tool": "Copiloto",
                 "justification": "Navega la lógica de precios y reglas de productos. Apoya la toma de decisiones liderada por humanos.",
-                "color": "bg-[#ECE3FF]"
+                 "color": "#ECE3FF"
             },
             {
                 "scenario": "Resolución de Tickets de Soporte",
@@ -2833,7 +2833,7 @@
                 "criticality": "Alto",
                 "tool": "Agente de IA",
                 "justification": "Prioriza incidencias, actúa entre sistemas y aprende del historial de resoluciones.",
-                "color": "bg-[#FFF1E5]"
+                "color": "#FFF1E5"
             },
             {
                 "scenario": "Planificación de Producción",
@@ -2841,7 +2841,7 @@
                 "criticality": "Alto",
                 "tool": "Agente de IA",
                 "justification": "Equilibra restricciones, adapta planes y automatiza flujos de trabajo complejos.",
-                "color": "bg-[#E8F7FF]"
+                 "color": "#E8F7FF"
             },
             {
                 "scenario": "Ayuda con la Carga de Documentos",
@@ -2849,7 +2849,7 @@
                 "criticality": "Bajo",
                 "tool": "Bot",
                 "justification": "Lógica mínima. La tarea es sencilla y no requiere contexto del usuario.",
-                "color": "bg-[#ECE3FF]"
+                 "color": "#ECE3FF"
             },
             {
                 "scenario": "Guía de Capacitación en Ventas",
@@ -2857,7 +2857,7 @@
                 "criticality": "Bajo",
                 "tool": "Copiloto",
                 "justification": "Ofrece recordatorios en tiempo real, enlaces a documentación y sugerencias durante la venta.",
-                "color": "bg-[#FFF1E5]"
+                "color": "#FFF1E5"
             }
         ]
     },
