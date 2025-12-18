@@ -88,10 +88,10 @@ export default function Page() {
       </section>
       {/* page description section */}
       <section className="custom-container xl:mt-[131px] mt-[62px]">
-        <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] lg:w-[80%] xl:w-full">
+        <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] lg:w-[80%] xl:w-[85%]">
           {t("powerTitle")}
         </h2>
-        <p className="xl:text-[22px] text-[16px] leading-tight lg:w-[80%] 4xl:w-[70%] w-[90%] font-normal mt-8">
+        <p className="4xl:text-[22px]  xl:text-[18px] text-[16px] leading-tight lg:w-[80%] 4xl:w-[70%] w-[90%] font-normal mt-8">
           {t("powerDesc")}
           <br />
           <br />
@@ -144,7 +144,7 @@ export default function Page() {
               {t("thoughtDescOne")}
             </p>
             <div className="absolute mt-[20px] xl:mt-[30px]">
-              <LearnMore btnName={t('learnMore')} />
+              <LearnMore btnName={t('learnMore')} locale={locale} />
             </div>
           </div>
         </div>
@@ -174,7 +174,7 @@ export default function Page() {
     text-[#0A6BB8]
     ${ind === 0 ? "mt-0 lg:mt-0" : ""}
     ${ind === 1 ? "lg:mt-0" : ""}
-    ${ind === 4 ? "xl:mt-[40px] lg:mt-0 2xl:mt-0 4xl:mt-[80px]" : ""}
+    ${ind === 4 ? "xl:mt-[40px] lg:mt-0 2xl:mt-10 4xl:mt-[80px]" : ""}
     ${((frActive || esActive) && (ind == 2 || ind == 4)) ? "2xl:pt-[60px] 3xl:pt-0 4xl:pt-[40px]" : ""}
   `}
                 >
@@ -194,12 +194,12 @@ export default function Page() {
                 <div className={`h-[1px] w-full bg-[#707070] ${ind == 3 && "lg:bg-transparent"} ${ind == 4 && "bg-transparent"}`}></div>
                 {ind === 3 && (
                   <div className="hidden lg:block absolute lg:bottom-[60px]">
-                    <LearnMore btnName={t('learnMore')} />
+                    <LearnMore btnName={t('learnMore')} locale={locale}/>
                   </div>
                 )}
                 {ind === 4 && (
                   <div className="block lg:hidden max-lg:mt-[25px]">
-                    <LearnMore btnName={t('learnMore')} />
+                    <LearnMore btnName={t('learnMore')} locale={locale} />
                   </div>
                 )}
               </div>
@@ -223,7 +223,7 @@ export default function Page() {
               liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal"
             />
             <div className="xl:mt-[87px] mt-[24px]">
-              <LearnMore btnName={t('learnMore')} />
+              <LearnMore btnName={t('learnMore')} locale={locale} />
             </div>
           </div>
           <div className="md:col-span-6 col-span-12 md:order-2 order-1">
@@ -284,7 +284,7 @@ export default function Page() {
         <div className="absolute bottom-0">
           {/* <LearnMore bgcolor="#0C8AED" bordercolor="#0C8AED" /> */}
           <Link
-            href="/contact-us"
+            href={`/${locale}/contact-us`}
             className={`inline-block 4xl:text-[20px] text-[16px] border  font-semibold text-white py-3 px-8 transition duration-300 mt-6
         bg-[#0C8AED] border-[#0C8AED]  hover:bg-white hover:text-[#134874] hover:border-[#134874]`}
           >
@@ -389,7 +389,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="max-md:mt-[31px] mt-[40px]">
-                <LearnMore btnName={t('learnMore')} />
+                <LearnMore btnName={t('learnMore')} locale={locale}/>
               </div>
             </div>
           );
@@ -418,7 +418,7 @@ export default function Page() {
             className="h-full h w-full object-cover"
           />
         </div>
-        <div className="relative mt-[-140px] sm:mt-[-120px] md:mt-[-140px] xl:mt-[-300px]">
+        <div className="relative mt-[-240px]  md:mt-[-190px] xl:mt-[-300px]">
           <div className="custom-container">
             <div className="md:w-[60%] xl:w-[86%] 4xl:w-[80%] bg-[#ffffff]/80 xl:pt-[66px] xl:pb-[66px] xl:px-[71px] pt-[27px] pb-[32px] px-[26px]">
               <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] lg:w-[80%] 4xl:w-fulll">
@@ -530,7 +530,7 @@ export default function Page() {
               </div>
             </div>
             <div className="absolute lg:mt-[60px] mt-[20px]">
-              <LearnMore btnName={t('learnMore')} />
+              <LearnMore btnName={t('learnMore')} locale={locale} />
             </div>
           </div>
         </div>
@@ -584,7 +584,7 @@ export default function Page() {
       </section>
       {/* key pillars */}
       <section className="custom-container xl:mt-[72px] mt-[52px]">
-        <h3 className="text-[17px] leading-tight xl:text-[24px] 4xl:text-[32px] font-semibold w-[70%] xl:w-[50%] 4xl:w-[60%]">
+        <h3 className="text-[20px] leading-tight xl:text-[24px] 4xl:text-[32px] font-semibold w-[80%] xl:w-[50%] 4xl:w-[60%]">
           {t("keyPillarTitle")}
         </h3>
         {keyPillarsDesc.map((data, ind) => {
@@ -629,7 +629,7 @@ export default function Page() {
                   <UnorderedList
                     arrName={data.dataList}
                     ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[22px] mt-[18px] pl-[20px] 4xl:w-[82%]"
-                    liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal"
+                    liClassName="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight font-normal"
                   />
                 </div>
               </div>
@@ -688,10 +688,10 @@ export default function Page() {
                   <UnorderedList
                     arrName={endSemiconductorData}
                     ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[32px] mt-[22px] pl-[20px] w-[94%] lg:w-full"
-                    liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal"
+                    liClassName="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight font-normal"
                   />
                   <div className="xl:mt-[97px] mt-[48] lg:float-end">
-                    <LearnMore btnName={t('learnMore')} />
+                    <LearnMore btnName={t('learnMore')} locale={locale}/>
                   </div>
                 </div>
               </div>
@@ -749,7 +749,7 @@ export default function Page() {
       {/* key reasons  */}
       <section className="md:mt-[90px] mt-[50px]">
         <div className="custom-container">
-          <h3 className="text-[17px] leading-tight xl:text-[26px] 4xl:text-[40px] font-bold w-[90%] lg:w-[60%] 2xl:w-[50%] 4xl:w-[80%]">
+          <h3 className="text-[17px] leading-tight xl:text-[30px] 4xl:text-[40px] font-bold w-[90%] lg:w-[60%] 2xl:w-[60%] 4xl:w-[80%]">
             {t("reasonsTitle")}
           </h3>
         </div>
@@ -799,7 +799,7 @@ export default function Page() {
                   </div>
                   <div
                     className={`lg:col-span-8 4xl:col-span-7 col-span-12 sm:w-[80%] lg:w-full ${isEven ? "" : "lg:order-1 order-2"}`} >
-                    <h4 className="text-[20px] leading-tight xl:text-[30px] 4xl:text-[40px] text-[#006FBE] font-semibold w-[90%] lg:w-[90%] xl:w-[80%] 2xl:w-[70%] 4xl:w-full">
+                    <h4 className="text-[20px] leading-tight xl:text-[30px] 4xl:text-[40px] text-[#006FBE] font-semibold w-[90%]  xl:w-[80%] 2xl:w-[75%] 4xl:w-full">
                       {data.title}
                     </h4>
                     <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[30px] xl:gap-[0px] gap-y-[25px] xl:mt-[99px] mt-[34px] lg:mb-[70px] mb-[100px]">
@@ -812,14 +812,14 @@ export default function Page() {
                         <UnorderedList
                           arrName={data.dataList}
                           ulClassName="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px] w-[90%] lg:w-full"
-                          liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal"
+                          liClassName="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight font-normal"
                         />
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className={`absolute bottom-0 ${isEven && "lg:left-1/3 4xl:left-[770px] ml-[20px]"}`}>
-                  <LearnMore btnName={t('learnMore')} />
+                  <LearnMore btnName={t('learnMore')} locale={locale} />
                 </div>
               </div>
             </div>
@@ -866,7 +866,7 @@ export default function Page() {
             <UnorderedList
               arrName={rialtesData}
               ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[37px] mt-[19px] pl-[20px] w-[94%] lg:w-full"
-              liClassName="text-[16px] xl:text-[19px] 4xl:text-[20px] leading-tight font-normal"
+              liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal"
             />
           </div>
         </div>
