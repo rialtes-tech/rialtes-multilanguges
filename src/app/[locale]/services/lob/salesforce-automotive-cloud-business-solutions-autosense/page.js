@@ -325,7 +325,7 @@ export default function page() {
             <ThoughtLeadershipDesign />
             {/* Contact Form */}
             <div className="custom-container text-black xl:pb-20 pb-10 pt-[115px] xl:pt-[138px]">
-                <ContactForm title={t('contactTitle')} className={"max-w-[62rem] xl:font-light xl:text-[60px] text-[26px] xl:leading-[73px] leading-[32px]"} />
+                <ContactForm title={t('contactTitle')} className={"max-w-[62rem] xl:font-light xl:leading-[73px] leading-[32px] 4xl:text-[60px] xl:text-[40px] text-[26px]"} />
             </div >
         </>
     )

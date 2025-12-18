@@ -20,7 +20,7 @@ export default function Page() {
     es: esContent,
     fr: frContent,
   });
-  const { salesforceData, useCasesData,schemaData } =
+  const { salesforceData, useCasesData, schemaData } =
     blogsContent.howSalesforceAgentforceWorks;
   const fullUrl = "https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works";
   const currUrl = useUrl();
@@ -180,13 +180,12 @@ export default function Page() {
                     </Link>
                     . {t("gettingDesc2")}{" "}
                     <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                      href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/">
+                      href={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/`}>
                       {t("gettingLink2")}
                     </Link>
                     , {t("gettingDesc3")}{" "}
                   </p>
                 </div>
-
               </div>
             </div>
           </div>

@@ -2101,6 +2101,69 @@
         "contactSubTitleOne": "Contact Rialtes to discover how SalesforceAgent+ can supercharge your Salesforce ecosystem."
     },
     "sapDigitalDesk": {
+        "schemaData" :{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "SAP Managed Services Provider",
+    "description": "As a next-gen SAP Managed Services Provider, Rialtes future-proofs your SAP stack with AI, automation, cloud-native apps, and continuous innovation.",
+    "serviceType": "SAP Managed Services",
+    "provider": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
+    },
+    "areaServed": [
+        {
+            "@type": "Place",
+            "name": "India"
+        },
+        {
+            "@type": "Place",
+            "name": "United States"
+        },
+        {
+            "@type": "Place",
+            "name": "Canada"
+        },
+        {
+            "@type": "Place",
+            "name": "Singapore"
+        },
+        {
+            "@type": "Place",
+            "name": "Europe"
+        }
+    ],
+    "url": "https://www.rialtes.com/services/business-transformation/sap-managed-services-provider",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "SAP Services Catalog",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "SAP S/4HANA Support"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "SAP SuccessFactors Support"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "SAP BTP Services"
+                }
+            }
+        ]
+    }
+},
         "whyPartnersAlt": "Professional handshake with vibrant digital light effects symbolizing technology partnership and business collaboration ",
         "migrateSectionAlt": "Digital wave background displaying SAP SuccessFactors migration pathways from Workday and ZOHO HR with service details",
         "btpSectionAlt": "Smiling business professionals analyzing data visualization on interactive digital screen in modern collaborative workspace",

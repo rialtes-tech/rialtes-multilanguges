@@ -45,6 +45,7 @@ export default function page() {
           <Image
             src="/images/industry/retail/woman-shopping-smart-retail-connected-technology-mobile.webp"
             alt={t('headerAlt')}
+            className="object-cover"
             fill
             priority
             sizes="100vw"
@@ -54,7 +55,7 @@ export default function page() {
           <div className="grid md:grid-cols-12 grid-cols-1 4xl:mt-20 ">
             <div className="xl:col-span-7 col-span-12 mt-28  2xl:pr-[34px]">
               <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">{t('headerTitle')}</h3>
-              <h2 className="text-white leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] 2xl:text-[48px] mt-5 pr-32  4xl:pr-0 md:pr-64 xl:pr-[6rem] 2xl:pr-[6rem]">
+              <h2 className="text-white leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] 2xl:text-[48px] mt-5 pr-2  4xl:pr-0 md:pr-64 xl:pr-[6rem] 2xl:pr-[6rem]">
                 {t('headerSubTitle')}
               </h2>
             </div>
@@ -69,10 +70,10 @@ export default function page() {
             <h1 className="leading-tight text-[26px] xl:text-[45px] 4xl:text-[60px] 4xl:pr-10 xl:pr-24">
               {t('empoweringTitle')}
             </h1>
-            <p className="4xl:text-[22px] xl:text-[18px]  mt-5 ">
+            <p className="4xl:text-[22px] xl:text-[20px] text-[16px] mt-5 ">
               {t('empoweringDesc1')}
             </p>
-            <p className="4xl:text-[22px] xl:text-[18px] mt-5 ">
+            <p className="4xl:text-[22px] xl:text-[20px] text-[16px] mt-5 ">
               {t('empoweringDesc2')}
             </p>
           </div>
@@ -124,7 +125,7 @@ export default function page() {
               {t("keyTitle")}
             </h3>
 
-            <ul className="list-disc leading-tight 4xl:space-y-5 2xl:space-y-5 md:space-y-8 xl:space-y-3 space-y-2 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] md:text-[20px] xl:text-[16px] text-[16px] 4xl:mt-10 mt-3 4xl:pr-16">
+            <ul className="list-disc leading-tight 4xl:space-y-5 2xl:space-y-5 md:space-y-8 xl:space-y-3 space-y-2 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] text-[16px] 4xl:mt-10 mt-3 4xl:pr-16">
               {retailServices.map((service, index) => (
                 <li key={index}>
                   <span className="font-bold">{service.title} </span>
@@ -195,15 +196,15 @@ export default function page() {
         </div>
         <div className="xl:col-span-6 bg-[#006FBE] 4xl:pt-20 pt-10 px-10 4xl:px-16 xl:px-16 xl:pr-10 text-white order-2 xl:order-1 pb-20 ">
           <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px]">{t('saleforceTitle')}</h2>
-          <h3 className="4xl:text-[42px] font-semibold text-[22px] mt-5 leading-tight xl:pr-32 4xl:pr-24">
+          <h3 className="4xl:text-[42px] xl:text-[32px] font-semibold text-[22px] mt-5 leading-tight xl:pr-32 4xl:pr-24">
             {t('saleforceSubTitle1')}
           </h3>
           <h3 className="mt-5 leading-tight 4xl:text-[30px] text-[20px] xl:pr-24 4xl:pr-32">{t('saleforceSubTitle2')}</h3>
-          <p className="mt-5 font-normal 4xl:text-[20px] xl:text-[16px] xl:pr-0 4xl:pr-[95px]">
+          <p className="mt-5 font-normal 4xl:text-[20px] xl:text-[18px] text-[16px] xl:pr-0 4xl:pr-[95px]">
             {t('saleforceDesc')}
           </p>
           <h3 className="mt-5 4xl:text-[30px] text-[20px]">{t('sapHanaTitle')}</h3>
-          <p className="mt-5 font-normal 4xl:text-[20px] xl:text-[16px] xl:pr-0 4xl:pr-[100px]">
+          <p className="mt-5 font-normal 4xl:text-[20px] xl:text-[18px] text-[16px] xl:pr-0 4xl:pr-[100px]">
             {t('sapHanaDesc')}
           </p>
         </div>
@@ -243,10 +244,10 @@ export default function page() {
             </div>
             <div className="xl:col-span-1 col-span-12 pl-16"></div>
             <div className="xl:col-span-5 col-span-12">
-              <h3 className="xl:text-[42px] text-[22px] mt-5 xl:mt-10">
+              <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] mt-5 xl:mt-10">
                 {t('specializedSubTitle')}
               </h3>
-              <p className="mt-5 mb-2 font-normal xl:pr-16 4xl:text-[20px] text-[16px] leading-tight">
+              <p className="mt-5 xl:mb-2 mb-10 font-normal xl:pr-16 4xl:text-[20px] text-[16px] leading-tight">
                 {t('specializedDesc')}
               </p>
               <div className="md:bottom-0  absolute bottom-[-25px]">
@@ -356,6 +357,7 @@ export default function page() {
           <Image
             src="/images/industry/retail/business-analyst-reviewing-data-charts-monitors.webp"
             alt={t('whyAlt')}
+            className="object-cover"
             fill
             priority
             sizes="100vw"
@@ -365,6 +367,7 @@ export default function page() {
           <Image
             src="/images/industry/retail/business-analyst-reviewing-data-charts-monitors-mobile.webp"
             alt={t('whyAlt')}
+            className="object-cover"
             fill
             priority
             sizes="100vw"
@@ -387,7 +390,7 @@ export default function page() {
                 <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">
                   {t('whyChooseTitle')}
                 </h2>
-                <h3 className="4xl:text-[42px] text-[22px] font-semibold mt-5">
+                <h3 className="4xl:text-[42px] xl:text-[32px] text-[22px] font-semibold mt-5">
                   {t('whyChooseSubTitle')}
                 </h3>
                 <UnorderedList arrName={whyChooseData} ulClassName="list-disc 4xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] mt-5 mb-4" liClassName="" />

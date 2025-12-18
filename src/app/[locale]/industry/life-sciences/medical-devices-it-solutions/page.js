@@ -211,7 +211,7 @@ export default function Page() {
                 </div>
             </section>
             <div className="sm:mt-[10rem] mt-[20rem] custom-container">
-                <LearnMore btnName={t('learnMoreBtn')} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
             </div>
             {/* critical challenges section */}
             <CriticalChallengesSection />
@@ -257,7 +257,7 @@ export default function Page() {
                         </div>
                     </div>
                     <button className="bg-white hover:bg-[#ffffff]  hover:text-[#134874] border-[1px] text-[20px] border-[solid] border-[#134874] my-[60px] font-semibold text-black py-3 px-8 transition duration-300 order-4">
-                        <Link href='/contact-us'>{t('learnMoreTitle')}</Link>
+                        <Link   href={`/${locale}/contact-us`}>{t('learnMoreTitle')} </Link>
                     </button>
                 </div>
             </section>
@@ -466,7 +466,7 @@ export default function Page() {
                             <p className="4xl:text-[22px] xl:text-[18px] text-[16px] xl:mt-5 mt-8 font-normal leading-tight">{t('salesforceAgentDesc')}</p>
                             <div className="xl:mt-10 mt-5">
                                 <button className="bg-white xl:text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-black py-3 px-8 transition duration-300 order-4 mt-6" aria-label="salesforce agentforce button">
-                                    <Link href='/solutions/artificial-intelligence/salesforce-agentforce-consulting'>{t('knowMoreBtn')}</Link>
+                                    <Link href={`/${locale}/solutions/artificial-intelligence/salesforce-agentforce-consulting`}>{t('knowMoreBtn')}</Link>
                                 </button>
                             </div>
                         </div>
@@ -517,7 +517,8 @@ export default function Page() {
                             <UnorderedList arrName={realTimeData} ulClassName="list-disc lg:space-y-4 marker:font-bold marker:text-2xl pl-5 mt-5 font-medium lg:mt-0 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="" />
                             <div className="mt-5">
                                 <button className="bg-white xl:text-[20px] border-[1px] hover:text-[#134874] font-semibold text-black py-3 px-8 transition duration-300 order-4 mt-6" aria-label="real time know more button">
-                                    <Link href='/products/agentchat'>{t('knowMoreBtn')}</Link>
+                                    <Link href={`/${locale}/products/agentchat`}>{t('knowMoreBtn')}</Link>
+                                   
                                 </button>
                             </div>
                         </div>

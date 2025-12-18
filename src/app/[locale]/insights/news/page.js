@@ -16,7 +16,7 @@ export default function Page() {
   const t = useTranslations('news')
   const locale = useLocale();
   const newsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { latestNews ,schemaData} = newsContent.news;
+  const { latestNews, schemaData } = newsContent.news;
 
   const CaseStudyCard = ({ casestudy }) => (
     <div className="border border-[#707070] w-full h-full flex flex-col group">
@@ -42,7 +42,7 @@ export default function Page() {
             {casestudy.date}
           </div>
           <Link href={casestudy.url}>
-            <h4 className="mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight">{casestudy.title}</h4>
+            <h4 className="mb-2 md:mb-4 md:font-semibold 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight line-clamp-4">{casestudy.title}</h4>
           </Link>
         </div>
         <Link href={casestudy.url}>

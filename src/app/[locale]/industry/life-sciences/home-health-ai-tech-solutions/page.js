@@ -70,10 +70,10 @@ export default function Page() {
                 </div>
             </section>
             {/* page description section */}
-            <div className="custom-container xl:mt-[124px] mt-[33px]">
+            <div className="custom-container xl:mt-[124px] mt-[53px]">
                 <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[40px] gap-y-[28px]">
                     <div className="lg:col-span-6 xl:col-span-7 col-span-12">
-                        <h2 className="4xl:text-[60px] xl:text-[45px] text-[26px] leading-tight md:w-[80%] xl:w-full">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight md:w-[80%] xl:w-full">
                             {t('pageDescTitle')}
                         </h2>
                     </div>
@@ -86,7 +86,7 @@ export default function Page() {
             </div>
             {/* addressing section */}
             <section className="custom-container xl:mt-[166px] mt-[49px]">
-                <h2 className="4xl:text-[60px] xl:text-[45px] text-[26px] leading-tight lg:w-[60%] 4xl:w-[70%]">
+                <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight lg:w-[60%] 4xl:w-[70%]">
                     {t('addressingTitle')}
                 </h2>
                 <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[39px] mt-[28px] w-[90%] lg:w-[65%] 4xl:w-[70%]">
@@ -106,7 +106,7 @@ export default function Page() {
                                 <div className={`lg:col-span-8 col-span-12 xl:pt-[51px] xl:pb-[93px] xl:px-[68px] pt-[29px] pb-[64px] px-[30px] relative  ${!isEven && "lg:order-1 order-2"}`} key="text">
                                     <h2 className="4xl:text-[30px] xl:text-[26px] text-[22px] leading-tight text-[#0A6BB8] font-semibold w-[90%] md:w-full">{data.title}</h2>
                                     <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[39px] mt-[19px] w-[90%] lg:w-[94%]">{data.desc}</p>
-                                    <div className="xl:mt-[40px] mt-[20px] absolute"><LearnMore btnName={t('learnMoreBtn')} /></div>
+                                    <div className="xl:mt-[40px] mt-[20px] absolute"><LearnMore btnName={t('learnMoreBtn')} locale={locale}/></div>
                                 </div>
                             </React.Fragment>
                         ];
@@ -128,7 +128,7 @@ export default function Page() {
                             <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[95%] lg:w-[60%] xl:w-full">{t('globalTitle')}</h2>
                             <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[65px] mt-[25px] w-[94%] lg:w-[90%]">{t('globalSubTitle')}</p>
                             <div className="absolute xl:mt-[40px] mt-[20px]">
-                                <LearnMore btnName={t('learnMoreBtn')} />
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@ export default function Page() {
                                         <h3 className="4xl:text-[30px] xl:text-[26px] text-[20px] leading-tight text-[#006FBE] font-semibold">
                                             {data.title}
                                         </h3>
-                                        <p className="text-[16px] 4xl:text-[22px] xl:text-[19px] font-normal xl:mt-[31px] mt-[22px] w-[90%] xl:w-full 4xl:w-[86%]">
+                                        <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] font-normal xl:mt-[31px] mt-[22px] w-[90%] xl:w-full 4xl:w-[86%]">
                                             {data.desc}
                                         </p>
                                     </div>
@@ -210,7 +210,7 @@ export default function Page() {
                         }
                     </div>
                     <div className="mt-[74px] xl:mt-[104px]">
-                        <LearnMore btnName={t('learnMoreBtn')} bgcolor="#0C8AED" bordercolor="#0C8AED" />
+                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} bgcolor="#0C8AED" bordercolor="#0C8AED" />
                     </div>
                 </div>
             </section>
@@ -272,13 +272,13 @@ export default function Page() {
 
                     </div>
                     <div className="lg:absolute lg:bottom-0 lg:right-0">
-                        <LearnMore btnName={t('learnMoreBtn')} />
+                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                     </div>
                 </div>
             </section>
 
             {/* related section */}
-            <section className="custom-container xl:mt-[125px] mt-[44px]">
+            <section className="custom-container xl:mt-[125px] mt-[64px]">
                 <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">
                     {t('relatedTitle')}
                 </h2>
@@ -297,11 +297,11 @@ export default function Page() {
                                     <h3 className="4xl:text-[30px] xl:text-[25px] text-[20px] leading-tight font-semibold text-[#006FBE]">
                                         {data.title}
                                     </h3>
-                                    <p className="text-[16px] 4xl:text-[24px] xl:text-[20px] font-normal w-[90%] lg:w-full xl:mt-[31px] mt-[10px] xl:mb-[31px] mb-[18px]">
+                                    <p className="text-[16px] 4xl:text-[24px] xl:text-[18px] font-normal w-[90%] lg:w-full xl:mt-[31px] mt-[10px] xl:mb-[31px] mb-[18px]">
                                         {data.desc}
                                     </p>
                                     <div className="mt-auto">
-                                        <LearnMore btnName={t('learnMoreBtn')} />
+                                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                     </div>
                                 </div>
                             )

@@ -22,7 +22,7 @@ export default function Page() {
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { mainData, digitalData, schemaData, faqData, howSalesforce, predectiveData, endData, digitalTwinData, buildingData } = blogsContent.digitalTwin;
-    const { frActive, esActive, enActive } = useActiveLocale();
+    const { enActive } = useActiveLocale();
 
     return (
         <section className="min-h-screen">
