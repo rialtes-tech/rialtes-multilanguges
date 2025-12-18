@@ -9,75 +9,12 @@ import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "SAP Managed Services Provider",
-    "description": "As a next-gen SAP Managed Services Provider, Rialtes future-proofs your SAP stack with AI, automation, cloud-native apps, and continuous innovation.",
-    "serviceType": "SAP Managed Services",
-    "provider": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com",
-        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
-    },
-    "areaServed": [
-        {
-            "@type": "Place",
-            "name": "India"
-        },
-        {
-            "@type": "Place",
-            "name": "United States"
-        },
-        {
-            "@type": "Place",
-            "name": "Canada"
-        },
-        {
-            "@type": "Place",
-            "name": "Singapore"
-        },
-        {
-            "@type": "Place",
-            "name": "Europe"
-        }
-    ],
-    "url": "https://www.rialtes.com/services/business-transformation/sap-managed-services-provider",
-    "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "SAP Services Catalog",
-        "itemListElement": [
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "SAP S/4HANA Support"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "SAP SuccessFactors Support"
-                }
-            },
-            {
-                "@type": "Offer",
-                "itemOffered": {
-                    "@type": "Service",
-                    "name": "SAP BTP Services"
-                }
-            }
-        ]
-    }
-}
 
 export default function Page() {
     const t = useTranslations('sapDigitalDesk')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { sapCertificationData, sapCertificationData2, sapFeatureGrid, futureData, revolutionizeData, unleashData, seamlessData
+    const { schemaData , sapCertificationData, sapCertificationData2, sapFeatureGrid, futureData, revolutionizeData, unleashData, seamlessData
         , codeData, intelligentData, winningSectionData, sapAribaData, sapDatasphereData, sapTransformationSteps, superchargeData, btpData
         , migrateData1, migrateData2, whyPartnerData, rialtesTwentyData1, rialtesTwentyData2, onsiteDeliveryData, onsiteDeliveryData2, projectPartnershipData } = content.sapDigitalDesk;
     return (
@@ -142,8 +79,8 @@ export default function Page() {
                         <h1 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[50px]">
                             {t('pageDescTitle')}
                         </h1>
-                        <p className="xl:text-[22px] text-[16px] mt-5 xl:pr-32">{t('pageDesc1')}</p>
-                        <p className="xl:text-[22px] text-[16px] mt-5 xl:pr-40">{t('pageDesc2')}
+                        <p className="4xl:text-[22px] xl:text-[20px] text-[16px] mt-5 xl:pr-32">{t('pageDesc1')}</p>
+                        <p className="4xl:text-[22px] xl:text-[20px] text-[16px] mt-5 xl:pr-40">{t('pageDesc2')}
                         </p>
                     </div>
                     <div className="xl:col-span-4 col-span-12">
@@ -179,7 +116,7 @@ export default function Page() {
                         </div>
                         <div className="col-span-1"></div>
                         <div className="xl:col-span-5 col-span-12 xl:mt-16 mt-5">
-                            <p className="xl:text-[22px] text-[16px] font-medium">{t('rialtesData')}</p>
+                            <p className="4xl:text-[22px] xl:text-[20px] text-[16px] font-medium">{t('rialtesData')}</p>
                         </div>
                     </div>
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-white items-center xl:pt-20 pt-10">
@@ -234,11 +171,11 @@ export default function Page() {
                     {/* Content second on mobile, first on desktop */}
                     <div className="col-span-5 order-2 xl:order-1 mt-10 xl:mt-0 mx-[35px] xl:mx-0 md:mx-0">
                         <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[50px]">{t('projectPartnershipTitle')}</h2>
-                        <p className="mt-5 4xl:pr-40 font-medium">
+                        <p className="mt-5 4xl:pr-40 font-medium 4xl:text-[20px] xl:text-[18px] text-[16px] ">
                             {t('projectPartnershipDesc1')}
                         </p>
                         <UnorderedList arrName={projectPartnershipData} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3 4xl:pr-32 font-medium" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] " />
-                        <p className="mt-10 4xl:pr-40 pb-10 font-medium">
+                        <p className="mt-10 4xl:pr-40 pb-10 font-medium 4xl:text-[20px] xl:text-[18px] text-[16px]">
                             {t('projectPartnershipDesc2')}
                         </p>
                         <LearnMore btnName={t('learnMoreBtn')}/>
@@ -285,12 +222,12 @@ export default function Page() {
                     </div>
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-black xl:pb-20">
                         <div className="xl:col-span-6 col-span-12">
-                            <UnorderedList arrName={sapCertificationData} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3 xl:pr-20" liClassName="xl:text-[18x] 4xl:text-[20px] text-[16px]" />
+                            <UnorderedList arrName={sapCertificationData} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3 xl:pr-20" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         </div>
                         <div className="xl:col-span-1 col-span-12">
                         </div>
                         <div className="xl:col-span-5 col-span-12  xl:mt-0">
-                            <UnorderedList arrName={sapCertificationData2} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3" liClassName="xl:text-[18px] 4xl:text-[20px] text-[16px] " />
+                            <UnorderedList arrName={sapCertificationData2} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         </div>
                     </div>
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-[#006FBE]  items-center mt-10 xl:mt-0">
@@ -305,10 +242,10 @@ export default function Page() {
                     <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 text-black xl:mt-16 mt-5 4xl:gap-16 gap-8 xl:pr-40">
                         {sapFeatureGrid.map((item, index) => (
                             <div key={index}>
-                                <p className="xl:pb-5 pb-2 4xl:text-[20px] xl:text-[17px] font-bold leading-tight">
+                                <p className="xl:pb-5 pb-2 4xl:text-[20px] xl:text-[18px] text-[16px]  font-bold leading-tight">
                                     {item.title}
                                 </p>
-                                <p className="xl:text-[18px] 4xl:text-[20px] leading-tight">
+                                <p className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
                                     {item.description}
                                 </p>
                             </div>
@@ -335,8 +272,8 @@ export default function Page() {
                     </div>
                     <div className="col-span-5 4xl:pr-32 mt-10 xl:mt-0 mx-[35px] xl:mx-0">
                         <h2 className="4xl:text-[56px] text-[26px] xl:text-[40px] leading-tight">{t('futureProofTitle')}</h2>
-                        <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">{t('futureProofTitle2')}</h3>
-                        <p className="mt-5 font-normal 4xl:text-[20px] xl:text-[18px]">{t('futureProofDesc')}</p>
+                        <h3 className="4xl:text-[36px] xl:text-[24px] text-[22px] mt-5 font-semibold leading-tight">{t('futureProofTitle2')}</h3>
+                        <p className="mt-5 font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]">{t('futureProofDesc')}</p>
                         <UnorderedList arrName={futureData} ulClassName="list-disc 4xl:space-y-3 xl:space-y-2 marker:font-bold marker:text-2xl pl-5 4xl:mt-10 mt-3 4xl:pr-24" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                         <div className="4xl:mt-10 xl:mt-2">
                             <LearnMore btnName={t('learnMoreBtn')}/>
@@ -372,8 +309,8 @@ export default function Page() {
                                 <div className="absolute inset-0 md:bg-[#016FBE] mix-blend-multiply"></div>
                                 <div className="relative bg-opacity-80 text-white z-10 rounded-lg">
                                     <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[45px]">{t('sapFioriTitle')}</h2>
-                                    <h3 className="4xl:text-[36px] text-[20px] mt-5 leading-tight font-semibold">{t('sapFioriTitle2')}</h3>
-                                    <p className="mt-5 font-normal">{t('sapFioriDesc')}</p>
+                                    <h3 className="4xl:text-[36px] xl:text-[24px] text-[20px] mt-5 leading-tight font-semibold">{t('sapFioriTitle2')}</h3>
+                                    <p className="mt-5 font-normal 4xl:text-[20px] xl:text-[18px] text-[16px] ">{t('sapFioriDesc')}</p>
                                     <UnorderedList arrName={revolutionizeData} ulClassName="list-disc 4xl:space-y-5 marker:font-bold marker:text-2xl pl-5 4xl:mt-10 mt-3" liClassName="4xl:text-[20px] xl:text-[18px] font-normal text-[16px]" />
                                 </div>
                             </div>
@@ -412,10 +349,10 @@ export default function Page() {
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] mt-10 xl:mt-0 leading-tight 4xl:pt-16 xl:pt-5">
                             {t('unleashTitle')}
                         </h2>
-                        <h3 className="4xl:text-[36px] text-[20px] mt-5 xl:font-bold font-medium  4xl:pr-40 leading-tight">
+                        <h3 className="4xl:text-[36px] xl:text-[24px] text-[20px] mt-5 xl:font-bold font-medium  4xl:pr-40 leading-tight">
                             {t('unleashSubTitle')}
                         </h3>
-                        <p className="mt-5 leading-tight pr-10 4xl:pr-40 font-normal">
+                        <p className="mt-5 leading-tight pr-10 4xl:pr-40 font-normal 4xl:text-[20px] xl:text-[18px] text-[16px] ">
                             {t('unleashTitleDesc')}
                         </p>
                         <UnorderedList arrName={unleashData} ulClassName="list-disc 4xl:space-y-5 4xl:text-[20px] xl:text-[18px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight pr-5 xl:pr-0" liClassName="first:mt-3" />
@@ -441,11 +378,11 @@ export default function Page() {
                     </div>
                     <div className="xl:col-span-6 col-span-12 bg-[#068EDA] p-8 text-white xl:mt-10 mb-10 z-[9]  mt-[-175px] custom-container xl:!pr-0  !w-[85%] xl:!w-full">
                         <h2 className="leading-tight xl:mt-0 xl:text-[40px]">{t('seamlessTitle')}</h2>
-                        <h3 className="mt-5 xl:text-[36px] text-[20px] leading-tight font-semibold">{t('seamlessSubTitle')}</h3>
-                        <p className="mt-8 font-light leading-tight">
+                        <h3 className="mt-5 4xl:text-[36px] xl:text-[24px] text-[20px] leading-tight font-semibold">{t('seamlessSubTitle')}</h3>
+                        <p className="mt-8 font-light leading-tight 4xl:text-[20px] xl:text-[18px] text-[16px] ">
                             {t('seamlessDesc')}
                         </p>
-                        <UnorderedList arrName={seamlessData} ulClassName="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight xl:pr-32 font-light" liClassName="first:mt-5" />
+                        <UnorderedList arrName={seamlessData} ulClassName="list-disc xl:space-y-5 4xl:text-[20px] xl:text-[18px] text-[16px]  pl-5 marker:font-bold marker:text-2xl leading-tight xl:pr-32 font-light" liClassName="first:mt-5" />
                     </div>
                     <div className="xl:col-span-6 col-span-12 xl:block hidden xl:ml-[-350px]">
                         <Image
@@ -489,9 +426,9 @@ export default function Page() {
                     </div>
                     <div className="col-span-4 mx-[35px] xl:mx-0 mt-10 xl:mt-0 md:mx-0">
                         <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[40px]">{t('codeFutureTitle')}</h2>
-                        <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">{t('codeFutureSubTitle')}</h3>
-                        <p className="mt-5 leading-tight">{t('codeFutureDesc')}</p>
-                        <UnorderedList arrName={codeData} ulClassName="list-disc 4xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-10 mt-3" liClassName="first:mt-5" />
+                        <h3 className="4xl:text-[36px] xl:text-[24px] text-[22px] mt-5 font-semibold leading-tight">{t('codeFutureSubTitle')}</h3>
+                        <p className="mt-5 leading-tight 4xl:text-[20px] xl:text-[18px] text-[16px] ">{t('codeFutureDesc')}</p>
+                        <UnorderedList arrName={codeData} ulClassName="list-disc 4xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] text-[16px] 4xl:mt-10 mt-3" liClassName="first:mt-5" />
                     </div>
                 </div>
             </section>
@@ -522,13 +459,13 @@ export default function Page() {
                     
                     >
                         <h2 className="leading-tight xl:mt-10 4xl:text-[56px] text-[26px] xl:text-[40px]">{t('intelligentTitle')}</h2>
-                        <h3 className="mt-5 4xl:text-[36px] text-[20px] leading-tight font-semibold xl:pr-10">
+                        <h3 className="mt-5 4xl:text-[36px] xl:text-[24px] text-[20px] leading-tight font-semibold xl:pr-10">
                             {t('intelligentSubTitle')}
                         </h3>
-                        <p className="mt-8 font-light leading-tight xl:pr-20">
+                        <p className="mt-8 font-light leading-tight xl:pr-20 4xl:text-[20px] xl:text-[18px] text-[16px] ">
                             {t('intelligentDesc')}
                         </p>
-                        <UnorderedList arrName={intelligentData} ulClassName="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight font-light" liClassName="first:mt-5" />
+                        <UnorderedList arrName={intelligentData} ulClassName="list-disc xl:space-y-5 4xl:text-[20px] xl:text-[18px] text-[16px]  pl-5 marker:font-bold marker:text-2xl leading-tight font-light" liClassName="first:mt-5" />
                         <div className="4xl:mt-[36px] 2xl:mt-[48px] xl:mt-[40px] mt-[29px] absolute">
                             <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                         </div>
@@ -566,13 +503,13 @@ export default function Page() {
                                 <h2 className="4xl:text-[60px] text-[26px] xl:text-[40px] leading-tight pr-0 4xl:pr-64">
                                     {t('winningTitle')}
                                 </h2>
-                                <h3 className="mt-5 4xl:text-[36px] text-[22px] leading-tight font-semibold pr-0 2xl:pr-32">
+                                <h3 className="mt-5 4xl:text-[36px] xl:text-[24px] text-[22px] leading-tight font-semibold pr-0 2xl:pr-32">
                                     {t('winningTitle2')}
                                 </h3>
-                                <p className="mt-5 font-normal">
+                                <p className="mt-5 font-normal 4xl:text-[20px] xl:text-[18px] text-[16px] ">
                                     {t('winningDesc')}
                                 </p>
-                                <UnorderedList arrName={winningSectionData} ulClassName="list-disc 4xl:space-y-5 xl:space-y-3 pl-5 4xl:text-[20px] text-[16px] mt-5 " liClassName="" />
+                                <UnorderedList arrName={winningSectionData} ulClassName="list-disc 4xl:space-y-5 xl:space-y-3 pl-5 4xl:text-[20px] xl:text-[18px] text-[16px]  mt-5 " liClassName="" />
                                 <div className="xl:bottom-0 absolute">
                                     <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                                 </div>
@@ -586,13 +523,13 @@ export default function Page() {
                 <div className="grid xl:grid-cols-12 grid-cols-12">
                     <div className="xl:col-span-6 col-span-12">
                         <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[40px]">{t('smartTitle')}</h2>
-                        <h3 className="4xl:text-[36px] xl:text-[30px] text-[20px] mt-5 leading-tight font-semibold">{t('smartSubTitle')}</h3>
-                        <UnorderedList arrName={sapAribaData} ulClassName="list-disc space-y-3 pl-5 xl:text-[20px] text-[16px] mt-5" liClassName="" />
+                        <h3 className="4xl:text-[36px] xl:text-[24px] text-[20px] mt-5 leading-tight font-semibold">{t('smartSubTitle')}</h3>
+                        <UnorderedList arrName={sapAribaData} ulClassName="list-disc space-y-3 pl-5 4xl:text-[20px] xl:text-[18px] text-[16px]  mt-5" liClassName="" />
                     </div>
                     <div className="xl:col-span-6 col-span-12 mt-20 xl:mt-0">
                         <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[40px]">{t('modernTitle')}</h2>
-                        <h3 className="4xl:text-[36px] xl:text-[30px] text-[20px] mt-5 leading-tight font-semibold">{t('modernSubTitle')}</h3>
-                        <UnorderedList arrName={sapDatasphereData} ulClassName="list-disc space-y-3 pl-5 xl:text-[20px] text-[16px] mt-5" liClassName="" />
+                        <h3 className="4xl:text-[36px] xl:text-[24px] text-[20px] mt-5 leading-tight font-semibold">{t('modernSubTitle')}</h3>
+                        <UnorderedList arrName={sapDatasphereData} ulClassName="list-disc space-y-3 pl-5 4xl:text-[20px] xl:text-[18px] text-[16px]  mt-5" liClassName="" />
                     </div>
                 </div>
             </section>
@@ -626,7 +563,7 @@ export default function Page() {
                     </div>
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-black">
                         <div className="xl:col-span-7 col-span-12">
-                            <p className="mt-5">{t('sapSignavioDesc')} </p>
+                            <p className="mt-5 4xl:text-[20px] xl:text-[18px] text-[16px] ">{t('sapSignavioDesc')} </p>
                         </div>
                     </div>
                     <div className="grid xl:grid-cols-12 xl:gap-x-12 gap-y-6 mt-16">
@@ -638,7 +575,7 @@ export default function Page() {
                                     </div>
                                     <div className="flex flex-col xl:flex-row xl:gap-10 justify-center w-full xl:items-center">
                                         <p className="font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] text-black">{title}</p>
-                                        <p className={`font-normal 4xl:text-[20px] xl:text-[18px] text-black mt-1`}>{description}</p>
+                                        <p className={`font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]  text-black mt-1`}>{description}</p>
                                     </div>
                                 </div>
                             ))}
@@ -651,7 +588,7 @@ export default function Page() {
                                     </div>
                                     <div className="flex flex-col xl:items-center xl:flex-row xl:gap-10 justify-center w-full">
                                         <p className="font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] text-black">{title}</p>
-                                        <p className={`font-normal 4xl:text-[20px] xl:text-[18px] text-black mt-1`}>{description}</p>
+                                        <p className={`font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]  text-black mt-1`}>{description}</p>
                                     </div>
                                 </div>
                             ))}
@@ -695,7 +632,7 @@ export default function Page() {
                             <h2 className="text-[25px] 4xl:text-[60px] xl:text-[40px] leading-tight">
                                 {t('superChargeTitle')}
                             </h2>
-                            <p className="mt-5 font-normal">
+                            <p className="mt-5 font-normal 4xl:text-[20px] xl:text-[18px] text-[16px] ">
                                 {t('superChargeDesc')}
                             </p>
                             <UnorderedList arrName={superchargeData} ulClassName="list-disc space-y-3 pl-5 4xl:text-[20px] xl:text-[18px] text-[16px] mt-5" liClassName="" />
@@ -732,13 +669,13 @@ export default function Page() {
                     </div>
                     <div className="xl:col-span-5 col-span-12 order-2 xl:order-1 mx-[35px] xl:mx-0 xl:mt-0 md:mx-0 ">
                         <h2 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[35px] mt-16">{t('btpTitle')}</h2>
-                        <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">
+                        <h3 className="4xl:text-[36px] xl:text-[24px] text-[22px] mt-5 font-semibold leading-tight">
                             {t('btpSubTitle')}
                         </h3>
-                        <p className="4xl:mt-8 xl:mt-4 font-normal 4xl:text-[20px] text-[16px]">
+                        <p className="4xl:mt-8 xl:mt-4 font-normal 4xl:text-[20px] xl:text-[18px] text-[16px] ">
                             {t('btpDesc')}
                         </p>
-                        <UnorderedList arrName={btpData} ulClassName="list-disc 4xl:space-y-5 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] 4xl:mt-10 mt-3 xl:pr-10" liClassName="" />
+                        <UnorderedList arrName={btpData} ulClassName="list-disc 4xl:space-y-5 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] text-[16px]  4xl:mt-10 mt-3 xl:pr-10" liClassName="" />
                         <div className="mt-5 relative">
                             <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')}/>
                         </div>
@@ -771,17 +708,17 @@ export default function Page() {
                             <h2 className="text-[25px] 4xl:text-[60px] xl:text-[50px] mt-16 leading-tight">
                                 {t('migrateTitle')}
                             </h2>
-                            <h3 className="xl:text-[36px] text-[20px] xl:mt-12 mt-5">{t('migrateSubTitle')}</h3>
+                            <h3 className="4xl:text-[36px] xl:text-[24px] text-[20px] xl:mt-12 mt-5">{t('migrateSubTitle')}</h3>
                         </div>
                     </div>
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:pt-10 pt-5 xl:pb-20">
                         <div className="xl:col-span-6 col-span-12">
-                            <h3 className="xl:text-[28px] text-[18px] xl:font-semibold font-medium">{t('migrateSubTitle2')}</h3>
-                            <UnorderedList arrName={migrateData1} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3 xl:pr-20" liClassName="" />
+                            <h3 className="4xl:text-[28px] xl:text-[20px] text-[18px] xl:font-semibold font-medium">{t('migrateSubTitle2')}</h3>
+                            <UnorderedList arrName={migrateData1} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] text-[16px]  xl:mt-10 mt-3 xl:pr-20" liClassName="" />
                         </div>
                         <div className="xl:col-span-6 col-span-12 mt-10 xl:mt-0">
-                            <h3 className="xl:text-[28px] text-[18px] xl:font-semibold font-medium xl:pr-20">{t('migrateSubTitle3')}</h3>
-                            <UnorderedList arrName={migrateData2} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:text-[20px] text-[16px] xl:mt-10 mt-3 xl:pr-20" liClassName="" />
+                            <h3 className="4xl:text-[28px] xl:text-[20px] text-[18px] xl:font-semibold font-medium xl:pr-20">{t('migrateSubTitle3')}</h3>
+                            <UnorderedList arrName={migrateData2} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] text-[16px]  xl:mt-10 mt-3 xl:pr-20" liClassName="" />
                         </div>
                     </div>
                 </div>
@@ -802,8 +739,8 @@ export default function Page() {
                     </div>
                     <div className="col-span-5 xl:mt-20 mx-[35px] xl:mx-0 mt-10 md:mx-0">
                         <h2 className="leading-tight xl:text-[40px] 4xl:text-[60px] text-[26px]">{t('whyPartenerTitle')}</h2>
-                        <h3 className="4xl:text-[36px] text-[20px] mt-5 font-semibold leading-tight">{t('whyPartenerSubTitle')}</h3>
-                        <UnorderedList arrName={whyPartnerData} ulClassName="list-disc 4xl:space-y-5 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] text-[16px] xl:mt-5 4xl:mt-10 mt-3" liClassName="" />
+                        <h3 className="4xl:text-[36px] xl:text-[24px] text-[20px] mt-5 font-semibold leading-tight">{t('whyPartenerSubTitle')}</h3>
+                        <UnorderedList arrName={whyPartnerData} ulClassName="list-disc 4xl:space-y-5 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] text-[16px]  xl:mt-5 4xl:mt-10 mt-3" liClassName="" />
                     </div>
                 </div>
             </section>
