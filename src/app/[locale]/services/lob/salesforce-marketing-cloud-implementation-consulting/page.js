@@ -347,10 +347,10 @@ export default function Page() {
             {/* your growth section */}
             <section className={` custom-container relative 4xl:pr-[142px]  max-md:px-0
              ${locale === "es"
-                    ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[100rem] xs:mt-[1333px] sm:mt-[58rem] md:mt-[52rem] lg:mt-[80rem] xl:mt-[30rem]"
+                    ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[88rem] xs:mt-[1275px] sm:mt-[58rem] md:mt-[52rem] lg:mt-[30rem] xl:mt-[30rem]"
                     : locale === "fr"
-                        ? "4xl:mt-[24rem] 2xl:mt-[10rem]  mt-[104rem] xs:mt-[1413px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[80rem] xl:mt-[32rem] max-md:px-0"
-                        : "4xl:mt-[14rem] 2xl:mt-[10rem]  mt-[83rem] xs:mt-[1200px] sm:mt-[58rem] md:mt-[50rem] lg:mt-[30rem] xl:mt-[20rem] max-md:px-0 "
+                        ? "4xl:mt-[24rem] 2xl:mt-[10rem]  mt-[90rem] xs:mt-[1360px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[30rem] xl:mt-[32rem] max-md:px-0"
+                        : "4xl:mt-[14rem] 2xl:mt-[10rem] max-[360px]:mt-[1396px] mt-[75rem] xs:mt-[1145px] sm:mt-[58rem] md:mt-[50rem] lg:mt-[30rem] xl:mt-[20rem] max-md:px-0"
                 }`}
             >
                 <div className="grid grid-cols-1 xl:grid-cols-2 items-stretch relative">

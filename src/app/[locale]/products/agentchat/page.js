@@ -220,7 +220,7 @@ export default function Page() {
                                     />
                                 ))}
                             </ul>
-                            <LearnMore btnName={t('learnMoreBtn')} />
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                         </div>
                         <div className="mt-10 xl:mt-0">
                             <Image

@@ -107,7 +107,7 @@ export default function Page() {
                             <UnorderedList arrName={rialtesBenefits} ulClassName="list-disc pl-6 space-y-8 4xl:text-[20px] leading-tight 4xl:pr-8" liClassName="" />
                         </div>
                         <div className="absolute bottom-0">
-                            <LearnMore href="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/" btnName={t('khownMoreBtn')} />
+                            <LearnMore href="/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/" locale={locale} btnName={t('khownMoreBtn')} />
 
                         </div>
                     </div>
@@ -185,7 +185,7 @@ export default function Page() {
 
                                         <div className="xl:mt-[65px] xl:absolute bottom-0">
                                             <div>
-                                                <LearnMore bgcolor="#073259" bordercolor="#073259" btnName={t('learnMoreBtn')} />
+                                                <LearnMore bgcolor="#073259" locale={locale} bordercolor="#073259" btnName={t('learnMoreBtn')} />
                                             </div>
                                         </div>
                                     </div>
@@ -285,7 +285,7 @@ xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px]
 
                                         <div className="mt-auto xl:mt-[65px] items-end">
                                             <div>
-                                                <LearnMore bgcolor="#073259" bordercolor="#073259" btnName={t('learnMoreBtn')} />
+                                                <LearnMore bgcolor="#073259" bordercolor="#073259" btnName={t('learnMoreBtn')} locale={locale}/>
                                             </div>
                                         </div>
                                     </div>
