@@ -126,7 +126,7 @@ export default function servicesInsightsCarousel({ padding }) {
               <div className="absolute inset-0 bg-[#134874] bg-opacity-80 p-6 md:opacity-0 opacity-100 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-between">
                 <span className="my-4 line-clamp-4 md:line-clamp-none font-medium text-[18px] xl:text-[22px] 4xl:text-[26px] leading-tight">{slide.category}</span>
                 <div className="flex flex-col justify-between">
-                  <p className="line-clamp-4 mb-4">{slide.title}</p>
+                  <p className="line-clamp-4 mb-4 text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]">{slide.title}</p>
                   <Link tabIndex={-1} href={'/' + slide.url}><span className="font-medium">{t('learnMore')} &#8594;</span></Link>
                 </div>
               </div>
