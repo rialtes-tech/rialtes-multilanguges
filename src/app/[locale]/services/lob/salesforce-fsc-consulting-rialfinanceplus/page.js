@@ -59,7 +59,7 @@ export default function page() {
                             <h3 className="text-[18px] md:text-[24px] font-bold">
                                 {t('headerTitle')}
                             </h3>
-                            <h1 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] lg:mt-[28.5px] w-[88%] sm:w-full">
+                            <h1 className="text-[26px] leading-tight md:text-[30px] xl:text-[40px] 4xl:text-[60px] mt-[11.5px] lg:mt-[28.5px] w-[88%] sm:w-full">
                                 {t('headerSubTitle')}
                             </h1>
                             <h2 className="text-[#000000] text-[20px] leading-tight xl:text-[28px] 4xl:text-[35px] mt-[14px] lg:mt-[46px] font-bold 4xl:w-[80%]">
@@ -74,10 +74,10 @@ export default function page() {
             {/* page description section */}
             <section className="custom-container xl:mt-[99px] mt-[50px]">
                 <div>
-                    <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[90%] sm:w-full">
+                    <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] w-full">
                         {t('pageDescTitle')}  <div className="sm:block hidden" />{t('pageDescTitle2')} <div className="sm:block hidden" />{t('pageDescTitle3')}
                     </h2>
-                    <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight font-normal xl:mt-[43px] mt-[30px] w-[90%] sm:w-full xl:w-[80%]">
+                    <p className="4xl:text-[22px] md:text-[18px] text-[16px] leading-tight font-normal xl:mt-[43px] mt-[30px] w-full xl:w-[80%]">
                         {t('pageDesc')}
                         <br />
                         <br />
@@ -113,18 +113,18 @@ export default function page() {
                             </div>
                         </div>
                         <div className="lg:col-span-5 col-span-12 max-lg:px-[36px] w-full lg:w-full">
-                            <h2 className="text-[25px] xl:text-[40px] 4xl:text-[60px] leading-tight">
+                            <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight">
                                 {t('startWithTitle')}
                             </h2>
-                            <h3 className="text-[22px] xl:text-[30px] 4xl:text-[36px] font-semibold xl:mt-[25px] mt-[17px]">
+                            <h3 className="text-[22px] md:text-[26px] xl:text-[30px] 4xl:text-[36px] font-semibold xl:mt-[25px] mt-[17px]">
                                 {t('startWithSubTitle')}
                             </h3>
-                            <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] xl:mt-[25px] mt-[17px] font-normal">
+                            <p className="md:text-[18px] 4xl:text-[22px] text-[16px] xl:mt-[25px] mt-[17px] font-normal">
                                 {t('startWithDesc')}
                             </p>
-                            <UnorderedList arrName={startWithData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[17px] pl-[20px]" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
+                            <UnorderedList arrName={startWithData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[17px] pl-[20px]" liClassName="text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[62px] mt-[46px]">
-                                <LearnMore btnName={t('learnMoreBtn')} />
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                             </div>
                         </div>
                     </div>
@@ -136,27 +136,27 @@ export default function page() {
             {/* introducing rialfinance+ */}
             <section className="xl:mt-[121px] mt-[84px]">
                 <div className="custom-container">
-                    <p className="xl:text-[36px] 4xl:text-[40px] text-[18px] leading-tight font-light">
+                    <p className="xl:text-[30px] 4xl:text-[40px] md:text-[22px] text-[18px] leading-tight font-light">
                         {t('introducingTitle')}
                     </p>
-                    <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]">
+                    <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
                         {t('introducingSubTitle')}
                     </h2>
                 </div>
                 <div className="custom-container xl:mt-[25px] mt-[17px] 4xl:!pr-[142px] xl:!pr-[52px] lg:!pr-[42px]">
                     <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] gap-y-[17px]">
                         <div className="lg:col-span-5 col-span-12 w-[90%] md:w-[80%] lg:w-full">
-                            <h3 className="text-[20px] leading-tight xl:text-[26px] 4xl:text-[36px] font-semibold">
+                            <h3 className="leading-tight text-[20px] md:text-[26px] xl:text-[30px] 4xl:text-[36px] font-semibold">
                                 {t('introducingSubTitle2')}
                             </h3>
                         </div>
                         <div className="lg:col-span-7 col-span-12 w-[90%] md:w-[80%] lg:w-full">
-                            <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight font-normal">
+                            <p className="4xl:text-[22px] md:text-[18px] text-[16px] leading-tight font-normal">
                                 {t('introducingDesc')}
                             </p>
                         </div>
                     </div>
-                    <h2 className="text-[18px] leading-tight xl:text-[26px] 4xl:text-[32px] xl:mt-[82px] mt-[41px] font-semibold">
+                    <h2 className="text-[17px] md:text-[18px] leading-tight xl:text-[26px] 4xl:text-[32px] xl:mt-[82px] mt-[41px] font-semibold">
                         {t('deepDiveTitle')}
                     </h2>
                 </div>
@@ -187,7 +187,7 @@ export default function page() {
                                                     priority
                                                 />
                                             </div>
-                                            <UnorderedList arrName={data.dataList} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full xl:mt-[40px] mt-[23px]" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normaltext-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal" />
+                                            <UnorderedList arrName={data.dataList} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full xl:mt-[40px] mt-[23px]" liClassName="text-[16px] 4xl:text-[20px] leading-tight font-normal" />
                                         </div>
                                         <div>
                                             <div className="md:block hidden w-full h-full mt-[-20px]">
@@ -203,7 +203,7 @@ export default function page() {
                                         </div>
                                     </div>
                                     <div className="xl:mt-5 4xl:mt-5 2xl:mt-5  mt-[27px]">
-                                        <LearnMore btnName={t('learnMoreBtn')} />
+                                        <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                                     </div>
                                 </div>
                             )
@@ -239,25 +239,25 @@ export default function page() {
                 <div className="custom-container 4xl:!pr-[142px] xl:!pr-[36px] md:!pr-0 max-md:px-0 md:mt-[-120px] relative z-20">
                     <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[60px] 4xl:gap-[20px] gap-y-[30px] bg-[#0E3157] text-[#ffffff] xl:pt-[87px] xl:pl-[70px] xl:pr-[40px] xl:pb-[127px] pt-[41px] pb-[93px] px-[36px]">
                         <div className="md:col-span-6 col-span-12">
-                            <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] w-[90%] md:w-full lg:w-[60%] xl:w-full">
+                            <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] w-[90%] md:w-full lg:w-[60%] xl:w-full">
                                 {t('exelonaTitle')}
                             </h2>
-                            <h3 className="text-[22px] xl:text-[30px] 4xl:text-[36px] font-semibold xl:mt-[25px] mt-[17px] 4xl:w-[80%]">
+                            <h3 className="text-[22px] md:text-[26px] xl:text-[30px] 4xl:text-[36px] font-semibold xl:mt-[25px] mt-[17px] 4xl:w-[80%]">
                                 {t('exelonaSubTitle')}
                             </h3>
-                            <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] xl:mt-[25px] mt-[17px] font-normal 4xl:w-[70%]">
+                            <p className="4xl:text-[22px] md:text-[18px] text-[16px] xl:mt-[25px] mt-[17px] font-normal 4xl:w-[70%]">
                                 {t('exelonaDesc')}
                             </p>
                         </div>
                         <div className="md:col-span-6 col-span-12">
-                            <UnorderedList arrName={exelonaData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
+                            <UnorderedList arrName={exelonaData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[75px] mt-[55px]">
-                                <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" />
+                                <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" locale={locale}/>
                             </div>
                         </div>
                     </div>
                     <div className="absolute xl:px-[70px] px-[36px] mt-[-50px]">
-                        <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#006FBE] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]"> {t('exelonaBlueBox')} </p>
+                        <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#006FBE] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[16px]"> {t('exelonaBlueBox')} </p>
                     </div>
                 </div>
             </section>
@@ -284,25 +284,25 @@ export default function page() {
                         priority
                     />
                 </div>
-                <h2 className="text-[26px] xl:text-[36px] 4xl:text-[50px] text-[#ffffff] xl:pt-[50px] pt-[41px]">
+                <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] text-[#ffffff] xl:pt-[50px] pt-[41px]">
                     {t('agentChatTitle')}
                 </h2>
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[60px] 4xl:gap-[80px] gap-y-[30px] text-[#ffffff] xl:mt-[23px] mt-[16px]">
                     <div className="md:col-span-5 col-span-12">
-                        <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold w-[90%] xl:w-[90%] 4xl:w-full">
+                        <h3 className="text-[22px] md:text-[26px] xl:text-[30px] 4xl:text-[36px] font-semibold ">
                             {t('agentChatSubTitle')}
                         </h3>
-                        <p className="xl:text-[18px] 4xl:text-[20px] text-[16px] xl:mt-[35px] mt-[16px] font-normal w-[90%] xl:w-full">
+                        <p className="4xl:text-[20px] text-[16px] xl:mt-[35px] mt-[16px] font-normal">
                             {t('agentChatDesc')}
                         </p>
                     </div>
                     <div className="md:col-span-7 col-span-12">
-                        <UnorderedList arrName={agentChat} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
-                        <p className="xl:text-[18px] 4xl:text-[22px] text-[18px] xl:mt-[52px] mt-[29px] font-normal">
+                        <UnorderedList arrName={agentChat} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight font-normal" />
+                        <p className="text-[16px] md:text-[18px] 4xl:text-[22px] xl:mt-[52px] mt-[29px] font-normal">
                             {t('agentChatDesc2')}
                         </p>
                         <div className="xl:mt-[55px] mt-[37px]">
-                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" />
+                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" locale={locale}/>
                         </div>
                     </div>
                 </div>
@@ -312,21 +312,21 @@ export default function page() {
             <section className="xl:mt-[73px] mt-[42px] custom-container">
                 <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[40px] lg:gap-[80px] gap-y-[29px]">
                     <div className="md:order-1 order-2">
-                        <h2 className="text-[26px] xl:text-[36px] 4xl:text-[50px]">
+                        <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
                             {t('agentForceTitle')}
                         </h2>
-                        <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold w-[90%] xl:w-[90%] 4xl:w-full mt-[13px] xl:mt-[23px]">
+                        <h3 className="text-[18px] md:text-[20px] xl:text-[30px] 4xl:text-[36px] font-semibold w-[90%] xl:w-[90%] 4xl:w-full mt-[13px] xl:mt-[23px]">
                             {t('agentForceSubTitle')}
                         </h3>
-                        <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] xl:mt-[35px] mt-[16px] font-normal w-[90%] xl:w-full">
+                        <p className="4xl:text-[22px] md:text-[18px] text-[16px] xl:mt-[35px] mt-[16px] font-normal w-[90%] xl:w-full">
                             {t('agentForceDesc')}
                         </p>
-                        <UnorderedList arrName={agentforceData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[43px] mt-[16] pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
-                        <p className="xl:text-[18px] 4xl:text-[22px] text-[18px] xl:mt-[49px] mt-[48px] font-normal w-[90%] md:w-full">
+                        <UnorderedList arrName={agentforceData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[43px] mt-[16] pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight font-normal" />
+                        <p className="md:text-[18px] 4xl:text-[22px] text-[16px] xl:mt-[49px] mt-[48px] font-normal w-[90%] md:w-full">
                             {t('agentForceDesc2')}
                         </p>
                         <div className="xl:mt-[55px] mt-[37px]">
-                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" />
+                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" locale={locale}/>
                         </div>
                     </div>
                     <div className="md:order-2 order-1">
@@ -369,7 +369,7 @@ export default function page() {
                                 priority
                             />
                             <div className="absolute right-0 mt-[-60px]">
-                                <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]"> {t('salesforceBlueBox')} </p>
+                                <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[16px]"> {t('salesforceBlueBox')} </p>
                             </div>
                         </div>
                         {/* mob image */}
@@ -385,26 +385,26 @@ export default function page() {
                         </div>
                     </div>
                     <div className="md:col-span-5 col-span-12">
-                        <h2 className="text-[26px] xl:text-[36px] 4xl:text-[48px] w-[90%] md:w-full">
+                        <h2 className="text-[26px] md:text-[30px] xl:text-[36px] 4xl:text-[48px] w-[90%] md:w-full">
                             {t('salesforceTitle')}
                         </h2>
-                        <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold w-[90%] xl:w-[90%] 4xl:w-full mt-[16px] xl:mt-[33px]">
+                        <h3 className="text-[18px] md:text-[20px] xl:text-[30px] 4xl:text-[36px] font-semibold w-[90%] xl:w-[90%] 4xl:w-full mt-[16px] xl:mt-[33px]">
                             {t('salesforceSubTitle')}
                         </h3>
                         <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[33px] mt-[17px] pl-[20px] w-[86%] md:w-full">
                             {salesforceData.map((data, ind) => (
                                 <li
-                                    className="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal"
+                                    className="text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight font-normal"
                                     key={ind}>
                                     {data}
                                 </li>
                             ))}
                         </ul>
                         <div className="xl:mt-[71px] mt-[37px]">
-                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" />
+                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" locale={locale}/>
                         </div>
                         <div className="md:hidden mt-[40px]">
-                            <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[18px]">{t('salesforceBlueBox')}</p>
+                            <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[16px]">{t('salesforceBlueBox')}</p>
                         </div>
                     </div>
                 </div>
@@ -415,15 +415,15 @@ export default function page() {
                 <div className="grid lg:grid-cols-12 grid-cols-1">
                     <div className="lg:col-span-5 col-span-12 lg:mr-[-90px] relative z-20 lg:order-1 order-2">
                         <div className="bg-[#5D5F63] max-lg:mx-[36px] text-[#ffffff] xl:pt-[57px] xl:pb-[101px] xl:pl-[80px] xl:pr-[60px] lg:my-[60px] pt-[34px] px-[30px] pb-[60px]">
-                            <h2 className="text-[26px] xl:text-[36px] 4xl:text-[48px] w-[90%] md:w-full">
+                            <h2 className="text-[26px] md:text-[30px] xl:text-[36px] 4xl:text-[48px] w-[90%] md:w-full">
                                 {t('howWeDeliverTitle')}
                             </h2>
-                            <h3 className="text-[20px] xl:text-[28px] 4xl:text-[38px] font-semibold mt-[16px] xl:mt-[35px] w-[90%] lg:w-full">
+                            <h3 className="text-[22px] md:text-[26px] xl:text-[30px] 4xl:text-[36px] font-semibold mt-[16px] xl:mt-[35px] w-[90%] lg:w-full">
                                 {t('howWeDeliverSubTitle')}
                             </h3>
-                            <UnorderedList arrName={howWeDeliverData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[33px] mt-[17px] pl-[20px] w-[86%] md:w-full 4xl:w-[90%]" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
+                            <UnorderedList arrName={howWeDeliverData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[33px] mt-[17px] pl-[20px] w-[86%] md:w-full 4xl:w-[90%]" liClassName="text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[40px] mt-[10px] absolute">
-                                <LearnMore btnName={t('learnMoreBtn')} />
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                             </div>
                         </div>
                     </div>
@@ -481,18 +481,18 @@ export default function page() {
                     <div className="lg:absolute lg:right-0 xl:top-[-90px] lg:top-[-40px] lg:w-[50%] xl:w-[48%] 3xl:w-[40%] 4xl:w-[50%]">
                         <div className="bg-[#006FBE] text-[#ffffff] 4xl:pt-[79px] 4xl:pl-[67px] 4xl:pr-[60px] xl:pt-[54px] xl:pl-[50px] xl:pr-[50px] pt-[34px] px-[36px]">
                             <h2
-                                className={`text-[26px] w-[90%] md:w-full 
+                                className={`text-[26px] md:text-[30px] w-[90%] md:w-full 
                                     ${esActive ? "4xl:text-[52px] 2xl:text-[28px] xl:text-[37px]" : ""} 
                                     ${frActive ? "4xl:text-[40px] 2xl:text-[28px] xl:text-[30px] lg:text-[22px]" : ""} 
                                     ${enActive ? "4xl:text-[60px] xl:text-[40px]" : ""}`}>
                                 {t('whyRialtesTitle')}
                             </h2>
-                            <h3 className="text-[20px] xl:text-[28px] 4xl:text-[36px] font-semibold mt-[16px] xl:mt-[27px] w-[90%] lg:w-full">
+                            <h3 className="text-[22px] md:text-[26px] xl:text-[30px] 4xl:text-[36px] font-semibold mt-[16px] xl:mt-[27px] w-[90%] lg:w-full">
                                 {t('whyRialtesSubTitle')}
                             </h3>
-                            <UnorderedList arrName={whyRialtesData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[39px] mt-[16px] pl-[20px] w-[86%] md:w-full" liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal" />
+                            <UnorderedList arrName={whyRialtesData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[39px] mt-[16px] pl-[20px] w-[86%] md:w-full" liClassName="text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="4xl:mt-[53px] mt-[34px]">
-                                <LearnMore btnName={t('learnMoreBtn')} />
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                             </div>
                         </div>
                     </div>
@@ -500,7 +500,7 @@ export default function page() {
             </section>
             {/* Contact Form */}
             < div className="custom-container lg:mt-[108px] lg:mb-[92px] mt-[41px] mb-[45px]">
-                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubTitle2')} className={"xl:text-[40px] 4xl:text-[60px] text-[26px] xl:w-[68%] 4xl:w-[80%]"} />
+                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubTitle2')} className={"text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] xl:w-[68%] 4xl:w-[80%]"} />
             </div >
         </div>
     )
