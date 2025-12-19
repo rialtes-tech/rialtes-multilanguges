@@ -223,7 +223,7 @@ export default function Page() {
               <h3 className="4xl:text-[30px] xl:text-[24px] text-[22px] leading-tight font-bold">{t('rialtesSapMigratingTitle')}</h3>
               <UnorderedList arrName={rialtesSapData} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight " />
               <div className="xl:mt-3">
-                <LearnMore btnName={t('learnMoreBtn')} textColor="#134874" bgcolor="#ffffff" />
+                <LearnMore btnName={t('learnMoreBtn')} textColor="#134874" bgcolor="#ffffff" locale={locale} />
               </div>
             </div>
           </div>
@@ -381,7 +381,7 @@ export default function Page() {
               <h2 className="4xl:text-[40px] xl:text-[28px] text-[20px] leading-tight xl:font-semibold font-bold">{t('meetTitle')} </h2>
               <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 font-normal leading-tight">
                 {t('rialchatTitle')}</p>
-              <LearnMore btnName={t('knowMoreBtn')} href='/products/agentchat' textColor="#134874" bgcolor="#ffffff" />
+              <LearnMore btnName={t('knowMoreBtn')} href='/products/agentchat' textColor="#134874" bgcolor="#ffffff" locale={locale} />
             </div>
             <div className="xl:col-span-7 col-span-12 xl:pr-20 ">
               <h3 className="4xl:text-[30px] xl:text-[24px] text-[18px] leading-tight font-semibold">{t('conversationalBenefitsTitle')}</h3>

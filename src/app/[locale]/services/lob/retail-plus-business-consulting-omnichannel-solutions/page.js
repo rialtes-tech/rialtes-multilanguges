@@ -135,7 +135,7 @@ export default function page() {
             </ul>
 
             <div className="absolute xl:mt-[35px] mt-[25px] md:mt-0">
-              <LearnMore bgcolor="#006FBE" btnName={t('learnMoreBtn')} />
+              <LearnMore bgcolor="#006FBE" btnName={t('learnMoreBtn')} locale={locale}/>
             </div>
           </div>
         </div>
@@ -251,7 +251,7 @@ export default function page() {
                 {t('specializedDesc')}
               </p>
               <div className="md:bottom-0  absolute bottom-[-25px]">
-                <LearnMore btnName={t('learnMoreBtn')} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
               </div>
             </div>
           </div>
@@ -287,7 +287,7 @@ export default function page() {
               {t('aiDrivenDesc')}
             </p>
             <div className="absolute bottom-0">
-              <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} />
+              <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} locale={locale}/>
             </div>
           </div>
         </div>
@@ -303,7 +303,7 @@ export default function page() {
               <h3 className="text-[#0A6BB8] xl:pr-20 4xl:pr-8 font-semibold leading-tight 4xl:text-[30px] xl:text-[20px]">{item.title}</h3>
               <p className="4xl:text-[24px] text-[16px] mt-5 xl:pr-10 font-normal mb-[40px] leading-tight">{item.description}</p>
               <div className="absolute bottom-[-20px]">
-                <LearnMore btnName={t('learnMoreBtn')} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           ))}
@@ -402,7 +402,7 @@ export default function page() {
                       : "4xl:mt-0 xl:mt-[30px] 2xl:mt-[26px]"
                   }`}
                 >
-                  <LearnMore btnName={t('learnMoreBtn')} />
+                  <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                 </div>
               </div>
             </div>

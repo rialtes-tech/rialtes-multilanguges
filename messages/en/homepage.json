@@ -1,25 +1,25 @@
 {
   "homePage": {
-   "schemaData" : {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Rialtes Technologies",
-    "description": "Global expert in IT services and IT consulting, Rialtes delivers AI-powered Salesforce and SAP solutions across industries.",
-    "url": "https://www.rialtes.com/en",
-    "logo": "https://www.rialtes.com/images/homepage/logo.svg",
-    "contactPoint": {
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Rialtes Technologies",
+      "description": "Global expert in IT services and IT consulting, Rialtes delivers AI-powered Salesforce and SAP solutions across industries.",
+      "url": "https://www.rialtes.com/en",
+      "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+      "contactPoint": {
         "@type": "ContactPoint",
         "email": "sales@rialtes.com",
         "contactType": "Sales",
         "areaServed": "US, CA, IN, SG"
-    },
-    "sameAs": [
+      },
+      "sameAs": [
         "https://www.linkedin.com/company/rialtes-technologies-llc",
         "https://www.instagram.com/rialtes_technologies",
         "https://www.youtube.com/@rialtes",
         "https://x.com/Rialtestech"
-    ]
-},
+      ]
+    },
     "withImpactTitle": "with Impact",
     "seoTitle": "IT Services and IT Consulting Company | Rialtes",
     "seoDescription": "Unlock success with Rialtes’ IT services and IT consulting. Powered by AI innovation, we drive efficiency, elevate performance, and fuel sustainable growth.",
@@ -35,8 +35,8 @@
     "rialtesName": "RIALTES",
     "rialtesData": "Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.",
     "lifeAtAlt": "Business professionals at SAP Gold Partner conference, presentations, team events and Salesforce industry gatherings",
-    "logoAlt":"Rialtes logo with white striped oval icon and tagline Simply Enable Empower on clean background",
-    "innovatingAlt":"Bold navy blue text reading INNOVATING with circuit board pattern texture on white background",
+    "logoAlt": "Rialtes logo with white striped oval icon and tagline Simply Enable Empower on clean background",
+    "innovatingAlt": "Bold navy blue text reading INNOVATING with circuit board pattern texture on white background",
     "carouselData": [
       {
         "alt": "Abstract blue glowing network visualization with flowing data streams and digital nodes",
@@ -105,7 +105,7 @@
         "title": "Manufacturing",
         "description": "Streamlined DevOps using Copado and Salesforce",
         "url": "insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-        "imgAlt" : "Abstract black curved design for streamlined DevOps using Copado and Salesforce manufacturing"
+        "imgAlt": "Abstract black curved design for streamlined DevOps using Copado and Salesforce manufacturing"
       },
       {
         "id": 2,
@@ -113,7 +113,7 @@
         "title": "Healthcare",
         "description": "Salesforce Health Cloud, Prior Authorization",
         "url": "insights/case-studies/salesforce-health-cloud-prior-authorization",
-        "imgAlt" : "Serene sky background for Salesforce Health Cloud prior authorization healthcare solution"
+        "imgAlt": "Serene sky background for Salesforce Health Cloud prior authorization healthcare solution"
       },
       {
         "id": 3,
@@ -121,7 +121,7 @@
         "title": "Manufacturing",
         "description": "Omnichannel case management with Salesforce Service Cloud",
         "url": "insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud",
-        "imgAlt" : "Blue wave pattern for omnichannel case management with Salesforce Service Cloud manufacturing"
+        "imgAlt": "Blue wave pattern for omnichannel case management with Salesforce Service Cloud manufacturing"
       },
       {
         "id": 4,
@@ -130,7 +130,7 @@
         "description": "YARDI Transformation Journey with North America's Largest PHA",
         "theme": "light",
         "url": "/insights/case-studies/yardi-implementation-and-5-years-of-successful-ams-journey-with-largest-pha-in-north-america",
-        "imgAlt" : "Blue geometric pattern for YARDI transformation journey with North America's largest PHA"
+        "imgAlt": "Blue geometric pattern for YARDI transformation journey with North America's largest PHA"
       },
       {
         "id": 5,
@@ -138,7 +138,7 @@
         "title": "Healthcare",
         "description": "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
         "url": "insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-        "imgAlt" : "Digital cloud network over city for automated order processing Mulesoft Salesforce Health SAP"
+        "imgAlt": "Digital cloud network over city for automated order processing Mulesoft Salesforce Health SAP"
       },
       {
         "id": 6,
@@ -146,7 +146,7 @@
         "title": "Manufacturing",
         "description": "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
         "url": "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
-        "imgAlt" : "Blue flowing lines for streamlining sales with Salesforce Sales Cloud manufacturing"
+        "imgAlt": "Blue flowing lines for streamlining sales with Salesforce Sales Cloud manufacturing"
       },
       {
         "id": 7,
@@ -155,7 +155,7 @@
         "description": "Automating ACH and Journal Entries with Our Exelona Banking Module",
         "url": "insights/case-studies/realForce-banking-module-ach",
         "theme": "light",
-        "imgAlt" : "Red and blue bar graph for automating ACH journal entries with Exelona banking real estate"
+        "imgAlt": "Red and blue bar graph for automating ACH journal entries with Exelona banking real estate"
       },
       {
         "id": 8,
@@ -164,7 +164,7 @@
         "description": "Digitizing patient journey using Salesforce health cloud",
         "url": "insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
         "theme": "light",
-        "imgAlt" : "Healthcare professional using tablet for digitizing patient journey Salesforce Health Cloud"
+        "imgAlt": "Healthcare professional using tablet for digitizing patient journey Salesforce Health Cloud"
       }
     ],
     "contactUsTitle": "Ready to take the next step? Let’s kick off your journey to operational excellence",
@@ -392,15 +392,15 @@
       {
         "id": 1,
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-        "imgSrc": "/images/case-studies/industrial-workers-safety-collaboration.webp",
+        "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
         "title": "Industrial workers in safety gear and hard hats collaborating with laptop in manufacturing facility warehouse",
         "description": "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
         "altText": "Workers in safety gear collaborating with laptop in manufacturing facility"
       },
-      {  
+      {
         "id": 2,
         "url": "/insights/case-studies/realForce-banking-module-ach",
-        "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
+        "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
         "title": "Business professionals in modern office discussing strategy while pointing at vision board during team collaboration",
         "description": "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
         "altText": "Team discussing business strategy around vision board in a modern office"
@@ -408,7 +408,7 @@
       {
         "id": 3,
         "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-        "imgSrc": "/images/case-studies/healthcare-professionals-patient-care.webp",
+        "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
         "title": "Healthcare professionals in medical scrubs smiling while discussing patient care with digital tablets in clinic",
         "description": "A global medical technology company that develops and manufactures innovative products",
         "altText": "Medical staff reviewing patient care using digital tablets in a clinic"
@@ -430,9 +430,9 @@
         "id": 1,
         "image": "/images/industry/manufacturing-cnc-machine-metalworking.webp",
         "title": "Industrial CNC machine tool drilling with sparks flying during precision manufacturing metalworking process operation",
-        "titleOne":"Manufacturing",
+        "titleOne": "Manufacturing",
         "url": "/industry/manufacturing-cloud-erp",
-        "altText":"CNC machine cutting metal with sparks during precision manufacturing"
+        "altText": "CNC machine cutting metal with sparks during precision manufacturing"
       },
       {
         "id": 2,
@@ -440,7 +440,7 @@
         "title": "Healthcare professional analyzing digital medical data on futuristic touchscreen interface in modern hospital facility",
         "titleOne": "Healthcare",
         "url": "/industry/life-sciences/healthcare-medtech-patient-care",
-        "altText":"Clinician analyzing digital medical data on futuristic touchscreen interface"
+        "altText": "Clinician analyzing digital medical data on futuristic touchscreen interface"
       },
       {
         "id": 3,
@@ -448,7 +448,7 @@
         "title": "Business professional pointing at white 3D architectural city model during real estate urban planning presentation",
         "titleOne": "Real Estate",
         "url": "/industry/real-estate-property-management",
-        "altText":"Professional reviewing 3D architectural city model for real-estate planning"
+        "altText": "Professional reviewing 3D architectural city model for real-estate planning"
       },
       {
         "id": 4,
@@ -456,112 +456,112 @@
         "title": "Close-up of turquoise circuit board with electronic pins showing hi-tech microchip technology and hardware components",
         "titleOne": "Hi-Tech",
         "url": "/industry/hitech-semiconductor-ai-it-solutions",
-        "altText":"Close-up of microchip circuit board highlighting electronic components"
+        "altText": "Close-up of microchip circuit board highlighting electronic components"
       }
     ]
   },
   "contactUs": {
-   "schemaData" : {
-  "@context": "https://schema.org",
-  "@type": "ContactPage",
-  "name": "Contact Us",
-  "url": "https://www.rialtes.com/en/contact-us/",
-  "about": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": "https://www.rialtes.com/images/homepage/logo.svg",
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "Sales",
-        "email": "sales@rialtes.com",
-        "availableLanguage": ["English"]
-      }
-    ],
-    "address": [
-      {
-        "@type": "PostalAddress",
-        "streetAddress": "501 Congress Avenue, Suite 150",
-        "addressLocality": "Austin",
-        "addressRegion": "TX",
-        "postalCode": "78701",
-        "addressCountry": "US"
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact Us",
+      "url": "https://www.rialtes.com/en/contact-us/",
+      "about": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "Sales",
+            "email": "sales@rialtes.com",
+            "availableLanguage": [
+              "English"
+            ]
+          }
+        ],
+        "address": [
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "501 Congress Avenue, Suite 150",
+            "addressLocality": "Austin",
+            "addressRegion": "TX",
+            "postalCode": "78701",
+            "addressCountry": "US"
+          },
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "5251 California Ave, Suite 110",
+            "addressLocality": "Irvine",
+            "addressRegion": "CA",
+            "postalCode": "92617",
+            "addressCountry": "US"
+          },
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "World Trade Center, 119, Tower-2, 1st Floor, Kharadi",
+            "addressLocality": "Pune",
+            "addressRegion": "MH",
+            "postalCode": "411014",
+            "addressCountry": "IN"
+          },
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "Berger Delhi One, Sector 16B, C-001/A2, Gautam Buddha Nagar",
+            "addressLocality": "Noida",
+            "addressRegion": "UP",
+            "postalCode": "201301",
+            "addressCountry": "IN"
+          },
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "Dehradun IT Park, Weblan Unit A, Second Floor, Sahastradhara Road",
+            "addressLocality": "Dehradun",
+            "addressRegion": "UK",
+            "postalCode": "248001",
+            "addressCountry": "IN"
+          },
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "Unit #255, Block - B, 2nd Floor, Motia Plaza",
+            "addressLocality": "Baddi",
+            "addressRegion": "HP",
+            "postalCode": "173205",
+            "addressCountry": "IN"
+          },
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "Suite 500, 1000 Innovation Dr",
+            "addressLocality": "Kanata",
+            "addressRegion": "ON",
+            "postalCode": "K2K 3E7",
+            "addressCountry": "CA"
+          },
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "30 Cecil Street, #19-08 Prudential Tower",
+            "addressLocality": "Singapore",
+            "addressRegion": "SG",
+            "postalCode": "049712",
+            "addressCountry": "SG"
+          }
+        ]
       },
-      {
-        "@type": "PostalAddress",
-        "streetAddress": "5251 California Ave, Suite 110",
-        "addressLocality": "Irvine",
-        "addressRegion": "CA",
-        "postalCode": "92617",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalAddress",
-        "streetAddress": "World Trade Center, 119, Tower-2, 1st Floor, Kharadi",
-        "addressLocality": "Pune",
-        "addressRegion": "MH",
-        "postalCode": "411014",
-        "addressCountry": "IN"
-      },
-      {
-        "@type": "PostalAddress",
-        "streetAddress":
-          "Berger Delhi One, Sector 16B, C-001/A2, Gautam Buddha Nagar",
-        "addressLocality": "Noida",
-        "addressRegion": "UP",
-        "postalCode": "201301",
-        "addressCountry": "IN"
-      },
-      {
-        "@type": "PostalAddress",
-        "streetAddress":
-          "Dehradun IT Park, Weblan Unit A, Second Floor, Sahastradhara Road",
-        "addressLocality": "Dehradun",
-        "addressRegion": "UK",
-        "postalCode": "248001",
-        "addressCountry": "IN"
-      },
-      {
-        "@type": "PostalAddress",
-        "streetAddress": "Unit #255, Block - B, 2nd Floor, Motia Plaza",
-        "addressLocality": "Baddi",
-        "addressRegion": "HP",
-        "postalCode": "173205",
-        "addressCountry": "IN"
-      },
-      {
-        "@type": "PostalAddress",
-        "streetAddress": "Suite 500, 1000 Innovation Dr",
-        "addressLocality": "Kanata",
-        "addressRegion": "ON",
-        "postalCode": "K2K 3E7",
-        "addressCountry": "CA"
-      },
-      {
-        "@type": "PostalAddress",
-        "streetAddress": "30 Cecil Street, #19-08 Prudential Tower",
-        "addressLocality": "Singapore",
-        "addressRegion": "SG",
-        "postalCode": "049712",
-        "addressCountry": "SG"
-      }
-    ]
-  },
-  "sameAs": [
-    "https://www.linkedin.com/company/rialtes-technologies-llc/",
-    "https://www.youtube.com/@rialtes",
-    "https://x.com/Rialtestech",
-    "https://www.instagram.com/rialtes_technologies/"
-  ]
-},
+      "sameAs": [
+        "https://www.linkedin.com/company/rialtes-technologies-llc/",
+        "https://www.youtube.com/@rialtes",
+        "https://x.com/Rialtestech",
+        "https://www.instagram.com/rialtes_technologies/"
+      ]
+    },
     "headerTitle": "Our presence across the Globe",
     "seoTitle": "Contact Us – Expert IT Consulting for Your Business Growth | Rialtes",
     "seoDescription": "Have a question or need IT consulting services? Contact Rialtes for expert advice on SaaS solutions and IT strategy that drive business success.",
     "headerSubtitle": "How can we help you?",
     "headerDesc": "Contact us, we would love to hear from you",
     "contactUsTitle": "Ready to take the next step? Let’s kick off your journey to operational excellence",
-    "bannerAlt":"World map showing company offices in California, Austin, Ottawa, Noida, Pune, Dehradun, Himachal Pradesh, and Singapore"
+    "bannerAlt": "World map showing company offices in California, Austin, Ottawa, Noida, Pune, Dehradun, Himachal Pradesh, and Singapore"
   },
   "thankYou": {
     "thankYouTitle": "Thank",
@@ -622,13 +622,12 @@
     ]
   },
   "privacyPolicy": {
-   "schemaData" : {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Privacy Policy",
-    "description":
-      "This page explains Rialtes' policies on data privacy and user information protection."
-  },
+    "schemaData": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Privacy Policy",
+      "description": "This page explains Rialtes' policies on data privacy and user information protection."
+    },
     "headerTitle": "Privacy Policy",
     "seoTitle": "Privacy Policy | Rialtes",
     "seoDescription": "Read Rialtes' Privacy Policy to understand how we collect, use, and protect your personal information while delivering exceptional IT consulting services.",

@@ -1,6 +1,6 @@
 {
     "homePage": {
-        "schemaData" : {},
+        "schemaData": {},
         "seoTitle": "Empresa de Servicios y Consultoría IT | Rialtes",
         "seoDescription": "Impulsa tu éxito con Rialtes: servicios y consultoría IT que, con innovación en IA, mejoran eficiencia, rendimiento y crecimiento sostenible.",
         "withImpactTitle": "con Impacto",
@@ -373,7 +373,7 @@
             {
                 "id": 1,
                 "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-                "imgSrc": "/images/case-studies/industrial-workers-safety-collaboration.webp",
+        "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
                 "title": "Trabajadores industriales con equipo de seguridad colaborando con laptop en instalación de fabricación.",
                 "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales.",
                 "altText": "Trabajadores con equipo de seguridad colaborando con un portátil en planta industrial"
@@ -381,7 +381,7 @@
             {
                 "id": 2,
                 "url": "/insights/case-studies/realForce-banking-module-ach",
-                "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
+                "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
                 "title": "Profesionales de negocios en oficina moderna discutiendo estrategia señalando durante colaboración en equipo.",
                 "description": "Una empresa inmobiliaria multifamiliar con sede en EE. UU., especializada en la gestión e inversión en propiedades multifamiliares.",
                 "altText": "Equipo analizando estrategia empresarial frente a un panel en una oficina moderna"
@@ -389,7 +389,7 @@
             {
                 "id": 3,
                 "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-                "imgSrc": "/images/case-studies/healthcare-professionals-patient-care.webp",
+                "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
                 "title": "Profesionales de salud en uniformes médicos sonriendo mientras discuten atención al paciente con tablets",
                 "description": "Una empresa global de tecnología médica que desarrolla y fabrica productos innovadores.",
                 "altText": "Personal médico revisando la atención del paciente usando tabletas digitales en la clínica"

@@ -71,7 +71,7 @@ export default function DataCloud() {
               <h3 className="text-[18px] md:text-[24px] font-bold max-lg:w-[60%] md:w-[50%] lg:w-full">
                 {t('headerTitle')}
               </h3>
-              <h1 className="text-[26px] leading-tight xl:text-[44px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
+              <h1 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
                 {t('headerSubtitle')}
               </h1>
               <h3 className="font-bold leading-tight mt-10 xl:text-[26px] 4xl:text-[30px] text-[20px] md:block hidden">
@@ -102,10 +102,10 @@ export default function DataCloud() {
             <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] text-[26px] mb-8">
               {t('pageDescTitle')}
             </h2>
-            <p className="md:max-w-xl xl:max-w-4xl mb-8 4xl:text-[22px] xl:text-[18px] text-[16px]">
+            <p className="md:max-w-xl xl:max-w-4xl mb-8 4xl:text-[22px] xl:text-[18px] text-[16px] md:text-[18px]">
               {t('pageDesc1')}.
             </p>
-            <p className="md:max-w-xl xl:max-w-4xl 4xl:text-[22px] xl:text-[18px] text-[16px]">
+            <p className="md:max-w-xl xl:max-w-4xl 4xl:text-[22px] xl:text-[18px] text-[16px] md:text-[18px]">
               {t('pageDesc2')}
             </p>
           </div>
@@ -136,7 +136,7 @@ export default function DataCloud() {
                   </div>
                   <h3 className="text-[#1F3F69] mt-2 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">{feature.title}</h3>
                 </div>
-                <p className="text-[#000000] mt-2 4xl:text-[22px] xl:text-[18px] text-[16px]">{feature.description}</p>
+                <p className="text-[#000000] mt-2 4xl:text-[22px] xl:text-[18px] text-[16px] md:text-[18px]">{feature.description}</p>
               </div>
             ))}
           </div>
@@ -151,14 +151,14 @@ export default function DataCloud() {
               {t('unitedTitle')}
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 xl:mt-[64px] mt-[46px]">
-              {stats.map((stat, index) => (
+              {stats.map((stat, index) => ( 
                 <div key={index} className="text-left">
                   <div className="mb-4">
                     <span className="text-4xl md:text-5xl font-bold text-[#0092E0]">
                       {stat.percentage}
                     </span>
                   </div>
-                  <p className="text-[#000000] 4xl:text-[22px] xl:text-[18px] text-[16px] lg:w-[70%] md:w-[90%] w-[90%]">{stat.description}</p>
+                  <p className="text-[#000000] 4xl:text-[22px] xl:text-[18px] text-[16px] md:text-[18px] lg:w-[70%] md:w-[90%] w-[90%]">{stat.description}</p>
                 </div>
               ))}
             </div>
@@ -200,7 +200,7 @@ export default function DataCloud() {
                   </div>
                 </div>
                 <h3 className="h3-bold mb-3 4xl:text-[26px] xl:text-[22px] text-[18px] mt-6">{service.title}</h3>
-                <p className="text-[#000000] 4xl:text-[22px] xl:text-[18px] text-[16px] mb-6">{service.description}</p>
+                <p className="text-[#000000] 4xl:text-[22px] xl:text-[18px] text-[16px] md:text-[18px] mb-6">{service.description}</p>
                 <div className="mt-auto">
                   <LearnMore />
                 </div>

@@ -218,7 +218,7 @@ export default function Page() {
             {t('ourBrownFieldDesc')}
           </p>
           <button className="text-[16px] xl:text-[20px] border-[1px] border-[solid] border-[#134874] font-semibold bg-white text-black p-5 py-5 transition duration-300 order-4 mt-16">
-            <Link href='/contact-us'>{t('learnMoreBtn')}</Link>
+            <Link href={`/${locale}/contact-us`} >{t('learnMoreBtn')}</Link>
           </button>
         </div>
       </section>
@@ -376,7 +376,7 @@ export default function Page() {
               <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[18px]  font-normal text-[16px] leading-tight xl:mt-[30px] mt-[21px] w-[90%] lg:w-full">
                 {t('conversationalDesc')}  </p>
               <button className="text-[20px] border-[1px] border-[solid] border-[#134874] font-semibold bg-white text-black p-3 transition duration-300 order-4 mt-16 xl:block hidden">
-                <Link href='/products/agentchat'>{t('knowMoreBtn')}</Link>
+                <Link href={`/${locale}/products/agentchat`}>{t('knowMoreBtn')}</Link>
               </button>
             </div>
             <div className="xl:col-span-1 col-span-12">
@@ -391,7 +391,7 @@ export default function Page() {
                 ))}
               </ul>
               <button className="text-[20px] border-[1px] border-[solid] border-[#134874] font-semibold bg-white text-black p-3 transition duration-300 order-4 mt-16 xl:hidden block">
-                <Link href='/products/agentchat'>{t('knowMoreBtn')}</Link>
+                <Link href={`/${locale}/products/agentchat`}>{t('knowMoreBtn')}</Link>
               </button>
             </div>
           </div>

@@ -91,7 +91,7 @@ const AutoTimerSlider = () => {
                 <MyComponent />
             </div>
             <div className="mt-[-10px] absolute 4xl:w-[15%] 2xl:w-[20%] xl:w-[25%]   max-[350px]:left-[45%] left-[8%]  lg:left-auto lg:transform-none lg:right-[200px]">
-                <Link href="/industry" className='bg-[#006FBE] xl:text-[20px] text-[14px] hover:bg-white hover:text-[#006FBE] border border-solid border-[#006FBE] font-semibold text-white xl:py-5 py-4 px-5 transition duration-300'>{t('viewAllIndustries')}</Link>
+                <Link href="/industry" className='bg-[#006FBE] xl:text-[20px] text-[16px] hover:bg-white hover:text-[#006FBE] border border-solid border-[#006FBE] font-semibold text-white xl:py-5 py-4 px-5 transition duration-300'>{t('viewAllIndustries')}</Link>
             </div>
         </div>
     )
