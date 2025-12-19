@@ -1,6 +1,6 @@
 {
     "homePage": {
-         "schemaData" : {},
+        "schemaData": {},
         "seoTitle": "Société de Services et de Conseil en Informatique | Rialtes",
         "seoDescription": "Libérez votre succès avec les services IT de Rialtes. Portés par l’IA, nous renforçons l’efficacité, la performance et une croissance durable.",
         "withImpactTitle": "avec Impact",
@@ -373,7 +373,7 @@
             {
                 "id": 1,
                 "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-                "imgSrc": "/images/case-studies/industrial-workers-safety-collaboration.webp",
+        "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
                 "title": "Travailleurs industriels en équipement de sécurité collaborant avec ordinateur portable dans l'usine.",
                 "description": "Un fabricant de premier plan spécialisé dans la création de matériaux innovants pour des projets de construction résidentiels et commerciaux.",
                 "altText": "Ouvriers équipés collaborant avec un ordinateur portable dans une usine industrielle."
@@ -381,7 +381,7 @@
             {
                 "id": 2,
                 "url": "/insights/case-studies/realForce-banking-module-ach",
-                "imgSrc": "/images/case-studies/business-team-strategy-collaboration.webp",
+                "imgSrc": "/images/case-studies/case-study-2_thumb_n.webp",
                 "title": "Professionnels d'affaires dans un bureau moderne discutant de stratégie en pointant lors d'une collaboration",
                 "description": "Une entreprise immobilière multifamiliale basée aux États-Unis, spécialisée dans la gestion et l'investissement dans des propriétés multifamiliales.",
                 "altText": "Équipe discutant stratégie commerciale autour d’un tableau dans un bureau moderne"
@@ -389,7 +389,7 @@
             {
                 "id": 3,
                 "url": "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
-                "imgSrc": "/images/case-studies/healthcare-professionals-patient-care.webp",
+                "imgSrc": "/images/case-studies/case study 1_thumb_n.webp",
                 "title": "Professionnels de santé en tenue médicale souriant en discutant des soins aux patients avec tablettes numériques",
                 "description": "Une entreprise mondiale de technologie médicale qui développe et fabrique des produits innovants.",
                 "altText": "Personnel médical examinant les soins patients avec des tablettes numériques en clinique "

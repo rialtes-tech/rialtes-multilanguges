@@ -133,7 +133,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
     if (!mounted) return null;
     return (
         <section className={(padding ? padding : '')}>
-            <div className={`font-light leading-tight 4xl:text-[60px] xl:text-[42px] 2xl:text-[48px] text-[26px] ${className}`}>
+            <div className={`font-light leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px] ${className}`}>
                 {title ? title : t('contactUsTitle')}
             </div>
             {subtitle && (
@@ -206,7 +206,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                         required
                     />
 
-                    <p className="md:hidden 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[14px] text-gray-700 mt-[-5px]">Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</p>
+                    {/* <p className="md:hidden 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[14px] text-gray-700 mt-[-5px]">Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</p> */}
 
                     <input type="hidden" name="form_submit" value="Submit" />
                     <button
@@ -217,7 +217,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                     </button>
 
                 </div>
-                <div>{t('captchaMsg')} (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
+                <div className="4xl:text-[20px] 2xl:text-[18px] md:text-[18px] text-[16px]">{t('captchaMsg')} (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
                 <div>
                     <AnimatePresence>
                         {error && (

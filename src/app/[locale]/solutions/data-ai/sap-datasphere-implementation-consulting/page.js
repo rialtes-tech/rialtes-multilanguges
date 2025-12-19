@@ -126,14 +126,14 @@ export default function () {
                                 <h3 className="text-[#FFFFFF] font-semibold 4xl:text-[36px] xl:text-[30px] text-[18px] leading-[22px] xl:leading-[44px] mt-[24px] xl:mt-[37px]">
                                     {t('unlockTitle')}
                                 </h3>
-                                <p className="text-[#FFFFFF] font-light 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight mt-[24px] xl:mt-[37px] xl:w-[80%] w-[90%]">
+                                <p className="text-[#FFFFFF] font-light 4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] text-[16px] leading-tight mt-[24px] xl:mt-[37px] xl:w-[80%] w-[90%]">
                                     {t('buildDesc')}
                                 </p>
                             </div>
                             {/* Right Column */}
                             <div className="flex flex-col">
                                 <p className="text-[#FFFFFF] font-semibold xl:text-[22px] text-[20px] leading-[24px] xl:leading-[27px] md:mt-0 mt-[26px]"> {t('keyBenefitsTitle')}</p>
-                                <UnorderedList arrName={buildIntelligentData} ulClassName="list-disc pl-[22px] xl:w-[86%] w-[90%] xl:mt-[29px] mt-[26px]" liClassName="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
+                                <UnorderedList arrName={buildIntelligentData} ulClassName="list-disc pl-[22px] xl:w-[86%] w-[90%] xl:mt-[29px] mt-[26px]" liClassName="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] md:text-[18px] text-[16px] xl:leading-tight font-light" />
                                 <div className={`
                                   ${locale === "es"
                                         ? "4xl:mt-[200] 2xl:mt-[190px] xl:mt-[150px] mt-[44px]"
@@ -193,7 +193,7 @@ export default function () {
                         <h4 className="font-semibold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight mt-[29px] xl:mt-[54px]">
                             {t('industrySubTitle3')}
                         </h4>
-                        <UnorderedList ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[28px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" arrName={industryAcceleratorsData} liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight font-light" />
+                        <UnorderedList ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[28px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" arrName={industryAcceleratorsData} liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] md:text-[18px] text-[16px] leading-tight font-light" />
                     </div>
                 </div>
             </section>
@@ -238,7 +238,7 @@ export default function () {
                         <h3 className="text-[#FFFFFF] 4xl:text-[42px] xl:text-[38px] text-[22px] leading-tight font-semibold xl:mt-[45px] mt-[24px] xl:w-[80%] w-[90%]">
                             {t('intelligentSubTitle')}
                         </h3>
-                        <UnorderedList arrName={intelligentData} ulClassName="list-disc pl-[22px] lg:w-[70%] w-[90%] mt-[24px] xl:mt-[39px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight" />
+                        <UnorderedList arrName={intelligentData} ulClassName="list-disc pl-[22px] lg:w-[70%] w-[90%] mt-[24px] xl:mt-[39px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] 4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] md:text-[18px] text-[16px] xl:leading-tight" />
                         <div className="xl:mt-[20px] mt-[54px]">
                             <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
                         </div>
@@ -293,13 +293,13 @@ export default function () {
                         <h3 className="font-semibold 4xl:text-[36px] xl:text-[30px] text-[18px] leading-[22px] xl:leading-[44px] mt-[19px] 4xl:mt-[45px] xl:mt-[40px] xl:w-[80%]">
                             {t('aiReadySubTitle2')}
                         </h3>
-                        <UnorderedList arrName={aiReadyData} ulClassName="list-disc pl-[22px] w-[80%] xl:mt-[39px] mt-[29px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-[24px] leading-[22px] font-light" />
+                        <UnorderedList arrName={aiReadyData} ulClassName="list-disc pl-[22px] w-[80%] xl:mt-[39px] mt-[29px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] md:text-[18px] text-[16px] xl:leading-[24px] leading-[22px] font-light" />
                     </div>
                 </div>
                 <div className="custom-container">
                     <div className="md:w-[56%] relative">
                         <div className="bg-[#163055] mt-[-90px] sm:mt-[-60px] w-full">
-                            <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[20px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
+                            <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[20px] 2xl:text-[24px] text-[22px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
                                 {t('aiReadyDesc')}
                             </p>
                         </div>
@@ -341,10 +341,10 @@ export default function () {
                             <h3 className="font-semibold 4xl:text-[42px] xl:text-[36px] text-[26px] leading-tight mt-[27px] xl:mt-[39px] xl:w-[90%] 2xl:w-[80%]">
                                 {t('omniSubTitle')}
                             </h3>
-                            <UnorderedList arrName={omniSectionData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[47px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
+                            <UnorderedList arrName={omniSectionData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[47px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] md:text-[18px] text-[16px] xl:leading-tight font-light" />
                         </div>
                         <div className="bg-[#163055] mx-[35px] xl:mx-[70px] xl:mt-[-90px] mt-[-60px] relative z-20">
-                            <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px] text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
+                            <p className="text-[#FFFFFF] 4xl:text-[26px] 2xl:text-[24px] xl:text-[22px] text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
                                 {t('omniDesc')}
                             </p>
                         </div>
@@ -381,10 +381,10 @@ export default function () {
                             <h4 className="font-semibold xl:text-[36px] text-[20px] leading-tight mt-[23px] xl:mt-[36px] xl:w-[90%] 2xl:w-[80%]">
                                 {t('smartEducationSubTitle1')}
                             </h4>
-                            <UnorderedList arrName={educationSectionData} ulClassName="list-disc pl-[22px] 2xl:w-[80%] xl:w-[90%] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
+                            <UnorderedList arrName={educationSectionData} ulClassName="list-disc pl-[22px] 2xl:w-[80%] xl:w-[90%] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] md:text-[18px] text-[16px] xl:leading-tight font-light" />
                         </div>
                         <div className="bg-[#163055] mx-[35px] xl:mx-[70px] xl:mt-[-90px] mt-[-60px] relative z-20">
-                            <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px]  text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
+                            <p className="text-[#FFFFFF] 4xl:text-[26px] 2xl:text-[24px] xl:text-[22px]  text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
                                 {t('smartEducation')}
                             </p>
                         </div>
@@ -430,9 +430,9 @@ export default function () {
                             <h4 className="font-semibold xl:text-[28px] 4xl:text-[36px] text-[20px] leading-tight mt-[23px] xl:mt-[36px] xl:w-full">
                                 {t('aiPoweredSubTitle2')}
                             </h4>
-                            <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight font-light" />
+                            <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] md:text-[18px] text-[16px] leading-tight font-light" />
                             <div className="bg-[#163055] w-[80%] absolute bottom-[-50px] xl:left-[0px] xl:w-[100%] xl:right-[-72px] xl:bottom-auto xl:top-full xl:mt-[0px] xl:transform-none">
-                                <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px] text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
+                                <p className="text-[#FFFFFF] 4xl:text-[26px] 2xl:text-[24px] xl:text-[22px] text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
                                     {t('aiPoweredHrDesc')}
                                 </p>
                             </div>
@@ -479,9 +479,9 @@ export default function () {
                                 <h3 className="text-[#FFFFFF] font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[31px] xl:w-[90%] w-[80%]">
                                     {t('endToEndSubTitle2')}
                                 </h3>
-                            </div>
+                            </div> 
                             <div className="flex flex-col">
-                                <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-[22px] 2xl:w-[86%] w-[90%] md:mt-[0] mt-[21px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] xl:text-[24px] text-[16px] leading-tight font-normal" />
+                                <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-[22px] 2xl:w-[86%] w-[90%] md:mt-[0] mt-[21px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] xl:text-[16px] 2xl:text-[18px] md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal" />
                                 <div className="xl:mt-[49px] mt-[34px] xl:ml-1 ">
                                     <LearnMore btnName={t('learnMoreBtn')} />
                                 </div>
@@ -523,7 +523,7 @@ export default function () {
                             <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
                                 {t('sapHanaSubTitle')}
                             </h3>
-                            <UnorderedList arrName={sapHanaData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] xl:leading-tight font-light" />
+                            <UnorderedList arrName={sapHanaData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] 2xl:text-[18px] text-[16px] md:text-[18px] leading-tight font-light" />
                             <div className="xl:my-[62px] mt-[34px] mb-[49px]">
                                 <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
@@ -564,7 +564,7 @@ export default function () {
                             <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
                                 {t('sapSuccessFactorSubTitle')}
                             </h3>
-                            <UnorderedList arrName={sapSuccessData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] leading-tight font-light" />
+                            <UnorderedList arrName={sapSuccessData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] 2xl:text-[18px] text-[16px] md:text-[18px] leading-tight font-light" />
                             <div className="xl:my-[62px] mt-[34px] mb-[49px]">
                                 <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
@@ -605,7 +605,7 @@ export default function () {
                             <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px]  text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
                                 {t('salesforceSapSubTitle')}
                             </h3>
-                            <UnorderedList arrName={salesforcesapData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] xl:leading-tight font-light" />
+                            <UnorderedList arrName={salesforcesapData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] md:text-[18px] text-[16px] xl:leading-tight font-light" />
                             <div className="xl:my-[62px] mt-[34px] mb-[49px]">
                                 <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
@@ -650,7 +650,7 @@ export default function () {
                                 <h3 className="font-semibold 4xl:text-[36px] xl:text-[24px] text-[18px] leading-[22px] xl:leading-[44px] mt-[19px] xl:mt-[27px] xl:w-full">
                                     {t('advancedSubTitle2')}
                                 </h3>
-                                <UnorderedList arrName={advancedData} ulClassName="list-disc pl-[22px] w-[80%] xl:w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[24px] text-[16px] xl:leading-tight font-light" />
+                                <UnorderedList arrName={advancedData} ulClassName="list-disc pl-[22px] w-[80%] xl:w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] text-[16px] md:text-[18px] xl:leading-tight font-light" />
                                 <div className="xl:my-[62px] mt-[34px] mb-[49px]">
                                     <LearnMore btnName={t('learnMoreBtn')} />
                                 </div>
@@ -703,7 +703,7 @@ export default function () {
                                 <h3 className="text-[20px] 4xl:text-[36px] xl:text-[24px] font-semibold mt-[19px] leading-tight w-[90%]">
                                     {t('aiPoweredUseSubTitle')}
                                 </h3>
-                                <UnorderedList arrName={aiPoweredUseData} ulClassName="list-disc pl-[22px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-[19px]" />
+                                <UnorderedList arrName={aiPoweredUseData} ulClassName="list-disc pl-[22px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] 4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] md:text-[18px] leading-[19px]" />
                                 <div className="mt-[44px] absolute">
                                     <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} />
                                 </div>
@@ -736,7 +736,7 @@ export default function () {
                                 <h3 className=" 4xl:text-[42px] xl:text-[38px] text-[22px] font-semibold xl:mt-[38px] mt-[18px] leading-tight">
                                     {t('aiPoweredUseSubTitle')}
                                 </h3>
-                                <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] xl:mt-[43px] mt-[16px] w-[80%]  4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[15px] leading-tight font-light" />
+                                <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] xl:mt-[43px] mt-[16px] w-[80%]  4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px] md:text-[18px]  text-[16px] leading-tight font-light" />
 
                                 <div className="mt-[26px] absolute">
                                     <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} />
@@ -893,7 +893,7 @@ export default function () {
             {/* advanced data visualization */}
             <AdvancedDataSection />
             {/* ai powered section */}
-            <AIPoweredUseSection />
+            <AIPoweredUseSection /> 
             {/* Global Presence Section */}
             <GlobalPresenceSection />
             {/* Contact Form */}

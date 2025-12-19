@@ -22,7 +22,7 @@ export default function servicesFeaturedCarousel() {
       slidesToSlide: 1, 
     },
     tablet: {
-      breakpoint: { max: 1024, min: 575 },
+      breakpoint: { max: 1024, min: 575 }, 
       items: 1,
       centerMode: true,
       slidesToSlide: 1,
