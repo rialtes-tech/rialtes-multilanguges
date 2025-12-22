@@ -1767,12 +1767,12 @@
       {
         "value": "30%",
         "description": "Amélioration de l’efficacité du processus de devis à encaissement",
-        "widthClasses": "xl:w-[220px] lg:w-[200px] 2xl:w-[240px] 4xl:w-[312px]"
+        "widthClasses": "xl:w-[220px] lg:w-[200px] 2xl:w-[320px] 4xl:w-[350px]"
       },
       {
         "value": "20-25%",
         "description": "Réduction des coûts administratifs",
-        "widthClasses": "xl:w-[220px] lg:w-[200px] 2xl:w-[240px] 4xl:w-[312px]"
+        "widthClasses": "xl:w-[220px] lg:w-[200px] 2xl:w-[240px] 4xl:w-[280px]"
       }
     ],
     "salesForce": [
@@ -1849,6 +1849,7 @@
     "streamlineTitle": "Rationalisez Votre Processus Devis-à-Encaissement",
     "pipelineTitle": "Services Salesforce Revenue Cloud pour un Pipeline Commercial Optimisé",
     "funnelTitle": "Réduisez les Pièges de Revenus, Dynamisez Votre Entonnoir de Vente",
-    "funnelDesc": "Les entreprises utilisant Revenue Cloud ont signalé :"
+    "funnelDesc": "Les entreprises utilisant Revenue Cloud ont signalé :",
+    "learnMore":"En savoir plus"
   }
 }

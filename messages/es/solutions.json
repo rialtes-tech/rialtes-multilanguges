@@ -1766,12 +1766,12 @@
       {
         "value": "30%",
         "description": "Aumento del 30% en la eficiencia de la cotización al cobro",
-        "widthClasses": "xl:w-[220px] lg:w-[200px] 2xl:w-[240px] 4xl:w-[312px]"
+        "widthClasses": "xl:w-[220px] lg:w-[200px] 2xl:w-[320px] 4xl:w-[350px]"
       },
       {
         "value": "20-25%",
         "description": "Reducción del 20-25% en los costos administrativos",
-        "widthClasses": "xl:w-[220px] lg:w-[200px] 2xl:w-[240px] 4xl:w-[312px]"
+        "widthClasses": "xl:w-[220px] lg:w-[200px] 2xl:w-[240px] 4xl:w-[280px]"
       }
     ],
     "salesForce": [
@@ -1848,6 +1848,7 @@
     "streamlineTitle": "Optimice su Proceso de Cotización a Cobro",
     "pipelineTitle": "Servicios de Salesforce Revenue Cloud para un Embudo de Ventas Optimizado",
     "funnelTitle": "Reduzca las Pérdidas de Ingresos y Potencie su Embudo de Ventas",
-    "funnelDesc": "Las empresas que utilizan Revenue Cloud han informado:"
+    "funnelDesc": "Las empresas que utilizan Revenue Cloud han informado:",
+    "learnMore":"Aprender más"
   }
 }
