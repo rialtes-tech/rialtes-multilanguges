@@ -154,13 +154,13 @@ const LocationPage = () => {
       />
       <div className="custom-container pt-14">
         <div>
-          <h1 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">
+          <h1 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight">
             {t("headerTitle")}
           </h1>
           <h4 className="mt-5 mb-2 md:mb-0 4xl:text-[30px] xl:text-[26px] text-[24px] leading-tight">
             {t("headerSubtitle")}
           </h4>
-          <p className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
+          <p className="4xl:text-[20px] md:text-[18px] text-[16px] leading-tight">
             {t("headerDesc")}
           </p>
         </div>
@@ -193,7 +193,7 @@ const LocationPage = () => {
                     {location.city && (
                       <h5 className="font-bold">{location.city}</h5>
                     )}
-                    <p>{location.address}</p>
+                    <p className="4xl:text-[20px] md:text-[17px] text-[16px]">{location.address}</p>
                     {location.addBorderBottom && (
                       <hr className="hidden xl:flex xl:border-b-2 xl:w-full xl:mt-6" />
                     )}
@@ -215,7 +215,7 @@ const LocationPage = () => {
                     {location.city && (
                       <h5 className="font-bold">{location.city}</h5>
                     )}
-                    <p>{location.address}</p>
+                    <p className="4xl:text-[20px] md:text-[17px] text-[16px]">{location.address}</p>
                     {location.addBorderBottom && (
                       <hr className="hidden xl:flex xl:border-b-2 xl:w-full xl:mt-6" />
                     )}
@@ -238,7 +238,7 @@ const LocationPage = () => {
                     {location.city && (
                       <h5 className="font-bold">{location.city}</h5>
                     )}
-                    <p>{location.address}</p>
+                    <p className="4xl:text-[20px] md:text-[17px] text-[16px]">{location.address}</p>
                     {location.addBorderBottom && (
                       <hr className="hidden xl:flex xl:border-b-2 xl:w-full xl:mt-6" />
                     )}
@@ -248,7 +248,7 @@ const LocationPage = () => {
             </div>
           </div>
           {/* Singapore */}
-          <div className="location-group flex flex-col gap-6 md:mt-[-20rem] xl:mt-0">
+          <div className="location-group flex flex-col gap-6 md:mt-[-17rem] xl:mt-0">
             <div className="flex flex-wrap gap-6">
               {groupByCountry("SINGAPORE").map((location, index) => (
                 <div key={index} className="location-item flex flex-col">
@@ -264,7 +264,7 @@ const LocationPage = () => {
                     {location.city && (
                       <h5 className="font-bold">{location.city}</h5>
                     )}
-                    <p>{location.address}</p>
+                    <p className="4xl:text-[20px] md:text-[17px] text-[16px]">{location.address}</p>
                     {location.addBorderBottom && (
                       <hr className="lg:border-b-2 lg:w-full lg:mt-6" />
                     )}

@@ -6,10 +6,8 @@ import { changeLocalization } from "../../components/changeLocalization";
 import ContactForm from "../../components/contactform";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/aboutus.json';
-import esContent from '../../../../../messages/es/aboutus.json'
-import frContent from '../../../../../messages/fr/aboutus.json'
-
-
+import esContent from '../../../../../messages/es/aboutus.json';
+import frContent from '../../../../../messages/fr/aboutus.json';
 
 export default function Page() {
     const t = useTranslations('ourValue')
@@ -32,16 +30,16 @@ export default function Page() {
                 />
             </div>
             <div className="flex flex-col pt-8">
-                <h3 className="md:mb-[15px] font-medium h3-bold text-[22px] xl:text-[30px] 4xl:text-[35px] line-clamp-2 min-h-[60px] leading-tight">{services.title}</h3>
+                <h3 className="md:mb-[15px] font-medium h3-bold text-[22px] xl:text-[30px] 4xl:text-[36px] line-clamp-2 min-h-[60px] leading-tight mb-3">{services.title}</h3>
             </div>
-            <p className='mb-[15px] 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight'>{services.description1}</p>
-            <p className='mb-[15px] 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight'>{services.description2}</p>
+            <p className='mb-[15px] 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight'>{services.description1}</p>
+            <p className='mb-[15px] 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight'>{services.description2}</p>
         </div>
     );
     const GrowServices = () => {
         return (
             <div className="mx-auto text-black ">
-                <h2 className="pb-16 text-black 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">{t('employeeTitle')}</h2>
+                <h2 className="pb-16 text-black text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight">{t('employeeTitle')}</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 xl:gap-32 gap-10 pb-10">
                     {growLatestServices.map((services) => (
                         <GrowServicesCard key={services.id} services={services} />
@@ -72,7 +70,7 @@ export default function Page() {
                         src="/images/culture/mountain-hiker-growth-mindset-culture-values.webp"
                         alt={t("bannerAlt")}
                         fill
-                        style={{ objectFit: "cover", objectPosition: "35% 20%" }}
+                        style={{ objectFit: "cover", objectPosition: "50% 20%" }}
                         priority
                         className="transform transition-transform duration-500 group-hover:scale-110"
                     />
@@ -99,7 +97,7 @@ export default function Page() {
                             <h3 className="text-[18px] 4xl:text-[24px] xl:text-[20px] font-bold sm:text-[#01335B] max-sm:text-[#fff]">
                                 {t("cultureTitle")}
                             </h3>
-                            <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight mt-[10px] md:mt-[22px] sm:text-[#01335B] max-sm:text-[#fff]">
+                            <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight mt-[10px] md:mt-[22px] sm:text-[#01335B] max-sm:text-[#fff]">
                                 {t("growthTitleOne")}
                                 <br />
                                 {t("growthTitleTwo")}
@@ -115,8 +113,8 @@ export default function Page() {
             <section className="xl:py-16 py-10">
                 <div className="custom-container">
                     <div className=" mx-auto">
-                        <h1 className="4xl:text-[60px] xl:text-[40px] md:text-[35px] text-[26px]"> {t('valueTitle')}</h1>
-                        <p className="mt-3 4xl:text-[35px] xl:text-[28px] text-[20px] "> {t('valueSubtitle')}</p>
+                        <h1 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]"> {t('valueTitle')}</h1>
+                        <p className="mt-3 text-[20px] xl:text-[30px] 4xl:text-[36px]"> {t('valueSubtitle')}</p>
                         <div className="grid xl:grid-cols-4 md:grid-cols-2 mb-8 mt-16 lg:gap-40 gap-10 ">
                             {principleItems.map((item, index) => (
                                 <div key={index} className="grid">
@@ -127,7 +125,7 @@ export default function Page() {
                                         height={100}
                                         priority
                                     />
-                                    <p className="mt-5  4xl:text-[35px] xl:text-[30px] text-[22px]">
+                                    <p className="mt-5  text-[22px] xl:text-[30px] 4xl:text-[36px]">
                                         {item.label}
                                     </p>
                                 </div>
@@ -170,7 +168,7 @@ export default function Page() {
                                     className="object-cover !w-[140px] !h-[60px] pl-[35px] absolute"
                                 />
                             </div>
-                            <h2 className="xl:text-white text-black max-w-2xl 4xl:mt-10 xl:text-[45px] pr-[3rem] xl:pr-0 leading-tight text-[30px] font-medium xl:font-normal mt-[5rem] 4xl:text-[55px] xl:mt-[30px] absolute">
+                            <h2 className="xl:text-white text-black max-w-2xl 4xl:mt-10 pr-[3rem] xl:pr-0 leading-tight font-medium xl:font-normal mt-[5rem] xl:mt-[30px] absolute text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
                                 {t('businessTitleOne')}<br /> {t('businessTitleTwo')}<br /> {t('businessTitleThree')}
                             </h2>
                         </div>
@@ -186,7 +184,7 @@ export default function Page() {
             </div>
             {/* Contact Form */}
             <div className="custom-container text-black pb-10">
-                <ContactForm title={t('contactUs')} className={"4xl:w-[65%] xl:w-[58%] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"} />
+                <ContactForm title={t('contactUs')} className={"4xl:w-[65%] xl:w-[58%] text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight"} />
             </div>
         </div>
     );
