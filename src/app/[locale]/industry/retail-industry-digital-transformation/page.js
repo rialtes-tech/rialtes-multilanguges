@@ -14,7 +14,7 @@ export default function retailPage() {
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { newRealityData, chooseRialtesData, fashionRetailData, loyaltyData, frictionlessData, rightData, aiPoweredRetailData,
-        fastData, proprietaryData, aiPoweredCustomerData, actionableData, hyperPersonalizationData, realTimeData,schemaData } = content.retailIndustry
+        fastData, proprietaryData, aiPoweredCustomerData, actionableData, hyperPersonalizationData, realTimeData, schemaData } = content.retailIndustry
 
     return (
         <section className="min-h-screen">
@@ -56,10 +56,10 @@ export default function retailPage() {
                     <div className="grid xl:grid-cols-12">
                         <div className="xl:col-span-6 ">
                             <h3 className="text-[#FFFFFF] text-[18px] md:text-[24px]  font-bold lg:w-full">
-                                {t('headerTitle')}  
+                                {t('headerTitle')}
                             </h3>
-                            <h1 className="text-[#FFFFFF] md:pr-32 xl:pr-0 text-[26px] leading-[34px] md:text-[36px] md:leading-[50px] lg:text-[40px]  4xl:text-[60px] 2xl:text-[48px] xl:text-[50px] 2xl:leading-[73px] xl:leading-[65px] lg:leading-[50px] mt-[11.5px] md:mt-[28.5px] max-[350px]:text-[22px] max-[350px]:leading-[30px]">
-                                {t('headerSubTitle')}  
+                            <h1 className="text-[#FFFFFF] md:pr-52  xl:pr-0 text-[26px] leading-tight md:text-[30px] lg:text-[40px]  4xl:text-[60px]  xl:text-[40px]  mt-[11.5px] md:mt-[28.5px] max-[350px]:text-[22px]">
+                                {t('headerSubTitle')}
                             </h1>
                         </div>
                         <div className="col-span-12 lg:col-span-3 xl:col-span-5">
@@ -69,28 +69,28 @@ export default function retailPage() {
             </section>
             {/* page description section */}
             <section className="custom-container xl:mt-[135px] mt-[42px]">
-                <h2 className="4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] 2xl:w-[88%] lg:text-[40px] xl:w-[80%] lg:w-[79%]  text-[26px] leading-tight font-light max-[390px]:text-[24px] md:text-[29px] ">
-                    {t('pageDescTitle')}  
+                <h2 className="4xl:text-[60px]  xl:text-[40px] md:text-[30px] 2xl:w-[88%] lg:text-[40px] xl:w-[80%] lg:w-[79%]  text-[26px] leading-tight font-light max-[390px]:text-[24px]  ">
+                    {t('pageDescTitle')}
                 </h2>
-                <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]   text-[16px] leading-[19px] xl:leading-[30px] lg:leading-[25px] xl:mt-[34px] mt-[23px] lg:w-[68%] max-md:w-[94%]">
-                    {t('pageDesc1')}  
+                <p className="4xl:text-[22px] xl:text-[18px] md:text-[18px]   text-[16px] leading-[19px] xl:leading-[30px] lg:leading-[25px] xl:mt-[34px] mt-[23px] lg:w-[68%] max-md:w-[94%]">
+                    {t('pageDesc1')}
                     <br /><br />
-                    {t('pageDesc2')} 
+                    {t('pageDesc2')}
                 </p>
             </section>
             {/* retails new reality */}
-            <section className="custom-container xl:mt-[96px] mt-[59px] max-md:px-0">
+            <section className="custom-container xl:mt-[96px] mt-[59px] md:mt-[70px] max-md:px-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] gap-y-[41px]">
                     <div className="md:col-span-6 col-span-12 md:order-1 order-2 max-md:px-[36px]">
-                        <h2 className="4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight">
-                            {t('retailsTitle')}   
+                        <h2 className="4xl:text-[60px] xl:text-[40px] lg:text-[40px] md:text-[30px] text-[26px] leading-tight">
+                            {t('retailsTitle')}
                         </h2>
-                        <h3 className="4xl:text-[36px] 2xl:text-[34px] xl:text-[30px] lg:text-[28px] text-[22px] font-semibold md:mt-[24px] mt-[23px] leading-tight   lg:w-[465px] 4xl:w-[585px] 2xl:w-[550px] xl:w-[500px] ">
-                            {t('retailsSubTitle')}  
+                        <h3 className="4xl:text-[36px] xl:text-[30px] md:text-[26px] text-[22px] font-semibold md:mt-[24px] mt-[23px] leading-tight   lg:w-[465px] 4xl:w-[585px] 2xl:w-[550px] xl:w-[500px] ">
+                            {t('retailsSubTitle')}
                         </h3>
                         <ul className="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[23px] pl-[20px] md:pb-[49px]">
                             {newRealityData.map((data, ind) => (
-                                <li className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" key={ind}>
+                                <li className="text-[16px] 4xl:text-[22px] xl:text-[18px] md:text-[18px] leading-tight font-normal" key={ind}>
                                     <span className="font-bold">{data.title} </span>{data.subtitle}
                                 </li>
                             ))}
@@ -123,25 +123,25 @@ export default function retailPage() {
                     </div>
                 </div>
                 <div className="bg-[#163055] md:w-[90%] 2xl:w-[80%] max-md:mx-[36px] text-[#ffffff] max-md:mt-[35px]">
-                    <p className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[18px] text-[18px] leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
-                        {t('retailsBlueBox')}  
+                    <p className="4xl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[20px] text-[18px] leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
+                        {t('retailsBlueBox')}
                     </p>
                 </div>
                 <div className="lg:mt-[50px] mt-[36px] max-md:mx-[36px]">
-                    <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')}/>
+                    <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} locale={locale} />
                 </div>
             </section>
             {/* why choose rialtes section */}
             <section className="xl:mt-[63px] mt-[60px] bg-[#EFEFEF] md:relative">
                 <div className="custom-container xl:pt-[82px] pt-[52px]">
-                    <h2 className="4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight font-light">
-                        {t('whyChooseTitle')}   
+                    <h2 className="4xl:text-[60px] xl:text-[40px] lg:text-[40px] md:text-[30px] text-[26px] leading-tight font-light">
+                        {t('whyChooseTitle')}
                     </h2>
-                    <h2 className="4xl:text-[36px] 2xl:text-[34px] xl:text-[30px] lg:text-[28px] text-[22px] leading-tight font-semibold mt-[23px] xl:mt-[34px]">
-                        {t('whyChooseSubTitle')}   
+                    <h2 className="4xl:text-[36px] xl:text-[30px] md:text-[26px] text-[22px] leading-tight font-semibold mt-[23px] xl:mt-[34px]">
+                        {t('whyChooseSubTitle')}
                     </h2>
-                    <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight xl:mt-[37px] mt-[23px]">
-                        {t('whyChooseDesc')}  
+                    <p className="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px]  leading-tight xl:mt-[37px] mt-[23px]">
+                        {t('whyChooseDesc')}
                     </p>
                     <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:mt-[87px] mt-[61px] sm:gap-[60px] gap-y-[40px] max-sm:w-[84%] 4xl:w-[83%] 2xl:w-[82%] xl:w-[84%] lg:w-[85%]">
                         {
@@ -156,7 +156,7 @@ export default function retailPage() {
                                             height={0}
                                             priority
                                         />
-                                        <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight font-bold mt-[34px]">
+                                        <p className="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px]  leading-tight font-bold mt-[34px]">
                                             {data.desc}
                                         </p>
                                     </div>
@@ -164,14 +164,14 @@ export default function retailPage() {
                             })
                         }
                     </div>
-                    <div className="md:absolute bottom-[-50px] md:ml-[80px]">
+                    <div className="md:absolute bottom-[-50px] md:ml-[80px] md:mr-[-60px]">
                         <div className="bg-[#163055] md:w-[70%] lg:w-[60%] xl:w-[70%] 2xl:w-[60%] text-[#ffffff] max-md:mt-[60px] mx-auto">
-                            <p className=" 4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[18px] text-[18px]  leading-tight py-[24px] px-[28px] md:px-[24px] lg:pl-[31px] font-light">
+                            <p className=" 4xl:text-[24px] xl:text-[20px] md:text-[20px] text-[18px]  leading-tight py-[24px] px-[28px] md:px-[24px] lg:pl-[31px] font-light">
                                 {t('whyChooseBlueBox')}</p>
                         </div>
                     </div>
                     <div className="xl:mt-[78px] mt-[54px]">
-                        <LearnMore btnName={t('learnMoreBtn')}/>
+                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                     </div>
                 </div>
             </section>
@@ -185,28 +185,28 @@ export default function retailPage() {
                                 <div className="grid lg:grid-cols-12 grid-cols-1 gap-y-[41px]">
                                     <div className="lg:col-span-6 col-span-12 lg:order-1 order-2 relative">
                                         <div className="lg:pr-[20px]">
-                                            <h2 className="4xl:text-[52px] 2xl:text-[48px] xl:text-[40px]  md:text-[29px] lg:text-[38px] text-[26px] leading-tight max-[400px]:text-[22px]">
-                                                {t('fashionTitle')}   
+                                            <h2 className="4xl:text-[60px] xl:text-[40px]  md:text-[30px]  text-[26px] leading-tight max-[400px]:text-[22px]">
+                                                {t('fashionTitle')}
                                             </h2>
                                             <div className="lg:pr-[70px]">
-                                                <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]   leading-tight font-normal xl:mt-[36px] mt-[15px] max-[400px]:text-[16px]">
-                                                    {t('fashionDesc')}     
+                                                <p className="text-[16px] 4xl:text-[22px]  xl:text-[18px] md:text-[18px]  leading-tight font-normal xl:mt-[36px] mt-[15px] max-[400px]:text-[16px]">
+                                                    {t('fashionDesc')}
                                                 </p>
-                                                <UnorderedList arrName={fashionRetailData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[44px] mt-[21px] pl-[20px] lg:pb-[49px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] max-[400px]:text-[16px] leading-tight font-normal" />
+                                                <UnorderedList arrName={fashionRetailData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[44px] mt-[21px] pl-[20px] lg:pb-[49px]" liClassName="text-[16px] md:text-[18px] 4xl:text-[22px] xl:text-[18px] max-[400px]:text-[16px] leading-tight font-normal" />
                                             </div>
                                         </div>
                                         <div className={`
                                           ${locale === "es"
-                                    ? "absolute bottom-[-185px] 2xl:bottom-[-130px] 4xl:bottom-[-136px] xl:bottom-[-121px] md:bottom-[-130px] [@media(max-width:320px)]:bottom-[-204px]"
-                                    : locale === "fr"
-                                        ? "absolute bottom-[-185px] 2xl:bottom-[-128px] 4xl:bottom-[-135px] xl:bottom-[-121px] md:bottom-[-130px] [@media(max-width:320px)]:bottom-[-204px]"
-                                        : "absolute bottom-[-170px] 2xl:bottom-[-102px] 4xl:bottom-[-107px] xl:bottom-[-96px] md:bottom-[-130px]"
-                                }`}
+                                                ? "absolute bottom-[-185px] 2xl:bottom-[-130px] 4xl:bottom-[-136px] xl:bottom-[-121px] md:bottom-[-130px] [@media(max-width:320px)]:bottom-[-204px]"
+                                                : locale === "fr"
+                                                    ? "absolute bottom-[-195px] 2xl:bottom-[-96px] 4xl:bottom-[-135px] xl:bottom-[-121px] md:bottom-[-130px] [@media(max-width:320px)]:bottom-[-204px]"
+                                                    : "absolute bottom-[-170px] 2xl:bottom-[-96px] 4xl:bottom-[-107px] xl:bottom-[-96px] md:bottom-[-130px]"
+                                            }`}
 
                                         >
                                             <div className="bg-[#163055] text-[#ffffff] max-lg:mt-[35px]">
-                                                <p className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[18px] text-[18px]  leading-tight  py-[24px] px-[24px] lg:pl-[31px] font-light">
-                                                    {t('fashionBlueBox')}   
+                                                <p className="4xl:text-[24px]  xl:text-[20px] md:text-[20px] text-[18px]  leading-tight  py-[24px] px-[24px] lg:pl-[31px] font-light">
+                                                    {t('fashionBlueBox')}
                                                 </p>
                                             </div>
                                         </div>
@@ -271,40 +271,40 @@ export default function retailPage() {
                         </div>
                     </div>
                     <div className="md:col-span-6 col-span-12 max-md:px-[36px] md:pr-[36px]">
-                        <h2 className="4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight">
-                            {t('salesforceTitle')}   
+                        <h2 className="4xl:text-[60px] xl:text-[40px]  md:text-[30px] text-[26px] leading-tight">
+                            {t('salesforceTitle')}
                         </h2>
-                        <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[24px]  text-[20px] font-semibold md:mt-[31px] mt-[22px] leading-tight w-[92%] max-[400px]:text-[18px] lg:w-[80%] 4xl:[97%] 2xl:w-[90%] xl:w-[90%]">
-                            {t('salesforceSubTitle')}   
+                        <h3 className="4xl:text-[36px] xl:text-[30px] md:text-[26px]  text-[22px] font-semibold md:mt-[31px] mt-[22px] leading-tight w-[92%] max-[400px]:text-[18px] lg:w-[80%] 4xl:[97%] 2xl:w-[90%] xl:w-[90%]">
+                            {t('salesforceSubTitle')}
                         </h3>
                         <div className="lg:pr-[120px]">
-                            <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal xl:mt-[31px] mt-[22px]">
-                                {t('salesforceDesc')}      
+                            <p className="text-[16px] 4xl:text-[22px] xl:text-[18px] md:text-[18px] leading-tight font-normal xl:mt-[31px] mt-[22px]">
+                                {t('salesforceDesc')}
                             </p>
-                            <UnorderedList arrName={hyperPersonalizationData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[18px] pl-[30px] mb-[166px] sm:mb-[136px] md:mb-[106px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
+                            <UnorderedList arrName={hyperPersonalizationData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[18px] pl-[30px] mb-[166px] sm:mb-[136px] md:mb-[106px]" liClassName="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px] leading-tight font-normal" />
                         </div>
                     </div>
                     <div className="absolute bottom-[-35px] right-0">
                         <div className="bg-[#163055] text-[#ffffff] max-lg:mt-[35px] max-md:mx-[36px] md:mr-[36px] lg:mr-auto xl:mr-[100px]">
-                            <p className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px] lg:text-[18px] text-[18px]   leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
-                                {t('salesforceBlueBox')}   
+                            <p className="4xl:text-[24px] md:text-[20px] xl:text-[20px] text-[18px]   leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
+                                {t('salesforceBlueBox')}
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
             {/*real time section */}
-            <section className="lg:mt-[84px] mt-[62px] relative">
+            <section className="lg:mt-[84px] mt-[62px] md:mt-[72px] relative">
                 {/* Background Image */}
                 <div className={`w-full h-auto hidden  lg:h-[710px] xl:h-[1000px] 2xl:h-[1080px] 3xl:h-[1036px] 4xl:h-[1136px]
                   ${locale === "es"
-                                    ? "md:block md:h-[750px]"
-                                    : locale === "fr"
-                                        ? "md:block md:h-[790px]"
-                                        : "md:block md:h-[720px]"
-                                }`}
+                        ? "md:block md:h-[820px] "
+                        : locale === "fr"
+                            ? "md:block md:h-[860px]"
+                            : "md:block md:h-[760px]"
+                    }`}
 
-                
+
                 >
                     <Image
                         src="/images/industry/retail-industry/warehouse-workers-inventory-management-system.webp"
@@ -327,22 +327,22 @@ export default function retailPage() {
                     />
                 </div>
                 <div className="relative md:absolute md:inset-0 md:flex md:items-stretch max-md:mt-[-170px]"
-                
-                
+
+
                 >
                     <div className="custom-container md:h-full">
-                        <div className="bg-[rgba(0,111,190,0.85)] h-full w-full md:w-[52%] xl:w-[55%] 2xl:w-[54%] 3xl:w-[54%] text-white flex flex-col xl:pt-[68px] xl:px-[77px] pt-[25px] px-[33px]">
+                        <div className="bg-[rgba(0,111,190,0.85)] h-full w-full md:w-[52%] xl:w-[55%] 2xl:w-[54%] 3xl:w-[54%] text-white flex flex-col xl:pt-[68px] xl:px-[77px] md:pt-[50px] pt-[25px] px-[33px]">
                             <div>
-                                <h2 className="4xl:text-[60px] 2xl:text-[52px] xl:text-[45px] lg:text-[35px] md:text-[26px] text-[26px] leading-tight max-[400px]:text-[22px] ">
-                                    {t('realTimeTitle')}   
+                                <h2 className="4xl:text-[60px] xl:text-[40px]  md:text-[30px] text-[26px] leading-tight max-[400px]:text-[22px] ">
+                                    {t('realTimeTitle')}
                                 </h2>
-                                <h3 className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[22px] text-[22px] font-semibold mt-[22px] md:mt-[29px] leading-tight max-[400px]:text-[20px]">
-                                    {t('realTimeSubTitle')}   
+                                <h3 className="4xl:text-[36px] xl:text-[30px] md:text-[26px] text-[22px] font-semibold mt-[22px] md:mt-[29px] leading-tight max-[400px]:text-[20px]">
+                                    {t('realTimeSubTitle')}
                                 </h3>
-                                <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] font-normal mt-[22px] md:mt-[29px] leading-tight">
-                                    {t('realTimeDesc')}   
+                                <p className="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px] font-normal mt-[22px] md:mt-[29px] leading-tight">
+                                    {t('realTimeDesc')}
                                 </p>
-                                <UnorderedList arrName={realTimeData} ulClassName="list-disc mt-[18px] md:mt-[16px] pl-[20px] xl:space-y-[27px] space-y-[19px] lg:pr-[35px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
+                                <UnorderedList arrName={realTimeData} ulClassName="list-disc mt-[18px] md:mt-[16px] pl-[20px] xl:space-y-[27px] space-y-[19px] lg:pr-[35px]" liClassName="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px] leading-tight font-normal" />
                             </div>
                             <div className={`mt-auto"
                               ${locale === "es"
@@ -353,7 +353,7 @@ export default function retailPage() {
                                 }`}
 
                             >
-                                <LearnMore btnName={t('learnMoreBtn')}/>
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>
@@ -390,26 +390,26 @@ export default function retailPage() {
                     <div className="md:col-span-7 col-span-12 max-md:px-[36px] bg-[#EFEFEF]">
                         <div className={`md:mx-[40px] md:pt-[64px] md:pb-[56px] pb-[31px] pt-[34px]
                           ${locale === "es"
+                                ? "4xl:pr-[15px] 2xl:pr-0 xl:pr-[65px]"
+                                : locale === "fr"
                                     ? "4xl:pr-[15px] 2xl:pr-0 xl:pr-[65px]"
-                                    : locale === "fr"
-                                        ? "4xl:pr-[15px] 2xl:pr-0 xl:pr-[65px]"
-                                        : "4xl:pr-[170px] 2xl:pr-[130px] xl:pr-[120px]"
-                                }`}
+                                    : "4xl:pr-[170px] 2xl:pr-[130px] xl:pr-[120px]"
+                            }`}
 
-                        
-                        
-                        
+
+
+
                         >
-                            <h2 className="4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px]  leading-tight max-[400px]:text-[24px]">
-                                {t('loyaltyTitle')}   
+                            <h2 className="4xl:text-[60px] xl:text-[40px]  md:text-[30px] text-[26px]  leading-tight max-[400px]:text-[24px]">
+                                {t('loyaltyTitle')}
                             </h2>
-                            <h3 className="4xl:text-[34px] 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[22px]  font-semibold md:mt-[34px] mt-[22px] leading-tight w-[92%] lg:w-[80%] xl:w-full max-[400px]:text-[18px]">
-                                {t('loyaltySubTitle')}  
+                            <h3 className="4xl:text-[36px]  xl:text-[30px] md:text-[26px] text-[22px]  font-semibold md:mt-[34px] mt-[22px] leading-tight w-[92%] lg:w-[80%] xl:w-full max-[400px]:text-[18px]">
+                                {t('loyaltySubTitle')}
                             </h3>
-                            <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight font-normal xl:mt-[31px] mt-[18px]">
-                                {t('loyaltyDesc')}  
+                            <p className="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px]  leading-tight font-normal xl:mt-[31px] mt-[18px]">
+                                {t('loyaltyDesc')}
                             </p>
-                            <UnorderedList arrName={loyaltyData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[23px] pl-[20px] md:pb-[49px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
+                            <UnorderedList arrName={loyaltyData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[23px] pl-[20px] md:pb-[49px]" liClassName="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px] leading-tight font-normal" />
                         </div>
                     </div>
                 </div>
@@ -417,8 +417,8 @@ export default function retailPage() {
                     <div className="md:col-span-5 col-span-12"></div>
                     <div className="md:col-span-7 col-span-12">
                         <div className="bg-[#163055] text-[#ffffff]">
-                            <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[20px]  text-[18px] leading-tight py-[24px] px-[20px] lg:pl-[31px] font-light max-[400px]:text-[16px]">
-                                {t('loyaltyBlueBox')}  
+                            <p className="4xl:text-[26px] xl:text-[20px]  md:text-[20px] text-[18px] leading-tight py-[24px] px-[20px] lg:pl-[31px] font-light max-[400px]:text-[16px]">
+                                {t('loyaltyBlueBox')}
                             </p>
                         </div>
                     </div>
@@ -428,19 +428,19 @@ export default function retailPage() {
             <section className="custom-container xl:mt-[96px] mt-[59px] max-md:px-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] gap-y-[41px]">
                     <div className="md:col-span-6 col-span-12 md:order-1 order-2 max-md:px-[36px]">
-                        <h2 className="4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight max-[350px]:text-[20px]">
-                            {t('frictionalTitle')}   
+                        <h2 className="4xl:text-[60px] xl:text-[40px]  md:text-[30px] text-[26px] leading-tight max-[350px]:text-[20px]">
+                            {t('frictionalTitle')}
                         </h2>
-                        <h3 className="4xl:text-[36px] 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[18px]  font-semibold md:mt-[35px] mt-[24px] leading-tight max-[350px]:text-[16px]  w-full">
-                            {t('frictionalSubTitle')}  
+                        <h3 className="4xl:text-[36px] xl:text-[30px] md:text-[26px] text-[18px]  font-semibold md:mt-[35px] mt-[24px] leading-tight max-[350px]:text-[16px]  w-full">
+                            {t('frictionalSubTitle')}
                         </h3>
-                        <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight font-normal xl:mt-[31px] mt-[24px] max-[350px]:text-[16px]">
-                            {t('frictionalDesc')}  
+                        <p className="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px]  leading-tight font-normal xl:mt-[31px] mt-[24px] max-[350px]:text-[16px]">
+                            {t('frictionalDesc')}
                         </p>
-                        <UnorderedList arrName={frictionlessData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[23px] pl-[20px] md:pb-[49px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal max-[350px]:text-[16px]" />
+                        <UnorderedList arrName={frictionlessData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[23px] pl-[20px] md:pb-[49px]" liClassName="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px] leading-tight font-normal max-[350px]:text-[16px]" />
                         <div className="bg-[#163055] text-[#ffffff] md:mt-[39px] mt-[35px]">
-                            <p className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px]  text-[18px] leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
-                                {t('frictionalBlueBox')}  
+                            <p className="4xl:text-[24px] md:text-[20px] xl:text-[20px]  text-[18px] leading-tight py-[24px] px-[24px] lg:pl-[31px] font-light">
+                                {t('frictionalBlueBox')}
                             </p>
                         </div>
                     </div>
@@ -500,28 +500,28 @@ export default function retailPage() {
                         <div className="bg-[#FFC143] xl:pt-[48px] pt-[34px] xl:pl-[67px] xl:pr-[40px] max-md:mx-[36px] px-[35px] text-[#000000] lg:w-[95%] md:w-[90%]">
                             <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[25px]">
                                 <div className="flex flex-col h-full">
-                                    <h2 className="4xl:text-[60px] 2xl:text-[52px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight max-[400px]:text-[22px] font-light">
-                                        {t('actionableTitle')}  
+                                    <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight max-[400px]:text-[22px] font-light">
+                                        {t('actionableTitle')}
                                     </h2>
-                                    <p className="4xl:text-[36px] 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[20px] leading-tight xl:mt-[31px] mt-[23px]">
-                                        {t('actionableSubTitle')}  
+                                    <p className="4xl:text-[36px] xl:text-[30px] md:text-[26px] text-[22px] leading-tight xl:mt-[31px] mt-[23px]">
+                                        {t('actionableSubTitle')}
                                     </p>
                                     <div className="mt-auto max-lg:hidden">
-                                        <LearnMore btnName={t('learnMoreBtn')}/>
+                                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                     </div>
                                 </div>
                                 <div>
-                                    <p className="4xl:text-[30px] 2xl:text-[28px] xl:text-[26px] lg:text-[20px] text-[18px] font-semibold leading-tight lg:mt-0 mt-[23px] max-[400px]:text-[16px]">
-                                        {t('actionableDesc')}   
+                                    <p className="4xl:text-[30px] xl:text-[26px] md:text-[20px] lg:text-[20px] text-[18px] font-semibold leading-tight lg:mt-0 mt-[23px] max-[400px]:text-[16px]">
+                                        {t('actionableDesc')}
                                     </p>
-                                    <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight lg:mt-[27px] mt-[23px]">
-                                        {t('actionableDesc2')} 
+                                    <p className="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px] leading-tight lg:mt-[27px] mt-[23px]">
+                                        {t('actionableDesc2')}
                                     </p>
                                     <div className="lg:pr-[75px]">
-                                        <UnorderedList arrName={actionableData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[27px] pl-[20px] pb-[48px] md:pb-[52px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
+                                        <UnorderedList arrName={actionableData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[27px] pl-[20px] pb-[48px] md:pb-[52px]" liClassName="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px] leading-tight font-normal" />
                                     </div>
                                     <div className="mt-auto block lg:hidden">
-                                        <LearnMore btnName={t('learnMoreBtn')}/>
+                                        <LearnMore btnName={t('learnMoreBtn')} />
                                     </div>
                                 </div>
                             </div>
@@ -533,16 +533,16 @@ export default function retailPage() {
             <section className="custom-container xl:mt-[71px] mt-[51px] lg:pr-0 max-md:px-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] 2xl:gap-[80px] gap-y-[41px]">
                     <div className="md:col-span-5 col-span-12 md:order-1 order-2 max-md:px-[36px]">
-                        <h2 className="4xl:text-[60px] 2xl:text-[52px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight max-[400px]:text-[22px]">
-                            {t('makingTitle')}  
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight max-[400px]:text-[22px]">
+                            {t('makingTitle')}
                         </h2>
-                        <h3 className="4xl:text-[36px] 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[20px] leading-tight font-semibold md:mt-[31px] mt-[23px]  w-full lg:w-[80%] xl:w-full">
-                            {t('makingSubTitle')}   
+                        <h3 className="4xl:text-[36px] xl:text-[30px] md:text-[26px] text-[20px] leading-tight font-semibold md:mt-[31px] mt-[23px]  w-full lg:w-[80%] xl:w-full">
+                            {t('makingSubTitle')}
                         </h3>
-                        <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  font-normal xl:mt-[41px] mt-[23px]">
-                            {t('makingDesc')}  
+                        <p className="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px]  font-normal xl:mt-[41px] mt-[23px]">
+                            {t('makingDesc')}
                         </p>
-                        <UnorderedList arrName={rightData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[24px] mt-[23px] pl-[20px] xl:w-[80%]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
+                        <UnorderedList arrName={rightData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[24px] mt-[23px] pl-[20px] xl:w-[80%]" liClassName="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px] leading-tight font-normal" />
                     </div>
                     <div className="md:col-span-7 col-span-12 md:order-2 order-1">
                         {/* Mobile image */}
@@ -600,23 +600,23 @@ export default function retailPage() {
                         </div>
                     </div>
                     <div className="md:col-span-6 col-span-12 max-md:px-[36px] md:pr-[36px] lg:pr-auto lg:pt-[60] pt-[41px]">
-                        <h2 className="4xl:text-[60px] 2xl:text-[52px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight max-[400px]:text-[22px]">
-                            {t('aiPoweredTitle')}   
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight max-[400px]:text-[22px]">
+                            {t('aiPoweredTitle')}
                         </h2>
-                        <h3 className="4xl:text-[36px] 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[20px] leading-tight font-semibold md:mt-[39px] mt-[23px]  w-[92%] lg:w-[80%] xl:w-full max-[350px]:text-[18px]">
-                            {t('aiPoweredSubTitle')}  
+                        <h3 className="4xl:text-[36px] xl:text-[30px] md:text-[26px] text-[20px] leading-tight font-semibold md:mt-[39px] mt-[23px]  w-[92%] lg:w-[80%] xl:w-full max-[350px]:text-[18px]">
+                            {t('aiPoweredSubTitle')}
                         </h3>
                         <div className="max-md:pr-[20px]">
-                            <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal xl:mt-[41px] mt-[23px]">
-                                {t('aiPoweredDesc')}  
+                            <p className="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px] leading-tight font-normal xl:mt-[41px] mt-[23px]">
+                                {t('aiPoweredDesc')}
                             </p>
-                            <UnorderedList arrName={aiPoweredRetailData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[24px] mt-[23px] pl-[20px] xl:w-[95%]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
+                            <UnorderedList arrName={aiPoweredRetailData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[24px] mt-[23px] pl-[20px] xl:w-[95%]" liClassName="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px] leading-tight font-normal" />
                         </div>
-                        <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal xl:mt-[31px] mt-[44px] xl:w-[84%]">
-                            {t('aiPoweredDesc2')}  
+                        <p className="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px] leading-tight font-normal xl:mt-[31px] mt-[44px] xl:w-[84%]">
+                            {t('aiPoweredDesc2')}
                         </p>
                         <div className="xl:mt-[74px] mt-[31px]">
-                            <LearnMore btnName={t('learnMoreBtn')}/>
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                         </div>
                     </div>
                 </div>
@@ -636,20 +636,20 @@ export default function retailPage() {
 
 
                     <div className="2xl:col-span-5 md:col-span-6 col-span-12 max-md:px-[36px] md:pr-[36px] lg:pr-auto xl:pt-[72px] md:pt-[35px] pt-[30px] lg:pb-[97px] pb-[83px]">
-                        <h2 className="4xl:text-[60px] 2xl:text-[52px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight max-[400px]:text-[22px]">
-                            {t('fastTitle')}   
+                        <h2 className="4xl:text-[60px] xl:text-[40px]  md:text-[30px] text-[26px] leading-tight max-[400px]:text-[22px]">
+                            {t('fastTitle')}
                         </h2>
-                        <h3 className="4xl:text-[36px] 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[20px] leading-tight font-semibold md:mt-[39px] mt-[23px]   lg:w-[80%] xl:w-[90%] max-[400px]:text-[18px]">
-                            {t('fastSubTitle')}  
+                        <h3 className="4xl:text-[36px] xl:text-[30px] md:text-[26px] text-[20px] leading-tight font-semibold md:mt-[39px] mt-[23px]   lg:w-[80%] xl:w-[90%] max-[400px]:text-[18px]">
+                            {t('fastSubTitle')}
                         </h3>
-                        <p className="4xl:text-[30px] 2xl:text-[28px] xl:text-[27px] lg:text-[24px] text-[18px] leading-tight font-semibold xl:mt-[41px] mt-[24px]  max-[400px]:text-[16px]">
-                            {t('fastDesc')}  
+                        <p className="4xl:text-[30px] xl:text-[24px] md:text-[20px] text-[18px] leading-tight font-semibold xl:mt-[41px] mt-[24px]  max-[400px]:text-[16px]">
+                            {t('fastDesc')}
                         </p>
-                        <UnorderedList arrName={fastData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[31px] pl-[20px] lg:pr-[70px]" liClassName="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] leading-tight font-normal" />
+                        <UnorderedList arrName={fastData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[34px] mt-[31px] pl-[20px] lg:pr-[70px]" liClassName="text-[16px] 4xl:text-[22px]  xl:text-[18px] md:text-[18px] leading-tight font-normal" />
                         <div className="absolute">
                             <div className="bg-[#163055] text-[#ffffff] mr-[25px] lg:mt-[62px] mt-[35px] max-sm:w-[84%] ">
-                                <p className="4xl:text-[24px] 2xl:text-[22px] xl:text-[20px]  text-[20px] leading-tight xl:py-[24px] xl:px-[44px] py-[23px] px-[32px] lg:pl-[31px] font-light max-[400px]:text-[18px]">
-                                    {t('fastBlueBox')}   
+                                <p className="4xl:text-[24px]  xl:text-[20px] md:text-[20px]  text-[20px] leading-tight xl:py-[24px] xl:px-[44px] py-[23px] px-[32px] lg:pl-[31px] font-light max-[400px]:text-[18px]">
+                                    {t('fastBlueBox')}
                                 </p>
                             </div>
                         </div>
@@ -661,33 +661,33 @@ export default function retailPage() {
                            md:bg-[url('/images/industry/retail-industry/rialtes-accelerators-retail-technology-solutions.webp')]
                            bg-cover bg-no-repeat bg-center xl:pt-[99px] pt-[42px] pb-[71px] xl:pb-[82px] lg:mt-[94px] mt-[89px] text-[#FFFFFF]">
                 <div className="custom-container">
-                    <h2 className="4xl:text-[60px] 2xl:text-[52px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight max-[400px]:text-[22px] ">
-                        {t('proprietaryTitle')}   
+                    <h2 className="4xl:text-[60px] xl:text-[40px]  md:text-[30px] text-[26px] leading-tight max-[400px]:text-[22px] ">
+                        {t('proprietaryTitle')}
                     </h2>
-                    <h3 className="4xl:text-[36px] 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[20px]  font-semibold xl:mt-[32px] mt-[23px] leading-tight">
-                        {t('proprietarySubTitle')}   
+                    <h3 className="4xl:text-[36px] xl:text-[30px]  md:text-[26px] text-[20px]  font-semibold xl:mt-[32px] mt-[23px] leading-tight">
+                        {t('proprietarySubTitle')}
                     </h3>
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-[45px] mt-[23px] md:gap-[40px] gap-y-[20px] w-full ">
                         {
                             proprietaryData.map((data, ind) => {
                                 return (
                                     <div key={ind} className="card bg-[#ffffff] xl:py-[55px] py-[34px] 2xl:px-[60px] px-[28px] xl:px-[50px]">
-                                        <p className="4xl:text-[26px] 2xl:text-[22px] xl:text-[20px]  text-[20px]  text-[#0A6BB8] leading-tight font-semibold">{data.title}</p>
-                                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] leading-tight xl:mt-[32px] mt-[23px] text-[#000000]">{data.desc}</p>
+                                        <p className="4xl:text-[26px] xl:text-[20px]  text-[20px]  text-[#0A6BB8] leading-tight font-semibold">{data.title}</p>
+                                        <p className="4xl:text-[22px]  xl:text-[18px] md:text-[18px] text-[16px] leading-tight xl:mt-[32px] mt-[23px] text-[#000000]">{data.desc}</p>
                                     </div>
                                 )
                             })
                         }
                     </div>
-                    <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight xl:mt-[92px] mt-[31px]">
-                        {t('proprietaryDesc')}  
+                    <p className="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px]  leading-tight xl:mt-[92px] mt-[31px]">
+                        {t('proprietaryDesc')}
                     </p>
                 </div>
             </section>
             {/* ai powered customer section */}
             <section className="custom-container xl:mt-[124px] mt-[58px] max-md:pr-0">
-                <h2 className="4xl:text-[60px] 2xl:text-[52px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight max-[400px]:text-[22px]  2xl:w-[80%] xl:w-[78%] max-md:pr-[36px]">
-                    {t('aiCustomerTitle')}  
+                <h2 className="4xl:text-[60px] xl:text-[40px]  md:text-[30px] text-[26px] leading-tight max-[400px]:text-[22px]  2xl:w-[80%] xl:w-[78%] max-md:pr-[36px]">
+                    {t('aiCustomerTitle')}
                 </h2>
                 <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[20px] gap-y-[94px] md:mt-[106px] xl:mt-[126px] mt-[94px]">
                     {
@@ -719,8 +719,8 @@ export default function retailPage() {
                                         />
                                     </div>
                                     <div className="lg:mt-[380px] md:mt-[320px] mt-[320px]">
-                                        <p className="4xl:text-[36px] 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[20px] text-[#0A6BB8] leading-tight font-semibold">{data.title}</p>
-                                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight xl:mt-[29px] mt-[20px] text-[#000000]">{data.desc}</p>
+                                        <p className="4xl:text-[36px] xl:text-[30px] md:text-[26px] text-[22px] text-[#0A6BB8] leading-tight font-semibold">{data.title}</p>
+                                        <p className="4xl:text-[22px] md:text-[18px] xl:text-[18px] text-[16px]  leading-tight xl:mt-[29px] mt-[20px] text-[#000000]">{data.desc}</p>
                                     </div>
                                 </div>
                             )
@@ -730,7 +730,7 @@ export default function retailPage() {
             </section>
             {/* Contact Form */}
             < div className="custom-container md:mt-[129px] xl:mb-[104px] mt-[41px] mb-[45px]">
-                <ContactForm title={t('contactTitle')}  subtitle={t('contactSubTitle')}  subtitle1={t('contactSubTitle2')}  className={"xl:w-[70%] 2xl:w-[75%] lg:w-[70%] 4xl:text-[60px] 2xl:text-[52px] xl:text-[45px] lg:text-[40px] md:text-[29px] text-[26px] leading-tight max-[400px]:text-[22px] "} />
+                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubTitle2')} className={"xl:w-[70%] 2xl:w-[75%] lg:w-[70%] 4xl:text-[60px] xl:text-[40px]  md:text-[30px] text-[26px] leading-tight max-[400px]:text-[22px] "} />
             </div >
         </section>
     )
