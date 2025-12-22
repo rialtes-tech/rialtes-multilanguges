@@ -121,7 +121,7 @@ const solutionSuccess = [
             'Accelerate Your Digital Transformation',
             'Flexible and Scalable ERP Solutions',
             'Increase in operational efficiency',
-            'Integrated AI and automation',
+            'Integrated AI and automation', 
             'Flexible Pricing Options'
         ],
         knowMore: '/services/business-transformation/grow-with-sap-services'
