@@ -61,7 +61,7 @@ export default function Page() {
             <h3 className="text-[18px] md:text-[24px] font-bold  lg:w-auto">
               {t('headerTitle')}
             </h3>
-            <h1 className="text-[26px]  xl:text-[40px] xl:w-[67%] 4xl:w-[100%] 4xl:text-[60px] leeding-tight  mt-[11.5px] md:mt-[28.5px]">
+            <h1 className="text-[26px]  xl:text-[40px] xl:w-[67%] 4xl:w-[100%] 4xl:text-[60px] leading-tight mt-[11.5px] md:mt-[28.5px]">
               {t('headerSubtitle')}
             </h1>
           </div>
@@ -73,7 +73,7 @@ export default function Page() {
           <h2 className="4xl:w-[69%] 2xl:w-[46%] xl:w-[55%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
             {t('unifyTitle')}
           </h2>
-          <p className=" xl:w-[67%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight ">
+          <p className=" xl:w-[67%] text-[16px] xl:text-[18px] md:text-[18px] 4xl:text-[20px] leading-tight ">
             {t('unifyDesc')}
 
           </p>
@@ -86,7 +86,7 @@ export default function Page() {
               />
             </div>
             <div className="lg:w-1/2">
-              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+              <p className="text-[16px] xl:text-[18px] md:text-[18px] 4xl:text-[20px] leading-tight">
                 {t('listDesc')}
               </p>
             </div>
@@ -117,10 +117,10 @@ export default function Page() {
             <div className="lg:col-span-5 2xl:pl-8 xl:pl-8 sm:pl-6">
               <h2 className=" text-black leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] pb-4 xl:w-[80%] 4xl:w-[84%] 2xl:w-[66%] ">
                 {t('dataTitle')}</h2>
-              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] md:text-[18px] leading-tight">
                 {t('dataSubtitleOne')}
               </p>
-              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px]  mt-4 lg:pr-[56px] leading-tight">
+              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] md:text-[18px]  mt-4 lg:pr-[56px] leading-tight">
                 {t('dataSubtitleTwo')}
               </p>
               <div className="xl:mt-[59px] mt-[22px]">
@@ -160,10 +160,10 @@ export default function Page() {
             </h2>
             <h3 className="4xl:text-[36px] font-semibold text-[22px] mt-3 leading-tight">
               {t('fabricSubtitle')}</h3>
-            <p className="mt-4 text-[#FFFFFF] font-light text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+            <p className="mt-4 text-[#FFFFFF] font-light text-[16px] xl:text-[18px] md:text-[18px] 4xl:text-[20px] leading-tight">
               {t('fabricDesc')}
             </p>
-            <p className="mt-4 text-[#FFFFFF] font-light text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+            <p className="mt-4 text-[#FFFFFF] font-light text-[16px] xl:text-[18px] md:text-[18px] 4xl:text-[20px] leading-tight">
               {t('fabricPara')}</p>
             <UnorderedList
               arrName={fabricList}
@@ -222,7 +222,7 @@ export default function Page() {
                     <p className="text-[#0A6BB8] 2xl:text-[30px] xl:text-[22px] text-[20px] font-bold leading-tight">
                       {item.title}
                     </p>
-                    <p className="mt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                    <p className="mt-4 text-[16px] xl:text-[18px] md:text-[18px] 4xl:text-[20px] leading-tight">
                       {item.desc}
                     </p>
                   </div>
@@ -254,7 +254,7 @@ export default function Page() {
           <div className="order-2 lg:order-1 lg:col-span-7">
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] lg:w-[75%] 2xl:w-[59%] 4xl:w-[87%] ">
               {t('partnerTitle')}</h2>
-            <p className="leading-tight mt-[23px] font-normal text-[16px] xl:text-[18px] 4xl:text-[20px] lg:mt-[33px] lg:pr-20">
+            <p className="leading-tight mt-[23px] font-normal text-[16px] xl:text-[18px] md:text-[18px] 4xl:text-[20px] lg:mt-[33px] lg:pr-20">
               {t('partnerDesc')}
             </p>
             <div>
@@ -275,7 +275,7 @@ export default function Page() {
           <h2 className="xl:w-[63%] 2xl:w-[70%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
             {t('migrationTitle')}
           </h2>
-          <p className=" xl:w-[75%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+          <p className=" xl:w-[75%] text-[16px] xl:text-[18px] md:text-[18px] 4xl:text-[20px] leading-tight">
             {t('migrationPara')}</p>
           <div className="grid grid-cols-1 lg:grid-cols-4 lg:mt-[53px] mt-[36px]">
             {exploreData.map((data, ind) => {
@@ -289,10 +289,10 @@ export default function Page() {
                   key={ind}
                 >
                   <div>
-                    <h3 className="text-[#0A6BB8] xl:text-[20px] text-[16px] font-bold leading-tight md:mt-4">
+                    <h3 className="text-[#0A6BB8] xl:text-[20px] text-[16px] md:text-[18px] font-bold leading-tight md:mt-4">
                       {data.title}
                     </h3>
-                    <p className="mt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                    <p className="mt-4 text-[16px] xl:text-[18px] md:text-[18px] 4xl:text-[20px] leading-tight">
                       {data.desc}
                     </p>
                   </div>
@@ -312,7 +312,7 @@ export default function Page() {
                     <h2 className=" leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
                       {t('migrateTitle')}
                     </h2>
-                    <p className="mt-5  text-[#FFFFFF] font-light leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px] ">
+                    <p className="mt-5  text-[#FFFFFF] font-light leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px] md:text-[18px]">
                       {t('migrateDesc')}
                     </p>
                     <ul className="list-disc p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] space-y-4 leading-tight">
@@ -391,7 +391,7 @@ export default function Page() {
               <div className="lg:col-span-7 m-2 sm:m-4 md:m-6  p-3 sm:p-10 2xl:w-[75%] xl:w-[75%]  ">
                 <h2 className="leading-tight pb-6 text-black  4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
                   {t('databricksTitle')}</h2>
-                <p className="mt-4 text-black  font-light text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                <p className="mt-4 text-black  font-light text-[16px] xl:text-[18px] 4xl:text-[20px] md:text-[18px] leading-tight">
                   {t('databricksDesc')}
                 </p>
                 <UnorderedList

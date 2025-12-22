@@ -70,7 +70,8 @@ export default function Page() {
       <section className="xl:mt-16 mt-8 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-7 col-span-12">
-            <p className="mt-10  leading-tight xl:pr-20 pr-10">{t('drivingDesc')}</p>
+            <p className="mt-10  leading-tight xl:pr-20 pr-10 4xl:text-[20px] xl:text-[18px]  text-[16px]
+ ">{t('drivingDesc')}</p>
           </div>
           <div className="xl:col-span-5 col-span-12">
           </div>
@@ -114,7 +115,8 @@ export default function Page() {
             <div className="relative  bg-opacity-80 text-white z-10 rounded-lg">
               <h2 className="font-light leading-tight 4xl:text-[60px] xl:text-[45px]  text-[26px]">{t('thoughtTitle')}</h2>
               <h3 className="4xl:text-[36px] xl:text-[26px] text-[22px] mt-5 leading-tight font-semibold">{t('thoughtSubTitle')}</h3>
-              <p className='mt-5 font-normal'>{t('thoughtSubTitleOne')}</p></div>
+              <p className='mt-5 font-normal 4xl:text-[20px] xl:text-[18px]  text-[16px]
+ '>{t('thoughtSubTitleOne')}</p></div>
           </div>
         </div>
       </section>
@@ -123,8 +125,10 @@ export default function Page() {
         <div className="relative  bg-opacity-80 text-white z-10  rounded-lg">
           <h2 className="font-light leading-tight 4xl:text-[60px] xl:text-[45px] md:text-[36px] text-[26px] ">{t('thoughtTitle')}</h2>
           <h3 className="xl:text-[36px] text-[22px] mt-5 leading-tight font-semibold">{t('thoughtSubTitle')}</h3>
-          <p className='mt-5 font-normal'> {t('thoughtSubTitleOne')}</p></div>
+          <p className='mt-5 font-normal 4xl:text-[20px] xl:text-[18px]  text-[16px]
+ '> {t('thoughtSubTitleOne')}</p></div>
       </div>
+
       {/* end to end section */}
       <section className="relative">
         <div className="xl:block hidden">
@@ -154,10 +158,11 @@ export default function Page() {
           <div className="xl:pt-10 pt-5 4xl:pb-32 pb-10 col-span-4 xl:pl-10">
             <div className="xl:col-span-5 col-span-12 xl:pt-8  xl:mt-0 mt-[38rem] mx-[35px] xl:mx-0">
               <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('endTitle')}</h2>
-              <p className="mt-5 font-light pr-8 xl:pr-0">{t('endSubTitle')}</p>
-              <p className="xl:mt-5 font-light">{t('endDesc')}</p>
+              <p className="mt-5 font-light pr-8 xl:pr-0 4xl:text-[20px] xl:text-[18px]  text-[16px]
+ ">{t('endSubTitle')}</p>
+              <p className="xl:mt-5 font-light 4xl:text-[20px] xl:text-[18px]  text-[16px]">{t('endDesc')}</p>
               <div className="mt-5">
-                <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"}  locale={locale} />
               </div>
             </div>
           </div>
@@ -180,9 +185,9 @@ export default function Page() {
           <div className="xl:col-span-4 col-span-12 bg-[#C17B57] text-white xl:pl-14 pt-14 p-10 pb-0 w-full">
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('preTitle')}</h2>
             <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">{t('preSubtitle')}</h3>
-            <p className="mt-5 xl:mb-10 mb-5 font-normal 4xl:pr-20 pr-5 leading-tight">{t('preDesc')}</p>
+            <p className="mt-5 xl:mb-10 mb-5 font-normal 4xl:pr-20 pr-5 leading-tight 4xl:text-[20px] xl:text-[18px]  text-[16px]">{t('preDesc')}</p>
             <div className="xl:bottom-0">
-              <LearnMore btnName={t('learnMoreBtn')} />
+              <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
             </div>
           </div>
         </div>
@@ -209,10 +214,10 @@ export default function Page() {
             <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold xl:pr-20 leading-tight">
               {t('discreteSubTitle')}
             </h3>
-            <p className="mt-5 xl:mb-10 font-normal 4xl:pr-24 pr-5 leading-tight xl:pr-10 4xl:text-[20px] xl:text-[18px]">
+            <p className="mt-5 xl:mb-10 font-normal 4xl:pr-24 pr-5 leading-tight xl:pr-10 4xl:text-[20px] xl:text-[18px]  text-[16px] ">
               {t('discreteDesc')}</p>
             <div className="xl:bottom-0">
-              <LearnMore btnName={t('learnMoreBtn')} />
+              <LearnMore btnName={t('learnMoreBtn')}   locale={locale}/>
             </div>
           </div>
         </div>
@@ -246,7 +251,7 @@ export default function Page() {
               <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('processTitle')}</h2>
               <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold  leading-tight">
                 {t('processSubtitle')}</h3>
-              <p className="mt-5 font-light leading-tight xl:pr-0">{t('processDesc')} </p>
+              <p className="mt-5 font-light leading-tight xl:pr-0 4xl:text-[20px] xl:text-[18px]  text-[16px]">{t('processDesc')} </p>
             </div>
           </div>
         </div>
@@ -266,7 +271,7 @@ export default function Page() {
             />
           </div>
           <div className="col-span-5 bg-[#DDF74D] order-2 xl:order-1 pb-10 xl:pb-0">
-            <div className="custom-container xl:!pr-0">
+            <div className="custom-container xl:!pr-4">
               <h2 className="leading-tight mt-10 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] text-[26px]">{t('repetitiveTitle')}</h2>
               <h3 className="4xl:text-[36px] 2xl:text-[30px] xl:text-[25px] text-[22px] mt-5 font-semibold leading-tight xl:pr-10">
                 {t('repetitiveSubtitle')}
@@ -275,7 +280,7 @@ export default function Page() {
                 {t('repetitiveDesc')}
               </p>
               <div>
-                <LearnMore btnName={t('learnMoreBtn')} />
+                <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
               </div>
             </div>
           </div>
@@ -299,7 +304,7 @@ export default function Page() {
               <h3 className="4xl:text-[42px] text-[22px] mt-5 font-semibold xl:pr-20 leading-tight">
                 {t('aiSubtitle')}
               </h3>
-              <p className="mt-5 xl:mb-5 font-normal xl:pr-10 pr-5 leading-tight">
+              <p className="mt-5 xl:mb-5 font-normal xl:pr-10 pr-5 leading-tight 4xl:text-[20px] xl:text-[18px]  text-[16px]">
                 {t('aiDesc')}
               </p>
             </div>
@@ -319,7 +324,7 @@ export default function Page() {
               <h3 className="4xl:text-[42px] text-[22px] mt-5 font-semibold xl:pr-20 leading-tight">
                 {t('jobSubTitle')}
               </h3>
-              <p className="mt-5 xl:mb-5 font-normal xl:pr-10 leading-tight">
+              <p className="mt-5 xl:mb-5 font-normal xl:pr-10 leading-tight 4xl:text-[20px] xl:text-[18px]  text-[16px]">
                 {t('jobDesc')}
               </p>
             </div>
@@ -374,7 +379,7 @@ export default function Page() {
                 }`}
 
               >
-                <LearnMore btnName={t('learnMoreBtn')} />
+                <LearnMore btnName={t('learnMoreBtn')}  locale={locale}/>
               </div>
             </div>
           </div>
@@ -406,7 +411,7 @@ export default function Page() {
           <div className="xl:col-span-5 col-span-12 order-2 xl:order-1">
             <h2 className="leading-tight xl:pr-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('erpTitle')}</h2>
             <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold">{t('erpSubtitle')}</h3>
-            <p className="mt-8 font-normal leading-tight">
+            <p className="mt-8 font-normal leading-tight 4xl:text-[20px] xl:text-[18px]  text-[16px]">
               {t('erpDesc')}
             </p>
           </div>
@@ -418,7 +423,7 @@ export default function Page() {
           <div className="xl:col-span-5 col-span-12 order-2 xl:order-2">
             <h2 className="leading-tight mt-8 xl:mt-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('demandTitle')}</h2>
             <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold">{t('demandSubTitle')}</h3>
-            <p className="mt-8 font-light leading-tight">
+            <p className="mt-8 font-light leading-tight 4xl:text-[20px] xl:text-[18px]  text-[16px]">
               {t('demandDesc')}
             </p>
           </div>
@@ -452,11 +457,11 @@ export default function Page() {
           <div className="xl:col-span-4 col-span-12 bg-[#33A316] p-8 text-white xl:mt-10 mb-10 z-[9] mx-[35px] xl:mx-0 mt-[-115px] pb-20 xl:pb-0">
             <h2 className="leading-tight  xl:mt-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('shapingTitle')}</h2>
             <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold ">{t('shapingSubtitle')}</h3>
-            <p className="mt-8  font-light leading-tight">
+            <p className="mt-8  font-light leading-tight 4xl:text-[20px] xl:text-[18px]  text-[16px]">
               {t('shapingDesc')}
             </p>
             <div className="mt-5 absolute  xl:relative">
-              <LearnMore btnName={t('learnMoreBtn')} />
+              <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
             </div>
           </div>
           <div className="xl:col-span-8 col-span-12 xl:block hidden xl:ml-[-300px]">
@@ -502,11 +507,11 @@ export default function Page() {
           <div className="xl:col-span-5 col-span-12">
             <h2 className="leading-tight mt-8 xl:mt-0 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('sapTitle')}</h2>
             <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold">{t('sapSubtitle')}</h3>
-            <p className="mt-8 font-normal leading-tight">
+            <p className="mt-8 font-normal leading-tight 4xl:text-[20px] xl:text-[18px]  text-[16px]">
               {t('sapDesc')}
             </p>
             <div className="mt-5">
-              <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+              <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"}   locale={locale}/>
             </div>
           </div>
         </div>
@@ -547,7 +552,7 @@ export default function Page() {
           </div>
 
           <div className="-bottom-6 absolute">
-            <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+            <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"}  locale={locale} />
           </div>
         </div>
       </section>

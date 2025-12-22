@@ -45,7 +45,7 @@ export default function page() {
                                                 </h3>
                                                 <UnorderedList arrName={data.listItems} ulClassName="list-disc text-[#FFFFFF] xl:mt-[24px] xl:px-[24px] pb-0 px-[22px] xl:pl-[52px] pl-[16px] xl:w-[80%] pr-0" liClassName="xl:mt[24px] mt-[19px] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" />
                                                 <div className="xl:mt-[31px] xl:px-[30px]">
-                                                    <LearnMore btnName={t('learnMoreBtn')} />
+                                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                                                 </div>
                                             </div>
                                             <div className="order-1 md:order-none">
@@ -96,7 +96,7 @@ export default function page() {
                                                 </h3>
                                                 <UnorderedList arrName={data.listItems} ulClassName="list-disc text-[#FFFFFF] xl:mt-[24px] xl:px-[24px] pb-0 px-[22px] xl:pl-[52px] pl-[16px] xl:w-[90%] pr-0" liClassName="xl:mt[24px] mt-[19px] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" />
                                                 <div className="xl:mt-[31px] xl:px-[30px]">
-                                                    <LearnMore btnName={t('learnMoreBtn')} />
+                                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                                                 </div>
                                             </div>
                                         </>
@@ -131,7 +131,7 @@ export default function page() {
                     })}
                 </div>
                 <div className="xl:mt-[52px] mt-[32px]">
-                    <LearnMore btnName={t('learnMoreBtn')} />
+                    <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                 </div>
             </section>
         );
@@ -211,7 +211,7 @@ export default function page() {
                         </div>
                     </div>
                     <div className="xl:mb-[34px] xl:mt-[78px] mt-[73px]">
-                        <LearnMore btnName={t('learnMoreBtn')} />
+                        <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                     </div>
                 </div>
             </section>

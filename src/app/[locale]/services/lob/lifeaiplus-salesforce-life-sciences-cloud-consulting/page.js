@@ -39,7 +39,7 @@ export default function page() {
                                         {item.desc}
                                     </p>
                                     <div className={`mt-auto pt-10 ${index === relatedSolutionsData.length - 1 ? 'xl:mt-[37px]' : ''}`}>
-                                        <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} />
+                                        <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} locale={locale}/>
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@ export default function page() {
                             }
                         </div>
                         <div className="max-lg:mt-8 lg:absolute lg:right-20 lg:bottom-20">
-                            <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
+                            <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
                         </div>
                     </div>
                 </div>
@@ -161,10 +161,10 @@ export default function page() {
                     </div>
                     <div className="col-span-6 bg-[#073259] text-white order-2 xl:order-1 pb-20 xl:pb-32">
                         <div className="custom-container xl:pt-16 pt-10 xl:pr-[8rem] mx-[35px] xl:mx-0">
-                            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  pr-16 xl:pr-0">{t('whyPartnerTitle')}</h2>
+                            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">{t('whyPartnerTitle')}</h2>
                             <UnorderedList arrName={whyPartnerData} ulClassName="list-disc leading-tight 4xl:space-y-4 xl:space-y-3 2xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 pr-2 xl:pr-0" liClassName="" />
                             <div className="mt-5 absolute">
-                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
+                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
                             </div>
                         </div>
                     </div>
@@ -203,7 +203,7 @@ export default function page() {
                                 {t('deepExpertiseDesc')}
                             </p>
                             <div className=" absolute bottom-[75px] xl:block hidden">
-                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
+                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
                             </div>
                         </div>
                         <div className="xl:col-span-6 col-span-12 xl:mt-10 mt-5">
@@ -212,7 +212,7 @@ export default function page() {
                             </h3>
                             <UnorderedList arrName={deepData} ulClassName="list-disc leading-tight xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 lg:pr-4" liClassName="" />
                             <div className="mt-12 xl:hidden block pb-[20px]">
-                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
+                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
                             </div>
                         </div>
                         <div className="xl:col-span-1 col-span-12"></div>
@@ -248,7 +248,7 @@ export default function page() {
             {/* Specialized Expertise for the Future section */}
             <section className="mt-[80px] sm:mt-[90px] md:mt-[95px] bg-[#EDEDED] pb-30">
                 <div className="custom-container relative bottom-[-60px]">
-                    <h2 className=" pb-6 leading-tight pr-10 xl:pr-0 xl:pt-[30px] xl:pb-0 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 2xl:w-[60%] 4xl:w-[83%]">{t('specializedTitle')}</h2>
+                    <h2 className=" pb-6 leading-tight xl:pt-[30px] xl:pb-0 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 2xl:w-[60%] 4xl:w-[83%]">{t('specializedTitle')}</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-12 xl:mt-16">
                         {featureBoxes.map((feature, index) => (
                             <div
@@ -295,9 +295,9 @@ export default function page() {
                             <p className="mt-5 font-normal pr-10 xl:pr-0 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('priorMgmtDesc')}</p>
                         </div>
                         <div className="col-span-6  xl:p-16 p-8">
-                            <UnorderedList arrName={priorData} ulClassName="list-disc leading-tight xl:space-y-4 space-y-2 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-10 xl:pr-14 pr-8" liClassName="" />
+                            <UnorderedList arrName={priorData} ulClassName="list-disc leading-tight xl:space-y-4 space-y-2 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-10 xl:pr-14 pr-0" liClassName="" />
                             <div className="xl:mt-10 mt-5">
-                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} />
+                                <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
                             </div>
                         </div>
                     </div>
@@ -341,7 +341,7 @@ export default function page() {
                     <div className="relative p-8 4xl:w-[907px] xl:w-[725px] h-full mt-[17rem] xl:mt-0 pb-10">
                         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
                         <div className="relative bg-opacity-80 text-white z-10 xl:p-10 xl:pl-24 rounded-lg">
-                            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] pr-5 xl:pr-0">{t('aiDrivenTitle')}</h2>
+                            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">{t('aiDrivenTitle')}</h2>
                             <p className='mt-5 font-normal text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight'>{t('aiDrivenDesc1')}</p>
                             <UnorderedList arrName={aiDrivenData} ulClassName="list-disc leading-tight xl:space-y-8 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 xl:pr-0 pr-5" liClassName="" />
                             <p className="mt-8 font-normal leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">{t('aiDrivenDesc2')}</p>
