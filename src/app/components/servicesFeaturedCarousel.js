@@ -9,13 +9,13 @@ export default function servicesFeaturedCarousel() {
       id: 1,
       url: "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
       imgSrc: "/images/case-studies/case study 3_thumb_n.webp",
-      title: "Streamlined DevOps using Copado and Salesforce",
+      title: "Streamlined DevOps using Copado and Salesforce", 
       description:
         "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
     },
     {
       id: 2,
-      url: "/insights/case-studies/realForce-banking-module-ach",
+      url: "/insights/case-studies/realForce-banking-module-ach", 
       imgSrc: "/images/case-studies/case-study-2_thumb_n.webp",
       title: "RealForce Banking Module - ACH",
       description:
