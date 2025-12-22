@@ -34,10 +34,10 @@ export default function Industry() {
 
       </div>
       <div className="flex flex-col mt-[23px]">
-        <h3 className="4xl:text-[30px] 2xl:text-[24px] xl:text-[21px] text-[23px] leading-tight font-semibold ">{services.title}</h3>
+        <h3 className="4xl:text-[30px] 2xl:text-[24px] xl:text-[20px] text-[20px] leading-tight font-semibold ">{services.title}</h3>
       </div>
-      <p className='4xl:text-[20px]  xl:text-[18px]   text-[16px] leading-tight mt-[25px] mb-[33px]'>{services.description}</p>
-      <h5 className="text-[#0092E0] font-bold cursor-pointer mt-auto 4xl:text-[20px]  xl:text-[18px]   text-[16px]">
+      <p className='4xl:text-[20px]  xl:text-[18px] md:text-[18px]  text-[16px] leading-tight mt-[25px] mb-[33px]'>{services.description}</p>
+      <h5 className="text-[#0092E0] font-bold cursor-pointer mt-auto 4xl:text-[20px] md:text-[18px] xl:text-[18px]   text-[16px]">
         <Link href={services?.knowMore} aria-label={services.title}> {t('knowMore')}</Link>
       </h5>
     </div>
@@ -45,7 +45,7 @@ export default function Industry() {
   const GrowServices = () => {
     return (
       <div>
-        <h2 className="xl:mb-[-20px] 4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px] md:text-[28px] leading-tight mb-[40px] text-black">
+        <h2 className="xl:mb-[-20px] 4xl:text-[60px]   xl:text-[40px] md:text-[30px] text-[26px] leading-tight mb-[40px] text-black">
           {t('growTitle')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[40px] gap-y-[60px] lg:mt-[78px]">
@@ -96,10 +96,10 @@ export default function Industry() {
         <div className="relative h-full custom-container flex items-center text-[#ffffff]">
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12">
-              <h3 className="text-[18px] xl:text-[24px] font-bold ">
+              <h3 className="text-[18px] 4xl:text-[24px] xl:text-[20px] md:text-[20px] font-bold ">
                 {t('headerTitle')}
               </h3>
-              <h2 className="4xl:text-[60px]  2xl:text-[48px]   xl:text-[42px] md:text-[28px] leading-tight  mt-[11.5px] md:mt-[28.5px] ">
+              <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight  mt-[11.5px] md:mt-[28.5px] ">
                 {t('headerSubTitleOne')}<br />{t('headerSubTitleTwo')}<br /> {t('headerSubTitleThree')}
               </h2>
             </div>
@@ -111,12 +111,12 @@ export default function Industry() {
       <section className="custom-container lg:mt-[111px] mt-[45px]">
         <div className="grid lg:grid-cols-12 grid-cols-1  gap-y-[20px]">
           <div className="xl:col-span-6 col-span-12">
-            <h1 className="text-[#000000] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] leading-tight">
+            <h1 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight">
               {t('mindsetTitle')}
             </h1>
           </div>
-          <div className="2xl:col-span-6 xl:col-span-5 col-span-12 xl:ml-5">
-            <p className="4xl:text-[22px]  xl:text-[18px]  text-[16px] leading-tight">
+          <div className="2xl:col-span-6 xl:col-span-5 col-span-12 xl:ml-5 4xl:mt-6">
+            <p className="4xl:text-[22px]  xl:text-[18px] md:text-[18px]  text-[16px] leading-tight">
               {t('mindsetDesc')}
             </p>
           </div>

@@ -55,10 +55,11 @@ export default function Page() {
         <div className="relative h-full custom-container flex items-center">
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12 md:mb-[140px]">
-              <h1 className="text-[#FFFFFF] text-[18px] md:text-[24px] font-bold lg:w-full">
+              <h1 className="text-[#FFFFFF] text-[18px] md:text-[20px] 4xl:text-[24px] xl:text-[20px] font-bold lg:w-full">
                 {t('impactTitle')}
               </h1>
-              <h2 className="text-white leading-tight xl:mt-10 4xl:text-[60px] xl:text-[40px] text-[26px] ">
+              <h2 className="text-white leading-tight xl:mt-10 4xl:text-[60px] xl:text-[40px] 
+              md:text-[30px]  text-[26px] ">
                 {t('impactSubtitle')}<br /> {t('impactSubtitleOne')}
               </h2>
             </div>
@@ -71,12 +72,12 @@ export default function Page() {
       <section className="custom-container">
         <div className="xl:py-[80px] pt-14 pb-10 bg-white ">
           <div className="xl:mb-0">
-            <h2 className="text-black md:pb-0 font-bold 4xl:text-[43px] xl:text-[35px] text-[22px] leading-tight ">
+            <h2 className="text-black md:pb-0 font-bold 4xl:text-[42px] xl:text-[36px] md:text-[26px] text-[22px] leading-tight ">
               {t('rialtesTitle')}
             </h2>
           </div>
         </div>
-        <h2 className="pb-10 4xl:text-[60px] xl:text-[40px] text-[26px]"> {t('rialtesSubtitle')}</h2>
+        <h2 className="pb-6 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight"> {t('rialtesSubtitle')}</h2>
       </section>
       {/* we care we take actions section */}
       <section className="relative h-[500px] xl:h-[550px] overflow-hidden xl:block hidden">
@@ -88,17 +89,17 @@ export default function Page() {
           priority
         />
         <div className="h-full relative ml-[15px] xl:ml-[280px] 2xl:mr-[156px] xl:mr-[70px] md:ml-[100px]">
-          <div className="bg-[#016FBE] absolute xl:p-12 p-6 w-[720px] 4xl:h-[484px] text-white  xl:right-0 top-0">
-            <h3 className="font-normal 4xl:text-[35px]  xl:text-[30px] text-[24px]">
+          <div className="bg-[#016FBE] absolute xl:p-12 p-6 w-[720px] 4xl:h-[510px]  text-white  xl:right-0 top-0">
+            <h3 className="font-normal 4xl:text-[36px]  xl:text-[30px]  md:text-[26px] text-[22px]">
               {t('innovationTitle')}
             </h3>
-            <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px] ">
+            <p className="mt-5 4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px] ">
               {t('innovationDesc')}
             </p>
-            <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px] ">
+            <p className="mt-4 4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px] ">
               {t('innovationDescOne')}
             </p>
-            <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px]">
+            <p className="mt-4 4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px]">
               {t('innovationDescTwo')}
             </p>
           </div>
@@ -116,14 +117,14 @@ export default function Page() {
           <div className="relative p-6 w-[720px] 4xl:h-[530px]">
             <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
             <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
-              <h3 className="font-normal 4xl:text-[35px] xl:text-[30px] text-[24px]"> {t('effortsTitle')}</h3>
-              <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px]">
+              <h3 className="font-normal 4xl:text-[36px] xl:text-[30px] md:text-[26px] text-[22px]"> {t('effortsTitle')}</h3>
+              <p className="mt-5 4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px]">
                 {t('effortsDesc')}
               </p>
-              <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px]">
+              <p className="mt-4 4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px]">
                 {t('effortsDescOne')}
               </p>
-              <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px]">
+              <p className="mt-4 4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px]">
                 {t('effortsDescTwo')}
               </p>
             </div>
@@ -143,16 +144,16 @@ export default function Page() {
             <div className={`relative p-6  ${(frActive || esActive) ? "w-[780px] 4xl:h-[520px]" : "w-[720px] h-[484px]"}`}>
               <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
               <div className="relative bg-opacity-80 text-white z-10 p-4 rounded-lg">
-                <h3 className="font-normal 4xl:text-[35px] xl:text-[30px] text-[24px]">
+                <h3 className="font-normal 4xl:text-[36px] xl:text-[30px] md:text-[26px] text-[22px]">
                   {t('aiTitle')}
                 </h3>
-                <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px]">
+                <p className="mt-5 4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px]">
                   {t('aiDesc')}
                 </p>
-                <p className="mt-4 4xl:text-[22px] xl:text-[18px] text-[16px]">
+                <p className="mt-4 4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px]">
                   {t('aiDescOne')}
                 </p>
-                <p className="mt-4 4xl:text-[22px] xl:text-[20px] text-[16px]">
+                <p className="mt-4 4xl:text-[22px] xl:text-[20px] md:text-[18px] text-[16px]">
                   {t('aiDescTwo')}
                 </p>
               </div>
@@ -175,16 +176,16 @@ export default function Page() {
         {/* Content Section */}
         <div
           className="relative p-8 xl:p-12 text-white bg-[#016FBE] pb-16 xl:absolute xl:w-[500px] xl:h-[410px] xl:right-0 xl:top-0">
-          <h3 className="font-normal text-[24px]">
+          <h3 className="font-normal text-[26px] md:text-[30px]">
             {t('innovationTitle')}
           </h3>
-          <p className="mt-5 text-[16px] xl:text-[22px]">
+          <p className="mt-5 text-[16px] xl:text-[22px] md:text-[18px]">
             {t('innovationDesc')}
           </p>
-          <p className="mt-4 text-[16px] xl:text-[22px]">
+          <p className="mt-4 text-[16px] xl:text-[22px] md:text-[18px]">
             {t('innovationDescOne')}
           </p>
-          <p className="mt-4 text-[16px] xl:text-[22px]">
+          <p className="mt-4 text-[16px] xl:text-[22px] md:text-[18px]">
             {t('innovationDescTwo')}
           </p>
         </div>
@@ -200,14 +201,14 @@ export default function Page() {
           />
         </div>
         <div className="relative p-8 pb-16 xl:p-12 text-white bg-[#016FBE]">
-          <h3 className="font-normal text-[24px]"> {t('effortsTitle')}</h3>
-          <p className="mt-5 text-[16px] xl:text-[22px]">
+          <h3 className="font-normal  text-[26px] md:text-[30px]"> {t('effortsTitle')}</h3>
+          <p className="mt-5 text-[16px] xl:text-[22px] md:text-[18px]">
             {t('effortsDesc')}
           </p>
-          <p className="mt-4 text-[16px] xl:text-[22px]">
+          <p className="mt-4 text-[16px] xl:text-[22px] md:text-[18px]">
             {t('effortsDescOne')}
           </p>
-          <p className="mt-4 text-[16px] xl:text-[22px]">
+          <p className="mt-4 text-[16px] xl:text-[22px] md:text-[18px]">
             {t('effortsDescTwo')}
           </p>
         </div>
@@ -223,14 +224,14 @@ export default function Page() {
           />
         </div>
         <div className="relative p-8 pb-16 xl:p-12 text-white bg-[#016FBE] xl:absolute xl:w-[500px] xl:h-[410px] xl:right-0 xl:top-0">
-          <h3 className="font-normal text-[24px]"> {t('aiTitle')}</h3>
-          <p className="mt-5 text-[16px] xl:text-[22px]">
+          <h3 className="font-normal text-[26px] md:text-[30px]"> {t('aiTitle')}</h3>
+          <p className="mt-5 text-[16px] xl:text-[22px] md:text-[18px]">
             {t('aiDesc')}
           </p>
-          <p className="mt-4 text-[16px] xl:text-[22px]">
+          <p className="mt-4 text-[16px] xl:text-[22px] md:text-[18px]">
             {t('aiDescOne')}
           </p>
-          <p className="mt-4 text-[16px] xl:text-[22px]">
+          <p className="mt-4 text-[16px] xl:text-[22px] md:text-[18px]">
             {t('aiDescTwo')}
           </p>
         </div>
@@ -245,7 +246,7 @@ export default function Page() {
                 <h3 className="h3-bold line-clamp-2 4xl:text-[40px] xl:text-[36px] text-[35px]">
                   {t('revenueTitle')}
                 </h3>
-                <p className="md:mt-4 mt-0 4xl:text-[30px] xl:text-[28px] text-[26px]">
+                <p className="md:mt-4 mt-0 4xl:text-[30px] xl:text-[26px] text-[26px]">
                   {t('revenueDesc')}
                 </p>
               </div>
@@ -273,10 +274,10 @@ export default function Page() {
                 priority
               />
               <div className="bg-[#086CB9] text-white w-full px-8 py-12 xl:px-10 xl:py-10 flex flex-col justify-center flex-grow min-h-[220px] xl:min-h-[245px]">
-                <p className="4xl:text-[30px] xl:text-[28px] text-[26px] pb-0 md:pb-2">
+                <p className="4xl:text-[30px] xl:text-[26px] text-[26px] pb-0 md:pb-2">
                   {t('treesDesc')}
                 </p>
-                <h3 className="h3-bold line-clamp-2 4xl:text-[40px] xl:text-[36px] text-[35px] ">
+                <h3 className="h3-bold line-clamp-2 4xl:text-[40px] xl:text-[36px] text-[35px] leading-tight ">
                   {t('treesTitle')}
                 </h3>
               </div>
@@ -287,7 +288,7 @@ export default function Page() {
                 <h3 className="h3-bold 4xl:text-[40px] xl:text-[36px] text-[35px]">
                   {t('certifiedTitle')}
                 </h3>
-                <p className="md:mt-4 mt-0 4xl:text-[30px] xl:text-[28px] text-[26px]">
+                <p className="md:mt-4 mt-0 4xl:text-[30px] xl:text-[26px] text-[26px]">
                   {t('certifiedDesc')}
                 </p>
               </div>
@@ -308,7 +309,7 @@ export default function Page() {
       <div className="custom-container text-black pb-20">
         <ContactForm
           title={t('contactUs')}
-          className={" leading-tight 4xl:text-[60px] xl:text-[45px] text-[26px] max-[400px]:text-[24px]"}
+          className={" leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] max-[400px]:text-[24px]"}
         />
       </div>
     </div>
