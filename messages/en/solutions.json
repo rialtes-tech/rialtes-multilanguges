@@ -3037,7 +3037,7 @@
       {
         "value": "20-25%",
         "description": "Reduction in administrative costs",
-        "widthClasses": "xl:w-[220px] lg:w-[200px] 2xl:w-[240px] 4xl:w-[312px]"
+        "widthClasses": "xl:w-[220px] lg:w-[200px] 2xl:w-[240px] 4xl:w-[280px]"
       }
     ],
     "salesForce": [
@@ -3112,6 +3112,7 @@
     "streamlineTitle": "Streamline your Quote-to-Cash Process",
     "pipelineTitle": "Salesforce Revenue Cloud Services for Optimized Sales Pipeline",
     "funnelTitle": " Reduce Revenue Pitfalls, Supercharge Your Sales Funnel",
-    "funnelDesc": "Businesses using Revenue Cloud have reported:"
+    "funnelDesc": "Businesses using Revenue Cloud have reported:",
+    "learnMore":"Learn More"
   }
 }
