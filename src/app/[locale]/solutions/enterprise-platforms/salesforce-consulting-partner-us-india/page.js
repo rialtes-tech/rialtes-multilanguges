@@ -19,7 +19,7 @@ export default function SalesForceConsulting() {
   const t = useTranslations("salesForceConsulting");
   const locale = useLocale();
   const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { salesForce, salesForceProduct, businessDetails, growthData,schemaData } = homepageContent.salesForceConsulting;
+  const { salesForce, salesForceProduct, businessDetails, growthData, schemaData } = homepageContent.salesForceConsulting;
   return (
     <div>
       <Seo
@@ -34,30 +34,30 @@ export default function SalesForceConsulting() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-      <div className="relative group overflow-hidden">
+      <div className="relative group overflow-hidden h-[350px] md:h-[500px] lg:h-[550px] 4xl:h-[650px]">
         <Image
           src="/images/salesforce-consulting-services/salesforce-consulting-banner.webp"
           alt={t("bannerAltText")}
-          className="transform transition-transform duration-500 group-hover:scale-110 xl:h-full h-[250px] md:h-[350px] lg:h-[450px]"
+          className="transform transition-transform duration-500 group-hover:scale-110 xl:h-full h-full"
           width={0}
           height={0}
-          sizes="100vw" 
+          sizes="100vw"
           style={{
             width: "100%",
             objectFit: "cover",
           }}
           priority
         />
-        <div className="absolute custom-container  top-[10%] lg:text-start lg:top-[25%] sm:top-[20%] text-black">
+        <div className="absolute custom-container top-[20%] lg:text-start lg:top-[30%] xl:top-[20%] text-black">
           <h1 className="font-bold 4xl:text-[24px] xl:text-[20px] text-[18px]">
             {t("consultingTitle")}
           </h1>
-          <h2 className="md:w-[46%]  lg:w-[37%]  xl:w-[48%]  2xl:w-[41%] 4xl:w-[56%] 4xl:text-[60px] xl:text-[40px] text-[26px]">
+          <h2 className="md:w-[46%] lg:w-[37%] xl:w-[48%] 2xl:w-[41%] 4xl:w-[56%] 4xl:text-[60px] 2xl:text-[40px] xl:text-[40px] md:text-[30px] text-[26px]">
             {t("consultingDesc")}
           </h2>
           <Image
             src="/images/salesforce-consulting-services/salesforce-partner-logo.webp"
-            className="w-[22%] h-full bg-transperent lg:mt-20 lg:m-0 mt-5"
+            className="w-[20%] h-full bg-transperent lg:mt-14 xl:mt-16 lg:m-0 mt-5"
             alt={t("partnerLogoAltText")}
             width={0}
             height={0}
@@ -67,23 +67,23 @@ export default function SalesForceConsulting() {
         </div>
       </div>
 
-      <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-5 lg:mt-16">
+      <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-10 md:mt-16">
         <div className="lg:col-span-6 4xl:col-span-6 2xl:col-span-5 ">
-          <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+          <h2 className="leading-tight 4xl:text-[60px] 2xl:text-[40px] xl:text-[40px] md:text-[30px] text-[26px]">
             {t("clientsTitle")}
           </h2>
         </div>
 
         <div className="lg:col-span-4">
-          <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mr-[96px]">
+          <p className="text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] 2xl:mt-8 leading-tight xl:mr-[96px]">
             {t("clientsDesc")}
           </p>
         </div>
-      </div>
+    </div>
 
       {/* section crm consulting */}
-      <section className="mt-16 px-6  custom-container ">
-        <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+      <section className="mt-16 px-6 custom-container">
+        <h2 className="leading-tight 4xl:text-[60px] 2xl:text-[40px] xl:text-[40px] md:text-[30px] text-[26px] ">
           {t("SalesforceTitle")}
         </h2>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-10 gap-5 mt-10">
@@ -91,8 +91,7 @@ export default function SalesForceConsulting() {
             return (
               <div
                 key={sales.id}
-                className="border-2 p-8 hover:bg-[#A9D6EE] hover:border-transparent transition-all duration-300 "
-              >
+                className="border-2 p-8 hover:bg-[#A9D6EE] hover:border-transparent transition-all duration-300">
                 <div>
                   <Image
                     src={sales.imageUrl}
@@ -110,28 +109,30 @@ export default function SalesForceConsulting() {
                 <h3 className="mt-5 4xl:text-[30px] xl:text-[22px] text-[20px] text-[#1F3F69] leading-tight font-bold">
                   {sales.title}
                 </h3>
-                <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                <p className="mt-5 text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                   {sales.description}
                 </p>
               </div>
             );
           })}
         </div>
-        <LearnMore />
+        <div className="mt-10">
+          <LearnMore btnName={t('learnMore')} />
+        </div>
       </section>
       {/* Salesforce product */}
 
-      <section className="mt-20  px-6  custom-container">
-        <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+      <section className="mt-20 px-6 custom-container">
+        <h2 className="leading-tight 4xl:text-[60px] 2xl:text-[40px] xl:text-[40px] md:text-[30px] text-[26px] ">
           {t("productsTitle")}
         </h2>
-        <p className="lg:mt-3 mb-8 mt-3 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+        <p className="lg:mt-3 mb-8 mt-3 text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] leading-tight">
           {t("productsDesc")}
         </p>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-5 gap-5">
           {salesForceProduct.map((product) => {
             return (
-              <div key={product.id} className="border-2">
+              <div key={product.id} className="border-2 flex flex-col">
                 <div className="relative group overflow-hidden m-3">
                   <Image
                     src={product.imageUrl}
@@ -147,10 +148,10 @@ export default function SalesForceConsulting() {
                   <h3 className="mt-5 leading-tight 4xl:text-[30px] xl:text-[22px] text-[20px] font-bold text-[#1F3F69]">
                     {product.title}
                   </h3>
-                  <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                  <p className="mt-5 text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                     {product.description}
                   </p>
-                  <ul className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                  <ul className="mt-5 text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                     {product?.productsDetails?.map((details, index) => {
                       return (
                         <li
@@ -162,9 +163,9 @@ export default function SalesForceConsulting() {
                       );
                     })}
                   </ul>
-                  <h5 className="text-[#0092E0] mt-10 font-bold  underline cursor-pointer text-[16px] xl:text-[19px] 4xl:text-[24px] leading-tight">
-                    <Link href={product?.knowMore}>{t("knowMore")}</Link>
-                  </h5>
+                  <div className="mt-10">
+                    <LearnMore btnName={t('knowMore')} href={product?.knowMore} />
+                  </div>
                 </div>
               </div>
             );
@@ -174,7 +175,7 @@ export default function SalesForceConsulting() {
 
       {/* your business */}
       <section className="mt-16 px-6 custom-container">
-        <h2 className="font-normal xl:w-[71%] 4xl:w-[93%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+        <h2 className="font-normal xl:w-[71%] 4xl:w-[93%] w-full leading-tight 4xl:text-[60px] 2xl:text-[40px] xl:text-[40px] md:text-[30px] text-[26px] ">
           {t("businessTitle")}
         </h2>
         <div className="grid lg:grid-cols-3 grid-cols-1 lg:mt-10 xl:gap-20 gap-5 pb-16">
@@ -184,7 +185,7 @@ export default function SalesForceConsulting() {
                 <h3 className="font-bold mt-3  4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight">
                   {bussiness.title}
                 </h3>
-                <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                <p className="mt-5 text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] leading-tight">
                   {bussiness.description}
                 </p>
               </div>
@@ -209,12 +210,12 @@ export default function SalesForceConsulting() {
                   {item.label}
                 </div>
 
-                <p className={`mt-10  leading-tight  whitespace-nowrap
+                <p className={`mt-10  leading-tight
                     ${locale === "es"
-                    ? "xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] text-[14px]"
+                    ? "text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[18px] w-[90%] border"
                     : locale === "fr"
-                      ? "xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] text-[16px]"
-                      : "xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] text-[16px]"
+                      ? "text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[16px]"
+                      : "text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px]"
                   }`}
                 >
                   {item.description.split("\n").map((line, i) => (
@@ -234,7 +235,7 @@ export default function SalesForceConsulting() {
       {/* different industries different mindset */}
       <section className="custom-container lg:mt-20 mt-5 pb-20 xl:pr-0">
         <div>
-          <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+          <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] 2xl:text-[40px] xl:text-[40px] md:text-[30px] text-[26px]">
             {t("mindsetsTitle")}
           </h2>
           <CarouselComponent />
@@ -265,10 +266,10 @@ export default function SalesForceConsulting() {
           </div>
         </div>
         <div className="bg-[#0077CE] hidden xl:block absolute p-10 text-white lg:w-[28%] lg:right-[8rem] lg:top-[-3.5rem] top-[392px]">
-          <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+          <h2 className="leading-tight 4xl:text-[60px] 2xl:text-[40px] xl:text-[40px] md:text-[30px] text-[26px] ">
             {t("agentforce")}
           </h2>
-          <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+          <p className="mt-5 text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] leading-tight">
             {t("agentforceDesc")}
           </p>
           <Link href="/solutions/artificial-intelligence/salesforce-agentforce-consulting">
@@ -280,7 +281,7 @@ export default function SalesForceConsulting() {
       </section>
       <section className="pb-20  custom-container  pt-10 mt-20">
         <ContactForm
-          className="xl:w-[85%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]"
+          className="xl:w-[85%] w-full leading-tight 4xl:text-[60px] 2xl:text-[40px] xl:text-[40px] md:text-[30px] text-[26px]"
           title={t("contactUs")}
         />
       </section>
