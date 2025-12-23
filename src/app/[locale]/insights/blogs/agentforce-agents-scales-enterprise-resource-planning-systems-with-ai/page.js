@@ -76,7 +76,7 @@ export default function Page() {
               {/* agentforce intgrated section */}
               <div className="md:mt-[50px] mt-[40px]">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('agentForceTitle')}</h2>
-                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('agentForceDesc')}<Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/"}><span>{t('agentForceLink')}</span></Link> {t('agentForceDesc2')}</p>
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('agentForceDesc')}<Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={`https://www.rialtes.com/${locale}/solutions/data-ai/salesforce-data-cloud-consulting/`}><span>{t('agentForceLink')}</span></Link> {t('agentForceDesc2')}</p>
 
                 <h3 className="mt-8 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold leading-tight">{t('howDoesTitle')}</h3>
                 <p className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('howDoesDesc')}</p>
@@ -99,7 +99,7 @@ export default function Page() {
 
                 <h3 className="mt-8 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold leading-tight">{t('enhancedTitle')}</h3>
                 <p className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('enhancedDesc')}
-                  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/?utm_source=internal&utm_medium=blog">{t('enhancedLink')}</Link> {t('enhancedDesc2')}</p>
+                  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={`https://www.rialtes.com/${locale}/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/?utm_source=internal&utm_medium=blog`}>{t('enhancedLink')}</Link> {t('enhancedDesc2')}</p>
               </div>
 
               {/* application section */}
