@@ -85,7 +85,7 @@ export default function Contact() {
     const OurApproachSection = () => (
         <section>
             <div className="bg-[#EDEDED] lg:py-16 py-10">
-                <h2 className="custom-container 4xl:text-[60px] xl:text-[40px] text-[26px]  leading-tight"> {t('approachTitle')}</h2>
+                <h2 className="custom-container text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight"> {t('approachTitle')}</h2>
                 <div className="grid justify-center xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-2 custom-container mt-12 lg:gap-[12%] gap-5">
                     {approachData.map((data, index) => (
                         <div key={index}>
@@ -102,7 +102,7 @@ export default function Contact() {
                                 priority
                             />
                             {data.texts.map((text, idx) => (
-                                <p className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight" key={idx}>{text}</p>
+                                <p className="4xl:text-[20px] md:text-[18px] text-[16px] leading-tight" key={idx}>{text}</p>
                             ))}
                         </div>
                     ))}
@@ -112,19 +112,19 @@ export default function Contact() {
     );
     const KeyPartnerships = () => (
         <section className="custom-container mt-16 px-6">
-            <h2 className="mb-16 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"> {t('keyTitle')}</h2>
+            <h2 className="mb-16 text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight"> {t('keyTitle')}</h2>
             {renderImageSection(keyPartners)}
         </section>
     );
     const RegionalPartnerships = () => (
         <section className="custom-container px-6 mt-[90px] xl:mt-[140px]">
-            <h2 className="mb-16 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"> {t('regionalTitle')}</h2>
+            <h2 className="mb-16 text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight"> {t('regionalTitle')}</h2>
             {renderImageSection(regionalPartners)}
         </section>
     );
     const AllPartnerships = () => (
         <section className="custom-container px-6 mt-[90px] xl:mt-[140px]">
-            <h2 className="mb-16 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"> {t('allTitle')}</h2>
+            <h2 className="mb-16 text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight"> {t('allTitle')}</h2>
             {renderImageSection(allPartnerships)}
         </section>
     );
@@ -172,7 +172,7 @@ export default function Contact() {
                             <h1 className="text-[#FFFFFF] text-[18px] md:text-[24px] font-bold lg:w-full">
                                 {t('headerTitle')}
                             </h1>
-                            <h2 className="text-white xl:mt-2 mt-1 leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">
+                            <h2 className="text-white xl:mt-2 mt-1 leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
                                 {t('headerSubTitle')}
                             </h2>
                         </div>
@@ -185,10 +185,10 @@ export default function Contact() {
             <section className="custom-container">
                 <div className="grid lg:grid-cols-12 xl:grid-cols-12 mt-16 mb-16">
                     <div className="lg:col-span-6 xl:col-span-6">
-                        <h2 className="xl:w-[60%]  w-full 4xl:text-[60px] xl:text-[40px] text-[26px]  leading-tight"> {t('ourTitle')}</h2>
+                        <h2 className="xl:w-[60%]  w-full text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight"> {t('ourTitle')}</h2>
                     </div>
                     <div className="lg:col-span-6 xl:col-span-6">
-                        <p className="mt-5 xl:w-[75%] w-full 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight"> {t('ourDesc')}</p>
+                        <p className="mt-5 xl:w-[75%] w-full 4xl:text-[20px] md:text-[18px] text-[16px] leading-tight"> {t('ourDesc')}</p>
                     </div>
                 </div>
             </section>
