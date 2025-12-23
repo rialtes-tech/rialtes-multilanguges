@@ -160,7 +160,7 @@ export default function Page() {
                 },
                 {
                     "title": "Strategic Thinking",
-                    "desc": "This is the core of an <span>ideal Salesforce consulting company</span> for enterprises — a partner who understands growth levers, not just configurations."
+                    "desc": "This is the core of an  <a href='https://www.linkedin.com/pulse/finding-ideal-salesforce-consulting-lvwcf/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>ideal Salesforce consulting company for enterprises </a>  — a partner who understands growth levers, not just configurations."
                 }
             ]
         }
@@ -197,7 +197,7 @@ export default function Page() {
                         "Future-ready integrations ",
                         "Cloud expansion readiness"
                     ],
-                    "desc2": "These are the foundations of <span>enterprise ROI with Salesforce integration partners</span>"
+                    "desc2": "These are the foundations of <a href='https://www.rialtes.com/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>enterprise ROI with Salesforce integration partners</a>"
                 },
                 {
                     "title": "They make integrations work smoothly",
