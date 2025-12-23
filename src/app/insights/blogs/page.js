@@ -68,7 +68,7 @@ const latestBlogs = [
     "category": "Salesforce Consulting",
     "industry": "Generic",
     "date": "Dec. 22, 2025",
-    "url": "/integration-partners-for-salesforce-cutting-complexity-increasing-roi/",
+    "url": "/salesforce-integration-partners-for-enterprises-to-scale/",
     "title": "Integration Partners for Salesforce: Cutting Complexity, Increasing ROI",
     "alt": "Cloud integration icon on a smartphone representing Salesforce integration and enterprise system connectivity.",
     "description": "Salesforce sits at the center of enterprise digital strategy for a reason. It connects revenue, customer experience, service operations, and data-driven decision-making on a single platform."
