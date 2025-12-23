@@ -87,7 +87,7 @@ export default function Page() {
             />
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
+              <h1 className="4xl:text-[60px] 2xl:text-[48px]  xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
                 {t("blogTitle")}
               </h1>
 
@@ -115,7 +115,7 @@ export default function Page() {
                 <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {t("piPoServedDesc")}
                 </p>
-                <ol className="list-disc marker:text-xl pl-[36px] lg:pl-[56px] space-y-4 mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium ">
+                <ol className="list-disc marker:text-xl pl-[36px] lg:pl-[36px] space-y-4 mt-5 4xl:text-[20px] xl:text-[17px] text-[16px] font-medium ">
                   {piPoServedData.map((data, ind) => {
                     return (
                       <li key={ind}>
@@ -208,7 +208,7 @@ export default function Page() {
                   {multilayerData.map((data, ind) => {
                     return (
                       <li key={ind}>
-                        <h4 className="font-bold inline 4xl:text-[22px] text-[18px] leading-tight">
+                        <h4 className="font-bold inline 4xl:text-[22px] xl:text-[17px] text-[18px] leading-tight">
                           {data.title}{" "}
                         </h4>
                         {data.desc}

@@ -36,17 +36,17 @@ export default function Page() {
       </div>
       <div className="p-6 flex-grow flex flex-col justify-between transition duration-300 ease-in-out group-hover:bg-[#F0F0F0]">
         <div>
-          <div className="pb-3 md:pb-4 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
+          <div className="pb-3 md:pb-4 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] leading-tight">
             <span className="text-[#0092E0]">{casestudy.industry}</span>
             <span className="text-[#ACACAC]"> | </span>
             {casestudy.date}
           </div>
           <Link href={casestudy.url}>
-            <h4 className="mb-2 md:mb-4 md:font-semibold 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight line-clamp-4">{casestudy.title}</h4>
+            <h4 className="mb-2 md:mb-4 md:font-semibold 4xl:text-[25px] xl:text-[20px] md:text-[20px] text-[18px] leading-tight line-clamp-4">{casestudy.title}</h4>
           </Link>
         </div>
         <Link href={casestudy.url}>
-          <p className="text-[#0092E0] mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 leading-tight mt-5">{t('readMore')}</p>
+          <p className="text-[#0092E0] mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 leading-tight mt-5 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px]">{t('readMore')}</p>
         </Link>
       </div>
     </div>
@@ -70,7 +70,7 @@ export default function Page() {
               type="button"
               className="border border-[#707070] font-medium w-[160px] h-[50px] relative group hover:bg-[#EDEDED]"
               onClick={loadMoreCaseStudy}>
-              <span className="group-hover:pr-4 transition-all duration-300 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{t('loadMore')}</span>
+              <span className="group-hover:pr-4 transition-all duration-300 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px]  leading-tight">{t('loadMore')}</span>
               <svg
                 className="w-6 h-6 absolute right-4 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 fill="none"
@@ -125,7 +125,7 @@ export default function Page() {
         <div className="relative h-full custom-container flex items-center">
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12">
-              <h2 className="text-black leading-tight 4xl:text-[70px]  xl:text-[50px]   text-[35px]">
+              <h2 className="text-black leading-tight 4xl:text-[70px]  xl:text-[50px] md:text-[40px]  text-[35px]">
                 {t('newsTitle')}
               </h2>
             </div>
@@ -136,7 +136,7 @@ export default function Page() {
       </section>
       <section className="custom-container">
         <div className="md:py-10 py-6 bg-white">
-          <p className="text-[#000000] py-6 max-w-4xl 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{t('newsDesc')}</p>
+          <p className="text-[#000000] py-6 max-w-4xl 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px]  leading-tight">{t('newsDesc')}</p>
         </div>
       </section>
       <div className="custom-container">
