@@ -301,7 +301,7 @@ export default function Page() {
     const integrationAsPartOfBorder = [
         {
             "title": "Integration as Part of a Broader Salesforce Growth Strategy",
-            "desc": "Integration is not a standalone project. It’s foundational. This aligns with the  <a href='' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce consulting playbook for growth</a>  discussed in our other helpful blog.",
+            "desc": "Integration is not a standalone project. It’s foundational. This aligns with the  <a class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce consulting playbook for growth</a>  discussed in our other helpful blog.",
             "list": [
                 {
                     "title": "Integration Enables Automation and AI",
@@ -393,7 +393,7 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-
+ 
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
@@ -556,7 +556,7 @@ export default function Page() {
 
 
                                 {/* benefits of salesforce section */}
-                                <div className="pt-20">
+                                <div className="pt-14">
                                     <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                         {benefitsOfSalesforce.title}
                                     </h2>
@@ -610,7 +610,7 @@ export default function Page() {
 
                                 {
                                     salesforceIntegrationUseCases?.map((data, ind) => (
-                                        <div className="md:mt-[90px] mt-[40px]" key={ind}>
+                                        <div className="md:mt-[80px] mt-[40px]" key={ind}>
                                             <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data?.title}</h2>
                                             <p className="mt-[29px] xl:mt-[20px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data?.desc}</p>
                                             {
@@ -640,7 +640,7 @@ export default function Page() {
                                 {/* salesforce integration use cases section */}
                                 {
                                     integrationAsPartOfBorder?.map((data, ind) => (
-                                        <div className="md:mt-[50px] mt-[40px]" key={ind}>
+                                        <div className="md:mt-[35px] mt-[40px]" key={ind}>
                                             <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data?.title}</h2>
                                             <p
                                                 className="mt-[29px] xl:mt-[20px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
@@ -673,7 +673,7 @@ export default function Page() {
 
 
 
-                                <div className="pt-16">
+                                <div className="pt-6">
                                     {/* Title */}
                                     <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                         {choosingTheRightPartner.title}
@@ -735,7 +735,7 @@ export default function Page() {
                 </div>
             </section>
             {/* faq section */}
-            <section className="xl:mt-[80px] mt-[40px] custom-container">
+            <section className="xl:mt-[60px] mt-[40px] custom-container">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">FAQs: Choose the Right Salesforce Partner </h2>
                 <div className="mt-[29px] xl:mt-[30px]">
                     <FAQAccordion faqData={faqData} />
