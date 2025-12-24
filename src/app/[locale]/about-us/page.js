@@ -22,11 +22,11 @@ export default function About() {
                 <h3 className="mb-[15px] md:mb-[25px] font-normal line-clamp-4 text-[#1F3F69] 4xl:text-[35px] xl:text-[30px] text-[26px] leading-tight">
                     {services.title}
                 </h3>
-                <p className="md:mb-[15px] mb-0 4xl:text-[27px] xl:text-[22px] text-[20px]">{services.description}</p>
+                <p className="md:mb-[15px] mb-0 4xl:text-[27px] xl:text-[20px] text-[18px]">{services.description}</p>
             </div>
             <div className="mt-auto xl:mt-7 max-sm:mt-3">
-                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 text-[20px]">
-                    <Link href={services.url}> {t('learnMore')} </Link>
+                <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 4xl:text-[20px] md:text-[18px] text-[16px]">
+                    <Link href={services.url} locale={locale}> {t('learnMore')} </Link>
                 </button>
             </div>
         </div>
@@ -34,8 +34,8 @@ export default function About() {
     const Services = () => {
         return (
             <div className="custom-container mx-auto text-black 4xl:px-0 2xl:px-0 xl:px-0">
-                <h2 className="text-black xl:mt-20 mt-10 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] "> {t('ourTitle')}</h2>
-                <h3 className="mt-5 font-bold 4xl:text-[45px] 2xl:text-[36px] xl:text-[32px] text-[23px]"> {t('ourDesc')}</h3>
+                <h2 className="text-black xl:mt-20 mt-10 leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]"> {t('ourTitle')}</h2>
+                <h3 className="mt-5 font-bold 4xl:text-[45px] 2xl:text-[36px] xl:text-[28px] text-[23px]"> {t('ourDesc')}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
                     {latestServices.map((services) => (
                         <ServicesCard key={services.id} services={services} />
@@ -80,7 +80,7 @@ export default function About() {
             </section>
             {/* Mission & Vision Section */}
             <div className="mt-40 custom-container">
-                <h1 className="py-14 leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]  xl:w-[76%] 4xl:w-[100%]">
+                <h1 className="py-14 leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]  xl:w-[76%] 4xl:w-[100%]">
                     {t('worldTitle')}
                 </h1>
                 <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 xl:mr-[211px]">
@@ -105,7 +105,7 @@ export default function About() {
             <section className="xl:py-14 py-10 bg-gray-100 mt-20">
                 <div className="custom-container">
                     <div className="mx-auto">
-                        <h3 className="text-[#000000] mb-8 font-semibold w-full 4xl:text-[43px] 2xl:text-[36px] xl:text-[32px] text-[23px] leading-tight">
+                        <h3 className="text-[#000000] mb-8 font-semibold w-full 4xl:text-[43px] 2xl:text-[36px] xl:text-[28px] text-[23px] leading-tight">
                             {t('overTitle')}</h3>
                        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-16 mb-8 place-items-baseline">
                             {corePrinciples.map((item, index) => (
@@ -124,14 +124,12 @@ export default function About() {
                                             height: item.height.base,
                                         }}
                                     />
-
-                                    <p className="mt-5 4xl:text-[35px] xl:text-[30px] text-[22px]">
+                                    <p className="mt-5 4xl:text-[35px] xl:text-[26px] text-[22px]">
                                         {item.label}
                                     </p>
                                 </div>
                             ))}
                         </div>
-
                     </div>
                 </div>
             </section>
@@ -139,8 +137,8 @@ export default function About() {
             <section className="xl:py-16 pt-10">
                 <div className="custom-container">
                     <div className="mx-auto">
-                        <h2 className="text-[#000000] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">{t('whatTitle')}</h2>
-                        <p className="my-10 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('whatDesc')}</p>
+                        <h2 className="text-[#000000] leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">{t('whatTitle')}</h2>
+                        <p className="my-10 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight">{t('whatDesc')}</p>
                         <div className="grid md:grid-cols-2 xl:grid-cols-3 xl:gap-4 gap-20 mb-20 mt-20 grid-cols-1">
                             {missionCards.map((card, index) => (
                                 <div key={index}>
@@ -154,7 +152,7 @@ export default function About() {
                                         <p className="mt-3 4xl:text-[30px] xl:text-[22px] text-[22px] leading-tight font-medium text-gray-900">
                                             {card.subheading}
                                         </p>
-                                        <p className="mt-4 text-gray-600 text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight">
+                                        <p className="mt-4 text-gray-600 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight">
                                             {card.description}
                                         </p>
                                         <div className={`absolute  w-12 border-t border-gray-400
@@ -164,7 +162,6 @@ export default function About() {
                                         ? "bottom-[0.5rem] xl:bottom-[1.5rem]"
                                         : "bottom-[1.5rem]"
                                 }`}
-                                        
                                         ></div>
                                     </div>
                                 </div>
@@ -196,8 +193,8 @@ export default function About() {
                             <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
                             <div className="relative bg-opacity-80 text-white z-10  rounded-lg">
                                 <h3 className="4xl:text-[45px] xl:text-[38px] text-[34px] leading-tight font-bold">{t('welcomeTitle')}</h3>
-                                <p className='mt-5 4xl:text-[32px] xl:text-[24px] text-[22px] leading-tight'>{t('welcomeDesc')}</p>
-                                <p className="mt-5 4xl:text-[32px] xl:text-[24px] text-[22px] leading-tight"> {t('welcomeDescOne')}</p>
+                                <p className='mt-5 4xl:text-[30px] xl:text-[20px] text-[18px] leading-tight'>{t('welcomeDesc')}</p>
+                                <p className="mt-5 4xl:text-[30px] xl:text-[20px] text-[18px] leading-tight"> {t('welcomeDescOne')}</p>
                             </div>
                         </div>
                     </div>

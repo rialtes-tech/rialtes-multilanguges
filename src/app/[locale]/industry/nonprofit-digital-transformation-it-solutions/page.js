@@ -58,7 +58,7 @@ export default function retailPage() {
                             <h3 className="text-[18px] md:text-[24px] font-bold">
                                 {t('headerTitle')}
                             </h3>
-                            <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] lg:mt-[28.5px] w-[88%] sm:w-full">
+                            <h2 className="text-[26px] md:text-[30px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] lg:mt-[28.5px] w-[88%] sm:w-full">
                                 {t('headerSubTitle')}
                             </h2>
                             <h2 className="text-[#000000] text-[20px] leading-tight xl:text-[28px] 4xl:text-[35px] mt-[14px] lg:mt-[46px] font-bold">
@@ -72,11 +72,11 @@ export default function retailPage() {
             </section>
             {/* page description section */}
             <section className="custom-container xl:mt-[99px] mt-[50px]">
-                <div className="md:w-[80%] lg:w-[70%] 4xl:w-[80%] sm:w-[90%]">
-                    <h1 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] ">
+                <div className="md:w-[80%] lg:w-[70%] 4xl:w-[85%] sm:w-[90%]">
+                    <h1 className="text-[26px] md:text-[30px] leading-tight xl:text-[40px] 4xl:text-[60px] ">
                         {t('pageDescTitle')}
                     </h1>
-                    <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[43px] mt-[30px] w-[94%] md:w-[90%] lg:w-[90%]">
+                    <p className="xl:text-[18px] 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight xl:mt-[43px] mt-[30px] w-[94%] md:w-[90%] lg:w-[90%]">
                         {t('pageDesc')}
                     </p>
                 </div>
@@ -87,15 +87,15 @@ export default function retailPage() {
                     <div className="col-span-12 md:order-1 order-2">
                         <div className="grid md:grid-cols-12 grid-cols-1 lg:gap-[40px]">
                             <div className="4xl:col-span-5 xl:col-span-5 md:col-span-6 col-span-12 max-md:mt-[36px] max-md:px-[36px]">
-                                <h2 className="text-[26px] xl:text-[40px] 4xl:text-[50px]">
+                                <h2 className="text-[26px] md:text-[30px]  xl:text-[40px] 4xl:text-[50px]">
                                     {t('thoughtTitle')}
                                 </h2>
                             </div>
                             <div className="4xl:col-span-7 xl:col-span-7 md:col-span-6 col-span-12 max-md:px-[36px]">
-                                <h3 className="text-[22px] xl:text-[30px] 4xl:text-[36px] font-semibold max-md:mt-[14px] w-[90%] sm:w-[70%] md:w-full">
+                                <h3 className="text-[18px] md:text-[20px]  xl:text-[30px] 4xl:text-[36px] font-semibold max-md:mt-[14px] w-[90%] sm:w-[70%] md:w-full">
                                     {t('thoughtSubTitle')}
                                 </h3>
-                                <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] xl:mt-[19px] mt-[26px] sm:w-[80%] md:w-[90%] lg:w-[84%]">
+                                <p className="xl:text-[18px] 4xl:text-[22px] md:text-[18px] text-[16px] xl:mt-[19px] mt-[26px] sm:w-[80%] md:w-[90%] lg:w-[84%]">
                                     {t('thoughtDesc')}
                                 </p>
                             </div>
@@ -131,10 +131,10 @@ export default function retailPage() {
                         thoughtLeadershipData.map((data, ind) => {
                             return (
                                 <div key={ind}>
-                                    <p className="xl:text-[28px] 4xl:text-[32px] text-[20px] leading-tight font-semibold">
+                                    <p className="xl:text-[30px] 4xl:text-[36px] md:text-[20px]  text-[18px] leading-tight font-semibold">
                                         {data.title}
                                     </p>
-                                    <UnorderedList arrName={data.dataList} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[19px] mt-[20px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
+                                    <UnorderedList arrName={data.dataList} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[19px] mt-[20px] pl-[20px]" liClassName="text-[16px] xl:text-[16px]  md:text-[18px] 4xl:text-[20px] leading-tight font-normal" />
                                 </div>
                             )
                         })
@@ -143,10 +143,10 @@ export default function retailPage() {
             </section>
             {/* pre-delivered section */}
             <section className="custom-container xl:mt-[110px] mt-[89px]">
-                <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] md:w-[70%] lg:w-[50%] xl:w-[70%] 4xl:w-[70%]">
+                <h2 className="text-[26px] leading-tight xl:text-[40px] md:text-[30px]  4xl:text-[56px] md:w-[70%] lg:w-[50%] xl:w-[70%] 4xl:w-[70%]">
                     {t('preDeliveredTitle')}
                 </h2>
-                <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight mb-[34px] xl:mb-[46px] xl:mt-[41px] mt-[26px] font-normal md:w-[80%] xl:w-[70%]">
+                <p className="xl:text-[18px] 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight mb-[34px] xl:mb-[46px] xl:mt-[41px] mt-[26px] font-normal md:w-[80%] xl:w-[70%]">
                     {t('preDeliveredDesc')}
                 </p>
                 <div className="grid md:grid-cols-2 grid-cols-1 xl:mt-[56px] mt-[26px] sm:w-[80%] md:gap-[40px] md:gap-y-[21px] gap-y-[16px]">
@@ -154,10 +154,10 @@ export default function retailPage() {
                         preDeliveredData.map((data, ind) => {
                             return (
                                 <div className="pt-[33px] px-[28px] pb-[46px] xl:px-[48px] xl:pt-[52px] xl:pb-[42px] border border-[#707070] hover:bg-[#D9F2FF]" key={ind}>
-                                    <p className="xl:text-[26px] 4xl:text-[30px] text-[20px] leading-tight font-bold text-[#006FBE]">
+                                    <p className="xl:text-[26px] 4xl:text-[30px] md:text-[22px] text-[20px] leading-tight font-bold text-[#006FBE]">
                                         {data.title}
                                     </p>
-                                    <p className="xl:text-[18px] 4xl:text-[24px] text-[16px] leading-tight xl:mt-[27px] mt-[24px] font-normal">
+                                    <p className="xl:text-[20px] 4xl:text-[24px] md:text-[18px] text-[16px] leading-tight xl:mt-[27px] mt-[24px] font-normal">
                                         {data.desc}
                                     </p>
                                 </div>
@@ -166,7 +166,7 @@ export default function retailPage() {
                     }
                 </div>
                 <div className="mt-[30px] xl:mt-[58px]">
-                    <LearnMore btnName={t('learnMoreBtn')} />
+                    <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                 </div>
             </section>
             {/* common sections */}
@@ -186,25 +186,25 @@ export default function retailPage() {
                                         <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] 4xl:gap-[40px] gap-y-[22px]">
                                             <div className="md:col-span-6 col-span-12">
                                                 <h2
-                                                    className={`text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]  ${ind === 3 || ind === 5 ? "xl:w-[60%] lg:w-[70%]" : "md:w-[80%] lg:w-[70%] xl:w-[80%] 4xl:w-[98%]"}`}>
+                                                    className={`text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] md:text-[30px]   ${ind === 3 || ind === 5 ? "xl:w-[60%] lg:w-[70%]" : "md:w-[80%] lg:w-[70%] xl:w-[80%] 4xl:w-[98%]"}`}>
                                                     {data.title}
                                                 </h2>
                                             </div>
                                             <div className="md:col-span-6 col-span-12">
-                                                {data.title2 && <h2 className={`text-[20px] leading-tight xl:text-[30px] 4xl:text-[36px] font-bold`}>
+                                                {data.title2 && <h2 className={`md:text-[20px] text-[18px] leading-tight xl:text-[30px] 4xl:text-[36px] font-bold`}>
                                                     {data.title2}
                                                 </h2>}
-                                                <p className={`xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight ${ind == 2 ? "xl:mt-4" : "xl:mt-[32px]"}  mt-[16px] font-normal`}>
+                                                <p className={`xl:text-[18px] 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight ${ind == 2 ? "xl:mt-4" : "xl:mt-[32px]"}  mt-[16px] font-normal`}>
                                                     {data.desc}
                                                 </p>
                                             </div>
                                         </div>
                                         <div className="grid md:grid-cols-2 grid-cols-1 md:gap-[40px] 4xl:gap-[60px] gap-y-[26px] md:mt-0 mt-[34px] relative">
                                             <div className="md:order-1 order-2">
-                                                <p className={`xl:text-[28px] 4xl:text-[32px] text-[18px] leading-tight font-semibold md:mt-[80px] ${ind == 2 && "xl:mt-[51px]"}`}>
+                                                <p className={`xl:text-[28px] 4xl:text-[32px] md:text-[20px] text-[18px] leading-tight font-semibold md:mt-[80px] ${ind == 2 && "xl:mt-[51px]"}`}>
                                                     {t('significanceTitle')}
                                                 </p>
-                                                <UnorderedList arrName={data.dataList} ulClassName={`xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[19px] mt-[22px] pl-[20px] xl:w-[88%] xl:pb-[182px] pb-[87px] ${ind == 2 && "xl:pb-[108px]"}`} liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
+                                                <UnorderedList arrName={data.dataList} ulClassName={`xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[19px] mt-[22px] pl-[20px] xl:w-[88%] xl:pb-[182px] pb-[87px] ${ind == 2 && "xl:pb-[108px]"}`} liClassName="text-[16px] 4xl:text-[20px] xl:text-[16px] md:text-[18px] leading-tight font-normal" />
                                             </div>
                                             <div className="md:order-2 order-1">
                                                 <div className="md:block hidden w-full h-full relative">
@@ -232,7 +232,7 @@ export default function retailPage() {
                                     </div>
                                     <div className="absolute bottom-0">
                                         <div className={`z-20`}>
-                                            <LearnMore btnName={t('learnMoreBtn')} />
+                                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                         </div>
                                     </div>
                                 </div>
@@ -243,63 +243,63 @@ export default function retailPage() {
             </section>
             {/* seamless section */}
             <section className="custom-container md:mt-[207px] 4xl:mt-[267px] mt-[70px]">
-                <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] md:w-[60%] lg:w-[63%] 4xl:w-[80%]">
+                <h2 className="text-[26px] md:text-[30px]  leading-tight xl:text-[40px] 4xl:text-[56px] md:w-[60%] lg:w-[63%] 4xl:w-[80%]">
                     {t('seamlessTitle')}
                 </h2>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:mt-[87px] mt-[43px] lg:gap-y-[127px] md:gap-[40px] lg:gap-0 md:gap-y-[50px] gap-y-[50px]">
                     {/* Card 1 */}
                     <div className="md:flex md:flex-col md:h-full">
                         <div className="md:flex md:flex-grow md:flex-col sm:w-[80%] lg:w-full lg:border-r lg:border-gray-700 lg:pr-[40px] max-lg:border-b max-lg:border-gray-700 max-lg:pb-[40px]">
-                            <p className="xl:text-[26px] 4xl:text-[30px] text-[20px] leading-tight font-bold text-[#006FBE] xl:w-[80%]">
+                            <p className="xl:text-[26px] 4xl:text-[30px] md:text-[20px] text-[18px] leading-tight font-bold text-[#006FBE] xl:w-[80%]">
                                 {t('seamlessCard1Title')}
                             </p>
-                            <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mb-[46px] xl:mt-[19px] mt-[14px] font-normal">
+                            <p className="xl:text-[18px] 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight xl:mb-[46px] xl:mt-[19px] mt-[14px] font-normal">
                                 {t('seamlessCard1Desc')}
                             </p>
                             <div className="md:mt-auto mt-[30px]">
-                                <LearnMore btnName={t('learnMoreBtn')} />
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>
                     {/* Card 2 */}
                     <div className="md:flex md:flex-col md:h-full">
                         <div className="md:flex md:flex-grow md:flex-col sm:w-[80%] lg:w-full lg:pl-[40px] lg:border-r lg:border-gray-700 lg:pr-[40px] max-lg:border-b max-lg:border-gray-700 max-lg:pb-[40px]">
-                            <p className="xl:text-[26px] 4xl:text-[30px] text-[20px] leading-tight font-bold text-[#006FBE]">
+                            <p className="xl:text-[26px] 4xl:text-[30px] md:text-[20px] text-[18px] leading-tight font-bold text-[#006FBE]">
                                 {t('seamlessCard2Title')}
                             </p>
-                            <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mb-[46px] xl:mt-[19px] mt-[14px] font-normal">
+                            <p className="xl:text-[18px] 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight xl:mb-[46px] xl:mt-[19px] mt-[14px] font-normal">
                                 {t('seamlessCard2Desc')}
                             </p>
                             <div className="md:mt-auto mt-[30px]">
-                                <LearnMore btnName={t('learnMoreBtn')} />
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>
                     {/* Card 3 */}
                     <div className="md:flex md:flex-col md:h-full">
                         <div className="md:flex md:flex-grow md:flex-col sm:w-[80%] lg:w-full lg:pl-[40px] max-lg:border-b max-lg:border-gray-700 max-lg:pb-[40px]">
-                            <p className="xl:text-[26px] 4xl:text-[30px] text-[20px] leading-tight font-bold text-[#006FBE] xl:w-[80%]">
+                            <p className="xl:text-[26px] 4xl:text-[30px] md:text-[20px] text-[18px]  leading-tight font-bold text-[#006FBE] xl:w-[80%]">
                                 {t('seamlessCard3Title')}
                             </p>
-                            <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mb-[46px] xl:mt-[19px] mt-[14px] font-normal">
+                            <p className="xl:text-[18px] 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight xl:mb-[46px] xl:mt-[19px] mt-[14px] font-normal">
                                 {t('seamlessCard3Desc')}
                             </p>
                             <div className="md:mt-auto mt-[30px]">
-                                <LearnMore btnName={t('learnMoreBtn')} />
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>
                     {/* Card 4 */}
                     <div className="md:flex md:flex-col md:h-full">
                         <div className="md:flex md:flex-grow md:flex-col sm:w-[80%] lg:w-full lg:border-r lg:border-gray-700 lg:pr-[40px] max-lg:border-b max-lg:border-gray-700 max-lg:pb-[40px]">
-                            <p className="xl:text-[26px] 4xl:text-[30px] text-[20px] leading-tight font-bold text-[#006FBE]">
-                                {t('seamlessCard4Title')}     <br /><span className="xl:text-[18px] 4xl:text-[24px] text-[16px]">{t('seamlessCard4Title2')}</span>
+                            <p className="xl:text-[26px] 4xl:text-[30px] md:text-[20px] text-[18px]  leading-tight font-bold text-[#006FBE]">
+                                {t('seamlessCard4Title')}     <br /><span className="xl:text-[20px] 4xl:text-[24px] md:text-[18px] text-[16px]">{t('seamlessCard4Title2')}</span>
                             </p>
-                            <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mb-[46px] xl:mt-[19px] mt-[14px] font-normal">
+                            <p className="xl:text-[18px] 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight xl:mb-[46px] xl:mt-[19px] mt-[14px] font-normal">
                                 {t('seamlessCard4Desc')}
                             </p>
                             <div className="md:mt-auto mt-[30px]">
-                                <LearnMore btnName={t('learnMoreBtn')} />
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>
@@ -307,14 +307,14 @@ export default function retailPage() {
                     {/* Card 5 */}
                     <div className="md:flex md:flex-col md:h-full">
                         <div className="md:flex md:flex-grow md:flex-col sm:w-[80%] lg:w-full lg:pl-[40px]">
-                            <p className="xl:text-[26px] 4xl:text-[30px] text-[20px] leading-tight font-bold text-[#006FBE]">
-                                {t('seamlessCard5Title')}  <br /> <span className="xl:text-[18px] 4xl:text-[24px] text-[16px]">{t('seamlessCard5Title2')}</span>
+                            <p className="xl:text-[26px] 4xl:text-[30px] md:text-[20px] text-[18px]  leading-tight font-bold text-[#006FBE]">
+                                {t('seamlessCard5Title')}  <br /> <span className="xl:text-[20px] 4xl:text-[24px] md:text-[18px] text-[16px]">{t('seamlessCard5Title2')}</span>
                             </p>
-                            <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mb-[46px] xl:mt-[19px] mt-[14px] font-normal">
+                            <p className="xl:text-[18px] 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight xl:mb-[46px] xl:mt-[19px] mt-[14px] font-normal">
                                 {t('seamlessCard5Desc')}
                             </p>
                             <div className="md:mt-auto mt-[30px]">
-                                <LearnMore btnName={t('learnMoreBtn')} />
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                             </div>
                         </div>
                     </div>
@@ -323,7 +323,7 @@ export default function retailPage() {
             </section>
             {/* enhanced engagement section */}
             <section className="custom-container md:mt-[121px] mt-[40px] bg-[#F0F0F0] xl:pt-[75px] pt-[43px] xl:pb-[146px] pb-[77px]">
-                <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] xl:w-[60%] sm:w-[70%] md:w-[50%] lg:w-[60%]">
+                <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px] md:text-[30px]  xl:w-[60%] sm:w-[70%] md:w-[50%] lg:w-[60%]">
                     {t('enhancedTitle')}
                 </h2>
                 <div className="grid md:grid-cols-2 grid-cols-1 xl:mt-[48px] mt-[47px] md:gap-[20px] gap-y-[93px] sm:gap-y-[0px]">
@@ -350,10 +350,10 @@ export default function retailPage() {
                             />
                         </div>
                         <div className="sm:w-[80%] xl:w-[90%] 4xl:w-[80%]">
-                            <h3 className="text-[20px] leading-tight xl:text-[36px] 4xl:text-[40px] xl:mt-[59px] mt-[29px] font-bold">
+                            <h3 className="text-[20px] leading-tight 2xl:text-[36px] xl:text-[32px] md:text-[22px]  4xl:text-[40px] xl:mt-[59px] mt-[29px] font-bold">
                                 {t('enhancedSubTitle')}
                             </h3>
-                            <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[20px]">
+                            <p className="xl:text-[18px] md:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[20px]">
                                 {t('enhancedDesc')}
                                 <br /> <br />
                                 {t('enhancedDesc2')}
@@ -383,16 +383,16 @@ export default function retailPage() {
                             />
                         </div>
                         <div className="sm:w-[80%] xl:w-[90%] 4xl:w-[80%]">
-                            <h3 className="text-[20px] leading-tight xl:text-[36px] 4xl:text-[40px] xl:mt-[59px] mt-[29px] font-bold">
+                            <h3 className="text-[20px] md:text-[22px] xl:text-[32px]  leading-tight 2xl:text-[36px] 4xl:text-[40px] xl:mt-[59px] mt-[29px] font-bold">
                                 {t('agentforceTitle')}
                             </h3>
-                            <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[20px]">
+                            <p className="xl:text-[18px] md:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[20px]">
                                 {t('agentforceDesc1')}   <br /> <br /> {t('agentforceDesc2')}
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[75px] gap-y-[29px] md:mt-[148px] xl:mt-[188px] sm:mt-[0px] mt-[93px]">
+                <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[75px] gap-y-[29px] md:mt-[166px] xl:mt-[188px] sm:mt-[0px] mt-[93px]">
                     <div className="4xl:col-span-5 md:col-span-5 lg:col-span-6 col-span-12 flex justify-center">
                         <div className="md:block hidden w-full h-full">
                             <Image
@@ -417,10 +417,10 @@ export default function retailPage() {
                     </div>
                     <div className="4xl:col-span-5 md:col-span-5 lg:col-span-6 col-span-12">
                         <div className="sm:w-[80%] md:w-[90%] lg:w-[80%] flex flex-col items-center xl:w-full">
-                            <h3 className="text-[20px] leading-tight xl:text-[36px] 4xl:text-[40px] font-bold">
+                            <h3 className="text-[20px] md:text-[22px] xl:text-[32px]  leading-tight 2xl:text-[36px] 4xl:text-[40px] font-bold">
                                 {t('dataCloudTitle')}
                             </h3>
-                            <p className="xl:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[20px]">
+                            <p className="xl:text-[18px] md:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[20px]">
                                 {t('dataCloudDesc')}
                                 <br />
                                 <br />
@@ -433,19 +433,19 @@ export default function retailPage() {
             {/* learn more btn */}
             <div className="custom-container">
                 <div className="absolute mt-[-50px]">
-                    <LearnMore btnName={t('learnMoreBtn')} />
+                    <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                 </div>
             </div>
             {/* why choose section */}
             <section className="custom-container md:pr-0 xl:mt-[181px] mt-[94px] text-[#000000]">
                 <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] max-md:gap-y-[34px]">
                     <div className="md:col-span-6 col-span-12 md:order-1 order-2 xl:w-[90%]">
-                        <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[56px]">
+                        <h2 className="text-[26px] leading-tight xl:text-[40px] md:text-[30px]  4xl:text-[56px]">
                             {t('whyChooseTitle')}
                         </h2>
-                        <UnorderedList arrName={whyChooseData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[61px] mt-[24px] pl-[20px] 4xl:w-[74%]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
+                        <UnorderedList arrName={whyChooseData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[61px] mt-[24px] pl-[20px] 4xl:w-[74%]" liClassName="text-[16px] 4xl:text-[20px] xl:text-[16px] md:text-[18px] leading-tight font-normal" />
                         <div className="mt-[46px] xl:mt-[84px]">
-                            <LearnMore btnName={t('learnMoreBtn')} />
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                         </div>
                     </div>
                     <div className="md:col-span-6 col-span-12 md:order-2 order-1">
@@ -474,7 +474,7 @@ export default function retailPage() {
             </section>
             {/* Contact Form */}
             < div className="custom-container lg:mt-[120px] lg:mb-[92px] mt-[73px] mb-[45px]">
-                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubTitle2')} className={"xl:text-[40px] 4xl:text-[60px] text-[26px] xl:w-[50%] 4xl:w-[50%] md:w-[50%]"} />
+                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubTitle2')} className={"xl:text-[40px] 4xl:text-[60px] text-[26px] md:text-[30px]  xl:w-[50%] 4xl:w-[50%] md:w-[50%]"} />
             </div >
         </section>
     )
