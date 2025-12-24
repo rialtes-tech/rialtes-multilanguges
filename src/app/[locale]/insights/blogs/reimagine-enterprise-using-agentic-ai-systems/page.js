@@ -189,7 +189,7 @@ export default function Page() {
                                     aiThinksData.map((data, ind) => {
                                         return (
                                             <div key={ind}>
-                                                <h4 className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.title}</h4>
+                                                 <h3 className="mt-5 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold">{data.title}</h3>
                                                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-3">
                                                     {data.desc}
                                                 </p>

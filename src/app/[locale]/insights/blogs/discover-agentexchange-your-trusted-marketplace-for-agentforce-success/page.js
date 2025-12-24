@@ -138,7 +138,7 @@ export default function Page() {
                 </h3>
 
                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
-                  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/" target="_blank">
+                  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/`} target="_blank">
                     {t('exploreAllLink')}</Link>{" "}
                   {t('exploreAllDesc')}
                 </p>
@@ -199,7 +199,7 @@ export default function Page() {
 
                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">
                   {t('availabilityData2')}{" "}
-                  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href="https://www.rialtes.com/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/?utm_source=blog&utm_medium=organic" target="_blank">
+                  <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={`https://www.rialtes.com/${locale}/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai/?utm_source=blog&utm_medium=organic`} target="_blank">
                     {t('availabilityLink')}</Link>,{" "}
                   {t('availabilityData3')} ,
                   <Link className="underline" href={"mailto:sales@rialtes.com"}>
