@@ -225,9 +225,20 @@
     ],
     "latestBlogs": [
       {
+        "id": 66,
+        "image": "/images/blog/business-growth-journey-thumbnail.webp",
+        "category": "Conseil Salesforce",
+        "industry": "Générique",
+        "date": "Dec. 23, 2025",
+        "url": "/salesforce-consulting-playbook-enterprise-growth/",
+        "title": "Guide de conseil Salesforce : stratégies pour stimuler la croissance et l’efficacité",
+        "alt": "Figure abstraite bleue gravissant des marches géométriques symbolisant la croissance de l’entreprise et le progrès stratégique",
+        "description": "Salesforce s’est imposé comme le CRM de référence pour les entreprises. Pourtant, pour beaucoup d’organisations, il peine encore à devenir un véritable moteur de croissance. L’écart ne vient que rarement des fonctionnalités. Il vient de la stratégie."
+      },
+      {
         "id": 65,
         "image": "/images/blog/cloud-computing-digital-storage-thumbnail.webp",
-        "category": "Salesforce Consulting",
+        "category": "Conseil Salesforce",
         "industry": "Générique",
         "date": "Dec. 18, 2025",
         "url": "/partner-salesforce-right-way-for-growth/",
@@ -240,7 +251,7 @@
         "image": "/images/blog/electric-vehicle-charging-energy-thumb.webp",
         "category": "Salesforce Automotive Cloud",
         "industry": "Automobile",
-        "date": "Dec. 11, 2025", 
+        "date": "Dec. 11, 2025",
         "url": "/digital-twin-in-automotive-industry-salesforce-cloud/",
         "title": "Digital Twin Automobile : Comment les OEM, Concessionnaires et Marques Électriques Réussissent avec Salesforce Automotive Cloud",
         "alt": "Port de charge de véhicule électrique avec des flux d’énergie lumineux représentant la puissance et la technologie propre",

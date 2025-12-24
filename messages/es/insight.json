@@ -226,9 +226,20 @@
     ],
     "latestBlogs": [
       {
+        "id": 66,
+        "image": "/images/blog/business-growth-journey-thumbnail.webp",
+        "category": "Consultoría de Salesforce",
+        "industry": "Genérico",
+        "date": "Dec. 23, 2025",
+        "url": "/salesforce-consulting-playbook-enterprise-growth/",
+        "title": "Guía de consultoría Salesforce: estrategias para impulsar el crecimiento y la eficiencia",
+        "alt": "Figura azul abstracta subiendo escalones geométricos que simbolizan el crecimiento empresarial y el progreso estratégico",
+        "description": "Salesforce se ha consolidado como el CRM empresarial de referencia. Sin embargo, para muchas empresas, todavía no logra convertirse en un verdadero motor de crecimiento. La brecha rara vez se debe a las funcionalidades. Se debe a la estrategia."
+      },
+      {
         "id": 65,
         "image": "/images/blog/cloud-computing-digital-storage-thumbnail.webp",
-        "category": "Salesforce Consulting",
+        "category": "Consultoría de Salesforce",
         "industry": "Genérico",
         "date": "Dec. 18, 2025",
         "url": "/partner-salesforce-right-way-for-growth/",
@@ -249,7 +260,7 @@
       },
       {
         "id": 63,
-       "image": "/images/blog/digital-data-stream-thumb.webp",
+        "image": "/images/blog/digital-data-stream-thumb.webp",
         "category": "Servicios Gestionados",
         "industry": "Genérico",
         "date": "Dec. 05, 2025",
