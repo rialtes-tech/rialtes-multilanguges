@@ -2934,7 +2934,7 @@
         "blogTitle": "The Brain Behind the Agents: Unveiling the Atlas Reasoning Engine in Agentforce",
         "faqTitle": "FAQ: Atlas Reasoning Engine in Agentforce",
         "mainData": [
-            "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems. <a href='https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce Agentforce</a> provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
+            "As businesses scale, the complexity of managing customer interactions multiplies, driving the need for more intelligent and streamlined support systems. <a href='https://www.rialtes.com/en/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce Agentforce</a> provides a robust platform for customer service automation, now enhanced by the groundbreaking Atlas Reasoning Engine.",
             "As the “brain” behind the agents, Atlas formulates a strategic plan based on the specific goal the agent is trying to achieve. It then evaluates and refines this plan, looping to gather additional data if necessary. When executing an action, it assesses which business process is most appropriate and ensures the right one is applied. It engages with customers or employees through their preferred communication channel, delivering a more seamless and personalized experience. This dynamic adaptability enables Atlas to continuously optimize interactions, driving efficiency and satisfaction in real-time. Let’s dive into what makes Atlas’s new ways of reasoning and planning special."
         ],
         "quickCommonData": [
@@ -3094,8 +3094,8 @@
             {
                 "title": "How Rialtes Helps You Build Atlas-Powered AI Agents",
                 "desc": [
-                    "Atlas pushes Salesforce Agentforce into a new era. It turns agents from scripted automations into intelligent systems that can reason, plan, and act—without constant human supervision. As customer expectations rise and interactions spread across channels, this kind of adaptive intelligence will define the <a href='https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>next generation of customer experience</a>.",
-                    "<a href='https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Building autonomous agents</a> doesn’t always mean turning on a feature. It requires careful design, like choosing the right data, defining goals, setting guardrails, and validating agent behavior.",
+                    "Atlas pushes Salesforce Agentforce into a new era. It turns agents from scripted automations into intelligent systems that can reason, plan, and act—without constant human supervision. As customer expectations rise and interactions spread across channels, this kind of adaptive intelligence will define the <a href='https://www.rialtes.com/en/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>next generation of customer experience</a>.",
+                    "<a href='https://www.rialtes.com/en/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Building autonomous agents</a> doesn’t always mean turning on a feature. It requires careful design, like choosing the right data, defining goals, setting guardrails, and validating agent behavior.",
                     "Rialtes helps businesses:"
                 ],
                 "list": [
@@ -10776,6 +10776,7 @@
     "sap2026": {
         "seoTitle": "Expert SAP Implementation Strategies for 2026 Success | Rialtes",
         "seoDescription": "SAP implementation isn't a plug-and-play exercise; it demands a roadmap and strategy that balances technology, business goals, and people.",
+        "fivePillarAlt":"Five-step SAP implementation infographic: business case, expert consultants, data migration, user training, continuous value",
         "mainData": [
             "We know that implementing SAP isn’t just about upgrading a system. It’s about reshaping how an enterprise operates, from finance and supply chain to HR and customer experience. When done right, it can cut costs, increase transparency, and accelerate growth. When done wrong, it can drain budgets and frustrate teams for months.",
             "According to McKinsey, nearly 55% of large ERP implementations either exceed budgets or fail to deliver expected ROI. The culprit? A lack of strategic alignment and inadequate change management. SAP implementation isn’t a plug-and-play exercise; it demands a roadmap that balances technology, business goals, and people.",
@@ -10916,7 +10917,7 @@
                     "Integrating SAP with existing ERP, CRM, and HR platforms."
                 ],
                 "list3": [
-                    "<a href='https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Custom SAP development and integration</a> ensure smooth information flow across the enterprise, from sales to finance. Think about integrating SAP with Salesforce for real-time customer insights or connecting it with IoT systems to enable predictive maintenance.",
+                    "<a href='https://www.rialtes.com/en/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Custom SAP development and integration</a> ensure smooth information flow across the enterprise, from sales to finance. Think about integrating SAP with Salesforce for real-time customer insights or connecting it with IoT systems to enable predictive maintenance.",
                     "When a European energy firm linked its SAP ERP with field service tools via open APIs, it improved work order accuracy by 35% and reduced downtime across operations by 22%."
                 ]
             },
@@ -10962,7 +10963,7 @@
                 "title": "Building a Value-Driven Partnership for Scalable SAP Success",
                 "desc": [
                     "A successful SAP ecosystem never stays static. Cloud transitions, new regulatory requirements, and AI-led analytics all demand constant evolution.",
-                    "<a href='https://www.rialtes.com/insights/blogs/why-enterprises-choose-sap-consulting-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Value-driven SAP partnerships</a> go beyond go-live support. They focus on long-term scalability, ensuring enterprises stay adaptable as business priorities shift. Regular health checks, performance reviews, and feature updates ensure your SAP environment continues to evolve with your business."
+                    "<a href='https://www.rialtes.com/en/insights/blogs/why-enterprises-choose-sap-consulting-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Value-driven SAP partnerships</a> go beyond go-live support. They focus on long-term scalability, ensuring enterprises stay adaptable as business priorities shift. Regular health checks, performance reviews, and feature updates ensure your SAP environment continues to evolve with your business."
                 ]
             },
             {
@@ -10999,7 +11000,7 @@
                     "Cross-industry experience, from manufacturing and logistics to healthcare and real estate.",
                     "Continuous post-go-live support for optimization and scalability."
                 ],
-                "desc2": "At Rialtes, we create value ecosystems where SAP becomes a driver of growth. Our mission is to help enterprises modernize, innovate, and thrive with seamless <a href='https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting-implementation-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP implementation services</a> designed for measurable outcomes."
+                "desc2": "At Rialtes, we create value ecosystems where SAP becomes a driver of growth. Our mission is to help enterprises modernize, innovate, and thrive with seamless <a href='https://www.rialtes.com/en/solutions/enterprise-platforms/sap-consulting-implementation-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP implementation services</a> designed for measurable outcomes."
             }
         ],
         "faqs": [
@@ -11148,7 +11149,7 @@
         ],
         "sapDevelopmentPara": "According to IDC, enterprises that invest in custom SAP enhancements report up to 35% faster process execution and 20% higher user adoption rates compared to those using standard SAP modules.",
         "roleofSAPTitle": "The Role of SAP Consulting Strategy for Enterprises",
-        "roleofSAPPara": "Before diving into custom development, a clear <a href='/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP consulting strategy for enterprises</a> is essential. This strategy defines not just what to build, but why it’s being built, and how it ties to business outcomes.",
+        "roleofSAPPara": "Before diving into custom development, a clear <a href='https://www.linkedin.com/pulse/reimagine-enterprise-efficiency-sap-consulting-4pm1f/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP consulting strategy for enterprises</a> is essential. This strategy defines not just what to build, but why it’s being built, and how it ties to business outcomes.",
         "roleofSAPPara2": "An effective consulting approach usually involves:",
         "roleofSAPPara3": "When done right, consulting becomes a partnership, not a service. It aligns technology capabilities with enterprise vision, ensuring every enhancement contributes to measurable ROI.",
         "roleofSAP": [
@@ -11170,7 +11171,7 @@
             }
         ],
         "blueprintTitle": "From Blueprint to Build: SAP Implementation Strategies that Work",
-        "blueprintPara1": "Many SAP initiatives fail not because the technology lacks capability, but because execution falters. Leading <a href='https://www.rialtes.com/insights/blogs/sap-implementation-strategies-for-2026-success/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP implementation strategies</a> focus on three pillars:",
+        "blueprintPara1": "Many SAP initiatives fail not because the technology lacks capability, but because execution falters. Leading <a href='https://www.rialtes.com/en/insights/blogs/sap-implementation-strategies-for-2026-success/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP implementation strategies</a> focus on three pillars:",
         "blueprintPara2": "Data from Gartner shows that organizations using iterative, integration-led SAP implementation models realize projects 30% faster and reduce post-launch issues by 40%.",
         "blueprintBuild": [
             {
@@ -11217,7 +11218,7 @@
             "Enable real-time analytics by linking SAP data with BI platforms."
         ],
         "topSAPPartnersTitle": "Value of Working with Top SAP Partners",
-        "topSAPPartnersPara": "Here’s where going for the <a href='https://www.rialtes.com/insights/blogs/why-enterprises-choose-sap-consulting-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>top SAP partners</a> changes everything. The right partner doesn’t just implement; they co-create. They understand your business goals; design tailored solutions and stay with you through the entire lifecycle, from consulting to deployment to optimization.",
+        "topSAPPartnersPara": "Here’s where going for the <a href='https://www.rialtes.com/en/insights/blogs/why-enterprises-choose-sap-consulting-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>top SAP partners</a> changes everything. The right partner doesn’t just implement; they co-create. They understand your business goals; design tailored solutions and stay with you through the entire lifecycle, from consulting to deployment to optimization.",
         "topSAPPartnersPara2": " A leading SAP partner brings:",
         "topSAPPartnersPara3": "In short, they ensure that your SAP environment remains adaptive, resilient, and aligned with growth goals.",
         "topSAPPartners": [
@@ -11257,7 +11258,7 @@
         ],
         "partnersinSAPTitle": "Rialtes: Your Partner in SAP Consulting and Implementation",
         "sapConsulting": [
-            "At Rialtes, we’re innovators who believe enterprise technology should evolve as fast as your business does. Our <a href='https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting-implementation-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP consulting and implementation services</a> are designed to help you reimagine operations, enhance agility, and unlock new growth potential.",
+            "At Rialtes, we’re innovators who believe enterprise technology should evolve as fast as your business does. Our <a href='https://www.rialtes.com/en/solutions/enterprise-platforms/sap-consulting-implementation-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP consulting and implementation services</a> are designed to help you reimagine operations, enhance agility, and unlock new growth potential.",
             "We partner with enterprises to build scalable, secure, and intelligent SAP systems—from consulting strategy and implementation to custom development and integration. Whether it’s modernizing your legacy infrastructure or designing future-ready architectures, Rialtes ensures your transformation is seamless, value-driven, and built for tomorrow. With a global team of certified SAP experts, proven methodologies, and a passion for innovation, Rialtes helps you go beyond technology, toward real business impact."
         ],
         "faqTitle": "FAQs: Tailored SAP Development and Integration Services to Boost Agility",
@@ -11449,7 +11450,7 @@
         ],
         "fromData": [
             "Patient enrolment has long been the Achilles’ heel of clinical trials, especially for rare diseases. But with AI, the tide is turning. From automated recruitment and digital enrolment to personalized engagement and retention, AI is delivering measurable improvements in speed, accuracy, and efficiency.",
-            "MediAIna is at the forefront of this transformation. By combining AI in clinical trials with <a href='https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>patient-first digital journeys</a>, it empowers Pharma, MedTech, and life sciences organizations to accelerate rare disease studies without compromising on quality or compliance.",
+            "MediAIna is at the forefront of this transformation. By combining AI in clinical trials with <a href='https://www.rialtes.com/en/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>patient-first digital journeys</a>, it empowers Pharma, MedTech, and life sciences organizations to accelerate rare disease studies without compromising on quality or compliance.",
             "The message is clear: the future of clinical trials lies in how AI accelerates rare disease clinical trials, and with MediAIna, that future has already caught up."
         ],
         "futureData": [
@@ -11478,7 +11479,7 @@
                 "title": "How MediAIna Redefines AI in Clinical Trials",
                 "desc": [
                     "So, where does MediAIna fit into this landscape?",
-                    "MediAIna is Rialtes’ next-generation <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient journey platform</a>, designed specifically for life sciences and healthcare enterprises. Backed by LifeAI+, Rialtes’ healthcare consulting suite, MediAIna leverages AI in clinical trials to accelerate recruitment and improve engagement at scale.",
+                    "MediAIna is Rialtes’ next-generation <a href='https://www.rialtes.com/en/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>digital patient journey platform</a>, designed specifically for life sciences and healthcare enterprises. Backed by LifeAI+, Rialtes’ healthcare consulting suite, MediAIna leverages AI in clinical trials to accelerate recruitment and improve engagement at scale.",
                     "Here’s how:"
                 ],
                 "list": [
@@ -11676,14 +11677,14 @@
         "faq": "FAQs: Transforming Clinical Trial Management",
         "blogMainData": [
             "Clinical trials have always been the core of medical progress. But here’s the bitter truth: usual trials are often slow, expensive, and feel disconnected from the digital-first world in which patients now live. Data silos, manual processes, and low patient retention continue to challenge research outcomes.",
-            "Digital innovation is transforming the clinical research landscape. Technologies such as AI, automation, and <a href='https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>connected ecosystems</a> are redefining the design, monitoring, and execution of digital clinical trials. These advancements improve accuracy, accelerate timelines, and enhance the patient experience. Let’s explore how digital transformation is revolutionizing clinical trial management, reducing dropout rates, and paving the way for smarter, patient-centric research."
+            "Digital innovation is transforming the clinical research landscape. Technologies such as AI, automation, and <a href='https://www.rialtes.com/en/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>connected ecosystems</a> are redefining the design, monitoring, and execution of digital clinical trials. These advancements improve accuracy, accelerate timelines, and enhance the patient experience. Let’s explore how digital transformation is revolutionizing clinical trial management, reducing dropout rates, and paving the way for smarter, patient-centric research."
         ],
         "analyticsData": [
             {
                 "title": "Smarter Patient Recruitment with AI and Predictive Analytics",
                 "data": [
                     "One of the biggest challenges in clinical trials has always been patient enrollment, particularly for rare diseases, where suitable candidates are few and often geographically dispersed.",
-                    "Here’s where <a href='https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AI-powered patient enrollment in rare disease trials</a> changes the game. Advanced algorithms analyze medical histories, genomic data, and electronic health records (EHRs) to identify eligible participants with remarkable precision. This not only accelerates recruitment but also ensures diversity and compliance with inclusion criteria. Predictive analytics tools further refine this process by forecasting enrollment patterns and identifying potential drop-offs before they occur. For sponsors, this means better planning and higher success rates. According to a McKinsey analysis, AI-based recruitment tools can cut enrollment times by 50%."
+                    "Here’s where <a href='https://www.rialtes.com/en/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AI-powered patient enrollment in rare disease trials</a> changes the game. Advanced algorithms analyze medical histories, genomic data, and electronic health records (EHRs) to identify eligible participants with remarkable precision. This not only accelerates recruitment but also ensures diversity and compliance with inclusion criteria. Predictive analytics tools further refine this process by forecasting enrollment patterns and identifying potential drop-offs before they occur. For sponsors, this means better planning and higher success rates. According to a McKinsey analysis, AI-based recruitment tools can cut enrollment times by 50%."
                 ]
             }
         ],
@@ -11753,8 +11754,8 @@
         "quickAnswer": [
             {
                 "title": "A Seamless Future with MediAIna for Digital Clinical Trial Management",
-                "desc": "At the center of this transformation are platforms that unify every digital and operational touchpoint. <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a> is one such next-generation solution.",
-                "desc1": "Developed by <a href='https://www.rialtes.com/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Rialtes</a>, MediAIna redefines how healthcare and life sciences enterprises conduct and oversee trials. By integrating clinical, operational, and patient engagement data, it creates a 360-degree view of trial performance — from recruitment to post-trial analysis.",
+                "desc": "At the center of this transformation are platforms that unify every digital and operational touchpoint. <a href='https://www.rialtes.com/en/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a> is one such next-generation solution.",
+                "desc1": "Developed by <a href='https://www.rialtes.com/en/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Rialtes</a>, MediAIna redefines how healthcare and life sciences enterprises conduct and oversee trials. By integrating clinical, operational, and patient engagement data, it creates a 360-degree view of trial performance — from recruitment to post-trial analysis.",
                 "desc2": "Key capabilities include:",
                 "features": [
                     "AI-based patient enrollment and retention tools.",
@@ -11763,7 +11764,7 @@
                     "Compliance-ready workflows aligned with global standards like HIPAA and GxP."
                 ],
                 "desc3": "MediAIna is the foundation of a smarter, more connected healthcare ecosystem. It helps life sciences organizations reduce trial costs, shorten timelines, and enhance patient outcomes while staying fully compliant and future-ready.",
-                "desc4": "Rialtes’ vision with MediAIna is simple yet powerful: to <a href='https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>transform the patient journey</a> by merging clinical intelligence with digital innovation."
+                "desc4": "Rialtes’ vision with MediAIna is simple yet powerful: to <a href='https://www.rialtes.com/en/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>transform the patient journey</a> by merging clinical intelligence with digital innovation."
             }
         ],
         "faqData": [
