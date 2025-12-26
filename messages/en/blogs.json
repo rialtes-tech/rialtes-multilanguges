@@ -4646,7 +4646,7 @@
         "blogMainData": [
             "Industrial automation isn’t a new concept. Robots have been welding, assembling, and packaging on factory floors for decades. But here’s the shift: automation is no longer just about machines moving faster. It’s about systems thinking smarter. But most factories still rely on automation that follows fixed rules, limited to one job, one system, and zero learning.",
             "Here’s the issue: Manufacturers today face a complex web of global demand shifts, compliance pressure, customer personalization needs, and fragile supply chains. Solving for that requires more than just faster arms and pre-programmed bots.",
-            "That's where AI agents can help you incorporate intelligence that can adapt, reason, and act across the value chain. The next generation of <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smart manufacturing</a> transcends automation and becomes agentic."
+            "That's where AI agents can help you incorporate intelligence that can adapt, reason, and act across the value chain. The next generation of <a href='https://www.rialtes.com/en/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smart manufacturing</a> transcends automation and becomes agentic."
         ],
         "whyNeedShiftData": [
             "In addition to executing, they understand goals and work toward them.",
@@ -4688,7 +4688,7 @@
                     "Identify accounts at churn risk based on behavior or sentiment",
                     "Recommend personalized follow-ups, preventive maintenance, or upsell opportunities"
                 ],
-                "desc2": "This is where <a href='https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>real customer experience is won</a>, not just in what you build, but how you support and evolve with the customer over time."
+                "desc2": "This is where <a href='https://www.rialtes.com/en/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>real customer experience is won</a>, not just in what you build, but how you support and evolve with the customer over time."
             },
             {
                 "title": "AI That Unifies OEMs, Distributors, and Channel Partners",
@@ -4745,7 +4745,7 @@
                 "Agents follow intent."
             ],
             "desc2": "And that’s the leap manufacturers need to thrive in the next decade.",
-            "desc3": "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce Crest Partner</a>, we bring the strategy, systems, and support to make AI agents real and fast."
+            "desc3": "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a <a href='https://www.rialtes.com/en/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce Crest Partner</a>, we bring the strategy, systems, and support to make AI agents real and fast."
         },
         "faqData": [
             {
@@ -4802,7 +4802,7 @@
         "agenticDesc2": "These agents plug directly into your Salesforce stack—CPQ, Service Cloud, Manufacturing Cloud, and scale as you grow.",
         "readyTitle": "Ready to Upgrade from Automation to Intelligence?",
         "readyDesc": [
-            "Let’s build <a href='https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smarter factories with thinking agents</a>."
+            "Let’s build <a href='https://www.rialtes.com/en/insights/blogs/implementing-ai-agents-in-manufacturing-operations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>smarter factories with thinking agents</a>."
         ],
         "faqTitle": "FAQs: Smart Manufacturing with AI Agents"
     },
