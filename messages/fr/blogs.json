@@ -527,7 +527,7 @@
                 "desc": [
                     "L’IA conversationnelle redéfinit ce que signifie « expérience résident » dans l’immobilier moderne. C’est la différence entre un locataire qui attend des heures pour une réponse et un autre qui reçoit une réponse instantanée. Entre une gestion réactive et une attention proactive.",
                     "À mesure que les résidents s’habituent aux interactions assistées par IA dans la banque, le voyage ou le commerce électronique, ils s’attendront au même niveau dans l’immobilier. Les entreprises qui s’adaptent dès maintenant prendront l’avantage ; celles qui tardent risquent d’être dépassées.",
-                    "Exelona a été conçu précisément pour cela. C’est une plateforme <a href='https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>d’opérations immobilières assistée par IA</a> intégrant CRM, maintenance, finances et communication dans un système intelligent unique.",
+                    "Exelona a été conçu précisément pour cela. C’est une plateforme <a href='https://www.rialtes.com/fr/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>d’opérations immobilières assistée par IA</a> intégrant CRM, maintenance, finances et communication dans un système intelligent unique.",
                     "Sa couche d’IA conversationnelle aide les équipes immobilières à :"
                 ],
                 "list": [
@@ -580,7 +580,7 @@
             "Voici quelque chose que tout dirigeant immobilier sait déjà mais dit rarement à voix haute : la pile technologique censée simplifier les opérations les a en réalité compliquées.",
             "La plupart des entreprises immobilières fonctionnent aujourd’hui avec un ensemble disparate de systèmes : Yardi pour la gestion des biens, Oracle ou SAP pour la finance, MRI pour l’analyse, Salesforce pour le CRM et Excel pour tout le reste. Chaque système excelle dans son domaine, mais ensemble, ils forment un écosystème fragmenté où la duplication des données, les coûts d’intégration et le chaos des rapports sont la norme. Cela entraîne des décisions retardées, une hausse des dépenses d’exploitation et des équipes qui passent plus de temps à rapprocher des feuilles Excel qu’à gérer leurs biens.",
             "Cependant, ce problème de fragmentation peut être résolu, et de nombreux dirigeants immobiliers visionnaires le résolvent grâce à la convergence CRM + ERP. En unifiant les données clients, financières et opérationnelles dans une plateforme intelligente unique, les entreprises réduisent les coûts système jusqu’à 35 %, améliorent la visibilité entre les services et libèrent leurs équipes pour se concentrer sur la croissance plutôt que sur la maintenance.",
-            "Cet article explique comment fonctionne cette convergence, pourquoi son adoption s’accélère et comment des plateformes comme <a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>le système CRM + ERP unifié Exelona</a> redéfinissent les opérations immobilières à l’ère de l’IA."
+            "Cet article explique comment fonctionne cette convergence, pourquoi son adoption s’accélère et comment des plateformes comme <a href='https://www.rialtes.com/fr/products/exelona-salesforce-for-real-estate-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>le système CRM + ERP unifié Exelona</a> redéfinissent les opérations immobilières à l’ère de l’IA."
         ],
         "hiddenData": [
             {
@@ -665,7 +665,7 @@
         "unifiedData": [
             {
                 "title": "Comment les systèmes unifiés résolvent ces défis",
-                "desc": "Une <a href='https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>plateforme immobilière intégrée et évolutive</a> remplace toutes ces pièces mobiles par un seul écosystème.",
+                "desc": "Une <a href='https://www.rialtes.com/fr/insights/blogs/smart-api-integrations-for-real-estate-2026/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>plateforme immobilière intégrée et évolutive</a> remplace toutes ces pièces mobiles par un seul écosystème.",
                 "desc2": "Imaginez ce flux de travail :",
                 "list": [
                     "Un bail est approuvé dans le CRM.",
@@ -695,7 +695,7 @@
             {
                 "title": "Le rôle de l’IA et de l’automatisation dans la convergence",
                 "subtitle": "Opérations immobilières pilotées par l’IA",
-                "desc": "La convergence seule ne suffit pas. Sans intelligence par-dessus, même les systèmes unifiés peuvent devenir statiques. C’est là que les <a href='https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>opérations immobilières pilotées par l’IA</a> changent la donne.",
+                "desc": "La convergence seule ne suffit pas. Sans intelligence par-dessus, même les systèmes unifiés peuvent devenir statiques. C’est là que les <a href='https://www.rialtes.com/fr/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>opérations immobilières pilotées par l’IA</a> changent la donne.",
                 "desc2": "Les algorithmes d’IA analysent en continu les données des modules CRM et ERP pour :",
                 "list": [
                     "Signaler les incohérences dans les données de facturation ou de bail.",
@@ -714,7 +714,7 @@
                     "Quelles propriétés sous-performent sur la collecte des loyers ?",
                     "Où les coûts de maintenance sont-ils les plus élevés ?"
                 ],
-                "desc2": "Avec des <a href='https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>données centralisées sur la location et les finances</a>, les décideurs ne dépendent plus de rapports vieux d’une semaine ni de rapprochements manuels."
+                "desc2": "Avec des <a href='https://www.rialtes.com/fr/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>données centralisées sur la location et les finances</a>, les décideurs ne dépendent plus de rapports vieux d’une semaine ni de rapprochements manuels."
             },
             {
                 "title": "Efficacité des coûts et simplification IT",
@@ -875,7 +875,7 @@
                     },
                     {
                         "title": "Expérience Locataire",
-                        "desc": "Utilise des données de sentiment et une <a href='https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>IA conversationnelle pour le support résident</a> afin de personnaliser la communication et d’améliorer la satisfaction."
+                        "desc": "Utilise des données de sentiment et une <a href='https://www.rialtes.com/fr/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>IA conversationnelle pour le support résident</a> afin de personnaliser la communication et d’améliorer la satisfaction."
                     }
                 ],
                 "desc2": "En résumé, l’IA transforme les opérations réactives en écosystèmes stratégiques basés sur les données. Elle donne aux gestionnaires d’actifs la visibilité nécessaire pour prendre des décisions éclairées sur la maintenance, la performance, l’investissement et la durabilité."
@@ -903,7 +903,7 @@
                             "L’IA identifie le technicien disponible le plus proche possédant les compétences requises.",
                             "Un ordre de travail est automatiquement généré et synchronisé avec le mobile du technicien.",
                             "Le technicien effectue la réparation, ajoute ses notes et clôture le ticket.",
-                            "Le système met à jour l’état en temps réel — offrant à la direction une visibilité complète et un <a href='https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>suivi des SLA et automatisation de la facturation dans l’immobilier</a>."
+                            "Le système met à jour l’état en temps réel — offrant à la direction une visibilité complète et un <a href='https://www.rialtes.com/fr/insights/blogs/tracking-service-level-agreements-without-losing-mind/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>suivi des SLA et automatisation de la facturation dans l’immobilier</a>."
                         ],
                         "desc": "Ce niveau de coordination permet aux grands portefeuilles immobiliers d’économiser du temps, de réduire les coûts de déplacement et de garantir qu’aucune alerte n’est manquée."
                     }
@@ -926,7 +926,7 @@
             {
                 "title": "L’Avantage Exelona – Des Opérations Immobilières Plus Intelligentes grâce à l’IA",
                 "desc": "Rendons cela concret.",
-                "desc2": "<a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Exelona</a>, la plateforme de gestion immobilière de Rialtes, unifie chaque étape du cycle de vie de la propriété — de la génération de leads à la clôture financière. Conçue pour les gestionnaires, développeurs et propriétaires, Exelona offre une automatisation alimentée par l’IA, une expérience mobile et une convergence CRM + ERP sur une seule plateforme.",
+                "desc2": "<a href='https://www.rialtes.com/fr/products/exelona-salesforce-for-real-estate-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Exelona</a>, la plateforme de gestion immobilière de Rialtes, unifie chaque étape du cycle de vie de la propriété — de la génération de leads à la clôture financière. Conçue pour les gestionnaires, développeurs et propriétaires, Exelona offre une automatisation alimentée par l’IA, une expérience mobile et une convergence CRM + ERP sur une seule plateforme.",
                 "listTitle": "Ce qui Rend Exelona Différente",
                 "list": [
                     {
@@ -1026,6 +1026,7 @@
         "predictiveDesc3": "Technologies Clés à l’Origine de la Maintenance Prédictive",
         "predictiveDesc4": "En combinant ces technologies, les gestionnaires peuvent surveiller des dizaines, voire des centaines d’actifs sans inspection manuelle — un élément fondamental de la",
         "predictiveDesc4Link": "convergence CRM + ERP pour la gestion immobilière",
+        "href":"https://www.rialtes.com/fr/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/",
         "dataPowerTitle": "Les Données qui Alimentent la Prédiction",
         "predictionDesc": "Combinées, ces données créent une image prédictive de l’état des actifs, permettant d’agir avant que les systèmes ne tombent en panne.",
         "preparingTitle": "Se Préparer à un Avenir Immobilier Piloté par l’IA",
@@ -6378,7 +6379,7 @@
             {
                 "title": "Solutions CRM d’entreprise comme fondation",
                 "paragraphs": [
-                    "Un partenaire Salesforce s'assure que le CRM n'est pas seulement installé, mais profondément intégré aux processus de l'organisation. Ils adaptent Salesforce à des modèles commerciaux uniques grâce aux <a href='https://www.rialtes.com/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>services d'optimisation de Salesforce CRM</a> — que ce soit pour gérer des cycles de vente complexes, soutenir le commerce omnicanal ou favoriser l'engagement des patients dans le secteur de la santé.",
+                    "Un partenaire Salesforce s'assure que le CRM n'est pas seulement installé, mais profondément intégré aux processus de l'organisation. Ils adaptent Salesforce à des modèles commerciaux uniques grâce aux <a href='https://www.rialtes.com/fr/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>services d'optimisation de Salesforce CRM</a> — que ce soit pour gérer des cycles de vente complexes, soutenir le commerce omnicanal ou favoriser l'engagement des patients dans le secteur de la santé.",
                     "Cela signifie une meilleure visibilité des données, des relations client renforcées et une prise de décision plus rapide. Les entreprises bénéficient d'une solution CRM évolutive plutôt que d'un système standardisé."
                 ]
             },
@@ -6398,7 +6399,7 @@
             {
                 "title": "Croître avec confiance",
                 "paragraphs": [
-                    "La croissance apporte de la complexité : plus d'utilisateurs, plus de régions et des réglementations plus strictes. Les meilleurs partenaires de conseil Salesforce veillent à ce que <a href='https://www.rialtes.com/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>les entreprises puissent évoluer sans risque</a>. Ils fournissent :"
+                    "La croissance apporte de la complexité : plus d'utilisateurs, plus de régions et des réglementations plus strictes. Les meilleurs partenaires de conseil Salesforce veillent à ce que <a href='https://www.rialtes.com/fr/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>les entreprises puissent évoluer sans risque</a>. Ils fournissent :"
                 ],
                 "list": [
                     "Cadres de gouvernance pour une utilisation conforme des données.",
@@ -6492,7 +6493,7 @@
         "partneringtomorrow": [
             "Voici l’essentiel : Salesforce est le CRM n°1 mondial, mais son véritable potentiel ne se révèle qu’avec le bon partenaire. <a href='https://appexchange.salesforce.com/appxConsultingListingDetail?listingId=a0N3A00000FZIFCUA5' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Les meilleurs partenaires Salesforce</a> aident les entreprises à prospérer en alignant la technologie avec la croissance, en accélérant l’innovation et en garantissant une valeur durable.",
             "Si vous vous demandez : « Quels sont les meilleurs partenaires de conseil Salesforce pour les entreprises ? », cherchez un partenaire avec une expertise sectorielle, un succès avéré et une vision d’avenir.",
-            "C’est exactement ce que propose Rialtes. En tant que partenaire Crest de Salesforce, Rialtes aide les entreprises avec des solutions CRM prêtes pour l’avenir, des insights basés sur l’IA et une co-innovation à grande échelle. <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Associez-vous à Rialtes dès aujourd’hui</a> et transformez Salesforce en moteur de croissance pour votre entreprise."
+            "C’est exactement ce que propose Rialtes. En tant que partenaire Crest de Salesforce, Rialtes aide les entreprises avec des solutions CRM prêtes pour l’avenir, des insights basés sur l’IA et une co-innovation à grande échelle. <a href='https://www.rialtes.com/fr/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Associez-vous à Rialtes dès aujourd’hui</a> et transformez Salesforce en moteur de croissance pour votre entreprise."
         ],
         "faqTitle": "FAQs – Foire aux questions",
         "faqs": [
@@ -6960,7 +6961,7 @@
         "slasTitle4": "Des intuitions aux données : la transition est déjà en cours",
         "gutDriven": [
             "Aux États-Unis et en Europe, les entreprises immobilières se tournent de plus en plus vers des plateformes d’analyse alimentées par l’IA pour unifier leurs opérations.",
-            "Aux États-Unis, plus de 40 % des entreprises immobilières ont adopté des tableaux de bord alimentés par l’IA pour le suivi des SLA et la <a href='https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>maintenance prédictive dans l’immobilier</a>, selon un rapport de Statista de 2025.",
+            "Aux États-Unis, plus de 40 % des entreprises immobilières ont adopté des tableaux de bord alimentés par l’IA pour le suivi des SLA et la <a href='https://www.rialtes.com/fr/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>maintenance prédictive dans l’immobilier</a>, selon un rapport de Statista de 2025.",
             "En Europe, les solutions d’opérations intelligentes devraient croître à un taux annuel composé de 15 % jusqu’en 2028, portées par la demande de transparence et d’efficacité dans les grandes portefeuilles résidentiels et commerciaux. Ce qui change, ce n’est pas seulement la technologie, c’est aussi l’état d’esprit.",
             "Au lieu de réagir après coup aux problèmes, les gestionnaires immobiliers adoptent la visibilité des données et les insights prédictifs pour éviter les retards, les surfacturations et les retards d’entretien avant qu’ils ne surviennent. Ce passage de décisions guidées par l’intuition à une exécution guidée par les données marque la nouvelle ère de l’excellence opérationnelle dans l’immobilier."
         ],
@@ -7146,7 +7147,7 @@
             {
                 "title": "Convergence CRM + ERP : la base d’une Source Unique de Vérité",
                 "desc": "Comment résoudre cela ?",
-                "desc1": "La véritable solution réside dans la <a href='https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergence entre les systèmes CRM et ERP</a> — les deux plus grands moteurs de données de vos opérations.",
+                "desc1": "La véritable solution réside dans la <a href='https://www.rialtes.com/fr/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergence entre les systèmes CRM et ERP</a> — les deux plus grands moteurs de données de vos opérations.",
                 "list": [
                     {
                         "title": "CRM (Gestion de la relation client)",
@@ -7331,7 +7332,7 @@
         "blogMainData": [
             "Chaque entreprise immobilière atteint un mur à un moment donné, généralement lorsque ses systèmes cessent de communiquer entre eux. Vous avez un outil de gestion immobilière ici, un système financier là, et un CRM ailleurs retenant vos données de prospects. Les équipes perdent des heures à courir après les mises à jour, les services financiers peinent à concilier les données et les dirigeants reçoivent des rapports déjà obsolètes au moment où ils sont imprimés.",
             "Voici la solution : les intégrations d’API ouvertes.",
-            "Un écosystème d’API ouverte permet la <a href='https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergence CRM et ERP</a> ; ainsi, vos systèmes de gestion immobilière échangent des données en temps réel. Au lieu de créer des passerelles personnalisées coûteuses, les API ouvertes permettent de connecter n’importe quel système à un autre de manière sécurisée, favorisant des opérations unifiées, une prise de décision plus rapide et, au final, une croissance plus évolutive.",
+            "Un écosystème d’API ouverte permet la <a href='https://www.rialtes.com/fr/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>convergence CRM et ERP</a> ; ainsi, vos systèmes de gestion immobilière échangent des données en temps réel. Au lieu de créer des passerelles personnalisées coûteuses, les API ouvertes permettent de connecter n’importe quel système à un autre de manière sécurisée, favorisant des opérations unifiées, une prise de décision plus rapide et, au final, une croissance plus évolutive.",
             "Voyons ce que cela signifie pour l’immobilier, quelles intégrations sont réellement nécessaires et comment des plateformes comme Exelona aident les grandes entreprises à dépasser les architectures technologiques fragmentées."
         ],
         "realEstateData": [
@@ -7463,7 +7464,7 @@
                 "title": "La Vision Globale : Les API Ouvertes Construisent des Écosystèmes Évolutifs",
                 "desc": "Voici ce qui se passe réellement en coulisses : les API ouvertes consistent à bâtir une base adaptable et évolutive pour la croissance future.",
                 "desc2": "À mesure que de nouveaux outils émergent — qu’il s’agisse de bots de location alimentés par l’IA ou de contrats basés sur la blockchain — un cadre d’API ouverte garantit que vous pouvez les intégrer sans réarchitecturer tout votre système. C’est l’opposé du verrouillage des fournisseurs. Vous décidez quels systèmes conviennent à votre entreprise et vos données circulent là où elles sont le plus utiles. C’est ce qui fait des intégrations d’API ouvertes un véritable différenciateur stratégique dans l’immobilier. Elles transforment votre paysage informatique en un écosystème flexible qui évolue avec votre entreprise.",
-                "desc3": "Most real estate firms need a platform that integrates everything they already use. <strong>Exelona</strong> est conçue comme une <a href='https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>plateforme unifiée de gestion immobilière</a>. Elle combine le CRM, l’ERP, la finance et les opérations dans un seul système, basé sur une architecture API ouverte qui se connecte parfaitement à des outils tels que :",
+                "desc3": "Most real estate firms need a platform that integrates everything they already use. <strong>Exelona</strong> est conçue comme une <a href='https://www.rialtes.com/fr/products/exelona-salesforce-for-real-estate-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>plateforme unifiée de gestion immobilière</a>. Elle combine le CRM, l’ERP, la finance et les opérations dans un seul système, basé sur une architecture API ouverte qui se connecte parfaitement à des outils tels que :",
                 "list": [
                     {
                         "title": "SAP",
@@ -7486,7 +7487,7 @@
                         "description": "pour les informations sur le portefeuille"
                     }
                 ],
-                "desc4": "Si votre configuration actuelle ressemble à un assemblage d’applications et de feuilles de calcul déconnectées, il est temps de repenser l’intégration et de <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>parler à nos experts</a>, car Exelona est conçu pour vous aider précisément à cela."
+                "desc4": "Si votre configuration actuelle ressemble à un assemblage d’applications et de feuilles de calcul déconnectées, il est temps de repenser l’intégration et de <a href='https://www.rialtes.com/fr/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>parler à nos experts</a>, car Exelona est conçu pour vous aider précisément à cela."
             }
         ],
         "faqData": [
@@ -7575,7 +7576,7 @@
                 "subTitle": "Accélérer l’innovation grâce à des solutions SAP personnalisées",
                 "desc": [
                     "Les entreprises doivent souvent étendre les capacités de SAP au-delà du standard pour répondre à des besoins métiers spécifiques.",
-                    "C’est là que les <a href='https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>solutions de développement SAP personnalisées</a> créent des extensions sectorielles, intègrent des analyses alimentées par l’IA ou permettent l’accès mobile pour les équipes sur le terrain. Le bon partenaire peut adapter SAP pour qu’il corresponde parfaitement à vos opérations.",
+                    "C’est là que les <a href='https://www.rialtes.com/fr/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>solutions de développement SAP personnalisées</a> créent des extensions sectorielles, intègrent des analyses alimentées par l’IA ou permettent l’accès mobile pour les équipes sur le terrain. Le bon partenaire peut adapter SAP pour qu’il corresponde parfaitement à vos opérations.",
                     "Par exemple :"
                 ],
                 "list": [
@@ -7596,7 +7597,7 @@
                 "subTitle": "Assurer l’adoption et l’optimisation des performances",
                 "desc": [
                     "Même le système SAP le plus sophistiqué échoue si les employés ne l’utilisent pas efficacement. C’est pourquoi les meilleurs partenaires intègrent la gestion du changement et la formation des utilisateurs dès le processus d’implémentation.",
-                    "Après le déploiement, ils surveillent les performances du système, affinent les workflows et intègrent des tableaux de bord analytiques pour mesurer les KPI, aidant à <a href='https://www.rialtes.com/insights/blogs/sap-implementation-strategies-for-2026-success/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>maximiser le ROI grâce aux meilleures pratiques de mise en œuvre</a>. Les données montrent que les entreprises disposant d’une optimisation structurée post-implémentation constatent jusqu’à 40 % d’augmentation des taux d’adoption des utilisateurs au cours de la première année, un facteur crucial pour réaliser le ROI."
+                    "Après le déploiement, ils surveillent les performances du système, affinent les workflows et intègrent des tableaux de bord analytiques pour mesurer les KPI, aidant à <a href='https://www.rialtes.com/fr/insights/blogs/sap-implementation-strategies-for-2026-success/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>maximiser le ROI grâce aux meilleures pratiques de mise en œuvre</a>. Les données montrent que les entreprises disposant d’une optimisation structurée post-implémentation constatent jusqu’à 40 % d’augmentation des taux d’adoption des utilisateurs au cours de la première année, un facteur crucial pour réaliser le ROI."
                 ]
             },
             {
@@ -7663,7 +7664,7 @@
             }
         ],
         "partnerData": [
-            "Chez Rialtes, nous croyons que la transformation se produit lorsque la technologie rencontre la vision. En tant que l’un des <a href='https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting-implementation-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>meilleurs partenaires de conseil SAP pour les entreprises</a>, nous combinons une expertise approfondie du domaine avec des méthodologies agiles pour offrir des résultats qui comptent.",
+            "Chez Rialtes, nous croyons que la transformation se produit lorsque la technologie rencontre la vision. En tant que l’un des <a href='https://www.rialtes.com/fr/solutions/enterprise-platforms/sap-consulting-implementation-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>meilleurs partenaires de conseil SAP pour les entreprises</a>, nous combinons une expertise approfondie du domaine avec des méthodologies agiles pour offrir des résultats qui comptent.",
             "De la planification stratégique au déploiement et au-delà, nos services de conseil SAP reposent sur trois principes fondamentaux : clarté, collaboration et innovation continue.",
             "Nous aidons les entreprises à maximiser leur ROI grâce aux meilleures pratiques de mise en œuvre, à concevoir des solutions de développement SAP personnalisées pour des secteurs spécifiques et à accélérer la <a href='https://www.linkedin.com/pulse/reimagine-enterprise-efficiency-sap-consulting-4pm1f/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>transformation SAP d’entreprise avec des experts en conseil</a> qui comprennent votre écosystème de bout en bout. Avec Rialtes, votre entreprise n’adopte pas simplement SAP. Elle libère tout le potentiel de la transformation."
         ],
