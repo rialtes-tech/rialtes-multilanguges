@@ -130,10 +130,7 @@ export default function Page() {
                 <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {t("voyagerDesc")}{" "}
                   <Link
-                    href={
-                      "https://www.rialtes.com/services/business-transformation/rise-with-sap-services/"
-                    }
-                  >
+                    href={`https://www.rialtes.com/${locale}/services/business-transformation/rise-with-sap-services/`}>
                     {" "}
                     <span className="text-[#0092E0] pr-2 transition duration-300 ease-out hover:text-gray-400 underline">
                       {t("voyagerDescLink")}
@@ -146,8 +143,7 @@ export default function Page() {
                   {voyagerPoints.map((step, index) => (
                     <li
                       key={index}
-                      className="relative flex-1 lg:mb-0 flex flex-col"
-                    >
+                      className="relative flex-1 lg:mb-0 flex flex-col">
                       {/* Circle */}
                       <div className="z-10 flex justify-center w-4 h-4 bg-[#0C8AED] rounded-full ring-0 ring-white lg:ring-4 shrink-0">
                         <span className="flex w-3 h-3 bg-[#0C8AED] rounded-full"></span>
@@ -283,10 +279,7 @@ export default function Page() {
                 <p className="mt-[29px] xl:mt-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {t("rialtesSignavioDesc")}{" "}
                   <Link
-                    href={
-                      "https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"
-                    }
-                  >
+                    href={`https://www.rialtes.com/${locale}/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/`}>
                     <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">
                       {" "}
                       {t("rialtesSignavioLink")}{" "}

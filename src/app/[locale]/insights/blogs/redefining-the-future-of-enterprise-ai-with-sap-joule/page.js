@@ -47,7 +47,7 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
+      <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] md:h-[700px] overflow-hidden">
         <div className="xl:block hidden">
           <Image
             src="/images/blog/data-connectivity-network-visualization-digital-tree.webp "
@@ -63,7 +63,7 @@ export default function Page() {
             priority
             height={0}
             width={0}
-            className="w-full md:h-auto h-[390px] object-cover"
+            className="w-full md:h-full h-[390px] object-cover"
           />
         </div>
       </section>
@@ -235,21 +235,21 @@ export default function Page() {
                   {t("shiftFromDesc2")}{" "}
                   <Link
                     className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                    href="https://www.rialtes.com/contact-us/?utm_source=blog&utm_medium=internal"
+                    href={`https://www.rialtes.com/${locale}/contact-us/?utm_source=blog&utm_medium=internal`}
                   >
                     {t("contactUsLink")}
                   </Link>{" "}
                   {t("shiftFromDesc3")}{" "}
                   <Link
                     className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                    href="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=internal"
+                    href={`https://www.rialtes.com/${locale}/services/hxm-transformation/successplus-successfactors-implementation-partner/?utm_source=blog&utm_medium=internal`}
                   >
                     {t("shiftFromLink2")}
                   </Link>{" "}
                   {t("shiftFromAnd")}{" "}
                   <Link
                     className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                    href="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/?utm_source=blog&utm_medium=internal"
+                    href={`https://www.rialtes.com/${locale}/services/spend-management/sapbuyplus-ariba-implementation-partner/?utm_source=blog&utm_medium=internal`}
                   >
                     {t("shiftFromLink3")}.
                   </Link>{" "}
