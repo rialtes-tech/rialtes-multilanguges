@@ -216,7 +216,7 @@ export default function Page() {
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                     {t("managedServicesTitle")}
                                 </h2>
-                                <h3 className="text-black mt-[22px] xl:mt-[30px] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold  ">
+                                <h3 className="text-black mt-[22px] xl:mt-[30px] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold leading-tight  ">
                                     {t("salesforceBusinessTitle")}
                                 </h3>
 
@@ -236,7 +236,7 @@ export default function Page() {
 
                                 </div>
 
-                                <h3 className="text-black mt-[22px] xl:mt-[30px] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold  ">
+                                <h3 className="text-black mt-[22px] xl:mt-[30px] 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold  leading-tight">
                                     {t("revenueGrowthTitle")}
                                 </h3>
 
@@ -269,10 +269,6 @@ export default function Page() {
                                 <p className=" 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                                     {t("statePropertyPara3")}
                                 </p>
-
-
-
-
 
 
                             </div>
@@ -446,7 +442,7 @@ export default function Page() {
                                         </p>
 
                                         <Link
-                                            href="https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
+                                            href={`https://www.rialtes.com/${locale}/insights/webinars/discover-the-agentic-capabilities-of-agentforce/`}
                                         >
                                             <button
                                                 className="4xl:mt-6 2xl:mt-9 xl:mt-5 mt-3 bg-[#006FBE] text-white px-6 py-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[14px] font-semibold">
@@ -467,7 +463,7 @@ export default function Page() {
                                     </p>
 
                                     <Link
-                                        href="https://www.rialtes.com/insights/webinars/discover-the-agentic-capabilities-of-agentforce/"
+                                        href={`https://www.rialtes.com/${locale}/insights/webinars/discover-the-agentic-capabilities-of-agentforce/`}
                                     >
                                         <button
                                             className="mt-4 bg-[#006FBE] text-white px-4 py-2 text-[14px] font-semibold">
