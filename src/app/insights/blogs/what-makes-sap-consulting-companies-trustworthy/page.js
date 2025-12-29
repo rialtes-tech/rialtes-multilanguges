@@ -442,7 +442,7 @@ export default function Page() {
             </section>
             {/* faq section */}
             <section className="xl:mt-[80px] mt-[40px] custom-container">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">FAQs: Salesforce Consulting Playbook</h2>
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">FAQs: Trust and Credibility in SAP Consulting</h2>
                 <div className="mt-[29px] xl:mt-[30px]">
                     <FAQAccordion faqData={faqdata} />
                 </div>
