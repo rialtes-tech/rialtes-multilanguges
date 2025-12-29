@@ -225,6 +225,17 @@
     ],
     "latestBlogs": [
       {
+        "id": 67,
+        "image": "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
+        "category": "Conseil SAP",
+        "industry": "Générique",
+        "date": "Dec. 29, 2025",
+        "url": "/what-makes-sap-consulting-companies-trustworthy/",
+        "title": "Ce qui rend les sociétés de conseil SAP dignes de confiance pour les engagements d’entreprise",
+        "alt": "Deux personnes se serrant la main avec des lignes numériques lumineuses symbolisant le partenariat et la collaboration.",
+        "description": "La confiance est le filtre qui détermine qui accède à la liste restreinte. Dans les programmes SAP en entreprise, la crédibilité n’est pas un facteur secondaire. Elle a un impact direct sur le risque, la gouvernance et la valeur à long terme. Dans ce blog, nous nous concentrons sur la manière dont les entreprises évaluent la confiance et la crédibilité des sociétés de conseil SAP lors de la phase de présélection, avant le début de l’évaluation formelle et de la contractualisation."
+      },
+      {
         "id": 66,
         "image": "/images/blog/business-growth-journey-thumbnail.webp",
         "category": "Conseil Salesforce",

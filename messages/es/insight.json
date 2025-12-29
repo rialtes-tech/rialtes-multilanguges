@@ -226,6 +226,17 @@
     ],
     "latestBlogs": [
       {
+        "id": 67,
+        "image": "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
+        "category": "Consultoría SAP",
+        "industry": "Genérico",
+        "date": "Dec. 29, 2025",
+        "url": "/what-makes-sap-consulting-companies-trustworthy/",
+        "title": "Qué hace confiables a las empresas de consultoría SAP para compromisos empresariales",
+        "alt": "Dos personas estrechándose la mano con líneas digitales brillantes que simbolizan asociación y colaboración.",
+        "description": "La confianza es el filtro que determina quién siquiera llega a la lista corta. En los programas SAP empresariales, la credibilidad no es un factor blando. Impacta directamente en el riesgo, la gobernanza y el valor a largo plazo. Con este blog, nos centramos en cómo las empresas evalúan la confianza y la credibilidad de las empresas de consultoría SAP durante la etapa de preselección, antes de que comiencen la evaluación formal y la contratación."
+      },
+      {
         "id": 66,
         "image": "/images/blog/business-growth-journey-thumbnail.webp",
         "category": "Consultoría de Salesforce",

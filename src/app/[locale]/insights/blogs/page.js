@@ -12,6 +12,7 @@ import esContent from '../../../../../messages/es/insight.json';
 import frContent from '../../../../../messages/fr/insight.json';
 import { changeLocalization } from "../../components/changeLocalization";
 
+
 export default function Page() {
   const t = useTranslations('blogs')
   const locale = useLocale();
