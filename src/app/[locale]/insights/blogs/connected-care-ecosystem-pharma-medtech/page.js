@@ -226,7 +226,7 @@ export default function Page() {
                                                         })
                                                     }
                                                 </div>
-                                                <p className="mt-[62px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> {data.desc3}</p>
+                                                <p className="xl:mt-[62px] mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> {data.desc3}</p>
                                             </div>
                                         )
                                     })
@@ -244,13 +244,13 @@ export default function Page() {
                                             return (
                                                 <div key={ind} className={`${ind == 0 ? "lg:pr-[24px]" : "lg:px-[34px]"} ${ind == 3 ? "lg:pr-0 max-lg:border-b-0 max-lg:pb-0" : ""} ${ind == 2 && "md:border-b-0"} max-lg:pb-3 max-lg:border-b lg:first:border-0 lg:border-l border-[#707070]`}>
                                                     <h3 className="pb-3 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] font-bold"> {data.title}</h3>
-                                                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] lg:w-[80%]"> {data.desc}</p>
+                                                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] "> {data.desc}</p>
                                                 </div>
                                             )
                                         })
                                     }
                                 </div>
-                                <p className="mt-[62px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] border p-4 border-[#006FBE] lg:w-[950px] xl:w-[1000px] 4xl:w-[1100px]">{t('benefitsDesc2')}</p>
+                                <p className="xl:mt-[62px] mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] border p-4 border-[#006FBE] lg:w-[950px] xl:w-[1000px] 4xl:w-[1100px]">{t('benefitsDesc2')}</p>
 
                             </div>
 

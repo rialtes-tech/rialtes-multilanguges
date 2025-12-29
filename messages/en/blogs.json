@@ -6599,8 +6599,8 @@
         ],
         "readyData": [
             "Manufacturers recognize that Industry 4.0 focuses on the ability to quickly respond to disruptions and customer demands while achieving sustainability goals. SAP Build provides teams with tools for innovation, whether it's a process engineer creating a defect logging app, a manager automating approvals, or a sustainability leader building an energy dashboard.",
-            "As a  <a href='https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>trusted SAP partner</span></a>, we help manufacturers design and deploy SAP Build solutions that fit seamlessly into your Industry 4.0 journey. From app development to process automation and integrated workspaces, we ensure your teams have the tools to accelerate digital transformation.",
-            "<a href='https://www.rialtes.com/contact-us/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Let’s talk</span> </a> about how SAP Build can unlock innovation on your shop floor."
+            "As a  <a href='https://www.rialtes.com/en/solutions/enterprise-platforms/sap-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>trusted SAP partner</span></a>, we help manufacturers design and deploy SAP Build solutions that fit seamlessly into your Industry 4.0 journey. From app development to process automation and integrated workspaces, we ensure your teams have the tools to accelerate digital transformation.",
+            "<a href='https://www.rialtes.com/en/contact-us/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Let’s talk</span> </a> about how SAP Build can unlock innovation on your shop floor."
         ],
         "blogTopic": "SAP Consulting",
         "blogTitle": "Accelerating Industry 4.0 with SAP Build: Low-Code Tools for Smarter Manufacturing",
@@ -6978,7 +6978,7 @@
         "applicationData": [
             {
                 "title": "Inventory and Supply Chain Management",
-                "desc": "<a href='https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AI agents</span> </a> track inventory levels, predict demand fluctuations, and automate restocking processes. For instance, they can monitor supply chain disruptions and suggest alternative suppliers to prevent shortages. These capabilities help minimize stockouts and reduce excess inventory, ensuring smoother operations."
+                "desc": "<a href='https://www.rialtes.com/en/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AI agents</span> </a> track inventory levels, predict demand fluctuations, and automate restocking processes. For instance, they can monitor supply chain disruptions and suggest alternative suppliers to prevent shortages. These capabilities help minimize stockouts and reduce excess inventory, ensuring smoother operations."
             },
             {
                 "title": "Financial Operations",
@@ -6994,8 +6994,8 @@
             }
         ],
         "buildingData": [
-            "Agentforce is the future of ERP systems—smart, scalable, and connected. With AI and Salesforce’s Data Cloud, enterprises achieve enhanced efficiency and innovation. Leading ERP providers like SAP, Oracle, and Microsoft are integrating <a href='https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> agentic AI</span> </a> for real-time decision-making, predictive analytics, and process automation. These efforts are turning ERP systems into intelligent ecosystems that optimize operations, improve customer experiences, and enable scalable solutions with minimal human intervention.",
-            "Rialtes allows businesses to <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>integrate customized Agentforce agents</span> </a> into their specific ERP platforms, automating repetitive tasks and optimizing workflows. Utilizing machine learning and natural language processing, we ensure these agents align with organizational goals. Enterprises can ensure their <a href='https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> Agentforce deployments</span></a> harness reliable data for intelligent automation. Contact us at <a href='mailto:sales@rialtes.com'><span class='transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com.</span></a>"
+            "Agentforce is the future of ERP systems—smart, scalable, and connected. With AI and Salesforce’s Data Cloud, enterprises achieve enhanced efficiency and innovation. Leading ERP providers like SAP, Oracle, and Microsoft are integrating <a href='https://www.rialtes.com/en/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> agentic AI</span> </a> for real-time decision-making, predictive analytics, and process automation. These efforts are turning ERP systems into intelligent ecosystems that optimize operations, improve customer experiences, and enable scalable solutions with minimal human intervention.",
+            "Rialtes allows businesses to <a href='https://www.rialtes.com/en/solutions/artificial-intelligence/salesforce-agentforce-consulting/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>integrate customized Agentforce agents</span> </a> into their specific ERP platforms, automating repetitive tasks and optimizing workflows. Utilizing machine learning and natural language processing, we ensure these agents align with organizational goals. Enterprises can ensure their <a href='https://www.rialtes.com/en/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> Agentforce deployments</span></a> harness reliable data for intelligent automation. Contact us at <a href='mailto:sales@rialtes.com'><span class='transition duration-300 ease-out hover:text-gray-400 underline'> sales@rialtes.com.</span></a>"
         ],
         "faqs": [
             {
@@ -7128,12 +7128,12 @@
         "seoDescription": "AI agents represent not just a new tool, but a fundamental shift in how work is performed, decisions are made, and problems are solved for manufacturers today.",
         "mainData": [
             "Today, manufacturers are faced with a choice: continue adding incremental automation to existing systems or make a significant leap into AI-driven operations that are capable of learning, adapting, and taking action.",
-            "AI agents represent not just a new tool, but a <a href='https://www.rialtes.com/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> fundamental shift in how work is performed</span></a>, decisions are made, and problems are solved. However, how can you determine if your factory floor and business processes are ready for this transition?",
+            "AI agents represent not just a new tool, but a <a href='https://www.rialtes.com/en/insights/blogs/why-ai-agents-are-the-future-of-smart-manufacturing/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> fundamental shift in how work is performed</span></a>, decisions are made, and problems are solved. However, how can you determine if your factory floor and business processes are ready for this transition?",
             "The key point is that adopting AI agents goes beyond merely purchasing a new tool; it involves recognizing when your business is prepared to make this leap. If you identify these five signs within your operations, acting quickly is crucial, as you may already fall behind."
         ],
         "payoffData": [
-            "If you identify with two or more of the following scenarios, you are well-positioned for adopting AI agents. Your existing systems, processes, and urgency for improvement are already in place; what you need is an intelligence layer that integrates everything and acts in real time. When implemented effectively, AI agents reduce costs, enhance agility, <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>build customer trust</span></a> , and improve the resilience of your operations.",
-            "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> Salesforce Crest Partner</span></a>, we bring the strategy, systems, and support to make AI agents real and fast. <Strong> Let’s build thinking agents for your operations.</Strong>"
+            "If you identify with two or more of the following scenarios, you are well-positioned for adopting AI agents. Your existing systems, processes, and urgency for improvement are already in place; what you need is an intelligence layer that integrates everything and acts in real time. When implemented effectively, AI agents reduce costs, enhance agility, <a href='https://www.rialtes.com/en/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>build customer trust</span></a> , and improve the resilience of your operations.",
+            "Rialtes helps manufacturers implement Agentforce across operations, sales, and service. As a <a href='https://www.rialtes.com/en/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> Salesforce Crest Partner</span></a>, we bring the strategy, systems, and support to make AI agents real and fast. <Strong> Let’s build thinking agents for your operations.</Strong>"
         ],
         "commonData": [
             {
@@ -7149,7 +7149,7 @@
             {
                 "title": "Decision-Making Bottlenecks Are Slowing Down Production",
                 "desc": "A late supplier delivery, a machine fault, or a sudden change in demand requires rapid decision-making. But too often, your processes depend on information flowing through multiple layers of people before an action is taken. By the time the decision is made, the window to prevent delays has already closed.",
-                "desc2": "<strong>AI agents</strong> act on real-time data, not last night’s batch reports. They escalate only the decisions that need human judgment, while resolving everything else on the spot. They can also model “what-if” scenarios instantly, so the impact of a change is clear before you commit.That’s a big step up from copilots or bots, which play a different role — <a href='https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>see the full comparison here</span></a>.",
+                "desc2": "<strong>AI agents</strong> act on real-time data, not last night’s batch reports. They escalate only the decisions that need human judgment, while resolving everything else on the spot. They can also model “what-if” scenarios instantly, so the impact of a change is clear before you commit.That’s a big step up from copilots or bots, which play a different role — <a href='https://www.rialtes.com/en/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>see the full comparison here</span></a>.",
                 "desc3": "<strong>Example:</strong> If a shipment is delayed, an AI agent can re-route available stock, update the production schedule, notify customers, and book alternative freight, all without waiting for a manager’s meeting."
             },
             {
@@ -7325,7 +7325,7 @@
         "longTermData": [
             {
                 "title": "Chronic disease management",
-                "desc": "Diabetes, heart disease, and cancer care require ongoing support. Here, <a href='https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>long-term patient care management strategies</a> powered by AI, wearables, and real-time monitoring can prevent complications and reduce costs."
+                "desc": "Diabetes, heart disease, and cancer care require ongoing support. Here, <a href='https://www.rialtes.com/en/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>long-term patient care management strategies</a> powered by AI, wearables, and real-time monitoring can prevent complications and reduce costs."
             },
             {
                 "title": "Remote care adoption",
@@ -7339,7 +7339,7 @@
         "reimaginingData": [
             {
                 "title": "Reimagining Digital Patient Journeys",
-                "desc": "What this really means is rethinking the way healthcare journeys are designed. Instead of focusing on isolated events (a hospital visit, a prescription, a device implant), it’s about <a href='https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>reimagining digital patient journeys in life sciences</a> from end to end.",
+                "desc": "What this really means is rethinking the way healthcare journeys are designed. Instead of focusing on isolated events (a hospital visit, a prescription, a device implant), it’s about <a href='https://www.rialtes.com/en/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>reimagining digital patient journeys in life sciences</a> from end to end.",
                 "desc2": "That includes:",
                 "list": [
                     "A seamless transition from clinical trials to therapy adoption.",
@@ -7353,7 +7353,7 @@
         "medianaData": [
             {
                 "title": "MediAIna: Redefining Connected Care",
-                "desc": "<strong>MediAIna</strong>, Rialtes’ <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>next-generation patient journey software</span></a>, is built to solve these exact challenges for the life sciences industry. It doesn’t just digitize patient interactions—it connects the entire healthcare ecosystem.",
+                "desc": "<strong>MediAIna</strong>, Rialtes’ <a href='https://www.rialtes.com/en/products/mediaina-reimagining-patient-journeys/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>next-generation patient journey software</span></a>, is built to solve these exact challenges for the life sciences industry. It doesn’t just digitize patient interactions—it connects the entire healthcare ecosystem.",
                 "desc2": "Here’s how it works:",
                 "list": [
                     {
@@ -7405,7 +7405,7 @@
         ],
         "bettingData": [
             "Connected care ecosystems are the inevitable future of healthcare. Pharma and MedTech leaders betting here will transform not only their businesses but also the lives of millions of patients.",
-            "With <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</span></a>, Rialtes is helping the industry take this leap, enabling organizations to connect, innovate, and deliver human-centered healthcare at scale. The next big bet is here. The question is: are you ready to make it?"
+            "With <a href='https://www.rialtes.com/en/products/mediaina-reimagining-patient-journeys/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</span></a>, Rialtes is helping the industry take this leap, enabling organizations to connect, innovate, and deliver human-centered healthcare at scale. The next big bet is here. The question is: are you ready to make it?"
         ],
         "faqs": [
             {
@@ -7520,6 +7520,7 @@
         "digiTitle": "Reshaping Healthcare, One Journey at a Time",
         "seoTitle": "Digital Patient Journeys: The Future of AI Healthcare | Rialtes",
         "seoDescription": "The future of healthcare is digital patient journeys—AI-driven, predictive, and personalized pathways that empower patients and providers alike.",
+        "href":"https://www.rialtes.com/en/products/mediaina-reimagining-patient-journeys/",
         "whyDigitalJourneyData": [
             "The healthcare industry is standing at a turning point. Patients no longer want fragmented experiences, waiting weeks for appointments, repeating their history at every touchpoint, or dealing with disconnected portals. They want personalized, continuous care that mirrors the convenience of other industries. This shift has accelerated the demand for digital patient journeys, where every step, from scheduling to follow-up, is connected, intelligent, and patient-centric.",
             "<a href='https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AI in healthcare</a> and life sciences is at the heart of this transformation, bringing intelligence, automation, and personalization to care delivery. Platforms like MediAIna are proving that when technology aligns with empathy, we can reshape how patients interact with providers, insurers, and researchers.",
@@ -7580,7 +7581,7 @@
                         "desc": "automated scheduling, digital insurance approvals, and real-time lab updates."
                     }
                 ],
-                "desc2": "These <a href='https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>connected care ecosystems in pharma</a> represent more than convenience. It directly impacts outcomes; patients who feel supported and engaged are more likely to follow treatment plans, reducing readmissions and improving  <a href='https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> long-term patient care management strategies </a>. "
+                "desc2": "These <a href='https://www.rialtes.com/en/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>connected care ecosystems in pharma</a> represent more than convenience. It directly impacts outcomes; patients who feel supported and engaged are more likely to follow treatment plans, reducing readmissions and improving  <a href='https://www.rialtes.com/en/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> long-term patient care management strategies </a>. "
             },
             {
                 "title": "Why Life Sciences Must Embrace Digital Patient Journeys",
@@ -7690,7 +7691,7 @@
         "medianaData": [
             {
                 "title": "MediAIna: Transforming Digital Patient Journeys in Practice",
-                "desc": "While the vision sounds futuristic, <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a>  makes it practical today.",
+                "desc": "While the vision sounds futuristic, <a href='https://www.rialtes.com/en/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a>  makes it practical today.",
                 "listTitle": "What sets MediAIna apart:",
                 "list": [
                     {
@@ -7719,7 +7720,7 @@
         ],
         "reshapingData": [
             "Here’s the truth: patients don’t just want treatment. They want experiences that reflect empathy, intelligence, and continuity. Digital patient journeys, powered by AI in life sciences, are making this possible.",
-            "Organizations that adopt platforms like MediAIna today are not just meeting patient expectations—they’re redefining the future of healthcare. And this is where Rialtes comes in. As a trusted partner in digital transformation, Rialtes combines deep domain expertise with cutting-edge technology to design, implement, and scale digital patient journeys. With <a href='https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a> as the foundation, Rialtes ensures that your organization can deliver connected, personalized, and compliant healthcare experiences, not years from now, but today.",
+            "Organizations that adopt platforms like MediAIna today are not just meeting patient expectations—they’re redefining the future of healthcare. And this is where Rialtes comes in. As a trusted partner in digital transformation, Rialtes combines deep domain expertise with cutting-edge technology to design, implement, and scale digital patient journeys. With <a href='https://www.rialtes.com/en/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a> as the foundation, Rialtes ensures that your organization can deliver connected, personalized, and compliant healthcare experiences, not years from now, but today.",
             "The future belongs to those who see patient journeys not as transactions but as relationships to be nurtured. AI is the enabler. MediAIna is the bridge. Rialtes is the partner that makes it real."
         ],
         "faqs": [
@@ -7886,7 +7887,7 @@
                 "desc": "The period right after diagnosis is critical. Patients often feel overwhelmed by medical jargon, complex treatment regimens, and the uncertainty of long-term implications. Without strong guidance, many drop off treatment plans or fail to follow care recommendations.",
                 "desc2": "This is why the diagnosis-to-care management journey needs a structured, connected approach. A patient experience platform like MediAIna bridges the gap by:",
                 "list": [
-                    "<a href='https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Digitizing patient experience in healthcare</a>",
+                    "<a href='https://www.rialtes.com/en/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Digitizing patient experience in healthcare</a>",
                     "Offering ongoing communication and check-ins to maintain adherence.",
                     "Enabling patients to access resources and support beyond the clinic."
                 ],
@@ -7941,7 +7942,7 @@
                 "desc": [
                     "The healthcare industry is at a crossroads. While diagnosis and treatment remain critical, the long-term patient journey is where the real opportunity lies. Patients no longer want fragmented care; they want connected experiences that evolve with them, from first diagnosis to ongoing management.",
                     "This is why patient experience platforms like MediAIna are set to define the next era of healthcare. They don’t just digitize processes—they humanize them, making care more accessible, predictive, and continuous.",
-                    "Behind MediAIna stands <strong>Rialtes</strong>, a consulting leader in digital transformation for the life sciences and healthcare industries. Our vision is simple: to build <a href='https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>integrated ecosystems for pharma & MedTech</a>, where patients, providers, payers, and MedTech organizations work together seamlessly. When you choose MediAIna, you’re choosing Rialtes’ promise of continuous innovation, measurable outcomes, and a future-ready healthcare ecosystem."
+                    "Behind MediAIna stands <strong>Rialtes</strong>, a consulting leader in digital transformation for the life sciences and healthcare industries. Our vision is simple: to build <a href='https://www.rialtes.com/en/insights/blogs/connected-care-ecosystem-pharma-medtech/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>integrated ecosystems for pharma & MedTech</a>, where patients, providers, payers, and MedTech organizations work together seamlessly. When you choose MediAIna, you’re choosing Rialtes’ promise of continuous innovation, measurable outcomes, and a future-ready healthcare ecosystem."
                 ]
             }
         ],
@@ -7975,7 +7976,7 @@
         "blogTopic": "MediAIna",
         "blogTitle": "How a Patient Experience Platform Transforms Care from Diagnosis to Long-Term Management",
         "medianaTitle": "MediAIna: Redefining the Integrated Healthcare Journey",
-        "medianaDesc": "Unlike traditional point solutions, <a href=' https://www.rialtes.com/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a> healthcare delivers a unified platform that integrates clinical, operational, and digital experiences. Designed specifically for the life sciences and MedTech ecosystem, it is backed by Rialtes’ <a href='https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>LifeAI+ consulting suite</a>  to ensure scalability, intelligence, and compliance.",
+        "medianaDesc": "Unlike traditional point solutions, <a href=' https://www.rialtes.com/en/products/mediaina-reimagining-patient-journeys/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MediAIna</a> healthcare delivers a unified platform that integrates clinical, operational, and digital experiences. Designed specifically for the life sciences and MedTech ecosystem, it is backed by Rialtes’ <a href='https://www.rialtes.com/en/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>LifeAI+ consulting suite</a>  to ensure scalability, intelligence, and compliance.",
         "medianaDesc2": "Here’s what sets the MediAIna patient journey platform apart:",
         "medianaDesc3": "By connecting providers, payers, MedTech, and life sciences organizations, MediAIna ensures that no part of the patient journey is fragmented or overlooked.",
         "faqTitle": "FAQs: Transforms Care with Patient Experience Platform"
@@ -9564,7 +9565,7 @@
                     {
                         "title": "Build for Scalability",
                         "desc": [
-                            "Integrations shouldn’t just solve today’s problems; they must prepare for tomorrow. Top partners build scalable frameworks that support future adoption of AI, Salesforce Data Cloud, and automation. This future-proofing ensures <a href='https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>enterprise success with Salesforce partners</a> within a year or two."
+                            "Integrations shouldn’t just solve today’s problems; they must prepare for tomorrow. Top partners build scalable frameworks that support future adoption of AI, Salesforce Data Cloud, and automation. This future-proofing ensures <a href='https://www.rialtes.com/en/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>enterprise success with Salesforce partners</a> within a year or two."
                         ]
                     }
                 ]
@@ -9644,7 +9645,7 @@
         "trustedData": [
             {
                 "title": "Rialtes – Your Trusted Salesforce Implementation Partner",
-                "desc": "When it comes to Salesforce partners, not every firm can deliver enterprise-grade success. Rialtes stands apart as a Salesforce Crest Partner, recognized for its expertise, certifications, and <a href='https://www.rialtes.com/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>tailored Salesforce development for integration</a>.",
+                "desc": "When it comes to Salesforce partners, not every firm can deliver enterprise-grade success. Rialtes stands apart as a Salesforce Crest Partner, recognized for its expertise, certifications, and <a href='https://www.rialtes.com/en/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>tailored Salesforce development for integration</a>.",
                 "desc2": "Here’s what Rialtes brings to the table:",
                 "list": [
                     {
@@ -9674,7 +9675,7 @@
         "buildData": [
             "A Salesforce implementation can either be a catalyst for growth or a costly misstep. The difference lies in execution. With the right partners and Salesforce integration partners, enterprises can reduce risk, accelerate adoption, and maximize ROI.",
             "If you’re asking <i>“How to ensure a successful Salesforce implementation?”</i> or <i>“What are the best practices for Salesforce integration?”</i> the answer is simple: partner with experts who combine strategy, industry knowledge, and technical excellence.",
-            "That’s exactly what Rialtes offers. As a Salesforce Crest Partner, Rialtes has helped enterprises across industries implement and integrate Salesforce seamlessly—delivering measurable ROI while setting the stage for future innovation. <a href='https://www.rialtes.com/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Partner with Rialtes</a> and turn Salesforce into the backbone of your enterprise success."
+            "That’s exactly what Rialtes offers. As a Salesforce Crest Partner, Rialtes has helped enterprises across industries implement and integrate Salesforce seamlessly—delivering measurable ROI while setting the stage for future innovation. <a href='https://www.rialtes.com/en/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Partner with Rialtes</a> and turn Salesforce into the backbone of your enterprise success."
         ],
         "faqs": [
             {
